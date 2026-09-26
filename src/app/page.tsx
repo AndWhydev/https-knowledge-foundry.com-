@@ -255,6 +255,84 @@ export default function HomePage() {
         </Container>
       </Section>
 
+      {/* CINEMATIC LATTICE — Higgsfield video showcase */}
+      <section className="relative overflow-hidden bg-[color:var(--color-ink)] text-white py-20 md:py-28">
+        <div
+          className="absolute inset-0 opacity-[0.06]"
+          aria-hidden
+          style={{
+            backgroundImage:
+              "linear-gradient(to right, rgba(255,255,255,0.4) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.4) 1px, transparent 1px)",
+            backgroundSize: "56px 56px",
+          }}
+        />
+        <Container>
+          <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)] gap-10 lg:gap-16 items-center">
+            <div>
+              <Eyebrow>Framework, in motion</Eyebrow>
+              <SplitText as="h2" className="text-display-2 mt-5 text-white max-w-[16ch]" stagger={0.05}>
+                Structure that assembles itself, in the order it must.
+              </SplitText>
+              <Reveal delay={0.35}>
+                <p className="text-lede mt-6 text-white/70 max-w-[46ch]">
+                  Concepts seat into place. Relationships light up. The framework
+                  is the artefact you keep — reviewable, versioned, exportable.
+                </p>
+              </Reveal>
+              <Reveal delay={0.5}>
+                <div className="mt-8 flex flex-wrap gap-3 items-center">
+                  <Magnetic strength={0.2}>
+                    <Button href="/platform/framework-intelligence" variant="forge" size="md" arrow>
+                      Framework Intelligence
+                    </Button>
+                  </Magnetic>
+                  <Link
+                    href="/platform/see-it-work"
+                    className="text-[14px] font-medium text-white/70 hover:text-white transition-colors"
+                  >
+                    See it work →
+                  </Link>
+                </div>
+              </Reveal>
+            </div>
+            <Reveal delay={0.15} className="relative">
+              <div className="relative rounded-[var(--radius-lg)] overflow-hidden border border-white/10 shadow-[0_40px_100px_-20px_rgba(0,0,0,0.6)]">
+                <video
+                  className="w-full h-auto"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  preload="metadata"
+                  aria-hidden
+                  poster="/media/editorial-blueprint.png"
+                >
+                  <source src="/media/lattice-loop.mp4" type="video/mp4" />
+                </video>
+                {/* Corner marks */}
+                {[
+                  "top-3 left-3 border-t-2 border-l-2",
+                  "top-3 right-3 border-t-2 border-r-2",
+                  "bottom-3 left-3 border-b-2 border-l-2",
+                  "bottom-3 right-3 border-b-2 border-r-2",
+                ].map((pos, i) => (
+                  <span
+                    key={i}
+                    aria-hidden
+                    className={`absolute w-3.5 h-3.5 border-[color:var(--color-forge)] ${pos}`}
+                  />
+                ))}
+                {/* Status pill */}
+                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex items-center gap-2 rounded-full bg-black/70 backdrop-blur border border-white/10 px-4 py-1.5">
+                  <span className="h-1.5 w-1.5 rounded-full bg-[color:var(--color-forge)]" style={{ animation: "forge-glow 2s ease-in-out infinite" }} />
+                  <span className="text-[11px] font-medium tracking-tight text-white/80">Live · Framework assembling</span>
+                </div>
+              </div>
+            </Reveal>
+          </div>
+        </Container>
+      </section>
+
       {/* ANATOMY — editorial still with parallax */}
       <Section className="bg-[color:var(--color-canvas-warm)] relative overflow-hidden" spacing="loose">
         <FloatingCubes className="absolute inset-0 pointer-events-none opacity-40 hidden md:block" />

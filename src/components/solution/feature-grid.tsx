@@ -1,5 +1,6 @@
 import { Container, Section, Eyebrow } from "@/components/ui/container";
 import { Reveal, RevealStagger, RevealItem } from "@/components/motion/reveal";
+import { SplitText } from "@/components/motion/split-text";
 import type { ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
@@ -34,11 +35,11 @@ export function FeatureGrid({
       <Container>
         <div className="max-w-[720px] mb-14">
           {eyebrow && <Eyebrow>{eyebrow}</Eyebrow>}
-          <Reveal>
-            <h2 className={cn("text-display-2 mt-5", tone === "ink" && "text-white")}>{title}</h2>
-          </Reveal>
+          <SplitText as="h2" className={cn("text-display-2 mt-5", tone === "ink" && "text-white")} stagger={0.05}>
+            {title}
+          </SplitText>
           {lede && (
-            <Reveal delay={0.1}>
+            <Reveal delay={0.35}>
               <p className={cn("text-lede mt-5", tone === "ink" && "text-white/70")}>{lede}</p>
             </Reveal>
           )}
@@ -57,38 +58,50 @@ export function FeatureGrid({
             <RevealItem
               key={f.title}
               className={cn(
-                "p-8",
-                tone === "canvas" && "bg-white",
-                tone === "warm" && "bg-[color:var(--color-canvas-warm)]",
-                tone === "ink" && "bg-[color:var(--color-ink)]",
+                "group relative p-8 transition-colors",
+                tone === "canvas" && "bg-white hover:bg-[color:var(--color-canvas-warm)]",
+                tone === "warm" && "bg-[color:var(--color-canvas-warm)] hover:bg-white",
+                tone === "ink" && "bg-[color:var(--color-ink)] hover:bg-[color:var(--color-ink-soft)]/40",
               )}
             >
-              {f.icon && (
-                <div
+              {/* Ambient hover glow */}
+              <div
+                className={cn(
+                  "pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500",
+                  tone === "ink"
+                    ? "bg-[radial-gradient(circle_at_top_left,rgba(239,103,4,0.10),transparent_60%)]"
+                    : "bg-[radial-gradient(circle_at_top_left,rgba(239,103,4,0.06),transparent_60%)]",
+                )}
+                aria-hidden
+              />
+              <div className="relative">
+                {f.icon && (
+                  <div
+                    className={cn(
+                      "inline-flex h-11 w-11 items-center justify-center rounded-[var(--radius-sm)] mb-5 text-[color:var(--color-forge)] transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-3",
+                      tone === "ink" ? "bg-white/6" : "bg-[color:var(--color-canvas-tint)]",
+                    )}
+                  >
+                    {f.icon}
+                  </div>
+                )}
+                <h3
                   className={cn(
-                    "inline-flex h-11 w-11 items-center justify-center rounded-[var(--radius-sm)] mb-5 text-[color:var(--color-forge)]",
-                    tone === "ink" ? "bg-white/6" : "bg-[color:var(--color-canvas-tint)]",
+                    "text-[18px] leading-[1.28] font-semibold tracking-tight font-[family-name:var(--font-display)] mb-3 transition-colors",
+                    tone === "ink" ? "text-white group-hover:text-[color:var(--color-forge)]" : "text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)]",
                   )}
                 >
-                  {f.icon}
-                </div>
-              )}
-              <h3
-                className={cn(
-                  "text-[18px] leading-[1.28] font-semibold tracking-tight font-[family-name:var(--font-display)] mb-3",
-                  tone === "ink" ? "text-white" : "text-[color:var(--color-ink)]",
-                )}
-              >
-                {f.title}
-              </h3>
-              <p
-                className={cn(
-                  "text-[13.5px] leading-[1.6]",
-                  tone === "ink" ? "text-white/60" : "text-[color:var(--color-ink-muted)]",
-                )}
-              >
-                {f.desc}
-              </p>
+                  {f.title}
+                </h3>
+                <p
+                  className={cn(
+                    "text-[13.5px] leading-[1.6]",
+                    tone === "ink" ? "text-white/60" : "text-[color:var(--color-ink-muted)]",
+                  )}
+                >
+                  {f.desc}
+                </p>
+              </div>
             </RevealItem>
           ))}
         </RevealStagger>
