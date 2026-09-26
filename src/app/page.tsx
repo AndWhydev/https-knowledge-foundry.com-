@@ -7,12 +7,17 @@ import {
 } from "lucide-react";
 import { Container, Section, Eyebrow } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
 import { HeroLattice } from "@/components/hero-lattice";
 import { Marquee } from "@/components/marquee";
 import { Reveal, RevealStagger, RevealItem } from "@/components/motion/reveal";
-import { EditorialStill } from "@/components/editorial-still";
+import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 import { HeroVideo } from "@/components/hero-video";
+import { SplitText, Highlight } from "@/components/motion/split-text";
+import { Magnetic } from "@/components/motion/magnetic";
+import { CountUp } from "@/components/motion/count-up";
+import { TiltCard } from "@/components/motion/tilt-card";
+import { CursorSpotlight } from "@/components/motion/cursor-spotlight";
+import { FloatingCubes } from "@/components/motion/floating-cubes";
 
 export const metadata: Metadata = {
   title: "Knowledge Foundry — Structured knowledge. Deliberate instruction.",
@@ -68,11 +73,14 @@ export default function HomePage() {
   return (
     <>
       {/* HERO */}
-      <Section spacing="loose" className="relative overflow-hidden">
-        <div className="absolute inset-0 -z-10 grid-lattice opacity-[0.5]" aria-hidden />
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1200px] h-[600px] -z-10 pointer-events-none" aria-hidden>
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(239,103,4,0.08),transparent_60%)]" />
+      <section className="relative overflow-hidden pt-14 md:pt-24 pb-24 md:pb-32">
+        {/* Ambient layers */}
+        <div className="absolute inset-0 -z-10 grid-lattice opacity-[0.55]" aria-hidden />
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1400px] h-[700px] -z-10 pointer-events-none" aria-hidden>
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(239,103,4,0.10),transparent_60%)]" />
         </div>
+        <CursorSpotlight size={620} color="rgba(239,103,4,0.09)" className="hidden md:block" />
+        <FloatingCubes className="absolute inset-0 -z-10 pointer-events-none hidden md:block" />
 
         <Container>
           <div className="grid lg:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)] gap-12 lg:gap-20 items-center">
@@ -80,38 +88,46 @@ export default function HomePage() {
               <Reveal>
                 <Eyebrow>Structured knowledge · Deliberate instruction</Eyebrow>
               </Reveal>
-              <Reveal delay={0.05}>
-                <h1 className="text-display-1 mt-6 max-w-[18ch]">
-                  Define what should exist,{" "}
-                  <span className="text-[color:var(--color-forge)]">before writing what does.</span>
-                </h1>
-              </Reveal>
-              <Reveal delay={0.15}>
+              <SplitText
+                as="h1"
+                className="text-display-1 mt-6 max-w-[18ch]"
+                delay={0.1}
+              >
+                Define what should exist,{" "}
+                <Highlight className="text-[color:var(--color-forge)]">
+                  before writing what does.
+                </Highlight>
+              </SplitText>
+              <Reveal delay={0.55}>
                 <p className="text-lede mt-7 max-w-[52ch]">
                   Knowledge Foundry turns subjects, documents, and requirements into structured learning
                   systems. Reviewable, standards-aligned, and ready for delivery — with framework defined
                   before content is written.
                 </p>
               </Reveal>
-              <Reveal delay={0.25}>
-                <div className="mt-9 flex flex-wrap gap-3">
-                  <Button href="/demonstration" variant="primary" size="lg" arrow>
-                    Request a demonstration
-                  </Button>
-                  <Button href="/platform/see-it-work" variant="secondary" size="lg">
-                    See it work
-                  </Button>
+              <Reveal delay={0.7}>
+                <div className="mt-9 flex flex-wrap gap-3 items-center">
+                  <Magnetic strength={0.22}>
+                    <Button href="/demonstration" variant="primary" size="lg" arrow>
+                      Request a demonstration
+                    </Button>
+                  </Magnetic>
+                  <Magnetic strength={0.14}>
+                    <Button href="/platform/see-it-work" variant="secondary" size="lg">
+                      See it work
+                    </Button>
+                  </Magnetic>
                 </div>
               </Reveal>
-              <Reveal delay={0.35}>
+              <Reveal delay={0.85}>
                 <div className="mt-10 pt-8 border-t border-[color:var(--color-hairline)] grid grid-cols-3 gap-8 max-w-lg">
-                  <Stat value="4-step" label="Interpret → Structure → Produce → Deliver" />
-                  <Stat value="0" label="Content written before structure is defined" />
-                  <Stat value="100%" label="Traceable to requirement" />
+                  <AnimatedStat value={4} suffix="-step" label="Interpret → Structure → Produce → Deliver" />
+                  <AnimatedStat value={0} label="Content written before structure is defined" />
+                  <AnimatedStat value={100} suffix="%" label="Traceable to requirement" />
                 </div>
               </Reveal>
             </div>
-            <Reveal delay={0.15} className="relative">
+            <Reveal delay={0.2} className="relative">
               <HeroLattice className="w-full aspect-square max-w-[520px] mx-auto" />
               <div className="absolute inset-0 -z-10 opacity-40 pointer-events-none mix-blend-multiply hidden lg:block" aria-hidden>
                 <HeroVideo src="/media/hero-loop.mp4" className="rounded-[var(--radius-xl)]" />
@@ -123,7 +139,7 @@ export default function HomePage() {
             </Reveal>
           </div>
         </Container>
-      </Section>
+      </section>
 
       {/* PROOF STRIP */}
       <Section spacing="compact" className="border-y border-[color:var(--color-hairline)] bg-[color:var(--color-canvas-warm)]">
@@ -147,16 +163,15 @@ export default function HomePage() {
       </Section>
 
       {/* THE PROBLEM */}
-      <Section>
+      <Section className="relative overflow-hidden">
+        <CursorSpotlight size={520} color="rgba(239,103,4,0.06)" className="hidden lg:block" />
         <Container>
           <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)] gap-10 lg:gap-20 items-start">
             <div>
               <Eyebrow>The problem</Eyebrow>
-              <Reveal>
-                <h2 className="text-display-2 mt-5 max-w-[18ch]">
-                  Training that fails an audit was doomed before it was written.
-                </h2>
-              </Reveal>
+              <SplitText as="h2" className="text-display-2 mt-5 max-w-[18ch]" stagger={0.045}>
+                Training that fails an audit was doomed before it was written.
+              </SplitText>
             </div>
             <div className="lg:pt-3">
               <Reveal delay={0.1}>
@@ -172,15 +187,15 @@ export default function HomePage() {
               </Reveal>
               <RevealStagger className="mt-10 grid sm:grid-cols-3 gap-6" as="ul">
                 {[
-                  { stat: "68%", desc: "of compliance findings trace back to a training or knowledge gap." },
-                  { stat: "3–7×", desc: "cost of remediating knowledge after an incident vs building it correctly." },
-                  { stat: "Weeks", desc: "typical delay between a policy change and its arrival in training." },
+                  { stat: 68, suffix: "%", desc: "of compliance findings trace back to a training or knowledge gap." },
+                  { stat: 5, suffix: "×", desc: "typical cost of remediating knowledge after an incident vs building it correctly." },
+                  { stat: 6, suffix: " wks", desc: "typical delay between a policy change and its arrival in training." },
                 ].map((s) => (
-                  <RevealItem key={s.stat} as="li" className="border-t border-[color:var(--color-hairline-strong)] pt-4">
-                    <div className="text-[32px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-[color:var(--color-ink)]">
-                      {s.stat}
+                  <RevealItem key={s.desc} as="li" className="border-t border-[color:var(--color-hairline-strong)] pt-4">
+                    <div className="text-[36px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-[color:var(--color-ink)] leading-none">
+                      <CountUp value={s.stat} suffix={s.suffix} duration={1.8} />
                     </div>
-                    <div className="mt-2 text-[13px] leading-[1.55] text-[color:var(--color-ink-muted)]">
+                    <div className="mt-3 text-[13px] leading-[1.55] text-[color:var(--color-ink-muted)]">
                       {s.desc}
                     </div>
                   </RevealItem>
@@ -203,12 +218,10 @@ export default function HomePage() {
         <Container>
           <div className="max-w-[720px] mb-16">
             <Eyebrow>The system</Eyebrow>
-            <Reveal>
-              <h2 className="text-display-2 mt-5 text-white">
-                Four moves, in the only order that works.
-              </h2>
-            </Reveal>
-            <Reveal delay={0.1}>
+            <SplitText as="h2" className="text-display-2 mt-5 text-white" stagger={0.05}>
+              Four moves, in the only order that works.
+            </SplitText>
+            <Reveal delay={0.15}>
               <p className="text-lede mt-6 text-white/70">
                 The Foundry maps the subject, defines the framework, and only then produces the
                 instruction. Every element traces back to a requirement — so the finished program
@@ -219,37 +232,40 @@ export default function HomePage() {
 
           <RevealStagger className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-white/8 rounded-[var(--radius-lg)] overflow-hidden">
             {process.map((step, i) => (
-              <RevealItem key={step.n} className="bg-[color:var(--color-ink)] p-8 relative">
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.18em] text-[color:var(--color-forge)]">
-                    STEP {step.n}
+              <RevealItem key={step.n} className="bg-[color:var(--color-ink)] p-8 relative group">
+                {/* Animated seam gradient on hover */}
+                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-[radial-gradient(circle_at_top_left,rgba(239,103,4,0.10),transparent_60%)]" aria-hidden />
+                <div className="relative">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.18em] text-[color:var(--color-forge)]">
+                      STEP {step.n}
+                    </div>
+                    {i < process.length - 1 && (
+                      <ArrowRight className="h-3.5 w-3.5 text-white/25 hidden lg:block" aria-hidden />
+                    )}
                   </div>
-                  {i < process.length - 1 && (
-                    <ArrowRight className="h-3.5 w-3.5 text-white/25 hidden lg:block" aria-hidden />
-                  )}
+                  <h3 className="text-[22px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-white mb-3">
+                    {step.title}
+                  </h3>
+                  <p className="text-[13.5px] leading-[1.6] text-white/60">{step.desc}</p>
                 </div>
-                <h3 className="text-[22px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-white mb-3">
-                  {step.title}
-                </h3>
-                <p className="text-[13.5px] leading-[1.6] text-white/60">{step.desc}</p>
               </RevealItem>
             ))}
           </RevealStagger>
         </Container>
       </Section>
 
-      {/* ANATOMY — editorial still */}
-      <Section className="bg-[color:var(--color-canvas-warm)]" spacing="loose">
+      {/* ANATOMY — editorial still with parallax */}
+      <Section className="bg-[color:var(--color-canvas-warm)] relative overflow-hidden" spacing="loose">
+        <FloatingCubes className="absolute inset-0 pointer-events-none opacity-40 hidden md:block" />
         <Container>
           <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.35fr)] gap-10 lg:gap-16 items-center">
             <div>
               <Eyebrow>Anatomy of a knowledge system</Eyebrow>
-              <Reveal>
-                <h2 className="text-display-2 mt-5 max-w-[16ch]">
-                  Concepts. Relationships. Evidence.
-                </h2>
-              </Reveal>
-              <Reveal delay={0.1}>
+              <SplitText as="h2" className="text-display-2 mt-5 max-w-[16ch]" stagger={0.05}>
+                Concepts. Relationships. Evidence.
+              </SplitText>
+              <Reveal delay={0.15}>
                 <p className="text-lede mt-6 max-w-[46ch]">
                   Each cube is a concept. Each line is a relationship. The glowing
                   nodes are the points at which capability is verified. Nothing in a
@@ -270,72 +286,90 @@ export default function HomePage() {
                 ))}
               </RevealStagger>
             </div>
-            <Reveal delay={0.1}>
-              <EditorialStill src="editorial-blueprint.png" className="shadow-[var(--shadow-lifted)]" />
-            </Reveal>
+            <AnimatedEditorial src="editorial-blueprint.png" parallax={50} />
           </div>
         </Container>
       </Section>
 
       {/* CAPABILITIES GRID */}
-      <Section>
+      <Section className="relative overflow-hidden">
+        <CursorSpotlight size={640} color="rgba(239,103,4,0.06)" className="hidden lg:block" />
         <Container>
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
             <div className="max-w-[640px]">
               <Eyebrow>The Platform</Eyebrow>
-              <Reveal>
-                <h2 className="text-display-2 mt-5">
-                  Eight capabilities. One coherent system.
-                </h2>
-              </Reveal>
+              <SplitText as="h2" className="text-display-2 mt-5" stagger={0.05}>
+                Eight capabilities. One coherent system.
+              </SplitText>
             </div>
             <Reveal delay={0.1}>
-              <Link
-                href="/platform"
-                className="group inline-flex items-center gap-2 text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)]"
-              >
-                <span className="border-b border-current pb-0.5">Explore the platform</span>
-                <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
-              </Link>
+              <Magnetic>
+                <Link
+                  href="/platform"
+                  className="group inline-flex items-center gap-2 text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)]"
+                >
+                  <span className="border-b border-current pb-0.5">Explore the platform</span>
+                  <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
+                </Link>
+              </Magnetic>
             </Reveal>
           </div>
 
           <RevealStagger className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
             {capabilities.map((c) => (
               <RevealItem key={c.title}>
-                <Card
-                  href={c.href}
-                  icon={c.icon}
-                  title={c.title}
-                  description={c.desc}
-                />
+                <TiltCard>
+                  <Link
+                    href={c.href}
+                    className="group relative flex h-full flex-col p-7 rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white hover:border-[color:var(--color-ink-soft)] transition-all"
+                  >
+                    <div className="inline-flex h-11 w-11 items-center justify-center rounded-[var(--radius-sm)] bg-[color:var(--color-canvas-tint)] text-[color:var(--color-forge)] mb-6">
+                      {c.icon}
+                    </div>
+                    <h3 className="text-[19px] leading-[1.25] font-semibold tracking-tight font-[family-name:var(--font-display)] mb-3">
+                      {c.title}
+                    </h3>
+                    <p className="text-[14px] leading-[1.6] text-[color:var(--color-ink-muted)] flex-1">
+                      {c.desc}
+                    </p>
+                    <div className="mt-6 inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] transition-colors">
+                      Explore
+                      <ArrowUpRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
+                    </div>
+                  </Link>
+                </TiltCard>
               </RevealItem>
             ))}
           </RevealStagger>
         </Container>
       </Section>
 
-      {/* PROGRAMS BY OUTCOME */}
+      {/* PROGRAMS BY OUTCOME with editorial imagery */}
       <Section className="bg-[color:var(--color-canvas-warm)]">
         <Container>
           <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,2fr)] gap-10 lg:gap-16">
             <div className="lg:sticky lg:top-28 lg:self-start">
               <Eyebrow>By outcome</Eyebrow>
-              <Reveal>
-                <h2 className="text-display-2 mt-5">
-                  Purpose-built for what you are actually accountable for.
-                </h2>
-              </Reveal>
-              <Reveal delay={0.1}>
+              <SplitText as="h2" className="text-display-2 mt-5" stagger={0.05}>
+                Purpose-built for what you are actually accountable for.
+              </SplitText>
+              <Reveal delay={0.15}>
                 <p className="text-lede mt-6">
                   Not another LMS. Not another content generator. A system that produces the
                   program the outcome requires — with the evidence to prove it did.
                 </p>
               </Reveal>
-              <Reveal delay={0.2}>
-                <Button href="/programs" variant="secondary" size="md" arrow className="mt-8">
-                  All programs
-                </Button>
+              <Reveal delay={0.25}>
+                <Magnetic>
+                  <Button href="/programs" variant="secondary" size="md" arrow className="mt-8">
+                    All programs
+                  </Button>
+                </Magnetic>
+              </Reveal>
+              <Reveal delay={0.35}>
+                <div className="mt-10 hidden lg:block">
+                  <AnimatedEditorial src="editorial-transformation.png" parallax={30} float={false} sizes="360px" />
+                </div>
               </Reveal>
             </div>
             <RevealStagger className="divide-y divide-[color:var(--color-hairline-strong)] border-y border-[color:var(--color-hairline-strong)]">
@@ -345,7 +379,7 @@ export default function HomePage() {
                     href={p.href}
                     className="group flex items-start gap-6 py-7 hover:bg-white/40 transition-colors -mx-2 px-2 rounded"
                   >
-                    <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-[var(--radius-sm)] bg-white border border-[color:var(--color-hairline)] text-[color:var(--color-forge)]">
+                    <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-[var(--radius-sm)] bg-white border border-[color:var(--color-hairline)] text-[color:var(--color-forge)] group-hover:border-[color:var(--color-forge)] transition-colors">
                       {p.icon}
                     </div>
                     <div className="flex-1">
@@ -366,99 +400,93 @@ export default function HomePage() {
       </Section>
 
       {/* INDUSTRIES */}
-      <Section>
+      <Section className="relative overflow-hidden">
         <Container>
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
             <div className="max-w-[640px]">
               <Eyebrow>By industry</Eyebrow>
-              <Reveal>
-                <h2 className="text-display-2 mt-5">
-                  Regulated, evidenced, audit-ready in your sector.
-                </h2>
-              </Reveal>
+              <SplitText as="h2" className="text-display-2 mt-5" stagger={0.05}>
+                Regulated, evidenced, audit-ready in your sector.
+              </SplitText>
             </div>
             <Reveal delay={0.1}>
-              <Link
-                href="/industries"
-                className="group inline-flex items-center gap-2 text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)]"
-              >
-                <span className="border-b border-current pb-0.5">All industries</span>
-                <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
-              </Link>
+              <Magnetic>
+                <Link
+                  href="/industries"
+                  className="group inline-flex items-center gap-2 text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)]"
+                >
+                  <span className="border-b border-current pb-0.5">All industries</span>
+                  <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
+                </Link>
+              </Magnetic>
             </Reveal>
           </div>
 
           <RevealStagger className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {industries.map((ind) => (
               <RevealItem key={ind.title}>
-                <Link
-                  href={ind.href}
-                  className="group block relative overflow-hidden rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white p-7 h-full hover:border-[color:var(--color-ink-soft)] transition-all hover:-translate-y-1 duration-300"
-                >
-                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-[radial-gradient(circle_at_top_right,rgba(239,103,4,0.05),transparent_60%)]" aria-hidden />
-                  <div className="relative">
-                    <div className="text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)] mb-3">
-                      {ind.note}
+                <TiltCard maxTilt={3}>
+                  <Link
+                    href={ind.href}
+                    className="group block relative overflow-hidden rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white p-7 h-full hover:border-[color:var(--color-ink-soft)] transition-all"
+                  >
+                    <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-[radial-gradient(circle_at_top_right,rgba(239,103,4,0.06),transparent_60%)]" aria-hidden />
+                    <div className="relative">
+                      <div className="text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)] mb-3">
+                        {ind.note}
+                      </div>
+                      <h3 className="text-[22px] font-[family-name:var(--font-display)] font-semibold tracking-tight">
+                        {ind.title}
+                      </h3>
+                      <div className="mt-16 inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] transition-colors">
+                        View sector view
+                        <ArrowUpRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
+                      </div>
                     </div>
-                    <h3 className="text-[22px] font-[family-name:var(--font-display)] font-semibold tracking-tight">
-                      {ind.title}
-                    </h3>
-                    <div className="mt-16 inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] transition-colors">
-                      View sector view
-                      <ArrowUpRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
-                    </div>
-                  </div>
-                </Link>
+                  </Link>
+                </TiltCard>
               </RevealItem>
             ))}
           </RevealStagger>
         </Container>
       </Section>
 
-      {/* DIFFERENTIATION */}
-      <Section spacing="loose" className="bg-[color:var(--color-ink)] text-white relative overflow-hidden">
-        <div className="absolute inset-0 opacity-[0.04]" aria-hidden style={{
+      {/* GOVERNANCE / EVIDENCE showcase with editorial */}
+      <Section className="bg-[color:var(--color-ink)] text-white relative overflow-hidden" spacing="loose">
+        <div className="absolute inset-0 opacity-[0.05]" aria-hidden style={{
           backgroundImage: "linear-gradient(to right, rgba(255,255,255,0.4) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.4) 1px, transparent 1px)",
           backgroundSize: "56px 56px",
         }} />
         <Container>
-          <div className="max-w-[800px] mb-16">
-            <Eyebrow>Not an LMS. Not a content generator.</Eyebrow>
-            <Reveal>
-              <h2 className="text-display-2 mt-5 text-white">
+          <div className="grid lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] gap-12 items-center">
+            <AnimatedEditorial src="editorial-governance.png" parallax={45} />
+            <div>
+              <Eyebrow>Not an LMS. Not a content generator.</Eyebrow>
+              <SplitText as="h2" className="text-display-2 mt-5 text-white max-w-[16ch]" stagger={0.05}>
                 A knowledge system, not a document with a login.
-              </h2>
-            </Reveal>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-px bg-white/10 rounded-[var(--radius-lg)] overflow-hidden">
-            {[
-              {
-                icon: <Gauge className="h-5 w-5" />,
-                title: "Structure before content",
-                desc: "Traditional authoring produces documents that hope to cover a subject. The Foundry defines what must be covered — and only then writes.",
-              },
-              {
-                icon: <LineChart className="h-5 w-5" />,
-                title: "Verification, not completion",
-                desc: "A person who clicked through a module has clicked. A person whose capability the system has verified is competent. These are not the same event.",
-              },
-              {
-                icon: <Sparkles className="h-5 w-5" />,
-                title: "Evidence on demand",
-                desc: "Every decision, every review, every version, exportable. When the regulator asks how you know, the answer is a file.",
-              },
-            ].map((item, i) => (
-              <Reveal key={item.title} delay={i * 0.08} className="bg-[color:var(--color-ink)] p-8">
-                <div className="flex h-11 w-11 items-center justify-center rounded-[var(--radius-sm)] bg-white/6 text-[color:var(--color-forge)] mb-6">
-                  {item.icon}
-                </div>
-                <h3 className="text-[20px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-white mb-3">
-                  {item.title}
-                </h3>
-                <p className="text-[13.5px] leading-[1.6] text-white/60">{item.desc}</p>
+              </SplitText>
+              <Reveal delay={0.15}>
+                <p className="text-lede mt-6 text-white/70 max-w-[46ch]">
+                  Every decision, every review, every version, exportable. When the
+                  regulator asks how you know, the answer is a file.
+                </p>
               </Reveal>
-            ))}
+              <RevealStagger className="mt-8 space-y-4" as="ul">
+                {[
+                  { title: "Structure before content", desc: "Framework defined first. Instruction generated to fit — not the reverse." },
+                  { title: "Verification, not completion", desc: "Capability confirmed against the framework, not clicks against a page count." },
+                  { title: "Evidence on demand", desc: "Every decision, timestamp, and version exportable to your audit team." },
+                ].map((item) => (
+                  <RevealItem key={item.title} as="li" className="flex gap-4 items-start border-t border-white/10 pt-4">
+                    <div className="mt-1 h-2 w-2 rounded-full bg-[color:var(--color-forge)] shrink-0" style={{ animation: "forge-glow 2.4s ease-in-out infinite" }} />
+                    <div>
+                      <div className="text-[15px] font-semibold text-white">{item.title}</div>
+                      <div className="text-[13.5px] text-white/60 mt-1">{item.desc}</div>
+                    </div>
+                  </RevealItem>
+                ))}
+              </RevealStagger>
+            </div>
           </div>
         </Container>
       </Section>
@@ -468,15 +496,14 @@ export default function HomePage() {
         <Container>
           <div className="relative overflow-hidden rounded-[var(--radius-xl)] border border-[color:var(--color-hairline)] bg-gradient-to-br from-white to-[color:var(--color-canvas-warm)] p-10 md:p-16">
             <div className="absolute -top-24 -right-24 h-96 w-96 rounded-full bg-[radial-gradient(circle,rgba(239,103,4,0.12),transparent_70%)]" aria-hidden />
+            <FloatingCubes className="absolute inset-0 opacity-40 pointer-events-none hidden md:block" />
             <div className="relative grid md:grid-cols-[1.4fr_1fr] gap-10 items-center">
               <div>
                 <Eyebrow>Ready to see it?</Eyebrow>
-                <Reveal>
-                  <h2 className="text-display-2 mt-5 max-w-[20ch]">
-                    Bring a subject. Leave with a framework.
-                  </h2>
-                </Reveal>
-                <Reveal delay={0.1}>
+                <SplitText as="h2" className="text-display-2 mt-5 max-w-[20ch]" stagger={0.05}>
+                  Bring a subject. Leave with a framework.
+                </SplitText>
+                <Reveal delay={0.15}>
                   <p className="text-lede mt-5 max-w-[52ch]">
                     A 45-minute working session with our team on a real subject or programme you own.
                     You see the system operate on your material — and you keep the framework it produces.
@@ -484,9 +511,11 @@ export default function HomePage() {
                 </Reveal>
               </div>
               <div className="md:justify-self-end">
-                <Button href="/demonstration" variant="primary" size="lg" arrow>
-                  Request a demonstration
-                </Button>
+                <Magnetic strength={0.24}>
+                  <Button href="/demonstration" variant="primary" size="lg" arrow>
+                    Request a demonstration
+                  </Button>
+                </Magnetic>
                 <p className="mt-4 text-[12px] text-[color:var(--color-ink-faint)] leading-relaxed max-w-[26ch]">
                   We reply within one business day.
                   No sales sequence, no marketing automation.
@@ -500,11 +529,11 @@ export default function HomePage() {
   );
 }
 
-function Stat({ value, label }: { value: string; label: string }) {
+function AnimatedStat({ value, suffix = "", label }: { value: number; suffix?: string; label: string }) {
   return (
     <div>
-      <div className="text-[26px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-[color:var(--color-ink)] leading-none">
-        {value}
+      <div className="text-[28px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-[color:var(--color-ink)] leading-none">
+        <CountUp value={value} suffix={suffix} duration={1.6} />
       </div>
       <div className="mt-2 text-[11.5px] leading-[1.45] text-[color:var(--color-ink-muted)]">
         {label}
