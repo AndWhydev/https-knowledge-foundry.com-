@@ -4,6 +4,7 @@ import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { ScrollProgress } from "@/components/motion/scroll-progress";
+import { SmoothScroll } from "@/components/motion/smooth-scroll";
 import { site } from "@/lib/site";
 
 const inter = Inter({
@@ -56,6 +57,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${inter.variable} ${interTight.variable} ${jetbrains.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-[color:var(--color-canvas)] text-[color:var(--color-ink)]">
+        <SmoothScroll />
         <ScrollProgress />
         <SiteHeader />
         <main id="main" className="flex-1">

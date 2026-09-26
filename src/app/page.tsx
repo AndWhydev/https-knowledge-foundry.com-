@@ -18,6 +18,9 @@ import { CountUp } from "@/components/motion/count-up";
 import { TiltCard } from "@/components/motion/tilt-card";
 import { CursorSpotlight } from "@/components/motion/cursor-spotlight";
 import { FloatingCubes } from "@/components/motion/floating-cubes";
+import { ShaderGradient } from "@/components/motion/shader-gradient";
+import { StickyProcess } from "@/components/sticky-process";
+import { BentoOutputs } from "@/components/bento-outputs";
 
 export const metadata: Metadata = {
   title: "Knowledge Foundry — Structured knowledge. Deliberate instruction.",
@@ -75,12 +78,9 @@ export default function HomePage() {
       {/* HERO */}
       <section className="relative overflow-hidden pt-14 md:pt-24 pb-24 md:pb-32">
         {/* Ambient layers */}
-        <div className="absolute inset-0 -z-10 grid-lattice opacity-[0.55]" aria-hidden />
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1400px] h-[700px] -z-10 pointer-events-none" aria-hidden>
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(239,103,4,0.10),transparent_60%)]" />
-        </div>
-        <CursorSpotlight size={620} color="rgba(239,103,4,0.09)" className="hidden md:block" />
-        <FloatingCubes className="absolute inset-0 -z-10 pointer-events-none hidden md:block" />
+        <div className="absolute inset-0 -z-10 grid-lattice opacity-[0.5]" aria-hidden />
+        <ShaderGradient className="-z-10 hidden md:block" />
+        <FloatingCubes className="absolute inset-0 -z-10 pointer-events-none hidden md:block opacity-70" />
 
         <Container>
           <div className="grid lg:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)] gap-12 lg:gap-20 items-center">
@@ -209,51 +209,8 @@ export default function HomePage() {
         </Container>
       </Section>
 
-      {/* THE SYSTEM — 4 steps */}
-      <Section className="bg-[color:var(--color-ink)] text-white relative overflow-hidden">
-        <div className="absolute inset-0 opacity-[0.06]" aria-hidden style={{
-          backgroundImage: "linear-gradient(to right, rgba(255,255,255,0.4) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.4) 1px, transparent 1px)",
-          backgroundSize: "56px 56px",
-        }} />
-        <Container>
-          <div className="max-w-[720px] mb-16">
-            <Eyebrow>The system</Eyebrow>
-            <SplitText as="h2" className="text-display-2 mt-5 text-white" stagger={0.05}>
-              Four moves, in the only order that works.
-            </SplitText>
-            <Reveal delay={0.15}>
-              <p className="text-lede mt-6 text-white/70">
-                The Foundry maps the subject, defines the framework, and only then produces the
-                instruction. Every element traces back to a requirement — so the finished program
-                is not only correct, it is provably so.
-              </p>
-            </Reveal>
-          </div>
-
-          <RevealStagger className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-white/8 rounded-[var(--radius-lg)] overflow-hidden">
-            {process.map((step, i) => (
-              <RevealItem key={step.n} className="bg-[color:var(--color-ink)] p-8 relative group">
-                {/* Animated seam gradient on hover */}
-                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-[radial-gradient(circle_at_top_left,rgba(239,103,4,0.10),transparent_60%)]" aria-hidden />
-                <div className="relative">
-                  <div className="flex items-center gap-3 mb-6">
-                    <div className="font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.18em] text-[color:var(--color-forge)]">
-                      STEP {step.n}
-                    </div>
-                    {i < process.length - 1 && (
-                      <ArrowRight className="h-3.5 w-3.5 text-white/25 hidden lg:block" aria-hidden />
-                    )}
-                  </div>
-                  <h3 className="text-[22px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-white mb-3">
-                    {step.title}
-                  </h3>
-                  <p className="text-[13.5px] leading-[1.6] text-white/60">{step.desc}</p>
-                </div>
-              </RevealItem>
-            ))}
-          </RevealStagger>
-        </Container>
-      </Section>
+      {/* THE SYSTEM — sticky scroll narrative */}
+      <StickyProcess />
 
       {/* CINEMATIC LATTICE — Higgsfield video showcase */}
       <section className="relative overflow-hidden bg-[color:var(--color-ink)] text-white py-20 md:py-28">
@@ -421,6 +378,9 @@ export default function HomePage() {
           </RevealStagger>
         </Container>
       </Section>
+
+      {/* BENTO OUTPUTS — what a Foundry programme produces */}
+      <BentoOutputs />
 
       {/* PROGRAMS BY OUTCOME with editorial imagery */}
       <Section className="bg-[color:var(--color-canvas-warm)]">
