@@ -14,7 +14,7 @@ import { FAQ } from "@/components/solution/faq";
 import { CtaBand } from "@/components/solution/cta-band";
 import { ProseBlock } from "@/components/solution/prose-block";
 import { Related } from "@/components/solution/related";
-import { AnimatedEditorial } from "@/components/motion/animated-editorial";
+import { HeroComparison } from "@/components/heros/hero-comparison";
 
 export const metadata: Metadata = {
   title: "Enterprise Learning Modernisation. Modernise what matters, preserve what works",
@@ -145,7 +145,28 @@ export default function EnterpriseLearningModernisationPage() {
         }
         lede="Most organisations already possess years of investment in training programmes, learning materials, compliance content, and operational knowledge. Modernisation does not require replacement. In most cases, it requires a clearer understanding of what exists and what should be improved."
         secondaryCta={{ label: "See it work", href: "/platform/see-it-work" }}
-        visual={<AnimatedEditorial src="editorial-magazine.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
+        visual={<HeroComparison
+          before={{
+            title: "Legacy authoring",
+            items: [
+              "Content written before structure is defined",
+              "Reviewers fix wording, miss coverage",
+              "Evidence scattered across email and PDFs",
+              "Audit answer: we cannot show you",
+              "Policy change lands in training weeks later",
+            ],
+          }}
+          after={{
+            title: "The Foundry",
+            items: [
+              "Framework defined and approved first",
+              "Reviewers approve structure, not paragraphs",
+              "Every decision signed and exportable",
+              "Audit answer: here is the file",
+              "Policy change surfaces as a framework diff",
+            ],
+          }}
+        />}
       />
 
       <ProseBlock

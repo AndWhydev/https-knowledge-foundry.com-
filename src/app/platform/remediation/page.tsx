@@ -148,7 +148,7 @@ export default function RemediationPage() {
         }
         lede="When a gap is identified, the reflex is to rebuild. Rebuilds lose institutional knowledge, disrupt learners, and introduce their own omissions. Remediation strengthens existing content in place — every change scoped, cited, approved, and reversible."
         secondaryCta={{ label: "See it work", href: "/platform/see-it-work" }}
-        visual={<AnimatedEditorial src="editorial-transformation.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
+        visual={<AnimatedEditorial src="editorial-remediation.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock

@@ -145,7 +145,7 @@ export default function StandardsAccreditationPage() {
         }
         lede="Standards, competency frameworks, accreditation criteria, and organisational methodologies provide structure. Transforming those requirements into meaningful, verifiable learning is where most programmes fail. This is where they succeed."
         secondaryCta={{ label: "See it work", href: "/platform/see-it-work" }}
-        visual={<AnimatedEditorial src="editorial-blueprint.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
+        visual={<AnimatedEditorial src="editorial-standards.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock

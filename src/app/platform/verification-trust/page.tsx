@@ -14,7 +14,7 @@ import { FAQ } from "@/components/solution/faq";
 import { CtaBand } from "@/components/solution/cta-band";
 import { ProseBlock } from "@/components/solution/prose-block";
 import { Related } from "@/components/solution/related";
-import { AnimatedEditorial } from "@/components/motion/animated-editorial";
+import { HeroTimeline } from "@/components/heros/hero-timeline";
 
 export const metadata: Metadata = {
   title: "Verification & Trust. Why you can rely on it",
@@ -143,7 +143,15 @@ export default function VerificationTrustPage() {
         }
         lede="Frameworks are defined, reviewed, controlled, and human-approved before content reaches delivery. Every block is cryptographically identifiable. Every programme carries a Master Integrity Root. Trust is a technical property, not a claim."
         secondaryCta={{ label: "See the ledger", href: "/platform/see-it-work" }}
-        visual={<AnimatedEditorial src="editorial-evidence.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
+        visual={<HeroTimeline
+          milestones={[
+            { label: "Framework approved", sublabel: "signed 2026-09-18 · J. Chen", verified: true },
+            { label: "Instruction generated to framework", sublabel: "traceable, 64 assets", verified: true },
+            { label: "Learner completes programme", sublabel: "click-through recorded" },
+            { label: "Capability verified against framework", sublabel: "evidence exported", verified: true },
+            { label: "Ongoing drift monitoring", sublabel: "framework vs behaviour", verified: false },
+          ]}
+        />}
       />
 
       <ProseBlock

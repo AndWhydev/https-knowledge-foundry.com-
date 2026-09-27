@@ -7,7 +7,7 @@ import { FAQ } from "@/components/solution/faq";
 import { CtaBand } from "@/components/solution/cta-band";
 import { ProseBlock } from "@/components/solution/prose-block";
 import { Related } from "@/components/solution/related";
-import { AnimatedEditorial } from "@/components/motion/animated-editorial";
+import { HeroTerminal } from "@/components/heros/hero-terminal";
 
 export const metadata: Metadata = {
   title: "Framework Intelligence. Structure the subject before writing",
@@ -72,7 +72,20 @@ export default function FrameworkIntelligencePage() {
         title={<>Structure the subject <span className="text-[color:var(--color-forge)]">before</span> writing about it.</>}
         lede="Framework Intelligence maps concepts, relationships, progression, and assessment logic — before any instruction is written. The framework is the object of record. Content is downstream of it."
         secondaryCta={{ label: "See a live framework", href: "/platform/see-it-work" }}
-        visual={<AnimatedEditorial src="editorial-hero.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
+        visual={<HeroTerminal
+          title="framework://ingest · aml-ctf-v3.2"
+          lines={[
+            { text: "> read source: austrac-aml-ctf-2026.pdf", color: "muted" },
+            { text: "  extracted: 142 requirements", color: "ok" },
+            { text: "> propose framework", color: "muted" },
+            { text: "  concepts: 87", color: "ok" },
+            { text: "  relationships: 214", color: "ok" },
+            { text: "  assessment points: 43", color: "ok" },
+            { text: "> await approval", color: "forge" },
+            { text: "  reviewer: J. Chen · approved 2026-09-18", color: "ok" },
+            { text: "> ready for content generation", color: "forge" },
+          ]}
+        />}
       />
 
       <ProseBlock eyebrow="Why this matters" title="The framework is the thing that gets audited.">

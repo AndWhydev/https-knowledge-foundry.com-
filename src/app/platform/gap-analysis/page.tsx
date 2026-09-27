@@ -148,7 +148,7 @@ export default function GapAnalysisPage() {
         }
         lede="Most organisations already own more training content than they can defend. Gap Analysis interprets what your standards, policies, and frameworks actually require, then measures your existing library against it — at meaning, not at keyword."
         secondaryCta={{ label: "See a live report", href: "/platform/see-it-work" }}
-        visual={<AnimatedEditorial src="editorial-blueprint.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
+        visual={<AnimatedEditorial src="editorial-gap.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock

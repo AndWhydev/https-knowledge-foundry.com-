@@ -138,7 +138,7 @@ export default function IntegrationsPage() {
         }
         lede="Knowledge Foundry is built to integrate into the systems you already run — or to become the delivery environment itself. Structural integrity is preserved either way. The choice is deployment shape, not integrity trade-off."
         secondaryCta={{ label: "See it work", href: "/platform/see-it-work" }}
-        visual={<AnimatedEditorial src="editorial-governance.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
+        visual={<AnimatedEditorial src="editorial-integrations.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock

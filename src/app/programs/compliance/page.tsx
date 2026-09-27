@@ -138,7 +138,7 @@ export default function ComplianceProgramsPage() {
         }
         lede="The Foundry translates regulatory and policy requirements into structured behavioural instruction at clause-level resolution. Compliance becomes a technical outcome, not a generic awareness exercise."
         secondaryCta={{ label: "See the platform", href: "/platform" }}
-        visual={<AnimatedEditorial src="editorial-evidence.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
+        visual={<AnimatedEditorial src="editorial-magazine.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock eyebrow="Why this matters" title="Policies do not change behaviour. Structure does.">

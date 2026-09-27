@@ -1,64 +1,78 @@
 import type { MetadataRoute } from "next";
 import { site } from "@/lib/site";
 
-const routes = [
-  "",
-  "/platform",
-  "/platform/see-it-work",
-  "/platform/framework-intelligence",
-  "/platform/gap-analysis",
-  "/platform/remediation",
-  "/platform/knowledge-transformation",
-  "/platform/verification-trust",
-  "/platform/knowledge-governance",
-  "/platform/standards-accreditation",
-  "/platform/audit-evidence",
-  "/platform/enterprise-learning-modernisation",
-  "/platform/integrations",
-  "/platform/technical-overview",
-  "/programs",
-  "/programs/educational",
-  "/programs/compliance",
-  "/programs/product-enablement",
-  "/programs/operational-procedures",
-  "/programs/hybrid-verification",
-  "/industries",
-  "/industries/financial-services",
-  "/industries/healthcare-life-sciences",
-  "/industries/energy-resources",
-  "/industries/government-defence",
-  "/industries/professional-services",
-  "/industries/higher-education",
-  "/case-studies",
-  "/case-studies/regulated-financial-services",
-  "/case-studies/national-healthcare-operator",
-  "/case-studies/critical-infrastructure",
-  "/insights",
-  "/insights/knowledge-structure-before-content",
-  "/insights/what-verification-really-measures",
-  "/insights/why-training-fails-audits",
-  "/insights/scorm-is-a-transport-not-a-strategy",
-  "/insights/knowledge-drift-and-how-to-detect-it",
-  "/insights/framework-first-methodology",
-  "/insights/hybrid-verification-primer",
-  "/insights/ai-generated-content-and-compliance-risk",
-  "/trust",
-  "/trust/security",
-  "/trust/compliance-posture",
-  "/about",
-  "/who-can-use-this",
-  "/demonstration",
-  "/privacy",
-  "/terms",
-  "/accessibility-statement",
+type Route = { path: string; priority: number; changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"] };
+
+const routes: Route[] = [
+  { path: "",                                   priority: 1.0, changeFrequency: "weekly" },
+  { path: "/demonstration",                     priority: 0.95, changeFrequency: "monthly" },
+
+  // Platform capabilities
+  { path: "/platform",                          priority: 0.9, changeFrequency: "monthly" },
+  { path: "/platform/see-it-work",              priority: 0.85, changeFrequency: "monthly" },
+  { path: "/platform/framework-intelligence",   priority: 0.85, changeFrequency: "monthly" },
+  { path: "/platform/gap-analysis",             priority: 0.8, changeFrequency: "monthly" },
+  { path: "/platform/remediation",              priority: 0.8, changeFrequency: "monthly" },
+  { path: "/platform/knowledge-transformation", priority: 0.8, changeFrequency: "monthly" },
+  { path: "/platform/verification-trust",       priority: 0.85, changeFrequency: "monthly" },
+  { path: "/platform/knowledge-governance",     priority: 0.8, changeFrequency: "monthly" },
+  { path: "/platform/standards-accreditation",  priority: 0.8, changeFrequency: "monthly" },
+  { path: "/platform/audit-evidence",           priority: 0.85, changeFrequency: "monthly" },
+  { path: "/platform/enterprise-learning-modernisation", priority: 0.75, changeFrequency: "monthly" },
+  { path: "/platform/integrations",             priority: 0.75, changeFrequency: "monthly" },
+  { path: "/platform/technical-overview",       priority: 0.75, changeFrequency: "monthly" },
+
+  // Programs
+  { path: "/programs",                          priority: 0.85, changeFrequency: "monthly" },
+  { path: "/programs/educational",              priority: 0.75, changeFrequency: "monthly" },
+  { path: "/programs/compliance",               priority: 0.85, changeFrequency: "monthly" },
+  { path: "/programs/product-enablement",       priority: 0.75, changeFrequency: "monthly" },
+  { path: "/programs/operational-procedures",   priority: 0.75, changeFrequency: "monthly" },
+  { path: "/programs/hybrid-verification",      priority: 0.8,  changeFrequency: "monthly" },
+
+  // Industries
+  { path: "/industries",                        priority: 0.85, changeFrequency: "monthly" },
+  { path: "/industries/financial-services",     priority: 0.85, changeFrequency: "monthly" },
+  { path: "/industries/healthcare-life-sciences", priority: 0.8, changeFrequency: "monthly" },
+  { path: "/industries/energy-resources",       priority: 0.8, changeFrequency: "monthly" },
+  { path: "/industries/government-defence",     priority: 0.8, changeFrequency: "monthly" },
+  { path: "/industries/professional-services",  priority: 0.75, changeFrequency: "monthly" },
+  { path: "/industries/higher-education",       priority: 0.75, changeFrequency: "monthly" },
+
+  // Case studies
+  { path: "/case-studies",                      priority: 0.8, changeFrequency: "monthly" },
+  { path: "/case-studies/regulated-financial-services", priority: 0.75, changeFrequency: "monthly" },
+  { path: "/case-studies/national-healthcare-operator", priority: 0.75, changeFrequency: "monthly" },
+  { path: "/case-studies/critical-infrastructure", priority: 0.75, changeFrequency: "monthly" },
+
+  // Insights
+  { path: "/insights",                          priority: 0.85, changeFrequency: "weekly" },
+  { path: "/insights/knowledge-structure-before-content", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/insights/what-verification-really-measures", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/insights/why-training-fails-audits", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/insights/scorm-is-a-transport-not-a-strategy", priority: 0.65, changeFrequency: "monthly" },
+  { path: "/insights/knowledge-drift-and-how-to-detect-it", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/insights/framework-first-methodology", priority: 0.75, changeFrequency: "monthly" },
+  { path: "/insights/hybrid-verification-primer", priority: 0.65, changeFrequency: "monthly" },
+  { path: "/insights/ai-generated-content-and-compliance-risk", priority: 0.7, changeFrequency: "monthly" },
+
+  // Trust + Company + Legal
+  { path: "/trust",                             priority: 0.7, changeFrequency: "monthly" },
+  { path: "/trust/security",                    priority: 0.65, changeFrequency: "monthly" },
+  { path: "/trust/compliance-posture",          priority: 0.65, changeFrequency: "monthly" },
+  { path: "/about",                             priority: 0.6, changeFrequency: "monthly" },
+  { path: "/who-can-use-this",                  priority: 0.6, changeFrequency: "monthly" },
+  { path: "/privacy",                           priority: 0.3, changeFrequency: "yearly" },
+  { path: "/terms",                             priority: 0.3, changeFrequency: "yearly" },
+  { path: "/accessibility-statement",           priority: 0.3, changeFrequency: "yearly" },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  return routes.map((path) => ({
-    url: `${site.url}${path}`,
+  return routes.map((r) => ({
+    url: `${site.url}${r.path}`,
     lastModified: now,
-    changeFrequency: path === "" ? "weekly" : "monthly",
-    priority: path === "" ? 1 : path.startsWith("/platform") || path.startsWith("/industries") ? 0.8 : 0.5,
+    changeFrequency: r.changeFrequency,
+    priority: r.priority,
   }));
 }

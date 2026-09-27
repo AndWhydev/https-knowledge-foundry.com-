@@ -22,6 +22,7 @@ import { FloatingCubes } from "@/components/motion/floating-cubes";
 import { CompactProcess } from "@/components/compact-process";
 import { BentoOutputs } from "@/components/bento-outputs";
 import { FrameworkDemo } from "@/components/framework-demo";
+import { FAQ as HomeFAQ } from "@/components/solution/faq";
 
 export const metadata: Metadata = {
   title: "Knowledge Foundry. Structured knowledge. Deliberate instruction.",
@@ -71,6 +72,33 @@ const proofPoints = [
   "SOC 2 Type II in progress",
   "APRA CPS 234 aware",
   "GDPR ready",
+];
+
+const homeFaqItems = [
+  {
+    q: "Are you a replacement for our LMS?",
+    a: "No. The Foundry sits upstream of your LMS. It produces the structured framework and the instruction that runs inside the LMS you already use. If you need us to deliver the runtime as well, we can, but replacing an LMS is not the value we sell.",
+  },
+  {
+    q: "Who owns the framework once it is built?",
+    a: "You do. The framework, every version of it, and the evidence of every review, belong to your organisation. If you leave the platform, you leave with the framework. That commitment is in the master services agreement, not just the pitch deck.",
+  },
+  {
+    q: "How does this differ from an AI content generator?",
+    a: "AI generators produce content that hopes to cover a subject. The Foundry defines what must be covered, in what order, verified how, before content is generated at all. The framework is the object of record. Content is downstream of it, and traceable to it.",
+  },
+  {
+    q: "What sits under review, and by whom?",
+    a: "Every framework proposal is reviewed and approved by a human owner in your organisation before any content is generated. Every content asset carries a review chain. Nothing ships without a signed approval, and every signature is exportable.",
+  },
+  {
+    q: "How long is the first commercial commitment?",
+    a: "The initial framework build is fixed-scope and fixed-price, typically 4 to 8 weeks depending on the subject. There is no multi-year commitment to begin. Pilot and platform engagements are annual and cancellable at renewal.",
+  },
+  {
+    q: "Where is our data held and who can access it?",
+    a: "Australian data residency by default, AWS Sydney. Encryption at rest and in transit. Access is scoped to your project team via SSO. Full detail lives in the trust centre, including subprocessor list and DPA.",
+  },
 ];
 
 export default function HomePage() {
@@ -567,6 +595,109 @@ export default function HomePage() {
           </div>
         </Container>
       </Section>
+
+      {/* HOW WE ENGAGE — 4-step commercial flow */}
+      <Section className="bg-[color:var(--color-canvas-warm)]">
+        <Container>
+          <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)] gap-10 lg:gap-16">
+            <div>
+              <Eyebrow>How we engage</Eyebrow>
+              <SplitText as="h2" className="text-display-2 mt-5 max-w-[16ch]" stagger={0.05}>
+                From first call to production, in the open.
+              </SplitText>
+              <Reveal delay={0.35}>
+                <p className="text-lede mt-6 max-w-[46ch]">
+                  Four commercial stages. Every one produces something you keep,
+                  whether or not the next stage happens. No procurement theatre.
+                </p>
+              </Reveal>
+            </div>
+
+            <RevealStagger className="grid sm:grid-cols-2 gap-4">
+              {[
+                { n: "01", t: "Working session", d: "45 minutes on a real subject you own. You watch the Foundry build a framework from your material. You keep the framework." },
+                { n: "02", t: "Framework build", d: "A structured, reviewable framework for one programme or subject area, delivered in weeks. Fixed scope, fixed price. Yours to deploy or take elsewhere." },
+                { n: "03", t: "Pilot", d: "Framework generates instruction and verification. Runs against a real cohort. Evidence is exported to your regulator or board." },
+                { n: "04", t: "Platform partnership", d: "Ongoing access to the Foundry across programmes, with governance, drift detection, and standards mapping baked in." },
+              ].map((s) => (
+                <RevealItem
+                  key={s.n}
+                  className="group relative rounded-[var(--radius-md)] border border-[color:var(--color-hairline)] bg-white p-6 hover:border-[color:var(--color-ink-soft)] transition-colors"
+                >
+                  <div className="flex items-baseline gap-3 mb-3">
+                    <span className="font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.18em] text-[color:var(--color-forge)]">
+                      STAGE {s.n}
+                    </span>
+                    <span className="h-px flex-1 bg-[color:var(--color-hairline-strong)]" />
+                  </div>
+                  <h3 className="text-[19px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-[color:var(--color-ink)] mb-2">
+                    {s.t}
+                  </h3>
+                  <p className="text-[13.5px] leading-[1.6] text-[color:var(--color-ink-muted)]">
+                    {s.d}
+                  </p>
+                </RevealItem>
+              ))}
+            </RevealStagger>
+          </div>
+        </Container>
+      </Section>
+
+      {/* FEATURED INSIGHTS */}
+      <Section>
+        <Container>
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
+            <div className="max-w-[640px]">
+              <Eyebrow>Insights</Eyebrow>
+              <SplitText as="h2" className="text-display-2 mt-5 max-w-[18ch]" stagger={0.05}>
+                Reading for the compliance and L&amp;D bench.
+              </SplitText>
+            </div>
+            <Reveal delay={0.15}>
+              <Magnetic>
+                <Link
+                  href="/insights"
+                  className="group inline-flex items-center gap-2 text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)]"
+                >
+                  <span className="border-b border-current pb-0.5">All insights</span>
+                  <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
+                </Link>
+              </Magnetic>
+            </Reveal>
+          </div>
+
+          <RevealStagger className="grid md:grid-cols-3 gap-4">
+            {[
+              { eyebrow: "Methodology", title: "Structure before content is the missing L&D skill.", href: "/insights/knowledge-structure-before-content" },
+              { eyebrow: "Verification", title: "What verification actually measures, and what it does not.", href: "/insights/what-verification-really-measures" },
+              { eyebrow: "Compliance", title: "Why training programmes fail the audit before they are written.", href: "/insights/why-training-fails-audits" },
+            ].map((item) => (
+              <RevealItem key={item.href}>
+                <Link
+                  href={item.href}
+                  className="group block h-full rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white p-7 hover:border-[color:var(--color-ink-soft)] transition-all hover:-translate-y-1 duration-300"
+                >
+                  <div className="text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)] mb-3">
+                    {item.eyebrow}
+                  </div>
+                  <h3 className="text-[19px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] transition-colors leading-[1.25]">
+                    {item.title}
+                  </h3>
+                  <div className="mt-8 inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] transition-colors">
+                    Read
+                    <ArrowUpRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
+                  </div>
+                </Link>
+              </RevealItem>
+            ))}
+          </RevealStagger>
+        </Container>
+      </Section>
+
+      {/* FAQ */}
+      <div className="bg-[color:var(--color-canvas-warm)]">
+        <HomeFAQ title="The six we get most often." eyebrow="Common questions" items={homeFaqItems} />
+      </div>
 
       {/* CTA */}
       <Section>

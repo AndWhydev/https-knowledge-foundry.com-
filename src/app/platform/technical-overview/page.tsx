@@ -153,7 +153,7 @@ export default function TechnicalOverviewPage() {
         }
         lede="This page describes how the Knowledge Foundry behaves and why it produces reliable outputs across diverse domains — without relying on black-box generation. Technical by design; deliberate by construction."
         secondaryCta={{ label: "See it work", href: "/platform/see-it-work" }}
-        visual={<AnimatedEditorial src="editorial-blueprint.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
+        visual={<AnimatedEditorial src="editorial-architecture.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock
