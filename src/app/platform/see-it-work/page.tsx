@@ -18,7 +18,7 @@ import { FAQ } from "@/components/solution/faq";
 import { CtaBand } from "@/components/solution/cta-band";
 import { ProseBlock } from "@/components/solution/prose-block";
 import { Related } from "@/components/solution/related";
-import { HeroLattice } from "@/components/hero-lattice";
+import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
   title: "See It Work — Knowledge Foundry, on camera",
@@ -158,7 +158,7 @@ export default function SeeItWorkPage() {
         }
         lede="Short walkthroughs of what the platform does — focused on business outcomes, not under-the-hood technology. Start with the overview, or jump to the question you care about."
         secondaryCta={{ label: "Read the platform overview", href: "/platform" }}
-        visual={<HeroLattice className="w-full aspect-square max-w-[480px] mx-auto" />}
+        visual={<AnimatedEditorial src="editorial-hero.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock

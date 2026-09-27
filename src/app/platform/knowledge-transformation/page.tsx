@@ -14,7 +14,7 @@ import { FAQ } from "@/components/solution/faq";
 import { CtaBand } from "@/components/solution/cta-band";
 import { ProseBlock } from "@/components/solution/prose-block";
 import { Related } from "@/components/solution/related";
-import { HeroLattice } from "@/components/hero-lattice";
+import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
   title: "Knowledge Transformation — Turn raw knowledge into structured capability",
@@ -139,7 +139,7 @@ export default function KnowledgeTransformationPage() {
         }
         lede="Knowledge exists in many forms — documented policies, tacit expertise, emerging research, abstract competency models. Regardless of origin, it must be structured before it can be consistently taught, assessed, verified, and applied."
         secondaryCta={{ label: "See it work", href: "/platform/see-it-work" }}
-        visual={<HeroLattice className="w-full aspect-square max-w-[480px] mx-auto" />}
+        visual={<AnimatedEditorial src="editorial-transformation.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock

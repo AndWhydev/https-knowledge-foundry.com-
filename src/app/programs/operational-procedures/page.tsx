@@ -14,7 +14,7 @@ import { FAQ } from "@/components/solution/faq";
 import { CtaBand } from "@/components/solution/cta-band";
 import { ProseBlock } from "@/components/solution/prose-block";
 import { Related } from "@/components/solution/related";
-import { HeroLattice } from "@/components/hero-lattice";
+import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
   title: "Operational Procedures — Structured execution, not tribal knowledge",
@@ -138,7 +138,7 @@ export default function OperationalProceduresPage() {
         }
         lede="The Foundry transforms tasks, workflows, and procedures into structured instruction aligned to clarity, repeatability, and measurable execution. Structure governs execution."
         secondaryCta={{ label: "See the platform", href: "/platform" }}
-        visual={<HeroLattice className="w-full aspect-square max-w-[480px] mx-auto" />}
+        visual={<AnimatedEditorial src="editorial-infrastructure.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock eyebrow="Why this matters" title="Instructions alone do not guarantee correct performance.">

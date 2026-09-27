@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { Waves, AlertTriangle, GitBranch } from "lucide-react";
-import { TopicHeader } from "@/components/solution/topic-header";
-import { ProseBlock } from "@/components/solution/prose-block";
-import { FeatureGrid } from "@/components/solution/feature-grid";
-import { Related } from "@/components/solution/related";
-import { CtaBand } from "@/components/solution/cta-band";
-import { Container, Section } from "@/components/ui/container";
+import {
+  EditorialArticle,
+  EditorialH2,
+  EditorialP,
+  PullQuote,
+  EditorialList,
+  EditorialAside,
+} from "@/components/layouts/editorial-article";
 
 export const metadata: Metadata = {
   title: "Knowledge drift, and how to detect it — Knowledge Foundry",
@@ -13,130 +14,97 @@ export const metadata: Metadata = {
     "What knowledge drift is, why it happens silently, and how framework-first design surfaces it before an auditor does.",
 };
 
-const supporting = [
-  {
-    icon: <Waves className="h-5 w-5" />,
-    title: "Source drift",
-    desc: "The regulation, standard, or policy changes. If the training library has no link back to the source, the drift is invisible until a human notices — which is usually late.",
-  },
-  {
-    icon: <AlertTriangle className="h-5 w-5" />,
-    title: "Interpretation drift",
-    desc: "Different authors, at different times, interpret the same source clause differently. Two modules end up teaching subtly conflicting things. Learners see the conflict. Authors do not.",
-  },
-  {
-    icon: <GitBranch className="h-5 w-5" />,
-    title: "Practice drift",
-    desc: "Operational practice quietly diverges from documented procedure. Trainers, drawing on practice, teach what people do, not what the procedure says. The gap widens with each cohort.",
-  },
+const toc = [
+  { id: "sec-1", label: "Drift is a condition" },
+  { id: "sec-2", label: "Three forms it takes" },
+  { id: "sec-3", label: "Why libraries cannot see it" },
+  { id: "sec-4", label: "From detection to adjudication" },
 ];
 
 const related = [
-  { eyebrow: "Governance", title: "Framework-first methodology, in depth", desc: "The four moves that make drift detectable by construction.", href: "/insights/framework-first-methodology" },
-  { eyebrow: "Audit", title: "Why training fails audits", desc: "Audit failures trace to structure, not to content.", href: "/insights/why-training-fails-audits" },
-  { eyebrow: "Provenance", title: "AI-generated content and compliance risk", desc: "The provenance problem, and why cryptographic evidence matters.", href: "/insights/ai-generated-content-and-compliance-risk" },
+  { eyebrow: "Insight", title: "Framework-first methodology, in depth", href: "/insights/framework-first-methodology" },
+  { eyebrow: "Insight", title: "AI-generated content and compliance risk", href: "/insights/ai-generated-content-and-compliance-risk" },
+  { eyebrow: "Capability", title: "Knowledge governance", href: "/platform/knowledge-governance" },
 ];
 
-export default function KnowledgeDriftPage() {
+export default function Page() {
   return (
-    <>
-      <TopicHeader
-        eyebrow="Insight · Governance"
-        breadcrumb={[
-          { label: "Insights", href: "/insights" },
-          { label: "Knowledge drift and how to detect it", href: "/insights/knowledge-drift-and-how-to-detect-it" },
-        ]}
-        title={<>Knowledge drift is <span className="text-[color:var(--color-forge)]">silent by default.</span></>}
-        lede="Training libraries do not fail suddenly. They drift — quietly, over years — until an auditor asks a question the library was once able to answer and no longer can."
-        primaryCta={{ label: "Request a demonstration", href: "/demonstration" }}
-        secondaryCta={{ label: "All insights", href: "/insights" }}
-      />
+    <EditorialArticle
+      eyebrow="Insight · Governance"
+      title="Knowledge drift is silent by default."
+      dek="Training libraries do not fail suddenly. They drift — quietly, over years — until an auditor asks a question the library was once able to answer and no longer can."
+      date="22 January 2026"
+      readingTime="7 min read"
+      toc={toc}
+      related={related}
+    >
+      <EditorialP>
+        Every mature training library drifts. It is not a matter of author negligence. It is a
+        natural consequence of authoring content, over years, against sources that themselves
+        change and against operational practice that itself changes. The failure is not that
+        drift occurs. The failure is that most libraries have no mechanism to see it occurring.
+      </EditorialP>
+      <EditorialP>
+        When drift is finally noticed, it is usually by someone external — an auditor, an
+        incident review, a regulator's question the library cannot answer. By then the
+        divergence has been feeding operational decisions for months or years. The corrective
+        cost is not the cost of updating a module. It is the cost of reconstructing a defensible
+        position after the fact.
+      </EditorialP>
 
-      <Section spacing="compact">
-        <Container size="narrow">
-          <div className="flex items-center gap-3 text-[12px] font-medium font-[family-name:var(--font-jetbrains)] uppercase tracking-[0.14em] text-[color:var(--color-ink-faint)]">
-            <span>January 2026</span>
-            <span aria-hidden>·</span>
-            <span>7 min read</span>
-            <span aria-hidden>·</span>
-            <span className="text-[color:var(--color-forge)]">Governance</span>
-          </div>
-        </Container>
-      </Section>
+      <EditorialH2 id="sec-1">Drift is a condition, not an event</EditorialH2>
+      <EditorialP>
+        Libraries do not fail suddenly. They accumulate small divergences from the sources and
+        the practice they once tracked. Each divergence, on its own, is negligible. In
+        aggregate, over time, they produce a library that no longer says what the organisation
+        would want it to say — without anyone having authored the change.
+      </EditorialP>
 
-      <ProseBlock variant="single" eyebrow="The argument" title="Drift is a condition, not an event.">
-        <p>
-          Every mature training library drifts. It is not a matter of author negligence. It is a
-          natural consequence of authoring content, over years, against sources that themselves
-          change and against operational practice that itself changes. The failure is not that
-          drift occurs. The failure is that most libraries have no mechanism to see it occurring.
-        </p>
-        <p>
-          Drift takes three broad forms. Source drift is what happens when the underlying
-          regulation, standard, or policy is updated and the training library is not — or is
-          updated in one module and not in another that touches the same requirement.
-          Interpretation drift is what happens when different authors, in different quarters,
-          interpret the same clause differently and their interpretations quietly diverge.
-          Practice drift is what happens when what operators actually do in the field diverges
-          from what the procedure documents say, and trainers — drawing on their own
-          practical experience — teach the drift rather than the document.
-        </p>
-        <p>
-          All three forms are invisible in a library organised as content. There is nothing to
-          compare a module against, because the source it once satisfied has no explicit link
-          to it. A human review can find drift, but only by reading the library end to end
-          against the sources end to end, and only if the reviewer is competent to spot the
-          divergences. This kind of review is rare, expensive, and by the time it happens the
-          drift has usually already produced an operational consequence somewhere upstream.
-        </p>
-        <p>
-          Framework-first design changes the detection problem. Every framework node is tied to
-          the source clause that implies it. Every content asset is tied to the framework node
-          it satisfies. When the source changes, the change is a diff against the framework —
-          not a diff against a document nobody has time to reread. Nodes that require review
-          light up. Content assets tied to those nodes are flagged. The library does not need a
-          human to notice the drift. The library notices, and asks a human to adjudicate.
-        </p>
-        <p>
-          Interpretation drift is caught in the same architecture. Two modules that satisfy the
-          same framework node are, by construction, teaching the same thing. If they are not,
-          the divergence is a review event that surfaces without a full-library audit. Practice
-          drift is harder — it requires the framework to be updated against observed operational
-          reality — but it becomes tractable, because there is now a framework to update, not
-          just a set of documents to rewrite.
-        </p>
-        <p>
-          <strong>Drift is inevitable. Undetected drift is a design choice.</strong> The design
-          choice that produces undetected drift is the choice to author content without a
-          framework upstream of it.
-        </p>
-      </ProseBlock>
+      <PullQuote attribution="Knowledge Foundry, Governance Notes">
+        Drift is inevitable. Undetected drift is a design choice.
+      </PullQuote>
 
-      <FeatureGrid
-        eyebrow="Three drift types"
-        title="Where the library quietly diverges."
-        features={supporting}
-        columns={3}
-        tone="warm"
-      />
+      <EditorialH2 id="sec-2">Three forms drift takes</EditorialH2>
+      <EditorialP>
+        Not one phenomenon. Three. Each has a different source, a different pace, and a
+        different signature. All three are invisible in a library organised as content.
+      </EditorialP>
+      <EditorialList items={[
+        <><strong>Source drift.</strong> The regulation, standard, or policy changes. If the library has no link back to the source, the drift is invisible until a human notices — which is usually late.</>,
+        <><strong>Interpretation drift.</strong> Different authors, at different times, interpret the same source clause differently. Two modules end up teaching subtly conflicting things. Learners see the conflict. Authors do not.</>,
+        <><strong>Practice drift.</strong> Operational practice quietly diverges from documented procedure. Trainers, drawing on practice, teach what people do, not what the procedure says. The gap widens with each cohort.</>,
+      ]} />
 
-      <ProseBlock variant="single" eyebrow="So what" title="The instrument for detecting drift is the framework itself.">
+      <EditorialH2 id="sec-3">Why libraries organised as content cannot see it</EditorialH2>
+      <EditorialP>
+        Structure governs detection. All three forms of drift are invisible in a library
+        organised as content, because there is nothing to compare a module against. The source
+        it once satisfied has no explicit link to it. A human review can find drift, but only by
+        reading the library end to end against the sources end to end, and only if the reviewer
+        is competent to spot the divergences. This kind of review is rare, expensive, and by the
+        time it happens the drift has usually already produced an operational consequence
+        somewhere upstream.
+      </EditorialP>
+
+      <EditorialAside title="On the economics of manual review">
         <p>
-          Organisations that want to detect drift do not need a bigger review team. They need a
-          framework, and they need the framework to be the object of record for the library.
-          Once it is, drift stops being something a human has to notice. It becomes something
-          the system reports, and something a human has to decide about. That inversion — from
-          detection to adjudication — is the point.
+          A full-library reread against source is not a light exercise. For a mature enterprise
+          library, it is a multi-quarter programme with specialist reviewers. Most L&D functions
+          cannot fund it on any regular cadence — which is why, in practice, drift is discovered
+          by auditors rather than by the organisations that own the libraries.
         </p>
-      </ProseBlock>
+      </EditorialAside>
 
-      <Related eyebrow="Continue reading" title="Adjacent arguments." items={related} />
-
-      <CtaBand
-        eyebrow="See drift, made visible"
-        title="Bring a library that has been running for years."
-        lede="Forty-five minutes on a sample of your existing library and its source. The Foundry proposes the framework, compares it to the library, and surfaces the drift that has accumulated in the interval."
-      />
-    </>
+      <EditorialH2 id="sec-4">From detection to adjudication</EditorialH2>
+      <EditorialP>
+        Framework-first design changes the detection problem. Every framework node is tied to
+        the source clause that implies it. Every content asset is tied to the node it satisfies.
+        When the source changes, the change is a diff against the framework — not a diff against
+        a document nobody has time to reread. Nodes that require review light up. Content assets
+        tied to those nodes are flagged. Drift stops being something a human has to notice. It
+        becomes something the system reports, and something a human has to decide about. That
+        inversion — from detection to adjudication — is the point.
+      </EditorialP>
+    </EditorialArticle>
   );
 }

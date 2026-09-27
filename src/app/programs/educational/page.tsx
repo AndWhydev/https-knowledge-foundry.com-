@@ -14,7 +14,7 @@ import { FAQ } from "@/components/solution/faq";
 import { CtaBand } from "@/components/solution/cta-band";
 import { ProseBlock } from "@/components/solution/prose-block";
 import { Related } from "@/components/solution/related";
-import { HeroLattice } from "@/components/hero-lattice";
+import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
   title: "Educational Programs — Structured for understanding, not attendance",
@@ -138,7 +138,7 @@ export default function EducationalProgramsPage() {
         }
         lede="The Foundry transforms subjects into structured learning systems aligned to progression, comprehension, and measurable competency. Educators focus on judgement; the system holds the architecture."
         secondaryCta={{ label: "See the platform", href: "/platform" }}
-        visual={<HeroLattice className="w-full aspect-square max-w-[480px] mx-auto" />}
+        visual={<AnimatedEditorial src="editorial-education.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock eyebrow="Why this matters" title="The focus is cognitive progression. Not content volume.">

@@ -14,7 +14,7 @@ import { FAQ } from "@/components/solution/faq";
 import { CtaBand } from "@/components/solution/cta-band";
 import { ProseBlock } from "@/components/solution/prose-block";
 import { Related } from "@/components/solution/related";
-import { HeroLattice } from "@/components/hero-lattice";
+import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
   title: "Higher Education — TEQSA-aligned course architecture with defensible outcomes",
@@ -138,7 +138,7 @@ export default function HigherEducationPage() {
         }
         lede="Course architecture aligned to the Higher Education Standards Framework. Outcomes, activities, and assessment linked at the framework level. Evidence for TEQSA and professional accreditation produced by design."
         secondaryCta={{ label: "See educational programs", href: "/programs/educational" }}
-        visual={<HeroLattice className="w-full aspect-square max-w-[480px] mx-auto" />}
+        visual={<AnimatedEditorial src="editorial-education.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock

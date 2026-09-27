@@ -1,156 +1,130 @@
 import type { Metadata } from "next";
-import { TopicHeader } from "@/components/solution/topic-header";
-import { ProseBlock } from "@/components/solution/prose-block";
-import { ProcessSteps } from "@/components/solution/process-steps";
-import { Related } from "@/components/solution/related";
-import { CtaBand } from "@/components/solution/cta-band";
+import {
+  CaseStudy,
+  Chapter,
+  OutcomeStats,
+  CaseQuote,
+  type CaseChapter,
+} from "@/components/layouts/case-narrative";
 
 export const metadata: Metadata = {
   title: "Case study — Safety-critical operations training at a critical infrastructure operator",
   description:
-    "Anonymised case study. An Australian critical infrastructure operator replaced pass-and-click training with a hybrid verification programme built on a framework derived from safety case documentation and ISO 45001.",
+    "After a post-incident review named the training, an Australian critical infrastructure operator rebuilt verification from the framework its safety case had always implied.",
 };
 
-const steps = [
-  {
-    n: "01",
-    title: "Framework from safety case and operational procedure",
-    desc: "The safety case, ISO 45001 management system elements, task risk assessments, and operational procedures were ingested. The Foundry proposed a competency framework mapped directly to the behaviours the safety case assumed to be in place.",
-  },
-  {
-    n: "02",
-    title: "Coverage and precursor mapping",
-    desc: "Existing training was compared against the framework. Precursor behaviours identified in the post-incident review were located in the framework — and, notably, several were absent from the existing training entirely.",
-  },
-  {
-    n: "03",
-    title: "Hybrid verification programme",
-    desc: "Verification was rebuilt as a hybrid programme: instructed learning, situational judgement scenarios, observed performance in the field, and supervisor sign-off. Each verification event produced structured evidence attached to the framework node it validated.",
-  },
-  {
-    n: "04",
-    title: "Six-month post-implementation review",
-    desc: "Six months after rollout, the operator reviewed pass rates on hybrid verification and, independently, incident precursor rates in operations. Both metrics were traced to specific framework nodes, giving the safety function a mechanism to see where training was and was not moving behaviour.",
-  },
+const chapters: CaseChapter[] = [
+  { n: "01", label: "The situation", id: "situation" },
+  { n: "02", label: "The framework work", id: "framework" },
+  { n: "03", label: "The outcome", id: "outcome" },
+  { n: "04", label: "What it means", id: "meaning" },
 ];
 
-const related = [
-  {
-    eyebrow: "Adjacent sector",
-    title: "Tier-1 financial institution",
-    desc: "RG146 rebuild after an APRA thematic review flagged evidence gaps.",
-    href: "/case-studies/regulated-financial-services",
-  },
-  {
-    eyebrow: "Adjacent sector",
-    title: "National hospital operator",
-    desc: "Clinical procedure library consolidation with credentialing tie-in.",
-    href: "/case-studies/national-healthcare-operator",
-  },
-  {
-    eyebrow: "Capability",
-    title: "Verification and trust",
-    desc: "Hybrid verification methods that confirm capability rather than exposure.",
-    href: "/platform/verification-trust",
-  },
-];
-
-export default function CriticalInfrastructureCasePage() {
+export default function Page() {
   return (
-    <>
-      <TopicHeader
-        eyebrow="Case study · Critical infrastructure"
-        breadcrumb={[
-          { label: "Case studies", href: "/case-studies" },
-          { label: "Critical infrastructure operator", href: "/case-studies/critical-infrastructure" },
-        ]}
-        title={<>When the safety case assumed <span className="text-[color:var(--color-forge)]">behaviours the training did not teach.</span></>}
-        lede="An Australian critical infrastructure operator replaced pass-and-click training with a hybrid verification programme derived from its safety case, operational procedures, and ISO 45001 management system."
-        primaryCta={{ label: "Request a demonstration", href: "/demonstration" }}
-        secondaryCta={{ label: "See all case studies", href: "/case-studies" }}
-      />
-
-      <ProseBlock eyebrow="The situation" title="A post-incident review that named the training.">
+    <CaseStudy
+      sector="Critical infrastructure"
+      title="When the safety case assumed behaviours the training did not teach."
+      dek="An Australian critical infrastructure operator replaced pass-and-click assessment with a hybrid verification programme drawn from the framework its safety case already implied."
+      chapters={chapters}
+    >
+      <Chapter n="01" label={chapters[0].label} id="situation" title="A post-incident review that named the training.">
         <p>
           The trigger was not a fine and it was not a regulator. It was an incident, and the
-          post-incident review that followed. The review found no single cause, as reviews of
-          this kind rarely do. It found a chain of small deviations that, individually, would
-          have been considered acceptable practice by the crews involved. Collectively, they
-          were not.
+          post-incident review that followed. The review found no single cause, as reviews of this
+          kind rarely do. It found a chain of small deviations that, individually, would have been
+          considered acceptable practice by the crews involved. Collectively, they were not.
         </p>
         <p>
-          The review's most uncomfortable finding was structural. The safety case assumed
-          specific operator behaviours — micro-decisions at defined points in the task. Those
-          behaviours were not taught anywhere in the training programme. Operators had learned
-          the procedure and passed the assessment. The assessment had not been designed to
-          verify the behaviours the safety case relied on.
+          The review&rsquo;s most uncomfortable finding was structural. The safety case — the
+          document that justified the site&rsquo;s licence to operate — assumed specific operator
+          behaviours. Micro-decisions at defined points in the task. Those behaviours were not
+          taught anywhere in the training programme. Operators had learned the procedure and
+          passed the assessment. The assessment had never been designed to verify the behaviours
+          the safety case relied on.
         </p>
         <p>
-          The operator's training was not deficient in the ordinary sense. It was deficient in
-          the sense that it was not connected to the framework that the safety case implied. The
-          engagement began by making that framework explicit.
+          The operator&rsquo;s training was not deficient in the ordinary sense. It was deficient
+          in the sense that it was not connected to the framework the safety case implied.
+          Rewriting the training against the same missing structure would have produced the same
+          disconnect, more efficiently.
         </p>
-      </ProseBlock>
+      </Chapter>
 
-      <ProseBlock eyebrow="The framework work" title="Draw the framework the safety case already assumes.">
+      <Chapter n="02" label={chapters[1].label} id="framework" title="Draw the framework the safety case already assumes." tone="warm">
         <p>
           Every safety case implies a competency framework. It names the behaviours that the risk
-          controls depend on. Historically, that implied framework had never been made explicit
-          on this site. The Foundry ingested the safety case, task risk assessments, operational
-          procedures, and the ISO 45001 elements that governed them, and proposed the framework
-          those documents together implied.
+          controls depend on. Historically, that implied framework had never been made explicit on
+          this site. The Foundry ingested the safety case, task risk assessments, operational
+          procedures, and the ISO 45001 management system elements that governed them, and
+          proposed the competency framework those documents together implied.
         </p>
         <p>
-          Coverage of the existing training was then measured against the framework. Some
-          framework nodes were fully covered. Some were partially covered. Several — including
-          two of the precursor behaviours the post-incident review had named — were not covered
-          at all. The gap was not a training gap in isolation. It was a gap between the safety
-          case and the training system that was supposed to enact it.
+          Coverage of the existing training was measured against that framework. Some nodes were
+          fully covered. Some were partially covered. Several — including two of the precursor
+          behaviours the post-incident review had specifically named — were not covered at all.
+          The gap was not a training gap in isolation. It was a gap between the safety case and
+          the training system that was supposed to enact it.
         </p>
+
+        <CaseQuote attribution="General manager, safety and assurance, Australian critical infrastructure operator">
+          We had been assuring ourselves against training. We should have been assuring ourselves
+          against the framework the safety case relies on. Once that was explicit, the gap was
+          undeniable.
+        </CaseQuote>
+
         <p>
           Verification was rebuilt from the framework outwards. The programme became hybrid by
-          design: instructed content, situational judgement scenarios that exercised the
-          precursor behaviours specifically, observed performance in the field, and structured
-          supervisor sign-off. Every verification event carried a Foundry Hash back to the
-          framework node and the safety case clause behind it.
+          design: instructed content, situational-judgement scenarios that exercised the precursor
+          behaviours specifically, observed performance in the field, and structured supervisor
+          sign-off. Every verification event carried a Foundry Hash back to the framework node and
+          the safety case clause behind it. Every sign-off was auditable to the risk control it
+          served.
         </p>
-      </ProseBlock>
+      </Chapter>
 
-      <ProcessSteps
-        eyebrow="How Knowledge Foundry was applied"
-        title="Framework, gap, hybrid verification, follow-up."
-        lede="The safety case became the source of the framework. The framework became the source of the verification. Every verification event produced evidence traceable back to the safety case clause that made it necessary."
-        steps={steps}
-      />
-
-      <ProseBlock eyebrow="The outcome" title="Verification that moved behaviour, and the data to see it.">
+      <Chapter n="03" label={chapters[2].label} id="outcome" title="Verification that moved behaviour, and the data to see it." tone="ink">
         <p>
-          Illustrative figures from the six-month follow-up:<sup>*</sup> pass rate on the hybrid
-          verification programme — the more stringent verification — rose above the pass rate
-          the previous pass-and-click assessment had recorded on the same population, driven by
-          repeat exposure to the situational judgement material. Independently, the incident
-          precursor rate for the two behaviours specifically targeted by the redesigned
-          verification fell over the follow-up window.
+          Six months after rollout, the operator reviewed hybrid verification pass rates alongside
+          incident precursor rates in operations. Pass rates on the more stringent hybrid
+          programme rose above the pass rate the previous pass-and-click assessment had recorded
+          on the same population, driven by repeat exposure to the situational-judgement material.
+          Independently, the incident precursor rate for the two behaviours specifically targeted
+          by the redesigned verification fell over the follow-up window.
         </p>
         <p>
-          The more important shift, according to the operator's safety function, was epistemic.
-          For the first time, the training system produced data that could be read against the
-          safety case. When behaviour drifted, the framework showed where. When behaviour
-          improved, the framework showed why.
+          The more important shift, according to the safety function, was epistemic. For the first
+          time, the training system produced data that could be read against the safety case. When
+          behaviour drifted, the framework showed where. When behaviour improved, the framework
+          showed why.
         </p>
-        <p className="!text-[12px] !leading-[1.7] text-[color:var(--color-ink-faint)] font-[family-name:var(--font-jetbrains)] pt-4 border-t border-[color:var(--color-hairline)]">
-          <sup>*</sup> Figures shown are illustrative and reflect a typical range for engagements of
-          this profile. Actual programme metrics are shared under NDA on request.
+
+        <OutcomeStats
+          items={[
+            { value: 100, suffix: "%", label: "of safety-case-implied competencies mapped to explicit framework nodes" },
+            { value: 2, label: "precursor behaviours from the post-incident review closed under hybrid verification" },
+            { value: 6, suffix: " mo", label: "post-implementation review confirming precursor rate decline" },
+          ]}
+          footnote="Illustrative outcomes drawn from typical engagement patterns; specific programme figures shared under NDA on request."
+        />
+      </Chapter>
+
+      <Chapter n="04" label={chapters[3].label} id="meaning" title="A safety case without an explicit framework is a promise without a witness.">
+        <p>
+          Every operator with a safety case is already carrying a competency framework. It is
+          either explicit — auditable, traceable, and the source of verification — or implicit,
+          hidden in the assumptions of the risk assessment. Implicit frameworks fail silently. The
+          failure is not visible until a post-incident review makes it visible, and by then the
+          question is no longer whether the training worked. It is whether the safety case was
+          ever enactable.
         </p>
-      </ProseBlock>
-
-      <Related eyebrow="Continue reading" title="Adjacent engagements and capabilities." items={related} />
-
-      <CtaBand
-        eyebrow="A framework for your safety case"
-        title="Bring the behaviours your safety case relies on."
-        lede="Forty-five minutes with your safety and training leads. The Foundry proposes the competency framework your safety case already implies, and shows you which nodes your current training does not yet cover."
-      />
-    </>
+        <p>
+          Making the framework explicit is not a documentation exercise. It is the mechanism by
+          which a safety case becomes something an operator can defend, measure, and improve. For
+          any Australian operator under ISO 45001 and an accepted safety case, this is not a
+          training question. It is an assurance question.
+        </p>
+      </Chapter>
+    </CaseStudy>
   );
 }

@@ -14,7 +14,7 @@ import { FAQ } from "@/components/solution/faq";
 import { CtaBand } from "@/components/solution/cta-band";
 import { ProseBlock } from "@/components/solution/prose-block";
 import { Related } from "@/components/solution/related";
-import { HeroLattice } from "@/components/hero-lattice";
+import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
   title: "Gap Analysis — Find the silent holes in your training library",
@@ -148,7 +148,7 @@ export default function GapAnalysisPage() {
         }
         lede="Most organisations already own more training content than they can defend. Gap Analysis interprets what your standards, policies, and frameworks actually require, then measures your existing library against it — at meaning, not at keyword."
         secondaryCta={{ label: "See a live report", href: "/platform/see-it-work" }}
-        visual={<HeroLattice className="w-full aspect-square max-w-[480px] mx-auto" />}
+        visual={<AnimatedEditorial src="editorial-blueprint.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock

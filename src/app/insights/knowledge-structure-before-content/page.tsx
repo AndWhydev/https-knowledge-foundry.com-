@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { Layers3, Network, Compass } from "lucide-react";
-import { TopicHeader } from "@/components/solution/topic-header";
-import { ProseBlock } from "@/components/solution/prose-block";
-import { FeatureGrid } from "@/components/solution/feature-grid";
-import { Related } from "@/components/solution/related";
-import { CtaBand } from "@/components/solution/cta-band";
-import { Container, Section } from "@/components/ui/container";
+import {
+  EditorialArticle,
+  EditorialH2,
+  EditorialP,
+  PullQuote,
+  EditorialList,
+  EditorialAside,
+} from "@/components/layouts/editorial-article";
 
 export const metadata: Metadata = {
   title: "Knowledge structure comes before content — Knowledge Foundry",
@@ -13,130 +14,107 @@ export const metadata: Metadata = {
     "Writing before structure is the root cause of training failure. The argument for structural literacy as the missing L&D discipline.",
 };
 
-const supporting = [
-  {
-    icon: <Layers3 className="h-5 w-5" />,
-    title: "Content is downstream of a decision",
-    desc: "Every paragraph in a training programme is a decision about what the learner should know. Without a framework, that decision is made silently, by the author, one sentence at a time.",
-  },
-  {
-    icon: <Network className="h-5 w-5" />,
-    title: "Structure names the relationships",
-    desc: "A framework does not merely list concepts. It names how concepts depend on, contain, contradict, and supersede each other. Content that ignores those relationships teaches around them.",
-  },
-  {
-    icon: <Compass className="h-5 w-5" />,
-    title: "Progression is a subject property, not an author preference",
-    desc: "The order in which concepts must be met is a property of the subject. Framework-first design surfaces it. Content-first design invents an order and hopes it holds.",
-  },
+const toc = [
+  { id: "sec-1", label: "Content is not the artefact" },
+  { id: "sec-2", label: "What a framework actually is" },
+  { id: "sec-3", label: "What breaks when authors write first" },
+  { id: "sec-4", label: "Structural literacy is a stance" },
 ];
 
 const related = [
-  { eyebrow: "Methodology", title: "The four-move methodology, in depth", desc: "Interpret. Structure. Produce. Deliver. The rationale for each move.", href: "/insights/framework-first-methodology" },
-  { eyebrow: "Audit", title: "Why training fails audits", desc: "Audit failures trace back to structure, not to content quality.", href: "/insights/why-training-fails-audits" },
-  { eyebrow: "Standards", title: "SCORM is a transport, not a strategy", desc: "Standards describe delivery. They do not say what a learner should know.", href: "/insights/scorm-is-a-transport-not-a-strategy" },
+  { eyebrow: "Insight", title: "The four-move methodology, in depth", href: "/insights/framework-first-methodology" },
+  { eyebrow: "Insight", title: "Why training fails audits", href: "/insights/why-training-fails-audits" },
+  { eyebrow: "Capability", title: "Framework intelligence", href: "/platform/framework-intelligence" },
 ];
 
-export default function KnowledgeStructureBeforeContentPage() {
+export default function Page() {
   return (
-    <>
-      <TopicHeader
-        eyebrow="Insight · Methodology"
-        breadcrumb={[
-          { label: "Insights", href: "/insights" },
-          { label: "Knowledge structure before content", href: "/insights/knowledge-structure-before-content" },
-        ]}
-        title={<>Knowledge structure comes <span className="text-[color:var(--color-forge)]">before</span> content.</>}
-        lede="Writing before structure is the root cause of training failure. The missing discipline in L&D is not writing. It is structural literacy."
-        primaryCta={{ label: "Request a demonstration", href: "/demonstration" }}
-        secondaryCta={{ label: "All insights", href: "/insights" }}
-      />
+    <EditorialArticle
+      eyebrow="Insight · Methodology"
+      title="Knowledge structure comes before content."
+      dek="Writing before structure is the root cause of training failure. The missing discipline in L&D is not writing. It is structural literacy — the practice of authoring the framework before the wording."
+      date="12 March 2026"
+      readingTime="6 min read"
+      toc={toc}
+      related={related}
+    >
+      <EditorialP>
+        Most organisations that produce training treat the programme as a body of content:
+        modules, decks, videos, workbooks. When the programme fails — when learners underperform,
+        when auditors find gaps, when behaviour does not change — the reflex is to review the
+        content. Rewrite the modules. Refilm the videos. Add scenarios.
+      </EditorialP>
+      <EditorialP>
+        The reflex is misdirected. The failure is rarely in the content. It is in the layer
+        beneath the content: the structural decisions about what concepts must exist, how they
+        relate, and how they progress. Those decisions are the framework. Most training
+        programmes have never had one.
+      </EditorialP>
 
-      <Section spacing="compact">
-        <Container size="narrow">
-          <div className="flex items-center gap-3 text-[12px] font-medium font-[family-name:var(--font-jetbrains)] uppercase tracking-[0.14em] text-[color:var(--color-ink-faint)]">
-            <span>March 2026</span>
-            <span aria-hidden>·</span>
-            <span>6 min read</span>
-            <span aria-hidden>·</span>
-            <span className="text-[color:var(--color-forge)]">Methodology</span>
-          </div>
-        </Container>
-      </Section>
+      <EditorialH2 id="sec-1">Content is not the artefact</EditorialH2>
+      <EditorialP>
+        The industry treats content as the object of record. A programme is what has been
+        written, filmed, and packaged. Ask an L&D leader what their programme covers and the
+        answer will describe a library. Ask what the library covers and the answer will describe
+        another library, one level down. There is no artefact above the content that the content
+        is accountable to.
+      </EditorialP>
+      <EditorialP>
+        Structure governs coverage. It governs order. It governs what counts as a complete
+        answer to a requirement. Without an explicit structural artefact upstream of the
+        wording, none of those judgements are inspectable. They live inside authors, one
+        paragraph at a time, and they leave the organisation when the authors do.
+      </EditorialP>
 
-      <ProseBlock variant="single" eyebrow="The argument" title="The industry treats content as the artefact. It is not.">
-        <p>
-          Most organisations that produce training think of the programme as a body of content:
-          modules, decks, videos, workbooks. When the programme fails — when learners underperform,
-          when auditors find gaps, when behaviour does not change — the reflex is to review the
-          content. Rewrite the modules. Refilm the videos. Add scenarios.
-        </p>
-        <p>
-          The reflex is misdirected. The failure is rarely in the content. It is in the layer
-          beneath the content: the structural decisions about what concepts must exist, how they
-          relate, and how they progress. Those decisions are the framework. Most training
-          programmes have never had one.
-        </p>
-        <p>
-          A framework, in the sense used here, is not a table of contents. It is a structured
-          object: a set of concept nodes with definitions and provenance, typed relationships
-          between them, a prerequisite graph, and a set of assessment definitions. It is
-          reviewable independent of any wording. It can be tested against a source policy or
-          standard. It can be inspected by a subject-matter expert. It exists whether or not any
-          content has yet been written to satisfy it.
-        </p>
-        <p>
-          When authors write before this object exists, three things happen. First, structural
-          decisions get smuggled into paragraphs — a concept is introduced early because the
-          author found a good sentence for it, not because the subject requires it there. Second,
-          coverage becomes unmeasurable — the only way to ask <em>does this programme cover the
-          requirement</em> is to reread the programme. Third, revision becomes catastrophic —
-          when the source changes, no one knows which paragraphs to update, because no paragraph
-          is explicitly tied to the requirement it satisfies.
-        </p>
-        <p>
-          Structural literacy is the discipline of authoring the framework before the wording. It
-          treats the framework as the primary artefact and content as an expression of that
-          artefact. The Foundry exists because this discipline is rarely present in the
-          organisations that most need it — and because human authors, working unaided, do not
-          reliably impose it on themselves.
-        </p>
-        <p>
-          <strong>The framework is the object of record.</strong> Content is downstream of it.
-          Once a team accepts this, every other question in a training programme — coverage,
-          revision, audit, verification — becomes tractable. Until a team accepts this, none of
-          those questions have defensible answers.
-        </p>
-      </ProseBlock>
+      <PullQuote attribution="Knowledge Foundry, Structural Literacy Manifesto">
+        The framework is the object of record. Content is downstream of it.
+      </PullQuote>
 
-      <FeatureGrid
-        eyebrow="Three consequences"
-        title="What changes when structure comes first."
-        features={supporting}
-        columns={3}
-        tone="warm"
-      />
+      <EditorialH2 id="sec-2">What a framework actually is</EditorialH2>
+      <EditorialP>
+        A framework, in the sense used here, is not a table of contents. It is a structured
+        object, reviewable independent of any wording, testable against a source policy or
+        standard, and inspectable by a subject-matter expert before a single paragraph is drafted.
+      </EditorialP>
+      <EditorialList items={[
+        <><strong>Concept nodes.</strong> Named units of knowledge with definitions and provenance back to the source clauses that made them necessary.</>,
+        <><strong>Typed relationships.</strong> Explicit connections — depends on, contains, contradicts, supersedes — that name how concepts sit against each other.</>,
+        <><strong>Prerequisite graph.</strong> The order in which concepts must be met, treated as a property of the subject, not an author preference.</>,
+        <><strong>Assessment definitions.</strong> The evidence each node requires before a claim of competence can be made against it.</>,
+      ]} />
 
-      <ProseBlock variant="single" eyebrow="So what" title="Structural literacy is a hiring question, not a tooling question.">
+      <EditorialH2 id="sec-3">What breaks when authors write first</EditorialH2>
+      <EditorialP>
+        When authors write before this object exists, three things happen. Structural decisions
+        get smuggled into paragraphs — a concept is introduced early because the author found a
+        good sentence for it, not because the subject requires it there. Coverage becomes
+        unmeasurable — the only way to ask whether the programme covers the requirement is to
+        reread the programme. Revision becomes catastrophic — when the source changes, no one
+        knows which paragraphs to update, because no paragraph is explicitly tied to the
+        requirement it satisfies.
+      </EditorialP>
+
+      <EditorialAside title="On the word framework">
         <p>
-          Framework-first design is not a feature that a lesson-authoring tool can add. It is a
-          discipline that requires a different kind of professional attention — one that most
-          instructional design curricula do not teach and most L&D functions do not hire for.
-          The Foundry is built to make the discipline enforceable regardless of who is at the
-          keyboard. But the underlying shift is one of professional stance. The question a mature
-          L&D function should be able to answer is not <em>what is in our library</em>. It is
-          <em> what framework does our library implement, and where does it diverge from the
-          framework the subject actually requires.</em>
+          The word is overused. In the Foundry sense, a framework is not a taxonomy, a mind
+          map, or a course outline. It is a structured, machine-readable object with concept
+          nodes, typed relationships, prerequisite chains, and assessment definitions — each
+          traceable to a source clause. If a putative framework cannot answer the coverage,
+          lineage, and evidence questions by query, it is a diagram, not a framework.
         </p>
-      </ProseBlock>
+      </EditorialAside>
 
-      <Related eyebrow="Continue reading" title="Adjacent arguments." items={related} />
-
-      <CtaBand
-        eyebrow="See the discipline enacted"
-        title="Bring a subject. Watch a framework build."
-        lede="Forty-five minutes on your source material. You leave with the framework the Foundry proposes for it, and a candid view of where your current content diverges from that framework."
-      />
-    </>
+      <EditorialH2 id="sec-4">Structural literacy is a stance</EditorialH2>
+      <EditorialP>
+        Framework-first design is not a feature a lesson-authoring tool can add. It is a
+        discipline that requires a different kind of professional attention — one most
+        instructional design curricula do not teach and most L&D functions do not hire for. The
+        Foundry is built to make the discipline enforceable regardless of who is at the keyboard.
+        But the underlying shift is one of professional stance. The question a mature L&D
+        function should be able to answer is not <em>what is in our library</em>. It is
+        <em> what framework does our library implement, and where does it diverge from the
+        framework the subject actually requires.</em>
+      </EditorialP>
+    </EditorialArticle>
   );
 }

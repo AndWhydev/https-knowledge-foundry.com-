@@ -14,7 +14,7 @@ import { FAQ } from "@/components/solution/faq";
 import { CtaBand } from "@/components/solution/cta-band";
 import { ProseBlock } from "@/components/solution/prose-block";
 import { Related } from "@/components/solution/related";
-import { HeroLattice } from "@/components/hero-lattice";
+import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
   title: "Professional Services — CPD architecture and firm-wide technical uplift",
@@ -138,7 +138,7 @@ export default function ProfessionalServicesPage() {
         }
         lede="Structured CPD, firm-wide technical uplift, and sector-standard alignment for accounting, legal, engineering, and consulting practices. One framework. Multiple bodies. Evidence per practitioner."
         secondaryCta={{ label: "See educational programs", href: "/programs/educational" }}
-        visual={<HeroLattice className="w-full aspect-square max-w-[480px] mx-auto" />}
+        visual={<AnimatedEditorial src="editorial-evidence.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock

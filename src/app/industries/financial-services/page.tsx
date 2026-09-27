@@ -14,7 +14,7 @@ import { FAQ } from "@/components/solution/faq";
 import { CtaBand } from "@/components/solution/cta-band";
 import { ProseBlock } from "@/components/solution/prose-block";
 import { Related } from "@/components/solution/related";
-import { HeroLattice } from "@/components/hero-lattice";
+import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
   title: "Financial Services — APRA, ASIC, and licensing training that defends itself",
@@ -138,7 +138,7 @@ export default function FinancialServicesPage() {
         }
         lede="Prudential obligations, licensing requirements, and product knowledge structured at clause level. Every module ties to the standard it exists to serve — and the evidence exports as a file when regulators ask."
         secondaryCta={{ label: "See the compliance model", href: "/programs/compliance" }}
-        visual={<HeroLattice className="w-full aspect-square max-w-[480px] mx-auto" />}
+        visual={<AnimatedEditorial src="editorial-blueprint.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock

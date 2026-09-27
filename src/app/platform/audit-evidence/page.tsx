@@ -14,7 +14,7 @@ import { FAQ } from "@/components/solution/faq";
 import { CtaBand } from "@/components/solution/cta-band";
 import { ProseBlock } from "@/components/solution/prose-block";
 import { Related } from "@/components/solution/related";
-import { HeroLattice } from "@/components/hero-lattice";
+import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
   title: "Audit & Evidence Management — When they ask how you know, the answer is a file",
@@ -148,7 +148,7 @@ export default function AuditEvidencePage() {
         }
         lede="In regulated and accredited environments, creating content is the easy part. Demonstrating how it was created, how it evolved, who reviewed it, and how it was approved — that is where confidence is won or lost. Evidence should be visible, traceable, and defensible."
         secondaryCta={{ label: "See an audit pack", href: "/platform/see-it-work" }}
-        visual={<HeroLattice className="w-full aspect-square max-w-[480px] mx-auto" />}
+        visual={<AnimatedEditorial src="editorial-evidence.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock

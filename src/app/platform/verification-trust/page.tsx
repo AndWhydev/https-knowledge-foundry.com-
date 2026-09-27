@@ -14,7 +14,7 @@ import { FAQ } from "@/components/solution/faq";
 import { CtaBand } from "@/components/solution/cta-band";
 import { ProseBlock } from "@/components/solution/prose-block";
 import { Related } from "@/components/solution/related";
-import { HeroLattice } from "@/components/hero-lattice";
+import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
   title: "Verification & Trust — Why you can rely on it",
@@ -143,7 +143,7 @@ export default function VerificationTrustPage() {
         }
         lede="Frameworks are defined, reviewed, controlled, and human-approved before content reaches delivery. Every block is cryptographically identifiable. Every programme carries a Master Integrity Root. Trust is a technical property, not a claim."
         secondaryCta={{ label: "See the ledger", href: "/platform/see-it-work" }}
-        visual={<HeroLattice className="w-full aspect-square max-w-[480px] mx-auto" />}
+        visual={<AnimatedEditorial src="editorial-evidence.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock

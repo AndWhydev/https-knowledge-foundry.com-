@@ -14,7 +14,7 @@ import { FAQ } from "@/components/solution/faq";
 import { CtaBand } from "@/components/solution/cta-band";
 import { ProseBlock } from "@/components/solution/prose-block";
 import { Related } from "@/components/solution/related";
-import { HeroLattice } from "@/components/hero-lattice";
+import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
   title: "Government & Defence — Cleared workforce enablement with auditable evidence",
@@ -138,7 +138,7 @@ export default function GovernmentDefencePage() {
         }
         lede="PSPF, ISM, and agency-specific policy translated into structured instruction. Cleared workforce training with role-tagged coverage and evidence that survives external review."
         secondaryCta={{ label: "See the platform", href: "/platform" }}
-        visual={<HeroLattice className="w-full aspect-square max-w-[480px] mx-auto" />}
+        visual={<AnimatedEditorial src="editorial-governance.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock
