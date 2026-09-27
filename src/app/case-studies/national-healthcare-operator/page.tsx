@@ -28,9 +28,9 @@ export default function Page() {
       dek="A national private hospital operator stopped treating drift as a documentation problem and started treating it as a structural one. Legitimate variance was preserved. Accidental variance was named."
       chapters={chapters}
     >
-      <Chapter n="01" label={chapters[0].label} id="situation" title="Every site quietly authoring its own procedure library.">
+      <Chapter n="01" label={chapters[0].label} id="situation" title="Each site quietly authoring its own procedure library.">
         <p>
-          The operator — a national private hospital group of more than thirty sites — ran over
+          The operator, a national private hospital group of more than thirty sites, ran over
           four hundred documented clinical procedures. Nominally, procedures were shared across
           the network. In practice, each site had been quietly maintaining local variants for
           years. Some variance was legitimate: an equipment set, a jurisdictional rule, a patient
@@ -61,7 +61,7 @@ export default function Page() {
         </p>
         <p>
           Once the canonical framework was approved, the interesting work began. Each site&rsquo;s
-          local variant was compared to the framework. Every deviation was classified — legitimate
+          local variant was compared to the framework. Each deviation was classified as legitimate
           variance (kept, with an explicit justification node attached), obsolete variance
           (removed), or drift (regenerated to match). For the first time, the operator could
           answer whether two sites were doing the same procedure differently on purpose or by
@@ -75,9 +75,9 @@ export default function Page() {
 
         <p>
           Credentialing was then attached to the framework at the procedure level. A credential
-          requirement became an attribute of the procedure, not a document filed elsewhere. Every
-          verification event — a credentialing decision, a competency sign-off, a recredentialing
-          date — was traceable back to the specific framework node it authorised, and the NSQHS
+          requirement became an attribute of the procedure, not a document filed elsewhere. Each
+          verification event (a credentialing decision, a competency sign off, a recredentialing
+          date) was traceable back to the specific framework node it authorised, and the NSQHS
           standard that made it necessary.
         </p>
       </Chapter>
@@ -86,37 +86,37 @@ export default function Page() {
         <p>
           The clinical governance committee gained something the previous state had made
           impossible. It could see, at a glance, where the network agreed with itself, where it
-          disagreed, and — critically — why. Consistency was achieved without flattening the
+          disagreed, and, critically, why. Consistency was achieved without flattening the
           legitimate reasons sites differ.
         </p>
         <p>
           The credentialing audit that had previously required three weeks of manual
           reconstruction became a report the platform produced in hours. The auditors received a
-          coverage matrix, a per-clinician credential state at date of procedure, and a full
-          provenance chain from procedure to standard to sign-off.
+          coverage matrix, a credential state per clinician at date of procedure, and a full
+          provenance chain from procedure to standard to sign off.
         </p>
 
         <OutcomeStats
           items={[
             { value: 30, suffix: "+", label: "sites brought to framework parity with legitimate variance preserved" },
             { value: 400, suffix: "+", label: "SOPs regenerated against a single canonical framework" },
-            { value: 4, suffix: " hrs", label: "to produce a credentialing audit pack (previously ~3 weeks)" },
+            { value: 4, suffix: " hrs", label: "to produce a credentialing audit pack (previously about three weeks)" },
           ]}
-          footnote="Illustrative outcomes drawn from typical engagement patterns; specific programme figures shared under NDA on request."
+          footnote="Illustrative outcomes drawn from typical engagement patterns. Specific programme figures shared under NDA on request."
         />
       </Chapter>
 
       <Chapter n="04" label={chapters[3].label} id="meaning" title="Variance is not the enemy. Unnamed variance is.">
         <p>
-          Multi-site clinical operators tend to run one of two failure modes. Either they enforce
+          Clinical operators running many sites tend to run one of two failure modes. Either they enforce
           national consistency and quietly override the legitimate reasons a particular site
           operates differently, or they let sites author locally and lose the ability to defend the
-          network as a network. The framework-first approach removes the false choice. Sites keep
-          the variance that is clinically justified. The network loses only the drift it had never
-          intended.
+          network as a network. The approach that begins with the framework removes the false choice.
+          Sites keep the variance that is clinically justified. The network loses only the drift it
+          had never intended.
         </p>
         <p>
-          For any operator carrying an NSQHS credentialing exposure across a distributed network,
+          For any operator carrying NSQHS credentialing exposure across a distributed network,
           the question is not how quickly the next audit can be assembled. It is whether the audit
           is something that has to be assembled at all.
         </p>

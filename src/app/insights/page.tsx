@@ -7,9 +7,9 @@ import { CtaBand } from "@/components/solution/cta-band";
 import { Reveal, RevealStagger, RevealItem } from "@/components/motion/reveal";
 
 export const metadata: Metadata = {
-  title: "Insights. Structured knowledge and audit-defensible training",
+  title: "Insights. Structured knowledge and training defensible under audit",
   description:
-    "Long-form arguments on framework-first design, hybrid verification, audit defence, and the provenance problem in AI-generated compliance training.",
+    "Long form arguments on design that begins with the framework, hybrid verification, audit defence, and the provenance problem in AI generated compliance training.",
 };
 
 type Article = {
@@ -26,7 +26,7 @@ const articles: Article[] = [
     href: "/insights/knowledge-structure-before-content",
     topic: "Methodology",
     title: "Knowledge structure comes before content.",
-    dek: "Writing before structure is the root cause of training failure. Structural literacy is the missing L&D skill.",
+    dek: "Writing before structure is the root cause of training failure. Structural literacy is the missing skill in L&D.",
     date: "March 2026",
     read: "6 min",
   },
@@ -34,7 +34,7 @@ const articles: Article[] = [
     href: "/insights/what-verification-really-measures",
     topic: "Verification",
     title: "What verification really measures.",
-    dek: "Click-through completion is not evidence of competence. What real verification actually requires.",
+    dek: "Click through completion is not evidence of competence. What real verification actually requires.",
     date: "March 2026",
     read: "7 min",
   },
@@ -42,7 +42,7 @@ const articles: Article[] = [
     href: "/insights/why-training-fails-audits",
     topic: "Audit",
     title: "Why training fails audits.",
-    dek: "Audit failures trace back to knowledge structure, not content quality. The case for audit-first design.",
+    dek: "Audit failures trace back to knowledge structure, not content quality. The case for design that begins with audit.",
     date: "February 2026",
     read: "8 min",
   },
@@ -58,14 +58,14 @@ const articles: Article[] = [
     href: "/insights/knowledge-drift-and-how-to-detect-it",
     topic: "Governance",
     title: "Knowledge drift, and how to detect it.",
-    dek: "What knowledge drift is, why it happens silently, and how framework-first design surfaces it before an auditor does.",
+    dek: "What knowledge drift is, why it happens silently, and how design that begins with the framework surfaces it before an auditor does.",
     date: "January 2026",
     read: "7 min",
   },
   {
-    href: "/insights/framework-first-methodology",
+    href: "/insights/framework first-methodology",
     topic: "Methodology",
-    title: "The four-move methodology, in depth.",
+    title: "The four move methodology, in depth.",
     dek: "Interpret. Structure. Produce. Deliver. The rationale for each move, not the marketing.",
     date: "January 2026",
     read: "9 min",
@@ -81,8 +81,8 @@ const articles: Article[] = [
   {
     href: "/insights/ai-generated-content-and-compliance-risk",
     topic: "Provenance",
-    title: "AI-generated content and compliance risk.",
-    dek: "The provenance problem. Why cryptographic evidence. Foundry Hash, Master Integrity Root, Forensic Revision Chain. matters for regulated buyers.",
+    title: "AI generated content and compliance risk.",
+    dek: "The provenance problem. Why cryptographic evidence (Foundry Hash, Master Integrity Root, Forensic Revision Chain) matters for regulated buyers.",
     date: "December 2025",
     read: "9 min",
   },
@@ -96,8 +96,8 @@ export default function InsightsIndexPage() {
       <TopicHeader
         eyebrow="Insights"
         breadcrumb={[{ label: "Insights", href: "/insights" }]}
-        title={<>Long-form arguments for the <span className="text-[color:var(--color-forge)]">discipline of structured knowledge.</span></>}
-        lede="Working papers, methodology notes, and audit-facing explanations from the team building Knowledge Foundry. Written for senior compliance, L&D, and risk owners in regulated organisations."
+        title={<>Long form arguments for the <span className="text-[color:var(--color-forge)]">discipline of structured knowledge.</span></>}
+        lede="Working papers, methodology notes, and explanations written for auditors, from the team building Knowledge Foundry. Written for senior compliance, L&D, and risk owners in regulated organisations."
         primaryCta={{ label: "Request a demonstration", href: "/demonstration" }}
         secondaryCta={{ label: "See case studies", href: "/case-studies" }}
       />
@@ -176,7 +176,7 @@ export default function InsightsIndexPage() {
       <CtaBand
         eyebrow="From reading to seeing"
         title="Bring a subject. Leave with a framework."
-        lede="A 45-minute working session with the Foundry on your source material. You see the arguments made in these pieces enacted on your own subject."
+        lede="A 45 minute working session with the Foundry on your source material. You see the arguments made in these pieces enacted on your own subject."
       />
     </>
   );

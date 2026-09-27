@@ -11,7 +11,7 @@ import {
 export const metadata: Metadata = {
   title: "What verification really measures. Knowledge Foundry",
   description:
-    "Click-through completion is not evidence of competence. What defensible verification requires, and why it matters to regulated organisations.",
+    "Click through completion is not evidence of competence. What defensible verification requires, and why it matters to regulated organisations.",
 };
 
 const toc = [
@@ -31,8 +31,8 @@ export default function Page() {
   return (
     <EditorialArticle
       eyebrow="Insight · Verification"
-      title="Click-through completion is not evidence of competence."
-      dek="Verification is a claim about a person. If the claim is that the person can perform, the evidence must be about performance — not about exposure to the material."
+      title="Click through completion is not evidence of competence."
+      dek="Verification is a claim about a person. If the claim is that the person can perform, the evidence must be about performance, not about exposure to the material."
       date="19 March 2026"
       readingTime="7 min read"
       toc={toc}
@@ -40,9 +40,9 @@ export default function Page() {
     >
       <EditorialP>
         A verification event is a claim. The organisation asserts, in writing, that a given
-        person meets a given standard on a given date. When something goes wrong later — a
-        transaction misadvised, a procedure mishandled, a safety-critical decision made poorly
-        — that claim is the evidence the organisation will be judged against.
+        person meets a given standard on a given date. When something goes wrong later (a
+        transaction misadvised, a procedure mishandled, a safety critical decision made poorly)
+        that claim is the evidence the organisation will be judged against.
       </EditorialP>
       <EditorialP>
         The default verification instrument in most organisations is a completion record from an
@@ -53,16 +53,16 @@ export default function Page() {
 
       <EditorialH2 id="sec-1">Verification is a claim</EditorialH2>
       <EditorialP>
-        Every verification record is a promise the organisation makes to the outside world. The
+        Each verification record is a promise the organisation makes to the outside world. The
         promise is not that the learner was present. It is that the learner is capable. The
-        record is the evidence behind that promise, and it will be read by someone — a regulator,
-        an incident review team, a board — who is not interested in the mechanics of the LMS.
+        record is the evidence behind that promise, and it will be read by someone (a regulator,
+        an incident review team, a board) who is not interested in the mechanics of the LMS.
       </EditorialP>
       <EditorialP>
         Structure governs the claim. What the framework says a concept requires as evidence
         determines what the verification instrument has to do. If that upstream decision is
-        absent, the instrument default — a multiple choice test — silently becomes the
-        organisation's evidentiary posture for every competency it holds.
+        absent, the instrument default (a multiple choice test) silently becomes the
+        organisation's evidentiary posture for each competency it holds.
       </EditorialP>
 
       <PullQuote attribution="Knowledge Foundry, Verification Design Notes">
@@ -78,8 +78,8 @@ export default function Page() {
       </EditorialP>
       <EditorialList items={[
         <><strong>Exposure is not proof.</strong> A completion record shows the learner opened the material. It does not show the concept landed, the behaviour transferred, or the decision would be made correctly under pressure.</>,
-        <><strong>Recall is not behaviour.</strong> Multiple choice tests measure recognition in a low-stakes, information-rich context. The context in which the behaviour is required is neither.</>,
-        <><strong>Aggregate scores hide failure.</strong> An eighty per cent pass on a mixed bank of questions can mean the learner mastered the trivial items and missed the safety-critical ones. The record does not distinguish.</>,
+        <><strong>Recall is not behaviour.</strong> Multiple choice tests measure recognition in a context that is low stakes and rich in information. The context in which the behaviour is required is neither.</>,
+        <><strong>Aggregate scores hide failure.</strong> An eighty per cent pass on a mixed bank of questions can mean the learner mastered the trivial items and missed the safety critical ones. The record does not distinguish.</>,
       ]} />
 
       <EditorialH2 id="sec-3">What the evidence must do</EditorialH2>
@@ -87,13 +87,13 @@ export default function Page() {
         Real verification begins by naming, for each competency, what evidence would justify the
         claim. For an advice conversation, the evidence is a structured scenario judged against
         a defined rubric. For a clinical procedure, the evidence is observed performance to a
-        checklist, signed by a supervisor with the authority to sign it. For a safety-critical
-        operation, the evidence is a combination of decision-under-pressure scenarios and field
-        observation.
+        checklist, signed by a supervisor with the authority to sign it. For a safety critical
+        operation, the evidence is a combination of scenarios that put the operator under pressure
+        and field observation.
       </EditorialP>
       <EditorialP>
         The instrument, in each case, is different from a multiple choice test. The record it
-        produces is different. And crucially, the framework that specifies the evidence is named
+        produces is different. Crucially, the framework that specifies the evidence is named
         upstream, at the level of the concept, not improvised downstream at the level of the
         assessment.
       </EditorialP>
@@ -111,8 +111,8 @@ export default function Page() {
       <EditorialP>
         Not more content. Not another quiz appended to the module. The corrective move is to
         redesign the verification instrument so the record it produces is evidence about the
-        question that will actually be asked. Every verification record is traceable to the
-        framework node behind it, and every node names the evidence its claim requires. Do that
+        question that will actually be asked. Each verification record is traceable to the
+        framework node behind it, and each node names the evidence its claim requires. Do that
         upstream, and the downstream defence is a query. Skip it, and the defence is a narrative
         assembled the week the regulator arrives.
       </EditorialP>

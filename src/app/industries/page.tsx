@@ -33,35 +33,35 @@ const industries = [
   {
     icon: <HeartPulse className="h-5 w-5" />,
     title: "Healthcare & life sciences",
-    desc: "Clinical governance, TGA advertising and product information rules, credentialing, and AHPRA CPD. mapped to instruction and verified in one architecture.",
+    desc: "Clinical governance, TGA advertising and product information rules, credentialing, and AHPRA CPD. Mapped to instruction and verified in one architecture.",
   },
   {
     icon: <Factory className="h-5 w-5" />,
     title: "Energy & resources",
-    desc: "Safety-critical operations, ISO 45001 alignment, and competency-based verification for high-consequence roles. Structure governs execution.",
+    desc: "Safety critical operations, alignment to ISO 45001, and verification based on competency for high consequence roles. Structure governs execution.",
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
     title: "Government & defence",
-    desc: "Cleared workforce enablement, IRAP-aligned deployment considerations, and auditable evidence for training that must survive external scrutiny.",
+    desc: "Cleared workforce enablement, deployment considerations aligned to IRAP, and auditable evidence for training that must survive external scrutiny.",
   },
   {
     icon: <Briefcase className="h-5 w-5" />,
     title: "Professional services",
-    desc: "CPD architecture, firm-wide technical uplift, and sector-standard alignment for accounting, legal, engineering, and consulting practices.",
+    desc: "CPD architecture, technical uplift across the firm, and alignment to sector standards for accounting, legal, engineering, and consulting practices.",
   },
   {
     icon: <GraduationCap className="h-5 w-5" />,
     title: "Higher education",
-    desc: "TEQSA-aligned course architecture, outcome mapping, and defensible accreditation evidence. with the framework as the reviewable artefact.",
+    desc: "Course architecture aligned to TEQSA, outcome mapping, and defensible accreditation evidence, with the framework as the reviewable artefact.",
   },
 ];
 
 const shared = [
   {
     icon: <ScrollText className="h-5 w-5" />,
-    title: "Regulatory clause traceability",
-    desc: "Every module, every assessment, every activity carries provenance to the regulatory clause, standard, or accreditation criterion it exists to serve.",
+    title: "Traceability to regulatory clause",
+    desc: "Each module, each assessment, each activity carries provenance to the regulatory clause, standard, or accreditation criterion it exists to serve.",
   },
   {
     icon: <FileCheck2 className="h-5 w-5" />,
@@ -70,8 +70,8 @@ const shared = [
   },
   {
     icon: <Users className="h-5 w-5" />,
-    title: "Role-tagged accountability",
-    desc: "Obligations, controls, and competency thresholds attach to specific roles. not to modules. Coverage is measurable at the level regulators actually ask about.",
+    title: "Accountability tagged to role",
+    desc: "Obligations, controls, and competency thresholds attach to specific roles, not to modules. Coverage is measurable at the level regulators actually ask about.",
   },
 ];
 
@@ -84,12 +84,12 @@ const steps = [
   {
     n: "02",
     title: "Structure the framework",
-    desc: "A framework is authored mapping obligations to roles, controls, and required evidence. reviewed and approved by your compliance or accreditation owner.",
+    desc: "A framework is authored mapping obligations to roles, controls, and required evidence. Reviewed and approved by your compliance or accreditation owner.",
   },
   {
     n: "03",
     title: "Produce the programme",
-    desc: "Instruction, assessment, and verification are generated to fit the framework. Every element traces to a specific requirement in the source.",
+    desc: "Instruction, assessment, and verification are generated to fit the framework. Each element traces to a specific requirement in the source.",
   },
   {
     n: "04",
@@ -101,19 +101,19 @@ const steps = [
 const faq = [
   {
     q: "Is the platform certified against any of these standards itself?",
-    a: "The Foundry produces evidence structured against standards you are accountable for; it does not claim third-party certification against those standards on its own behalf. Technical and security posture. deployment models, data-residency, access controls. are covered in the Technical Overview, and enterprise engagements typically include supplier due diligence.",
+    a: "The Foundry produces evidence structured against standards you are accountable for. It does not claim third party certification against those standards on its own behalf. Technical and security posture (deployment models, data residency, access controls) are covered in the Technical Overview, and enterprise engagements typically include supplier due diligence.",
   },
   {
-    q: "How do you handle sector-specific regulatory change?",
-    a: "When source documents update. an APRA prudential standard, a TGA guidance, an ISO revision, a TEQSA threshold change. the system re-parses them and diffs against the existing framework. Affected obligations, controls, and modules are surfaced explicitly so remediation is targeted, not wholesale.",
+    q: "How do you handle regulatory change specific to a sector?",
+    a: "When source documents update (an APRA prudential standard, a TGA guidance, an ISO revision, a TEQSA threshold change) the system parses them again and diffs against the existing framework. Affected obligations, controls, and modules are surfaced explicitly so remediation is targeted, not wholesale.",
   },
   {
     q: "Can one framework carry multiple regulatory regimes?",
-    a: "Yes. Where an organisation operates under overlapping regimes. an APRA-regulated bank subject to ASIC obligations, or a healthcare provider subject to TGA and AHPRA. the framework can carry both, surface conflicts, and produce role-appropriate programmes without duplicating the underlying knowledge.",
+    a: "Yes. Where an organisation operates under overlapping regimes (a bank regulated by APRA and subject to ASIC obligations, or a healthcare provider subject to TGA and AHPRA) the framework can carry both, surface conflicts, and produce programmes appropriate to role without duplicating the underlying knowledge.",
   },
   {
     q: "Does the platform replace our internal compliance, clinical governance, or accreditation function?",
-    a: "No. Those functions own the risk posture, the framework, and the sign-off. What changes is what they spend time on: structural judgement and edge cases, not authoring instructional material that summarises standards they already know.",
+    a: "No. Those functions own the risk posture, the framework, and the sign off. What changes is what they spend time on: structural judgement and edge cases, not authoring instructional material that summarises standards they already know.",
   },
   {
     q: "Which industry would you recommend we start with if we sit across several?",
@@ -129,21 +129,21 @@ export default function IndustriesIndexPage() {
         breadcrumb={[{ label: "Industries", href: "/industries" }]}
         title={
           <>
-            Regulated, evidenced, <span className="text-[color:var(--color-forge)]">audit-ready</span> in your sector.
+            Regulated, evidenced, <span className="text-[color:var(--color-forge)]">ready for audit</span> in your sector.
           </>
         }
-        lede="Six industry contexts. One architecture. Every programme carries provenance to the regulatory clause, standard, or accreditation criterion it exists to serve — and the evidence exports as a file, not a promise."
+        lede="Six industry contexts. One architecture. Each programme carries provenance to the regulatory clause, standard, or accreditation criterion it exists to serve, and the evidence exports as a file, not a promise."
         secondaryCta={{ label: "See the platform", href: "/platform" }}
         visual={<HeroLattice className="w-full aspect-square max-w-[480px] mx-auto" />}
       />
 
       <ProseBlock eyebrow="How to read this" title="Structure governs adherence.">
         <p>
-          Enterprise training in regulated sectors fails for the same reasons across every
-          industry: content is written before structure is defined, coverage is assumed rather
+          Enterprise training in regulated sectors fails for the same reasons across each
+          industry. Content is written before structure is defined, coverage is assumed rather
           than mapped, and evidence is manufactured after the fact rather than accumulated by
           design. When an APRA review, a TGA inspection, or a TEQSA audit arrives, the defence
-          is a folder of completion records — not a framework that proves the programme covers
+          is a folder of completion records, not a framework that proves the programme covers
           what it should.
         </p>
         <p>
@@ -161,14 +161,14 @@ export default function IndustriesIndexPage() {
       />
 
       <ProcessSteps
-        eyebrow="How every industry engagement runs"
+        eyebrow="How each industry engagement runs"
         title="Interpret. Structure. Produce. Evidence."
         lede="The sequence does not change with the sector. What changes is which standards are parsed, which roles are tagged, and which evidence formats are exported. The discipline is constant."
         steps={steps}
       />
 
       <FeatureGrid
-        eyebrow="What every industry inherits"
+        eyebrow="What each industry inherits"
         title="Evidence built in, not bolted on."
         features={shared}
         columns={3}

@@ -28,7 +28,7 @@ const personas = [
     title: "Head of Compliance",
     role: "You own the answer to 'how do you know this programme covers what the regulator expects?'",
     outcomes: [
-      "Coverage against policy clauses, standards, and legislation — mapped, not asserted",
+      "Coverage against policy clauses, standards, and legislation. Mapped, not asserted.",
       "Version identity and revision history that survives an audit",
       "Evidence artefacts you can produce on demand, not reconstruct after the fact",
     ],
@@ -40,7 +40,7 @@ const personas = [
     outcomes: [
       "Structured programmes across compliance, product, and operational domains",
       "Frameworks that outlive any single course or vendor engagement",
-      "A defensible position for AI in your production pipeline — bounded, reviewed, and cited",
+      "A defensible position for AI in your production pipeline. Bounded, reviewed, and cited.",
     ],
   },
   {
@@ -59,7 +59,7 @@ const personas = [
     role: "You are accountable for the standard of care delivered by a workforce that is credentialled, credentialled again, and credentialled at scale.",
     outcomes: [
       "Clinical education aligned to scope of practice, competencies, and accreditation criteria",
-      "Programme coverage decoupled from individual course-authoring decisions",
+      "Programme coverage decoupled from individual decisions about course authoring",
       "Evidence artefacts suitable for AHPRA, college, and jurisdictional review",
     ],
   },
@@ -78,18 +78,18 @@ const personas = [
     title: "Head of Safety",
     role: "You are accountable for training that stands up to incident review, regulator investigation, and internal assurance.",
     outcomes: [
-      "Task-level instruction linked to the procedure, standard, or hazard that requires it",
+      "Instruction at task level linked to the procedure, standard, or hazard that requires it",
       "Assessment aligned to observable behaviour, not recall of a slide",
-      "Revision history that survives an incident-review timeline",
+      "Revision history that survives an incident review timeline",
     ],
   },
   {
     icon: <Briefcase className="h-5 w-5" />,
     title: "Head of Talent",
-    role: "You are building organisation-wide capability at scale and cannot afford drift between what is taught and what is required.",
+    role: "You are building capability at scale across the organisation and cannot afford drift between what is taught and what is required.",
     outcomes: [
       "Capability frameworks with lineage to role, function, and business objective",
-      "Cross-programme consistency — same concept, same definition, same assessment",
+      "Consistency across programmes. Same concept, same definition, same assessment.",
       "A shared substrate that survives leadership change and vendor churn",
     ],
   },
@@ -102,15 +102,15 @@ const notFor = [
   },
   {
     title: "Individual instructors and solo authors",
-    desc: "The platform assumes multi-owner review, versioned release, and evidence obligations. Solo authors of single courses will not use most of it, and the pricing will not make sense.",
+    desc: "The platform assumes review by many owners, versioned release, and evidence obligations. Solo authors of single courses will not use most of it, and the pricing will not make sense.",
   },
   {
     title: "Buyers looking for a faster slide deck",
-    desc: "If the objective is to produce more course-shaped content more quickly, the platform is the wrong choice. It produces frameworks first, and instruction is compiled against them. That is a discipline, not a shortcut.",
+    desc: "If the objective is to produce more course shaped content more quickly, the platform is the wrong choice. It produces frameworks first, and instruction is compiled against them. That is a discipline, not a shortcut.",
   },
   {
-    title: "Teams looking to eliminate subject-matter-expert review",
-    desc: "Knowledge Foundry proposes; a human approves. If the expected outcome is end-to-end generation without review, we are the wrong vendor and will say so.",
+    title: "Teams looking to eliminate review by subject matter experts",
+    desc: "Knowledge Foundry proposes. A human approves. If the expected outcome is generation from end to end without review, we are the wrong vendor and will say so.",
   },
 ];
 
@@ -183,12 +183,12 @@ export default function WhoCanUseThisPage() {
       >
         <p>
           They are accountable for something that must hold up under review.
-          Not a course, not a completion rate — a programme, a capability, a
+          Not a course, not a completion rate. A programme, a capability, a
           licence, a standard of care. They live inside organisations where
           &ldquo;we ran a session on that&rdquo; is not a sufficient answer.
         </p>
         <p>
-          They are typically senior, time-poor, and technically literate about
+          They are typically senior, short of time, and technically literate about
           their domain if not always about learning systems. They are asked to
           buy carefully, deploy cautiously, and defend their choices to a
           board, a regulator, or an accreditor. The platform is opinionated in
@@ -235,7 +235,7 @@ export default function WhoCanUseThisPage() {
       <CtaBand
         eyebrow="If this sounds like you"
         title="Bring a subject you already own."
-        lede="A 45-minute working session on a real programme, policy, or standard you are accountable for. You see the platform operate on your material, and you keep the framework it produces."
+        lede="A 45 minute working session on a real programme, policy, or standard you are accountable for. You see the platform operate on your material, and you keep the framework it produces."
       />
     </>
   );

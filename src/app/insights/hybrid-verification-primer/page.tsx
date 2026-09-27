@@ -23,7 +23,7 @@ const toc = [
 
 const related = [
   { eyebrow: "Insight", title: "What verification really measures", href: "/insights/what-verification-really-measures" },
-  { eyebrow: "Insight", title: "The four-move methodology, in depth", href: "/insights/framework-first-methodology" },
+  { eyebrow: "Insight", title: "The four move methodology, in depth", href: "/insights/framework first-methodology" },
   { eyebrow: "Capability", title: "Verification and trust", href: "/platform/verification-trust" },
 ];
 
@@ -41,22 +41,22 @@ export default function Page() {
       <EditorialP>
         Hybrid verification is not a proprietary methodology. It is a description of how serious
         organisations verify serious things. Aviation, medicine, and the trades have been
-        running hybrid verification for decades — knowledge tests, simulator hours, observed
-        procedures, and supervisor sign-off, combined and cross-referenced. The insight is not
+        running hybrid verification for decades. Knowledge tests, simulator hours, observed
+        procedures, and supervisor sign off, combined and cross referenced. The insight is not
         the mix. It is the reason the mix exists: no single instrument can, on its own,
         substantiate the claim that a person is competent to act.
       </EditorialP>
       <EditorialP>
         Corporate compliance training has largely defaulted to one instrument: the completion
-        record, sometimes with a multiple choice test attached. The claim being made — that a
+        record, sometimes with a multiple choice test attached. The claim being made (that a
         person is qualified to advise a client, operate critical infrastructure, or perform a
-        clinical procedure — is enormous. The evidence being offered is thin.
+        clinical procedure) is enormous. The evidence being offered is thin.
       </EditorialP>
 
       <EditorialH2 id="sec-1">Not a proprietary methodology</EditorialH2>
       <EditorialP>
         The regulated domains that hybrid verification comes from did not invent it as a
-        product. They arrived at it because single-instrument verification kept producing
+        product. They arrived at it because verification using a single instrument kept producing
         certifications that failed on contact with the work. Structure governs the mix. The
         framework names, per competency, what claim is being made and what evidence would
         substantiate it. The instruments are chosen against that specification, not against a
@@ -74,36 +74,36 @@ export default function Page() {
         distinct kind of evidence, and each becomes part of a record that survives audit.
       </EditorialP>
       <EditorialList items={[
-        <><strong>Knowledge component.</strong> Structured, scenario-embedded assessment of the concepts the framework requires. Not a bank of decontextualised multiple choice items, and not a proxy for competence on its own.</>,
-        <><strong>Applied judgement component.</strong> Situational scenarios that require the learner to make a decision in context, judged against a rubric derived from the framework. not from author intuition.</>,
-        <><strong>Observed performance component.</strong> Where the competency is behavioural or safety-critical, a structured observation event, checklist-driven, signed by a supervisor with the authority to sign.</>,
+        <><strong>Knowledge component.</strong> Structured assessment of the concepts the framework requires, embedded in scenario. Not a bank of decontextualised multiple choice items, and not a proxy for competence on its own.</>,
+        <><strong>Applied judgement component.</strong> Situational scenarios that require the learner to make a decision in context, judged against a rubric derived from the framework rather than from author intuition.</>,
+        <><strong>Observed performance component.</strong> Where the competency is behavioural or safety critical, a structured observation event, driven by a checklist, signed by a supervisor with the authority to sign.</>,
       ]} />
 
       <EditorialH2 id="sec-3">Where it is the wrong instrument</EditorialH2>
       <EditorialP>
         Hybrid verification is not free, and applying it indiscriminately produces a programme
-        disproportionate to its own risk profile. A concept that is genuinely low-stakes — a
-        general awareness item, orientation content, a change notification — does not need
+        disproportionate to its own risk profile. A concept that is genuinely low stakes (a
+        general awareness item, orientation content, a change notification) does not need
         observed performance. A knowledge acknowledgement, appropriately structured, is often
         sufficient. The judgement about which instruments a given node requires is itself a
-        framework-level decision. It is made once, at the level of the concept, and it is
-        reviewable.
+        decision at the framework level. It is made once, at the level of the concept, and it
+        is reviewable.
       </EditorialP>
 
       <EditorialAside title="On proportionality">
         <p>
-          The failure mode to avoid is the opposite of the industry's current one: verifying
-          everything as if it were safety-critical. The result is a verification programme too
-          expensive to sustain, which erodes back toward click-through within eighteen months.
-          The point of framework-level design is proportionality — the claim, the instrument,
+          The failure mode to avoid is the opposite of the industry's current one. Verifying
+          everything as if it were safety critical. The result is a verification programme too
+          expensive to sustain, which erodes back toward click through within eighteen months.
+          The point of design at the framework level is proportionality. The claim, the instrument,
           and the cost matched at the node.
         </p>
       </EditorialAside>
 
       <EditorialH2 id="sec-4">Design against the claim</EditorialH2>
       <EditorialP>
-        The composite record — knowledge score, judgement score, observation sign-off, cohort,
-        date, framework node, source clause — is the evidence the organisation will present if
+        The composite record (knowledge score, judgement score, observation sign off, cohort,
+        date, framework node, source clause) is the evidence the organisation will present if
         the verification is ever contested. It is proportionate to the claim. It is traceable.
         It is not manufactured after an incident. It exists at the moment of verification, and
         it survives audit.

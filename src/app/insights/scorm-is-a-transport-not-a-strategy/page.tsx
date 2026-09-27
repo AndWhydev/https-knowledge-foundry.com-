@@ -23,7 +23,7 @@ const toc = [
 
 const related = [
   { eyebrow: "Insight", title: "Knowledge structure before content", href: "/insights/knowledge-structure-before-content" },
-  { eyebrow: "Insight", title: "The four-move methodology, in depth", href: "/insights/framework-first-methodology" },
+  { eyebrow: "Insight", title: "The four move methodology, in depth", href: "/insights/framework first-methodology" },
   { eyebrow: "Capability", title: "Standards and accreditation", href: "/platform/standards-accreditation" },
 ];
 
@@ -62,7 +62,7 @@ export default function Page() {
       <EditorialList items={[
         <><strong>SCORM is a packaging spec.</strong> It defines how a learning object is bundled, launched by an LMS, and reports completion. It is silent on content correctness.</>,
         <><strong>xAPI is a telemetry protocol.</strong> It defines how learning events are recorded and moved between systems. It captures what happened. It does not decide what should happen.</>,
-        <><strong>The strategy lives above both.</strong> The framework. concepts, relationships, progression, assessment definitions. is what the standards transport is silent on.</>,
+        <><strong>The strategy lives above both.</strong> The framework (concepts, relationships, progression, assessment definitions) is what the standards transport is silent on.</>,
       ]} />
 
       <PullQuote attribution="Knowledge Foundry, Standards Posture Notes">
@@ -72,7 +72,7 @@ export default function Page() {
       <EditorialH2 id="sec-2">Where the confusion is expensive</EditorialH2>
       <EditorialP>
         In procurement, standards conformance gets used as a proxy for content quality. A
-        SCORM-conformant module and a non-conformant one can teach the same subject with wildly
+        SCORM conformant module and a non conformant one can teach the same subject with wildly
         different fidelity to the underlying requirement. The conformance flag says nothing
         about which is which. Buyers who lean on the flag are buying an interoperability
         guarantee and mistaking it for a knowledge guarantee.
@@ -99,16 +99,16 @@ export default function Page() {
       <EditorialP>
         When evaluating a training vendor or platform, the disqualifying question is not whether
         the output is SCORM conformant. Assume it is. The qualifying question is whether the
-        output is generated from an explicit, reviewable framework the buyer controls — and
-        whether every packaged object carries a link back to the framework node it satisfies.
+        output is generated from an explicit, reviewable framework the buyer controls, and
+        whether each packaged object carries a link back to the framework node it satisfies.
         If the framework is absent, the vendor is selling packaging, however sophisticated.
       </EditorialP>
 
       <EditorialH2 id="sec-4">A practical corrective</EditorialH2>
       <EditorialP>
-        Rewrite the procurement scorecard. Move standards conformance to the pass/fail column
-        where it belongs, and replace the middle of the sheet with framework questions: does the
-        vendor produce a reviewable framework, can it be inspected before generation, does every
+        Rewrite the procurement scorecard. Move standards conformance to the pass or fail column
+        where it belongs, and replace the middle of the sheet with framework questions. Does the
+        vendor produce a reviewable framework, can it be inspected before generation, does each
         generated element carry provenance back to a framework node and a source clause. Vendors
         that cannot answer those questions are not selling knowledge. They are selling packaging.
       </EditorialP>

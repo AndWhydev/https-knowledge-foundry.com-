@@ -16,9 +16,9 @@ const cases = [
   {
     icon: <Landmark className="h-5 w-5" />,
     sector: "Financial services",
-    title: "A tier-1 Australian financial institution",
+    title: "A tier 1 Australian financial institution",
     programme: "RG146 refresh and AFSL licensee training",
-    desc: "Contractor drift and a thematic review finding forced a framework-first rebuild before content could be trusted again.",
+    desc: "Contractor drift and a thematic review finding forced a rebuild that began with the framework, before content could be trusted again.",
     href: "/case-studies/regulated-financial-services",
   },
   {
@@ -26,15 +26,15 @@ const cases = [
     sector: "Healthcare",
     title: "A national private hospital operator",
     programme: "Clinical procedure library and credentialing",
-    desc: "Four hundred procedures across thirty-plus sites, each site quietly diverging. One framework, per-site variance modelled explicitly.",
+    desc: "Four hundred procedures across more than thirty sites, each site quietly diverging. One framework, variance per site modelled explicitly.",
     href: "/case-studies/national-healthcare-operator",
   },
   {
     icon: <Zap className="h-5 w-5" />,
     sector: "Critical infrastructure",
     title: "An Australian critical infrastructure operator",
-    programme: "Safety-critical operations and competency verification",
-    desc: "Post-incident review exposed training-to-behaviour drift. Hybrid verification replaced pass-and-click.",
+    programme: "Safety critical operations and competency verification",
+    desc: "A post incident review exposed drift between training and behaviour. Hybrid verification replaced pass and click.",
     href: "/case-studies/critical-infrastructure",
   },
 ];
@@ -46,7 +46,7 @@ export default function CaseStudiesIndexPage() {
         eyebrow="Case studies"
         breadcrumb={[{ label: "Case studies", href: "/case-studies" }]}
         title={<>How the Foundry <span className="text-[color:var(--color-forge)]">operates</span> inside regulated enterprise.</>}
-        lede="Three anonymised programmes across financial services, healthcare, and critical infrastructure. Different sectors, one pattern: framework first, content second, evidence throughout."
+        lede="Three anonymised programmes across financial services, healthcare, and critical infrastructure. Different sectors, one pattern. Framework first, content second, evidence throughout."
         primaryCta={{ label: "Request a demonstration", href: "/demonstration" }}
         secondaryCta={{ label: "See the platform", href: "/platform/framework-intelligence" }}
       />
@@ -61,7 +61,7 @@ export default function CaseStudiesIndexPage() {
               </Reveal>
               <Reveal delay={0.1}>
                 <p className="text-lede mt-5">
-                  The cases below are written without client identifiers. Named references, board-level
+                  The cases below are written without client identifiers. Named references, board level
                   metrics, and full outcome dossiers are shared under NDA on request during the
                   demonstration process.
                 </p>
@@ -141,7 +141,7 @@ export default function CaseStudiesIndexPage() {
       <CtaBand
         eyebrow="See the pattern on your own material"
         title="Bring a subject you already teach."
-        lede="Forty-five minutes with the Foundry on your source documents. You leave with the framework it produces, and a candid view on whether an engagement here would repay the effort."
+        lede="Forty five minutes with the Foundry on your source documents. You leave with the framework it produces, and a candid view on whether an engagement here would repay the effort."
       />
     </>
   );

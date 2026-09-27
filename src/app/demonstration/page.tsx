@@ -11,13 +11,13 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Request a demonstration. Knowledge Foundry",
   description:
-    "Bring a subject. Leave with a framework. A 45-minute working session on a real programme you own. you see the platform operate on your material and keep what it produces.",
+    "Bring a subject. Leave with a framework. A 45 minute working session on a real programme you own. You see the platform operate on your material and keep what it produces.",
 };
 
 const bring = [
   {
     title: "A subject or programme you already own",
-    desc: "A policy, standard, protocol, procedure, or existing training corpus. It does not need to be tidy. the platform is built to work on messy source.",
+    desc: "A policy, standard, protocol, procedure, or existing training corpus. It does not need to be tidy. The platform is built to work on messy source.",
   },
   {
     title: "One senior owner in the room",
@@ -32,7 +32,7 @@ const bring = [
 const leaveWith = [
   {
     title: "A working framework on your material",
-    desc: "The Knowledge Foundry framework produced from your source. concept nodes, relationships, assessment logic, and provenance links back to the sentence that implies each requirement.",
+    desc: "The Knowledge Foundry framework produced from your source. Concept nodes, relationships, assessment logic, and provenance links back to the sentence that implies each requirement.",
   },
   {
     title: "The gap picture",
@@ -56,7 +56,7 @@ export default function DemonstrationPage() {
             <span className="text-[color:var(--color-forge)]">Leave with a framework.</span>
           </>
         }
-        lede="A 45-minute working session with our team on a real subject or programme you own. You see the platform operate on your material — and you keep the framework it produces. One business-day response, always."
+        lede="A 45 minute working session with our team on a real subject or programme you own. You see the platform operate on your material, and you keep the framework it produces. Reply within one business day, always."
         primaryCta={{ label: "Jump to the form", href: "#request" }}
         secondaryCta={{ label: `Email ${site.contact.email}`, href: `mailto:${site.contact.email}` }}
       />
@@ -130,7 +130,7 @@ export default function DemonstrationPage() {
             </Reveal>
             <Reveal delay={0.1}>
               <p className="text-[15px] leading-[1.7] text-[color:var(--color-ink-soft)] mt-5">
-                A short form — enough for us to route your enquiry to the right member of the
+                A short form. Enough for us to route your enquiry to the right member of the
                 team and prepare a session on your actual material. We reply within one
                 business day.
               </p>
@@ -150,11 +150,11 @@ export default function DemonstrationPage() {
                   {site.legal.entity} collects the information above to schedule
                   and prepare your demonstration session, to reply to your
                   enquiry, and to keep a record of that correspondence. We do
-                  not pass this information to a marketing-automation platform,
+                  not pass this information to a marketing automation platform,
                   and we do not use it to add you to a broadcast mailing list.
-                  Full detail on how we handle personal information — including
+                  Full detail on how we handle personal information (including
                   storage, retention, access, correction, and complaint
-                  handling — is set out in our{" "}
+                  handling) is set out in our{" "}
                   <Link href="/privacy" className="text-[color:var(--color-forge)] underline underline-offset-2">
                     privacy policy
                   </Link>
@@ -195,7 +195,7 @@ export default function DemonstrationPage() {
               </div>
               <p className="text-[13.5px] leading-[1.6] text-[color:var(--color-ink-muted)] mt-3">
                 Enquiries received on Australian Eastern business days are replied to by close of
-                the next business day. Weekend and public-holiday enquiries roll to the next
+                the next business day. Weekend and public holiday enquiries roll to the next
                 business day.
               </p>
             </div>
@@ -206,7 +206,7 @@ export default function DemonstrationPage() {
       <ProseBlock eyebrow="What this session is not" title="A short honesty section.">
         <p>
           This is not a slide walkthrough of our features. It is not a
-          time-boxed sales call disguised as a demo. It is not a scripted
+          time boxed sales call disguised as a demo. It is not a scripted
           product tour that ignores your material.
         </p>
         <p>

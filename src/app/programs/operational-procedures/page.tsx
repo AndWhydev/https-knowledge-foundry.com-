@@ -19,39 +19,39 @@ import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 export const metadata: Metadata = {
   title: "Operational Procedures. Structured execution, not tribal knowledge",
   description:
-    "Tasks, workflows, and procedures turned into repeatable, verifiable execution. Structure governs sequence. Consistency becomes a property of the system, not the operator.",
+    "Tasks, workflows, and procedures turned into repeatable, verifiable execution. Structure governs sequence. Consistency becomes a property of the system, not of the operator.",
 };
 
 const capabilities = [
   {
     icon: <ListOrdered className="h-5 w-5" />,
     title: "Sequenced steps",
-    desc: "Required steps, order, and required inputs are extracted from source procedures and modelled explicitly. No assumed prior experience; no missed prerequisites.",
+    desc: "Required steps, order, and required inputs are extracted from source procedures and modelled explicitly. No assumed prior experience. No missed prerequisites.",
   },
   {
     icon: <GitBranch className="h-5 w-5" />,
     title: "Conditional pathways",
-    desc: "Decision points and their downstream branches are captured as first-class elements. The procedure knows what to do when conditions diverge. and teaches it.",
+    desc: "Decision points and their downstream branches are captured as first class elements. The procedure knows what to do when conditions diverge, and teaches it.",
   },
   {
     icon: <AlertOctagon className="h-5 w-5" />,
-    title: "Error-sensitive stages",
-    desc: "Failure risks and error-prone stages are surfaced during framework construction and reinforced with proportional emphasis in the generated guidance.",
+    title: "Stages sensitive to error",
+    desc: "Failure risks and stages prone to error are surfaced during framework construction and reinforced with proportional emphasis in the generated guidance.",
   },
   {
     icon: <CheckCircle2 className="h-5 w-5" />,
     title: "Validation checkpoints",
-    desc: "Step confirmation, scenario testing, and completion checks are built into the procedure. not appended afterwards. Performance is measured against defined outcomes.",
+    desc: "Step confirmation, scenario testing, and completion checks are built into the procedure rather than appended afterwards. Performance is measured against defined outcomes.",
   },
   {
     icon: <Repeat className="h-5 w-5" />,
     title: "Repeatability across teams",
-    desc: "The same procedure produces the same outcome whether performed once, daily, across shifts, or across sites. Consistency is anchored in the framework, not the operator.",
+    desc: "The same procedure produces the same outcome whether performed once, daily, across shifts, or across sites. Consistency is anchored in the framework, not in the operator.",
   },
   {
     icon: <ClipboardList className="h-5 w-5" />,
     title: "Standards mapping",
-    desc: "Where procedures sit under a formal regime. OSHA, HACCP, GMP, ISO 45001. steps and validation checkpoints tie back to the specific clause they satisfy.",
+    desc: "Where procedures sit under a formal regime (OSHA, HACCP, GMP, ISO 45001) steps and validation checkpoints tie back to the specific clause they satisfy.",
   },
 ];
 
@@ -64,40 +64,40 @@ const steps = [
   {
     n: "02",
     title: "Extract structure",
-    desc: "Required steps, materials, decision points, dependencies, and failure risks are extracted from source SOPs, subject-matter expert input, or a combination of both.",
+    desc: "Required steps, materials, decision points, dependencies, and failure risks are extracted from source SOPs, subject matter expert input, or a combination of both.",
   },
   {
     n: "03",
     title: "Construct the framework",
-    desc: "Sequential modules, conditional pathways, reinforcement checkpoints, and completion validation are proposed as a structured procedure. approved before generation.",
+    desc: "Sequential modules, conditional pathways, reinforcement checkpoints, and completion validation are proposed as a structured procedure. Approved before generation.",
   },
   {
     n: "04",
     title: "Generate guided instruction",
-    desc: "Instruction is produced to fit the framework: clear step progression, visual aids where useful, integrated validation, and version-controlled revisions.",
+    desc: "Instruction is produced to fit the framework: clear step progression, visual aids where useful, integrated validation, and revisions under version control.",
   },
 ];
 
 const faq = [
   {
     q: "How is this different from a standard SOP document?",
-    a: "An SOP document is a static artefact. When conditions change, the document does not know. The Foundry treats the procedure as a structured object. steps, dependencies, decision points, validation. and generates guided instruction from it. When the source changes, the affected steps regenerate; when the operator performs the procedure, validation is measurable, not assumed.",
+    a: "An SOP document is a static artefact. When conditions change, the document does not know. The Foundry treats the procedure as a structured object (steps, dependencies, decision points, validation) and generates guided instruction from it. When the source changes, the affected steps regenerate. When the operator performs the procedure, validation is measurable, not assumed.",
   },
   {
-    q: "Can this cover safety-critical procedures under OSHA, HACCP, or ISO 45001?",
-    a: "Yes. Steps and validation checkpoints carry provenance to the specific standard clause they satisfy. Under audit, the procedure defends itself against the standard. not against a reviewer's memory of what the SOP was supposed to say.",
+    q: "Can this cover safety critical procedures under OSHA, HACCP, or ISO 45001?",
+    a: "Yes. Steps and validation checkpoints carry provenance to the specific standard clause they satisfy. Under audit, the procedure defends itself against the standard, not against a reviewer's memory of what the SOP was supposed to say.",
   },
   {
     q: "What about procedures that vary by site or shift?",
-    a: "One approved framework can carry site-specific or shift-specific variants without duplicating the underlying procedure. Where a step differs. say, equipment specific to a site. the variant is a branch on the framework, not a fork of the entire document. Governance stays in one place.",
+    a: "One approved framework can carry variants specific to a site or shift without duplicating the underlying procedure. Where a step differs (say, equipment specific to a site) the variant is a branch on the framework, not a fork of the entire document. Governance stays in one place.",
   },
   {
     q: "How does the platform capture procedures that only exist as tribal knowledge?",
-    a: "The framework construction phase supports SME-driven capture as well as document ingestion. The system proposes a structural draft based on interviews or observations; the SME reviews, corrects, and approves. What was previously implicit becomes an inspectable, versionable artefact.",
+    a: "The framework construction phase supports capture driven by an SME as well as document ingestion. The system proposes a structural draft based on interviews or observations. The SME reviews, corrects, and approves. What was previously implicit becomes an inspectable, versionable artefact.",
   },
   {
-    q: "Can the same procedure produce learning material for training and quick-reference material for operators?",
-    a: "Yes. From one approved framework the system generates full training programmes for new operators and condensed reference formats for experienced ones. The knowledge structure is identical; the instructional expression adapts to the use.",
+    q: "Can the same procedure produce learning material for training and quick reference material for operators?",
+    a: "Yes. From one approved framework the system generates full training programmes for new operators and condensed reference formats for experienced ones. The knowledge structure is identical. The instructional expression adapts to the use.",
   },
 ];
 
@@ -105,7 +105,7 @@ const related = [
   {
     eyebrow: "Adjacent",
     title: "Hybrid verification",
-    desc: "Where operational procedures require demonstrable capability. competency sign-off, verified execution. verification pairs with the procedure framework.",
+    desc: "Where operational procedures require demonstrable capability (competency sign off, verified execution) verification pairs with the procedure framework.",
     href: "/programs/hybrid-verification",
   },
   {
@@ -117,7 +117,7 @@ const related = [
   {
     eyebrow: "Sector",
     title: "Energy & resources",
-    desc: "Safety-critical operations, competency-based verification, and ISO 45001-aligned procedure evidence.",
+    desc: "Safety critical operations, verification based on competency, and procedure evidence aligned to ISO 45001.",
     href: "/industries/energy-resources",
   },
 ];
@@ -144,13 +144,13 @@ export default function OperationalProceduresPage() {
       <ProseBlock eyebrow="Why this matters" title="Instructions alone do not guarantee correct performance.">
         <p>
           Operational learning too often relies on watching someone else, reading informal
-          instructions, or memory-based repetition. The result is missed steps, incorrect
+          instructions, or repetition based on memory. The result is missed steps, incorrect
           sequencing, inconsistent results, and quiet dependence on the prior experience of
           individual operators. When that experience walks out the door, the procedure walks
           out with it.
         </p>
         <p>
-          The Foundry treats the procedure as a structured object — steps, dependencies,
+          The Foundry treats the procedure as a structured object. Steps, dependencies,
           decision points, failure risks, validation. Instruction is generated to fit that
           structure so execution becomes a property of the system, not a virtue of the operator.
           Consistency stops being aspirational and becomes measurable.
@@ -182,7 +182,7 @@ export default function OperationalProceduresPage() {
           happens to be on shift.
         </p>
         <p>
-          The outcome is not exposure to instructions. The outcome is correct execution — anchored
+          The outcome is not exposure to instructions. The outcome is correct execution, anchored
           to a structural framework the organisation approves, versions, and can defend.
         </p>
       </ProseBlock>
@@ -192,7 +192,7 @@ export default function OperationalProceduresPage() {
       <CtaBand
         eyebrow="Bring a procedure"
         title="See your task structure itself."
-        lede="Send us an SOP, a workflow, or a task you already run. In a 45-minute working session on your material, you leave with the framework the Foundry produces."
+        lede="Send us an SOP, a workflow, or a task you already run. In a 45 minute working session on your material, you leave with the framework the Foundry produces."
         ctaLabel="Start with your task"
       />
     </>

@@ -26,33 +26,33 @@ export const metadata: Metadata = {
 const posture = [
   {
     icon: <ShieldCheck className="h-5 w-5" />,
-    title: "ISO 27001. aligned",
-    desc: "Information security controls are designed against ISO/IEC 27001. Formal certification is in progress. Documentation and audit trail available to enterprise buyers under NDA.",
+    title: "ISO 27001, aligned",
+    desc: "Information security controls are designed against ISO/IEC 27001. Formal certification is in progress. Documentation and audit trail are available to enterprise buyers under NDA.",
   },
   {
     icon: <FileCheck2 className="h-5 w-5" />,
-    title: "SOC 2 Type II. in progress",
+    title: "SOC 2 Type II, in progress",
     desc: "Operating in the observation window against the Trust Services Criteria for Security, Availability, and Confidentiality. Report available to prospective customers upon completion.",
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
-    title: "APRA CPS 234. aware",
-    desc: "For regulated Australian financial-services customers, controls, evidence artefacts, and reporting are designed to support obligations under CPS 234 and to fit inside an APRA-regulated operating environment.",
+    title: "APRA CPS 234, aware",
+    desc: "For regulated Australian financial services customers, controls, evidence artefacts, and reporting are designed to support obligations under CPS 234 and to fit inside an environment regulated by APRA.",
   },
   {
     icon: <FileCheck2 className="h-5 w-5" />,
-    title: "GDPR. ready by design",
-    desc: "Data-processing terms, subprocessor register, deletion workflows, and export mechanisms are structured for GDPR-eligible processing where a customer requires them.",
+    title: "GDPR, ready by design",
+    desc: "Data processing terms, subprocessor register, deletion workflows, and export mechanisms are structured for processing eligible under GDPR where a customer requires them.",
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
     title: "WCAG 2.1 AA",
-    desc: "The customer surface. Studio, Console, and delivered programs. is engineered against WCAG 2.1 AA. See our accessibility statement for testing methodology and known limitations.",
+    desc: "The customer surface (Studio, Console, and delivered programs) is engineered against WCAG 2.1 AA. See our accessibility statement for testing methodology and known limitations.",
   },
   {
     icon: <Database className="h-5 w-5" />,
-    title: "Data residency. Australia",
-    desc: "Production data for Australian customers resides in AWS ap-southeast-2 (Sydney). No routine offshore replication. Residency in other regions available on request for regulated deployments.",
+    title: "Data residency in Australia",
+    desc: "Production data for Australian customers resides in AWS ap-southeast-2 (Sydney). No routine offshore replication. Residency in other regions is available on request for regulated deployments.",
   },
 ];
 
@@ -60,43 +60,43 @@ const controls = [
   {
     icon: <Lock className="h-5 w-5" />,
     title: "Encryption in transit and at rest",
-    desc: "TLS 1.3 across all customer-facing endpoints. AES-256 encryption at rest for databases and object storage. Keys managed in AWS KMS with per-tenant separation.",
+    desc: "TLS 1.3 across all customer facing endpoints. AES-256 encryption at rest for databases and object storage. Keys managed in AWS KMS with separation per tenant.",
   },
   {
     icon: <KeyRound className="h-5 w-5" />,
     title: "Access model",
-    desc: "SSO/SAML for customer sign-in, MFA required for staff access, principle-of-least-privilege on internal systems, and per-tenant isolation on production data.",
+    desc: "SSO/SAML for customer sign in, MFA required for staff access, principle of least privilege on internal systems, and isolation per tenant on production data.",
   },
   {
     icon: <Server className="h-5 w-5" />,
     title: "Infrastructure",
-    desc: "AWS-hosted, ap-southeast-2 by default. Segmented VPCs. Immutable infrastructure via versioned deployment pipelines. No shared build hosts.",
+    desc: "Hosted on AWS, ap-southeast-2 by default. Segmented VPCs. Immutable infrastructure via versioned deployment pipelines. No shared build hosts.",
   },
   {
     icon: <Users className="h-5 w-5" />,
     title: "Personnel",
-    desc: "Staff access is scoped, logged, and reviewed. Background checks on customer-facing engineering and support roles. Security training on hire and annually.",
+    desc: "Staff access is scoped, logged, and reviewed. Background checks on engineering and support roles that touch customer environments. Security training on hire and annually.",
   },
   {
     icon: <Siren className="h-5 w-5" />,
     title: "Incident response",
-    desc: "Documented response playbook with named on-call rotation. Customer notification for material incidents is committed to within contractually defined windows.",
+    desc: "Documented response playbook with named on call rotation. Customer notification for material incidents is committed to within contractually defined windows.",
   },
   {
     icon: <Database className="h-5 w-5" />,
     title: "Backups and recovery",
-    desc: "Automated daily backups with point-in-time recovery, tested restore drills, and documented recovery time and recovery point objectives available under NDA.",
+    desc: "Automated daily backups with point in time recovery, tested restore drills, and documented recovery time and recovery point objectives available under NDA.",
   },
 ];
 
 const subprocessorsSummary = [
   {
     title: "Cloud infrastructure",
-    desc: "Amazon Web Services (ap-southeast-2, Sydney). hosting, compute, storage, key management. No offshore replication for AU-hosted tenants.",
+    desc: "Amazon Web Services (ap-southeast-2, Sydney). Hosting, compute, storage, key management. No offshore replication for tenants hosted in Australia.",
   },
   {
     title: "Observability",
-    desc: "Application performance monitoring and error tracking. Non-customer content only; PII scrubbed at source.",
+    desc: "Application performance monitoring and error tracking. Non customer content only. PII scrubbed at source.",
   },
   {
     title: "Email delivery",
@@ -137,7 +137,7 @@ export default function TrustCentrePage() {
             <span className="text-[color:var(--color-forge)]">a system regulated buyers can adopt.</span>
           </>
         }
-        lede="Knowledge Foundry is built for organisations that must defend how their knowledge is produced, stored, and delivered. This page summarises the security posture, compliance posture, and data handling that make the platform adoptable inside a regulated environment. Sub-pages provide the detail."
+        lede="Knowledge Foundry is built for organisations that must defend how their knowledge is produced, stored, and delivered. This page summarises the security posture, the compliance posture, and the data handling that make the platform adoptable inside a regulated environment. Sub pages provide the detail."
         primaryCta={{ label: "Request our security pack", href: "/demonstration" }}
         secondaryCta={{ label: "Security deep dive", href: "/trust/security" }}
       />
@@ -145,7 +145,7 @@ export default function TrustCentrePage() {
       <FeatureGrid
         eyebrow="Posture at a glance"
         title="What we are, what we are working toward, and how we say it honestly."
-        lede="Certifications are named as certified, in-progress, or aligned. In-progress means the control set is implemented and audited against; the certificate itself is not yet issued."
+        lede="Certifications are named as certified, in progress, or aligned. In progress means the control set is implemented and audited against. The certificate itself is not yet issued."
         features={posture}
         columns={3}
       />
@@ -168,14 +168,14 @@ export default function TrustCentrePage() {
         <p>
           Access to production is limited to a named group of engineers,
           scoped to specific tasks, logged, and reviewed. Support staff do not
-          have standing read access to customer content; access is granted for a
+          have standing read access to customer content. Access is granted for a
           specific ticket and revoked automatically.
         </p>
         <p>
           <strong>Ownership.</strong> Your source material, frameworks, generated
           content, review history, and evidence artefacts are yours. On exit,
           the full corpus is exportable in structured form. We do not train
-          third-party models on customer content.
+          third party models on customer content.
         </p>
       </ProseBlock>
 
@@ -188,9 +188,9 @@ export default function TrustCentrePage() {
             </Reveal>
             <Reveal delay={0.1}>
               <p className="text-lede mt-5">
-                The current subprocessor register is maintained on the compliance-posture
-                page and provided in full to prospective customers. High-level categories are
-                listed below.
+                The current subprocessor register is maintained on the compliance posture
+                page and provided in full to prospective customers. Categories at a high level
+                are listed below.
               </p>
             </Reveal>
           </div>
@@ -211,14 +211,14 @@ export default function TrustCentrePage() {
 
       <ProseBlock eyebrow="Incident response" title="What happens when something goes wrong.">
         <p>
-          Every security event is triaged against a documented playbook.
-          Material incidents that affect customer data trigger a named on-call
-          rotation, a designated incident commander, and a written post-incident
+          Each security event is triaged against a documented playbook.
+          Material incidents that affect customer data trigger a named on call
+          rotation, a designated incident commander, and a written post incident
           review. Customer notification for material incidents is committed to
           within contractually defined windows in the master services agreement.
         </p>
         <p>
-          For information on our responsible-disclosure programme, or to report a
+          For information on our responsible disclosure programme, or to report a
           suspected vulnerability, see the security page. The security contact
           is <strong>security@knowledge-foundry.com</strong>.
         </p>
@@ -229,7 +229,7 @@ export default function TrustCentrePage() {
       <CtaBand
         eyebrow="For enterprise procurement"
         title="Request the full security pack."
-        lede="A 45-minute working session with our team, plus the security pack, DPA, and subprocessor register under NDA. We reply within one business day."
+        lede="A 45 minute working session with our team, plus the security pack, DPA, and subprocessor register under NDA. We reply within one business day."
         ctaLabel="Request the pack"
       />
     </>

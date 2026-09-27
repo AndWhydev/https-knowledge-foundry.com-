@@ -8,9 +8,9 @@ import {
 } from "@/components/layouts/case-narrative";
 
 export const metadata: Metadata = {
-  title: "Case study. RG146 refresh at a tier-1 Australian financial institution",
+  title: "Case study. RG146 refresh at a tier 1 Australian financial institution",
   description:
-    "How a tier-1 Australian bank rebuilt its RG146 and AFSL licensee training on a governed framework after an APRA thematic review flagged evidence gaps.",
+    "How a tier 1 Australian bank rebuilt its RG146 and AFSL licensee training on a governed framework after an APRA thematic review flagged evidence gaps.",
 };
 
 const chapters: CaseChapter[] = [
@@ -24,14 +24,14 @@ export default function Page() {
   return (
     <CaseStudy
       sector="Financial services"
-      title="A tier-1 bank rebuilt its RG146 programme from the framework up."
-      dek="After an APRA thematic review flagged evidence gaps, a tier-1 Australian institution stopped rewriting modules and started rewriting the underlying structure. The library came second."
+      title="A tier 1 bank rebuilt its RG146 programme from the framework up."
+      dek="After an APRA thematic review flagged evidence gaps, a tier 1 Australian institution stopped rewriting modules and started rewriting the underlying structure. The library came second."
       chapters={chapters}
     >
       <Chapter n="01" label={chapters[0].label} id="situation" title="A library that had accumulated like sediment.">
         <p>
-          The institution — a tier-1 Australian bank with a nationwide network of authorised
-          representatives — had spent close to seven years maintaining its RG146 and AFSL licensee
+          The institution, a tier 1 Australian bank with a nationwide network of authorised
+          representatives, had spent close to seven years maintaining its RG146 and AFSL licensee
           training through successive cohorts of external contractors. Each cohort inherited the
           last, extended what was there, and moved on. No cohort had ever authored a framework.
           There was no framework. There was a library of modules that had accumulated the way
@@ -47,11 +47,11 @@ export default function Page() {
         </p>
         <p>
           The finding was not a fine. It was a request for a remediation plan, delivered against a
-          calendar. That request became the mandate for a different kind of platform — and, as it
+          calendar. That request became the mandate for a different kind of platform, and, as it
           turned out, a different way of thinking about the programme entirely.
         </p>
         <p>
-          The temptation, presented with a coverage-gap finding, is to write more content faster.
+          The temptation, presented with a finding of coverage gaps, is to write more content faster.
           The head of licensee training resisted it. Faster authoring against an unnamed structure
           would produce the same problem in a shorter cycle.
         </p>
@@ -63,28 +63,28 @@ export default function Page() {
           sources that actually governed the programme: ASIC RG146 knowledge requirements, the
           licensee&rsquo;s own AFSL obligations, product disclosure requirements, and the internal
           conduct policy that sat above all of it. From those sources it proposed a framework of
-          concept nodes, prerequisite chains, and assessment definitions — a single object the
-          licensee&rsquo;s subject-matter experts could review and revise.
+          concept nodes, prerequisite chains, and assessment definitions. A single object the
+          licensee&rsquo;s subject matter experts could review and revise.
         </p>
         <p>
           Three working sessions later, the framework was signed. Nothing downstream of that
-          signature was permitted to run against an unapproved structure. This is the framework-first
-          discipline the platform is built around: structure governs content, not the other way
-          around.
+          signature was permitted to run against an unapproved structure. This is the discipline the
+          platform is built around, where the framework comes first. Structure governs content, not
+          the other way around.
         </p>
 
-        <CaseQuote attribution="Head of licensee training, tier-1 Australian bank">
+        <CaseQuote attribution="Head of licensee training, tier 1 Australian bank">
           For the first time we could name what was missing in the regulator&rsquo;s own language,
           rather than in ours. That single change reset the conversation with APRA.
         </CaseQuote>
 
         <p>
-          Only then did the platform look at the seven-year library. The approved framework was
-          compared against every existing module. Coverage was quantified — where the framework was
+          Only then did the platform look at the seven year library. The approved framework was
+          compared against each existing module. Coverage was quantified. Where the framework was
           met, where it was met twice under different names, and where a clause implied coverage
           that had never been written. Regeneration then proceeded module by module under a
-          two-reviewer approval gate, with every regenerated element carrying a Foundry Hash back to
-          the framework node it satisfied and to the source clause behind it. Every artefact was
+          two reviewer approval gate, with each regenerated element carrying a Foundry Hash back to
+          the framework node it satisfied and to the source clause behind it. Each artefact was
           traceable, by design, to the obligation that made it necessary.
         </p>
       </Chapter>
@@ -93,9 +93,10 @@ export default function Page() {
         <p>
           The programme completed regeneration inside the remediation window agreed with the
           regulator, without expanding the authoring team. Author cycle time fell against the
-          previous contractor baseline; requirement coverage against the approved framework reached
-          parity before regeneration was declared complete; and evidence packs that had previously
-          been assembled by hand in the weeks before an audit became a generation-time artefact.
+          previous contractor baseline. Requirement coverage against the approved framework reached
+          parity before regeneration was declared complete. Evidence packs that had previously
+          been assembled by hand in the weeks before an audit became an artefact produced at
+          generation time.
         </p>
         <p>
           More consequentially, the institution now owned a framework object. Contractor rotation
@@ -107,13 +108,13 @@ export default function Page() {
           items={[
             { value: 40, suffix: "%", label: "reduction in author cycle time against the contractor baseline" },
             { value: 100, suffix: "%", label: "framework coverage of the approved RG146 requirement set" },
-            { value: 4, suffix: " hrs", label: "to generate a regulator-ready evidence pack (previously weeks)" },
+            { value: 4, suffix: " hrs", label: "to generate an evidence pack ready for the regulator (previously weeks)" },
           ]}
-          footnote="Illustrative outcomes drawn from typical engagement patterns; specific programme figures shared under NDA on request."
+          footnote="Illustrative outcomes drawn from typical engagement patterns. Specific programme figures shared under NDA on request."
         />
       </Chapter>
 
-      <Chapter n="04" label={chapters[3].label} id="meaning" title="What this shows about framework-first remediation.">
+      <Chapter n="04" label={chapters[3].label} id="meaning" title="What this shows about remediation that begins with the framework.">
         <p>
           The instinct after a thematic finding is to write faster. The instinct is wrong. Coverage
           gaps and evidence gaps are almost never authoring problems. They are structural problems
@@ -121,7 +122,7 @@ export default function Page() {
           produces the same gap on a shorter cycle.
         </p>
         <p>
-          The alternative — build the framework from source, sign it, then regenerate against it —
+          The alternative (build the framework from source, sign it, then regenerate against it)
           is slower for the first fortnight and materially faster for every fortnight after. It also
           produces something the previous state could not: a programme whose evidence is a report,
           not a project.

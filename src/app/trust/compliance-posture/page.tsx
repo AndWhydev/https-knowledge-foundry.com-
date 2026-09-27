@@ -17,7 +17,7 @@ import { Related } from "@/components/solution/related";
 export const metadata: Metadata = {
   title: "Compliance posture. Data handling, subprocessors, DPA",
   description:
-    "Knowledge Foundry's data-handling programme: subprocessors, data-processing agreement, retention, residency, and alignment to the Australian Privacy Act and cross-border transfer standards.",
+    "The data handling programme at Knowledge Foundry. Subprocessors, data processing agreement, retention, residency, and alignment to the Australian Privacy Act and cross border transfer standards.",
 };
 
 const handling = [
@@ -34,7 +34,7 @@ const handling = [
   {
     icon: <Globe2 className="h-5 w-5" />,
     title: "Residency",
-    desc: "Australian customers: production data in AWS ap-southeast-2 (Sydney). No routine cross-border replication. Alternate residency is available on request for regulated deployments.",
+    desc: "Australian customers: production data in AWS ap-southeast-2 (Sydney). No routine replication across borders. Alternate residency is available on request for regulated deployments.",
   },
   {
     icon: <Clock className="h-5 w-5" />,
@@ -44,24 +44,24 @@ const handling = [
   {
     icon: <FileCheck2 className="h-5 w-5" />,
     title: "Deletion",
-    desc: "Customer-initiated deletion is honoured on documented workflows. Full-tenant deletion propagates to backups on the backup-cycle schedule, with a written completion notice on request.",
+    desc: "Deletion initiated by the customer is honoured on documented workflows. Full tenant deletion propagates to backups on the backup cycle schedule, with a written completion notice on request.",
   },
   {
     icon: <Scale className="h-5 w-5" />,
     title: "No model training",
-    desc: "We do not use customer content to train third-party foundation models. Where generative components are used, prompts and outputs remain within the customer's tenancy boundary.",
+    desc: "We do not use customer content to train third party foundation models. Where generative components are used, prompts and outputs remain within the customer's tenancy boundary.",
   },
 ];
 
 const subprocessors = [
   {
     name: "Amazon Web Services",
-    purpose: "Cloud infrastructure — compute, storage, database, key management",
+    purpose: "Cloud infrastructure. Compute, storage, database, key management.",
     region: "ap-southeast-2 (Sydney) for AU tenants",
   },
   {
     name: "Application observability provider",
-    purpose: "Performance monitoring and error tracking, PII scrubbed at source",
+    purpose: "Performance monitoring and error tracking, with PII scrubbed at source",
     region: "AU or EU regions per customer requirement",
   },
   {
@@ -72,7 +72,7 @@ const subprocessors = [
   {
     name: "Customer support ticketing",
     purpose: "Inbound support requests raised by customer administrators",
-    region: "AU-hosted where the vendor offers it",
+    region: "Hosted in Australia where the vendor offers it",
   },
 ];
 
@@ -112,7 +112,7 @@ export default function CompliancePosturePage() {
             <span className="text-[color:var(--color-forge)]">the platform.</span>
           </>
         }
-        lede="Data handling, subprocessors, privacy programme, DPA, retention, residency, and cross-border transfers — described in one place, in the terms your procurement, privacy, and legal teams already use."
+        lede="Data handling, subprocessors, privacy programme, DPA, retention, residency, and cross border transfers, described in one place, in the terms your procurement, privacy, and legal teams already use."
         primaryCta={{ label: "Request DPA and subprocessor register", href: "/demonstration" }}
         secondaryCta={{ label: "Read the privacy policy", href: "/privacy" }}
       />
@@ -133,8 +133,8 @@ export default function CompliancePosturePage() {
             </Reveal>
             <Reveal delay={0.1}>
               <p className="text-lede mt-5">
-                Named subprocessors are listed below. The full register — including
-                legal entity, jurisdiction, and processing purpose — is provided to
+                Named subprocessors are listed below. The full register (including
+                legal entity, jurisdiction, and processing purpose) is provided to
                 prospective customers on request. Material changes are notified to
                 customers in line with the DPA.
               </p>
@@ -174,24 +174,24 @@ export default function CompliancePosturePage() {
         </p>
         <p>
           For customers whose end users reside in the European Union or the
-          United Kingdom, we execute a data-processing agreement incorporating
+          United Kingdom, we execute a data processing agreement incorporating
           the Standard Contractual Clauses where a transfer occurs. Where
           possible, EU/UK customer data is processed in a region that avoids the
           transfer altogether.
         </p>
       </ProseBlock>
 
-      <ProseBlock eyebrow="Data-processing agreement" title="What the DPA covers.">
+      <ProseBlock eyebrow="Data processing agreement" title="What the DPA covers.">
         <p>
           Our DPA is available on request and can be executed alongside the
           master services agreement. It covers the controller/processor
           relationship, subprocessor authorisation, security obligations, breach
-          notification, cross-border-transfer mechanisms, audit rights, and
+          notification, mechanisms for cross border transfers, audit rights, and
           deletion or return of data on termination.
         </p>
         <p>
           For regulated Australian customers, additional operating obligations
-          — including those relevant to APRA CPS 234 — can be reflected in
+          (including those relevant to APRA CPS 234) can be reflected in
           schedules to the master services agreement. Customer legal and
           procurement teams should raise specific requirements during
           contracting.
@@ -204,13 +204,13 @@ export default function CompliancePosturePage() {
           On termination, the customer may request a full structured export for
           a defined window, after which data is deleted from primary systems on
           a documented schedule. Deletion propagates through backups on the
-          backup-cycle interval; a written completion notice is available on
+          backup cycle interval. A written completion notice is available on
           request.
         </p>
         <p>
           Aggregate operational metrics that do not contain customer content or
-          personal information may be retained for platform-integrity purposes
-          beyond the customer term.
+          personal information may be retained for purposes of platform
+          integrity beyond the customer term.
         </p>
       </ProseBlock>
 
@@ -222,7 +222,7 @@ export default function CompliancePosturePage() {
           The Knowledge Foundry platform, and our operational practices around
           it, are designed to support customer obligations under the Australian
           Privacy Principles. Collection is limited to what the service
-          requires. Notice is provided through the customer-facing privacy
+          requires. Notice is provided through the customer facing privacy
           policy and, for direct interactions, at the point of collection.
           Access, correction, and complaint handling are documented and time
           bound.

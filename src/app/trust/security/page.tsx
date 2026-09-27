@@ -21,39 +21,39 @@ import { Related } from "@/components/solution/related";
 export const metadata: Metadata = {
   title: "Security. Threat model, controls, and disclosure",
   description:
-    "How Knowledge Foundry is engineered against a stated threat model: encryption, access controls, backups, incident response, and the responsible-disclosure policy.",
+    "How Knowledge Foundry is engineered against a stated threat model: encryption, access controls, backups, incident response, and the responsible disclosure policy.",
 };
 
 const threats = [
   {
     icon: <Users className="h-5 w-5" />,
     title: "Credential compromise",
-    desc: "Mitigated by mandatory MFA for staff, SSO/SAML for customer sign-in, short-lived session tokens, and continuous review of privileged access.",
+    desc: "Mitigated by mandatory MFA for staff, SSO/SAML for customer sign in, short lived session tokens, and continuous review of privileged access.",
   },
   {
     icon: <Database className="h-5 w-5" />,
     title: "Data exfiltration",
-    desc: "Mitigated by principle-of-least-privilege access, per-tenant isolation, egress controls at the VPC boundary, and audit-logged access to production data.",
+    desc: "Mitigated by access based on the principle of least privilege, isolation per tenant, egress controls at the VPC boundary, and access to production data logged for audit.",
   },
   {
     icon: <GitBranch className="h-5 w-5" />,
-    title: "Supply-chain compromise",
-    desc: "Mitigated by locked dependency manifests, signed build artefacts, automated vulnerability scanning of dependencies, and infrastructure-as-code review before merge.",
+    title: "Supply chain compromise",
+    desc: "Mitigated by locked dependency manifests, signed build artefacts, automated scanning of dependencies for vulnerabilities, and infrastructure as code review before merge.",
   },
   {
     icon: <Server className="h-5 w-5" />,
     title: "Infrastructure compromise",
-    desc: "Mitigated by AWS-native hardening, private-network defaults, restricted management planes, and immutable deployment pipelines with signed artefacts.",
+    desc: "Mitigated by hardening native to AWS, private network defaults, restricted management planes, and immutable deployment pipelines with signed artefacts.",
   },
   {
     icon: <FileSearch className="h-5 w-5" />,
     title: "Insider misuse",
-    desc: "Mitigated by scoped access, session logging on production, mandatory code review, background checks on customer-facing engineering roles, and separation of duties for release.",
+    desc: "Mitigated by scoped access, session logging on production, mandatory code review, background checks on engineering roles that touch customer environments, and separation of duties for release.",
   },
   {
     icon: <Bug className="h-5 w-5" />,
-    title: "Application-layer vulnerability",
-    desc: "Mitigated by static-analysis in CI, dependency scanning, secure-development practices, and a responsible-disclosure programme with a defined intake channel.",
+    title: "Vulnerability at the application layer",
+    desc: "Mitigated by static analysis in CI, dependency scanning, secure development practices, and a responsible disclosure programme with a defined intake channel.",
   },
 ];
 
@@ -66,7 +66,7 @@ const controls = [
   {
     icon: <Lock className="h-5 w-5" />,
     title: "Encryption at rest",
-    desc: "AES-256 for databases and object storage. Keys managed in AWS KMS with per-tenant separation. Automatic key rotation.",
+    desc: "AES-256 for databases and object storage. Keys managed in AWS KMS with separation per tenant. Automatic key rotation.",
   },
   {
     icon: <KeyRound className="h-5 w-5" />,
@@ -76,17 +76,17 @@ const controls = [
   {
     icon: <Users className="h-5 w-5" />,
     title: "Staff access",
-    desc: "MFA required. Standing access to production is scoped to a named on-call group. Just-in-time access for support tickets, revoked automatically on ticket closure.",
+    desc: "MFA required. Standing access to production is scoped to a named on call group. Just in time access for support tickets, revoked automatically on ticket closure.",
   },
   {
     icon: <Database className="h-5 w-5" />,
     title: "Backups",
-    desc: "Automated daily backups with point-in-time recovery for production databases. Encrypted at rest. Restore drills performed on a documented schedule.",
+    desc: "Automated daily backups with point in time recovery for production databases. Encrypted at rest. Restore drills performed on a documented schedule.",
   },
   {
     icon: <Server className="h-5 w-5" />,
     title: "Isolation",
-    desc: "Per-tenant logical isolation at the application layer, enforced by row-level and object-scope checks. No shared build hosts. Segmented VPCs by environment.",
+    desc: "Logical isolation per tenant at the application layer, enforced by row level and object scope checks. No shared build hosts. Segmented VPCs by environment.",
   },
 ];
 
@@ -94,12 +94,12 @@ const ir = [
   {
     n: "01",
     title: "Detect",
-    desc: "Continuous monitoring on production, application error tracking, and structured audit logs. Alerts route to a named on-call rotation with defined acknowledgement windows.",
+    desc: "Continuous monitoring on production, application error tracking, and structured audit logs. Alerts route to a named on call rotation with defined acknowledgement windows.",
   },
   {
     n: "02",
     title: "Contain",
-    desc: "An incident commander is assigned. Contain-first. rotate credentials, isolate affected components, halt inbound traffic to affected surfaces if required.",
+    desc: "An incident commander is assigned. Contain first. Rotate credentials, isolate affected components, halt inbound traffic to affected surfaces if required.",
   },
   {
     n: "03",
@@ -109,7 +109,7 @@ const ir = [
   {
     n: "04",
     title: "Remediate and review",
-    desc: "Root cause is documented. Remediation is tracked to completion. Every material incident produces a written post-incident review, shared with affected customers on request.",
+    desc: "Root cause is documented. Remediation is tracked to completion. Each material incident produces a written post incident review, shared with affected customers on request.",
   },
 ];
 
@@ -128,11 +128,11 @@ const disclosureFaq = [
   },
   {
     q: "What is out of scope?",
-    a: "Denial-of-service, social engineering against staff, physical access, and issues that require access to another customer's tenant to reproduce. Report those only if you have observed real-world impact, not hypothetically.",
+    a: "Denial of service, social engineering against staff, physical access, and issues that require access to another customer's tenant to reproduce. Report those only if you have observed real world impact, not hypothetically.",
   },
   {
-    q: "Will you take legal action against good-faith researchers?",
-    a: "No. provided you act in good faith, do not access data beyond what is necessary to demonstrate the issue, do not exfiltrate data, and give us reasonable time to remediate before public disclosure.",
+    q: "Will you take legal action against researchers acting in good faith?",
+    a: "No, provided you act in good faith, do not access data beyond what is necessary to demonstrate the issue, do not exfiltrate data, and give us reasonable time to remediate before public disclosure.",
   },
 ];
 
@@ -140,13 +140,13 @@ const related = [
   {
     eyebrow: "Trust",
     title: "Trust Centre overview",
-    desc: "The full posture summary. security, compliance, data handling.",
+    desc: "The full posture summary. Security, compliance, data handling.",
     href: "/trust",
   },
   {
     eyebrow: "Trust",
     title: "Compliance posture",
-    desc: "Data handling, subprocessors, DPA, retention, residency, and cross-border transfers.",
+    desc: "Data handling, subprocessors, DPA, retention, residency, and cross border transfers.",
     href: "/trust/compliance-posture",
   },
   {
@@ -180,7 +180,7 @@ export default function SecurityPage() {
       <FeatureGrid
         eyebrow="Threat model"
         title="What we design against."
-        lede="A short, honest threat model — the categories of risk that shape our control choices. Detailed control mappings are provided in the security pack under NDA."
+        lede="A short, honest threat model. The categories of risk that shape our control choices. Detailed control mappings are provided in the security pack under NDA."
         features={threats}
         columns={3}
       />
@@ -196,7 +196,7 @@ export default function SecurityPage() {
       <ProcessSteps
         eyebrow="Incident response"
         title="What happens when something goes wrong."
-        lede="A defined process, a named on-call rotation, and a written commitment on customer notification. Not improvised."
+        lede="A defined process, a named on call rotation, and a written commitment on customer notification. Not improvised."
         steps={ir}
       />
 
@@ -214,16 +214,16 @@ export default function SecurityPage() {
           allow us reasonable time to remediate before public disclosure. In
           return, we commit to acknowledge receipt promptly, keep you informed
           through triage and fix, and not pursue legal action against
-          good-faith research conducted under these terms.
+          research conducted in good faith under these terms.
         </p>
       </ProseBlock>
 
-      <FAQ title="Reporting and disclosure — practical questions." items={disclosureFaq} />
+      <FAQ title="Reporting and disclosure. Practical questions." items={disclosureFaq} />
 
       <ProseBlock eyebrow="For enterprise procurement" title="The security pack.">
         <p>
-          A more detailed control mapping, penetration-test summary, business-continuity
-          plan, and incident-response run-book is available to prospective enterprise
+          A more detailed control mapping, summary of penetration testing, business continuity
+          plan, and incident response run book is available to prospective enterprise
           customers under mutual non-disclosure. Request it via a demonstration or by
           emailing <strong>security@knowledge-foundry.com</strong>.
         </p>

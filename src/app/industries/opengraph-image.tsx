@@ -71,7 +71,7 @@ export default function OG() {
               maxWidth: 1000,
             }}
           >
-            Regulated, evidenced, audit-ready in your sector.
+            Regulated, evidenced, ready for audit in your sector.
           </div>
         </div>
         <div

@@ -19,14 +19,14 @@ import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 export const metadata: Metadata = {
   title: "Knowledge Transformation. Turn raw knowledge into structured capability",
   description:
-    "Documents, expertise, methodologies, and research become a coherent, governable knowledge system. Structure before content. regardless of where the knowledge originates.",
+    "Documents, expertise, methodologies, and research become a coherent, governable knowledge system. Structure before content, regardless of where the knowledge originates.",
 };
 
 const capabilities = [
   {
     icon: <BookOpen className="h-5 w-5" />,
     title: "Static sources",
-    desc: "Policies, procedures, manuals, standards, and reports carry institutional value. The system maps and restructures them into active knowledge. not another PDF folder.",
+    desc: "Policies, procedures, manuals, standards, and reports carry institutional value. The system maps and restructures them into active knowledge, rather than another PDF folder.",
   },
   {
     icon: <Lightbulb className="h-5 w-5" />,
@@ -36,7 +36,7 @@ const capabilities = [
   {
     icon: <UserSquare2 className="h-5 w-5" />,
     title: "Human sources",
-    desc: "Subject-matter expertise that lives in individual memory is captured deliberately. protection against institutional amnesia at the individual level.",
+    desc: "Subject matter expertise that lives in individual memory is captured deliberately. Protection against institutional amnesia at the individual level.",
   },
   {
     icon: <Network className="h-5 w-5" />,
@@ -45,8 +45,8 @@ const capabilities = [
   },
   {
     icon: <Layers className="h-5 w-5" />,
-    title: "One source, multiple outcomes",
-    desc: "A single structured framework produces multiple tailored programmes. educational, compliance, enablement, operational. without duplication of intent.",
+    title: "One source, many outcomes",
+    desc: "A single structured framework produces multiple tailored programmes across education, compliance, enablement, and operations, without duplication of intent.",
   },
   {
     icon: <Recycle className="h-5 w-5" />,
@@ -64,7 +64,7 @@ const steps = [
   {
     n: "02",
     title: "Establish understanding",
-    desc: "The system constructs the structural blueprint. concepts, relationships, dependencies, outcomes, assessments, learning pathways.",
+    desc: "The system constructs the structural blueprint. Concepts, relationships, dependencies, outcomes, assessments, and learning pathways.",
   },
   {
     n: "03",
@@ -74,7 +74,7 @@ const steps = [
   {
     n: "04",
     title: "Produce the ecosystem",
-    desc: "Learning assets, assessments, and evidence artefacts are generated to fit the approved structure. coherent by construction.",
+    desc: "Learning assets, assessments, and evidence artefacts are generated to fit the approved structure. Coherent by construction.",
   },
 ];
 
@@ -85,19 +85,19 @@ const faq = [
   },
   {
     q: "We have knowledge that only exists in one person's head. Can that be transformed?",
-    a: "Yes, and this is often the highest-value input. The platform supports structured elicitation. a guided capture flow that turns expert reasoning into concept nodes, decisions, and evidence. What was single-point-of-failure knowledge becomes a governed asset the organisation owns.",
+    a: "Yes, and this is often the input with the highest value. The platform supports structured elicitation. A guided capture flow turns expert reasoning into concept nodes, decisions, and evidence. Knowledge that was a single point of failure becomes a governed asset the organisation owns.",
   },
   {
     q: "How is this different from a knowledge base or a wiki?",
-    a: "A wiki stores what someone wrote. Knowledge Transformation produces a structured object. concepts, relationships, dependencies, outcomes. that can generate multiple downstream artefacts consistently. The wiki is the storage; the transformed knowledge is the operating model.",
+    a: "A wiki stores what someone wrote. Knowledge Transformation produces a structured object, meaning concepts, relationships, dependencies, and outcomes, that can generate multiple downstream artefacts consistently. The wiki is the storage. The transformed knowledge is the operating model.",
   },
   {
     q: "Can one framework serve compliance, education, and enablement at the same time?",
-    a: "Yes. That is the point of separating structure from content. One approved framework can produce a compliance programme for auditors, an educational programme for learners, and an enablement programme for practitioners. each tailored, all traceable to the same source of truth.",
+    a: "Yes. That is the point of separating structure from content. One approved framework can produce a compliance programme for auditors, an educational programme for learners, and an enablement programme for practitioners. Each is tailored, and all are traceable to the same source of truth.",
   },
   {
     q: "What happens when the source material updates?",
-    a: "Change propagates through the framework, and the framework flags every downstream artefact that referenced the changed source. You choose what to regenerate, when. Drift is visible before it becomes damage.",
+    a: "Change propagates through the framework, and the framework flags each downstream artefact that referenced the changed source. You choose what to regenerate, and when. Drift is visible before it becomes damage.",
   },
 ];
 
@@ -137,7 +137,7 @@ export default function KnowledgeTransformationPage() {
             <span className="text-[color:var(--color-forge)]">capability</span>.
           </>
         }
-        lede="Knowledge exists in many forms — documented policies, tacit expertise, emerging research, abstract competency models. Regardless of origin, it must be structured before it can be consistently taught, assessed, verified, and applied."
+        lede="Knowledge exists in many forms. Documented policies, tacit expertise, emerging research, and abstract competency models. Regardless of origin, it must be structured before it can be consistently taught, assessed, verified, and applied."
         secondaryCta={{ label: "See it work", href: "/platform/see-it-work" }}
         visual={<AnimatedEditorial src="editorial-transformation.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
@@ -164,7 +164,7 @@ export default function KnowledgeTransformationPage() {
       <FeatureGrid
         eyebrow="Where knowledge begins"
         title="Four source archetypes. One transformation discipline."
-        lede="Static, fluid, human, or abstract — the platform treats each as a legitimate starting point for a structured knowledge asset."
+        lede="Static, fluid, human, or abstract. The platform treats each as a legitimate starting point for a structured knowledge asset."
         features={capabilities}
         columns={3}
       />
@@ -182,18 +182,18 @@ export default function KnowledgeTransformationPage() {
       >
         <p>
           The output of transformation is not a library. It is a governable
-          system: concepts, relationships, and outcomes on one axis; learning
-          assets, assessments, and evidence on the other; provenance connecting
+          system. Concepts, relationships, and outcomes on one axis. Learning
+          assets, assessments, and evidence on the other. Provenance connecting
           the two.
         </p>
         <p>
           <strong>Duplication reduces</strong> because one structure serves many
           expressions. <strong>Expertise is preserved</strong> because tacit
           knowledge is captured as structure, not as prose.{" "}
-          <strong>Consistency improves</strong> because every downstream artefact
+          <strong>Consistency improves</strong> because each downstream artefact
           derives from the same source of truth.{" "}
-          <strong>Development accelerates</strong> because the hard part —
-          deciding what should exist — is done once, deliberately, up front.
+          <strong>Development accelerates</strong> because the hard part,
+          deciding what should exist, is done once, deliberately, up front.
         </p>
       </ProseBlock>
 
@@ -205,7 +205,7 @@ export default function KnowledgeTransformationPage() {
       <CtaBand
         eyebrow="Bring us a subject"
         title="See raw knowledge become structured capability."
-        lede="Send us a document set, a methodology, or a subject that only lives in an expert's head. We spend 45 minutes with the Foundry on your material, and you leave with the transformed framework — yours to keep."
+        lede="Send us a document set, a methodology, or a subject that only lives in an expert's head. We spend 45 minutes with the Foundry on your material, and you leave with the transformed framework. Yours to keep."
       />
     </>
   );

@@ -17,7 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "Higher Education. TEQSA-aligned course architecture with defensible outcomes",
+  title: "Higher Education. Course architecture aligned to TEQSA with defensible outcomes",
   description:
     "Course architecture aligned to the Higher Education Standards Framework. Constructive alignment, outcome mapping, and accreditation evidence produced by design.",
 };
@@ -25,33 +25,33 @@ export const metadata: Metadata = {
 const capabilities = [
   {
     icon: <BookOpen className="h-5 w-5" />,
-    title: "TEQSA-aligned architecture",
-    desc: "Course and unit structure aligned to the Higher Education Standards Framework. with design, delivery, assessment, and monitoring encoded as framework properties, not narrative claims.",
+    title: "Architecture aligned to TEQSA",
+    desc: "Course and unit structure aligned to the Higher Education Standards Framework, with design, delivery, assessment, and monitoring encoded as framework properties, not narrative claims.",
   },
   {
     icon: <Target className="h-5 w-5" />,
     title: "Constructive alignment",
-    desc: "Learning outcomes, teaching activities, and assessment tasks explicitly linked at the framework level. Constructive alignment is not asserted in a course handbook; it is structurally enforced.",
+    desc: "Learning outcomes, teaching activities, and assessment tasks explicitly linked at the framework level. Constructive alignment is not asserted in a course handbook. It is structurally enforced.",
   },
   {
     icon: <Layers3 className="h-5 w-5" />,
-    title: "AQF-level progression",
-    desc: "Cognitive demand aligned to AQF level and course learning outcomes. Bloom-aligned progression is defined at the framework, so subject-level assessment is defensible against course-level claims.",
+    title: "Progression aligned to AQF level",
+    desc: "Cognitive demand aligned to AQF level and course learning outcomes. Progression aligned to Bloom is defined at the framework, so assessment at subject level is defensible against course level claims.",
   },
   {
     icon: <ClipboardCheck className="h-5 w-5" />,
-    title: "Course-review evidence",
-    desc: "For internal course review, external referencing, and TEQSA re-registration, coverage, mapping, and assessment evidence exports in a coherent, versioned form ready for panel scrutiny.",
+    title: "Evidence for course review",
+    desc: "For internal course review, external referencing, and TEQSA reregistration, coverage, mapping, and assessment evidence exports in a coherent, versioned form ready for panel scrutiny.",
   },
   {
     icon: <GraduationCap className="h-5 w-5" />,
-    title: "Professional-accreditation mapping",
-    desc: "Where a course carries professional accreditation. engineering, psychology, nursing, accounting. the framework encodes accreditor competency requirements alongside institutional outcomes.",
+    title: "Mapping to professional accreditation",
+    desc: "Where a course carries professional accreditation (engineering, psychology, nursing, accounting) the framework encodes accreditor competency requirements alongside institutional outcomes.",
   },
   {
     icon: <Fingerprint className="h-5 w-5" />,
     title: "Change with provenance",
-    desc: "When a subject, a course, or a standard changes, the framework diffs against the new source and surfaces every affected outcome, activity, and assessment. with revision history intact.",
+    desc: "When a subject, a course, or a standard changes, the framework diffs against the new source and surfaces each affected outcome, activity, and assessment, with revision history intact.",
   },
 ];
 
@@ -64,40 +64,40 @@ const steps = [
   {
     n: "02",
     title: "Structure the architecture",
-    desc: "A structured course-and-subject framework is proposed: outcomes, activities, assessment, and mapping to AQF level and professional accreditation criteria where relevant.",
+    desc: "A structured course and subject framework is proposed: outcomes, activities, assessment, and mapping to AQF level and professional accreditation criteria where relevant.",
   },
   {
     n: "03",
-    title: "Construct with academic sign-off",
+    title: "Construct with academic sign off",
     desc: "The academic unit and course coordinator review and approve the framework. Instruction, activities, and assessment are generated only against an approved architecture.",
   },
   {
     n: "04",
     title: "Evidence for accreditation",
-    desc: "Constructive-alignment mapping, cohort assessment evidence, and change history export for internal course review, external referencing, and TEQSA re-registration.",
+    desc: "Constructive alignment mapping, cohort assessment evidence, and change history export for internal course review, external referencing, and TEQSA reregistration.",
   },
 ];
 
 const faq = [
   {
-    q: "How does this fit with our internal course-review and quality-assurance processes?",
+    q: "How does this fit with our internal course review and quality assurance processes?",
     a: "The Foundry produces frameworks that make course review a data exercise rather than a narrative one. Constructive alignment, outcome mapping, and assessment coverage are exportable per subject, per course, per cohort. Internal review panels receive a structured artefact rather than a bundle of subject outlines to compare by hand.",
   },
   {
-    q: "Can the framework encode both institutional and professional-accreditation outcomes?",
-    a: "Yes. Where a course carries professional accreditation. Engineers Australia, Australian Psychology Accreditation Council, the accountancy bodies, ANMAC. the framework can encode accreditor competency requirements alongside institutional graduate outcomes. Coverage against both is measurable and exportable.",
+    q: "Can the framework encode both institutional and professional accreditation outcomes?",
+    a: "Yes. Where a course carries professional accreditation (Engineers Australia, the Australian Psychology Accreditation Council, the accountancy bodies, ANMAC) the framework can encode accreditor competency requirements alongside institutional graduate outcomes. Coverage against both is measurable and exportable.",
   },
   {
-    q: "How does the platform support TEQSA re-registration or course accreditation cycles?",
-    a: "Frameworks encode alignment to the Higher Education Standards Framework, and evidence. design, delivery, assessment, monitoring. accumulates by design rather than being manufactured at cycle time. When re-registration approaches, the artefact you present is a framework with clause-level coverage, not a defence reconstructed from disparate sources.",
+    q: "How does the platform support TEQSA reregistration or course accreditation cycles?",
+    a: "Frameworks encode alignment to the Higher Education Standards Framework, and evidence (design, delivery, assessment, monitoring) accumulates by design rather than being manufactured at cycle time. When reregistration approaches, the artefact you present is a framework with coverage at the level of the clause, not a defence reconstructed from disparate sources.",
   },
   {
     q: "Does the platform claim TEQSA registration or accreditation of its own?",
-    a: "No. The Foundry is a system for structuring courses and evidencing outcomes; the institution remains the accredited provider. The platform produces evidence structured against the Higher Education Standards Framework, but does not represent itself as a TEQSA-accredited entity.",
+    a: "No. The Foundry is a system for structuring courses and evidencing outcomes. The institution remains the accredited provider. The platform produces evidence structured against the Higher Education Standards Framework, but does not represent itself as a TEQSA accredited entity.",
   },
   {
     q: "Can this handle both undergraduate and postgraduate coursework, including research components?",
-    a: "The framework model applies to any coursework structure with defined learning outcomes and assessment. Research components with outcome statements can be encoded; purely dissertation-based research work sits outside the frame the platform is designed for.",
+    a: "The framework model applies to any coursework structure with defined learning outcomes and assessment. Research components with outcome statements can be encoded. Purely dissertation based research work sits outside the frame the platform is designed for.",
   },
 ];
 
@@ -111,7 +111,7 @@ const related = [
   {
     eyebrow: "Capability",
     title: "Standards & accreditation",
-    desc: "How alignment to external standards. including the Higher Education Standards Framework and professional accreditation criteria. is treated as a first-class output.",
+    desc: "How alignment to external standards (including the Higher Education Standards Framework and professional accreditation criteria) is treated as a first class output.",
     href: "/platform/standards-accreditation",
   },
   {
@@ -147,15 +147,15 @@ export default function HigherEducationPage() {
       >
         <p>
           Internal course review, external referencing, professional accreditation, and TEQSA
-          re-registration all ask a shared question: can the institution demonstrate that
-          learning outcomes, teaching activities, and assessment tasks are aligned — not
+          reregistration all ask a shared question. Can the institution demonstrate that
+          learning outcomes, teaching activities, and assessment tasks are aligned, not
           asserted to be aligned, but structurally connected? A subject outline does not answer
           that question. A framework, a mapping matrix, and a versioned change record do.
         </p>
         <p>
           The Foundry treats the Higher Education Standards Framework, the AQF, and professional
           accreditation criteria as sources of structural obligation. Course frameworks encode
-          the required alignment. Subject-level material generates against it. Evidence
+          the required alignment. Subject level material generates against it. Evidence
           accumulates by design.
         </p>
       </ProseBlock>
@@ -176,16 +176,16 @@ export default function HigherEducationPage() {
 
       <ProseBlock
         eyebrow="What you get out"
-        title="Evidence a TEQSA panel or accreditation body will accept without follow-up."
+        title="Evidence a TEQSA panel or accreditation body will accept without follow up."
       >
         <p>
           Frameworks aligned to the Higher Education Standards Framework and AQF. Course
           architectures where constructive alignment is a structural property, not a claim.
-          Professional accreditation mapping produced alongside institutional outcomes.
+          Mapping to professional accreditation produced alongside institutional outcomes.
           Change history intact across cycles.
         </p>
         <p>
-          When the panel arrives, the artefact you present is a framework — not a case
+          When the panel arrives, the artefact you present is a framework, not a case
           reassembled from subject outlines the night before.
         </p>
       </ProseBlock>
@@ -195,7 +195,7 @@ export default function HigherEducationPage() {
       <CtaBand
         eyebrow="Bring a course"
         title="See your course architecture take shape."
-        lede="Send us a course document, a subject outline, or an accreditation criterion set. In 45 minutes on your material, you leave with the framework the Foundry produces — yours to keep."
+        lede="Send us a course document, a subject outline, or an accreditation criterion set. In 45 minutes on your material, you leave with the framework the Foundry produces. Yours to keep."
       />
     </>
   );

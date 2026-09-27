@@ -27,42 +27,42 @@ import { FAQ as HomeFAQ } from "@/components/solution/faq";
 export const metadata: Metadata = {
   title: "Knowledge Foundry. Structured knowledge. Deliberate instruction.",
   description:
-    "Knowledge Foundry turns subjects, documents, and requirements into structured learning systems. Reviewable, standards-aligned, and audit-ready. with framework defined before content is written.",
+    "Knowledge Foundry turns subjects, documents, and requirements into structured learning systems. Reviewable. Aligned to your standards. Ready for audit. The framework is defined before any content is written.",
 };
 
 const capabilities = [
-  { icon: <Compass className="h-5 w-5" />, title: "Framework Intelligence", desc: "Structure the subject before writing about it. Concepts, relationships, and assessment logic first.", href: "/platform/framework-intelligence" },
+  { icon: <Compass className="h-5 w-5" />, title: "Framework Intelligence", desc: "Structure the subject before writing anything about it. Concepts, relationships, and assessment logic come first.", href: "/platform/framework-intelligence" },
   { icon: <FileSearch2 className="h-5 w-5" />, title: "Gap Analysis", desc: "Identify what is missing, contradictory, or outdated across your existing knowledge base.", href: "/platform/gap-analysis" },
-  { icon: <Layers className="h-5 w-5" />, title: "Remediation", desc: "Close gaps at scale, in-place, with full change history and reviewer approvals.", href: "/platform/remediation" },
+  { icon: <Layers className="h-5 w-5" />, title: "Remediation", desc: "Close gaps at scale, in place, with full change history and reviewer approvals.", href: "/platform/remediation" },
   { icon: <GitBranch className="h-5 w-5" />, title: "Knowledge Transformation", desc: "Convert scattered source material into a coherent, versioned knowledge system.", href: "/platform/knowledge-transformation" },
-  { icon: <Fingerprint className="h-5 w-5" />, title: "Verification & Trust", desc: "Confirm capability, not just completion. Evidence tied to the underlying framework.", href: "/platform/verification-trust" },
-  { icon: <ShieldCheck className="h-5 w-5" />, title: "Knowledge Governance", desc: "Ownership, review cadences, deprecation, and drift detection built into the system.", href: "/platform/knowledge-governance" },
-  { icon: <Scale className="h-5 w-5" />, title: "Standards & Accreditation", desc: "Align to internal policy, sector standards, or accrediting bodies as a first-class output.", href: "/platform/standards-accreditation" },
-  { icon: <ClipboardCheck className="h-5 w-5" />, title: "Audit & Evidence", desc: "Every decision traceable. Export-ready evidence packs for regulators and boards.", href: "/platform/audit-evidence" },
+  { icon: <Fingerprint className="h-5 w-5" />, title: "Verification & Trust", desc: "Confirm capability, not just completion. Evidence is tied to the underlying framework.", href: "/platform/verification-trust" },
+  { icon: <ShieldCheck className="h-5 w-5" />, title: "Knowledge Governance", desc: "Ownership, review cadences, deprecation, and drift detection are built into the system.", href: "/platform/knowledge-governance" },
+  { icon: <Scale className="h-5 w-5" />, title: "Standards & Accreditation", desc: "Alignment to internal policy, sector standards, or accrediting bodies is a first class output.", href: "/platform/standards-accreditation" },
+  { icon: <ClipboardCheck className="h-5 w-5" />, title: "Audit & Evidence", desc: "Every decision is traceable. Evidence packs export cleanly for regulators and boards.", href: "/platform/audit-evidence" },
 ];
 
 const programs = [
-  { icon: <BookOpenCheck className="h-5 w-5" />, title: "Educational programs", desc: "Subject learning structured for understanding progression.", href: "/programs/educational" },
-  { icon: <ShieldCheck className="h-5 w-5" />, title: "Compliance programs", desc: "Instruction aligned to policies and required behaviours.", href: "/programs/compliance" },
+  { icon: <BookOpenCheck className="h-5 w-5" />, title: "Educational programs", desc: "Subject learning structured for progression in understanding.", href: "/programs/educational" },
+  { icon: <ShieldCheck className="h-5 w-5" />, title: "Compliance programs", desc: "Instruction aligned to policies and the behaviours they require.", href: "/programs/compliance" },
   { icon: <CircuitBoard className="h-5 w-5" />, title: "Product enablement", desc: "Guided learning for tools, equipment, or software.", href: "/programs/product-enablement" },
-  { icon: <Blocks className="h-5 w-5" />, title: "Operational procedures", desc: "Repeatable, consistent task instruction.", href: "/programs/operational-procedures" },
-  { icon: <Fingerprint className="h-5 w-5" />, title: "Hybrid verification", desc: "Learning combined with capability confirmation.", href: "/programs/hybrid-verification" },
+  { icon: <Blocks className="h-5 w-5" />, title: "Operational procedures", desc: "Task instruction that is repeatable and consistent.", href: "/programs/operational-procedures" },
+  { icon: <Fingerprint className="h-5 w-5" />, title: "Hybrid verification", desc: "Learning combined with confirmation of capability.", href: "/programs/hybrid-verification" },
 ];
 
 const industries = [
   { title: "Financial services", href: "/industries/financial-services", note: "APRA, ASIC, licensing, RG146" },
   { title: "Healthcare & life sciences", href: "/industries/healthcare-life-sciences", note: "Clinical governance, TGA, credentialing" },
-  { title: "Energy & resources", href: "/industries/energy-resources", note: "Safety-critical operations, ISO 45001" },
+  { title: "Energy & resources", href: "/industries/energy-resources", note: "Safety critical operations, ISO 45001" },
   { title: "Government & defence", href: "/industries/government-defence", note: "Cleared, audited, evidenced" },
-  { title: "Professional services", href: "/industries/professional-services", note: "CPD, firm-wide technical uplift" },
+  { title: "Professional services", href: "/industries/professional-services", note: "CPD, technical uplift across the firm" },
   { title: "Higher education", href: "/industries/higher-education", note: "Accreditation and outcome mapping" },
 ];
 
 const process = [
-  { n: "01", title: "Interpret", desc: "The system reads your source material. subjects, documents, policies, standards. and extracts the requirements that must be met." },
+  { n: "01", title: "Interpret", desc: "The system reads your source material. Subjects, documents, policies, and standards. It extracts the requirements that must be met." },
   { n: "02", title: "Structure", desc: "A framework is built. Concepts, relationships, progression, and assessment points are laid down before a single line of content is written." },
-  { n: "03", title: "Produce", desc: "Instruction, activities, and verification are generated to match the framework. not the other way around. Every element traces back to a requirement." },
-  { n: "04", title: "Deliver", desc: "The program is reviewable, standards-aligned, and ready for deployment. Full audit trail, exportable evidence, ongoing governance." },
+  { n: "03", title: "Produce", desc: "Instruction, activities, and verification are generated to match the framework rather than the other way around. Each element traces back to a requirement." },
+  { n: "04", title: "Deliver", desc: "The program is reviewable, aligned to your standards, and ready for deployment. Full audit trail, exportable evidence, ongoing governance." },
 ];
 
 const proofPoints = [
@@ -77,27 +77,27 @@ const proofPoints = [
 const homeFaqItems = [
   {
     q: "Are you a replacement for our LMS?",
-    a: "No. The Foundry sits upstream of your LMS. It produces the structured framework and the instruction that runs inside the LMS you already use. If you need us to deliver the runtime as well, we can, but replacing an LMS is not the value we sell.",
+    a: "No. The Foundry sits upstream of your LMS. It produces the structured framework and the instruction that runs inside the LMS you already use. If you need us to deliver the runtime as well, we can, but replacing an LMS is not what we sell.",
   },
   {
     q: "Who owns the framework once it is built?",
-    a: "You do. The framework, every version of it, and the evidence of every review, belong to your organisation. If you leave the platform, you leave with the framework. That commitment is in the master services agreement, not just the pitch deck.",
+    a: "You do. The framework, every version of it, and the evidence of every review, all belong to your organisation. If you leave the platform, you leave with the framework. That commitment is in the master services agreement, not just the pitch deck.",
   },
   {
     q: "How does this differ from an AI content generator?",
-    a: "AI generators produce content that hopes to cover a subject. The Foundry defines what must be covered, in what order, verified how, before content is generated at all. The framework is the object of record. Content is downstream of it, and traceable to it.",
+    a: "AI generators produce content that hopes to cover a subject. The Foundry defines what must be covered, in what order, and how it is verified, before content is generated at all. The framework is the object of record. Content is downstream of it, and traceable to it.",
   },
   {
     q: "What sits under review, and by whom?",
-    a: "Every framework proposal is reviewed and approved by a human owner in your organisation before any content is generated. Every content asset carries a review chain. Nothing ships without a signed approval, and every signature is exportable.",
+    a: "Each framework proposal is reviewed and approved by a human owner in your organisation before any content is generated. Each content asset carries a review chain. Nothing ships without a signed approval, and every signature is exportable.",
   },
   {
     q: "How long is the first commercial commitment?",
-    a: "The initial framework build is fixed-scope and fixed-price, typically 4 to 8 weeks depending on the subject. There is no multi-year commitment to begin. Pilot and platform engagements are annual and cancellable at renewal.",
+    a: "The initial framework build is delivered on a fixed scope and fixed price, typically 4 to 8 weeks depending on the subject. There is no multi year commitment to begin. Pilot and platform engagements are annual and cancellable at renewal.",
   },
   {
     q: "Where is our data held and who can access it?",
-    a: "Australian data residency by default, AWS Sydney. Encryption at rest and in transit. Access is scoped to your project team via SSO. Full detail lives in the trust centre, including subprocessor list and DPA.",
+    a: "Australian data residency by default, AWS Sydney. Encryption at rest and in transit. Access is scoped to your project team via SSO. Full detail lives in the trust centre, including the subprocessor list and DPA.",
   },
 ];
 
@@ -134,8 +134,8 @@ export default function HomePage() {
               <Reveal delay={0.55}>
                 <p className="text-lede mt-7 max-w-[52ch] text-white/70">
                   Knowledge Foundry turns subjects, documents, and requirements into
-                  structured learning systems. Reviewable, standards-aligned, and
-                  audit-ready — with framework defined before content is written.
+                  structured learning systems. Reviewable. Aligned to your standards.
+                  Ready for audit. The framework is defined before any content is written.
                 </p>
               </Reveal>
               <Reveal delay={0.7}>
@@ -216,8 +216,8 @@ export default function HomePage() {
                   that does not stand up when someone asks how you know.
                 </p>
                 <p className="text-lede">
-                  The difficulty is not writing content. The difficulty is knowing what should
-                  exist before writing begins.
+                  The difficulty is not writing content. It is knowing what should exist
+                  before writing begins.
                 </p>
               </Reveal>
               <RevealStagger className="mt-10 grid sm:grid-cols-3 gap-6" as="ul">
@@ -270,7 +270,7 @@ export default function HomePage() {
               <Reveal delay={0.35}>
                 <p className="text-lede mt-6 text-white/70 max-w-[46ch]">
                   Concepts seat into place. Relationships light up. The framework
-                  is the artefact you keep — reviewable, versioned, exportable.
+                  is the artefact you keep. Reviewable, versioned, exportable.
                 </p>
               </Reveal>
               <Reveal delay={0.5}>
@@ -337,8 +337,8 @@ export default function HomePage() {
             </SplitText>
             <Reveal delay={0.35}>
               <p className="text-lede mt-6 max-w-[52ch]">
-                Every input the Foundry accepts, every stage it runs, every output it
-                produces — laid out on a single page. Nothing hidden, nothing implied.
+                Each input the Foundry accepts, each stage it runs, and each output it
+                produces, laid out on a single page. Nothing hidden, nothing implied.
               </p>
             </Reveal>
           </div>
@@ -369,15 +369,15 @@ export default function HomePage() {
                 <p className="text-lede mt-6 max-w-[46ch]">
                   Each cube is a concept. Each line is a relationship. The glowing
                   nodes are the points at which capability is verified. Nothing in a
-                  Foundry-built program exists without a place on this diagram.
+                  program built with the Foundry exists without a place on this diagram.
                 </p>
               </Reveal>
               <RevealStagger className="mt-8 grid grid-cols-2 gap-4 max-w-md" as="ul">
                 {[
                   { k: "Concepts", v: "Named, deduplicated, cited" },
                   { k: "Relationships", v: "Typed and explicit" },
-                  { k: "Assessments", v: "Framework-anchored" },
-                  { k: "Provenance", v: "Every node, every version" },
+                  { k: "Assessments", v: "Anchored to the framework" },
+                  { k: "Provenance", v: "Each node, each version" },
                 ].map((r) => (
                   <RevealItem as="li" key={r.k} className="border-t border-[color:var(--color-hairline-strong)] pt-3">
                     <div className="text-[11px] font-medium uppercase tracking-[0.1em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)]">{r.k}</div>
@@ -460,8 +460,9 @@ export default function HomePage() {
               </SplitText>
               <Reveal delay={0.15}>
                 <p className="text-lede mt-6">
-                  Not another LMS. Not another content generator. A system that produces the
-                  program the outcome requires — with the evidence to prove it did.
+                  This is not another learning management system. Nor another content generator.
+                  It is a system that produces the program the outcome requires, with the
+                  evidence to prove it did.
                 </p>
               </Reveal>
               <Reveal delay={0.25}>
@@ -511,7 +512,7 @@ export default function HomePage() {
             <div className="max-w-[640px]">
               <Eyebrow>By industry</Eyebrow>
               <SplitText as="h2" className="text-display-2 mt-5" stagger={0.05}>
-                Regulated, evidenced, audit-ready in your sector.
+                Regulated, evidenced, ready for audit in your sector.
               </SplitText>
             </div>
             <Reveal delay={0.1}>
@@ -566,21 +567,21 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] gap-12 items-center">
             <AnimatedEditorial src="editorial-governance.png" parallax={45} />
             <div>
-              <Eyebrow>Not an LMS. Not a content generator.</Eyebrow>
+              <Eyebrow>A different category</Eyebrow>
               <SplitText as="h2" className="text-display-2 mt-5 text-white max-w-[16ch]" stagger={0.05}>
                 A knowledge system, not a document with a login.
               </SplitText>
               <Reveal delay={0.15}>
                 <p className="text-lede mt-6 text-white/70 max-w-[46ch]">
-                  Every decision, every review, every version, exportable. When the
+                  Each decision, each review, each version, exportable. When the
                   regulator asks how you know, the answer is a file.
                 </p>
               </Reveal>
               <RevealStagger className="mt-8 space-y-4" as="ul">
                 {[
-                  { title: "Structure before content", desc: "Framework defined first. Instruction generated to fit. not the reverse." },
-                  { title: "Verification, not completion", desc: "Capability confirmed against the framework, not clicks against a page count." },
-                  { title: "Evidence on demand", desc: "Every decision, timestamp, and version exportable to your audit team." },
+                  { title: "Structure before content", desc: "The framework is defined first. Instruction is generated to fit it, rather than the reverse." },
+                  { title: "Verification, not completion", desc: "Capability is confirmed against the framework, not clicks against a page count." },
+                  { title: "Evidence on demand", desc: "Each decision, timestamp, and version exports to your audit team." },
                 ].map((item) => (
                   <RevealItem key={item.title} as="li" className="flex gap-4 items-start border-t border-white/10 pt-4">
                     <div className="mt-1 h-2 w-2 rounded-full bg-[color:var(--color-forge)] shrink-0" style={{ animation: "forge-glow 2.4s ease-in-out infinite" }} />
@@ -607,7 +608,7 @@ export default function HomePage() {
               </SplitText>
               <Reveal delay={0.35}>
                 <p className="text-lede mt-6 max-w-[46ch]">
-                  Four commercial stages. Every one produces something you keep,
+                  Four commercial stages. Each one produces something you keep,
                   whether or not the next stage happens. No procurement theatre.
                 </p>
               </Reveal>
@@ -617,7 +618,7 @@ export default function HomePage() {
               {[
                 { n: "01", t: "Working session", d: "45 minutes on a real subject you own. You watch the Foundry build a framework from your material. You keep the framework." },
                 { n: "02", t: "Framework build", d: "A structured, reviewable framework for one programme or subject area, delivered in weeks. Fixed scope, fixed price. Yours to deploy or take elsewhere." },
-                { n: "03", t: "Pilot", d: "Framework generates instruction and verification. Runs against a real cohort. Evidence is exported to your regulator or board." },
+                { n: "03", t: "Pilot", d: "The framework generates instruction and verification. It runs against a real cohort. Evidence exports to your regulator or board." },
                 { n: "04", t: "Platform partnership", d: "Ongoing access to the Foundry across programmes, with governance, drift detection, and standards mapping baked in." },
               ].map((s) => (
                 <RevealItem
@@ -668,7 +669,7 @@ export default function HomePage() {
 
           <RevealStagger className="grid md:grid-cols-3 gap-4">
             {[
-              { eyebrow: "Methodology", title: "Structure before content is the missing L&D skill.", href: "/insights/knowledge-structure-before-content" },
+              { eyebrow: "Methodology", title: "Structure before content is the missing skill in L&D.", href: "/insights/knowledge-structure-before-content" },
               { eyebrow: "Verification", title: "What verification actually measures, and what it does not.", href: "/insights/what-verification-really-measures" },
               { eyebrow: "Compliance", title: "Why training programmes fail the audit before they are written.", href: "/insights/why-training-fails-audits" },
             ].map((item) => (
@@ -713,8 +714,8 @@ export default function HomePage() {
                 </SplitText>
                 <Reveal delay={0.15}>
                   <p className="text-lede mt-5 max-w-[52ch]">
-                    A 45-minute working session with our team on a real subject or programme you own.
-                    You see the system operate on your material — and you keep the framework it produces.
+                    A 45 minute working session with our team on a real subject or programme you own.
+                    You see the system operate on your material, and you keep the framework it produces.
                   </p>
                 </Reveal>
               </div>

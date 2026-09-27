@@ -147,7 +147,7 @@ export function DemonstrationForm() {
         body: JSON.stringify({
           access_key: accessKey,
           subject: `Demonstration request · ${values.organisation || "Knowledge Foundry"}`,
-          from_name: "Knowledge Foundry — demonstration form",
+          from_name: "Knowledge Foundry, demonstration form",
           message: bundleMessage(values),
         }),
       });
@@ -177,12 +177,12 @@ export function DemonstrationForm() {
           <Check className="h-6 w-6" strokeWidth={2.4} />
         </span>
         <h2 className="text-[28px] md:text-[32px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-[color:var(--color-ink)]">
-          Thanks — we have your request.
+          Thanks, we have your request.
         </h2>
         <p className="mt-4 text-[15.5px] leading-[1.65] text-[color:var(--color-ink-muted)] max-w-[52ch] mx-auto">
           One of our team will reply within one business day with times for the
-          45-minute session. Bring a policy, standard, or subject you own —
-          you keep the framework the Foundry produces from it.
+          45 minute session. Bring a policy, standard, or subject you own.
+          You keep the framework the Foundry produces from it.
         </p>
         <p className="mt-6 text-[12.5px] text-[color:var(--color-ink-faint)]">
           Wrong details? Email{" "}

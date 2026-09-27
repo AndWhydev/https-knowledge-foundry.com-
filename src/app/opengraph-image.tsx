@@ -110,7 +110,7 @@ export default function OpenGraphImage() {
             }}
           >
             Knowledge Foundry turns subjects, documents, and requirements into
-            structured learning systems — reviewable, standards-aligned, audit-ready.
+            structured learning systems — reviewable, aligned to your standards, ready for audit.
           </div>
         </div>
 
