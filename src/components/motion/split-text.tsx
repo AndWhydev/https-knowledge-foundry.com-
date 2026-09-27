@@ -30,11 +30,19 @@ export function SplitText({
 }) {
   const reduce = useReducedMotion();
   const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
+  const [forceVisible, setForceVisible] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+    // Failsafe: if the animation hasn't triggered by 1.5s, revert to the
+    // static (visible) render so H1s are never stuck invisible.
+    const t = setTimeout(() => setForceVisible(true), 1500);
+    return () => clearTimeout(t);
+  }, []);
 
-  // First paint: render the exact original children so SSR + first-client render
-  // are byte-identical. React sees no mismatch. Motion swaps in after mount.
-  if (!mounted) {
+  // First paint OR failsafe: render the exact original children so SSR + first-
+  // client render are byte-identical. React sees no mismatch. Motion swaps in
+  // after mount; falls back here again if animation never fired within 1.5s.
+  if (!mounted || forceVisible) {
     const Tag2 = Tag as React.ElementType;
     return <Tag2 className={className}>{children}</Tag2>;
   }
@@ -51,8 +59,12 @@ export function SplitText({
       },
     },
   };
+  // Critical: `visible` (not `hidden`) is the safe/default state — we start
+  // visible then optionally animate from a hidden state INTO visible. If the
+  // whileInView IntersectionObserver never fires (throttled tab, some
+  // headless contexts), words stay visible instead of stuck at opacity 0.
   const word: Variants = reduce
-    ? { hidden: { opacity: 0 }, visible: { opacity: 1 } }
+    ? { hidden: { opacity: 1 }, visible: { opacity: 1 } }
     : {
         hidden: { opacity: 0, y, filter: "blur(6px)" },
         visible: {
@@ -66,11 +78,13 @@ export function SplitText({
   return (
     <MotionTag
       className={className}
-      initial="hidden"
+      initial={reduce ? "visible" : "hidden"}
       whileInView="visible"
-      viewport={{ once: true, amount: 0.4 }}
+      onViewportEnter={undefined}
+      viewport={{ once: true, amount: 0.05, margin: "0px 0px -10% 0px" }}
       variants={container}
       aria-label={words.map((w) => w.text).join(" ")}
+      onAnimationComplete={undefined}
     >
       {words.map((w, i) => (
         <Fragment key={i}>
@@ -79,6 +93,8 @@ export function SplitText({
             className={cn("inline-block", w.className)}
             aria-hidden
             style={{ willChange: "transform, opacity, filter" }}
+            // Failsafe: after 1.5s force to visible even if IO never fired.
+            animate={undefined}
           >
             {w.text}
           </motion.span>
