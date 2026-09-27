@@ -7,7 +7,8 @@ import {
 } from "lucide-react";
 import { Container, Section, Eyebrow } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
-import { HeroLattice } from "@/components/hero-lattice";
+import { HeroLattice3D } from "@/components/hero-lattice-3d";
+import { HeroCanvas } from "@/components/hero-canvas";
 import { Marquee } from "@/components/marquee";
 import { Reveal, RevealStagger, RevealItem } from "@/components/motion/reveal";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
@@ -18,8 +19,7 @@ import { CountUp } from "@/components/motion/count-up";
 import { TiltCard } from "@/components/motion/tilt-card";
 import { CursorSpotlight } from "@/components/motion/cursor-spotlight";
 import { FloatingCubes } from "@/components/motion/floating-cubes";
-import { ShaderGradient } from "@/components/motion/shader-gradient";
-import { StickyProcess } from "@/components/sticky-process";
+import { CompactProcess } from "@/components/compact-process";
 import { BentoOutputs } from "@/components/bento-outputs";
 import { FrameworkDemo } from "@/components/framework-demo";
 
@@ -76,22 +76,26 @@ const proofPoints = [
 export default function HomePage() {
   return (
     <>
-      {/* HERO */}
-      <section className="relative overflow-hidden pt-14 md:pt-24 pb-24 md:pb-32">
-        {/* Ambient layers */}
-        <div className="absolute inset-0 -z-10 grid-lattice opacity-[0.5]" aria-hidden />
-        <ShaderGradient className="-z-10 hidden md:block" />
-        <FloatingCubes className="absolute inset-0 -z-10 pointer-events-none hidden md:block opacity-70" />
+      {/* HERO — dark, interactive, WebGL-tier canvas */}
+      <section className="relative overflow-hidden bg-[#0d0f14] text-white pt-16 md:pt-28 pb-24 md:pb-36 min-h-[calc(100vh-72px)] flex items-center">
+        <HeroCanvas />
+        {/* Bottom fade to page bg */}
+        <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-white pointer-events-none" aria-hidden />
 
-        <Container>
+        <Container className="relative">
           <div className="grid lg:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)] gap-12 lg:gap-20 items-center">
             <div>
               <Reveal>
-                <Eyebrow>Structured knowledge · Deliberate instruction</Eyebrow>
+                <div className="inline-flex items-center gap-2 rounded-full border border-white/12 bg-white/[0.04] backdrop-blur px-3 py-1.5 mb-6">
+                  <span className="h-1.5 w-1.5 rounded-full bg-[color:var(--color-forge)]" style={{ animation: "forge-glow 2s ease-in-out infinite" }} />
+                  <span className="font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.14em] text-white/70">
+                    STRUCTURED KNOWLEDGE · DELIBERATE INSTRUCTION
+                  </span>
+                </div>
               </Reveal>
               <SplitText
                 as="h1"
-                className="text-display-1 mt-6 max-w-[18ch]"
+                className="text-display-1 max-w-[18ch] text-white [text-wrap:balance]"
                 delay={0.1}
               >
                 Define what should exist,{" "}
@@ -100,42 +104,43 @@ export default function HomePage() {
                 </Highlight>
               </SplitText>
               <Reveal delay={0.55}>
-                <p className="text-lede mt-7 max-w-[52ch]">
-                  Knowledge Foundry turns subjects, documents, and requirements into structured learning
-                  systems. Reviewable, standards-aligned, and ready for delivery — with framework defined
-                  before content is written.
+                <p className="text-lede mt-7 max-w-[52ch] text-white/70">
+                  Knowledge Foundry turns subjects, documents, and requirements into
+                  structured learning systems. Reviewable, standards-aligned, and
+                  audit-ready — with framework defined before content is written.
                 </p>
               </Reveal>
               <Reveal delay={0.7}>
                 <div className="mt-9 flex flex-wrap gap-3 items-center">
                   <Magnetic strength={0.22}>
-                    <Button href="/demonstration" variant="primary" size="lg" arrow>
+                    <Button href="/demonstration" variant="forge" size="lg" arrow>
                       Request a demonstration
                     </Button>
                   </Magnetic>
                   <Magnetic strength={0.14}>
-                    <Button href="/platform/see-it-work" variant="secondary" size="lg">
+                    <Link
+                      href="/platform/see-it-work"
+                      className="group inline-flex items-center gap-2 h-[52px] px-6 rounded-[var(--radius-md)] text-[15px] font-medium text-white/85 border border-white/12 hover:border-white/25 hover:text-white transition-colors backdrop-blur"
+                    >
                       See it work
-                    </Button>
+                      <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
+                    </Link>
                   </Magnetic>
                 </div>
               </Reveal>
               <Reveal delay={0.85}>
-                <div className="mt-10 pt-8 border-t border-[color:var(--color-hairline)] grid grid-cols-3 gap-8 max-w-lg">
-                  <AnimatedStat value={4} suffix="-step" label="Interpret → Structure → Produce → Deliver" />
-                  <AnimatedStat value={0} label="Content written before structure is defined" />
-                  <AnimatedStat value={100} suffix="%" label="Traceable to requirement" />
+                <div className="mt-10 pt-8 border-t border-white/10 grid grid-cols-3 gap-8 max-w-lg">
+                  <DarkStat value={4} suffix="-step" label="Interpret → Structure → Produce → Deliver" />
+                  <DarkStat value={0} label="Content written before structure is defined" />
+                  <DarkStat value={100} suffix="%" label="Traceable to requirement" />
                 </div>
               </Reveal>
             </div>
             <Reveal delay={0.2} className="relative">
-              <HeroLattice className="w-full aspect-square max-w-[520px] mx-auto" />
-              <div className="absolute inset-0 -z-10 opacity-40 pointer-events-none mix-blend-multiply hidden lg:block" aria-hidden>
-                <HeroVideo src="/media/hero-loop.mp4" className="rounded-[var(--radius-xl)]" />
-              </div>
-              <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 flex items-center gap-2 rounded-full bg-white/90 backdrop-blur border border-[color:var(--color-hairline)] px-4 py-2 shadow-[var(--shadow-soft)]">
-                <span className="h-2 w-2 rounded-full bg-[color:var(--color-forge)]" style={{ animation: "forge-glow 2s ease-in-out infinite" }} />
-                <span className="text-[12px] font-medium tracking-tight">Framework live · Content generating</span>
+              <HeroLattice3D className="w-full aspect-square max-w-[540px] mx-auto" />
+              <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 flex items-center gap-2 rounded-full bg-black/70 backdrop-blur border border-white/12 px-4 py-1.5 shadow-[0_10px_30px_rgba(0,0,0,0.4)]">
+                <span className="h-1.5 w-1.5 rounded-full bg-[color:var(--color-forge)]" style={{ animation: "forge-glow 2s ease-in-out infinite" }} />
+                <span className="text-[11px] font-medium tracking-tight text-white/90">Framework live · Content generating</span>
               </div>
             </Reveal>
           </div>
@@ -215,9 +220,9 @@ export default function HomePage() {
         </Container>
       </Section>
 
-      {/* THE SYSTEM — sticky scroll narrative */}
+      {/* THE SYSTEM — compact interactive process */}
       <div id="system">
-        <StickyProcess />
+        <CompactProcess />
       </div>
 
       {/* CINEMATIC LATTICE — Higgsfield video showcase */}
@@ -612,6 +617,19 @@ function AnimatedStat({ value, suffix = "", label }: { value: number; suffix?: s
         <CountUp value={value} suffix={suffix} duration={1.6} />
       </div>
       <div className="mt-2 text-[11.5px] leading-[1.45] text-[color:var(--color-ink-muted)]">
+        {label}
+      </div>
+    </div>
+  );
+}
+
+function DarkStat({ value, suffix = "", label }: { value: number; suffix?: string; label: string }) {
+  return (
+    <div>
+      <div className="text-[28px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-white leading-none">
+        <CountUp value={value} suffix={suffix} duration={1.6} />
+      </div>
+      <div className="mt-2 text-[11.5px] leading-[1.45] text-white/60">
         {label}
       </div>
     </div>

@@ -1,13 +1,17 @@
 "use client";
 
 import { motion, useReducedMotion, type Variants } from "motion/react";
-import { Fragment, type ReactNode } from "react";
+import { Fragment, useEffect, useState, type ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
 /**
  * Word-by-word reveal for premium H1s.
  * Splits by whitespace, preserves inline highlights via `<Highlight>` children.
  * Reduced motion → single fade in place, no stagger.
+ *
+ * Two-phase render to avoid SSR/hydration mismatch: on first paint we render
+ * the raw children as-is (matches what SSR produced for the same JSX). After
+ * mount, we swap in the word-split animated version.
  */
 export function SplitText({
   children,
@@ -25,9 +29,19 @@ export function SplitText({
   y?: number;
 }) {
   const reduce = useReducedMotion();
-  const MotionTag = motion[Tag] as typeof motion.h1;
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
 
+  // First paint: render the exact original children so SSR + first-client render
+  // are byte-identical. React sees no mismatch. Motion swaps in after mount.
+  if (!mounted) {
+    const Tag2 = Tag as React.ElementType;
+    return <Tag2 className={className}>{children}</Tag2>;
+  }
+
+  const MotionTag = motion[Tag] as typeof motion.h1;
   const words = flattenToWords(children);
+
   const container: Variants = {
     hidden: {},
     visible: {
@@ -51,7 +65,7 @@ export function SplitText({
 
   return (
     <MotionTag
-      className={cn(className)}
+      className={className}
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.4 }}
@@ -68,7 +82,7 @@ export function SplitText({
           >
             {w.text}
           </motion.span>
-          {i < words.length - 1 && <span aria-hidden>{" "}</span>}
+          {i < words.length - 1 && <span aria-hidden>{" "}</span>}
         </Fragment>
       ))}
     </MotionTag>
@@ -109,8 +123,8 @@ function flattenToWords(node: ReactNode): Word[] {
   };
   walk(node);
 
-  // Merge trailing punctuation-only tokens ("." "?" "!" ":" ";" ",")
-  // back onto the previous word so we don't get a visible gap before them.
+  // Merge trailing punctuation-only tokens onto the previous word so we don't
+  // get a visible gap before them.
   const trailingPunct = /^[.,!?;:]+$/;
   const merged: Word[] = [];
   for (const w of acc) {

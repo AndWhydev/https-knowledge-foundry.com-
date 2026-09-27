@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion, useScroll, useTransform, useReducedMotion, useSpring } from "motion/react";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/cn";
 
 const captions: Record<string, { alt: string; width: number; height: number }> = {
@@ -43,16 +43,9 @@ export function AnimatedEditorial({
   sizes?: string;
 }) {
   const meta = captions[src];
-  const ref = useRef<HTMLDivElement>(null);
   const reduce = useReducedMotion();
-
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["start end", "end start"],
-  });
-
-  const y = useTransform(scrollYProgress, [0, 1], [parallax, -parallax]);
-  const yS = useSpring(y, { stiffness: 90, damping: 30, mass: 0.6 });
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
 
   const imageEl = (
     <Image
@@ -66,13 +59,41 @@ export function AnimatedEditorial({
     />
   );
 
-  if (reduce) {
+  // Static (matching SSR) until mounted. Only after hydration do we mount the
+  // animated variant that owns useScroll — this avoids the motion "ref defined
+  // but not hydrated" error.
+  if (reduce || !mounted) {
     return (
       <div className={cn("relative overflow-hidden rounded-[var(--radius-lg)] bg-[color:var(--color-canvas-warm)]", className)}>
         {imageEl}
       </div>
     );
   }
+
+  return <AnimatedEditorialInner imageEl={imageEl} parallax={parallax} float={float} frame={frame} className={className} />;
+}
+
+function AnimatedEditorialInner({
+  imageEl,
+  parallax,
+  float,
+  frame,
+  className,
+}: {
+  imageEl: React.ReactNode;
+  parallax: number;
+  float: boolean;
+  frame: boolean;
+  className?: string;
+}) {
+  const ref = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start end", "end start"],
+  });
+  const y = useTransform(scrollYProgress, [0, 1], [parallax, -parallax]);
+  const yS = useSpring(y, { stiffness: 90, damping: 30, mass: 0.6 });
+  const _unused = frame; // frame handled below
 
   return (
     <div ref={ref} className={cn("relative", className)}>
