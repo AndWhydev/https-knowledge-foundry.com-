@@ -17,16 +17,16 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "Knowledge Transformation — Turn raw knowledge into structured capability",
+  title: "Knowledge Transformation. Turn raw knowledge into structured capability",
   description:
-    "Documents, expertise, methodologies, and research become a coherent, governable knowledge system. Structure before content — regardless of where the knowledge originates.",
+    "Documents, expertise, methodologies, and research become a coherent, governable knowledge system. Structure before content. regardless of where the knowledge originates.",
 };
 
 const capabilities = [
   {
     icon: <BookOpen className="h-5 w-5" />,
     title: "Static sources",
-    desc: "Policies, procedures, manuals, standards, and reports carry institutional value. The system maps and restructures them into active knowledge — not another PDF folder.",
+    desc: "Policies, procedures, manuals, standards, and reports carry institutional value. The system maps and restructures them into active knowledge. not another PDF folder.",
   },
   {
     icon: <Lightbulb className="h-5 w-5" />,
@@ -36,7 +36,7 @@ const capabilities = [
   {
     icon: <UserSquare2 className="h-5 w-5" />,
     title: "Human sources",
-    desc: "Subject-matter expertise that lives in individual memory is captured deliberately — protection against institutional amnesia at the individual level.",
+    desc: "Subject-matter expertise that lives in individual memory is captured deliberately. protection against institutional amnesia at the individual level.",
   },
   {
     icon: <Network className="h-5 w-5" />,
@@ -46,7 +46,7 @@ const capabilities = [
   {
     icon: <Layers className="h-5 w-5" />,
     title: "One source, multiple outcomes",
-    desc: "A single structured framework produces multiple tailored programmes — educational, compliance, enablement, operational — without duplication of intent.",
+    desc: "A single structured framework produces multiple tailored programmes. educational, compliance, enablement, operational. without duplication of intent.",
   },
   {
     icon: <Recycle className="h-5 w-5" />,
@@ -64,7 +64,7 @@ const steps = [
   {
     n: "02",
     title: "Establish understanding",
-    desc: "The system constructs the structural blueprint — concepts, relationships, dependencies, outcomes, assessments, learning pathways.",
+    desc: "The system constructs the structural blueprint. concepts, relationships, dependencies, outcomes, assessments, learning pathways.",
   },
   {
     n: "03",
@@ -74,7 +74,7 @@ const steps = [
   {
     n: "04",
     title: "Produce the ecosystem",
-    desc: "Learning assets, assessments, and evidence artefacts are generated to fit the approved structure — coherent by construction.",
+    desc: "Learning assets, assessments, and evidence artefacts are generated to fit the approved structure. coherent by construction.",
   },
 ];
 
@@ -85,15 +85,15 @@ const faq = [
   },
   {
     q: "We have knowledge that only exists in one person's head. Can that be transformed?",
-    a: "Yes, and this is often the highest-value input. The platform supports structured elicitation — a guided capture flow that turns expert reasoning into concept nodes, decisions, and evidence. What was single-point-of-failure knowledge becomes a governed asset the organisation owns.",
+    a: "Yes, and this is often the highest-value input. The platform supports structured elicitation. a guided capture flow that turns expert reasoning into concept nodes, decisions, and evidence. What was single-point-of-failure knowledge becomes a governed asset the organisation owns.",
   },
   {
     q: "How is this different from a knowledge base or a wiki?",
-    a: "A wiki stores what someone wrote. Knowledge Transformation produces a structured object — concepts, relationships, dependencies, outcomes — that can generate multiple downstream artefacts consistently. The wiki is the storage; the transformed knowledge is the operating model.",
+    a: "A wiki stores what someone wrote. Knowledge Transformation produces a structured object. concepts, relationships, dependencies, outcomes. that can generate multiple downstream artefacts consistently. The wiki is the storage; the transformed knowledge is the operating model.",
   },
   {
     q: "Can one framework serve compliance, education, and enablement at the same time?",
-    a: "Yes. That is the point of separating structure from content. One approved framework can produce a compliance programme for auditors, an educational programme for learners, and an enablement programme for practitioners — each tailored, all traceable to the same source of truth.",
+    a: "Yes. That is the point of separating structure from content. One approved framework can produce a compliance programme for auditors, an educational programme for learners, and an enablement programme for practitioners. each tailored, all traceable to the same source of truth.",
   },
   {
     q: "What happens when the source material updates?",

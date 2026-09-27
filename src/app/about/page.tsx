@@ -9,7 +9,7 @@ import { Reveal } from "@/components/motion/reveal";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "About — Knowledge Foundry",
+  title: "About. Knowledge Foundry",
   description:
     "Knowledge Foundry builds governed knowledge architecture for organisations that must defend how their programmes are made. We believe structure governs everything downstream.",
 };
@@ -18,7 +18,7 @@ const principles = [
   {
     icon: <Layers3 className="h-5 w-5" />,
     title: "Structure should be explicit",
-    desc: "A framework is not a slide about a framework. It is a structured, inspectable object — nodes, relationships, provenance — that a human can review and a system can enforce.",
+    desc: "A framework is not a slide about a framework. It is a structured, inspectable object. nodes, relationships, provenance. that a human can review and a system can enforce.",
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
@@ -33,7 +33,7 @@ const principles = [
   {
     icon: <GitBranch className="h-5 w-5" />,
     title: "Integrity should be verifiable, not assumed",
-    desc: "Every block has a lineage — to the source that requires it, the framework node that governs it, and the review that approved it. Provenance is a first-class object.",
+    desc: "Every block has a lineage. to the source that requires it, the framework node that governs it, and the review that approved it. Provenance is a first-class object.",
   },
   {
     icon: <Compass className="h-5 w-5" />,

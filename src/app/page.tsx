@@ -24,9 +24,9 @@ import { BentoOutputs } from "@/components/bento-outputs";
 import { FrameworkDemo } from "@/components/framework-demo";
 
 export const metadata: Metadata = {
-  title: "Knowledge Foundry — Structured knowledge. Deliberate instruction.",
+  title: "Knowledge Foundry. Structured knowledge. Deliberate instruction.",
   description:
-    "Knowledge Foundry turns subjects, documents, and requirements into structured learning systems. Reviewable, standards-aligned, and audit-ready — with framework defined before content is written.",
+    "Knowledge Foundry turns subjects, documents, and requirements into structured learning systems. Reviewable, standards-aligned, and audit-ready. with framework defined before content is written.",
 };
 
 const capabilities = [
@@ -58,9 +58,9 @@ const industries = [
 ];
 
 const process = [
-  { n: "01", title: "Interpret", desc: "The system reads your source material — subjects, documents, policies, standards — and extracts the requirements that must be met." },
+  { n: "01", title: "Interpret", desc: "The system reads your source material. subjects, documents, policies, standards. and extracts the requirements that must be met." },
   { n: "02", title: "Structure", desc: "A framework is built. Concepts, relationships, progression, and assessment points are laid down before a single line of content is written." },
-  { n: "03", title: "Produce", desc: "Instruction, activities, and verification are generated to match the framework — not the other way around. Every element traces back to a requirement." },
+  { n: "03", title: "Produce", desc: "Instruction, activities, and verification are generated to match the framework. not the other way around. Every element traces back to a requirement." },
   { n: "04", title: "Deliver", desc: "The program is reviewable, standards-aligned, and ready for deployment. Full audit trail, exportable evidence, ongoing governance." },
 ];
 
@@ -550,7 +550,7 @@ export default function HomePage() {
               </Reveal>
               <RevealStagger className="mt-8 space-y-4" as="ul">
                 {[
-                  { title: "Structure before content", desc: "Framework defined first. Instruction generated to fit — not the reverse." },
+                  { title: "Structure before content", desc: "Framework defined first. Instruction generated to fit. not the reverse." },
                   { title: "Verification, not completion", desc: "Capability confirmed against the framework, not clicks against a page count." },
                   { title: "Evidence on demand", desc: "Every decision, timestamp, and version exportable to your audit team." },
                 ].map((item) => (

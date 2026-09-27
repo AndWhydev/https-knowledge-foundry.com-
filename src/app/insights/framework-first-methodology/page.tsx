@@ -9,9 +9,9 @@ import {
 } from "@/components/layouts/editorial-article";
 
 export const metadata: Metadata = {
-  title: "The framework-first methodology, in depth — Knowledge Foundry",
+  title: "The framework-first methodology, in depth. Knowledge Foundry",
   description:
-    "Interpret. Structure. Produce. Deliver. The four-move methodology behind Knowledge Foundry, explained at the level of rationale — not marketing.",
+    "Interpret. Structure. Produce. Deliver. The four-move methodology behind Knowledge Foundry, explained at the level of rationale. not marketing.",
 };
 
 const toc = [
@@ -70,8 +70,8 @@ export default function Page() {
         input and produces its own artefact as output. Human sign-off gates the transitions.
       </EditorialP>
       <EditorialList items={[
-        <><strong>Interpret.</strong> Extract, from policies, standards, and subject matter, the requirements the programme must satisfy — sentence by sentence, with provenance preserved. Generation before interpretation is guesswork wearing a uniform.</>,
-        <><strong>Structure.</strong> Propose a framework — concept nodes, typed relationships, prerequisite chains, assessment definitions — grounded in what interpretation produced. The framework is the object of record from this point on.</>,
+        <><strong>Interpret.</strong> Extract, from policies, standards, and subject matter, the requirements the programme must satisfy. sentence by sentence, with provenance preserved. Generation before interpretation is guesswork wearing a uniform.</>,
+        <><strong>Structure.</strong> Propose a framework. concept nodes, typed relationships, prerequisite chains, assessment definitions. grounded in what interpretation produced. The framework is the object of record from this point on.</>,
         <><strong>Produce.</strong> Generate instruction, activities, and verification against the approved framework. Every produced element carries a link to the node it satisfies and, through the node, to the source clause.</>,
         <><strong>Deliver.</strong> Package and release under governance. Versioning, sign-off, and deprecation are first-class operations. Delivery opens the next iteration, not the end of the loop.</>,
       ]} />

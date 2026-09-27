@@ -17,7 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "Healthcare & Life Sciences — Clinical governance and credentialing, evidenced",
+  title: "Healthcare & Life Sciences. Clinical governance and credentialing, evidenced",
   description:
     "Clinical governance, credentialing, AHPRA CPD, and TGA advertising rules mapped to structured programmes. Competency verified, evidence exportable, audit-ready by design.",
 };
@@ -26,7 +26,7 @@ const capabilities = [
   {
     icon: <Stethoscope className="h-5 w-5" />,
     title: "Clinical governance alignment",
-    desc: "Programmes structured against the National Safety and Quality Health Service Standards and jurisdictional clinical governance frameworks — with instruction traced to each specific criterion.",
+    desc: "Programmes structured against the National Safety and Quality Health Service Standards and jurisdictional clinical governance frameworks. with instruction traced to each specific criterion.",
   },
   {
     icon: <BadgeCheck className="h-5 w-5" />,
@@ -36,7 +36,7 @@ const capabilities = [
   {
     icon: <ClipboardCheck className="h-5 w-5" />,
     title: "AHPRA CPD architecture",
-    desc: "Continuing professional development programmes structured to National Board standards, with self-reflection, assessment, and outcome mapping produced as evidence — not narrative.",
+    desc: "Continuing professional development programmes structured to National Board standards, with self-reflection, assessment, and outcome mapping produced as evidence. not narrative.",
   },
   {
     icon: <Pill className="h-5 w-5" />,
@@ -64,7 +64,7 @@ const steps = [
   {
     n: "02",
     title: "Structure by role",
-    desc: "Obligations and scope are attached to specific credentialed roles — clinicians, nurses, allied health, laboratory scientists, medical affairs — with thresholds per role.",
+    desc: "Obligations and scope are attached to specific credentialed roles. clinicians, nurses, allied health, laboratory scientists, medical affairs. with thresholds per role.",
   },
   {
     n: "03",
@@ -81,15 +81,15 @@ const steps = [
 const faq = [
   {
     q: "Can this support NSQHS Standards accreditation cycles?",
-    a: "Yes. Frameworks can encode alignment to specific NSQHS Standards criteria, and instruction, verification, and evidence flow from that alignment. When accreditation review approaches, the artefact you present is a framework with clause-level coverage — not a folder of course completion records.",
+    a: "Yes. Frameworks can encode alignment to specific NSQHS Standards criteria, and instruction, verification, and evidence flow from that alignment. When accreditation review approaches, the artefact you present is a framework with clause-level coverage. not a folder of course completion records.",
   },
   {
     q: "How does this fit with AHPRA National Board CPD requirements?",
-    a: "The Foundry produces CPD programmes structured to National Board expectations — categories, hours, reflective components, and outcome mapping — and evidences each practitioner's participation and assessment. CPD evidence exports in a form ready for annual registration renewal and audit.",
+    a: "The Foundry produces CPD programmes structured to National Board expectations. categories, hours, reflective components, and outcome mapping. and evidences each practitioner's participation and assessment. CPD evidence exports in a form ready for annual registration renewal and audit.",
   },
   {
     q: "We are subject to TGA advertising rules for therapeutic goods training. How does the platform manage the boundary?",
-    a: "The framework encodes the distinction between promotional and educational material at the level of the module, and TGA constraints — including Product Information, Consumer Medicine Information, and advertising-code obligations — are treated as authorship rules during generation. Where a module would breach an advertising rule, generation is blocked and the reviewer is notified.",
+    a: "The framework encodes the distinction between promotional and educational material at the level of the module, and TGA constraints. including Product Information, Consumer Medicine Information, and advertising-code obligations. are treated as authorship rules during generation. Where a module would breach an advertising rule, generation is blocked and the reviewer is notified.",
   },
   {
     q: "Do you make claims about TGA or AHPRA certification of the platform itself?",
@@ -97,7 +97,7 @@ const faq = [
   },
   {
     q: "Can we tie retraining directly to an adverse event or incident review?",
-    a: "Yes. When a clinical incident produces a lesson, the framework can be patched at the specific structural node affected, and downstream instruction regenerates against the update. Retraining evidence — who, when, to what threshold — attaches to the incident record for governance committee review.",
+    a: "Yes. When a clinical incident produces a lesson, the framework can be patched at the specific structural node affected, and downstream instruction regenerates against the update. Retraining evidence. who, when, to what threshold. attaches to the incident record for governance committee review.",
   },
 ];
 
@@ -105,7 +105,7 @@ const related = [
   {
     eyebrow: "Program",
     title: "Hybrid verification",
-    desc: "The program model for defensible credentialing and clinical competency — where exposure is not proof.",
+    desc: "The program model for defensible credentialing and clinical competency. where exposure is not proof.",
     href: "/programs/hybrid-verification",
   },
   {

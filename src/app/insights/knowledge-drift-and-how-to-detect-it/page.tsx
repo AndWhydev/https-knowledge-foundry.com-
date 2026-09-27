@@ -9,7 +9,7 @@ import {
 } from "@/components/layouts/editorial-article";
 
 export const metadata: Metadata = {
-  title: "Knowledge drift, and how to detect it — Knowledge Foundry",
+  title: "Knowledge drift, and how to detect it. Knowledge Foundry",
   description:
     "What knowledge drift is, why it happens silently, and how framework-first design surfaces it before an auditor does.",
 };
@@ -70,7 +70,7 @@ export default function Page() {
         different signature. All three are invisible in a library organised as content.
       </EditorialP>
       <EditorialList items={[
-        <><strong>Source drift.</strong> The regulation, standard, or policy changes. If the library has no link back to the source, the drift is invisible until a human notices — which is usually late.</>,
+        <><strong>Source drift.</strong> The regulation, standard, or policy changes. If the library has no link back to the source, the drift is invisible until a human notices. which is usually late.</>,
         <><strong>Interpretation drift.</strong> Different authors, at different times, interpret the same source clause differently. Two modules end up teaching subtly conflicting things. Learners see the conflict. Authors do not.</>,
         <><strong>Practice drift.</strong> Operational practice quietly diverges from documented procedure. Trainers, drawing on practice, teach what people do, not what the procedure says. The gap widens with each cohort.</>,
       ]} />

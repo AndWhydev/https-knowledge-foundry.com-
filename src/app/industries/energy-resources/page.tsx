@@ -17,7 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "Energy & Resources — Safety-critical competency, verified by construction",
+  title: "Energy & Resources. Safety-critical competency, verified by construction",
   description:
     "ISO 45001 alignment, competency-based verification, and structured operational procedures for high-consequence roles. Execution is a property of the system, not the operator.",
 };
@@ -26,17 +26,17 @@ const capabilities = [
   {
     icon: <HardHat className="h-5 w-5" />,
     title: "ISO 45001 alignment",
-    desc: "Occupational health and safety training structured against ISO 45001 clauses — hazard identification, risk assessment, competency, communication, and continual improvement — with role-tagged coverage.",
+    desc: "Occupational health and safety training structured against ISO 45001 clauses. hazard identification, risk assessment, competency, communication, and continual improvement. with role-tagged coverage.",
   },
   {
     icon: <ShieldAlert className="h-5 w-5" />,
     title: "Safety-critical role verification",
-    desc: "For roles where an error carries irreversible consequences — permit-to-work, isolation, confined space, high-voltage — competency thresholds are defined at the framework level and demonstrably verified.",
+    desc: "For roles where an error carries irreversible consequences. permit-to-work, isolation, confined space, high-voltage. competency thresholds are defined at the framework level and demonstrably verified.",
   },
   {
     icon: <Wrench className="h-5 w-5" />,
     title: "Procedure-anchored execution",
-    desc: "Operational procedures are treated as structured objects: steps, decision points, failure risks, and validation checkpoints — with instruction generated to fit. Consistency across shifts and sites is architectural.",
+    desc: "Operational procedures are treated as structured objects: steps, decision points, failure risks, and validation checkpoints. with instruction generated to fit. Consistency across shifts and sites is architectural.",
   },
   {
     icon: <Factory className="h-5 w-5" />,
@@ -46,7 +46,7 @@ const capabilities = [
   {
     icon: <ClipboardCheck className="h-5 w-5" />,
     title: "Regulator-ready evidence",
-    desc: "For inspection by a state work health and safety regulator, or for internal HSE audit, coverage, verification history, and sign-off chains export as a coherent pack — not a discovery exercise.",
+    desc: "For inspection by a state work health and safety regulator, or for internal HSE audit, coverage, verification history, and sign-off chains export as a coherent pack. not a discovery exercise.",
   },
   {
     icon: <Fingerprint className="h-5 w-5" />,
@@ -81,7 +81,7 @@ const steps = [
 const faq = [
   {
     q: "How does this support ISO 45001 certification maintenance?",
-    a: "The framework encodes ISO 45001 clauses relevant to competency, communication, and operational control, and traces every module and verification checkpoint back to the specific clause it satisfies. Under surveillance audit, the artefact you present is a framework with clause-level coverage — not a defence assembled after the audit notice arrives.",
+    a: "The framework encodes ISO 45001 clauses relevant to competency, communication, and operational control, and traces every module and verification checkpoint back to the specific clause it satisfies. Under surveillance audit, the artefact you present is a framework with clause-level coverage. not a defence assembled after the audit notice arrives.",
   },
   {
     q: "Can this handle competency-based verification for high-consequence roles like permit issuers or isolation authorities?",
@@ -89,11 +89,11 @@ const faq = [
   },
   {
     q: "We operate multiple sites with different equipment and different jurisdictional requirements. Can one framework cover them?",
-    a: "Yes. The framework can carry site-specific and jurisdictional variants without duplicating the underlying competency model. Where a step differs — equipment specific to a site, a licence condition specific to a state — the variant is a branch on the framework, not a fork of the whole system.",
+    a: "Yes. The framework can carry site-specific and jurisdictional variants without duplicating the underlying competency model. Where a step differs. equipment specific to a site, a licence condition specific to a state. the variant is a branch on the framework, not a fork of the whole system.",
   },
   {
     q: "How does the platform handle procedural change following an incident?",
-    a: "When a lesson emerges from an incident, the framework is patched at the specific structural node affected. Downstream instruction regenerates against the update; retraining evidence — who, when, to what threshold — attaches directly to the incident record for governance review.",
+    a: "When a lesson emerges from an incident, the framework is patched at the specific structural node affected. Downstream instruction regenerates against the update; retraining evidence. who, when, to what threshold. attaches directly to the incident record for governance review.",
   },
   {
     q: "Does the platform claim ISO 45001 certification itself?",
@@ -105,7 +105,7 @@ const related = [
   {
     eyebrow: "Program",
     title: "Operational procedures",
-    desc: "The program model for turning tasks and workflows into repeatable, verifiable execution — anchored to structure, not tribal knowledge.",
+    desc: "The program model for turning tasks and workflows into repeatable, verifiable execution. anchored to structure, not tribal knowledge.",
     href: "/programs/operational-procedures",
   },
   {

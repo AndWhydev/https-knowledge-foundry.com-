@@ -17,7 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "Integrations & Delivery — Fit your environment, or become it",
+  title: "Integrations & Delivery. Fit your environment, or become it",
   description:
     "Integrate into an existing LMS via SCORM, structured HTML, JSON, or API. Or deploy a complete white-label delivery environment. The structural integrity of the programme travels either way.",
 };
@@ -26,7 +26,7 @@ const capabilities = [
   {
     icon: <Package className="h-5 w-5" />,
     title: "SCORM 1.2 export",
-    desc: "Structured programmes export to SCORM 1.2 packages for deployment into any conformant enterprise LMS — no manual reconstruction required.",
+    desc: "Structured programmes export to SCORM 1.2 packages for deployment into any conformant enterprise LMS. no manual reconstruction required.",
   },
   {
     icon: <Cable className="h-5 w-5" />,
@@ -41,7 +41,7 @@ const capabilities = [
   {
     icon: <Cloud className="h-5 w-5" />,
     title: "White-label LMS",
-    desc: "Complete delivery environment on your domain, with your branding and access controls — Studio authoring, review queue, analytics, and role management included.",
+    desc: "Complete delivery environment on your domain, with your branding and access controls. Studio authoring, review queue, analytics, and role management included.",
   },
   {
     icon: <KeyRound className="h-5 w-5" />,
@@ -51,7 +51,7 @@ const capabilities = [
   {
     icon: <Puzzle className="h-5 w-5" />,
     title: "Sits alongside, not replaces",
-    desc: "Existing LMS, HRIS, content stores, and identity providers remain. The Foundry is a source of truth for structure and integrity — not a rip-and-replace demand.",
+    desc: "Existing LMS, HRIS, content stores, and identity providers remain. The Foundry is a source of truth for structure and integrity. not a rip-and-replace demand.",
   },
 ];
 
@@ -59,17 +59,17 @@ const steps = [
   {
     n: "01",
     title: "Generate to deploy",
-    desc: "Fastest path — immediate structured deployment for rapid content needs. Suitable when the review gate lives elsewhere in your process.",
+    desc: "Fastest path. immediate structured deployment for rapid content needs. Suitable when the review gate lives elsewhere in your process.",
   },
   {
     n: "02",
     title: "Generate to review to deploy",
-    desc: "Balanced path — human-in-the-loop review through the mandatory Review Queue prior to final release. Default operating model for most environments.",
+    desc: "Balanced path. human-in-the-loop review through the mandatory Review Queue prior to final release. Default operating model for most environments.",
   },
   {
     n: "03",
     title: "Generate to export to integrate",
-    desc: "Flexible path — external delivery to third-party ecosystems via SCORM, structured HTML, JSON, or API. Structural integrity travels with the export.",
+    desc: "Flexible path. external delivery to third-party ecosystems via SCORM, structured HTML, JSON, or API. Structural integrity travels with the export.",
   },
 ];
 
@@ -80,19 +80,19 @@ const faq = [
   },
   {
     q: "Which LMS platforms are supported?",
-    a: "Any SCORM 1.2 conformant LMS — which covers the majority of enterprise deployments. Native LearnPress deployment is supported for organisations using the white-label path. Custom LMS environments are supported via structured HTML and API integration.",
+    a: "Any SCORM 1.2 conformant LMS. which covers the majority of enterprise deployments. Native LearnPress deployment is supported for organisations using the white-label path. Custom LMS environments are supported via structured HTML and API integration.",
   },
   {
     q: "What happens to integrity when a programme leaves the Foundry?",
-    a: "Foundry Hash values travel with the exported programme. Recipients — LMS platforms, downstream systems, auditors — can independently confirm that what they received matches what was released. Integrity does not degrade at the export boundary.",
+    a: "Foundry Hash values travel with the exported programme. Recipients. LMS platforms, downstream systems, auditors. can independently confirm that what they received matches what was released. Integrity does not degrade at the export boundary.",
   },
   {
     q: "Can we deploy without an LMS at all?",
-    a: "Yes. The white-label LMS is a complete delivery environment — Studio authoring, review queue, compliance dashboard, standards manager, analytics and telemetry, learner enhancement tools, and role and license management — deployed on your domain with your branding. Suitable when no incumbent LMS exists or when full control is a requirement.",
+    a: "Yes. The white-label LMS is a complete delivery environment. Studio authoring, review queue, compliance dashboard, standards manager, analytics and telemetry, learner enhancement tools, and role and license management. deployed on your domain with your branding. Suitable when no incumbent LMS exists or when full control is a requirement.",
   },
   {
     q: "How are revisions handled once a programme is deployed to an external LMS?",
-    a: "Regeneration can occur at the course, module, lesson, or block level without affecting adjacent content. Revisions do not automatically push live — a manual sync is required after regeneration, so release remains controlled. Every deployed version is identified by immutable course hash.",
+    a: "Regeneration can occur at the course, module, lesson, or block level without affecting adjacent content. Revisions do not automatically push live. a manual sync is required after regeneration, so release remains controlled. Every deployed version is identified by immutable course hash.",
   },
   {
     q: "Is API access production-ready?",
@@ -104,13 +104,13 @@ const related = [
   {
     eyebrow: "Foundation",
     title: "Verification & Trust",
-    desc: "Foundry Hash and Master Integrity Root — the integrity guarantees that survive export to any environment.",
+    desc: "Foundry Hash and Master Integrity Root. the integrity guarantees that survive export to any environment.",
     href: "/platform/verification-trust",
   },
   {
     eyebrow: "Technical",
     title: "Technical overview",
-    desc: "Architecture, delivery models, and data-residency — the technical shape of what you would deploy.",
+    desc: "Architecture, delivery models, and data-residency. the technical shape of what you would deploy.",
     href: "/platform/technical-overview",
   },
   {

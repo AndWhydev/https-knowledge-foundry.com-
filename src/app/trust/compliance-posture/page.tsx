@@ -15,7 +15,7 @@ import { Reveal } from "@/components/motion/reveal";
 import { Related } from "@/components/solution/related";
 
 export const metadata: Metadata = {
-  title: "Compliance posture — Data handling, subprocessors, DPA",
+  title: "Compliance posture. Data handling, subprocessors, DPA",
   description:
     "Knowledge Foundry's data-handling programme: subprocessors, data-processing agreement, retention, residency, and alignment to the Australian Privacy Act and cross-border transfer standards.",
 };
@@ -80,7 +80,7 @@ const related = [
   {
     eyebrow: "Trust",
     title: "Trust Centre overview",
-    desc: "The full posture at a glance — security, compliance, and data handling.",
+    desc: "The full posture at a glance. security, compliance, and data handling.",
     href: "/trust",
   },
   {

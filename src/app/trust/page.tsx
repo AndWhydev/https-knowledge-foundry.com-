@@ -18,7 +18,7 @@ import { Container, Section, Eyebrow } from "@/components/ui/container";
 import { Reveal } from "@/components/motion/reveal";
 
 export const metadata: Metadata = {
-  title: "Trust Centre — Security, compliance and data handling",
+  title: "Trust Centre. Security, compliance and data handling",
   description:
     "How Knowledge Foundry is designed to protect customer data, meet enterprise-security expectations, and align to the standards regulated buyers require.",
 };
@@ -26,32 +26,32 @@ export const metadata: Metadata = {
 const posture = [
   {
     icon: <ShieldCheck className="h-5 w-5" />,
-    title: "ISO 27001 — aligned",
+    title: "ISO 27001. aligned",
     desc: "Information security controls are designed against ISO/IEC 27001. Formal certification is in progress. Documentation and audit trail available to enterprise buyers under NDA.",
   },
   {
     icon: <FileCheck2 className="h-5 w-5" />,
-    title: "SOC 2 Type II — in progress",
+    title: "SOC 2 Type II. in progress",
     desc: "Operating in the observation window against the Trust Services Criteria for Security, Availability, and Confidentiality. Report available to prospective customers upon completion.",
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
-    title: "APRA CPS 234 — aware",
+    title: "APRA CPS 234. aware",
     desc: "For regulated Australian financial-services customers, controls, evidence artefacts, and reporting are designed to support obligations under CPS 234 and to fit inside an APRA-regulated operating environment.",
   },
   {
     icon: <FileCheck2 className="h-5 w-5" />,
-    title: "GDPR — ready by design",
+    title: "GDPR. ready by design",
     desc: "Data-processing terms, subprocessor register, deletion workflows, and export mechanisms are structured for GDPR-eligible processing where a customer requires them.",
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
     title: "WCAG 2.1 AA",
-    desc: "The customer surface — Studio, Console, and delivered programs — is engineered against WCAG 2.1 AA. See our accessibility statement for testing methodology and known limitations.",
+    desc: "The customer surface. Studio, Console, and delivered programs. is engineered against WCAG 2.1 AA. See our accessibility statement for testing methodology and known limitations.",
   },
   {
     icon: <Database className="h-5 w-5" />,
-    title: "Data residency — Australia",
+    title: "Data residency. Australia",
     desc: "Production data for Australian customers resides in AWS ap-southeast-2 (Sydney). No routine offshore replication. Residency in other regions available on request for regulated deployments.",
   },
 ];
@@ -92,7 +92,7 @@ const controls = [
 const subprocessorsSummary = [
   {
     title: "Cloud infrastructure",
-    desc: "Amazon Web Services (ap-southeast-2, Sydney) — hosting, compute, storage, key management. No offshore replication for AU-hosted tenants.",
+    desc: "Amazon Web Services (ap-southeast-2, Sydney). hosting, compute, storage, key management. No offshore replication for AU-hosted tenants.",
   },
   {
     title: "Observability",

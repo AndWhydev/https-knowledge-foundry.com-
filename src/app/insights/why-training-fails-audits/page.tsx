@@ -9,7 +9,7 @@ import {
 } from "@/components/layouts/editorial-article";
 
 export const metadata: Metadata = {
-  title: "Why training fails audits — Knowledge Foundry",
+  title: "Why training fails audits. Knowledge Foundry",
   description:
     "Audit failures trace back to knowledge structure, not content quality. The case for audit-first design in regulated training programmes.",
 };

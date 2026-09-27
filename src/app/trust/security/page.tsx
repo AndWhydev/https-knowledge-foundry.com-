@@ -19,7 +19,7 @@ import { FAQ } from "@/components/solution/faq";
 import { Related } from "@/components/solution/related";
 
 export const metadata: Metadata = {
-  title: "Security — Threat model, controls, and disclosure",
+  title: "Security. Threat model, controls, and disclosure",
   description:
     "How Knowledge Foundry is engineered against a stated threat model: encryption, access controls, backups, incident response, and the responsible-disclosure policy.",
 };
@@ -99,7 +99,7 @@ const ir = [
   {
     n: "02",
     title: "Contain",
-    desc: "An incident commander is assigned. Contain-first — rotate credentials, isolate affected components, halt inbound traffic to affected surfaces if required.",
+    desc: "An incident commander is assigned. Contain-first. rotate credentials, isolate affected components, halt inbound traffic to affected surfaces if required.",
   },
   {
     n: "03",
@@ -132,7 +132,7 @@ const disclosureFaq = [
   },
   {
     q: "Will you take legal action against good-faith researchers?",
-    a: "No — provided you act in good faith, do not access data beyond what is necessary to demonstrate the issue, do not exfiltrate data, and give us reasonable time to remediate before public disclosure.",
+    a: "No. provided you act in good faith, do not access data beyond what is necessary to demonstrate the issue, do not exfiltrate data, and give us reasonable time to remediate before public disclosure.",
   },
 ];
 
@@ -140,7 +140,7 @@ const related = [
   {
     eyebrow: "Trust",
     title: "Trust Centre overview",
-    desc: "The full posture summary — security, compliance, data handling.",
+    desc: "The full posture summary. security, compliance, data handling.",
     href: "/trust",
   },
   {

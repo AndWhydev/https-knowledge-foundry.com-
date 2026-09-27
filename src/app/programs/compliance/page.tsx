@@ -17,7 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "Compliance Programs — Structured behavioural adherence, not awareness",
+  title: "Compliance Programs. Structured behavioural adherence, not awareness",
   description:
     "Regulatory and policy requirements translated into structured instruction at clause-level resolution. Every control is role-tagged, evidenced, and audit-defensible.",
 };
@@ -26,12 +26,12 @@ const capabilities = [
   {
     icon: <Scale className="h-5 w-5" />,
     title: "Clause-level interpretation",
-    desc: "Requirements are parsed at the resolution of the individual clause — mandatory controls, documentation anchors, role responsibilities, and behavioural implications extracted explicitly.",
+    desc: "Requirements are parsed at the resolution of the individual clause. mandatory controls, documentation anchors, role responsibilities, and behavioural implications extracted explicitly.",
   },
   {
     icon: <GitCompareArrows className="h-5 w-5" />,
     title: "Multi-standard harmonisation",
-    desc: "Where an internal SOP, an ISO standard, and a regulator's guidance overlap, the system maps them once — surfacing conflicts, redundancies, and orphaned clauses.",
+    desc: "Where an internal SOP, an ISO standard, and a regulator's guidance overlap, the system maps them once. surfacing conflicts, redundancies, and orphaned clauses.",
   },
   {
     icon: <Fingerprint className="h-5 w-5" />,
@@ -69,7 +69,7 @@ const steps = [
   {
     n: "03",
     title: "Construct the framework",
-    desc: "A compliance framework is authored — controls, role assignments, evidence requirements, and assessment logic — then approved by the framework owner before generation.",
+    desc: "A compliance framework is authored. controls, role assignments, evidence requirements, and assessment logic. then approved by the framework owner before generation.",
   },
   {
     n: "04",
@@ -81,14 +81,14 @@ const steps = [
 const faq = [
   {
     q: "How is this different from an LMS-hosted compliance module?",
-    a: "An LMS module records that a person completed content. It does not evidence that the content maps to a specific regulatory clause, or that the assessment measured the behaviour the clause requires. The Foundry treats the mapping as the primary artefact and the module as its expression. Under audit, the artefact is what defends the programme — not the completion record.",
+    a: "An LMS module records that a person completed content. It does not evidence that the content maps to a specific regulatory clause, or that the assessment measured the behaviour the clause requires. The Foundry treats the mapping as the primary artefact and the module as its expression. Under audit, the artefact is what defends the programme. not the completion record.",
   },
   {
-    q: "Can you support multi-jurisdictional programmes — where the same role is regulated differently in different markets?",
+    q: "Can you support multi-jurisdictional programmes. where the same role is regulated differently in different markets?",
     a: "Yes. One framework can carry variant branches for jurisdiction, entity, or product line. A relationship manager in one market may be subject to different licensing requirements than the same role in another; the framework encodes that difference, and the generated programme reflects it. Governance stays in one place.",
   },
   {
-    q: "How does the platform handle standards that update — for example, an ISO revision or a regulator guidance change?",
+    q: "How does the platform handle standards that update. for example, an ISO revision or a regulator guidance change?",
     a: "When source documents update, the system re-parses them and diffs the new clauses against the existing framework. What changed, what became obsolete, and what needs remediation is surfaced explicitly. You do not rebuild the programme; you patch the framework and regenerate the affected blocks.",
   },
   {
@@ -117,7 +117,7 @@ const related = [
   {
     eyebrow: "Sector",
     title: "Financial services",
-    desc: "APRA CPS 234, ASIC RG146, licensing regimes, and product knowledge for regulated roles — evidenced.",
+    desc: "APRA CPS 234, ASIC RG146, licensing regimes, and product knowledge for regulated roles. evidenced.",
     href: "/industries/financial-services",
   },
 ];

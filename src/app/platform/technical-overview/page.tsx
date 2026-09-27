@@ -17,9 +17,9 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "Technical Overview — For serious evaluators",
+  title: "Technical Overview. For serious evaluators",
   description:
-    "Knowledge-first architecture, structured generation, reproducibility, traceability, bounded automation, and verifiable delivery — the six principles behind Knowledge Foundry.",
+    "Knowledge-first architecture, structured generation, reproducibility, traceability, bounded automation, and verifiable delivery. the six principles behind Knowledge Foundry.",
 };
 
 const capabilities = [
@@ -41,7 +41,7 @@ const capabilities = [
   {
     icon: <ScanSearch className="h-5 w-5" />,
     title: "Traceability",
-    desc: "Structural positioning, pedagogical anchoring, statutory and policy mapping, and full provenance and revision intelligence — an immutable connection between output and requirement.",
+    desc: "Structural positioning, pedagogical anchoring, statutory and policy mapping, and full provenance and revision intelligence. an immutable connection between output and requirement.",
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
@@ -51,7 +51,7 @@ const capabilities = [
   {
     icon: <Fingerprint className="h-5 w-5" />,
     title: "Verifiable delivery",
-    desc: "Visible frameworks, controlled revisions, verifiable integrity, deliberate delivery — architected as Verifiable Knowledge Infrastructure rather than as content generation with checks bolted on.",
+    desc: "Visible frameworks, controlled revisions, verifiable integrity, deliberate delivery. architected as Verifiable Knowledge Infrastructure rather than as content generation with checks bolted on.",
   },
 ];
 
@@ -59,7 +59,7 @@ const steps = [
   {
     n: "01",
     title: "Interpret",
-    desc: "The Proprietary Semantic Compiler processes source inputs — subject prompts, documentation, standards, requirements — into formal models. Analytical, not generative.",
+    desc: "The Proprietary Semantic Compiler processes source inputs. subject prompts, documentation, standards, requirements. into formal models. Analytical, not generative.",
   },
   {
     n: "02",
@@ -86,19 +86,19 @@ const steps = [
 const faq = [
   {
     q: "What models does the platform use, and how are they governed?",
-    a: "Model selection is governed by the Semantic Compiler and constrained by Proprietary Execution Protocols — models operate only inside the framework envelope approved by a human owner. Model architecture is not the differentiator; the constraint architecture around the model is. Specific model configurations are disclosed under mutual non-disclosure for technical evaluation.",
+    a: "Model selection is governed by the Semantic Compiler and constrained by Proprietary Execution Protocols. models operate only inside the framework envelope approved by a human owner. Model architecture is not the differentiator; the constraint architecture around the model is. Specific model configurations are disclosed under mutual non-disclosure for technical evaluation.",
   },
   {
     q: "How does the platform prevent generative drift on long-form programmes?",
     a: "Recursive Contextual Synchronization operates at three levels: intra-lesson (within a lesson), intra-chapter (across lessons in a chapter), and global framework (across the entire programme). Real-time alignment checks reference the Pedagogical Roadmap. Content that does not align to the approved framework does not leave the compiler.",
   },
   {
-    q: "Where can we deploy — cloud, on-premise, private tenancy?",
+    q: "Where can we deploy. cloud, on-premise, private tenancy?",
     a: "Multi-tenant SaaS is the default. Single-tenant deployments and dedicated environments are available for enterprise, regulated, and sovereignty-sensitive engagements. Data residency options can be scoped to specific jurisdictions. Detailed deployment topology is provided during technical evaluation.",
   },
   {
     q: "How does hashing actually work at scale?",
-    a: "Each discrete content block receives a cryptographic identifier — the Foundry Hash — through the Foundry Integrity Ledger. Block hashes aggregate into a Master Integrity Root at programme level. Verification of the root verifies every block beneath it. The same primitive used in software supply chains and financial ledgers, applied to learning content.",
+    a: "Each discrete content block receives a cryptographic identifier. the Foundry Hash. through the Foundry Integrity Ledger. Block hashes aggregate into a Master Integrity Root at programme level. Verification of the root verifies every block beneath it. The same primitive used in software supply chains and financial ledgers, applied to learning content.",
   },
   {
     q: "What does the API look like?",
@@ -110,7 +110,7 @@ const faq = [
   },
   {
     q: "What is the confidentiality posture for technical evaluations?",
-    a: "All technical evaluations — architecture walkthroughs, cryptographic protocols, execution protocols, deployment topology — are conducted under a Mutual Non-Disclosure Agreement (mNDA). Architectural Verification and Ledger Documentation are provided for technical, compliance, or accreditation review under the same agreement.",
+    a: "All technical evaluations. architecture walkthroughs, cryptographic protocols, execution protocols, deployment topology. are conducted under a Mutual Non-Disclosure Agreement (mNDA). Architectural Verification and Ledger Documentation are provided for technical, compliance, or accreditation review under the same agreement.",
   },
 ];
 
@@ -118,13 +118,13 @@ const related = [
   {
     eyebrow: "Foundation",
     title: "Verification & Trust",
-    desc: "Foundry Hash, Master Integrity Root, Forensic Revision Chain — the primitives the architecture rests on.",
+    desc: "Foundry Hash, Master Integrity Root, Forensic Revision Chain. the primitives the architecture rests on.",
     href: "/platform/verification-trust",
   },
   {
     eyebrow: "Adjacent",
     title: "Integrations & delivery",
-    desc: "Deployment shapes, export formats, and the API — the interfaces to the architecture described here.",
+    desc: "Deployment shapes, export formats, and the API. the interfaces to the architecture described here.",
     href: "/platform/integrations",
   },
   {

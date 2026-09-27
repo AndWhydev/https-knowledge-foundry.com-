@@ -5,7 +5,7 @@ import { Reveal } from "@/components/motion/reveal";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Privacy policy — Knowledge Foundry",
+  title: "Privacy policy. Knowledge Foundry",
   description:
     "How Knowledge Foundry collects, uses, discloses, and retains personal information, in line with the Australian Privacy Act 1988 and the Australian Privacy Principles.",
 };
@@ -73,7 +73,7 @@ export default function PrivacyPage() {
               <ul>
                 <li>Name, work email, organisation, role, country, and the details you provide in a demonstration request or an email to us.</li>
                 <li>Phone number, only if you choose to provide it.</li>
-                <li>Basic technical data associated with your visit — IP address, browser type, timestamps, and referring URL — collected via server and analytics logs.</li>
+                <li>Basic technical data associated with your visit. IP address, browser type, timestamps, and referring URL. collected via server and analytics logs.</li>
               </ul>
               <h3>2.2 Customer platform data</h3>
               <ul>
@@ -98,7 +98,7 @@ export default function PrivacyPage() {
               <ul>
                 <li>Directly, when you submit a form, send us an email, or use the platform.</li>
                 <li>Automatically, through the operation of the website and the platform.</li>
-                <li>From authorised third parties — for example, an authentication provider a customer uses for single sign-on.</li>
+                <li>From authorised third parties. for example, an authentication provider a customer uses for single sign-on.</li>
               </ul>
             </section>
 
@@ -124,8 +124,8 @@ export default function PrivacyPage() {
               <h2>5. Who we disclose it to</h2>
               <p>We disclose personal information only where necessary and only to the following categories of recipient.</p>
               <ul>
-                <li><strong>Named subprocessors</strong> that operate infrastructure or narrowly defined services on our behalf — for example, our cloud hosting provider. A summary is on our <Link href="/trust/compliance-posture">compliance-posture page</Link>, and the full register is available on request.</li>
-                <li><strong>Professional advisers</strong> — for example, legal or accounting advisers — bound by confidentiality.</li>
+                <li><strong>Named subprocessors</strong> that operate infrastructure or narrowly defined services on our behalf. for example, our cloud hosting provider. A summary is on our <Link href="/trust/compliance-posture">compliance-posture page</Link>, and the full register is available on request.</li>
+                <li><strong>Professional advisers</strong>. for example, legal or accounting advisers. bound by confidentiality.</li>
                 <li><strong>Regulators, law enforcement, or courts</strong> where required by law.</li>
                 <li><strong>A successor entity</strong> in the event of a corporate transaction, subject to continued protection consistent with this policy.</li>
               </ul>

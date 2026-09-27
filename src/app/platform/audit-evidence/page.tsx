@@ -17,21 +17,21 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "Audit & Evidence Management — When they ask how you know, the answer is a file",
+  title: "Audit & Evidence Management. When they ask how you know, the answer is a file",
   description:
-    "Content lineage, review history, standards mapping, approvals, and cryptographic integrity — captured as evidence, exportable as an audit pack. Every decision leaves a trace.",
+    "Content lineage, review history, standards mapping, approvals, and cryptographic integrity. captured as evidence, exportable as an audit pack. Every decision leaves a trace.",
 };
 
 const capabilities = [
   {
     icon: <FileSearch className="h-5 w-5" />,
     title: "Content lineage",
-    desc: "Every learning asset stays permanently connected to the source materials, framework nodes, and standards it was built from. Provenance is not a metadata field — it is the architecture.",
+    desc: "Every learning asset stays permanently connected to the source materials, framework nodes, and standards it was built from. Provenance is not a metadata field. it is the architecture.",
   },
   {
     icon: <ClipboardCheck className="h-5 w-5" />,
     title: "Review history",
-    desc: "Every review action — approve, revise, comment, reject — is recorded across the creation lifecycle with the reviewer, timestamp, and version it applied to.",
+    desc: "Every review action. approve, revise, comment, reject. is recorded across the creation lifecycle with the reviewer, timestamp, and version it applied to.",
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
@@ -41,7 +41,7 @@ const capabilities = [
   {
     icon: <Signature className="h-5 w-5" />,
     title: "Approval records",
-    desc: "Sign-off activities are captured inside live governance workflows — role, identity, decision, and target hash. Not an email trail.",
+    desc: "Sign-off activities are captured inside live governance workflows. role, identity, decision, and target hash. Not an email trail.",
   },
   {
     icon: <Fingerprint className="h-5 w-5" />,
@@ -51,7 +51,7 @@ const capabilities = [
   {
     icon: <Package className="h-5 w-5" />,
     title: "Exportable audit packs",
-    desc: "A single command exports the evidence set — provenance, reviews, approvals, hashes, revisions — in formats designed for external scrutiny.",
+    desc: "A single command exports the evidence set. provenance, reviews, approvals, hashes, revisions. in formats designed for external scrutiny.",
   },
 ];
 
@@ -69,7 +69,7 @@ const steps = [
   {
     n: "03",
     title: "Delta",
-    desc: "What was modified. Every regeneration produces a new hash, a diff, and a link to the reason — an auditor comment, a standard update, a policy change.",
+    desc: "What was modified. Every regeneration produces a new hash, a diff, and a link to the reason. an auditor comment, a standard update, a policy change.",
   },
   {
     n: "04",
@@ -79,7 +79,7 @@ const steps = [
   {
     n: "05",
     title: "Substrate",
-    desc: "What evidence supports. Every claim in the programme is exportable back to source material, framework node, review record, and hash — end to end.",
+    desc: "What evidence supports. Every claim in the programme is exportable back to source material, framework node, review record, and hash. end to end.",
   },
 ];
 
@@ -90,7 +90,7 @@ const faq = [
   },
   {
     q: "How is this different from what our LMS or GRC platform already produces?",
-    a: "LMS reports tell you who completed what. GRC platforms track that a control exists. Neither ties the content of a lesson to the clause it satisfies, the reviewer who approved it, and a cryptographic proof of what was released. The audit pack answers the question 'how do you know the training covers the requirement' — a question those systems are not built to answer.",
+    a: "LMS reports tell you who completed what. GRC platforms track that a control exists. Neither ties the content of a lesson to the clause it satisfies, the reviewer who approved it, and a cryptographic proof of what was released. The audit pack answers the question 'how do you know the training covers the requirement'. a question those systems are not built to answer.",
   },
   {
     q: "Can we prove integrity to an auditor without giving them platform access?",
@@ -98,7 +98,7 @@ const faq = [
   },
   {
     q: "How long is evidence retained?",
-    a: "Indefinitely, by design. The Forensic Revision Chain preserves every version. Ownership records, approval decisions, and hash values are never purged as part of ordinary operation. Retention policies can be configured to your regulatory obligations — but the default is preservation, not disposal.",
+    a: "Indefinitely, by design. The Forensic Revision Chain preserves every version. Ownership records, approval decisions, and hash values are never purged as part of ordinary operation. Retention policies can be configured to your regulatory obligations. but the default is preservation, not disposal.",
   },
   {
     q: "What happens if a regulator asks about a decision made two years ago?",
@@ -114,13 +114,13 @@ const related = [
   {
     eyebrow: "Foundation",
     title: "Verification & Trust",
-    desc: "Foundry Hash, Master Integrity Root, and Forensic Revision Chain — the technical spine the audit pack exports.",
+    desc: "Foundry Hash, Master Integrity Root, and Forensic Revision Chain. the technical spine the audit pack exports.",
     href: "/platform/verification-trust",
   },
   {
     eyebrow: "Adjacent",
     title: "Knowledge governance",
-    desc: "Ownership, approvals, and cadence — the operating model that produces the evidence continuously.",
+    desc: "Ownership, approvals, and cadence. the operating model that produces the evidence continuously.",
     href: "/platform/knowledge-governance",
   },
   {

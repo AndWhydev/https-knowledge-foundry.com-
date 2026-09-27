@@ -9,9 +9,9 @@ import {
 } from "@/components/layouts/editorial-article";
 
 export const metadata: Metadata = {
-  title: "AI-generated content and compliance risk — Knowledge Foundry",
+  title: "AI-generated content and compliance risk. Knowledge Foundry",
   description:
-    "The provenance problem in AI-generated training. Why cryptographic evidence — Foundry Hash, Master Integrity Root, Forensic Revision Chain — matters for regulated buyers.",
+    "The provenance problem in AI-generated training. Why cryptographic evidence. Foundry Hash, Master Integrity Root, Forensic Revision Chain. matters for regulated buyers.",
 };
 
 const toc = [
@@ -89,7 +89,7 @@ export default function Page() {
       </EditorialP>
       <EditorialList items={[
         <><strong>Foundry Hash.</strong> A cryptographic hash bound to each generated element at the moment of generation. The hash pins the content to the framework node, the source clause, and the reviewer sign-off behind it.</>,
-        <><strong>Master Integrity Root.</strong> A single root of trust for the programme. Any tampering downstream — a paragraph quietly edited, a source citation swapped — invalidates the root. Integrity is verifiable in one query.</>,
+        <><strong>Master Integrity Root.</strong> A single root of trust for the programme. Any tampering downstream. a paragraph quietly edited, a source citation swapped. invalidates the root. Integrity is verifiable in one query.</>,
         <><strong>Forensic Revision Chain.</strong> Every revision is chained, signed, and timestamped. The chain answers, without ambiguity, what changed, when, why, and on whose authority.</>,
       ]} />
 

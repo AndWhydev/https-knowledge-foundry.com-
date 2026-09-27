@@ -9,7 +9,7 @@ import {
 } from "@/components/layouts/editorial-article";
 
 export const metadata: Metadata = {
-  title: "Knowledge structure comes before content — Knowledge Foundry",
+  title: "Knowledge structure comes before content. Knowledge Foundry",
   description:
     "Writing before structure is the root cause of training failure. The argument for structural literacy as the missing L&D discipline.",
 };
@@ -78,7 +78,7 @@ export default function Page() {
       </EditorialP>
       <EditorialList items={[
         <><strong>Concept nodes.</strong> Named units of knowledge with definitions and provenance back to the source clauses that made them necessary.</>,
-        <><strong>Typed relationships.</strong> Explicit connections — depends on, contains, contradicts, supersedes — that name how concepts sit against each other.</>,
+        <><strong>Typed relationships.</strong> Explicit connections. depends on, contains, contradicts, supersedes. that name how concepts sit against each other.</>,
         <><strong>Prerequisite graph.</strong> The order in which concepts must be met, treated as a property of the subject, not an author preference.</>,
         <><strong>Assessment definitions.</strong> The evidence each node requires before a claim of competence can be made against it.</>,
       ]} />

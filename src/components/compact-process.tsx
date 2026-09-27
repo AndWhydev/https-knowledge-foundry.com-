@@ -14,9 +14,9 @@ type Step = {
 };
 
 const steps: Step[] = [
-  { n: "01", title: "Interpret", desc: "The system reads your source material — subjects, documents, policies, standards — and extracts the requirements that must be met. Every requirement carries the sentence it came from." },
+  { n: "01", title: "Interpret", desc: "The system reads your source material. subjects, documents, policies, standards. and extracts the requirements that must be met. Every requirement carries the sentence it came from." },
   { n: "02", title: "Structure", desc: "A framework is proposed. Concepts, relationships, progression, and assessment logic are laid down before a single line of content is written. Reviewers approve or revise, not draft." },
-  { n: "03", title: "Produce", desc: "Instruction, activities, and verification are generated to fit the approved framework. Every element traces back to a requirement — so nothing produced is content without a place." },
+  { n: "03", title: "Produce", desc: "Instruction, activities, and verification are generated to fit the approved framework. Every element traces back to a requirement. so nothing produced is content without a place." },
   { n: "04", title: "Deliver", desc: "The programme ships as a reviewable, standards-aligned, audit-ready system. Full evidence trail, exportable pack for regulators and boards, ongoing governance and drift detection built in." },
 ];
 

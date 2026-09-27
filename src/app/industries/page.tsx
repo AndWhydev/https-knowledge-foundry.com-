@@ -19,7 +19,7 @@ import { ProseBlock } from "@/components/solution/prose-block";
 import { HeroLattice } from "@/components/hero-lattice";
 
 export const metadata: Metadata = {
-  title: "Industries — Structured learning for regulated, evidenced sectors",
+  title: "Industries. Structured learning for regulated, evidenced sectors",
   description:
     "Financial services, healthcare, energy, government, professional services, and higher education. One architecture, six regulatory contexts, evidence built in.",
 };
@@ -33,7 +33,7 @@ const industries = [
   {
     icon: <HeartPulse className="h-5 w-5" />,
     title: "Healthcare & life sciences",
-    desc: "Clinical governance, TGA advertising and product information rules, credentialing, and AHPRA CPD — mapped to instruction and verified in one architecture.",
+    desc: "Clinical governance, TGA advertising and product information rules, credentialing, and AHPRA CPD. mapped to instruction and verified in one architecture.",
   },
   {
     icon: <Factory className="h-5 w-5" />,
@@ -53,7 +53,7 @@ const industries = [
   {
     icon: <GraduationCap className="h-5 w-5" />,
     title: "Higher education",
-    desc: "TEQSA-aligned course architecture, outcome mapping, and defensible accreditation evidence — with the framework as the reviewable artefact.",
+    desc: "TEQSA-aligned course architecture, outcome mapping, and defensible accreditation evidence. with the framework as the reviewable artefact.",
   },
 ];
 
@@ -71,7 +71,7 @@ const shared = [
   {
     icon: <Users className="h-5 w-5" />,
     title: "Role-tagged accountability",
-    desc: "Obligations, controls, and competency thresholds attach to specific roles — not to modules. Coverage is measurable at the level regulators actually ask about.",
+    desc: "Obligations, controls, and competency thresholds attach to specific roles. not to modules. Coverage is measurable at the level regulators actually ask about.",
   },
 ];
 
@@ -84,7 +84,7 @@ const steps = [
   {
     n: "02",
     title: "Structure the framework",
-    desc: "A framework is authored mapping obligations to roles, controls, and required evidence — reviewed and approved by your compliance or accreditation owner.",
+    desc: "A framework is authored mapping obligations to roles, controls, and required evidence. reviewed and approved by your compliance or accreditation owner.",
   },
   {
     n: "03",
@@ -101,15 +101,15 @@ const steps = [
 const faq = [
   {
     q: "Is the platform certified against any of these standards itself?",
-    a: "The Foundry produces evidence structured against standards you are accountable for; it does not claim third-party certification against those standards on its own behalf. Technical and security posture — deployment models, data-residency, access controls — are covered in the Technical Overview, and enterprise engagements typically include supplier due diligence.",
+    a: "The Foundry produces evidence structured against standards you are accountable for; it does not claim third-party certification against those standards on its own behalf. Technical and security posture. deployment models, data-residency, access controls. are covered in the Technical Overview, and enterprise engagements typically include supplier due diligence.",
   },
   {
     q: "How do you handle sector-specific regulatory change?",
-    a: "When source documents update — an APRA prudential standard, a TGA guidance, an ISO revision, a TEQSA threshold change — the system re-parses them and diffs against the existing framework. Affected obligations, controls, and modules are surfaced explicitly so remediation is targeted, not wholesale.",
+    a: "When source documents update. an APRA prudential standard, a TGA guidance, an ISO revision, a TEQSA threshold change. the system re-parses them and diffs against the existing framework. Affected obligations, controls, and modules are surfaced explicitly so remediation is targeted, not wholesale.",
   },
   {
     q: "Can one framework carry multiple regulatory regimes?",
-    a: "Yes. Where an organisation operates under overlapping regimes — an APRA-regulated bank subject to ASIC obligations, or a healthcare provider subject to TGA and AHPRA — the framework can carry both, surface conflicts, and produce role-appropriate programmes without duplicating the underlying knowledge.",
+    a: "Yes. Where an organisation operates under overlapping regimes. an APRA-regulated bank subject to ASIC obligations, or a healthcare provider subject to TGA and AHPRA. the framework can carry both, surface conflicts, and produce role-appropriate programmes without duplicating the underlying knowledge.",
   },
   {
     q: "Does the platform replace our internal compliance, clinical governance, or accreditation function?",

@@ -9,7 +9,7 @@ import {
 } from "@/components/layouts/editorial-article";
 
 export const metadata: Metadata = {
-  title: "What verification really measures — Knowledge Foundry",
+  title: "What verification really measures. Knowledge Foundry",
   description:
     "Click-through completion is not evidence of competence. What defensible verification requires, and why it matters to regulated organisations.",
 };

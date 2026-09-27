@@ -17,7 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "Hybrid Verification — Confirmed capability, not attended sessions",
+  title: "Hybrid Verification. Confirmed capability, not attended sessions",
   description:
     "Structured learning combined with integrated validation. Every objective is paired with a measurable outcome, a validation mechanism, and a defined competency threshold.",
 };
@@ -31,7 +31,7 @@ const capabilities = [
   {
     icon: <GaugeCircle className="h-5 w-5" />,
     title: "Proportional cognitive demand",
-    desc: "Higher cognitive demand receives proportional validation. Applied roles require applied proof. Advanced capability is demonstrably verified — not inferred from a quiz score.",
+    desc: "Higher cognitive demand receives proportional validation. Applied roles require applied proof. Advanced capability is demonstrably verified. not inferred from a quiz score.",
   },
   {
     icon: <Fingerprint className="h-5 w-5" />,
@@ -41,7 +41,7 @@ const capabilities = [
   {
     icon: <BadgeCheck className="h-5 w-5" />,
     title: "Competency thresholds",
-    desc: "Threshold logic — pass, conditional, fail — is defined at the framework level and applied consistently. Certification decisions are auditable, not editorial.",
+    desc: "Threshold logic. pass, conditional, fail. is defined at the framework level and applied consistently. Certification decisions are auditable, not editorial.",
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
@@ -81,7 +81,7 @@ const steps = [
 const faq = [
   {
     q: "How is hybrid verification different from a standard assessment at the end of a course?",
-    a: "End-of-course assessment measures recall after content exposure. Hybrid verification treats validation as a structural element of the framework: every objective carries its assessment, its threshold, and its evidence requirement from the moment the framework is drafted. Instruction and assessment are designed together — not sequenced apart.",
+    a: "End-of-course assessment measures recall after content exposure. Hybrid verification treats validation as a structural element of the framework: every objective carries its assessment, its threshold, and its evidence requirement from the moment the framework is drafted. Instruction and assessment are designed together. not sequenced apart.",
   },
   {
     q: "Can this support formal certification pathways?",
@@ -93,11 +93,11 @@ const faq = [
   },
   {
     q: "How does this fit alongside our existing LMS or credentialing system?",
-    a: "The Foundry publishes into most enterprise learning environments via SCORM, xAPI, and structured packages. Credentialing metadata — threshold decisions, assessment provenance, evidence exports — can be issued into your existing HRIS or credential registry. The Foundry becomes the source of certification truth; delivery remains where it is.",
+    a: "The Foundry publishes into most enterprise learning environments via SCORM, xAPI, and structured packages. Credentialing metadata. threshold decisions, assessment provenance, evidence exports. can be issued into your existing HRIS or credential registry. The Foundry becomes the source of certification truth; delivery remains where it is.",
   },
   {
     q: "Who signs off a certification decision?",
-    a: "The framework owner defines the sign-off protocol. Threshold logic can be fully automated, reviewer-approved, or multi-signature depending on the risk posture. The audit trail records every signatory and every decision — including reversals — with timestamp and identity.",
+    a: "The framework owner defines the sign-off protocol. Threshold logic can be fully automated, reviewer-approved, or multi-signature depending on the risk posture. The audit trail records every signatory and every decision. including reversals. with timestamp and identity.",
   },
 ];
 

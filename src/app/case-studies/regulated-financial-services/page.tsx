@@ -8,7 +8,7 @@ import {
 } from "@/components/layouts/case-narrative";
 
 export const metadata: Metadata = {
-  title: "Case study — RG146 refresh at a tier-1 Australian financial institution",
+  title: "Case study. RG146 refresh at a tier-1 Australian financial institution",
   description:
     "How a tier-1 Australian bank rebuilt its RG146 and AFSL licensee training on a governed framework after an APRA thematic review flagged evidence gaps.",
 };

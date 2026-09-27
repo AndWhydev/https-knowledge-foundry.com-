@@ -9,7 +9,7 @@ import {
 } from "@/components/layouts/editorial-article";
 
 export const metadata: Metadata = {
-  title: "SCORM is a transport, not a strategy — Knowledge Foundry",
+  title: "SCORM is a transport, not a strategy. Knowledge Foundry",
   description:
     "SCORM and xAPI describe delivery. They do not say what a learner should know. Confusing the two produces confident vendors and undefended programmes.",
 };
@@ -62,7 +62,7 @@ export default function Page() {
       <EditorialList items={[
         <><strong>SCORM is a packaging spec.</strong> It defines how a learning object is bundled, launched by an LMS, and reports completion. It is silent on content correctness.</>,
         <><strong>xAPI is a telemetry protocol.</strong> It defines how learning events are recorded and moved between systems. It captures what happened. It does not decide what should happen.</>,
-        <><strong>The strategy lives above both.</strong> The framework — concepts, relationships, progression, assessment definitions — is what the standards transport is silent on.</>,
+        <><strong>The strategy lives above both.</strong> The framework. concepts, relationships, progression, assessment definitions. is what the standards transport is silent on.</>,
       ]} />
 
       <PullQuote attribution="Knowledge Foundry, Standards Posture Notes">

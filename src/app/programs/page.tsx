@@ -18,21 +18,21 @@ import { ProseBlock } from "@/components/solution/prose-block";
 import { HeroLattice } from "@/components/hero-lattice";
 
 export const metadata: Metadata = {
-  title: "Programs — Structured learning for the outcomes you are accountable for",
+  title: "Programs. Structured learning for the outcomes you are accountable for",
   description:
-    "Five program types, one architecture. Educational, compliance, product enablement, operational procedures, and hybrid verification — each governed by an approved framework.",
+    "Five program types, one architecture. Educational, compliance, product enablement, operational procedures, and hybrid verification. each governed by an approved framework.",
 };
 
 const programs = [
   {
     icon: <GraduationCap className="h-5 w-5" />,
     title: "Educational programs",
-    desc: "Structured subject learning designed to build understanding over time. Progression is deliberate, assessment is integrated, coverage is systematic — not assumed.",
+    desc: "Structured subject learning designed to build understanding over time. Progression is deliberate, assessment is integrated, coverage is systematic. not assumed.",
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
     title: "Compliance programs",
-    desc: "Regulatory and policy requirements translated into structured behavioural instruction. Not awareness. Adherence — measurable, mapped, and defensible under audit.",
+    desc: "Regulatory and policy requirements translated into structured behavioural instruction. Not awareness. Adherence. measurable, mapped, and defensible under audit.",
   },
   {
     icon: <Boxes className="h-5 w-5" />,
@@ -55,7 +55,7 @@ const shared = [
   {
     icon: <Compass className="h-5 w-5" />,
     title: "One framework discipline",
-    desc: "Every program type follows the same architecture: interpret the source, structure the subject, produce instruction, deliver with evidence. The framework is the object of record — content is downstream of it.",
+    desc: "Every program type follows the same architecture: interpret the source, structure the subject, produce instruction, deliver with evidence. The framework is the object of record. content is downstream of it.",
   },
   {
     icon: <FileSearch2 className="h-5 w-5" />,
@@ -65,7 +65,7 @@ const shared = [
   {
     icon: <Layers className="h-5 w-5" />,
     title: "Variants from one asset",
-    desc: "A single approved framework can produce multiple tailored programs — by role, cohort, jurisdiction, or delivery mode — without re-authoring the underlying knowledge.",
+    desc: "A single approved framework can produce multiple tailored programs. by role, cohort, jurisdiction, or delivery mode. without re-authoring the underlying knowledge.",
   },
 ];
 
@@ -73,7 +73,7 @@ const steps = [
   {
     n: "01",
     title: "Interpret",
-    desc: "The system reads your source material — policies, standards, subject documents, SME notes — and extracts what must be known.",
+    desc: "The system reads your source material. policies, standards, subject documents, SME notes. and extracts what must be known.",
   },
   {
     n: "02",
@@ -95,7 +95,7 @@ const steps = [
 const faq = [
   {
     q: "Can we run more than one program type from the same source material?",
-    a: "Yes. A single approved framework can produce a compliance program for the whole workforce, an operational procedure for frontline execution, and a hybrid verification track for accredited roles — without duplicating the underlying knowledge. When the source changes, all downstream programs update against the same governance chain.",
+    a: "Yes. A single approved framework can produce a compliance program for the whole workforce, an operational procedure for frontline execution, and a hybrid verification track for accredited roles. without duplicating the underlying knowledge. When the source changes, all downstream programs update against the same governance chain.",
   },
   {
     q: "How is a compliance program different from an educational program in the Foundry?",
@@ -103,7 +103,7 @@ const faq = [
   },
   {
     q: "Do we have to build every program type at once?",
-    a: "No. Most engagements begin with the single program type carrying the most risk — usually compliance or hybrid verification. Framework Intelligence and Gap Analysis extend across the rest of your library as it becomes ready.",
+    a: "No. Most engagements begin with the single program type carrying the most risk. usually compliance or hybrid verification. Framework Intelligence and Gap Analysis extend across the rest of your library as it becomes ready.",
   },
   {
     q: "What if our current programs sit in an LMS we cannot replace?",

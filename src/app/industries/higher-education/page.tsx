@@ -17,7 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "Higher Education — TEQSA-aligned course architecture with defensible outcomes",
+  title: "Higher Education. TEQSA-aligned course architecture with defensible outcomes",
   description:
     "Course architecture aligned to the Higher Education Standards Framework. Constructive alignment, outcome mapping, and accreditation evidence produced by design.",
 };
@@ -26,7 +26,7 @@ const capabilities = [
   {
     icon: <BookOpen className="h-5 w-5" />,
     title: "TEQSA-aligned architecture",
-    desc: "Course and unit structure aligned to the Higher Education Standards Framework — with design, delivery, assessment, and monitoring encoded as framework properties, not narrative claims.",
+    desc: "Course and unit structure aligned to the Higher Education Standards Framework. with design, delivery, assessment, and monitoring encoded as framework properties, not narrative claims.",
   },
   {
     icon: <Target className="h-5 w-5" />,
@@ -46,12 +46,12 @@ const capabilities = [
   {
     icon: <GraduationCap className="h-5 w-5" />,
     title: "Professional-accreditation mapping",
-    desc: "Where a course carries professional accreditation — engineering, psychology, nursing, accounting — the framework encodes accreditor competency requirements alongside institutional outcomes.",
+    desc: "Where a course carries professional accreditation. engineering, psychology, nursing, accounting. the framework encodes accreditor competency requirements alongside institutional outcomes.",
   },
   {
     icon: <Fingerprint className="h-5 w-5" />,
     title: "Change with provenance",
-    desc: "When a subject, a course, or a standard changes, the framework diffs against the new source and surfaces every affected outcome, activity, and assessment — with revision history intact.",
+    desc: "When a subject, a course, or a standard changes, the framework diffs against the new source and surfaces every affected outcome, activity, and assessment. with revision history intact.",
   },
 ];
 
@@ -85,11 +85,11 @@ const faq = [
   },
   {
     q: "Can the framework encode both institutional and professional-accreditation outcomes?",
-    a: "Yes. Where a course carries professional accreditation — Engineers Australia, Australian Psychology Accreditation Council, the accountancy bodies, ANMAC — the framework can encode accreditor competency requirements alongside institutional graduate outcomes. Coverage against both is measurable and exportable.",
+    a: "Yes. Where a course carries professional accreditation. Engineers Australia, Australian Psychology Accreditation Council, the accountancy bodies, ANMAC. the framework can encode accreditor competency requirements alongside institutional graduate outcomes. Coverage against both is measurable and exportable.",
   },
   {
     q: "How does the platform support TEQSA re-registration or course accreditation cycles?",
-    a: "Frameworks encode alignment to the Higher Education Standards Framework, and evidence — design, delivery, assessment, monitoring — accumulates by design rather than being manufactured at cycle time. When re-registration approaches, the artefact you present is a framework with clause-level coverage, not a defence reconstructed from disparate sources.",
+    a: "Frameworks encode alignment to the Higher Education Standards Framework, and evidence. design, delivery, assessment, monitoring. accumulates by design rather than being manufactured at cycle time. When re-registration approaches, the artefact you present is a framework with clause-level coverage, not a defence reconstructed from disparate sources.",
   },
   {
     q: "Does the platform claim TEQSA registration or accreditation of its own?",
@@ -111,7 +111,7 @@ const related = [
   {
     eyebrow: "Capability",
     title: "Standards & accreditation",
-    desc: "How alignment to external standards — including the Higher Education Standards Framework and professional accreditation criteria — is treated as a first-class output.",
+    desc: "How alignment to external standards. including the Higher Education Standards Framework and professional accreditation criteria. is treated as a first-class output.",
     href: "/platform/standards-accreditation",
   },
   {

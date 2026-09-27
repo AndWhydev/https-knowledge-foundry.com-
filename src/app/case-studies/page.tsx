@@ -7,7 +7,7 @@ import { CtaBand } from "@/components/solution/cta-band";
 import { Reveal, RevealStagger, RevealItem } from "@/components/motion/reveal";
 
 export const metadata: Metadata = {
-  title: "Case studies — Knowledge Foundry in regulated enterprise",
+  title: "Case studies. Knowledge Foundry in regulated enterprise",
   description:
     "Anonymised case studies showing how Knowledge Foundry rebuilds training frameworks for financial services, healthcare, and critical infrastructure operators.",
 };

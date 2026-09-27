@@ -11,27 +11,27 @@ import { ProseBlock } from "@/components/solution/prose-block";
 import { HeroLattice } from "@/components/hero-lattice";
 
 export const metadata: Metadata = {
-  title: "The Platform — How Knowledge Foundry works",
+  title: "The Platform. How Knowledge Foundry works",
   description:
     "The Knowledge Foundry platform: eight capabilities that turn subjects into structured, verifiable, audit-ready learning systems. Framework first. Content second.",
 };
 
 const capabilities = [
-  { icon: <Compass className="h-5 w-5" />, title: "Framework Intelligence", desc: "The system reads your subject and builds the framework — concepts, relationships, dependencies, assessment logic — before writing begins." },
+  { icon: <Compass className="h-5 w-5" />, title: "Framework Intelligence", desc: "The system reads your subject and builds the framework. concepts, relationships, dependencies, assessment logic. before writing begins." },
   { icon: <FileSearch2 className="h-5 w-5" />, title: "Gap Analysis", desc: "Existing knowledge is compared against the framework. Missing, contradictory, or outdated material is surfaced with source-level precision." },
   { icon: <Layers className="h-5 w-5" />, title: "Remediation", desc: "Gaps close in place. Every change carries provenance: what changed, why, by whom, and against which requirement." },
-  { icon: <GitBranch className="h-5 w-5" />, title: "Knowledge Transformation", desc: "Documents, policies, and standards become a coherent, versioned knowledge system — not a folder of PDFs." },
+  { icon: <GitBranch className="h-5 w-5" />, title: "Knowledge Transformation", desc: "Documents, policies, and standards become a coherent, versioned knowledge system. not a folder of PDFs." },
   { icon: <Fingerprint className="h-5 w-5" />, title: "Verification & Trust", desc: "Capability is confirmed, not just completion. Every assessment ties back to a defined requirement in the framework." },
-  { icon: <ShieldCheck className="h-5 w-5" />, title: "Knowledge Governance", desc: "Ownership, review cadences, deprecation, and drift detection are built into the system — not bolted on." },
+  { icon: <ShieldCheck className="h-5 w-5" />, title: "Knowledge Governance", desc: "Ownership, review cadences, deprecation, and drift detection are built into the system. not bolted on." },
   { icon: <Scale className="h-5 w-5" />, title: "Standards & Accreditation", desc: "Alignment to policy, sector standards, or accrediting bodies is a first-class output, not a compliance afterthought." },
   { icon: <ClipboardCheck className="h-5 w-5" />, title: "Audit & Evidence", desc: "Every decision, review, and version is exportable. When someone asks how you know, the answer is a file." },
-  { icon: <Puzzle className="h-5 w-5" />, title: "Integrations", desc: "The Foundry sits alongside your LMS, HRIS, content stores, and identity provider. Not a replacement — a source of truth." },
+  { icon: <Puzzle className="h-5 w-5" />, title: "Integrations", desc: "The Foundry sits alongside your LMS, HRIS, content stores, and identity provider. Not a replacement. a source of truth." },
   { icon: <Cpu className="h-5 w-5" />, title: "Technical Overview", desc: "Architecture, models, delivery, and data-residency. The technical shape of what you would deploy." },
 ];
 
 const process = [
-  { n: "01", title: "Interpret", desc: "Source material is read for the requirements it implies. Subjects, standards, policies — each yields the shape of what must be known." },
-  { n: "02", title: "Structure", desc: "A framework is authored. Concepts, relationships, progression, and assessment points — all defined before content is written." },
+  { n: "01", title: "Interpret", desc: "Source material is read for the requirements it implies. Subjects, standards, policies. each yields the shape of what must be known." },
+  { n: "02", title: "Structure", desc: "A framework is authored. Concepts, relationships, progression, and assessment points. all defined before content is written." },
   { n: "03", title: "Produce", desc: "Instruction, activities, and verification are generated to match the framework. Every element traces back to a requirement." },
   { n: "04", title: "Deliver", desc: "The program is reviewable, standards-aligned, audit-ready. Full evidence trail. Ongoing governance built in." },
 ];

@@ -17,7 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "Enterprise Learning Modernisation — Modernise what matters, preserve what works",
+  title: "Enterprise Learning Modernisation. Modernise what matters, preserve what works",
   description:
     "Modernise legacy training libraries in place. Preserve institutional knowledge, shield subject-matter experts, and modernise incrementally without learner disruption or rip-and-replace risk.",
 };
@@ -41,17 +41,17 @@ const capabilities = [
   {
     icon: <Layers className="h-5 w-5" />,
     title: "Ecosystem visibility",
-    desc: "Where content lives, who owns it, when it was last reviewed, what it depends on — surfaced as a single portfolio view rather than reconstructed on demand.",
+    desc: "Where content lives, who owns it, when it was last reviewed, what it depends on. surfaced as a single portfolio view rather than reconstructed on demand.",
   },
   {
     icon: <RefreshCcw className="h-5 w-5" />,
     title: "Incremental modernisation",
-    desc: "Modernise at the pace risk demands. A single course, a single standard, a single business unit — each modernisation is scoped and independently deliverable.",
+    desc: "Modernise at the pace risk demands. A single course, a single standard, a single business unit. each modernisation is scoped and independently deliverable.",
   },
   {
     icon: <Gauge className="h-5 w-5" />,
     title: "Corporate governance",
-    desc: "Ironclad ecosystem visibility over time. Ownership, approvals, drift, and integrity operate at portfolio scale — not one course at a time.",
+    desc: "Ironclad ecosystem visibility over time. Ownership, approvals, drift, and integrity operate at portfolio scale. not one course at a time.",
   },
 ];
 
@@ -74,7 +74,7 @@ const steps = [
   {
     n: "04",
     title: "Govern",
-    desc: "Ownership, cadence, drift detection, and release control are attached to the modernised assets — not left to memory or spreadsheet.",
+    desc: "Ownership, cadence, drift detection, and release control are attached to the modernised assets. not left to memory or spreadsheet.",
   },
   {
     n: "05",
@@ -90,15 +90,15 @@ const faq = [
   },
   {
     q: "How do you avoid the classic rip-and-replace failure mode?",
-    a: "Modernisation operates on the existing assets. Structure, outcomes, and learning pathways are preserved by default; weakness is closed in place; regeneration is scoped to specific blocks rather than whole courses. Rip-and-replace is a distinct choice — not the default path.",
+    a: "Modernisation operates on the existing assets. Structure, outcomes, and learning pathways are preserved by default; weakness is closed in place; regeneration is scoped to specific blocks rather than whole courses. Rip-and-replace is a distinct choice. not the default path.",
   },
   {
     q: "What happens to our existing LMS, SharePoint, or content stores?",
-    a: "They remain. Knowledge Foundry sits alongside them as a source of truth for structure, provenance, and integrity — while the modernised assets deploy back into the existing delivery layer via SCORM, structured HTML, or API. Nothing has to be forklifted.",
+    a: "They remain. Knowledge Foundry sits alongside them as a source of truth for structure, provenance, and integrity. while the modernised assets deploy back into the existing delivery layer via SCORM, structured HTML, or API. Nothing has to be forklifted.",
   },
   {
     q: "How long does modernising a legacy library actually take?",
-    a: "It depends on scope, but the operating model is incremental. A single high-risk course can be analysed, remediated, re-verified, and re-released in days. A programme of dozens of courses runs on a rolling cadence — with each modernised asset independently deployable rather than blocked behind a big-bang release.",
+    a: "It depends on scope, but the operating model is incremental. A single high-risk course can be analysed, remediated, re-verified, and re-released in days. A programme of dozens of courses runs on a rolling cadence. with each modernised asset independently deployable rather than blocked behind a big-bang release.",
   },
   {
     q: "Who inside our organisation actually runs this?",
@@ -116,13 +116,13 @@ const related = [
   {
     eyebrow: "Next in sequence",
     title: "Remediation",
-    desc: "The mechanism that closes gaps in place — preserving structure, evidence, and learner familiarity.",
+    desc: "The mechanism that closes gaps in place. preserving structure, evidence, and learner familiarity.",
     href: "/platform/remediation",
   },
   {
     eyebrow: "Adjacent",
     title: "Knowledge governance",
-    desc: "How modernised assets stay modern — ownership, cadence, drift, and release control at portfolio scale.",
+    desc: "How modernised assets stay modern. ownership, cadence, drift, and release control at portfolio scale.",
     href: "/platform/knowledge-governance",
   },
 ];

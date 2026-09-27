@@ -17,7 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "Product Enablement — Structured product mastery, not documentation dumps",
+  title: "Product Enablement. Structured product mastery, not documentation dumps",
   description:
     "Product documentation transformed into structured learning. Capabilities, dependencies, and failure modes taught in the order the product actually requires.",
 };
@@ -26,12 +26,12 @@ const capabilities = [
   {
     icon: <Boxes className="h-5 w-5" />,
     title: "Capability extraction",
-    desc: "Core product capabilities, feature dependencies, and configuration surfaces are extracted from your documentation and modelled as a structured object — not left implicit in a manual.",
+    desc: "Core product capabilities, feature dependencies, and configuration surfaces are extracted from your documentation and modelled as a structured object. not left implicit in a manual.",
   },
   {
     icon: <Workflow className="h-5 w-5" />,
     title: "Critical workflow mapping",
-    desc: "The sequences that matter — onboarding, configuration, integration, escalation — are identified and taught explicitly. Not left to the user to reconstruct from a knowledge base.",
+    desc: "The sequences that matter. onboarding, configuration, integration, escalation. are identified and taught explicitly. Not left to the user to reconstruct from a knowledge base.",
   },
   {
     icon: <AlertTriangle className="h-5 w-5" />,
@@ -41,7 +41,7 @@ const capabilities = [
   {
     icon: <UserCog className="h-5 w-5" />,
     title: "Role-tailored variants",
-    desc: "One approved framework produces adapted programmes for internal engineers, implementation specialists, sales engineers, customer success, and end users — without diverging from source truth.",
+    desc: "One approved framework produces adapted programmes for internal engineers, implementation specialists, sales engineers, customer success, and end users. without diverging from source truth.",
   },
   {
     icon: <BookOpenCheck className="h-5 w-5" />,
@@ -69,7 +69,7 @@ const steps = [
   {
     n: "03",
     title: "Generate role tracks",
-    desc: "Instruction is produced per audience — engineer, implementer, seller, customer, partner — from the same framework. Depth and vocabulary adapt; source truth does not.",
+    desc: "Instruction is produced per audience. engineer, implementer, seller, customer, partner. from the same framework. Depth and vocabulary adapt; source truth does not.",
   },
   {
     n: "04",
@@ -81,11 +81,11 @@ const steps = [
 const faq = [
   {
     q: "How is this different from a knowledge base or a documentation portal?",
-    a: "A knowledge base assumes the user knows what to look for. The Foundry starts one level up: it extracts, from the same source documentation, the structure the user must acquire to use the product correctly — and generates guided instruction to build that structure. The knowledge base remains a reference; the enablement programme is the path.",
+    a: "A knowledge base assumes the user knows what to look for. The Foundry starts one level up: it extracts, from the same source documentation, the structure the user must acquire to use the product correctly. and generates guided instruction to build that structure. The knowledge base remains a reference; the enablement programme is the path.",
   },
   {
     q: "Can we generate distinct programmes for internal teams and external customers?",
-    a: "Yes. One approved framework can produce an internal engineering programme, an implementation-partner track, a sales-engineer briefing, and an end-user onboarding — each with role-appropriate depth. The underlying capability model stays identical; the instructional expression adapts.",
+    a: "Yes. One approved framework can produce an internal engineering programme, an implementation-partner track, a sales-engineer briefing, and an end-user onboarding. each with role-appropriate depth. The underlying capability model stays identical; the instructional expression adapts.",
   },
   {
     q: "What happens when the product ships a breaking change?",
@@ -97,7 +97,7 @@ const faq = [
   },
   {
     q: "Can this support hardware and industrial systems, or is it software-only?",
-    a: "It is capability-agnostic. Wherever the product has documented operations, configurable states, and failure modes — hardware, industrial systems, medical devices, or software — the same framework discipline applies.",
+    a: "It is capability-agnostic. Wherever the product has documented operations, configurable states, and failure modes. hardware, industrial systems, medical devices, or software. the same framework discipline applies.",
   },
 ];
 
@@ -117,7 +117,7 @@ const related = [
   {
     eyebrow: "Sector",
     title: "Financial services",
-    desc: "Product knowledge for relationship managers under RG146 licensing — evidenced against the standard.",
+    desc: "Product knowledge for relationship managers under RG146 licensing. evidenced against the standard.",
     href: "/industries/financial-services",
   },
 ];

@@ -9,7 +9,7 @@ import {
 } from "@/components/layouts/editorial-article";
 
 export const metadata: Metadata = {
-  title: "A primer on hybrid verification — Knowledge Foundry",
+  title: "A primer on hybrid verification. Knowledge Foundry",
   description:
     "What hybrid verification is, why it produces defensible evidence, and where it is the wrong instrument. A practical primer for compliance and L&D leaders.",
 };
@@ -75,7 +75,7 @@ export default function Page() {
       </EditorialP>
       <EditorialList items={[
         <><strong>Knowledge component.</strong> Structured, scenario-embedded assessment of the concepts the framework requires. Not a bank of decontextualised multiple choice items, and not a proxy for competence on its own.</>,
-        <><strong>Applied judgement component.</strong> Situational scenarios that require the learner to make a decision in context, judged against a rubric derived from the framework — not from author intuition.</>,
+        <><strong>Applied judgement component.</strong> Situational scenarios that require the learner to make a decision in context, judged against a rubric derived from the framework. not from author intuition.</>,
         <><strong>Observed performance component.</strong> Where the competency is behavioural or safety-critical, a structured observation event, checklist-driven, signed by a supervisor with the authority to sign.</>,
       ]} />
 

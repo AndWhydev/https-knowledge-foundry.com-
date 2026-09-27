@@ -17,9 +17,9 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "Knowledge Governance — Human oversight, machine assistance",
+  title: "Knowledge Governance. Human oversight, machine assistance",
   description:
-    "Ownership, review cadences, approval gates, and drift detection are embedded in the workflow — not bolted on. Automation without governance is risk. Governance is the discipline that turns speed into confidence.",
+    "Ownership, review cadences, approval gates, and drift detection are embedded in the workflow. not bolted on. Automation without governance is risk. Governance is the discipline that turns speed into confidence.",
 };
 
 const capabilities = [
@@ -31,7 +31,7 @@ const capabilities = [
   {
     icon: <ShieldCheck className="h-5 w-5" />,
     title: "Approval gates",
-    desc: "Content passes through defined stages — review, approval, release — before it becomes operational. Generation does not imply publication.",
+    desc: "Content passes through defined stages. review, approval, release. before it becomes operational. Generation does not imply publication.",
   },
   {
     icon: <FileClock className="h-5 w-5" />,
@@ -41,7 +41,7 @@ const capabilities = [
   {
     icon: <GitBranch className="h-5 w-5" />,
     title: "Version chains",
-    desc: "Every revision is captured in a structured version chain — reversible, comparable, and referenced by hash rather than filename.",
+    desc: "Every revision is captured in a structured version chain. reversible, comparable, and referenced by hash rather than filename.",
   },
   {
     icon: <BellRing className="h-5 w-5" />,
@@ -69,7 +69,7 @@ const steps = [
   {
     n: "03",
     title: "Audit chains",
-    desc: "Every change is cleanly recorded — what changed, who reviewed, when. Absolute visibility into how content evolved between versions.",
+    desc: "Every change is cleanly recorded. what changed, who reviewed, when. Absolute visibility into how content evolved between versions.",
   },
   {
     n: "04",
@@ -81,7 +81,7 @@ const steps = [
 const faq = [
   {
     q: "How is this different from a workflow tool like Jira or an approval column in a spreadsheet?",
-    a: "A workflow tool tracks that an approval happened. Knowledge Governance ties the approval to the content itself — every version has a cryptographic hash, every approver has a signed record, every reviewed block is comparable to its previous state. The approval and the artefact are inseparable.",
+    a: "A workflow tool tracks that an approval happened. Knowledge Governance ties the approval to the content itself. every version has a cryptographic hash, every approver has a signed record, every reviewed block is comparable to its previous state. The approval and the artefact are inseparable.",
   },
   {
     q: "Who owns what, and how is that enforced?",
@@ -93,7 +93,7 @@ const faq = [
   },
   {
     q: "Can we prove governance to an external auditor?",
-    a: "Yes. Governance produces an evidence pack: ownership records, approval trails, version chains, hash proofs, and drift resolutions. Every artefact is timestamped, signed, and exportable — designed for scrutiny rather than for internal comfort.",
+    a: "Yes. Governance produces an evidence pack: ownership records, approval trails, version chains, hash proofs, and drift resolutions. Every artefact is timestamped, signed, and exportable. designed for scrutiny rather than for internal comfort.",
   },
   {
     q: "Do you replace our existing governance boards or approval committees?",
@@ -101,7 +101,7 @@ const faq = [
   },
   {
     q: "What stops someone from bypassing the gates?",
-    a: "The gates are enforced at the system level, not at the process level. Release actions require the corresponding role and produce a signed record. There is no 'publish and clean up later' path — and any attempt to alter approved content changes its hash, which is immediately visible.",
+    a: "The gates are enforced at the system level, not at the process level. Release actions require the corresponding role and produce a signed record. There is no 'publish and clean up later' path. and any attempt to alter approved content changes its hash, which is immediately visible.",
   },
 ];
 
@@ -109,7 +109,7 @@ const related = [
   {
     eyebrow: "Foundation",
     title: "Verification & Trust",
-    desc: "Foundry Hash, Master Integrity Root, Forensic Revision Chain — the technical spine governance rides on.",
+    desc: "Foundry Hash, Master Integrity Root, Forensic Revision Chain. the technical spine governance rides on.",
     href: "/platform/verification-trust",
   },
   {

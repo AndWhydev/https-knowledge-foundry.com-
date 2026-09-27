@@ -17,9 +17,9 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "Government & Defence — Cleared workforce enablement with auditable evidence",
+  title: "Government & Defence. Cleared workforce enablement with auditable evidence",
   description:
-    "IRAP-conscious deployment, cleared workforce training, and export-control-adjacent instruction. Every module, every assessment, every decision — exportable evidence.",
+    "IRAP-conscious deployment, cleared workforce training, and export-control-adjacent instruction. Every module, every assessment, every decision. exportable evidence.",
 };
 
 const capabilities = [
@@ -31,7 +31,7 @@ const capabilities = [
   {
     icon: <Users className="h-5 w-5" />,
     title: "Cleared workforce enablement",
-    desc: "Programmes structured for cleared personnel — mandatory security training, protective marking handling, insider-threat awareness — with role-tagged coverage and evidenced completion.",
+    desc: "Programmes structured for cleared personnel. mandatory security training, protective marking handling, insider-threat awareness. with role-tagged coverage and evidenced completion.",
   },
   {
     icon: <ScrollText className="h-5 w-5" />,
@@ -41,7 +41,7 @@ const capabilities = [
   {
     icon: <ShieldCheck className="h-5 w-5" />,
     title: "Export-control-adjacent training",
-    desc: "For programmes that touch export-controlled technical data — DTC obligations, ITAR-adjacent workflows — the framework enforces authorship boundaries and evidences access-limited delivery.",
+    desc: "For programmes that touch export-controlled technical data. DTC obligations, ITAR-adjacent workflows. the framework enforces authorship boundaries and evidences access-limited delivery.",
   },
   {
     icon: <FileCheck2 className="h-5 w-5" />,
@@ -51,7 +51,7 @@ const capabilities = [
   {
     icon: <Fingerprint className="h-5 w-5" />,
     title: "Multi-classification variants",
-    desc: "Where the same programme runs across classifications or across coalition partners, variants live on one framework — governance stays central, environment-specific expression is controlled.",
+    desc: "Where the same programme runs across classifications or across coalition partners, variants live on one framework. governance stays central, environment-specific expression is controlled.",
   },
 ];
 
@@ -85,7 +85,7 @@ const faq = [
   },
   {
     q: "Can this support training that touches export-controlled technical data?",
-    a: "Where programmes touch export-controlled data — Defence Trade Controls Act obligations or ITAR-adjacent workflows — the framework enforces authorship boundaries and controls delivery to access-authorised individuals. The evidence trail supports external review by the relevant export-control authority.",
+    a: "Where programmes touch export-controlled data. Defence Trade Controls Act obligations or ITAR-adjacent workflows. the framework enforces authorship boundaries and controls delivery to access-authorised individuals. The evidence trail supports external review by the relevant export-control authority.",
   },
   {
     q: "How does the platform support PSPF and ISM alignment?",
@@ -93,7 +93,7 @@ const faq = [
   },
   {
     q: "What happens with a machinery-of-government change or a policy update?",
-    a: "When source documents update — a PSPF revision, an ISM update, an agency policy change, a machinery-of-government reshuffle — the system re-parses the source and diffs against the existing framework. Affected obligations and modules are surfaced explicitly so remediation is targeted, not wholesale.",
+    a: "When source documents update. a PSPF revision, an ISM update, an agency policy change, a machinery-of-government reshuffle. the system re-parses the source and diffs against the existing framework. Affected obligations and modules are surfaced explicitly so remediation is targeted, not wholesale.",
   },
   {
     q: "Can the platform be deployed in a protected environment?",
@@ -105,19 +105,19 @@ const related = [
   {
     eyebrow: "Program",
     title: "Compliance programs",
-    desc: "The program model for translating policy instruments — including PSPF, ISM, and agency directives — into structured behavioural adherence.",
+    desc: "The program model for translating policy instruments. including PSPF, ISM, and agency directives. into structured behavioural adherence.",
     href: "/programs/compliance",
   },
   {
     eyebrow: "Capability",
     title: "Audit & evidence",
-    desc: "How evidence packs are constructed, versioned, and exported for external review — including ANAO performance audit and parliamentary scrutiny.",
+    desc: "How evidence packs are constructed, versioned, and exported for external review. including ANAO performance audit and parliamentary scrutiny.",
     href: "/platform/audit-evidence",
   },
   {
     eyebrow: "Capability",
     title: "Standards & accreditation",
-    desc: "How alignment to external standards and policy instruments is treated as a first-class output — not a compliance afterthought.",
+    desc: "How alignment to external standards and policy instruments is treated as a first-class output. not a compliance afterthought.",
     href: "/platform/standards-accreditation",
   },
 ];

@@ -2,11 +2,11 @@ import Image from "next/image";
 import { cn } from "@/lib/cn";
 
 const captions: Record<string, { alt: string; width: number; height: number }> = {
-  "editorial-hero.png": { alt: "Isometric pyramid of dark charcoal cubes with a molten orange cube at the apex — Knowledge Foundry framework visualisation.", width: 1792, height: 1024 },
-  "editorial-blueprint.png": { alt: "Grid of dark charcoal cubes on cream architectural blueprint, with three cubes glowing molten orange — knowledge framework schematic.", width: 1792, height: 1024 },
-  "editorial-transformation.png": { alt: "Stack of dark charcoal document blocks transforming into an interconnected network of floating cubes — knowledge transformation illustration.", width: 1792, height: 1024 },
-  "editorial-governance.png": { alt: "Isometric dashboard tiles rendered as physical charcoal objects with data visualisations, one glowing orange — knowledge governance illustration.", width: 1792, height: 1024 },
-  "editorial-evidence.png": { alt: "Archival grid of dark charcoal document blocks with orange seals and a magnifying glass — audit and evidence illustration.", width: 1792, height: 1024 },
+  "editorial-hero.png": { alt: "Isometric pyramid of dark charcoal cubes with a molten orange cube at the apex. Knowledge Foundry framework visualisation.", width: 1792, height: 1024 },
+  "editorial-blueprint.png": { alt: "Grid of dark charcoal cubes on cream architectural blueprint, with three cubes glowing molten orange. knowledge framework schematic.", width: 1792, height: 1024 },
+  "editorial-transformation.png": { alt: "Stack of dark charcoal document blocks transforming into an interconnected network of floating cubes. knowledge transformation illustration.", width: 1792, height: 1024 },
+  "editorial-governance.png": { alt: "Isometric dashboard tiles rendered as physical charcoal objects with data visualisations, one glowing orange. knowledge governance illustration.", width: 1792, height: 1024 },
+  "editorial-evidence.png": { alt: "Archival grid of dark charcoal document blocks with orange seals and a magnifying glass. audit and evidence illustration.", width: 1792, height: 1024 },
 };
 
 export function EditorialStill({

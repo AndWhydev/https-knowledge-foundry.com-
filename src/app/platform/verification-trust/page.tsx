@@ -17,7 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "Verification & Trust — Why you can rely on it",
+  title: "Verification & Trust. Why you can rely on it",
   description:
     "Frameworks are defined, reviewed, controlled, and human-approved before content reaches delivery. Every block carries a Foundry Hash. Every programme carries a Master Integrity Root.",
 };
@@ -26,12 +26,12 @@ const capabilities = [
   {
     icon: <Boxes className="h-5 w-5" />,
     title: "Structure before wording",
-    desc: "Formal frameworks — chapters, sections, must-teach requirements, assessment points — are defined and locked before any content is generated.",
+    desc: "Formal frameworks. chapters, sections, must-teach requirements, assessment points. are defined and locked before any content is generated.",
   },
   {
     icon: <ScrollText className="h-5 w-5" />,
     title: "Block-level reviewability",
-    desc: "Nothing is hidden. Reviewers evaluate discrete, typed blocks — navigational, instructional, simulation, assessment — with complete transparency.",
+    desc: "Nothing is hidden. Reviewers evaluate discrete, typed blocks. navigational, instructional, simulation, assessment. with complete transparency.",
   },
   {
     icon: <Radar className="h-5 w-5" />,
@@ -59,7 +59,7 @@ const steps = [
   {
     n: "01",
     title: "Structure is defined",
-    desc: "The framework — must-teach requirements, prerequisites, assessment points, standards alignment — is authored, reviewed, and locked before generation begins.",
+    desc: "The framework. must-teach requirements, prerequisites, assessment points, standards alignment. is authored, reviewed, and locked before generation begins.",
   },
   {
     n: "02",
@@ -69,7 +69,7 @@ const steps = [
   {
     n: "03",
     title: "Blocks enter the Review Queue",
-    desc: "A human reviewer sees exactly what they are evaluating — block by block. Approve, revise, regenerate, or reject. Nothing publishes automatically.",
+    desc: "A human reviewer sees exactly what they are evaluating. block by block. Approve, revise, regenerate, or reject. Nothing publishes automatically.",
   },
   {
     n: "04",
@@ -81,7 +81,7 @@ const steps = [
 const faq = [
   {
     q: "What exactly does the Foundry Hash prove?",
-    a: "It proves that a given block of content is byte-for-byte identical to the version that was approved. If a single character changes anywhere in the block, the hash changes. Recipients — auditors, learners, downstream systems — can independently confirm that what they hold matches what was released.",
+    a: "It proves that a given block of content is byte-for-byte identical to the version that was approved. If a single character changes anywhere in the block, the hash changes. Recipients. auditors, learners, downstream systems. can independently confirm that what they hold matches what was released.",
   },
   {
     q: "How does the Master Integrity Root work at the programme level?",
@@ -97,7 +97,7 @@ const faq = [
   },
   {
     q: "Do we get to see the framework, or is it a black box?",
-    a: "You see the framework. It is human-readable in the Foundry, exportable to JSON, XML, or a spreadsheet, and reviewable at every stage of authoring and revision. The anti-'black box' stance is not marketing language — it is a load-bearing architectural principle.",
+    a: "You see the framework. It is human-readable in the Foundry, exportable to JSON, XML, or a spreadsheet, and reviewable at every stage of authoring and revision. The anti-'black box' stance is not marketing language. it is a load-bearing architectural principle.",
   },
   {
     q: "Can auditors verify integrity without access to the platform?",
@@ -109,7 +109,7 @@ const related = [
   {
     eyebrow: "Adjacent",
     title: "Knowledge governance",
-    desc: "Ownership, review cadence, deprecation, and drift detection — the operating model behind the release gate.",
+    desc: "Ownership, review cadence, deprecation, and drift detection. the operating model behind the release gate.",
     href: "/platform/knowledge-governance",
   },
   {

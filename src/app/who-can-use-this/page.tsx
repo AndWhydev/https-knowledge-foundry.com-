@@ -17,7 +17,7 @@ import { Container, Section, Eyebrow } from "@/components/ui/container";
 import { Reveal, RevealStagger, RevealItem } from "@/components/motion/reveal";
 
 export const metadata: Metadata = {
-  title: "Who this is for — Buyer profiles",
+  title: "Who this is for. Buyer profiles",
   description:
     "Knowledge Foundry is built for senior owners of programmes that must be defensible. Compliance leads, L&D directors, chief risk officers, chief medical officers, heads of clinical education, safety, and talent.",
 };

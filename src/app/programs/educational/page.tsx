@@ -17,7 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "Educational Programs — Structured for understanding, not attendance",
+  title: "Educational Programs. Structured for understanding, not attendance",
   description:
     "Subjects mapped into structured curricula. Progression is deliberate, assessment is integrated, and coverage is systematic. Every module traces back to a defined outcome.",
 };
@@ -26,17 +26,17 @@ const capabilities = [
   {
     icon: <Compass className="h-5 w-5" />,
     title: "Subject boundaries",
-    desc: "What is in scope, what is out, and where the edges of the subject sit — defined explicitly so authors, reviewers, and learners are working from the same foundation.",
+    desc: "What is in scope, what is out, and where the edges of the subject sit. defined explicitly so authors, reviewers, and learners are working from the same foundation.",
   },
   {
     icon: <Network className="h-5 w-5" />,
     title: "Prerequisite chains",
-    desc: "Dependencies between concepts are modelled, not implied. Learners meet material in the order the subject actually requires — not in the order a paragraph happens to arrive.",
+    desc: "Dependencies between concepts are modelled, not implied. Learners meet material in the order the subject actually requires. not in the order a paragraph happens to arrive.",
   },
   {
     icon: <Layers3 className="h-5 w-5" />,
     title: "Bloom-aligned progression",
-    desc: "Every structural block is tagged to a cognitive level — from remember through create — so difficulty is matched to the learner's stage of mastery, not the author's assumption.",
+    desc: "Every structural block is tagged to a cognitive level. from remember through create. so difficulty is matched to the learner's stage of mastery, not the author's assumption.",
   },
   {
     icon: <Target className="h-5 w-5" />,
@@ -46,7 +46,7 @@ const capabilities = [
   {
     icon: <BookOpen className="h-5 w-5" />,
     title: "Multi-cohort variants",
-    desc: "One approved framework produces tailored editions for age cohorts, professional levels, or accreditation streams — without re-authoring the underlying knowledge.",
+    desc: "One approved framework produces tailored editions for age cohorts, professional levels, or accreditation streams. without re-authoring the underlying knowledge.",
   },
   {
     icon: <GaugeCircle className="h-5 w-5" />,
@@ -59,7 +59,7 @@ const steps = [
   {
     n: "01",
     title: "Interpret the subject",
-    desc: "Source material — syllabi, textbooks, subject-matter expert notes, prior curriculum — is read for the concepts, dependencies, and competencies it implies.",
+    desc: "Source material. syllabi, textbooks, subject-matter expert notes, prior curriculum. is read for the concepts, dependencies, and competencies it implies.",
   },
   {
     n: "02",
@@ -69,7 +69,7 @@ const steps = [
   {
     n: "03",
     title: "Generate instruction",
-    desc: "Once the educator approves the framework, instructional material is produced to fit — lessons, activities, worked examples, formative and summative assessment.",
+    desc: "Once the educator approves the framework, instructional material is produced to fit. lessons, activities, worked examples, formative and summative assessment.",
   },
   {
     n: "04",
@@ -84,8 +84,8 @@ const faq = [
     a: "Authoring tools capture what an author decides to write. The Foundry starts one level up: it extracts from your source material what a learner must understand to be competent, and represents that as a structured framework separate from the lessons that will later teach it. The framework outlives any single course, revision, or author.",
   },
   {
-    q: "Can we align to a formal syllabus — Common Core, GCSE, HSC, or a national curriculum?",
-    a: "Yes. The framework can carry alignment metadata against any outcome-based syllabus. Every module and assessment point traces back to the specific outcome statement it is teaching, so accreditation review becomes a report — not a rebuild.",
+    q: "Can we align to a formal syllabus. Common Core, GCSE, HSC, or a national curriculum?",
+    a: "Yes. The framework can carry alignment metadata against any outcome-based syllabus. Every module and assessment point traces back to the specific outcome statement it is teaching, so accreditation review becomes a report. not a rebuild.",
   },
   {
     q: "What role does the educator play?",
@@ -93,7 +93,7 @@ const faq = [
   },
   {
     q: "Does it work for both foundational and highly specialised subjects?",
-    a: "Yes. The system is subject-agnostic. Whether the material is primary literacy or advanced clinical diagnostics, the underlying discipline — define structure, then generate instruction to fit — is the same. What varies is the depth and vocabulary of the framework.",
+    a: "Yes. The system is subject-agnostic. Whether the material is primary literacy or advanced clinical diagnostics, the underlying discipline. define structure, then generate instruction to fit. is the same. What varies is the depth and vocabulary of the framework.",
   },
   {
     q: "Can we produce multiple versions of the same programme for different cohorts?",
@@ -111,7 +111,7 @@ const related = [
   {
     eyebrow: "Adjacent",
     title: "Hybrid verification",
-    desc: "Where educational programmes need demonstrable capability — certification pathways, applied competency — verification pairs with instruction.",
+    desc: "Where educational programmes need demonstrable capability. certification pathways, applied competency. verification pairs with instruction.",
     href: "/programs/hybrid-verification",
   },
   {

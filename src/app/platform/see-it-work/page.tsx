@@ -21,9 +21,9 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "See It Work — Knowledge Foundry, on camera",
+  title: "See It Work. Knowledge Foundry, on camera",
   description:
-    "Short, focused walkthroughs of what Knowledge Foundry does — anchored to business outcomes rather than under-the-hood technology. Start with the overview, or jump to the question you care about.",
+    "Short, focused walkthroughs of what Knowledge Foundry does. anchored to business outcomes rather than under-the-hood technology. Start with the overview, or jump to the question you care about.",
 };
 
 const walkthroughs = [
@@ -35,12 +35,12 @@ const walkthroughs = [
   {
     icon: <SplitSquareHorizontal className="h-5 w-5" />,
     title: "Before and after",
-    desc: "Two to three minutes. The operating-model shift — content-first to structure-first — in under three minutes.",
+    desc: "Two to three minutes. The operating-model shift. content-first to structure-first. in under three minutes.",
   },
   {
     icon: <FileText className="h-5 w-5" />,
     title: "From a document to live",
-    desc: "Four to six minutes. An existing PDF, SOP, or slide deck becomes a governed live programme — start to finish, on real material.",
+    desc: "Four to six minutes. An existing PDF, SOP, or slide deck becomes a governed live programme. start to finish, on real material.",
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
@@ -60,7 +60,7 @@ const walkthroughs = [
   {
     icon: <UserSquare2 className="h-5 w-5" />,
     title: "Learner experience",
-    desc: "Three to five minutes. What your people actually see and do — the delivery surface, not the authoring surface.",
+    desc: "Three to five minutes. What your people actually see and do. the delivery surface, not the authoring surface.",
   },
   {
     icon: <Sparkles className="h-5 w-5" />,
@@ -70,12 +70,12 @@ const walkthroughs = [
   {
     icon: <Users className="h-5 w-5" />,
     title: "Role lenses",
-    desc: "Four to five minutes. One Console, different front doors — how L&D, compliance, and subject-matter experts see the same programme differently.",
+    desc: "Four to five minutes. One Console, different front doors. how L&D, compliance, and subject-matter experts see the same programme differently.",
   },
   {
     icon: <Ruler className="h-5 w-5" />,
     title: "Standards and scaffold",
-    desc: "Two to three minutes. Optional depth for standards-aligned programmes. Most programmes never need this — the ones that do, need it absolutely.",
+    desc: "Two to three minutes. Optional depth for standards-aligned programmes. Most programmes never need this. the ones that do, need it absolutely.",
   },
 ];
 
@@ -83,12 +83,12 @@ const steps = [
   {
     n: "01",
     title: "Start with the overview",
-    desc: "Six to nine minutes. The whole shape — inputs, framework, generation, review, release — in one sitting.",
+    desc: "Six to nine minutes. The whole shape. inputs, framework, generation, review, release. in one sitting.",
   },
   {
     n: "02",
     title: "Jump to the question you care about",
-    desc: "Each walkthrough is scoped to a single concern — evidence, review, deployment, learner experience. Watch what applies.",
+    desc: "Each walkthrough is scoped to a single concern. evidence, review, deployment, learner experience. Watch what applies.",
   },
   {
     n: "03",
@@ -100,19 +100,19 @@ const steps = [
 const faq = [
   {
     q: "Are these live product tours or edited marketing videos?",
-    a: "Live product walkthroughs. Every clip shows the actual platform operating on real material — not a designed mockup, not a re-enactment. Some editing is applied to remove waiting time and to caption specific screen elements. The system behaviour is unedited.",
+    a: "Live product walkthroughs. Every clip shows the actual platform operating on real material. not a designed mockup, not a re-enactment. Some editing is applied to remove waiting time and to caption specific screen elements. The system behaviour is unedited.",
   },
   {
     q: "Do we need to watch all of them?",
-    a: "No. The Platform Overview covers the whole system in one sitting. Every other walkthrough is scoped to a single concern — review, evidence, learner experience, deployment shape. Watch the ones that map to your evaluation criteria and skip the rest.",
+    a: "No. The Platform Overview covers the whole system in one sitting. Every other walkthrough is scoped to a single concern. review, evidence, learner experience, deployment shape. Watch the ones that map to your evaluation criteria and skip the rest.",
   },
   {
     q: "Are the walkthroughs relevant if we run a heavily regulated environment?",
-    a: "Yes — the Assurance and Release, Audit Evidence Pack, and Standards and Scaffold walkthroughs are specifically for regulated evaluation. They cover the Review Queue, Foundry Hash, Master Integrity Root, and the exportable evidence trail.",
+    a: "Yes. the Assurance and Release, Audit Evidence Pack, and Standards and Scaffold walkthroughs are specifically for regulated evaluation. They cover the Review Queue, Foundry Hash, Master Integrity Root, and the exportable evidence trail.",
   },
   {
     q: "Can we get a demonstration on our own subject rather than the sample material?",
-    a: "Yes, and this is the recommended next step. A working session runs 45 minutes on a real subject or programme you own. You watch the Foundry interpret, structure, and produce on your material, and you keep the framework it creates — no obligation.",
+    a: "Yes, and this is the recommended next step. A working session runs 45 minutes on a real subject or programme you own. You watch the Foundry interpret, structure, and produce on your material, and you keep the framework it creates. no obligation.",
   },
   {
     q: "What if we want a deeper technical walkthrough than these clips cover?",
@@ -124,13 +124,13 @@ const related = [
   {
     eyebrow: "Foundation",
     title: "The platform overview",
-    desc: "The full shape of the system — read the eight capabilities that the walkthroughs demonstrate.",
+    desc: "The full shape of the system. read the eight capabilities that the walkthroughs demonstrate.",
     href: "/platform",
   },
   {
     eyebrow: "Adjacent",
     title: "Framework Intelligence",
-    desc: "The starting move in every walkthrough — structure before wording, framework before content.",
+    desc: "The starting move in every walkthrough. structure before wording, framework before content.",
     href: "/platform/framework-intelligence",
   },
   {

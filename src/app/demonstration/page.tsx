@@ -9,15 +9,15 @@ import { DemonstrationForm } from "./form";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Request a demonstration — Knowledge Foundry",
+  title: "Request a demonstration. Knowledge Foundry",
   description:
-    "Bring a subject. Leave with a framework. A 45-minute working session on a real programme you own — you see the platform operate on your material and keep what it produces.",
+    "Bring a subject. Leave with a framework. A 45-minute working session on a real programme you own. you see the platform operate on your material and keep what it produces.",
 };
 
 const bring = [
   {
     title: "A subject or programme you already own",
-    desc: "A policy, standard, protocol, procedure, or existing training corpus. It does not need to be tidy — the platform is built to work on messy source.",
+    desc: "A policy, standard, protocol, procedure, or existing training corpus. It does not need to be tidy. the platform is built to work on messy source.",
   },
   {
     title: "One senior owner in the room",
@@ -32,7 +32,7 @@ const bring = [
 const leaveWith = [
   {
     title: "A working framework on your material",
-    desc: "The Knowledge Foundry framework produced from your source — concept nodes, relationships, assessment logic, and provenance links back to the sentence that implies each requirement.",
+    desc: "The Knowledge Foundry framework produced from your source. concept nodes, relationships, assessment logic, and provenance links back to the sentence that implies each requirement.",
   },
   {
     title: "The gap picture",

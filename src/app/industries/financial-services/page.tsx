@@ -17,7 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "Financial Services — APRA, ASIC, and licensing training that defends itself",
+  title: "Financial Services. APRA, ASIC, and licensing training that defends itself",
   description:
     "CPS 234, RG146, product knowledge, and conduct obligations mapped at clause level. Programme evidence structured for APRA review, ASIC surveillance, and internal audit.",
 };
@@ -26,7 +26,7 @@ const capabilities = [
   {
     icon: <Scale className="h-5 w-5" />,
     title: "CPS 234 aligned frameworks",
-    desc: "Information security training and role responsibilities mapped to APRA CPS 234 clauses — from information asset identification through incident response — with evidence surfaced per role.",
+    desc: "Information security training and role responsibilities mapped to APRA CPS 234 clauses. from information asset identification through incident response. with evidence surfaced per role.",
   },
   {
     icon: <UserCog className="h-5 w-5" />,
@@ -36,7 +36,7 @@ const capabilities = [
   {
     icon: <Banknote className="h-5 w-5" />,
     title: "Product-knowledge variants",
-    desc: "One approved framework produces role-appropriate product training for relationship managers, advisers, mortgage brokers, and treasury staff — without duplicating the underlying product taxonomy.",
+    desc: "One approved framework produces role-appropriate product training for relationship managers, advisers, mortgage brokers, and treasury staff. without duplicating the underlying product taxonomy.",
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
@@ -64,7 +64,7 @@ const steps = [
   {
     n: "02",
     title: "Map to roles",
-    desc: "Obligations are tagged to specific regulated roles — advisers, brokers, executives, product owners — with competency thresholds defined per role.",
+    desc: "Obligations are tagged to specific regulated roles. advisers, brokers, executives, product owners. with competency thresholds defined per role.",
   },
   {
     n: "03",
@@ -74,22 +74,22 @@ const steps = [
   {
     n: "04",
     title: "Evidence continuously",
-    desc: "Training is delivered through your existing LMS. Evidence — framework version, coverage, assessment history, sign-offs — accumulates in a form ready for APRA review or internal audit.",
+    desc: "Training is delivered through your existing LMS. Evidence. framework version, coverage, assessment history, sign-offs. accumulates in a form ready for APRA review or internal audit.",
   },
 ];
 
 const faq = [
   {
     q: "How does this help us with a CPS 234 attestation?",
-    a: "CPS 234 requires that individuals in specified roles have the capability to fulfil their information security responsibilities. The framework encodes those responsibilities per role, produces training and assessment against them, and evidences competency at the individual level. When the board signs the annual attestation, the underlying evidence is a structured artefact — not a promise from L&D.",
+    a: "CPS 234 requires that individuals in specified roles have the capability to fulfil their information security responsibilities. The framework encodes those responsibilities per role, produces training and assessment against them, and evidences competency at the individual level. When the board signs the annual attestation, the underlying evidence is a structured artefact. not a promise from L&D.",
   },
   {
     q: "Can you support RG146 initial and continuing competency across product tiers?",
     a: "Yes. The framework can encode Tier 1 and Tier 2 requirements per product category and per role. Initial competency, ongoing CPD, and knowledge refresh for product changes all draw from the same framework, and evidence is exportable in the format your licensee register or AFSL compliance function requires.",
   },
   {
-    q: "We are subject to overlapping regimes — APRA, ASIC, ASX, and internal risk policy. How does the platform handle that?",
-    a: "One framework can carry multiple regimes and surface conflicts, redundancies, and orphaned clauses. Where a role sits under overlapping obligations — a licensed executive who is also a CPS 234 accountable person — the framework produces one coherent programme that satisfies both, rather than two overlapping courses.",
+    q: "We are subject to overlapping regimes. APRA, ASIC, ASX, and internal risk policy. How does the platform handle that?",
+    a: "One framework can carry multiple regimes and surface conflicts, redundancies, and orphaned clauses. Where a role sits under overlapping obligations. a licensed executive who is also a CPS 234 accountable person. the framework produces one coherent programme that satisfies both, rather than two overlapping courses.",
   },
   {
     q: "Do you make claims about certification against APRA or ASIC standards?",

@@ -7,7 +7,7 @@ import { CtaBand } from "@/components/solution/cta-band";
 import { Reveal, RevealStagger, RevealItem } from "@/components/motion/reveal";
 
 export const metadata: Metadata = {
-  title: "Insights — Structured knowledge and audit-defensible training",
+  title: "Insights. Structured knowledge and audit-defensible training",
   description:
     "Long-form arguments on framework-first design, hybrid verification, audit defence, and the provenance problem in AI-generated compliance training.",
 };
@@ -82,7 +82,7 @@ const articles: Article[] = [
     href: "/insights/ai-generated-content-and-compliance-risk",
     topic: "Provenance",
     title: "AI-generated content and compliance risk.",
-    dek: "The provenance problem. Why cryptographic evidence — Foundry Hash, Master Integrity Root, Forensic Revision Chain — matters for regulated buyers.",
+    dek: "The provenance problem. Why cryptographic evidence. Foundry Hash, Master Integrity Root, Forensic Revision Chain. matters for regulated buyers.",
     date: "December 2025",
     read: "9 min",
   },

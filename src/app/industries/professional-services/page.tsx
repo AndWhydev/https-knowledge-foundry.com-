@@ -17,7 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "Professional Services — CPD architecture and firm-wide technical uplift",
+  title: "Professional Services. CPD architecture and firm-wide technical uplift",
   description:
     "Structured CPD, firm-wide technical uplift, and sector-standard alignment for accounting, legal, engineering, and consulting practices. Evidence, not attendance.",
 };
@@ -26,7 +26,7 @@ const capabilities = [
   {
     icon: <BookMarked className="h-5 w-5" />,
     title: "CPD architecture",
-    desc: "CPD programmes structured to professional-body expectations — CA ANZ, CPA, Law Societies, Engineers Australia — with hours, categories, and outcome mapping evidenced per practitioner.",
+    desc: "CPD programmes structured to professional-body expectations. CA ANZ, CPA, Law Societies, Engineers Australia. with hours, categories, and outcome mapping evidenced per practitioner.",
   },
   {
     icon: <Users className="h-5 w-5" />,
@@ -36,7 +36,7 @@ const capabilities = [
   {
     icon: <Scale className="h-5 w-5" />,
     title: "Sector standard alignment",
-    desc: "Alignment to sector standards — auditing standards, ethical rulings, code of conduct, technical guidelines — encoded at clause level and evidenced through instruction and assessment.",
+    desc: "Alignment to sector standards. auditing standards, ethical rulings, code of conduct, technical guidelines. encoded at clause level and evidenced through instruction and assessment.",
   },
   {
     icon: <Briefcase className="h-5 w-5" />,
@@ -46,12 +46,12 @@ const capabilities = [
   {
     icon: <BadgeCheck className="h-5 w-5" />,
     title: "Grade-based progression",
-    desc: "Technical competency mapped to grade — analyst, senior, manager, partner — with progression thresholds defined at the framework level, not left to individual reviewer discretion.",
+    desc: "Technical competency mapped to grade. analyst, senior, manager, partner. with progression thresholds defined at the framework level, not left to individual reviewer discretion.",
   },
   {
     icon: <Fingerprint className="h-5 w-5" />,
     title: "Practice-quality evidence",
-    desc: "For practice-quality reviews and professional-body inspections, coverage, verification, and CPD evidence export in a form ready for external review — not manufactured after the notice arrives.",
+    desc: "For practice-quality reviews and professional-body inspections, coverage, verification, and CPD evidence export in a form ready for external review. not manufactured after the notice arrives.",
   },
 ];
 
@@ -81,7 +81,7 @@ const steps = [
 const faq = [
   {
     q: "How does the platform support CPD across multiple professional bodies?",
-    a: "The framework can encode CPD expectations from multiple bodies concurrently — for example, CA ANZ and CPA obligations for an accounting practice, or Law Society and specialist accreditation obligations for a legal practice. One programme can satisfy multiple regimes, and evidence exports in the format each body expects.",
+    a: "The framework can encode CPD expectations from multiple bodies concurrently. for example, CA ANZ and CPA obligations for an accounting practice, or Law Society and specialist accreditation obligations for a legal practice. One programme can satisfy multiple regimes, and evidence exports in the format each body expects.",
   },
   {
     q: "Can this replace our internal methodology training?",
@@ -105,13 +105,13 @@ const related = [
   {
     eyebrow: "Program",
     title: "Educational programs",
-    desc: "The program model for structured technical learning — progression designed, assessment integrated, competency measurable.",
+    desc: "The program model for structured technical learning. progression designed, assessment integrated, competency measurable.",
     href: "/programs/educational",
   },
   {
     eyebrow: "Program",
     title: "Hybrid verification",
-    desc: "For grade-progression decisions and specialist accreditation pathways, where verified capability is the decision — not participation.",
+    desc: "For grade-progression decisions and specialist accreditation pathways, where verified capability is the decision. not participation.",
     href: "/programs/hybrid-verification",
   },
   {

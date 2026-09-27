@@ -17,7 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "Remediation — Close gaps without starting again",
+  title: "Remediation. Close gaps without starting again",
   description:
     "Preserve what works. Improve what does not. Remediation strengthens existing training in place, with every change tied to a requirement and an approver.",
 };
@@ -26,7 +26,7 @@ const capabilities = [
   {
     icon: <ClipboardCheck className="h-5 w-5" />,
     title: "Blueprint generation",
-    desc: "Each identified deficiency is converted into a structured remediation task — scoped, cited, and reviewable before any change is made.",
+    desc: "Each identified deficiency is converted into a structured remediation task. scoped, cited, and reviewable before any change is made.",
   },
   {
     icon: <GitPullRequestArrow className="h-5 w-5" />,
@@ -46,7 +46,7 @@ const capabilities = [
   {
     icon: <History className="h-5 w-5" />,
     title: "Version-aware enhancement",
-    desc: "Every change carries what changed, why, by whom, and against which requirement — with a reversible history behind it.",
+    desc: "Every change carries what changed, why, by whom, and against which requirement. with a reversible history behind it.",
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
@@ -69,7 +69,7 @@ const steps = [
   {
     n: "03",
     title: "Generate blueprint",
-    desc: "Each gap becomes a structured remediation task describing exactly what should improve — reviewed and approved before any content changes.",
+    desc: "Each gap becomes a structured remediation task describing exactly what should improve. reviewed and approved before any content changes.",
   },
   {
     n: "04",
@@ -94,7 +94,7 @@ const faq = [
   },
   {
     q: "Who approves a remediation before it goes live?",
-    a: "The human owner of the framework, or the delegated reviewer, works from a mandatory Review Queue. Approve, revise, or reject decisions are logged. Approval and deployment are deliberately separate steps — generation does not imply publication.",
+    a: "The human owner of the framework, or the delegated reviewer, works from a mandatory Review Queue. Approve, revise, or reject decisions are logged. Approval and deployment are deliberately separate steps. generation does not imply publication.",
   },
   {
     q: "Can auditor feedback drive remediation directly?",

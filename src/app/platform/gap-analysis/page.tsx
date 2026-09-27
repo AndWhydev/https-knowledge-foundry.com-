@@ -17,16 +17,16 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "Gap Analysis — Find the silent holes in your training library",
+  title: "Gap Analysis. Find the silent holes in your training library",
   description:
-    "Compare existing courses, policies, and procedures against the framework they should cover. Coverage is analysed at explicit, semantic, hierarchical, evidence, and structural levels — not by keyword.",
+    "Compare existing courses, policies, and procedures against the framework they should cover. Coverage is analysed at explicit, semantic, hierarchical, evidence, and structural levels. not by keyword.",
 };
 
 const capabilities = [
   {
     icon: <ScanSearch className="h-5 w-5" />,
     title: "Explicit coverage",
-    desc: "Direct references to a requirement, concept, control, outcome, or standard clause — located and cited.",
+    desc: "Direct references to a requirement, concept, control, outcome, or standard clause. located and cited.",
   },
   {
     icon: <Braces className="h-5 w-5" />,
@@ -36,7 +36,7 @@ const capabilities = [
   {
     icon: <ListTree className="h-5 w-5" />,
     title: "Hierarchical coverage",
-    desc: "Parent-child relationships and dependency chains across frameworks — evaluated as a graph, not a flat checklist.",
+    desc: "Parent-child relationships and dependency chains across frameworks. evaluated as a graph, not a flat checklist.",
   },
   {
     icon: <ClipboardList className="h-5 w-5" />,
@@ -46,12 +46,12 @@ const capabilities = [
   {
     icon: <FileSearch2 className="h-5 w-5" />,
     title: "Structural coverage",
-    desc: "Content is evaluated for whether it sits in the right place in a learning pathway — not just whether it exists somewhere.",
+    desc: "Content is evaluated for whether it sits in the right place in a learning pathway. not just whether it exists somewhere.",
   },
   {
     icon: <ShieldAlert className="h-5 w-5" />,
     title: "Risk-weighted gap surfacing",
-    desc: "Gaps are ranked by regulatory exposure, criticality, and downstream dependency — so remediation starts where it matters.",
+    desc: "Gaps are ranked by regulatory exposure, criticality, and downstream dependency. so remediation starts where it matters.",
   },
 ];
 
@@ -59,7 +59,7 @@ const steps = [
   {
     n: "01",
     title: "Ingest the library",
-    desc: "Existing courses, policies, procedures, manuals, and supporting documentation are read in place — no manual re-authoring.",
+    desc: "Existing courses, policies, procedures, manuals, and supporting documentation are read in place. no manual re-authoring.",
   },
   {
     n: "02",
@@ -86,15 +86,15 @@ const steps = [
 const faq = [
   {
     q: "How is this different from a keyword search across our SharePoint or LMS?",
-    a: "Keyword search finds the phrase; it does not confirm the requirement is met. Gap Analysis interprets each requirement into what would count as evidence, then locates evidence — regardless of the exact wording. A course can pass a keyword audit while failing the underlying obligation, and often does.",
+    a: "Keyword search finds the phrase; it does not confirm the requirement is met. Gap Analysis interprets each requirement into what would count as evidence, then locates evidence. regardless of the exact wording. A course can pass a keyword audit while failing the underlying obligation, and often does.",
   },
   {
     q: "Do we need to have already built a framework to run gap analysis?",
-    a: "No. If a framework exists — internal, ISO, regulatory, accreditation — we compare against it. If one does not, the platform can extract an implied framework from the source documents themselves, then compare that to your training. Both paths are supported.",
+    a: "No. If a framework exists. internal, ISO, regulatory, accreditation. we compare against it. If one does not, the platform can extract an implied framework from the source documents themselves, then compare that to your training. Both paths are supported.",
   },
   {
     q: "How do you avoid drowning us in low-value flags?",
-    a: "Every finding carries a criticality weighting drawn from the source requirement — mandatory controls and risk-sensitive obligations surface first. Cosmetic and stylistic drift is separated from coverage drift and can be suppressed. The default report is triaged, not raw.",
+    a: "Every finding carries a criticality weighting drawn from the source requirement. mandatory controls and risk-sensitive obligations surface first. Cosmetic and stylistic drift is separated from coverage drift and can be suppressed. The default report is triaged, not raw.",
   },
   {
     q: "Can we scope the analysis to a single course or a single standard?",
@@ -102,7 +102,7 @@ const faq = [
   },
   {
     q: "What does the output look like?",
-    a: "A structured report — machine-readable and human-readable — that lists each requirement, the evidence located for it, the confidence of the match, and any gap. Every line links back to the source document and paragraph. Exportable as PDF, HTML, or JSON.",
+    a: "A structured report. machine-readable and human-readable. that lists each requirement, the evidence located for it, the confidence of the match, and any gap. Every line links back to the source document and paragraph. Exportable as PDF, HTML, or JSON.",
   },
   {
     q: "Is this destructive to our existing content?",
@@ -120,13 +120,13 @@ const related = [
   {
     eyebrow: "Next in sequence",
     title: "Remediation",
-    desc: "Once gaps are visible, close them in place — with change history, approvals, and preserved intent.",
+    desc: "Once gaps are visible, close them in place. with change history, approvals, and preserved intent.",
     href: "/platform/remediation",
   },
   {
     eyebrow: "Adjacent",
     title: "Audit & evidence",
-    desc: "Every gap report is itself an audit artefact — traceable, exportable, and defensible.",
+    desc: "Every gap report is itself an audit artefact. traceable, exportable, and defensible.",
     href: "/platform/audit-evidence",
   },
 ];

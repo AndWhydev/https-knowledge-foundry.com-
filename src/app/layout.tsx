@@ -4,7 +4,6 @@ import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { ScrollProgress } from "@/components/motion/scroll-progress";
-import { SmoothScroll } from "@/components/motion/smooth-scroll";
 import { CommandPalette } from "@/components/command-palette";
 import { CustomCursor } from "@/components/motion/custom-cursor";
 import { Grain } from "@/components/motion/grain";
@@ -47,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: site.name,
-    title: `${site.name} — ${site.tagline}`,
+    title: `${site.name}. ${site.tagline}`,
     description: site.description,
   },
   twitter: {
@@ -109,7 +108,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        <SmoothScroll />
         <ScrollProgress />
         <SiteHeader />
         <main id="main" className="flex-1">

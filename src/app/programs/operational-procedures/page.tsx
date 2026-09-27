@@ -17,7 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
-  title: "Operational Procedures — Structured execution, not tribal knowledge",
+  title: "Operational Procedures. Structured execution, not tribal knowledge",
   description:
     "Tasks, workflows, and procedures turned into repeatable, verifiable execution. Structure governs sequence. Consistency becomes a property of the system, not the operator.",
 };
@@ -31,7 +31,7 @@ const capabilities = [
   {
     icon: <GitBranch className="h-5 w-5" />,
     title: "Conditional pathways",
-    desc: "Decision points and their downstream branches are captured as first-class elements. The procedure knows what to do when conditions diverge — and teaches it.",
+    desc: "Decision points and their downstream branches are captured as first-class elements. The procedure knows what to do when conditions diverge. and teaches it.",
   },
   {
     icon: <AlertOctagon className="h-5 w-5" />,
@@ -41,7 +41,7 @@ const capabilities = [
   {
     icon: <CheckCircle2 className="h-5 w-5" />,
     title: "Validation checkpoints",
-    desc: "Step confirmation, scenario testing, and completion checks are built into the procedure — not appended afterwards. Performance is measured against defined outcomes.",
+    desc: "Step confirmation, scenario testing, and completion checks are built into the procedure. not appended afterwards. Performance is measured against defined outcomes.",
   },
   {
     icon: <Repeat className="h-5 w-5" />,
@@ -51,7 +51,7 @@ const capabilities = [
   {
     icon: <ClipboardList className="h-5 w-5" />,
     title: "Standards mapping",
-    desc: "Where procedures sit under a formal regime — OSHA, HACCP, GMP, ISO 45001 — steps and validation checkpoints tie back to the specific clause they satisfy.",
+    desc: "Where procedures sit under a formal regime. OSHA, HACCP, GMP, ISO 45001. steps and validation checkpoints tie back to the specific clause they satisfy.",
   },
 ];
 
@@ -69,7 +69,7 @@ const steps = [
   {
     n: "03",
     title: "Construct the framework",
-    desc: "Sequential modules, conditional pathways, reinforcement checkpoints, and completion validation are proposed as a structured procedure — approved before generation.",
+    desc: "Sequential modules, conditional pathways, reinforcement checkpoints, and completion validation are proposed as a structured procedure. approved before generation.",
   },
   {
     n: "04",
@@ -81,15 +81,15 @@ const steps = [
 const faq = [
   {
     q: "How is this different from a standard SOP document?",
-    a: "An SOP document is a static artefact. When conditions change, the document does not know. The Foundry treats the procedure as a structured object — steps, dependencies, decision points, validation — and generates guided instruction from it. When the source changes, the affected steps regenerate; when the operator performs the procedure, validation is measurable, not assumed.",
+    a: "An SOP document is a static artefact. When conditions change, the document does not know. The Foundry treats the procedure as a structured object. steps, dependencies, decision points, validation. and generates guided instruction from it. When the source changes, the affected steps regenerate; when the operator performs the procedure, validation is measurable, not assumed.",
   },
   {
     q: "Can this cover safety-critical procedures under OSHA, HACCP, or ISO 45001?",
-    a: "Yes. Steps and validation checkpoints carry provenance to the specific standard clause they satisfy. Under audit, the procedure defends itself against the standard — not against a reviewer's memory of what the SOP was supposed to say.",
+    a: "Yes. Steps and validation checkpoints carry provenance to the specific standard clause they satisfy. Under audit, the procedure defends itself against the standard. not against a reviewer's memory of what the SOP was supposed to say.",
   },
   {
     q: "What about procedures that vary by site or shift?",
-    a: "One approved framework can carry site-specific or shift-specific variants without duplicating the underlying procedure. Where a step differs — say, equipment specific to a site — the variant is a branch on the framework, not a fork of the entire document. Governance stays in one place.",
+    a: "One approved framework can carry site-specific or shift-specific variants without duplicating the underlying procedure. Where a step differs. say, equipment specific to a site. the variant is a branch on the framework, not a fork of the entire document. Governance stays in one place.",
   },
   {
     q: "How does the platform capture procedures that only exist as tribal knowledge?",
@@ -105,7 +105,7 @@ const related = [
   {
     eyebrow: "Adjacent",
     title: "Hybrid verification",
-    desc: "Where operational procedures require demonstrable capability — competency sign-off, verified execution — verification pairs with the procedure framework.",
+    desc: "Where operational procedures require demonstrable capability. competency sign-off, verified execution. verification pairs with the procedure framework.",
     href: "/programs/hybrid-verification",
   },
   {
