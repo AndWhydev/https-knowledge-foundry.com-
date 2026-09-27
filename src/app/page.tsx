@@ -143,7 +143,9 @@ export default function HomePage() {
       </section>
 
       {/* FRAMEWORK DEMO — live scripted walkthrough */}
-      <FrameworkDemo />
+      <div id="demo">
+        <FrameworkDemo />
+      </div>
 
       {/* PROOF STRIP */}
       <Section spacing="compact" className="border-y border-[color:var(--color-hairline)] bg-[color:var(--color-canvas-warm)]">
@@ -214,7 +216,9 @@ export default function HomePage() {
       </Section>
 
       {/* THE SYSTEM — sticky scroll narrative */}
-      <StickyProcess />
+      <div id="system">
+        <StickyProcess />
+      </div>
 
       {/* CINEMATIC LATTICE — Higgsfield video showcase */}
       <section className="relative overflow-hidden bg-[color:var(--color-ink)] text-white py-20 md:py-28">
@@ -309,14 +313,14 @@ export default function HomePage() {
               </p>
             </Reveal>
           </div>
-          {/* Native asset is 830×474; render at its intrinsic size to avoid upscale blur. */}
-          <div className="max-w-[880px] mx-auto">
+          {/* Master is now 2400×1368; sizes hint lets next/image pick the 1200 or 1080 variant. */}
+          <div className="max-w-[1100px] mx-auto">
             <AnimatedEditorial
               src="original/foundry-system.png"
               parallax={30}
               float={false}
               frame={false}
-              sizes="(min-width: 900px) 880px, 100vw"
+              sizes="(min-width: 1200px) 1100px, (min-width: 768px) 92vw, 100vw"
             />
           </div>
         </Container>
@@ -412,7 +416,9 @@ export default function HomePage() {
       </Section>
 
       {/* BENTO OUTPUTS — what a Foundry programme produces */}
-      <BentoOutputs />
+      <div id="bento">
+        <BentoOutputs />
+      </div>
 
       {/* PROGRAMS BY OUTCOME with editorial imagery */}
       <Section className="bg-[color:var(--color-canvas-warm)]">

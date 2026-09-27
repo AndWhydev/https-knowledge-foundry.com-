@@ -36,7 +36,7 @@ export function HeroVideo({
   return (
     <video
       ref={ref}
-      className={cn("w-full h-full object-cover pointer-events-none", className)}
+      className={cn("w-full h-full object-cover pointer-events-none block", className)}
       autoPlay={ready}
       muted
       loop

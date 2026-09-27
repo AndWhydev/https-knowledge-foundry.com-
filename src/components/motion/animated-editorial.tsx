@@ -6,12 +6,12 @@ import { useRef } from "react";
 import { cn } from "@/lib/cn";
 
 const captions: Record<string, { alt: string; width: number; height: number }> = {
-  "editorial-hero.png": { alt: "Isometric pyramid of dark charcoal cubes with a molten orange cube at the apex — Knowledge Foundry framework visualisation.", width: 1792, height: 1024 },
-  "editorial-blueprint.png": { alt: "Grid of dark charcoal cubes on cream architectural blueprint, with three cubes glowing molten orange — knowledge framework schematic.", width: 1792, height: 1024 },
-  "editorial-transformation.png": { alt: "Stack of dark charcoal document blocks transforming into an interconnected network of floating cubes — knowledge transformation illustration.", width: 1792, height: 1024 },
-  "editorial-governance.png": { alt: "Isometric dashboard tiles rendered as physical charcoal objects with data visualisations, one glowing orange — knowledge governance illustration.", width: 1792, height: 1024 },
-  "editorial-evidence.png": { alt: "Archival grid of dark charcoal document blocks with orange seals and a magnifying glass — audit and evidence illustration.", width: 1792, height: 1024 },
-  "original/foundry-system.png": { alt: "The Knowledge Foundry system diagram: inputs (subjects, documents, requirements, standards, regulations) flow through five foundry stages (Define, Structure, Instruct, Validate, Deliver) into outputs (structured learning systems, reviewable content, standards-aligned instruction, audit trail, exportable evidence).", width: 830, height: 474 },
+  "editorial-hero.png": { alt: "Isometric pyramid of dark charcoal cubes with a molten orange cube at the apex — Knowledge Foundry framework visualisation.", width: 1600, height: 905 },
+  "editorial-blueprint.png": { alt: "Grid of dark charcoal cubes on cream architectural blueprint, with three cubes glowing molten orange — knowledge framework schematic.", width: 1600, height: 905 },
+  "editorial-transformation.png": { alt: "Stack of dark charcoal document blocks transforming into an interconnected network of floating cubes — knowledge transformation illustration.", width: 1600, height: 905 },
+  "editorial-governance.png": { alt: "Isometric dashboard tiles rendered as physical charcoal objects with data visualisations, one glowing orange — knowledge governance illustration.", width: 1600, height: 905 },
+  "editorial-evidence.png": { alt: "Archival grid of dark charcoal document blocks with orange seals and a magnifying glass — audit and evidence illustration.", width: 1600, height: 905 },
+  "original/foundry-system.png": { alt: "The Knowledge Foundry system diagram: inputs (subjects, documents, requirements, standards, regulations) flow through five foundry stages (Define, Structure, Instruct, Validate, Deliver) into outputs (structured learning systems, reviewable content, standards-aligned instruction, audit trail, exportable evidence).", width: 2400, height: 1368 },
   "original/structure-first.png": { alt: "Structure First methodology: five-step framework showing Define Structure, Identify Relationships, Establish Framework, Generate Content, Validate and Deliver.", width: 836, height: 471 },
   "original/reviewable.png": { alt: "Reviewability workflow: submit, review, refine, approve, deliver — with a signed and stamped approved programme as the final output.", width: 892, height: 441 },
   "original/define-first.png": { alt: "Define first, write second: source materials being structured into a framework before instructional content is authored.", width: 866, height: 455 },

@@ -168,7 +168,11 @@ export function DemonstrationForm() {
 
   if (status === "success") {
     return (
-      <div className="rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white p-10 md:p-14 text-center">
+      <div
+        role="status"
+        aria-live="polite"
+        className="rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white p-10 md:p-14 text-center"
+      >
         <span className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-[color:var(--color-forge)]/12 text-[color:var(--color-forge)] mb-6">
           <Check className="h-6 w-6" strokeWidth={2.4} />
         </span>
@@ -237,7 +241,11 @@ export function DemonstrationForm() {
       </div>
 
       {status === "error" && errorMessage && (
-        <div className="mt-6 flex items-start gap-3 rounded-[var(--radius-sm)] border border-[color:var(--color-forge)]/30 bg-[color:var(--color-forge)]/6 p-4 text-[13.5px] leading-[1.55] text-[color:var(--color-ink-soft)]">
+        <div
+          role="alert"
+          aria-live="assertive"
+          className="mt-6 flex items-start gap-3 rounded-[var(--radius-sm)] border border-[color:var(--color-forge)]/30 bg-[color:var(--color-forge)]/6 p-4 text-[13.5px] leading-[1.55] text-[color:var(--color-ink-soft)]"
+        >
           <AlertCircle className="mt-0.5 h-4 w-4 text-[color:var(--color-forge)] shrink-0" aria-hidden />
           <span>{errorMessage}</span>
         </div>

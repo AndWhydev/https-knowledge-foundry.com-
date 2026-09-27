@@ -102,7 +102,8 @@ export function SiteFooter() {
         {/* Legal strip */}
         <div className="py-6 border-t border-[color:var(--color-hairline)] flex flex-col md:flex-row md:items-center justify-between gap-4 text-[12px] text-[color:var(--color-ink-faint)]">
           <div>
-            © {new Date().getFullYear()} {site.legal.entity}. All rights reserved. ABN {site.legal.abn}.
+            © {new Date().getFullYear()} {site.legal.entity}. All rights reserved.
+            {site.legal.abn && site.legal.abn !== "—" && ` ABN ${site.legal.abn}.`}
           </div>
           <div className="flex flex-wrap gap-x-6 gap-y-2">
             <Link href="/privacy" className="hover:text-[color:var(--color-ink)]">Privacy</Link>

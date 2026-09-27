@@ -108,5 +108,18 @@ function flattenToWords(node: ReactNode): Word[] {
     }
   };
   walk(node);
-  return acc;
+
+  // Merge trailing punctuation-only tokens ("." "?" "!" ":" ";" ",")
+  // back onto the previous word so we don't get a visible gap before them.
+  const trailingPunct = /^[.,!?;:]+$/;
+  const merged: Word[] = [];
+  for (const w of acc) {
+    const prev = merged[merged.length - 1];
+    if (prev && trailingPunct.test(w.text)) {
+      merged[merged.length - 1] = { text: prev.text + w.text, className: prev.className };
+    } else {
+      merged.push(w);
+    }
+  }
+  return merged;
 }
