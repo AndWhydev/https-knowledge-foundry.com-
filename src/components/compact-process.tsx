@@ -191,12 +191,52 @@ function StageCanvas({ active }: { active: number }) {
         </radialGradient>
       </defs>
       <rect width="400" height="400" fill="url(#cp-grid)" />
-      {/* Concentric rings */}
+      {/* Concentric rings — outermost rotates slowly */}
       <g fill="none" stroke="rgba(255,255,255,0.06)" strokeDasharray="2 4">
         <circle cx="200" cy="200" r="70" />
         <circle cx="200" cy="200" r="130" />
-        <circle cx="200" cy="200" r="180" />
+        {reduce ? (
+          <circle cx="200" cy="200" r="180" />
+        ) : (
+          <motion.circle
+            cx="200"
+            cy="200"
+            r="180"
+            style={{ transformOrigin: "200px 200px" }}
+            animate={{ rotate: 360 }}
+            transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
+          />
+        )}
+        {/* Tick marks at cardinal points on outer ring */}
+        {[0, 90, 180, 270].map((deg) => {
+          const rad = (deg * Math.PI) / 180;
+          const r1 = 180;
+          const r2 = 188;
+          const x1 = 200 + Math.cos(rad) * r1;
+          const y1 = 200 + Math.sin(rad) * r1;
+          const x2 = 200 + Math.cos(rad) * r2;
+          const y2 = 200 + Math.sin(rad) * r2;
+          return <line key={deg} x1={x1} y1={y1} x2={x2} y2={y2} stroke="rgba(239,103,4,0.5)" strokeWidth="1.5" />;
+        })}
       </g>
+
+      {/* Pulse rings on active — expanding out from centre */}
+      {!reduce && (
+        <g fill="none" stroke="rgba(239,103,4,0.25)">
+          {[0, 1, 2].map((i) => (
+            <motion.circle
+              key={i}
+              cx="200"
+              cy="200"
+              r="60"
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: [0, 0.5, 0], scale: [0.5, 2.5, 3] }}
+              transition={{ duration: 4, repeat: Infinity, delay: i * 1.3, ease: "easeOut" }}
+              style={{ transformOrigin: "200px 200px" }}
+            />
+          ))}
+        </g>
+      )}
 
       {/* Layer 0 — source documents drifting in */}
       <motion.g animate={{ opacity: layerOpacity(0, active) }} transition={{ duration: 0.5 }}>
