@@ -17,25 +17,63 @@ export function HeroLattice3D({ className }: { className?: string }) {
   const ref = useRef<HTMLDivElement>(null);
   const reduce = useReducedMotion();
 
+  // Cursor position tracked across the ENTIRE hero section (not just the
+  // lattice container), so moving the mouse anywhere in the hero spins it.
   const px = useMotionValue(0.5);
   const py = useMotionValue(0.5);
-  const sx = useSpring(px, { stiffness: 90, damping: 26 });
-  const sy = useSpring(py, { stiffness: 90, damping: 26 });
-  const rotY = useTransform(sx, [0, 1], [8, -8]);
-  const rotX = useTransform(sy, [0, 1], [-6, 6]);
+  // Idle-spin motion value — always ticks forward for continuous slow rotation
+  const idle = useMotionValue(0);
+  const sx = useSpring(px, { stiffness: 60, damping: 22, mass: 0.8 });
+  const sy = useSpring(py, { stiffness: 60, damping: 22, mass: 0.8 });
+
+  // Dramatic tilt range: ±35° on Y (spin), ±22° on X (tilt)
+  // Plus continuous idle drift so it's never static
+  const rotY = useTransform([sx, idle] as const, ([x, i]) => (x as number - 0.5) * -70 + (i as number));
+  const rotX = useTransform(sy, [0, 1], [-22, 22]);
 
   useEffect(() => {
     if (reduce) return;
-    const el = ref.current?.parentElement;
+    // Find the nearest section wrapper — track cursor across the whole hero.
+    const el =
+      (ref.current?.closest("section") as HTMLElement | null) ||
+      ref.current?.parentElement;
     if (!el) return;
+
     const onMove = (e: MouseEvent) => {
       const r = el.getBoundingClientRect();
       px.set(Math.max(0, Math.min(1, (e.clientX - r.left) / r.width)));
       py.set(Math.max(0, Math.min(1, (e.clientY - r.top) / r.height)));
     };
     el.addEventListener("mousemove", onMove);
-    return () => el.removeEventListener("mousemove", onMove);
-  }, [reduce, px, py]);
+
+    // Continuous idle rotation — a slow yaw drift that adds life even when
+    // the cursor is stationary.
+    let raf = 0;
+    let start = performance.now();
+    const tick = (t: number) => {
+      const elapsed = (t - start) / 1000; // seconds
+      // Slow sine wave, ±6° amplitude, 12s period
+      idle.set(Math.sin(elapsed * (Math.PI * 2) / 12) * 6);
+      raf = requestAnimationFrame(tick);
+    };
+    raf = requestAnimationFrame(tick);
+
+    const onVis = () => {
+      if (document.hidden) {
+        cancelAnimationFrame(raf);
+      } else {
+        start = performance.now() - idle.get() * 0; // preserve continuity
+        raf = requestAnimationFrame(tick);
+      }
+    };
+    document.addEventListener("visibilitychange", onVis);
+
+    return () => {
+      el.removeEventListener("mousemove", onMove);
+      document.removeEventListener("visibilitychange", onVis);
+      cancelAnimationFrame(raf);
+    };
+  }, [reduce, px, py, idle]);
 
   const cubeW = 60;
   const isoX = (r: number, c: number) => (c - r) * cubeW * 0.5;
