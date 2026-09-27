@@ -4,9 +4,14 @@ import { motion, useMotionValue, useSpring, useTransform, useReducedMotion } fro
 import { useEffect, useRef } from "react";
 
 /**
- * Interactive isometric cube pyramid that tilts with the cursor.
- * Each cube face has a subtle inner glow; the apex cube is orange and
- * pulses. Rotation is limited to ±10° so it always reads clearly.
+ * Cursor-tilted isometric lattice for the dark hero.
+ *
+ * 4×4 grid of cubes with 6 highlighted in orange (forge cells). Colours are
+ * chosen for clear contrast against the near-black #0d0f14 hero background:
+ * cube tops read as light slate/steel, not as bg-blending charcoal.
+ *
+ * Scene tilts up to ±8° with cursor position, plus ember particles rise from
+ * the orange cells.
  */
 export function HeroLattice3D({ className }: { className?: string }) {
   const ref = useRef<HTMLDivElement>(null);
@@ -16,8 +21,8 @@ export function HeroLattice3D({ className }: { className?: string }) {
   const py = useMotionValue(0.5);
   const sx = useSpring(px, { stiffness: 90, damping: 26 });
   const sy = useSpring(py, { stiffness: 90, damping: 26 });
-  const rotY = useTransform(sx, [0, 1], [10, -10]);
-  const rotX = useTransform(sy, [0, 1], [-10, 10]);
+  const rotY = useTransform(sx, [0, 1], [8, -8]);
+  const rotX = useTransform(sy, [0, 1], [-6, 6]);
 
   useEffect(() => {
     if (reduce) return;
@@ -32,124 +37,145 @@ export function HeroLattice3D({ className }: { className?: string }) {
     return () => el.removeEventListener("mousemove", onMove);
   }, [reduce, px, py]);
 
-  // Isometric layout: 4 layers, each smaller, apex has a single cube.
-  const layers: { row: number; col: number; z: number; forge?: boolean }[] = [];
-  for (let z = 0; z < 4; z++) {
-    const size = 4 - z;
-    for (let r = 0; r < size; r++) {
-      for (let c = 0; c < size; c++) {
-        layers.push({ row: r, col: c, z, forge: z === 3 });
-      }
-    }
+  const cubeW = 60;
+  const isoX = (r: number, c: number) => (c - r) * cubeW * 0.5;
+  const isoY = (r: number, c: number) => (c + r) * cubeW * 0.29;
+
+  // 4x4 grid, 6 forge cells arranged as a diagonal accent
+  const forgeCells = new Set(["0-3", "1-2", "1-3", "2-1", "2-2", "3-0"]);
+  const cubes: { row: number; col: number; forge: boolean; delay: number }[] = [];
+  for (let r = 0; r < 4; r++) for (let c = 0; c < 4; c++) {
+    cubes.push({ row: r, col: c, forge: forgeCells.has(`${r}-${c}`), delay: (r + c) * 0.06 });
   }
 
-  const cubeW = 42;
-  const cubeH = 42;
-  const isoX = (r: number, c: number) => (c - r) * cubeW * 0.5;
-  const isoY = (r: number, c: number) => (c + r) * cubeH * 0.28;
-
   return (
-    <div
-      className={className}
-      style={{ perspective: 1200, transformStyle: "preserve-3d" }}
-    >
+    <div className={className} style={{ perspective: 1400 }}>
       <motion.div
         ref={ref}
-        style={{
-          transformStyle: "preserve-3d",
-          rotateX: reduce ? 12 : rotX,
-          rotateY: reduce ? -8 : rotY,
-        }}
+        style={{ rotateX: reduce ? 0 : rotX, rotateY: reduce ? 0 : rotY }}
         className="w-full h-full flex items-center justify-center relative"
       >
         <svg
-          viewBox="-220 -100 440 440"
-          className="w-full h-full drop-shadow-[0_60px_120px_rgba(0,0,0,0.55)]"
+          viewBox="-200 -40 400 340"
+          className="w-full h-full drop-shadow-[0_50px_100px_rgba(0,0,0,0.6)]"
         >
           <defs>
-            <linearGradient id="c-top" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0" stopColor="#3a4152" />
-              <stop offset="1" stopColor="#252932" />
+            {/* LIGHT slate palette — clearly readable on #0d0f14 bg */}
+            <linearGradient id="ct" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stopColor="#a8b1c4" />
+              <stop offset="1" stopColor="#7a8296" />
             </linearGradient>
-            <linearGradient id="c-left" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0" stopColor="#1a1d24" />
-              <stop offset="1" stopColor="#0a0c10" />
+            <linearGradient id="cl" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stopColor="#3f4557" />
+              <stop offset="1" stopColor="#252a37" />
             </linearGradient>
-            <linearGradient id="c-right" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0" stopColor="#252932" />
-              <stop offset="1" stopColor="#12141a" />
+            <linearGradient id="cr" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stopColor="#5a6274" />
+              <stop offset="1" stopColor="#363c4b" />
             </linearGradient>
-            <linearGradient id="f-top" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0" stopColor="#ffa040" />
+            <linearGradient id="ft" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stopColor="#ffb060" />
               <stop offset="1" stopColor="#ef6704" />
             </linearGradient>
-            <linearGradient id="f-left" x1="0" y1="0" x2="0" y2="1">
+            <linearGradient id="fl" x1="0" y1="0" x2="0" y2="1">
               <stop offset="0" stopColor="#c74e00" />
-              <stop offset="1" stopColor="#8a3600" />
+              <stop offset="1" stopColor="#7a3000" />
             </linearGradient>
-            <linearGradient id="f-right" x1="0" y1="0" x2="1" y2="1">
+            <linearGradient id="fr" x1="0" y1="0" x2="1" y2="1">
               <stop offset="0" stopColor="#e05c00" />
-              <stop offset="1" stopColor="#a03f00" />
+              <stop offset="1" stopColor="#8f3800" />
             </linearGradient>
-            <filter id="apex-glow" x="-100%" y="-100%" width="300%" height="300%">
-              <feGaussianBlur stdDeviation="6" />
+            <filter id="fglow" x="-50%" y="-50%" width="200%" height="200%">
+              <feGaussianBlur stdDeviation="4" />
               <feMerge>
                 <feMergeNode />
                 <feMergeNode in="SourceGraphic" />
               </feMerge>
             </filter>
+            <radialGradient id="base-glow" cx="0.5" cy="0.5" r="0.5">
+              <stop offset="0" stopColor="rgba(239,103,4,0.32)" />
+              <stop offset="1" stopColor="rgba(239,103,4,0)" />
+            </radialGradient>
           </defs>
 
-          {/* Draw far to near for correct occlusion */}
-          {layers
+          {/* Ground glow beneath the lattice */}
+          <ellipse cx="0" cy="240" rx="200" ry="26" fill="url(#base-glow)" opacity="0.75" />
+
+          {cubes
             .slice()
-            .sort((a, b) => a.z - b.z || a.row + a.col - (b.row + b.col))
+            .sort((a, b) => a.row + a.col - (b.row + b.col))
             .map((c) => {
-              const x = isoX(c.row, c.col) - (c.z * 0);
-              const y = isoY(c.row, c.col) - c.z * 44;
+              const x = isoX(c.row, c.col);
+              const y = isoY(c.row, c.col);
               const w = cubeW;
-              const h = cubeH * 0.58;
+              const h = cubeW * 0.58;
               const d = cubeW * 0.5;
+              // Motion via SMIL/CSS animation on a wrapper — never use motion
+              // for opacity here or headless snapshots render invisible cubes.
+              // Two-level group: outer SVG-translate for position, inner CSS
+              // animation on transform. Never combine both on one element —
+              // CSS `transform` overrides SVG `transform` and collapses cubes
+              // to origin.
               return (
-                <motion.g
-                  key={`${c.z}-${c.row}-${c.col}`}
-                  initial={reduce ? { opacity: 0 } : { opacity: 0, y: -18 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.05 * (c.z * 3 + c.row + c.col), ease: [0.25, 1, 0.5, 1] }}
-                  transform={`translate(${x} ${y})`}
-                  style={c.forge ? { filter: "url(#apex-glow)" } : undefined}
-                >
+                <g key={`${c.row}-${c.col}`} transform={`translate(${x} ${y})`}>
+                  <g
+                    style={{
+                      filter: c.forge ? "url(#fglow)" : undefined,
+                      animation: reduce ? undefined : `hlDrop 0.6s ${c.delay}s cubic-bezier(0.25,1,0.5,1) both`,
+                    }}
+                  >
                   {/* top */}
-                  <path d={`M0 0 L${w * 0.5} ${-d * 0.58} L${w} 0 L${w * 0.5} ${d * 0.58} Z`} fill={c.forge ? "url(#f-top)" : "url(#c-top)"} />
+                  <path
+                    d={`M0 0 L${w * 0.5} ${-d * 0.58} L${w} 0 L${w * 0.5} ${d * 0.58} Z`}
+                    fill={c.forge ? "url(#ft)" : "url(#ct)"}
+                    stroke="rgba(255,255,255,0.12)"
+                    strokeWidth="0.5"
+                  />
                   {/* left */}
-                  <path d={`M0 0 L0 ${h} L${w * 0.5} ${h + d * 0.58} L${w * 0.5} ${d * 0.58} Z`} fill={c.forge ? "url(#f-left)" : "url(#c-left)"} />
+                  <path
+                    d={`M0 0 L0 ${h} L${w * 0.5} ${h + d * 0.58} L${w * 0.5} ${d * 0.58} Z`}
+                    fill={c.forge ? "url(#fl)" : "url(#cl)"}
+                    stroke="rgba(0,0,0,0.5)"
+                    strokeWidth="0.4"
+                  />
                   {/* right */}
-                  <path d={`M${w} 0 L${w} ${h} L${w * 0.5} ${h + d * 0.58} L${w * 0.5} ${d * 0.58} Z`} fill={c.forge ? "url(#f-right)" : "url(#c-right)"} />
-                  {/* edge highlight */}
-                  <path d={`M0 0 L${w * 0.5} ${-d * 0.58} L${w} 0`} stroke="rgba(255,255,255,0.10)" strokeWidth="0.6" fill="none" />
-                </motion.g>
+                  <path
+                    d={`M${w} 0 L${w} ${h} L${w * 0.5} ${h + d * 0.58} L${w * 0.5} ${d * 0.58} Z`}
+                    fill={c.forge ? "url(#fr)" : "url(#cr)"}
+                    stroke="rgba(0,0,0,0.5)"
+                    strokeWidth="0.4"
+                  />
+                  {/* top edge highlight */}
+                  <path
+                    d={`M0 0 L${w * 0.5} ${-d * 0.58} L${w} 0`}
+                    stroke="rgba(255,255,255,0.35)"
+                    strokeWidth="0.75"
+                    fill="none"
+                  />
+                  </g>
+                </g>
               );
             })}
 
-          {/* Ember particles */}
+          {/* Ember particles from the top-right forge cells */}
           {!reduce &&
             Array.from({ length: 6 }).map((_, i) => (
               <motion.circle
                 key={i}
-                cx={-24 + i * 16}
-                cy={-40}
+                cx={40 + i * 12}
+                cy={20}
                 r="1.4"
                 fill="#ff9a3a"
                 initial={{ opacity: 0, y: 0 }}
                 animate={{
                   opacity: [0, 0.9, 0],
-                  y: [-40 - i * 6, -220 - i * 12],
-                  x: [0, (i % 2 ? 12 : -12)],
+                  y: [-20 - i * 6, -140 - i * 10],
+                  x: [0, (i % 2 ? 10 : -10)],
                 }}
                 transition={{
                   duration: 3.4 + i * 0.35,
                   repeat: Infinity,
-                  delay: i * 0.55,
+                  delay: 1 + i * 0.55,
                   ease: "easeOut",
                 }}
               />

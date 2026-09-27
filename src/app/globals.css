@@ -157,3 +157,8 @@
   from { background-position: -200% 0; }
   to { background-position: 200% 0; }
 }
+
+@keyframes hlDrop {
+  from { transform: translateY(-14px); opacity: 0; }
+  to   { transform: translateY(0); opacity: 1; }
+}
