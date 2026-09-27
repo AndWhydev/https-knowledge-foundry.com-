@@ -138,10 +138,6 @@ export default function HomePage() {
             </div>
             <Reveal delay={0.2} className="relative">
               <HeroLattice3D className="w-full aspect-square max-w-[540px] mx-auto" />
-              <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 flex items-center gap-2 rounded-full bg-black/70 backdrop-blur border border-white/12 px-4 py-1.5 shadow-[0_10px_30px_rgba(0,0,0,0.4)]">
-                <span className="h-1.5 w-1.5 rounded-full bg-[color:var(--color-forge)]" style={{ animation: "forge-glow 2s ease-in-out infinite" }} />
-                <span className="text-[11px] font-medium tracking-tight text-white/90">Framework live · Content generating</span>
-              </div>
             </Reveal>
           </div>
         </Container>
