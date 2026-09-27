@@ -11,10 +11,10 @@ const captions: Record<string, { alt: string; width: number; height: number }> =
   "editorial-transformation.png": { alt: "Stack of dark charcoal document blocks transforming into an interconnected network of floating cubes — knowledge transformation illustration.", width: 1792, height: 1024 },
   "editorial-governance.png": { alt: "Isometric dashboard tiles rendered as physical charcoal objects with data visualisations, one glowing orange — knowledge governance illustration.", width: 1792, height: 1024 },
   "editorial-evidence.png": { alt: "Archival grid of dark charcoal document blocks with orange seals and a magnifying glass — audit and evidence illustration.", width: 1792, height: 1024 },
-  "original/foundry-system.png": { alt: "The Knowledge Foundry system diagram: inputs (subjects, documents, requirements, standards, regulations) flow through five foundry stages (Define, Structure, Instruct, Validate, Deliver) into outputs (structured learning systems, reviewable content, standards-aligned instruction, audit trail, exportable evidence).", width: 1600, height: 900 },
-  "original/structure-first.png": { alt: "Structure First methodology: five-step framework showing Define Structure, Identify Relationships, Establish Framework, Generate Content, Validate and Deliver.", width: 1600, height: 900 },
-  "original/reviewable.png": { alt: "Reviewability workflow: submit, review, refine, approve, deliver — with a signed and stamped approved programme as the final output.", width: 1600, height: 900 },
-  "original/define-first.png": { alt: "Define first, write second: source materials being structured into a framework before instructional content is authored.", width: 1600, height: 900 },
+  "original/foundry-system.png": { alt: "The Knowledge Foundry system diagram: inputs (subjects, documents, requirements, standards, regulations) flow through five foundry stages (Define, Structure, Instruct, Validate, Deliver) into outputs (structured learning systems, reviewable content, standards-aligned instruction, audit trail, exportable evidence).", width: 830, height: 474 },
+  "original/structure-first.png": { alt: "Structure First methodology: five-step framework showing Define Structure, Identify Relationships, Establish Framework, Generate Content, Validate and Deliver.", width: 836, height: 471 },
+  "original/reviewable.png": { alt: "Reviewability workflow: submit, review, refine, approve, deliver — with a signed and stamped approved programme as the final output.", width: 892, height: 441 },
+  "original/define-first.png": { alt: "Define first, write second: source materials being structured into a framework before instructional content is authored.", width: 866, height: 455 },
 };
 
 /**

@@ -398,28 +398,57 @@ function FrameworkCanvas({
   edgesShown: number;
   verifiedShown: number;
 }) {
-  // Deterministic-ish positions: place concepts on a radial layout
-  const positions = useMemo(() => {
+  // Deterministic radial layout with per-node metadata for smart label placement.
+  const nodes = useMemo(() => {
     const n = scenario.concepts.length;
-    const cx = 250;
-    const cy = 200;
+    const cx = 300;
+    const cy = 220;
     return scenario.concepts.map((_, i) => {
-      // Center node
-      if (i === 0) return { x: cx, y: cy };
+      if (i === 0) return { x: cx, y: cy, angle: -Math.PI / 2, ring: 0 };
       const ring = i <= n / 2 ? 1 : 2;
       const ringCount = ring === 1 ? Math.floor(n / 2) : Math.ceil(n / 2) - 1;
       const idxInRing = ring === 1 ? i - 1 : i - Math.floor(n / 2) - 1;
       const angle = (idxInRing / ringCount) * Math.PI * 2 - Math.PI / 2;
-      const r = ring === 1 ? 90 : 155;
-      return { x: cx + Math.cos(angle) * r, y: cy + Math.sin(angle) * r };
+      const r = ring === 1 ? 92 : 172;
+      return { x: cx + Math.cos(angle) * r, y: cy + Math.sin(angle) * r, angle, ring };
     });
   }, [scenario.concepts]);
 
-  const verifiedSet = useMemo(() => new Set(scenario.verifiedIndex.slice(0, verifiedShown)), [scenario.verifiedIndex, verifiedShown]);
+  const verifiedSet = useMemo(
+    () => new Set(scenario.verifiedIndex.slice(0, verifiedShown)),
+    [scenario.verifiedIndex, verifiedShown],
+  );
+
+  // Decide which nodes to label — center + all verified — then push their labels
+  // outward along the node's own radial angle so nothing collides with edges or
+  // neighbouring nodes.
+  const labels = useMemo(() => {
+    const eligible = new Set<number>();
+    eligible.add(0); // always label the centre
+    scenario.verifiedIndex.slice(0, verifiedShown).forEach((idx) => eligible.add(idx));
+    return Array.from(eligible)
+      .filter((i) => i < conceptsShown)
+      .map((i) => {
+        const n = nodes[i];
+        const c = scenario.concepts[i];
+        // Centre label goes directly above the node
+        if (n.ring === 0) {
+          return { i, label: c.label, x: n.x, y: n.y - 20, anchor: "middle" as const };
+        }
+        // Outer nodes: label is pushed further out along the radial angle
+        const cos = Math.cos(n.angle);
+        const sin = Math.sin(n.angle);
+        const gap = 14;
+        const x = n.x + cos * gap;
+        const y = n.y + sin * gap + 3;
+        const anchor: "start" | "end" | "middle" =
+          cos > 0.35 ? "start" : cos < -0.35 ? "end" : "middle";
+        return { i, label: c.label, x, y, anchor };
+      });
+  }, [conceptsShown, verifiedShown, nodes, scenario.concepts, scenario.verifiedIndex]);
 
   return (
-    <svg viewBox="0 0 500 400" className="w-full h-full">
-      {/* Grid backdrop */}
+    <svg viewBox="0 0 600 440" className="w-full h-full">
       <defs>
         <pattern id="fw-grid" width="24" height="24" patternUnits="userSpaceOnUse">
           <path d="M 24 0 L 0 0 0 24" fill="none" stroke="rgba(255,255,255,0.04)" strokeWidth="1" />
@@ -428,14 +457,26 @@ function FrameworkCanvas({
           <stop offset="0" stopColor="rgba(239,103,4,0.5)" />
           <stop offset="1" stopColor="rgba(239,103,4,0)" />
         </radialGradient>
+        {/* Radial mask so long labels near the edge fade rather than clip abruptly */}
+        <linearGradient id="edge-fade-l" x1="0" x2="1" y1="0" y2="0">
+          <stop offset="0" stopColor="#000" stopOpacity="0" />
+          <stop offset="0.08" stopColor="#000" stopOpacity="1" />
+        </linearGradient>
       </defs>
-      <rect width="500" height="400" fill="url(#fw-grid)" />
+      <rect width="600" height="440" fill="url(#fw-grid)" />
+
+      {/* Concentric rings for depth */}
+      <g fill="none" stroke="rgba(255,255,255,0.05)" strokeDasharray="2 4">
+        <circle cx="300" cy="220" r="92" />
+        <circle cx="300" cy="220" r="172" />
+      </g>
 
       {/* Edges */}
       {scenario.edges.slice(0, edgesShown).map(([a, b], i) => {
-        const from = positions[a];
-        const to = positions[b];
+        const from = nodes[a];
+        const to = nodes[b];
         if (!from || !to) return null;
+        const bothVerified = verifiedSet.has(a) && verifiedSet.has(b);
         return (
           <motion.line
             key={i}
@@ -443,8 +484,8 @@ function FrameworkCanvas({
             y1={from.y}
             x2={to.x}
             y2={to.y}
-            stroke="rgba(255,255,255,0.28)"
-            strokeWidth="1.2"
+            stroke={bothVerified ? "rgba(239,103,4,0.55)" : "rgba(255,255,255,0.24)"}
+            strokeWidth={bothVerified ? 1.4 : 1.1}
             initial={{ pathLength: 0, opacity: 0 }}
             animate={{ pathLength: 1, opacity: 1 }}
             transition={{ duration: 0.55, ease: [0.25, 1, 0.5, 1] }}
@@ -453,7 +494,7 @@ function FrameworkCanvas({
       })}
 
       {/* Concept nodes */}
-      {positions.slice(0, conceptsShown).map((p, i) => {
+      {nodes.slice(0, conceptsShown).map((p, i) => {
         const c = scenario.concepts[i];
         const isVerified = verifiedSet.has(i);
         const size = i === 0 ? 12 : c.kind === "check" ? 6 : 8;
@@ -475,20 +516,47 @@ function FrameworkCanvas({
               animate={isVerified ? { opacity: [0.9, 1, 0.9] } : undefined}
               transition={isVerified ? { duration: 2, repeat: Infinity, ease: "easeInOut" } : undefined}
             />
-            {i < 6 && (
-              <motion.text
-                x={p.x + size + 6}
-                y={p.y + 3}
-                fontSize="9"
-                fill={isVerified ? "#ff7d1a" : "rgba(255,255,255,0.75)"}
-                fontFamily="var(--font-jetbrains)"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.2, duration: 0.3 }}
-              >
-                {c.label}
-              </motion.text>
-            )}
+          </motion.g>
+        );
+      })}
+
+      {/* Labels — only centre + verified nodes, positioned by angle */}
+      {labels.map(({ i, label, x, y, anchor }) => {
+        const isVerified = verifiedSet.has(i);
+        const isCentre = nodes[i].ring === 0;
+        return (
+          <motion.g
+            key={`label-${scenario.domain}-${i}`}
+            initial={{ opacity: 0, y: 4 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.35 }}
+          >
+            {/* Subtle backing so labels stay legible over edges */}
+            <text
+              x={x}
+              y={y}
+              fontSize={isCentre ? "11" : "10"}
+              fontFamily="var(--font-jetbrains)"
+              textAnchor={anchor}
+              fill="#12141a"
+              stroke="#12141a"
+              strokeWidth="4"
+              opacity="0.75"
+              paintOrder="stroke"
+            >
+              {label}
+            </text>
+            <text
+              x={x}
+              y={y}
+              fontSize={isCentre ? "11" : "10"}
+              fontFamily="var(--font-jetbrains)"
+              textAnchor={anchor}
+              fill={isVerified ? "#ff7d1a" : isCentre ? "#ffffff" : "rgba(255,255,255,0.82)"}
+              fontWeight={isCentre ? 600 : 400}
+            >
+              {label}
+            </text>
           </motion.g>
         );
       })}

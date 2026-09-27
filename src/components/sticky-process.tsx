@@ -103,24 +103,35 @@ function StepPanel({
   activeIndex: ReturnType<typeof useTransform<number, number>>;
 }) {
   const reduce = useReducedMotion();
+  // Keep every step readable at all times — subtle dimming only.
   const opacity = useTransform(activeIndex, (v) => {
     const distance = Math.abs(v - index);
     if (distance < 0.5) return 1;
-    if (distance < 1.2) return 0.35;
-    return 0.15;
+    if (distance < 1.2) return 0.7;
+    return 0.5;
+  });
+  const scale = useTransform(activeIndex, (v) => {
+    const distance = Math.abs(v - index);
+    return distance < 0.5 ? 1 : 0.985;
   });
   const x = useTransform(activeIndex, (v) => {
     if (reduce) return 0;
     const distance = v - index;
-    return distance * -8;
+    return distance * -6;
   });
+  const stepColor = useTransform(activeIndex, (v) =>
+    Math.abs(v - index) < 0.5 ? "#ef6704" : "rgba(239,103,4,0.6)",
+  );
 
   return (
-    <motion.div style={reduce ? undefined : { opacity, x }} className="min-h-[38vh]">
+    <motion.div style={reduce ? undefined : { opacity, x, scale }} className="min-h-[34vh]">
       <div className="flex items-baseline gap-4 mb-4">
-        <span className="font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.18em] text-[color:var(--color-forge)]">
+        <motion.span
+          className="font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.18em]"
+          style={reduce ? undefined : { color: stepColor }}
+        >
           STEP {step.n}
-        </span>
+        </motion.span>
         <span className="h-px flex-1 bg-white/12" />
       </div>
       <h3 className="text-[42px] md:text-[56px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-white leading-[0.98]">

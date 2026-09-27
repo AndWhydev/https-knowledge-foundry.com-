@@ -309,7 +309,16 @@ export default function HomePage() {
               </p>
             </Reveal>
           </div>
-          <AnimatedEditorial src="original/foundry-system.png" parallax={30} float={false} frame={false} />
+          {/* Native asset is 830×474; render at its intrinsic size to avoid upscale blur. */}
+          <div className="max-w-[880px] mx-auto">
+            <AnimatedEditorial
+              src="original/foundry-system.png"
+              parallax={30}
+              float={false}
+              frame={false}
+              sizes="(min-width: 900px) 880px, 100vw"
+            />
+          </div>
         </Container>
       </Section>
 
