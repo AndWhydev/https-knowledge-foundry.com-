@@ -6,6 +6,8 @@ import { SiteFooter } from "@/components/site-footer";
 import { ScrollProgress } from "@/components/motion/scroll-progress";
 import { SmoothScroll } from "@/components/motion/smooth-scroll";
 import { CommandPalette } from "@/components/command-palette";
+import { CustomCursor } from "@/components/motion/custom-cursor";
+import { Grain } from "@/components/motion/grain";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { site } from "@/lib/site";
@@ -114,6 +116,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         </main>
         <SiteFooter />
         <CommandPalette />
+        <CustomCursor />
+        <Grain />
         <Analytics />
         <SpeedInsights />
       </body>
