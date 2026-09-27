@@ -5,6 +5,9 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { ScrollProgress } from "@/components/motion/scroll-progress";
 import { SmoothScroll } from "@/components/motion/smooth-scroll";
+import { CommandPalette } from "@/components/command-palette";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { site } from "@/lib/site";
 
 const inter = Inter({
@@ -50,6 +53,48 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${site.url}/#organization`,
+      name: site.name,
+      url: site.url,
+      slogan: site.tagline,
+      description: site.description,
+      logo: `${site.url}/icon`,
+      sameAs: [],
+      contactPoint: [
+        {
+          "@type": "ContactPoint",
+          email: site.contact.email,
+          contactType: "Sales enquiries",
+          areaServed: "AU",
+          availableLanguage: ["English"],
+        },
+      ],
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": `${site.url}/#software`,
+      name: site.name,
+      applicationCategory: "BusinessApplication",
+      operatingSystem: "Web",
+      description: site.description,
+      offers: { "@type": "Offer", price: "0", priceCurrency: "AUD", availability: "https://schema.org/InStock", url: `${site.url}/demonstration` },
+      publisher: { "@id": `${site.url}/#organization` },
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${site.url}/#website`,
+      url: site.url,
+      name: site.name,
+      publisher: { "@id": `${site.url}/#organization` },
+    },
+  ],
+};
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
@@ -57,6 +102,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${inter.variable} ${interTight.variable} ${jetbrains.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-[color:var(--color-canvas)] text-[color:var(--color-ink)]">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <SmoothScroll />
         <ScrollProgress />
         <SiteHeader />
@@ -64,6 +113,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           {children}
         </main>
         <SiteFooter />
+        <CommandPalette />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

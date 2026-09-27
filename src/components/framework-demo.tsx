@@ -1,0 +1,497 @@
+"use client";
+
+import { motion, AnimatePresence, useReducedMotion } from "motion/react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { ArrowRight, Check, Layers3, Fingerprint, Sparkles } from "lucide-react";
+import Link from "next/link";
+import { Container, Section, Eyebrow } from "@/components/ui/container";
+import { SplitText } from "@/components/motion/split-text";
+import { Reveal } from "@/components/motion/reveal";
+import { Magnetic } from "@/components/motion/magnetic";
+import { cn } from "@/lib/cn";
+
+type Scenario = {
+  domain: string;
+  standard: string;
+  source: string;
+  concepts: { label: string; kind: "concept" | "control" | "check" }[];
+  edges: [number, number][];
+  verifiedIndex: number[];
+};
+
+const scenarios: Scenario[] = [
+  {
+    domain: "Financial services",
+    standard: "AUSTRAC AML/CTF · APRA CPS 234",
+    source:
+      "A reporting entity must identify money laundering and terrorism financing risks arising from its designated services, and put in place a risk-based programme of controls proportionate to those risks. Customer identification procedures must occur before providing a designated service, with enhanced due diligence for higher-risk customers.",
+    concepts: [
+      { label: "Reporting entity", kind: "concept" },
+      { label: "Designated services", kind: "concept" },
+      { label: "ML/TF risk", kind: "concept" },
+      { label: "Risk-based programme", kind: "control" },
+      { label: "Customer identification", kind: "control" },
+      { label: "Enhanced due diligence", kind: "control" },
+      { label: "Higher-risk customer", kind: "concept" },
+      { label: "Timing of identification", kind: "check" },
+      { label: "Proportionality test", kind: "check" },
+    ],
+    edges: [
+      [0, 1],
+      [1, 2],
+      [2, 3],
+      [3, 4],
+      [4, 7],
+      [2, 6],
+      [6, 5],
+      [3, 8],
+    ],
+    verifiedIndex: [4, 5, 7],
+  },
+  {
+    domain: "Critical infrastructure",
+    standard: "ISO 45001 · Safety case",
+    source:
+      "Before commencing any confined space entry, a competent person must complete an atmospheric test, verify isolation of energy sources, confirm rescue provisions, and issue a written entry permit. Continuous monitoring is required for the duration of the entry. All personnel entering the space must hold current confined space training.",
+    concepts: [
+      { label: "Confined space entry", kind: "concept" },
+      { label: "Competent person", kind: "concept" },
+      { label: "Atmospheric test", kind: "control" },
+      { label: "Energy isolation", kind: "control" },
+      { label: "Rescue provisions", kind: "control" },
+      { label: "Written entry permit", kind: "control" },
+      { label: "Continuous monitoring", kind: "check" },
+      { label: "Confined space training", kind: "concept" },
+      { label: "Permit currency", kind: "check" },
+    ],
+    edges: [
+      [0, 1],
+      [0, 5],
+      [1, 2],
+      [1, 3],
+      [1, 4],
+      [5, 8],
+      [0, 6],
+      [1, 7],
+    ],
+    verifiedIndex: [2, 3, 4, 5],
+  },
+  {
+    domain: "Healthcare",
+    standard: "NSQHS Std 5 · Medication safety",
+    source:
+      "The clinician verifies the patient's identity using at least three approved identifiers, checks the medication order against the medication chart, confirms allergies and adverse reactions on the medication record, and administers the medication using the seven rights. All administration is documented immediately on completion.",
+    concepts: [
+      { label: "Patient identity", kind: "concept" },
+      { label: "Three identifiers", kind: "check" },
+      { label: "Medication order", kind: "concept" },
+      { label: "Medication chart check", kind: "control" },
+      { label: "Allergy verification", kind: "control" },
+      { label: "Adverse reaction record", kind: "concept" },
+      { label: "Seven rights", kind: "control" },
+      { label: "Immediate documentation", kind: "check" },
+    ],
+    edges: [
+      [0, 1],
+      [0, 2],
+      [2, 3],
+      [0, 4],
+      [4, 5],
+      [3, 6],
+      [6, 7],
+    ],
+    verifiedIndex: [1, 3, 4, 6],
+  },
+];
+
+type Phase = "typing" | "extracting" | "structuring" | "verifying" | "complete";
+
+export function FrameworkDemo() {
+  const reduce = useReducedMotion();
+  const [scenarioIndex, setScenarioIndex] = useState(0);
+  const scenario = scenarios[scenarioIndex];
+
+  const [phase, setPhase] = useState<Phase>("typing");
+  const [charCount, setCharCount] = useState(0);
+  const [conceptsShown, setConceptsShown] = useState(0);
+  const [edgesShown, setEdgesShown] = useState(0);
+  const [verifiedShown, setVerifiedShown] = useState(0);
+
+  // Auto-advance the scripted timeline
+  useEffect(() => {
+    if (reduce) {
+      // Skip animation for reduced motion — show completed state
+      setCharCount(scenario.source.length);
+      setConceptsShown(scenario.concepts.length);
+      setEdgesShown(scenario.edges.length);
+      setVerifiedShown(scenario.verifiedIndex.length);
+      setPhase("complete");
+      return;
+    }
+
+    let mounted = true;
+    let raf = 0;
+    const timers: number[] = [];
+
+    // Reset
+    setPhase("typing");
+    setCharCount(0);
+    setConceptsShown(0);
+    setEdgesShown(0);
+    setVerifiedShown(0);
+
+    // 1. Typing (fast type-in of ~500 char source)
+    const perChar = 8; // ms
+    let i = 0;
+    const step = () => {
+      if (!mounted) return;
+      i += 4;
+      setCharCount(Math.min(i, scenario.source.length));
+      if (i >= scenario.source.length) {
+        timers.push(window.setTimeout(() => mounted && setPhase("extracting"), 350));
+      } else {
+        timers.push(window.setTimeout(step, perChar));
+      }
+    };
+    step();
+
+    // 2. Extract concepts (~140ms each)
+    timers.push(
+      window.setTimeout(() => {
+        if (!mounted) return;
+        for (let c = 0; c <= scenario.concepts.length; c++) {
+          timers.push(window.setTimeout(() => mounted && setConceptsShown(c), c * 140));
+        }
+        // 3. Structure — draw edges
+        const edgesStart = scenario.concepts.length * 140 + 400;
+        timers.push(
+          window.setTimeout(() => {
+            if (!mounted) return;
+            setPhase("structuring");
+            for (let e = 0; e <= scenario.edges.length; e++) {
+              timers.push(window.setTimeout(() => mounted && setEdgesShown(e), e * 180));
+            }
+            // 4. Verify
+            const verifyStart = scenario.edges.length * 180 + 500;
+            timers.push(
+              window.setTimeout(() => {
+                if (!mounted) return;
+                setPhase("verifying");
+                for (let v = 0; v <= scenario.verifiedIndex.length; v++) {
+                  timers.push(window.setTimeout(() => mounted && setVerifiedShown(v), v * 260));
+                }
+                const completeAt = scenario.verifiedIndex.length * 260 + 700;
+                timers.push(window.setTimeout(() => mounted && setPhase("complete"), completeAt));
+                // 5. Cycle to next scenario after 3s of "complete"
+                timers.push(
+                  window.setTimeout(() => {
+                    if (!mounted) return;
+                    setScenarioIndex((n) => (n + 1) % scenarios.length);
+                  }, completeAt + 3600),
+                );
+              }, verifyStart),
+            );
+          }, edgesStart),
+        );
+      }, scenario.source.length * (perChar / 4) + 400),
+    );
+
+    return () => {
+      mounted = false;
+      timers.forEach((t) => clearTimeout(t));
+      cancelAnimationFrame(raf);
+    };
+  }, [scenarioIndex, reduce, scenario.source.length, scenario.concepts.length, scenario.edges.length, scenario.verifiedIndex.length, scenario.source]);
+
+  const typedText = useMemo(() => scenario.source.slice(0, charCount), [scenario.source, charCount]);
+
+  return (
+    <Section className="relative overflow-hidden bg-[color:var(--color-canvas-warm)]" spacing="loose">
+      <div className="absolute inset-0 -z-10 grid-lattice opacity-40" aria-hidden />
+      <Container>
+        <div className="mb-14 max-w-[720px]">
+          <Eyebrow>Live · The Foundry, on your material</Eyebrow>
+          <SplitText as="h2" className="text-display-2 mt-5 max-w-[16ch]" stagger={0.05}>
+            Watch the framework build itself.
+          </SplitText>
+          <Reveal delay={0.35}>
+            <p className="text-lede mt-6 max-w-[52ch]">
+              A live illustration of what happens when the Foundry meets your source
+              material — cycling through three real-world subjects. In a real
+              engagement, you bring the policy. It builds the framework.
+            </p>
+          </Reveal>
+        </div>
+
+        <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] gap-6 items-start">
+          {/* LEFT: source input pane */}
+          <div className="relative rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white overflow-hidden">
+            <div className="flex items-center justify-between px-5 py-3 border-b border-[color:var(--color-hairline)] bg-[color:var(--color-canvas-tint)]">
+              <div className="flex items-center gap-2 text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-ink-faint)]">
+                <span className="inline-block h-1.5 w-1.5 rounded-full bg-[color:var(--color-forge)]" style={{ animation: "forge-glow 2s ease-in-out infinite" }} />
+                Source
+              </div>
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={scenario.domain}
+                  initial={{ opacity: 0, y: 4 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -4 }}
+                  transition={{ duration: 0.3 }}
+                  className="text-[11px] font-medium text-[color:var(--color-ink-soft)] font-[family-name:var(--font-jetbrains)] tracking-[0.05em]"
+                >
+                  {scenario.domain}
+                </motion.div>
+              </AnimatePresence>
+            </div>
+            <div className="p-5 min-h-[280px] md:min-h-[340px] font-[family-name:var(--font-jetbrains)] text-[13px] leading-[1.7] text-[color:var(--color-ink-soft)] relative">
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={scenarioIndex}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.25 }}
+                >
+                  {typedText}
+                  {phase === "typing" && (
+                    <span className="inline-block w-[8px] h-[16px] align-middle -mt-1 bg-[color:var(--color-forge)] animate-pulse" />
+                  )}
+                </motion.div>
+              </AnimatePresence>
+            </div>
+            <div className="flex items-center justify-between px-5 py-3 border-t border-[color:var(--color-hairline)] text-[11px] text-[color:var(--color-ink-faint)] font-[family-name:var(--font-jetbrains)] tracking-[0.05em]">
+              <span>{scenario.standard}</span>
+              <span>{scenario.source.length} chars</span>
+            </div>
+          </div>
+
+          {/* RIGHT: framework canvas */}
+          <div className="relative rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-[color:var(--color-ink)] text-white overflow-hidden">
+            <div className="flex items-center justify-between px-5 py-3 border-b border-white/8 bg-white/[0.02]">
+              <div className="flex items-center gap-2 text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-white/50">
+                <PhaseIndicator phase={phase} />
+                Framework
+              </div>
+              <div className="flex items-center gap-1.5">
+                {scenarios.map((_, i) => (
+                  <button
+                    key={i}
+                    aria-label={`Scenario ${i + 1}`}
+                    onClick={() => setScenarioIndex(i)}
+                    className={cn(
+                      "h-1 rounded-full transition-all",
+                      i === scenarioIndex
+                        ? "w-6 bg-[color:var(--color-forge)]"
+                        : "w-3 bg-white/15 hover:bg-white/30",
+                    )}
+                  />
+                ))}
+              </div>
+            </div>
+
+            {/* Canvas */}
+            <div className="relative aspect-[4/3] md:aspect-[5/4] w-full">
+              <FrameworkCanvas
+                scenario={scenario}
+                conceptsShown={conceptsShown}
+                edgesShown={edgesShown}
+                verifiedShown={verifiedShown}
+              />
+            </div>
+
+            {/* Metrics strip */}
+            <div className="grid grid-cols-3 border-t border-white/8 divide-x divide-white/8 text-white/60">
+              <MetricPill label="Concepts" value={conceptsShown} active={phase === "extracting"} />
+              <MetricPill label="Relationships" value={edgesShown} active={phase === "structuring"} />
+              <MetricPill label="Verified" value={verifiedShown} active={phase === "verifying" || phase === "complete"} />
+            </div>
+          </div>
+        </div>
+
+        <Reveal delay={0.2}>
+          <div className="mt-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <p className="text-[13px] text-[color:var(--color-ink-muted)] max-w-[46ch] leading-relaxed">
+              An illustrative loop. In a real engagement, the Foundry runs on your material —
+              and the framework it produces is yours to keep.
+            </p>
+            <Magnetic strength={0.22}>
+              <Link
+                href="/demonstration"
+                className="group inline-flex items-center gap-2 rounded-[var(--radius-md)] bg-[color:var(--color-ink)] text-white px-6 h-12 text-[14px] font-medium hover:bg-[color:var(--color-forge)] transition-colors"
+              >
+                Run it on your policy
+                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden />
+              </Link>
+            </Magnetic>
+          </div>
+        </Reveal>
+      </Container>
+    </Section>
+  );
+}
+
+function PhaseIndicator({ phase }: { phase: Phase }) {
+  const label: Record<Phase, string> = {
+    typing: "Reading",
+    extracting: "Extracting",
+    structuring: "Structuring",
+    verifying: "Verifying",
+    complete: "Complete",
+  };
+  const icon: Record<Phase, React.ReactNode> = {
+    typing: <Sparkles className="h-3 w-3 text-[color:var(--color-forge)]" />,
+    extracting: <Layers3 className="h-3 w-3 text-[color:var(--color-forge)]" />,
+    structuring: <Layers3 className="h-3 w-3 text-[color:var(--color-forge)]" />,
+    verifying: <Fingerprint className="h-3 w-3 text-[color:var(--color-forge)]" />,
+    complete: <Check className="h-3 w-3 text-[color:var(--color-forge)]" />,
+  };
+  return (
+    <span className="inline-flex items-center gap-1.5 text-white/60">
+      {icon[phase]}
+      <AnimatePresence mode="wait">
+        <motion.span
+          key={phase}
+          initial={{ opacity: 0, y: 4 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -4 }}
+          transition={{ duration: 0.2 }}
+          className="text-[10.5px] tracking-[0.14em]"
+        >
+          {label[phase]}
+        </motion.span>
+      </AnimatePresence>
+    </span>
+  );
+}
+
+function MetricPill({ label, value, active }: { label: string; value: number; active: boolean }) {
+  return (
+    <div className="px-4 py-3">
+      <div className="text-[10px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)]">
+        {label}
+      </div>
+      <motion.div
+        key={value}
+        initial={{ scale: 0.9, opacity: 0.6 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 0.3, type: "spring" }}
+        className={cn(
+          "mt-1 text-[20px] font-[family-name:var(--font-display)] font-semibold tracking-tight leading-none transition-colors",
+          active ? "text-[color:var(--color-forge)]" : "text-white",
+        )}
+      >
+        {value}
+      </motion.div>
+    </div>
+  );
+}
+
+function FrameworkCanvas({
+  scenario,
+  conceptsShown,
+  edgesShown,
+  verifiedShown,
+}: {
+  scenario: Scenario;
+  conceptsShown: number;
+  edgesShown: number;
+  verifiedShown: number;
+}) {
+  // Deterministic-ish positions: place concepts on a radial layout
+  const positions = useMemo(() => {
+    const n = scenario.concepts.length;
+    const cx = 250;
+    const cy = 200;
+    return scenario.concepts.map((_, i) => {
+      // Center node
+      if (i === 0) return { x: cx, y: cy };
+      const ring = i <= n / 2 ? 1 : 2;
+      const ringCount = ring === 1 ? Math.floor(n / 2) : Math.ceil(n / 2) - 1;
+      const idxInRing = ring === 1 ? i - 1 : i - Math.floor(n / 2) - 1;
+      const angle = (idxInRing / ringCount) * Math.PI * 2 - Math.PI / 2;
+      const r = ring === 1 ? 90 : 155;
+      return { x: cx + Math.cos(angle) * r, y: cy + Math.sin(angle) * r };
+    });
+  }, [scenario.concepts]);
+
+  const verifiedSet = useMemo(() => new Set(scenario.verifiedIndex.slice(0, verifiedShown)), [scenario.verifiedIndex, verifiedShown]);
+
+  return (
+    <svg viewBox="0 0 500 400" className="w-full h-full">
+      {/* Grid backdrop */}
+      <defs>
+        <pattern id="fw-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+          <path d="M 24 0 L 0 0 0 24" fill="none" stroke="rgba(255,255,255,0.04)" strokeWidth="1" />
+        </pattern>
+        <radialGradient id="verified-glow" cx="0.5" cy="0.5" r="0.5">
+          <stop offset="0" stopColor="rgba(239,103,4,0.5)" />
+          <stop offset="1" stopColor="rgba(239,103,4,0)" />
+        </radialGradient>
+      </defs>
+      <rect width="500" height="400" fill="url(#fw-grid)" />
+
+      {/* Edges */}
+      {scenario.edges.slice(0, edgesShown).map(([a, b], i) => {
+        const from = positions[a];
+        const to = positions[b];
+        if (!from || !to) return null;
+        return (
+          <motion.line
+            key={i}
+            x1={from.x}
+            y1={from.y}
+            x2={to.x}
+            y2={to.y}
+            stroke="rgba(255,255,255,0.28)"
+            strokeWidth="1.2"
+            initial={{ pathLength: 0, opacity: 0 }}
+            animate={{ pathLength: 1, opacity: 1 }}
+            transition={{ duration: 0.55, ease: [0.25, 1, 0.5, 1] }}
+          />
+        );
+      })}
+
+      {/* Concept nodes */}
+      {positions.slice(0, conceptsShown).map((p, i) => {
+        const c = scenario.concepts[i];
+        const isVerified = verifiedSet.has(i);
+        const size = i === 0 ? 12 : c.kind === "check" ? 6 : 8;
+        return (
+          <motion.g
+            key={`${scenario.domain}-${i}`}
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.35, ease: [0.25, 1, 0.5, 1] }}
+          >
+            {isVerified && <circle cx={p.x} cy={p.y} r={size + 12} fill="url(#verified-glow)" />}
+            <motion.circle
+              cx={p.x}
+              cy={p.y}
+              r={size}
+              fill={isVerified ? "#ef6704" : c.kind === "control" ? "#8b93a3" : c.kind === "check" ? "#5b6272" : "#e6e8ee"}
+              stroke={isVerified ? "#ff7d1a" : "rgba(255,255,255,0.12)"}
+              strokeWidth={isVerified ? 1.5 : 1}
+              animate={isVerified ? { opacity: [0.9, 1, 0.9] } : undefined}
+              transition={isVerified ? { duration: 2, repeat: Infinity, ease: "easeInOut" } : undefined}
+            />
+            {i < 6 && (
+              <motion.text
+                x={p.x + size + 6}
+                y={p.y + 3}
+                fontSize="9"
+                fill={isVerified ? "#ff7d1a" : "rgba(255,255,255,0.75)"}
+                fontFamily="var(--font-jetbrains)"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.2, duration: 0.3 }}
+              >
+                {c.label}
+              </motion.text>
+            )}
+          </motion.g>
+        );
+      })}
+    </svg>
+  );
+}

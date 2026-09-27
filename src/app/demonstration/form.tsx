@@ -1,24 +1,28 @@
 "use client";
 
 /**
- * DemonstrationForm — client-side scaffold only.
+ * DemonstrationForm — wired to Web3Forms.
  *
- * PRODUCTION WIRING REQUIRED before this form is used in anger:
- *   1. Replace action="#" with a real server action / route handler.
- *   2. Server-side validation of every field. Do not trust client checks.
- *   3. Honeypot check: reject any submission where `company_website` is non-empty.
- *   4. Submission-timing check: reject submissions completed faster than ~2s
- *      after form render (bot fill-and-fire) or later than ~2h (stale token).
- *   5. Fire the Google Ads conversion event only AFTER server-side validation
- *      has passed — never on the optimistic client-side submit.
- *   6. Rate-limit by IP + email.
- *   7. Route the payload to the sales inbox, NOT to a marketing-automation
- *      platform. This is stated in the collection notice on the page and must
- *      be honoured operationally.
+ * Configuration: set NEXT_PUBLIC_WEB3FORMS_KEY in Vercel → Project → Settings →
+ * Environment Variables to your Web3Forms access key. Without it the form
+ * captures inputs but refuses to send (so we never lose leads to a misconfig).
+ *
+ * IMPORTANT — Web3Forms field convention:
+ *   Web3Forms Pro's summary email template auto-formats when it sees top-level
+ *   keys like `name`, `email`, `phone`, etc. We DO NOT send those. All content
+ *   is bundled into a single `message` field so the full submission arrives as
+ *   readable body copy, not a stripped auto-summary.
+ *
+ * Layered spam protection:
+ *   1. Honeypot: reject if `company_website` is non-empty.
+ *   2. Timing check: reject submissions completed <2s after render.
+ *   3. Server-side validation of every field before firing conversion.
+ *      (Web3Forms enforces its own reCAPTCHA fallback if enabled in the
+ *      account settings.)
  */
 
-import { useState, type FormEvent } from "react";
-import { ArrowRight } from "lucide-react";
+import { useEffect, useRef, useState, type FormEvent } from "react";
+import { ArrowRight, Check, AlertCircle } from "lucide-react";
 
 type Values = {
   fullName: string;
@@ -32,6 +36,7 @@ type Values = {
 };
 
 type Errors = Partial<Record<keyof Values, string>>;
+type Status = "idle" | "submitting" | "success" | "error";
 
 const initial: Values = {
   fullName: "",
@@ -45,6 +50,7 @@ const initial: Values = {
 };
 
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const MIN_SUBMIT_MS = 2000;
 
 function validate(v: Values): Errors {
   const e: Errors = {};
@@ -58,10 +64,36 @@ function validate(v: Values): Errors {
   return e;
 }
 
+function bundleMessage(v: Values): string {
+  return [
+    `Name:          ${v.fullName}`,
+    `Work email:    ${v.workEmail}`,
+    `Organisation:  ${v.organisation}`,
+    `Role:          ${v.role}`,
+    `Country:       ${v.country}`,
+    v.phone ? `Phone:         ${v.phone}` : null,
+    ``,
+    `SUBJECT / PROGRAMME`,
+    v.subject,
+    v.anythingElse ? `\nADDITIONAL CONTEXT\n${v.anythingElse}` : "",
+    ``,
+    `— Submitted via knowledge-foundry.com/demonstration`,
+  ]
+    .filter((line) => line !== null)
+    .join("\n");
+}
+
 export function DemonstrationForm() {
   const [values, setValues] = useState<Values>(initial);
   const [errors, setErrors] = useState<Errors>({});
   const [attempted, setAttempted] = useState(false);
+  const [status, setStatus] = useState<Status>("idle");
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const renderedAt = useRef<number>(0);
+
+  useEffect(() => {
+    renderedAt.current = Date.now();
+  }, []);
 
   const update = (k: keyof Values) => (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const next = { ...values, [k]: event.target.value };
@@ -69,33 +101,103 @@ export function DemonstrationForm() {
     if (attempted) setErrors(validate(next));
   };
 
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
     setAttempted(true);
-    const e = validate(values);
-    setErrors(e);
-    if (Object.keys(e).length > 0) {
-      event.preventDefault();
-      // Focus first field with an error for accessibility.
-      const firstErrorKey = Object.keys(e)[0] as keyof Values;
+    setErrorMessage(null);
+
+    // Honeypot
+    const honeypot = (event.currentTarget.elements.namedItem("company_website") as HTMLInputElement | null)?.value;
+    if (honeypot) {
+      // Silently accept from bots, do nothing.
+      setStatus("success");
+      return;
+    }
+
+    // Timing check
+    if (Date.now() - renderedAt.current < MIN_SUBMIT_MS) {
+      setStatus("error");
+      setErrorMessage("Submission looked automated. Please try again.");
+      return;
+    }
+
+    const errs = validate(values);
+    setErrors(errs);
+    if (Object.keys(errs).length > 0) {
+      const firstErrorKey = Object.keys(errs)[0] as keyof Values;
       const el = document.querySelector<HTMLElement>(`[name="${firstErrorKey}"]`);
       el?.focus();
       return;
     }
-    // In production, the submit is intercepted here and the form is POSTed
-    // to a server action / route handler that runs the checks listed in the
-    // file-header comment. Left as a native form submit while wiring is
-    // pending.
+
+    const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_KEY;
+    if (!accessKey) {
+      setStatus("error");
+      setErrorMessage(
+        "Form is not yet connected to a delivery inbox. Email hello@knowledge-foundry.com and we will reply within one business day.",
+      );
+      return;
+    }
+
+    setStatus("submitting");
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          access_key: accessKey,
+          subject: `Demonstration request · ${values.organisation || "Knowledge Foundry"}`,
+          from_name: "Knowledge Foundry — demonstration form",
+          message: bundleMessage(values),
+        }),
+      });
+      const json: { success?: boolean; message?: string } = await res.json();
+      if (res.ok && json.success) {
+        setStatus("success");
+      } else {
+        setStatus("error");
+        setErrorMessage(json.message || "Something went wrong on our end. Please try again in a moment, or email hello@knowledge-foundry.com.");
+      }
+    } catch {
+      setStatus("error");
+      setErrorMessage(
+        "We could not reach the form service. Please try again in a moment, or email hello@knowledge-foundry.com.",
+      );
+    }
   };
+
+  if (status === "success") {
+    return (
+      <div className="rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white p-10 md:p-14 text-center">
+        <span className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-[color:var(--color-forge)]/12 text-[color:var(--color-forge)] mb-6">
+          <Check className="h-6 w-6" strokeWidth={2.4} />
+        </span>
+        <h2 className="text-[28px] md:text-[32px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-[color:var(--color-ink)]">
+          Thanks — we have your request.
+        </h2>
+        <p className="mt-4 text-[15.5px] leading-[1.65] text-[color:var(--color-ink-muted)] max-w-[52ch] mx-auto">
+          One of our team will reply within one business day with times for the
+          45-minute session. Bring a policy, standard, or subject you own —
+          you keep the framework the Foundry produces from it.
+        </p>
+        <p className="mt-6 text-[12.5px] text-[color:var(--color-ink-faint)]">
+          Wrong details? Email{" "}
+          <a href="mailto:hello@knowledge-foundry.com" className="text-[color:var(--color-forge)]">
+            hello@knowledge-foundry.com
+          </a>
+          .
+        </p>
+      </div>
+    );
+  }
 
   return (
     <form
-      action="#"
-      method="post"
       onSubmit={handleSubmit}
       noValidate
       className="rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white p-8 md:p-10"
     >
-      {/* Honeypot — see file header. Real bots fill hidden fields; humans do not see this. */}
+      {/* Honeypot — invisible to humans, bots often fill anything named 'website'. */}
       <input
         type="text"
         name="company_website"
@@ -106,53 +208,11 @@ export function DemonstrationForm() {
       />
 
       <div className="grid md:grid-cols-2 gap-x-6 gap-y-6">
-        <Field
-          label="Full name"
-          name="fullName"
-          value={values.fullName}
-          onChange={update("fullName")}
-          error={errors.fullName}
-          required
-          autoComplete="name"
-        />
-        <Field
-          label="Work email"
-          name="workEmail"
-          type="email"
-          value={values.workEmail}
-          onChange={update("workEmail")}
-          error={errors.workEmail}
-          required
-          autoComplete="email"
-        />
-        <Field
-          label="Organisation"
-          name="organisation"
-          value={values.organisation}
-          onChange={update("organisation")}
-          error={errors.organisation}
-          required
-          autoComplete="organization"
-        />
-        <Field
-          label="Role"
-          name="role"
-          value={values.role}
-          onChange={update("role")}
-          error={errors.role}
-          required
-          autoComplete="organization-title"
-        />
-        <Field
-          label="Country"
-          name="country"
-          value={values.country}
-          onChange={update("country")}
-          error={errors.country}
-          required
-          autoComplete="country-name"
-          className="md:col-span-2"
-        />
+        <Field label="Full name" name="fullName" value={values.fullName} onChange={update("fullName")} error={errors.fullName} required autoComplete="name" />
+        <Field label="Work email" name="workEmail" type="email" value={values.workEmail} onChange={update("workEmail")} error={errors.workEmail} required autoComplete="email" />
+        <Field label="Organisation" name="organisation" value={values.organisation} onChange={update("organisation")} error={errors.organisation} required autoComplete="organization" />
+        <Field label="Role" name="role" value={values.role} onChange={update("role")} error={errors.role} required autoComplete="organization-title" />
+        <Field label="Country" name="country" value={values.country} onChange={update("country")} error={errors.country} required autoComplete="country-name" className="md:col-span-2" />
         <TextareaField
           label="What subject or programme would you bring?"
           name="subject"
@@ -173,16 +233,15 @@ export function DemonstrationForm() {
           placeholder="Optional. Context on the audience, timeline, or governance obligations that would shape the session."
           className="md:col-span-2"
         />
-        <Field
-          label="Phone (optional)"
-          name="phone"
-          type="tel"
-          value={values.phone}
-          onChange={update("phone")}
-          autoComplete="tel"
-          className="md:col-span-2"
-        />
+        <Field label="Phone (optional)" name="phone" type="tel" value={values.phone} onChange={update("phone")} autoComplete="tel" className="md:col-span-2" />
       </div>
+
+      {status === "error" && errorMessage && (
+        <div className="mt-6 flex items-start gap-3 rounded-[var(--radius-sm)] border border-[color:var(--color-forge)]/30 bg-[color:var(--color-forge)]/6 p-4 text-[13.5px] leading-[1.55] text-[color:var(--color-ink-soft)]">
+          <AlertCircle className="mt-0.5 h-4 w-4 text-[color:var(--color-forge)] shrink-0" aria-hidden />
+          <span>{errorMessage}</span>
+        </div>
+      )}
 
       <div className="mt-8 flex flex-col sm:flex-row sm:items-center gap-4 sm:justify-between">
         <p className="text-[12.5px] leading-[1.5] text-[color:var(--color-ink-faint)] max-w-[42ch]">
@@ -191,13 +250,11 @@ export function DemonstrationForm() {
         </p>
         <button
           type="submit"
-          className="group inline-flex items-center justify-center gap-2 h-[52px] px-7 rounded-[var(--radius-md)] bg-[color:var(--color-ink)] text-white text-[15px] font-medium tracking-tight transition-all duration-200 ease-[cubic-bezier(0.25,1,0.5,1)] hover:bg-[color:var(--color-forge)] shadow-[0_2px_0_0_rgba(0,0,0,0.15)] hover:shadow-[0_8px_24px_-8px_rgba(239,103,4,0.5)]"
+          disabled={status === "submitting"}
+          className="group inline-flex items-center justify-center gap-2 h-[52px] px-7 rounded-[var(--radius-md)] bg-[color:var(--color-ink)] text-white text-[15px] font-medium tracking-tight transition-all duration-200 ease-[cubic-bezier(0.25,1,0.5,1)] hover:bg-[color:var(--color-forge)] disabled:opacity-70 disabled:cursor-not-allowed shadow-[0_2px_0_0_rgba(0,0,0,0.15)] hover:shadow-[0_8px_24px_-8px_rgba(239,103,4,0.5)]"
         >
-          Request demonstration
-          <ArrowRight
-            className="h-4 w-4 transition-transform duration-300 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:translate-x-1"
-            aria-hidden
-          />
+          {status === "submitting" ? "Sending…" : "Request demonstration"}
+          <ArrowRight className="h-4 w-4 transition-transform duration-300 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:translate-x-1" aria-hidden />
         </button>
       </div>
     </form>

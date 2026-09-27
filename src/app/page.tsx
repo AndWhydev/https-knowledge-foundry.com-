@@ -21,6 +21,7 @@ import { FloatingCubes } from "@/components/motion/floating-cubes";
 import { ShaderGradient } from "@/components/motion/shader-gradient";
 import { StickyProcess } from "@/components/sticky-process";
 import { BentoOutputs } from "@/components/bento-outputs";
+import { FrameworkDemo } from "@/components/framework-demo";
 
 export const metadata: Metadata = {
   title: "Knowledge Foundry — Structured knowledge. Deliberate instruction.",
@@ -140,6 +141,9 @@ export default function HomePage() {
           </div>
         </Container>
       </section>
+
+      {/* FRAMEWORK DEMO — live scripted walkthrough */}
+      <FrameworkDemo />
 
       {/* PROOF STRIP */}
       <Section spacing="compact" className="border-y border-[color:var(--color-hairline)] bg-[color:var(--color-canvas-warm)]">
@@ -289,6 +293,25 @@ export default function HomePage() {
           </div>
         </Container>
       </section>
+
+      {/* CLIENT'S SYSTEM DIAGRAM — the authoritative product story */}
+      <Section spacing="loose" className="relative overflow-hidden">
+        <Container>
+          <div className="max-w-[640px] mb-12">
+            <Eyebrow>The system, top to bottom</Eyebrow>
+            <SplitText as="h2" className="text-display-2 mt-5 max-w-[18ch]" stagger={0.05}>
+              Inputs on the left. Evidence on the right. Structure in between.
+            </SplitText>
+            <Reveal delay={0.35}>
+              <p className="text-lede mt-6 max-w-[52ch]">
+                Every input the Foundry accepts, every stage it runs, every output it
+                produces — laid out on a single page. Nothing hidden, nothing implied.
+              </p>
+            </Reveal>
+          </div>
+          <AnimatedEditorial src="original/foundry-system.png" parallax={30} float={false} frame={false} />
+        </Container>
+      </Section>
 
       {/* ANATOMY — editorial still with parallax */}
       <Section className="bg-[color:var(--color-canvas-warm)] relative overflow-hidden" spacing="loose">
