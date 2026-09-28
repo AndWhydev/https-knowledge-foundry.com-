@@ -11,6 +11,7 @@ import { ProseBlock } from "@/components/solution/prose-block";
 import { HeroLattice } from "@/components/hero-lattice";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/platform" },
   title: "The Platform. How Knowledge Foundry works",
   description:
     "The Knowledge Foundry platform. Ten capabilities that turn subjects into structured learning systems. Verifiable and ready for audit. Framework first. Content second.",

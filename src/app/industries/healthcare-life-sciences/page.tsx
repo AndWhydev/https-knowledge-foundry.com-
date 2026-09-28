@@ -17,6 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industries/healthcare-life-sciences" },
   title: "Healthcare & Life Sciences. Clinical governance and credentialing, evidenced",
   description:
     "Clinical governance, credentialing, AHPRA CPD, and TGA advertising rules mapped to structured programmes. Competency verified, evidence exportable, ready for audit by design.",

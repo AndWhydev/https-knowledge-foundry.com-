@@ -5,7 +5,8 @@ import { Reveal } from "@/components/motion/reveal";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Terms of use. Knowledge Foundry",
+  alternates: { canonical: "/terms" },
+  title: "Terms of use",
   description:
     "The terms that govern use of the Knowledge Foundry website. Customer use of the Knowledge Foundry platform is governed separately by the master services agreement.",
 };

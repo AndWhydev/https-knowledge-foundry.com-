@@ -17,6 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industries/energy-resources" },
   title: "Energy & Resources. Safety critical competency, verified by construction",
   description:
     "Alignment to ISO 45001, verification based on competency, and structured operational procedures for high consequence roles. Execution is a property of the system, not of the operator.",

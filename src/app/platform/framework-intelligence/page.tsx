@@ -10,6 +10,7 @@ import { Related } from "@/components/solution/related";
 import { HeroTerminal } from "@/components/heros/hero-terminal";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/platform/framework-intelligence" },
   title: "Framework Intelligence. Structure the subject before writing",
   description:
     "Framework Intelligence maps concepts, relationships, progression, and assessment logic. Instruction is written after that, not before. Structure governs everything downstream.",

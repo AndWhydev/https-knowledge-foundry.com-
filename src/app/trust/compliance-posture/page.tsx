@@ -15,6 +15,7 @@ import { Reveal } from "@/components/motion/reveal";
 import { Related } from "@/components/solution/related";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/trust/compliance-posture" },
   title: "Compliance posture. Data handling, subprocessors, DPA",
   description:
     "The data handling programme at Knowledge Foundry. Subprocessors, data processing agreement, retention, residency, and alignment to the Australian Privacy Act and cross border transfer standards.",

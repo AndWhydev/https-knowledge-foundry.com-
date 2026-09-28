@@ -17,6 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/platform/technical-overview" },
   title: "Technical Overview. For serious evaluators",
   description:
     "Architecture that puts knowledge first, structured generation, reproducibility, traceability, bounded automation, and verifiable delivery. The six principles behind Knowledge Foundry.",

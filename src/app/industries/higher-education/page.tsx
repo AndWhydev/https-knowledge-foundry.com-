@@ -17,6 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industries/higher-education" },
   title: "Higher Education. Course architecture aligned to TEQSA with defensible outcomes",
   description:
     "Course architecture aligned to the Higher Education Standards Framework. Constructive alignment, outcome mapping, and accreditation evidence produced by design.",

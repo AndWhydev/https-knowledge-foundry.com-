@@ -7,6 +7,7 @@ import { CtaBand } from "@/components/solution/cta-band";
 import { Reveal, RevealStagger, RevealItem } from "@/components/motion/reveal";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/insights" },
   title: "Insights. Structured knowledge and training defensible under audit",
   description:
     "Long form arguments on design that begins with the framework, hybrid verification, audit defence, and the provenance problem in AI generated compliance training.",
@@ -63,7 +64,7 @@ const articles: Article[] = [
     read: "7 min",
   },
   {
-    href: "/insights/framework first-methodology",
+    href: "/insights/framework-first-methodology",
     topic: "Methodology",
     title: "The four move methodology, in depth.",
     dek: "Interpret. Structure. Produce. Deliver. The rationale for each move, not the marketing.",

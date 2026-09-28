@@ -19,6 +19,7 @@ import { ProseBlock } from "@/components/solution/prose-block";
 import { HeroLattice } from "@/components/hero-lattice";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industries" },
   title: "Industries. Structured learning for regulated, evidenced sectors",
   description:
     "Financial services, healthcare, energy, government, professional services, and higher education. One architecture, six regulatory contexts, evidence built in.",

@@ -9,7 +9,8 @@ import {
 } from "@/components/layouts/editorial-article";
 
 export const metadata: Metadata = {
-  title: "SCORM is a transport, not a strategy. Knowledge Foundry",
+  alternates: { canonical: "/insights/scorm-is-a-transport-not-a-strategy" },
+  title: "SCORM is a transport, not a strategy",
   description:
     "SCORM and xAPI describe delivery. They do not say what a learner should know. Confusing the two produces confident vendors and undefended programmes.",
 };
@@ -23,7 +24,7 @@ const toc = [
 
 const related = [
   { eyebrow: "Insight", title: "Knowledge structure before content", href: "/insights/knowledge-structure-before-content" },
-  { eyebrow: "Insight", title: "The four move methodology, in depth", href: "/insights/framework first-methodology" },
+  { eyebrow: "Insight", title: "The four move methodology, in depth", href: "/insights/framework-first-methodology" },
   { eyebrow: "Capability", title: "Standards and accreditation", href: "/platform/standards-accreditation" },
 ];
 

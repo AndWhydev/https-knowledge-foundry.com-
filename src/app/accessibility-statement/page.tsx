@@ -5,7 +5,8 @@ import { Reveal } from "@/components/motion/reveal";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Accessibility statement. Knowledge Foundry",
+  alternates: { canonical: "/accessibility-statement" },
+  title: "Accessibility statement",
   description:
     "Knowledge Foundry commits to WCAG 2.1 Level AA. This statement covers scope, testing methodology, known limitations, and how to give feedback.",
 };

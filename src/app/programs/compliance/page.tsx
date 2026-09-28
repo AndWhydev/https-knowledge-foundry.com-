@@ -17,6 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/programs/compliance" },
   title: "Compliance Programs. Structured behavioural adherence, not awareness",
   description:
     "Regulatory and policy requirements translated into structured instruction at the resolution of a clause. Each control is tagged to a role, evidenced, and defensible under audit.",

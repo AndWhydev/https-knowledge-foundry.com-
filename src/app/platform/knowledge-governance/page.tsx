@@ -17,6 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/platform/knowledge-governance" },
   title: "Knowledge Governance. Human oversight, machine assistance",
   description:
     "Ownership, review cadences, approval gates, and drift detection are embedded in the workflow rather than bolted on. Automation without governance creates risk. Governance is the discipline that turns speed into confidence.",

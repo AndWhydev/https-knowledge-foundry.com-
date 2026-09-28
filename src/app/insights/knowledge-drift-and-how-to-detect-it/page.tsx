@@ -9,7 +9,8 @@ import {
 } from "@/components/layouts/editorial-article";
 
 export const metadata: Metadata = {
-  title: "Knowledge drift, and how to detect it. Knowledge Foundry",
+  alternates: { canonical: "/insights/knowledge-drift-and-how-to-detect-it" },
+  title: "Knowledge drift, and how to detect it",
   description:
     "What knowledge drift is, why it happens silently, and how design that begins with the framework surfaces it before an auditor does.",
 };
@@ -22,7 +23,7 @@ const toc = [
 ];
 
 const related = [
-  { eyebrow: "Insight", title: "The four move methodology, in depth", href: "/insights/framework first-methodology" },
+  { eyebrow: "Insight", title: "The four move methodology, in depth", href: "/insights/framework-first-methodology" },
   { eyebrow: "Insight", title: "AI generated content and compliance risk", href: "/insights/ai-generated-content-and-compliance-risk" },
   { eyebrow: "Capability", title: "Knowledge governance", href: "/platform/knowledge-governance" },
 ];

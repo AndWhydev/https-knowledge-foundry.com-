@@ -9,7 +9,8 @@ import {
 } from "@/components/layouts/editorial-article";
 
 export const metadata: Metadata = {
-  title: "A primer on hybrid verification. Knowledge Foundry",
+  alternates: { canonical: "/insights/hybrid-verification-primer" },
+  title: "A primer on hybrid verification",
   description:
     "What hybrid verification is, why it produces defensible evidence, and where it is the wrong instrument. A practical primer for compliance and L&D leaders.",
 };
@@ -23,7 +24,7 @@ const toc = [
 
 const related = [
   { eyebrow: "Insight", title: "What verification really measures", href: "/insights/what-verification-really-measures" },
-  { eyebrow: "Insight", title: "The four move methodology, in depth", href: "/insights/framework first-methodology" },
+  { eyebrow: "Insight", title: "The four move methodology, in depth", href: "/insights/framework-first-methodology" },
   { eyebrow: "Capability", title: "Verification and trust", href: "/platform/verification-trust" },
 ];
 

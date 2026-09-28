@@ -5,7 +5,8 @@ import { Reveal } from "@/components/motion/reveal";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Privacy policy. Knowledge Foundry",
+  alternates: { canonical: "/privacy" },
+  title: "Privacy policy",
   description:
     "How Knowledge Foundry collects, uses, discloses, and retains personal information, in line with the Australian Privacy Act 1988 and the Australian Privacy Principles.",
 };

@@ -17,6 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/industries/financial-services" },
   title: "Financial Services. APRA, ASIC, and licensing training that defends itself",
   description:
     "CPS 234, RG146, product knowledge, and conduct obligations mapped at clause level. Programme evidence structured for APRA review, ASIC surveillance, and internal audit.",

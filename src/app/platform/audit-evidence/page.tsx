@@ -17,6 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/platform/audit-evidence" },
   title: "Audit & Evidence Management. When they ask how you know, the answer is a file",
   description:
     "Content lineage, review history, standards mapping, approvals, and cryptographic integrity, captured as evidence and exportable as an audit pack. Each decision leaves a trace.",

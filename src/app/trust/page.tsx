@@ -18,6 +18,7 @@ import { Container, Section, Eyebrow } from "@/components/ui/container";
 import { Reveal } from "@/components/motion/reveal";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/trust" },
   title: "Trust Centre. Security, compliance and data handling",
   description:
     "How Knowledge Foundry is designed to protect customer data, meet enterprise-security expectations, and align to the standards regulated buyers require.",

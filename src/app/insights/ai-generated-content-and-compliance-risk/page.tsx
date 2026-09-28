@@ -9,7 +9,8 @@ import {
 } from "@/components/layouts/editorial-article";
 
 export const metadata: Metadata = {
-  title: "AI generated content and compliance risk. Knowledge Foundry",
+  alternates: { canonical: "/insights/ai-generated-content-and-compliance-risk" },
+  title: "AI generated content and compliance risk",
   description:
     "The provenance problem in AI generated training. Why cryptographic evidence (Foundry Hash, Master Integrity Root, Forensic Revision Chain) matters for regulated buyers.",
 };

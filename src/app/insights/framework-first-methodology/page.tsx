@@ -9,7 +9,8 @@ import {
 } from "@/components/layouts/editorial-article";
 
 export const metadata: Metadata = {
-  title: "The four move methodology, in depth. Knowledge Foundry",
+  alternates: { canonical: "/insights/framework-first-methodology" },
+  title: "The four move methodology, in depth",
   description:
     "Interpret. Structure. Produce. Deliver. The four move methodology behind Knowledge Foundry, explained at the level of rationale, not marketing.",
 };

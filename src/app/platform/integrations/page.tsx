@@ -17,6 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/platform/integrations" },
   title: "Integrations & Delivery. Fit your environment, or become it",
   description:
     "Integrate into an existing LMS via SCORM, structured HTML, JSON, or API. Or deploy a complete white label delivery environment. The structural integrity of the programme travels either way.",

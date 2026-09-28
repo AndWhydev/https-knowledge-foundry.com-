@@ -21,6 +21,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/platform/see-it-work" },
   title: "See It Work. Knowledge Foundry, on camera",
   description:
     "Short, focused walkthroughs of what Knowledge Foundry does, anchored to business outcomes rather than the technology under the hood. Start with the overview, or jump to the question you care about.",

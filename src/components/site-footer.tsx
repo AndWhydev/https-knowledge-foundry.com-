@@ -123,7 +123,7 @@ export function SiteFooter() {
         </div>
 
         {/* Legal strip */}
-        <div className="py-6 border-t border-[color:var(--color-hairline)] flex flex-col md:flex-row md:items-center justify-between gap-4 text-[12px] text-[color:var(--color-ink-faint)]">
+        <div className="py-6 md:pb-24 border-t border-[color:var(--color-hairline)] flex flex-col md:flex-row md:items-center justify-between gap-4 text-[12px] text-[color:var(--color-ink-faint)]">
           <div>
             © {new Date().getFullYear()} {site.legal.entity}. All rights reserved.
             {site.legal.abn && site.legal.abn !== "—" && ` ABN ${site.legal.abn}.`}

@@ -9,7 +9,8 @@ import { Reveal } from "@/components/motion/reveal";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "About. Knowledge Foundry",
+  alternates: { canonical: "/about" },
+  title: "About",
   description:
     "Knowledge Foundry builds governed knowledge architecture for organisations that must defend how their programmes are made. We believe structure governs everything downstream.",
 };

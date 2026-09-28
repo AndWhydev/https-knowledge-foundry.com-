@@ -8,6 +8,7 @@ import {
 } from "@/components/layouts/case-narrative";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/case-studies/critical-infrastructure" },
   title: "Case study. Safety critical operations training at a critical infrastructure operator",
   description:
     "After a post incident review named the training, an Australian critical infrastructure operator rebuilt verification from the framework its safety case had always implied.",

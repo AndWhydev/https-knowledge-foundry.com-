@@ -17,6 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/programs/operational-procedures" },
   title: "Operational Procedures. Structured execution, not tribal knowledge",
   description:
     "Tasks, workflows, and procedures turned into repeatable, verifiable execution. Structure governs sequence. Consistency becomes a property of the system, not of the operator.",

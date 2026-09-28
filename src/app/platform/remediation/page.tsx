@@ -17,6 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/platform/remediation" },
   title: "Remediation. Close gaps without starting again",
   description:
     "Preserve what works. Improve what does not. Remediation strengthens existing training in place, with every change tied to a requirement and an approver.",

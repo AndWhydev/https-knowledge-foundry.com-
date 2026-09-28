@@ -25,6 +25,7 @@ import { FrameworkDemo } from "@/components/framework-demo";
 import { FAQ as HomeFAQ } from "@/components/solution/faq";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/" },
   title: "Knowledge Foundry. Structured knowledge. Deliberate instruction.",
   description:
     "Knowledge Foundry turns subjects, documents, and requirements into structured learning systems. Reviewable. Aligned to your standards. Ready for audit. The framework is defined before any content is written.",

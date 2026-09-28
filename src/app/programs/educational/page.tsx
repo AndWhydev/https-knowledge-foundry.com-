@@ -17,6 +17,7 @@ import { Related } from "@/components/solution/related";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/programs/educational" },
   title: "Educational Programs. Structured for understanding, not attendance",
   description:
     "Subjects mapped into structured curricula. Progression is deliberate, assessment is integrated, and coverage is systematic. Each module traces back to a defined outcome.",

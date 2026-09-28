@@ -9,7 +9,8 @@ import { DemonstrationForm } from "./form";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Request a demonstration. Knowledge Foundry",
+  alternates: { canonical: "/demonstration" },
+  title: "Request a demonstration",
   description:
     "Bring a subject. Leave with a framework. A 45 minute working session on a real programme you own. You see the platform operate on your material and keep what it produces.",
 };

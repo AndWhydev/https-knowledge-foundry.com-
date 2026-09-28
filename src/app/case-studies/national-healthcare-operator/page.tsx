@@ -8,6 +8,7 @@ import {
 } from "@/components/layouts/case-narrative";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/case-studies/national-healthcare-operator" },
   title: "Case study. Clinical procedure library at a national hospital operator",
   description:
     "A national private hospital operator consolidated 400+ SOPs across 30+ sites into one governed framework, with per-site variance modelled as a first-class concept.",

@@ -9,7 +9,8 @@ import {
 } from "@/components/layouts/editorial-article";
 
 export const metadata: Metadata = {
-  title: "Knowledge structure comes before content. Knowledge Foundry",
+  alternates: { canonical: "/insights/knowledge-structure-before-content" },
+  title: "Knowledge structure comes before content",
   description:
     "Writing before structure is the root cause of training failure. The argument for structural literacy as the missing discipline in L&D.",
 };
@@ -22,7 +23,7 @@ const toc = [
 ];
 
 const related = [
-  { eyebrow: "Insight", title: "The four move methodology, in depth", href: "/insights/framework first-methodology" },
+  { eyebrow: "Insight", title: "The four move methodology, in depth", href: "/insights/framework-first-methodology" },
   { eyebrow: "Insight", title: "Why training fails audits", href: "/insights/why-training-fails-audits" },
   { eyebrow: "Capability", title: "Framework intelligence", href: "/platform/framework-intelligence" },
 ];
