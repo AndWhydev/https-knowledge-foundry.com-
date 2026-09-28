@@ -19,9 +19,10 @@ const BANNED = [
   "in conclusion", "look no further", "revolutioni", "cutting-edge", "cutting edge", "leverage",
   "tapestry", "embark", "holistic", "synergy", "paradigm", "robust", "empower",
 ];
-const US_SPELLING = [
-  /\borganiz/i, /\bbehavior/i, /\bcolor\b/i, /\banalyz/i, /\bprioritiz/i, /\brecogniz/i, /\bstandardiz/i,
-  /\boptimiz/i, /\bcenter\b/i, /\blicense\b(?! holder)/i, /\bdefense\b/i, /\bcatalog\b/i, /\benroll\b/i, /\bfulfill\b/i,
+const UK_SPELLING = [
+  /\borganis/i, /\bbehaviour/i, /\bcolour/i, /\banalys(e|ed|es|ing)\b/i, /\bprioritis/i, /\brecognis/i, /\bstandardis/i,
+  /\boptimis/i, /\bmodernis/i, /\bemphasis(e|ed|es|ing)\b/i, /\bcentre\b/i, /\blicence\b/i, /\bdefence\b/i, /\bcatalogue\b/i,
+  /\benrolment/i, /\bprogramme/i, /\blabour\b/i, /\bfavour/i, /\bpractis(e|ed|es|ing)\b/i, /\bjudgement\b/i, /\bfulfil\b/i,
 ];
 
 const args = process.argv.slice(2);
@@ -138,9 +139,14 @@ for (const p of pages) {
     if (!/^https:\/\//.test(s.url ?? "")) E(`source URL must be https: ${s.url}`);
     if (!s.title || !s.publisher) E(`source missing title or publisher: ${s.url}`);
   }
-  if (p.kind === "regulation" && (d.jurisdiction ?? "").includes("Australia") &&
-      !(d.sources ?? []).some((s) => /\.gov\.au\//.test(s.url + "/")))
-    E("Australian regulation page needs at least one .gov.au primary source");
+  // Each jurisdiction's pages must cite at least one official primary source.
+  const OFFICIAL = [
+    ["Australia", /\.gov\.au\//], ["United States", /\.gov\/|\.mil\/|finra\.org\//], ["United Arab Emirates", /\.ae\//],
+    ["Japan", /\.go\.jp\//], ["European Union", /europa\.eu\//], ["Portugal", /\.pt\//],
+  ];
+  if (p.kind === "regulation") for (const [j, re] of OFFICIAL)
+    if ((d.jurisdiction ?? "").startsWith(j) && !(d.sources ?? []).some((s) => re.test(s.url + "/")))
+      E(`${j} regulation page needs at least one official primary source matching ${re}`);
 
   if (!Array.isArray(d.related) || d.related.length < 3 || d.related.length > 6) E("related must have 3 to 6 slugs");
   for (const r of d.related ?? []) {
@@ -161,7 +167,7 @@ for (const p of pages) {
   if (internal < 3) E(`only ${internal} internal links in body (min 3, rule P9)`);
   const lower = text.toLowerCase();
   for (const b of BANNED) if (lower.includes(b)) E(`banned phrase "${b}"`);
-  for (const re of US_SPELLING) { const m = text.match(re); if (m) W(`US spelling? "${m[0]}"`); }
+  for (const re of UK_SPELLING) { const m = text.match(re); if (m) W(`British spelling? "${m[0]}" (fine inside official names or quotes)`); }
   if (/!/.test(text.replace(/\]\([^)]*\)/g, ""))) W("contains an exclamation mark");
 
   const wc = bodyWords(d);

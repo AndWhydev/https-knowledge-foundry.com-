@@ -7,7 +7,7 @@ import { useReducedMotion } from "motion/react";
 /**
  * Decorative looping video that costs nothing until it matters.
  *
- * An optimised still (next/image) always renders first. The video is only
+ * An optimized still (next/image) always renders first. The video is only
  * requested once the block is near the viewport, and never on phones, on
  * Save-Data connections, or with reduced motion; they keep the still.
  */

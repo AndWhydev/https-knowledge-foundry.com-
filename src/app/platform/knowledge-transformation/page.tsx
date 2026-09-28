@@ -32,7 +32,7 @@ const capabilities = [
   {
     icon: <Lightbulb className="h-5 w-5" />,
     title: "Fluid sources",
-    desc: "New methodologies, current research, and fresh initiatives are formalised into teachable structures without waiting for a documentation project.",
+    desc: "New methodologies, current research, and fresh initiatives are formalized into teachable structures without waiting for a documentation project.",
   },
   {
     icon: <UserSquare2 className="h-5 w-5" />,
@@ -47,7 +47,7 @@ const capabilities = [
   {
     icon: <Layers className="h-5 w-5" />,
     title: "One source, many outcomes",
-    desc: "A single structured framework produces multiple tailored programmes across education, compliance, enablement, and operations, without duplication of intent.",
+    desc: "A single structured framework produces multiple tailored programs across education, compliance, enablement, and operations, without duplication of intent.",
   },
   {
     icon: <Recycle className="h-5 w-5" />,
@@ -75,30 +75,30 @@ const steps = [
   {
     n: "04",
     title: "Produce the ecosystem",
-    desc: "Learning assets, assessments, and evidence artefacts are generated to fit the approved structure. Coherent by construction.",
+    desc: "Learning assets, assessments, and evidence artifacts are generated to fit the approved structure. Coherent by construction.",
   },
 ];
 
 const faq = [
   {
     q: "What counts as a 'source' the system can transform?",
-    a: "Almost any authored artefact and any structured elicitation of expertise. Policies, procedures, manuals, standards, research papers, SOPs, product documentation, and structured interviews with subject matter experts all qualify. If it can be read or transcribed, it can enter the transformation flow.",
+    a: "Almost any authored artifact and any structured elicitation of expertise. Policies, procedures, manuals, standards, research papers, SOPs, product documentation, and structured interviews with subject matter experts all qualify. If it can be read or transcribed, it can enter the transformation flow.",
   },
   {
     q: "We have knowledge that only exists in one person's head. Can that be transformed?",
-    a: "Yes, and this is often the input with the highest value. The platform supports structured elicitation. A guided capture flow turns expert reasoning into concept nodes, decisions, and evidence. Knowledge that was a single point of failure becomes a governed asset the organisation owns.",
+    a: "Yes, and this is often the input with the highest value. The platform supports structured elicitation. A guided capture flow turns expert reasoning into concept nodes, decisions, and evidence. Knowledge that was a single point of failure becomes a governed asset the organization owns.",
   },
   {
     q: "How is this different from a knowledge base or a wiki?",
-    a: "A wiki stores what someone wrote. Knowledge Transformation produces a structured object, meaning concepts, relationships, dependencies, and outcomes, that can generate multiple downstream artefacts consistently. The wiki is the storage. The transformed knowledge is the operating model.",
+    a: "A wiki stores what someone wrote. Knowledge Transformation produces a structured object, meaning concepts, relationships, dependencies, and outcomes, that can generate multiple downstream artifacts consistently. The wiki is the storage. The transformed knowledge is the operating model.",
   },
   {
     q: "Can one framework serve compliance, education, and enablement at the same time?",
-    a: "Yes. That is the point of separating structure from content. One approved framework can produce a compliance programme for auditors, an educational programme for learners, and an enablement programme for practitioners. Each is tailored, and all are traceable to the same source of truth.",
+    a: "Yes. That is the point of separating structure from content. One approved framework can produce a compliance program for auditors, an educational program for learners, and an enablement program for practitioners. Each is tailored, and all are traceable to the same source of truth.",
   },
   {
     q: "What happens when the source material updates?",
-    a: "Change propagates through the framework, and the framework flags each downstream artefact that referenced the changed source. You choose what to regenerate, and when. Drift is visible before it becomes damage.",
+    a: "Change propagates through the framework, and the framework flags each downstream artifact that referenced the changed source. You choose what to regenerate, and when. Drift is visible before it becomes damage.",
   },
 ];
 
@@ -111,7 +111,7 @@ const related = [
   },
   {
     eyebrow: "Adjacent",
-    title: "Enterprise learning modernisation",
+    title: "Enterprise learning modernization",
     desc: "When transformation applies at scale across a legacy library, this is the operating model.",
     href: "/platform/enterprise-learning-modernisation",
   },
@@ -157,7 +157,7 @@ export default function KnowledgeTransformationPage() {
         <p>
           Knowledge Foundry unifies both tracks. Whether the starting point is an
           operating model or an unwritten methodology, the destination is the
-          same: <strong>a reliable, structured baseline</strong> the organisation
+          same: <strong>a reliable, structured baseline</strong> the organization
           can teach from, audit against, and continue to improve.
         </p>
       </ProseBlock>
@@ -191,7 +191,7 @@ export default function KnowledgeTransformationPage() {
           <strong>Duplication reduces</strong> because one structure serves many
           expressions. <strong>Expertise is preserved</strong> because tacit
           knowledge is captured as structure, not as prose.{" "}
-          <strong>Consistency improves</strong> because each downstream artefact
+          <strong>Consistency improves</strong> because each downstream artifact
           derives from the same source of truth.{" "}
           <strong>Development accelerates</strong> because the hard part,
           deciding what should exist, is done once, deliberately, up front.

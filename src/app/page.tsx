@@ -44,17 +44,17 @@ const capabilities = [
 
 const programs = [
   { icon: <BookOpenCheck className="h-5 w-5" />, title: "Educational programs", desc: "Subject learning structured for progression in understanding.", href: "/programs/educational" },
-  { icon: <ShieldCheck className="h-5 w-5" />, title: "Compliance programs", desc: "Instruction aligned to policies and the behaviours they require.", href: "/programs/compliance" },
+  { icon: <ShieldCheck className="h-5 w-5" />, title: "Compliance programs", desc: "Instruction aligned to policies and the behaviors they require.", href: "/programs/compliance" },
   { icon: <CircuitBoard className="h-5 w-5" />, title: "Product enablement", desc: "Guided learning for tools, equipment, or software.", href: "/programs/product-enablement" },
   { icon: <Blocks className="h-5 w-5" />, title: "Operational procedures", desc: "Task instruction that is repeatable and consistent.", href: "/programs/operational-procedures" },
   { icon: <Fingerprint className="h-5 w-5" />, title: "Hybrid verification", desc: "Learning combined with confirmation of capability.", href: "/programs/hybrid-verification" },
 ];
 
 const industries = [
-  { title: "Financial services", href: "/industries/financial-services", note: "APRA, ASIC, licensing, RG146" },
-  { title: "Healthcare & life sciences", href: "/industries/healthcare-life-sciences", note: "Clinical governance, TGA, credentialing" },
+  { title: "Financial services", href: "/industries/financial-services", note: "Prudential, conduct, licensing" },
+  { title: "Healthcare & life sciences", href: "/industries/healthcare-life-sciences", note: "Clinical governance, credentialing, CPD" },
   { title: "Energy & resources", href: "/industries/energy-resources", note: "Safety critical operations, ISO 45001" },
-  { title: "Government & defence", href: "/industries/government-defence", note: "Cleared, audited, evidenced" },
+  { title: "Government & defense", href: "/industries/government-defence", note: "Cleared, audited, evidenced" },
   { title: "Professional services", href: "/industries/professional-services", note: "CPD, technical uplift across the firm" },
   { title: "Higher education", href: "/industries/higher-education", note: "Accreditation and outcome mapping" },
 ];
@@ -86,11 +86,11 @@ const homeFaqItems = [
   },
   {
     q: "How long is the first commercial commitment?",
-    a: "The initial framework build is delivered on a fixed scope and fixed price, typically 4 to 8 weeks depending on the subject. There is no multi year commitment to begin. Pilot and platform engagements are annual and cancellable at renewal.",
+    a: "The initial framework build is delivered on a fixed scope and fixed price, typically 4 to 8 weeks depending on the subject. There is no multi year commitment to begin. Pilot and platform engagements are annual and cancelable at renewal.",
   },
   {
     q: "Where is our data held and who can access it?",
-    a: "Australian data residency by default, AWS Sydney. Encryption at rest and in transit. Access is scoped to your project team via SSO. Full detail lives in the trust centre, including the subprocessor list and DPA.",
+    a: "Australian data residency by default, AWS Sydney. Encryption at rest and in transit. Access is scoped to your project team via SSO. Full detail lives in the trust center, including the subprocessor list and DPA.",
   },
 ];
 
@@ -263,7 +263,7 @@ export default function HomePage() {
               <Reveal delay={0.35}>
                 <p className="text-lede mt-6 text-white/70 max-w-[46ch]">
                   Concepts seat into place. Relationships light up. The framework
-                  is the artefact you keep. Reviewable, versioned, exportable.
+                  is the artifact you keep. Reviewable, versioned, exportable.
                 </p>
               </Reveal>
               <Reveal delay={0.5}>
@@ -408,7 +408,7 @@ export default function HomePage() {
         </Container>
       </Section>
 
-      {/* BENTO OUTPUTS — what a Foundry programme produces */}
+      {/* BENTO OUTPUTS — what a Foundry program produces */}
       <div id="bento">
         <BentoOutputs />
       </div>
@@ -573,7 +573,7 @@ export default function HomePage() {
               <Reveal delay={0.35}>
                 <p className="text-lede mt-6 max-w-[46ch]">
                   Four commercial stages. Each one produces something you keep,
-                  whether or not the next stage happens. No procurement theatre.
+                  whether or not the next stage happens. No procurement theater.
                 </p>
               </Reveal>
             </div>
@@ -581,9 +581,9 @@ export default function HomePage() {
             <RevealStagger className="grid sm:grid-cols-2 gap-4">
               {[
                 { n: "01", t: "Working session", d: "45 minutes on a real subject you own. You watch the Foundry build a framework from your material. You keep the framework." },
-                { n: "02", t: "Framework build", d: "A structured, reviewable framework for one programme or subject area, delivered in weeks. Fixed scope, fixed price. Yours to deploy or take elsewhere." },
+                { n: "02", t: "Framework build", d: "A structured, reviewable framework for one program or subject area, delivered in weeks. Fixed scope, fixed price. Yours to deploy or take elsewhere." },
                 { n: "03", t: "Pilot", d: "The framework generates instruction and verification. It runs against a real cohort. Evidence exports to your regulator or board." },
-                { n: "04", t: "Platform partnership", d: "Ongoing access to the Foundry across programmes, with governance, drift detection, and standards mapping baked in." },
+                { n: "04", t: "Platform partnership", d: "Ongoing access to the Foundry across programs, with governance, drift detection, and standards mapping baked in." },
               ].map((s) => (
                 <RevealItem
                   key={s.n}
@@ -635,7 +635,7 @@ export default function HomePage() {
             {[
               { eyebrow: "Methodology", title: "Structure before content is the missing skill in L&D.", href: "/insights/knowledge-structure-before-content" },
               { eyebrow: "Verification", title: "What verification actually measures, and what it does not.", href: "/insights/what-verification-really-measures" },
-              { eyebrow: "Compliance", title: "Why training programmes fail the audit before they are written.", href: "/insights/why-training-fails-audits" },
+              { eyebrow: "Compliance", title: "Why training programs fail the audit before they are written.", href: "/insights/why-training-fails-audits" },
             ].map((item) => (
               <RevealItem key={item.href}>
                 <Link
@@ -678,7 +678,7 @@ export default function HomePage() {
                 </SplitText>
                 <Reveal delay={0.15}>
                   <p className="text-lede mt-5 max-w-[52ch]">
-                    A 45 minute working session with our team on a real subject or programme you own.
+                    A 45 minute working session with our team on a real subject or program you own.
                     You see the system operate on your material, and you keep the framework it produces.
                   </p>
                 </Reveal>

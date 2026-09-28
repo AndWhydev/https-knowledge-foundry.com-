@@ -9,7 +9,7 @@
     "Content goes out of date because something it depends on changed. Knowing the dependencies is the foundation of detection.",
     "A reference index, listing the sources each item cites, turns detection into a comparison rather than a reading exercise.",
     "Assessment data, learner questions, and incidents often reveal outdated content before a scheduled review does.",
-    "Under the model WHS Regulations, training must suit the risks and control measures at the time it is provided, so outdated safety content is a compliance issue, not only a quality one.",
+    "Under Australia's model WHS Regulations, for example, training must suit the risks and control measures at the time it is provided, so outdated safety content is a compliance issue, not only a quality one.",
     "Triage by harm: outdated thresholds, procedures, and legal references come before outdated screenshots."
   ],
   "sections": [
@@ -19,11 +19,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Training content goes out of date when something it depends on changes and the content does not. The dependency might be a law, a regulator's guidance, an internal policy or procedure, a system screen, a product, an organisational structure, or the risk profile of the work. This gradual gap between what is taught and what is true is often called [knowledge drift](/glossary/knowledge-drift)."
+          "text": "Training content goes out of date when something it depends on changes and the content does not. The dependency might be a law, a regulator's guidance, an internal policy or procedure, a system screen, a product, an organizational structure, or the risk profile of the work. This gradual gap between what is taught and what is true is often called [knowledge drift](/glossary/knowledge-drift)."
         },
         {
           "type": "p",
-          "text": "In safety contexts the gap has legal weight. Regulation 39(2) of the model [Work Health and Safety Regulations 2011](https://www.legislation.gov.au/F2011L02664/latest/text) requires a person conducting a business or undertaking to ensure that information, training, and instruction is suitable and adequate having regard to the nature of the work, the nature of the risks associated with the work at the time it is provided, and the control measures implemented. Training that describes controls that have since been replaced does not meet that description."
+          "text": "In safety contexts the gap can have legal weight. For example, regulation 39(2) of the model [Work Health and Safety Regulations 2011](https://www.legislation.gov.au/F2011L02664/latest/text) requires a person conducting a business or undertaking to ensure that information, training, and instruction is suitable and adequate having regard to the nature of the work, the nature of the risks associated with the work at the time it is provided, and the control measures implemented. Training that describes controls that have since been replaced does not meet that description."
         }
       ]
     },
@@ -39,11 +39,11 @@
           "type": "ol",
           "items": [
             "**Build a reference index.** For each training item, record the sources it relies on: instruments and section numbers, regulator guides, internal policies and procedures with version numbers, systems, and forms. Output: a reference index, one row per item and source.",
-            "**Set up change feeds.** Subscribe to regulator updates, set [Federal Register of Legislation alerts](https://www.legislation.gov.au/help-and-resources/using-the-legislation-register/how-to-set-up-my-account) for key instruments, and ask policy and process owners to notify training when documents change. Output: a list of feeds and who monitors each.",
+            "**Set up change feeds.** Subscribe to regulator updates, set alerts on the official legislation registers that offer them for key instruments, and ask policy and process owners to notify training when documents change. Output: a list of feeds and who monitors each.",
             "**Compare dependencies with current versions.** On a schedule, and whenever a feed reports a change, check each indexed source against its current version. Output: a list of items whose sources changed.",
             "**Scan content for known stale markers.** Search course text and assessments for superseded names, instrument titles, dates, thresholds, and old system names. Output: a list of hits with locations.",
             "**Read the usage signals.** Review assessment item statistics, learner comments, help desk queries, and incident or breach reports that mention training. Output: a list of suspect items with the signal that raised them.",
-            "**Triage by risk.** Rate each finding by the harm of someone acting on it. Output: a prioritised remediation list, handed to the change process in [how to update training when a regulation changes](/guides/how-to-update-training-when-regulations-change)."
+            "**Triage by risk.** Rate each finding by the harm of someone acting on it. Output: a prioritized remediation list, handed to the change process in [how to update training when a regulation changes](/guides/how-to-update-training-when-regulations-change)."
           ]
         }
       ]
@@ -69,13 +69,13 @@
             [
               "Cited source superseded",
               "Reference index compared with current versions",
-              "Course cites the 2015 Standards for RTOs after the 2025 Standards took effect on 1 July 2025",
+              "Course cites Australia's 2015 Standards for RTOs after the 2025 Standards took effect on 1 July 2025",
               "High"
             ],
             [
-              "Rule no longer applies to the audience",
-              "Review against regulator guidance",
-              "Adviser course presents RG 146 as the standard for relevant providers, which RG 104.85 says no longer applies",
+              "Commencement date changed",
+              "Review against the current consolidated text",
+              "Course gives 2 August 2026 as the start of EU AI Act high-risk obligations for Annex III systems, which Regulation (EU) 2026/1744 moved to 2 December 2027",
               "High"
             ],
             [
@@ -124,7 +124,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Build the list from every change your organisation has recorded: each time a source changes, add the superseded name, number, date, or threshold to a searchable list. Then run the list against all content and assessment text, not only the item you updated."
+          "text": "Build the list from every change your organization has recorded: each time a source changes, add the superseded name, number, date, or threshold to a searchable list. Then run the list against all content and assessment text, not only the item you updated."
         },
         {
           "type": "p",
@@ -186,24 +186,19 @@
       "url": "https://www.legislation.gov.au/F2011L02664/latest/text"
     },
     {
-      "title": "How to set up My Account",
-      "publisher": "Federal Register of Legislation",
-      "url": "https://www.legislation.gov.au/help-and-resources/using-the-legislation-register/how-to-set-up-my-account"
-    },
-    {
       "title": "Standards for RTOs",
       "publisher": "Australian Skills Quality Authority",
       "url": "https://www.asqa.gov.au/rtos/2025-standards-rtos"
     },
     {
-      "title": "RG 104 AFS licensing: Meeting the general obligations",
-      "publisher": "Australian Securities and Investments Commission",
-      "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations"
-    },
-    {
       "title": "Model WHS laws",
       "publisher": "Safe Work Australia",
       "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/model-whs-laws"
+    },
+    {
+      "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Article 113, as amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI)",
+      "publisher": "European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
     }
   ],
   "related": [
@@ -236,12 +231,8 @@
       "source": "https://www.asqa.gov.au/rtos/2025-standards-rtos"
     },
     {
-      "claim": "RG 104.85: RG 146 training standards no longer apply to relevant providers.",
-      "source": "https://download.asic.gov.au/media/av3fovx5/rg104-published-23-june-2022-20260310.pdf"
-    },
-    {
-      "claim": "Federal Register of Legislation offers email alerts for legislation matching a saved query.",
-      "source": "https://www.legislation.gov.au/help-and-resources/using-the-legislation-register/how-to-set-up-my-account"
+      "claim": "EU AI Act Article 113: applies from 2 August 2026; Chapters I and II from 2 February 2025; as replaced by Regulation (EU) 2026/1744, Chapter III Sections 1, 2 and 3 apply from 2 December 2027 for Article 6(2)/Annex III high-risk systems and 2 August 2028 for Article 6(1)/Annex I systems (consolidated text 02024R1689-20260727). Original Article 113 applied Chapter III from the general date of 2 August 2026, with Article 6(1) from 2 August 2027.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
     }
   ]
 }

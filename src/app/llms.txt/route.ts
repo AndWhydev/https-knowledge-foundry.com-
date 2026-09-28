@@ -15,9 +15,9 @@ export function GET() {
     ["Framework Intelligence", "/platform/framework-intelligence", "Defining concepts, relationships, and assessment logic before content is written."],
     ["Gap Analysis", "/platform/gap-analysis", "Finding missing, contradictory, or outdated coverage in an existing training library."],
     ["Audit and Evidence", "/platform/audit-evidence", "Traceable evidence packs for regulators and boards."],
-    ["Compliance programs", "/programs/compliance", "Instruction aligned to policies and the behaviours they require."],
+    ["Compliance programs", "/programs/compliance", "Instruction aligned to policies and the behaviors they require."],
     ["Industries", "/industries", "Financial services, healthcare, energy, government, professional services, higher education."],
-    ["Trust centre", "/trust", "Security, data residency, and compliance posture."],
+    ["Trust center", "/trust", "Security, data residency, and compliance posture."],
     ["Request a demonstration", "/demonstration", "A 45 minute working session on your own material."],
   ];
   const order: LearnKind[] = ["regulation", "guide", "glossary", "comparison"];
@@ -28,7 +28,7 @@ export function GET() {
     "",
     `> ${site.description}`,
     "",
-    "Knowledge Foundry is an international platform, with its holding company in Portugal, serving organisations in Australia, Portugal, the United States, Japan, and the United Arab Emirates. It defines the knowledge framework (concepts, relationships, assessment points, and provenance) before any training content is written, so programs in regulated organisations are reviewable, standards aligned, and audit ready.",
+    "Knowledge Foundry is an international platform, with its holding company in Portugal, serving organizations in Australia, Portugal, the United States, Japan, and the United Arab Emirates. It defines the knowledge framework (concepts, relationships, assessment points, and provenance) before any training content is written, so programs in regulated organizations are reviewable, standards aligned, and audit ready.",
     "",
     "## Product",
     ...core.map(([t, p, d]) => `- [${t}](${site.url}${p}): ${d}`),

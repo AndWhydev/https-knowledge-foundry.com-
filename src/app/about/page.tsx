@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/about" },
   title: "About",
   description:
-    "Knowledge Foundry builds governed knowledge architecture for organisations that must defend how their programmes are designed, reviewed and delivered.",
+    "Knowledge Foundry builds governed knowledge architecture for organizations that must defend how their programs are designed, reviewed and delivered.",
 };
 
 const principles = [
@@ -39,7 +39,7 @@ const principles = [
   {
     icon: <Compass className="h-5 w-5" />,
     title: "Delivery should be deliberate, not automatic",
-    desc: "Release is a decision. Version identity, cohort scope, and evidence obligations are set by a human at the moment a programme is put into use.",
+    desc: "Release is a decision. Version identity, cohort scope, and evidence obligations are set by a human at the moment a program is put into use.",
   },
 ];
 
@@ -55,7 +55,7 @@ export default function AboutPage() {
             <span className="text-[color:var(--color-forge)]">everything downstream.</span>
           </>
         }
-        lede="Knowledge Foundry is a governed knowledge architecture for organisations whose programmes must be defensible: to a regulator, to an accreditor, or to their own board. We were built for the environments where a lesson is not enough. The framework is the asset."
+        lede="Knowledge Foundry is a governed knowledge architecture for organizations whose programs must be defensible: to a regulator, to an accreditor, or to their own board. We were built for the environments where a lesson is not enough. The framework is the asset."
         primaryCta={{ label: "Request a demonstration", href: "/demonstration" }}
         secondaryCta={{ label: "Read our voice", href: "/insights" }}
       />
@@ -69,7 +69,7 @@ export default function AboutPage() {
           being taught remained implicit, fragmented, or missing entirely.
         </p>
         <p>
-          The result was recognisable. Programmes that read well in isolation
+          The result was recognizable. Programs that read well in isolation
           but referenced concepts not yet introduced. Assessments that drifted
           from their objectives. Revision histories that no one could
           reconstruct. Audits that could not be answered with a file.
@@ -86,16 +86,16 @@ export default function AboutPage() {
       >
         <p>
           Knowledge Foundry was built on a single premise. Structure must
-          precede instruction. Rather than generate content first and organise
+          precede instruction. Rather than generate content first and organize
           it afterward, the platform treats knowledge structure as a
-          first class artefact. The object that is reviewed, approved,
+          first class artifact. The object that is reviewed, approved,
           versioned, and audited. Instruction is compiled against that
           structure, not the other way around.
         </p>
         <p>
           Automation was introduced carefully. It is not designed to replace
           the subject matter expert, the compliance lead, or the accreditation
-          reviewer. It is designed to operationalise their methodology so it
+          reviewer. It is designed to operationalize their methodology so it
           can be repeated at scale without losing integrity.
         </p>
         <p>
@@ -124,7 +124,7 @@ export default function AboutPage() {
           <strong>Knowledge Foundry is not a lesson builder.</strong> It is a
           structured knowledge infrastructure. If what you need is a faster
           slide deck, the market has that. If what you need is a defensible
-          programme, that is what we build.
+          program, that is what we build.
         </p>
       </ProseBlock>
 
@@ -146,7 +146,7 @@ export default function AboutPage() {
                   </a>
                 </p>
                 <p className="mt-2 text-[color:var(--color-ink-muted)]">
-                  For introductions, partnerships, and general enquiries.
+                  For introductions, partnerships, and general inquiries.
                 </p>
               </div>
               <div>
@@ -159,7 +159,7 @@ export default function AboutPage() {
                   </a>
                 </p>
                 <p className="mt-2 text-[color:var(--color-ink-muted)]">
-                  For responsible disclosure and security enquiries.
+                  For responsible disclosure and security inquiries.
                 </p>
               </div>
               <div>

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/learn" },
   title: "Learn: compliance and competency training",
   description:
-    "Definitions, regulation guides, how to guides, and comparisons for L&D, compliance, and risk teams building auditable training in regulated organisations.",
+    "Definitions, regulation guides, how to guides, and comparisons for L&D, compliance, and risk teams building auditable training in regulated organizations.",
 };
 
 const label = "text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)]";

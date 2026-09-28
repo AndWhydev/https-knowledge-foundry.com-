@@ -1,0 +1,527 @@
+{
+  "slug": "japan-industrial-safety-and-health-act-training",
+  "kind": "regulation",
+  "title": "What safety and health education does Japan's Industrial Safety and Health Act require?",
+  "seoTitle": "Japan ISH Act safety and health training",
+  "description": "What Japan's Industrial Safety and Health Act requires: hiring and change of work education, special education, foreman education, records and penalties.",
+  "shortAnswer": "Japan's Industrial Safety and Health Act (Act No. 57 of 1972) requires employers to give safety and health education to every worker on hiring and on a change of work (article 59), special education before assigning dangerous or harmful work (article 59(3)), and education for newly appointed foremen in designated industries (article 60). Special education records must be kept for three years. Licensed work under article 61 needs a license or skill training course instead.",
+  "keyTakeaways": [
+    "Article 59 of the Industrial Safety and Health Act sets three mandatory triggers: hiring, a change of work content, and assignment to any of the dangerous or harmful operations listed in article 36 of the Ordinance on Industrial Safety and Health.",
+    "Article 35 of the Ordinance lists eight hiring education items; since April 1, 2024 no industry may skip any of them, although individual workers with sufficient knowledge and skill can be excused from an item.",
+    "Foreman education (shokuchō kyōiku) under article 60 applies in construction, most manufacturing, electricity, gas, automobile maintenance and machinery repair, and covers at least 12 hours across five topic groups.",
+    "Breaching article 59(3) special education can lead to up to six months of confinement or a fine of up to 500,000 yen; breaching hiring education carries a fine of up to 500,000 yen, and the company can be fined as well.",
+    "From April 1, 2027, the 2025 amending Act extends the special education duty to sole proprietors and small business owners who do dangerous work at the same site as workers."
+  ],
+  "jurisdiction": "Japan (national)",
+  "regulator": "Ministry of Health, Labour and Welfare (MHLW), through Prefectural Labour Bureaus and Labour Standards Inspection Offices",
+  "appliesTo": [
+    "Every employer in Japan that uses workers (jigyōsha), for hiring and change of work education",
+    "Employers assigning workers to dangerous or harmful operations listed in article 36 of the Ordinance on Industrial Safety and Health (special education)",
+    "Employers in construction, manufacturing (with listed exceptions), electricity, gas, automobile maintenance and machinery repair (foreman education)",
+    "Workplaces that make, handle or supply chemicals subject to risk assessment (chemical management officers)",
+    "From April 1, 2027: sole proprietors and small business owners doing listed dangerous work at the same site as workers"
+  ],
+  "sections": [
+    {
+      "id": "how-japanese-safety-law-is-structured",
+      "heading": "How is Japan's workplace safety law structured, and who enforces it?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan's safety and health education duties sit in three layers of law: the Act passed by the Diet, a Cabinet Order made by the Cabinet, and a Ministerial Ordinance made by the Ministry of Health, Labour and Welfare (MHLW). They are enforced by Labour Standards Inspection Offices (Rōdō Kijun Kantokusho), the local offices under each Prefectural Labour Bureau."
+        },
+        {
+          "type": "table",
+          "caption": "The legal instruments behind safety and health education in Japan, as at September 2026",
+          "head": [
+            "Layer",
+            "Instrument",
+            "What it does for training"
+          ],
+          "rows": [
+            [
+              "Act (hōritsu)",
+              "Industrial Safety and Health Act, Rōdō Anzen Eisei Hō (Act No. 57 of 1972)",
+              "Creates the duties: articles 59, 60, 60-2 and 61; penalties in articles 119, 120 and 122"
+            ],
+            [
+              "Cabinet Order (seirei)",
+              "Order for Enforcement of the Industrial Safety and Health Act (Cabinet Order No. 318 of 1972)",
+              "Article 19 lists the industries needing foreman education; article 20 lists licensed or restricted work"
+            ],
+            [
+              "Ministerial Ordinance (shōrei)",
+              "Ordinance on Industrial Safety and Health, Rōdō Anzen Eisei Kisoku (Ministry of Labour Ordinance No. 32 of 1972)",
+              "Articles 35 to 40-3 set education content, omissions, records, foreman hours and reporting"
+            ],
+            [
+              "Notices and guidelines (kokuji, tsūtatsu, shishin)",
+              "Ministerial notices, bureau circulars and published guidelines",
+              "Set detailed curricula and hours for special education, and conditions for e-learning delivery"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Article 90 of the Act gives Labour Standards Inspection Office chiefs and labor standards inspectors responsibility for administering the Act, and article 91 lets inspectors enter workplaces, question people and inspect books and documents ([Industrial Safety and Health Act, e-Gov](https://laws.e-gov.go.jp/law/347AC0000000057)). MHLW lists the bureaus and inspection offices by prefecture on its [locations page](https://www.mhlw.go.jp/kouseiroudoushou/shozaiannai/roudoukyoku/)."
+        },
+        {
+          "type": "callout",
+          "title": "Translations are for reference only",
+          "text": "English quotations on this page come from the government's Japanese Law Translation database, which states that its translations \"are not official texts\" and that \"only the original Japanese texts of the laws and regulations have legal effect.\" The English version of the Act reflects amendments up to Act No. 71 of 2018, so later changes appear only in the Japanese text. Where this page describes the Ordinance, the English wording is a summary of the Japanese text, not an official translation."
+        }
+      ]
+    },
+    {
+      "id": "hiring-and-change-of-work-education",
+      "heading": "What education is required when a worker is hired or their work changes?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Every employer must give safety or health education to each worker on hiring (yatoiire-ji kyōiku) and again when the worker's work content changes. Article 59(1) states, in the official English translation: \"Having begun to employ a new worker, the employer must educate that worker in safety or health as it relates to the operations in which the worker is to be engaged, pursuant to Order of the Ministry of Health, Labour and Welfare.\" Article 59(2) applies the same duty when \"the substance of the worker's work has changed\" ([Japanese Law Translation](https://www.japaneselawtranslation.go.jp/en/laws/view/3440))."
+        },
+        {
+          "type": "p",
+          "text": "Article 35(1) of the Ordinance requires the education to be given without delay (chitai naku) and to cover whichever of the following items are needed for safety or health in the worker's operations ([Ordinance on Industrial Safety and Health, e-Gov](https://laws.e-gov.go.jp/law/347M50002000032)):"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "The hazards or harmfulness of machinery, raw materials and similar items, and how to handle them.",
+            "The performance and handling of safety devices, harmful substance control equipment and protective equipment.",
+            "Work procedures.",
+            "Inspections at the start of work.",
+            "The causes and prevention of illnesses that may arise in the work.",
+            "Keeping the workplace orderly, tidy and clean.",
+            "Emergency measures and evacuation in accidents.",
+            "Other matters needed for safety or health in the work."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Article 35(2) lets the employer omit an item for a worker who is recognized as having sufficient knowledge and skill in it. Before April 1, 2024, employers in certain industries could also skip part of the list. MHLW's summary of the chemical substance reforms states that this industry exemption was abolished from that date, so all workplaces that make or handle hazardous chemicals must deliver the chemical safety content ([MHLW chemical regulation overview](https://www.mhlw.go.jp/content/11300000/001083280.pdf)). For onboarding design, see [how to structure onboarding for regulated roles](/guides/how-to-structure-onboarding-for-regulated-roles)."
+        }
+      ]
+    },
+    {
+      "id": "special-education-for-dangerous-work",
+      "heading": "What is special education for dangerous or harmful work?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Special education (tokubetsu kyōiku) is the training an employer must give before assigning a worker to any dangerous or harmful operation listed in the Ordinance. Article 59(3) of the Act requires it, and article 36 of the Ordinance lists the operations in items numbered up to 41, several with sub-items."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Machinery and vehicles:** arc welding (item 3), forklifts with a maximum load under 1 ton (item 5), tail gate lifters on trucks (item 5-4), and small vehicle type construction machinery under 3 tons (item 9).",
+            "**Electrical work:** work on high voltage or low voltage live circuits (item 4) and servicing vehicles with built in batteries over 50 volts to earth (item 4-2).",
+            "**Lifting:** cranes under 5 tons (item 15), mobile cranes under 1 ton (item 16) and slinging for loads under 1 ton (item 19).",
+            "**Health hazards:** oxygen deficient spaces (item 26), specified dust work (item 29) and asbestos work (item 37).",
+            "**Automation and height:** teaching and inspecting industrial robots within their range of motion (items 31 and 32), scaffolding assembly and dismantling (item 39), rope access work (item 40), and full harness fall arrest work at 2 meters or more where a work platform is hard to provide (item 41)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Article 37 allows a subject to be omitted for a worker with sufficient knowledge and skill in it. Article 38 is the only record rule in this part of the Ordinance: after giving special education, the employer must make a record of the participants, subjects and similar details and keep it for three years. Article 39 leaves the detailed subjects and hours for most listed operations to standards set by the Minister of Health, Labour and Welfare."
+        },
+        {
+          "type": "p",
+          "text": "Special education is not the same as licensed work. Under article 61 (shūgyō seigen, restrictions on work), operations listed in article 20 of the Cabinet Order, such as forklifts with a maximum load of 1 ton or more, cranes of 5 tons or more and boiler handling, may only be done by holders of a license (menkyo) from the Director of the Prefectural Labour Bureau or people who have completed a registered skill training course (ginō kōshū). Article 61(3) requires the person to carry the license or certificate while working ([Cabinet Order, e-Gov](https://laws.e-gov.go.jp/law/347CO0000000318)). MHLW publishes a combined list of licenses, skill training courses and special education on its [qualifications page](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/roudoukijun/anzeneisei10/qualificaton_education.html)."
+        }
+      ]
+    },
+    {
+      "id": "foreman-education",
+      "heading": "Which employers must provide foreman education, and what does it cover?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Employers in industries listed by Cabinet Order must educate foremen and other people newly taking on a role that directly guides or supervises workers, known as shokuchō kyōiku. Operations chiefs (sagyō shunin-sha), who hold separate statutory qualifications, are excluded. Article 19 of the Cabinet Order lists construction; manufacturing, except tobacco manufacturing, textiles (other than spinning and dyeing and finishing), clothing and other textile products, and paper products (other than cellophane); electricity; gas; automobile maintenance; and machinery repair."
+        },
+        {
+          "type": "p",
+          "text": "The scope widened on April 1, 2023, when food manufacturing and newspaper publishing, publishing, bookbinding and printed matter processing were added ([MHLW chemical regulation overview](https://www.mhlw.go.jp/content/11300000/001083280.pdf)). Article 40(2) of the Ordinance sets minimum hours for each topic group:"
+        },
+        {
+          "type": "table",
+          "caption": "Minimum foreman education hours under article 40(2) of the Ordinance on Industrial Safety and Health",
+          "head": [
+            "Topic group",
+            "Content",
+            "Minimum hours"
+          ],
+          "rows": [
+            [
+              "Act article 60(i): work methods and assigning workers",
+              "How to set work procedures; how to assign workers appropriately",
+              "2"
+            ],
+            [
+              "Act article 60(ii): guiding and supervising workers",
+              "Methods of guidance and education; supervision and instruction during work",
+              "2.5"
+            ],
+            [
+              "Ordinance article 40(1)(i): risk assessment",
+              "Methods of investigating hazards and harmfulness; measures based on the results; concrete improvement of equipment and work",
+              "4"
+            ],
+            [
+              "Ordinance article 40(1)(ii): abnormal situations",
+              "Measures in abnormal situations; measures when an accident occurs",
+              "1.5"
+            ],
+            [
+              "Ordinance article 40(1)(iii): other accident prevention activity",
+              "Maintaining equipment and work areas; keeping up interest in accident prevention and drawing out workers' ideas",
+              "2"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The total is 12 hours. Article 40(3) allows a topic to be omitted for a person recognized as having sufficient knowledge and skill in it. The Ordinance does not prescribe a record or a refresher cycle for foreman education."
+        }
+      ]
+    },
+    {
+      "id": "other-education-duties",
+      "heading": "What other education duties sit alongside articles 59 and 60?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Four further provisions shape a training program in Japan: an effort duty for workers already in hazardous jobs, planning and reporting for designated workplaces, chemical management officers, and the 2025 heat stroke rule."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Article 60-2 (effort duty):** employers \"must endeavor\" to educate people currently engaged in dangerous or hazardous operations, following a guideline the Minister publishes. It is a duty to make efforts, not an enforceable requirement.",
+            "**Ordinance article 40-3 (plans and reports):** at designated workplaces, and workplaces the Prefectural Labour Bureau Director designates considering accident rates, the employer must prepare a specific education plan under articles 59 and 60 and report the results for each April to March year to the Labour Standards Inspection Office by April 30.",
+            "**Chemical management officers (kagaku busshitsu kanrisha):** from April 1, 2024, each workplace that makes, handles or supplies chemicals subject to risk assessment must appoint one (Ordinance article 12-5). Their duties include the education workers need on labels, safety data sheets, risk assessment and exposure measures. At manufacturing sites the officer must complete a specialized course; MHLW's overview shows a curriculum totaling 12 hours ([MHLW chemical substance regulation page](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000099121_00005.html)).",
+            "**Heat stroke (Ordinance article 612-2):** from June 1, 2025, before work likely to cause heat stroke, employers must set up a reporting system and written procedures for responding to symptoms, and make both known to the people doing the work ([MHLW Ordinance No. 57 of 2025](https://www.mhlw.go.jp/content/11303000/001476789.pdf)). This is a communication duty, but in practice it becomes a briefing that should be evidenced."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "penalties",
+      "heading": "What are the penalties for failing to provide the required education?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Failing to give special education is the most serious education breach: article 119 makes a breach of article 59(3) punishable by up to six months of confinement (kōkinkei) or a fine of up to 500,000 yen. Article 119 covers breaches of article 61(1) as well, meaning assigning unlicensed or untrained people to restricted work."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Hiring and change of work education:** article 120 makes a breach of article 59(1), including as applied by 59(2), punishable by a fine of up to 500,000 yen.",
+            "**Corporate liability:** article 122 fines the company or individual business owner as well as the person who committed the breach, when the breach is in the course of the business.",
+            "**Foreman education:** article 60 is not listed in articles 119 or 120, so it carries no direct criminal penalty. It is still a mandatory duty that inspectors can cite."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The Japanese text of article 119 now uses kōkinkei, the single custodial sentence that replaced separate forms of imprisonment under Japan's criminal law reform. The English translation, last updated for Act No. 71 of 2018, still reads \"imprisonment for a term not exceeding six months\". Always check the current Japanese text on e-Gov."
+        }
+      ]
+    },
+    {
+      "id": "2025-amendment-changes",
+      "heading": "What changes under the 2025 amendment to the Act?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Act on Partial Amendment of the Industrial Safety and Health Act and the Working Environment Measurement Act (Act No. 33 of 2025), promulgated on May 14, 2025, takes effect in stages, with the last provisions due within five years of promulgation. For training, the key date is April 1, 2027, when a new article 59(4) requires sole proprietors and small business owners who work themselves (sagyō jūji yakuin-tō) to receive special education before doing listed dangerous work at the same site as workers ([MHLW key points leaflet](https://www.mhlw.go.jp/content/11300000/001513749.pdf))."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Penalty:** the comparison table shows article 119 being amended to cover breaches of the new article 59(4) ([MHLW comparison of old and new text](https://www.mhlw.go.jp/content/11300000/001497671.pdf)).",
+            "**Effort duty:** article 60-2 is rewritten so that employers must endeavor to educate workers currently in hazardous jobs, and the same owners must endeavor to receive such education.",
+            "**Guideline:** MHLW revised the guideline on education for people in dangerous or harmful work on May 25, 2026, applying from April 1, 2027 ([MHLW guideline notice](https://www.mhlw.go.jp/content/11300000/001704144.pdf)).",
+            "**Stress checks:** workplaces with fewer than 50 workers must run stress checks from a date set by Cabinet Order, within three years of promulgation."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Principal contractors that manage mixed sites should consider how they will confirm, from April 2027, that owner operators working on site have received special education, not only their own employees. MHLW keeps the commencement orders, ordinances and circulars on its [amendment page](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/anzen/an-eihou/index_00001.html)."
+        }
+      ]
+    },
+    {
+      "id": "e-learning-delivery",
+      "heading": "Can the required education be delivered by e-learning?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yes, if it meets the same legal conditions as classroom delivery. An MHLW circular issued on January 25, 2021 and last revised on September 2, 2026 states that e-learning must satisfy the statutory scope of subjects, education hours and instructor requirements, use the necessary teaching materials, and properly confirm that the participant actually took the course ([MHLW e-learning circular](https://www.mhlw.go.jp/content/11300000/001752584.pdf))."
+        },
+        {
+          "type": "p",
+          "text": "The circular also notes that completion certificates for skill training courses for restricted work under article 61 cannot be issued digitally, because the worker must carry the certificate. For a training team, the practical tests are identity and attendance verification, time on task that meets the minimum hours, and an assessment step that shows the content was understood. These map directly to [completion tracking versus competency verification](/compare/completion-tracking-vs-competency-verification)."
+        }
+      ]
+    },
+    {
+      "id": "obligation-to-evidence-map",
+      "heading": "How can each education duty be mapped to triggers, records and assessment evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A workable approach is to treat each education type as a separate obligation with its own trigger, content source and evidence standard. The table below is illustrative, not MHLW guidance: the \"record required by law\" column reflects the Ordinance text, and the evidence column is good practice for showing an inspector the duty was met. Adapt it in your own [training matrix](/glossary/training-matrix) and [compliance obligations register](/glossary/compliance-obligations-register)."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping of Japanese safety and health education duties to evidence, as at September 2026",
+          "head": [
+            "Education type",
+            "Legal basis",
+            "Trigger",
+            "Minimum content",
+            "Record required by law",
+            "Suggested assessment evidence"
+          ],
+          "rows": [
+            [
+              "Hiring education",
+              "Act art. 59(1); Ordinance art. 35",
+              "Hiring any worker; deliver without delay",
+              "Eight items in art. 35(1), as relevant to the work",
+              "None prescribed in art. 35",
+              "Dated record per item; knowledge check; supervisor sign off on start of work checks and emergency steps"
+            ],
+            [
+              "Change of work education",
+              "Act art. 59(2); Ordinance art. 35",
+              "Change in work content",
+              "Same eight items, focused on the new work",
+              "None prescribed in art. 35",
+              "Change of role record linked to retraining; observed task on new equipment or procedure"
+            ],
+            [
+              "Special education",
+              "Act art. 59(3); Ordinance arts. 36 to 39",
+              "Before assignment to an art. 36 operation",
+              "Subjects and hours set by ministerial standards or other Ordinance provisions",
+              "Participants, subjects and similar details, kept 3 years (art. 38)",
+              "Attendance and hours log; practical assessment for the listed operation; omission justification under art. 37"
+            ],
+            [
+              "Foreman education",
+              "Act art. 60; Cabinet Order art. 19; Ordinance art. 40",
+              "New foreman or direct supervisor in a listed industry",
+              "Five topic groups, 12 hours minimum",
+              "None prescribed in art. 40",
+              "Hours by topic; risk assessment exercise output; omission justification under art. 40(3)"
+            ],
+            [
+              "Education for people already in hazardous work",
+              "Act art. 60-2 and MHLW guideline",
+              "Periodic, at the employer's initiative",
+              "As set in the guideline",
+              "None prescribed (effort duty)",
+              "Refresher schedule and completion by role"
+            ],
+            [
+              "Licensed or restricted work",
+              "Act art. 61; Cabinet Order art. 20",
+              "Before assigning art. 20 work",
+              "License or registered skill training course",
+              "Worker must carry license or certificate",
+              "Copy of license or certificate checked before assignment; register of expiry where a license has a validity period"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For guidance on assembling this evidence, see [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit) and [how to set up verification of competency](/guides/how-to-set-up-verification-of-competency)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models each article of the Act and Ordinance, each listed operation and each role as linked concepts with defined assessment points, before any training content is written. When a Cabinet Order or Ordinance change adds an industry or operation, as in 2023, 2024 and the 2027 changes, the affected roles and evidence requirements can be traced from the framework rather than rediscovered course by course."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Japanese law set a minimum number of hours for hiring education?",
+      "a": "No. Article 35 of the Ordinance on Industrial Safety and Health lists eight content items and requires the education without delay, but sets no hours. Fixed minimum hours apply to foreman education (12 hours in total under article 40) and to special education, where ministerial standards and other provisions of the Ordinance set subjects and hours for the listed operations."
+    },
+    {
+      "q": "Must hiring education records be kept?",
+      "a": "The Ordinance only prescribes a record for special education, which must be kept for three years under article 38. Articles 35 and 40 do not prescribe records for hiring or foreman education. Keeping them anyway is the practical way to show an inspector that the duty was met and that any omitted items were justified."
+    },
+    {
+      "q": "Does foreman education apply to office based businesses?",
+      "a": "Not as a legal requirement. Article 60 applies only where the workplace's industry is listed in article 19 of the Cabinet Order: construction, most manufacturing, electricity, gas, automobile maintenance and machinery repair. Other employers may still choose to run supervisor safety training, and hiring education under article 59 applies to every industry."
+    },
+    {
+      "q": "Can an employer skip special education for an experienced worker?",
+      "a": "Yes, subject by subject. Article 37 of the Ordinance allows an employer to omit all or part of the special education subjects for a worker recognized as having sufficient knowledge and skill. The Ordinance does not define how that recognition is made, so employers typically keep prior certificates or assessment results as the justification."
+    },
+    {
+      "q": "Is the official English translation of the Act legally binding?",
+      "a": "No. The Japanese Law Translation database states that its translations are not official texts and that only the original Japanese texts have legal effect. The English version of the Industrial Safety and Health Act reflects amendments up to Act No. 71 of 2018, so recent changes, including the 2025 amending Act, must be read in Japanese on e-Gov."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Rōdō Anzen Eisei Hō: Industrial Safety and Health Act (Act No. 57 of 1972), current Japanese text",
+      "publisher": "e-Gov Law Search, Government of Japan",
+      "url": "https://laws.e-gov.go.jp/law/347AC0000000057"
+    },
+    {
+      "title": "Rōdō Anzen Eisei Kisoku: Ordinance on Industrial Safety and Health (Ministry of Labour Ordinance No. 32 of 1972), current Japanese text",
+      "publisher": "e-Gov Law Search, Government of Japan",
+      "url": "https://laws.e-gov.go.jp/law/347M50002000032"
+    },
+    {
+      "title": "Order for Enforcement of the Industrial Safety and Health Act (Cabinet Order No. 318 of 1972), current Japanese text",
+      "publisher": "e-Gov Law Search, Government of Japan",
+      "url": "https://laws.e-gov.go.jp/law/347CO0000000318"
+    },
+    {
+      "title": "Industrial Safety and Health Act (Act No. 57 of 1972), English translation, last version Act No. 71 of 2018",
+      "publisher": "Japanese Law Translation, Ministry of Justice, Japan",
+      "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/3440"
+    },
+    {
+      "title": "Japanese Law Translation: notice to users on translations",
+      "publisher": "Japanese Law Translation, Ministry of Justice, Japan",
+      "url": "https://www.japaneselawtranslation.go.jp/en"
+    },
+    {
+      "title": "Overview of the Cabinet Order and Ordinance amendments on chemical substance management (hiring education, chemical management officers, foreman education industries)",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "url": "https://www.mhlw.go.jp/content/11300000/001083280.pdf"
+    },
+    {
+      "title": "New regulations to prevent industrial accidents caused by chemical substances",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000099121_00005.html"
+    },
+    {
+      "title": "Act on Partial Amendment of the Industrial Safety and Health Act and the Working Environment Measurement Act (Act No. 33 of 2025)",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/anzen/an-eihou/index_00001.html"
+    },
+    {
+      "title": "Main points of the amendments to the Industrial Safety and Health Act and the Working Environment Measurement Act (leaflet)",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "url": "https://www.mhlw.go.jp/content/11300000/001513749.pdf"
+    },
+    {
+      "title": "Act No. 33 of 2025: comparison of old and new provisions",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "url": "https://www.mhlw.go.jp/content/11300000/001497671.pdf"
+    },
+    {
+      "title": "Safety and Health Education Guideline Notice No. 7 (May 25, 2026): guideline on education for people currently in dangerous or harmful work",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "url": "https://www.mhlw.go.jp/content/11300000/001704144.pdf"
+    },
+    {
+      "title": "Revision of the circular on safety and health education delivered by e-learning over the internet (September 2, 2026)",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "url": "https://www.mhlw.go.jp/content/11300000/001752584.pdf"
+    },
+    {
+      "title": "Ordinance Partially Amending the Ordinance on Industrial Safety and Health (MHLW Ordinance No. 57 of 2025, heat stroke)",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "url": "https://www.mhlw.go.jp/content/11303000/001476789.pdf"
+    },
+    {
+      "title": "Licenses, qualifications, skill training courses and special education under industrial safety and health law",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/roudoukijun/anzeneisei10/qualificaton_education.html"
+    },
+    {
+      "title": "Locations of Prefectural Labour Bureaus, Labour Standards Inspection Offices and Public Employment Security Offices",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "url": "https://www.mhlw.go.jp/kouseiroudoushou/shozaiannai/roudoukyoku/"
+    }
+  ],
+  "related": [
+    "whs-act-duty-to-provide-training",
+    "iso-45001-competence-and-awareness",
+    "osha-training-requirements",
+    "eu-osh-framework-directive-training",
+    "japan-power-harassment-prevention-obligations",
+    "how-to-prepare-training-records-for-an-audit"
+  ],
+  "productLinks": [
+    {
+      "label": "Energy and resources",
+      "href": "/industries/energy-resources"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 99,
+  "factCheck": [
+    {
+      "claim": "Article 59(1) and (2) require safety or health education on hiring and on a change of work content; article 59(3) requires special education before assigning MHLW listed dangerous or harmful operations; article 60 requires foreman education in Cabinet Order industries, excluding operations chiefs; article 60-2 is an effort duty.",
+      "source": "https://laws.e-gov.go.jp/law/347AC0000000057"
+    },
+    {
+      "claim": "Article 119 punishes breach of articles 59(3) and 61(1) with up to six months of kōkinkei or a fine up to 500,000 yen; article 120 punishes breach of article 59(1) (including as applied by 59(2)) with a fine up to 500,000 yen; article 60 is not listed in either; article 122 adds corporate fines. Articles 90 and 91 cover Labour Standards Inspection Office chiefs and inspectors.",
+      "source": "https://laws.e-gov.go.jp/law/347AC0000000057"
+    },
+    {
+      "claim": "Ordinance article 35 lists eight hiring education items, requires delivery without delay and allows omission for workers with sufficient knowledge and skill; article 36 lists special education operations up to item 41; article 37 allows omission; article 38 requires special education records kept 3 years; article 39 delegates details to the Minister; article 40 sets foreman topics and hours (2, 2.5, 4, 1.5, 2); article 40-3 requires plans and an annual report by April 30 at designated workplaces; article 12-5 item 7 gives chemical management officers education duties; article 612-2 covers heat stroke reporting and procedures.",
+      "source": "https://laws.e-gov.go.jp/law/347M50002000032"
+    },
+    {
+      "claim": "Cabinet Order article 19 lists construction, manufacturing (except tobacco, textiles other than spinning and dyeing, clothing and textile products, paper products other than cellophane), electricity, gas, automobile maintenance and machinery repair for foreman education; article 20 lists restricted work including forklifts of 1 ton or more and cranes of 5 tons or more.",
+      "source": "https://laws.e-gov.go.jp/law/347CO0000000318"
+    },
+    {
+      "claim": "The hiring education industry omission was abolished from April 1, 2024; chemical management officer appointment became mandatory from April 1, 2024; foreman education was extended to food manufacturing and newspaper, publishing, bookbinding and printed matter processing from April 1, 2023.",
+      "source": "https://www.mhlw.go.jp/content/11300000/001083280.pdf"
+    },
+    {
+      "claim": "The official English translation of the Act uses the article 59(1) wording quoted, and its last version is Act No. 71 of 2018.",
+      "source": "https://www.japaneselawtranslation.go.jp/en/laws/view/3440"
+    },
+    {
+      "claim": "The Japanese Law Translation database states translations are not official texts and only the original Japanese texts have legal effect.",
+      "source": "https://www.japaneselawtranslation.go.jp/en"
+    },
+    {
+      "claim": "Act No. 33 of 2025 was promulgated on May 14, 2025 and is phased in; from April 1, 2027 sole proprietors and similar persons working at the same site as workers must receive safety and health education for dangerous or harmful work; stress checks extend to workplaces under 50 workers within three years of promulgation.",
+      "source": "https://www.mhlw.go.jp/content/11300000/001513749.pdf"
+    },
+    {
+      "claim": "Act No. 33 of 2025 adds article 59(4) (sagyō jūji yakuin-tō must receive special education when doing article 59(3) work at the same place as workers), revises article 60-2, and amends article 119 to cover article 59(4).",
+      "source": "https://www.mhlw.go.jp/content/11300000/001497671.pdf"
+    },
+    {
+      "claim": "The guideline on safety and health education for people currently in dangerous or harmful work was revised by Notice No. 7 on May 25, 2026, applying from April 1, 2027.",
+      "source": "https://www.mhlw.go.jp/content/11300000/001704144.pdf"
+    },
+    {
+      "claim": "The e-learning circular of January 25, 2021, revised September 2, 2026, requires e-learning to meet statutory subjects, hours and instructor requirements and to confirm attendance; skill training certificates for article 61 work cannot be issued digitally.",
+      "source": "https://www.mhlw.go.jp/content/11300000/001752584.pdf"
+    },
+    {
+      "claim": "MHLW Ordinance No. 57 of 2025 added Ordinance article 612-2 on heat stroke reporting systems and response procedures, in force June 1, 2025.",
+      "source": "https://www.mhlw.go.jp/content/11303000/001476789.pdf"
+    }
+  ]
+}

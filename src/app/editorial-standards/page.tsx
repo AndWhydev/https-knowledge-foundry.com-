@@ -13,7 +13,7 @@ const label = "text-[11px] font-medium uppercase tracking-[0.14em] font-[family-
 const standards: { heading: string; body: string }[] = [
   {
     heading: "Primary sources first",
-    body: "Statements about what a law, regulator, or standard requires are checked against the primary source: the legislation, the regulator's own guidance, or the standard's published text. Each page lists the sources it relies on. Secondary commentary is used only for context and is labelled as such.",
+    body: "Statements about what a law, regulator, or standard requires are checked against the primary source: the legislation, the regulator's own guidance, or the standard's published text. Each page lists the sources it relies on. Secondary commentary is used only for context and is labeled as such.",
   },
   {
     heading: "Answer first, then detail",
@@ -21,7 +21,7 @@ const standards: { heading: string; body: string }[] = [
   },
   {
     heading: "No invented figures",
-    body: "We do not publish statistics, case examples, or quotations we cannot attribute to a named, checkable source. Illustrative examples are labelled as illustrative.",
+    body: "We do not publish statistics, case examples, or quotations we cannot attribute to a named, checkable source. Illustrative examples are labeled as illustrative.",
   },
   {
     heading: "Dated and maintained",
@@ -33,7 +33,7 @@ const standards: { heading: string; body: string }[] = [
   },
   {
     heading: "Not legal advice",
-    body: "These pages are general information for L&D, compliance, and risk professionals. They are not legal or compliance advice for any particular organisation.",
+    body: "These pages are general information for L&D, compliance, and risk professionals. They are not legal or compliance advice for any particular organization.",
   },
   {
     heading: "Corrections",

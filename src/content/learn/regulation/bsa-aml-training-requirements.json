@@ -1,0 +1,392 @@
+{
+  "slug": "bsa-aml-training-requirements",
+  "kind": "regulation",
+  "title": "What AML training does the Bank Secrecy Act require of US financial institutions?",
+  "seoTitle": "Bank Secrecy Act AML training",
+  "description": "What the Bank Secrecy Act and FinCEN program rules require for AML/CFT training, who must be trained, and the 2026 rule proposal, as at September 2026.",
+  "shortAnswer": "The Bank Secrecy Act requires every covered US financial institution to run an anti-money laundering program that includes an ongoing employee training program. FinCEN's rules in 31 CFR Chapter X repeat this for banks, broker-dealers, money services businesses, insurers and other sectors, and examiners expect training tailored to each role, covering the institution's own policies, delivered to staff, board and agents, and documented with dates, materials and attendance.",
+  "keyTakeaways": [
+    "Training is one of the four statutory pillars of a US AML program: 31 U.S.C. 5318(h)(1) requires \"an ongoing employee training program\".",
+    "Each sector's FinCEN program rule states the training requirement in slightly different words, for example \"training for appropriate personnel\" for banks in 31 CFR 1020.210 and \"ongoing training for appropriate persons\" for broker-dealers in 31 CFR 1023.210.",
+    "Bank examiners, using the FFIEC BSA/AML Examination Manual, expect role based training, board level training, and records of dates, materials, attendance and follow up on missed training.",
+    "FinCEN proposed a new AML/CFT program rule on April 10, 2026, which withdrew its 2024 proposal. As at September 2026 it is not final, and the current program rules still apply.",
+    "FinCEN's AML/CFT program rule for registered investment advisers is delayed until January 1, 2028."
+  ],
+  "jurisdiction": "United States (federal)",
+  "regulator": "Financial Crimes Enforcement Network (FinCEN), with the federal banking agencies, the SEC and FINRA as examining authorities",
+  "appliesTo": [
+    "Banks, savings associations and credit unions",
+    "Broker-dealers, mutual funds, futures commission merchants and introducing brokers in commodities",
+    "Money services businesses, casinos and card clubs, and insurance companies issuing covered products",
+    "Other covered financial institutions under 31 CFR Chapter X, such as dealers in precious metals, stones or jewels, and loan or finance companies",
+    "Registered investment advisers and exempt reporting advisers, from January 1, 2028"
+  ],
+  "sections": [
+    {
+      "id": "how-the-us-aml-framework-is-structured",
+      "heading": "How is the US AML framework structured?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The US framework has three layers: a federal statute (the Bank Secrecy Act), regulations written by a Treasury bureau (FinCEN), and supervision by each sector's own regulator. For readers outside the United States, the closest analogy is a primary law plus sector specific regulations, but with examinations carried out by several agencies rather than one financial intelligence unit."
+        },
+        {
+          "type": "p",
+          "text": "The Bank Secrecy Act (BSA) is the collective name for the Currency and Foreign Transactions Reporting Act of 1970 and the statutes that later amended it. [FinCEN describes the BSA](https://www.fincen.gov/resources/statutes-and-regulations/bank-secrecy-act) as authorizing the Department of the Treasury to impose reporting and other requirements on financial institutions to help detect and prevent money laundering. The Financial Crimes Enforcement Network (FinCEN) is the Treasury bureau that administers the BSA and writes its implementing rules, collected in 31 CFR Chapter X."
+        },
+        {
+          "type": "p",
+          "text": "Examination is delegated. Banks are examined by their federal banking agency (the Federal Reserve, the FDIC, the OCC or the NCUA), broker-dealers by the Securities and Exchange Commission (SEC) and the Financial Industry Regulatory Authority (FINRA), and so on. This page states the position as at September 2026."
+        }
+      ]
+    },
+    {
+      "id": "what-the-statute-requires",
+      "heading": "What does the Bank Secrecy Act itself require for training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The statute requires every financial institution's AML program to include an ongoing employee training program. Section 5318(h)(1) of Title 31 of the US Code, added in 1992 and made mandatory by the USA PATRIOT Act of 2001, sets four minimum program components, which FinCEN's [April 2026 proposed rule](https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs) calls the \"four pillars\":"
+        },
+        {
+          "type": "callout",
+          "title": "31 U.S.C. 5318(h)(1), as summarized by FinCEN",
+          "text": "\"(A) the development of internal policies, procedures, and controls, (B) the designation of a compliance officer, (C) an ongoing employee training program, and (D) an independent audit function to test programs\""
+        },
+        {
+          "type": "p",
+          "text": "The Anti-Money Laundering Act of 2020 (AML Act), enacted on January 1, 2021 as part of the National Defense Authorization Act for Fiscal Year 2021, amended section 5318(h) to refer to countering the financing of terrorism (CFT) and required FinCEN to publish national AML/CFT priorities. FinCEN [issued the first priorities on June 30, 2021](https://www.fincen.gov/news/news-releases/fincen-issues-first-national-amlcft-priorities-and-accompanying-statements): corruption, cybercrime, terrorist financing, fraud, transnational criminal organizations, drug trafficking organizations, human trafficking and smuggling, and proliferation financing."
+        }
+      ]
+    },
+    {
+      "id": "sector-program-rules",
+      "heading": "What do FinCEN's sector program rules say about training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Every FinCEN program rule includes a training requirement, but the wording differs by sector. The table summarizes the current text in the [Electronic Code of Federal Regulations](https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.210), which for banks has not changed since September 2020."
+        },
+        {
+          "type": "table",
+          "caption": "Training requirement in selected FinCEN program rules, 31 CFR Chapter X (as at September 2026)",
+          "head": [
+            "Sector",
+            "Rule",
+            "Training wording"
+          ],
+          "rows": [
+            [
+              "Banks, savings associations, credit unions",
+              "1020.210(a)(2)(iv) and (b)(2)(iv)",
+              "\"Training for appropriate personnel\""
+            ],
+            [
+              "Money services businesses",
+              "1022.210(d)(3)",
+              "Education and/or training of appropriate personnel on their responsibilities under the program, \"including training in the detection of suspicious transactions\" where the business must report them"
+            ],
+            [
+              "Broker-dealers",
+              "1023.210(b)(4)",
+              "\"Ongoing training for appropriate persons\""
+            ],
+            [
+              "Mutual funds",
+              "1024.210(b)(4)",
+              "\"Provide ongoing training for appropriate persons\""
+            ],
+            [
+              "Insurance companies",
+              "1025.210(b)(3)",
+              "Ongoing training of appropriate persons; the insurer may train employees, agents and brokers directly or verify they were trained by another insurer or a competent third party"
+            ],
+            [
+              "Futures commission merchants and introducing brokers",
+              "1026.210(b)(4)",
+              "\"Ongoing training for appropriate persons\""
+            ],
+            [
+              "Investment advisers (not yet in force)",
+              "1032.210, effective January 1, 2028",
+              "\"Provide ongoing training for appropriate persons\""
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Banks must also meet the program rule of their federal banking agency, which carries the same training component (for example 12 CFR 21.21 for the OCC and 12 CFR 326.8 for the FDIC). Broker-dealers have a parallel self-regulatory requirement in [FINRA Rule 3310(e)](https://www.finra.org/rules-guidance/rulebooks/finra-rules/3310), which requires members' AML programs to \"provide ongoing training for appropriate personnel\". FINRA lets firms count this training toward the Firm Element of [FINRA continuing education](/regulations/finra-continuing-education-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "what-examiners-expect",
+      "heading": "What do examiners expect a BSA/AML training program to cover?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Examiners expect training that is tailored to each person's responsibilities, covers the institution's own policies as well as the law, reaches the board and agents, and is documented. The most detailed public statement is the \"BSA/AML Training\" section of the [FFIEC BSA/AML Examination Manual](https://bsaaml.ffiec.gov/manual/AssessingTheBSAAMLComplianceProgram/05), used by US bank examiners."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Scope.** Training should cover BSA regulatory requirements, supervisory guidance, and the bank's internal BSA/AML policies, procedures and processes.",
+            "**Tailoring.** Training should be tailored to each individual's responsibilities, with targeted training for higher risk business lines such as lending, trust services, foreign correspondent banking and private banking.",
+            "**New staff.** An overview of the BSA is typically given at orientation or reasonably soon after.",
+            "**Compliance staff.** The BSA compliance officer and compliance staff should receive periodic training to keep up with regulatory change and changes to the bank's risk profile.",
+            "**Board and senior management.** They should receive foundational training sufficient to oversee the program, approve the written program and allocate resources.",
+            "**Examples.** Training should include money laundering and suspicious activity examples relevant to each operational area, for example large currency transactions for tellers.",
+            "**Agents and third parties.** Agents performing BSA functions should be trained; where another party provides training, documentation should be kept."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The manual also sets a documentation expectation that matters to any [audit trail](/glossary/audit-trail): banks should keep training and testing materials, dates of sessions, attendance records, and records of any failure to take required training on time together with the corrective action taken."
+        }
+      ]
+    },
+    {
+      "id": "what-is-changing",
+      "heading": "What is changing in FinCEN's program rules?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "FinCEN has proposed, but not finalized, a rule to rewrite all its AML/CFT program rules, and it has delayed the new investment adviser rule to 2028. Both matter to training plans, but neither changes today's obligations."
+        },
+        {
+          "type": "table",
+          "caption": "Status of recent FinCEN program rulemakings (as at September 2026)",
+          "head": [
+            "Rulemaking",
+            "Status",
+            "Training impact"
+          ],
+          "rows": [
+            [
+              "AML/CFT program proposal, July 3, 2024 (89 FR 55428)",
+              "Withdrawn: FinCEN stated in April 2026 that it does not intend to finalize it and that it is superseded",
+              "None"
+            ],
+            [
+              "AML/CFT program proposal, April 10, 2026 (91 FR 18704)",
+              "Pending: comments closed June 9, 2026; FinCEN proposed an effective date 12 months after a final rule is published",
+              "Would adopt the statutory phrase \"ongoing employee training program\" uniformly across sectors, described by FinCEN as clarifying, not substantive"
+            ],
+            [
+              "Investment adviser AML/CFT program rule (89 FR 72156, September 4, 2024)",
+              "Delayed: effective January 1, 2028 (91 FR 36, January 2, 2026)",
+              "Registered investment advisers and exempt reporting advisers will need ongoing AML/CFT training from that date"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "In the 2026 proposal FinCEN says it \"would generally expect training to cover the financial institution's internal policies, procedures, and controls, which should in turn reflect the results of the financial institution's risk assessment processes\", and that frequency and content would depend on the institution's risk profile and each trainee's role. It also notes that institutions may need to train non-employees who have program roles. These statements are proposals, not binding rules, as at September 2026."
+        }
+      ]
+    },
+    {
+      "id": "mapping-obligations-to-evidence",
+      "heading": "How can an institution map BSA training obligations to evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Map each examiner expectation to a role based learning outcome and to the record an examiner would ask to see. The table is illustrative and would need tailoring to the institution's risk assessment, products and sector rule. For the general method, see [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations)."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: obligation to learning outcome to assessment evidence",
+          "head": [
+            "Obligation or expectation",
+            "Example learning outcome",
+            "Assessment evidence"
+          ],
+          "rows": [
+            [
+              "Ongoing training for appropriate personnel (sector program rule)",
+              "Each role completes training matched to its BSA duties.",
+              "Role based [training matrix](/glossary/training-matrix) linked to the risk assessment, with completion dates."
+            ],
+            [
+              "Operational examples for frontline staff (FFIEC manual)",
+              "A teller identifies structuring indicators and escalates to the BSA officer.",
+              "Scenario assessment with pass mark; record of content version used."
+            ],
+            [
+              "Board foundational training (FFIEC manual)",
+              "Directors explain the bank's risk profile and their duty to approve the program.",
+              "Board minutes, briefing materials and attendance."
+            ],
+            [
+              "Compliance officer periodic training (FFIEC manual)",
+              "The BSA officer applies new rules and national priorities to the program.",
+              "External course certificates and a log of regulatory updates reviewed."
+            ],
+            [
+              "Missed training and corrective action (FFIEC manual)",
+              "Overdue staff are identified and remediated.",
+              "Exception report, escalation record and completion after remediation."
+            ],
+            [
+              "Agents and third parties (FFIEC manual; 1025.210 for insurers)",
+              "Agents understand their reporting role.",
+              "Agent training records or documented verification of third party training."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Completion records alone rarely show that people can apply the rules. The distinction is covered in [completion tracking vs competency verification](/compare/completion-tracking-vs-competency-verification), and record keeping for examinations in [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
+        }
+      ]
+    },
+    {
+      "id": "how-often-to-train",
+      "heading": "How often must AML training be delivered?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No FinCEN program rule sets a fixed frequency or number of hours; the requirement is that training is ongoing and appropriate to the institution's risks. In practice, examiners look for training at onboarding, periodic refreshers, and updates when rules, products or the risk profile change. Many institutions choose an annual cycle for all relevant staff, but that is a common practice rather than a regulatory requirement. For setting intervals, see [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models each program rule, examiner expectation and internal policy as nodes in a knowledge framework, linked to role based learning outcomes and assessment points. When FinCEN finalizes a program rule or updates its priorities, the affected training can be traced from those links. See how this applies to [financial services organizations](/industries/financial-services)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the Bank Secrecy Act require annual AML training?",
+      "a": "No. The statute and FinCEN's program rules require ongoing training for appropriate personnel but do not set a fixed interval. Examiners assess whether frequency and content fit the institution's risk profile and each person's role. Annual refreshers are a widespread practice, not a stated legal requirement."
+    },
+    {
+      "q": "Do board members need BSA/AML training?",
+      "a": "US bank examiners expect it. The FFIEC BSA/AML Examination Manual says the board and senior management should receive foundational training and be kept informed of changes, so that directors understand the bank's risk profile well enough to approve the written program and oversee it."
+    },
+    {
+      "q": "Has FinCEN finalized its new AML/CFT program rule?",
+      "a": "Not as at September 2026. FinCEN published a proposed rule on April 10, 2026, with comments due by June 9, 2026, and said its 2024 proposal is withdrawn and superseded. The existing sector program rules in 31 CFR Chapter X continue to apply until a final rule takes effect."
+    },
+    {
+      "q": "Can an insurer rely on training delivered by someone else?",
+      "a": "Yes, within limits. The insurance company program rule, 31 CFR 1025.210(b)(3), lets an insurer satisfy the training requirement for its employees, agents and brokers either by training them directly or by verifying that they received training from another insurance company or a competent third party on the covered products the insurer offers. The verification should be documented."
+    }
+  ],
+  "sources": [
+    {
+      "title": "31 CFR 1020.210: Anti-money laundering program requirements for banks",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.210"
+    },
+    {
+      "title": "Anti-Money Laundering and Countering the Financing of Terrorism Programs (proposed rule, 91 FR 18704, April 10, 2026)",
+      "publisher": "FinCEN, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"
+    },
+    {
+      "title": "Anti-Money Laundering and Countering the Financing of Terrorism Programs (proposed rule, 89 FR 55428, July 3, 2024)",
+      "publisher": "FinCEN, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2024/07/03/2024-14414/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"
+    },
+    {
+      "title": "Delaying the Effective Date of the AML/CFT Program and SAR Filing Requirements for Registered Investment Advisers and Exempt Reporting Advisers (91 FR 36)",
+      "publisher": "FinCEN, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/01/02/2025-24184/delaying-the-effective-date-of-the-anti-money-launderingcountering-the-financing-of-terrorism"
+    },
+    {
+      "title": "BSA/AML Training",
+      "publisher": "FFIEC BSA/AML Examination Manual",
+      "url": "https://bsaaml.ffiec.gov/manual/AssessingTheBSAAMLComplianceProgram/05"
+    },
+    {
+      "title": "The Bank Secrecy Act",
+      "publisher": "FinCEN",
+      "url": "https://www.fincen.gov/resources/statutes-and-regulations/bank-secrecy-act"
+    },
+    {
+      "title": "Anti-Money Laundering Act of 2020",
+      "publisher": "FinCEN",
+      "url": "https://www.fincen.gov/resources/statutes-and-regulations/anti-money-laundering-act-2020"
+    },
+    {
+      "title": "FinCEN Issues First National AML/CFT Priorities and Accompanying Statements",
+      "publisher": "FinCEN",
+      "url": "https://www.fincen.gov/news/news-releases/fincen-issues-first-national-amlcft-priorities-and-accompanying-statements"
+    },
+    {
+      "title": "Rule 3310: Anti-Money Laundering Compliance Program",
+      "publisher": "FINRA",
+      "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/3310"
+    }
+  ],
+  "related": [
+    "finra-continuing-education-requirements",
+    "doj-compliance-program-training-expectations",
+    "uae-aml-cft-training-requirements",
+    "japan-fsa-aml-cft-guidelines-training",
+    "how-to-map-training-to-compliance-obligations",
+    "how-to-prepare-training-records-for-an-audit"
+  ],
+  "productLinks": [
+    {
+      "label": "Financial services",
+      "href": "/industries/financial-services"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 99,
+  "factCheck": [
+    {
+      "claim": "31 CFR 1020.210(a)(2)(iv) and (b)(2)(iv) require 'Training for appropriate personnel'; section last amended at 85 FR 57137, Sept. 15, 2020, and unchanged in the eCFR as at September 2026.",
+      "source": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.210"
+    },
+    {
+      "claim": "Training wording in 31 CFR 1022.210(d)(3), 1023.210(b)(4), 1024.210(b)(4), 1025.210(b)(3) (including third party verification option for insurers) and 1026.210(b)(4).",
+      "source": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.210"
+    },
+    {
+      "claim": "31 U.S.C. 5318(h)(1) four pillars including '(C) an ongoing employee training program', added by the Annunzio-Wylie Act 1992; AML Act enacted January 1, 2021 as part of the FY21 NDAA; section 6101 added CFT to 5318(h)(1).",
+      "source": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"
+    },
+    {
+      "claim": "April 2026 NPRM: 2024 Program NPRM considered withdrawn and superseded; comments due June 9, 2026; proposed effective date 12 months after publication of a final rule; proposed 10XX.210(b)(4) 'ongoing employee training program' described as clarifying, not substantive; training expectation quote.",
+      "source": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"
+    },
+    {
+      "claim": "No final AML/CFT program rule published by FinCEN in the Federal Register through September 2026 (FinCEN document list checked).",
+      "source": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=financial-crimes-enforcement-network&order=newest&per_page=60"
+    },
+    {
+      "claim": "Investment adviser AML/CFT rule (89 FR 72156) delayed until January 1, 2028; rule text includes 'Provide ongoing training for appropriate persons'.",
+      "source": "https://www.federalregister.gov/documents/2026/01/02/2025-24184/delaying-the-effective-date-of-the-anti-money-launderingcountering-the-financing-of-terrorism"
+    },
+    {
+      "claim": "FFIEC manual training expectations: scope, tailoring, new staff orientation, compliance staff, board foundational training, examples by operational area, agents, documentation of materials, dates, attendance and failures with corrective action; bank agency rules 12 CFR 208.63(c)(4), 326.8(c)(4), 748.2(c)(4), 21.21(d)(4). Read via Wayback Machine snapshot of April 18, 2026 because the live site blocks automated access.",
+      "source": "https://bsaaml.ffiec.gov/manual/AssessingTheBSAAMLComplianceProgram/05"
+    },
+    {
+      "claim": "First national AML/CFT Priorities issued June 30, 2021, listing corruption, cybercrime, terrorist financing, fraud, transnational criminal organizations, drug trafficking organizations, human trafficking and smuggling, and proliferation financing.",
+      "source": "https://www.fincen.gov/news/news-releases/fincen-issues-first-national-amlcft-priorities-and-accompanying-statements"
+    },
+    {
+      "claim": "FINRA Rule 3310(e): AML programs must 'Provide ongoing training for appropriate personnel'.",
+      "source": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/3310"
+    }
+  ]
+}

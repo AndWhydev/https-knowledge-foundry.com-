@@ -65,7 +65,7 @@ const steps = [
   {
     n: "02",
     title: "Structure",
-    desc: "The Deterministic Logic Framework establishes the Program Schema: program shape, sequencing logic, instructional mandates, behavioural outcomes, hierarchical order, validation points.",
+    desc: "The Deterministic Logic Framework establishes the Program Schema: program shape, sequencing logic, instructional mandates, behavioral outcomes, hierarchical order, validation points.",
   },
   {
     n: "03",
@@ -80,7 +80,7 @@ const steps = [
   {
     n: "05",
     title: "Verify and release",
-    desc: "Foundry Hash on each block. Master Integrity Root on each programme. Multi-Sig release gates. Forensic Revision Chain behind each change.",
+    desc: "Foundry Hash on each block. Master Integrity Root on each program. Multi-Sig release gates. Forensic Revision Chain behind each change.",
   },
 ];
 
@@ -90,8 +90,8 @@ const faq = [
     a: "Model selection is governed by the Semantic Compiler and constrained by Proprietary Execution Protocols. Models operate only inside the framework envelope approved by a human owner. The model architecture is not the differentiator. The constraint architecture around the model is. Specific model configurations are disclosed under mutual non-disclosure for technical evaluation.",
   },
   {
-    q: "How does the platform prevent generative drift on long form programmes?",
-    a: "Recursive Contextual Synchronization operates at three levels: within a lesson, across lessons in a chapter, and across the entire programme. Alignment checks against the Pedagogical Roadmap run in real time. Content that does not align to the approved framework does not leave the compiler.",
+    q: "How does the platform prevent generative drift on long form programs?",
+    a: "Recursive Contextual Synchronization operates at three levels: within a lesson, across lessons in a chapter, and across the entire program. Alignment checks against the Pedagogical Roadmap run in real time. Content that does not align to the approved framework does not leave the compiler.",
   },
   {
     q: "Where can we deploy: cloud, on premise, private tenancy?",
@@ -99,11 +99,11 @@ const faq = [
   },
   {
     q: "How does hashing actually work at scale?",
-    a: "Each discrete content block receives a cryptographic identifier, the Foundry Hash, through the Foundry Integrity Ledger. Block hashes aggregate into a Master Integrity Root at programme level. Verification of the root verifies each block beneath it. The same primitive used in software supply chains and financial ledgers, applied to learning content.",
+    a: "Each discrete content block receives a cryptographic identifier, the Foundry Hash, through the Foundry Integrity Ledger. Block hashes aggregate into a Master Integrity Root at program level. Verification of the root verifies each block beneath it. The same primitive used in software supply chains and financial ledgers, applied to learning content.",
   },
   {
     q: "What does the API look like?",
-    a: "API first, multi tenant, covering programme lifecycle operations, access at block level, provenance retrieval, and integrity verification. It is the same interface the platform uses internally. Documentation, OpenAPI specifications, and reference implementations are available under mutual non-disclosure.",
+    a: "API first, multi tenant, covering program lifecycle operations, access at block level, provenance retrieval, and integrity verification. It is the same interface the platform uses internally. Documentation, OpenAPI specifications, and reference implementations are available under mutual non-disclosure.",
   },
   {
     q: "How do you handle model updates, prompt drift, and reproducibility over time?",
@@ -162,8 +162,8 @@ export default function TechnicalOverviewPage() {
         title="This is not a 'write me a course' tool. It is a structured knowledge system."
       >
         <p>
-          The platform does not generate free form material and organise it
-          afterward. It treats knowledge structure as a first class artefact.
+          The platform does not generate free form material and organize it
+          afterward. It treats knowledge structure as a first class artifact.
           The Proprietary Semantic Compiler interprets inputs into formal
           models. The Deterministic Logic Framework establishes the Program
           Schema before the generative engine is engaged. The framework is
@@ -171,7 +171,7 @@ export default function TechnicalOverviewPage() {
         </p>
         <p>
           Generation begins only when the blueprint is approved. Structure
-          remains the single source of truth throughout the programme
+          remains the single source of truth throughout the program
           lifecycle, preventing the generative drift that undermines
           long form, high stakes content elsewhere.
         </p>
@@ -185,9 +185,9 @@ export default function TechnicalOverviewPage() {
       />
 
       <ProcessSteps
-        eyebrow="How a programme moves through the architecture"
+        eyebrow="How a program moves through the architecture"
         title="Interpret. Structure. Approve. Generate. Verify and release."
-        lede="The sequence is not incidental. Each stage produces artefacts the next stage depends on, and each stage leaves an evidence trail."
+        lede="The sequence is not incidental. Each stage produces artifacts the next stage depends on, and each stage leaves an evidence trail."
         steps={steps}
       />
 
@@ -207,7 +207,7 @@ export default function TechnicalOverviewPage() {
         <p>
           <strong>Visible frameworks</strong> shorten onboarding and eliminate
           the risk of opacity. <strong>Controlled revisions</strong> allow surgical
-          updates without programme regeneration.{" "}
+          updates without program regeneration.{" "}
           <strong>Verifiable integrity</strong> supports statutory and
           accreditation scrutiny. <strong>Deliberate delivery</strong> makes
           release an act of authority, not automation.

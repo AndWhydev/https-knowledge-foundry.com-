@@ -86,7 +86,7 @@ export default function OG() {
             position: "relative",
           }}
         >
-          <span>APRA · ASIC · TGA · ISO 45001 · PSPF · TEQSA</span>
+          <span>FINRA · DFSA · DORA · FDA · ISO 45001 · NIST</span>
           <span>knowledge-foundry.com/industries</span>
         </div>
       </div>

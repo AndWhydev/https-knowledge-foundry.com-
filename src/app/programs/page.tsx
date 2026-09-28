@@ -33,7 +33,7 @@ const programs = [
   {
     icon: <ShieldCheck className="h-5 w-5" />,
     title: "Compliance programs",
-    desc: "Regulatory and policy requirements translated into structured behavioural instruction. Not awareness. Adherence. Measurable, mapped, and defensible under audit.",
+    desc: "Regulatory and policy requirements translated into structured behavioral instruction. Not awareness. Adherence. Measurable, mapped, and defensible under audit.",
   },
   {
     icon: <Boxes className="h-5 w-5" />,
@@ -100,7 +100,7 @@ const faq = [
   },
   {
     q: "How is a compliance program different from an educational program in the Foundry?",
-    a: "Both start with a framework. Compliance programs bias the framework toward behavioural outcomes tied to regulatory clauses and role responsibilities. Educational programs bias toward cognitive progression and assessment aligned to Bloom. The architecture is the same. The lens on the framework differs.",
+    a: "Both start with a framework. Compliance programs bias the framework toward behavioral outcomes tied to regulatory clauses and role responsibilities. Educational programs bias toward cognitive progression and assessment aligned to Bloom. The architecture is the same. The lens on the framework differs.",
   },
   {
     q: "Do we have to build every program type at once?",
@@ -112,7 +112,7 @@ const faq = [
   },
   {
     q: "Who reviews the program before it goes live?",
-    a: "Your framework owner and subject matter reviewers. Nothing generates without an approved framework, and nothing releases without human sign off at defined gates. The system proposes. The organisation approves.",
+    a: "Your framework owner and subject matter reviewers. Nothing generates without an approved framework, and nothing releases without human sign off at defined gates. The system proposes. The organization approves.",
   },
 ];
 
@@ -141,15 +141,15 @@ export default function ProgramsIndexPage() {
         </p>
         <p>
           Educational programs privilege cognitive progression. Compliance programs privilege
-          behavioural adherence to regulatory clauses. Product enablement privileges correct
+          behavioral adherence to regulatory clauses. Product enablement privileges correct
           use under dependency. Operational procedures privilege repeatable execution. Hybrid
-          verification privileges demonstrable capability. Same discipline. Different centre of gravity.
+          verification privileges demonstrable capability. Same discipline. Different center of gravity.
         </p>
       </ProseBlock>
 
       <FeatureGrid
         eyebrow="Five program types"
-        title="Purpose built for what the organisation is accountable for."
+        title="Purpose built for what the organization is accountable for."
         features={programs}
         columns={3}
       />
@@ -163,7 +163,7 @@ export default function ProgramsIndexPage() {
 
       <FeatureGrid
         eyebrow="What each program inherits"
-        title="Shared discipline. Different centres of gravity."
+        title="Shared discipline. Different centers of gravity."
         features={shared}
         columns={3}
         tone="warm"
@@ -174,7 +174,7 @@ export default function ProgramsIndexPage() {
       <CtaBand
         eyebrow="Bring a subject"
         title="See the framework build itself."
-        lede="A 45 minute working session on a real programme you own. You watch the Foundry interpret, structure, and produce, and you keep the framework it creates."
+        lede="A 45 minute working session on a real program you own. You watch the Foundry interpret, structure, and produce, and you keep the framework it creates."
       />
     </>
   );

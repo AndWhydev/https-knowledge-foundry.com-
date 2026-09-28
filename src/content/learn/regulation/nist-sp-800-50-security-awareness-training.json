@@ -1,0 +1,403 @@
+{
+  "slug": "nist-sp-800-50-security-awareness-training",
+  "kind": "regulation",
+  "title": "What does NIST SP 800-50 say about security awareness and training programs?",
+  "seoTitle": "NIST SP 800-50 Rev. 1 learning programs",
+  "description": "What NIST SP 800-50 Rev. 1 (September 2024) says about building a cybersecurity and privacy learning program, and how it links to SP 800-53 AT controls.",
+  "shortAnswer": "NIST SP 800-50 Rev. 1, Building a Cybersecurity and Privacy Learning Program, published by the National Institute of Standards and Technology in September 2024, is US federal guidance for running security and privacy awareness and training as one managed program. It replaces SP 800-50 (2003) and SP 800-16, sets a four-phase life cycle, segments learners by risk, and requires measurement of behavior and culture, not only compliance.",
+  "keyTakeaways": [
+    "SP 800-50 Rev. 1 was published in September 2024 and is the current version as at September 2026. It supersedes the original SP 800-50 (2003) and SP 800-16 (1998), which NIST withdrew on September 12, 2024.",
+    "It replaces the old awareness, training and education continuum with a single Cybersecurity and Privacy Learning Program (CPLP) that covers both security and privacy.",
+    "The program runs through four phases: Plan and Strategy, Analysis and Design, Development and Implementation, and Assessment and Improvement.",
+    "Learners are grouped into all users, privileged access account holders, and people with significant cybersecurity or privacy responsibilities, who need role-based training.",
+    "It is written for federal agencies, but NIST adapts its key considerations for any organization, and the related SP 800-53 AT controls, CSF 2.0 and SP 800-171 reach private companies through contracts and frameworks."
+  ],
+  "jurisdiction": "United States (federal)",
+  "regulator": "National Institute of Standards and Technology (NIST)",
+  "appliesTo": [
+    "US federal agencies and their contractors, under the Federal Information Security Modernization Act (FISMA) and OMB Circular A-130",
+    "Organizations that adopt NIST SP 800-53, SP 800-171 or the NIST Cybersecurity Framework and need a training program behind the awareness and training controls",
+    "Chief information security officers, privacy officers, heads of learning, and training managers running security and privacy awareness"
+  ],
+  "sections": [
+    {
+      "id": "what-sp-800-50-rev-1-is",
+      "heading": "What is NIST SP 800-50 Rev. 1 and is it current?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "NIST SP 800-50 Rev. 1 is the current NIST guidance on security and privacy awareness and training programs, [published in final form in September 2024](https://csrc.nist.gov/pubs/sp/800/50/r1/final). NIST, part of the US Department of Commerce, writes technical standards and guidelines that federal agencies must follow for information security. Its Special Publications (SPs) are widely used outside government as good practice."
+        },
+        {
+          "type": "p",
+          "text": "Rev. 1 supersedes the original SP 800-50 of October 2003 and SP 800-16, the 1998 role and performance based training model. NIST's page for [SP 800-16](https://csrc.nist.gov/pubs/sp/800/16/final) records that it was withdrawn on September 12, 2024 and superseded by SP 800-50 Rev. 1; its useful content was moved into SP 800-50 Rev. 1 or into SP 800-181 Rev. 1, the Workforce Framework for Cybersecurity (NICE Framework). The authors come from NIST, the Cybersecurity and Infrastructure Security Agency (CISA), NASA, the Department of Transportation, the Internal Revenue Service and MITRE."
+        },
+        {
+          "type": "p",
+          "text": "The publication says it meets NIST's statutory responsibilities under FISMA and responds to section 9402 of the National Defense Authorization Act for Fiscal Year 2021, which directed NIST to publish standards and guidelines for improving cybersecurity awareness of federal employees and contractors. This page describes the position as at September 2026."
+        }
+      ]
+    },
+    {
+      "id": "what-changed-from-2003",
+      "heading": "What changed from the 2003 version?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The biggest change is that awareness, training and education are no longer treated as separate stages; they are all elements of one learning program that includes privacy as well as security. NIST explains that its research with federal training managers found those terms were applied inconsistently and caused confusion."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**One program, two disciplines.** The Cybersecurity and Privacy Learning Program (CPLP) covers security and privacy, reflecting the 2016 update to OMB Circular A-130.",
+            "**Learner language.** Participants are \"learners\" and the program is a \"learning program\", aligned with the NICE Framework.",
+            "**Metrics.** The change log says the revision addresses issues from NIST research, including guidance for designing impactful metrics and measurements.",
+            "**Culture.** A full section covers building a cybersecurity and privacy culture, treating human risk alongside technical risk.",
+            "**Alignment.** It draws on the NIST Cybersecurity Framework, Risk Management Framework and Privacy Framework published since 2003."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "NIST notes that organizations do not need to rename their programs as CPLPs. The term is used generically for awareness campaigns, awareness training, practical exercises, topic-based training, role-based training and educational programs."
+        }
+      ]
+    },
+    {
+      "id": "cplp-life-cycle",
+      "heading": "What does the program life cycle look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SP 800-50 Rev. 1 organizes the program into four phases that can run in sequence or at the same time, and says a CPLP must have an actively managed plan throughout its life cycle."
+        },
+        {
+          "type": "table",
+          "caption": "The four CPLP phases in SP 800-50 Rev. 1 (sections 2 to 5)",
+          "head": [
+            "Phase",
+            "Main activities",
+            "Typical outputs"
+          ],
+          "rows": [
+            [
+              "Plan and Strategy (section 2)",
+              "Strategic plan, policies and procedures, goals and objectives, measurements and metrics, audience segments, priorities, resources.",
+              "A documented CPLP strategy and plan approved by leadership."
+            ],
+            [
+              "Analysis and Design (section 3)",
+              "Analyze learning needs and gaps; design learning elements for each audience segment.",
+              "Needs analysis and a design for each element and audience."
+            ],
+            [
+              "Development and Implementation (section 4)",
+              "Develop or acquire materials, implement new elements, communicate the rollout, set reporting and a schedule, plan evaluation.",
+              "Materials, schedule, and a measurement and reporting plan."
+            ],
+            [
+              "Assessment and Improvement (section 5)",
+              "Analyze metrics, review regulatory compliance and reporting, gather feedback, report to senior leadership, update the plan.",
+              "A CPLP assessment report and agreed program changes."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The structure mirrors familiar instructional design models such as the [ADDIE model](/glossary/addie-model). The first step in practice is a [training needs analysis](/glossary/training-needs-analysis) against cybersecurity and privacy risks."
+        }
+      ]
+    },
+    {
+      "id": "who-needs-which-training",
+      "heading": "Who needs which kind of training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SP 800-50 Rev. 1 places every person in one or more of three audience segments, and the depth of training rises with risk. Everyone is in the all users group; the other two groups receive additional training."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**All users.** Every person who uses the organization's systems, including employees, contractors, interns, guest researchers and others with access. They complete recurring training, agree to the acceptable use policy or rules of behavior, and receive ongoing awareness.",
+            "**Privileged access account holders.** People with approved access to restricted systems or data that requires special care. They receive additional cybersecurity and privacy training.",
+            "**People with significant cybersecurity or privacy responsibilities.** Staff who need an individualized program of role-based training, such as the CISO, privacy officers, analysts and incident responders. The publication notes that FISMA requires these personnel to receive role-based training, and it points to the NICE Framework to define work roles."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For all users, the publication refers to SP 800-53 Rev. 5 control AT-2, which calls this security and privacy \"literacy\" training, and notes that federal agencies should check current FISMA requirements for how often it must be repeated. A [training matrix](/glossary/training-matrix) is a practical way to record which segment each role belongs to and what it must complete."
+        }
+      ]
+    },
+    {
+      "id": "program-elements",
+      "heading": "What should a learning program include?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SP 800-50 Rev. 1 describes three types of program element: awareness activities, experiential learning and practical exercises, and training. A single annual course is only one part of the program."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Awareness activities** run throughout the year, for example logon messages, newsletters, posters, and events in Cybersecurity Awareness Month (October) or Data Privacy Awareness Week (January).",
+            "**Experiential learning** simulates real events: phishing, smishing and vishing simulations, tabletop exercises, virtual labs, contingency scenarios and cyber ranges. NIST points to its Phish Scale for rating the difficulty of simulated phishing emails.",
+            "**Training** increases job-related knowledge and skills through synchronous, asynchronous, instructor-led, virtual, cyber range and scenario-based methods, often blended."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "On phishing simulations, SP 800-50 Rev. 1, section 2.7.2",
+          "text": "\"These activities should not be punitive, nor should any employee be called out for their response.\""
+        },
+        {
+          "type": "p",
+          "text": "The publication also recommends involving the legal team in designing phishing exercises and telling employees that simulations are run on a random basis and used to guide future learning."
+        }
+      ]
+    },
+    {
+      "id": "measuring-the-program",
+      "heading": "How does SP 800-50 Rev. 1 expect programs to be measured?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Measurement must show changes in capability and behavior, not just completion. Section 2.4 states that while laws and policies often set measurable requirements, CPLP measurements \"must go beyond simply achieving compliance\" and must also measure the program's impact on workforce capabilities, attitude and behavioral change."
+        },
+        {
+          "type": "p",
+          "text": "The publication distinguishes quantitative measures (numbers or rating scales) from qualitative ones (observations, interviews, focus groups, open-text survey answers), ties metrics to learning goals, objectives and outcomes, and recommends SMART measures. Among its key considerations, adapted from OMB Circular A-130 and presented as applicable to any organization, are to ensure measures are in place to assess participants' knowledge and skill, and to measure attitudes, behaviors and workforce sentiment to track culture."
+        },
+        {
+          "type": "p",
+          "text": "In the Assessment and Improvement phase, program managers prepare a CPLP assessment report analyzing attendance, feedback and metrics, review it with senior leadership, agree changes and budget, and update the plan. For methods, see [how to measure training effectiveness](/guides/how-to-measure-training-effectiveness) and [how to report training compliance to the board](/guides/how-to-report-training-compliance-to-the-board)."
+        }
+      ]
+    },
+    {
+      "id": "related-controls-and-rules",
+      "heading": "Which binding controls and rules sit alongside SP 800-50?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SP 800-50 Rev. 1 is guidance on how to build the program; the auditable requirements sit in controls and regulations that it supports. For federal agencies and systems, the main ones are listed below."
+        },
+        {
+          "type": "table",
+          "caption": "Training requirements that SP 800-50 Rev. 1 helps an organization meet",
+          "head": [
+            "Source",
+            "What it requires",
+            "Who it binds"
+          ],
+          "rows": [
+            [
+              "NIST SP 800-53 Rev. 5, AT-2 Literacy Training and Awareness",
+              "Security and privacy literacy training for system users, including managers, senior executives and contractors, at initial training, at a defined frequency, and after system changes or defined events; update content and incorporate lessons learned from incidents.",
+              "Federal systems, and any organization that adopts SP 800-53."
+            ],
+            [
+              "SP 800-53 Rev. 5, AT-3 Role-Based Training",
+              "Role-based training before authorizing access or performing duties, at a defined frequency, and when systems change.",
+              "As above."
+            ],
+            [
+              "SP 800-53 Rev. 5, AT-4 Training Records and AT-6 Training Feedback",
+              "Document and monitor training and retain individual records for a defined period; report training results to defined personnel.",
+              "As above (AT-5 was withdrawn and incorporated into PM-15)."
+            ],
+            [
+              "5 CFR 930.301 (Office of Personnel Management regulation)",
+              "Each executive agency must have an awareness and training plan; all users exposed to awareness material at least annually; new employees before system access; role-specific training for executives, managers, CIOs and IT staff.",
+              "US federal executive agencies."
+            ],
+            [
+              "NIST Cybersecurity Framework 2.0, PR.AT-01 and PR.AT-02",
+              "Personnel, and individuals in specialized roles, are provided with awareness and training to perform tasks with cybersecurity risks in mind.",
+              "Voluntary framework used by organizations of any sector and country."
+            ],
+            [
+              "NIST SP 800-171 Rev. 3, requirements 03.02.01 and 03.02.02",
+              "Literacy training and awareness, and role-based training, for systems handling Controlled Unclassified Information (CUI).",
+              "Nonfederal organizations when required by contract, including defense contractors."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Defense contractors meet these requirements through the Cybersecurity Maturity Model Certification program; see [CMMC security awareness training](/regulations/cmmc-security-awareness-training). Outside the US, a comparable management system requirement is [ISO/IEC 27001 awareness and training](/regulations/iso-27001-awareness-training-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "applying-it-outside-government",
+      "heading": "How can a non-US or private organization use SP 800-50 Rev. 1?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Private and non-US organizations can use SP 800-50 Rev. 1 as a free, detailed program design method, even though it is only binding on US federal agencies. NIST states that its key considerations are adapted to accommodate the needs of any organization, not just federal agencies."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: SP 800-50 Rev. 1 expectation to learning outcome to evidence",
+          "head": [
+            "Expectation",
+            "Example learning outcome",
+            "Assessment evidence"
+          ],
+          "rows": [
+            [
+              "All users complete literacy training and accept rules of behavior",
+              "Staff recognize and report a phishing attempt and handle personal data according to policy.",
+              "Scenario quiz with pass mark, signed rules of behavior, and report rate in phishing simulations."
+            ],
+            [
+              "Privileged users receive additional training",
+              "Administrators apply least privilege and secure configuration for the systems they manage.",
+              "Practical lab or cyber range exercise with an assessor checklist, repeated at a set interval."
+            ],
+            [
+              "Role-based training for significant responsibilities",
+              "Incident responders run the incident plan to its first containment decision.",
+              "Tabletop exercise records mapped to NICE Framework work roles and tasks."
+            ],
+            [
+              "Content updated after incidents and changes",
+              "Learners can describe the control that changed after a recent incident.",
+              "Version history linking the content change to the incident or policy change."
+            ],
+            [
+              "Measurement beyond compliance",
+              "Reporting of suspicious messages increases and repeat clicks fall.",
+              "Trend data in the CPLP assessment report reviewed by senior leadership."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This table is illustrative and is not a NIST template. For turning requirements like these into a curriculum, see [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models controls such as AT-2 and AT-3, audience segments and work roles as a knowledge framework, then links each to learning outcomes and assessment points. When a control, policy or threat changes, the affected content is identified from those links. This supports [standards and accreditation](/platform/standards-accreditation) work across security frameworks."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is NIST SP 800-50 mandatory?",
+      "a": "For US federal agencies, awareness and role-based training are required by FISMA, OMB Circular A-130 and 5 CFR 930.301, and NIST guidance describes how to meet them. For private organizations SP 800-50 Rev. 1 is voluntary unless a contract or regulator requires a NIST-based control set that includes awareness and training."
+    },
+    {
+      "q": "How often does SP 800-50 Rev. 1 say training must be repeated?",
+      "a": "It does not set one frequency. It tells federal agencies to check current FISMA requirements for all-user training, and SP 800-53 AT-2 and AT-3 leave the frequency to the organization. Separately, 5 CFR 930.301 requires federal system users to be exposed to awareness material at least annually."
+    },
+    {
+      "q": "What happened to NIST SP 800-16?",
+      "a": "SP 800-16, the 1998 role and performance based training model, was withdrawn on September 12, 2024 and superseded by SP 800-50 Rev. 1. NIST moved its relevant content into SP 800-50 Rev. 1 or into SP 800-181 Rev. 1, the NICE Workforce Framework for Cybersecurity."
+    },
+    {
+      "q": "Does SP 800-50 Rev. 1 cover privacy training?",
+      "a": "Yes. Rev. 1 combines cybersecurity and privacy in one learning program. It treats them as separate disciplines with overlapping objectives and follows OMB Circular A-130 in viewing privacy and security as related parts of a risk-based program rather than compliance exercises."
+    }
+  ],
+  "sources": [
+    {
+      "title": "SP 800-50 Rev. 1: Building a Cybersecurity and Privacy Learning Program",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://csrc.nist.gov/pubs/sp/800/50/r1/final"
+    },
+    {
+      "title": "NIST SP 800-50r1 (full text PDF)",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-50r1.pdf"
+    },
+    {
+      "title": "SP 800-16: Information Technology Security Training Requirements (withdrawn)",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://csrc.nist.gov/pubs/sp/800/16/final"
+    },
+    {
+      "title": "SP 800-53 Rev. 5: Security and Privacy Controls for Information Systems and Organizations",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf"
+    },
+    {
+      "title": "5 CFR 930.301: Information systems security awareness training program",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-5/section-930.301"
+    },
+    {
+      "title": "The NIST Cybersecurity Framework (CSF) 2.0",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf"
+    },
+    {
+      "title": "SP 800-171 Rev. 3: Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171r3.pdf"
+    }
+  ],
+  "related": [
+    "cmmc-security-awareness-training",
+    "iso-27001-awareness-training-requirements",
+    "how-to-measure-training-effectiveness",
+    "how-to-set-mandatory-training-refresh-cycles",
+    "training-needs-analysis",
+    "training-matrix"
+  ],
+  "productLinks": [
+    {
+      "label": "Standards and accreditation",
+      "href": "/platform/standards-accreditation"
+    },
+    {
+      "label": "Government and defense",
+      "href": "/industries/government-defence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 99,
+  "factCheck": [
+    {
+      "claim": "SP 800-50 Rev. 1, Building a Cybersecurity and Privacy Learning Program, final, published September 2024; supersedes SP 800-50 (October 2003) and SP 800-16 (April 1998); authors from NIST, CISA, NASA, DOT, MITRE and IRS.",
+      "source": "https://csrc.nist.gov/pubs/sp/800/50/r1/final"
+    },
+    {
+      "claim": "SP 800-16 withdrawn on September 12, 2024 and superseded by SP 800-50 Rev. 1.",
+      "source": "https://csrc.nist.gov/pubs/sp/800/16/final"
+    },
+    {
+      "claim": "SP 800-50r1 supports FISMA and FY21 NDAA section 9402; SP 800-16 content moved into SP 800-50r1 or SP 800-181r1; awareness/training/education continuum replaced by CPLP; four life cycle phases; three audience segments; FISMA requires role-based training for those with significant responsibilities; key considerations adapted from OMB A-130 App. I 4.h for any organization.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-50r1.pdf"
+    },
+    {
+      "claim": "SP 800-50r1 section 2.4.1: CPLP measurements 'must go beyond simply achieving compliance'; section 2.7.2: phishing exercises 'should not be punitive, nor should any employee be called out for their response'; NIST Phish Scale referenced.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-50r1.pdf"
+    },
+    {
+      "claim": "SP 800-53 Rev. 5 AT-2 Literacy Training and Awareness, AT-3 Role-Based Training, AT-4 Training Records, AT-6 Training Feedback; AT-5 withdrawn and incorporated into PM-15.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf"
+    },
+    {
+      "claim": "5 CFR 930.301 requires each executive agency to have an awareness and training plan; all users exposed to security awareness materials at least annually; awareness material for new employees before system access; role-specific training for executives, managers, CIOs and IT personnel.",
+      "source": "https://www.ecfr.gov/current/title-5/section-930.301"
+    },
+    {
+      "claim": "CSF 2.0 (February 26, 2024) PR.AT-01 and PR.AT-02 on awareness and training for personnel and specialized roles.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf"
+    },
+    {
+      "claim": "SP 800-171 Rev. 3 (May 2024) requirements 03.02.01 Literacy Training and Awareness and 03.02.02 Role-Based Training.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171r3.pdf"
+    }
+  ]
+}

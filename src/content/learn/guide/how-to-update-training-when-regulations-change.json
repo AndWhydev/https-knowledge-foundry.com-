@@ -6,7 +6,7 @@
   "description": "A method for updating training when a regulation changes: monitor sources, assess impact by role and outcome, redesign, approve, release on time, and retrain.",
   "shortAnswer": "To update training when a regulation changes, confirm what changed and when it commences, trace the change to the obligations, roles, learning outcomes, and assessments it affects, decide whether each item needs a minor edit, a redesign, or retirement, have compliance approve the changes, release them before the commencement date, deliver targeted delta training to people already trained, and record the whole decision trail.",
   "keyTakeaways": [
-    "Work from commencement dates, not announcement dates. Australian reforms often commence in stages.",
+    "Work from commencement dates, not announcement dates. Major reforms often commence in stages, and the dates themselves can change.",
     "Impact assessment should run from the change to obligations, then to roles, outcomes, assessments, and content, not from course titles.",
     "People already trained on the old rules usually need short delta training, not a full repeat.",
     "Change the assessment as well as the content, or the evidence will still test the old rule.",
@@ -19,7 +19,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Training needs a formal change process because obligations often require training to be suitable for current rules and risks, and an informal update usually misses assessments, records, or people already trained. The model Work Health and Safety Regulations, for example, require training to be suitable and adequate having regard to the risks associated with the work at the time the training is provided (regulation 39(2) of the [Work Health and Safety Regulations 2011](https://www.legislation.gov.au/F2011L02664/latest/text))."
+          "text": "Training needs a formal change process because obligations often require training to be suitable for current rules and risks, and an informal update usually misses assessments, records, or people already trained. For example, Australia's model Work Health and Safety Regulations require training to be suitable and adequate having regard to the risks associated with the work at the time the training is provided (regulation 39(2) of the [Work Health and Safety Regulations 2011](https://www.legislation.gov.au/F2011L02664/latest/text))."
         },
         {
           "type": "p",
@@ -29,18 +29,17 @@
     },
     {
       "id": "recent-examples",
-      "heading": "What recent Australian changes show the problem?",
+      "heading": "What do recent regulatory changes show about the problem?",
       "blocks": [
         {
           "type": "p",
-          "text": "Recent reforms show why commencement dates and affected populations need careful tracking. Each of the following changed what training in the sector should say."
+          "text": "Recent reforms show why commencement dates and affected populations need careful tracking. Each of the following changed what training in the affected sector should say."
         },
         {
           "type": "ul",
           "items": [
-            "**AML/CTF reforms.** AUSTRAC [states](https://www.austrac.gov.au/austrac-regulatory-expectations-implementation-amlctf-reforms) that reforms to the AML/CTF Act commence on 31 March 2026 for businesses already regulated and on 1 July 2026 for newly regulated businesses in the legal, accounting, real estate, and jeweller sectors. See [AUSTRAC AML/CTF training requirements](/regulations/austrac-aml-ctf-training-requirements).",
-            "**Standards for RTOs.** The Australian Skills Quality Authority (ASQA) [states](https://www.asqa.gov.au/rtos/2025-standards-rtos) that the 2025 Standards for RTOs took effect on 1 July 2025, replacing the 2015 Standards that much existing RTO compliance training refers to.",
-            "**Adviser training standards.** ASIC's [RG 104](https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations) (RG 104.85) notes that the training standards in RG 146 no longer apply to relevant providers, who must instead meet the professional standards. Training that still presents RG 146 as the standard for all advisers is out of date."
+            "**AML/CTF reforms (Australia).** AUSTRAC [states](https://www.austrac.gov.au/austrac-regulatory-expectations-implementation-amlctf-reforms) that reforms to the AML/CTF Act commence on 31 March 2026 for businesses already regulated and on 1 July 2026 for newly regulated businesses in the legal, accounting, real estate, and jeweller sectors. See [AUSTRAC AML/CTF training requirements](/regulations/austrac-aml-ctf-training-requirements).",
+            "**EU AI Act (European Union).** [Article 113 of Regulation (EU) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) applies the Act in stages: Chapters I and II from 2 February 2025, and most other provisions from 2 August 2026. Regulation (EU) 2026/1744 then moved the high-risk requirements in Chapter III, Sections 1 to 3, to 2 December 2027 for Annex III systems and 2 August 2028 for Annex I systems. Training that still gives 2 August 2026 as the start date for Annex III high-risk obligations is out of date."
           ]
         }
       ]
@@ -56,7 +55,7 @@
         {
           "type": "ol",
           "items": [
-            "**Monitor sources.** Subscribe to regulator newsletters and set alerts on the [Federal Register of Legislation](https://www.legislation.gov.au/help-and-resources/using-the-legislation-register/how-to-set-up-my-account), which sends daily email alerts when legislation matching a saved query changes. Output: a change log of items noticed, with dates.",
+            "**Monitor sources.** Subscribe to regulator newsletters and set alerts on the official legislation registers for each jurisdiction where you operate, where they offer them. Output: a change log of items noticed, with dates.",
             "**Confirm the change.** Read the primary instrument or guidance, not a summary. Note what changed, who it applies to, and every commencement date. Output: a change summary signed off by compliance or legal.",
             "**Trace the impact.** Using your [compliance obligations register](/glossary/compliance-obligations-register) and training map, list affected obligations, roles, learning outcomes, assessment items, and content items. Output: a completed impact assessment (template below).",
             "**Decide the treatment.** For each item: minor edit, redesign, new item, or retire. Output: a treatment decision per item.",
@@ -208,24 +207,14 @@
       "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
     },
     {
-      "title": "Standards for RTOs",
-      "publisher": "Australian Skills Quality Authority",
-      "url": "https://www.asqa.gov.au/rtos/2025-standards-rtos"
-    },
-    {
-      "title": "RG 104 AFS licensing: Meeting the general obligations",
-      "publisher": "Australian Securities and Investments Commission",
-      "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations"
-    },
-    {
       "title": "Work Health and Safety Regulations 2011",
       "publisher": "Federal Register of Legislation",
       "url": "https://www.legislation.gov.au/F2011L02664/latest/text"
     },
     {
-      "title": "How to set up My Account",
-      "publisher": "Federal Register of Legislation",
-      "url": "https://www.legislation.gov.au/help-and-resources/using-the-legislation-register/how-to-set-up-my-account"
+      "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Article 113, as amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI)",
+      "publisher": "European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
     }
   ],
   "related": [
@@ -262,16 +251,8 @@
       "source": "https://www.austrac.gov.au/austrac-regulatory-expectations-implementation-amlctf-reforms"
     },
     {
-      "claim": "The 2025 Standards for RTOs took effect on 1 July 2025.",
-      "source": "https://www.asqa.gov.au/rtos/2025-standards-rtos"
-    },
-    {
-      "claim": "RG 104.85: RG 146 training standards no longer apply to relevant providers.",
-      "source": "https://download.asic.gov.au/media/av3fovx5/rg104-published-23-june-2022-20260310.pdf"
-    },
-    {
-      "claim": "Federal Register of Legislation alerts run overnight and send daily email notifications for matching changes.",
-      "source": "https://www.legislation.gov.au/help-and-resources/using-the-legislation-register/how-to-set-up-my-account"
+      "claim": "EU AI Act Article 113: applies from 2 August 2026; Chapters I and II from 2 February 2025; as replaced by Regulation (EU) 2026/1744, Chapter III Sections 1, 2 and 3 apply from 2 December 2027 for Article 6(2)/Annex III high-risk systems and 2 August 2028 for Article 6(1)/Annex I systems (consolidated text 02024R1689-20260727). Original Article 113 applied Chapter III from the general date of 2 August 2026, with Article 6(1) from 2 August 2027.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
     }
   ]
 }

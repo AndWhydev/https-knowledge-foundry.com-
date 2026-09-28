@@ -1,0 +1,303 @@
+{
+  "slug": "gdpr-staff-training-requirements",
+  "kind": "regulation",
+  "title": "What does GDPR require for staff training and awareness?",
+  "seoTitle": "GDPR staff training requirements",
+  "description": "Where staff training sits in the GDPR: accountability, security, the DPO's monitoring role and binding corporate rules, and how to evidence it.",
+  "shortAnswer": "The General Data Protection Regulation (GDPR, Regulation (EU) 2016/679) has no single article requiring every employee to be trained. Training is required indirectly: controllers must implement appropriate measures and be able to demonstrate compliance (Articles 5(2) and 24), staff may process personal data only on instructions (Articles 29 and 32(4)), the data protection officer monitors awareness raising and training (Article 39), and binding corporate rules must include training (Article 47).",
+  "keyTakeaways": [
+    "The GDPR has applied since May 25, 2018 as a directly applicable EU regulation; it names training explicitly only in Articles 39 and 47.",
+    "Accountability (Article 5(2)) and controller responsibility (Article 24) mean organizations must be able to demonstrate compliance, and training records are a standard part of that evidence.",
+    "Articles 29 and 32(4) require that people with access to personal data process it only on the controller's instructions, which is hard to show without training.",
+    "Infringing Articles 25 to 39 can attract fines of up to EUR 10 million or 2% of worldwide annual turnover; breaches of the core principles, up to EUR 20 million or 4%.",
+    "The European Data Protection Board's guide for small businesses names awareness sessions and regular procedure updates as organizational security measures."
+  ],
+  "jurisdiction": "European Union",
+  "regulator": "National data protection supervisory authorities in each Member State, coordinated by the European Data Protection Board (EDPB)",
+  "appliesTo": [
+    "Controllers and processors established in the EU that process personal data, including of their own employees",
+    "Organizations outside the EU that offer goods or services to, or monitor the behavior of, people in the EU",
+    "Data protection officers, and staff and contractors who have access to personal data"
+  ],
+  "sections": [
+    {
+      "id": "does-gdpr-require-training",
+      "heading": "Does GDPR require staff training, as at September 2026?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yes, in effect, although no article says \"train all staff\". As at September 2026, the [GDPR](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504) makes training a practical necessity through its accountability and security duties, and names training explicitly in two places: the tasks of the data protection officer (DPO) and the content of binding corporate rules."
+        },
+        {
+          "type": "p",
+          "text": "The GDPR is an EU **regulation**, so the same text applies directly in every Member State from May 25, 2018 (Article 99). That differs from an EU **directive**, which each country must transpose into its own law. Member States can still add national rules in areas the GDPR leaves open, such as employment data, so a multinational should check the national law of each country where it employs people."
+        }
+      ]
+    },
+    {
+      "id": "articles-that-drive-training",
+      "heading": "Which GDPR articles create a training obligation?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Six provisions together create the expectation that people who handle personal data are trained. Two mention training by name; the others require outcomes that an untrained workforce cannot reliably deliver."
+        },
+        {
+          "type": "table",
+          "caption": "GDPR provisions that drive staff training",
+          "head": [
+            "Article",
+            "What it requires",
+            "Why training follows"
+          ],
+          "rows": [
+            [
+              "Article 5(2) Accountability",
+              "The controller is responsible for, and must be able to demonstrate, compliance with the data protection principles",
+              "Training records are part of the evidence that principles such as data minimization and security are applied in practice"
+            ],
+            [
+              "Article 24 Responsibility of the controller",
+              "Appropriate technical and organizational measures, reviewed and updated where necessary, including data protection policies where proportionate",
+              "A policy that staff do not know is not an effective measure"
+            ],
+            [
+              "Articles 29 and 32(4)",
+              "Anyone acting under the authority of the controller or processor who has access to personal data processes it only on instructions",
+              "Staff must be told what the instructions are and understand them"
+            ],
+            [
+              "Article 28(3)(b)",
+              "Processors ensure persons authorized to process personal data have committed to confidentiality",
+              "Confidentiality commitments are usually made and refreshed through onboarding and training"
+            ],
+            [
+              "Article 39(1)(b)",
+              "The DPO monitors compliance, including \"awareness-raising and training of staff involved in processing operations\"",
+              "Training is named as something the DPO checks, so it is expected to exist"
+            ],
+            [
+              "Article 47(2)(n)",
+              "Binding corporate rules must specify \"the appropriate data protection training to personnel having permanent or regular access to personal data\"",
+              "Groups using binding corporate rules for international transfers must run and evidence this training"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dpo-role",
+      "heading": "What is the data protection officer's role in training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The DPO informs and advises staff and monitors whether awareness raising and training happen; the DPO is not required to deliver the training personally. Article 39(1)(a) requires the DPO to inform and advise the controller or processor \"and the employees who carry out processing\" of their obligations. Article 39(1)(b) adds monitoring of \"awareness-raising and training of staff involved in processing operations, and the related audits\"."
+        },
+        {
+          "type": "p",
+          "text": "Article 38(2) also requires the organization to give the DPO the resources needed to maintain their expert knowledge, which means the DPO's own continuing professional development is a GDPR matter. Because the DPO reports to the highest management level (Article 38(3)), training coverage and results are a natural item in the DPO's board reporting. See [how to report training compliance to the board](/guides/how-to-report-training-compliance-to-the-board)."
+        }
+      ]
+    },
+    {
+      "id": "security-and-breaches",
+      "heading": "How does training relate to security and personal data breaches?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training is one of the organizational measures that Article 32 expects for the security of processing. The European Data Protection Board's [data protection guide for small business](https://www.edpb.europa.eu/sme-data-protection-guide/secure-personal-data_en) states that it is essential to make employees who handle personal data aware of the privacy risks, the measures taken to address them, and the potential consequences of failure."
+        },
+        {
+          "type": "p",
+          "text": "The EDPB guide lists awareness sessions, regular updates on procedures relevant to each role, and internal communications such as email reminders as ways to raise awareness. It also recommends information security training and awareness sessions with periodic reminders, and confidentiality agreements or clauses with employees. Breaches can start with simple human error, such as a misdirected email or a lost device, so incident recognition and the internal reporting route are core content, because Article 33 requires notification to the supervisory authority within 72 hours of the controller becoming aware of a notifiable breach."
+        }
+      ]
+    },
+    {
+      "id": "penalties",
+      "heading": "What are the penalties for getting it wrong?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Failing to train is not a separate offense, but it can contribute to infringements that carry the GDPR's two fine tiers under Article 83. Infringements of the controller and processor obligations in Articles 25 to 39 can attract fines of up to EUR 10,000,000 or, for an undertaking, up to 2% of total worldwide annual turnover of the preceding financial year, whichever is higher (Article 83(4))."
+        },
+        {
+          "type": "p",
+          "text": "Infringements of the basic principles in Articles 5, 6, 7 and 9, data subject rights, or international transfer rules can attract up to EUR 20,000,000 or 4% of worldwide annual turnover, whichever is higher (Article 83(5)). When a supervisory authority investigates an incident, evidence that staff were trained and that training was current is relevant to how it views the organization's measures."
+        }
+      ]
+    },
+    {
+      "id": "program-design",
+      "heading": "How should a GDPR training program be structured?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A defensible program has a baseline for everyone with access to personal data and deeper modules for roles with specific GDPR duties. The mapping below is illustrative, not a legal minimum; it shows how each obligation can become a testable learning outcome and a record."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: GDPR obligation to learning outcome to assessment evidence",
+          "head": [
+            "Obligation",
+            "Audience",
+            "Learning outcome",
+            "Assessment evidence"
+          ],
+          "rows": [
+            [
+              "Articles 29 and 32(4): process only on instructions",
+              "All staff with access to personal data",
+              "Applies the organization's data handling rules to everyday tasks",
+              "Scenario quiz results and policy acknowledgment"
+            ],
+            [
+              "Article 33: breach notification within 72 hours",
+              "All staff; incident team in depth",
+              "Recognizes a personal data breach and reports it internally without delay",
+              "Scenario results; incident team exercise records"
+            ],
+            [
+              "Articles 12 to 22: data subject rights",
+              "Customer service and HR teams",
+              "Identifies an access or erasure request in any form and routes it correctly",
+              "Observed handling or case review sign off"
+            ],
+            [
+              "Article 35: data protection impact assessment",
+              "Project managers and product owners",
+              "Recognizes when a DPIA is required and involves the DPO",
+              "Project gate records showing DPIA screening"
+            ],
+            [
+              "Article 47(2)(n): binding corporate rules",
+              "Personnel with permanent or regular access to personal data in the group",
+              "Applies the group's transfer rules",
+              "Completion and assessment records retained for BCR review"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Link each module to an entry in a [compliance obligations register](/glossary/compliance-obligations-register), and set refresh cycles by risk, as described in [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles). The GDPR does not set a frequency, so the organization's own policy should state and justify one."
+        }
+      ]
+    },
+    {
+      "id": "evidence",
+      "heading": "What evidence should an organization keep?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Keep evidence that shows who was trained, on what version of the content, when, and whether they understood it. Because Article 5(2) places the burden of demonstrating compliance on the controller, the absence of records is itself a weakness."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "A training needs analysis linking roles to GDPR obligations.",
+            "Content versions with dates, updated after policy changes, new guidance or incidents.",
+            "Per person completion and assessment results, including contractors.",
+            "DPO monitoring reports on training coverage and results (Article 39(1)(b)).",
+            "Records of [policy attestation](/glossary/policy-attestation) and confidentiality commitments."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Preparing these records is covered in [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps GDPR articles to role based concepts and assessment points before content is written, so every module traces to the obligation it serves. When a policy or regulator guidance changes, the affected concepts and learners can be identified from the map rather than by reviewing the whole library."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How often does GDPR require staff training?",
+      "a": "The GDPR does not set a frequency. Article 24 requires measures to be reviewed and updated where necessary, and the EDPB recommends periodic reminders. Many organizations train at onboarding and annually, with extra briefings after incidents or policy changes, and record the reasoning in their training policy."
+    },
+    {
+      "q": "Does GDPR training apply to contractors?",
+      "a": "Articles 29 and 32(4) cover any natural person acting under the authority of the controller or processor who has access to personal data, which can include contractors and temporary staff. Organizations either train them directly or require equivalent training by contract and check the evidence."
+    },
+    {
+      "q": "Must the data protection officer deliver the training?",
+      "a": "No. Article 39(1)(b) makes monitoring of awareness raising and training a DPO task, and Article 39(1)(a) requires the DPO to inform and advise employees. Delivery can sit with HR, compliance or learning teams, but the DPO should be able to see coverage and results."
+    },
+    {
+      "q": "Does GDPR apply to organizations outside the EU?",
+      "a": "It can. Article 3 extends the GDPR to organizations outside the EU that offer goods or services to people in the EU or monitor their behavior there. Such organizations should train the staff who handle that personal data to the same standard."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    },
+    {
+      "title": "Data protection guide for small business: Secure personal data",
+      "publisher": "European Data Protection Board",
+      "url": "https://www.edpb.europa.eu/sme-data-protection-guide/secure-personal-data_en"
+    },
+    {
+      "title": "Data protection",
+      "publisher": "European Commission",
+      "url": "https://commission.europa.eu/law/law-topic/data-protection_en"
+    }
+  ],
+  "related": [
+    "eu-ai-act-ai-literacy",
+    "nis2-management-body-training",
+    "privacy-act-staff-training-requirements",
+    "compliance-obligations-register",
+    "how-to-set-mandatory-training-refresh-cycles",
+    "how-to-prepare-training-records-for-an-audit"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 99,
+  "factCheck": [
+    {
+      "claim": "Article 39(1)(b): DPO monitors compliance including awareness-raising and training of staff involved in processing operations, and related audits; Article 39(1)(a) inform and advise employees who carry out processing",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    },
+    {
+      "claim": "Article 47(2)(n): binding corporate rules specify appropriate data protection training to personnel having permanent or regular access to personal data",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    },
+    {
+      "claim": "Article 29 and Article 32(4): persons acting under the authority of controller or processor with access to personal data process only on instructions; Article 5(2) accountability; Article 24 measures reviewed and updated",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    },
+    {
+      "claim": "Article 83(4): up to EUR 10,000,000 or 2% worldwide annual turnover for Articles 8, 11, 25 to 39, 42, 43; Article 83(5): up to EUR 20,000,000 or 4% for Articles 5, 6, 7, 9, 12 to 22, 44 to 49",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    },
+    {
+      "claim": "Article 99: GDPR applies from 25 May 2018; Article 38(2) resources to maintain DPO expert knowledge; Article 33 72-hour notification",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    },
+    {
+      "claim": "EDPB SME guide: essential to make employees handling personal data aware of risks, measures and consequences; awareness sessions, regular procedure updates, internal communications; information security training and awareness sessions with periodic reminders; confidentiality agreements",
+      "source": "https://www.edpb.europa.eu/sme-data-protection-guide/secure-personal-data_en"
+    }
+  ]
+}

@@ -20,26 +20,26 @@ export const metadata: Metadata = {
   alternates: { canonical: "/who-can-use-this" },
   title: "Who Knowledge Foundry is for",
   description:
-    "Built for senior owners of programmes that must be defensible: compliance leads, L&D directors, chief risk officers, and clinical, safety and talent leaders.",
+    "Built for senior owners of programs that must be defensible: compliance leads, L&D directors, chief risk officers, and clinical, safety and talent leaders.",
 };
 
 const personas = [
   {
     icon: <ShieldCheck className="h-5 w-5" />,
     title: "Head of Compliance",
-    role: "You own the answer to 'how do you know this programme covers what the regulator expects?'",
+    role: "You own the answer to 'how do you know this program covers what the regulator expects?'",
     outcomes: [
       "Coverage against policy clauses, standards, and legislation. Mapped, not asserted.",
       "Version identity and revision history that survives an audit",
-      "Evidence artefacts you can produce on demand, not reconstruct after the fact",
+      "Evidence artifacts you can produce on demand, not reconstruct after the fact",
     ],
   },
   {
     icon: <GraduationCap className="h-5 w-5" />,
     title: "Director of Learning & Development",
-    role: "You own the enterprise learning system and are being asked to modernise without breaking what already works.",
+    role: "You own the enterprise learning system and are being asked to modernize without breaking what already works.",
     outcomes: [
-      "Structured programmes across compliance, product, and operational domains",
+      "Structured programs across compliance, product, and operational domains",
       "Frameworks that outlive any single course or vendor engagement",
       "A defensible position for AI in your production pipeline. Bounded, reviewed, and cited.",
     ],
@@ -49,7 +49,7 @@ const personas = [
     title: "Chief Risk Officer",
     role: "You need to demonstrate that operational and conduct risk controls include competent people, not only tested systems.",
     outcomes: [
-      "A traceable path from a control obligation to the learning that operationalises it",
+      "A traceable path from a control obligation to the learning that operationalizes it",
       "Assessment defined against risk, not against the shape of a slide deck",
       "Governance evidence that maps to your existing risk framework",
     ],
@@ -57,11 +57,11 @@ const personas = [
   {
     icon: <Stethoscope className="h-5 w-5" />,
     title: "Chief Medical Officer",
-    role: "You are accountable for the standard of care delivered by a workforce that is credentialled, credentialled again, and credentialled at scale.",
+    role: "You are accountable for the standard of care delivered by a workforce that is credentialed, credentialed again, and credentialed at scale.",
     outcomes: [
       "Clinical education aligned to scope of practice, competencies, and accreditation criteria",
-      "Programme coverage decoupled from individual decisions about course authoring",
-      "Evidence artefacts suitable for AHPRA, college, and jurisdictional review",
+      "Program coverage decoupled from individual decisions about course authoring",
+      "Evidence artifacts suitable for licensing body, college, and accreditor review",
     ],
   },
   {
@@ -70,7 +70,7 @@ const personas = [
     role: "You translate policy, protocol, and college requirements into training that clinicians will actually complete and pass.",
     outcomes: [
       "Frameworks built from your protocols, not authored around them",
-      "Progression and prerequisites that match how the domain is practised",
+      "Progression and prerequisites that match how the domain is practiced",
       "Verification designed against evidence of competence, not attendance",
     ],
   },
@@ -80,17 +80,17 @@ const personas = [
     role: "You are accountable for training that stands up to incident review, regulator investigation, and internal assurance.",
     outcomes: [
       "Instruction at task level linked to the procedure, standard, or hazard that requires it",
-      "Assessment aligned to observable behaviour, not recall of a slide",
+      "Assessment aligned to observable behavior, not recall of a slide",
       "Revision history that survives an incident review timeline",
     ],
   },
   {
     icon: <Briefcase className="h-5 w-5" />,
     title: "Head of Talent",
-    role: "You are building capability at scale across the organisation and cannot afford drift between what is taught and what is required.",
+    role: "You are building capability at scale across the organization and cannot afford drift between what is taught and what is required.",
     outcomes: [
       "Capability frameworks with lineage to role, function, and business objective",
-      "Consistency across programmes. Same concept, same definition, same assessment.",
+      "Consistency across programs. Same concept, same definition, same assessment.",
       "A shared substrate that survives leadership change and vendor churn",
     ],
   },
@@ -127,7 +127,7 @@ export default function WhoCanUseThisPage() {
             <span className="text-[color:var(--color-forge)]">answer the audit.</span>
           </>
         }
-        lede="Knowledge Foundry is built for senior owners of programmes that must be defensible. If the phrase 'how do you know?' arrives at your desk, this is for you. If it does not, there are simpler tools that will serve you better."
+        lede="Knowledge Foundry is built for senior owners of programs that must be defensible. If the phrase 'how do you know?' arrives at your desk, this is for you. If it does not, there are simpler tools that will serve you better."
         primaryCta={{ label: "Request a demonstration", href: "/demonstration" }}
         secondaryCta={{ label: "See the platform", href: "/platform" }}
       />
@@ -141,8 +141,8 @@ export default function WhoCanUseThisPage() {
             </Reveal>
             <Reveal delay={0.1}>
               <p className="text-lede mt-5">
-                Titles vary between organisations. What is consistent is the accountability: you own
-                a programme that must be defensible, and you cannot rely on the phrase &ldquo;we
+                Titles vary between organizations. What is consistent is the accountability: you own
+                a program that must be defensible, and you cannot rely on the phrase &ldquo;we
                 covered that in a slide&rdquo;.
               </p>
             </Reveal>
@@ -184,8 +184,8 @@ export default function WhoCanUseThisPage() {
       >
         <p>
           They are accountable for something that must hold up under review.
-          Not a course, not a completion rate. A programme, a capability, a
-          licence, a standard of care. They live inside organisations where
+          Not a course, not a completion rate. A program, a capability, a
+          license, a standard of care. They live inside organizations where
           &ldquo;we ran a session on that&rdquo; is not a sufficient answer.
         </p>
         <p>
@@ -209,7 +209,7 @@ export default function WhoCanUseThisPage() {
             <Reveal delay={0.1}>
               <p className="text-lede mt-5">
                 We would rather tell you now than three months into a
-                procurement conversation. If you recognise your organisation in
+                procurement conversation. If you recognize your organization in
                 the profiles below, the platform is not the right fit.
               </p>
             </Reveal>
@@ -236,7 +236,7 @@ export default function WhoCanUseThisPage() {
       <CtaBand
         eyebrow="If this sounds like you"
         title="Bring a subject you already own."
-        lede="A 45 minute working session on a real programme, policy, or standard you are accountable for. You see the platform operate on your material, and you keep the framework it produces."
+        lede="A 45 minute working session on a real program, policy, or standard you are accountable for. You see the platform operate on your material, and you keep the framework it produces."
       />
     </>
   );

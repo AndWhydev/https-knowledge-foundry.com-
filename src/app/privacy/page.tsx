@@ -55,13 +55,13 @@ export default function PrivacyPage() {
               <p>
                 {site.legal.entity} is the operator of the Knowledge Foundry
                 platform and the {site.url} website. Our contact address for
-                privacy enquiries is{" "}
+                privacy inquiries is{" "}
                 <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>.
               </p>
               <p>
-                For enquiries from customers about processing performed under a
+                For inquiries from customers about processing performed under a
                 master services agreement, we act as processor on the
-                customer&rsquo;s instruction. For enquiries about our own
+                customer&rsquo;s instruction. For inquiries about our own
                 collection (for example, from a person who submits our
                 demonstration form), we act as controller.
               </p>
@@ -72,24 +72,24 @@ export default function PrivacyPage() {
               <p>We collect only what we need. In practice this falls into three groups.</p>
               <h3>2.1 Website and contact-form data</h3>
               <ul>
-                <li>Name, work email, organisation, role, country, and the details you provide in a demonstration request or an email to us.</li>
+                <li>Name, work email, organization, role, country, and the details you provide in a demonstration request or an email to us.</li>
                 <li>Phone number, only if you choose to provide it.</li>
                 <li>Basic technical data associated with your visit. IP address, browser type, timestamps, and referring URL. collected via server and analytics logs.</li>
               </ul>
               <h3>2.2 Customer platform data</h3>
               <ul>
-                <li>Authentication identifiers for named users a customer authorises to use the platform.</li>
-                <li>Content that customers or their authorised users choose to upload, produce, or store within the platform.</li>
+                <li>Authentication identifiers for named users a customer authorizes to use the platform.</li>
+                <li>Content that customers or their authorized users choose to upload, produce, or store within the platform.</li>
                 <li>Operational logs required to run and secure the service.</li>
               </ul>
               <h3>2.3 Business-to-business correspondence</h3>
               <ul>
-                <li>Records of enquiries, meetings, proposals, and contracts with customers and prospective customers.</li>
+                <li>Records of inquiries, meetings, proposals, and contracts with customers and prospective customers.</li>
               </ul>
               <p>
                 We do not deliberately collect sensitive information (as defined by
                 the Privacy Act). If a customer requires the platform to hold
-                sensitive information as part of their programme content, that is
+                sensitive information as part of their program content, that is
                 addressed in the customer agreement, not this policy.
               </p>
             </section>
@@ -99,7 +99,7 @@ export default function PrivacyPage() {
               <ul>
                 <li>Directly, when you submit a form, send us an email, or use the platform.</li>
                 <li>Automatically, through the operation of the website and the platform.</li>
-                <li>From authorised third parties, for example an authentication provider a customer uses for single sign-on.</li>
+                <li>From authorized third parties, for example an authentication provider a customer uses for single sign-on.</li>
               </ul>
             </section>
 
@@ -107,8 +107,8 @@ export default function PrivacyPage() {
               <h2>4. Why we collect it</h2>
               <p>We use personal information for the following purposes.</p>
               <ul>
-                <li>To respond to enquiries and schedule demonstrations.</li>
-                <li>To provide the platform and support to authorised users.</li>
+                <li>To respond to inquiries and schedule demonstrations.</li>
+                <li>To provide the platform and support to authorized users.</li>
                 <li>To secure the platform, detect misuse, and meet our own legal obligations.</li>
                 <li>To send occasional operational and account communications to a customer&rsquo;s designated administrators.</li>
                 <li>To improve the platform, using aggregate operational metrics that do not identify individuals.</li>
@@ -161,7 +161,7 @@ export default function PrivacyPage() {
                 We retain personal information for as long as we have a
                 legitimate purpose for holding it. Website and contact-form
                 data are retained for the period reasonably needed to respond
-                to your enquiry and to maintain a record of that
+                to your inquiry and to maintain a record of that
                 correspondence.
               </p>
               <p>
@@ -197,7 +197,7 @@ export default function PrivacyPage() {
                 Contact us at <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>.
                 We aim to acknowledge requests within five business days and to
                 substantively respond within thirty days. If you are an
-                authorised user of a customer&rsquo;s platform tenancy, please
+                authorized user of a customer&rsquo;s platform tenancy, please
                 raise the request with your customer administrator in the
                 first instance; where we are acting as processor we support
                 the customer in responding to you.
@@ -243,7 +243,7 @@ export default function PrivacyPage() {
             <section>
               <h2>13. Contact</h2>
               <p>
-                Privacy enquiries:{" "}
+                Privacy inquiries:{" "}
                 <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>
                 <br />
                 Legal entity: {site.legal.entity} · ABN {site.legal.abn}

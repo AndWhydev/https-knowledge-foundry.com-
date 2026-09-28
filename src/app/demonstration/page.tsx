@@ -12,17 +12,17 @@ export const metadata: Metadata = {
   alternates: { canonical: "/demonstration" },
   title: "Request a demonstration",
   description:
-    "A 45 minute working session on a real programme you own. See the platform operate on your material, and keep the framework it produces.",
+    "A 45 minute working session on a real program you own. See the platform operate on your material, and keep the framework it produces.",
 };
 
 const bring = [
   {
-    title: "A subject or programme you already own",
+    title: "A subject or program you already own",
     desc: "A policy, standard, protocol, procedure, or existing training corpus. It does not need to be tidy. The platform is built to work on messy source.",
   },
   {
     title: "One senior owner in the room",
-    desc: "The person accountable for the programme downstream. The session is calibrated to their decisions, not to a generic feature tour.",
+    desc: "The person accountable for the program downstream. The session is calibrated to their decisions, not to a generic feature tour.",
   },
   {
     title: "Any structural requirement that must hold",
@@ -57,7 +57,7 @@ export default function DemonstrationPage() {
             <span className="text-[color:var(--color-forge)]">Leave with a framework.</span>
           </>
         }
-        lede="A 45 minute working session with our team on a real subject or programme you own. You see the platform operate on your material, and you keep the framework it produces. Reply within one business day, always."
+        lede="A 45 minute working session with our team on a real subject or program you own. You see the platform operate on your material, and you keep the framework it produces. Reply within one business day, always."
         primaryCta={{ label: "Jump to the form", href: "#request" }}
         secondaryCta={{ label: `Email ${site.contact.email}`, href: `mailto:${site.contact.email}` }}
       />
@@ -95,7 +95,7 @@ export default function DemonstrationPage() {
             <div>
               <Eyebrow>What you leave with</Eyebrow>
               <Reveal>
-                <h2 className="text-display-2 mt-5">A working artefact, yours to keep.</h2>
+                <h2 className="text-display-2 mt-5">A working artifact, yours to keep.</h2>
               </Reveal>
               <Reveal delay={0.1}>
                 <p className="text-[15px] leading-[1.7] text-[color:var(--color-ink-soft)] mt-6">
@@ -131,7 +131,7 @@ export default function DemonstrationPage() {
             </Reveal>
             <Reveal delay={0.1}>
               <p className="text-[15px] leading-[1.7] text-[color:var(--color-ink-soft)] mt-5">
-                A short form. Enough for us to route your enquiry to the right member of the
+                A short form. Enough for us to route your inquiry to the right member of the
                 team and prepare a session on your actual material. We reply within one
                 business day.
               </p>
@@ -150,7 +150,7 @@ export default function DemonstrationPage() {
                 <p>
                   {site.legal.entity} collects the information above to schedule
                   and prepare your demonstration session, to reply to your
-                  enquiry, and to keep a record of that correspondence. We do
+                  inquiry, and to keep a record of that correspondence. We do
                   not pass this information to a marketing automation platform,
                   and we do not use it to add you to a broadcast mailing list.
                   Full detail on how we handle personal information (including
@@ -195,8 +195,8 @@ export default function DemonstrationPage() {
                 One business day
               </div>
               <p className="text-[13.5px] leading-[1.6] text-[color:var(--color-ink-muted)] mt-3">
-                Enquiries received on Australian Eastern business days are replied to by close of
-                the next business day. Weekend and public holiday enquiries roll to the next
+                Inquiries received on Australian Eastern business days are replied to by close of
+                the next business day. Weekend and public holiday inquiries roll to the next
                 business day.
               </p>
             </div>
@@ -213,7 +213,7 @@ export default function DemonstrationPage() {
         <p>
           It is a working session with a senior member of our team, using your
           subject, in the platform, producing a framework you keep. If we are
-          not the right fit for your programme, we will say so in writing.
+          not the right fit for your program, we will say so in writing.
         </p>
       </ProseBlock>
     </>

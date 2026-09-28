@@ -27,7 +27,7 @@ const capabilities = [
   {
     icon: <BookMarked className="h-5 w-5" />,
     title: "CPD architecture",
-    desc: "CPD programmes structured to professional body expectations (CA ANZ, CPA, Law Societies, Engineers Australia) with hours, categories, and outcome mapping evidenced per practitioner.",
+    desc: "CPD programs structured to professional body expectations (state boards of accountancy, ICAEW, CA ANZ, bar associations and law societies, engineering bodies) with hours, categories, and outcome mapping evidenced per practitioner.",
   },
   {
     icon: <Users className="h-5 w-5" />,
@@ -82,11 +82,11 @@ const steps = [
 const faq = [
   {
     q: "How does the platform support CPD across multiple professional bodies?",
-    a: "The framework can encode CPD expectations from multiple bodies concurrently: for example, CA ANZ and CPA obligations for an accounting practice, or Law Society and specialist accreditation obligations for a legal practice. One programme can satisfy multiple regimes, and evidence exports in the format each body expects.",
+    a: "The framework can encode CPD expectations from multiple bodies concurrently: for example, state board and AICPA obligations for a US accounting practice, CA ANZ and CPA obligations in Australia, or bar association and specialist accreditation obligations for a legal practice. One program can satisfy multiple regimes, and evidence exports in the format each body expects.",
   },
   {
     q: "Can this replace our internal methodology training?",
-    a: "The Foundry does not replace the methodology. It structures it. Your practice retains ownership of the methodology as source. The framework encodes what practitioners at each grade must know, apply, and demonstrate. Programmes are generated to fit. When the methodology updates, the framework updates and downstream programmes regenerate.",
+    a: "The Foundry does not replace the methodology. It structures it. Your practice retains ownership of the methodology as source. The framework encodes what practitioners at each grade must know, apply, and demonstrate. Programs are generated to fit. When the methodology updates, the framework updates and downstream programs regenerate.",
   },
   {
     q: "How does this handle consistency across offices and jurisdictions?",
@@ -98,7 +98,7 @@ const faq = [
   },
   {
     q: "Can this evidence be used in a practice quality review by our professional body?",
-    a: "Yes. Coverage, verification history, sign off chains, and CPD records are exportable in a coherent, versioned form suitable for practice quality review. The framework itself is the primary artefact. The evidence pack is its supporting record.",
+    a: "Yes. Coverage, verification history, sign off chains, and CPD records are exportable in a coherent, versioned form suitable for practice quality review. The framework itself is the primary artifact. The evidence pack is its supporting record.",
   },
 ];
 
@@ -156,7 +156,7 @@ export default function ProfessionalServicesPage() {
         <p>
           The Foundry treats professional standards, sector guidance, and firm methodology as
           sources of structural obligation. Frameworks encode what practitioners at each grade
-          must know, apply, and demonstrate. Programmes generate to fit. Evidence accumulates
+          must know, apply, and demonstrate. Programs generate to fit. Evidence accumulates
           per practitioner, not per training event.
         </p>
       </ProseBlock>
@@ -181,13 +181,13 @@ export default function ProfessionalServicesPage() {
       >
         <p>
           Frameworks aligned to CPD from professional bodies, sector standards, and firm methodology.
-          Programmes that satisfy them, per grade, per practice, per office. Verification that
+          Programs that satisfy them, per grade, per practice, per office. Verification that
           survives external inspection. CPD evidence per practitioner ready for annual
           reporting to the professional body.
         </p>
         <p>
-          When the practice quality reviewer arrives, the artefact you present is a framework,
-          not a defence reconstructed from an LMS.
+          When the practice quality reviewer arrives, the artifact you present is a framework,
+          not a defense reconstructed from an LMS.
         </p>
       </ProseBlock>
 

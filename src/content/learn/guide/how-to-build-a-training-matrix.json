@@ -7,7 +7,7 @@
   "shortAnswer": "A training matrix is built by listing roles (not people) down one axis and training requirements across the other, setting for each cell whether the requirement applies, at what level, how often and on what trigger, defining the evidence that counts for each requirement, then applying the matrix to people to calculate status (current, due, overdue, not assessed) and reporting it with named owners for each role and requirement.",
   "keyTakeaways": [
     "Build the matrix on roles first. People inherit requirements from their roles, which keeps assignment consistent when people move.",
-    "Every requirement needs an evidence rule: completion, assessment result, licence or observed competence.",
+    "Every requirement needs an evidence rule: completion, assessment result, license or observed competence.",
     "Status should be calculated from dates and rules, not typed in by hand.",
     "Include contractors and third parties who perform regulated work.",
     "A matrix that only shows completion cannot show competence. Say which cells need more."
@@ -27,7 +27,7 @@
         },
         {
           "type": "p",
-          "text": "Regulators expect this kind of record. AUSTRAC expects reporting entities to use a register to record training completion dates and track when further training is due ([AUSTRAC](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform)). ASIC's RG 104 expects licensees to maintain a record of the training representatives have undertaken ([ASIC](https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/)). ISO 9001:2015 clause 7.2(d) requires organisations to retain appropriate documented information as evidence of competence ([ISO and IAF](https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf))."
+          "text": "Regulators expect this kind of record. For example, Australia's AUSTRAC expects reporting entities to use a register to record training completion dates and track when further training is due ([AUSTRAC](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform)). The US Occupational Safety and Health Administration (OSHA) Bloodborne Pathogens standard requires training records to include the names and job titles of all persons trained, the dates, and the contents or a summary of the sessions ([29 CFR 1910.1030(h)(2)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030)). ISO 9001:2015 clause 7.2(d) requires organizations to retain appropriate documented information as evidence of competence ([ISO and IAF](https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf))."
         }
       ]
     },
@@ -45,7 +45,7 @@
             "**Define roles.** List roles or position types, not individuals. Where one job title covers different functions, split it; where many titles share requirements, group them. Output: a role list with definitions.",
             "**List requirements.** Draw requirements from the [obligation to training map](/guides/how-to-map-training-to-compliance-obligations), the [competency framework](/guides/how-to-build-a-competency-framework), licensing and ticket requirements, and site or client rules. Output: a requirement list, each with its source.",
             "**Set cell rules.** For each role and requirement, record whether it applies and, if so: required level, due period after appointment, refresh interval, and event triggers such as procedure changes. Output: the role by requirement rule set.",
-            "**Define evidence per requirement.** Decide what record proves each requirement: completion of a module, a pass in an assessment, a current licence, a verification of competency, or a supervisor sign off after observation. Output: an evidence rule for each requirement.",
+            "**Define evidence per requirement.** Decide what record proves each requirement: completion of a module, a pass in an assessment, a current license, a verification of competency, or a supervisor sign off after observation. Output: an evidence rule for each requirement.",
             "**Assign people to roles.** Link each worker, including contractors, to one or more roles with a start date. Output: a person to role register.",
             "**Calculate status.** For each person and requirement, calculate status from the rules and evidence dates: current, due soon, overdue, not yet assessed, or not applicable. Output: the live matrix.",
             "**Assign ownership.** Name an owner for each requirement (content and evidence rule) and each role (making sure people in it are current). Output: an ownership table.",
@@ -60,7 +60,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "A training matrix has a rules view and a status view. The two tables below are illustrative, for a hypothetical distribution centre, and are simplified to a few roles and requirements."
+          "text": "A training matrix has a rules view and a status view. The two tables below are illustrative, for a hypothetical distribution center, and are simplified to a few roles and requirements."
         },
         {
           "type": "table",
@@ -88,10 +88,10 @@
               "Within first week; annually"
             ],
             [
-              "High risk work licence (forklift)",
-              "Current licence sighted and copy held",
+              "High risk work license (forklift)",
+              "Current license sighted and copy held",
               "Not applicable",
-              "Before operating; track licence expiry",
+              "Before operating; track license expiry",
               "Not applicable"
             ],
             [
@@ -117,7 +117,7 @@
             "Worker (role)",
             "Site induction",
             "Manual handling",
-            "Forklift licence",
+            "Forklift license",
             "Traffic procedure"
           ],
           "rows": [
@@ -139,14 +139,14 @@
               "Contractor C (forklift operator)",
               "Current",
               "Not yet assessed",
-              "Licence not sighted",
+              "License not sighted",
               "Not yet assessed"
             ]
           ]
         },
         {
           "type": "p",
-          "text": "Safe Work Australia guidance notes that workers who operate high risk equipment such as a forklift need formal training and assessment, while other workers may need only informal on the job training ([Safe Work Australia](https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work)). The matrix records that difference in its evidence rules."
+          "text": "Safe Work Australia guidance notes that workers who operate high risk equipment such as a forklift need formal training and assessment, while other workers may need only informal on the job training ([guidance](https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work)). The matrix records that difference in its evidence rules."
         }
       ]
     },
@@ -160,7 +160,7 @@
         },
         {
           "type": "p",
-          "text": "The ISO 9001 Auditing Practices Group gives diplomas, licences, resumes, completion of training and performance reviews as examples of evidence of competence, and cautions that participation in a course alone does not necessarily show a person is competent, since it may show knowledge gained rather than knowledge applied. Set stronger evidence rules, such as observed assessment or [verification of competency](/guides/how-to-set-up-verification-of-competency), for requirements where application matters and failure has serious consequences."
+          "text": "The ISO 9001 Auditing Practices Group gives diplomas, licenses, resumes, completion of training and performance reviews as examples of evidence of competence, and cautions that participation in a course alone does not necessarily show a person is competent, since it may show knowledge gained rather than knowledge applied. Set stronger evidence rules, such as observed assessment or [verification of competency](/guides/how-to-set-up-verification-of-competency), for requirements where application matters and failure has serious consequences."
         }
       ]
     },
@@ -177,7 +177,7 @@
           "items": [
             "Requirements assigned to named people instead of roles, so a new starter inherits nothing.",
             "No trigger for content change, so everyone stays 'current' on a superseded procedure.",
-            "Contractors and labour hire workers held in a separate list or not at all.",
+            "Contractors and labor hire workers held in a separate list or not at all.",
             "Role changes not flowing through, leaving people in new duties without the new requirements.",
             "No sampling of the evidence behind a 'current' status."
           ]
@@ -198,7 +198,7 @@
   "faqs": [
     {
       "q": "What is the difference between a training matrix and a skills matrix?",
-      "a": "A training matrix records whether role based requirements are met, and is used for compliance and clearance to work. A skills matrix records proficiency levels against a set of skills, and is used for planning, rostering and development. Many organisations keep both, linked by role."
+      "a": "A training matrix records whether role based requirements are met, and is used for compliance and clearance to work. A skills matrix records proficiency levels against a set of skills, and is used for planning, rostering and development. Many organizations keep both, linked by role."
     },
     {
       "q": "Can a training matrix be kept in a spreadsheet?",
@@ -206,11 +206,11 @@
     },
     {
       "q": "How far ahead should a matrix flag due training?",
-      "a": "Far enough ahead for the training to be scheduled and completed before expiry. Many organisations use a due soon window of 30 to 60 days, adjusted for how long the training takes to arrange. Licences and external certifications often need a longer window."
+      "a": "Far enough ahead for the training to be scheduled and completed before expiry. Many organizations use a due soon window of 30 to 60 days, adjusted for how long the training takes to arrange. Licenses and external certifications often need a longer window."
     },
     {
       "q": "Should the matrix include training that is recommended but not mandatory?",
-      "a": "Keep it separate or clearly flagged. Mixing mandatory and optional requirements in one status makes compliance reporting unreliable. Some organisations show optional development in a separate view drawn from the skills matrix."
+      "a": "Keep it separate or clearly flagged. Mixing mandatory and optional requirements in one status makes compliance reporting unreliable. Some organizations show optional development in a separate view drawn from the skills matrix."
     }
   ],
   "sources": [
@@ -218,11 +218,6 @@
       "title": "AML/CTF training",
       "publisher": "AUSTRAC",
       "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
-    },
-    {
-      "title": "RG 104 AFS licensing: Meeting the general obligations",
-      "publisher": "Australian Securities and Investments Commission (ASIC)",
-      "url": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/"
     },
     {
       "title": "ISO 9001 Auditing Practices Group: Guidance on auditing competence (Edition 2)",
@@ -233,6 +228,11 @@
       "title": "Training and supporting your workers to stay safe at work",
       "publisher": "Safe Work Australia",
       "url": "https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work"
+    },
+    {
+      "title": "29 CFR 1910.1030 Bloodborne pathogens",
+      "publisher": "US Occupational Safety and Health Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030"
     }
   ],
   "related": [
@@ -262,16 +262,16 @@
       "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
     },
     {
-      "claim": "RG 104.82(d): maintain a record of training undertaken",
-      "source": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/"
-    },
-    {
       "claim": "ISO 9001:2015 7.2(d) requires retaining appropriate documented information as evidence of competence; APG examples include diplomas, licences, resumes, completion of training, performance reviews; course participation alone does not necessarily show competence",
       "source": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf"
     },
     {
       "claim": "Safe Work Australia: workers operating high risk equipment such as a forklift need formal training and assessment; others may need informal on the job training",
       "source": "https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work"
+    },
+    {
+      "claim": "29 CFR 1910.1030(h)(2): training records shall include dates of sessions, contents or a summary, names and qualifications of persons conducting the training, and names and job titles of attendees; maintained for 3 years from the date of training.",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030"
     }
   ]
 }

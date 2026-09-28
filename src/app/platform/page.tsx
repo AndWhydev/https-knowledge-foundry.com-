@@ -81,7 +81,7 @@ export default function PlatformPage() {
       <CtaBand
         eyebrow="Bring us a subject"
         title="See the framework build itself."
-        lede="A 45 minute working session on a subject or programme you own. You watch the Foundry interpret, structure, and produce, and you keep the framework it creates."
+        lede="A 45 minute working session on a subject or program you own. You watch the Foundry interpret, structure, and produce, and you keep the framework it creates."
       />
     </>
   );

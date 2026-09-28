@@ -3,11 +3,11 @@
   "kind": "guide",
   "title": "How do you write a training policy?",
   "seoTitle": "Writing a training policy",
-  "description": "How to write a training policy for a regulated organisation: purpose, scope, obligations, roles, mandatory training, assessment, records, and review.",
+  "description": "How to write a training policy for a regulated organization: purpose, scope, obligations, roles, mandatory training, assessment, records, and review.",
   "shortAnswer": "To write a training policy, state its purpose and scope, list the obligations it supports, assign roles and accountabilities, set how training needs are identified, define mandatory training and timeframes, state how competence is assessed, set record keeping and retention rules, cover non completion, content governance, and evaluation, then have it approved at the right level and reviewed on a fixed cycle. Keep procedures and schedules in separate, linked documents.",
   "keyTakeaways": [
     "A training policy sets principles, accountabilities, and minimum standards. Detailed steps belong in procedures.",
-    "Anchor the policy in the obligations that apply to you, such as AML/CTF Rules, ASIC's training expectations, or WHS duties.",
+    "Anchor the policy in the obligations that apply to you, such as anti money laundering rules, work health and safety duties, or sector rules on personnel training.",
     "Define who decides what training each role needs, and how competence, not just completion, is confirmed.",
     "Record keeping, retention, and version control rules should be explicit, because they decide what you can prove later.",
     "Set an approval owner and a review cycle, and review the policy after any major regulatory change."
@@ -19,7 +19,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "A training policy states what the organisation commits to and who is accountable; a procedure states how the work is done step by step. Keeping them separate lets procedures change without reapproving the policy, and makes the policy readable by the board and regulators."
+          "text": "A training policy states what the organization commits to and who is accountable; a procedure states how the work is done step by step. Keeping them separate lets procedures change without reapproving the policy, and makes the policy readable by the board and regulators."
         },
         {
           "type": "p",
@@ -33,15 +33,15 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Anchor the policy to every obligation that requires training, competence, or records in your organisation, and cite each one. Common Australian anchors include the following."
+          "text": "Anchor the policy to every obligation that requires training, competence, or records in your organization, and cite each one. The anchors below are examples from different sectors and jurisdictions; yours will depend on where you operate."
         },
         {
           "type": "ul",
           "items": [
-            "**Financial services.** ASIC expects AFS licensees to identify the knowledge and skills representatives need, ensure they have them, ensure continuing training, and keep a record of training undertaken ([RG 104.82](https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations)).",
+            "**Medicines manufacturing.** In the United States, 21 CFR 211.25(a) requires that each person engaged in manufacturing, processing, packing, or holding a drug product has the education, training, and experience to perform their assigned functions, with good manufacturing practice training \"conducted by qualified individuals on a continuing basis and with sufficient frequency\" ([21 CFR 211.25](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25)).",
             "**AML/CTF.** Section 26F(4)(e) of the AML/CTF Act and the Rules, as described in AUSTRAC's guidance above. See [AUSTRAC AML/CTF training requirements](/regulations/austrac-aml-ctf-training-requirements).",
-            "**Work health and safety.** Section 19(3)(f) of the model WHS Act requires a person conducting a business or undertaking to ensure, so far as reasonably practicable, the provision of any information, training, instruction, or supervision necessary to protect all persons from risks to their health and safety ([Work Health and Safety Act 2011](https://www.legislation.gov.au/C2011A00137/latest/text)). Regulation 39 of the model [WHS Regulations](https://www.legislation.gov.au/F2011L02664/latest/text) adds that training must be suitable and adequate and readily understandable.",
-            "**Quality management.** Organisations using ISO based management systems may also align with [ISO 10015:2019](https://www.iso.org/standard/69459.html), which gives guidelines for competence management and people development."
+            "**Work health and safety (Australia).** Section 19(3)(f) of the model WHS Act requires a person conducting a business or undertaking to ensure, so far as reasonably practicable, the provision of any information, training, instruction, or supervision necessary to protect all persons from risks to their health and safety ([Work Health and Safety Act 2011](https://www.legislation.gov.au/C2011A00137/latest/text)). Regulation 39 of the model [WHS Regulations](https://www.legislation.gov.au/F2011L02664/latest/text) adds that training must be suitable and adequate and readily understandable.",
+            "**Quality management.** Organizations using ISO based management systems may also align with [ISO 10015:2019](https://www.iso.org/standard/69459.html), which gives guidelines for competence management and people development."
           ]
         }
       ]
@@ -70,7 +70,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The checklist below is original and covers the sections most regulated organisations need. Not every row applies to every organisation."
+          "text": "The checklist below is original and covers the sections most regulated organizations need. Not every row applies to every organization."
         },
         {
           "type": "table",
@@ -191,11 +191,6 @@
       "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
     },
     {
-      "title": "RG 104 AFS licensing: Meeting the general obligations",
-      "publisher": "Australian Securities and Investments Commission",
-      "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations"
-    },
-    {
       "title": "Work Health and Safety Act 2011",
       "publisher": "Federal Register of Legislation",
       "url": "https://www.legislation.gov.au/C2011A00137/latest/text"
@@ -209,6 +204,11 @@
       "title": "ISO 10015:2019 Quality management: Guidelines for competence management and people development",
       "publisher": "International Organization for Standardization",
       "url": "https://www.iso.org/standard/69459.html"
+    },
+    {
+      "title": "21 CFR 211.25 Personnel qualifications",
+      "publisher": "US Food and Drug Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25"
     }
   ],
   "related": [
@@ -238,16 +238,16 @@
       "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
     },
     {
-      "claim": "RG 104.82: identify knowledge and skills, ensure they have them, continuing training, keep a record of training.",
-      "source": "https://download.asic.gov.au/media/av3fovx5/rg104-published-23-june-2022-20260310.pdf"
-    },
-    {
       "claim": "WHS Act s19(3)(f): provision of any information, training, instruction or supervision necessary to protect all persons from risks.",
       "source": "https://www.legislation.gov.au/C2011A00137/latest/text"
     },
     {
       "claim": "WHS Regulations r39: training suitable and adequate, and readily understandable.",
       "source": "https://www.legislation.gov.au/F2011L02664/latest/text"
+    },
+    {
+      "claim": "21 CFR 211.25(a): each person engaged in the manufacture, processing, packing, or holding of a drug product shall have education, training, and experience to perform the assigned functions; training shall be in the particular operations that the employee performs and in CGMP as they relate to the employee's functions; CGMP training conducted by qualified individuals on a continuing basis and with sufficient frequency.",
+      "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25"
     }
   ]
 }

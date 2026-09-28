@@ -25,8 +25,8 @@ export default function Page() {
   return (
     <CaseStudy
       sector="Critical infrastructure"
-      title="When the safety case assumed behaviours the training did not teach."
-      dek="An Australian critical infrastructure operator replaced pass and click assessment with a hybrid verification programme drawn from the framework its safety case already implied."
+      title="When the safety case assumed behaviors the training did not teach."
+      dek="An Australian critical infrastructure operator replaced pass and click assessment with a hybrid verification program drawn from the framework its safety case already implied."
       chapters={chapters}
     >
       <Chapter n="01" label={chapters[0].label} id="situation" title="A post incident review that named the training.">
@@ -38,10 +38,10 @@ export default function Page() {
         </p>
         <p>
           The review&rsquo;s most uncomfortable finding was structural. The safety case (the
-          document that justified the site&rsquo;s licence to operate) assumed specific operator
-          behaviours. Micro decisions at defined points in the task. Those behaviours were not
-          taught anywhere in the training programme. Operators had learned the procedure and
-          passed the assessment. The assessment had never been designed to verify the behaviours
+          document that justified the site&rsquo;s license to operate) assumed specific operator
+          behaviors. Micro decisions at defined points in the task. Those behaviors were not
+          taught anywhere in the training program. Operators had learned the procedure and
+          passed the assessment. The assessment had never been designed to verify the behaviors
           the safety case relied on.
         </p>
         <p>
@@ -54,7 +54,7 @@ export default function Page() {
 
       <Chapter n="02" label={chapters[1].label} id="framework" title="Draw the framework the safety case already assumes." tone="warm">
         <p>
-          Each safety case implies a competency framework. It names the behaviours that the risk
+          Each safety case implies a competency framework. It names the behaviors that the risk
           controls depend on. Historically, that implied framework had never been made explicit on
           this site. The Foundry ingested the safety case, task risk assessments, operational
           procedures, and the ISO 45001 management system elements that governed them, and
@@ -63,7 +63,7 @@ export default function Page() {
         <p>
           Coverage of the existing training was measured against that framework. Some nodes were
           fully covered. Some were partially covered. Several (including two of the precursor
-          behaviours the post incident review had specifically named) were not covered at all.
+          behaviors the post incident review had specifically named) were not covered at all.
           The gap was not a training gap in isolation. It was a gap between the safety case and
           the training system that was supposed to enact it.
         </p>
@@ -75,38 +75,38 @@ export default function Page() {
         </CaseQuote>
 
         <p>
-          Verification was rebuilt from the framework outwards. The programme became hybrid by
-          design: instructed content, scenarios of situational judgement that exercised the precursor
-          behaviours specifically, observed performance in the field, and structured supervisor
+          Verification was rebuilt from the framework outwards. The program became hybrid by
+          design: instructed content, scenarios of situational judgment that exercised the precursor
+          behaviors specifically, observed performance in the field, and structured supervisor
           sign off. Each verification event carried a Foundry Hash back to the framework node and
           the safety case clause behind it. Each sign off was auditable to the risk control it
           served.
         </p>
       </Chapter>
 
-      <Chapter n="03" label={chapters[2].label} id="outcome" title="Verification that moved behaviour, and the data to see it." tone="ink">
+      <Chapter n="03" label={chapters[2].label} id="outcome" title="Verification that moved behavior, and the data to see it." tone="ink">
         <p>
           Six months after rollout, the operator reviewed hybrid verification pass rates alongside
           incident precursor rates in operations. Pass rates on the more stringent hybrid
-          programme rose above the pass rate the previous pass and click assessment had recorded
-          on the same population, driven by repeat exposure to the situational judgement material.
-          Independently, the incident precursor rate for the two behaviours specifically targeted
+          program rose above the pass rate the previous pass and click assessment had recorded
+          on the same population, driven by repeat exposure to the situational judgment material.
+          Independently, the incident precursor rate for the two behaviors specifically targeted
           by the redesigned verification fell over the follow up window.
         </p>
         <p>
           The more important shift, according to the safety function, was epistemic. For the first
           time, the training system produced data that could be read against the safety case. When
-          behaviour drifted, the framework showed where. When behaviour improved, the framework
+          behavior drifted, the framework showed where. When behavior improved, the framework
           showed why.
         </p>
 
         <OutcomeStats
           items={[
             { value: 100, suffix: "%", label: "of competencies implied by the safety case mapped to explicit framework nodes" },
-            { value: 2, label: "precursor behaviours from the post incident review closed under hybrid verification" },
+            { value: 2, label: "precursor behaviors from the post incident review closed under hybrid verification" },
             { value: 6, suffix: " mo", label: "post implementation review confirming precursor rate decline" },
           ]}
-          footnote="Illustrative outcomes drawn from typical engagement patterns. Specific programme figures shared under NDA on request."
+          footnote="Illustrative outcomes drawn from typical engagement patterns. Specific program figures shared under NDA on request."
         />
       </Chapter>
 

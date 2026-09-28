@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/platform/gap-analysis" },
   title: "Gap Analysis: find training gaps",
   description:
-    "Compare existing courses, policies, and procedures against the framework they should cover, analysing coverage semantically and structurally, not by keyword.",
+    "Compare existing courses, policies, and procedures against the framework they should cover, analyzing coverage semantically and structurally, not by keyword.",
 };
 
 const capabilities = [
@@ -127,7 +127,7 @@ const related = [
   {
     eyebrow: "Adjacent",
     title: "Audit & evidence",
-    desc: "Each gap report is itself an audit artefact. Traceable, exportable, and defensible.",
+    desc: "Each gap report is itself an audit artifact. Traceable, exportable, and defensible.",
     href: "/platform/audit-evidence",
   },
 ];
@@ -147,7 +147,7 @@ export default function GapAnalysisPage() {
             Improve second.
           </>
         }
-        lede="Most organisations already own more training content than they can defend. Gap Analysis interprets what your standards, policies, and frameworks actually require, then measures your existing library against it. At meaning, rather than at keyword."
+        lede="Most organizations already own more training content than they can defend. Gap Analysis interprets what your standards, policies, and frameworks actually require, then measures your existing library against it. At meaning, rather than at keyword."
         secondaryCta={{ label: "See a live report", href: "/platform/see-it-work" }}
         visual={<AnimatedEditorial src="editorial-gap.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />

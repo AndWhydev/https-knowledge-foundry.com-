@@ -3,8 +3,8 @@
   "kind": "guide",
   "title": "How do you turn SOPs into training?",
   "seoTitle": "Turning SOPs into training",
-  "description": "How to turn standard operating procedures into training: analyse the task, flag critical steps, choose methods by risk, and assess by observed performance.",
-  "shortAnswer": "To turn a standard operating procedure (SOP) into training, first confirm that the SOP matches how the task is really done, then analyse it into steps, decision points, and critical steps where an error causes harm. Train critical steps through demonstration and supervised practice, support the rest with a job aid, and assess competence by observing the person perform the task against a checklist tied to the SOP version.",
+  "description": "How to turn standard operating procedures into training: analyze the task, flag critical steps, choose methods by risk, and assess by observed performance.",
+  "shortAnswer": "To turn a standard operating procedure (SOP) into training, first confirm that the SOP matches how the task is really done, then analyze it into steps, decision points, and critical steps where an error causes harm. Train critical steps through demonstration and supervised practice, support the rest with a job aid, and assess competence by observing the person perform the task against a checklist tied to the SOP version.",
   "keyTakeaways": [
     "An SOP describes a task; training aims at performing that task to standard, so most SOP training ends in an observed demonstration, not a quiz.",
     "Check the SOP against work as actually done before building anything. Training on an inaccurate procedure spreads the error.",
@@ -19,7 +19,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "SOP training builds the ability to perform a sequence of steps correctly, while policy training builds judgement about when a rule applies. A [standard operating procedure](/glossary/standard-operating-procedure) already describes behaviour, so the design work is less about extracting requirements and more about deciding which steps need practice and how to verify performance."
+          "text": "SOP training builds the ability to perform a sequence of steps correctly, while policy training builds judgment about when a rule applies. A [standard operating procedure](/glossary/standard-operating-procedure) already describes behavior, so the design work is less about extracting requirements and more about deciding which steps need practice and how to verify performance."
         },
         {
           "type": "p",
@@ -38,9 +38,9 @@
         {
           "type": "ul",
           "items": [
-            "**Workplace health and safety.** The model WHS Regulations require training to be suitable and adequate having regard to the nature of the work, the risks at the time, and the control measures in place, and to be readily understandable ([model WHS Regulations r39](https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf)). A procedure is usually the control measure, so training on it is part of that duty.",
-            "**Medicines manufacturing.** The PIC/S Guide to Good Manufacturing Practice (GMP), adopted by the Therapeutic Goods Administration (TGA), says newly recruited personnel should receive training appropriate to their duties, that continuing training should be given, and that its \"practical effectiveness should be periodically assessed\", with training records kept (Part I, clause 2.11). Clause 4.29 lists written procedures for training and for verification of the effectiveness of training ([TGA, PE009-16 Part I](https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf)). Version 17 of the guide has applied in Australia since 1 September 2025, subject to transition ([TGA](https://www.tga.gov.au/resources/guidance/good-manufacturing-practice-gmp-requirements-medicinal-products-pics-guide-gmp-pe009-17)).",
-            "**Financial crime controls.** AUSTRAC lists on the job training among common delivery methods, especially where a money laundering or terrorism financing risk is specific to a role ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training))."
+            "**Workplace health and safety.** Australia's model WHS Regulations require training to be suitable and adequate having regard to the nature of the work, the risks at the time, and the control measures in place, and to be readily understandable ([model WHS Regulations r39](https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf)). A procedure is usually the control measure, so training on it is part of that duty.",
+            "**Medicines manufacturing.** The PIC/S Guide to Good Manufacturing Practice (GMP), used by the medicines regulators that participate in the PIC/S scheme, says newly recruited personnel should receive training appropriate to their duties, that continuing training should be given, and that its \"practical effectiveness should be periodically assessed\", with training records kept (Part I, clause 2.11). Clause 4.29 lists written procedures for training and for verification of the effectiveness of training ([PE009-16 Part I](https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf)). In the United States, 21 CFR 211.25(a) similarly requires training \"in the particular operations that the employee performs\" ([21 CFR 211.25](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25)).",
+            "**Financial crime controls.** Australia's AUSTRAC lists on the job training among common delivery methods, especially where a money laundering or terrorism financing risk is specific to a role ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training))."
           ]
         }
       ]
@@ -51,16 +51,16 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Validate the procedure, analyse the task, classify each step by risk, then choose methods and assessment to match. The outputs below form the training package and its evidence trail."
+          "text": "Validate the procedure, analyze the task, classify each step by risk, then choose methods and assessment to match. The outputs below form the training package and its evidence trail."
         },
         {
           "type": "ol",
           "items": [
             "**Validate the SOP.** Walk through the task with an experienced operator and compare what they do with what the SOP says. Output: a list of discrepancies, resolved with the SOP owner before training is built.",
-            "**Analyse the task.** Break the procedure into steps, decision points, required tools or systems, and known error modes. Output: a task analysis table.",
+            "**Analyze the task.** Break the procedure into steps, decision points, required tools or systems, and known error modes. Output: a task analysis table.",
             "**Flag critical steps.** Mark every step where an error could harm people, product, data, or compliance. Output: a critical step list approved by the process owner.",
-            "**Classify each step.** Decide whether the step needs knowledge (why), skill (how), or judgement (whether and when). Output: a classification column in the task analysis.",
-            "**Choose methods.** Match method to classification and risk: explanation for knowledge, demonstration and supervised practice for skill, scenarios for judgement. Output: a training plan.",
+            "**Classify each step.** Decide whether the step needs knowledge (why), skill (how), or judgment (whether and when). Output: a classification column in the task analysis.",
+            "**Choose methods.** Match method to classification and risk: explanation for knowledge, demonstration and supervised practice for skill, scenarios for judgment. Output: a training plan.",
             "**Build the job aid.** Produce a short reference, such as a checklist or annotated screen sequence, for use at the point of work. Output: a controlled job aid that carries the SOP version.",
             "**Build the observation checklist.** List each step with its standard, marking critical steps as must pass. Output: an assessment instrument for the assessor.",
             "**Assess and sign off.** A qualified assessor observes the person and records the result with the SOP version. Output: a competence record, ready for [verification of competency](/glossary/verification-of-competency) later.",
@@ -111,7 +111,7 @@
             ],
             [
               "4. Decide whether a found item requires a deviation report",
-              "Judgement",
+              "Judgment",
               "Yes",
               "Scenario discussion with examples of past findings",
               "Must pass: correct decision on three scenarios"
@@ -144,7 +144,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Read and understand sign off is enough when a revision does not change how the task is performed, such as a reformatted document, a corrected reference, or clarified wording. It is not enough when steps, sequence, limits, equipment, or decision criteria change, because the person then needs to practise and show the new way of working."
+          "text": "Read and understand sign off is enough when a revision does not change how the task is performed, such as a reformatted document, a corrected reference, or clarified wording. It is not enough when steps, sequence, limits, equipment, or decision criteria change, because the person then needs to practice and show the new way of working."
         },
         {
           "type": "callout",
@@ -195,11 +195,11 @@
   "faqs": [
     {
       "q": "Who should assess SOP competence?",
-      "a": "Someone who is competent in the task and trained to assess, often a supervisor, senior operator, or designated assessor. The assessor should use a consistent observation checklist and should not assess their own work. For high risk tasks, some organisations require a second assessor or periodic calibration between assessors."
+      "a": "Someone who is competent in the task and trained to assess, often a supervisor, senior operator, or designated assessor. The assessor should use a consistent observation checklist and should not assess their own work. For high risk tasks, some organizations require a second assessor or periodic calibration between assessors."
     },
     {
       "q": "Can e-learning replace practical SOP training?",
-      "a": "It can cover the knowledge component, such as why a step exists and what the limits are, and it can simulate system based tasks well. For physical tasks or critical steps, most organisations still require observed performance, because completion of a module does not show that the person can do the task under real conditions."
+      "a": "It can cover the knowledge component, such as why a step exists and what the limits are, and it can simulate system based tasks well. For physical tasks or critical steps, most organizations still require observed performance, because completion of a module does not show that the person can do the task under real conditions."
     },
     {
       "q": "How detailed should the job aid be?",
@@ -217,11 +217,6 @@
       "url": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
     },
     {
-      "title": "Good manufacturing practice (GMP) requirements for medicinal products: PIC/S Guide to GMP PE009-17",
-      "publisher": "Therapeutic Goods Administration",
-      "url": "https://www.tga.gov.au/resources/guidance/good-manufacturing-practice-gmp-requirements-medicinal-products-pics-guide-gmp-pe009-17"
-    },
-    {
       "title": "Model Work Health and Safety Regulations (5 December 2025)",
       "publisher": "Safe Work Australia",
       "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
@@ -230,6 +225,11 @@
       "title": "AML/CTF training",
       "publisher": "AUSTRAC",
       "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    },
+    {
+      "title": "21 CFR 211.25 Personnel qualifications",
+      "publisher": "US Food and Drug Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25"
     }
   ],
   "related": [
@@ -267,12 +267,12 @@
       "source": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
     },
     {
-      "claim": "From 1 September 2025 the PIC/S Guide to GMP version 17 applies to the manufacture of medicines, APIs and sunscreens in Australia, with a transition period.",
-      "source": "https://www.tga.gov.au/resources/guidance/good-manufacturing-practice-gmp-requirements-medicinal-products-pics-guide-gmp-pe009-17"
-    },
-    {
       "claim": "AUSTRAC lists on-the-job training, especially where there is ML/TF risk specific to certain roles, among common delivery methods.",
       "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    },
+    {
+      "claim": "21 CFR 211.25(a): each person engaged in the manufacture, processing, packing, or holding of a drug product shall have education, training, and experience to perform the assigned functions; training shall be in the particular operations that the employee performs and in CGMP as they relate to the employee's functions; CGMP training conducted by qualified individuals on a continuing basis and with sufficient frequency.",
+      "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25"
     }
   ]
 }

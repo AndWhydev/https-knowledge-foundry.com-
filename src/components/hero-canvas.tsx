@@ -45,7 +45,7 @@ export function HeroCanvas() {
     const ro = new ResizeObserver(resize);
     ro.observe(canvas);
 
-    // Cursor state (normalised 0..1)
+    // Cursor state (normalized 0..1)
     let mx = 0.65;
     let my = 0.45;
     let tmx = 0.65;

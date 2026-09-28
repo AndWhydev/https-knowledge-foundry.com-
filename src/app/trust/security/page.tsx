@@ -39,12 +39,12 @@ const threats = [
   {
     icon: <GitBranch className="h-5 w-5" />,
     title: "Supply chain compromise",
-    desc: "Mitigated by locked dependency manifests, signed build artefacts, automated scanning of dependencies for vulnerabilities, and infrastructure as code review before merge.",
+    desc: "Mitigated by locked dependency manifests, signed build artifacts, automated scanning of dependencies for vulnerabilities, and infrastructure as code review before merge.",
   },
   {
     icon: <Server className="h-5 w-5" />,
     title: "Infrastructure compromise",
-    desc: "Mitigated by hardening native to AWS, private network defaults, restricted management planes, and immutable deployment pipelines with signed artefacts.",
+    desc: "Mitigated by hardening native to AWS, private network defaults, restricted management planes, and immutable deployment pipelines with signed artifacts.",
   },
   {
     icon: <FileSearch className="h-5 w-5" />,
@@ -54,7 +54,7 @@ const threats = [
   {
     icon: <Bug className="h-5 w-5" />,
     title: "Vulnerability at the application layer",
-    desc: "Mitigated by static analysis in CI, dependency scanning, secure development practices, and a responsible disclosure programme with a defined intake channel.",
+    desc: "Mitigated by static analysis in CI, dependency scanning, secure development practices, and a responsible disclosure program with a defined intake channel.",
   },
 ];
 
@@ -95,7 +95,7 @@ const ir = [
   {
     n: "01",
     title: "Detect",
-    desc: "Continuous monitoring on production, application error tracking, and structured audit logs. Alerts route to a named on call rotation with defined acknowledgement windows.",
+    desc: "Continuous monitoring on production, application error tracking, and structured audit logs. Alerts route to a named on call rotation with defined acknowledgment windows.",
   },
   {
     n: "02",
@@ -120,12 +120,12 @@ const disclosureFaq = [
     a: "Email security@knowledge-foundry.com. Please include a description of the issue, the affected surface, reproduction steps, and any impact assessment you have made. If the finding is sensitive, request our PGP key in your first email.",
   },
   {
-    q: "What is your acknowledgement window?",
+    q: "What is your acknowledgment window?",
     a: "We aim to acknowledge receipt within two business days. Substantive triage response follows within five business days for reports with sufficient detail to reproduce.",
   },
   {
     q: "Do you offer a bug bounty?",
-    a: "We do not currently operate a paid bounty programme. We do maintain a public acknowledgements list, with your permission, for researchers who disclose responsibly.",
+    a: "We do not currently operate a paid bounty program. We do maintain a public acknowledgments list, with your permission, for researchers who disclose responsibly.",
   },
   {
     q: "What is out of scope?",
@@ -140,7 +140,7 @@ const disclosureFaq = [
 const related = [
   {
     eyebrow: "Trust",
-    title: "Trust Centre overview",
+    title: "Trust Center overview",
     desc: "The full posture summary. Security, compliance, data handling.",
     href: "/trust",
   },
@@ -175,7 +175,7 @@ export default function SecurityPage() {
         }
         lede="Security is a discipline, not a claim. This page states the threats we design against, the controls that mitigate them, how we respond when something goes wrong, and how to report a suspected issue."
         primaryCta={{ label: "Contact security team", href: "mailto:security@knowledge-foundry.com" }}
-        secondaryCta={{ label: "Back to Trust Centre", href: "/trust" }}
+        secondaryCta={{ label: "Back to Trust Center", href: "/trust" }}
       />
 
       <FeatureGrid

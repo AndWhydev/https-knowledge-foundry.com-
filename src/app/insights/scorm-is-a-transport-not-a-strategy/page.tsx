@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/insights/scorm-is-a-transport-not-a-strategy" },
   title: "SCORM is a transport, not a strategy",
   description:
-    "SCORM and xAPI describe delivery. They do not define what a learner should know, and confusing the two leaves training programmes undefended at audit.",
+    "SCORM and xAPI describe delivery. They do not define what a learner should know, and confusing the two leaves training programs undefended at audit.",
 };
 
 const toc = [
@@ -48,7 +48,7 @@ export default function Page() {
       </EditorialP>
       <EditorialP>
         The first class is important. SCORM and xAPI exist because interoperability is a real
-        problem, and both specifications solve it well enough for most organisations. The
+        problem, and both specifications solve it well enough for most organizations. The
         second class is the harder one. And it is the one the standards do not, and were never
         intended to, address.
       </EditorialP>
@@ -79,7 +79,7 @@ export default function Page() {
         guarantee and mistaking it for a knowledge guarantee.
       </EditorialP>
       <EditorialP>
-        In audit, the confusion is worse. An organisation asked to demonstrate coverage of a
+        In audit, the confusion is worse. An organization asked to demonstrate coverage of a
         specific regulation will sometimes present a list of SCORM packages tagged with the
         regulation's name. The tagging is a claim about the topic of the package, made by
         whoever authored it. It is not a claim, backed by evidence, that the package actually

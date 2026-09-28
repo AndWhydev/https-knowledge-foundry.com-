@@ -27,7 +27,7 @@ const capabilities = [
   {
     icon: <ListOrdered className="h-5 w-5" />,
     title: "Sequenced steps",
-    desc: "Required steps, order, and required inputs are extracted from source procedures and modelled explicitly. No assumed prior experience. No missed prerequisites.",
+    desc: "Required steps, order, and required inputs are extracted from source procedures and modeled explicitly. No assumed prior experience. No missed prerequisites.",
   },
   {
     icon: <GitBranch className="h-5 w-5" />,
@@ -82,7 +82,7 @@ const steps = [
 const faq = [
   {
     q: "How is this different from a standard SOP document?",
-    a: "An SOP document is a static artefact. When conditions change, the document does not know. The Foundry treats the procedure as a structured object (steps, dependencies, decision points, validation) and generates guided instruction from it. When the source changes, the affected steps regenerate. When the operator performs the procedure, validation is measurable, not assumed.",
+    a: "An SOP document is a static artifact. When conditions change, the document does not know. The Foundry treats the procedure as a structured object (steps, dependencies, decision points, validation) and generates guided instruction from it. When the source changes, the affected steps regenerate. When the operator performs the procedure, validation is measurable, not assumed.",
   },
   {
     q: "Can this cover safety critical procedures under OSHA, HACCP, or ISO 45001?",
@@ -94,11 +94,11 @@ const faq = [
   },
   {
     q: "How does the platform capture procedures that only exist as tribal knowledge?",
-    a: "The framework construction phase supports capture driven by an SME as well as document ingestion. The system proposes a structural draft based on interviews or observations. The SME reviews, corrects, and approves. What was previously implicit becomes an inspectable, versionable artefact.",
+    a: "The framework construction phase supports capture driven by an SME as well as document ingestion. The system proposes a structural draft based on interviews or observations. The SME reviews, corrects, and approves. What was previously implicit becomes an inspectable, versionable artifact.",
   },
   {
     q: "Can the same procedure produce learning material for training and quick reference material for operators?",
-    a: "Yes. From one approved framework the system generates full training programmes for new operators and condensed reference formats for experienced ones. The knowledge structure is identical. The instructional expression adapts to the use.",
+    a: "Yes. From one approved framework the system generates full training programs for new operators and condensed reference formats for experienced ones. The knowledge structure is identical. The instructional expression adapts to the use.",
   },
 ];
 
@@ -177,18 +177,18 @@ export default function OperationalProceduresPage() {
         title="Execution is no longer a variable."
       >
         <p>
-          Organisations gain consistent results, reduced error rates, faster skill transfer, and
+          Organizations gain consistent results, reduced error rates, faster skill transfer, and
           reduced dependency on informal knowledge. Individuals gain clear step progression,
           reduced confusion, increased confidence, and improved accuracy. Neither depends on who
           happens to be on shift.
         </p>
         <p>
           The outcome is not exposure to instructions. The outcome is correct execution, anchored
-          to a structural framework the organisation approves, versions, and can defend.
+          to a structural framework the organization approves, versions, and can defend.
         </p>
       </ProseBlock>
 
-      <FAQ title="How operational procedure programmes work, in detail." items={faq} />
+      <FAQ title="How operational procedure programs work, in detail." items={faq} />
       <Related items={related} />
       <CtaBand
         eyebrow="Bring a procedure"

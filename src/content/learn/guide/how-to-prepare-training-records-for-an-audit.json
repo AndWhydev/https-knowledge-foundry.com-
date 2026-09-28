@@ -8,7 +8,7 @@
   "keyTakeaways": [
     "Start from the obligation and the population that should be trained, not from the learning system report. Auditors test coverage, not activity.",
     "A usable training record names the person, role, content item and version, date, assessment result, assessor where relevant, and next due date.",
-    "Some retention periods are set in regulation or regulator standards, such as two years for assessments submitted to a registered training organisation under the 2025 Standards for RTOs.",
+    "Some retention periods are set in regulation or regulator standards, such as three years for bloodborne pathogens training records under the US OSHA standard, or two years for assessments submitted to an Australian Registered Training Organisation.",
     "Never backdate, recreate, or edit historical records to close a gap. Record the gap, remediate it, and document the remediation.",
     "Run your own sample test before the auditor does, using the same approach: pick people at random and trace each one to evidence."
   ],
@@ -23,11 +23,11 @@
         },
         {
           "type": "p",
-          "text": "Several Australian regulators state record expectations directly. The Australian Securities and Investments Commission (ASIC) says in [Regulatory Guide 104](https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations) (RG 104.82) that it expects licensees to identify the knowledge and skills representatives need, ensure they have them, ensure continuing training, and \"maintain a record of the training they have undertaken\", noting this is required under reg 7.6.04(1)(d) of the Corporations Regulations. The Australian Transaction Reports and Analysis Centre (AUSTRAC) says in its [AML/CTF training guidance](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform) that it expects reporting entities to use a register to record completion dates and track when further training is due."
+          "text": "Several regulators state record expectations directly. For example, the US Occupational Safety and Health Administration (OSHA) Bloodborne Pathogens standard requires training records to show the dates of the sessions, their contents or a summary, the names and qualifications of the trainers, and the names and job titles of attendees, and to keep them for three years from the date of training ([29 CFR 1910.1030(h)(2)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030)). The Australian Transaction Reports and Analysis Centre (AUSTRAC) says in its [AML/CTF training guidance](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform) that it expects reporting entities to use a register to record completion dates and track when further training is due."
         },
         {
           "type": "p",
-          "text": "For registered training organisations, the Australian Skills Quality Authority (ASQA) [practice guide on integrity of nationally recognised training](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/compliance-standards-for-rtos/integrity-of-nationally-recognised-training-practice-guide) sets out the requirement to retain records of all assessments submitted by a student for two years after the student completes the training product, and AQF certification documentation for thirty years. Other sectors may have their own record rules, so check the instruments that apply to you rather than assuming one period fits all."
+          "text": "For Registered Training Organisations, the Australian Skills Quality Authority (ASQA) [practice guide on integrity of nationally recognized training](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/compliance-standards-for-rtos/integrity-of-nationally-recognised-training-practice-guide) sets out the requirement to retain records of all assessments submitted by a student for two years after the student completes the training product, and AQF certification documentation for thirty years. Other sectors may have their own record rules, so check the instruments that apply to you rather than assuming one period fits all."
         }
       ]
     },
@@ -114,7 +114,7 @@
             [
               "Exemption or recognition note",
               "Explains any gap that is not a failure",
-              "Recognised prior learning approved by compliance manager"
+              "Recognized prior learning approved by compliance manager"
             ]
           ]
         }
@@ -178,7 +178,7 @@
   "faqs": [
     {
       "q": "How long should training records be kept?",
-      "a": "It depends on the rule that applies. Registered training organisations must retain submitted assessments for two years after the student completes the training product and certification records for thirty years under the 2025 Standards for RTOs. Other sectors set their own periods, and many organisations align training records with their general records retention schedule. Check the instruments that apply to you and document the period in your training policy."
+      "a": "It depends on the rule that applies. For example, Australian Registered Training Organisations must retain submitted assessments for two years after the student completes the training product and certification records for thirty years under the 2025 Standards for RTOs. Other sectors set their own periods, and many organizations align training records with their general records retention schedule. Check the instruments that apply to you and document the period in your training policy."
     },
     {
       "q": "Is a learning management system completion report enough for an audit?",
@@ -195,11 +195,6 @@
   ],
   "sources": [
     {
-      "title": "RG 104 AFS licensing: Meeting the general obligations",
-      "publisher": "Australian Securities and Investments Commission",
-      "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations"
-    },
-    {
       "title": "AML/CTF training (Reform)",
       "publisher": "AUSTRAC",
       "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
@@ -213,6 +208,11 @@
       "title": "Operating mobile plant verification of competency (VOC)",
       "publisher": "NSW Resources Regulator",
       "url": "https://www.resources.nsw.gov.au/sites/default/files/2024-05/operating-mobile-plant-verification-of-competency.pdf"
+    },
+    {
+      "title": "29 CFR 1910.1030 Bloodborne pathogens",
+      "publisher": "US Occupational Safety and Health Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030"
     }
   ],
   "related": [
@@ -238,10 +238,6 @@
   "release": 5,
   "factCheck": [
     {
-      "claim": "RG 104.82(d): ASIC expects licensees to maintain a record of training representatives have undertaken, required under reg 7.6.04(1)(d).",
-      "source": "https://download.asic.gov.au/media/av3fovx5/rg104-published-23-june-2022-20260310.pdf"
-    },
-    {
       "claim": "AUSTRAC expects reporting entities to use a register to record completion dates and track when further training is due.",
       "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
     },
@@ -252,6 +248,10 @@
     {
       "claim": "RTOs must retain records of all assessments submitted by a VET student for two years after completion of the training product, and AQF certification documentation for thirty years.",
       "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/compliance-standards-for-rtos/integrity-of-nationally-recognised-training-practice-guide"
+    },
+    {
+      "claim": "29 CFR 1910.1030(h)(2): training records shall include dates of sessions, contents or a summary, names and qualifications of persons conducting the training, and names and job titles of attendees; maintained for 3 years from the date of training.",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030"
     }
   ]
 }

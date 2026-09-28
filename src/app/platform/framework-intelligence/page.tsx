@@ -17,8 +17,8 @@ export const metadata: Metadata = {
 };
 
 const capabilities = [
-  { icon: <Layers3 className="h-5 w-5" />, title: "Concept mapping", desc: "Discrete concepts are extracted from source material, deduplicated across documents, and organised into a working ontology." },
-  { icon: <Network className="h-5 w-5" />, title: "Relationship graph", desc: "How concepts depend on, contain, contradict, or supersede each other, modelled explicitly rather than implied by paragraph order." },
+  { icon: <Layers3 className="h-5 w-5" />, title: "Concept mapping", desc: "Discrete concepts are extracted from source material, deduplicated across documents, and organized into a working ontology." },
+  { icon: <Network className="h-5 w-5" />, title: "Relationship graph", desc: "How concepts depend on, contain, contradict, or supersede each other, modeled explicitly rather than implied by paragraph order." },
   { icon: <Target className="h-5 w-5" />, title: "Assessment logic", desc: "Which concepts must be assessed, at what depth, and with what evidence. All defined as part of the framework, before instruction begins." },
   { icon: <Compass className="h-5 w-5" />, title: "Progression design", desc: "Prerequisite chains and cognitive load are laid down so learners meet concepts in the order the subject actually requires." },
   { icon: <GitCompareArrows className="h-5 w-5" />, title: "Alignment mapping", desc: "Each framework node ties back to a source requirement: a policy clause, a standard, a competency, or an accreditation statement." },
@@ -26,8 +26,8 @@ const capabilities = [
 ];
 
 const steps = [
-  { n: "01", title: "Ingest source", desc: "Documents, policies, standards, subject matter expert notes, and prior training material are ingested. Formats are normalised. Provenance is retained." },
-  { n: "02", title: "Extract requirements", desc: "The system identifies what must be known: concepts, capabilities, behaviours, and decisions. Each requirement is sourced back to the sentence that implies it." },
+  { n: "01", title: "Ingest source", desc: "Documents, policies, standards, subject matter expert notes, and prior training material are ingested. Formats are normalized. Provenance is retained." },
+  { n: "02", title: "Extract requirements", desc: "The system identifies what must be known: concepts, capabilities, behaviors, and decisions. Each requirement is sourced back to the sentence that implies it." },
   { n: "03", title: "Propose framework", desc: "A structured framework is drafted, covering concepts, relationships, progression, and assessment points. Reviewable, editable, and always cited." },
   { n: "04", title: "Human approval", desc: "The framework owner reviews, revises, and approves. Only an approved framework can drive content production downstream." },
 ];
@@ -46,12 +46,12 @@ const faq = [
     a: "Yes, and this is common. The system reads existing training as source, extracts the framework it implies, then compares that framework to your authoritative documents. The gaps between the two are usually the story.",
   },
   {
-    q: "What does the framework look like as an artefact?",
+    q: "What does the framework look like as an artifact?",
     a: "A structured object. Concept nodes, relationship edges, assessment definitions, and provenance links back to source. Readable by humans in the Foundry, and exportable to JSON, XML, or a spreadsheet for review outside the system.",
   },
   {
     q: "Who owns the framework once it is built?",
-    a: "You do. The framework and all its versions belong to your organisation. If you leave the platform, you leave with the framework, its provenance, and its evidence.",
+    a: "You do. The framework and all its versions belong to your organization. If you leave the platform, you leave with the framework, its provenance, and its evidence.",
   },
 ];
 
@@ -122,7 +122,7 @@ export default function FrameworkIntelligencePage() {
       >
         <p>
           The output is not a slide deck describing what the framework <em>could</em> be.
-          It is a structured artefact, inspectable, versionable, and exportable, that
+          It is a structured artifact, inspectable, versionable, and exportable, that
           becomes the source of truth for each downstream activity: content generation,
           gap analysis, verification, and evidence.
         </p>

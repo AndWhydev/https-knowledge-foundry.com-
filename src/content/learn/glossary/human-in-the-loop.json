@@ -39,11 +39,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Most frameworks and laws do not require a human in every loop, but they do expect organisations to keep meaningful human oversight and the ability to intervene."
+          "text": "Most frameworks and laws do not require a human in every loop, but they do expect organizations to keep meaningful human oversight and the ability to intervene."
         },
         {
           "type": "p",
-          "text": "As one national example, Australia's Department of Industry, Science and Resources [published](https://www.industry.gov.au/publications/voluntary-ai-safety-standard) the Guidance for AI Adoption on 21 October 2025, setting out six essential practices and evolving the earlier Voluntary AI Safety Standard. The sixth practice in the [implementation guidance](https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance) is \"Maintain human control\". It says people in the organisation should retain oversight of AI systems \"with the ability to intervene where necessary\", and asks organisations to ensure appropriate training is provided to anyone overseeing or using AI systems so they understand each system's capabilities, limitations and failure modes and when human intervention is needed."
+          "text": "As one national example, Australia's Department of Industry, Science and Resources [published](https://www.industry.gov.au/publications/voluntary-ai-safety-standard) the Guidance for AI Adoption on 21 October 2025, setting out six essential practices and evolving the earlier Voluntary AI Safety Standard. The sixth practice in the [implementation guidance](https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance) is \"Maintain human control\". It says people in the organization should retain oversight of AI systems \"with the ability to intervene where necessary\", and asks organizations to ensure appropriate training is provided to anyone overseeing or using AI systems so they understand each system's capabilities, limitations and failure modes and when human intervention is needed."
         },
         {
           "type": "p",
@@ -114,7 +114,7 @@
             "**Competence:** the reviewer knows the subject and the system's known failure modes.",
             "**Information:** the reviewer sees the output alongside its sources and the reason it was produced.",
             "**Authority:** the reviewer can reject or change the output, and that decision stands.",
-            "**Capacity:** review volume is realistic for the time available.",
+            "**Capacity:** review volume is realiztic for the time available.",
             "**Record:** every decision is logged in an [audit trail](/glossary/audit-trail) with the reviewer, time and outcome."
           ]
         },
@@ -142,7 +142,7 @@
     },
     {
       "q": "Does human in the loop mean a person checks every output?",
-      "a": "In the strict sense defined by the European expert group, yes: a person can intervene in every decision cycle. In common usage the term is often applied more loosely to any human review. Organisations should state which model they use for each system."
+      "a": "In the strict sense defined by the European expert group, yes: a person can intervene in every decision cycle. In common usage the term is often applied more loosely to any human review. Organizations should state which model they use for each system."
     },
     {
       "q": "Who should be the human in the loop for training content?",

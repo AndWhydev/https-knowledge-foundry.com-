@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/case-studies/national-healthcare-operator" },
   title: "Case study: national hospital operator",
   description:
-    "A national private hospital operator consolidated 400+ SOPs across 30+ sites into one governed framework, with per site variance modelled explicitly.",
+    "A national private hospital operator consolidated 400+ SOPs across 30+ sites into one governed framework, with per site variance modeled explicitly.",
 };
 
 const chapters: CaseChapter[] = [
@@ -78,7 +78,7 @@ export default function Page() {
           Credentialing was then attached to the framework at the procedure level. A credential
           requirement became an attribute of the procedure, not a document filed elsewhere. Each
           verification event (a credentialing decision, a competency sign off, a recredentialing
-          date) was traceable back to the specific framework node it authorised, and the NSQHS
+          date) was traceable back to the specific framework node it authorized, and the NSQHS
           standard that made it necessary.
         </p>
       </Chapter>
@@ -103,7 +103,7 @@ export default function Page() {
             { value: 400, suffix: "+", label: "SOPs regenerated against a single canonical framework" },
             { value: 4, suffix: " hrs", label: "to produce a credentialing audit pack (previously about three weeks)" },
           ]}
-          footnote="Illustrative outcomes drawn from typical engagement patterns. Specific programme figures shared under NDA on request."
+          footnote="Illustrative outcomes drawn from typical engagement patterns. Specific program figures shared under NDA on request."
         />
       </Chapter>
 

@@ -23,11 +23,11 @@
         },
         {
           "type": "p",
-          "text": "Regulators set expectations that a cluttered library makes hard to meet. The Australian Transaction Reports and Analysis Centre (AUSTRAC) [states](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform) that AML/CTF training must be tailored to the person, their role, their responsibilities, and the relevant risks. The Australian Securities and Investments Commission (ASIC) expects AFS licensees to identify the knowledge and skills representatives need and ensure they have them ([RG 104.82](https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations)). Under the model [WHS Regulations](https://www.legislation.gov.au/F2011L02664/latest/text), training must be provided in a way that is readily understandable, so far as is reasonably practicable (regulation 39(3))."
+          "text": "Regulators set expectations that a cluttered library makes hard to meet. Two Australian examples show the pattern. The Australian Transaction Reports and Analysis Centre (AUSTRAC) [states](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform) that AML/CTF training must be tailored to the person, their role, their responsibilities, and the relevant risks. Under the model [WHS Regulations](https://www.legislation.gov.au/F2011L02664/latest/text), training must be provided in a way that is readily understandable, so far as is reasonably practicable (regulation 39(3))."
         },
         {
           "type": "p",
-          "text": "Quality management guidance treats this as part of a managed system rather than a clean up. [ISO 10015:2019](https://www.iso.org/standard/69459.html) gives guidelines for establishing, implementing, maintaining, and improving systems for competence management and people development. A periodic library audit is one of the ways an organisation maintains and improves such a system, because it tests whether the learning on offer still matches the competence the organisation needs."
+          "text": "Quality management guidance treats this as part of a managed system rather than a clean up. [ISO 10015:2019](https://www.iso.org/standard/69459.html) gives guidelines for establishing, implementing, maintaining, and improving systems for competence management and people development. A periodic library audit is one of the ways an organization maintains and improves such a system, because it tests whether the learning on offer still matches the competence the organization needs."
         }
       ]
     },
@@ -48,7 +48,7 @@
             "**Score each item.** Apply the rubric below. Sample content and assessment items for large courses rather than reading every screen. Output: a scored inventory.",
             "**Find overlap.** Group items that teach the same outcomes to the same audience. Output: a list of merge candidates.",
             "**Decide.** Keep, fix, merge, or retire each item, with a reason. Output: a decision log.",
-            "**Plan and govern.** Prioritise fixes by risk, assign owners and review dates, and set a rule for adding new items. Output: a remediation plan and a content governance rule."
+            "**Plan and govern.** Prioritize fixes by risk, assign owners and review dates, and set a rule for adding new items. Output: a remediation plan and a content governance rule."
           ]
         }
       ]
@@ -93,7 +93,7 @@
               "Assessment quality",
               "Does the assessment test the outcomes?",
               "No assessment, or recall only",
-              "Assessment mapped to outcomes, realistic scenarios"
+              "Assessment mapped to outcomes, realiztic scenarios"
             ],
             [
               "Accessibility",
@@ -145,7 +145,7 @@
         },
         {
           "type": "p",
-          "text": "Between full audits, targeted detection keeps content current; see [how to find outdated training content](/guides/how-to-detect-outdated-training-content). Where gaps are found, the [training gap analysis](/guides/how-to-run-a-training-gap-analysis) method helps size and prioritise them."
+          "text": "Between full audits, targeted detection keeps content current; see [how to find outdated training content](/guides/how-to-detect-outdated-training-content). Where gaps are found, the [training gap analysis](/guides/how-to-run-a-training-gap-analysis) method helps size and prioritize them."
         }
       ]
     },
@@ -163,7 +163,7 @@
   "faqs": [
     {
       "q": "How long does a training library audit take?",
-      "a": "It depends on library size and how clean the inventory data is. Building a complete inventory across systems is often the slowest step. Scoring can be sped up by sampling within large courses and by prioritising high risk items first."
+      "a": "It depends on library size and how clean the inventory data is. Building a complete inventory across systems is often the slowest step. Scoring can be sped up by sampling within large courses and by prioritizing high risk items first."
     },
     {
       "q": "Who should be involved in the audit?",
@@ -189,11 +189,6 @@
       "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
     },
     {
-      "title": "RG 104 AFS licensing: Meeting the general obligations",
-      "publisher": "Australian Securities and Investments Commission",
-      "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations"
-    },
-    {
       "title": "Work Health and Safety Regulations 2011",
       "publisher": "Federal Register of Legislation",
       "url": "https://www.legislation.gov.au/F2011L02664/latest/text"
@@ -217,7 +212,7 @@
       "href": "/platform/gap-analysis"
     },
     {
-      "label": "Enterprise learning modernisation",
+      "label": "Enterprise learning modernization",
       "href": "/platform/enterprise-learning-modernisation"
     }
   ],
@@ -228,10 +223,6 @@
     {
       "claim": "AUSTRAC: AML/CTF training must be tailored to the person, their role, responsibilities and relevant ML/TF risks.",
       "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
-    },
-    {
-      "claim": "RG 104.82(a) and (b): ASIC expects licensees to identify the knowledge and skills representatives need and ensure they have them.",
-      "source": "https://download.asic.gov.au/media/av3fovx5/rg104-published-23-june-2022-20260310.pdf"
     },
     {
       "claim": "Model WHS Regulations r39(3): training provided in a way readily understandable by any person to whom it is provided, so far as reasonably practicable.",

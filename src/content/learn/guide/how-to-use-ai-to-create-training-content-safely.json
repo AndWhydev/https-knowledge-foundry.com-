@@ -27,7 +27,7 @@
         },
         {
           "type": "p",
-          "text": "This guide covers the creation workflow for a piece of content. The organisational controls that sit around it, such as the tool register, accountability, monitoring, and periodic review, are covered in [how to govern AI generated learning content](/guides/how-to-govern-ai-generated-learning-content)."
+          "text": "This guide covers the creation workflow for a piece of content. The organizational controls that sit around it, such as the tool register, accountability, monitoring, and periodic review, are covered in [how to govern AI generated learning content](/guides/how-to-govern-ai-generated-learning-content)."
         }
       ]
     },
@@ -56,7 +56,7 @@
             [
               "Draft workplace scenarios from supplied facts",
               "High",
-              "Subject matter expert confirms realism and the correct answer"
+              "Subject matter expert confirms realizm and the correct answer"
             ],
             [
               "Write plausible distractors for assessment items",
@@ -69,7 +69,7 @@
               "Check meaning has not shifted, especially for must and must not"
             ],
             [
-              "Summarise a regulation or standard",
+              "Summarize a regulation or standard",
               "Medium to low",
               "Verify every statement against the primary source"
             ],
@@ -103,7 +103,7 @@
         {
           "type": "ol",
           "items": [
-            "**Confirm the tool and use are approved.** Check the tool is on your organisation's approved list and that content drafting is a permitted use. Output: a reference to the approved tool and use case in your AI register.",
+            "**Confirm the tool and use are approved.** Check the tool is on your organization's approved list and that content drafting is a permitted use. Output: a reference to the approved tool and use case in your AI register.",
             "**Assemble a source pack.** Collect the current, approved documents the content must reflect, with version numbers. Remove personal information and anything the tool's terms do not allow. Output: a versioned source pack.",
             "**Define outcomes and assessment points first.** Write the [learning outcomes](/guides/how-to-write-measurable-learning-outcomes) and what evidence will show each one. Output: an outcome and assessment list that the draft must satisfy.",
             "**Generate grounded drafts.** Instruct the tool to use only the source pack, to mark which source passage supports each statement, and to flag gaps rather than fill them. Output: a draft with source markers.",
@@ -122,7 +122,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Privacy law applies to any personal information you put into an AI tool and to any personal information it produces, so check the privacy rules in each jurisdiction where you operate. For example, under Australia's Privacy Act 1988, the OAIC recommends as a matter of best practice that organisations \"do not enter personal information, and particularly sensitive information, into publicly available generative AI tools\" ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products)). The points below follow that guidance; most privacy regimes raise similar questions."
+          "text": "Privacy law applies to any personal information you put into an AI tool and to any personal information it produces, so check the privacy rules in each jurisdiction where you operate. For example, under Australia's Privacy Act 1988, the OAIC recommends as a matter of best practice that organizations \"do not enter personal information, and particularly sensitive information, into publicly available generative AI tools\" ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products)). The points below follow that guidance; most privacy regimes raise similar questions."
         },
         {
           "type": "ul",
@@ -135,7 +135,7 @@
         },
         {
           "type": "p",
-          "text": "Government bodies and other organisations covered by security frameworks should also check whether those frameworks require an AI usage policy, and make sure content drafting sits within it. See also [privacy training requirements](/regulations/privacy-act-staff-training-requirements)."
+          "text": "Government bodies and other organizations covered by security frameworks should also check whether those frameworks require an AI usage policy, and make sure content drafting sits within it. See also [privacy training requirements](/regulations/privacy-act-staff-training-requirements)."
         }
       ]
     },
@@ -145,7 +145,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "A claim check lists each factual statement in the draft, the source passage it should rest on, and what the reviewer found. The example below is illustrative only: the organisation, policy, and timeframes are invented to show the method."
+          "text": "A claim check lists each factual statement in the draft, the source passage it should rest on, and what the reviewer found. The example below is illustrative only: the organization, policy, and timeframes are invented to show the method."
         },
         {
           "type": "table",
@@ -191,7 +191,7 @@
         },
         {
           "type": "p",
-          "text": "Two of five statements would have taught the wrong behaviour. Neither looked wrong on a quick read, which is why the check is statement by statement rather than a general proofread."
+          "text": "Two of five statements would have taught the wrong behavior. Neither looked wrong on a quick read, which is why the check is statement by statement rather than a general proofread."
         }
       ]
     },
@@ -228,7 +228,7 @@
   "faqs": [
     {
       "q": "Do learners need to be told that content was drafted with AI?",
-      "a": "It depends on the context and your own AI policy. The Guidance for AI Adoption recommends communicating AI use as standard practice, especially where AI generates content that can meaningfully affect people. Many organisations note AI assistance in the content record and disclose it where learners interact with AI directly, such as a chatbot tutor."
+      "a": "It depends on the context and your own AI policy. The Guidance for AI Adoption recommends communicating AI use as standard practice, especially where AI generates content that can meaningfully affect people. Many organizations note AI assistance in the content record and disclose it where learners interact with AI directly, such as a chatbot tutor."
     },
     {
       "q": "Can we paste our internal policies into a public AI chatbot?",

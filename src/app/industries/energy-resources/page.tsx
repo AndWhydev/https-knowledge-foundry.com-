@@ -47,7 +47,7 @@ const capabilities = [
   {
     icon: <ClipboardCheck className="h-5 w-5" />,
     title: "Evidence ready for the regulator",
-    desc: "For inspection by a state work health and safety regulator, or for internal HSE audit, coverage, verification history, and sign off chains export as a coherent pack, not a discovery exercise.",
+    desc: "For inspection by a workplace safety regulator (OSHA or MSHA in the US, OSHAD in Abu Dhabi, a labor standards inspection office in Japan, a national labor inspectorate in the EU, a state regulator in Australia), or for internal HSE audit, coverage, verification history, and sign off chains export as a coherent pack, not a discovery exercise.",
   },
   {
     icon: <Fingerprint className="h-5 w-5" />,
@@ -60,7 +60,7 @@ const steps = [
   {
     n: "01",
     title: "Interpret the safety case",
-    desc: "Safety management system documents, alignment to ISO 45001, procedural standards, and licence conditions are ingested and parsed at clause level.",
+    desc: "Safety management system documents, alignment to ISO 45001, procedural standards, and license conditions are ingested and parsed at clause level.",
   },
   {
     n: "02",
@@ -82,15 +82,15 @@ const steps = [
 const faq = [
   {
     q: "How does this support ISO 45001 certification maintenance?",
-    a: "The framework encodes ISO 45001 clauses relevant to competency, communication, and operational control, and traces each module and verification checkpoint back to the specific clause it satisfies. Under surveillance audit, the artefact you present is a framework with coverage at the level of the clause, not a defence assembled after the audit notice arrives.",
+    a: "The framework encodes ISO 45001 clauses relevant to competency, communication, and operational control, and traces each module and verification checkpoint back to the specific clause it satisfies. Under surveillance audit, the artifact you present is a framework with coverage at the level of the clause, not a defense assembled after the audit notice arrives.",
   },
   {
     q: "Can this handle verification based on competency for high consequence roles like permit issuers or isolation authorities?",
-    a: "Yes. High consequence roles are exactly where the hybrid verification model applies most strongly. Competency thresholds are defined at the framework level, applied assessment measures behaviour under realistic constraint, and certification decisions carry a full audit chain of assessment attempts, threshold logic, and reviewer sign off.",
+    a: "Yes. High consequence roles are exactly where the hybrid verification model applies most strongly. Competency thresholds are defined at the framework level, applied assessment measures behavior under realistic constraint, and certification decisions carry a full audit chain of assessment attempts, threshold logic, and reviewer sign off.",
   },
   {
     q: "We operate multiple sites with different equipment and different jurisdictional requirements. Can one framework cover them?",
-    a: "Yes. The framework can carry variants specific to a site or jurisdiction without duplicating the underlying competency model. Where a step differs (equipment specific to a site, a licence condition specific to a state) the variant is a branch on the framework, not a fork of the whole system.",
+    a: "Yes. The framework can carry variants specific to a site or jurisdiction without duplicating the underlying competency model. Where a step differs (equipment specific to a site, a license condition specific to a state or country) the variant is a branch on the framework, not a fork of the whole system.",
   },
   {
     q: "How does the platform handle procedural change following an incident?",
@@ -118,7 +118,7 @@ const related = [
   {
     eyebrow: "Capability",
     title: "Knowledge governance",
-    desc: "The platform capability that governs ownership, review cadences, and drift detection for programmes that must stay current with plant, procedure, and law.",
+    desc: "The platform capability that governs ownership, review cadences, and drift detection for programs that must stay current with plant, procedure, and law.",
     href: "/platform/knowledge-governance",
   },
 ];
@@ -157,7 +157,7 @@ export default function EnergyResourcesPage() {
         <p>
           The Foundry treats safety management systems and operational procedures as sources of
           structural obligation. Frameworks encode who must be competent to do what, to what
-          threshold, with what evidence. Programmes generate to fit. Consistency is architectural.
+          threshold, with what evidence. Programs generate to fit. Consistency is architectural.
         </p>
       </ProseBlock>
 
@@ -186,7 +186,7 @@ export default function EnergyResourcesPage() {
           Remediation driven by incidents that ties framework updates directly to the lesson learned.
         </p>
         <p>
-          The programme defends itself. So does the certification decision that flows from it.
+          The program defends itself. So does the certification decision that flows from it.
         </p>
       </ProseBlock>
 

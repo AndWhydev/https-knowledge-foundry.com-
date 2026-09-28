@@ -1,0 +1,292 @@
+{
+  "slug": "eu-ai-act-ai-literacy",
+  "kind": "regulation",
+  "title": "What does the EU AI Act require for AI literacy (Article 4)?",
+  "seoTitle": "EU AI Act Article 4 AI literacy",
+  "description": "What Article 4 of the EU AI Act requires for AI literacy, how the 2026 Digital Omnibus changed it, who enforces it, and how to evidence staff training.",
+  "shortAnswer": "Article 4 of the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) requires providers and deployers of AI systems to take measures to support the AI literacy of their staff and others operating or using AI on their behalf. It has applied since February 2, 2025. The Digital Omnibus on AI, in force since July 2026, kept the duty but removed any requirement to guarantee a specific level of literacy for any individual.",
+  "keyTakeaways": [
+    "Article 4 applies to providers and deployers of AI systems, not only to high-risk AI, and has applied since February 2, 2025.",
+    "Regulation (EU) 2026/1744 (the Digital Omnibus on AI) replaced Article 4: organizations must take measures to support AI literacy, with no guaranteed level per individual.",
+    "National market surveillance authorities supervise and enforce Article 4 from August 2026; penalties are set in national law.",
+    "No certificate is required. The European Commission says an internal record of training and other initiatives is enough.",
+    "Deployers of high-risk AI must also assign human oversight to people with the necessary competence, training and authority (Article 26(2))."
+  ],
+  "jurisdiction": "European Union",
+  "regulator": "National market surveillance authorities in each EU Member State, supported by the European Commission AI Office and the European Artificial Intelligence Board",
+  "appliesTo": [
+    "Providers of AI systems placed on the EU market or put into service in the EU, including providers established outside the EU",
+    "Deployers of AI systems established or located in the EU, including organizations using general purpose AI tools at work",
+    "Staff, contractors, service providers and other persons operating or using AI systems on a provider's or deployer's behalf"
+  ],
+  "sections": [
+    {
+      "id": "what-article-4-requires",
+      "heading": "What does Article 4 require, as at September 2026?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "As at September 2026, Article 4 requires providers and deployers of AI systems to take measures to support the development of AI literacy of their staff and of other persons dealing with the operation and use of AI systems on their behalf. The measures must take into account people's technical knowledge, experience, education and training, the context in which the AI systems are used, and the persons or groups on whom they are used."
+        },
+        {
+          "type": "p",
+          "text": "The current wording comes from [Regulation (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj), the Digital Omnibus on AI, which replaced Article 4 of the [Artificial Intelligence Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj). The new Article 4(1) ends with a sentence that sets the limit of the duty:"
+        },
+        {
+          "type": "callout",
+          "title": "Article 4(1), as amended by Regulation (EU) 2026/1744",
+          "text": "\"This obligation does not require providers or deployers to guarantee any specific level of AI literacy of any individual.\""
+        },
+        {
+          "type": "p",
+          "text": "Article 3(56) defines AI literacy as the skills, knowledge and understanding that allow providers, deployers and affected persons to make an informed deployment of AI systems and to gain awareness of the opportunities and risks of AI and the possible harm it can cause. In learning terms, that is a [competency framework](/glossary/competency-framework) problem as much as a course problem: the organization decides what each group of people needs to know and do, then supports them to get there."
+        }
+      ]
+    },
+    {
+      "id": "digital-omnibus-changes",
+      "heading": "How did the Digital Omnibus on AI change Article 4?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Digital Omnibus softened the standard but kept the obligation on organizations. The original 2024 text required providers and deployers to \"take measures to ensure, to their best extent, a sufficient level of AI literacy\". The amended text requires measures to support the development of AI literacy and states that no specific level has to be guaranteed."
+        },
+        {
+          "type": "table",
+          "caption": "Article 4 before and after Regulation (EU) 2026/1744",
+          "head": ["Point", "Original text (2024)", "Proposal (November 19, 2025)", "Adopted text (in force July 2026)"],
+          "rows": [
+            ["Who carries the duty", "Providers and deployers", "Shift the duty to the Commission and Member States to promote AI literacy", "Providers and deployers keep the duty (Article 4(1))"],
+            ["Standard", "Ensure, to their best extent, a sufficient level of AI literacy", "No organizational obligation proposed", "Take measures to support the development of AI literacy; no specific level guaranteed for any individual"],
+            ["Public support", "Not in Article 4", "Commission and Member States promote AI literacy", "Commission and Member States support providers and deployers, especially SMEs; Commission publishes practical examples (Article 4(2))"],
+            ["Common objectives", "Not in Article 4", "Not applicable", "The European Artificial Intelligence Board adopts recommendations, taking into account European competence frameworks (Article 4(3))"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The European Commission's [AI literacy questions and answers](https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers) confirm that the adopted text keeps AI literacy as an obligation for providers and deployers. Regulation (EU) 2026/1744 was signed on July 8, 2026, published in the Official Journal on July 24, 2026, and entered into force on the third day after publication, July 27, 2026. Readers who saw early commentary on the November 2025 proposal should note that the proposal's shift of the whole duty to public authorities was not adopted."
+        }
+      ]
+    },
+    {
+      "id": "regulation-vs-directive",
+      "heading": "Does the AI Act apply directly, or does each country transpose it?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The AI Act is an EU regulation, so it applies directly in all 27 Member States without national transposition. Article 113 states that it is \"binding in its entirety and directly applicable in all Member States\"."
+        },
+        {
+          "type": "p",
+          "text": "For readers outside the EU, the distinction matters. An EU **regulation** is law in every Member State from its application date, with identical text everywhere. An EU **directive** sets goals that each Member State must write into its own national law (transposition) by a deadline, so the detail differs by country. The AI Act is a regulation, but Member States still pass national laws on penalties and designate the authorities that enforce it, so enforcement practice can vary."
+        },
+        {
+          "type": "p",
+          "text": "The AI Act also reaches beyond the EU. It applies to providers placing AI systems on the EU market regardless of where they are established, and to deployers established or located in the EU."
+        }
+      ]
+    },
+    {
+      "id": "timeline",
+      "heading": "When did Article 4 start to apply, and when is it enforced?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Article 4 has applied since February 2, 2025, and national market surveillance authorities supervise and enforce it from August 2026. The dates below are taken from Article 113 of the AI Act, the Digital Omnibus and the Commission's questions and answers."
+        },
+        {
+          "type": "table",
+          "caption": "Key dates for AI literacy and related training duties",
+          "head": ["Date", "What happens"],
+          "rows": [
+            ["August 1, 2024", "AI Act enters into force"],
+            ["February 2, 2025", "Chapters I and II apply, including Article 4 (AI literacy) and the prohibited practices in Article 5"],
+            ["August 2, 2025", "Deadline for Member States to adopt national penalty rules, according to the Commission's questions and answers"],
+            ["July 27, 2026", "Regulation (EU) 2026/1744 enters into force (third day after its July 24 publication) and replaces Article 4"],
+            ["August 2026", "National market surveillance authorities begin supervising and enforcing Article 4"],
+            ["December 2, 2027", "High-risk rules in Chapter III, Sections 1 to 3 (including deployer duties in Article 26) apply to Annex III systems, as amended by the Digital Omnibus"],
+            ["August 2, 2028", "The same high-risk rules apply to AI systems covered by Annex I product legislation"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "penalties",
+      "heading": "What happens if an organization does not comply?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Penalties for Article 4 are set by each Member State, not by a fixed amount in the AI Act. The Commission states that national market surveillance authorities could impose penalties and other enforcement measures for infringements of Article 4, and that any sanction must be proportionate and based on the individual case."
+        },
+        {
+          "type": "p",
+          "text": "Article 99(1), as amended in 2026, says national rules may include administrative fines, warnings and non-monetary measures, and must take into account the interests of small and medium-sized enterprises. The AI Act itself does not create criminal offenses or a right to compensation, according to the Commission's questions and answers. In practice the main exposure is an authority asking what measures were taken, and the organization being unable to show any."
+        }
+      ]
+    },
+    {
+      "id": "what-counts-as-compliance",
+      "heading": "What does a reasonable AI literacy program look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A reasonable program is targeted by role and by risk, not a single generic course. The Commission suggests organizations consider a general understanding of AI, their role as provider or deployer, the risks of the AI systems they provide or use, and the existing knowledge and context of each group of staff, including legal and ethical aspects."
+        },
+        {
+          "type": "p",
+          "text": "The Commission also states that relying only on an AI system's instructions for use, or asking staff to read them, might be ineffective. It notes there is no one size fits all format, and that \"other persons\" can include a contractor, a service provider or a client acting on the organization's behalf. Where AI is used to produce learning material itself, see [how to govern AI generated learning content](/guides/how-to-govern-ai-generated-learning-content)."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: Article 4 considerations to learning outcomes to evidence",
+          "head": ["Article 4 consideration", "Example learning outcome", "Evidence to retain"],
+          "rows": [
+            ["Technical knowledge and experience of staff", "Staff can describe what the AI tools they use do and what they cannot do", "Role based needs assessment and short knowledge check results"],
+            ["Context the AI systems are used in", "Staff apply the organization's AI use policy to their own tasks, including what data may be entered", "Policy acknowledgment and scenario assessment results"],
+            ["Persons on whom the systems are used", "Staff can identify when an AI output affects customers or employees and when it needs human review", "Worked case exercises and supervisor sign off"],
+            ["Provider or deployer role", "Product teams can explain the transparency and documentation duties that apply to their role", "Training records mapped to each AI system in the AI inventory"],
+            ["High-risk deployment (Article 26(2))", "Assigned overseers can interpret outputs, spot anomalies and override or stop the system", "Competence assessment and authority assignment for each named overseer"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This mapping approach is covered in [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations). The distinction between attendance and demonstrated capability is explained in [completion tracking vs competency verification](/compare/completion-tracking-vs-competency-verification)."
+        }
+      ]
+    },
+    {
+      "id": "evidence",
+      "heading": "What records should an organization keep?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An internal record of training and other literacy initiatives is enough; no certificate is required. The Commission states: \"There is no need for a certificate. Organisations can keep an internal record of trainings and/or other guiding initiatives.\""
+        },
+        {
+          "type": "ul",
+          "items": [
+            "An inventory of AI systems in use, with the organization's role (provider or deployer) for each.",
+            "The target groups defined for AI literacy, and the reasoning for what each group needs.",
+            "Learning content, with version history, and the date each version was issued.",
+            "Completion and assessment records per person, including contractors acting on the organization's behalf.",
+            "For high-risk deployments, the names of people assigned to human oversight and evidence of their competence, training and authority."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A consistent [audit trail](/glossary/audit-trail) makes these records easy to produce if a market surveillance authority asks. The same structure supports [human in the loop](/glossary/human-in-the-loop) controls for AI assisted decisions."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models AI literacy as a set of role based concepts and assessment points linked to Article 4 and, for high-risk deployments, Article 26(2). Each learning item carries provenance back to the obligation, so the record of measures taken can be produced by role, by AI system and by date."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Article 4 apply to organizations that only use tools like chatbots?",
+      "a": "Yes, if the organization uses an AI system under its authority in a professional context, it is a deployer and Article 4 applies. The duty is proportionate: a team using a general purpose assistant for drafting needs less than a team using AI to assess customers, but some measures are still expected."
+    },
+    {
+      "q": "Is AI literacy training mandatory under the EU AI Act?",
+      "a": "The Act requires measures to support AI literacy, not a specific course. The Commission says no strict requirements or mandatory trainings are imposed, but also that relying only on instructions for use might be ineffective. In practice most organizations meet the duty with role based training plus policy and guidance."
+    },
+    {
+      "q": "Did the Digital Omnibus remove the AI literacy obligation for companies?",
+      "a": "No. The November 2025 proposal would have shifted the duty to the Commission and Member States, but the adopted Regulation (EU) 2026/1744 keeps the obligation on providers and deployers. What changed is the standard: organizations must support AI literacy but need not guarantee a specific level for any individual."
+    },
+    {
+      "q": "Does Article 4 apply to companies outside the EU?",
+      "a": "It can. The AI Act applies to providers that place AI systems on the EU market or put them into service in the EU, wherever they are established. A non-EU company deploying AI inside an EU subsidiary will also be covered through that subsidiary as a deployer."
+    },
+    {
+      "q": "Who enforces Article 4?",
+      "a": "National market surveillance authorities in each Member State, not the European Commission's AI Office. The AI Office and the European Artificial Intelligence Board support consistent application, and the Board adopts recommendations on AI literacy under Article 4(3)."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "title": "Regulation (EU) 2026/1744 amending Regulation (EU) 2024/1689 (Digital Omnibus on AI)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    },
+    {
+      "title": "AI Literacy: Questions and Answers",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers"
+    },
+    {
+      "title": "Digital Omnibus on AI Regulation Proposal",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/digital-omnibus-ai-regulation-proposal"
+    },
+    {
+      "title": "Living repository to foster learning and exchange on AI literacy",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/living-repository-foster-learning-and-exchange-ai-literacy"
+    }
+  ],
+  "related": [
+    "gdpr-staff-training-requirements",
+    "japan-ai-guidelines-for-business-training",
+    "how-to-govern-ai-generated-learning-content",
+    "how-to-use-ai-to-create-training-content-safely",
+    "human-in-the-loop",
+    "completion-tracking-vs-competency-verification"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 99,
+  "factCheck": [
+    {
+      "claim": "Original Article 4 required providers and deployers to take measures to ensure, to their best extent, a sufficient level of AI literacy of staff and other persons dealing with AI systems on their behalf",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "claim": "Article 113: Chapters I and II apply from 2 February 2025; the Regulation is binding in its entirety and directly applicable in all Member States",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "claim": "Article 3(56) definition of AI literacy; Article 26(2) deployers assign human oversight to natural persons with the necessary competence, training and authority",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "claim": "Regulation (EU) 2026/1744 of 8 July 2026, published OJ L 24.7.2026, replaced Article 4: take measures to support the development of AI literacy; no requirement to guarantee any specific level of AI literacy of any individual; Commission and Member States support (4(2)); Board recommendations (4(3)); enters into force on third day after publication",
+      "source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    },
+    {
+      "claim": "Regulation (EU) 2026/1744 amended Article 113 so Chapter III Sections 1 to 3 apply from 2 December 2027 (Annex III) and 2 August 2028 (Annex I); amended Article 99(1) to include fines, warnings and non-monetary measures and SME interests",
+      "source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    },
+    {
+      "claim": "Commission: Article 4 applies since 2 February 2025; national market surveillance authorities supervise and enforce from August 2026; Omnibus amendments entered into force mid-July 2026 and keep AI literacy an obligation for providers and deployers; no certificate needed; internal record suffices; other persons include contractor, service provider, client; November 19, 2025 proposal would have shifted the obligation to Member States and the Commission",
+      "source": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers"
+    },
+    {
+      "claim": "Digital Omnibus on AI proposal published November 19, 2025",
+      "source": "https://digital-strategy.ec.europa.eu/en/library/digital-omnibus-ai-regulation-proposal"
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "slug": "eu-whistleblower-directive-obligations",
+  "kind": "regulation",
+  "title": "What does the EU Whistleblower Directive require of organizations?",
+  "seoTitle": "EU Whistleblower Directive obligations",
+  "description": "What Directive (EU) 2019/1937 requires of employers: internal reporting channels, deadlines, confidentiality, anti-retaliation and supporting training.",
+  "shortAnswer": "The EU Whistleblower Directive (Directive (EU) 2019/1937) requires private sector legal entities with 50 or more workers, public sector entities (subject to optional national exemptions), and financial services entities regardless of size, to run confidential internal reporting channels. Reports must be acknowledged within seven days and followed up by an impartial person, with feedback within three months. Retaliation is prohibited. Each Member State applies these rules through its own transposing law.",
+  "keyTakeaways": [
+    "The Directive had to be transposed by December 17, 2021; private employers with 50 to 249 workers had until December 17, 2023 for internal channels.",
+    "Internal channels must protect the reporter's identity, acknowledge reports within seven days and give feedback within three months (Article 9).",
+    "Retaliation is prohibited in any form, including withholding of training (Article 19).",
+    "The Directive does not expressly require employers to train staff, but it requires clear information on reporting procedures, which recital 59 suggests can be built into ethics and integrity training.",
+    "Penalties are set nationally. In Portugal, for example, Law 93/2021 provides fines of up to EUR 250,000 for legal persons."
+  ],
+  "jurisdiction": "European Union (transposed into national law in each Member State)",
+  "regulator": "Competent authorities designated by each Member State under national transposing law; the European Commission monitors transposition",
+  "appliesTo": [
+    "Private sector legal entities with 50 or more workers",
+    "Public sector legal entities, subject to national exemptions for small municipalities",
+    "Entities in scope of EU financial services, anti-money laundering and transport safety acts listed in Parts I.B and II of the Annex, regardless of size",
+    "Workers, self-employed persons, shareholders, board members, volunteers, trainees and contractor staff who report breaches"
+  ],
+  "sections": [
+    {
+      "id": "regulation-vs-directive",
+      "heading": "Is the Whistleblower Directive law in every EU country, as at September 2026?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yes, but through national laws rather than the Directive itself. As at September 2026, every Member State has transposed the main provisions of [Directive (EU) 2019/1937](https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32019L1937), according to the European Commission's [transposition report of July 3, 2024](https://commission.europa.eu/topics/human-rights/your-fundamental-rights-eu/protection-whistleblowers_en), although the Commission found shortcomings in several key areas."
+        },
+        {
+          "type": "p",
+          "text": "For readers outside the EU: an EU **directive** sets minimum standards that each Member State must write into its own law by a deadline (transposition). Employers comply with the national law, not the Directive directly, and national laws can go further than the minimum. An EU **regulation**, such as the [GDPR](/regulations/gdpr-staff-training-requirements) or the [AI Act](/regulations/eu-ai-act-ai-literacy), applies directly with the same text everywhere. A group operating in several Member States therefore needs a common baseline plus country variations for thresholds, deadlines and anonymous reporting."
+        },
+        {
+          "type": "p",
+          "text": "The Directive entered into force on December 16, 2019. Article 26 set the transposition deadline at December 17, 2021, with a later deadline of December 17, 2023 for the internal channel duty of private employers with 50 to 249 workers. The Commission's report found that all Member States had transposed the main provisions, but that transposition needed improvement in areas such as material scope, conditions for protection and measures against retaliation, and it regretted the overall very late transposition."
+        }
+      ]
+    },
+    {
+      "id": "who-must-comply",
+      "heading": "Which organizations must set up internal reporting channels?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Private sector legal entities with 50 or more workers must establish internal reporting channels and follow-up procedures (Article 8(3)), and so must public sector entities, subject to limited national exemptions. The 50 worker threshold does not apply to entities within the scope of the EU acts in Parts I.B and II of the Annex, which cover financial services, prevention of money laundering and terrorist financing, and transport safety (Article 8(4))."
+        },
+        {
+          "type": "p",
+          "text": "Private entities with 50 to 249 workers may share resources for receiving and investigating reports, but each remains responsible for confidentiality, feedback and addressing the breach (Article 8(6)). Channels may be run by a designated person or department, or outsourced to a third party that meets the same safeguards (Article 8(5))."
+        }
+      ]
+    },
+    {
+      "id": "internal-channel-requirements",
+      "heading": "What must an internal reporting procedure include?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Article 9(1) sets the minimum content of the procedure: a secure, confidential channel; acknowledgment within seven days; an impartial designated person or department; diligent follow-up; feedback within three months; and clear information on external reporting to competent authorities. Reporting must be possible in writing, orally, or both, and on request through a physical meeting (Article 9(2))."
+        },
+        {
+          "type": "table",
+          "caption": "Article 9 requirements and what staff need to know or do",
+          "head": [
+            "Requirement",
+            "Source",
+            "Who must be capable",
+            "Practical capability"
+          ],
+          "rows": [
+            [
+              "Secure channel protecting identity of reporter and third parties",
+              "Article 9(1)(a); Article 16",
+              "Channel operators and IT",
+              "Restrict access to authorized staff; avoid identity leaks through metadata or forwarding"
+            ],
+            [
+              "Acknowledge receipt within seven days",
+              "Article 9(1)(b)",
+              "Designated report handlers",
+              "Track deadlines from the date of receipt"
+            ],
+            [
+              "Impartial person or department for follow-up",
+              "Article 9(1)(c)",
+              "Designated report handlers",
+              "Recognize and declare conflicts of interest; request further information from the reporter"
+            ],
+            [
+              "Diligent follow-up, including anonymous reports where national law provides",
+              "Article 9(1)(d) and (e)",
+              "Investigators",
+              "Plan and document a proportionate investigation"
+            ],
+            [
+              "Feedback within three months",
+              "Article 9(1)(f)",
+              "Designated report handlers",
+              "Give meaningful feedback without compromising the investigation"
+            ],
+            [
+              "Clear information on external reporting",
+              "Article 9(1)(g); Article 7(3)",
+              "All workers",
+              "Know that internal and external channels exist and how to use them"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Article 18 adds record keeping: every report must be recorded in line with confidentiality rules and kept no longer than necessary and proportionate. Oral reports may be documented by recording, transcript or accurate minutes, which the reporting person must be offered the chance to check, rectify and agree."
+        }
+      ]
+    },
+    {
+      "id": "training-expectations",
+      "heading": "Does the Directive require whistleblowing training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Not expressly for employers. The only explicit training duty is for staff of competent authorities, who \"shall receive specific training for the purposes of handling reports\" (Article 12(5)). For private and public sector employers, training is the practical way to meet duties that the Directive does impose."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Information duty.** Article 9(1)(g) requires clear and easily accessible information on reporting procedures. Recital 59 says such information could be posted visibly, published on the entity's website, and \"included in courses and training seminars on ethics and integrity\".",
+            "**Confidentiality.** Article 16 restricts the reporter's identity to authorized staff competent to receive or follow up reports. Handlers and investigators need to know how to protect it, and managers need to know not to seek it.",
+            "**No retaliation.** Article 19 lists prohibited retaliation, including dismissal, demotion, negative performance assessments and \"withholding of training\". Managers are the people most likely to take such actions, so they are the priority audience.",
+            "**Penalties for hindering reports.** Article 23 requires national penalties for anyone who hinders or attempts to hinder reporting, retaliates, brings vexatious proceedings, or breaches confidentiality."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Some national laws and sector rules go further than the Directive. Check the transposing law in each country of operation, and for Australian operations compare the separate regime described in [whistleblower policy training requirements](/regulations/whistleblower-policy-training-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "training-design",
+      "heading": "How should whistleblowing training be targeted?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Target three audiences with different outcomes: all workers, managers, and designated report handlers. The mapping below is illustrative and is built from the Directive's articles; national law may add requirements."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: Directive obligation to learning outcome to assessment evidence",
+          "head": [
+            "Audience",
+            "Obligation served",
+            "Learning outcome",
+            "Assessment evidence"
+          ],
+          "rows": [
+            [
+              "All workers, contractors with channel access",
+              "Articles 7(3) and 9(1)(g)",
+              "Knows what can be reported, how to report internally and externally, and that retaliation is prohibited",
+              "Short knowledge check; acknowledgment of the reporting policy"
+            ],
+            [
+              "People managers",
+              "Articles 16, 19 and 23",
+              "Responds to a disclosure without seeking the reporter's identity and avoids any action that could be retaliation",
+              "Scenario assessment on handling a disclosure and on later performance decisions"
+            ],
+            [
+              "Designated report handlers",
+              "Articles 9, 16 and 18",
+              "Acknowledges within seven days, assesses conflicts, protects identity, records reports correctly and gives feedback within three months",
+              "Observed case walk-through or file review against a checklist"
+            ],
+            [
+              "Investigators",
+              "Article 9(1)(d)",
+              "Conducts and documents proportionate follow-up",
+              "Review of a completed or simulated investigation file"
+            ],
+            [
+              "Board and senior leaders",
+              "Articles 8 and 23",
+              "Understands the organization's duties, the penalty exposure and the metrics that show the channel works",
+              "Briefing record and minutes"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Map each row to your [compliance obligations register](/glossary/compliance-obligations-register) and treat the handler role as one that needs [verification of competency](/glossary/verification-of-competency), not just a completion record. The general method is in [how to design a compliance training program](/guides/how-to-design-a-compliance-training-program)."
+        }
+      ]
+    },
+    {
+      "id": "penalties-portugal-example",
+      "heading": "What penalties apply, for example in Portugal?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Penalties are set by each Member State under Article 23, so amounts differ by country. Portugal is an example: [Law 93/2021](https://files.diariodarepublica.pt/1s/2021/12/24400/0000300015.pdf) of December 20, 2021 transposes the Directive and entered into force 180 days after publication."
+        },
+        {
+          "type": "p",
+          "text": "Under Article 8 of Law 93/2021, legal persons employing 50 or more workers, and entities within the Directive's financial services and related acts regardless of size, must have internal reporting channels; the rule also applies to Portuguese branches of foreign legal persons. Article 27 sets fines for the more serious administrative offenses of EUR 1,000 to EUR 25,000 for natural persons and EUR 10,000 to EUR 250,000 for legal persons. Under Article 29, the Mecanismo Nacional Anticorrupção (MENAC) processes these offenses and applies the fines, except where a sectoral regime gives that power to another authority. Portugal's related anti-corruption duties are covered in [Portugal's anti-corruption regime (RGPC)](/regulations/portugal-anti-corruption-regime-training)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry structures whistleblowing obligations as a shared EU baseline, from Directive (EU) 2019/1937, with country layers for each transposing law. Each audience's learning outcomes and assessment points link to the article they serve, so a change in one country's law shows exactly which content and which learners are affected."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do companies with fewer than 50 workers need a whistleblowing channel?",
+      "a": "Under the Directive, not usually, unless they fall within the financial services, anti-money laundering or transport safety acts in Parts I.B and II of the Annex, where the threshold does not apply. Member States can also require smaller entities to set up channels after a risk assessment, so check national law."
+    },
+    {
+      "q": "Must organizations accept anonymous reports?",
+      "a": "The Directive leaves this to national law. Article 9(1)(e) requires diligent follow-up of anonymous reports where national law provides for it, and anonymous reporters who are later identified and suffer retaliation are protected."
+    },
+    {
+      "q": "Who is protected by the Directive?",
+      "a": "Article 4 covers workers, self-employed persons, shareholders, members of administrative, management or supervisory bodies, volunteers, paid or unpaid trainees, and people working under contractors, subcontractors and suppliers. It also covers people whose work relationship has ended or has not yet begun."
+    },
+    {
+      "q": "Can a group company use one channel for all its subsidiaries?",
+      "a": "The Directive allows private entities with 50 to 249 workers to share resources for receiving and investigating reports (Article 8(6)), with each entity keeping its own duties on confidentiality, feedback and follow-up. Whether larger subsidiaries can rely on a central group channel depends on the national transposing law, so take local advice."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Directive (EU) 2019/1937 on the protection of persons who report breaches of Union law",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32019L1937"
+    },
+    {
+      "title": "Protection for whistleblowers",
+      "publisher": "European Commission, Directorate-General for Justice and Consumers",
+      "url": "https://commission.europa.eu/topics/human-rights/your-fundamental-rights-eu/protection-whistleblowers_en"
+    },
+    {
+      "title": "Lei n.º 93/2021, de 20 de dezembro: regime geral de proteção de denunciantes de infrações",
+      "publisher": "Diário da República (Portugal)",
+      "url": "https://files.diariodarepublica.pt/1s/2021/12/24400/0000300015.pdf"
+    }
+  ],
+  "related": [
+    "portugal-anti-corruption-regime-training",
+    "whistleblower-policy-training-requirements",
+    "gdpr-staff-training-requirements",
+    "eu-amlr-training-requirements",
+    "how-to-design-a-compliance-training-program",
+    "verification-of-competency"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 99,
+  "factCheck": [
+    {
+      "claim": "Article 8(3): internal channels for private sector legal entities with 50 or more workers; 8(4) threshold does not apply to entities in scope of Annex Parts I.B and II; 8(5) third party operators; 8(6) 50 to 249 workers may share resources",
+      "source": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32019L1937"
+    },
+    {
+      "claim": "Article 9(1): acknowledgment within seven days; impartial person or department; feedback within three months; clear information on external reporting; 9(2) written or oral reporting, physical meeting on request",
+      "source": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32019L1937"
+    },
+    {
+      "claim": "Article 19(d) lists withholding of training as retaliation; Article 23 penalties for hindering, retaliation, vexatious proceedings, breach of confidentiality; Article 12(5) competent authority staff receive specific training; recital 59 information could be included in courses and training seminars on ethics and integrity",
+      "source": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32019L1937"
+    },
+    {
+      "claim": "Article 26: transposition by 17 December 2021; 17 December 2023 for Article 8(3) internal channels of private entities with 50 to 249 workers; Article 18 record keeping",
+      "source": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32019L1937"
+    },
+    {
+      "claim": "Directive entered into force 16 December 2019; Commission report of 3 July 2024 found all Member States transposed main provisions but improvements needed on material scope, conditions for protection and measures against retaliation; very late transposition",
+      "source": "https://commission.europa.eu/topics/human-rights/your-fundamental-rights-eu/protection-whistleblowers_en"
+    },
+    {
+      "claim": "Portugal Law 93/2021 of 20 December 2021 transposes Directive 2019/1937; Article 8 channels for legal persons with 50 or more workers and Annex Part I.B and II entities, including branches of foreign legal persons; Article 27(2) fines EUR 1,000 to 25,000 (natural) or EUR 10,000 to 250,000 (legal persons); MENAC processes offenses unless a sectoral authority is competent (Article 29); in force 180 days after publication (Article 31)",
+      "source": "https://files.diariodarepublica.pt/1s/2021/12/24400/0000300015.pdf"
+    },
+    {
+      "claim": "Article 8(9): public sector entities covered; Member States may exempt municipalities with fewer than 10,000 inhabitants or fewer than 50 workers; Article 8(7) Member States may require smaller private entities after risk assessment; Article 6(2)-(3) anonymous reporting left to Member States, identified anonymous reporters protected; Article 4 personal scope",
+      "source": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32019L1937"
+    }
+  ]
+}

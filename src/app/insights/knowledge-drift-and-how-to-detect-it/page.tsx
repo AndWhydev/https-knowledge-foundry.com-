@@ -57,7 +57,7 @@ export default function Page() {
       <EditorialP>
         Libraries do not fail suddenly. They accumulate small divergences from the sources and
         the practice they once tracked. Each divergence, on its own, is negligible. In
-        aggregate, over time, they produce a library that no longer says what the organisation
+        aggregate, over time, they produce a library that no longer says what the organization
         would want it to say, without anyone having authored the change.
       </EditorialP>
 
@@ -68,7 +68,7 @@ export default function Page() {
       <EditorialH2 id="sec-2">Three forms drift takes</EditorialH2>
       <EditorialP>
         Not one phenomenon. Three. Each has a different source, a different pace, and a
-        different signature. All three are invisible in a library organised as content.
+        different signature. All three are invisible in a library organized as content.
       </EditorialP>
       <EditorialList items={[
         <><strong>Source drift.</strong> The regulation, standard, or policy changes. If the library has no link back to the source, the drift is invisible until a human notices, which is usually late.</>,
@@ -76,10 +76,10 @@ export default function Page() {
         <><strong>Practice drift.</strong> Operational practice quietly diverges from documented procedure. Trainers, drawing on practice, teach what people do, not what the procedure says. The gap widens with each cohort.</>,
       ]} />
 
-      <EditorialH2 id="sec-3">Why libraries organised as content cannot see it</EditorialH2>
+      <EditorialH2 id="sec-3">Why libraries organized as content cannot see it</EditorialH2>
       <EditorialP>
         Structure governs detection. All three forms of drift are invisible in a library
-        organised as content, because there is nothing to compare a module against. The source
+        organized as content, because there is nothing to compare a module against. The source
         it once satisfied has no explicit link to it. A human review can find drift, but only by
         reading the library end to end against the sources end to end, and only if the reviewer
         is competent to spot the divergences. This kind of review is rare, expensive, and by the
@@ -90,9 +90,9 @@ export default function Page() {
       <EditorialAside title="On the economics of manual review">
         <p>
           A full library reread against source is not a light exercise. For a mature enterprise
-          library, it is a programme lasting many quarters with specialist reviewers. Most L&D
+          library, it is a program lasting many quarters with specialist reviewers. Most L&D
           functions cannot fund it on any regular cadence, which is why, in practice, drift is
-          discovered by auditors rather than by the organisations that own the libraries.
+          discovered by auditors rather than by the organizations that own the libraries.
         </p>
       </EditorialAside>
 

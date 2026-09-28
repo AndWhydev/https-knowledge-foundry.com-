@@ -126,13 +126,13 @@ export function CaseStudy({
         <Container>
           <div className="max-w-[900px] mx-auto text-center">
             <div className="text-[11px] font-medium uppercase tracking-[0.18em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)] mb-5">
-              For your organisation
+              For your organization
             </div>
             <h2 className="text-[32px] md:text-[42px] leading-[1.1] font-[family-name:var(--font-display)] font-semibold tracking-[-0.028em] text-[color:var(--color-ink)] max-w-[24ch] mx-auto">
               Bring the subject. Leave with the framework.
             </h2>
             <p className="mt-6 text-[16.5px] leading-[1.6] text-[color:var(--color-ink-muted)] max-w-[52ch] mx-auto">
-              A 45-minute working session with our team on a real subject or programme you own.
+              A 45-minute working session with our team on a real subject or program you own.
               You keep the framework the Foundry produces.
             </p>
             <div className="mt-9 inline-flex">

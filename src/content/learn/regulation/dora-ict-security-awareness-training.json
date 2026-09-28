@@ -1,0 +1,270 @@
+{
+  "slug": "dora-ict-security-awareness-training",
+  "kind": "regulation",
+  "title": "What does DORA require for ICT security awareness and training?",
+  "seoTitle": "DORA ICT security awareness training",
+  "description": "What DORA Articles 5(4) and 13(6) require for ICT security awareness and resilience training for staff, senior management and the management body.",
+  "shortAnswer": "The Digital Operational Resilience Act (DORA, Regulation (EU) 2022/2554) requires EU financial entities to run ICT security awareness programs and digital operational resilience training as compulsory modules for all employees and senior management (Article 13(6)). Members of the management body must keep their ICT risk knowledge current, including through regular specific training (Article 5(4)). DORA has applied since January 17, 2025.",
+  "keyTakeaways": [
+    "Article 13(6): ICT security awareness programs and digital operational resilience training are compulsory modules for all employees and senior management, with complexity matched to each function.",
+    "Article 5(4): management body members must keep sufficient knowledge and skills to understand and assess ICT risk, including by following specific training on a regular basis.",
+    "Article 5(2)(g): the management body allocates and periodically reviews the budget for awareness programs, resilience training, and ICT skills for all staff.",
+    "ICT third-party service providers are brought into training where appropriate, with the conditions set in the contract under Article 30(2)(i).",
+    "DORA is a regulation, so it applies directly in every Member State from January 17, 2025, without national transposition."
+  ],
+  "jurisdiction": "European Union (Regulation (EU) 2022/2554, directly applicable)",
+  "regulator": "National competent authorities for each type of financial entity (in Portugal, the Banco de Portugal, CMVM, and ASF), with the European Supervisory Authorities (EBA, EIOPA, ESMA) coordinating at EU level",
+  "appliesTo": [
+    "Twenty types of EU financial entity listed in Article 2(1), including credit institutions, payment and e-money institutions, investment firms, crypto-asset service providers, insurers and insurance intermediaries, fund managers, and crowdfunding service providers",
+    "Members of the management body and senior management of those entities",
+    "All employees of those entities",
+    "ICT third-party service providers, through contractual arrangements"
+  ],
+  "sections": [
+    {
+      "id": "what-dora-requires",
+      "heading": "What training does DORA require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "DORA requires compulsory ICT security awareness and digital operational resilience training for every employee and for senior management, plus regular specific training for members of the management body. As at September 2026 these obligations have applied for more than 18 months, since Article 64 of [Regulation (EU) 2022/2554](https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng) set January 17, 2025 as the application date."
+        },
+        {
+          "type": "p",
+          "text": "Article 13(6) is the core staff obligation: \"Financial entities shall develop ICT security awareness programmes and digital operational resilience training as compulsory modules in their staff training schemes. Those programmes and training shall be applicable to all employees and to senior management staff, and shall have a level of complexity commensurate to the remit of their functions.\""
+        },
+        {
+          "type": "p",
+          "text": "The phrase \"compulsory modules\" means DORA training is [mandatory training](/glossary/mandatory-training) inside the entity's existing training scheme, not an optional awareness campaign. The phrase \"commensurate to the remit of their functions\" means one generic course for everyone is unlikely to be enough: a developer, a payments operator, and a board member face different ICT risks."
+        }
+      ]
+    },
+    {
+      "id": "management-body",
+      "heading": "What must the management body know and do?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The management body bears ultimate responsibility for managing the entity's ICT risk (Article 5(2)(a)), so DORA requires its members to keep their own knowledge current. Article 5(4) states that members \"shall actively keep up to date with sufficient knowledge and skills to understand and assess ICT risk and its impact on the operations of the financial entity, including by following specific training on a regular basis, commensurate to the ICT risk being managed.\""
+        },
+        {
+          "type": "p",
+          "text": "Article 5(2)(g) adds a resourcing duty: the management body must allocate and periodically review the budget for digital operational resilience, including relevant ICT security awareness programs, digital operational resilience training, and ICT skills for all staff. Article 13(5) requires senior ICT staff to report at least yearly to the management body on lessons from testing and incidents, which gives directors a regular input for their own learning."
+        }
+      ]
+    },
+    {
+      "id": "third-party-providers",
+      "heading": "Do ICT third-party service providers need DORA training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Where appropriate, yes. Article 13(6) says financial entities shall also include ICT third-party service providers in their relevant training schemes, and Article 30(2)(i) requires contracts for ICT services to set out the conditions for providers' participation in the entity's awareness programs and resilience training."
+        },
+        {
+          "type": "p",
+          "text": "The regulatory technical standards in [Commission Delegated Regulation (EU) 2024/1774](https://eur-lex.europa.eu/eli/reg_del/2024/1774/oj/eng) reinforce this. Article 19 requires the human resources policy to require staff of the financial entity, and of ICT third-party service providers using or accessing its ICT assets, to be informed about and adhere to the entity's ICT security policies, procedures, and protocols, and to be aware of reporting channels for anomalous behavior, including channels established under the [EU Whistleblower Directive](/regulations/eu-whistleblower-directive-obligations) where applicable."
+        }
+      ]
+    },
+    {
+      "id": "regulation-not-directive",
+      "heading": "Why does DORA apply the same way in every EU country?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "DORA is an EU regulation, which Article 64 describes as \"binding in its entirety and directly applicable in all Member States.\" A directive, such as NIS2, sets goals that each Member State must write into national law (transposition), so the detail can differ between countries. A regulation needs no transposition, which is why a bank in Lisbon and one in Frankfurt face the same Article 13(6) text."
+        },
+        {
+          "type": "p",
+          "text": "National rules still matter for supervision and penalties, which are set and enforced by national competent authorities. In Portugal, the [Centro Nacional de Cibersegurança](https://www.cncs.gov.pt/pt/regime-juridico/) lists the Banco de Portugal, the Comissão do Mercado de Valores Mobiliários (CMVM), and the Autoridade de Supervisão de Seguros e Fundos de Pensões (ASF) as the authorities for digital operational resilience in the financial sector. NIS2 recital 28 treats DORA as the sector specific act for financial entities, so DORA's training rules take precedence over the equivalent NIS2 provisions; see [NIS2 management body training](/regulations/nis2-management-body-training)."
+        }
+      ]
+    },
+    {
+      "id": "simplified-framework",
+      "heading": "Do smaller financial entities have lighter training rules?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Entities under the simplified ICT risk management framework in Article 16, such as small and non-interconnected investment firms and certain exempted payment institutions, are not subject to Articles 5 to 15, but they still must develop ICT security awareness programs and resilience training according to their needs and ICT risk profile (Article 16(1)(h))."
+        },
+        {
+          "type": "p",
+          "text": "Article 28(2)(e) of Delegated Regulation (EU) 2024/1774 adds that the management body of these entities allocates and reviews, at least once a year, the budget for resources including awareness programs, resilience training, and ICT skills for all staff."
+        }
+      ]
+    },
+    {
+      "id": "evidence-for-supervisors",
+      "heading": "How do you show a supervisor that DORA training is adequate?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A supervisor will look for a documented link between each DORA obligation, the population it covers, the training delivered, and evidence that people can apply it. The table below is an illustrative mapping, not a regulatory template."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: DORA obligation to learning outcome to assessment evidence",
+          "head": [
+            "DORA provision",
+            "Population",
+            "Learning outcome",
+            "Assessment evidence"
+          ],
+          "rows": [
+            [
+              "Article 5(4)",
+              "Management body members",
+              "Can assess ICT risk tolerance, the resilience strategy, and incident impact on operations",
+              "Individual training log, scenario exercise outputs, board minutes showing informed challenge"
+            ],
+            [
+              "Article 5(2)(g)",
+              "Management body",
+              "Allocates budget to awareness, resilience training, and ICT skills",
+              "Approved budget and periodic review record"
+            ],
+            [
+              "Article 13(6)",
+              "All employees and senior management",
+              "Recognize and report ICT threats and follow ICT security policies relevant to their role",
+              "Role based module completion, knowledge check scores, reporting behavior in simulations"
+            ],
+            [
+              "Article 13(6) and 30(2)(i)",
+              "ICT third-party service providers",
+              "Know the entity's ICT security requirements and escalation routes",
+              "Contract clause, attendance or equivalent training attestation"
+            ],
+            [
+              "RTS Article 19",
+              "Staff and provider staff accessing ICT assets",
+              "Know ICT security policies and reporting channels for anomalous behavior",
+              "Policy acknowledgement, onboarding records, periodic refresh"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Completion data alone rarely shows that training is commensurate to function, which is the distinction explained in [completion tracking vs competency verification](/compare/completion-tracking-vs-competency-verification). Refresh timing can follow the approach in [setting mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles), triggered also by post incident reviews under Article 13."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry represents DORA provisions, ICT roles, and the competencies each role needs as linked objects with assessment points, so each module traces to Article 5, 13, or 16 and to the population it covers. When the entity's ICT policies or the regulatory technical standards change, the affected modules and learners can be identified from those links."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does DORA set a training frequency?",
+      "a": "No fixed frequency is set for staff training. Article 5(4) requires management body members to follow specific training on a regular basis, and Article 13 ties improvement to lessons from testing and incidents. Most entities set an annual cycle with extra updates after major incidents or policy changes, and document why that cycle fits their risk."
+    },
+    {
+      "q": "Does DORA apply to financial entities outside the EU?",
+      "a": "DORA applies to the financial entities listed in Article 2(1), which are entities authorized or registered under EU financial services law. A group headquartered outside the EU is affected through its EU authorized subsidiaries, and non EU ICT providers are affected through contracts with EU financial entities."
+    },
+    {
+      "q": "Is phishing simulation required by DORA?",
+      "a": "DORA does not name phishing simulation. It requires compulsory awareness programs and resilience training commensurate to each function. Simulations are one common way to evidence that awareness works in practice, alongside knowledge checks and incident reporting data."
+    },
+    {
+      "q": "Are senior management and the management body treated differently under DORA?",
+      "a": "Yes. Senior management staff fall under Article 13(6) with all employees, receiving compulsory awareness and resilience training scaled to their functions. Members of the management body have an additional personal duty under Article 5(4) to keep sufficient knowledge and skills to understand and assess ICT risk, including through regular specific training."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Regulation (EU) 2022/2554 on digital operational resilience for the financial sector (DORA)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng"
+    },
+    {
+      "title": "Commission Delegated Regulation (EU) 2024/1774 (RTS on ICT risk management tools, methods, processes and policies)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg_del/2024/1774/oj/eng"
+    },
+    {
+      "title": "Directive (EU) 2022/2555 (NIS 2 Directive)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+    },
+    {
+      "title": "Digital Operational Resilience Act (DORA)",
+      "publisher": "European Insurance and Occupational Pensions Authority (EIOPA)",
+      "url": "https://www.eiopa.europa.eu/digital-operational-resilience-act-dora_en"
+    },
+    {
+      "title": "Operational resilience",
+      "publisher": "European Banking Authority (EBA)",
+      "url": "https://www.eba.europa.eu/regulation-and-policy/operational-resilience"
+    },
+    {
+      "title": "Regime Jurídico da Cibersegurança",
+      "publisher": "Centro Nacional de Cibersegurança (CNCS)",
+      "url": "https://www.cncs.gov.pt/pt/regime-juridico/"
+    }
+  ],
+  "related": [
+    "nis2-management-body-training",
+    "eu-amlr-training-requirements",
+    "eu-whistleblower-directive-obligations",
+    "iso-27001-awareness-training-requirements",
+    "how-to-set-mandatory-training-refresh-cycles",
+    "completion-tracking-vs-competency-verification"
+  ],
+  "productLinks": [
+    {
+      "label": "Financial services",
+      "href": "/industries/financial-services"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 99,
+  "factCheck": [
+    {
+      "claim": "Article 13(6) DORA: compulsory modules for all employees and senior management, complexity commensurate to remit; include ICT third-party providers where appropriate per Article 30(2)(i) (verbatim)",
+      "source": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng"
+    },
+    {
+      "claim": "Article 5(4) DORA: management body members keep up to date including by following specific training on a regular basis (verbatim); Article 5(2)(a) ultimate responsibility; 5(2)(g) budget for awareness, training, ICT skills",
+      "source": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng"
+    },
+    {
+      "claim": "Article 64 DORA: applies from 17 January 2025; binding in its entirety and directly applicable in all Member States",
+      "source": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng"
+    },
+    {
+      "claim": "Article 2(1) points (a) to (t) list twenty financial entity types; point (u) ICT third-party service providers; Article 13(5) senior ICT staff report at least yearly; Article 16(1)(h) simplified framework training; Article 30(2)(i) contract clause",
+      "source": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng"
+    },
+    {
+      "claim": "Delegated Regulation 2024/1774 Article 19 HR policy: staff and ICT TPP staff informed of ICT security policies and aware of reporting channels incl. Directive (EU) 2019/1937; Article 28(2)(e) budget reviewed at least once a year for simplified entities",
+      "source": "https://eur-lex.europa.eu/eli/reg_del/2024/1774/oj/eng"
+    },
+    {
+      "claim": "NIS2 recital 28: DORA is a sector-specific Union legal act in relation to NIS2 for financial entities",
+      "source": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+    },
+    {
+      "claim": "EIOPA: DORA entered into application on 17 Jan 2025",
+      "source": "https://www.eiopa.europa.eu/digital-operational-resilience-act-dora_en"
+    },
+    {
+      "claim": "CNCS lists Banco de Portugal, CMVM and ASF as authorities for digital operational resilience of the financial sector",
+      "source": "https://www.cncs.gov.pt/pt/regime-juridico/"
+    }
+  ]
+}

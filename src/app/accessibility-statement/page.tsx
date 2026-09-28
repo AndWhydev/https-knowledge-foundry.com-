@@ -56,9 +56,9 @@ export default function AccessibilityStatementPage() {
                 rather than in a blanket claim here.
               </p>
               <p>
-                Accessibility is an ongoing programme, not a one-off audit.
+                Accessibility is an ongoing program, not a one-off audit.
                 The commitment applies to new work as it ships and to a
-                rolling remediation programme against existing surfaces.
+                rolling remediation program against existing surfaces.
               </p>
             </section>
 
@@ -67,23 +67,23 @@ export default function AccessibilityStatementPage() {
               <p>This statement covers:</p>
               <ul>
                 <li>the public website at {site.url};</li>
-                <li>the Studio and Console interfaces used by customers to build and govern programmes;</li>
-                <li>programme content delivered through Knowledge Foundry to end learners.</li>
+                <li>the Studio and Console interfaces used by customers to build and govern programs;</li>
+                <li>program content delivered through Knowledge Foundry to end learners.</li>
               </ul>
               <p>
-                Customer-authored content displayed within a programme
+                Customer-authored content displayed within a program
                 inherits the platform&rsquo;s accessible presentation shell,
                 but the content itself remains the responsibility of the
                 customer as the author. The platform provides authoring
                 affordances (image alternative text prompts, heading
-                structure, semantic block types, colour-contrast guardrails)
+                structure, semantic block types, color contrast guardrails)
                 to support customer conformance.
               </p>
             </section>
 
             <section>
               <h2>3. Testing methodology</h2>
-              <p>Our accessibility programme combines the following methods:</p>
+              <p>Our accessibility program combines the following methods:</p>
               <ul>
                 <li>
                   <strong>Automated checks in continuous integration.</strong>{" "}
@@ -108,7 +108,7 @@ export default function AccessibilityStatementPage() {
                 </li>
                 <li>
                   <strong>Customer and end-user feedback.</strong> Issues
-                  raised by customers, authorised users, or the public are
+                  raised by customers, authorized users, or the public are
                   triaged against the same defect workflow as security and
                   reliability issues.
                 </li>
@@ -131,7 +131,7 @@ export default function AccessibilityStatementPage() {
                   landmark structure.
                 </li>
                 <li>
-                  Complex data visualisations are provided with structured
+                  Complex data visualizations are provided with structured
                   text alternatives, but some interactive tooltips do not yet
                   meet full keyboard equivalence. A keyboard-accessible
                   fallback is exposed in each case.

@@ -29,12 +29,12 @@ const industries = [
   {
     icon: <Banknote className="h-5 w-5" />,
     title: "Financial services",
-    desc: "APRA CPS 234, ASIC RG146, licensing regimes, and product knowledge for regulated roles. Programme evidence structured against the standard, not adjacent to it.",
+    desc: "Prudential, conduct, and licensing obligations (SEC and FINRA, CBUAE and DFSA, the Japan FSA, DORA, APRA) and product knowledge for regulated roles. Program evidence structured against the standard, not adjacent to it.",
   },
   {
     icon: <HeartPulse className="h-5 w-5" />,
     title: "Healthcare & life sciences",
-    desc: "Clinical governance, TGA advertising and product information rules, credentialing, and AHPRA CPD. Mapped to instruction and verified in one architecture.",
+    desc: "Hospital accreditation standards, credentialing, CPD for licensed practitioners, and promotional rules for medicines and devices. Mapped to instruction and verified in one architecture.",
   },
   {
     icon: <Factory className="h-5 w-5" />,
@@ -43,8 +43,8 @@ const industries = [
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
-    title: "Government & defence",
-    desc: "Cleared workforce enablement, deployment considerations aligned to IRAP, and auditable evidence for training that must survive external scrutiny.",
+    title: "Government & defense",
+    desc: "Cleared workforce enablement, alignment to NIST, NIS2, and national security frameworks, and auditable evidence for training that must survive external scrutiny.",
   },
   {
     icon: <Briefcase className="h-5 w-5" />,
@@ -54,7 +54,7 @@ const industries = [
   {
     icon: <GraduationCap className="h-5 w-5" />,
     title: "Higher education",
-    desc: "Course architecture aligned to TEQSA, outcome mapping, and defensible accreditation evidence, with the framework as the reviewable artefact.",
+    desc: "Course architecture aligned to institutional quality standards, outcome mapping, and defensible accreditation evidence, with the framework as the reviewable artifact.",
   },
 ];
 
@@ -67,7 +67,7 @@ const shared = [
   {
     icon: <FileCheck2 className="h-5 w-5" />,
     title: "Evidence pack export",
-    desc: "For any audit, review, or regulator engagement, the platform exports a coherent evidence pack tied to specific individuals, cohorts, or programmes.",
+    desc: "For any audit, review, or regulator engagement, the platform exports a coherent evidence pack tied to specific individuals, cohorts, or programs.",
   },
   {
     icon: <Users className="h-5 w-5" />,
@@ -89,7 +89,7 @@ const steps = [
   },
   {
     n: "03",
-    title: "Produce the programme",
+    title: "Produce the program",
     desc: "Instruction, assessment, and verification are generated to fit the framework. Each element traces to a specific requirement in the source.",
   },
   {
@@ -106,15 +106,15 @@ const faq = [
   },
   {
     q: "How do you handle regulatory change specific to a sector?",
-    a: "When source documents update (an APRA prudential standard, a TGA guidance, an ISO revision, a TEQSA threshold change) the system parses them again and diffs against the existing framework. Affected obligations, controls, and modules are surfaced explicitly so remediation is targeted, not wholesale.",
+    a: "When source documents update (a revised prudential standard, updated FDA guidance, an ISO revision, a change to accreditation standards) the system parses them again and diffs against the existing framework. Affected obligations, controls, and modules are surfaced explicitly so remediation is targeted, not wholesale.",
   },
   {
     q: "Can one framework carry multiple regulatory regimes?",
-    a: "Yes. Where an organisation operates under overlapping regimes (a bank regulated by APRA and subject to ASIC obligations, or a healthcare provider subject to TGA and AHPRA) the framework can carry both, surface conflicts, and produce programmes appropriate to role without duplicating the underlying knowledge.",
+    a: "Yes. Where an organization operates under overlapping regimes (a bank under both prudential and conduct supervision, or a healthcare provider subject to both medicines regulation and practitioner licensing) the framework can carry both, surface conflicts, and produce programs appropriate to role without duplicating the underlying knowledge.",
   },
   {
     q: "Does the platform replace our internal compliance, clinical governance, or accreditation function?",
-    a: "No. Those functions own the risk posture, the framework, and the sign off. What changes is what they spend time on: structural judgement and edge cases, not authoring instructional material that summarises standards they already know.",
+    a: "No. Those functions own the risk posture, the framework, and the sign off. What changes is what they spend time on: structural judgment and edge cases, not authoring instructional material that summarizes standards they already know.",
   },
   {
     q: "Which industry would you recommend we start with if we sit across several?",
@@ -133,7 +133,7 @@ export default function IndustriesIndexPage() {
             Regulated, evidenced, <span className="text-[color:var(--color-forge)]">ready for audit</span> in your sector.
           </>
         }
-        lede="Six industry contexts. One architecture. Each programme carries provenance to the regulatory clause, standard, or accreditation criterion it exists to serve, and the evidence exports as a file, not a promise."
+        lede="Six industry contexts. One architecture. Each program carries provenance to the regulatory clause, standard, or accreditation criterion it exists to serve, and the evidence exports as a file, not a promise."
         secondaryCta={{ label: "See the platform", href: "/platform" }}
         visual={<HeroLattice className="w-full aspect-square max-w-[480px] mx-auto" />}
       />
@@ -143,14 +143,14 @@ export default function IndustriesIndexPage() {
           Enterprise training in regulated sectors fails for the same reasons across each
           industry. Content is written before structure is defined, coverage is assumed rather
           than mapped, and evidence is manufactured after the fact rather than accumulated by
-          design. When an APRA review, a TGA inspection, or a TEQSA audit arrives, the defence
-          is a folder of completion records, not a framework that proves the programme covers
+          design. When a prudential review, an FDA inspection, or an accreditation audit arrives, the defense
+          is a folder of completion records, not a framework that proves the program covers
           what it should.
         </p>
         <p>
           The Foundry treats each regulatory regime as a source of structural requirements. The
           framework encodes what must be trained, verified, and evidenced. Instruction is
-          downstream. The result is a programme that defends itself against the standard.
+          downstream. The result is a program that defends itself against the standard.
         </p>
       </ProseBlock>
 

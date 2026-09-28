@@ -27,7 +27,7 @@ const capabilities = [
   {
     icon: <Boxes className="h-5 w-5" />,
     title: "Capability extraction",
-    desc: "Core product capabilities, feature dependencies, and configuration surfaces are extracted from your documentation and modelled as a structured object, rather than left implicit in a manual.",
+    desc: "Core product capabilities, feature dependencies, and configuration surfaces are extracted from your documentation and modeled as a structured object, rather than left implicit in a manual.",
   },
   {
     icon: <Workflow className="h-5 w-5" />,
@@ -42,12 +42,12 @@ const capabilities = [
   {
     icon: <UserCog className="h-5 w-5" />,
     title: "Variants tailored to role",
-    desc: "One approved framework produces adapted programmes for internal engineers, implementation specialists, sales engineers, customer success, and end users, without diverging from source truth.",
+    desc: "One approved framework produces adapted programs for internal engineers, implementation specialists, sales engineers, customer success, and end users, without diverging from source truth.",
   },
   {
     icon: <BookOpenCheck className="h-5 w-5" />,
     title: "Terminology faithful to source",
-    desc: "Preserved terminology, imagery aware of context, and traceable lineage mean the programme cannot drift from the product it teaches. When the product changes, the programme knows.",
+    desc: "Preserved terminology, imagery aware of context, and traceable lineage mean the program cannot drift from the product it teaches. When the product changes, the program knows.",
   },
   {
     icon: <Rocket className="h-5 w-5" />,
@@ -82,11 +82,11 @@ const steps = [
 const faq = [
   {
     q: "How is this different from a knowledge base or a documentation portal?",
-    a: "A knowledge base assumes the user knows what to look for. The Foundry starts one level up. It extracts, from the same source documentation, the structure the user must acquire to use the product correctly, and generates guided instruction to build that structure. The knowledge base remains a reference. The enablement programme is the path.",
+    a: "A knowledge base assumes the user knows what to look for. The Foundry starts one level up. It extracts, from the same source documentation, the structure the user must acquire to use the product correctly, and generates guided instruction to build that structure. The knowledge base remains a reference. The enablement program is the path.",
   },
   {
-    q: "Can we generate distinct programmes for internal teams and external customers?",
-    a: "Yes. One approved framework can produce an internal engineering programme, an implementation partner track, a sales engineer briefing, and an end user onboarding, each with depth appropriate to the role. The underlying capability model stays identical. The instructional expression adapts.",
+    q: "Can we generate distinct programs for internal teams and external customers?",
+    a: "Yes. One approved framework can produce an internal engineering program, an implementation partner track, a sales engineer briefing, and an end user onboarding, each with depth appropriate to the role. The underlying capability model stays identical. The instructional expression adapts.",
   },
   {
     q: "What happens when the product ships a breaking change?",
@@ -94,7 +94,7 @@ const faq = [
   },
   {
     q: "Do you replace our technical writers?",
-    a: "No. Technical writers still own the source documentation. What changes is what happens downstream of it. Instead of writing a separate onboarding course, a separate certification programme, and separate partner materials by hand, they maintain the source and the Foundry produces the enablement outputs against it.",
+    a: "No. Technical writers still own the source documentation. What changes is what happens downstream of it. Instead of writing a separate onboarding course, a separate certification program, and separate partner materials by hand, they maintain the source and the Foundry produces the enablement outputs against it.",
   },
   {
     q: "Can this support hardware and industrial systems, or is it software only?",
@@ -118,7 +118,7 @@ const related = [
   {
     eyebrow: "Sector",
     title: "Financial services",
-    desc: "Product knowledge for relationship managers under RG146 licensing. Evidenced against the standard.",
+    desc: "Product knowledge for relationship managers in licensed roles. Evidenced against the standard.",
     href: "/industries/financial-services",
   },
 ];
@@ -145,7 +145,7 @@ export default function ProductEnablementPage() {
       <ProseBlock eyebrow="Why this matters" title="Documentation does not guarantee correct use.">
         <p>
           Most products are supported by user manuals, release notes, and knowledge bases.
-          Artefacts written for reference, not for progression. Enablement driven by manuals
+          Artifacts written for reference, not for progression. Enablement driven by manuals
           produces information overload, fragmented understanding, workflow confusion, and
           increased liability when misconfiguration causes harm. The failure is not documentation.
           The failure is the assumption that documentation, in itself, produces capability.
@@ -168,7 +168,7 @@ export default function ProductEnablementPage() {
       <ProcessSteps
         eyebrow="How it runs"
         title="Interpret. Structure. Generate. Version."
-        lede="Enablement is not a one time programme. It is a system that stays aligned to the product as it ships. When the product changes, the enablement knows."
+        lede="Enablement is not a one time program. It is a system that stays aligned to the product as it ships. When the product changes, the enablement knows."
         steps={steps}
       />
 
@@ -177,7 +177,7 @@ export default function ProductEnablementPage() {
         title="Faster onboarding. Fewer support tickets. Correct configuration."
       >
         <p>
-          Organisations gain faster onboarding, reduced configuration error, lower support
+          Organizations gain faster onboarding, reduced configuration error, lower support
           burden, higher feature adoption, and a scalable enablement architecture that does not
           rebuild itself with each release. Users gain clear workflow understanding, structured
           feature progression, and confidence in configuration.
@@ -189,11 +189,11 @@ export default function ProductEnablementPage() {
         </p>
       </ProseBlock>
 
-      <FAQ title="How product enablement programmes work, in detail." items={faq} />
+      <FAQ title="How product enablement programs work, in detail." items={faq} />
       <Related items={related} />
       <CtaBand
         eyebrow="Bring your product"
-        title="See your documentation become a programme."
+        title="See your documentation become a program."
         lede="Send us your product documentation, a manual, or a release brief. In 45 minutes with the Foundry on your material, you leave with the enablement framework it produces."
         ctaLabel="Start with your product documentation"
       />

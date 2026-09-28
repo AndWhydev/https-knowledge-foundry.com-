@@ -37,7 +37,7 @@ const capabilities = [
   {
     icon: <Fingerprint className="h-5 w-5" />,
     title: "Scenario simulation",
-    desc: "Decision based evaluation and scenario simulation place the learner in the conditions they will face in role. Assessment measures behaviour under realistic constraint.",
+    desc: "Decision based evaluation and scenario simulation place the learner in the conditions they will face in role. Assessment measures behavior under realistic constraint.",
   },
   {
     icon: <BadgeCheck className="h-5 w-5" />,
@@ -86,7 +86,7 @@ const faq = [
   },
   {
     q: "Can this support formal certification pathways?",
-    a: "Yes. Where verification supports formal accreditation, threshold logic, assessment reasoning, and alignment to Bloom are exportable for the accreditor. The framework acts as the primary defensible artefact, and each certified individual carries a coherent evidence pack tied to their assessment history.",
+    a: "Yes. Where verification supports formal accreditation, threshold logic, assessment reasoning, and alignment to Bloom are exportable for the accreditor. The framework acts as the primary defensible artifact, and each certified individual carries a coherent evidence pack tied to their assessment history.",
   },
   {
     q: "What kinds of assessment methods does the platform support?",
@@ -118,7 +118,7 @@ const related = [
   {
     eyebrow: "Sector",
     title: "Healthcare & life sciences",
-    desc: "Clinical credentialing, AHPRA CPD, and defensible competency verification in accountable environments.",
+    desc: "Clinical credentialing, CPD for licensed practitioners, and defensible competency verification in accountable environments.",
     href: "/industries/healthcare-life-sciences",
   },
 ];
@@ -144,7 +144,7 @@ export default function HybridVerificationPage() {
 
       <ProseBlock eyebrow="Why this matters" title="Learning without validation creates risk.">
         <p>
-          In regulated, safety critical, or high accountability environments, organisations must
+          In regulated, safety critical, or high accountability environments, organizations must
           be able to prove that individuals understand required knowledge, can apply it correctly,
           can perform under realistic conditions, and meet defined competency standards. A
           completion record does not answer any of those questions. It answers a different,
@@ -168,7 +168,7 @@ export default function HybridVerificationPage() {
       <ProcessSteps
         eyebrow="How it runs"
         title="Define. Structure. Generate. Release."
-        lede="Verification does not happen at the end of the programme. It is embedded throughout the framework, and the certification decision is the sum of the evidence the framework was designed to collect."
+        lede="Verification does not happen at the end of the program. It is embedded throughout the framework, and the certification decision is the sum of the evidence the framework was designed to collect."
         steps={steps}
       />
 
@@ -177,7 +177,7 @@ export default function HybridVerificationPage() {
         title="A certification that defends itself."
       >
         <p>
-          Organisations gain defensible certification pathways, clear competency thresholds,
+          Organizations gain defensible certification pathways, clear competency thresholds,
           reduced risk exposure, measurable workforce capability, and validation evidence aligned
           to audit. Individuals gain clear progression, transparent evaluation, and confirmed
           readiness for the role they are being certified into.
@@ -190,7 +190,7 @@ export default function HybridVerificationPage() {
         </p>
       </ProseBlock>
 
-      <FAQ title="How hybrid verification programmes work, in detail." items={faq} />
+      <FAQ title="How hybrid verification programs work, in detail." items={faq} />
       <Related items={related} />
       <CtaBand
         eyebrow="Bring a certification pathway"

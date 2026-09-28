@@ -19,7 +19,7 @@ import { Reveal } from "@/components/motion/reveal";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/trust" },
-  title: "Trust Centre: security and compliance",
+  title: "Trust Center: security and compliance",
   description:
     "How Knowledge Foundry is designed to protect customer data, meet enterprise security expectations, and align to the standards that regulated buyers require.",
 };
@@ -38,7 +38,7 @@ const posture = [
   {
     icon: <ShieldCheck className="h-5 w-5" />,
     title: "APRA CPS 234, aware",
-    desc: "For regulated Australian financial services customers, controls, evidence artefacts, and reporting are designed to support obligations under CPS 234 and to fit inside an environment regulated by APRA.",
+    desc: "For regulated Australian financial services customers, controls, evidence artifacts, and reporting are designed to support obligations under CPS 234 and to fit inside an environment regulated by APRA.",
   },
   {
     icon: <FileCheck2 className="h-5 w-5" />,
@@ -130,7 +130,7 @@ export default function TrustCentrePage() {
   return (
     <>
       <TopicHeader
-        eyebrow="Trust Centre"
+        eyebrow="Trust Center"
         breadcrumb={[{ label: "Trust", href: "/trust" }]}
         title={
           <>
@@ -138,7 +138,7 @@ export default function TrustCentrePage() {
             <span className="text-[color:var(--color-forge)]">a system regulated buyers can adopt.</span>
           </>
         }
-        lede="Knowledge Foundry is built for organisations that must defend how their knowledge is produced, stored, and delivered. This page summarises the security posture, the compliance posture, and the data handling that make the platform adoptable inside a regulated environment. Sub pages provide the detail."
+        lede="Knowledge Foundry is built for organizations that must defend how their knowledge is produced, stored, and delivered. This page summarizes the security posture, the compliance posture, and the data handling that make the platform adoptable inside a regulated environment. Sub pages provide the detail."
         primaryCta={{ label: "Request our security pack", href: "/demonstration" }}
         secondaryCta={{ label: "Security deep dive", href: "/trust/security" }}
       />
@@ -174,7 +174,7 @@ export default function TrustCentrePage() {
         </p>
         <p>
           <strong>Ownership.</strong> Your source material, frameworks, generated
-          content, review history, and evidence artefacts are yours. On exit,
+          content, review history, and evidence artifacts are yours. On exit,
           the full corpus is exportable in structured form. We do not train
           third party models on customer content.
         </p>
@@ -219,7 +219,7 @@ export default function TrustCentrePage() {
           within contractually defined windows in the master services agreement.
         </p>
         <p>
-          For information on our responsible disclosure programme, or to report a
+          For information on our responsible disclosure program, or to report a
           suspected vulnerability, see the security page. The security contact
           is <strong>security@knowledge-foundry.com</strong>.
         </p>

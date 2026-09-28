@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 };
 
 const toc = [
-  { id: "sec-1", label: "Content is not the artefact" },
+  { id: "sec-1", label: "Content is not the artifact" },
   { id: "sec-2", label: "What a framework actually is" },
   { id: "sec-3", label: "What breaks when authors write first" },
   { id: "sec-4", label: "Structural literacy is a stance" },
@@ -40,31 +40,31 @@ export default function Page() {
       related={related}
     >
       <EditorialP>
-        Most organisations that produce training treat the programme as a body of content:
-        modules, decks, videos, workbooks. When the programme fails, when learners underperform,
-        when auditors find gaps, when behaviour does not change, the reflex is to review the
+        Most organizations that produce training treat the program as a body of content:
+        modules, decks, videos, workbooks. When the program fails, when learners underperform,
+        when auditors find gaps, when behavior does not change, the reflex is to review the
         content. Rewrite the modules. Refilm the videos. Add scenarios.
       </EditorialP>
       <EditorialP>
         The reflex is misdirected. The failure is rarely in the content. It is in the layer
         beneath the content. The structural decisions about what concepts must exist, how they
         relate, and how they progress. Those decisions are the framework. Most training
-        programmes have never had one.
+        programs have never had one.
       </EditorialP>
 
-      <EditorialH2 id="sec-1">Content is not the artefact</EditorialH2>
+      <EditorialH2 id="sec-1">Content is not the artifact</EditorialH2>
       <EditorialP>
-        The industry treats content as the object of record. A programme is what has been
-        written, filmed, and packaged. Ask an L&D leader what their programme covers and the
+        The industry treats content as the object of record. A program is what has been
+        written, filmed, and packaged. Ask an L&D leader what their program covers and the
         answer will describe a library. Ask what the library covers and the answer will describe
-        another library, one level down. There is no artefact above the content that the content
+        another library, one level down. There is no artifact above the content that the content
         is accountable to.
       </EditorialP>
       <EditorialP>
         Structure governs coverage. It governs order. It governs what counts as a complete
-        answer to a requirement. Without an explicit structural artefact upstream of the
-        wording, none of those judgements are inspectable. They live inside authors, one
-        paragraph at a time, and they leave the organisation when the authors do.
+        answer to a requirement. Without an explicit structural artifact upstream of the
+        wording, none of those judgments are inspectable. They live inside authors, one
+        paragraph at a time, and they leave the organization when the authors do.
       </EditorialP>
 
       <PullQuote attribution="Knowledge Foundry, Structural Literacy Manifesto">
@@ -89,8 +89,8 @@ export default function Page() {
         When authors write before this object exists, three things happen. Structural decisions
         get smuggled into paragraphs. A concept is introduced early because the author found a
         good sentence for it, not because the subject requires it there. Coverage becomes
-        unmeasurable. The only way to ask whether the programme covers the requirement is to
-        reread the programme. Revision becomes catastrophic. When the source changes, no one
+        unmeasurable. The only way to ask whether the program covers the requirement is to
+        reread the program. Revision becomes catastrophic. When the source changes, no one
         knows which paragraphs to update, because no paragraph is explicitly tied to the
         requirement it satisfies.
       </EditorialP>

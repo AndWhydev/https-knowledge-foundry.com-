@@ -18,9 +18,9 @@ import { HeroComparison } from "@/components/heros/hero-comparison";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/platform/enterprise-learning-modernisation" },
-  title: "Enterprise learning modernisation",
+  title: "Enterprise learning modernization",
   description:
-    "Modernise legacy training libraries in place. Preserve institutional knowledge, protect expert time, and update incrementally without disrupting learners.",
+    "Modernize legacy training libraries in place. Preserve institutional knowledge, protect expert time, and update incrementally without disrupting learners.",
 };
 
 const capabilities = [
@@ -37,7 +37,7 @@ const capabilities = [
   {
     icon: <UsersRound className="h-5 w-5" />,
     title: "No learner disruption",
-    desc: "Learners continue to progress through familiar structures. Modernisation happens beneath them, not on top of them. Continuity is a design constraint.",
+    desc: "Learners continue to progress through familiar structures. Modernization happens beneath them, not on top of them. Continuity is a design constraint.",
   },
   {
     icon: <Layers className="h-5 w-5" />,
@@ -46,8 +46,8 @@ const capabilities = [
   },
   {
     icon: <RefreshCcw className="h-5 w-5" />,
-    title: "Incremental modernisation",
-    desc: "Modernise at the pace risk demands. A single course, a single standard, a single business unit. Each modernisation is scoped and independently deliverable.",
+    title: "Incremental modernization",
+    desc: "Modernize at the pace risk demands. A single course, a single standard, a single business unit. Each modernization is scoped and independently deliverable.",
   },
   {
     icon: <Gauge className="h-5 w-5" />,
@@ -59,7 +59,7 @@ const capabilities = [
 const steps = [
   {
     n: "01",
-    title: "Analyse",
+    title: "Analyze",
     desc: "Deconstruct and review legacy learning assets. Identify what still holds up, what has drifted, and where risk has quietly accumulated.",
   },
   {
@@ -70,40 +70,40 @@ const steps = [
   {
     n: "03",
     title: "Improve",
-    desc: "Targeted optimisation of identified vulnerabilities. Weakness is closed in place. Approved structure and learner pathways are preserved.",
+    desc: "Targeted optimization of identified vulnerabilities. Weakness is closed in place. Approved structure and learner pathways are preserved.",
   },
   {
     n: "04",
     title: "Govern",
-    desc: "Ownership, cadence, drift detection, and release control are attached to the modernised assets, not left to memory or spreadsheet.",
+    desc: "Ownership, cadence, drift detection, and release control are attached to the modernized assets, not left to memory or spreadsheet.",
   },
   {
     n: "05",
     title: "Deploy",
-    desc: "Modernised assets roll into live environments with a full evidence trail. Rollout is controlled, reversible, and traceable at every stage.",
+    desc: "Modernized assets roll into live environments with a full evidence trail. Rollout is controlled, reversible, and traceable at every stage.",
   },
 ];
 
 const faq = [
   {
     q: "We have hundreds of courses. Where do we realistically start?",
-    a: "Start where risk concentrates. Courses tied to regulated standards, courses that failed a recent audit, courses whose subject matter expert is about to leave, or courses that reference a standard which just updated. The platform surfaces candidates for prioritisation automatically, and modernisation scopes cleanly to a single asset before scaling outward.",
+    a: "Start where risk concentrates. Courses tied to regulated standards, courses that failed a recent audit, courses whose subject matter expert is about to leave, or courses that reference a standard which just updated. The platform surfaces candidates for prioritization automatically, and modernization scopes cleanly to a single asset before scaling outward.",
   },
   {
     q: "How do you avoid the classic rip and replace failure mode?",
-    a: "Modernisation operates on the existing assets. Structure, outcomes, and learning pathways are preserved by default. Weakness is closed in place. Regeneration is scoped to specific blocks rather than whole courses. Rip and replace is a distinct choice, not the default path.",
+    a: "Modernization operates on the existing assets. Structure, outcomes, and learning pathways are preserved by default. Weakness is closed in place. Regeneration is scoped to specific blocks rather than whole courses. Rip and replace is a distinct choice, not the default path.",
   },
   {
     q: "What happens to our existing LMS, SharePoint, or content stores?",
-    a: "They remain. Knowledge Foundry sits alongside them as a source of truth for structure, provenance, and integrity, while the modernised assets deploy back into the existing delivery layer via SCORM, structured HTML, or API. Nothing has to be forklifted.",
+    a: "They remain. Knowledge Foundry sits alongside them as a source of truth for structure, provenance, and integrity, while the modernized assets deploy back into the existing delivery layer via SCORM, structured HTML, or API. Nothing has to be forklifted.",
   },
   {
-    q: "How long does modernising a legacy library actually take?",
-    a: "It depends on scope, but the operating model is incremental. A single high risk course can be analysed, remediated, reverified, and released again in days. A programme of dozens of courses runs on a rolling cadence, with each modernised asset independently deployable rather than blocked behind a big bang release.",
+    q: "How long does modernizing a legacy library actually take?",
+    a: "It depends on scope, but the operating model is incremental. A single high risk course can be analyzed, remediated, reverified, and released again in days. A program of dozens of courses runs on a rolling cadence, with each modernized asset independently deployable rather than blocked behind a big bang release.",
   },
   {
-    q: "Who inside our organisation actually runs this?",
-    a: "The people who already own learning quality: L&D leadership, compliance and risk owners, and subject matter experts. The platform amplifies their methodology rather than replacing their judgement. Automation handles the architectural grind. Humans retain decision authority at each gate.",
+    q: "Who inside our organization actually runs this?",
+    a: "The people who already own learning quality: L&D leadership, compliance and risk owners, and subject matter experts. The platform amplifies their methodology rather than replacing their judgment. Automation handles the architectural grind. Humans retain decision authority at each gate.",
   },
 ];
 
@@ -111,7 +111,7 @@ const related = [
   {
     eyebrow: "Foundation",
     title: "Gap analysis",
-    desc: "The engine that identifies where modernisation is actually needed, before any content changes hands.",
+    desc: "The engine that identifies where modernization is actually needed, before any content changes hands.",
     href: "/platform/gap-analysis",
   },
   {
@@ -123,7 +123,7 @@ const related = [
   {
     eyebrow: "Adjacent",
     title: "Knowledge governance",
-    desc: "How modernised assets stay modern. Ownership, cadence, drift, and release control at portfolio scale.",
+    desc: "How modernized assets stay modern. Ownership, cadence, drift, and release control at portfolio scale.",
     href: "/platform/knowledge-governance",
   },
 ];
@@ -132,19 +132,19 @@ export default function EnterpriseLearningModernisationPage() {
   return (
     <>
       <TopicHeader
-        eyebrow="Enterprise · Learning Modernisation"
+        eyebrow="Enterprise · Learning Modernization"
         breadcrumb={[
           { label: "Platform", href: "/platform" },
-          { label: "Enterprise Learning Modernisation", href: "/platform/enterprise-learning-modernisation" },
+          { label: "Enterprise Learning Modernization", href: "/platform/enterprise-learning-modernisation" },
         ]}
         title={
           <>
-            Modernise what matters.{" "}
+            Modernize what matters.{" "}
             <span className="text-[color:var(--color-forge)]">Preserve</span>{" "}
             what works.
           </>
         }
-        lede="Most organisations already possess years of investment in training programmes, learning materials, compliance content, and operational knowledge. Modernisation does not require replacement. In most cases, it requires a clearer understanding of what exists and what should be improved."
+        lede="Most organizations already possess years of investment in training programs, learning materials, compliance content, and operational knowledge. Modernization does not require replacement. In most cases, it requires a clearer understanding of what exists and what should be improved."
         secondaryCta={{ label: "See it work", href: "/platform/see-it-work" }}
         visual={<HeroComparison
           before={{
@@ -186,14 +186,14 @@ export default function EnterpriseLearningModernisationPage() {
           The traditional responses (accept static decay, or a high risk
           rip and replace) are both failures of imagination. Knowledge Foundry
           offers a third path.{" "}
-          <strong>Audit and optimise your active intellectual property in place</strong>,
-          modernising incrementally, with no learner disruption and full
+          <strong>Audit and optimize your active intellectual property in place</strong>,
+          modernizing incrementally, with no learner disruption and full
           evidence.
         </p>
       </ProseBlock>
 
       <FeatureGrid
-        eyebrow="Modernisation without disruption"
+        eyebrow="Modernization without disruption"
         title="Preserve. Shield. Improve. Govern."
         features={capabilities}
         columns={3}
@@ -201,8 +201,8 @@ export default function EnterpriseLearningModernisationPage() {
 
       <ProcessSteps
         eyebrow="A continuous discipline, not a single event"
-        title="Analyse. Validate. Improve. Govern. Deploy."
-        lede="Modernisation is not a project you finish. It is an operating model you install, and the platform makes it sustainable at portfolio scale."
+        title="Analyze. Validate. Improve. Govern. Deploy."
+        lede="Modernization is not a project you finish. It is an operating model you install, and the platform makes it sustainable at portfolio scale."
         steps={steps}
       />
 
@@ -221,20 +221,20 @@ export default function EnterpriseLearningModernisationPage() {
           <strong>Asset retention</strong> protects existing investment.{" "}
           <strong>System integrity</strong> improves quality.{" "}
           <strong>Risk management</strong> reduces exposure.{" "}
-          <strong>Velocity and scale</strong> compound as the modernised
+          <strong>Velocity and scale</strong> compound as the modernized
           baseline grows.
         </p>
       </ProseBlock>
 
       <FAQ
-        title="How Enterprise Learning Modernisation works, in detail."
+        title="How Enterprise Learning Modernization works, in detail."
         items={faq}
       />
       <Related items={related} />
       <CtaBand
         eyebrow="For L&D and risk leadership at scale"
-        title="See modernisation on your legacy library."
-        lede="Send us a course, a compliance programme, or an entire practice area you know needs attention. We spend 45 minutes with the Foundry on your material, and you leave with a modernisation blueprint. Yours to keep."
+        title="See modernization on your legacy library."
+        lede="Send us a course, a compliance program, or an entire practice area you know needs attention. We spend 45 minutes with the Foundry on your material, and you leave with a modernization blueprint. Yours to keep."
       />
     </>
   );

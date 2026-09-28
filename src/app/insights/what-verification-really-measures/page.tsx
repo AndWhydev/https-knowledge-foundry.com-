@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/insights/what-verification-really-measures" },
   title: "What verification really measures",
   description:
-    "Click through completion is not evidence of competence. What defensible verification requires, and why it matters to regulated organisations.",
+    "Click through completion is not evidence of competence. What defensible verification requires, and why it matters to regulated organizations.",
 };
 
 const toc = [
@@ -40,13 +40,13 @@ export default function Page() {
       related={related}
     >
       <EditorialP>
-        A verification event is a claim. The organisation asserts, in writing, that a given
+        A verification event is a claim. The organization asserts, in writing, that a given
         person meets a given standard on a given date. When something goes wrong later (a
         transaction misadvised, a procedure mishandled, a safety critical decision made poorly)
-        that claim is the evidence the organisation will be judged against.
+        that claim is the evidence the organization will be judged against.
       </EditorialP>
       <EditorialP>
-        The default verification instrument in most organisations is a completion record from an
+        The default verification instrument in most organizations is a completion record from an
         LMS. It shows that a learner opened the module and answered a set of multiple choice
         questions above a threshold. It is easy to produce and easy to audit against itself. It
         also answers a question no one is asking.
@@ -54,7 +54,7 @@ export default function Page() {
 
       <EditorialH2 id="sec-1">Verification is a claim</EditorialH2>
       <EditorialP>
-        Each verification record is a promise the organisation makes to the outside world. The
+        Each verification record is a promise the organization makes to the outside world. The
         promise is not that the learner was present. It is that the learner is capable. The
         record is the evidence behind that promise, and it will be read by someone (a regulator,
         an incident review team, a board) who is not interested in the mechanics of the LMS.
@@ -63,7 +63,7 @@ export default function Page() {
         Structure governs the claim. What the framework says a concept requires as evidence
         determines what the verification instrument has to do. If that upstream decision is
         absent, the instrument default (a multiple choice test) silently becomes the
-        organisation's evidentiary posture for each competency it holds.
+        organization's evidentiary posture for each competency it holds.
       </EditorialP>
 
       <PullQuote attribution="Knowledge Foundry, Verification Design Notes">
@@ -75,12 +75,12 @@ export default function Page() {
         The failure is not that completion records are wrong. It is that they are being used in
         place of a verification instrument they were never designed to be. The instrument
         measures exposure. The claim being made is about capability. The gap between the two is
-        the space in which most training programmes fail their audits.
+        the space in which most training programs fail their audits.
       </EditorialP>
       <EditorialList items={[
-        <><strong>Exposure is not proof.</strong> A completion record shows the learner opened the material. It does not show the concept landed, the behaviour transferred, or the decision would be made correctly under pressure.</>,
-        <><strong>Recall is not behaviour.</strong> Multiple choice tests measure recognition in a context that is low stakes and rich in information. The context in which the behaviour is required is neither.</>,
-        <><strong>Aggregate scores hide failure.</strong> An eighty per cent pass on a mixed bank of questions can mean the learner mastered the trivial items and missed the safety critical ones. The record does not distinguish.</>,
+        <><strong>Exposure is not proof.</strong> A completion record shows the learner opened the material. It does not show the concept landed, the behavior transferred, or the decision would be made correctly under pressure.</>,
+        <><strong>Recall is not behavior.</strong> Multiple choice tests measure recognition in a context that is low stakes and rich in information. The context in which the behavior is required is neither.</>,
+        <><strong>Aggregate scores hide failure.</strong> An eighty percent pass on a mixed bank of questions can mean the learner mastered the trivial items and missed the safety critical ones. The record does not distinguish.</>,
       ]} />
 
       <EditorialH2 id="sec-3">What the evidence must do</EditorialH2>
@@ -101,9 +101,9 @@ export default function Page() {
 
       <EditorialAside title="A useful diagnostic">
         <p>
-          Name a single competency your organisation holds. Ask what evidence you would present
+          Name a single competency your organization holds. Ask what evidence you would present
           if that competency were the subject of an incident review tomorrow. If the honest
-          answer is a completion record and a percentage score, the programme is asserting a
+          answer is a completion record and a percentage score, the program is asserting a
           claim its evidence cannot support.
         </p>
       </EditorialAside>
@@ -114,7 +114,7 @@ export default function Page() {
         redesign the verification instrument so the record it produces is evidence about the
         question that will actually be asked. Each verification record is traceable to the
         framework node behind it, and each node names the evidence its claim requires. Do that
-        upstream, and the downstream defence is a query. Skip it, and the defence is a narrative
+        upstream, and the downstream defense is a query. Skip it, and the defense is a narrative
         assembled the week the regulator arrives.
       </EditorialP>
     </EditorialArticle>

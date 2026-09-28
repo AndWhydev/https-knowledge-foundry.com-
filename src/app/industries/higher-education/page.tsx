@@ -20,14 +20,14 @@ export const metadata: Metadata = {
   alternates: { canonical: "/industries/higher-education" },
   title: "Higher education course architecture",
   description:
-    "Course architecture aligned to TEQSA and the Higher Education Standards Framework, with constructive alignment, outcome mapping and accreditation evidence.",
+    "Course architecture aligned to institutional quality standards, with constructive alignment, outcome mapping and accreditation evidence.",
 };
 
 const capabilities = [
   {
     icon: <BookOpen className="h-5 w-5" />,
-    title: "Architecture aligned to TEQSA",
-    desc: "Course and unit structure aligned to the Higher Education Standards Framework, with design, delivery, assessment, and monitoring encoded as framework properties, not narrative claims.",
+    title: "Architecture aligned to quality standards",
+    desc: "Course and unit structure aligned to institutional quality standards (US institutional accreditors, the European Standards and Guidelines, the CAA in the UAE, NIAD-QE in Japan, the Higher Education Standards Framework in Australia), with design, delivery, assessment, and monitoring encoded as framework properties, not narrative claims.",
   },
   {
     icon: <Target className="h-5 w-5" />,
@@ -36,13 +36,13 @@ const capabilities = [
   },
   {
     icon: <Layers3 className="h-5 w-5" />,
-    title: "Progression aligned to AQF level",
-    desc: "Cognitive demand aligned to AQF level and course learning outcomes. Progression aligned to Bloom is defined at the framework, so assessment at subject level is defensible against course level claims.",
+    title: "Progression aligned to qualification level",
+    desc: "Cognitive demand aligned to qualification framework level (the EQF, the AQF, or a national equivalent) and course learning outcomes. Progression aligned to Bloom is defined at the framework, so assessment at subject level is defensible against course level claims.",
   },
   {
     icon: <ClipboardCheck className="h-5 w-5" />,
     title: "Evidence for course review",
-    desc: "For internal course review, external referencing, and TEQSA reregistration, coverage, mapping, and assessment evidence exports in a coherent, versioned form ready for panel scrutiny.",
+    desc: "For internal course review, external referencing, and institutional reaccreditation, coverage, mapping, and assessment evidence exports in a coherent, versioned form ready for panel scrutiny.",
   },
   {
     icon: <GraduationCap className="h-5 w-5" />,
@@ -60,12 +60,12 @@ const steps = [
   {
     n: "01",
     title: "Interpret the course",
-    desc: "Course learning outcomes, subject outlines, AQF requirements, and professional accreditation criteria are ingested and parsed against the Higher Education Standards Framework.",
+    desc: "Course learning outcomes, subject outlines, qualification framework requirements, and professional accreditation criteria are ingested and parsed against the applicable institutional quality standards.",
   },
   {
     n: "02",
     title: "Structure the architecture",
-    desc: "A structured course and subject framework is proposed: outcomes, activities, assessment, and mapping to AQF level and professional accreditation criteria where relevant.",
+    desc: "A structured course and subject framework is proposed: outcomes, activities, assessment, and mapping to qualification level and professional accreditation criteria where relevant.",
   },
   {
     n: "03",
@@ -75,26 +75,26 @@ const steps = [
   {
     n: "04",
     title: "Evidence for accreditation",
-    desc: "Constructive alignment mapping, cohort assessment evidence, and change history export for internal course review, external referencing, and TEQSA reregistration.",
+    desc: "Constructive alignment mapping, cohort assessment evidence, and change history export for internal course review, external referencing, and institutional reaccreditation.",
   },
 ];
 
 const faq = [
   {
     q: "How does this fit with our internal course review and quality assurance processes?",
-    a: "The Foundry produces frameworks that make course review a data exercise rather than a narrative one. Constructive alignment, outcome mapping, and assessment coverage are exportable per subject, per course, per cohort. Internal review panels receive a structured artefact rather than a bundle of subject outlines to compare by hand.",
+    a: "The Foundry produces frameworks that make course review a data exercise rather than a narrative one. Constructive alignment, outcome mapping, and assessment coverage are exportable per subject, per course, per cohort. Internal review panels receive a structured artifact rather than a bundle of subject outlines to compare by hand.",
   },
   {
     q: "Can the framework encode both institutional and professional accreditation outcomes?",
-    a: "Yes. Where a course carries professional accreditation (Engineers Australia, the Australian Psychology Accreditation Council, the accountancy bodies, ANMAC) the framework can encode accreditor competency requirements alongside institutional graduate outcomes. Coverage against both is measurable and exportable.",
+    a: "Yes. Where a course carries professional accreditation (ABET or Engineers Australia for engineering, AACSB for business, the accountancy bodies, national nursing and psychology accreditors) the framework can encode accreditor competency requirements alongside institutional graduate outcomes. Coverage against both is measurable and exportable.",
   },
   {
-    q: "How does the platform support TEQSA reregistration or course accreditation cycles?",
-    a: "Frameworks encode alignment to the Higher Education Standards Framework, and evidence (design, delivery, assessment, monitoring) accumulates by design rather than being manufactured at cycle time. When reregistration approaches, the artefact you present is a framework with coverage at the level of the clause, not a defence reconstructed from disparate sources.",
+    q: "How does the platform support institutional reaccreditation or course accreditation cycles?",
+    a: "Frameworks encode alignment to the applicable quality standards, whether from a US institutional accreditor, the European Standards and Guidelines, the CAA, NIAD-QE, or TEQSA, and evidence (design, delivery, assessment, monitoring) accumulates by design rather than being manufactured at cycle time. When reaccreditation approaches, the artifact you present is a framework with coverage at the level of the clause, not a defense reconstructed from disparate sources.",
   },
   {
-    q: "Does the platform claim TEQSA registration or accreditation of its own?",
-    a: "No. The Foundry is a system for structuring courses and evidencing outcomes. The institution remains the accredited provider. The platform produces evidence structured against the Higher Education Standards Framework, but does not represent itself as a TEQSA accredited entity.",
+    q: "Does the platform claim registration or accreditation of its own?",
+    a: "No. The Foundry is a system for structuring courses and evidencing outcomes. The institution remains the accredited provider. The platform produces evidence structured against the applicable quality standards, but does not represent itself as an accredited or registered higher education provider.",
   },
   {
     q: "Can this handle both undergraduate and postgraduate coursework, including research components?",
@@ -112,7 +112,7 @@ const related = [
   {
     eyebrow: "Capability",
     title: "Standards & accreditation",
-    desc: "How alignment to external standards (including the Higher Education Standards Framework and professional accreditation criteria) is treated as a first class output.",
+    desc: "How alignment to external standards (including institutional quality standards and professional accreditation criteria) is treated as a first class output.",
     href: "/platform/standards-accreditation",
   },
   {
@@ -137,7 +137,7 @@ export default function HigherEducationPage() {
             Constructive alignment as a <span className="text-[color:var(--color-forge)]">structural</span> property.
           </>
         }
-        lede="Course architecture aligned to the Higher Education Standards Framework. Outcomes, activities, and assessment linked at the framework level. Evidence for TEQSA and professional accreditation produced by design."
+        lede="Course architecture aligned to institutional quality standards. Outcomes, activities, and assessment linked at the framework level. Evidence for institutional and professional accreditation produced by design."
         secondaryCta={{ label: "See educational programs", href: "/programs/educational" }}
         visual={<AnimatedEditorial src="editorial-education.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
@@ -147,15 +147,15 @@ export default function HigherEducationPage() {
         title="Accreditation cycles audit the design as much as the delivery."
       >
         <p>
-          Internal course review, external referencing, professional accreditation, and TEQSA
-          reregistration all ask a shared question. Can the institution demonstrate that
+          Internal course review, external referencing, professional accreditation, and
+          institutional reaccreditation all ask a shared question. Can the institution demonstrate that
           learning outcomes, teaching activities, and assessment tasks are aligned, not
           asserted to be aligned, but structurally connected? A subject outline does not answer
           that question. A framework, a mapping matrix, and a versioned change record do.
         </p>
         <p>
-          The Foundry treats the Higher Education Standards Framework, the AQF, and professional
-          accreditation criteria as sources of structural obligation. Course frameworks encode
+          The Foundry treats institutional quality standards, qualification frameworks, and
+          professional accreditation criteria as sources of structural obligation. Course frameworks encode
           the required alignment. Subject level material generates against it. Evidence
           accumulates by design.
         </p>
@@ -177,16 +177,16 @@ export default function HigherEducationPage() {
 
       <ProseBlock
         eyebrow="What you get out"
-        title="Evidence a TEQSA panel or accreditation body will accept without follow up."
+        title="Evidence an accreditation panel will accept without follow up."
       >
         <p>
-          Frameworks aligned to the Higher Education Standards Framework and AQF. Course
+          Frameworks aligned to institutional quality standards and qualification frameworks. Course
           architectures where constructive alignment is a structural property, not a claim.
           Mapping to professional accreditation produced alongside institutional outcomes.
           Change history intact across cycles.
         </p>
         <p>
-          When the panel arrives, the artefact you present is a framework, not a case
+          When the panel arrives, the artifact you present is a framework, not a case
           reassembled from subject outlines the night before.
         </p>
       </ProseBlock>

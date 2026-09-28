@@ -32,7 +32,7 @@ const capabilities = [
   {
     icon: <Network className="h-5 w-5" />,
     title: "Prerequisite chains",
-    desc: "Dependencies between concepts are modelled, not implied. Learners meet material in the order the subject actually requires, rather than in the order a paragraph happens to arrive.",
+    desc: "Dependencies between concepts are modeled, not implied. Learners meet material in the order the subject actually requires, rather than in the order a paragraph happens to arrive.",
   },
   {
     icon: <Layers3 className="h-5 w-5" />,
@@ -52,7 +52,7 @@ const capabilities = [
   {
     icon: <GaugeCircle className="h-5 w-5" />,
     title: "Standards alignment",
-    desc: "Where the subject sits under a syllabus or accreditation regime, framework nodes tie back to the specific outcome statements the programme is accountable for.",
+    desc: "Where the subject sits under a syllabus or accreditation regime, framework nodes tie back to the specific outcome statements the program is accountable for.",
   },
 ];
 
@@ -75,7 +75,7 @@ const steps = [
   {
     n: "04",
     title: "Review and refine",
-    desc: "Each block is inspectable and independently editable. Educators refine at the sentence level without regenerating the programme. Each revision is versioned.",
+    desc: "Each block is inspectable and independently editable. Educators refine at the sentence level without regenerating the program. Each revision is versioned.",
   },
 ];
 
@@ -90,14 +90,14 @@ const faq = [
   },
   {
     q: "What role does the educator play?",
-    a: "The educator owns the framework. The system proposes structure and drafts instruction. The educator reviews, revises, and approves. What changes is what the educator spends time on: subject judgement and edge cases, not paragraph writing.",
+    a: "The educator owns the framework. The system proposes structure and drafts instruction. The educator reviews, revises, and approves. What changes is what the educator spends time on: subject judgment and edge cases, not paragraph writing.",
   },
   {
-    q: "Does it work for both foundational and highly specialised subjects?",
+    q: "Does it work for both foundational and highly specialized subjects?",
     a: "Yes. The system is agnostic to subject. Whether the material is primary literacy or advanced clinical diagnostics, the underlying discipline is the same: define structure, then generate instruction to fit. What varies is the depth and vocabulary of the framework.",
   },
   {
-    q: "Can we produce multiple versions of the same programme for different cohorts?",
+    q: "Can we produce multiple versions of the same program for different cohorts?",
     a: "Yes. One approved framework can generate variants for different age groups, prior experience levels, or industry contexts. The knowledge structure remains constant. The instructional expression adapts to the audience.",
   },
 ];
@@ -106,19 +106,19 @@ const related = [
   {
     eyebrow: "Foundation",
     title: "Framework Intelligence",
-    desc: "The capability that maps the subject before instruction is written. Each educational programme begins here.",
+    desc: "The capability that maps the subject before instruction is written. Each educational program begins here.",
     href: "/platform/framework-intelligence",
   },
   {
     eyebrow: "Adjacent",
     title: "Hybrid verification",
-    desc: "Where educational programmes need demonstrable capability (certification pathways, applied competency), verification pairs with instruction.",
+    desc: "Where educational programs need demonstrable capability (certification pathways, applied competency), verification pairs with instruction.",
     href: "/programs/hybrid-verification",
   },
   {
     eyebrow: "Sector",
     title: "Higher education",
-    desc: "Course architecture aligned to TEQSA, with outcome mapping and defensible accreditation evidence.",
+    desc: "Course architecture aligned to institutional quality standards, with outcome mapping and defensible accreditation evidence.",
     href: "/industries/higher-education",
   },
 ];
@@ -137,22 +137,22 @@ export default function EducationalProgramsPage() {
             Educational programs built on structure <span className="text-[color:var(--color-forge)]">rather</span> than slides.
           </>
         }
-        lede="The Foundry transforms subjects into structured learning systems aligned to progression, comprehension, and measurable competency. Educators focus on judgement. The system holds the architecture."
+        lede="The Foundry transforms subjects into structured learning systems aligned to progression, comprehension, and measurable competency. Educators focus on judgment. The system holds the architecture."
         secondaryCta={{ label: "See the platform", href: "/platform" }}
         visual={<AnimatedEditorial src="editorial-education.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock eyebrow="Why this matters" title="The focus is cognitive progression, not content volume.">
         <p>
-          Educational programmes are designed to move learners beyond simple awareness toward
+          Educational programs are designed to move learners beyond simple awareness toward
           applied competency. That requires a subject to be mapped before it is written about.
-          Concepts named, dependencies modelled, assessment points defined. Without that
+          Concepts named, dependencies modeled, assessment points defined. Without that
           structure, coverage becomes an accident of who authored what, and progression becomes
           incidental to the order material happened to arrive.
         </p>
         <p>
           The Foundry treats the curriculum as the object of record. Instruction is downstream
-          of it. The result is programmes where each module ties to a defined outcome, each
+          of it. The result is programs where each module ties to a defined outcome, each
           assessment ties to a required competency, and each change is versioned against a
           framework the educator has approved.
         </p>
@@ -177,17 +177,17 @@ export default function EducationalProgramsPage() {
         title="A curriculum you can defend to an accreditor."
       >
         <p>
-          The output is not another slide deck. It is a structured curriculum artefact,
+          The output is not another slide deck. It is a structured curriculum artifact,
           inspectable, versioned, and exportable, where each module carries provenance to the
           source it teaches and each assessment carries provenance to the outcome it validates.
         </p>
         <p>
-          When an accreditor asks how the programme covers a syllabus outcome, the answer is
+          When an accreditor asks how the program covers a syllabus outcome, the answer is
           not a promise. It is a map, and the map is testable.
         </p>
       </ProseBlock>
 
-      <FAQ title="How educational programmes work, in detail." items={faq} />
+      <FAQ title="How educational programs work, in detail." items={faq} />
       <Related items={related} />
       <CtaBand
         eyebrow="Bring a subject"

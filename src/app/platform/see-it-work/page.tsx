@@ -41,7 +41,7 @@ const walkthroughs = [
   {
     icon: <FileText className="h-5 w-5" />,
     title: "From a document to live",
-    desc: "Four to six minutes. An existing PDF, SOP, or slide deck becomes a governed live programme. Start to finish, on real material.",
+    desc: "Four to six minutes. An existing PDF, SOP, or slide deck becomes a governed live program. Start to finish, on real material.",
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
@@ -56,7 +56,7 @@ const walkthroughs = [
   {
     icon: <LineChart className="h-5 w-5" />,
     title: "After go live",
-    desc: "Three to four minutes. Cohort uptake, operational visibility, and the live portfolio view once programmes are in production.",
+    desc: "Three to four minutes. Cohort uptake, operational visibility, and the live portfolio view once programs are in production.",
   },
   {
     icon: <UserSquare2 className="h-5 w-5" />,
@@ -71,12 +71,12 @@ const walkthroughs = [
   {
     icon: <Users className="h-5 w-5" />,
     title: "Role lenses",
-    desc: "Four to five minutes. One Console, different front doors. How L&D, compliance, and subject matter experts see the same programme differently.",
+    desc: "Four to five minutes. One Console, different front doors. How L&D, compliance, and subject matter experts see the same program differently.",
   },
   {
     icon: <Ruler className="h-5 w-5" />,
     title: "Standards and scaffold",
-    desc: "Two to three minutes. Optional depth for programmes aligned to a standard. Most programmes never need this. The ones that do, need it absolutely.",
+    desc: "Two to three minutes. Optional depth for programs aligned to a standard. Most programs never need this. The ones that do, need it absolutely.",
   },
 ];
 
@@ -101,7 +101,7 @@ const steps = [
 const faq = [
   {
     q: "Are these live product tours or edited marketing videos?",
-    a: "Live product walkthroughs. Each clip shows the actual platform operating on real material, not a designed mockup, not a re-enactment. Some editing is applied to remove waiting time and to caption specific screen elements. The system behaviour is unedited.",
+    a: "Live product walkthroughs. Each clip shows the actual platform operating on real material, not a designed mockup, not a re-enactment. Some editing is applied to remove waiting time and to caption specific screen elements. The system behavior is unedited.",
   },
   {
     q: "Do we need to watch all of them?",
@@ -113,7 +113,7 @@ const faq = [
   },
   {
     q: "Can we get a demonstration on our own subject rather than the sample material?",
-    a: "Yes, and this is the recommended next step. A working session runs 45 minutes on a real subject or programme you own. You watch the Foundry interpret, structure, and produce on your material, and you keep the framework it creates. No obligation.",
+    a: "Yes, and this is the recommended next step. A working session runs 45 minutes on a real subject or program you own. You watch the Foundry interpret, structure, and produce on your material, and you keep the framework it creates. No obligation.",
   },
   {
     q: "What if we want a deeper technical walkthrough than these clips cover?",
@@ -169,7 +169,7 @@ export default function SeeItWorkPage() {
         <p>
           Marketing videos describe what a product wants to be. These walkthroughs
           show what Knowledge Foundry actually does, running on real material,
-          producing real artefacts, and taking real review decisions. Each clip
+          producing real artifacts, and taking real review decisions. Each clip
           is scoped to a single question a senior evaluator tends to ask.
         </p>
         <p>
@@ -209,7 +209,7 @@ export default function SeeItWorkPage() {
           behaves, watch it behave.
         </p>
         <p>
-          For the specific behaviour on your material (your subject, your
+          For the specific behavior on your material (your subject, your
           standards, your delivery environment), the working session is the
           shorter path than any video could be.
         </p>
@@ -220,7 +220,7 @@ export default function SeeItWorkPage() {
       <CtaBand
         eyebrow="Bring us your subject"
         title="Skip the videos. See the Foundry on your material."
-        lede="A 45 minute working session on a subject or programme you own. You watch the Foundry interpret, structure, and produce, and you keep the framework it creates."
+        lede="A 45 minute working session on a subject or program you own. You watch the Foundry interpret, structure, and produce, and you keep the framework it creates."
       />
     </>
   );

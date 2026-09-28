@@ -4,9 +4,9 @@
   "title": "What is a knowledge graph?",
   "seoTitle": "What is a knowledge graph?",
   "description": "A knowledge graph represents entities and their relationships as connected data. How W3C standards such as RDF, OWL and SPARQL apply, and its use in learning.",
-  "shortAnswer": "A knowledge graph is a structured representation of knowledge in which entities, such as concepts, people, obligations or procedures, are stored as nodes and the relationships between them as labelled edges. It can be built on open W3C standards such as the Resource Description Framework (RDF), where every statement is a subject, predicate and object triple, or on other graph models. It lets people and software query how things connect, not only what they are.",
+  "shortAnswer": "A knowledge graph is a structured representation of knowledge in which entities, such as concepts, people, obligations or procedures, are stored as nodes and the relationships between them as labeled edges. It can be built on open W3C standards such as the Resource Description Framework (RDF), where every statement is a subject, predicate and object triple, or on other graph models. It lets people and software query how things connect, not only what they are.",
   "keyTakeaways": [
-    "A knowledge graph stores entities as nodes and relationships as labelled edges, so connections are data rather than prose.",
+    "A knowledge graph stores entities as nodes and relationships as labeled edges, so connections are data rather than prose.",
     "The W3C Resource Description Framework (RDF) models knowledge as subject, predicate, object triples; an RDF graph is a set of such triples.",
     "Related W3C standards cover ontologies (OWL), controlled vocabularies (SKOS) and querying (SPARQL).",
     "In learning, a knowledge graph can link obligations, concepts, learning outcomes, assessments and sources, which supports traceability and impact analysis.",
@@ -79,7 +79,7 @@
         },
         {
           "type": "p",
-          "text": "RDF 1.2 is relevant to provenance: its triple terms let a graph record facts about a statement itself, such as who asserted it and from which source. Knowledge graphs can also be built on property graph databases, which use a different model and query languages, and many organisations use both."
+          "text": "RDF 1.2 is relevant to provenance: its triple terms let a graph record facts about a statement itself, such as who asserted it and from which source. Knowledge graphs can also be built on property graph databases, which use a different model and query languages, and many organizations use both."
         }
       ]
     },

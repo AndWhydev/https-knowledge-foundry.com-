@@ -37,7 +37,7 @@ const capabilities = [
   {
     icon: <Ruler className="h-5 w-5" />,
     title: "Competency frameworks",
-    desc: "Capability and role models mapping skills, knowledge, behaviours, and performance criteria, aligned to assessment logic in the framework.",
+    desc: "Capability and role models mapping skills, knowledge, behaviors, and performance criteria, aligned to assessment logic in the framework.",
   },
   {
     icon: <Award className="h-5 w-5" />,
@@ -51,8 +51,8 @@ const capabilities = [
   },
   {
     icon: <Repeat className="h-5 w-5" />,
-    title: "Harmonising many standards",
-    desc: "SOP plus ISO 9001 plus ISO 27001 in one programme. Conflicts, overlaps, and redundancies are surfaced explicitly rather than hidden.",
+    title: "Harmonizing many standards",
+    desc: "SOP plus ISO 9001 plus ISO 27001 in one program. Conflicts, overlaps, and redundancies are surfaced explicitly rather than hidden.",
   },
 ];
 
@@ -60,7 +60,7 @@ const steps = [
   {
     n: "01",
     title: "Standard",
-    desc: "The source requirement, whether an external framework, an internal competency model, a certification guideline, or an organisational methodology, is ingested with provenance.",
+    desc: "The source requirement, whether an external framework, an internal competency model, a certification guideline, or an organizational methodology, is ingested with provenance.",
   },
   {
     n: "02",
@@ -95,7 +95,7 @@ const faq = [
   },
   {
     q: "Can you handle overlapping standards without duplicate content?",
-    a: "Yes. Harmonising many standards is a first class capability. When ISO 9001 and ISO 27001 both require a control that maps to the same framework node, the content satisfies both. Redundancies are surfaced. Conflicts are flagged for human resolution rather than silently reconciled.",
+    a: "Yes. Harmonizing many standards is a first class capability. When ISO 9001 and ISO 27001 both require a control that maps to the same framework node, the content satisfies both. Redundancies are surfaced. Conflicts are flagged for human resolution rather than silently reconciled.",
   },
   {
     q: "What happens when a standard is revised, for example ISO 27001:2022 replacing 2013?",
@@ -144,7 +144,7 @@ export default function StandardsAccreditationPage() {
             Gaps are visible.
           </>
         }
-        lede="Standards, competency frameworks, accreditation criteria, and organisational methodologies provide structure. Transforming those requirements into meaningful, verifiable learning is where most programmes fail. This is where they hold up."
+        lede="Standards, competency frameworks, accreditation criteria, and organizational methodologies provide structure. Transforming those requirements into meaningful, verifiable learning is where most programs fail. This is where they hold up."
         secondaryCta={{ label: "See it work", href: "/platform/see-it-work" }}
         visual={<AnimatedEditorial src="editorial-standards.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
@@ -157,8 +157,8 @@ export default function StandardsAccreditationPage() {
           Most standards were never designed for learning. They exist to
           establish structural requirements, operational controls, and
           performance criteria for audit, not to teach anyone. When
-          organisations translate them into training, interpretation drift is
-          almost guaranteed. Different authors emphasise different clauses,
+          organizations translate them into training, interpretation drift is
+          almost guaranteed. Different authors emphasize different clauses,
           reviewers second guess each other, and the connection between
           requirement and instruction becomes impossible to defend.
         </p>
@@ -200,7 +200,7 @@ export default function StandardsAccreditationPage() {
           <strong>Coverage becomes systematic</strong>, not assumed.{" "}
           <strong>Alignment becomes explicit</strong>, not interpretive.{" "}
           <strong>Traceability becomes forensic</strong>, not anecdotal. When a
-          regulator asks how the programme satisfies clause 7.5.3, the answer
+          regulator asks how the program satisfies clause 7.5.3, the answer
           is a report. And the report is testable.
         </p>
       </ProseBlock>

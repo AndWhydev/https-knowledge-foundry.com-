@@ -18,41 +18,41 @@ import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/industries/government-defence" },
-  title: "Government and defence training",
+  title: "Government and defense training",
   description:
-    "IRAP aware deployment, cleared workforce training, and export control adjacent instruction, with exportable evidence for each module, assessment and decision.",
+    "Deployment for protected environments, cleared workforce training, and export control instruction, with exportable evidence for each module and assessment.",
 };
 
 const capabilities = [
   {
     icon: <Lock className="h-5 w-5" />,
-    title: "Deployment conscious of IRAP",
-    desc: "Deployment posture accommodates protected environments and data residency requirements. Assessment and technical documentation support agency IRAP review as part of onboarding.",
+    title: "Deployment for protected environments",
+    desc: "Deployment posture accommodates protected environments and data residency requirements. Assessment and technical documentation support agency security assessment as part of onboarding.",
   },
   {
     icon: <Users className="h-5 w-5" />,
     title: "Cleared workforce enablement",
-    desc: "Programmes structured for cleared personnel (mandatory security training, handling of protective marking, awareness of insider threat) with coverage tagged to role and evidenced completion.",
+    desc: "Programs structured for cleared personnel (mandatory security training, handling of protective marking, awareness of insider threat) with coverage tagged to role and evidenced completion.",
   },
   {
     icon: <ScrollText className="h-5 w-5" />,
     title: "Traceability from policy to instruction",
-    desc: "PSPF, ISM, and agency specific policy documents parsed at clause level. Each module, each assessment, each scenario traces to the policy control it exists to serve.",
+    desc: "Security control frameworks (NIST SP 800-53 and CMMC in the US, the UAE Information Assurance Regulation, NIS2 in the EU, the PSPF and ISM in Australia) and agency specific policy parsed at clause level. Each module, each assessment, each scenario traces to the policy control it exists to serve.",
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
     title: "Training adjacent to export control",
-    desc: "For programmes that touch technical data under export control (DTC obligations, workflows adjacent to ITAR) the framework enforces authorship boundaries and evidences delivery limited by access.",
+    desc: "For programs that touch technical data under export control (ITAR and EAR in the US, the EU Dual Use Regulation, the Foreign Exchange and Foreign Trade Act in Japan) the framework enforces authorship boundaries and evidences delivery limited by access.",
   },
   {
     icon: <FileCheck2 className="h-5 w-5" />,
     title: "Evidence for external review",
-    desc: "For ANAO performance audits, parliamentary review, or interoperability assessments across joint forces, evidence exports in a coherent, versioned form that survives external scrutiny.",
+    desc: "For performance audits by the GAO or a national audit office, legislative review, or interoperability assessments across joint forces, evidence exports in a coherent, versioned form that survives external scrutiny.",
   },
   {
     icon: <Fingerprint className="h-5 w-5" />,
     title: "Variants across many classifications",
-    desc: "Where the same programme runs across classifications or across coalition partners, variants live on one framework. Governance stays central. Expression specific to environment is controlled.",
+    desc: "Where the same program runs across classifications or across coalition partners, variants live on one framework. Governance stays central. Expression specific to environment is controlled.",
   },
 ];
 
@@ -60,7 +60,7 @@ const steps = [
   {
     n: "01",
     title: "Interpret the policy stack",
-    desc: "PSPF, ISM, agency specific policy, and operational directives are ingested and parsed at clause level, with provenance retained across the chain.",
+    desc: "Security control frameworks, agency specific policy, and operational directives are ingested and parsed at clause level, with provenance retained across the chain.",
   },
   {
     n: "02",
@@ -75,26 +75,26 @@ const steps = [
   {
     n: "04",
     title: "Evidence for external review",
-    desc: "Coverage, verification history, sign off chains, and version records export in a form ready for ANAO review, parliamentary reporting, or interoperability assessment across joint forces.",
+    desc: "Coverage, verification history, sign off chains, and version records export in a form ready for audit office review, legislative reporting, or interoperability assessment across joint forces.",
   },
 ];
 
 const faq = [
   {
-    q: "Does the Foundry hold IRAP assessment or Australian security clearances?",
-    a: "The Foundry does not represent itself as IRAP assessed and does not hold agency security clearances on the platform's behalf. Deployment posture, data residency options, and controls are documented for IRAP assessor review as part of agency onboarding, and enterprise engagements include security due diligence appropriate to the classification of the material involved.",
+    q: "Does the Foundry hold government security authorizations or clearances?",
+    a: "The Foundry does not represent itself as authorized or assessed under any government security program (such as FedRAMP in the US or IRAP in Australia) and does not hold agency security clearances on the platform's behalf. Deployment posture, data residency options, and controls are documented for assessor review as part of agency onboarding, and enterprise engagements include security due diligence appropriate to the classification of the material involved.",
   },
   {
     q: "Can this support training that touches technical data under export control?",
-    a: "Where programmes touch data under export control (Defence Trade Controls Act obligations or workflows adjacent to ITAR) the framework enforces authorship boundaries and controls delivery to individuals authorised for access. The evidence trail supports external review by the relevant export control authority.",
+    a: "Where programs touch data under export control (ITAR, EAR, the EU Dual Use Regulation, or equivalent national regimes) the framework enforces authorship boundaries and controls delivery to individuals authorized for access. The evidence trail supports external review by the relevant export control authority.",
   },
   {
-    q: "How does the platform support PSPF and ISM alignment?",
-    a: "PSPF and ISM controls are parsed at clause level, and the framework encodes which roles are accountable for which controls. Instruction and assessment are generated to satisfy the specific control, and coverage is exportable per control, per role, per environment.",
+    q: "How does the platform support alignment to security control frameworks?",
+    a: "Controls from frameworks such as NIST SP 800-53, CMMC, NIS2, and the ISM are parsed at clause level, and the framework encodes which roles are accountable for which controls. Instruction and assessment are generated to satisfy the specific control, and coverage is exportable per control, per role, per environment.",
   },
   {
-    q: "What happens with a machinery of government change or a policy update?",
-    a: "When source documents update (a PSPF revision, an ISM update, an agency policy change, a machinery of government reshuffle) the system parses the source again and diffs against the existing framework. Affected obligations and modules are surfaced explicitly so remediation is targeted, not wholesale.",
+    q: "What happens with a government reorganization or a policy update?",
+    a: "When source documents update (a control framework revision, an agency policy change, a reorganization of government functions) the system parses the source again and diffs against the existing framework. Affected obligations and modules are surfaced explicitly so remediation is targeted, not wholesale.",
   },
   {
     q: "Can the platform be deployed in a protected environment?",
@@ -106,13 +106,13 @@ const related = [
   {
     eyebrow: "Program",
     title: "Compliance programs",
-    desc: "The program model for translating policy instruments (including PSPF, ISM, and agency directives) into structured behavioural adherence.",
+    desc: "The program model for translating policy instruments (including security control frameworks and agency directives) into structured behavioral adherence.",
     href: "/programs/compliance",
   },
   {
     eyebrow: "Capability",
     title: "Audit & evidence",
-    desc: "How evidence packs are constructed, versioned, and exported for external review, including ANAO performance audit and parliamentary scrutiny.",
+    desc: "How evidence packs are constructed, versioned, and exported for external review, including performance audit and legislative scrutiny.",
     href: "/platform/audit-evidence",
   },
   {
@@ -127,17 +127,17 @@ export default function GovernmentDefencePage() {
   return (
     <>
       <TopicHeader
-        eyebrow="Industry · Government & Defence"
+        eyebrow="Industry · Government & Defense"
         breadcrumb={[
           { label: "Industries", href: "/industries" },
-          { label: "Government & defence", href: "/industries/government-defence" },
+          { label: "Government & defense", href: "/industries/government-defence" },
         ]}
         title={
           <>
             Cleared. Evidenced. <span className="text-[color:var(--color-forge)]">Defensible</span>.
           </>
         }
-        lede="PSPF, ISM, and agency specific policy translated into structured instruction. Cleared workforce training with coverage tagged to role and evidence that survives external review."
+        lede="Security control frameworks and agency specific policy translated into structured instruction. Cleared workforce training with coverage tagged to role and evidence that survives external review."
         secondaryCta={{ label: "See the platform", href: "/platform" }}
         visual={<AnimatedEditorial src="editorial-governance.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
@@ -147,21 +147,21 @@ export default function GovernmentDefencePage() {
         title="Public accountability demands more than completion records."
       >
         <p>
-          Government and defence training is scrutinised by ANAO performance audit, by
-          parliamentary committee, by interoperability assessment across joint forces, and by internal
+          Government and defense training is scrutinized by performance audit (the GAO in the
+          United States, national audit offices elsewhere), by legislative committee, by interoperability assessment across joint forces, and by internal
           agency review. A completion register does not answer the questions those reviews ask.
           A framework tied to policy, tagged to roles, and evidenced at the individual level does.
         </p>
         <p>
-          The Foundry treats PSPF, the ISM, agency specific policy, and operational directives
+          The Foundry treats security control frameworks, agency specific policy, and operational directives
           as sources of structural obligation. Frameworks encode who must know what, to what
-          standard, with what evidence. Programme output is downstream of the framework, and the
+          standard, with what evidence. Program output is downstream of the framework, and the
           framework is what survives external scrutiny.
         </p>
       </ProseBlock>
 
       <FeatureGrid
-        eyebrow="Six moves for government and defence"
+        eyebrow="Six moves for government and defense"
         title="Workforce enablement anchored to policy and led by evidence."
         features={capabilities}
         columns={3}
@@ -179,18 +179,18 @@ export default function GovernmentDefencePage() {
         title="Evidence prepared for the review you have not yet been notified of."
       >
         <p>
-          Frameworks aligned to PSPF, ISM, and agency specific policy. Programmes that satisfy
+          Frameworks aligned to national security standards and agency specific policy. Programs that satisfy
           them, per role, per clearance, per environment. Verification that survives external
           audit. Evidence packs that reconstruct each decision. Who trained on what, when, to
           what threshold, with what sign off.
         </p>
         <p>
-          When ANAO or parliamentary scrutiny arrives, the artefact is a framework, not a
-          defence rebuilt from a completion register.
+          When audit office or legislative scrutiny arrives, the artifact is a framework, not a
+          defense rebuilt from a completion register.
         </p>
       </ProseBlock>
 
-      <FAQ title="How government and defence engagements work, in detail." items={faq} />
+      <FAQ title="How government and defense engagements work, in detail." items={faq} />
       <Related items={related} />
       <CtaBand
         eyebrow="Bring a policy instrument"

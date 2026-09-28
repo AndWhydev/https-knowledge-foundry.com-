@@ -17,7 +17,7 @@ export function BentoOutputs() {
           </SplitText>
           <Reveal delay={0.35}>
             <p className="text-lede mt-6 max-w-[52ch]">
-              Every Foundry engagement leaves you with a set of artefacts, each one
+              Every Foundry engagement leaves you with a set of artifacts, each one
               exportable, versioned, and traceable to source.
             </p>
           </Reveal>
@@ -91,7 +91,7 @@ export function BentoOutputs() {
               icon={<LineChart className="h-5 w-5" />}
               eyebrow="Drift signal"
               title="Where the framework and reality diverge."
-              desc="Continuous drift detection between authored knowledge and observed behaviour or updated policy."
+              desc="Continuous drift detection between authored knowledge and observed behavior or updated policy."
               visual={<DriftChartVisual />}
             />
           </RevealItem>
@@ -176,7 +176,7 @@ function FrameworkVisual() {
           <br />
           <span className="text-[color:var(--color-forge)]">&quot;assessments&quot;</span>: <span className="text-[color:var(--color-ink)]">64</span>,
           <br />
-          <span className="text-[color:var(--color-forge)]">&quot;standards&quot;</span>: <span className="text-[color:var(--color-ink)]">[&quot;AUSTRAC-AML/CTF&quot;, ...]</span>,
+          <span className="text-[color:var(--color-forge)]">&quot;standards&quot;</span>: <span className="text-[color:var(--color-ink)]">[&quot;FATF-R10&quot;, ...]</span>,
           <br />
           <span className="text-[color:var(--color-forge)]">&quot;hash&quot;</span>: <span className="text-[color:var(--color-ink)]">&quot;fh:a7b1&hellip;c02e&quot;</span>,
           <br />

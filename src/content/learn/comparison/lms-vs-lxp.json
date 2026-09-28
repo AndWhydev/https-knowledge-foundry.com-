@@ -9,7 +9,7 @@
     "The LMS pushes assigned training and records it; the LXP helps learners pull content they choose.",
     "Mandatory and regulated training almost always needs an LMS style record of assignment, completion, and result.",
     "LXPs commonly rely on activity data beyond course completion, often captured with xAPI.",
-    "Many organisations run both: the LMS for obligations, the LXP for development."
+    "Many organizations run both: the LMS for obligations, the LXP for development."
   ],
   "sections": [
     {
@@ -18,11 +18,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The core difference is who drives the learning: in an LMS the organisation decides what each person must complete, while in an LXP the learner chooses from a wide, curated range of content. That difference in control shapes everything else, from the data each system collects to the reports it produces."
+          "text": "The core difference is who drives the learning: in an LMS the organization decides what each person must complete, while in an LXP the learner chooses from a wide, curated range of content. That difference in control shapes everything else, from the data each system collects to the reports it produces."
         },
         {
           "type": "p",
-          "text": "An LMS is described in the scope of the Institute of Electrical and Electronics Engineers (IEEE) draft cmi5 standard as a system that manages learners, learning content, and \"the authorized use of the learning content to learners\" ([IEEE P9274.3.1](https://standards.ieee.org/ieee/9274.3.1/11183/)). Its design centre is the course assignment and the completion record. See [learning management system](/glossary/learning-management-system)."
+          "text": "An LMS is described in the scope of the Institute of Electrical and Electronics Engineers (IEEE) draft cmi5 standard as a system that manages learners, learning content, and \"the authorized use of the learning content to learners\" ([IEEE P9274.3.1](https://standards.ieee.org/ieee/9274.3.1/11183/)). Its design center is the course assignment and the completion record. See [learning management system](/glossary/learning-management-system)."
         },
         {
           "type": "p",
@@ -36,7 +36,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The table sets out typical category characteristics. Some products blur the line, so use it to clarify which job you need done rather than to classify a specific product."
+          "text": "The table sets out typical category characteriztics. Some products blur the line, so use it to clarify which job you need done rather than to classify a specific product."
         },
         {
           "type": "table",
@@ -49,7 +49,7 @@
           "rows": [
             [
               "Who drives learning",
-              "The organisation assigns training",
+              "The organization assigns training",
               "The learner discovers and chooses"
             ],
             [
@@ -59,7 +59,7 @@
             ],
             [
               "Core functions",
-              "Enrol, launch, track, certify, report",
+              "Enroll, launch, track, certify, report",
               "Aggregate, recommend, curate, share"
             ],
             [
@@ -111,7 +111,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Choose an LMS when you must assign training and prove it was completed; choose an LXP when the goal is broad, voluntary capability building and you already have a way to evidence mandatory training. For regulated organisations, the LMS function is rarely optional."
+          "text": "Choose an LMS when you must assign training and prove it was completed; choose an LXP when the goal is broad, voluntary capability building and you already have a way to evidence mandatory training. For regulated organizations, the LMS function is rarely optional."
         },
         {
           "type": "ul",
@@ -129,7 +129,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "They work together by splitting the job: the LMS holds required training and its records, and the LXP provides the front door and the wider development catalogue. In a common pattern, learners see assigned LMS courses inside the LXP, launch them from there, and completions flow back to the LMS as the system of record."
+          "text": "They work together by splitting the job: the LMS holds required training and its records, and the LXP provides the front door and the wider development catalog. In a common pattern, learners see assigned LMS courses inside the LXP, launch them from there, and completions flow back to the LMS as the system of record."
         },
         {
           "type": "ol",
@@ -149,7 +149,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Knowledge Foundry is neither an LMS nor an LXP. It defines the knowledge framework behind training (what must be known, how concepts relate, and where competence is assessed) and publishes content and assessments into whichever delivery platforms an organisation uses, so that both assigned and discoverable learning trace back to the same defined source."
+          "text": "Knowledge Foundry is neither an LMS nor an LXP. It defines the knowledge framework behind training (what must be known, how concepts relate, and where competence is assessed) and publishes content and assessments into whichever delivery platforms an organization uses, so that both assigned and discoverable learning trace back to the same defined source."
         }
       ]
     }
@@ -157,7 +157,7 @@
   "faqs": [
     {
       "q": "Is an LXP replacing the LMS?",
-      "a": "Not in regulated settings. An LXP addresses discovery and engagement, but organisations still need to assign training by role, track due dates, and produce records of completion and results. Many organisations run an LXP alongside an LMS rather than instead of one."
+      "a": "Not in regulated settings. An LXP addresses discovery and engagement, but organizations still need to assign training by role, track due dates, and produce records of completion and results. Many organizations run an LXP alongside an LMS rather than instead of one."
     },
     {
       "q": "Can an LXP track mandatory training?",
@@ -202,7 +202,7 @@
       "href": "/platform/integrations"
     },
     {
-      "label": "Enterprise learning modernisation",
+      "label": "Enterprise learning modernization",
       "href": "/platform/enterprise-learning-modernisation"
     }
   ],

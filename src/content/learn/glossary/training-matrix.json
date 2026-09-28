@@ -3,12 +3,12 @@
   "kind": "glossary",
   "title": "What is a training matrix?",
   "seoTitle": "Training matrix: definition",
-  "description": "A training matrix maps roles to the training, licences and verifications each requires and shows who is current. Structure, uses and an example.",
-  "shortAnswer": "A training matrix is a grid that maps roles or people against the training, licences, competency assessments and refreshers each role requires, and shows the status of each requirement: completed, due, overdue or not required. It turns a competency framework and a training needs analysis into an operational record, so managers and auditors can see at a glance who is authorised and current for which work.",
+  "description": "A training matrix maps roles to the training, licenses and verifications each requires and shows who is current. Structure, uses and an example.",
+  "shortAnswer": "A training matrix is a grid that maps roles or people against the training, licenses, competency assessments and refreshers each role requires, and shows the status of each requirement: completed, due, overdue or not required. It turns a competency framework and a training needs analysis into an operational record, so managers and auditors can see at a glance who is authorized and current for which work.",
   "keyTakeaways": [
     "A training matrix answers two questions: what does each role require, and who currently meets it.",
-    "Rows are usually people or roles; columns are training, licences, verifications and refreshers, each with an expiry or review date.",
-    "In safety regulated work, the matrix is how an organisation evidences that its system defines and tracks competency requirements.",
+    "Rows are usually people or roles; columns are training, licenses, verifications and refreshers, each with an expiry or review date.",
+    "In safety regulated work, the matrix is how an organization evidences that its system defines and tracks competency requirements.",
     "A matrix that tracks only course completions shows attendance, not competence; include assessment and verification results."
   ],
   "term": "training matrix",
@@ -24,7 +24,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "A training matrix contains a list of roles or people, a list of requirements, and a status for each combination. The requirement list is drawn from the organisation's [competency framework](/glossary/competency-framework), its obligations and the outputs of a [training needs analysis](/glossary/training-needs-analysis)."
+          "text": "A training matrix contains a list of roles or people, a list of requirements, and a status for each combination. The requirement list is drawn from the organization's [competency framework](/glossary/competency-framework), its obligations and the outputs of a [training needs analysis](/glossary/training-needs-analysis)."
         },
         {
           "type": "table",
@@ -36,7 +36,7 @@
           "rows": [
             [
               "Requirement",
-              "The course, licence, unit of competency, verification or policy attestation"
+              "The course, license, unit of competency, verification or policy attestation"
             ],
             [
               "Source",
@@ -48,7 +48,7 @@
             ],
             [
               "Evidence type",
-              "Completion, assessment result, licence number or [verification of competency](/glossary/verification-of-competency)"
+              "Completion, assessment result, license number or [verification of competency](/glossary/verification-of-competency)"
             ],
             [
               "Validity",
@@ -63,16 +63,16 @@
       ]
     },
     {
-      "id": "australian-use",
-      "heading": "Why do Australian regulated organisations use training matrices?",
+      "id": "why-used",
+      "heading": "Why do regulated organizations use training matrices?",
       "blocks": [
         {
           "type": "p",
-          "text": "Australian organisations use training matrices because regulators and accreditation schemes expect a system that defines who needs what competence and records that it is held. For example, the Office of the Federal Safety Commissioner [mobile plant fact sheet](https://www.fsc.gov.au/sites/default/files/2021-09/Fact%20Sheet%20Verification%20of%20Competency%20-%20Mobile%20Plant.pdf) states that audit criterion H16.8 \"specifically requires a system to be in place to define the competency requirements for the operation of mobile plant\", which may combine licences, RTO training and verification of competency."
+          "text": "Regulated organizations use training matrices because regulators and accreditation schemes expect a system that defines who needs what competence and records that it is held. For example, Australia's Office of the Federal Safety Commissioner [mobile plant fact sheet](https://www.fsc.gov.au/sites/default/files/2021-09/Fact%20Sheet%20Verification%20of%20Competency%20-%20Mobile%20Plant.pdf) states that audit criterion H16.8 \"specifically requires a system to be in place to define the competency requirements for the operation of mobile plant\", which may combine licenses, RTO training and verification of competency."
         },
         {
           "type": "p",
-          "text": "In NSW mining, the [NSW Resources Regulator](https://www.resources.nsw.gov.au/sites/default/files/2024-05/operating-mobile-plant-verification-of-competency.pdf) points to the duty to provide information, training and instruction and to the record of training provision in the Work Health and Safety (Mines and Petroleum Sites) Regulation 2022. A matrix is the usual working view of those records. Guidance on audit ready records is in [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
+          "text": "In mining in New South Wales, the [NSW Resources Regulator](https://www.resources.nsw.gov.au/sites/default/files/2024-05/operating-mobile-plant-verification-of-competency.pdf) points to the duty to provide information, training and instruction and to the record of training provision in the Work Health and Safety (Mines and Petroleum Sites) Regulation 2022. A matrix is the usual working view of those records. Guidance on audit ready records is in [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
         }
       ]
     },
@@ -87,7 +87,7 @@
         {
           "type": "ul",
           "items": [
-            "A **training matrix** answers: is this person authorised and current for this work?",
+            "A **training matrix** answers: is this person authorized and current for this work?",
             "A **skills matrix** answers: how deep is our bench for this capability, and who could cover?",
             "A **learning management system** can hold the completion data, but the matrix logic (which role needs what, and why) must be defined first. See [how to build a training matrix](/guides/how-to-build-a-training-matrix)."
           ]
@@ -154,7 +154,7 @@
   ],
   "faqs": [
     {
-      "q": "Should a training matrix be organised by role or by person?",
+      "q": "Should a training matrix be organized by role or by person?",
       "a": "Both views are needed. Define requirements by role, because roles are stable and requirements follow the work. Then generate the person view by applying each person's roles. Maintaining requirements person by person leads to inconsistencies when people change roles or requirements change."
     },
     {

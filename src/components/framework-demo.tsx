@@ -22,18 +22,18 @@ type Scenario = {
 const scenarios: Scenario[] = [
   {
     domain: "Financial services",
-    standard: "AUSTRAC AML/CTF · APRA CPS 234",
+    standard: "FATF Recommendations 1 and 10 · AML/CFT",
     source:
-      "A reporting entity must identify money laundering and terrorism financing risks arising from its designated services, and put in place a risk-based programme of controls proportionate to those risks. Customer identification procedures must occur before providing a designated service, with enhanced due diligence for higher-risk customers.",
+      "A regulated institution must identify money laundering and terrorist financing risks arising from its products and services, and put in place a risk-based program of controls proportionate to those risks. Customer due diligence must be completed before a business relationship is established, with enhanced due diligence for higher-risk customers.",
     concepts: [
-      { label: "Reporting entity", kind: "concept" },
-      { label: "Designated services", kind: "concept" },
+      { label: "Regulated institution", kind: "concept" },
+      { label: "Products and services", kind: "concept" },
       { label: "ML/TF risk", kind: "concept" },
-      { label: "Risk-based programme", kind: "control" },
-      { label: "Customer identification", kind: "control" },
+      { label: "Risk-based program", kind: "control" },
+      { label: "Customer due diligence", kind: "control" },
       { label: "Enhanced due diligence", kind: "control" },
       { label: "Higher-risk customer", kind: "concept" },
-      { label: "Timing of identification", kind: "check" },
+      { label: "Timing of due diligence", kind: "check" },
       { label: "Proportionality test", kind: "check" },
     ],
     edges: [
@@ -78,7 +78,7 @@ const scenarios: Scenario[] = [
   },
   {
     domain: "Healthcare",
-    standard: "NSQHS Std 5 · Medication safety",
+    standard: "Hospital protocol · Medication safety",
     source:
       "The clinician verifies the patient's identity using at least three approved identifiers, checks the medication order against the medication chart, confirms allergies and adverse reactions on the medication record, and administers the medication using the seven rights. All administration is documented immediately on completion.",
     concepts: [
@@ -432,14 +432,14 @@ function FrameworkCanvas({
   // neighbouring nodes.
   const labels = useMemo(() => {
     const eligible = new Set<number>();
-    eligible.add(0); // always label the centre
+    eligible.add(0); // always label the center
     scenario.verifiedIndex.slice(0, verifiedShown).forEach((idx) => eligible.add(idx));
     return Array.from(eligible)
       .filter((i) => i < conceptsShown)
       .map((i) => {
         const n = nodes[i];
         const c = scenario.concepts[i];
-        // Centre label goes directly above the node
+        // Center label goes directly above the node
         if (n.ring === 0) {
           return { i, label: c.label, x: n.x, y: n.y - 20, anchor: "middle" as const };
         }
@@ -528,7 +528,7 @@ function FrameworkCanvas({
         );
       })}
 
-      {/* Labels — only centre + verified nodes, positioned by angle */}
+      {/* Labels — only center + verified nodes, positioned by angle */}
       {labels.map(({ i, label, x, y, anchor }) => {
         const isVerified = verifiedSet.has(i);
         const isCentre = nodes[i].ring === 0;

@@ -47,7 +47,7 @@ const capabilities = [
   {
     icon: <Fingerprint className="h-5 w-5" />,
     title: "Cryptographic verification",
-    desc: "Foundry Hash on each block. Master Integrity Root on each programme. Forensic Revision Chain behind each change. Integrity is mathematical.",
+    desc: "Foundry Hash on each block. Master Integrity Root on each program. Forensic Revision Chain behind each change. Integrity is mathematical.",
   },
   {
     icon: <Package className="h-5 w-5" />,
@@ -75,12 +75,12 @@ const steps = [
   {
     n: "04",
     title: "Signoff",
-    desc: "What was approved. Each release action is signed by role and identity, tied to the specific hash it authorised, and recorded permanently.",
+    desc: "What was approved. Each release action is signed by role and identity, tied to the specific hash it authorized, and recorded permanently.",
   },
   {
     n: "05",
     title: "Substrate",
-    desc: "What evidence supports. Each claim in the programme is exportable back to source material, framework node, review record, and hash. End to end.",
+    desc: "What evidence supports. Each claim in the program is exportable back to source material, framework node, review record, and hash. End to end.",
   },
 ];
 
@@ -95,7 +95,7 @@ const faq = [
   },
   {
     q: "Can we prove integrity to an auditor without giving them platform access?",
-    a: "Yes. Hash values, the Master Integrity Root, provenance records, and approval trails are exportable as portable artefacts. An auditor with the released content, the exported evidence, and any standard hashing tool can independently confirm integrity. Verification does not require Knowledge Foundry to be in the loop.",
+    a: "Yes. Hash values, the Master Integrity Root, provenance records, and approval trails are exportable as portable artifacts. An auditor with the released content, the exported evidence, and any standard hashing tool can independently confirm integrity. Verification does not require Knowledge Foundry to be in the loop.",
   },
   {
     q: "How long is evidence retained?",
@@ -211,7 +211,7 @@ export default function AuditEvidencePage() {
       <CtaBand
         eyebrow="For audit, risk, and accreditation leaders"
         title="See the evidence pack on your own material."
-        lede="Send us a live programme and the audit or accreditation you must satisfy. We spend 45 minutes with the Foundry, and you leave with the exported evidence pack. Yours to keep."
+        lede="Send us a live program and the audit or accreditation you must satisfy. We spend 45 minutes with the Foundry, and you leave with the exported evidence pack. Yours to keep."
       />
     </>
   );

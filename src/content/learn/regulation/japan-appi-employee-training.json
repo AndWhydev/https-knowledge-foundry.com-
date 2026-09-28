@@ -1,0 +1,376 @@
+{
+  "slug": "japan-appi-employee-training",
+  "kind": "regulation",
+  "title": "What does Japan's APPI require for employee supervision and training?",
+  "seoTitle": "Japan APPI employee training",
+  "description": "What Japan's APPI and the PPC General Rules Guidelines require for employee supervision and education under Articles 23 and 24, and how to evidence it.",
+  "shortAnswer": "Japan's Act on the Protection of Personal Information (APPI) requires every business handling personal information to take necessary and appropriate security control measures (Article 23) and to supervise employees who handle personal data (Article 24). The Personal Information Protection Commission's General Rules Guidelines make employee education a mandatory human security control measure: staff must be made fully aware of proper handling of personal data and given appropriate education, with periodic training as the illustrated method.",
+  "keyTakeaways": [
+    "APPI Article 23 requires security control measures and Article 24 requires necessary and appropriate supervision of employees who handle personal data. These article numbers apply after the 2021 amendment renumbered the Act.",
+    "The PPC General Rules Guidelines list employee education (juugyousha no kyouiku) as a human security control measure that businesses must take, with periodic training on handling rules as the example method.",
+    "\"Employee\" is broad: it covers regular, contract, part time and dispatched workers and also directors, executive officers and auditors.",
+    "The Guidelines say it is desirable to scale the content and frequency of education to risk, based on the size of the business and the nature and volume of personal data handled.",
+    "An amending Act was promulgated on July 17, 2026. It mostly takes effect within two years of promulgation and does not change the Article 23 and 24 duties, but it adds administrative surcharges and tougher penalties that raise the stakes of weak controls."
+  ],
+  "jurisdiction": "Japan (national)",
+  "regulator": "Personal Information Protection Commission (PPC)",
+  "appliesTo": [
+    "Businesses handling personal information (kojin jouhou toriatsukai jigyousha) in Japan, regardless of size",
+    "Foreign businesses handling personal information of individuals in Japan in connection with supplying goods or services to them",
+    "Directors, officers, employees, contract and dispatched workers who handle personal data",
+    "Privacy, compliance, information security and training managers responsible for data handling rules"
+  ],
+  "sections": [
+    {
+      "id": "legal-basis",
+      "heading": "Where does the APPI training duty come from?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The training duty comes from two short articles of the Act on the Protection of Personal Information (Kojin Jouhou no Hogo ni Kansuru Houritsu, Act No. 57 of 2003), read with the Guidelines issued by the Personal Information Protection Commission (PPC). The Act itself does not use the word \"training\". The Guidelines turn the Act's general duties into specific measures, and education of employees is one of them."
+        },
+        {
+          "type": "p",
+          "text": "**Article 23** (security control measures, anzen kanri sochi) says that a business handling personal information \"must take the necessary and appropriate measures for managing the security of personal data including preventing the leaking, loss or damage of the personal data they handle\". **Article 24** (supervision of employees, juugyousha no kantoku) says that \"in having an employee handle personal data, businesses handling personal information must exercise the necessary and adequate supervision over that employee to ensure the secure management of the personal data\" (English wording from the [Japanese Law Translation database](https://www.japaneselawtranslation.go.jp/en/laws/view/4241/en); the binding Japanese text is on [e-Gov Laws](https://laws.e-gov.go.jp/law/415AC0000000057)). Article 25 applies a parallel supervision duty to contractors that handle personal data on the business's behalf."
+        },
+        {
+          "type": "callout",
+          "title": "Check article numbers before you cite them",
+          "text": "Older training materials cite Articles 20, 21 and 22 for these duties. The Act was renumbered by the 2021 amendment (Act No. 37 of 2021), and security control measures, supervision of employees and supervision of trustees are now Articles 23, 24 and 25. Leak reporting is Article 26. The PPC General Rules Guidelines, revised in June 2026, state article numbers as at June 14, 2026."
+        },
+        {
+          "type": "p",
+          "text": "For international readers, Japanese privacy regulation works in layers. The Act sets principles and duties. A Cabinet Order and PPC Rules (kisoku) fill in technical detail such as breach thresholds. The PPC's Guidelines (gaidorain) and Q&A explain how the Commission interprets the Act. The Guidelines are not legislation, but they state plainly how to read them: items written as \"must\" (shinakereba naranai) may be judged a violation of the Act if not followed, while items written as \"desirable\" (nozomashii) are not an immediate violation but are expected where feasible ([PPC General Rules Guidelines](https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/))."
+        },
+        {
+          "type": "callout",
+          "title": "About English translations",
+          "text": "English versions of Japanese laws on the Ministry of Justice's Japanese Law Translation database are unofficial reference translations. The database states that only the original Japanese texts have legal effect. The Japanese text on e-Gov prevails where the two differ, and the translation may lag recent amendments."
+        }
+      ]
+    },
+    {
+      "id": "what-the-guidelines-require",
+      "heading": "What do the PPC Guidelines require for employee education?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The PPC Guidelines require businesses to make employees fully aware of the proper handling of personal data and to give them appropriate education. Section 10 of the General Rules Guidelines (an appendix setting out the security control measures to be taken) groups those measures into a basic policy, handling rules, organizational, human, physical and technical measures, and understanding the external environment. Under **section 10-4, human security control measures** (jinteki anzen kanri sochi), the measure that businesses must take is employee education: staff must be made thoroughly aware of the proper handling of personal data and given appropriate education."
+        },
+        {
+          "type": "p",
+          "text": "The Guidelines then give two example methods, which apply equally to small and medium sized businesses: holding **periodic training** (teikiteki na kenshuu) for employees on points to note when handling personal data, and including confidentiality obligations for personal data in the work rules (shuugyou kisoku) or similar documents. Methods are illustrations, so a business may choose other methods that achieve the same result, but the requirement to educate is not optional."
+        },
+        {
+          "type": "p",
+          "text": "Section 3-4-3 of the Guidelines, on supervision of employees under Article 24, adds a risk based expectation. Considering the harm individuals would suffer from a leak, the size and nature of the business and the nature and volume of personal data handled, it is desirable to strengthen the content and frequency of education and training for employees who handle personal data. The same section lists failures that count as inadequate supervision, including not checking whether employees follow the handling rules, and leaving repeated removal of laptops or media containing personal data unaddressed until a loss occurs."
+        },
+        {
+          "type": "table",
+          "caption": "Where training sits in the APPI framework, as at September 2026",
+          "head": [
+            "Source",
+            "What it says",
+            "Status"
+          ],
+          "rows": [
+            [
+              "APPI Article 23",
+              "Take necessary and appropriate security control measures for personal data",
+              "Binding duty in the Act"
+            ],
+            [
+              "APPI Article 24",
+              "Exercise necessary and adequate supervision over employees who handle personal data",
+              "Binding duty in the Act"
+            ],
+            [
+              "General Rules Guidelines, section 10-4",
+              "Make employees fully aware of proper handling and give appropriate education",
+              "Written as a \"must\": failure may be judged a violation"
+            ],
+            [
+              "Section 10-4 example methods",
+              "Periodic training on handling points; confidentiality in work rules",
+              "Illustrations: other effective methods may be used"
+            ],
+            [
+              "Section 3-4-3",
+              "Scale content and frequency of education to risk",
+              "Written as \"desirable\""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who-counts-as-an-employee",
+      "heading": "Who counts as an employee for APPI supervision?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An employee (juugyousha) is anyone within the organization who works under its direct or indirect direction and supervision, not only people with an employment contract. The Guidelines list regular, contract, fixed term re-hired, part time and casual employees, and also directors, executive officers, board members, statutory auditors and dispatched (temporary agency) workers. A training plan that covers only permanent staff therefore misses people the PPC expects to be supervised."
+        },
+        {
+          "type": "p",
+          "text": "Contractors are handled differently. Where a business entrusts the handling of personal data to another company, Article 25 requires supervision of that company, including selecting a contractor whose security measures are at least equivalent to what the Guidelines require. In practice, contract terms often require the contractor to train its own staff, and the business checks that this happens."
+        }
+      ]
+    },
+    {
+      "id": "small-businesses",
+      "heading": "Do small businesses have a lighter training duty?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No. Small and medium sized businesses must still take the security control measures in Article 23, including employee education, but the Guidelines offer simpler example methods for some measures. A \"small and medium sized business\" in the Guidelines means one with 100 or fewer employees, excluding businesses that handle personal data about more than 5,000 individuals on any day in the previous six months and businesses that handle personal data as a contractor. For the education measure specifically, the example methods for small businesses are the same as for everyone else: periodic training and confidentiality in the work rules."
+        }
+      ]
+    },
+    {
+      "id": "breach-reporting",
+      "heading": "How does leak reporting affect training content?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training must prepare staff to escalate suspected leaks quickly, because Article 26 makes reporting to the PPC mandatory for certain incidents. Since the 2020 amendment took full effect on April 1, 2022, businesses must report to the PPC and notify affected individuals when a leak, loss or damage of personal data falls into a reportable category. Under PPC Rules Article 7, reportable situations include leaks involving sensitive (special care required) personal information, leaks likely to cause financial damage, leaks that may have been committed for a wrongful purpose, and leaks affecting more than 1,000 individuals."
+        },
+        {
+          "type": "p",
+          "text": "The clock is short. The Guidelines give roughly three to five days from the time any department of the business becomes aware of the situation as the benchmark for a prompt preliminary report, and require a final report within 30 days (60 days where the leak may result from an act done for a wrongful purpose, such as unauthorized access). Because the clock starts when any department knows, front line staff must know what to report, to whom, and how fast. The Guidelines also expect a reporting line from employees to responsible persons to be set up in advance as an organizational measure."
+        }
+      ]
+    },
+    {
+      "id": "enforcement-and-reform",
+      "heading": "What happens if training and supervision fall short?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The PPC can request reports and conduct on-site inspections (Article 146), and can issue recommendations and orders for violations of Articles 23 to 26 (Article 148). Breaching a PPC order is a criminal offense punishable by imprisonment of up to one year or a fine of up to 1,000,000 yen (Article 178). An employee or officer who provides or misappropriates a personal information database for wrongful gain faces up to one year's imprisonment or a fine of up to 500,000 yen (Article 179), and the corporation can be fined up to 100 million yen for either offense (Article 184)."
+        },
+        {
+          "type": "p",
+          "text": "The penalties are in transition. The \"Act Partially Amending the Act on the Protection of Personal Information and Related Acts\" was passed by the Diet on July 10, 2026 and promulgated on July 17, 2026, following the PPC's triennial review (the so-called sannen-goto minaoshi)."
+        },
+        {
+          "type": "p",
+          "text": "According to the [PPC's summary of the amending Act](https://www.ppc.go.jp/files/pdf/260717_kaiseihounitsuite.pdf), it introduces an administrative surcharge (kachoukin) for serious violations, broadens and raises the criminal penalties for unlawful provision of personal information databases, and relaxes some consent and breach notification rules. It takes effect, in principle, within two years of promulgation, and the PPC is still preparing the Cabinet Order, Rules and Guidelines ([PPC page on the 2026 amendment](https://www.ppc.go.jp/personalinfo/legal/r8kaiseihogohou/)). The summary does not list changes to Articles 23 or 24, so the education duty described here continues."
+        },
+        {
+          "type": "callout",
+          "title": "Why the insider offense matters for training",
+          "text": "Article 179 targets employees and former employees personally. Training that explains this offense, and the corporate fine under Article 184, gives staff a concrete reason for the handling rules and gives the business evidence that it warned them."
+        }
+      ]
+    },
+    {
+      "id": "what-training-should-cover",
+      "heading": "What should APPI employee training cover?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "APPI training should cover the handling rules the business has actually set, not a generic tour of the Act, because the Guidelines tie education to the proper handling of the business's own personal data. The table below is an illustrative mapping from each obligation to a learning outcome and the evidence that would show it was met. Use a [training needs analysis](/glossary/training-needs-analysis) to decide which roles need which rows."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: APPI obligation to learning outcome to assessment evidence",
+          "head": [
+            "Obligation",
+            "Learning outcome",
+            "Assessment evidence"
+          ],
+          "rows": [
+            [
+              "Article 23 and the handling rules (section 10-2)",
+              "Applies the business's handling rules at each stage: acquisition, use, storage, provision, deletion and disposal",
+              "Scenario questions on the business's own rules; supervisor sign off on first handling tasks"
+            ],
+            [
+              "Article 24 and education (section 10-4)",
+              "Explains confidentiality duties in the work rules and the consequences of breaching them",
+              "Signed acknowledgement of work rules; quiz on confidentiality points"
+            ],
+            [
+              "Organizational measures (section 10-3)",
+              "Recognizes a suspected leak and reports it through the defined line immediately",
+              "Timed incident scenario; records of internal reports"
+            ],
+            [
+              "Article 26 leak reporting",
+              "Privacy lead can classify a reportable situation and meet the three to five day and 30 day benchmarks",
+              "Tabletop exercise record; post-incident review"
+            ],
+            [
+              "Physical and technical measures (sections 10-5, 10-6)",
+              "Follows rules on carrying media and devices, access control and secure deletion",
+              "Observed practice checks; access log reviews"
+            ],
+            [
+              "Article 25 trustee supervision",
+              "Procurement staff check a contractor's security and training before entrusting data",
+              "Completed contractor due diligence checklist"
+            ],
+            [
+              "Article 179 and Article 184",
+              "Understands the personal and corporate penalties for unlawful provision of databases",
+              "Knowledge check item; annual attestation"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Mapping obligations this way follows the method in [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations). It also makes the education measure publicly defensible: businesses must make the security control measures they have taken available to individuals on request, and the PPC's own example of a disclosable human measure is \"periodic training for employees on points to note when handling personal data\"."
+        }
+      ]
+    },
+    {
+      "id": "evidence",
+      "heading": "How do you evidence APPI training to the PPC?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Keep records that show who was educated, on what version of the handling rules, when, and whether they understood it. The Act does not prescribe a record format, but the PPC can request reports and materials under Article 146, and a business investigating a leak will be asked what supervision it exercised. A practical evidence set includes the following."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "The handling rules (toriatsukai kitei) and the version in force on each training date.",
+            "A roster of everyone treated as an employee under Article 24, including officers and dispatched workers.",
+            "Training completion records with dates, content version and assessment results, kept as an [audit trail](/glossary/audit-trail).",
+            "Signed confidentiality clauses or work rules acknowledgements, for example through [policy attestation](/glossary/policy-attestation).",
+            "Records of periodic self checks or audits of how staff actually handle personal data, which the Guidelines list as an organizational measure.",
+            "A record of how training frequency and depth were set by risk, supporting the section 3-4-3 expectation."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The same records support audits under other privacy regimes, so multinational organizations can compare this page with [GDPR staff training requirements](/regulations/gdpr-staff-training-requirements) and [Australia's Privacy Act training expectations](/regulations/privacy-act-staff-training-requirements) and build one core module with jurisdiction specific inserts."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models Articles 23 to 26 and the relevant sections of the PPC Guidelines as obligations, links each to the business's own handling rules, and derives learning outcomes and assessment points before any content is written. When the 2026 amendment's Rules and Guidelines are finalized, the affected obligations are flagged so the linked training can be reviewed rather than rebuilt."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the APPI say how often employees must be trained?",
+      "a": "No. Neither the Act nor the PPC General Rules Guidelines set a fixed frequency. The Guidelines give periodic training as the example method and say it is desirable to increase the content and frequency of education according to risk. Many organizations train at induction and annually, with extra training for roles handling sensitive or large volumes of personal data."
+    },
+    {
+      "q": "Is APPI training required for businesses with only a few employees?",
+      "a": "Yes. There is no small business exemption from Article 23 or Article 24. The Guidelines give simplified methods for some measures to businesses with 100 or fewer employees, but the education measure applies to them too, with the same example methods: periodic training and confidentiality obligations in the work rules."
+    },
+    {
+      "q": "Do directors and dispatched workers need APPI training?",
+      "a": "They fall within the Guidelines' definition of employees, which includes directors, executive officers, statutory auditors and dispatched workers as well as regular and part time staff. If they handle personal data, the business is expected to supervise and educate them."
+    },
+    {
+      "q": "Does the APPI apply to foreign companies?",
+      "a": "It can. The Act applies extraterritorially to foreign businesses that handle personal information of individuals in Japan in connection with supplying goods or services to them. The Guidelines also require businesses that handle personal data in a foreign country to understand that country's data protection system before setting security measures."
+    },
+    {
+      "q": "Will the 2026 amendment change training requirements?",
+      "a": "The PPC's summary of the amending Act promulgated on July 17, 2026 does not list changes to Articles 23 or 24. It adds a surcharge system, heavier penalties and new rules on children's data, facial feature data and contractors. Revised Guidelines are still being prepared, so review training content once they are published."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Act on the Protection of Personal Information (Act No. 57 of 2003), Japanese text",
+      "publisher": "Digital Agency, e-Gov Laws",
+      "url": "https://laws.e-gov.go.jp/law/415AC0000000057"
+    },
+    {
+      "title": "Act on the Protection of Personal Information: English translation",
+      "publisher": "Ministry of Justice, Japanese Law Translation",
+      "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4241/en"
+    },
+    {
+      "title": "Guidelines for the Act on the Protection of Personal Information (General Rules), revised June 2026",
+      "publisher": "Personal Information Protection Commission",
+      "url": "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/"
+    },
+    {
+      "title": "2026 amendment to the Act on the Protection of Personal Information",
+      "publisher": "Personal Information Protection Commission",
+      "url": "https://www.ppc.go.jp/personalinfo/legal/r8kaiseihogohou/"
+    },
+    {
+      "title": "About the Act Partially Amending the Act on the Protection of Personal Information and Related Acts (July 2026)",
+      "publisher": "Personal Information Protection Commission Secretariat",
+      "url": "https://www.ppc.go.jp/files/pdf/260717_kaiseihounitsuite.pdf"
+    },
+    {
+      "title": "Japanese Law Translation: notice to users",
+      "publisher": "Ministry of Justice",
+      "url": "https://www.japaneselawtranslation.go.jp/en/"
+    }
+  ],
+  "related": [
+    "privacy-act-staff-training-requirements",
+    "gdpr-staff-training-requirements",
+    "uae-pdpl-staff-training",
+    "japan-ai-guidelines-for-business-training",
+    "japan-whistleblower-protection-act-training",
+    "how-to-map-training-to-compliance-obligations"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 99,
+  "factCheck": [
+    {
+      "claim": "Article 23 requires necessary and appropriate security control measures; Article 24 requires necessary and adequate supervision of employees handling personal data; Article 25 covers supervision of entrusted persons; Article 26 covers leak reporting",
+      "source": "https://laws.e-gov.go.jp/law/415AC0000000057"
+    },
+    {
+      "claim": "General Rules Guidelines section 10-4: businesses must make employees fully aware of proper handling of personal data and give appropriate education; example methods are periodic training and confidentiality in work rules, same for SMEs",
+      "source": "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/"
+    },
+    {
+      "claim": "Guidelines section 3-4-3 defines employees to include directors, executive officers, auditors and dispatched workers, and says it is desirable to enrich education content and frequency according to risk",
+      "source": "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/"
+    },
+    {
+      "claim": "Guidelines define SMEs as 100 or fewer employees, excluding those handling data on more than 5,000 individuals in the past six months and those handling data as a contractor",
+      "source": "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/"
+    },
+    {
+      "claim": "Guidelines: 'must' items may be judged violations; 'desirable' items are not immediate violations; article numbers stated as at June 14, 2026; revised June 2026",
+      "source": "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/"
+    },
+    {
+      "claim": "Reportable leaks under PPC Rules Article 7 include more than 1,000 individuals; preliminary report benchmark roughly 3 to 5 days; final report within 30 days (60 days for Article 7 item 3)",
+      "source": "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/"
+    },
+    {
+      "claim": "Article 178: breach of PPC order punishable by up to one year imprisonment or fine up to 1,000,000 yen; Article 179: up to one year or 500,000 yen; Article 184: corporate fine up to 100 million yen for Articles 178 and 179",
+      "source": "https://laws.e-gov.go.jp/law/415AC0000000057"
+    },
+    {
+      "claim": "Amending Act passed July 10, 2026 and promulgated July 17, 2026; commencement in principle within two years of promulgation; introduces surcharge (Articles 148-3 to 148-17) and raises penalties (Articles 178 to 180)",
+      "source": "https://www.ppc.go.jp/files/pdf/260717_kaiseihounitsuite.pdf"
+    },
+    {
+      "claim": "Japanese Law Translation: translations are not official texts; only the original Japanese texts have legal effect",
+      "source": "https://www.japaneselawtranslation.go.jp/en/"
+    }
+  ]
+}

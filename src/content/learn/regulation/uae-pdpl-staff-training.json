@@ -1,0 +1,321 @@
+{
+  "slug": "uae-pdpl-staff-training",
+  "kind": "regulation",
+  "title": "What does the UAE Personal Data Protection Law mean for staff training?",
+  "seoTitle": "UAE PDPL and staff training",
+  "description": "What UAE Federal Decree-Law No. 45 of 2021 requires of controllers and processors, why it implies staff training, and who is outside its scope.",
+  "shortAnswer": "The UAE Personal Data Protection Law, Federal Decree-Law No. 45 of 2021, has no article that expressly requires staff training. It does require controllers and processors to take appropriate technical and organizational measures to secure personal data, keep a record of who may access it, report breaches, and appoint a Data Protection Officer with sufficient skills and knowledge in defined high risk cases. Role based training is the practical way to meet and evidence those duties.",
+  "keyTakeaways": [
+    "Federal Decree-Law No. 45 of 2021 came into force on 2 January 2022 and, as at September 2026, the official UAE Legislation portal lists it as active with no amendment since it was issued on 20 September 2021.",
+    "The law contains no express training or awareness article. Training obligations are implied by the duty to take appropriate technical and organizational measures (Articles 5, 7 and 20).",
+    "A Data Protection Officer must be appointed in three high risk cases and must have sufficient skills and knowledge of the law (Article 10).",
+    "The law does not apply to government data, health and banking data governed by their own legislation, or companies in free zones that have their own data protection legislation, such as DIFC and ADGM (Article 2).",
+    "Much of the operational detail, including breach notification periods and penalties, is left to executive regulations and a Cabinet decision, so training content must be built to absorb that detail when it is confirmed."
+  ],
+  "jurisdiction": "United Arab Emirates (federal)",
+  "regulator": "UAE Data Office (established by Federal Decree-Law No. 44 of 2021)",
+  "appliesTo": [
+    "Controllers and processors resident in the UAE that process personal data of data subjects inside or outside the UAE",
+    "Controllers and processors outside the UAE that process personal data of data subjects inside the UAE",
+    "Employees, contractors and outsourced staff who handle personal data on behalf of those organizations",
+    "Data Protection Officers appointed under Article 10",
+    "Not: government entities, security and judicial authorities, or free zone companies covered by their own data protection legislation"
+  ],
+  "sections": [
+    {
+      "id": "what-the-law-requires",
+      "heading": "Does the UAE PDPL require staff training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No article of the UAE Personal Data Protection Law (PDPL) uses the word training. The obligation arises indirectly: the law requires [technical and organizational measures](https://uaelegislation.gov.ae/en/legislations/1972) to protect personal data, and in practice people cannot apply those measures without being taught them."
+        },
+        {
+          "type": "p",
+          "text": "Article 7(1) requires the controller to \"Take appropriate technical and organizational measures to implement the necessary standards to protect and secure Personal Data in order to preserve its confidentiality and privacy\". Article 5(6) requires personal data to be kept securely through \"appropriate technical and organizational measures and procedures\", and Article 20 requires controllers and processors to take measures that ensure an information security standard suitable for the processing risks, \"in accordance with the best international practices and standards\"."
+        },
+        {
+          "type": "p",
+          "text": "International practice treats awareness and role based training as an organizational measure. That is the defensible basis for a PDPL training program, and it is how training should be described in policies: as a control that supports named articles, not as a standalone statutory requirement."
+        },
+        {
+          "type": "callout",
+          "title": "Currency",
+          "text": "This page describes the law as at September 2026, based on the English text published on the UAE Legislation portal. The Arabic text prevails in case of conflict. Several obligations depend on executive regulations and a Cabinet decision on violations and penalties (Articles 26 and 28). Confirm their status with the UAE Data Office or counsel before finalizing course content."
+        }
+      ]
+    },
+    {
+      "id": "who-it-applies-to",
+      "heading": "Who does the PDPL apply to, and who is excluded?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Article 2(1) applies the PDPL to controllers and processors resident in the UAE, whether their data subjects are inside or outside the country, and to controllers and processors outside the UAE that process personal data of data subjects inside it. It covers automated and non automated processing."
+        },
+        {
+          "type": "p",
+          "text": "Article 2(2) lists seven exclusions, grouped here into six, which matter for scoping a training audience:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Government data, and government entities that control or process personal data.",
+            "Personal data held by security and judicial authorities.",
+            "Individuals processing their own data for personal purposes.",
+            "Personal health data that has legislation regulating its protection and processing, such as [Federal Law No. 2 of 2019](https://uaelegislation.gov.ae/en/legislations/1209) on the use of information and communication technology in health fields.",
+            "Personal banking and credit data that has its own regulating legislation.",
+            "Companies and establishments located in free zones that have special legislation on personal data protection."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Article 3 also lets the UAE Data Office exempt establishments that do not process a large volume of personal data from some or all requirements, under criteria to be set in the executive regulations."
+        }
+      ]
+    },
+    {
+      "id": "onshore-and-free-zones",
+      "heading": "How do onshore law and free zone law differ for data protection?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The UAE has two layers of data protection law. Federal law applies onshore across the seven emirates, while some free zones have their own data protection legislation that displaces the PDPL for companies established there."
+        },
+        {
+          "type": "p",
+          "text": "The two financial free zones are the main examples. The Dubai International Financial Centre (DIFC) has its own Data Protection Law, DIFC Law No. 5 of 2020, which the [UAE Government portal](https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws) lists alongside the PDPL, and Abu Dhabi Global Market (ADGM) has its own Data Protection Regulations 2021. A company in those zones follows their regimes; see [DIFC data protection training](/regulations/difc-data-protection-law-training) and [ADGM data protection training](/regulations/adgm-data-protection-training)."
+        },
+        {
+          "type": "p",
+          "text": "Other free zones without their own data protection legislation do not fall within the Article 2(2)(g) exclusion, so the PDPL applies to companies there. A group with an onshore entity and a DIFC or ADGM entity therefore needs a training design that maps each legal entity to its regime, even when much of the content overlaps."
+        }
+      ]
+    },
+    {
+      "id": "articles-that-drive-training",
+      "heading": "Which PDPL articles create a practical need for training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Six obligations depend on staff knowing what to do, and each maps to a distinct training audience. The table below maps them to learning outcomes and the evidence an organization would keep."
+        },
+        {
+          "type": "table",
+          "caption": "PDPL obligations mapped to learning outcomes and evidence (original Knowledge Foundry analysis)",
+          "head": [
+            "PDPL obligation",
+            "Who needs to learn it",
+            "Learning outcome",
+            "Assessment evidence"
+          ],
+          "rows": [
+            [
+              "Articles 5 and 7(1): processing controls and technical and organizational measures",
+              "All staff who handle personal data",
+              "Apply purpose limitation, minimization, accuracy, secure storage and retention rules to daily tasks",
+              "Scenario based assessment results; policy attestation"
+            ],
+            [
+              "Article 7(4): record of processing, including persons authorized to access data",
+              "Data owners, system owners, managers approving access",
+              "Explain who may access a dataset and how access is approved and reviewed",
+              "Access approval records linked to completed training"
+            ],
+            [
+              "Article 9: breach reporting",
+              "All staff, with deeper training for incident responders",
+              "Recognize a personal data breach and escalate it immediately through the internal route",
+              "Breach simulation or tabletop exercise records"
+            ],
+            [
+              "Articles 13 to 19: data subject rights and contact routes",
+              "Customer facing and service teams",
+              "Identify a rights request, route it, and meet internal response steps",
+              "Case review sampling; knowledge check scores"
+            ],
+            [
+              "Article 21: data protection impact assessment",
+              "Project, product and IT change owners",
+              "Identify when an assessment is required and involve the DPO",
+              "Completed assessments showing DPO coordination"
+            ],
+            [
+              "Articles 10 to 12: Data Protection Officer role",
+              "The DPO and deputies",
+              "Demonstrate sufficient skills and knowledge of the law, its executive regulations and Data Office instructions",
+              "Qualification and competency records; continuing development log"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A [compliance obligations register](/glossary/compliance-obligations-register) that records each article, its owner and the linked training module is the simplest way to show this mapping to an auditor. The method is set out in [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations)."
+        }
+      ]
+    },
+    {
+      "id": "dpo-competence",
+      "heading": "What does the PDPL require of the Data Protection Officer?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Article 10 requires a controller and processor to appoint a Data Protection Officer \"who has sufficient skills and knowledge of the Personal Data Protection Law\" in three cases: high risk processing from new technologies or data volume, systematic and comprehensive assessment of sensitive personal data including profiling and automated processing, and processing of a large volume of sensitive personal data."
+        },
+        {
+          "type": "p",
+          "text": "Article 11 gives the DPO tasks that include verifying the quality and correctness of procedures, receiving requests and complaints, advising on periodic examination of data protection systems, and acting as the link with the UAE Data Office. Article 12 requires the controller and processor to give the DPO the necessary resources and support and to involve the DPO in all personal data matters in a timely way."
+        },
+        {
+          "type": "p",
+          "text": "The statutory competence test applies to the DPO, not to the wider workforce. It still shapes the program, because the DPO's review of procedures under Article 11 is a natural checkpoint for training content and for evidence that staff have completed it."
+        }
+      ]
+    },
+    {
+      "id": "implementation-status",
+      "heading": "What is still pending, and how should training handle it?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Several PDPL provisions point to executive regulations for detail, including breach notification periods (Article 9), DPO criteria (Article 10(4)), the small volume exemption (Article 3), and grievance procedures (Article 25). Violations and administrative penalties are to be set by a Cabinet decision under Article 26."
+        },
+        {
+          "type": "p",
+          "text": "Article 28 required the executive regulations to be issued within six months of promulgation, and Article 29 gives controllers and processors up to six months after the executive regulations are issued to regularize their status, extendable once by the Council of Ministers. As at September 2026, the UAE Legislation portal page for the decree-law records no update since 20 September 2021. Organizations should confirm the position before stating deadlines or penalty amounts in training."
+        },
+        {
+          "type": "p",
+          "text": "The practical response is to teach the stable principles now (processing controls, security, breach escalation, rights handling) and keep time periods and penalty figures in a separate, versioned module that can be updated quickly. This is the approach described in [how to update training when regulations change](/guides/how-to-update-training-when-regulations-change)."
+        }
+      ]
+    },
+    {
+      "id": "evidence-checklist",
+      "heading": "How can an organization evidence PDPL training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Evidence should show that the right people received training tied to specific articles and could apply it, not only that a course was completed. A short checklist:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Scope each legal entity: onshore PDPL, DIFC, ADGM, or an excluded category such as a government entity.",
+            "Identify roles that handle personal data and assign them to the audiences in the mapping table.",
+            "Record each module's version, the PDPL articles it supports and the date it was last reviewed.",
+            "Use scenario questions on breach recognition and rights requests rather than recall questions only, as explained in [completion tracking vs competency verification](/compare/completion-tracking-vs-competency-verification).",
+            "Keep completion and assessment records in a form that can be produced on request; see [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit).",
+            "Set a refresh cycle and trigger an out of cycle update when the executive regulations or Cabinet penalty decision are confirmed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models each PDPL article as a concept linked to roles, learning outcomes and assessment points before content is written, so the implied training obligation is traceable to its source. When executive regulations or penalty rules are confirmed, the affected concepts are flagged and the linked modules can be revised and re-evidenced without rebuilding the whole program."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the UAE PDPL apply to companies in DIFC or ADGM?",
+      "a": "Generally no. Article 2(2)(g) excludes companies and establishments in free zones that have their own personal data protection legislation. DIFC has DIFC Law No. 5 of 2020 and ADGM has its Data Protection Regulations 2021, so entities there follow those regimes. Free zones without their own data protection law are not covered by the exclusion."
+    },
+    {
+      "q": "Is there a fixed annual training requirement under the PDPL?",
+      "a": "No. The decree-law sets no training frequency or hours. Organizations set their own refresh cycle based on risk, role and changes to the law, and should record the rationale. Annual refresh for general staff, with onboarding training before access to personal data, is a common internal standard rather than a legal rule."
+    },
+    {
+      "q": "Does the PDPL cover employee data held by an employer?",
+      "a": "Yes, if the employer is a controller within Article 2 and not in an excluded category. Employees are data subjects, so HR, payroll and recruitment teams handle personal data within scope and are a priority audience for training on processing controls and access."
+    },
+    {
+      "q": "Who enforces the PDPL?",
+      "a": "The UAE Data Office, established by Federal Decree-Law No. 44 of 2021, is the authority referred to in the PDPL (the English text calls it the Bureau). It receives breach notifications, may exempt small volume establishments, and its Director General proposes the executive regulations and the penalty decision to the Council of Ministers."
+    },
+    {
+      "q": "Is health data covered by the PDPL?",
+      "a": "Personal health data that has its own regulating legislation is excluded by Article 2(2)(e). Federal Law No. 2 of 2019 on the use of information and communication technology in health fields governs health data, and the UAE Government portal notes it applies including in free zones. Healthcare providers should build training around that law and any emirate level health authority rules."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Federal Decree by Law No. (45) of 2021 Concerning the Protection of Personal Data",
+      "publisher": "UAE Legislation portal, Ministry of Cabinet Affairs",
+      "url": "https://uaelegislation.gov.ae/en/legislations/1972"
+    },
+    {
+      "title": "Federal Decree by Law No. (45) of 2021 Concerning the Protection of Personal Data (English text, PDF)",
+      "publisher": "UAE Legislation portal, Ministry of Cabinet Affairs",
+      "url": "https://uaelegislation.gov.ae/en/legislations/1972/download"
+    },
+    {
+      "title": "Data protection laws",
+      "publisher": "The Official Portal of the UAE Government (u.ae)",
+      "url": "https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws"
+    },
+    {
+      "title": "Federal Law No. 2 of 2019 Concerning the Use of Information and Communication Technology in Health Fields",
+      "publisher": "UAE Legislation portal, Ministry of Cabinet Affairs",
+      "url": "https://uaelegislation.gov.ae/en/legislations/1209"
+    },
+    {
+      "title": "Data Protection Law, DIFC Law No. 5 of 2020 (consolidated version, March 2022)",
+      "publisher": "Dubai International Financial Centre, via the UAE Government portal",
+      "url": "https://assets.u.ae/api/public/content/bb94d503629243a7aa548a8cd387ea86?v=df38af26"
+    }
+  ],
+  "related": [
+    "difc-data-protection-law-training",
+    "adgm-data-protection-training",
+    "uae-information-assurance-awareness-training",
+    "how-to-map-training-to-compliance-obligations",
+    "compliance-obligations-register",
+    "how-to-update-training-when-regulations-change"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 99,
+  "factCheck": [
+    {
+      "claim": "Federal Decree-Law No. 45 of 2021 was issued 20 Sep 2021, published in Official Gazette No. 712 on 26 Sep 2021, effective 2 Jan 2022, listed as Active with last update 20 Sep 2021 (portal snapshot of 27 Aug 2026)",
+      "source": "https://uaelegislation.gov.ae/en/legislations/1972"
+    },
+    {
+      "claim": "Article 2(2) excludes government data, government entities, security and judicial authority data, personal use, health data and banking/credit data with own legislation, and free zone companies with special data protection legislation",
+      "source": "https://uaelegislation.gov.ae/en/legislations/1972/download"
+    },
+    {
+      "claim": "Article 7(1) requires appropriate technical and organizational measures; Article 7(4) requires a record including persons authorized to access personal data",
+      "source": "https://uaelegislation.gov.ae/en/legislations/1972/download"
+    },
+    {
+      "claim": "Article 10 requires a DPO with sufficient skills and knowledge of the law in three high risk cases; Articles 11 and 12 set DPO tasks and controller duties toward the DPO",
+      "source": "https://uaelegislation.gov.ae/en/legislations/1972/download"
+    },
+    {
+      "claim": "Article 26 leaves violations and administrative penalties to a Cabinet decision; Article 28 requires executive regulations within six months; Article 29 gives six months after executive regulations to regularize, extendable once",
+      "source": "https://uaelegislation.gov.ae/en/legislations/1972/download"
+    },
+    {
+      "claim": "The UAE Data Office was established by Federal Decree-Law No. 44 of 2021; the PDPL came into force on 2 January 2022; DIFC Law No. 5 of 2020 and Federal Law No. 2 of 2019 on ICT in health (applying including free zones) are listed as related data protection laws",
+      "source": "https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws"
+    }
+  ]
+}

@@ -41,7 +41,7 @@ export default function Page() {
     >
       <EditorialP>
         Hybrid verification is not a proprietary methodology. It is a description of how serious
-        organisations verify serious things. Aviation, medicine, and the trades have been
+        organizations verify serious things. Aviation, medicine, and the trades have been
         running hybrid verification for decades. Knowledge tests, simulator hours, observed
         procedures, and supervisor sign off, combined and cross referenced. The insight is not
         the mix. It is the reason the mix exists: no single instrument can, on its own,
@@ -75,18 +75,18 @@ export default function Page() {
         distinct kind of evidence, and each becomes part of a record that survives audit.
       </EditorialP>
       <EditorialList items={[
-        <><strong>Knowledge component.</strong> Structured assessment of the concepts the framework requires, embedded in scenario. Not a bank of decontextualised multiple choice items, and not a proxy for competence on its own.</>,
-        <><strong>Applied judgement component.</strong> Situational scenarios that require the learner to make a decision in context, judged against a rubric derived from the framework rather than from author intuition.</>,
-        <><strong>Observed performance component.</strong> Where the competency is behavioural or safety critical, a structured observation event, driven by a checklist, signed by a supervisor with the authority to sign.</>,
+        <><strong>Knowledge component.</strong> Structured assessment of the concepts the framework requires, embedded in scenario. Not a bank of decontextualized multiple choice items, and not a proxy for competence on its own.</>,
+        <><strong>Applied judgment component.</strong> Situational scenarios that require the learner to make a decision in context, judged against a rubric derived from the framework rather than from author intuition.</>,
+        <><strong>Observed performance component.</strong> Where the competency is behavioral or safety critical, a structured observation event, driven by a checklist, signed by a supervisor with the authority to sign.</>,
       ]} />
 
       <EditorialH2 id="sec-3">Where it is the wrong instrument</EditorialH2>
       <EditorialP>
-        Hybrid verification is not free, and applying it indiscriminately produces a programme
+        Hybrid verification is not free, and applying it indiscriminately produces a program
         disproportionate to its own risk profile. A concept that is genuinely low stakes (a
         general awareness item, orientation content, a change notification) does not need
-        observed performance. A knowledge acknowledgement, appropriately structured, is often
-        sufficient. The judgement about which instruments a given node requires is itself a
+        observed performance. A knowledge acknowledgment, appropriately structured, is often
+        sufficient. The judgment about which instruments a given node requires is itself a
         decision at the framework level. It is made once, at the level of the concept, and it
         is reviewable.
       </EditorialP>
@@ -94,7 +94,7 @@ export default function Page() {
       <EditorialAside title="On proportionality">
         <p>
           The failure mode to avoid is the opposite of the industry's current one. Verifying
-          everything as if it were safety critical. The result is a verification programme too
+          everything as if it were safety critical. The result is a verification program too
           expensive to sustain, which erodes back toward click through within eighteen months.
           The point of design at the framework level is proportionality. The claim, the instrument,
           and the cost matched at the node.
@@ -103,8 +103,8 @@ export default function Page() {
 
       <EditorialH2 id="sec-4">Design against the claim</EditorialH2>
       <EditorialP>
-        The composite record (knowledge score, judgement score, observation sign off, cohort,
-        date, framework node, source clause) is the evidence the organisation will present if
+        The composite record (knowledge score, judgment score, observation sign off, cohort,
+        date, framework node, source clause) is the evidence the organization will present if
         the verification is ever contested. It is proportionate to the claim. It is traceable.
         It is not manufactured after an incident. It exists at the moment of verification, and
         it survives audit.

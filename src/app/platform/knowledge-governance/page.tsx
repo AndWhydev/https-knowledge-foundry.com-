@@ -47,7 +47,7 @@ const capabilities = [
   {
     icon: <BellRing className="h-5 w-5" />,
     title: "Drift detection",
-    desc: "When source documents, standards, or policies change, the framework flags each downstream artefact that referenced the changed source.",
+    desc: "When source documents, standards, or policies change, the framework flags each downstream artifact that referenced the changed source.",
   },
   {
     icon: <Fingerprint className="h-5 w-5" />,
@@ -82,7 +82,7 @@ const steps = [
 const faq = [
   {
     q: "How is this different from a workflow tool like Jira or an approval column in a spreadsheet?",
-    a: "A workflow tool tracks that an approval happened. Knowledge Governance ties the approval to the content itself. Each version has a cryptographic hash, each approver has a signed record, and each reviewed block is comparable to its previous state. The approval and the artefact are inseparable.",
+    a: "A workflow tool tracks that an approval happened. Knowledge Governance ties the approval to the content itself. Each version has a cryptographic hash, each approver has a signed record, and each reviewed block is comparable to its previous state. The approval and the artifact are inseparable.",
   },
   {
     q: "Who owns what, and how is that enforced?",
@@ -94,7 +94,7 @@ const faq = [
   },
   {
     q: "Can we prove governance to an external auditor?",
-    a: "Yes. Governance produces an evidence pack: ownership records, approval trails, version chains, hash proofs, and drift resolutions. Each artefact is timestamped, signed, and exportable. Designed for scrutiny rather than for internal comfort.",
+    a: "Yes. Governance produces an evidence pack: ownership records, approval trails, version chains, hash proofs, and drift resolutions. Each artifact is timestamped, signed, and exportable. Designed for scrutiny rather than for internal comfort.",
   },
   {
     q: "Do you replace our existing governance boards or approval committees?",
@@ -153,7 +153,7 @@ export default function KnowledgeGovernancePage() {
         title="Automation without governance creates risk. Governance creates confidence."
       >
         <p>
-          As organisations adopt automation, familiar failure modes emerge.
+          As organizations adopt automation, familiar failure modes emerge.
           Content changes rapidly. Multiple versions exist simultaneously. Review
           decisions become difficult to trace. Approval processes drift into
           rubber stamps. Confidence erodes even as output volume grows.
@@ -206,7 +206,7 @@ export default function KnowledgeGovernancePage() {
       <CtaBand
         eyebrow="For compliance and risk leaders"
         title="See governance operate on your material."
-        lede="Send us a live programme and the governance charter it should conform to. We spend 45 minutes with the Foundry on your material, and you leave with an evidence pack. Yours to keep."
+        lede="Send us a live program and the governance charter it should conform to. We spend 45 minutes with the Foundry on your material, and you leave with an evidence pack. Yours to keep."
       />
     </>
   );

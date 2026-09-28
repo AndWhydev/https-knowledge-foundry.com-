@@ -25,7 +25,7 @@
           "type": "ul",
           "items": [
             "**Obligations.** Which laws, standards, and internal policies does the training support? The [mapping guide](/guides/how-to-map-training-to-compliance-obligations) explains how to build this list.",
-            "**Evidence.** What must you show, and to whom? For example, AUSTRAC suggests anti money laundering training records capture what was delivered, including the content and content version, how understanding was assessed, and each person's training history ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training)). Australian Government entities applying the Information Security Manual also need a cyber security awareness training register (ISM-2022) ([ASD](https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security)).",
+            "**Evidence.** What must you show, and to whom? For example, Australia's AUSTRAC suggests anti money laundering training records capture what was delivered, including the content and content version, how understanding was assessed, and each person's training history ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training)).",
             "**Population.** Employees, contractors, and third parties; how they are identified; and whether they have corporate accounts.",
             "**Delivery mix.** Online modules, face to face sessions, on the job assessment, and attestations all need to be recorded in one place. AUSTRAC notes its own e-learning modules cannot be relied on solely to meet training obligations, which is a reminder that the platform must record more than online completions.",
             "**Constraints.** Data location, security classification, integration with HR systems, and budget."
@@ -131,7 +131,7 @@
         },
         {
           "type": "p",
-          "text": "Under the Australian Privacy Principles, APP 8 sets out the steps an entity must take before disclosing personal information overseas, and APP 11 requires reasonable steps to protect personal information and, in certain circumstances, to destroy or de-identify it ([OAIC](https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-quick-reference)). If the platform includes AI features, the OAIC's [guidance on commercially available AI products](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products) recommends due diligence on whether the product has been tested for the intended use and who can access information entered into it. Government entities will have additional requirements under the Protective Security Policy Framework and the Information Security Manual."
+          "text": "Privacy law governs where training records are stored and who can see them, so check the rules in each jurisdiction where you operate. For example, under the Australian Privacy Principles, APP 8 sets out the steps an entity must take before disclosing personal information overseas, and APP 11 requires reasonable steps to protect personal information and, in certain circumstances, to destroy or de-identify it ([OAIC](https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-quick-reference)). If the platform includes AI features, the OAIC's [guidance on commercially available AI products](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products) recommends due diligence on whether the product has been tested for the intended use and who can access information entered into it. Government entities will usually have additional protective security requirements."
         }
       ]
     },
@@ -150,7 +150,7 @@
             "**Decide the platform category.** Decide whether you need a learning management system, a learning experience platform, a content management system, or a combination. Output: a category decision. See [LMS vs LXP](/compare/lms-vs-lxp) and [LMS vs LCMS](/compare/lms-vs-lcms).",
             "**Issue a request for information.** Ask providers to respond to the criteria table in writing. Output: comparable written responses.",
             "**Run scripted demonstrations.** Give each shortlisted provider the same script using your own content, roles, and a policy change scenario. Output: scored demonstration results.",
-            "**Complete security and privacy review.** Assess data location, access, certifications, and incident handling. Output: a risk assessment for each finalist.",
+            "**Complete security and privacy review.** Assess data location, access, certifications, and incident handling. Output: a risk assessment for each finalizt.",
             "**Pilot.** Run a real compliance cycle with a representative group, including managers and assessors. Output: pilot findings, including administrator time and learner feedback.",
             "**Score and decide.** Apply the weighted scoring model and record the rationale. Output: a decision paper.",
             "**Negotiate exit terms.** Confirm export formats, timing, and cost before signing. Output: contract clauses for data return and destruction."
@@ -277,12 +277,12 @@
   ],
   "faqs": [
     {
-      "q": "Do we need a specialist compliance platform or will a general LMS do?",
-      "a": "A general learning management system can be enough if it records versions, supports assessment beyond completion, and reports by role and obligation. Specialist tools add features such as obligation libraries and attestation workflows. Decide by testing both types against the same scripted demonstration and your evidence requirements."
+      "q": "Do we need a specializt compliance platform or will a general LMS do?",
+      "a": "A general learning management system can be enough if it records versions, supports assessment beyond completion, and reports by role and obligation. Specializt tools add features such as obligation libraries and attestation workflows. Decide by testing both types against the same scripted demonstration and your evidence requirements."
     },
     {
       "q": "Should the platform include off the shelf compliance content?",
-      "a": "It can save time for general topics, but check that content matches Australian law and your own policies, and that you can edit or supplement it. Content that cannot be tailored to your procedures often needs a local addition anyway. See the comparison of off the shelf and custom compliance training."
+      "a": "It can save time for general topics, but check that content matches the law in each jurisdiction where you operate and your own policies, and that you can edit or supplement it. Content that cannot be tailored to your procedures often needs a local addition anyway. See the comparison of off the shelf and custom compliance training."
     },
     {
       "q": "How important is data location for a training platform?",
@@ -290,7 +290,7 @@
     },
     {
       "q": "How long should a platform pilot run?",
-      "a": "Long enough to complete one realistic compliance cycle: assignment, reminders, completion, assessment, overdue escalation, and reporting. For many organisations that is several weeks. A short pilot that only tests the learner interface misses the administrator and reporting workload where most problems appear."
+      "a": "Long enough to complete one realiztic compliance cycle: assignment, reminders, completion, assessment, overdue escalation, and reporting. For many organizations that is several weeks. A short pilot that only tests the learner interface misses the administrator and reporting workload where most problems appear."
     }
   ],
   "sources": [
@@ -298,11 +298,6 @@
       "title": "AML/CTF training",
       "publisher": "AUSTRAC",
       "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
-    },
-    {
-      "title": "Information Security Manual: Guidelines for personnel security",
-      "publisher": "Australian Signals Directorate",
-      "url": "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security"
     },
     {
       "title": "Australian Privacy Principles quick reference",
@@ -359,10 +354,6 @@
     {
       "claim": "AUSTRAC says its e-learning modules can be used as part of AML/CTF training but cannot be relied on solely, and training must be accessible and understandable to the person receiving it.",
       "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
-    },
-    {
-      "claim": "ISM-0252: cyber security awareness training is undertaken annually by all personnel; ISM-1565: tailored privileged user training undertaken annually by all personnel with privileged access; ISM-2022: a cyber security awareness training register is maintained.",
-      "source": "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security"
     },
     {
       "claim": "APP 8 covers cross-border disclosure; APP 11 requires reasonable steps to protect personal information and to destroy or de-identify it in certain circumstances.",

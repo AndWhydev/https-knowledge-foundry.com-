@@ -10,7 +10,7 @@
     "Not every obligation needs training. Map only those with a people element, and record why the others are handled by systems or controls.",
     "Every mapping row should run obligation, role, learning outcome, training asset, assessment evidence.",
     "The trace must work in both directions: from obligation to evidence, and from course back to obligation.",
-    "Regulators such as AUSTRAC and ASIC expect training to be matched to role and risk, which a role level map demonstrates directly."
+    "Regulators in sectors as different as anti money laundering and medicines manufacturing expect training to be matched to role and risk, which a role level map demonstrates directly."
   ],
   "sections": [
     {
@@ -19,11 +19,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Mapping lets an organisation show which obligations its training covers, for whom, and with what evidence. Without it, a training catalogue can only show what was delivered, not whether the obligations that matter were addressed."
+          "text": "Mapping lets an organization show which obligations its training covers, for whom, and with what evidence. Without it, a training catalog can only show what was delivered, not whether the obligations that matter were addressed."
         },
         {
           "type": "p",
-          "text": "Regulators increasingly frame training expectations by role and risk. AUSTRAC guidance on the reformed AML/CTF regime says training must be tailored so that it is appropriate to the person, their role, their responsibilities and the money laundering and terrorism financing risks relevant to that role ([AUSTRAC](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform)). ASIC's RG 104 expects licensees to identify the knowledge and skills representatives need and to keep a record of the training they have undertaken ([ASIC](https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/)). A map is the simplest way to show both."
+          "text": "Regulators increasingly frame training expectations by role and risk. For example, Australia's AUSTRAC guidance on the reformed AML/CTF regime says training must be tailored so that it is appropriate to the person, their role, their responsibilities and the money laundering and terrorism financing risks relevant to that role ([AUSTRAC](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform)). In the United States, medicines manufacturing rules require training \"in the particular operations that the employee performs\" ([21 CFR 211.25(a)](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25)). A map is the simplest way to show both."
         },
         {
           "type": "p",
@@ -42,9 +42,9 @@
         {
           "type": "ol",
           "items": [
-            "**Start from the obligations register.** Use the organisation's [compliance obligations register](/glossary/compliance-obligations-register) as the master list, with each obligation's source, section and version. If no register exists, build the in scope part of one first. Output: the list of obligations in scope with citations.",
-            "**Decompose each obligation into requirements.** Split a broad obligation into the specific things that must happen. 'Report suspicious matters' becomes: recognise indicators, escalate internally, decide whether to report, submit within the required time, keep records. Output: an atomic requirement list, each with a parent obligation.",
-            "**Classify each requirement.** Decide whether meeting it depends on a person's knowledge, skill or behaviour, or is met by a system, control or contract. Only the first group is mapped to training, but record the reason for the classification of the second. Output: a people requirements list and a controls list.",
+            "**Start from the obligations register.** Use the organization's [compliance obligations register](/glossary/compliance-obligations-register) as the master list, with each obligation's source, section and version. If no register exists, build the in scope part of one first. Output: the list of obligations in scope with citations.",
+            "**Decompose each obligation into requirements.** Split a broad obligation into the specific things that must happen. 'Report suspicious matters' becomes: recognize indicators, escalate internally, decide whether to report, submit within the required time, keep records. Output: an atomic requirement list, each with a parent obligation.",
+            "**Classify each requirement.** Decide whether meeting it depends on a person's knowledge, skill or behavior, or is met by a system, control or contract. Only the first group is mapped to training, but record the reason for the classification of the second. Output: a people requirements list and a controls list.",
             "**Identify affected roles.** For each people requirement, list the roles that perform or oversee it, including contractors and third parties where they perform the function. Output: a requirement by role matrix.",
             "**Write a learning outcome per role and requirement.** State what that role must be able to do, at the depth that role needs. A customer facing consultant and a compliance officer touch the same obligation at very different depths. Output: [measurable learning outcomes](/guides/how-to-write-measurable-learning-outcomes) linked to requirement and role.",
             "**Link training assets and assessment evidence.** Record which module, procedure briefing or on the job activity delivers each outcome, and what evidence shows it was achieved. Output: the completed map.",
@@ -59,7 +59,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "A compliance training map is a table with one row per requirement and role. The rows below are an illustrative sample for a hypothetical financial services business. The obligation citations are real; the roles, outcomes and evidence are examples of how an organisation might express them."
+          "text": "A compliance training map is a table with one row per requirement and role. The rows below are an illustrative sample for a hypothetical financial services business. The obligation citations are real; the roles, outcomes and evidence are examples of how an organization might express them."
         },
         {
           "type": "table",
@@ -84,22 +84,22 @@
               "Review of completed case files against a checklist"
             ],
             [
-              "Ensure representatives are adequately trained and competent (Corporations Act s912A(1)(f), RG 104)",
-              "Representative providing general advice",
-              "Explain the product features and the limits of general advice to a customer without giving personal advice",
-              "Observed or recorded call assessed against criteria"
+              "Train each person in the particular operations they perform and in GMP as it relates to their functions (21 CFR 211.25(a), United States)",
+              "Packaging line operator",
+              "Carry out a line clearance before a new batch and record it as the procedure requires",
+              "Practical observation against the procedure checklist"
             ],
             [
               "Provide information, training, instruction and supervision necessary for health and safety (model WHS Act primary duty)",
               "Warehouse team member",
               "Operate the assigned plant only within the conditions set by the safe work procedure",
-              "Practical observation plus confirmation of any required licence"
+              "Practical observation plus confirmation of any required license"
             ]
           ]
         },
         {
           "type": "p",
-          "text": "The fourth row draws on Safe Work Australia's statement that the primary duty requires a person conducting a business or undertaking to ensure, so far as is reasonably practicable, the provision of instruction, training, information and supervision ([Safe Work Australia](https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu))."
+          "text": "The fourth row draws on Safe Work Australia's statement that the primary duty requires a person conducting a business or undertaking to ensure, so far as is reasonably practicable, the provision of instruction, training, information and supervision ([duties of a PCBU](https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu))."
         }
       ]
     },
@@ -154,7 +154,7 @@
   "faqs": [
     {
       "q": "Should every compliance obligation have training attached?",
-      "a": "No. Many obligations are met by systems, controls, contracts or a small specialist team. Training should be mapped where meeting the obligation depends on people's knowledge, skill or behaviour. Record the reasoning for obligations you do not map, because an auditor may ask why."
+      "a": "No. Many obligations are met by systems, controls, contracts or a small specializt team. Training should be mapped where meeting the obligation depends on people's knowledge, skill or behavior. Record the reasoning for obligations you do not map, because an auditor may ask why."
     },
     {
       "q": "Who should maintain the obligation to training map?",
@@ -176,11 +176,6 @@
       "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
     },
     {
-      "title": "RG 104 AFS licensing: Meeting the general obligations",
-      "publisher": "Australian Securities and Investments Commission (ASIC)",
-      "url": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/"
-    },
-    {
       "title": "Duties of a PCBU",
       "publisher": "Safe Work Australia",
       "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu"
@@ -194,6 +189,11 @@
       "title": "ISO 37301 FAQs (May 2022)",
       "publisher": "ISO/TC 309",
       "url": "https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf"
+    },
+    {
+      "title": "21 CFR 211.25 Personnel qualifications",
+      "publisher": "US Food and Drug Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25"
     }
   ],
   "related": [
@@ -227,16 +227,16 @@
       "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
     },
     {
-      "claim": "RG 104 lists the obligation to ensure representatives are adequately trained and competent (s912A(1)(f)) and RG 104.82 expects training records",
-      "source": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/"
-    },
-    {
       "claim": "Primary duty requires PCBUs to ensure so far as reasonably practicable the provision of any instruction, training, information and supervision",
       "source": "https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu"
     },
     {
       "claim": "ISO 37301 requires identifying compliance obligations and includes personnel trainings and communications",
       "source": "https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf"
+    },
+    {
+      "claim": "21 CFR 211.25(a): each person engaged in the manufacture, processing, packing, or holding of a drug product shall have education, training, and experience to perform the assigned functions; training shall be in the particular operations that the employee performs and in CGMP as they relate to the employee's functions; CGMP training conducted by qualified individuals on a continuing basis and with sufficient frequency.",
+      "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25"
     }
   ]
 }

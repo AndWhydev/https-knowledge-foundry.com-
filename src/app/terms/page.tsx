@@ -63,7 +63,7 @@ export default function TermsPage() {
               <h2>2. What the site is for</h2>
               <p>
                 The site provides information about Knowledge Foundry and its
-                platform, receives enquiries, and hosts editorial material. It
+                platform, receives inquiries, and hosts editorial material. It
                 is not the platform itself, and nothing on the site is an
                 offer, warranty, or contractual commitment except for those
                 obligations set out in a signed agreement between us.
@@ -75,14 +75,14 @@ export default function TermsPage() {
               <p>You agree not to:</p>
               <ul>
                 <li>use the site in a way that breaches any law or the rights of any person;</li>
-                <li>attempt to gain unauthorised access to, probe, or interfere with the site or its supporting infrastructure;</li>
+                <li>attempt to gain unauthorized access to, probe, or interfere with the site or its supporting infrastructure;</li>
                 <li>submit content through forms or contact channels that is unlawful, deceptive, or infringes another party&rsquo;s rights;</li>
                 <li>scrape, harvest, or bulk-download the site&rsquo;s content by automated means without our prior written consent;</li>
                 <li>use the site to distribute malware, run denial-of-service activity, or otherwise degrade its availability.</li>
               </ul>
               <p>
                 Good-faith security research is covered by our responsible-disclosure
-                programme. See the <Link href="/trust/security">security page</Link>.
+                program. See the <Link href="/trust/security">security page</Link>.
               </p>
             </section>
 
@@ -116,7 +116,7 @@ export default function TermsPage() {
               <p>
                 Where you submit material as part of a demonstration request
                 (for example, an attached policy document), you grant us a
-                limited, non-exclusive licence to use that material for the
+                limited, non-exclusive license to use that material for the
                 purpose of preparing and delivering the requested session and
                 for no other purpose. We do not retain a right to reuse
                 submitted material in our own products or publications.

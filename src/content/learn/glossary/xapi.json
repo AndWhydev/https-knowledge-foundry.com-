@@ -8,7 +8,7 @@
   "keyTakeaways": [
     "xAPI records learning activity as statements with an actor, a verb, and an object, stored in a Learning Record Store.",
     "Version 1.0.0 was released on 26 April 2013; version 1.0.3 followed on 21 September 2016.",
-    "IEEE 9274.1.1-2023 standardises xAPI (widely called xAPI 2.0); the IEEE board approved it on 30 March 2023 and published it on 6 October 2023.",
+    "IEEE 9274.1.1-2023 standardizes xAPI (widely called xAPI 2.0); the IEEE board approved it on 30 March 2023 and published it on 6 October 2023.",
     "xAPI is not tied to a browser or an LMS, which is its main difference from SCORM."
   ],
   "term": "xAPI",
@@ -30,7 +30,7 @@
         },
         {
           "type": "p",
-          "text": "Because every statement has the same basic shape, data from different tools can be stored together and analysed, which is the main reason organisations adopt it."
+          "text": "Because every statement has the same basic shape, data from different tools can be stored together and analyzed, which is the main reason organizations adopt it."
         }
       ]
     },
@@ -104,7 +104,7 @@
         },
         {
           "type": "p",
-          "text": "The IEEE Standards Association describes IEEE 9274.1.1 as a JSON data model and RESTful web service for communication between activities and a Learning Record Store, developed to standardise the 1.0.3 version of xAPI ([IEEE SA](https://standards.ieee.org/ieee/9274.1.1/7321/))."
+          "text": "The IEEE Standards Association describes IEEE 9274.1.1 as a JSON data model and RESTful web service for communication between activities and a Learning Record Store, developed to standardize the 1.0.3 version of xAPI ([IEEE SA](https://standards.ieee.org/ieee/9274.1.1/7321/))."
         }
       ]
     },
@@ -158,11 +158,11 @@
     },
     {
       "q": "Is xAPI 2.0 backwards compatible with 1.0.3?",
-      "a": "Not automatically. IEEE 9274.1.1 was developed from version 1.0.3, but it is a separate, revised standard. Learning Record Stores and content tools need to be checked for which version they support, and an organisation with older content may need a store that accepts both."
+      "a": "Not automatically. IEEE 9274.1.1 was developed from version 1.0.3, but it is a separate, revised standard. Learning Record Stores and content tools need to be checked for which version they support, and an organization with older content may need a store that accepts both."
     },
     {
       "q": "Does xAPI replace SCORM?",
-      "a": "Not directly. xAPI covers far more activity types, but it does not define how an LMS packages and launches courses. cmi5 fills that gap. Many organisations run SCORM and xAPI content side by side while legacy courses remain in use."
+      "a": "Not directly. xAPI covers far more activity types, but it does not define how an LMS packages and launches courses. cmi5 fills that gap. Many organizations run SCORM and xAPI content side by side while legacy courses remain in use."
     }
   ],
   "sources": [

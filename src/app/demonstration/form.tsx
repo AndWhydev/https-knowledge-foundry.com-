@@ -58,10 +58,10 @@ function validate(v: Values): Errors {
   if (!v.fullName.trim()) e.fullName = "Please enter your full name.";
   if (!v.workEmail.trim()) e.workEmail = "Please enter your work email.";
   else if (!emailPattern.test(v.workEmail.trim())) e.workEmail = "That does not look like a valid email address.";
-  if (!v.organisation.trim()) e.organisation = "Please enter your organisation.";
+  if (!v.organisation.trim()) e.organisation = "Please enter your organization.";
   if (!v.role.trim()) e.role = "Please enter your role.";
   if (!v.country.trim()) e.country = "Please enter your country.";
-  if (!v.subject.trim()) e.subject = "Please describe the subject or programme you would bring.";
+  if (!v.subject.trim()) e.subject = "Please describe the subject or program you would bring.";
   return e;
 }
 
@@ -69,7 +69,7 @@ function bundleMessage(v: Values): string {
   return [
     `Name:          ${v.fullName}`,
     `Work email:    ${v.workEmail}`,
-    `Organisation:  ${v.organisation}`,
+    `Organization:  ${v.organisation}`,
     `Role:          ${v.role}`,
     `Country:       ${v.country}`,
     v.phone ? `Phone:         ${v.phone}` : null,
@@ -217,11 +217,11 @@ export function DemonstrationForm() {
       <div className="grid md:grid-cols-2 gap-x-6 gap-y-6">
         <Field label="Full name" name="fullName" value={values.fullName} onChange={update("fullName")} error={errors.fullName} required autoComplete="name" />
         <Field label="Work email" name="workEmail" type="email" value={values.workEmail} onChange={update("workEmail")} error={errors.workEmail} required autoComplete="email" />
-        <Field label="Organisation" name="organisation" value={values.organisation} onChange={update("organisation")} error={errors.organisation} required autoComplete="organization" />
+        <Field label="Organization" name="organisation" value={values.organisation} onChange={update("organisation")} error={errors.organisation} required autoComplete="organization" />
         <Field label="Role" name="role" value={values.role} onChange={update("role")} error={errors.role} required autoComplete="organization-title" />
         <Field label="Country" name="country" value={values.country} onChange={update("country")} error={errors.country} required autoComplete="country-name" className="md:col-span-2" />
         <TextareaField
-          label="What subject or programme would you bring?"
+          label="What subject or program would you bring?"
           name="subject"
           value={values.subject}
           onChange={update("subject")}

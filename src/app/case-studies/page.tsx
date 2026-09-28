@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/case-studies" },
   title: "Case studies in regulated enterprise",
   description:
-    "Anonymised case studies showing how Knowledge Foundry rebuilds training frameworks for financial services, healthcare, and critical infrastructure operators.",
+    "Anonymized case studies showing how Knowledge Foundry rebuilds training frameworks for financial services, healthcare, and critical infrastructure operators.",
 };
 
 const cases = [
@@ -27,7 +27,7 @@ const cases = [
     sector: "Healthcare",
     title: "A national private hospital operator",
     programme: "Clinical procedure library and credentialing",
-    desc: "Four hundred procedures across more than thirty sites, each site quietly diverging. One framework, variance per site modelled explicitly.",
+    desc: "Four hundred procedures across more than thirty sites, each site quietly diverging. One framework, variance per site modeled explicitly.",
     href: "/case-studies/national-healthcare-operator",
   },
   {
@@ -35,7 +35,7 @@ const cases = [
     sector: "Critical infrastructure",
     title: "An Australian critical infrastructure operator",
     programme: "Safety critical operations and competency verification",
-    desc: "A post incident review exposed drift between training and behaviour. Hybrid verification replaced pass and click.",
+    desc: "A post incident review exposed drift between training and behavior. Hybrid verification replaced pass and click.",
     href: "/case-studies/critical-infrastructure",
   },
 ];
@@ -47,7 +47,7 @@ export default function CaseStudiesIndexPage() {
         eyebrow="Case studies"
         breadcrumb={[{ label: "Case studies", href: "/case-studies" }]}
         title={<>How the Foundry <span className="text-[color:var(--color-forge)]">operates</span> inside regulated enterprise.</>}
-        lede="Three anonymised programmes across financial services, healthcare, and critical infrastructure. Different sectors, one pattern. Framework first, content second, evidence throughout."
+        lede="Three anonymized programs across financial services, healthcare, and critical infrastructure. Different sectors, one pattern. Framework first, content second, evidence throughout."
         primaryCta={{ label: "Request a demonstration", href: "/demonstration" }}
         secondaryCta={{ label: "See the platform", href: "/platform/framework-intelligence" }}
       />
@@ -58,7 +58,7 @@ export default function CaseStudiesIndexPage() {
             <div className="max-w-[640px]">
               <Eyebrow>Selected engagements</Eyebrow>
               <Reveal>
-                <h2 className="text-display-2 mt-5">Anonymised by default. Named on request.</h2>
+                <h2 className="text-display-2 mt-5">Anonymized by default. Named on request.</h2>
               </Reveal>
               <Reveal delay={0.1}>
                 <p className="text-lede mt-5">
@@ -116,7 +116,7 @@ export default function CaseStudiesIndexPage() {
                   Your case study could sit here.
                 </h3>
                 <p className="text-[14.5px] text-[color:var(--color-ink-soft)] leading-[1.6] flex-1">
-                  Programmes taken on this year are selected for their difficulty, not their scale. If
+                  Programs taken on this year are selected for their difficulty, not their scale. If
                   your subject is regulated, contested, or has a real audit horizon, we would like to
                   see it.
                 </p>
@@ -132,7 +132,7 @@ export default function CaseStudiesIndexPage() {
           </RevealStagger>
 
           <p className="mt-10 text-[12px] leading-[1.7] text-[color:var(--color-ink-faint)] font-[family-name:var(--font-jetbrains)] max-w-[720px]">
-            Note. Client identities have been withheld. Programme details are described at a level
+            Note. Client identities have been withheld. Program details are described at a level
             sufficient to convey the shape of the engagement. Named references, contract scopes, and
             verified outcome data are made available under mutual NDA during evaluation.
           </p>

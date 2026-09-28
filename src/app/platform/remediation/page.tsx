@@ -59,8 +59,8 @@ const capabilities = [
 const steps = [
   {
     n: "01",
-    title: "Analyse",
-    desc: "Existing content is evaluated against the framework, standard, or organisational requirement it should support.",
+    title: "Analyze",
+    desc: "Existing content is evaluated against the framework, standard, or organizational requirement it should support.",
   },
   {
     n: "02",
@@ -178,14 +178,14 @@ export default function RemediationPage() {
 
       <ProcessSteps
         eyebrow="The remediation lifecycle"
-        title="Analyse. Identify. Blueprint. Enhance. Reverify."
+        title="Analyze. Identify. Blueprint. Enhance. Reverify."
         lede="Each remediation begins with evidence and ends with evidence. Improvement is measurable rather than subjective."
         steps={steps}
       />
 
       <ProseBlock
         eyebrow="What you get out"
-        title="A stronger version of the programme you already own."
+        title="A stronger version of the program you already own."
       >
         <p>
           The output is not a replacement course. It is the same course, with the

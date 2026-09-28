@@ -73,7 +73,7 @@ const jsonLd = {
         {
           "@type": "ContactPoint",
           email: site.contact.email,
-          contactType: "Sales enquiries",
+          contactType: "Sales inquiries",
           areaServed: ["AU", "PT", "US", "JP", "AE"],
           availableLanguage: ["English"],
         },

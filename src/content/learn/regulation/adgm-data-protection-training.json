@@ -1,0 +1,294 @@
+{
+  "slug": "adgm-data-protection-training",
+  "kind": "regulation",
+  "title": "What does ADGM's data protection regime expect for staff training?",
+  "seoTitle": "ADGM data protection staff training",
+  "description": "How the ADGM Data Protection Regulations 2021 treat staff training: DPO duties, security of processing, BCR training terms, and how to evidence it to the ODP.",
+  "shortAnswer": "The Abu Dhabi Global Market (ADGM) Data Protection Regulations 2021 do not set a stand-alone training mandate or fixed hours. Training is built into other duties: the Data Protection Officer must monitor awareness-raising and training of staff involved in processing, controllers must keep staff within their instructions and apply appropriate organizational security measures, and Binding Corporate Rules must describe the training given to personnel with regular access to personal data.",
+  "keyTakeaways": [
+    "The ADGM Data Protection Regulations 2021 (DPR 2021) apply to processing in the context of the activities of an establishment in ADGM, a financial free zone in Abu Dhabi with its own civil and commercial law.",
+    "Section 37(1)(b) makes monitoring the \"awareness-raising and training of Staff involved in Processing operations\" a task of the Data Protection Officer.",
+    "Sections 22, 27 and 30 require accountability measures, processing only on the controller's instructions, and appropriate organizational security measures; Office of Data Protection guidance names regular staff training as one of those measures.",
+    "Section 43(2)(l) requires Binding Corporate Rules to specify the data protection training given to personnel with permanent or regular access to personal data.",
+    "The Commissioner of Data Protection can impose administrative fines of up to USD 28 million, and weak organizational measures are a factor in setting a fine."
+  ],
+  "jurisdiction": "United Arab Emirates: Abu Dhabi Global Market (ADGM)",
+  "regulator": "ADGM Office of Data Protection (Commissioner of Data Protection)",
+  "appliesTo": [
+    "Controllers and processors that are establishments in ADGM: entities established, registered, or licensed to operate in ADGM, or exempt from registration under ADGM law",
+    "Data Protection Officers appointed under section 35, and the senior management they report to",
+    "Staff with access to personal data, which the DPR 2021 defines broadly to include employees, directors, partners, officers, temporary or casual workers, agents, and volunteers",
+    "Groups using Binding Corporate Rules approved in ADGM for international transfers"
+  ],
+  "sections": [
+    {
+      "id": "free-zone-context",
+      "heading": "Why does ADGM have its own data protection law?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ADGM has its own data protection law because it is a financial free zone with its own civil and commercial legal system. ADGM describes itself as established under federal legislation and Abu Dhabi Law No. 4 of 2013 as a financial free zone, with a [legal framework](https://www.adgm.com/legal-framework) based on English common law. The ADGM Board enacted the DPR 2021 on 11 February 2021 under that Abu Dhabi law."
+        },
+        {
+          "type": "p",
+          "text": "For readers outside the United Arab Emirates (UAE), the practical point is that the country has several data protection regimes. Most businesses \"onshore\" deal with the federal Personal Data Protection Law, Federal Decree-Law No. 45 of 2021, which the [UAE Government portal](https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws) says came into force on 2 January 2022 (see [the UAE PDPL page](/regulations/uae-pdpl-staff-training)). Dubai's financial free zone has its own statute (see [the DIFC Data Protection Law page](/regulations/difc-data-protection-law-training)). ADGM establishments follow the DPR 2021."
+        },
+        {
+          "type": "p",
+          "text": "Under section 3(1), the DPR 2021 apply to processing \"in the context of the activities of an Establishment of a Controller or a Processor in ADGM, regardless of whether the Processing takes place in ADGM or not.\" A group with an onshore entity and an ADGM entity should therefore map each legal entity to its own regime, and its [compliance obligations register](/glossary/compliance-obligations-register) should record which training obligation comes from which law. The Regulations also refer throughout to \"Applicable Law\", which ADGM guidance explains includes Abu Dhabi or federal law having application in ADGM."
+        }
+      ]
+    },
+    {
+      "id": "what-the-regulations-require",
+      "heading": "Do the ADGM Data Protection Regulations require staff training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Not as a stand-alone duty with set hours or a set frequency, but training is written into several obligations. As at September 2026, no section of the consolidated DPR 2021 says \"every controller must train its staff annually\". Instead, training appears as a named DPO task, as a required term of Binding Corporate Rules, and, through ADGM guidance, as an expected organizational measure for accountability and security."
+        },
+        {
+          "type": "p",
+          "text": "The most direct text is section 37(1)(b). It lists among the tasks of the DPO monitoring compliance with the Regulations and with the organization's policies, \"including the assignment of responsibilities, awareness-raising and training of Staff involved in Processing operations, and the related audits.\" Section 37(1)(a) adds the task of informing and advising \"the employees who carry out Processing of their obligations\"."
+        },
+        {
+          "type": "table",
+          "caption": "Where training sits in the DPR 2021 (consolidated version, as at September 2026)",
+          "head": ["Provision", "What it requires", "Training implication"],
+          "rows": [
+            ["Section 22", "Controllers implement appropriate technical and organizational measures to ensure and demonstrate compliance, review them, and adopt data protection policies where proportionate", "Staff must know the policies; the controller must be able to show they do"],
+            ["Section 27 and section 30(3)", "Processors and anyone acting under the controller's authority with access to personal data process it only on the controller's instructions", "People need to know what the instructions are and what is out of bounds"],
+            ["Section 30(1)", "Appropriate technical and organizational security measures, including regular testing of their effectiveness", "Security awareness is an organizational measure; its effectiveness should be tested"],
+            ["Section 32", "Breach notification to the Commissioner within 72 hours where feasible; processors notify controllers without undue delay", "Staff must recognize and escalate a breach quickly"],
+            ["Section 37(1)(a) and (b)", "DPO informs and advises employees and monitors awareness-raising, training, and related audits", "The DPO needs training records and audit results to monitor"],
+            ["Section 43(2)(l)", "Binding Corporate Rules specify data protection training for personnel with permanent or regular access to personal data", "Groups using BCRs must define and deliver that training"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "odp-guidance",
+      "heading": "What does the Office of Data Protection guidance say about training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Office of Data Protection (ODP) guidance says staff must understand the importance of data protection and that controllers should provide regular training. Part 5 of the [ODP guidance on the DPR 2021](https://www.adgm.com/operating-in-adgm/office-of-data-protection/guidance) lists \"Building a culture of security awareness in your organisation e.g. via regular training and awareness-raising campaigns\" as an example organizational measure under section 30."
+        },
+        {
+          "type": "p",
+          "text": "On people acting under the controller's authority, the same guidance says: \"This means that you must make sure your staff understand the importance of data protection. You should provide regular training\". It lists three topics:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "the responsibilities of the organization as controller or processor under the DPR 2021;",
+            "staff responsibilities for protecting personal data, including not accessing or disclosing it without authority; and",
+            "the risk of people trying to obtain personal data by deception, for example by pretending to be the data subject or claiming an official reason."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The guidance illustrates this with an example of a controller that applies least privilege access and gives staff data protection and data security training when they join, followed by annual refresher training. That is an example, not a rule, but it is a useful baseline when setting [refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles). Part 1 adds that smaller organizations can approach accountability by \"ensuring that staff are aware of and understand their\" data protection responsibilities, and Part 3 says senior management should foster a culture of privacy awareness."
+        },
+        {
+          "type": "callout",
+          "title": "Check the guidance date",
+          "text": "The ODP guidance documents are marked version 1.0 of August 2021. The Regulations have since been amended in 2022, 2023, 2024 and 2025, so read the guidance alongside the current consolidated text, not instead of it."
+        }
+      ]
+    },
+    {
+      "id": "dpo-role",
+      "heading": "What is the Data Protection Officer's role in training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The DPO informs and advises employees and monitors the organization's awareness-raising and training, but the controller or processor remains responsible for compliance. Under section 35(1), a DPO is mandatory where processing is carried out by a public authority, where core activities involve regular and systematic monitoring of data subjects on a large scale, or where core activities involve large scale processing of special categories of personal data."
+        },
+        {
+          "type": "p",
+          "text": "Section 35(3) requires the DPO to be appointed on the basis of professional qualities and expert knowledge of data protection law and practices. Section 36 requires the DPO to be involved properly and in a timely manner, to have sufficient resources, and to report directly to the highest level of management. ODP guidance on section 37 says informing employees \"would also ideally include running training sessions\", and that stakeholders should be told through internal training and communications to inform the DPO before starting high risk processing."
+        },
+        {
+          "type": "p",
+          "text": "Where no DPO is required, the training monitoring task does not disappear: someone still has to evidence the section 22 and section 30 measures. ODP [Circular No. 1 of 2025](https://assets.adgm.com/download/assets/ADGM+ODP+Circular+No+1+of+2025.pdf/d434729cd3fa11efb2e7560b7285278b) reminds all ADGM entities to keep their Data Protection Register and the details of their designated Data Protection Contact Person up to date, and warns that failure can lead to enforcement action."
+        }
+      ]
+    },
+    {
+      "id": "obligation-to-evidence",
+      "heading": "How do the obligations map to learning outcomes and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each training-related duty can be turned into a measurable outcome and a record the DPO or the Commissioner could review. The table below is an illustrative mapping built from the provisions above; it is not an ODP template."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: DPR 2021 obligation to learning outcome to assessment evidence",
+          "head": ["Obligation", "Audience", "Learning outcome", "Assessment evidence"],
+          "rows": [
+            ["Section 27 and 30(3): process only on instructions", "All staff with access to personal data", "Explain which data they may access for their role and what counts as unauthorized use or disclosure", "Scenario questions on access and disclosure; policy attestation"],
+            ["Section 30: security awareness", "All staff", "Recognize social engineering attempts to obtain personal data and report them", "Knowledge check with deception scenarios; phishing simulation results where used"],
+            ["Section 32: breach notification", "All staff; incident team", "Identify a personal data breach and escalate it immediately so the 72 hour clock can be met", "Escalation scenario; incident exercise record"],
+            ["Section 34 and 37(1)(b): DPIA and DPO involvement", "Project owners, product, IT", "Recognize processing likely to be high risk and consult the DPO before it starts", "Case study assessment; DPIA log showing DPO consultation"],
+            ["Sections 10 to 21: data subject rights", "Customer facing and operations staff", "Recognize a rights request and route it within the organization's procedure", "Role based scenario assessment"],
+            ["Section 43(2)(l): BCR training", "Personnel with permanent or regular access to personal data across the group", "Apply the group's BCR commitments to intra-group transfers", "Completion and assessment records by entity, retained for BCR monitoring"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Completion alone shows attendance, not understanding. Section 30(1)(d) calls for regularly testing, assessing, and evaluating the effectiveness of organizational measures, which supports assessing knowledge rather than only tracking clicks (see [completion tracking vs competency verification](/compare/completion-tracking-vs-competency-verification)). A [training matrix](/glossary/training-matrix) linking roles to modules and a clear [audit trail](/glossary/audit-trail) make the DPO's monitoring task practical."
+        }
+      ]
+    },
+    {
+      "id": "enforcement",
+      "heading": "What are the penalties, and how does training affect them?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Commissioner of Data Protection can impose an administrative fine of up to USD 28 million under section 55(1), and the organization's technical and organizational measures are a factor in the amount. Section 55(3)(d) lists \"the degree of responsibility of the Controller or Processor taking into account technical and organisational measures implemented by them pursuant to sections 23 and 30\" among the factors the Commissioner may consider."
+        },
+        {
+          "type": "p",
+          "text": "Other listed factors include the intentional or negligent character of the contravention, mitigation, cooperation, and whether the organization notified the Commissioner itself. A documented, assessed training program is therefore both a preventive control and part of the record an organization would rely on if something went wrong. [Preparing training records for an audit](/guides/how-to-prepare-training-records-for-an-audit) covers what that record should contain."
+        }
+      ]
+    },
+    {
+      "id": "building-the-program",
+      "heading": "How should an ADGM establishment build its data protection training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Start from the obligations, not from a generic privacy course. The steps below follow the DPR 2021 structure and the ODP guidance; the sequence is a suggested method."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Confirm which entities are ADGM establishments and which fall under the federal PDPL or another free zone regime, and record the result in the obligations register.",
+            "Decide whether a DPO is mandatory under section 35(1), and give the DPO or contact person documented responsibility for monitoring training.",
+            "Map roles to the processing they do, using the record of processing activities under section 28, and define who has permanent or regular access to personal data.",
+            "Write measurable outcomes for each obligation in the mapping table, then build role based modules for onboarding and refreshers.",
+            "Assess understanding with scenarios, not only completion, and feed results into the section 30(1)(d) effectiveness review.",
+            "Keep dated records of content versions, completions, and assessment results so the DPO can report to the highest level of management.",
+            "Review content when the Regulations, ODP guidance, or circulars change, and after incidents or DPIA findings."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "[Mapping training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations) and [structuring onboarding for regulated roles](/guides/how-to-structure-onboarding-for-regulated-roles) describe steps 3 to 5 in more detail."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models the DPR 2021 provisions, the roles they apply to, and the assessment points for each before any content is written, with each concept linked to its source section. When the Regulations or ODP guidance change, the affected concepts and modules can be identified from that structure, and the assessment records give the DPO evidence for the section 37 monitoring task."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the federal UAE PDPL apply to an ADGM company?",
+      "a": "An ADGM establishment's processing in the context of its ADGM activities is governed by the ADGM Data Protection Regulations 2021. Groups that also have onshore entities should assess those entities separately against the federal Personal Data Protection Law. The regimes are similar in approach but differ in detail, so training content should be mapped to each entity's regime rather than reused unchanged."
+    },
+    {
+      "q": "How often must ADGM staff complete data protection training?",
+      "a": "The DPR 2021 set no frequency. ODP guidance says controllers should provide regular training and gives an example of training at joining followed by annual refreshers. Annual refreshers with additional training when roles, systems, or the law change is a defensible baseline, adjusted for risk."
+    },
+    {
+      "q": "Is a Data Protection Officer required for every ADGM entity?",
+      "a": "No. Section 35(1) makes a DPO mandatory for public authorities, for core activities involving large scale regular and systematic monitoring, and for large scale processing of special categories of personal data. All entities must still keep their Data Protection Register and Data Protection Contact Person details current, as ODP Circular No. 1 of 2025 reminds them."
+    },
+    {
+      "q": "Do contractors and temporary workers need training?",
+      "a": "The DPR 2021 define Staff to include employees, directors, partners, officers, temporary or casual workers, agents, and volunteers, and sections 27 and 30(3) cover anyone acting under the controller's or processor's authority with access to personal data. Anyone in that group who handles personal data should receive training appropriate to their access."
+    },
+    {
+      "q": "Does ADGM data protection law apply to businesses on Al Reem Island?",
+      "a": "Section 3(4) gave persons operating from permanent establishments on Al Reem Island a temporary exemption that ended on 31 December 2024. Businesses there that are registered or licensed in ADGM should treat the DPR 2021 as applying and train staff accordingly. Confirm the position for a specific entity with ADGM."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Data Protection Regulations 2021 (consolidated version August 2025)",
+      "publisher": "Abu Dhabi Global Market",
+      "url": "https://en.adgm.thomsonreuters.com/sites/default/files/net_file_store/ADGM1547_23167_VER992025.pdf"
+    },
+    {
+      "title": "Data Protection Regulations 2021: ADGM Legal Framework rulebook entry and amendments",
+      "publisher": "Abu Dhabi Global Market",
+      "url": "https://en.adgm.thomsonreuters.com/rulebook/data-protection-regulations-2021"
+    },
+    {
+      "title": "Guidance on the Data Protection Regulations 2021: Part 1",
+      "publisher": "ADGM Office of Data Protection",
+      "url": "https://assets.adgm.com/download/assets/ADGM+DPR+2021+Guidance+Part+1.pdf/b65534b2595411ef82c5a27efcbde115"
+    },
+    {
+      "title": "Guidance on the Data Protection Regulations 2021: Part 3 (including Data Protection Officers)",
+      "publisher": "ADGM Office of Data Protection",
+      "url": "https://assets.adgm.com/download/assets/ADGM+DPR+2021+Guidance+Part+3.pdf/12ba12da595611ef894152361f6b9c5e"
+    },
+    {
+      "title": "Guidance on the Data Protection Regulations 2021: Part 5 (security of processing and breaches)",
+      "publisher": "ADGM Office of Data Protection",
+      "url": "https://assets.adgm.com/download/assets/ADGM+DPR+2021+Guidance+Part+5.pdf/fe422242595611efaa55be162688b39c"
+    },
+    {
+      "title": "Office of Data Protection Circular No. 1 of 2025",
+      "publisher": "ADGM Office of Data Protection",
+      "url": "https://assets.adgm.com/download/assets/ADGM+ODP+Circular+No+1+of+2025.pdf/d434729cd3fa11efb2e7560b7285278b"
+    },
+    {
+      "title": "Office of Data Protection: guidance",
+      "publisher": "Abu Dhabi Global Market",
+      "url": "https://www.adgm.com/operating-in-adgm/office-of-data-protection/guidance"
+    },
+    {
+      "title": "Legal framework",
+      "publisher": "Abu Dhabi Global Market",
+      "url": "https://www.adgm.com/legal-framework"
+    },
+    {
+      "title": "Data protection laws",
+      "publisher": "The United Arab Emirates' Government portal (u.ae)",
+      "url": "https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws"
+    }
+  ],
+  "related": [
+    "uae-pdpl-staff-training",
+    "difc-data-protection-law-training",
+    "gdpr-staff-training-requirements",
+    "how-to-map-training-to-compliance-obligations",
+    "how-to-set-mandatory-training-refresh-cycles",
+    "completion-tracking-vs-competency-verification"
+  ],
+  "productLinks": [
+    { "label": "Financial services", "href": "/industries/financial-services" },
+    { "label": "Compliance programs", "href": "/programs/compliance" },
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 99,
+  "factCheck": [
+    { "claim": "Section 37(1)(b) DPO tasks include monitoring compliance including the assignment of responsibilities, awareness-raising and training of Staff involved in Processing operations, and the related audits; 37(1)(a) inform and advise employees who carry out Processing", "source": "https://en.adgm.thomsonreuters.com/sites/default/files/net_file_store/ADGM1547_23167_VER992025.pdf" },
+    { "claim": "Section 43(2)(l): Binding Corporate Rules must specify the data protection training provided to personnel with permanent or regular access to Personal Data", "source": "https://en.adgm.thomsonreuters.com/sites/default/files/net_file_store/ADGM1547_23167_VER992025.pdf" },
+    { "claim": "Section 55(1) caps administrative fines at USD 28 million (amended 28 February 2024); section 55(3)(d) makes technical and organisational measures under sections 23 and 30 a factor", "source": "https://en.adgm.thomsonreuters.com/sites/default/files/net_file_store/ADGM1547_23167_VER992025.pdf" },
+    { "claim": "Section 35(1) mandatory DPO triggers; 35(3) expert knowledge; 36(1)(d) reports to highest level of management", "source": "https://en.adgm.thomsonreuters.com/sites/default/files/net_file_store/ADGM1547_23167_VER992025.pdf" },
+    { "claim": "Section 3(1) territorial scope; section 3(4) Al Reem Island exemption ended 31 December 2024; Staff definition in section 62; section 32 72 hour breach notification", "source": "https://en.adgm.thomsonreuters.com/sites/default/files/net_file_store/ADGM1547_23167_VER992025.pdf" },
+    { "claim": "Regulations enacted 11 February 2021 under Article 6(1) of Abu Dhabi Law No. 4 of 2013; Amendment No. 1 instruments of 2022, 2023, 2024 and 2025 listed", "source": "https://en.adgm.thomsonreuters.com/rulebook/data-protection-regulations-2021" },
+    { "claim": "ODP guidance Part 5 says staff should receive regular training on controller responsibilities, staff responsibilities, and deception risks, with an example of joiner training plus annual refresher", "source": "https://assets.adgm.com/download/assets/ADGM+DPR+2021+Guidance+Part+5.pdf/fe422242595611efaa55be162688b39c" },
+    { "claim": "ODP guidance Part 3 says informing employees would ideally include running training sessions, and senior management should foster a culture of privacy awareness", "source": "https://assets.adgm.com/download/assets/ADGM+DPR+2021+Guidance+Part+3.pdf/12ba12da595611ef894152361f6b9c5e" },
+    { "claim": "ODP Circular No. 1 of 2025 (16 January 2025) requires entities to keep the Data Protection Register and Data Protection Contact Person details up to date, with enforcement for failure", "source": "https://assets.adgm.com/download/assets/ADGM+ODP+Circular+No+1+of+2025.pdf/d434729cd3fa11efb2e7560b7285278b" },
+    { "claim": "Federal Decree-Law No. 45 of 2021 (PDPL) came into force on 2 January 2022", "source": "https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws" },
+    { "claim": "ADGM was established as a financial free zone under federal legislation and Abu Dhabi Law No. 4 of 2013, with a legal framework based on English common law", "source": "https://www.adgm.com/legal-framework" }
+  ]
+}

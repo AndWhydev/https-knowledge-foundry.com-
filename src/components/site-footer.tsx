@@ -62,7 +62,7 @@ export function SiteFooter() {
             </div>
             <div className="md:pl-6">
               <p className="text-lede mb-6 max-w-[46ch]">
-                A 45-minute walkthrough with our team, mapped to a subject or programme you own. No slideware.
+                A 45-minute walkthrough with our team, mapped to a subject or program you own. No slideware.
               </p>
               <Link
                 href="/demonstration"

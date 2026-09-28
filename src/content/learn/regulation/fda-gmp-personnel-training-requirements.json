@@ -1,0 +1,379 @@
+{
+  "slug": "fda-gmp-personnel-training-requirements",
+  "kind": "regulation",
+  "title": "What does FDA's GMP rule (21 CFR 211.25) require for personnel training?",
+  "seoTitle": "FDA 21 CFR 211.25 personnel training",
+  "description": "What 21 CFR 211.25 requires for US drug manufacturing staff training: CGMP and job training, frequency, qualified trainers, as at September 2026.",
+  "shortAnswer": "Under 21 CFR 211.25, the US Food and Drug Administration (FDA) requires every person who manufactures, processes, packs, or holds a finished drug product to have the education, training, and experience to perform their assigned functions. Training must cover the specific operations each employee performs and current good manufacturing practice (CGMP) as it relates to their job, and CGMP training must be given by qualified individuals, continuously and often enough to keep staff familiar with the requirements.",
+  "keyTakeaways": [
+    "21 CFR 211.25(a) requires training in two things: the particular operations the employee performs, and CGMP (including the regulations and the firm's written procedures) as it relates to their functions.",
+    "CGMP training must be conducted by qualified individuals \"on a continuing basis and with sufficient frequency\". The rule sets no hours or fixed interval, so the firm must justify its own cycle.",
+    "Supervisors (211.25(b)) and consultants (211.34) must also be qualified, and firms must keep records of each consultant's name, address, qualifications, and type of service.",
+    "Failure to comply with Part 211 renders a drug adulterated under section 501(a)(2)(B) of the Federal Food, Drug, and Cosmetic Act, exposing both the product and the responsible person to regulatory action.",
+    "Medical device makers follow a different rule: since February 2, 2026, the Quality Management System Regulation (21 CFR Part 820) incorporates ISO 13485:2016, whose Clause 6.2 governs competence and training."
+  ],
+  "jurisdiction": "United States (federal)",
+  "regulator": "US Food and Drug Administration (FDA), within the Department of Health and Human Services",
+  "appliesTo": [
+    "Manufacturers, processors, packers, and holders of finished pharmaceuticals (human and veterinary) supplied to the US market, including foreign sites that export to the US",
+    "Everyone engaged in manufacture, processing, packing, or holding, plus their supervisors",
+    "Consultants advising on those activities",
+    "Contract manufacturers and testing laboratories performing CGMP operations"
+  ],
+  "sections": [
+    {
+      "id": "how-us-drug-gmp-rules-are-structured",
+      "heading": "How are US drug GMP rules structured?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "US drug manufacturing rules are federal regulations issued by the FDA under the Federal Food, Drug, and Cosmetic Act and published in Title 21 of the Code of Federal Regulations (CFR). For readers outside the US: Congress passes the statute, the agency writes binding regulations under it, and the agency then issues guidance documents that explain its current thinking but do not create new legal requirements."
+        },
+        {
+          "type": "p",
+          "text": "The FDA lists its drug CGMP regulations as [21 CFR Parts 210, 211, 212 and 600](https://www.fda.gov/drugs/pharmaceutical-quality-resources/current-good-manufacturing-practice-cgmp-regulations): Part 210 covers general status, Part 211 covers finished pharmaceuticals, Part 212 covers positron emission tomography drugs, and Part 600 covers biological products. This page focuses on Part 211, the rule most regulated organizations mean when they say \"FDA GMP\". It states the position as at September 2026; the personnel sections of Part 211 (211.25, 211.28, 211.34) have not been amended since the eCFR's 2016 baseline."
+        },
+        {
+          "type": "p",
+          "text": "Under [21 CFR 210.1](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-210/section-210.1), Parts 210 and 211 contain the minimum CGMP, and failing to comply renders a drug adulterated under section 501(a)(2)(B) of the Act, with the drug and \"the person who is responsible for the failure to comply\" subject to regulatory action."
+        }
+      ]
+    },
+    {
+      "id": "what-211-25-requires",
+      "heading": "What does 21 CFR 211.25 require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Section 211.25 requires that every person in drug manufacturing operations, and every supervisor, is qualified by education, training, and experience, and that there are enough qualified people. Paragraph (a) is the core training requirement:"
+        },
+        {
+          "type": "callout",
+          "title": "21 CFR 211.25(a)",
+          "text": "\"Training shall be in the particular operations that the employee performs and in current good manufacturing practice (including the current good manufacturing practice regulations in this chapter and written procedures required by these regulations) as they relate to the employee's functions. Training in current good manufacturing practice shall be conducted by qualified individuals on a continuing basis and with sufficient frequency to assure that employees remain familiar with CGMP requirements applicable to them.\""
+        },
+        {
+          "type": "table",
+          "caption": "Personnel sections of 21 CFR Part 211, Subpart B (as at September 2026)",
+          "head": [
+            "Section",
+            "Who it covers",
+            "Core requirement"
+          ],
+          "rows": [
+            [
+              "211.25(a)",
+              "Each person engaged in manufacture, processing, packing, or holding",
+              "Education, training, and experience to perform assigned functions; training in their operations and in CGMP, by qualified individuals, continuing and sufficiently frequent."
+            ],
+            [
+              "211.25(b)",
+              "Each person responsible for supervising those activities",
+              "Education, training, and experience to give assurance the drug has its purported safety, identity, strength, quality, and purity."
+            ],
+            [
+              "211.25(c)",
+              "The operation as a whole",
+              "An adequate number of qualified personnel to perform and supervise each drug product's operations."
+            ],
+            [
+              "211.28",
+              "All personnel in operations",
+              "Clean, appropriate clothing and protective apparel; good sanitation and health habits; limited access areas; instruction to report health conditions that may affect drug products."
+            ],
+            [
+              "211.34",
+              "Consultants",
+              "Sufficient education, training, and experience for the subject; records of name, address, qualifications, and type of service."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The full text is in [21 CFR Part 211, Subpart B](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B). Note that the rule says \"education, training, and experience, or any combination thereof\": a firm can qualify someone through a mix, but it must be able to show the mix is sufficient for the role."
+        }
+      ]
+    },
+    {
+      "id": "how-often-must-cgmp-training-happen",
+      "heading": "How often must CGMP training happen?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Part 211 sets no fixed interval or minimum hours. It requires CGMP training \"on a continuing basis and with sufficient frequency\" to keep employees familiar with the requirements that apply to them, so the frequency is a quality decision the firm must justify and document."
+        },
+        {
+          "type": "p",
+          "text": "Many firms run annual CGMP refreshers plus event driven training when a procedure changes, after a deviation, or when someone moves into a new role. None of these triggers is written into 211.25, but each is a defensible way to show \"sufficient frequency\". Guidance on choosing intervals is in [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles)."
+        },
+        {
+          "type": "p",
+          "text": "Because the rule ties training to \"written procedures required by these regulations\", every change to a standard operating procedure that affects a person's job creates a training need. Organizations with large procedure libraries usually control this with a [training matrix](/glossary/training-matrix) that links each [standard operating procedure](/glossary/standard-operating-procedure) to the roles that must read and be trained on it."
+        }
+      ]
+    },
+    {
+      "id": "what-fda-guidance-adds",
+      "heading": "What does FDA guidance add to the regulation?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "FDA guidance expects a training program with a full cycle: needs, delivery, effectiveness, and records. The FDA's final guidance [Quality Systems Approach to Pharmaceutical CGMP Regulations](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-systems-approach-pharmaceutical-current-good-manufacturing-practice-regulations) (2006) says managers are expected to establish training programs that include:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Evaluation of training needs.",
+            "Provision of training to satisfy these needs.",
+            "Evaluation of effectiveness of training.",
+            "Documentation of training and/or re-training."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The same guidance says managers should define qualifications for each position, that training should focus on both the employee's specific job functions and the related CGMP requirements, and that managers should verify that skills gained from training are applied in day to day performance. It maps these expectations to 211.25(a) and (b)."
+        },
+        {
+          "type": "p",
+          "text": "For active pharmaceutical ingredients (APIs), the FDA has adopted the international guideline [ICH Q7](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q7-good-manufacturing-practice-guidance-active-pharmaceutical-ingredients-guidance-industry) (September 2016). Section 3.12 states: \"Training should be regularly conducted by qualified individuals and should cover, at a minimum, the particular operations that the employee performs and GMP as it relates to the employee's functions. Records of training should be maintained. Training should be periodically assessed.\""
+        }
+      ]
+    },
+    {
+      "id": "how-do-device-rules-differ",
+      "heading": "How do the medical device rules differ?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Medical device manufacturers are not covered by Part 211. Since February 2, 2026 they follow the [Quality Management System Regulation (QMSR)](https://www.fda.gov/medical-devices/postmarket-requirements-devices/quality-management-system-regulation-qmsr), 21 CFR Part 820, which incorporates ISO 13485:2016 by reference."
+        },
+        {
+          "type": "p",
+          "text": "Under [21 CFR 820.10](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-820/section-820.10), a device manufacturer must document a quality management system that complies with the applicable requirements of ISO 13485. In the [final rule](https://www.federalregister.gov/documents/full_text/text/2024/02/02/2024-01709.txt) published February 2, 2024, the FDA said Clause 6.2 of ISO 13485 requires that individuals doing work that affects quality are competent on the basis of appropriate education, training, skills, and experience, and that this covers internal and external personnel, full time and part time staff, contractors, and consultants. Combination product makers may need to meet both rule sets."
+        }
+      ]
+    },
+    {
+      "id": "mapping-obligations-to-evidence",
+      "heading": "How can a site map 211.25 to learning outcomes and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Map each element of the rule to an observable outcome and to the evidence an investigator would ask for. The table below is illustrative; each site must tailor it to its products, processes, and procedures."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: 21 CFR 211 personnel requirement to learning outcome to evidence",
+          "head": [
+            "Requirement",
+            "Example learning outcome",
+            "Assessment evidence"
+          ],
+          "rows": [
+            [
+              "211.25(a) Particular operations",
+              "Operator sets up and runs the tablet press to the current batch record and SOP without deviation.",
+              "Observed on the job qualification signed by a qualified trainer, linked to the SOP version."
+            ],
+            [
+              "211.25(a) CGMP as it relates to functions",
+              "Explains why contemporaneous entries are required and how to correct a batch record entry.",
+              "Scenario based assessment with a pass mark; retraining record if failed."
+            ],
+            [
+              "211.25(a) Qualified trainers",
+              "Trainer demonstrates subject knowledge and coaching method.",
+              "Trainer qualification record showing their own training and experience."
+            ],
+            [
+              "211.25(a) Sufficient frequency",
+              "Staff remain current after a procedure revision.",
+              "Change control records showing affected roles were trained before the revised SOP took effect."
+            ],
+            [
+              "211.25(b) Supervisors",
+              "Supervisor identifies when a deviation must be escalated to the quality unit.",
+              "Case review or tabletop exercise, recorded against the supervisor."
+            ],
+            [
+              "211.28(d) Health reporting",
+              "Employee states which health conditions to report and to whom.",
+              "Induction quiz and signed acknowledgment."
+            ],
+            [
+              "211.34 Consultants",
+              "Consultant is qualified for the specific advice given.",
+              "Consultant file with name, address, qualifications, and type of service."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This structure reflects the difference between completing a module and demonstrating competence. For assessment design, see [competency assessment](/glossary/competency-assessment) and [how to convert SOPs into training](/guides/how-to-convert-sops-into-training)."
+        }
+      ]
+    },
+    {
+      "id": "what-records-to-keep",
+      "heading": "What training records should a drug manufacturer keep?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Part 211 does not contain a dedicated training records section, but a site must be able to prove each person is qualified, and FDA guidance and ICH Q7 both expect documented training. In practice investigators ask for the records below."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Job descriptions or role profiles defining required qualifications for each position.",
+            "A curriculum per role linking SOPs, CGMP topics, and on the job qualifications.",
+            "Dated training records showing the SOP version trained on, the trainer, and the assessment result.",
+            "Trainer qualification records.",
+            "Evidence of training needs analysis and training effectiveness checks.",
+            "Consultant records required by 211.34."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Records required under Part 211 must be readily available for authorized inspection during the retention period under [211.180(c)](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-J). For preparing them, see [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit). The Australian and Japanese equivalents are covered in [TGA GMP personnel training](/regulations/tga-gmp-personnel-training-requirements) and [Japan's GMP ordinance](/regulations/japan-gmp-personnel-training-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models each regulation clause, SOP, and role as linked nodes in a knowledge framework, then attaches the learning outcomes and assessment points that evidence competence. When a procedure is revised, the affected roles and training are identified from those links rather than by manual search. See how this works for [healthcare and life sciences](/industries/healthcare-life-sciences)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does 21 CFR 211.25 require annual GMP training?",
+      "a": "No. The regulation requires CGMP training on a continuing basis and with sufficient frequency to keep employees familiar with the requirements that apply to them. It does not name an interval. Many firms choose annual refreshers plus training triggered by procedure changes, but they must be able to justify the frequency they choose."
+    },
+    {
+      "q": "Does 211.25 apply to foreign manufacturers?",
+      "a": "Yes. Part 211 applies to the manufacture, processing, packing, and holding of drugs for the US market wherever the site is located. Under 21 CFR 210.1, a drug made without conforming to CGMP is adulterated under section 501(a)(2)(B) of the Federal Food, Drug, and Cosmetic Act, so foreign sites that export to the US need training programs that meet 211.25."
+    },
+    {
+      "q": "Who counts as a qualified trainer under 211.25?",
+      "a": "The regulation does not define the term. It requires CGMP training to be conducted by qualified individuals, so firms define trainer qualification criteria in a procedure (subject expertise, experience, and often a train the trainer course) and keep records showing each trainer meets them."
+    },
+    {
+      "q": "Is reading an SOP enough to count as training?",
+      "a": "It depends on risk. A read and understand approach may be defensible for low risk administrative procedures, but 211.25(a) requires training that enables a person to perform assigned functions. For critical operations, firms usually add demonstration and observed qualification so they can show competence, not only acknowledgment."
+    }
+  ],
+  "sources": [
+    {
+      "title": "21 CFR Part 211, Subpart B: Organization and Personnel",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B"
+    },
+    {
+      "title": "21 CFR 210.1: Status of current good manufacturing practice regulations",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-210/section-210.1"
+    },
+    {
+      "title": "Current Good Manufacturing Practice (CGMP) Regulations",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/drugs/pharmaceutical-quality-resources/current-good-manufacturing-practice-cgmp-regulations"
+    },
+    {
+      "title": "Quality Systems Approach to Pharmaceutical Current Good Manufacturing Practice Regulations",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-systems-approach-pharmaceutical-current-good-manufacturing-practice-regulations"
+    },
+    {
+      "title": "Q7 Good Manufacturing Practice Guidance for Active Pharmaceutical Ingredients",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q7-good-manufacturing-practice-guidance-active-pharmaceutical-ingredients-guidance-industry"
+    },
+    {
+      "title": "Quality Management System Regulation (QMSR)",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/medical-devices/postmarket-requirements-devices/quality-management-system-regulation-qmsr"
+    },
+    {
+      "title": "Medical Devices; Quality System Regulation Amendments (final rule, 89 FR 7496)",
+      "publisher": "Federal Register",
+      "url": "https://www.federalregister.gov/documents/full_text/text/2024/02/02/2024-01709.txt"
+    },
+    {
+      "title": "21 CFR 820.10: Requirements for a quality management system",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-820/section-820.10"
+    }
+  ],
+  "related": [
+    "tga-gmp-personnel-training-requirements",
+    "japan-gmp-personnel-training-requirements",
+    "how-to-convert-sops-into-training",
+    "training-matrix",
+    "competency-assessment",
+    "how-to-prepare-training-records-for-an-audit"
+  ],
+  "productLinks": [
+    {
+      "label": "Healthcare and life sciences",
+      "href": "/industries/healthcare-life-sciences"
+    },
+    {
+      "label": "Operational procedures programs",
+      "href": "/programs/operational-procedures"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 99,
+  "factCheck": [
+    {
+      "claim": "21 CFR 211.25(a) text: training in particular operations and in CGMP including regulations and written procedures; conducted by qualified individuals on a continuing basis and with sufficient frequency.",
+      "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B"
+    },
+    {
+      "claim": "211.25(b) supervisors and 211.25(c) adequate number of qualified personnel; 211.28 clothing, sanitation, limited access, health reporting instruction; 211.34 consultants with records of name, address, qualifications and type of service. Sections unchanged since 2016 eCFR baseline (checked via eCFR versioner API).",
+      "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B"
+    },
+    {
+      "claim": "210.1: Parts 210 and 211 contain minimum CGMP; failure to comply renders drug adulterated under section 501(a)(2)(B); drug and responsible person subject to regulatory action.",
+      "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-210/section-210.1"
+    },
+    {
+      "claim": "FDA lists drug CGMP regulations in 21 CFR Parts 210, 211, 212 and 600.",
+      "source": "https://www.fda.gov/drugs/pharmaceutical-quality-resources/current-good-manufacturing-practice-cgmp-regulations"
+    },
+    {
+      "claim": "Quality Systems guidance (final, 2006) expects training programs with evaluation of needs, provision, evaluation of effectiveness, documentation; managers verify skills are applied; references 211.25(a) and (b); does not introduce new requirements.",
+      "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-systems-approach-pharmaceutical-current-good-manufacturing-practice-regulations"
+    },
+    {
+      "claim": "ICH Q7 (FDA guidance, September 2016) section 3.12 text on training by qualified individuals, records, periodic assessment.",
+      "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q7-good-manufacturing-practice-guidance-active-pharmaceutical-ingredients-guidance-industry"
+    },
+    {
+      "claim": "QMSR effective February 2, 2026, incorporating ISO 13485:2016 by reference.",
+      "source": "https://www.fda.gov/medical-devices/postmarket-requirements-devices/quality-management-system-regulation-qmsr"
+    },
+    {
+      "claim": "Final rule published February 2, 2024 (89 FR 7496); FDA considers Clause 6.2 of ISO 13485 to require competence based on education, training, skills and experience, covering internal and external personnel, contractors and consultants.",
+      "source": "https://www.federalregister.gov/documents/full_text/text/2024/02/02/2024-01709.txt"
+    },
+    {
+      "claim": "820.10: manufacturer must document a QMS that complies with applicable requirements of ISO 13485.",
+      "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-820/section-820.10"
+    },
+    {
+      "claim": "211.180(c): records must be readily available for authorized inspection during the retention period.",
+      "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-J"
+    }
+  ]
+}

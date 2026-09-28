@@ -6,7 +6,7 @@
   "description": "SCORM is the ADL standard that lets e-learning run and report in any conforming LMS. Versions, how packaging and run-time work, and SCORM vs xAPI and cmi5.",
   "shortAnswer": "The Sharable Content Object Reference Model (SCORM) is a set of technical standards, published by the Advanced Distributed Learning (ADL) Initiative, that lets self paced e-learning run in any conforming learning management system (LMS) and report results back to it. SCORM defines how content is packaged into a zip file, how the LMS launches it in a web browser, and how the content sends data such as completion, success, and score.",
   "keyTakeaways": [
-    "SCORM is maintained by the ADL Initiative, a United States government organisation.",
+    "SCORM is maintained by the ADL Initiative, a United States government organization.",
     "The versions in use are SCORM 1.2 (October 2001) and SCORM 2004, whose 4th Edition (March 2009) is the latest release and the one ADL recommends.",
     "SCORM content runs in a browser launched by the LMS and talks to it through a JavaScript API.",
     "SCORM records completion, pass or fail, score, and time, but cannot track learning outside an LMS launched browser session; xAPI and cmi5 were built for that."
@@ -135,7 +135,7 @@
   "faqs": [
     {
       "q": "Is SCORM obsolete?",
-      "a": "No. SCORM is no longer being developed, but it remains the most widely supported format for LMS e-learning, and ADL still provides resources for SCORM 1.2 and SCORM 2004. Organisations increasingly choose cmi5 or xAPI for new content that needs richer tracking or must run outside a browser."
+      "a": "No. SCORM is no longer being developed, but it remains the most widely supported format for LMS e-learning, and ADL still provides resources for SCORM 1.2 and SCORM 2004. Organizations increasingly choose cmi5 or xAPI for new content that needs richer tracking or must run outside a browser."
     },
     {
       "q": "Should new courses use SCORM 1.2 or SCORM 2004?",

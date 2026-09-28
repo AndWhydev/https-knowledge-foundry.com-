@@ -4,11 +4,11 @@
   "title": "What is knowledge drift?",
   "seoTitle": "What is knowledge drift?",
   "description": "Knowledge drift is the gap that opens when training stops matching current rules and procedures. How it arises, how to detect it, and related concepts.",
-  "shortAnswer": "Knowledge drift is the gradual divergence between what an organisation's training, assessments and reference material teach and what its current obligations, procedures and practice actually require. It is not a formal term in any ISO standard or regulation. It is used in training governance to describe a failure of change control, and it relates to recognised concepts such as document control, the handling of outdated knowledge in ISO 30401, and concept drift in machine learning.",
+  "shortAnswer": "Knowledge drift is the gradual divergence between what an organization's training, assessments and reference material teach and what its current obligations, procedures and practice actually require. It is not a formal term in any ISO standard or regulation. It is used in training governance to describe a failure of change control, and it relates to recognized concepts such as document control, the handling of outdated knowledge in ISO 30401, and concept drift in machine learning.",
   "keyTakeaways": [
     "Knowledge drift is a working term, not a defined standard term; this page explains how it is used in training governance.",
     "It happens when a source changes (law, policy, SOP, system) but dependent training and assessments do not.",
-    "Recognised concepts cover parts of it: document control in ISO 9001, identifying changed obligations in ISO 37301, and handling outdated knowledge in ISO 30401.",
+    "Recognized concepts cover parts of it: document control in ISO 9001, identifying changed obligations in ISO 37301, and handling outdated knowledge in ISO 30401.",
     "Concept drift in machine learning is a related but different idea about changing data distributions.",
     "Drift is detected by tracing each learning element to its source and comparing versions, not by fixed review dates alone."
   ],
@@ -29,7 +29,7 @@
         {
           "type": "callout",
           "title": "A note on terminology",
-          "text": "Knowledge drift is not defined in ISO 37301, ISO 30401, ISO 9001 or Australian regulation. Different organisations and vendors use it loosely. This page uses it in a specific sense: divergence between learning content and its authoritative sources. Where a formal term exists, such as document control or change management, that term should be used in audit and policy documents."
+          "text": "Knowledge drift is not defined in ISO 37301, ISO 30401, ISO 9001 or Australian regulation. Different organizations and vendors use it loosely. This page uses it in a specific sense: divergence between learning content and its authoritative sources. Where a formal term exists, such as document control or change management, that term should be used in audit and policy documents."
         },
         {
           "type": "p",
@@ -51,7 +51,7 @@
             "**Law and regulator changes:** amended legislation, new regulator guides, new commencement dates.",
             "**Policy changes:** revised thresholds, approvals or reporting lines.",
             "**Procedure and system changes:** a new version of a [standard operating procedure](/glossary/standard-operating-procedure) or [work instruction](/glossary/work-instruction), or a software update that changes screens and steps.",
-            "**Organisational change:** roles merged or renamed so training assignments no longer match.",
+            "**Organizational change:** roles merged or renamed so training assignments no longer match.",
             "**Copy and adapt:** content duplicated across courses, so an update in one place misses the others."
           ]
         },
@@ -63,7 +63,7 @@
     },
     {
       "id": "related-concepts",
-      "heading": "How does knowledge drift relate to recognised concepts?",
+      "heading": "How does knowledge drift relate to recognized concepts?",
       "blocks": [
         {
           "type": "p",
@@ -71,7 +71,7 @@
         },
         {
           "type": "table",
-          "caption": "Recognised concepts related to knowledge drift",
+          "caption": "Recognized concepts related to knowledge drift",
           "head": [
             "Concept",
             "Source",
@@ -154,7 +154,7 @@
   "faqs": [
     {
       "q": "Is knowledge drift an official compliance term?",
-      "a": "No. It is an informal term used in training and knowledge governance. In formal documents, use recognised language such as control of documented information, change management, or identification of new and changed compliance obligations, and define knowledge drift if you use it."
+      "a": "No. It is an informal term used in training and knowledge governance. In formal documents, use recognized language such as control of documented information, change management, or identification of new and changed compliance obligations, and define knowledge drift if you use it."
     },
     {
       "q": "Is knowledge drift the same as concept drift?",

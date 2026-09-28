@@ -1,0 +1,367 @@
+{
+  "slug": "cmmc-security-awareness-training",
+  "kind": "regulation",
+  "title": "What security awareness training does CMMC require of defense contractors?",
+  "seoTitle": "CMMC security awareness training",
+  "description": "What CMMC Levels 1, 2 and 3 require for security awareness, role-based and insider threat training, how it is assessed, and the phase-in as at September 2026.",
+  "shortAnswer": "The Cybersecurity Maturity Model Certification (CMMC) program requires US defense contractors that handle Controlled Unclassified Information to meet three awareness and training requirements at Level 2, taken from NIST SP 800-171 Revision 2: security risk awareness for all system users, role-based training for security duties, and insider threat awareness. Level 3 adds annual, threat-focused training with practical exercises. Level 1 contains no training requirement. CMMC appears in new contracts from November 10, 2025.",
+  "keyTakeaways": [
+    "CMMC is set by two rules: the program rule at 32 CFR Part 170 (effective December 16, 2024) and the acquisition rule adding DFARS clause 252.204-7021 (effective November 10, 2025).",
+    "Level 2 includes AT.L2-3.2.1 (security awareness), AT.L2-3.2.2 (role-based training) and AT.L2-3.2.3 (insider threat awareness) from NIST SP 800-171 Rev. 2.",
+    "AT.L2-3.2.1 and AT.L2-3.2.2 are worth 5 points each in CMMC scoring, so they cannot be deferred on a plan of action and milestones (POA&M); they must be met at assessment.",
+    "Level 3 adds AT.L3-3.2.1e and AT.L3-3.2.2e: training at hire, after a significant cyber event and at least annually, with role-tailored practical exercises.",
+    "As at September 2026 the program is in Phase 1. Phase 2, which adds third-party certification as a routine award condition, starts November 10, 2026."
+  ],
+  "jurisdiction": "United States (federal)",
+  "regulator": "US Department of Defense (DoD CIO, CMMC Program Management Office)",
+  "appliesTo": [
+    "Defense contractors and subcontractors whose information systems process, store or transmit Federal Contract Information (FCI) or Controlled Unclassified Information (CUI) under a DoD contract that includes a CMMC requirement",
+    "Managers, system administrators and users of those in-scope information systems (Level 2 and Level 3)",
+    "Personnel with assigned information security duties, and privileged users (role-based requirements)",
+    "Non-US suppliers in the DoD supply chain when CMMC requirements flow down to them through a subcontract"
+  ],
+  "sections": [
+    {
+      "id": "what-cmmc-is",
+      "heading": "What is CMMC and who does it apply to?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CMMC is the US Department of Defense (DoD) program for verifying that contractors protect sensitive, unclassified government information on their own systems. It applies when a DoD solicitation or contract specifies a CMMC level and the contractor's systems will process, store or transmit Federal Contract Information (FCI) or Controlled Unclassified Information (CUI)."
+        },
+        {
+          "type": "p",
+          "text": "For readers outside the United States: federal regulations are published in the Code of Federal Regulations (CFR), organized by title and part. CMMC sits in two places. The [program rule at 32 CFR Part 170](https://www.federalregister.gov/documents/2024/10/15/2024-22905/cybersecurity-maturity-model-certification-cmmc-program), effective December 16, 2024, defines the levels, assessments and scoring. The [acquisition rule](https://www.federalregister.gov/documents/2025/09/10/2025-17359/defense-federal-acquisition-regulation-supplement-assessing-contractor-implementation-of) in the Defense Federal Acquisition Regulation Supplement (DFARS), effective November 10, 2025, puts clause 252.204-7021 into contracts so that the requirement actually binds a supplier."
+        },
+        {
+          "type": "p",
+          "text": "CMMC does not create new security controls. It verifies requirements that already existed: the 15 basic safeguarding requirements in FAR 52.204-21 (Level 1), the 110 requirements of NIST SP 800-171 Revision 2 (Level 2), and 24 selected requirements from NIST SP 800-172 (Level 3). Subcontractors at any tier receive the requirement through flowdown when they will handle FCI or CUI, which is how companies in Europe, the Middle East and Asia come into scope. This page states the position as at September 2026."
+        }
+      ]
+    },
+    {
+      "id": "training-by-level",
+      "heading": "What training does each CMMC level require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training requirements appear at Level 2 and Level 3 only. The Level 1 requirements in FAR 52.204-21 cover access control, identification, media sanitization, physical access, boundary protection and malware protection, and contain no awareness or training requirement."
+        },
+        {
+          "type": "table",
+          "caption": "CMMC awareness and training (AT) requirements by level, from 32 CFR Part 170 and NIST SP 800-171 Rev. 2",
+          "head": [
+            "Requirement",
+            "Level",
+            "What it requires",
+            "Scoring weight"
+          ],
+          "rows": [
+            [
+              "AT.L2-3.2.1",
+              "Level 2",
+              "Managers, system administrators and users are made aware of the security risks of their activities and of the applicable security policies, standards and procedures.",
+              "5 points (basic requirement)"
+            ],
+            [
+              "AT.L2-3.2.2",
+              "Level 2",
+              "Personnel are trained to carry out their assigned information security duties and responsibilities.",
+              "5 points (basic requirement)"
+            ],
+            [
+              "AT.L2-3.2.3",
+              "Level 2",
+              "Security awareness training on recognizing and reporting potential indicators of insider threat.",
+              "1 point (derived requirement)"
+            ],
+            [
+              "AT.L3-3.2.1e",
+              "Level 3",
+              "Awareness training at initial hire, after a significant cyber event and at least annually, focused on social engineering, advanced persistent threat actors, breaches and suspicious behavior; content updated at least annually.",
+              "1 point"
+            ],
+            [
+              "AT.L3-3.2.2e",
+              "Level 3",
+              "Practical exercises in awareness training for all users, tailored to general, specialized and privileged roles, aligned to current threat scenarios, with feedback to the individual and their supervisor.",
+              "1 point"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "NIST SP 800-171 Rev. 2, requirement 3.2.2",
+          "text": "\"Ensure that personnel are trained to carry out their assigned information security-related duties and responsibilities.\""
+        }
+      ]
+    },
+    {
+      "id": "what-level-2-means-in-practice",
+      "heading": "What do the Level 2 training requirements mean in practice?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "In practice, Level 2 expects three distinct streams: general awareness for everyone who uses in-scope systems, deeper role-based training for people with security duties, and insider threat awareness. The discussion text in [NIST SP 800-171 Rev. 2](https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final) leaves content and frequency to the organization, based on its requirements and the systems people can access."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Awareness (3.2.1):** NIST describes the content as a basic understanding of the need for information security, user actions to maintain security and respond to suspected incidents, and operations security. Techniques can include formal training, email advisories, logon messages and awareness events. It points to [NIST SP 800-50](/regulations/nist-sp-800-50-security-awareness-training) for program guidance.",
+            "**Role-based training (3.2.2):** NIST lists roles that need security-related technical training tailored to their duties, including system and network administrators, developers, architects, procurement officials, configuration management and audit staff, and security assessors.",
+            "**Insider threat (3.2.3):** NIST gives indicators such as long-term job dissatisfaction, attempts to access information not needed for the job, and serious policy violations, and says training should cover how to report concerns through the organization's channels. It suggests tailoring by role, for example behavior-change indicators for managers."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The program rule sets a ceiling on vague frequencies. Section 170.14(d) says that where CMMC requirements use \"periodically\", the interval is organization-defined but no more than one year. An annual refresh cycle is therefore the practical maximum wherever a contractor's own policy uses periodic language."
+        }
+      ]
+    },
+    {
+      "id": "how-training-is-assessed",
+      "heading": "How are the training requirements assessed and scored?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each requirement is assessed as MET, NOT MET or not applicable against the assessment objectives in NIST SP 800-171A, and a single unmet objective makes the requirement NOT MET. Level 2 scoring starts at 110 and subtracts 5, 3 or 1 points for each unmet requirement, as set out in 32 CFR 170.24."
+        },
+        {
+          "type": "p",
+          "text": "The weighting matters for training. Under 32 CFR 170.21, a Level 2 contractor can reach Conditional status with a POA&M only if its score is at least 80% of the maximum and every item on the POA&M is worth 1 point. Because AT.L2-3.2.1 and AT.L2-3.2.2 are 5-point requirements, a gap in general awareness or role-based training cannot be deferred and prevents Conditional status. A gap in insider threat awareness (1 point) can be placed on a POA&M, which must then be closed within 180 days."
+        },
+        {
+          "type": "table",
+          "caption": "CMMC assessment types and cycles (32 CFR Part 170)",
+          "head": [
+            "CMMC status",
+            "Who assesses",
+            "Assessment cycle",
+            "Affirmation by a senior official"
+          ],
+          "rows": [
+            [
+              "Level 1 (Self)",
+              "Contractor",
+              "Annual self-assessment, no POA&M allowed",
+              "At assessment and annually"
+            ],
+            [
+              "Level 2 (Self)",
+              "Contractor",
+              "Every three years",
+              "At assessment and annually"
+            ],
+            [
+              "Level 2 (C3PAO)",
+              "Certified Third-Party Assessment Organization",
+              "Every three years",
+              "At assessment and annually"
+            ],
+            [
+              "Level 3 (DIBCAC)",
+              "Defense Contract Management Agency DIBCAC",
+              "Every three years, plus a current Level 2 (C3PAO)",
+              "At assessment and annually"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The annual affirmation is where training records become a board-level matter. Section 170.22 requires an Affirming Official, a senior representative with authority over compliance, to attest to continuing compliance in the Supplier Performance Risk System (SPRS) each year. Training that lapses between assessments undermines that attestation."
+        }
+      ]
+    },
+    {
+      "id": "phase-in-dates",
+      "heading": "When do CMMC requirements apply?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CMMC is being phased into DoD contracts over four phases that started on November 10, 2025, when the DFARS acquisition rule took effect. The phases are defined in 32 CFR 170.3(e), each starting one calendar year after the previous one."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Phase 1, from November 10, 2025:** DoD intends to require Level 1 (Self) or Level 2 (Self) as a condition of award in applicable solicitations, and may require Level 2 (C3PAO) at its discretion. This is the phase in effect as at September 2026.",
+            "**Phase 2, from November 10, 2026:** adds Level 2 (C3PAO) as a condition of award for applicable contracts, and Level 3 (DIBCAC) at DoD's discretion.",
+            "**Phase 3, from November 10, 2027:** Level 2 (C3PAO) for all applicable contracts, including option periods, and Level 3 (DIBCAC) for all applicable contracts.",
+            "**Phase 4, from November 10, 2028:** full implementation in all applicable solicitations and contracts, including option periods on older contracts."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The DFARS rule also explains that for three years after November 10, 2025, the clause appears only where program managers decide to apply a CMMC requirement; after that, it applies wherever the contractor will handle FCI or CUI, excluding purchases solely of commercially available off-the-shelf items. The phase dates for 2026 onward are calculated from the rule text; confirm them against the solicitation in hand."
+        }
+      ]
+    },
+    {
+      "id": "mapping-requirements-to-evidence",
+      "heading": "How can contractors map CMMC training requirements to learning outcomes and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Map each requirement to an observable learning outcome and to evidence an assessor can examine, because assessors test the objectives behind each requirement, not the existence of a course. The table below is illustrative and would need tailoring to each contractor's systems, roles and System Security Plan."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: CMMC requirement to learning outcome to assessment evidence",
+          "head": [
+            "Requirement",
+            "Example learning outcome",
+            "Assessment evidence"
+          ],
+          "rows": [
+            [
+              "AT.L2-3.2.1 Awareness",
+              "User identifies a phishing attempt and a mishandled CUI marking, and reports both through the correct channel.",
+              "Role-scoped completion records for every in-scope user, scenario quiz results, and the policy versions covered."
+            ],
+            [
+              "AT.L2-3.2.2 Role-based training",
+              "System administrator applies the organization's configuration baseline and audit log review procedure.",
+              "Role-to-training matrix, completion and practical assessment records for each role named in the System Security Plan."
+            ],
+            [
+              "AT.L2-3.2.3 Insider threat",
+              "Manager recognizes potential insider threat indicators and knows who to notify.",
+              "Insider threat module records, including a manager-specific version, and the documented reporting procedure."
+            ],
+            [
+              "AT.L3-3.2.1e Threat-focused training",
+              "User responds correctly to a current social engineering scenario.",
+              "Training at hire, annually and after significant cyber events; records of annual content updates."
+            ],
+            [
+              "AT.L3-3.2.2e Practical exercises",
+              "Privileged user completes a role-specific exercise and receives feedback.",
+              "Exercise results by role, with feedback records to the individual and supervisor."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A [training matrix](/glossary/training-matrix) linking each in-scope role to its requirements is the simplest way to show coverage. For a method, see [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations), and for assessment readiness, [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit). Organizations that also certify to ISO/IEC 27001 can reuse much of the same evidence; see [ISO 27001 awareness training requirements](/regulations/iso-27001-awareness-training-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models each CMMC requirement and its NIST assessment objectives as nodes in a knowledge framework, then links them to roles, learning outcomes and assessment points. Coverage gaps by role are visible before an assessment, and the evidence trail supports the annual affirmation. See the approach for [government and defense organizations](/industries/government-defence)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does CMMC Level 1 require security awareness training?",
+      "a": "No. Level 1 assesses the 15 basic safeguarding requirements in FAR 52.204-21, and none of them is a training requirement. Contractors at Level 1 still benefit from basic awareness training, because several Level 1 requirements, such as escorting visitors and controlling public information, depend on staff behavior."
+    },
+    {
+      "q": "Does CMMC use NIST SP 800-171 Revision 3?",
+      "a": "No. 32 CFR Part 170 incorporates NIST SP 800-171 Revision 2 by reference, and CMMC Level 2 is assessed against its 110 requirements. NIST published Revision 3 in May 2024 and marks Revision 2 as withdrawn on its site, but the CMMC rule text has not been amended to adopt Revision 3 as at September 2026."
+    },
+    {
+      "q": "Does CMMC apply to companies outside the United States?",
+      "a": "It can. The DFARS clause flows down to subcontractors at all tiers whose systems will process, store or transmit FCI or CUI in performance of the subcontract. A foreign supplier handling CUI for a US prime contractor on a DoD program can therefore need a CMMC status, including the Level 2 training requirements."
+    },
+    {
+      "q": "How often must CMMC awareness training be repeated?",
+      "a": "Level 2 lets the contractor set the frequency, but 32 CFR 170.14(d) caps any periodic interval at one year, so annual refresh is the practical standard. Level 3 is explicit: training at initial hire, after a significant cyber event, and at least annually, with content updated at least annually."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cybersecurity Maturity Model Certification (CMMC) Program, final rule (89 FR 83092)",
+      "publisher": "US Department of Defense, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2024/10/15/2024-22905/cybersecurity-maturity-model-certification-cmmc-program"
+    },
+    {
+      "title": "32 CFR Part 170: Cybersecurity Maturity Model Certification (CMMC) Program",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-32/part-170"
+    },
+    {
+      "title": "DFARS: Assessing Contractor Implementation of Cybersecurity Requirements (DFARS Case 2019-D041), final rule (90 FR 43560)",
+      "publisher": "US Department of Defense, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2025/09/10/2025-17359/defense-federal-acquisition-regulation-supplement-assessing-contractor-implementation-of"
+    },
+    {
+      "title": "SP 800-171 Rev. 2, Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
+      "publisher": "National Institute of Standards and Technology (NIST) CSRC",
+      "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final"
+    },
+    {
+      "title": "SP 800-171 Rev. 3, Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
+      "publisher": "National Institute of Standards and Technology (NIST) CSRC",
+      "url": "https://csrc.nist.gov/pubs/sp/800/171/r3/final"
+    }
+  ],
+  "related": [
+    "nist-sp-800-50-security-awareness-training",
+    "iso-27001-awareness-training-requirements",
+    "training-matrix",
+    "how-to-map-training-to-compliance-obligations",
+    "how-to-prepare-training-records-for-an-audit",
+    "how-to-set-mandatory-training-refresh-cycles"
+  ],
+  "productLinks": [
+    {
+      "label": "Government and defense",
+      "href": "/industries/government-defence"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 99,
+  "factCheck": [
+    {
+      "claim": "CMMC program final rule (32 CFR Part 170) published October 15, 2024 at 89 FR 83092, effective December 16, 2024; no amendments to Part 170 since (eCFR version history, title current to September 24, 2026).",
+      "source": "https://www.federalregister.gov/documents/2024/10/15/2024-22905/cybersecurity-maturity-model-certification-cmmc-program"
+    },
+    {
+      "claim": "DFARS Case 2019-D041 final rule (90 FR 43560) effective November 10, 2025; for three years after effectiveness the clause is prescribed where program managers determine to apply CMMC, excluding COTS-only awards.",
+      "source": "https://www.federalregister.gov/documents/2025/09/10/2025-17359/defense-federal-acquisition-regulation-supplement-assessing-contractor-implementation-of"
+    },
+    {
+      "claim": "32 CFR 170.3(e): Phase 1 begins on the effective date of the 48 CFR CMMC acquisition rule; Phases 2, 3 and 4 each begin one calendar year after the previous phase, with the stated Level 1, 2 and 3 requirements per phase.",
+      "source": "https://www.ecfr.gov/current/title-32/part-170"
+    },
+    {
+      "claim": "32 CFR 170.4: CMMC Security Requirements are the 15 Level 1 requirements in FAR 52.204-21(b)(1), the 110 Level 2 requirements from NIST SP 800-171 R2, and 24 Level 3 requirements from NIST SP 800-172.",
+      "source": "https://www.ecfr.gov/current/title-32/part-170"
+    },
+    {
+      "claim": "32 CFR 170.14(c)(4) table 1: AT.L3-3.2.1e and AT.L3-3.2.2e text (training at initial hire, after significant cyber event and at least annually; practical exercises tailored by role with feedback to individuals and supervisors). 170.14(d): 'periodically' interval no more than one year.",
+      "source": "https://www.ecfr.gov/current/title-32/part-170"
+    },
+    {
+      "claim": "32 CFR 170.24: AT.L2-3.2.1 and AT.L2-3.2.2 are basic requirements worth 5 points; remaining derived requirements (including 3.2.3) worth 1 point. 170.21: Conditional Level 2 requires score at least 0.8 of maximum and POA&M items worth no more than 1 point (SC.L2-3.13.11 exception); POA&M closeout within 180 days.",
+      "source": "https://www.ecfr.gov/current/title-32/part-170"
+    },
+    {
+      "claim": "32 CFR 170.15 to 170.18 and 170.22: Level 1 self-assessment annually; Level 2 and Level 3 assessments every three years; Affirming Official affirms in SPRS at each assessment and annually.",
+      "source": "https://www.ecfr.gov/current/title-32/part-170"
+    },
+    {
+      "claim": "NIST SP 800-171 Rev. 2 requirements 3.2.1, 3.2.2 and 3.2.3 text and discussion (content and frequency organization-determined; roles needing role-based training; insider threat indicators; reference to SP 800-50).",
+      "source": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final"
+    },
+    {
+      "claim": "NIST SP 800-171 Rev. 3 published May 2024; Rev. 2 page shows withdrawn on May 14, 2024.",
+      "source": "https://csrc.nist.gov/pubs/sp/800/171/r3/final"
+    },
+    {
+      "claim": "FAR 52.204-21 (Level 1 basis) contains no training requirement (text searched, current eCFR).",
+      "source": "https://www.ecfr.gov/current/title-48/section-52.204-21"
+    }
+  ]
+}

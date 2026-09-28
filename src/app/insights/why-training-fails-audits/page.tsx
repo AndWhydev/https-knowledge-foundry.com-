@@ -43,7 +43,7 @@ export default function Page() {
         Sit through enough audit debriefs and a pattern emerges. The findings are rarely about
         the quality of a specific paragraph. They are about the absence of a specific paragraph
         (coverage the auditor expected to find and did not) or about the inability of the
-        organisation to defend a claim that a given cohort met a given requirement on a given
+        organization to defend a claim that a given cohort met a given requirement on a given
         date.
       </EditorialP>
       <EditorialP>
@@ -51,12 +51,12 @@ export default function Page() {
         coverage is a property of a framework, not of a body of content. Evidence failures are
         structural because evidence requires a chain (from a completion record to the framework
         node it satisfies to the source clause that made the node necessary) and that chain
-        does not exist in programmes written module by module.
+        does not exist in programs written module by module.
       </EditorialP>
 
       <EditorialH2 id="sec-1">Audits are structural. Content is not.</EditorialH2>
       <EditorialP>
-        Structure governs whether a coverage question is answerable at all. A programme cannot
+        Structure governs whether a coverage question is answerable at all. A program cannot
         know whether it covers a requirement unless it has an explicit framework against which
         the requirement can be located. Rereading the library is not an answer. It is the
         absence of one.
@@ -68,17 +68,17 @@ export default function Page() {
       </EditorialP>
 
       <PullQuote attribution="Knowledge Foundry, Audit Posture Notes">
-        Audits fail on the questions the training programme was never built to answer. The corrective is not better answers. It is building the programme around the object that makes the questions answerable.
+        Audits fail on the questions the training program was never built to answer. The corrective is not better answers. It is building the program around the object that makes the questions answerable.
       </PullQuote>
 
       <EditorialH2 id="sec-2">What auditors actually ask</EditorialH2>
       <EditorialP>
         Under the specifics, an audit is a small number of question types repeated across a
-        library. Programmes designed content first cannot answer any of them without a manual
-        reread. Programmes designed to begin with the framework answer all three by query.
+        library. Programs designed content first cannot answer any of them without a manual
+        reread. Programs designed to begin with the framework answer all three by query.
       </EditorialP>
       <EditorialList items={[
-        <><strong>Coverage questions.</strong> Does the programme cover this requirement, where, at what depth, and evidenced how.</>,
+        <><strong>Coverage questions.</strong> Does the program cover this requirement, where, at what depth, and evidenced how.</>,
         <><strong>Lineage questions.</strong> When the regulation changed, which content changed in response, when, and who signed the change.</>,
         <><strong>Evidence questions.</strong> Which cohort, on which date, met which requirement, verified how.</>,
       ]} />
@@ -95,7 +95,7 @@ export default function Page() {
       <EditorialAside title="On what auditors do not read">
         <p>
           Auditors do not read training libraries end to end. They sample. They ask targeted
-          questions and expect targeted answers. A programme that can only answer by reading
+          questions and expect targeted answers. A program that can only answer by reading
           itself back to the auditor has already failed the exchange, whatever the wording says.
         </p>
       </EditorialAside>

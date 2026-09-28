@@ -27,7 +27,7 @@ export const kinds: Record<
     singular: "Guide",
     eyebrow: "Guide",
     intro:
-      "Step by step methods for building, evidencing, and maintaining training in regulated organisations.",
+      "Step by step methods for building, evidencing, and maintaining training in regulated organizations.",
   },
   regulation: {
     path: "/regulations",

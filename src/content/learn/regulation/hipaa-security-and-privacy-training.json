@@ -1,0 +1,337 @@
+{
+  "slug": "hipaa-security-and-privacy-training",
+  "kind": "regulation",
+  "title": "What training does HIPAA require for the workforce?",
+  "seoTitle": "HIPAA workforce training requirements",
+  "description": "What the HIPAA Privacy and Security Rules require for workforce training, timing and records, plus the pending Security Rule update, as at September 2026.",
+  "shortAnswer": "The Health Insurance Portability and Accountability Act (HIPAA) requires covered entities to train all workforce members on their privacy policies for protected health information, at onboarding and after material policy changes, and to document it for six years. The HIPAA Security Rule separately requires covered entities and business associates to run a security awareness and training program for all workforce members, including management. Neither rule currently sets an annual training frequency.",
+  "keyTakeaways": [
+    "Two separate duties apply: Privacy Rule training at 45 CFR 164.530(b) for covered entities, and the Security Rule's security awareness and training standard at 45 CFR 164.308(a)(5) for covered entities and business associates.",
+    "Privacy training is due for new workforce members within a reasonable period after they join and for anyone affected by a material policy change. The rule does not require annual refreshers.",
+    "The workforce includes employees, volunteers, trainees and others under the entity's direct control, whether paid or not.",
+    "Training documentation must be retained for six years from creation or the date it was last in effect, whichever is later.",
+    "A January 2025 proposed rule would require security training at least every 12 months. As at September 2026 it has not been finalized and the current rule text is unchanged."
+  ],
+  "jurisdiction": "United States (federal)",
+  "regulator": "Office for Civil Rights (OCR), US Department of Health and Human Services (HHS)",
+  "appliesTo": [
+    "Covered entities: health plans, health care clearinghouses, and health care providers that transmit health information electronically in connection with HIPAA standard transactions",
+    "Business associates that create, receive, maintain or transmit electronic protected health information for a covered entity (Security Rule training)",
+    "All workforce members of those organizations, including employees, volunteers, trainees and management"
+  ],
+  "sections": [
+    {
+      "id": "what-hipaa-is-and-who-it-covers",
+      "heading": "Who do HIPAA training requirements apply to?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "HIPAA training requirements apply to covered entities and, for security training, to their business associates. Under [45 CFR 160.103](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-160/subpart-A/section-160.103), a covered entity is a health plan, a health care clearinghouse, or a health care provider that transmits health information electronically in connection with a HIPAA transaction. A business associate is broadly a person or organization that handles protected health information on a covered entity's behalf, such as a billing, IT or cloud services provider."
+        },
+        {
+          "type": "p",
+          "text": "For readers outside the United States: HIPAA is a 1996 federal statute. Its detailed requirements are in regulations issued by HHS in Title 45 of the Code of Federal Regulations (CFR), Parts 160 and 164. The Privacy Rule protects all protected health information in any form; the Security Rule protects electronic protected health information. HHS's Office for Civil Rights (OCR) enforces both. HIPAA is sector specific, so it does not cover all personal data the way a general data protection law such as the GDPR does."
+        },
+        {
+          "type": "p",
+          "text": "The \"workforce\" that must be trained is defined widely: employees, volunteers, trainees and other persons whose work for the covered entity or business associate is under its direct control, whether or not they are paid. This page states the position as at September 2026, based on the eCFR text current at that date."
+        }
+      ]
+    },
+    {
+      "id": "privacy-rule-training",
+      "heading": "What does the Privacy Rule require for training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Privacy Rule requires a covered entity to train every workforce member on its privacy policies and procedures, to the extent needed for their role, at set trigger points. The standard in [45 CFR 164.530(b)](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.530) states:"
+        },
+        {
+          "type": "callout",
+          "title": "45 CFR 164.530(b)(1)",
+          "text": "\"A covered entity must train all members of its workforce on the policies and procedures with respect to protected health information required by this subpart and subpart D of this part, as necessary and appropriate for the members of the workforce to carry out their functions within the covered entity.\""
+        },
+        {
+          "type": "p",
+          "text": "Subpart D is the Breach Notification Rule, so privacy training also covers the entity's breach identification and reporting procedures. The implementation specifications set three timing points: each workforce member by the entity's original compliance date; each new workforce member \"within a reasonable period of time\" after joining; and each member whose functions are affected by a material change in policies or procedures, within a reasonable period after the change takes effect. The covered entity must document that the training was provided."
+        },
+        {
+          "type": "p",
+          "text": "The same section requires a covered entity to apply appropriate sanctions against workforce members who fail to comply with its privacy policies (164.530(e)), which in practice depends on having trained people on what those policies say."
+        }
+      ]
+    },
+    {
+      "id": "security-rule-training",
+      "heading": "What does the Security Rule require for training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Security Rule requires covered entities and business associates to \"implement a security awareness and training program for all members of its workforce (including management).\" This is an administrative safeguard standard at [45 CFR 164.308(a)(5)](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.308), with four implementation specifications, all currently marked \"Addressable\"."
+        },
+        {
+          "type": "table",
+          "caption": "Security awareness and training implementation specifications, 45 CFR 164.308(a)(5)(ii), current text",
+          "head": [
+            "Specification",
+            "Rule text",
+            "Typical training content"
+          ],
+          "rows": [
+            [
+              "Security reminders",
+              "Periodic security updates.",
+              "Short, recurring updates on current threats and policy reminders."
+            ],
+            [
+              "Protection from malicious software",
+              "Procedures for guarding against, detecting, and reporting malicious software.",
+              "Recognizing phishing and malware, and how to report suspicious activity."
+            ],
+            [
+              "Log-in monitoring",
+              "Procedures for monitoring log-in attempts and reporting discrepancies.",
+              "Recognizing and reporting unusual account activity."
+            ],
+            [
+              "Password management",
+              "Procedures for creating, changing, and safeguarding passwords.",
+              "Password and credential handling, including not sharing credentials."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "\"Addressable\" does not mean optional. Under 45 CFR 164.306(d), the entity must assess whether each addressable specification is reasonable and appropriate in its environment and implement it if so, or document why not and implement an equivalent alternative where reasonable. The training standard itself is mandatory. The Security Rule also requires a sanction policy for workforce members who fail to comply with security policies, and periodic evaluation of the security program, which should include the training program."
+        }
+      ]
+    },
+    {
+      "id": "proposed-security-rule-changes",
+      "heading": "Will HIPAA require annual security training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Not yet. HHS proposed annual security training in a notice of proposed rulemaking (NPRM) published on January 6, 2025, but as at September 2026 no final rule has been published and the codified Security Rule text is unchanged. The [NPRM, HIPAA Security Rule To Strengthen the Cybersecurity of Electronic Protected Health Information](https://www.federalregister.gov/documents/2025/01/06/2024-30983/hipaa-security-rule-to-strengthen-the-cybersecurity-of-electronic-protected-health-information), closed for comments on March 7, 2025."
+        },
+        {
+          "type": "callout",
+          "title": "Pending: not in force as at September 2026",
+          "text": "The proposed rule would replace the current standard with a new security awareness training standard. Training would be required for each workforce member by the compliance date and \"at least once every 12 months thereafter\", for new workforce members no later than 30 days after they first have access to the entity's relevant electronic information systems, and within 30 days after a material policy change. It would also require ongoing reminders and threat notifications, and documentation of training. Separately, the NPRM proposes to remove the distinction between \"addressable\" and \"required\" implementation specifications."
+        },
+        {
+          "type": "p",
+          "text": "Organizations do not need to wait for a final rule to adopt an annual cycle. Many already do, because an annual cycle makes it easier to show that the program is maintained. Anyone relying on this section should check the Federal Register for a final rule before treating the proposal as settled, since the content and dates may change."
+        }
+      ]
+    },
+    {
+      "id": "records-and-retention",
+      "heading": "What training records must be kept, and for how long?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training documentation must be kept for six years from the date it was created or last in effect, whichever is later. For the Privacy Rule this comes from 164.530(j)(2); for the Security Rule, from [45 CFR 164.316(b)(2)](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.316), which also requires documentation to be reviewed periodically and updated as needed."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "The current and past versions of the privacy and security policies each course was built on, with effective dates.",
+            "A record of who was trained, on what, and when, including new starters and people affected by material policy changes.",
+            "Evidence of security reminders and awareness updates issued, with dates.",
+            "Any risk-based decision about addressable specifications, with the reasoning.",
+            "Sanctions applied for non-compliance and any retraining that followed."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Keeping the policy version alongside the completion record matters because the training duty is tied to specific policies. For a method, see [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit) and the [audit trail](/glossary/audit-trail) definition."
+        }
+      ]
+    },
+    {
+      "id": "penalties",
+      "heading": "What happens if HIPAA training is missing?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Missing or undocumented training is a violation of the relevant standard and can lead to civil money penalties. Under [45 CFR 160.404](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-160/subpart-D/section-160.404), penalty ranges rise with culpability, from violations the entity did not know about to willful neglect that is not corrected, with annual caps for identical violations. The amounts are adjusted for inflation each year and published in 45 CFR part 102."
+        },
+        {
+          "type": "p",
+          "text": "OCR also resolves many cases through resolution agreements and corrective action plans, which commonly require updated policies and workforce training. State laws may add their own privacy training or breach requirements; these are outside the scope of this page."
+        }
+      ]
+    },
+    {
+      "id": "mapping-obligations-to-evidence",
+      "heading": "How can organizations map HIPAA duties to learning outcomes and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Map each rule to a role-based outcome and the evidence OCR would expect to see. The table below is illustrative and should be tailored to each entity's own policies and systems."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: HIPAA requirement to learning outcome to assessment evidence",
+          "head": [
+            "Requirement",
+            "Example learning outcome",
+            "Assessment evidence"
+          ],
+          "rows": [
+            [
+              "164.530(b) Privacy policies",
+              "Applies the minimum necessary standard when handling a records request in their role.",
+              "Scenario questions tied to the current policy version, with completion recorded within the entity's defined onboarding period."
+            ],
+            [
+              "164.530(b) with subpart D Breach notification",
+              "Recognizes a potential breach and reports it through the internal procedure without delay.",
+              "Case-based assessment, plus records of reports made in practice."
+            ],
+            [
+              "164.308(a)(5) Malicious software",
+              "Identifies a phishing message and reports it using the designated channel.",
+              "Simulated phishing results and report rates, retained with dates."
+            ],
+            [
+              "164.308(a)(5) Password management",
+              "Creates and protects credentials in line with the entity's password procedure.",
+              "Policy attestation plus a short knowledge check."
+            ],
+            [
+              "164.530(b)(2)(i)(C) Material change",
+              "Explains what changed in the updated policy and how it affects their tasks.",
+              "Targeted retraining assigned only to affected roles, recorded against the new policy version."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For the wider method, see [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations) and [policy attestation](/glossary/policy-attestation). For a security awareness framework that complements the Security Rule, see [NIST SP 800-50](/regulations/nist-sp-800-50-security-awareness-training)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each HIPAA standard to the entity's own policy versions, the roles they apply to, and the learning outcomes and assessment points that evidence them. When a policy changes materially, the roles whose functions are affected can be identified from those links and assigned targeted retraining. See how this works for [healthcare and life sciences organizations](/industries/healthcare-life-sciences)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does HIPAA require annual training?",
+      "a": "The current rules do not set an annual frequency. The Privacy Rule requires training for new workforce members and after material policy changes, and the Security Rule requires an ongoing security awareness program with periodic reminders. A January 2025 proposed rule would require security training at least every 12 months, but it had not been finalized as at September 2026."
+    },
+    {
+      "q": "Do business associates have to train their staff?",
+      "a": "Yes, for security. Business associates must comply with the Security Rule, including the security awareness and training standard, for electronic protected health information. The Privacy Rule training standard in 164.530(b) is written for covered entities, but business associate agreements commonly require business associates to train their workforce on privacy obligations too."
+    },
+    {
+      "q": "Does HIPAA prescribe specific training content or hours?",
+      "a": "No. HIPAA ties training to the entity's own policies and procedures and to what each workforce member needs for their role. It does not set hours, course formats or a curriculum. The Security Rule lists four implementation specifications (security reminders, malicious software, log-in monitoring and password management) that shape security content."
+    },
+    {
+      "q": "Do volunteers and students need HIPAA training?",
+      "a": "Yes, if they fall within the workforce definition. The HIPAA workforce includes employees, volunteers, trainees and other persons whose conduct in performing work for the covered entity or business associate is under its direct control, whether or not they are paid."
+    }
+  ],
+  "sources": [
+    {
+      "title": "45 CFR 164.530 Administrative requirements (Privacy Rule)",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.530"
+    },
+    {
+      "title": "45 CFR 164.308 Administrative safeguards (Security Rule)",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.308"
+    },
+    {
+      "title": "45 CFR 164.306 Security standards: General rules",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.306"
+    },
+    {
+      "title": "45 CFR 164.316 Policies and procedures and documentation requirements",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.316"
+    },
+    {
+      "title": "45 CFR 160.103 Definitions",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-160/subpart-A/section-160.103"
+    },
+    {
+      "title": "45 CFR 160.404 Amount of a civil money penalty",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-160/subpart-D/section-160.404"
+    },
+    {
+      "title": "HIPAA Security Rule To Strengthen the Cybersecurity of Electronic Protected Health Information (proposed rule, January 6, 2025)",
+      "publisher": "US Department of Health and Human Services, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2025/01/06/2024-30983/hipaa-security-rule-to-strengthen-the-cybersecurity-of-electronic-protected-health-information"
+    }
+  ],
+  "related": [
+    "nist-sp-800-50-security-awareness-training",
+    "how-to-prepare-training-records-for-an-audit",
+    "how-to-map-training-to-compliance-obligations",
+    "policy-attestation",
+    "how-to-update-training-when-regulations-change",
+    "compliance-training"
+  ],
+  "productLinks": [
+    {
+      "label": "Healthcare and life sciences",
+      "href": "/industries/healthcare-life-sciences"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 99,
+  "factCheck": [
+    {
+      "claim": "164.530(b)(1) training standard text; (b)(2) timing: by compliance date, new members within a reasonable period, material change within a reasonable period; training must be documented.",
+      "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.530"
+    },
+    {
+      "claim": "164.530(e) sanctions standard and 164.530(j)(2) six-year retention.",
+      "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.530"
+    },
+    {
+      "claim": "164.308(a)(5): security awareness and training program for all workforce members including management; four addressable specifications (security reminders, malicious software, log-in monitoring, password management); sanction policy (a)(1)(ii)(C); evaluation (a)(8). Text unchanged in eCFR as at 2026-09-01.",
+      "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.308"
+    },
+    {
+      "claim": "164.306(d): addressable specifications must be assessed and implemented if reasonable and appropriate, or documented alternative.",
+      "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.306"
+    },
+    {
+      "claim": "164.316(b)(2): retain documentation 6 years from creation or last effective date; review periodically and update.",
+      "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.316"
+    },
+    {
+      "claim": "160.103 definitions of covered entity and workforce.",
+      "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-160/subpart-A/section-160.103"
+    },
+    {
+      "claim": "NPRM published January 6, 2025, comments closed March 7, 2025; proposed 164.308(a)(11) security awareness training at least once every 12 months, new members within 30 days of access, within 30 days of material change, ongoing reminders, documentation; proposes removing addressable/required distinction. No final rule found in the Federal Register as at September 2026.",
+      "source": "https://www.federalregister.gov/documents/2025/01/06/2024-30983/hipaa-security-rule-to-strengthen-the-cybersecurity-of-electronic-protected-health-information"
+    },
+    {
+      "claim": "160.404: tiered civil money penalty limits by culpability, adjusted annually and published at 45 CFR part 102.",
+      "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-160/subpart-D/section-160.404"
+    }
+  ]
+}

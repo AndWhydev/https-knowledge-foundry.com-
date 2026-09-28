@@ -20,14 +20,14 @@ export const metadata: Metadata = {
   alternates: { canonical: "/industries/healthcare-life-sciences" },
   title: "Healthcare and life sciences training",
   description:
-    "Clinical governance, credentialing, AHPRA CPD, and TGA advertising rules mapped to structured programmes. Competency is verified and evidence is exportable.",
+    "Clinical governance, credentialing, CPD, and promotional rules for medicines and devices mapped to structured programs, with verified competency.",
 };
 
 const capabilities = [
   {
     icon: <Stethoscope className="h-5 w-5" />,
     title: "Clinical governance alignment",
-    desc: "Programmes structured against the National Safety and Quality Health Service Standards and jurisdictional clinical governance frameworks, with instruction traced to each specific criterion.",
+    desc: "Programs structured against hospital accreditation standards (The Joint Commission, Joint Commission International, the NSQHS Standards) and local clinical governance frameworks, with instruction traced to each specific criterion.",
   },
   {
     icon: <BadgeCheck className="h-5 w-5" />,
@@ -36,13 +36,13 @@ const capabilities = [
   },
   {
     icon: <ClipboardCheck className="h-5 w-5" />,
-    title: "CPD architecture for AHPRA",
-    desc: "Continuing professional development programmes structured to National Board standards, with self reflection, assessment, and outcome mapping produced as evidence rather than as narrative.",
+    title: "CPD architecture for licensing bodies",
+    desc: "Continuing professional development and continuing medical education programs structured to the requirements of licensing bodies such as US state medical boards, the DHA and DOH in the UAE, and AHPRA, with self reflection, assessment, and outcome mapping produced as evidence rather than as narrative.",
   },
   {
     icon: <Pill className="h-5 w-5" />,
-    title: "Product training conscious of TGA rules",
-    desc: "Training on products and therapeutic goods authored against TGA advertising, product information, and Consumer Medicine Information constraints, so promotional material and educational material are cleanly separated.",
+    title: "Product training within promotional rules",
+    desc: "Training on medicines and medical devices authored against promotional and labeling rules (FDA rules in the US, the PMD Act in Japan, EU advertising rules, TGA rules in Australia), so promotional material and educational material are cleanly separated.",
   },
   {
     icon: <HeartPulse className="h-5 w-5" />,
@@ -52,7 +52,7 @@ const capabilities = [
   {
     icon: <Fingerprint className="h-5 w-5" />,
     title: "Consistency across many sites",
-    desc: "One approved framework produces consistent programmes across hospitals, clinics, or laboratories while carrying variants specific to a site where local governance requires them.",
+    desc: "One approved framework produces consistent programs across hospitals, clinics, or laboratories while carrying variants specific to a site where local governance requires them.",
   },
 ];
 
@@ -60,7 +60,7 @@ const steps = [
   {
     n: "01",
     title: "Interpret the governance",
-    desc: "Clinical governance frameworks, professional standards, TGA guidance, and internal credentialing policy are ingested and parsed at the level of the criterion.",
+    desc: "Clinical governance frameworks, professional standards, regulator guidance on medicines and devices, and internal credentialing policy are ingested and parsed at the level of the criterion.",
   },
   {
     n: "02",
@@ -75,26 +75,26 @@ const steps = [
   {
     n: "04",
     title: "Evidence competency",
-    desc: "Credentialing records, CPD evidence, and retraining driven by incidents are exportable in the format your governance committee, accreditor, or National Board requires.",
+    desc: "Credentialing records, CPD evidence, and retraining driven by incidents are exportable in the format your governance committee, accreditor, or licensing body requires.",
   },
 ];
 
 const faq = [
   {
-    q: "Can this support NSQHS Standards accreditation cycles?",
-    a: "Yes. Frameworks can encode alignment to specific NSQHS Standards criteria, and instruction, verification, and evidence flow from that alignment. When accreditation review approaches, the artefact you present is a framework with coverage at the level of the clause, not a folder of course completion records.",
+    q: "Can this support hospital accreditation cycles?",
+    a: "Yes. Frameworks can encode alignment to specific accreditation criteria, whether from The Joint Commission, Joint Commission International, or the NSQHS Standards, and instruction, verification, and evidence flow from that alignment. When accreditation review approaches, the artifact you present is a framework with coverage at the level of the clause, not a folder of course completion records.",
   },
   {
-    q: "How does this fit with AHPRA National Board CPD requirements?",
-    a: "The Foundry produces CPD programmes structured to National Board expectations (categories, hours, reflective components, and outcome mapping) and evidences each practitioner's participation and assessment. CPD evidence exports in a form ready for annual registration renewal and audit.",
+    q: "How does this fit with CPD and license renewal requirements?",
+    a: "The Foundry produces CPD programs structured to licensing body expectations (categories, hours or credits, reflective components, and outcome mapping) and evidences each practitioner's participation and assessment. CPD evidence exports in a form ready for license renewal and audit.",
   },
   {
-    q: "We are subject to TGA advertising rules for therapeutic goods training. How does the platform manage the boundary?",
-    a: "The framework encodes the distinction between promotional and educational material at the level of the module, and TGA constraints (including Product Information, Consumer Medicine Information, and obligations from the advertising code) are treated as authorship rules during generation. Where a module would breach an advertising rule, generation is blocked and the reviewer is notified.",
+    q: "We are subject to promotional rules for medicines and devices. How does the platform manage the boundary?",
+    a: "The framework encodes the distinction between promotional and educational material at the level of the module, and regulatory constraints (including approved labeling, product and patient information, and obligations under the applicable advertising codes) are treated as authorship rules during generation. Where a module would breach an advertising rule, generation is blocked and the reviewer is notified.",
   },
   {
-    q: "Do you make claims about TGA or AHPRA certification of the platform itself?",
-    a: "No. The Foundry produces evidence structured against TGA guidance and AHPRA standards. It does not represent itself as TGA or AHPRA certified. Deployment posture, data residency, and health record handling are covered in the Technical Overview and confirmed through supplier due diligence.",
+    q: "Do you make claims about regulator certification of the platform itself?",
+    a: "No. The Foundry produces evidence structured against guidance and standards from bodies such as the FDA, the MHLW, the DHA, the TGA, and AHPRA. It does not represent itself as certified or approved by any of them. Deployment posture, data residency, and health record handling are covered in the Technical Overview and confirmed through supplier due diligence.",
   },
   {
     q: "Can we tie retraining directly to an adverse event or incident review?",
@@ -112,7 +112,7 @@ const related = [
   {
     eyebrow: "Program",
     title: "Compliance programs",
-    desc: "For therapeutic goods, medical devices, and regulated clinical workflows requiring behavioural adherence at the resolution of a clause.",
+    desc: "For medicines, medical devices, and regulated clinical workflows requiring behavioral adherence at the resolution of a clause.",
     href: "/programs/compliance",
   },
   {
@@ -137,7 +137,7 @@ export default function HealthcareLifeSciencesPage() {
             Clinical governance is <span className="text-[color:var(--color-forge)]">structural</span>, not narrative.
           </>
         }
-        lede="Clinical governance frameworks, credentialing pathways, AHPRA CPD, and product training conscious of TGA rules. All structured against the criterion, verified against the role, and evidenced for the accreditor."
+        lede="Clinical governance frameworks, credentialing pathways, CPD for licensed practitioners, and product training within promotional rules. All structured against the criterion, verified against the role, and evidenced for the accreditor."
         secondaryCta={{ label: "See hybrid verification", href: "/programs/hybrid-verification" }}
         visual={<AnimatedEditorial src="editorial-hero.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
@@ -148,14 +148,14 @@ export default function HealthcareLifeSciencesPage() {
       >
         <p>
           When a scope of practice decision is questioned by a coroner, by a governance
-          committee, or by a National Board, the question is always the same. How did you know the
+          committee, or by a licensing board, the question is always the same. How did you know the
           practitioner was competent to do this? A completion certificate does not answer that
           question. A framework, an assessment record, and a threshold decision do.
         </p>
         <p>
           The Foundry treats clinical governance frameworks and professional standards as
           sources of structural obligation. Frameworks encode who must be credentialed for what,
-          to what standard, with what evidence. Programmes generate to fit. Evidence
+          to what standard, with what evidence. Programs generate to fit. Evidence
           accumulates by design, not by the memory of the credentialing officer.
         </p>
       </ProseBlock>
@@ -179,13 +179,13 @@ export default function HealthcareLifeSciencesPage() {
         title="Evidence a governance committee will accept without follow up."
       >
         <p>
-          Frameworks aligned to National Safety and Quality Health Service Standards, TGA
-          guidance, and National Board CPD expectations. Credentialing pathways with defensible
+          Frameworks aligned to hospital accreditation standards, regulator guidance on
+          medicines and devices, and licensing body CPD expectations. Credentialing pathways with defensible
           verification. Product training that does not breach advertising rules. Retraining driven
           by incidents that attaches to the incident record.
         </p>
         <p>
-          When the accreditor arrives, the artefact you present is a framework, not a defence
+          When the accreditor arrives, the artifact you present is a framework, not a defense
           reconstructed from an LMS export.
         </p>
       </ProseBlock>
@@ -194,8 +194,8 @@ export default function HealthcareLifeSciencesPage() {
       <Related items={related} />
       <CtaBand
         eyebrow="Bring a criterion"
-        title="See your governance become a programme."
-        lede="Send us a governance framework, a credentialing policy, or a training obligation for therapeutic goods. In 45 minutes on your material, you leave with the framework the Foundry produces."
+        title="See your governance become a program."
+        lede="Send us a governance framework, a credentialing policy, or a training obligation for medicines or devices. In 45 minutes on your material, you leave with the framework the Foundry produces."
       />
     </>
   );

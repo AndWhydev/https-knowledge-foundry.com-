@@ -42,7 +42,7 @@ export const nav = {
           { label: "Knowledge governance", href: "/platform/knowledge-governance", desc: "Ownership, review, versioning" },
           { label: "Standards & accreditation", href: "/platform/standards-accreditation", desc: "Alignment as a first-class output" },
           { label: "Audit & evidence", href: "/platform/audit-evidence", desc: "Exportable proof on demand" },
-          { label: "Enterprise learning modernisation", href: "/platform/enterprise-learning-modernisation", desc: "Retire what is failing you" },
+          { label: "Enterprise learning modernization", href: "/platform/enterprise-learning-modernisation", desc: "Retire what is failing you" },
           { label: "Integrations", href: "/platform/integrations", desc: "Fit into the systems you have" },
         ],
       },
@@ -56,7 +56,7 @@ export const nav = {
         heading: "By program type",
         items: [
           { label: "Educational programs", href: "/programs/educational", desc: "Structured for understanding, not attendance" },
-          { label: "Compliance programs", href: "/programs/compliance", desc: "Aligned to policies and required behaviours" },
+          { label: "Compliance programs", href: "/programs/compliance", desc: "Aligned to policies and required behaviors" },
           { label: "Product enablement", href: "/programs/product-enablement", desc: "Guided learning for tools and software" },
           { label: "Operational procedures", href: "/programs/operational-procedures", desc: "Repeatable, consistent task instruction" },
           { label: "Hybrid verification", href: "/programs/hybrid-verification", desc: "Learning plus capability confirmation" },
@@ -71,10 +71,10 @@ export const nav = {
       {
         heading: "Regulated & high-consequence",
         items: [
-          { label: "Financial services", href: "/industries/financial-services", desc: "APRA, ASIC, licensing" },
-          { label: "Healthcare & life sciences", href: "/industries/healthcare-life-sciences", desc: "Clinical, TGA, credentialing" },
+          { label: "Financial services", href: "/industries/financial-services", desc: "Prudential, conduct, licensing" },
+          { label: "Healthcare & life sciences", href: "/industries/healthcare-life-sciences", desc: "Clinical, credentialing, CPD" },
           { label: "Energy & resources", href: "/industries/energy-resources", desc: "Safety-critical operations" },
-          { label: "Government & defence", href: "/industries/government-defence", desc: "Cleared, audited, evidenced" },
+          { label: "Government & defense", href: "/industries/government-defence", desc: "Cleared, audited, evidenced" },
           { label: "Professional services", href: "/industries/professional-services", desc: "CPD and firm-wide expertise" },
           { label: "Higher education", href: "/industries/higher-education", desc: "Accreditation and outcomes" },
         ],

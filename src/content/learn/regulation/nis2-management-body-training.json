@@ -1,0 +1,289 @@
+{
+  "slug": "nis2-management-body-training",
+  "kind": "regulation",
+  "title": "What training does NIS2 require of management bodies and staff?",
+  "seoTitle": "NIS2 management body training",
+  "description": "What NIS2 Article 20(2) and Article 21(2)(g) require for management body cybersecurity training and staff awareness, and how Portugal transposed it.",
+  "shortAnswer": "The NIS2 Directive (Directive (EU) 2022/2555) requires EU Member States to ensure that members of the management bodies of essential and important entities follow cybersecurity training (Article 20(2)), and to encourage similar regular training for employees. Article 21(2)(g) also makes basic cyber hygiene practices and cybersecurity training a mandatory risk management measure. Management bodies approve and oversee those measures and can be held liable for infringements.",
+  "keyTakeaways": [
+    "Article 20(2): members of management bodies are required to follow training so they can identify risks and assess cybersecurity risk management practices; employees should be offered similar training regularly.",
+    "Article 21(2)(g) lists basic cyber hygiene practices and cybersecurity training among the minimum risk management measures for all essential and important entities.",
+    "NIS2 is a directive, so the binding obligation is the national transposing law. The transposition deadline was October 17, 2024, and many Member States were late.",
+    "Portugal transposed NIS2 through Decree-Law 125/2025 of December 4, 2025, which entered into force on April 3, 2026, with the Centro Nacional de Cibersegurança (CNCS) as national cybersecurity authority.",
+    "Commission Implementing Regulation (EU) 2024/2690 sets detailed awareness and training requirements for digital infrastructure and digital service providers, including assessing training effectiveness."
+  ],
+  "jurisdiction": "European Union (Directive (EU) 2022/2555, applied through national transposing laws)",
+  "regulator": "National competent authorities designated by each Member State (in Portugal, the Centro Nacional de Cibersegurança and sectoral authorities); the European Commission and ENISA at EU level",
+  "appliesTo": [
+    "Essential and important entities in the sectors listed in Annexes I and II of NIS2, such as energy, transport, banking, health, digital infrastructure, ICT service management, manufacturing, and public administration",
+    "Members of the management bodies of those entities",
+    "Employees of those entities, through Article 21(2)(g) and national law",
+    "Direct suppliers and service providers, where the entity's awareness program extends to them"
+  ],
+  "sections": [
+    {
+      "id": "what-nis2-requires",
+      "heading": "What does NIS2 require for training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "NIS2 contains two training obligations: a personal training requirement for members of management bodies in Article 20(2), and an organizational requirement in Article 21(2)(g) to implement basic cyber hygiene practices and cybersecurity training. As at September 2026, both apply through national transposing laws across the EU."
+        },
+        {
+          "type": "p",
+          "text": "Article 20(2) of [Directive (EU) 2022/2555](https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng) reads: \"Member States shall ensure that the members of the management bodies of essential and important entities are required to follow training, and shall encourage essential and important entities to offer similar training to their employees on a regular basis, in order that they gain sufficient knowledge and skills to enable them to identify risks and assess cybersecurity risk-management practices and their impact on the services provided by the entity.\""
+        },
+        {
+          "type": "p",
+          "text": "Article 21(2) then lists ten minimum cybersecurity risk management measures. Point (g) is \"basic cyber hygiene practices and cybersecurity training\". Point (i), human resources security, access control policies and asset management, also shapes who needs what training. Recital 89 gives examples of cyber hygiene, including user awareness and training on cyber threats, phishing and social engineering. These measures sit inside a wider [compliance training](/glossary/compliance-training) program rather than replacing it."
+        }
+      ]
+    },
+    {
+      "id": "regulation-versus-directive",
+      "heading": "Why does it matter that NIS2 is a directive?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because NIS2 is a directive, organizations must comply with their national law, not with the directive text directly. An EU regulation, such as DORA or the GDPR, is binding in its entirety and directly applicable in every Member State from its application date. A directive sets results that each Member State must achieve through its own legislation, a process called transposition, and national laws can add detail or go further."
+        },
+        {
+          "type": "p",
+          "text": "Article 41 of NIS2 required Member States to adopt and publish transposing measures by October 17, 2024 and to apply them from October 18, 2024. For readers outside the EU, the practical effect is that a group operating in several Member States may face slightly different training, registration, and reporting rules in each one, all traceable back to the same Article 20 and Article 21."
+        },
+        {
+          "type": "p",
+          "text": "Many Member States missed the deadline. The European Commission's [NIS2 transposition page](https://digital-strategy.ec.europa.eu/en/policies/nis-transposition) records that on May 7, 2025 it sent reasoned opinions to 19 Member States, including Portugal, for failing to notify full transposition, and the Commission has since referred Ireland, Spain, France, and the Netherlands to the Court of Justice of the European Union."
+        }
+      ]
+    },
+    {
+      "id": "portugal-transposition",
+      "heading": "How has Portugal transposed NIS2?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Portugal transposed NIS2 through [Decree-Law 125/2025](https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401), published on December 4, 2025, which approves the new Regime Jurídico da Cibersegurança (Cybersecurity Legal Regime). According to the [CNCS](https://www.cncs.gov.pt/pt/regime-juridico/), the regime entered into force on April 3, 2026 and replaces the earlier framework under Law 46/2018."
+        },
+        {
+          "type": "p",
+          "text": "The CNCS summary states that the management, direction, and administration bodies of covered entities must formally approve cybersecurity risk management policies and measures, supervise their implementation, and promote and ensure continuous cybersecurity training for relevant teams. Office holders can answer for acts or omissions committed with intent or gross negligence, and fines can reach 10 million euros or 2% of worldwide annual turnover, whichever is higher."
+        },
+        {
+          "type": "p",
+          "text": "The Portuguese regime covers 17 sectors and a significant part of public administration, and covered entities must register on the CNCS MyCiber electronic platform. For financial entities, the CNCS lists the Banco de Portugal, the Comissão do Mercado de Valores Mobiliários, and the Autoridade de Supervisão de Seguros e Fundos de Pensões as authorities for digital operational resilience matters."
+        }
+      ]
+    },
+    {
+      "id": "management-liability",
+      "heading": "What are management bodies accountable for under NIS2?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Management bodies must approve the Article 21 cybersecurity risk management measures, oversee their implementation, and can be held liable for the entity's infringements of Article 21 (Article 20(1)). Training is the mechanism that makes this accountability credible: a board cannot oversee measures it does not understand."
+        },
+        {
+          "type": "p",
+          "text": "Enforcement is set by national law within minimums in NIS2. Article 34 requires maximum fines of at least 10 million euros or 2% of total worldwide annual turnover for essential entities, and at least 7 million euros or 1.4% for important entities, whichever is higher. For essential entities, Article 32(5) allows authorities, as a last resort, to request a temporary prohibition on a natural person at chief executive officer or legal representative level from exercising managerial functions."
+        }
+      ]
+    },
+    {
+      "id": "implementing-regulation",
+      "heading": "Is there more detailed guidance on what the training must cover?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yes, for certain digital sectors. [Commission Implementing Regulation (EU) 2024/2690](https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj/eng) sets detailed Article 21 requirements for DNS service providers, TLD name registries, cloud computing, data center, content delivery network, managed service and managed security service providers, online marketplaces, search engines, social networking platforms, and trust service providers. Section 8 of its annex covers cyber hygiene and security training, and is a useful benchmark for other sectors."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Point 8.1.2: an awareness raising program for employees, including members of management bodies, and for direct suppliers and service providers where appropriate, scheduled so activities are repeated and cover new employees.",
+            "Point 8.1.3: the awareness program is tested for effectiveness where appropriate and updated at planned intervals as threats change.",
+            "Point 8.2.1: identify employees whose roles require security relevant skills and ensure they receive regular training.",
+            "Point 8.2.3: role training must be relevant to the job function and its effectiveness must be assessed; it covers secure configuration and operation, known cyber threats, and behavior when security relevant events occur.",
+            "Point 8.2.4: staff moving into roles that need security skills are trained on transfer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "obligation-to-evidence",
+      "heading": "How do you evidence NIS2 training to a supervisor?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Supervisors look for proof that directors actually gained the knowledge Article 20(2) describes and that staff training matches roles and risks, not only attendance lists. The table below is an illustrative mapping from each obligation to a learning outcome and the evidence that would support it."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: NIS2 obligation to learning outcome to assessment evidence",
+          "head": ["Obligation", "Learning outcome", "Assessment evidence"],
+          "rows": [
+            [
+              "Article 20(1): approve and oversee risk management measures",
+              "Board members can explain the entity's main cyber risks and the measures they approved",
+              "Board minutes showing informed challenge, plus a short scenario based knowledge check"
+            ],
+            [
+              "Article 20(2): management body training",
+              "Board members can identify risks and assess risk management practices and their effect on services",
+              "Dated training record per director, content version, and assessment result"
+            ],
+            [
+              "Article 21(2)(g): cyber hygiene and training",
+              "All staff apply defined cyber hygiene practices, such as reporting phishing and protecting credentials",
+              "Awareness completion by population, phishing simulation trends, and incident reporting rates"
+            ],
+            [
+              "Implementing Regulation annex point 8.2: role based security training",
+              "Staff in security relevant roles perform secure configuration and incident response tasks correctly",
+              "Role training matrix, practical assessments, and effectiveness review"
+            ],
+            [
+              "Article 21(2)(d) and annex point 8.1.2: suppliers",
+              "Direct suppliers with access know the entity's security requirements and contact points",
+              "Contract clauses, supplier attestations, and access linked training records"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A [training matrix](/glossary/training-matrix) that links each role to its required modules and refresh cycle makes this evidence easy to produce. The guides on [reporting training compliance to the board](/guides/how-to-report-training-compliance-to-the-board) and [preparing training records for an audit](/guides/how-to-prepare-training-records-for-an-audit) cover the mechanics."
+        }
+      ]
+    },
+    {
+      "id": "what-is-changing",
+      "heading": "Are the NIS2 training rules changing?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No change to Article 20 or Article 21(2)(g) has been adopted as at September 2026. On January 20, 2026 the Commission proposed [targeted amendments to NIS2](https://digital-strategy.ec.europa.eu/en/library/proposal-directive-regards-simplification-measures-and-alignment-cybersecurity-act) (COM(2026) 13), which it describes as simplifying jurisdictional rules, streamlining ransomware data collection, and facilitating supervision of cross-border entities, complementing a single entry point for incident reporting proposed in the Digital Omnibus. These are proposals and still need agreement by the European Parliament and the Council."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models the NIS2 obligations, the national transposing provisions, and role competencies as linked objects with defined assessment points. Board training, staff awareness, and role based security training then trace back to Article 20 and Article 21, and the same concepts can be mapped to DORA or ISO/IEC 27001 where an entity is subject to both."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does NIS2 say how many hours of training directors need?",
+      "a": "No. Article 20(2) sets an outcome, not a duration: directors must gain sufficient knowledge and skills to identify risks and assess cybersecurity risk management practices and their impact on services. National laws or authorities may add detail, so check the transposing law in each Member State where the entity is covered."
+    },
+    {
+      "q": "Is employee training mandatory under NIS2 or only encouraged?",
+      "a": "Article 20(2) only requires Member States to encourage similar training for employees. However, Article 21(2)(g) makes basic cyber hygiene practices and cybersecurity training a mandatory risk management measure for the entity, so in practice staff training is required, scaled to risk and role."
+    },
+    {
+      "q": "Do financial entities covered by DORA also need to follow NIS2 training rules?",
+      "a": "NIS2 recital 28 treats DORA as a sector specific act for financial entities, so DORA's ICT risk management provisions, including its training requirements, apply instead of the equivalent NIS2 provisions. Financial entities should build training to DORA and confirm how their national NIS2 law treats them."
+    },
+    {
+      "q": "When did Portugal's NIS2 law take effect?",
+      "a": "Decree-Law 125/2025, published December 4, 2025, entered into force on April 3, 2026, according to the Centro Nacional de Cibersegurança. Entities already operating must register on the CNCS electronic platform within 60 days after the platform is made available."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Directive (EU) 2022/2555 (NIS 2 Directive)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+    },
+    {
+      "title": "Commission Implementing Regulation (EU) 2024/2690",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj/eng"
+    },
+    {
+      "title": "NIS2 Directive transposition in EU countries",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/nis-transposition"
+    },
+    {
+      "title": "NIS2 Directive: securing network and information systems",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/nis2-directive"
+    },
+    {
+      "title": "Proposal for a Directive as regards simplification measures and alignment with the Cybersecurity Act",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/proposal-directive-regards-simplification-measures-and-alignment-cybersecurity-act"
+    },
+    {
+      "title": "Decreto-Lei n.º 125/2025",
+      "publisher": "Diário da República (Portugal)",
+      "url": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401"
+    },
+    {
+      "title": "Regime Jurídico da Cibersegurança",
+      "publisher": "Centro Nacional de Cibersegurança (CNCS)",
+      "url": "https://www.cncs.gov.pt/pt/regime-juridico/"
+    }
+  ],
+  "related": [
+    "dora-ict-security-awareness-training",
+    "gdpr-staff-training-requirements",
+    "iso-27001-awareness-training-requirements",
+    "how-to-report-training-compliance-to-the-board",
+    "how-to-set-mandatory-training-refresh-cycles",
+    "completion-tracking-vs-competency-verification"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 99,
+  "factCheck": [
+    {
+      "claim": "Article 20(2) NIS2 text: members of management bodies required to follow training; Member States encourage similar regular training for employees (verbatim)",
+      "source": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+    },
+    {
+      "claim": "Article 21(2)(g) lists basic cyber hygiene practices and cybersecurity training; Article 20(1) management bodies approve, oversee, can be held liable",
+      "source": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+    },
+    {
+      "claim": "Article 41: transpose by 17 October 2024, apply from 18 October 2024; Article 34(4) and (5) fine minimums EUR 10m/2% essential, EUR 7m/1.4% important; Article 32(5)(b) temporary prohibition of CEO or legal representative level managers",
+      "source": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+    },
+    {
+      "claim": "Implementing Regulation 2024/2690 annex section 8: awareness program incl. management bodies and suppliers (8.1.2), effectiveness testing (8.1.3), role training with effectiveness assessed (8.2.1, 8.2.3), training on transfer (8.2.4)",
+      "source": "https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj/eng"
+    },
+    {
+      "claim": "On 7 May 2025 the Commission sent reasoned opinions to 19 Member States including Portugal for failing to notify full NIS2 transposition",
+      "source": "https://digital-strategy.ec.europa.eu/en/policies/nis-transposition"
+    },
+    {
+      "claim": "Commission referred Ireland, Spain, France and the Netherlands to the Court of Justice for failing to transpose NIS2 (news item linked from the NIS2 policy page)",
+      "source": "https://digital-strategy.ec.europa.eu/en/policies/nis2-directive"
+    },
+    {
+      "claim": "Decree-Law 125/2025 published 4 December 2025 transposes NIS2; in force 3 April 2026; management bodies approve, supervise, promote continuous training; fines up to EUR 10m or 2%; 17 sectors; MyCiber registration within 60 days of platform availability; BdP, CMVM, ASF for DORA matters",
+      "source": "https://www.cncs.gov.pt/pt/regime-juridico/"
+    },
+    {
+      "claim": "COM(2026) 13 proposal of 20 January 2026: targeted NIS2 amendments on jurisdiction, ransomware data, cross-border supervision, complementing Digital Omnibus single-entry incident reporting",
+      "source": "https://digital-strategy.ec.europa.eu/en/library/proposal-directive-regards-simplification-measures-and-alignment-cybersecurity-act"
+    }
+  ]
+}

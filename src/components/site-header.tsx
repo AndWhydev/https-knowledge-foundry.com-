@@ -125,7 +125,7 @@ export function SiteHeader() {
                   <div className="text-eyebrow mb-3">{nav[openMega].label}</div>
                   <p className="text-[13px] text-[color:var(--color-ink-muted)] leading-relaxed">
                     {openMega === "platform" && "The system that turns subjects into structured learning."}
-                    {openMega === "programs" && "Purpose-built for the outcomes your organisation is accountable for."}
+                    {openMega === "programs" && "Purpose-built for the outcomes your organization is accountable for."}
                     {openMega === "industries" && "Regulated, evidenced, and audit-ready in your sector."}
                   </p>
                   <Link

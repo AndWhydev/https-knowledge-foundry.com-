@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/platform/verification-trust" },
   title: "Verification and trust",
   description:
-    "Frameworks are defined, reviewed and approved by a person before delivery. Each block carries a Foundry Hash; each programme a Master Integrity Root.",
+    "Frameworks are defined, reviewed and approved by a person before delivery. Each block carries a Foundry Hash; each program a Master Integrity Root.",
 };
 
 const capabilities = [
@@ -52,7 +52,7 @@ const capabilities = [
   {
     icon: <LockKeyhole className="h-5 w-5" />,
     title: "Master Integrity Root",
-    desc: "Block level hashes aggregate into a programme level root. Recipients can confirm that what they received is what was approved for release.",
+    desc: "Block level hashes aggregate into a program level root. Recipients can confirm that what they received is what was approved for release.",
   },
 ];
 
@@ -75,7 +75,7 @@ const steps = [
   {
     n: "04",
     title: "Hash and release",
-    desc: "Approved blocks receive Foundry Hashes. The programme aggregates to a Master Integrity Root. Release is a separate, deliberate confirmation.",
+    desc: "Approved blocks receive Foundry Hashes. The program aggregates to a Master Integrity Root. Release is a separate, deliberate confirmation.",
   },
 ];
 
@@ -85,11 +85,11 @@ const faq = [
     a: "It proves that a given block of content is byte for byte identical to the version that was approved. If a single character changes anywhere in the block, the hash changes. Recipients (auditors, learners, downstream systems) can independently confirm that what they hold matches what was released.",
   },
   {
-    q: "How does the Master Integrity Root work at the programme level?",
-    a: "Individual block hashes are aggregated into a single programme level root. Verifying the root verifies each block beneath it. It is the same cryptographic principle used in software supply chains and financial ledgers, applied to learning content.",
+    q: "How does the Master Integrity Root work at the program level?",
+    a: "Individual block hashes are aggregated into a single program level root. Verifying the root verifies each block beneath it. It is the same cryptographic principle used in software supply chains and financial ledgers, applied to learning content.",
   },
   {
-    q: "Can the model generate something the framework did not authorise?",
+    q: "Can the model generate something the framework did not authorize?",
     a: "No. Generation is bounded by the approved framework and constrained by Automated Validation Gates that reference the Pedagogical Roadmap in real time. Output that does not align to the framework does not leave the compiler. This is what we mean by 'automation within boundaries defined by humans'.",
   },
   {
@@ -142,15 +142,15 @@ export default function VerificationTrustPage() {
             <span className="text-[color:var(--color-forge)]">rely</span> on it.
           </>
         }
-        lede="Frameworks are defined, reviewed, controlled, and approved by a human before content reaches delivery. Each block is cryptographically identifiable. Each programme carries a Master Integrity Root. Trust is a technical property, not a claim."
+        lede="Frameworks are defined, reviewed, controlled, and approved by a human before content reaches delivery. Each block is cryptographically identifiable. Each program carries a Master Integrity Root. Trust is a technical property, not a claim."
         secondaryCta={{ label: "See the ledger", href: "/platform/see-it-work" }}
         visual={<HeroTimeline
           milestones={[
             { label: "Framework approved", sublabel: "signed 2026-09-18 · J. Chen", verified: true },
             { label: "Instruction generated to framework", sublabel: "traceable, 64 assets", verified: true },
-            { label: "Learner completes programme", sublabel: "click-through recorded" },
+            { label: "Learner completes program", sublabel: "click-through recorded" },
             { label: "Capability verified against framework", sublabel: "evidence exported", verified: true },
-            { label: "Ongoing drift monitoring", sublabel: "framework vs behaviour", verified: false },
+            { label: "Ongoing drift monitoring", sublabel: "framework vs behavior", verified: false },
           ]}
         />}
       />
@@ -170,7 +170,7 @@ export default function VerificationTrustPage() {
         <p>
           Verification and Trust is how Knowledge Foundry answers that question.
           Not with assertions. With <strong>a Foundry Hash on each block, a
-          Master Integrity Root on each programme, a Forensic Revision Chain
+          Master Integrity Root on each program, a Forensic Revision Chain
           behind each change,</strong> and a mandatory human release gate above
           everything.
         </p>
@@ -196,12 +196,12 @@ export default function VerificationTrustPage() {
       >
         <p>
           The output is not a rendered PDF and a promise. It is a released
-          artefact with a cryptographic identity, an approver, a framework
+          artifact with a cryptographic identity, an approver, a framework
           reference, a version history, and a trail behind each change that
           holds up in audit.
         </p>
         <p>
-          <strong>Each programme is auditable.</strong> Each revision is
+          <strong>Each program is auditable.</strong> Each revision is
           controlled. <strong>Each release is deliberate.</strong> If the
           content matches its hash, the content matches its approval. If it does
           not, you know instantly.

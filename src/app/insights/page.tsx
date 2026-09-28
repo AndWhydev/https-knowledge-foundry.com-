@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/insights" },
   title: "Insights on structured training",
   description:
-    "Long form articles on framework first design, hybrid verification, audit defence, and the provenance problem in AI generated compliance training.",
+    "Long form articles on framework first design, hybrid verification, audit defense, and the provenance problem in AI generated compliance training.",
 };
 
 type Article = {
@@ -98,7 +98,7 @@ export default function InsightsIndexPage() {
         eyebrow="Insights"
         breadcrumb={[{ label: "Insights", href: "/insights" }]}
         title={<>Long form arguments for the <span className="text-[color:var(--color-forge)]">discipline of structured knowledge.</span></>}
-        lede="Working papers, methodology notes, and explanations written for auditors, from the team building Knowledge Foundry. Written for senior compliance, L&D, and risk owners in regulated organisations."
+        lede="Working papers, methodology notes, and explanations written for auditors, from the team building Knowledge Foundry. Written for senior compliance, L&D, and risk owners in regulated organizations."
         primaryCta={{ label: "Request a demonstration", href: "/demonstration" }}
         secondaryCta={{ label: "See case studies", href: "/case-studies" }}
       />

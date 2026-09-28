@@ -108,3 +108,50 @@ Batch C1
 - `formative-vs-summative-assessment`: Formative vs summative assessment
 
 Comparisons are category level only. No named vendors or products (brand rule).
+
+## International regulation sets (`/regulations/<slug>`), 35 pages
+
+Priority markets: United States, United Arab Emirates, Japan; then the EU and Portugal (holding company). American English. `jurisdiction` must start with exactly "United States", "United Arab Emirates", "Japan", "European Union", or "Portugal" (the regulations index groups by this). Each page cites at least one official source for its jurisdiction.
+
+Batch US
+- `osha-training-requirements`: What training does OSHA require employers to provide?
+- `hipaa-security-and-privacy-training`: What training does HIPAA require for the workforce?
+- `bsa-aml-training-requirements`: What AML training does the Bank Secrecy Act require of US financial institutions?
+- `finra-continuing-education-requirements`: What are FINRA's continuing education requirements?
+- `fda-gmp-personnel-training-requirements`: What does FDA's GMP rule (21 CFR 211.25) require for personnel training?
+- `california-and-new-york-harassment-training`: What sexual harassment training do California and New York require?
+- `doj-compliance-program-training-expectations`: What does the DOJ expect of compliance training in a corporate compliance program?
+- `nist-sp-800-50-security-awareness-training`: What does NIST SP 800-50 say about security awareness and training programs?
+- `cmmc-security-awareness-training`: What security awareness training does CMMC require of defense contractors?
+- `dot-hazmat-employee-training`: What hazmat employee training does US DOT require (49 CFR 172.704)?
+
+Batch UAE
+- `uae-aml-cft-training-requirements`: What AML/CFT training does UAE law require?
+- `uae-pdpl-staff-training`: What does the UAE Personal Data Protection Law mean for staff training?
+- `difc-data-protection-law-training`: What does the DIFC Data Protection Law require for training and awareness?
+- `adgm-data-protection-training`: What does ADGM's data protection regime expect for staff training?
+- `dfsa-training-and-competence-requirements`: What training and competence rules does the DFSA apply?
+- `oshad-abu-dhabi-ohs-training`: What does Abu Dhabi's OSHAD framework require for health and safety training?
+- `uae-information-assurance-awareness-training`: What do the UAE Information Assurance Standards require for security awareness training?
+
+Batch JP
+- `japan-industrial-safety-and-health-act-training`: What safety and health education does Japan's Industrial Safety and Health Act require?
+- `japan-appi-employee-training`: What does Japan's APPI require for employee supervision and training?
+- `japan-power-harassment-prevention-obligations`: What must employers in Japan do to prevent power harassment?
+- `japan-fsa-aml-cft-guidelines-training`: What does Japan's FSA expect for AML/CFT training?
+- `japan-gmp-personnel-training-requirements`: What does Japan's GMP ordinance require for personnel training?
+- `japan-whistleblower-protection-act-training`: What does Japan's Whistleblower Protection Act require of employers?
+- `japan-ai-guidelines-for-business-training`: What do Japan's AI Guidelines for Business expect for AI literacy and training?
+
+Batch EU and PT
+- `eu-ai-act-ai-literacy`: What does the EU AI Act require for AI literacy (Article 4)?
+- `gdpr-staff-training-requirements`: What does GDPR require for staff training and awareness?
+- `nis2-management-body-training`: What training does NIS2 require of management bodies and staff?
+- `dora-ict-security-awareness-training`: What does DORA require for ICT security awareness and training?
+- `eu-amlr-training-requirements`: What training will the EU Anti-Money Laundering Regulation require?
+- `eu-whistleblower-directive-obligations`: What does the EU Whistleblower Directive require of organizations?
+- `eu-osh-framework-directive-training`: What training does the EU OSH Framework Directive require?
+- `portugal-labour-code-continuous-training`: How many hours of training must employers provide under Portugal's Labour Code?
+- `portugal-ohs-training-requirements`: What occupational health and safety training does Portuguese law require?
+- `portugal-anti-corruption-regime-training`: What training does Portugal's anti-corruption regime (RGPC) require?
+- `portugal-aml-law-training-requirements`: What AML training does Portugal's Law 83/2017 require?

@@ -33,7 +33,7 @@ export default function Page() {
     <EditorialArticle
       eyebrow="Insight · Provenance"
       title="AI generated compliance content has a provenance problem."
-      dek="A regulator does not care whether content was authored by a human or a model. It cares whether the organisation can substantiate every claim. Provenance is what makes substantiation possible."
+      dek="A regulator does not care whether content was authored by a human or a model. It cares whether the organization can substantiate every claim. Provenance is what makes substantiation possible."
       date="18 December 2025"
       readingTime="9 min read"
       toc={toc}
@@ -43,14 +43,14 @@ export default function Page() {
         A great deal of public debate about AI generated compliance content circles the wrong
         question. Whether content was drafted by a subject matter expert, a contractor, or a
         model is largely irrelevant to a regulator. The question the regulator asks is
-        different, older, and harder. Can the organisation substantiate the claim that this
+        different, older, and harder. Can the organization substantiate the claim that this
         content correctly reflects the requirement it purports to teach, on the date it was
         delivered, to the cohort it was delivered to.
       </EditorialP>
       <EditorialP>
         Content authored by humans has always had a provenance problem. It has just been quiet
         about it. An author wrote a paragraph, in their head. The paragraph made it into a
-        module. The reasoning behind it lived in the author, not in the artefact. The author
+        module. The reasoning behind it lived in the author, not in the artifact. The author
         left. The reasoning left with them. Substantiation, in this world, is a narrative
         reconstruction after the fact.
       </EditorialP>
@@ -58,8 +58,8 @@ export default function Page() {
       <EditorialH2 id="sec-1">The wrong debate</EditorialH2>
       <EditorialP>
         The debate that gets most airtime (human versus model as author) is not the debate a
-        regulator would recognise. Regulators do not ask who typed the sentence. They ask
-        whether the organisation can produce, on demand, the chain from source clause to
+        regulator would recognize. Regulators do not ask who typed the sentence. They ask
+        whether the organization can produce, on demand, the chain from source clause to
         delivered content, and identify each hand and each model in between.
       </EditorialP>
 
@@ -74,7 +74,7 @@ export default function Page() {
         is opaque by default. Buried in a prompt, a system message, and a set of weights the
         buyer cannot inspect. If a regulator or an incident review asks why a specific paragraph
         exists in a specific module, the honest answer, in most current AI authoring workflows,
-        is <em>we don't know</em>. The organisation authored the paragraph without knowing why.
+        is <em>we don't know</em>. The organization authored the paragraph without knowing why.
         That is a worse posture than the baseline it replaced.
       </EditorialP>
 
@@ -85,20 +85,20 @@ export default function Page() {
         provenance at the moment it occurs. Each generated element must carry a cryptographic
         link back to the framework node it satisfies, the source clause behind the node, and the
         human reviewer who approved the generation. That link must be verifiable independently.
-        By an auditor, by an incident review team, by the organisation itself, without
+        By an auditor, by an incident review team, by the organization itself, without
         trusting the vendor's assertions.
       </EditorialP>
       <EditorialList items={[
         <><strong>Foundry Hash.</strong> A cryptographic hash bound to each generated element at the moment of generation. The hash pins the content to the framework node, the source clause, and the reviewer sign off behind it.</>,
-        <><strong>Master Integrity Root.</strong> A single root of trust for the programme. Any tampering downstream (a paragraph quietly edited, a source citation swapped) invalidates the root. Integrity is verifiable in one query.</>,
+        <><strong>Master Integrity Root.</strong> A single root of trust for the program. Any tampering downstream (a paragraph quietly edited, a source citation swapped) invalidates the root. Integrity is verifiable in one query.</>,
         <><strong>Forensic Revision Chain.</strong> Each revision is chained, signed, and timestamped. The chain answers, without ambiguity, what changed, when, why, and on whose authority.</>,
       ]} />
 
       <EditorialAside title="On what the cryptography is actually for">
         <p>
           The point is not the cryptography as such. The point is the epistemic posture the
-          cryptography enforces. Provenance stops being a promise the organisation makes to
-          itself and becomes a property of the artefact. Inspectable by any party with the
+          cryptography enforces. Provenance stops being a promise the organization makes to
+          itself and becomes a property of the artifact. Inspectable by any party with the
           right to ask, without reliance on vendor goodwill.
         </p>
       </EditorialAside>

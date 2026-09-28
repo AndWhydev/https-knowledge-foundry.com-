@@ -1,0 +1,398 @@
+{
+  "slug": "oshad-abu-dhabi-ohs-training",
+  "kind": "regulation",
+  "title": "What does Abu Dhabi's OSHAD framework (now ADOSH-SF) require for health and safety training?",
+  "seoTitle": "Abu Dhabi OSHAD (ADOSH-SF) training",
+  "description": "What Element 5 of Abu Dhabi's OSH System Framework (ADOSH-SF, formerly OSHAD-SF) requires for training, awareness and competency, and how to evidence it.",
+  "shortAnswer": "Abu Dhabi's Occupational Safety and Health System Framework (ADOSH-SF, formerly OSHAD-SF), overseen by the Abu Dhabi Public Health Center (ADPHC), requires employers to give workers the information, instruction, training and supervision needed to work safely. Element 5 requires risk based OSH training and competency procedures: a training needs analysis, a risk based training plan, evaluation of learning outcomes, competency records, and a review of training requirements at least annually. Version 4.0 took effect on 15 July 2024.",
+  "keyTakeaways": [
+    "The framework was renamed from OSHAD-SF to ADOSH-SF in Version 4.0 (effective 15 July 2024), and the former OSHAD center's role passed to the Abu Dhabi Public Health Center (ADPHC) under Law No. (14) of 2019.",
+    "Element 5 (Training, Awareness and Competency) requires every nominated entity to maintain OSH training and awareness procedures and separate OSH competency procedures.",
+    "The training procedure must start from a training needs analysis covering ten minimum topics, be planned on risk (for example an OSH training matrix), be evaluated for learning outcomes and delivery, and be reviewed at least annually.",
+    "Medium risk entities follow Mechanism 5.0 instead, which lists five minimum training topics and requires a training register.",
+    "Codes of Practice are mandatory for all entities regardless of risk classification and many add topic specific training, such as CoP 11.0 Safety in the Heat."
+  ],
+  "jurisdiction": "United Arab Emirates: Emirate of Abu Dhabi",
+  "regulator": "Abu Dhabi Public Health Center (ADPHC), as OSH Competent Authority, with sector regulatory authorities (SRAs)",
+  "appliesTo": [
+    "Government and private entities in the Emirate of Abu Dhabi nominated as high risk by their sector regulatory authority (full OSH management system)",
+    "Entities notified as medium risk (Mechanism 5.0 minimum requirements) or low risk (inspection)",
+    "All employers in the emirate for the mandatory Codes of Practice relevant to their activities",
+    "Employees, contractors and visitors, who must receive appropriate OSH training"
+  ],
+  "sections": [
+    {
+      "id": "what-it-is",
+      "heading": "What is ADOSH-SF, and is OSHAD-SF still current?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ADOSH-SF is the current name of the framework formerly known as OSHAD-SF, and it is the key occupational safety and health (OSH) regulation in the Emirate of Abu Dhabi. [ADPHC's Version 4.0 update notice](https://www.adphc.gov.ae/en/Legislation/legislation-V4-updates) states that the acronym changed from OSHAD-SF to ADOSH-SF and that the Abu Dhabi Occupational Safety and Health Center (OSHAD) name was replaced by the Abu Dhabi Public Health Center (ADPHC) throughout the documents."
+        },
+        {
+          "type": "p",
+          "text": "As at September 2026, the published documents are Version 4.0, effective 15 July 2024, with several Codes of Practice revised to Version 4.1 on 27 February 2026 and the practitioner registration mechanisms reissued on 7 April 2026, according to ADPHC's [Code of Practice](https://www.adphc.gov.ae/en/Legislation/Code-of-Practices) and [Mechanisms](https://www.adphc.gov.ae/en/Legislation/Mechanisms) listings. The old oshad.ae website no longer serves content, so references to it in older training materials should be updated to the ADPHC legislation pages."
+        },
+        {
+          "type": "p",
+          "text": "The legal basis runs from Decree No. (42) of 2009 on the Abu Dhabi Environment, Health and Safety Management System Regulatory Framework, through Law No. (14) of 2019 establishing ADPHC, to Department of Health Chairman Resolution No. (43) of 2022 on the Abu Dhabi Public Health and Preventive Health System, which includes a chapter on OSH, as summarized in the [ADOSH-SF Manual](https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Manuals/Manual-Eng.pdf)."
+        }
+      ]
+    },
+    {
+      "id": "onshore-and-free-zones",
+      "heading": "How do federal law, emirate rules and free zones fit together?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The UAE is a federation of seven emirates, so an employer can face federal law, emirate level rules and, in some locations, a separate free zone regime at the same time. ADOSH-SF is an emirate level framework for Abu Dhabi that sits alongside federal requirements, and the Manual states that where it conflicts with any existing federal or emirate law or regulation, the more stringent requirement applies."
+        },
+        {
+          "type": "p",
+          "text": "Free zones are designated areas with their own licensing and, in the case of the financial free zones, their own civil and commercial law. Abu Dhabi Global Market (ADGM), for example, describes itself as an independent jurisdiction with direct application of English common law across Al Maryah and Al Reem Islands ([ADGM](https://www.adgm.com/about/jurisdiction)). The Manual says ADOSH-SF applies to all places of employment within the Emirate of Abu Dhabi, but an entity located in ADGM or another free zone should confirm with ADPHC or its sector regulatory authority which OSH requirements it has been nominated or notified under."
+        }
+      ]
+    },
+    {
+      "id": "who-it-applies-to",
+      "heading": "Who must comply, and how does risk classification change the training duty?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Every place of employment in Abu Dhabi is in scope, but the depth of the training obligation depends on the risk classification a sector regulatory authority (SRA) assigns. The Manual describes three levels, and it states that all entities, regardless of classification, must comply with the mandatory technical requirements, including Codes of Practice, that apply to their activities."
+        },
+        {
+          "type": "table",
+          "caption": "ADOSH-SF risk classification and the resulting training obligation (source: ADOSH-SF Manual section 1.8 and Mechanism 5.0, Version 4.0)",
+          "head": [
+            "Classification",
+            "What the entity must do",
+            "Training implication"
+          ],
+          "rows": [
+            [
+              "High risk (nominated)",
+              "Develop a fully compliant OSH management system, gain SRA approval, and employ at least one OSH Senior Practitioner registered under Mechanism 7.0",
+              "Full Element 5 procedures: training needs analysis, risk based plan, evaluation, competency procedure, annual review"
+            ],
+            [
+              "Medium risk (notified)",
+              "Meet Mechanism 5.0 and relevant Codes of Practice; employ at least one OSH General Practitioner if over 100 persons are employed",
+              "Five minimum training topics and a maintained training register"
+            ],
+            [
+              "Low risk (notified)",
+              "Be inspected for compliance within the timeframe the SRA sets",
+              "Codes of Practice that apply to the activity, including their training clauses"
+            ],
+            [
+              "Not yet nominated or notified",
+              "Strive to comply voluntarily unless ADPHC or an SRA directs otherwise",
+              "Codes of Practice still apply; Element 5 is good practice"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "SRAs are the sector bodies to which ADPHC delegates regulation, such as the Department of Energy, the Department of Health and the Department of Municipalities and Transport. In practice, the SRA's notification letter is the document that tells an entity which tier it is in."
+        }
+      ]
+    },
+    {
+      "id": "element-5-requirements",
+      "heading": "What does Element 5 require for training, awareness and competency?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Element 5 requires an entity to develop, implement and maintain appropriate OSH training and awareness procedures and appropriate OSH competency procedures, and it states that \"OSH training and awareness shall be risk-based\" and consider employees, contractors, visitors and other relevant stakeholders ([ADOSH-SF Management System Elements](https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Elements/Elements-Eng.pdf), Element 5, sections 2 and 3)."
+        },
+        {
+          "type": "p",
+          "text": "Section 3.1 requires the training procedure to identify and evaluate OSH training needs, for example through a [training needs analysis](/glossary/training-needs-analysis). The analysis must consider, as a minimum:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "OSH policy and management system training",
+            "competency requirements for identified roles or tasks",
+            "risk management requirements",
+            "requirements of relevant operational control procedures",
+            "OSH roles and responsibilities",
+            "OSH emergency response and management",
+            "OSH inductions, generic and site specific, including contractors and other persons",
+            "OSH consequences of not conforming to specified procedures",
+            "relevant subject specific OSH training, such as manual handling and safety in the heat",
+            "specialized task specific training, such as confined spaces and working at heights"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Identified requirements must then be evaluated and planned on risk, and the Element names an OSH [training matrix](/glossary/training-matrix) as an example. Planning must consider learning aims and objectives, level of responsibility and competence, frequency, training types, literacy, numeracy and language needs, course selection and material development, trainer competency, assessment activities, training records, and refresher requirements. After delivery, training must be evaluated for learning outcomes and for delivery, and training requirements must be reviewed at least annually."
+        },
+        {
+          "type": "p",
+          "text": "Section 3.2 adds a separate competency procedure. It must identify OSH competency requirements for all roles and tasks, measure individual competence against them, ensure people are competent on the basis of education, training or experience, record competencies, maintain and improve them, and review the procedure itself. This is the same distinction drawn in [completion tracking versus competency verification](/compare/completion-tracking-vs-competency-verification): attendance alone does not satisfy section 3.2."
+        },
+        {
+          "type": "callout",
+          "title": "Employer duty in Element 1",
+          "text": "Element 1, section 3.2.5, requires employers to provide \"such information, instruction, training and supervision to employees, as is appropriate to enable those persons to perform their work in a way that is safe and without risks to health (in appropriate languages)\". The language requirement matters in a workforce with many first languages."
+        }
+      ]
+    },
+    {
+      "id": "medium-risk-and-codes",
+      "heading": "What training do medium risk entities and the Codes of Practice require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Medium risk entities follow a shorter list. [Mechanism 5.0](https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Mechanisms/5---OSH-Req-Medium-Eng.pdf) requires them to ensure employee training that includes site specific OSH induction for new employees, task or equipment specific work rules and standard operating procedures, identified risks and hazards, hazardous substances, and first aid, fire and emergency response. They must maintain a training register, and the Mechanism's appendix gives a template recording date, employee, training type, hours attended, and employee and trainer signatures. Plant, equipment and tools must only be operated by competent persons."
+        },
+        {
+          "type": "p",
+          "text": "Codes of Practice set topic specific technical requirements and, according to ADPHC, are mandatory for all entities regardless of risk classification. Many include their own training clauses. [CoP 11.0 Safety in the Heat](https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Codes-of-Practise/11---Safety-in-the-Heat-v31-English.pdf), for example, requires training in a language employees understand before work in high temperature environments, and training within 10 days of starting employment and before the defined summer months on recognizing heat illness, hydration, acclimatization and rest breaks, calling for first aid, and the employer's heat stress program. Managers, supervisors and first aiders each have their own listed training content."
+        },
+        {
+          "type": "p",
+          "text": "One point often misread: [Mechanism 12.0](https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Mechanisms/12---Notification-Requirements--eng.pdf) on OSH awareness activities covers awareness delivered by SRAs and government entities to external stakeholders, not training for an entity's own employees. Internal training is governed by Element 5, Mechanism 5.0 and the Codes of Practice."
+        }
+      ]
+    },
+    {
+      "id": "obligation-to-evidence",
+      "heading": "How do ADOSH-SF training obligations map to learning outcomes and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each Element 5 requirement can be traced to a learning outcome and a piece of evidence an SRA auditor can inspect. The table below is an original mapping, illustrative rather than official, of the requirements most often examined."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: ADOSH-SF obligation to learning outcome to assessment evidence",
+          "head": [
+            "Obligation (source)",
+            "Learning outcome",
+            "Assessment evidence"
+          ],
+          "rows": [
+            [
+              "Training needs analysis covering the ten minimum topics (Element 5, 3.1(a)(ii))",
+              "Not a learner outcome: an entity level analysis",
+              "Documented TNA per role, cross referenced to the risk register"
+            ],
+            [
+              "Risk based training plan (Element 5, 3.1(a)(iii))",
+              "Each role receives training proportionate to its hazards",
+              "OSH training matrix with frequency and refresher intervals"
+            ],
+            [
+              "Generic and site specific inductions (Element 5, 3.1(a)(ii)7; Mechanism 5.0)",
+              "New starters and contractors can identify site hazards, emergency routes and stop work authority",
+              "Signed induction record and short knowledge check"
+            ],
+            [
+              "Task specific training such as confined spaces (Element 5, 3.1(a)(ii)10)",
+              "Worker can apply the permit, isolation and rescue controls for the task",
+              "Practical assessment by a competent assessor, recorded against the task"
+            ],
+            [
+              "Evaluation of learning outcomes (Element 5, 3.1(a)(v))",
+              "Learners meet the stated objectives",
+              "Assessment results and delivery feedback, retained with the course version"
+            ],
+            [
+              "Competency procedure (Element 5, 3.2)",
+              "Competence is shown, not assumed",
+              "Competency records per role, with reassessment dates"
+            ],
+            [
+              "Heat training before summer (CoP 11.0, 2(d))",
+              "Worker recognizes heat illness signs and knows the hydration and rest rules",
+              "Dated training record showing completion within 10 days of start and before summer"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For how to keep these records ready for an SRA audit, see [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit) and [how to set up verification of competency](/guides/how-to-set-up-verification-of-competency)."
+        }
+      ]
+    },
+    {
+      "id": "building-the-program",
+      "heading": "How should an Abu Dhabi employer build its OSH training program?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Start with the classification the SRA has given the entity, then build down from Element 5 or Mechanism 5.0 and add every applicable Code of Practice. A practical sequence:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Confirm the risk classification and the SRA from the official nomination or notification, and record which ADOSH-SF version each procedure references.",
+            "List the Codes of Practice relevant to the entity's activities and extract each one's training clauses into a single [compliance obligations register](/glossary/compliance-obligations-register).",
+            "Run the training needs analysis against the ten Element 5 topics for each role, including contractors and visitors.",
+            "Build the training matrix, set frequencies and refresher intervals, and plan for the literacy and language needs of the workforce.",
+            "Define assessment for each course and a competency standard for each safety critical task.",
+            "Evaluate outcomes after delivery and review all training requirements at least once a year, and again when ADPHC issues a new document version."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Organizations already certified to ISO 45001 will recognize most of this. The Manual notes that an OSH management system built to ADOSH-SF will include components of standards such as ISO 45001, and the competence clauses are compared in [ISO 45001 competence and awareness](/regulations/iso-45001-competence-and-awareness). ADOSH-SF is more prescriptive on the content of the needs analysis and on the annual review."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models each ADOSH-SF element, mechanism and Code of Practice clause as an obligation linked to roles, learning outcomes and assessment points before any content is written. When ADPHC revises a document, as it did for several Codes of Practice in February 2026, the affected courses and competency records can be identified from those links rather than by manual review."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is OSHAD-SF the same as ADOSH-SF?",
+      "a": "Yes. ADOSH-SF is the renamed framework. Version 4.0, effective 15 July 2024, changed the acronym from OSHAD-SF to ADOSH-SF and replaced references to the former Abu Dhabi Occupational Safety and Health Center with the Abu Dhabi Public Health Center. Entities with an already approved system did not need to resubmit it, but should keep procedures aligned with the published version."
+    },
+    {
+      "q": "How often must OSH training be refreshed under ADOSH-SF?",
+      "a": "Element 5 does not set a single refresher interval. It requires entities to plan refresher requirements and frequency based on risk and to review training requirements at least annually. Individual Codes of Practice can add timing rules, such as heat training within 10 days of starting employment and before the summer months under CoP 11.0."
+    },
+    {
+      "q": "Does ADOSH-SF training have to be delivered in Arabic?",
+      "a": "Not specifically. Element 1 requires information, instruction, training and supervision in appropriate languages, Element 5 requires planning for literacy, numeracy and language needs, and CoP 11.0 requires heat training in a language employees understand. The test is comprehension by the actual workforce, not a single prescribed language."
+    },
+    {
+      "q": "Who can deliver OSH training in Abu Dhabi?",
+      "a": "Element 5 requires entities to consider trainer competency when planning training. Separately, Mechanism 7.0 sets registration for OSH practitioners and service providers, reissued in April 2026, and CoP 11.0 cross refers to it for OSH training. Confirm with the relevant SRA whether a particular external provider must hold registration for the course being delivered."
+    },
+    {
+      "q": "Do contractors need to be trained under the employer's system?",
+      "a": "Yes. Element 5 aims to ensure all employees, contractors and visitors receive appropriate OSH training, and inductions must cover contractors and other persons. Element 3 on contractor management also requires entities to include minimum OSH training and competency requirements in tender and specification documents."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ADOSH-SF Management System Elements, Version 4.0",
+      "publisher": "Abu Dhabi Public Health Center (ADPHC)",
+      "url": "https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Elements/Elements-Eng.pdf"
+    },
+    {
+      "title": "ADOSH-SF Manual, Version 4.0",
+      "publisher": "Abu Dhabi Public Health Center (ADPHC)",
+      "url": "https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Manuals/Manual-Eng.pdf"
+    },
+    {
+      "title": "ADOSH-SF Version 4.0 updates",
+      "publisher": "Abu Dhabi Public Health Center (ADPHC)",
+      "url": "https://www.adphc.gov.ae/en/Legislation/legislation-V4-updates"
+    },
+    {
+      "title": "ADOSH-SF Elements",
+      "publisher": "Abu Dhabi Public Health Center (ADPHC)",
+      "url": "https://www.adphc.gov.ae/en/Legislation/Elements"
+    },
+    {
+      "title": "ADOSH-SF Codes of Practice",
+      "publisher": "Abu Dhabi Public Health Center (ADPHC)",
+      "url": "https://www.adphc.gov.ae/en/Legislation/Code-of-Practices"
+    },
+    {
+      "title": "ADOSH-SF Mechanisms",
+      "publisher": "Abu Dhabi Public Health Center (ADPHC)",
+      "url": "https://www.adphc.gov.ae/en/Legislation/Mechanisms"
+    },
+    {
+      "title": "Mechanism 5.0: OSH Requirements for Medium Risk Entities, Version 4.0",
+      "publisher": "Abu Dhabi Public Health Center (ADPHC)",
+      "url": "https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Mechanisms/5---OSH-Req-Medium-Eng.pdf"
+    },
+    {
+      "title": "Mechanism 12.0: Notification Requirements for OSH Awareness Activities, Version 4.0",
+      "publisher": "Abu Dhabi Public Health Center (ADPHC)",
+      "url": "https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Mechanisms/12---Notification-Requirements--eng.pdf"
+    },
+    {
+      "title": "Code of Practice 11.0: Safety in the Heat, Version 4.0",
+      "publisher": "Abu Dhabi Public Health Center (ADPHC)",
+      "url": "https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Codes-of-Practise/11---Safety-in-the-Heat-v31-English.pdf"
+    },
+    {
+      "title": "ADGM jurisdiction",
+      "publisher": "Abu Dhabi Global Market (ADGM)",
+      "url": "https://www.adgm.com/about/jurisdiction"
+    }
+  ],
+  "related": [
+    "iso-45001-competence-and-awareness",
+    "training-needs-analysis",
+    "training-matrix",
+    "how-to-set-mandatory-training-refresh-cycles",
+    "how-to-set-up-verification-of-competency",
+    "completion-tracking-vs-competency-verification"
+  ],
+  "productLinks": [
+    {
+      "label": "Energy and resources",
+      "href": "/industries/energy-resources"
+    },
+    {
+      "label": "Operational procedures programs",
+      "href": "/programs/operational-procedures"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 99,
+  "factCheck": [
+    {
+      "claim": "Version 4.0 renamed OSHAD-SF to ADOSH-SF and replaced the OSHAD center name with ADPHC; approved systems need not be resubmitted",
+      "source": "https://www.adphc.gov.ae/en/Legislation/legislation-V4-updates"
+    },
+    {
+      "claim": "Elements, Manual and most Mechanisms and Codes of Practice are Version 4.0 effective 15 July 2024; several CoPs are V4.1 effective 27 February 2026; Mechanism 7.0 to 7.3 effective 7 April 2026",
+      "source": "https://www.adphc.gov.ae/en/Legislation/Code-of-Practices"
+    },
+    {
+      "claim": "Element 5 requires OSH training and awareness procedures and competency procedures, a TNA with ten minimum topics, risk based planning (e.g. OSH training matrix), ten planning considerations, evaluation of learning outcomes and delivery, and review of training requirements at least annually",
+      "source": "https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Elements/Elements-Eng.pdf"
+    },
+    {
+      "claim": "Element 1 section 3.2.5(b)(vii) requires employers to provide information, instruction, training and supervision in appropriate languages; section 3.2.1 names ADPHC as Competent Authority",
+      "source": "https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Elements/Elements-Eng.pdf"
+    },
+    {
+      "claim": "Manual: ADOSH-SF applies to all places of employment in the Emirate; more stringent requirement applies on conflict; three risk classifications with Senior Practitioner (high risk) and General Practitioner over 100 persons (medium risk); legal history Decree 42/2009, Law 14/2019, DoH Resolution 43/2022",
+      "source": "https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Manuals/Manual-Eng.pdf"
+    },
+    {
+      "claim": "Mechanism 5.0 lists five minimum training topics for medium risk entities and requires a training register",
+      "source": "https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Mechanisms/5---OSH-Req-Medium-Eng.pdf"
+    },
+    {
+      "claim": "CoP 11.0 requires heat training before work in a language employees understand and within 10 days of starting employment and prior to the summer months",
+      "source": "https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Codes-of-Practise/11---Safety-in-the-Heat-v31-English.pdf"
+    },
+    {
+      "claim": "Codes of practice are mandatory to all entities regardless of risk classification",
+      "source": "https://www.adphc.gov.ae/en/Legislation/Code-of-Practices"
+    },
+    {
+      "claim": "Mechanism 12.0 covers awareness activities by SRAs and government entities to external stakeholders, not their own employees",
+      "source": "https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Mechanisms/12---Notification-Requirements--eng.pdf"
+    },
+    {
+      "claim": "ADGM is an independent jurisdiction with direct application of English common law across Al Maryah and Al Reem Islands",
+      "source": "https://www.adgm.com/about/jurisdiction"
+    }
+  ]
+}

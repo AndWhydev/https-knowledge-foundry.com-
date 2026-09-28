@@ -27,12 +27,12 @@ const capabilities = [
   {
     icon: <Package className="h-5 w-5" />,
     title: "SCORM 1.2 export",
-    desc: "Structured programmes export to SCORM 1.2 packages for deployment into any conformant enterprise LMS. No manual reconstruction required.",
+    desc: "Structured programs export to SCORM 1.2 packages for deployment into any conformant enterprise LMS. No manual reconstruction required.",
   },
   {
     icon: <Cable className="h-5 w-5" />,
     title: "Delivery driven by API",
-    desc: "The Foundry is API first and multi tenant. Programmes, blocks, provenance, and integrity data are accessible programmatically for bespoke delivery layers.",
+    desc: "The Foundry is API first and multi tenant. Programs, blocks, provenance, and integrity data are accessible programmatically for bespoke delivery layers.",
   },
   {
     icon: <Boxes className="h-5 w-5" />,
@@ -77,27 +77,27 @@ const steps = [
 const faq = [
   {
     q: "We already run a large enterprise LMS. Do we have to replace it?",
-    a: "No. Knowledge Foundry integrates into your existing environment via SCORM 1.2, structured HTML, JSON, or API. Programmes deploy in standardised formats aligned to enterprise LMS expectations. No rebuilding. No forklift. The Foundry becomes the source of truth for structure and integrity. The LMS remains the delivery surface.",
+    a: "No. Knowledge Foundry integrates into your existing environment via SCORM 1.2, structured HTML, JSON, or API. Programs deploy in standardized formats aligned to enterprise LMS expectations. No rebuilding. No forklift. The Foundry becomes the source of truth for structure and integrity. The LMS remains the delivery surface.",
   },
   {
     q: "Which LMS platforms are supported?",
-    a: "Any LMS that conforms to SCORM 1.2, which covers the majority of enterprise deployments. Native LearnPress deployment is supported for organisations using the white label path. Custom LMS environments are supported via structured HTML and API integration.",
+    a: "Any LMS that conforms to SCORM 1.2, which covers the majority of enterprise deployments. Native LearnPress deployment is supported for organizations using the white label path. Custom LMS environments are supported via structured HTML and API integration.",
   },
   {
-    q: "What happens to integrity when a programme leaves the Foundry?",
-    a: "Foundry Hash values travel with the exported programme. Recipients (LMS platforms, downstream systems, auditors) can independently confirm that what they received matches what was released. Integrity does not degrade at the export boundary.",
+    q: "What happens to integrity when a program leaves the Foundry?",
+    a: "Foundry Hash values travel with the exported program. Recipients (LMS platforms, downstream systems, auditors) can independently confirm that what they received matches what was released. Integrity does not degrade at the export boundary.",
   },
   {
     q: "Can we deploy without an LMS at all?",
     a: "Yes. The white label LMS is a complete delivery environment: Studio authoring, review queue, compliance dashboard, standards manager, analytics and telemetry, learner enhancement tools, and role and license management. Deployed on your domain with your branding. Suitable when no incumbent LMS exists or when full control is a requirement.",
   },
   {
-    q: "How are revisions handled once a programme is deployed to an external LMS?",
+    q: "How are revisions handled once a program is deployed to an external LMS?",
     a: "Regeneration can occur at the course, module, lesson, or block level without affecting adjacent content. Revisions do not push live automatically. A manual sync is required after regeneration, so release remains controlled. Each deployed version is identified by immutable course hash.",
   },
   {
     q: "Is API access ready for production?",
-    a: "Yes. The API is production grade, multi tenant, and covers programme lifecycle operations, access at the block level, provenance retrieval, and integrity verification. It is the same interface the platform uses internally. Full documentation is available under a mutual non-disclosure agreement.",
+    a: "Yes. The API is production grade, multi tenant, and covers program lifecycle operations, access at the block level, provenance retrieval, and integrity verification. It is the same interface the platform uses internally. Full documentation is available under a mutual non-disclosure agreement.",
   },
 ];
 
@@ -116,8 +116,8 @@ const related = [
   },
   {
     eyebrow: "Adjacent",
-    title: "Enterprise modernisation",
-    desc: "When integration serves a larger modernisation of an existing learning ecosystem.",
+    title: "Enterprise modernization",
+    desc: "When integration serves a larger modernization of an existing learning ecosystem.",
     href: "/platform/enterprise-learning-modernisation",
   },
 ];
@@ -144,10 +144,10 @@ export default function IntegrationsPage() {
 
       <ProseBlock
         eyebrow="Why this matters"
-        title="Two paths. Both preserve the structure that makes the programme defensible."
+        title="Two paths. Both preserve the structure that makes the program defensible."
       >
         <p>
-          Most organisations fall into one of two categories. Those with an
+          Most organizations fall into one of two categories. Those with an
           established LMS that must not be disrupted, and those that need a
           complete, high integrity delivery environment of their own. Knowledge
           Foundry supports both, and the choice is genuinely a choice. Neither
@@ -158,7 +158,7 @@ export default function IntegrationsPage() {
           SCORM, structured HTML, JSON, or API. No rebuilding.{" "}
           <strong>Path two:</strong> deploy the white label LMS. A complete
           structured learning stack on your domain, with your branding. Both
-          paths route programmes through the same authoring, review, and
+          paths route programs through the same authoring, review, and
           governance discipline behind them.
         </p>
       </ProseBlock>
@@ -183,7 +183,7 @@ export default function IntegrationsPage() {
         title="Delivery that matches your environment, not the other way around."
       >
         <p>
-          Programmes deploy in the format your environment expects. Version
+          Programs deploy in the format your environment expects. Version
           precision is guaranteed by immutable course hash identity. Structural
           integrity, meaning logic, dependencies, and validation points, remains
           functional in your chosen delivery surface without degradation. The
@@ -192,9 +192,9 @@ export default function IntegrationsPage() {
         </p>
         <p>
           <strong>Your domain. Your branding. Your access controls.</strong> Or
-          your existing LMS, unchanged, with structured programmes deploying
-          into it cleanly. Either way, the programme that reaches learners is
-          the programme that was approved for release.
+          your existing LMS, unchanged, with structured programs deploying
+          into it cleanly. Either way, the program that reaches learners is
+          the program that was approved for release.
         </p>
       </ProseBlock>
 

@@ -25,7 +25,7 @@ const handling = [
   {
     icon: <Database className="h-5 w-5" />,
     title: "What we process",
-    desc: "Source documents you upload, framework artefacts produced from them, generated instructional content, review history, evidence artefacts, and account metadata for the users you authorise.",
+    desc: "Source documents you upload, framework artifacts produced from them, generated instructional content, review history, evidence artifacts, and account metadata for the users you authorize.",
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
@@ -45,7 +45,7 @@ const handling = [
   {
     icon: <FileCheck2 className="h-5 w-5" />,
     title: "Deletion",
-    desc: "Deletion initiated by the customer is honoured on documented workflows. Full tenant deletion propagates to backups on the backup cycle schedule, with a written completion notice on request.",
+    desc: "Deletion initiated by the customer is honored on documented workflows. Full tenant deletion propagates to backups on the backup cycle schedule, with a written completion notice on request.",
   },
   {
     icon: <Scale className="h-5 w-5" />,
@@ -80,7 +80,7 @@ const subprocessors = [
 const related = [
   {
     eyebrow: "Trust",
-    title: "Trust Centre overview",
+    title: "Trust Center overview",
     desc: "The full posture at a glance: security, compliance, and data handling.",
     href: "/trust",
   },
@@ -113,7 +113,7 @@ export default function CompliancePosturePage() {
             <span className="text-[color:var(--color-forge)]">the platform.</span>
           </>
         }
-        lede="Data handling, subprocessors, privacy programme, DPA, retention, residency, and cross border transfers, described in one place, in the terms your procurement, privacy, and legal teams already use."
+        lede="Data handling, subprocessors, privacy program, DPA, retention, residency, and cross border transfers, described in one place, in the terms your procurement, privacy, and legal teams already use."
         primaryCta={{ label: "Request DPA and subprocessor register", href: "/demonstration" }}
         secondaryCta={{ label: "Read the privacy policy", href: "/privacy" }}
       />
@@ -162,11 +162,11 @@ export default function CompliancePosturePage() {
       </Section>
 
       <ProseBlock
-        eyebrow="Privacy programme"
-        title="How the privacy programme is run in practice."
+        eyebrow="Privacy program"
+        title="How the privacy program is run in practice."
       >
         <p>
-          Our privacy programme is operated under the Australian Privacy Act
+          Our privacy program is operated under the Australian Privacy Act
           1988 and the Australian Privacy Principles. A named privacy contact
           receives requests from customers and, where relevant, from data
           subjects on customers' behalf. Requests to access, correct, or delete
@@ -186,7 +186,7 @@ export default function CompliancePosturePage() {
         <p>
           Our DPA is available on request and can be executed alongside the
           master services agreement. It covers the controller/processor
-          relationship, subprocessor authorisation, security obligations, breach
+          relationship, subprocessor authorization, security obligations, breach
           notification, mechanisms for cross border transfers, audit rights, and
           deletion or return of data on termination.
         </p>
