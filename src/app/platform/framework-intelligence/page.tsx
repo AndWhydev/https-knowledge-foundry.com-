@@ -11,9 +11,9 @@ import { HeroTerminal } from "@/components/heros/hero-terminal";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/platform/framework-intelligence" },
-  title: "Framework Intelligence. Structure the subject before writing",
+  title: "Framework Intelligence for L&D teams",
   description:
-    "Framework Intelligence maps concepts, relationships, progression, and assessment logic. Instruction is written after that, not before. Structure governs everything downstream.",
+    "Framework Intelligence maps concepts, relationships, progression, and assessment logic before any instruction is written, so structure governs the rest.",
 };
 
 const capabilities = [

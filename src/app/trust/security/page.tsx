@@ -20,9 +20,9 @@ import { Related } from "@/components/solution/related";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/trust/security" },
-  title: "Security. Threat model, controls, and disclosure",
+  title: "Security: controls and disclosure",
   description:
-    "How Knowledge Foundry is engineered against a stated threat model: encryption, access controls, backups, incident response, and the responsible disclosure policy.",
+    "How Knowledge Foundry is engineered against a stated threat model: encryption, access controls, backups, incident response, and responsible disclosure.",
 };
 
 const threats = [

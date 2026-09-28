@@ -18,9 +18,9 @@ import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/programs/educational" },
-  title: "Educational Programs. Structured for understanding, not attendance",
+  title: "Educational programs and curricula",
   description:
-    "Subjects mapped into structured curricula. Progression is deliberate, assessment is integrated, and coverage is systematic. Each module traces back to a defined outcome.",
+    "Subjects mapped into structured curricula with deliberate progression, integrated assessment and systematic coverage. Each module traces to a defined outcome.",
 };
 
 const capabilities = [

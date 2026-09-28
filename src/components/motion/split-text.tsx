@@ -89,6 +89,7 @@ export function SplitText({
       {words.map((w, i) => (
         <Fragment key={i}>
           <motion.span
+            data-reveal=""
             variants={word}
             className={cn("inline-block", w.className)}
             aria-hidden

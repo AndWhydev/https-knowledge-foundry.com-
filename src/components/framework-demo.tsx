@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, AnimatePresence, useReducedMotion } from "motion/react";
+import { motion, AnimatePresence, useReducedMotion, useInView } from "motion/react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowRight, Check, Layers3, Fingerprint, Sparkles } from "lucide-react";
 import Link from "next/link";
@@ -108,6 +108,11 @@ type Phase = "typing" | "extracting" | "structuring" | "verifying" | "complete";
 
 export function FrameworkDemo() {
   const reduce = useReducedMotion();
+  // Only run the scripted loop while the demo is on screen; it re-renders every
+  // few milliseconds while typing, which is wasted work (and hydration-time jank
+  // on phones) when nobody can see it.
+  const rootRef = useRef<HTMLDivElement>(null);
+  const inView = useInView(rootRef, { margin: "100px 0px" });
   const [scenarioIndex, setScenarioIndex] = useState(0);
   const scenario = scenarios[scenarioIndex];
 
@@ -119,6 +124,7 @@ export function FrameworkDemo() {
 
   // Auto-advance the scripted timeline
   useEffect(() => {
+    if (!reduce && !inView) return;
     if (reduce) {
       // Skip animation for reduced motion — show completed state
       setCharCount(scenario.source.length);
@@ -201,133 +207,135 @@ export function FrameworkDemo() {
       timers.forEach((t) => clearTimeout(t));
       cancelAnimationFrame(raf);
     };
-  }, [scenarioIndex, reduce, scenario.source.length, scenario.concepts.length, scenario.edges.length, scenario.verifiedIndex.length, scenario.source]);
+  }, [inView, scenarioIndex, reduce, scenario.source.length, scenario.concepts.length, scenario.edges.length, scenario.verifiedIndex.length, scenario.source]);
 
   const typedText = useMemo(() => scenario.source.slice(0, charCount), [scenario.source, charCount]);
 
   return (
-    <Section className="relative overflow-hidden bg-[color:var(--color-canvas-warm)]" spacing="loose">
-      <div className="absolute inset-0 -z-10 grid-lattice opacity-40" aria-hidden />
-      <Container>
-        <div className="mb-14 max-w-[720px]">
-          <Eyebrow>Live · The Foundry, on your material</Eyebrow>
-          <SplitText as="h2" className="text-display-2 mt-5 max-w-[16ch]" stagger={0.05}>
-            Watch the framework build itself.
-          </SplitText>
-          <Reveal delay={0.35}>
-            <p className="text-lede mt-6 max-w-[52ch]">
-              A live illustration of what happens when the Foundry meets your source
-              material, cycling through three real-world subjects. In a real
-              engagement, you bring the policy. It builds the framework.
-            </p>
-          </Reveal>
-        </div>
-
-        <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] gap-6 items-start">
-          {/* LEFT: source input pane */}
-          <div className="relative rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white overflow-hidden">
-            <div className="flex items-center justify-between px-5 py-3 border-b border-[color:var(--color-hairline)] bg-[color:var(--color-canvas-tint)]">
-              <div className="flex items-center gap-2 text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-ink-faint)]">
-                <span className="inline-block h-1.5 w-1.5 rounded-full bg-[color:var(--color-forge)]" style={{ animation: "forge-glow 2s ease-in-out infinite" }} />
-                Source
-              </div>
-              <AnimatePresence mode="wait">
-                <motion.div
-                  key={scenario.domain}
-                  initial={{ opacity: 0, y: 4 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: -4 }}
-                  transition={{ duration: 0.3 }}
-                  className="text-[11px] font-medium text-[color:var(--color-ink-soft)] font-[family-name:var(--font-jetbrains)] tracking-[0.05em]"
-                >
-                  {scenario.domain}
-                </motion.div>
-              </AnimatePresence>
-            </div>
-            <div className="p-5 min-h-[280px] md:min-h-[340px] font-[family-name:var(--font-jetbrains)] text-[13px] leading-[1.7] text-[color:var(--color-ink-soft)] relative">
-              <AnimatePresence mode="wait">
-                <motion.div
-                  key={scenarioIndex}
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{ opacity: 0 }}
-                  transition={{ duration: 0.25 }}
-                >
-                  {typedText}
-                  {phase === "typing" && (
-                    <span className="inline-block w-[8px] h-[16px] align-middle -mt-1 bg-[color:var(--color-forge)] animate-pulse" />
-                  )}
-                </motion.div>
-              </AnimatePresence>
-            </div>
-            <div className="flex items-center justify-between px-5 py-3 border-t border-[color:var(--color-hairline)] text-[11px] text-[color:var(--color-ink-faint)] font-[family-name:var(--font-jetbrains)] tracking-[0.05em]">
-              <span>{scenario.standard}</span>
-              <span>{scenario.source.length} chars</span>
-            </div>
+    <div ref={rootRef}>
+      <Section className="relative overflow-hidden bg-[color:var(--color-canvas-warm)]" spacing="loose">
+        <div className="absolute inset-0 -z-10 grid-lattice opacity-40" aria-hidden />
+        <Container>
+          <div className="mb-14 max-w-[720px]">
+            <Eyebrow>Live · The Foundry, on your material</Eyebrow>
+            <SplitText as="h2" className="text-display-2 mt-5 max-w-[16ch]" stagger={0.05}>
+              Watch the framework build itself.
+            </SplitText>
+            <Reveal delay={0.35}>
+              <p className="text-lede mt-6 max-w-[52ch]">
+                A live illustration of what happens when the Foundry meets your source
+                material, cycling through three real-world subjects. In a real
+                engagement, you bring the policy. It builds the framework.
+              </p>
+            </Reveal>
           </div>
 
-          {/* RIGHT: framework canvas */}
-          <div className="relative rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-[color:var(--color-ink)] text-white overflow-hidden">
-            <div className="flex items-center justify-between px-5 py-3 border-b border-white/8 bg-white/[0.02]">
-              <div className="flex items-center gap-2 text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-white/50">
-                <PhaseIndicator phase={phase} />
-                Framework
+          <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] gap-6 items-start">
+            {/* LEFT: source input pane */}
+            <div className="relative rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white overflow-hidden">
+              <div className="flex items-center justify-between px-5 py-3 border-b border-[color:var(--color-hairline)] bg-[color:var(--color-canvas-tint)]">
+                <div className="flex items-center gap-2 text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-ink-faint)]">
+                  <span className="inline-block h-1.5 w-1.5 rounded-full bg-[color:var(--color-forge)]" style={{ animation: "forge-glow 2s ease-in-out infinite" }} />
+                  Source
+                </div>
+                <AnimatePresence mode="wait">
+                  <motion.div
+                    key={scenario.domain}
+                    initial={{ opacity: 0, y: 4 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -4 }}
+                    transition={{ duration: 0.3 }}
+                    className="text-[11px] font-medium text-[color:var(--color-ink-soft)] font-[family-name:var(--font-jetbrains)] tracking-[0.05em]"
+                  >
+                    {scenario.domain}
+                  </motion.div>
+                </AnimatePresence>
               </div>
-              <div className="flex items-center gap-1.5">
-                {scenarios.map((_, i) => (
-                  <button
-                    key={i}
-                    aria-label={`Scenario ${i + 1}`}
-                    onClick={() => setScenarioIndex(i)}
-                    className={cn(
-                      "h-1 rounded-full transition-all",
-                      i === scenarioIndex
-                        ? "w-6 bg-[color:var(--color-forge)]"
-                        : "w-3 bg-white/15 hover:bg-white/30",
+              <div className="p-5 min-h-[280px] md:min-h-[340px] font-[family-name:var(--font-jetbrains)] text-[13px] leading-[1.7] text-[color:var(--color-ink-soft)] relative">
+                <AnimatePresence mode="wait">
+                  <motion.div
+                    key={scenarioIndex}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 0.25 }}
+                  >
+                    {typedText}
+                    {phase === "typing" && (
+                      <span className="inline-block w-[8px] h-[16px] align-middle -mt-1 bg-[color:var(--color-forge)] animate-pulse" />
                     )}
-                  />
-                ))}
+                  </motion.div>
+                </AnimatePresence>
+              </div>
+              <div className="flex items-center justify-between px-5 py-3 border-t border-[color:var(--color-hairline)] text-[11px] text-[color:var(--color-ink-faint)] font-[family-name:var(--font-jetbrains)] tracking-[0.05em]">
+                <span>{scenario.standard}</span>
+                <span>{scenario.source.length} chars</span>
               </div>
             </div>
 
-            {/* Canvas */}
-            <div className="relative aspect-[4/3] md:aspect-[5/4] w-full">
-              <FrameworkCanvas
-                scenario={scenario}
-                conceptsShown={conceptsShown}
-                edgesShown={edgesShown}
-                verifiedShown={verifiedShown}
-              />
-            </div>
+            {/* RIGHT: framework canvas */}
+            <div className="relative rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-[color:var(--color-ink)] text-white overflow-hidden">
+              <div className="flex items-center justify-between px-5 py-3 border-b border-white/8 bg-white/[0.02]">
+                <div className="flex items-center gap-2 text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-white/50">
+                  <PhaseIndicator phase={phase} />
+                  Framework
+                </div>
+                <div className="flex items-center gap-1.5">
+                  {scenarios.map((_, i) => (
+                    <button
+                      key={i}
+                      aria-label={`Scenario ${i + 1}`}
+                      onClick={() => setScenarioIndex(i)}
+                      className={cn(
+                        "h-1 rounded-full transition-all",
+                        i === scenarioIndex
+                          ? "w-6 bg-[color:var(--color-forge)]"
+                          : "w-3 bg-white/15 hover:bg-white/30",
+                      )}
+                    />
+                  ))}
+                </div>
+              </div>
 
-            {/* Metrics strip */}
-            <div className="grid grid-cols-3 border-t border-white/8 divide-x divide-white/8 text-white/60">
-              <MetricPill label="Concepts" value={conceptsShown} active={phase === "extracting"} />
-              <MetricPill label="Relationships" value={edgesShown} active={phase === "structuring"} />
-              <MetricPill label="Verified" value={verifiedShown} active={phase === "verifying" || phase === "complete"} />
+              {/* Canvas */}
+              <div className="relative aspect-[4/3] md:aspect-[5/4] w-full">
+                <FrameworkCanvas
+                  scenario={scenario}
+                  conceptsShown={conceptsShown}
+                  edgesShown={edgesShown}
+                  verifiedShown={verifiedShown}
+                />
+              </div>
+
+              {/* Metrics strip */}
+              <div className="grid grid-cols-3 border-t border-white/8 divide-x divide-white/8 text-white/60">
+                <MetricPill label="Concepts" value={conceptsShown} active={phase === "extracting"} />
+                <MetricPill label="Relationships" value={edgesShown} active={phase === "structuring"} />
+                <MetricPill label="Verified" value={verifiedShown} active={phase === "verifying" || phase === "complete"} />
+              </div>
             </div>
           </div>
-        </div>
 
-        <Reveal delay={0.2}>
-          <div className="mt-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-            <p className="text-[13px] text-[color:var(--color-ink-muted)] max-w-[46ch] leading-relaxed">
-              An illustrative loop. In a real engagement, the Foundry runs on your material,
-              and the framework it produces is yours to keep.
-            </p>
-            <Magnetic strength={0.22}>
-              <Link
-                href="/demonstration"
-                className="group inline-flex items-center gap-2 rounded-[var(--radius-md)] bg-[color:var(--color-ink)] text-white px-6 h-12 text-[14px] font-medium hover:bg-[color:var(--color-forge)] transition-colors"
-              >
-                Run it on your policy
-                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden />
-              </Link>
-            </Magnetic>
-          </div>
-        </Reveal>
-      </Container>
-    </Section>
+          <Reveal delay={0.2}>
+            <div className="mt-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+              <p className="text-[13px] text-[color:var(--color-ink-muted)] max-w-[46ch] leading-relaxed">
+                An illustrative loop. In a real engagement, the Foundry runs on your material,
+                and the framework it produces is yours to keep.
+              </p>
+              <Magnetic strength={0.22}>
+                <Link
+                  href="/demonstration"
+                  className="group inline-flex items-center gap-2 rounded-[var(--radius-md)] bg-[color:var(--color-ink)] text-white px-6 h-12 text-[14px] font-medium hover:bg-[color:var(--color-forge)] transition-colors"
+                >
+                  Run it on your policy
+                  <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden />
+                </Link>
+              </Magnetic>
+            </div>
+          </Reveal>
+        </Container>
+      </Section>
+    </div>
   );
 }
 

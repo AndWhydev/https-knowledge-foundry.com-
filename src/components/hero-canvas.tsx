@@ -24,7 +24,11 @@ export function HeroCanvas() {
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
-    const dpr = Math.min(2, window.devicePixelRatio || 1);
+    // Phones: 1x backing store and ~24fps. The cursor effects do nothing on
+    // touch, and a full-screen 2x canvas at 60fps starves the main thread.
+    const coarse = window.matchMedia("(pointer: coarse)").matches;
+    const dpr = coarse ? 1 : Math.min(2, window.devicePixelRatio || 1);
+    const minFrameMs = coarse ? 1000 / 24 : 0;
     let width = 0;
     let height = 0;
     const resize = () => {
@@ -149,6 +153,10 @@ export function HeroCanvas() {
     let raf = 0;
     let last = 0;
     const frame = (t: number) => {
+      if (t - last < minFrameMs) {
+        raf = requestAnimationFrame(frame);
+        return;
+      }
       // ease cursor
       mx += (tmx - mx) * 0.08;
       my += (tmy - my) * 0.08;
@@ -180,21 +188,26 @@ export function HeroCanvas() {
       drawSpotlight();
       ctx.fillStyle = noisePattern;
       ctx.fillRect(0, 0, width, height);
-    } else {
-      raf = requestAnimationFrame(frame);
     }
 
-    const onVis = () => {
-      if (document.hidden) {
-        if (raf) cancelAnimationFrame(raf);
-      } else if (!reduce) {
-        raf = requestAnimationFrame(frame);
-      }
+    // Only animate while the hero is on screen and the tab is visible.
+    let onScreen = true;
+    const sync = () => {
+      if (raf) cancelAnimationFrame(raf);
+      raf = 0;
+      if (!reduce && onScreen && !document.hidden) raf = requestAnimationFrame(frame);
     };
+    const io = new IntersectionObserver(([entry]) => {
+      onScreen = entry.isIntersecting;
+      sync();
+    });
+    io.observe(canvas);
+    const onVis = () => sync();
     document.addEventListener("visibilitychange", onVis);
 
     return () => {
       cancelAnimationFrame(raf);
+      io.disconnect();
       ro.disconnect();
       parent.removeEventListener("mousemove", onMove);
       document.removeEventListener("visibilitychange", onVis);

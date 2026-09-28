@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/insights/why-training-fails-audits" },
   title: "Why training fails audits",
   description:
-    "Audit failures trace back to knowledge structure, not content quality. The case for design that begins with audit in regulated training programmes.",
+    "Audit failures trace back to knowledge structure, not content quality. The case for designing regulated training with the audit in mind.",
 };
 
 const toc = [

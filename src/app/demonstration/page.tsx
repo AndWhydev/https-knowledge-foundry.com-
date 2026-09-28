@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/demonstration" },
   title: "Request a demonstration",
   description:
-    "Bring a subject. Leave with a framework. A 45 minute working session on a real programme you own. You see the platform operate on your material and keep what it produces.",
+    "A 45 minute working session on a real programme you own. See the platform operate on your material, and keep the framework it produces.",
 };
 
 const bring = [

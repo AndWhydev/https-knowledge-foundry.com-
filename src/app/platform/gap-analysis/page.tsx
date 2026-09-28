@@ -18,9 +18,9 @@ import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/platform/gap-analysis" },
-  title: "Gap Analysis. Find the silent holes in your training library",
+  title: "Gap Analysis: find training gaps",
   description:
-    "Compare existing courses, policies, and procedures against the framework they should cover. Coverage is analysed at explicit, semantic, hierarchical, evidential, and structural levels, rather than by keyword.",
+    "Compare existing courses, policies, and procedures against the framework they should cover, analysing coverage semantically and structurally, not by keyword.",
 };
 
 const capabilities = [

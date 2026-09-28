@@ -18,9 +18,9 @@ import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/industries/professional-services" },
-  title: "Professional Services. CPD architecture and technical uplift across the firm",
+  title: "Professional services CPD architecture",
   description:
-    "Structured CPD, technical uplift across the firm, and alignment to sector standards for accounting, legal, engineering, and consulting practices. Evidence, not attendance.",
+    "Structured CPD, technical uplift, and alignment to sector standards for accounting, legal, engineering, and consulting practices. Evidence, not attendance.",
 };
 
 const capabilities = [

@@ -18,9 +18,9 @@ import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/platform/standards-accreditation" },
-  title: "Standards & Accreditation Alignment. Turn requirements into capability",
+  title: "Standards and accreditation alignment",
   description:
-    "ISO, regulatory frameworks, competency models, accreditation criteria, and proprietary methodologies become structured, testable coverage, clause by clause. Alignment is explicit. Gaps are visible.",
+    "ISO standards, regulatory frameworks, competency models, and accreditation criteria become structured, testable coverage, clause by clause.",
 };
 
 const capabilities = [

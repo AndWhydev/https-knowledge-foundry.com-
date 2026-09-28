@@ -47,7 +47,7 @@ export function SiteFooter() {
     <footer className="mt-16 md:mt-24 border-t border-[color:var(--color-hairline)] bg-[color:var(--color-canvas-warm)]">
       <div className="mx-auto max-w-[1440px] px-5 md:px-8 xl:px-12">
         {/* CTA strip: desktop only; on phones every sales page already ends with its own CTA directly above */}
-        <div className="hidden md:block py-24 border-b border-[color:var(--color-hairline)]">
+        <div className="hidden lg:block py-24 border-b border-[color:var(--color-hairline)]">
           <div className="grid md:grid-cols-[1.2fr_1fr] gap-10 md:gap-16 items-end">
             <div>
               <div className="text-eyebrow mb-4">Structured knowledge. Deliberate instruction.</div>
@@ -71,15 +71,15 @@ export function SiteFooter() {
         </div>
 
         {/* Nav grid */}
-        <div className="py-12 md:py-14 grid md:grid-cols-[1.4fr_repeat(4,1fr)] gap-10">
+        <div className="py-12 md:py-14 grid lg:grid-cols-[1.4fr_repeat(4,1fr)] gap-10">
           <div>
             <Logo />
             <p className="mt-5 text-[13.5px] text-[color:var(--color-ink-muted)] leading-relaxed max-w-[36ch]">
               {site.description}
             </p>
           </div>
-          {/* Phones: collapsible groups, so the footer is not three screens of links */}
-          <div className="md:hidden border-t border-[color:var(--color-hairline)]">
+          {/* Phones and tablets: collapsible groups, so the footer is not three screens of links */}
+          <div className="lg:hidden border-t border-[color:var(--color-hairline)]">
             {footerLinks.map((group) => (
               <details key={group.heading} className="group border-b border-[color:var(--color-hairline)]">
                 <summary className="flex items-center justify-between py-4 cursor-pointer list-none [&::-webkit-details-marker]:hidden text-[15px] font-semibold text-[color:var(--color-ink)]">
@@ -102,7 +102,7 @@ export function SiteFooter() {
             ))}
           </div>
           {footerLinks.map((group) => (
-            <div key={group.heading} className="hidden md:block">
+            <div key={group.heading} className="hidden lg:block">
               <h3 className="text-[11px] font-semibold uppercase tracking-[0.1em] text-[color:var(--color-ink-faint)] mb-4">
                 {group.heading}
               </h3>
@@ -123,7 +123,7 @@ export function SiteFooter() {
         </div>
 
         {/* Legal strip */}
-        <div className="py-6 md:pb-24 border-t border-[color:var(--color-hairline)] flex flex-col md:flex-row md:items-center justify-between gap-4 text-[12px] text-[color:var(--color-ink-faint)]">
+        <div className="py-6 lg:pb-24 border-t border-[color:var(--color-hairline)] flex flex-col md:flex-row md:items-center justify-between gap-4 text-[12px] text-[color:var(--color-ink-faint)]">
           <div>
             © {new Date().getFullYear()} {site.legal.entity}. All rights reserved.
             {site.legal.abn && site.legal.abn !== "—" && ` ABN ${site.legal.abn}.`}

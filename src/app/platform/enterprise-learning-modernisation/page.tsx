@@ -18,9 +18,9 @@ import { HeroComparison } from "@/components/heros/hero-comparison";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/platform/enterprise-learning-modernisation" },
-  title: "Enterprise Learning Modernisation. Modernise what matters, preserve what works",
+  title: "Enterprise learning modernisation",
   description:
-    "Modernise legacy training libraries in place. Preserve institutional knowledge, shield subject matter experts, and modernise incrementally without learner disruption or the risk of ripping out and replacing.",
+    "Modernise legacy training libraries in place. Preserve institutional knowledge, protect expert time, and update incrementally without disrupting learners.",
 };
 
 const capabilities = [

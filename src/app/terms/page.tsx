@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/terms" },
   title: "Terms of use",
   description:
-    "The terms that govern use of the Knowledge Foundry website. Customer use of the Knowledge Foundry platform is governed separately by the master services agreement.",
+    "The terms that govern use of the Knowledge Foundry website. Customer use of the platform is governed separately by the master services agreement.",
 };
 
 const updated = "26 September 2026";

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/insights/scorm-is-a-transport-not-a-strategy" },
   title: "SCORM is a transport, not a strategy",
   description:
-    "SCORM and xAPI describe delivery. They do not say what a learner should know. Confusing the two produces confident vendors and undefended programmes.",
+    "SCORM and xAPI describe delivery. They do not define what a learner should know, and confusing the two leaves training programmes undefended at audit.",
 };
 
 const toc = [

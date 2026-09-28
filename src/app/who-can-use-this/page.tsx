@@ -18,9 +18,9 @@ import { Reveal, RevealStagger, RevealItem } from "@/components/motion/reveal";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/who-can-use-this" },
-  title: "Who this is for. Buyer profiles",
+  title: "Who Knowledge Foundry is for",
   description:
-    "Knowledge Foundry is built for senior owners of programmes that must be defensible. Compliance leads, L&D directors, chief risk officers, chief medical officers, heads of clinical education, safety, and talent.",
+    "Built for senior owners of programmes that must be defensible: compliance leads, L&D directors, chief risk officers, and clinical, safety and talent leaders.",
 };
 
 const personas = [

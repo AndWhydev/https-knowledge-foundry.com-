@@ -12,7 +12,7 @@ import { HeroCanvas } from "@/components/hero-canvas";
 import { Marquee } from "@/components/marquee";
 import { Reveal, RevealStagger, RevealItem } from "@/components/motion/reveal";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
-import { HeroVideo } from "@/components/hero-video";
+import { LazyLoopVideo } from "@/components/lazy-loop-video";
 import { SplitText, Highlight } from "@/components/motion/split-text";
 import { Magnetic } from "@/components/motion/magnetic";
 import { CountUp } from "@/components/motion/count-up";
@@ -26,9 +26,9 @@ import { FAQ as HomeFAQ } from "@/components/solution/faq";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
-  title: "Knowledge Foundry. Structured knowledge. Deliberate instruction.",
+  title: { absolute: "Knowledge Foundry: structured learning systems" },
   description:
-    "Knowledge Foundry turns subjects, documents, and requirements into structured learning systems. Reviewable. Aligned to your standards. Ready for audit. The framework is defined before any content is written.",
+    "Knowledge Foundry turns subjects, documents, and requirements into structured learning systems: reviewable, aligned to your standards, and ready for audit.",
 };
 
 const capabilities = [
@@ -109,7 +109,7 @@ export default function HomePage() {
       <section className="relative overflow-hidden bg-[#0d0f14] text-white pt-12 md:pt-28 pb-20 md:pb-36 lg:min-h-[calc(100vh-72px)] flex items-center">
         <HeroCanvas />
         {/* Bottom fade to page bg */}
-        <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-white pointer-events-none" aria-hidden />
+        <div className="absolute inset-x-0 bottom-0 h-16 lg:h-40 bg-gradient-to-b from-transparent to-white pointer-events-none" aria-hidden />
 
         <Container className="relative">
           <div className="grid lg:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)] gap-12 lg:gap-20 items-center">
@@ -250,8 +250,8 @@ export default function HomePage() {
         <CompactProcess />
       </div>
 
-      {/* CINEMATIC LATTICE — Higgsfield video showcase */}
-      <section className="relative overflow-hidden bg-[color:var(--color-ink)] text-white py-20 md:py-28">
+      {/* CINEMATIC LATTICE — Higgsfield video showcase. Tablet and up only: on phones it repeats the process section above and the video is replaced by a still. */}
+      <section className="hidden md:block relative overflow-hidden bg-[color:var(--color-ink)] text-white py-20 md:py-28">
         <div
           className="absolute inset-0 opacity-[0.06]"
           aria-hidden
@@ -292,18 +292,7 @@ export default function HomePage() {
             </div>
             <Reveal delay={0.15} className="relative">
               <div className="relative rounded-[var(--radius-lg)] overflow-hidden border border-white/10 shadow-[0_40px_100px_-20px_rgba(0,0,0,0.6)]">
-                <video
-                  className="w-full h-auto"
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  preload="metadata"
-                  aria-hidden
-                  poster="/media/editorial-blueprint.png"
-                >
-                  <source src="/media/lattice-loop.mp4" type="video/mp4" />
-                </video>
+                <LazyLoopVideo src="/media/lattice-loop.mp4" poster="/media/editorial-blueprint.png" />
                 {/* Corner marks */}
                 {[
                   "top-3 left-3 border-t-2 border-l-2",
@@ -365,8 +354,8 @@ export default function HomePage() {
         </Container>
       </Section>
 
-      {/* ANATOMY — editorial still with parallax */}
-      <Section className="bg-[color:var(--color-canvas-warm)] relative overflow-hidden" spacing="loose">
+      {/* ANATOMY — editorial still with parallax. Tablet and up only, to keep the phone page a sensible length. */}
+      <Section className="hidden md:block bg-[color:var(--color-canvas-warm)] relative overflow-hidden" spacing="loose">
         <FloatingCubes className="absolute inset-0 pointer-events-none opacity-40 hidden md:block" />
         <Container>
           <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.35fr)] gap-10 lg:gap-16 items-center">
@@ -416,7 +405,7 @@ export default function HomePage() {
               <Magnetic>
                 <Link
                   href="/platform"
-                  className="group inline-flex items-center gap-2 text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)]"
+                  className="group inline-flex shrink-0 items-center gap-2 whitespace-nowrap text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)]"
                 >
                   <span className="border-b border-current pb-0.5">Explore the platform</span>
                   <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
@@ -425,7 +414,7 @@ export default function HomePage() {
             </Reveal>
           </div>
 
-          <RevealStagger className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <RevealStagger className="grid md:grid-cols-2 xl:grid-cols-4 gap-4">
             {capabilities.map((c) => (
               <RevealItem key={c.title}>
                 <TiltCard>
@@ -529,7 +518,7 @@ export default function HomePage() {
               <Magnetic>
                 <Link
                   href="/industries"
-                  className="group inline-flex items-center gap-2 text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)]"
+                  className="group inline-flex shrink-0 items-center gap-2 whitespace-nowrap text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)]"
                 >
                   <span className="border-b border-current pb-0.5">All industries</span>
                   <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
@@ -668,7 +657,7 @@ export default function HomePage() {
               <Magnetic>
                 <Link
                   href="/insights"
-                  className="group inline-flex items-center gap-2 text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)]"
+                  className="group inline-flex shrink-0 items-center gap-2 whitespace-nowrap text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)]"
                 >
                   <span className="border-b border-current pb-0.5">All insights</span>
                   <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />

@@ -18,9 +18,9 @@ import { HeroTimeline } from "@/components/heros/hero-timeline";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/platform/verification-trust" },
-  title: "Verification & Trust. Why you can rely on it",
+  title: "Verification and trust",
   description:
-    "Frameworks are defined, reviewed, controlled, and approved by a human before content reaches delivery. Each block carries a Foundry Hash. Each programme carries a Master Integrity Root.",
+    "Frameworks are defined, reviewed and approved by a person before delivery. Each block carries a Foundry Hash; each programme a Master Integrity Root.",
 };
 
 const capabilities = [

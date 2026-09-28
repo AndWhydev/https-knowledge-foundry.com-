@@ -18,9 +18,9 @@ import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/programs/hybrid-verification" },
-  title: "Hybrid Verification. Confirmed capability, not attended sessions",
+  title: "Hybrid verification of competency",
   description:
-    "Structured learning combined with integrated validation. Each objective is paired with a measurable outcome, a validation mechanism, and a defined competency threshold.",
+    "Structured learning combined with integrated validation. Each objective is paired with a measurable outcome, a validation method and a competency threshold.",
 };
 
 const capabilities = [

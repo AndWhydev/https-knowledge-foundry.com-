@@ -19,9 +19,9 @@ import { Reveal } from "@/components/motion/reveal";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/trust" },
-  title: "Trust Centre. Security, compliance and data handling",
+  title: "Trust Centre: security and compliance",
   description:
-    "How Knowledge Foundry is designed to protect customer data, meet enterprise-security expectations, and align to the standards regulated buyers require.",
+    "How Knowledge Foundry is designed to protect customer data, meet enterprise security expectations, and align to the standards that regulated buyers require.",
 };
 
 const posture = [

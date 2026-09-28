@@ -23,9 +23,9 @@ export function BentoOutputs() {
           </Reveal>
         </div>
 
-        <RevealStagger className="grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-[220px]">
+        <RevealStagger className="grid grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-[220px]">
           {/* Framework JSON — large */}
-          <RevealItem className="col-span-2 md:col-span-2 md:row-span-2 md:h-[452px]">
+          <RevealItem className="col-span-2 lg:row-span-2 lg:h-[452px]">
             <BentoCard
               icon={<FileJson className="h-5 w-5" />}
               eyebrow="Framework"
@@ -84,7 +84,7 @@ export function BentoOutputs() {
           </RevealItem>
 
           {/* Drift analytics — wide */}
-          <RevealItem className="col-span-2 md:col-span-2">
+          <RevealItem className="col-span-2">
             <BentoCard
               compact
               wide

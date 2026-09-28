@@ -19,9 +19,9 @@ import { HeroLattice } from "@/components/hero-lattice";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/programs" },
-  title: "Programs. Structured learning for the outcomes you are accountable for",
+  title: "Training programs by outcome",
   description:
-    "Five program types, one architecture. Educational, compliance, product enablement, operational procedures, and hybrid verification. Each governed by an approved framework.",
+    "Five program types on one governed architecture: educational, compliance, product enablement, operational procedures, and hybrid verification.",
 };
 
 const programs = [

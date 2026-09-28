@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/insights/knowledge-structure-before-content" },
   title: "Knowledge structure comes before content",
   description:
-    "Writing before structure is the root cause of training failure. The argument for structural literacy as the missing discipline in L&D.",
+    "Writing before structure is a root cause of training failure. The argument for structural literacy as the missing discipline in learning and development.",
 };
 
 const toc = [

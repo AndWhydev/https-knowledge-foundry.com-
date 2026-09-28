@@ -56,19 +56,27 @@ export function HeroLattice3D({ className }: { className?: string }) {
       idle.set(Math.sin(elapsed * (Math.PI * 2) / 12) * 6);
       raf = requestAnimationFrame(tick);
     };
-    raf = requestAnimationFrame(tick);
 
-    const onVis = () => {
-      if (document.hidden) {
-        cancelAnimationFrame(raf);
-      } else {
-        start = performance.now() - idle.get() * 0; // preserve continuity
-        raf = requestAnimationFrame(tick);
-      }
+    // Run only while visible: off screen, hidden tab, or display:none (it is
+    // hidden below lg on the home hero) all stop the loop.
+    let onScreen = false;
+    const sync = () => {
+      cancelAnimationFrame(raf);
+      raf = 0;
+      if (onScreen && !document.hidden) raf = requestAnimationFrame(tick);
     };
+    const io = ref.current
+      ? new IntersectionObserver(([entry]) => {
+          onScreen = entry.isIntersecting;
+          sync();
+        })
+      : null;
+    if (ref.current) io?.observe(ref.current);
+    const onVis = () => sync();
     document.addEventListener("visibilitychange", onVis);
 
     return () => {
+      io?.disconnect();
       el.removeEventListener("mousemove", onMove);
       document.removeEventListener("visibilitychange", onVis);
       cancelAnimationFrame(raf);

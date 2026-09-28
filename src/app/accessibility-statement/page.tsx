@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/accessibility-statement" },
   title: "Accessibility statement",
   description:
-    "Knowledge Foundry commits to WCAG 2.1 Level AA. This statement covers scope, testing methodology, known limitations, and how to give feedback.",
+    "Knowledge Foundry commits to WCAG 2.1 Level AA. This statement sets out our scope, testing methodology, known limitations, and how to give feedback.",
 };
 
 const updated = "26 September 2026";

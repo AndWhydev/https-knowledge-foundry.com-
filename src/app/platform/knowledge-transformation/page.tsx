@@ -18,9 +18,9 @@ import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/platform/knowledge-transformation" },
-  title: "Knowledge Transformation. Turn raw knowledge into structured capability",
+  title: "Knowledge transformation",
   description:
-    "Documents, expertise, methodologies, and research become a coherent, governable knowledge system. Structure before content, regardless of where the knowledge originates.",
+    "Documents, expertise, methodologies, and research become a coherent, governable knowledge system. Structure comes before content, whatever the source.",
 };
 
 const capabilities = [

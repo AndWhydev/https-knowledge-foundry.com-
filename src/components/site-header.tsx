@@ -40,7 +40,7 @@ export function SiteHeader() {
             <Logo />
           </Link>
 
-          <nav className="hidden lg:flex items-center gap-1" aria-label="Primary">
+          <nav className="hidden lg:flex items-center gap-0 xl:gap-1" aria-label="Primary">
             {megaKeys.map((key) => {
               const section = nav[key];
               const active = openMega === key;
@@ -50,7 +50,7 @@ export function SiteHeader() {
                   onMouseEnter={() => setOpenMega(key)}
                   onFocus={() => setOpenMega(key)}
                   className={cn(
-                    "inline-flex items-center gap-1 px-3 h-9 rounded text-[13.5px] font-medium transition-colors",
+                    "inline-flex items-center gap-1 px-2 xl:px-3 h-9 rounded text-[13.5px] font-medium whitespace-nowrap transition-colors",
                     "text-[color:var(--color-ink-soft)] hover:text-[color:var(--color-ink)]",
                     active && "text-[color:var(--color-ink)]",
                   )}
@@ -70,33 +70,27 @@ export function SiteHeader() {
             <Link
               href={nav.caseStudies.href}
               onMouseEnter={() => setOpenMega(null)}
-              className="px-3 h-9 inline-flex items-center rounded text-[13.5px] font-medium text-[color:var(--color-ink-soft)] hover:text-[color:var(--color-ink)]"
+              className="px-2 xl:px-3 h-9 inline-flex items-center rounded text-[13.5px] font-medium whitespace-nowrap text-[color:var(--color-ink-soft)] hover:text-[color:var(--color-ink)]"
             >
               {nav.caseStudies.label}
             </Link>
             <Link
               href={nav.insights.href}
               onMouseEnter={() => setOpenMega(null)}
-              className="px-3 h-9 inline-flex items-center rounded text-[13.5px] font-medium text-[color:var(--color-ink-soft)] hover:text-[color:var(--color-ink)]"
+              className="px-2 xl:px-3 h-9 inline-flex items-center rounded text-[13.5px] font-medium whitespace-nowrap text-[color:var(--color-ink-soft)] hover:text-[color:var(--color-ink)]"
             >
               {nav.insights.label}
             </Link>
             <Link
               href={nav.about.href}
               onMouseEnter={() => setOpenMega(null)}
-              className="px-3 h-9 inline-flex items-center rounded text-[13.5px] font-medium text-[color:var(--color-ink-soft)] hover:text-[color:var(--color-ink)]"
+              className="px-2 xl:px-3 h-9 inline-flex items-center rounded text-[13.5px] font-medium whitespace-nowrap text-[color:var(--color-ink-soft)] hover:text-[color:var(--color-ink)]"
             >
               {nav.about.label}
             </Link>
           </nav>
 
           <div className="hidden lg:flex items-center gap-3">
-            <Link
-              href="/demonstration"
-              className="text-[13.5px] font-medium text-[color:var(--color-ink-soft)] hover:text-[color:var(--color-ink)]"
-            >
-              Sign in
-            </Link>
             <Button href="/demonstration" size="sm" variant="primary" arrow>
               Request a demonstration
             </Button>

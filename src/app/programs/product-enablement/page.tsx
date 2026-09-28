@@ -18,9 +18,9 @@ import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/programs/product-enablement" },
-  title: "Product Enablement. Structured product mastery, not documentation dumps",
+  title: "Product enablement training",
   description:
-    "Product documentation transformed into structured learning. Capabilities, dependencies, and failure modes taught in the order the product actually requires.",
+    "Product documentation transformed into structured learning, with capabilities, dependencies and failure modes taught in the order the product requires.",
 };
 
 const capabilities = [

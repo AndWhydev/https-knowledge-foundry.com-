@@ -8,9 +8,9 @@ import { Reveal, RevealStagger, RevealItem } from "@/components/motion/reveal";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/insights" },
-  title: "Insights. Structured knowledge and training defensible under audit",
+  title: "Insights on structured training",
   description:
-    "Long form arguments on design that begins with the framework, hybrid verification, audit defence, and the provenance problem in AI generated compliance training.",
+    "Long form articles on framework first design, hybrid verification, audit defence, and the provenance problem in AI generated compliance training.",
 };
 
 type Article = {

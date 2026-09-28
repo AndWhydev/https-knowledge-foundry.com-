@@ -18,9 +18,9 @@ import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/platform/technical-overview" },
-  title: "Technical Overview. For serious evaluators",
+  title: "Technical overview for evaluators",
   description:
-    "Architecture that puts knowledge first, structured generation, reproducibility, traceability, bounded automation, and verifiable delivery. The six principles behind Knowledge Foundry.",
+    "Knowledge first architecture, structured generation, reproducibility, traceability, bounded automation and verifiable delivery: six platform principles.",
 };
 
 const capabilities = [

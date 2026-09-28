@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/privacy" },
   title: "Privacy policy",
   description:
-    "How Knowledge Foundry collects, uses, discloses, and retains personal information, in line with the Australian Privacy Act 1988 and the Australian Privacy Principles.",
+    "How Knowledge Foundry collects, uses, discloses and retains personal information under the Privacy Act 1988 (Cth) and the Australian Privacy Principles.",
 };
 
 const updated = "26 September 2026";

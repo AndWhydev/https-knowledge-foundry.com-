@@ -10,7 +10,7 @@ import { LogoMark } from "@/components/logo";
  * and never returns until a new browser session starts.
  *
  * Persistence key: sessionStorage.kf_booted = "1"
- * Skipped entirely for: prefers-reduced-motion, non-first-visit in session,
+ * Skipped entirely for: prefers-reduced-motion, touch devices, non-first-visit in session,
  * SSR (mounted gate).
  */
 export function BootSequence() {
@@ -23,7 +23,13 @@ export function BootSequence() {
     setMounted(true);
     if (typeof window === "undefined") return;
     // Skip if already booted this session or reduced-motion
-    if (reduce || sessionStorage.getItem("kf_booted") === "1") {
+    // Touch devices skip it: on a slow phone the overlay only mounts after
+    // hydration, so it would cover a page that has already painted.
+    if (
+      reduce ||
+      window.matchMedia("(pointer: coarse)").matches ||
+      sessionStorage.getItem("kf_booted") === "1"
+    ) {
       setVisible(false);
       return;
     }

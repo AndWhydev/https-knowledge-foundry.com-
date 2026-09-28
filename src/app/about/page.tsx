@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/about" },
   title: "About",
   description:
-    "Knowledge Foundry builds governed knowledge architecture for organisations that must defend how their programmes are made. We believe structure governs everything downstream.",
+    "Knowledge Foundry builds governed knowledge architecture for organisations that must defend how their programmes are designed, reviewed and delivered.",
 };
 
 const principles = [

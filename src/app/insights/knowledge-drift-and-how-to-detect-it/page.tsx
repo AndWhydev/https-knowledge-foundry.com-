@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/insights/knowledge-drift-and-how-to-detect-it" },
   title: "Knowledge drift, and how to detect it",
   description:
-    "What knowledge drift is, why it happens silently, and how design that begins with the framework surfaces it before an auditor does.",
+    "What knowledge drift is, why it happens silently in training libraries, and how design that begins with the framework surfaces it before an auditor does.",
 };
 
 const toc = [

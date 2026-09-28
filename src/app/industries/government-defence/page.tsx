@@ -18,9 +18,9 @@ import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/industries/government-defence" },
-  title: "Government & Defence. Cleared workforce enablement with auditable evidence",
+  title: "Government and defence training",
   description:
-    "Deployment conscious of IRAP, cleared workforce training, and instruction adjacent to export control. Each module, each assessment, each decision. Exportable evidence.",
+    "IRAP aware deployment, cleared workforce training, and export control adjacent instruction, with exportable evidence for each module, assessment and decision.",
 };
 
 const capabilities = [

@@ -138,6 +138,7 @@ function AnimatedEditorialInner({
       )}
 
       <motion.div
+        data-reveal=""
         className="relative overflow-hidden rounded-[var(--radius-lg)] bg-[color:var(--color-canvas-warm)] shadow-[var(--shadow-lifted)]"
         style={{ y: yS }}
         initial={{ opacity: 0, scale: 0.94, rotate: -1.2 }}
