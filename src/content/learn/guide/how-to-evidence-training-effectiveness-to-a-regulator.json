@@ -1,0 +1,248 @@
+{
+  "slug": "how-to-evidence-training-effectiveness-to-a-regulator",
+  "kind": "guide",
+  "title": "How do you show a regulator that training works?",
+  "seoTitle": "Showing a regulator training works",
+  "description": "How to build an evidence chain that shows a regulator your training works: obligation and risk, design, assessment, on the job application, and review.",
+  "shortAnswer": "To show a regulator that training works, present an evidence chain rather than a completion rate: the obligation and risk the training addresses, how the content and assessment were designed from them, proof that people reached the required standard, evidence they apply it at work, what monitoring found, and what you changed as a result. Regulators rarely prescribe metrics, so the logic connecting each link matters as much as the numbers.",
+  "keyTakeaways": [
+    "Completion rates show that training happened. They do not show that it worked, and regulators increasingly ask about both.",
+    "AUSTRAC states it expects entities to monitor the effectiveness of AML/CTF training and evaluate whether personnel retain and apply it.",
+    "ASIC expects AFS licensees to regularly review the effectiveness of their compliance measures, which include training of representatives.",
+    "Build the case as a chain: obligation, risk, design, learning evidence, application evidence, outcome signals, review and change.",
+    "Be honest about limits. Showing what you found, including weaknesses, and what you did about them is more credible than a perfect dashboard."
+  ],
+  "sections": [
+    {
+      "id": "what-regulators-expect",
+      "heading": "What do Australian regulators actually expect?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most Australian regulators expect training to be suitable for the role and risk, and expect you to monitor whether your arrangements work, but few prescribe how to measure effectiveness. The expectation is framed as outcomes and review, not a specific metric."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**AUSTRAC.** Its [AML/CTF training guidance](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform) refers to section 26F(4)(e) of the AML/CTF Act and Rules section 5 to 9(2), and lists expectations including that you monitor the effectiveness of your training and evaluate whether personnel are retaining knowledge from it and applying it appropriately.",
+            "**ASIC.** [RG 104](https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations) (RG 104.24) expects licensees to document their compliance measures, fully implement and monitor them, and regularly review their effectiveness. RG 104.27 states: \"It is not enough just to document your measures.\"",
+            "**Work health and safety.** Under the model WHS laws, officers must exercise due diligence, which includes taking reasonable steps to verify the provision and use of resources and processes for managing risk (section 27(5)(f) of the [Work Health and Safety Act 2011](https://www.legislation.gov.au/C2011A00137/latest/text)). The Act's examples of those processes include ensuring the provision of training and instruction to workers."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "None of these sources says a particular pass mark, survey score, or evaluation model is required. Avoid telling a regulator that your approach is \"what they require\" unless you can point to the words."
+        }
+      ]
+    },
+    {
+      "id": "the-evidence-chain",
+      "heading": "What does a convincing evidence chain look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A convincing chain lets a reviewer follow one obligation from the risk it addresses through to observed behaviour, with evidence at every link. The table below is an original framework for assembling it."
+        },
+        {
+          "type": "table",
+          "caption": "Evidence chain: claim, evidence, and what makes it weak or strong",
+          "head": [
+            "Link in the chain",
+            "Claim you are making",
+            "Weak evidence",
+            "Strong evidence"
+          ],
+          "rows": [
+            [
+              "Obligation and risk",
+              "We know what this training must achieve",
+              "Course title matches a regulation name",
+              "Obligation register entry and risk assessment mapped to specific learning outcomes"
+            ],
+            [
+              "Design",
+              "The training addresses that risk for each role",
+              "One generic module for all staff",
+              "Role based outcomes, reviewed by compliance, with the content version recorded"
+            ],
+            [
+              "Learning",
+              "People reached the required standard",
+              "Completion flag, or a quiz anyone can pass by guessing",
+              "Scenario based assessment aligned to outcomes, with item analysis"
+            ],
+            [
+              "Application",
+              "People do it on the job",
+              "Self reported confidence only",
+              "File reviews, quality assurance sampling, observation, or verification of competency"
+            ],
+            [
+              "Outcome signals",
+              "Risk is being managed better",
+              "A single favourable number with no baseline",
+              "Trends in errors, breaches, escalations, or near misses, read with context"
+            ],
+            [
+              "Review and change",
+              "We act on what we find",
+              "No record of changes",
+              "Documented findings, decisions, content changes, and retesting"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-to-build-it",
+      "heading": "How do you build the evidence, step by step?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Build the evidence before anyone asks for it. Each step below produces an artefact a regulator can read."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Pick the obligations that matter most.** Rank by regulatory and harm risk. Output: a short list of priority obligations. Use [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations) if the mapping does not exist.",
+            "**Write the effectiveness question for each.** For example: do onboarding staff correctly escalate unusual customer behaviour? Output: one question per obligation.",
+            "**Choose evidence for each link in the chain.** Prefer evidence the business already produces, such as quality assurance reviews or incident logs. Output: an evidence plan. The measurement design is covered in [how to measure training effectiveness](/guides/how-to-measure-training-effectiveness).",
+            "**Set a baseline and a review cadence.** Output: baseline figures and dates for the next reviews.",
+            "**Collect and interpret.** Look for patterns by role, team, and content version, and separate training causes from process or system causes. Output: a findings note.",
+            "**Act and record.** Change content, assessments, supervision, or procedures, and record why. Output: a change log linked to the findings.",
+            "**Summarise for the regulator.** A short narrative per obligation, supported by the artefacts. Output: an effectiveness statement."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does this look like in practice?",
+      "blocks": [
+        {
+          "type": "callout",
+          "title": "Illustrative example, not a real case",
+          "text": "A remittance business retrains its customer onboarding team on revised customer due diligence procedures. The chain it keeps: the AML/CTF risk assessment entry for onboarding; role specific outcomes signed off by the AML/CTF compliance officer; a scenario assessment in which staff must identify missing beneficial ownership information; monthly quality assurance sampling of onboarding files before and after training; the rate of files returned for incomplete checks; and a record that one scenario was rewritten after most staff failed it for reasons traced to an unclear procedure step, which was also fixed."
+        },
+        {
+          "type": "p",
+          "text": "The strength of this example is not any single number. It is that each claim is backed by a document, the business looked for evidence beyond the classroom, and it recorded what it changed when the evidence pointed to a problem."
+        }
+      ]
+    },
+    {
+      "id": "what-to-avoid",
+      "heading": "What weakens an effectiveness case?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The most common weaknesses are relying on completion rates, claiming causation from a single trend, and presenting evidence that was assembled after the question was asked."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Reporting 98 percent completion as proof of effectiveness.",
+            "Attributing a fall in incidents entirely to training when procedures, staffing, or systems also changed.",
+            "Presenting satisfaction scores as evidence of competence.",
+            "Hiding negative findings. A regulator who finds them independently will question everything else.",
+            "Evidence with no dates or versions, which cannot be tied to the period under review."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The fix for most of these is to move evidence up the chain. Replace completion counts with assessment results tied to outcomes, and add evidence of application such as file reviews or [verification of competency](/glossary/verification-of-competency). The [completion tracking versus competency verification](/compare/completion-tracking-vs-competency-verification) comparison sets out the difference in more detail, and [the Kirkpatrick model](/glossary/kirkpatrick-model) gives a common vocabulary for the levels of evidence."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines the obligation, learning outcomes, and assessment points as a connected framework before content is written, and keeps provenance for each. The first links of the evidence chain therefore exist by design, and assessment results can be read against the specific outcomes and obligations they were built to test."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do regulators require the Kirkpatrick model?",
+      "a": "No Australian regulator source reviewed for this guide requires a specific evaluation model. The Kirkpatrick model is a widely used way to structure evidence across reaction, learning, behaviour, and results, and it maps well onto an evidence chain, but you should present it as your chosen method, not as a regulatory requirement."
+    },
+    {
+      "q": "What if we cannot prove training caused an improvement?",
+      "a": "Say so. Few organisations can isolate the effect of training from other changes. A credible case shows that the training was designed from the risk, that people reached the standard, that they apply it, and that trends are monitored and acted on. Stating the limits of attribution adds credibility."
+    },
+    {
+      "q": "How often should effectiveness be reviewed?",
+      "a": "Set the cadence by risk and by what the business already reviews. Many organisations align it with their compliance monitoring or program review cycle, and add a review after any significant regulatory change, incident, or content release. Record the cadence in your training policy so you can show it was followed."
+    },
+    {
+      "q": "Is a survey of staff confidence useful evidence?",
+      "a": "It is useful as a leading signal and for spotting unclear content, but it is weak evidence of competence on its own. Pair it with assessment results and evidence of application at work."
+    }
+  ],
+  "sources": [
+    {
+      "title": "AML/CTF training (Reform)",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
+    },
+    {
+      "title": "RG 104 AFS licensing: Meeting the general obligations",
+      "publisher": "Australian Securities and Investments Commission",
+      "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations"
+    },
+    {
+      "title": "Work Health and Safety Act 2011",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/C2011A00137/latest/text"
+    },
+    {
+      "title": "Model WHS laws",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/model-whs-laws"
+    },
+    {
+      "title": "The Kirkpatrick Model",
+      "publisher": "Kirkpatrick Partners",
+      "url": "https://www.kirkpatrickpartners.com/the-kirkpatrick-model/"
+    }
+  ],
+  "related": [
+    "how-to-measure-training-effectiveness",
+    "how-to-prepare-training-records-for-an-audit",
+    "how-to-map-training-to-compliance-obligations",
+    "austrac-aml-ctf-training-requirements",
+    "kirkpatrick-model",
+    "completion-tracking-vs-competency-verification"
+  ],
+  "productLinks": [
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    },
+    {
+      "label": "Financial services",
+      "href": "/industries/financial-services"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 5,
+  "factCheck": [
+    {
+      "claim": "AUSTRAC expects entities to monitor the effectiveness of training and evaluate whether personnel retain knowledge and apply it appropriately; references Act s26F(4)(e) and Rules s5 to 9(2).",
+      "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
+    },
+    {
+      "claim": "RG 104.24 expects licensees to document, implement, monitor, and regularly review effectiveness of measures; RG 104.27 'It is not enough just to document your measures.'",
+      "source": "https://download.asic.gov.au/media/av3fovx5/rg104-published-23-june-2022-20260310.pdf"
+    },
+    {
+      "claim": "WHS Act s27(5)(f) due diligence includes verifying the provision and use of resources and processes; examples include ensuring the provision of training and instruction to workers.",
+      "source": "https://www.legislation.gov.au/C2011A00137/latest/text"
+    }
+  ]
+}

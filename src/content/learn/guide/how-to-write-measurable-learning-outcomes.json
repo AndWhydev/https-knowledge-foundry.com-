@@ -1,0 +1,247 @@
+{
+  "slug": "how-to-write-measurable-learning-outcomes",
+  "kind": "guide",
+  "title": "How do you write measurable learning outcomes?",
+  "seoTitle": "Writing measurable learning outcomes",
+  "description": "How to write measurable learning outcomes with an action verb, object, condition and standard, checked against Bloom's revised taxonomy and the AQF.",
+  "shortAnswer": "A measurable learning outcome states what the learner will be able to do, using an observable action verb, a precise object, the conditions under which they will do it, and the standard that counts as success. Write it from the task or obligation, set its cognitive level using Bloom's revised taxonomy, check the level fits the role or AQF level, then test it by drafting the assessment that would prove it.",
+  "keyTakeaways": [
+    "Use verbs that describe observable performance. 'Understand', 'know' and 'appreciate' cannot be measured, and putting 'demonstrate' in front of them does not help.",
+    "A complete outcome has four parts: action, object, condition and standard.",
+    "Choose the cognitive level deliberately. Compliance training that stops at 'identify' will not produce people who can apply a rule to a new case.",
+    "If you cannot write an assessment item for an outcome, the outcome is not yet measurable.",
+    "Outcomes are the hinge of constructive alignment: activities and assessment should both be derived from them."
+  ],
+  "sections": [
+    {
+      "id": "what-makes-measurable",
+      "heading": "What makes a learning outcome measurable?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A learning outcome is measurable when two independent assessors, looking at the same performance, would agree whether it was achieved. That requires an observable action and a stated standard."
+        },
+        {
+          "type": "p",
+          "text": "Australian university guidance is consistent on the first point. The University of Queensland's teaching institute notes that verbs such as 'understand', 'appreciate' or 'know' are too vague to be measured, and that writing 'demonstrate' in front of them does not make them clearer ([UQ ITaLI](https://itali.uq.edu.au/files/3035/Resources-teaching-methods-learning-outcomes.pdf)). UNSW's guide says outcomes need action verbs that describe how learners will demonstrate their learning, and that choosing the verb helps set the standard for judging achievement ([UNSW](https://www.teaching.unsw.edu.au/sites/default/files/upload-files/UNSW%20Learning%20Outcomes%20Guide.pdf))."
+        }
+      ]
+    },
+    {
+      "id": "four-parts",
+      "heading": "What are the parts of a well written learning outcome?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A well written outcome has four parts. The first two are essential in every outcome; the last two are essential wherever the outcome will be used as an assessment standard, which in regulated training is almost always."
+        },
+        {
+          "type": "table",
+          "caption": "The four parts of a measurable outcome",
+          "head": [
+            "Part",
+            "Question it answers",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Action (verb)",
+              "What will the learner do?",
+              "Classify"
+            ],
+            [
+              "Object",
+              "What will they do it to?",
+              "customer complaints received through any channel"
+            ],
+            [
+              "Condition",
+              "In what situation, with what resources?",
+              "using the complaints policy and a set of unlabelled case summaries"
+            ],
+            [
+              "Standard",
+              "How well, how accurately, within what limits?",
+              "correctly identifying every complaint that must be recorded as such"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Assembled: 'Using the complaints policy and a set of unlabelled case summaries, classify customer complaints received through any channel, correctly identifying every complaint that must be recorded as such.' That sentence tells a designer what to teach, an assessor what to look for, and a learner what they will be asked to do."
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "heading": "What are the steps to write measurable learning outcomes?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "There are seven steps. Work from the job backwards, not from the content forwards."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Start from the task or obligation.** Take one task from the [training needs analysis](/guides/how-to-conduct-a-training-needs-analysis) or one requirement from the [obligation map](/guides/how-to-map-training-to-compliance-obligations). Output: a task statement in the language of the job.",
+            "**Identify the kind of knowledge involved.** The revised taxonomy by Anderson and Krathwohl classifies objectives on two dimensions: the knowledge involved (factual, conceptual, procedural, metacognitive) and the cognitive process applied to it ([Krathwohl, 2002](https://eric.ed.gov/?id=EJ667155)). A procedure calls for procedural knowledge; a judgement about whether a rule applies calls for conceptual knowledge. Output: the knowledge type.",
+            "**Choose the cognitive process level.** The six processes in the revised taxonomy run from remember and understand through apply, analyse and evaluate to create, with create placed highest ([UQ ITaLI](https://itali.uq.edu.au/files/3035/Resources-teaching-methods-learning-outcomes.pdf)). Pick the level the job actually requires. Output: a target level.",
+            "**Select an observable verb for that level.** For apply: use, execute, implement, perform. For analyse: compare, examine, distinguish. For evaluate: assess, justify, appraise. Output: the verb.",
+            "**Add the object, condition and standard.** Name exactly what is acted on, the situation and resources, and the success criterion. Output: a draft outcome.",
+            "**Check the level against the qualification or role.** In accredited programs, check the outcome against the Australian Qualifications Framework (AQF) level, which describes graduates by knowledge, skills, and application of knowledge and skills in terms of autonomy, judgement and responsibility ([AQF](https://www.aqf.edu.au/framework/aqf-levels)). In workplace programs, check it against the required level in the [competency framework](/guides/how-to-build-a-competency-framework). Output: a level confirmed outcome.",
+            "**Write the assessment item.** Draft the question, task or observation that would prove the outcome. If you cannot, rewrite the outcome. Output: an outcome with a matching assessment method, ready for the [assessment blueprint](/guides/how-to-create-an-assessment-blueprint)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "before-after",
+      "heading": "What do weak and strong outcomes look like side by side?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The rewrites below are illustrative. They show how the four parts change an outcome from a topic into a standard. The policies they refer to are generic, not quotations from any regulator."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative rewrites of weak outcomes",
+          "head": [
+            "Weak outcome",
+            "Problem",
+            "Measurable rewrite"
+          ],
+          "rows": [
+            [
+              "Understand the privacy policy",
+              "Unobservable verb, no standard",
+              "Given five customer requests, decide which require identity verification before disclosure under the privacy procedure, with no incorrect disclosures"
+            ],
+            [
+              "Be aware of conflicts of interest",
+              "Awareness is not a performance",
+              "Identify the conflict of interest in each of four workplace scenarios and select the declaration step required by the conflicts policy"
+            ],
+            [
+              "Know the lockout procedure",
+              "Recall only, where the job needs performance",
+              "Isolate the assigned machine using the lockout procedure, completing every step in sequence, as observed by a qualified assessor"
+            ],
+            [
+              "Demonstrate understanding of AML obligations",
+              "'Demonstrate' does not fix a vague verb",
+              "From a transaction record, list each indicator of suspicious activity present and escalate through the internal procedure within the required time"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "heading": "How do learning outcomes connect to activities and assessment?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Outcomes are the fixed point from which learning activities and assessment are both derived. This is the principle John Biggs called [constructive alignment](/glossary/constructive-alignment): define the intended performance, design activities likely to elicit it, and assess whether it was achieved ([Biggs, 1996](https://eric.ed.gov/?id=EJ534311))."
+        },
+        {
+          "type": "p",
+          "text": "Misalignment is the most common fault in compliance training: an outcome at the apply level, activities at the remember level (reading slides), and assessment at the remember level (recall quiz). The result may produce completion records without evidence that anyone can apply the rule."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines learning outcomes as records linked to the obligations and concepts they come from and to the assessment points that test them, before any content is written. That link makes alignment checkable rather than assumed. See [knowledge transformation](/platform/knowledge-transformation)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between a learning outcome and a learning objective?",
+      "a": "The terms are often used interchangeably. Where a distinction is drawn, an objective describes what the teacher or program intends, and an outcome describes what the learner will be able to do at the end. For measurement purposes, write both as learner performance with an observable verb."
+    },
+    {
+      "q": "How many learning outcomes should a module have?",
+      "a": "As few as cover the performance that matters. A short compliance module might have two to four outcomes. If a module has many more, it is probably covering several tasks and could be split, or several outcomes are really indicators of one larger outcome."
+    },
+    {
+      "q": "Can awareness training have measurable outcomes?",
+      "a": "Yes, if awareness is expressed as something the learner does, such as recognising a situation and taking the first required step. 'Recognise a phishing email in a mixed set and report it using the report button' is awareness training with a measurable outcome."
+    },
+    {
+      "q": "Should learning outcomes include attitudes and values?",
+      "a": "They can, but attitudes must be expressed as observable behaviour to be assessed, for example 'raises a concern through the speak up channel when presented with a scenario involving pressure to bypass a control'. Where behaviour cannot be observed in assessment, say how it will be evidenced on the job."
+    }
+  ],
+  "sources": [
+    {
+      "title": "A Revision of Bloom's Taxonomy: An Overview (Krathwohl, 2002, Theory Into Practice 41(4))",
+      "publisher": "ERIC, Institute of Education Sciences",
+      "url": "https://eric.ed.gov/?id=EJ667155"
+    },
+    {
+      "title": "Enhancing Teaching through Constructive Alignment (Biggs, 1996, Higher Education 32)",
+      "publisher": "ERIC, Institute of Education Sciences",
+      "url": "https://eric.ed.gov/?id=EJ534311"
+    },
+    {
+      "title": "Learning outcomes",
+      "publisher": "Institute for Teaching and Learning Innovation, The University of Queensland",
+      "url": "https://itali.uq.edu.au/files/3035/Resources-teaching-methods-learning-outcomes.pdf"
+    },
+    {
+      "title": "UNSW Learning Outcomes Guide",
+      "publisher": "UNSW Sydney",
+      "url": "https://www.teaching.unsw.edu.au/sites/default/files/upload-files/UNSW%20Learning%20Outcomes%20Guide.pdf"
+    },
+    {
+      "title": "AQF levels",
+      "publisher": "Australian Qualifications Framework",
+      "url": "https://www.aqf.edu.au/framework/aqf-levels"
+    }
+  ],
+  "related": [
+    "learning-outcomes",
+    "blooms-taxonomy",
+    "constructive-alignment",
+    "how-to-create-an-assessment-blueprint",
+    "aqf-levels-and-learning-outcomes",
+    "how-to-build-a-curriculum-map"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge transformation",
+      "href": "/platform/knowledge-transformation"
+    },
+    {
+      "label": "Educational programs",
+      "href": "/programs/educational"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 4,
+  "factCheck": [
+    {
+      "claim": "UQ ITaLI: 'understand', 'appreciate' or 'know' are too vague; writing 'demonstrate' in front does not make them clearer; Anderson and Krathwohl 2001 revision places Create highest",
+      "source": "https://itali.uq.edu.au/files/3035/Resources-teaching-methods-learning-outcomes.pdf"
+    },
+    {
+      "claim": "UNSW guide: outcomes need action verbs describing how students demonstrate learning; verb choice helps set the standard",
+      "source": "https://www.teaching.unsw.edu.au/sites/default/files/upload-files/UNSW%20Learning%20Outcomes%20Guide.pdf"
+    },
+    {
+      "claim": "Krathwohl 2002 describes the Taxonomy Table with two dimensions, cognitive processes and knowledge",
+      "source": "https://eric.ed.gov/?id=EJ667155"
+    },
+    {
+      "claim": "AQF expresses outcomes as knowledge, skills and application of knowledge and skills, the latter in terms of autonomy, judgement and responsibility",
+      "source": "https://www.aqf.edu.au/framework/aqf-levels"
+    }
+  ]
+}

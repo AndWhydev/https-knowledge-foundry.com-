@@ -1,0 +1,202 @@
+{
+  "slug": "learning-experience-platform",
+  "kind": "glossary",
+  "title": "What is a learning experience platform?",
+  "seoTitle": "Learning experience platform (LXP)",
+  "description": "A learning experience platform (LXP) helps people discover and follow learning from many sources. How it works, where it fits, and how it differs from an LMS.",
+  "shortAnswer": "A learning experience platform (LXP) is software that helps people find, follow, and share learning from many sources, including internal courses, articles, videos, and external content, usually through search, recommendations, and learner profiles. Where a learning management system (LMS) is built for administrators to assign and track required training, an LXP is built around learner choice and discovery, and is mainly used for optional development and skills building.",
+  "keyTakeaways": [
+    "An LXP is learner led: people choose goals and paths, and the platform recommends content.",
+    "An LXP aggregates content from many sources rather than hosting only packaged courses.",
+    "Many LXPs can record activity as xAPI statements sent to a Learning Record Store.",
+    "LXPs complement an LMS; mandatory and regulated training usually still needs LMS style assignment and records."
+  ],
+  "term": "learning experience platform",
+  "alsoKnownAs": [
+    "LXP"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What does a learning experience platform do?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A learning experience platform organises learning around the learner rather than the course catalogue. TechTarget describes LXPs as \"open systems that freely permit the incorporation and sharing of third-party learning tools and learning resources\", in contrast to an LMS where \"administrators determine course sequences and learning paths\" ([TechTarget](https://www.techtarget.com/searchhrsoftware/definition/learning-experience-platform-LXP))."
+        },
+        {
+          "type": "p",
+          "text": "Typical capabilities include a personal feed, search across internal and external content, playlists or pathways curated by peers or experts, skills profiles, and recommendations based on role, interests, and previous activity."
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "heading": "How does an LXP work?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An LXP works by pulling content into one searchable layer, tagging it by topic or skill, and recommending items to each person based on their profile and activity."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Aggregation:** content is connected from internal libraries, the organisation's [learning management system](/glossary/learning-management-system), content subscriptions, and the open web.",
+            "**Tagging:** items are tagged to topics or skills, often with automated classification.",
+            "**Profiles:** each learner has stated interests, a role, and a record of what they have viewed or completed.",
+            "**Recommendation:** the platform suggests content and pathways that match the profile.",
+            "**Activity capture:** an LXP can record what people do as [xAPI](/glossary/xapi) statements, which the xAPI specification defines as records using an \"actor\", \"verb\", and \"object\", stored in a Learning Record Store ([ADL xAPI specification](https://github.com/adlnet/xAPI-Spec))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-it-differs",
+      "heading": "How is an LXP different from an LMS and an LCMS?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An LXP is designed for discovery and self direction, an LMS for assignment and proof of completion, and a [learning content management system](/glossary/learning-content-management-system) for authoring and maintaining content."
+        },
+        {
+          "type": "table",
+          "caption": "LXP, LMS, and LCMS at a glance",
+          "head": [
+            "Aspect",
+            "LXP",
+            "LMS",
+            "LCMS"
+          ],
+          "rows": [
+            [
+              "Who drives it",
+              "Learner",
+              "Administrator",
+              "Author"
+            ],
+            [
+              "Main content",
+              "Aggregated from many sources",
+              "Assigned courses",
+              "Components being written and maintained"
+            ],
+            [
+              "Typical data standard",
+              "xAPI",
+              "SCORM, cmi5, xAPI",
+              "Publishes SCORM, cmi5, xAPI packages"
+            ],
+            [
+              "Best suited to",
+              "Optional development and skills",
+              "Required and compliance training",
+              "Content that must be reused and kept current"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For a fuller comparison see [LMS vs LXP](/compare/lms-vs-lxp)."
+        }
+      ]
+    },
+    {
+      "id": "regulated-use",
+      "heading": "Can an LXP be used for compliance training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An LXP can surface compliance content, but on its own it is rarely the right system of record for [mandatory training](/glossary/mandatory-training). Regulated training needs assignment by role, due dates, controlled content versions, and reports that show who has and has not completed a requirement. Those are LMS strengths."
+        },
+        {
+          "type": "p",
+          "text": "A common pattern is to keep required training in the LMS and use the LXP for follow up material: short explainers, case discussions, and [microlearning](/glossary/microlearning) that reinforce the required course. If an LXP recommends external content on a regulated topic, someone must still check that the content is accurate for Australian law and the organisation's own policies."
+        },
+        {
+          "type": "callout",
+          "title": "Illustrative example",
+          "text": "An energy company assigns its annual work health and safety induction through the LMS. Its LXP carries a pathway on psychosocial hazards for team leaders, mixing an internal video, two short internal articles, and a scenario quiz. The LXP records activity as xAPI statements; the LMS remains the record of the mandatory induction the regulator would ask about."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry sits upstream of both the LMS and the LXP. It defines the concepts, obligations, and assessment points that learning must cover, so content delivered through either channel can be traced to the same reviewed framework."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does an LXP replace an LMS?",
+      "a": "Usually not. Most organisations that adopt an LXP keep an LMS for required training, because assignment, due dates, and completion records for regulated topics are core LMS functions. Some products combine both roles, but the underlying needs remain different."
+    },
+    {
+      "q": "Why do LXPs use xAPI rather than SCORM?",
+      "a": "SCORM tracks content launched by an LMS inside a browser session. An LXP records activity across many sources, such as articles, videos, and external courses, which SCORM was not designed to describe. xAPI can record almost any activity as a statement, which suits that model."
+    },
+    {
+      "q": "Are LXP recommendations reliable for regulated topics?",
+      "a": "Recommendations reflect tags, popularity, and profile data, not legal accuracy. For regulated topics, content should be reviewed against current obligations before it is made discoverable, and recommendations should favour internally approved material."
+    },
+    {
+      "q": "What is the difference between an LXP and a knowledge base?",
+      "a": "A knowledge base answers operational questions at the point of need and is organised by topic. An LXP organises learning activity around people and skills, with pathways and records of what each person has done. Some organisations link the two."
+    }
+  ],
+  "sources": [
+    {
+      "title": "What is a learning experience platform (LXP) and how is it used?",
+      "publisher": "TechTarget",
+      "url": "https://www.techtarget.com/searchhrsoftware/definition/learning-experience-platform-LXP"
+    },
+    {
+      "title": "xAPI Specification (version 1.0.3 repository)",
+      "publisher": "Advanced Distributed Learning (ADL) Initiative",
+      "url": "https://github.com/adlnet/xAPI-Spec"
+    },
+    {
+      "title": "IEEE 9274.1.1-2023: JSON Data Model Format and RESTful Web Service for Learner Experience Data Tracking and Access",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/9274.1.1/7321/"
+    }
+  ],
+  "factCheck": [
+    {
+      "claim": "TechTarget: LXPs are open systems permitting incorporation of third-party tools and resources; in an LMS administrators determine course sequences and learning paths",
+      "source": "https://www.techtarget.com/searchhrsoftware/definition/learning-experience-platform-LXP"
+    },
+    {
+      "claim": "xAPI statements must use actor, verb and object",
+      "source": "https://github.com/adlnet/xAPI-Spec"
+    },
+    {
+      "claim": "IEEE 9274.1.1-2023 defines communication between activities and a Learning Record Store",
+      "source": "https://standards.ieee.org/ieee/9274.1.1/7321/"
+    }
+  ],
+  "related": [
+    "learning-management-system",
+    "learning-content-management-system",
+    "xapi",
+    "microlearning",
+    "lms-vs-lxp"
+  ],
+  "productLinks": [
+    {
+      "label": "Integrations",
+      "href": "/platform/integrations"
+    },
+    {
+      "label": "Enterprise learning modernisation",
+      "href": "/platform/enterprise-learning-modernisation"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 6
+}

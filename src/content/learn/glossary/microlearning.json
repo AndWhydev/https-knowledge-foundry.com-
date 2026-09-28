@@ -1,0 +1,196 @@
+{
+  "slug": "microlearning",
+  "kind": "glossary",
+  "title": "What is microlearning?",
+  "seoTitle": "Microlearning: definition and use",
+  "description": "Microlearning delivers training in short, focused units, typically under 15 minutes. What the research shows, where it fits, and its compliance limits.",
+  "shortAnswer": "Microlearning is an approach to training that delivers content in small, focused units, each built around a single objective and usually taking a few minutes to complete. A 2019 scoping review describes it as \"the acquisition of knowledge or skills in the form of small units\", and every study it reviewed used units of under 15 minutes. It is used for reinforcement, just in time support, and spaced review rather than for building complex capability alone.",
+  "keyTakeaways": [
+    "Microlearning means short units with one objective each, commonly under 15 minutes.",
+    "Research on it is growing but limited: a 2019 health education review found no study measuring organisational results.",
+    "It works best for reinforcement, reminders, and spaced review of content taught more fully elsewhere.",
+    "Breaking a long compliance course into short pieces does not by itself make it microlearning; each unit needs a defined objective and check."
+  ],
+  "term": "microlearning",
+  "alsoKnownAs": [
+    "micro-learning",
+    "bite-sized learning",
+    "microtraining"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What counts as microlearning?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Microlearning is defined by scope as much as duration: one unit, one objective, finished in minutes. A scoping review in JMIR Medical Education found that all 17 included studies featured a \"maximum time spent less than 15 min\" and content aggregation into small units ([De Gagne et al., 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6683654/))."
+        },
+        {
+          "type": "p",
+          "text": "Common formats include a two minute video, a short scenario with one decision, a set of three to five questions, a job aid, or a reminder message. A 2022 scoping review in Educational Technology Research and Development notes that much of the definitional material comes from industry articles and commentary, and that closer study of the research evidence is needed ([Taylor and Hung, 2022](https://eric.ed.gov/?id=EJ1337772))."
+        }
+      ]
+    },
+    {
+      "id": "evidence",
+      "heading": "What does the research say about microlearning?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The research suggests microlearning can improve knowledge and confidence, but the evidence base is small and mostly measures short term outcomes. In the 2019 review, 16 of 17 studies measured learner reaction, 14 measured knowledge or skill, 5 measured behaviour, and none measured results at the highest [Kirkpatrick](/glossary/kirkpatrick-model) level."
+        },
+        {
+          "type": "p",
+          "text": "The same review concluded that microlearning \"has demonstrated a positive effect on the knowledge and confidence\" of health professions students, while noting downsides including \"pedagogical discomfort, technology inequalities, and privacy concerns\"."
+        },
+        {
+          "type": "p",
+          "text": "Microlearning pairs naturally with [spaced repetition](/glossary/spaced-repetition): short units are easy to schedule as review over weeks or months, which is where the stronger evidence on retention lies."
+        }
+      ]
+    },
+    {
+      "id": "where-it-fits",
+      "heading": "Where does microlearning fit in compliance training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Microlearning fits best as reinforcement around a core program, not as a replacement for it. Complex obligations usually need structured explanation and assessment first; short units then keep key points active."
+        },
+        {
+          "type": "table",
+          "caption": "Where microlearning helps and where it does not (illustrative)",
+          "head": [
+            "Training need",
+            "Good fit for microlearning?",
+            "Why"
+          ],
+          "rows": [
+            [
+              "Reminder of a reporting threshold or deadline",
+              "Yes",
+              "Single fact, easy to check, benefits from repetition"
+            ],
+            [
+              "Just in time guide before a rare task",
+              "Yes",
+              "Needed at the moment of use, short by nature"
+            ],
+            [
+              "Initial training on a new regulatory regime",
+              "Only as follow up",
+              "Needs connected explanation of concepts and exceptions"
+            ],
+            [
+              "Proving competence in a high risk procedure",
+              "No",
+              "Needs observed performance or [verification of competency](/glossary/verification-of-competency)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-it-differs",
+      "heading": "How is microlearning different from e-learning modules and spaced repetition?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Microlearning describes the size and focus of a unit; e-learning describes the delivery medium; spaced repetition describes the timing of review. A microlearning unit can be e-learning, and a spaced repetition schedule can deliver microlearning, but none of the three implies the others."
+        },
+        {
+          "type": "p",
+          "text": "Microlearning is also distinct from simply chopping a long course into pieces. Each unit should trace to a defined [learning outcome](/glossary/learning-outcomes) and include a way to check it. For wider design choices see [how to reduce compliance training fatigue](/guides/how-to-reduce-compliance-training-fatigue)."
+        }
+      ]
+    },
+    {
+      "id": "example",
+      "heading": "What does a microlearning sequence look like?",
+      "blocks": [
+        {
+          "type": "callout",
+          "title": "Illustrative example",
+          "text": "After annual conflict of interest training, an insurer sends staff one scenario question a fortnight for three months. Each takes about two minutes, tests one decision (for example, whether a gift must be declared), explains the answer, and links to the policy clause. Incorrect answers trigger the same concept again two weeks later. The results show which concepts are misunderstood across teams, which informs next year's core course."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps each concept and assessment point in a framework, which makes it possible to generate short units that each target one defined concept and to see which concepts a microlearning program has and has not covered."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long should a microlearning unit be?",
+      "a": "There is no fixed standard. The studies in a 2019 scoping review all used units under 15 minutes, and many practitioners aim for well under that. The better test is scope: one objective and one check per unit, however long that takes."
+    },
+    {
+      "q": "Can microlearning satisfy mandatory training requirements?",
+      "a": "Sometimes, if the regulator or standard does not specify a format and the units together cover every required outcome with assessment and records. In practice most organisations keep a core course for initial training and use microlearning for refreshers and reinforcement."
+    },
+    {
+      "q": "Is microlearning more effective than longer training?",
+      "a": "The evidence does not support a general claim either way. Reviews report positive effects on knowledge and confidence, but few studies measure behaviour and almost none measure organisational results. Effectiveness depends on the task, the design, and how units are spaced."
+    },
+    {
+      "q": "What technology is needed for microlearning?",
+      "a": "Very little beyond what most organisations have. Units can be delivered through an LMS, a learning experience platform, messaging tools, or intranet pages. xAPI is useful if units are delivered outside the LMS and completion data needs to be collected in one place."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Microlearning in Health Professions Education: Scoping Review",
+      "publisher": "JMIR Medical Education (De Gagne et al., 2019)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6683654/"
+    },
+    {
+      "title": "The Effects of Microlearning: A Scoping Review",
+      "publisher": "Educational Technology Research and Development (Taylor and Hung, 2022), ERIC record",
+      "url": "https://eric.ed.gov/?id=EJ1337772"
+    },
+    {
+      "title": "Distributed practice in verbal recall tasks: A review and quantitative synthesis",
+      "publisher": "Psychological Bulletin (Cepeda et al., 2006)",
+      "url": "https://www.yorku.ca/ncepeda/publications/CPVWR2006.html"
+    }
+  ],
+  "factCheck": [
+    {
+      "claim": "Microlearning defined as acquisition of knowledge or skills in the form of small units; all 17 studies featured maximum time under 15 min",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6683654/"
+    },
+    {
+      "claim": "16/17 reaction, 14/17 knowledge or skill, 5/17 behaviour, none at highest Kirkpatrick level; conclusion quotes",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6683654/"
+    },
+    {
+      "claim": "Taylor and Hung 2022 ETR&D v70 n2 p363-395; notes definitional information mostly in industry articles and commentaries",
+      "source": "https://eric.ed.gov/?id=EJ1337772"
+    }
+  ],
+  "related": [
+    "spaced-repetition",
+    "learning-experience-platform",
+    "instructional-design",
+    "how-to-reduce-compliance-training-fatigue",
+    "kirkpatrick-model",
+    "elearning-vs-instructor-led-compliance-training"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge transformation",
+      "href": "/platform/knowledge-transformation"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 6
+}

@@ -1,0 +1,248 @@
+{
+  "slug": "how-to-report-training-compliance-to-the-board",
+  "kind": "guide",
+  "title": "How do you report training compliance to a board?",
+  "seoTitle": "Reporting training compliance to boards",
+  "description": "How to report training compliance to a board: start from directors' oversight duties, pick a few lead and lag indicators, set tolerances, report by exception.",
+  "shortAnswer": "To report training compliance to a board, start from what directors must oversee, then give them a short report built on a few indicators tied to material obligations: coverage of required training in high risk roles, overdue items against a tolerance, evidence of competence, and signals of effectiveness. Report by exception with a brief narrative, name the source and assurance for each figure, and state what management is doing about anything outside tolerance.",
+  "keyTakeaways": [
+    "Boards need oversight information, not learning system activity. Report what supports their duties and decisions.",
+    "Under the model WHS laws, officer due diligence includes verifying the provision and use of processes, which include training.",
+    "The AICD's guidance on reporting to the board favours concise reports, exception reporting, variance analysis, and attributed data.",
+    "Pair lag indicators such as overdue training with lead indicators such as assessment results in high risk roles.",
+    "Every figure needs a source, a date, and a statement of who has checked it."
+  ],
+  "sections": [
+    {
+      "id": "what-boards-need",
+      "heading": "What do boards need to know about training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Boards need enough to judge whether the organisation's people are capable of meeting its material obligations, and whether management is acting when they are not. That is narrower than most training dashboards and more focused on risk."
+        },
+        {
+          "type": "p",
+          "text": "Several duties shape this. Under section 27(5) of the model Work Health and Safety Act, as enacted in the Commonwealth [Work Health and Safety Act 2011](https://www.legislation.gov.au/C2011A00137/latest/text), due diligence for officers includes taking reasonable steps to ensure the business has and implements processes for complying with its duties, and to verify the provision and use of those resources and processes. The Act's examples of those duties include ensuring the provision of training and instruction to workers."
+        },
+        {
+          "type": "p",
+          "text": "For APRA regulated entities, [Prudential Standard CPS 230](https://handbook.apra.gov.au/standard/cps-230) states that the Board is ultimately accountable for oversight of operational risk management and must be provided with regular updates on the entity's operational risk profile. Where capability gaps are an operational risk, training data belongs in that picture. These sources do not prescribe a training report format; they set the oversight the report must support."
+        },
+        {
+          "type": "p",
+          "text": "The specific training duties behind these oversight obligations are covered in [what the WHS Act requires employers to provide in training](/regulations/whs-act-duty-to-provide-training) and [what APRA CPS 230 means for staff training](/regulations/apra-cps-230-operational-risk-training). The board report should summarise performance against those duties, not restate them."
+        }
+      ]
+    },
+    {
+      "id": "what-good-reporting-looks-like",
+      "heading": "What does good board reporting look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Good board reporting is concise, exception based, and clear about where its data comes from. The Australian Institute of Company Directors (AICD), in its guidance on [reporting to the board](https://www.aicd.com.au/board-of-directors/roles/executive/Reporting-to-the-board.html), lists exception reports, variance analysis, and executive summaries among useful content, and attributions, meaning referencing data sources and flagging unverified information, among reporting protocols. It also includes periodic compliance check ins on areas such as safety, legal, risk, and quality in a reporting framework."
+        },
+        {
+          "type": "p",
+          "text": "The AICD has also described well organised, insightful, and action oriented reporting that provides both lead and lag indicators as a common and effective way for boards to exercise due diligence on psychosocial risk ([AICD](https://www.aicd.com.au/regulatory-compliance/work-health-and-safety-act/reporting/psychosocial-risk-a-new-challenge-for-boards.html)). The same pairing suits training."
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "heading": "What is the step by step method?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The method starts with the board's questions and ends with a tracked action log. Each step produces an output the committee secretary can file."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Agree the board's questions.** With the chair or risk committee chair, confirm what the board wants to know. Output: three to five oversight questions.",
+            "**Select material obligations.** Choose the obligations where capability failure would cause the most harm. Output: a short list, drawn from the obligations register.",
+            "**Choose indicators.** For each, pick one or two lag and lead indicators. Output: an indicator set with definitions.",
+            "**Set tolerances.** Agree thresholds that trigger escalation, aligned with risk appetite. Output: tolerance levels approved by the committee.",
+            "**Name sources and assurance.** For each indicator, record the system, the extraction date, and who has checked it, such as compliance or internal audit. Output: a data lineage note.",
+            "**Write by exception.** Lead with what is outside tolerance, why, and what is being done. Output: a one page report with appendix data.",
+            "**Close the loop.** Track actions the board requests and report their status next time. Output: an action log."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "report-template",
+      "heading": "What should a one page board report contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A one page report should give the status of each material obligation against tolerance, the reason for any exception, the action and owner, and the assurance behind the figure. The template below is original; the values are illustrative."
+        },
+        {
+          "type": "table",
+          "caption": "Board training compliance report (illustrative values)",
+          "head": [
+            "Obligation area",
+            "Indicator",
+            "Result and tolerance",
+            "Status",
+            "Action and owner",
+            "Assurance"
+          ],
+          "rows": [
+            [
+              "AML/CTF",
+              "High risk roles with current training and assessment",
+              "91 percent; tolerance 95 percent",
+              "Outside tolerance",
+              "Overdue staff in one region assigned, due 31 October; Head of Financial Crime",
+              "Compliance tested sample of 30 records"
+            ],
+            [
+              "Work health and safety",
+              "Plant operators with current verification of competency",
+              "100 percent; tolerance 100 percent",
+              "Within tolerance",
+              "None",
+              "Site audits, quarterly"
+            ],
+            [
+              "Privacy",
+              "Assessment first time pass rate, customer facing staff",
+              "72 percent, down from 85 percent",
+              "Watch",
+              "Review found an unclear scenario; item rewritten; Head of Privacy",
+              "Management data, not independently tested"
+            ],
+            [
+              "Conduct",
+              "Breaches with training identified as a root cause",
+              "2 this quarter; 1 last quarter",
+              "Watch",
+              "Root cause review under way; Chief Risk Officer",
+              "Breach register"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Keep definitions and trend charts in an appendix. The indicators themselves come from the measurement design in [how to measure training effectiveness](/guides/how-to-measure-training-effectiveness)."
+        }
+      ]
+    },
+    {
+      "id": "common-pitfalls",
+      "heading": "What should you avoid in board reports on training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Avoid activity metrics, averages that hide high risk groups, and figures without a source. A 96 percent organisation wide completion rate can conceal a much lower rate in the one team that handles the highest risk work."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Hours of training delivered or number of courses launched, which say nothing about capability.",
+            "Changing indicator definitions between reports without saying so.",
+            "Presenting management data as if it were independently assured.",
+            "Omitting known problems until they are fixed. Boards need to know while action is still possible.",
+            "Reporting completion without competence. See [completion tracking versus competency verification](/compare/completion-tracking-vs-competency-verification)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links obligations to learning outcomes and assessment points, so results can be rolled up by obligation rather than by course. That supports board reporting framed around material obligations, with a traceable path from each figure back to its evidence."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How often should training compliance be reported to the board?",
+      "a": "Align it with the board or risk committee cycle, often quarterly, with immediate escalation when an indicator breaches a tolerance for a material obligation. The cadence should be written into the committee's reporting framework so it is not left to discretion."
+    },
+    {
+      "q": "Should the whole board or a committee receive the report?",
+      "a": "Usually a committee, such as risk, audit, or safety, receives the detail, and the board receives a summary and any escalations. Follow your committee charters; what matters is that responsibility for oversight is clear and that exceptions reach the full board when warranted."
+    },
+    {
+      "q": "Do directors themselves need training reporting?",
+      "a": "Directors have their own knowledge obligations. Under the model WHS Act, officer due diligence includes taking reasonable steps to acquire and keep up to date knowledge of work health and safety matters. Some boards track director education separately from workforce training reports."
+    },
+    {
+      "q": "What makes a training figure reliable enough for a board?",
+      "a": "A clear definition, a named source system, an extraction date, and a statement of who has checked it. Where a figure has not been independently tested, say so. The AICD guidance lists referencing data sources and flagging unverified information as a reporting protocol."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Reporting to the Board",
+      "publisher": "Australian Institute of Company Directors",
+      "url": "https://www.aicd.com.au/board-of-directors/roles/executive/Reporting-to-the-board.html"
+    },
+    {
+      "title": "Psychosocial risk: a new challenge for boards",
+      "publisher": "Australian Institute of Company Directors",
+      "url": "https://www.aicd.com.au/regulatory-compliance/work-health-and-safety-act/reporting/psychosocial-risk-a-new-challenge-for-boards.html"
+    },
+    {
+      "title": "Work Health and Safety Act 2011",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/C2011A00137/latest/text"
+    },
+    {
+      "title": "CPS 230 Operational Risk Management",
+      "publisher": "Australian Prudential Regulation Authority",
+      "url": "https://handbook.apra.gov.au/standard/cps-230"
+    },
+    {
+      "title": "Model WHS laws",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/model-whs-laws"
+    }
+  ],
+  "related": [
+    "how-to-measure-training-effectiveness",
+    "how-to-evidence-training-effectiveness-to-a-regulator",
+    "apra-cps-230-operational-risk-training",
+    "whs-act-duty-to-provide-training",
+    "completion-tracking-vs-competency-verification"
+  ],
+  "productLinks": [
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    },
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 4,
+  "factCheck": [
+    {
+      "claim": "WHS Act s27(5): due diligence includes reasonable steps to acquire and keep up to date knowledge of WHS matters (a), have and implement processes for complying with duties (e), and verify provision and use of resources and processes (f); examples include ensuring the provision of training and instruction.",
+      "source": "https://www.legislation.gov.au/C2011A00137/latest/text"
+    },
+    {
+      "claim": "CPS 230: the Board is ultimately accountable for oversight of operational risk management and must be provided with regular updates on the operational risk profile.",
+      "source": "https://handbook.apra.gov.au/standard/cps-230"
+    },
+    {
+      "claim": "AICD lists exception reports, variance analysis, executive summaries, periodic compliance check ins, and attributions (referencing data sources, flagging unverified information) in board reporting guidance.",
+      "source": "https://www.aicd.com.au/board-of-directors/roles/executive/Reporting-to-the-board.html"
+    },
+    {
+      "claim": "AICD: well organised, insightful and action oriented reporting with lead and lag indicators is a common and effective way for boards to exercise due diligence on psychosocial risk.",
+      "source": "https://www.aicd.com.au/regulatory-compliance/work-health-and-safety-act/reporting/psychosocial-risk-a-new-challenge-for-boards.html"
+    }
+  ]
+}

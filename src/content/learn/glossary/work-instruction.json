@@ -1,0 +1,238 @@
+{
+  "slug": "work-instruction",
+  "kind": "glossary",
+  "title": "What is a work instruction?",
+  "seoTitle": "What is a work instruction?",
+  "description": "A work instruction gives step by step directions for one task. How it differs from an SOP, what it contains, and how to train and assess against it.",
+  "shortAnswer": "A work instruction is a controlled document that tells a person exactly how to perform one specific task, step by step, often with settings, tolerances, images or checks. It sits below a standard operating procedure in the documentation hierarchy: the procedure describes the process and who is responsible, while the work instruction describes how one role completes one part of it. In ISO 9001 terms it is documented information that must be kept current.",
+  "keyTakeaways": [
+    "A work instruction covers one task for one role, in more detail than a standard operating procedure.",
+    "It is documented information under ISO 9001 and must be controlled, versioned and available at the point of use.",
+    "Work instructions are the most direct source for practical training and observed assessment.",
+    "Because they change often, work instructions are a common source of out of date training.",
+    "The line between SOP and work instruction varies by organisation; consistency matters more than naming."
+  ],
+  "term": "Work instruction",
+  "alsoKnownAs": [
+    "WI",
+    "Task instruction",
+    "Job aid"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What is the purpose of a work instruction?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A work instruction exists so that a task is done the same correct way every time, by anyone qualified to do it. It removes guesswork at the level where errors actually happen: the individual steps, settings and checks."
+        },
+        {
+          "type": "p",
+          "text": "[ISO 9000:2015](https://www.iso.org/standard/45481.html) defines a procedure as a \"specified way to carry out an activity or a process\". A work instruction is a narrower, more detailed form of that specification for a single activity. Quality management systems built on [ISO 9001](https://www.iso.org/standard/62085.html) treat work instructions as documented information, which must be available and suitable for use where and when needed and protected against unintended change. The sixth edition, [ISO 9001:2026](https://www.iso.org/standard/88464.html), was published in September 2026 and keeps those documented information requirements."
+        },
+        {
+          "type": "p",
+          "text": "The term \"job aid\" is sometimes used for a short work instruction kept at the workstation, such as a laminated checklist or an on screen prompt."
+        }
+      ]
+    },
+    {
+      "id": "components",
+      "heading": "What does a work instruction contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A good work instruction contains only what the person needs to do the task correctly, in the order they need it."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Control data: identifier, version, effective date, owner and parent [standard operating procedure](/glossary/standard-operating-procedure).",
+            "The task and the role that performs it.",
+            "Prerequisites: competence, permits, equipment, materials and safety controls required before starting.",
+            "Numbered steps, each with one action, and any settings, tolerances or acceptance criteria.",
+            "Hold points and checks: where the person must stop, verify or get sign off.",
+            "What to do if something goes wrong, and who to contact.",
+            "The record the task produces."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "differences",
+      "heading": "How is a work instruction different from an SOP?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A standard operating procedure describes a whole process across roles; a work instruction describes one task within it for one role. An SOP might say that incoming goods are inspected by the receiving officer; the work instruction says how to perform that inspection on a particular product."
+        },
+        {
+          "type": "table",
+          "caption": "SOP and work instruction compared",
+          "head": [
+            "Feature",
+            "Standard operating procedure",
+            "Work instruction"
+          ],
+          "rows": [
+            [
+              "Scope",
+              "A process, often across several roles",
+              "One task for one role"
+            ],
+            [
+              "Detail",
+              "Steps, responsibilities, records",
+              "Exact actions, settings, checks, images"
+            ],
+            [
+              "Primary reader",
+              "Process participants and managers",
+              "The person doing the task"
+            ],
+            [
+              "Rate of change",
+              "Changes when the process changes",
+              "Changes when equipment, systems or methods change"
+            ],
+            [
+              "Training use",
+              "Understanding the process and handovers",
+              "Practical instruction and observed assessment"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Work instructions also differ from a knowledge base article. A knowledge base article explains or troubleshoots; a work instruction prescribes an approved method and is under document control. See [knowledge base vs LMS](/compare/knowledge-base-vs-lms) for how reference material and training records differ."
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "heading": "How are work instructions used in training and assessment?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Work instructions are the most direct basis for practical training and for observed assessment, because each step can become an assessable performance criterion."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative conversion of a work instruction into assessment criteria",
+          "head": [
+            "Work instruction step",
+            "Assessment criterion",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "3. Confirm the isolation lock is applied and tagged",
+              "Applies and verifies lock and tag before starting",
+              "Observation by assessor"
+            ],
+            [
+              "5. Set torque to the value on the equipment card",
+              "Selects the correct value for the equipment in use",
+              "Observation and question"
+            ],
+            [
+              "7. Record the reading in the maintenance log",
+              "Completes the record accurately",
+              "Record check"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This mapping supports [verification of competency](/glossary/verification-of-competency). Because work instructions change more often than SOPs, the training built on them is also more exposed to [knowledge drift](/glossary/knowledge-drift). The method for turning procedures into learning is in [how to turn SOPs into training](/guides/how-to-convert-sops-into-training)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry represents each work instruction step as a node linked to its parent procedure and to the assessment points that test it. When a step changes, the linked assessments are flagged, and the record shows which version each worker was verified against."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does ISO 9001 require work instructions?",
+      "a": "No. ISO 9001 requires documented information to the extent the organisation judges necessary. Work instructions are a common way to meet that need for tasks where variation causes errors, but the standard leaves the choice and the format to the organisation."
+    },
+    {
+      "q": "Should work instructions use images or video?",
+      "a": "Where it helps accuracy, yes. Photos, diagrams and short videos reduce misreading for physical tasks. Any media is part of the controlled document, so it needs the same versioning and review as the text."
+    },
+    {
+      "q": "Who approves a work instruction?",
+      "a": "Usually the process owner or a supervisor with authority over the task, after review by someone who performs it. In regulated settings a quality reviewer may also approve. The approver and date should be recorded on the document."
+    },
+    {
+      "q": "How often should work instructions be reviewed?",
+      "a": "Whenever the equipment, system, material or method changes, and on a periodic cycle the organisation defines. Frontline users should have an easy way to report steps that no longer match reality, because they are usually first to notice."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ISO 9000:2015 Quality management systems: Fundamentals and vocabulary",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/45481.html"
+    },
+    {
+      "title": "ISO 9001:2015 Quality management systems: Requirements",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/62085.html"
+    },
+    {
+      "title": "ISO 9001 (2026 edition) Quality management systems: Requirements",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/88464.html"
+    },
+    {
+      "title": "What you should know about the ISO 9001:2026 revision",
+      "publisher": "DQS",
+      "url": "https://www.dqsglobal.com/en/explore/focus-area/iso-9001-revision-at-a-glance"
+    }
+  ],
+  "related": [
+    "standard-operating-procedure",
+    "verification-of-competency",
+    "knowledge-drift",
+    "how-to-convert-sops-into-training",
+    "knowledge-base-vs-lms",
+    "how-to-capture-subject-matter-expert-knowledge"
+  ],
+  "productLinks": [
+    {
+      "label": "Operational procedures programs",
+      "href": "/programs/operational-procedures"
+    },
+    {
+      "label": "Hybrid verification programs",
+      "href": "/programs/hybrid-verification"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 5,
+  "factCheck": [
+    {
+      "claim": "Procedure is defined as a specified way to carry out an activity or a process (ISO 9000:2015, 3.4.5, as reproduced in ISO 37301 3.31).",
+      "source": "https://cdn.standards.iteh.ai/samples/75080/984e9b4dc8a347a7a8376a2b43afef03/ISO-FDIS-37301.pdf"
+    },
+    {
+      "claim": "ISO 9001 sixth edition (2026) published September 2026, replacing ISO 9001:2015.",
+      "source": "https://www.iso.org/standard/88464.html"
+    },
+    {
+      "claim": "ISO 9001:2026 published 16 September 2026.",
+      "source": "https://www.dqsglobal.com/en/explore/focus-area/iso-9001-revision-at-a-glance"
+    }
+  ]
+}

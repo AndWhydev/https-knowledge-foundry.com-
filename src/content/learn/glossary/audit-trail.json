@@ -1,0 +1,203 @@
+{
+  "slug": "audit-trail",
+  "kind": "glossary",
+  "title": "What is an audit trail?",
+  "seoTitle": "What is an audit trail?",
+  "description": "An audit trail is a chronological record that lets a reviewer reconstruct who did what and when. What it covers for training content, records and approvals.",
+  "shortAnswer": "An audit trail is a chronological record of activities that is detailed enough for a reviewer to reconstruct the sequence of events behind an outcome: who did what, when, to which item, and what changed. The United States National Institute of Standards and Technology (NIST) glossary defines it in security terms. In training governance, audit trails cover changes to content, approvals, assignments, assessment results and the records used as evidence.",
+  "keyTakeaways": [
+    "NIST defines an audit trail as a chronological record that reconstructs and examines the sequence of activities surrounding an operation, procedure or event.",
+    "A useful audit trail answers who, what, when, which version and why, and is protected against later alteration.",
+    "In training, audit trails are needed for both content (what was taught) and people (who learned and passed what, on which version).",
+    "An audit trail is not the same as a training record: the record states a result; the trail shows how the result and its evidence came to be.",
+    "Audit trails support document control requirements in management system standards such as ISO 9001."
+  ],
+  "term": "Audit trail",
+  "alsoKnownAs": [
+    "Audit log",
+    "Change history",
+    "Activity log"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "How is an audit trail defined?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An audit trail is defined by the [NIST Computer Security Resource Center glossary](https://csrc.nist.gov/glossary/term/audit_trail), citing NIST SP 800-53 Rev. 5 and SP 800-37 Rev. 2, as \"a chronological record that reconstructs and examines the sequence of activities surrounding or leading to a specific operation, procedure, or event in a security-relevant transaction from inception to result.\""
+        },
+        {
+          "type": "p",
+          "text": "The definition is written for information security, but the idea generalises. Any process where someone may later need to show what happened, in what order and on whose authority, benefits from an audit trail. In regulated training that includes content approval, learner assignment, assessment and the creation of evidence for auditors."
+        }
+      ]
+    },
+    {
+      "id": "components",
+      "heading": "What should an audit trail record?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each entry in an audit trail should let a reviewer answer five questions without relying on anyone's memory."
+        },
+        {
+          "type": "table",
+          "caption": "Minimum fields for an audit trail entry",
+          "head": [
+            "Question",
+            "Field",
+            "Training example (illustrative)"
+          ],
+          "rows": [
+            [
+              "Who?",
+              "User or system identity",
+              "Compliance reviewer J. Singh"
+            ],
+            [
+              "What?",
+              "Action taken",
+              "Approved change to assessment item"
+            ],
+            [
+              "When?",
+              "Date and time, with time zone",
+              "2026-03-04 10:12 AEDT"
+            ],
+            [
+              "Which item and version?",
+              "Object identifier and before and after versions",
+              "Item A-117, version 2 to version 3"
+            ],
+            [
+              "Why?",
+              "Reason or linked change request",
+              "Credit policy threshold changed, change request CR-58"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The trail must also be trustworthy. Entries should be append only or otherwise protected against edit and deletion, time stamps should come from a reliable clock, and the trail should be retained for at least as long as the records it supports."
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "heading": "Why do audit trails matter for training and compliance?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Audit trails let an organisation prove not only that someone completed training, but what that training contained at the time and who approved it. That is often the question a regulator or auditor asks after an incident."
+        },
+        {
+          "type": "p",
+          "text": "Management system standards require documented information to be controlled, including control of changes. [ISO 9001](https://www.iso.org/standard/88464.html), whose sixth edition was published in September 2026, and [ISO 37301](https://www.iso.org/standard/75080.html) both include control of documented information in their support clauses. An audit trail is the usual mechanism for showing that control happened."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Content trail:** who drafted, reviewed and approved each version of a module, [standard operating procedure](/glossary/standard-operating-procedure) or assessment item, and why it changed.",
+            "**Learner trail:** assignment, attempts, results, assessor decisions and any overrides, each linked to the content version used.",
+            "**Evidence trail:** how reports and exports given to auditors were generated, and from which data.",
+            "**AI trail:** where content is generated or checked by AI, which inputs and sources were used and which human approved the output. See [human in the loop](/glossary/human-in-the-loop)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "differences",
+      "heading": "How is an audit trail different from a training record?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A training record states a result, such as that a person completed a course on a date. An audit trail shows the sequence of events behind that result and any later changes to it."
+        },
+        {
+          "type": "p",
+          "text": "If a completion date is corrected, the record shows the new date and the audit trail shows the old date, the new date, who changed it and why. Without the trail, the corrected record cannot be distinguished from a falsified one. [Policy attestation](/glossary/policy-attestation) records and assessment results need the same protection. Preparing both for review is covered in [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry keeps provenance and change history on each concept, learning outcome and assessment point, and links learner results to the versions they were assessed against. Evidence packs for auditors are generated from that history rather than assembled by hand."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long should audit trails be kept?",
+      "a": "At least as long as the records they support, and longer if a law, regulator or contract sets a retention period. Retention should be set by record type in a documented schedule, because different obligations set different periods."
+    },
+    {
+      "q": "Does a learning management system provide an audit trail?",
+      "a": "Most record completions and some changes, but coverage varies. Check whether the system logs changes to content and assessment items, manual edits to results, and administrator overrides, and whether those logs can be exported and protected from alteration."
+    },
+    {
+      "q": "Is version history the same as an audit trail?",
+      "a": "Version history is part of an audit trail. It shows what a document looked like at each version. A full audit trail also records who made each change, who approved it, why, and which people were trained or assessed on each version."
+    },
+    {
+      "q": "Can an audit trail be edited?",
+      "a": "It should not be. An audit trail that can be changed without trace has little evidential value. Systems should restrict access, make entries append only where possible, and log any administrative action on the trail itself."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Glossary: audit trail",
+      "publisher": "National Institute of Standards and Technology, Computer Security Resource Center",
+      "url": "https://csrc.nist.gov/glossary/term/audit_trail"
+    },
+    {
+      "title": "ISO 9001 (2026 edition) Quality management systems: Requirements",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/88464.html"
+    },
+    {
+      "title": "ISO 37301:2021 Compliance management systems: Requirements with guidance for use",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/75080.html"
+    }
+  ],
+  "related": [
+    "policy-attestation",
+    "knowledge-drift",
+    "human-in-the-loop",
+    "how-to-prepare-training-records-for-an-audit",
+    "how-to-maintain-version-control-for-training-content"
+  ],
+  "productLinks": [
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    },
+    {
+      "label": "Verification and trust",
+      "href": "/platform/verification-trust"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 6,
+  "factCheck": [
+    {
+      "claim": "NIST SP 800-37 Rev. 2 and SP 800-53 Rev. 5 define audit trail as a chronological record that reconstructs and examines the sequence of activities surrounding or leading to a specific operation, procedure, or event in a security-relevant transaction from inception to result.",
+      "source": "https://csrc.nist.gov/glossary/term/audit_trail"
+    },
+    {
+      "claim": "ISO 37301 includes 7.5 Documented information with 7.5.3 Control of documented information.",
+      "source": "https://cdn.standards.iteh.ai/samples/75080/984e9b4dc8a347a7a8376a2b43afef03/ISO-FDIS-37301.pdf"
+    },
+    {
+      "claim": "ISO 9001 sixth edition published September 2026.",
+      "source": "https://www.iso.org/standard/88464.html"
+    }
+  ]
+}

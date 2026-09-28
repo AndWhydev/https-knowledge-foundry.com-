@@ -1,0 +1,246 @@
+{
+  "slug": "how-to-design-a-compliance-training-program",
+  "kind": "guide",
+  "title": "How do you design a compliance training program?",
+  "seoTitle": "Design a compliance training program",
+  "description": "How to design a compliance training program: governance, risk tiered audiences, curriculum layers, delivery triggers, assessment, records and a review cycle.",
+  "shortAnswer": "A compliance training program is designed by setting governance and ownership, segmenting the workforce into tiers by role and risk, building a layered curriculum from general awareness to specialist and governance training, defining the triggers that assign training (onboarding, new duties, change, periodic refresh), choosing assessment that proves application, specifying records, and scheduling evaluation and review so the program changes when obligations or risks change.",
+  "keyTakeaways": [
+    "A program is more than a set of courses. It includes ownership, assignment rules, triggers, evidence and review.",
+    "Tier the audience by role and risk. Regulators such as AUSTRAC explicitly expect different depth for different functions.",
+    "Assign training by events, not only by calendar: onboarding, new duties, regulatory change and incidents.",
+    "Design assessment and records at the same time as content, because they are what an auditor will test.",
+    "Build in evaluation of whether people apply what they learned, not just whether they completed it."
+  ],
+  "sections": [
+    {
+      "id": "what-a-program-is",
+      "heading": "What is a compliance training program, as opposed to a course?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A compliance training program is the managed system that decides who is trained on which obligations, when, to what standard, and with what evidence. A course is one component inside it."
+        },
+        {
+          "type": "p",
+          "text": "Regulator guidance describes program level expectations, not just content. AUSTRAC expects reporting entities to develop a training plan and schedule tailored to roles and risks, include regulatory changes and emerging risks, use a register to record completion and track when further training is due, monitor effectiveness, and evaluate whether personnel retain and apply the knowledge ([AUSTRAC](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform)). ASIC's RG 104 expects licensees to ensure representatives undertake continuing training programs and to keep records ([ASIC](https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/)). Those are program design requirements."
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "heading": "What are the steps to design a compliance training program?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "There are eight design steps. Steps two and three depend on having an [obligation to training map](/guides/how-to-map-training-to-compliance-obligations); if one does not exist, build it first."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Set governance.** Name the accountable executive, the program owner, the compliance function's role in approving content, and the forum that reviews program performance. Output: a program charter and RACI.",
+            "**Define scope from obligations.** List the obligations the program covers and those deliberately excluded (handled by controls or specialist teams). Output: a scope statement linked to the obligations register.",
+            "**Tier the audience.** Group roles by the functions they perform and the risk they carry. Output: a role tier model.",
+            "**Build a layered curriculum.** For each tier, define the outcomes required. Awareness outcomes for everyone; applied outcomes for operational roles; specialist outcomes for control owners; governance outcomes for senior managers and the board. Output: a curriculum architecture, which can be documented as a [curriculum map](/guides/how-to-build-a-curriculum-map).",
+            "**Define assignment triggers and frequencies.** Specify the events that assign training and the refresh interval per tier, with the reasoning. Output: assignment rules that feed the [training matrix](/guides/how-to-build-a-training-matrix).",
+            "**Choose delivery and assessment.** Select delivery methods that suit the outcome level and the audience's language and comprehension needs, and choose assessment methods that prove the outcome. Output: a delivery and assessment plan per curriculum layer.",
+            "**Specify records.** Decide what each record holds: person, role, item and version, date, assessment result, assessor where relevant, and due date. Output: a records specification (see [preparing training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)).",
+            "**Plan evaluation and review.** Define how effectiveness will be measured and the triggers for unscheduled review. Output: an evaluation plan and review calendar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tiering",
+      "heading": "How should the audience be tiered?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tier by function and risk, so that depth of training rises with the consequence of a person getting it wrong. One general module for everyone is simple to administer but rarely meets a role based expectation."
+        },
+        {
+          "type": "p",
+          "text": "AUSTRAC's guidance gives a clear model: all customer facing personnel need awareness of suspicious activity indicators and reporting procedures, while personnel undertaking enhanced customer due diligence and investigating suspicious matters need a deeper understanding of the risks and procedures, and governance roles need deep understanding of the obligations specific to their role ([AUSTRAC](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform))."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative program architecture for an AML/CTF training program",
+          "head": [
+            "Tier",
+            "Who",
+            "Outcome depth",
+            "Illustrative triggers and refresh"
+          ],
+          "rows": [
+            [
+              "General",
+              "All staff not in AML/CTF relevant roles",
+              "Recognise that the obligations exist and know where to escalate",
+              "At onboarding"
+            ],
+            [
+              "Operational",
+              "Customer facing and onboarding staff",
+              "Apply procedures: identity verification, indicators, escalation",
+              "At onboarding, before new duties, at least annually"
+            ],
+            [
+              "Specialist",
+              "Enhanced due diligence, transaction monitoring and investigation staff",
+              "Analyse and decide: tailor measures to risk, document rationale",
+              "At appointment, on procedure change, at least annually"
+            ],
+            [
+              "Governance",
+              "Compliance officer, senior managers, governing body",
+              "Evaluate and oversee: risk assessment, program effectiveness, role specific duties",
+              "At appointment, on law or program change, every 6 to 12 months"
+            ],
+            [
+              "Third parties",
+              "Vendors performing AML/CTF functions",
+              "Apply the procedures relevant to their contracted function",
+              "At onboarding and when the contract is renewed or changed"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The refresh intervals in this table follow the examples AUSTRAC gives, which it describes as examples only; frequency must be appropriate to each business. The table itself is illustrative and would be adapted to an organisation's risk assessment."
+        }
+      ]
+    },
+    {
+      "id": "triggers",
+      "heading": "When should compliance training be assigned?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Assign training when a person's exposure changes, and when the content they were trained on changes. Calendar refreshers alone miss both."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Onboarding.** Before a person performs a regulated function. AUSTRAC requires initial training at the start of employment or engagement; Safe Work Australia guidance lists induction training for new workers as the first step ([Safe Work Australia](https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work)).",
+            "**New duties.** When a person moves into a role with different obligations or risks.",
+            "**Content change.** When a law, regulator guidance, internal policy or procedure changes. AUSTRAC lists changes to laws, new and emerging risks, program changes, evaluation and review findings, significant non-compliance and AUSTRAC guidance as prompts for updating training.",
+            "**Performance signal.** When incidents, complaints, audit findings or quality sampling show a gap in a team or individual.",
+            "**Periodic refresh.** At an interval set by risk, documented with the reason for the interval."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evaluation",
+      "heading": "How do you know the program is working?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Measure whether behaviour on the job meets the standard, not only whether training was completed. Completion is an input measure; the program exists to change outputs such as error rates, escalation quality and breach frequency."
+        },
+        {
+          "type": "p",
+          "text": "Safe Work Australia guidance says training should be regularly monitored and evaluated, its effectiveness continuously assessed and adjusted, and workers consulted on its effectiveness. Define two or three measures per tier before launch, with a baseline, so change can be shown. [Measuring training effectiveness](/guides/how-to-measure-training-effectiveness) covers the methods."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry builds the program's framework first: obligations, roles, tiers, outcomes and assessment points, each linked to its source. Content, assignment rules and evidence are then generated from and checked against that framework. See [compliance programs](/programs/compliance)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How often should compliance training be refreshed?",
+      "a": "There is rarely a single legal interval. Set frequency by role and risk, document the reason, and add event triggers for change. AUSTRAC's examples range from every 6 to 12 months for compliance officers and senior management to onboarding only for staff outside AML/CTF relevant roles, and it states that frequency must suit the business."
+    },
+    {
+      "q": "Should compliance training be delivered online or face to face?",
+      "a": "Choose by outcome level and audience. Online modules suit awareness and knowledge outcomes at scale. Applied and judgement based outcomes usually need scenarios, coaching or observed practice. The [e-learning vs instructor led](/compare/elearning-vs-instructor-led-compliance-training) comparison sets out the trade offs."
+    },
+    {
+      "q": "Can compliance training be outsourced?",
+      "a": "Delivery can be outsourced, but accountability cannot. AUSTRAC states that a reporting entity may outsource AML/CTF training delivery but remains responsible for ensuring it is tailored, appropriate and understandable to its personnel. Off the shelf content usually needs contextualising to the organisation's own procedures."
+    },
+    {
+      "q": "Who should approve compliance training content?",
+      "a": "The compliance or legal function should approve that content correctly states the obligation and internal policy; the business owner should approve that it reflects how work is actually done. Record both approvals with the content version so the approval can be shown later."
+    }
+  ],
+  "sources": [
+    {
+      "title": "AML/CTF training",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
+    },
+    {
+      "title": "RG 104 AFS licensing: Meeting the general obligations",
+      "publisher": "Australian Securities and Investments Commission (ASIC)",
+      "url": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/"
+    },
+    {
+      "title": "Training and supporting your workers to stay safe at work",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work"
+    },
+    {
+      "title": "ISO 37301:2021 Compliance management systems: Requirements with guidance for use",
+      "publisher": "International Organization for Standardization (ISO)",
+      "url": "https://www.iso.org/standard/75080.html"
+    },
+    {
+      "title": "ISO 37301 FAQs (May 2022)",
+      "publisher": "ISO/TC 309",
+      "url": "https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf"
+    }
+  ],
+  "related": [
+    "compliance-training",
+    "off-the-shelf-vs-custom-compliance-training",
+    "how-to-set-mandatory-training-refresh-cycles",
+    "how-to-build-a-training-matrix",
+    "austrac-aml-ctf-training-requirements",
+    "how-to-measure-training-effectiveness"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Financial services",
+      "href": "/industries/financial-services"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 3,
+  "factCheck": [
+    {
+      "claim": "AUSTRAC expects a training plan and schedule tailored to roles and risks, regulatory updates, a completion register tracking when further training is due, effectiveness monitoring and evaluation of retention and application",
+      "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
+    },
+    {
+      "claim": "AUSTRAC example frequencies: compliance officers and senior management every 6 to 12 months; customer facing and EDD roles every 12 months; vendors at onboarding and contract renewal or change; others at onboarding; examples only",
+      "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
+    },
+    {
+      "claim": "AUSTRAC: initial training at start of employment or engagement; delivery may be outsourced but the entity remains responsible",
+      "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
+    },
+    {
+      "claim": "RG 104.82: continuing training programs and training records",
+      "source": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/"
+    },
+    {
+      "claim": "Safe Work Australia: induction training, task training, ongoing training; training regularly monitored and evaluated; consult workers on effectiveness",
+      "source": "https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work"
+    }
+  ]
+}

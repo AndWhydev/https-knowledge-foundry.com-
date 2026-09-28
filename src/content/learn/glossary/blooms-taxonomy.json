@@ -1,0 +1,229 @@
+{
+  "slug": "blooms-taxonomy",
+  "kind": "glossary",
+  "title": "What is Bloom's taxonomy?",
+  "seoTitle": "Bloom's taxonomy: revised levels",
+  "description": "Bloom's taxonomy classifies learning objectives by thinking level. The 1956 original, the 2001 Anderson and Krathwohl revision, and how to use it in training.",
+  "shortAnswer": "Bloom's taxonomy is a framework for classifying learning objectives by the kind of thinking they require. The revised version, published by Anderson and Krathwohl in 2001, has six cognitive process levels (Remember, Understand, Apply, Analyse, Evaluate, and Create) and a separate knowledge dimension (factual, conceptual, procedural, and metacognitive). Training designers use it to write outcomes at the right level and to check that assessment tests that level.",
+  "keyTakeaways": [
+    "The original taxonomy was published in 1956 by Bloom, Engelhart, Furst, Hill, and Krathwohl.",
+    "The 2001 revision by Anderson and Krathwohl renamed the categories as verbs and put Create at the top.",
+    "The revision added a knowledge dimension, giving a two dimensional Taxonomy Table.",
+    "Compliance training often assesses Remember when the obligation requires Apply or Evaluate; the taxonomy makes that mismatch visible."
+  ],
+  "term": "Bloom's taxonomy",
+  "alsoKnownAs": [
+    "Taxonomy of Educational Objectives",
+    "revised Bloom's taxonomy",
+    "Anderson and Krathwohl taxonomy"
+  ],
+  "sections": [
+    {
+      "id": "origins",
+      "heading": "Where does Bloom's taxonomy come from?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bloom's taxonomy comes from a group of university examiners led by Benjamin Bloom, who began meeting in 1949 to create a shared way of classifying test items. Their framework was published in 1956 as Taxonomy of Educational Objectives: The Classification of Educational Goals. Handbook I: Cognitive Domain (Bloom, Engelhart, Furst, Hill, and Krathwohl), with six categories: Knowledge, Comprehension, Application, Analysis, Synthesis, and Evaluation."
+        },
+        {
+          "type": "p",
+          "text": "In 2001 Lorin Anderson, David Krathwohl, and colleagues published A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom's Taxonomy of Educational Objectives. Krathwohl's overview of the revision in Theory Into Practice (2002) explains the changes and the new Taxonomy Table ([ERIC record](https://eric.ed.gov/?id=EJ667155))."
+        }
+      ]
+    },
+    {
+      "id": "levels",
+      "heading": "What are the levels of the revised Bloom's taxonomy?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The revised cognitive process dimension has six levels, from lower order to higher order thinking. Anderson and Krathwohl list specific cognitive processes under each, 19 in total ([Boston University summary of Anderson and Krathwohl, 2001](https://www.bu.edu/provost/files/2013/10/Anderson-Krathwohl-Revision-to-Blooms-Taxonomy-of-Educational-Objectives.pdf))."
+        },
+        {
+          "type": "table",
+          "caption": "Revised cognitive process levels with a compliance training example (examples illustrative)",
+          "head": [
+            "Level",
+            "Cognitive processes (Anderson and Krathwohl)",
+            "Example outcome in a privacy course"
+          ],
+          "rows": [
+            [
+              "Remember",
+              "Recognising, recalling",
+              "State the time limit for responding to an access request"
+            ],
+            [
+              "Understand",
+              "Interpreting, exemplifying, classifying, summarising, inferring, comparing, explaining",
+              "Explain why a customer's email address is personal information"
+            ],
+            [
+              "Apply",
+              "Executing, implementing",
+              "Follow the verification procedure before releasing records"
+            ],
+            [
+              "Analyse",
+              "Differentiating, organising, attributing",
+              "Identify which parts of a complaint involve a possible privacy breach"
+            ],
+            [
+              "Evaluate",
+              "Checking, critiquing",
+              "Judge whether a proposed data sharing arrangement meets policy"
+            ],
+            [
+              "Create",
+              "Generating, planning, producing",
+              "Draft a breach response plan for a new system"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The knowledge dimension classifies what is being learned: factual, conceptual, procedural, and metacognitive knowledge. Together the two dimensions form the Taxonomy Table, in which any objective can be placed by its verb (the cognitive process) and its object (the kind of knowledge)."
+        }
+      ]
+    },
+    {
+      "id": "what-changed",
+      "heading": "What changed between the original and the revised taxonomy?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The revision changed category names from nouns to verbs, renamed three categories, reversed the top two, and added the knowledge dimension. Eastern Illinois University's instructional design guidance summarises that the revision \"replaced the major category nouns with the action verbs and gerunds\" ([EIU](https://www.eiu.edu/instructional_design/blooms_revised_taxonomy_2001_for_action_verbs.php))."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Knowledge became Remember; Comprehension became Understand; Synthesis became Create.",
+            "Create moved above Evaluate as the highest level.",
+            "A separate knowledge dimension was added, including metacognitive knowledge as a new category."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-to-use",
+      "heading": "How is Bloom's taxonomy used in workplace training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bloom's taxonomy is used to write [learning outcomes](/glossary/learning-outcomes) with verbs that match the performance required, and to check that assessment tests the same level. Iowa State University's teaching centre advises starting with lower level objectives and progressing to higher ones ([Iowa State CELT](https://celt.iastate.edu/prepare-and-teach/design-your-course/blooms-taxonomy/))."
+        },
+        {
+          "type": "p",
+          "text": "In compliance training the most common fault is misalignment: the obligation requires staff to apply or judge a rule, but the quiz asks them to recall it. Placing each outcome and each assessment item on the taxonomy shows the gap. This is the basis of an [assessment blueprint](/glossary/assessment-blueprint) and of [constructive alignment](/glossary/constructive-alignment)."
+        }
+      ]
+    },
+    {
+      "id": "how-it-differs",
+      "heading": "How is Bloom's taxonomy different from the Kirkpatrick model and ADDIE?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bloom's taxonomy classifies the thinking an objective requires. The [Kirkpatrick model](/glossary/kirkpatrick-model) classifies how training results are evaluated, and the [ADDIE model](/glossary/addie-model) describes the design process. They are complementary: Bloom's is typically used in ADDIE's Design phase, and Kirkpatrick's in its Evaluation phase."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records a cognitive level for each learning outcome and assessment point in the framework, so reviewers can see where assessment sits below the level an obligation requires before content is written."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should I use the original or revised Bloom's taxonomy?",
+      "a": "Most current teaching guidance uses the 2001 revision, because its verb based levels map directly onto outcome statements and its knowledge dimension helps separate facts from procedures. The original is still cited, so it helps to know that Knowledge, Comprehension, and Synthesis correspond to Remember, Understand, and Create."
+    },
+    {
+      "q": "Is Bloom's taxonomy a strict hierarchy?",
+      "a": "Not strictly. The levels are ordered by general complexity, but the Boston University summary of the revision notes that the distinctions between categories are not always clear cut, and a task at one level can demand thinking as complex as another. Treat it as a guide to alignment, not a ranking of worth."
+    },
+    {
+      "q": "Are there Bloom's taxonomies for skills and attitudes?",
+      "a": "Yes, partly. The 1956 handbook covered the cognitive domain. Krathwohl notes that Handbook II, The Affective Domain, followed in 1964, but that the original group never published a psychomotor taxonomy; psychomotor taxonomies came later from other authors. Procedural workplace skills usually need observed practical assessment regardless of which taxonomy is used."
+    },
+    {
+      "q": "Does using Bloom's verbs guarantee good outcomes?",
+      "a": "No. A verb list helps, but an outcome also needs a clear object, conditions, and a standard that can be assessed. An outcome such as \"understand the policy\" fails because understanding cannot be observed, whichever list the verb came from."
+    }
+  ],
+  "sources": [
+    {
+      "title": "A Revision of Bloom's Taxonomy: An Overview (Krathwohl, 2002)",
+      "publisher": "Theory Into Practice, via ERIC",
+      "url": "https://eric.ed.gov/?id=EJ667155"
+    },
+    {
+      "title": "A Model of Learning Objectives based on A Taxonomy for Learning, Teaching, and Assessing",
+      "publisher": "Boston University",
+      "url": "https://www.bu.edu/provost/files/2013/10/Anderson-Krathwohl-Revision-to-Blooms-Taxonomy-of-Educational-Objectives.pdf"
+    },
+    {
+      "title": "Revised Bloom's Taxonomy",
+      "publisher": "Iowa State University Center for Excellence in Learning and Teaching",
+      "url": "https://celt.iastate.edu/prepare-and-teach/design-your-course/blooms-taxonomy/"
+    },
+    {
+      "title": "Bloom's Revised Taxonomy (2001)",
+      "publisher": "Eastern Illinois University",
+      "url": "https://www.eiu.edu/instructional_design/blooms_revised_taxonomy_2001_for_action_verbs.php"
+    }
+  ],
+  "factCheck": [
+    {
+      "claim": "Original group met from 1949; published 1956 as Taxonomy of Educational Objectives Handbook I: Cognitive Domain (Bloom, Engelhart, Furst, Hill, Krathwohl); six categories Knowledge, Comprehension, Application, Analysis, Synthesis, Evaluation",
+      "source": "https://ocw.metu.edu.tr/pluginfile.php/9009/mod_resource/content/1/s15430421tip4104_2.pdf"
+    },
+    {
+      "claim": "Krathwohl 2002, Theory into Practice v41 n4 p212-18; describes Taxonomy Table with cognitive process and knowledge dimensions",
+      "source": "https://eric.ed.gov/?id=EJ667155"
+    },
+    {
+      "claim": "Four knowledge types factual, conceptual, procedural, metacognitive; 19 cognitive processes; process lists per level; distinctions not always clear cut",
+      "source": "https://www.bu.edu/provost/files/2013/10/Anderson-Krathwohl-Revision-to-Blooms-Taxonomy-of-Educational-Objectives.pdf"
+    },
+    {
+      "claim": "2001 revision book title A Taxonomy for Learning, Teaching, and Assessing; advise starting with lower level objectives",
+      "source": "https://celt.iastate.edu/prepare-and-teach/design-your-course/blooms-taxonomy/"
+    },
+    {
+      "claim": "Revision replaced category nouns with verbs: Remember, Understand, Apply, Analyze, Evaluate, Create",
+      "source": "https://www.eiu.edu/instructional_design/blooms_revised_taxonomy_2001_for_action_verbs.php"
+    },
+    {
+      "claim": "Handbook II Affective Domain published 1964 (Krathwohl, Bloom, Masia); psychomotor taxonomy never published by the original group",
+      "source": "https://ocw.metu.edu.tr/pluginfile.php/9009/mod_resource/content/1/s15430421tip4104_2.pdf"
+    }
+  ],
+  "related": [
+    "learning-outcomes",
+    "assessment-blueprint",
+    "constructive-alignment",
+    "instructional-design",
+    "how-to-write-measurable-learning-outcomes"
+  ],
+  "productLinks": [
+    {
+      "label": "Framework intelligence",
+      "href": "/platform/framework-intelligence"
+    },
+    {
+      "label": "Educational programs",
+      "href": "/programs/educational"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 1
+}

@@ -1,0 +1,182 @@
+{
+  "slug": "spaced-repetition",
+  "kind": "glossary",
+  "title": "What is spaced repetition?",
+  "seoTitle": "Spaced repetition: definition",
+  "description": "Spaced repetition reviews material over lengthening gaps to improve long term retention. What the research shows and how to use it in refresher training.",
+  "shortAnswer": "Spaced repetition is a learning method in which the same material is reviewed several times with gaps between sessions, rather than in one concentrated block, so that it is retained for longer. It applies the spacing effect, a finding supported by a large body of memory research, including a meta-analysis of more than 300 experiments. In workplace training it is used to schedule short reviews and practice questions after initial training, instead of relying on a single annual course.",
+  "keyTakeaways": [
+    "Spacing study sessions apart improves long term retention compared with massed study (cramming).",
+    "A 2006 meta-analysis by Cepeda and colleagues drew on 839 assessments of distributed practice from 317 experiments.",
+    "The best gap depends on how long the knowledge must last: a 2008 study found the optimal gap was about 20% of the retention interval for delays of a few weeks, falling to about 5% for one year.",
+    "For compliance, a single annual course is a massed design; short spaced reviews between courses are a better fit with the evidence."
+  ],
+  "term": "spaced repetition",
+  "alsoKnownAs": [
+    "spaced practice",
+    "distributed practice",
+    "spaced learning",
+    "the spacing effect"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What is the evidence behind spaced repetition?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The evidence comes from decades of research on distributed practice. Cepeda, Pashler, Vul, Wixted, and Rohrer's meta-analysis in Psychological Bulletin (2006) reviewed \"839 assessments of distributed practice in 317 experiments located in 184 articles\" and found that the gap between study sessions and the length of time the material must be retained \"operate jointly to affect final test retention\" ([Cepeda et al., 2006](https://www.yorku.ca/ncepeda/publications/CPVWR2006.html))."
+        },
+        {
+          "type": "p",
+          "text": "A follow up study in Psychological Science (2008) taught over 1,350 people a set of facts, reviewed them after a gap of up to 3.5 months, and tested them up to a year later. The authors report that \"the optimum gap value was about 20% of the test delay for delays of a few weeks, falling to about 5% when delay was one year\", and that \"many educational practices are likely to be highly inefficient\" ([Cepeda et al., 2008, ERIC record](https://eric.ed.gov/?id=ED505660))."
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "heading": "How does spaced repetition work in practice?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Spaced repetition works by scheduling reviews at intervals after the first learning, with the intervals chosen according to how long the knowledge must last. Most practical systems combine it with retrieval: the learner answers a question rather than rereading."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative spacing schedules derived from the 2008 ratios (approximate, not prescriptive)",
+          "head": [
+            "Knowledge must last",
+            "Approximate optimal gap (from the study's ratios)",
+            "Practical schedule"
+          ],
+          "rows": [
+            [
+              "About 5 weeks",
+              "About 20% of the delay, roughly one week",
+              "Initial training, then a review about a week later"
+            ],
+            [
+              "About 1 year",
+              "About 5% of the delay, roughly two to three weeks",
+              "Initial training, a review within the first month, then periodic checks"
+            ],
+            [
+              "Ongoing role requirement",
+              "Not directly studied",
+              "Recurring short reviews, weighted towards concepts people get wrong"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The study measured a single review. Many practical systems add more reviews at lengthening intervals, and adapt them to each learner's errors; those choices are design judgements rather than direct findings of the studies cited here."
+        }
+      ]
+    },
+    {
+      "id": "where-it-fits",
+      "heading": "Where does spaced repetition fit in compliance training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Spaced repetition fits between formal refresher courses. Many organisations deliver mandatory training once a year in a single session, which is a massed design; knowledge needed every day, or in rare but critical situations, is better maintained with short spaced reviews."
+        },
+        {
+          "type": "p",
+          "text": "It pairs naturally with [microlearning](/glossary/microlearning), because short units are easy to schedule, and with question banks built from an [assessment blueprint](/glossary/assessment-blueprint), so each review targets a defined outcome. See [how often mandatory training should be refreshed](/guides/how-to-set-mandatory-training-refresh-cycles) for how spacing interacts with regulatory refresh requirements."
+        }
+      ]
+    },
+    {
+      "id": "how-it-differs",
+      "heading": "How is spaced repetition different from microlearning and refresher training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Spaced repetition is about when learning is reviewed; microlearning is about the size of each unit; refresher training is a repeat of a course at a fixed cycle. A yearly refresher is repetition, but with a single long gap and usually no targeting of weak areas, so it captures little of the spacing benefit on its own."
+        },
+        {
+          "type": "p",
+          "text": "Spaced repetition is also distinct from retrieval practice (testing oneself rather than rereading), although the two are often combined and many spaced repetition tools use questions as the review activity. [Instructional design](/glossary/instructional-design) decisions bring these together."
+        }
+      ]
+    },
+    {
+      "id": "example",
+      "heading": "What does a spaced repetition program look like?",
+      "blocks": [
+        {
+          "type": "callout",
+          "title": "Illustrative example",
+          "text": "A pharmacy group trains dispensary staff on a revised dose checking procedure. After the initial session, staff receive three scenario questions in week 1, week 3, and week 8, then one question a month. Questions a person gets wrong come back sooner. The group reports accuracy by concept to the quality team, and a concept that stays weak across stores prompts a change to the procedure document, not just more training."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines concepts and assessment points in a framework, which gives spaced review a stable target: each review question can be tied to a concept and obligation, and results can show which parts of the framework staff retain."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is spaced repetition the same as the spacing effect?",
+      "a": "Nearly. The spacing effect is the research finding that spaced study improves retention compared with massed study. Spaced repetition is the practice of deliberately scheduling reviews to take advantage of it. The terms distributed practice and spaced practice are also used."
+    },
+    {
+      "q": "What is the best interval for spaced repetition?",
+      "a": "There is no single best interval. Cepeda and colleagues found the optimal gap depends on how long the knowledge must be retained: about 20 percent of the retention interval for a few weeks, falling to about 5 percent for a year. Longer retention needs longer gaps."
+    },
+    {
+      "q": "Does spaced repetition work for skills as well as facts?",
+      "a": "Most of the strongest evidence, including the Cepeda meta-analysis, comes from verbal recall tasks such as facts and vocabulary. Spacing is also used for procedural skills, but the evidence there is less uniform, so practical skills should still be checked by observation."
+    },
+    {
+      "q": "Can an LMS deliver spaced repetition?",
+      "a": "Many can schedule recurring short activities, and some support adaptive review. Where the LMS cannot, reviews can be delivered by other tools and recorded with xAPI. What matters is that each review is linked to a defined outcome and that results are used."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Distributed practice in verbal recall tasks: A review and quantitative synthesis (Cepeda, Pashler, Vul, Wixted, and Rohrer, 2006)",
+      "publisher": "Psychological Bulletin, 132, 354 to 380",
+      "url": "https://www.yorku.ca/ncepeda/publications/CPVWR2006.html"
+    },
+    {
+      "title": "Spacing Effects in Learning: A Temporal Ridgeline of Optimal Retention (Cepeda, Vul, Rohrer, Wixted, and Pashler, 2008)",
+      "publisher": "Psychological Science, via ERIC",
+      "url": "https://eric.ed.gov/?id=ED505660"
+    }
+  ],
+  "factCheck": [
+    {
+      "claim": "Cepeda et al. 2006 Psychological Bulletin 132, 354-380: 839 assessments, 317 experiments, 184 articles; ISI and retention interval operate jointly",
+      "source": "https://www.yorku.ca/ncepeda/publications/CPVWR2006.html"
+    },
+    {
+      "claim": "Cepeda et al. 2008: over 1,350 individuals, gap up to 3.5 months, final test up to 1 year; optimum gap about 20% of test delay for a few weeks, about 5% at one year; many educational practices likely highly inefficient",
+      "source": "https://eric.ed.gov/?id=ED505660"
+    }
+  ],
+  "related": [
+    "microlearning",
+    "instructional-design",
+    "how-to-set-mandatory-training-refresh-cycles",
+    "how-to-reduce-compliance-training-fatigue",
+    "assessment-blueprint"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge transformation",
+      "href": "/platform/knowledge-transformation"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 6
+}

@@ -1,0 +1,294 @@
+{
+  "slug": "how-to-conduct-a-training-needs-analysis",
+  "kind": "guide",
+  "title": "How do you conduct a training needs analysis?",
+  "seoTitle": "How to conduct a training needs analysis",
+  "description": "A seven step method for training needs analysis in regulated organisations: organisation, task and person analysis, prioritisation, and a TNA template.",
+  "shortAnswer": "A training needs analysis (TNA) is conducted in seven steps: define the performance problem, confirm training is the right response, analyse the organisation, analyse the tasks and required standard, analyse the people who do them, prioritise needs by risk and size of gap, and record a specification that states the audience, learning outcomes, delivery approach and how success will be measured.",
+  "keyTakeaways": [
+    "Start from a performance problem or obligation, not from a request for a course. Many gaps are better fixed by process, tooling, supervision or hiring.",
+    "Analyse at three levels: the organisation, the tasks and their required standard, and the individuals who perform them.",
+    "In regulated sectors the task standard often comes from the regulator. ASIC and AUSTRAC both expect training to be matched to role and risk.",
+    "Prioritise needs by consequence of failure multiplied by the size and spread of the gap, then fund from the top.",
+    "The output is a written specification that the design team, the budget holder and an auditor can all read."
+  ],
+  "sections": [
+    {
+      "id": "what-a-tna-produces",
+      "heading": "What does a training needs analysis produce?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A training needs analysis produces a decision record: which performance gaps exist, which of them training can close, who needs what, in what order, and how the result will be judged. It is an input to design, not a design document itself."
+        },
+        {
+          "type": "p",
+          "text": "The Chartered Institute of Personnel and Development (CIPD) describes the core logic as knowing the organisation's current and future capability needs and then assessing existing levels of skills, attitudes and knowledge, so that decisions can be made about learning at individual, team or organisational level ([CIPD](https://www.cipd.org/en/knowledge/factsheets/learning-needs-factsheet/)). CIPD also distinguishes an ongoing learning needs analysis from a TNA, which it describes as a one-off analysis for a specific training activity."
+        },
+        {
+          "type": "p",
+          "text": "The three level structure used below (organisation, task, person) traces back to McGehee and Thayer's 1961 work on training in business and industry and remains the standard frame. For the difference between this exercise and a comparison against a fixed standard, see [training needs analysis vs gap analysis](/compare/training-needs-analysis-vs-gap-analysis)."
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "heading": "What are the steps in a training needs analysis?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "There are seven steps. Each one produces a named output, and the analysis is complete only when all seven exist in writing."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Define the trigger and the performance problem.** State what is happening, what should be happening, and the evidence for the difference: incident data, audit findings, complaint trends, a new obligation, a new product or system. Output: a one paragraph problem statement with its evidence sources.",
+            "**Test whether training is the right response.** Ask whether people could do the task correctly if their life depended on it. If yes, the cause is usually process, tools, incentives, workload or supervision, not knowledge or skill. The ISO 9001 Auditing Practices Group lists hiring, on the job training, mentoring, reassigning tasks, adjusting the scope of a job and subcontracting as legitimate ways to acquire competence alongside training ([ISO and IAF](https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf)). Output: a cause analysis that splits the problem into a training component and a non-training component, each with an owner.",
+            "**Analyse the organisation.** Identify the strategic, regulatory and risk context: which business units, products and obligations are affected, what is changing, and what resources and constraints apply. Output: a scope statement listing the business units, roles and obligations in scope.",
+            "**Analyse the tasks.** For each role in scope, list the critical tasks and the standard each must be performed to. Draw the standard from the most authoritative source available: regulator guidance, an internal procedure, a [competency framework](/glossary/competency-framework), or a national unit of competency. Output: a task and standard list per role.",
+            "**Analyse the people.** Establish who currently performs each task and how well, using performance data, quality review results, observation, knowledge checks, manager input and existing training records. Output: a population profile showing numbers of people, current proficiency and where the gap sits.",
+            "**Prioritise.** Rate each need on consequence (what happens if the task is done wrongly) and gap (how many people, how far below standard). Output: a ranked needs list with a cut line agreed with the budget holder.",
+            "**Specify.** For each need above the cut line, write the target audience, draft [learning outcomes](/guides/how-to-write-measurable-learning-outcomes), preferred delivery approach, timing, assessment approach and the measure that will show the need has been met. Output: the TNA specification, signed off by the business owner."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regulated-task-standards",
+      "heading": "Where do task standards come from in a regulated organisation?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "In a regulated organisation the task standard in step 4 is often set, or at least framed, by the regulator. The analysis should cite that source directly so the resulting training can be traced back to it."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Financial services licensees.** The Australian Securities and Investments Commission (ASIC) states in Regulatory Guide 104 (RG 104.82) that it expects licensees to identify the knowledge and skills their representatives need, ensure they have them, ensure they undertake continuing training, and keep a record of the training ([ASIC RG 104](https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/)). The first of those expectations is a TNA in all but name.",
+            "**AML/CTF reporting entities.** AUSTRAC guidance on the reformed regime says training must be tailored to the person, their role, their responsibilities and the money laundering and terrorism financing risks relevant to that role, and that AUSTRAC expects entities to use their risk assessment to identify training needs ([AUSTRAC](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform)).",
+            "**Work health and safety.** Safe Work Australia guidance says the type and amount of training will vary by worker, and that the characteristics of the workplace and the level of risk in the work must be considered ([Safe Work Australia](https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work))."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Where no regulator standard exists, use a documented internal standard and record who approved it. An analysis that cannot name its standard cannot show that its conclusions are correct."
+        }
+      ]
+    },
+    {
+      "id": "data-sources",
+      "heading": "Which data sources should a TNA use?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use at least one source of evidence about actual performance and at least one about required performance. Opinion surveys alone describe what people want to learn, not what they need to learn."
+        },
+        {
+          "type": "table",
+          "caption": "Evidence sources by level of analysis",
+          "head": [
+            "Level",
+            "Evidence about required performance",
+            "Evidence about actual performance"
+          ],
+          "rows": [
+            [
+              "Organisation",
+              "Strategy, risk register, obligations register, regulator guidance, audit scope",
+              "Audit and regulator findings, incident and breach data, complaint trends"
+            ],
+            [
+              "Task",
+              "Procedures, work instructions, competency frameworks, units of competency, role descriptions",
+              "Quality assurance sampling, error rates, process metrics, observation of work"
+            ],
+            [
+              "Person",
+              "Role profile and required proficiency level",
+              "Knowledge checks, supervisor assessment, prior training and assessment records, self assessment used with caution"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "template",
+      "heading": "What does a completed TNA record look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A completed TNA record is one row per need, with enough detail for a designer to start work and for a reviewer to see the reasoning. The example below is illustrative only: the organisation, figures and findings are invented to show the format."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative TNA record for a retail bank contact centre",
+          "head": [
+            "Field",
+            "Illustrative entry"
+          ],
+          "rows": [
+            [
+              "Problem statement",
+              "Quality sampling found escalations of unusual transactions were incomplete in a material share of reviewed calls over two quarters"
+            ],
+            [
+              "Source of standard",
+              "Internal suspicious matter escalation procedure; AUSTRAC guidance that customer facing staff need awareness of suspicious indicators and reporting procedures"
+            ],
+            [
+              "Cause analysis",
+              "Training component: staff could not name the indicators. Non-training component: the escalation form had no mandatory fields (owner: operations)"
+            ],
+            [
+              "Roles and population",
+              "Contact centre consultants (about 240) and team leaders (about 20)"
+            ],
+            [
+              "Current proficiency",
+              "Knowledge check: most consultants identified fewer than half of the listed indicators"
+            ],
+            [
+              "Priority",
+              "High: consequence is a reporting failure; gap is broad"
+            ],
+            [
+              "Draft outcome",
+              "Given a recorded call scenario, identify each suspicious indicator present and complete an escalation that meets the procedure"
+            ],
+            [
+              "Approach",
+              "Scenario based module, team leader coaching, form redesign"
+            ],
+            [
+              "Success measure",
+              "Escalation completeness in quality sampling at or above the agreed threshold for two consecutive months"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "common-mistakes",
+      "heading": "What are the common mistakes in a training needs analysis?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The most common mistake is treating the TNA as a survey of training requests. The second is skipping the cause analysis, which produces courses for problems training cannot fix."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Stopping at the organisation level and never specifying tasks or standards.",
+            "Measuring need by completion records. The ISO 9001 Auditing Practices Group notes that participation in a course alone does not necessarily show a person is competent.",
+            "Leaving out contractors and third parties who perform regulated tasks.",
+            "Writing outcomes as topics ('AML awareness') instead of observable performance.",
+            "No success measure, which makes later [training effectiveness](/guides/how-to-measure-training-effectiveness) reporting impossible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records the obligations, roles, concepts and assessment points of a domain as a structured framework before content is written. A needs analysis can then be run against that framework, so each identified need is linked to the obligation and role it came from and to the outcome that will close it. See [gap analysis](/platform/gap-analysis) for how this works in practice."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does a training needs analysis take?",
+      "a": "It depends on scope. A focused TNA for one role and one change can be completed in days if performance data is available. An organisation wide analysis across many roles takes weeks, mostly spent collecting evidence of actual performance and agreeing task standards with subject matter experts and business owners."
+    },
+    {
+      "q": "Who should own a training needs analysis?",
+      "a": "The business owner of the performance problem should own the decision, with L&D running the analysis. In regulated areas the compliance or risk function should confirm the task standards, because they are accountable for interpreting the obligation the training is meant to support."
+    },
+    {
+      "q": "Is a skills survey enough for a TNA?",
+      "a": "No. Self reported skill levels are useful for engagement and for spotting perceived gaps, but people often misjudge their own proficiency. Combine surveys with objective evidence such as quality sampling, knowledge checks, observation and incident data before committing budget."
+    },
+    {
+      "q": "How often should a training needs analysis be repeated?",
+      "a": "Repeat it when a trigger occurs: a new or changed obligation, a new product or system, a significant incident, or an audit finding. Many organisations also run an annual review. AUSTRAC, for example, expects training to be updated in response to law changes, new risks and compliance review findings."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Learning needs analysis factsheet",
+      "publisher": "Chartered Institute of Personnel and Development (CIPD)",
+      "url": "https://www.cipd.org/en/knowledge/factsheets/learning-needs-factsheet/"
+    },
+    {
+      "title": "RG 104 AFS licensing: Meeting the general obligations",
+      "publisher": "Australian Securities and Investments Commission (ASIC)",
+      "url": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/"
+    },
+    {
+      "title": "AML/CTF training",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
+    },
+    {
+      "title": "Training and supporting your workers to stay safe at work",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work"
+    },
+    {
+      "title": "ISO 9001 Auditing Practices Group: Guidance on auditing competence (Edition 2)",
+      "publisher": "ISO and International Accreditation Forum",
+      "url": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf"
+    },
+    {
+      "title": "ISO 10015:2019 Quality management: Guidelines for competence management and people development",
+      "publisher": "International Organization for Standardization (ISO)",
+      "url": "https://www.iso.org/standard/69459.html"
+    }
+  ],
+  "related": [
+    "training-needs-analysis",
+    "how-to-run-a-training-gap-analysis",
+    "training-needs-analysis-vs-gap-analysis",
+    "how-to-build-a-competency-framework",
+    "how-to-write-measurable-learning-outcomes",
+    "how-to-measure-training-effectiveness"
+  ],
+  "productLinks": [
+    {
+      "label": "Gap analysis",
+      "href": "/platform/gap-analysis"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 2,
+  "factCheck": [
+    {
+      "claim": "CIPD: identifying L&D needs starts with knowing current and future capability needs, then assessing existing skills, attitudes and knowledge; a TNA is a one-off analysis for a specific training activity",
+      "source": "https://www.cipd.org/en/knowledge/factsheets/learning-needs-factsheet/"
+    },
+    {
+      "claim": "RG 104.82: ASIC expects licensees to identify knowledge and skills, ensure representatives have them, ensure continuing training, and keep training records",
+      "source": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/"
+    },
+    {
+      "claim": "AUSTRAC: training must be tailored to person, role, responsibilities and relevant ML/TF risks; AUSTRAC expects entities to use their risk assessment to identify training needs; customer facing staff need awareness of suspicious indicators and reporting procedures",
+      "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
+    },
+    {
+      "claim": "ISO 9001 APG lists training, hiring, on the job training, mentoring, reassigning, adjusting job scope and subcontracting as actions to acquire competence; course participation alone does not necessarily show competence",
+      "source": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf"
+    },
+    {
+      "claim": "Safe Work Australia: type and amount of training varies by worker; consider workplace characteristics and level of risk",
+      "source": "https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work"
+    }
+  ]
+}

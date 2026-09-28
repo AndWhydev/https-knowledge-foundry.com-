@@ -1,0 +1,251 @@
+{
+  "slug": "how-to-create-an-assessment-blueprint",
+  "kind": "guide",
+  "title": "How do you create an assessment blueprint?",
+  "seoTitle": "How to create an assessment blueprint",
+  "description": "How to create an assessment blueprint: list outcomes, weight by risk, set levels, choose methods, allocate items, fix decision rules and review before use.",
+  "shortAnswer": "An assessment blueprint is created by listing the learning outcomes to be assessed, weighting each by risk and importance, setting the cognitive level each must be tested at, choosing an assessment method that can produce that evidence, allocating items or tasks to each outcome, defining the conditions and decision rules, and reviewing the blueprint before use so every outcome is covered at the right level and nothing is over tested.",
+  "keyTakeaways": [
+    "A blueprint is the specification for an assessment, written before any question or task. It is sometimes called a table of specifications.",
+    "Weight outcomes by the consequence of getting them wrong, not by how much content covers them.",
+    "Match method to level: recall can be tested by questions; application and judgement need scenarios, observation or work products.",
+    "Decision rules matter as much as items. Decide in advance whether a critical outcome can be passed on average.",
+    "Review the blueprint with industry or business experts and peers before building the instrument."
+  ],
+  "sections": [
+    {
+      "id": "what-it-is",
+      "heading": "What is an assessment blueprint?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An [assessment blueprint](/glossary/assessment-blueprint) is a table that specifies, for each learning outcome, how much weight it carries, what level it is tested at, which method is used, how many items or tasks address it, and what result counts as achievement. It turns a set of outcomes into a buildable, reviewable assessment design."
+        },
+        {
+          "type": "p",
+          "text": "The blueprint exists to protect validity. TEQSA's guidance on course design warns that if the achievement and assessment of outcomes are not aligned, some outcomes may not be adequately assessed while others are assessed excessively, and that insufficient diligence in selecting methods may produce invalid or unreliable assessment ([TEQSA](https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-course-design-including-learning-outcomes-and-assessment)). A blueprint makes that alignment visible before anything is built."
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "heading": "What are the steps to create an assessment blueprint?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "There are seven steps. The blueprint should be finished and reviewed before item writing begins."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**List the outcomes in scope.** Take them from the unit, module or competency, word for word. If any outcome is not measurable, fix it first using the [learning outcomes method](/guides/how-to-write-measurable-learning-outcomes). Output: the outcome list.",
+            "**Weight each outcome.** Assign a weight based on consequence of error and frequency on the job. Mark any outcome as critical if failing it should fail the assessment regardless of other results. Output: weights and critical flags.",
+            "**Set the level for each outcome.** Record the cognitive level the outcome requires, using the revised taxonomy's processes (remember, understand, apply, analyse, evaluate, create) and knowledge types ([Krathwohl, 2002](https://eric.ed.gov/?id=EJ667155)). Output: target level per outcome.",
+            "**Choose methods.** Select the method that can generate evidence at that level: selected response questions for recall and recognition; short answer or case questions for explanation; scenarios, simulations, observation or product review for application and judgement. Output: method per outcome.",
+            "**Allocate items and tasks.** Decide how many items or task components address each outcome, in proportion to weight, with enough to support a confident judgement. Output: the item allocation.",
+            "**Define conditions and decision rules.** Record time limits, resources permitted, setting (workplace or simulated), assessor requirements, the cut score or criteria, how critical outcomes are handled, and reassessment rules. Output: the conditions and decision rules section.",
+            "**Review before use.** Check coverage, level and proportion with subject matter experts and at least one other assessor. ASQA's Assessment Practice Guide gives consulting industry, moderating the tool with other trainers and assessors, and trialling it with a group similar to the student cohort as ways to review assessment tools before use ([ASQA](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide)). Output: a reviewed, approved blueprint."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does a completed assessment blueprint look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A completed blueprint is a single table plus a short conditions note. The example below is illustrative, for a hypothetical module on handling customer complaints in a financial services business. The outcomes and weights are invented to show the format."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative assessment blueprint: complaint handling module",
+          "head": [
+            "Outcome",
+            "Weight",
+            "Level",
+            "Method",
+            "Items or tasks",
+            "Decision rule"
+          ],
+          "rows": [
+            [
+              "Recognise when a customer expression of dissatisfaction is a complaint under the policy",
+              "25%, critical",
+              "Understand (conceptual)",
+              "Scenario classification questions",
+              "8 short scenarios",
+              "All 8 correct"
+            ],
+            [
+              "Record a complaint with every mandatory field completed",
+              "20%",
+              "Apply (procedural)",
+              "Simulated system task",
+              "2 records",
+              "Both complete and accurate"
+            ],
+            [
+              "Explain the internal dispute resolution steps and timeframes to a customer",
+              "20%",
+              "Understand and apply",
+              "Recorded role play",
+              "1 role play",
+              "Meets all criteria on the observation checklist"
+            ],
+            [
+              "Decide when a complaint must be escalated and to whom",
+              "25%, critical",
+              "Analyse and evaluate",
+              "Case study with written rationale",
+              "3 cases",
+              "All escalation decisions correct with a reason linked to the policy"
+            ],
+            [
+              "Identify a systemic issue across a set of complaints",
+              "10%",
+              "Analyse",
+              "Short case analysis",
+              "1 case set",
+              "Identifies the pattern and names the reporting path"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Conditions note (illustrative): open book with access to the complaints policy; system task in a training environment; role play assessed by a team leader who holds the relevant assessor credential; learners who miss a critical outcome are reassessed on that outcome after further coaching."
+        }
+      ]
+    },
+    {
+      "id": "method-level-match",
+      "heading": "How do you match assessment methods to outcome levels?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Match the method to the highest level the outcome requires. A method that can only elicit recall cannot prove application, however many items it contains."
+        },
+        {
+          "type": "table",
+          "caption": "Method to level guide",
+          "head": [
+            "Outcome level",
+            "Methods that can produce evidence",
+            "Methods that cannot"
+          ],
+          "rows": [
+            [
+              "Remember, understand",
+              "Selected response, short answer, explain in own words",
+              "None excluded, but observation is usually unnecessary"
+            ],
+            [
+              "Apply",
+              "Scenario tasks, simulations, observed practice, work products",
+              "Recall questions about the procedure"
+            ],
+            [
+              "Analyse, evaluate",
+              "Case analysis with rationale, structured professional discussion, review of real decisions",
+              "Single answer questions without a reason"
+            ],
+            [
+              "Create",
+              "Design or plan tasks judged against criteria, portfolios",
+              "Any fixed response format"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "In vocational education this matters directly. Under Standard 1.4 of the 2025 Standards for RTOs, the validity principle requires assessment to include practical application components that let the student demonstrate the relevant skills and knowledge in a practical setting ([ASQA](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide)). A blueprint that assigns only questions to a performance outcome would fail that test."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines assessment points as part of the framework, linked to the outcome, concept and obligation each one evidences. The blueprint is therefore a view of existing framework records, and coverage gaps show before items are written. See [verification and trust](/platform/verification-trust)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is an assessment blueprint the same as a table of specifications?",
+      "a": "Largely yes. 'Table of specifications' is the older testing term, usually a grid of content areas against cognitive levels with item counts. An assessment blueprint in workplace and vocational settings usually adds methods, conditions, assessor requirements and decision rules, because assessments often include observation and work products as well as questions."
+    },
+    {
+      "q": "How many questions are needed per outcome?",
+      "a": "Enough for a confident judgement, which depends on the outcome's weight and variability. A critical recognition outcome may need several varied items so that one lucky guess cannot pass it. A performance outcome may need one well specified task observed against a checklist, or repeated performance where the standard requires consistency."
+    },
+    {
+      "q": "Should critical outcomes be pass or fail?",
+      "a": "Usually. If getting an outcome wrong on the job could cause a breach, harm or significant loss, allowing a learner to pass by scoring well elsewhere undermines the purpose. State in the blueprint that critical outcomes must be met individually, and define the reassessment path."
+    },
+    {
+      "q": "Who should review an assessment blueprint?",
+      "a": "At minimum, a subject matter expert who knows current practice and another assessor or designer who did not write it. For regulated content, compliance should confirm that critical outcomes reflect the obligation correctly. Record the review and any changes made."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Assessment Practice Guide (2025 Standards for RTOs)",
+      "publisher": "Australian Skills Quality Authority (ASQA)",
+      "url": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
+    },
+    {
+      "title": "Guidance note: Course design (including learning outcomes and assessment)",
+      "publisher": "Tertiary Education Quality and Standards Agency (TEQSA)",
+      "url": "https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-course-design-including-learning-outcomes-and-assessment"
+    },
+    {
+      "title": "A Revision of Bloom's Taxonomy: An Overview (Krathwohl, 2002, Theory Into Practice 41(4))",
+      "publisher": "ERIC, Institute of Education Sciences",
+      "url": "https://eric.ed.gov/?id=EJ667155"
+    },
+    {
+      "title": "Enhancing Teaching through Constructive Alignment (Biggs, 1996, Higher Education 32)",
+      "publisher": "ERIC, Institute of Education Sciences",
+      "url": "https://eric.ed.gov/?id=EJ534311"
+    }
+  ],
+  "related": [
+    "assessment-blueprint",
+    "how-to-design-competency-assessments",
+    "how-to-write-measurable-learning-outcomes",
+    "formative-vs-summative-assessment",
+    "standards-for-rtos-2025-training-and-assessment",
+    "how-to-build-a-curriculum-map"
+  ],
+  "productLinks": [
+    {
+      "label": "Verification and trust",
+      "href": "/platform/verification-trust"
+    },
+    {
+      "label": "Standards and accreditation",
+      "href": "/platform/standards-accreditation"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 6,
+  "factCheck": [
+    {
+      "claim": "TEQSA: misalignment risks outcomes not adequately assessed or some assessed excessively; insufficient diligence in selecting methods may produce invalid or unreliable assessment",
+      "source": "https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-course-design-including-learning-outcomes-and-assessment"
+    },
+    {
+      "claim": "ASQA Assessment Practice Guide: review tools before use by consulting industry, moderating with other trainers and assessors, and trialling with a similar group",
+      "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
+    },
+    {
+      "claim": "Standard 1.4 validity principle: assessment includes practical application components enabling demonstration in a practical setting",
+      "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
+    }
+  ]
+}

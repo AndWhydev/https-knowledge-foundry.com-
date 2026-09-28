@@ -1,0 +1,227 @@
+{
+  "slug": "lms-vs-lcms",
+  "kind": "comparison",
+  "title": "LMS vs LCMS: what is the difference?",
+  "seoTitle": "LMS vs LCMS: the difference",
+  "description": "An LMS manages learners and records training; an LCMS manages the content itself. A side by side comparison, when to choose each, and how they work together.",
+  "shortAnswer": "A learning management system (LMS) manages learners: it enrols people, launches courses, and records completions and scores. A learning content management system (LCMS) manages the content: it stores reusable learning objects, supports multi author editing and versioning, and publishes packages that an LMS can deliver. The LMS answers who did what training and when; the LCMS answers what the training says and which version is current.",
+  "keyTakeaways": [
+    "An LMS is learner and administration centred; an LCMS is content and author centred.",
+    "An LCMS typically publishes packaged content (for example SCORM or cmi5) that an LMS then delivers and tracks.",
+    "Regulated organisations with large, frequently changing content libraries gain most from an LCMS; small libraries often do not need one.",
+    "Neither system, on its own, defines what people need to know or proves they are competent."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the core difference between an LMS and an LCMS?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The core difference is the object each system manages: an LMS manages people and their training records, while an LCMS manages the learning content those people consume. The two are complementary categories that are often confused because their acronyms differ by one letter and some products combine features of both."
+        },
+        {
+          "type": "p",
+          "text": "The Institute of Electrical and Electronics Engineers (IEEE) describes an LMS in the scope of its draft cmi5 standard as \"a system that manages learners, learning content as presented via HyperText Markup Language (HTML), and the authorized use of the learning content to learners\" ([IEEE P9274.3.1](https://standards.ieee.org/ieee/9274.3.1/11183/)). In other words, the LMS controls access and records what happened. See the full definition of a [learning management system](/glossary/learning-management-system)."
+        },
+        {
+          "type": "p",
+          "text": "An LCMS sits upstream. It is where instructional designers and subject matter experts build content from reusable components, apply metadata, manage versions, and publish outputs. The idea of breaking content into reusable, described objects that can move between systems and repositories is central to the Sharable Content Object Reference Model (SCORM), whose Content Aggregation Model covers packaging and metadata \"to enable search and discovery\" and reuse \"across LMSs and repositories\" ([ADL Initiative](https://adlnet.gov/past-projects/scorm/)). See also [learning content management system](/glossary/learning-content-management-system)."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do an LMS and an LCMS compare side by side?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The table compares the two categories on the dimensions that matter most to compliance and L&D teams. Individual products vary, so treat it as a description of each category's primary purpose rather than of any product."
+        },
+        {
+          "type": "table",
+          "caption": "LMS and LCMS compared at category level",
+          "head": [
+            "Dimension",
+            "Learning management system (LMS)",
+            "Learning content management system (LCMS)"
+          ],
+          "rows": [
+            [
+              "Primary object managed",
+              "Learners, enrolments, and training records",
+              "Learning content and its components"
+            ],
+            [
+              "Main users",
+              "Administrators, managers, learners",
+              "Instructional designers, subject matter experts, content editors"
+            ],
+            [
+              "Core functions",
+              "Assign, launch, track, report, certify",
+              "Author, reuse, version, review, publish"
+            ],
+            [
+              "Unit of work",
+              "A course or activity assigned to a person",
+              "A learning object, topic, or asset reused across courses"
+            ],
+            [
+              "Typical output",
+              "Completion records, scores, compliance reports",
+              "Published packages (for example SCORM or cmi5) and other formats"
+            ],
+            [
+              "Standards role",
+              "Imports and runs packages; stores results",
+              "Exports packages that conform to those standards"
+            ],
+            [
+              "Audit question it answers",
+              "Who completed what, and when?",
+              "What did the content say at that time, and who approved it?"
+            ],
+            [
+              "Main risk if missing",
+              "No reliable record of who was trained",
+              "Duplicated, inconsistent, or outdated content across courses"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "when-to-choose",
+      "heading": "When should you choose each?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Choose an LMS when the main problem is assigning, tracking, and reporting training; choose an LCMS when the main problem is creating and maintaining a large body of content. Most regulated organisations need an LMS first, because training records are what regulators and auditors ask for."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**An LMS is the priority** when you must prove who completed mandatory training, manage due dates and refresh cycles, and report to a board or regulator. See [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit).",
+            "**An LCMS becomes worth it** when many courses share the same content (for example a privacy obligation that appears in induction, customer service, and IT security modules), when several authors edit content in parallel, or when content must be republished often after regulatory change.",
+            "**Neither is urgent** for a small library of a few courses that change once a year; an authoring tool plus an LMS is usually enough."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "using-together",
+      "heading": "How do an LMS and an LCMS work together?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They work together as a content pipeline: the LCMS is the source of truth for content, and the LMS is the source of truth for learner records. Content is authored and approved in the LCMS, published as a package, imported into the LMS, and delivered to learners, whose results are recorded in the LMS."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Author and review content as reusable components in the LCMS, with named approvers.",
+            "Publish a versioned package to a standard the LMS supports.",
+            "Import the package into the LMS and assign it to the right roles.",
+            "Record completions and scores in the LMS against that package version.",
+            "When an obligation changes, update the shared component once in the LCMS and republish every course that uses it."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The weak point is the link between content version and learner record. If the LMS cannot show which version of a module a person completed, an auditor cannot tell whether that person was trained on current requirements. See [how to maintain version control for training content](/guides/how-to-maintain-version-control-for-training-content)."
+        }
+      ]
+    },
+    {
+      "id": "what-neither-does",
+      "heading": "What does neither system do on its own?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Neither an LMS nor an LCMS decides what people need to know or verifies that they can apply it. Those questions belong to analysis and assessment design: a [training needs analysis](/glossary/training-needs-analysis), a [competency framework](/glossary/competency-framework), and assessments built against defined outcomes."
+        },
+        {
+          "type": "p",
+          "text": "An LCMS makes content easier to reuse, but reuse multiplies errors as efficiently as it multiplies good content. An LMS records completions, but a completion shows exposure rather than competence, a distinction covered in [completion tracking vs competency verification](/compare/completion-tracking-vs-competency-verification)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry sits before both systems. It defines the knowledge framework (concepts, relationships, assessment points, and the obligations they trace to) and then produces content and assessments that can be delivered through an existing LMS. The aim is that each piece of content has a known source and each assessment has a known purpose, whichever LMS or LCMS an organisation already uses."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can one product be both an LMS and an LCMS?",
+      "a": "Yes. Some products include authoring and content management features alongside learner management, and some content systems include basic delivery and tracking. The categories still describe different jobs, so it is worth checking which job a combined product does well, rather than assuming both are equally strong."
+    },
+    {
+      "q": "Is an LCMS the same as an authoring tool?",
+      "a": "Not quite. An authoring tool builds individual courses. An LCMS adds a shared repository of reusable components, multi author workflow, versioning, and publishing across many courses. Organisations with a handful of courses often need only an authoring tool; organisations maintaining hundreds of related modules are more likely to benefit from an LCMS."
+    },
+    {
+      "q": "Which one do auditors care about?",
+      "a": "Auditors usually start with learner records, which live in the LMS: who was trained, when, and with what result. For higher risk obligations they may also ask what the training contained at the time and who approved it, which is where content version history, often held in an LCMS, becomes important."
+    },
+    {
+      "q": "Do I need an LCMS to use SCORM or cmi5?",
+      "a": "No. Many authoring tools export SCORM or cmi5 packages directly. An LCMS is useful when you need to publish many packages from shared content and keep them consistent, not because the standards require one."
+    }
+  ],
+  "sources": [
+    {
+      "title": "P9274.3.1: Standard for Packaging, Launch, and Run-time of Experience Application Programming Interface (xAPI) in Session-based Learning",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/9274.3.1/11183/"
+    },
+    {
+      "title": "Sharable Content Object Reference Model (SCORM)",
+      "publisher": "Advanced Distributed Learning (ADL) Initiative",
+      "url": "https://adlnet.gov/past-projects/scorm/"
+    },
+    {
+      "title": "Experience API (xAPI) Standard",
+      "publisher": "Advanced Distributed Learning (ADL) Initiative",
+      "url": "https://adlnet.gov/projects/xapi/"
+    }
+  ],
+  "related": [
+    "learning-management-system",
+    "learning-content-management-system",
+    "lms-vs-lxp",
+    "scorm-vs-xapi",
+    "how-to-maintain-version-control-for-training-content",
+    "how-to-choose-a-compliance-training-platform"
+  ],
+  "productLinks": [
+    {
+      "label": "Integrations",
+      "href": "/platform/integrations"
+    },
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 3,
+  "factCheck": [
+    {
+      "claim": "IEEE P9274.3.1 scope defines an LMS as a system that manages learners, learning content as presented via HTML, and the authorized use of the learning content to learners",
+      "source": "https://standards.ieee.org/ieee/9274.3.1/11183/"
+    },
+    {
+      "claim": "ADL states the SCORM Content Aggregation Model describes packaging and metadata to enable search and discovery and promotes reusability across LMSs and repositories",
+      "source": "https://adlnet.gov/past-projects/scorm/"
+    }
+  ]
+}

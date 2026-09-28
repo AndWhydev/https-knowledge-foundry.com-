@@ -1,0 +1,331 @@
+{
+  "slug": "how-to-convert-policies-into-training",
+  "kind": "guide",
+  "title": "How do you turn policy documents into training?",
+  "seoTitle": "Turning policies into training",
+  "description": "How to turn policy documents into training: extract the decisions each role must make, write outcomes, build scenarios, assess, and trace to the policy.",
+  "shortAnswer": "To turn a policy document into training, break the policy into the specific decisions and actions it requires of each role, write a measurable outcome for each one, and build practice and assessment around realistic situations where the policy applies. Link every outcome to the policy clause and version, so that when the policy changes you know exactly which training and which assessment items must change with it.",
+  "keyTakeaways": [
+    "A policy says what the organisation requires. Training has to show each person when a rule applies to their work and what to do.",
+    "Most policy text is background, definitions, or rationale. Only obligations, prohibitions, decision rules, and escalation paths become learning outcomes.",
+    "Different roles need different depth. A single all staff module rarely meets a requirement for training that is suitable to the work and its risks.",
+    "Assessment should test application in a scenario, not recall of policy wording or a signed attestation.",
+    "Keep a trace from policy clause to outcome to assessment item so a policy change triggers a targeted training change."
+  ],
+  "sections": [
+    {
+      "id": "why-reading-is-not-training",
+      "heading": "Why is reading a policy not the same as training on it?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Reading a policy proves that a person was given the document; training has to prove that they can recognise the situations it covers and act correctly in them. Policies are written for completeness and legal precision, so they describe rules in the abstract. Staff meet those rules as specific moments in their work: a gift offered by a supplier, a customer asking to change bank details, a near miss on site."
+        },
+        {
+          "type": "p",
+          "text": "Regulators frame the obligation around suitability rather than exposure. The model Work Health and Safety (WHS) Regulations require that information, training and instruction be \"suitable and adequate\" having regard to the nature of the work, the risks at the time it is provided, and the control measures in place, and that it be provided in a way that is \"readily understandable\" ([Safe Work Australia, model WHS Regulations r39](https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf)). AUSTRAC makes a similar point for anti money laundering programs: training must be accessible and understandable to the person receiving it ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training))."
+        },
+        {
+          "type": "p",
+          "text": "A [policy attestation](/glossary/policy-attestation) still has a place. It records that a person has received and accepted a document. It does not show that they can apply it, which is the question an auditor or regulator asks after something goes wrong."
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "heading": "What are the steps to convert a policy into training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Work from a controlled version of the policy, extract what it requires, decide who it applies to, then design outcomes, practice, and assessment in that order. Each step produces a concrete output that the next step uses."
+        },
+        {
+          "type": "table",
+          "caption": "Policy to training: steps and outputs",
+          "head": [
+            "Step",
+            "What you do",
+            "Output"
+          ],
+          "rows": [
+            [
+              "1. Fix the source",
+              "Confirm the current approved version, its owner, and its effective date. Note any related procedures or standards it relies on.",
+              "Source record: policy ID, version, owner, effective date"
+            ],
+            [
+              "2. Extract requirements",
+              "Read the policy line by line and tag each statement as obligation, prohibition, decision rule, escalation path, definition, or background.",
+              "Requirement list with clause references"
+            ],
+            [
+              "3. Map to roles",
+              "For each requirement, decide which roles meet the situation and how often, and rate the consequence of getting it wrong.",
+              "Role applicability matrix with a risk rating per cell"
+            ],
+            [
+              "4. Write outcomes",
+              "Turn each requirement that matters for a role into an observable outcome: what the person does, in what situation, to what standard.",
+              "Outcome list, each outcome linked to one or more clauses"
+            ],
+            [
+              "5. Design practice",
+              "Build realistic scenarios, including grey areas, where the learner must decide whether the policy applies and what to do.",
+              "Scenario bank tagged by outcome and role"
+            ],
+            [
+              "6. Design assessment",
+              "Write assessment items that require a decision or action, with a pass standard set according to risk.",
+              "Assessment items mapped to outcomes"
+            ],
+            [
+              "7. Record the trace",
+              "Store the links from clause to outcome to scenario to assessment item, with the policy version.",
+              "Trace record used for audit and change impact"
+            ],
+            [
+              "8. Set review triggers",
+              "Tie training review to the policy review date and to any amendment.",
+              "Review schedule and change trigger"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Steps 2 to 4 overlap with the method in [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations). If you already keep a [compliance obligations register](/glossary/compliance-obligations-register), start from it rather than from the policy alone, because the register shows which external obligation each policy clause exists to meet."
+        }
+      ]
+    },
+    {
+      "id": "extracting-requirements",
+      "heading": "How do you extract what the policy actually requires?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tag every sentence by function, then keep only the statements that require someone to do, avoid, decide, or report something. Those four types become learning outcomes; the rest becomes supporting material or is left out of the training altogether."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Obligation:** something a person must do (\"record all gifts over the threshold in the register within five business days\").",
+            "**Prohibition:** something a person must not do (\"do not accept cash or cash equivalents\").",
+            "**Decision rule:** a test the person applies (\"if the gift could reasonably be seen to influence a decision, decline it\").",
+            "**Escalation path:** who to tell, when, and how (\"refer any uncertainty to the compliance team before accepting\").",
+            "**Definition:** needed only to apply the other four. Teach it inside the scenario, not as a separate list.",
+            "**Rationale and background:** useful for motivation in a sentence or two. Rarely worth assessing."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Checklist: signs a policy is not ready to train on",
+          "text": "The policy has no clear owner or effective date. Two clauses conflict. A decision rule depends on a threshold that is not stated. The escalation contact is a role that no longer exists. The procedure the policy points to has not been written. Resolve these with the policy owner first; training cannot fix an ambiguous rule and will spread the ambiguity."
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does a converted policy look like in practice?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A converted policy is a small set of role specific outcomes, each tied to a clause and to evidence that the person can apply it. The example below is illustrative only: the policy, clause numbers, and thresholds are invented to show the shape of the output."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative example: gifts and benefits policy converted for two roles",
+          "head": [
+            "Policy clause (illustrative)",
+            "Role",
+            "Learning outcome",
+            "Assessment evidence"
+          ],
+          "rows": [
+            [
+              "4.1 Staff must not accept cash or cash equivalents",
+              "All staff",
+              "Identifies cash equivalents, such as gift cards and vouchers, and declines them",
+              "Scenario item: sorts six offered items into accept, decline, or refer"
+            ],
+            [
+              "4.3 Gifts above the threshold must be registered within five business days",
+              "All staff",
+              "Registers a gift above the threshold with the required details on time",
+              "Simulated register entry with the correct fields completed"
+            ],
+            [
+              "4.5 Decline any gift that could reasonably be seen to influence a decision",
+              "Procurement officers",
+              "Applies the influence test to a gift offered during an active tender",
+              "Branching scenario with justification; pass requires the correct decision and the reason"
+            ],
+            [
+              "6.2 Refer uncertainty to compliance before accepting",
+              "Procurement officers",
+              "Recognises grey area cases and escalates with the right information",
+              "Scenario: drafts the referral message; checked against a marking guide"
+            ],
+            [
+              "7.1 Managers review the register quarterly",
+              "People managers",
+              "Reviews register entries and identifies patterns that need follow up",
+              "Workplace task: completes one review, sighted by compliance"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Notice that most staff need two outcomes, not the whole policy, while procurement officers need the judgement based clauses at depth. That is the difference between a module that restates the policy and one that is [designed around the program's risks](/guides/how-to-design-a-compliance-training-program)."
+        }
+      ]
+    },
+    {
+      "id": "depth-by-role",
+      "heading": "How much training does each role need on a policy?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Match depth to how often a role meets the situation and how serious an error would be. High frequency or high consequence situations justify scenario practice and a demanding pass standard; rare, low consequence situations may need only awareness and a pointer to the policy."
+        },
+        {
+          "type": "p",
+          "text": "Several regimes frame training in terms of the role. Australian financial services licensees must ensure their representatives are adequately trained and competent to provide the services covered by the licence, an obligation in s912A(1)(f) of the Corporations Act that ASIC distinguishes from organisational competence in [Regulatory Guide 105](https://download.asic.gov.au/media/cndf2udp/rg105-published-23-june-2022-20250616.pdf). The Office of the Australian Information Commissioner (OAIC) lists \"regular staff training and information bulletins\" among the practices that support compliance with Australian Privacy Principle (APP) 1 ([OAIC APP 1 guidelines](https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-1-app-1-open-and-transparent-management-of-personal-information)). Neither prescribes a format, which leaves the organisation to justify its design by role and risk."
+        },
+        {
+          "type": "p",
+          "text": "A [training matrix](/glossary/training-matrix) is the usual place to record which roles need which outcomes."
+        }
+      ]
+    },
+    {
+      "id": "assessment",
+      "heading": "How should you assess policy training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Assess whether the person can make the decision the policy requires, in a realistic situation, rather than whether they can recall the wording. Recall questions are easy to write and easy to pass, and they say little about behaviour at work."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Use scenarios with plausible wrong answers drawn from real mistakes, near misses, or complaints.",
+            "Include cases where the policy does not apply, so learners practise recognising its boundaries.",
+            "Ask for the reason as well as the choice for judgement based clauses.",
+            "Set the pass standard by consequence. A clause whose breach could cause serious harm may warrant a full score or a supervised check.",
+            "Record which outcome each item tests, so results show where understanding is weak."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "An [assessment blueprint](/guides/how-to-create-an-assessment-blueprint) keeps coverage balanced across outcomes and roles."
+        }
+      ]
+    },
+    {
+      "id": "policy-changes",
+      "heading": "How do you keep training aligned when the policy changes?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Store the link from each policy clause to the outcomes and assessment items built on it, with the policy version, so an amendment shows exactly what to revise. Without that trace, teams either rewrite everything or miss the one item that now teaches the old rule."
+        },
+        {
+          "type": "p",
+          "text": "AUSTRAC suggests that training records capture what was delivered, including the content and content version, how understanding was assessed, and each person's training history ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training)). Recording the policy version against each completion is the same discipline applied one level up. See [how to version control training content](/guides/how-to-maintain-version-control-for-training-content) and [how to update training when a regulation changes](/guides/how-to-update-training-when-regulations-change)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry treats the policy as a source that feeds a knowledge framework of concepts, outcomes, and assessment points, each with provenance back to the clause and version it came from. Training content is written against that framework, so a policy amendment can be traced to the specific outcomes and items it affects. The [compliance programs](/programs/compliance) page describes how this is applied."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should every employee complete the same policy module?",
+      "a": "Usually not. Everyone may need a short core, such as what the policy covers and how to escalate, but judgement based clauses belong with the roles that meet those situations. A single module for all staff tends to be too shallow for high risk roles and too long for everyone else, which drives disengagement."
+    },
+    {
+      "q": "Is a signed policy attestation enough evidence of training?",
+      "a": "An attestation shows that a person received and accepted the policy. It does not show that they understood it or can apply it. Where a regulation expects training that is suitable to the work and risks, pair attestation with assessment that tests decisions in realistic scenarios."
+    },
+    {
+      "q": "How long should a converted policy module be?",
+      "a": "As long as the outcomes for that role require and no longer. Length follows from the number of outcomes and the practice each needs. Many staff need only a few minutes on a given policy, while roles that exercise judgement under the policy may need extended scenario practice or workplace assessment."
+    },
+    {
+      "q": "Who should sign off policy based training?",
+      "a": "The policy owner should confirm that the outcomes and scenarios reflect the policy correctly, and a learning specialist should confirm the design and assessment are sound. For policies that implement a regulatory obligation, compliance or legal review of the scenarios is common, because a wrong model answer teaches a wrong rule."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Model Work Health and Safety Regulations (5 December 2025)",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
+    },
+    {
+      "title": "AML/CTF training",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    },
+    {
+      "title": "Regulatory Guide 105 AFS licensing: Organisational competence",
+      "publisher": "Australian Securities and Investments Commission",
+      "url": "https://download.asic.gov.au/media/cndf2udp/rg105-published-23-june-2022-20250616.pdf"
+    },
+    {
+      "title": "Chapter 1: APP 1 Open and transparent management of personal information",
+      "publisher": "Office of the Australian Information Commissioner",
+      "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-1-app-1-open-and-transparent-management-of-personal-information"
+    }
+  ],
+  "related": [
+    "how-to-map-training-to-compliance-obligations",
+    "how-to-convert-sops-into-training",
+    "policy-attestation",
+    "how-to-write-measurable-learning-outcomes",
+    "how-to-create-an-assessment-blueprint",
+    "how-to-maintain-version-control-for-training-content"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Knowledge transformation",
+      "href": "/platform/knowledge-transformation"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 3,
+  "factCheck": [
+    {
+      "claim": "Model WHS Regulations r39(2): information, training and instruction must be suitable and adequate having regard to the nature of the work, the risks at the time it is provided, and the control measures implemented; r39(3): provided in a way that is readily understandable.",
+      "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
+    },
+    {
+      "claim": "AUSTRAC says its e-learning modules can be used as part of AML/CTF training but cannot be relied on solely, and training must be accessible and understandable to the person receiving it.",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    },
+    {
+      "claim": "AUSTRAC suggests training records include what was delivered, including content and content version, how understanding was assessed, and training history.",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    },
+    {
+      "claim": "RG 105.3 and 105.4 note: s912A(1)(f) requires AFS licensees to ensure representatives are trained and competent to provide the financial services; s912A(1)(e) is the separate organisational competence obligation.",
+      "source": "https://download.asic.gov.au/media/cndf2udp/rg105-published-23-june-2022-20250616.pdf"
+    },
+    {
+      "claim": "OAIC APP 1 guidelines list regular staff training and information bulletins as an example of practices, procedures and systems under APP 1.2.",
+      "source": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-1-app-1-open-and-transparent-management-of-personal-information"
+    }
+  ]
+}

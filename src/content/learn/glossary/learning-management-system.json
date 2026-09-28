@@ -1,0 +1,212 @@
+{
+  "slug": "learning-management-system",
+  "kind": "glossary",
+  "title": "What is a learning management system?",
+  "seoTitle": "Learning management system (LMS)",
+  "description": "A learning management system (LMS) delivers, tracks and reports on training. How it works, the standards it uses, and how it differs from an LCMS and an LXP.",
+  "shortAnswer": "A learning management system (LMS) is software that an organisation uses to assign, deliver, track, and report on training. It holds learner records, enrols people in courses, launches e-learning packaged to standards such as SCORM or cmi5, records completions and scores, and produces compliance reports. An LMS manages who did which training and when; it does not by itself define what people need to know.",
+  "keyTakeaways": [
+    "An LMS administers training: enrolment, delivery, tracking, and reporting.",
+    "Most workplace LMSs import e-learning packaged to SCORM, and increasingly to cmi5 or other xAPI based formats.",
+    "An LMS records completion and scores. Evidence of competence usually needs assessment design that sits outside the LMS itself.",
+    "An LMS is administrator led; an LCMS manages content creation and reuse; an LXP focuses on learner led discovery."
+  ],
+  "term": "learning management system",
+  "alsoKnownAs": [
+    "LMS"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What does a learning management system do?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A learning management system administers training: it records who must complete what, delivers or links to the learning, and keeps the record of completion. A 2024 peer reviewed evaluation in PLoS One describes an LMS as \"an online platform for delivering and managing e-learning courses\" that also manages \"course registration, administration, skills gap analysis, tracking, and reporting\" ([Abid et al., 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11658596/))."
+        },
+        {
+          "type": "p",
+          "text": "In regulated organisations the LMS is usually the system of record for [mandatory training](/glossary/mandatory-training). When an auditor asks whether every relevant staff member completed anti money laundering or privacy training, the answer normally comes from an LMS report."
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "heading": "How does an LMS work?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An LMS works by combining a learner directory, a course catalogue, assignment rules, a content player, and a reporting layer. Typical functions are:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Learner records:** people, roles, business units, and managers, often synchronised from the HR system.",
+            "**Assignment:** rules that enrol people in courses by role, location, or start date, with due dates and recurrence for refresher training.",
+            "**Delivery:** launching e-learning, scheduling instructor led sessions, and hosting documents or videos.",
+            "**Tracking:** recording attempts, completion status, scores, and time, using standards such as [SCORM](/glossary/scorm) or [cmi5](/glossary/cmi5).",
+            "**Reporting:** completion rates, overdue lists, and exportable records for managers, boards, and auditors."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The tracking standards matter because they let content built in one tool run in any conforming LMS. The Advanced Distributed Learning (ADL) Initiative describes SCORM as addressing \"interoperability, portability, reusability\" of self paced e-learning ([ADL Initiative](https://adlnet.gov/past-projects/scorm/)). Newer content may use [xAPI](/glossary/xapi), which sends activity records to a Learning Record Store that may sit inside or alongside the LMS."
+        }
+      ]
+    },
+    {
+      "id": "where-it-fits",
+      "heading": "Where does an LMS fit in a training program?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An LMS sits at the delivery and record keeping end of a training program. It comes after the analysis and design work that decides what the training must cover, and before the evaluation work that asks whether the training changed behaviour."
+        },
+        {
+          "type": "table",
+          "caption": "What an LMS does and does not answer (illustrative)",
+          "head": [
+            "Question an auditor or board asks",
+            "Can the LMS answer it alone?",
+            "What else is usually needed"
+          ],
+          "rows": [
+            [
+              "Who completed the annual code of conduct module?",
+              "Yes",
+              "Accurate role and employment data from HR"
+            ],
+            [
+              "Is the module current with the latest policy?",
+              "No",
+              "Version control of content against the policy it teaches"
+            ],
+            [
+              "Which obligations does each module cover?",
+              "Rarely",
+              "A mapping from obligations to learning outcomes and assessment items"
+            ],
+            [
+              "Can this person actually perform the task?",
+              "No",
+              "Workplace assessment or [verification of competency](/glossary/verification-of-competency)"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "That gap is why many regulated organisations pair an LMS with a [training needs analysis](/glossary/training-needs-analysis) and an obligations to outcomes map, so completion records can be traced back to what the training was meant to achieve."
+        }
+      ]
+    },
+    {
+      "id": "how-it-differs",
+      "heading": "How is an LMS different from an LCMS or an LXP?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An LMS manages learners and their records; a [learning content management system](/glossary/learning-content-management-system) manages the content itself; a [learning experience platform](/glossary/learning-experience-platform) manages discovery and recommendation for self directed learning."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**LMS vs LCMS:** the LMS assigns and tracks courses; the LCMS is where authors build, version, and reuse content components before publishing them to the LMS. See [LMS vs LCMS](/compare/lms-vs-lcms).",
+            "**LMS vs LXP:** the LMS is administrator led and suited to required training; the LXP is learner led and suited to optional development. See [LMS vs LXP](/compare/lms-vs-lxp).",
+            "**LMS vs knowledge base:** a knowledge base answers questions at the point of need but does not assign or record training. See [knowledge base vs LMS](/compare/knowledge-base-vs-lms)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "example",
+      "heading": "What does an LMS look like in practice?",
+      "blocks": [
+        {
+          "type": "callout",
+          "title": "Illustrative example",
+          "text": "A superannuation fund assigns a privacy module to all new starters within 30 days and to all staff annually. The LMS reads the start date from the HR feed, enrols each person, launches the SCORM package, records a pass at 80 percent, and emails managers an overdue list. At audit time the risk team exports completion by business unit. What the LMS cannot show is which Australian Privacy Principles each question tests; that mapping has to be maintained elsewhere and linked to the course version."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry does not replace an LMS. It defines the knowledge framework (concepts, obligations, outcomes, and assessment points) that training is built from, then publishes into the organisation's existing LMS, so completion records can be traced to the obligations they evidence."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is an LMS the same as an e-learning authoring tool?",
+      "a": "No. An authoring tool is used to build e-learning modules and export them as SCORM, xAPI, or cmi5 packages. The LMS imports those packages, assigns them to learners, launches them, and records the results. Some products bundle both, but the functions are distinct."
+    },
+    {
+      "q": "Do LMS completion records prove that staff are competent?",
+      "a": "No. A completion record shows that a person finished a module and, where there is a quiz, what score they achieved. Competence requires evidence that the person can perform the task to a standard, which usually comes from designed assessment, workplace observation, or verification of competency."
+    },
+    {
+      "q": "Does an LMS need to support SCORM?",
+      "a": "Almost every workplace LMS supports SCORM because a large share of existing e-learning is packaged that way. Support for xAPI and cmi5 is useful if you want richer tracking or content that runs outside a browser session, but check which versions a system actually conforms to."
+    },
+    {
+      "q": "Who usually owns the LMS in a regulated organisation?",
+      "a": "Ownership varies. Learning and development teams commonly administer the system, while compliance or risk teams own the mandatory curriculum and the reports that go to the board. Clear ownership of assignment rules matters, because errors there create gaps that only appear at audit."
+    }
+  ],
+  "sources": [
+    {
+      "title": "An evaluation framework and comparative analysis of the widely used learning management systems",
+      "publisher": "PLoS One (Abid et al., 2024)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11658596/"
+    },
+    {
+      "title": "SCORM",
+      "publisher": "Advanced Distributed Learning (ADL) Initiative",
+      "url": "https://adlnet.gov/past-projects/scorm/"
+    },
+    {
+      "title": "cmi5 specification (Quartz)",
+      "publisher": "AICC / ADL Initiative",
+      "url": "https://github.com/AICC/CMI-5_Spec_Current"
+    }
+  ],
+  "factCheck": [
+    {
+      "claim": "PLoS One 2024 paper describes an LMS as an online platform for delivering and managing e-learning courses that manages registration, administration, skills gap analysis, tracking and reporting",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11658596/"
+    },
+    {
+      "claim": "ADL describes SCORM as addressing interoperability, portability, reusability and sequencing of self paced e-learning",
+      "source": "https://adlnet.gov/past-projects/scorm/"
+    },
+    {
+      "claim": "cmi5 is a profile for using xAPI with traditional LMS systems where content is launched from the LMS",
+      "source": "https://github.com/AICC/CMI-5_Spec_Current"
+    }
+  ],
+  "related": [
+    "learning-content-management-system",
+    "learning-experience-platform",
+    "scorm",
+    "xapi",
+    "lms-vs-lcms",
+    "lms-vs-lxp"
+  ],
+  "productLinks": [
+    {
+      "label": "Integrations",
+      "href": "/platform/integrations"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 6
+}

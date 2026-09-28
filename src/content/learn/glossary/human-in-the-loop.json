@@ -1,0 +1,212 @@
+{
+  "slug": "human-in-the-loop",
+  "kind": "glossary",
+  "title": "What is human in the loop?",
+  "seoTitle": "What is human in the loop?",
+  "description": "Human in the loop means a person can review or decide at each step of an AI process. How Australian and OECD guidance frame it, and its use in training.",
+  "shortAnswer": "Human in the loop (HITL) is an approach to AI oversight in which a person can intervene in each decision cycle of an automated system, for example by reviewing, correcting or approving an output before it takes effect. It is one of several oversight models. Australia's Guidance for AI Adoption asks organisations to maintain human control, with the ability to intervene, and the OECD AI Principles call for capacity for human agency and oversight.",
+  "keyTakeaways": [
+    "The European Commission's expert group defined HITL as the capability for human intervention in every decision cycle of the system.",
+    "Related models are human on the loop (monitoring with the ability to intervene) and human in command (oversight of the system's overall use and impact).",
+    "Australia's Guidance for AI Adoption, published in October 2025, includes the essential practice \"Maintain human control\".",
+    "Meaningful oversight needs a competent reviewer, enough information, authority to override and a record of the decision.",
+    "For AI generated training content, HITL usually means subject matter expert review and approval before release."
+  ],
+  "term": "Human in the loop",
+  "alsoKnownAs": [
+    "HITL",
+    "Human oversight",
+    "Human review"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What does human in the loop mean?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Human in the loop means that an automated or AI system does not complete a decision cycle without a person being able to intervene. The person might approve, amend or reject an output, or handle cases the system cannot."
+        },
+        {
+          "type": "p",
+          "text": "The most cited definition comes from the European Commission's High Level Expert Group on AI, whose [Ethics Guidelines for Trustworthy AI](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai) (April 2019) list human agency and oversight as a key requirement and describe three approaches. HITL \"refers to the capability for human intervention in every decision cycle of the system, which in many cases is neither possible nor desirable\". Human on the loop (HOTL) refers to intervention during the design cycle and monitoring of operation. Human in command (HIC) refers to overseeing the overall activity of the system, including its broader impact, and deciding when and how to use it."
+        }
+      ]
+    },
+    {
+      "id": "guidance",
+      "heading": "What do Australian and international frameworks say about human oversight?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Australian and international frameworks do not require a human in every loop, but they do expect organisations to keep meaningful human oversight and the ability to intervene."
+        },
+        {
+          "type": "p",
+          "text": "The Department of Industry, Science and Resources [published](https://www.industry.gov.au/publications/voluntary-ai-safety-standard) the Guidance for AI Adoption on 21 October 2025, setting out six essential practices and evolving the earlier Voluntary AI Safety Standard. The sixth practice in the [implementation guidance](https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance) is \"Maintain human control\". It says people in the organisation should retain oversight of AI systems \"with the ability to intervene where necessary\", and asks organisations to ensure appropriate training is provided to anyone overseeing or using AI systems so they understand each system's capabilities, limitations and failure modes and when human intervention is needed."
+        },
+        {
+          "type": "p",
+          "text": "The [OECD AI Principles](https://oecd.ai/en/dashboards/ai-principles/P6), adopted in 2019 and updated in May 2024, ask AI actors to implement mechanisms and safeguards, \"such as capacity for human agency and oversight\", including to address risks from uses outside the intended purpose. Both frameworks are voluntary guidance, not legislation."
+        }
+      ]
+    },
+    {
+      "id": "differences",
+      "heading": "How does human in the loop differ from other oversight models?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The models differ in when the person acts and how much of the system's output they see."
+        },
+        {
+          "type": "table",
+          "caption": "Human oversight models compared",
+          "head": [
+            "Model",
+            "When the person acts",
+            "Typical training use (illustrative)"
+          ],
+          "rows": [
+            [
+              "Human in the loop",
+              "Before each output takes effect",
+              "An expert approves every AI drafted assessment item before release"
+            ],
+            [
+              "Human on the loop",
+              "Monitors operation and intervenes on exceptions",
+              "Reviewers sample AI marked short answers and investigate flagged cases"
+            ],
+            [
+              "Human in command",
+              "Decides whether, where and how the system is used",
+              "A governance committee approves which training uses AI and sets limits"
+            ],
+            [
+              "No human oversight",
+              "Never, during operation",
+              "Not appropriate for content or decisions that carry compliance risk"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Many processes combine models: human in command for policy, human in the loop for high risk outputs and human on the loop for high volume, lower risk outputs."
+        }
+      ]
+    },
+    {
+      "id": "effective",
+      "heading": "What makes human in the loop effective rather than nominal?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Oversight is effective only when the reviewer can actually detect and correct errors. A reviewer who clicks approve on hundreds of items without the source material is in the loop in name only."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Competence:** the reviewer knows the subject and the system's known failure modes.",
+            "**Information:** the reviewer sees the output alongside its sources and the reason it was produced.",
+            "**Authority:** the reviewer can reject or change the output, and that decision stands.",
+            "**Capacity:** review volume is realistic for the time available.",
+            "**Record:** every decision is logged in an [audit trail](/glossary/audit-trail) with the reviewer, time and outcome."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For training content, these conditions are covered in [how to govern AI generated learning content](/guides/how-to-govern-ai-generated-learning-content) and [how to use AI to create training content safely](/guides/how-to-use-ai-to-create-training-content-safely). Unreviewed generated content can also accelerate [knowledge drift](/glossary/knowledge-drift)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry places human review at defined points: subject matter experts approve the knowledge framework before content is generated, and generated items are checked against it. Each approval is recorded with the reviewer and the sources shown."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is human in the loop required by law in Australia?",
+      "a": "Not generally, as at September 2026. Australia's Guidance for AI Adoption is voluntary. Specific laws may still require human decisions or review in particular contexts, and existing duties, such as privacy, consumer and WHS obligations, apply whether or not AI is used."
+    },
+    {
+      "q": "Does human in the loop mean a person checks every output?",
+      "a": "In the strict sense defined by the European expert group, yes: a person can intervene in every decision cycle. In common usage the term is often applied more loosely to any human review. Organisations should state which model they use for each system."
+    },
+    {
+      "q": "Who should be the human in the loop for training content?",
+      "a": "A subject matter expert who understands the obligation or procedure being taught, supported by an instructional designer for learning quality. For compliance content, the compliance function or policy owner should approve material that interprets an obligation."
+    },
+    {
+      "q": "What is automation bias?",
+      "a": "Automation bias is the tendency to accept a system's output without enough scrutiny. It weakens human in the loop controls. Showing sources, sampling for detailed checks, and training reviewers on known failure modes help reduce it."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Guidance for AI adoption: implementation guidance",
+      "publisher": "National AI Centre, Department of Industry, Science and Resources",
+      "url": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance"
+    },
+    {
+      "title": "Voluntary AI Safety Standard",
+      "publisher": "Department of Industry, Science and Resources",
+      "url": "https://www.industry.gov.au/publications/voluntary-ai-safety-standard"
+    },
+    {
+      "title": "OECD AI Principles: Respect for the rule of law, human rights and democratic values",
+      "publisher": "Organisation for Economic Co-operation and Development (OECD)",
+      "url": "https://oecd.ai/en/dashboards/ai-principles/P6"
+    },
+    {
+      "title": "Ethics guidelines for trustworthy AI",
+      "publisher": "European Commission, High Level Expert Group on Artificial Intelligence",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai"
+    }
+  ],
+  "related": [
+    "audit-trail",
+    "knowledge-drift",
+    "how-to-govern-ai-generated-learning-content",
+    "how-to-use-ai-to-create-training-content-safely",
+    "ai-content-generator-vs-structured-framework"
+  ],
+  "productLinks": [
+    {
+      "label": "Verification and trust",
+      "href": "/platform/verification-trust"
+    },
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 3,
+  "factCheck": [
+    {
+      "claim": "HLEG Ethics Guidelines (8 April 2019): HITL refers to the capability for human intervention in every decision cycle of the system, which in many cases is neither possible nor desirable; HOTL and HIC definitions.",
+      "source": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai"
+    },
+    {
+      "claim": "On 21 October 2025 the department published the Guidance for AI Adoption, outlining 6 essential practices, which evolves the Voluntary AI Safety Standard.",
+      "source": "https://www.industry.gov.au/publications/voluntary-ai-safety-standard"
+    },
+    {
+      "claim": "Practice 6 Maintain human control: retain oversight with the ability to intervene where necessary; 6.1.4 training for anyone overseeing or using AI systems on capabilities, limitations and failure modes and when human intervention is needed.",
+      "source": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance"
+    },
+    {
+      "claim": "OECD principle text: implement mechanisms and safeguards, such as capacity for human agency and oversight, including to address risks arising from uses outside of intended purpose; principles adopted 2019 and updated May 2024.",
+      "source": "https://oecd.ai/en/dashboards/ai-principles/P6"
+    }
+  ]
+}

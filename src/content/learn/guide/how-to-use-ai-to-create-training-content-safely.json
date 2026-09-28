@@ -1,0 +1,314 @@
+{
+  "slug": "how-to-use-ai-to-create-training-content-safely",
+  "kind": "guide",
+  "title": "How can you use AI to create training content safely?",
+  "seoTitle": "Using AI to create training safely",
+  "description": "Safe workflow for AI assisted training content: approved tools, clean source packs, outcomes first, grounded drafts, claim checks, expert review, provenance.",
+  "shortAnswer": "To use AI to create training content safely, treat it as a drafting assistant inside a controlled workflow. Use only approved tools, keep personal and confidential information out of public tools, define learning outcomes before prompting, ground drafts in approved and current source documents, and have a qualified person check every factual claim against its source. Record the tool, sources, reviewer, and approval for each item before release.",
+  "keyTakeaways": [
+    "Generative AI produces fluent text that can be wrong. Every factual claim in a draft needs checking against an approved source by someone qualified to judge it.",
+    "The Office of the Australian Information Commissioner recommends not entering personal information, particularly sensitive information, into publicly available generative AI tools.",
+    "AI is well suited to restructuring approved material, drafting scenarios, and writing distractors. It is poorly suited to stating thresholds, dates, penalties, or legal requirements from memory.",
+    "Defining outcomes and assessment points first gives the AI a structure to fill and gives reviewers a standard to check against.",
+    "A provenance record for each item (tool, sources, reviewer, approval) is what makes AI assisted content defensible later."
+  ],
+  "sections": [
+    {
+      "id": "risks",
+      "heading": "What are the risks of using AI to write training content?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The main risks are confident but inaccurate content, disclosure of personal or confidential information, material that reflects the wrong jurisdiction or an outdated rule, and the loss of any record of where a statement came from. In regulated training these risks compound, because a wrong statement is taught to many people and then assessed as correct."
+        },
+        {
+          "type": "p",
+          "text": "The Office of the Australian Information Commissioner (OAIC) notes that generative AI is \"probabilistic in nature and does not 'understand' the data it handles or generates\", and that inferred or artificially generated information about an identifiable person, including hallucinations, is personal information that must be handled under the Australian Privacy Principles ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products)). For training teams, the practical consequence is simple: a draft is a hypothesis until someone checks it."
+        },
+        {
+          "type": "p",
+          "text": "This guide covers the creation workflow for a piece of content. The organisational controls that sit around it, such as the tool register, accountability, monitoring, and periodic review, are covered in [how to govern AI generated learning content](/guides/how-to-govern-ai-generated-learning-content)."
+        }
+      ]
+    },
+    {
+      "id": "where-ai-fits",
+      "heading": "Which parts of training development suit AI?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI helps most where the facts are already fixed in an approved source and the task is to restructure, rephrase, or generate variations. It helps least where the task is to supply facts, because that is where fabrication does the most damage."
+        },
+        {
+          "type": "table",
+          "caption": "AI suitability by development task, with the minimum control for each",
+          "head": [
+            "Task",
+            "Suitability",
+            "Minimum control before use"
+          ],
+          "rows": [
+            [
+              "Restructure an approved policy or SOP into an outline",
+              "High",
+              "Reviewer confirms nothing was dropped or added against the source"
+            ],
+            [
+              "Draft workplace scenarios from supplied facts",
+              "High",
+              "Subject matter expert confirms realism and the correct answer"
+            ],
+            [
+              "Write plausible distractors for assessment items",
+              "High",
+              "Check each distractor is actually wrong and not ambiguous"
+            ],
+            [
+              "Simplify language or adjust reading level",
+              "High",
+              "Check meaning has not shifted, especially for must and must not"
+            ],
+            [
+              "Summarise a regulation or standard",
+              "Medium to low",
+              "Verify every statement against the primary source"
+            ],
+            [
+              "Translate content",
+              "Medium",
+              "Review by a fluent speaker with subject knowledge"
+            ],
+            [
+              "State thresholds, dates, penalties, or clause numbers",
+              "Low",
+              "Do not rely on the tool; take these only from the primary source"
+            ],
+            [
+              "Generate case studies about real people or incidents",
+              "Low",
+              "Use de-identified or fictional material and label it illustrative"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "heading": "What is a safe workflow for AI assisted content creation?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A safe workflow fixes the inputs, constrains the generation, checks the outputs, and records what happened. Each step below produces an output that the next step or a later audit relies on."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Confirm the tool and use are approved.** Check the tool is on your organisation's approved list and that content drafting is a permitted use. Output: a reference to the approved tool and use case in your AI register.",
+            "**Assemble a source pack.** Collect the current, approved documents the content must reflect, with version numbers. Remove personal information and anything the tool's terms do not allow. Output: a versioned source pack.",
+            "**Define outcomes and assessment points first.** Write the [learning outcomes](/guides/how-to-write-measurable-learning-outcomes) and what evidence will show each one. Output: an outcome and assessment list that the draft must satisfy.",
+            "**Generate grounded drafts.** Instruct the tool to use only the source pack, to mark which source passage supports each statement, and to flag gaps rather than fill them. Output: a draft with source markers.",
+            "**Check every claim.** A reviewer compares each factual statement with the cited passage and marks it confirmed, corrected, or removed. Output: a claim check log.",
+            "**Expert and compliance review.** A subject matter expert confirms scenarios, model answers, and emphasis; compliance or legal review applies where the content implements an obligation. Output: a signed review record.",
+            "**Accessibility and fairness review.** Check reading level, alternative text, and whether names, examples, or scenarios introduce bias or stereotypes. Output: review notes and fixes.",
+            "**Record provenance and approve.** Record the tool and version, date, source pack version, reviewers, and approver against the content item. Output: an approved item with a provenance record.",
+            "**Hand over to maintenance.** Register the item's source dependencies so a change to a source triggers review. Output: a review trigger in the content system."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "heading": "What privacy rules apply when using AI tools for training content?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Privacy Act 1988 applies to any personal information you put into an AI tool and to any personal information it produces. As a matter of best practice, the OAIC recommends that organisations \"do not enter personal information, and particularly sensitive information, into publicly available generative AI tools\" ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products))."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Case material.** Incident reports, complaints, and investigation files often contain personal information. De-identify them before use, or write fictional cases based on the pattern.",
+            "**Use and disclosure.** Under APP 6, personal information entered into an AI system may only be used or disclosed for the purpose it was collected for, unless consent or an exception applies.",
+            "**Accuracy.** APP 10 requires reasonable steps to ensure accuracy, and the OAIC says those steps should be commensurate with the increased risk in an AI context.",
+            "**Due diligence.** Before adopting a commercial tool, the OAIC suggests checking whether it has been tested for the intended use, how human oversight can be built in, and who can access information entered into it."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Australian Government entities should also check the Information Security Manual, which since December 2025 includes a control that a general purpose AI usage policy is developed, implemented and maintained (ISM-2074) ([ASD](https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security)). See also [privacy training requirements](/regulations/privacy-act-staff-training-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does a claim check look like in practice?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A claim check lists each factual statement in the draft, the source passage it should rest on, and what the reviewer found. The example below is illustrative only: the organisation, policy, and timeframes are invented to show the method."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative claim check log for an AI drafted data breach reporting module",
+          "head": [
+            "Draft statement",
+            "Source checked",
+            "Result",
+            "Action"
+          ],
+          "rows": [
+            [
+              "Staff must report a suspected breach to the privacy officer",
+              "Internal data breach policy v4.2, clause 3.1",
+              "Confirmed",
+              "None"
+            ],
+            [
+              "Report within five business days",
+              "Policy v4.2, clause 3.2 says the same business day",
+              "Incorrect: the tool supplied a plausible but wrong timeframe",
+              "Corrected to the policy wording"
+            ],
+            [
+              "Examples of breaches include emailing a file to the wrong recipient",
+              "Policy v4.2, appendix A",
+              "Confirmed",
+              "None"
+            ],
+            [
+              "Staff should contain the breach by deleting affected records",
+              "No supporting passage; policy says preserve evidence",
+              "Unsupported and contrary to policy",
+              "Removed; scenario rewritten"
+            ],
+            [
+              "The privacy officer decides whether external notification is needed",
+              "Policy v4.2, clause 4.1",
+              "Confirmed",
+              "None"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Two of five statements would have taught the wrong behaviour. Neither looked wrong on a quick read, which is why the check is statement by statement rather than a general proofread."
+        }
+      ]
+    },
+    {
+      "id": "release-checklist",
+      "heading": "What should you check before releasing AI assisted content?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Before release, confirm that the inputs were approved, every claim was checked, qualified people reviewed the content, and the record is complete. The checklist below can be used as a release gate."
+        },
+        {
+          "type": "callout",
+          "title": "Release checklist for AI assisted training content",
+          "text": "Tool and use case are approved and recorded. Source pack is current and versioned. No personal or confidential information was entered contrary to policy. Outcomes and assessment points were defined before drafting. Every factual statement is confirmed against a source, corrected, or removed. Thresholds, dates, penalties, and clause numbers were taken from primary sources, not from the tool. Subject matter expert and, where relevant, compliance review are signed. Accessibility and fairness review is complete. Provenance record is attached to the item. Source dependencies are registered for future review."
+        },
+        {
+          "type": "p",
+          "text": "The [Guidance for AI Adoption](https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-foundations) published by the National Artificial Intelligence Centre recommends matching human oversight to how much autonomy a system has and how high the stakes are, with mandatory human review for high stakes decisions. Training that people rely on to meet legal obligations sits at the high stakes end."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines the knowledge framework (concepts, outcomes, assessment points, and their sources) before any content is generated, so AI assisted drafting fills a reviewed structure rather than inventing one. Each statement keeps its provenance to the source passage, and human verification is recorded before release. The [verification and trust](/platform/verification-trust) page describes these controls."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do learners need to be told that content was drafted with AI?",
+      "a": "It depends on the context and your own AI policy. The Guidance for AI Adoption recommends communicating AI use as standard practice, especially where AI generates content that can meaningfully affect people. Many organisations note AI assistance in the content record and disclose it where learners interact with AI directly, such as a chatbot tutor."
+    },
+    {
+      "q": "Can we paste our internal policies into a public AI chatbot?",
+      "a": "Check your AI usage policy and the tool's terms first. Internal policies may be confidential, and many contain names or contact details. The OAIC recommends against entering personal information into publicly available generative AI tools. An approved enterprise tool with appropriate data handling terms is the safer option."
+    },
+    {
+      "q": "Does AI assistance reduce the review effort?",
+      "a": "It usually shifts effort rather than removing it. Drafting becomes faster, but checking becomes more important, because fluent text hides errors. Teams that plan review time for statement level checks get the speed benefit without accepting the accuracy risk."
+    },
+    {
+      "q": "Can AI write assessment questions?",
+      "a": "Yes, with review. AI is good at generating variations and plausible distractors. A subject matter expert must confirm that the keyed answer is correct, that distractors are wrong for a clear reason, and that each item tests the intended outcome rather than reading skill or trick wording."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Guidance on privacy and the use of commercially available AI products",
+      "publisher": "Office of the Australian Information Commissioner",
+      "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products"
+    },
+    {
+      "title": "Guidance for AI adoption: foundations",
+      "publisher": "National Artificial Intelligence Centre, Department of Industry, Science and Resources",
+      "url": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-foundations"
+    },
+    {
+      "title": "Guidance for AI adoption: implementation guidance",
+      "publisher": "National Artificial Intelligence Centre, Department of Industry, Science and Resources",
+      "url": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance"
+    },
+    {
+      "title": "Information Security Manual: Guidelines for personnel security",
+      "publisher": "Australian Signals Directorate",
+      "url": "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security"
+    }
+  ],
+  "related": [
+    "how-to-govern-ai-generated-learning-content",
+    "ai-content-generator-vs-structured-framework",
+    "human-in-the-loop",
+    "how-to-write-measurable-learning-outcomes",
+    "privacy-act-staff-training-requirements"
+  ],
+  "productLinks": [
+    {
+      "label": "Verification and trust",
+      "href": "/platform/verification-trust"
+    },
+    {
+      "label": "Knowledge transformation",
+      "href": "/platform/knowledge-transformation"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 2,
+  "factCheck": [
+    {
+      "claim": "OAIC recommends, as a matter of best practice, that organisations do not enter personal information, and particularly sensitive information, into publicly available generative AI tools. Guidance published 21 October 2024, updated 17 January 2025.",
+      "source": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products"
+    },
+    {
+      "claim": "OAIC: under APP 10 organisations must take reasonable steps to ensure accuracy of personal information, commensurate with the increased risk in an AI context; AI generated or inferred information about an identifiable individual is personal information.",
+      "source": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products"
+    },
+    {
+      "claim": "OAIC: if personal information is input into an AI system, APP 6 requires it only be used or disclosed for the primary purpose of collection unless consent or an exception applies; due diligence should consider how human oversight can be embedded.",
+      "source": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products"
+    },
+    {
+      "claim": "Guidance for AI adoption foundations: make it standard practice to communicate AI use, especially where AI generates content that can meaningfully impact people; match oversight to autonomy and stakes, with mandatory human review for high-stakes decisions.",
+      "source": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-foundations"
+    },
+    {
+      "claim": "ISM-2074 (Dec-25): a general-purpose AI usage policy is developed, implemented and maintained.",
+      "source": "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security"
+    },
+    {
+      "claim": "The six essential practices: decide who is accountable; understand impacts and plan accordingly; measure and manage risks; share essential information; test and monitor; maintain human control. Practice 4.1 is maintaining an AI register.",
+      "source": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance"
+    }
+  ]
+}

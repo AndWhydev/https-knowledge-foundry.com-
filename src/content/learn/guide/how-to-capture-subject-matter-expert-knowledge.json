@@ -1,0 +1,286 @@
+{
+  "slug": "how-to-capture-subject-matter-expert-knowledge",
+  "kind": "guide",
+  "title": "How do you capture subject matter expert knowledge before it leaves?",
+  "seoTitle": "Capturing expert knowledge",
+  "description": "How to capture subject matter expert knowledge before it leaves: prioritise at risk knowledge, use structured elicitation, and validate what you record.",
+  "shortAnswer": "To capture subject matter expert knowledge before it leaves, first identify which knowledge is critical, held by few people, and at risk of leaving soon. Then use structured elicitation, such as task walkthroughs, decision point interviews, and review of past cases, rather than asking the expert to write documentation. Turn the results into procedures, decision rules, worked cases, and assessment items, and have a second expert validate them before they are used.",
+  "keyTakeaways": [
+    "The knowledge most at risk is tacit: the judgement, cues, and exceptions experts use without thinking to mention them.",
+    "Prioritise by criticality, number of holders, and timing. Not every expert's knowledge needs the same effort.",
+    "Structured elicitation around real tasks and past cases captures more than open interviews or requests for documentation.",
+    "Captured knowledge becomes useful only when converted into controlled artefacts: procedures, decision rules, cases, and assessment items.",
+    "Validate with a second expert and record the source and date, so later readers know where the knowledge came from and how current it is."
+  ],
+  "sections": [
+    {
+      "id": "what-gets-lost",
+      "heading": "What knowledge is lost when an expert leaves?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The knowledge lost is mostly tacit: how the expert recognises that something is wrong, which exceptions apply, which workarounds are safe, and why the procedure is written the way it is. Documented procedures usually survive; the judgement needed to apply them in unusual cases often does not."
+        },
+        {
+          "type": "p",
+          "text": "In regulated settings this gap has consequences. Procedures are often the control measures that training must reflect, and the model Work Health and Safety Regulations require training to be suitable and adequate having regard to the risks and the control measures implemented ([model WHS Regulations r39](https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf)). In medicines manufacturing, the PIC/S Guide to GMP expects written procedures and records for activities such as maintenance, cleaning, change control, and investigations into deviations ([TGA, PE009-16 Part I, clause 4.29](https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf)). Knowledge that exists only in one person's head cannot meet either expectation for long. See [knowledge management](/glossary/knowledge-management) for the broader discipline."
+        }
+      ]
+    },
+    {
+      "id": "prioritise",
+      "heading": "How do you decide whose knowledge to capture first?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Prioritise knowledge that is critical to safety, quality, compliance, or service, held by one or very few people, and at risk of leaving soon through retirement, resignation, restructure, or project end. A simple register makes the priorities explicit and reviewable."
+        },
+        {
+          "type": "table",
+          "caption": "Template: knowledge risk register (example rows are illustrative)",
+          "head": [
+            "Knowledge area",
+            "Criticality",
+            "Number of holders",
+            "Expected departure",
+            "Already documented?",
+            "Priority"
+          ],
+          "rows": [
+            [
+              "Diagnosing intermittent faults on a legacy control system",
+              "High",
+              "1",
+              "Retirement in 6 months",
+              "Partly: procedure exists, fault patterns do not",
+              "Capture now"
+            ],
+            [
+              "Assessing unusual claims under a legacy product",
+              "High",
+              "2",
+              "No known departure",
+              "No",
+              "Capture this year"
+            ],
+            [
+              "Month end reconciliation exceptions",
+              "Medium",
+              "1",
+              "Resignation notice given",
+              "Partly",
+              "Capture now"
+            ],
+            [
+              "Standard onboarding of new clients",
+              "Medium",
+              "6",
+              "None",
+              "Yes",
+              "Maintain"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Review the register when people give notice, when roles are restructured, and at least annually. The gaps it shows can also feed a [training gap analysis](/guides/how-to-run-a-training-gap-analysis)."
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "heading": "What are the steps to capture expert knowledge?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Scope the knowledge, elicit it around real work, convert it into usable artefacts, validate it, and put it into the systems people use. Each step produces an output that can be checked."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Scope.** Agree with the expert and their manager which tasks, decisions, and systems are in scope. Output: a capture plan listing topics and sessions.",
+            "**Gather what exists.** Collect current procedures, past incident and deviation reports, emails, and notes. Output: a source pack showing what is already written down.",
+            "**Elicit around tasks.** Run structured sessions: walk through tasks step by step, ask about decision points and cues, and review past difficult cases. Output: session notes or recordings, with consent recorded.",
+            "**Draft artefacts.** Convert the material into updated procedures, decision rules, annotated examples, and draft assessment items. Output: draft artefacts linked to the sessions they came from.",
+            "**Validate.** Have the expert confirm accuracy, then have a second competent person test the artefacts by using them on a real or realistic task. Output: validated artefacts and a list of corrections.",
+            "**Control and publish.** Put procedures through document control and add training items to the training system with provenance. Output: controlled documents and training items with source and date.",
+            "**Transfer through practice.** Where time allows, pair the expert with successors on live work. Output: supervised practice records for successors.",
+            "**Assign ownership.** Name who maintains each artefact after the expert leaves. Output: an owner for every artefact."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "techniques",
+      "heading": "Which elicitation techniques work best?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Techniques anchored in real tasks and real cases work best, because experts recall what they do far better when prompted by the situation than when asked to explain in the abstract. Choose the technique to suit the kind of knowledge."
+        },
+        {
+          "type": "table",
+          "caption": "Elicitation techniques and what they produce",
+          "head": [
+            "Technique",
+            "Best for",
+            "Typical output"
+          ],
+          "rows": [
+            [
+              "Task walkthrough (think aloud)",
+              "Procedural sequences and the reasons behind each step",
+              "Annotated procedure with rationale and critical steps"
+            ],
+            [
+              "Observation with follow up questions",
+              "Physical tasks and cues the expert may not notice they use",
+              "Cue list and job aid"
+            ],
+            [
+              "Decision point interview",
+              "Judgement calls, thresholds, and exceptions",
+              "Decision rules and a list of exceptions"
+            ],
+            [
+              "Past case review",
+              "Rare events, troubleshooting, and lessons learned",
+              "Worked cases and scenario assessment items"
+            ],
+            [
+              "What if variations",
+              "Boundaries of a rule and escalation points",
+              "Scenario bank with model answers"
+            ],
+            [
+              "Teach back by a successor",
+              "Checking that captured knowledge transfers",
+              "Correction list and readiness evidence"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Question bank for decision point interviews",
+          "text": "What tells you this case is unusual? What do you check first, and why? When would you not follow the standard procedure? What mistakes do new people make here, and how do you spot them? Who do you call when you are unsure, and what do you tell them? What changed in the last few years that the documents do not reflect? What would you want a successor to know on their first day doing this alone?"
+        }
+      ]
+    },
+    {
+      "id": "into-training",
+      "heading": "How do you turn captured knowledge into training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Turn captured knowledge into training by writing learning outcomes for the decisions and tasks it supports, then using the expert's cases as scenarios and assessment items. Raw interview notes are not training; they are source material."
+        },
+        {
+          "type": "p",
+          "text": "Past cases are especially valuable because they show the cues and trade offs that generic content misses. De-identify them before use. Where the knowledge updates a procedure, follow the conversion method in [how to turn SOPs into training](/guides/how-to-convert-sops-into-training), and record the expert session as a source so later reviewers know where each rule came from."
+        }
+      ]
+    },
+    {
+      "id": "privacy-ai",
+      "heading": "What privacy and AI considerations apply?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Recording and transcribing sessions collects personal information about the expert and often about customers or colleagues mentioned in past cases, so the Australian Privacy Principles apply. APP 5 sets out when an entity collecting personal information must tell the individual about certain matters ([OAIC APP quick reference](https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-quick-reference)). Explain how recordings will be used and stored, and remove third party details from anything used in training."
+        },
+        {
+          "type": "p",
+          "text": "If an AI tool transcribes or summarises sessions, the OAIC notes that privacy obligations apply to personal information input into an AI system and to AI outputs that contain it ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products)). Use an approved tool, and have the expert check any AI summary, because summaries can drop the exceptions and caveats that make expert knowledge valuable. See [how to use AI to create training content safely](/guides/how-to-use-ai-to-create-training-content-safely)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry captures expert input as concepts, decision rules, and assessment points in a knowledge framework, each with provenance to the session and expert it came from and a record of who validated it. That keeps captured knowledge usable for training and reviewable after the expert has left. The [knowledge transformation](/platform/knowledge-transformation) page describes this process."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much notice do you need to capture an expert's knowledge?",
+      "a": "More than most organisations allow. A few structured sessions can capture priority decisions, but validation and practice with successors take longer. The knowledge risk register exists so that capture starts before notice is given, for critical knowledge held by one or two people."
+    },
+    {
+      "q": "Should the expert write the documentation themselves?",
+      "a": "Usually not alone. Experts often omit steps and cues that feel obvious to them. A facilitator who asks structured questions and drafts the artefacts, with the expert reviewing, typically captures more and takes less of the expert's time. The expert should still confirm accuracy."
+    },
+    {
+      "q": "What if the expert is reluctant to share?",
+      "a": "Explain the purpose, credit their contribution, and focus sessions on real cases, which most experts find easier than abstract explanation. Involve their manager to protect time for sessions. Reluctance is often about workload or recognition rather than unwillingness, and addressing those usually helps."
+    },
+    {
+      "q": "How do you keep captured knowledge current after the expert leaves?",
+      "a": "Assign an owner to every artefact, put procedures under document control, and link training items to the procedures they depend on so changes trigger review. Record the capture date and source, so later readers can judge whether the knowledge may have been overtaken by changes."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Model Work Health and Safety Regulations (5 December 2025)",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
+    },
+    {
+      "title": "PIC/S Guide to GMP PE009-16, Part I: Basic requirements for medicinal products",
+      "publisher": "Therapeutic Goods Administration",
+      "url": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
+    },
+    {
+      "title": "Australian Privacy Principles quick reference",
+      "publisher": "Office of the Australian Information Commissioner",
+      "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-quick-reference"
+    },
+    {
+      "title": "Guidance on privacy and the use of commercially available AI products",
+      "publisher": "Office of the Australian Information Commissioner",
+      "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products"
+    }
+  ],
+  "related": [
+    "knowledge-management",
+    "how-to-convert-sops-into-training",
+    "how-to-run-a-training-gap-analysis",
+    "knowledge-drift",
+    "how-to-use-ai-to-create-training-content-safely"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge transformation",
+      "href": "/platform/knowledge-transformation"
+    },
+    {
+      "label": "Operational procedures",
+      "href": "/programs/operational-procedures"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 5,
+  "factCheck": [
+    {
+      "claim": "Model WHS Regulations r39(2): information, training and instruction must be suitable and adequate having regard to the nature of the work, the risks at the time it is provided, and the control measures implemented; r39(3): provided in a way that is readily understandable.",
+      "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
+    },
+    {
+      "claim": "PIC/S GMP Part I clause 4.29: there should be written policies, procedures, protocols, reports and associated records for listed examples, including maintenance, cleaning, personnel matters and training, change control, and investigations into deviations.",
+      "source": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
+    },
+    {
+      "claim": "APP 5 outlines when and in what circumstances an APP entity that collects personal information must tell an individual about certain matters.",
+      "source": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-quick-reference"
+    },
+    {
+      "claim": "OAIC: privacy obligations apply to any personal information input into an AI system and to output data generated by AI where it contains personal information.",
+      "source": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products"
+    }
+  ]
+}

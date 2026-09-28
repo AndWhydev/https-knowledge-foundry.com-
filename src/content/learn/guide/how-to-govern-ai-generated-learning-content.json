@@ -1,0 +1,305 @@
+{
+  "slug": "how-to-govern-ai-generated-learning-content",
+  "kind": "guide",
+  "title": "How do you govern AI generated learning content?",
+  "seoTitle": "Governing AI generated learning content",
+  "description": "How to govern AI generated learning content: accountable owners, an AI register, risk tiers, provenance, monitoring, and review per Australian guidance.",
+  "shortAnswer": "To govern AI generated learning content, extend your existing content governance with AI specific controls: a named accountable owner, a register of the AI tools and uses in your learning function, a policy on permitted uses, risk tiers that set review depth, provenance on every item, monitoring of errors and learner feedback, and scheduled review of tools and outputs. Australia's Guidance for AI Adoption and ISO/IEC 42001 provide the frameworks.",
+  "keyTakeaways": [
+    "Governance is the ongoing system around AI use: who is accountable, which tools and uses are allowed, how risk sets review depth, and how problems are detected and fixed.",
+    "The Guidance for AI Adoption, published in October 2025, sets out six essential practices and evolves the earlier Voluntary AI Safety Standard. Both are voluntary.",
+    "ISO/IEC 42001:2023 specifies requirements for an AI management system and suits organisations that want a certifiable structure.",
+    "An AI register and item level provenance are the two records that make AI assisted learning content auditable.",
+    "Governance should cover drift over time: tool versions change, sources change, and approved content can become wrong."
+  ],
+  "sections": [
+    {
+      "id": "governance-versus-creation",
+      "heading": "What does governing AI generated content involve?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Governing AI generated learning content means setting and maintaining the organisational rules, roles, and records that apply to every AI assisted item over its life, not only at the moment of drafting. The creation workflow for a single item, including claim checks and expert review, is covered in [how to use AI to create training content safely](/guides/how-to-use-ai-to-create-training-content-safely). Governance is what makes that workflow consistent, enforced, and reviewable across a team and over years."
+        },
+        {
+          "type": "p",
+          "text": "In practice, governance answers five questions: who is accountable, which tools and uses are permitted, how much review each type of content needs, how you would know if something had gone wrong, and how you show an auditor what happened. It sits alongside, not apart from, the controls in [version control for training content](/guides/how-to-maintain-version-control-for-training-content) and [training policy](/guides/how-to-write-a-training-policy)."
+        }
+      ]
+    },
+    {
+      "id": "frameworks",
+      "heading": "Which Australian and international frameworks apply?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The main references are voluntary Australian guidance, an international management system standard, and existing obligations such as privacy law. They are listed below as at September 2026."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Guidance for AI Adoption.** Published by the Department of Industry, Science and Resources on 21 October 2025, it \"outlines 6 essential practices for safe and responsible AI governance\" and \"evolves the Voluntary AI Safety Standard\" ([DISR](https://www.industry.gov.au/publications/voluntary-ai-safety-standard)). It comes in a foundations version and an implementation version for higher risk or more complex use ([implementation guidance](https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance)).",
+            "**Voluntary AI Safety Standard.** Ten voluntary guardrails that apply across the AI supply chain. It remains published and is the predecessor to the Guidance for AI Adoption.",
+            "**ISO/IEC 42001:2023.** The international standard for an AI management system, specifying requirements for establishing, implementing, maintaining, and continually improving one, for organisations that provide or use AI ([ISO](https://www.iso.org/standard/42001)). It can be certified by an accredited body.",
+            "**Privacy Act 1988.** The OAIC's guidance on commercially available AI products explains how the Australian Privacy Principles apply to AI inputs and outputs ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products)).",
+            "**Information Security Manual.** For Australian Government entities and others that apply it, control ISM-2074 requires a general purpose AI usage policy ([ASD](https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "practice-mapping",
+      "heading": "How do the six essential practices apply to learning content?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each of the six practices translates into a specific control and a record for a learning function. The table maps the practice names from the Guidance for AI Adoption to what they mean for training content and the evidence an auditor could ask for. The mapping is this guide's interpretation, not text from the guidance."
+        },
+        {
+          "type": "table",
+          "caption": "Guidance for AI Adoption practices applied to learning content",
+          "head": [
+            "Essential practice",
+            "What it means for learning content",
+            "Evidence artefact"
+          ],
+          "rows": [
+            [
+              "1. Decide who is accountable",
+              "A named owner for AI use in the learning function; named approvers for each content risk tier; AI literacy training for developers and reviewers",
+              "Role statements, delegation register, reviewer training records"
+            ],
+            [
+              "2. Understand impacts and plan accordingly",
+              "Assess who is affected if AI assisted content is wrong, such as staff acting on it or customers served by them",
+              "Impact assessment per use case"
+            ],
+            [
+              "3. Measure and manage risks",
+              "Risk tiers that set review depth; controls on inputs such as personal information and confidential material",
+              "Risk tier definitions, risk register entries"
+            ],
+            [
+              "4. Share essential information",
+              "An AI register of tools and uses; a stated position on disclosing AI assistance to learners",
+              "AI register, disclosure statement"
+            ],
+            [
+              "5. Test and monitor",
+              "Acceptance criteria before a tool or use is approved; monitoring of error reports, assessment anomalies, and learner feedback",
+              "Acceptance test results, monitoring log, incident records"
+            ],
+            [
+              "6. Maintain human control",
+              "Human approval before release; the ability to withdraw content quickly; a non AI fallback for critical development",
+              "Approval records, withdrawal procedure"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The implementation guidance also calls for organisations to \"create and maintain an up-to-date, organisation-wide inventory of each AI model and system\" and to keep clear records of governance decisions, testing, incidents, and monitoring."
+        }
+      ]
+    },
+    {
+      "id": "risk-tiers",
+      "heading": "How should risk determine the level of review?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Set review depth by the consequence of someone acting on wrong content, not by how much AI was used. A lightly edited AI draft of a safety critical procedure needs more scrutiny than a heavily AI written welcome message."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative risk tiers for AI assisted learning content",
+          "head": [
+            "Tier",
+            "Typical content",
+            "Minimum review before release",
+            "Re-review trigger"
+          ],
+          "rows": [
+            [
+              "High",
+              "Content implementing a legal or regulatory obligation; safety critical procedures; assessment items that gate authorisation to work",
+              "Statement level claim check; subject matter expert and compliance sign off; second reviewer on assessment keys",
+              "Any source change, any reported error, tool or model change, scheduled review"
+            ],
+            [
+              "Medium",
+              "Role skills content, internal process training, scenarios",
+              "Claim check of factual statements; subject matter expert sign off",
+              "Source change, reported error, scheduled review"
+            ],
+            [
+              "Low",
+              "Orientation, general awareness, navigation help",
+              "Editorial review by the content owner",
+              "Reported error, scheduled review"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "These tiers are an illustrative starting point. Calibrate them to your own risk framework and record the rationale in your training policy."
+        }
+      ]
+    },
+    {
+      "id": "operating-model",
+      "heading": "What are the steps to set up governance?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Set up governance by naming accountability, recording tools and uses, defining permitted uses and tiers, and building monitoring and review into existing processes. The steps and outputs below can be completed in a few weeks for a single learning team."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Name the accountable owner and approvers.** Output: role statements and a delegation list by risk tier.",
+            "**Inventory current use.** Find every AI tool and use in the learning function, including informal use. Output: a first AI register.",
+            "**Write the permitted use standard.** State which tools are approved, for which tasks, what may and may not be entered, and what review each tier needs. Output: a standard that sits under the organisation's AI or training policy.",
+            "**Set acceptance criteria for tools.** Test each tool against representative tasks from your own content before approving it. Output: acceptance test records.",
+            "**Require provenance on every item.** Add fields to the content record for tool, version, sources, reviewers, and approval. Output: updated content metadata.",
+            "**Train the people involved.** Developers and reviewers need to know the standard, the failure modes, and how to check claims. Output: training records for AI literacy.",
+            "**Monitor.** Route error reports, assessment anomalies, and learner questions to the content owner, and log AI related findings. Output: a monitoring log.",
+            "**Review on a cycle.** Review the register, standard, and a sample of released items on a set schedule and after any tool or model change. Output: review minutes and actions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "monitoring",
+      "heading": "How do you know if AI generated content has gone wrong?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "You find out through signals from use and through scheduled sampling, so both need to be designed in. Waiting for an audit finding means the wrong content has already been taught."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Assessment anomalies.** Items with unusually high failure rates or where strong performers choose a distractor often point to a wrong key or ambiguous wording.",
+            "**Learner questions and challenges.** Questions that cite the policy or procedure against the training are a direct error signal.",
+            "**Incidents and near misses.** Check whether training content contributed.",
+            "**Source changes.** A change to a policy, procedure, or regulation should trigger review of every item that depends on it. See [how to find outdated training content](/guides/how-to-detect-outdated-training-content).",
+            "**Sampling.** Re-check a sample of released high tier items against sources each review cycle."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Audit questions to test your governance",
+          "text": "Can you list every AI tool used to develop training in the last year? For a given released item, can you show which tool drafted it, which sources it relied on, who checked it, and who approved it? Can you show the review depth matched the item's risk tier? Can you show what happened to the last reported error? If a source document changed yesterday, could you list the affected items today?"
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records provenance at the level of each concept, outcome, and assessment point, including whether it was AI assisted and who verified it, so governance questions can be answered from the framework rather than reconstructed. Source changes are traced to the items that depend on them. The [knowledge governance](/platform/knowledge-governance) page describes these controls."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is the Voluntary AI Safety Standard still current?",
+      "a": "It remains published on the Department of Industry, Science and Resources website, which states that the Guidance for AI Adoption, published on 21 October 2025, evolves the standard into six essential practices. Both are voluntary. New programs usually align to the Guidance for AI Adoption and treat the ten guardrails as supporting detail."
+    },
+    {
+      "q": "Do we need ISO/IEC 42001 certification?",
+      "a": "Certification is voluntary. It can be useful where customers or regulators expect independently audited AI governance, or where AI is central to your products. Many organisations use the standard's structure without certifying, particularly for internal uses such as content development."
+    },
+    {
+      "q": "Should governance of AI content sit with L&D or with the organisation's AI function?",
+      "a": "Usually both. The organisation's AI governance sets the policy, approved tools, and register. The learning function applies it to content, owning the risk tiers, review workflow, and provenance records. Clear links between the two avoid duplicate registers and gaps in accountability."
+    },
+    {
+      "q": "How often should AI governance for learning content be reviewed?",
+      "a": "Set a fixed cycle, such as annually, and add event triggers: a change of tool or underlying model, a significant error, a new use case, or a change in external guidance. The implementation guidance recommends regular performance review cycles with stakeholders and subject matter experts."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Voluntary AI Safety Standard",
+      "publisher": "Department of Industry, Science and Resources",
+      "url": "https://www.industry.gov.au/publications/voluntary-ai-safety-standard"
+    },
+    {
+      "title": "Guidance for AI adoption: implementation guidance",
+      "publisher": "National Artificial Intelligence Centre, Department of Industry, Science and Resources",
+      "url": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance"
+    },
+    {
+      "title": "Guidance for AI adoption: foundations",
+      "publisher": "National Artificial Intelligence Centre, Department of Industry, Science and Resources",
+      "url": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-foundations"
+    },
+    {
+      "title": "ISO/IEC 42001:2023 Information technology: Artificial intelligence: Management system",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/42001"
+    },
+    {
+      "title": "Guidance on privacy and the use of commercially available AI products",
+      "publisher": "Office of the Australian Information Commissioner",
+      "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products"
+    },
+    {
+      "title": "Information Security Manual: Guidelines for personnel security",
+      "publisher": "Australian Signals Directorate",
+      "url": "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security"
+    }
+  ],
+  "related": [
+    "how-to-use-ai-to-create-training-content-safely",
+    "ai-content-generator-vs-structured-framework",
+    "human-in-the-loop",
+    "how-to-maintain-version-control-for-training-content",
+    "how-to-write-a-training-policy",
+    "audit-trail"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    },
+    {
+      "label": "Verification and trust",
+      "href": "/platform/verification-trust"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 1,
+  "factCheck": [
+    {
+      "claim": "On 21 October 2025 the Department of Industry, Science and Resources published the Guidance for AI Adoption, with 6 essential practices, which evolves the Voluntary AI Safety Standard (10 voluntary guardrails).",
+      "source": "https://www.industry.gov.au/publications/voluntary-ai-safety-standard"
+    },
+    {
+      "claim": "The six essential practices: decide who is accountable; understand impacts and plan accordingly; measure and manage risks; share essential information; test and monitor; maintain human control. Practice 4.1 is maintaining an AI register.",
+      "source": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance"
+    },
+    {
+      "claim": "Implementation guidance 4.1.1: create and maintain an up to date, organisation wide inventory of each AI model and system; the register records details including datasets and provenance, acceptance criteria and test results, risk assessments, treatment plans and review dates. Keep clear records of governance decisions, testing, incidents and monitoring.",
+      "source": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance"
+    },
+    {
+      "claim": "Implementation guidance 1.3: evaluate and document AI training needs, regularly check skills are up to date; 5.1 and 5.2: acceptance criteria, documented tests, monitoring and regular performance review cycles with subject matter experts.",
+      "source": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance"
+    },
+    {
+      "claim": "ISO/IEC 42001:2023 specifies requirements for establishing, implementing, maintaining and continually improving an AI management system, for organisations that provide or use AI based products or services.",
+      "source": "https://www.iso.org/standard/42001"
+    },
+    {
+      "claim": "ISM-2074 (Dec-25): a general-purpose AI usage policy is developed, implemented and maintained.",
+      "source": "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security"
+    }
+  ]
+}

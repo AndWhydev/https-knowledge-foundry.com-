@@ -1,0 +1,253 @@
+{
+  "slug": "how-to-write-a-training-policy",
+  "kind": "guide",
+  "title": "How do you write a training policy?",
+  "seoTitle": "Writing a training policy",
+  "description": "How to write a training policy for a regulated organisation: purpose, scope, obligations, roles, mandatory training, assessment, records, and review.",
+  "shortAnswer": "To write a training policy, state its purpose and scope, list the obligations it supports, assign roles and accountabilities, set how training needs are identified, define mandatory training and timeframes, state how competence is assessed, set record keeping and retention rules, cover non completion, content governance, and evaluation, then have it approved at the right level and reviewed on a fixed cycle. Keep procedures and schedules in separate, linked documents.",
+  "keyTakeaways": [
+    "A training policy sets principles, accountabilities, and minimum standards. Detailed steps belong in procedures.",
+    "Anchor the policy in the obligations that apply to you, such as AML/CTF Rules, ASIC's training expectations, or WHS duties.",
+    "Define who decides what training each role needs, and how competence, not just completion, is confirmed.",
+    "Record keeping, retention, and version control rules should be explicit, because they decide what you can prove later.",
+    "Set an approval owner and a review cycle, and review the policy after any major regulatory change."
+  ],
+  "sections": [
+    {
+      "id": "policy-vs-procedure",
+      "heading": "What is the difference between a training policy and a procedure?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A training policy states what the organisation commits to and who is accountable; a procedure states how the work is done step by step. Keeping them separate lets procedures change without reapproving the policy, and makes the policy readable by the board and regulators."
+        },
+        {
+          "type": "p",
+          "text": "Some regimes make the policy itself an obligation. The Australian Transaction Reports and Analysis Centre (AUSTRAC) [states](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform), referring to Rules section 5 to 9(2) and (3), that your AML/CTF policies must ensure you can provide initial and ongoing training for personnel who perform AML/CTF functions, tailored to the functions they perform, the relevant risks, and their responsibilities. AUSTRAC also sets out things it expects those policies to outline, including a training plan, a register of completion dates, and monitoring of training effectiveness."
+        }
+      ]
+    },
+    {
+      "id": "anchors",
+      "heading": "Which obligations should the policy be anchored to?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Anchor the policy to every obligation that requires training, competence, or records in your organisation, and cite each one. Common Australian anchors include the following."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Financial services.** ASIC expects AFS licensees to identify the knowledge and skills representatives need, ensure they have them, ensure continuing training, and keep a record of training undertaken ([RG 104.82](https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations)).",
+            "**AML/CTF.** Section 26F(4)(e) of the AML/CTF Act and the Rules, as described in AUSTRAC's guidance above. See [AUSTRAC AML/CTF training requirements](/regulations/austrac-aml-ctf-training-requirements).",
+            "**Work health and safety.** Section 19(3)(f) of the model WHS Act requires a person conducting a business or undertaking to ensure, so far as reasonably practicable, the provision of any information, training, instruction, or supervision necessary to protect all persons from risks to their health and safety ([Work Health and Safety Act 2011](https://www.legislation.gov.au/C2011A00137/latest/text)). Regulation 39 of the model [WHS Regulations](https://www.legislation.gov.au/F2011L02664/latest/text) adds that training must be suitable and adequate and readily understandable.",
+            "**Quality management.** Organisations using ISO based management systems may also align with [ISO 10015:2019](https://www.iso.org/standard/69459.html), which gives guidelines for competence management and people development."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "heading": "What is the step by step method?",
+      "blocks": [
+        {
+          "type": "ol",
+          "items": [
+            "**List obligations.** Extract every training, competence, and record requirement from your [compliance obligations register](/glossary/compliance-obligations-register). Output: an obligations list with citations.",
+            "**Agree accountabilities.** Decide who owns the policy, who decides role requirements, who approves content, and who monitors compliance. Output: a roles table.",
+            "**Draft the sections.** Use the checklist below. Output: a first draft.",
+            "**Test against real cases.** Walk three scenarios through the draft: a new starter in a high risk role, a regulatory change, and a person who does not complete training. Output: a list of gaps fixed.",
+            "**Consult.** Seek input from compliance, legal, HR, operations, and worker representatives where consultation is required. Output: a consultation record.",
+            "**Approve and publish.** Approve at the level your governance framework requires and publish with an effective date. Output: the approved policy.",
+            "**Implement procedures.** Write or update the procedures and schedules the policy refers to. Output: linked procedures."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-checklist",
+      "heading": "What sections should a training policy contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The checklist below is original and covers the sections most regulated organisations need. Not every row applies to every organisation."
+        },
+        {
+          "type": "table",
+          "caption": "Training policy section checklist",
+          "head": [
+            "Section",
+            "What to include",
+            "Why it matters"
+          ],
+          "rows": [
+            [
+              "Purpose and scope",
+              "Who the policy covers, including contractors and volunteers where relevant",
+              "Coverage gaps often start with unclear scope"
+            ],
+            [
+              "Obligations",
+              "The laws, standards, and internal policies the training supports, with citations",
+              "Shows the policy is grounded in actual requirements"
+            ],
+            [
+              "Roles and responsibilities",
+              "Policy owner, role requirement owners, content approvers, managers, workers",
+              "Makes accountability auditable"
+            ],
+            [
+              "Needs identification",
+              "How training needs are set for each role, and when they are reviewed",
+              "Links training to risk and role; see [how to conduct a training needs analysis](/guides/how-to-conduct-a-training-needs-analysis)"
+            ],
+            [
+              "Mandatory training",
+              "Categories, timeframes for new starters and role changes, refresher cycles",
+              "Sets the standard that records are tested against"
+            ],
+            [
+              "Competence and assessment",
+              "How competence is confirmed, including assessment and verification of competency where relevant",
+              "Distinguishes completion from competence; see [how to set up verification of competency](/guides/how-to-set-up-verification-of-competency)"
+            ],
+            [
+              "Records and retention",
+              "Required record fields, systems of record, retention periods, version tracking",
+              "Decides what can be proven later"
+            ],
+            [
+              "Non completion and exemptions",
+              "Escalation steps, consequences, who can grant exemptions and how they are recorded",
+              "Prevents silent gaps"
+            ],
+            [
+              "Content governance",
+              "Ownership, approval, version control, review, and response to regulatory change",
+              "Keeps content accurate and current"
+            ],
+            [
+              "Evaluation and reporting",
+              "How effectiveness is measured and what is reported to executives and the board",
+              "Supports oversight duties"
+            ],
+            [
+              "Review",
+              "Review cycle and triggers, approval authority",
+              "Keeps the policy current"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sample-clauses",
+      "heading": "What does policy wording look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Policy wording should be short, specific, and testable, so an auditor can check whether it was followed."
+        },
+        {
+          "type": "callout",
+          "title": "Illustrative sample clauses, adapt before use",
+          "text": "1. Each role in scope has a documented training requirement, set by the role owner with compliance and reviewed at least annually and after any material regulatory change. 2. Workers complete role specific mandatory training within the timeframe stated in the training schedule, and before performing the relevant function unsupervised. 3. Competence for high risk functions is confirmed by assessment against defined criteria; completion alone does not satisfy this clause. 4. Training records include the content version completed and the assessment outcome, and are retained for the period in the records schedule. 5. Exemptions are approved in writing by the compliance manager and recorded with the reason."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry gives a training policy something concrete to point to: a framework that links obligations, role requirements, learning outcomes, and assessment points with their sources. Policy clauses on needs identification, competence, and content governance can then refer to that structure."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long should a training policy be?",
+      "a": "Long enough to state commitments, accountabilities, and minimum standards, and no longer. Many workable policies fit in a few pages, with detail moved into procedures, schedules, and the training matrix. A policy nobody reads is not followed."
+    },
+    {
+      "q": "Who should approve the training policy?",
+      "a": "Whoever your governance framework assigns to approve policies of that significance, often an executive committee, with board or committee oversight where training supports material obligations. The policy should name its owner and approver."
+    },
+    {
+      "q": "Does a training policy need to name specific courses?",
+      "a": "No. Name categories and link to a schedule or training matrix that lists current items. That way courses can change without the policy being reapproved."
+    },
+    {
+      "q": "How often should a training policy be reviewed?",
+      "a": "Set a fixed cycle, commonly annual or biennial, and add triggers such as a material regulatory change, a significant incident, a merger, or an audit finding. AUSTRAC's expectation that training includes updates on regulatory changes is a reminder that the policy's content governance section must work between reviews."
+    }
+  ],
+  "sources": [
+    {
+      "title": "AML/CTF training (Reform)",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
+    },
+    {
+      "title": "RG 104 AFS licensing: Meeting the general obligations",
+      "publisher": "Australian Securities and Investments Commission",
+      "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations"
+    },
+    {
+      "title": "Work Health and Safety Act 2011",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/C2011A00137/latest/text"
+    },
+    {
+      "title": "Work Health and Safety Regulations 2011",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2011L02664/latest/text"
+    },
+    {
+      "title": "ISO 10015:2019 Quality management: Guidelines for competence management and people development",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/69459.html"
+    }
+  ],
+  "related": [
+    "how-to-design-a-compliance-training-program",
+    "how-to-conduct-a-training-needs-analysis",
+    "mandatory-training",
+    "how-to-set-mandatory-training-refresh-cycles",
+    "how-to-prepare-training-records-for-an-audit",
+    "how-to-convert-policies-into-training"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 4,
+  "factCheck": [
+    {
+      "claim": "AUSTRAC: AML/CTF policies must ensure initial and ongoing training tailored to functions, risks and responsibilities (Rules s5 to 9(2) and (3)); expects a training plan, a completion register, and monitoring of effectiveness.",
+      "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
+    },
+    {
+      "claim": "RG 104.82: identify knowledge and skills, ensure they have them, continuing training, keep a record of training.",
+      "source": "https://download.asic.gov.au/media/av3fovx5/rg104-published-23-june-2022-20260310.pdf"
+    },
+    {
+      "claim": "WHS Act s19(3)(f): provision of any information, training, instruction or supervision necessary to protect all persons from risks.",
+      "source": "https://www.legislation.gov.au/C2011A00137/latest/text"
+    },
+    {
+      "claim": "WHS Regulations r39: training suitable and adequate, and readily understandable.",
+      "source": "https://www.legislation.gov.au/F2011L02664/latest/text"
+    }
+  ]
+}

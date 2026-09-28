@@ -1,0 +1,226 @@
+{
+  "slug": "training-needs-analysis-vs-gap-analysis",
+  "kind": "comparison",
+  "title": "Training needs analysis vs training gap analysis",
+  "seoTitle": "Training needs vs gap analysis",
+  "description": "A training needs analysis defines required capability and whether training is the answer; a gap analysis measures the shortfall. How the two fit together.",
+  "shortAnswer": "A training needs analysis (TNA) establishes what knowledge and skills an organisation, role, or person requires, why, and whether training is the right response. A training gap analysis measures the difference between that required state and the current state, for a person, team, or training library. The needs analysis defines the target; the gap analysis measures the distance to it and prioritises what to close first.",
+  "keyTakeaways": [
+    "A needs analysis is broader and comes first: it defines requirements and tests whether training is the right fix.",
+    "A gap analysis is narrower and comparative: it needs a defined target to measure against.",
+    "In regulated organisations, requirements often come from obligations, such as the WHS duty to provide necessary training.",
+    "Gap analysis applies to people (capability gaps) and to content (coverage gaps in a training library)."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the core difference between a training needs analysis and a gap analysis?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The core difference is that a needs analysis defines what is required, while a gap analysis compares what exists against a requirement that has already been defined. A gap analysis without a needs analysis measures against an assumed target, which is a common source of wasted training."
+        },
+        {
+          "type": "p",
+          "text": "A [training needs analysis](/glossary/training-needs-analysis) usually looks at three levels: the organisation (strategy, risk, obligations), the role or task (what the work demands), and the individual (who needs what). It also asks a question a gap analysis does not: is the problem actually a training problem, or is it caused by process, tools, staffing, or incentives?"
+        },
+        {
+          "type": "p",
+          "text": "A gap analysis then quantifies the shortfall. For people, it compares assessed capability with the required level. For a training library, it compares what the content covers with what obligations and roles require. The method is set out in [how to run a training gap analysis](/guides/how-to-run-a-training-gap-analysis)."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do they compare side by side?",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Training needs analysis and training gap analysis compared",
+          "head": [
+            "Dimension",
+            "Training needs analysis",
+            "Training gap analysis"
+          ],
+          "rows": [
+            [
+              "Main question",
+              "What capability do we need, and is training the answer?",
+              "How far is the current state from the required state?"
+            ],
+            [
+              "Starting point",
+              "Strategy, risks, obligations, role requirements, performance problems",
+              "A defined requirement (framework, matrix, or standard)"
+            ],
+            [
+              "Output",
+              "Required capabilities, priorities, and recommended interventions (training or otherwise)",
+              "A measured list of gaps, ranked by risk or size"
+            ],
+            [
+              "Scope",
+              "Organisation, role, and individual",
+              "Usually a defined population or content set"
+            ],
+            [
+              "Typical evidence",
+              "Obligation registers, incident data, job analysis, stakeholder interviews",
+              "Assessment results, skills matrices, content coverage mapping"
+            ],
+            [
+              "Timing",
+              "Before designing a program, or when strategy or obligations change",
+              "After requirements are set, and periodically to monitor"
+            ],
+            [
+              "Common failure",
+              "Skipped, so training is designed from assumptions",
+              "Run against an outdated or undefined target"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regulatory-driver",
+      "heading": "Why does the distinction matter in regulated organisations?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It matters because regulators set the requirement, and organisations must first identify it correctly before they can show that gaps are closed. The needs analysis is where obligations are translated into required knowledge and skills."
+        },
+        {
+          "type": "p",
+          "text": "Work health and safety law is a clear example. Section 19(3)(f) of the Work Health and Safety Act 2011 (Cth) requires a person conducting a business or undertaking to ensure, so far as is reasonably practicable, \"the provision of any information, training, instruction or supervision that is necessary to protect all persons from risks to their health and safety\" ([Federal Register of Legislation](https://www.legislation.gov.au/C2011A00137/latest/text)). Regulation 39 of the Work Health and Safety Regulations 2011 (Cth) adds that training must be suitable and adequate having regard to the nature of the work, the nature of the risks at the time, and the control measures implemented ([Federal Register of Legislation](https://www.legislation.gov.au/F2011L02664/latest/text))."
+        },
+        {
+          "type": "p",
+          "text": "Deciding what is \"necessary\" and \"suitable and adequate\" for each role is needs analysis. Showing that each worker has actually received and absorbed it is gap analysis and assessment. For a wider method, see [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations)."
+        }
+      ]
+    },
+    {
+      "id": "when-to-choose",
+      "heading": "When should you choose each?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Run a training needs analysis when requirements are unclear or have changed; run a gap analysis when requirements are clear and you need to measure progress against them. If you are unsure which applies, check whether a current, approved statement of required capability exists. If it does not, start with the needs analysis."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Needs analysis:** new regulation, new product or service, restructure, incident investigation, or a new role.",
+            "**Gap analysis:** annual capability review, audit preparation, onboarding a cohort against an existing [training matrix](/glossary/training-matrix), or checking a content library after a regulatory update.",
+            "**Both:** designing a program from scratch, where the needs analysis sets the target and a baseline gap analysis shows where to start."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "using-together",
+      "heading": "How do they work together?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They work together as a cycle: the needs analysis defines requirements, the gap analysis measures against them, interventions close the gaps, and later gap analyses confirm the result. When obligations change, the cycle restarts at the needs analysis."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Identify obligations, risks, and business goals that affect each role.",
+            "Translate them into required knowledge, skills, and behaviours (the needs analysis output).",
+            "Record requirements in a competency framework or training matrix.",
+            "Assess current capability and current content coverage against those requirements (the gap analysis).",
+            "Prioritise gaps by risk, then design training or non training responses.",
+            "Reassess after delivery and whenever requirements change."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "ISO 10015:2019 gives guidelines for establishing, implementing, maintaining, and improving systems for competence management and people development, and is a useful reference for structuring this cycle ([ISO](https://www.iso.org/standard/69459.html))."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records requirements as a knowledge framework linked to their source obligations, which gives gap analysis a defined target. Existing training content can then be compared against that framework to show which requirements are covered, partly covered, or missing."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is a skills gap analysis the same as a training needs analysis?",
+      "a": "Not exactly. A skills gap analysis measures the difference between current and required skills. A training needs analysis includes that measurement but also defines the requirements and asks whether training, rather than another intervention, is the right way to close the gap."
+    },
+    {
+      "q": "How often should each be done?",
+      "a": "A needs analysis is typically done when designing a program and whenever obligations, roles, or risks change materially. Gap analyses are usually repeated on a set cycle, such as annually, and after any regulatory change that affects the requirements."
+    },
+    {
+      "q": "Can a gap analysis be done on training content rather than people?",
+      "a": "Yes. A content gap analysis compares what a training library covers against required knowledge and obligations. It often reveals outdated modules, duplicated content, and obligations with no training at all. See how to audit an existing training library."
+    },
+    {
+      "q": "What if the gap is not a training problem?",
+      "a": "Then training will not close it. Needs analysis often finds that performance issues come from unclear procedures, poor tools, workload, or incentives. Recording these findings is still valuable, because it shows a regulator that the organisation considered the cause before choosing a response."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Work Health and Safety Act 2011 (Cth), section 19",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/C2011A00137/latest/text"
+    },
+    {
+      "title": "Work Health and Safety Regulations 2011 (Cth), regulation 39",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2011L02664/latest/text"
+    },
+    {
+      "title": "ISO 10015:2019 Quality management: Guidelines for competence management and people development",
+      "publisher": "International Organization for Standardization (ISO)",
+      "url": "https://www.iso.org/standard/69459.html"
+    }
+  ],
+  "related": [
+    "training-needs-analysis",
+    "how-to-conduct-a-training-needs-analysis",
+    "how-to-run-a-training-gap-analysis",
+    "training-matrix",
+    "how-to-audit-an-existing-training-library"
+  ],
+  "productLinks": [
+    {
+      "label": "Gap analysis",
+      "href": "/platform/gap-analysis"
+    },
+    {
+      "label": "Framework intelligence",
+      "href": "/platform/framework-intelligence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 3,
+  "factCheck": [
+    {
+      "claim": "WHS Act 2011 (Cth) s19(3)(f): provision of any information, training, instruction or supervision necessary to protect all persons from risks to health and safety (compilation 1 July 2024)",
+      "source": "https://www.legislation.gov.au/C2011A00137/latest/text"
+    },
+    {
+      "claim": "WHS Regulations 2011 (Cth) r39(2): training suitable and adequate having regard to nature of work, nature of risks at the time, and control measures (compilation 25 March 2025)",
+      "source": "https://www.legislation.gov.au/F2011L02664/latest/text"
+    },
+    {
+      "claim": "ISO 10015:2019 gives guidelines to establish, implement, maintain and improve systems for competence management and people development",
+      "source": "https://www.iso.org/standard/69459.html"
+    }
+  ]
+}

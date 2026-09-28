@@ -1,0 +1,302 @@
+{
+  "slug": "how-to-structure-onboarding-for-regulated-roles",
+  "kind": "guide",
+  "title": "How do you structure onboarding for regulated roles?",
+  "seoTitle": "Onboarding for regulated roles",
+  "description": "How to structure onboarding for regulated roles: phase it by what the person may do, gate independent work on assessed competence, and record each step.",
+  "shortAnswer": "Structure onboarding for regulated roles around what the person is allowed to do and when. Complete induction obligations that apply at engagement before or on the first day, then teach and assess role specific competence before the person works without supervision, and record each step as an authorisation with evidence. Keep new starters under defined supervision until sign off, and apply the same structure to contractors, transfers, and promotions into regulated roles.",
+  "keyTakeaways": [
+    "Several Australian frameworks attach training to the start of engagement, such as security awareness at engagement under the PSPF and privacy training in induction under the Australian Government Agencies Privacy Code.",
+    "Regulated onboarding is a sequence of authorisations: what a person may access, do under supervision, and do alone. Each needs evidence.",
+    "Gate independent work on assessed competence, not on completion of modules or elapsed time.",
+    "Define supervision for the period before sign off. Untrained people doing regulated work unsupervised is the core risk onboarding exists to control.",
+    "Transfers, promotions, and contractors need the same gates for the parts of the role that are new to them."
+  ],
+  "sections": [
+    {
+      "id": "what-is-different",
+      "heading": "What makes onboarding for regulated roles different?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Onboarding for a regulated role must produce evidence that the person was trained and competent before they performed regulated work, not only a welcome and orientation. The organisation carries the obligation, and the onboarding record is often the first thing an auditor or investigator asks for after an incident involving a new starter."
+        },
+        {
+          "type": "p",
+          "text": "For example, an Australian financial services licensee must ensure its representatives are adequately trained and competent to provide the financial services covered by the licence, an obligation in s912A(1)(f) of the Corporations Act that ASIC distinguishes from organisational competence in [Regulatory Guide 105](https://download.asic.gov.au/media/cndf2udp/rg105-published-23-june-2022-20250616.pdf). In medicines manufacturing, the PIC/S Guide to GMP says newly recruited personnel should receive training appropriate to the duties assigned to them, and that untrained personnel should preferably not be taken into production and quality control areas, and if unavoidable should be closely supervised ([TGA, PE009-16 Part I, clauses 2.11 and 2.13](https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf))."
+        }
+      ]
+    },
+    {
+      "id": "requirements-at-start",
+      "heading": "Which requirements apply at the start of employment?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Some frameworks name onboarding or engagement as a point when training must occur; most require training suitable to the role without naming a time. The table gives verified examples, as at September 2026. It is not a complete list for any sector."
+        },
+        {
+          "type": "table",
+          "caption": "Examples of requirements that attach training to the start of a role",
+          "head": [
+            "Framework",
+            "Who it applies to",
+            "What it says about the start of a role"
+          ],
+          "rows": [
+            [
+              "Protective Security Policy Framework Release 2026, Requirement 0024",
+              "Commonwealth entities that apply the PSPF",
+              "Security awareness training is provided to personnel, including contractors, at engagement and annually thereafter"
+            ],
+            [
+              "Privacy (Australian Government Agencies: Governance) APP Code 2017, section 16",
+              "Australian Government agencies",
+              "Appropriate privacy education or training must be included in any staff induction program"
+            ],
+            [
+              "AUSTRAC guidance on AML/CTF training",
+              "Reporting entities under the AML/CTF Act",
+              "Gives examples only, including general awareness training at onboarding for personnel not in AML/CTF relevant roles and training for third party vendors when onboarded"
+            ],
+            [
+              "PIC/S Guide to GMP, Part I, clause 2.11",
+              "Medicines manufacturers licensed by the TGA",
+              "Newly recruited personnel should receive training appropriate to the duties assigned to them"
+            ],
+            [
+              "Model WHS Regulations, regulation 39",
+              "Persons conducting a business or undertaking in jurisdictions that adopt the model laws",
+              "Training must be suitable and adequate for the work, the risks, and the control measures; no timing is set, but work cannot safely start without it"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Sources: [PSPF Release 2026](https://www.protectivesecurity.gov.au/system/files/2026-07/pspf-release-2026_6.pdf), [APP Code](https://www.oaic.gov.au/__data/assets/pdf_file/0019/2872/privacy-australian-government-agencies-governance-app-code-2017.pdf), [AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training), [model WHS Regulations](https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf). For sector detail see [AML/CTF training requirements](/regulations/austrac-aml-ctf-training-requirements) and [PSPF security awareness training](/regulations/pspf-security-awareness-training)."
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "heading": "What are the steps to structure regulated onboarding?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Start from the role's regulated activities, decide what must be in place before each activity, then build the sequence and the records. Each step below has a defined output."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**List the regulated activities.** For each role, list what the person will do that is regulated: advising clients, handling personal information, operating equipment, releasing product, approving transactions. Output: an activity list per role.",
+            "**Set the gate for each activity.** Decide what evidence is needed before the person may do it under supervision and before they may do it alone. Output: a gate table per role.",
+            "**Identify start of engagement obligations.** Record any training that must occur at engagement or in induction under the frameworks that apply. Output: a day one list.",
+            "**Sequence the program.** Order content so that day one obligations come first and role competence is built before the related gate. Output: a phased onboarding plan.",
+            "**Define supervision.** State who supervises, what supervised work is allowed, and how supervision is recorded. Output: a supervision standard.",
+            "**Build assessment for each gate.** Use observation, scenarios, or case review as the activity requires. Output: assessment tools mapped to gates. See [how to design competency assessments](/guides/how-to-design-competency-assessments).",
+            "**Record authorisations.** Record each gate passed, with evidence, assessor, date, and content version. Output: an authorisation record per person.",
+            "**Review the first cycle.** Check where new starters stalled or erred and adjust. Output: an improvement log."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "template",
+      "heading": "What does a phased onboarding structure look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A phased structure groups onboarding by the authorisation it leads to. The template below is illustrative; timings and content should follow your own risk assessment and the frameworks that apply to the role."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative onboarding template for a regulated customer facing role",
+          "head": [
+            "Phase",
+            "Typical timing",
+            "Content",
+            "Gate and evidence"
+          ],
+          "rows": [
+            [
+              "Pre start",
+              "Before day one",
+              "Screening and checks required for the role; access requests prepared",
+              "Checks recorded as complete; no system access until cleared"
+            ],
+            [
+              "Day one obligations",
+              "Day one or first week",
+              "Safety induction, security awareness, privacy, code of conduct, how to report concerns",
+              "Completion and a short knowledge check; attestation where required"
+            ],
+            [
+              "Role foundations",
+              "First weeks",
+              "Products, processes, systems, and the obligations behind them",
+              "Scenario assessment on the core decisions of the role"
+            ],
+            [
+              "Supervised practice",
+              "Following foundations",
+              "Real work under a named supervisor, with every regulated output checked",
+              "Supervisor log with a set number of checked cases"
+            ],
+            [
+              "Independent authorisation",
+              "When evidence is complete",
+              "Assessor review of supervised work and a final observation",
+              "Signed authorisation to act alone, with scope and date"
+            ],
+            [
+              "Consolidation",
+              "First months after sign off",
+              "Targeted refreshers based on errors seen; first sample review",
+              "Quality review results; follow up actions closed"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "before-sign-off",
+      "heading": "What can a new starter do before sign off?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Before sign off, a new starter should do regulated work only under defined supervision, within a documented scope, and with their outputs checked. The supervision standard should say what \"supervised\" means in practice: present at the time, reviewing every output, or reviewing a sample."
+        },
+        {
+          "type": "callout",
+          "title": "Checklist: supervision standard for the pre sign off period",
+          "text": "Named supervisor for each new starter. List of activities allowed under supervision and those not allowed at all. Method of supervision for each activity. How supervised outputs are checked and recorded. Maximum period before escalation if sign off is not achieved. System access restricted to match the allowed scope. Clear instruction to new starters on what to do when unsure."
+        }
+      ]
+    },
+    {
+      "id": "transfers-contractors",
+      "heading": "How should transfers, promotions, and contractors be handled?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Apply the same gates to the parts of the new role that are new to the person, and recognise evidence they already hold for the rest. A transfer into a regulated team is a new start for its regulated activities, even for a long serving employee."
+        },
+        {
+          "type": "p",
+          "text": "Contractors and labour hire workers should meet the same gates for the same activities. Several frameworks explicitly include contractors, such as PSPF Requirement 0024. Where a contractor brings existing qualifications, use [recognition of prior learning](/glossary/recognition-of-prior-learning) or a [verification of competency](/guides/how-to-set-up-verification-of-competency) rather than assuming competence."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines each role's regulated activities as outcomes and assessment points in a knowledge framework, so onboarding sequences and gates can be built from the same structure used for ongoing training. Each gate keeps provenance to the obligation it serves. The [compliance programs](/programs/compliance) page describes this approach."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long should onboarding for a regulated role take?",
+      "a": "As long as it takes to meet the gates, which varies by role and by the person's prior experience. Fixing a duration encourages sign off on the calendar rather than on evidence. Set expected ranges for planning, and escalate when a new starter exceeds them, but let the evidence decide authorisation."
+    },
+    {
+      "q": "Can new starters complete compliance modules before their start date?",
+      "a": "Sometimes, if they have access and are paid for the time, and it can reduce day one load. Content that depends on internal systems or procedures is usually better after start. Check employment arrangements with HR before assigning training before the start date."
+    },
+    {
+      "q": "Who should sign off that a new starter is competent?",
+      "a": "A person who is competent in the activity and authorised to assess, ideally not the person's direct supervisor alone for high risk activities. Record the assessor's name, the evidence reviewed, the scope of the authorisation, and the date. For some roles, a regulator or licence condition may specify who can supervise or sign off."
+    },
+    {
+      "q": "Does onboarding replace the need for annual refresher training?",
+      "a": "No. Onboarding establishes initial competence; refresher training keeps it current as risks, rules, and procedures change. Some frameworks set both, such as PSPF Requirement 0024, which requires security awareness training at engagement and annually thereafter."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Regulatory Guide 105 AFS licensing: Organisational competence",
+      "publisher": "Australian Securities and Investments Commission",
+      "url": "https://download.asic.gov.au/media/cndf2udp/rg105-published-23-june-2022-20250616.pdf"
+    },
+    {
+      "title": "PIC/S Guide to GMP PE009-16, Part I: Basic requirements for medicinal products",
+      "publisher": "Therapeutic Goods Administration",
+      "url": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
+    },
+    {
+      "title": "Protective Security Policy Framework Release 2026",
+      "publisher": "Department of Home Affairs",
+      "url": "https://www.protectivesecurity.gov.au/system/files/2026-07/pspf-release-2026_6.pdf"
+    },
+    {
+      "title": "Privacy (Australian Government Agencies: Governance) APP Code 2017",
+      "publisher": "Office of the Australian Information Commissioner",
+      "url": "https://www.oaic.gov.au/__data/assets/pdf_file/0019/2872/privacy-australian-government-agencies-governance-app-code-2017.pdf"
+    },
+    {
+      "title": "AML/CTF training",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    },
+    {
+      "title": "Model Work Health and Safety Regulations (5 December 2025)",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
+    }
+  ],
+  "related": [
+    "how-to-set-mandatory-training-refresh-cycles",
+    "how-to-set-up-verification-of-competency",
+    "how-to-build-a-training-matrix",
+    "how-to-design-competency-assessments",
+    "ndis-practice-standards-worker-training",
+    "food-safety-standard-3-2-2a-training"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 1,
+  "factCheck": [
+    {
+      "claim": "RG 105.3 and 105.4 note: s912A(1)(f) requires AFS licensees to ensure representatives are trained and competent to provide the financial services; s912A(1)(e) is the separate organisational competence obligation.",
+      "source": "https://download.asic.gov.au/media/cndf2udp/rg105-published-23-june-2022-20250616.pdf"
+    },
+    {
+      "claim": "PIC/S GMP Part I clauses 2.10 and 2.11: training for personnel whose duties take them into production, storage or control laboratories; newly recruited personnel trained for their duties; continuing training with practical effectiveness periodically assessed; training records kept.",
+      "source": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
+    },
+    {
+      "claim": "PIC/S GMP Part I clause 2.13: visitors or untrained personnel should preferably not be taken into production and quality control areas; if unavoidable they should be given information in advance and closely supervised.",
+      "source": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
+    },
+    {
+      "claim": "PSPF Release 2026 Requirement 0024: security awareness training is provided to personnel, including contractors, at engagement and annually thereafter; Requirement 0025: targeted security training for specialist or high-risk positions.",
+      "source": "https://www.protectivesecurity.gov.au/system/files/2026-07/pspf-release-2026_6.pdf"
+    },
+    {
+      "claim": "Australian Government Agencies Privacy Code s16: privacy education or training in any staff induction program, and reasonable steps to provide it annually to staff with access to personal information.",
+      "source": "https://www.oaic.gov.au/__data/assets/pdf_file/0019/2872/privacy-australian-government-agencies-governance-app-code-2017.pdf"
+    },
+    {
+      "claim": "AUSTRAC gives example ongoing training frequencies (compliance officers and senior management every 6 to 12 months; customer facing and enhanced CDD roles every 12 months; vendors at onboarding and contract renewal; other personnel at onboarding) and says they are examples only and frequency must be appropriate to the business.",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    },
+    {
+      "claim": "Model WHS Regulations r39(2): information, training and instruction must be suitable and adequate having regard to the nature of the work, the risks at the time it is provided, and the control measures implemented; r39(3): provided in a way that is readily understandable.",
+      "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
+    }
+  ]
+}

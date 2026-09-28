@@ -1,0 +1,216 @@
+{
+  "slug": "scorm",
+  "kind": "glossary",
+  "title": "What is SCORM?",
+  "seoTitle": "SCORM: definition and versions",
+  "description": "SCORM is the ADL standard that lets e-learning run and report in any conforming LMS. Versions, how packaging and run-time work, and SCORM vs xAPI and cmi5.",
+  "shortAnswer": "The Sharable Content Object Reference Model (SCORM) is a set of technical standards, published by the Advanced Distributed Learning (ADL) Initiative, that lets self paced e-learning run in any conforming learning management system (LMS) and report results back to it. SCORM defines how content is packaged into a zip file, how the LMS launches it in a web browser, and how the content sends data such as completion, success, and score.",
+  "keyTakeaways": [
+    "SCORM is maintained by the ADL Initiative, a United States government organisation.",
+    "The versions in use are SCORM 1.2 (October 2001) and SCORM 2004, whose 4th Edition (March 2009) is the latest release and the one ADL recommends.",
+    "SCORM content runs in a browser launched by the LMS and talks to it through a JavaScript API.",
+    "SCORM records completion, pass or fail, score, and time, but cannot track learning outside an LMS launched browser session; xAPI and cmi5 were built for that."
+  ],
+  "term": "SCORM",
+  "alsoKnownAs": [
+    "Sharable Content Object Reference Model",
+    "SCORM 1.2",
+    "SCORM 2004"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What does SCORM stand for and who maintains it?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SCORM stands for Sharable Content Object Reference Model and is maintained by the Advanced Distributed Learning (ADL) Initiative. ADL describes SCORM as technical specifications that address \"interoperability, portability, reusability, and the instructional sequencing\" of self paced e-learning content, and states that it \"recommends the use of SCORM 2004 4th Edition above all others\" ([ADL Initiative](https://adlnet.gov/past-projects/scorm/))."
+        },
+        {
+          "type": "p",
+          "text": "In practice SCORM is what allows a course built in one authoring tool to be uploaded to any conforming [learning management system](/glossary/learning-management-system) and report completions without custom integration."
+        }
+      ]
+    },
+    {
+      "id": "versions",
+      "heading": "Which SCORM versions exist?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Two SCORM versions are in common use: SCORM 1.2 and SCORM 2004 (in its 3rd or 4th Edition). No new SCORM version has been released since SCORM 2004 4th Edition in 2009; ADL's newer work is on [xAPI](/glossary/xapi) and [cmi5](/glossary/cmi5)."
+        },
+        {
+          "type": "table",
+          "caption": "SCORM versions still encountered in workplace training",
+          "head": [
+            "Version",
+            "Released",
+            "What to know"
+          ],
+          "rows": [
+            [
+              "SCORM 1.2",
+              "October 2001",
+              "Widest LMS support; single status field; no sequencing rules"
+            ],
+            [
+              "SCORM 2004 3rd Edition",
+              "October 2006",
+              "Separate completion and success status; sequencing and navigation"
+            ],
+            [
+              "SCORM 2004 4th Edition",
+              "March 2009",
+              "Latest release; the edition ADL recommends"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "ADL provides a sample run-time environment for SCORM 2004 4th Edition as open source software ([ADL on GitHub](https://github.com/adlnet/SCORM-2004-4ed-SampleRTE))."
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "heading": "How does SCORM work?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SCORM works in two parts: content packaging, which tells the LMS what is in the course, and the run-time environment, which lets the launched content exchange data with the LMS. SCORM 2004 adds a third part, sequencing and navigation."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Packaging:** the course is a zip file with a manifest file named imsmanifest.xml at its root, describing the course structure and its resources.",
+            "**Launch:** the LMS opens a Sharable Content Object (SCO), the trackable unit, in a browser window or frame.",
+            "**Run-time communication:** the SCO finds a JavaScript API object provided by the LMS and calls functions to start a session, get and set data, and finish. SCORM 1.2 uses functions such as LMSInitialize; SCORM 2004 uses Initialize.",
+            "**Data model:** SCORM 1.2 records a single lesson status; SCORM 2004 separates completion status (completed or incomplete) from success status (passed or failed), alongside score, time, and interaction data.",
+            "**Sequencing (2004 only):** rules can control the order of SCOs, such as locking a final test until modules are complete."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-it-differs",
+      "heading": "How is SCORM different from xAPI and cmi5?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SCORM only tracks content that an LMS launches in a browser session, and stores results in the LMS. xAPI records learning activity from any source as statements sent to a Learning Record Store; cmi5 applies xAPI to the LMS launch case that SCORM was built for."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**SCORM:** browser only, LMS launched, fixed data model, very broad support.",
+            "**xAPI:** any activity, any device, flexible statements, needs a Learning Record Store. See [SCORM vs xAPI](/compare/scorm-vs-xapi).",
+            "**cmi5:** LMS launched like SCORM, but content can be hosted anywhere and reports through xAPI. See [xAPI vs cmi5](/compare/xapi-vs-cmi5)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "example",
+      "heading": "What does SCORM tracking look like in practice?",
+      "blocks": [
+        {
+          "type": "callout",
+          "title": "Illustrative example",
+          "text": "A bank publishes its anti money laundering refresher as a SCORM 2004 4th Edition package. When an employee finishes, the course sets completion status to completed, success status to passed, and a scaled score of 0.85. The LMS stores those values against the employee's record. The record shows that the module was finished and passed, but not which questions mapped to which obligations: that has to come from the course design and its [assessment blueprint](/glossary/assessment-blueprint)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry publishes training into existing learning systems in standard formats, so SCORM compatible LMSs remain usable. The traceability from each assessment item back to the obligation it tests is held in the knowledge framework rather than in the SCORM data model, which has no field for it."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is SCORM obsolete?",
+      "a": "No. SCORM is no longer being developed, but it remains the most widely supported format for LMS e-learning, and ADL still provides resources for SCORM 1.2 and SCORM 2004. Organisations increasingly choose cmi5 or xAPI for new content that needs richer tracking or must run outside a browser."
+    },
+    {
+      "q": "Should new courses use SCORM 1.2 or SCORM 2004?",
+      "a": "ADL recommends SCORM 2004 4th Edition. SCORM 2004 separates completion from pass or fail, which is clearer for compliance reporting. Some older LMSs handle SCORM 1.2 more reliably, so test the package in the target system before choosing."
+    },
+    {
+      "q": "Can SCORM track mobile or offline learning?",
+      "a": "Not well. SCORM content must be launched by the LMS and communicate through a JavaScript API in a browser session. Offline apps, simulations, or on the job observations fall outside that model, which is one reason xAPI was developed."
+    },
+    {
+      "q": "Does SCORM prove that training content is current?",
+      "a": "No. SCORM describes how content is packaged and tracked, not whether its content matches current law or policy. Content currency has to be managed through version control and review of the source material."
+    }
+  ],
+  "sources": [
+    {
+      "title": "SCORM",
+      "publisher": "Advanced Distributed Learning (ADL) Initiative",
+      "url": "https://adlnet.gov/past-projects/scorm/"
+    },
+    {
+      "title": "SCORM 2004 4th Edition Sample Run-Time Environment",
+      "publisher": "Advanced Distributed Learning (ADL) Initiative",
+      "url": "https://github.com/adlnet/SCORM-2004-4ed-SampleRTE"
+    },
+    {
+      "title": "cmi5 specification (Quartz)",
+      "publisher": "AICC / ADL Initiative",
+      "url": "https://github.com/AICC/CMI-5_Spec_Current"
+    }
+  ],
+  "factCheck": [
+    {
+      "claim": "ADL recommends SCORM 2004 4th Edition above all others; SCORM addresses interoperability, portability, reusability and instructional sequencing of self paced e-learning (ADL page text as shown in search results; adlnet.gov returned a TLS certificate error when fetched on 28 Sep 2026)",
+      "source": "https://adlnet.gov/past-projects/scorm/"
+    },
+    {
+      "claim": "SCORM 1.2 released October 2001; SCORM 2004 3rd Edition October 2006; 4th Edition March 2009",
+      "source": "https://scorm.com/scorm-explained/business-of-scorm/scorm-versions/"
+    },
+    {
+      "claim": "SCORM 2004 added the Sequencing and Navigation book",
+      "source": "https://scorm.com/scorm-explained/business-of-scorm/scorm-versions/"
+    },
+    {
+      "claim": "SCORM run-time communication is through a JavaScript API; 1.2 uses LMSInitialize, 2004 uses Initialize; 2004 splits lesson_status into completion_status and success_status",
+      "source": "https://scorm.com/scorm-explained/technical-scorm/run-time/"
+    },
+    {
+      "claim": "Package manifest is imsmanifest.xml at package root; zip PIF format; SCOs communicate with LMS",
+      "source": "https://scorm.com/scorm-explained/technical-scorm/content-packaging/"
+    },
+    {
+      "claim": "ADL publishes an open source SCORM 2004 4th Edition Sample RTE",
+      "source": "https://github.com/adlnet/SCORM-2004-4ed-SampleRTE"
+    }
+  ],
+  "related": [
+    "xapi",
+    "cmi5",
+    "learning-management-system",
+    "scorm-vs-xapi",
+    "how-to-migrate-legacy-elearning-content"
+  ],
+  "productLinks": [
+    {
+      "label": "Integrations",
+      "href": "/platform/integrations"
+    },
+    {
+      "label": "Technical overview",
+      "href": "/platform/technical-overview"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 2
+}

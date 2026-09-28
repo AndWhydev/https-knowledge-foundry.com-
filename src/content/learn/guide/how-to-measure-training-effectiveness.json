@@ -1,0 +1,240 @@
+{
+  "slug": "how-to-measure-training-effectiveness",
+  "kind": "guide",
+  "title": "How do you measure training effectiveness?",
+  "seoTitle": "Measuring training effectiveness",
+  "description": "A practical method for measuring training effectiveness: define the result first, name critical behaviours, pick measures at each level, baseline, and review.",
+  "shortAnswer": "To measure training effectiveness, start with the result the organisation needs, name the on the job behaviours that produce it, then choose measures for learning, behaviour, and results before the training is built. Take a baseline, collect data at set intervals after delivery, compare against the baseline and against groups or periods without the change, and use the findings to adjust content, support, or process.",
+  "keyTakeaways": [
+    "Plan measurement before design. Kirkpatrick Partners stresses starting with Level 4 Results and working backwards.",
+    "Most useful evidence sits at behaviour and results, and most of it comes from business data, not the learning system.",
+    "Measure learning with assessments aligned to specific outcomes, not general knowledge quizzes.",
+    "Use leading indicators to see change early and lagging indicators to confirm it.",
+    "Report measurement limits openly. Training rarely acts alone, so attribution should be cautious."
+  ],
+  "sections": [
+    {
+      "id": "what-effectiveness-means",
+      "heading": "What does training effectiveness mean?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training effectiveness is the degree to which training produces the capability and on the job behaviour it was designed to produce, and through that contributes to an organisational result. Completion and satisfaction describe delivery, not effectiveness."
+        },
+        {
+          "type": "p",
+          "text": "The most widely used structure is the [Kirkpatrick model](/glossary/kirkpatrick-model), maintained by [Kirkpatrick Partners](https://www.kirkpatrickpartners.com/the-kirkpatrick-model/). Its four levels are Reaction, Learning, Behaviour (spelled Behavior by the publisher), and Results. Kirkpatrick Partners describes Level 3 as the degree to which people perform the critical behaviours on the job and are supported and held accountable for doing so, and states that it is critical to start planning with Level 4 Results and the purpose of the program."
+        },
+        {
+          "type": "p",
+          "text": "Quality management practice points the same way. [ISO 10015:2019](https://www.iso.org/standard/69459.html) gives guidelines for establishing, implementing, maintaining, and improving systems for competence management and people development, treating people development as a managed process with evaluation built in rather than a one off event."
+        },
+        {
+          "type": "p",
+          "text": "Regulated organisations have an extra reason to measure. The Australian Transaction Reports and Analysis Centre (AUSTRAC), for example, states in its [training guidance](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform) that it expects reporting entities to monitor training effectiveness and evaluate whether personnel retain and apply what they learned. Presenting that evidence externally is covered in [how to show a regulator that training works](/guides/how-to-evidence-training-effectiveness-to-a-regulator)."
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "heading": "What is the step by step method?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The method works backwards from the result, then forwards through delivery. Each step has an output that becomes part of the measurement plan."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Define the result.** State the organisational outcome in measurable terms, such as fewer incomplete customer files or fewer notifiable incidents in a task. Output: a result statement with a current value.",
+            "**Name the critical behaviours.** List the few observable actions that most drive the result. Output: two to five critical behaviours per role.",
+            "**Write learning outcomes and assessments.** Derive [learning outcomes](/glossary/learning-outcomes) from the behaviours and design assessments that test them. Output: outcomes with assessment items mapped to each.",
+            "**Choose leading and lagging indicators.** Leading indicators move first, such as quality review pass rates; lagging indicators confirm results, such as breach counts. Output: an indicator list with data owners.",
+            "**Set the baseline.** Record current values for each indicator before release. Output: baseline figures and the period they cover.",
+            "**Plan comparison.** Decide what you will compare against: the baseline, a group not yet trained, or a previous period. Output: a comparison design.",
+            "**Collect at set intervals.** Typical points are immediately after training for learning, and at intervals after that for behaviour and results, set by how quickly the behaviour is used. Output: a data collection schedule.",
+            "**Analyse and act.** Look for where the chain breaks. Strong assessment results with weak behaviour usually point to the work environment or supervision, not the content. Output: findings and recorded changes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "measurement-plan-template",
+      "heading": "What should a measurement plan contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A measurement plan should state, for each level, the question being asked, the measure, where the data comes from, when it is collected, and who owns it. The template below is original and can be copied into a spreadsheet."
+        },
+        {
+          "type": "table",
+          "caption": "Measurement plan template",
+          "head": [
+            "Level",
+            "Question",
+            "Example measure",
+            "Data source",
+            "Timing"
+          ],
+          "rows": [
+            [
+              "Reaction",
+              "Did learners find it relevant to their work?",
+              "Relevance rating and free text comments",
+              "Post session survey",
+              "End of training"
+            ],
+            [
+              "Learning",
+              "Can they apply the procedure to realistic cases?",
+              "Scenario assessment score by outcome",
+              "Assessment results",
+              "End of training and a later retest"
+            ],
+            [
+              "Behaviour",
+              "Do they perform the critical behaviours at work?",
+              "Share of sampled cases done correctly",
+              "Quality assurance review, observation, or verification of competency",
+              "At intervals after training"
+            ],
+            [
+              "Results",
+              "Is the organisational outcome improving?",
+              "Rate of errors, breaches, or incidents in the task",
+              "Operational, risk, or incident systems",
+              "Quarterly, against baseline"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does a worked example look like?",
+      "blocks": [
+        {
+          "type": "callout",
+          "title": "Illustrative example, not a real case",
+          "text": "A health insurer's privacy team wants fewer privacy incidents caused by misdirected correspondence. Critical behaviours: verify the recipient against two identifiers before sending; use the approved template; escalate any mismatch. Learning measure: a scenario assessment where learners must catch planted mismatches. Behaviour measure: monthly sampling of outgoing correspondence by team leaders. Results measure: misdirected correspondence incidents per 10,000 items sent, compared with the six months before release. After release, assessment scores are high but sampling shows one site skipping the second identifier. The cause is a system screen that hides it, so the fix is a system change, not more training."
+        }
+      ]
+    },
+    {
+      "id": "common-mistakes",
+      "heading": "What are the common measurement mistakes?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The common mistakes are measuring only what the learning system captures, designing measures after release, and treating any improvement as proof that training caused it."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "No baseline, so no change can be shown.",
+            "Assessments that test recall of facts rather than the behaviours that matter.",
+            "Too many indicators. A few well chosen ones are more useful than a large dashboard.",
+            "Ignoring the work environment. Kirkpatrick Partners notes the role of performance support and accountability at Level 3.",
+            "Stopping measurement after the first review, so drift goes unnoticed."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Where the goal is to report upwards, pick the subset of these measures a board can act on; see [how to report training compliance to a board](/guides/how-to-report-training-compliance-to-the-board)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines outcomes and assessment points in the knowledge framework before content exists, so each assessment result is tied to a named outcome and the obligation behind it. That gives measurement a stable structure to report against when content changes."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between training efficiency and effectiveness?",
+      "a": "Efficiency is about cost and effort per learner, such as hours, spend, or time to complete. Effectiveness is about whether the training produced the intended capability and behaviour. A program can be efficient and ineffective, so measure both but report them separately."
+    },
+    {
+      "q": "Is return on investment a good measure for compliance training?",
+      "a": "It can be difficult to calculate credibly for compliance training because the benefit is often avoided harm. Many organisations instead report risk indicators such as error, breach, or incident trends alongside assessment and behaviour evidence, and state their assumptions clearly."
+    },
+    {
+      "q": "How long after training should behaviour be measured?",
+      "a": "Measure once people have had enough opportunity to use the behaviour at work. For daily tasks that may be a few weeks; for rare tasks it may take longer, or require simulations or drills. Set the timing in the measurement plan so it is not left to chance."
+    },
+    {
+      "q": "Can we measure effectiveness without a control group?",
+      "a": "Yes. A baseline and trend comparison is the most common approach. Phased rollouts, where some teams are trained before others, can give a natural comparison. Whatever design you use, note other changes that happened in the same period."
+    },
+    {
+      "q": "Are learner satisfaction surveys worth running?",
+      "a": "Yes, if they ask the right question. Kirkpatrick Partners notes that relevance is a better indicator than engagement of whether learning will transfer to the job. Ask whether the content matched the work people actually do, and use free text answers to find confusing or outdated material quickly."
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Kirkpatrick Model",
+      "publisher": "Kirkpatrick Partners",
+      "url": "https://www.kirkpatrickpartners.com/the-kirkpatrick-model/"
+    },
+    {
+      "title": "AML/CTF training (Reform)",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
+    },
+    {
+      "title": "ISO 10015:2019 Quality management: Guidelines for competence management and people development",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/69459.html"
+    },
+    {
+      "title": "Psychosocial risk: a new challenge for boards",
+      "publisher": "Australian Institute of Company Directors",
+      "url": "https://www.aicd.com.au/regulatory-compliance/work-health-and-safety-act/reporting/psychosocial-risk-a-new-challenge-for-boards.html"
+    }
+  ],
+  "related": [
+    "how-to-evidence-training-effectiveness-to-a-regulator",
+    "kirkpatrick-model",
+    "how-to-write-measurable-learning-outcomes",
+    "how-to-design-competency-assessments",
+    "how-to-report-training-compliance-to-the-board"
+  ],
+  "productLinks": [
+    {
+      "label": "Verification and trust",
+      "href": "/platform/verification-trust"
+    },
+    {
+      "label": "Gap analysis",
+      "href": "/platform/gap-analysis"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 5,
+  "factCheck": [
+    {
+      "claim": "Kirkpatrick Partners defines four levels (Reaction, Learning, Behavior, Results) and says it is critical to start with Level 4 Results.",
+      "source": "https://www.kirkpatrickpartners.com/the-kirkpatrick-model/"
+    },
+    {
+      "claim": "Kirkpatrick Level 3 measures performance of critical behaviours on the job and whether people are supported in and accountable for performance.",
+      "source": "https://www.kirkpatrickpartners.com/the-kirkpatrick-model/"
+    },
+    {
+      "claim": "AUSTRAC expects entities to monitor training effectiveness and evaluate retention and application.",
+      "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
+    },
+    {
+      "claim": "AICD describes lead and lag indicators as part of effective board reporting on risk.",
+      "source": "https://www.aicd.com.au/regulatory-compliance/work-health-and-safety-act/reporting/psychosocial-risk-a-new-challenge-for-boards.html"
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "slug": "how-to-build-a-competency-framework",
+  "kind": "guide",
+  "title": "How do you build a competency framework?",
+  "seoTitle": "How to build a competency framework",
+  "description": "An eight step method for building a competency framework: scope, structure, sources, drafting, proficiency levels, validation, role profiles and governance.",
+  "shortAnswer": "A competency framework is built by fixing its purpose and scope, choosing a structure of domains, competencies, indicators and proficiency levels, gathering evidence of what competent work looks like, drafting competencies as observable statements, writing distinct proficiency levels, validating them with job holders and experts, assigning required levels to roles, and putting the framework under version control with a named owner and review cycle.",
+  "keyTakeaways": [
+    "Decide what the framework will be used for (recruitment, training, assessment, regulatory evidence) before drafting anything. Purpose drives granularity.",
+    "Reuse authoritative sources where they exist: national units of competency, professional standards and regulator guidance.",
+    "Write each competency as observable performance, with behavioural indicators an assessor could actually check.",
+    "Proficiency levels should differ in autonomy, complexity and judgement, as the AQF does, not just in adjectives like 'basic' and 'advanced'.",
+    "A framework without an owner, a version number and a review date decays within a year."
+  ],
+  "sections": [
+    {
+      "id": "what-it-contains",
+      "heading": "What does a competency framework contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A [competency framework](/glossary/competency-framework) contains a set of competencies grouped into domains, a description of what each competency looks like in practice, proficiency levels that show how performance develops, and role profiles that state which level each role needs."
+        },
+        {
+          "type": "p",
+          "text": "The definition of competence matters here. ISO 9000:2015 defines competence as the 'ability to apply knowledge and skills to achieve intended results', as quoted by the ISO 9001 Auditing Practices Group ([ISO and IAF](https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf)). A framework built on that definition describes application and results, not just knowledge."
+        },
+        {
+          "type": "table",
+          "caption": "Components of a competency framework",
+          "head": [
+            "Component",
+            "What it is",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Domain",
+              "A grouping of related competencies",
+              "Customer due diligence"
+            ],
+            [
+              "Competency",
+              "A capability stated as performance",
+              "Verifies customer identity in line with the organisation's procedures"
+            ],
+            [
+              "Behavioural indicators",
+              "Observable evidence that the competency is being performed",
+              "Selects the correct verification method for the customer type"
+            ],
+            [
+              "Proficiency levels",
+              "Graded descriptions of performance, usually three to five",
+              "Foundation, practitioner, expert"
+            ],
+            [
+              "Role profile",
+              "The required level of each competency for a role",
+              "Onboarding officer: practitioner in identity verification"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "heading": "What are the steps to build a competency framework?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "There are eight steps. The first two are decisions, steps three to six build the content, and the last two make it usable and keep it current."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Fix purpose and scope.** Write down the uses the framework must support and the roles or job families it covers. A framework for regulatory evidence needs finer, assessable indicators than one used only for career conversations. Output: a one page charter naming the sponsor, the owner and the in scope roles.",
+            "**Choose the structure.** Decide the hierarchy (domain, competency, indicator), the number of proficiency levels, and the fields each competency record will hold. Output: a template for a single competency record.",
+            "**Gather evidence of competent performance.** Collect procedures, role descriptions, regulator guidance, incident and quality data, and existing standards. In Australia, national units of competency on training.gov.au already express workplace performance as elements and performance criteria; the Training Package Organising Framework requires elements to 'describe demonstrable workplace outcomes' ([DEWR](https://www.dewr.gov.au/download/16680/training-package-organising-framework-effective-1-july-2025/39042/training-package-organising-framework/pdf)). Output: a source register listing every document used and its version.",
+            "**Run structured sessions with job holders and experts.** Use critical incident questions (describe a time this task went well, and a time it went badly) to surface what separates competent from non-competent performance. Output: raw task and behaviour statements, tagged to sources.",
+            "**Draft competencies and indicators.** Cluster the statements into competencies, write each as an action verb plus object plus context, and write three to six indicators per competency. Remove overlaps so each behaviour belongs to one competency only. Output: a draft competency catalogue.",
+            "**Write proficiency levels.** Describe each level by changes in autonomy, complexity of situations handled, judgement and responsibility for others. The Australian Qualifications Framework (AQF) uses a similar logic, describing application of knowledge and skills in terms of autonomy, judgement and responsibility across its ten levels ([AQF](https://www.aqf.edu.au/framework/aqf-levels)). Output: level descriptors for every competency.",
+            "**Validate.** Test the draft with a different group of job holders and managers from those who helped write it. Ask them to rate relevance and clarity, and to place real (anonymised) examples of work at a level. Where raters disagree, the wording is ambiguous. Output: a validation log with changes made.",
+            "**Build role profiles and govern.** Assign the required level of each competency to each role, publish the framework with a version number, and set a review cycle and triggers such as regulatory change. Output: role profiles and a governance record."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does a finished competency entry look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A finished entry states the competency, its indicators and what distinguishes each level. The example below is illustrative: it is not drawn from any published framework, and an organisation would ground the indicators in its own procedures and regulator guidance."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative competency record: assessing unusual customer activity",
+          "head": [
+            "Level",
+            "Descriptor",
+            "Sample indicator"
+          ],
+          "rows": [
+            [
+              "Foundation",
+              "Recognises listed indicators of unusual activity in routine interactions and escalates using the set procedure, under supervision",
+              "Escalates a transaction showing a listed indicator within the required time"
+            ],
+            [
+              "Practitioner",
+              "Assesses unusual activity across customer types and products, gathers relevant context and makes a documented escalation decision without supervision",
+              "Records the reasons for escalating or not escalating, with reference to the procedure"
+            ],
+            [
+              "Expert",
+              "Handles complex and novel patterns, advises others, and identifies where procedures or indicators need to change",
+              "Proposes an indicator change supported by case analysis and has it approved"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Notice that the levels differ by autonomy and complexity, and each indicator names something an assessor could observe or inspect. That property is what makes the framework usable for [competency assessment](/guides/how-to-design-competency-assessments)."
+        }
+      ]
+    },
+    {
+      "id": "sources-to-reuse",
+      "heading": "Which existing standards can a competency framework reuse?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Reuse existing standards wherever they fit, because they have already been consulted on and are recognised by regulators and auditors."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**National units of competency** for vocational tasks, with their performance criteria, performance evidence and knowledge evidence.",
+            "**Professional or practice standards** issued by professional bodies or regulators, for example standards for financial advisers or clinicians.",
+            "**Regulator guidance** that states expected knowledge and skills, such as ASIC's RG 104 expectation that licensees identify the knowledge and skills representatives need ([ASIC](https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/)).",
+            "**National skills classifications.** Jobs and Skills Australia's Australian Skills Classification described core competencies, specialist tasks and technology tools; it remains available for research purposes while Jobs and Skills Australia develops a new National Skills Taxonomy ([Jobs and Skills Australia](https://www.jobsandskills.gov.au/data/national-skills-taxonomy))."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Check before you import",
+          "text": "Imported statements often describe a whole occupation. Cut them down to what your roles actually do, and record the source and version for each imported item so it can be updated when the source changes."
+        }
+      ]
+    },
+    {
+      "id": "pitfalls",
+      "heading": "Why do competency frameworks fail?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most frameworks fail because they are too abstract to assess or too large to maintain. A framework nobody can assess against becomes a poster; a framework with hundreds of competencies becomes shelfware."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Values dressed as competencies ('shows integrity') with no observable indicators.",
+            "Proficiency levels that differ only by adjectives.",
+            "No link to the [training matrix](/guides/how-to-build-a-training-matrix) or assessment, so the framework never affects what people are trained on.",
+            "No owner and no review trigger, so it drifts away from current procedures."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry stores competencies, the concepts they depend on, their sources and their assessment points as linked records with version history. When a source changes, the affected competencies and the training built on them can be identified. See [framework intelligence](/platform/framework-intelligence)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many competencies should a framework have?",
+      "a": "Enough to cover the performance that matters and no more. Role specific frameworks often work with a small number of domains and a few competencies in each. If a role profile lists more competencies than a manager could discuss in a performance conversation, the framework is probably too granular for that purpose."
+    },
+    {
+      "q": "What is the difference between a competency and a skill?",
+      "a": "A skill is a specific ability, such as using a system or calculating a figure. A competency combines knowledge, skills and behaviour applied to achieve a result in a work context. The [competency framework vs skills framework](/compare/competency-framework-vs-skills-framework) comparison covers this in detail."
+    },
+    {
+      "q": "How many proficiency levels should a framework use?",
+      "a": "Three to five is common. Fewer than three rarely distinguishes learners from experts; more than five is hard for assessors to apply consistently. Choose the smallest number whose descriptors raters can tell apart reliably in validation."
+    },
+    {
+      "q": "How often should a competency framework be reviewed?",
+      "a": "Set a scheduled review, commonly annual, plus event triggers: a change in regulation, a new product or system, a restructure, or audit findings. Record each review, even when no change is made, so there is evidence the framework was checked."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Training Package Organising Framework (date of effect 1 July 2025)",
+      "publisher": "Department of Employment and Workplace Relations (DEWR)",
+      "url": "https://www.dewr.gov.au/download/16680/training-package-organising-framework-effective-1-july-2025/39042/training-package-organising-framework/pdf"
+    },
+    {
+      "title": "AQF levels",
+      "publisher": "Australian Qualifications Framework",
+      "url": "https://www.aqf.edu.au/framework/aqf-levels"
+    },
+    {
+      "title": "ISO 9001 Auditing Practices Group: Guidance on auditing competence (Edition 2)",
+      "publisher": "ISO and International Accreditation Forum",
+      "url": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf"
+    },
+    {
+      "title": "National Skills Taxonomy",
+      "publisher": "Jobs and Skills Australia",
+      "url": "https://www.jobsandskills.gov.au/data/national-skills-taxonomy"
+    },
+    {
+      "title": "RG 104 AFS licensing: Meeting the general obligations",
+      "publisher": "Australian Securities and Investments Commission (ASIC)",
+      "url": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/"
+    },
+    {
+      "title": "ISO 10015:2019 Quality management: Guidelines for competence management and people development",
+      "publisher": "International Organization for Standardization (ISO)",
+      "url": "https://www.iso.org/standard/69459.html"
+    }
+  ],
+  "related": [
+    "competency-framework",
+    "competency-framework-vs-skills-framework",
+    "how-to-design-competency-assessments",
+    "how-to-build-a-training-matrix",
+    "how-to-conduct-a-training-needs-analysis",
+    "aqf-levels-and-learning-outcomes"
+  ],
+  "productLinks": [
+    {
+      "label": "Framework intelligence",
+      "href": "/platform/framework-intelligence"
+    },
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 3,
+  "factCheck": [
+    {
+      "claim": "ISO 9000:2015 3.10.4 defines competence as 'ability to apply knowledge and skills to achieve intended results' (quoted in the ISO 9001 APG competence guidance)",
+      "source": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf"
+    },
+    {
+      "claim": "Training Package Organising Framework 2.2.3: elements must describe demonstrable workplace outcomes",
+      "source": "https://www.dewr.gov.au/download/16680/training-package-organising-framework-effective-1-july-2025/39042/training-package-organising-framework/pdf"
+    },
+    {
+      "claim": "AQF describes application of knowledge and skills in terms of autonomy, judgement and responsibility across ten levels",
+      "source": "https://www.aqf.edu.au/framework/aqf-levels"
+    },
+    {
+      "claim": "The ASC featured core competencies, specialist tasks and technology tools and remains available for research purposes; JSA is developing the National Skills Taxonomy",
+      "source": "https://www.jobsandskills.gov.au/data/national-skills-taxonomy"
+    }
+  ]
+}

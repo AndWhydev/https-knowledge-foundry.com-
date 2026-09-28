@@ -1,0 +1,210 @@
+{
+  "slug": "addie-model",
+  "kind": "glossary",
+  "title": "What is the ADDIE model?",
+  "seoTitle": "ADDIE model: definition and phases",
+  "description": "The ADDIE model is a five phase instructional design process: analysis, design, development, implementation and evaluation. Its origins, phases and limits.",
+  "shortAnswer": "The ADDIE model is a five phase process for designing training: Analysis, Design, Development, Implementation, and Evaluation. Each phase produces outputs that feed the next, from a needs analysis through objectives and assessment design to built materials, delivery, and evaluation of results. It descends from the 1975 Interservice Procedures for Instructional Systems Development, and is best understood as a label for a family of systematic design models rather than one fixed method.",
+  "keyTakeaways": [
+    "ADDIE stands for Analysis, Design, Development, Implementation, and Evaluation.",
+    "Its roots are the 1975 Interservice Procedures for Instructional Systems Development, whose fifth phase was named Control rather than Evaluation.",
+    "Molenda (2003) found that the acronym spread by word of mouth as a label for systematic design models, not from one authoritative source.",
+    "Evaluation is not only the last phase: in practice, review and revision happen throughout."
+  ],
+  "term": "ADDIE model",
+  "alsoKnownAs": [
+    "ADDIE",
+    "ADDIE framework",
+    "instructional systems design (ISD) model"
+  ],
+  "sections": [
+    {
+      "id": "phases",
+      "heading": "What are the five phases of ADDIE?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The five phases are Analysis, Design, Development, Implementation, and Evaluation. The table shows the typical questions and outputs of each, with the kind of evidence a regulated organisation would keep."
+        },
+        {
+          "type": "table",
+          "caption": "ADDIE phases, outputs, and audit evidence (illustrative)",
+          "head": [
+            "Phase",
+            "Key question",
+            "Typical outputs",
+            "Evidence worth keeping"
+          ],
+          "rows": [
+            [
+              "Analysis",
+              "What must people be able to do, and what gap exists?",
+              "[Training needs analysis](/glossary/training-needs-analysis), audience profile, task list",
+              "Obligations and risks the training addresses, with sources"
+            ],
+            [
+              "Design",
+              "What outcomes, assessment, and approach will close the gap?",
+              "[Learning outcomes](/glossary/learning-outcomes), [assessment blueprint](/glossary/assessment-blueprint), design document",
+              "Mapping of obligations to outcomes to assessment items"
+            ],
+            [
+              "Development",
+              "What materials are needed?",
+              "Modules, facilitator guides, question banks",
+              "Reviewed and approved content versions"
+            ],
+            [
+              "Implementation",
+              "How is it delivered and to whom?",
+              "Enrolment rules, schedules, LMS setup",
+              "Assignment rules and completion records"
+            ],
+            [
+              "Evaluation",
+              "Did it work, and what should change?",
+              "Reaction, learning, behaviour, and results data",
+              "Evaluation findings and the changes made in response"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "origins",
+      "heading": "Where did the ADDIE model come from?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ADDIE grew out of instructional systems development in the United States military. The Interservice Procedures for Instructional Systems Development, prepared in 1975 by Florida State University's Center for Educational Technology, set out five phases: \"(1) Analyze, (2) Design, (3) Develop, (4) Implement, and (5) Control\" ([ERIC record](https://eric.ed.gov/?id=ED122022); [full report on DTIC](https://apps.dtic.mil/sti/tr/pdf/ADA019486.pdf))."
+        },
+        {
+          "type": "p",
+          "text": "The acronym itself has no single origin. Michael Molenda's 2003 article in Performance Improvement concluded that \"the term came into use by word of mouth as a label for the whole family of systematic instructional development models\" ([ERIC record](https://eric.ed.gov/?id=EJ676523))."
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "heading": "Is ADDIE linear or iterative?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ADDIE can be run in sequence, but most practitioners treat it as iterative: evaluation and revision happen within every phase, not only at the end. A pilot of one module, for example, is an implementation and evaluation step inside development."
+        },
+        {
+          "type": "p",
+          "text": "Criticism of ADDIE usually targets a strictly sequential version, where months of analysis and design precede any learner contact. Iterative approaches such as rapid prototyping keep the same activities but cycle through them in smaller loops."
+        }
+      ]
+    },
+    {
+      "id": "how-it-differs",
+      "heading": "How does ADDIE relate to other design and evaluation models?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ADDIE is a process model for [instructional design](/glossary/instructional-design); it says what to do in what order, not how to write outcomes or measure results. It is usually combined with other frameworks:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "[Bloom's taxonomy](/glossary/blooms-taxonomy) in the Design phase, to set the cognitive level of outcomes and assessment.",
+            "The [Kirkpatrick model](/glossary/kirkpatrick-model) in the Evaluation phase, to measure reaction, learning, behaviour, and results.",
+            "[Constructive alignment](/glossary/constructive-alignment) across Design and Development, so assessment matches outcomes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "example",
+      "heading": "What does ADDIE look like for a compliance course?",
+      "blocks": [
+        {
+          "type": "callout",
+          "title": "Illustrative example",
+          "text": "An aged care provider must train staff on updated incident reporting rules. Analysis identifies which roles report incidents and where current reports go wrong. Design sets four outcomes and a scenario based assessment. Development builds a 20 minute module and a supervisor checklist. Implementation assigns it by role through the LMS. Evaluation compares incident report quality before and after, and feeds a revision of the scenarios six months later."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry concentrates on the Analysis and Design phases, where most compliance gaps originate: it records the obligations, concepts, outcomes, and assessment points as a reviewable framework, and keeps that record linked to content through Development and later revisions."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does ADDIE stand for?",
+      "a": "Analysis, Design, Development, Implementation, and Evaluation. Some sources use the verb forms (Analyse, Design, Develop, Implement, Evaluate). The 1975 military report that the model descends from used Control as the name of its fifth phase."
+    },
+    {
+      "q": "Is ADDIE outdated?",
+      "a": "The activities it names remain part of almost every structured design method. What has changed is the pace and sequencing: many teams now run the phases in short cycles. For regulated training, ADDIE's emphasis on documented analysis and evaluation is still useful because it creates an audit trail."
+    },
+    {
+      "q": "How long does an ADDIE project take?",
+      "a": "There is no standard duration. It depends on scope, risk, the number of stakeholders, and how much analysis already exists. A short refresher might move through all phases in weeks; a new competency based program for a regulated role can take months."
+    },
+    {
+      "q": "Which ADDIE phase matters most for audit?",
+      "a": "Analysis and Design usually matter most, because they record why the training exists and how it covers each obligation. Completion records from Implementation show that training happened, but an auditor asking whether training is adequate will look for the documented link between obligations, outcomes, and assessment."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Interservice Procedures for Instructional Systems Development: Executive Summary and Model (Branson et al., 1975)",
+      "publisher": "Florida State University Center for Educational Technology, via ERIC",
+      "url": "https://eric.ed.gov/?id=ED122022"
+    },
+    {
+      "title": "Interservice Procedures for Instructional Systems Development (report ADA019486)",
+      "publisher": "Defense Technical Information Center (DTIC)",
+      "url": "https://apps.dtic.mil/sti/tr/pdf/ADA019486.pdf"
+    },
+    {
+      "title": "In Search of the Elusive ADDIE Model (Molenda, 2003)",
+      "publisher": "Performance Improvement, via ERIC",
+      "url": "https://eric.ed.gov/?id=EJ676523"
+    }
+  ],
+  "factCheck": [
+    {
+      "claim": "IPISD 1975 by Florida State University Center for Educational Technology; five phases Analyze, Design, Develop, Implement, Control",
+      "source": "https://eric.ed.gov/?id=ED122022"
+    },
+    {
+      "claim": "Molenda 2003, Performance Improvement v42 n5: ADDIE term came into use by word of mouth as a label for the family of systematic instructional development models",
+      "source": "https://eric.ed.gov/?id=EJ676523"
+    },
+    {
+      "claim": "DTIC hosts the IPISD report (ADA019486)",
+      "source": "https://apps.dtic.mil/sti/tr/pdf/ADA019486.pdf"
+    }
+  ],
+  "related": [
+    "instructional-design",
+    "blooms-taxonomy",
+    "kirkpatrick-model",
+    "training-needs-analysis",
+    "how-to-design-a-compliance-training-program"
+  ],
+  "productLinks": [
+    {
+      "label": "Framework intelligence",
+      "href": "/platform/framework-intelligence"
+    },
+    {
+      "label": "Gap analysis",
+      "href": "/platform/gap-analysis"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 6
+}

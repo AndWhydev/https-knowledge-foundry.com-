@@ -1,0 +1,278 @@
+{
+  "slug": "how-to-convert-sops-into-training",
+  "kind": "guide",
+  "title": "How do you turn SOPs into training?",
+  "seoTitle": "Turning SOPs into training",
+  "description": "How to turn standard operating procedures into training: analyse the task, flag critical steps, choose methods by risk, and assess by observed performance.",
+  "shortAnswer": "To turn a standard operating procedure (SOP) into training, first confirm that the SOP matches how the task is really done, then analyse it into steps, decision points, and critical steps where an error causes harm. Train critical steps through demonstration and supervised practice, support the rest with a job aid, and assess competence by observing the person perform the task against a checklist tied to the SOP version.",
+  "keyTakeaways": [
+    "An SOP describes a task; training aims at performing that task to standard, so most SOP training ends in an observed demonstration, not a quiz.",
+    "Check the SOP against work as actually done before building anything. Training on an inaccurate procedure spreads the error.",
+    "Critical steps, where a mistake affects safety, quality, or compliance, deserve practice and must pass assessment. Routine steps can rely on a job aid.",
+    "Read and understand sign off suits minor revisions that do not change how the task is performed. It does not prove competence.",
+    "Record the SOP version against each sign off so revisions trigger the right level of retraining."
+  ],
+  "sections": [
+    {
+      "id": "sop-versus-policy",
+      "heading": "How is SOP training different from policy training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SOP training builds the ability to perform a sequence of steps correctly, while policy training builds judgement about when a rule applies. A [standard operating procedure](/glossary/standard-operating-procedure) already describes behaviour, so the design work is less about extracting requirements and more about deciding which steps need practice and how to verify performance."
+        },
+        {
+          "type": "p",
+          "text": "That changes the evidence you need. A person who can describe a procedure may still perform it wrongly under time pressure. For this reason, SOP based training usually finishes with observation or a practical demonstration rather than a knowledge test alone. If you are converting policies instead, see [how to turn policy documents into training](/guides/how-to-convert-policies-into-training)."
+        }
+      ]
+    },
+    {
+      "id": "regulatory-expectations",
+      "heading": "What do regulators expect from procedure training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Regulators generally expect training that fits the task and its risks, records that show who was trained on what, and some check that the training worked. Few prescribe the method."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Workplace health and safety.** The model WHS Regulations require training to be suitable and adequate having regard to the nature of the work, the risks at the time, and the control measures in place, and to be readily understandable ([model WHS Regulations r39](https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf)). A procedure is usually the control measure, so training on it is part of that duty.",
+            "**Medicines manufacturing.** The PIC/S Guide to Good Manufacturing Practice (GMP), adopted by the Therapeutic Goods Administration (TGA), says newly recruited personnel should receive training appropriate to their duties, that continuing training should be given, and that its \"practical effectiveness should be periodically assessed\", with training records kept (Part I, clause 2.11). Clause 4.29 lists written procedures for training and for verification of the effectiveness of training ([TGA, PE009-16 Part I](https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf)). Version 17 of the guide has applied in Australia since 1 September 2025, subject to transition ([TGA](https://www.tga.gov.au/resources/guidance/good-manufacturing-practice-gmp-requirements-medicinal-products-pics-guide-gmp-pe009-17)).",
+            "**Financial crime controls.** AUSTRAC lists on the job training among common delivery methods, especially where a money laundering or terrorism financing risk is specific to a role ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "heading": "What are the steps to convert an SOP into training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Validate the procedure, analyse the task, classify each step by risk, then choose methods and assessment to match. The outputs below form the training package and its evidence trail."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Validate the SOP.** Walk through the task with an experienced operator and compare what they do with what the SOP says. Output: a list of discrepancies, resolved with the SOP owner before training is built.",
+            "**Analyse the task.** Break the procedure into steps, decision points, required tools or systems, and known error modes. Output: a task analysis table.",
+            "**Flag critical steps.** Mark every step where an error could harm people, product, data, or compliance. Output: a critical step list approved by the process owner.",
+            "**Classify each step.** Decide whether the step needs knowledge (why), skill (how), or judgement (whether and when). Output: a classification column in the task analysis.",
+            "**Choose methods.** Match method to classification and risk: explanation for knowledge, demonstration and supervised practice for skill, scenarios for judgement. Output: a training plan.",
+            "**Build the job aid.** Produce a short reference, such as a checklist or annotated screen sequence, for use at the point of work. Output: a controlled job aid that carries the SOP version.",
+            "**Build the observation checklist.** List each step with its standard, marking critical steps as must pass. Output: an assessment instrument for the assessor.",
+            "**Assess and sign off.** A qualified assessor observes the person and records the result with the SOP version. Output: a competence record, ready for [verification of competency](/glossary/verification-of-competency) later.",
+            "**Define retraining rules.** State which kinds of SOP revision require read and understand, which require a demonstration, and which require full retraining. Output: a change rule in the SOP control process."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does a converted SOP look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A converted SOP is a task analysis in which each step carries a classification, a training method, and an assessment method. The example below is illustrative only: the procedure and steps are invented to show the pattern, not taken from any real site or product."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative example: line clearance between production batches",
+          "head": [
+            "SOP step (illustrative)",
+            "Classification",
+            "Critical?",
+            "Training method",
+            "Assessment evidence"
+          ],
+          "rows": [
+            [
+              "1. Confirm previous batch is closed in the batch record",
+              "Knowledge",
+              "No",
+              "Explanation and job aid",
+              "Observation checklist item"
+            ],
+            [
+              "2. Remove all materials, labels, and documents of the previous batch",
+              "Skill",
+              "Yes",
+              "Demonstration, then supervised practice on two changeovers",
+              "Must pass: observed with nothing left behind"
+            ],
+            [
+              "3. Inspect hidden areas listed in the line map",
+              "Skill",
+              "Yes",
+              "Guided walk of the line map; practice with seeded items",
+              "Must pass: finds all seeded items"
+            ],
+            [
+              "4. Decide whether a found item requires a deviation report",
+              "Judgement",
+              "Yes",
+              "Scenario discussion with examples of past findings",
+              "Must pass: correct decision on three scenarios"
+            ],
+            [
+              "5. Second person verifies and both sign the record",
+              "Knowledge and skill",
+              "Yes",
+              "Demonstration of the record entry",
+              "Record completed correctly under observation"
+            ],
+            [
+              "6. Release line for next batch",
+              "Knowledge",
+              "No",
+              "Explanation",
+              "Observation checklist item"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The structure makes two things visible: where practice time should go (steps 2 to 4) and what the assessor must see before signing off. It also gives the change process something to check against when the SOP is revised."
+        }
+      ]
+    },
+    {
+      "id": "read-and-understand",
+      "heading": "When is read and understand sign off enough?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Read and understand sign off is enough when a revision does not change how the task is performed, such as a reformatted document, a corrected reference, or clarified wording. It is not enough when steps, sequence, limits, equipment, or decision criteria change, because the person then needs to practise and show the new way of working."
+        },
+        {
+          "type": "callout",
+          "title": "Checklist: choosing the retraining level for an SOP revision",
+          "text": "Did a critical step change? Require a demonstration. Did the order of steps or a limit change? Require a demonstration or supervised practice. Did a decision rule or escalation point change? Require scenario practice. Did only wording, formatting, or a reference change? Read and understand is usually proportionate. Did the change follow an incident or deviation? Treat it as a critical change regardless of size."
+        },
+        {
+          "type": "p",
+          "text": "Whatever the level, record the SOP version on the completion, so a later audit can show that the person was trained on the version in force when they did the work. [Version control for training content](/guides/how-to-maintain-version-control-for-training-content) covers the mechanics."
+        }
+      ]
+    },
+    {
+      "id": "common-mistakes",
+      "heading": "What are the common mistakes when turning SOPs into training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The most common mistake is converting the SOP document into slides and calling it training. The result teaches the text, not the task, and it hides which steps matter most."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Training on an SOP that differs from how the work is done, so the training is ignored on the floor.",
+            "Treating every step as equally important, which dilutes attention on the critical ones.",
+            "Assessing with multiple choice questions only, when the risk sits in physical or system actions.",
+            "Letting the job aid drift from the SOP because it is maintained separately.",
+            "Having no rule for which revisions trigger retraining, which leads to either blanket retraining or none."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A [training matrix](/guides/how-to-build-a-training-matrix) that lists SOPs by role helps avoid the last problem, because it shows who is affected by each revision."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models an SOP as steps, decision points, and critical controls linked to outcomes and assessment points, with the SOP version recorded as provenance. When the SOP is revised, the affected steps and their assessments are identified from those links. The [operational procedures program](/programs/operational-procedures) shows this applied to procedural training."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Who should assess SOP competence?",
+      "a": "Someone who is competent in the task and trained to assess, often a supervisor, senior operator, or designated assessor. The assessor should use a consistent observation checklist and should not assess their own work. For high risk tasks, some organisations require a second assessor or periodic calibration between assessors."
+    },
+    {
+      "q": "Can e-learning replace practical SOP training?",
+      "a": "It can cover the knowledge component, such as why a step exists and what the limits are, and it can simulate system based tasks well. For physical tasks or critical steps, most organisations still require observed performance, because completion of a module does not show that the person can do the task under real conditions."
+    },
+    {
+      "q": "How detailed should the job aid be?",
+      "a": "Detailed enough that a trained person can complete the task correctly without the full SOP open, and no more. Typically it lists steps in order, highlights critical steps and limits, and shows decision points. It must be a controlled document that carries the same version as the SOP."
+    },
+    {
+      "q": "What if operators already do the task well but the SOP is wrong?",
+      "a": "Fix the SOP first. Work with the owner to update the procedure to reflect the safe and effective practice, then train on the corrected version. Training people on a procedure that nobody follows undermines both the training and the document control system."
+    }
+  ],
+  "sources": [
+    {
+      "title": "PIC/S Guide to GMP PE009-16, Part I: Basic requirements for medicinal products",
+      "publisher": "Therapeutic Goods Administration",
+      "url": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
+    },
+    {
+      "title": "Good manufacturing practice (GMP) requirements for medicinal products: PIC/S Guide to GMP PE009-17",
+      "publisher": "Therapeutic Goods Administration",
+      "url": "https://www.tga.gov.au/resources/guidance/good-manufacturing-practice-gmp-requirements-medicinal-products-pics-guide-gmp-pe009-17"
+    },
+    {
+      "title": "Model Work Health and Safety Regulations (5 December 2025)",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
+    },
+    {
+      "title": "AML/CTF training",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    }
+  ],
+  "related": [
+    "standard-operating-procedure",
+    "work-instruction",
+    "how-to-convert-policies-into-training",
+    "how-to-set-up-verification-of-competency",
+    "tga-gmp-personnel-training-requirements",
+    "how-to-maintain-version-control-for-training-content"
+  ],
+  "productLinks": [
+    {
+      "label": "Operational procedures",
+      "href": "/programs/operational-procedures"
+    },
+    {
+      "label": "Knowledge transformation",
+      "href": "/platform/knowledge-transformation"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 3,
+  "factCheck": [
+    {
+      "claim": "Model WHS Regulations r39(2): information, training and instruction must be suitable and adequate having regard to the nature of the work, the risks at the time it is provided, and the control measures implemented; r39(3): provided in a way that is readily understandable.",
+      "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
+    },
+    {
+      "claim": "PIC/S GMP Part I clauses 2.10 and 2.11: training for personnel whose duties take them into production, storage or control laboratories; newly recruited personnel trained for their duties; continuing training with practical effectiveness periodically assessed; training records kept.",
+      "source": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
+    },
+    {
+      "claim": "PIC/S GMP Part I clause 4.29: written procedures and records should exist for personnel matters including training in GMP and technical matters and verification of the effectiveness of training.",
+      "source": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
+    },
+    {
+      "claim": "From 1 September 2025 the PIC/S Guide to GMP version 17 applies to the manufacture of medicines, APIs and sunscreens in Australia, with a transition period.",
+      "source": "https://www.tga.gov.au/resources/guidance/good-manufacturing-practice-gmp-requirements-medicinal-products-pics-guide-gmp-pe009-17"
+    },
+    {
+      "claim": "AUSTRAC lists on-the-job training, especially where there is ML/TF risk specific to certain roles, among common delivery methods.",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    }
+  ]
+}

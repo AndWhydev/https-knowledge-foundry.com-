@@ -1,0 +1,258 @@
+{
+  "slug": "completion-tracking-vs-competency-verification",
+  "kind": "comparison",
+  "title": "Completion tracking vs competency verification",
+  "seoTitle": "Completion vs competency verification",
+  "description": "Completion tracking shows someone finished training; competency verification shows they can do the work to standard. How they differ and when each is enough.",
+  "shortAnswer": "Completion tracking records that a person finished a training activity, usually with a date and sometimes a quiz score. Competency verification is a judgement, based on valid, sufficient, authentic, and current evidence, that a person can perform a task to a defined standard. Completion shows exposure to training; verification shows capability. Regulated, high risk tasks usually need verification, while low risk awareness topics may only need completion.",
+  "keyTakeaways": [
+    "A completion record proves attendance or exposure, not the ability to perform.",
+    "Competency verification uses defined standards and evidence, often including observation in a realistic setting.",
+    "Australia's Standards for RTOs set rules of evidence (validity, sufficiency, authenticity, currency) that are a useful model beyond vocational training.",
+    "Even e-learning standards distinguish the two: cmi5 separates completed from passed.",
+    "Most organisations need both, matched to risk."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the core difference between completion tracking and competency verification?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The core difference is what the record proves: a completion shows that training was delivered and finished, while a verification shows that the person was assessed against a standard and judged capable. The first is an activity record; the second is an evidence based judgement."
+        },
+        {
+          "type": "p",
+          "text": "The distinction is built into modern e-learning standards. The cmi5 specification treats \"completed\" and \"passed\" as separate verbs, and lets course designers choose whether a unit is satisfied by completion, by passing against a mastery score, or by both ([cmi5 specification](https://github.com/AICC/CMI-5_Spec_Current/blob/quartz/cmi5_spec.md)). See [xAPI vs cmi5](/compare/xapi-vs-cmi5). Even a pass, however, only shows success in the assessment that was designed; it is only as good as that assessment."
+        },
+        {
+          "type": "p",
+          "text": "[Verification of competency](/glossary/verification-of-competency) goes further, typically combining knowledge checks with observed performance of the real task, judged by a qualified assessor against defined criteria."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do they compare side by side?",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Completion tracking and competency verification compared",
+          "head": [
+            "Dimension",
+            "Completion tracking",
+            "Competency verification"
+          ],
+          "rows": [
+            [
+              "What it shows",
+              "The person finished the training activity",
+              "The person can perform the task to a defined standard"
+            ],
+            [
+              "Evidence",
+              "System record: date, duration, sometimes score",
+              "Assessment evidence: observation, practical tasks, scenarios, questioning, work samples"
+            ],
+            [
+              "Who decides",
+              "The system, based on completion rules",
+              "A qualified assessor or verifier"
+            ],
+            [
+              "Standard used",
+              "Course completion criteria",
+              "Competency standard with performance criteria"
+            ],
+            [
+              "Cost per person",
+              "Low; scales easily",
+              "Higher; needs assessor time"
+            ],
+            [
+              "Currency",
+              "Valid until the course is due again",
+              "Reassessed on a risk based cycle or after change"
+            ],
+            [
+              "Audit strength",
+              "Shows training was provided",
+              "Shows capability was checked"
+            ],
+            [
+              "Best for",
+              "Awareness topics, policy acknowledgement, low risk knowledge",
+              "Safety critical, licensed, clinical, or high consequence tasks"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evidence-standard",
+      "heading": "What makes competency evidence credible?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Competency evidence is credible when it meets explicit rules of evidence. The Australian Skills Quality Authority (ASQA) sets these out for registered training organisations under Standard 1.4 of the 2025 Standards, and they are a sound model for workplace verification too ([ASQA](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide))."
+        },
+        {
+          "type": "table",
+          "caption": "ASQA rules of evidence, with an illustrative workplace application",
+          "head": [
+            "Rule of evidence",
+            "ASQA definition (summarised)",
+            "Illustrative workplace test"
+          ],
+          "rows": [
+            [
+              "Validity",
+              "Evidence is adequate for the assessor to be reasonably assured the person has the required skills and knowledge",
+              "Does the assessment test the actual task, not only recall of the policy?"
+            ],
+            [
+              "Sufficiency",
+              "Quality, quantity, and relevance of evidence support an informed judgement",
+              "Was the task observed enough times, in enough variations?"
+            ],
+            [
+              "Authenticity",
+              "Evidence is the person's own genuine work",
+              "Was the observed person the one recorded, without assistance?"
+            ],
+            [
+              "Currency",
+              "Evidence shows current skills and knowledge",
+              "Was the assessment recent, and against the current procedure?"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "ASQA's principles of assessment add that valid assessment \"includes practical application components that enable the VET student to demonstrate the relevant skills and knowledge in a practical setting\". A completion record alone cannot meet that test."
+        }
+      ]
+    },
+    {
+      "id": "when-to-choose",
+      "heading": "When is each approach enough?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Completion tracking is enough when the goal is awareness and the consequences of misunderstanding are low; competency verification is needed when an error could cause harm, breach a legal obligation, or when a regulator expects evidence of capability. The choice should follow risk, not convenience."
+        },
+        {
+          "type": "p",
+          "text": "Australian work health and safety law, for example, requires training to be \"suitable and adequate\" having regard to the nature of the work, the risks, and the control measures ([WHS Regulations 2011 (Cth), r 39](https://www.legislation.gov.au/F2011L02664/latest/text)). For high risk work, it is hard to show training was adequate without some check that people can apply it. See [how to set up verification of competency](/guides/how-to-set-up-verification-of-competency)."
+        }
+      ]
+    },
+    {
+      "id": "using-together",
+      "heading": "How do completion tracking and verification work together?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They work together as stages: completion tracking confirms that people received the knowledge component, and verification confirms they can apply it. A risk tiered model keeps the cost of verification proportionate."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Classify each training requirement by consequence of error (for example low, medium, high).",
+            "Low: completion plus acknowledgement.",
+            "Medium: completion plus a scored knowledge or scenario assessment with a pass mark.",
+            "High: completion, scored assessment, and observed verification by a qualified assessor, repeated on a set cycle.",
+            "Record all stages against the same content version so the evidence chain is complete for audit ([how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines assessment points in the knowledge framework before content is written, so each important concept or task has a stated way of being checked. Organisations can then choose where completion is sufficient and where verification, including hybrid human verification, is required."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is a quiz at the end of e-learning a competency assessment?",
+      "a": "It can be part of one. A well designed scenario quiz tests knowledge and judgement, but most practical competencies also need evidence of performance, such as observation. A quiz that tests recall of text on the previous screen is weak evidence of anything beyond short term memory."
+    },
+    {
+      "q": "Do regulators accept completion records?",
+      "a": "Often as evidence that training was provided. For higher risk obligations, regulators and auditors may ask how the organisation knows people understood and can apply the training, which completion alone does not show."
+    },
+    {
+      "q": "How often should competency be reverified?",
+      "a": "It depends on risk, how often the task is performed, and how often procedures change. Many organisations set shorter cycles for high risk or infrequent tasks and reverify after incidents or procedural changes. The currency rule of evidence is the underlying principle."
+    },
+    {
+      "q": "Can technology verify competency without a human assessor?",
+      "a": "Simulations and scenario assessments can provide strong evidence for some skills. For many practical and judgement based tasks, a qualified human still needs to observe and make the final judgement, which is why hybrid approaches combine automated evidence with human sign off."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Assessment Practice Guide (Standards for RTOs 2025)",
+      "publisher": "Australian Skills Quality Authority (ASQA)",
+      "url": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
+    },
+    {
+      "title": "cmi5 Specification Profile for xAPI (Quartz)",
+      "publisher": "AICC and ADL Initiative",
+      "url": "https://github.com/AICC/CMI-5_Spec_Current/blob/quartz/cmi5_spec.md"
+    },
+    {
+      "title": "Work Health and Safety Regulations 2011 (Cth), regulation 39",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2011L02664/latest/text"
+    }
+  ],
+  "related": [
+    "verification-of-competency",
+    "competency-assessment",
+    "how-to-set-up-verification-of-competency",
+    "how-to-design-competency-assessments",
+    "xapi-vs-cmi5"
+  ],
+  "productLinks": [
+    {
+      "label": "Verification and trust",
+      "href": "/platform/verification-trust"
+    },
+    {
+      "label": "Hybrid verification programs",
+      "href": "/programs/hybrid-verification"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 2,
+  "factCheck": [
+    {
+      "claim": "ASQA Standard 1.4 rules of evidence: validity, sufficiency, authenticity, currency, with definitions as summarised",
+      "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
+    },
+    {
+      "claim": "ASQA principle of validity: assessment includes practical application components that enable the VET student to demonstrate skills and knowledge in a practical setting",
+      "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
+    },
+    {
+      "claim": "cmi5 defines separate completed and passed verbs, and moveOn values including Completed, Passed, CompletedAndPassed",
+      "source": "https://github.com/AICC/CMI-5_Spec_Current/blob/quartz/cmi5_spec.md"
+    },
+    {
+      "claim": "WHS Regulations r39(2): training suitable and adequate having regard to nature of work, risks, control measures",
+      "source": "https://www.legislation.gov.au/F2011L02664/latest/text"
+    }
+  ]
+}

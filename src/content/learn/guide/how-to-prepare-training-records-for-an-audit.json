@@ -1,0 +1,257 @@
+{
+  "slug": "how-to-prepare-training-records-for-an-audit",
+  "kind": "guide",
+  "title": "How do you prepare training records for an audit?",
+  "seoTitle": "Preparing training records for audit",
+  "description": "A step by step method for preparing training records for an internal, certification, or regulator audit, with a record template and a pre audit checklist.",
+  "shortAnswer": "To prepare training records for an audit, confirm which obligations and roles are in scope, build the list of people who should have been trained, reconcile it against completion and assessment records, check each record holds the fields an auditor will test, retrieve the content version and assessment evidence behind each completion, remediate genuine gaps without altering history, and assemble an indexed evidence pack you have already sample tested yourself.",
+  "keyTakeaways": [
+    "Start from the obligation and the population that should be trained, not from the learning system report. Auditors test coverage, not activity.",
+    "A usable training record names the person, role, content item and version, date, assessment result, assessor where relevant, and next due date.",
+    "Some retention periods are set in regulation or regulator standards, such as two years for assessments submitted to a registered training organisation under the 2025 Standards for RTOs.",
+    "Never backdate, recreate, or edit historical records to close a gap. Record the gap, remediate it, and document the remediation.",
+    "Run your own sample test before the auditor does, using the same approach: pick people at random and trace each one to evidence."
+  ],
+  "sections": [
+    {
+      "id": "what-auditors-look-for",
+      "heading": "What do auditors look for in training records?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Auditors look for evidence that the right people received the right training, at the right time, and were shown to be competent. They test this by sampling individuals and tracing each one back to a record, then back to the content and assessment that record refers to."
+        },
+        {
+          "type": "p",
+          "text": "Several Australian regulators state record expectations directly. The Australian Securities and Investments Commission (ASIC) says in [Regulatory Guide 104](https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations) (RG 104.82) that it expects licensees to identify the knowledge and skills representatives need, ensure they have them, ensure continuing training, and \"maintain a record of the training they have undertaken\", noting this is required under reg 7.6.04(1)(d) of the Corporations Regulations. The Australian Transaction Reports and Analysis Centre (AUSTRAC) says in its [AML/CTF training guidance](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform) that it expects reporting entities to use a register to record completion dates and track when further training is due."
+        },
+        {
+          "type": "p",
+          "text": "For registered training organisations, the Australian Skills Quality Authority (ASQA) [practice guide on integrity of nationally recognised training](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/compliance-standards-for-rtos/integrity-of-nationally-recognised-training-practice-guide) sets out the requirement to retain records of all assessments submitted by a student for two years after the student completes the training product, and AQF certification documentation for thirty years. Other sectors may have their own record rules, so check the instruments that apply to you rather than assuming one period fits all."
+        }
+      ]
+    },
+    {
+      "id": "step-by-step-method",
+      "heading": "What is the step by step method?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The method below works for an internal audit, a certification audit, or a regulator request. Each step produces an output you keep in the evidence pack."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Confirm scope.** Identify which obligations, business units, roles, and date range the audit covers. Output: a one page scope note listing the obligations and the period.",
+            "**Link obligations to required training.** For each obligation in scope, name the training items and assessments that address it. If you keep a [compliance obligations register](/glossary/compliance-obligations-register) or a [training matrix](/glossary/training-matrix), start there. Output: an obligation to training table.",
+            "**Build the population.** From HR data, list everyone who held an in scope role during the period, including starters, leavers, contractors, and people who changed roles. Output: the population list with role and start dates.",
+            "**Reconcile population against records.** Match every person to their completion and assessment records for each required item. Output: a reconciliation showing complete, overdue, not assigned, and exempt, with the reason for each exemption.",
+            "**Check record quality.** Test each record against the field list in the template below. Missing versions, missing scores, and missing assessor names are the common failures. Output: a field completeness summary.",
+            "**Retrieve the evidence behind the record.** For a sample, retrieve the exact content version the person completed and their assessment evidence. A completion flag with no retrievable content is weak evidence. Output: a sample evidence folder.",
+            "**Remediate gaps properly.** Assign overdue training, record exemptions with approvals, and note systemic causes. Do not alter historical records. Output: a gap register with actions, owners, and dates.",
+            "**Assemble and index the pack.** Put the scope note, obligation table, reconciliation, gap register, sample evidence, and the training policy into one indexed pack. Output: the audit evidence pack."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "record-template",
+      "heading": "What fields should a training record contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A training record should let a stranger answer who was trained, on what, when, to what standard, and when it is due again, without asking anyone. The template below is an original starting point; adapt field names to your system."
+        },
+        {
+          "type": "table",
+          "caption": "Training record template (illustrative field set)",
+          "head": [
+            "Field",
+            "Why an auditor asks for it",
+            "Example value"
+          ],
+          "rows": [
+            [
+              "Person identifier",
+              "Links the record to HR data for reconciliation",
+              "Employee ID 104233"
+            ],
+            [
+              "Role at time of training",
+              "Shows the training matched the role's obligations",
+              "Customer onboarding officer"
+            ],
+            [
+              "Training item and version",
+              "Proves which content was actually delivered",
+              "CDD procedures v3.2"
+            ],
+            [
+              "Obligation reference",
+              "Connects the record to the requirement being tested",
+              "AML/CTF policy section 4, customer due diligence"
+            ],
+            [
+              "Completion date",
+              "Shows timing against start date or due date",
+              "14 March 2026"
+            ],
+            [
+              "Assessment method and result",
+              "Shows competence was tested, not just attendance",
+              "Scenario quiz, 9 of 10, pass mark 8"
+            ],
+            [
+              "Assessor or verifier",
+              "Needed for practical assessments and verification of competency",
+              "J. Smith, team leader"
+            ],
+            [
+              "Next due date",
+              "Shows refresher cycles are tracked",
+              "14 March 2027"
+            ],
+            [
+              "Exemption or recognition note",
+              "Explains any gap that is not a failure",
+              "Recognised prior learning approved by compliance manager"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "common-gaps",
+      "heading": "What gaps do audits commonly find, and how should you fix them?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The common gaps are coverage gaps (people who should have been trained were never assigned), evidence gaps (a completion exists but nothing shows what was learned), and currency gaps (training was completed on content that no longer matched the obligation). Each needs a different fix."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Coverage gaps:** usually caused by role changes and contractors missing from assignment rules. Fix the assignment rule, then assign the training, and record both actions.",
+            "**Evidence gaps:** usually caused by attendance only sessions or learning systems that overwrite old versions. Fix forward by capturing versions from now on; see [how to version control training content](/guides/how-to-maintain-version-control-for-training-content).",
+            "**Currency gaps:** usually caused by content that was not updated after a regulatory change. Record the period of exposure and deliver delta training; see [how to update training when a regulation changes](/guides/how-to-update-training-when-regulations-change)."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Do not rewrite history",
+          "text": "Backdating completions, recreating sign in sheets, or editing assessment results to close a gap turns a training finding into an integrity finding. A documented gap with a remediation plan is a far better position than a record that fails a metadata check."
+        }
+      ]
+    },
+    {
+      "id": "pre-audit-checklist",
+      "heading": "What should you check in the week before the audit?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "In the final week, run your own sample test using the same approach the auditor will use, and confirm the pack can be produced quickly."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Pick 10 to 20 people at random from the population, including at least one recent starter, one role changer, and one contractor.",
+            "Trace each person from role, to required training, to completion record, to content version, to assessment evidence.",
+            "Confirm every exemption has an approver and a reason.",
+            "Confirm retention periods have been met and nothing in scope has been deleted under a routine purge.",
+            "Confirm the people who will answer questions know where each document is and can explain the assignment rules.",
+            "Record the results of your own sample test and the fixes made. This is itself evidence of monitoring."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each learning outcome and assessment point to the obligation it addresses and records the content version and provenance behind it. That makes the obligation to training to evidence trace an output of the framework rather than a reconstruction before each audit."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long should training records be kept?",
+      "a": "It depends on the rule that applies. Registered training organisations must retain submitted assessments for two years after the student completes the training product and certification records for thirty years under the 2025 Standards for RTOs. Other sectors set their own periods, and many organisations align training records with their general records retention schedule. Check the instruments that apply to you and document the period in your training policy."
+    },
+    {
+      "q": "Is a learning management system completion report enough for an audit?",
+      "a": "Usually not on its own. A completion report shows activity. Auditors also want to see that the population was complete, which content version was delivered, and that competence was assessed. Treat the report as one input to the reconciliation, not the evidence pack itself."
+    },
+    {
+      "q": "Should contractors be included in training records?",
+      "a": "If contractors perform functions covered by an obligation, include them. AUSTRAC's guidance, for example, defines personnel as any person you employ or engage to perform AML/CTF functions. Keep the same record fields for contractors, even where the training was delivered by their own employer."
+    },
+    {
+      "q": "What if records from a previous system were lost in a migration?",
+      "a": "Document what was lost, when, and why, and keep any exports or archived reports that survive. Do not recreate records. Where the obligation is ongoing, reassess affected people now so current competence is evidenced, and note the gap in the audit pack."
+    }
+  ],
+  "sources": [
+    {
+      "title": "RG 104 AFS licensing: Meeting the general obligations",
+      "publisher": "Australian Securities and Investments Commission",
+      "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations"
+    },
+    {
+      "title": "AML/CTF training (Reform)",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
+    },
+    {
+      "title": "Integrity of Nationally Recognised Training Practice Guide",
+      "publisher": "Australian Skills Quality Authority",
+      "url": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/compliance-standards-for-rtos/integrity-of-nationally-recognised-training-practice-guide"
+    },
+    {
+      "title": "Operating mobile plant verification of competency (VOC)",
+      "publisher": "NSW Resources Regulator",
+      "url": "https://www.resources.nsw.gov.au/sites/default/files/2024-05/operating-mobile-plant-verification-of-competency.pdf"
+    }
+  ],
+  "related": [
+    "how-to-evidence-training-effectiveness-to-a-regulator",
+    "how-to-maintain-version-control-for-training-content",
+    "how-to-build-a-training-matrix",
+    "audit-trail",
+    "compliance-obligations-register",
+    "how-to-write-a-training-policy"
+  ],
+  "productLinks": [
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 5,
+  "factCheck": [
+    {
+      "claim": "RG 104.82(d): ASIC expects licensees to maintain a record of training representatives have undertaken, required under reg 7.6.04(1)(d).",
+      "source": "https://download.asic.gov.au/media/av3fovx5/rg104-published-23-june-2022-20260310.pdf"
+    },
+    {
+      "claim": "AUSTRAC expects reporting entities to use a register to record completion dates and track when further training is due.",
+      "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
+    },
+    {
+      "claim": "AUSTRAC guidance defines personnel as any person employed or engaged to perform AML/CTF functions.",
+      "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
+    },
+    {
+      "claim": "RTOs must retain records of all assessments submitted by a VET student for two years after completion of the training product, and AQF certification documentation for thirty years.",
+      "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/compliance-standards-for-rtos/integrity-of-nationally-recognised-training-practice-guide"
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "slug": "scorm-vs-xapi",
+  "kind": "comparison",
+  "title": "SCORM vs xAPI: what is the difference?",
+  "seoTitle": "SCORM vs xAPI: the difference",
+  "description": "SCORM packages and tracks courses inside an LMS; xAPI records learning activity from almost any source. A side by side comparison and when to use each.",
+  "shortAnswer": "SCORM (Sharable Content Object Reference Model) packages e-learning courses and tracks a defined set of data, such as completion and score, through a browser session inside a learning management system. xAPI (Experience API) records learning activity as statements from almost any source, including mobile apps, simulations, and on the job tasks, and stores them in a learning record store. SCORM tracks courses; xAPI tracks experiences.",
+  "keyTakeaways": [
+    "SCORM was first released in 2000; its latest edition, SCORM 2004 4th Edition, dates from 2009.",
+    "xAPI 1.0 was released in 2013 and xAPI 2.0 was published by IEEE as IEEE 9274.1.1-2023.",
+    "SCORM requires a live browser connection to the LMS; xAPI sends statements over web services and can work offline or outside a browser.",
+    "SCORM remains widely supported, so many organisations use both.",
+    "Neither standard decides what is worth tracking; that comes from assessment design."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the core difference between SCORM and xAPI?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The core difference is scope: SCORM standardises how a course runs inside an LMS and reports a fixed set of results, while xAPI standardises how any learning activity is described and recorded, wherever it happens. Both were developed under the Advanced Distributed Learning (ADL) Initiative."
+        },
+        {
+          "type": "p",
+          "text": "The ADL Initiative describes SCORM as enabling \"browser-based e-learning with plug-and-play portability, reusability, and instructional sequencing of self-paced content\". Its Run-time Environment defines a common data model and API for communication between content and a run-time environment \"commonly provided by a Learning Management System\" ([ADL Initiative](https://adlnet.gov/past-projects/scorm/)). See [SCORM](/glossary/scorm)."
+        },
+        {
+          "type": "p",
+          "text": "xAPI, by contrast, records statements containing an actor, a verb, and an object (for example, a learner passed a quiz), plus context and results. According to ADL, xAPI \"can be implemented in any digital environment, including mobile learning, simulations, virtual worlds, serious games, real-world activities\" ([ADL Initiative](https://adlnet.gov/projects/xapi/)). See [xAPI](/glossary/xapi)."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do SCORM and xAPI compare side by side?",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "SCORM and xAPI compared on the features that matter to L&D and compliance teams",
+          "head": [
+            "Dimension",
+            "SCORM",
+            "xAPI"
+          ],
+          "rows": [
+            [
+              "What it standardises",
+              "Packaging, launch, run-time communication, and sequencing of courses",
+              "A data format and web API for recording learning experiences"
+            ],
+            [
+              "Where learning happens",
+              "In a browser session launched by an LMS",
+              "Anywhere: apps, simulations, devices, workplace tasks, courses"
+            ],
+            [
+              "What is tracked",
+              "A defined data model (for example completion, success, score, time)",
+              "Any activity expressed as actor, verb, object statements"
+            ],
+            [
+              "Where data is stored",
+              "In the LMS",
+              "In a learning record store (LRS), which may sit inside or outside an LMS"
+            ],
+            [
+              "Connection",
+              "Requires a live connection between content and LMS",
+              "Statements can be queued and sent later"
+            ],
+            [
+              "Packaging and launch rules",
+              "Defined (content package manifest, JavaScript API)",
+              "Not defined by xAPI itself; provided by profiles such as cmi5"
+            ],
+            [
+              "Sequencing",
+              "SCORM 2004 includes sequencing and navigation rules",
+              "Not part of the core specification"
+            ],
+            [
+              "Formal status",
+              "ADL specification; latest edition SCORM 2004 4th Edition (2009)",
+              "IEEE 9274.1.1-2023 (xAPI 2.0)"
+            ],
+            [
+              "Market support",
+              "Near universal in LMS products",
+              "Growing; support for xAPI 2.0 varies"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history-and-status",
+      "heading": "What is the current status of each standard?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SCORM is stable and no longer developed, while xAPI is an active IEEE standard. ADL states that SCORM 1.0 was released in 2000, SCORM 1.2 in 2001, and that \"The most recent release (2009) is SCORM 2004 4th Edition\" ([ADL Initiative](https://adlnet.gov/past-projects/scorm/)). ADL also notes that it now recommends xAPI and cmi5 for new e-learning acquisitions in its own defence setting, while acknowledging that SCORM solutions \"are still in wide use\"."
+        },
+        {
+          "type": "p",
+          "text": "xAPI version 1.0 was released in 2013 after the Project Tin Can research phase ([ADL Initiative](https://adlnet.gov/projects/xapi/)). The IEEE approved IEEE 9274.1.1-2023 on 30 March 2023 and published it on 6 October 2023, describing it as an effort to \"improve and standardize the 1.0.3 version\" of xAPI ([IEEE](https://standards.ieee.org/ieee/9274.1.1/7321/))."
+        }
+      ]
+    },
+    {
+      "id": "when-to-choose",
+      "heading": "When should you choose each?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Choose SCORM when you need a self paced course to run in almost any LMS with minimal integration effort; choose xAPI when you need evidence of learning or performance that happens outside a browser course. For courses that must launch from an LMS but use xAPI data, cmi5 is the bridge (see [xAPI vs cmi5](/compare/xapi-vs-cmi5))."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**SCORM fits** standard compliance e-learning, off the shelf content libraries, and environments where the LMS supports nothing newer.",
+            "**xAPI fits** simulations, mobile or offline learning, observed workplace tasks, coaching, and cases where you want question level or behaviour level data across several systems.",
+            "**Either can mislead** if the tracked data is weak. A SCORM completion or an xAPI \"completed\" statement shows that an activity ended, not that the person is competent."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "using-together",
+      "heading": "Can SCORM and xAPI be used together?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yes, and most organisations do. A typical pattern keeps existing SCORM courses in the LMS while new activities, such as simulations, field observations, or verification of competency checklists, send xAPI statements to a learning record store. Reporting then combines course completions from the LMS with richer activity data from the LRS."
+        },
+        {
+          "type": "p",
+          "text": "The practical risk is inconsistent meaning. If different systems use different verbs or activity identifiers for the same thing, combined reports become unreliable. xAPI addresses this through profiles and shared vocabularies, which ADL describes as the route to semantic interoperability. For a migration plan, see [how to migrate legacy e-learning content](/guides/how-to-migrate-legacy-elearning-content)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry treats SCORM and xAPI as delivery and tracking formats rather than as a learning design. Content and assessments are defined against a knowledge framework first, then exported in the format the organisation's systems support, so that the tracked data maps back to defined concepts and assessment points."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is SCORM obsolete?",
+      "a": "No. SCORM is no longer being developed, but it is still widely supported and used. ADL itself acknowledges SCORM is in wide use for course reuse across conformant systems. It remains a practical choice for self paced browser courses delivered through an LMS."
+    },
+    {
+      "q": "Is xAPI the same as Tin Can?",
+      "a": "Tin Can was the name of the research project that produced the first designs for xAPI. The specification released in 2013 was named the Experience API, and xAPI 2.0 is now published by the IEEE as IEEE 9274.1.1-2023."
+    },
+    {
+      "q": "Do I need a learning record store to use xAPI?",
+      "a": "Yes. xAPI statements are sent to and stored in a learning record store (LRS). Some LMS products include an LRS; others connect to a separate one. Without an LRS there is nowhere standard to send or query the statements."
+    },
+    {
+      "q": "Which gives better audit evidence?",
+      "a": "Neither by default. SCORM gives a clean completion and score record inside the LMS. xAPI can capture more detailed evidence, such as observed task performance. The quality of audit evidence depends on what the assessment measures and how records link to content versions and obligations."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sharable Content Object Reference Model (SCORM)",
+      "publisher": "Advanced Distributed Learning (ADL) Initiative",
+      "url": "https://adlnet.gov/past-projects/scorm/"
+    },
+    {
+      "title": "Experience API (xAPI) Standard",
+      "publisher": "Advanced Distributed Learning (ADL) Initiative",
+      "url": "https://adlnet.gov/projects/xapi/"
+    },
+    {
+      "title": "IEEE 9274.1.1-2023: JSON Data Model Format and RESTful Web Service for Learner Experience Data Tracking and Access",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/9274.1.1/7321/"
+    },
+    {
+      "title": "xAPI specification (About the Experience API)",
+      "publisher": "Advanced Distributed Learning (ADL) Initiative",
+      "url": "https://github.com/adlnet/xAPI-Spec/blob/master/xAPI-About.md"
+    }
+  ],
+  "related": [
+    "scorm",
+    "xapi",
+    "cmi5",
+    "xapi-vs-cmi5",
+    "how-to-migrate-legacy-elearning-content"
+  ],
+  "productLinks": [
+    {
+      "label": "Integrations",
+      "href": "/platform/integrations"
+    },
+    {
+      "label": "Technical overview",
+      "href": "/platform/technical-overview"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 1,
+  "factCheck": [
+    {
+      "claim": "SCORM 1.0 released 2000, SCORM 1.2 in 2001, most recent release SCORM 2004 4th Edition (2009)",
+      "source": "https://adlnet.gov/past-projects/scorm/"
+    },
+    {
+      "claim": "ADL and DoDI 1322.26 now recommend xAPI and cmi5 for new e-learning acquisitions; SCORM solutions are still in wide use",
+      "source": "https://adlnet.gov/past-projects/scorm/"
+    },
+    {
+      "claim": "SCORM RTE defines a common data model and API for communication between content and a run-time environment commonly provided by an LMS",
+      "source": "https://adlnet.gov/past-projects/scorm/"
+    },
+    {
+      "claim": "Project Tin Can produced the first designs for xAPI; xAPI 1.0 first formal release in 2013; statements include actor, verb, object",
+      "source": "https://adlnet.gov/projects/xapi/"
+    },
+    {
+      "claim": "IEEE 9274.1.1-2023 approved 30 March 2023, published 6 October 2023, standardises xAPI 1.0.3",
+      "source": "https://standards.ieee.org/ieee/9274.1.1/7321/"
+    },
+    {
+      "claim": "Offline and client agnostic: SCORM requires continuous LMS connection and is browser dependent (per cmi5 project comparison)",
+      "source": "https://aicc.github.io/CMI-5_Spec_Current/SCORM/"
+    }
+  ]
+}

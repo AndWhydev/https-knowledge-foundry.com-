@@ -1,0 +1,241 @@
+{
+  "slug": "how-to-audit-an-existing-training-library",
+  "kind": "guide",
+  "title": "How do you audit an existing training library?",
+  "seoTitle": "Auditing a training library",
+  "description": "A method for auditing a training library: inventory every item, map it to obligations and roles, score quality and currency, then keep, fix, merge, or retire.",
+  "shortAnswer": "To audit an existing training library, export a full inventory of every course, module, assessment, and job aid, map each to the obligations and roles it serves, score it against consistent criteria such as accuracy, currency, alignment, assessment quality, and accessibility, then decide for each item whether to keep, fix, merge, or retire it. Finish with a remediation plan, named owners, and a rule that stops the library drifting again.",
+  "keyTakeaways": [
+    "A library audit is a whole of library review of coverage, overlap, quality, and ownership, not only a search for outdated items.",
+    "Map every item to an obligation or role need. Items that map to nothing are candidates for retirement; obligations that map to nothing are gaps.",
+    "Score items with a consistent rubric so decisions can be explained and repeated.",
+    "Assessment quality matters as much as content quality, because assessments produce the evidence regulators and auditors see.",
+    "Every item should leave the audit with a named owner and a review date."
+  ],
+  "sections": [
+    {
+      "id": "why-audit",
+      "heading": "Why audit a training library at all?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Libraries grow by accumulation: items are added for each new requirement, product, or request, and are rarely removed. An audit shows which items are needed, which are missing, which duplicate each other, and which cannot be trusted as evidence."
+        },
+        {
+          "type": "p",
+          "text": "Regulators set expectations that a cluttered library makes hard to meet. The Australian Transaction Reports and Analysis Centre (AUSTRAC) [states](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform) that AML/CTF training must be tailored to the person, their role, their responsibilities, and the relevant risks. The Australian Securities and Investments Commission (ASIC) expects AFS licensees to identify the knowledge and skills representatives need and ensure they have them ([RG 104.82](https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations)). Under the model [WHS Regulations](https://www.legislation.gov.au/F2011L02664/latest/text), training must be provided in a way that is readily understandable, so far as is reasonably practicable (regulation 39(3))."
+        },
+        {
+          "type": "p",
+          "text": "Quality management guidance treats this as part of a managed system rather than a clean up. [ISO 10015:2019](https://www.iso.org/standard/69459.html) gives guidelines for establishing, implementing, maintaining, and improving systems for competence management and people development. A periodic library audit is one of the ways an organisation maintains and improves such a system, because it tests whether the learning on offer still matches the competence the organisation needs."
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "heading": "What is the step by step method?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The audit runs in seven steps. Keep the outputs; together they become the baseline for ongoing governance."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Set scope and criteria.** Decide which systems, business units, and item types are included, and agree the scoring rubric with compliance and the business. Output: an audit charter.",
+            "**Build the inventory.** Export every item from each learning system, shared drive, and intranet, with owner, last updated date, version, audience, completions, and linked assessments. Output: a single inventory sheet, one row per item.",
+            "**Map to needs.** Link each item to the obligations, roles, and competencies it serves, using your [training matrix](/glossary/training-matrix) and obligations register. Output: a coverage map showing gaps and orphans.",
+            "**Score each item.** Apply the rubric below. Sample content and assessment items for large courses rather than reading every screen. Output: a scored inventory.",
+            "**Find overlap.** Group items that teach the same outcomes to the same audience. Output: a list of merge candidates.",
+            "**Decide.** Keep, fix, merge, or retire each item, with a reason. Output: a decision log.",
+            "**Plan and govern.** Prioritise fixes by risk, assign owners and review dates, and set a rule for adding new items. Output: a remediation plan and a content governance rule."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scoring-rubric",
+      "heading": "What criteria should you score items against?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Score each item on accuracy, currency, alignment, assessment quality, accessibility, and ownership. The rubric below is original; a simple three point scale is usually enough to drive decisions."
+        },
+        {
+          "type": "table",
+          "caption": "Library audit scoring rubric (score 1 to 3 per criterion)",
+          "head": [
+            "Criterion",
+            "Question",
+            "Score 1 (poor)",
+            "Score 3 (good)"
+          ],
+          "rows": [
+            [
+              "Accuracy",
+              "Is the content correct against its sources?",
+              "Errors or conflicts with current policy",
+              "Checked against named sources, no errors"
+            ],
+            [
+              "Currency",
+              "Are the sources it relies on current?",
+              "Cites superseded instruments or procedures",
+              "All cited sources current"
+            ],
+            [
+              "Alignment",
+              "Does it serve a defined obligation, role, or outcome?",
+              "No clear purpose or audience",
+              "Mapped to specific outcomes and roles"
+            ],
+            [
+              "Assessment quality",
+              "Does the assessment test the outcomes?",
+              "No assessment, or recall only",
+              "Assessment mapped to outcomes, realistic scenarios"
+            ],
+            [
+              "Accessibility",
+              "Can the audience understand and use it?",
+              "Dense text, inaccessible format",
+              "Plain language, accessible, suitable for the audience"
+            ],
+            [
+              "Ownership",
+              "Does someone own and review it?",
+              "No owner, no review date",
+              "Named owner and scheduled review"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "decisions",
+      "heading": "How do you decide whether to keep, fix, merge, or retire?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Decide from two things: whether the item serves a current need, and how well it scores. An item that serves no need is retired regardless of quality; an item that serves a need is kept, fixed, or merged depending on its score and overlap."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Keep:** serves a need and scores well. Confirm owner and review date.",
+            "**Fix:** serves a need but fails on accuracy, currency, or assessment. Hand to the change process.",
+            "**Merge:** two or more items teach the same outcomes to the same audience. Keep the stronger one and redirect assignments.",
+            "**Retire:** serves no current need, or is superseded. Archive it with its version history so past completions remain traceable. Do not delete."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Illustrative example, not a real case",
+          "text": "A mid sized superannuation trustee finds 14 separate privacy items across three systems. Mapping shows four serve the same outcomes for all staff, two are for a system decommissioned two years earlier, and none covers the specific handling procedure for member hardship requests, which has a documented obligation. The decision: merge four into one, retire two with archived history, fix three, keep five, and build one new item for the uncovered obligation."
+        }
+      ]
+    },
+    {
+      "id": "after-the-audit",
+      "heading": "How do you stop the library drifting again?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Stop drift with a rule for entry, a rule for review, and a rule for exit. New items must map to an outcome and have an owner before publication; every item has a review date set by risk; and superseded items are archived when their replacement is released."
+        },
+        {
+          "type": "p",
+          "text": "Between full audits, targeted detection keeps content current; see [how to find outdated training content](/guides/how-to-detect-outdated-training-content). Where gaps are found, the [training gap analysis](/guides/how-to-run-a-training-gap-analysis) method helps size and prioritise them."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry can map existing content to a defined knowledge framework, showing which outcomes and obligations are covered, duplicated, or missing. That turns the mapping and overlap steps of a library audit into analysis of structured data rather than a manual review of course titles."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does a training library audit take?",
+      "a": "It depends on library size and how clean the inventory data is. Building a complete inventory across systems is often the slowest step. Scoring can be sped up by sampling within large courses and by prioritising high risk items first."
+    },
+    {
+      "q": "Who should be involved in the audit?",
+      "a": "The training team runs it, compliance confirms obligation mapping and regulatory accuracy, subject matter owners check content accuracy, and business leaders confirm role needs. Agree the rubric with all of them before scoring starts so decisions are accepted."
+    },
+    {
+      "q": "Should we delete retired content?",
+      "a": "No. Archive it with its version history. Completion records point to content, and an auditor may ask what someone was taught in a past period. Your retention obligations and records policy should decide when archived items can finally be disposed of."
+    },
+    {
+      "q": "How often should a full library audit be done?",
+      "a": "No regulator source reviewed for this guide sets a fixed interval. Set one by risk and rate of change, record it in your training policy, and run continuous detection of outdated content in between. Bring the audit forward after a merger, a system migration, or a major regulatory reform, when drift and duplication tend to rise."
+    },
+    {
+      "q": "What is the difference between a library audit and a gap analysis?",
+      "a": "A library audit reviews what you already have: its coverage, overlap, quality, and ownership. A gap analysis starts from what people need to know and do, and identifies what is missing or not working. The two are complementary; the coverage map from an audit is a useful input to a gap analysis."
+    }
+  ],
+  "sources": [
+    {
+      "title": "AML/CTF training (Reform)",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
+    },
+    {
+      "title": "RG 104 AFS licensing: Meeting the general obligations",
+      "publisher": "Australian Securities and Investments Commission",
+      "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations"
+    },
+    {
+      "title": "Work Health and Safety Regulations 2011",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2011L02664/latest/text"
+    },
+    {
+      "title": "ISO 10015:2019 Quality management: Guidelines for competence management and people development",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/69459.html"
+    }
+  ],
+  "related": [
+    "how-to-detect-outdated-training-content",
+    "how-to-run-a-training-gap-analysis",
+    "how-to-migrate-legacy-elearning-content",
+    "training-matrix",
+    "how-to-map-training-to-compliance-obligations"
+  ],
+  "productLinks": [
+    {
+      "label": "Gap analysis",
+      "href": "/platform/gap-analysis"
+    },
+    {
+      "label": "Enterprise learning modernisation",
+      "href": "/platform/enterprise-learning-modernisation"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 6,
+  "factCheck": [
+    {
+      "claim": "AUSTRAC: AML/CTF training must be tailored to the person, their role, responsibilities and relevant ML/TF risks.",
+      "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
+    },
+    {
+      "claim": "RG 104.82(a) and (b): ASIC expects licensees to identify the knowledge and skills representatives need and ensure they have them.",
+      "source": "https://download.asic.gov.au/media/av3fovx5/rg104-published-23-june-2022-20260310.pdf"
+    },
+    {
+      "claim": "Model WHS Regulations r39(3): training provided in a way readily understandable by any person to whom it is provided, so far as reasonably practicable.",
+      "source": "https://www.legislation.gov.au/F2011L02664/latest/text"
+    }
+  ]
+}

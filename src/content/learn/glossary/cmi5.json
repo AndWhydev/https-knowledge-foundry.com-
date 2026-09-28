@@ -1,0 +1,247 @@
+{
+  "slug": "cmi5",
+  "kind": "glossary",
+  "title": "What is cmi5?",
+  "seoTitle": "cmi5: definition and how it works",
+  "description": "cmi5 is the xAPI profile for LMS launched e-learning: packaging, launch, defined verbs and moveOn rules. History, IEEE status, and how it differs from SCORM.",
+  "shortAnswer": "The cmi5 specification is an xAPI profile that defines how a learning management system (LMS) packages, launches, and tracks e-learning using the Experience API (xAPI). It keeps the familiar SCORM model, where the LMS assigns a course and launches it, but reports results as xAPI statements to a Learning Record Store, with a fixed set of verbs such as launched, completed, passed, and failed so every conforming LMS interprets them the same way.",
+  "keyTakeaways": [
+    "cmi5 is an xAPI profile for the case where a learner launches content from an LMS.",
+    "It began in the AICC in 2010; the AICC transferred it to the ADL Initiative when the AICC dissolved in 2014.",
+    "The current release is Quartz, 1st Edition (June 2016), the first production release.",
+    "An IEEE standard based on cmi5, P9274.3.1, is an active project (PAR approved 15 February 2023), not yet a published standard.",
+    "cmi5 defines nine verbs and moveOn rules that tell the LMS when an assignable unit is satisfied."
+  ],
+  "term": "cmi5",
+  "alsoKnownAs": [
+    "cmi5 xAPI profile",
+    "IEEE P9274.3.1"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What problem does cmi5 solve?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "cmi5 solves the gap between [xAPI](/glossary/xapi), which can record almost anything but says nothing about how an LMS launches a course, and [SCORM](/glossary/scorm), which handles LMS launch but only in a browser session with a fixed data model. The specification describes itself as \"a 'profile' for using the xAPI specification with traditional learning management (LMS) systems\" ([cmi5 specification](https://github.com/AICC/CMI-5_Spec_Current))."
+        },
+        {
+          "type": "p",
+          "text": "Without a profile like cmi5, two xAPI courses could record completion in different ways and an LMS could not reliably tell whether a learner had finished."
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "Where did cmi5 come from, and what is its status?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "cmi5 began in the Aviation Industry Computer-Based Training Committee (AICC) in 2010 as a successor to AICC and SCORM. According to the [cmi5 project history](https://aicc.github.io/CMI-5_Spec_Current/), the AICC and ADL repositioned it as an xAPI profile after the Tin Can API was completed, and in 2014 the AICC dissolved and transferred the project to the Advanced Distributed Learning (ADL) Initiative."
+        },
+        {
+          "type": "table",
+          "caption": "cmi5 releases and standardisation",
+          "head": [
+            "Milestone",
+            "Date",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Sandstone release",
+              "May 2015",
+              "Developer release for feedback"
+            ],
+            [
+              "Quartz, 1st Edition",
+              "June 2016",
+              "First production release; current"
+            ],
+            [
+              "IEEE P9274.3.1 project authorisation",
+              "15 February 2023",
+              "Active PAR; standard under development as at September 2026"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The IEEE Standards Association lists P9274.3.1, \"Standard for Packaging, Launch, and Run-time of Experience Application Programming Interface (xAPI) in Session-based Learning\", as an active project rather than an approved standard ([IEEE SA](https://standards.ieee.org/ieee/9274.3.1/11183/))."
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "heading": "How does cmi5 work?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "cmi5 works by defining a course package, a launch method, a set of required xAPI statements, and rules that tell the LMS when each part of the course is satisfied."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Course structure:** a course contains one or more Assignable Units (AUs), which the specification defines as \"a learning content presentation launched from an LMS\" and \"the unit of tracking and management\". AUs can be grouped into blocks.",
+            "**Launch:** the LMS records a launched statement, then opens the AU with the Learning Record Store endpoint and credentials. The AU can be hosted anywhere, not only inside the LMS.",
+            "**Defined verbs:** cmi5 defines nine verbs: launched, initialized, completed, passed, failed, abandoned, waived, terminated, and satisfied.",
+            "**moveOn rules:** each AU has a moveOn value of Passed, Completed, CompletedAndPassed, CompletedOrPassed, or NotApplicable, which tells the LMS when the unit counts as satisfied.",
+            "**Allowed statements:** beyond the defined verbs, AUs may send other xAPI statements for richer detail."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-it-differs",
+      "heading": "How is cmi5 different from SCORM and plain xAPI?",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "SCORM, xAPI, and cmi5 compared",
+          "head": [
+            "Aspect",
+            "SCORM",
+            "xAPI",
+            "cmi5"
+          ],
+          "rows": [
+            [
+              "Who launches content",
+              "LMS",
+              "Anything",
+              "LMS"
+            ],
+            [
+              "Where content can be hosted",
+              "Usually inside the LMS",
+              "Anywhere",
+              "Anywhere"
+            ],
+            [
+              "Where results go",
+              "LMS database",
+              "Learning Record Store",
+              "Learning Record Store"
+            ],
+            [
+              "Completion rules",
+              "SCORM data model",
+              "Not defined",
+              "Defined verbs and moveOn"
+            ],
+            [
+              "Runs outside a browser",
+              "No",
+              "Yes",
+              "Yes, if the AU can call the LRS"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For detailed comparisons see [xAPI vs cmi5](/compare/xapi-vs-cmi5) and [SCORM vs xAPI](/compare/scorm-vs-xapi)."
+        }
+      ]
+    },
+    {
+      "id": "example",
+      "heading": "What does cmi5 look like in practice?",
+      "blocks": [
+        {
+          "type": "callout",
+          "title": "Illustrative example",
+          "text": "A mining company builds a conveyor isolation course with two AUs: a short e-learning module (moveOn: Completed) and a scenario assessment (moveOn: Passed). The [learning management system](/glossary/learning-management-system) launches each AU; the scenario app, hosted separately, sends initialized, passed, and terminated statements to the LRS, plus extra statements recording each decision point. The LMS marks the course satisfied only when both AUs meet their rules, and the decision level data remains available for review."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry publishes into standard learning systems, and its framework can supply the identifiers for concepts and assessment points that richer xAPI statements refer to, so cmi5 records can be traced to the obligations each AU is meant to evidence."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does the name cmi5 mean?",
+      "a": "The cmi5 specification's own glossary defines CMI as Computer Managed Instruction, reflecting the project's origins in the AICC's work on systems that manage and track instruction. The specification writes the name in lowercase as cmi5, and its releases are named after rocks, such as Sandstone and Quartz."
+    },
+    {
+      "q": "Is cmi5 an IEEE standard?",
+      "a": "Not yet. As at September 2026 the IEEE Standards Association lists P9274.3.1, which is based on cmi5, as an active project with its authorisation approved on 15 February 2023. The current published specification is cmi5 Quartz, 1st Edition, from June 2016."
+    },
+    {
+      "q": "Does cmi5 need a Learning Record Store?",
+      "a": "Yes. cmi5 content reports through xAPI, so the LMS must provide or connect to a Learning Record Store. Many LMSs that support cmi5 include one."
+    },
+    {
+      "q": "Should new compliance courses use cmi5 or SCORM?",
+      "a": "cmi5 is designed as the modern replacement for SCORM in the LMS launch case and suits content hosted outside the LMS or needing richer data. SCORM still has broader support. Check that your LMS genuinely conforms to cmi5 before committing new content to it."
+    }
+  ],
+  "sources": [
+    {
+      "title": "cmi5 specification (Quartz)",
+      "publisher": "AICC / ADL Initiative",
+      "url": "https://github.com/AICC/CMI-5_Spec_Current"
+    },
+    {
+      "title": "The cmi5 Project",
+      "publisher": "AICC / ADL Initiative",
+      "url": "https://aicc.github.io/CMI-5_Spec_Current/"
+    },
+    {
+      "title": "cmi5 xAPI Profile",
+      "publisher": "Advanced Distributed Learning (ADL) Initiative",
+      "url": "https://adlnet.gov/cmi5-xapi-profile"
+    },
+    {
+      "title": "P9274.3.1: Standard for Packaging, Launch, and Run-time of xAPI in Session-based Learning",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/9274.3.1/11183/"
+    }
+  ],
+  "factCheck": [
+    {
+      "claim": "cmi5 is a profile for using xAPI with traditional LMS systems; current release Quartz 1st Edition June 2016",
+      "source": "https://github.com/AICC/CMI-5_Spec_Current"
+    },
+    {
+      "claim": "Began in AICC in 2010; AICC dissolved in 2014 and transferred cmi5 to ADL; Sandstone May 2015; Quartz June 2016 first production release",
+      "source": "https://aicc.github.io/CMI-5_Spec_Current/"
+    },
+    {
+      "claim": "P9274.3.1 active PAR, PAR approved 15 February 2023, title as stated",
+      "source": "https://standards.ieee.org/ieee/9274.3.1/11183/"
+    },
+    {
+      "claim": "AU definition; nine defined verbs; moveOn value space Passed, Completed, CompletedAndPassed, CompletedOrPassed, NotApplicable",
+      "source": "https://github.com/AICC/CMI-5_Spec_Current/blob/quartz/cmi5_spec.md"
+    }
+  ],
+  "related": [
+    "xapi",
+    "scorm",
+    "learning-management-system",
+    "xapi-vs-cmi5",
+    "scorm-vs-xapi"
+  ],
+  "productLinks": [
+    {
+      "label": "Integrations",
+      "href": "/platform/integrations"
+    },
+    {
+      "label": "Technical overview",
+      "href": "/platform/technical-overview"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 4
+}

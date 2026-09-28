@@ -1,0 +1,227 @@
+{
+  "slug": "xapi",
+  "kind": "glossary",
+  "title": "What is xAPI?",
+  "seoTitle": "xAPI (Experience API): definition",
+  "description": "xAPI (Experience API, formerly Tin Can) records learning activity as statements in a Learning Record Store. Versions, IEEE 9274.1.1 and SCORM.",
+  "shortAnswer": "The Experience API (xAPI) is a learning technology specification for recording what people do while learning, from any source, as structured statements in the form actor, verb, object (for example, \"Priya completed Privacy Refresher\"). Statements are sent to a Learning Record Store (LRS). Originally developed for the Advanced Distributed Learning (ADL) Initiative as the Tin Can API, xAPI is now an IEEE standard, IEEE 9274.1.1-2023.",
+  "keyTakeaways": [
+    "xAPI records learning activity as statements with an actor, a verb, and an object, stored in a Learning Record Store.",
+    "Version 1.0.0 was released on 26 April 2013; version 1.0.3 followed on 21 September 2016.",
+    "IEEE 9274.1.1-2023 standardises xAPI (widely called xAPI 2.0); the IEEE board approved it on 30 March 2023 and published it on 6 October 2023.",
+    "xAPI is not tied to a browser or an LMS, which is its main difference from SCORM."
+  ],
+  "term": "xAPI",
+  "alsoKnownAs": [
+    "Experience API",
+    "Experience Application Programming Interface",
+    "Tin Can API",
+    "xAPI 2.0",
+    "IEEE 9274.1.1"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What is xAPI used for?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "xAPI is used to record learning and performance activity that older standards could not capture, such as simulations, mobile apps, offline learning, on the job observations, and activity across several systems. ADL's specification repository describes xAPI as \"a learning technologies interoperability specification that describes communication about learner activity and experiences between technologies\" ([ADL xAPI specification](https://github.com/adlnet/xAPI-Spec))."
+        },
+        {
+          "type": "p",
+          "text": "Because every statement has the same basic shape, data from different tools can be stored together and analysed, which is the main reason organisations adopt it."
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "heading": "How does xAPI work?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "xAPI works by having a learning activity or system send statements over a web service to a Learning Record Store, which stores them and makes them available to reporting tools and other systems."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Statement:** the specification requires that \"A Statement MUST use 'actor', 'verb', and 'object'\". Optional parts include result (score, success, completion), context, and timestamp.",
+            "**Learning Record Store (LRS):** defined in the specification as a server \"responsible for receiving, storing, and providing access to Learning Records\". An LRS can stand alone or be built into a [learning management system](/glossary/learning-management-system).",
+            "**Vocabulary and profiles:** agreed verbs and rules for particular uses, so that \"completed\" means the same thing across tools. [cmi5](/glossary/cmi5) is one such profile.",
+            "**Reporting:** dashboards or analytics read statements from the LRS and combine them with HR and training data."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Illustrative statements",
+          "text": "Actor: Priya Shah. Verb: completed. Object: Privacy Refresher 2026. Result: passed, score 0.9. A second statement from a workplace assessment app might read: Actor: Priya Shah. Verb: was observed performing. Object: customer identity check procedure. Result: satisfactory. Both land in the same LRS and can be reported together."
+        }
+      ]
+    },
+    {
+      "id": "versions",
+      "heading": "Which xAPI versions exist, and what is IEEE 9274.1.1?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The ADL specification reached version 1.0.0 on 26 April 2013 and version 1.0.3 on 21 September 2016; the current version is the IEEE standard, IEEE 9274.1.1-2023, commonly called xAPI 2.0. ADL's repository notes that 1.0.3 is \"an old version\" and that \"The current version of the specification is xAPI 2.0\"."
+        },
+        {
+          "type": "table",
+          "caption": "xAPI milestones",
+          "head": [
+            "Milestone",
+            "Date",
+            "Source"
+          ],
+          "rows": [
+            [
+              "Tin Can API project deliverable revised to version 0.9",
+              "31 March 2012",
+              "ADL xAPI specification revision history"
+            ],
+            [
+              "xAPI 1.0.0",
+              "26 April 2013",
+              "ADL xAPI specification revision history"
+            ],
+            [
+              "xAPI 1.0.3",
+              "21 September 2016",
+              "ADL xAPI specification revision history"
+            ],
+            [
+              "IEEE 9274.1.1-2023 approved by IEEE SA board",
+              "30 March 2023",
+              "IEEE Standards Association"
+            ],
+            [
+              "IEEE 9274.1.1-2023 published",
+              "6 October 2023",
+              "IEEE Standards Association"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The IEEE Standards Association describes IEEE 9274.1.1 as a JSON data model and RESTful web service for communication between activities and a Learning Record Store, developed to standardise the 1.0.3 version of xAPI ([IEEE SA](https://standards.ieee.org/ieee/9274.1.1/7321/))."
+        }
+      ]
+    },
+    {
+      "id": "how-it-differs",
+      "heading": "How is xAPI different from SCORM and cmi5?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "[SCORM](/glossary/scorm) tracks e-learning launched by an LMS in a browser, with a fixed data model; xAPI tracks any activity with flexible statements; cmi5 is a set of xAPI rules that recreates the LMS launch model with xAPI data."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Use SCORM when the requirement is broad LMS compatibility for conventional e-learning. See [SCORM vs xAPI](/compare/scorm-vs-xapi).",
+            "Use xAPI when activity happens outside an LMS launched browser session, or when several systems must report into one store.",
+            "Use cmi5 when the LMS still assigns and launches the content but richer xAPI data is wanted. See [xAPI vs cmi5](/compare/xapi-vs-cmi5)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regulated-use",
+      "heading": "Why does xAPI matter for evidence of competence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "xAPI matters because it can record evidence beyond completion, such as observed performance, repeated practice, or on the job sign off, in a common format. That helps where regulators or auditors ask whether staff can do the work, not only whether they finished a module. The data is only as meaningful as the design behind it: verbs and objects need to map to defined [learning outcomes](/glossary/learning-outcomes) and assessment criteria."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines the concepts and assessment points that statements should refer to, so an xAPI record can be read against a specific outcome and obligation rather than a course title alone."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Tin Can the same as xAPI?",
+      "a": "Yes. Tin Can API was the name of the project that produced the specification. The ADL specification defines Tin Can API as the previous name of the API, \"often used in informal references to the Experience API\". Tin Can is still seen in older course packages and product documentation."
+    },
+    {
+      "q": "Do you need a Learning Record Store to use xAPI?",
+      "a": "Yes. xAPI statements are sent to and stored in a Learning Record Store. Some learning management systems include an LRS, and standalone LRS products exist. Without an LRS there is nowhere conformant to send or query statements."
+    },
+    {
+      "q": "Is xAPI 2.0 backwards compatible with 1.0.3?",
+      "a": "Not automatically. IEEE 9274.1.1 was developed from version 1.0.3, but it is a separate, revised standard. Learning Record Stores and content tools need to be checked for which version they support, and an organisation with older content may need a store that accepts both."
+    },
+    {
+      "q": "Does xAPI replace SCORM?",
+      "a": "Not directly. xAPI covers far more activity types, but it does not define how an LMS packages and launches courses. cmi5 fills that gap. Many organisations run SCORM and xAPI content side by side while legacy courses remain in use."
+    }
+  ],
+  "sources": [
+    {
+      "title": "IEEE 9274.1.1-2023: IEEE Standard for Learning Technology: JSON Data Model Format and RESTful Web Service for Learner Experience Data Tracking and Access",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/9274.1.1/7321/"
+    },
+    {
+      "title": "xAPI Specification (version 1.0.3 repository)",
+      "publisher": "Advanced Distributed Learning (ADL) Initiative",
+      "url": "https://github.com/adlnet/xAPI-Spec"
+    },
+    {
+      "title": "cmi5 specification (Quartz)",
+      "publisher": "AICC / ADL Initiative",
+      "url": "https://github.com/AICC/CMI-5_Spec_Current"
+    }
+  ],
+  "factCheck": [
+    {
+      "claim": "IEEE 9274.1.1-2023: PAR approved 14 May 2018, board approved 30 March 2023, published 6 October 2023; standardises xAPI 1.0.3; active standard",
+      "source": "https://standards.ieee.org/ieee/9274.1.1/7321/"
+    },
+    {
+      "claim": "ADL repo: 1.0.3 is an old version; current version is xAPI 2.0 hosted by IEEE",
+      "source": "https://github.com/adlnet/xAPI-Spec"
+    },
+    {
+      "claim": "xAPI 0.95 to 1.0.0 dated April 26, 2013; 1.0.2 to 1.0.3 dated September 21, 2016 (xAPI-About.md revision history)",
+      "source": "https://github.com/adlnet/xAPI-Spec/blob/master/xAPI-About.md"
+    },
+    {
+      "claim": "Statement MUST use actor, verb and object; LRS definition; Tin Can API is the previous name of the API",
+      "source": "https://github.com/adlnet/xAPI-Spec/blob/master/xAPI-Data.md"
+    },
+    {
+      "claim": "Tin Can API (now xAPI) completed by ADL around 2012 per cmi5 project history",
+      "source": "https://aicc.github.io/CMI-5_Spec_Current/"
+    }
+  ],
+  "related": [
+    "scorm",
+    "cmi5",
+    "learning-management-system",
+    "scorm-vs-xapi",
+    "xapi-vs-cmi5"
+  ],
+  "productLinks": [
+    {
+      "label": "Integrations",
+      "href": "/platform/integrations"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 3
+}

@@ -1,0 +1,380 @@
+{
+  "slug": "how-to-choose-a-compliance-training-platform",
+  "kind": "guide",
+  "title": "How do you choose a compliance training platform?",
+  "seoTitle": "Choosing a compliance training platform",
+  "description": "A vendor neutral method for choosing a compliance training platform: define the evidence you need, score criteria, run scripted demos, and pilot.",
+  "shortAnswer": "To choose a compliance training platform, start from the evidence you must produce for regulators and auditors, then assess platforms against weighted criteria: obligation mapping, role based assignment, assessment beyond completion, versioned content and records, reporting, privacy and security, interoperability, accessibility, administration effort, and data portability. Test shortlisted platforms with scripted demonstrations using your own content and a pilot with real users before deciding.",
+  "keyTakeaways": [
+    "Define the evidence you need to produce before looking at platforms. Features matter only if they produce that evidence.",
+    "Completion tracking alone rarely answers a regulator. Look for assessment, version history, and a link from each record to the obligation it serves.",
+    "Privacy and security questions, including where data is stored and who can access it, belong in the first round, not the contract stage.",
+    "Scripted demonstrations with your own content and scenarios expose gaps that standard demonstrations hide.",
+    "Check data export before you sign. You will need your records and content when you next change platforms."
+  ],
+  "sections": [
+    {
+      "id": "define-requirements",
+      "heading": "What should you define before looking at platforms?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Define the obligations the training supports, the roles in scope, and the evidence you must be able to produce, then turn those into requirements. Starting from product demonstrations tends to produce a shortlist of attractive interfaces rather than a platform that answers an auditor's questions."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Obligations.** Which laws, standards, and internal policies does the training support? The [mapping guide](/guides/how-to-map-training-to-compliance-obligations) explains how to build this list.",
+            "**Evidence.** What must you show, and to whom? For example, AUSTRAC suggests anti money laundering training records capture what was delivered, including the content and content version, how understanding was assessed, and each person's training history ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training)). Australian Government entities applying the Information Security Manual also need a cyber security awareness training register (ISM-2022) ([ASD](https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security)).",
+            "**Population.** Employees, contractors, and third parties; how they are identified; and whether they have corporate accounts.",
+            "**Delivery mix.** Online modules, face to face sessions, on the job assessment, and attestations all need to be recorded in one place. AUSTRAC notes its own e-learning modules cannot be relied on solely to meet training obligations, which is a reminder that the platform must record more than online completions.",
+            "**Constraints.** Data location, security classification, integration with HR systems, and budget."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "criteria",
+      "heading": "Which criteria matter most for compliance training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The criteria that matter most are the ones that determine whether you can prove the right people were trained on the right version and could apply it. The table lists criteria, why each matters in regulated settings, and the evidence to request from any provider."
+        },
+        {
+          "type": "table",
+          "caption": "Vendor neutral criteria for a compliance training platform",
+          "head": [
+            "Criterion",
+            "Why it matters",
+            "Questions to ask",
+            "Evidence to request"
+          ],
+          "rows": [
+            [
+              "Obligation mapping",
+              "Shows which obligation each item and record serves",
+              "Can items be linked to obligations or policies, and can reports be filtered by obligation?",
+              "Report showing completions grouped by obligation"
+            ],
+            [
+              "Role based assignment",
+              "Training must suit the work and its risks",
+              "Can assignment follow role, location, and risk attributes from the HR system, and update automatically on role change?",
+              "Demonstration of a role change triggering new assignments"
+            ],
+            [
+              "Assessment beyond completion",
+              "Completion does not show understanding",
+              "Does it support scenario questions, observed assessments, and assessor sign off with evidence attached?",
+              "A workplace observation recorded with the assessor and version"
+            ],
+            [
+              "Content version control",
+              "Records must show which version a person completed",
+              "Is each completion tied to a content version? Can you see who completed a superseded version?",
+              "Record history for an item across two versions"
+            ],
+            [
+              "Records and audit trail",
+              "Evidence must be complete and unaltered",
+              "Are changes to records logged with who and when? Can records be exported in full?",
+              "Audit log extract and full export sample"
+            ],
+            [
+              "Reporting",
+              "Boards and regulators need clear status",
+              "Can reports show overdue, at risk, and completed by role, obligation, and business unit?",
+              "Sample board level and regulator style reports"
+            ],
+            [
+              "Privacy and security",
+              "Records contain personal information",
+              "Where is data stored and processed? Who at the provider can access it? What security assessments exist?",
+              "Data location statement, security assessment results, subprocessor list"
+            ],
+            [
+              "Interoperability",
+              "Content and data must move in and out",
+              "Which of SCORM, xAPI, and cmi5 are supported? Which HR and identity integrations exist?",
+              "Test launch of your own packages; integration documentation"
+            ],
+            [
+              "Accessibility",
+              "All learners must be able to complete required training",
+              "What conformance level to WCAG 2.2 does the learner interface meet, and how was it tested?",
+              "Accessibility conformance report"
+            ],
+            [
+              "Administration effort",
+              "Manual work creates errors and delays",
+              "How are assignments, reminders, and escalations automated?",
+              "Walkthrough of a quarterly compliance cycle"
+            ],
+            [
+              "Portability and exit",
+              "You will change platforms again",
+              "Can all records, content, and version history be exported in usable formats at no extra cost?",
+              "Contract clause and a sample export"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-security",
+      "heading": "What privacy and security questions should you ask?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ask where personal information will be stored and processed, who can access it, how it is protected, and how it will be returned or destroyed at the end of the contract. Training records hold names, roles, results, and sometimes sensitive details from incident based training."
+        },
+        {
+          "type": "p",
+          "text": "Under the Australian Privacy Principles, APP 8 sets out the steps an entity must take before disclosing personal information overseas, and APP 11 requires reasonable steps to protect personal information and, in certain circumstances, to destroy or de-identify it ([OAIC](https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-quick-reference)). If the platform includes AI features, the OAIC's [guidance on commercially available AI products](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products) recommends due diligence on whether the product has been tested for the intended use and who can access information entered into it. Government entities will have additional requirements under the Protective Security Policy Framework and the Information Security Manual."
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "heading": "What are the steps in a platform selection?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Run the selection as a sequence of narrowing steps, each with a documented output, so the final decision can be explained to procurement, audit, and the board."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Write requirements.** Turn obligations, evidence needs, population, and constraints into must have and should have requirements. Output: a requirements list with weights.",
+            "**Decide the platform category.** Decide whether you need a learning management system, a learning experience platform, a content management system, or a combination. Output: a category decision. See [LMS vs LXP](/compare/lms-vs-lxp) and [LMS vs LCMS](/compare/lms-vs-lcms).",
+            "**Issue a request for information.** Ask providers to respond to the criteria table in writing. Output: comparable written responses.",
+            "**Run scripted demonstrations.** Give each shortlisted provider the same script using your own content, roles, and a policy change scenario. Output: scored demonstration results.",
+            "**Complete security and privacy review.** Assess data location, access, certifications, and incident handling. Output: a risk assessment for each finalist.",
+            "**Pilot.** Run a real compliance cycle with a representative group, including managers and assessors. Output: pilot findings, including administrator time and learner feedback.",
+            "**Score and decide.** Apply the weighted scoring model and record the rationale. Output: a decision paper.",
+            "**Negotiate exit terms.** Confirm export formats, timing, and cost before signing. Output: contract clauses for data return and destruction."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scoring",
+      "heading": "How do you score and compare platforms fairly?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use a weighted scoring model agreed before demonstrations begin, so that scores reflect your priorities rather than the most recent presentation. Score each criterion on a fixed scale against the evidence seen, not claimed."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative weighted scoring template (weights are examples; set your own)",
+          "head": [
+            "Criterion",
+            "Example weight",
+            "Score 0 to 5",
+            "Weighted score"
+          ],
+          "rows": [
+            [
+              "Assessment beyond completion",
+              "15%",
+              "Enter score",
+              "Weight multiplied by score"
+            ],
+            [
+              "Content version control and records",
+              "15%",
+              "Enter score",
+              "Weight multiplied by score"
+            ],
+            [
+              "Privacy and security",
+              "15%",
+              "Enter score",
+              "Weight multiplied by score"
+            ],
+            [
+              "Role based assignment",
+              "10%",
+              "Enter score",
+              "Weight multiplied by score"
+            ],
+            [
+              "Obligation mapping and reporting",
+              "10%",
+              "Enter score",
+              "Weight multiplied by score"
+            ],
+            [
+              "Interoperability",
+              "10%",
+              "Enter score",
+              "Weight multiplied by score"
+            ],
+            [
+              "Accessibility",
+              "10%",
+              "Enter score",
+              "Weight multiplied by score"
+            ],
+            [
+              "Administration effort",
+              "10%",
+              "Enter score",
+              "Weight multiplied by score"
+            ],
+            [
+              "Portability and exit",
+              "5%",
+              "Enter score",
+              "Weight multiplied by score"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Scripted demonstration checklist",
+          "text": "Load one of your existing packages and launch it. Assign training by role and then change a person's role. Publish a new version of an item and show who completed the old one. Record an observed workplace assessment with evidence. Produce an overdue report by business unit. Export all records for one person. Show the audit log for a changed record. Show how an accessibility issue would be reported and fixed."
+        }
+      ]
+    },
+    {
+      "id": "red-flags",
+      "heading": "What are the warning signs during selection?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The main warning signs are answers that describe completion tracking when you asked about competence, and vague answers about data location or export. Both tend to become expensive problems after go live."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Completion is the only status a record can hold.",
+            "Content updates overwrite the previous version with no history.",
+            "Records cannot be exported in full without a paid service.",
+            "Data location or subprocessors cannot be stated in writing.",
+            "The demonstration cannot use your content or your scenario.",
+            "Accessibility conformance is claimed but no report or test method is available."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "See [completion tracking vs competency verification](/compare/completion-tracking-vs-competency-verification) for why the first warning sign matters."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry sits upstream of delivery platforms: it defines the knowledge framework, obligations, outcomes, and assessment points that training must cover, and connects to existing systems for delivery and records. That means the selection criteria above can be tested against a defined framework rather than against content alone. The [integrations](/platform/integrations) page lists how it connects."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do we need a specialist compliance platform or will a general LMS do?",
+      "a": "A general learning management system can be enough if it records versions, supports assessment beyond completion, and reports by role and obligation. Specialist tools add features such as obligation libraries and attestation workflows. Decide by testing both types against the same scripted demonstration and your evidence requirements."
+    },
+    {
+      "q": "Should the platform include off the shelf compliance content?",
+      "a": "It can save time for general topics, but check that content matches Australian law and your own policies, and that you can edit or supplement it. Content that cannot be tailored to your procedures often needs a local addition anyway. See the comparison of off the shelf and custom compliance training."
+    },
+    {
+      "q": "How important is data location for a training platform?",
+      "a": "It depends on your obligations and risk appetite. Training records contain personal information, so APP 8 applies to overseas disclosure. Government entities and some regulated industries have stricter requirements. Ask for a written statement of where data is stored and processed, including backups and support access."
+    },
+    {
+      "q": "How long should a platform pilot run?",
+      "a": "Long enough to complete one realistic compliance cycle: assignment, reminders, completion, assessment, overdue escalation, and reporting. For many organisations that is several weeks. A short pilot that only tests the learner interface misses the administrator and reporting workload where most problems appear."
+    }
+  ],
+  "sources": [
+    {
+      "title": "AML/CTF training",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    },
+    {
+      "title": "Information Security Manual: Guidelines for personnel security",
+      "publisher": "Australian Signals Directorate",
+      "url": "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security"
+    },
+    {
+      "title": "Australian Privacy Principles quick reference",
+      "publisher": "Office of the Australian Information Commissioner",
+      "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-quick-reference"
+    },
+    {
+      "title": "Guidance on privacy and the use of commercially available AI products",
+      "publisher": "Office of the Australian Information Commissioner",
+      "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products"
+    },
+    {
+      "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "publisher": "World Wide Web Consortium (W3C)",
+      "url": "https://www.w3.org/TR/WCAG22/"
+    },
+    {
+      "title": "The cmi5 Project",
+      "publisher": "AICC cmi5 working group",
+      "url": "https://aicc.github.io/CMI-5_Spec_Current/"
+    },
+    {
+      "title": "xAPI Specification",
+      "publisher": "Advanced Distributed Learning (ADL) Initiative",
+      "url": "https://github.com/adlnet/xAPI-Spec"
+    }
+  ],
+  "related": [
+    "lms-vs-lxp",
+    "lms-vs-lcms",
+    "learning-management-system",
+    "completion-tracking-vs-competency-verification",
+    "off-the-shelf-vs-custom-compliance-training",
+    "how-to-migrate-legacy-elearning-content"
+  ],
+  "productLinks": [
+    {
+      "label": "Integrations",
+      "href": "/platform/integrations"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 1,
+  "factCheck": [
+    {
+      "claim": "AUSTRAC suggests training records include what was delivered, including content and content version, how understanding was assessed, and training history.",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    },
+    {
+      "claim": "AUSTRAC says its e-learning modules can be used as part of AML/CTF training but cannot be relied on solely, and training must be accessible and understandable to the person receiving it.",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    },
+    {
+      "claim": "ISM-0252: cyber security awareness training is undertaken annually by all personnel; ISM-1565: tailored privileged user training undertaken annually by all personnel with privileged access; ISM-2022: a cyber security awareness training register is maintained.",
+      "source": "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security"
+    },
+    {
+      "claim": "APP 8 covers cross-border disclosure; APP 11 requires reasonable steps to protect personal information and to destroy or de-identify it in certain circumstances.",
+      "source": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-quick-reference"
+    },
+    {
+      "claim": "WCAG 2.2 is a W3C Recommendation (current version dated 12 December 2024).",
+      "source": "https://www.w3.org/TR/WCAG22/"
+    },
+    {
+      "claim": "cmi5 is a profile for using xAPI with an LMS where the learner launches content from the LMS, defining launch, authentication, session management, reporting and course structure.",
+      "source": "https://aicc.github.io/CMI-5_Spec_Current/"
+    }
+  ]
+}

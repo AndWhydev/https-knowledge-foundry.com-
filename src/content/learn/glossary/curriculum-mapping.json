@@ -1,0 +1,211 @@
+{
+  "slug": "curriculum-mapping",
+  "kind": "glossary",
+  "title": "What is curriculum mapping?",
+  "seoTitle": "Curriculum mapping: definition",
+  "description": "Curriculum mapping shows where each learning outcome or requirement is taught, practised and assessed across a program. How it works, TEQSA context, example.",
+  "shortAnswer": "A curriculum map is a structured record, usually a grid, showing where each learning outcome, competency or external requirement is taught, practised and assessed across the units of a program, and curriculum mapping is the process of building and maintaining it. It exposes gaps, duplication and outcomes that are never assessed, and gives regulators, accreditors and auditors evidence that a program covers what it claims to.",
+  "keyTakeaways": [
+    "Curriculum mapping links program level outcomes or requirements to the units, activities and assessments that deliver them.",
+    "A common convention records whether each outcome is introduced, developed or assessed in each unit.",
+    "TEQSA expects higher education providers to show where course learning outcomes are taught, practised and assessed.",
+    "In workplace and VET settings, the same technique maps obligations or unit requirements to training content and assessment items."
+  ],
+  "term": "curriculum mapping",
+  "alsoKnownAs": [
+    "curriculum map",
+    "course mapping",
+    "program mapping",
+    "mapping document"
+  ],
+  "sections": [
+    {
+      "id": "how-it-works",
+      "heading": "How does curriculum mapping work?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Curriculum mapping works by listing the program's required outcomes down one axis and its units, modules or assessments across the other, then recording what each unit does for each outcome. The completed grid is read in two directions: down a column to see what a unit contributes, and along a row to see whether an outcome is fully covered."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "List the program's [learning outcomes](/glossary/learning-outcomes), or the competencies or obligations the program must cover.",
+            "List every unit, module and assessment task.",
+            "For each pair, record the relationship, for example introduced, developed or assessed.",
+            "Check each row: every outcome should be assessed at least once, at the right level.",
+            "Check each column: every unit should contribute to at least one outcome.",
+            "Keep the map under version control and update it when units or requirements change."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "australian-use",
+      "heading": "Why does curriculum mapping matter to Australian regulators?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Curriculum mapping is the usual way Australian providers evidence that outcomes are delivered and assessed. The Tertiary Education Quality and Standards Agency (TEQSA) [course design guidance note](https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-course-design-including-learning-outcomes-and-assessment) states that TEQSA \"will expect some clear information demonstrating where course learning outcomes are taught, practised and assessed, whether at unit level or at course level\"."
+        },
+        {
+          "type": "p",
+          "text": "That expectation follows from Standard 1.4.4 of the [Higher Education Standards Framework (Threshold Standards) 2021](https://www.legislation.gov.au/F2021L00488/latest/text), which requires students to have demonstrated the specified learning outcomes on completion, and Standard 3.1.3, which requires progressive and coherent achievement of expected outcomes. See [TEQSA HESF course design requirements](/regulations/teqsa-hesf-course-design-requirements)."
+        },
+        {
+          "type": "p",
+          "text": "In VET, the Australian Skills Quality Authority (ASQA) [assessment practice guide](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide) expects the assessment system to address all requirements of the training product, determining what competence looks like from the unit's elements, performance criteria and assessment requirements. Providers commonly show this with a mapping of each requirement to assessment items."
+        }
+      ]
+    },
+    {
+      "id": "nearby-terms",
+      "heading": "How is curriculum mapping different from constructive alignment and an assessment blueprint?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "[Constructive alignment](/glossary/constructive-alignment) is the design principle that outcomes, activities and assessment should match; curriculum mapping is the program wide evidence that they do. An [assessment blueprint](/glossary/assessment-blueprint) is narrower: it plans the content and weighting of a single assessment."
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does a curriculum map look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Illustrative map for a four module anti money laundering program in a financial institution. I means introduced, D developed, A assessed."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Outcome",
+            "Module 1: Foundations",
+            "Module 2: Customer due diligence",
+            "Module 3: Monitoring",
+            "Module 4: Reporting"
+          ],
+          "rows": [
+            [
+              "Explain the organisation's obligations and risk appetite",
+              "I, A",
+              "D",
+              "",
+              ""
+            ],
+            [
+              "Apply customer identification procedures",
+              "I",
+              "D, A",
+              "",
+              ""
+            ],
+            [
+              "Recognise indicators of suspicious activity",
+              "I",
+              "D",
+              "D, A",
+              "D"
+            ],
+            [
+              "Escalate a suspicion through the correct channel",
+              "",
+              "",
+              "I",
+              "D"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Reading the rows shows the gap: the escalation outcome is introduced and developed but never assessed. The fix is an assessed escalation scenario in Module 4. The method is covered in [how to build a curriculum map](/guides/how-to-build-a-curriculum-map), and a related technique in [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "In Knowledge Foundry the map is not a separate spreadsheet. Outcomes, content and assessment points are linked in the framework itself, so coverage and gaps are computed from the structure and stay current when any part changes."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between a curriculum map and a mapping document in VET?",
+      "a": "They use the same technique at different scales. A curriculum map usually covers a whole program against its outcomes. A VET mapping document usually shows how each assessment item covers each element, performance criterion and assessment requirement of a unit of competency. Both answer the question of what is covered where."
+    },
+    {
+      "q": "Who should own a curriculum map?",
+      "a": "The program or course coordinator usually owns it, with input from unit designers and assessors. In workplace learning, the owner should be whoever is accountable for the program meeting its obligations, often in learning and development working with compliance."
+    },
+    {
+      "q": "How often should a curriculum map be reviewed?",
+      "a": "Review it whenever a unit, assessment, outcome or external requirement changes, and as part of periodic program review. A map that is updated only at accreditation time tends to drift from what is actually taught and assessed."
+    },
+    {
+      "q": "Can curriculum mapping be done in a spreadsheet?",
+      "a": "Yes, and many providers start that way. The risk is that the spreadsheet is disconnected from the actual content and assessments, so it records intentions rather than reality. Linking map entries to specific assessment items and version numbers reduces that risk."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Guidance note: Course design (including learning outcomes and assessment)",
+      "publisher": "Tertiary Education Quality and Standards Agency",
+      "url": "https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-course-design-including-learning-outcomes-and-assessment"
+    },
+    {
+      "title": "Higher Education Standards Framework (Threshold Standards) 2021",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2021L00488/latest/text"
+    },
+    {
+      "title": "Assessment Practice Guide",
+      "publisher": "Australian Skills Quality Authority",
+      "url": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
+    },
+    {
+      "title": "Aligning Assessment with Outcomes",
+      "publisher": "UNSW Sydney",
+      "url": "https://www.teaching.unsw.edu.au/aligning-assessment-learning-outcomes"
+    }
+  ],
+  "related": [
+    "constructive-alignment",
+    "learning-outcomes",
+    "assessment-blueprint",
+    "how-to-build-a-curriculum-map",
+    "how-to-map-training-to-compliance-obligations",
+    "teqsa-hesf-course-design-requirements"
+  ],
+  "productLinks": [
+    {
+      "label": "Standards and accreditation",
+      "href": "/platform/standards-accreditation"
+    },
+    {
+      "label": "Higher education",
+      "href": "/industries/higher-education"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 5,
+  "factCheck": [
+    {
+      "claim": "TEQSA will expect clear information demonstrating where course learning outcomes are taught, practised and assessed, at unit or course level",
+      "source": "https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-course-design-including-learning-outcomes-and-assessment"
+    },
+    {
+      "claim": "HESF Standards 1.4.4 and 3.1.3 wording",
+      "source": "https://www.legislation.gov.au/F2021L00488/latest/text"
+    },
+    {
+      "claim": "ASQA: assessment system addresses all requirements of the training product and determines what competence looks like based on unit elements, performance criteria and assessment requirements",
+      "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "slug": "lms-vs-lxp",
+  "kind": "comparison",
+  "title": "LMS vs LXP: what is the difference?",
+  "seoTitle": "LMS vs LXP: the difference",
+  "description": "An LMS assigns and records required training; an LXP helps people discover learning. How they compare, when to choose each, and how to combine them.",
+  "shortAnswer": "A learning management system (LMS) is administrator led: it assigns required training, tracks completion, and produces records for compliance. A learning experience platform (LXP) is learner led: it aggregates content from many sources, recommends it, and supports self directed and social learning. An LMS is built to prove required training happened; an LXP is built to encourage voluntary learning and skill growth.",
+  "keyTakeaways": [
+    "The LMS pushes assigned training and records it; the LXP helps learners pull content they choose.",
+    "Mandatory and regulated training almost always needs an LMS style record of assignment, completion, and result.",
+    "LXPs commonly rely on activity data beyond course completion, often captured with xAPI.",
+    "Many organisations run both: the LMS for obligations, the LXP for development."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the core difference between an LMS and an LXP?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The core difference is who drives the learning: in an LMS the organisation decides what each person must complete, while in an LXP the learner chooses from a wide, curated range of content. That difference in control shapes everything else, from the data each system collects to the reports it produces."
+        },
+        {
+          "type": "p",
+          "text": "An LMS is described in the scope of the Institute of Electrical and Electronics Engineers (IEEE) draft cmi5 standard as a system that manages learners, learning content, and \"the authorized use of the learning content to learners\" ([IEEE P9274.3.1](https://standards.ieee.org/ieee/9274.3.1/11183/)). Its design centre is the course assignment and the completion record. See [learning management system](/glossary/learning-management-system)."
+        },
+        {
+          "type": "p",
+          "text": "A [learning experience platform](/glossary/learning-experience-platform) is designed around discovery. It typically pulls in articles, videos, podcasts, internal resources, and external courses, recommends items based on role, interests, or stated skills, and lets people share and curate. The unit of value is engagement with learning, not only completion of a course."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do an LMS and an LXP compare side by side?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The table sets out typical category characteristics. Some products blur the line, so use it to clarify which job you need done rather than to classify a specific product."
+        },
+        {
+          "type": "table",
+          "caption": "LMS and LXP compared at category level",
+          "head": [
+            "Dimension",
+            "Learning management system (LMS)",
+            "Learning experience platform (LXP)"
+          ],
+          "rows": [
+            [
+              "Who drives learning",
+              "The organisation assigns training",
+              "The learner discovers and chooses"
+            ],
+            [
+              "Typical content",
+              "Structured courses and assessments",
+              "Mixed formats from internal and external sources"
+            ],
+            [
+              "Core functions",
+              "Enrol, launch, track, certify, report",
+              "Aggregate, recommend, curate, share"
+            ],
+            [
+              "Data captured",
+              "Completions, scores, due dates, attempts",
+              "Activity and engagement across many sources, often via xAPI"
+            ],
+            [
+              "Main users",
+              "Administrators, compliance and L&D teams",
+              "Employees and people leaders"
+            ],
+            [
+              "Strength for regulated training",
+              "Clear record of required training and results",
+              "Limited unless integrated with formal tracking"
+            ],
+            [
+              "Strength for development",
+              "Formal programs and pathways",
+              "Breadth, personalisation, informal learning"
+            ],
+            [
+              "Question it answers best",
+              "Has everyone completed what they must?",
+              "What are people learning, and what should they learn next?"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-difference",
+      "heading": "Why does the data each system captures differ?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The data differs because an LXP needs to record learning that happens outside courses, which older course tracking standards were not built to capture. The Experience API (xAPI) was designed for exactly this: the Advanced Distributed Learning (ADL) Initiative lists examples such as \"Reading an article or interacting with an eBook\", \"Watching a training video\", and \"Chatting with a mentor\" as activities xAPI can record ([ADL Initiative](https://adlnet.gov/projects/xapi/))."
+        },
+        {
+          "type": "p",
+          "text": "xAPI is now published as IEEE 9274.1.1-2023, approved on 30 March 2023 ([IEEE](https://standards.ieee.org/ieee/9274.1.1/7321/)). An LMS tracking SCORM packages, by contrast, records a defined set of course level data. For the standards detail, see [SCORM vs xAPI](/compare/scorm-vs-xapi)."
+        }
+      ]
+    },
+    {
+      "id": "when-to-choose",
+      "heading": "When should you choose each?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Choose an LMS when you must assign training and prove it was completed; choose an LXP when the goal is broad, voluntary capability building and you already have a way to evidence mandatory training. For regulated organisations, the LMS function is rarely optional."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Choose an LMS** for induction in regulated roles, mandatory compliance modules, licensing and certification pathways, and anything a regulator or auditor may ask you to evidence. See [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit).",
+            "**Choose an LXP** for professional development, leadership and technical upskilling, and knowledge sharing, where engagement and breadth matter more than a completion certificate.",
+            "**Be cautious** about using an LXP as the only record of mandatory training. Recommendations and self selection do not guarantee that every person in a role received the training their obligations require."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "using-together",
+      "heading": "How do an LMS and an LXP work together?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They work together by splitting the job: the LMS holds required training and its records, and the LXP provides the front door and the wider development catalogue. In a common pattern, learners see assigned LMS courses inside the LXP, launch them from there, and completions flow back to the LMS as the system of record."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Define which training is mandatory for each role, ideally from a [training matrix](/glossary/training-matrix).",
+            "Keep mandatory assignments, due dates, and results in the LMS.",
+            "Surface assigned training in the LXP alongside optional content.",
+            "Send activity data from both into a shared store (often a learning record store) for reporting.",
+            "Report compliance from the LMS and development trends from the combined data."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry is neither an LMS nor an LXP. It defines the knowledge framework behind training (what must be known, how concepts relate, and where competence is assessed) and publishes content and assessments into whichever delivery platforms an organisation uses, so that both assigned and discoverable learning trace back to the same defined source."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is an LXP replacing the LMS?",
+      "a": "Not in regulated settings. An LXP addresses discovery and engagement, but organisations still need to assign training by role, track due dates, and produce records of completion and results. Many organisations run an LXP alongside an LMS rather than instead of one."
+    },
+    {
+      "q": "Can an LXP track mandatory training?",
+      "a": "Some can display and launch assigned courses, and some record completions. Before relying on one for compliance, check that it can assign by role, enforce due dates, record results against a specific content version, and export records an auditor will accept."
+    },
+    {
+      "q": "What is a learning record store and where does it fit?",
+      "a": "A learning record store (LRS) is a server that receives, stores, and provides access to xAPI learning records. It can sit behind an LMS, an LXP, or both, giving a single place to query learning activity from many systems."
+    },
+    {
+      "q": "Which is better for skills development?",
+      "a": "An LXP is generally better at breadth and personalised recommendations, while an LMS is better at structured programs with defined assessments. For skills that must be verified, such as safety critical tasks, structured assessment matters more than the delivery platform."
+    }
+  ],
+  "sources": [
+    {
+      "title": "P9274.3.1: Standard for Packaging, Launch, and Run-time of Experience Application Programming Interface (xAPI) in Session-based Learning",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/9274.3.1/11183/"
+    },
+    {
+      "title": "Experience API (xAPI) Standard",
+      "publisher": "Advanced Distributed Learning (ADL) Initiative",
+      "url": "https://adlnet.gov/projects/xapi/"
+    },
+    {
+      "title": "IEEE 9274.1.1-2023: JSON Data Model Format and RESTful Web Service for Learner Experience Data Tracking and Access",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/9274.1.1/7321/"
+    }
+  ],
+  "related": [
+    "learning-management-system",
+    "learning-experience-platform",
+    "lms-vs-lcms",
+    "scorm-vs-xapi",
+    "xapi"
+  ],
+  "productLinks": [
+    {
+      "label": "Integrations",
+      "href": "/platform/integrations"
+    },
+    {
+      "label": "Enterprise learning modernisation",
+      "href": "/platform/enterprise-learning-modernisation"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 3,
+  "factCheck": [
+    {
+      "claim": "ADL lists reading an article or interacting with an eBook, watching a training video, and chatting with a mentor as activities xAPI can track",
+      "source": "https://adlnet.gov/projects/xapi/"
+    },
+    {
+      "claim": "IEEE 9274.1.1-2023 board approval 30 March 2023; describes JSON data model and RESTful API for communication with a Learning Record Store",
+      "source": "https://standards.ieee.org/ieee/9274.1.1/7321/"
+    },
+    {
+      "claim": "An LRS is a server responsible for receiving, storing, and providing access to learning records",
+      "source": "https://github.com/adlnet/xAPI-Spec/blob/master/xAPI-About.md"
+    }
+  ]
+}

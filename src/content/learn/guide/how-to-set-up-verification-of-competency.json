@@ -1,0 +1,244 @@
+{
+  "slug": "how-to-set-up-verification-of-competency",
+  "kind": "guide",
+  "title": "How do you set up verification of competency?",
+  "seoTitle": "Setting up verification of competency",
+  "description": "How to set up verification of competency (VOC): define tasks and standards, build the tool, qualify assessors, record outcomes, and set reverification.",
+  "shortAnswer": "To set up verification of competency (VOC), list the tasks that need it, define the standard for each from a unit of competency or your own documented criteria, build a structured assessment tool covering practical performance and knowledge, use assessors who are competent both in assessment and in the task, record a signed outcome with any conditions or supervision level, and set triggers for reverification such as time, incidents, or changes to equipment or procedures.",
+  "keyTakeaways": [
+    "A VOC is a documented evaluation of a person's skill against defined competency standards, used to confirm they can do a specific task in your workplace.",
+    "The assessment must be structured: defined criteria, a practical component, and a knowledge component, not a supervisor's general opinion.",
+    "Assessors need competence in assessment and in the task. The Office of the Federal Safety Commissioner states that an employer letter alone is not acceptable evidence.",
+    "Record the outcome with the standard used, the assessor, the date, any conditions, and the reverification date.",
+    "VOC confirms competence at a point in time. Reverify when the task, equipment, procedure, or the person's performance changes."
+  ],
+  "sections": [
+    {
+      "id": "what-is-voc",
+      "heading": "What is verification of competency and when is it used?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "[Verification of competency](/glossary/verification-of-competency) is a structured assessment confirming that a person can perform a specific task safely and correctly to a defined standard in your workplace. It is common for plant operation and high risk tasks, and increasingly used for other critical tasks in regulated settings."
+        },
+        {
+          "type": "p",
+          "text": "The Office of the Federal Safety Commissioner (OFSC) [fact sheet on mobile plant](https://www.fsc.gov.au/sites/default/files/2021-09/Fact%20Sheet%20Verification%20of%20Competency%20-%20Mobile%20Plant.pdf) quotes the OFSC Evidence Guide definition: \"a method of documented evaluation of the skill level of a person against defined competency standards in order to evaluate the person's ability to carry out the relevant activity or works.\" The NSW Resources Regulator describes VOC as a method of assessment that can be used to demonstrate a worker's ability to operate equipment or undertake the responsibilities of their role ([NSW Resources Regulator](https://www.resources.nsw.gov.au/sites/default/files/2024-05/operating-mobile-plant-verification-of-competency.pdf))."
+        },
+        {
+          "type": "p",
+          "text": "VOC is not always a legal requirement in its own right. It is one way to meet broader duties, such as the duty under section 19(3)(f) of the model WHS Act to provide the information, training, instruction, or supervision necessary to protect people from risks ([Work Health and Safety Act 2011](https://www.legislation.gov.au/C2011A00137/latest/text)). Some schemes set specific expectations; the OFSC fact sheet, for example, relates to its Audit Criterion H16.8 for accredited companies, and it notes that where a company's own system requires VOC beyond OFSC requirements, those defined requirements are expected to be followed."
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "heading": "What is the step by step method?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Set VOC up as a documented system, not a series of one off sign offs. Each step produces a document you keep."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Identify the tasks.** From your risk register and [training matrix](/glossary/training-matrix), list the tasks where incompetent performance could cause serious harm or a compliance breach. Output: a VOC task list.",
+            "**Define the standard.** For each task, use the relevant nationally recognised unit of competency where one exists, drawing on its performance criteria and assessment requirements, plus site specific procedures. Output: a documented standard per task.",
+            "**Build the assessment tool.** A structured checklist covering practical performance, knowledge questions (hazards, controls, emergency response, operator manual requirements), and the conditions of assessment. Output: an assessment tool per task. See [how to design assessments that prove competence](/guides/how-to-design-competency-assessments).",
+            "**Qualify assessors.** Define assessor requirements. The OFSC fact sheet says a VOC should be performed by someone competent as an assessor (holding TAEASS402 Assess competence or equivalent or higher) and holding the necessary competence for the item of plant, or a team that collectively meets both. Output: an assessor register.",
+            "**Decide accepted prior evidence.** State which licences, statements of attainment, or previous VOCs you accept, and what you still verify on site. Output: an evidence acceptance rule.",
+            "**Conduct and record.** Assess under realistic conditions, record the outcome and any supervision level or conditions, and have the assessor and worker sign. Output: a completed VOC record (template below).",
+            "**Set reverification triggers.** Define when VOC must be repeated. Output: a reverification rule."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "record-template",
+      "heading": "What should a VOC record contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A VOC record should identify the person, task, standard, evidence, assessor, outcome, and next due date. The OFSC fact sheet states that formal VoC assessment should be evidenced by a signed, completed VoC assessment. The template below is original."
+        },
+        {
+          "type": "table",
+          "caption": "VOC record template (illustrative values)",
+          "head": [
+            "Field",
+            "Example entry"
+          ],
+          "rows": [
+            [
+              "Worker and employer",
+              "A. Nguyen, contractor employed by Example Civil Pty Ltd"
+            ],
+            [
+              "Task and equipment",
+              "Operate wheel loader, 20 tonne class, site model"
+            ],
+            [
+              "Standard used",
+              "Unit of competency performance criteria plus site traffic management plan v4"
+            ],
+            [
+              "Prior evidence sighted",
+              "Statement of attainment in the relevant unit, sighted and copied"
+            ],
+            [
+              "Practical assessment",
+              "Prestart check, loading, travel, parking and shutdown observed; all criteria met"
+            ],
+            [
+              "Knowledge assessment",
+              "Hazards, site rules, emergency response: 10 questions, all answered satisfactorily"
+            ],
+            [
+              "Assessor and qualifications",
+              "B. Smith, TAEASS402 and current operator competence for this plant"
+            ],
+            [
+              "Outcome and conditions",
+              "Competent; periodic supervision for first two weeks on site"
+            ],
+            [
+              "Signatures and date",
+              "Assessor and worker signed, 22 September 2026"
+            ],
+            [
+              "Reverification",
+              "On change of plant model, after any incident involving the operator, or at the interval set in site procedure"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "supervision-and-reverification",
+      "heading": "How do supervision levels and reverification fit in?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Supervision levels bridge the gap between training and full independence, and reverification keeps the VOC current. The NSW Resources Regulator's material describes graded supervision, from direct supervision for operators with minimal experience, through periodic and minimal supervision, to no supervision once the operator is deemed competent, while still completing safety observations. It also notes that training logbooks can be used as evidence of VOC and of supervision."
+        },
+        {
+          "type": "p",
+          "text": "Reverification triggers commonly include a change in equipment, procedure, or site conditions; an incident or near miss; observed unsafe practice; and a long period without performing the task. Note that the OFSC fact sheet states that, for its audit criteria, refresher training is not required unless required by legislation or an RTO, or deemed necessary by the company. The interval is therefore usually a company decision, and should be written into your procedure and justified by risk."
+        }
+      ]
+    },
+    {
+      "id": "pitfalls",
+      "heading": "What makes a VOC weak as evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A VOC is weak when it lacks defined criteria, when the assessor is not competent, or when it is a signature without evidence. The OFSC fact sheet states that a letter signed by an employer or supervisor claiming a worker is competent will not, on its own, be accepted as evidence, nor will an assessment by someone without assessor competence or subject matter expertise in the plant."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Checklists that list topics but not observable criteria.",
+            "Assessing on equipment or in conditions unlike those on site.",
+            "Accepting prior licences without checking they cover the specific plant or task.",
+            "No reverification rule, so VOCs from years ago are treated as current.",
+            "Records held only on paper at a site office, with no central register."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines the competencies, performance criteria, and assessment points for a task in one framework with sources, so VOC tools, training content, and records can refer to the same standard. Hybrid programs can combine digital knowledge assessment with observed practical verification against those criteria."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is a high risk work licence the same as a VOC?",
+      "a": "No. A high risk work licence is issued by a state or territory regulator for specified work. A VOC is an assessment, often by the employer or principal contractor, that the person can perform the task on specific equipment in that workplace. The OFSC fact sheet treats a licence as acceptable evidence for its criteria, but many sites still verify site specific competence."
+    },
+    {
+      "q": "Can a VOC be done by a registered training organisation?",
+      "a": "Yes. Many organisations use RTOs to conduct VOCs, and the OFSC fact sheet treats an RTO issued statement of attainment for the relevant unit as acceptable evidence for its criteria. Some organisations use internal assessors who meet defined requirements instead, or a combination of both."
+    },
+    {
+      "q": "Does VOC apply outside construction and mining?",
+      "a": "The term is most common in plant and high risk work, but the method applies to any task where competence must be demonstrated rather than assumed, such as clinical procedures, laboratory techniques, or critical control room tasks. The same elements apply: defined standard, structured assessment, competent assessor, and recorded outcome."
+    },
+    {
+      "q": "How is VOC different from competency based training?",
+      "a": "Competency based training develops and assesses competence, often leading to a qualification. VOC confirms that a person, who may already hold a qualification or licence, can perform a particular task to your standard in your workplace. See [competency based training](/glossary/competency-based-training) for more."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fact Sheet: Verification of Competency: Mobile Plant",
+      "publisher": "Office of the Federal Safety Commissioner",
+      "url": "https://www.fsc.gov.au/sites/default/files/2021-09/Fact%20Sheet%20Verification%20of%20Competency%20-%20Mobile%20Plant.pdf"
+    },
+    {
+      "title": "Operating mobile plant verification of competency (VOC)",
+      "publisher": "NSW Resources Regulator",
+      "url": "https://www.resources.nsw.gov.au/sites/default/files/2024-05/operating-mobile-plant-verification-of-competency.pdf"
+    },
+    {
+      "title": "Work Health and Safety Act 2011",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/C2011A00137/latest/text"
+    },
+    {
+      "title": "Model WHS laws",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/model-whs-laws"
+    }
+  ],
+  "related": [
+    "verification-of-competency",
+    "how-to-design-competency-assessments",
+    "competency-assessment",
+    "completion-tracking-vs-competency-verification",
+    "whs-act-duty-to-provide-training",
+    "chain-of-responsibility-training-requirements"
+  ],
+  "productLinks": [
+    {
+      "label": "Hybrid verification programs",
+      "href": "/programs/hybrid-verification"
+    },
+    {
+      "label": "Energy and resources",
+      "href": "/industries/energy-resources"
+    },
+    {
+      "label": "Verification and trust",
+      "href": "/platform/verification-trust"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 5,
+  "factCheck": [
+    {
+      "claim": "OFSC Evidence Guide defines VoC as a method of documented evaluation of the skill level of a person against defined competency standards; fact sheet relates to Audit Criterion H16.8.",
+      "source": "https://www.fsc.gov.au/sites/default/files/2021-09/Fact%20Sheet%20Verification%20of%20Competency%20-%20Mobile%20Plant.pdf"
+    },
+    {
+      "claim": "OFSC: VoC performed by someone competent as an assessor (TAEASS402 or equivalent or higher) and holding necessary competence for the plant, or a team collectively; evidenced by a signed completed VoC assessment; employer letter alone not accepted; refresher training not required unless by legislation, RTO, or company.",
+      "source": "https://www.fsc.gov.au/sites/default/files/2021-09/Fact%20Sheet%20Verification%20of%20Competency%20-%20Mobile%20Plant.pdf"
+    },
+    {
+      "claim": "NSW Resources Regulator describes VOC, graded supervision levels, and use of training logbooks as evidence of VOC.",
+      "source": "https://www.resources.nsw.gov.au/sites/default/files/2024-05/operating-mobile-plant-verification-of-competency.pdf"
+    },
+    {
+      "claim": "WHS Act s19(3)(f): provision of information, training, instruction or supervision necessary to protect all persons from risks.",
+      "source": "https://www.legislation.gov.au/C2011A00137/latest/text"
+    }
+  ]
+}

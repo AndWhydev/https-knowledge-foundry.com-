@@ -1,0 +1,277 @@
+{
+  "slug": "how-to-maintain-version-control-for-training-content",
+  "kind": "guide",
+  "title": "How do you version control training content?",
+  "seoTitle": "Version control for training content",
+  "description": "How to version control training content: what to version, a numbering rule, change logs, approvals, effective dates, and linking each completion to a version.",
+  "shortAnswer": "To version control training content, give every content item, learning outcome set, and assessment a unique identifier and version number, apply a written rule for when the number changes, record each change with its reason, approver, and effective date, keep one editable source, archive every superseded version, and store the version number in each learner's completion record. That lets you show exactly what any person was taught and assessed on at any date.",
+  "keyTakeaways": [
+    "The purpose of version control in regulated training is traceability: proving what a person was taught and assessed on, at a given date.",
+    "Version the assessment and the learning outcomes as well as the content, because assessments produce the evidence.",
+    "A simple major, minor, and patch rule, adapted from software practice, tells people whether a change needs retraining.",
+    "Every completion record should store the version completed. Without it, targeted retraining and audit tracing are guesswork.",
+    "Archive superseded versions for at least as long as the records that point to them must be kept."
+  ],
+  "sections": [
+    {
+      "id": "why-version-control",
+      "heading": "Why does training content need version control?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training content needs version control because regulated organisations must often show what someone was trained on, not only that they were trained. If a course is edited in place, a completion from last year points to content that no longer exists in that form."
+        },
+        {
+          "type": "p",
+          "text": "Record keeping rules make this concrete. The Australian Securities and Investments Commission (ASIC) expects AFS licensees to keep a record of the training representatives have undertaken ([RG 104.82](https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations)). The Australian Skills Quality Authority (ASQA) [practice guide](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/compliance-standards-for-rtos/integrity-of-nationally-recognised-training-practice-guide) sets out the requirement for registered training organisations to retain records of all assessments submitted by a student for two years after completion of the training product. Neither says \"use version numbers\", but both are far easier to meet, and to evidence, when versions are controlled."
+        },
+        {
+          "type": "p",
+          "text": "The same discipline is expected of governance documents more generally. The Australian Institute of Company Directors (AICD), in its guidance on [reporting to the board](https://www.aicd.com.au/board-of-directors/roles/executive/Reporting-to-the-board.html), lists version control, meaning managing draft revisions and formalising final reports, and archival of audit trails among the protocols that uphold reporting quality. Training content that feeds compliance evidence deserves the same treatment."
+        },
+        {
+          "type": "p",
+          "text": "Version control also supports targeted retraining after a change; see [how to update training when a regulation changes](/guides/how-to-update-training-when-regulations-change). It is part of the broader [audit trail](/glossary/audit-trail) for training."
+        }
+      ]
+    },
+    {
+      "id": "what-to-version",
+      "heading": "What should be under version control?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Put anything under version control that shapes what a learner is taught or how they are judged. In practice that is six kinds of item."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Learning outcomes and the obligations they map to.",
+            "Source content: scripts, storyboards, slide decks, and text, in an editable format.",
+            "Published packages: SCORM, xAPI, or cmi5 packages and their manifests.",
+            "Assessments: item banks, marking guides, pass marks, and observation checklists.",
+            "Performance support: job aids and quick reference guides linked from training.",
+            "The training matrix or assignment rules that decide who gets which version."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Packaged formats such as [SCORM](/glossary/scorm) bundle content and tracking into one file, which makes it tempting to treat the package as the master copy. Keep the editable source as the master and treat each package as a build of a specific version. When AI tools help draft or revise content, record that in the change log too, as described in [how to govern AI generated learning content](/guides/how-to-govern-ai-generated-learning-content)."
+        }
+      ]
+    },
+    {
+      "id": "numbering-rule",
+      "heading": "What numbering rule should you use?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use a three part number, major.minor.patch, with a written rule for each part tied to whether learners need to be retrained. The pattern is adapted from [Semantic Versioning](https://semver.org/), a software convention in which, given a version number MAJOR.MINOR.PATCH, the major number increases for incompatible changes, the minor for backward compatible additions, and the patch for backward compatible fixes. The training adaptation below is original."
+        },
+        {
+          "type": "table",
+          "caption": "Version numbering rule for training content",
+          "head": [
+            "Change type",
+            "Example",
+            "Increment",
+            "Retrain people on earlier version?",
+            "Approval"
+          ],
+          "rows": [
+            [
+              "Change to a rule, threshold, procedure step, or learning outcome",
+              "Escalation threshold changes; new obligation added",
+              "Major (2.4.1 to 3.0.0)",
+              "Yes, delta training at minimum",
+              "Content owner and compliance"
+            ],
+            [
+              "Added material that does not change existing rules",
+              "New example scenario; extra practice items",
+              "Minor (2.4.1 to 2.5.0)",
+              "No, unless the addition covers a known gap",
+              "Content owner"
+            ],
+            [
+              "Correction with no change in meaning",
+              "Typo, broken link, updated screenshot with the same steps",
+              "Patch (2.4.1 to 2.4.2)",
+              "No",
+              "Content owner"
+            ],
+            [
+              "Assessment pass mark or marking guide change",
+              "Pass mark raised from 70 to 80 percent",
+              "Major for the assessment",
+              "Consider reassessment",
+              "Content owner and compliance"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "heading": "What is the step by step method to set it up?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Set up version control once, then run the same short routine for every change."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Assign identifiers.** Give every item a permanent ID that does not change between versions. Output: an item register.",
+            "**Choose the source of truth.** Decide where the editable source lives and forbid editing published packages directly. Output: a documented storage rule.",
+            "**Adopt the numbering rule.** Publish it, with examples, in your content standards. Output: the numbering rule.",
+            "**Create the change log.** One entry per version: ID, version, date, author, summary of change, reason, obligation affected, approver, effective date. Output: a change log template (below).",
+            "**Link versions to records.** Configure the learning system, or a companion register, to store the version on each completion and assessment record. Output: a tested record field.",
+            "**Archive superseded versions.** Keep each published version and its assessment, read only, for at least the retention period of the records that point to it. Output: an archive with an index.",
+            "**Review the process.** Check a sample of changes each quarter for missing log entries or unapproved edits. Output: a short review note."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "change-log-template",
+      "heading": "What does a good change log entry look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A good entry lets a reviewer understand the change without opening either version. The example below is illustrative."
+        },
+        {
+          "type": "table",
+          "caption": "Change log entry (illustrative)",
+          "head": [
+            "Field",
+            "Entry"
+          ],
+          "rows": [
+            [
+              "Item ID and title",
+              "CMP-017 Handling customer complaints"
+            ],
+            [
+              "Version",
+              "3.0.0 (from 2.4.2)"
+            ],
+            [
+              "Summary of change",
+              "Updated response timeframe step and two scenarios to match revised complaints procedure"
+            ],
+            [
+              "Reason",
+              "Internal complaints procedure revised; procedure document version 5"
+            ],
+            [
+              "Obligation affected",
+              "Internal dispute resolution obligations, per obligations register entry 42"
+            ],
+            [
+              "Assessment impact",
+              "Items 4 and 7 replaced; pass mark unchanged"
+            ],
+            [
+              "Retraining decision",
+              "Delta module assigned to all staff who completed 2.x"
+            ],
+            [
+              "Approved by and date",
+              "Complaints manager and compliance manager, 2 September 2026"
+            ],
+            [
+              "Effective date",
+              "15 September 2026"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry versions the knowledge framework itself, including concepts, outcomes, assessment points, and their sources, so content and assessments inherit a traceable lineage. Changes to a source can be followed to the outcomes and items that depend on it."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can our learning management system handle version control?",
+      "a": "Many systems keep some version history for uploaded packages, but capabilities vary and some overwrite earlier versions on upload. Test whether yours stores the version on each completion record and keeps superseded packages retrievable. If not, keep a companion register and archive outside the system."
+    },
+    {
+      "q": "Do minor wording changes need a new version?",
+      "a": "Yes, a patch version. The cost is small and it keeps the rule simple: any published change gets a new number and a log entry. The numbering tells people the change does not require retraining."
+    },
+    {
+      "q": "How long should old versions be kept?",
+      "a": "At least as long as the records that refer to them must be kept, and longer if they could be relevant to a claim or investigation. Set the period in your records policy with advice from legal or records management."
+    },
+    {
+      "q": "Should learners see the version number?",
+      "a": "It helps. Showing the version and effective date on the first screen and on certificates lets learners, supervisors, and auditors confirm which version was completed without querying the system."
+    }
+  ],
+  "sources": [
+    {
+      "title": "RG 104 AFS licensing: Meeting the general obligations",
+      "publisher": "Australian Securities and Investments Commission",
+      "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations"
+    },
+    {
+      "title": "Integrity of Nationally Recognised Training Practice Guide",
+      "publisher": "Australian Skills Quality Authority",
+      "url": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/compliance-standards-for-rtos/integrity-of-nationally-recognised-training-practice-guide"
+    },
+    {
+      "title": "Semantic Versioning 2.0.0",
+      "publisher": "semver.org",
+      "url": "https://semver.org/"
+    },
+    {
+      "title": "Reporting to the Board",
+      "publisher": "Australian Institute of Company Directors",
+      "url": "https://www.aicd.com.au/board-of-directors/roles/executive/Reporting-to-the-board.html"
+    }
+  ],
+  "related": [
+    "how-to-prepare-training-records-for-an-audit",
+    "how-to-update-training-when-regulations-change",
+    "audit-trail",
+    "scorm",
+    "how-to-govern-ai-generated-learning-content"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 6,
+  "factCheck": [
+    {
+      "claim": "RG 104.82(d): ASIC expects licensees to maintain a record of training representatives have undertaken.",
+      "source": "https://download.asic.gov.au/media/av3fovx5/rg104-published-23-june-2022-20260310.pdf"
+    },
+    {
+      "claim": "RTOs must retain records of all assessments submitted by a VET student for two years after completion of the training product.",
+      "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/compliance-standards-for-rtos/integrity-of-nationally-recognised-training-practice-guide"
+    },
+    {
+      "claim": "Semantic Versioning: given MAJOR.MINOR.PATCH, increment MAJOR for incompatible changes, MINOR for backward compatible functionality, PATCH for backward compatible bug fixes.",
+      "source": "https://semver.org/"
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "slug": "how-to-set-mandatory-training-refresh-cycles",
+  "kind": "guide",
+  "title": "How often should mandatory training be refreshed?",
+  "seoTitle": "Mandatory training refresh cycles",
+  "description": "How often mandatory training should be refreshed: where Australian sources set a frequency, and how to set a risk based cycle where none do.",
+  "shortAnswer": "Mandatory training should be refreshed at the frequency a law, standard, or regulator sets where one exists, such as annual cyber security awareness training under the Information Security Manual. Where no source sets a frequency, which is common, set the cycle on risk: the consequence of error, how often the task is performed, how quickly the rules change, and what assessment and incident data show. Add event triggers so changes prompt retraining between cycles.",
+  "keyTakeaways": [
+    "Only some frameworks set a refresh frequency. Many require training to be suitable, adequate, or ongoing without naming an interval.",
+    "Where a frequency is set, record the exact source and wording. Where it is not, record the risk rationale for the cycle you chose.",
+    "Risk factors for a cycle include consequence of error, how often the skill is used, rate of change, and evidence from assessments and incidents.",
+    "Event triggers (a changed rule, procedure, system, or an incident) often matter more than the calendar.",
+    "Different roles can have different cycles for the same topic. AUSTRAC's examples show that approach, while noting they are examples only."
+  ],
+  "sections": [
+    {
+      "id": "is-there-a-rule",
+      "heading": "Is there a legal rule for how often training must be refreshed?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "There is no general Australian rule. A refresh frequency applies only where a specific law, standard, code, or regulator sets one for a specific group, and many regimes instead require training that is suitable, adequate, or ongoing without naming an interval. Treat any stated frequency as applying only to the population and topic its source covers."
+        },
+        {
+          "type": "p",
+          "text": "For example, the model Work Health and Safety (WHS) Regulations require training to be suitable and adequate having regard to the work, the risks \"at the time the information, training or instruction is provided\", and the control measures in place, but they do not set a general interval ([model WHS Regulations r39](https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf)). The PIC/S Guide to GMP asks for continuing training whose practical effectiveness is \"periodically assessed\", again without an interval ([TGA, PE009-16 Part I, clause 2.11](https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf))."
+        }
+      ]
+    },
+    {
+      "id": "where-set",
+      "heading": "Where do Australian sources set a frequency?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The table lists frequencies confirmed against the primary source for this guide, as at September 2026. It is a sample, not a complete register; check the instruments that apply to your organisation."
+        },
+        {
+          "type": "table",
+          "caption": "Examples of refresh frequencies set by primary sources",
+          "head": [
+            "Source",
+            "Applies to",
+            "What it sets",
+            "Status of the wording"
+          ],
+          "rows": [
+            [
+              "Information Security Manual, ISM-0252",
+              "Organisations applying the ISM, including Australian Government entities",
+              "Cyber security awareness training undertaken annually by all personnel",
+              "Control"
+            ],
+            [
+              "Information Security Manual, ISM-1565",
+              "Personnel with privileged access to systems",
+              "Tailored privileged user training undertaken annually",
+              "Control"
+            ],
+            [
+              "Protective Security Policy Framework Release 2026, Requirement 0024",
+              "Commonwealth entities that apply the PSPF",
+              "Security awareness training at engagement and annually thereafter, including contractors",
+              "Requirement"
+            ],
+            [
+              "Privacy (Australian Government Agencies: Governance) APP Code 2017, s16(2)",
+              "Australian Government agencies",
+              "Reasonable steps to provide privacy training annually to staff with access to personal information",
+              "Binding code obligation"
+            ],
+            [
+              "Corporations (Relevant Providers Continuing Professional Development Standard) Determination 2018, as described by ASIC",
+              "Relevant providers (financial advisers)",
+              "Minimum of 40 hours of CPD each year, or 36 hours if part time for the whole year with licensee consent",
+              "Legislative standard"
+            ],
+            [
+              "Model Code of Practice: First aid in the workplace",
+              "Workplaces in jurisdictions that have adopted the model code",
+              "Refresher training in CPR annually; first aid qualifications renewed every three years",
+              "Code of practice guidance (\"should\")"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Sources: [ASD ISM personnel security guidelines](https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security), [PSPF Release 2026](https://www.protectivesecurity.gov.au/system/files/2026-07/pspf-release-2026_6.pdf), [APP Code](https://www.oaic.gov.au/__data/assets/pdf_file/0019/2872/privacy-australian-government-agencies-governance-app-code-2017.pdf), [ASIC CPD](https://www.asic.gov.au/regulatory-resources/financial-services/financial-advice/professional-standards/continuing-professional-development-cpd), [Safe Work Australia first aid code](https://www.safeworkaustralia.gov.au/sites/default/files/2021-10/code_of_practice_-_first_aid_in_the_workplace_July%202019.pdf). See also [ISM awareness training](/regulations/ism-cyber-security-awareness-training) and [PSPF security awareness training](/regulations/pspf-security-awareness-training)."
+        },
+        {
+          "type": "callout",
+          "title": "Examples are not requirements",
+          "text": "AUSTRAC gives example ongoing training frequencies, such as every 6 to 12 months for AML/CTF compliance officers and senior management and every 12 months for customer facing personnel, and states that \"these are examples only, and the frequency you deliver training must be appropriate to your business\" ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training)). Treat regulator examples as a reference point for your risk assessment, not as a rule."
+        }
+      ]
+    },
+    {
+      "id": "risk-factors",
+      "heading": "How do you set a refresh cycle when no source sets one?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Set the cycle by assessing risk factors for each topic and role, choosing an interval that matches the result, and recording why. The factors below are the ones most often used; weight them to suit your risk framework."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Consequence of error.** How serious is the harm if someone gets this wrong: to people, customers, the organisation, or its licence?",
+            "**Frequency of use.** Skills used daily are practised at work. Skills used rarely, such as emergency response or unusual transaction reporting, fade and need more frequent practice.",
+            "**Rate of change.** How often do the underlying law, policy, procedure, or system change?",
+            "**Evidence of performance.** Assessment results, audit findings, errors, complaints, and incidents show whether current knowledge is holding.",
+            "**Role exposure.** People who make the relevant decisions need shorter cycles than those who only need awareness."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does a risk based refresh cycle look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A risk based cycle rates each topic and role on the factors above and maps the result to an interval and a method. The example is illustrative only: topics, ratings, and intervals are invented to show the method and are not recommendations for any regime."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative risk based refresh matrix",
+          "head": [
+            "Topic and role",
+            "Consequence",
+            "Frequency of use",
+            "Rate of change",
+            "Resulting cycle and method"
+          ],
+          "rows": [
+            [
+              "Escalating suspicious transactions: front line staff",
+              "High",
+              "Low",
+              "Medium",
+              "12 months, scenario practice; plus event triggers"
+            ],
+            [
+              "Escalating suspicious transactions: compliance analysts",
+              "High",
+              "High",
+              "Medium",
+              "Ongoing supervision and quality review; formal refresh every 12 months or on change"
+            ],
+            [
+              "Complaints handling basics: all customer facing staff",
+              "Medium",
+              "High",
+              "Low",
+              "24 months awareness refresh; targeted refresh when complaint data shows issues"
+            ],
+            [
+              "Evacuation procedure: all staff on site",
+              "High",
+              "Very low",
+              "Low",
+              "12 months with a drill; on any change to the site or procedure"
+            ],
+            [
+              "Code of conduct: all staff",
+              "Medium",
+              "Medium",
+              "Low",
+              "24 months, with annual attestation"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Where a topic is also covered by a set frequency, such as annual security awareness under the ISM, the set frequency is a floor. The risk method can shorten it for some roles but not lengthen it."
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "heading": "What are the steps to set and maintain refresh cycles?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Identify set frequencies, assess risk for everything else, add event triggers, then document and review. Each step has an output that becomes part of your training policy or matrix."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**List mandatory topics by role.** Use your [training matrix](/guides/how-to-build-a-training-matrix). Output: topic by role list.",
+            "**Find set frequencies.** For each topic, check the instruments that apply and record the exact wording and source. Output: a register of set frequencies with citations.",
+            "**Assess risk for the rest.** Rate each topic and role on the risk factors. Output: a risk rating per cell.",
+            "**Choose intervals and methods.** Map ratings to intervals and to a method: full course, short refresher, scenario practice, drill, or assessment only. Output: a refresh schedule.",
+            "**Define event triggers.** List the changes that require retraining before the next cycle: new or amended law, policy, procedure, or system; an incident or audit finding; a role change. Output: a trigger list with owners.",
+            "**Allow assessment first where suitable.** For stable topics, let people take the assessment first and complete the refresher only if they do not meet the standard. Output: a test out rule.",
+            "**Document the rationale.** Record the reasons in the [training policy](/guides/how-to-write-a-training-policy). Output: an approved policy section.",
+            "**Review with data.** At least annually, compare assessment and incident data against the cycles and adjust. Output: review minutes and changes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "event-triggers",
+      "heading": "When should training be refreshed outside the normal cycle?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Refresh outside the cycle whenever the knowledge the training teaches has changed or has been shown not to hold. A calendar cycle alone can leave people working to a superseded rule for most of a year."
+        },
+        {
+          "type": "p",
+          "text": "The WHS test of suitability at the time training is provided supports this: when risks or controls change, earlier training may no longer be adequate. AUSTRAC says it expects entities to consider updating and providing AML/CTF training \"as soon as practicable\" in response to changes to AML/CTF laws, new and emerging risks, changes to their AML/CTF program, and review findings that indicate training gaps ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training)). See [how to update training when a regulation changes](/guides/how-to-update-training-when-regulations-change)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each outcome to the sources it depends on, so a change to a source can identify the people and outcomes that need retraining rather than triggering a full cycle for everyone. Set frequencies and risk rationale can be recorded against the obligation they come from. The [knowledge governance](/platform/knowledge-governance) page describes this."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is annual compliance training a legal requirement in Australia?",
+      "a": "Only where a specific instrument says so for a specific group, such as annual cyber security awareness under ISM-0252 or annual security awareness under PSPF Requirement 0024. Many other regimes require suitable or ongoing training without a set interval. Annual cycles are common practice, but practice is not the same as a legal requirement."
+    },
+    {
+      "q": "Can staff skip refresher training if they pass an assessment?",
+      "a": "Where no source prescribes the training itself, a test out approach is often defensible: people who meet the standard on a well designed assessment have shown the knowledge is current. Where a source requires the training to be undertaken at a frequency, check whether an assessment alone would satisfy that wording."
+    },
+    {
+      "q": "Should every role have the same refresh cycle for a topic?",
+      "a": "Not necessarily. Roles that make the relevant decisions often need shorter cycles and deeper practice than roles that only need awareness. AUSTRAC's examples, for instance, suggest different intervals for compliance officers, customer facing staff, and other personnel, while stressing they are examples only."
+    },
+    {
+      "q": "How do we evidence the rationale for our refresh cycles?",
+      "a": "Record, for each topic and role, any set frequency with its citation, or the risk ratings and the reasoning for the interval chosen. Keep this in the training policy or matrix, approve it through governance, and record each review. Auditors look for a considered, current rationale rather than a particular interval."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Information Security Manual: Guidelines for personnel security",
+      "publisher": "Australian Signals Directorate",
+      "url": "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security"
+    },
+    {
+      "title": "Protective Security Policy Framework Release 2026",
+      "publisher": "Department of Home Affairs",
+      "url": "https://www.protectivesecurity.gov.au/system/files/2026-07/pspf-release-2026_6.pdf"
+    },
+    {
+      "title": "Privacy (Australian Government Agencies: Governance) APP Code 2017",
+      "publisher": "Office of the Australian Information Commissioner",
+      "url": "https://www.oaic.gov.au/__data/assets/pdf_file/0019/2872/privacy-australian-government-agencies-governance-app-code-2017.pdf"
+    },
+    {
+      "title": "Continuing professional development (CPD)",
+      "publisher": "Australian Securities and Investments Commission",
+      "url": "https://www.asic.gov.au/regulatory-resources/financial-services/financial-advice/professional-standards/continuing-professional-development-cpd"
+    },
+    {
+      "title": "Model Code of Practice: First aid in the workplace",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2021-10/code_of_practice_-_first_aid_in_the_workplace_July%202019.pdf"
+    },
+    {
+      "title": "AML/CTF training",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    },
+    {
+      "title": "Model Work Health and Safety Regulations (5 December 2025)",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
+    },
+    {
+      "title": "PIC/S Guide to GMP PE009-16, Part I: Basic requirements for medicinal products",
+      "publisher": "Therapeutic Goods Administration",
+      "url": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
+    }
+  ],
+  "related": [
+    "financial-adviser-education-and-cpd-requirements",
+    "how-to-build-a-training-matrix",
+    "food-safety-standard-3-2-2a-training",
+    "how-to-reduce-compliance-training-fatigue",
+    "ism-cyber-security-awareness-training",
+    "pspf-security-awareness-training"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 1,
+  "factCheck": [
+    {
+      "claim": "ISM-0252: cyber security awareness training is undertaken annually by all personnel; ISM-1565: tailored privileged user training undertaken annually by all personnel with privileged access; ISM-2022: a cyber security awareness training register is maintained.",
+      "source": "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security"
+    },
+    {
+      "claim": "PSPF Release 2026 Requirement 0024: security awareness training is provided to personnel, including contractors, at engagement and annually thereafter; Requirement 0025: targeted security training for specialist or high-risk positions.",
+      "source": "https://www.protectivesecurity.gov.au/system/files/2026-07/pspf-release-2026_6.pdf"
+    },
+    {
+      "claim": "Australian Government Agencies Privacy Code s16: privacy education or training in any staff induction program, and reasonable steps to provide it annually to staff with access to personal information.",
+      "source": "https://www.oaic.gov.au/__data/assets/pdf_file/0019/2872/privacy-australian-government-agencies-governance-app-code-2017.pdf"
+    },
+    {
+      "claim": "Relevant providers must complete a minimum of 40 hours of CPD each year (36 if part time with licensee consent), under the CPD Standard Determination 2018.",
+      "source": "https://www.asic.gov.au/regulatory-resources/financial-services/financial-advice/professional-standards/continuing-professional-development-cpd"
+    },
+    {
+      "claim": "Model Code of Practice First aid in the workplace: refresher training in CPR should be carried out annually and first aid qualifications renewed every three years.",
+      "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2021-10/code_of_practice_-_first_aid_in_the_workplace_July%202019.pdf"
+    },
+    {
+      "claim": "AUSTRAC gives example ongoing training frequencies (compliance officers and senior management every 6 to 12 months; customer facing and enhanced CDD roles every 12 months; vendors at onboarding and contract renewal; other personnel at onboarding) and says they are examples only and frequency must be appropriate to the business.",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    },
+    {
+      "claim": "AUSTRAC expects entities to consider updating and providing AML/CTF training as soon as practicable in response to law changes, new and emerging ML/TF risks, program changes, and review findings indicating training gaps.",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    },
+    {
+      "claim": "Model WHS Regulations r39(2): information, training and instruction must be suitable and adequate having regard to the nature of the work, the risks at the time it is provided, and the control measures implemented; r39(3): provided in a way that is readily understandable.",
+      "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
+    },
+    {
+      "claim": "PIC/S GMP Part I clauses 2.10 and 2.11: training for personnel whose duties take them into production, storage or control laboratories; newly recruited personnel trained for their duties; continuing training with practical effectiveness periodically assessed; training records kept.",
+      "source": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
+    }
+  ]
+}

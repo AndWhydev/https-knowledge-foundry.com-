@@ -1,0 +1,402 @@
+{
+  "slug": "tga-gmp-personnel-training-requirements",
+  "kind": "regulation",
+  "title": "What does GMP (PIC/S) require for personnel training in Australia?",
+  "seoTitle": "TGA GMP personnel training (PIC/S)",
+  "description": "What the PIC/S Guide to GMP, as adopted by the TGA, requires for personnel training: who must be trained, approved programs, effectiveness checks and records.",
+  "shortAnswer": "In Australia, medicine, active pharmaceutical ingredient and sunscreen manufacturers must follow the PIC/S Guide to Good Manufacturing Practice (PE009-17), adopted by the Therapeutic Goods Administration (TGA) from 1 September 2025. Chapter 2 requires initial and continuing training for everyone whose work could affect product quality, training programs approved by the head of Production or Quality Control, periodic assessment of practical effectiveness, and kept training records.",
+  "keyTakeaways": [
+    "The TGA's Manufacturing Principles adopt the PIC/S Guide to GMP PE009-17 (except Annexes 4, 5 and 14) from 1 September 2025, made under section 36 of the Therapeutic Goods Act 1989.",
+    "Paragraphs 2.10 to 2.14 of Part I cover training: who must be trained, induction and continuing training, approved programs, effectiveness checks, specific training for contamination hazard areas, and records.",
+    "Training is judged on practical effectiveness, not attendance: the guide says effectiveness \"should be periodically assessed\".",
+    "Sterile manufacturers face stricter rules under the revised Annex 1, including gowning qualification reassessed at least annually; the TGA's transition period for the main Annex 1 changes ended on 1 March 2026.",
+    "Blood, tissue and cellular therapy manufacturers follow a separate Australian Code of GMP with near identical training clauses."
+  ],
+  "jurisdiction": "Australia (Commonwealth)",
+  "regulator": "Therapeutic Goods Administration (TGA)",
+  "appliesTo": [
+    "Australian licensed manufacturers of medicines, active pharmaceutical ingredients (APIs) and therapeutic sunscreens",
+    "Manufacturers of sterile medicines and APIs (Annex 1)",
+    "Manufacturers of blood, blood components, human tissues and cellular therapy products (Australian Code of GMP)",
+    "Heads of Production, Quality Control and Quality Assurance, and training and quality managers at these sites"
+  ],
+  "sections": [
+    {
+      "id": "which-gmp-rules-apply",
+      "heading": "Which GMP rules apply in Australia as at September 2026?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "As at September 2026, Australian manufacturers of medicines, APIs and sunscreens must observe the PIC/S Guide to GMP for Medicinal Products (PE009-17, 25 August 2023), excluding Annexes 4, 5 and 14. The TGA adopted this version on 1 September 2025, replacing PE009-16, which had applied since 3 June 2024 ([TGA regulatory decision notice](https://www.tga.gov.au/news/regulatory-decision-notices/planned-update-manufacturing-principles-medicines-apis-and-sunscreens))."
+        },
+        {
+          "type": "p",
+          "text": "The legal chain runs as follows. **Section 36** of the [Therapeutic Goods Act 1989](https://www.legislation.gov.au/C2004A03952/latest/text) lets the Minister determine manufacturing principles, which may relate to \"the qualifications and experience required of persons employed in the manufacture of therapeutic goods\" (s 36(2)(c)) and may include codes of good manufacturing practice. **Section 40(4)(a)(ii)** makes observing those principles a standard condition of every manufacturing licence. The [Therapeutic Goods (Manufacturing Principles) Determination 2020](https://www.legislation.gov.au/F2020L00864/latest/text), in its compilation from 1 September 2025, defines the PIC/S Guide to GMP as PE009-17."
+        },
+        {
+          "type": "table",
+          "caption": "GMP instruments that set training expectations in Australia, as at September 2026",
+          "head": [
+            "Product type",
+            "GMP standard",
+            "Where training is covered"
+          ],
+          "rows": [
+            [
+              "Finished medicines and sunscreens",
+              "PIC/S Guide to GMP PE009-17, Part I",
+              "Chapter 2, paragraphs 2.10 to 2.14 (training) and 2.15 to 2.22 (hygiene)"
+            ],
+            [
+              "Active pharmaceutical ingredients",
+              "PIC/S Guide to GMP PE009-17, Part II",
+              "Section 3.1, paragraphs 3.10 to 3.12"
+            ],
+            [
+              "Sterile medicines and sterile APIs",
+              "PE009-17, Annex 1 (in addition to Part I or II)",
+              "Section 7, paragraphs 7.1 to 7.18"
+            ],
+            [
+              "Blood, blood components, human tissues and cellular therapy products",
+              "Australian Code of GMP (Version 1.0, April 2013)",
+              "Personnel and training, clauses 200 to 214"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Note on PE009-18",
+          "text": "PIC/S published PE009-18 with an entry into force date of 24 September 2026. It revises only Annex 19 (reference and retention samples), so the personnel and training text is unchanged. As at September 2026 the Australian Manufacturing Principles still name PE009-17. Check the TGA's regulatory decision notices before assuming any later version applies."
+        }
+      ]
+    },
+    {
+      "id": "who-must-be-trained",
+      "heading": "Who must be trained under the PIC/S Guide to GMP?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Everyone whose work could affect product quality must be trained, not only production operators. Paragraph 2.10 of Part I requires training for \"all the personnel whose duties take them into production and storage areas or into control laboratories (including the technical, maintenance and cleaning personnel), and for other personnel whose activities could affect the quality of the product\" ([PIC/S Guide to GMP, Part I](https://picscheme.org/docview/11332))."
+        },
+        {
+          "type": "p",
+          "text": "The Chapter 2 principle sets the baseline: all personnel \"should be aware of the principles of Good Manufacturing Practice that affect them and receive initial and continuing training, including hygiene instructions, relevant to their needs.\" In practice, the population usually includes warehouse staff, engineering and maintenance contractors, cleaners, quality control analysts, quality assurance reviewers and anyone who approves or signs GMP records."
+        },
+        {
+          "type": "p",
+          "text": "Paragraph 2.13 covers visitors and untrained staff: they should preferably not enter production and quality control areas and, if unavoidable, should be briefed in advance on personal hygiene and protective clothing and closely supervised. Paragraph 2.23 requires consultants to have adequate education, training and experience for the subject they advise on, with records of their name, address, qualifications and type of service."
+        }
+      ]
+    },
+    {
+      "id": "what-training-must-cover",
+      "heading": "What does the training have to cover?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training must cover the Pharmaceutical Quality System and GMP in general, plus the specific duties each person performs. Paragraph 2.11 requires basic training on \"the theory and practice of the Pharmaceutical Quality System and Good Manufacturing Practice\" and, for new starters, training \"appropriate to the duties assigned to them\"."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Role specific training (2.11):** the procedures, equipment and records each person uses.",
+            "**Contamination hazard areas (2.12):** specific training for clean areas and areas handling highly active, toxic, infectious or sensitising materials.",
+            "**Quality system understanding (2.14):** the Pharmaceutical Quality System and measures to improve its understanding and implementation should be \"fully discussed during the training sessions\".",
+            "**Hygiene (2.15):** hygiene programs covering health, hygiene practices and clothing, understood and followed \"in a very strict way\" and widely discussed in training.",
+            "**Procedures (1.8):** among the basic requirements of GMP, procedures are carried out correctly and operators are trained to do so."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For API manufacture, Part II paragraph 3.12 requires training \"regularly conducted by qualified individuals\" covering at a minimum the operations the employee performs and GMP as it relates to their functions, with records kept and training periodically assessed ([PIC/S Guide to GMP, Part II](https://picscheme.org/docview/11334))."
+        }
+      ]
+    },
+    {
+      "id": "who-approves-and-owns-training",
+      "heading": "Who approves and is accountable for GMP training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training programs must be approved by the head of Production or the head of Quality Control, as appropriate (paragraph 2.11). Each of those heads is responsible for ensuring \"the required initial and continuing training\" of their department is carried out and adapted according to need (paragraphs 2.7(vi) and 2.8(vii))."
+        },
+        {
+          "type": "p",
+          "text": "Paragraph 2.9 lists training among the responsibilities shared by the heads of Production, Quality Control and, where one exists, Quality Assurance. Above them, paragraph 2.1 requires senior management to provide adequate resources to implement and maintain the Pharmaceutical Quality System. For a training function, this means the approval of each curriculum should be traceable to a named department head, not only to the learning team."
+        }
+      ]
+    },
+    {
+      "id": "effectiveness-and-records",
+      "heading": "How must training effectiveness and records be evidenced?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The guide requires that the practical effectiveness of training is periodically assessed and that training records are kept. Paragraph 2.11 states: \"Continuing training should also be given, and its practical effectiveness should be periodically assessed.\""
+        },
+        {
+          "type": "p",
+          "text": "Chapter 4 (Documentation) reinforces this. Paragraph 4.29 lists \"personnel matters including signature lists, training in GMP and technical matters, clothing and hygiene and verification of the effectiveness of training\" as matters needing written policies, procedures and records. Paragraph 5.21(x), on cross contamination controls, lists \"supervision of working behaviour to ensure training effectiveness\". The guide does not prescribe a method, so the manufacturer must define one and apply it consistently, usually through [verification of competency](/glossary/verification-of-competency) such as observed task performance, not attendance alone."
+        },
+        {
+          "type": "p",
+          "text": "The blood and tissue code is more explicit: clause 212 states that records \"should demonstrate that each staff member is trained and competent for the work practices they are authorised to perform\" ([Australian Code of GMP](https://www.tga.gov.au/sites/default/files/manuf-cgmp-human-blood-tissues-2013.pdf)). Many medicine manufacturers apply the same test when [preparing training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
+        }
+      ]
+    },
+    {
+      "id": "sterile-manufacturing-annex-1",
+      "heading": "What extra training does Annex 1 require for sterile manufacturing?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The revised Annex 1 adds qualification based training for anyone working in or accessing cleanrooms. Paragraph 7.3 requires all personnel, including cleaning, maintenance and monitoring staff, to receive \"regular training, gowning qualification and assessment\", including basic microbiology and hygiene, with the level of training based on the criticality of the function and area ([PIC/S Guide to GMP, Annexes](https://picscheme.org/docview/11333))."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Gowning qualification (7.4):** staff accessing grade A and B areas are trained in aseptic gowning and behaviour, with compliance confirmed by assessment and periodic reassessment at least annually, using both visual and microbial assessment.",
+            "**Unsupervised access (7.4):** restricted to personnel who have passed the gowning assessment and participated in a successful aseptic process simulation (APS).",
+            "**Unqualified personnel (7.5):** should not enter grade B cleanrooms or grade A in operation except under a written procedure and supervision.",
+            "**Disqualification (7.6):** systems to disqualify personnel based on ongoing assessment, adverse monitoring trends or a failed APS, with retraining and requalification before return.",
+            "**Observation (8.19):** aseptic operations, including APS, observed regularly by personnel with aseptic processing expertise to verify correct operator behaviour."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The TGA allowed a transition period from 1 September 2025 to 1 March 2026 for the most significant Annex 1 changes, with a staged plan that included commencing staff training on updated clauses. Compliance with all other changes was expected from 1 September 2025 ([TGA transition guide](https://www.tga.gov.au/sites/default/files/2025-08/transition-new-gmp-requirements-medicinal-products.pdf)). Full implementation has been expected since 1 March 2026."
+        }
+      ]
+    },
+    {
+      "id": "obligation-to-evidence-map",
+      "heading": "How can GMP training obligations be mapped to learning outcomes and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A practical approach is to map each GMP paragraph to a measurable learning outcome and the evidence an inspector would accept. The table below is an illustrative starting point for a finished dose manufacturer, not TGA guidance; adapt it to your own procedures and [training matrix](/glossary/training-matrix)."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: PIC/S GMP paragraph to learning outcome to assessment evidence",
+          "head": [
+            "GMP paragraph",
+            "Example learning outcome",
+            "Assessment evidence"
+          ],
+          "rows": [
+            [
+              "Part I 2.10 (who is trained)",
+              "Training population defined for every role entering production, storage or laboratories, including contractors and cleaners",
+              "Role to curriculum matrix approved by department heads; contractor induction records"
+            ],
+            [
+              "Part I 2.11 (induction and role training)",
+              "New starter explains PQS and GMP basics and performs assigned procedures to specification",
+              "Knowledge check on PQS and GMP; observed performance of each assigned SOP signed by a qualified assessor"
+            ],
+            [
+              "Part I 2.11 (effectiveness)",
+              "Operator continues to perform critical tasks correctly after training",
+              "Periodic observation records; deviation and CAPA trends reviewed against training"
+            ],
+            [
+              "Part I 2.12 (contamination hazards)",
+              "Operator applies containment and contamination controls for the materials handled",
+              "Area specific training record; practical assessment in the relevant area"
+            ],
+            [
+              "Part I 2.15 to 2.21 (hygiene)",
+              "Person follows health reporting, gowning and hand washing procedures",
+              "Hygiene training record; health declaration; gowning observation"
+            ],
+            [
+              "Annex 1, 7.4 (gowning qualification)",
+              "Operator gowns aseptically and maintains aseptic behaviour in grade A and B areas",
+              "Visual and microbial gowning assessment at least annually; APS participation record"
+            ],
+            [
+              "Annex 1, 7.6 (disqualification)",
+              "Site removes and requalifies operators when monitoring or APS results require it",
+              "Disqualification and requalification log linked to personnel monitoring data"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Building the matrix from approved [standard operating procedures](/glossary/standard-operating-procedure) keeps training aligned when a procedure changes. The same logic underpins [turning SOPs into training](/guides/how-to-convert-sops-into-training)."
+        }
+      ]
+    },
+    {
+      "id": "readiness-checklist",
+      "heading": "What should a GMP training system have in place before inspection?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A site should be able to show, for any person and any GMP task, that the person was trained, assessed and authorised before doing the task. This checklist summarises the paragraphs above."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "A defined training population covering production, storage, laboratories, engineering, cleaning and contractors (2.10).",
+            "Written training programs approved by the head of Production or Quality Control (2.11).",
+            "Induction covering the Pharmaceutical Quality System, GMP and hygiene, plus role specific training (2.11, 2.14, 2.15).",
+            "Specific training for contamination hazard areas, and gowning qualification for sterile areas (2.12, Annex 1 7.3 to 7.4).",
+            "A documented method for periodically assessing practical effectiveness (2.11, 4.29).",
+            "Training records linked to authorisation to perform tasks and sign records (2.11, 4.29).",
+            "A change control link so that revised SOPs trigger retraining before the revised procedure is used."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Item 7 is good practice rather than a quoted paragraph, but it is the most common way training falls out of step with procedures between inspections."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models each GMP paragraph, SOP and role as linked concepts with defined assessment points, before training content is written. When a procedure or the adopted PIC/S version changes, the affected roles, outcomes and assessments are identified from the framework, which gives quality leaders a traceable record for inspection."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the PIC/S Guide to GMP set a minimum number of training hours?",
+      "a": "No. Part I sets outcomes, not hours: training appropriate to duties, continuing training, approved programs, periodic assessment of practical effectiveness, and records. The only fixed frequency in the personnel sections is in Annex 1, where aseptic gowning compliance must be reassessed at least annually for staff accessing grade A and B areas."
+    },
+    {
+      "q": "Does GMP training apply to cleaners and maintenance contractors?",
+      "a": "Yes. Paragraph 2.10 expressly includes technical, maintenance and cleaning personnel whose duties take them into production, storage or laboratory areas, and anyone else whose activities could affect product quality. Annex 1 paragraph 7.3 likewise includes cleaning, maintenance and monitoring staff who access cleanrooms."
+    },
+    {
+      "q": "Is PE009-18 now in force in Australia?",
+      "a": "Not as at September 2026. PIC/S set 24 September 2026 as the entry into force date for PE009-18, which changes only Annex 19. The Australian Manufacturing Principles Determination still names PE009-17. The TGA announces each adoption through a regulatory decision notice and an amendment to the Determination."
+    },
+    {
+      "q": "Can visitors enter GMP production areas without training?",
+      "a": "Preferably not. Paragraph 2.13 says visitors or untrained personnel should preferably not be taken into production and quality control areas. If it is unavoidable, they should be given information in advance, particularly about personal hygiene and the prescribed protective clothing, and be closely supervised. For sterile areas, Annex 1 paragraph 7.5 requires a written procedure and supervision."
+    },
+    {
+      "q": "Do the training rules differ for blood and tissue manufacturers?",
+      "a": "The wording is close but the instrument differs. Blood, blood components, human tissues and cellular therapy products follow the Australian Code of GMP (Version 1.0, April 2013), whose clauses 208 to 211 closely follow PIC/S paragraphs 2.10 to 2.13. Clause 212 adds that records should demonstrate each staff member is trained and competent for the work they are authorised to perform."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Planned Update to Manufacturing Principles for medicines, APIs and sunscreens (27 August 2025)",
+      "publisher": "Therapeutic Goods Administration",
+      "url": "https://www.tga.gov.au/news/regulatory-decision-notices/planned-update-manufacturing-principles-medicines-apis-and-sunscreens"
+    },
+    {
+      "title": "Good manufacturing practice (GMP) requirements for medicinal products: PIC/S Guide to GMP PE009-17",
+      "publisher": "Therapeutic Goods Administration",
+      "url": "https://www.tga.gov.au/resources/guidance/good-manufacturing-practice-gmp-requirements-medicinal-products-pics-guide-gmp-pe009-17"
+    },
+    {
+      "title": "Transition to new GMP requirements for medicinal products (user guide, August 2025)",
+      "publisher": "Therapeutic Goods Administration",
+      "url": "https://www.tga.gov.au/sites/default/files/2025-08/transition-new-gmp-requirements-medicinal-products.pdf"
+    },
+    {
+      "title": "Therapeutic Goods (Manufacturing Principles) Determination 2020 (compilation from 1 September 2025)",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2020L00864/latest/text"
+    },
+    {
+      "title": "Therapeutic Goods Act 1989",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/C2004A03952/latest/text"
+    },
+    {
+      "title": "PIC/S Guide to Good Manufacturing Practice for Medicinal Products, Part I (PE 009-18)",
+      "publisher": "Pharmaceutical Inspection Co-operation Scheme (PIC/S)",
+      "url": "https://picscheme.org/docview/11332"
+    },
+    {
+      "title": "PIC/S Guide to Good Manufacturing Practice for Medicinal Products, Part II (PE 009-18)",
+      "publisher": "Pharmaceutical Inspection Co-operation Scheme (PIC/S)",
+      "url": "https://picscheme.org/docview/11334"
+    },
+    {
+      "title": "PIC/S Guide to Good Manufacturing Practice for Medicinal Products, Annexes (PE 009-18)",
+      "publisher": "Pharmaceutical Inspection Co-operation Scheme (PIC/S)",
+      "url": "https://picscheme.org/docview/11333"
+    },
+    {
+      "title": "Revision of PIC/S GMP Guide (PE 009-18)",
+      "publisher": "Pharmaceutical Inspection Co-operation Scheme (PIC/S)",
+      "url": "https://picscheme.org/en/news/149/revision-of-pics-gmp-guide-pe-009-18"
+    },
+    {
+      "title": "Australian Code of Good Manufacturing Practice for human blood and blood components, human tissues and human cellular therapy products (Version 1.0, April 2013)",
+      "publisher": "Therapeutic Goods Administration",
+      "url": "https://www.tga.gov.au/sites/default/files/manuf-cgmp-human-blood-tissues-2013.pdf"
+    }
+  ],
+  "related": [
+    "how-to-convert-sops-into-training",
+    "standard-operating-procedure",
+    "how-to-set-up-verification-of-competency",
+    "how-to-prepare-training-records-for-an-audit",
+    "iso-9001-competence-requirements",
+    "training-matrix"
+  ],
+  "productLinks": [
+    {
+      "label": "Healthcare and life sciences",
+      "href": "/industries/healthcare-life-sciences"
+    },
+    {
+      "label": "Operational procedures programs",
+      "href": "/programs/operational-procedures"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 1,
+  "factCheck": [
+    {
+      "claim": "The TGA adopted the PIC/S Guide to GMP PE009-17 (25 August 2023), except Annexes 4, 5 and 14, on 1 September 2025, replacing PE009-16 which was adopted on 3 June 2024.",
+      "source": "https://www.tga.gov.au/news/regulatory-decision-notices/planned-update-manufacturing-principles-medicines-apis-and-sunscreens"
+    },
+    {
+      "claim": "The Manufacturing Principles Determination 2020 (compilation C04, 1 September 2025) defines the PIC/S Guide to GMP as PE 009-17 excluding Annexes 4, 5 and 14, and is made under section 36 of the Act.",
+      "source": "https://www.legislation.gov.au/F2020L00864/latest/text"
+    },
+    {
+      "claim": "Section 36(2)(c) allows manufacturing principles on qualifications and experience of persons employed in manufacture; section 40(4)(a)(ii) makes observing the manufacturing principles a licence condition.",
+      "source": "https://www.legislation.gov.au/C2004A03952/latest/text"
+    },
+    {
+      "claim": "Part I paragraphs 2.10 to 2.14 set training requirements, including approval of training programs by the head of Production or QC, periodic assessment of practical effectiveness, and kept records; 2.7(vi) and 2.8(vii) assign departmental training responsibility; 2.23 covers consultants; 4.29 lists verification of the effectiveness of training.",
+      "source": "https://picscheme.org/docview/11332"
+    },
+    {
+      "claim": "Part II paragraph 3.12 requires API training regularly conducted by qualified individuals, covering operations performed and GMP, with records and periodic assessment.",
+      "source": "https://picscheme.org/docview/11334"
+    },
+    {
+      "claim": "Annex 1 paragraph 7.4 requires aseptic gowning assessment and periodic reassessment at least annually with visual and microbial assessment; 7.3, 7.5, 7.6 and 8.19 cover cleanroom training, unqualified personnel, disqualification and observation.",
+      "source": "https://picscheme.org/docview/11333"
+    },
+    {
+      "claim": "TGA transition period for Annex 1 changes ran from 1 September 2025 to 1 March 2026; compliance with other changes expected from 1 September 2025.",
+      "source": "https://www.tga.gov.au/sites/default/files/2025-08/transition-new-gmp-requirements-medicinal-products.pdf"
+    },
+    {
+      "claim": "PE 009-18 revises only Annex 19 and enters into force on 24 September 2026.",
+      "source": "https://picscheme.org/en/news/149/revision-of-pics-gmp-guide-pe-009-18"
+    },
+    {
+      "claim": "Australian Code of GMP for blood, tissues and cellular therapy products clauses 208 to 212 set training requirements; clause 212 requires records to demonstrate each staff member is trained and competent for authorised work practices.",
+      "source": "https://www.tga.gov.au/sites/default/files/manuf-cgmp-human-blood-tissues-2013.pdf"
+    }
+  ]
+}

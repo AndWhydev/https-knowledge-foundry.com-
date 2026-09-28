@@ -1,0 +1,216 @@
+{
+  "slug": "training-matrix",
+  "kind": "glossary",
+  "title": "What is a training matrix?",
+  "seoTitle": "Training matrix: definition",
+  "description": "A training matrix maps roles to the training, licences and verifications each requires and shows who is current. Structure, uses and an example.",
+  "shortAnswer": "A training matrix is a grid that maps roles or people against the training, licences, competency assessments and refreshers each role requires, and shows the status of each requirement: completed, due, overdue or not required. It turns a competency framework and a training needs analysis into an operational record, so managers and auditors can see at a glance who is authorised and current for which work.",
+  "keyTakeaways": [
+    "A training matrix answers two questions: what does each role require, and who currently meets it.",
+    "Rows are usually people or roles; columns are training, licences, verifications and refreshers, each with an expiry or review date.",
+    "In safety regulated work, the matrix is how an organisation evidences that its system defines and tracks competency requirements.",
+    "A matrix that tracks only course completions shows attendance, not competence; include assessment and verification results."
+  ],
+  "term": "training matrix",
+  "alsoKnownAs": [
+    "training requirements matrix",
+    "competency matrix",
+    "role-based training plan"
+  ],
+  "sections": [
+    {
+      "id": "structure",
+      "heading": "What does a training matrix contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A training matrix contains a list of roles or people, a list of requirements, and a status for each combination. The requirement list is drawn from the organisation's [competency framework](/glossary/competency-framework), its obligations and the outputs of a [training needs analysis](/glossary/training-needs-analysis)."
+        },
+        {
+          "type": "table",
+          "caption": "Common columns in a training matrix",
+          "head": [
+            "Column",
+            "Purpose"
+          ],
+          "rows": [
+            [
+              "Requirement",
+              "The course, licence, unit of competency, verification or policy attestation"
+            ],
+            [
+              "Source",
+              "Why it is required: regulation, standard, procedure, contract or risk assessment"
+            ],
+            [
+              "Applies to",
+              "The roles or locations that need it"
+            ],
+            [
+              "Evidence type",
+              "Completion, assessment result, licence number or [verification of competency](/glossary/verification-of-competency)"
+            ],
+            [
+              "Validity",
+              "Refresher or expiry interval, and change triggers"
+            ],
+            [
+              "Status per person",
+              "Current, due soon, overdue, not yet competent or not required"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "australian-use",
+      "heading": "Why do Australian regulated organisations use training matrices?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Australian organisations use training matrices because regulators and accreditation schemes expect a system that defines who needs what competence and records that it is held. For example, the Office of the Federal Safety Commissioner [mobile plant fact sheet](https://www.fsc.gov.au/sites/default/files/2021-09/Fact%20Sheet%20Verification%20of%20Competency%20-%20Mobile%20Plant.pdf) states that audit criterion H16.8 \"specifically requires a system to be in place to define the competency requirements for the operation of mobile plant\", which may combine licences, RTO training and verification of competency."
+        },
+        {
+          "type": "p",
+          "text": "In NSW mining, the [NSW Resources Regulator](https://www.resources.nsw.gov.au/sites/default/files/2024-05/operating-mobile-plant-verification-of-competency.pdf) points to the duty to provide information, training and instruction and to the record of training provision in the Work Health and Safety (Mines and Petroleum Sites) Regulation 2022. A matrix is the usual working view of those records. Guidance on audit ready records is in [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
+        }
+      ]
+    },
+    {
+      "id": "nearby-terms",
+      "heading": "How is a training matrix different from a skills matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A training matrix tracks mandatory requirements and whether each person meets them; a [skills matrix](/glossary/skills-matrix) maps the level of skill each person has across a team, usually for planning and development. The training matrix is a compliance record; the skills matrix is a capability map."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "A **training matrix** answers: is this person authorised and current for this work?",
+            "A **skills matrix** answers: how deep is our bench for this capability, and who could cover?",
+            "A **learning management system** can hold the completion data, but the matrix logic (which role needs what, and why) must be defined first. See [how to build a training matrix](/guides/how-to-build-a-training-matrix)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does a training matrix look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Illustrative extract from a training matrix for a small quarry. Dates and people are invented for the example."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Person (role)",
+            "Site induction",
+            "Wheel loader VOC",
+            "First aid",
+            "Fatigue procedure"
+          ],
+          "rows": [
+            [
+              "A. Nguyen (loader operator)",
+              "Current",
+              "Current, reverify March 2027",
+              "Not required",
+              "Current"
+            ],
+            [
+              "B. Smith (loader operator)",
+              "Current",
+              "Overdue: stood down from loader",
+              "Not required",
+              "Due in 30 days"
+            ],
+            [
+              "C. Patel (supervisor)",
+              "Current",
+              "Not required",
+              "Current",
+              "Current"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The useful features are the explicit consequence (B. Smith cannot operate the loader), the reverification date, and a clear not required value, which is different from a blank."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry derives role requirements from the framework, where each requirement already links to its source obligation. When a source changes, the affected matrix rows can be identified instead of the whole matrix being rebuilt."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should a training matrix be organised by role or by person?",
+      "a": "Both views are needed. Define requirements by role, because roles are stable and requirements follow the work. Then generate the person view by applying each person's roles. Maintaining requirements person by person leads to inconsistencies when people change roles or requirements change."
+    },
+    {
+      "q": "Is a spreadsheet good enough for a training matrix?",
+      "a": "For a small team with few requirements, a spreadsheet can work if it records sources, evidence and dates and has a clear owner. As the number of roles, sites and expiring items grows, manual matrices tend to drift from the underlying records, which is a common audit finding."
+    },
+    {
+      "q": "How often should a training matrix be updated?",
+      "a": "Status should update whenever training, assessment or verification is recorded. The requirement side should be reviewed when a role, procedure or regulation changes and on a regular cycle. Recording the source of each requirement makes it easier to see which rows a change affects."
+    },
+    {
+      "q": "What should an auditor be able to see in a training matrix?",
+      "a": "Which requirements apply to each role and why, who meets each one, the evidence behind each status, what is overdue, and what action was taken. A matrix that shows only completion ticks without links to evidence or requirement sources is harder to defend."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fact Sheet: Verification of Competency, Mobile Plant",
+      "publisher": "Office of the Federal Safety Commissioner",
+      "url": "https://www.fsc.gov.au/sites/default/files/2021-09/Fact%20Sheet%20Verification%20of%20Competency%20-%20Mobile%20Plant.pdf"
+    },
+    {
+      "title": "Operating mobile plant verification of competency (VOC)",
+      "publisher": "NSW Resources Regulator",
+      "url": "https://www.resources.nsw.gov.au/sites/default/files/2024-05/operating-mobile-plant-verification-of-competency.pdf"
+    }
+  ],
+  "related": [
+    "skills-matrix",
+    "competency-framework",
+    "training-needs-analysis",
+    "verification-of-competency",
+    "how-to-build-a-training-matrix",
+    "how-to-prepare-training-records-for-an-audit"
+  ],
+  "productLinks": [
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 6,
+  "factCheck": [
+    {
+      "claim": "OFSC audit criterion H16.8 requires a system to define competency requirements for operating mobile plant, which may combine licences, RTO training and VoC",
+      "source": "https://www.fsc.gov.au/sites/default/files/2021-09/Fact%20Sheet%20Verification%20of%20Competency%20-%20Mobile%20Plant.pdf"
+    },
+    {
+      "claim": "NSW Resources Regulator cites WHS (Mines and Petroleum Sites) Regulation 2022 section 107 duty to provide information, training and instruction and section 111 record of training",
+      "source": "https://www.resources.nsw.gov.au/sites/default/files/2024-05/operating-mobile-plant-verification-of-competency.pdf"
+    }
+  ]
+}

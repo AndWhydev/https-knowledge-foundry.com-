@@ -1,0 +1,244 @@
+{
+  "slug": "skills-matrix",
+  "kind": "glossary",
+  "title": "What is a skills matrix?",
+  "seoTitle": "Skills matrix: definition",
+  "description": "A skills matrix maps each team member's level in each skill, showing strengths, single points of failure and gaps. How it works and an example.",
+  "shortAnswer": "A skills matrix is a grid that shows the skills a team or function needs and the current level each person has in each one, usually on a defined proficiency scale. It is used to plan training, succession, rostering and recruitment, and to spot single points of failure where only one person can perform critical work. Its value depends on skill definitions and ratings that are consistent and evidenced.",
+  "keyTakeaways": [
+    "A skills matrix is a capability map: people down one axis, skills across the other, a proficiency level in each cell.",
+    "It is most useful for finding thin coverage, succession risks and development priorities.",
+    "Ratings need a defined scale and some evidence; self ratings alone are unreliable for regulated or safety critical work.",
+    "It complements, and should not replace, a training matrix that records mandatory requirements."
+  ],
+  "term": "skills matrix",
+  "alsoKnownAs": [
+    "skills inventory",
+    "capability matrix",
+    "skills map"
+  ],
+  "sections": [
+    {
+      "id": "how-it-works",
+      "heading": "How does a skills matrix work?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A skills matrix works by listing the skills that matter for a team, defining a proficiency scale, and rating each person against each skill. Totals across a column show coverage for a skill; totals across a row show a person's breadth."
+        },
+        {
+          "type": "table",
+          "caption": "A typical four level proficiency scale (illustrative)",
+          "head": [
+            "Level",
+            "Description",
+            "Typical evidence"
+          ],
+          "rows": [
+            [
+              "0: None",
+              "No exposure to the skill",
+              "Not applicable"
+            ],
+            [
+              "1: Learning",
+              "Can perform with supervision",
+              "Training record, supervised practice"
+            ],
+            [
+              "2: Proficient",
+              "Performs independently to the required standard",
+              "[Competency assessment](/glossary/competency-assessment) or verification"
+            ],
+            [
+              "3: Expert",
+              "Can teach, assess or improve the process",
+              "Assessor role, procedure ownership, peer recognition"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The skills listed should come from a [competency framework](/glossary/competency-framework) or task analysis, so that the same skill means the same thing across teams. Without shared definitions, two managers rating the same skill are often measuring different things."
+        }
+      ]
+    },
+    {
+      "id": "australian-use",
+      "heading": "Where do skills matrices fit in Australian workforce planning?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Skills matrices are a local, team level tool, but the skill definitions can draw on national frameworks. Units of competency on [training.gov.au](https://training.gov.au) provide nationally endorsed descriptions of technical tasks. The Department of Employment and Workplace Relations [Training Package Organising Framework](https://www.dewr.gov.au/download/16680/training-package-organising-framework-effective-1-july-2025/39042/training-package-organising-framework/pdf) describes how units specify skills and knowledge required to perform effectively in the workplace."
+        },
+        {
+          "type": "p",
+          "text": "For cross occupation skills, Jobs and Skills Australia decommissioned the [Australian Skills Classification](https://www.jobsandskills.gov.au/data/australian-skills-classification) in December 2023 and is developing a [National Skills Taxonomy](https://www.jobsandskills.gov.au/data/national-skills-taxonomy), described as a common language for describing the skills people gain and use across education and employment. Organisations that labelled matrix skills using the old classification should note the change."
+        }
+      ]
+    },
+    {
+      "id": "nearby-terms",
+      "heading": "How is a skills matrix different from a training matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A skills matrix measures how capable people are; a [training matrix](/glossary/training-matrix) records whether people meet mandatory requirements. A person can be current on every required course and still sit at level 1 on a skill, and an expert can be overdue on a mandatory refresher."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "A [training needs analysis](/glossary/training-needs-analysis) uses the skills matrix as an input to find individual gaps.",
+            "A competency framework defines the skills and levels; the skills matrix records who is where.",
+            "Frameworks focused on skills rather than competencies are compared in [competency framework vs skills framework](/compare/competency-framework-vs-skills-framework)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does a skills matrix show in practice?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Illustrative example: a five person payments operations team in a bank."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Person",
+            "Payment exception handling",
+            "Sanctions screening review",
+            "Reconciliation",
+            "Incident reporting"
+          ],
+          "rows": [
+            [
+              "Person A",
+              "3",
+              "2",
+              "2",
+              "2"
+            ],
+            [
+              "Person B",
+              "2",
+              "0",
+              "3",
+              "2"
+            ],
+            [
+              "Person C",
+              "2",
+              "1",
+              "2",
+              "1"
+            ],
+            [
+              "Person D",
+              "1",
+              "0",
+              "1",
+              "2"
+            ],
+            [
+              "Person E",
+              "2",
+              "0",
+              "2",
+              "2"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The matrix shows that only Person A can review sanctions screening independently: a single point of failure for a regulated task. The team plans supervised practice for Person C and assessment at level 2, and checks whether the process needs a documented procedure owner other than Person A."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry ties each skill to defined concepts and assessment points, so proficiency ratings can be backed by assessment results rather than opinion. That makes gaps in regulated skills visible alongside the evidence."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many skills should a skills matrix include?",
+      "a": "Enough to cover the work that carries risk, value or scarcity, and few enough that ratings stay current. Adding every task tends to produce a matrix that no one maintains."
+    },
+    {
+      "q": "Who should rate skills in a skills matrix?",
+      "a": "Ratings are most reliable when based on evidence: assessment results, observation or verification. A common approach combines self rating with manager confirmation and requires assessment evidence for the proficient level on regulated or safety critical skills."
+    },
+    {
+      "q": "Is a skills matrix the same as a skills inventory?",
+      "a": "They overlap. A skills inventory is often an organisation wide list of the skills people hold, sometimes including qualifications and languages. A skills matrix is usually team based and rated against a defined scale, designed for coverage and planning decisions."
+    },
+    {
+      "q": "How often should a skills matrix be updated?",
+      "a": "Update it when someone completes an assessment or changes role, and review it on a regular cycle, for example quarterly or before workforce planning. A stale matrix gives false confidence about coverage, which is worse than having none."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Training Package Organising Framework: Date of Effect 1 July 2025",
+      "publisher": "Department of Employment and Workplace Relations",
+      "url": "https://www.dewr.gov.au/download/16680/training-package-organising-framework-effective-1-july-2025/39042/training-package-organising-framework/pdf"
+    },
+    {
+      "title": "Australian Skills Classification",
+      "publisher": "Jobs and Skills Australia",
+      "url": "https://www.jobsandskills.gov.au/data/australian-skills-classification"
+    },
+    {
+      "title": "National Skills Taxonomy",
+      "publisher": "Jobs and Skills Australia",
+      "url": "https://www.jobsandskills.gov.au/data/national-skills-taxonomy"
+    },
+    {
+      "title": "training.gov.au: National Register of VET",
+      "publisher": "Australian Government",
+      "url": "https://training.gov.au"
+    }
+  ],
+  "related": [
+    "training-matrix",
+    "competency-framework",
+    "training-needs-analysis",
+    "competency-assessment",
+    "competency-framework-vs-skills-framework"
+  ],
+  "productLinks": [
+    {
+      "label": "Gap analysis",
+      "href": "/platform/gap-analysis"
+    },
+    {
+      "label": "Framework intelligence",
+      "href": "/platform/framework-intelligence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 5,
+  "factCheck": [
+    {
+      "claim": "Australian Skills Classification decommissioned by JSA in December 2023, removed from website January 2025; JSA developing a National Skills Taxonomy",
+      "source": "https://www.jobsandskills.gov.au/data/australian-skills-classification"
+    },
+    {
+      "claim": "National Skills Taxonomy described as a common language for describing skills Australians gain, develop and use across education and employment",
+      "source": "https://www.jobsandskills.gov.au/data/national-skills-taxonomy"
+    },
+    {
+      "claim": "Training packages specify the knowledge and skills required to perform effectively in the workplace, expressed in units of competency",
+      "source": "https://www.dewr.gov.au/download/16680/training-package-organising-framework-effective-1-july-2025/39042/training-package-organising-framework/pdf"
+    }
+  ]
+}

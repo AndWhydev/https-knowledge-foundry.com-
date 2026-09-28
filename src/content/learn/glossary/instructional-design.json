@@ -1,0 +1,187 @@
+{
+  "slug": "instructional-design",
+  "kind": "glossary",
+  "title": "What is instructional design?",
+  "seoTitle": "Instructional design: definition",
+  "description": "Instructional design is the systematic process of analysing needs and designing, building and evaluating training. Its origins, models and main principles.",
+  "shortAnswer": "Instructional design is the systematic practice of planning learning so that it produces defined outcomes: analysing what people need to be able to do, setting objectives, designing activities and assessments that match them, building the materials, and evaluating whether the learning worked. It draws on learning research and on systems approaches first formalised for military training, and is the discipline behind most structured workplace and compliance training.",
+  "keyTakeaways": [
+    "Instructional design starts from the performance or outcome required, not from the content available.",
+    "Systematic models such as ADDIE trace to military instructional systems development in the 1970s.",
+    "Merrill's First Principles of Instruction (2002) summarise what effective designs share: real problems, activation, demonstration, application, and integration.",
+    "In regulated settings, good instructional design is what links obligations to learning outcomes to assessment evidence."
+  ],
+  "term": "instructional design",
+  "alsoKnownAs": [
+    "instructional systems design",
+    "instructional systems development",
+    "ISD",
+    "learning design"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What does instructional design involve?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Instructional design involves deciding what people must learn, how they will learn it, and how anyone will know they have. The work covers needs analysis, writing [learning outcomes](/glossary/learning-outcomes), choosing activities and media, designing assessment, producing materials, and evaluation."
+        },
+        {
+          "type": "p",
+          "text": "Its systematic form comes from instructional systems development (ISD). A 1975 report prepared by Florida State University's Center for Educational Technology for United States military interservice training, the Interservice Procedures for Instructional Systems Development, set out five phases: \"(1) Analyze, (2) Design, (3) Develop, (4) Implement, and (5) Control\" ([ERIC record](https://eric.ed.gov/?id=ED122022)). That family of models is now usually referred to as the [ADDIE model](/glossary/addie-model)."
+        }
+      ]
+    },
+    {
+      "id": "principles",
+      "heading": "What principles guide good instructional design?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Good instructional design aligns outcomes, activities, and assessment, and gives learners realistic practice with feedback. M. David Merrill's review of design theories, published in Educational Technology Research and Development in 2002, found that learning is promoted when learners engage in solving real world problems, when existing knowledge is activated, and when new knowledge is demonstrated, applied, and integrated into the learner's world ([ERIC record](https://eric.ed.gov/?id=EJ657839))."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Alignment:** every assessment item tests an outcome, and every outcome is assessed. See [constructive alignment](/glossary/constructive-alignment).",
+            "**Level of thinking:** outcomes and assessments target the right cognitive level, often classified with [Bloom's taxonomy](/glossary/blooms-taxonomy).",
+            "**Practice and feedback:** learners apply knowledge in realistic tasks, not only read about it.",
+            "**Retention:** important content is reviewed over time, for example with [spaced repetition](/glossary/spaced-repetition).",
+            "**Evaluation:** effects are measured beyond satisfaction, for example with the [Kirkpatrick model](/glossary/kirkpatrick-model)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regulated-use",
+      "heading": "How does instructional design apply to compliance training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "In compliance training, instructional design turns obligations into observable outcomes and assessment evidence. Without that step, training tends to restate policy text and test recall, which gives weak evidence that staff can apply the rule."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping from obligation to outcome to evidence",
+          "head": [
+            "Obligation (source)",
+            "Learning outcome",
+            "Assessment evidence"
+          ],
+          "rows": [
+            [
+              "Report suspicious matters within required timeframes (AML/CTF program)",
+              "Identify indicators of suspicious activity in a customer interaction and escalate correctly",
+              "Scenario questions with indicator and escalation decisions, scored against a rubric"
+            ],
+            [
+              "Handle personal information in line with the organisation's privacy policy",
+              "Decide whether a disclosure request can be met and record the decision",
+              "Case based task reviewed against policy criteria"
+            ],
+            [
+              "Isolate plant before maintenance (safe work procedure)",
+              "Carry out the isolation sequence without error",
+              "Observed practical assessment by a qualified assessor"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "See [how to write measurable learning outcomes](/guides/how-to-write-measurable-learning-outcomes) and [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations) for step by step methods."
+        }
+      ]
+    },
+    {
+      "id": "how-it-differs",
+      "heading": "How is instructional design different from content development or curriculum design?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Instructional design decides what learning must achieve and how; content development produces the materials; curriculum design organises many courses into a program. The terms overlap in job titles, but the distinction matters when assigning responsibility: an attractive module built without analysis and outcome design is content development, not instructional design."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry makes the analysis and design stages explicit: concepts, relationships, outcomes, and assessment points are defined and reviewed before content is written. Structure before content. The resulting framework is the design record that auditors and reviewers can inspect."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is instructional design the same as ADDIE?",
+      "a": "No. ADDIE is one widely used process model within instructional design. Other models and approaches exist, including rapid prototyping and iterative agile methods. Most share the same core activities of analysis, design, development, implementation, and evaluation, in varying order and with more or less iteration."
+    },
+    {
+      "q": "Do subject matter experts do instructional design?",
+      "a": "Subject matter experts supply the knowledge; instructional designers shape it into outcomes, activities, and assessment. In small teams one person may do both, but the roles need different skills, and the best results usually come from structured collaboration between them."
+    },
+    {
+      "q": "What qualifications do instructional designers have?",
+      "a": "There is no single required qualification for instructional design as a job. Practitioners commonly come from education, adult learning, educational technology, or a subject specialism. Where training leads to a nationally recognised qualification, the rules for registered training organisations set separate requirements for trainers and assessors, which should be checked for the specific role."
+    },
+    {
+      "q": "Can AI do instructional design?",
+      "a": "AI can draft outcomes, questions, and materials quickly, but it cannot confirm that they match the organisation's actual obligations, risks, and procedures. Design decisions and review still need accountable people, especially for regulated training."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Interservice Procedures for Instructional Systems Development: Executive Summary and Model (Branson et al., 1975)",
+      "publisher": "Florida State University Center for Educational Technology, via ERIC",
+      "url": "https://eric.ed.gov/?id=ED122022"
+    },
+    {
+      "title": "First Principles of Instruction (Merrill, 2002)",
+      "publisher": "Educational Technology Research and Development, via ERIC",
+      "url": "https://eric.ed.gov/?id=EJ657839"
+    },
+    {
+      "title": "In Search of the Elusive ADDIE Model (Molenda, 2003)",
+      "publisher": "Performance Improvement, via ERIC",
+      "url": "https://eric.ed.gov/?id=EJ676523"
+    }
+  ],
+  "factCheck": [
+    {
+      "claim": "IPISD (1975, Branson, Florida State University Center for Educational Technology) lists five phases Analyze, Design, Develop, Implement, Control",
+      "source": "https://eric.ed.gov/?id=ED122022"
+    },
+    {
+      "claim": "Merrill 2002 ETR&D v50 n3 p43-59: learning promoted when solving real-world problems, activating existing knowledge, demonstration, application, integration",
+      "source": "https://eric.ed.gov/?id=EJ657839"
+    },
+    {
+      "claim": "Molenda 2003: ADDIE came into use by word of mouth as a label for the family of systematic instructional development models",
+      "source": "https://eric.ed.gov/?id=EJ676523"
+    }
+  ],
+  "related": [
+    "addie-model",
+    "blooms-taxonomy",
+    "kirkpatrick-model",
+    "constructive-alignment",
+    "learning-outcomes",
+    "how-to-write-measurable-learning-outcomes"
+  ],
+  "productLinks": [
+    {
+      "label": "Framework intelligence",
+      "href": "/platform/framework-intelligence"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 6
+}

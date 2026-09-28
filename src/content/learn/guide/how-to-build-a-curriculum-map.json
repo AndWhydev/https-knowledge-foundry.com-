@@ -1,0 +1,274 @@
+{
+  "slug": "how-to-build-a-curriculum-map",
+  "kind": "guide",
+  "title": "How do you build a curriculum map?",
+  "seoTitle": "How to build a curriculum map",
+  "description": "How to build a curriculum map: outcomes against units, coded introduced, practised and assessed, then checked for gaps, progression and over assessment.",
+  "shortAnswer": "A curriculum map is built by listing the program level outcomes, listing every unit or module in sequence, marking at each intersection whether the outcome is introduced, practised or assessed there, adding the assessment task and level, then reading the grid for outcomes that are never assessed, outcomes assessed far more than others, and broken progression, and fixing the design before delivery.",
+  "keyTakeaways": [
+    "A curriculum map shows where each program outcome is taught, practised and assessed across the units that make up a program.",
+    "TEQSA expects higher education providers to be able to show exactly this for course learning outcomes.",
+    "The simplest useful coding is I (introduced), P (practised), A (assessed), with the assessment task named.",
+    "Read the map for four faults: unassessed outcomes, over assessment, missing progression and orphan units.",
+    "The same method works for workplace programs, with obligations or competencies in place of graduate outcomes."
+  ],
+  "sections": [
+    {
+      "id": "what-it-is",
+      "heading": "What is a curriculum map?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A curriculum map is a grid that relates a program's intended outcomes to the units, learning activities and assessments that deliver them. Ronald Harden's AMEE Guide No. 21 describes curriculum mapping as making explicit the relationships between intended learning outcomes, content, learning opportunities and assessment, so that the curriculum is transparent to staff and students ([Harden, 2001](https://pubmed.ncbi.nlm.nih.gov/11371288/))."
+        },
+        {
+          "type": "p",
+          "text": "It differs from an [assessment blueprint](/guides/how-to-create-an-assessment-blueprint), which specifies one assessment in detail, and from an [obligation map](/guides/how-to-map-training-to-compliance-obligations), which traces regulatory requirements to roles. The curriculum map works at program level: many outcomes across many units. The glossary entry for [curriculum mapping](/glossary/curriculum-mapping) gives the short definition."
+        }
+      ]
+    },
+    {
+      "id": "why-regulators-care",
+      "heading": "Why do Australian regulators care about curriculum maps?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because the Higher Education Standards Framework requires outcomes to be achieved progressively and assessed before completion, and a map is the clearest evidence of both."
+        },
+        {
+          "type": "p",
+          "text": "TEQSA's guidance note on course design states that the Standards require all specified learning outcomes to be assessed before completion (Standard 1.4.4) and that progressive and coherent achievement of outcomes is planned in the course design (Standard 3.1.3). It adds: 'TEQSA will expect some clear information demonstrating where course learning outcomes are taught, practised and assessed, whether at unit level or at course level' ([TEQSA](https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-course-design-including-learning-outcomes-and-assessment)). The same note links course learning outcomes to the level of the AQF qualification awarded."
+        },
+        {
+          "type": "p",
+          "text": "In vocational education, the equivalent is showing that each unit's elements, performance criteria and assessment requirements are covered by training and assessment. ASQA's Assessment Practice Guide asks providers to show their assessment system addresses all requirements of the training product ([ASQA](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide))."
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "heading": "What are the steps to build a curriculum map?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "There are seven steps. The map is only as good as the outcomes on its vertical axis, so start there."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Fix the program outcomes.** List the program or course level outcomes, each measurable and numbered. In accredited programs, check each against the relevant AQF level descriptors ([AQF](https://www.aqf.edu.au/framework/aqf-levels)). Output: numbered program outcomes.",
+            "**List the units in delivery order.** Include core and elective units, with the stage or year each sits in. Output: the horizontal axis of the map.",
+            "**Collect unit evidence.** For each unit, gather its outcomes, learning activities and assessment tasks. Map from these documents, not from memory. Output: a unit evidence pack.",
+            "**Code each intersection.** For each program outcome and unit, record I where the outcome is introduced, P where learners practise it with feedback, and A where it is formally assessed, naming the assessment task. Leave blank where the unit does not address it. Output: the coded grid.",
+            "**Record the level.** Where an outcome appears more than once, note the level each time (for example, apply in stage 1, evaluate in stage 3). Output: level annotations showing progression.",
+            "**Analyse the grid.** Check every row and column for the four faults described below. Output: a findings list.",
+            "**Fix and govern.** Change unit outcomes or assessments to close findings, then set the map as a controlled document, updated whenever a unit changes. Output: an approved map with a version number."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Map with the people who teach and assess the units, not only the program director. Unit coordinators know where an outcome is genuinely practised with feedback and where it is merely mentioned, and that distinction between P and a passing reference is where most maps overstate coverage."
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does a curriculum map look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The grid below is illustrative, for a hypothetical four unit workplace program for new compliance analysts. It is deliberately imperfect so that the analysis in the next section has something to find."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative curriculum map (I = introduced, P = practised, A = assessed)",
+          "head": [
+            "Program outcome",
+            "Unit 1: Regulatory foundations",
+            "Unit 2: Obligations and controls",
+            "Unit 3: Monitoring and testing",
+            "Unit 4: Reporting and escalation"
+          ],
+          "rows": [
+            [
+              "PO1 Interpret an obligation and identify who it applies to",
+              "I, A (quiz)",
+              "P, A (case)",
+              "P",
+              "blank"
+            ],
+            [
+              "PO2 Map an obligation to controls",
+              "blank",
+              "I, P, A (mapping task)",
+              "P",
+              "blank"
+            ],
+            [
+              "PO3 Design a compliance test for a control",
+              "blank",
+              "blank",
+              "I, P",
+              "blank"
+            ],
+            [
+              "PO4 Assess and escalate a potential breach",
+              "I",
+              "blank",
+              "P",
+              "P, A (scenario)"
+            ],
+            [
+              "PO5 Communicate findings to management",
+              "I, A (quiz)",
+              "A (quiz)",
+              "A (report)",
+              "A (briefing)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-the-map",
+      "heading": "What faults should a curriculum map reveal?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A map should reveal four faults. In the illustrative grid above, each one is present."
+        },
+        {
+          "type": "table",
+          "caption": "Four faults and how they appear in the illustrative map",
+          "head": [
+            "Fault",
+            "How to spot it",
+            "Example above",
+            "Typical fix"
+          ],
+          "rows": [
+            [
+              "Unassessed outcome",
+              "A row with no A",
+              "PO3 is introduced and practised but never assessed",
+              "Add a test design task to Unit 3 assessment"
+            ],
+            [
+              "Over assessment",
+              "A row with many A codes at the same level",
+              "PO5 assessed in every unit, twice by quiz",
+              "Keep the report and briefing, remove the quizzes"
+            ],
+            [
+              "Broken progression",
+              "A at a level lower than earlier practice, or A with no prior I or P",
+              "PO5 is assessed in Unit 2 without practice there",
+              "Add practice or move the assessment"
+            ],
+            [
+              "Orphan content",
+              "A column with few or no codes",
+              "Unit 4 contributes to only two outcomes",
+              "Check whether Unit 4 has outcomes missing from the program list, or merge it"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Recall is not progression",
+          "text": "A row assessed four times by recall quiz shows repetition, not development. Progression means the level rises across the program, as TEQSA's reference to progressive and coherent achievement implies."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry stores outcomes, units, concepts and assessment points as linked records, so a curriculum map is generated from the framework rather than maintained by hand, and changes to a unit update the map automatically. See [standards and accreditation](/platform/standards-accreditation)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should a curriculum map include graduate attributes?",
+      "a": "Yes, if the institution or program has them. Graduate attributes are usually mapped as additional rows alongside discipline outcomes. TEQSA's guidance notes that the Standards require different classes of outcome, including generic, employment related and lifelong learning outcomes, so they need the same evidence of where they are assessed."
+    },
+    {
+      "q": "What tool should be used to build a curriculum map?",
+      "a": "A spreadsheet is enough for a single program. Across many programs with shared units, a database or dedicated mapping tool avoids inconsistencies when a shared unit changes. Whatever the tool, keep the source documents linked and the map under version control."
+    },
+    {
+      "q": "How often should a curriculum map be updated?",
+      "a": "Whenever a unit's outcomes or assessments change, and as part of every scheduled course review. A map that was accurate at accreditation but not updated since is a common audit finding, because unit level changes accumulate quietly."
+    },
+    {
+      "q": "Can curriculum mapping be used for corporate training?",
+      "a": "Yes. Replace program outcomes with the competencies or obligations the program must deliver, and units with modules, coaching and on the job activities. The same I, P, A coding shows whether a workplace program actually assesses what it claims to develop."
+    }
+  ],
+  "sources": [
+    {
+      "title": "AMEE Guide No. 21: Curriculum mapping: a tool for transparent and authentic teaching and learning (Harden, 2001, Medical Teacher 23(2))",
+      "publisher": "PubMed, US National Library of Medicine",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11371288/"
+    },
+    {
+      "title": "Guidance note: Course design (including learning outcomes and assessment)",
+      "publisher": "Tertiary Education Quality and Standards Agency (TEQSA)",
+      "url": "https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-course-design-including-learning-outcomes-and-assessment"
+    },
+    {
+      "title": "Higher Education Standards Framework (Threshold Standards) 2021",
+      "publisher": "Tertiary Education Quality and Standards Agency (TEQSA)",
+      "url": "https://www.teqsa.gov.au/how-we-regulate/higher-education-standards-framework-2021"
+    },
+    {
+      "title": "Assessment Practice Guide (2025 Standards for RTOs)",
+      "publisher": "Australian Skills Quality Authority (ASQA)",
+      "url": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
+    },
+    {
+      "title": "AQF levels",
+      "publisher": "Australian Qualifications Framework",
+      "url": "https://www.aqf.edu.au/framework/aqf-levels"
+    }
+  ],
+  "related": [
+    "curriculum-mapping",
+    "teqsa-hesf-course-design-requirements",
+    "how-to-create-an-assessment-blueprint",
+    "how-to-write-measurable-learning-outcomes",
+    "constructive-alignment",
+    "aqf-levels-and-learning-outcomes"
+  ],
+  "productLinks": [
+    {
+      "label": "Standards and accreditation",
+      "href": "/platform/standards-accreditation"
+    },
+    {
+      "label": "Higher education",
+      "href": "/industries/higher-education"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 6,
+  "factCheck": [
+    {
+      "claim": "TEQSA guidance: Standard 1.4.4 requires all specified learning outcomes to be assessed before completion; Standard 3.1.3 requires progressive and coherent achievement; quote 'TEQSA will expect some clear information demonstrating where course learning outcomes are taught, practised and assessed, whether at unit level or at course level'",
+      "source": "https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-course-design-including-learning-outcomes-and-assessment"
+    },
+    {
+      "claim": "Harden (2001) AMEE Guide No. 21 describes curriculum mapping as making explicit relationships between outcomes, content, learning opportunities and assessment",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/11371288/"
+    },
+    {
+      "claim": "ASQA: assessment system addresses all requirements of the training product",
+      "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
+    }
+  ]
+}

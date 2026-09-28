@@ -1,0 +1,277 @@
+{
+  "slug": "how-to-build-a-training-matrix",
+  "kind": "guide",
+  "title": "How do you build a training matrix?",
+  "seoTitle": "How to build a training matrix",
+  "description": "How to build a training matrix: roles against requirements, refresh rules, evidence types per cell, status logic, ownership and audit ready reporting.",
+  "shortAnswer": "A training matrix is built by listing roles (not people) down one axis and training requirements across the other, setting for each cell whether the requirement applies, at what level, how often and on what trigger, defining the evidence that counts for each requirement, then applying the matrix to people to calculate status (current, due, overdue, not assessed) and reporting it with named owners for each role and requirement.",
+  "keyTakeaways": [
+    "Build the matrix on roles first. People inherit requirements from their roles, which keeps assignment consistent when people move.",
+    "Every requirement needs an evidence rule: completion, assessment result, licence or observed competence.",
+    "Status should be calculated from dates and rules, not typed in by hand.",
+    "Include contractors and third parties who perform regulated work.",
+    "A matrix that only shows completion cannot show competence. Say which cells need more."
+  ],
+  "sections": [
+    {
+      "id": "what-it-is",
+      "heading": "What is a training matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A [training matrix](/glossary/training-matrix) is a grid that shows which training and assessment requirements apply to which roles, and the status of each person against those requirements. It is the operational record that answers 'is this person cleared to do this work today?'"
+        },
+        {
+          "type": "p",
+          "text": "It is related to, but different from, a [skills matrix](/glossary/skills-matrix), which records people's proficiency levels against skills, often for workforce planning. A training matrix is requirement driven: it exists to show that mandatory and role specific requirements are met."
+        },
+        {
+          "type": "p",
+          "text": "Regulators expect this kind of record. AUSTRAC expects reporting entities to use a register to record training completion dates and track when further training is due ([AUSTRAC](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform)). ASIC's RG 104 expects licensees to maintain a record of the training representatives have undertaken ([ASIC](https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/)). ISO 9001:2015 clause 7.2(d) requires organisations to retain appropriate documented information as evidence of competence ([ISO and IAF](https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf))."
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "heading": "What are the steps to build a training matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "There are eight steps. The first four design the matrix; the last four make it run."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Define roles.** List roles or position types, not individuals. Where one job title covers different functions, split it; where many titles share requirements, group them. Output: a role list with definitions.",
+            "**List requirements.** Draw requirements from the [obligation to training map](/guides/how-to-map-training-to-compliance-obligations), the [competency framework](/guides/how-to-build-a-competency-framework), licensing and ticket requirements, and site or client rules. Output: a requirement list, each with its source.",
+            "**Set cell rules.** For each role and requirement, record whether it applies and, if so: required level, due period after appointment, refresh interval, and event triggers such as procedure changes. Output: the role by requirement rule set.",
+            "**Define evidence per requirement.** Decide what record proves each requirement: completion of a module, a pass in an assessment, a current licence, a verification of competency, or a supervisor sign off after observation. Output: an evidence rule for each requirement.",
+            "**Assign people to roles.** Link each worker, including contractors, to one or more roles with a start date. Output: a person to role register.",
+            "**Calculate status.** For each person and requirement, calculate status from the rules and evidence dates: current, due soon, overdue, not yet assessed, or not applicable. Output: the live matrix.",
+            "**Assign ownership.** Name an owner for each requirement (content and evidence rule) and each role (making sure people in it are current). Output: an ownership table.",
+            "**Report and audit.** Produce exception reports for managers and summary reports for governance, and periodically sample cells to check the evidence behind a 'current' status actually exists. Output: reports and a sampling record."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does a training matrix look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A training matrix has a rules view and a status view. The two tables below are illustrative, for a hypothetical distribution centre, and are simplified to a few roles and requirements."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative rules view: requirements by role",
+          "head": [
+            "Requirement",
+            "Evidence rule",
+            "Warehouse operator",
+            "Forklift operator",
+            "Team leader"
+          ],
+          "rows": [
+            [
+              "Site induction",
+              "Completion and short knowledge check",
+              "Before first shift; on major site change",
+              "Before first shift; on major site change",
+              "Before first shift; on major site change"
+            ],
+            [
+              "Manual handling",
+              "Observed practical assessment",
+              "Within first week; annually",
+              "Within first week; annually",
+              "Within first week; annually"
+            ],
+            [
+              "High risk work licence (forklift)",
+              "Current licence sighted and copy held",
+              "Not applicable",
+              "Before operating; track licence expiry",
+              "Not applicable"
+            ],
+            [
+              "Site traffic management procedure",
+              "Observed practical assessment",
+              "Within first week",
+              "Before operating; on procedure change",
+              "Within first week; on procedure change"
+            ],
+            [
+              "Incident reporting and investigation",
+              "Assessment of a completed practice investigation",
+              "Not applicable",
+              "Not applicable",
+              "Within 30 days of appointment; every two years"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative status view for three workers",
+          "head": [
+            "Worker (role)",
+            "Site induction",
+            "Manual handling",
+            "Forklift licence",
+            "Traffic procedure"
+          ],
+          "rows": [
+            [
+              "Worker A (forklift operator)",
+              "Current",
+              "Due in 20 days",
+              "Current, expiry recorded",
+              "Overdue: procedure changed, not reassessed"
+            ],
+            [
+              "Worker B (warehouse operator)",
+              "Current",
+              "Current",
+              "Not applicable",
+              "Current"
+            ],
+            [
+              "Contractor C (forklift operator)",
+              "Current",
+              "Not yet assessed",
+              "Licence not sighted",
+              "Not yet assessed"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Safe Work Australia guidance notes that workers who operate high risk equipment such as a forklift need formal training and assessment, while other workers may need only informal on the job training ([Safe Work Australia](https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work)). The matrix records that difference in its evidence rules."
+        }
+      ]
+    },
+    {
+      "id": "evidence-rules",
+      "heading": "Why does the evidence rule matter so much?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because the evidence rule decides what 'current' means. If every cell accepts completion, the matrix reports attendance and calls it compliance."
+        },
+        {
+          "type": "p",
+          "text": "The ISO 9001 Auditing Practices Group gives diplomas, licences, resumes, completion of training and performance reviews as examples of evidence of competence, and cautions that participation in a course alone does not necessarily show a person is competent, since it may show knowledge gained rather than knowledge applied. Set stronger evidence rules, such as observed assessment or [verification of competency](/guides/how-to-set-up-verification-of-competency), for requirements where application matters and failure has serious consequences."
+        }
+      ]
+    },
+    {
+      "id": "common-faults",
+      "heading": "What goes wrong with training matrices?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most failures come from maintaining the matrix by hand. Statuses typed into a spreadsheet drift from the underlying records within weeks."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Requirements assigned to named people instead of roles, so a new starter inherits nothing.",
+            "No trigger for content change, so everyone stays 'current' on a superseded procedure.",
+            "Contractors and labour hire workers held in a separate list or not at all.",
+            "Role changes not flowing through, leaving people in new duties without the new requirements.",
+            "No sampling of the evidence behind a 'current' status."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each matrix requirement to the obligation, outcome and assessment point that justify it, so a change to a source flags the affected cells and evidence rules can require assessment rather than completion. See [audit evidence](/platform/audit-evidence)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between a training matrix and a skills matrix?",
+      "a": "A training matrix records whether role based requirements are met, and is used for compliance and clearance to work. A skills matrix records proficiency levels against a set of skills, and is used for planning, rostering and development. Many organisations keep both, linked by role."
+    },
+    {
+      "q": "Can a training matrix be kept in a spreadsheet?",
+      "a": "For a small team, yes, provided statuses are calculated by formula from dates and rules rather than typed. Once there are several sites, frequent role changes or contractors, a learning or workforce system that calculates status from source records is more reliable and easier to audit."
+    },
+    {
+      "q": "How far ahead should a matrix flag due training?",
+      "a": "Far enough ahead for the training to be scheduled and completed before expiry. Many organisations use a due soon window of 30 to 60 days, adjusted for how long the training takes to arrange. Licences and external certifications often need a longer window."
+    },
+    {
+      "q": "Should the matrix include training that is recommended but not mandatory?",
+      "a": "Keep it separate or clearly flagged. Mixing mandatory and optional requirements in one status makes compliance reporting unreliable. Some organisations show optional development in a separate view drawn from the skills matrix."
+    }
+  ],
+  "sources": [
+    {
+      "title": "AML/CTF training",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
+    },
+    {
+      "title": "RG 104 AFS licensing: Meeting the general obligations",
+      "publisher": "Australian Securities and Investments Commission (ASIC)",
+      "url": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/"
+    },
+    {
+      "title": "ISO 9001 Auditing Practices Group: Guidance on auditing competence (Edition 2)",
+      "publisher": "ISO and International Accreditation Forum",
+      "url": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf"
+    },
+    {
+      "title": "Training and supporting your workers to stay safe at work",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work"
+    }
+  ],
+  "related": [
+    "training-matrix",
+    "skills-matrix",
+    "how-to-map-training-to-compliance-obligations",
+    "how-to-set-up-verification-of-competency",
+    "how-to-prepare-training-records-for-an-audit",
+    "how-to-set-mandatory-training-refresh-cycles"
+  ],
+  "productLinks": [
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    },
+    {
+      "label": "Energy and resources",
+      "href": "/industries/energy-resources"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 5,
+  "factCheck": [
+    {
+      "claim": "AUSTRAC expects a register recording completion dates and tracking when further training is due",
+      "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
+    },
+    {
+      "claim": "RG 104.82(d): maintain a record of training undertaken",
+      "source": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/"
+    },
+    {
+      "claim": "ISO 9001:2015 7.2(d) requires retaining appropriate documented information as evidence of competence; APG examples include diplomas, licences, resumes, completion of training, performance reviews; course participation alone does not necessarily show competence",
+      "source": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf"
+    },
+    {
+      "claim": "Safe Work Australia: workers operating high risk equipment such as a forklift need formal training and assessment; others may need informal on the job training",
+      "source": "https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "slug": "compliance-obligations-register",
+  "kind": "glossary",
+  "title": "What is a compliance obligations register?",
+  "seoTitle": "Compliance obligations register",
+  "description": "A compliance obligations register lists the laws, rules and commitments an organisation must meet, with owners and controls. What ISO 37301 expects of it.",
+  "shortAnswer": "A compliance obligations register is a maintained record of the legal, regulatory and voluntary requirements an organisation must meet, showing for each one its source, the parts of the business it affects, an accountable owner and the controls that address it. ISO 37301 requires organisations to identify their compliance obligations systematically, keep documented information about them, and have processes to catch new and changed obligations.",
+  "keyTakeaways": [
+    "ISO 37301 clause 4.5 requires an organisation to identify its compliance obligations and maintain documented information about them.",
+    "Obligations include both mandatory requirements, such as laws, and voluntary commitments, such as codes the organisation adopts.",
+    "A useful register links each obligation to owners, controls, risks and, where relevant, training.",
+    "The register must be kept current: ISO 37301 expects processes to identify new and changed obligations.",
+    "The register is the natural starting point for mapping compliance training to what the organisation must actually do."
+  ],
+  "term": "Compliance obligations register",
+  "alsoKnownAs": [
+    "Obligations register",
+    "Compliance register",
+    "Legal register"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What is in a compliance obligations register?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A compliance obligations register records each requirement the organisation must meet and the information needed to manage it. At minimum that is the obligation, its source, what it applies to and who owns it."
+        },
+        {
+          "type": "p",
+          "text": "[ISO 37301](https://www.iso.org/standard/75080.html), the international standard for compliance management systems, defines compliance obligations as requirements an organisation \"mandatorily has to comply with as well as those that an organization voluntarily chooses to comply with\". Clause 4.5 requires the organisation to systematically identify its compliance obligations arising from its activities, products and services, assess their impact on its operations, and maintain documented information of them. That documented information is, in practice, the register."
+        },
+        {
+          "type": "p",
+          "text": "Environmental and safety management systems use a similar record, often called a legal register, because ISO 14001 and ISO 45001 also use the term compliance obligations."
+        }
+      ]
+    },
+    {
+      "id": "fields",
+      "heading": "Which fields should a compliance obligations register include?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The fields below are an original template that combines what ISO 37301 asks for with what a training and audit function needs. Not every organisation needs every field."
+        },
+        {
+          "type": "table",
+          "caption": "Template fields for a compliance obligations register",
+          "head": [
+            "Field",
+            "Purpose",
+            "Example entry (illustrative)"
+          ],
+          "rows": [
+            [
+              "Obligation ID",
+              "Stable reference used by controls, training and audits",
+              "OB-WHS-012"
+            ],
+            [
+              "Obligation statement",
+              "Plain English summary of what must be done",
+              "Provide information, training, instruction or supervision necessary to protect all persons from work risks"
+            ],
+            [
+              "Source and clause",
+              "Traceability to the primary text",
+              "Work Health and Safety Act 2011 s19(3)(f)"
+            ],
+            [
+              "Type",
+              "Mandatory or voluntary",
+              "Mandatory"
+            ],
+            [
+              "Business areas and roles",
+              "Where it applies",
+              "Warehouse operations; supervisors; forklift operators"
+            ],
+            [
+              "Owner",
+              "Accountable person",
+              "Head of Operations"
+            ],
+            [
+              "Controls",
+              "How compliance is achieved",
+              "Induction, licensed operator check, supervision roster"
+            ],
+            [
+              "Training link",
+              "Learning outcomes that support it",
+              "LO-FL-03: carry out pre start checks"
+            ],
+            [
+              "Compliance risk rating",
+              "Output of the risk assessment in clause 4.6",
+              "High"
+            ],
+            [
+              "Change watch",
+              "How changes are detected",
+              "Regulator subscription; quarterly legal review"
+            ],
+            [
+              "Last reviewed",
+              "Currency",
+              "Date and reviewer"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "heading": "How is the register kept current?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The register stays current through a defined change process. ISO 37301 clause 4.5 requires processes to identify new and changed compliance obligations and to evaluate and implement the resulting changes. Clause 4.6 then requires compliance risks to be assessed periodically and whenever there are material changes."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Monitor sources: legislation, regulator guidance, standards, contracts and internal policy decisions.",
+            "Log each change against affected obligation IDs.",
+            "Assess impact on controls, procedures and training.",
+            "Update the affected items and record who approved the change.",
+            "Confirm that training and records reflect the new version."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The last step is where many registers fail: the register is updated, but the training that supports it is not. That gap is what [knowledge drift](/glossary/knowledge-drift) describes. The method is covered in [how to update training when regulations change](/guides/how-to-update-training-when-regulations-change)."
+        }
+      ]
+    },
+    {
+      "id": "differences",
+      "heading": "How does an obligations register differ from a risk register or training matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An obligations register lists what must be done. A risk register lists what could go wrong and how likely and severe it is. A [training matrix](/glossary/training-matrix) lists who must complete which training. They connect: each compliance risk should trace to one or more obligations, and each mandatory training item should trace to an obligation or a documented risk."
+        },
+        {
+          "type": "p",
+          "text": "Mapping those links is the core of [mapping training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations). Without the register, [compliance training](/glossary/compliance-training) tends to be chosen by topic rather than by requirement."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry treats obligations as the root of the knowledge framework: each concept, learning outcome and assessment point records the obligation it serves. When an obligation changes, the platform can list the training elements that depend on it."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is a compliance obligations register mandatory?",
+      "a": "It is required for organisations that implement ISO 37301, which calls for documented information of compliance obligations. Outside the standard, few laws require a register by name, but regulators expect organisations to know their obligations, and a register is the usual way to show that."
+    },
+    {
+      "q": "Who should own the register?",
+      "a": "The compliance function usually maintains the register, but each obligation should have a business owner who is accountable for the controls. ISO 37301 assigns responsibilities to the governing body, top management, the compliance function and management at each level."
+    },
+    {
+      "q": "How detailed should obligations be?",
+      "a": "Detailed enough that an owner can tell whether a control meets the requirement, and a trainer can write a learning outcome from it. One register line per section of an Act is usually too coarse; one line per sentence is usually too fine. Group by distinct required behaviour."
+    },
+    {
+      "q": "Can a spreadsheet be a compliance obligations register?",
+      "a": "Yes, for smaller organisations. The standard requires documented information, not a particular tool. Larger organisations often move to a database so that obligations can be linked to controls, risks, incidents and training records and so changes are version controlled."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ISO 37301:2021 Compliance management systems: Requirements with guidance for use",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/75080.html"
+    },
+    {
+      "title": "ISO 37301 FAQs, May 2022",
+      "publisher": "ISO/TC 309 Governance of organizations",
+      "url": "https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf"
+    },
+    {
+      "title": "ISO 37301 Compliance management systems: project page",
+      "publisher": "ISO/TC 309 Governance of organizations",
+      "url": "https://committee.iso.org/sites/tc309/home/projects/published/iso-37301-compliance-management.html"
+    },
+    {
+      "title": "Regulatory guide: Primary duty of care",
+      "publisher": "Comcare",
+      "url": "https://www.comcare.gov.au/scheme-legislation/whs-act/regulatory-guides/primary-duty-of-care"
+    }
+  ],
+  "related": [
+    "compliance-training",
+    "knowledge-drift",
+    "modern-slavery-act-training",
+    "how-to-map-training-to-compliance-obligations",
+    "how-to-update-training-when-regulations-change",
+    "failure-to-prevent-foreign-bribery-training"
+  ],
+  "productLinks": [
+    {
+      "label": "Framework intelligence",
+      "href": "/platform/framework-intelligence"
+    },
+    {
+      "label": "Compliance training programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 4,
+  "factCheck": [
+    {
+      "claim": "ISO 37301 3.25 definition of compliance obligations; clause 4.5 requires systematic identification, processes for new and changed obligations, and documented information of obligations; clause 4.6 risk assessment periodically and on material change.",
+      "source": "https://cdn.standards.iteh.ai/samples/75080/984e9b4dc8a347a7a8376a2b43afef03/ISO-FDIS-37301.pdf"
+    },
+    {
+      "claim": "ISO 37301 FAQ: requires identifying compliance obligations and evaluating compliance risks; it is voluntary but may become contractual.",
+      "source": "https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf"
+    },
+    {
+      "claim": "ISO 37301 can be integrated with ISO 9001, ISO 14001 and ISO 37001.",
+      "source": "https://committee.iso.org/sites/tc309/home/projects/published/iso-37301-compliance-management.html"
+    },
+    {
+      "claim": "Example obligation text of WHS Act s19(3)(f).",
+      "source": "https://www.comcare.gov.au/scheme-legislation/whs-act/regulatory-guides/primary-duty-of-care"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "slug": "knowledge-base-vs-lms",
+  "kind": "comparison",
+  "title": "Knowledge base vs LMS: which do you need?",
+  "seoTitle": "Knowledge base vs LMS",
+  "description": "A knowledge base answers questions at the point of need; an LMS builds and records capability. How they differ, when you need each, and how to link them.",
+  "shortAnswer": "A knowledge base is a searchable store of reference information, such as procedures, policies, and answers, that people consult at the moment of need. A learning management system (LMS) assigns, delivers, and records structured training so that people build capability before they need it and the organisation can prove it. A knowledge base supports doing the work; an LMS supports learning and evidencing it.",
+  "keyTakeaways": [
+    "A knowledge base answers questions on demand; an LMS assigns learning and records who completed it.",
+    "Reading a knowledge base article is not evidence of training; LMS records are what auditors usually ask for.",
+    "Regulated organisations generally need both, with the knowledge base as the current reference and the LMS as the record of learning.",
+    "The main risk in running both is the two drifting apart, so training teaches one version and the reference shows another."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the core difference between a knowledge base and an LMS?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The core difference is timing and accountability: a knowledge base provides information at the moment someone needs it, while an LMS delivers structured learning in advance and records that it happened. One is optimised for finding; the other for assigning, tracking, and reporting."
+        },
+        {
+          "type": "p",
+          "text": "An LMS, as described in the Institute of Electrical and Electronics Engineers (IEEE) draft cmi5 standard, manages learners, learning content, and \"the authorized use of the learning content to learners\" ([IEEE P9274.3.1](https://standards.ieee.org/ieee/9274.3.1/11183/)). See [learning management system](/glossary/learning-management-system)."
+        },
+        {
+          "type": "p",
+          "text": "A knowledge base is a tool within the wider discipline of [knowledge management](/glossary/knowledge-management), for which ISO 30401 sets requirements for a management system that supports how organisations create and use knowledge ([ISO](https://www.iso.org/standard/68683.html)). A knowledge base typically holds [standard operating procedures](/glossary/standard-operating-procedure), work instructions, FAQs, and troubleshooting guides."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do a knowledge base and an LMS compare side by side?",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Knowledge base and LMS compared at category level",
+          "head": [
+            "Dimension",
+            "Knowledge base",
+            "Learning management system (LMS)"
+          ],
+          "rows": [
+            [
+              "Purpose",
+              "Answer questions at the point of need",
+              "Build and evidence capability in advance"
+            ],
+            [
+              "Content shape",
+              "Articles, procedures, FAQs; short and searchable",
+              "Courses, modules, assessments; sequenced"
+            ],
+            [
+              "How people arrive",
+              "Search, links from workflows, browsing",
+              "Assignment, enrolment, due dates"
+            ],
+            [
+              "What it records",
+              "Views, searches, article ratings (varies)",
+              "Enrolments, completions, scores, attempts, certificates"
+            ],
+            [
+              "Evidence value for audit",
+              "Low: a page view does not show understanding",
+              "Higher: records assignment and results, though completion alone is limited"
+            ],
+            [
+              "Update cycle",
+              "Frequent, often by many contributors",
+              "Slower; courses are versioned and republished"
+            ],
+            [
+              "Owner",
+              "Operations, service, or knowledge management teams",
+              "L&D, compliance, or HR"
+            ],
+            [
+              "Main risk",
+              "Out of date or conflicting articles",
+              "Training that lags behind current procedures"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "when-to-choose",
+      "heading": "When do you need each?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "You need a knowledge base when people must look up detail they cannot reasonably memorise, and an LMS when you must ensure and prove that people have learned something before they act. Most regulated organisations need both, because obligations require both correct reference information and evidence of training."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**A knowledge base is enough** for low risk, rarely used, or highly detailed information that people can safely look up, such as system settings or product specifications.",
+            "**An LMS is needed** when a regulation or standard requires training, when errors are costly or unsafe, or when you must report completion by role. For example, Australian work health and safety law requires the training provided to workers to be suitable and adequate for the nature of the work and its risks ([WHS Regulations 2011, r 39](https://www.legislation.gov.au/F2011L02664/latest/text)).",
+            "**A knowledge base cannot substitute** for training on judgement heavy tasks, such as recognising a reportable matter or a hazardous condition, because people need to know to look before they can look it up."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "using-together",
+      "heading": "How do a knowledge base and an LMS work together?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They work best when training teaches the concepts and judgement, and the knowledge base holds the detailed, changeable reference that training points to. The link between them must be maintained, or training and reference drift apart."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Keep one approved source for each procedure or policy, and reference it from both systems rather than copying text.",
+            "Train people on why the procedure exists, the decisions it involves, and where to find the detail.",
+            "Link from course content to the relevant knowledge base articles, and from articles to the related training.",
+            "When a source changes, flag every course and article that depends on it for review.",
+            "If activity tracking is needed across both, record knowledge base use and course activity in a shared learning record store using xAPI, which the Advanced Distributed Learning (ADL) Initiative notes can track activities such as reading an article ([ADL Initiative](https://adlnet.gov/projects/xapi/))."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Drift between the two is a form of [knowledge drift](/glossary/knowledge-drift). See also [how to convert SOPs into training](/guides/how-to-convert-sops-into-training) and [how to detect outdated training content](/guides/how-to-detect-outdated-training-content)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry keeps a single knowledge framework, with each concept linked to its source document, and generates training from it. When a source policy or procedure changes, the dependent concepts, content, and assessments are identified for review, which helps keep what is taught consistent with what the reference says."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can a knowledge base replace compliance training?",
+      "a": "Generally no. Regulators and auditors usually look for evidence that people were trained and understood their obligations. Viewing an article does not show that. A knowledge base is valuable support, but required training typically still needs assignment, completion, and assessment records."
+    },
+    {
+      "q": "Can an LMS be used as a knowledge base?",
+      "a": "Some teams store reference documents in the LMS, but LMS search and navigation are usually built around courses, not quick answers. People under time pressure tend not to open a course to find one fact, so reference material is usually better placed where the work happens."
+    },
+    {
+      "q": "What is performance support?",
+      "a": "Performance support means giving people information or tools at the moment they perform a task, such as checklists, job aids, and in application guidance. A knowledge base is one form of performance support. It complements training rather than replacing it."
+    },
+    {
+      "q": "Who should own each system?",
+      "a": "Ownership usually follows purpose: operational or knowledge management teams own the knowledge base, and L&D or compliance own the LMS. What matters most is a shared process for changes, so that an update to a procedure triggers review of the related training."
+    }
+  ],
+  "sources": [
+    {
+      "title": "P9274.3.1: Standard for Packaging, Launch, and Run-time of Experience Application Programming Interface (xAPI) in Session-based Learning",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/9274.3.1/11183/"
+    },
+    {
+      "title": "ISO 30401 Knowledge management systems: Requirements",
+      "publisher": "International Organization for Standardization (ISO)",
+      "url": "https://www.iso.org/standard/68683.html"
+    },
+    {
+      "title": "Work Health and Safety Regulations 2011 (Cth), regulation 39",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2011L02664/latest/text"
+    },
+    {
+      "title": "Experience API (xAPI) Standard",
+      "publisher": "Advanced Distributed Learning (ADL) Initiative",
+      "url": "https://adlnet.gov/projects/xapi/"
+    }
+  ],
+  "related": [
+    "learning-management-system",
+    "knowledge-management",
+    "knowledge-drift",
+    "standard-operating-procedure",
+    "how-to-convert-sops-into-training"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge transformation",
+      "href": "/platform/knowledge-transformation"
+    },
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 2,
+  "factCheck": [
+    {
+      "claim": "ISO 30401 sets requirements and guidelines for a management system for knowledge management in organisations",
+      "source": "https://www.iso.org/standard/68683.html"
+    },
+    {
+      "claim": "WHS Regulations r39(2): training suitable and adequate having regard to the nature of work, risks, and control measures",
+      "source": "https://www.legislation.gov.au/F2011L02664/latest/text"
+    },
+    {
+      "claim": "ADL lists reading an article as an activity xAPI can track",
+      "source": "https://adlnet.gov/projects/xapi/"
+    }
+  ]
+}

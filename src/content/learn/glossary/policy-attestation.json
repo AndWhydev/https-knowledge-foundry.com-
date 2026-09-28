@@ -1,0 +1,206 @@
+{
+  "slug": "policy-attestation",
+  "kind": "glossary",
+  "title": "What is policy attestation?",
+  "seoTitle": "What is policy attestation?",
+  "description": "Policy attestation explained: what a read and understood acknowledgement proves, what it does not, and how to pair it with training and assessment.",
+  "shortAnswer": "A policy attestation is a recorded statement by an employee or contractor that they have received, read and will comply with a specific version of an organisational policy. It creates evidence that a policy was communicated and acknowledged. It does not, on its own, show that the person understood the policy or can apply it, so regulated organisations usually pair attestation with training and assessment for higher risk obligations.",
+  "keyTakeaways": [
+    "An attestation records acknowledgement of a specific policy version by a named person on a date.",
+    "It is evidence of communication, not evidence of understanding or competence.",
+    "Management system standards such as ISO 37301 require policies to be communicated and people to be aware of them; attestation is one common way to evidence that.",
+    "Attestations lose value when the policy changes; each new material version needs a new acknowledgement.",
+    "For high risk policies, combine attestation with scenario based assessment."
+  ],
+  "term": "Policy attestation",
+  "alsoKnownAs": [
+    "Policy acknowledgement",
+    "Read and understood sign off",
+    "Policy sign off"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What does a policy attestation prove?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A policy attestation proves that a named person was given a particular version of a policy and confirmed that they had read it and would follow it. That is useful evidence, but it is limited: it does not show that the person understood the policy or could apply it in a real situation."
+        },
+        {
+          "type": "p",
+          "text": "Attestation is usually captured electronically, for example a checkbox and timestamp in a learning or policy management system, or as a signed form. Some organisations use periodic attestations, where people confirm each year that they have complied with a code of conduct, as well as attestations on first issue."
+        }
+      ]
+    },
+    {
+      "id": "why-used",
+      "heading": "Why do regulated organisations use policy attestation?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Organisations use attestation to evidence that policies were communicated to the people they apply to, which many standards and regulators expect."
+        },
+        {
+          "type": "p",
+          "text": "The technical committee responsible for [ISO 37301](https://www.iso.org/standard/75080.html), the compliance management system standard, [lists](https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf) \"communication of the policy directly to both personnel and business associates\" among the standard's requirements, and the standard contains separate clauses on awareness and communication. Attestation is one practical way to show that communication reached each person."
+        },
+        {
+          "type": "p",
+          "text": "Australian law can also require that a policy be made available to staff. Under s1317AI(5)(f) of the Corporations Act, a whistleblower policy must cover how it will be made available to officers and employees, as ASIC explains in [RG 270](https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-270-whistleblower-policies/). ASIC's guidance goes further than availability: it says entities should also run upfront and ongoing training on the policy. See [whistleblower policy training requirements](/regulations/whistleblower-policy-training-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "differences",
+      "heading": "How is attestation different from training and assessment?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Attestation, training and assessment produce different kinds of evidence, and an auditor will weigh them differently."
+        },
+        {
+          "type": "table",
+          "caption": "What each kind of evidence shows",
+          "head": [
+            "Evidence",
+            "What it shows",
+            "What it does not show"
+          ],
+          "rows": [
+            [
+              "Policy attestation",
+              "The person received and acknowledged a specific policy version",
+              "Understanding or ability to apply it"
+            ],
+            [
+              "Training completion",
+              "The person completed learning about the policy",
+              "That learning was retained or applied"
+            ],
+            [
+              "Knowledge assessment",
+              "The person could answer questions correctly at a point in time",
+              "Performance on the job"
+            ],
+            [
+              "[Competency assessment](/glossary/competency-assessment)",
+              "The person performed the task to the required standard",
+              "Future performance after the policy changes"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Attestation is closest to the awareness requirement in management system standards. [Compliance training](/glossary/compliance-training) and assessment address understanding and application. The same distinction appears in [completion tracking vs competency verification](/compare/completion-tracking-vs-competency-verification)."
+        }
+      ]
+    },
+    {
+      "id": "good-practice",
+      "heading": "What makes a policy attestation useful as evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An attestation is useful when it is specific, current and connected to the rest of the compliance record. The checklist below is an original template."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Record the policy identifier and version number, not just the policy name.",
+            "Record the person, role, date and method of acknowledgement.",
+            "Keep the exact text of the policy version that was attested, with an [audit trail](/glossary/audit-trail) of later changes.",
+            "Trigger a new attestation when a material change is made, and record why earlier attestations were superseded.",
+            "For obligations with serious consequences, add a short scenario assessment and record the result against the same policy version.",
+            "Report attestation coverage by role, so gaps are visible to the policy owner."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Illustrative example",
+          "text": "A superannuation trustee revises its conflicts of interest policy. Staff who attested to version 3 are asked to attest to version 4. Investment staff also complete a five question scenario check on the new gifts threshold. The record then shows who acknowledged version 4 and which higher risk staff showed they can apply the change."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each policy statement to the concepts and assessment points that test it, so an acknowledgement can sit alongside evidence of understanding for the same version. When a policy changes, the affected assessment points are flagged for review."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is a policy attestation legally required?",
+      "a": "Usually not as such. Laws and standards more often require that a policy is communicated, made available or understood. Attestation is a common way to evidence that. Some contracts, industry codes or group policies do require periodic attestation, so check the specific requirement."
+    },
+    {
+      "q": "How often should staff re-attest to policies?",
+      "a": "Whenever a material change is made, and on a periodic cycle if the organisation's risk assessment or an external requirement calls for it. Annual attestation is common for codes of conduct. Attestations to superseded versions should be kept as history but not counted as current."
+    },
+    {
+      "q": "Can an attestation replace compliance training?",
+      "a": "Not for obligations where people must make judgements or follow a process. An attestation shows the person saw the policy. Training and assessment show they can apply it. For low risk, simple policies, attestation alone may be proportionate."
+    },
+    {
+      "q": "What is the difference between attestation and certification?",
+      "a": "In workplace compliance, attestation is a person's own statement of acknowledgement or compliance. Certification usually means an independent party has verified something, such as a certification body assessing a management system against ISO 37301."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ISO 37301:2021 Compliance management systems: Requirements with guidance for use",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/75080.html"
+    },
+    {
+      "title": "ISO 37301 FAQs, May 2022",
+      "publisher": "ISO/TC 309 Governance of organizations",
+      "url": "https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf"
+    },
+    {
+      "title": "RG 270 Whistleblower policies",
+      "publisher": "Australian Securities and Investments Commission",
+      "url": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-270-whistleblower-policies/"
+    }
+  ],
+  "related": [
+    "compliance-training",
+    "mandatory-training",
+    "audit-trail",
+    "how-to-convert-policies-into-training",
+    "whistleblower-policy-training-requirements",
+    "completion-tracking-vs-competency-verification"
+  ],
+  "productLinks": [
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    },
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 6,
+  "factCheck": [
+    {
+      "claim": "ISO TC 309 FAQ lists communication of the policy directly to both personnel and business associates among ISO 37301 requirements.",
+      "source": "https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf"
+    },
+    {
+      "claim": "ISO 37301 has separate clauses 7.3 Awareness and 7.4 Communication.",
+      "source": "https://cdn.standards.iteh.ai/samples/75080/984e9b4dc8a347a7a8376a2b43afef03/ISO-FDIS-37301.pdf"
+    },
+    {
+      "claim": "s1317AI(5)(f) requires a whistleblower policy to cover how it will be made available to officers and employees (RG 270.12); RG 270.131 recommends upfront and ongoing training for every employee.",
+      "source": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-270-whistleblower-policies/"
+    }
+  ]
+}

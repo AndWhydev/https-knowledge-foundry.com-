@@ -1,0 +1,248 @@
+{
+  "slug": "assessment-blueprint",
+  "kind": "glossary",
+  "title": "What is an assessment blueprint?",
+  "seoTitle": "Assessment blueprint: definition",
+  "description": "An assessment blueprint specifies what an assessment covers, at what level, with what weighting and method, before items are written. Structure and example.",
+  "shortAnswer": "An assessment blueprint is a planning document that specifies, before any questions or tasks are written, which outcomes or requirements an assessment will cover, at what cognitive or performance level, with what weighting, using which methods, and against what decision rule. It makes sure the assessment samples the required content in the right proportions, so results are a valid basis for a competence or grading decision.",
+  "keyTakeaways": [
+    "A blueprint is written before items are written; it is the specification the assessment is built to.",
+    "It maps each outcome or requirement to item types, number of items or tasks, level and weighting.",
+    "Blueprints protect validity by stopping assessments from over testing easy content and skipping hard content.",
+    "Australian VET and higher education standards both require assessment that is consistent with the outcomes or training product being assessed."
+  ],
+  "term": "assessment blueprint",
+  "alsoKnownAs": [
+    "test blueprint",
+    "table of specifications",
+    "test specification",
+    "assessment plan"
+  ],
+  "sections": [
+    {
+      "id": "structure",
+      "heading": "What does an assessment blueprint contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An assessment blueprint contains the list of outcomes or requirements to be assessed, the method and level for each, and how much of the assessment each one accounts for. It also records the conditions of assessment and the rule used to reach a decision."
+        },
+        {
+          "type": "table",
+          "caption": "Typical blueprint fields",
+          "head": [
+            "Field",
+            "What it specifies"
+          ],
+          "rows": [
+            [
+              "Outcome or requirement",
+              "The [learning outcome](/glossary/learning-outcomes), performance criterion or obligation being assessed"
+            ],
+            [
+              "Level",
+              "The depth required, for example recall, application or analysis, or independent performance"
+            ],
+            [
+              "Method",
+              "Observation, scenario, written questions, work product, practical task"
+            ],
+            [
+              "Weighting or count",
+              "Number of items or proportion of marks, reflecting importance and risk"
+            ],
+            [
+              "Conditions",
+              "Equipment, time, setting, open or closed book, supervision"
+            ],
+            [
+              "Decision rule",
+              "Pass mark or competence rule, including any must pass items"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "australian-use",
+      "heading": "How do Australian standards relate to assessment blueprints?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No Australian standard requires a document called a blueprint, but both the VET and higher education standards require what a blueprint delivers: assessment that covers the right content at the right level. Standard 1.3 of the 2025 Standards for RTOs requires assessment to be consistent with the training product, and the Australian Skills Quality Authority (ASQA) [assessment practice guide](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide) expects assessment tools to be reviewed before use against the principles of assessment and rules of evidence."
+        },
+        {
+          "type": "p",
+          "text": "The same guide lists \"developing evidence criteria (i.e. decision-making rules) to judge the quality of performance\" as one way to show reliability. In higher education, Standard 1.4.3 of the [Higher Education Standards Framework (Threshold Standards) 2021](https://www.legislation.gov.au/F2021L00488/latest/text) requires methods of assessment that are \"consistent with the learning outcomes being assessed\" and \"capable of confirming that all specified learning outcomes are achieved\"."
+        },
+        {
+          "type": "p",
+          "text": "UNSW's [guidance on aligning assessment with outcomes](https://www.teaching.unsw.edu.au/aligning-assessment-learning-outcomes) makes the same point in practical terms, suggesting staff map task types to outcomes and assign grade weightings appropriate to the relative importance of those outcomes."
+        }
+      ]
+    },
+    {
+      "id": "nearby-terms",
+      "heading": "How is an assessment blueprint different from a curriculum map or a marking guide?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A [curriculum map](/glossary/curriculum-mapping) shows where outcomes are assessed across a whole program; a blueprint specifies the content of one assessment. A marking guide or rubric tells assessors how to judge responses; the blueprint decides what the responses will be about in the first place."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "[Constructive alignment](/glossary/constructive-alignment) is the principle; the blueprint is how it is applied to a single assessment.",
+            "A [competency assessment](/glossary/competency-assessment) is the event; the blueprint is its design specification.",
+            "Blueprints apply to both [formative and summative assessment](/compare/formative-vs-summative-assessment), though summative blueprints need tighter decision rules."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does an assessment blueprint look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Illustrative blueprint for a 20 item knowledge check plus one observed task, for a hospital hand hygiene refresher."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Requirement",
+            "Level",
+            "Method",
+            "Items or tasks",
+            "Decision rule"
+          ],
+          "rows": [
+            [
+              "Identifies the moments for hand hygiene",
+              "Recall and recognition",
+              "Multiple choice scenarios",
+              "6 items",
+              "5 of 6 correct"
+            ],
+            [
+              "Selects the correct product and technique",
+              "Application",
+              "Image based items",
+              "6 items",
+              "5 of 6 correct"
+            ],
+            [
+              "Recognises when gloves do not replace hand hygiene",
+              "Application",
+              "Scenario items",
+              "4 items",
+              "All correct (must pass)"
+            ],
+            [
+              "Reports a breach through the correct channel",
+              "Application",
+              "Scenario items",
+              "4 items",
+              "3 of 4 correct"
+            ],
+            [
+              "Performs hand hygiene technique correctly",
+              "Performance",
+              "Observation against checklist",
+              "1 observed task",
+              "All critical steps correct"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Note the must pass row: a high risk misconception cannot be offset by strong scores elsewhere. Building blueprints is covered in [how to create an assessment blueprint](/guides/how-to-create-an-assessment-blueprint)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry holds assessment points in the framework, each tied to an outcome, level and source. A blueprint can be generated from those points, and item coverage is checked against it before an assessment is released."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is an assessment blueprint the same as a table of specifications?",
+      "a": "Yes, in most uses. Table of specifications is the long established term in educational testing, usually a grid of content areas against cognitive levels with the number of items in each cell. Assessment blueprint is the broader modern term and often also covers practical tasks, conditions and decision rules."
+    },
+    {
+      "q": "Do short compliance quizzes need a blueprint?",
+      "a": "A light one, yes. Even a ten question quiz can end up testing trivia while missing the obligations that matter. Listing the obligations, choosing how many items each gets, and marking which ones are must pass takes little time and makes the result far more defensible."
+    },
+    {
+      "q": "How does a blueprint help with question banks and randomisation?",
+      "a": "When items are drawn randomly from a bank, the blueprint defines how many must come from each outcome and level. Without it, two learners can receive assessments of very different coverage and difficulty, which undermines reliability."
+    },
+    {
+      "q": "Who should review an assessment blueprint?",
+      "a": "A subject matter expert should confirm coverage and weighting, and an assessment specialist should check levels, methods and decision rules. For regulated topics, the obligation owner, such as compliance or clinical governance, should confirm the must pass items."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Assessment Practice Guide",
+      "publisher": "Australian Skills Quality Authority",
+      "url": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
+    },
+    {
+      "title": "Higher Education Standards Framework (Threshold Standards) 2021",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2021L00488/latest/text"
+    },
+    {
+      "title": "Aligning Assessment with Outcomes",
+      "publisher": "UNSW Sydney",
+      "url": "https://www.teaching.unsw.edu.au/aligning-assessment-learning-outcomes"
+    }
+  ],
+  "related": [
+    "curriculum-mapping",
+    "constructive-alignment",
+    "competency-assessment",
+    "learning-outcomes",
+    "how-to-create-an-assessment-blueprint",
+    "formative-vs-summative-assessment"
+  ],
+  "productLinks": [
+    {
+      "label": "Verification and trust",
+      "href": "/platform/verification-trust"
+    },
+    {
+      "label": "Framework intelligence",
+      "href": "/platform/framework-intelligence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 5,
+  "factCheck": [
+    {
+      "claim": "Standard 1.3: assessment consistent with training product; tools reviewed prior to use against principles of assessment and rules of evidence",
+      "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
+    },
+    {
+      "claim": "ASQA reliability example: developing evidence criteria (decision-making rules) to judge quality of performance",
+      "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
+    },
+    {
+      "claim": "HESF Standard 1.4.3 wording on methods of assessment",
+      "source": "https://www.legislation.gov.au/F2021L00488/latest/text"
+    },
+    {
+      "claim": "UNSW: map task types to learning outcomes and assign grade weightings appropriate to relative importance",
+      "source": "https://www.teaching.unsw.edu.au/aligning-assessment-learning-outcomes"
+    }
+  ]
+}

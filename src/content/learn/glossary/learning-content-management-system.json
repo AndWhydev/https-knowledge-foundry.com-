@@ -1,0 +1,193 @@
+{
+  "slug": "learning-content-management-system",
+  "kind": "glossary",
+  "title": "What is a learning content management system?",
+  "seoTitle": "Learning content management system",
+  "description": "A learning content management system (LCMS) is where teams author, version and reuse training content. How it works and how it differs from an LMS.",
+  "shortAnswer": "A learning content management system (LCMS) is software for creating, storing, versioning, and reusing learning content, usually as small components that can be assembled into courses. Authors and subject matter experts work in the LCMS, then publish finished courses to a learning management system (LMS) or other channel for delivery. The LCMS manages the content; the LMS manages learners and their records.",
+  "keyTakeaways": [
+    "An LCMS is author facing: it manages content components, versions, and reuse.",
+    "An LMS is learner and administrator facing: it assigns, delivers, and tracks courses.",
+    "Content reuse depends on describing components with metadata, which is what the IEEE Learning Object Metadata standard was designed for.",
+    "For regulated training, the useful LCMS feature is traceability: knowing every course that uses a component when the underlying policy changes."
+  ],
+  "term": "learning content management system",
+  "alsoKnownAs": [
+    "LCMS"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What does an LCMS do?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An LCMS gives authors a controlled place to build and maintain learning content, rather than keeping course files on individual computers or inside the delivery system. Its core jobs are authoring, storage, version control, reuse, and publishing to one or more delivery channels."
+        },
+        {
+          "type": "p",
+          "text": "The idea of breaking content into reusable pieces is older than most current products. The Advanced Distributed Learning (ADL) Initiative built [SCORM](/glossary/scorm) around content objects that are portable and reusable across systems ([ADL Initiative](https://adlnet.gov/past-projects/scorm/)), and the IEEE Standard for Learning Object Metadata (IEEE 1484.12.1) defines a metadata schema so that systems can \"manage, locate, evaluate, and exchange\" learning resources ([IEEE SA](https://standards.ieee.org/ieee/1484.12.1/7699/))."
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "heading": "How does an LCMS work?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An LCMS works by storing content as components with metadata, assembling those components into courses, and publishing the assembled courses in formats that delivery systems accept."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Components:** a definition, a procedure step, a scenario, a question, or an image is stored once as its own item.",
+            "**Metadata:** each item carries information such as topic, owner, source document, review date, and version.",
+            "**Assembly:** authors combine components into lessons and courses, often in several variants for different roles or jurisdictions.",
+            "**Review and approval:** workflow routes changes to subject matter experts and approvers before release.",
+            "**Publishing:** the LCMS exports courses as SCORM, [xAPI](/glossary/xapi), or [cmi5](/glossary/cmi5) packages, web pages, or documents for delivery through a [learning management system](/glossary/learning-management-system)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-it-differs",
+      "heading": "How is an LCMS different from an LMS?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An LCMS manages what the training says; an LMS manages who takes the training and what happened when they did. Most organisations that use an LCMS also run an LMS, with the LCMS publishing into it."
+        },
+        {
+          "type": "table",
+          "caption": "LCMS and LMS compared",
+          "head": [
+            "Aspect",
+            "LCMS",
+            "LMS"
+          ],
+          "rows": [
+            [
+              "Main users",
+              "Authors, instructional designers, subject matter experts",
+              "Learners, managers, training administrators"
+            ],
+            [
+              "Unit of management",
+              "Content components and course versions",
+              "Learners, enrolments, and completion records"
+            ],
+            [
+              "Key question it answers",
+              "Which courses use this piece of content, and is it current?",
+              "Who has completed this course, and who is overdue?"
+            ],
+            [
+              "Typical output",
+              "Published course packages",
+              "Completion and compliance reports"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A [learning experience platform](/glossary/learning-experience-platform) is different again: it helps learners discover content from many sources. For a longer treatment, see [LMS vs LCMS](/compare/lms-vs-lcms)."
+        }
+      ]
+    },
+    {
+      "id": "regulated-use",
+      "heading": "Why does an LCMS matter for regulated training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An LCMS matters in regulated settings because obligations change and training must change with them. If one policy statement appears in twelve courses, a component based system can show all twelve and update them together, where a folder of separately built modules relies on someone remembering where the text was copied."
+        },
+        {
+          "type": "callout",
+          "title": "Illustrative example",
+          "text": "A hospital network stores its hand hygiene procedure steps as components linked to the current infection control policy. When the policy is revised, the LCMS lists every course, role variant, and assessment item that uses the affected steps. Authors update the components once, reviewers approve the change, and new versions are published to the LMS with a record of what changed and why."
+        },
+        {
+          "type": "p",
+          "text": "This kind of traceability supports [how to update training when regulations change](/guides/how-to-update-training-when-regulations-change) and [version control for training content](/guides/how-to-maintain-version-control-for-training-content)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry works one level above content components: it models the concepts, obligations, and assessment points that content is written from, and records the source of each. Content generated from that framework can then be traced back to the obligation it serves when either changes."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do small organisations need an LCMS?",
+      "a": "Often not. If a team maintains a handful of courses with little overlap, an authoring tool and good file management may be enough. An LCMS earns its cost when many courses share content, when several authors work together, or when content must be traced to changing policies and regulations."
+    },
+    {
+      "q": "Is an LCMS the same as a learning object repository?",
+      "a": "They overlap. A learning object repository stores and describes reusable learning resources so they can be found and shared. An LCMS usually adds authoring, workflow, version control, and publishing on top of storage. Some organisations use the terms loosely for the same system."
+    },
+    {
+      "q": "Can an LMS and an LCMS be the same product?",
+      "a": "Some products combine both functions. The distinction is still useful when evaluating them, because content management and learner management have different users, data, and controls, and a combined product may be strong in one and thin in the other."
+    },
+    {
+      "q": "What formats does an LCMS publish?",
+      "a": "Commonly SCORM packages for broad LMS compatibility, and increasingly cmi5 or other xAPI based packages. Many also publish to web pages, PDFs, or print, which is useful when the same approved content must appear in training and in procedure documents."
+    }
+  ],
+  "sources": [
+    {
+      "title": "IEEE 1484.12.1-2020: IEEE Standard for Learning Object Metadata",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/1484.12.1/7699/"
+    },
+    {
+      "title": "SCORM",
+      "publisher": "Advanced Distributed Learning (ADL) Initiative",
+      "url": "https://adlnet.gov/past-projects/scorm/"
+    },
+    {
+      "title": "An evaluation framework and comparative analysis of the widely used learning management systems",
+      "publisher": "PLoS One (Abid et al., 2024)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11658596/"
+    }
+  ],
+  "factCheck": [
+    {
+      "claim": "IEEE 1484.12.1 (active, 2020) defines a metadata schema for learning objects to help systems manage, locate, evaluate and exchange them",
+      "source": "https://standards.ieee.org/ieee/1484.12.1/7699/"
+    },
+    {
+      "claim": "ADL describes SCORM as addressing interoperability, portability and reusability of e-learning content",
+      "source": "https://adlnet.gov/past-projects/scorm/"
+    }
+  ],
+  "related": [
+    "learning-management-system",
+    "learning-experience-platform",
+    "scorm",
+    "lms-vs-lcms",
+    "how-to-maintain-version-control-for-training-content"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    },
+    {
+      "label": "Remediation",
+      "href": "/platform/remediation"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 6
+}

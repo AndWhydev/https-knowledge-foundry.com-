@@ -1,0 +1,257 @@
+{
+  "slug": "knowledge-graph",
+  "kind": "glossary",
+  "title": "What is a knowledge graph?",
+  "seoTitle": "What is a knowledge graph?",
+  "description": "A knowledge graph represents entities and their relationships as connected data. How W3C standards such as RDF, OWL and SPARQL apply, and its use in learning.",
+  "shortAnswer": "A knowledge graph is a structured representation of knowledge in which entities, such as concepts, people, obligations or procedures, are stored as nodes and the relationships between them as labelled edges. It can be built on open W3C standards such as the Resource Description Framework (RDF), where every statement is a subject, predicate and object triple, or on other graph models. It lets people and software query how things connect, not only what they are.",
+  "keyTakeaways": [
+    "A knowledge graph stores entities as nodes and relationships as labelled edges, so connections are data rather than prose.",
+    "The W3C Resource Description Framework (RDF) models knowledge as subject, predicate, object triples; an RDF graph is a set of such triples.",
+    "Related W3C standards cover ontologies (OWL), controlled vocabularies (SKOS) and querying (SPARQL).",
+    "In learning, a knowledge graph can link obligations, concepts, learning outcomes, assessments and sources, which supports traceability and impact analysis.",
+    "A taxonomy is a hierarchy; a knowledge graph allows many relationship types."
+  ],
+  "term": "Knowledge graph",
+  "alsoKnownAs": [
+    "KG",
+    "Semantic graph",
+    "Linked data graph"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "How is a knowledge graph defined?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A knowledge graph is a graph of data in which nodes represent things and edges represent relationships between them. A widely cited survey by [Hogan and colleagues](https://arxiv.org/abs/2003.02320), published in ACM Computing Surveys in 2021, adopts an inclusive definition: \"a graph of data intended to accumulate and convey knowledge of the real world, whose nodes represent entities of interest and whose edges represent relations between these entities.\""
+        },
+        {
+          "type": "p",
+          "text": "The term has no single standards body definition, but the most established open standards for building one come from the World Wide Web Consortium (W3C)."
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "heading": "How do W3C standards represent a knowledge graph?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "In the W3C approach, knowledge is expressed as triples. [RDF 1.1 Concepts](https://www.w3.org/TR/rdf11-concepts/), a W3C Recommendation, states that a triple has a subject, a predicate and an object, and that an RDF graph is a set of RDF triples. Things are identified by IRIs, which are web style global identifiers, so the same concept can be referenced consistently across systems."
+        },
+        {
+          "type": "table",
+          "caption": "W3C standards used in knowledge graphs",
+          "head": [
+            "Standard",
+            "Role",
+            "Status as at September 2026"
+          ],
+          "rows": [
+            [
+              "[RDF 1.1](https://www.w3.org/TR/rdf11-concepts/)",
+              "Data model: triples and graphs",
+              "W3C Recommendation (2014)"
+            ],
+            [
+              "[RDF 1.2](https://www.w3.org/TR/rdf12-concepts/)",
+              "Adds triple terms, allowing statements about statements",
+              "Candidate Recommendation snapshot, 7 April 2026"
+            ],
+            [
+              "[OWL 2](https://www.w3.org/TR/owl2-overview/)",
+              "Ontology language with formally defined meaning",
+              "W3C Recommendation, second edition (2012)"
+            ],
+            [
+              "[SKOS](https://www.w3.org/TR/skos-reference/)",
+              "Model for thesauri, taxonomies and classification schemes",
+              "W3C Recommendation (2009)"
+            ],
+            [
+              "[SPARQL 1.1](https://www.w3.org/TR/sparql11-query/)",
+              "Query language for RDF graphs",
+              "W3C Recommendation (2013)"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "RDF 1.2 is relevant to provenance: its triple terms let a graph record facts about a statement itself, such as who asserted it and from which source. Knowledge graphs can also be built on property graph databases, which use a different model and query languages, and many organisations use both."
+        }
+      ]
+    },
+    {
+      "id": "example",
+      "heading": "What does a knowledge graph look like for training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "In training governance, a knowledge graph connects what must be known to why it must be known and how it is tested. The triples below are an **illustrative example** written in plain language rather than RDF syntax."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative triples linking an obligation to assessment",
+          "head": [
+            "Subject",
+            "Predicate",
+            "Object"
+          ],
+          "rows": [
+            [
+              "WHS obligation s19(3)(f)",
+              "is addressed by",
+              "Learning outcome LO-FL-03"
+            ],
+            [
+              "Learning outcome LO-FL-03",
+              "requires concept",
+              "Pre start inspection"
+            ],
+            [
+              "Pre start inspection",
+              "is described in",
+              "Work instruction WI-22 version 4"
+            ],
+            [
+              "Assessment item A-117",
+              "assesses",
+              "Learning outcome LO-FL-03"
+            ],
+            [
+              "Worker 0452",
+              "passed",
+              "Assessment item A-117"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Because every link is data, a single query can answer questions that are slow to answer from documents, such as which assessment items depend on work instruction WI-22 when it moves to version 5. That is the basis for detecting [knowledge drift](/glossary/knowledge-drift) and for [curriculum mapping](/glossary/curriculum-mapping)."
+        }
+      ]
+    },
+    {
+      "id": "differences",
+      "heading": "How is a knowledge graph different from a taxonomy or a database?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A taxonomy arranges terms in a hierarchy with broader and narrower relationships. A knowledge graph can include a taxonomy, but it also allows any number of relationship types, such as requires, assesses or supersedes."
+        },
+        {
+          "type": "p",
+          "text": "A relational database can store the same facts in tables, but relationships are implied by keys and joins rather than named explicitly. Knowledge graphs suit domains where relationships change often or where the questions are about paths through connected things. A [competency framework](/glossary/competency-framework) is often a good first candidate for graph representation. For how structured frameworks compare with unstructured generation, see [AI course generators vs framework first platforms](/compare/ai-content-generator-vs-structured-framework)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry represents a domain as a graph of concepts, relationships, assessment points and provenance before any content is written. Content, assessments and records then attach to nodes in that graph, so the effect of any change can be traced."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you need RDF to build a knowledge graph?",
+      "a": "No. RDF is the main open W3C standard and is strong for sharing and linking data across systems, but knowledge graphs are also built on property graph databases and other models. The choice depends on interoperability needs, query patterns and existing tools."
+    },
+    {
+      "q": "What is an ontology in a knowledge graph?",
+      "a": "An ontology defines the types of things and relationships in a domain and the rules between them, for example that every assessment item assesses at least one learning outcome. OWL 2 is the W3C language for ontologies with formally defined meaning."
+    },
+    {
+      "q": "How do knowledge graphs relate to AI?",
+      "a": "Knowledge graphs can give AI systems structured, sourced facts to draw on, and they can check or constrain generated output. They are also used to explain why an answer was given, because the path through the graph can be shown."
+    },
+    {
+      "q": "Is a knowledge graph the same as a knowledge base?",
+      "a": "Not necessarily. A knowledge base is any store of knowledge, often articles or documents. A knowledge graph stores knowledge as connected entities and relationships. A knowledge base can be built on a knowledge graph, but many are simply collections of pages."
+    }
+  ],
+  "sources": [
+    {
+      "title": "RDF 1.1 Concepts and Abstract Syntax",
+      "publisher": "World Wide Web Consortium (W3C)",
+      "url": "https://www.w3.org/TR/rdf11-concepts/"
+    },
+    {
+      "title": "RDF 1.2 Concepts and Abstract Data Model",
+      "publisher": "World Wide Web Consortium (W3C)",
+      "url": "https://www.w3.org/TR/rdf12-concepts/"
+    },
+    {
+      "title": "OWL 2 Web Ontology Language Document Overview",
+      "publisher": "World Wide Web Consortium (W3C)",
+      "url": "https://www.w3.org/TR/owl2-overview/"
+    },
+    {
+      "title": "SKOS Simple Knowledge Organization System Reference",
+      "publisher": "World Wide Web Consortium (W3C)",
+      "url": "https://www.w3.org/TR/skos-reference/"
+    },
+    {
+      "title": "SPARQL 1.1 Query Language",
+      "publisher": "World Wide Web Consortium (W3C)",
+      "url": "https://www.w3.org/TR/sparql11-query/"
+    },
+    {
+      "title": "Knowledge Graphs",
+      "publisher": "Hogan et al., ACM Computing Surveys (arXiv)",
+      "url": "https://arxiv.org/abs/2003.02320"
+    }
+  ],
+  "related": [
+    "knowledge-management",
+    "knowledge-drift",
+    "curriculum-mapping",
+    "competency-framework",
+    "ai-content-generator-vs-structured-framework"
+  ],
+  "productLinks": [
+    {
+      "label": "Framework intelligence",
+      "href": "/platform/framework-intelligence"
+    },
+    {
+      "label": "Technical overview",
+      "href": "/platform/technical-overview"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 5,
+  "factCheck": [
+    {
+      "claim": "An RDF triple consists of subject, predicate and object; an RDF graph is a set of RDF triples; W3C Recommendation 25 February 2014.",
+      "source": "https://www.w3.org/TR/rdf11-concepts/"
+    },
+    {
+      "claim": "RDF 1.2 Concepts is a Candidate Recommendation Snapshot dated 7 April 2026 and introduces triple terms.",
+      "source": "https://www.w3.org/TR/rdf12-concepts/"
+    },
+    {
+      "claim": "OWL 2 is an ontology language for the Semantic Web with formally defined meaning; W3C Recommendation 11 December 2012 (second edition).",
+      "source": "https://www.w3.org/TR/owl2-overview/"
+    },
+    {
+      "claim": "SKOS is a W3C Recommendation (18 August 2009), a common data model for sharing and linking knowledge organization systems.",
+      "source": "https://www.w3.org/TR/skos-reference/"
+    },
+    {
+      "claim": "SPARQL 1.1 Query Language is a W3C Recommendation of 21 March 2013.",
+      "source": "https://www.w3.org/TR/sparql11-query/"
+    },
+    {
+      "claim": "Hogan et al. define a knowledge graph as a graph of data intended to accumulate and convey knowledge of the real world, whose nodes represent entities of interest and whose edges represent relations between these entities; ACM Computing Surveys 54(4) 2021.",
+      "source": "https://arxiv.org/abs/2003.02320"
+    }
+  ]
+}

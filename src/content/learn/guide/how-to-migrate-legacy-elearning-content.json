@@ -1,0 +1,264 @@
+{
+  "slug": "how-to-migrate-legacy-elearning-content",
+  "kind": "guide",
+  "title": "How do you migrate legacy e-learning content?",
+  "seoTitle": "Migrating legacy e-learning content",
+  "description": "How to migrate legacy e-learning: inventory and triage first, decide retire, move, or rebuild per item, keep completion records, and test before cut over.",
+  "shortAnswer": "To migrate legacy e-learning content, inventory and triage the library before moving anything. For each item decide whether to retire, move as is, rebuild, or merge it, based on whether it is still needed, accurate, and technically sound. Export historical completion records with the content version they relate to, keep them for as long as your obligations require, and test every migrated package in the target platform before switching over.",
+  "keyTakeaways": [
+    "Migration is the best chance in years to remove outdated and duplicate content. Moving everything as is carries old errors into a new system.",
+    "Decide per item: retire, move as is, rebuild, or merge. Accuracy and continued need matter more than file format.",
+    "Historical completion records are compliance evidence. Keep them with the content version they relate to, even when the content itself is retired.",
+    "Know your packaging standards: SCORM, xAPI (current version 2.0), and cmi5 behave differently in launch and tracking, so test in the target platform.",
+    "Accessibility debt is common in legacy content. WCAG 2.2 gives a current benchmark for rebuilt items."
+  ],
+  "sections": [
+    {
+      "id": "why-not-lift-and-shift",
+      "heading": "Why not just move everything to the new platform?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Moving everything unchanged transfers outdated, duplicated, and inaccessible content into a new system and makes it look current. Most legacy libraries hold modules nobody is assigned, modules that teach superseded rules, and several versions of the same topic built by different teams."
+        },
+        {
+          "type": "p",
+          "text": "A migration is also a practical deadline. Every item has to be touched at least once to be packaged, loaded, and tested, so the marginal cost of deciding whether it should exist at all is low. The method overlaps with [auditing an existing training library](/guides/how-to-audit-an-existing-training-library), and many teams run the audit as the first phase of the migration."
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "heading": "What are the steps to migrate legacy e-learning?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Inventory, triage, protect the records, prepare the content, test, and then cut over. Each step below has an output that feeds the next and forms part of the migration record."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Inventory the library.** Export a list of every item with its owner, last update, format and packaging standard, assignment rules, and completions in the last two years. Output: an inventory spreadsheet.",
+            "**Map items to current needs.** Link each item to the obligation, role, or capability it serves, using your [training matrix](/glossary/training-matrix) or obligations register. Output: an inventory with a purpose column, and a list of items with no purpose.",
+            "**Check accuracy.** Ask owners to confirm whether each needed item reflects current law, policy, procedure, and systems. Output: an accuracy status per item.",
+            "**Triage.** Apply the decision rules in the next section. Output: a decision per item with the reason recorded.",
+            "**Protect historical records.** Export completion and assessment records with learner, item, version, date, and score, and confirm how long each must be kept. Output: an archived, searchable record set and a retention note.",
+            "**Prepare content.** Repackage, rebuild, or merge according to the triage decision. Output: packages ready for loading, each with a new version number.",
+            "**Test in the target platform.** Check launch, progress, completion, scoring, resume, and reporting for each package type, on the devices learners use. Output: a test log with pass or fail per item.",
+            "**Cut over and communicate.** Switch assignments, retire old links, and tell learners and managers what changed. Output: a cut over record and a list of retired items with retirement dates."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "triage",
+      "heading": "How do you decide what to retire, move, or rebuild?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Decide on need first, accuracy second, and technical condition third. An item that no role needs should be retired however well it runs; an inaccurate item should not move even if it would load without errors."
+        },
+        {
+          "type": "table",
+          "caption": "Triage decision rules for legacy e-learning items",
+          "head": [
+            "Condition",
+            "Decision",
+            "Record to keep"
+          ],
+          "rows": [
+            [
+              "No current role, obligation, or capability needs it",
+              "Retire",
+              "Retirement date, reason, and its historical completion records"
+            ],
+            [
+              "Needed, accurate, and runs correctly in the target platform",
+              "Move as is",
+              "Test result and the new version number"
+            ],
+            [
+              "Needed and accurate, but the packaging or technology will not run in the target platform, or it fails accessibility checks",
+              "Rebuild in a current format",
+              "Link from old version to new version"
+            ],
+            [
+              "Needed but inaccurate or outdated",
+              "Revise or rebuild before moving; never move unchanged",
+              "Accuracy review and approval"
+            ],
+            [
+              "Several items cover the same outcomes for the same roles",
+              "Merge into one item",
+              "Mapping from each old item to the merged item"
+            ],
+            [
+              "Ownership unknown",
+              "Hold until an owner is assigned, then triage",
+              "Escalation record"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Illustrative example",
+          "text": "A team reviews 12 privacy modules in a legacy library. Three have had no assignments in two years and are retired. Five cover the same induction content for different business units and are merged into one module with role specific scenarios. Two are accurate and move as is after testing. Two refer to superseded internal policies and are rebuilt. The figures are invented to show how the rules apply; your proportions will differ."
+        }
+      ]
+    },
+    {
+      "id": "standards",
+      "heading": "Which technical standards matter in a migration?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The packaging and tracking standards determine whether content launches and reports correctly in the new platform, and the accessibility standard determines whether everyone can use it. Check both before committing to a move as is decision."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**SCORM.** The most common packaging standard in legacy libraries. Different SCORM versions track completion and scores differently, so confirm which version each package uses and which the target platform supports. See [SCORM](/glossary/scorm).",
+            "**xAPI.** A specification for recording learning experiences as statements, maintained by the Advanced Distributed Learning (ADL) Initiative. The current version is xAPI 2.0 ([ADL](https://github.com/adlnet/xAPI-Spec)). See [SCORM vs xAPI](/compare/scorm-vs-xapi).",
+            "**cmi5.** A profile that sets rules for using xAPI when learners launch content from a learning management system, covering launch, authentication, session management, reporting, and course structure ([cmi5 project](https://aicc.github.io/CMI-5_Spec_Current/)).",
+            "**WCAG 2.2.** The World Wide Web Consortium's Web Content Accessibility Guidelines, a W3C Recommendation, give testable success criteria for accessible web content ([W3C](https://www.w3.org/TR/WCAG22/)). Legacy items built for older browsers or plugins often fail keyboard, caption, or contrast criteria."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "If the new platform stores xAPI statements, decide early whether historical SCORM records will be converted, stored as archived records, or both. Conversion rarely recovers detail that the original package never recorded."
+        }
+      ]
+    },
+    {
+      "id": "records",
+      "heading": "What happens to historical training records?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Historical completion and assessment records must survive the migration in a form you can search and produce, because they are evidence that people were trained on the version in force at the time. Retiring a module does not retire the obligation to show who completed it."
+        },
+        {
+          "type": "p",
+          "text": "AUSTRAC, for example, suggests anti money laundering training records capture what was delivered, including the content and content version, how understanding was assessed, and each person's training history ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training)). Keep a copy of retired content, or at least its outline and version, so a record can be interpreted later."
+        },
+        {
+          "type": "p",
+          "text": "Retention periods vary by regime and are not set here. Confirm them with your records and compliance teams for each type of training. Records also contain personal information: under Australian Privacy Principle 11, entities must take reasonable steps to protect personal information and have obligations to destroy or de-identify it in certain circumstances ([OAIC](https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-quick-reference)). A migration is a good time to apply both rules deliberately. See [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "heading": "What should you test before switching over?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Test that each package launches, tracks, and reports as expected, and that assignments and historical records appear correctly for real users. Most migration problems surface as missing completions weeks later, when they are harder to fix."
+        },
+        {
+          "type": "callout",
+          "title": "Pre cut over test checklist",
+          "text": "Launches from the platform on desktop and mobile. Resumes where the learner left off. Records completion under the rule the item should use. Passes the correct score to the platform. Shows in manager and compliance reports. Assignment rules put the item in front of the right roles. Historical records are searchable by person, item, version, and date. Old links redirect or show a clear retirement notice. Rebuilt items meet your accessibility target."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps legacy content to a knowledge framework of outcomes and assessment points before migration, which shows duplicates, gaps, and items with no current purpose. Rebuilt content is then produced against the framework rather than copied forward. The [enterprise learning modernisation](/platform/enterprise-learning-modernisation) page describes this approach."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should we convert SCORM packages to xAPI during migration?",
+      "a": "Only if the target platform or your reporting needs require it. Many platforms run SCORM well, and conversion adds testing effort. Items being rebuilt anyway are a natural point to adopt a newer standard such as cmi5, which uses xAPI with rules designed for launching content from a learning management system."
+    },
+    {
+      "q": "How long does a legacy e-learning migration take?",
+      "a": "It depends mostly on the triage outcome, not the library size. Items that move as is need testing only; rebuilds and merges need design, review, and approval. Running the triage early gives a realistic estimate, because it shows how many items fall into each category before any build work is committed."
+    },
+    {
+      "q": "What if the source files for old modules are lost?",
+      "a": "If only the published package survives, you can usually move it as is if it runs and is accurate, but you cannot easily edit it. Treat lost source files as a reason to rebuild at the next required change, and record the limitation in the inventory so owners are not surprised."
+    },
+    {
+      "q": "Do we need to reassign training to everyone after migration?",
+      "a": "Not if completion records migrate correctly and the content has not materially changed. Where an item was rebuilt because it was inaccurate, assess whether people trained on the old version need the corrected content, starting with roles where the error could cause harm."
+    }
+  ],
+  "sources": [
+    {
+      "title": "xAPI Specification",
+      "publisher": "Advanced Distributed Learning (ADL) Initiative",
+      "url": "https://github.com/adlnet/xAPI-Spec"
+    },
+    {
+      "title": "The cmi5 Project",
+      "publisher": "AICC cmi5 working group",
+      "url": "https://aicc.github.io/CMI-5_Spec_Current/"
+    },
+    {
+      "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "publisher": "World Wide Web Consortium (W3C)",
+      "url": "https://www.w3.org/TR/WCAG22/"
+    },
+    {
+      "title": "AML/CTF training",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    },
+    {
+      "title": "Australian Privacy Principles quick reference",
+      "publisher": "Office of the Australian Information Commissioner",
+      "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-quick-reference"
+    }
+  ],
+  "related": [
+    "how-to-audit-an-existing-training-library",
+    "scorm-vs-xapi",
+    "xapi-vs-cmi5",
+    "scorm",
+    "how-to-prepare-training-records-for-an-audit",
+    "how-to-choose-a-compliance-training-platform"
+  ],
+  "productLinks": [
+    {
+      "label": "Enterprise learning modernisation",
+      "href": "/platform/enterprise-learning-modernisation"
+    },
+    {
+      "label": "Integrations",
+      "href": "/platform/integrations"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 2,
+  "factCheck": [
+    {
+      "claim": "The current version of the xAPI specification is xAPI 2.0.",
+      "source": "https://github.com/adlnet/xAPI-Spec"
+    },
+    {
+      "claim": "cmi5 is a profile for using xAPI with an LMS where the learner launches content from the LMS, defining launch, authentication, session management, reporting and course structure.",
+      "source": "https://aicc.github.io/CMI-5_Spec_Current/"
+    },
+    {
+      "claim": "WCAG 2.2 is a W3C Recommendation (current version dated 12 December 2024).",
+      "source": "https://www.w3.org/TR/WCAG22/"
+    },
+    {
+      "claim": "AUSTRAC suggests training records include what was delivered, including content and content version, how understanding was assessed, and training history.",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    },
+    {
+      "claim": "APP 8 covers cross-border disclosure; APP 11 requires reasonable steps to protect personal information and to destroy or de-identify it in certain circumstances.",
+      "source": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-quick-reference"
+    }
+  ]
+}

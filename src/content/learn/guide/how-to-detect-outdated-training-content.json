@@ -1,0 +1,247 @@
+{
+  "slug": "how-to-detect-outdated-training-content",
+  "kind": "guide",
+  "title": "How do you find outdated training content?",
+  "seoTitle": "Finding outdated training content",
+  "description": "How to find outdated training content: build a reference index, scan for superseded sources, watch assessment and incident signals, and triage by risk.",
+  "shortAnswer": "To find outdated training content, record which laws, standards, policies, procedures, and systems each item depends on, then check those dependencies against their current versions on a schedule and whenever a source changes. Supplement that with signals from use: assessment items that behave oddly, learner questions, incidents, and overdue review dates. Triage what you find by the risk of someone acting on the outdated material.",
+  "keyTakeaways": [
+    "Content goes out of date because something it depends on changed. Knowing the dependencies is the foundation of detection.",
+    "A reference index, listing the sources each item cites, turns detection into a comparison rather than a reading exercise.",
+    "Assessment data, learner questions, and incidents often reveal outdated content before a scheduled review does.",
+    "Under the model WHS Regulations, training must suit the risks and control measures at the time it is provided, so outdated safety content is a compliance issue, not only a quality one.",
+    "Triage by harm: outdated thresholds, procedures, and legal references come before outdated screenshots."
+  ],
+  "sections": [
+    {
+      "id": "why-content-goes-stale",
+      "heading": "Why does training content go out of date?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training content goes out of date when something it depends on changes and the content does not. The dependency might be a law, a regulator's guidance, an internal policy or procedure, a system screen, a product, an organisational structure, or the risk profile of the work. This gradual gap between what is taught and what is true is often called [knowledge drift](/glossary/knowledge-drift)."
+        },
+        {
+          "type": "p",
+          "text": "In safety contexts the gap has legal weight. Regulation 39(2) of the model [Work Health and Safety Regulations 2011](https://www.legislation.gov.au/F2011L02664/latest/text) requires a person conducting a business or undertaking to ensure that information, training, and instruction is suitable and adequate having regard to the nature of the work, the nature of the risks associated with the work at the time it is provided, and the control measures implemented. Training that describes controls that have since been replaced does not meet that description."
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "heading": "What is the step by step detection method?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The method combines a dependency check with signals from use. Each step produces an output that feeds a single triage list."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Build a reference index.** For each training item, record the sources it relies on: instruments and section numbers, regulator guides, internal policies and procedures with version numbers, systems, and forms. Output: a reference index, one row per item and source.",
+            "**Set up change feeds.** Subscribe to regulator updates, set [Federal Register of Legislation alerts](https://www.legislation.gov.au/help-and-resources/using-the-legislation-register/how-to-set-up-my-account) for key instruments, and ask policy and process owners to notify training when documents change. Output: a list of feeds and who monitors each.",
+            "**Compare dependencies with current versions.** On a schedule, and whenever a feed reports a change, check each indexed source against its current version. Output: a list of items whose sources changed.",
+            "**Scan content for known stale markers.** Search course text and assessments for superseded names, instrument titles, dates, thresholds, and old system names. Output: a list of hits with locations.",
+            "**Read the usage signals.** Review assessment item statistics, learner comments, help desk queries, and incident or breach reports that mention training. Output: a list of suspect items with the signal that raised them.",
+            "**Triage by risk.** Rate each finding by the harm of someone acting on it. Output: a prioritised remediation list, handed to the change process in [how to update training when a regulation changes](/guides/how-to-update-training-when-regulations-change)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "detection-signals",
+      "heading": "Which signals point to outdated content?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The strongest signals are changes to a cited source and assessment items that suddenly behave differently. The table below is an original checklist of signals, how to find them, and how to treat them."
+        },
+        {
+          "type": "table",
+          "caption": "Outdated content signals checklist",
+          "head": [
+            "Signal",
+            "How to find it",
+            "Illustrative example",
+            "Typical priority"
+          ],
+          "rows": [
+            [
+              "Cited source superseded",
+              "Reference index compared with current versions",
+              "Course cites the 2015 Standards for RTOs after the 2025 Standards took effect on 1 July 2025",
+              "High"
+            ],
+            [
+              "Rule no longer applies to the audience",
+              "Review against regulator guidance",
+              "Adviser course presents RG 146 as the standard for relevant providers, which RG 104.85 says no longer applies",
+              "High"
+            ],
+            [
+              "Internal procedure changed",
+              "Policy owner notification, document version check",
+              "Escalation contact or form number has changed",
+              "High"
+            ],
+            [
+              "Assessment item behaves differently",
+              "Item statistics: sudden rise in wrong answers to one item",
+              "Correct answer under the old process is now marked wrong in practice",
+              "Medium to high"
+            ],
+            [
+              "Learner questions repeat",
+              "Comments, help desk tickets",
+              "Several learners ask why the screen shown does not match the system",
+              "Medium"
+            ],
+            [
+              "Incident links to training",
+              "Incident and breach reports",
+              "Root cause cites staff following a trained step that was withdrawn",
+              "High"
+            ],
+            [
+              "Review date passed",
+              "Content register report",
+              "Item not reviewed within its policy cycle",
+              "Depends on content"
+            ],
+            [
+              "Cosmetic drift",
+              "Visual review",
+              "Old logo or superseded screenshots with no procedural change",
+              "Low"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stale-marker-list",
+      "heading": "How do you build a list of stale markers to search for?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Build the list from every change your organisation has recorded: each time a source changes, add the superseded name, number, date, or threshold to a searchable list. Then run the list against all content and assessment text, not only the item you updated."
+        },
+        {
+          "type": "p",
+          "text": "This catches the common case where one module was updated after a change but three others that mention the same rule were missed. It works best when content is stored as searchable text, which is one reason to keep a single source for each item under [version control](/guides/how-to-maintain-version-control-for-training-content) rather than only packaged course files."
+        }
+      ]
+    },
+    {
+      "id": "how-often",
+      "heading": "How often should you check for outdated content?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Check continuously through change feeds, and run a full scheduled comparison at an interval set by risk. High risk regulatory and safety content warrants more frequent review than general induction material. Also check whenever a regulator issues new guidance, an incident is linked to training, or a major internal change is made."
+        },
+        {
+          "type": "p",
+          "text": "A periodic, library wide review is a different exercise that also covers overlap, quality, and relevance; see [how to audit an existing training library](/guides/how-to-audit-an-existing-training-library)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records provenance for each concept and learning outcome in the framework, so the dependency on a source is explicit rather than buried in course text. When a source changes, the affected outcomes, assessments, and content can be identified from the framework."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Who should be responsible for spotting outdated training content?",
+      "a": "Shared responsibility works best. Training owns the reference index and scans; policy, process, and system owners notify training when their documents change; compliance monitors regulatory change. Name each role in the training policy so detection does not depend on one person noticing."
+    },
+    {
+      "q": "Can AI tools detect outdated training content?",
+      "a": "They can help search large libraries for stale markers and flag passages that may conflict with a newer source, but their output needs review by someone who knows the source. Treat AI findings as leads for a human check, not conclusions."
+    },
+    {
+      "q": "What should we do with outdated content we cannot fix quickly?",
+      "a": "Withdraw it or add a clear notice pointing to the current source, depending on the risk. Record the decision and the date. Leaving high risk outdated content live without notice is the worst option."
+    },
+    {
+      "q": "Is a review date on each course enough?",
+      "a": "No. Review dates catch items that have not been looked at, but they do not detect a change that happens the week after a review. Combine scheduled reviews with change feeds and usage signals."
+    },
+    {
+      "q": "Does outdated content in a refresher course matter if staff completed the original correctly?",
+      "a": "Yes. A refresher that teaches a superseded rule can overwrite correct practice, and completions of it may be cited as evidence of current competence. Treat outdated refresher content with the same priority as outdated initial training, and check whether anyone acted on it."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Work Health and Safety Regulations 2011",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2011L02664/latest/text"
+    },
+    {
+      "title": "How to set up My Account",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/help-and-resources/using-the-legislation-register/how-to-set-up-my-account"
+    },
+    {
+      "title": "Standards for RTOs",
+      "publisher": "Australian Skills Quality Authority",
+      "url": "https://www.asqa.gov.au/rtos/2025-standards-rtos"
+    },
+    {
+      "title": "RG 104 AFS licensing: Meeting the general obligations",
+      "publisher": "Australian Securities and Investments Commission",
+      "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations"
+    },
+    {
+      "title": "Model WHS laws",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/model-whs-laws"
+    }
+  ],
+  "related": [
+    "how-to-update-training-when-regulations-change",
+    "how-to-audit-an-existing-training-library",
+    "knowledge-drift",
+    "how-to-maintain-version-control-for-training-content",
+    "how-to-set-mandatory-training-refresh-cycles"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    },
+    {
+      "label": "Gap analysis",
+      "href": "/platform/gap-analysis"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 5,
+  "factCheck": [
+    {
+      "claim": "Model WHS Regulations r39(2): training suitable and adequate having regard to the nature of the work, the risks at the time it is provided, and the control measures implemented.",
+      "source": "https://www.legislation.gov.au/F2011L02664/latest/text"
+    },
+    {
+      "claim": "The 2025 Standards for RTOs took effect on 1 July 2025.",
+      "source": "https://www.asqa.gov.au/rtos/2025-standards-rtos"
+    },
+    {
+      "claim": "RG 104.85: RG 146 training standards no longer apply to relevant providers.",
+      "source": "https://download.asic.gov.au/media/av3fovx5/rg104-published-23-june-2022-20260310.pdf"
+    },
+    {
+      "claim": "Federal Register of Legislation offers email alerts for legislation matching a saved query.",
+      "source": "https://www.legislation.gov.au/help-and-resources/using-the-legislation-register/how-to-set-up-my-account"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "slug": "xapi-vs-cmi5",
+  "kind": "comparison",
+  "title": "xAPI vs cmi5: what is the difference?",
+  "seoTitle": "xAPI vs cmi5: the difference",
+  "description": "xAPI records any learning activity; cmi5 is an xAPI profile adding LMS launch, session, and completion rules. How they compare and when to use each.",
+  "shortAnswer": "xAPI (Experience API) is a general standard for recording any learning activity as statements in a learning record store. cmi5 is an xAPI profile: a set of extra rules for the specific case where a learner launches content from a learning management system. cmi5 adds what xAPI leaves open, including course structure, launch, session handling, and a fixed set of verbs for completion and pass or fail.",
+  "keyTakeaways": [
+    "cmi5 is not a competitor to xAPI; it is a constrained way of using xAPI with an LMS.",
+    "xAPI alone does not define packaging, launch, or how an LMS decides a course is complete.",
+    "cmi5 defines nine verbs, including launched, completed, passed, and satisfied, plus moveOn rules for completion.",
+    "Use plain xAPI for activity outside LMS courses; use cmi5 for LMS launched courses that need xAPI data."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the core difference between xAPI and cmi5?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The core difference is generality: xAPI can describe almost any learning experience, while cmi5 narrows xAPI to one use case, LMS launched content, so that any conformant course works in any conformant LMS. The cmi5 project describes itself as \"a 'profile' for using the xAPI specification with traditional learning management (LMS) systems\" ([cmi5 project](https://aicc.github.io/CMI-5_Spec_Current/))."
+        },
+        {
+          "type": "p",
+          "text": "That narrowing is necessary because xAPI is deliberately open. The Advanced Distributed Learning (ADL) Initiative explains that \"Since the xAPI specification is highly generalized to support many different use cases, a set of 'extra rules' (called a profile) is needed to ensure interoperability for a given use case\" ([ADL Initiative](https://adlnet.gov/cmi5-xapi-profile)). See the glossary entries for [xAPI](/glossary/xapi) and [cmi5](/glossary/cmi5)."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do xAPI and cmi5 compare side by side?",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "xAPI and cmi5 compared",
+          "head": [
+            "Dimension",
+            "xAPI",
+            "cmi5"
+          ],
+          "rows": [
+            [
+              "What it is",
+              "A general data model and web API for learning records",
+              "An xAPI profile for LMS launched content"
+            ],
+            [
+              "Use case",
+              "Any activity: apps, simulations, workplace tasks, courses",
+              "Content launched from an LMS user interface"
+            ],
+            [
+              "Packaging and course structure",
+              "Not defined",
+              "Defined course structure file describing assignable units and blocks"
+            ],
+            [
+              "Launch and authentication",
+              "Not defined",
+              "Defined launch URL parameters and credential handoff from the LMS"
+            ],
+            [
+              "Verbs",
+              "Open; any verb identifier may be used",
+              "Nine defined verbs (launched, initialized, completed, passed, failed, abandoned, waived, terminated, satisfied), plus allowed extra statements"
+            ],
+            [
+              "Completion rules",
+              "Not defined",
+              "moveOn criteria: Passed, Completed, CompletedAndPassed, CompletedOrPassed, NotApplicable"
+            ],
+            [
+              "Mastery score",
+              "Not defined",
+              "LMS can pass a masteryScore that governs passed and failed"
+            ],
+            [
+              "Formal status",
+              "IEEE 9274.1.1-2023",
+              "cmi5 specification maintained by ADL; IEEE P9274.3.1 in development"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-cmi5-adds",
+      "heading": "What does cmi5 add to xAPI?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "cmi5 adds the rules an LMS needs to launch, track, and judge a course consistently. The specification defines rules for launch, session management, reporting, and course structure, and states that it was designed for the case where \"the learner launches the learning content/activity from the LMS user interface\" ([cmi5 project](https://aicc.github.io/CMI-5_Spec_Current/))."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Session rules:** each session must begin with an \"initialized\" statement and end with \"terminated\", and an assignable unit must not issue more than one of passed or failed in a session ([cmi5 specification](https://github.com/AICC/CMI-5_Spec_Current/blob/quartz/cmi5_spec.md)).",
+            "**moveOn:** the course designer sets what satisfies each unit. For example, a moveOn value of CompletedAndPassed means the LMS needs both a completed and a passed statement.",
+            "**Mastery score:** if the LMS supplies a masteryScore, a passed statement's scaled score must be equal to or greater than it.",
+            "**Satisfied:** the LMS issues a satisfied statement when all units in a block or course meet their moveOn criteria."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "These rules matter for compliance because they make the difference between completed and passed explicit at the standard level, rather than leaving it to each product. The same distinction is discussed in [completion tracking vs competency verification](/compare/completion-tracking-vs-competency-verification)."
+        }
+      ]
+    },
+    {
+      "id": "status",
+      "heading": "What is the standards status of each?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "xAPI is a published IEEE standard, while cmi5 is an ADL maintained specification that is going through IEEE standardisation. IEEE 9274.1.1-2023 (xAPI 2.0) was approved on 30 March 2023 ([IEEE](https://standards.ieee.org/ieee/9274.1.1/7321/))."
+        },
+        {
+          "type": "p",
+          "text": "cmi5 began in 2010 within the Aviation Industry Computer-Based Training Committee (AICC), was rebuilt on xAPI in 2012, moved to ADL in 2014, and had its first production release (Quartz) in 2016 ([cmi5 project](https://aicc.github.io/CMI-5_Spec_Current/)). The IEEE project P9274.3.1, \"Standard for Packaging, Launch, and Run-time of Experience Application Programming Interface (xAPI) in Session-based Learning\", had its project authorisation approved on 15 February 2023 and was listed as an active project at the time of writing ([IEEE](https://standards.ieee.org/ieee/9274.3.1/11183/))."
+        }
+      ]
+    },
+    {
+      "id": "when-to-choose",
+      "heading": "When should you choose each?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Choose cmi5 when content will be assigned and launched from an LMS and you want xAPI data with predictable completion rules; choose plain xAPI (usually with a domain profile) for everything else. If your LMS does not support cmi5, SCORM may remain the practical option for launched courses (see [SCORM vs xAPI](/compare/scorm-vs-xapi))."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**cmi5 fits** mandatory e-learning, assessed modules with a pass mark, and courses hosted outside the LMS but launched from it.",
+            "**Plain xAPI fits** simulations, mobile performance support, observed tasks, coaching records, and data from systems that have no concept of a launched course."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "using-together",
+      "heading": "How do xAPI and cmi5 work together?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They work together by design, because every cmi5 statement is an xAPI statement stored in a learning record store. A course launched under cmi5 can also send additional \"cmi5 allowed\" statements with richer detail, such as responses to individual questions, and those sit in the same store as xAPI data from workplace observations or simulations. That gives one query point for both course results and on the job evidence, which is useful when preparing for audit ([how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit))."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines assessment points in the knowledge framework before content is produced, so that decisions such as whether a module should require completion, a pass, or both are made deliberately and can be expressed in the delivery standard the organisation uses."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is cmi5 a replacement for SCORM?",
+      "a": "It was designed as a modern alternative for the same use case: content launched from an LMS. The cmi5 project describes its founding goal as providing a better alternative to AICC and SCORM specifications. Adoption depends on LMS support, so many organisations still run SCORM alongside cmi5."
+    },
+    {
+      "q": "Does cmi5 need a learning record store?",
+      "a": "Yes. cmi5 statements are xAPI statements, so the LMS must provide or connect to a learning record store. Many LMS products that support cmi5 include one."
+    },
+    {
+      "q": "Can cmi5 content be hosted outside the LMS?",
+      "a": "Yes. Because launch uses a URL with parameters and communication runs over web services, a cmi5 assignable unit can be hosted on a different server from the LMS that launches it. This is one of the differences from SCORM, where content usually sits inside the LMS."
+    },
+    {
+      "q": "Does cmi5 support sequencing like SCORM 2004?",
+      "a": "Not in the same way. cmi5 uses moveOn criteria to decide when a unit, block, or course is satisfied, which can support prerequisites, but it does not include SCORM 2004's detailed sequencing and navigation rules. Remediation logic is left to the LMS."
+    }
+  ],
+  "sources": [
+    {
+      "title": "The cmi5 Project",
+      "publisher": "AICC and ADL Initiative",
+      "url": "https://aicc.github.io/CMI-5_Spec_Current/"
+    },
+    {
+      "title": "cmi5 Specification Profile for xAPI (Quartz)",
+      "publisher": "AICC and ADL Initiative",
+      "url": "https://github.com/AICC/CMI-5_Spec_Current/blob/quartz/cmi5_spec.md"
+    },
+    {
+      "title": "cmi5 xAPI Profile",
+      "publisher": "Advanced Distributed Learning (ADL) Initiative",
+      "url": "https://adlnet.gov/cmi5-xapi-profile"
+    },
+    {
+      "title": "IEEE 9274.1.1-2023: JSON Data Model Format and RESTful Web Service for Learner Experience Data Tracking and Access",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/9274.1.1/7321/"
+    },
+    {
+      "title": "P9274.3.1: Standard for Packaging, Launch, and Run-time of Experience Application Programming Interface (xAPI) in Session-based Learning",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/9274.3.1/11183/"
+    }
+  ],
+  "related": [
+    "xapi",
+    "cmi5",
+    "scorm-vs-xapi",
+    "learning-management-system",
+    "completion-tracking-vs-competency-verification"
+  ],
+  "productLinks": [
+    {
+      "label": "Integrations",
+      "href": "/platform/integrations"
+    },
+    {
+      "label": "Technical overview",
+      "href": "/platform/technical-overview"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 1,
+  "factCheck": [
+    {
+      "claim": "cmi5 is a profile for using xAPI with traditional LMS systems, designed for the case where the learner launches content from the LMS user interface",
+      "source": "https://aicc.github.io/CMI-5_Spec_Current/"
+    },
+    {
+      "claim": "cmi5 history: AICC 2010, rebooted on xAPI 2012, transferred to ADL 2014, Quartz first production release 2016",
+      "source": "https://aicc.github.io/CMI-5_Spec_Current/"
+    },
+    {
+      "claim": "cmi5 defines verbs launched, initialized, completed, passed, failed, abandoned, waived, terminated, satisfied; initialized first; no more than one of passed or failed per session",
+      "source": "https://github.com/AICC/CMI-5_Spec_Current/blob/quartz/cmi5_spec.md"
+    },
+    {
+      "claim": "moveOn values Passed, Completed, CompletedAndPassed, CompletedOrPassed, NotApplicable (default NotApplicable); passed scaled score must be equal to or greater than masteryScore",
+      "source": "https://github.com/AICC/CMI-5_Spec_Current/blob/quartz/cmi5_spec.md"
+    },
+    {
+      "claim": "ADL: xAPI is highly generalised so a profile of extra rules is needed for interoperability in a given use case",
+      "source": "https://adlnet.gov/cmi5-xapi-profile"
+    },
+    {
+      "claim": "IEEE P9274.3.1 is an active PAR, approved 15 February 2023",
+      "source": "https://standards.ieee.org/ieee/9274.3.1/11183/"
+    }
+  ]
+}

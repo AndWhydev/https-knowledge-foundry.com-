@@ -1,0 +1,238 @@
+{
+  "slug": "knowledge-drift",
+  "kind": "glossary",
+  "title": "What is knowledge drift?",
+  "seoTitle": "What is knowledge drift?",
+  "description": "Knowledge drift is the gap that opens when training stops matching current rules and procedures. How it arises, how to detect it, and related concepts.",
+  "shortAnswer": "Knowledge drift is the gradual divergence between what an organisation's training, assessments and reference material teach and what its current obligations, procedures and practice actually require. It is not a formal term in any ISO standard or regulation. It is used in training governance to describe a failure of change control, and it relates to recognised concepts such as document control, the handling of outdated knowledge in ISO 30401, and concept drift in machine learning.",
+  "keyTakeaways": [
+    "Knowledge drift is a working term, not a defined standard term; this page explains how it is used in training governance.",
+    "It happens when a source changes (law, policy, SOP, system) but dependent training and assessments do not.",
+    "Recognised concepts cover parts of it: document control in ISO 9001, identifying changed obligations in ISO 37301, and handling outdated knowledge in ISO 30401.",
+    "Concept drift in machine learning is a related but different idea about changing data distributions.",
+    "Drift is detected by tracing each learning element to its source and comparing versions, not by fixed review dates alone."
+  ],
+  "term": "Knowledge drift",
+  "alsoKnownAs": [
+    "Content drift",
+    "Training drift"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What does knowledge drift mean in training governance?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge drift means that training has quietly fallen out of step with the requirements it is meant to teach. Nobody decides to teach something wrong; the source changes and the learning material does not follow."
+        },
+        {
+          "type": "callout",
+          "title": "A note on terminology",
+          "text": "Knowledge drift is not defined in ISO 37301, ISO 30401, ISO 9001 or Australian regulation. Different organisations and vendors use it loosely. This page uses it in a specific sense: divergence between learning content and its authoritative sources. Where a formal term exists, such as document control or change management, that term should be used in audit and policy documents."
+        },
+        {
+          "type": "p",
+          "text": "Drift can affect content (a module still cites a repealed section), assessment (a quiz marks the old answer as correct), records (a person is shown as current on a version that no longer applies) and people (staff trained on an old method keep using it)."
+        }
+      ]
+    },
+    {
+      "id": "causes",
+      "heading": "What causes knowledge drift?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge drift is caused by changes to sources that are not propagated to the training that depends on them. The common triggers are listed below."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Law and regulator changes:** amended legislation, new regulator guides, new commencement dates.",
+            "**Policy changes:** revised thresholds, approvals or reporting lines.",
+            "**Procedure and system changes:** a new version of a [standard operating procedure](/glossary/standard-operating-procedure) or [work instruction](/glossary/work-instruction), or a software update that changes screens and steps.",
+            "**Organisational change:** roles merged or renamed so training assignments no longer match.",
+            "**Copy and adapt:** content duplicated across courses, so an update in one place misses the others."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The underlying weakness is missing traceability. If a module does not record which obligation, clause or procedure version it teaches, there is no reliable way to know it is affected when that source changes."
+        }
+      ]
+    },
+    {
+      "id": "related-concepts",
+      "heading": "How does knowledge drift relate to recognised concepts?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Several established concepts each address part of the problem that knowledge drift names."
+        },
+        {
+          "type": "table",
+          "caption": "Recognised concepts related to knowledge drift",
+          "head": [
+            "Concept",
+            "Source",
+            "What it covers",
+            "What it leaves out"
+          ],
+          "rows": [
+            [
+              "Control of documented information",
+              "[ISO 9001](https://www.iso.org/standard/88464.html) and other management system standards",
+              "Version control and availability of the current document",
+              "Whether training derived from the document was updated"
+            ],
+            [
+              "New and changed compliance obligations",
+              "[ISO 37301](https://www.iso.org/standard/75080.html) clause 4.5",
+              "Processes to identify changed obligations and implement necessary changes",
+              "The specific link from obligation to learning outcome"
+            ],
+            [
+              "Outdated or invalid knowledge",
+              "[ISO 30401](https://www.iso.org/standard/68683.html) clause 4.4.2",
+              "Identifying and retiring knowledge that is no longer correct",
+              "Operational detail for training content"
+            ],
+            [
+              "Concept drift",
+              "Machine learning research",
+              "Changes in data distributions that make a model's learned patterns less accurate",
+              "Human training content"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Concept drift is the closest named analogue. A widely cited review by [Lu and colleagues](https://arxiv.org/abs/2004.05785) in IEEE Transactions on Knowledge and Data Engineering describes it as \"unforeseeable changes in the underlying distribution of streaming data over time\". The parallel is that a model, like a course, was correct when built and becomes less accurate as the world changes. The difference is that knowledge drift is usually foreseeable, because regulatory and procedural changes are announced and recorded."
+        }
+      ]
+    },
+    {
+      "id": "detection",
+      "heading": "How can knowledge drift be detected and prevented?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge drift is detected by comparing each learning element with the current version of its source, and prevented by making that comparison part of change control."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Record the source of every learning outcome and assessment item: obligation ID, clause, policy or procedure version. A [compliance obligations register](/glossary/compliance-obligations-register) provides the IDs.",
+            "When a source changes, list every dependent learning element.",
+            "Classify the change: no training impact, content update, assessment update, or retraining needed.",
+            "Update, approve and release, keeping an [audit trail](/glossary/audit-trail) of what changed and why.",
+            "Reassign only the people whose knowledge is affected."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Illustrative example",
+          "text": "A bank lowers the approval threshold in its credit policy. The obligations register shows the threshold is taught in three modules and tested in four quiz items. Two of the modules were copies of the same original. Tracing finds all seven elements in one pass, rather than waiting for each module's annual review."
+        },
+        {
+          "type": "p",
+          "text": "Practical methods are covered in [how to find outdated training content](/guides/how-to-detect-outdated-training-content) and [how to update training when a regulation changes](/guides/how-to-update-training-when-regulations-change)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records provenance for each concept, learning outcome and assessment point, so every element knows its source. When a source changes, dependent elements are flagged for review before learners see out of date material."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is knowledge drift an official compliance term?",
+      "a": "No. It is an informal term used in training and knowledge governance. In formal documents, use recognised language such as control of documented information, change management, or identification of new and changed compliance obligations, and define knowledge drift if you use it."
+    },
+    {
+      "q": "Is knowledge drift the same as concept drift?",
+      "a": "No. Concept drift is a machine learning term for changes in data that reduce a model's accuracy. Knowledge drift describes human facing training falling out of step with its sources. The ideas are analogous: both describe something that was correct becoming less accurate as conditions change."
+    },
+    {
+      "q": "Do annual reviews prevent knowledge drift?",
+      "a": "Only partly. A fixed review cycle catches drift eventually, but a change that happens just after a review can remain in training for most of a year. Change triggered reviews, driven by traceability to sources, close that gap."
+    },
+    {
+      "q": "Can AI generated content increase knowledge drift?",
+      "a": "It can, if generated content is not linked to its sources and reviewed. Generating many variants quickly multiplies the number of places an outdated fact can sit. Governance for AI generated learning content should include source tracking and human review."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Learning under Concept Drift: A Review",
+      "publisher": "Lu, Liu, Dong, Gu, Gama and Zhang, IEEE Transactions on Knowledge and Data Engineering (arXiv)",
+      "url": "https://arxiv.org/abs/2004.05785"
+    },
+    {
+      "title": "ISO 30401:2018 Knowledge management systems: Requirements",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/68683.html"
+    },
+    {
+      "title": "Integrating an ISO 30401-compliant Knowledge Management System with the processes of an Integrated Management System",
+      "publisher": "Prieur and Belloni, arXiv (2025)",
+      "url": "https://arxiv.org/abs/2507.18201"
+    },
+    {
+      "title": "ISO 37301:2021 Compliance management systems: Requirements with guidance for use",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/75080.html"
+    },
+    {
+      "title": "ISO 9001 (2026 edition) Quality management systems: Requirements",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/88464.html"
+    }
+  ],
+  "related": [
+    "compliance-obligations-register",
+    "knowledge-management",
+    "audit-trail",
+    "how-to-detect-outdated-training-content",
+    "knowledge-graph",
+    "how-to-maintain-version-control-for-training-content"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    },
+    {
+      "label": "Remediation",
+      "href": "/platform/remediation"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 2,
+  "factCheck": [
+    {
+      "claim": "Concept drift described as unforeseeable changes in the underlying distribution of streaming data over time; Lu et al., IEEE TKDE.",
+      "source": "https://arxiv.org/abs/2004.05785"
+    },
+    {
+      "claim": "ISO 30401:2018 clause 4.4.2 includes management of obsolete or non-conforming knowledge.",
+      "source": "https://arxiv.org/abs/2507.18201"
+    },
+    {
+      "claim": "ISO 37301 clause 4.5 requires processes to identify new and changed compliance obligations and implement necessary changes.",
+      "source": "https://cdn.standards.iteh.ai/samples/75080/984e9b4dc8a347a7a8376a2b43afef03/ISO-FDIS-37301.pdf"
+    },
+    {
+      "claim": "Knowledge drift is not a term defined in the ISO standards cited; stated as an editorial position after reviewing the public definitions in ISO 37301 clause 3.",
+      "source": "https://www.iso.org/standard/75080.html"
+    }
+  ]
+}
