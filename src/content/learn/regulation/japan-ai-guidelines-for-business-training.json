@@ -1,0 +1,496 @@
+{
+  "slug": "japan-ai-guidelines-for-business-training",
+  "kind": "regulation",
+  "title": "What do Japan's AI Guidelines for Business expect for AI literacy and training?",
+  "seoTitle": "Japan AI Guidelines: AI literacy",
+  "description": "What Japan's AI Guidelines for Business (Ver1.2) and AI Promotion Act expect for AI literacy and staff education, why it is soft law, and how to evidence it.",
+  "shortAnswer": "Japan's AI Guidelines for Business, issued by the Ministry of Internal Affairs and Communications and the Ministry of Economy, Trade and Industry (current version 1.2, March 31, 2026), expect every AI developer, AI provider and AI business user to give people engaged in AI the education they need to reach AI literacy sufficient for their role. The Guidelines are voluntary soft law, and Japan's AI Promotion Act imposes no binding AI literacy training duty or penalty.",
+  "keyTakeaways": [
+    "Common guiding principle 8, Education/literacy, expects each AI business actor to educate the people engaged in AI so they gain the knowledge, literacy and ethical views to understand and use AI correctly, and to educate stakeholders about AI's risks.",
+    "The Guidelines describe themselves as non-binding soft law. There is no fine, audit regime or regulator enforcement attached to them.",
+    "The Act on Promotion of Research and Development, and Utilization of AI-related Technology (Act No. 53 of 2025) was promulgated on June 4, 2025 and fully in force from September 1, 2025. It has no penalty provisions and does not require businesses to train staff.",
+    "The Appendix gives role specific content: developers train on attack methods and value chain trade-offs, providers on AI risk management, and business users on bias, accuracy, limits, prompting and spotting false information.",
+    "Unlike Article 4 of the EU AI Act, nothing in Japanese law makes AI literacy a direct legal obligation, but the Guidelines are the government's stated benchmark for AI governance, and they warn that falling short can cost business opportunities."
+  ],
+  "jurisdiction": "Japan (national)",
+  "regulator": "Ministry of Internal Affairs and Communications (MIC) and Ministry of Economy, Trade and Industry (METI) for the Guidelines; Cabinet Office and the Artificial Intelligence Strategic Headquarters for the AI Promotion Act",
+  "appliesTo": [
+    "Businesses that develop, provide or use AI in business activities in Japan (AI developers, AI providers and AI business users), including public bodies",
+    "Utilization business operators (katsuyō jigyōsha) under Article 7 of the AI Promotion Act, which the appropriateness guideline says includes overseas business operators",
+    "Executives, AI governance leads, project staff and all employees who use AI at work",
+    "L&D, compliance and risk teams designing AI literacy and AI ethics programs for Japanese operations"
+  ],
+  "sections": [
+    {
+      "id": "what-are-the-guidelines",
+      "heading": "What are Japan's AI Guidelines for Business?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The AI Guidelines for Business (AI Jigyōsha Gaidorain) are Japan's unified, non-binding guidance on how businesses should develop, provide and use AI safely. They are published jointly by the Ministry of Internal Affairs and Communications (MIC) and the Ministry of Economy, Trade and Industry (METI), and they replaced three earlier sets of AI guidance when version 1.0 was issued in April 2024."
+        },
+        {
+          "type": "p",
+          "text": "The Guidelines sort businesses into three roles: **AI developers** (who build AI models and systems), **AI providers** (who build AI into products, services or business processes and offer them to others) and **AI business users** (who use AI systems or services in their business). One company can hold more than one role. People who use AI outside business activities, and people affected by AI without using it, are outside the Guidelines' scope, but businesses are expected to consider them."
+        },
+        {
+          "type": "p",
+          "text": "The Guidelines are a living document. The [MIC publication page](https://www.soumu.go.jp/main_sosiki/kenkyu/ai_network/02ryutsu20_04000019.html) lists four versions to date, and version 1.2 is the one in effect as at September 2026. The main text sets out the basic philosophies and guiding principles (the what and why), and a much longer Appendix gives implementation methods and practical examples (the how)."
+        },
+        {
+          "type": "table",
+          "caption": "Versions of the AI Guidelines for Business",
+          "head": [
+            "Version",
+            "Published",
+            "Status as at September 2026"
+          ],
+          "rows": [
+            [
+              "1.0",
+              "April 19, 2024",
+              "Superseded. Its hypothetical cross actor cases (Appendix 8) are still listed as current with no update."
+            ],
+            [
+              "1.01",
+              "November 22, 2024",
+              "Superseded"
+            ],
+            [
+              "1.1",
+              "March 28, 2025",
+              "Superseded"
+            ],
+            [
+              "1.2",
+              "March 31, 2026",
+              "Current. Adds content on AI agents and physical AI, updates the risk based approach and role descriptions, and references the AI Promotion Act."
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Which text prevails",
+          "text": "MIC publishes the English versions as provisional translations and asks readers to refer to the Japanese original for accuracy. The same applies to laws on the [Japanese Law Translation database](https://www.japaneselawtranslation.go.jp/en/): its translations are not official, and only the Japanese texts have legal effect."
+        }
+      ]
+    },
+    {
+      "id": "education-literacy-principle",
+      "heading": "What does the education and literacy principle ask of businesses?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Common guiding principle 8, Education/literacy (kyōiku, riterashī), asks each business to give its own people enough AI education to use AI correctly and to educate stakeholders about AI's risks. It sits with fair competition and innovation in a group of principles the Guidelines describe as activities expected in cooperation with society."
+        },
+        {
+          "type": "p",
+          "text": "The core wording in [version 1.2 of the Guidelines](https://www.soumu.go.jp/main_content/001080990.pdf) is: \"Each AI business actor is expected to provide the persons engaged in AI in the AI business actor with the necessary education to gain the knowledge, literacy, and ethical views to correctly understand and use AI in a socially correct manner.\" The same paragraph expects education for stakeholders that considers AI's complexity, the misinformation it may produce and the possibility of intentional misuse."
+        },
+        {
+          "type": "p",
+          "text": "The principle has three parts:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Ensuring AI literacy:** take the necessary steps so that people engaged in AI reach \"AI literacy of the level sufficient for the engagement\". The standard is proportionate to each person's involvement, not a single required level.",
+            "**Education and reskilling:** because generative AI changes the division of tasks between people and AI, discuss education and reskilling actively to support new ways of working, and provide learning opportunities that account for differences in knowledge and skills between generations.",
+            "**Support for stakeholders:** provide stakeholders with education and literacy support as necessary to improve the safety of the whole AI system or service."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Table 1 of the Guidelines, which lists extra matters for each role, shows a dash against Education/literacy for developers, providers and business users. The Guidelines explain that a dash means each actor is expected to carry out the common principle itself, \"rather than doing nothing\". In other words, the literacy expectation applies to every role equally."
+        },
+        {
+          "type": "p",
+          "text": "Two other principles shape training content. Principle 3, Fairness, suggests human intervention in AI decisions where needed and says it is essential to prevent human judgment from being influenced by automation bias. Principle 7, Accountability, notes that documentation can be kept with any suitable tool, as long as records are easy to check later. Both point toward training that builds judgment, not just awareness, as described in the [human in the loop](/glossary/human-in-the-loop) definition."
+        }
+      ]
+    },
+    {
+      "id": "by-role",
+      "heading": "What does the Appendix expect from developers, providers and business users?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The [Appendix to version 1.2](https://www.soumu.go.jp/main_content/001064306.pdf) turns principle 8 into specific methods for each role in Appendices 3, 4 and 5. They are examples, not a mandatory syllabus, but they are the most detailed statement from the Japanese government of what workplace AI literacy should cover."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**AI developers (Appendix 3):** education for developers that builds a mindset willing to change, including awareness of the latest attack methods, cooperation across the value chain and its trade-offs, and social responsibility. Developers are also expected to educate providers, business users and non-business users on proper use and potential risks.",
+            "**AI providers (Appendix 4):** formulate AI policies that clarify roles and responsibilities and keep people involved in AI informed of them, of the characteriztics of reliable AI, of applicable laws and regulations and of potential adverse effects. Provide training that covers both the technological and socio-technological aspects of AI risk management.",
+            "**AI business users (Appendix 5):** literacy content should cover basic knowledge of AI, mathematics and data science; bias in data and in use; issues of accuracy, fairness, privacy, security and the limits of AI; combining AI with skills such as asking questions and testing hypotheses; recognizing that AI generated false information circulates in media; and prompt writing for generative AI."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Appendix 5 also ties literacy to human oversight. Where people are meant to make the final decision on AI output, business users should acquire the ability and knowledge to assess that output appropriately. For training teams, this is the clearest link between literacy and a measurable competence."
+        }
+      ]
+    },
+    {
+      "id": "governance-literacy",
+      "heading": "What does the Appendix say about literacy for AI governance roles?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Behavioral Goal 3-2 in Appendix 2 asks businesses to improve AI literacy strategically, under management's leadership, so that the AI management system runs properly. It is one of the behavioral goals for building AI governance, under the system design stage."
+        },
+        {
+          "type": "p",
+          "text": "The Appendix gives a layered example: general literacy on AI ethics and AI reliability for officers, the management team and those responsible for the legal and ethical aspects of AI; training on AI technology, including generative AI, alongside AI ethics for staff on AI projects; and education on the positioning and importance of the AI management system for all employees. Its practice guidelines add:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "use training materials suited to job titles, duties and each member's role, including external lecturers and materials;",
+            "make efforts to require all employees to receive education on AI ethics;",
+            "provide training on the reliability of generative AI technology and its output, based on recent trends;",
+            "define the personnel and skills needed to run the AI management system and specify educational content;",
+            "use case studies and good practice from AI associations in internal training."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The Appendix also warns about a mismatch between employee development and the speed of technological change, because the AI literacy people need changes as the technology does. Behavioral Goal 1-3 asks businesses to evaluate their own AI proficiency, including employees' literacy in AI technology and ethics, and to reevaluate it at an appropriate time. That makes a periodic literacy baseline a natural first step for a training program."
+        }
+      ]
+    },
+    {
+      "id": "ai-promotion-act",
+      "heading": "Does the AI Promotion Act make AI literacy training mandatory?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No. The Act on Promotion of Research and Development, and Utilization of AI-related Technology (the AI Promotion Act, called the AI hō in Japanese government materials) is a framework law. It sets duties for the national government and general responsibilities for others, and it contains no provision requiring businesses to train staff and no penalties."
+        },
+        {
+          "type": "p",
+          "text": "The Act is Act No. 53 of 2025. According to the [Cabinet Office](https://www8.cao.go.jp/cstp/ai/ai_act/ai_act.html), it was promulgated and partly brought into force on June 4, 2025, and came fully into force on September 1, 2025, when the provisions on the AI Basic Plan and the Artificial Intelligence Strategic Headquarters took effect. The [Japanese text on e-Gov](https://laws.e-gov.go.jp/law/507AC0000000053) is the authoritative version; an [English translation](https://www.japaneselawtranslation.go.jp/en/laws/view/5066/en) is available for reference."
+        },
+        {
+          "type": "table",
+          "caption": "Provisions of the AI Promotion Act most relevant to training",
+          "head": [
+            "Article",
+            "What it says",
+            "Effect on businesses"
+          ],
+          "rows": [
+            [
+              "Article 7 (utilization business operators)",
+              "Businesses that develop, provide or use AI are to endeavor to improve efficiency and create new industries through active use of AI, and must cooperate with national and local government measures.",
+              "A general duty. No specific content, reporting or training requirement, and no sanction."
+            ],
+            [
+              "Article 13 (ensuring appropriateness)",
+              "The national government is to establish guidelines in line with international norms to ensure AI is developed and used appropriately.",
+              "Basis for the December 2025 appropriateness guideline, which is voluntary."
+            ],
+            [
+              "Article 14 (securing human resources)",
+              "The national government is to take measures to secure, develop and improve the quality of AI human resources, in cooperation with local governments, research institutes and businesses.",
+              "Government program duty, not a business duty."
+            ],
+            [
+              "Article 15 (promoting education)",
+              "The national government is to promote education and learning about AI so citizens broadly deepen their understanding of it.",
+              "Government program duty, not a business duty."
+            ],
+            [
+              "Article 16 (research and study)",
+              "The national government is to analyze cases where rights are infringed by improper AI use and give guidance, advice and information to businesses and others.",
+              "The only direct touchpoint: guidance and advice, not orders or fines."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The Japanese text of Article 7 is framed differently for its two parts: businesses are to \"endeavor\" (tsutomeru) to use AI actively, and \"must\" cooperate with government measures. The cooperation duty has no defined content and no sanction. The Act also has no penalty provisions at all, which is a deliberate design choice rather than a gap."
+        }
+      ]
+    },
+    {
+      "id": "basic-plan-and-guideline",
+      "heading": "What do the AI Basic Plan and the appropriateness guideline add?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Both documents reinforce literacy as a government priority and as part of good corporate AI governance, but neither creates a binding training requirement for businesses."
+        },
+        {
+          "type": "p",
+          "text": "The [Guideline for Ensuring the Appropriateness of Research and Development and Utilization of AI-related Technology](https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_gl_eng_20260116.pdf), decided by the Artificial Intelligence Strategic Headquarters on December 19, 2025 under Article 13, aims to \"encourage voluntary and proactive efforts\" by all stakeholders. It asks utilization business operators, which it says include overseas business operators, to establish, operate and continuously improve AI governance, and it lists the implementation of education and training among the elements of that governance. It points to international norms and standards such as ISO/IEC 42001 as reference points."
+        },
+        {
+          "type": "p",
+          "text": "The AI Basic Plan required by Article 18 was first adopted by Cabinet decision on December 23, 2025. A second plan was adopted on July 14, 2026 and is the current one, according to the [Cabinet Office AI Basic Plan page](https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html). The [provisional English translation of the second plan](https://www8.cao.go.jp/cstp/ai/ai_plan/aiplan_eng_20260714.pdf) calls for \"organizational management responses\" in which organizations \"improve literacy across the organization as a whole\", promotes reskilling, and sets out human resource profiles. The first profile, professionals capable of appropriate AI utilization, is defined as people with \"a minimum level of literacy in basic AI-related knowledge and insights\" and is described as a goal all citizens should strive for."
+        }
+      ]
+    },
+    {
+      "id": "soft-law-approach",
+      "heading": "Why does Japan use soft law for AI literacy?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan chose goal based soft law because it judged that detailed, rule based obligations could inhibit innovation and would lag the pace of AI development. The Guidelines say so directly: they were drawn up on \"the goal-based concept that would lead to the achievement of purposes through soft laws without any legally binding force\"."
+        },
+        {
+          "type": "p",
+          "text": "The approach relies on agile governance: businesses analyze their own risks, set goals, design and run an AI management system, evaluate it and repeat the cycle as conditions change. Government sets principles and publishes guidance, and existing laws, such as privacy and intellectual property law, continue to apply. For AI literacy this means the content and depth of training are for each business to decide, scaled to the risk of its AI use."
+        },
+        {
+          "type": "callout",
+          "title": "Comparison with the EU AI Act",
+          "text": "Article 4 of the EU AI Act places a direct AI literacy obligation on providers and deployers of AI systems (see [EU AI Act AI literacy](/regulations/eu-ai-act-ai-literacy)). Japan has no equivalent binding duty. A multinational that builds one AI literacy program for the EU requirement can usually extend it to the Japanese Guidelines by adding the role specific content from the Appendix and delivering it in Japanese for local staff."
+        },
+        {
+          "type": "p",
+          "text": "Soft law still has consequences. The Guidelines warn that if society considers a business's efforts inappropriate or insufficient, it may lose business opportunities and find it hard to maintain business value. Binding laws also still apply to AI use: the Guidelines tell businesses to observe existing laws such as the Act on the Protection of Personal Information (see [APPI employee training](/regulations/japan-appi-employee-training))."
+        }
+      ]
+    },
+    {
+      "id": "building-the-program",
+      "heading": "How should a business in Japan build AI literacy training against the Guidelines?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Start from the roles your organization holds under the Guidelines, then map each expectation to a learning outcome and to the evidence that shows it was achieved. The table below is an illustrative mapping built from principle 8 and the Appendix; it is not an official template."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: Guidelines expectation to learning outcome to evidence",
+          "head": [
+            "Expectation (source)",
+            "Who",
+            "Learning outcome",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "AI literacy sufficient for the engagement (principle 8(1))",
+              "All staff who use AI at work",
+              "Explain what the approved AI tools do, their limits, and when output must be checked",
+              "Role based completion record and short scenario assessment result"
+            ],
+            [
+              "AI ethics education for all employees (Behavioral Goal 3-2)",
+              "All employees",
+              "Identify ethical and legal risks in a workplace AI use case and the escalation route",
+              "Attestation to the AI policy version in force, with date"
+            ],
+            [
+              "Governance literacy for leaders (Behavioral Goal 3-2)",
+              "Officers, management, AI governance leads",
+              "Describe the AI management system, their accountability in it and the risk appetite",
+              "Briefing record, board or committee minutes"
+            ],
+            [
+              "Assess AI output where humans decide (Appendix 5)",
+              "AI business users in decision roles",
+              "Detect errors, bias and automation bias in AI output before acting on it",
+              "Observed task or work sample reviewed by a supervisor"
+            ],
+            [
+              "Risk management training (Appendix 4)",
+              "AI providers' product and service teams",
+              "Apply the organization's AI risk assessment to a new AI feature",
+              "Completed risk assessment reviewed by the governance lead"
+            ],
+            [
+              "Attack methods and value chain trade-offs (Appendix 3)",
+              "AI developers",
+              "Recognize current attack techniques and document mitigations",
+              "Technical assessment or red teaming exercise record"
+            ],
+            [
+              "Stakeholder education (principle 8(3))",
+              "Customer facing teams",
+              "Explain AI features, risks and proper use to customers in plain language",
+              "Approved customer guidance and review sign-off"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The method follows [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations). If the program uses generative AI to draft its own materials, apply the review controls in [how to govern AI generated learning content](/guides/how-to-govern-ai-generated-learning-content) and [how to use AI to create training content safely](/guides/how-to-use-ai-to-create-training-content-safely)."
+        },
+        {
+          "type": "p",
+          "text": "Because nothing is mandatory, evidence serves governance and disclosure rather than a regulator's inspection. A practical record set is:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "An AI literacy baseline for the organization, repeated periodically (Behavioral Goal 1-3).",
+            "A role map showing which people are engaged in AI as developers, providers or business users.",
+            "Versioned training content linked to the AI policy it teaches.",
+            "Completion, assessment and attestation records kept as an [audit trail](/glossary/audit-trail).",
+            "A review log showing when content was updated after a Guidelines revision or a change in AI tools."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models principle 8 and the relevant Appendix methods as expectations, links each to the organization's own AI policy and roles, and derives learning outcomes and assessment points before any content is written. When MIC and METI publish the next version of the Guidelines, the changed expectations can be traced to the outcomes and materials they affect. The same framework can hold EU AI Act Article 4 alongside the Japanese Guidelines for multinational programs."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is AI literacy training a legal requirement in Japan?",
+      "a": "No. As at September 2026 no Japanese law requires businesses to provide AI literacy training. The AI Guidelines for Business expect it, but they are non-binding soft law, and the AI Promotion Act contains no training duty and no penalties. Sector laws such as the APPI can still require staff education where AI use involves personal data."
+    },
+    {
+      "q": "Do the Guidelines apply to foreign companies?",
+      "a": "The Guidelines address anyone who develops, provides or uses AI in business, and they are voluntary for all. The December 2025 appropriateness guideline says utilization business operators under Article 7 of the AI Promotion Act include overseas business operators. Foreign companies serving Japanese customers are therefore within the intended audience of both documents."
+    },
+    {
+      "q": "How often should AI literacy training be refreshed?",
+      "a": "The Guidelines set no frequency. The Appendix warns that the AI literacy people need changes as the technology progresses and asks businesses to reevaluate their AI proficiency at an appropriate time. Many organizations refresh annually and after a significant change in AI tools, policy or the Guidelines themselves."
+    },
+    {
+      "q": "Is there an official AI literacy certification the Guidelines require?",
+      "a": "No. The Appendix mentions external programs and certifications as examples a small company might use, such as courses based on the Japan Deep Learning Association syllabus and the IT Passport examination, but it presents them as practical examples, not requirements."
+    }
+  ],
+  "sources": [
+    {
+      "title": "AI Guidelines for Business Ver1.2 (provisional English translation)",
+      "publisher": "Ministry of Internal Affairs and Communications and Ministry of Economy, Trade and Industry",
+      "url": "https://www.soumu.go.jp/main_content/001080990.pdf"
+    },
+    {
+      "title": "AI Guidelines for Business Appendix Ver1.2 (provisional English translation)",
+      "publisher": "Ministry of Internal Affairs and Communications and Ministry of Economy, Trade and Industry",
+      "url": "https://www.soumu.go.jp/main_content/001064306.pdf"
+    },
+    {
+      "title": "AI Jigyōsha Gaidorain (dai 1.2 han) honpen, Japanese text",
+      "publisher": "Ministry of Internal Affairs and Communications and Ministry of Economy, Trade and Industry",
+      "url": "https://www.soumu.go.jp/main_content/001064279.pdf"
+    },
+    {
+      "title": "AI Jigyōsha Gaidorain no Reiwa 7 nendo kōshin naiyō (summary of the 2025 fiscal year update), Japanese text",
+      "publisher": "Ministry of Internal Affairs and Communications and Ministry of Economy, Trade and Industry",
+      "url": "https://www.soumu.go.jp/main_content/001064301.pdf"
+    },
+    {
+      "title": "AI Guidelines for Business publication page (all versions)",
+      "publisher": "Ministry of Internal Affairs and Communications",
+      "url": "https://www.soumu.go.jp/main_sosiki/kenkyu/ai_network/02ryutsu20_04000019.html"
+    },
+    {
+      "title": "Act on Promotion of Research and Development, and Utilization of AI-related Technology (Act No. 53 of 2025), Japanese text",
+      "publisher": "Digital Agency, e-Gov Laws",
+      "url": "https://laws.e-gov.go.jp/law/507AC0000000053"
+    },
+    {
+      "title": "Act on Promotion of Research and Development, and Utilization of Artificial Intelligence-related Technology: English translation",
+      "publisher": "Ministry of Justice, Japanese Law Translation",
+      "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5066/en"
+    },
+    {
+      "title": "AI Act (AI hō) overview page",
+      "publisher": "Cabinet Office",
+      "url": "https://www8.cao.go.jp/cstp/ai/ai_act/ai_act.html"
+    },
+    {
+      "title": "Guideline for Ensuring the Appropriateness of Research and Development and Utilization of AI-related Technology (provisional translation)",
+      "publisher": "Artificial Intelligence Strategic Headquarters, Cabinet Office",
+      "url": "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_gl_eng_20260116.pdf"
+    },
+    {
+      "title": "Artificial Intelligence Basic Plan page",
+      "publisher": "Cabinet Office",
+      "url": "https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html"
+    },
+    {
+      "title": "Japan's Second Artificial Intelligence Basic Plan (provisional translation, July 14, 2026)",
+      "publisher": "Cabinet Office",
+      "url": "https://www8.cao.go.jp/cstp/ai/ai_plan/aiplan_eng_20260714.pdf"
+    }
+  ],
+  "related": [
+    "eu-ai-act-ai-literacy",
+    "japan-appi-employee-training",
+    "how-to-govern-ai-generated-learning-content",
+    "human-in-the-loop",
+    "how-to-use-ai-to-create-training-content-safely",
+    "how-to-map-training-to-compliance-obligations"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 3,
+  "factCheck": [
+    {
+      "claim": "Versions: 1.0 published April 19, 2024; 1.01 November 22, 2024; 1.1 March 28, 2025; 1.2 March 31, 2026 (current)",
+      "source": "https://www.soumu.go.jp/main_sosiki/kenkyu/ai_network/02ryutsu20_04000019.html"
+    },
+    {
+      "claim": "Version 1.2 update themes: AI agents and physical AI, review of risk descriptions and risk based approach, clarification of actor roles, usability aids, reflecting the AI Act",
+      "source": "https://www.soumu.go.jp/main_content/001064301.pdf"
+    },
+    {
+      "claim": "Guidelines are drawn up on a goal-based concept through soft laws without any legally binding force; version 1.2 dated March 31, 2026, issued by MIC and METI",
+      "source": "https://www.soumu.go.jp/main_content/001080990.pdf"
+    },
+    {
+      "claim": "Common guiding principle 8 Education/literacy: provide persons engaged in AI with necessary education to gain knowledge, literacy and ethical views; (1) AI literacy of the level sufficient for the engagement, (2) education and reskilling, (3) support for stakeholders; Table 1 shows '-' for all three roles meaning actors implement the common principle rather than doing nothing",
+      "source": "https://www.soumu.go.jp/main_content/001080990.pdf"
+    },
+    {
+      "claim": "Japanese text of principle 8 (kyōiku, riterashī) and description as non-binding soft law (hikōsokuteki na sofutorō)",
+      "source": "https://www.soumu.go.jp/main_content/001064279.pdf"
+    },
+    {
+      "claim": "Behavioral Goal 3-2 improving literacy of those in charge of AI management system; practice guidelines incl. requiring all employees to receive AI ethics education; Behavioral Goal 1-3 evaluating AI proficiency incl. employee literacy; Appendix 3, 4, 5 role specific education methods; Appendix 5 business users acquire ability to assess AI output",
+      "source": "https://www.soumu.go.jp/main_content/001064306.pdf"
+    },
+    {
+      "claim": "AI Promotion Act is Act No. 53 of 2025; Article 7 utilization business operators endeavor to use AI and must cooperate with national and local measures; Articles 13 to 16 are national government measures (guidelines, human resources, education, research and guidance); no penalty provisions",
+      "source": "https://laws.e-gov.go.jp/law/507AC0000000053"
+    },
+    {
+      "claim": "English translation of Article 7, 13, 14, 15 and 16 wording; Act No. 53 of June 4, 2025",
+      "source": "https://www.japaneselawtranslation.go.jp/en/laws/view/5066/en"
+    },
+    {
+      "claim": "AI Act promulgated and partly in force June 4, 2025; fully in force September 1, 2025",
+      "source": "https://www8.cao.go.jp/cstp/ai/ai_act/ai_act.html"
+    },
+    {
+      "claim": "Appropriateness guideline decided by AI Strategic Headquarters December 19, 2025 under Article 13; encourages voluntary efforts; utilization business operators include overseas business operators; AI governance includes implementation of education and training",
+      "source": "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_gl_eng_20260116.pdf"
+    },
+    {
+      "claim": "First AI Basic Plan Cabinet decision December 23, 2025; second plan Cabinet decision July 14, 2026",
+      "source": "https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html"
+    },
+    {
+      "claim": "Second AI Basic Plan: organizational management responses improving literacy across the organization; reskilling; profile of professionals capable of appropriate AI utilization with a minimum level of literacy",
+      "source": "https://www8.cao.go.jp/cstp/ai/ai_plan/aiplan_eng_20260714.pdf"
+    }
+  ]
+}

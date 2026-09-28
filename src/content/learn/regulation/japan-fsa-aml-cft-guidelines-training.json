@@ -1,0 +1,487 @@
+{
+  "slug": "japan-fsa-aml-cft-guidelines-training",
+  "kind": "regulation",
+  "title": "What does Japan's FSA expect for AML/CFT training?",
+  "seoTitle": "Japan FSA AML/CFT training",
+  "description": "What Japan's Criminal Proceeds Act and the FSA's AML/CFT Guidelines, revised March 2026, require for staff training, and how to evidence it to supervisors.",
+  "shortAnswer": "Japan's Financial Services Agency (FSA) expects financial institutions to hire and train staff with the expertise their AML/CFT roles need, under section III-5 of its Guidelines for Anti-Money Laundering and Combating the Financing of Terrorism. The five required actions cover continuous competence checks, role based CDD training, keeping content current, testing effectiveness, and sharing suspicious transaction insight. Article 11 of the Act on Prevention of Transfer of Criminal Proceeds adds an effort duty to train employees.",
+  "keyTakeaways": [
+    "Article 11 item 1 of the Act on Prevention of Transfer of Criminal Proceeds asks every specified business operator to endeavor to provide education and training to employees. It is an effort duty (doryoku gimu), and Article 11 is not among the provisions whose breach can trigger a correction order under Article 18.",
+    "For FSA supervised financial institutions, the binding detail is in section III-5 of the FSA Guidelines, which lists five required actions (taiō ga motomerareru jikō) on hiring, training, content review, effectiveness and feedback.",
+    "The March 31, 2026 revision of the Guidelines deleted every \"expected action\" and \"advanced practice\" category. Former training expectations for overseas offices now appear as examples in the FSA FAQ.",
+    "The FSA asked institutions to complete the required actions by the end of March 2024. Since April 2024 it has focused on effectiveness, and since the 2025 program year it has checked effectiveness verification through inspections.",
+    "Japan's FATF fifth round on-site assessment is scheduled for June 2028 according to the FSA, which makes evidence that training works, not only that it happened, the practical target."
+  ],
+  "jurisdiction": "Japan (national)",
+  "regulator": "Financial Services Agency (FSA), with the National Police Agency's Japan Financial Intelligence Center (JAFIC) as the financial intelligence unit",
+  "appliesTo": [
+    "Banks, shinkin banks, credit cooperatives and other deposit taking institutions supervised by the FSA",
+    "Insurers, financial instruments business operators, money lenders, funds transfer service providers, crypto asset exchange service providers and other FSA supervised specified business operators (tokutei jigyōsha)",
+    "Boards, the executive responsible for AML/CFT, compliance, internal audit and human resources functions",
+    "Branch and business division staff who perform customer due diligence, transaction checks or suspicious transaction reporting"
+  ],
+  "sections": [
+    {
+      "id": "legal-basis",
+      "heading": "Where does the AML/CFT training duty come from in Japan?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The duty comes from two layers: an effort duty in the Act on Prevention of Transfer of Criminal Proceeds (Hanzai ni yoru Shūeki no Iten Bōshi ni Kansuru Hōritsu, Act No. 22 of 2007) and detailed required actions in the FSA's Guidelines for AML/CFT. The Act applies to all specified business operators. The Guidelines apply to the specified business operators the FSA supervises."
+        },
+        {
+          "type": "p",
+          "text": "[Article 11 of the Act](https://laws.e-gov.go.jp/law/419AC0000000022) requires specified business operators to keep verified customer information up to date and to endeavor to take four further measures so that verification at the time of transactions, record keeping and suspicious transaction reporting are carried out accurately. Item 1 is \"implementation of education and training for employees\" (shiyōnin ni taisuru kyōiku kunren no jisshi). Item 2 is internal rules, item 3 is appointing a person to oversee audits and related work, and item 4 covers measures set by ministerial ordinance in light of the national risk assessment (NRA). The translation here is our own."
+        },
+        {
+          "type": "p",
+          "text": "[Article 32(1) of the Ordinance for Enforcement](https://laws.e-gov.go.jp/law/420M60000F5A001) lists the item 4 measures. They include preparing the operator's own risk assessment document, continuous scrutiny of verification and transaction records, approval of high risk transactions by the person appointed under item 3, taking measures needed to hire staff with the ability to carry out verification measures accurately (item 6), and conducting necessary audits (item 7)."
+        },
+        {
+          "type": "p",
+          "text": "For international readers, three features of the Japanese structure matter. First, the Act is administered with the National Police Agency: its [Japan Financial Intelligence Center (JAFIC)](https://www.npa.go.jp/sosikihanzai/jafic/index_e.htm) is Japan's financial intelligence unit. Under Article 3(2) the National Public Safety Commission collects, organizes and analyzes suspicious transaction information, and Article 3(3) requires the National Public Safety Commission to publish the NRA every year. Second, \"specified business operators\" is the Act's defined list of regulated businesses in Article 2(2), which runs from banks to real estate agents, lawyers and certified public accountants."
+        },
+        {
+          "type": "p",
+          "text": "Third, the FSA Guidelines are supervisory guidance, not legislation, but the FSA states that where required actions are inadequately implemented it will use reporting orders and business improvement orders under the industry laws."
+        },
+        {
+          "type": "callout",
+          "title": "Currency and translations",
+          "text": "This page reflects the Act, the Ordinance and the FSA Guidelines and FAQ as at September 2026. The Guidelines and FAQ were last revised on March 31, 2026. The FSA's English versions are provisional translations; only the Japanese texts are authoritative."
+        }
+      ]
+    },
+    {
+      "id": "what-iii-5-requires",
+      "heading": "What does section III-5 of the FSA Guidelines require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Section III-5, \"Human resource development\" (shokuin no kakuho, ikusei tō), requires institutions to hire and develop staff with role appropriate expertise and to train them on an ongoing basis. The FSA's [English provisional translation](https://www.fsa.go.jp/en/news/2026/20260331/01.pdf) says institutions are required to deepen employees' understanding of AML/CFT measures and maintain expertise and competency \"by hiring and training employees with such expertise and competency necessary for their roles through provision of appropriate training (including the status of relevant qualifications obtained) on an ongoing basis.\""
+        },
+        {
+          "type": "p",
+          "text": "The [Japanese original](https://www.fsa.go.jp/news/r7/amlcft/20260331/02.pdf) then lists five required actions. In summary, a financial institution shall:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Check competence continuously:** confirm that employees involved in AML/CFT have the knowledge and expertise their role needs, and the fitness to carry out verification and related measures accurately after training.",
+            "**Train on CDD by role:** make sure staff understand specific customer due diligence methods, including verification at the time of transactions, using easy to understand materials and appropriate ongoing training.",
+            "**Keep content current:** analyze whether training content fits the risks the institution faces, reflects the latest laws and information from domestic and foreign authorities, and could be improved.",
+            "**Test effectiveness:** check whether staff follow what training teaches, follow up with employees, and review participants, frequency, attendance and content as needed, including for emerging risks.",
+            "**Feed back risk insight:** share firm wide suspicious transaction reporting trends, questions and observations from the control function with business divisions so every employee there understands the risks."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The required actions in III-5 were not changed in the March 2026 revision, according to the FSA's [comparison table of old and new text](https://www.fsa.go.jp/news/r7/amlcft/20260331/03.pdf). The same revision is summarized in the FSA's [announcement of March 31, 2026](https://www.fsa.go.jp/news/r7/amlcft/20260331/20260331.html), which states that the revised Guidelines and FAQ apply from that date."
+        }
+      ]
+    },
+    {
+      "id": "training-elsewhere",
+      "heading": "Where else do the Guidelines refer to training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training also appears in the Board, three lines of defense and data sections, so a training program has to serve governance and audit as well as front line staff. The main references in the 2026 Guidelines are:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**III-2 (Board involvement), required action vii:** the Board participates in or is otherwise proactively involved in AML/CFT training for the Board and employees.",
+            "**III-3(1) (first line):** all first line employees must sufficiently understand the policies and procedures for their division and duties, and receive a clear, easy to understand description of their obligations.",
+            "**III-3(2) (second line):** the human resources division responsible for hiring and retaining expert staff counts as a control division, and control divisions must be staffed with people who have sufficient AML/CFT knowledge.",
+            "**III-3(3) (third line):** the internal audit plan must cover the expertise and competency of staff and \"the effectiveness of employee training\".",
+            "**II-2(3)(vii) (data governance):** institutions must keep analyzable data, including the numbers and content of internal audits and training and the number of staff who obtained relevant qualifications.",
+            "**IV-1 (FSA monitoring):** the FSA collects information from institutions on internal and external training and qualifications held by officers and staff."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Read together, these sections mean an institution should be able to show the Board's own training, the training given to each line of defense, and audit findings on whether training works. The guide on [how to report training compliance to the board](/guides/how-to-report-training-compliance-to-the-board) covers the governance reporting side."
+        }
+      ]
+    },
+    {
+      "id": "required-vs-expected",
+      "heading": "What happened to the \"expected actions\" in the Guidelines?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The March 31, 2026 revision removed them. Before the revision, the Guidelines used three categories: required actions (taiō ga motomerareru jikō), expected actions (taiō ga kitai sareru jikō) and examples of advanced practices (senshinteki na torikumi jirei). The revised text keeps only required actions. The FSA's comparison table marks the expected action and advanced practice blocks as deleted, except one expected action on the use of new technologies in II-2(5), which became a required action."
+        },
+        {
+          "type": "p",
+          "text": "In its [response to public comments](https://www.fsa.go.jp/news/r7/amlcft/20260331/01.pdf), the FSA explained that expected actions and advanced practices were matters for particular situations or for institutions of a certain size and business profile seeking a more resilient framework. It moved them, where needed, into the FAQ for the related required action as examples, and said institutions that judge them necessary in light of their own risks should continue them. The consultation ran from January 19 to February 19, 2026 and drew 52 comments from 18 individuals and organizations."
+        },
+        {
+          "type": "p",
+          "text": "For training, the change affects two former expected actions in III-5: training overseas office risk assessment staff on the importance and correct method of risk assessment, tailored to each office, and building programs so AML/CFT staff in internationally active groups obtain training and qualifications on international trends. Both now appear as examples in the FAQ answer to required action iii. The revision also added required actions elsewhere, such as outsourcing management in III-3(4), which new training content may need to reflect."
+        }
+      ]
+    },
+    {
+      "id": "deadline-and-supervision",
+      "heading": "What did the March 2024 deadline mean, and how does the FSA supervise now?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The FSA set the end of March 2024 as the deadline for institutions to complete a framework meeting the Guidelines' required actions, and it now supervises whether those frameworks are effective. The [FSA's request of May 31, 2021](https://www.fsa.go.jp/news/r2/20210531_amlcft/2021_amlcft_yousei.html) was sent through industry associations and said the request applied to every FSA supervised institution covered by the Guidelines. The current Guidelines apply to FSA supervised specified business operators other than certified public accountants and audit firms (Article 2(2) item 48), which have separate FSA guidelines."
+        },
+        {
+          "type": "p",
+          "text": "The FSA's [AML/CFT policy page](https://www.fsa.go.jp/policy/amlcftcpt/index.html) states that from April 2024 onward it continues to require institutions to ensure the effectiveness of, and further enhance, the frameworks they built. Its [July 2026 report on initiatives and challenges](https://www.fsa.go.jp/en/news/2026/20260703/05.pdf) says almost all institutions have largely established basic frameworks, that institutions must verify the effectiveness of their frameworks with a view to the FATF fifth round evaluation, and that since the 2025 program year the FSA has checked this effectiveness verification through inspections and other supervisory activity."
+        },
+        {
+          "type": "p",
+          "text": "Enforcement routes differ by layer. Under the Act, Article 18 lets the competent authority order a specified business operator to correct breaches of listed articles, and breaching such an order is punishable under Article 33 by imprisonment of up to two years, a fine of up to 3,000,000 yen, or both, with a corporate fine of up to 300,000,000 yen under Article 35. Article 11 is not in the Article 18 list. Weak training is therefore more likely to surface through FSA supervision under the Guidelines and industry laws, or as a root cause of failures in verification or reporting that the Act does make enforceable."
+        }
+      ]
+    },
+    {
+      "id": "faq-guidance",
+      "heading": "What does the FSA FAQ add about training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The FSA's [FAQ on the Guidelines](https://www.fsa.go.jp/en/news/2026/20260331/02.pdf) confirms that training can take many forms but must be practical, role based and followed up. The main points in its III-5 answers are:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Methods:** \"training\" may include correspondence courses and e-learning.",
+            "**Qualifications:** relevant qualifications include those granted by external organizations and industry associations, and in house qualifications the institution encourages.",
+            "**Scope:** \"employees involved in AML/CFT measures\" means a wide range of staff, including those in business operations, not only the control function.",
+            "**Confirming competence:** examples include training status, level of understanding of the training, and interviews by superiors, tailored to each role and institution.",
+            "**Follow-up:** training content should be practical, and institutions need follow-up to make sure knowledge is established and to confirm any expected business effect.",
+            "**Updates:** when the NRA, FATF Recommendations, interpretive notes or sector guidance change, or the institution's risks change, existing training should be updated and those already trained should be verified."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The last point is the most demanding in practice: a content change is not complete until the institution can show that previously trained staff understand the change. The guide on [updating training when regulations change](/guides/how-to-update-training-when-regulations-change) sets out a method for tracing a change to the affected people."
+        }
+      ]
+    },
+    {
+      "id": "fatf-context",
+      "heading": "How does the FATF evaluation of Japan shape training expectations?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Japan's last FATF evaluation placed it in enhanced follow-up and called for priority work on supervision of financial institutions, and the next evaluation is approaching. The Financial Action Task Force (FATF) published its fourth round Mutual Evaluation Report of Japan on August 30, 2021. The [Minister of Finance's statement](https://www.mof.go.jp/policy/international_policy/convention/fatf/fatfhoudou_20210830_2.html) that day said the report concluded Japan would be an enhanced follow-up country (jūten forōappu koku) and should prioritize supervision of financial institutions and money laundering investigation and prosecution."
+        },
+        {
+          "type": "p",
+          "text": "Japan's [third follow-up report](https://www.mof.go.jp/policy/international_policy/convention/fatf/20241010.html), published on October 10, 2024, upgraded six Recommendations (7, 8, 12, 22, 23 and 25) from partially compliant to largely compliant. None of those six is specific to staff training. The FSA's July 2026 report states that the on-site assessment for Japan's fifth round evaluation is scheduled for June 2028, and the March 2026 Guidelines revision drew on a comparison with the fifth round methodology."
+        }
+      ]
+    },
+    {
+      "id": "required-actions-to-evidence",
+      "heading": "How do the required actions map to training audiences and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each training related required action points to a distinct audience and a distinct piece of evidence. The table below is an original, illustrative mapping built from the Guidelines and FAQ. It is not an FSA template, and each institution should adapt it to its own risk assessment document under Ordinance Article 32(1)."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping of FSA Guidelines training requirements to audience, learning outcome and evidence",
+          "head": [
+            "Required action",
+            "Training audience",
+            "Learning outcome",
+            "Evidence a supervisor could review"
+          ],
+          "rows": [
+            [
+              "III-5 i: continuous competence checks",
+              "All staff involved in AML/CFT, including branch staff",
+              "Carries out verification at the time of transactions and follow-up measures correctly for their role",
+              "Assessment results by role, supervisor interview records, periodic reassessment dates"
+            ],
+            [
+              "III-5 ii: role based CDD training",
+              "Account opening, remittance, lending and back office staff",
+              "Applies the institution's CDD procedures, including beneficial ownership and ongoing customer information updates",
+              "Role mapped curriculum, plain language procedure materials, completion by role"
+            ],
+            [
+              "III-5 iii: content kept current",
+              "Content owners and the AML/CFT division",
+              "Updates content to reflect the NRA, new laws, FATF material and the institution's risk assessment",
+              "Content review log with dates, version history, sources checked"
+            ],
+            [
+              "III-5 iv: effectiveness testing",
+              "Trained staff and their managers",
+              "Follows trained procedures in live work; understanding is retained after updates",
+              "Post-training assessments, first line compliance testing, reverification after content changes"
+            ],
+            [
+              "III-5 v: STR feedback",
+              "Business divisions",
+              "Recognizes the red flags behind the institution's own suspicious transaction reports",
+              "Feedback briefings, Q&A records from the control function, attendance"
+            ],
+            [
+              "III-2 vii: Board involvement",
+              "Board and executive responsible for AML/CFT",
+              "Explains the institution's ML/FT risks and its AML/CFT framework to stakeholders",
+              "Board training agenda and minutes, attendance, questions raised"
+            ],
+            [
+              "III-3(3) i: audit of training",
+              "Internal audit",
+              "Assesses whether training is effective and staff competence is adequate",
+              "Audit plan scope, findings and remediation tracking"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Mapping obligations this way follows the method in [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations). The distinction the FSA draws between attendance and applied competence is the one described in [completion tracking vs competency verification](/compare/completion-tracking-vs-competency-verification)."
+        }
+      ]
+    },
+    {
+      "id": "law-changes",
+      "heading": "Did 2025 or 2026 law changes alter the training duty?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No. The main 2026 amendment does not change Article 11. The Act Partially Amending the Act on Prevention of Transfer of Criminal Proceeds (Act No. 34 of 2026) was promulgated on June 10, 2026. It adds a new Chapter 4-2 on measures by police officers to prevent deposit accounts and similar accounts being used for crime, and takes effect within one year of promulgation on a date set by Cabinet Order, with some provisions in force one month after promulgation. The e-Gov revision list shows the remaining provisions taking effect on June 9, 2027, and the text of Article 11 in that future version is unchanged."
+        },
+        {
+          "type": "p",
+          "text": "Training content still needs to follow these changes. Account misuse and fraud are a major FSA theme: the July 2026 report describes financial crime damage increasing in severity through online and telephone scams and phishing, and the 2026 Guidelines revision addressed stronger measures against misuse of deposit accounts. Front line CDD training that ignores fraud typologies would sit poorly with required action iii."
+        }
+      ]
+    },
+    {
+      "id": "evidence",
+      "heading": "How do you evidence AML/CFT training to the FSA?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Keep records that show who was trained on what, whether they understood it, and whether the content was current and effective. The Guidelines require analyzable data on training and qualifications, and the FSA collects training information from institutions each year for its risk assessment. A practical evidence set includes:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "A roster of employees involved in AML/CFT by role, including branch and business division staff.",
+            "A curriculum mapped to each role and to the institution's risk assessment document.",
+            "Completion and assessment records with dates, content version and results, kept as an [audit trail](/glossary/audit-trail).",
+            "Records of relevant qualifications obtained, internal or external.",
+            "A content review log showing updates after NRA, legal or FATF changes, and reverification of staff already trained.",
+            "Board training records and internal audit findings on training effectiveness."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The guide on [showing a regulator that training works](/guides/how-to-evidence-training-effectiveness-to-a-regulator) explains how to combine these records into an effectiveness narrative. Multinational groups can compare this page with [Australia's AUSTRAC training requirements](/regulations/austrac-aml-ctf-training-requirements) and [Bank Secrecy Act training in the United States](/regulations/bsa-aml-training-requirements) to build one core module with jurisdiction specific inserts."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models Article 11, Ordinance Article 32 and the required actions in the FSA Guidelines as obligations, links each to the roles that must meet them, and defines learning outcomes and assessment points before any content is written. When the NRA, the Guidelines or the FAQ change, the affected obligations are flagged so linked training can be reviewed and previously trained staff reverified, with a record of which version each person was assessed against."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is AML/CFT training mandatory under Japanese law?",
+      "a": "Under the Act, training is an effort duty: Article 11 says specified business operators must endeavor to provide education and training to employees. For FSA supervised financial institutions, section III-5 of the FSA Guidelines turns this into required actions, and the FSA says it will use reporting and business improvement orders under industry laws where required actions are inadequately implemented."
+    },
+    {
+      "q": "Does the FSA set a minimum training frequency?",
+      "a": "No fixed interval appears in the Guidelines or the FAQ. Required action iv asks institutions to review participants, frequency, attendance and content as necessary, taking emerging risks into account, and the FAQ says training should be updated when the NRA, FATF material or the institution's risks change."
+    },
+    {
+      "q": "Can e-learning satisfy the FSA Guidelines?",
+      "a": "The FSA FAQ says training may include correspondence courses and e-learning. The Guidelines still require institutions to confirm understanding, check that staff follow trained procedures in practice and follow up with employees, so e-learning completion alone does not show the required effectiveness."
+    },
+    {
+      "q": "Do the FSA Guidelines apply to foreign banks' branches in Japan?",
+      "a": "The Guidelines apply to FSA supervised specified business operators and do not carve out foreign owned institutions. Section III-4 specifically asks Japanese offices of foreign financial groups to explain the group's ML/FT risk control framework to the authorities and other stakeholders."
+    },
+    {
+      "q": "What happened to training items that used to be \"expected actions\"?",
+      "a": "The March 2026 revision removed the expected action category. All but one expected action were deleted; the one on new technologies in II-2(5) became a required action. The two former III-5 expected actions, on training overseas office risk assessment staff and on international trend training and qualifications, now appear as examples in the FAQ answer to required action iii. The FSA says institutions that judge them necessary for their risks should continue them."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Act on Prevention of Transfer of Criminal Proceeds (Act No. 22 of 2007), Japanese text",
+      "publisher": "Digital Agency, e-Gov Laws",
+      "url": "https://laws.e-gov.go.jp/law/419AC0000000022"
+    },
+    {
+      "title": "Ordinance for Enforcement of the Act on Prevention of Transfer of Criminal Proceeds, Japanese text",
+      "publisher": "Digital Agency, e-Gov Laws",
+      "url": "https://laws.e-gov.go.jp/law/420M60000F5A001"
+    },
+    {
+      "title": "Guidelines for Anti-Money Laundering and Combating the Financing of Terrorism (March 31, 2026), Japanese text",
+      "publisher": "Financial Services Agency",
+      "url": "https://www.fsa.go.jp/news/r7/amlcft/20260331/02.pdf"
+    },
+    {
+      "title": "Guidelines for Anti-Money Laundering and Combating the Financing of Terrorism (March 31, 2026), provisional English translation",
+      "publisher": "Financial Services Agency",
+      "url": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf"
+    },
+    {
+      "title": "Frequently Asked Questions Regarding the AML/CFT Guidelines (March 31, 2026), provisional English translation",
+      "publisher": "Financial Services Agency",
+      "url": "https://www.fsa.go.jp/en/news/2026/20260331/02.pdf"
+    },
+    {
+      "title": "Results of public comment on the partial revision of the AML/CFT Guidelines (March 31, 2026)",
+      "publisher": "Financial Services Agency",
+      "url": "https://www.fsa.go.jp/news/r7/amlcft/20260331/20260331.html"
+    },
+    {
+      "title": "Summary of public comments and FSA responses, AML/CFT Guidelines revision",
+      "publisher": "Financial Services Agency",
+      "url": "https://www.fsa.go.jp/news/r7/amlcft/20260331/01.pdf"
+    },
+    {
+      "title": "AML/CFT Guidelines comparison table of old and new text",
+      "publisher": "Financial Services Agency",
+      "url": "https://www.fsa.go.jp/news/r7/amlcft/20260331/03.pdf"
+    },
+    {
+      "title": "Setting a deadline for AML/CFT framework development (May 31, 2021)",
+      "publisher": "Financial Services Agency",
+      "url": "https://www.fsa.go.jp/news/r2/20210531_amlcft/2021_amlcft_yousei.html"
+    },
+    {
+      "title": "AML/CFT and counter proliferation financing measures at financial institutions",
+      "publisher": "Financial Services Agency",
+      "url": "https://www.fsa.go.jp/policy/amlcftcpt/index.html"
+    },
+    {
+      "title": "Initiatives and Challenges in Anti-Money Laundering and Countering Financial Crime (July 2026), Executive Summary",
+      "publisher": "Financial Services Agency",
+      "url": "https://www.fsa.go.jp/en/news/2026/20260703/05.pdf"
+    },
+    {
+      "title": "Initiatives and Challenges in Anti-Money Laundering and Countering Financial Crime (July 2026), full report in Japanese",
+      "publisher": "Financial Services Agency",
+      "url": "https://www.fsa.go.jp/policy/amlcftcpt/02.pdf"
+    },
+    {
+      "title": "Japan Financial Intelligence Center (JAFIC)",
+      "publisher": "National Police Agency",
+      "url": "https://www.npa.go.jp/sosikihanzai/jafic/index_e.htm"
+    },
+    {
+      "title": "Statement by the Minister of Finance on the FATF Mutual Evaluation of Japan (August 30, 2021)",
+      "publisher": "Ministry of Finance",
+      "url": "https://www.mof.go.jp/policy/international_policy/convention/fatf/fatfhoudou_20210830_2.html"
+    },
+    {
+      "title": "Publication of the third FATF follow-up report on Japan (October 10, 2024)",
+      "publisher": "Ministry of Finance",
+      "url": "https://www.mof.go.jp/policy/international_policy/convention/fatf/20241010.html"
+    }
+  ],
+  "related": [
+    "austrac-aml-ctf-training-requirements",
+    "bsa-aml-training-requirements",
+    "uae-aml-cft-training-requirements",
+    "eu-amlr-training-requirements",
+    "japan-appi-employee-training",
+    "how-to-evidence-training-effectiveness-to-a-regulator"
+  ],
+  "productLinks": [
+    {
+      "label": "Financial services",
+      "href": "/industries/financial-services"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 3,
+  "factCheck": [
+    {
+      "claim": "Article 11 of the Act requires specified business operators to keep verification information current and to endeavor to take listed measures, item 1 being education and training for employees (shiyōnin ni taisuru kyōiku kunren no jisshi)",
+      "source": "https://laws.e-gov.go.jp/law/419AC0000000022"
+    },
+    {
+      "claim": "Article 18 correction orders cover Articles 4, 6, 7, 8(1) to (4) and 9 to 10-5, not Article 11; Article 33 penalty up to two years' imprisonment or 3,000,000 yen fine or both; Article 35 corporate fine up to 300,000,000 yen",
+      "source": "https://laws.e-gov.go.jp/law/419AC0000000022"
+    },
+    {
+      "claim": "Ordinance Article 32(1) lists item 4 measures, including own risk assessment document, approval by the Article 11(3) appointee, hiring staff with necessary ability (item 6) and audits (item 7)",
+      "source": "https://laws.e-gov.go.jp/law/420M60000F5A001"
+    },
+    {
+      "claim": "Guidelines revised and current as of March 31, 2026; apply to FSA supervised specified business operators except Article 2(2) item 48 (CPAs and audit firms); III-5 Human resource development lists five required actions; III-2 vii Board involvement in training; III-3(3) audit of effectiveness of employee training; I-4 reporting and business improvement orders",
+      "source": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf"
+    },
+    {
+      "claim": "March 2026 revision deleted the expected action and advanced practice categories; the II-2(5) new technologies expected action was upgraded to a required action and all others deleted; III-5 required actions unchanged; two III-5 expected actions on overseas and international training deleted",
+      "source": "https://www.fsa.go.jp/news/r7/amlcft/20260331/03.pdf"
+    },
+    {
+      "claim": "FSA explanation that expected actions and advanced practices were moved as examples into the FAQ of related required actions; 52 comments from 18 individuals and organizations; consultation January 19 to February 19, 2026",
+      "source": "https://www.fsa.go.jp/news/r7/amlcft/20260331/01.pdf"
+    },
+    {
+      "claim": "FAQ: training may include correspondence courses and e-learning; relevant qualifications include external and in house; update training when NRA or FATF material changes and verify those already trained",
+      "source": "https://www.fsa.go.jp/en/news/2026/20260331/02.pdf"
+    },
+    {
+      "claim": "FSA set a March 2024 completion deadline for required actions on May 31, 2021, applicable to all institutions covered by the Guidelines",
+      "source": "https://www.fsa.go.jp/news/r2/20210531_amlcft/2021_amlcft_yousei.html"
+    },
+    {
+      "claim": "FSA continues from April 2024 to require effectiveness and enhancement of frameworks",
+      "source": "https://www.fsa.go.jp/policy/amlcftcpt/index.html"
+    },
+    {
+      "claim": "Almost all FIs have largely established basic frameworks; FSA has checked effectiveness verification through inspections since the 2025 program year",
+      "source": "https://www.fsa.go.jp/en/news/2026/20260703/05.pdf"
+    },
+    {
+      "claim": "FATF fifth round on-site assessment of Japan scheduled for June 2028; FSA collects training information annually",
+      "source": "https://www.fsa.go.jp/policy/amlcftcpt/02.pdf"
+    },
+    {
+      "claim": "FATF fourth round MER of Japan published August 30, 2021, enhanced follow-up, priority on supervision of financial institutions",
+      "source": "https://www.mof.go.jp/policy/international_policy/convention/fatf/fatfhoudou_20210830_2.html"
+    },
+    {
+      "claim": "Third follow-up report October 10, 2024 upgraded Recommendations 7, 8, 12, 22, 23 and 25 from PC to LC",
+      "source": "https://www.mof.go.jp/policy/international_policy/convention/fatf/20241010.html"
+    },
+    {
+      "claim": "JAFIC is the FIU of Japan within the National Police Agency, established April 1, 2007",
+      "source": "https://www.npa.go.jp/sosikihanzai/jafic/index_e.htm"
+    },
+    {
+      "claim": "Act No. 34 of 2026 promulgated June 10, 2026, adds Chapter 4-2 police account misuse prevention measures, effective within one year (e-Gov lists June 9, 2027), Article 11 unchanged",
+      "source": "https://laws.e-gov.go.jp/law/419AC0000000022"
+    }
+  ]
+}

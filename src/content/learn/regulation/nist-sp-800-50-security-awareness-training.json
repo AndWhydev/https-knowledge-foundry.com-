@@ -52,7 +52,7 @@
             "**One program, two disciplines.** The Cybersecurity and Privacy Learning Program (CPLP) covers security and privacy, reflecting the 2016 update to OMB Circular A-130.",
             "**Learner language.** Participants are \"learners\" and the program is a \"learning program\", aligned with the NICE Framework.",
             "**Metrics.** The change log says the revision addresses issues from NIST research, including guidance for designing impactful metrics and measurements.",
-            "**Culture.** A full section covers building a cybersecurity and privacy culture, treating human risk alongside technical risk.",
+            "**Culture.** Section 1.4 covers building a cybersecurity and privacy culture, treating human risk alongside technical risk.",
             "**Alignment.** It draws on the NIST Cybersecurity Framework, Risk Management Framework and Privacy Framework published since 2003."
           ]
         },
@@ -219,7 +219,7 @@
             [
               "NIST SP 800-171 Rev. 3, requirements 03.02.01 and 03.02.02",
               "Literacy training and awareness, and role-based training, for systems handling Controlled Unclassified Information (CUI).",
-              "Nonfederal organizations when required by contract, including defense contractors."
+              "Nonfederal organizations when required by contract. DoD contracts and CMMC still assess against SP 800-171 Rev. 2 (requirements 3.2.1 to 3.2.3)."
             ]
           ]
         },
@@ -351,7 +351,7 @@
     "how-to-measure-training-effectiveness",
     "how-to-set-mandatory-training-refresh-cycles",
     "training-needs-analysis",
-    "training-matrix"
+    "uae-information-assurance-awareness-training"
   ],
   "productLinks": [
     {
@@ -365,7 +365,7 @@
   ],
   "published": "2026-09-28",
   "updated": "2026-09-28",
-  "release": 99,
+  "release": 2,
   "factCheck": [
     {
       "claim": "SP 800-50 Rev. 1, Building a Cybersecurity and Privacy Learning Program, final, published September 2024; supersedes SP 800-50 (October 2003) and SP 800-16 (April 1998); authors from NIST, CISA, NASA, DOT, MITRE and IRS.",
@@ -396,7 +396,7 @@
       "source": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf"
     },
     {
-      "claim": "SP 800-171 Rev. 3 (May 2024) requirements 03.02.01 Literacy Training and Awareness and 03.02.02 Role-Based Training.",
+      "claim": "SP 800-171 Rev. 3 (May 2024) requirements 03.02.01 Literacy Training and Awareness and 03.02.02 Role-Based Training. CMMC (32 CFR 170.4) incorporates SP 800-171 R2, not Rev. 3.",
       "source": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171r3.pdf"
     }
   ]

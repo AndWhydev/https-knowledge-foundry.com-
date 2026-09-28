@@ -139,12 +139,12 @@ export function findLearnPage(slug: string): LearnPage | undefined {
 
 /** Jurisdictions the regulation index groups by, in display order. */
 export const regions = [
-  "International standards",
+  "United States",
+  "United Arab Emirates",
+  "Japan",
   "European Union",
   "Portugal",
-  "United States",
-  "Japan",
-  "United Arab Emirates",
+  "International standards",
   "Australia",
 ] as const;
 

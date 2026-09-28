@@ -6,7 +6,7 @@
   "description": "Where staff training sits in the GDPR: accountability, security, the DPO's monitoring role and binding corporate rules, and how to evidence it.",
   "shortAnswer": "The General Data Protection Regulation (GDPR, Regulation (EU) 2016/679) has no single article requiring every employee to be trained. Training is required indirectly: controllers must implement appropriate measures and be able to demonstrate compliance (Articles 5(2) and 24), staff may process personal data only on instructions (Articles 29 and 32(4)), the data protection officer monitors awareness raising and training (Article 39), and binding corporate rules must include training (Article 47).",
   "keyTakeaways": [
-    "The GDPR has applied since May 25, 2018 as a directly applicable EU regulation; it names training explicitly only in Articles 39 and 47.",
+    "The GDPR has applied since May 25, 2018 as a directly applicable EU regulation; it names staff training explicitly only in Articles 39 and 47.",
     "Accountability (Article 5(2)) and controller responsibility (Article 24) mean organizations must be able to demonstrate compliance, and training records are a standard part of that evidence.",
     "Articles 29 and 32(4) require that people with access to personal data process it only on the controller's instructions, which is hard to show without training.",
     "Infringing Articles 25 to 39 can attract fines of up to EUR 10 million or 2% of worldwide annual turnover; breaches of the core principles, up to EUR 20 million or 4%.",
@@ -26,7 +26,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Yes, in effect, although no article says \"train all staff\". As at September 2026, the [GDPR](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504) makes training a practical necessity through its accountability and security duties, and names training explicitly in two places: the tasks of the data protection officer (DPO) and the content of binding corporate rules."
+          "text": "Yes, in effect, although no article says \"train all staff\". As at September 2026, the [GDPR](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504) makes training a practical necessity through its accountability and security duties, and names staff training explicitly in two places: the tasks of the data protection officer (DPO) and the content of binding corporate rules."
         },
         {
           "type": "p",
@@ -256,10 +256,10 @@
   "related": [
     "eu-ai-act-ai-literacy",
     "nis2-management-body-training",
-    "privacy-act-staff-training-requirements",
-    "compliance-obligations-register",
-    "how-to-set-mandatory-training-refresh-cycles",
-    "how-to-prepare-training-records-for-an-audit"
+    "japan-appi-employee-training",
+    "difc-data-protection-law-training",
+    "adgm-data-protection-training",
+    "hipaa-security-and-privacy-training"
   ],
   "productLinks": [
     {
@@ -273,7 +273,7 @@
   ],
   "published": "2026-09-28",
   "updated": "2026-09-28",
-  "release": 99,
+  "release": 3,
   "factCheck": [
     {
       "claim": "Article 39(1)(b): DPO monitors compliance including awareness-raising and training of staff involved in processing operations, and related audits; Article 39(1)(a) inform and advise employees who carry out processing",

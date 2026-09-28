@@ -54,12 +54,37 @@
         {
           "type": "table",
           "caption": "Article 4 before and after Regulation (EU) 2026/1744",
-          "head": ["Point", "Original text (2024)", "Proposal (November 19, 2025)", "Adopted text (in force July 2026)"],
+          "head": [
+            "Point",
+            "Original text (2024)",
+            "Proposal (November 19, 2025)",
+            "Adopted text (in force July 2026)"
+          ],
           "rows": [
-            ["Who carries the duty", "Providers and deployers", "Shift the duty to the Commission and Member States to promote AI literacy", "Providers and deployers keep the duty (Article 4(1))"],
-            ["Standard", "Ensure, to their best extent, a sufficient level of AI literacy", "No organizational obligation proposed", "Take measures to support the development of AI literacy; no specific level guaranteed for any individual"],
-            ["Public support", "Not in Article 4", "Commission and Member States promote AI literacy", "Commission and Member States support providers and deployers, especially SMEs; Commission publishes practical examples (Article 4(2))"],
-            ["Common objectives", "Not in Article 4", "Not applicable", "The European Artificial Intelligence Board adopts recommendations, taking into account European competence frameworks (Article 4(3))"]
+            [
+              "Who carries the duty",
+              "Providers and deployers",
+              "Shift the duty to the Commission and Member States to promote AI literacy",
+              "Providers and deployers keep the duty (Article 4(1))"
+            ],
+            [
+              "Standard",
+              "Ensure, to their best extent, a sufficient level of AI literacy",
+              "No organizational obligation proposed",
+              "Take measures to support the development of AI literacy; no specific level guaranteed for any individual"
+            ],
+            [
+              "Public support",
+              "Not in Article 4",
+              "Commission and Member States promote AI literacy",
+              "Commission and Member States support providers and deployers, especially SMEs; Commission publishes practical examples (Article 4(2))"
+            ],
+            [
+              "Common objectives",
+              "Not in Article 4",
+              "Not applicable",
+              "The European Artificial Intelligence Board adopts recommendations, taking into account European competence frameworks (Article 4(3))"
+            ]
           ]
         },
         {
@@ -74,7 +99,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The AI Act is an EU regulation, so it applies directly in all 27 Member States without national transposition. Article 113 states that it is \"binding in its entirety and directly applicable in all Member States\"."
+          "text": "The AI Act is an EU regulation, so it applies directly in all 27 Member States without national transposition. The closing provision that follows Article 113 states that it \"shall be binding in its entirety and directly applicable in all Member States\"."
         },
         {
           "type": "p",
@@ -97,15 +122,39 @@
         {
           "type": "table",
           "caption": "Key dates for AI literacy and related training duties",
-          "head": ["Date", "What happens"],
+          "head": [
+            "Date",
+            "What happens"
+          ],
           "rows": [
-            ["August 1, 2024", "AI Act enters into force"],
-            ["February 2, 2025", "Chapters I and II apply, including Article 4 (AI literacy) and the prohibited practices in Article 5"],
-            ["August 2, 2025", "Deadline for Member States to adopt national penalty rules, according to the Commission's questions and answers"],
-            ["July 27, 2026", "Regulation (EU) 2026/1744 enters into force (third day after its July 24 publication) and replaces Article 4"],
-            ["August 2026", "National market surveillance authorities begin supervising and enforcing Article 4"],
-            ["December 2, 2027", "High-risk rules in Chapter III, Sections 1 to 3 (including deployer duties in Article 26) apply to Annex III systems, as amended by the Digital Omnibus"],
-            ["August 2, 2028", "The same high-risk rules apply to AI systems covered by Annex I product legislation"]
+            [
+              "August 1, 2024",
+              "AI Act enters into force"
+            ],
+            [
+              "February 2, 2025",
+              "Chapters I and II apply, including Article 4 (AI literacy) and the prohibited practices in Article 5 (the new prohibitions added by the Digital Omnibus apply from December 2, 2026)"
+            ],
+            [
+              "August 2, 2025",
+              "Deadline for Member States to adopt national penalty rules, according to the Commission's questions and answers"
+            ],
+            [
+              "July 27, 2026",
+              "Regulation (EU) 2026/1744 enters into force (third day after its July 24 publication) and replaces Article 4"
+            ],
+            [
+              "August 2026",
+              "National market surveillance authorities begin supervising and enforcing Article 4"
+            ],
+            [
+              "December 2, 2027",
+              "High-risk rules in Chapter III, Sections 1 to 3 (including deployer duties in Article 26) apply to Annex III systems, as amended by the Digital Omnibus"
+            ],
+            [
+              "August 2, 2028",
+              "The same high-risk rules apply to AI systems covered by Annex I product legislation"
+            ]
           ]
         }
       ]
@@ -139,13 +188,37 @@
         {
           "type": "table",
           "caption": "Illustrative mapping: Article 4 considerations to learning outcomes to evidence",
-          "head": ["Article 4 consideration", "Example learning outcome", "Evidence to retain"],
+          "head": [
+            "Article 4 consideration",
+            "Example learning outcome",
+            "Evidence to retain"
+          ],
           "rows": [
-            ["Technical knowledge and experience of staff", "Staff can describe what the AI tools they use do and what they cannot do", "Role based needs assessment and short knowledge check results"],
-            ["Context the AI systems are used in", "Staff apply the organization's AI use policy to their own tasks, including what data may be entered", "Policy acknowledgment and scenario assessment results"],
-            ["Persons on whom the systems are used", "Staff can identify when an AI output affects customers or employees and when it needs human review", "Worked case exercises and supervisor sign off"],
-            ["Provider or deployer role", "Product teams can explain the transparency and documentation duties that apply to their role", "Training records mapped to each AI system in the AI inventory"],
-            ["High-risk deployment (Article 26(2))", "Assigned overseers can interpret outputs, spot anomalies and override or stop the system", "Competence assessment and authority assignment for each named overseer"]
+            [
+              "Technical knowledge and experience of staff",
+              "Staff can describe what the AI tools they use do and what they cannot do",
+              "Role based needs assessment and short knowledge check results"
+            ],
+            [
+              "Context the AI systems are used in",
+              "Staff apply the organization's AI use policy to their own tasks, including what data may be entered",
+              "Policy acknowledgment and scenario assessment results"
+            ],
+            [
+              "Persons on whom the systems are used",
+              "Staff can identify when an AI output affects customers or employees and when it needs human review",
+              "Worked case exercises and supervisor sign off"
+            ],
+            [
+              "Provider or deployer role",
+              "Product teams can explain the transparency and documentation duties that apply to their role",
+              "Training records mapped to each AI system in the AI inventory"
+            ],
+            [
+              "High-risk deployment (Article 26(2))",
+              "Assigned overseers can interpret outputs, spot anomalies and override or stop the system",
+              "Competence assessment and authority assignment for each named overseer"
+            ]
           ]
         },
         {
@@ -258,14 +331,14 @@
   ],
   "published": "2026-09-28",
   "updated": "2026-09-28",
-  "release": 99,
+  "release": 3,
   "factCheck": [
     {
       "claim": "Original Article 4 required providers and deployers to take measures to ensure, to their best extent, a sufficient level of AI literacy of staff and other persons dealing with AI systems on their behalf",
       "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
     },
     {
-      "claim": "Article 113: Chapters I and II apply from 2 February 2025; the Regulation is binding in its entirety and directly applicable in all Member States",
+      "claim": "Article 113: Chapters I and II apply from 2 February 2025 (as amended by Regulation (EU) 2026/1744, except the new Article 5(1)(ba) and (bb), 5(1a) and 5(1b), which apply from 2 December 2026); the closing provision after Article 113: the Regulation shall be binding in its entirety and directly applicable in all Member States; entry into force 1 August 2024",
       "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
     },
     {
@@ -273,7 +346,7 @@
       "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
     },
     {
-      "claim": "Regulation (EU) 2026/1744 of 8 July 2026, published OJ L 24.7.2026, replaced Article 4: take measures to support the development of AI literacy; no requirement to guarantee any specific level of AI literacy of any individual; Commission and Member States support (4(2)); Board recommendations (4(3)); enters into force on third day after publication",
+      "claim": "Regulation (EU) 2026/1744 of 8 July 2026, published OJ L 24.7.2026, replaced Article 4: take measures to support the development of AI literacy; no requirement to guarantee any specific level of AI literacy of any individual; Commission and Member States support (4(2)); Board recommendations (4(3)); enters into force on third day after publication (27 July 2026, per Official Journal metadata and the Commission news item of 27 July 2026; the Commission Q&A says mid-July 2026, which is inaccurate)",
       "source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     },
     {
@@ -281,7 +354,7 @@
       "source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     },
     {
-      "claim": "Commission: Article 4 applies since 2 February 2025; national market surveillance authorities supervise and enforce from August 2026; Omnibus amendments entered into force mid-July 2026 and keep AI literacy an obligation for providers and deployers; no certificate needed; internal record suffices; other persons include contractor, service provider, client; November 19, 2025 proposal would have shifted the obligation to Member States and the Commission",
+      "claim": "Commission: Article 4 applies since 2 February 2025; national market surveillance authorities supervise and enforce from August 2026; Omnibus amendments keep AI literacy an obligation for providers and deployers; no certificate needed; internal record suffices; other persons include contractor, service provider, client; November 19, 2025 proposal would have shifted the obligation to Member States and the Commission",
       "source": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers"
     },
     {

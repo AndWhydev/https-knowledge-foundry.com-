@@ -60,6 +60,10 @@ def conv_plain(t):
                 return match_case(word, a + lw[len(b):])
         return word
     t = re.sub(r"[A-Za-z]+", w, t)
+    # Dates: "1 July 2026" -> "July 1, 2026"; "1 July" -> "July 1"
+    M = "January|February|March|April|May|June|July|August|September|October|November|December"
+    t = re.sub(rf"\b(\d{{1,2}}) ({M}) (\d{{4}})\b", r"\2 \1, \3", t)
+    t = re.sub(rf"\b(\d{{1,2}}) ({M})\b(?! \d)", r"\2 \1", t)
     return re.sub(r"\x00(\d+)\x00", lambda m: PROTECT[int(m.group(1))], t)
 
 SEG = re.compile(r'(\[[^\]]*\]\([^)]*\)|"[^"]*"|“[^”]*”)')

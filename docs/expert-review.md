@@ -34,3 +34,23 @@ Everything below was flagged by the writers or the independent fact-checkers as 
 
 ## Blocked sources to open once in a browser
 iso.org pages, humanrights.gov.au positive duty guidance, austlii Victorian OHS Act, picscheme.org documents. All returned 403 or timed out to automated fetches; content was confirmed through archive copies.
+
+## International regulation sets (added September 28, 2026)
+
+All 35 pages were written from official sources and independently fact-checked (about 1,400 claims). Corrections are applied. Points for a reviewer, by release.
+
+### Release 2: United States and UAE
+- **CMMC**: Phase 2 was suspended by DoD memo on July 13, 2026 (60 day review). Recheck dodcio.defense.gov before release; the page names the regulator "Department of Defense" while DoD now also uses "Department of War".
+- **HIPAA Security Rule NPRM (January 2025) and FinCEN AML program NPRM (April 10, 2026)**: both still proposals as at September 24, 2026. Recheck the Federal Register before release.
+- **New York** model harassment policy review due in 2026; no revised version found yet.
+- **UAE IA Regulation**: v1.1 (2020) still current on u.ae; csc.gov.ae unreachable, so confirm no successor has been issued, and whether the regulator field should name the UAE Cyber Security Council.
+- **UAE PDPL**: executive regulations appear unissued; confirm. **DIFC**: consolidated text and commencement date inconsistencies (June 1 vs July 1, 2020). **DFSA**: new Designated Functions regime (July 1, 2026) not covered. **ADOSH-SF**: application inside ADGM unverified.
+
+### Release 3: Japan, EU, and Portugal
+- **Japan power harassment page: update before release.** Article numbers change on October 1, 2026 (30-2 to 31, 30-3 to 32; new customer harassment duties in Articles 33 and 34). The page currently leads with the old numbers.
+- **Japan whistleblower**: the 2025 amendment takes effect December 1, 2026; the page shows current and December rules side by side, so review after that date.
+- **Japan APPI**: penalty changes likely from January 17, 2027 (page says January 2027); the amending Act number was not found.
+- **Japan GMP**: PIC/S accession July 2014 (PIC/S) vs July 2015 (a 2021 MHLW notice).
+- **EU AI Act**: amended by Regulation (EU) 2026/1744 (in force July 27, 2026); the national enforcement start is given as "August 2026" because the Commission cites both August 2 and 3.
+- **NIS2 Portugal**: Decree-Law 125/2025 in force April 3, 2026 (our 120 day count); Article 27(1) security measures, including training, start 24 months after CNCS implementing rules, whose publication was not confirmed.
+- **Portugal**: possible 2026 "Trabalho XXI" labor reform effects on training hours; Law 93/2021 whistleblowing amendments; Banco de Portugal notices newer than 1/2022 (site blocked).

@@ -13,7 +13,7 @@
     "Breaches of Chapter II of the AMLR, which contains the training rules, can attract pecuniary sanctions under Article 55 of Directive (EU) 2024/1640."
   ],
   "jurisdiction": "European Union",
-  "regulator": "National AML/CFT supervisors in each Member State, with the Authority for Anti-Money Laundering and Countering the Financing of Terrorism (AMLA) issuing standards and guidelines and directly supervising selected financial entities",
+  "regulator": "National AML/CFT supervisors in each Member State, with the Authority for Anti-Money Laundering and Countering the Financing of Terrorism (AMLA) issuing standards and guidelines and, from 2028, directly supervising selected financial entities",
   "appliesTo": [
     "Credit institutions and financial institutions established in the EU",
     "Crypto-asset service providers and other obliged entities listed in Article 3 of the AMLR",
@@ -36,7 +36,7 @@
         {
           "type": "callout",
           "title": "Regulation versus directive, for readers outside the EU",
-          "text": "An EU **regulation** is binding in its entirety and directly applicable in all Member States, so organizations follow its text as written. An EU **directive** sets results that each Member State must write into its own national law (transposition), so the detailed rules can differ by country. The earlier AML directives were transposed into laws such as Portugal's [Law 83/2017](/regulations/portugal-aml-law-training-requirements). The AMLR moves the obligations on obliged entities, including training, into a regulation, while AMLD6 must be transposed by July 10, 2027 under its Article 78."
+          "text": "An EU **regulation** is binding in its entirety and directly applicable in all Member States, so organizations follow its text as written. An EU **directive** sets results that each Member State must write into its own national law (transposition), so the detailed rules can differ by country. The earlier AML directives were transposed into laws such as Portugal's [Law 83/2017](/regulations/portugal-aml-law-training-requirements). The AMLR moves the obligations on obliged entities, including training, into a regulation, while AMLD6 must be transposed, for most of its provisions, by July 10, 2027 under its Article 78."
         }
       ]
     },
@@ -54,7 +54,7 @@
         },
         {
           "type": "p",
-          "text": "Recital 99 of the Regulation adds that, where necessary, obliged entities should provide basic AML/CFT training to everyone with a role in implementing AML/CFT measures, including agents and distributors, not only employees."
+          "text": "Recital 40 of the Regulation adds that, where necessary, obliged entities should provide basic AML/CFT training to everyone with a role in implementing AML/CFT measures, including agents and distributors, not only employees."
         }
       ]
     },
@@ -156,7 +156,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "AMLA writes the detailed standards and guidelines that sit under the AMLR and will directly supervise a small number of high-risk cross-border financial entities. According to AMLA, it was legally established on June 26, 2024, and its timeline shows around 40 obliged entities selected for direct supervision during 2027, with direct supervision starting during 2028."
+          "text": "AMLA writes the detailed standards and guidelines that sit under the AMLR and will directly supervise a small number of high-risk cross-border financial entities. According to AMLA, it was legally established on June 26, 2024, and its timeline shows 40 obliged entities selected for direct supervision during 2027, with direct supervision starting during 2028."
         },
         {
           "type": "p",
@@ -277,7 +277,7 @@
     "dora-ict-security-awareness-training",
     "completion-tracking-vs-competency-verification",
     "how-to-map-training-to-compliance-obligations",
-    "how-to-prepare-training-records-for-an-audit"
+    "bsa-aml-training-requirements"
   ],
   "productLinks": [
     {
@@ -295,14 +295,18 @@
   ],
   "published": "2026-09-28",
   "updated": "2026-09-28",
-  "release": 99,
+  "release": 3,
   "factCheck": [
     {
       "claim": "Article 90: the AMLR applies from 10 July 2027, and from 10 July 2029 for obliged entities in Article 3, points (3)(n) and (o) (professional football clubs and football agents); it is binding in its entirety and directly applicable",
       "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
     },
     {
-      "claim": "Article 12 (Awareness of requirements) requires specific, ongoing training programmes for employees or persons in comparable positions, including agents and distributors, appropriate to functions and risks, and duly documented",
+      "claim": "Article 12 (Awareness of requirements) requires specific, ongoing training programs for employees or persons in comparable positions, including agents and distributors, appropriate to functions and risks, and duly documented",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "claim": "Recital 40: where necessary, obliged entities should provide basic training on AML/CFT measures to all those who have a role in implementing such measures, including agents and distributors",
       "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
     },
     {
@@ -318,11 +322,11 @@
       "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
     },
     {
-      "claim": "AMLD6 Article 55: pecuniary sanctions for serious, repeated or systematic breaches of AMLR Chapter II; maximum at least twice the benefit or EUR 1,000,000; for credit and financial institutions at least EUR 10,000,000 or 10% of turnover (legal persons) and EUR 5,000,000 (natural persons). Article 78: transposition by 10 July 2027",
+      "claim": "AMLD6 Article 55: pecuniary sanctions for serious, repeated or systematic breaches of AMLR Chapter II; maximum at least twice the benefit or EUR 1,000,000; for credit and financial institutions at least EUR 10,000,000 or 10% of turnover (legal persons) and EUR 5,000,000 (natural persons). Article 78: transposition by 10 July 2027, with earlier deadlines for Articles 74 (2025) and 11, 12, 13 and 15 (2026) and a later one for Article 18 (2029)",
       "source": "https://eur-lex.europa.eu/eli/dir/2024/1640/oj/eng"
     },
     {
-      "claim": "AMLA legally established 26 June 2024, seat in Frankfurt am Main; timeline shows 40 obliged entities selected for direct supervision during 2027 and direct supervision starting during 2028",
+      "claim": "AMLA legally established 26 June 2024, seat in Frankfurt am Main; timeline shows 40 obliged entities selected for direct supervision during 2027 and direct supervision starting during 2028; AMLA regulation (EU) 2024/1620 Article 108 (entry into force seventh day after publication on 19 June 2024)",
       "source": "https://www.amla.europa.eu/about-amla_en"
     },
     {

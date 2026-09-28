@@ -17,7 +17,7 @@
   "appliesTo": [
     "Controllers and processors that are establishments in ADGM: entities established, registered, or licensed to operate in ADGM, or exempt from registration under ADGM law",
     "Data Protection Officers appointed under section 35, and the senior management they report to",
-    "Staff with access to personal data, which the DPR 2021 defines broadly to include employees, directors, partners, officers, temporary or casual workers, agents, and volunteers",
+    "Staff with access to personal data, which the DPR 2021 defines broadly to include past, existing, or prospective employees, directors, partners, trustees, officers, office holders, temporary or casual workers, agents, and volunteers",
     "Groups using Binding Corporate Rules approved in ADGM for international transfers"
   ],
   "sections": [
@@ -27,11 +27,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "ADGM has its own data protection law because it is a financial free zone with its own civil and commercial legal system. ADGM describes itself as established under federal legislation and Abu Dhabi Law No. 4 of 2013 as a financial free zone, with a [legal framework](https://www.adgm.com/legal-framework) based on English common law. The ADGM Board enacted the DPR 2021 on 11 February 2021 under that Abu Dhabi law."
+          "text": "ADGM has its own data protection law because it is a financial free zone with its own civil and commercial legal system. ADGM describes itself as established under federal legislation and Abu Dhabi Law No. 4 of 2013 as a financial free zone, with a [legal framework](https://www.adgm.com/legal-framework) based on English common law. The ADGM Board enacted the DPR 2021 on February 11, 2021 under that Abu Dhabi law."
         },
         {
           "type": "p",
-          "text": "For readers outside the United Arab Emirates (UAE), the practical point is that the country has several data protection regimes. Most businesses \"onshore\" deal with the federal Personal Data Protection Law, Federal Decree-Law No. 45 of 2021, which the [UAE Government portal](https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws) says came into force on 2 January 2022 (see [the UAE PDPL page](/regulations/uae-pdpl-staff-training)). Dubai's financial free zone has its own statute (see [the DIFC Data Protection Law page](/regulations/difc-data-protection-law-training)). ADGM establishments follow the DPR 2021."
+          "text": "For readers outside the United Arab Emirates (UAE), the practical point is that the country has several data protection regimes. Most businesses \"onshore\" deal with the federal Personal Data Protection Law, Federal Decree-Law No. 45 of 2021, which the [UAE Government portal](https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws) says came into force on January 2, 2022 (see [the UAE PDPL page](/regulations/uae-pdpl-staff-training)). Dubai's financial free zone has its own statute (see [the DIFC Data Protection Law page](/regulations/difc-data-protection-law-training)). ADGM establishments follow the DPR 2021."
         },
         {
           "type": "p",
@@ -54,14 +54,42 @@
         {
           "type": "table",
           "caption": "Where training sits in the DPR 2021 (consolidated version, as at September 2026)",
-          "head": ["Provision", "What it requires", "Training implication"],
+          "head": [
+            "Provision",
+            "What it requires",
+            "Training implication"
+          ],
           "rows": [
-            ["Section 22", "Controllers implement appropriate technical and organizational measures to ensure and demonstrate compliance, review them, and adopt data protection policies where proportionate", "Staff must know the policies; the controller must be able to show they do"],
-            ["Section 27 and section 30(3)", "Processors and anyone acting under the controller's authority with access to personal data process it only on the controller's instructions", "People need to know what the instructions are and what is out of bounds"],
-            ["Section 30(1)", "Appropriate technical and organizational security measures, including regular testing of their effectiveness", "Security awareness is an organizational measure; its effectiveness should be tested"],
-            ["Section 32", "Breach notification to the Commissioner within 72 hours where feasible; processors notify controllers without undue delay", "Staff must recognize and escalate a breach quickly"],
-            ["Section 37(1)(a) and (b)", "DPO informs and advises employees and monitors awareness-raising, training, and related audits", "The DPO needs training records and audit results to monitor"],
-            ["Section 43(2)(l)", "Binding Corporate Rules specify data protection training for personnel with permanent or regular access to personal data", "Groups using BCRs must define and deliver that training"]
+            [
+              "Section 22",
+              "Controllers implement appropriate technical and organizational measures to ensure and demonstrate compliance, review them, and adopt data protection policies where proportionate",
+              "Staff must know the policies; the controller must be able to show they do"
+            ],
+            [
+              "Section 27 and section 30(3)",
+              "Processors and anyone acting under the controller's authority with access to personal data process it only on the controller's instructions",
+              "People need to know what the instructions are and what is out of bounds"
+            ],
+            [
+              "Section 30(1)",
+              "Appropriate technical and organizational security measures, including regular testing of their effectiveness",
+              "Security awareness is an organizational measure; its effectiveness should be tested"
+            ],
+            [
+              "Section 32",
+              "Breach notification to the Commissioner within 72 hours where feasible; processors notify controllers without undue delay",
+              "Staff must recognize and escalate a breach quickly"
+            ],
+            [
+              "Section 37(1)(a) and (b)",
+              "DPO informs and advises employees and monitors awareness-raising, training, and related audits",
+              "The DPO needs training records and audit results to monitor"
+            ],
+            [
+              "Section 43(2)(l)",
+              "Binding Corporate Rules specify data protection training for personnel with permanent or regular access to personal data",
+              "Groups using BCRs must define and deliver that training"
+            ]
           ]
         }
       ]
@@ -126,14 +154,49 @@
         {
           "type": "table",
           "caption": "Illustrative mapping: DPR 2021 obligation to learning outcome to assessment evidence",
-          "head": ["Obligation", "Audience", "Learning outcome", "Assessment evidence"],
+          "head": [
+            "Obligation",
+            "Audience",
+            "Learning outcome",
+            "Assessment evidence"
+          ],
           "rows": [
-            ["Section 27 and 30(3): process only on instructions", "All staff with access to personal data", "Explain which data they may access for their role and what counts as unauthorized use or disclosure", "Scenario questions on access and disclosure; policy attestation"],
-            ["Section 30: security awareness", "All staff", "Recognize social engineering attempts to obtain personal data and report them", "Knowledge check with deception scenarios; phishing simulation results where used"],
-            ["Section 32: breach notification", "All staff; incident team", "Identify a personal data breach and escalate it immediately so the 72 hour clock can be met", "Escalation scenario; incident exercise record"],
-            ["Section 34 and 37(1)(b): DPIA and DPO involvement", "Project owners, product, IT", "Recognize processing likely to be high risk and consult the DPO before it starts", "Case study assessment; DPIA log showing DPO consultation"],
-            ["Sections 10 to 21: data subject rights", "Customer facing and operations staff", "Recognize a rights request and route it within the organization's procedure", "Role based scenario assessment"],
-            ["Section 43(2)(l): BCR training", "Personnel with permanent or regular access to personal data across the group", "Apply the group's BCR commitments to intra-group transfers", "Completion and assessment records by entity, retained for BCR monitoring"]
+            [
+              "Section 27 and 30(3): process only on instructions",
+              "All staff with access to personal data",
+              "Explain which data they may access for their role and what counts as unauthorized use or disclosure",
+              "Scenario questions on access and disclosure; policy attestation"
+            ],
+            [
+              "Section 30: security awareness",
+              "All staff",
+              "Recognize social engineering attempts to obtain personal data and report them",
+              "Knowledge check with deception scenarios; phishing simulation results where used"
+            ],
+            [
+              "Section 32: breach notification",
+              "All staff; incident team",
+              "Identify a personal data breach and escalate it immediately so the 72 hour clock can be met",
+              "Escalation scenario; incident exercise record"
+            ],
+            [
+              "Section 34 and 37(1)(b): DPIA and DPO involvement",
+              "Project owners, product, IT",
+              "Recognize processing likely to be high risk and consult the DPO before it starts",
+              "Case study assessment; DPIA log showing DPO consultation"
+            ],
+            [
+              "Sections 10 to 21: data subject rights",
+              "Customer facing and operations staff",
+              "Recognize a rights request and route it within the organization's procedure",
+              "Role based scenario assessment"
+            ],
+            [
+              "Section 43(2)(l): BCR training",
+              "Personnel with permanent or regular access to personal data across the group",
+              "Apply the group's BCR commitments to intra-group transfers",
+              "Completion and assessment records by entity, retained for BCR monitoring"
+            ]
           ]
         },
         {
@@ -208,11 +271,11 @@
     },
     {
       "q": "Do contractors and temporary workers need training?",
-      "a": "The DPR 2021 define Staff to include employees, directors, partners, officers, temporary or casual workers, agents, and volunteers, and sections 27 and 30(3) cover anyone acting under the controller's or processor's authority with access to personal data. Anyone in that group who handles personal data should receive training appropriate to their access."
+      "a": "The DPR 2021 define Staff to include past, existing, or prospective employees, directors, partners, trustees, officers, office holders, temporary or casual workers, agents, and volunteers, and sections 27 and 30(3) cover anyone acting under the controller's or processor's authority with access to personal data. Anyone in that group who handles personal data should receive training appropriate to their access."
     },
     {
       "q": "Does ADGM data protection law apply to businesses on Al Reem Island?",
-      "a": "Section 3(4) gave persons operating from permanent establishments on Al Reem Island a temporary exemption that ended on 31 December 2024. Businesses there that are registered or licensed in ADGM should treat the DPR 2021 as applying and train staff accordingly. Confirm the position for a specific entity with ADGM."
+      "a": "Section 3(4) gave persons operating from permanent establishments on Al Reem Island a temporary exemption that ended on December 31, 2024. Businesses there that are registered or licensed in ADGM should treat the DPR 2021 as applying and train staff accordingly. Confirm the position for a specific entity with ADGM."
     }
   ],
   "sources": [
@@ -271,24 +334,66 @@
     "completion-tracking-vs-competency-verification"
   ],
   "productLinks": [
-    { "label": "Financial services", "href": "/industries/financial-services" },
-    { "label": "Compliance programs", "href": "/programs/compliance" },
-    { "label": "Audit evidence", "href": "/platform/audit-evidence" }
+    {
+      "label": "Financial services",
+      "href": "/industries/financial-services"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
   ],
   "published": "2026-09-28",
   "updated": "2026-09-28",
-  "release": 99,
+  "release": 2,
   "factCheck": [
-    { "claim": "Section 37(1)(b) DPO tasks include monitoring compliance including the assignment of responsibilities, awareness-raising and training of Staff involved in Processing operations, and the related audits; 37(1)(a) inform and advise employees who carry out Processing", "source": "https://en.adgm.thomsonreuters.com/sites/default/files/net_file_store/ADGM1547_23167_VER992025.pdf" },
-    { "claim": "Section 43(2)(l): Binding Corporate Rules must specify the data protection training provided to personnel with permanent or regular access to Personal Data", "source": "https://en.adgm.thomsonreuters.com/sites/default/files/net_file_store/ADGM1547_23167_VER992025.pdf" },
-    { "claim": "Section 55(1) caps administrative fines at USD 28 million (amended 28 February 2024); section 55(3)(d) makes technical and organisational measures under sections 23 and 30 a factor", "source": "https://en.adgm.thomsonreuters.com/sites/default/files/net_file_store/ADGM1547_23167_VER992025.pdf" },
-    { "claim": "Section 35(1) mandatory DPO triggers; 35(3) expert knowledge; 36(1)(d) reports to highest level of management", "source": "https://en.adgm.thomsonreuters.com/sites/default/files/net_file_store/ADGM1547_23167_VER992025.pdf" },
-    { "claim": "Section 3(1) territorial scope; section 3(4) Al Reem Island exemption ended 31 December 2024; Staff definition in section 62; section 32 72 hour breach notification", "source": "https://en.adgm.thomsonreuters.com/sites/default/files/net_file_store/ADGM1547_23167_VER992025.pdf" },
-    { "claim": "Regulations enacted 11 February 2021 under Article 6(1) of Abu Dhabi Law No. 4 of 2013; Amendment No. 1 instruments of 2022, 2023, 2024 and 2025 listed", "source": "https://en.adgm.thomsonreuters.com/rulebook/data-protection-regulations-2021" },
-    { "claim": "ODP guidance Part 5 says staff should receive regular training on controller responsibilities, staff responsibilities, and deception risks, with an example of joiner training plus annual refresher", "source": "https://assets.adgm.com/download/assets/ADGM+DPR+2021+Guidance+Part+5.pdf/fe422242595611efaa55be162688b39c" },
-    { "claim": "ODP guidance Part 3 says informing employees would ideally include running training sessions, and senior management should foster a culture of privacy awareness", "source": "https://assets.adgm.com/download/assets/ADGM+DPR+2021+Guidance+Part+3.pdf/12ba12da595611ef894152361f6b9c5e" },
-    { "claim": "ODP Circular No. 1 of 2025 (16 January 2025) requires entities to keep the Data Protection Register and Data Protection Contact Person details up to date, with enforcement for failure", "source": "https://assets.adgm.com/download/assets/ADGM+ODP+Circular+No+1+of+2025.pdf/d434729cd3fa11efb2e7560b7285278b" },
-    { "claim": "Federal Decree-Law No. 45 of 2021 (PDPL) came into force on 2 January 2022", "source": "https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws" },
-    { "claim": "ADGM was established as a financial free zone under federal legislation and Abu Dhabi Law No. 4 of 2013, with a legal framework based on English common law", "source": "https://www.adgm.com/legal-framework" }
+    {
+      "claim": "Section 37(1)(b) DPO tasks include monitoring compliance including the assignment of responsibilities, awareness-raising and training of Staff involved in Processing operations, and the related audits; 37(1)(a) inform and advise employees who carry out Processing",
+      "source": "https://en.adgm.thomsonreuters.com/sites/default/files/net_file_store/ADGM1547_23167_VER992025.pdf"
+    },
+    {
+      "claim": "Section 43(2)(l): Binding Corporate Rules must specify the data protection training provided to personnel with permanent or regular access to Personal Data",
+      "source": "https://en.adgm.thomsonreuters.com/sites/default/files/net_file_store/ADGM1547_23167_VER992025.pdf"
+    },
+    {
+      "claim": "Section 55(1) caps administrative fines at USD 28 million (amended 28 February 2024); section 55(3)(d) makes technical and organisational measures under sections 23 and 30 a factor",
+      "source": "https://en.adgm.thomsonreuters.com/sites/default/files/net_file_store/ADGM1547_23167_VER992025.pdf"
+    },
+    {
+      "claim": "Section 35(1) mandatory DPO triggers; 35(3) expert knowledge; 36(1)(d) reports to highest level of management",
+      "source": "https://en.adgm.thomsonreuters.com/sites/default/files/net_file_store/ADGM1547_23167_VER992025.pdf"
+    },
+    {
+      "claim": "Section 3(1) territorial scope; section 3(4) Al Reem Island exemption ended 31 December 2024; Staff definition in section 62; section 32 72 hour breach notification",
+      "source": "https://en.adgm.thomsonreuters.com/sites/default/files/net_file_store/ADGM1547_23167_VER992025.pdf"
+    },
+    {
+      "claim": "Regulations enacted 11 February 2021 under Article 6(1) of Abu Dhabi Law No. 4 of 2013; Amendment No. 1 instruments of 2022, 2023, 2024 and 2025 listed",
+      "source": "https://en.adgm.thomsonreuters.com/rulebook/data-protection-regulations-2021"
+    },
+    {
+      "claim": "ODP guidance Part 5 says staff should receive regular training on controller responsibilities, staff responsibilities, and deception risks, with an example of joiner training plus annual refresher",
+      "source": "https://assets.adgm.com/download/assets/ADGM+DPR+2021+Guidance+Part+5.pdf/fe422242595611efaa55be162688b39c"
+    },
+    {
+      "claim": "ODP guidance Part 3 says informing employees would ideally include running training sessions, and senior management should foster a culture of privacy awareness",
+      "source": "https://assets.adgm.com/download/assets/ADGM+DPR+2021+Guidance+Part+3.pdf/12ba12da595611ef894152361f6b9c5e"
+    },
+    {
+      "claim": "ODP Circular No. 1 of 2025 (16 January 2025) requires entities to keep the Data Protection Register and Data Protection Contact Person details up to date, with enforcement for failure",
+      "source": "https://assets.adgm.com/download/assets/ADGM+ODP+Circular+No+1+of+2025.pdf/d434729cd3fa11efb2e7560b7285278b"
+    },
+    {
+      "claim": "Federal Decree-Law No. 45 of 2021 (PDPL) came into force on 2 January 2022",
+      "source": "https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws"
+    },
+    {
+      "claim": "ADGM was established as a financial free zone under federal legislation and Abu Dhabi Law No. 4 of 2013, with a legal framework based on English common law",
+      "source": "https://www.adgm.com/legal-framework"
+    }
   ]
 }

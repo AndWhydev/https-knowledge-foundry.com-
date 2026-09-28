@@ -4,13 +4,13 @@
   "title": "What security awareness training does CMMC require of defense contractors?",
   "seoTitle": "CMMC security awareness training",
   "description": "What CMMC Levels 1, 2 and 3 require for security awareness, role-based and insider threat training, how it is assessed, and the phase-in as at September 2026.",
-  "shortAnswer": "The Cybersecurity Maturity Model Certification (CMMC) program requires US defense contractors that handle Controlled Unclassified Information to meet three awareness and training requirements at Level 2, taken from NIST SP 800-171 Revision 2: security risk awareness for all system users, role-based training for security duties, and insider threat awareness. Level 3 adds annual, threat-focused training with practical exercises. Level 1 contains no training requirement. CMMC appears in new contracts from November 10, 2025.",
+  "shortAnswer": "The Cybersecurity Maturity Model Certification (CMMC) program requires US defense contractors handling Controlled Unclassified Information to meet three awareness and training requirements at Level 2, from NIST SP 800-171 Revision 2: security risk awareness for all system users, role-based training for security duties, and insider threat awareness. Level 3 adds annual, threat-focused training with practical exercises. Level 1 has no training requirement. CMMC entered contracts on November 10, 2025, and is paused in Phase 1.",
   "keyTakeaways": [
     "CMMC is set by two rules: the program rule at 32 CFR Part 170 (effective December 16, 2024) and the acquisition rule adding DFARS clause 252.204-7021 (effective November 10, 2025).",
     "Level 2 includes AT.L2-3.2.1 (security awareness), AT.L2-3.2.2 (role-based training) and AT.L2-3.2.3 (insider threat awareness) from NIST SP 800-171 Rev. 2.",
     "AT.L2-3.2.1 and AT.L2-3.2.2 are worth 5 points each in CMMC scoring, so they cannot be deferred on a plan of action and milestones (POA&M); they must be met at assessment.",
     "Level 3 adds AT.L3-3.2.1e and AT.L3-3.2.2e: training at hire, after a significant cyber event and at least annually, with role-tailored practical exercises.",
-    "As at September 2026 the program is in Phase 1. Phase 2, which adds third-party certification as a routine award condition, starts November 10, 2026."
+    "As at September 2026 the program is paused in Phase 1. On July 13, 2026, DoD suspended the Phase 2 transition scheduled for November 10, 2026, so new requirements are limited to Level 1 (Self) and Level 2 (Self) during a program review."
   ],
   "jurisdiction": "United States (federal)",
   "regulator": "US Department of Defense (DoD CIO, CMMC Program Management Office)",
@@ -45,7 +45,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Training requirements appear at Level 2 and Level 3 only. The Level 1 requirements in FAR 52.204-21 cover access control, identification, media sanitization, physical access, boundary protection and malware protection, and contain no awareness or training requirement."
+          "text": "Training requirements appear at Level 2 and Level 3 only. The Level 1 requirements in FAR 52.204-21 cover access control, identification and authentication, media sanitization, physical access, boundary protection, flaw remediation and malware protection, and contain no awareness or training requirement."
         },
         {
           "type": "table",
@@ -168,7 +168,7 @@
         },
         {
           "type": "p",
-          "text": "The annual affirmation is where training records become a board-level matter. Section 170.22 requires an Affirming Official, a senior representative with authority over compliance, to attest to continuing compliance in the Supplier Performance Risk System (SPRS) each year. Training that lapses between assessments undermines that attestation."
+          "text": "The annual affirmation is where training records become a board-level matter. Section 170.22 requires an Affirming Official, a senior representative with authority over compliance, to attest to continuing compliance in the Supplier Performance Risk System (SPRS) each year. Training that lapses between assessments undermines that attestation. While Phase 2 is suspended, Level 2 status is obtained by self-assessment, so the affirmation carries more weight."
         }
       ]
     },
@@ -178,20 +178,20 @@
       "blocks": [
         {
           "type": "p",
-          "text": "CMMC is being phased into DoD contracts over four phases that started on November 10, 2025, when the DFARS acquisition rule took effect. The phases are defined in 32 CFR 170.3(e), each starting one calendar year after the previous one."
+          "text": "The rule text phases CMMC into DoD contracts over four phases that started on November 10, 2025, when the DFARS acquisition rule took effect. The phases are defined in 32 CFR 170.3(e), each starting one calendar year after the previous one. However, on July 13, 2026 the Department announced the [suspension of the Phase 2 requirements](https://dodcio.defense.gov/CMMC/), and the program is paused in Phase 1 while a CMMC reform task force reviews it."
         },
         {
           "type": "ol",
           "items": [
-            "**Phase 1, from November 10, 2025:** DoD intends to require Level 1 (Self) or Level 2 (Self) as a condition of award in applicable solicitations, and may require Level 2 (C3PAO) at its discretion. This is the phase in effect as at September 2026.",
-            "**Phase 2, from November 10, 2026:** adds Level 2 (C3PAO) as a condition of award for applicable contracts, and Level 3 (DIBCAC) at DoD's discretion.",
-            "**Phase 3, from November 10, 2027:** Level 2 (C3PAO) for all applicable contracts, including option periods, and Level 3 (DIBCAC) for all applicable contracts.",
-            "**Phase 4, from November 10, 2028:** full implementation in all applicable solicitations and contracts, including option periods on older contracts."
+            "**Phase 1, from November 10, 2025:** DoD intends to require Level 1 (Self) or Level 2 (Self) as a condition of award in applicable solicitations, and may require Level 2 (C3PAO) at its discretion. This is the phase in effect, and paused, as at September 2026.",
+            "**Phase 2, scheduled in the rule for November 10, 2026 but suspended:** would add Level 2 (C3PAO) as a condition of award for applicable contracts, and Level 3 (DIBCAC) at DoD's discretion.",
+            "**Phase 3, one year after Phase 2 in the rule text:** Level 2 (C3PAO) for all applicable contracts, including as a condition to exercise option periods, and Level 3 (DIBCAC) for all applicable contracts.",
+            "**Phase 4, one year after Phase 3 in the rule text:** full implementation in all applicable solicitations and contracts, including option periods on older contracts."
           ]
         },
         {
           "type": "p",
-          "text": "The DFARS rule also explains that for three years after November 10, 2025, the clause appears only where program managers decide to apply a CMMC requirement; after that, it applies wherever the contractor will handle FCI or CUI, excluding purchases solely of commercially available off-the-shelf items. The phase dates for 2026 onward are calculated from the rule text; confirm them against the solicitation in hand."
+          "text": "The DFARS rule also explains that for three years after November 10, 2025, the clause appears only where program managers decide to apply a CMMC requirement; after that, it applies wherever the contractor will handle FCI or CUI, excluding purchases solely of commercially available off-the-shelf items. Under the implementing memo, program managers may designate only Level 1 (Self) or Level 2 (Self) during the suspension, and existing Level 2 (C3PAO) and Level 3 (DIBCAC) requirements are to be removed from solicitations and contracts. DFARS 252.204-7012 remains in effect, and the training requirements themselves are unchanged. Later phase dates depend on the outcome of the review; confirm the position against the solicitation in hand."
         }
       ]
     },
@@ -291,6 +291,16 @@
       "url": "https://www.federalregister.gov/documents/2025/09/10/2025-17359/defense-federal-acquisition-regulation-supplement-assessing-contractor-implementation-of"
     },
     {
+      "title": "Cybersecurity Maturity Model Certification (CMMC) program page, including the July 13, 2026 suspension of Phase II",
+      "publisher": "US Department of Defense, Chief Information Officer",
+      "url": "https://dodcio.defense.gov/CMMC/"
+    },
+    {
+      "title": "Implementing Suspension of CMMC Phase II (memorandum, July 13, 2026)",
+      "publisher": "US Department of Defense, Chief Information Officer",
+      "url": "https://dodcio.defense.gov/Portals/0/Documents/Library/ImplementingSuspensionCMMC-PhaseII.pdf"
+    },
+    {
       "title": "SP 800-171 Rev. 2, Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
       "publisher": "National Institute of Standards and Technology (NIST) CSRC",
       "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final"
@@ -321,7 +331,7 @@
   ],
   "published": "2026-09-28",
   "updated": "2026-09-28",
-  "release": 99,
+  "release": 2,
   "factCheck": [
     {
       "claim": "CMMC program final rule (32 CFR Part 170) published October 15, 2024 at 89 FR 83092, effective December 16, 2024; no amendments to Part 170 since (eCFR version history, title current to September 24, 2026).",
@@ -332,8 +342,12 @@
       "source": "https://www.federalregister.gov/documents/2025/09/10/2025-17359/defense-federal-acquisition-regulation-supplement-assessing-contractor-implementation-of"
     },
     {
-      "claim": "32 CFR 170.3(e): Phase 1 begins on the effective date of the 48 CFR CMMC acquisition rule; Phases 2, 3 and 4 each begin one calendar year after the previous phase, with the stated Level 1, 2 and 3 requirements per phase.",
+      "claim": "32 CFR 170.3(e): Phase 1 begins on the effective date of the 48 CFR CMMC acquisition rule; Phases 2, 3 and 4 each begin one calendar year after the previous phase, with the stated Level 1, 2 and 3 requirements per phase (rule text unchanged; eCFR shows no amendment to Part 170 since December 16, 2024).",
       "source": "https://www.ecfr.gov/current/title-32/part-170"
+    },
+    {
+      "claim": "On July 13, 2026 DoD announced the immediate suspension of the CMMC Phase II requirements originally scheduled for November 10, 2026; program paused in Phase 1; only Level 1 (Self) or Level 2 (Self) may be designated; Level 2 (C3PAO) and Level 3 (DIBCAC) requirements to be removed from solicitations and contracts; DFARS 252.204-7012 remains in effect (DoD CIO CMMC page, Wayback capture September 22, 2026, and implementing memo).",
+      "source": "https://dodcio.defense.gov/CMMC/"
     },
     {
       "claim": "32 CFR 170.4: CMMC Security Requirements are the 15 Level 1 requirements in FAR 52.204-21(b)(1), the 110 Level 2 requirements from NIST SP 800-171 R2, and 24 Level 3 requirements from NIST SP 800-172.",
@@ -360,7 +374,7 @@
       "source": "https://csrc.nist.gov/pubs/sp/800/171/r3/final"
     },
     {
-      "claim": "FAR 52.204-21 (Level 1 basis) contains no training requirement (text searched, current eCFR).",
+      "claim": "FAR 52.204-21(b)(1) (Level 1 basis) lists 15 safeguarding requirements (access control, identification and authentication, media sanitization, physical access and visitor escort, boundary protection, flaw remediation, malware protection) and contains no training requirement (text searched, eCFR current to September 24, 2026).",
       "source": "https://www.ecfr.gov/current/title-48/section-52.204-21"
     }
   ]

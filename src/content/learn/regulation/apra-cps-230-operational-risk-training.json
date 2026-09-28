@@ -6,8 +6,8 @@
   "description": "CPS 230 has no training clause, but its people, controls, incident and continuity duties depend on staff capability. What applies as at September 2026.",
   "shortAnswer": "Prudential Standard CPS 230 Operational Risk Management, made by the Australian Prudential Regulation Authority (APRA), contains no explicit training requirement. It does require entities to manage risk from the actions or inactions of people, set standards for conduct and compliance, define senior manager responsibilities, record incidents and near misses, and maintain the capabilities, including access to people, needed to execute business continuity plans. Staff capability is how those duties are met and evidenced.",
   "keyTakeaways": [
-    "CPS 230 commenced on 1 July 2025. APRA remade it with targeted amendments released on 30 April 2026, and that version commences on 1 July 2026.",
-    "Non-significant financial institutions had business continuity requirements deferred to 1 July 2026, and pre-existing service provider contracts had until the earlier of renewal or 1 July 2026.",
+    "CPS 230 commenced on July 1, 2025. APRA remade it with targeted amendments released on April 30, 2026, and that version commences on July 1, 2026.",
+    "Non-significant financial institutions had business continuity requirements deferred to July 1, 2026, and pre-existing service provider contracts had until the earlier of renewal or July 1, 2026.",
     "The standard names people as a source of operational risk and as a resource that critical operations and business continuity plans depend on.",
     "Neither CPS 230 nor its practice guide CPG 230 uses the word training, so capability must be shown through roles, controls testing, incident handling and exercises.",
     "Staff need to know two notification clocks: 72 hours for material operational risk incidents and 24 hours for disruptions to critical operations outside tolerance."
@@ -27,11 +27,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "CPS 230 first commenced on 1 July 2025, and a remade version with targeted amendments commences on 1 July 2026. APRA [announced](https://www.apra.gov.au/news-and-publications/apra-finalises-new-prudential-standard-on-operational-risk) in 2023 that the standard would commence from 1 July 2025, and [confirmed](https://www.apra.gov.au/news-and-publications/apra-provides-update-implementation-new-operational-risk-standard) that pre-existing service provider contracts would be covered from the earlier of the next renewal date or 1 July 2026."
+          "text": "CPS 230 first commenced on July 1, 2025, and a remade version with targeted amendments commences on July 1, 2026. APRA [announced](https://www.apra.gov.au/news-and-publications/apra-finalises-new-prudential-standard-on-operational-risk) in 2023 that the standard would commence from July 1, 2025, and [confirmed](https://www.apra.gov.au/news-and-publications/apra-provides-update-implementation-new-operational-risk-standard) that pre-existing service provider contracts would be covered from the earlier of the next renewal date or July 1, 2026."
         },
         {
           "type": "p",
-          "text": "The [2025 version](https://www.apra.gov.au/standards/cps-230-superseded) also deferred paragraphs 40, 41 and 43 to 46 (the business continuity requirements) for non-significant financial institutions until 1 July 2026. On 30 April 2026 APRA released final targeted amendments that introduce limited exemptions from specific contractual requirements for certain categories of service providers, together with an updated CPG 230 and register template, all commencing 1 July 2026 ([APRA operational risk page](https://www.apra.gov.au/operational-risk-management)). Paragraph numbers on this page refer to the [current standard](https://www.apra.gov.au/standards/cps-230) as at September 2026."
+          "text": "The [2025 version](https://www.apra.gov.au/standards/cps-230-superseded) also deferred paragraphs 40, 41 and 43 to 46 (the business continuity requirements) for non-significant financial institutions until July 1, 2026. On April 30, 2026 APRA released final targeted amendments that introduce limited exemptions from specific contractual requirements for certain categories of service providers, together with an updated CPG 230 and register template, all commencing July 1, 2026 ([APRA operational risk page](https://www.apra.gov.au/operational-risk-management)). Paragraph numbers on this page refer to the [current standard](https://www.apra.gov.au/standards/cps-230) as at September 2026."
         },
         {
           "type": "callout",
@@ -217,10 +217,10 @@
     },
     {
       "q": "Did CPS 230 replace CPS 232 and CPS 231?",
-      "a": "Yes. CPS 230 replaced the earlier business continuity and outsourcing standards. For non-significant financial institutions, the existing business continuity requirements continued to apply until 30 June 2026 because the CPS 230 continuity paragraphs were deferred to 1 July 2026."
+      "a": "Yes. CPS 230 replaced the earlier business continuity and outsourcing standards. For non-significant financial institutions, the existing business continuity requirements continued to apply until June 30, 2026 because the CPS 230 continuity paragraphs were deferred to July 1, 2026."
     },
     {
-      "q": "What changed on 1 July 2026?",
+      "q": "What changed on July 1, 2026?",
       "a": "The deferred business continuity requirements began to apply to non-significant financial institutions, the transition for pre-existing service provider contracts ended, and APRA's remade CPS 230 with limited exemptions for certain service provider categories commenced alongside an updated CPG 230."
     },
     {
@@ -264,7 +264,7 @@
     "apra-cps-234-security-awareness-training",
     "austrac-aml-ctf-training-requirements",
     "skills-matrix",
-    "training-needs-analysis",
+    "dora-ict-security-awareness-training",
     "how-to-report-training-compliance-to-the-board",
     "design-and-distribution-obligations-staff-training"
   ],
@@ -284,7 +284,7 @@
   ],
   "published": "2026-09-28",
   "updated": "2026-09-28",
-  "release": 3,
+  "release": 5,
   "factCheck": [
     {
       "claim": "CPS 230 commenced 1 July 2025",

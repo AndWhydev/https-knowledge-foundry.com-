@@ -7,8 +7,8 @@
   "shortAnswer": "The Experience API (xAPI) is a learning technology specification for recording what people do while learning, from any source, as structured statements in the form actor, verb, object (for example, \"Priya completed Privacy Refresher\"). Statements are sent to a Learning Record Store (LRS). Originally developed for the Advanced Distributed Learning (ADL) Initiative as the Tin Can API, xAPI is now an IEEE standard, IEEE 9274.1.1-2023.",
   "keyTakeaways": [
     "xAPI records learning activity as statements with an actor, a verb, and an object, stored in a Learning Record Store.",
-    "Version 1.0.0 was released on 26 April 2013; version 1.0.3 followed on 21 September 2016.",
-    "IEEE 9274.1.1-2023 standardizes xAPI (widely called xAPI 2.0); the IEEE board approved it on 30 March 2023 and published it on 6 October 2023.",
+    "Version 1.0.0 was released on April 26, 2013; version 1.0.3 followed on September 21, 2016.",
+    "IEEE 9274.1.1-2023 standardizes xAPI (widely called xAPI 2.0); the IEEE board approved it on March 30, 2023 and published it on October 6, 2023.",
     "xAPI is not tied to a browser or an LMS, which is its main difference from SCORM."
   ],
   "term": "xAPI",
@@ -64,7 +64,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The ADL specification reached version 1.0.0 on 26 April 2013 and version 1.0.3 on 21 September 2016; the current version is the IEEE standard, IEEE 9274.1.1-2023, commonly called xAPI 2.0. ADL's repository notes that 1.0.3 is \"an old version\" and that \"The current version of the specification is xAPI 2.0\"."
+          "text": "The ADL specification reached version 1.0.0 on April 26, 2013 and version 1.0.3 on September 21, 2016; the current version is the IEEE standard, IEEE 9274.1.1-2023, commonly called xAPI 2.0. ADL's repository notes that 1.0.3 is \"an old version\" and that \"The current version of the specification is xAPI 2.0\"."
         },
         {
           "type": "table",
@@ -77,27 +77,27 @@
           "rows": [
             [
               "Tin Can API project deliverable revised to version 0.9",
-              "31 March 2012",
+              "March 31, 2012",
               "ADL xAPI specification revision history"
             ],
             [
               "xAPI 1.0.0",
-              "26 April 2013",
+              "April 26, 2013",
               "ADL xAPI specification revision history"
             ],
             [
               "xAPI 1.0.3",
-              "21 September 2016",
+              "September 21, 2016",
               "ADL xAPI specification revision history"
             ],
             [
               "IEEE 9274.1.1-2023 approved by IEEE SA board",
-              "30 March 2023",
+              "March 30, 2023",
               "IEEE Standards Association"
             ],
             [
               "IEEE 9274.1.1-2023 published",
-              "6 October 2023",
+              "October 6, 2023",
               "IEEE Standards Association"
             ]
           ]
@@ -223,5 +223,5 @@
   ],
   "published": "2026-09-28",
   "updated": "2026-09-28",
-  "release": 3
+  "release": 5
 }

@@ -6,7 +6,7 @@
   "description": "CPS 234 sets no course, but its capability, roles and policy duties drive security awareness training. What APRA expects and how to evidence it.",
   "shortAnswer": "Prudential Standard CPS 234 Information Security, made by the Australian Prudential Regulation Authority (APRA), does not mandate a specific training course. It requires regulated entities to define information security roles, maintain an information security capability that includes skills, and give direction on security responsibilities to all staff, contractors and third parties. APRA's guide CPG 234 describes the training and awareness program it expects, including tracking training and testing understanding on commencement and periodically.",
   "keyTakeaways": [
-    "CPS 234 has applied since 1 July 2019 to ADIs, general and life insurers, private health insurers and RSE licensees.",
+    "CPS 234 has applied since July 1, 2019 to ADIs, general and life insurers, private health insurers and RSE licensees.",
     "The standard defines information security capability as \"the totality of resources, skills and controls\", so staff skills are part of what must be maintained.",
     "Paragraph 19 requires the policy framework to give direction on the responsibilities of all parties, which footnote 8 extends to all staff, contractors, consultants, related parties, third parties and customers.",
     "CPG 234 Attachment B sets out APRA's expected training and awareness content and says sound practice tracks training and tests understanding.",
@@ -149,7 +149,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "CPS 230 requires entities to meet CPS 234 as part of managing technology risk, so security capability is also an operational resilience issue. Paragraph 24 of the version of CPS 230 in force from 1 July 2026 says an entity \"must meet the requirements for information security\" in CPS 234; see [CPS 230 and staff capability](/regulations/apra-cps-230-operational-risk-training)."
+          "text": "CPS 230 requires entities to meet CPS 234 as part of managing technology risk, so security capability is also an operational resilience issue. Paragraph 24 of the version of CPS 230 in force from July 1, 2026 says an entity \"must meet the requirements for information security\" in CPS 234; see [CPS 230 and staff capability](/regulations/apra-cps-230-operational-risk-training)."
         },
         {
           "type": "p",
@@ -208,7 +208,8 @@
     "iso-27001-awareness-training-requirements",
     "ism-cyber-security-awareness-training",
     "policy-attestation",
-    "how-to-evidence-training-effectiveness-to-a-regulator"
+    "how-to-evidence-training-effectiveness-to-a-regulator",
+    "dora-ict-security-awareness-training"
   ],
   "productLinks": [
     {
@@ -222,7 +223,7 @@
   ],
   "published": "2026-09-28",
   "updated": "2026-09-28",
-  "release": 5,
+  "release": 7,
   "factCheck": [
     {
       "claim": "CPS 234 commenced 1 July 2019 and applies to ADIs, general insurers, life companies, private health insurers and RSE licensees",

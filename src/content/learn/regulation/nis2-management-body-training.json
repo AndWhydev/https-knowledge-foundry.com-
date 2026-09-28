@@ -63,15 +63,19 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Portugal transposed NIS2 through [Decree-Law 125/2025](https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401), published on December 4, 2025, which approves the new Regime Jurídico da Cibersegurança (Cybersecurity Legal Regime). According to the [CNCS](https://www.cncs.gov.pt/pt/regime-juridico/), the regime entered into force on April 3, 2026 and replaces the earlier framework under Law 46/2018."
+          "text": "Portugal transposed NIS2 through [Decree-Law 125/2025](https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401), published on December 4, 2025, which approves the new Regime Jurídico da Cibersegurança (Cybersecurity Legal Regime). Under Article 11 of the decree-law it entered into force 120 days after publication, on April 3, 2026, and Article 9 revokes the earlier framework under Law 46/2018. The national cybersecurity authority is the [Centro Nacional de Cibersegurança (CNCS)](https://www.cncs.gov.pt/pt/regime-juridico/)."
         },
         {
           "type": "p",
-          "text": "The CNCS summary states that the management, direction, and administration bodies of covered entities must formally approve cybersecurity risk management policies and measures, supervise their implementation, and promote and ensure continuous cybersecurity training for relevant teams. Office holders can answer for acts or omissions committed with intent or gross negligence, and fines can reach 10 million euros or 2% of worldwide annual turnover, whichever is higher."
+          "text": "Article 25 of the regime requires the management, direction, and administration bodies of essential and important entities to approve the cybersecurity risk management measures, supervise their implementation, and ensure that cybersecurity training is carried out at regular intervals to promote an internal culture of cyber risk management. Office holders can answer for acts or omissions committed with intent or gross negligence (Article 25(2)), and fines for an essential entity that is a legal person can reach 10 million euros or 2% of worldwide annual turnover, whichever is higher."
         },
         {
           "type": "p",
-          "text": "The Portuguese regime covers 17 sectors and a significant part of public administration, and covered entities must register on the CNCS MyCiber electronic platform. For financial entities, the CNCS lists the Banco de Portugal, the Comissão do Mercado de Valores Mobiliários, and the Autoridade de Supervisão de Seguros e Fundos de Pensões as authorities for digital operational resilience matters."
+          "text": "The list of cybersecurity measures in Article 27(1), which includes basic cyber hygiene and cybersecurity training for top management and workers, only takes effect 24 months after the CNCS publishes the implementing regulations (Article 10(2) of the decree-law)."
+        },
+        {
+          "type": "p",
+          "text": "The Portuguese regime covers 17 sectors (Annexes I and II) and a significant part of public administration, and covered entities must identify themselves on an electronic platform provided by the CNCS (Article 8). For financial entities, Article 15 designates the Banco de Portugal, the Comissão do Mercado de Valores Mobiliários, and the Autoridade de Supervisão de Seguros e Fundos de Pensões as special national cybersecurity authorities for digital operational resilience matters."
         }
       ]
     },
@@ -120,7 +124,11 @@
         {
           "type": "table",
           "caption": "Illustrative mapping: NIS2 obligation to learning outcome to assessment evidence",
-          "head": ["Obligation", "Learning outcome", "Assessment evidence"],
+          "head": [
+            "Obligation",
+            "Learning outcome",
+            "Assessment evidence"
+          ],
           "rows": [
             [
               "Article 20(1): approve and oversee risk management measures",
@@ -191,7 +199,7 @@
     },
     {
       "q": "When did Portugal's NIS2 law take effect?",
-      "a": "Decree-Law 125/2025, published December 4, 2025, entered into force on April 3, 2026, according to the Centro Nacional de Cibersegurança. Entities already operating must register on the CNCS electronic platform within 60 days after the platform is made available."
+      "a": "Decree-Law 125/2025, published December 4, 2025, entered into force on April 3, 2026, 120 days after publication (Article 11). Entities already operating must register on the CNCS electronic platform within 60 days after the platform is made available (Article 8(1) of the regime). Some provisions, including the Article 27 list of cybersecurity measures, take effect 24 months after the CNCS implementing regulations are published."
     }
   ],
   "sources": [
@@ -251,7 +259,7 @@
   ],
   "published": "2026-09-28",
   "updated": "2026-09-28",
-  "release": 99,
+  "release": 3,
   "factCheck": [
     {
       "claim": "Article 20(2) NIS2 text: members of management bodies required to follow training; Member States encourage similar regular training for employees (verbatim)",
@@ -278,8 +286,8 @@
       "source": "https://digital-strategy.ec.europa.eu/en/policies/nis2-directive"
     },
     {
-      "claim": "Decree-Law 125/2025 published 4 December 2025 transposes NIS2; in force 3 April 2026; management bodies approve, supervise, promote continuous training; fines up to EUR 10m or 2%; 17 sectors; MyCiber registration within 60 days of platform availability; BdP, CMVM, ASF for DORA matters",
-      "source": "https://www.cncs.gov.pt/pt/regime-juridico/"
+      "claim": "Decree-Law 125/2025 published 4 December 2025 transposes NIS2; Article 11 in force 120 days after publication (3 April 2026); Article 9 revokes Law 46/2018; Article 10(2) defers Article 27(1) and (2) until 24 months after implementing regulations; regime Article 25 management bodies approve, supervise, ensure regular training, liability for intent or gross negligence; fines up to EUR 10m or 2% for essential legal persons; Annexes I and II list 17 sectors; Article 8(1) registration within 60 days of platform availability; Article 15 BdP, CMVM, ASF for DORA matters",
+      "source": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401"
     },
     {
       "claim": "COM(2026) 13 proposal of 20 January 2026: targeted NIS2 amendments on jurisdiction, ransomware data, cross-border supervision, complementing Digital Omnibus single-entry incident reporting",

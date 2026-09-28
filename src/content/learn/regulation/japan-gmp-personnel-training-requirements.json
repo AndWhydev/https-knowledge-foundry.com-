@@ -1,0 +1,537 @@
+{
+  "slug": "japan-gmp-personnel-training-requirements",
+  "kind": "regulation",
+  "title": "What does Japan's GMP ordinance require for personnel training?",
+  "seoTitle": "Japan GMP ordinance personnel training",
+  "description": "What Japan's GMP ordinance (MHLW Ordinance No. 179 of 2004) requires for personnel training under Article 19, including records and effectiveness checks.",
+  "shortAnswer": "Japan's GMP ordinance (MHLW Ordinance No. 179 of 2004) requires drug manufacturers to have a designated person, following written procedures, deliver planned training in manufacturing and quality control to everyone doing production and quality work, report it in writing to the quality assurance unit and the manufacturing supervisor, keep training records, and periodically evaluate and improve the training's effectiveness (Article 19). Sterile and biological sites have extra training duties.",
+  "keyTakeaways": [
+    "Article 19 of the GMP ordinance (kyōiku kunren, education and training) has four duties: planned training, a written report to the quality assurance unit and manufacturing supervisor, training records, and periodic evaluation of effectiveness with improvement and records.",
+    "The effectiveness duty and the reporting line to the quality assurance unit were added by MHLW Ordinance No. 90 of 2021, in force from August 1, 2021, alongside a new pharmaceutical quality system article (Article 3-3).",
+    "The MHLW explanatory notice says training must combine knowledge and practical skills training and cover GMP and related law, hygiene, the site's pharmaceutical quality system, and each person's own tasks, including for cleaning and maintenance staff.",
+    "Training records must be kept for five years from creation. Unlike most GMP records, they are not extended to shelf life plus one year (Article 20).",
+    "As at September 2026, the 2025 amending Act to the PMD Act has changed only a cross reference in the GMP ordinance (Article 3-2). Article 19 is unchanged."
+  ],
+  "jurisdiction": "Japan (national)",
+  "regulator": "Ministry of Health, Labour and Welfare (MHLW), with the Pharmaceuticals and Medical Devices Agency (PMDA) and prefectural governments",
+  "appliesTo": [
+    "Licensed manufacturers of drugs (seizōgyōsha) at each manufacturing site in Japan",
+    "Accredited foreign manufacturers of drugs supplied to Japan",
+    "Marketing authorization holders (seizō hanbai gyōsha), who must have their manufacturers follow the ordinance",
+    "Manufacturers of quasi-drugs, under the parallel rules in Chapter 3 of the ordinance",
+    "Manufacturing supervisors, quality assurance units, training leads and anyone doing production or quality work, including cleaning and maintenance staff"
+  ],
+  "sections": [
+    {
+      "id": "legal-basis",
+      "heading": "Where does Japan's GMP training duty come from?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The training duty sits in a Ministerial Ordinance made under Japan's main pharmaceutical statute. The **Act on Securing Quality, Efficacy and Safety of Products Including Pharmaceuticals and Medical Devices** (the PMD Act, Act No. 145 of 1960) provides that marketing approval is not to be granted where manufacturing control or quality control at the manufacturing site does not conform to the standard set by Ministry of Health, Labor and Welfare (MHLW) ordinance (Article 14(2)(iv)). That standard is the **Ministerial Ordinance on Standards for Manufacturing Control and Quality Control for Drugs and Quasi-drugs** (MHLW Ordinance No. 179 of 2004), commonly called the GMP ordinance (GMP shōrei). Its Article 1 says it sets the standard referred to in Article 14(2)(iv) ([GMP ordinance, e-Gov](https://laws.e-gov.go.jp/law/416M60000100179))."
+        },
+        {
+          "type": "p",
+          "text": "For international readers, Japanese pharmaceutical regulation works in layers. The Act, passed by the Diet, sets licenses, approvals and enforcement powers. A Cabinet Order (seirei) fills in details such as inspection intervals. Ministerial Ordinances (shōrei) set binding technical standards, and GMP is one of them. MHLW then issues explanatory notices (tsūchi) and administrative notices (jimu renraku) that explain how inspectors read the ordinance. Notices are not legislation, but GMP inspectors apply them, so a training system should follow them."
+        },
+        {
+          "type": "table",
+          "caption": "The layers that set GMP training expectations in Japan, as at September 2026",
+          "head": [
+            "Layer",
+            "Instrument",
+            "What it does for training"
+          ],
+          "rows": [
+            [
+              "Act",
+              "PMD Act (Act No. 145 of 1960), Articles 12 to 14, 72 and 75",
+              "Licenses, marketing approval conditioned on GMP compliance, inspections and enforcement"
+            ],
+            [
+              "Cabinet Order",
+              "Order for Enforcement of the PMD Act, Article 21",
+              "Sets five years as the interval for periodic GMP compliance inspections"
+            ],
+            [
+              "Ministerial Ordinance",
+              "GMP ordinance (MHLW Ordinance No. 179 of 2004), Articles 19, 25, 29 and 47",
+              "The binding training duties"
+            ],
+            [
+              "Notice",
+              "MHLW notice of April 28, 2021 on the 2021 revision (Yakuseikanmahatsu 0428 No. 2)",
+              "Explains who must be trained, required content, report fields and how effectiveness is evaluated"
+            ],
+            [
+              "Administrative notice",
+              "MHLW administrative notice of February 1, 2012 on applying the PIC/S GMP Guide",
+              "Introduces the PIC/S Guide as guidance when conducting GMP"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "About English translations",
+          "text": "PMDA publishes a tentative English translation of the GMP ordinance, and the Ministry of Justice's Japanese Law Translation database carries the PMD Act. Both are unofficial. The database states that only the original Japanese texts have legal effect, and its PMD Act translation reflects amendments only up to Act No. 50 of 2015. Check the Japanese text on e-Gov for current article numbers."
+        }
+      ]
+    },
+    {
+      "id": "who-it-applies-to",
+      "heading": "Who does the GMP ordinance apply to?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The ordinance binds drug and quasi-drug manufacturers directly and binds marketing authorization holders indirectly. Article 3(2) requires manufacturers, including foreign manufacturers, to carry out manufacturing control and quality control under Chapter 2 (drugs) or Chapter 3 (quasi-drugs). Article 3(1) requires the marketing authorization holder to have its manufacturers do so."
+        },
+        {
+          "type": "p",
+          "text": "Japan separates two licenses that many other systems combine. A **manufacturing license** (Article 13 of the PMD Act) is granted per manufacturing site and covers making the product. A **marketing authorization holder** (MAH) holds a marketing license under Article 12 and places the product on the market. The MAH must meet the Good Quality Practice (GQP) ordinance, which governs how it oversees its manufacturers and releases product to market ([PMD Act, e-Gov](https://laws.e-gov.go.jp/law/335AC0000000145)). Foreign sites that make drugs for Japan need accreditation (Article 13-3) rather than a license."
+        },
+        {
+          "type": "p",
+          "text": "Inside each site, Article 4 requires a manufacturing department and a quality department under the supervision of the manufacturing supervisor (seizō kanrisha), with the quality department independent of manufacturing. Since the 2021 revision, the quality department must contain a unit responsible for quality assurance and a unit responsible for testing. The training reporting line in Article 19 runs to that quality assurance unit and to the manufacturing supervisor."
+        }
+      ]
+    },
+    {
+      "id": "article-19-requirements",
+      "heading": "What does Article 19 require for education and training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Article 19 requires manufacturers to have a person designated in advance, following the written procedures, carry out four tasks. In PMDA's tentative translation, the manufacturer must have that person:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "\"for personnel that are engaged in production/quality related activities, to systematically implement necessary education/training on production control and quality management\";",
+            "\"to report implementation of the education/training, in writing to the quality assurance section and the manufacturing supervisor\";",
+            "\"to document and retain implementation records of the education/training\"; and",
+            "\"to assess practical effectiveness of the education/training regularly, to improve as necessary, and to document and retain records thereof\"."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Source: [PMDA tentative translation of the GMP ordinance](https://www.pmda.go.jp/files/000269146.pdf). The Japanese text of item 4 reads \"kyōiku kunren no jikkōsei o teikiteki ni hyōka shi\", literally to periodically evaluate the effectiveness of the education and training. Article 8(1)(xv) separately requires a written procedure for education and training at each site, so the training system itself must be documented, not just delivered."
+        },
+        {
+          "type": "p",
+          "text": "Other articles create training triggers. Article 14(1)(iv) requires staff training and document revision when an approved change is implemented, and Article 3-3(iii) requires the quality policy and quality objectives to be made known to every organization and person involved in the pharmaceutical quality system at the site. Training therefore has to respond to change control, not only follow an annual calendar."
+        }
+      ]
+    },
+    {
+      "id": "notice-on-content",
+      "heading": "What does the MHLW notice say training must cover?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The MHLW notice issued with the 2021 revision says training must consist of knowledge education plus practical training in skills and techniques, matched to each person's work. Section 27 of the notice, on Article 19, lists the minimum content ([MHLW notice of April 28, 2021, hosted by PMDA](https://www.pmda.go.jp/files/000264441.pdf)):"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "an introduction to GMP, including the related laws and regulations;",
+            "an introduction to hygiene control;",
+            "an overview of the pharmaceutical quality system, including the company's quality policy, the site's quality objectives and the management structure; and",
+            "training on each person's actual work, including practical training in skills and techniques."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The notice also fills in the rest of Article 19. The trainee population is anyone doing production or quality related work who could affect product quality, expressly including staff who clean, maintain, sterilize or service premises, equipment and instruments. \"Planned\" means delivered under a training program set by the person responsible for training, and that person should be someone who knows the training content well, with duties and authority written into the site's organization documents under Article 6(4)."
+        },
+        {
+          "type": "p",
+          "text": "The written training report must show the date the report was prepared and approved, its control number and the names of those responsible, the date or period of training, the content delivered, the names and affiliations of trainees, and the name and affiliation of the training lead. A report that contains this information can double as the training record. On effectiveness, the notice asks for a system that periodically evaluates, for each trained employee, organization or department, whether they can perform their work properly given the knowledge, skills and techniques required, and whether training frequency and content are appropriate. Revising or expanding the training program is its example of an improvement."
+        }
+      ]
+    },
+    {
+      "id": "sterile-and-biological",
+      "heading": "What extra training applies to sterile and biological products?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Sterile and biological manufacturing sites must add specific training on top of Article 19. Article 25 applies to sterile drugs and requires training in hygiene control, microbiology and other necessary topics for staff in manufacturing or testing, and training in measures to prevent microbial contamination for staff working in clean and aseptic areas. Article 29 applies to biological drugs and requires training in microbiology, medicine and veterinary science for manufacturing and testing staff, and contamination prevention training for staff in aseptic areas and areas handling pathogenic microorganisms. Each article applies \"in addition to\" the earlier training articles."
+        },
+        {
+          "type": "p",
+          "text": "Quasi-drug manufacturers follow Article 47, which mirrors the first three items of Article 19 but reports to the responsible engineer (sekinin gijutsusha) rather than the quality assurance unit. The text of Article 47 does not contain the effectiveness evaluation item, and Article 53 adds sterile quasi-drug training."
+        }
+      ]
+    },
+    {
+      "id": "2021-revision",
+      "heading": "What changed in the August 2021 revision?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MHLW Ordinance No. 90 of 2021, promulgated April 28, 2021 and in force from August 1, 2021, rebuilt the GMP ordinance around a pharmaceutical quality system and added the effectiveness duty to Article 19. The MHLW notice says the revision followed changes to the PIC/S GMP guidelines since Japan joined and aimed at greater international consistency. Comparing the ordinance text before and after the revision on e-Gov shows the following changes relevant to training."
+        },
+        {
+          "type": "table",
+          "caption": "2021 changes to the GMP ordinance that affect training (texts compared on e-Gov)",
+          "head": [
+            "Article",
+            "Before August 1, 2021",
+            "From August 1, 2021"
+          ],
+          "rows": [
+            [
+              "Article 19(ii): reporting",
+              "Training status reported in writing to the manufacturing supervisor",
+              "Reported to the quality assurance unit and the manufacturing supervisor"
+            ],
+            [
+              "Article 19(iv): effectiveness",
+              "No such item",
+              "Periodically evaluate effectiveness, improve as necessary, and keep records"
+            ],
+            [
+              "Article 3-3: pharmaceutical quality system",
+              "No such article",
+              "Build an effective quality system; make the quality policy and objectives known to all relevant staff; allocate resources, defined to include individual knowledge and skills"
+            ],
+            [
+              "Article 3-4: quality risk management",
+              "No such article",
+              "Use quality risk management to build the quality system"
+            ],
+            [
+              "Article 4(3): quality assurance unit",
+              "Quality department independent of manufacturing",
+              "Quality department must also have a quality assurance unit and a testing unit"
+            ],
+            [
+              "Article 20(2): record reliability",
+              "No such paragraph",
+              "Ongoing controls so that procedures and records are complete, accurate and consistent (data integrity)"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Article 6(3), which requires manufacturers to secure sufficient personnel able to carry out production and quality work, was already in the pre-2021 text, so it is not new. What the 2021 notice adds is how competence is judged: section 9 says the ability of responsible persons should be assessed in light of their work, practical experience and training history under Articles 19, 25 and 29, and assured under the site's pharmaceutical quality system. Training records therefore support staffing decisions as well as proving attendance."
+        }
+      ]
+    },
+    {
+      "id": "records-and-retention",
+      "heading": "How long must GMP training records be kept?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training records must be kept for five years from the date they are created. Article 20(1)(iii) sets five years for GMP documents and records, extended to the product's shelf life plus one year where that is longer, but it expressly excludes training records from the extension. For active pharmaceutical ingredient (API) sites, Article 22 sets retest date or shelf life based periods for most records but again fixes five years for training records."
+        },
+        {
+          "type": "p",
+          "text": "Under the 2021 notice, the retained training records are the Article 19(ii) training report and the records under items (iii) and (iv), which means effectiveness evaluations and resulting improvements must be retained too. Because Article 20(2) now requires controls on the completeness, accuracy and consistency of records, electronic training records fall inside the site's data integrity controls. The notice also lists training activities among the items to cover in periodic self inspection under Article 18."
+        }
+      ]
+    },
+    {
+      "id": "inspection-and-enforcement",
+      "heading": "How is GMP compliance inspected and enforced?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Compliance is checked by GMP compliance inspections at marketing approval and at least every five years after that. Article 14(6) of the PMD Act requires the applicant or approval holder to undergo a document or on-site inspection when seeking approval and after each period set by Cabinet Order, not shorter than three years. Article 21 of the Order for Enforcement sets that period at five years ([Order for Enforcement of the PMD Act, e-Gov](https://laws.e-gov.go.jp/law/336CO0000000011))."
+        },
+        {
+          "type": "p",
+          "text": "Inspection is split between agencies. According to PMDA, it inspects domestic sites for products such as new (non-generic) drugs, biological products and radiopharmaceuticals, and all foreign sites for products imported into Japan, while prefectural inspectorates cover other domestic sites. PMDA has inspection authority only; MHLW takes administrative action on PMDA's findings, and prefectures can both inspect and act ([PMDA, legal authorities of GMP inspections](https://www.pmda.go.jp/files/000235748.pdf))."
+        },
+        {
+          "type": "p",
+          "text": "The PMD Act gives the Minister power to order a marketing authorization holder to improve manufacturing control or quality control methods at the manufacturing site that do not conform to the GMP standard, or to suspend business until they are improved (Article 72(2)), and to revoke licenses or suspend business for violations of pharmaceutical laws (Article 75)."
+        },
+        {
+          "type": "callout",
+          "title": "Japan and PIC/S",
+          "text": "Japan joined the Pharmaceutical Inspection Co-operation Scheme (PIC/S) in July 2014, with MHLW and PMDA counting as one participating authority and prefectures represented by MHLW ([PIC/S members list](https://picscheme.org/en/members)). The GMP ordinance, not the PIC/S Guide, is the binding text in Japan, but a 2012 MHLW administrative notice introduced the PIC/S Guide as guidance for GMP at Japanese sites. Compare the Australian approach, which adopts the PIC/S Guide directly, on the [TGA GMP personnel training page](/regulations/tga-gmp-personnel-training-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "2025-pmd-act-amendment",
+      "heading": "Does the 2025 PMD Act amendment change GMP training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No, not as at September 2026. The Act Partially Amending the PMD Act and Other Acts (Act No. 37 of 2025) was promulgated on May 21, 2025 and is coming into force in stages, with dates recorded on e-Gov from May 21, 2025 through May 20, 2028. Two consequential ordinances amend the GMP ordinance: MHLW Ordinance No. 117 of 2025, in force from May 1, 2026, and MHLW Ordinance No. 110 of 2026, due to take effect on May 20, 2027."
+        },
+        {
+          "type": "p",
+          "text": "Comparing the GMP ordinance versions on e-Gov, both amendments change only the PMD Act paragraph numbers cross referenced in Article 3-2 (compliance with approved matters). Articles 19, 25, 29 and 47 are unchanged in the version in force and in the version due in May 2027. Training teams should still watch for revised notices as the remaining stages of the amending Act take effect."
+        }
+      ]
+    },
+    {
+      "id": "obligation-to-evidence-map",
+      "heading": "How can the GMP training duties be mapped to learning outcomes and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A practical approach is to map each article to a measurable [learning outcome](/glossary/learning-outcomes) and the evidence an inspector would expect to see. The table below is illustrative, not MHLW or PMDA guidance. Adapt it to the site's own procedures and [training matrix](/glossary/training-matrix)."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: GMP ordinance requirement to learning outcome to evidence",
+          "head": [
+            "Requirement",
+            "Example learning outcome",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "Article 19(i) and notice section 27: planned training with required content",
+              "Explains GMP basics, related law and hygiene rules, and performs assigned tasks to the written procedure",
+              "Training program approved by the designated training lead; role curriculum; practical sign off for each task"
+            ],
+            [
+              "Article 3-3(iii): quality policy and objectives made known",
+              "States the site's quality policy and how their own work contributes to the site's quality objectives",
+              "Knowledge check results or structured interview notes; induction record"
+            ],
+            [
+              "Article 19(ii): written report",
+              "Training lead completes a report with every field the notice lists",
+              "Numbered, approved training reports sent to the quality assurance unit and manufacturing supervisor"
+            ],
+            [
+              "Article 19(iii) and Article 20: records",
+              "Not a learner outcome: a system control",
+              "Record per trainee of date, content and trainer, kept five years from creation"
+            ],
+            [
+              "Article 19(iv): effectiveness",
+              "Demonstrates proficiency in the knowledge and skills the role requires",
+              "Periodic [competency assessment](/glossary/competency-assessment) by role; effectiveness review; log of program revisions"
+            ],
+            [
+              "Article 14(1)(iv): training on approved changes",
+              "Applies the revised procedure correctly after a change",
+              "Change record linked to the training delivered and assessed before the change takes effect"
+            ],
+            [
+              "Articles 25 and 29: sterile and biological sites",
+              "Applies contamination prevention measures in clean and aseptic areas",
+              "Records of aseptic practice and microbiology training; supervised observation records"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Building the matrix from approved [standard operating procedures](/glossary/standard-operating-procedure) keeps training aligned when procedures change, which is the method described in [how to turn SOPs into training](/guides/how-to-convert-sops-into-training). For the effectiveness row, see [how to evidence training effectiveness to a regulator](/guides/how-to-evidence-training-effectiveness-to-a-regulator)."
+        }
+      ]
+    },
+    {
+      "id": "mah-and-devices",
+      "heading": "What training rules apply to marketing authorization holders and device makers?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Marketing authorization holders and medical device makers have their own training articles in separate ordinances. Article 14 of the GQP ordinance requires a drug MAH to have a designated person prepare a training plan for people doing quality control work, deliver the training systematically, record it, and report to the quality assurance responsible person (hinshitsu hoshō sekininsha) when someone else runs it ([GQP ordinance, e-Gov](https://laws.e-gov.go.jp/law/416M60000100136)). Article 10 of the same ordinance requires the MAH to confirm periodically that its manufacturers conduct manufacturing and quality control properly, which can reasonably extend to checking their training arrangements."
+        },
+        {
+          "type": "p",
+          "text": "Marketing authorization holders for medical devices and in vitro diagnostics follow the QMS ordinance (MHLW Ordinance No. 169 of 2004). Its Article 23 (competence, awareness and training) requires them to define the competence needed by people whose work affects product quality, provide training or other action to achieve it, evaluate the effectiveness of that action, and keep records of education, training, skills and experience ([QMS ordinance, e-Gov](https://laws.e-gov.go.jp/law/416M60000100169)). Readers working across standards can compare [ISO 9001 competence requirements](/regulations/iso-9001-competence-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models Articles 3-3, 14, 19, 20, 25 and 29 of the GMP ordinance and the relevant sections of the MHLW notice as obligations, links each to the site's own procedures and roles, and defines learning outcomes and assessment points before training content is written. When a procedure changes or MHLW revises the ordinance or its notices, the affected roles and assessments are identified from the framework, giving the quality assurance unit a traceable record for inspection."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Japan's GMP ordinance say how often training must be repeated?",
+      "a": "No. Article 19 requires training to be planned and its effectiveness to be evaluated periodically, but neither the ordinance nor the 2021 MHLW notice sets a fixed refresher interval. The notice asks sites to evaluate periodically whether training frequency and content are appropriate, so the interval should be set in the training procedure and justified by the effectiveness review."
+    },
+    {
+      "q": "Do cleaning and maintenance staff need GMP training in Japan?",
+      "a": "Yes. The MHLW notice on Article 19 says the trainee population includes anyone doing production or quality related work who could affect product quality, expressly including staff who clean, maintain, sterilize or service premises, equipment and instruments. Contractors doing that work at the site should be covered by the training program or by written arrangements that require equivalent training."
+    },
+    {
+      "q": "Does the PIC/S GMP Guide apply in Japan?",
+      "a": "Not as binding law. Japan has been a PIC/S participating authority since July 2014, and a 2012 MHLW administrative notice introduced the PIC/S Guide as guidance when conducting GMP. The binding requirements are the GMP ordinance and the PMD Act. The 2021 revision brought the ordinance closer to PIC/S, for example with the pharmaceutical quality system article and the training effectiveness duty."
+    },
+    {
+      "q": "Who is responsible for GMP training at a Japanese manufacturing site?",
+      "a": "The manufacturer is legally responsible, but Article 19 requires it to designate a person in advance to run training under written procedures. The MHLW notice says that person should know the training content well and have duties and authority written down. Training reports go to the quality assurance unit and the manufacturing supervisor, who oversees whether the pharmaceutical quality system operates properly."
+    },
+    {
+      "q": "Can a training report also serve as the training record?",
+      "a": "Yes. The MHLW notice says that if the written training report under Article 19(ii) already contains the required information, a separate implementation record under Article 19(iii) is not needed. Records of effectiveness evaluations and improvements under Article 19(iv) are still required, and all training records must be kept for five years from creation."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministerial Ordinance on Standards for Manufacturing Control and Quality Control for Drugs and Quasi-drugs (MHLW Ordinance No. 179 of 2004), Japanese text and revision history",
+      "publisher": "Digital Agency, e-Gov Laws",
+      "url": "https://laws.e-gov.go.jp/law/416M60000100179"
+    },
+    {
+      "title": "Ministerial Order on the Standard of Manufacturing Control and Quality Control for Pharmaceuticals and Quasi-Pharmaceuticals (tentative translation, updated June 21, 2024)",
+      "publisher": "Pharmaceuticals and Medical Devices Agency (PMDA)",
+      "url": "https://www.pmda.go.jp/files/000269146.pdf"
+    },
+    {
+      "title": "Notification Concerning Partial Amendment of the Ministerial Ordinance on Standards for Manufacturing Control and Quality Control for Drugs and Quasi-drugs (April 28, 2021), Japanese",
+      "publisher": "Ministry of Health, Labour and Welfare, hosted by PMDA",
+      "url": "https://www.pmda.go.jp/files/000264441.pdf"
+    },
+    {
+      "title": "GMP compliance inspection: regulations and guidelines",
+      "publisher": "Pharmaceuticals and Medical Devices Agency (PMDA)",
+      "url": "https://www.pmda.go.jp/english/review-services/gmp-qms-gctp/0001.html"
+    },
+    {
+      "title": "Legal authorities of GMP inspections in Japan",
+      "publisher": "Pharmaceuticals and Medical Devices Agency (PMDA)",
+      "url": "https://www.pmda.go.jp/files/000235748.pdf"
+    },
+    {
+      "title": "Administrative Notice: Application of PIC/S GMP Guide (February 1, 2012, tentative translation)",
+      "publisher": "Ministry of Health, Labour and Welfare, hosted by PMDA",
+      "url": "https://www.pmda.go.jp/files/000153550.pdf"
+    },
+    {
+      "title": "Act on Securing Quality, Efficacy and Safety of Products Including Pharmaceuticals and Medical Devices (Act No. 145 of 1960), Japanese text",
+      "publisher": "Digital Agency, e-Gov Laws",
+      "url": "https://laws.e-gov.go.jp/law/335AC0000000145"
+    },
+    {
+      "title": "Act on Securing Quality, Efficacy and Safety of Products Including Pharmaceuticals and Medical Devices: English translation (to Act No. 50 of 2015)",
+      "publisher": "Ministry of Justice, Japanese Law Translation",
+      "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/3213"
+    },
+    {
+      "title": "Order for Enforcement of the Act on Securing Quality, Efficacy and Safety of Products Including Pharmaceuticals and Medical Devices, Japanese text",
+      "publisher": "Digital Agency, e-Gov Laws",
+      "url": "https://laws.e-gov.go.jp/law/336CO0000000011"
+    },
+    {
+      "title": "Ministerial Ordinance on Standards for Quality Control of Drugs, Quasi-drugs, Cosmetics and Regenerative Medicine Products (GQP ordinance), Japanese text",
+      "publisher": "Digital Agency, e-Gov Laws",
+      "url": "https://laws.e-gov.go.jp/law/416M60000100136"
+    },
+    {
+      "title": "Ministerial Ordinance on Standards for Manufacturing Control and Quality Control of Medical Devices and In Vitro Diagnostics (QMS ordinance), Japanese text",
+      "publisher": "Digital Agency, e-Gov Laws",
+      "url": "https://laws.e-gov.go.jp/law/416M60000100169"
+    },
+    {
+      "title": "PIC/S Members",
+      "publisher": "Pharmaceutical Inspection Co-operation Scheme (PIC/S)",
+      "url": "https://picscheme.org/en/members"
+    },
+    {
+      "title": "Japanese Law Translation: notice to users",
+      "publisher": "Ministry of Justice",
+      "url": "https://www.japaneselawtranslation.go.jp/en/"
+    }
+  ],
+  "related": [
+    "tga-gmp-personnel-training-requirements",
+    "fda-gmp-personnel-training-requirements",
+    "japan-industrial-safety-and-health-act-training",
+    "how-to-convert-sops-into-training",
+    "how-to-evidence-training-effectiveness-to-a-regulator",
+    "how-to-prepare-training-records-for-an-audit"
+  ],
+  "productLinks": [
+    {
+      "label": "Healthcare and life sciences",
+      "href": "/industries/healthcare-life-sciences"
+    },
+    {
+      "label": "Operational procedures programs",
+      "href": "/programs/operational-procedures"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 3,
+  "factCheck": [
+    {
+      "claim": "GMP ordinance Article 19 (kyōiku kunren): designated person, per written procedures, must (i) systematically implement necessary training on manufacturing and quality control, (ii) report in writing to the quality assurance unit and manufacturing supervisor, (iii) create and keep records, (iv) periodically evaluate effectiveness, improve as needed and keep records",
+      "source": "https://laws.e-gov.go.jp/law/416M60000100179"
+    },
+    {
+      "claim": "PMDA tentative translation wording of Article 19 items (i) to (iv), quoted verbatim",
+      "source": "https://www.pmda.go.jp/files/000269146.pdf"
+    },
+    {
+      "claim": "MHLW Ordinance No. 90 of 2021 promulgated April 28, 2021, in force August 1, 2021; pre-2021 Article 19 had only three items reporting to the manufacturing supervisor; Articles 3-3, 3-4, 4(3) and 20(2) absent before 2021; Article 6(3) sufficient personnel already present in the 2014 text (e-Gov revision texts compared via API v2)",
+      "source": "https://laws.e-gov.go.jp/law/416M60000100179"
+    },
+    {
+      "claim": "Notice Yakuseikanmahatsu 0428 No. 2 (April 28, 2021) section 27: trainees include cleaning, maintenance, sterilization and servicing staff; training is knowledge plus practical skills; content includes GMP and related law, hygiene, PQS overview with quality policy and objectives, and practical work training; planned means per program set by training lead; report fields; report can double as record; effectiveness evaluation system and example improvements",
+      "source": "https://www.pmda.go.jp/files/000264441.pdf"
+    },
+    {
+      "claim": "Notice section 9: ability of responsible persons judged by work, experience and training history under Articles 19, 25 and 29; notice section 26 lists training activities among self inspection items",
+      "source": "https://www.pmda.go.jp/files/000264441.pdf"
+    },
+    {
+      "claim": "Article 20(1)(iii): records kept five years, or shelf life plus one year if longer, except training records; Article 22 fixes five years for training records at API sites",
+      "source": "https://laws.e-gov.go.jp/law/416M60000100179"
+    },
+    {
+      "claim": "Articles 25 and 29 add sterile and biological training; Article 47 (quasi-drugs) has three items reporting to the responsible engineer; Article 8(1)(xv) requires a training procedure; Article 14(1)(iv) requires staff training when implementing changes",
+      "source": "https://laws.e-gov.go.jp/law/416M60000100179"
+    },
+    {
+      "claim": "GMP ordinance amended by MHLW Ordinance No. 117 of 2025 (in force May 1, 2026) and No. 110 of 2026 (in force May 20, 2027); only Article 3-2 cross references change; PMD Act amended by Act No. 37 of 2025 promulgated May 21, 2025 with staged dates to May 20, 2028 (e-Gov law_revisions API)",
+      "source": "https://laws.e-gov.go.jp/law/335AC0000000145"
+    },
+    {
+      "claim": "PMD Act Article 14(2)(iv) GMP as approval condition; Article 14(6) inspection at approval and at intervals not shorter than three years set by Cabinet Order; Article 72(2) improvement or suspension orders addressed to marketing authorization holders; Article 75 license revocation or suspension; Articles 12 and 13 marketing and manufacturing licenses",
+      "source": "https://laws.e-gov.go.jp/law/335AC0000000145"
+    },
+    {
+      "claim": "Order for Enforcement Article 21 sets the Article 14(6) inspection period at five years",
+      "source": "https://laws.e-gov.go.jp/law/336CO0000000011"
+    },
+    {
+      "claim": "PMDA inspects domestic sites for non-generic drugs, biologicals and radiopharmaceuticals and all foreign sites; prefectures inspect other domestic sites; PMDA has inspection authority only",
+      "source": "https://www.pmda.go.jp/files/000235748.pdf"
+    },
+    {
+      "claim": "Japan (MHLW and PMDA as one participating authority) acceded to PIC/S in July 2014",
+      "source": "https://picscheme.org/en/members"
+    },
+    {
+      "claim": "February 1, 2012 administrative notice introduces the PIC/S Guide as guidance when conducting GMP at sites regulated by Article 3 of the GMP ordinance",
+      "source": "https://www.pmda.go.jp/files/000153550.pdf"
+    },
+    {
+      "claim": "GQP ordinance Article 14 requires a training plan, systematic training, records and reporting to the quality assurance responsible person; Article 10 requires periodic confirmation of manufacturers' GMP",
+      "source": "https://laws.e-gov.go.jp/law/416M60000100136"
+    },
+    {
+      "claim": "QMS ordinance Article 23 requires marketing authorization holders (seizō hanbai gyōsha tō) to define competence, provide training, evaluate effectiveness and keep records of education, training, skills and experience",
+      "source": "https://laws.e-gov.go.jp/law/416M60000100169"
+    },
+    {
+      "claim": "Japanese Law Translation: translations are not official; only Japanese texts have legal effect; PMD Act translation last version Act No. 50 of 2015",
+      "source": "https://www.japaneselawtranslation.go.jp/en/"
+    }
+  ]
+}

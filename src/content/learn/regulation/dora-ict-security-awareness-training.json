@@ -77,7 +77,7 @@
         },
         {
           "type": "p",
-          "text": "National rules still matter for supervision and penalties, which are set and enforced by national competent authorities. In Portugal, the [Centro Nacional de Cibersegurança](https://www.cncs.gov.pt/pt/regime-juridico/) lists the Banco de Portugal, the Comissão do Mercado de Valores Mobiliários (CMVM), and the Autoridade de Supervisão de Seguros e Fundos de Pensões (ASF) as the authorities for digital operational resilience in the financial sector. NIS2 recital 28 treats DORA as the sector specific act for financial entities, so DORA's training rules take precedence over the equivalent NIS2 provisions; see [NIS2 management body training](/regulations/nis2-management-body-training)."
+          "text": "National rules still matter for supervision and penalties, which are set and enforced by national competent authorities. In Portugal, Article 15 of the cybersecurity regime approved by [Decree-Law 125/2025](https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401) designates the Banco de Portugal, the Comissão do Mercado de Valores Mobiliários (CMVM), and the Autoridade de Supervisão de Seguros e Fundos de Pensões (ASF) as the special national cybersecurity authorities for digital operational resilience in the financial sector. NIS2 recital 28 treats DORA as the sector specific act for financial entities, so DORA's training rules take precedence over the equivalent NIS2 provisions; see [NIS2 management body training](/regulations/nis2-management-body-training)."
         }
       ]
     },
@@ -207,9 +207,9 @@
       "url": "https://www.eba.europa.eu/regulation-and-policy/operational-resilience"
     },
     {
-      "title": "Regime Jurídico da Cibersegurança",
-      "publisher": "Centro Nacional de Cibersegurança (CNCS)",
-      "url": "https://www.cncs.gov.pt/pt/regime-juridico/"
+      "title": "Decreto-Lei n.º 125/2025",
+      "publisher": "Diário da República (Portugal)",
+      "url": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401"
     }
   ],
   "related": [
@@ -232,7 +232,7 @@
   ],
   "published": "2026-09-28",
   "updated": "2026-09-28",
-  "release": 99,
+  "release": 3,
   "factCheck": [
     {
       "claim": "Article 13(6) DORA: compulsory modules for all employees and senior management, complexity commensurate to remit; include ICT third-party providers where appropriate per Article 30(2)(i) (verbatim)",
@@ -263,8 +263,8 @@
       "source": "https://www.eiopa.europa.eu/digital-operational-resilience-act-dora_en"
     },
     {
-      "claim": "CNCS lists Banco de Portugal, CMVM and ASF as authorities for digital operational resilience of the financial sector",
-      "source": "https://www.cncs.gov.pt/pt/regime-juridico/"
+      "claim": "Decree-Law 125/2025, regime Article 15(2)(b): ASF, CMVM and Banco de Portugal are special national cybersecurity authorities for digital operational resilience of the financial sector",
+      "source": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "title": "What AML training does Portugal's Law 83/2017 require?",
   "seoTitle": "Portugal Law 83/2017 AML training",
   "description": "What Article 55 of Portugal's Law 83/2017 requires for AML/CFT training, what Banco de Portugal Notice 1/2022 adds, and how the 2027 EU rules will change it.",
-  "shortAnswer": "Portugal's anti-money laundering law, Law 83/2017 of August 18, requires obliged entities to give managers, employees, and other staff in AML/CFT relevant roles adequate knowledge of their obligations, specific and regular sector-appropriate training, and immediate training for new joiners in AML roles (Article 55). Training must be delivered by competent trainers, cleared by the compliance officer, and recorded for supervisors. Failing the duty is a particularly serious administrative offense.",
+  "shortAnswer": "Portugal's anti-money laundering law, Law 83/2017 of August 18, requires obliged entities to give managers, employees, and other staff in AML/CFT relevant roles adequate knowledge of their obligations, specific and regular sector-appropriate training, and immediate training for new joiners in AML roles (Article 55). Training must be delivered by competent trainers, cleared by any designated compliance officer, and recorded for supervisors. Failing the duty is a particularly serious administrative offense.",
   "keyTakeaways": [
     "Article 55 of Law 83/2017 sets the training duty: adequate knowledge, specific and regular training, and training immediately after hiring for people whose roles directly concern AML/CFT.",
     "Training must be delivered by people or entities with recognized AML/CFT competence and, where a compliance officer is designated, have that officer's prior favorable opinion.",
     "Entities must keep up-to-date, complete training records, retained for seven years under Article 51 and always available to sectoral authorities.",
-    "Breach of the training duty is listed as a particularly serious administrative offense in Article 169-A, with fines of up to EUR 5,000,000 for credit and financial institutions under Article 170.",
+    "Breach of the training duty is listed as a particularly serious administrative offense in Article 169-A, with base fines of up to EUR 5,000,000 for credit and financial institutions under Article 170, which Article 171 can raise.",
     "Banco de Portugal Notice 1/2022 Article 53 details the training policy content and the minimum fields in training records for supervised financial entities."
   ],
   "jurisdiction": "Portugal",
@@ -103,17 +103,47 @@
         {
           "type": "table",
           "caption": "Minimum content of each training record under Banco de Portugal Notice 1/2022, Article 53(3)",
-          "head": ["Record field", "What to capture in practice"],
+          "head": [
+            "Record field",
+            "What to capture in practice"
+          ],
           "rows": [
-            ["Name of the training", "Course or session title linked to a version of the content"],
-            ["Date", "Delivery date, or completion date for self-paced learning"],
-            ["Training provider", "Internal team or external provider"],
-            ["Duration in hours", "Planned or measured hours"],
-            ["Nature", "Internal or external training"],
-            ["Setting", "In person or remote"],
-            ["Supporting teaching material", "The materials used, kept or referenced by version"],
-            ["Trainees' names and roles", "Internal and external participants"],
-            ["Final assessment of trainees, where one exists", "Score or pass result against the assessment used"]
+            [
+              "Name of the training",
+              "Course or session title linked to a version of the content"
+            ],
+            [
+              "Date",
+              "Delivery date, or completion date for self-paced learning"
+            ],
+            [
+              "Training provider",
+              "Internal team or external provider"
+            ],
+            [
+              "Duration in hours",
+              "Planned or measured hours"
+            ],
+            [
+              "Nature",
+              "Internal or external training"
+            ],
+            [
+              "Setting",
+              "In person or remote"
+            ],
+            [
+              "Supporting teaching material",
+              "The materials used, kept or referenced by version"
+            ],
+            [
+              "Trainees' names and roles",
+              "Internal and external participants"
+            ],
+            [
+              "Final assessment of trainees, where one exists",
+              "Score or pass result against the assessment used"
+            ]
           ]
         }
       ]
@@ -129,17 +159,37 @@
         {
           "type": "table",
           "caption": "Fine ranges for particularly serious offenses under Article 170(1) of Law 83/2017 (consolidated, as at September 2026)",
-          "head": ["Entity type", "Legal person", "Natural person"],
+          "head": [
+            "Entity type",
+            "Legal person",
+            "Natural person"
+          ],
           "rows": [
-            ["Credit institution or financial institution", "EUR 50,000 to EUR 5,000,000", "EUR 25,000 to EUR 5,000,000"],
-            ["Other financial entity", "EUR 25,000 to EUR 2,500,000", "EUR 12,500 to EUR 2,500,000"],
-            ["Non-financial entities in Article 4(1)(a) to (c)", "EUR 50,000 to EUR 1,000,000", "EUR 25,000 to EUR 1,000,000"],
-            ["Other non-financial entities, except certified accountants, lawyers, solicitors, and notaries", "EUR 5,000 to EUR 1,000,000", "EUR 2,500 to EUR 1,000,000"]
+            [
+              "Credit institution or financial institution",
+              "EUR 50,000 to EUR 5,000,000",
+              "EUR 25,000 to EUR 5,000,000"
+            ],
+            [
+              "Other financial entity",
+              "EUR 25,000 to EUR 2,500,000",
+              "EUR 12,500 to EUR 2,500,000"
+            ],
+            [
+              "Non-financial entities in Article 4(1)(a) to (c)",
+              "EUR 50,000 to EUR 1,000,000",
+              "EUR 25,000 to EUR 1,000,000"
+            ],
+            [
+              "Other non-financial entities, except certified accountants, lawyers, solicitors, and notaries",
+              "EUR 5,000 to EUR 1,000,000",
+              "EUR 2,500 to EUR 1,000,000"
+            ]
           ]
         },
         {
           "type": "p",
-          "text": "Law 83/2017 also states that the fine should, where possible, exceed the economic benefit derived from the offense. The ranges above are the base ranges in the consolidated text; other rules in the law can affect the final amount, so legal advice is needed for any specific case."
+          "text": "Law 83/2017 also states that the fine should, where possible, exceed the economic benefit derived from the offense. The ranges above are the base ranges in the consolidated text. Under Article 171, the maximum rises to twice the economic benefit where that is determinable and higher, and for legal persons that are credit or financial institutions or non-financial entities in Article 4(1)(a) to (c), to 10% of total annual turnover. Other rules in the law can also affect the final amount, so legal advice is needed for any specific case."
         }
       ]
     },
@@ -154,14 +204,35 @@
         {
           "type": "table",
           "caption": "Illustrative checklist: Article 55 requirement to evidence",
-          "head": ["Requirement", "Evidence to hold"],
+          "head": [
+            "Requirement",
+            "Evidence to hold"
+          ],
           "rows": [
-            ["Proportionate measures for relevant staff (55(1))", "Role list or [training matrix](/glossary/training-matrix) showing which functions are AML/CFT relevant and why"],
-            ["Specific, regular, sector-appropriate training (55(2))", "Curriculum mapped to the entity's risk assessment, refresh schedule, and knowledge checks"],
-            ["Immediate training for new joiners (55(3))", "Onboarding records showing training dates relative to start dates"],
-            ["Competent trainers (55(4)(a))", "Trainer qualifications or provider due diligence"],
-            ["Compliance officer favorable opinion (55(4)(b))", "Dated sign-off by the compliance officer on each program or material change"],
-            ["Records kept and available (55(5))", "Complete records retained for seven years under Article 51, retrievable on request"]
+            [
+              "Proportionate measures for relevant staff (55(1))",
+              "Role list or [training matrix](/glossary/training-matrix) showing which functions are AML/CFT relevant and why"
+            ],
+            [
+              "Specific, regular, sector-appropriate training (55(2))",
+              "Curriculum mapped to the entity's risk assessment, refresh schedule, and knowledge checks"
+            ],
+            [
+              "Immediate training for new joiners (55(3))",
+              "Onboarding records showing training dates relative to start dates"
+            ],
+            [
+              "Competent trainers (55(4)(a))",
+              "Trainer qualifications or provider due diligence"
+            ],
+            [
+              "Compliance officer favorable opinion (55(4)(b))",
+              "Dated sign-off by the compliance officer on each program or material change"
+            ],
+            [
+              "Records kept and available (55(5))",
+              "Complete records retained for seven years under Article 51, retrievable on request"
+            ]
           ]
         },
         {
@@ -176,7 +247,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "From July 10, 2027, Article 12 of Regulation (EU) 2024/1624 sets the training duty directly, alongside a written training policy (Article 9) and skills, knowledge, and integrity assessments for staff in AML/CFT roles (Article 13). Portugal must also transpose Directive (EU) 2024/1640 by the same date, which will reshape the national supervisory and sanctions framework."
+          "text": "From July 10, 2027, Article 12 of Regulation (EU) 2024/1624 sets the training duty directly, alongside a written training policy (Article 9) and skills, knowledge, and integrity assessments for staff in AML/CFT roles (Article 13). Portugal must also transpose Directive (EU) 2024/1640, mostly by the same date (Article 78 sets earlier dates for a few provisions), which will reshape the national supervisory and sanctions framework."
         },
         {
           "type": "p",
@@ -205,8 +276,8 @@
       "a": "Article 55(5) requires training records to be kept under Article 51 of Law 83/2017, which sets a seven-year retention period, and to be permanently available to the sectoral authorities."
     },
     {
-      "q": "Does AML training count toward the Labor Code's 40 hours of continuous training?",
-      "a": "It can, where the training meets the Labor Code conditions for continuous training, but the two duties have different purposes and legal bases. See the page on [Portugal's Labor Code continuous training](/regulations/portugal-labour-code-continuous-training) for how the annual entitlement works."
+      "q": "Does AML training count toward the Labor Code's annual continuous training entitlement?",
+      "a": "It can, where the training meets the Labor Code conditions for continuous training, but the two duties have different purposes and legal bases: Law 83/2017 sets what AML/CFT training must achieve, while the Labor Code sets a minimum amount of training per employee. See the page on [Portugal's Labor Code continuous training](/regulations/portugal-labour-code-continuous-training)."
     },
     {
       "q": "Who approves AML training content under Law 83/2017?",
@@ -244,12 +315,18 @@
     "training-matrix"
   ],
   "productLinks": [
-    { "label": "Financial services", "href": "/industries/financial-services" },
-    { "label": "Audit evidence", "href": "/platform/audit-evidence" }
+    {
+      "label": "Financial services",
+      "href": "/industries/financial-services"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
   ],
   "published": "2026-09-28",
   "updated": "2026-09-28",
-  "release": 99,
+  "release": 3,
   "factCheck": [
     {
       "claim": "Article 55 (Dever de formação) paragraphs 1 to 5: adequate knowledge, specific and regular sector-appropriate training, immediate training for new joiners, competent trainers and prior favorable opinion of the compliance officer, records kept under Article 51 and available to sectoral authorities; text unchanged in the consolidated version",
@@ -264,6 +341,10 @@
       "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"
     },
     {
+      "claim": "Article 171: maximum fines raised to twice the determinable economic benefit, and for legal persons that are credit or financial institutions or Article 4(1)(a) to (c) non-financial entities to 10% of total annual turnover",
+      "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"
+    },
+    {
       "claim": "Amendments listed for Law 83/2017 include Law 58/2020, Decree-Law 9/2021, Decree-Law 56/2021, Law 99-A/2021 and Law 70/2025 (published 2025-12-22)",
       "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"
     },
@@ -274,6 +355,10 @@
     {
       "claim": "AMLR applies from 10 July 2027 and Article 12 sets the training duty directly",
       "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "claim": "Directive (EU) 2024/1640 Article 78: transposition by 10 July 2027, with Article 74 by 10 July 2025, Articles 11, 12, 13 and 15 by 10 July 2026, and Article 18 by 10 July 2029; AMLR Articles 9(2) (training policy), 12 and 13 cover training policy, training, and employee integrity assessments",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024L1640"
     }
   ]
 }

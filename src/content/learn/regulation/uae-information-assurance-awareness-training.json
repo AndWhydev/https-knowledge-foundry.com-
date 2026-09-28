@@ -1,0 +1,423 @@
+{
+  "slug": "uae-information-assurance-awareness-training",
+  "kind": "regulation",
+  "title": "What does the UAE Information Assurance Regulation require for security awareness training?",
+  "seoTitle": "UAE IA Regulation: awareness training",
+  "description": "What the UAE Information Assurance Regulation's M3 controls require for security awareness and training, who must comply, and how to evidence it.",
+  "shortAnswer": "The UAE Information Assurance (IA) Regulation, published by the Telecommunications and Digital Government Regulatory Authority (TDRA), requires implementing entities to run an information security awareness and training program. Its M3 Awareness and Training family requires a program for everyone doing work for the entity, a documented training needs analysis, a delivery plan, effectiveness measurement, and training records. It is mandatory for government entities and designated critical entities, and recommended for all others.",
+  "keyTakeaways": [
+    "The current published text is UAE IA Regulation Version 1.1 (March 2020). The UAE government portal still presents it as the national baseline as at September 2026.",
+    "It binds UAE government entities and entities designated as critical under the Critical Information Infrastructure Protection (CIIP) Policy. Other organizations are encouraged to follow it voluntarily.",
+    "Control M3.2.1 (awareness and training program) and M3.3.1 (training needs, priority P1) are Always Applicable, so they cannot be excluded through risk assessment.",
+    "The program must determine competencies, provide training, evaluate its effectiveness, and keep records of education, training, skills, experience and qualifications.",
+    "Implementation guidance, such as mandatory annual awareness training, is informational. The controls and sub-controls are the mandatory part."
+  ],
+  "jurisdiction": "United Arab Emirates (federal)",
+  "regulator": "Telecommunications and Digital Government Regulatory Authority (TDRA)",
+  "appliesTo": [
+    "UAE federal and local government entities",
+    "Entities designated as critical under the UAE Critical Information Infrastructure Protection (CIIP) Policy, in sectors such as financial services, health, ICT, electricity and water, and government",
+    "Employees, contractors and third party users who work under an implementing entity's control",
+    "Other UAE organizations on a voluntary basis, and suppliers whose contracts flow the requirements down"
+  ],
+  "sections": [
+    {
+      "id": "what-it-is",
+      "heading": "What is the UAE Information Assurance Regulation?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The UAE Information Assurance Regulation is the national catalog of management and technical security controls that designated UAE entities must implement to reach a minimum level of information assurance. The published text is [Version 1.1, dated March 2020](https://assets.u.ae/api/public/content/0375b824125b4796b0e4928f8ab3d3df?v=e0f902e5), and the UAE government portal describes it as developed by the Telecommunications and Digital Government Regulatory Authority (TDRA) to raise \"the minimum level of protection of information assets and supporting systems across all entities in the UAE\"."
+        },
+        {
+          "type": "p",
+          "text": "The regulation sits inside a wider national framework. It describes itself as a critical element of the National Information Assurance Framework (NIAF) and of the National Cyber Security Strategy. The NIAF and the CIIP Policy were originally issued under the Supreme Council for National Security by the former National Electronic Security Authority (NESA), which is why many practitioners still call these controls \"the NESA standards\"."
+        },
+        {
+          "type": "p",
+          "text": "The controls are split into six management families (M1 Strategy and Planning to M6 Performance Evaluation and Improvement) and nine technical families (T1 Asset Management to T9 Information Systems Continuity Management). Awareness and training is family **M3**, supported by **M4 Human Resources Security**. The drafters built the controls on ISO/IEC 27001 and 27002 (2005 editions), NIST SP 800-53 Revision 4, and the Abu Dhabi Information Security Standards, so an [ISO/IEC 27001 awareness program](/regulations/iso-27001-awareness-training-requirements) covers much of the same ground."
+        },
+        {
+          "type": "callout",
+          "title": "Status as at September 2026",
+          "text": "The UAE government portal page on cyber safety, updated September 2, 2026, still links Version 1.1 of the IA Regulation alongside the NIAF and CIIP Policy. The UAE Cybersecurity Council, established by Cabinet decision in November 2020, is building the wider legal and regulatory framework. No replacement for the IA Regulation was found on official portals reachable for this review, but organizations should confirm with their sector regulator or TDRA whether a newer version or sector specific standard applies to them."
+        }
+      ]
+    },
+    {
+      "id": "who-must-comply",
+      "heading": "Who must comply with the IA Regulation?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Compliance is mandatory for UAE government entities and for entities designated as critical, and voluntary for everyone else. The [NIAF](https://assets.u.ae/api/public/content/4fdd52f9ff974ab0bf3e412183b4249c?v=8833f113) states that compliance \"will be mandatory for all UAE government entities and other entities identified as critical\", and that other UAE entities are highly recommended to follow the guidelines voluntarily."
+        },
+        {
+          "type": "p",
+          "text": "Critical entities are identified through the [CIIP Policy](https://assets.u.ae/api/public/content/b0c409a3e65f45859963ab11b28ef62d?v=18865572), which covers infrastructure supporting critical national services in sectors including chemicals, emergency services, health, nuclear, government, electricity and water, financial services (banking, insurance, stock exchanges, investments), and ICT. The IA Regulation's own scope section says the regulator \"will designate the critical entities, as per the UAE CIIP Policy, mandated to implement the UAE IA Regulation\"."
+        },
+        {
+          "type": "p",
+          "text": "In practice, private companies meet these controls in two ways: through direct designation, or because a government or critical entity customer writes them into supplier contracts. The regulation itself notes that an awareness and training program \"might not be carried out by the entity and can, for example, be ensured contractually\"."
+        }
+      ]
+    },
+    {
+      "id": "onshore-and-free-zones",
+      "heading": "How do onshore law and free zones affect this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The UAE has federal law that applies onshore across the seven emirates, emirate level rules, and financial free zones with their own civil and commercial law and regulators. The Dubai International Financial Centre (DIFC) and Abu Dhabi Global Market (ADGM) have their own data protection laws and financial regulators, such as the [Dubai Financial Services Authority (DFSA)](/regulations/dfsa-training-and-competence-requirements)."
+        },
+        {
+          "type": "p",
+          "text": "The IA Regulation's reach depends on designation rather than on where a company is licensed: it binds government entities and entities designated as critical. A free zone firm that is not designated is not directly bound, but may still meet the controls through contracts, and must meet its own regulator's technology risk and data protection rules. Emirate level frameworks also exist. The Dubai Electronic Security Center (DESC) publishes an [Information Security Regulation](https://www.desc.gov.ae/regulations/standards-policies/) that applies to all Dubai Government Entities and is organized into thirteen domains."
+        },
+        {
+          "type": "p",
+          "text": "Security awareness also supports personal data duties. Onshore organizations should read this page with the [UAE Personal Data Protection Law page](/regulations/uae-pdpl-staff-training), since both expect staff to handle information securely."
+        }
+      ]
+    },
+    {
+      "id": "m3-requirements",
+      "heading": "What do the M3 Awareness and Training controls require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Family M3 requires an awareness and training policy, a program for all persons doing work for the entity, a needs based training plan, measured results, training records, and awareness campaigns. Its stated objective is \"to ensure sufficient information security awareness and training is provided and to build a specialized workforce\". Each control carries a priority (P1 highest to P4) and an applicability label."
+        },
+        {
+          "type": "table",
+          "caption": "M3 controls in UAE IA Regulation Version 1.1",
+          "head": [
+            "Control",
+            "What the entity must do",
+            "Priority",
+            "Applicability"
+          ],
+          "rows": [
+            [
+              "M3.1.1 Awareness and Training Policy",
+              "Develop and maintain a policy that sets the framework for objectives and the roles of providers and recipients of training",
+              "P2",
+              "Based on risk assessment"
+            ],
+            [
+              "M3.2.1 Awareness and Training Program",
+              "Inform people of their contribution to information security and the implications of not conforming; determine competencies; provide training; evaluate effectiveness; keep records",
+              "P2",
+              "Always applicable"
+            ],
+            [
+              "M3.3.1 Training Needs",
+              "Identify the security skills needed, assess current skills, and identify gaps",
+              "P1",
+              "Always applicable"
+            ],
+            [
+              "M3.3.2 Implementation Plan",
+              "Identify solutions for each need, set a delivery timeline, and allocate resources",
+              "P3",
+              "Always applicable"
+            ],
+            [
+              "M3.3.3 Training Execution",
+              "Deliver training to plan and find alternatives if the plan slips",
+              "P2",
+              "Always applicable"
+            ],
+            [
+              "M3.3.4 Training Results",
+              "Measure knowledge and skills before and after training and correct training that misses its outcomes",
+              "P2",
+              "Based on risk assessment"
+            ],
+            [
+              "M3.3.5 Records Documentation",
+              "Keep an individual training record for each target and review records periodically",
+              "P2",
+              "Based on risk assessment"
+            ],
+            [
+              "M3.4.1 Awareness Campaign",
+              "Plan and run awareness campaigns scoped to the security risks of users' activities",
+              "P2",
+              "Based on risk assessment"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Sub-control 2 of M3.2.1 requires the entity to \"determine the necessary competencies for personnel performing work effecting information security\", and sub-control 5 requires it to \"maintain records of education, training, skills, experience and qualifications\". M3.3.1 is the family's only P1 control, which means a [training needs analysis](/glossary/training-needs-analysis) is the first thing an implementing entity must put in place."
+        }
+      ]
+    },
+    {
+      "id": "applicability-and-compliance",
+      "heading": "Can an entity exclude any of the training controls?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Always Applicable controls cannot be excluded, and risk based controls can only be excluded with documented justification. Chapter 4 of the regulation says omission of an Always Applicable control or any of its sub-controls \"is not acceptable and constitutes non-conformity\". Annex A lists 34 Always Applicable controls, all in the management families."
+        },
+        {
+          "type": "p",
+          "text": "For controls marked \"based on risk assessment\", such as M3.3.4 Training Results and M3.3.5 Records Documentation, the entity may exclude a control or deviate from a sub-control only if it justifies the decision and provides evidence that accountable persons have accepted the risk. Where no entity risk assessment exists, the regulation treats every control as applicable and mandatory."
+        },
+        {
+          "type": "p",
+          "text": "Priority governs sequence. Critical entities must begin with P1 controls and may promote or demote other priorities based on their risk assessment, but P1 controls \"may be augmented but never reduced\". Entities must also use performance indicators to measure the quality and effectiveness of implemented controls; for M3 the family indicator is the percentage of awareness and training objectives met."
+        }
+      ]
+    },
+    {
+      "id": "human-resources-link",
+      "heading": "How do the human resources controls relate to training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The M4 Human Resources Security family makes awareness part of the employment lifecycle. Control M4.1.1 expects the human resources security policy to cover required awareness and training during employment in line with M3.1.1. Control M4.3.1 (Always Applicable) requires the entity to inform all employees, contractors and third parties of the security policies they must follow and to \"present, on first access, relevant security policy/guidelines for users to read and accept\"."
+        },
+        {
+          "type": "p",
+          "text": "The performance indicator for M4.3 is the \"percentage of employees that participated in Security Awareness Training\". Control M4.3.2 requires a formal disciplinary process and sufficient awareness of that process within the entity. Together these make [policy attestation](/glossary/policy-attestation) on first access, onboarding awareness, and communication of consequences auditable items, not just good practice."
+        }
+      ]
+    },
+    {
+      "id": "obligation-to-evidence",
+      "heading": "How do the controls map to learning outcomes and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each training control should translate into a defined learning outcome and a piece of evidence an assessor can inspect. The table below is an original mapping for illustration, not text from the regulation."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping of IA Regulation training controls to outcomes and evidence",
+          "head": [
+            "Control",
+            "Learning outcome",
+            "Assessment",
+            "Evidence retained"
+          ],
+          "rows": [
+            [
+              "M3.2.1 (1)",
+              "Staff can explain how their role affects information security and the consequences of non-conformity",
+              "Scenario questions at onboarding",
+              "Onboarding completion and score per person"
+            ],
+            [
+              "M3.3.1",
+              "Required security skills are defined per role and gaps are known",
+              "Skills self-assessment plus manager validation",
+              "Role based skills matrix and gap register"
+            ],
+            [
+              "M3.3.3",
+              "Specializt staff can apply secure configuration and patching procedures for systems they run",
+              "Practical task or observed walkthrough",
+              "Training plan versus delivery log, with reasons for any slippage"
+            ],
+            [
+              "M3.3.4",
+              "Knowledge measurably improves after training",
+              "Pre and post assessment",
+              "Before and after results and corrective actions"
+            ],
+            [
+              "M4.3.1",
+              "Users have read and accepted relevant security policies before access",
+              "Attestation on first access",
+              "Timestamped acceptance record linked to policy version"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A [training matrix](/glossary/training-matrix) that links roles, required competencies and completions is the simplest way to meet M3.3.1 and M3.3.5 together. Because M3.2.1 requires evaluating effectiveness, completion counts alone are weak evidence; see [completion tracking vs competency verification](/compare/completion-tracking-vs-competency-verification) and [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
+        }
+      ]
+    },
+    {
+      "id": "guidance-not-mandatory",
+      "heading": "What does the implementation guidance suggest, and is it mandatory?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The implementation guidance is explicitly \"for information purpose only\", so it shapes good practice but does not create obligations. It lists methods such as mandatory annual awareness training, targeted role based training, internal awareness websites, seminars, awareness weeks, posters, and emails to all employees and contractors."
+        },
+        {
+          "type": "p",
+          "text": "The guidance is still useful evidence of what an assessor will expect. It says trainings should take place as planned and not be \"pushed off\", and that if training continues not to take place in the planned timeframe \"it is a non-conformity\". It recommends assessing effectiveness, for example through an exam at the end of training or through interviews and feedback forms where an exam is not possible. It also advises updating training when technology, systems, services or threats change."
+        },
+        {
+          "type": "p",
+          "text": "Critical entities are also told to take account of TRA's national awareness and capability building issuances. For government employees, TDRA offers an [information security awareness session service](https://tdra.gov.ae/en/Services/information-security-awareness-session) covering twelve information security topics, which can complement but not replace an entity's own program."
+        }
+      ]
+    },
+    {
+      "id": "checklist",
+      "heading": "What should a compliant awareness and training program include?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A program that meets the M3 and M4 controls has a small set of documented, reviewable components. Use this checklist to test an existing program."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "An approved awareness and training policy that assigns roles to providers and recipients (M3.1.1).",
+            "A role based list of security competencies and a current skills gap assessment (M3.3.1).",
+            "A training plan with solutions, timeline and allocated resources for each need (M3.3.2).",
+            "A delivery log compared against the plan, with alternatives recorded when sessions slip (M3.3.3).",
+            "Pre and post measures of knowledge or skill, and corrective action for training that underperforms (M3.3.4).",
+            "An individual training record for every person in scope, reviewed on a set cycle (M3.3.5).",
+            "Awareness campaigns scoped to user risks, with a timeline (M3.4.1).",
+            "Policy acceptance on first access and communication of the disciplinary process (M4.3.1, M4.3.2).",
+            "Performance indicators reported to management, and contract clauses for outsourced or supplier staff."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models each IA Regulation control as a structured obligation linked to competencies, learning outcomes and assessment points before any content is written. That gives an entity a traceable path from M3.3.1 skills gaps to delivered training, measured results and individual records. It is used by [government and defense organizations](/industries/government-defence) and critical infrastructure operators that need reviewable evidence."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the IA Regulation say how often awareness training must be repeated?",
+      "a": "No mandatory frequency is set in the controls. The implementation guidance lists mandatory annual awareness training as one possible method, but that guidance is informational. Entities set frequency in their own policy and plan, and must then deliver to that plan, since training that repeatedly misses its planned timeframe is described as a non-conformity."
+    },
+    {
+      "q": "Do contractors and suppliers need to be trained?",
+      "a": "Yes, where they do work under the entity's control. The guidance for M3.2.1 says the program covers all persons doing work under the control of the entity, including outsiders with access to information, and that delivery can be ensured contractually. M4.3.1 also covers employees, contractors and third party users."
+    },
+    {
+      "q": "Does ISO/IEC 27001 certification satisfy the IA Regulation?",
+      "a": "Not automatically. The regulation was built on ISO/IEC 27001 and 27002 and Annex C maps its controls to those standards, so an ISO program overlaps heavily. The IA Regulation adds its own priorities, Always Applicable controls, performance indicators and record requirements that an assessor will check separately."
+    },
+    {
+      "q": "Are penalties set out in the IA Regulation?",
+      "a": "The regulation does not set fines. It defines compliance, non-conformity and a compliance monitoring scheme run by the regulator. Consequences for non-compliance depend on the entity's designation, its sector regulator, and any contracts that require compliance."
+    },
+    {
+      "q": "Is the IA Regulation the same as Dubai's Information Security Regulation?",
+      "a": "No. The IA Regulation is a federal framework for government and critical entities. The Dubai Electronic Security Center's Information Security Regulation applies to Dubai Government Entities and is organized into thirteen domains. A Dubai government entity may need to satisfy both, and should map overlapping awareness requirements once."
+    }
+  ],
+  "sources": [
+    {
+      "title": "UAE Information Assurance Regulation, Version 1.1 (March 2020)",
+      "publisher": "Telecommunications and Digital Government Regulatory Authority, via the UAE Government portal",
+      "url": "https://assets.u.ae/api/public/content/0375b824125b4796b0e4928f8ab3d3df?v=e0f902e5"
+    },
+    {
+      "title": "Cyber safety and digital security",
+      "publisher": "The Official Portal of the UAE Government (u.ae)",
+      "url": "https://u.ae/en/information-and-services/justice-safety-and-the-law/Safety/cyber-safety-and-digital-security"
+    },
+    {
+      "title": "The National Information Assurance Framework",
+      "publisher": "Supreme Council for National Security, via the UAE Government portal",
+      "url": "https://assets.u.ae/api/public/content/4fdd52f9ff974ab0bf3e412183b4249c?v=8833f113"
+    },
+    {
+      "title": "Critical Information Infrastructure Protection (CIIP) Policy",
+      "publisher": "Supreme Council for National Security, via the UAE Government portal",
+      "url": "https://assets.u.ae/api/public/content/b0c409a3e65f45859963ab11b28ef62d?v=18865572"
+    },
+    {
+      "title": "Standards and Policies: Information Security Regulation (ISR)",
+      "publisher": "Dubai Electronic Security Center",
+      "url": "https://www.desc.gov.ae/regulations/standards-policies/"
+    },
+    {
+      "title": "Information Security Awareness Session",
+      "publisher": "Telecommunications and Digital Government Regulatory Authority",
+      "url": "https://tdra.gov.ae/en/Services/information-security-awareness-session"
+    }
+  ],
+  "related": [
+    "iso-27001-awareness-training-requirements",
+    "uae-pdpl-staff-training",
+    "ism-cyber-security-awareness-training",
+    "how-to-conduct-a-training-needs-analysis",
+    "completion-tracking-vs-competency-verification",
+    "how-to-prepare-training-records-for-an-audit"
+  ],
+  "productLinks": [
+    {
+      "label": "Government and defense",
+      "href": "/industries/government-defence"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    },
+    {
+      "label": "Gap analysis",
+      "href": "/platform/gap-analysis"
+    }
+  ],
+  "published": "2026-09-28",
+  "updated": "2026-09-28",
+  "release": 2,
+  "factCheck": [
+    {
+      "claim": "The published UAE IA Regulation is Version 1.1 dated March 2020, with management families M1 to M6 and technical families T1 to T9",
+      "source": "https://assets.u.ae/api/public/content/0375b824125b4796b0e4928f8ab3d3df?v=e0f902e5"
+    },
+    {
+      "claim": "M3.3.1 Training Needs is priority P1 and Always Applicable; M3.2.1 program is P2 Always Applicable; M3.3.2 P3 Always Applicable; M3.3.3 P2 Always Applicable; M3.1.1, M3.3.4, M3.3.5 and M3.4.1 are P2 based on risk assessment",
+      "source": "https://assets.u.ae/api/public/content/0375b824125b4796b0e4928f8ab3d3df?v=e0f902e5"
+    },
+    {
+      "claim": "M3.2.1 sub-controls require determining competencies, providing training, evaluating effectiveness, and maintaining records of education, training, skills, experience and qualifications",
+      "source": "https://assets.u.ae/api/public/content/0375b824125b4796b0e4928f8ab3d3df?v=e0f902e5"
+    },
+    {
+      "claim": "Chapter 4: omission of Always Applicable controls or their sub-controls constitutes non-conformity; exclusions of risk based controls need justification and evidence of risk acceptance; P1 controls may be augmented but never reduced (section 3.4)",
+      "source": "https://assets.u.ae/api/public/content/0375b824125b4796b0e4928f8ab3d3df?v=e0f902e5"
+    },
+    {
+      "claim": "Annex A: a total of 34 management controls constitute the Always Applicable list",
+      "source": "https://assets.u.ae/api/public/content/0375b824125b4796b0e4928f8ab3d3df?v=e0f902e5"
+    },
+    {
+      "claim": "M4.3.1 requires presenting relevant security policy/guidelines on first access for users to read and accept; M4.3 indicator is percentage of employees that participated in Security Awareness Training",
+      "source": "https://assets.u.ae/api/public/content/0375b824125b4796b0e4928f8ab3d3df?v=e0f902e5"
+    },
+    {
+      "claim": "NIAF section 1.5: compliance mandatory for all UAE government entities and entities identified as critical; voluntary for other UAE entities",
+      "source": "https://assets.u.ae/api/public/content/4fdd52f9ff974ab0bf3e412183b4249c?v=8833f113"
+    },
+    {
+      "claim": "CIIP Policy scope covers sectors including chemicals, emergency services, health, nuclear, government, electricity and water, financial, and ICT",
+      "source": "https://assets.u.ae/api/public/content/b0c409a3e65f45859963ab11b28ef62d?v=18865572"
+    },
+    {
+      "claim": "u.ae page (updated 2 September 2026) states TDRA developed the UAE IA Regulation and that the Cabinet agreed to establish the UAE Cybersecurity Council in November 2020",
+      "source": "https://u.ae/en/information-and-services/justice-safety-and-the-law/Safety/cyber-safety-and-digital-security"
+    },
+    {
+      "claim": "DESC Information Security Regulation applies to all Dubai Government Entities and is broken down into thirteen domains",
+      "source": "https://www.desc.gov.ae/regulations/standards-policies/"
+    },
+    {
+      "claim": "TDRA's awareness session service is only for government entity employees and covers 12 information security topics",
+      "source": "https://tdra.gov.ae/en/Services/information-security-awareness-session"
+    }
+  ]
+}

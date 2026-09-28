@@ -80,14 +80,49 @@
         {
           "type": "table",
           "caption": "RGPC compliance program elements and how training connects to each",
-          "head": ["RGPC element", "Article", "Core requirement", "Link to training"],
+          "head": [
+            "RGPC element",
+            "Article",
+            "Core requirement",
+            "Link to training"
+          ],
           "rows": [
-            ["Risk prevention plan (PPR)", "6", "Identify, analyze, and grade corruption risks across the whole organization, with preventive and corrective measures; interim report in October for high risks, annual report in April; review every three years", "Training content and frequency must reflect the risks the PPR identifies (Article 9(2))"],
-            ["Code of conduct", "7", "Principles, values, and rules of conduct for all managers and workers, including disciplinary and criminal sanctions; review every three years", "Staff must know and understand the code; MENAC treats it as core training content"],
-            ["Whistleblowing channel", "8", "Internal reporting channels and follow up under Law 93/2021", "Staff need to know how to report and what protection applies"],
-            ["Training program", "9", "Internal training for all managers and workers, risk based, plus communication to business partners", "The obligation itself"],
-            ["Compliance officer", "5(2) and 5(3)", "A senior manager or equivalent who guarantees and controls the program, acting independently and with decision making autonomy", "Usually owns training needs analysis and monitors delivery"],
-            ["Evaluation system", "10", "Mechanisms to assess the effectiveness of the compliance program and improve it", "Training effectiveness forms part of program effectiveness"]
+            [
+              "Risk prevention plan (PPR)",
+              "6",
+              "Identify, analyze, and grade corruption risks across the whole organization, with preventive and corrective measures; interim report in October for high risks, annual report in April; review every three years",
+              "Training content and frequency must reflect the risks the PPR identifies (Article 9(2))"
+            ],
+            [
+              "Code of conduct",
+              "7",
+              "Principles, values, and rules of conduct for all managers and workers, including disciplinary and criminal sanctions; review every three years",
+              "Staff must know and understand the code; MENAC treats it as core training content"
+            ],
+            [
+              "Whistleblowing channel",
+              "8",
+              "Internal reporting channels and follow up under Law 93/2021",
+              "Staff need to know how to report and what protection applies"
+            ],
+            [
+              "Training program",
+              "9",
+              "Internal training for all managers and workers, risk based, plus communication to business partners",
+              "The obligation itself"
+            ],
+            [
+              "Compliance officer",
+              "5(2) and 5(3)",
+              "A senior manager or equivalent who guarantees and controls the program, acting independently and with decision making autonomy",
+              "Usually owns training needs analysis and monitors delivery"
+            ],
+            [
+              "Evaluation system",
+              "10",
+              "Mechanisms to assess the effectiveness of the compliance program and improve it",
+              "Training effectiveness forms part of program effectiveness"
+            ]
           ]
         },
         {
@@ -112,7 +147,7 @@
             "**Use program data.** Evaluations of the risk plan and code of conduct, and irregularities reported through the whistleblowing channel, are named as key inputs to the needs survey.",
             "**Three components.** A behavioral component (about 25% of session time), a normative component on the law and the entity's own instruments (about 25%), and group work on ethical dilemmas (preferably about 50%), in small groups of 3 to 5 followed by plenary discussion.",
             "**Induction and annual cycles.** Training should be part of induction for new workers and part of annual continuing training for existing workers and managers. MENAC suggests 6 to 12 hours for induction and, as a rule, no more than 6 to 7 hours per continuing session.",
-            "**Internal delivery preferred.** Sessions should preferably be run internally, for example by department heads, with external specialists useful for the behavioral and dilemma components."
+            "**Internal delivery preferred.** Sessions should preferably be run internally, for example by department heads, with external specializts useful for the behavioral and dilemma components."
           ]
         },
         {
@@ -131,7 +166,7 @@
         },
         {
           "type": "p",
-          "text": "As at September 2026, the regime's only amendment is [Decree-Law 70/2025 of April 29](https://diariodarepublica.pt/dr/detalhe/decreto-lei/70-2025-916268331), which restructured MENAC (a board of directors in place of a single president, new units, and staffing changes) and republished Decree-Law 109-E/2021 in full. In the republished text, the scope in Article 2, the training duty in Article 9, and the fine ranges in Article 20 of the RGPC are unchanged."
+          "text": "As at September 2026, Decree-Law 109-E/2021 has been amended twice. [Decree-Law 70/2025 of April 29](https://diariodarepublica.pt/dr/detalhe/decreto-lei/70-2025-916268331), in force from May 29, 2025, restructured MENAC (a board of directors in place of a single president, new units, and staffing changes) and republished Decree-Law 109-E/2021 in full. [Law 37/2026 of July 28](https://diariodarepublica.pt/dr/detalhe/lei/37-2026-1152696582), in force from September 1, 2026, added asset recovery functions to MENAC's statute. Both amended only the decree-law's own articles on MENAC, not the RGPC in its annex: in the republished text, the scope in Article 2, the training duty in Article 9, and the fine ranges in Article 20 of the RGPC are unchanged."
         },
         {
           "type": "p",
@@ -149,7 +184,7 @@
         },
         {
           "type": "p",
-          "text": "Article 20 does not list a missing training program as a separate administrative offense. That does not make training optional. Article 5 makes it a mandatory element of the compliance program, Article 11 places responsibility on the management body, and weak training undermines the risk plan and code of conduct, whose failures are sanctioned. Under Article 21, managers, the compliance officer, and heads of the relevant areas can also be personally liable for offenses they commit or knowingly fail to stop."
+          "text": "Article 20 does not list a missing training program as a separate administrative offense. That does not make training optional. Article 5 makes it a mandatory element of the compliance program, Article 11 places responsibility on the management body, and weak training undermines the risk plan and code of conduct, whose failures are sanctioned. Under Article 21, managers, the compliance officer, and heads of the relevant areas can also be personally liable for offenses they commit, or that they know or should know about and do not act to stop immediately."
         }
       ]
     },
@@ -164,13 +199,37 @@
         {
           "type": "table",
           "caption": "Illustrative mapping: RGPC obligation to learning outcome to evidence",
-          "head": ["Obligation", "Learning outcome", "Evidence"],
+          "head": [
+            "Obligation",
+            "Learning outcome",
+            "Evidence"
+          ],
           "rows": [
-            ["Article 9(1): all managers and workers know and understand the policies and procedures", "Explains the code of conduct, the risk plan's main measures for their area, and how to use the whistleblowing channel", "Training plan covering the whole workforce; completion and assessment results by person"],
-            ["Article 9(2): content and frequency reflect risk exposure", "Staff in high risk functions, such as procurement or finance, apply the specific preventive measures for their processes", "Role and risk matrix linking PPR risks to modules; higher frequency or depth for high risk roles"],
-            ["Article 9(3): hours count as continuous training", "Not applicable: this is a record keeping rule", "Hours recorded in each worker's continuous training record"],
-            ["Article 9(4): communication to business partners", "Not applicable to staff; partners understand the entity's expectations", "Supplier communications, contract clauses, or partner briefings"],
-            ["Article 10: evaluation of effectiveness", "Staff can resolve realistic integrity dilemmas correctly", "Scenario based assessment results; needs survey updated from PPR reports and whistleblowing data"]
+            [
+              "Article 9(1): all managers and workers know and understand the policies and procedures",
+              "Explains the code of conduct, the risk plan's main measures for their area, and how to use the whistleblowing channel",
+              "Training plan covering the whole workforce; completion and assessment results by person"
+            ],
+            [
+              "Article 9(2): content and frequency reflect risk exposure",
+              "Staff in high risk functions, such as procurement or finance, apply the specific preventive measures for their processes",
+              "Role and risk matrix linking PPR risks to modules; higher frequency or depth for high risk roles"
+            ],
+            [
+              "Article 9(3): hours count as continuous training",
+              "Not applicable: this is a record keeping rule",
+              "Hours recorded in each worker's continuous training record"
+            ],
+            [
+              "Article 9(4): communication to business partners",
+              "Not applicable to staff; partners understand the entity's expectations",
+              "Supplier communications, contract clauses, or partner briefings"
+            ],
+            [
+              "Article 10: evaluation of effectiveness",
+              "Staff can resolve realiztic integrity dilemmas correctly",
+              "Scenario based assessment results; needs survey updated from PPR reports and whistleblowing data"
+            ]
           ]
         },
         {
@@ -224,6 +283,11 @@
       "url": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/70-2025-916268331"
     },
     {
+      "title": "Lei n.º 37/2026, de 28 de julho: transpõe a Diretiva (UE) 2024/1260 e altera o Decreto-Lei n.º 109-E/2021",
+      "publisher": "Diário da República",
+      "url": "https://diariodarepublica.pt/dr/detalhe/lei/37-2026-1152696582"
+    },
+    {
       "title": "Guia n.º 1/2023: Os instrumentos do Regime Geral de Prevenção da Corrupção",
       "publisher": "Mecanismo Nacional Anticorrupção (MENAC)",
       "url": "https://menac.pt/wp-content/uploads/2023/12/guia-n1-2023.pdf"
@@ -259,7 +323,7 @@
     "portugal-labour-code-continuous-training",
     "portugal-aml-law-training-requirements",
     "failure-to-prevent-foreign-bribery-training",
-    "how-to-map-training-to-compliance-obligations",
+    "doj-compliance-program-training-expectations",
     "how-to-design-a-compliance-training-program"
   ],
   "productLinks": [
@@ -274,7 +338,7 @@
   ],
   "published": "2026-09-28",
   "updated": "2026-09-28",
-  "release": 99,
+  "release": 3,
   "factCheck": [
     {
       "claim": "RGPC Article 2(1): applies to legal persons seated in Portugal and Portuguese branches of foreign legal persons employing 50 or more workers; Article 2(2) covers public bodies of that size, independent regulators, and Banco de Portugal",
@@ -297,8 +361,16 @@
       "source": "https://menac.pt/wp-content/uploads/2025/07/QUADRO-SANCOES-MENAC.pdf"
     },
     {
-      "claim": "Decree-Law 70/2025 of April 29 is the first amendment to Decree-Law 109-E/2021, restructures MENAC, and republishes the decree-law; republished RGPC Articles 2, 9, and 20 unchanged",
+      "claim": "RGPC Article 21(4): managers, the compliance officer, and heads of relevant areas liable where they commit the facts or, knowing or having a duty to know of them, do not take measures to stop them immediately",
+      "source": "https://menac.pt/wp-content/uploads/2023/06/Dec_Lei-109-E_2021.pdf"
+    },
+    {
+      "claim": "Decree-Law 70/2025 of April 29 is the first amendment to Decree-Law 109-E/2021 (in force May 29, 2025, Article 7), restructures MENAC, amends only decree-law Articles 2, 4, 7, 8, 12, 13, and 21 (MENAC statute), and republishes the decree-law; republished RGPC Articles 2, 9, and 20 unchanged",
       "source": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/70-2025-916268331"
+    },
+    {
+      "claim": "Law 37/2026 of July 28 is the second amendment to Decree-Law 109-E/2021, amending decree-law Articles 2 and 7 (MENAC functions on asset recovery) from September 1, 2026; the RGPC annex is not amended",
+      "source": "https://diariodarepublica.pt/dr/detalhe/lei/37-2026-1152696582"
     },
     {
       "claim": "MENAC Guide 1/2023: annual training needs survey; behavioral about 25%, normative about 25%, group work about 50%; induction 6 to 12 hours; continuing sessions generally no more than 6 to 7 hours; preferably delivered internally",
