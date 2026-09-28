@@ -6,7 +6,7 @@
   "description": "How to structure onboarding for regulated roles: phase it by what the person may do, gate independent work on assessed competence, and record each step.",
   "shortAnswer": "Structure onboarding for regulated roles around what the person is allowed to do and when. Complete induction obligations that apply at engagement before or on the first day, then teach and assess role specific competence before the person works without supervision, and record each step as an authorisation with evidence. Keep new starters under defined supervision until sign off, and apply the same structure to contractors, transfers, and promotions into regulated roles.",
   "keyTakeaways": [
-    "Several Australian frameworks attach training to the start of engagement, such as security awareness at engagement under the PSPF and privacy training in induction under the Australian Government Agencies Privacy Code.",
+    "Some frameworks attach training to the start of engagement, such as security awareness at engagement under Australia's Protective Security Policy Framework (PSPF) and bloodborne pathogens training at initial assignment under the US OSHA standard.",
     "Regulated onboarding is a sequence of authorisations: what a person may access, do under supervision, and do alone. Each needs evidence.",
     "Gate independent work on assessed competence, not on completion of modules or elapsed time.",
     "Define supervision for the period before sign off. Untrained people doing regulated work unsupervised is the core risk onboarding exists to control.",
@@ -23,7 +23,7 @@
         },
         {
           "type": "p",
-          "text": "For example, an Australian financial services licensee must ensure its representatives are adequately trained and competent to provide the financial services covered by the licence, an obligation in s912A(1)(f) of the Corporations Act that ASIC distinguishes from organisational competence in [Regulatory Guide 105](https://download.asic.gov.au/media/cndf2udp/rg105-published-23-june-2022-20250616.pdf). In medicines manufacturing, the PIC/S Guide to GMP says newly recruited personnel should receive training appropriate to the duties assigned to them, and that untrained personnel should preferably not be taken into production and quality control areas, and if unavoidable should be closely supervised ([TGA, PE009-16 Part I, clauses 2.11 and 2.13](https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf))."
+          "text": "For example, in medicines manufacturing, the PIC/S Guide to GMP says newly recruited personnel should receive training appropriate to the duties assigned to them, and that untrained personnel should preferably not be taken into production and quality control areas, and if unavoidable should be closely supervised ([PE009-16 Part I, clauses 2.11 and 2.13](https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf)). The same principle, trained before unsupervised work, runs through most regulated sectors."
         }
       ]
     },
@@ -45,14 +45,14 @@
           ],
           "rows": [
             [
-              "Protective Security Policy Framework Release 2026, Requirement 0024",
+              "Protective Security Policy Framework Release 2026 (Australia), Requirement 0024",
               "Commonwealth entities that apply the PSPF",
               "Security awareness training is provided to personnel, including contractors, at engagement and annually thereafter"
             ],
             [
-              "Privacy (Australian Government Agencies: Governance) APP Code 2017, section 16",
-              "Australian Government agencies",
-              "Appropriate privacy education or training must be included in any staff induction program"
+              "OSHA Bloodborne Pathogens standard (United States), 29 CFR 1910.1030(g)(2)(ii)(A)",
+              "Employers of employees with occupational exposure to blood or other potentially infectious materials",
+              "Training is provided at the time of initial assignment to tasks where occupational exposure may take place"
             ],
             [
               "AUSTRAC guidance on AML/CTF training",
@@ -61,19 +61,14 @@
             ],
             [
               "PIC/S Guide to GMP, Part I, clause 2.11",
-              "Medicines manufacturers licensed by the TGA",
+              "Medicines manufacturers where the regulator applies the PIC/S Guide",
               "Newly recruited personnel should receive training appropriate to the duties assigned to them"
-            ],
-            [
-              "Model WHS Regulations, regulation 39",
-              "Persons conducting a business or undertaking in jurisdictions that adopt the model laws",
-              "Training must be suitable and adequate for the work, the risks, and the control measures; no timing is set, but work cannot safely start without it"
             ]
           ]
         },
         {
           "type": "p",
-          "text": "Sources: [PSPF Release 2026](https://www.protectivesecurity.gov.au/system/files/2026-07/pspf-release-2026_6.pdf), [APP Code](https://www.oaic.gov.au/__data/assets/pdf_file/0019/2872/privacy-australian-government-agencies-governance-app-code-2017.pdf), [AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training), [model WHS Regulations](https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf). For sector detail see [AML/CTF training requirements](/regulations/austrac-aml-ctf-training-requirements) and [PSPF security awareness training](/regulations/pspf-security-awareness-training)."
+          "text": "Sources: [PSPF Release 2026](https://www.protectivesecurity.gov.au/system/files/2026-07/pspf-release-2026_6.pdf), [29 CFR 1910.1030 on eCFR](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030), [AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training). For sector detail see [AML/CTF training requirements](/regulations/austrac-aml-ctf-training-requirements) and [PSPF security awareness training](/regulations/pspf-security-awareness-training)."
         }
       ]
     },
@@ -218,11 +213,6 @@
   ],
   "sources": [
     {
-      "title": "Regulatory Guide 105 AFS licensing: Organisational competence",
-      "publisher": "Australian Securities and Investments Commission",
-      "url": "https://download.asic.gov.au/media/cndf2udp/rg105-published-23-june-2022-20250616.pdf"
-    },
-    {
       "title": "PIC/S Guide to GMP PE009-16, Part I: Basic requirements for medicinal products",
       "publisher": "Therapeutic Goods Administration",
       "url": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
@@ -233,19 +223,14 @@
       "url": "https://www.protectivesecurity.gov.au/system/files/2026-07/pspf-release-2026_6.pdf"
     },
     {
-      "title": "Privacy (Australian Government Agencies: Governance) APP Code 2017",
-      "publisher": "Office of the Australian Information Commissioner",
-      "url": "https://www.oaic.gov.au/__data/assets/pdf_file/0019/2872/privacy-australian-government-agencies-governance-app-code-2017.pdf"
-    },
-    {
       "title": "AML/CTF training",
       "publisher": "AUSTRAC",
       "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
     },
     {
-      "title": "Model Work Health and Safety Regulations (5 December 2025)",
-      "publisher": "Safe Work Australia",
-      "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
+      "title": "29 CFR 1910.1030 Bloodborne pathogens",
+      "publisher": "US Occupational Safety and Health Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030"
     }
   ],
   "related": [
@@ -271,10 +256,6 @@
   "release": 1,
   "factCheck": [
     {
-      "claim": "RG 105.3 and 105.4 note: s912A(1)(f) requires AFS licensees to ensure representatives are trained and competent to provide the financial services; s912A(1)(e) is the separate organisational competence obligation.",
-      "source": "https://download.asic.gov.au/media/cndf2udp/rg105-published-23-june-2022-20250616.pdf"
-    },
-    {
       "claim": "PIC/S GMP Part I clauses 2.10 and 2.11: training for personnel whose duties take them into production, storage or control laboratories; newly recruited personnel trained for their duties; continuing training with practical effectiveness periodically assessed; training records kept.",
       "source": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
     },
@@ -287,16 +268,12 @@
       "source": "https://www.protectivesecurity.gov.au/system/files/2026-07/pspf-release-2026_6.pdf"
     },
     {
-      "claim": "Australian Government Agencies Privacy Code s16: privacy education or training in any staff induction program, and reasonable steps to provide it annually to staff with access to personal information.",
-      "source": "https://www.oaic.gov.au/__data/assets/pdf_file/0019/2872/privacy-australian-government-agencies-governance-app-code-2017.pdf"
-    },
-    {
       "claim": "AUSTRAC gives example ongoing training frequencies (compliance officers and senior management every 6 to 12 months; customer facing and enhanced CDD roles every 12 months; vendors at onboarding and contract renewal; other personnel at onboarding) and says they are examples only and frequency must be appropriate to the business.",
       "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
     },
     {
-      "claim": "Model WHS Regulations r39(2): information, training and instruction must be suitable and adequate having regard to the nature of the work, the risks at the time it is provided, and the control measures implemented; r39(3): provided in a way that is readily understandable.",
-      "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
+      "claim": "29 CFR 1910.1030(g)(2)(ii)(A): training shall be provided at the time of initial assignment to tasks where occupational exposure may take place; (B) at least annually thereafter.",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030"
     }
   ]
 }

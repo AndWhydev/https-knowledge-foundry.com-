@@ -35,7 +35,7 @@ export const kinds: Record<
     singular: "Regulation",
     eyebrow: "Regulation and standard",
     intro:
-      "What Australian regulations and international standards require of training, competence, and evidence, with links to the primary sources.",
+      "What regulations and international standards require of training, competence, and evidence, grouped by jurisdiction, with links to the primary sources.",
   },
   comparison: {
     path: "/compare",
@@ -137,6 +137,23 @@ export function findLearnPage(slug: string): LearnPage | undefined {
   return allLearnPages().find((p) => p.slug === slug);
 }
 
+/** Jurisdictions the regulation index groups by, in display order. */
+export const regions = [
+  "International standards",
+  "European Union",
+  "Portugal",
+  "United States",
+  "Japan",
+  "United Arab Emirates",
+  "Australia",
+] as const;
+
+export function regionOf(page: Pick<LearnPage, "jurisdiction">): string {
+  const j = page.jurisdiction ?? "";
+  if (/^International/i.test(j)) return "International standards";
+  return regions.find((r) => j.startsWith(r)) ?? "Other";
+}
+
 export function learnHref(page: Pick<LearnPage, "kind" | "slug">): string {
   return `${kinds[page.kind].path}/${page.slug}`;
 }
@@ -164,9 +181,9 @@ export function readingMinutes(page: LearnPage): number {
   return Math.max(2, Math.round(wordCount(page) / 220));
 }
 
-/** "28 September 2026" */
+/** "September 28, 2026" */
 export function formatDate(iso: string): string {
-  return new Date(`${iso}T00:00:00Z`).toLocaleDateString("en-AU", {
+  return new Date(`${iso}T00:00:00Z`).toLocaleDateString("en-US", {
     day: "numeric",
     month: "long",
     year: "numeric",

@@ -7,7 +7,7 @@
   "shortAnswer": "Mandatory training is training that a person must complete as a condition of their role, either because a law, licence or regulator requires the outcome or because the organisation has decided it is essential. It is defined by who must complete it and by when, rather than by topic, and it should be justified by a documented requirement or risk so that the list stays short and defensible.",
   "keyTakeaways": [
     "Mandatory training has two sources: external requirements (law, licence, regulator, standard, contract) and internal decisions (policy or risk).",
-    "Most Australian laws require a training outcome, such as workers being trained to work safely, rather than a named course.",
+    "Most laws require a training outcome, such as workers being trained to work safely, rather than a named course.",
     "Some roles need formal training and assessment before they start, for example operating high risk equipment.",
     "Every mandatory item should record its source requirement, the roles in scope, the refresh trigger and the evidence required.",
     "Mandatory training is a superset of most compliance training, but the two terms are not identical."
@@ -38,11 +38,15 @@
     },
     {
       "id": "where-requirements-come-from",
-      "heading": "Where do mandatory training requirements come from in Australia?",
+      "heading": "Where do mandatory training requirements come from?",
       "blocks": [
         {
           "type": "p",
-          "text": "Most Australian requirements set an outcome that training must achieve. Safe Work Australia [explains](https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work) that under the model WHS laws a person conducting a business or undertaking must ensure workers are provided with the information, training, instruction and supervision they need to stay healthy and safe, and that some workers need formal training and assessment, such as those who operate high risk equipment like forklifts or tower cranes, or hold a role such as first aid officer."
+          "text": "Most external requirements set an outcome that training must achieve. For example, Safe Work Australia [explains](https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work) that under Australia's model work health and safety (WHS) laws a person conducting a business or undertaking must ensure workers are provided with the information, training, instruction and supervision they need to stay healthy and safe, and that some workers need formal training and assessment, such as those who operate high risk equipment like forklifts or tower cranes, or hold a role such as first aid officer."
+        },
+        {
+          "type": "p",
+          "text": "Some rules are more prescriptive about the training itself. In the United States, the Occupational Safety and Health Administration (OSHA) standard for powered industrial trucks, [29 CFR 1910.178(l)](https://www.ecfr.gov/current/title-29/section-1910.178), requires the employer to ensure each operator \"is competent to operate a powered industrial truck safely, as demonstrated by the successful completion of the training and evaluation specified in this paragraph (l)\", before the operator is permitted to operate one."
         },
         {
           "type": "table",
@@ -60,7 +64,7 @@
             ],
             [
               "Regulator guidance",
-              "ASIC RG 270 on whistleblower policy training ([details](/regulations/whistleblower-policy-training-requirements))",
+              "Australian Securities and Investments Commission (ASIC) RG 270 on whistleblower policy training ([details](/regulations/whistleblower-policy-training-requirements))",
               "Expected practice and audiences"
             ],
             [
@@ -160,6 +164,11 @@
       "url": "https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work"
     },
     {
+      "title": "29 CFR 1910.178 Powered industrial trucks, paragraph (l) Operator training",
+      "publisher": "Occupational Safety and Health Administration, via the Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/section-1910.178"
+    },
+    {
       "title": "Regulatory guide: Primary duty of care",
       "publisher": "Comcare",
       "url": "https://www.comcare.gov.au/scheme-legislation/whs-act/regulatory-guides/primary-duty-of-care"
@@ -208,6 +217,10 @@
     {
       "claim": "RG 270.131 recommends upfront and ongoing whistleblower policy training for every employee.",
       "source": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-270-whistleblower-policies/"
+    },
+    {
+      "claim": "29 CFR 1910.178(l)(1)(i): the employer shall ensure that each powered industrial truck operator is competent to operate a powered industrial truck safely, as demonstrated by the successful completion of the training and evaluation specified in paragraph (l); (l)(1)(ii) training must be completed before operating, except for training purposes.",
+      "source": "https://www.ecfr.gov/current/title-29/section-1910.178"
     }
   ]
 }

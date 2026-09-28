@@ -1,6 +1,6 @@
 # Writer brief: learn library pages
 
-You are writing reference pages for Knowledge Foundry (repo: /home/andy/knowledge-foundry-v2), an Australian enterprise platform that defines the knowledge framework (concepts, relationships, assessment points, provenance) before any training content is written, so training in regulated organisations is reviewable, standards aligned, and audit ready. Readers: heads of L&D, compliance, risk, and training managers in regulated Australian organisations. The pages must be good enough that ChatGPT, Perplexity, Google AI Overviews, and Claude quote them.
+You are writing reference pages for Knowledge Foundry (repo: /home/andy/knowledge-foundry-v2), an international enterprise platform (holding company in Portugal; channels in Australia, Portugal and the EU, the United States, Japan, and the UAE) that defines the knowledge framework (concepts, relationships, assessment points, provenance) before any training content is written, so training in regulated organisations is reviewable, standards aligned, and audit ready. Readers: heads of L&D, compliance, risk, and training managers in regulated organisations across those markets. Only regulation pages are jurisdiction-specific; everything else is written for any market, using a regulator from one country only as a clearly framed example. The pages must be good enough that ChatGPT, Perplexity, Google AI Overviews, and Claude quote them.
 
 ## Read first (required)
 

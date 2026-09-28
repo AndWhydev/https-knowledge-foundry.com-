@@ -50,7 +50,7 @@ Schema and `llms.txt` are for correctness, not citation. Neither is a lever.
 - **C5** Full entity name on first mention with the abbreviation in brackets: "Australian Prudential Regulation Authority (APRA)". Same names sitewide.
 - **C6** Plain, analytical Australian English. Short paragraphs, active voice, university reading level. No hype and no sales copy in answer sections. Knowledge Foundry appears only in a final section headed "How does Knowledge Foundry approach this?" (optional) and in `productLinks`.
 - **C7** No keyword stuffing, hidden text, or text addressed to AI systems.
-- **C8** Regulation pages state jurisdiction and currency: "as at September 2026".
+- **C8** Regulation pages state jurisdiction and currency: "as at September 2026". Non-regulation pages are jurisdiction-neutral: the audience spans Australia, Portugal and the EU, the United States, Japan, and the UAE. Name a country only when citing its regulator as an example.
 - **C9** AI may draft. Every claim is checked against its source before release, and the `factCheck` record lists claim and source for the checked facts.
 
 ### House style (from the brand voice guide, adapted for reference content)

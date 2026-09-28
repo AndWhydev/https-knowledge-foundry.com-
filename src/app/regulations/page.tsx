@@ -4,7 +4,7 @@ import { LearnIndex } from "@/components/learn/learn-index";
 export const metadata: Metadata = {
   alternates: { canonical: "/regulations" },
   title: "Regulations",
-  description: "What Australian regulations and international standards require of training, competence, and evidence, with links to the primary sources.",
+  description: "What regulations and international standards require of training, competence, and evidence, grouped by jurisdiction, with links to the primary sources.",
 };
 
 export default function Page() {

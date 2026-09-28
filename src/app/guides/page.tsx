@@ -4,7 +4,7 @@ import { LearnIndex } from "@/components/learn/learn-index";
 export const metadata: Metadata = {
   alternates: { canonical: "/guides" },
   title: "Guides",
-  description: "Step by step methods for building, evidencing, and maintaining training in regulated Australian organisations, with checklists and sources.",
+  description: "Step by step methods for building, evidencing, and maintaining training in regulated organisations, with checklists and sources.",
 };
 
 export default function Page() {

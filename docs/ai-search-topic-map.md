@@ -1,7 +1,7 @@
 # AI search topic map
 
 104 reference pages across four clusters. Each line: `slug`: H1 / target question. Batches are the unit handed to one writer.
-Audience throughout: heads of L&D, compliance, risk, and training managers in regulated Australian organisations.
+Audience throughout: heads of L&D, compliance, risk, and training managers in regulated organisations across Australia, Portugal and the EU, the United States, Japan, and the UAE. The regulation pages below are the Australian set; other jurisdictions get their own sets.
 
 ## Regulations and standards (`/regulations/<slug>`), 27 pages
 

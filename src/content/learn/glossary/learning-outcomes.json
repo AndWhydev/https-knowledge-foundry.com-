@@ -3,12 +3,12 @@
   "kind": "glossary",
   "title": "What are learning outcomes?",
   "seoTitle": "Learning outcomes: definition",
-  "description": "Learning outcomes state what a learner will know and be able to do after learning. The AQF definition, TEQSA requirements, how to write them and examples.",
-  "shortAnswer": "A learning outcome is a statement of what a learner is expected to know, understand and be able to do as a result of a course, unit or learning activity. The Australian Qualifications Framework defines learning outcomes as the knowledge, skills and application of knowledge and skills a person has acquired and can demonstrate. Good outcomes are specific, observable and assessable, and they drive both teaching and assessment design.",
+  "description": "Learning outcomes state what a learner will know and be able to do after learning. Formal definitions, regulator expectations, how to write them, examples.",
+  "shortAnswer": "A learning outcome is a statement of what a learner is expected to know, understand and be able to do as a result of a course, unit or learning activity. National and regional qualification frameworks define them formally, typically in terms of knowledge, skills and how the learner applies them with autonomy and responsibility. Good outcomes are specific, observable and assessable, and they drive both teaching and assessment design.",
   "keyTakeaways": [
     "Learning outcomes describe results for the learner, not topics the teacher will cover.",
-    "The AQF expresses outcomes in three dimensions: knowledge, skills, and application of knowledge and skills.",
-    "Australian higher education providers must specify course learning outcomes and assess all of them before completion under the Higher Education Standards Framework.",
+    "Qualification frameworks express outcomes in similar dimensions: knowledge, skills, and either their application (the AQF) or responsibility and autonomy (the European Qualifications Framework).",
+    "Regulators can make outcomes enforceable: in Australia, for example, higher education providers must specify course learning outcomes and assess all of them before completion under the Higher Education Standards Framework.",
     "An outcome that cannot be assessed is a warning sign: rewrite it with an observable verb and a context."
   ],
   "term": "learning outcomes",
@@ -20,11 +20,11 @@
   "sections": [
     {
       "id": "definition",
-      "heading": "How does the AQF define learning outcomes?",
+      "heading": "How do qualification frameworks define learning outcomes?",
       "blocks": [
         {
           "type": "p",
-          "text": "The [AQF glossary](https://www.aqf.edu.au/publication/aqf-glossary) defines learning outcomes as \"the expression of the set of knowledge, skills and the application of the knowledge and skills a person has acquired and is able to demonstrate as a result of learning.\" The [AQF Second Edition](https://www.aqf.edu.au/framework/australian-qualifications-framework) uses these three dimensions to define each of its 10 levels and each qualification type."
+          "text": "Qualification frameworks provide the most widely used definitions. The Australian Qualifications Framework (AQF) [glossary](https://www.aqf.edu.au/publication/aqf-glossary) defines learning outcomes as \"the expression of the set of knowledge, skills and the application of the knowledge and skills a person has acquired and is able to demonstrate as a result of learning.\" The [AQF Second Edition](https://www.aqf.edu.au/framework/australian-qualifications-framework) uses these three dimensions to define each of its 10 levels and each qualification type."
         },
         {
           "type": "table",
@@ -50,17 +50,21 @@
         },
         {
           "type": "p",
+          "text": "The European Qualifications Framework (EQF) uses a close equivalent. Annex I of the [Council Recommendation of 22 May 2017 on the European Qualifications Framework for lifelong learning](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32017H0615%2801%29) defines learning outcomes as \"statements regarding what a learner knows, understands and is able to do on completion of a learning process, which are defined in terms of knowledge, skills and responsibility and autonomy\"."
+        },
+        {
+          "type": "p",
           "text": "How outcomes change between levels is covered in [AQF levels and learning outcomes](/regulations/aqf-levels-and-learning-outcomes)."
         }
       ]
     },
     {
-      "id": "australian-rules",
-      "heading": "What do Australian regulators require of learning outcomes?",
+      "id": "regulator-requirements",
+      "heading": "What do regulators require of learning outcomes?",
       "blocks": [
         {
           "type": "p",
-          "text": "In higher education, the Higher Education Standards Framework (Threshold Standards) 2021 requires providers to specify expected learning outcomes and to assess them. Standard 1.4.1 of the [Higher Education Standards Framework](https://www.legislation.gov.au/F2021L00488/latest/text) requires that expected learning outcomes for each course are \"specified, consistent with the level and field of education of the qualification awarded, and informed by national and international comparators.\""
+          "text": "Some regulators make learning outcomes an enforceable requirement. In Australian higher education, for example, the Higher Education Standards Framework (Threshold Standards) 2021 requires providers to specify expected learning outcomes and to assess them. Standard 1.4.1 of the [Higher Education Standards Framework](https://www.legislation.gov.au/F2021L00488/latest/text) requires that expected learning outcomes for each course are \"specified, consistent with the level and field of education of the qualification awarded, and informed by national and international comparators.\""
         },
         {
           "type": "p",
@@ -68,7 +72,7 @@
         },
         {
           "type": "p",
-          "text": "In VET, the equivalent of learning outcomes is expressed through units of competency, which state workplace performance rather than learning outcomes in the academic sense."
+          "text": "In the vocational education and training (VET) sector, the equivalent of learning outcomes is expressed through units of competency, which state workplace performance rather than learning outcomes in the academic sense."
         }
       ]
     },
@@ -155,7 +159,7 @@
     },
     {
       "q": "Are learning outcomes the same across VET and higher education?",
-      "a": "Both sectors sit within the AQF, which describes qualifications through learning outcomes. In practice, VET expresses requirements as units of competency with performance and knowledge evidence, while higher education providers write their own course and unit learning outcomes under the Higher Education Standards Framework."
+      "a": "In Australia, for example, both sectors sit within the AQF, which describes qualifications through learning outcomes. In practice, VET expresses requirements as units of competency with performance and knowledge evidence, while higher education providers write their own course and unit learning outcomes under the Higher Education Standards Framework."
     }
   ],
   "sources": [
@@ -178,6 +182,11 @@
       "title": "Guidance note: Course design (including learning outcomes and assessment)",
       "publisher": "Tertiary Education Quality and Standards Agency",
       "url": "https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-course-design-including-learning-outcomes-and-assessment"
+    },
+    {
+      "title": "Council Recommendation of 22 May 2017 on the European Qualifications Framework for lifelong learning (2017/C 189/03)",
+      "publisher": "Council of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32017H0615%2801%29"
     }
   ],
   "related": [
@@ -217,6 +226,10 @@
     {
       "claim": "TEQSA guidance note on course design covers learning outcomes (Section 1.4) and course design (Section 3.1)",
       "source": "https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-course-design-including-learning-outcomes-and-assessment"
+    },
+    {
+      "claim": "EQF Council Recommendation 2017/C 189/03, Annex I(e): learning outcomes means statements regarding what a learner knows, understands and is able to do on completion of a learning process, defined in terms of knowledge, skills and responsibility and autonomy.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32017H0615%2801%29"
     }
   ]
 }

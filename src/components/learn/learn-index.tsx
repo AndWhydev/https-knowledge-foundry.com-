@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Container } from "@/components/ui/container";
 import { CtaBand } from "@/components/solution/cta-band";
-import { kinds, learnHref, learnPagesOf, type LearnKind } from "@/lib/learn";
+import { kinds, learnHref, learnPagesOf, regionOf, regions, type LearnKind } from "@/lib/learn";
 import { site } from "@/lib/site";
 
 const label = "text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)]";
@@ -55,7 +55,11 @@ export function LearnIndex({ kind }: { kind: LearnKind }) {
             return acc;
           }, {}),
         ).sort(([a], [b]) => a.localeCompare(b))
-      : [["", pages] as const];
+      : kind === "regulation"
+        ? [...regions, "Other"]
+            .map((r) => [r, pages.filter((p) => regionOf(p) === r)] as const)
+            .filter(([, list]) => list.length > 0)
+        : [["", pages] as const];
 
   return (
     <>

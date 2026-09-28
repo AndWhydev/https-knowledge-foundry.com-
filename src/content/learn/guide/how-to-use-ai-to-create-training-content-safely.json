@@ -7,7 +7,7 @@
   "shortAnswer": "To use AI to create training content safely, treat it as a drafting assistant inside a controlled workflow. Use only approved tools, keep personal and confidential information out of public tools, define learning outcomes before prompting, ground drafts in approved and current source documents, and have a qualified person check every factual claim against its source. Record the tool, sources, reviewer, and approval for each item before release.",
   "keyTakeaways": [
     "Generative AI produces fluent text that can be wrong. Every factual claim in a draft needs checking against an approved source by someone qualified to judge it.",
-    "The Office of the Australian Information Commissioner recommends not entering personal information, particularly sensitive information, into publicly available generative AI tools.",
+    "Privacy regulators warn against feeding personal information into public AI tools. For example, the Office of the Australian Information Commissioner (OAIC) recommends not entering personal information, particularly sensitive information, into publicly available generative AI tools.",
     "AI is well suited to restructuring approved material, drafting scenarios, and writing distractors. It is poorly suited to stating thresholds, dates, penalties, or legal requirements from memory.",
     "Defining outcomes and assessment points first gives the AI a structure to fill and gives reviewers a standard to check against.",
     "A provenance record for each item (tool, sources, reviewer, approval) is what makes AI assisted content defensible later."
@@ -23,7 +23,7 @@
         },
         {
           "type": "p",
-          "text": "The Office of the Australian Information Commissioner (OAIC) notes that generative AI is \"probabilistic in nature and does not 'understand' the data it handles or generates\", and that inferred or artificially generated information about an identifiable person, including hallucinations, is personal information that must be handled under the Australian Privacy Principles ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products)). For training teams, the practical consequence is simple: a draft is a hypothesis until someone checks it."
+          "text": "Privacy regulators have drawn out the same risk. For example, the OAIC notes that generative AI is \"probabilistic in nature and does not 'understand' the data it handles or generates\", and that inferred or artificially generated information about an identifiable person, including hallucinations, is personal information that must be handled under the Australian Privacy Principles ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products)). For training teams, the practical consequence is simple: a draft is a hypothesis until someone checks it."
         },
         {
           "type": "p",
@@ -122,7 +122,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The Privacy Act 1988 applies to any personal information you put into an AI tool and to any personal information it produces. As a matter of best practice, the OAIC recommends that organisations \"do not enter personal information, and particularly sensitive information, into publicly available generative AI tools\" ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products))."
+          "text": "Privacy law applies to any personal information you put into an AI tool and to any personal information it produces, so check the privacy rules in each jurisdiction where you operate. For example, under Australia's Privacy Act 1988, the OAIC recommends as a matter of best practice that organisations \"do not enter personal information, and particularly sensitive information, into publicly available generative AI tools\" ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products)). The points below follow that guidance; most privacy regimes raise similar questions."
         },
         {
           "type": "ul",
@@ -135,7 +135,7 @@
         },
         {
           "type": "p",
-          "text": "Australian Government entities should also check the Information Security Manual, which since December 2025 includes a control that a general purpose AI usage policy is developed, implemented and maintained (ISM-2074) ([ASD](https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security)). See also [privacy training requirements](/regulations/privacy-act-staff-training-requirements)."
+          "text": "Government bodies and other organisations covered by security frameworks should also check whether those frameworks require an AI usage policy, and make sure content drafting sits within it. See also [privacy training requirements](/regulations/privacy-act-staff-training-requirements)."
         }
       ]
     },
@@ -210,7 +210,7 @@
         },
         {
           "type": "p",
-          "text": "The [Guidance for AI Adoption](https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-foundations) published by the National Artificial Intelligence Centre recommends matching human oversight to how much autonomy a system has and how high the stakes are, with mandatory human review for high stakes decisions. Training that people rely on to meet legal obligations sits at the high stakes end."
+          "text": "Australia's [Guidance for AI Adoption](https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-foundations) published by the National Artificial Intelligence Centre recommends matching human oversight to how much autonomy a system has and how high the stakes are, with mandatory human review for high stakes decisions. Training that people rely on to meet legal obligations sits at the high stakes end."
         }
       ]
     },
@@ -258,11 +258,6 @@
       "title": "Guidance for AI adoption: implementation guidance",
       "publisher": "National Artificial Intelligence Centre, Department of Industry, Science and Resources",
       "url": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance"
-    },
-    {
-      "title": "Information Security Manual: Guidelines for personnel security",
-      "publisher": "Australian Signals Directorate",
-      "url": "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security"
     }
   ],
   "related": [
@@ -301,10 +296,6 @@
     {
       "claim": "Guidance for AI adoption foundations: make it standard practice to communicate AI use, especially where AI generates content that can meaningfully impact people; match oversight to autonomy and stakes, with mandatory human review for high-stakes decisions.",
       "source": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-foundations"
-    },
-    {
-      "claim": "ISM-2074 (Dec-25): a general-purpose AI usage policy is developed, implemented and maintained.",
-      "source": "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security"
     },
     {
       "claim": "The six essential practices: decide who is accountable; understand impacts and plan accordingly; measure and manage risks; share essential information; test and monitor; maintain human control. Practice 4.1 is maintaining an AI register.",

@@ -46,6 +46,7 @@ export const metadata: Metadata = {
   description: site.description,
   openGraph: {
     type: "website",
+    locale: "en_US",
     siteName: site.name,
     title: `${site.name}. ${site.tagline}`,
     description: site.description,
@@ -73,7 +74,7 @@ const jsonLd = {
           "@type": "ContactPoint",
           email: site.contact.email,
           contactType: "Sales enquiries",
-          areaServed: "AU",
+          areaServed: ["AU", "PT", "US", "JP", "AE"],
           availableLanguage: ["English"],
         },
       ],
@@ -101,7 +102,7 @@ const jsonLd = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
-      lang="en"
+      lang="en-US"
       className={`${inter.variable} ${interTight.variable} ${jetbrains.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-[color:var(--color-canvas)] text-[color:var(--color-ink)]">

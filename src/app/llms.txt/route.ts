@@ -28,7 +28,7 @@ export function GET() {
     "",
     `> ${site.description}`,
     "",
-    "Knowledge Foundry is an Australian platform that defines the knowledge framework (concepts, relationships, assessment points, and provenance) before any training content is written, so programs in regulated organisations are reviewable, standards aligned, and audit ready.",
+    "Knowledge Foundry is an international platform, with its holding company in Portugal, serving organisations in Australia, Portugal, the United States, Japan, and the United Arab Emirates. It defines the knowledge framework (concepts, relationships, assessment points, and provenance) before any training content is written, so programs in regulated organisations are reviewable, standards aligned, and audit ready.",
     "",
     "## Product",
     ...core.map(([t, p, d]) => `- [${t}](${site.url}${p}): ${d}`),

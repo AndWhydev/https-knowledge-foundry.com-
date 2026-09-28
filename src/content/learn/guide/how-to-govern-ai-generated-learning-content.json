@@ -3,8 +3,8 @@
   "kind": "guide",
   "title": "How do you govern AI generated learning content?",
   "seoTitle": "Governing AI generated learning content",
-  "description": "How to govern AI generated learning content: accountable owners, an AI register, risk tiers, provenance, monitoring, and review per Australian guidance.",
-  "shortAnswer": "To govern AI generated learning content, extend your existing content governance with AI specific controls: a named accountable owner, a register of the AI tools and uses in your learning function, a policy on permitted uses, risk tiers that set review depth, provenance on every item, monitoring of errors and learner feedback, and scheduled review of tools and outputs. Australia's Guidance for AI Adoption and ISO/IEC 42001 provide the frameworks.",
+  "description": "How to govern AI generated learning content: accountable owners, an AI register, risk tiers, provenance, monitoring, and review, with supporting frameworks.",
+  "shortAnswer": "To govern AI generated learning content, extend your existing content governance with AI specific controls: a named accountable owner, a register of the AI tools and uses in your learning function, a policy on permitted uses, risk tiers that set review depth, provenance on every item, monitoring of errors and learner feedback, and scheduled review of tools and outputs. ISO/IEC 42001 and guidance such as Australia's Guidance for AI Adoption provide frameworks.",
   "keyTakeaways": [
     "Governance is the ongoing system around AI use: who is accountable, which tools and uses are allowed, how risk sets review depth, and how problems are detected and fixed.",
     "The Guidance for AI Adoption, published in October 2025, sets out six essential practices and evolves the earlier Voluntary AI Safety Standard. Both are voluntary.",
@@ -29,20 +29,20 @@
     },
     {
       "id": "frameworks",
-      "heading": "Which Australian and international frameworks apply?",
+      "heading": "Which frameworks apply?",
       "blocks": [
         {
           "type": "p",
-          "text": "The main references are voluntary Australian guidance, an international management system standard, and existing obligations such as privacy law. They are listed below as at September 2026."
+          "text": "The main references are an international management system standard, government guidance on AI governance, and existing obligations such as AI regulation and privacy law. The examples below are listed as at September 2026; check the rules in each country where you operate."
         },
         {
           "type": "ul",
           "items": [
-            "**Guidance for AI Adoption.** Published by the Department of Industry, Science and Resources on 21 October 2025, it \"outlines 6 essential practices for safe and responsible AI governance\" and \"evolves the Voluntary AI Safety Standard\" ([DISR](https://www.industry.gov.au/publications/voluntary-ai-safety-standard)). It comes in a foundations version and an implementation version for higher risk or more complex use ([implementation guidance](https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance)).",
+            "**Guidance for AI Adoption.** Published by Australia's Department of Industry, Science and Resources on 21 October 2025, it \"outlines 6 essential practices for safe and responsible AI governance\" and \"evolves the Voluntary AI Safety Standard\" ([DISR](https://www.industry.gov.au/publications/voluntary-ai-safety-standard)). It comes in a foundations version and an implementation version for higher risk or more complex use ([implementation guidance](https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance)).",
             "**Voluntary AI Safety Standard.** Ten voluntary guardrails that apply across the AI supply chain. It remains published and is the predecessor to the Guidance for AI Adoption.",
             "**ISO/IEC 42001:2023.** The international standard for an AI management system, specifying requirements for establishing, implementing, maintaining, and continually improving one, for organisations that provide or use AI ([ISO](https://www.iso.org/standard/42001)). It can be certified by an accredited body.",
-            "**Privacy Act 1988.** The OAIC's guidance on commercially available AI products explains how the Australian Privacy Principles apply to AI inputs and outputs ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products)).",
-            "**Information Security Manual.** For Australian Government entities and others that apply it, control ISM-2074 requires a general purpose AI usage policy ([ASD](https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security))."
+            "**Privacy law.** Privacy obligations apply to what is entered into AI tools and what they produce. For example, the Office of the Australian Information Commissioner (OAIC) guidance on commercially available AI products explains how the Australian Privacy Principles under the Privacy Act 1988 apply to AI inputs and outputs ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products)).",
+            "**EU AI Act, Article 4.** In the European Union, providers and deployers of AI systems \"shall take measures to support the development of AI literacy of their staff and other persons dealing with the operation and use of AI systems on their behalf\", taking into account their knowledge, experience, and the context of use ([Regulation (EU) 2024/1689, Article 4, as amended by Regulation (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2024/1689/oj)). For a learning function, reviewer and developer AI literacy is part of governance, not an optional extra."
           ]
         }
       ]
@@ -250,9 +250,9 @@
       "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products"
     },
     {
-      "title": "Information Security Manual: Guidelines for personnel security",
-      "publisher": "Australian Signals Directorate",
-      "url": "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security"
+      "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Article 4, as amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI)",
+      "publisher": "European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
     }
   ],
   "related": [
@@ -298,8 +298,8 @@
       "source": "https://www.iso.org/standard/42001"
     },
     {
-      "claim": "ISM-2074 (Dec-25): a general-purpose AI usage policy is developed, implemented and maintained.",
-      "source": "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security"
+      "claim": "EU AI Act Article 4(1), as replaced by Regulation (EU) 2026/1744 of 8 July 2026 (consolidated text 02024R1689-20260727): providers and deployers of AI systems shall take measures to support the development of AI literacy of their staff and other persons dealing with the operation and use of AI systems on their behalf, taking into account their technical knowledge, experience, education and training and the context of use; the obligation does not require them to guarantee any specific level of AI literacy of any individual.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
     }
   ]
 }

@@ -338,7 +338,7 @@ function JsonLd({ page, url }: { page: LearnPage; url: string }) {
       mainEntityOfPage: url,
       datePublished: page.published,
       dateModified: page.updated,
-      inLanguage: "en-AU",
+      inLanguage: "en-US",
       image: `${site.url}/opengraph-image`,
       author: page.reviewedBy
         ? [org, { "@type": "Person", name: page.reviewedBy.name, jobTitle: page.reviewedBy.role, ...(page.reviewedBy.url ? { url: page.reviewedBy.url } : {}) }]

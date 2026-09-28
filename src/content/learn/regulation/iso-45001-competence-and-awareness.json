@@ -10,9 +10,9 @@
     "Clause 7.2 goes beyond generic management system competence by requiring competence to include the ability to identify hazards.",
     "Clause 7.2 also requires organisations to evaluate the effectiveness of competence actions and retain documented information as evidence.",
     "Clause 7.3 lists awareness topics that include relevant incidents, hazards and risks, and the right to leave imminent and serious danger without undue consequences.",
-    "ISO 45001 is voluntary in Australia and does not replace the legal duties in WHS and OHS legislation."
+    "ISO 45001 is voluntary and does not replace the legal duties in the occupational health and safety legislation of any country where an organisation operates."
   ],
-  "jurisdiction": "International standard (voluntary), used by Australian organisations alongside WHS and OHS legislation",
+  "jurisdiction": "International standard (ISO)",
   "regulator": "No regulator: ISO/TC 283 maintains the standard; conformity is assessed by certification bodies",
   "appliesTo": [
     "Organisations operating or seeking certification to an ISO 45001 OH&S management system",
@@ -86,7 +86,7 @@
         },
         {
           "type": "p",
-          "text": "The last item is the most distinctive. [BSI's ISO 45001 self assessment checklist](https://www.bsigroup.com/siteassets/pdf/en/insights-and-media/insights/brochures/au-as-scert-lg-nss-hsw-iso45001-mp-occupationalhealthandsafety-0425-self-assess.pdf) frames it as all workers having the ability to remove themselves from dangerous situations and being aware of the policy protecting them from undue consequences. In Australia it lines up with section 84 of the model [Work Health and Safety Act 2011](https://www.legislation.gov.au/C2011A00137/latest/text), which lets a worker cease or refuse unsafe work where there is a reasonable concern of serious risk from an immediate or imminent exposure to a hazard."
+          "text": "The last item is the most distinctive. [BSI's ISO 45001 self assessment checklist](https://www.bsigroup.com/siteassets/pdf/en/insights-and-media/insights/brochures/au-as-scert-lg-nss-hsw-iso45001-mp-occupationalhealthandsafety-0425-self-assess.pdf) frames it as all workers having the ability to remove themselves from dangerous situations and being aware of the policy protecting them from undue consequences. Where local law also gives workers a right to stop unsafe work, awareness content should explain both the organisation's procedure and that legal protection."
         },
         {
           "type": "p",
@@ -151,15 +151,15 @@
     },
     {
       "id": "relationship-to-whs-law",
-      "heading": "How does ISO 45001 relate to Australian WHS law?",
+      "heading": "How does ISO 45001 relate to health and safety law?",
       "blocks": [
         {
           "type": "p",
-          "text": "ISO 45001 is a voluntary management system standard; WHS and OHS legislation is mandatory. Certification can help demonstrate a systematic approach, but it does not discharge the legal duty to provide the information, training, instruction and supervision the law requires."
+          "text": "ISO 45001 is a voluntary management system standard; occupational health and safety legislation is mandatory in the countries where an organisation operates. Certification can help demonstrate a systematic approach, but it does not discharge the legal duty to provide the information, training, instruction and supervision the law requires."
         },
         {
           "type": "p",
-          "text": "In practice the two align well. The model WHS Regulations require training to be suitable and adequate for the work, the risks and the controls, which maps closely to the ISO requirement to determine competence from OH&S performance needs and to include hazard identification. Organisations can use one competence framework to satisfy both, provided the legal requirements for their jurisdiction are identified separately. See [the WHS Act duty to provide training](/regulations/whs-act-duty-to-provide-training)."
+          "text": "Organisations can use one competence framework to satisfy both, provided the legal requirements for each jurisdiction are identified separately. **Example, Australia:** the model WHS Regulations require training to be suitable and adequate for the work, the risks and the controls, which maps closely to the clause 7.2 requirement to determine competence from OH&S performance needs and to include hazard identification, and section 84 of the model [Work Health and Safety Act 2011](https://www.legislation.gov.au/C2011A00137/latest/text) lets a worker cease or refuse unsafe work on a reasonable concern of serious risk from an immediate or imminent exposure to a hazard, which matches the clause 7.3 awareness item on removing oneself from danger. See [the WHS Act duty to provide training](/regulations/whs-act-duty-to-provide-training)."
         }
       ]
     },

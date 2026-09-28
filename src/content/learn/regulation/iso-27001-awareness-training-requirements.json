@@ -12,7 +12,7 @@
     "The 2024 amendment (ISO/IEC 27001:2022/Amd 1:2024) added climate action changes and did not alter the competence and awareness clauses.",
     "Auditors look for evidence of competence and effectiveness, not just course completions."
   ],
-  "jurisdiction": "International standard, used for certification in Australia",
+  "jurisdiction": "International standard (ISO)",
   "regulator": "International Organization for Standardization (ISO) and International Electrotechnical Commission (IEC), through accredited certification bodies",
   "appliesTo": [
     "Organisations certified or seeking certification to ISO/IEC 27001",
@@ -30,7 +30,7 @@
         },
         {
           "type": "p",
-          "text": "ISO/IEC 27001 is voluntary. It becomes binding through certification, customer contracts or procurement rules. In regulated Australian sectors it often sits alongside statutory obligations such as [APRA CPS 234](/regulations/apra-cps-234-security-awareness-training) or the [ISM](/regulations/ism-cyber-security-awareness-training), and one training program can serve all three if its mapping is explicit."
+          "text": "ISO/IEC 27001 is voluntary. It becomes binding through certification, customer contracts or procurement rules. In regulated sectors it often sits alongside statutory or government security obligations, and one training program can serve several frameworks if its mapping is explicit. **Example, Australia:** regulated entities and agencies may also need to meet [APRA CPS 234](/regulations/apra-cps-234-security-awareness-training) or the [ISM](/regulations/ism-cyber-security-awareness-training)."
         }
       ]
     },
@@ -191,7 +191,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Knowledge Foundry defines ISMS role competencies and awareness concepts as structured objects with assessment points, then links them to clauses 7.2 and 7.3 and to Annex A 6.3. The same concepts can be mapped to APRA, ISM or PSPF obligations, so one body of evidence answers several frameworks."
+          "text": "Knowledge Foundry defines ISMS role competencies and awareness concepts as structured objects with assessment points, then links them to clauses 7.2 and 7.3 and to Annex A 6.3. The same concepts can be mapped to the regulatory obligations of each jurisdiction, so one body of evidence answers several frameworks."
         }
       ]
     }
@@ -199,7 +199,7 @@
   "faqs": [
     {
       "q": "Does ISO/IEC 27001 say how often awareness training must happen?",
-      "a": "No. The standard does not set a frequency. Annex A 6.3 expects regular updates as policies and procedures change, and organisations set their own cycle, commonly annual awareness with extra briefings after significant changes. Where the ISM, PSPF or a regulator applies, their annual requirements usually set the cycle."
+      "a": "No. The standard does not set a frequency. Annex A 6.3 expects regular updates as policies and procedures change, and organisations set their own cycle, commonly annual awareness with extra briefings after significant changes. Where a regulator or government security framework sets an annual requirement, that usually sets the cycle."
     },
     {
       "q": "Are training records enough to meet clause 7.2?",

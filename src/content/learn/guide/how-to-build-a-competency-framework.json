@@ -7,9 +7,9 @@
   "shortAnswer": "A competency framework is built by fixing its purpose and scope, choosing a structure of domains, competencies, indicators and proficiency levels, gathering evidence of what competent work looks like, drafting competencies as observable statements, writing distinct proficiency levels, validating them with job holders and experts, assigning required levels to roles, and putting the framework under version control with a named owner and review cycle.",
   "keyTakeaways": [
     "Decide what the framework will be used for (recruitment, training, assessment, regulatory evidence) before drafting anything. Purpose drives granularity.",
-    "Reuse authoritative sources where they exist: national units of competency, professional standards and regulator guidance.",
+    "Reuse authoritative sources where they exist: national occupational standards or units of competency, professional standards and regulator guidance.",
     "Write each competency as observable performance, with behavioural indicators an assessor could actually check.",
-    "Proficiency levels should differ in autonomy, complexity and judgement, as the AQF does, not just in adjectives like 'basic' and 'advanced'.",
+    "Proficiency levels should differ in autonomy, complexity and judgement, as national qualifications frameworks such as the AQF do, not just in adjectives like 'basic' and 'advanced'.",
     "A framework without an owner, a version number and a review date decays within a year."
   ],
   "sections": [
@@ -76,10 +76,10 @@
           "items": [
             "**Fix purpose and scope.** Write down the uses the framework must support and the roles or job families it covers. A framework for regulatory evidence needs finer, assessable indicators than one used only for career conversations. Output: a one page charter naming the sponsor, the owner and the in scope roles.",
             "**Choose the structure.** Decide the hierarchy (domain, competency, indicator), the number of proficiency levels, and the fields each competency record will hold. Output: a template for a single competency record.",
-            "**Gather evidence of competent performance.** Collect procedures, role descriptions, regulator guidance, incident and quality data, and existing standards. In Australia, national units of competency on training.gov.au already express workplace performance as elements and performance criteria; the Training Package Organising Framework requires elements to 'describe demonstrable workplace outcomes' ([DEWR](https://www.dewr.gov.au/download/16680/training-package-organising-framework-effective-1-july-2025/39042/training-package-organising-framework/pdf)). Output: a source register listing every document used and its version.",
+            "**Gather evidence of competent performance.** Collect procedures, role descriptions, regulator guidance, incident and quality data, and existing standards. Where national occupational standards exist, use them. For example, Australia's national units of competency on training.gov.au already express workplace performance as elements and performance criteria; the Training Package Organising Framework requires elements to 'describe demonstrable workplace outcomes' ([DEWR](https://www.dewr.gov.au/download/16680/training-package-organising-framework-effective-1-july-2025/39042/training-package-organising-framework/pdf)). Output: a source register listing every document used and its version.",
             "**Run structured sessions with job holders and experts.** Use critical incident questions (describe a time this task went well, and a time it went badly) to surface what separates competent from non-competent performance. Output: raw task and behaviour statements, tagged to sources.",
             "**Draft competencies and indicators.** Cluster the statements into competencies, write each as an action verb plus object plus context, and write three to six indicators per competency. Remove overlaps so each behaviour belongs to one competency only. Output: a draft competency catalogue.",
-            "**Write proficiency levels.** Describe each level by changes in autonomy, complexity of situations handled, judgement and responsibility for others. The Australian Qualifications Framework (AQF) uses a similar logic, describing application of knowledge and skills in terms of autonomy, judgement and responsibility across its ten levels ([AQF](https://www.aqf.edu.au/framework/aqf-levels)). Output: level descriptors for every competency.",
+            "**Write proficiency levels.** Describe each level by changes in autonomy, complexity of situations handled, judgement and responsibility for others. National qualifications frameworks use a similar logic. For example, the Australian Qualifications Framework (AQF) describes application of knowledge and skills in terms of autonomy, judgement and responsibility across its ten levels ([AQF](https://www.aqf.edu.au/framework/aqf-levels)). Output: level descriptors for every competency.",
             "**Validate.** Test the draft with a different group of job holders and managers from those who helped write it. Ask them to rate relevance and clarity, and to place real (anonymised) examples of work at a level. Where raters disagree, the wording is ambiguous. Output: a validation log with changes made.",
             "**Build role profiles and govern.** Assign the required level of each competency to each role, publish the framework with a version number, and set a review cycle and triggers such as regulatory change. Output: role profiles and a governance record."
           ]
@@ -137,10 +137,10 @@
         {
           "type": "ul",
           "items": [
-            "**National units of competency** for vocational tasks, with their performance criteria, performance evidence and knowledge evidence.",
+            "**National occupational standards or units of competency** for vocational tasks, such as the units of competency described in step three, with their performance criteria, performance evidence and knowledge evidence.",
             "**Professional or practice standards** issued by professional bodies or regulators, for example standards for financial advisers or clinicians.",
-            "**Regulator guidance** that states expected knowledge and skills, such as ASIC's RG 104 expectation that licensees identify the knowledge and skills representatives need ([ASIC](https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/)).",
-            "**National skills classifications.** Jobs and Skills Australia's Australian Skills Classification described core competencies, specialist tasks and technology tools; it remains available for research purposes while Jobs and Skills Australia develops a new National Skills Taxonomy ([Jobs and Skills Australia](https://www.jobsandskills.gov.au/data/national-skills-taxonomy))."
+            "**Regulator guidance** that states the knowledge and skills people in regulated roles are expected to have. Where a regulator publishes this, cite the specific guide and version in your source register.",
+            "**National skills classifications.** Where your country publishes a skills taxonomy or occupational classification, it can supply core competencies, specialist tasks and technology tools as a starting list. Check its currency and status before relying on it."
           ]
         },
         {
@@ -215,16 +215,6 @@
       "url": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf"
     },
     {
-      "title": "National Skills Taxonomy",
-      "publisher": "Jobs and Skills Australia",
-      "url": "https://www.jobsandskills.gov.au/data/national-skills-taxonomy"
-    },
-    {
-      "title": "RG 104 AFS licensing: Meeting the general obligations",
-      "publisher": "Australian Securities and Investments Commission (ASIC)",
-      "url": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations/"
-    },
-    {
       "title": "ISO 10015:2019 Quality management: Guidelines for competence management and people development",
       "publisher": "International Organization for Standardization (ISO)",
       "url": "https://www.iso.org/standard/69459.html"
@@ -263,10 +253,6 @@
     {
       "claim": "AQF describes application of knowledge and skills in terms of autonomy, judgement and responsibility across ten levels",
       "source": "https://www.aqf.edu.au/framework/aqf-levels"
-    },
-    {
-      "claim": "The ASC featured core competencies, specialist tasks and technology tools and remains available for research purposes; JSA is developing the National Skills Taxonomy",
-      "source": "https://www.jobsandskills.gov.au/data/national-skills-taxonomy"
     }
   ]
 }

@@ -9,7 +9,7 @@
     "Compliance training exists to help an organisation meet its compliance obligations: the requirements it must meet and those it chooses to meet.",
     "ISO 37301 treats training (clause 7.2.3) and awareness (clause 7.3) as separate support requirements within a compliance management system.",
     "Good compliance training is traceable: obligation, role, learning outcome, assessment and record line up.",
-    "Australian law often requires training outcomes without prescribing a course, for example the WHS duty to provide necessary training and the AFS licensee duty to keep representatives adequately trained.",
+    "Laws often require training outcomes without prescribing a course: for example, Australia's WHS duty to provide necessary training, and the GDPR task of the data protection officer to monitor awareness raising and training of staff.",
     "Completion records show attendance. Regulators and auditors increasingly look for evidence that people can apply the requirement."
   ],
   "term": "Compliance training",
@@ -42,7 +42,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Effective compliance training runs as a cycle that starts from obligations, not from content. The steps below reflect the sequence implied by ISO 37301 and by Australian regulator guidance."
+          "text": "Effective compliance training runs as a cycle that starts from obligations, not from content. The steps below reflect the sequence implied by ISO 37301 and by regulator guidance."
         },
         {
           "type": "ol",
@@ -57,7 +57,7 @@
         },
         {
           "type": "p",
-          "text": "Australian law usually sets the outcome rather than the course. Section 19(3)(f) of the Work Health and Safety Act 2011 requires a person conducting a business or undertaking to ensure, so far as is reasonably practicable, \"the provision of any information, training, instruction or supervision that is necessary to protect all persons\" from work risks, as [Comcare's regulatory guide](https://www.comcare.gov.au/scheme-legislation/whs-act/regulatory-guides/primary-duty-of-care) sets out. For financial services, the Australian Securities and Investments Commission (ASIC) notes in [RG 105](https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-105-afs-licensing-organisational-competence/) that s912A(1)(f) of the Corporations Act requires licensees to ensure representatives are trained and competent."
+          "text": "Laws usually set the outcome rather than the course. For example, section 19(3)(f) of Australia's Work Health and Safety Act 2011 requires a person conducting a business or undertaking to ensure, so far as is reasonably practicable, \"the provision of any information, training, instruction or supervision that is necessary to protect all persons\" from work risks, as [Comcare's regulatory guide](https://www.comcare.gov.au/scheme-legislation/whs-act/regulatory-guides/primary-duty-of-care) sets out. In the European Union, [Article 39(1)(b) of the General Data Protection Regulation](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (GDPR) makes it a task of the data protection officer to monitor compliance, \"including the assignment of responsibilities, awareness-raising and training of staff involved in processing operations\"."
         }
       ]
     },
@@ -112,7 +112,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The table below is an **illustrative example** for a whistleblower obligation in an Australian public company. ASIC's [RG 270](https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-270-whistleblower-policies/) says an entity should conduct upfront and ongoing training on its whistleblower policy for every employee, with specialist training for staff who receive disclosures (RG 270.131 and RG 270.134)."
+          "text": "The table below is an **illustrative example** for a whistleblower obligation in an Australian public company. The Australian Securities and Investments Commission (ASIC) [RG 270](https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-270-whistleblower-policies/) says an entity should conduct upfront and ongoing training on its whistleblower policy for every employee, with specialist training for staff who receive disclosures (RG 270.131 and RG 270.134)."
         },
         {
           "type": "table",
@@ -165,8 +165,8 @@
   ],
   "faqs": [
     {
-      "q": "Is compliance training required by law in Australia?",
-      "a": "Often, but rarely as a named course. Laws such as the WHS Act and the Corporations Act require training or competence as an outcome. Regulator guides then explain expectations. Some roles also need specific licences or accredited training. Organisations decide the format, and must be able to show the outcome was achieved."
+      "q": "Is compliance training required by law?",
+      "a": "Often, but rarely as a named course. Laws such as Australia's WHS Act require training or competence as an outcome, and the GDPR makes staff training part of what the data protection officer monitors. Regulator guides then explain expectations. Some roles also need specific licences or accredited training. Organisations decide the format, and must be able to show the outcome was achieved."
     },
     {
       "q": "Does ISO 37301 require compliance training?",
@@ -198,9 +198,9 @@
       "url": "https://www.comcare.gov.au/scheme-legislation/whs-act/regulatory-guides/primary-duty-of-care"
     },
     {
-      "title": "RG 105 AFS licensing: Organisational competence",
-      "publisher": "Australian Securities and Investments Commission",
-      "url": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-105-afs-licensing-organisational-competence/"
+      "title": "Regulation (EU) 2016/679 (General Data Protection Regulation), Article 39",
+      "publisher": "European Parliament and Council of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
     },
     {
       "title": "RG 270 Whistleblower policies",
@@ -247,8 +247,8 @@
       "source": "https://www.comcare.gov.au/scheme-legislation/whs-act/regulatory-guides/primary-duty-of-care"
     },
     {
-      "claim": "RG 105.3 notes s912A(1)(f) obligation to ensure representatives are trained and competent.",
-      "source": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-105-afs-licensing-organisational-competence/"
+      "claim": "GDPR Article 39(1)(b): the data protection officer's tasks include monitoring compliance, including the assignment of responsibilities, awareness-raising and training of staff involved in processing operations, and the related audits.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
     },
     {
       "claim": "RG 270.131 says entities should conduct upfront and ongoing training on the whistleblower policy for every employee; RG 270.134 says specialist training for staff with specific responsibilities.",
