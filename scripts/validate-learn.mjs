@@ -91,7 +91,16 @@ for (const p of pages) {
   const dl = (d.description ?? "").length;
   if (dl < 120 || dl > 158) E(`description ${dl} chars (120 to 158)`);
   const sa = words(d.shortAnswer);
-  if (sa < 40 || sa > 75) E(`shortAnswer ${sa} words (40 to 75)`);
+  if (sa < 40 || sa > 80) E(`shortAnswer ${sa} words (40 to 80)`);
+  if (/\]\(/.test(d.shortAnswer ?? "")) E("shortAnswer must not contain links (rule P2)");
+  if (p.kind === "glossary" && !/^(A|An|The)\s/.test(d.shortAnswer ?? "")) W('glossary shortAnswer should open "A [term] is ..." (rule P2)');
+  if (!Number.isInteger(d.release) || d.release < 1) E("release must be a positive integer batch number");
+  if (p.kind === "regulation") {
+    const fc = d.factCheck ?? [];
+    if (fc.length < 3) E("regulation page needs at least 3 factCheck entries (rule C1)");
+    for (const f of fc) if (!f.claim || !/^https:\/\//.test(f.source ?? "")) E(`factCheck entry needs claim and https source: ${JSON.stringify(f).slice(0, 80)}`);
+    if (!/\bas at\b/i.test(allText(d))) E('regulation page must state currency, e.g. "as at September 2026" (rule C8)');
+  }
   if (!Array.isArray(d.keyTakeaways) || d.keyTakeaways.length < 3 || d.keyTakeaways.length > 5) E("keyTakeaways must have 3 to 5 items");
   if (p.kind === "glossary" && !d.term) E("glossary page needs term");
   if (p.kind === "regulation" && (!d.jurisdiction || !d.regulator)) E("regulation page needs jurisdiction and regulator");
@@ -148,6 +157,8 @@ for (const p of pages) {
     if (href.startsWith("/")) { if (!routes.has(href.split("#")[0])) W(`internal link not (yet) a route: ${href}`); }
     else if (!/^https:\/\//.test(href)) E(`link must be internal or https: ${href}`);
   }
+  const internal = [...text.matchAll(/\]\((\/[^)\s]*)\)/g)].length;
+  if (internal < 3) E(`only ${internal} internal links in body (min 3, rule P9)`);
   const lower = text.toLowerCase();
   for (const b of BANNED) if (lower.includes(b)) E(`banned phrase "${b}"`);
   for (const re of US_SPELLING) { const m = text.match(re); if (m) W(`US spelling? "${m[0]}"`); }

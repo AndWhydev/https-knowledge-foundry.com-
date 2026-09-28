@@ -70,7 +70,9 @@ const routes: Route[] = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  // Last material content change for the static pages. Never the build time
+  // (SOP rule T7): bump this only when those pages' content actually changes.
+  const staticPagesUpdated = new Date("2026-09-28");
   const learn = allLearnPages();
   // Hubs change whenever any page in them does.
   const latest = (list: typeof learn) =>
@@ -78,7 +80,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...routes.map((r) => ({
       url: `${site.url}${r.path}`,
-      lastModified: now,
+      lastModified: staticPagesUpdated,
       changeFrequency: r.changeFrequency,
       priority: r.priority,
     })),

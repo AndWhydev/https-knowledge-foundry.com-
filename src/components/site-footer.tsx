@@ -2,6 +2,10 @@ import Link from "next/link";
 import { Logo } from "@/components/logo";
 import { site, nav } from "@/lib/site";
 import { ArrowUpRight, Plus } from "lucide-react";
+import { allLearnPages } from "@/lib/learn";
+
+// The learn hub is linked only once it has released pages.
+const hasLearn = allLearnPages().length > 0;
 
 const footerLinks = [
   {
@@ -36,6 +40,7 @@ const footerLinks = [
       { label: "Who this is for", href: "/who-can-use-this" },
       { label: "Case studies", href: "/case-studies" },
       { label: "Insights", href: "/insights" },
+      ...(hasLearn ? [{ label: "Learn", href: "/learn" }] : []),
       { label: "Trust center", href: "/trust" },
       { label: "Contact", href: "/demonstration" },
     ],

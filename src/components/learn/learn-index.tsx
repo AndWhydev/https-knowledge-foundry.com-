@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import { Container } from "@/components/ui/container";
 import { CtaBand } from "@/components/solution/cta-band";
 import { kinds, learnHref, learnPagesOf, type LearnKind } from "@/lib/learn";
@@ -10,6 +11,7 @@ const label = "text-[11px] font-medium uppercase tracking-[0.14em] font-[family-
 export function LearnIndex({ kind }: { kind: LearnKind }) {
   const k = kinds[kind];
   const pages = learnPagesOf(kind);
+  if (pages.length === 0) notFound();
   const url = `${site.url}${k.path}`;
   const jsonLd = {
     "@context": "https://schema.org",

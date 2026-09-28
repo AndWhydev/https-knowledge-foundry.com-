@@ -85,7 +85,24 @@ export type LearnPage = {
   productLinks?: { label: string; href: string }[];
   published: string;
   updated: string;
+  /**
+   * Release batch (docs/AI-SEARCH-SOP.md, rule E2). Production shows pages
+   * with release <= LIVE_RELEASE; previews and local builds show everything.
+   */
+  release: number;
+  /** Named human reviewer. Rendered only when present; never invented. */
+  reviewedBy?: { name: string; role: string; url?: string };
+  /** Not rendered. Review record: each checked claim and the source that supports it. */
+  factCheck?: { claim: string; source: string }[];
 };
+
+/**
+ * Highest release batch that is live on production. 0 = nothing published:
+ * hold until the canonical domain serves this site (SOP rule E1).
+ */
+export const LIVE_RELEASE = 0;
+
+const showAll = process.env.VERCEL_ENV !== "production";
 
 const ROOT = path.join(process.cwd(), "src", "content", "learn");
 
@@ -99,7 +116,7 @@ export function allLearnPages(): LearnPage[] {
     if (!fs.existsSync(dir)) continue;
     for (const file of fs.readdirSync(dir).filter((f) => f.endsWith(".json")).sort()) {
       const page = JSON.parse(fs.readFileSync(path.join(dir, file), "utf8")) as LearnPage;
-      pages.push({ ...page, kind });
+      if (showAll || page.release <= LIVE_RELEASE) pages.push({ ...page, kind });
     }
   }
   cache = pages;

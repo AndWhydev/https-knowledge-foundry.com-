@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import { ArrowUpRight } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { CtaBand } from "@/components/solution/cta-band";
-import { kinds, learnHref, learnPagesOf, type LearnKind } from "@/lib/learn";
+import { allLearnPages, kinds, learnHref, learnPagesOf, type LearnKind } from "@/lib/learn";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -17,6 +18,7 @@ const label = "text-[11px] font-medium uppercase tracking-[0.14em] font-[family-
 const order: LearnKind[] = ["regulation", "guide", "glossary", "comparison"];
 
 export default function LearnHub() {
+  if (allLearnPages().length === 0) notFound();
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",

@@ -65,7 +65,33 @@ export function LearnArticle({ page }: { page: LearnPage }) {
               </p>
             </div>
 
-            <dl className={`mt-6 flex flex-wrap gap-x-6 gap-y-2 ${label} text-[color:var(--color-ink-faint)]`}>
+            <p className="mt-6 text-[14px] leading-[1.6] text-[color:var(--color-ink-muted)]">
+              By the Knowledge Foundry editorial team
+              {page.reviewedBy && (
+                <>
+                  {". Reviewed by "}
+                  {page.reviewedBy.url ? (
+                    <a href={page.reviewedBy.url} className="underline underline-offset-2 hover:text-[color:var(--color-forge)]">
+                      {page.reviewedBy.name}
+                    </a>
+                  ) : (
+                    page.reviewedBy.name
+                  )}
+                  {`, ${page.reviewedBy.role}`}
+                </>
+              )}
+              {". "}
+              <Link href="/editorial-standards" className="underline underline-offset-2 hover:text-[color:var(--color-forge)]">
+                How we write and check these pages
+              </Link>
+            </p>
+            <dl className={`mt-3 flex flex-wrap gap-x-6 gap-y-2 ${label} text-[color:var(--color-ink-faint)]`}>
+              <div className="flex gap-2">
+                <dt>Published</dt>
+                <dd className="text-[color:var(--color-ink-muted)]">
+                  <time dateTime={page.published}>{formatDate(page.published)}</time>
+                </dd>
+              </div>
               <div className="flex gap-2">
                 <dt>Updated</dt>
                 <dd className="text-[color:var(--color-ink-muted)]">
@@ -313,7 +339,10 @@ function JsonLd({ page, url }: { page: LearnPage; url: string }) {
       datePublished: page.published,
       dateModified: page.updated,
       inLanguage: "en-AU",
-      author: org,
+      image: `${site.url}/opengraph-image`,
+      author: page.reviewedBy
+        ? [org, { "@type": "Person", name: page.reviewedBy.name, jobTitle: page.reviewedBy.role, ...(page.reviewedBy.url ? { url: page.reviewedBy.url } : {}) }]
+        : org,
       publisher: org,
       isPartOf: { "@id": `${site.url}${kind.path}#collection` },
       citation: page.sources.map((s) => ({ "@type": "CreativeWork", name: s.title, url: s.url, publisher: s.publisher })),
