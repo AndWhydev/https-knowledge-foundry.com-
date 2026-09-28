@@ -36,7 +36,7 @@ export function SiteHeader() {
     >
       <div className="mx-auto max-w-[1440px] px-5 md:px-8 xl:px-12">
         <div className="flex h-16 md:h-[72px] items-center justify-between gap-6">
-          <Link href="/" className="shrink-0" aria-label="Knowledge Foundry — Home">
+          <Link href="/" className="shrink-0" aria-label="Knowledge Foundry home">
             <Logo />
           </Link>
 
@@ -190,23 +190,23 @@ export function SiteHeader() {
             transition={{ duration: 0.25, ease: [0.25, 1, 0.5, 1] }}
             className="lg:hidden overflow-hidden bg-white border-t border-[color:var(--color-hairline)]"
           >
-            <div className="px-5 py-6 space-y-6">
+            <div className="px-5 py-6 space-y-6 max-h-[calc(100dvh-64px)] overflow-y-auto overscroll-contain">
               {megaKeys.map((key) => (
                 <div key={key}>
                   <Link
                     href={nav[key].href}
                     onClick={() => setMobileOpen(false)}
-                    className="block text-[15px] font-semibold text-[color:var(--color-ink)]"
+                    className="block py-1 text-[16px] font-semibold text-[color:var(--color-ink)]"
                   >
                     {nav[key].label}
                   </Link>
-                  <ul className="mt-2 space-y-1.5">
+                  <ul className="mt-1">
                     {nav[key].groups[0].items.slice(0, 5).map((item) => (
                       <li key={item.href}>
                         <Link
                           href={item.href}
                           onClick={() => setMobileOpen(false)}
-                          className="block py-1 text-[13.5px] text-[color:var(--color-ink-muted)]"
+                          className="block py-2.5 text-[15px] text-[color:var(--color-ink-muted)]"
                         >
                           {item.label}
                         </Link>
@@ -215,13 +215,13 @@ export function SiteHeader() {
                   </ul>
                 </div>
               ))}
-              <div className="pt-4 border-t border-[color:var(--color-hairline)] space-y-3">
+              <div className="pt-4 border-t border-[color:var(--color-hairline)] space-y-1">
                 {[nav.caseStudies, nav.insights, nav.about].map((item) => (
                   <Link
                     key={item.href}
                     href={item.href}
                     onClick={() => setMobileOpen(false)}
-                    className="block text-[15px] font-semibold text-[color:var(--color-ink)]"
+                    className="block py-2 text-[16px] font-semibold text-[color:var(--color-ink)]"
                   >
                     {item.label}
                   </Link>

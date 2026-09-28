@@ -14,7 +14,7 @@ export function Grain() {
   return (
     <div
       aria-hidden
-      className="pointer-events-none fixed inset-0 z-[70] opacity-[0.055] mix-blend-multiply"
+      className="pointer-events-none fixed inset-0 z-[70] hidden md:block opacity-[0.055] mix-blend-multiply"
       style={{
         backgroundImage:
           "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence baseFrequency='0.92' numOctaves='3' seed='7'/><feColorMatrix type='saturate' values='0'/></filter><rect width='180' height='180' filter='url(%23n)' opacity='1'/></svg>\")",

@@ -241,7 +241,7 @@ export function PullQuote({ children, attribution }: { children: ReactNode; attr
       </blockquote>
       {attribution && (
         <figcaption className="mt-4 text-[12px] uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-ink-faint)]">
-          — {attribution}
+          {attribution}
         </figcaption>
       )}
     </figure>

@@ -217,7 +217,7 @@ export function FrameworkDemo() {
           <Reveal delay={0.35}>
             <p className="text-lede mt-6 max-w-[52ch]">
               A live illustration of what happens when the Foundry meets your source
-              material — cycling through three real-world subjects. In a real
+              material, cycling through three real-world subjects. In a real
               engagement, you bring the policy. It builds the framework.
             </p>
           </Reveal>
@@ -312,7 +312,7 @@ export function FrameworkDemo() {
         <Reveal delay={0.2}>
           <div className="mt-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <p className="text-[13px] text-[color:var(--color-ink-muted)] max-w-[46ch] leading-relaxed">
-              An illustrative loop. In a real engagement, the Foundry runs on your material —
+              An illustrative loop. In a real engagement, the Foundry runs on your material,
               and the framework it produces is yours to keep.
             </p>
             <Magnetic strength={0.22}>

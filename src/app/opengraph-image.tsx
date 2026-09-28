@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Knowledge Foundry — Structured knowledge. Deliberate instruction.";
+export const alt = "Knowledge Foundry: Structured knowledge. Deliberate instruction.";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -110,7 +110,7 @@ export default function OpenGraphImage() {
             }}
           >
             Knowledge Foundry turns subjects, documents, and requirements into
-            structured learning systems — reviewable, aligned to your standards, ready for audit.
+            structured learning systems: reviewable, aligned to your standards, ready for audit.
           </div>
         </div>
 

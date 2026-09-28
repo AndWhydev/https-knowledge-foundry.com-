@@ -74,8 +74,8 @@ export default function AccessibilityStatementPage() {
                 inherits the platform&rsquo;s accessible presentation shell,
                 but the content itself remains the responsibility of the
                 customer as the author. The platform provides authoring
-                affordances — image alternative text prompts, heading
-                structure, semantic block types, colour-contrast guardrails —
+                affordances (image alternative text prompts, heading
+                structure, semantic block types, colour-contrast guardrails)
                 to support customer conformance.
               </p>
             </section>
@@ -96,8 +96,8 @@ export default function AccessibilityStatementPage() {
                 </li>
                 <li>
                   <strong>Keyboard-only and screen-reader walkthroughs.</strong>{" "}
-                  Critical customer flows — sign-in, framework review,
-                  release, and evidence export — are exercised without a
+                  Critical customer flows (sign-in, framework review,
+                  release, and evidence export) are exercised without a
                   mouse and with a screen reader before release.
                 </li>
                 <li>
@@ -154,7 +154,7 @@ export default function AccessibilityStatementPage() {
                 If something on our site or platform blocks you from doing
                 what you came to do, we want to know. Email{" "}
                 <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>{" "}
-                with the URL, a short description, and — if you can — the
+                with the URL, a short description, and, if you can, the
                 device, browser, and assistive technology you were using.
               </p>
               <p>

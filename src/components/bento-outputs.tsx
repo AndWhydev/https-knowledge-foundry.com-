@@ -17,7 +17,7 @@ export function BentoOutputs() {
           </SplitText>
           <Reveal delay={0.35}>
             <p className="text-lede mt-6 max-w-[52ch]">
-              Every Foundry engagement leaves you with a set of artefacts — each one
+              Every Foundry engagement leaves you with a set of artefacts, each one
               exportable, versioned, and traceable to source.
             </p>
           </Reveal>

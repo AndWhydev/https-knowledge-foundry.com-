@@ -8,7 +8,7 @@ import { FloatingCubes } from "@/components/motion/floating-cubes";
 export function CtaBand({
   eyebrow = "Ready to see it?",
   title = "Bring a subject. Leave with a framework.",
-  lede = "A 45-minute working session with our team on a real subject or programme you own. You see the system operate on your material — and you keep the framework it produces.",
+  lede = "A 45-minute working session with our team on a real subject or programme you own. You see the system operate on your material, and you keep the framework it produces.",
   ctaLabel = "Request a demonstration",
   ctaHref = "/demonstration",
 }: {

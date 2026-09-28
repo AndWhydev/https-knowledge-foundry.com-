@@ -16,7 +16,7 @@ export function Reveal({
   as: Tag = "div",
   duration = 0.7,
   once = true,
-  amount = 0.25,
+  amount = 0.1,
 }: {
   children: ReactNode;
   delay?: number;
@@ -64,7 +64,9 @@ export function RevealStagger({
       className={className}
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: true, amount: 0.2 }}
+      // Trigger as soon as the top of the group enters; a fractional amount on a
+      // tall stacked mobile grid leaves hundreds of pixels of blank space.
+      viewport={{ once: true, amount: "some", margin: "0px 0px -8% 0px" }}
       variants={{
         hidden: {},
         visible: { transition: { staggerChildren: reduce ? 0 : gap } },

@@ -11,7 +11,7 @@ const steps = [
   {
     n: "01",
     title: "Interpret",
-    desc: "The system reads your source material. subjects, documents, policies, standards. and extracts the requirements that must be met. Every requirement carries the sentence it came from.",
+    desc: "The system reads your source material (subjects, documents, policies, standards) and extracts the requirements that must be met. Every requirement carries the sentence it came from.",
     color: "#ef6704",
   },
   {
@@ -23,7 +23,7 @@ const steps = [
   {
     n: "03",
     title: "Produce",
-    desc: "Instruction, activities, and verification are generated to fit the approved framework. Every element traces back to a requirement. so nothing produced is content without a place.",
+    desc: "Instruction, activities, and verification are generated to fit the approved framework. Every element traces back to a requirement, so nothing produced is content without a place.",
     color: "#ef6704",
   },
   {

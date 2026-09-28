@@ -80,7 +80,7 @@ const related = [
   {
     eyebrow: "Trust",
     title: "Trust Centre overview",
-    desc: "The full posture at a glance. security, compliance, and data handling.",
+    desc: "The full posture at a glance: security, compliance, and data handling.",
     href: "/trust",
   },
   {

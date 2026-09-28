@@ -105,7 +105,7 @@ export default function HomePage() {
   return (
     <>
       {/* HERO — dark, interactive, WebGL-tier canvas */}
-      <section className="relative overflow-hidden bg-[#0d0f14] text-white pt-16 md:pt-28 pb-24 md:pb-36 min-h-[calc(100vh-72px)] flex items-center">
+      <section className="relative overflow-hidden bg-[#0d0f14] text-white pt-12 md:pt-28 pb-20 md:pb-36 lg:min-h-[calc(100vh-72px)] flex items-center">
         <HeroCanvas />
         {/* Bottom fade to page bg */}
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-white pointer-events-none" aria-hidden />
@@ -157,14 +157,14 @@ export default function HomePage() {
                 </div>
               </Reveal>
               <Reveal delay={0.85}>
-                <div className="mt-10 pt-8 border-t border-white/10 grid grid-cols-3 gap-8 max-w-lg">
+                <div className="mt-10 pt-8 border-t border-white/10 grid grid-cols-3 gap-4 sm:gap-8 max-w-lg">
                   <DarkStat value={4} suffix="-step" label="Interpret → Structure → Produce → Deliver" />
                   <DarkStat value={0} label="Content written before structure is defined" />
                   <DarkStat value={100} suffix="%" label="Traceable to requirement" />
                 </div>
               </Reveal>
             </div>
-            <Reveal delay={0.2} className="relative">
+            <Reveal delay={0.2} className="relative hidden lg:block">
               <HeroLattice3D className="w-full aspect-square max-w-[540px] mx-auto" />
             </Reveal>
           </div>
@@ -282,7 +282,7 @@ export default function HomePage() {
                   </Magnetic>
                   <Link
                     href="/platform/see-it-work"
-                    className="text-[14px] font-medium text-white/70 hover:text-white transition-colors"
+                    className="inline-flex items-center py-3 text-[14px] font-medium text-white/70 hover:text-white transition-colors"
                   >
                     See it work →
                   </Link>
@@ -351,6 +351,15 @@ export default function HomePage() {
               frame={false}
               sizes="(min-width: 1200px) 1100px, (min-width: 768px) 92vw, 100vw"
             />
+            <a
+              href="/media/original/foundry-system.png"
+              target="_blank"
+              rel="noopener"
+              className="md:hidden mt-4 inline-flex items-center gap-1.5 py-2 text-[14px] font-medium text-[color:var(--color-ink)]"
+            >
+              <span className="border-b border-current pb-0.5">View the diagram full size</span>
+              <ArrowUpRight className="h-4 w-4" aria-hidden />
+            </a>
           </div>
         </Container>
       </Section>
@@ -395,7 +404,7 @@ export default function HomePage() {
       <Section className="relative overflow-hidden">
         <CursorSpotlight size={640} color="rgba(239,103,4,0.06)" className="hidden lg:block" />
         <Container>
-          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10 md:mb-14">
             <div className="max-w-[640px]">
               <Eyebrow>The Platform</Eyebrow>
               <SplitText as="h2" className="text-display-2 mt-5" stagger={0.05}>
@@ -421,9 +430,9 @@ export default function HomePage() {
                 <TiltCard>
                   <Link
                     href={c.href}
-                    className="group relative flex h-full flex-col p-7 rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white hover:border-[color:var(--color-ink-soft)] transition-all"
+                    className="group relative flex h-full flex-col p-5 md:p-7 rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white hover:border-[color:var(--color-ink-soft)] transition-all"
                   >
-                    <div className="inline-flex h-11 w-11 items-center justify-center rounded-[var(--radius-sm)] bg-[color:var(--color-canvas-tint)] text-[color:var(--color-forge)] mb-6">
+                    <div className="inline-flex h-11 w-11 items-center justify-center rounded-[var(--radius-sm)] bg-[color:var(--color-canvas-tint)] text-[color:var(--color-forge)] mb-4 md:mb-6">
                       {c.icon}
                     </div>
                     <h3 className="text-[19px] leading-[1.25] font-semibold tracking-tight font-[family-name:var(--font-display)] mb-3">
@@ -432,7 +441,7 @@ export default function HomePage() {
                     <p className="text-[14px] leading-[1.6] text-[color:var(--color-ink-muted)] flex-1">
                       {c.desc}
                     </p>
-                    <div className="mt-6 inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] transition-colors">
+                    <div className="mt-6 hidden md:inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] transition-colors">
                       Explore
                       <ArrowUpRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
                     </div>
@@ -483,7 +492,7 @@ export default function HomePage() {
                 <RevealItem key={p.title} as="div">
                   <Link
                     href={p.href}
-                    className="group flex items-start gap-6 py-7 hover:bg-white/40 transition-colors -mx-2 px-2 rounded"
+                    className="group flex items-start gap-4 md:gap-6 py-5 md:py-7 hover:bg-white/40 transition-colors -mx-2 px-2 rounded"
                   >
                     <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-[var(--radius-sm)] bg-white border border-[color:var(--color-hairline)] text-[color:var(--color-forge)] group-hover:border-[color:var(--color-forge)] transition-colors">
                       {p.icon}
@@ -534,7 +543,7 @@ export default function HomePage() {
                 <TiltCard maxTilt={3}>
                   <Link
                     href={ind.href}
-                    className="group block relative overflow-hidden rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white p-7 h-full hover:border-[color:var(--color-ink-soft)] transition-all"
+                    className="group block relative overflow-hidden rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white p-6 md:p-7 h-full hover:border-[color:var(--color-ink-soft)] transition-all"
                   >
                     <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-[radial-gradient(circle_at_top_right,rgba(239,103,4,0.06),transparent_60%)]" aria-hidden />
                     <div className="relative">
@@ -544,7 +553,7 @@ export default function HomePage() {
                       <h3 className="text-[22px] font-[family-name:var(--font-display)] font-semibold tracking-tight">
                         {ind.title}
                       </h3>
-                      <div className="mt-16 inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] transition-colors">
+                      <div className="mt-6 md:mt-16 inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] transition-colors">
                         View sector view
                         <ArrowUpRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
                       </div>
@@ -757,7 +766,7 @@ function DarkStat({ value, suffix = "", label }: { value: number; suffix?: strin
       <div className="text-[28px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-white leading-none">
         <CountUp value={value} suffix={suffix} duration={1.6} />
       </div>
-      <div className="mt-2 text-[11.5px] leading-[1.45] text-white/60">
+      <div className="mt-2 text-[12px] leading-[1.45] text-white/60">
         {label}
       </div>
     </div>

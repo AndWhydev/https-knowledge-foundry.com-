@@ -8,6 +8,7 @@ import Lenis from "lenis";
  *
  * Disabled entirely when:
  *   - the user prefers reduced motion, or
+ *   - the primary pointer is touch (native momentum scroll is better there), or
  *   - the tab is hidden / backgrounded (browsers throttle rAF to zero, which
  *     would freeze Lenis and — critically — freeze scroll for the user until
  *     they returned to the tab). We destroy Lenis on hide and rebuild on show,
@@ -17,6 +18,7 @@ export function SmoothScroll() {
   useEffect(() => {
     const mql = window.matchMedia("(prefers-reduced-motion: reduce)");
     if (mql.matches) return;
+    if (window.matchMedia("(pointer: coarse)").matches) return;
 
     let lenis: Lenis | null = null;
     let rafId = 0;

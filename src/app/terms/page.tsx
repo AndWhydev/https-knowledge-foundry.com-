@@ -34,7 +34,7 @@ export default function TermsPage() {
             <p className="text-lede mt-6 max-w-[60ch]">
               These terms govern your use of {site.url} (the &ldquo;site&rdquo;).
               They are not the customer contract for the Knowledge Foundry
-              platform — that is a separate master services agreement (MSA).
+              platform; that is a separate master services agreement (MSA).
               Where these terms and an executed MSA cover the same subject
               matter, the MSA prevails for platform use.
             </p>
@@ -81,7 +81,7 @@ export default function TermsPage() {
               </ul>
               <p>
                 Good-faith security research is covered by our responsible-disclosure
-                programme — see the <Link href="/trust/security">security page</Link>.
+                programme. See the <Link href="/trust/security">security page</Link>.
               </p>
             </section>
 
@@ -97,8 +97,8 @@ export default function TermsPage() {
                 Knowledge Foundry and a link to the source page.
               </p>
               <p>
-                All other use — including republication, adaptation, or use
-                for training machine-learning systems — requires our prior
+                All other use, including republication, adaptation, or use
+                for training machine-learning systems, requires our prior
                 written consent.
               </p>
             </section>
@@ -106,8 +106,8 @@ export default function TermsPage() {
             <section>
               <h2>5. Content you submit</h2>
               <p>
-                If you submit information to us — through a form, an email, or
-                any other channel — you confirm that you are entitled to
+                If you submit information to us through a form, an email, or
+                any other channel, you confirm that you are entitled to
                 provide it and that it is accurate to the best of your
                 knowledge. We handle personal information you submit in line
                 with our <Link href="/privacy">privacy policy</Link>.
@@ -142,8 +142,8 @@ export default function TermsPage() {
                 fitness for a particular purpose.
               </p>
               <p>
-                Content on the site — including editorial pages, technical
-                overviews, and product descriptions — is provided for general
+                Content on the site, including editorial pages, technical
+                overviews, and product descriptions, is provided for general
                 information. It is not legal, regulatory, clinical, or
                 professional advice, and it does not create a professional
                 relationship between you and us.

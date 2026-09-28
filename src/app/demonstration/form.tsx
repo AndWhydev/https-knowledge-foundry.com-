@@ -77,7 +77,7 @@ function bundleMessage(v: Values): string {
     v.subject,
     v.anythingElse ? `\nADDITIONAL CONTEXT\n${v.anythingElse}` : "",
     ``,
-    `— Submitted via knowledge-foundry.com/demonstration`,
+    `Submitted via knowledge-foundry.com/demonstration`,
   ]
     .filter((line) => line !== null)
     .join("\n");

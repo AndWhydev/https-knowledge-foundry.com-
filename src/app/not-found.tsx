@@ -10,7 +10,7 @@ export default function NotFound() {
           <Eyebrow>Error 404</Eyebrow>
           <h1 className="text-display-1 mt-6">This page has no framework.</h1>
           <p className="text-lede mt-6 max-w-[46ch] mx-auto">
-            The page you asked for does not exist — or has been retired without a
+            The page you asked for does not exist, or has been retired without a
             redirect. Try the platform overview, or head back to the home page.
           </p>
           <div className="mt-10 flex flex-wrap gap-3 justify-center">

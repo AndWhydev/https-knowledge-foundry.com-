@@ -61,8 +61,8 @@ export default function PrivacyPage() {
                 For enquiries from customers about processing performed under a
                 master services agreement, we act as processor on the
                 customer&rsquo;s instruction. For enquiries about our own
-                collection — for example, from a person who submits our
-                demonstration form — we act as controller.
+                collection (for example, from a person who submits our
+                demonstration form), we act as controller.
               </p>
             </section>
 
@@ -98,7 +98,7 @@ export default function PrivacyPage() {
               <ul>
                 <li>Directly, when you submit a form, send us an email, or use the platform.</li>
                 <li>Automatically, through the operation of the website and the platform.</li>
-                <li>From authorised third parties. for example, an authentication provider a customer uses for single sign-on.</li>
+                <li>From authorised third parties, for example an authentication provider a customer uses for single sign-on.</li>
               </ul>
             </section>
 
@@ -124,8 +124,8 @@ export default function PrivacyPage() {
               <h2>5. Who we disclose it to</h2>
               <p>We disclose personal information only where necessary and only to the following categories of recipient.</p>
               <ul>
-                <li><strong>Named subprocessors</strong> that operate infrastructure or narrowly defined services on our behalf. for example, our cloud hosting provider. A summary is on our <Link href="/trust/compliance-posture">compliance-posture page</Link>, and the full register is available on request.</li>
-                <li><strong>Professional advisers</strong>. for example, legal or accounting advisers. bound by confidentiality.</li>
+                <li><strong>Named subprocessors</strong> that operate infrastructure or narrowly defined services on our behalf, such as our cloud hosting provider. A summary is on our <Link href="/trust/compliance-posture">compliance-posture page</Link>, and the full register is available on request.</li>
+                <li><strong>Professional advisers</strong>, such as legal or accounting advisers, who are bound by confidentiality.</li>
                 <li><strong>Regulators, law enforcement, or courts</strong> where required by law.</li>
                 <li><strong>A successor entity</strong> in the event of a corporate transaction, subject to continued protection consistent with this policy.</li>
               </ul>
@@ -139,8 +139,8 @@ export default function PrivacyPage() {
                 routinely replicate customer content overseas.
               </p>
               <p>
-                A small number of operational subprocessors — for example,
-                specific error-tracking or transactional-email providers —
+                A small number of operational subprocessors, such as
+                specific error-tracking or transactional-email providers,
                 may process limited technical or contact data outside
                 Australia. Where that occurs, we rely on the recipient&rsquo;s
                 own privacy protections and, where required, contractual

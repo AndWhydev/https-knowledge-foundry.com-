@@ -34,9 +34,9 @@ export function Section({
     <Tag
       id={id}
       className={cn(
-        spacing === "default" && "py-20 md:py-28",
-        spacing === "compact" && "py-14 md:py-20",
-        spacing === "loose" && "py-28 md:py-40",
+        spacing === "default" && "py-16 md:py-28",
+        spacing === "compact" && "py-12 md:py-20",
+        spacing === "loose" && "py-20 md:py-40",
         spacing === "flush" && "py-0",
         className,
       )}
