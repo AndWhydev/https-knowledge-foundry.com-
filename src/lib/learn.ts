@@ -100,7 +100,7 @@ export type LearnPage = {
  * Highest release batch that is live on production. 0 = nothing published:
  * hold until the canonical domain serves this site (SOP rule E1).
  */
-export const LIVE_RELEASE = 0;
+export const LIVE_RELEASE = 1;
 
 const showAll = process.env.VERCEL_ENV !== "production";
 

@@ -1,5 +1,16 @@
 import Link from "next/link";
 import { Fragment, type ReactNode } from "react";
+import { allLearnPages, learnHref } from "@/lib/learn";
+
+const LEARN_PATH = /^\/(glossary|guides|regulations|compare)\/[a-z0-9-]+$/;
+let released: Set<string> | null = null;
+
+/** Links to learn pages that are not released yet render as plain text, never as a 404. */
+function isLive(href: string): boolean {
+  if (!LEARN_PATH.test(href)) return true;
+  released ??= new Set(allLearnPages().map(learnHref));
+  return released.has(href);
+}
 
 const TOKEN = /(\*\*[^*]+\*\*|\[[^\]]+\]\([^)\s]+\))/g;
 
@@ -18,6 +29,7 @@ export function Inline({ text }: { text: string }): ReactNode {
       const [, label, href] = link;
       const cls =
         "text-[color:var(--color-ink)] underline decoration-[color:var(--color-forge)]/50 underline-offset-[3px] hover:decoration-[color:var(--color-forge)]";
+      if (href.startsWith("/") && !isLive(href)) return <Fragment key={i}>{label}</Fragment>;
       return href.startsWith("/") ? (
         <Link key={i} href={href} className={cls}>
           {label}

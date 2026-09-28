@@ -56,6 +56,7 @@ export const siteIndex: SiteEntry[] = [
   { group: "Trust", title: "Security", href: "/trust/security" },
   { group: "Trust", title: "Compliance posture", href: "/trust/compliance-posture" },
 
+  { group: "Company", title: "Learn: regulations, guides, glossary", href: "/learn", keywords: "AUSTRAC APRA RG146 WHS NSQHS ISO SCORM xAPI competency framework glossary guides" },
   { group: "Company", title: "About", href: "/about" },
   { group: "Company", title: "Who this is for", href: "/who-can-use-this" },
   { group: "Company", title: "Request a demonstration", href: "/demonstration", keywords: "demo book contact" },
