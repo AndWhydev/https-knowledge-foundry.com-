@@ -81,16 +81,8 @@ const homeFaqItems = [
     a: "No. The Foundry sits upstream of your LMS. It produces the structured framework and the instruction that runs inside the LMS you already use. If you need us to deliver the runtime as well, we can, but replacing an LMS is not what we sell.",
   },
   {
-    q: "Who owns the framework once it is built?",
-    a: "You do. The framework, every version of it, and the evidence of every review, all belong to your organisation. If you leave the platform, you leave with the framework. That commitment is in the master services agreement, not just the pitch deck.",
-  },
-  {
     q: "How does this differ from an AI content generator?",
     a: "AI generators produce content that hopes to cover a subject. The Foundry defines what must be covered, in what order, and how it is verified, before content is generated at all. The framework is the object of record. Content is downstream of it, and traceable to it.",
-  },
-  {
-    q: "What sits under review, and by whom?",
-    a: "Each framework proposal is reviewed and approved by a human owner in your organisation before any content is generated. Each content asset carries a review chain. Nothing ships without a signed approval, and every signature is exportable.",
   },
   {
     q: "How long is the first commercial commitment?",
@@ -292,7 +284,7 @@ export default function HomePage() {
             </div>
             <Reveal delay={0.15} className="relative">
               <div className="relative rounded-[var(--radius-lg)] overflow-hidden border border-white/10 shadow-[0_40px_100px_-20px_rgba(0,0,0,0.6)]">
-                <LazyLoopVideo src="/media/lattice-loop.mp4" poster="/media/editorial-blueprint.png" />
+                <LazyLoopVideo src="/media/lattice-loop.mp4" poster="/media/editorial-blueprint.png" liveLabel="Live · Framework assembling" />
                 {/* Corner marks */}
                 {[
                   "top-3 left-3 border-t-2 border-l-2",
@@ -306,11 +298,6 @@ export default function HomePage() {
                     className={`absolute w-3.5 h-3.5 border-[color:var(--color-forge)] ${pos}`}
                   />
                 ))}
-                {/* Status pill */}
-                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex items-center gap-2 rounded-full bg-black/70 backdrop-blur border border-white/10 px-4 py-1.5">
-                  <span className="h-1.5 w-1.5 rounded-full bg-[color:var(--color-forge)]" style={{ animation: "forge-glow 2s ease-in-out infinite" }} />
-                  <span className="text-[11px] font-medium tracking-tight text-white/80">Live · Framework assembling</span>
-                </div>
               </div>
             </Reveal>
           </div>
@@ -351,42 +338,20 @@ export default function HomePage() {
               <ArrowUpRight className="h-4 w-4" aria-hidden />
             </a>
           </div>
-        </Container>
-      </Section>
-
-      {/* ANATOMY — editorial still with parallax. Tablet and up only, to keep the phone page a sensible length. */}
-      <Section className="hidden md:block bg-[color:var(--color-canvas-warm)] relative overflow-hidden" spacing="loose">
-        <FloatingCubes className="absolute inset-0 pointer-events-none opacity-40 hidden md:block" />
-        <Container>
-          <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.35fr)] gap-10 lg:gap-16 items-center">
-            <div>
-              <Eyebrow>Anatomy of a knowledge system</Eyebrow>
-              <SplitText as="h2" className="text-display-2 mt-5 max-w-[16ch]" stagger={0.05}>
-                Concepts. Relationships. Evidence.
-              </SplitText>
-              <Reveal delay={0.15}>
-                <p className="text-lede mt-6 max-w-[46ch]">
-                  Each cube is a concept. Each line is a relationship. The glowing
-                  nodes are the points at which capability is verified. Nothing in a
-                  program built with the Foundry exists without a place on this diagram.
-                </p>
-              </Reveal>
-              <RevealStagger className="mt-8 grid grid-cols-2 gap-4 max-w-md" as="ul">
-                {[
-                  { k: "Concepts", v: "Named, deduplicated, cited" },
-                  { k: "Relationships", v: "Typed and explicit" },
-                  { k: "Assessments", v: "Anchored to the framework" },
-                  { k: "Provenance", v: "Each node, each version" },
-                ].map((r) => (
-                  <RevealItem as="li" key={r.k} className="border-t border-[color:var(--color-hairline-strong)] pt-3">
-                    <div className="text-[11px] font-medium uppercase tracking-[0.1em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)]">{r.k}</div>
-                    <div className="text-[13.5px] text-[color:var(--color-ink-soft)] mt-1">{r.v}</div>
-                  </RevealItem>
-                ))}
-              </RevealStagger>
-            </div>
-            <AnimatedEditorial src="editorial-blueprint.png" parallax={50} />
-          </div>
+          {/* Anatomy of a knowledge system, folded in from its own section */}
+          <RevealStagger className="max-w-[1100px] mx-auto mt-12 grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-5" as="ul">
+            {[
+              { k: "Concepts", v: "Named, deduplicated, cited" },
+              { k: "Relationships", v: "Typed and explicit" },
+              { k: "Assessments", v: "Anchored to the framework" },
+              { k: "Provenance", v: "Each node, each version" },
+            ].map((r) => (
+              <RevealItem as="li" key={r.k} className="border-t border-[color:var(--color-hairline-strong)] pt-3">
+                <div className="text-[11px] font-medium uppercase tracking-[0.1em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)]">{r.k}</div>
+                <div className="text-[13.5px] text-[color:var(--color-ink-soft)] mt-1">{r.v}</div>
+              </RevealItem>
+            ))}
+          </RevealStagger>
         </Container>
       </Section>
 
@@ -696,7 +661,7 @@ export default function HomePage() {
 
       {/* FAQ */}
       <div className="bg-[color:var(--color-canvas-warm)]">
-        <HomeFAQ title="The six we get most often." eyebrow="Common questions" items={homeFaqItems} />
+        <HomeFAQ title="The questions we get most often." eyebrow="Common questions" items={homeFaqItems} />
       </div>
 
       {/* CTA */}

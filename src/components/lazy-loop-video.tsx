@@ -15,10 +15,13 @@ export function LazyLoopVideo({
   src,
   poster,
   sizes = "(min-width: 1024px) 60vw, 100vw",
+  liveLabel,
 }: {
   src: string;
   poster: string;
   sizes?: string;
+  /** Status pill shown only while the video is actually playing, never over the still. */
+  liveLabel?: string;
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const reduce = useReducedMotion();
@@ -62,6 +65,12 @@ export function LazyLoopVideo({
         >
           <source src={src} type="video/mp4" />
         </video>
+      )}
+      {liveLabel && playing && (
+        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex items-center gap-2 rounded-full bg-black/70 backdrop-blur border border-white/10 px-4 py-1.5">
+          <span className="h-1.5 w-1.5 rounded-full bg-[color:var(--color-forge)]" style={{ animation: "forge-glow 2s ease-in-out infinite" }} />
+          <span className="text-[11px] font-medium tracking-tight text-white/80">{liveLabel}</span>
+        </div>
       )}
     </div>
   );

@@ -23,6 +23,7 @@
 
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { ArrowRight, Check, AlertCircle } from "lucide-react";
+import { track } from "@vercel/analytics";
 
 type Values = {
   fullName: string;
@@ -154,6 +155,8 @@ export function DemonstrationForm() {
       const json: { success?: boolean; message?: string } = await res.json();
       if (res.ok && json.success) {
         setStatus("success");
+        // Conversion event for Vercel Analytics. No personal details are sent.
+        track("Demo request");
       } else {
         setStatus("error");
         setErrorMessage(json.message || "Something went wrong on our end. Please try again in a moment, or email hello@knowledge-foundry.com.");
