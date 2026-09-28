@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { motion, AnimatePresence } from "motion/react";
 import { Plus } from "lucide-react";
 import { Container, Section, Eyebrow } from "@/components/ui/container";
 import { Reveal } from "@/components/motion/reveal";
@@ -21,8 +20,18 @@ export function FAQ({
   items: FAQItem[];
 }) {
   const [open, setOpen] = useState<number | null>(0);
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: items.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: { "@type": "Answer", text: item.a },
+    })),
+  };
   return (
     <Section>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Container size="narrow">
         <div className="mb-12 text-center">
           <Eyebrow>{eyebrow}</Eyebrow>
@@ -56,22 +65,20 @@ export function FAQ({
                     <Plus className="h-4 w-4 transition-transform" />
                   </span>
                 </button>
-                <AnimatePresence initial={false}>
-                  {isOpen && (
-                    <motion.div
-                      id={`faq-${i}`}
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: "auto", opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.28, ease: [0.25, 1, 0.5, 1] }}
-                      className="overflow-hidden"
-                    >
-                      <div className="pb-6 pr-14 text-[15px] leading-[1.65] text-[color:var(--color-ink-muted)]">
-                        {item.a}
-                      </div>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
+                {/* Answers stay in the server HTML even when collapsed, so crawlers and
+                    answer engines (which do not run JS) can read every one. */}
+                <div
+                  id={`faq-${i}`}
+                  className={`grid transition-[grid-template-rows,opacity] duration-300 ease-[cubic-bezier(0.25,1,0.5,1)] ${
+                    isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+                  }`}
+                >
+                  <div className="overflow-hidden">
+                    <div className="pb-6 pr-14 text-[15px] leading-[1.65] text-[color:var(--color-ink-muted)]">
+                      {item.a}
+                    </div>
+                  </div>
+                </div>
               </div>
             );
           })}

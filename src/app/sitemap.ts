@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { site } from "@/lib/site";
+import { allLearnPages, kinds, learnHref } from "@/lib/learn";
 
 type Route = { path: string; priority: number; changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"] };
 
@@ -65,14 +66,39 @@ const routes: Route[] = [
   { path: "/privacy",                           priority: 0.3, changeFrequency: "yearly" },
   { path: "/terms",                             priority: 0.3, changeFrequency: "yearly" },
   { path: "/accessibility-statement",           priority: 0.3, changeFrequency: "yearly" },
+  { path: "/editorial-standards",               priority: 0.4, changeFrequency: "yearly" },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  return routes.map((r) => ({
-    url: `${site.url}${r.path}`,
-    lastModified: now,
-    changeFrequency: r.changeFrequency,
-    priority: r.priority,
-  }));
+  const learn = allLearnPages();
+  // Hubs change whenever any page in them does.
+  const latest = (list: typeof learn) =>
+    list.reduce((max, p) => (p.updated > max ? p.updated : max), "2026-01-01");
+  return [
+    ...routes.map((r) => ({
+      url: `${site.url}${r.path}`,
+      lastModified: now,
+      changeFrequency: r.changeFrequency,
+      priority: r.priority,
+    })),
+    // Hubs are listed only once they have pages in them.
+    ...(learn.length
+      ? [{ url: `${site.url}/learn`, lastModified: new Date(latest(learn)), changeFrequency: "weekly" as const, priority: 0.8 }]
+      : []),
+    ...Object.entries(kinds)
+      .filter(([kind]) => learn.some((p) => p.kind === kind))
+      .map(([kind, k]) => ({
+      url: `${site.url}${k.path}`,
+      lastModified: new Date(latest(learn.filter((p) => p.kind === kind))),
+      changeFrequency: "weekly" as const,
+      priority: 0.75,
+    })),
+    ...learn.map((p) => ({
+      url: `${site.url}${learnHref(p)}`,
+      lastModified: new Date(p.updated),
+      changeFrequency: "monthly" as const,
+      priority: p.kind === "regulation" || p.kind === "guide" ? 0.7 : 0.6,
+    })),
+  ];
 }
