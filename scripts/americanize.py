@@ -8,7 +8,7 @@ PROTECT = [
     "Registered Training Organisations", "Registered Training Organisation",
     "Australian Education Research Organisation", "Analysis Centre", "Artificial Intelligence Centre",
     "Cyber Security Centre", "Financial Centre", "Behaviour Support", "International Labour Organization",
-    "Department of Defence", "Defence Force", "Australian financial services licence", "Australian Financial Services Licence",
+    "Department of Defence", "Defence Force", "Ministry of Health, Labour and Welfare", "Australian financial services licence", "Australian Financial Services Licence",
     "Organisation for Economic Co-operation and Development", "World Health Organisation",
 ]
 STEMS = {  # british stem -> american stem (applied to word starts)

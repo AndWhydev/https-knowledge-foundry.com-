@@ -13,6 +13,7 @@ import { Marquee } from "@/components/marquee";
 import { Reveal, RevealStagger, RevealItem } from "@/components/motion/reveal";
 import { AnimatedEditorial } from "@/components/motion/animated-editorial";
 import { LazyLoopVideo } from "@/components/lazy-loop-video";
+import { VideoTeaser } from "@/components/video/video-teaser";
 import { SplitText, Highlight } from "@/components/motion/split-text";
 import { Magnetic } from "@/components/motion/magnetic";
 import { CountUp } from "@/components/motion/count-up";
@@ -236,6 +237,9 @@ export default function HomePage() {
           </div>
         </Container>
       </Section>
+
+      {/* SEE IT WORK — entry point to the explainer videos */}
+      <VideoTeaser />
 
       {/* THE SYSTEM — compact interactive process */}
       <div id="system">
