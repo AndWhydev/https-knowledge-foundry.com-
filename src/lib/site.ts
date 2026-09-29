@@ -22,7 +22,7 @@ export const nav = {
         heading: "The system",
         items: [
           { label: "Platform overview", href: "/platform", desc: "How Knowledge Foundry works end to end" },
-          { label: "See it work", href: "/platform/see-it-work", desc: "Walk through a real transformation" },
+          { label: "See it work", href: "/platform/see-it-work", desc: "Ten short explainer videos" },
           { label: "Technical overview", href: "/platform/technical-overview", desc: "Architecture, models, and delivery" },
         ],
       },

@@ -1,6 +1,7 @@
 import { allLearnPages, kinds, learnHref, type LearnKind } from "@/lib/learn";
 import { site } from "@/lib/site";
 import { plain } from "@/components/learn/inline";
+import { videoHref, videos } from "@/lib/videos";
 
 export const dynamic = "force-static";
 
@@ -38,6 +39,10 @@ export function GET() {
       if (list.length === 0) return [];
       return [`## ${kinds[k].label}`, ...list.map((p) => `- [${p.title}](${site.url}${learnHref(p)}): ${plain(p.description)}`), ""];
     }),
+    "## Explainer videos",
+    "Each page has the video and its full transcript.",
+    ...videos.map((v) => `- [${v.title}](${site.url}${videoHref(v)}): ${v.summary}`),
+    "",
     "## Optional",
     `- [Editorial standards](${site.url}/editorial-standards): How reference pages are sourced, dated, and corrected.`,
     `- [Insights](${site.url}/insights): Longer essays on structure, verification, and audit.`,

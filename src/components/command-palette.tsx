@@ -98,7 +98,7 @@ export function CommandPalette() {
 
                   <Command.Group heading="Actions" className="[&_[cmdk-group-heading]]:px-3 [&_[cmdk-group-heading]]:pt-3 [&_[cmdk-group-heading]]:pb-1.5 [&_[cmdk-group-heading]]:text-[10.5px] [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:uppercase [&_[cmdk-group-heading]]:tracking-[0.14em] [&_[cmdk-group-heading]]:text-[color:var(--color-ink-faint)] [&_[cmdk-group-heading]]:font-[family-name:var(--font-jetbrains)]">
                     <PaletteItem onSelect={() => go("/demonstration")} label="Request a demonstration" hint="Open contact form" icon={<Sparkles className="h-3.5 w-3.5" />} highlight />
-                    <PaletteItem onSelect={() => go("/platform/see-it-work")} label="See it work" hint="Live walkthrough" />
+                    <PaletteItem onSelect={() => go("/platform/see-it-work")} label="See it work" hint="Explainer videos" />
                     <PaletteItem onSelect={() => go("/platform")} label="Platform overview" hint="How it all fits" />
                   </Command.Group>
 

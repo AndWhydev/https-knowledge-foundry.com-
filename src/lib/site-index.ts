@@ -9,7 +9,7 @@ export const siteIndex: SiteEntry[] = [
   { group: "Home", title: "Home", href: "/", keywords: "structured knowledge deliberate instruction" },
 
   { group: "Platform", title: "Platform overview", href: "/platform" },
-  { group: "Platform", title: "See it work", href: "/platform/see-it-work" },
+  { group: "Platform", title: "See it work: explainer videos", href: "/platform/see-it-work", keywords: "video overview audit pack review queue learner experience" },
   { group: "Platform", title: "Framework Intelligence", href: "/platform/framework-intelligence", keywords: "structure concepts relationships" },
   { group: "Platform", title: "Gap Analysis", href: "/platform/gap-analysis", keywords: "missing coverage validation" },
   { group: "Platform", title: "Remediation", href: "/platform/remediation", keywords: "close gaps content enhancement" },

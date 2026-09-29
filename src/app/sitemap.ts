@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { site } from "@/lib/site";
 import { allLearnPages, kinds, learnHref } from "@/lib/learn";
+import { videoHref, videos } from "@/lib/videos";
 
 type Route = { path: string; priority: number; changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"] };
 
@@ -95,6 +96,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(latest(learn.filter((p) => p.kind === kind))),
       changeFrequency: "weekly" as const,
       priority: 0.75,
+    })),
+    // One watch page per explainer video, with video sitemap entries.
+    ...videos.map((v) => ({
+      url: `${site.url}${videoHref(v)}`,
+      lastModified: new Date(v.uploadDate),
+      changeFrequency: "yearly" as const,
+      priority: 0.6,
+      videos: [
+        {
+          title: `${v.title}: Knowledge Foundry explainer`,
+          thumbnail_loc: v.poster,
+          description: v.summary || v.tagline,
+          content_loc: v.src,
+          duration: Math.round(v.seconds),
+          publication_date: v.uploadDate,
+        },
+      ],
     })),
     ...learn.map((p) => ({
       url: `${site.url}${learnHref(p)}`,

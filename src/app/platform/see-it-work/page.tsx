@@ -1,122 +1,60 @@
 import type { Metadata } from "next";
-import {
-  PlayCircle,
-  FileText,
-  ShieldCheck,
-  ClipboardCheck,
-  LineChart,
-  UserSquare2,
-  SplitSquareHorizontal,
-  Users,
-  Ruler,
-  Sparkles,
-} from "lucide-react";
 import { TopicHeader } from "@/components/solution/topic-header";
-import { FeatureGrid } from "@/components/solution/feature-grid";
 import { ProcessSteps } from "@/components/solution/process-steps";
 import { FAQ } from "@/components/solution/faq";
 import { CtaBand } from "@/components/solution/cta-band";
 import { ProseBlock } from "@/components/solution/prose-block";
 import { Related } from "@/components/solution/related";
-import { AnimatedEditorial } from "@/components/motion/animated-editorial";
+import { Container, Section, Eyebrow } from "@/components/ui/container";
+import { VideoPlayer } from "@/components/video/video-player";
+import { VideoLibrary } from "@/components/video/video-library";
+import { clock, getVideo, videoHref, videos } from "@/lib/videos";
+import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/platform/see-it-work" },
-  title: "See it work: platform walkthroughs",
+  title: "See it work: explainer videos",
   description:
-    "Short walkthroughs of what Knowledge Foundry does, anchored to business outcomes rather than the technology. Start with the overview or pick a question.",
+    "Ten short narrated explainers on what Knowledge Foundry does, from document to live program, human release control, and audit evidence. With transcripts.",
 };
-
-const walkthroughs = [
-  {
-    icon: <PlayCircle className="h-5 w-5" />,
-    title: "Platform overview",
-    desc: "Six to nine minutes. What Knowledge Foundry does and the business outcomes it creates. Start here if you want the whole shape in one sitting.",
-  },
-  {
-    icon: <SplitSquareHorizontal className="h-5 w-5" />,
-    title: "Before and after",
-    desc: "Two to three minutes. The shift in operating model, from content first to structure first, in under three minutes.",
-  },
-  {
-    icon: <FileText className="h-5 w-5" />,
-    title: "From a document to live",
-    desc: "Four to six minutes. An existing PDF, SOP, or slide deck becomes a governed live program. Start to finish, on real material.",
-  },
-  {
-    icon: <ShieldCheck className="h-5 w-5" />,
-    title: "Assurance and release",
-    desc: "Three to five minutes. The Review Queue, human approval, and the hard line between generation and publication. Humans still decide what goes live.",
-  },
-  {
-    icon: <ClipboardCheck className="h-5 w-5" />,
-    title: "Audit evidence pack",
-    desc: "Three to four minutes. What was taught, how it was governed, and how the evidence exports for external scrutiny.",
-  },
-  {
-    icon: <LineChart className="h-5 w-5" />,
-    title: "After go live",
-    desc: "Three to four minutes. Cohort uptake, operational visibility, and the live portfolio view once programs are in production.",
-  },
-  {
-    icon: <UserSquare2 className="h-5 w-5" />,
-    title: "Learner experience",
-    desc: "Three to five minutes. What your people actually see and do. The delivery surface, not the authoring surface.",
-  },
-  {
-    icon: <Sparkles className="h-5 w-5" />,
-    title: "Guided versus fast",
-    desc: "Two to three minutes. Two production tempos, both able to go live. When to choose which.",
-  },
-  {
-    icon: <Users className="h-5 w-5" />,
-    title: "Role lenses",
-    desc: "Four to five minutes. One Console, different front doors. How L&D, compliance, and subject matter experts see the same program differently.",
-  },
-  {
-    icon: <Ruler className="h-5 w-5" />,
-    title: "Standards and scaffold",
-    desc: "Two to three minutes. Optional depth for programs aligned to a standard. Most programs never need this. The ones that do, need it absolutely.",
-  },
-];
 
 const steps = [
   {
     n: "01",
     title: "Start with the overview",
-    desc: "Six to nine minutes. The whole shape (inputs, framework, generation, review, release) in one sitting.",
+    desc: "About seven minutes. The whole operating cycle (produce, assure, evidence, measure) in one sitting.",
   },
   {
     n: "02",
     title: "Jump to the question you care about",
-    desc: "Each walkthrough is scoped to a single concern: evidence, review, deployment, or learner experience. Watch what applies.",
+    desc: "Each explainer is scoped to a single concern: release control, evidence, learner experience, or production tempo. Watch what applies.",
   },
   {
     n: "03",
     title: "Bring your own material to a working session",
-    desc: "The demonstrations are on generic content. The working session is on yours. 45 minutes. You keep whatever the Foundry produces.",
+    desc: "The explainers describe the platform. The working session shows it on your content. 45 minutes. You keep whatever the Foundry produces.",
   },
 ];
 
 const faq = [
   {
-    q: "Are these live product tours or edited marketing videos?",
-    a: "Live product walkthroughs. Each clip shows the actual platform operating on real material, not a designed mockup, not a re-enactment. Some editing is applied to remove waiting time and to caption specific screen elements. The system behavior is unedited.",
+    q: "Are these recordings of the live product?",
+    a: "No. They are short illustrated explainers with narration. They explain how the platform works and the outcomes it supports, in business terms rather than technical ones. To see the product itself operating, request a working session on your own material.",
   },
   {
     q: "Do we need to watch all of them?",
-    a: "No. The Platform Overview covers the whole system in one sitting. Each other walkthrough is scoped to a single concern: review, evidence, learner experience, or deployment shape. Watch the ones that map to your evaluation criteria and skip the rest.",
+    a: "No. The platform overview covers the whole operating cycle in about seven minutes. Each other explainer is scoped to a single concern, and every one has a full transcript on its own page if you prefer to read.",
   },
   {
-    q: "Are the walkthroughs relevant if we run a heavily regulated environment?",
-    a: "Yes. The Assurance and Release, Audit Evidence Pack, and Standards and Scaffold walkthroughs are specifically for regulated evaluation. They cover the Review Queue, Foundry Hash, Master Integrity Root, and the exportable evidence trail.",
+    q: "Are the explainers relevant if we run a heavily regulated environment?",
+    a: "Yes. Assurance and release, Audit evidence pack, and Standards and Scaffold are written for regulated evaluation. They cover the review queue, human sign off before anything goes live, and the audit pack that records what a program teaches and who approved it.",
   },
   {
     q: "Can we get a demonstration on our own subject rather than the sample material?",
     a: "Yes, and this is the recommended next step. A working session runs 45 minutes on a real subject or program you own. You watch the Foundry interpret, structure, and produce on your material, and you keep the framework it creates. No obligation.",
   },
   {
-    q: "What if we want a deeper technical walkthrough than these clips cover?",
+    q: "What if we want a deeper technical walkthrough than these explainers cover?",
     a: "Technical evaluations covering the Semantic Compiler, cryptographic hashing protocols, traceability at block level, and deployment topology are conducted under a mutual non-disclosure agreement. Request a technical evaluation and the depth adjusts to the questions you need answered.",
   },
 ];
@@ -125,13 +63,13 @@ const related = [
   {
     eyebrow: "Foundation",
     title: "The platform overview",
-    desc: "The full shape of the system. Read the eight capabilities that the walkthroughs demonstrate.",
+    desc: "The full shape of the system. Read the eight capabilities that the explainers describe.",
     href: "/platform",
   },
   {
     eyebrow: "Adjacent",
     title: "Framework Intelligence",
-    desc: "The starting move in each walkthrough. Structure before wording, framework before content.",
+    desc: "The starting move in the operating cycle. Structure before wording, framework before content.",
     href: "/platform/framework-intelligence",
   },
   {
@@ -143,8 +81,22 @@ const related = [
 ];
 
 export default function SeeItWorkPage() {
+  const featured = getVideo("platform-overview")!;
+  const second = getVideo("before-and-after")!;
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Knowledge Foundry explainer videos",
+    itemListElement: videos.map((v, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: `${site.url}${videoHref(v)}`,
+      name: `${v.title} (${clock(v.seconds)})`,
+    })),
+  };
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <TopicHeader
         eyebrow="See It Work"
         breadcrumb={[
@@ -157,56 +109,67 @@ export default function SeeItWorkPage() {
             <span className="text-[color:var(--color-forge)]">on camera</span>.
           </>
         }
-        lede="Short walkthroughs of what the platform does, focused on business outcomes rather than the technology under the hood. Start with the overview, or jump to the question you care about."
+        lede="Ten short narrated explainers on what the platform does, focused on business outcomes rather than the technology under the hood. Start with the overview, or jump to the question you care about."
         secondaryCta={{ label: "Read the platform overview", href: "/platform" }}
-        visual={<AnimatedEditorial src="editorial-hero.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
+        visual={
+          <VideoPlayer
+            src={featured.src}
+            poster={featured.poster}
+            title={featured.title}
+            next={{ title: second.title, href: videoHref(second) }}
+          />
+        }
       />
 
       <ProseBlock
         eyebrow="How to use this page"
-        title="Ten focused walkthroughs. Each answers one concern."
+        title="Ten focused explainers. Each answers one concern."
       >
         <p>
-          Marketing videos describe what a product wants to be. These walkthroughs
-          show what Knowledge Foundry actually does, running on real material,
-          producing real artifacts, and taking real review decisions. Each clip
-          is scoped to a single question a senior evaluator tends to ask.
+          Each explainer takes one question a senior evaluator tends to ask
+          (how a document becomes a live program, who decides what goes live,
+          what evidence exists afterward) and answers it in a few minutes, in
+          business terms. Every video has its own page with a full transcript.
         </p>
         <p>
-          If you have fifteen minutes, watch the Platform Overview and Before and
-          After. If you have an hour, pick the walkthroughs that map to your
-          evaluation criteria. If you have a subject of your own, skip the
-          videos and book a working session. The demonstration you actually
-          want is the one on your material.
+          If you have fifteen minutes, watch the platform overview and Before
+          and after. If you have an hour, pick the explainers that map to your
+          evaluation criteria. If you have a subject of your own, skip ahead and
+          book a working session. The demonstration you actually want is the
+          one on your material.
         </p>
       </ProseBlock>
 
-      <FeatureGrid
-        eyebrow="Ten walkthroughs"
-        title="Overview, evidence, learner experience, deployment, governance."
-        lede="Each walkthrough is deliberately short. Depth is available on request under a mutual non-disclosure agreement."
-        features={walkthroughs}
-        columns={3}
-      />
+      <Section>
+        <Container>
+          <div className="mb-10 max-w-[720px]">
+            <Eyebrow>All ten explainers</Eyebrow>
+            <h2 className="text-display-2 mt-5">Overview, production, control, evidence, and depth.</h2>
+            <p className="text-lede mt-5">
+              {videos.length} videos, {Math.round(videos.reduce((t, v) => t + v.seconds, 0) / 60)} minutes in total. Each opens on its own page with the full transcript.
+            </p>
+          </div>
+          <VideoLibrary />
+        </Container>
+      </Section>
 
       <ProcessSteps
         eyebrow="How to watch this page"
         title="Overview. Deep dive. Working session."
-        lede="Progressive disclosure. The walkthroughs answer the general questions so the working session can focus on the specific ones."
+        lede="Progressive disclosure. The explainers answer the general questions so the working session can focus on the specific ones."
         steps={steps}
         tone="canvas"
       />
 
       <ProseBlock
-        eyebrow="What the walkthroughs will not do"
+        eyebrow="What the explainers will not do"
         title="No fabricated case studies. No manufactured testimonials. No competitor teardowns."
       >
         <p>
-          The walkthroughs show the platform. They do not show a story about the
-          platform. There are no client names, no invented metrics, and no
-          side by side comparisons designed to make Knowledge Foundry look good
-          by making something else look bad. If you want to know how the system
-          behaves, watch it behave.
+          The explainers describe the platform&apos;s operating cycle. There are
+          no client names, no invented metrics, and no side by side comparisons
+          designed to make Knowledge Foundry look good by making something else
+          look bad.
         </p>
         <p>
           For the specific behavior on your material (your subject, your
@@ -215,7 +178,7 @@ export default function SeeItWorkPage() {
         </p>
       </ProseBlock>
 
-      <FAQ title="Common questions about the walkthroughs." items={faq} />
+      <FAQ title="Common questions about the explainers." items={faq} />
       <Related items={related} />
       <CtaBand
         eyebrow="Bring us your subject"
