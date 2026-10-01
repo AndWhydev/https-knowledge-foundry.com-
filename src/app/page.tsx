@@ -91,7 +91,7 @@ const homeFaqItems = [
   },
   {
     q: "Where is our data held and who can access it?",
-    a: "In the region you choose: the EU, the United States, Japan, or Australia, with the UAE on request. Data is not routinely replicated outside that region. Encryption at rest and in transit. Access is scoped to your project team via SSO. Full detail lives in the trust center, including the subprocessor list and DPA.",
+    a: "In the region you choose: Portugal, the United States, Japan, or Australia. Data is not routinely replicated outside that region. Encryption at rest and in transit. Access is scoped to your project team via SSO. Full detail lives in the trust center, including the subprocessor list and DPA.",
   },
 ];
 

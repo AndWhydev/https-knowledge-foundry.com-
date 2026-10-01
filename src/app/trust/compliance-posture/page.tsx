@@ -35,7 +35,7 @@ const handling = [
   {
     icon: <Globe2 className="h-5 w-5" />,
     title: "Residency",
-    desc: "Production data stays in the customer's region: AWS eu-south-2 (Spain) for Portugal and the EU, us-east-1 for the United States, ap-northeast-1 (Tokyo) for Japan, and ap-southeast-2 (Sydney) for Australia. UAE hosting is available on request. No routine replication across borders.",
+    desc: "Production data stays in the customer's region: Portugal for customers in the European Union, the United States, Japan, or Australia. No routine replication across borders.",
   },
   {
     icon: <Clock className="h-5 w-5" />,
@@ -58,12 +58,17 @@ const subprocessors = [
   {
     name: "Amazon Web Services",
     purpose: "Cloud infrastructure. Compute, storage, database, key management.",
-    region: "Customer's region: eu-south-2, us-east-1, ap-northeast-1, ap-southeast-2, or me-central-1",
+    region: "Customer's region: Portugal, United States, Japan, or Australia",
+  },
+  {
+    name: "Railway",
+    purpose: "Application hosting and compute.",
+    region: "Customer's region: Portugal, United States, Japan, or Australia",
   },
   {
     name: "Application observability provider",
     purpose: "Performance monitoring and error tracking, with PII scrubbed at source",
-    region: "EU, US, Japan, or Australia regions per customer requirement",
+    region: "Portugal, US, Japan, or Australia regions per customer requirement",
   },
   {
     name: "Transactional email provider",

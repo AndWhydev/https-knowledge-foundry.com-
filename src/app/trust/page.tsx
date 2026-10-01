@@ -53,7 +53,7 @@ const posture = [
   {
     icon: <Database className="h-5 w-5" />,
     title: "Data residency by region",
-    desc: "Production data stays in the customer's region: the EU (Spain), the United States (N. Virginia), Japan (Tokyo), or Australia (Sydney), with the UAE on request. No routine replication across borders.",
+    desc: "Production data stays in the customer's region: Portugal, the United States, Japan, or Australia. No routine replication across borders.",
   },
 ];
 
@@ -61,7 +61,7 @@ const controls = [
   {
     icon: <Lock className="h-5 w-5" />,
     title: "Encryption in transit and at rest",
-    desc: "TLS 1.3 across all customer facing endpoints. AES-256 encryption at rest for databases and object storage. Keys managed in AWS KMS with separation per tenant.",
+    desc: "TLS 1.3 across all customer facing endpoints. AES-256 encryption at rest for databases and object storage. Keys held in managed key services with separation per tenant.",
   },
   {
     icon: <KeyRound className="h-5 w-5" />,
@@ -71,7 +71,7 @@ const controls = [
   {
     icon: <Server className="h-5 w-5" />,
     title: "Infrastructure",
-    desc: "Hosted on AWS in the customer's region: eu-south-2, us-east-1, ap-northeast-1, or ap-southeast-2. Segmented VPCs. Immutable infrastructure via versioned deployment pipelines. No shared build hosts.",
+    desc: "Hosted on Amazon Web Services and Railway in the customer's region: Portugal, the United States, Japan, or Australia. Segmented private networks. Immutable infrastructure via versioned deployment pipelines. No shared build hosts.",
   },
   {
     icon: <Users className="h-5 w-5" />,
@@ -93,7 +93,7 @@ const controls = [
 const subprocessorsSummary = [
   {
     title: "Cloud infrastructure",
-    desc: "Amazon Web Services, in the customer's region (EU, US, Japan, Australia, or UAE). Hosting, compute, storage, key management. No routine replication outside that region.",
+    desc: "Amazon Web Services and Railway, in the customer's region (Portugal, the United States, Japan, or Australia). Hosting, compute, storage, key management. No routine replication outside that region.",
   },
   {
     title: "Observability",
@@ -162,10 +162,9 @@ export default function TrustCentrePage() {
       <ProseBlock eyebrow="Data handling" title="Where your data lives, and who touches it.">
         <p>
           Customer data is processed and stored in the customer&apos;s region:
-          AWS eu-south-2 (Spain) for Portugal and the EU, us-east-1 (N.
-          Virginia) for the United States, ap-northeast-1 (Tokyo) for Japan,
-          and ap-southeast-2 (Sydney) for Australia, with me-central-1 (UAE)
-          on request. There is no routine replication to other regions.
+          Portugal, the United States, Japan, or Australia, on Amazon Web
+          Services and Railway infrastructure in that region. There is no
+          routine replication to other regions.
           Backups are encrypted, held in the same region, and retained on a
           defined schedule.
         </p>

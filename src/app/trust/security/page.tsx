@@ -44,7 +44,7 @@ const threats = [
   {
     icon: <Server className="h-5 w-5" />,
     title: "Infrastructure compromise",
-    desc: "Mitigated by hardening native to AWS, private network defaults, restricted management planes, and immutable deployment pipelines with signed artifacts.",
+    desc: "Mitigated by hardening native to our cloud providers, private network defaults, restricted management planes, and immutable deployment pipelines with signed artifacts.",
   },
   {
     icon: <FileSearch className="h-5 w-5" />,
@@ -67,7 +67,7 @@ const controls = [
   {
     icon: <Lock className="h-5 w-5" />,
     title: "Encryption at rest",
-    desc: "AES-256 for databases and object storage. Keys managed in AWS KMS with separation per tenant. Automatic key rotation.",
+    desc: "AES-256 for databases and object storage. Keys held in managed key services with separation per tenant. Automatic key rotation.",
   },
   {
     icon: <KeyRound className="h-5 w-5" />,

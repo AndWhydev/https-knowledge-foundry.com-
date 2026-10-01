@@ -8,13 +8,13 @@ Portugal and the EU · United States · Japan · Australia. (UAE is also served;
 Australia is one market among several. Never the default, never "home".
 
 ## Data residency (in region by default for each customer)
+Hosting: Amazon Web Services and Railway, on demand. Do not name specific region codes. No UAE hosting.
 | Market | Default hosting |
 |---|---|
-| Portugal and EU | AWS Europe (Spain), eu-south-2 |
-| United States | AWS US East (N. Virginia), us-east-1 |
-| Japan | AWS Asia Pacific (Tokyo), ap-northeast-1 |
-| Australia | AWS Asia Pacific (Sydney), ap-southeast-2 |
-| UAE | AWS Middle East (UAE), me-central-1, on request |
+| Portugal (serves EU) | Portugal region |
+| United States | US region |
+| Japan | Japan region |
+| Australia | Australia region |
 Rule: customer data is stored in the customer's chosen region; no routine replication outside that region.
 
 ## Frameworks by market (use as balanced example sets)

@@ -145,15 +145,10 @@ export default function PrivacyPage() {
               <p>
                 Production customer data is processed and stored in the region
                 the customer chooses, by default the region closest to their
-                market:
+                market: Portugal (for customers in the European Union), the
+                United States, Japan, or Australia. Hosting is provided by
+                Amazon Web Services and Railway in that region.
               </p>
-              <ul>
-                <li><strong>Portugal and the European Union:</strong> AWS Europe (Spain), eu-south-2.</li>
-                <li><strong>United States:</strong> AWS US East (N. Virginia), us-east-1.</li>
-                <li><strong>Japan:</strong> AWS Asia Pacific (Tokyo), ap-northeast-1.</li>
-                <li><strong>Australia:</strong> AWS Asia Pacific (Sydney), ap-southeast-2.</li>
-                <li><strong>United Arab Emirates:</strong> AWS Middle East (UAE), me-central-1, on request.</li>
-              </ul>
               <p>
                 We do not routinely replicate customer content outside the
                 chosen region. A small number of operational subprocessors,
