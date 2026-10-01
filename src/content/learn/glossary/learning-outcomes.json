@@ -7,8 +7,8 @@
   "shortAnswer": "A learning outcome is a statement of what a learner is expected to know, understand and be able to do as a result of a course, unit or learning activity. National and regional qualification frameworks define them formally, typically in terms of knowledge, skills and how the learner applies them with autonomy and responsibility. Good outcomes are specific, observable and assessable, and they drive both teaching and assessment design.",
   "keyTakeaways": [
     "Learning outcomes describe results for the learner, not topics the teacher will cover.",
-    "Qualification frameworks express outcomes in similar dimensions: knowledge, skills, and either their application (the AQF) or responsibility and autonomy (the European Qualifications Framework).",
-    "Regulators can make outcomes enforceable: in Australia, for example, higher education providers must specify course learning outcomes and assess all of them before completion under the Higher Education Standards Framework.",
+    "Qualification frameworks express outcomes in similar dimensions: knowledge, skills, and either responsibility and autonomy (the European Qualifications Framework) or their application (the AQF).",
+    "Quality standards build programs around outcomes: European higher education standards, for example, expect programs to be designed to meet their intended learning outcomes.",
     "An outcome that cannot be assessed is a warning sign: rewrite it with an observable verb and a context."
   ],
   "term": "learning outcomes",
@@ -24,37 +24,41 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Qualification frameworks provide the most widely used definitions. The Australian Qualifications Framework (AQF) [glossary](https://www.aqf.edu.au/publication/aqf-glossary) defines learning outcomes as \"the expression of the set of knowledge, skills and the application of the knowledge and skills a person has acquired and is able to demonstrate as a result of learning.\" The [AQF Second Edition](https://www.aqf.edu.au/framework/australian-qualifications-framework) uses these three dimensions to define each of its 10 levels and each qualification type."
+          "text": "Qualification frameworks provide the most widely used definitions. The European Qualifications Framework (EQF), the common reference for national frameworks in Europe, is one. Annex I of the [Council Recommendation of May 22, 2017 on the European Qualifications Framework for lifelong learning](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32017H0615%2801%29) defines learning outcomes as \"statements regarding what a learner knows, understands and is able to do on completion of a learning process, which are defined in terms of knowledge, skills and responsibility and autonomy\"."
+        },
+        {
+          "type": "p",
+          "text": "The Australian Qualifications Framework (AQF) uses a close equivalent. Its [glossary](https://www.aqf.edu.au/publication/aqf-glossary) defines learning outcomes as \"the expression of the set of knowledge, skills and the application of the knowledge and skills a person has acquired and is able to demonstrate as a result of learning.\""
         },
         {
           "type": "table",
-          "caption": "The three AQF dimensions of learning outcomes",
+          "caption": "Learning outcome dimensions in the AQF and the EQF",
           "head": [
-            "Dimension",
-            "What it describes"
+            "AQF dimension",
+            "What it describes",
+            "EQF equivalent"
           ],
           "rows": [
             [
               "Knowledge",
-              "What a graduate knows and understands, described by depth, breadth, kinds of knowledge and complexity"
+              "What a graduate knows and understands, described by depth, breadth, kinds of knowledge and complexity",
+              "Knowledge"
             ],
             [
               "Skills",
-              "What a graduate can do, such as cognitive, technical, communication and creative skills"
+              "What a graduate can do, such as cognitive, technical, communication and creative skills",
+              "Skills"
             ],
             [
               "Application of knowledge and skills",
-              "The context in which knowledge and skills are applied, expressed as autonomy, responsibility and accountability"
+              "The context in which knowledge and skills are applied, expressed as autonomy, responsibility and accountability",
+              "Responsibility and autonomy"
             ]
           ]
         },
         {
           "type": "p",
-          "text": "The European Qualifications Framework (EQF) uses a close equivalent. Annex I of the [Council Recommendation of May 22, 2017 on the European Qualifications Framework for lifelong learning](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32017H0615%2801%29) defines learning outcomes as \"statements regarding what a learner knows, understands and is able to do on completion of a learning process, which are defined in terms of knowledge, skills and responsibility and autonomy\"."
-        },
-        {
-          "type": "p",
-          "text": "How outcomes change between levels is covered in [AQF levels and learning outcomes](/regulations/aqf-levels-and-learning-outcomes)."
+          "text": "How outcomes change between levels in the AQF is covered in [AQF levels and learning outcomes](/regulations/aqf-levels-and-learning-outcomes)."
         }
       ]
     },
@@ -64,15 +68,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Some regulators make learning outcomes an enforceable requirement. In Australian higher education, for example, the Higher Education Standards Framework (Threshold Standards) 2021 requires providers to specify expected learning outcomes and to assess them. Standard 1.4.1 of the [Higher Education Standards Framework](https://www.legislation.gov.au/F2021L00488/latest/text) requires that expected learning outcomes for each course are \"specified, consistent with the level and field of education of the qualification awarded, and informed by national and international comparators.\""
+          "text": "Quality assurance standards expect programs to be built around learning outcomes. In the European Higher Education Area, standard 1.2 of the [ESG 2015](https://www.enqa.eu/wp-content/uploads/2015/11/ESG_2015.pdf) says programs \"should be designed so that they meet the objectives set for them, including the intended learning outcomes\", and asks that each qualification refer to the correct level of the national qualifications framework."
         },
         {
           "type": "p",
-          "text": "Standard 1.4.2 requires outcomes to cover discipline specific and generic outcomes, including knowledge and skills for employment and further study and skills in independent and critical thinking. Standard 1.4.4 requires that students demonstrate all specified outcomes on completion, whether assessed at unit level, course level or both. The Tertiary Education Quality and Standards Agency (TEQSA) explains how it tests these in its [course design guidance note](https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-course-design-including-learning-outcomes-and-assessment); see also [TEQSA HESF course design requirements](/regulations/teqsa-hesf-course-design-requirements)."
-        },
-        {
-          "type": "p",
-          "text": "In the vocational education and training (VET) sector, the equivalent of learning outcomes is expressed through units of competency, which state workplace performance rather than learning outcomes in the academic sense."
+          "text": "In vocational education and training, requirements are often expressed as competency standards, which state workplace performance rather than learning outcomes in the academic sense."
         }
       ]
     },
@@ -111,7 +111,7 @@
           ],
           "rows": [
             [
-              "Understand the Privacy Act",
+              "Understand data protection law",
               "Not observable; scope too broad",
               "Identify personal information in a customer record and explain which handling rule applies"
             ],
@@ -159,7 +159,7 @@
     },
     {
       "q": "Are learning outcomes the same across VET and higher education?",
-      "a": "In Australia, for example, both sectors sit within the AQF, which describes qualifications through learning outcomes. In practice, VET expresses requirements as units of competency with performance and knowledge evidence, while higher education providers write their own course and unit learning outcomes under the Higher Education Standards Framework."
+      "a": "Not in form. Frameworks such as the EQF and the AQF cover both sectors and describe qualifications through learning outcomes. In practice, vocational systems often express requirements as competency standards with performance and knowledge evidence, while higher education providers write their own course and unit learning outcomes."
     }
   ],
   "sources": [
@@ -169,24 +169,14 @@
       "url": "https://www.aqf.edu.au/publication/aqf-glossary"
     },
     {
-      "title": "Australian Qualifications Framework, Second Edition",
-      "publisher": "Australian Qualifications Framework",
-      "url": "https://www.aqf.edu.au/framework/australian-qualifications-framework"
-    },
-    {
-      "title": "Higher Education Standards Framework (Threshold Standards) 2021",
-      "publisher": "Federal Register of Legislation",
-      "url": "https://www.legislation.gov.au/F2021L00488/latest/text"
-    },
-    {
-      "title": "Guidance note: Course design (including learning outcomes and assessment)",
-      "publisher": "Tertiary Education Quality and Standards Agency",
-      "url": "https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-course-design-including-learning-outcomes-and-assessment"
-    },
-    {
       "title": "Council Recommendation of 22 May 2017 on the European Qualifications Framework for lifelong learning (2017/C 189/03)",
       "publisher": "Council of the European Union (EUR-Lex)",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32017H0615%2801%29"
+    },
+    {
+      "title": "Standards and Guidelines for Quality Assurance in the European Higher Education Area (ESG 2015)",
+      "publisher": "ENQA, ESU, EUA and EURASHE",
+      "url": "https://www.enqa.eu/wp-content/uploads/2015/11/ESG_2015.pdf"
     }
   ],
   "related": [
@@ -208,7 +198,7 @@
     }
   ],
   "published": "2026-09-28",
-  "updated": "2026-09-28",
+  "updated": "2026-10-01",
   "release": 5,
   "factCheck": [
     {
@@ -216,20 +206,12 @@
       "source": "https://www.aqf.edu.au/publication/aqf-glossary"
     },
     {
-      "claim": "AQF has 10 levels; levels and qualification types defined by learning outcomes in three dimensions: knowledge, skills, application of knowledge and skills (autonomy, responsibility, accountability)",
-      "source": "https://www.aqf.edu.au/framework/australian-qualifications-framework"
-    },
-    {
-      "claim": "HESF Standards 1.4.1, 1.4.2 and 1.4.4 text on specifying, scope of and demonstrating learning outcomes",
-      "source": "https://www.legislation.gov.au/F2021L00488/latest/text"
-    },
-    {
-      "claim": "TEQSA guidance note on course design covers learning outcomes (Section 1.4) and course design (Section 3.1)",
-      "source": "https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-course-design-including-learning-outcomes-and-assessment"
-    },
-    {
       "claim": "EQF Council Recommendation 2017/C 189/03, Annex I(e): learning outcomes means statements regarding what a learner knows, understands and is able to do on completion of a learning process, defined in terms of knowledge, skills and responsibility and autonomy.",
       "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32017H0615%2801%29"
+    },
+    {
+      "claim": "ESG 2015 standard 1.2 text on programme design and intended learning outcomes",
+      "source": "https://www.enqa.eu/wp-content/uploads/2015/11/ESG_2015.pdf"
     }
   ]
 }

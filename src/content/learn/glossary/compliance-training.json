@@ -9,7 +9,7 @@
     "Compliance training exists to help an organization meet its compliance obligations: the requirements it must meet and those it chooses to meet.",
     "ISO 37301 treats training (clause 7.2.3) and awareness (clause 7.3) as separate support requirements within a compliance management system.",
     "Good compliance training is traceable: obligation, role, learning outcome, assessment and record line up.",
-    "Laws often require training outcomes without prescribing a course: for example, Australia's WHS duty to provide necessary training, and the GDPR task of the data protection officer to monitor awareness raising and training of staff.",
+    "Laws often require training outcomes without prescribing a course: for example, the GDPR task of the data protection officer to monitor training of staff, and Japan's duty to give safety education on hiring.",
     "Completion records show attendance. Regulators and auditors increasingly look for evidence that people can apply the requirement."
   ],
   "term": "Compliance training",
@@ -57,7 +57,11 @@
         },
         {
           "type": "p",
-          "text": "Laws usually set the outcome rather than the course. For example, section 19(3)(f) of Australia's Work Health and Safety Act 2011 requires a person conducting a business or undertaking to ensure, so far as is reasonably practicable, \"the provision of any information, training, instruction or supervision that is necessary to protect all persons\" from work risks, as [Comcare's regulatory guide](https://www.comcare.gov.au/scheme-legislation/whs-act/regulatory-guides/primary-duty-of-care) sets out. In the European Union, [Article 39(1)(b) of the General Data Protection Regulation](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (GDPR) makes it a task of the data protection officer to monitor compliance, \"including the assignment of responsibilities, awareness-raising and training of staff involved in processing operations\"."
+          "text": "Laws usually set the outcome rather than the course. In the European Union, for example, [Article 39(1)(b) of the General Data Protection Regulation](https://eur-lex.europa.eu/eli/reg/2016/679/oj) (GDPR) makes it a task of the data protection officer to monitor compliance, \"including the assignment of responsibilities, awareness-raising and training of staff involved in processing operations\"."
+        },
+        {
+          "type": "p",
+          "text": "In Japan, article 59(1) of the Industrial Safety and Health Act states that, having begun to employ a new worker, \"the employer must educate that worker in safety or health as it relates to the operations in which the worker is to be engaged\" ([Japanese Law Translation](https://www.japaneselawtranslation.go.jp/en/laws/view/3440))."
         }
       ]
     },
@@ -112,7 +116,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The table below is an **illustrative example** for a whistleblower obligation in an Australian public company. The Australian Securities and Investments Commission (ASIC) [RG 270](https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-270-whistleblower-policies/) says an entity should conduct upfront and ongoing training on its whistleblower policy for every employee, with specializt training for staff who receive disclosures (RG 270.131 and RG 270.134)."
+          "text": "The table below is an **illustrative example** for a whistleblower obligation. Whistleblowing rules in several markets expect training both for staff in general and for the people who receive reports. In Japan, guidelines under the Whistleblower Protection Act require education on the Act and the internal reporting system for workers, officers and retirees, with particularly thorough training for designated persons ([details](/regulations/japan-whistleblower-protection-act-training))."
         },
         {
           "type": "table",
@@ -120,7 +124,7 @@
           "head": [
             "Element",
             "All employees",
-            "Eligible recipients"
+            "People who receive reports"
           ],
           "rows": [
             [
@@ -166,7 +170,7 @@
   "faqs": [
     {
       "q": "Is compliance training required by law?",
-      "a": "Often, but rarely as a named course. Laws such as Australia's WHS Act require training or competence as an outcome, and the GDPR makes staff training part of what the data protection officer monitors. Regulator guides then explain expectations. Some roles also need specific licenses or accredited training. Organizations decide the format, and must be able to show the outcome was achieved."
+      "a": "Often, but rarely as a named course. Laws such as the EU OSH Framework Directive require training or competence as an outcome, and the GDPR makes staff training part of what the data protection officer monitors. Regulator guides then explain expectations. Some roles also need specific licenses or accredited training. Organizations decide the format, and must be able to show the outcome was achieved."
     },
     {
       "q": "Does ISO 37301 require compliance training?",
@@ -193,19 +197,14 @@
       "url": "https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf"
     },
     {
-      "title": "Regulatory guide: Primary duty of care",
-      "publisher": "Comcare",
-      "url": "https://www.comcare.gov.au/scheme-legislation/whs-act/regulatory-guides/primary-duty-of-care"
-    },
-    {
       "title": "Regulation (EU) 2016/679 (General Data Protection Regulation), Article 39",
       "publisher": "European Parliament and Council of the European Union (EUR-Lex)",
       "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
     },
     {
-      "title": "RG 270 Whistleblower policies",
-      "publisher": "Australian Securities and Investments Commission",
-      "url": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-270-whistleblower-policies/"
+      "title": "Industrial Safety and Health Act (Act No. 57 of 1972), English translation",
+      "publisher": "Japanese Law Translation, Ministry of Justice, Japan",
+      "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/3440"
     }
   ],
   "related": [
@@ -227,7 +226,7 @@
     }
   ],
   "published": "2026-09-28",
-  "updated": "2026-09-28",
+  "updated": "2026-10-01",
   "release": 1,
   "factCheck": [
     {
@@ -243,16 +242,12 @@
       "source": "https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf"
     },
     {
-      "claim": "WHS Act s19(3)(f) requires provision of any information, training, instruction or supervision necessary to protect all persons from risks arising from work.",
-      "source": "https://www.comcare.gov.au/scheme-legislation/whs-act/regulatory-guides/primary-duty-of-care"
-    },
-    {
       "claim": "GDPR Article 39(1)(b): the data protection officer's tasks include monitoring compliance, including the assignment of responsibilities, awareness-raising and training of staff involved in processing operations, and the related audits.",
       "source": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
     },
     {
-      "claim": "RG 270.131 says entities should conduct upfront and ongoing training on the whistleblower policy for every employee; RG 270.134 says specialist training for staff with specific responsibilities.",
-      "source": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-270-whistleblower-policies/"
+      "claim": "ISHA article 59(1) official English translation wording",
+      "source": "https://www.japaneselawtranslation.go.jp/en/laws/view/3440"
     }
   ]
 }

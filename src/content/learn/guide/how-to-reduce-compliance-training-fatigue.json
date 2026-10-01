@@ -47,7 +47,7 @@
         },
         {
           "type": "p",
-          "text": "Regulators generally support targeting. For example, Australia's Information Security Manual (ISM) describes cyber security awareness training \"tailored to their duties, access levels and current cyber threats\" ([ASD](https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security)), and AUSTRAC says anti money laundering training must be accessible and understandable to the person receiving it and appropriate to the individual ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training)). In medicines manufacturing, the PIC/S Guide to GMP asks for training \"appropriate to the duties assigned\" to newly recruited personnel ([PE009-16 Part I, clause 2.11](https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf))."
+          "text": "Regulators generally support targeting. In Japan, the Personal Information Protection Commission (PPC) guidelines under the Act on the Protection of Personal Information (APPI) describe it as desirable to enrich the content and frequency of employee education according to risk ([PPC guidelines](https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/)). The EU Anti Money Laundering Regulation (AMLR) requires training programs appropriate to employees' functions and risks ([Regulation (EU) 2024/1624, Article 12](https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng)). In medicines manufacturing, the PIC/S Guide to GMP asks for training \"appropriate to the duties assigned\" to newly recruited personnel ([PE009-16 Part I, clause 2.11](https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf))."
         },
         {
           "type": "p",
@@ -134,7 +134,7 @@
         },
         {
           "type": "p",
-          "text": "AUSTRAC's guidance lists a range of delivery methods, from courses to on the job training, supervision, mentoring, and regular communications, and notes that entities may use a mixture. Whatever the method, the record must still show what was covered and how understanding was checked."
+          "text": "Regulators also accept a range of delivery methods. Japan's Financial Services Agency (FSA) says in the FAQ to its AML/CFT guidelines that training may include correspondence courses and e-learning ([FSA FAQ](https://www.fsa.go.jp/en/news/2026/20260331/02.pdf)), and Australia's anti money laundering regulator, AUSTRAC, lists methods from courses to on the job training, supervision, mentoring, and regular communications, noting that entities may use a mixture ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training)). Whatever the method, the record must still show what was covered and how understanding was checked."
         }
       ]
     },
@@ -172,7 +172,7 @@
               "Workplace health and safety",
               "45 minute general module",
               "20 minute site specific refresher plus drill",
-              "Site risks and controls reviewed with the WHS owner"
+              "Site risks and controls reviewed with the health and safety owner"
             ],
             [
               "Procurement conduct",
@@ -235,7 +235,7 @@
     },
     {
       "q": "Should senior leaders complete the same compliance training as staff?",
-      "a": "They need the obligations relevant to their role, which often differ. Leaders may need less procedural content and more on oversight, escalation, and accountability. Some frameworks name senior management specifically; AUSTRAC's examples, for instance, list compliance officers and senior management separately."
+      "a": "They need the obligations relevant to their role, which often differ. Leaders may need less procedural content and more on oversight, escalation, and accountability. Some frameworks name senior management specifically: the EU NIS2 Directive requires members of management bodies to follow cybersecurity training and Japan's FSA guidelines address board involvement in AML/CFT training."
     },
     {
       "q": "How do we stop people clicking through modules without reading?",
@@ -244,14 +244,34 @@
   ],
   "sources": [
     {
+      "title": "Guidelines on the Act on the Protection of Personal Information (General Rules)",
+      "publisher": "Personal Information Protection Commission (Japan)",
+      "url": "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/"
+    },
+    {
+      "title": "Regulation (EU) 2024/1624 (Anti Money Laundering Regulation)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "title": "Guidelines for Anti-Money Laundering and Combating the Financing of Terrorism: FAQ",
+      "publisher": "Financial Services Agency (Japan)",
+      "url": "https://www.fsa.go.jp/en/news/2026/20260331/02.pdf"
+    },
+    {
+      "title": "Guidelines for Anti-Money Laundering and Combating the Financing of Terrorism",
+      "publisher": "Financial Services Agency (Japan)",
+      "url": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf"
+    },
+    {
+      "title": "Directive (EU) 2022/2555 (NIS2 Directive)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+    },
+    {
       "title": "AML/CTF training",
       "publisher": "AUSTRAC",
       "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
-    },
-    {
-      "title": "Information Security Manual: Guidelines for personnel security",
-      "publisher": "Australian Signals Directorate",
-      "url": "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security"
     },
     {
       "title": "PIC/S Guide to GMP PE009-16, Part I: Basic requirements for medicinal products",
@@ -282,24 +302,32 @@
   "release": 4,
   "factCheck": [
     {
-      "claim": "ISM principle PRO-14: personnel are provided with ongoing cyber security awareness training, including operational security considerations, tailored to their duties, access levels and current cyber threats.",
-      "source": "https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security"
-    },
-    {
-      "claim": "AUSTRAC says its e-learning modules can be used as part of AML/CTF training but cannot be relied on solely, and training must be accessible and understandable to the person receiving it.",
-      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
-    },
-    {
       "claim": "AUSTRAC lists common delivery methods including online courses, in-person courses, on-the-job training, publications, events, regular communication by email, intranet or newsletters, and informal education such as supervision and mentoring, and says entities may use a mixture of methods.",
-      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
-    },
-    {
-      "claim": "AUSTRAC gives example ongoing training frequencies (compliance officers and senior management every 6 to 12 months; customer facing and enhanced CDD roles every 12 months; vendors at onboarding and contract renewal; other personnel at onboarding) and says they are examples only and frequency must be appropriate to the business.",
       "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
     },
     {
       "claim": "PIC/S GMP Part I clause 2.11: newly recruited personnel should receive training appropriate to the duties assigned to them; continuing training should also be given, and its practical effectiveness should be periodically assessed.",
       "source": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
+    },
+    {
+      "claim": "PPC General Rules Guidelines section 3-4-3: desirable to enrich education content and frequency according to risk.",
+      "source": "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/"
+    },
+    {
+      "claim": "AMLR Article 12 requires specific, ongoing training programs appropriate to functions and risks.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "claim": "FSA AML/CFT guidelines FAQ: training may include correspondence courses and e-learning.",
+      "source": "https://www.fsa.go.jp/en/news/2026/20260331/02.pdf"
+    },
+    {
+      "claim": "FSA AML/CFT guidelines III-2 vii address board involvement in training.",
+      "source": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf"
+    },
+    {
+      "claim": "NIS2 Article 20(2): members of management bodies are required to follow training.",
+      "source": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
     }
   ]
 }

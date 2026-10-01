@@ -43,15 +43,15 @@
         },
         {
           "type": "p",
-          "text": "As one national example, Australia's Department of Industry, Science and Resources [published](https://www.industry.gov.au/publications/voluntary-ai-safety-standard) the Guidance for AI Adoption on October 21, 2025, setting out six essential practices and evolving the earlier Voluntary AI Safety Standard. The sixth practice in the [implementation guidance](https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance) is \"Maintain human control\". It says people in the organization should retain oversight of AI systems \"with the ability to intervene where necessary\", and asks organizations to ensure appropriate training is provided to anyone overseeing or using AI systems so they understand each system's capabilities, limitations and failure modes and when human intervention is needed."
-        },
-        {
-          "type": "p",
-          "text": "The [OECD AI Principles](https://oecd.ai/en/dashboards/ai-principles/P6), adopted in 2019 and updated in May 2024, ask AI actors to implement mechanisms and safeguards, \"such as capacity for human agency and oversight\", including to address risks from uses outside the intended purpose. The OECD Principles and the Australian guidance are voluntary, not legislation."
-        },
-        {
-          "type": "p",
           "text": "The European Union has legislated. [Article 14 of the EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) (Regulation (EU) 2024/1689) states that high-risk AI systems \"shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use\". Article 14(4)(b) requires overseers to be enabled to remain aware of automation bias, and Article 26(2) requires deployers to assign human oversight to natural persons \"who have the necessary competence, training and authority, as well as the necessary support\"."
+        },
+        {
+          "type": "p",
+          "text": "The [OECD AI Principles](https://oecd.ai/en/dashboards/ai-principles/P6), adopted in 2019 and updated in May 2024, ask AI actors to implement mechanisms and safeguards, \"such as capacity for human agency and oversight\", including to address risks from uses outside the intended purpose. The OECD Principles are voluntary, not legislation."
+        },
+        {
+          "type": "p",
+          "text": "National guidance is voluntary but points the same way. Japan's [AI Guidelines for Business](/regulations/japan-ai-guidelines-for-business-training), issued by the Ministry of Internal Affairs and Communications and the Ministry of Economy, Trade and Industry, expect organizations to give people engaged in AI the education they need for their role. In the United States, the National Institute of Standards and Technology [AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) is \"intended for voluntary use\"."
         }
       ]
     },
@@ -138,7 +138,7 @@
   "faqs": [
     {
       "q": "Is human in the loop required by law?",
-      "a": "Not generally, as at September 2026. Guidance such as the OECD AI Principles and Australia's Guidance for AI Adoption is voluntary. The EU AI Act requires effective human oversight of high-risk AI systems, which is broader than a person checking every output. Specific laws may still require human decisions or review in particular contexts, and existing privacy, consumer and workplace safety duties apply whether or not AI is used."
+      "a": "Not generally, as at September 2026. Guidance such as the OECD AI Principles, the NIST AI Risk Management Framework and Japan's AI Guidelines for Business is voluntary. The EU AI Act requires effective human oversight of high-risk AI systems, which is broader than a person checking every output. Specific laws may still require human decisions or review in particular contexts, and existing privacy, consumer and workplace safety duties apply whether or not AI is used."
     },
     {
       "q": "Does human in the loop mean a person checks every output?",
@@ -155,16 +155,6 @@
   ],
   "sources": [
     {
-      "title": "Guidance for AI adoption: implementation guidance",
-      "publisher": "National AI Centre, Department of Industry, Science and Resources",
-      "url": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance"
-    },
-    {
-      "title": "Voluntary AI Safety Standard",
-      "publisher": "Department of Industry, Science and Resources",
-      "url": "https://www.industry.gov.au/publications/voluntary-ai-safety-standard"
-    },
-    {
       "title": "OECD AI Principles: Respect for the rule of law, human rights and democratic values",
       "publisher": "Organisation for Economic Co-operation and Development (OECD)",
       "url": "https://oecd.ai/en/dashboards/ai-principles/P6"
@@ -178,6 +168,16 @@
       "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Articles 14 and 26",
       "publisher": "European Parliament and Council of the European Union (EUR-Lex)",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "title": "AI Risk Management Framework",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    {
+      "title": "AI Guidelines for Business Ver1.2 (provisional English translation)",
+      "publisher": "Ministry of Internal Affairs and Communications and Ministry of Economy, Trade and Industry",
+      "url": "https://www.soumu.go.jp/main_content/001080990.pdf"
     }
   ],
   "related": [
@@ -199,20 +199,12 @@
     }
   ],
   "published": "2026-09-28",
-  "updated": "2026-09-28",
+  "updated": "2026-10-01",
   "release": 5,
   "factCheck": [
     {
       "claim": "HLEG Ethics Guidelines (8 April 2019): HITL refers to the capability for human intervention in every decision cycle of the system, which in many cases is neither possible nor desirable; HOTL and HIC definitions.",
       "source": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai"
-    },
-    {
-      "claim": "On 21 October 2025 the department published the Guidance for AI Adoption, outlining 6 essential practices, which evolves the Voluntary AI Safety Standard.",
-      "source": "https://www.industry.gov.au/publications/voluntary-ai-safety-standard"
-    },
-    {
-      "claim": "Practice 6 Maintain human control: retain oversight with the ability to intervene where necessary; 6.1.4 training for anyone overseeing or using AI systems on capabilities, limitations and failure modes and when human intervention is needed.",
-      "source": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance"
     },
     {
       "claim": "OECD principle text: implement mechanisms and safeguards, such as capacity for human agency and oversight, including to address risks arising from uses outside of intended purpose; principles adopted 2019 and updated May 2024.",
@@ -221,6 +213,14 @@
     {
       "claim": "EU AI Act Article 14(1): high-risk AI systems shall be designed and developed so that they can be effectively overseen by natural persons during the period in which they are in use; 14(4)(b) awareness of automation bias; Article 26(2) deployers assign human oversight to natural persons who have the necessary competence, training and authority, as well as the necessary support.",
       "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "claim": "NIST AI RMF is intended for voluntary use; released January 26, 2023",
+      "source": "https://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    {
+      "claim": "Japan AI Guidelines for Business v1.2: common guiding principle on education and literacy; voluntary soft law",
+      "source": "https://www.soumu.go.jp/main_content/001080990.pdf"
     }
   ]
 }

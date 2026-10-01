@@ -23,7 +23,19 @@
         },
         {
           "type": "p",
-          "text": "In practice a gap analysis is usually triggered by a change in the standard: a regulation commences, a regulator issues guidance, an accreditation standard is revised, or an audit finds a weakness. Australia's AML/CTF reforms are an example. AUSTRAC states that changes to AML/CTF program requirements for current reporting entities started on March 31, 2026 unless deferred under the transitional rules, and that newly regulated services are regulated from July 1, 2026 ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/about-amlctf-reforms/about-reforms)). Each change like that calls for a fresh comparison. The [comparison page](/compare/training-needs-analysis-vs-gap-analysis) sets out the two methods side by side."
+          "text": "In practice a gap analysis is usually triggered by a change in the standard: a regulation commences, a regulator issues guidance, an accreditation standard is revised, or an audit finds a weakness. Anti money laundering rules show how often this happens across markets."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "In the United States, the Financial Crimes Enforcement Network (FinCEN) proposed revised AML/CFT program rules in April 2026 ([Federal Register](https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs)).",
+            "In the European Union, the Anti Money Laundering Regulation (AMLR) applies from July 10, 2027 ([Regulation (EU) 2024/1624](https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng)).",
+            "In Japan, the Financial Services Agency (FSA) revised its AML/CFT guidelines on March 31, 2026 ([FSA](https://www.fsa.go.jp/en/news/2026/20260331/01.pdf))."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Each change like that calls for a fresh comparison. The [comparison page](/compare/training-needs-analysis-vs-gap-analysis) sets out the two methods side by side."
         }
       ]
     },
@@ -84,7 +96,7 @@
         {
           "type": "ol",
           "items": [
-            "**Fix the reference standard.** Name the instrument, guidance or internal policy and the exact version or date. Output: a baseline statement, for example 'AUSTRAC AML/CTF training guidance as published on the date of review'.",
+            "**Fix the reference standard.** Name the instrument, guidance or internal policy and the exact version or date. Output: a baseline statement, for example '31 CFR 1020.210 as in force on the date of review'.",
             "**Decompose it into testable requirements.** Break the standard into statements that can each be answered met, partly met or not met. Output: a requirements list, each with a source reference.",
             "**Take an inventory of the current state.** List training modules, their outcomes and versions, assessment instruments, assignment rules and completion records for the roles in scope. Output: a current state inventory. If an [obligation to training map](/guides/how-to-map-training-to-compliance-obligations) exists, start from it.",
             "**Compare requirement by requirement.** For each requirement, record what currently addresses it and whether that is sufficient. Output: a comparison table.",
@@ -102,7 +114,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "A gap register lists each gap with its requirement, type, severity, owner and due date. The rows below are illustrative, written for a hypothetical reporting entity reviewing its training against AUSTRAC's published training guidance. The guidance points are real; the findings are invented to show the format."
+          "text": "A gap register lists each gap with its requirement, type, severity, owner and due date. The rows below are illustrative, written for a hypothetical financial group that reviews its training against the requirements of each regime it operates under: the EU AMLR, the US Bank Secrecy Act program rule, and the guidance of the Australian Transaction Reports and Analysis Centre (AUSTRAC). The requirements are real; the findings are invented to show the format."
         },
         {
           "type": "table",
@@ -116,11 +128,11 @@
           ],
           "rows": [
             [
-              "Training tailored to role and ML/TF risk (AUSTRAC guidance)",
+              "Training appropriate to employees' functions and risks (EU AMLR, Article 12)",
               "One general module for all staff",
               "Depth",
               "High",
-              "Add role specific modules for onboarding and enhanced due diligence roles; L&D with AML/CTF compliance officer"
+              "Add role specific modules for onboarding and enhanced due diligence roles; L&D with the compliance officer"
             ],
             [
               "Training before new duties that expose staff to other ML/TF risks (AUSTRAC guidance)",
@@ -130,11 +142,11 @@
               "Add role change trigger to assignment rules; HR systems owner"
             ],
             [
-              "Training covers updates on regulatory changes and emerging risks (AUSTRAC guidance)",
-              "Content predates the reformed program requirements",
+              "Ongoing training for appropriate personnel (US 31 CFR 1020.210)",
+              "Content not reviewed since the last program change",
               "Currency",
               "High",
-              "Update content to current Act and Rules; compliance with L&D"
+              "Update content to current rules and risk priorities; compliance with L&D"
             ],
             [
               "Evaluate whether personnel retain and apply knowledge (AUSTRAC guidance)",
@@ -144,8 +156,8 @@
               "Add scenario assessment and quality sampling measure; L&D"
             ],
             [
-              "Training for third party vendors performing AML/CTF functions (AUSTRAC guidance examples)",
-              "Vendors not in training system",
+              "Training extends to agents and distributors (EU AMLR, Article 12)",
+              "Agents and vendors not in training system",
               "Population",
               "Medium",
               "Add contract clause and onboarding step; procurement"
@@ -154,7 +166,7 @@
         },
         {
           "type": "p",
-          "text": "Each 'Requirement' in this sample paraphrases expectations stated on AUSTRAC's training guidance page, which lists developing a training plan, including regulatory updates and emerging risks, using a register to record completion, monitoring effectiveness and evaluating knowledge retention and application ([AUSTRAC](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform))."
+          "text": "Each 'Requirement' in this sample paraphrases a published source. Article 12 of the AMLR requires specific, ongoing training programs for employees and persons in comparable positions, including agents and distributors, appropriate to their functions and risks ([Regulation (EU) 2024/1624](https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng)). The US Bank Secrecy Act program rule for banks requires training for appropriate personnel ([31 CFR 1020.210](https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.210)). AUSTRAC's training guidance lists developing a training plan, including regulatory updates and emerging risks, using a register to record completion, monitoring effectiveness and evaluating knowledge retention and application ([AUSTRAC](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform)). See [EU AMLR training requirements](/regulations/eu-amlr-training-requirements) and [BSA AML training requirements](/regulations/bsa-aml-training-requirements)."
         }
       ]
     },
@@ -186,7 +198,7 @@
   "faqs": [
     {
       "q": "How often should a training gap analysis be run?",
-      "a": "Run one whenever the reference standard changes, after significant audit or incident findings, and on a scheduled cycle for high risk areas. AUSTRAC, for example, expects training to be updated as soon as practicable after changes to AML/CTF laws, the AML/CTF program, or findings from independent evaluations."
+      "a": "Run one whenever the reference standard changes, after significant audit or incident findings, and on a scheduled cycle for high risk areas. Japan's FSA, for example, expects training to be updated when national risk assessment or Financial Action Task Force (FATF) material changes."
     },
     {
       "q": "Who should sign off a training gap analysis?",
@@ -203,9 +215,24 @@
   ],
   "sources": [
     {
-      "title": "About the reforms",
-      "publisher": "AUSTRAC",
-      "url": "https://www.austrac.gov.au/industry-and-business/about-amlctf-reforms/about-reforms"
+      "title": "Anti-Money Laundering and Countering the Financing of Terrorism Programs (proposed rule, April 10, 2026)",
+      "publisher": "Financial Crimes Enforcement Network (Federal Register)",
+      "url": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"
+    },
+    {
+      "title": "31 CFR 1020.210 Anti-money laundering program requirements for banks",
+      "publisher": "Financial Crimes Enforcement Network (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.210"
+    },
+    {
+      "title": "Regulation (EU) 2024/1624 (Anti Money Laundering Regulation)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "title": "Guidelines for Anti-Money Laundering and Combating the Financing of Terrorism: FAQ",
+      "publisher": "Financial Services Agency (Japan)",
+      "url": "https://www.fsa.go.jp/en/news/2026/20260331/02.pdf"
     },
     {
       "title": "AML/CTF training",
@@ -221,6 +248,11 @@
       "title": "Learning needs analysis factsheet",
       "publisher": "Chartered Institute of Personnel and Development (CIPD)",
       "url": "https://www.cipd.org/en/knowledge/factsheets/learning-needs-factsheet/"
+    },
+    {
+      "title": "Guidelines for Anti-Money Laundering and Combating the Financing of Terrorism",
+      "publisher": "Financial Services Agency (Japan)",
+      "url": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf"
     }
   ],
   "related": [
@@ -246,16 +278,32 @@
   "release": 8,
   "factCheck": [
     {
-      "claim": "Changes for current reporting entities (including AML/CTF program requirements) started 31 March 2026 unless deferred under transitional rules; newly regulated services regulated from 1 July 2026",
-      "source": "https://www.austrac.gov.au/industry-and-business/about-amlctf-reforms/about-reforms"
-    },
-    {
       "claim": "AUSTRAC expects a training plan, regulatory updates and emerging risks in material, a completion register, monitoring of effectiveness and evaluation of knowledge retention and application; training before new duties; vendor training examples",
       "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
     },
     {
       "claim": "ISO 9001 APG: participation at a course alone does not necessarily provide evidence that the trainee is competent",
       "source": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf"
+    },
+    {
+      "claim": "FinCEN published an AML/CFT program NPRM on April 10, 2026; no final rule through September 2026.",
+      "source": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"
+    },
+    {
+      "claim": "31 CFR 1020.210 requires training for appropriate personnel.",
+      "source": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.210"
+    },
+    {
+      "claim": "AMLR applies from 10 July 2027; Article 12 requires specific, ongoing training for employees or persons in comparable positions, including agents and distributors, appropriate to functions and risks.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "claim": "FSA FAQ: update training when NRA or FATF material changes and verify those already trained.",
+      "source": "https://www.fsa.go.jp/en/news/2026/20260331/02.pdf"
+    },
+    {
+      "claim": "FSA AML/CFT Guidelines revised and current as of March 31, 2026.",
+      "source": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf"
     }
   ]
 }

@@ -9,7 +9,7 @@
     "A blueprint is written before items are written; it is the specification the assessment is built to.",
     "It maps each outcome or requirement to item types, number of items or tasks, level and weighting.",
     "Blueprints protect validity by stopping assessments from over testing easy content and skipping hard content.",
-    "Education regulators often require what a blueprint delivers: in Australia, for example, both VET and higher education standards require assessment consistent with the outcomes or training product being assessed."
+    "Education quality standards often require what a blueprint delivers: the European Standards and Guidelines for higher education, for example, expect assessment to show whether intended learning outcomes were achieved."
   ],
   "term": "assessment blueprint",
   "alsoKnownAs": [
@@ -69,11 +69,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Regulatory standards rarely require a document called a blueprint, but they often require what a blueprint delivers: assessment that covers the right content at the right level. In Australia, for example, both the vocational education and training (VET) and higher education standards do this. Standard 1.3 of the 2025 Standards for RTOs requires assessment to be consistent with the training product, and the Australian Skills Quality Authority (ASQA) [assessment practice guide](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide) expects assessment tools to be reviewed before use against the principles of assessment and rules of evidence."
+          "text": "Regulatory standards rarely require a document called a blueprint, but they often require what a blueprint delivers: assessment that covers the right content at the right level. In the European Higher Education Area, the [Standards and Guidelines for Quality Assurance (ESG 2015)](https://www.enqa.eu/wp-content/uploads/2015/11/ESG_2015.pdf) expect that \"the assessment allows students to demonstrate the extent to which the intended learning outcomes have been achieved\", and that the criteria and method of assessment are published in advance. In United States Registered Apprenticeship, a program that measures progress by competency must \"describe competencies, and identify an appropriate means of testing and evaluation for such competencies\" ([29 CFR 29.5(b)(2)](https://www.ecfr.gov/current/title-29/subtitle-A/part-29/section-29.5))."
         },
         {
           "type": "p",
-          "text": "The same guide lists \"developing evidence criteria (i.e. decision-making rules) to judge the quality of performance\" as one way to show reliability. In higher education, Standard 1.4.3 of the [Higher Education Standards Framework (Threshold Standards) 2021](https://www.legislation.gov.au/F2021L00488/latest/text) requires methods of assessment that are \"consistent with the learning outcomes being assessed\" and \"capable of confirming that all specified learning outcomes are achieved\"."
+          "text": "Higher education standards elsewhere set the same expectation. Australia's [Higher Education Standards Framework (Threshold Standards) 2021](https://www.legislation.gov.au/F2021L00488/latest/text), for example, requires in Standard 1.4.3 methods of assessment that are \"consistent with the learning outcomes being assessed\" and \"capable of confirming that all specified learning outcomes are achieved\"."
         },
         {
           "type": "p",
@@ -191,11 +191,6 @@
   ],
   "sources": [
     {
-      "title": "Assessment Practice Guide",
-      "publisher": "Australian Skills Quality Authority",
-      "url": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
-    },
-    {
       "title": "Higher Education Standards Framework (Threshold Standards) 2021",
       "publisher": "Federal Register of Legislation",
       "url": "https://www.legislation.gov.au/F2021L00488/latest/text"
@@ -204,6 +199,16 @@
       "title": "Aligning Assessment with Outcomes",
       "publisher": "UNSW Sydney",
       "url": "https://www.teaching.unsw.edu.au/aligning-assessment-learning-outcomes"
+    },
+    {
+      "title": "Standards and Guidelines for Quality Assurance in the European Higher Education Area (ESG 2015)",
+      "publisher": "ENQA, ESU, EUA and EURASHE",
+      "url": "https://www.enqa.eu/wp-content/uploads/2015/11/ESG_2015.pdf"
+    },
+    {
+      "title": "29 CFR 29.5 Standards of apprenticeship",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-A/part-29/section-29.5"
     }
   ],
   "related": [
@@ -225,17 +230,9 @@
     }
   ],
   "published": "2026-09-28",
-  "updated": "2026-09-28",
+  "updated": "2026-10-01",
   "release": 7,
   "factCheck": [
-    {
-      "claim": "Standard 1.3: assessment consistent with training product; tools reviewed prior to use against principles of assessment and rules of evidence",
-      "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
-    },
-    {
-      "claim": "ASQA reliability example: developing evidence criteria (decision-making rules) to judge quality of performance",
-      "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
-    },
     {
       "claim": "HESF Standard 1.4.3 wording on methods of assessment",
       "source": "https://www.legislation.gov.au/F2021L00488/latest/text"
@@ -243,6 +240,14 @@
     {
       "claim": "UNSW: map task types to learning outcomes and assign grade weightings appropriate to relative importance",
       "source": "https://www.teaching.unsw.edu.au/aligning-assessment-learning-outcomes"
+    },
+    {
+      "claim": "ESG 2015 standard 1.3 guidelines: criteria and method of assessment published in advance; assessment allows students to demonstrate the extent to which intended learning outcomes have been achieved",
+      "source": "https://www.enqa.eu/wp-content/uploads/2015/11/ESG_2015.pdf"
+    },
+    {
+      "claim": "29 CFR 29.5(b)(2)(ii): competency-based program standards must describe competencies and identify an appropriate means of testing and evaluation for such competencies",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-A/part-29/section-29.5"
     }
   ]
 }

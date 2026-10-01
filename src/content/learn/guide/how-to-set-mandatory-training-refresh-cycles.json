@@ -4,13 +4,13 @@
   "title": "How often should mandatory training be refreshed?",
   "seoTitle": "Mandatory training refresh cycles",
   "description": "How often mandatory training should be refreshed: where laws and regulators set a frequency, and how to set a risk based cycle where none do.",
-  "shortAnswer": "Mandatory training should be refreshed at the frequency a law, standard, or regulator sets where one exists, such as annual cyber security awareness training under Australia's Information Security Manual. Where no source sets a frequency, which is common, set the cycle on risk: the consequence of error, how often the task is performed, how quickly the rules change, and what assessment and incident data show. Add event triggers so changes prompt retraining between cycles.",
+  "shortAnswer": "Mandatory training should be refreshed at the frequency a law, standard, or regulator sets where one exists, such as annual bloodborne pathogens training under a US Occupational Safety and Health Administration standard. Where no source sets a frequency, which is common, set the cycle on risk: the consequence of error, how often the task is performed, how quickly the rules change, and what assessment and incident data show. Add event triggers so changes prompt retraining between cycles.",
   "keyTakeaways": [
     "Only some frameworks set a refresh frequency. Many require training to be suitable, adequate, or ongoing without naming an interval.",
     "Where a frequency is set, record the exact source and wording. Where it is not, record the risk rationale for the cycle you chose.",
     "Risk factors for a cycle include consequence of error, how often the skill is used, rate of change, and evidence from assessments and incidents.",
     "Event triggers (a changed rule, procedure, system, or an incident) often matter more than the calendar.",
-    "Different roles can have different cycles for the same topic. Regulator examples, such as those from the Australian Transaction Reports and Analysis Centre (AUSTRAC), show that approach while noting they are examples only."
+    "Different roles can have different cycles for the same topic. Some regulators publish example intervals by role while stressing they are examples only."
   ],
   "sections": [
     {
@@ -24,6 +24,10 @@
         {
           "type": "p",
           "text": "For example, the PIC/S Guide to GMP, which many medicines regulators adopt, asks for continuing training whose practical effectiveness is \"periodically assessed\", but it does not set an interval ([PE009-16 Part I, clause 2.11](https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf)). Requirements of this kind tell you that training must continue and must work, and leave the cycle to you."
+        },
+        {
+          "type": "p",
+          "text": "Other instruments follow the same pattern. The EU Occupational Safety and Health Framework Directive requires training to be adapted to new or changed risks and \"repeated periodically if necessary\" ([Directive 89/391/EEC, Article 12](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391)). Japan's Personal Information Protection Commission (PPC) guidelines describe it as desirable to enrich the content and frequency of employee education according to risk ([PPC guidelines](https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/)). Neither names an interval."
         }
       ]
     },
@@ -46,6 +50,30 @@
           ],
           "rows": [
             [
+              "Labour Code (Portugal), Article 131(2)",
+              "Employers, for each worker",
+              "A minimum of 40 hours of continuous training per year; the topics are not prescribed",
+              "Statute"
+            ],
+            [
+              "OSHA Bloodborne Pathogens standard (United States), 29 CFR 1910.1030(g)(2)",
+              "Employees with occupational exposure to blood or other potentially infectious materials",
+              "Training at initial assignment and at least annually thereafter, within one year of the previous training",
+              "Federal regulation (\"shall\")"
+            ],
+            [
+              "OSHA powered industrial trucks standard (United States), 29 CFR 1910.178(l)(4)",
+              "Powered industrial truck operators",
+              "An evaluation of each operator's performance at least once every three years, plus refresher training on defined triggers",
+              "Federal regulation (\"shall\")"
+            ],
+            [
+              "FINRA Rule 1240(a) (United States)",
+              "Registered persons of FINRA member firms",
+              "Regulatory Element continuing education annually, by December 31, for each registration category",
+              "Self regulatory rule"
+            ],
+            [
               "Information Security Manual (Australia), ISM-0252",
               "Organizations applying the ISM, including government entities",
               "Cyber security awareness training undertaken annually by all personnel",
@@ -56,23 +84,17 @@
               "Personnel with privileged access to systems",
               "Tailored privileged user training undertaken annually",
               "Control"
-            ],
-            [
-              "OSHA Bloodborne Pathogens standard (United States), 29 CFR 1910.1030(g)(2)",
-              "Employees with occupational exposure to blood or other potentially infectious materials",
-              "Training at initial assignment and at least annually thereafter, within one year of the previous training",
-              "Federal regulation (\"shall\")"
             ]
           ]
         },
         {
           "type": "p",
-          "text": "Sources: [ASD ISM personnel security guidelines](https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security), [29 CFR 1910.1030 on eCFR](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030). See also [ISM awareness training](/regulations/ism-cyber-security-awareness-training) and [PSPF security awareness training](/regulations/pspf-security-awareness-training)."
+          "text": "Sources: [Labour Code, consolidated version](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475), [29 CFR 1910.1030 on eCFR](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030), [29 CFR 1910.178 on eCFR](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178), [FINRA Rule 1240](https://www.finra.org/rules-guidance/rulebooks/finra-rules/1240), [ASD ISM personnel security guidelines](https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security). See also [Portugal Labour Code continuous training](/regulations/portugal-labour-code-continuous-training), [OSHA training requirements](/regulations/osha-training-requirements), [FINRA continuing education](/regulations/finra-continuing-education-requirements), and [ISM awareness training](/regulations/ism-cyber-security-awareness-training)."
         },
         {
           "type": "callout",
           "title": "Examples are not requirements",
-          "text": "AUSTRAC gives example ongoing training frequencies, such as every 6 to 12 months for AML/CTF compliance officers and senior management and every 12 months for customer facing personnel, and states that \"these are examples only, and the frequency you deliver training must be appropriate to your business\" ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training)). Treat regulator examples as a reference point for your risk assessment, not as a rule."
+          "text": "Regulators sometimes publish example frequencies. Australia's anti money laundering regulator, AUSTRAC, for instance, gives example ongoing training frequencies, such as every 6 to 12 months for AML/CTF compliance officers and senior management and every 12 months for customer facing personnel, and states that \"these are examples only, and the frequency you deliver training must be appropriate to your business\" ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training)). Treat regulator examples as a reference point for your risk assessment, not as a rule."
         }
       ]
     },
@@ -154,7 +176,7 @@
         },
         {
           "type": "p",
-          "text": "Where a topic is also covered by a set frequency, such as annual security awareness under the ISM, the set frequency is a floor. The risk method can shorten it for some roles but not lengthen it."
+          "text": "Where a topic is also covered by a set frequency, such as annual bloodborne pathogens training under OSHA or annual security awareness under the ISM, the set frequency is a floor. The risk method can shorten it for some roles but not lengthen it."
         }
       ]
     },
@@ -191,7 +213,11 @@
         },
         {
           "type": "p",
-          "text": "Requirements that training be suitable for the risks and controls in place support this: when risks or controls change, earlier training may no longer be adequate. AUSTRAC, for example, says it expects entities to consider updating and providing AML/CTF training \"as soon as practicable\" in response to changes to AML/CTF laws, new and emerging risks, changes to their AML/CTF program, and review findings that indicate training gaps ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training)). See [how to update training when a regulation changes](/guides/how-to-update-training-when-regulations-change)."
+          "text": "Some laws are built on triggers rather than intervals. Japan's Industrial Safety and Health Act requires safety and health education on hiring and on a change of work content, and special education before workers are assigned to designated dangerous or harmful operations ([Act, Article 59](https://laws.e-gov.go.jp/law/347AC0000000057)). The EU Occupational Safety and Health Framework Directive similarly requires training on recruitment, transfer or change of job, and the introduction of new equipment or technology ([Directive 89/391/EEC, Article 12](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391)). See [Japan Industrial Safety and Health Act training](/regulations/japan-industrial-safety-and-health-act-training) and [EU OSH Framework Directive training](/regulations/eu-osh-framework-directive-training)."
+        },
+        {
+          "type": "p",
+          "text": "Financial regulators take the same view of rule changes. Japan's Financial Services Agency (FSA) expects training to be updated when national risk assessment or Financial Action Task Force (FATF) material changes ([FSA FAQ](https://www.fsa.go.jp/en/news/2026/20260331/02.pdf)). See [how to update training when a regulation changes](/guides/how-to-update-training-when-regulations-change)."
         }
       ]
     },
@@ -209,7 +235,7 @@
   "faqs": [
     {
       "q": "Is annual compliance training a legal requirement?",
-      "a": "Only where a specific instrument says so for a specific group, such as annual cyber security awareness under ISM-0252 in Australia or annual bloodborne pathogens training under 29 CFR 1910.1030 in the United States. Many other regimes require suitable or ongoing training without a set interval. Annual cycles are common practice, but practice is not the same as a legal requirement."
+      "a": "Only where a specific instrument says so for a specific group, such as annual bloodborne pathogens training under 29 CFR 1910.1030 in the United States, the annual Regulatory Element under FINRA Rule 1240, or annual cyber security awareness under ISM-0252 of the Information Security Manual. Portugal's Labour Code sets a minimum number of training hours per year rather than a cycle for any topic. Many other regimes require suitable or ongoing training without a set interval."
     },
     {
       "q": "Can staff skip refresher training if they pass an assessment?",
@@ -225,6 +251,41 @@
     }
   ],
   "sources": [
+    {
+      "title": "Labour Code (Law 7/2009), consolidated version",
+      "publisher": "Diário da República (Portugal)",
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475"
+    },
+    {
+      "title": "Industrial Safety and Health Act (Act No. 57 of 1972)",
+      "publisher": "e-Gov Law Search, Digital Agency of Japan",
+      "url": "https://laws.e-gov.go.jp/law/347AC0000000057"
+    },
+    {
+      "title": "Guidelines on the Act on the Protection of Personal Information (General Rules)",
+      "publisher": "Personal Information Protection Commission (Japan)",
+      "url": "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/"
+    },
+    {
+      "title": "Guidelines for Anti-Money Laundering and Combating the Financing of Terrorism: FAQ",
+      "publisher": "Financial Services Agency (Japan)",
+      "url": "https://www.fsa.go.jp/en/news/2026/20260331/02.pdf"
+    },
+    {
+      "title": "Council Directive 89/391/EEC (OSH Framework Directive)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
+    },
+    {
+      "title": "29 CFR 1910.178 Powered industrial trucks",
+      "publisher": "US Occupational Safety and Health Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+    },
+    {
+      "title": "FINRA Rule 1240 Continuing Education Requirements",
+      "publisher": "Financial Industry Regulatory Authority (FINRA)",
+      "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/1240"
+    },
     {
       "title": "Information Security Manual: Guidelines for personnel security",
       "publisher": "Australian Signals Directorate",
@@ -281,12 +342,36 @@
       "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
     },
     {
-      "claim": "AUSTRAC expects entities to consider updating and providing AML/CTF training as soon as practicable in response to law changes, new and emerging ML/TF risks, program changes, and review findings indicating training gaps.",
-      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
-    },
-    {
       "claim": "PIC/S GMP Part I clauses 2.10 and 2.11: training for personnel whose duties take them into production, storage or control laboratories; newly recruited personnel trained for their duties; continuing training with practical effectiveness periodically assessed; training records kept.",
       "source": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
+    },
+    {
+      "claim": "Labour Code Article 131(2): minimum of 40 hours of continuous training per year.",
+      "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475"
+    },
+    {
+      "claim": "29 CFR 1910.178(l)(4): refresher training triggers and an evaluation of each operator's performance at least once every three years.",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+    },
+    {
+      "claim": "FINRA Rule 1240(a)(1): Regulatory Element annually by December 31 for each registration category.",
+      "source": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/1240"
+    },
+    {
+      "claim": "Directive 89/391/EEC Article 12(1): training on recruitment, transfer or change of job, new or changed equipment, new technology; adapted to new or changed risks and repeated periodically if necessary.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
+    },
+    {
+      "claim": "PPC General Rules Guidelines section 3-4-3: desirable to enrich education content and frequency according to risk.",
+      "source": "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/"
+    },
+    {
+      "claim": "Industrial Safety and Health Act Article 59(1) and (2): education on hiring and change of work content; 59(3): special education before designated dangerous or harmful operations.",
+      "source": "https://laws.e-gov.go.jp/law/347AC0000000057"
+    },
+    {
+      "claim": "FSA AML/CFT guidelines FAQ: update training when NRA or FATF material changes.",
+      "source": "https://www.fsa.go.jp/en/news/2026/20260331/02.pdf"
     }
   ]
 }

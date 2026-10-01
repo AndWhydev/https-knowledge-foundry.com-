@@ -37,13 +37,13 @@ const posture = [
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
-    title: "APRA CPS 234, aware",
-    desc: "For regulated Australian financial services customers, controls, evidence artifacts, and reporting are designed to support obligations under CPS 234 and to fit inside an environment regulated by APRA.",
+    title: "Sector regimes, aware",
+    desc: "For regulated customers, controls, evidence artifacts, and reporting are designed to support sector obligations such as DORA in the EU, APRA CPS 234 in Australia, the FSA cybersecurity guidelines in Japan, and HIPAA in the United States.",
   },
   {
     icon: <FileCheck2 className="h-5 w-5" />,
-    title: "GDPR, ready by design",
-    desc: "Data processing terms, subprocessor register, deletion workflows, and export mechanisms are structured for processing eligible under GDPR where a customer requires them.",
+    title: "GDPR, by design",
+    desc: "As a company registered in Portugal, our privacy program is built on the GDPR. Data processing terms, subprocessor register, deletion workflows, and export mechanisms also support the APPI, the Australian Privacy Act, and US state privacy laws.",
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
@@ -52,8 +52,8 @@ const posture = [
   },
   {
     icon: <Database className="h-5 w-5" />,
-    title: "Data residency in Australia",
-    desc: "Production data for Australian customers resides in AWS ap-southeast-2 (Sydney). No routine offshore replication. Residency in other regions is available on request for regulated deployments.",
+    title: "Data residency by region",
+    desc: "Production data stays in the customer's region: the EU (Spain), the United States (N. Virginia), Japan (Tokyo), or Australia (Sydney), with the UAE on request. No routine replication across borders.",
   },
 ];
 
@@ -71,7 +71,7 @@ const controls = [
   {
     icon: <Server className="h-5 w-5" />,
     title: "Infrastructure",
-    desc: "Hosted on AWS, ap-southeast-2 by default. Segmented VPCs. Immutable infrastructure via versioned deployment pipelines. No shared build hosts.",
+    desc: "Hosted on AWS in the customer's region: eu-south-2, us-east-1, ap-northeast-1, or ap-southeast-2. Segmented VPCs. Immutable infrastructure via versioned deployment pipelines. No shared build hosts.",
   },
   {
     icon: <Users className="h-5 w-5" />,
@@ -93,7 +93,7 @@ const controls = [
 const subprocessorsSummary = [
   {
     title: "Cloud infrastructure",
-    desc: "Amazon Web Services (ap-southeast-2, Sydney). Hosting, compute, storage, key management. No offshore replication for tenants hosted in Australia.",
+    desc: "Amazon Web Services, in the customer's region (EU, US, Japan, Australia, or UAE). Hosting, compute, storage, key management. No routine replication outside that region.",
   },
   {
     title: "Observability",
@@ -121,7 +121,7 @@ const related = [
   {
     eyebrow: "Legal",
     title: "Privacy policy",
-    desc: "How we collect, use, disclose, and retain personal information under the Australian Privacy Act.",
+    desc: "How we collect, use, disclose, and retain personal information under the GDPR and the laws of the markets we serve.",
     href: "/privacy",
   },
 ];
@@ -161,10 +161,13 @@ export default function TrustCentrePage() {
 
       <ProseBlock eyebrow="Data handling" title="Where your data lives, and who touches it.">
         <p>
-          Customer data for Australian tenants is processed and stored in AWS
-          ap-southeast-2 (Sydney) by default. There is no routine replication to
-          overseas regions. Backups are encrypted, held in the same region, and
-          retained on a defined schedule.
+          Customer data is processed and stored in the customer&apos;s region:
+          AWS eu-south-2 (Spain) for Portugal and the EU, us-east-1 (N.
+          Virginia) for the United States, ap-northeast-1 (Tokyo) for Japan,
+          and ap-southeast-2 (Sydney) for Australia, with me-central-1 (UAE)
+          on request. There is no routine replication to other regions.
+          Backups are encrypted, held in the same region, and retained on a
+          defined schedule.
         </p>
         <p>
           Access to production is limited to a named group of engineers,

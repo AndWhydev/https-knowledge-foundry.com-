@@ -7,7 +7,7 @@
   "shortAnswer": "A curriculum map is built by listing the program level outcomes, listing every unit or module in sequence, marking at each intersection whether the outcome is introduced, practiced or assessed there, adding the assessment task and level, then reading the grid for outcomes that are never assessed, outcomes assessed far more than others, and broken progression, and fixing the design before delivery.",
   "keyTakeaways": [
     "A curriculum map shows where each program outcome is taught, practiced and assessed across the units that make up a program.",
-    "Education regulators such as TEQSA expect higher education providers to be able to show exactly this for course learning outcomes.",
+    "Higher education quality frameworks, such as the European Standards and Guidelines (ESG) and national regulator guidance, expect providers to show how programs deliver and assess their intended outcomes.",
     "The simplest useful coding is I (introduced), P (practiced), A (assessed), with the assessment task named.",
     "Read the map for four faults: unassessed outcomes, over assessment, missing progression and orphan units.",
     "The same method works for workplace programs, with obligations or competencies in place of graduate outcomes."
@@ -33,15 +33,19 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Because higher education standards, such as Australia's Higher Education Standards Framework, require outcomes to be achieved progressively and assessed before completion, and a map is the clearest evidence of both."
+          "text": "Because higher education quality frameworks require programs to be designed around intended learning outcomes that students achieve and that are assessed, and a map is the clearest evidence of both."
         },
         {
           "type": "p",
-          "text": "For example, the Tertiary Education Quality and Standards Agency (TEQSA) guidance note on course design states that the Standards require all specified learning outcomes to be assessed before completion (Standard 1.4.4) and that progressive and coherent achievement of outcomes is planned in the course design (Standard 3.1.3). It adds: 'TEQSA will expect some clear information demonstrating where course learning outcomes are taught, practiced and assessed, whether at unit level or at course level' ([TEQSA](https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-course-design-including-learning-outcomes-and-assessment)). The same note links course learning outcomes to the level of the AQF qualification awarded."
+          "text": "In the European Higher Education Area, which includes Portugal and the rest of the EU, the Standards and Guidelines for Quality Assurance (ESG 2015) ask institutions to design programs so that they meet their objectives, including the intended learning outcomes, and to refer the resulting qualification to the correct level of the national qualifications framework (Standard 1.2) ([ENQA](https://www.enqa.eu/wp-content/uploads/2015/11/ESG_2015.pdf)). National agencies apply the ESG through their own accreditation procedures; in Portugal, that agency is the Agência de Avaliação e Acreditação do Ensino Superior (A3ES)."
         },
         {
           "type": "p",
-          "text": "In vocational education, the equivalent is showing that each unit's elements, performance criteria and assessment requirements are covered by training and assessment. The Australian Skills Quality Authority (ASQA) Assessment Practice Guide asks providers to show their assessment system addresses all requirements of the training product ([ASQA](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide))."
+          "text": "Australia's higher education regulator gives a more explicit example. The Tertiary Education Quality and Standards Agency (TEQSA) guidance note on course design states that the Standards require all specified learning outcomes to be assessed before completion (Standard 1.4.4) and that progressive and coherent achievement of outcomes is planned in the course design (Standard 3.1.3). It adds: 'TEQSA will expect some clear information demonstrating where course learning outcomes are taught, practiced and assessed, whether at unit level or at course level' ([TEQSA](https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-course-design-including-learning-outcomes-and-assessment))."
+        },
+        {
+          "type": "p",
+          "text": "In competency based vocational education, the equivalent is showing that each unit's required outcomes and assessment requirements are covered by training and assessment."
         }
       ]
     },
@@ -176,7 +180,7 @@
         {
           "type": "callout",
           "title": "Recall is not progression",
-          "text": "A row assessed four times by recall quiz shows repetition, not development. Progression means the level rises across the program, as TEQSA's reference to progressive and coherent achievement implies."
+          "text": "A row assessed four times by recall quiz shows repetition, not development. Progression means the level rises across the program. TEQSA's guidance, for example, refers to progressive and coherent achievement of outcomes."
         }
       ]
     },
@@ -194,7 +198,7 @@
   "faqs": [
     {
       "q": "Should a curriculum map include graduate attributes?",
-      "a": "Yes, if the institution or program has them. Graduate attributes are usually mapped as additional rows alongside discipline outcomes. TEQSA's guidance notes that the Standards require different classes of outcome, including generic, employment related and lifelong learning outcomes, so they need the same evidence of where they are assessed."
+      "a": "Yes, if the institution or program has them. Graduate attributes are usually mapped as additional rows alongside discipline outcomes. TEQSA's guidance, for example, notes that the Standards require different classes of outcome, including generic, employment related and lifelong learning outcomes, so they need the same evidence of where they are assessed."
     },
     {
       "q": "What tool should be used to build a curriculum map?",
@@ -216,6 +220,11 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/11371288/"
     },
     {
+      "title": "Standards and Guidelines for Quality Assurance in the European Higher Education Area (ESG 2015)",
+      "publisher": "ENQA, ESU, EUA and EURASHE",
+      "url": "https://www.enqa.eu/wp-content/uploads/2015/11/ESG_2015.pdf"
+    },
+    {
       "title": "Guidance note: Course design (including learning outcomes and assessment)",
       "publisher": "Tertiary Education Quality and Standards Agency (TEQSA)",
       "url": "https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-course-design-including-learning-outcomes-and-assessment"
@@ -224,11 +233,6 @@
       "title": "Higher Education Standards Framework (Threshold Standards) 2021",
       "publisher": "Tertiary Education Quality and Standards Agency (TEQSA)",
       "url": "https://www.teqsa.gov.au/how-we-regulate/higher-education-standards-framework-2021"
-    },
-    {
-      "title": "Assessment Practice Guide (2025 Standards for RTOs)",
-      "publisher": "Australian Skills Quality Authority (ASQA)",
-      "url": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
     }
   ],
   "related": [
@@ -262,8 +266,8 @@
       "source": "https://pubmed.ncbi.nlm.nih.gov/11371288/"
     },
     {
-      "claim": "ASQA: assessment system addresses all requirements of the training product",
-      "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
+      "claim": "ESG 2015 Standard 1.2: programs designed so that they meet their objectives, including intended learning outcomes; the qualification refers to the correct level of the national qualifications framework for higher education.",
+      "source": "https://www.enqa.eu/wp-content/uploads/2015/11/ESG_2015.pdf"
     }
   ]
 }

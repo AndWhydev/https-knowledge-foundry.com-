@@ -23,7 +23,7 @@
         },
         {
           "type": "p",
-          "text": "Regulators increasingly frame training expectations by role and risk. For example, Australia's AUSTRAC guidance on the reformed AML/CTF regime says training must be tailored so that it is appropriate to the person, their role, their responsibilities and the money laundering and terrorism financing risks relevant to that role ([AUSTRAC](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform)). In the United States, medicines manufacturing rules require training \"in the particular operations that the employee performs\" ([21 CFR 211.25(a)](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25)). A map is the simplest way to show both."
+          "text": "Regulators increasingly frame training expectations by role and risk. In the United States, medicines manufacturing rules require training \"in the particular operations that the employee performs\" ([21 CFR 211.25(a)](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25)), and anti money laundering program rules require training for appropriate personnel ([31 CFR 1020.210](https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.210)). The EU Anti-Money Laundering Regulation, applying from July 10, 2027, requires training programs appropriate to employees' functions and risks (Article 12, [Regulation (EU) 2024/1624](https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng)). The Australian Transaction Reports and Analysis Centre (AUSTRAC) similarly says training must be tailored to the person, their role, their responsibilities and the money laundering and terrorism financing risks relevant to that role ([AUSTRAC](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform)). A map is the simplest way to show this."
         },
         {
           "type": "p",
@@ -72,7 +72,7 @@
           ],
           "rows": [
             [
-              "Provide AML/CTF training tailored to role and ML/TF risk (AML/CTF Act s26F(4)(e), per AUSTRAC guidance)",
+              "Maintain an ongoing employee training program as part of the AML/CFT program (31 U.S.C. 5318(h)(1)(C) and 31 CFR 1020.210, United States)",
               "Customer facing consultant",
               "Identify indicators of suspicious activity in a customer interaction and escalate using the internal procedure",
               "Scenario assessment with scored escalation decisions"
@@ -84,13 +84,13 @@
               "Review of completed case files against a checklist"
             ],
             [
-              "Train each person in the particular operations they perform and in GMP as it relates to their functions (21 CFR 211.25(a), United States)",
+              "Train each person in the particular operations they perform and in GMP as it relates to their functions (21 CFR 211.25(a), United States; comparable duty in Article 19 of Japan's GMP ordinance)",
               "Packaging line operator",
               "Carry out a line clearance before a new batch and record it as the procedure requires",
               "Practical observation against the procedure checklist"
             ],
             [
-              "Provide information, training, instruction and supervision necessary for health and safety (model WHS Act primary duty)",
+              "Provide adequate safety and health training specific to each worker's job (Law 102/2009, Article 20, Portugal)",
               "Warehouse team member",
               "Operate the assigned plant only within the conditions set by the safe work procedure",
               "Practical observation plus confirmation of any required license"
@@ -99,7 +99,7 @@
         },
         {
           "type": "p",
-          "text": "The fourth row draws on Safe Work Australia's statement that the primary duty requires a person conducting a business or undertaking to ensure, so far as is reasonably practicable, the provision of instruction, training, information and supervision ([duties of a PCBU](https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu))."
+          "text": "The fourth row draws on Article 20 of Portugal's [Law 102/2009](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-56365341), which transposes the EU OSH Framework Directive and requires adequate safety and health training for each worker. The same row could cite the hiring and job change education duty in Article 59 of Japan's Industrial Safety and Health Act."
         }
       ]
     },
@@ -114,7 +114,7 @@
         {
           "type": "ul",
           "items": [
-            "**Too coarse:** 'AML/CTF Act mapped to AML Awareness course'. This shows no role differentiation and no evidence.",
+            "**Too coarse:** 'Bank Secrecy Act mapped to AML Awareness course'. This shows no role differentiation and no evidence.",
             "**About right:** one row per atomic requirement per role group, with a named outcome and evidence type.",
             "**Too fine:** a row per paragraph of guidance per individual. Individual status belongs in the [training matrix](/guides/how-to-build-a-training-matrix), not the obligation map."
           ]
@@ -154,7 +154,7 @@
   "faqs": [
     {
       "q": "Should every compliance obligation have training attached?",
-      "a": "No. Many obligations are met by systems, controls, contracts or a small specializt team. Training should be mapped where meeting the obligation depends on people's knowledge, skill or behavior. Record the reasoning for obligations you do not map, because an auditor may ask why."
+      "a": "No. Many obligations are met by systems, controls, contracts or a small specialist team. Training should be mapped where meeting the obligation depends on people's knowledge, skill or behavior. Record the reasoning for obligations you do not map, because an auditor may ask why."
     },
     {
       "q": "Who should maintain the obligation to training map?",
@@ -176,11 +176,6 @@
       "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
     },
     {
-      "title": "Duties of a PCBU",
-      "publisher": "Safe Work Australia",
-      "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu"
-    },
-    {
       "title": "ISO 37301:2021 Compliance management systems: Requirements with guidance for use",
       "publisher": "International Organization for Standardization (ISO)",
       "url": "https://www.iso.org/standard/75080.html"
@@ -194,6 +189,36 @@
       "title": "21 CFR 211.25 Personnel qualifications",
       "publisher": "US Food and Drug Administration (eCFR)",
       "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25"
+    },
+    {
+      "title": "31 CFR 1020.210 Anti-money laundering program requirements for banks",
+      "publisher": "Financial Crimes Enforcement Network (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.210"
+    },
+    {
+      "title": "Anti-Money Laundering and Countering the Financing of Terrorism Programs (proposed rule, April 10, 2026)",
+      "publisher": "Financial Crimes Enforcement Network (Federal Register)",
+      "url": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"
+    },
+    {
+      "title": "Regulation (EU) 2024/1624 (Anti-Money Laundering Regulation)",
+      "publisher": "European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "title": "Law 102/2009 (consolidated)",
+      "publisher": "Diário da República",
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-56365341"
+    },
+    {
+      "title": "GMP ordinance (MHLW Ordinance No. 179 of 2004)",
+      "publisher": "e-Gov Japan",
+      "url": "https://laws.e-gov.go.jp/law/416M60000100179"
+    },
+    {
+      "title": "Industrial Safety and Health Act (Act No. 57 of 1972)",
+      "publisher": "e-Gov Japan",
+      "url": "https://laws.e-gov.go.jp/law/347AC0000000057"
     }
   ],
   "related": [
@@ -227,16 +252,36 @@
       "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
     },
     {
-      "claim": "Primary duty requires PCBUs to ensure so far as reasonably practicable the provision of any instruction, training, information and supervision",
-      "source": "https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu"
-    },
-    {
       "claim": "ISO 37301 requires identifying compliance obligations and includes personnel trainings and communications",
       "source": "https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf"
     },
     {
       "claim": "21 CFR 211.25(a): each person engaged in the manufacture, processing, packing, or holding of a drug product shall have education, training, and experience to perform the assigned functions; training shall be in the particular operations that the employee performs and in CGMP as they relate to the employee's functions; CGMP training conducted by qualified individuals on a continuing basis and with sufficient frequency.",
       "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25"
+    },
+    {
+      "claim": "31 CFR 1020.210(a)(2)(iv) and (b)(2)(iv) require 'Training for appropriate personnel'.",
+      "source": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.210"
+    },
+    {
+      "claim": "31 U.S.C. 5318(h)(1) four pillars including '(C) an ongoing employee training program'.",
+      "source": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"
+    },
+    {
+      "claim": "AMLR Article 12: specific, ongoing training programs appropriate to functions and risks, duly documented; Article 90: applies from 10 July 2027.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "claim": "Law 102/2009 Article 20: adequate OHS training for each worker considering the workstation and high risk activities; Article 2(1) transposes Directive 89/391/EEC.",
+      "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-56365341"
+    },
+    {
+      "claim": "Japan GMP ordinance Article 19: designated person must systematically implement necessary training on manufacturing and quality control.",
+      "source": "https://laws.e-gov.go.jp/law/416M60000100179"
+    },
+    {
+      "claim": "Japan Industrial Safety and Health Act Article 59(1) and (2): safety or health education on hiring and on a change of work content.",
+      "source": "https://laws.e-gov.go.jp/law/347AC0000000057"
     }
   ]
 }

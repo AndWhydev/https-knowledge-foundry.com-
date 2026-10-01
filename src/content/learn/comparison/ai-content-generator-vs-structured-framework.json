@@ -8,7 +8,7 @@
   "keyTakeaways": [
     "Both categories may use generative AI; the difference is whether a defined, reviewable structure exists before content is produced.",
     "Generative models can produce confident but false content, which NIST calls confabulation, so human review is essential in either approach.",
-    "Government guidance such as Australia's Guidance for AI Adoption lists maintaining human control and testing and monitoring among six essential practices.",
+    "Government guidance points the same way: the EU AI Act requires competent, trained human oversight of high-risk AI, and Japan's AI Guidelines for Business expect role appropriate AI education.",
     "Generators suit low risk, fast turnaround content; framework first suits regulated, audited, or frequently updated training."
   ],
   "sections": [
@@ -97,7 +97,7 @@
         },
         {
           "type": "p",
-          "text": "Australia's National Artificial Intelligence Centre, for example, published the Guidance for AI Adoption on October 21, 2025, which evolves the earlier Voluntary AI Safety Standard ([Department of Industry, Science and Resources](https://www.industry.gov.au/publications/voluntary-ai-safety-standard)). Its six essential practices include deciding who is accountable, measuring and managing risks, testing and monitoring, and maintaining human control ([Guidance for AI adoption](https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance))."
+          "text": "In the European Union, Article 26(2) of the AI Act requires deployers of high-risk AI systems to assign human oversight to people \"who have the necessary competence, training and authority, as well as the necessary support\" ([Regulation (EU) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj)). Japan's [AI Guidelines for Business](/regulations/japan-ai-guidelines-for-business-training) expect organizations to give people engaged in AI the education they need for their role."
         },
         {
           "type": "p",
@@ -200,14 +200,9 @@
       "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
     },
     {
-      "title": "Guidance for AI adoption: implementation guidance",
-      "publisher": "National Artificial Intelligence Centre, Australian Government",
-      "url": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance"
-    },
-    {
-      "title": "Voluntary AI Safety Standard",
-      "publisher": "Department of Industry, Science and Resources",
-      "url": "https://www.industry.gov.au/publications/voluntary-ai-safety-standard"
+      "title": "Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
     }
   ],
   "related": [
@@ -229,7 +224,7 @@
     }
   ],
   "published": "2026-09-28",
-  "updated": "2026-09-28",
+  "updated": "2026-10-01",
   "release": 4,
   "factCheck": [
     {
@@ -237,12 +232,8 @@
       "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
     },
     {
-      "claim": "Guidance for AI Adoption published 21 October 2025 with 6 essential practices; evolves the Voluntary AI Safety Standard",
-      "source": "https://www.industry.gov.au/publications/voluntary-ai-safety-standard"
-    },
-    {
-      "claim": "Six essential practices: decide who is accountable; understand impacts and plan accordingly; measure and manage risks; share essential information; test and monitor; maintain human control",
-      "source": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance"
+      "claim": "EU AI Act Article 26(2) wording on competence, training and authority",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
     }
   ]
 }

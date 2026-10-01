@@ -7,7 +7,7 @@
   "shortAnswer": "A compliance training program is designed by setting governance and ownership, segmenting the workforce into tiers by role and risk, building a layered curriculum from general awareness to specializt and governance training, defining the triggers that assign training (onboarding, new duties, change, periodic refresh), choosing assessment that proves application, specifying records, and scheduling evaluation and review so the program changes when obligations or risks change.",
   "keyTakeaways": [
     "A program is more than a set of courses. It includes ownership, assignment rules, triggers, evidence and review.",
-    "Tier the audience by role and risk. Regulators such as AUSTRAC explicitly expect different depth for different functions.",
+    "Tier the audience by role and risk. The US Department of Justice (DOJ) and anti money laundering rules in the EU and the United States all expect training tailored to function and risk.",
     "Assign training by events, not only by calendar: onboarding, new duties, regulatory change and incidents.",
     "Design assessment and records at the same time as content, because they are what an auditor will test.",
     "Build in evaluation of whether people apply what they learned, not just whether they completed it."
@@ -23,7 +23,11 @@
         },
         {
           "type": "p",
-          "text": "Regulator guidance describes program level expectations, not just content. For example, Australia's anti money laundering regulator, AUSTRAC, expects reporting entities to develop a training plan and schedule tailored to roles and risks, include regulatory changes and emerging risks, use a register to record completion and track when further training is due, monitor effectiveness, and evaluate whether personnel retain and apply the knowledge ([AUSTRAC](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform)). Those are program design requirements."
+          "text": "Regulator guidance describes program level expectations, not just content. In the United States, the Department of Justice (DOJ) Evaluation of Corporate Compliance Programs (ECCP) asks whether a company provides appropriately tailored training and communications, including periodic training for directors, officers, relevant employees, agents and business partners, and how it has measured the effectiveness of that training ([DOJ ECCP](https://www.justice.gov/media/1160391/dl?inline); see [DOJ compliance program training expectations](/regulations/doj-compliance-program-training-expectations))."
+        },
+        {
+          "type": "p",
+          "text": "Anti money laundering regulators are more specific still. The Australian Transaction Reports and Analysis Centre (AUSTRAC), for example, expects reporting entities to develop a training plan and schedule tailored to roles and risks, include regulatory changes and emerging risks, use a register to record completion and track when further training is due, monitor effectiveness, and evaluate whether personnel retain and apply the knowledge ([AUSTRAC](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform)). Those are program design requirements."
         }
       ]
     },
@@ -60,11 +64,11 @@
         },
         {
           "type": "p",
-          "text": "AUSTRAC's guidance gives a clear model: all customer facing personnel need awareness of suspicious activity indicators and reporting procedures, while personnel undertaking enhanced customer due diligence and investigating suspicious matters need a deeper understanding of the risks and procedures, and governance roles need deep understanding of the obligations specific to their role ([AUSTRAC](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform))."
+          "text": "Anti money laundering rules show the pattern. In the European Union, Article 12 of the Anti-Money Laundering Regulation (AMLR) requires training programs appropriate to employees' functions and the risks they are exposed to ([Regulation (EU) 2024/1624](https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng)), and US bank rules require \"Training for appropriate personnel\" ([31 CFR 1020.210](https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.210)). AUSTRAC's guidance spells out the tiers: all customer facing personnel need awareness of suspicious activity indicators and reporting procedures, while personnel undertaking enhanced customer due diligence and investigating suspicious matters need a deeper understanding of the risks and procedures, and governance roles need deep understanding of the obligations specific to their role ([AUSTRAC](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform))."
         },
         {
           "type": "table",
-          "caption": "Illustrative program architecture for an AML/CTF training program",
+          "caption": "Illustrative program architecture for an AML/CFT training program",
           "head": [
             "Tier",
             "Who",
@@ -74,7 +78,7 @@
           "rows": [
             [
               "General",
-              "All staff not in AML/CTF relevant roles",
+              "All staff not in AML/CFT relevant roles",
               "Recognize that the obligations exist and know where to escalate",
               "At onboarding"
             ],
@@ -98,7 +102,7 @@
             ],
             [
               "Third parties",
-              "Vendors performing AML/CTF functions",
+              "Vendors performing AML/CFT functions",
               "Apply the procedures relevant to their contracted function",
               "At onboarding and when the contract is renewed or changed"
             ]
@@ -121,9 +125,9 @@
         {
           "type": "ul",
           "items": [
-            "**Onboarding.** Before a person performs a regulated function. AUSTRAC requires initial training at the start of employment or engagement; Safe Work Australia's guidance on training workers lists induction training for new workers as the first step ([guidance](https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work)).",
+            "**Onboarding.** Before a person performs a regulated function. Portugal's anti money laundering law requires training for new joiners immediately ([Law 83/2017, Article 55](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643)); and the HIPAA Privacy Rule requires training for each new workforce member within a reasonable period after joining ([45 CFR 164.530(b)(2)](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.530)).",
             "**New duties.** When a person moves into a role with different obligations or risks.",
-            "**Content change.** When a law, regulator guidance, internal policy or procedure changes. AUSTRAC lists changes to laws, new and emerging risks, program changes, evaluation and review findings, significant non-compliance and AUSTRAC guidance as prompts for updating training.",
+            "**Content change.** When a law, regulator guidance, internal policy or procedure changes. Japan's Financial Services Agency (FSA) expects AML/CFT training to be updated when the national risk assessment or FATF material changes ([FSA FAQ](https://www.fsa.go.jp/en/news/2026/20260331/02.pdf)), and the HIPAA Privacy Rule requires training for affected workforce members within a reasonable period after a material change in policies or procedures.",
             "**Performance signal.** When incidents, complaints, audit findings or quality sampling show a gap in a team or individual.",
             "**Periodic refresh.** At an interval set by risk, documented with the reason for the interval."
           ]
@@ -140,7 +144,7 @@
         },
         {
           "type": "p",
-          "text": "The same Safe Work guidance says training should be regularly monitored and evaluated, its effectiveness continuously assessed and adjusted, and workers consulted on its effectiveness. Define two or three measures per tier before launch, with a baseline, so change can be shown. [Measuring training effectiveness](/guides/how-to-measure-training-effectiveness) covers the methods."
+          "text": "Regulators in several fields expect this. The US Food and Drug Administration (FDA) quality systems guidance for pharmaceutical manufacturing expects training programs to include an evaluation of their effectiveness ([FDA](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-systems-approach-pharmaceutical-current-good-manufacturing-practice-regulations)). Define two or three measures per tier before launch, with a baseline, so change can be shown. [Measuring training effectiveness](/guides/how-to-measure-training-effectiveness) covers the methods."
         }
       ]
     },
@@ -158,7 +162,7 @@
   "faqs": [
     {
       "q": "How often should compliance training be refreshed?",
-      "a": "There is rarely a single legal interval. Set frequency by role and risk, document the reason, and add event triggers for change. AUSTRAC's examples range from every 6 to 12 months for compliance officers and senior management to onboarding only for staff outside AML/CTF relevant roles, and it states that frequency must suit the business."
+      "a": "There is rarely a single legal interval. A few rules set one, such as annual bloodborne pathogens training under OSHA's 29 CFR 1910.1030 in the United States. Many regimes give examples only: AUSTRAC's range from every 6 to 12 months for compliance officers to onboarding only for staff outside AML/CTF relevant roles, and it states that frequency must suit the business. Set frequency by role and risk, document the reason, and add event triggers."
     },
     {
       "q": "Should compliance training be delivered online or face to face?",
@@ -166,7 +170,7 @@
     },
     {
       "q": "Can compliance training be outsourced?",
-      "a": "Delivery can be outsourced, but accountability cannot. AUSTRAC states that a reporting entity may outsource AML/CTF training delivery but remains responsible for ensuring it is tailored, appropriate and understandable to its personnel. Off the shelf content usually needs contextualizing to the organization's own procedures."
+      "a": "Delivery can be outsourced, but accountability cannot. AUSTRAC states that a reporting entity may outsource AML/CTF training delivery but remains responsible for ensuring it is tailored, appropriate and understandable to its personnel. Portugal's anti money laundering law similarly requires training to be given by competent trainers with the compliance officer's prior favorable opinion. Off the shelf content usually needs contextualizing to the organization's own procedures."
     },
     {
       "q": "Who should approve compliance training content?",
@@ -180,11 +184,6 @@
       "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
     },
     {
-      "title": "Training and supporting your workers to stay safe at work",
-      "publisher": "Safe Work Australia",
-      "url": "https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work"
-    },
-    {
       "title": "ISO 37301:2021 Compliance management systems: Requirements with guidance for use",
       "publisher": "International Organization for Standardization (ISO)",
       "url": "https://www.iso.org/standard/75080.html"
@@ -193,6 +192,46 @@
       "title": "ISO 37301 FAQs (May 2022)",
       "publisher": "ISO/TC 309",
       "url": "https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf"
+    },
+    {
+      "title": "Evaluation of Corporate Compliance Programs (September 2024)",
+      "publisher": "US Department of Justice, Criminal Division",
+      "url": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "title": "Regulation (EU) 2024/1624 on the prevention of the use of the financial system for money laundering or terrorist financing",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "title": "31 CFR 1020.210 Anti-money laundering program requirements for banks",
+      "publisher": "Financial Crimes Enforcement Network (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.210"
+    },
+    {
+      "title": "Lei n.º 83/2017 (consolidated version)",
+      "publisher": "Diário da República, Portugal",
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"
+    },
+    {
+      "title": "45 CFR 164.530 Administrative requirements",
+      "publisher": "US Department of Health and Human Services (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.530"
+    },
+    {
+      "title": "FAQ on the Guidelines for Anti-Money Laundering and Combating the Financing of Terrorism",
+      "publisher": "Financial Services Agency, Japan",
+      "url": "https://www.fsa.go.jp/en/news/2026/20260331/02.pdf"
+    },
+    {
+      "title": "Quality Systems Approach to Pharmaceutical CGMP Regulations",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-systems-approach-pharmaceutical-current-good-manufacturing-practice-regulations"
+    },
+    {
+      "title": "29 CFR 1910.1030 Bloodborne pathogens",
+      "publisher": "US Occupational Safety and Health Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030"
     }
   ],
   "related": [
@@ -226,12 +265,40 @@
       "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
     },
     {
-      "claim": "AUSTRAC: initial training at start of employment or engagement; delivery may be outsourced but the entity remains responsible",
+      "claim": "AUSTRAC: training delivery may be outsourced but the entity remains responsible",
       "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
     },
     {
-      "claim": "Safe Work Australia: induction training, task training, ongoing training; training regularly monitored and evaluated; consult workers on effectiveness",
-      "source": "https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work"
+      "claim": "DOJ ECCP section I.C: appropriately tailored training and communications; periodic training for directors, officers, relevant employees, agents and business partners; questions on measuring training effectiveness.",
+      "source": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "claim": "AMLR Article 12: training appropriate to functions and risks.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "claim": "31 CFR 1020.210 requires 'Training for appropriate personnel'.",
+      "source": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.210"
+    },
+    {
+      "claim": "Law 83/2017 Article 55: immediate training for new joiners; competent trainers with prior favorable opinion of the compliance officer.",
+      "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"
+    },
+    {
+      "claim": "45 CFR 164.530(b)(2): training for new workforce members within a reasonable period after joining, and for affected members within a reasonable period after a material change.",
+      "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.530"
+    },
+    {
+      "claim": "FSA FAQ: update AML/CFT training when national risk assessment or FATF material changes.",
+      "source": "https://www.fsa.go.jp/en/news/2026/20260331/02.pdf"
+    },
+    {
+      "claim": "FDA Quality Systems guidance expects training programs with evaluation of effectiveness.",
+      "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-systems-approach-pharmaceutical-current-good-manufacturing-practice-regulations"
+    },
+    {
+      "claim": "29 CFR 1910.1030(g)(2): bloodborne pathogens training at least annually.",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030"
     }
   ]
 }

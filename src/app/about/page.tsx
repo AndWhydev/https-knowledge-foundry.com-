@@ -166,9 +166,13 @@ export default function AboutPage() {
                 <div className="text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-ink-faint)] mb-2">
                   Legal entity
                 </div>
-                <p className="text-[color:var(--color-ink)] font-semibold">{site.legal.entity}</p>
+                <p className="text-[color:var(--color-ink)] font-semibold">
+                  {site.legal.registeredName || site.legal.entity}
+                </p>
                 <p className="mt-2 text-[color:var(--color-ink-muted)]">
-                  ABN {site.legal.abn}
+                  {site.legal.companyNumber
+                    ? `NIPC ${site.legal.companyNumber}. Registered in ${site.legal.jurisdiction}.`
+                    : site.legal.registrationLine}
                 </p>
               </div>
               <div>
@@ -177,7 +181,7 @@ export default function AboutPage() {
                 </div>
                 <p className="text-[color:var(--color-ink)] font-semibold">One business day</p>
                 <p className="mt-2 text-[color:var(--color-ink-muted)]">
-                  For demonstration requests received on business days in the Australian Eastern time zone.
+                  For demonstration requests received on a business day in your time zone.
                 </p>
               </div>
             </div>

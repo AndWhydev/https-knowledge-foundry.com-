@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/trust/compliance-posture" },
   title: "Compliance posture and data handling",
   description:
-    "How Knowledge Foundry handles data: subprocessors, data processing agreement, retention, residency, and alignment to the Australian Privacy Act.",
+    "How Knowledge Foundry handles data: subprocessors, data processing agreement, retention, residency by market, and alignment to the GDPR and the privacy laws of Australia, Japan, and the United States.",
 };
 
 const handling = [
@@ -35,7 +35,7 @@ const handling = [
   {
     icon: <Globe2 className="h-5 w-5" />,
     title: "Residency",
-    desc: "Australian customers: production data in AWS ap-southeast-2 (Sydney). No routine replication across borders. Alternate residency is available on request for regulated deployments.",
+    desc: "Production data stays in the customer's region: AWS eu-south-2 (Spain) for Portugal and the EU, us-east-1 for the United States, ap-northeast-1 (Tokyo) for Japan, and ap-southeast-2 (Sydney) for Australia. UAE hosting is available on request. No routine replication across borders.",
   },
   {
     icon: <Clock className="h-5 w-5" />,
@@ -58,12 +58,12 @@ const subprocessors = [
   {
     name: "Amazon Web Services",
     purpose: "Cloud infrastructure. Compute, storage, database, key management.",
-    region: "ap-southeast-2 (Sydney) for AU tenants",
+    region: "Customer's region: eu-south-2, us-east-1, ap-northeast-1, ap-southeast-2, or me-central-1",
   },
   {
     name: "Application observability provider",
     purpose: "Performance monitoring and error tracking, with PII scrubbed at source",
-    region: "AU or EU regions per customer requirement",
+    region: "EU, US, Japan, or Australia regions per customer requirement",
   },
   {
     name: "Transactional email provider",
@@ -73,7 +73,7 @@ const subprocessors = [
   {
     name: "Customer support ticketing",
     purpose: "Inbound support requests raised by customer administrators",
-    region: "Hosted in Australia where the vendor offers it",
+    region: "Hosted in the customer's region where the vendor offers it",
   },
 ];
 
@@ -93,7 +93,7 @@ const related = [
   {
     eyebrow: "Legal",
     title: "Privacy policy",
-    desc: "How we handle personal information under the Australian Privacy Principles.",
+    desc: "How we handle personal information under the GDPR and the privacy laws of the markets we serve.",
     href: "/privacy",
   },
 ];
@@ -166,19 +166,20 @@ export default function CompliancePosturePage() {
         title="How the privacy program is run in practice."
       >
         <p>
-          Our privacy program is operated under the Australian Privacy Act
-          1988 and the Australian Privacy Principles. A named privacy contact
+          Knowledge Foundry is registered in Portugal, so our privacy program
+          is operated under the GDPR and Portuguese Law 58/2019, with the
+          CNPD as our lead supervisory authority. A named privacy contact
           receives requests from customers and, where relevant, from data
           subjects on customers' behalf. Requests to access, correct, or delete
           personal information are triaged against a documented workflow with
           defined response windows.
         </p>
         <p>
-          For customers whose end users reside in the European Union or the
-          United Kingdom, we execute a data processing agreement incorporating
-          the Standard Contractual Clauses where a transfer occurs. Where
-          possible, EU/UK customer data is processed in a region that avoids the
-          transfer altogether.
+          Customer data is processed in the customer&apos;s own region, so most
+          deployments involve no cross border transfer at all. Where a transfer
+          out of the European Economic Area does occur, we rely on an adequacy
+          decision or the Standard Contractual Clauses, and we meet the
+          equivalent transfer rules in Australia (APP 8) and Japan (APPI).
         </p>
       </ProseBlock>
 
@@ -191,9 +192,11 @@ export default function CompliancePosturePage() {
           deletion or return of data on termination.
         </p>
         <p>
-          For regulated Australian customers, additional operating obligations
-          (including those relevant to APRA CPS 234) can be reflected in
-          schedules to the master services agreement. Customer legal and
+          For regulated customers, additional operating obligations can be
+          reflected in schedules to the master services agreement. Examples
+          include DORA for EU financial entities, APRA CPS 234 in Australia,
+          the FSA cybersecurity guidelines in Japan, and HIPAA business
+          associate terms in the United States. Customer legal and
           procurement teams should raise specific requirements during
           contracting.
         </p>
@@ -216,18 +219,23 @@ export default function CompliancePosturePage() {
       </ProseBlock>
 
       <ProseBlock
-        eyebrow="Australian Privacy Act alignment"
-        title="How the platform maps to the APPs."
+        eyebrow="Alignment by market"
+        title="How the platform supports each privacy regime."
       >
         <p>
           The Knowledge Foundry platform, and our operational practices around
-          it, are designed to support customer obligations under the Australian
-          Privacy Principles. Collection is limited to what the service
-          requires. Notice is provided through the customer facing privacy
-          policy and, for direct interactions, at the point of collection.
-          Access, correction, and complaint handling are documented and time
-          bound.
+          it, are designed to support customer obligations in each market we
+          serve. Collection is limited to what the service requires. Notice is
+          provided through the customer facing privacy policy and, for direct
+          interactions, at the point of collection. Access, correction, and
+          complaint handling are documented and time bound.
         </p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li><strong>Portugal and the EU:</strong> GDPR and Portuguese Law 58/2019, including processor terms under Article 28 and support for data subject requests.</li>
+          <li><strong>United States:</strong> state privacy laws such as the CCPA as amended by the CPRA, with service provider terms, and HIPAA business associate terms where health information is in scope.</li>
+          <li><strong>Japan:</strong> the Act on the Protection of Personal Information (APPI), including its security control and third party provision rules.</li>
+          <li><strong>Australia:</strong> the Privacy Act 1988 and the Australian Privacy Principles, including APP 8 on cross border disclosure.</li>
+        </ul>
         <p>
           Where customer end users reside overseas, the customer remains the
           controller and determines the legal basis for processing. We support

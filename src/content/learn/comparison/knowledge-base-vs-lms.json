@@ -99,7 +99,7 @@
           "type": "ul",
           "items": [
             "**A knowledge base is enough** for low risk, rarely used, or highly detailed information that people can safely look up, such as system settings or product specifications.",
-            "**An LMS is needed** when a regulation or standard requires training, when errors are costly or unsafe, or when you must report completion by role. For example, Australia's work health and safety regulations require the training provided to workers to be suitable and adequate for the nature of the work and its risks ([WHS Regulations 2011, r 39](https://www.legislation.gov.au/F2011L02664/latest/text)).",
+            "**An LMS is needed** when a regulation or standard requires training, when errors are costly or unsafe, or when you must report completion by role. For example, the EU OSH Framework Directive requires safety training adapted to new or changed risks and repeated periodically if necessary ([Directive 89/391/EEC, Art. 12](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391)).",
             "**A knowledge base cannot substitute** for training on judgment heavy tasks, such as recognizing a reportable matter or a hazardous condition, because people need to know to look before they can look it up."
           ]
         }
@@ -170,14 +170,14 @@
       "url": "https://www.iso.org/standard/68683.html"
     },
     {
-      "title": "Work Health and Safety Regulations 2011 (Cth), regulation 39",
-      "publisher": "Federal Register of Legislation",
-      "url": "https://www.legislation.gov.au/F2011L02664/latest/text"
-    },
-    {
       "title": "Experience API (xAPI) Standard",
       "publisher": "Advanced Distributed Learning (ADL) Initiative",
       "url": "https://adlnet.gov/projects/xapi/"
+    },
+    {
+      "title": "Council Directive 89/391/EEC on the introduction of measures to encourage improvements in the safety and health of workers at work",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
     }
   ],
   "related": [
@@ -198,7 +198,7 @@
     }
   ],
   "published": "2026-09-28",
-  "updated": "2026-09-28",
+  "updated": "2026-10-01",
   "release": 4,
   "factCheck": [
     {
@@ -206,12 +206,12 @@
       "source": "https://www.iso.org/standard/68683.html"
     },
     {
-      "claim": "WHS Regulations r39(2): training suitable and adequate having regard to the nature of work, risks, and control measures",
-      "source": "https://www.legislation.gov.au/F2011L02664/latest/text"
-    },
-    {
       "claim": "ADL lists reading an article as an activity xAPI can track",
       "source": "https://adlnet.gov/projects/xapi/"
+    },
+    {
+      "claim": "Directive 89/391/EEC Article 12(1): training adapted to new or changed risks and repeated periodically if necessary",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
     }
   ]
 }

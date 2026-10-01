@@ -8,7 +8,7 @@
   "keyTakeaways": [
     "Start from the obligation and the population that should be trained, not from the learning system report. Auditors test coverage, not activity.",
     "A usable training record names the person, role, content item and version, date, assessment result, assessor where relevant, and next due date.",
-    "Some retention periods are set in regulation or regulator standards, such as three years for bloodborne pathogens training records under the US OSHA standard, or two years for assessments submitted to an Australian Registered Training Organisation.",
+    "Some retention periods are set in regulation, such as three years for bloodborne pathogens training records under the US OSHA standard, seven years for anti money laundering records under Portugal's Law 83/2017, and three years for special education records under Japan's industrial safety rules.",
     "Never backdate, recreate, or edit historical records to close a gap. Record the gap, remediate it, and document the remediation.",
     "Run your own sample test before the auditor does, using the same approach: pick people at random and trace each one to evidence."
   ],
@@ -23,11 +23,15 @@
         },
         {
           "type": "p",
-          "text": "Several regulators state record expectations directly. For example, the US Occupational Safety and Health Administration (OSHA) Bloodborne Pathogens standard requires training records to show the dates of the sessions, their contents or a summary, the names and qualifications of the trainers, and the names and job titles of attendees, and to keep them for three years from the date of training ([29 CFR 1910.1030(h)(2)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030)). The Australian Transaction Reports and Analysis Centre (AUSTRAC) says in its [AML/CTF training guidance](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform) that it expects reporting entities to use a register to record completion dates and track when further training is due."
+          "text": "Several regulators state record expectations directly. For example, the US Occupational Safety and Health Administration (OSHA) Bloodborne Pathogens standard requires training records to show the dates of the sessions, their contents or a summary, the names and qualifications of the trainers, and the names and job titles of attendees, and to keep them for three years from the date of training ([29 CFR 1910.1030(h)(2)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030)). In Portugal, the anti money laundering law requires training records to be kept for seven years and made available to sectoral authorities ([Law 83/2017, Articles 51 and 55](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643)), and the Banco de Portugal sets minimum record fields in [Notice 1/2022](https://diariodarepublica.pt/dr/detalhe/aviso-banco-portugal/1-2022-184434622)."
         },
         {
           "type": "p",
-          "text": "For Registered Training Organisations, the Australian Skills Quality Authority (ASQA) [practice guide on integrity of nationally recognized training](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/compliance-standards-for-rtos/integrity-of-nationally-recognised-training-practice-guide) sets out the requirement to retain records of all assessments submitted by a student for two years after the student completes the training product, and AQF certification documentation for thirty years. Other sectors may have their own record rules, so check the instruments that apply to you rather than assuming one period fits all."
+          "text": "In Japan, the Ordinance on Industrial Safety and Health requires records of special education for dangerous or harmful work to be kept for three years ([Ordinance, Article 38](https://laws.e-gov.go.jp/law/347M50002000032)). See also [BSA AML training requirements](/regulations/bsa-aml-training-requirements) and [Portugal AML law training requirements](/regulations/portugal-aml-law-training-requirements)."
+        },
+        {
+          "type": "p",
+          "text": "Education and training providers can face their own record rules. In Australia, for example, the national vocational training regulator, ASQA, in its [practice guide on integrity of nationally recognized training](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/compliance-standards-for-rtos/integrity-of-nationally-recognised-training-practice-guide) sets out the requirement for registered training organizations to retain records of all assessments submitted by a student for two years after the student completes the training product, and AQF certification documentation for thirty years. Other sectors and countries have their own rules, so check the instruments that apply to you rather than assuming one period fits all."
         }
       ]
     },
@@ -89,7 +93,7 @@
             [
               "Obligation reference",
               "Connects the record to the requirement being tested",
-              "AML/CTF policy section 4, customer due diligence"
+              "AML/CFT policy section 4, customer due diligence"
             ],
             [
               "Completion date",
@@ -178,7 +182,7 @@
   "faqs": [
     {
       "q": "How long should training records be kept?",
-      "a": "It depends on the rule that applies. For example, Australian Registered Training Organisations must retain submitted assessments for two years after the student completes the training product and certification records for thirty years under the 2025 Standards for RTOs. Other sectors set their own periods, and many organizations align training records with their general records retention schedule. Check the instruments that apply to you and document the period in your training policy."
+      "a": "It depends on the rule that applies. For example, the HIPAA Security Rule in the United States requires documentation to be kept for six years, Portugal's anti money laundering law sets seven years, and Japan requires special education records to be kept for three years. Other sectors set their own periods, and many organizations align training records with their general records retention schedule. Document the period you apply in your training policy."
     },
     {
       "q": "Is a learning management system completion report enough for an audit?",
@@ -186,7 +190,7 @@
     },
     {
       "q": "Should contractors be included in training records?",
-      "a": "If contractors perform functions covered by an obligation, include them. AUSTRAC's guidance, for example, defines personnel as any person you employ or engage to perform AML/CTF functions. Keep the same record fields for contractors, even where the training was delivered by their own employer."
+      "a": "If contractors perform functions covered by an obligation, include them. The EU Anti Money Laundering Regulation, for example, extends its training duty to persons in comparable positions, including agents and distributors. Keep the same record fields for contractors, even where the training was delivered by their own employer."
     },
     {
       "q": "What if records from a previous system were lost in a migration?",
@@ -195,19 +199,34 @@
   ],
   "sources": [
     {
-      "title": "AML/CTF training (Reform)",
-      "publisher": "AUSTRAC",
-      "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
+      "title": "Law 83/2017 (anti money laundering and counter terrorist financing), consolidated version",
+      "publisher": "Diário da República (Portugal)",
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"
+    },
+    {
+      "title": "Banco de Portugal Notice 1/2022",
+      "publisher": "Diário da República (Portugal)",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-banco-portugal/1-2022-184434622"
+    },
+    {
+      "title": "Ordinance on Industrial Safety and Health",
+      "publisher": "e-Gov Law Search, Digital Agency of Japan",
+      "url": "https://laws.e-gov.go.jp/law/347M50002000032"
+    },
+    {
+      "title": "45 CFR 164.316 Policies and procedures and documentation requirements",
+      "publisher": "US Department of Health and Human Services (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.316"
+    },
+    {
+      "title": "Regulation (EU) 2024/1624 (Anti Money Laundering Regulation)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
     },
     {
       "title": "Integrity of Nationally Recognised Training Practice Guide",
       "publisher": "Australian Skills Quality Authority",
       "url": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/compliance-standards-for-rtos/integrity-of-nationally-recognised-training-practice-guide"
-    },
-    {
-      "title": "Operating mobile plant verification of competency (VOC)",
-      "publisher": "NSW Resources Regulator",
-      "url": "https://www.resources.nsw.gov.au/sites/default/files/2024-05/operating-mobile-plant-verification-of-competency.pdf"
     },
     {
       "title": "29 CFR 1910.1030 Bloodborne pathogens",
@@ -238,20 +257,32 @@
   "release": 7,
   "factCheck": [
     {
-      "claim": "AUSTRAC expects reporting entities to use a register to record completion dates and track when further training is due.",
-      "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
-    },
-    {
-      "claim": "AUSTRAC guidance defines personnel as any person employed or engaged to perform AML/CTF functions.",
-      "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
-    },
-    {
       "claim": "RTOs must retain records of all assessments submitted by a VET student for two years after completion of the training product, and AQF certification documentation for thirty years.",
       "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/compliance-standards-for-rtos/integrity-of-nationally-recognised-training-practice-guide"
     },
     {
       "claim": "29 CFR 1910.1030(h)(2): training records shall include dates of sessions, contents or a summary, names and qualifications of persons conducting the training, and names and job titles of attendees; maintained for 3 years from the date of training.",
       "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030"
+    },
+    {
+      "claim": "Law 83/2017 Article 55(5): training records kept under Article 51 and available to sectoral authorities; Article 51 sets a seven year retention period.",
+      "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"
+    },
+    {
+      "claim": "Banco de Portugal Notice 1/2022 Article 53 sets minimum training record fields.",
+      "source": "https://diariodarepublica.pt/dr/detalhe/aviso-banco-portugal/1-2022-184434622"
+    },
+    {
+      "claim": "Ordinance on Industrial Safety and Health Article 38 requires special education records to be kept for 3 years.",
+      "source": "https://laws.e-gov.go.jp/law/347M50002000032"
+    },
+    {
+      "claim": "45 CFR 164.316(b)(2): retain documentation for 6 years from creation or last effective date.",
+      "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.316"
+    },
+    {
+      "claim": "AMLR Article 12 requires ongoing training programs for employees or persons in comparable positions, including agents and distributors.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
     }
   ]
 }

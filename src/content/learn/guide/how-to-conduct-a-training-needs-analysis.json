@@ -8,7 +8,7 @@
   "keyTakeaways": [
     "Start from a performance problem or obligation, not from a request for a course. Many gaps are better fixed by process, tooling, supervision or hiring.",
     "Analyze at three levels: the organization, the tasks and their required standard, and the individuals who perform them.",
-    "In regulated sectors the task standard often comes from the regulator. Rules as different as AML/CTF guidance and medicines manufacturing regulations expect training to be matched to role and risk.",
+    "In regulated sectors the task standard often comes from the regulator. Rules as different as AML/CFT guidance and medicines manufacturing regulations expect training to be matched to role and risk.",
     "Prioritize needs by consequence of failure multiplied by the size and spread of the gap, then fund from the top.",
     "The output is a written specification that the design team, the budget holder and an auditor can all read."
   ],
@@ -65,8 +65,8 @@
           "type": "ul",
           "items": [
             "**Medicines manufacturers.** In the United States, current good manufacturing practice regulations require that \"Training shall be in the particular operations that the employee performs\" and in good manufacturing practice \"as they relate to the employee's functions\" ([21 CFR 211.25(a)](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25)). Identifying those operations and functions for each role is a TNA in all but name.",
-            "**AML/CTF reporting entities.** In Australia, AUSTRAC guidance on the reformed regime says training must be tailored to the person, their role, their responsibilities and the money laundering and terrorism financing risks relevant to that role, and that AUSTRAC expects entities to use their risk assessment to identify training needs ([AUSTRAC](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform)).",
-            "**Work health and safety.** Safe Work Australia guidance says the type and amount of training will vary by worker, and that the characteriztics of the workplace and the level of risk in the work must be considered ([guidance](https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work))."
+            "**AML/CFT obliged entities.** In the European Union, Article 12 of the Anti-Money Laundering Regulation, Regulation (EU) 2024/1624 (AMLR), requires specific, ongoing training programs for employees that are appropriate to their functions and to the risks they are exposed to, and that are duly documented ([AMLR](https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng)); see [EU AMLR training requirements](/regulations/eu-amlr-training-requirements). Australia's AML/CTF regulator, AUSTRAC, similarly says in guidance on its reformed regime that training must be tailored to the person, their role, their responsibilities and the relevant risks, and that entities should use their risk assessment to identify training needs ([AUSTRAC](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform)).",
+            "**Occupational safety and health.** In the European Union, Article 12 of the OSH Framework Directive 89/391/EEC requires adequate training specific to the worker's job on recruitment, on a transfer or change of job, and when new equipment or technology is introduced, adapted to new or changed risks and repeated periodically if necessary ([Directive 89/391/EEC](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391)); see [EU OSH Framework Directive training](/regulations/eu-osh-framework-directive-training)."
           ]
         },
         {
@@ -133,7 +133,7 @@
             ],
             [
               "Source of standard",
-              "Internal suspicious matter escalation procedure; AUSTRAC guidance that customer facing staff need awareness of suspicious indicators and reporting procedures"
+              "Internal suspicious matter escalation procedure; the applicable AML/CFT training requirement, such as AMLR Article 12 in the EU or 31 CFR 1020.210 for US banks"
             ],
             [
               "Cause analysis",
@@ -213,7 +213,7 @@
     },
     {
       "q": "How often should a training needs analysis be repeated?",
-      "a": "Repeat it when a trigger occurs: a new or changed obligation, a new product or system, a significant incident, or an audit finding. Many organizations also run an annual review. AUSTRAC, for example, expects training to be updated in response to law changes, new risks and compliance review findings."
+      "a": "Repeat it when a trigger occurs: a new or changed obligation, a new product or system, a significant incident, or an audit finding. Many organizations also run an annual review. Supervisors say the same: Japan's Financial Services Agency (FSA), for example, expects AML/CFT training to be updated when national risk assessment or FATF material changes."
     }
   ],
   "sources": [
@@ -226,11 +226,6 @@
       "title": "AML/CTF training",
       "publisher": "AUSTRAC",
       "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
-    },
-    {
-      "title": "Training and supporting your workers to stay safe at work",
-      "publisher": "Safe Work Australia",
-      "url": "https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work"
     },
     {
       "title": "ISO 9001 Auditing Practices Group: Guidance on auditing competence (Edition 2)",
@@ -246,6 +241,21 @@
       "title": "21 CFR 211.25 Personnel qualifications",
       "publisher": "US Food and Drug Administration (eCFR)",
       "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25"
+    },
+    {
+      "title": "Regulation (EU) 2024/1624 on the prevention of the use of the financial system for money laundering or terrorist financing",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "title": "Council Directive 89/391/EEC (OSH Framework Directive)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
+    },
+    {
+      "title": "FAQ on the Guidelines for Anti-Money Laundering and Combating the Financing of Terrorism",
+      "publisher": "Financial Services Agency, Japan",
+      "url": "https://www.fsa.go.jp/en/news/2026/20260331/02.pdf"
     }
   ],
   "related": [
@@ -275,7 +285,7 @@
       "source": "https://www.cipd.org/en/knowledge/factsheets/learning-needs-factsheet/"
     },
     {
-      "claim": "AUSTRAC: training must be tailored to person, role, responsibilities and relevant ML/TF risks; AUSTRAC expects entities to use their risk assessment to identify training needs; customer facing staff need awareness of suspicious indicators and reporting procedures",
+      "claim": "AUSTRAC: training must be tailored to person, role, responsibilities and relevant ML/TF risks; AUSTRAC expects entities to use their risk assessment to identify training needs",
       "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
     },
     {
@@ -283,12 +293,20 @@
       "source": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf"
     },
     {
-      "claim": "Safe Work Australia: type and amount of training varies by worker; consider workplace characteristics and level of risk",
-      "source": "https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work"
-    },
-    {
       "claim": "21 CFR 211.25(a): each person engaged in the manufacture, processing, packing, or holding of a drug product shall have education, training, and experience to perform the assigned functions; training shall be in the particular operations that the employee performs and in CGMP as they relate to the employee's functions; CGMP training conducted by qualified individuals on a continuing basis and with sufficient frequency.",
       "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25"
+    },
+    {
+      "claim": "AMLR Article 12 requires specific, ongoing training programs for employees appropriate to their functions and risks, duly documented",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "claim": "OSH Framework Directive Article 12: adequate job specific training on recruitment, transfer or change of job, new equipment or technology; adapted to new or changed risks and repeated periodically if necessary",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
+    },
+    {
+      "claim": "FSA FAQ: update AML/CFT training when national risk assessment or FATF material changes",
+      "source": "https://www.fsa.go.jp/en/news/2026/20260331/02.pdf"
     }
   ]
 }

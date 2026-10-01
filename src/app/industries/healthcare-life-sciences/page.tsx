@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import {
   HeartPulse,
   Stethoscope,
@@ -27,7 +28,7 @@ const capabilities = [
   {
     icon: <Stethoscope className="h-5 w-5" />,
     title: "Clinical governance alignment",
-    desc: "Programs structured against hospital accreditation standards (The Joint Commission, Joint Commission International, the NSQHS Standards) and local clinical governance frameworks, with instruction traced to each specific criterion.",
+    desc: "Programs structured against hospital accreditation standards (the DGS national accreditation model in Portugal, The Joint Commission in the US, the Japan Council for Quality Health Care, the NSQHS Standards in Australia, Joint Commission International) and local clinical governance frameworks, with instruction traced to each specific criterion.",
   },
   {
     icon: <BadgeCheck className="h-5 w-5" />,
@@ -37,12 +38,12 @@ const capabilities = [
   {
     icon: <ClipboardCheck className="h-5 w-5" />,
     title: "CPD architecture for licensing bodies",
-    desc: "Continuing professional development and continuing medical education programs structured to the requirements of licensing bodies such as US state medical boards, the DHA and DOH in the UAE, and AHPRA, with self reflection, assessment, and outcome mapping produced as evidence rather than as narrative.",
+    desc: "Continuing professional development and continuing medical education programs structured to the requirements of licensing bodies such as medical councils and professional orders in the EU, US state medical boards, AHPRA, and the DHA and DOH in the UAE, with self reflection, assessment, and outcome mapping produced as evidence rather than as narrative.",
   },
   {
     icon: <Pill className="h-5 w-5" />,
     title: "Product training within promotional rules",
-    desc: "Training on medicines and medical devices authored against promotional and labeling rules (FDA rules in the US, the PMD Act in Japan, EU advertising rules, TGA rules in Australia), so promotional material and educational material are cleanly separated.",
+    desc: "Training on medicines and medical devices authored against promotional and labeling rules (EU advertising rules and INFARMED in Portugal, FDA rules in the US, the PMD Act in Japan, TGA rules in Australia), so promotional material and educational material are cleanly separated.",
   },
   {
     icon: <HeartPulse className="h-5 w-5" />,
@@ -82,7 +83,7 @@ const steps = [
 const faq = [
   {
     q: "Can this support hospital accreditation cycles?",
-    a: "Yes. Frameworks can encode alignment to specific accreditation criteria, whether from The Joint Commission, Joint Commission International, or the NSQHS Standards, and instruction, verification, and evidence flow from that alignment. When accreditation review approaches, the artifact you present is a framework with coverage at the level of the clause, not a folder of course completion records.",
+    a: "Yes. Frameworks can encode alignment to specific accreditation criteria, whether from the DGS model in Portugal, The Joint Commission, the Japan Council for Quality Health Care, the NSQHS Standards, or Joint Commission International, and instruction, verification, and evidence flow from that alignment. When accreditation review approaches, the artifact you present is a framework with coverage at the level of the clause, not a folder of course completion records.",
   },
   {
     q: "How does this fit with CPD and license renewal requirements?",
@@ -94,7 +95,7 @@ const faq = [
   },
   {
     q: "Do you make claims about regulator certification of the platform itself?",
-    a: "No. The Foundry produces evidence structured against guidance and standards from bodies such as the FDA, the MHLW, the DHA, the TGA, and AHPRA. It does not represent itself as certified or approved by any of them. Deployment posture, data residency, and health record handling are covered in the Technical Overview and confirmed through supplier due diligence.",
+    a: "No. The Foundry produces evidence structured against guidance and standards from bodies such as the EMA and INFARMED, the FDA, the MHLW and PMDA, the TGA and AHPRA, and the DHA. It does not represent itself as certified or approved by any of them. Deployment posture, data residency, and health record handling are covered in the Technical Overview and confirmed through supplier due diligence.",
   },
   {
     q: "Can we tie retraining directly to an adverse event or incident review?",
@@ -187,6 +188,15 @@ export default function HealthcareLifeSciencesPage() {
         <p>
           When the accreditor arrives, the artifact you present is a framework, not a defense
           reconstructed from an LMS export.
+        </p>
+        <p>
+          Plain language guides to instruments that often sit in scope:{" "}
+          <Link href="/regulations/gdpr-staff-training-requirements">GDPR staff training</Link>,{" "}
+          <Link href="/regulations/hipaa-security-and-privacy-training">HIPAA workforce training</Link>,{" "}
+          <Link href="/regulations/fda-gmp-personnel-training-requirements">FDA GMP personnel training</Link>,{" "}
+          <Link href="/regulations/japan-gmp-personnel-training-requirements">Japan GMP personnel training</Link>,{" "}
+          <Link href="/regulations/tga-gmp-personnel-training-requirements">TGA GMP personnel training</Link>, and{" "}
+          <Link href="/regulations/nsqhs-standards-workforce-training">the NSQHS Standards</Link>.
         </p>
       </ProseBlock>
 

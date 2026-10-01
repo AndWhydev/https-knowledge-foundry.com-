@@ -8,7 +8,7 @@
   "keyTakeaways": [
     "Competencies describe performance to a standard in context; skills describe discrete capabilities that can be combined.",
     "Competency frameworks are usually role specific and assessable; skills frameworks are usually organization or economy wide and descriptive.",
-    "Vocational training systems such as Australia's are competency based; national and regional skills taxonomies are skills based.",
+    "Vocational training systems such as US Registered Apprenticeship are competency based; classifications such as ESCO in the EU and O*NET in the US are skills based.",
     "Regulated roles usually need a competency framework for assurance and benefit from a skills framework for workforce planning."
   ],
   "sections": [
@@ -22,11 +22,11 @@
         },
         {
           "type": "p",
-          "text": "Vocational education shows the competency approach in practice. In Australia, for example, under the 2025 Standards for Registered Training Organisations, the Australian Skills Quality Authority (ASQA) expects assessment systems to determine \"what competence looks like based on the unit elements, performance criteria and assessment requirements\" of a training product ([ASQA](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide)). See [competency framework](/glossary/competency-framework) and [competency based training](/glossary/competency-based-training)."
+          "text": "Vocational education shows the competency approach in practice. In the United States, Registered Apprenticeship standards allow a competency-based approach in which program standards \"describe competencies, and identify an appropriate means of testing and evaluation for such competencies\" ([29 CFR 29.5(b)(2)](https://www.ecfr.gov/current/title-29/subtitle-A/part-29/section-29.5)). See [competency framework](/glossary/competency-framework) and [competency based training](/glossary/competency-based-training)."
         },
         {
           "type": "p",
-          "text": "The skills approach is illustrated by national and regional skills taxonomies. Jobs and Skills Australia's National Skills Taxonomy, for example, is described as \"a new, evidence-based framework that provides a common language for describing the skills\" people gain, develop, and use across education and employment. It builds on the earlier Australian Skills Classification, which organized skills into core competencies, specializt tasks, and technology tools ([Jobs and Skills Australia](https://www.jobsandskills.gov.au/data/national-skills-taxonomy)). In the European Union, the European Commission's ESCO (European Skills, Competences, Qualifications and Occupations) classification plays the same role: it \"works as a dictionary, describing, identifying and classifying professional occupations and skills relevant for the EU labour market and education and training\" ([European Commission](https://esco.ec.europa.eu/en/about-esco/what-esco))."
+          "text": "The skills approach is illustrated by national and regional skills taxonomies. In the European Union, the European Commission's ESCO (European Skills, Competences, Qualifications and Occupations) classification is one example: it \"works as a dictionary, describing, identifying and classifying professional occupations and skills relevant for the EU labour market and education and training\" ([European Commission](https://esco.ec.europa.eu/en/about-esco/what-esco)). In the United States, the Department of Labor sponsors [O*NET](https://www.onetcenter.org/overview.html), which describes itself as \"the nation's primary source of occupational information\"."
         }
       ]
     },
@@ -163,7 +163,7 @@
     },
     {
       "q": "Does a national skills taxonomy replace competency based training?",
-      "a": "No. Skills taxonomies are built to sit alongside competency standards. Jobs and Skills Australia, for example, describes its National Skills Taxonomy as a common language for skills across education and employment, designed to work with existing frameworks, while nationally recognized vocational training there remains competency based under the Standards for RTOs."
+      "a": "No. Skills taxonomies are built to sit alongside competency standards. ESCO, for example, classifies occupations and skills for both the labor market and education and training, while apprenticeship and vocational systems continue to assess competence against defined standards."
     },
     {
       "q": "Which framework does a regulator want to see?",
@@ -176,19 +176,19 @@
   ],
   "sources": [
     {
-      "title": "Assessment Practice Guide (Standards for RTOs 2025)",
-      "publisher": "Australian Skills Quality Authority (ASQA)",
-      "url": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
-    },
-    {
-      "title": "National Skills Taxonomy",
-      "publisher": "Jobs and Skills Australia",
-      "url": "https://www.jobsandskills.gov.au/data/national-skills-taxonomy"
-    },
-    {
       "title": "What is ESCO",
       "publisher": "European Commission",
       "url": "https://esco.ec.europa.eu/en/about-esco/what-esco"
+    },
+    {
+      "title": "29 CFR 29.5 Standards of apprenticeship",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-A/part-29/section-29.5"
+    },
+    {
+      "title": "O*NET Program overview",
+      "publisher": "O*NET Resource Center, sponsored by the U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/overview.html"
     }
   ],
   "related": [
@@ -209,24 +209,20 @@
     }
   ],
   "published": "2026-09-28",
-  "updated": "2026-09-28",
+  "updated": "2026-10-01",
   "release": 5,
   "factCheck": [
     {
-      "claim": "ASQA practice guide: assessment system determines what competence looks like based on the unit elements, performance criteria and assessment requirements",
-      "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
-    },
-    {
-      "claim": "JSA describes the NST as a new, evidence-based framework providing a common language for skills; builds on the ASC, which had core competencies, specialist tasks and technology tools",
-      "source": "https://www.jobsandskills.gov.au/data/national-skills-taxonomy"
-    },
-    {
-      "claim": "JSA states the NST is interoperable by design and works with existing Australian and international education and occupation frameworks",
-      "source": "https://www.jobsandskills.gov.au/data/national-skills-taxonomy"
-    },
-    {
       "claim": "ESCO (European Skills, Competences, Qualifications and Occupations) works as a dictionary, describing, identifying and classifying professional occupations and skills relevant for the EU labour market and education and training; a European Commission project",
       "source": "https://esco.ec.europa.eu/en/about-esco/what-esco"
+    },
+    {
+      "claim": "29 CFR 29.5(b)(2)(ii) competency-based approach text",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-A/part-29/section-29.5"
+    },
+    {
+      "claim": "O*NET is the nation's primary source of occupational information, sponsored by USDOL/ETA",
+      "source": "https://www.onetcenter.org/overview.html"
     }
   ]
 }

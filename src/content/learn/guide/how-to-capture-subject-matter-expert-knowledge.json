@@ -23,7 +23,19 @@
         },
         {
           "type": "p",
-          "text": "In regulated settings this gap has consequences. Procedures are often the control measures that training must reflect, and Australia's model Work Health and Safety Regulations, for example, require training to be suitable and adequate having regard to the risks and the control measures implemented ([model WHS Regulations r39](https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf)). In medicines manufacturing, the PIC/S Guide to GMP expects written procedures and records for activities such as maintenance, cleaning, change control, and investigations into deviations ([PE009-16 Part I, clause 4.29](https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf)). Knowledge that exists only in one person's head cannot meet either expectation for long. See [knowledge management](/glossary/knowledge-management) for the broader discipline."
+          "text": "In regulated settings this gap has consequences, because training is expected to reflect current procedures and controls."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "In the United States, the Food and Drug Administration (FDA) drug manufacturing regulations require training in the particular operations an employee performs and in current good manufacturing practice, including the written procedures the regulations require ([21 CFR 211.25(a)](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B)).",
+            "In the European Union, the OSH Framework Directive requires worker training to be adapted to new or changed risks ([Directive 89/391/EEC, Article 12](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391)).",
+            "In medicines manufacturing more broadly, the PIC/S Guide to GMP expects written procedures and records for activities such as maintenance, cleaning, change control, and investigations into deviations ([PE009-16 Part I, clause 4.29](https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf))."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Knowledge that exists only in one person's head cannot meet these expectations for long. See [knowledge management](/glossary/knowledge-management) for the broader discipline."
         }
       ]
     },
@@ -186,11 +198,23 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Recording and transcribing sessions collects personal information about the expert and often about customers or colleagues mentioned in past cases, so privacy law applies. For example, under the Australian Privacy Principles, APP 5 sets out when an entity collecting personal information must tell the individual about certain matters ([OAIC APP quick reference](https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-quick-reference)). Explain how recordings will be used and stored, and remove third party details from anything used in training."
+          "text": "Recording and transcribing sessions collects personal information about the expert and often about customers or colleagues mentioned in past cases, so privacy law applies, and most regimes require people to be told about collection."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "In the European Union, Article 13 of the General Data Protection Regulation (GDPR) sets out the information a controller must give when it collects personal data from the individual ([GDPR](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504)).",
+            "In Japan, the Act on the Protection of Personal Information (APPI) requires a business to notify the individual of, or publicly announce, the purpose of use when it acquires personal information (Article 21) ([e-Gov](https://laws.e-gov.go.jp/law/415AC0000000057)).",
+            "In the United States, obligations depend on sector and state law, such as the Health Insurance Portability and Accountability Act (HIPAA) for health information; see [HIPAA training](/regulations/hipaa-security-and-privacy-training)."
+          ]
         },
         {
           "type": "p",
-          "text": "If an AI tool transcribes or summarizes sessions, the OAIC notes that privacy obligations apply to personal information input into an AI system and to AI outputs that contain it ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products)). Use an approved tool, and have the expert check any AI summary, because summaries can drop the exceptions and caveats that make expert knowledge valuable. See [how to use AI to create training content safely](/guides/how-to-use-ai-to-create-training-content-safely)."
+          "text": "Explain how recordings will be used and stored, and remove third party details from anything used in training."
+        },
+        {
+          "type": "p",
+          "text": "If an AI tool transcribes or summarizes sessions, privacy obligations follow the data into the tool. The Office of the Australian Information Commissioner (OAIC), for example, notes that privacy obligations apply to personal information input into an AI system and to AI outputs that contain it ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products)). Use an approved tool, and have the expert check any AI summary, because summaries can drop the exceptions and caveats that make expert knowledge valuable. See [how to use AI to create training content safely](/guides/how-to-use-ai-to-create-training-content-safely)."
         }
       ]
     },
@@ -225,19 +249,29 @@
   ],
   "sources": [
     {
-      "title": "Model Work Health and Safety Regulations (5 December 2025)",
-      "publisher": "Safe Work Australia",
-      "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
+      "title": "21 CFR Part 211 Subpart B: Organization and personnel",
+      "publisher": "US Food and Drug Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B"
+    },
+    {
+      "title": "Council Directive 89/391/EEC (OSH Framework Directive)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
+    },
+    {
+      "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    },
+    {
+      "title": "Act on the Protection of Personal Information (Act No. 57 of 2003)",
+      "publisher": "e-Gov Japan",
+      "url": "https://laws.e-gov.go.jp/law/415AC0000000057"
     },
     {
       "title": "PIC/S Guide to GMP PE009-16, Part I: Basic requirements for medicinal products",
       "publisher": "Therapeutic Goods Administration",
       "url": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
-    },
-    {
-      "title": "Australian Privacy Principles quick reference",
-      "publisher": "Office of the Australian Information Commissioner",
-      "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-quick-reference"
     },
     {
       "title": "Guidance on privacy and the use of commercially available AI products",
@@ -267,20 +301,28 @@
   "release": 7,
   "factCheck": [
     {
-      "claim": "Model WHS Regulations r39(2): information, training and instruction must be suitable and adequate having regard to the nature of the work, the risks at the time it is provided, and the control measures implemented; r39(3): provided in a way that is readily understandable.",
-      "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
-    },
-    {
       "claim": "PIC/S GMP Part I clause 4.29: there should be written policies, procedures, protocols, reports and associated records for listed examples, including maintenance, cleaning, personnel matters and training, change control, and investigations into deviations.",
       "source": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
     },
     {
-      "claim": "APP 5 outlines when and in what circumstances an APP entity that collects personal information must tell an individual about certain matters.",
-      "source": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-quick-reference"
-    },
-    {
       "claim": "OAIC: privacy obligations apply to any personal information input into an AI system and to output data generated by AI where it contains personal information.",
       "source": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products"
+    },
+    {
+      "claim": "21 CFR 211.25(a): training in the particular operations the employee performs and in CGMP, including the regulations and written procedures required by them.",
+      "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B"
+    },
+    {
+      "claim": "Directive 89/391/EEC Article 12: training adapted to take account of new or changed risks and repeated periodically if necessary.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
+    },
+    {
+      "claim": "GDPR Article 13: information to be provided where personal data are collected from the data subject.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    },
+    {
+      "claim": "APPI Article 21: on acquiring personal information, a business must promptly notify the individual of, or publicly announce, the purpose of use, unless already announced.",
+      "source": "https://laws.e-gov.go.jp/law/415AC0000000057"
     }
   ]
 }

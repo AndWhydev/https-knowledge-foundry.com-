@@ -122,8 +122,8 @@ export default function Page() {
         <p>
           Making the framework explicit is not a documentation exercise. It is the mechanism by
           which a safety case becomes something an operator can defend, measure, and improve. For
-          any Australian operator under ISO 45001 and an accepted safety case, this is not a
-          training question. It is an assurance question.
+          any operator under ISO 45001 and an accepted safety case, in Australia or in any other
+          market, this is not a training question. It is an assurance question.
         </p>
       </Chapter>
     </CaseStudy>

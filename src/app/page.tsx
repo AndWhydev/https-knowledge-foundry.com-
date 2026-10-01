@@ -70,9 +70,9 @@ const process = [
 const proofPoints = [
   "ISO 27001 aligned",
   "WCAG 2.1 AA",
-  "Data residency: Australia",
+  "In region data residency",
   "SOC 2 Type II in progress",
-  "APRA CPS 234 aware",
+  "DORA and APRA CPS 234 aware",
   "GDPR ready",
 ];
 
@@ -91,7 +91,7 @@ const homeFaqItems = [
   },
   {
     q: "Where is our data held and who can access it?",
-    a: "Australian data residency by default, AWS Sydney. Encryption at rest and in transit. Access is scoped to your project team via SSO. Full detail lives in the trust center, including the subprocessor list and DPA.",
+    a: "In the region you choose: the EU, the United States, Japan, or Australia, with the UAE on request. Data is not routinely replicated outside that region. Encryption at rest and in transit. Access is scoped to your project team via SSO. Full detail lives in the trust center, including the subprocessor list and DPA.",
   },
 ];
 

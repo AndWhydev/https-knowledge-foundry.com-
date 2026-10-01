@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import {
   Factory,
   HardHat,
@@ -47,7 +48,7 @@ const capabilities = [
   {
     icon: <ClipboardCheck className="h-5 w-5" />,
     title: "Evidence ready for the regulator",
-    desc: "For inspection by a workplace safety regulator (OSHA or MSHA in the US, OSHAD in Abu Dhabi, a labor standards inspection office in Japan, a national labor inspectorate in the EU, a state regulator in Australia), or for internal HSE audit, coverage, verification history, and sign off chains export as a coherent pack, not a discovery exercise.",
+    desc: "For inspection by a workplace safety regulator (the ACT in Portugal or another national labor inspectorate in the EU, OSHA or MSHA in the US, a Labor Standards Inspection Office in Japan, a state WHS regulator in Australia, OSHAD in Abu Dhabi), or for internal HSE audit, coverage, verification history, and sign off chains export as a coherent pack, not a discovery exercise.",
   },
   {
     icon: <Fingerprint className="h-5 w-5" />,
@@ -187,6 +188,15 @@ export default function EnergyResourcesPage() {
         </p>
         <p>
           The program defends itself. So does the certification decision that flows from it.
+        </p>
+        <p>
+          Plain language guides to instruments that often sit in scope:{" "}
+          <Link href="/regulations/iso-45001-competence-and-awareness">ISO 45001 competence and awareness</Link>,{" "}
+          <Link href="/regulations/portugal-ohs-training-requirements">Portuguese OHS training</Link>,{" "}
+          <Link href="/regulations/eu-osh-framework-directive-training">the EU OSH Framework Directive</Link>,{" "}
+          <Link href="/regulations/osha-training-requirements">OSHA training</Link>,{" "}
+          <Link href="/regulations/japan-industrial-safety-and-health-act-training">the Japan Industrial Safety and Health Act</Link>, and{" "}
+          <Link href="/regulations/whs-act-duty-to-provide-training">the WHS Act duty to train</Link>.
         </p>
       </ProseBlock>
 

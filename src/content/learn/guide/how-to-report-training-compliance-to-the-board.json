@@ -7,8 +7,8 @@
   "shortAnswer": "To report training compliance to a board, start from what directors must oversee, then give them a short report built on a few indicators tied to material obligations: coverage of required training in high risk roles, overdue items against a tolerance, evidence of competence, and signals of effectiveness. Report by exception with a brief narrative, name the source and assurance for each figure, and state what management is doing about anything outside tolerance.",
   "keyTakeaways": [
     "Boards need oversight information, not learning system activity. Report what supports their duties and decisions.",
-    "Under the model WHS laws, officer due diligence includes verifying the provision and use of processes, which include training.",
-    "The AICD's guidance on reporting to the board favors concise reports, exception reporting, variance analysis, and attributed data.",
+    "Board level duties in several markets reach training: the EU NIS2 Directive requires management bodies to follow cybersecurity training, and the US Department of Justice asks about periodic training for directors and officers.",
+    "Board reporting guidance from director bodies favors concise reports, exception reporting, variance analysis, and attributed data.",
     "Pair lag indicators such as overdue training with lead indicators such as assessment results in high risk roles.",
     "Every figure needs a source, a date, and a statement of who has checked it."
   ],
@@ -23,15 +23,24 @@
         },
         {
           "type": "p",
-          "text": "Several duties shape this. For example, under section 27(5) of Australia's model Work Health and Safety Act, as enacted in the Commonwealth [Work Health and Safety Act 2011](https://www.legislation.gov.au/C2011A00137/latest/text), due diligence for officers includes taking reasonable steps to ensure the business has and implements processes for complying with its duties, and to verify the provision and use of those resources and processes. The Act's examples of those duties include ensuring the provision of training and instruction to workers."
+          "text": "Several duties shape this. In the European Union, Article 20 of the NIS2 Directive requires Member States to ensure that the management bodies of essential and important entities approve and oversee cybersecurity risk management measures, and that their members \"are required to follow training\" so they can identify risks and assess cybersecurity risk management practices ([Directive (EU) 2022/2555, Article 20](https://eur-lex.europa.eu/eli/dir/2022/2555/oj)). Portugal transposed NIS2 through Decree-Law 125/2025, under which management bodies approve and supervise cybersecurity measures and ensure regular training ([Decree-Law 125/2025](https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401)). A board that must oversee risk and be trained on it will expect the workforce training picture to be reported to it."
         },
         {
           "type": "p",
-          "text": "In the European Union, Article 20 of the NIS2 Directive requires Member States to ensure that the management bodies of essential and important entities approve and oversee cybersecurity risk management measures, and that their members \"are required to follow training\" so they can identify risks and assess cybersecurity risk management practices ([Directive (EU) 2022/2555, Article 20](https://eur-lex.europa.eu/eli/dir/2022/2555/oj)). A board that must oversee risk and be trained on it will expect the workforce training picture to be reported to it. These sources do not prescribe a training report format; they set the oversight the report must support."
+          "text": "Other markets set comparable expectations:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**United States.** The Department of Justice (DOJ) Evaluation of Corporate Compliance Programs asks prosecutors to consider periodic training and certification for directors, officers, and relevant employees, and how the company measures the effectiveness of its training ([DOJ](https://www.justice.gov/media/1160391/dl?inline)).",
+            "**Japan.** The Financial Services Agency (FSA) AML/CFT guidelines address board involvement in training ([FSA](https://www.fsa.go.jp/en/news/2026/20260331/01.pdf)).",
+            "**European Union, anti money laundering.** The Anti Money Laundering Regulation (AMLR) requires a compliance manager who is a member of the management body and who submits a report on implementation at least once a year ([Regulation (EU) 2024/1624, Article 11](https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng)).",
+            "**Australia.** Under section 27(5) of the model Work Health and Safety Act, as enacted in the Commonwealth [Work Health and Safety Act 2011](https://www.legislation.gov.au/C2011A00137/latest/text), due diligence for officers includes taking reasonable steps to ensure the business has and implements processes for complying with its duties, and to verify the provision and use of those resources and processes. The Act's examples of those duties include ensuring the provision of training and instruction to workers."
+          ]
         },
         {
           "type": "p",
-          "text": "The specific training duties behind these oversight obligations are covered in [what the WHS Act requires employers to provide in training](/regulations/whs-act-duty-to-provide-training) and, for prudentially regulated entities, [what APRA CPS 230 means for staff training](/regulations/apra-cps-230-operational-risk-training). The board report should summarize performance against those duties, not restate them."
+          "text": "These sources do not prescribe a training report format; they set the oversight the report must support. The specific training duties behind them are covered in [NIS2 management body training](/regulations/nis2-management-body-training), [DOJ compliance program training expectations](/regulations/doj-compliance-program-training-expectations), [Japan FSA AML/CFT guidelines training](/regulations/japan-fsa-aml-cft-guidelines-training) and [what the WHS Act requires employers to provide in training](/regulations/whs-act-duty-to-provide-training). The board report should summarize performance against those duties, not restate them."
         }
       ]
     },
@@ -41,7 +50,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Good board reporting is concise, exception based, and clear about where its data comes from. The Australian Institute of Company Directors (AICD), in its guidance on [reporting to the board](https://www.aicd.com.au/board-of-directors/roles/executive/Reporting-to-the-board.html), lists exception reports, variance analysis, and executive summaries among useful content, and attributions, meaning referencing data sources and flagging unverified information, among reporting protocols. It also includes periodic compliance check ins on areas such as safety, legal, risk, and quality in a reporting framework."
+          "text": "Good board reporting is concise, exception based, and clear about where its data comes from. Director bodies publish practical guidance on this; the Australian Institute of Company Directors (AICD), in its guidance on [reporting to the board](https://www.aicd.com.au/board-of-directors/roles/executive/Reporting-to-the-board.html), lists exception reports, variance analysis, and executive summaries among useful content, and attributions, meaning referencing data sources and flagging unverified information, among reporting protocols. It also includes periodic compliance check ins on areas such as safety, legal, risk, and quality in a reporting framework."
         },
         {
           "type": "p",
@@ -92,7 +101,7 @@
           ],
           "rows": [
             [
-              "AML/CTF",
+              "AML/CFT",
               "High risk roles with current training and assessment",
               "91 percent; tolerance 95 percent",
               "Outside tolerance",
@@ -173,7 +182,7 @@
     },
     {
       "q": "Do directors themselves need training reporting?",
-      "a": "Directors have their own knowledge obligations. Under the model WHS Act, officer due diligence includes taking reasonable steps to acquire and keep up to date knowledge of work health and safety matters. Some boards track director education separately from workforce training reports."
+      "a": "Directors have their own knowledge obligations in several regimes. NIS2 requires members of management bodies to follow cybersecurity training, the DOJ's evaluation guidance asks about periodic training for directors, and under the model Work Health and Safety Act described above, officer due diligence includes taking reasonable steps to acquire and keep up to date knowledge of work health and safety matters. Some boards track director education separately from workforce training reports."
     },
     {
       "q": "What makes a training figure reliable enough for a board?",
@@ -205,6 +214,26 @@
       "title": "Directive (EU) 2022/2555 (NIS2 Directive), Article 20",
       "publisher": "European Union (EUR-Lex)",
       "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj"
+    },
+    {
+      "title": "Decree-Law 125/2025 (transposition of the NIS2 Directive)",
+      "publisher": "Diário da República (Portugal)",
+      "url": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401"
+    },
+    {
+      "title": "Evaluation of Corporate Compliance Programs (September 2024)",
+      "publisher": "US Department of Justice, Criminal Division",
+      "url": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "title": "Guidelines for Anti-Money Laundering and Combating the Financing of Terrorism",
+      "publisher": "Financial Services Agency (Japan)",
+      "url": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf"
+    },
+    {
+      "title": "Regulation (EU) 2024/1624 (Anti Money Laundering Regulation)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
     }
   ],
   "related": [
@@ -244,6 +273,22 @@
     {
       "claim": "NIS2 Article 20(1): Member States ensure management bodies of essential and important entities approve cybersecurity risk-management measures, oversee implementation and can be held liable; Article 20(2): members of management bodies are required to follow training, and entities are encouraged to offer similar training to employees regularly. No consolidated amendment listed (02022L2555-20221227).",
       "source": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj"
+    },
+    {
+      "claim": "Decree-Law 125/2025 transposes NIS2; regime Article 25: management bodies approve, supervise, ensure regular training.",
+      "source": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401"
+    },
+    {
+      "claim": "DOJ ECCP section I.C: periodic training and certification for directors, officers, relevant employees, agents and business partners; questions on measuring training effectiveness.",
+      "source": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "claim": "FSA AML/CFT Guidelines III-2 vii: board involvement in training.",
+      "source": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf"
+    },
+    {
+      "claim": "AMLR Article 11: compliance manager (member of the management body) submits a report on implementation at least once a year.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
     }
   ]
 }

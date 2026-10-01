@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/case-studies/national-healthcare-operator" },
   title: "Case study: national hospital operator",
   description:
-    "A national private hospital operator consolidated 400+ SOPs across 30+ sites into one governed framework, with per site variance modeled explicitly.",
+    "A private hospital operator in the United States consolidated 400+ SOPs across 30+ sites into one governed framework, with per site variance modeled explicitly.",
 };
 
 const chapters: CaseChapter[] = [
@@ -26,22 +26,22 @@ export default function Page() {
     <CaseStudy
       sector="Healthcare"
       title="Four hundred SOPs, thirty sites, one framework."
-      dek="A national private hospital operator stopped treating drift as a documentation problem and started treating it as a structural one. Legitimate variance was preserved. Accidental variance was named."
+      dek="A private hospital operator in the United States stopped treating drift as a documentation problem and started treating it as a structural one. Legitimate variance was preserved. Accidental variance was named."
       chapters={chapters}
     >
       <Chapter n="01" label={chapters[0].label} id="situation" title="Each site quietly authoring its own procedure library.">
         <p>
-          The operator, a national private hospital group of more than thirty sites, ran over
+          The operator, a private hospital group of more than thirty sites across several states, ran over
           four hundred documented clinical procedures. Nominally, procedures were shared across
           the network. In practice, each site had been quietly maintaining local variants for
-          years. Some variance was legitimate: an equipment set, a jurisdictional rule, a patient
+          years. Some variance was legitimate: an equipment set, a state rule, a patient
           population characteristic. Most variance was accident, or the fingerprint of a clinical
           lead who had since left.
         </p>
         <p>
           Compounding the problem, credentialing evidence lived somewhere else entirely. Clinician
           credentials were recorded in a mix of PDF, spreadsheet, and legacy HR platform. When a
-          credentialing audit under the NSQHS Standards asked which clinicians were credentialed
+          Joint Commission survey of credentialing and privileging asked which clinicians were credentialed
           to perform which procedure at which site on which date, the answer required
           reconstruction. Reconstruction typically took weeks. Occasionally the answer was simply
           unavailable.
@@ -56,8 +56,9 @@ export default function Page() {
         <p>
           The engagement did not begin with a plan to write four hundred new procedures. It began
           with a harder question: what is the canonical procedure the network intends to run.
-          Canonical intent was extracted from clinical governance policy, the NSQHS Standards, and
-          the operator&rsquo;s own procedural authorities into a framework the clinical governance
+          Canonical intent was extracted from clinical governance policy, the Joint Commission
+          accreditation standards, the CMS Conditions of Participation, and the operator&rsquo;s own
+          procedural authorities into a framework the clinical governance
           committee could review as a single object rather than as four hundred separate documents.
         </p>
         <p>
@@ -69,7 +70,7 @@ export default function Page() {
           accident.
         </p>
 
-        <CaseQuote attribution="Chief clinical governance officer, national private hospital operator">
+        <CaseQuote attribution="Chief clinical governance officer, US private hospital operator">
           We stopped debating which site had the right SOP. We started debating whether the
           variance was justified. That is a completely different meeting.
         </CaseQuote>
@@ -78,7 +79,7 @@ export default function Page() {
           Credentialing was then attached to the framework at the procedure level. A credential
           requirement became an attribute of the procedure, not a document filed elsewhere. Each
           verification event (a credentialing decision, a competency sign off, a recredentialing
-          date) was traceable back to the specific framework node it authorized, and the NSQHS
+          date) was traceable back to the specific framework node it authorized, and the accreditation
           standard that made it necessary.
         </p>
       </Chapter>
@@ -117,8 +118,9 @@ export default function Page() {
           had never intended.
         </p>
         <p>
-          For any operator carrying NSQHS credentialing exposure across a distributed network,
-          the question is not how quickly the next audit can be assembled. It is whether the audit
+          For any operator carrying credentialing exposure across a distributed network, whether
+          to a Joint Commission survey in the United States, a national accreditation program in
+          Europe or Japan, or the NSQHS Standards in Australia, the question is not how quickly the next audit can be assembled. It is whether the audit
           is something that has to be assembled at all.
         </p>
       </Chapter>

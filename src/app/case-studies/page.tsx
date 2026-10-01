@@ -10,22 +10,22 @@ export const metadata: Metadata = {
   alternates: { canonical: "/case-studies" },
   title: "Case studies in regulated enterprise",
   description:
-    "Anonymized case studies showing how Knowledge Foundry rebuilds training frameworks for financial services, healthcare, and critical infrastructure operators.",
+    "Anonymized case studies from Europe, the United States, and Australia showing how Knowledge Foundry rebuilds training frameworks for financial services, healthcare, and critical infrastructure operators.",
 };
 
 const cases = [
   {
     icon: <Landmark className="h-5 w-5" />,
     sector: "Financial services",
-    title: "A tier 1 Australian financial institution",
-    programme: "RG146 refresh and AFSL licensee training",
+    title: "A tier 1 European bank",
+    programme: "MiFID II knowledge and competence refresh",
     desc: "Contractor drift and a thematic review finding forced a rebuild that began with the framework, before content could be trusted again.",
     href: "/case-studies/regulated-financial-services",
   },
   {
     icon: <HeartPulse className="h-5 w-5" />,
     sector: "Healthcare",
-    title: "A national private hospital operator",
+    title: "A private hospital operator in the United States",
     programme: "Clinical procedure library and credentialing",
     desc: "Four hundred procedures across more than thirty sites, each site quietly diverging. One framework, variance per site modeled explicitly.",
     href: "/case-studies/national-healthcare-operator",
@@ -47,7 +47,7 @@ export default function CaseStudiesIndexPage() {
         eyebrow="Case studies"
         breadcrumb={[{ label: "Case studies", href: "/case-studies" }]}
         title={<>How the Foundry <span className="text-[color:var(--color-forge)]">operates</span> inside regulated enterprise.</>}
-        lede="Three anonymized programs across financial services, healthcare, and critical infrastructure. Different sectors, one pattern. Framework first, content second, evidence throughout."
+        lede="Three anonymized programs across financial services, healthcare, and critical infrastructure, in Portugal, the United States, and Australia. Different sectors and markets, one pattern. Framework first, content second, evidence throughout."
         primaryCta={{ label: "Request a demonstration", href: "/demonstration" }}
         secondaryCta={{ label: "See the platform", href: "/platform/framework-intelligence" }}
       />

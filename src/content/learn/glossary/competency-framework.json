@@ -7,8 +7,8 @@
   "shortAnswer": "A competency framework is a structured description of the knowledge, skills and behaviors an organization expects in each role, with the standard of performance that counts as competent. It gives training, assessment, recruitment and workforce planning a single reference point, so every learning activity and every assessment decision can be traced back to a defined requirement rather than to an individual trainer's judgment.",
   "keyTakeaways": [
     "A competency framework lists competencies, groups them, and states the performance standard or proficiency level required for each role.",
-    "National vocational systems use precise definitions: Australia's, for example, defines competency as the consistent application of knowledge and skill to the standard of performance required in the workplace.",
-    "Nationally endorsed occupational standards, such as the units of competency on training.gov.au, are a ready source of wording and evidence requirements for internal frameworks.",
+    "National vocational systems define competency precisely, typically as the consistent application of knowledge and skill to the standard of performance required in the workplace.",
+    "Published occupational and skills classifications, such as ESCO in the EU, O*NET in the US and national units of competency, are a ready source of wording for internal frameworks.",
     "A framework is only useful when it drives assessment: each competency needs observable evidence and a named way of checking it."
   ],
   "term": "competency framework",
@@ -28,7 +28,11 @@
         },
         {
           "type": "p",
-          "text": "National vocational systems often use a precise definition. For example, in Australia's vocational education and training (VET) system, the Department of Employment and Workplace Relations (DEWR) [Training Package Organizing Framework](https://www.dewr.gov.au/download/16680/training-package-organising-framework-effective-1-july-2025/39042/training-package-organising-framework/pdf), in effect from July 1, 2025, states that \"Competency is defined as the consistent application of knowledge and skill to the standard of performance required in the workplace.\" The same document adds that competency covers performing functions, responding to contingencies and dealing with workplace responsibilities, including working with others."
+          "text": "National vocational systems often use a precise definition. For example, Australia's Department of Employment and Workplace Relations (DEWR) [Training Package Organizing Framework](https://www.dewr.gov.au/download/16680/training-package-organising-framework-effective-1-july-2025/39042/training-package-organising-framework/pdf), in effect from July 1, 2025, states that \"Competency is defined as the consistent application of knowledge and skill to the standard of performance required in the workplace.\" The same document adds that competency covers performing functions, responding to contingencies and dealing with workplace responsibilities, including working with others."
+        },
+        {
+          "type": "p",
+          "text": "United States Registered Apprenticeship standards take a similar view. A program using the competency-based approach measures skill acquisition through \"the individual apprentice's successful demonstration of acquired skills and knowledge, as verified by the program sponsor\", and its standards must describe the competencies and how each is tested ([29 CFR 29.5(b)(2)](https://www.ecfr.gov/current/title-29/subtitle-A/part-29/section-29.5))."
         },
         {
           "type": "table",
@@ -79,7 +83,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Competency frameworks sit underneath most structured workforce training, from national vocational systems to internal frameworks in banks, hospitals, mines and government agencies. In the VET system described above, training packages specify competencies as units of competency, which are published on [training.gov.au](https://training.gov.au), the national register."
+          "text": "Competency frameworks sit underneath most structured workforce training, from national vocational systems to internal frameworks in banks, hospitals, mines and government agencies. National vocational systems often publish competencies as units of competency or occupational standards."
         },
         {
           "type": "p",
@@ -87,7 +91,7 @@
         },
         {
           "type": "p",
-          "text": "National skills classifications also change. For example, Jobs and Skills Australia decommissioned the [Australian Skills Classification](https://www.jobsandskills.gov.au/data/australian-skills-classification) in December 2023 and is developing a [National Skills Taxonomy](https://www.jobsandskills.gov.au/data/national-skills-taxonomy) intended as a common language for skills across education and work. Internal frameworks that referenced the old classification should record that dependency and review it once the new taxonomy is published."
+          "text": "Skills classifications are another source of wording. The European Commission's [ESCO](https://esco.ec.europa.eu/en/about-esco/what-esco) classification \"works as a dictionary, describing, identifying and classifying professional occupations and skills relevant for the EU labour market and education and training\", and the US Department of Labor sponsors [O*NET](https://www.onetcenter.org/overview.html), which describes itself as \"the nation's primary source of occupational information\"."
         }
       ]
     },
@@ -179,7 +183,7 @@
     },
     {
       "q": "Can an organization use nationally endorsed units of competency in its own framework?",
-      "a": "Yes. Many organizations reference nationally endorsed units of competency for technical or safety critical tasks because the elements, performance criteria and assessment requirements are already written and industry endorsed. Issuing a nationally recognized statement of attainment for those units, however, can only be done by a Registered Training Organisation."
+      "a": "Yes. Many organizations reference nationally endorsed units of competency or occupational standards for technical or safety critical tasks because the elements, performance criteria and assessment requirements are already written and industry endorsed. Issuing a recognized credential for those units, however, is normally reserved to accredited training providers."
     },
     {
       "q": "How often should a competency framework be reviewed?",
@@ -193,19 +197,19 @@
       "url": "https://www.dewr.gov.au/download/16680/training-package-organising-framework-effective-1-july-2025/39042/training-package-organising-framework/pdf"
     },
     {
-      "title": "training.gov.au: National Register of VET",
-      "publisher": "Australian Government",
-      "url": "https://training.gov.au"
+      "title": "What is ESCO",
+      "publisher": "European Commission",
+      "url": "https://esco.ec.europa.eu/en/about-esco/what-esco"
     },
     {
-      "title": "Australian Skills Classification",
-      "publisher": "Jobs and Skills Australia",
-      "url": "https://www.jobsandskills.gov.au/data/australian-skills-classification"
+      "title": "O*NET Program overview",
+      "publisher": "O*NET Resource Center, sponsored by the U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/overview.html"
     },
     {
-      "title": "National Skills Taxonomy",
-      "publisher": "Jobs and Skills Australia",
-      "url": "https://www.jobsandskills.gov.au/data/national-skills-taxonomy"
+      "title": "29 CFR 29.5 Standards of apprenticeship",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-A/part-29/section-29.5"
     }
   ],
   "related": [
@@ -227,7 +231,7 @@
     }
   ],
   "published": "2026-09-28",
-  "updated": "2026-09-28",
+  "updated": "2026-10-01",
   "release": 1,
   "factCheck": [
     {
@@ -239,8 +243,16 @@
       "source": "https://www.dewr.gov.au/download/16680/training-package-organising-framework-effective-1-july-2025/39042/training-package-organising-framework/pdf"
     },
     {
-      "claim": "The Australian Skills Classification was decommissioned by Jobs and Skills Australia in December 2023; JSA is developing a National Skills Taxonomy",
-      "source": "https://www.jobsandskills.gov.au/data/australian-skills-classification"
+      "claim": "ESCO works as a dictionary describing, identifying and classifying professional occupations and skills relevant for the EU labour market and education and training",
+      "source": "https://esco.ec.europa.eu/en/about-esco/what-esco"
+    },
+    {
+      "claim": "O*NET Program is the nation's primary source of occupational information; developed under sponsorship of USDOL/ETA",
+      "source": "https://www.onetcenter.org/overview.html"
+    },
+    {
+      "claim": "29 CFR 29.5(b)(2)(ii) competency-based approach text",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-A/part-29/section-29.5"
     }
   ]
 }

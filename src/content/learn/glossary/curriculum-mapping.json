@@ -8,7 +8,7 @@
   "keyTakeaways": [
     "Curriculum mapping links program level outcomes or requirements to the units, activities and assessments that deliver them.",
     "A common convention records whether each outcome is introduced, developed or assessed in each unit.",
-    "Higher education regulators expect it: Australia's regulator, TEQSA, for example, expects providers to show where course learning outcomes are taught, practiced and assessed.",
+    "Higher education quality standards expect it: the European Standards and Guidelines require programs designed around intended learning outcomes, and regulators such as TEQSA expect providers to show where course learning outcomes are taught, practiced and assessed.",
     "In workplace and VET settings, the same technique maps obligations or unit requirements to training content and assessment items."
   ],
   "term": "curriculum mapping",
@@ -41,12 +41,16 @@
       ]
     },
     {
-      "id": "australian-use",
+      "id": "regulator-use",
       "heading": "Why does curriculum mapping matter to regulators?",
       "blocks": [
         {
           "type": "p",
-          "text": "Curriculum mapping is the usual way education providers evidence to regulators that outcomes are delivered and assessed. In Australia, for example, the Tertiary Education Quality and Standards Agency (TEQSA) [course design guidance note](https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-course-design-including-learning-outcomes-and-assessment) states that TEQSA \"will expect some clear information demonstrating where course learning outcomes are taught, practised and assessed, whether at unit level or at course level\"."
+          "text": "Curriculum mapping is the usual way education providers evidence to regulators and accreditors that outcomes are delivered and assessed. In Europe, standard 1.2 of the [Standards and Guidelines for Quality Assurance in the European Higher Education Area (ESG 2015)](https://www.enqa.eu/wp-content/uploads/2015/11/ESG_2015.pdf) says programs \"should be designed so that they meet the objectives set for them, including the intended learning outcomes\", and that each qualification should refer to the correct level of the national qualifications framework. A curriculum map is the simplest way to show that design to a quality assurance agency."
+        },
+        {
+          "type": "p",
+          "text": "Australia's Tertiary Education Quality and Standards Agency (TEQSA) is more explicit. Its [course design guidance note](https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-course-design-including-learning-outcomes-and-assessment) states that TEQSA \"will expect some clear information demonstrating where course learning outcomes are taught, practised and assessed, whether at unit level or at course level\"."
         },
         {
           "type": "p",
@@ -54,7 +58,7 @@
         },
         {
           "type": "p",
-          "text": "In vocational education and training (VET), the Australian Skills Quality Authority (ASQA) [assessment practice guide](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide) expects the assessment system to address all requirements of the training product, determining what competence looks like from the unit's elements, performance criteria and assessment requirements. Providers commonly show this with a mapping of each requirement to assessment items."
+          "text": "In vocational education and training, providers commonly map each requirement of a unit of competency to assessment items. United States Registered Apprenticeship standards work the same way: a competency-based program must describe its competencies and identify how each will be tested and evaluated ([29 CFR 29.5(b)(2)](https://www.ecfr.gov/current/title-29/subtitle-A/part-29/section-29.5))."
         }
       ]
     },
@@ -163,14 +167,19 @@
       "url": "https://www.legislation.gov.au/F2021L00488/latest/text"
     },
     {
-      "title": "Assessment Practice Guide",
-      "publisher": "Australian Skills Quality Authority",
-      "url": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
-    },
-    {
       "title": "Aligning Assessment with Outcomes",
       "publisher": "UNSW Sydney",
       "url": "https://www.teaching.unsw.edu.au/aligning-assessment-learning-outcomes"
+    },
+    {
+      "title": "Standards and Guidelines for Quality Assurance in the European Higher Education Area (ESG 2015)",
+      "publisher": "ENQA, ESU, EUA and EURASHE",
+      "url": "https://www.enqa.eu/wp-content/uploads/2015/11/ESG_2015.pdf"
+    },
+    {
+      "title": "29 CFR 29.5 Standards of apprenticeship",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-A/part-29/section-29.5"
     }
   ],
   "related": [
@@ -192,7 +201,7 @@
     }
   ],
   "published": "2026-09-28",
-  "updated": "2026-09-28",
+  "updated": "2026-10-01",
   "release": 7,
   "factCheck": [
     {
@@ -204,8 +213,12 @@
       "source": "https://www.legislation.gov.au/F2021L00488/latest/text"
     },
     {
-      "claim": "ASQA: assessment system addresses all requirements of the training product and determines what competence looks like based on unit elements, performance criteria and assessment requirements",
-      "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
+      "claim": "ESG 2015 standard 1.2: programmes designed to meet objectives including intended learning outcomes; qualification refers to correct level of national qualifications framework",
+      "source": "https://www.enqa.eu/wp-content/uploads/2015/11/ESG_2015.pdf"
+    },
+    {
+      "claim": "29 CFR 29.5(b)(2)(ii): competency-based program standards describe competencies and identify means of testing and evaluation",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-A/part-29/section-29.5"
     }
   ]
 }

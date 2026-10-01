@@ -170,13 +170,20 @@ export default function AccessibilityStatementPage() {
               <h2>6. Formal complaints</h2>
               <p>
                 If our response to accessibility feedback does not resolve
-                your concern, Australian users may raise a complaint with the
-                Australian Human Rights Commission at{" "}
+                your concern, you may raise a complaint with the body
+                responsible for accessibility in your country. In the European
+                Union, this is the national authority that enforces the European
+                Accessibility Act; in Portugal, the Instituto Nacional para a
+                Reabilitação (INR). In the United States, the Department of
+                Justice receives complaints under the Americans with
+                Disabilities Act. In Japan, contact your prefectural consultation
+                office under the Act for Eliminating Discrimination against
+                Persons with Disabilities. In Australia, contact the Australian
+                Human Rights Commission at{" "}
                 <a href="https://humanrights.gov.au/" target="_blank" rel="noreferrer noopener">
                   humanrights.gov.au
                 </a>
-                . Users in other jurisdictions may raise a complaint with the
-                relevant national body.
+                .
               </p>
             </section>
           </article>

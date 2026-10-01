@@ -38,9 +38,9 @@
         {
           "type": "ul",
           "items": [
-            "**Workplace health and safety.** Australia's model WHS Regulations require training to be suitable and adequate having regard to the nature of the work, the risks at the time, and the control measures in place, and to be readily understandable ([model WHS Regulations r39](https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf)). A procedure is usually the control measure, so training on it is part of that duty.",
-            "**Medicines manufacturing.** The PIC/S Guide to Good Manufacturing Practice (GMP), used by the medicines regulators that participate in the PIC/S scheme, says newly recruited personnel should receive training appropriate to their duties, that continuing training should be given, and that its \"practical effectiveness should be periodically assessed\", with training records kept (Part I, clause 2.11). Clause 4.29 lists written procedures for training and for verification of the effectiveness of training ([PE009-16 Part I](https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf)). In the United States, 21 CFR 211.25(a) similarly requires training \"in the particular operations that the employee performs\" ([21 CFR 211.25](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25)).",
-            "**Financial crime controls.** Australia's AUSTRAC lists on the job training among common delivery methods, especially where a money laundering or terrorism financing risk is specific to a role ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training))."
+            "**Workplace safety and health.** In Japan, Article 59 of the Industrial Safety and Health Act requires employers to give safety or health education when they hire a worker and when a worker's work content changes, and special education before assigning listed dangerous or harmful operations ([Industrial Safety and Health Act](https://laws.e-gov.go.jp/law/347AC0000000057); see [Japan Industrial Safety and Health Act training](/regulations/japan-industrial-safety-and-health-act-training)). Australia's model Work Health and Safety (WHS) Regulations similarly require training to be suitable and adequate having regard to the nature of the work, the risks at the time, and the control measures in place, and to be readily understandable ([model WHS Regulations r39](https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf)). A procedure is usually the control measure, so training on it is part of that duty.",
+            "**Medicines manufacturing.** The PIC/S Guide to Good Manufacturing Practice (GMP), used by the medicines regulators that participate in the PIC/S scheme, says newly recruited personnel should receive training appropriate to their duties, that continuing training should be given, and that its \"practical effectiveness should be periodically assessed\", with training records kept (Part I, clause 2.11). Clause 4.29 lists written procedures for training and for verification of the effectiveness of training ([PE009-16 Part I](https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf)). In Japan, Article 19 of the Ministry of Health, Labour and Welfare (MHLW) GMP Ordinance requires training on manufacturing and quality control to be implemented systematically according to written procedures, recorded, and periodically evaluated for effectiveness ([GMP Ordinance](https://laws.e-gov.go.jp/law/416M60000100179)). In the United States, 21 CFR 211.25(a) similarly requires training \"in the particular operations that the employee performs\" ([21 CFR 211.25](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25)).",
+            "**Financial crime controls.** Anti money laundering rules expect training to match the role. In the European Union, Article 12 of the Anti-Money Laundering Regulation (AMLR) requires training programs appropriate to employees' functions and the risks they are exposed to ([Regulation (EU) 2024/1624](https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng)). Where a risk is specific to a role, training on the procedure that controls it is often best delivered on the job."
           ]
         }
       ]
@@ -222,14 +222,24 @@
       "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
     },
     {
-      "title": "AML/CTF training",
-      "publisher": "AUSTRAC",
-      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
-    },
-    {
       "title": "21 CFR 211.25 Personnel qualifications",
       "publisher": "US Food and Drug Administration (eCFR)",
       "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25"
+    },
+    {
+      "title": "Industrial Safety and Health Act (Act No. 57 of 1972)",
+      "publisher": "e-Gov Laws, Digital Agency of Japan",
+      "url": "https://laws.e-gov.go.jp/law/347AC0000000057"
+    },
+    {
+      "title": "Ministerial Ordinance on Standards for Manufacturing Control and Quality Control of Drugs and Quasi-drugs (GMP Ordinance)",
+      "publisher": "e-Gov Laws, Digital Agency of Japan",
+      "url": "https://laws.e-gov.go.jp/law/416M60000100179"
+    },
+    {
+      "title": "Regulation (EU) 2024/1624 on the prevention of the use of the financial system for money laundering or terrorist financing",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
     }
   ],
   "related": [
@@ -267,12 +277,20 @@
       "source": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
     },
     {
-      "claim": "AUSTRAC lists on-the-job training, especially where there is ML/TF risk specific to certain roles, among common delivery methods.",
-      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
-    },
-    {
       "claim": "21 CFR 211.25(a): each person engaged in the manufacture, processing, packing, or holding of a drug product shall have education, training, and experience to perform the assigned functions; training shall be in the particular operations that the employee performs and in CGMP as they relate to the employee's functions; CGMP training conducted by qualified individuals on a continuing basis and with sufficient frequency.",
       "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25"
+    },
+    {
+      "claim": "Industrial Safety and Health Act Article 59(1) and (2): safety or health education on hiring and on a change of work content; 59(3): special education before assigning MHLW listed dangerous or harmful operations.",
+      "source": "https://laws.e-gov.go.jp/law/347AC0000000057"
+    },
+    {
+      "claim": "GMP Ordinance Article 19: training on manufacturing and quality control implemented systematically per written procedures, reported, recorded, and effectiveness periodically evaluated.",
+      "source": "https://laws.e-gov.go.jp/law/416M60000100179"
+    },
+    {
+      "claim": "AMLR Article 12: specific, ongoing training programs appropriate to functions and risks, duly documented.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
     }
   ]
 }

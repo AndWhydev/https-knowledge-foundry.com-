@@ -135,7 +135,7 @@ export function DemonstrationForm() {
     if (!accessKey) {
       setStatus("error");
       setErrorMessage(
-        "Form is not yet connected to a delivery inbox. Email hello@knowledge-foundry.com and we will reply within one business day.",
+        "Form is not yet connected to a delivery inbox. Email contact@knowledge-foundry.com and we will reply within one business day.",
       );
       return;
     }
@@ -159,12 +159,12 @@ export function DemonstrationForm() {
         track("Demo request");
       } else {
         setStatus("error");
-        setErrorMessage(json.message || "Something went wrong on our end. Please try again in a moment, or email hello@knowledge-foundry.com.");
+        setErrorMessage(json.message || "Something went wrong on our end. Please try again in a moment, or email contact@knowledge-foundry.com.");
       }
     } catch {
       setStatus("error");
       setErrorMessage(
-        "We could not reach the form service. Please try again in a moment, or email hello@knowledge-foundry.com.",
+        "We could not reach the form service. Please try again in a moment, or email contact@knowledge-foundry.com.",
       );
     }
   };
@@ -189,8 +189,8 @@ export function DemonstrationForm() {
         </p>
         <p className="mt-6 text-[12.5px] text-[color:var(--color-ink-faint)]">
           Wrong details? Email{" "}
-          <a href="mailto:hello@knowledge-foundry.com" className="text-[color:var(--color-forge)]">
-            hello@knowledge-foundry.com
+          <a href="mailto:contact@knowledge-foundry.com" className="text-[color:var(--color-forge)]">
+            contact@knowledge-foundry.com
           </a>
           .
         </p>

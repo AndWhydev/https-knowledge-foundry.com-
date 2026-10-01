@@ -7,7 +7,7 @@
   "shortAnswer": "To use AI to create training content safely, treat it as a drafting assistant inside a controlled workflow. Use only approved tools, keep personal and confidential information out of public tools, define learning outcomes before prompting, ground drafts in approved and current source documents, and have a qualified person check every factual claim against its source. Record the tool, sources, reviewer, and approval for each item before release.",
   "keyTakeaways": [
     "Generative AI produces fluent text that can be wrong. Every factual claim in a draft needs checking against an approved source by someone qualified to judge it.",
-    "Privacy regulators warn against feeding personal information into public AI tools. For example, the Office of the Australian Information Commissioner (OAIC) recommends not entering personal information, particularly sensitive information, into publicly available generative AI tools.",
+    "Privacy law applies to personal information entered into AI tools. In the European Union, the General Data Protection Regulation (GDPR) principles of purpose limitation and accuracy apply to it, and privacy regulator guidance recommends against entering personal information, particularly sensitive information, into publicly available generative AI tools.",
     "AI is well suited to restructuring approved material, drafting scenarios, and writing distractors. It is poorly suited to stating thresholds, dates, penalties, or legal requirements from memory.",
     "Defining outcomes and assessment points first gives the AI a structure to fill and gives reviewers a standard to check against.",
     "A provenance record for each item (tool, sources, reviewer, approval) is what makes AI assisted content defensible later."
@@ -23,7 +23,7 @@
         },
         {
           "type": "p",
-          "text": "Privacy regulators have drawn out the same risk. For example, the OAIC notes that generative AI is \"probabilistic in nature and does not 'understand' the data it handles or generates\", and that inferred or artificially generated information about an identifiable person, including hallucinations, is personal information that must be handled under the Australian Privacy Principles ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products)). For training teams, the practical consequence is simple: a draft is a hypothesis until someone checks it."
+          "text": "Public guidance names the same risks. The US National Institute of Standards and Technology (NIST) lists confabulation, the confident production of false or erroneous content, among the risks of generative AI in its [Generative AI Profile (NIST AI 600-1)](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf). Privacy regulators add a second dimension: the Office of the Australian Information Commissioner (OAIC) notes that generative AI is \"probabilistic in nature and does not 'understand' the data it handles or generates\", and that inferred or artificially generated information about an identifiable person, including hallucinations, is personal information that must be handled under the privacy principles it administers ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products)). For training teams, the practical consequence is simple: a draft is a hypothesis until someone checks it."
         },
         {
           "type": "p",
@@ -122,20 +122,25 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Privacy law applies to any personal information you put into an AI tool and to any personal information it produces, so check the privacy rules in each jurisdiction where you operate. For example, under Australia's Privacy Act 1988, the OAIC recommends as a matter of best practice that organizations \"do not enter personal information, and particularly sensitive information, into publicly available generative AI tools\" ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products)). The points below follow that guidance; most privacy regimes raise similar questions."
+          "text": "Privacy law applies to any personal information you put into an AI tool and to any personal information it produces, so check the privacy rules in each jurisdiction where you operate. In the European Union, the [GDPR](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504) principles in Article 5 apply to prompts and outputs alike, including purpose limitation and accuracy, and people acting under the authority of a controller may process personal data only on its instructions (Articles 29 and 32(4))."
+        },
+        {
+          "type": "p",
+          "text": "In Japan, the [Act on the Protection of Personal Information (APPI)](https://laws.e-gov.go.jp/law/415AC0000000057) requires security control measures for personal data and supervision of employees who handle it (Articles 23 and 24). The OAIC recommends as a matter of best practice that organizations \"do not enter personal information, and particularly sensitive information, into publicly available generative AI tools\" ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products)). The points below apply across these regimes."
         },
         {
           "type": "ul",
           "items": [
             "**Case material.** Incident reports, complaints, and investigation files often contain personal information. De-identify them before use, or write fictional cases based on the pattern.",
-            "**Use and disclosure.** Under APP 6, personal information entered into an AI system may only be used or disclosed for the purpose it was collected for, unless consent or an exception applies.",
-            "**Accuracy.** APP 10 requires reasonable steps to ensure accuracy, and the OAIC says those steps should be commensurate with the increased risk in an AI context.",
-            "**Due diligence.** Before adopting a commercial tool, the OAIC suggests checking whether it has been tested for the intended use, how human oversight can be built in, and who can access information entered into it."
+            "**Use and disclosure.** Personal information entered into an AI system stays subject to purpose limits: GDPR Article 5(1)(b) in the EU, and, in the OAIC's guidance, Privacy Principle 6 (APP 6), under which it may only be used or disclosed for the purpose it was collected for unless consent or an exception applies.",
+            "**Accuracy.** GDPR Article 5(1)(d) requires personal data to be accurate and, where necessary, kept up to date. Under APP 10, the OAIC says the reasonable steps to ensure accuracy should be commensurate with the increased risk in an AI context.",
+            "**Staff handling and supervision.** Instruct and supervise the people who use AI tools with personal data, as GDPR Articles 29 and 32(4) and APPI Article 24 contemplate, and make the rules part of their training.",
+            "**Due diligence.** Before adopting a commercial tool, check whether it has been tested for the intended use, how human oversight can be built in, and who can access information entered into it, as the OAIC suggests."
           ]
         },
         {
           "type": "p",
-          "text": "Government bodies and other organizations covered by security frameworks should also check whether those frameworks require an AI usage policy, and make sure content drafting sits within it. See also [privacy training requirements](/regulations/privacy-act-staff-training-requirements)."
+          "text": "Government bodies and other organizations covered by security frameworks should also check whether those frameworks require an AI usage policy, and make sure content drafting sits within it. See also [GDPR staff training requirements](/regulations/gdpr-staff-training-requirements), [APPI employee training](/regulations/japan-appi-employee-training), and [Privacy Act training requirements](/regulations/privacy-act-staff-training-requirements)."
         }
       ]
     },
@@ -210,7 +215,7 @@
         },
         {
           "type": "p",
-          "text": "Australia's [Guidance for AI Adoption](https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-foundations) published by the National Artificial Intelligence Centre recommends matching human oversight to how much autonomy a system has and how high the stakes are, with mandatory human review for high stakes decisions. Training that people rely on to meet legal obligations sits at the high stakes end."
+          "text": "Public frameworks point the same way. The [EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) requires deployers of high-risk AI systems to assign human oversight to people with the necessary competence, training, and authority (Article 26(2)). Japan's [AI Guidelines for Business](https://www.soumu.go.jp/main_content/001080990.pdf), a non-binding soft law instrument, include education and literacy among their common guiding principles. Training that people rely on to meet legal obligations is the kind of output where that oversight matters most. See [EU AI Act AI literacy](/regulations/eu-ai-act-ai-literacy) and [Japan AI Guidelines for Business](/regulations/japan-ai-guidelines-for-business-training)."
         }
       ]
     },
@@ -228,11 +233,11 @@
   "faqs": [
     {
       "q": "Do learners need to be told that content was drafted with AI?",
-      "a": "It depends on the context and your own AI policy. The Guidance for AI Adoption recommends communicating AI use as standard practice, especially where AI generates content that can meaningfully affect people. Many organizations note AI assistance in the content record and disclose it where learners interact with AI directly, such as a chatbot tutor."
+      "a": "It depends on the context and your own AI policy. Disclosure matters most where AI generated content can meaningfully affect people. Many organizations note AI assistance in the content record and disclose it where learners interact with AI directly, such as a chatbot tutor."
     },
     {
       "q": "Can we paste our internal policies into a public AI chatbot?",
-      "a": "Check your AI usage policy and the tool's terms first. Internal policies may be confidential, and many contain names or contact details. The OAIC recommends against entering personal information into publicly available generative AI tools. An approved enterprise tool with appropriate data handling terms is the safer option."
+      "a": "Check your AI usage policy and the tool's terms first. Internal policies may be confidential, and many contain names or contact details. Privacy regulators such as the OAIC recommend against entering personal information into publicly available generative AI tools. An approved enterprise tool with appropriate data handling terms is the safer option."
     },
     {
       "q": "Does AI assistance reduce the review effort?",
@@ -245,19 +250,34 @@
   ],
   "sources": [
     {
+      "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    },
+    {
+      "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    {
+      "title": "Act on the Protection of Personal Information (Act No. 57 of 2003)",
+      "publisher": "e-Gov Laws, Digital Agency of Japan",
+      "url": "https://laws.e-gov.go.jp/law/415AC0000000057"
+    },
+    {
+      "title": "AI Guidelines for Business, Version 1.2",
+      "publisher": "Ministry of Internal Affairs and Communications and Ministry of Economy, Trade and Industry, Japan",
+      "url": "https://www.soumu.go.jp/main_content/001080990.pdf"
+    },
+    {
       "title": "Guidance on privacy and the use of commercially available AI products",
       "publisher": "Office of the Australian Information Commissioner",
       "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products"
-    },
-    {
-      "title": "Guidance for AI adoption: foundations",
-      "publisher": "National Artificial Intelligence Centre, Department of Industry, Science and Resources",
-      "url": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-foundations"
-    },
-    {
-      "title": "Guidance for AI adoption: implementation guidance",
-      "publisher": "National Artificial Intelligence Centre, Department of Industry, Science and Resources",
-      "url": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance"
     }
   ],
   "related": [
@@ -295,12 +315,24 @@
       "source": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products"
     },
     {
-      "claim": "Guidance for AI adoption foundations: make it standard practice to communicate AI use, especially where AI generates content that can meaningfully impact people; match oversight to autonomy and stakes, with mandatory human review for high-stakes decisions.",
-      "source": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-foundations"
+      "claim": "GDPR Article 5(1)(b) purpose limitation and 5(1)(d) accuracy; Articles 29 and 32(4): persons acting under the authority of controller or processor with access to personal data process only on instructions.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
     },
     {
-      "claim": "The six essential practices: decide who is accountable; understand impacts and plan accordingly; measure and manage risks; share essential information; test and monitor; maintain human control. Practice 4.1 is maintaining an AI register.",
-      "source": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance"
+      "claim": "EU AI Act Article 26(2): deployers assign human oversight to natural persons with the necessary competence, training and authority.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "claim": "NIST AI 600-1 lists confabulation (confidently stated but erroneous or false content) among risks unique to or exacerbated by generative AI.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    {
+      "claim": "APPI Article 23 requires necessary and appropriate security control measures; Article 24 requires necessary and adequate supervision of employees handling personal data.",
+      "source": "https://laws.e-gov.go.jp/law/415AC0000000057"
+    },
+    {
+      "claim": "Japan AI Guidelines for Business v1.2 are non-binding soft law; common guiding principle 8 is education and literacy.",
+      "source": "https://www.soumu.go.jp/main_content/001080990.pdf"
     }
   ]
 }

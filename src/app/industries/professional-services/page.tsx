@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import {
   Briefcase,
   BookMarked,
@@ -27,7 +28,7 @@ const capabilities = [
   {
     icon: <BookMarked className="h-5 w-5" />,
     title: "CPD architecture",
-    desc: "CPD programs structured to professional body expectations (state boards of accountancy, ICAEW, CA ANZ, bar associations and law societies, engineering bodies) with hours, categories, and outcome mapping evidenced per practitioner.",
+    desc: "CPD programs structured to professional body expectations (professional orders in Portugal, state boards of accountancy, ICAEW, JICPA, CA ANZ, bar associations and law societies, engineering bodies) with hours, categories, and outcome mapping evidenced per practitioner.",
   },
   {
     icon: <Users className="h-5 w-5" />,
@@ -82,7 +83,7 @@ const steps = [
 const faq = [
   {
     q: "How does the platform support CPD across multiple professional bodies?",
-    a: "The framework can encode CPD expectations from multiple bodies concurrently: for example, state board and AICPA obligations for a US accounting practice, CA ANZ and CPA obligations in Australia, or bar association and specialist accreditation obligations for a legal practice. One program can satisfy multiple regimes, and evidence exports in the format each body expects.",
+    a: "The framework can encode CPD expectations from multiple bodies concurrently: for example, professional order obligations in Portugal, state board and AICPA obligations for a US accounting practice, JICPA continuing professional education in Japan, CA ANZ and CPA obligations in Australia, or bar association and specialist accreditation obligations for a legal practice. One program can satisfy multiple regimes, and evidence exports in the format each body expects.",
   },
   {
     q: "Can this replace our internal methodology training?",
@@ -188,6 +189,14 @@ export default function ProfessionalServicesPage() {
         <p>
           When the practice quality reviewer arrives, the artifact you present is a framework,
           not a defense reconstructed from an LMS.
+        </p>
+        <p>
+          Plain language guides to instruments that often sit in scope:{" "}
+          <Link href="/regulations/portugal-anti-corruption-regime-training">the Portuguese anti-corruption regime</Link>,{" "}
+          <Link href="/regulations/eu-whistleblower-directive-obligations">the EU Whistleblower Directive</Link>,{" "}
+          <Link href="/regulations/doj-compliance-program-training-expectations">DOJ compliance program expectations</Link>,{" "}
+          <Link href="/regulations/japan-whistleblower-protection-act-training">the Japan Whistleblower Protection Act</Link>, and{" "}
+          <Link href="/regulations/whistleblower-policy-training-requirements">Australian whistleblower laws</Link>.
         </p>
       </ProseBlock>
 

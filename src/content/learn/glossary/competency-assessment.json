@@ -8,7 +8,7 @@
   "keyTakeaways": [
     "A competency assessment judges a person against a defined standard, not against other learners.",
     "It needs both performance evidence (doing the task) and knowledge evidence (understanding why and when).",
-    "Regulated training systems set explicit rules: Australia's 2025 Standards for RTOs, for example, require four principles of assessment and four rules of evidence.",
+    "Regulated training systems set explicit rules: US Registered Apprenticeship standards require competencies to be tested and evaluated, and vocational regulators such as ASQA set four principles of assessment and four rules of evidence.",
     "The decision and the evidence behind it must be recorded so that it can be reviewed, validated or challenged."
   ],
   "term": "competency assessment",
@@ -28,7 +28,7 @@
         },
         {
           "type": "p",
-          "text": "In Australia's vocational education and training (VET) system, for example, units of competency include assessment requirements that specify performance evidence, knowledge evidence and assessment conditions, according to the Department of Employment and Workplace Relations [Training Package Organizing Framework](https://www.dewr.gov.au/download/16680/training-package-organising-framework-effective-1-july-2025/39042/training-package-organising-framework/pdf). Common methods include:"
+          "text": "Vocational systems publish the standards that competency assessments use. In United States Registered Apprenticeship, a competency-based program measures progress through \"the individual apprentice's successful demonstration of acquired skills and knowledge, as verified by the program sponsor\" ([29 CFR 29.5(b)(2)](https://www.ecfr.gov/current/title-29/subtitle-A/part-29/section-29.5)). Common methods include:"
         },
         {
           "type": "ul",
@@ -48,7 +48,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Regulated training systems publish explicit assessment rules, and they are a useful benchmark for any organization. Australia's 2025 Standards for RTOs, which took effect on July 1, 2025 and apply to Registered Training Organisations (RTOs), are a detailed example. The Australian Skills Quality Authority (ASQA) [assessment practice guide](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide) sets out Standard 1.4: assessment must follow four principles, and each assessor judgment must satisfy four rules of evidence."
+          "text": "Regulated training systems publish explicit assessment rules, and they are a useful benchmark for any organization. One detailed example is the Australian Skills Quality Authority (ASQA) [assessment practice guide](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide), which sets out Standard 1.4 of the 2025 Standards for Registered Training Organisations: assessment must follow four principles, and each assessor judgment must satisfy four rules of evidence."
         },
         {
           "type": "table",
@@ -104,6 +104,10 @@
         {
           "type": "p",
           "text": "ASQA's guide also notes that authenticity checks should consider whether evidence has been plagiarised or generated with artificial intelligence tools. Standard 1.5 requires assessment practices and judgments to be validated, with every training product on scope validated at least once every five years. Employers running internal assessments are not bound by these Standards, but they are a useful benchmark for defensible assessment."
+        },
+        {
+          "type": "p",
+          "text": "Safety law sets similar expectations outside formal education. In the United States, the Occupational Safety and Health Administration (OSHA) requires powered industrial truck training to include \"evaluation of the operator's performance in the workplace\" ([29 CFR 1910.178(l)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178)). In the European Union, Article 12 of the [OSH Framework Directive](/regulations/eu-osh-framework-directive-training) requires adequate safety and health training specific to each worker's workstation or job, and a competency assessment is a practical way to show that standard was met."
         }
       ]
     },
@@ -182,7 +186,7 @@
   "faqs": [
     {
       "q": "Who can conduct a competency assessment?",
-      "a": "In nationally recognized training, assessors must hold the credentials and industry skills required by the Standards for RTOs. For internal workplace assessments, the organization sets the requirement, but good practice is an assessor who is both competent in the task and trained in assessment, so the judgment is credible if it is challenged."
+      "a": "In formal vocational systems, national rules usually specify the credentials and industry skills an assessor must hold. For internal workplace assessments, the organization sets the requirement, but good practice is an assessor who is both competent in the task and trained in assessment, so the judgment is credible if it is challenged."
     },
     {
       "q": "Is a multiple choice quiz a competency assessment?",
@@ -204,14 +208,14 @@
       "url": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
     },
     {
-      "title": "Standards for RTOs",
-      "publisher": "Australian Skills Quality Authority",
-      "url": "https://www.asqa.gov.au/for-providers/standards-for-RTOs"
+      "title": "29 CFR 29.5 Standards of apprenticeship",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-A/part-29/section-29.5"
     },
     {
-      "title": "Training Package Organising Framework: Date of Effect 1 July 2025",
-      "publisher": "Department of Employment and Workplace Relations",
-      "url": "https://www.dewr.gov.au/download/16680/training-package-organising-framework-effective-1-july-2025/39042/training-package-organising-framework/pdf"
+      "title": "29 CFR 1910.178 Powered industrial trucks",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
     }
   ],
   "related": [
@@ -233,7 +237,7 @@
     }
   ],
   "published": "2026-09-28",
-  "updated": "2026-09-28",
+  "updated": "2026-10-01",
   "release": 4,
   "factCheck": [
     {
@@ -249,12 +253,12 @@
       "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
     },
     {
-      "claim": "2025 Standards for RTOs took effect 1 July 2025",
-      "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs"
+      "claim": "29 CFR 29.5(b)(2)(ii) competency-based approach text",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-A/part-29/section-29.5"
     },
     {
-      "claim": "Assessment requirements specify performance evidence, knowledge evidence and assessment conditions",
-      "source": "https://www.dewr.gov.au/download/16680/training-package-organising-framework-effective-1-july-2025/39042/training-package-organising-framework/pdf"
+      "claim": "29 CFR 1910.178(l)(2)(ii): training consists of formal instruction, practical training and evaluation of the operator's performance in the workplace",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
     }
   ]
 }

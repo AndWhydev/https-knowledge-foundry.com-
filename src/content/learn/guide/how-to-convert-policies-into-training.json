@@ -23,7 +23,11 @@
         },
         {
           "type": "p",
-          "text": "Regulators frame the obligation around suitability rather than exposure. For example, Australia's model Work Health and Safety (WHS) Regulations require that information, training and instruction be \"suitable and adequate\" having regard to the nature of the work, the risks at the time it is provided, and the control measures in place, and that it be provided in a way that is \"readily understandable\" ([model WHS Regulations r39](https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf)). AUSTRAC makes a similar point for anti money laundering programs: training must be accessible and understandable to the person receiving it ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training))."
+          "text": "Regulators frame the obligation around suitability rather than exposure. In the United States, the Occupational Safety and Health Administration (OSHA) Training Standards Policy Statement explains that to train or instruct means to present information in a manner employees are capable of understanding, including in a language and vocabulary they understand ([OSHA](https://www.osha.gov/laws-regs/standardinterpretations/2010-04-28)); see [OSHA training requirements](/regulations/osha-training-requirements)."
+        },
+        {
+          "type": "p",
+          "text": "Other regimes set a suitability test. Australia's model Work Health and Safety (WHS) Regulations, for example, require that information, training and instruction be \"suitable and adequate\" having regard to the nature of the work, the risks at the time it is provided, and the control measures in place, and that it be provided in a way that is \"readily understandable\" ([model WHS Regulations r39](https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf))."
         },
         {
           "type": "p",
@@ -230,7 +234,11 @@
         },
         {
           "type": "p",
-          "text": "AUSTRAC suggests that training records capture what was delivered, including the content and content version, how understanding was assessed, and each person's training history ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training)). Recording the policy version against each completion is the same discipline applied one level up. See [how to version control training content](/guides/how-to-maintain-version-control-for-training-content) and [how to update training when a regulation changes](/guides/how-to-update-training-when-regulations-change)."
+          "text": "Regulators expect records to show what was delivered, not only that a course was completed. In the United States, OSHA's bloodborne pathogens standard requires training records that include the dates of the sessions, the contents or a summary of the training, the names and qualifications of the trainers, and the names and job titles of attendees, kept for three years ([29 CFR 1910.1030(h)(2)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030))."
+        },
+        {
+          "type": "p",
+          "text": "For anti money laundering programs, the Australian Transaction Reports and Analysis Centre (AUSTRAC) suggests that training records capture what was delivered, including the content and content version, how understanding was assessed, and each person's training history ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training)). Recording the policy version against each completion is the same discipline applied one level up. See [how to version control training content](/guides/how-to-maintain-version-control-for-training-content) and [how to update training when a regulation changes](/guides/how-to-update-training-when-regulations-change)."
         }
       ]
     },
@@ -278,6 +286,16 @@
       "title": "21 CFR 211.25 Personnel qualifications",
       "publisher": "US Food and Drug Administration (eCFR)",
       "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25"
+    },
+    {
+      "title": "Training standards policy statement (April 28, 2010)",
+      "publisher": "US Occupational Safety and Health Administration",
+      "url": "https://www.osha.gov/laws-regs/standardinterpretations/2010-04-28"
+    },
+    {
+      "title": "29 CFR 1910.1030 Bloodborne pathogens",
+      "publisher": "US Occupational Safety and Health Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030"
     }
   ],
   "related": [
@@ -307,16 +325,20 @@
       "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
     },
     {
-      "claim": "AUSTRAC says its e-learning modules can be used as part of AML/CTF training but cannot be relied on solely, and training must be accessible and understandable to the person receiving it.",
-      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
-    },
-    {
       "claim": "AUSTRAC suggests training records include what was delivered, including content and content version, how understanding was assessed, and training history.",
       "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
     },
     {
       "claim": "21 CFR 211.25(a): each person engaged in the manufacture, processing, packing, or holding of a drug product shall have education, training, and experience to perform the assigned functions; training shall be in the particular operations that the employee performs and in CGMP as they relate to the employee's functions; CGMP training conducted by qualified individuals on a continuing basis and with sufficient frequency.",
       "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25"
+    },
+    {
+      "claim": "OSHA 2010 Training Standards Policy Statement: train or instruct means present information in a manner employees are capable of understanding, including language and vocabulary.",
+      "source": "https://www.osha.gov/laws-regs/standardinterpretations/2010-04-28"
+    },
+    {
+      "claim": "29 CFR 1910.1030(h)(2): training records include dates, contents or a summary of sessions, names and qualifications of trainers, names and job titles of attendees; kept 3 years.",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030"
     }
   ]
 }

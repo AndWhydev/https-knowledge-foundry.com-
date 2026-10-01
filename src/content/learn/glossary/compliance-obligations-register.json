@@ -57,17 +57,17 @@
             [
               "Obligation ID",
               "Stable reference used by controls, training and audits",
-              "OB-WHS-012"
+              "OB-OSH-012"
             ],
             [
               "Obligation statement",
               "Plain English summary of what must be done",
-              "Provide information, training, instruction or supervision necessary to protect all persons from work risks"
+              "Ensure each worker receives adequate safety and health training specific to their workstation or job"
             ],
             [
               "Source and clause",
               "Traceability to the primary text",
-              "Work Health and Safety Act 2011 s19(3)(f)"
+              "Council Directive 89/391/EEC Art. 12, as transposed nationally (in Portugal, Law 102/2009 Art. 20)"
             ],
             [
               "Type",
@@ -197,9 +197,14 @@
       "url": "https://committee.iso.org/sites/tc309/home/projects/published/iso-37301-compliance-management.html"
     },
     {
-      "title": "Regulatory guide: Primary duty of care",
-      "publisher": "Comcare",
-      "url": "https://www.comcare.gov.au/scheme-legislation/whs-act/regulatory-guides/primary-duty-of-care"
+      "title": "Council Directive 89/391/EEC on the introduction of measures to encourage improvements in the safety and health of workers at work",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
+    },
+    {
+      "title": "Lei n.º 102/2009: regime jurídico da promoção da segurança e saúde no trabalho (consolidated)",
+      "publisher": "Diário da República",
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-56365341"
     }
   ],
   "related": [
@@ -221,7 +226,7 @@
     }
   ],
   "published": "2026-09-28",
-  "updated": "2026-09-28",
+  "updated": "2026-10-01",
   "release": 6,
   "factCheck": [
     {
@@ -237,8 +242,8 @@
       "source": "https://committee.iso.org/sites/tc309/home/projects/published/iso-37301-compliance-management.html"
     },
     {
-      "claim": "Example obligation text of WHS Act s19(3)(f).",
-      "source": "https://www.comcare.gov.au/scheme-legislation/whs-act/regulatory-guides/primary-duty-of-care"
+      "claim": "Example obligation now based on Directive 89/391/EEC Article 12 and Portugal Law 102/2009 Article 20 (transposition per Article 2(1))",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391 ; https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-56365341"
     }
   ]
 }

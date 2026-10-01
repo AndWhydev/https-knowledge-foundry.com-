@@ -7,9 +7,9 @@
   "shortAnswer": "A verification of competency (VOC) is a documented assessment that confirms a worker who already holds training, a license or experience can perform a specific task safely and correctly, using the equipment, procedures and conditions of a particular workplace. It is common in mining, construction and other high risk industries, and is usually completed before a worker starts the task on site and repeated at set intervals.",
   "keyTakeaways": [
     "VOC checks current, site specific ability; it does not replace a license or nationally recognized qualification where one is required.",
-    "Australia's Office of the Federal Safety Commissioner, for example, defines VOC as a documented evaluation of a person's skill level against defined competency standards.",
+    "VOC is a site level answer to safety laws that require training to fit the job, such as OSHA's forklift operator evaluation rule in the US and Japan's special education duty for dangerous work.",
     "A credible VOC uses a documented assessment standard, a competent assessor and a signed record.",
-    "A letter from a supervisor saying a worker is competent is not, on its own, accepted as evidence under federal safety accreditation guidance."
+    "A letter from a supervisor saying a worker is competent is not, on its own, accepted as evidence under the OFSC's safety accreditation guidance."
   ],
   "term": "verification of competency",
   "alsoKnownAs": [
@@ -38,11 +38,15 @@
       "blocks": [
         {
           "type": "p",
-          "text": "VOC is used mainly in industries where the consequences of error are severe: mining and quarrying, construction, energy, transport and heavy industry. In Australia, for example, the [NSW Resources Regulator](https://www.resources.nsw.gov.au/sites/default/files/2024-05/operating-mobile-plant-verification-of-competency.pdf) describes VOC as \"a method of assessment that can be used to demonstrate workers ability to operate equipment and/or undertake the responsibilities of their role\" and connects it to the duty to provide information, training and instruction under clause 39 of the NSW Work Health and Safety Regulation 2017, and to training duties and records under the Work Health and Safety (Mines and Petroleum Sites) Regulation 2022."
+          "text": "VOC is used mainly in industries where the consequences of error are severe: mining and quarrying, construction, energy, transport and heavy industry. The underlying duty appears in many markets. In the United States, OSHA requires forklift operator training to include \"evaluation of the operator's performance in the workplace\", with a further evaluation at least every three years ([29 CFR 1910.178(l)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178)). In Japan, article 59(3) of the Industrial Safety and Health Act requires special education before a worker is assigned designated dangerous or harmful work ([details](/regulations/japan-industrial-safety-and-health-act-training))."
         },
         {
           "type": "p",
-          "text": "The NSW regulator's material points assessors to units of competency on training.gov.au, using their elements, performance criteria, performance evidence and knowledge evidence as a basis for site VOC checklists. Under Australian Government building work accreditation, Office of the Federal Safety Commissioner (OFSC) audit criterion H16.8 requires a system that defines competency requirements for operating mobile plant, which may combine licenses, RTO training and a VOC process."
+          "text": "In Australia, the [NSW Resources Regulator](https://www.resources.nsw.gov.au/sites/default/files/2024-05/operating-mobile-plant-verification-of-competency.pdf) describes VOC as \"a method of assessment that can be used to demonstrate workers ability to operate equipment and/or undertake the responsibilities of their role\" and connects it to the duty to provide information, training and instruction under clause 39 of the NSW Work Health and Safety Regulation 2017, and to training duties and records under the Work Health and Safety (Mines and Petroleum Sites) Regulation 2022."
+        },
+        {
+          "type": "p",
+          "text": "The NSW regulator's material points assessors to nationally endorsed units of competency, using their elements, performance criteria, performance evidence and knowledge evidence as a basis for site VOC checklists. The OFSC's audit criterion H16.8 requires a system that defines competency requirements for operating mobile plant, which may combine licenses, accredited training and a VOC process."
         }
       ]
     },
@@ -65,13 +69,13 @@
           "rows": [
             [
               "High risk work license",
-              "State or territory regulator",
+              "Licensing regulator",
               "The person is licensed for a class of high risk work"
             ],
             [
-              "Statement of attainment",
-              "Registered Training Organisation",
-              "The person was assessed competent in a nationally recognized unit"
+              "Statement of attainment or vocational qualification",
+              "Accredited training provider",
+              "The person was assessed competent against a recognized standard"
             ],
             [
               "Verification of competency",
@@ -80,7 +84,7 @@
             ],
             [
               "[Recognition of prior learning](/glossary/recognition-of-prior-learning)",
-              "Registered Training Organisation",
+              "Accredited training provider",
               "Existing skills meet a unit, so credit is granted toward a qualification"
             ]
           ]
@@ -156,16 +160,16 @@
       "url": "https://www.resources.nsw.gov.au/sites/default/files/2024-05/operating-mobile-plant-verification-of-competency.pdf"
     },
     {
-      "title": "training.gov.au: National Register of VET",
-      "publisher": "Australian Government",
-      "url": "https://training.gov.au"
+      "title": "29 CFR 1910.178 Powered industrial trucks",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
     }
   ],
   "related": [
     "dot-hazmat-employee-training",
     "food-safety-standard-3-2-2a-training",
     "competency-based-training",
-    "nsqhs-standards-workforce-training",
+    "japan-industrial-safety-and-health-act-training",
     "how-to-set-up-verification-of-competency",
     "whs-act-duty-to-provide-training"
   ],
@@ -184,7 +188,7 @@
     }
   ],
   "published": "2026-09-28",
-  "updated": "2026-09-28",
+  "updated": "2026-10-01",
   "release": 6,
   "factCheck": [
     {
@@ -202,6 +206,14 @@
     {
       "claim": "NSW Resources Regulator VOC definition and link to WHS Regulation 2017 clause 39 and WHS (Mines and Petroleum Sites) Regulation 2022 sections 107 and 111",
       "source": "https://www.resources.nsw.gov.au/sites/default/files/2024-05/operating-mobile-plant-verification-of-competency.pdf"
+    },
+    {
+      "claim": "29 CFR 1910.178(l)(2)(ii) evaluation of operator performance in the workplace; (l)(4)(iii) evaluation at least once every three years",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+    },
+    {
+      "claim": "ISHA article 59(3) special education before dangerous or harmful operations",
+      "source": "https://laws.e-gov.go.jp/law/347AC0000000057"
     }
   ]
 }

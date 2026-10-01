@@ -42,11 +42,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Most external requirements set an outcome that training must achieve. For example, Safe Work Australia [explains](https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work) that under Australia's model work health and safety (WHS) laws a person conducting a business or undertaking must ensure workers are provided with the information, training, instruction and supervision they need to stay healthy and safe, and that some workers need formal training and assessment, such as those who operate high risk equipment like forklifts or tower cranes, or hold a role such as first aid officer."
+          "text": "Most external requirements set an outcome that training must achieve. In the European Union, Article 12 of the [OSH Framework Directive](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391) requires every employer to ensure each worker receives adequate safety and health training specific to their workstation or job, on recruitment, on a change of job, and when new equipment or technology is introduced. Portugal applies this through [Law 102/2009](/regulations/portugal-ohs-training-requirements)."
         },
         {
           "type": "p",
-          "text": "Some rules are more prescriptive about the training itself. In the United States, the Occupational Safety and Health Administration (OSHA) standard for powered industrial trucks, [29 CFR 1910.178(l)](https://www.ecfr.gov/current/title-29/section-1910.178), requires the employer to ensure each operator \"is competent to operate a powered industrial truck safely, as demonstrated by the successful completion of the training and evaluation specified in this paragraph (l)\", before the operator is permitted to operate one."
+          "text": "Some rules are more prescriptive about the training itself. In the United States, the Occupational Safety and Health Administration (OSHA) standard for powered industrial trucks, [29 CFR 1910.178(l)](https://www.ecfr.gov/current/title-29/section-1910.178), requires the employer to ensure each operator \"is competent to operate a powered industrial truck safely, as demonstrated by the successful completion of the training and evaluation specified in this paragraph (l)\", before the operator is permitted to operate one. Japan's Industrial Safety and Health Act similarly requires special education before a worker is assigned designated dangerous or harmful work ([details](/regulations/japan-industrial-safety-and-health-act-training))."
         },
         {
           "type": "table",
@@ -59,12 +59,12 @@
           "rows": [
             [
               "Legislation",
-              "WHS Act duty to provide necessary training ([details](/regulations/whs-act-duty-to-provide-training))",
+              "EU OSH Framework Directive, Article 12 ([details](/regulations/eu-osh-framework-directive-training)); Australia's WHS Act duty to provide necessary training ([details](/regulations/whs-act-duty-to-provide-training))",
               "An outcome, qualified by what is reasonably practicable"
             ],
             [
               "Regulator guidance",
-              "Australian Securities and Investments Commission (ASIC) RG 270 on whistleblower policy training ([details](/regulations/whistleblower-policy-training-requirements))",
+              "Japan's guidelines under the Whistleblower Protection Act ([details](/regulations/japan-whistleblower-protection-act-training))",
               "Expected practice and audiences"
             ],
             [
@@ -124,7 +124,7 @@
         {
           "type": "callout",
           "title": "Illustrative example",
-          "text": "A logistics business reviews 22 mandatory items against this checklist. Items without a source requirement or risk rationale are reclassified as optional, and two items covering the same WHS obligation are merged. The result is a shorter list in which every remaining item can be explained to an auditor. The numbers are illustrative."
+          "text": "A logistics business reviews 22 mandatory items against this checklist. Items without a source requirement or risk rationale are reclassified as optional, and two items covering the same safety obligation are merged. The result is a shorter list in which every remaining item can be explained to an auditor. The numbers are illustrative."
         }
       ]
     },
@@ -154,15 +154,10 @@
     },
     {
       "q": "Does mandatory training have to be e-learning?",
-      "a": "No. Safe Work Australia notes that training can mix formal and informal processes, including on the job training, demonstration and feedback. The format should suit the risk and the learning outcome, and higher risk tasks usually need practical assessment."
+      "a": "No. Training can mix formal and informal processes, including on the job training, demonstration and feedback. The format should suit the risk and the learning outcome, and higher risk tasks usually need practical assessment."
     }
   ],
   "sources": [
-    {
-      "title": "Training and supporting your workers to stay safe at work",
-      "publisher": "Safe Work Australia",
-      "url": "https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work"
-    },
     {
       "title": "29 CFR 1910.178 Powered industrial trucks, paragraph (l) Operator training",
       "publisher": "Occupational Safety and Health Administration, via the Electronic Code of Federal Regulations (eCFR)",
@@ -174,14 +169,14 @@
       "url": "https://www.comcare.gov.au/scheme-legislation/whs-act/regulatory-guides/primary-duty-of-care"
     },
     {
-      "title": "RG 270 Whistleblower policies",
-      "publisher": "Australian Securities and Investments Commission",
-      "url": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-270-whistleblower-policies/"
-    },
-    {
       "title": "ISO 37301:2021 Compliance management systems: Requirements with guidance for use",
       "publisher": "International Organization for Standardization",
       "url": "https://www.iso.org/standard/75080.html"
+    },
+    {
+      "title": "Council Directive 89/391/EEC on the introduction of measures to encourage improvements in the safety and health of workers at work",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
     }
   ],
   "related": [
@@ -203,24 +198,20 @@
     }
   ],
   "published": "2026-09-28",
-  "updated": "2026-09-28",
+  "updated": "2026-10-01",
   "release": 7,
   "factCheck": [
-    {
-      "claim": "Under the model WHS laws a PCBU must ensure workers are provided with information, training, instruction and supervision; some workers need formal training and assessment, e.g. operating forklifts or tower cranes, working on construction sites, or first aid officers; training can mix formal and informal processes.",
-      "source": "https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work"
-    },
     {
       "claim": "WHS Act s19(3)(f) duty to provide necessary information, training, instruction or supervision.",
       "source": "https://www.comcare.gov.au/scheme-legislation/whs-act/regulatory-guides/primary-duty-of-care"
     },
     {
-      "claim": "RG 270.131 recommends upfront and ongoing whistleblower policy training for every employee.",
-      "source": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-270-whistleblower-policies/"
-    },
-    {
       "claim": "29 CFR 1910.178(l)(1)(i): the employer shall ensure that each powered industrial truck operator is competent to operate a powered industrial truck safely, as demonstrated by the successful completion of the training and evaluation specified in paragraph (l); (l)(1)(ii) training must be completed before operating, except for training purposes.",
       "source": "https://www.ecfr.gov/current/title-29/section-1910.178"
+    },
+    {
+      "claim": "Directive 89/391/EEC Article 12(1): adequate safety and health training specific to workstation or job on recruitment, transfer or change of job, new or changed equipment, new technology",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
     }
   ]
 }

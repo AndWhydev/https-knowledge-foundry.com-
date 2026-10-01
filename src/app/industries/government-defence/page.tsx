@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import {
   ShieldCheck,
   Lock,
@@ -37,7 +38,7 @@ const capabilities = [
   {
     icon: <ScrollText className="h-5 w-5" />,
     title: "Traceability from policy to instruction",
-    desc: "Security control frameworks (NIST SP 800-53 and CMMC in the US, the UAE Information Assurance Regulation, NIS2 in the EU, the PSPF and ISM in Australia) and agency specific policy parsed at clause level. Each module, each assessment, each scenario traces to the policy control it exists to serve.",
+    desc: "Security control frameworks (NIS2 in the EU, NIST SP 800-53 and CMMC in the US, the NISC Common Standards in Japan, the PSPF and ISM in Australia, the UAE Information Assurance Regulation) and agency specific policy parsed at clause level. Each module, each assessment, each scenario traces to the policy control it exists to serve.",
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
@@ -82,7 +83,7 @@ const steps = [
 const faq = [
   {
     q: "Does the Foundry hold government security authorizations or clearances?",
-    a: "The Foundry does not represent itself as authorized or assessed under any government security program (such as FedRAMP in the US or IRAP in Australia) and does not hold agency security clearances on the platform's behalf. Deployment posture, data residency options, and controls are documented for assessor review as part of agency onboarding, and enterprise engagements include security due diligence appropriate to the classification of the material involved.",
+    a: "The Foundry does not represent itself as authorized or assessed under any government security program (such as FedRAMP in the US, ISMAP in Japan, or IRAP in Australia) and does not hold agency security clearances on the platform's behalf. Deployment posture, data residency options, and controls are documented for assessor review as part of agency onboarding, and enterprise engagements include security due diligence appropriate to the classification of the material involved.",
   },
   {
     q: "Can this support training that touches technical data under export control?",
@@ -90,7 +91,7 @@ const faq = [
   },
   {
     q: "How does the platform support alignment to security control frameworks?",
-    a: "Controls from frameworks such as NIST SP 800-53, CMMC, NIS2, and the ISM are parsed at clause level, and the framework encodes which roles are accountable for which controls. Instruction and assessment are generated to satisfy the specific control, and coverage is exportable per control, per role, per environment.",
+    a: "Controls from frameworks such as NIS2, NIST SP 800-53, CMMC, the NISC Common Standards, and the ISM are parsed at clause level, and the framework encodes which roles are accountable for which controls. Instruction and assessment are generated to satisfy the specific control, and coverage is exportable per control, per role, per environment.",
   },
   {
     q: "What happens with a government reorganization or a policy update?",
@@ -187,6 +188,15 @@ export default function GovernmentDefencePage() {
         <p>
           When audit office or legislative scrutiny arrives, the artifact is a framework, not a
           defense rebuilt from a completion register.
+        </p>
+        <p>
+          Plain language guides to instruments that often sit in scope:{" "}
+          <Link href="/regulations/nis2-management-body-training">NIS2 management body training</Link>,{" "}
+          <Link href="/regulations/nist-sp-800-50-security-awareness-training">NIST SP 800-50</Link>,{" "}
+          <Link href="/regulations/cmmc-security-awareness-training">CMMC security awareness</Link>,{" "}
+          <Link href="/regulations/pspf-security-awareness-training">the PSPF</Link>,{" "}
+          <Link href="/regulations/ism-cyber-security-awareness-training">the ISM</Link>, and{" "}
+          <Link href="/regulations/uae-information-assurance-awareness-training">the UAE Information Assurance Regulation</Link>.
         </p>
       </ProseBlock>
 

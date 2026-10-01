@@ -4,10 +4,10 @@
   "title": "How do you govern AI generated learning content?",
   "seoTitle": "Governing AI generated learning content",
   "description": "How to govern AI generated learning content: accountable owners, an AI register, risk tiers, provenance, monitoring, and review, with supporting frameworks.",
-  "shortAnswer": "To govern AI generated learning content, extend your existing content governance with AI specific controls: a named accountable owner, a register of the AI tools and uses in your learning function, a policy on permitted uses, risk tiers that set review depth, provenance on every item, monitoring of errors and learner feedback, and scheduled review of tools and outputs. ISO/IEC 42001 and guidance such as Australia's Guidance for AI Adoption provide frameworks.",
+  "shortAnswer": "To govern AI generated learning content, extend your existing content governance with AI specific controls: a named accountable owner, a register of the AI tools and uses in your learning function, a policy on permitted uses, risk tiers that set review depth, provenance on every item, monitoring of errors and learner feedback, and scheduled review of tools and outputs. ISO/IEC 42001 and government guidance, such as Japan's AI Guidelines for Business, provide frameworks.",
   "keyTakeaways": [
     "Governance is the ongoing system around AI use: who is accountable, which tools and uses are allowed, how risk sets review depth, and how problems are detected and fixed.",
-    "The Guidance for AI Adoption, published in October 2025, sets out six essential practices and evolves the earlier Voluntary AI Safety Standard. Both are voluntary.",
+    "Government guidance is largely voluntary. Japan's AI Guidelines for Business, for example, are non binding soft law that include an education and literacy principle. The EU AI Act adds a binding AI literacy duty.",
     "ISO/IEC 42001:2023 specifies requirements for an AI management system and suits organizations that want a certifiable structure.",
     "An AI register and item level provenance are the two records that make AI assisted learning content auditable.",
     "Governance should cover drift over time: tool versions change, sources change, and approved content can become wrong."
@@ -38,22 +38,22 @@
         {
           "type": "ul",
           "items": [
-            "**Guidance for AI Adoption.** Published by Australia's Department of Industry, Science and Resources on October 21, 2025, it \"outlines 6 essential practices for safe and responsible AI governance\" and \"evolves the Voluntary AI Safety Standard\" ([DISR](https://www.industry.gov.au/publications/voluntary-ai-safety-standard)). It comes in a foundations version and an implementation version for higher risk or more complex use ([implementation guidance](https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance)).",
-            "**Voluntary AI Safety Standard.** Ten voluntary guardrails that apply across the AI supply chain. It remains published and is the predecessor to the Guidance for AI Adoption.",
+            "**AI Guidelines for Business (Japan).** Issued by the Ministry of Internal Affairs and Communications (MIC) and the Ministry of Economy, Trade and Industry (METI), with version 1.2 dated March 31, 2026, the guidelines are goal based soft law without legally binding force ([MIC and METI](https://www.soumu.go.jp/main_content/001080990.pdf)). Common guiding principle 8, education and literacy, asks organizations to give people engaged in AI the education needed for knowledge, literacy, and ethical views. See [Japan AI Guidelines for Business training](/regulations/japan-ai-guidelines-for-business-training).",
+            "**EU AI Act, Article 4.** In the European Union, providers and deployers of AI systems \"shall take measures to support the development of AI literacy of their staff and other persons dealing with the operation and use of AI systems on their behalf\", taking into account their knowledge, experience, and the context of use ([Regulation (EU) 2024/1689, Article 4, as amended by Regulation (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2024/1689/oj)). For a learning function, reviewer and developer AI literacy is part of governance, not an optional extra.",
             "**ISO/IEC 42001:2023.** The international standard for an AI management system, specifying requirements for establishing, implementing, maintaining, and continually improving one, for organizations that provide or use AI ([ISO](https://www.iso.org/standard/42001)). It can be certified by an accredited body.",
-            "**Privacy law.** Privacy obligations apply to what is entered into AI tools and what they produce. For example, the Office of the Australian Information Commissioner (OAIC) guidance on commercially available AI products explains how the Australian Privacy Principles under the Privacy Act 1988 apply to AI inputs and outputs ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products)).",
-            "**EU AI Act, Article 4.** In the European Union, providers and deployers of AI systems \"shall take measures to support the development of AI literacy of their staff and other persons dealing with the operation and use of AI systems on their behalf\", taking into account their knowledge, experience, and the context of use ([Regulation (EU) 2024/1689, Article 4, as amended by Regulation (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2024/1689/oj)). For a learning function, reviewer and developer AI literacy is part of governance, not an optional extra."
+            "**Guidance for AI Adoption (Australia).** Published by the Department of Industry, Science and Resources (DISR) on October 21, 2025, it \"outlines 6 essential practices for safe and responsible AI governance\" and \"evolves the Voluntary AI Safety Standard\" ([DISR](https://www.industry.gov.au/publications/voluntary-ai-safety-standard)). It comes in a foundations version and an implementation version for higher risk or more complex use ([implementation guidance](https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance)).",
+            "**Privacy law.** Privacy obligations apply to what is entered into AI tools and what they produce. In the European Union, the General Data Protection Regulation (GDPR) requires people acting under a controller's or processor's authority to process personal data only on instructions (Articles 29 and 32(4), [GDPR](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504)). In Japan, Article 24 of the [Act on the Protection of Personal Information (APPI)](https://laws.e-gov.go.jp/law/415AC0000000057) requires necessary and adequate supervision of employees handling personal data."
           ]
         }
       ]
     },
     {
       "id": "practice-mapping",
-      "heading": "How do the six essential practices apply to learning content?",
+      "heading": "How do government AI governance practices apply to learning content?",
       "blocks": [
         {
           "type": "p",
-          "text": "Each of the six practices translates into a specific control and a record for a learning function. The table maps the practice names from the Guidance for AI Adoption to what they mean for training content and the evidence an auditor could ask for. The mapping is this guide's interpretation, not text from the guidance."
+          "text": "Government frameworks translate into specific controls and records for a learning function. The table uses the six essential practices of the Guidance for AI Adoption, described above, as a worked structure, because they are short and clearly named; the same controls also serve the education and accountability expectations of Japan's AI Guidelines for Business and the EU AI Act. The mapping is this guide's interpretation, not text from any of the guidance."
         },
         {
           "type": "table",
@@ -98,7 +98,7 @@
         },
         {
           "type": "p",
-          "text": "The implementation guidance also calls for organizations to \"create and maintain an up-to-date, organisation-wide inventory of each AI model and system\" and to keep clear records of governance decisions, testing, incidents, and monitoring."
+          "text": "Its implementation guidance also calls for organizations to \"create and maintain an up-to-date, organisation-wide inventory of each AI model and system\" and to keep clear records of governance decisions, testing, incidents, and monitoring."
         }
       ]
     },
@@ -207,8 +207,8 @@
   ],
   "faqs": [
     {
-      "q": "Is the Voluntary AI Safety Standard still current?",
-      "a": "It remains published on the Department of Industry, Science and Resources website, which states that the Guidance for AI Adoption, published on October 21, 2025, evolves the standard into six essential practices. Both are voluntary. New programs usually align to the Guidance for AI Adoption and treat the ten guardrails as supporting detail."
+      "q": "Is government guidance on AI governance binding?",
+      "a": "Mostly not. Japan's AI Guidelines for Business are described by MIC and METI as soft law without legally binding force, and Australia's Guidance for AI Adoption is voluntary. The EU AI Act is different: Article 4 places a binding AI literacy duty on providers and deployers. Privacy and sector rules also continue to apply to AI use."
     },
     {
       "q": "Do we need ISO/IEC 42001 certification?",
@@ -220,7 +220,7 @@
     },
     {
       "q": "How often should AI governance for learning content be reviewed?",
-      "a": "Set a fixed cycle, such as annually, and add event triggers: a change of tool or underlying model, a significant error, a new use case, or a change in external guidance. The implementation guidance recommends regular performance review cycles with stakeholders and subject matter experts."
+      "a": "Set a fixed cycle, such as annually, and add event triggers: a change of tool or underlying model, a significant error, a new use case, or a change in external guidance. The implementation guidance for the Guidance for AI Adoption, for example, recommends regular performance review cycles with stakeholders and subject matter experts."
     }
   ],
   "sources": [
@@ -245,14 +245,24 @@
       "url": "https://www.iso.org/standard/42001"
     },
     {
-      "title": "Guidance on privacy and the use of commercially available AI products",
-      "publisher": "Office of the Australian Information Commissioner",
-      "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products"
-    },
-    {
       "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Article 4, as amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI)",
       "publisher": "European Union (EUR-Lex)",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "title": "AI Guidelines for Business, version 1.2 (March 31, 2026)",
+      "publisher": "Ministry of Internal Affairs and Communications and Ministry of Economy, Trade and Industry, Japan",
+      "url": "https://www.soumu.go.jp/main_content/001080990.pdf"
+    },
+    {
+      "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)",
+      "publisher": "European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    },
+    {
+      "title": "Act on the Protection of Personal Information (Act No. 57 of 2003)",
+      "publisher": "e-Gov Japan",
+      "url": "https://laws.e-gov.go.jp/law/415AC0000000057"
     }
   ],
   "related": [
@@ -300,6 +310,18 @@
     {
       "claim": "EU AI Act Article 4(1), as replaced by Regulation (EU) 2026/1744 of 8 July 2026 (consolidated text 02024R1689-20260727): providers and deployers of AI systems shall take measures to support the development of AI literacy of their staff and other persons dealing with the operation and use of AI systems on their behalf, taking into account their technical knowledge, experience, education and training and the context of use; the obligation does not require them to guarantee any specific level of AI literacy of any individual.",
       "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "claim": "Japan AI Guidelines for Business version 1.2 dated March 31, 2026, issued by MIC and METI; goal based soft law without legally binding force; common guiding principle 8 education/literacy: provide persons engaged in AI with necessary education to gain knowledge, literacy and ethical views.",
+      "source": "https://www.soumu.go.jp/main_content/001080990.pdf"
+    },
+    {
+      "claim": "GDPR Article 29 and Article 32(4): persons acting under the authority of the controller or processor with access to personal data process only on instructions.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    },
+    {
+      "claim": "APPI Article 24 requires necessary and adequate supervision of employees handling personal data.",
+      "source": "https://laws.e-gov.go.jp/law/415AC0000000057"
     }
   ]
 }

@@ -25,9 +25,9 @@
           "type": "ul",
           "items": [
             "**Obligations.** Which laws, standards, and internal policies does the training support? The [mapping guide](/guides/how-to-map-training-to-compliance-obligations) explains how to build this list.",
-            "**Evidence.** What must you show, and to whom? For example, Australia's AUSTRAC suggests anti money laundering training records capture what was delivered, including the content and content version, how understanding was assessed, and each person's training history ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training)).",
+            "**Evidence.** What must you show, and to whom? In Japan, the Financial Services Agency (FSA) guidelines on anti money laundering expect internal audit to cover the effectiveness of employee training (section III-3(3)) ([FSA](https://www.fsa.go.jp/en/news/2026/20260331/01.pdf)). In Portugal, Banco de Portugal Notice 1/2022 sets minimum fields for training records (Article 53) ([Diário da República](https://diariodarepublica.pt/dr/detalhe/aviso-banco-portugal/1-2022-184434622)). Australia's anti-money laundering regulator, AUSTRAC, suggests anti money laundering training records capture what was delivered, including the content and content version, how understanding was assessed, and each person's training history ([AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training)).",
             "**Population.** Employees, contractors, and third parties; how they are identified; and whether they have corporate accounts.",
-            "**Delivery mix.** Online modules, face to face sessions, on the job assessment, and attestations all need to be recorded in one place. AUSTRAC notes its own e-learning modules cannot be relied on solely to meet training obligations, which is a reminder that the platform must record more than online completions.",
+            "**Delivery mix.** Online modules, face to face sessions, on the job assessment, and attestations all need to be recorded in one place. Regulators often limit what online completion alone can prove. Japan's Ministry of Health, Labour and Welfare (MHLW) accepts e-learning for statutory safety and health education only where it meets the statutory subjects, hours, and instructor requirements and confirms attendance ([MHLW](https://www.mhlw.go.jp/content/11300000/001752584.pdf))). The platform must record more than online completions.",
             "**Constraints.** Data location, security classification, integration with HR systems, and budget."
           ]
         }
@@ -131,7 +131,15 @@
         },
         {
           "type": "p",
-          "text": "Privacy law governs where training records are stored and who can see them, so check the rules in each jurisdiction where you operate. For example, under the Australian Privacy Principles, APP 8 sets out the steps an entity must take before disclosing personal information overseas, and APP 11 requires reasonable steps to protect personal information and, in certain circumstances, to destroy or de-identify it ([OAIC](https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-quick-reference)). If the platform includes AI features, the OAIC's [guidance on commercially available AI products](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products) recommends due diligence on whether the product has been tested for the intended use and who can access information entered into it. Government entities will usually have additional protective security requirements."
+          "text": "Privacy law governs where training records are stored and who can see them, so check the rules in each jurisdiction where you operate."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "In Japan, the Act on the Protection of Personal Information (APPI) requires necessary and appropriate security control measures (Article 23), supervision of any entrusted person handling personal data on your behalf, such as a platform provider (Article 25), and restricts provision of personal data to third parties in foreign countries (Article 28) ([e-Gov](https://laws.e-gov.go.jp/law/415AC0000000057)).",
+            "In the European Union, the General Data Protection Regulation (GDPR) governs transfers outside the European Economic Area in Chapter V (Articles 44 to 49) and sets the contract terms required with processors in Article 28 ([GDPR](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504)).",
+            "If the platform includes AI features, regulator guidance applies too; the Office of the Australian Information Commissioner (OAIC), for example, in its [guidance on commercially available AI products](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products), recommends due diligence on whether the product has been tested for the intended use and who can access information entered into it. Government entities will usually have additional protective security requirements."
+          ]
         }
       ]
     },
@@ -286,7 +294,7 @@
     },
     {
       "q": "How important is data location for a training platform?",
-      "a": "It depends on your obligations and risk appetite. Training records contain personal information, so APP 8 applies to overseas disclosure. Government entities and some regulated industries have stricter requirements. Ask for a written statement of where data is stored and processed, including backups and support access."
+      "a": "It depends on your obligations and risk appetite. Training records contain personal information, so cross border transfer rules apply, such as Chapter V of the GDPR in the EU and Article 28 of the APPI in Japan. Government entities and some regulated industries have stricter requirements. Ask for a written statement of where data is stored and processed, including backups and support access."
     },
     {
       "q": "How long should a platform pilot run?",
@@ -295,14 +303,34 @@
   ],
   "sources": [
     {
+      "title": "Guidelines for Anti-Money Laundering and Combating the Financing of Terrorism (revised March 31, 2026)",
+      "publisher": "Financial Services Agency, Japan",
+      "url": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf"
+    },
+    {
+      "title": "Banco de Portugal Notice 1/2022",
+      "publisher": "Diário da República",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-banco-portugal/1-2022-184434622"
+    },
+    {
+      "title": "Circular on safety and health education delivered by e-learning (revised September 2, 2026)",
+      "publisher": "Ministry of Health, Labour and Welfare, Japan",
+      "url": "https://www.mhlw.go.jp/content/11300000/001752584.pdf"
+    },
+    {
+      "title": "Act on the Protection of Personal Information (Act No. 57 of 2003)",
+      "publisher": "e-Gov Japan",
+      "url": "https://laws.e-gov.go.jp/law/415AC0000000057"
+    },
+    {
+      "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    },
+    {
       "title": "AML/CTF training",
       "publisher": "AUSTRAC",
       "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
-    },
-    {
-      "title": "Australian Privacy Principles quick reference",
-      "publisher": "Office of the Australian Information Commissioner",
-      "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-quick-reference"
     },
     {
       "title": "Guidance on privacy and the use of commercially available AI products",
@@ -352,20 +380,32 @@
       "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
     },
     {
-      "claim": "AUSTRAC says its e-learning modules can be used as part of AML/CTF training but cannot be relied on solely, and training must be accessible and understandable to the person receiving it.",
-      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
-    },
-    {
-      "claim": "APP 8 covers cross-border disclosure; APP 11 requires reasonable steps to protect personal information and to destroy or de-identify it in certain circumstances.",
-      "source": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-quick-reference"
-    },
-    {
       "claim": "WCAG 2.2 is a W3C Recommendation (current version dated 12 December 2024).",
       "source": "https://www.w3.org/TR/WCAG22/"
     },
     {
       "claim": "cmi5 is a profile for using xAPI with an LMS where the learner launches content from the LMS, defining launch, authentication, session management, reporting and course structure.",
       "source": "https://aicc.github.io/CMI-5_Spec_Current/"
+    },
+    {
+      "claim": "FSA AML/CFT Guidelines III-3(3): audit of effectiveness of employee training.",
+      "source": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf"
+    },
+    {
+      "claim": "Banco de Portugal Notice 1/2022 Article 53: training policy content and minimum training record fields.",
+      "source": "https://diariodarepublica.pt/dr/detalhe/aviso-banco-portugal/1-2022-184434622"
+    },
+    {
+      "claim": "MHLW e-learning circular: e-learning must meet statutory subjects, hours and instructor requirements and confirm attendance.",
+      "source": "https://www.mhlw.go.jp/content/11300000/001752584.pdf"
+    },
+    {
+      "claim": "APPI Article 23 security control measures; Article 25 supervision of entrusted persons; Article 28 restriction on provision to third parties in foreign countries.",
+      "source": "https://laws.e-gov.go.jp/law/415AC0000000057"
+    },
+    {
+      "claim": "GDPR Chapter V (Articles 44 to 49) governs transfers to third countries; Article 28 sets processor contract requirements.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
     }
   ]
 }

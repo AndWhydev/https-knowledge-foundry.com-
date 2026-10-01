@@ -9,9 +9,9 @@ import {
 
 export const metadata: Metadata = {
   alternates: { canonical: "/case-studies/regulated-financial-services" },
-  title: "Case study: tier 1 bank RG146 refresh",
+  title: "Case study: tier 1 bank MiFID II competence refresh",
   description:
-    "How a tier 1 Australian bank rebuilt its RG146 and AFSL licensee training on a governed framework after an APRA thematic review flagged evidence gaps.",
+    "How a tier 1 European bank rebuilt its MiFID II knowledge and competence training on a governed framework after a supervisory thematic review flagged evidence gaps.",
 };
 
 const chapters: CaseChapter[] = [
@@ -25,22 +25,22 @@ export default function Page() {
   return (
     <CaseStudy
       sector="Financial services"
-      title="A tier 1 bank rebuilt its RG146 program from the framework up."
-      dek="After an APRA thematic review flagged evidence gaps, a tier 1 Australian institution stopped rewriting modules and started rewriting the underlying structure. The library came second."
+      title="A tier 1 bank rebuilt its MiFID II competence program from the framework up."
+      dek="After a supervisory thematic review flagged evidence gaps, a tier 1 European bank headquartered in Portugal stopped rewriting modules and started rewriting the underlying structure. The library came second."
       chapters={chapters}
     >
       <Chapter n="01" label={chapters[0].label} id="situation" title="A library that had accumulated like sediment.">
         <p>
-          The institution, a tier 1 Australian bank with a nationwide network of authorized
-          representatives, had spent close to seven years maintaining its RG146 and AFSL licensee
-          training through successive cohorts of external contractors. Each cohort inherited the
+          The institution, a tier 1 bank headquartered in Portugal with a nationwide branch network
+          of staff who give investment advice and information to clients, had spent close to seven
+          years maintaining its MiFID II knowledge and competence training through successive cohorts of external contractors. Each cohort inherited the
           last, extended what was there, and moved on. No cohort had ever authored a framework.
           There was no framework. There was a library of modules that had accumulated the way
           sediment accumulates.
         </p>
         <p>
-          The drift was invisible until it was not. An APRA thematic review on adviser conduct and
-          licensee obligations asked the questions that a structured program is built to answer.
+          The drift was invisible until it was not. A thematic review by the CMVM, the Portuguese
+          securities market supervisor, on investment advice and staff competence asked the questions that a structured program is built to answer.
           How do you know your training covers this particular knowledge requirement. Where is the
           evidence that this cohort met that obligation. Which module was updated after this
           regulatory change, and when. Answers took weeks to assemble. In several cases they could
@@ -53,7 +53,7 @@ export default function Page() {
         </p>
         <p>
           The temptation, presented with a finding of coverage gaps, is to write more content faster.
-          The head of licensee training resisted it. Faster authoring against an unnamed structure
+          The head of conduct training resisted it. Faster authoring against an unnamed structure
           would produce the same problem in a shorter cycle.
         </p>
       </Chapter>
@@ -61,11 +61,11 @@ export default function Page() {
       <Chapter n="02" label={chapters[1].label} id="framework" title="Structure the subject before rewriting a line." tone="warm">
         <p>
           The engagement began by ignoring the existing library entirely. The Foundry ingested the
-          sources that actually governed the program: ASIC RG146 knowledge requirements, the
-          licensee&rsquo;s own AFSL obligations, product disclosure requirements, and the internal
-          conduct policy that sat above all of it. From those sources it proposed a framework of
+          sources that actually governed the program: the ESMA guidelines on knowledge and competence
+          under MiFID II as applied by the CMVM, the bank&rsquo;s own authorization conditions,
+          product disclosure requirements, and the internal conduct policy that sat above all of it. From those sources it proposed a framework of
           concept nodes, prerequisite chains, and assessment definitions. A single object the
-          licensee&rsquo;s subject matter experts could review and revise.
+          bank&rsquo;s subject matter experts could review and revise.
         </p>
         <p>
           Three working sessions later, the framework was signed. Nothing downstream of that
@@ -74,9 +74,9 @@ export default function Page() {
           the other way around.
         </p>
 
-        <CaseQuote attribution="Head of licensee training, tier 1 Australian bank">
+        <CaseQuote attribution="Head of conduct training, tier 1 European bank">
           For the first time we could name what was missing in the regulator&rsquo;s own language,
-          rather than in ours. That single change reset the conversation with APRA.
+          rather than in ours. That single change reset the conversation with the supervisor.
         </CaseQuote>
 
         <p>
@@ -108,7 +108,7 @@ export default function Page() {
         <OutcomeStats
           items={[
             { value: 40, suffix: "%", label: "reduction in author cycle time against the contractor baseline" },
-            { value: 100, suffix: "%", label: "framework coverage of the approved RG146 requirement set" },
+            { value: 100, suffix: "%", label: "framework coverage of the approved MiFID II competence requirement set" },
             { value: 4, suffix: " hrs", label: "to generate an evidence pack ready for the regulator (previously weeks)" },
           ]}
           footnote="Illustrative outcomes drawn from typical engagement patterns. Specific program figures shared under NDA on request."
@@ -129,8 +129,9 @@ export default function Page() {
           not a project.
         </p>
         <p>
-          Any Australian licensee sitting inside a remediation calendar, or wanting to avoid the
-          next one, is looking at the same question. Not who authored the last module. Who authors
+          Any regulated firm sitting inside a remediation calendar, whether the supervisor is the
+          CMVM, FINRA, the Japan FSA, or ASIC, or wanting to avoid the next one, is looking at the
+          same question. Not who authored the last module. Who authors
           the framework the modules answer to.
         </p>
       </Chapter>

@@ -23,11 +23,24 @@
         },
         {
           "type": "p",
-          "text": "Record keeping rules make this concrete. For example, the US Occupational Safety and Health Administration (OSHA) Bloodborne Pathogens standard requires training records to include \"the contents or a summary of the training sessions\" and to be kept for three years ([29 CFR 1910.1030(h)(2)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030)). In Australia, the Australian Skills Quality Authority (ASQA) [practice guide](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/compliance-standards-for-rtos/integrity-of-nationally-recognised-training-practice-guide) sets out the requirement for Registered Training Organisations to retain records of all assessments submitted by a student for two years after completion of the training product. Neither says \"use version numbers\", but both are far easier to meet, and to evidence, when versions are controlled."
+          "text": "Record keeping rules make this concrete. Examples from four markets:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**European Union.** Article 12 of the Anti-Money Laundering Regulation (AMLR), which applies from July 10, 2027, requires obliged entities to run specific, ongoing training programs that are duly documented ([Regulation (EU) 2024/1624](https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng)). See [EU AMLR training requirements](/regulations/eu-amlr-training-requirements).",
+            "**United States.** The Occupational Safety and Health Administration (OSHA) Bloodborne Pathogens standard requires training records to include \"the contents or a summary of the training sessions\" and to be kept for three years ([29 CFR 1910.1030(h)(2)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030)).",
+            "**Japan.** The Ordinance on Industrial Safety and Health requires records of special education to be kept for three years (article 38, [e-Gov](https://laws.e-gov.go.jp/law/347M50002000032)).",
+            "**Australia.** The Australian Skills Quality Authority (ASQA) [practice guide](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/compliance-standards-for-rtos/integrity-of-nationally-recognised-training-practice-guide) sets out the requirement for Registered Training Organisations to retain records of all assessments submitted by a student for two years after completion of the training product."
+          ]
         },
         {
           "type": "p",
-          "text": "The same discipline is expected of governance documents more generally. For example, the Australian Institute of Company Directors (AICD), in its guidance on [reporting to the board](https://www.aicd.com.au/board-of-directors/roles/executive/Reporting-to-the-board.html), lists version control, meaning managing draft revisions and formalizing final reports, and archival of audit trails among the protocols that uphold reporting quality. Training content that feeds compliance evidence deserves the same treatment."
+          "text": "None of these says \"use version numbers\", but all are far easier to meet, and to evidence, when versions are controlled."
+        },
+        {
+          "type": "p",
+          "text": "The same discipline is expected of governance records more generally. The accountability principle in Article 5(2) of the EU General Data Protection Regulation (GDPR), for example, requires a controller to be able to demonstrate compliance ([GDPR](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504)), which in practice means dated, versioned records of what was decided and when. Training content that feeds compliance evidence deserves the same treatment."
         },
         {
           "type": "p",
@@ -235,9 +248,19 @@
       "url": "https://semver.org/"
     },
     {
-      "title": "Reporting to the Board",
-      "publisher": "Australian Institute of Company Directors",
-      "url": "https://www.aicd.com.au/board-of-directors/roles/executive/Reporting-to-the-board.html"
+      "title": "Regulation (EU) 2024/1624 (Anti-Money Laundering Regulation)",
+      "publisher": "European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "title": "Ordinance on Industrial Safety and Health",
+      "publisher": "e-Gov Japan",
+      "url": "https://laws.e-gov.go.jp/law/347M50002000032"
+    },
+    {
+      "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)",
+      "publisher": "European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
     }
   ],
   "related": [
@@ -272,6 +295,18 @@
     {
       "claim": "Semantic Versioning: given MAJOR.MINOR.PATCH, increment MAJOR for incompatible changes, MINOR for backward compatible functionality, PATCH for backward compatible bug fixes.",
       "source": "https://semver.org/"
+    },
+    {
+      "claim": "AMLR Article 12 requires specific, ongoing training programs for employees, appropriate to functions and risks, and duly documented; Article 90: applies from 10 July 2027.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "claim": "Japan Ordinance on Industrial Safety and Health article 38 requires special education records to be kept for 3 years.",
+      "source": "https://laws.e-gov.go.jp/law/347M50002000032"
+    },
+    {
+      "claim": "GDPR Article 5(2) accountability: the controller is responsible for and able to demonstrate compliance.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
     }
   ]
 }

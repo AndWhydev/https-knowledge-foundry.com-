@@ -4,12 +4,17 @@ export const site = {
   description:
     "Knowledge Foundry turns subjects, documents, and requirements into structured learning systems. Define first. Write second.",
   url: "https://knowledge-foundry.com",
+  // Registered name and NIPC pending from counsel. Set `registeredName` and
+  // `companyNumber` when confirmed; until then the site shows the trading name.
   legal: {
-    entity: "Knowledge Foundry Pty Ltd",
-    abn: "—",
+    entity: "Knowledge Foundry",
+    registeredName: "",
+    companyNumber: "",
+    jurisdiction: "Portugal",
+    registrationLine: "A company registered in Portugal. Registration details available on request.",
   },
   contact: {
-    email: "hello@knowledge-foundry.com",
+    email: "contact@knowledge-foundry.com",
   },
 } as const;
 

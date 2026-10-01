@@ -8,7 +8,7 @@
   "keyTakeaways": [
     "A VOC is a documented evaluation of a person's skill against defined competency standards, used to confirm they can do a specific task in your workplace.",
     "The assessment must be structured: defined criteria, a practical component, and a knowledge component, not a supervisor's general opinion.",
-    "Assessors need competence in assessment and in the task. Australia's Office of the Federal Safety Commissioner, for example, states that an employer letter alone is not acceptable evidence.",
+    "Assessors need competence in assessment and in the task. Published regulator guidance on VOC states that an employer letter alone is not acceptable evidence.",
     "Record the outcome with the standard used, the assessor, the date, any conditions, and the reverification date.",
     "VOC confirms competence at a point in time. Reverify when the task, equipment, procedure, or the person's performance changes."
   ],
@@ -23,7 +23,15 @@
         },
         {
           "type": "p",
-          "text": "Two Australian regulator sources illustrate the idea. The Office of the Federal Safety Commissioner (OFSC) [fact sheet on mobile plant](https://www.fsc.gov.au/sites/default/files/2021-09/Fact%20Sheet%20Verification%20of%20Competency%20-%20Mobile%20Plant.pdf) quotes the OFSC Evidence Guide definition: \"a method of documented evaluation of the skill level of a person against defined competency standards in order to evaluate the person's ability to carry out the relevant activity or works.\" The NSW Resources Regulator describes VOC as a method of assessment that can be used to demonstrate a worker's ability to operate equipment or undertake the responsibilities of their role ([NSW Resources Regulator](https://www.resources.nsw.gov.au/sites/default/files/2024-05/operating-mobile-plant-verification-of-competency.pdf))."
+          "text": "Most occupational safety laws do not use the term VOC, but they require the outcome it evidences. In the European Union, Article 12 of the [OSH Framework Directive 89/391/EEC](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391) requires adequate, job specific safety training on recruitment, on a transfer or change of job, and on the introduction of new equipment or technology, repeated periodically if necessary. Portugal applies it through [Law 102/2009](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-56365341), whose Article 20 requires adequate training for each worker that takes account of the workstation and high risk activities."
+        },
+        {
+          "type": "p",
+          "text": "In Japan, the [Industrial Safety and Health Act](https://laws.e-gov.go.jp/law/347AC0000000057) requires special education before workers are assigned to listed dangerous or harmful operations (Article 59(3)). See [EU OSH Framework Directive training](/regulations/eu-osh-framework-directive-training), [Portugal OHS training requirements](/regulations/portugal-ohs-training-requirements), and [Japan Industrial Safety and Health Act training](/regulations/japan-industrial-safety-and-health-act-training)."
+        },
+        {
+          "type": "p",
+          "text": "The term itself is most established in Australia's construction and resources sectors, where two regulator sources define it. The Office of the Federal Safety Commissioner (OFSC) [fact sheet on mobile plant](https://www.fsc.gov.au/sites/default/files/2021-09/Fact%20Sheet%20Verification%20of%20Competency%20-%20Mobile%20Plant.pdf) quotes the OFSC Evidence Guide definition: \"a method of documented evaluation of the skill level of a person against defined competency standards in order to evaluate the person's ability to carry out the relevant activity or works.\" The NSW Resources Regulator describes VOC as a method of assessment that can be used to demonstrate a worker's ability to operate equipment or undertake the responsibilities of their role ([NSW Resources Regulator](https://www.resources.nsw.gov.au/sites/default/files/2024-05/operating-mobile-plant-verification-of-competency.pdf))."
         },
         {
           "type": "p",
@@ -45,9 +53,9 @@
             "**Identify the tasks.** From your risk register and [training matrix](/glossary/training-matrix), list the tasks where incompetent performance could cause serious harm or a compliance breach. Output: a VOC task list.",
             "**Define the standard.** For each task, use the relevant national unit of competency or occupational standard where one exists, drawing on its performance criteria and assessment requirements, plus site specific procedures. Output: a documented standard per task.",
             "**Build the assessment tool.** A structured checklist covering practical performance, knowledge questions (hazards, controls, emergency response, operator manual requirements), and the conditions of assessment. Output: an assessment tool per task. See [how to design assessments that prove competence](/guides/how-to-design-competency-assessments).",
-            "**Qualify assessors.** Define assessor requirements. The OFSC fact sheet says a VOC should be performed by someone competent as an assessor (holding TAEASS402 Assess competence or equivalent or higher) and holding the necessary competence for the item of plant, or a team that collectively meets both. Output: an assessor register.",
-            "**Decide accepted prior evidence.** State which licenses, statements of attainment, or previous VOCs you accept, and what you still verify on site. Output: an evidence acceptance rule.",
-            "**Conduct and record.** Assess under realiztic conditions, record the outcome and any supervision level or conditions, and have the assessor and worker sign. Output: a completed VOC record (template below).",
+            "**Qualify assessors.** Define assessor requirements. Some schemes specify them: the OFSC fact sheet, for example, says a VOC should be performed by someone competent as an assessor (holding TAEASS402 Assess competence or equivalent or higher) and holding the necessary competence for the item of plant, or a team that collectively meets both. Output: an assessor register.",
+            "**Decide accepted prior evidence.** State which licenses, certificates, statements of attainment, or previous VOCs you accept, and what you still verify on site. Some prior evidence is a legal precondition rather than a choice: in Japan, restricted work listed in Cabinet Order Article 20, such as operating forklifts of 1 ton or more, may only be performed by people holding the license or skill training qualification required under Article 61 of the Industrial Safety and Health Act. Output: an evidence acceptance rule.",
+            "**Conduct and record.** Assess under realistic conditions, record the outcome and any supervision level or conditions, and have the assessor and worker sign. Output: a completed VOC record (template below).",
             "**Set reverification triggers.** Define when VOC must be repeated. Output: a reverification rule."
           ]
         }
@@ -71,7 +79,7 @@
           "rows": [
             [
               "Worker and employer",
-              "A. Nguyen, contractor employed by Example Civil Pty Ltd"
+              "A. Nguyen, contractor employed by Example Civil Ltd"
             ],
             [
               "Task and equipment",
@@ -79,11 +87,11 @@
             ],
             [
               "Standard used",
-              "Unit of competency performance criteria plus site traffic management plan v4"
+              "Performance criteria from the relevant occupational standard plus site traffic management plan v4"
             ],
             [
               "Prior evidence sighted",
-              "Statement of attainment in the relevant unit, sighted and copied"
+              "Operator license or certificate for the relevant plant class, sighted and copied"
             ],
             [
               "Practical assessment",
@@ -95,7 +103,7 @@
             ],
             [
               "Assessor and qualifications",
-              "B. Smith, TAEASS402 and current operator competence for this plant"
+              "B. Smith, qualified workplace assessor with current operator competence for this plant"
             ],
             [
               "Outcome and conditions",
@@ -127,7 +135,7 @@
         },
         {
           "type": "p",
-          "text": "By contrast, the OFSC fact sheet states that, for its audit criteria, refresher training is not required unless required by legislation or an RTO, or deemed necessary by the company. Where no rule sets the interval, it is a company decision, and should be written into your procedure and justified by risk."
+          "text": "Other sources leave the interval open. The EU OSH Framework Directive requires training to be adapted to new or changed risks and repeated periodically if necessary, without naming a period, and the OFSC fact sheet states that, for its audit criteria, refresher training is not required unless required by legislation or a registered training provider, or deemed necessary by the company. Where no rule sets the interval, it is a company decision, and should be written into your procedure and justified by risk."
         }
       ]
     },
@@ -165,11 +173,11 @@
   "faqs": [
     {
       "q": "Is a high risk work license the same as a VOC?",
-      "a": "No. A license, such as an Australian high risk work license, is issued by a regulator for specified work. A VOC is an assessment, often by the employer or principal contractor, that the person can perform the task on specific equipment in that workplace. The OFSC fact sheet treats a license as acceptable evidence for its criteria, but many sites still verify site specific competence."
+      "a": "No. A license, such as a skill training qualification for restricted work in Japan, is issued under a legal scheme for specified work. A VOC is an assessment, often by the employer or principal contractor, that the person can perform the task on specific equipment in that workplace. Some schemes, such as the OFSC criteria, treat a license as acceptable evidence, but many sites still verify site specific competence."
     },
     {
-      "q": "Can a VOC be done by a Registered Training Organisation?",
-      "a": "Yes. Many organizations use RTOs to conduct VOCs, and the OFSC fact sheet treats an RTO issued statement of attainment for the relevant unit as acceptable evidence for its criteria. Some organizations use internal assessors who meet defined requirements instead, or a combination of both."
+      "q": "Can a VOC be done by an external training provider?",
+      "a": "Yes. Many organizations use accredited training providers to conduct VOCs, and the OFSC fact sheet treats a statement of attainment issued by a registered training provider for the relevant unit as acceptable evidence for its criteria. Some organizations use internal assessors who meet defined requirements instead, or a combination of both."
     },
     {
       "q": "Does VOC apply outside construction and mining?",
@@ -195,6 +203,26 @@
       "title": "29 CFR 1910.178 Powered industrial trucks",
       "publisher": "US Occupational Safety and Health Administration (eCFR)",
       "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+    },
+    {
+      "title": "Council Directive 89/391/EEC on the introduction of measures to encourage improvements in the safety and health of workers at work",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
+    },
+    {
+      "title": "Lei n.º 102/2009, regime jurídico da promoção da segurança e saúde no trabalho (consolidated)",
+      "publisher": "Diário da República",
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-56365341"
+    },
+    {
+      "title": "Industrial Safety and Health Act (Act No. 57 of 1972)",
+      "publisher": "e-Gov Laws, Digital Agency of Japan",
+      "url": "https://laws.e-gov.go.jp/law/347AC0000000057"
+    },
+    {
+      "title": "Order for Enforcement of the Industrial Safety and Health Act",
+      "publisher": "e-Gov Laws, Digital Agency of Japan",
+      "url": "https://laws.e-gov.go.jp/law/347CO0000000318"
     }
   ],
   "related": [
@@ -238,6 +266,22 @@
     {
       "claim": "29 CFR 1910.178(l)(1)(i): employer ensures each operator is competent as demonstrated by successful completion of the training and evaluation; (l)(4)(ii): refresher training when observed operating unsafely, accident or near-miss, evaluation reveals unsafe operation, assigned a different type of truck, or workplace condition changes; (l)(4)(iii): evaluation of each operator at least once every three years.",
       "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+    },
+    {
+      "claim": "Directive 89/391/EEC Article 12(1): adequate job specific training on recruitment, transfer or change of job, new or changed equipment, new technology; adapted to new or changed risks and repeated periodically if necessary.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
+    },
+    {
+      "claim": "Portugal Law 102/2009 Article 2(1) transposes Directive 89/391/EEC; Article 20(1) requires adequate OHS training for each worker considering the workstation and high-risk activities.",
+      "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-56365341"
+    },
+    {
+      "claim": "Japan Industrial Safety and Health Act Article 59(3) requires special education before assigning MHLW listed dangerous or harmful operations; Article 61(1) restricts listed work to qualified persons.",
+      "source": "https://laws.e-gov.go.jp/law/347AC0000000057"
+    },
+    {
+      "claim": "Cabinet Order Article 20 lists restricted work including forklifts of 1 ton or more.",
+      "source": "https://laws.e-gov.go.jp/law/347CO0000000318"
     }
   ]
 }

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "The terms that govern use of the Knowledge Foundry website. Customer use of the platform is governed separately by the master services agreement.",
 };
 
-const updated = "26 September 2026";
+const updated = "1 October 2026";
 
 export default function TermsPage() {
   return (
@@ -137,8 +137,8 @@ export default function TermsPage() {
               <p>
                 The site is provided on an &ldquo;as is&rdquo; and &ldquo;as
                 available&rdquo; basis. To the maximum extent permitted by
-                law, and other than any non-excludable consumer guarantees
-                under the Australian Consumer Law, we make no warranties about
+                law, and other than any consumer rights that cannot be excluded
+                under the law of the country where you live, we make no warranties about
                 the site&rsquo;s accuracy, completeness, availability, or
                 fitness for a particular purpose.
               </p>
@@ -159,12 +159,12 @@ export default function TermsPage() {
                 revenue, profit, goodwill, or data, arising out of or in
                 connection with your use of the site. Nothing in these terms
                 limits any liability that cannot be limited by law, including
-                under the Australian Consumer Law.
+                mandatory consumer protection law in your country.
               </p>
               <p>
                 Where liability cannot be excluded but can be limited, our
                 total aggregate liability arising out of or in connection with
-                the site is limited to AUD 100.
+                the site is limited to EUR 100.
               </p>
             </section>
 
@@ -183,10 +183,12 @@ export default function TermsPage() {
             <section>
               <h2>10. Governing law and jurisdiction</h2>
               <p>
-                These terms are governed by the laws of New South Wales,
-                Australia. Each party submits to the exclusive jurisdiction of
-                the courts of New South Wales and the courts able to hear
-                appeals from them.
+                The governing law and venue for these terms are being finalized
+                following the registration of Knowledge Foundry in Portugal and
+                will be published here. In the meantime, please{" "}
+                <a href={`mailto:${site.contact.email}`}>contact us</a> if you
+                need this information. Nothing in this section removes rights
+                you have under the mandatory law of the country where you live.
               </p>
             </section>
 
@@ -196,7 +198,10 @@ export default function TermsPage() {
                 Questions about these terms:{" "}
                 <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>
                 <br />
-                Legal entity: {site.legal.entity} · ABN {site.legal.abn}
+                Legal entity: {site.legal.registeredName || site.legal.entity}
+                {site.legal.companyNumber && <> · NIPC {site.legal.companyNumber}</>}
+                <br />
+                {site.legal.registrationLine}
               </p>
             </section>
           </article>

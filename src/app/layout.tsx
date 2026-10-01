@@ -69,12 +69,13 @@ const jsonLd = {
       description: site.description,
       logo: `${site.url}/icon`,
       sameAs: [],
+      address: { "@type": "PostalAddress", addressCountry: "PT" },
       contactPoint: [
         {
           "@type": "ContactPoint",
           email: site.contact.email,
           contactType: "Sales inquiries",
-          areaServed: ["AU", "PT", "US", "JP", "AE"],
+          areaServed: ["PT", "EU", "US", "JP", "AU", "AE"],
           availableLanguage: ["English"],
         },
       ],
@@ -86,7 +87,7 @@ const jsonLd = {
       applicationCategory: "BusinessApplication",
       operatingSystem: "Web",
       description: site.description,
-      offers: { "@type": "Offer", price: "0", priceCurrency: "AUD", availability: "https://schema.org/InStock", url: `${site.url}/demonstration` },
+      offers: { "@type": "Offer", price: "0", priceCurrency: "EUR", availability: "https://schema.org/InStock", url: `${site.url}/demonstration` },
       publisher: { "@id": `${site.url}/#organization` },
     },
     {

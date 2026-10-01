@@ -7,8 +7,7 @@
   "shortAnswer": "To show a regulator that training works, present an evidence chain rather than a completion rate: the obligation and risk the training addresses, how the content and assessment were designed from them, proof that people reached the required standard, evidence they apply it at work, what monitoring found, and what you changed as a result. Regulators rarely prescribe metrics, so the logic connecting each link matters as much as the numbers.",
   "keyTakeaways": [
     "Completion rates show that training happened. They do not show that it worked, and regulators increasingly ask about both.",
-    "AUSTRAC states it expects entities to monitor the effectiveness of AML/CTF training and evaluate whether personnel retain and apply it.",
-    "ASIC expects AFS licensees to regularly review the effectiveness of their compliance measures, which include training of representatives.",
+    "Regulators in several markets ask about effectiveness. The US Department of Justice (DOJ) asks prosecutors to examine how a company measures the effectiveness of its compliance training, and Japan's Financial Services Agency (FSA) expects internal audit to cover the effectiveness of employee AML/CFT training.",
     "Build the case as a chain: obligation, risk, design, learning evidence, application evidence, outcome signals, review and change.",
     "Be honest about limits. Showing what you found, including weaknesses, and what you did about them is more credible than a perfect dashboard."
   ],
@@ -19,14 +18,16 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Most regulators expect training to be suitable for the role and risk, and expect you to monitor whether your arrangements work, but few prescribe how to measure effectiveness. The expectation is framed as outcomes and review, not a specific metric. The examples below, two Australian regulators and international medicines manufacturing guidance, show the pattern."
+          "text": "Most regulators expect training to be suitable for the role and risk, and expect you to monitor whether your arrangements work, but few prescribe how to measure effectiveness. The expectation is framed as outcomes and review, not a specific metric. The examples below, from regulators in several markets and from international medicines manufacturing guidance, show the pattern."
         },
         {
           "type": "ul",
           "items": [
-            "**AUSTRAC.** Its [AML/CTF training guidance](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform) refers to section 26F(4)(e) of the AML/CTF Act and Rules section 5 to 9(2), and lists expectations including that you monitor the effectiveness of your training and evaluate whether personnel are retaining knowledge from it and applying it appropriately.",
-            "**ASIC.** [RG 104](https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations) (RG 104.24) expects licensees to document their compliance measures, fully implement and monitor them, and regularly review their effectiveness. RG 104.27 states: \"It is not enough just to document your measures.\"",
-            "**Medicines manufacturing.** The PIC/S Guide to GMP, applied by medicines regulators that participate in the PIC/S scheme, says continuing training \"should also be given, and its practical effectiveness should be periodically assessed\" ([PE009-16 Part I, clause 2.11](https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf))."
+            "**US Department of Justice.** The Criminal Division's [Evaluation of Corporate Compliance Programs](https://www.justice.gov/media/1160391/dl?inline) (September 2024) asks prosecutors whether a company provides appropriately tailored training and communications, and includes questions on how the company measures the effectiveness of its training. The DOJ stresses that its topics \"form neither a checklist nor a formula\". See [DOJ compliance program training expectations](/regulations/doj-compliance-program-training-expectations).",
+            "**US Food and Drug Administration (FDA).** Its [Quality Systems guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-systems-approach-pharmaceutical-current-good-manufacturing-practice-regulations) for drug manufacturers describes training programs that include evaluation of training effectiveness, with managers verifying that skills are applied. The guidance does not add new requirements to 21 CFR 211.25.",
+            "**Japan Financial Services Agency.** The FSA's [AML/CFT Guidelines](https://www.fsa.go.jp/en/news/2026/20260331/01.pdf) (revised March 31, 2026) set required actions on human resource development (section III-5) and expect internal audit to cover the effectiveness of employee training (section III-3(3)). See [Japan FSA AML/CFT guidelines training](/regulations/japan-fsa-aml-cft-guidelines-training).",
+            "**Australian Transaction Reports and Analysis Centre (AUSTRAC).** Its [AML/CTF training guidance](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform) refers to section 26F(4)(e) of the AML/CTF Act and Rules section 5 to 9(2), and lists expectations including that you monitor the effectiveness of your training and evaluate whether personnel are retaining knowledge from it and applying it appropriately.",
+            "**Medicines manufacturing.** The PIC/S Guide to GMP, applied by medicines regulators that participate in the PIC/S scheme, including Japan's, says continuing training \"should also be given, and its practical effectiveness should be periodically assessed\" ([PE009-16 Part I, clause 2.11](https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf))."
           ]
         },
         {
@@ -122,7 +123,7 @@
         {
           "type": "callout",
           "title": "Illustrative example, not a real case",
-          "text": "A remittance business retrains its customer onboarding team on revised customer due diligence procedures. The chain it keeps: the AML/CTF risk assessment entry for onboarding; role specific outcomes signed off by the AML/CTF compliance officer; a scenario assessment in which staff must identify missing beneficial ownership information; monthly quality assurance sampling of onboarding files before and after training; the rate of files returned for incomplete checks; and a record that one scenario was rewritten after most staff failed it for reasons traced to an unclear procedure step, which was also fixed."
+          "text": "A remittance business retrains its customer onboarding team on revised customer due diligence procedures. The chain it keeps: the AML/CFT risk assessment entry for onboarding; role specific outcomes signed off by the AML/CFT compliance officer; a scenario assessment in which staff must identify missing beneficial ownership information; monthly quality assurance sampling of onboarding files before and after training; the rate of files returned for incomplete checks; and a record that one scenario was rewritten after most staff failed it for reasons traced to an unclear procedure step, which was also fixed."
         },
         {
           "type": "p",
@@ -190,11 +191,6 @@
       "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
     },
     {
-      "title": "RG 104 AFS licensing: Meeting the general obligations",
-      "publisher": "Australian Securities and Investments Commission",
-      "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-104-afs-licensing-meeting-the-general-obligations"
-    },
-    {
       "title": "The Kirkpatrick Model",
       "publisher": "Kirkpatrick Partners",
       "url": "https://www.kirkpatrickpartners.com/the-kirkpatrick-model/"
@@ -203,6 +199,26 @@
       "title": "PIC/S Guide to GMP PE009-16, Part I: Basic requirements for medicinal products",
       "publisher": "Therapeutic Goods Administration",
       "url": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
+    },
+    {
+      "title": "Evaluation of Corporate Compliance Programs (updated September 2024)",
+      "publisher": "US Department of Justice, Criminal Division",
+      "url": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "title": "Quality Systems Approach to Pharmaceutical CGMP Regulations",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-systems-approach-pharmaceutical-current-good-manufacturing-practice-regulations"
+    },
+    {
+      "title": "Guidelines for Anti-Money Laundering and Combating the Financing of Terrorism (revised March 31, 2026)",
+      "publisher": "Financial Services Agency, Japan",
+      "url": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf"
+    },
+    {
+      "title": "PIC/S members",
+      "publisher": "Pharmaceutical Inspection Co-operation Scheme",
+      "url": "https://picscheme.org/en/members"
     }
   ],
   "related": [
@@ -232,12 +248,24 @@
       "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
     },
     {
-      "claim": "RG 104.24 expects licensees to document, implement, monitor, and regularly review effectiveness of measures; RG 104.27 'It is not enough just to document your measures.'",
-      "source": "https://download.asic.gov.au/media/av3fovx5/rg104-published-23-june-2022-20260310.pdf"
-    },
-    {
       "claim": "PIC/S GMP Part I clause 2.11: newly recruited personnel should receive training appropriate to the duties assigned to them; continuing training should also be given, and its practical effectiveness should be periodically assessed.",
       "source": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
+    },
+    {
+      "claim": "DOJ ECCP section I.C Training and Communications: appropriately tailored training and communications; sample questions on form, content and effectiveness of training; topics 'form neither a checklist nor a formula'; September 2024 version current as at September 2026.",
+      "source": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "claim": "FDA Quality Systems guidance (2006) expects training programs with evaluation of effectiveness and managers verifying skills are applied; references 211.25(a) and (b); does not introduce new requirements.",
+      "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-systems-approach-pharmaceutical-current-good-manufacturing-practice-regulations"
+    },
+    {
+      "claim": "FSA AML/CFT Guidelines revised and current as of March 31, 2026; III-5 human resource development required actions; III-3(3) audit of effectiveness of employee training.",
+      "source": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf"
+    },
+    {
+      "claim": "Japan (MHLW and PMDA) acceded to PIC/S in July 2014.",
+      "source": "https://picscheme.org/en/members"
     }
   ]
 }

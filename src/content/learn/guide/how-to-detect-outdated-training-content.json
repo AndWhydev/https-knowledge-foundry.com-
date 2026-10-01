@@ -9,7 +9,7 @@
     "Content goes out of date because something it depends on changed. Knowing the dependencies is the foundation of detection.",
     "A reference index, listing the sources each item cites, turns detection into a comparison rather than a reading exercise.",
     "Assessment data, learner questions, and incidents often reveal outdated content before a scheduled review does.",
-    "Under Australia's model WHS Regulations, for example, training must suit the risks and control measures at the time it is provided, so outdated safety content is a compliance issue, not only a quality one.",
+    "Safety law can make outdated content a compliance issue, not only a quality one. The EU OSH Framework Directive, for example, requires training adapted to new or changed risks.",
     "Triage by harm: outdated thresholds, procedures, and legal references come before outdated screenshots."
   ],
   "sections": [
@@ -23,7 +23,11 @@
         },
         {
           "type": "p",
-          "text": "In safety contexts the gap can have legal weight. For example, regulation 39(2) of the model [Work Health and Safety Regulations 2011](https://www.legislation.gov.au/F2011L02664/latest/text) requires a person conducting a business or undertaking to ensure that information, training, and instruction is suitable and adequate having regard to the nature of the work, the nature of the risks associated with the work at the time it is provided, and the control measures implemented. Training that describes controls that have since been replaced does not meet that description."
+          "text": "In safety contexts the gap can have legal weight. In the European Union, Article 12(1) of the [OSH Framework Directive (89/391/EEC)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391) requires employers to give workers adequate safety and health training on recruitment, on a transfer or change of job, and on the introduction of new equipment or technology, and requires that training to be adapted to new or changed risks and repeated periodically if necessary. Portugal applies the Directive through [Law 102/2009](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-56365341). In Japan, Article 59(2) of the [Industrial Safety and Health Act](https://laws.e-gov.go.jp/law/347AC0000000057) requires safety or health education when a worker's work content changes."
+        },
+        {
+          "type": "p",
+          "text": "Australia's model [Work Health and Safety Regulations 2011](https://www.legislation.gov.au/F2011L02664/latest/text) make the timing explicit in regulation 39(2): information, training, and instruction must be suitable and adequate having regard to the nature of the work, the nature of the risks associated with the work at the time it is provided, and the control measures implemented. Under any of these regimes, training that describes controls that have since been replaced is hard to defend. See [EU OSH Framework Directive training](/regulations/eu-osh-framework-directive-training) and [Japan Industrial Safety and Health Act training](/regulations/japan-industrial-safety-and-health-act-training)."
         }
       ]
     },
@@ -67,9 +71,15 @@
           ],
           "rows": [
             [
+              "Cited figure superseded",
+              "Reference index compared with current consolidated text",
+              "Course states Portugal's annual continuous training minimum as 35 hours, the original 2009 Labor Code figure, rather than the 40 hours set by Law 93/2019",
+              "High"
+            ],
+            [
               "Cited source superseded",
               "Reference index compared with current versions",
-              "Course cites Australia's 2015 Standards for RTOs after the 2025 Standards took effect on July 1, 2025",
+              "Course describes the training article (Article 19) of Japan's GMP ordinance in its pre 2021 form, after MHLW Ordinance No. 90 of 2021 revised it from August 1, 2021",
               "High"
             ],
             [
@@ -186,19 +196,39 @@
       "url": "https://www.legislation.gov.au/F2011L02664/latest/text"
     },
     {
-      "title": "Standards for RTOs",
-      "publisher": "Australian Skills Quality Authority",
-      "url": "https://www.asqa.gov.au/rtos/2025-standards-rtos"
-    },
-    {
-      "title": "Model WHS laws",
-      "publisher": "Safe Work Australia",
-      "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/model-whs-laws"
-    },
-    {
       "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Article 113, as amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI)",
       "publisher": "European Union (EUR-Lex)",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "title": "Council Directive 89/391/EEC (OSH Framework Directive)",
+      "publisher": "European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
+    },
+    {
+      "title": "Law 102/2009 (consolidated)",
+      "publisher": "Diário da República",
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-56365341"
+    },
+    {
+      "title": "Industrial Safety and Health Act (Act No. 57 of 1972)",
+      "publisher": "e-Gov Japan",
+      "url": "https://laws.e-gov.go.jp/law/347AC0000000057"
+    },
+    {
+      "title": "Labor Code (Law 7/2009), consolidated",
+      "publisher": "Diário da República",
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475"
+    },
+    {
+      "title": "Labor Code (Law 7/2009), original 2009 text",
+      "publisher": "Diário da República",
+      "url": "https://files.diariodarepublica.pt/1s/2009/02/03000/0092601029.pdf"
+    },
+    {
+      "title": "GMP ordinance (MHLW Ordinance No. 179 of 2004)",
+      "publisher": "e-Gov Japan",
+      "url": "https://laws.e-gov.go.jp/law/416M60000100179"
     }
   ],
   "related": [
@@ -227,12 +257,28 @@
       "source": "https://www.legislation.gov.au/F2011L02664/latest/text"
     },
     {
-      "claim": "The 2025 Standards for RTOs took effect on 1 July 2025.",
-      "source": "https://www.asqa.gov.au/rtos/2025-standards-rtos"
-    },
-    {
       "claim": "EU AI Act Article 113: applies from 2 August 2026; Chapters I and II from 2 February 2025; as replaced by Regulation (EU) 2026/1744, Chapter III Sections 1, 2 and 3 apply from 2 December 2027 for Article 6(2)/Annex III high-risk systems and 2 August 2028 for Article 6(1)/Annex I systems (consolidated text 02024R1689-20260727). Original Article 113 applied Chapter III from the general date of 2 August 2026, with Article 6(1) from 2 August 2027.",
       "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "claim": "OSH Framework Directive Article 12(1): adequate safety and health training on recruitment, transfer or change of job, new equipment or technology; adapted to new or changed risks and repeated periodically if necessary.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
+    },
+    {
+      "claim": "Portugal's Law 102/2009 Article 2(1) transposes Directive 89/391/EEC.",
+      "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-56365341"
+    },
+    {
+      "claim": "Japan Industrial Safety and Health Act Article 59(1) and (2): safety or health education on hiring and on a change of work content.",
+      "source": "https://laws.e-gov.go.jp/law/347AC0000000057"
+    },
+    {
+      "claim": "Portugal Labor Code Article 131(2): minimum 40 hours of continuous training per year, last amended by Law 93/2019 (in force October 1, 2019); the original 2009 text set 35 hours.",
+      "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475"
+    },
+    {
+      "claim": "Japan GMP ordinance Article 19: MHLW Ordinance No. 90 of 2021 (in force August 1, 2021) revised the article; the pre 2021 text had three items, the current text four, including periodic evaluation of effectiveness.",
+      "source": "https://laws.e-gov.go.jp/law/416M60000100179"
     }
   ]
 }

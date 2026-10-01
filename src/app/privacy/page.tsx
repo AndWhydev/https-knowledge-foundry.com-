@@ -8,10 +8,10 @@ export const metadata: Metadata = {
   alternates: { canonical: "/privacy" },
   title: "Privacy policy",
   description:
-    "How Knowledge Foundry collects, uses, discloses and retains personal information under the Privacy Act 1988 (Cth) and the Australian Privacy Principles.",
+    "How Knowledge Foundry collects, uses, discloses and retains personal information under the GDPR and the privacy laws of the markets we serve, including Australia, Japan, and the United States.",
 };
 
-const updated = "26 September 2026";
+const updated = "1 October 2026";
 
 export default function PrivacyPage() {
   return (
@@ -37,8 +37,13 @@ export default function PrivacyPage() {
             <p className="text-lede mt-6 max-w-[60ch]">
               This policy describes how {site.legal.entity} (&ldquo;Knowledge
               Foundry&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) handles
-              personal information, in line with the Australian Privacy Act
-              1988 (Cth) and the Australian Privacy Principles (APPs).
+              personal information. Knowledge Foundry is a company registered
+              in Portugal, so our privacy program is built on the EU General
+              Data Protection Regulation (GDPR) and Portuguese Law 58/2019. We
+              also meet the requirements of the other markets we serve,
+              including the Australian Privacy Act 1988, Japan&rsquo;s Act on
+              the Protection of Personal Information (APPI), and applicable
+              United States state privacy laws.
             </p>
           </Reveal>
           <p className="mt-6 text-[12.5px] font-[family-name:var(--font-jetbrains)] uppercase tracking-[0.14em] text-[color:var(--color-ink-faint)]">
@@ -57,6 +62,9 @@ export default function PrivacyPage() {
                 platform and the {site.url} website. Our contact address for
                 privacy inquiries is{" "}
                 <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>.
+              </p>
+              <p>
+                {site.legal.registrationLine}
               </p>
               <p>
                 For inquiries from customers about processing performed under a
@@ -87,8 +95,8 @@ export default function PrivacyPage() {
                 <li>Records of inquiries, meetings, proposals, and contracts with customers and prospective customers.</li>
               </ul>
               <p>
-                We do not deliberately collect sensitive information (as defined by
-                the Privacy Act). If a customer requires the platform to hold
+                We do not deliberately collect special category or sensitive
+                information (as defined by the GDPR and equivalent local laws). If a customer requires the platform to hold
                 sensitive information as part of their program content, that is
                 addressed in the customer agreement, not this policy.
               </p>
@@ -133,25 +141,34 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2>6. Overseas disclosure</h2>
+              <h2>6. Data residency and international transfers</h2>
               <p>
-                Production customer data for Australian tenants is processed and
-                stored in Australia (AWS ap-southeast-2, Sydney). We do not
-                routinely replicate customer content overseas.
+                Production customer data is processed and stored in the region
+                the customer chooses, by default the region closest to their
+                market:
+              </p>
+              <ul>
+                <li><strong>Portugal and the European Union:</strong> AWS Europe (Spain), eu-south-2.</li>
+                <li><strong>United States:</strong> AWS US East (N. Virginia), us-east-1.</li>
+                <li><strong>Japan:</strong> AWS Asia Pacific (Tokyo), ap-northeast-1.</li>
+                <li><strong>Australia:</strong> AWS Asia Pacific (Sydney), ap-southeast-2.</li>
+                <li><strong>United Arab Emirates:</strong> AWS Middle East (UAE), me-central-1, on request.</li>
+              </ul>
+              <p>
+                We do not routinely replicate customer content outside the
+                chosen region. A small number of operational subprocessors,
+                such as specific error-tracking or transactional-email
+                providers, may process limited technical or contact data in
+                another jurisdiction. The current subprocessor register lists
+                the relevant recipients and jurisdictions.
               </p>
               <p>
-                A small number of operational subprocessors, such as
-                specific error-tracking or transactional-email providers,
-                may process limited technical or contact data outside
-                Australia. Where that occurs, we rely on the recipient&rsquo;s
-                own privacy protections and, where required, contractual
-                clauses. The current subprocessor register lists the relevant
-                recipients and jurisdictions.
-              </p>
-              <p>
-                For customer end users in the European Union or the United
-                Kingdom, we execute a data-processing agreement incorporating
-                the Standard Contractual Clauses where a transfer occurs.
+                Where personal data leaves the European Economic Area, we rely
+                on an adequacy decision or the Standard Contractual Clauses.
+                Transfers involving Australian, Japanese, or other personal
+                information meet the cross-border rules of that jurisdiction,
+                including APP 8 in Australia and the APPI&rsquo;s third-country
+                transfer rules in Japan.
               </p>
             </section>
 
@@ -186,11 +203,16 @@ export default function PrivacyPage() {
 
             <section>
               <h2>9. Your rights</h2>
-              <p>Under the Australian Privacy Principles, you may:</p>
+              <p>
+                Depending on where you are, the GDPR, the Australian Privacy
+                Principles, the APPI, or your state&rsquo;s privacy law gives
+                you rights over your personal information. In general, you may:
+              </p>
               <ul>
                 <li>Ask us what personal information we hold about you.</li>
                 <li>Ask us to correct information that is inaccurate, out of date, incomplete, or misleading.</li>
                 <li>Ask us to delete information we no longer need to hold.</li>
+                <li>Object to or restrict certain processing, and receive your data in a portable format, where the GDPR applies.</li>
                 <li>Make a complaint about how we have handled your information.</li>
               </ul>
               <p>
@@ -207,14 +229,18 @@ export default function PrivacyPage() {
             <section>
               <h2>10. Complaints</h2>
               <p>
-                If you are dissatisfied with our response to a privacy
-                complaint, you may contact the Office of the Australian
-                Information Commissioner (OAIC) at{" "}
-                <a href="https://www.oaic.gov.au/" target="_blank" rel="noreferrer noopener">
-                  oaic.gov.au
-                </a>{" "}
-                or on 1300 363 992.
+                Please contact us first so we can try to resolve your concern.
+                If you are dissatisfied with our response, you may complain to
+                the supervisory authority where you live. Our lead authority is
+                Portugal&rsquo;s Comissão Nacional de Proteção de Dados (CNPD).
               </p>
+              <ul>
+                <li><strong>Portugal:</strong> CNPD, <a href="https://www.cnpd.pt/" target="_blank" rel="noreferrer noopener">cnpd.pt</a></li>
+                <li><strong>Other EU countries:</strong> your national data protection authority</li>
+                <li><strong>Australia:</strong> Office of the Australian Information Commissioner, <a href="https://www.oaic.gov.au/" target="_blank" rel="noreferrer noopener">oaic.gov.au</a></li>
+                <li><strong>Japan:</strong> Personal Information Protection Commission, <a href="https://www.ppc.go.jp/en/" target="_blank" rel="noreferrer noopener">ppc.go.jp</a></li>
+                <li><strong>United States:</strong> your state attorney general or, in California, the California Privacy Protection Agency, <a href="https://cppa.ca.gov/" target="_blank" rel="noreferrer noopener">cppa.ca.gov</a></li>
+              </ul>
             </section>
 
             <section>
@@ -246,7 +272,10 @@ export default function PrivacyPage() {
                 Privacy inquiries:{" "}
                 <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>
                 <br />
-                Legal entity: {site.legal.entity} · ABN {site.legal.abn}
+                Legal entity: {site.legal.registeredName || site.legal.entity}
+                {site.legal.companyNumber && <> · NIPC {site.legal.companyNumber}</>}
+                <br />
+                {site.legal.registrationLine}
               </p>
             </section>
           </article>

@@ -7,7 +7,7 @@
   "shortAnswer": "To write a training policy, state its purpose and scope, list the obligations it supports, assign roles and accountabilities, set how training needs are identified, define mandatory training and timeframes, state how competence is assessed, set record keeping and retention rules, cover non completion, content governance, and evaluation, then have it approved at the right level and reviewed on a fixed cycle. Keep procedures and schedules in separate, linked documents.",
   "keyTakeaways": [
     "A training policy sets principles, accountabilities, and minimum standards. Detailed steps belong in procedures.",
-    "Anchor the policy in the obligations that apply to you, such as anti money laundering rules, work health and safety duties, or sector rules on personnel training.",
+    "Anchor the policy in the obligations that apply to you, such as anti money laundering rules, workplace safety duties, or sector rules on personnel training.",
     "Define who decides what training each role needs, and how competence, not just completion, is confirmed.",
     "Record keeping, retention, and version control rules should be explicit, because they decide what you can prove later.",
     "Set an approval owner and a review cycle, and review the policy after any major regulatory change."
@@ -23,7 +23,7 @@
         },
         {
           "type": "p",
-          "text": "Some regimes make the policy itself an obligation. The Australian Transaction Reports and Analysis Centre (AUSTRAC) [states](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform), referring to Rules section 5 to 9(2) and (3), that your AML/CTF policies must ensure you can provide initial and ongoing training for personnel who perform AML/CTF functions, tailored to the functions they perform, the relevant risks, and their responsibilities. AUSTRAC also sets out things it expects those policies to outline, including a training plan, a register of completion dates, and monitoring of training effectiveness."
+          "text": "Some regimes make the policy itself an obligation. In the European Union, the [Anti-Money Laundering Regulation (EU) 2024/1624](https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng) requires obliged entities to have internal policies that include a policy on the training of employees and, where relevant, agents and distributors, approved by the management body (Article 9). Australia's AML/CTF regulator, AUSTRAC, [states](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform), referring to Rules section 5 to 9(2) and (3), that AML/CTF policies must ensure initial and ongoing training for personnel who perform AML/CTF functions, and expects those policies to outline a training plan, a register of completion dates, and monitoring of training effectiveness."
         }
       ]
     },
@@ -39,8 +39,10 @@
           "type": "ul",
           "items": [
             "**Medicines manufacturing.** In the United States, 21 CFR 211.25(a) requires that each person engaged in manufacturing, processing, packing, or holding a drug product has the education, training, and experience to perform their assigned functions, with good manufacturing practice training \"conducted by qualified individuals on a continuing basis and with sufficient frequency\" ([21 CFR 211.25](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25)).",
-            "**AML/CTF.** Section 26F(4)(e) of the AML/CTF Act and the Rules, as described in AUSTRAC's guidance above. See [AUSTRAC AML/CTF training requirements](/regulations/austrac-aml-ctf-training-requirements).",
-            "**Work health and safety (Australia).** Section 19(3)(f) of the model WHS Act requires a person conducting a business or undertaking to ensure, so far as reasonably practicable, the provision of any information, training, instruction, or supervision necessary to protect all persons from risks to their health and safety ([Work Health and Safety Act 2011](https://www.legislation.gov.au/C2011A00137/latest/text)). Regulation 39 of the model [WHS Regulations](https://www.legislation.gov.au/F2011L02664/latest/text) adds that training must be suitable and adequate and readily understandable.",
+            "**Anti money laundering (United States).** The Bank Secrecy Act requires an ongoing employee training program as one element of an AML program (31 U.S.C. 5318(h)(1)(C)), and FinCEN's rules for banks require training for appropriate personnel ([31 CFR 1020.210](https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.210)). See [BSA AML training requirements](/regulations/bsa-aml-training-requirements).",
+            "**Anti money laundering (European Union).** Article 12 of the EU [Anti-Money Laundering Regulation](https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng), which applies from July 10, 2027, requires specific, ongoing, and documented training programs. See [EU AMLR training requirements](/regulations/eu-amlr-training-requirements).",
+            "**Continuous training (Portugal).** Article 131(2) of the Portuguese Labor Code entitles each worker to a minimum of 40 hours of continuous training per year ([Labor Code](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475)). See [Portugal Labor Code continuous training](/regulations/portugal-labour-code-continuous-training).",
+            "**Occupational safety and health (European Union and Japan).** Article 12 of the [OSH Framework Directive 89/391/EEC](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391) requires adequate, job specific safety training on recruitment, change of job, and new equipment or technology. Japan's [Industrial Safety and Health Act](https://laws.e-gov.go.jp/law/347AC0000000057) requires safety or health education on hiring and on a change of work content (Article 59).",
             "**Quality management.** Organizations using ISO based management systems may also align with [ISO 10015:2019](https://www.iso.org/standard/69459.html), which gives guidelines for competence management and people development."
           ]
         }
@@ -181,7 +183,7 @@
     },
     {
       "q": "How often should a training policy be reviewed?",
-      "a": "Set a fixed cycle, commonly annual or biennial, and add triggers such as a material regulatory change, a significant incident, a merger, or an audit finding. AUSTRAC's expectation that training includes updates on regulatory changes is a reminder that the policy's content governance section must work between reviews."
+      "a": "Set a fixed cycle, commonly annual or biennial, and add triggers such as a material regulatory change, a significant incident, a merger, or an audit finding. Regulator expectations that training reflects regulatory change, such as those of Japan's Financial Services Agency (FSA), are a reminder that the policy's content governance section must work between reviews."
     }
   ],
   "sources": [
@@ -189,16 +191,6 @@
       "title": "AML/CTF training (Reform)",
       "publisher": "AUSTRAC",
       "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
-    },
-    {
-      "title": "Work Health and Safety Act 2011",
-      "publisher": "Federal Register of Legislation",
-      "url": "https://www.legislation.gov.au/C2011A00137/latest/text"
-    },
-    {
-      "title": "Work Health and Safety Regulations 2011",
-      "publisher": "Federal Register of Legislation",
-      "url": "https://www.legislation.gov.au/F2011L02664/latest/text"
     },
     {
       "title": "ISO 10015:2019 Quality management: Guidelines for competence management and people development",
@@ -209,6 +201,36 @@
       "title": "21 CFR 211.25 Personnel qualifications",
       "publisher": "US Food and Drug Administration (eCFR)",
       "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25"
+    },
+    {
+      "title": "31 CFR 1020.210 Anti-money laundering program requirements for banks",
+      "publisher": "Financial Crimes Enforcement Network (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.210"
+    },
+    {
+      "title": "Regulation (EU) 2024/1624 (Anti-Money Laundering Regulation)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "title": "Código do Trabalho (Labor Code, consolidated)",
+      "publisher": "Diário da República",
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475"
+    },
+    {
+      "title": "Council Directive 89/391/EEC on the introduction of measures to encourage improvements in the safety and health of workers at work",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
+    },
+    {
+      "title": "Industrial Safety and Health Act (Act No. 57 of 1972)",
+      "publisher": "e-Gov Laws, Digital Agency of Japan",
+      "url": "https://laws.e-gov.go.jp/law/347AC0000000057"
+    },
+    {
+      "title": "Guidelines for Anti-Money Laundering and Combating the Financing of Terrorism: FAQ (March 2026)",
+      "publisher": "Financial Services Agency, Japan",
+      "url": "https://www.fsa.go.jp/en/news/2026/20260331/02.pdf"
     }
   ],
   "related": [
@@ -238,16 +260,36 @@
       "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
     },
     {
-      "claim": "WHS Act s19(3)(f): provision of any information, training, instruction or supervision necessary to protect all persons from risks.",
-      "source": "https://www.legislation.gov.au/C2011A00137/latest/text"
-    },
-    {
-      "claim": "WHS Regulations r39: training suitable and adequate, and readily understandable.",
-      "source": "https://www.legislation.gov.au/F2011L02664/latest/text"
-    },
-    {
       "claim": "21 CFR 211.25(a): each person engaged in the manufacture, processing, packing, or holding of a drug product shall have education, training, and experience to perform the assigned functions; training shall be in the particular operations that the employee performs and in CGMP as they relate to the employee's functions; CGMP training conducted by qualified individuals on a continuing basis and with sufficient frequency.",
       "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B/section-211.25"
+    },
+    {
+      "claim": "AMLR Article 9(2)(a)(x): internal policies include a policy on the training of employees and, where relevant, agents and distributors; internal policies approved by the management body; Article 12: specific, ongoing, documented training programs; Article 90: applies from 10 July 2027.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "claim": "31 CFR 1020.210 requires training for appropriate personnel.",
+      "source": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.210"
+    },
+    {
+      "claim": "Portuguese Labor Code Article 131(2): minimum of 40 hours of continuous training per year.",
+      "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475"
+    },
+    {
+      "claim": "Directive 89/391/EEC Article 12(1): adequate training on recruitment, transfer or change of job, new equipment, new technology.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
+    },
+    {
+      "claim": "Japan Industrial Safety and Health Act Article 59(1) and (2): safety or health education on hiring and on a change of work content.",
+      "source": "https://laws.e-gov.go.jp/law/347AC0000000057"
+    },
+    {
+      "claim": "FSA AML/CFT Guidelines FAQ: update training when NRA or FATF material changes and verify those already trained.",
+      "source": "https://www.fsa.go.jp/en/news/2026/20260331/02.pdf"
+    },
+    {
+      "claim": "31 U.S.C. 5318(h)(1) lists the AML program pillars including (C) an ongoing employee training program.",
+      "source": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"
     }
   ]
 }

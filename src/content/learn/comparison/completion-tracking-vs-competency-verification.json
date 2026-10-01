@@ -94,7 +94,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Competency evidence is credible when it meets explicit rules of evidence. Vocational training regulation offers a well documented set: in Australia, for example, the Australian Skills Quality Authority (ASQA) sets these out for Registered Training Organisations under Standard 1.4 of the 2025 Standards, and they are a sound model for workplace verification too ([ASQA](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide))."
+          "text": "Competency evidence is credible when it meets explicit rules of evidence. Vocational training regulation offers models. In United States Registered Apprenticeship, competency-based programs must identify \"an appropriate means of testing and evaluation\" for each competency ([29 CFR 29.5(b)(2)](https://www.ecfr.gov/current/title-29/subtitle-A/part-29/section-29.5)). Vocational regulators can go further and define what good evidence looks like: the Australian Skills Quality Authority (ASQA), for example, sets these out for Registered Training Organisations under Standard 1.4 of the 2025 Standards, and they are a sound model for workplace verification too ([ASQA](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide))."
         },
         {
           "type": "table",
@@ -143,7 +143,11 @@
         },
         {
           "type": "p",
-          "text": "Work health and safety law in Australia, for example, requires training to be \"suitable and adequate\" having regard to the nature of the work, the risks, and the control measures ([WHS Regulations 2011 (Cth), r 39](https://www.legislation.gov.au/F2011L02664/latest/text)). For high risk work, it is hard to show training was adequate without some check that people can apply it. In the United States, the Occupational Safety and Health Administration (OSHA) goes further for forklift operators: training must include \"evaluation of the operator's performance in the workplace\", and the employer must ensure each operator \"is competent to operate a powered industrial truck safely\" ([29 CFR 1910.178(l)](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178)). See [how to set up verification of competency](/guides/how-to-set-up-verification-of-competency)."
+          "text": "In the United States, the Occupational Safety and Health Administration (OSHA) goes further for forklift operators: training must include \"evaluation of the operator's performance in the workplace\", and the employer must ensure each operator \"is competent to operate a powered industrial truck safely\" ([29 CFR 1910.178(l)](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178))."
+        },
+        {
+          "type": "p",
+          "text": "Japan's Industrial Safety and Health Act requires special education before a worker is assigned designated dangerous or harmful work ([details](/regulations/japan-industrial-safety-and-health-act-training)). For high risk work, it is hard to show training was adequate without some check that people can apply it. See [how to set up verification of competency](/guides/how-to-set-up-verification-of-competency)."
         }
       ]
     },
@@ -208,14 +212,14 @@
       "url": "https://github.com/AICC/CMI-5_Spec_Current/blob/quartz/cmi5_spec.md"
     },
     {
-      "title": "Work Health and Safety Regulations 2011 (Cth), regulation 39",
-      "publisher": "Federal Register of Legislation",
-      "url": "https://www.legislation.gov.au/F2011L02664/latest/text"
-    },
-    {
       "title": "29 CFR 1910.178 Powered industrial trucks",
       "publisher": "Occupational Safety and Health Administration (OSHA), US Department of Labor",
       "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178"
+    },
+    {
+      "title": "29 CFR 29.5 Standards of apprenticeship",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-A/part-29/section-29.5"
     }
   ],
   "related": [
@@ -240,7 +244,7 @@
     }
   ],
   "published": "2026-09-28",
-  "updated": "2026-09-28",
+  "updated": "2026-10-01",
   "release": 4,
   "factCheck": [
     {
@@ -256,12 +260,12 @@
       "source": "https://github.com/AICC/CMI-5_Spec_Current/blob/quartz/cmi5_spec.md"
     },
     {
-      "claim": "WHS Regulations r39(2): training suitable and adequate having regard to nature of work, risks, control measures",
-      "source": "https://www.legislation.gov.au/F2011L02664/latest/text"
-    },
-    {
       "claim": "29 CFR 1910.178(l)(1)(i): employer shall ensure each powered industrial truck operator is competent to operate a powered industrial truck safely; (l)(2)(ii): training includes evaluation of the operator's performance in the workplace",
       "source": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178"
+    },
+    {
+      "claim": "29 CFR 29.5(b)(2)(ii) testing and evaluation wording",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-A/part-29/section-29.5"
     }
   ]
 }

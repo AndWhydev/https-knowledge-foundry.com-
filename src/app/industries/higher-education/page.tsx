@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import {
   GraduationCap,
   BookOpen,
@@ -27,7 +28,7 @@ const capabilities = [
   {
     icon: <BookOpen className="h-5 w-5" />,
     title: "Architecture aligned to quality standards",
-    desc: "Course and unit structure aligned to institutional quality standards (US institutional accreditors, the European Standards and Guidelines, the CAA in the UAE, NIAD-QE in Japan, the Higher Education Standards Framework in Australia), with design, delivery, assessment, and monitoring encoded as framework properties, not narrative claims.",
+    desc: "Course and unit structure aligned to institutional quality standards (the European Standards and Guidelines and A3ES in Portugal, US institutional accreditors, NIAD-QE in Japan, the Higher Education Standards Framework in Australia, the CAA in the UAE), with design, delivery, assessment, and monitoring encoded as framework properties, not narrative claims.",
   },
   {
     icon: <Target className="h-5 w-5" />,
@@ -37,7 +38,7 @@ const capabilities = [
   {
     icon: <Layers3 className="h-5 w-5" />,
     title: "Progression aligned to qualification level",
-    desc: "Cognitive demand aligned to qualification framework level (the EQF, the AQF, or a national equivalent) and course learning outcomes. Progression aligned to Bloom is defined at the framework, so assessment at subject level is defensible against course level claims.",
+    desc: "Cognitive demand aligned to qualification framework level (the EQF and national frameworks such as the QNQ in Portugal, the AQF, or another national equivalent) and course learning outcomes. Progression aligned to Bloom is defined at the framework, so assessment at subject level is defensible against course level claims.",
   },
   {
     icon: <ClipboardCheck className="h-5 w-5" />,
@@ -86,11 +87,11 @@ const faq = [
   },
   {
     q: "Can the framework encode both institutional and professional accreditation outcomes?",
-    a: "Yes. Where a course carries professional accreditation (ABET or Engineers Australia for engineering, AACSB for business, the accountancy bodies, national nursing and psychology accreditors) the framework can encode accreditor competency requirements alongside institutional graduate outcomes. Coverage against both is measurable and exportable.",
+    a: "Yes. Where a course carries professional accreditation (EUR-ACE, ABET, or Engineers Australia for engineering, AACSB for business, the accountancy bodies, national nursing and psychology accreditors) the framework can encode accreditor competency requirements alongside institutional graduate outcomes. Coverage against both is measurable and exportable.",
   },
   {
     q: "How does the platform support institutional reaccreditation or course accreditation cycles?",
-    a: "Frameworks encode alignment to the applicable quality standards, whether from a US institutional accreditor, the European Standards and Guidelines, the CAA, NIAD-QE, or TEQSA, and evidence (design, delivery, assessment, monitoring) accumulates by design rather than being manufactured at cycle time. When reaccreditation approaches, the artifact you present is a framework with coverage at the level of the clause, not a defense reconstructed from disparate sources.",
+    a: "Frameworks encode alignment to the applicable quality standards, whether from the European Standards and Guidelines and A3ES, a US institutional accreditor, NIAD-QE, TEQSA, or the CAA, and evidence (design, delivery, assessment, monitoring) accumulates by design rather than being manufactured at cycle time. When reaccreditation approaches, the artifact you present is a framework with coverage at the level of the clause, not a defense reconstructed from disparate sources.",
   },
   {
     q: "Does the platform claim registration or accreditation of its own?",
@@ -188,6 +189,14 @@ export default function HigherEducationPage() {
         <p>
           When the panel arrives, the artifact you present is a framework, not a case
           reassembled from subject outlines the night before.
+        </p>
+        <p>
+          Plain language guides to instruments that often sit in scope:{" "}
+          <Link href="/regulations/gdpr-staff-training-requirements">GDPR staff training</Link>,{" "}
+          <Link href="/regulations/eu-ai-act-ai-literacy">EU AI Act AI literacy</Link>,{" "}
+          <Link href="/regulations/japan-ai-guidelines-for-business-training">the Japan AI Guidelines for Business</Link>,{" "}
+          <Link href="/regulations/teqsa-hesf-course-design-requirements">the Higher Education Standards Framework</Link>, and{" "}
+          <Link href="/regulations/aqf-levels-and-learning-outcomes">AQF levels and learning outcomes</Link>.
         </p>
       </ProseBlock>
 

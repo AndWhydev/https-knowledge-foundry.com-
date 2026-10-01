@@ -23,7 +23,19 @@
         },
         {
           "type": "p",
-          "text": "Regulators set expectations that a cluttered library makes hard to meet. Two Australian examples show the pattern. The Australian Transaction Reports and Analysis Centre (AUSTRAC) [states](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform) that AML/CTF training must be tailored to the person, their role, their responsibilities, and the relevant risks. Under the model [WHS Regulations](https://www.legislation.gov.au/F2011L02664/latest/text), training must be provided in a way that is readily understandable, so far as is reasonably practicable (regulation 39(3))."
+          "text": "Regulators set expectations that a cluttered library makes hard to meet, and examples from several markets show the same pattern."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "In the European Union, Article 12 of the [Anti-Money Laundering Regulation (AMLR)](https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng), which applies from 10 July 2027, requires specific, ongoing training programs appropriate to employees' functions and risks, and duly documented.",
+            "In the United States, the Occupational Safety and Health Administration (OSHA) [training standards policy statement](https://www.osha.gov/laws-regs/standardinterpretations/2010-04-28) says that to train or instruct means to present information in a manner employees are capable of understanding.",
+            "Australia's anti-money laundering regulator, AUSTRAC, [states](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform) that AML/CTF training must be tailored to the person, their role, their responsibilities, and the relevant risks."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A library full of generic, duplicated, or unowned items struggles to show any of these."
         },
         {
           "type": "p",
@@ -131,7 +143,7 @@
         {
           "type": "callout",
           "title": "Illustrative example, not a real case",
-          "text": "A mid sized superannuation trustee finds 14 separate privacy items across three systems. Mapping shows four serve the same outcomes for all staff, two are for a system decommissioned two years earlier, and none covers the specific handling procedure for member hardship requests, which has a documented obligation. The decision: merge four into one, retire two with archived history, fix three, keep five, and build one new item for the uncovered obligation."
+          "text": "A mid sized pension fund administrator finds 14 separate privacy items across three systems. Mapping shows four serve the same outcomes for all staff, two are for a system decommissioned two years earlier, and none covers the specific handling procedure for member hardship requests, which has a documented obligation. The decision: merge four into one, retire two with archived history, fix three, keep five, and build one new item for the uncovered obligation."
         }
       ]
     },
@@ -184,14 +196,19 @@
   ],
   "sources": [
     {
+      "title": "Regulation (EU) 2024/1624 on the prevention of the use of the financial system for the purposes of money laundering or terrorist financing (AMLR)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "title": "Training standards policy statement (April 28, 2010)",
+      "publisher": "US Occupational Safety and Health Administration",
+      "url": "https://www.osha.gov/laws-regs/standardinterpretations/2010-04-28"
+    },
+    {
       "title": "AML/CTF training (Reform)",
       "publisher": "AUSTRAC",
       "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
-    },
-    {
-      "title": "Work Health and Safety Regulations 2011",
-      "publisher": "Federal Register of Legislation",
-      "url": "https://www.legislation.gov.au/F2011L02664/latest/text"
     },
     {
       "title": "ISO 10015:2019 Quality management: Guidelines for competence management and people development",
@@ -221,12 +238,16 @@
   "release": 8,
   "factCheck": [
     {
-      "claim": "AUSTRAC: AML/CTF training must be tailored to the person, their role, responsibilities and relevant ML/TF risks.",
-      "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
+      "claim": "AMLR Article 12 requires specific, ongoing training programs for employees appropriate to functions and risks, and duly documented; Article 90: applies from 10 July 2027.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
     },
     {
-      "claim": "Model WHS Regulations r39(3): training provided in a way readily understandable by any person to whom it is provided, so far as reasonably practicable.",
-      "source": "https://www.legislation.gov.au/F2011L02664/latest/text"
+      "claim": "OSHA 2010 Training Standards Policy Statement: train or instruct means present information in a manner employees are capable of understanding.",
+      "source": "https://www.osha.gov/laws-regs/standardinterpretations/2010-04-28"
+    },
+    {
+      "claim": "AUSTRAC: AML/CTF training must be tailored to the person, their role, responsibilities and relevant ML/TF risks.",
+      "source": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
     }
   ]
 }

@@ -73,7 +73,7 @@ Schema and `llms.txt` are for correctness, not citation. Neither is a lever.
 - **E4** Change `updated` only when content materially changes.
 - **E5** Regulation pages reviewed every 6 months and immediately after regulator changes. Glossary every 12 months.
 - **E6** At 90 days, review Search Console, Bing AI Performance, and a fixed prompt panel. Improve pages with impressions but no citations. Merge or remove pages with neither.
-- **E7** Off-site: LinkedIn articles by named staff on the top guides, contributed articles in Australian industry body publications, genuine G2 and Capterra reviews, one piece of original research a year.
+- **E7** Off-site: LinkedIn articles by named staff on the top guides, contributed articles in industry body publications in each market (EU, US, Japan, Australia), genuine G2 and Capterra reviews, one piece of original research a year.
 
 ## 6. Page file format
 

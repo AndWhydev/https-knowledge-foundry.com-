@@ -83,12 +83,12 @@
         {
           "type": "ol",
           "items": [
-            "**Start from the task or obligation.** Take one task from the [training needs analysis](/guides/how-to-conduct-a-training-needs-analysis) or one requirement from the [obligation map](/guides/how-to-map-training-to-compliance-obligations). Output: a task statement in the language of the job.",
+            "**Start from the task or obligation.** Take one task from the [training needs analysis](/guides/how-to-conduct-a-training-needs-analysis) or one requirement from the [obligation map](/guides/how-to-map-training-to-compliance-obligations). Where the obligation prescribes the content, cover each prescribed item. In Japan, for example, the [Ordinance on Industrial Safety and Health](https://laws.e-gov.go.jp/law/347M50002000032) lists eight subjects for safety and health education on hiring (Article 35), so each needs at least one outcome. Output: a task statement in the language of the job.",
             "**Identify the kind of knowledge involved.** The revised taxonomy by Anderson and Krathwohl classifies objectives on two dimensions: the knowledge involved (factual, conceptual, procedural, metacognitive) and the cognitive process applied to it ([Krathwohl, 2002](https://eric.ed.gov/?id=EJ667155)). A procedure calls for procedural knowledge; a judgment about whether a rule applies calls for conceptual knowledge. Output: the knowledge type.",
             "**Choose the cognitive process level.** The six processes in the revised taxonomy run from remember and understand through apply, analyze and evaluate to create, with create placed highest ([UQ ITaLI](https://itali.uq.edu.au/files/3035/Resources-teaching-methods-learning-outcomes.pdf)). Pick the level the job actually requires. Output: a target level.",
             "**Select an observable verb for that level.** For apply: use, execute, implement, perform. For analyze: compare, examine, distinguish. For evaluate: assess, justify, appraise. Output: the verb.",
             "**Add the object, condition and standard.** Name exactly what is acted on, the situation and resources, and the success criterion. Output: a draft outcome.",
-            "**Check the level against the qualification or role.** In accredited programs, check the outcome against the level in the national qualifications framework. For example, each Australian Qualifications Framework (AQF) level describes graduates by knowledge, skills, and application of knowledge and skills in terms of autonomy, judgment and responsibility ([AQF](https://www.aqf.edu.au/framework/aqf-levels)). In workplace programs, check it against the required level in the [competency framework](/guides/how-to-build-a-competency-framework). Output: a level confirmed outcome.",
+            "**Check the level against the qualification or role.** In accredited programs, check the outcome against the level in the relevant qualifications framework. The [European Qualifications Framework (EQF)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017H0615(01)), to which national frameworks such as Portugal's are referenced, describes eight levels by learning outcomes in terms of knowledge, skills, and responsibility and autonomy. In workplace programs, check it against the required level in the [competency framework](/guides/how-to-build-a-competency-framework). Output: a level confirmed outcome.",
             "**Write the assessment item.** Draft the question, task or observation that would prove the outcome. If you cannot, rewrite the outcome. Output: an outcome with a matching assessment method, ready for the [assessment blueprint](/guides/how-to-create-an-assessment-blueprint)."
           ]
         }
@@ -195,9 +195,14 @@
       "url": "https://itali.uq.edu.au/files/3035/Resources-teaching-methods-learning-outcomes.pdf"
     },
     {
-      "title": "AQF levels",
-      "publisher": "Australian Qualifications Framework",
-      "url": "https://www.aqf.edu.au/framework/aqf-levels"
+      "title": "Council Recommendation of 22 May 2017 on the European Qualifications Framework for lifelong learning",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017H0615(01)"
+    },
+    {
+      "title": "Ordinance on Industrial Safety and Health",
+      "publisher": "e-Gov Laws, Digital Agency of Japan",
+      "url": "https://laws.e-gov.go.jp/law/347M50002000032"
     }
   ],
   "related": [
@@ -231,8 +236,12 @@
       "source": "https://eric.ed.gov/?id=EJ667155"
     },
     {
-      "claim": "AQF expresses outcomes as knowledge, skills and application of knowledge and skills, the latter in terms of autonomy, judgement and responsibility",
-      "source": "https://www.aqf.edu.au/framework/aqf-levels"
+      "claim": "The EQF Recommendation sets eight reference levels described in terms of learning outcomes (knowledge, skills, responsibility and autonomy) and invites Member States to reference their national qualifications frameworks to it.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017H0615(01)"
+    },
+    {
+      "claim": "Ordinance on Industrial Safety and Health Article 35 lists eight hiring education items.",
+      "source": "https://laws.e-gov.go.jp/law/347M50002000032"
     }
   ]
 }

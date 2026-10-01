@@ -29,7 +29,7 @@ const industries = [
   {
     icon: <Banknote className="h-5 w-5" />,
     title: "Financial services",
-    desc: "Prudential, conduct, and licensing obligations (SEC and FINRA, CBUAE and DFSA, the Japan FSA, DORA, APRA) and product knowledge for regulated roles. Program evidence structured against the standard, not adjacent to it.",
+    desc: "Prudential, conduct, and licensing obligations (DORA, the SEC and FINRA, the Japan FSA, APRA, the CBUAE and DFSA) and product knowledge for regulated roles. Program evidence structured against the standard, not adjacent to it.",
   },
   {
     icon: <HeartPulse className="h-5 w-5" />,
@@ -44,7 +44,7 @@ const industries = [
   {
     icon: <ShieldCheck className="h-5 w-5" />,
     title: "Government & defense",
-    desc: "Cleared workforce enablement, alignment to NIST, NIS2, and national security frameworks, and auditable evidence for training that must survive external scrutiny.",
+    desc: "Cleared workforce enablement, alignment to NIS2, NIST, ISMAP, the ISM, and other national security frameworks, and auditable evidence for training that must survive external scrutiny.",
   },
   {
     icon: <Briefcase className="h-5 w-5" />,
@@ -151,6 +151,11 @@ export default function IndustriesIndexPage() {
           The Foundry treats each regulatory regime as a source of structural requirements. The
           framework encodes what must be trained, verified, and evidenced. Instruction is
           downstream. The result is a program that defends itself against the standard.
+        </p>
+        <p>
+          The discipline is the same whether the regime is Portuguese, European, American,
+          Japanese, or Australian. Each customer&rsquo;s data is held in the region it chooses,
+          in Europe, the United States, Japan, or Australia.
         </p>
       </ProseBlock>
 

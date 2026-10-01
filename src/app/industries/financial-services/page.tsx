@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import {
   Banknote,
   Scale,
@@ -27,12 +28,12 @@ const capabilities = [
   {
     icon: <Scale className="h-5 w-5" />,
     title: "Frameworks aligned to ICT resilience",
-    desc: "Information security training and role responsibilities mapped to the clauses of DORA, the NYDFS Cybersecurity Regulation, APRA CPS 234, and comparable regimes, from asset identification through incident response, with evidence surfaced per role.",
+    desc: "Information security training and role responsibilities mapped to the clauses of DORA, the NYDFS Cybersecurity Regulation, the Japan FSA cybersecurity guidelines, APRA CPS 234, and comparable regimes, from asset identification through incident response, with evidence surfaced per role.",
   },
   {
     icon: <UserCog className="h-5 w-5" />,
     title: "Competency structure for licensed roles",
-    desc: "Product knowledge for licensed roles structured against qualification regimes such as FINRA registration and continuing education, the MiFID II knowledge and competence guidelines, and ASIC RG146. Progression, assessment, and continuing training are traceable to the specific competency each role must demonstrate.",
+    desc: "Product knowledge for licensed roles structured against qualification regimes such as the MiFID II knowledge and competence guidelines, FINRA registration and continuing education, JSDA sales representative qualifications in Japan, and ASIC RG146. Progression, assessment, and continuing training are traceable to the specific competency each role must demonstrate.",
   },
   {
     icon: <Banknote className="h-5 w-5" />,
@@ -82,11 +83,11 @@ const steps = [
 const faq = [
   {
     q: "How does this help us with an information security attestation?",
-    a: "Regimes such as DORA, the NYDFS Cybersecurity Regulation, and APRA CPS 234 expect staff in specified roles to be trained and capable of fulfilling their information security responsibilities. The framework encodes those responsibilities per role, produces training and assessment against them, and evidences competency at the individual level. When senior management or the board signs an annual certification or attestation, the underlying evidence is a structured artifact, not a promise from L&D.",
+    a: "Regimes such as DORA, the NYDFS Cybersecurity Regulation, the Japan FSA cybersecurity guidelines, and APRA CPS 234 expect staff in specified roles to be trained and capable of fulfilling their information security responsibilities. The framework encodes those responsibilities per role, produces training and assessment against them, and evidences competency at the individual level. When senior management or the board signs an annual certification or attestation, the underlying evidence is a structured artifact, not a promise from L&D.",
   },
   {
     q: "Can you support initial and continuing competency across licensed roles and product tiers?",
-    a: "Yes. The framework can encode qualification and continuing education requirements per product category and per role, whether they come from FINRA, the MiFID II guidelines, the DFSA, or ASIC. Initial competency, ongoing CPD, and knowledge refresh for product changes all draw from the same framework, and evidence is exportable in the format your registration or licensing compliance function requires.",
+    a: "Yes. The framework can encode qualification and continuing education requirements per product category and per role, whether they come from the MiFID II guidelines, FINRA, the JSDA, ASIC, or the DFSA. Initial competency, ongoing CPD, and knowledge refresh for product changes all draw from the same framework, and evidence is exportable in the format your registration or licensing compliance function requires.",
   },
   {
     q: "We are subject to overlapping regimes: prudential, conduct, exchange rules, and internal risk policy. How does the platform handle that?",
@@ -94,7 +95,7 @@ const faq = [
   },
   {
     q: "Do you make claims about certification by financial regulators?",
-    a: "No. The Foundry produces evidence structured against the instruments of regulators such as the SEC, FINRA, the CBUAE, the DFSA, the Japan FSA, and APRA. It does not represent itself as certified or approved by any of them. Technical security posture and deployment considerations are covered in the Technical Overview, and supplier due diligence is expected as part of enterprise engagement.",
+    a: "No. The Foundry produces evidence structured against the instruments of regulators such as the ECB, Banco de Portugal and the CMVM, the SEC and FINRA, the Japan FSA, APRA and ASIC, the CBUAE, and the DFSA. It does not represent itself as certified or approved by any of them. Technical security posture and deployment considerations are covered in the Technical Overview, and supplier due diligence is expected as part of enterprise engagement.",
   },
   {
     q: "Where does this sit alongside our existing LMS and HRIS?",
@@ -147,7 +148,7 @@ export default function FinancialServicesPage() {
         title="Prudential expectation is rising. Slide decks are not."
       >
         <p>
-          Supervisors in the United States, the European Union, the UAE, Japan, and Australia
+          Supervisors in the European Union, the United States, Japan, Australia, and the UAE
           increasingly expect individual accountability, information security capability, and
           operational resilience training to be evidenced at the individual level, not attested
           to at the enterprise level and left there. Supervision of licensed competence, product
@@ -189,6 +190,16 @@ export default function FinancialServicesPage() {
           When the board is asked to attest, the underlying artifact is not a completion report.
           It is a framework, a coverage map, an assessment record, and a sign off chain. All
           exportable, all defensible.
+        </p>
+        <p>
+          Plain language guides to instruments that often sit in scope:{" "}
+          <Link href="/regulations/dora-ict-security-awareness-training">DORA ICT security awareness</Link>,{" "}
+          <Link href="/regulations/portugal-aml-law-training-requirements">AML training under Portuguese Law 83/2017</Link>,{" "}
+          <Link href="/regulations/finra-continuing-education-requirements">FINRA continuing education</Link>,{" "}
+          <Link href="/regulations/bsa-aml-training-requirements">Bank Secrecy Act AML training</Link>,{" "}
+          <Link href="/regulations/japan-fsa-aml-cft-guidelines-training">the Japan FSA AML/CFT guidelines</Link>,{" "}
+          <Link href="/regulations/apra-cps-234-security-awareness-training">APRA CPS 234</Link>, and{" "}
+          <Link href="/regulations/asic-rg-146-training-requirements">ASIC RG 146</Link>.
         </p>
       </ProseBlock>
 

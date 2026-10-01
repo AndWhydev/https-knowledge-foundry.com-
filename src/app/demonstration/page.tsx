@@ -145,7 +145,7 @@ export default function DemonstrationPage() {
               <FileText className="h-4 w-4 mt-0.5 shrink-0 text-[color:var(--color-ink-faint)]" aria-hidden />
               <div>
                 <div className="text-[color:var(--color-ink)] font-semibold text-[13px] uppercase tracking-[0.08em] font-[family-name:var(--font-jetbrains)] mb-2">
-                  Collection notice (Australian Privacy Principle 5)
+                  Collection notice
                 </div>
                 <p>
                   {site.legal.entity} collects the information above to schedule
@@ -195,9 +195,9 @@ export default function DemonstrationPage() {
                 One business day
               </div>
               <p className="text-[13.5px] leading-[1.6] text-[color:var(--color-ink-muted)] mt-3">
-                Inquiries received on Australian Eastern business days are replied to by close of
-                the next business day. Weekend and public holiday inquiries roll to the next
-                business day.
+                Inquiries are routed to the team covering your region and replied to by close of
+                the next business day in your time zone. Weekend and public holiday inquiries
+                roll to the next business day.
               </p>
             </div>
           </div>

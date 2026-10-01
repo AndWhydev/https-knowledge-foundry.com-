@@ -37,7 +37,7 @@ const standards: { heading: string; body: string }[] = [
   },
   {
     heading: "Corrections",
-    body: "If you find an error, email hello@knowledge-foundry.com with the page address and the correction. Material corrections are made promptly and the page's updated date changes to match.",
+    body: "If you find an error, email contact@knowledge-foundry.com with the page address and the correction. Material corrections are made promptly and the page's updated date changes to match.",
   },
 ];
 

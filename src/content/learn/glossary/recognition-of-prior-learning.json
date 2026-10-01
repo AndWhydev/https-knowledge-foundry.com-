@@ -4,11 +4,11 @@
   "title": "What is recognition of prior learning?",
   "seoTitle": "Recognition of prior learning (RPL)",
   "description": "Recognition of prior learning (RPL) assesses existing skills and experience for credit toward a qualification. How it works, evidence rules, an example.",
-  "shortAnswer": "A recognition of prior learning (RPL) assessment is the process of assessing the skills and knowledge a person has already gained, through formal study, work or life experience, against the requirements of a qualification or unit, and granting credit for what they can prove. Qualification frameworks such as Australia's treat RPL as an assessment that must meet the same standard as any other assessment.",
+  "shortAnswer": "A recognition of prior learning (RPL) assessment is the process of assessing the skills and knowledge a person has already gained, through formal study, work or life experience, against the requirements of a qualification or unit, and granting credit for what they can prove. European countries call it validation of non-formal and informal learning. Qualification frameworks treat RPL as an assessment that must meet the same standard as any other.",
   "keyTakeaways": [
-    "The AQF defines RPL as an assessment process covering formal, informal and non-formal learning to determine credit outcomes.",
+    "Definitions converge: Cedefop describes validation as identifying, documenting, assessing and certifying learning, and qualification frameworks such as the AQF define RPL as an assessment of formal, informal and non-formal learning to determine credit.",
     "RPL is an assessment, not an exemption: evidence must be valid, sufficient, authentic and current.",
-    "Under the 2025 Standards for RTOs, Standard 1.6 requires providers to offer RPL and make decisions in line with their assessment system.",
+    "Vocational rules can make it mandatory: US Registered Apprenticeship standards require advanced standing or credit for demonstrated competency, granted to all applicants equally.",
     "Credit transfer is different: it recognizes completed equivalent units or qualifications without reassessing the person."
   ],
   "term": "recognition of prior learning",
@@ -23,11 +23,15 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Many national qualification systems recognize prior learning. The Australian Qualifications Framework (AQF) is a well documented example: its [glossary](https://www.aqf.edu.au/publication/aqf-glossary) defines RPL as \"an assessment process that involves assessment of an individual's relevant prior learning (including formal, informal and non-formal learning) to determine the credit outcomes of an individual application for credit.\" Credit, in the same glossary, reduces the amount of learning required to achieve a qualification."
+          "text": "Many national and regional qualification systems recognize prior learning, under different names. In the European Union it is called validation of non-formal and informal learning. The European Centre for the Development of Vocational Training ([Cedefop](https://www.cedefop.europa.eu/en/projects/validation-non-formal-and-informal-learning)) describes systems that allow individuals to \"identify, document, assess and certify\" all forms of learning, and notes that the 2012 Council Recommendation on validation encourages Member States to put national validation arrangements in place."
         },
         {
           "type": "p",
-          "text": "The Australian Qualifications Framework Council's [explanation of RPL](https://www.aqf.edu.au/download/425/recognition-prior-learning/19/recognition-prior-learning/pdf) says RPL assessment should be the same standard as other assessment for the qualification, should recognize learning regardless of how, when and where it was acquired, and must ensure evidence is valid, authentic, current and sufficient."
+          "text": "The Australian Qualifications Framework (AQF) is a well documented example of the assessment view. Its [glossary](https://www.aqf.edu.au/publication/aqf-glossary) defines RPL as \"an assessment process that involves assessment of an individual's relevant prior learning (including formal, informal and non-formal learning) to determine the credit outcomes of an individual application for credit.\" Credit, in the same glossary, reduces the amount of learning required to achieve a qualification."
+        },
+        {
+          "type": "p",
+          "text": "The AQF Council's [explanation of RPL](https://www.aqf.edu.au/download/425/recognition-prior-learning/19/recognition-prior-learning/pdf) says RPL assessment should be the same standard as other assessment for the qualification, should recognize learning regardless of how, when and where it was acquired, and must ensure evidence is valid, authentic, current and sufficient."
         }
       ]
     },
@@ -37,7 +41,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The RPL process works by matching a person's evidence to the requirements of a unit or qualification, testing that evidence, and filling any gaps with training. The AQF explanation lists typical stages:"
+          "text": "The RPL process works by matching a person's evidence to the requirements of a unit or qualification, testing that evidence, and filling any gaps with training. The AQF Council's explanation lists typical stages, which broadly follow the identify, document, assess and certify sequence Cedefop describes:"
         },
         {
           "type": "ol",
@@ -57,16 +61,12 @@
       ]
     },
     {
-      "id": "rto-standards",
-      "heading": "What do Australia's 2025 Standards for RTOs require for RPL?",
+      "id": "vocational-standards",
+      "heading": "What do vocational training standards require for RPL?",
       "blocks": [
         {
           "type": "p",
-          "text": "Standard 1.6 of the 2025 Standards for RTOs requires Registered Training Organisations to offer RPL, base decisions on evidence under their assessment system, and document decisions fairly, transparently and consistently. The Australian Skills Quality Authority (ASQA) [RPL and credit transfer practice guide](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/RPL-and-credit-transfer-practice-guide) expects RPL to be applied \"with the same rigour\" as other assessment and to meet the principles of assessment and rules of evidence in Standard 1.4."
-        },
-        {
-          "type": "p",
-          "text": "ASQA lists known risks, including promoting RPL as an easy, quick or guaranteed path to a qualification, failing to verify that evidence is authentic, not testing evidence for currency, and automatically granting RPL to someone who holds a higher AQF level qualification in the same industry. Standard 1.7 separately covers credit transfer. The wider requirements are summarized in [Standards for RTOs 2025: training and assessment](/regulations/standards-for-rtos-2025-training-and-assessment)."
+          "text": "Regulated vocational systems turn RPL from good practice into a rule. In the United States, federal standards for Registered Apprenticeship require program standards to provide for \"the granting of advanced standing or credit for demonstrated competency, acquired experience, training, or skills for all applicants equally\", with commensurate wages for any progression step granted ([29 CFR 29.5(b)(12)](https://www.ecfr.gov/current/title-29/subtitle-A/part-29/section-29.5))."
         }
       ]
     },
@@ -145,7 +145,7 @@
   "faqs": [
     {
       "q": "Is RPL easier than doing the course?",
-      "a": "It should not be. RPL removes unnecessary training, not assessment. ASQA identifies promoting RPL as an easy, quick or guaranteed path to a qualification as a known risk to quality outcomes, and expects RPL to meet the same principles of assessment and rules of evidence as other assessment."
+      "a": "It should not be. RPL removes unnecessary training, not assessment. The AQF Council's explanation says RPL assessment should be the same standard as other assessment for the qualification, with evidence that is valid, authentic, current and sufficient."
     },
     {
       "q": "What counts as evidence for RPL?",
@@ -153,11 +153,11 @@
     },
     {
       "q": "Can a workplace use RPL for internal training?",
-      "a": "Yes, in principle. An employer can recognize existing competence against its own competency framework and skip training that is not needed. The result is not nationally recognized unless it is assessed by a Registered Training Organisation against a nationally endorsed unit, but the same evidence principles make the decision defensible."
+      "a": "Yes, in principle. An employer can recognize existing competence against its own competency framework and skip training that is not needed. The result is not a formal qualification unless a body authorized to award one assesses it against the official standard, but the same evidence principles make the decision defensible."
     },
     {
       "q": "Does RPL apply in higher education?",
-      "a": "Yes. The AQF definition applies across all sectors, and universities and other higher education providers grant credit or advanced standing on the basis of prior learning. Each provider sets its own policy and must maintain the integrity of qualification outcomes."
+      "a": "Yes. The AQF definition applies across all sectors, and the European [Standards and Guidelines for Quality Assurance](https://www.enqa.eu/wp-content/uploads/2015/11/ESG_2015.pdf) describe fair recognition of prior learning, \"including the recognition of non-formal and informal learning\", as essential to student progression. Universities and other higher education providers grant credit or advanced standing on the basis of prior learning. Each provider sets its own policy and must maintain the integrity of qualification outcomes."
     }
   ],
   "sources": [
@@ -172,14 +172,19 @@
       "url": "https://www.aqf.edu.au/download/425/recognition-prior-learning/19/recognition-prior-learning/pdf"
     },
     {
-      "title": "RPL and Credit Transfer Practice Guide",
-      "publisher": "Australian Skills Quality Authority",
-      "url": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/RPL-and-credit-transfer-practice-guide"
+      "title": "Validation of non-formal and informal learning",
+      "publisher": "European Centre for the Development of Vocational Training (Cedefop)",
+      "url": "https://www.cedefop.europa.eu/en/projects/validation-non-formal-and-informal-learning"
     },
     {
-      "title": "Standards for RTOs",
-      "publisher": "Australian Skills Quality Authority",
-      "url": "https://www.asqa.gov.au/for-providers/standards-for-RTOs"
+      "title": "29 CFR 29.5 Standards of apprenticeship",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-A/part-29/section-29.5"
+    },
+    {
+      "title": "Standards and Guidelines for Quality Assurance in the European Higher Education Area (ESG 2015)",
+      "publisher": "ENQA, ESU, EUA and EURASHE",
+      "url": "https://www.enqa.eu/wp-content/uploads/2015/11/ESG_2015.pdf"
     }
   ],
   "related": [
@@ -200,7 +205,7 @@
     }
   ],
   "published": "2026-09-28",
-  "updated": "2026-09-28",
+  "updated": "2026-10-01",
   "release": 5,
   "factCheck": [
     {
@@ -212,12 +217,16 @@
       "source": "https://www.aqf.edu.au/download/425/recognition-prior-learning/19/recognition-prior-learning/pdf"
     },
     {
-      "claim": "Standard 1.6 covers RPL; Standard 1.7 covers credit transfer; ASQA expects RPL applied with the same rigour and meeting Standard 1.4",
-      "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/RPL-and-credit-transfer-practice-guide"
+      "claim": "Cedefop: countries need systems that allow individuals to identify, document, assess and certify (validate) all forms of learning; the 2012 Council Recommendation on validation encourages Member States to put in place national arrangements for validation",
+      "source": "https://www.cedefop.europa.eu/en/projects/validation-non-formal-and-informal-learning"
     },
     {
-      "claim": "ASQA known risks: promoting RPL as easy, quick or guaranteed; failing to verify authenticity; automatically granting RPL for higher AQF level qualification; overseas evidence not mapped to Australian WHS law",
-      "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/RPL-and-credit-transfer-practice-guide"
+      "claim": "29 CFR 29.5(b)(12): granting of advanced standing or credit for demonstrated competency, acquired experience, training, or skills for all applicants equally, with commensurate wages for any progression step so granted",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-A/part-29/section-29.5"
+    },
+    {
+      "claim": "ESG 2015 guidelines to standard 1.4: fair recognition of prior learning, including recognition of non-formal and informal learning, essential for student progress",
+      "source": "https://www.enqa.eu/wp-content/uploads/2015/11/ESG_2015.pdf"
     }
   ]
 }

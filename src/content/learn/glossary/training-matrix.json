@@ -68,7 +68,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Regulated organizations use training matrices because regulators and accreditation schemes expect a system that defines who needs what competence and records that it is held. For example, Australia's Office of the Federal Safety Commissioner [mobile plant fact sheet](https://www.fsc.gov.au/sites/default/files/2021-09/Fact%20Sheet%20Verification%20of%20Competency%20-%20Mobile%20Plant.pdf) states that audit criterion H16.8 \"specifically requires a system to be in place to define the competency requirements for the operation of mobile plant\", which may combine licenses, RTO training and verification of competency."
+          "text": "Regulated organizations use training matrices because regulators and accreditation schemes expect a system that defines who needs what competence and records that it is held. In the United States, many OSHA standards require training records: the bloodborne pathogens standard, for example, requires records of dates, content, trainer names and qualifications, and attendees, kept for three years ([29 CFR 1910.1030](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030)). In Japan, records of special education under the Industrial Safety and Health Act must be kept for three years ([details](/regulations/japan-industrial-safety-and-health-act-training))."
+        },
+        {
+          "type": "p",
+          "text": "In Australia, the Office of the Federal Safety Commissioner [mobile plant fact sheet](https://www.fsc.gov.au/sites/default/files/2021-09/Fact%20Sheet%20Verification%20of%20Competency%20-%20Mobile%20Plant.pdf) states that audit criterion H16.8 \"specifically requires a system to be in place to define the competency requirements for the operation of mobile plant\", which may combine licenses, accredited training and verification of competency."
         },
         {
           "type": "p",
@@ -180,6 +184,11 @@
       "title": "Operating mobile plant verification of competency (VOC)",
       "publisher": "NSW Resources Regulator",
       "url": "https://www.resources.nsw.gov.au/sites/default/files/2024-05/operating-mobile-plant-verification-of-competency.pdf"
+    },
+    {
+      "title": "29 CFR 1910.1030 Bloodborne pathogens",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030"
     }
   ],
   "related": [
@@ -201,7 +210,7 @@
     }
   ],
   "published": "2026-09-28",
-  "updated": "2026-09-28",
+  "updated": "2026-10-01",
   "release": 8,
   "factCheck": [
     {
@@ -211,6 +220,14 @@
     {
       "claim": "NSW Resources Regulator cites WHS (Mines and Petroleum Sites) Regulation 2022 section 107 duty to provide information, training and instruction and section 111 record of training",
       "source": "https://www.resources.nsw.gov.au/sites/default/files/2024-05/operating-mobile-plant-verification-of-competency.pdf"
+    },
+    {
+      "claim": "29 CFR 1910.1030(h)(2): training records include dates, contents or summary, names and qualifications of trainers, names and job titles of attendees; kept 3 years",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030"
+    },
+    {
+      "claim": "ISHA Ordinance article 38: special education records kept 3 years",
+      "source": "https://laws.e-gov.go.jp/law/347M50002000032"
     }
   ]
 }

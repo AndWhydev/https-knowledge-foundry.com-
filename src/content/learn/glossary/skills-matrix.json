@@ -69,11 +69,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Skills matrices are a local, team level tool, but the skill definitions can draw on national frameworks. In Australia, for example, units of competency on [training.gov.au](https://training.gov.au) provide nationally endorsed descriptions of technical tasks. The Department of Employment and Workplace Relations [Training Package Organizing Framework](https://www.dewr.gov.au/download/16680/training-package-organising-framework-effective-1-july-2025/39042/training-package-organising-framework/pdf) describes how units specify skills and knowledge required to perform effectively in the workplace."
-        },
-        {
-          "type": "p",
-          "text": "National classifications of cross occupation skills also change. Jobs and Skills Australia, for example, decommissioned the [Australian Skills Classification](https://www.jobsandskills.gov.au/data/australian-skills-classification) in December 2023 and is developing a [National Skills Taxonomy](https://www.jobsandskills.gov.au/data/national-skills-taxonomy), described as a common language for describing the skills people gain and use across education and employment. Organizations that labeled matrix skills using the old classification should note the change."
+          "text": "Skills matrices are a local, team level tool, but the skill definitions can draw on national and regional frameworks. In the European Union, the European Commission's [ESCO classification](https://esco.ec.europa.eu/en/about-esco/what-esco) describes and classifies occupations and skills relevant for the EU labor market and education and training. In the United States, [O*NET](https://www.onetcenter.org/overview.html), sponsored by the Department of Labor's Employment and Training Administration, describes itself as \"the nation's primary source of occupational information\"."
         }
       ]
     },
@@ -187,24 +183,14 @@
   ],
   "sources": [
     {
-      "title": "Training Package Organising Framework: Date of Effect 1 July 2025",
-      "publisher": "Department of Employment and Workplace Relations",
-      "url": "https://www.dewr.gov.au/download/16680/training-package-organising-framework-effective-1-july-2025/39042/training-package-organising-framework/pdf"
+      "title": "What is ESCO",
+      "publisher": "European Commission",
+      "url": "https://esco.ec.europa.eu/en/about-esco/what-esco"
     },
     {
-      "title": "Australian Skills Classification",
-      "publisher": "Jobs and Skills Australia",
-      "url": "https://www.jobsandskills.gov.au/data/australian-skills-classification"
-    },
-    {
-      "title": "National Skills Taxonomy",
-      "publisher": "Jobs and Skills Australia",
-      "url": "https://www.jobsandskills.gov.au/data/national-skills-taxonomy"
-    },
-    {
-      "title": "training.gov.au: National Register of VET",
-      "publisher": "Australian Government",
-      "url": "https://training.gov.au"
+      "title": "O*NET Program overview",
+      "publisher": "O*NET Resource Center, sponsored by the U.S. Department of Labor, Employment and Training Administration",
+      "url": "https://www.onetcenter.org/overview.html"
     }
   ],
   "related": [
@@ -225,20 +211,12 @@
     }
   ],
   "published": "2026-09-28",
-  "updated": "2026-09-28",
+  "updated": "2026-10-01",
   "release": 7,
   "factCheck": [
     {
-      "claim": "Australian Skills Classification decommissioned by JSA in December 2023, removed from website January 2025; JSA developing a National Skills Taxonomy",
-      "source": "https://www.jobsandskills.gov.au/data/australian-skills-classification"
-    },
-    {
-      "claim": "National Skills Taxonomy described as a common language for describing skills Australians gain, develop and use across education and employment",
-      "source": "https://www.jobsandskills.gov.au/data/national-skills-taxonomy"
-    },
-    {
-      "claim": "Training packages specify the knowledge and skills required to perform effectively in the workplace, expressed in units of competency",
-      "source": "https://www.dewr.gov.au/download/16680/training-package-organising-framework-effective-1-july-2025/39042/training-package-organising-framework/pdf"
+      "claim": "ESCO and O*NET descriptions",
+      "source": "https://esco.ec.europa.eu/en/about-esco/what-esco ; https://www.onetcenter.org/overview.html"
     }
   ]
 }

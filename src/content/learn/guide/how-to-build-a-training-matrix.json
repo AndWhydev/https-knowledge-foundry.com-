@@ -27,7 +27,16 @@
         },
         {
           "type": "p",
-          "text": "Regulators expect this kind of record. For example, Australia's AUSTRAC expects reporting entities to use a register to record training completion dates and track when further training is due ([AUSTRAC](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform)). The US Occupational Safety and Health Administration (OSHA) Bloodborne Pathogens standard requires training records to include the names and job titles of all persons trained, the dates, and the contents or a summary of the sessions ([29 CFR 1910.1030(h)(2)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030)). ISO 9001:2015 clause 7.2(d) requires organizations to retain appropriate documented information as evidence of competence ([ISO and IAF](https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf))."
+          "text": "Regulators in several markets expect this kind of record."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "In Portugal, the anti-money laundering law (Law 83/2017) requires training records to be kept and made available to the sectoral supervisory authorities (Article 55(5)) ([Diário da República](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643)), and Banco de Portugal Notice 1/2022 sets minimum fields for those records (Article 53) ([Diário da República](https://diariodarepublica.pt/dr/detalhe/aviso-banco-portugal/1-2022-184434622)).",
+            "Australia's anti-money laundering regulator, AUSTRAC, expects reporting entities to use a register to record training completion dates and track when further training is due ([AUSTRAC](https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform)).",
+            "The US Occupational Safety and Health Administration (OSHA) Bloodborne Pathogens standard requires training records to include the names and job titles of all persons trained, the dates, and the contents or a summary of the sessions ([29 CFR 1910.1030(h)(2)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030)).",
+            "ISO 9001:2015 clause 7.2(d) requires organizations to retain appropriate documented information as evidence of competence ([ISO and IAF](https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf))."
+          ]
         }
       ]
     },
@@ -88,7 +97,7 @@
               "Within first week; annually"
             ],
             [
-              "High risk work license (forklift)",
+              "Forklift operator license or certification",
               "Current license sighted and copy held",
               "Not applicable",
               "Before operating; track license expiry",
@@ -146,7 +155,18 @@
         },
         {
           "type": "p",
-          "text": "Safe Work Australia guidance notes that workers who operate high risk equipment such as a forklift need formal training and assessment, while other workers may need only informal on the job training ([guidance](https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work)). The matrix records that difference in its evidence rules."
+          "text": "Forklift operation shows why evidence rules differ by requirement."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "In the United States, OSHA requires powered industrial truck operators to be evaluated at least once every three years and the employer to certify that each operator has been trained and evaluated ([29 CFR 1910.178(l)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178)).",
+            "In Japan, operating a forklift with a maximum load of 1 ton or more is listed in Article 20 of the Industrial Safety and Health Act Enforcement Order as work restricted to licensed or trained operators ([e-Gov](https://laws.e-gov.go.jp/law/347CO0000000318))."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The matrix records these differences in its evidence rules, so each cell shows the evidence its source actually requires."
         }
       ]
     },
@@ -215,6 +235,16 @@
   ],
   "sources": [
     {
+      "title": "Law 83/2017 (consolidated), measures to combat money laundering and terrorist financing",
+      "publisher": "Diário da República",
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"
+    },
+    {
+      "title": "Banco de Portugal Notice 1/2022",
+      "publisher": "Diário da República",
+      "url": "https://diariodarepublica.pt/dr/detalhe/aviso-banco-portugal/1-2022-184434622"
+    },
+    {
       "title": "AML/CTF training",
       "publisher": "AUSTRAC",
       "url": "https://www.austrac.gov.au/about-us/amlctf-reform/reforms-guidance/amlctf-program-reform/personnel-due-diligence-and-training-reform/amlctf-training-reform"
@@ -225,14 +255,19 @@
       "url": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf"
     },
     {
-      "title": "Training and supporting your workers to stay safe at work",
-      "publisher": "Safe Work Australia",
-      "url": "https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work"
-    },
-    {
       "title": "29 CFR 1910.1030 Bloodborne pathogens",
       "publisher": "US Occupational Safety and Health Administration (eCFR)",
       "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030"
+    },
+    {
+      "title": "29 CFR 1910.178 Powered industrial trucks",
+      "publisher": "US Occupational Safety and Health Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+    },
+    {
+      "title": "Industrial Safety and Health Act Enforcement Order (Cabinet Order No. 318 of 1972)",
+      "publisher": "e-Gov Japan",
+      "url": "https://laws.e-gov.go.jp/law/347CO0000000318"
     }
   ],
   "related": [
@@ -266,12 +301,24 @@
       "source": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf"
     },
     {
-      "claim": "Safe Work Australia: workers operating high risk equipment such as a forklift need formal training and assessment; others may need informal on the job training",
-      "source": "https://www.safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/training-and-supporting-your-workers-stay-safe-work"
-    },
-    {
       "claim": "29 CFR 1910.1030(h)(2): training records shall include dates of sessions, contents or a summary, names and qualifications of persons conducting the training, and names and job titles of attendees; maintained for 3 years from the date of training.",
       "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030"
+    },
+    {
+      "claim": "Law 83/2017 Article 55(5): training records kept under Article 51 and available to sectoral authorities.",
+      "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"
+    },
+    {
+      "claim": "Banco de Portugal Notice 1/2022 Article 53 sets training policy content, new joiner content and minimum training record fields.",
+      "source": "https://diariodarepublica.pt/dr/detalhe/aviso-banco-portugal/1-2022-184434622"
+    },
+    {
+      "claim": "29 CFR 1910.178(l)(4): evaluation of each operator at least once every three years; (l)(6): employer certifies each operator has been trained and evaluated.",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+    },
+    {
+      "claim": "Industrial Safety and Health Act Enforcement Order Article 20 lists restricted work including forklifts with a maximum load of 1 ton or more (work under Act Article 61).",
+      "source": "https://laws.e-gov.go.jp/law/347CO0000000318"
     }
   ]
 }

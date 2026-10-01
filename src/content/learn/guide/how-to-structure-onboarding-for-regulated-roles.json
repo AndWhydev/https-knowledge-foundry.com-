@@ -6,7 +6,7 @@
   "description": "How to structure onboarding for regulated roles: phase it by what the person may do, gate independent work on assessed competence, and record each step.",
   "shortAnswer": "Structure onboarding for regulated roles around what the person is allowed to do and when. Complete induction obligations that apply at engagement before or on the first day, then teach and assess role specific competence before the person works without supervision, and record each step as an authorization with evidence. Keep new starters under defined supervision until sign off, and apply the same structure to contractors, transfers, and promotions into regulated roles.",
   "keyTakeaways": [
-    "Some frameworks attach training to the start of engagement, such as security awareness at engagement under Australia's Protective Security Policy Framework (PSPF) and bloodborne pathogens training at initial assignment under the US OSHA standard.",
+    "Some frameworks attach training to the start of engagement, such as bloodborne pathogens training at initial assignment under the US Occupational Safety and Health Administration (OSHA) standard, safety and health education on hiring under Japan's Industrial Safety and Health Act, and training on recruitment under the EU OSH Framework Directive.",
     "Regulated onboarding is a sequence of authorizations: what a person may access, do under supervision, and do alone. Each needs evidence.",
     "Gate independent work on assessed competence, not on completion of modules or elapsed time.",
     "Define supervision for the period before sign off. Untrained people doing regulated work unsupervised is the core risk onboarding exists to control.",
@@ -45,30 +45,35 @@
           ],
           "rows": [
             [
-              "Protective Security Policy Framework Release 2026 (Australia), Requirement 0024",
-              "Commonwealth entities that apply the PSPF",
-              "Security awareness training is provided to personnel, including contractors, at engagement and annually thereafter"
-            ],
-            [
               "OSHA Bloodborne Pathogens standard (United States), 29 CFR 1910.1030(g)(2)(ii)(A)",
               "Employers of employees with occupational exposure to blood or other potentially infectious materials",
               "Training is provided at the time of initial assignment to tasks where occupational exposure may take place"
             ],
             [
-              "AUSTRAC guidance on AML/CTF training",
-              "Reporting entities under the AML/CTF Act",
-              "Gives examples only, including general awareness training at onboarding for personnel not in AML/CTF relevant roles and training for third party vendors when onboarded"
+              "Industrial Safety and Health Act (Japan), Article 59(1)",
+              "Employers of workers in Japan, across all industries",
+              "Safety or health education for the work is given on hiring, and again under Article 59(2) when work content changes; the Ordinance on Industrial Safety and Health lists the topics and requires delivery without delay"
+            ],
+            [
+              "OSH Framework Directive 89/391/EEC (European Union), Article 12(1), as applied in each Member State such as Portugal's Law 102/2009",
+              "Employers of workers in EU Member States",
+              "Adequate safety and health training is given on recruitment, on a transfer or change of job, and on the introduction of new equipment or technology"
             ],
             [
               "PIC/S Guide to GMP, Part I, clause 2.11",
               "Medicines manufacturers where the regulator applies the PIC/S Guide",
               "Newly recruited personnel should receive training appropriate to the duties assigned to them"
+            ],
+            [
+              "Protective Security Policy Framework Release 2026 (Australia), Requirement 0024",
+              "Commonwealth entities that apply the PSPF",
+              "Security awareness training is provided to personnel, including contractors, at engagement and annually thereafter"
             ]
           ]
         },
         {
           "type": "p",
-          "text": "Sources: [PSPF Release 2026](https://www.protectivesecurity.gov.au/system/files/2026-07/pspf-release-2026_6.pdf), [29 CFR 1910.1030 on eCFR](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030), [AUSTRAC](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training). For sector detail see [AML/CTF training requirements](/regulations/austrac-aml-ctf-training-requirements) and [PSPF security awareness training](/regulations/pspf-security-awareness-training)."
+          "text": "Sources: [29 CFR 1910.1030 on eCFR](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030), [Industrial Safety and Health Act on e-Gov](https://laws.e-gov.go.jp/law/347AC0000000057), [Directive 89/391/EEC on EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391), [PSPF Release 2026](https://www.protectivesecurity.gov.au/system/files/2026-07/pspf-release-2026_6.pdf). For sector detail see [OSHA training requirements](/regulations/osha-training-requirements), [Japan Industrial Safety and Health Act training](/regulations/japan-industrial-safety-and-health-act-training), [EU OSH Framework Directive training](/regulations/eu-osh-framework-directive-training), and [PSPF security awareness training](/regulations/pspf-security-awareness-training)."
         }
       ]
     },
@@ -178,7 +183,7 @@
         },
         {
           "type": "p",
-          "text": "Contractors and labor hire workers should meet the same gates for the same activities. Several frameworks explicitly include contractors, such as PSPF Requirement 0024. Where a contractor brings existing qualifications, use [recognition of prior learning](/glossary/recognition-of-prior-learning) or a [verification of competency](/guides/how-to-set-up-verification-of-competency) rather than assuming competence."
+          "text": "Contractors and labor hire workers should meet the same gates for the same activities. Several frameworks explicitly include contractors. The EU OSH Framework Directive requires employers to ensure that workers from outside undertakings working in their establishment have in fact received appropriate instructions (Article 12(2)), and PSPF Requirement 0024 names contractors in its security awareness requirement. Where a contractor brings existing qualifications, use [recognition of prior learning](/glossary/recognition-of-prior-learning) or a [verification of competency](/guides/how-to-set-up-verification-of-competency) rather than assuming competence."
         }
       ]
     },
@@ -208,7 +213,7 @@
     },
     {
       "q": "Does onboarding replace the need for annual refresher training?",
-      "a": "No. Onboarding establishes initial competence; refresher training keeps it current as risks, rules, and procedures change. Some frameworks set both, such as PSPF Requirement 0024, which requires security awareness training at engagement and annually thereafter."
+      "a": "No. Onboarding establishes initial competence; refresher training keeps it current as risks, rules, and procedures change. Some frameworks set both, such as the US OSHA bloodborne pathogens standard, which requires training at initial assignment and at least annually thereafter."
     }
   ],
   "sources": [
@@ -223,14 +228,24 @@
       "url": "https://www.protectivesecurity.gov.au/system/files/2026-07/pspf-release-2026_6.pdf"
     },
     {
-      "title": "AML/CTF training",
-      "publisher": "AUSTRAC",
-      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
-    },
-    {
       "title": "29 CFR 1910.1030 Bloodborne pathogens",
       "publisher": "US Occupational Safety and Health Administration (eCFR)",
       "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030"
+    },
+    {
+      "title": "Industrial Safety and Health Act (Act No. 57 of 1972)",
+      "publisher": "e-Gov Laws, Digital Agency of Japan",
+      "url": "https://laws.e-gov.go.jp/law/347AC0000000057"
+    },
+    {
+      "title": "Ordinance on Industrial Safety and Health",
+      "publisher": "e-Gov Laws, Digital Agency of Japan",
+      "url": "https://laws.e-gov.go.jp/law/347M50002000032"
+    },
+    {
+      "title": "Council Directive 89/391/EEC on the introduction of measures to encourage improvements in the safety and health of workers at work",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
     }
   ],
   "related": [
@@ -268,12 +283,20 @@
       "source": "https://www.protectivesecurity.gov.au/system/files/2026-07/pspf-release-2026_6.pdf"
     },
     {
-      "claim": "AUSTRAC gives example ongoing training frequencies (compliance officers and senior management every 6 to 12 months; customer facing and enhanced CDD roles every 12 months; vendors at onboarding and contract renewal; other personnel at onboarding) and says they are examples only and frequency must be appropriate to the business.",
-      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
-    },
-    {
       "claim": "29 CFR 1910.1030(g)(2)(ii)(A): training shall be provided at the time of initial assignment to tasks where occupational exposure may take place; (B) at least annually thereafter.",
       "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030"
+    },
+    {
+      "claim": "Japan Industrial Safety and Health Act Article 59(1) and (2) require safety or health education on hiring and on a change of work content.",
+      "source": "https://laws.e-gov.go.jp/law/347AC0000000057"
+    },
+    {
+      "claim": "Ordinance on Industrial Safety and Health Article 35 lists eight hiring education items and requires delivery without delay.",
+      "source": "https://laws.e-gov.go.jp/law/347M50002000032"
+    },
+    {
+      "claim": "Directive 89/391/EEC Article 12(1): adequate training on recruitment, transfer or change of job, new equipment, new technology; Article 12(2): workers from outside undertakings must have in fact received appropriate instructions.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
     }
   ]
 }
