@@ -1,0 +1,300 @@
+{
+  "slug": "eu-atex-workplace-directive-training",
+  "kind": "regulation",
+  "title": "What ATEX training do workers in explosive atmospheres need under EU law?",
+  "seoTitle": "EU ATEX workplace directive training",
+  "description": "What Directive 1999/92/EC (ATEX workplace directive) requires for explosion protection training, permits to work, competent verification and zone work.",
+  "shortAnswer": "The EU ATEX workplace directive (Directive 1999/92/EC) requires employers to provide everyone working in places where explosive atmospheres may occur with \"sufficient and appropriate training with regard to explosion protection\" (Annex II, Part A, point 1.1). Under Article 7, the employer must classify hazardous places into zones and apply Annex II there, which also requires written instructions and permits to work where the explosion protection document calls for them, and verification of explosion safety by competent persons.",
+  "keyTakeaways": [
+    "Annex II, Part A, point 1.1 of Directive 1999/92/EC requires sufficient and appropriate explosion protection training for everyone working in places where explosive atmospheres may occur.",
+    "Article 7 links the training duty to zoning: places are classified into zones 0, 1 and 2 (gas, vapor, mist) or 20, 21 and 22 (dust) under Annex I.",
+    "Where the explosion protection document requires it, work in hazardous places follows written instructions and a permit to work system, with permits issued by a responsible person.",
+    "Overall explosion safety must be verified before first use by persons competent in explosion protection through experience and/or professional training.",
+    "The directive applied from June 30, 2003; workplaces already in use had until June 30, 2006 to comply."
+  ],
+  "jurisdiction": "European Union (applied through each Member State's national law)",
+  "regulator": "National labor inspectorates enforce the transposing laws; the European Commission monitors transposition; the European Agency for Safety and Health at Work (EU-OSHA) publishes guidance",
+  "appliesTo": [
+    "Employers with workplaces where explosive atmospheres of gas, vapor, mist, or combustible dust may occur",
+    "Workers in classified zones, including operators, maintenance staff, and cleaners",
+    "Persons who issue permits to work and persons who verify explosion safety",
+    "Contractors working in hazardous places, under the host employer's coordination duty"
+  ],
+  "sections": [
+    {
+      "id": "what-is-the-atex-workplace-directive",
+      "heading": "What is the ATEX workplace directive?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The ATEX workplace directive is [Directive 1999/92/EC](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:01999L0092-20070627) of December 16, 1999, which sets minimum requirements for protecting workers potentially at risk from explosive atmospheres. It is the fifteenth individual directive under the [OSH Framework Directive](/regulations/eu-osh-framework-directive-training). Its recital 5 states that the Framework Directive's provisions on worker information, consultation, and training apply fully to explosive atmosphere work."
+        },
+        {
+          "type": "p",
+          "text": "Article 2 defines an explosive atmosphere as \"a mixture with air, under atmospheric conditions, of flammable substances in the form of gases, vapours, mists or dusts in which, after ignition has occurred, combustion spreads to the entire unburned mixture\". [EU-OSHA](https://osha.europa.eu/en/legislation/directives/21) notes that it is sometimes called the ATEX worker protection directive, to distinguish it from the ATEX product directive, Directive 2014/34/EU, which applies to manufacturers and distributors of equipment."
+        },
+        {
+          "type": "p",
+          "text": "Article 1(2) excludes areas used for medical treatment of patients, gas appliances covered by their own directive, the manufacture, handling, use, storage and transport of explosives or chemically unstable substances, mineral extracting industries covered by their own directives, and most means of transport. As at November 2026, the consolidated text dated June 27, 2007 is current."
+        }
+      ]
+    },
+    {
+      "id": "training-requirement",
+      "heading": "What training does the directive require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The core requirement is in Annex II, Part A, point 1.1: \"The employer must provide those working in places where explosive atmospheres may occur with sufficient and appropriate training with regard to explosion protection.\" Article 7(2) makes Annex II binding in every place classified into zones."
+        },
+        {
+          "type": "p",
+          "text": "\"Those working in\" hazardous places is broader than the employer's own operators. It reaches anyone whose work takes them into a classified zone, including maintenance technicians, cleaners who handle dust deposits, and contractors. Article 6 adds that where workers from several undertakings share a workplace, the employer responsible for the workplace coordinates all safety measures and records that coordination in the explosion protection document."
+        },
+        {
+          "type": "p",
+          "text": "The directive does not set training hours, content, or an interval. \"Sufficient and appropriate\" is measured against the hazards identified in the explosion risk assessment under Article 4 and the measures recorded in the explosion protection document under Article 8."
+        }
+      ]
+    },
+    {
+      "id": "zones",
+      "heading": "How do ATEX zones shape the training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Zones tell workers how likely an explosive atmosphere is, and therefore which equipment, clothing, and behavior are allowed. Article 7(1) requires the employer to classify places into zones under Annex I, on the basis of the frequency and duration of an explosive atmosphere."
+        },
+        {
+          "type": "table",
+          "caption": "Annex I zones and Annex II Part B equipment categories in Directive 1999/92/EC",
+          "head": [
+            "Zone",
+            "Definition in Annex I",
+            "Equipment categories permitted (Annex II, Part B)"
+          ],
+          "rows": [
+            [
+              "Zone 0 (gas, vapor, mist)",
+              "Explosive atmosphere present continuously, for long periods, or frequently",
+              "Category 1"
+            ],
+            [
+              "Zone 1 (gas, vapor, mist)",
+              "Likely to occur in normal operation occasionally",
+              "Category 1 or 2"
+            ],
+            [
+              "Zone 2 (gas, vapor, mist)",
+              "Not likely in normal operation; if it occurs, persists for a short period only",
+              "Category 1, 2 or 3"
+            ],
+            [
+              "Zone 20 (dust)",
+              "Cloud of combustible dust present continuously, for long periods, or frequently",
+              "Category 1"
+            ],
+            [
+              "Zone 21 (dust)",
+              "Likely to occur in normal operation occasionally",
+              "Category 1 or 2"
+            ],
+            [
+              "Zone 22 (dust)",
+              "Not likely in normal operation; if it occurs, persists for a short period only",
+              "Category 1, 2 or 3"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Annex I notes that layers, deposits and heaps of combustible dust must be considered like any other source that can form an explosive atmosphere, which is why housekeeping belongs in dust zone training. Article 7(3) requires signs at the points of entry to hazardous places where necessary, using the Annex III triangular warning sign with black letters on a yellow background and black edging."
+        }
+      ]
+    },
+    {
+      "id": "organizational-measures",
+      "heading": "What other Annex II measures depend on trained and competent people?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Several Annex II measures only work if specific people are trained or competent. Training owners should treat each of them as a separate role requirement."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Written instructions and permits to work (point 1.2):** where the explosion protection document requires it, work in hazardous places must follow written instructions, and a permit to work system must apply to hazardous activities and to activities that may interact with other work to cause hazards. Permits \"must be issued by a person with responsibility for this function prior to the commencement of work\".",
+            "**Electrostatic clothing (point 2.3):** workers must be given working clothes made of materials that do not give rise to electrostatic discharges capable of igniting explosive atmospheres.",
+            "**Warnings and withdrawal (point 2.6):** where necessary, workers must be given optical and/or acoustic warnings and withdrawn before explosion conditions are reached.",
+            "**Verification before first use (point 2.8):** overall explosion safety must be verified before a workplace is used for the first time, by \"persons competent in the field of explosion protection as a result of their experience and/or professional training\".",
+            "**Manual override (point 2.9):** where the risk assessment requires manual override of automatic processes, \"only workers competent to do so may take such action\"."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "obligation-map",
+      "heading": "Which roles need what, and what evidence would an inspector expect?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The explosion protection document is the anchor: inspectors expect training records to match the zones, procedures, and roles it describes. The table maps each obligation to its role, frequency, and evidence."
+        },
+        {
+          "type": "table",
+          "caption": "Directive 1999/92/EC: obligation, role, frequency and expected evidence (illustrative mapping)",
+          "head": [
+            "Obligation",
+            "Applies to",
+            "Frequency",
+            "Evidence an inspector would expect"
+          ],
+          "rows": [
+            [
+              "Annex II A 1.1: explosion protection training",
+              "Everyone working in classified zones",
+              "Before zone work; when the explosion protection document changes",
+              "Zone specific training records cross referenced to the explosion protection document"
+            ],
+            [
+              "Annex II A 1.2: permit to work issuer",
+              "Persons with responsibility for issuing permits",
+              "Before appointment; on procedure change",
+              "Written appointment and authorization records"
+            ],
+            [
+              "Annex II A 1.2: work under written instructions",
+              "Workers performing hazardous or interacting activities",
+              "Each job, as required",
+              "Completed permits and instruction acknowledgments"
+            ],
+            [
+              "Annex II A 2.8: explosion safety verification",
+              "Competent persons, internal or external",
+              "Before first use of a workplace",
+              "Verification report naming the competent person and basis of competence"
+            ],
+            [
+              "Annex II A 2.9: manual override",
+              "Workers authorized to override automatic processes",
+              "Before authorization",
+              "Competence assessment and authorization list"
+            ],
+            [
+              "Article 6: coordination of outside workers",
+              "Host employer and contractors",
+              "Before contractors enter hazardous places",
+              "Coordination measures recorded in the explosion protection document"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Authorizations for permit issuers and override operators are a form of [verification of competency](/glossary/verification-of-competency). Keeping them in the same system as training records makes it simple to prove that only authorized people acted. Process plants that also fall under major accident law should align this with [Seveso III safety management training](/regulations/eu-seveso-iii-safety-management-training)."
+        }
+      ]
+    },
+    {
+      "id": "explosion-protection-document",
+      "heading": "How does the explosion protection document connect to training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The explosion protection document is where the employer proves the risks were assessed and controlled, and training is one of the measures it relies on. Article 8 requires the document to be drawn up before work starts and revised when the workplace, work equipment, or organization of work undergoes significant changes, extensions or conversions."
+        },
+        {
+          "type": "p",
+          "text": "The document must show the classified zones, the places where Annex II applies, that the workplace and equipment are designed, operated and maintained with due regard for safety, and that arrangements have been made for safe use of work equipment. Every revision is a prompt to check whether training content and the list of trained people still match. Article 9 set the dates: workplaces first used after June 30, 2003 had to comply from first use, and workplaces in use before that date had three years, to June 30, 2006. Article 11 required the Commission to publish a non binding guide of good practice, which EU-OSHA links from its summary."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models zones, ignition source controls, permit steps, and override authority as linked concepts tied to the explosion protection document and to the roles that work in each zone. When the document is revised, the affected concepts and the people who need updated training or reauthorization can be identified from those links."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How often must ATEX training be refreshed?",
+      "a": "Directive 1999/92/EC sets no interval. Training must be sufficient and appropriate to the hazards in the explosion protection document, so a revision of that document, new equipment, or a change in zones should trigger an update. National transposing laws may add a fixed refresh period."
+    },
+    {
+      "q": "Does the directive require a certified ATEX course?",
+      "a": "No. The directive requires sufficient and appropriate explosion protection training and, for verification before first use, persons competent through experience and/or professional training. It does not name a certification scheme. Some Member States or industry bodies recognize specific qualifications, which can help demonstrate competence."
+    },
+    {
+      "q": "Are contractors covered by ATEX training duties?",
+      "a": "Yes, in practice. Annex II requires training for those working in places where explosive atmospheres may occur, and Article 6 makes the employer responsible for the workplace coordinate safety measures for all undertakings present and record that coordination in the explosion protection document."
+    },
+    {
+      "q": "What is the difference between the two ATEX directives?",
+      "a": "Directive 1999/92/EC protects workers and places duties on employers. Directive 2014/34/EU, the ATEX product directive, sets requirements for equipment and protective systems placed on the market. Annex II Part B of the workplace directive links the two by requiring equipment categories suited to each zone."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Directive 1999/92/EC on minimum requirements for improving the safety and health protection of workers potentially at risk from explosive atmospheres, consolidated text of 27 June 2007",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:01999L0092-20070627"
+    },
+    {
+      "title": "Directive 1999/92/EC, Official Journal text",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:31999L0092"
+    },
+    {
+      "title": "Directive 99/92/EC: risks from explosive atmospheres",
+      "publisher": "European Agency for Safety and Health at Work (EU-OSHA)",
+      "url": "https://osha.europa.eu/en/legislation/directives/21"
+    }
+  ],
+  "related": [
+    "eu-osh-framework-directive-training",
+    "eu-seveso-iii-safety-management-training",
+    "eu-chemical-agents-directive-worker-training",
+    "osha-process-safety-management-training-requirements",
+    "verification-of-competency",
+    "how-to-set-up-verification-of-competency"
+  ],
+  "productLinks": [
+    {
+      "label": "Energy and resources",
+      "href": "/industries/energy-resources"
+    },
+    {
+      "label": "Operational procedures",
+      "href": "/programs/operational-procedures"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "Annex II Part A point 1.1: employer must provide those working in places where explosive atmospheres may occur with sufficient and appropriate training with regard to explosion protection; Article 7(2) Annex II applies to classified places",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:01999L0092-20070627"
+    },
+    {
+      "claim": "Annex II A 1.2 written instructions and permits to work issued by a person with responsibility before work; 2.3 non electrostatic clothing; 2.6 warnings and withdrawal; 2.8 verification before first use by persons competent through experience and/or professional training; 2.9 only competent workers may perform manual override",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:01999L0092-20070627"
+    },
+    {
+      "claim": "Annex I zones 0, 1, 2, 20, 21, 22 definitions and note on dust layers; Annex II Part B equipment categories per zone unless the explosion protection document states otherwise; Annex III warning sign black letters on yellow background",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:01999L0092-20070627"
+    },
+    {
+      "claim": "Directive of 16 December 1999, 15th individual directive; recital 5 Framework Directive training provisions fully applicable; Article 1(2) exclusions; Article 6 coordination; Article 8 explosion protection document drawn up before work and revised on significant changes; Article 9 dates 30 June 2003 and three years after for existing workplaces; Article 13 transposition 30 June 2003",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:31999L0092"
+    },
+    {
+      "claim": "EU-OSHA: sometimes referred to as the ATEX worker protection directive; ATEX product directive 2014/34/EU applies to manufacturers and distributors; employer must ensure workers at risk receive appropriate training; links the non-binding guide of good practice",
+      "source": "https://osha.europa.eu/en/legislation/directives/21"
+    }
+  ]
+}
