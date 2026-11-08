@@ -1,0 +1,500 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-manufacturing-plant",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a manufacturing plant?",
+  "seoTitle": "Manufacturing plant training matrix",
+  "description": "Build a manufacturing plant training matrix: roles by energy and chemical exposure, OSHA, EU, Japan and Australian duties, triggers and evidence per cell.",
+  "shortAnswer": "A manufacturing plant training matrix is built by defining roles by the hazards each one controls (hazardous energy, presses, powered trucks, chemicals, process safety, confined spaces), mapping each role to the statutory duties of the plant's market and to any certified management system, then recording for every cell the trigger or interval that resets it and the record the rule names, such as a lockout certification or a forklift evaluation.",
+  "keyTakeaways": [
+    "Define roles by the hazard a person controls or is exposed to, not by job title. Lockout/tagout alone creates three distinct roles.",
+    "Most plant safety rules reset on events: a new machine, a new chemical, a process change. Calendar intervals are the exception, so the matrix needs change triggers.",
+    "The evidence differs by rule: some require a signed certification, some a verified understanding, some a practical evaluation or a sighted license.",
+    "Contractors and outside employers need their own rows. Several rules make the host plant responsible for what they know.",
+    "Two US Hazard Communication deadlines and several standard revisions fall between November 2026 and 2029, so build the matrix to absorb change."
+  ],
+  "sections": [
+    {
+      "id": "obligation-layers",
+      "heading": "Which obligations drive a manufacturing plant's training matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Three layers drive it: hazard specific statutory rules in the plant's market, a general duty to train that covers everything those rules miss, and the competence clauses of any management system the plant is certified to. The [training matrix](/glossary/training-matrix) has to show all three, with each cell traced to the layer that created it."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Hazard specific rules.** In the United States these are Occupational Safety and Health Administration (OSHA) standards such as [lockout/tagout](/regulations/osha-lockout-tagout-training-requirements), [mechanical power presses and machine guarding](/regulations/osha-machine-guarding-and-powered-press-training), [powered industrial trucks](/regulations/osha-forklift-operator-training-requirements), [hazard communication](/regulations/osha-hazard-communication-training-requirements), [respiratory protection](/regulations/osha-respiratory-protection-training-requirements), [process safety management](/regulations/osha-process-safety-management-training-requirements) and [permit-required confined spaces](/regulations/confined-space-training-requirements). Japan's equivalent is the special education regime under the [Industrial Safety and Health Act](/regulations/japan-industrial-safety-and-health-act-training), plus [heatstroke prevention duties](/regulations/japan-heatstroke-prevention-obligations). In Australia, [high risk work licences](/regulations/high-risk-work-licence-requirements) cover classes such as forklift and crane operation.",
+            "**General duties.** The [WHS Act duty to provide training](/regulations/whs-act-duty-to-provide-training) in Australia, the [EU OSH Framework Directive](/regulations/eu-osh-framework-directive-training) as transposed in each Member State (in Portugal, [Law 102/2009](/regulations/portugal-ohs-training-requirements)), the [EU Chemical Agents Directive](/regulations/eu-chemical-agents-directive-worker-training), and the overview of [OSHA training requirements](/regulations/osha-training-requirements) in the United States.",
+            "**Management system standards.** [ISO 9001](/regulations/iso-9001-competence-requirements), [ISO 45001](/regulations/iso-45001-competence-and-awareness), [ISO 14001](/regulations/iso-14001-competence-and-awareness-requirements) and, for automotive suppliers, [IATF 16949](/regulations/iatf-16949-competence-and-awareness-requirements). These are not law, but a certified plant is audited against them."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "OSHA's preliminary list of most cited standards for fiscal year 2026 ranks hazard communication second, lockout/tagout third, respiratory protection sixth, powered industrial trucks seventh and machine guarding tenth in general industry ([OSHA](https://www.osha.gov/top10citedstandards)). Every one of those is a standard with a training element that belongs in a plant matrix."
+        }
+      ]
+    },
+    {
+      "id": "plant-roles",
+      "heading": "Which roles should the matrix list for a plant?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "List roles by the hazard each person controls, services or works near, because that is how the rules allocate training. A single job title such as 'maintenance technician' often spans several rule defined roles, and the matrix should split it."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Authorized, affected and other employees for hazardous energy.** OSHA's lockout/tagout standard trains these three groups differently: authorized employees in recognizing energy sources and methods of isolation, affected employees in the purpose and use of the procedure, and all others in the prohibition on restarting locked or tagged equipment (29 CFR 1910.147(c)(7)(i)).",
+            "**Press operators and press maintenance staff.** Operators must be trained in the safe method of work before starting any covered operation (1910.217(f)(2)), and the employer is responsible for the original and continuing competence of people who care for, inspect and maintain presses (1910.217(e)(3)).",
+            "**Powered industrial truck operators,** including trainees, who may operate only under direct supervision (1910.178(l)(2)(i)).",
+            "**Process operators and mechanical integrity staff** where a covered process exists under PSM, plus contract employers doing maintenance, turnaround or specialty work (1910.119(g), (h) and (j)).",
+            "**Respirator wearers,** split into required users and voluntary users, because voluntary users of filtering facepieces receive only the Appendix D information (1910.134(c)(2)).",
+            "**Foremen and line supervisors.** In Japan, foreman education under Article 60 applies in listed industries that include most manufacturing ([e-Gov](https://laws.e-gov.go.jp/law/347CO0000000318)).",
+            "**Chemical management officers** at Japanese manufacturing sites, whose appointment has been mandatory since April 1, 2024 and who must have completed the Minister's course or have equivalent ability ([MHLW](https://www.mhlw.go.jp/content/11300000/001083280.pdf)).",
+            "**First aid, firefighting and evacuation workers,** whose number and training must be adequate under Article 8(2) of the EU Framework Directive.",
+            "**Internal auditors** of the quality system, who under IATF 16949 need a verified competence and a list of qualified auditors."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "worked-matrix",
+      "heading": "What does a plant matrix look like with real obligations?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The table below is illustrative. It shows a hypothetical automotive stamping and assembly group with plants in Ohio, Aichi, Setúbal and New South Wales, reduced to ten obligations. Each row states its market, because the same physical task (driving a forklift, isolating a press) attracts a different rule and a different record in each country."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative obligation by role matrix for a multi-country stamping and assembly group",
+          "head": [
+            "Obligation (market)",
+            "Roles in scope",
+            "Frequency or trigger",
+            "Evidence held"
+          ],
+          "rows": [
+            [
+              "Lockout/tagout, 29 CFR 1910.147 (United States)",
+              "Authorized: maintenance, setters. Affected: press and line operators. Other: all remaining staff",
+              "Before assignment; retrain on new hazard, changed procedure, or deviations found at the annual periodic inspection",
+              "Certification with each employee's name and dates of training"
+            ],
+            [
+              "Power press operator training, 1910.217(f)(2) (United States)",
+              "Mechanical power press operators",
+              "Before starting work on any covered operation; supervision to confirm correct procedure",
+              "Training record plus supervisor observation; PSDI operators certified at least annually"
+            ],
+            [
+              "Powered industrial truck operation, 1910.178(l) (United States)",
+              "Forklift and tugger operators",
+              "Before operating; evaluation at least every three years; refresher on any of five triggers",
+              "Certification naming operator, training date, evaluation date and evaluator"
+            ],
+            [
+              "Hazard communication, 1910.1200(h) (United States)",
+              "All employees exposed to hazardous chemicals, including paint shop and maintenance",
+              "Initial assignment; whenever a new chemical hazard is introduced",
+              "Training record by hazard category or chemical"
+            ],
+            [
+              "Respiratory protection, 1910.134(k) and (f) (United States)",
+              "Required respirator users in paint and welding cells",
+              "Before use; retraining and fit test at least annually",
+              "Demonstrated knowledge of the seven elements; fit test record kept until the next test"
+            ],
+            [
+              "Special education for restricted work, ISH Act Article 59(3) (Japan)",
+              "Operators of listed dangerous or harmful operations",
+              "Before assignment",
+              "Special education record kept 3 years (Ordinance Article 38)"
+            ],
+            [
+              "Foreman education, ISH Act Article 60 (Japan)",
+              "Newly appointed line foremen",
+              "On appointment",
+              "Course record against the statutory topics and hours"
+            ],
+            [
+              "Job specific OHS training, Law 102/2009 Article 20 (Portugal)",
+              "Every worker, considering workstation and high risk activity",
+              "On admission, change of job, new equipment or new technology",
+              "Training register; annual written consultation on the training program"
+            ],
+            [
+              "High risk work licence, model WHS Regulations r 81 to 85 (Australia, New South Wales)",
+              "Forklift and crane operators",
+              "Before work; license expires 5 years after grant",
+              "Written evidence of the license sighted and recorded for at least 1 year"
+            ],
+            [
+              "Internal auditor competence, IATF 16949 clause 7.2.3 (international)",
+              "Quality system, manufacturing process and product auditors",
+              "On qualification; maintained per organization defined audit numbers",
+              "List of qualified auditors and verified competence record"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Notice what the evidence column does. OSHA's lockout rule asks for a certification of names and dates, but its PSM rule asks for 'the means used to verify that the employee understood the training' (1910.119(g)(3)), and Australian guidance says it is insufficient to hand a worker a procedure and ask them to acknowledge it ([Safe Work Australia](https://www.safeworkaustralia.gov.au/doc/model-code-practice-how-manage-work-health-and-safety-risks)). A matrix that stores one generic 'completed' flag cannot represent those differences."
+        }
+      ]
+    },
+    {
+      "id": "change-triggers",
+      "heading": "Which plant events should reset a matrix cell?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Equipment changes, chemical changes, process changes and job changes should reset cells, because most plant rules are written around them rather than around a fixed calendar. Build the triggers into the matrix as first class rules, linked to the plant's management of change process."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**New machine or modified line.** Lockout retraining is required on a change in machines, equipment or processes that presents a new hazard (1910.147(c)(7)(iii)). Article 12 of the EU Framework Directive requires training on the introduction of new work equipment or new technology.",
+            "**New chemical.** Hazard communication training is required whenever a new chemical hazard the employees have not been trained on is introduced (1910.1200(h)(1)).",
+            "**Process change under PSM.** Affected operating, maintenance and contract employees must be trained in the change before start up (1910.119(l)(3)).",
+            "**Forklift incident or new truck type.** Refresher training is required after unsafe operation, an accident or near miss, a poor evaluation, assignment to a different type of truck, or a change in workplace conditions (1910.178(l)(4)(ii)).",
+            "**Change of job.** Japan requires safety or health education on a change of work content (ISH Act Article 59(2)), and Portugal's Law 102/2009 Article 19(2) lists change of job among its information triggers.",
+            "**Failed inspection.** Lockout retraining is also required where the annual periodic inspection reveals deviations or inadequacies in the employee's knowledge or use of the procedure."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Calendar intervals still matter for a few rules: annual respirator training and fit testing, at least annual PSDI operator training, the three year forklift evaluation, three year PSM refresher training, and annual rescue practice for permit space rescue teams (1910.146(k)(2)(iv)). Set the due soon window for these using the guidance in [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles)."
+        }
+      ]
+    },
+    {
+      "id": "contractors-outside-employers",
+      "heading": "How should contractors and outside employers appear in a plant matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Give contractors their own rows and roles, because several rules make the host plant answerable for what outside workers know. A separate contractor spreadsheet is the most common gap auditors find in plant matrices."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Under OSHA's lockout standard, the on site employer and the outside employer must inform each other of their lockout/tagout procedures, and the on site employer must ensure its employees understand and comply with the outside employer's energy control program (1910.147(f)(2)).",
+            "Under PSM, contract employers performing maintenance, repair, turnaround, major renovation or specialty work have defined training and documentation duties, while janitorial, food, laundry and delivery services are excluded (1910.119(h)).",
+            "Article 12(2) of the EU Framework Directive requires that workers from outside undertakings have in fact received appropriate instructions on the risks they face.",
+            "In Japan, Act No. 33 of 2025 extends safety and health education for dangerous or harmful work to sole proprietors and similar persons working at the same site as workers, from April 1, 2027 ([MHLW](https://www.mhlw.go.jp/content/11300000/001513749.pdf))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "certified-systems",
+      "heading": "How do ISO and IATF requirements fit into the same matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Treat management system clauses as an overlay on the statutory rows, not a separate matrix. ISO 9001, ISO 14001 and ISO 45001 share a common clause structure in which clause 7.2 asks the plant to determine the competence each role needs, ensure it, and evaluate the effectiveness of actions taken, and clause 7.3 sets awareness topics."
+        },
+        {
+          "type": "p",
+          "text": "Practically, the overlay adds three things. First, an awareness row for every person under the plant's control: ISO 45001 clause 7.3 includes the ability to remove oneself from imminent and serious danger, and ISO 14001 clause 7.3 covers significant environmental aspects and the implications of not conforming. Second, competence rows for quality specific roles: IATF 16949 Sanctioned Interpretation 22 requires a documented process for identifying training needs, including awareness, for all personnel affecting conformity to product and process requirements, and SI 4 sets minimum competencies for internal auditors ([IATF](https://www.iatfglobaloversight.org/wp/wp-content/uploads/2025/11/IATF-16949-SIs-Nov-2025.pdf)). Third, an effectiveness check, which links well to [verification of competency](/guides/how-to-set-up-verification-of-competency) for high consequence tasks."
+        },
+        {
+          "type": "callout",
+          "title": "Revisions to plan for",
+          "text": "ISO 9001:2026 was published on September 16, 2026, with new awareness requirements on quality culture and ethical behavior in clause 7.3 and a three year transition ([ISO](https://www.iso.org/quality-management/iso-9001-2026)). ISO 14001:2026 was published on April 15, 2026, and 2015 certificates lose validity on April 30, 2029 ([DQS](https://www.dqsglobal.com/en/explore/blog/iso-14001-2026-transition)). ISO 45001 is under revision, with publication likely in the second half of 2027, and the IATF plans a second edition of IATF 16949 for mid 2027."
+        }
+      ]
+    },
+    {
+      "id": "deadlines-now",
+      "heading": "Which plant training deadlines fall in the next few years?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The nearest deadline for US plants is November 20, 2026, when all employers must have updated labeling, written programs and training as necessary for substances under the revised Hazard Communication Standard; the equivalent date for mixtures is May 19, 2028 (1910.1200(j)) ([Cornell LII](https://www.law.cornell.edu/cfr/text/29/1910.1200)). The 2024 rule aligned the standard primarily with Revision 7 of the Globally Harmonized System."
+        },
+        {
+          "type": "p",
+          "text": "In the EU, Directive (EU) 2024/869 introduced a binding limit value for diisocyanates under the Chemical Agents Directive, with a transitional limit until December 31, 2028 ([EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:01998L0024-20240408)); plants using polyurethane coatings or foams should check that their Article 8 worker information reflects it. In Japan, a revised guideline on education for people already doing dangerous or harmful work applies from April 1, 2027. Record each of these as a dated change against the affected rows, using the method in [how to update training when regulations change](/guides/how-to-update-training-when-regulations-change)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models each plant obligation, its market, the roles it binds, its trigger and its evidence rule as linked records, so a new machine, chemical or standard revision flags the exact cells it affects. The general method behind this page is set out in [how to build a training matrix](/guides/how-to-build-a-training-matrix); see also [operational procedures programs](/programs/operational-procedures)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a small plant without PSM chemicals still need a formal training matrix?",
+      "a": "Yes, if it has machines, chemicals or powered trucks. Lockout, hazard communication and forklift rules apply to most general industry plants regardless of size, and each requires a record that a matrix makes easier to keep current. The matrix can be short, but it should still show roles, triggers and the evidence each rule names."
+    },
+    {
+      "q": "Can one training session cover lockout for authorized and affected employees together?",
+      "a": "A shared session can introduce the procedure, but OSHA sets different content for each group, so the matrix should record them as separate requirements. Authorized employees need training in energy recognition and isolation methods that affected employees do not. Certification must also be kept for each employee by name and date."
+    },
+    {
+      "q": "Should the matrix record forklift evaluations separately from forklift training?",
+      "a": "Yes. OSHA requires both the date of training and the date of evaluation on the operator certification, and the three year cycle runs on evaluation. Holding them as separate fields lets the matrix flag an operator whose evaluation is due even when no new training is needed."
+    },
+    {
+      "q": "How should a group with plants in several countries structure one matrix?",
+      "a": "Keep a single role catalog and a single requirement catalog, then tag each requirement with its market and apply only the relevant rows to each site. Shared tasks such as forklift operation become separate requirements per market, because the licensing, evaluation and record rules differ."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.147: The control of hazardous energy (lockout/tagout)",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/29/1910.147"
+    },
+    {
+      "title": "29 CFR 1910.217: Mechanical power presses",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/29/1910.217"
+    },
+    {
+      "title": "29 CFR 1910.178: Powered industrial trucks",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/29/1910.178"
+    },
+    {
+      "title": "29 CFR 1910.1200: Hazard communication",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/29/1910.1200"
+    },
+    {
+      "title": "29 CFR 1910.134: Respiratory protection",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/29/1910.134"
+    },
+    {
+      "title": "29 CFR 1910.119 Process safety management of highly hazardous chemicals",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.119"
+    },
+    {
+      "title": "29 CFR 1910.146: Permit-required confined spaces",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/29/1910.146"
+    },
+    {
+      "title": "Top 10 Most Frequently Cited Standards, Fiscal Year 2026",
+      "publisher": "Occupational Safety and Health Administration",
+      "url": "https://www.osha.gov/top10citedstandards"
+    },
+    {
+      "title": "Council Directive 89/391/EEC (OSH Framework Directive)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
+    },
+    {
+      "title": "Council Directive 98/24/EC, consolidated text of 8 April 2024",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:01998L0024-20240408"
+    },
+    {
+      "title": "Lei n.º 102/2009 (consolidated version)",
+      "publisher": "Diário da República",
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-56365341"
+    },
+    {
+      "title": "Industrial Safety and Health Act (Act No. 57 of 1972), Japanese text",
+      "publisher": "e-Gov Law Search, Government of Japan",
+      "url": "https://laws.e-gov.go.jp/law/347AC0000000057"
+    },
+    {
+      "title": "Ordinance on Industrial Safety and Health, Japanese text",
+      "publisher": "e-Gov Law Search, Government of Japan",
+      "url": "https://laws.e-gov.go.jp/law/347M50002000032"
+    },
+    {
+      "title": "Order for Enforcement of the Industrial Safety and Health Act (Cabinet Order No. 318 of 1972)",
+      "publisher": "e-Gov Law Search, Government of Japan",
+      "url": "https://laws.e-gov.go.jp/law/347CO0000000318"
+    },
+    {
+      "title": "Overview of the Cabinet Order and Ordinance amendments on chemical substance management",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "url": "https://www.mhlw.go.jp/content/11300000/001083280.pdf"
+    },
+    {
+      "title": "Main points of the amendments to the Industrial Safety and Health Act (Act No. 33 of 2025)",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "url": "https://www.mhlw.go.jp/content/11300000/001513749.pdf"
+    },
+    {
+      "title": "Model Work Health and Safety Regulations (5 December 2025)",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
+    },
+    {
+      "title": "Model Code of Practice: How to manage work health and safety risks",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/doc/model-code-practice-how-manage-work-health-and-safety-risks"
+    },
+    {
+      "title": "ISO 9001:2026: What businesses need to know",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/quality-management/iso-9001-2026"
+    },
+    {
+      "title": "ISO 14001:2026 Transition Plan",
+      "publisher": "DQS",
+      "url": "https://www.dqsglobal.com/en/explore/blog/iso-14001-2026-transition"
+    },
+    {
+      "title": "IATF 16949:2016 Sanctioned Interpretations (November 2025)",
+      "publisher": "International Automotive Task Force",
+      "url": "https://www.iatfglobaloversight.org/wp/wp-content/uploads/2025/11/IATF-16949-SIs-Nov-2025.pdf"
+    }
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "osha-lockout-tagout-training-requirements",
+    "osha-forklift-operator-training-requirements",
+    "japan-industrial-safety-and-health-act-training",
+    "iatf-16949-competence-and-awareness-requirements",
+    "how-to-set-up-verification-of-competency"
+  ],
+  "productLinks": [
+    {
+      "label": "Operational procedures programs",
+      "href": "/programs/operational-procedures"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "1910.147(c)(7)(i)(A) to (C): authorized employees trained in recognition of hazardous energy sources and methods of isolation; affected employees in purpose and use of the procedure; all other employees about the procedure and the prohibition on restarting locked or tagged equipment.",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.147"
+    },
+    {
+      "claim": "1910.147(c)(7)(iii): retraining on change in job assignment, machines, equipment or processes presenting a new hazard, or energy control procedures, and when a periodic inspection reveals deviations or inadequacies; (c)(7)(iv) certification with name and dates; (c)(6) periodic inspection at least annually; (f)(2) on-site and outside employers inform each other.",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.147"
+    },
+    {
+      "claim": "1910.217(f)(2): operator trained in safe method of work before starting work on any covered operation and adequate supervision; (e)(3) original and continuing competence of personnel caring for, inspecting and maintaining presses; (h)(13) PSDI operator training not less than annually with certification.",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.217"
+    },
+    {
+      "claim": "1910.178(l)(2)(i) trainees under direct supervision; (l)(4)(ii) five refresher triggers; (l)(4)(iii) evaluation at least once every three years; (l)(6) certification includes operator name, date of training, date of evaluation and identity of evaluator.",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.178"
+    },
+    {
+      "claim": "1910.1200(h)(1) training at initial assignment and when a new chemical hazard is introduced; (j) all employers update labeling, program and training as necessary by November 20, 2026 (substances) and May 19, 2028 (mixtures); 2024 rule aligned primarily with GHS Revision 7.",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.1200"
+    },
+    {
+      "claim": "1910.134(k) knowledge of seven elements, before use, retraining annually; (f)(2) fit test at least annually; (m)(2) fit test record retained until next fit test; (c)(2) Appendix D for voluntary users.",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.134"
+    },
+    {
+      "claim": "1910.119(g)(2) refresher at least every three years; (g)(3) record of identity, date and means used to verify understanding; (h) contract employer duties excluding janitorial, food, laundry, delivery; (l)(3) training in a change before start-up.",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.119"
+    },
+    {
+      "claim": "1910.146(k)(2)(iv) rescue practice at least once every 12 months.",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.146"
+    },
+    {
+      "claim": "Preliminary FY2026 top 10: hazard communication second, lockout/tagout third, respiratory protection sixth, powered industrial trucks seventh, machine guarding tenth (general industry).",
+      "source": "https://www.osha.gov/top10citedstandards"
+    },
+    {
+      "claim": "Directive 89/391/EEC Article 12: training on recruitment, transfer or change of job, new equipment, new technology; outside workers must have in fact received instructions; Article 8(2) first aid, firefighting and evacuation workers adequate in number and training.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
+    },
+    {
+      "claim": "Directive 98/24/EC Article 8 worker information and training; Directive 2024/869 binding limit for diisocyanates with transitional limit until 31 December 2028.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:01998L0024-20240408"
+    },
+    {
+      "claim": "Law 102/2009 Article 20 adequate OHS training considering workstation and high-risk activities; Article 18(1)(d) annual written consultation on training program; Article 19(2) information triggers including admission, change of job, new equipment, new technology.",
+      "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-56365341"
+    },
+    {
+      "claim": "ISH Act Article 59(1) and (2) education on hiring and change of work content; 59(3) special education for listed dangerous or harmful operations; Article 60 foreman education.",
+      "source": "https://laws.e-gov.go.jp/law/347AC0000000057"
+    },
+    {
+      "claim": "Ordinance Article 38 special education records kept 3 years.",
+      "source": "https://laws.e-gov.go.jp/law/347M50002000032"
+    },
+    {
+      "claim": "Cabinet Order Article 19 lists manufacturing (with exceptions) among industries requiring foreman education.",
+      "source": "https://laws.e-gov.go.jp/law/347CO0000000318"
+    },
+    {
+      "claim": "Chemical management officer appointment mandatory from April 1, 2024.",
+      "source": "https://www.mhlw.go.jp/content/11300000/001083280.pdf"
+    },
+    {
+      "claim": "From April 1, 2027 sole proprietors and similar persons working at the same site as workers must receive safety and health education for dangerous or harmful work (Act No. 33 of 2025).",
+      "source": "https://www.mhlw.go.jp/content/11300000/001513749.pdf"
+    },
+    {
+      "claim": "Revised guideline on education for people currently in dangerous or harmful work applies from April 1, 2027.",
+      "source": "https://www.mhlw.go.jp/content/11300000/001704144.pdf"
+    },
+    {
+      "claim": "Model WHS Regulations r 81 licence required; r 85 PCBU sees written evidence and keeps record at least 1 year; r 92 licence expires 5 years after grant.",
+      "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
+    },
+    {
+      "claim": "Safe Work Australia model code: insufficient to give a worker the procedure and ask them to acknowledge it.",
+      "source": "https://www.safeworkaustralia.gov.au/doc/model-code-practice-how-manage-work-health-and-safety-risks"
+    },
+    {
+      "claim": "ISO 9001:2026 published September 16, 2026; new awareness requirements on quality culture and ethical behavior (7.3); three year transition.",
+      "source": "https://www.iso.org/quality-management/iso-9001-2026"
+    },
+    {
+      "claim": "ISO 14001:2026 published April 15, 2026; 2015 certificates lose validity April 30, 2029.",
+      "source": "https://www.dqsglobal.com/en/explore/blog/iso-14001-2026-transition"
+    },
+    {
+      "claim": "ISO 45001 revision: publication likely second half of 2027.",
+      "source": "https://www.dnv.com/assurance/Management-Systems/new-iso/transition/revision-iso-45001/"
+    },
+    {
+      "claim": "ISO 45001 clause 7.3 includes ability to remove themselves from imminent and serious danger.",
+      "source": "https://blog.auditortrainingonline.com/blog/iso-45001-clause-7-3"
+    },
+    {
+      "claim": "ISO 14001 clause 7.3 awareness of significant environmental aspects and implications of not conforming.",
+      "source": "https://blog.auditortrainingonline.com/blog/iso-14001-clause-7.3"
+    },
+    {
+      "claim": "IATF SI 22 on 7.2.1 documented process for training needs including awareness for all personnel affecting conformity; SI 4 on 7.2.3 internal auditor competence and list of qualified auditors.",
+      "source": "https://www.iatfglobaloversight.org/wp/wp-content/uploads/2025/11/IATF-16949-SIs-Nov-2025.pdf"
+    },
+    {
+      "claim": "IATF 16949 second edition publication planned mid-2027.",
+      "source": "https://www.iatfglobaloversight.org/wp/wp-content/uploads/2026/07/Stakeholder-Communique-SC-2026-005_IATF-16949-2nd-Edition-status.pdf"
+    },
+    {
+      "claim": "Internal auditors maintain competence through a minimum number of audits per year defined by the organization.",
+      "source": "https://advisera.com/16949academy/blog/2017/10/19/requirements-for-competence-of-iatf-16949-internal-auditors/"
+    },
+    {
+      "claim": "ISO 9001 clause 7.2 requires determining competence, ensuring it through education, training or experience, and taking actions and evaluating effectiveness.",
+      "source": "https://www.isms.online/iso-9001/clause-7-2-competence/"
+    }
+  ]
+}

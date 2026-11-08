@@ -1,0 +1,725 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-hospital",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a hospital?",
+  "seoTitle": "Hospital training matrix",
+  "description": "How to build a hospital training matrix: clinical and support roles against CMS, Joint Commission, OSHA, HIPAA, NSQHS and Ahpra duties, with refresh clocks.",
+  "shortAnswer": "A hospital training matrix is built by listing clinical and support roles against every obligation that applies in the hospital's market, such as the CMS Conditions of Participation, OSHA and HIPAA in the United States, or the NSQHS Standards and Ahpra registration standards in Australia, then recording for each cell the frequency, the trigger and the evidence that proves competence rather than attendance.",
+  "keyTakeaways": [
+    "Hospital obligations come in three layers: funding or accreditation conditions, workplace safety law, and individual professional registration. Each row should name its layer and its market.",
+    "Frequencies do not line up. CMS emergency preparedness runs every 2 years, OSHA bloodborne pathogens annually, and CLIA competency twice in the first year and then annually.",
+    "Several hospital rules ask staff to demonstrate knowledge or competence, so a completion record alone will not satisfy those cells.",
+    "Professional development and credentialing belong to the practitioner and the credentialing committee, but the hospital still needs a row that verifies them.",
+    "Retention periods range from 1 year to 7 years across the rules covered here, so set retention per row, not one policy for the whole matrix."
+  ],
+  "sections": [
+    {
+      "id": "obligation-layers",
+      "heading": "Which obligations feed a hospital training matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A hospital matrix draws on three layers: conditions attached to funding or accreditation, workplace safety law, and the registration duties of individual clinicians. The layer matters because it decides who owns the requirement and what a surveyor or auditor will ask to see. This guide applies the general method in [how to build a training matrix](/guides/how-to-build-a-training-matrix) to hospitals in the United States and Australia, using only obligations documented in this library's regulation pages."
+        },
+        {
+          "type": "p",
+          "text": "**United States.** For hospitals that participate in Medicare and Medicaid, the main sources are:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "The CMS hospital Conditions of Participation in 42 CFR Part 482, which contain separate training duties for emergency preparedness, restraint and seclusion, infection prevention and control, discharge transfer protocols and emergency services readiness ([CMS hospital Conditions of Participation](/regulations/cms-hospital-conditions-of-participation-training)).",
+            "Joint Commission accreditation, where requirements above the Conditions of Participation have sat in National Performance Goals since January 1, 2026, including goals on staff competence and on waived testing ([Joint Commission staff competency](/regulations/joint-commission-staff-competency-requirements)).",
+            "The Clinical Laboratory Improvement Amendments (CLIA) for anyone who tests patient specimens at moderate or high complexity ([CLIA competency](/regulations/clia-laboratory-personnel-competency-requirements)).",
+            "Occupational Safety and Health Administration (OSHA) standards for staff exposed to blood or required to wear respirators ([bloodborne pathogens](/regulations/osha-bloodborne-pathogens-training-requirements); [respiratory protection](/regulations/osha-respiratory-protection-training-requirements)).",
+            "Office for Civil Rights rules on HIPAA privacy and security training and on Section 1557 civil rights training ([HIPAA](/regulations/hipaa-security-and-privacy-training); [Section 1557](/regulations/section-1557-nondiscrimination-training-requirements)).",
+            "Where the hospital system also runs a Medicare Advantage or Part D plan, the sponsor's compliance and fraud, waste and abuse training ([Medicare compliance program training](/regulations/cms-medicare-compliance-program-training-requirements)).",
+            "In California, the workplace violence prevention framework. Health care settings have their own Cal/OSHA standard, title 8 section 3342, listed separately from the general industry rule, so a hospital should confirm which standard covers each site before writing that row ([California workplace violence prevention](/regulations/california-workplace-violence-prevention-training))."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Australia.** All public and private hospitals must be accredited to the National Safety and Quality Health Service (NSQHS) Standards ([NSQHS workforce training](/regulations/nsqhs-standards-workforce-training)). Alongside the Standards sit credentialing and scope of practice ([credentialing](/regulations/credentialing-and-scope-of-clinical-practice-australia)), continuing professional development set by the National Boards ([Ahpra CPD](/regulations/ahpra-cpd-registration-standards); [pharmacist CPD](/regulations/pharmacist-cpd-requirements-australia)), radiation use licensing, shown here for New South Wales ([radiation user licensing](/regulations/radiation-safety-licence-training-australia)), and state child abuse reporting duties ([mandatory reporting](/regulations/mandatory-reporting-training-australia))."
+        }
+      ]
+    },
+    {
+      "id": "hospital-roles",
+      "heading": "Which hospital roles need their own rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Split roles wherever the obligations differ, even if the job title is shared. In a hospital, a registered nurse in the emergency department and a registered nurse in day surgery may carry different restraint, emergency readiness and point of care testing duties. The role list below is a practical starting point."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Bedside nursing staff**, split by unit where restraint, emergency readiness or waived testing duties apply.",
+            "**Medical staff and licensed practitioners**, including those who order restraint or seclusion, which needs working knowledge of hospital policy under 482.13(e)(11), and specialists who use fluoroscopy.",
+            "**Laboratory testing personnel**, split by test complexity because CLIA competency rules apply to moderate and high complexity testing but not to waived-only laboratories.",
+            "**Pharmacists**, whose CPD runs on credits rather than hours in Australia.",
+            "**Environmental services and cleaning staff**, who appear in NSQHS cleaning training actions and usually in OSHA bloodborne pathogens scope.",
+            "**Registration, health information and billing staff**, who are workforce members for HIPAA and often relevant employees for Section 1557.",
+            "**Volunteers, students, agency and contracted staff**, who are named in CMS emergency preparedness training and in NSQHS orientation (Action 1.19).",
+            "**Governing body members and executives**, who appear in NSQHS orientation and, for plan sponsors, in CMS compliance training."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Grouping by [role based training](/glossary/role-based-training) rather than by person means a nurse who transfers from day surgery to the emergency department inherits the new rows on the day of transfer."
+        }
+      ]
+    },
+    {
+      "id": "illustrative-matrix",
+      "heading": "What does a hospital training matrix look like in practice?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The two tables below are illustrative, for a hypothetical acute hospital, and show only a subset of obligations. The first is a rules register: each obligation with its market, scope, clock and evidence. The second shows how those rules land on specific roles."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative hospital rules register (market stated for each row)",
+          "head": [
+            "Obligation (market)",
+            "Roles in scope",
+            "Frequency and triggers",
+            "Evidence that counts"
+          ],
+          "rows": [
+            [
+              "Emergency preparedness, 42 CFR 482.15(d) (US)",
+              "All new and existing staff, services under arrangement, volunteers",
+              "Initial training, then at least every 2 years; again after significant plan updates",
+              "Training record plus a way for staff to demonstrate knowledge of emergency procedures"
+            ],
+            [
+              "Restraint and seclusion, 482.13(f) (US)",
+              "Staff who apply or monitor restraint or seclusion",
+              "Before performing, at orientation, then periodically per hospital policy",
+              "Demonstrated competency documented in the personnel record"
+            ],
+            [
+              "Infection prevention and antibiotic stewardship, 482.42 (US)",
+              "Hospital personnel, medical staff and contracted staff as applicable",
+              "Set by hospital policy; the rule requires competency based training",
+              "Competency assessment, not attendance alone"
+            ],
+            [
+              "Emergency services readiness and transfer protocols, 482.55(c) and 482.43(c) (US)",
+              "Applicable staff identified by the governing body",
+              "Annually",
+              "Personnel record entry and demonstrated knowledge"
+            ],
+            [
+              "Bloodborne pathogens, 29 CFR 1910.1030 (US)",
+              "Every employee with occupational exposure",
+              "Initial assignment, then within one year of the previous session; when tasks change exposure",
+              "Record of date, contents, trainer and attendee job titles; session included live questions and answers"
+            ],
+            [
+              "Waived testing, Joint Commission NPG 10 (US)",
+              "Staff performing tests such as blood glucose or rapid strep",
+              "At orientation and annually",
+              "Competence assessed with more than one method"
+            ],
+            [
+              "Moderate and high complexity testing, CLIA (US)",
+              "Testing personnel",
+              "Twice in the first year, then annually; before reporting after a method or instrument change",
+              "All six CLIA procedures documented for each test"
+            ],
+            [
+              "Mandatory training program, NSQHS Action 1.20 (Australia)",
+              "All workforce members, including locum, agency, student and volunteer",
+              "Orientation, then per the hospital's program; participation monitored",
+              "Training logs, certificates and competency records"
+            ],
+            [
+              "Aseptic technique and PPE, NSQHS Actions 3.07 and 3.11 (Australia)",
+              "Clinicians performing aseptic procedures; staff using PPE",
+              "Per program; fit testing where respirators are used",
+              "Competency records and fit test results"
+            ],
+            [
+              "Child protection, NSW Health PD2013_007 (Australia, NSW)",
+              "All health workers; extra training for those working with children or parents",
+              "Two hours at induction; at least one day face to face for the second group",
+              "Completion record by training type"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative role view: where the rules land (US hospital unless stated)",
+          "head": [
+            "Role (market)",
+            "Emergency preparedness",
+            "Bloodborne pathogens",
+            "Restraint and seclusion",
+            "Point of care testing",
+            "Privacy and civil rights"
+          ],
+          "rows": [
+            [
+              "Emergency department registered nurse (US)",
+              "Every 2 years",
+              "Annual",
+              "Before performing and per policy",
+              "NPG 10: orientation and annual",
+              "HIPAA on hire; Section 1557 if relevant employee"
+            ],
+            [
+              "Core laboratory technologist (US)",
+              "Every 2 years",
+              "Annual",
+              "Not applicable",
+              "CLIA: semiannual in year one, then annual",
+              "HIPAA on hire and on material change"
+            ],
+            [
+              "Environmental services worker (US)",
+              "Every 2 years",
+              "Annual if exposed",
+              "Not applicable",
+              "Not applicable",
+              "HIPAA on hire"
+            ],
+            [
+              "Patient registration clerk (US)",
+              "Every 2 years",
+              "Not applicable unless exposed",
+              "Not applicable",
+              "Not applicable",
+              "HIPAA on hire; Section 1557 relevant employee"
+            ],
+            [
+              "Interventional cardiologist (Australia, NSW)",
+              "Hospital program",
+              "Hospital program under NSQHS Standard 3",
+              "Not applicable",
+              "Not applicable",
+              "Radiation user license held and current"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Notice that the Australian row needs a license check, not a course. In NSW, a specialist using fluoroscopy generally needs AHPRA specialist registration plus an approved fluoroscopy course to obtain the license, and licenses are valid for 1 or 3 years, so the matrix tracks expiry rather than a training refresh."
+        }
+      ]
+    },
+    {
+      "id": "clocks-and-triggers",
+      "heading": "Why do hospital refresh clocks need careful wording?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because the rules phrase their clocks differently, and a matrix that rounds them all to 'annual' will be wrong in both directions. Write each clock exactly as the source states it, then let the system calculate due dates. The general approach is in [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles)."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Within one year of the previous session.** OSHA bloodborne pathogens training is due within one year of the last session, so a fixed calendar month for everyone does not satisfy it.",
+            "**At least every 2 years.** CMS emergency preparedness training is biennial, but new training is also due after significant plan updates.",
+            "**Semiannual, then annual.** CLIA competency is evaluated at least twice in a tester's first year, then at least annually.",
+            "**Annual with a fixed period.** Pharmacists in Australia need 40 CPD credits in each 12 month period ending 30 September, and doctors 50 hours per calendar year, so the period does not match the hospital's financial or hire date year.",
+            "**Not annual at all.** HIPAA privacy training is required for new workforce members within a reasonable period and after material policy changes, with no annual frequency in the current rule.",
+            "**Event driven.** CLIA requires reevaluation before reporting results after a methodology or instrument change, and NSQHS Action 1.23 requires scope of practice review when a new service, procedure or technology is introduced."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evidence-and-retention",
+      "heading": "What evidence and retention should each hospital row carry?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each row should state its evidence type and its retention period, because both vary by source. Several hospital rules ask for demonstrated knowledge or competence, and Joint Commission's standards interpretation says a self-assessment such as a skills checklist, used as the sole method, does not constitute competency assessment. Those rows need an observed or tested assessment, as described in [competency assessment](/glossary/competency-assessment)."
+        },
+        {
+          "type": "table",
+          "caption": "Retention periods stated in the sources (market stated for each row)",
+          "head": [
+            "Record (market)",
+            "Minimum retention in the source"
+          ],
+          "rows": [
+            [
+              "California workplace violence prevention training records (US, California)",
+              "At least 1 year"
+            ],
+            [
+              "CLIA laboratory records, including quality system assessment records (US)",
+              "Minimum 2 years for most records"
+            ],
+            [
+              "Bloodborne pathogens training records (US)",
+              "3 years from the date of training"
+            ],
+            [
+              "Section 1557 training documentation (US)",
+              "No less than three calendar years"
+            ],
+            [
+              "HIPAA policies, procedures and required documentation, including training documentation (US)",
+              "6 years"
+            ],
+            [
+              "Nursing and midwifery CPD records (Australia)",
+              "At least five years"
+            ],
+            [
+              "Personnel training records under the ARPANSA medical exposure code RPS C-5 (Australia)",
+              "Seven years"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Set the longest period that applies to a record where one course serves several rows. A combined induction that covers bloodborne pathogens and HIPAA, for example, sits under the 6 year HIPAA rule. The method for setting these periods is in [how long to keep training records](/guides/how-long-to-keep-training-records)."
+        }
+      ]
+    },
+    {
+      "id": "practitioner-owned",
+      "heading": "How should CPD and credentialing appear on the matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "As verification rows, not delivery rows. In Australia, CPD is the registered practitioner's obligation under section 128 of the Health Practitioner Regulation National Law, and the practitioner declares it at renewal. The hospital's row checks that registration is current, which a listing on the national register proves; the Nursing and Midwifery Board points employers to the Practitioner Information Exchange service for bulk checks."
+        },
+        {
+          "type": "p",
+          "text": "Credentialing works the same way. NSQHS Action 1.24 requires processes to ensure clinicians are credentialed where relevant, and the Australian Commission on Safety and Quality in Health Care's May 2026 guidance describes re-credentialing every 3 to 5 years as specified by the jurisdiction, completed before expiry, with temporary credentialing generally valid for up to three months. A matrix row for each credentialed clinician should carry the credential expiry, the approved scope, and a flag when a new procedure or technology changes that scope."
+        }
+      ]
+    },
+    {
+      "id": "rules-in-transition",
+      "heading": "Which hospital rules are changing in 2026 and 2027?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Several rows will change within the next two years, so give each one an owner who watches the source. As at November 2026, the library's regulation pages record these pending changes:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Maternal care training (US).** 42 CFR 482.59(c) takes effect January 1, 2027, with initial training for new staff and biennial training for staff the governing body identifies.",
+            "**HIPAA Security Rule (US).** A January 2025 proposed rule would require security awareness training at least every 12 months and within 30 days of access for new members. No final rule was found as at September 2026, so the current rule still governs.",
+            "**California workplace violence (US, California).** The Occupational Safety and Health Standards Board is required to adopt a general industry standard by December 31, 2026.",
+            "**NSQHS Standards third edition (Australia).** A pilot is planned for 2027, final release for 2028, and assessment from 2030; services continue using the second edition meanwhile.",
+            "**Ahpra CPD standards (Australia).** Fourteen National Boards consulted on revised CPD standards between May and July 2026; the draft proposes 20 hours including 5 interactive."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each hospital matrix row against its source clause, market, clock and evidence rule, so a change such as a new Condition of Participation flags the affected roles and assessments. See [healthcare and life sciences](/industries/healthcare-life-sciences) and [audit evidence](/platform/audit-evidence)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Joint Commission accreditation replace the CMS Conditions of Participation in the matrix?",
+      "a": "No. Joint Commission's Accreditation 360 manual identifies the CMS Conditions of Participation and its own National Performance Goals separately, and the goals sit on top of the federal conditions. Keep both as rows, and mark where one assessment satisfies both so staff are not trained twice on the same content."
+    },
+    {
+      "q": "Do waived testing staff need CLIA competency assessment?",
+      "a": "Not under federal CLIA rules. CMS states that laboratories performing only waived tests are not required to assess testing personnel competency. Joint Commission accredited hospitals still need waived testing competence assessed at orientation and annually under National Performance Goal 10, so the row remains, with Joint Commission as its source."
+    },
+    {
+      "q": "Can mandatory CPR or fire training count toward a nurse's CPD in Australia?",
+      "a": "No. The Nursing and Midwifery Board of Australia states that routine annual CPR and mandatory fire training cannot be counted toward CPD hours. Keep them as hospital mandatory training rows, separate from the CPD verification row, so neither status hides a gap in the other."
+    },
+    {
+      "q": "Should contractors and agency staff appear on a hospital matrix?",
+      "a": "Yes. CMS emergency preparedness training covers individuals providing services under arrangement and volunteers, infection control training covers contracted personnel as applicable, and NSQHS Action 1.19 names locum, agency, student and volunteer members. Assign them to roles like employees, with evidence obtained from the agency where it delivers the training."
+    }
+  ],
+  "sources": [
+    {
+      "title": "42 CFR 482.15 Condition of participation: Emergency preparedness",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-482/subpart-B/section-482.15"
+    },
+    {
+      "title": "42 CFR 482.13 Condition of participation: Patient's rights",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-482/subpart-B/section-482.13"
+    },
+    {
+      "title": "42 CFR 482.42 Condition of participation: Infection prevention and control and antibiotic stewardship programs",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-482/subpart-C/section-482.42"
+    },
+    {
+      "title": "42 CFR 482.43 Condition of participation: Discharge planning",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-482/subpart-C/section-482.43"
+    },
+    {
+      "title": "42 CFR 482.55 Condition of participation: Emergency services",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-482/subpart-D/section-482.55"
+    },
+    {
+      "title": "42 CFR 482.59 Condition of participation: Obstetrical services",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-482/subpart-D/section-482.59"
+    },
+    {
+      "title": "Standards",
+      "publisher": "Joint Commission",
+      "url": "https://www.jointcommission.org/en-us/standards"
+    },
+    {
+      "title": "Accreditation 360",
+      "publisher": "Joint Commission",
+      "url": "https://www.jointcommission.org/accreditation/accreditation-360"
+    },
+    {
+      "title": "National Performance Goal 12: Health Professional Resource Management",
+      "publisher": "Joint Commission",
+      "url": "https://www.jointcommission.org/standards/national-performance-goals/health-professional-resource-management"
+    },
+    {
+      "title": "National Performance Goal 10: Waived Testing",
+      "publisher": "Joint Commission",
+      "url": "https://www.jointcommission.org/standards/national-performance-goals/waived-testing"
+    },
+    {
+      "title": "Standards FAQ: Competency Assessment, Requirements (Health Care Staffing Services)",
+      "publisher": "Joint Commission",
+      "url": "https://www.jointcommission.org/en-us/knowledge-library/support-center/standards-interpretation/standards-faqs/000001012"
+    },
+    {
+      "title": "Clinical Laboratory Improvement Amendments (CLIA): Assessing Personnel Competency (revised May 2025)",
+      "publisher": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.cms.gov/regulations-and-guidance/legislation/clia/downloads/clia_compbrochure_508.pdf"
+    },
+    {
+      "title": "42 CFR 493.1413 Standard; Technical consultant responsibilities",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-493/subpart-M/section-493.1413"
+    },
+    {
+      "title": "42 CFR 493.1105 Standard: Retention requirements",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-493/subpart-J/section-493.1105"
+    },
+    {
+      "title": "29 CFR 1910.1030 Bloodborne pathogens",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/section-1910.1030"
+    },
+    {
+      "title": "29 CFR 1910.134: Respiratory protection",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/29/1910.134"
+    },
+    {
+      "title": "45 CFR 164.530 Administrative requirements (Privacy Rule)",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.530"
+    },
+    {
+      "title": "HIPAA Security Rule To Strengthen the Cybersecurity of Electronic Protected Health Information (proposed rule, January 6, 2025)",
+      "publisher": "US Department of Health and Human Services, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2025/01/06/2024-30983/hipaa-security-rule-to-strengthen-the-cybersecurity-of-electronic-protected-health-information"
+    },
+    {
+      "title": "45 CFR 92.9 Training",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-A/part-92/subpart-A/section-92.9"
+    },
+    {
+      "title": "42 CFR 422.503 General provisions (Medicare Advantage contract requirements)",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)",
+      "url": "https://www.law.cornell.edu/cfr/text/42/422.503"
+    },
+    {
+      "title": "Cal/OSHA Workplace Violence Prevention for General Industry (Non-Health Care Settings)",
+      "publisher": "California Department of Industrial Relations, Cal/OSHA",
+      "url": "https://www.dir.ca.gov/dosh/Workplace-Violence/General-Industry.html"
+    },
+    {
+      "title": "Accreditation to National Safety and Quality Standards",
+      "publisher": "Australian Commission on Safety and Quality in Health Care",
+      "url": "https://www.safetyandquality.gov.au/accreditation/accreditation-national-safety-and-quality-standards"
+    },
+    {
+      "title": "Clinical Governance Standard (NSQHS Standards, second edition)",
+      "publisher": "Australian Commission on Safety and Quality in Health Care",
+      "url": "https://www.safetyandquality.gov.au/national-standards/nsqhs-standards/clinical-governance-standard"
+    },
+    {
+      "title": "Preventing and Controlling Infections Standard",
+      "publisher": "Australian Commission on Safety and Quality in Health Care",
+      "url": "https://www.safetyandquality.gov.au/national-standards/nsqhs-standards/preventing-and-controlling-infections-standard"
+    },
+    {
+      "title": "National Safety and Quality Health Service Standards",
+      "publisher": "Australian Commission on Safety and Quality in Health Care",
+      "url": "https://www.safetyandquality.gov.au/national-standards/nsqhs-standards"
+    },
+    {
+      "title": "NSQHS Standards (third edition) Consultation",
+      "publisher": "Australian Commission on Safety and Quality in Health Care",
+      "url": "https://www.safetyandquality.gov.au/news-and-media/consultations/nsqhs-standards-third-edition-consultation"
+    },
+    {
+      "title": "Credentialing and defining scope of practice: Guidance for health services and clinicians (PDF, May 2026)",
+      "publisher": "Australian Commission on Safety and Quality in Health Care",
+      "url": "https://www.safetyandquality.gov.au/sites/default/files/2026-05/Credentialing-and-defining-scope-of-practice-guidance-for-health-services_0.pdf"
+    },
+    {
+      "title": "Health Practitioner Regulation National Law Act 2009 (Qld), including the National Law schedule",
+      "publisher": "Queensland Government, Office of the Queensland Parliamentary Counsel",
+      "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-2009-045"
+    },
+    {
+      "title": "Fact sheet: Continuing professional development",
+      "publisher": "Nursing and Midwifery Board of Australia",
+      "url": "https://www.nursingmidwiferyboard.gov.au/Codes-Guidelines-Statements/FAQ/CPD-FAQ-for-nurses-and-midwives"
+    },
+    {
+      "title": "Guidelines: Continuing professional development",
+      "publisher": "Nursing and Midwifery Board of Australia",
+      "url": "https://www.nursingmidwiferyboard.gov.au/Codes-Guidelines-Statements/Codes-Guidelines/Guidelines-cpd"
+    },
+    {
+      "title": "Fact sheet: Renewal information for employers",
+      "publisher": "Nursing and Midwifery Board of Australia",
+      "url": "https://www.nursingmidwiferyboard.gov.au/Registration-and-Endorsement/Registration-Renewal/Renewal-FAQ-for-employers"
+    },
+    {
+      "title": "CPD: What do I need to do?",
+      "publisher": "Medical Board of Australia",
+      "url": "https://www.medicalboard.gov.au/Professional-Performance-Framework/CPD/What--do-I-need-to-do"
+    },
+    {
+      "title": "Public consultation: Review of recency of practice and CPD registration standards (consultation paper, 2026)",
+      "publisher": "Ahpra and National Boards",
+      "url": "https://www.ahpra.gov.au/documents/default.aspx?record=WD26%2f36029&dbid=AP&chksum=cSwA9u%2bcNJjI79QEoYPEog%3d%3d"
+    },
+    {
+      "title": "Past consultations",
+      "publisher": "Pharmacy Board of Australia",
+      "url": "https://www.pharmacyboard.gov.au/News/Past-Consultations.aspx"
+    },
+    {
+      "title": "Registration standard: Continuing professional development (PDF)",
+      "publisher": "Pharmacy Board of Australia",
+      "url": "https://www.pharmacyboard.gov.au/documents/default.aspx?record=WD15%2f18507&dbid=AP&chksum=D%2bMNSAe%2fNf9lUN8tv6dT%2fw%3d%3d"
+    },
+    {
+      "title": "Radiation user licence: introduction",
+      "publisher": "NSW Environment Protection Authority",
+      "url": "https://www.epa.nsw.gov.au/Your-environment/Radiation/radiation-user-licence/user-licence-introduction"
+    },
+    {
+      "title": "Radiation user licence: criteria",
+      "publisher": "NSW Environment Protection Authority",
+      "url": "https://www.epa.nsw.gov.au/Your-environment/Radiation/radiation-user-licence/user-licence-introduction/user-licence-criteria"
+    },
+    {
+      "title": "Code for Radiation Protection in Medical Exposure (2019), full text",
+      "publisher": "Australian Radiation Protection and Nuclear Safety Agency",
+      "url": "https://www.arpansa.gov.au/sites/default/files/medical-exposure-code-rps-c-5.pdf"
+    },
+    {
+      "title": "Child Wellbeing and Child Protection Policies and Procedures for NSW Health (PD2013_007)",
+      "publisher": "NSW Ministry of Health",
+      "url": "https://www1.health.nsw.gov.au/pds/ActivePDSDocuments/PD2013_007.pdf"
+    }
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "cms-hospital-conditions-of-participation-training",
+    "nsqhs-standards-workforce-training",
+    "joint-commission-staff-competency-requirements",
+    "how-to-set-mandatory-training-refresh-cycles",
+    "how-to-build-a-training-matrix-for-aged-care"
+  ],
+  "productLinks": [
+    {
+      "label": "Healthcare and life sciences",
+      "href": "/industries/healthcare-life-sciences"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "42 CFR 482.15(d): initial emergency preparedness training for new and existing staff, services under arrangement and volunteers; at least every 2 years; demonstrate knowledge; training after significant updates.",
+      "source": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-482/subpart-B/section-482.15"
+    },
+    {
+      "claim": "42 CFR 482.13(f): restraint and seclusion training before performing, at orientation, periodically per policy; documentation in personnel records; 482.13(e)(11) working knowledge for ordering practitioners.",
+      "source": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-482/subpart-B/section-482.13"
+    },
+    {
+      "claim": "42 CFR 482.42: competency-based training of hospital personnel, including medical staff and contracted personnel as applicable, on infection prevention and control and antibiotic stewardship.",
+      "source": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-482/subpart-C/section-482.42"
+    },
+    {
+      "claim": "42 CFR 482.43(c): written transfer policies and annual training to relevant staff, effective July 1, 2025.",
+      "source": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-482/subpart-C/section-482.43"
+    },
+    {
+      "claim": "42 CFR 482.55(c)(3): annual emergency readiness training of applicable staff identified by the governing body, personnel records, demonstrate knowledge.",
+      "source": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-482/subpart-D/section-482.55"
+    },
+    {
+      "claim": "42 CFR 482.59(c): maternal care staff training effective January 1, 2027; initial training for new staff; biennial training for staff identified by the governing body.",
+      "source": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-482/subpart-D/section-482.59"
+    },
+    {
+      "claim": "Joint Commission NPG chapter effective January 1, 2026, replacing NPSG chapter.",
+      "source": "https://www.jointcommission.org/en-us/standards"
+    },
+    {
+      "claim": "Accreditation 360 manual identifies CMS CoPs and Joint Commission NPGs.",
+      "source": "https://www.jointcommission.org/accreditation/accreditation-360"
+    },
+    {
+      "claim": "NPG 12 covers provision of education and training and evaluation of staff competence.",
+      "source": "https://www.jointcommission.org/standards/national-performance-goals/health-professional-resource-management"
+    },
+    {
+      "claim": "NPG 10 waived testing: competence assessed at orientation and annually using more than one method; examples blood glucose, fecal occult blood, rapid strep.",
+      "source": "https://www.jointcommission.org/standards/national-performance-goals/waived-testing"
+    },
+    {
+      "claim": "Joint Commission standards FAQ: self-assessment such as a skills checklist as sole method does not constitute competency assessment.",
+      "source": "https://www.jointcommission.org/en-us/knowledge-library/support-center/standards-interpretation/standards-faqs/000001012"
+    },
+    {
+      "claim": "CMS CLIA brochure: waived-only labs not required to assess testing personnel competency; six procedures for every test documented each year.",
+      "source": "https://www.cms.gov/regulations-and-guidance/legislation/clia/downloads/clia_compbrochure_508.pdf"
+    },
+    {
+      "claim": "42 CFR 493.1413(b)(8)-(9): competency evaluated at least semiannually in first year, then at least annually, and before reporting after methodology or instrumentation change.",
+      "source": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-493/subpart-M/section-493.1413"
+    },
+    {
+      "claim": "42 CFR 493.1105: records retention minimum 2 years for most laboratory records.",
+      "source": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-493/subpart-J/section-493.1105"
+    },
+    {
+      "claim": "29 CFR 1910.1030(g)(2): training at initial assignment and within one year of previous; additional training on changed tasks; interactive Q and A element; (h)(2) record contents and 3-year retention.",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/section-1910.1030"
+    },
+    {
+      "claim": "29 CFR 1910.134 respiratory protection training before required use and annually; fit testing.",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.134"
+    },
+    {
+      "claim": "45 CFR 164.530(b): HIPAA privacy training for new members within a reasonable period and after material change; documented; 164.530(j)(2) six-year retention; no annual frequency.",
+      "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.530"
+    },
+    {
+      "claim": "HIPAA Security Rule NPRM January 6, 2025 proposed annual security awareness training and within 30 days of access; no final rule as at September 2026.",
+      "source": "https://www.federalregister.gov/documents/2025/01/06/2024-30983/hipaa-security-rule-to-strengthen-the-cybersecurity-of-electronic-protected-health-information"
+    },
+    {
+      "claim": "45 CFR 92.9: train relevant employees, new employees within reasonable period, after material change; documentation retained no less than three calendar years.",
+      "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-A/part-92/subpart-A/section-92.9"
+    },
+    {
+      "claim": "Medicare Advantage and Part D compliance training for employees, chief executive, managers and governing body, annually and at orientation.",
+      "source": "https://www.law.cornell.edu/cfr/text/42/422.503"
+    },
+    {
+      "claim": "Cal/OSHA: health care under section 3342; OSHSB required to adopt general industry standard by December 31, 2026; training records 1 year.",
+      "source": "https://www.dir.ca.gov/dosh/Workplace-Violence/General-Industry.html"
+    },
+    {
+      "claim": "All public and private hospitals, day procedure services and most public dental practices must be accredited to the NSQHS Standards.",
+      "source": "https://www.safetyandquality.gov.au/accreditation/accreditation-national-safety-and-quality-standards"
+    },
+    {
+      "claim": "NSQHS Action 1.19 orientation includes governing body, clinicians, contracted, locum, agency, student and volunteer members; Action 1.20 mandatory training program and monitoring participation; Action 1.23 scope review when new service, procedure or technology introduced; Action 1.24 credentialing.",
+      "source": "https://www.safetyandquality.gov.au/national-standards/nsqhs-standards/clinical-governance-standard"
+    },
+    {
+      "claim": "NSQHS Actions 3.07, 3.11, 3.13: PPE training and fit testing, aseptic technique competence, cleaning training; evidence examples certificates, competency records, training logs.",
+      "source": "https://www.safetyandquality.gov.au/national-standards/nsqhs-standards/preventing-and-controlling-infections-standard"
+    },
+    {
+      "claim": "Services continue using the NSQHS second edition while revision occurs.",
+      "source": "https://www.safetyandquality.gov.au/national-standards/nsqhs-standards"
+    },
+    {
+      "claim": "NSQHS third edition: pilot 2027, final release 2028, assessment commencing 2030.",
+      "source": "https://www.safetyandquality.gov.au/news-and-media/consultations/nsqhs-standards-third-edition-consultation"
+    },
+    {
+      "claim": "ACSQHC May 2026 guidance: re-credentialing every 3-5 years as specified by the jurisdiction, completed before expiry; temporary credentialing up to three months.",
+      "source": "https://www.safetyandquality.gov.au/sites/default/files/2026-05/Credentialing-and-defining-scope-of-practice-guidance-for-health-services_0.pdf"
+    },
+    {
+      "claim": "National Law s 128 CPD obligation on registered practitioners; s 109 renewal declaration.",
+      "source": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-2009-045"
+    },
+    {
+      "claim": "NMBA: routine annual CPR and mandatory fire training cannot be counted toward CPD.",
+      "source": "https://www.nursingmidwiferyboard.gov.au/Codes-Guidelines-Statements/FAQ/CPD-FAQ-for-nurses-and-midwives"
+    },
+    {
+      "claim": "NMBA CPD records kept at least five years.",
+      "source": "https://www.nursingmidwiferyboard.gov.au/Codes-Guidelines-Statements/Codes-Guidelines/Guidelines-cpd"
+    },
+    {
+      "claim": "NMBA employer FAQ: national register listing proves registration; PIE service for bulk checks.",
+      "source": "https://www.nursingmidwiferyboard.gov.au/Registration-and-Endorsement/Registration-Renewal/Renewal-FAQ-for-employers"
+    },
+    {
+      "claim": "Medical Board CPD: 50 hours per calendar year.",
+      "source": "https://www.medicalboard.gov.au/Professional-Performance-Framework/CPD/What--do-I-need-to-do"
+    },
+    {
+      "claim": "Ahpra and 14 National Boards draft CPD standard: 20 hours including 5 interactive.",
+      "source": "https://www.ahpra.gov.au/documents/default.aspx?record=WD26%2f36029&dbid=AP&chksum=cSwA9u%2bcNJjI79QEoYPEog%3d%3d"
+    },
+    {
+      "claim": "Consultation on revised CPD standards opened 15 May 2026 and closed 17 July 2026.",
+      "source": "https://www.pharmacyboard.gov.au/News/Past-Consultations.aspx"
+    },
+    {
+      "claim": "Pharmacists: 40 CPD credits in each 12 month period ending 30 September.",
+      "source": "https://www.pharmacyboard.gov.au/documents/default.aspx?record=WD15%2f18507&dbid=AP&chksum=D%2bMNSAe%2fNf9lUN8tv6dT%2fw%3d%3d"
+    },
+    {
+      "claim": "NSW radiation user licences valid for 1 or 3 years.",
+      "source": "https://www.epa.nsw.gov.au/Your-environment/Radiation/radiation-user-licence/user-licence-introduction"
+    },
+    {
+      "claim": "IA22 fluoroscopy licence requires AHPRA specialist registration plus approved fluoroscopy course.",
+      "source": "https://www.epa.nsw.gov.au/Your-environment/Radiation/radiation-user-licence/user-licence-introduction/user-licence-criteria"
+    },
+    {
+      "claim": "RPS C-5: personnel training records kept seven years.",
+      "source": "https://www.arpansa.gov.au/sites/default/files/medical-exposure-code-rps-c-5.pdf"
+    },
+    {
+      "claim": "NSW Health PD2013_007: two hours core child protection training for all health workers at induction; minimum one day face to face for those working with children or parents whose capacity may be in question.",
+      "source": "https://www1.health.nsw.gov.au/pds/ActivePDSDocuments/PD2013_007.pdf"
+    }
+  ]
+}

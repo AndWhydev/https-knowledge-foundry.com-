@@ -1,0 +1,282 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-food-business",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a food business?",
+  "seoTitle": "Training matrix for a food business",
+  "description": "Build a food business training matrix: handler, supervisor, PCQI and alcohol service duties by market, certificate expiry, premises coverage and records.",
+  "shortAnswer": "A food business training matrix lists each food role (handler, supervisor or person in charge, manager, preventive controls lead, harvest worker, bar staff) against the food safety and liquor rules of the market where each premises operates, then records the certificate each role needs, when that certificate expires, and the record an inspector will ask to see. Unlike most matrices, it must also check that every premises and shift has a qualified supervisor present or reachable.",
+  "keyTakeaways": [
+    "Food rules attach to premises and shifts as well as to people, so the matrix needs a coverage view alongside the usual person view.",
+    "Supervisor and alcohol service certificates expire on fixed cycles: five years for NSW food safety supervisors and NSW RSA cards, three years for Victorian RSA refreshers.",
+    "Many food handler duties set no refresher interval. FSANZ and the European Commission both leave frequency to the business, while the FSMA Produce Safety Rule requires training on hiring and at least annually.",
+    "Inspectors check records on site: Victorian venues must produce RSA certificates immediately, NSW premises must hold a copy of the supervisor certificate.",
+    "Manufacturing and farm sites in the United States add qualified individual roles under 21 CFR parts 117 and 112."
+  ],
+  "sections": [
+    {
+      "id": "what-makes-food-different",
+      "heading": "What makes a food business training matrix different?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Two things: food law ties supervisor duties to a place and a time, and many of the qualifications are external certificates with expiry dates. A [training matrix](/glossary/training-matrix) that only tracks whether each employee finished a course will miss a kitchen that ran a Saturday shift with no qualified person available."
+        },
+        {
+          "type": "p",
+          "text": "The rule under Standard 3.2.2A of the Australia New Zealand Food Standards Code shows the pattern. Section 3.2.2A-11 requires a category one or two business to appoint a food safety supervisor who is reasonably available, and section 3.2.2A-10 requires food handlers in a prescribed activity to have completed a food safety training course, or have commensurate skills and knowledge, before they start that activity ([Standard 3.2.2A](/regulations/food-safety-standard-3-2-2a-training)). The first is a coverage rule; the second is a person rule. The matrix needs both."
+        },
+        {
+          "type": "p",
+          "text": "The base method is in [how to build a training matrix](/guides/how-to-build-a-training-matrix). This page adapts it for restaurants, caterers, retailers, licensed venues, food manufacturers and produce farms."
+        }
+      ]
+    },
+    {
+      "id": "food-roles",
+      "heading": "Which food roles belong on the matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use roles that the food and liquor rules themselves name, because each carries a distinct credential. A cook and a waiter may share an employer but not a requirement set."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Food handler.** Under EU Regulation (EC) No 852/2004, Annex II Chapter XII, food handlers must be supervised and instructed or trained in food hygiene commensurate with their work ([EU food hygiene](/regulations/eu-food-hygiene-training-requirements)). The Commission Notice on food safety management uses the contrast between a waiter and a cook to show that training need differs by activity.",
+            "**Food safety supervisor (Australia).** A person holding a certificate issued within the preceding five years from a registered training organization or recognized body, with authority to direct safe food handling. NSW and Queensland add their own rules ([NSW supervisor](/regulations/nsw-food-safety-supervisor-requirements), [Queensland supervisor](/regulations/queensland-food-safety-supervisor-requirements)).",
+            "**Person in charge (United States).** FDA Food Code 2-101.11(A) requires a person in charge present during all hours of operation, and 2-102.12(A) requires that person to be a certified food protection manager, unless the regulatory authority deems the establishment minimal risk ([FDA Food Code](/regulations/fda-food-code-certified-food-protection-manager)).",
+            "**Food hygiene manager (Japan).** Appended Table 17 of the Food Sanitation Act Enforcement Regulation requires operators to appoint a food hygiene manager (shokuhin eisei sekininsha) ([Japan Food Sanitation Act](/regulations/japan-food-sanitation-act-haccp-and-food-hygiene-manager)).",
+            "**HACCP lead.** People responsible for HACCP based procedures need HACCP training under EU Annex II Chapter XII; in US registered food facilities, the food safety plan is prepared or overseen by a preventive controls qualified individual (PCQI) under 21 CFR 117.126(a)(2) ([FSMA PCQI](/regulations/fsma-preventive-controls-qualified-individual-training)).",
+            "**Farm harvest worker and supervisor (United States).** Covered farms train personnel who handle covered produce, and at least one supervisor or responsible party must complete training equivalent to an FDA recognized standardized curriculum ([FSMA Produce Safety Rule](/regulations/fsma-produce-safety-rule-worker-training)).",
+            "**Alcohol service staff and licensees (Australia).** Anyone who sells, serves or supplies alcohol in NSW needs an RSA competency card; in Victoria, staff at general, on-premises, late night and packaged liquor venues need a current RSA certificate ([NSW RSA](/regulations/responsible-service-of-alcohol-training-nsw), [Victoria RSA](/regulations/responsible-service-of-alcohol-training-victoria))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "certificate-clock",
+      "heading": "Which food and liquor certificates expire, and on what cycle?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Supervisor and alcohol service credentials in Australia expire on fixed cycles with short grace windows, so the matrix should store the issue date and calculate expiry rather than store a yes or no. The table summarizes what the linked regulation pages record."
+        },
+        {
+          "type": "table",
+          "caption": "Credential cycles drawn from the linked regulation pages",
+          "head": ["Credential", "Market", "Validity or refresh", "Grace or start rule", "Practical matrix setting"],
+          "rows": [
+            ["Food safety supervisor certificate", "Australia (Standard 3.2.2A)", "Issued within the preceding 5 years", "Supervisor must be reasonably available", "Flag at least 90 days before the 5 year mark"],
+            ["Food safety supervisor certificate", "Australia (NSW)", "Renewed every 5 years", "30 days to recertify or appoint another; recertification only up to 90 days after expiry", "Hard stop at expiry plus 30 days per premises"],
+            ["Supervisor appointment", "Australia (Queensland)", "Must have one at all times", "Within 30 days of license; notify local government within 14 days of a change", "Change event triggers a notification task"],
+            ["RSA competency card", "Australia (NSW)", "5 years", "28 day grace if identity check done before expiry; interim certificate valid 90 days", "Track card expiry, not course date"],
+            ["RSA certificate", "Australia (Victoria)", "Refresher every 3 years", "Complete before supplying or within one month of first supplying", "New starter cell due at day 30"],
+            ["Advanced RSA", "Australia (Victoria)", "Event based", "Within 6 months of late night license grant or a demerit point", "Triggered by license or demerit event"],
+            ["Food hygiene manager course", "Japan", "Periodic course attendance for Article 54 licensed businesses", "Appointed by operator", "Set interval from the prefecture's course schedule"],
+            ["Produce safety training", "United States (covered farms)", "Upon hiring and at least once annually", "Covers temporary, seasonal and contracted workers", "Annual due date per worker"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "worked-food-matrix",
+      "heading": "What does an illustrative food business matrix look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The extract below is illustrative only. It describes a hypothetical group with a Sydney cafe, a Brisbane restaurant, a Melbourne wine bar, a Lisbon catering kitchen, a Tokyo bakery outlet and a California salad processing plant with a contracted farm supplier. Rows are shortened to the most distinctive requirement for each role."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical multi-market food group",
+          "head": ["Role", "Market", "Requirement", "Frequency", "Evidence held"],
+          "rows": [
+            ["Cafe barista who plates cakes", "Australia (NSW)", "Standard 3.2.2A food handler course or commensurate skills", "Before handling; no set refresher, business policy every 2 years", "Course certificate or supervisor skills check"],
+            ["Cafe shift lead", "Australia (NSW)", "Food safety supervisor, one per premises, not shared with another premises", "5 year certificate", "Copy of certificate kept on premises"],
+            ["Restaurant licensee", "Australia (Queensland)", "Food Act 2006 s86 supervisor at all times and s88 notification", "Within 30 days of license; on every change", "Local government notification record"],
+            ["Bartender", "Australia (Victoria)", "Current RSA certificate", "Within one month of first supply; refresher every 3 years", "Copy at venue, immediately available to inspectors"],
+            ["Catering cook", "EU (Portugal)", "Annex II Chapter XII hygiene training commensurate with work", "Business policy based on needs and demonstrated skills", "Training record proportionate to size"],
+            ["HACCP team member", "EU (Portugal)", "HACCP training for the Article 5(1) procedure", "On appointment; on change to the procedure", "Record available to the competent authority"],
+            ["Bakery outlet manager", "Japan", "Food hygiene manager appointment and course", "On appointment; periodic course where required", "Course certificate and appointment record"],
+            ["Bakery staff", "Japan", "Table 17 item 13 food handler education", "Periodic, with verification of effectiveness", "Training log plus revision notes"],
+            ["Plant QA lead", "United States (federal)", "PCQI under 21 CFR 117.180", "Before preparing or overseeing the food safety plan", "Record with date, type of training and person trained"],
+            ["Line operator", "United States (federal)", "21 CFR 117.4 food hygiene and food safety training", "On hire; business policy annual", "Training record retained at least 2 years"],
+            ["Farm harvest crew (supplier)", "United States (federal)", "21 CFR 112.21 and 112.22 core and harvest topics", "On hire and at least annually", "Record with date, topics and persons trained"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The two year refresher for the Sydney barista and the annual cycle for the California line operator are business choices, labelled as such. Neither rule sets them. Recording which intervals are legal and which are chosen keeps the business honest when it reports compliance."
+        }
+      ]
+    },
+    {
+      "id": "coverage-view",
+      "heading": "How do you check that every premises and shift is covered?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Add a coverage view: premises down one axis, trading hours or shifts across the other, and in each cell the name of a qualified supervisor or person in charge. Any empty cell is a breach even if every individual's record is current."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**List premises and mobile units separately.** In NSW a food safety supervisor must not act for any other premises or mobile catering business, so two cafes need two supervisors.",
+            "**Map roster to qualification.** The FDA Food Code expects a person in charge present during all hours of operation; a late shift with no certified manager is a gap.",
+            "**Test availability.** Standard 3.2.2A and Queensland s87 require the supervisor to be reasonably available to staff and to the regulator. Record how that is achieved: on site, or easily contactable.",
+            "**Wire in change events.** Queensland requires notice to the local government within 14 days when a supervisor starts or stops. Resignations should create a coverage alert and a notification task at once.",
+            "**Repeat for alcohol.** NSW licensees, approved managers and club secretaries granted a new license or transfer complete Licensee Training within 60 days; schedule it as a premises level cell."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Why this matters in penalties",
+          "text": "In NSW, a licensee who permits staff without an RSA endorsement faces a $1,100 penalty notice under clause 63(2) of the Liquor Regulation 2018. In Victoria, failing to keep staff RSA certificates carries an infringement of $105 and a maximum of $1,046. In Queensland, each supervisor offence under ss86 to 88 carries a maximum of 50 penalty units."
+        }
+      ]
+    },
+    {
+      "id": "inspection-records",
+      "heading": "What training records will a food inspector ask to see?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Inspectors usually ask on site, so the evidence must be at the premises or retrievable there. Retention periods vary widely by market."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Australia.** Category one businesses keep substantiating records under section 3.2.2A-12 for 3 months. NSW premises hold a copy of the supervisor certificate. Victorian licensees keep each staff member's current RSA certificate at the venue, no more than 3 years old.",
+            "**United States, manufacturing.** 21 CFR 117.180(d) requires PCQI training records showing the date, type of training and person trained; 117.315 keeps records at least 2 years after preparation.",
+            "**United States, farms.** 21 CFR 112.30(b) records the date, topics covered and persons trained; 112.164 keeps them at least 2 years.",
+            "**United States, retail.** Food Code 2-103.11(P) requires employees to be informed in a verifiable manner of their reporting responsibility, which needs a signed or logged record.",
+            "**European Union.** Article 5(2)(g) of Regulation 852/2004 calls for records commensurate with the nature and size of the business, and Article 5(4) requires evidence to be given to the competent authority.",
+            "**Japan.** Table 17 item 13 expects periodic verification of training effectiveness and revision, so keep the review, not only attendance."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "See [how long to keep training records](/guides/how-long-to-keep-training-records) for a cross industry view and [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit) for sampling."
+        }
+      ]
+    },
+    {
+      "id": "refresher-without-a-rule",
+      "heading": "How often should food handlers be retrained when the law is silent?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Retrain on evidence of need and on change, and document the rationale. Food Standards Australia New Zealand (FSANZ) states that no specific refresher period has been set for food handler training and that regular refreshers are best practice."
+        },
+        {
+          "type": "p",
+          "text": "The European Commission's 2022 notice says refresher frequency should follow needs and demonstrated skills, and that training need not be a formal course. Chapter XIa on food safety culture, added by Regulation (EU) 2021/382, expects appropriate training and supervision. Practical triggers include a new menu item with a new allergen, a new piece of equipment, an inspection finding, or the 2026 FDA Food Code changes that added food defense awareness at 2-103.11(R). A [verification of competency](/glossary/verification-of-competency) check by the supervisor is often better evidence than another online module."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each food role to the hazards, procedures and certificates that justify its requirements, so a change to a HACCP plan or an allergen procedure identifies which handlers and supervisors need reassessment. See [operational procedures](/programs/operational-procedures)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does every food business in Australia need a food safety supervisor?",
+      "a": "No. Standard 3.2.2A requires one for category one and category two businesses, which handle unpackaged, potentially hazardous, ready to eat food. NSW lists exemptions, including Food Authority licensed businesses, manufacture or wholesale only operations, and coffee vans that only heat milk."
+    },
+    {
+      "q": "Is a US food protection manager certificate the same as food handler training?",
+      "a": "No. Food Code 2-102.12 requires the person in charge to be a certified food protection manager who passed a test in an accredited program, and Annex 3 notes that accreditation refers to the certification, not training. General employee training under 2-103.11(O), including food allergy awareness, is a separate requirement for all staff."
+    },
+    {
+      "q": "Can a new bartender start work before finishing RSA training?",
+      "a": "It depends on the state. In Victoria, staff may complete RSA within one month of first supplying alcohol. In NSW, an interim certificate valid for 90 days lets a person work immediately after completing the course while the card is issued. The matrix should hold a different start rule per state."
+    },
+    {
+      "q": "Do seasonal and contract farm workers need training?",
+      "a": "Yes, on covered farms in the United States. 21 CFR 112.21 applies to temporary, part time, seasonal and contracted personnel, with training upon hiring and at least once a year, in a form that is easily understood. Buyers often check supplier records as part of their own controls."
+    }
+  ],
+  "sources": [
+    {"title": "Food Standards Code Standard 3.2.2A Food Safety Management Tools", "publisher": "Federal Register of Legislation (Australia)", "url": "https://www.legislation.gov.au/F2022L01589/latest/text"},
+    {"title": "Food handler training", "publisher": "Food Standards Australia New Zealand", "url": "https://www.foodstandards.gov.au/business/food-safety/food-handler-training"},
+    {"title": "Evidence tool", "publisher": "Food Standards Australia New Zealand", "url": "https://www.foodstandards.gov.au/business/food-safety/evidence-tool"},
+    {"title": "Food safety supervisor", "publisher": "Food Standards Australia New Zealand", "url": "https://www.foodstandards.gov.au/business/food-safety/food-safety-supervisor"},
+    {"title": "Food safety supervisors", "publisher": "NSW Food Authority", "url": "https://www.foodauthority.nsw.gov.au/retail/fss-food-safety-supervisors"},
+    {"title": "Food Act 2006 (Qld)", "publisher": "Queensland Legislation", "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-2006-003"},
+    {"title": "FDA Food Code", "publisher": "US Food and Drug Administration", "url": "https://www.fda.gov/food/retail-food-protection/fda-food-code"},
+    {"title": "Summary of changes in the 2026 FDA Food Code", "publisher": "US Food and Drug Administration", "url": "https://www.fda.gov/food/fda-food-code/summary-changes-2026-fda-food-code"},
+    {"title": "Food Code 2026", "publisher": "US Food and Drug Administration", "url": "https://www.fda.gov/media/194741/download?attachment"},
+    {"title": "21 CFR 117.180 Requirements applicable to a preventive controls qualified individual", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/21/117.180"},
+    {"title": "21 CFR 117.4 Qualifications of individuals", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/21/117.4"},
+    {"title": "21 CFR 117.126 Food safety plan", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/21/117.126"},
+    {"title": "21 CFR 117.315 Requirements for record retention", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/21/117.315"},
+    {"title": "21 CFR 112.21 Personnel qualifications and training", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/21/112.21"},
+    {"title": "21 CFR 112.22 Minimum training requirements", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/21/112.22"},
+    {"title": "21 CFR 112.30 Records", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/21/112.30"},
+    {"title": "21 CFR 112.164 Record retention", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/21/112.164"},
+    {"title": "Regulation (EC) No 852/2004 on the hygiene of foodstuffs", "publisher": "EUR-Lex", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32004R0852"},
+    {"title": "Regulation (EC) No 852/2004, consolidated version of 24 March 2021", "publisher": "EUR-Lex", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02004R0852-20210324"},
+    {"title": "Regulation (EU) 2021/382", "publisher": "EUR-Lex", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0382"},
+    {"title": "Commission Notice on the implementation of food safety management systems (2022/C 355/01)", "publisher": "EUR-Lex", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022XC0916(01)"},
+    {"title": "Ordinance for Enforcement of the Food Sanitation Act", "publisher": "e-Gov Japan", "url": "https://laws.e-gov.go.jp/law/323M40000100023"},
+    {"title": "Responsible Service of Alcohol (RSA)", "publisher": "NSW Government", "url": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/rsa"},
+    {"title": "Competency cards", "publisher": "NSW Government", "url": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/competency-cards"},
+    {"title": "Competency card fines", "publisher": "NSW Government", "url": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/competency-cards/fines"},
+    {"title": "Licensee Training and Advanced Licensee Training", "publisher": "NSW Government", "url": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/lt-alt"},
+    {"title": "RSA training", "publisher": "Victorian Government", "url": "https://www.vic.gov.au/rsa-training"},
+    {"title": "Licensee training obligations", "publisher": "Victorian Government", "url": "https://www.vic.gov.au/licensee-training-obligations"},
+    {"title": "Liquor offences and fines", "publisher": "Victorian Government", "url": "https://www.vic.gov.au/liquor-offences-and-fines"}
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "food-safety-standard-3-2-2a-training",
+    "fda-food-code-certified-food-protection-manager",
+    "eu-food-hygiene-training-requirements",
+    "how-long-to-keep-training-records",
+    "verification-of-competency"
+  ],
+  "productLinks": [
+    {"label": "Operational procedures", "href": "/programs/operational-procedures"},
+    {"label": "Audit evidence", "href": "/platform/audit-evidence"}
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {"claim": "Std 3.2.2A-10 handlers complete a course or have commensurate skills before a prescribed activity; 3.2.2A-11 appoint a reasonably available supervisor; supervisor certificate issued within preceding 5 years from an RTO or recognized organization", "source": "https://www.legislation.gov.au/F2022L01589/latest/text"},
+    {"claim": "Std 3.2.2A-12 category one businesses keep substantiating records for 3 months", "source": "https://www.foodstandards.gov.au/business/food-safety/evidence-tool"},
+    {"claim": "FSANZ: no specific refresher period set for food handler training; regular refreshers are best practice", "source": "https://www.foodstandards.gov.au/business/food-safety/food-handler-training"},
+    {"claim": "Reasonably available means on site or easily contactable", "source": "https://www.foodstandards.gov.au/business/food-safety/food-safety-supervisor"},
+    {"claim": "NSW FSS: one per premises, must not be FSS for other premises or mobile catering business; renewed every 5 years; copy kept on premises; 30 days to recertify or appoint another; recertification up to 90 days after expiry; exemptions incl. licensed businesses, manufacture or wholesale only, coffee vans heating milk", "source": "https://www.foodauthority.nsw.gov.au/retail/fss-food-safety-supervisors"},
+    {"claim": "Qld Food Act s86 supervisor within 30 days and at all times; s87 reasonably available; s88 notify within 14 days of change; 50 penalty units each", "source": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-2006-003"},
+    {"claim": "Food Code 2-101.11(A) person in charge present during all hours; 2-102.12(A) CFPM with (B) minimal risk exemption; 2-103.11(O) training incl. allergy awareness, (P) verifiable manner; Annex 3 accreditation refers to certification not training", "source": "https://www.fda.gov/media/194741/download?attachment"},
+    {"claim": "2026 Food Code added new 2-103.11(R) food defense", "source": "https://www.fda.gov/food/fda-food-code/summary-changes-2026-fda-food-code"},
+    {"claim": "21 CFR 117.180(d) training records include date, type of training and person trained", "source": "https://www.law.cornell.edu/cfr/text/21/117.180"},
+    {"claim": "21 CFR 117.4 training in food hygiene and food safety", "source": "https://www.law.cornell.edu/cfr/text/21/117.4"},
+    {"claim": "117.126(a)(2) food safety plan prepared or overseen by PCQI", "source": "https://www.law.cornell.edu/cfr/text/21/117.126"},
+    {"claim": "117.315 records retained at least 2 years", "source": "https://www.law.cornell.edu/cfr/text/21/117.315"},
+    {"claim": "112.21 training upon hiring and at least annually, easily understood, covers temporary, part time, seasonal and contracted personnel", "source": "https://www.law.cornell.edu/cfr/text/21/112.21"},
+    {"claim": "112.22 core and harvest topics; supervisor or responsible party completed FDA recognized standardized curriculum equivalent", "source": "https://www.law.cornell.edu/cfr/text/21/112.22"},
+    {"claim": "112.30(b) records date, topics and persons trained", "source": "https://www.law.cornell.edu/cfr/text/21/112.30"},
+    {"claim": "112.164 records kept at least 2 years", "source": "https://www.law.cornell.edu/cfr/text/21/112.164"},
+    {"claim": "852/2004 Annex II Chapter XII: handlers supervised and instructed or trained commensurate with work; HACCP training for those responsible for Article 5(1) procedures", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32004R0852"},
+    {"claim": "Chapter XIa food safety culture appropriate training and supervision; Article 5(2)(g) records commensurate with nature and size; Article 5(4) evidence to competent authority", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02004R0852-20210324"},
+    {"claim": "Regulation (EU) 2021/382 inserted Chapter XIa", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0382"},
+    {"claim": "Commission Notice 2022/C 355/01: waiter versus cook example; refresher frequency according to needs and demonstrated skills; training need not be formal courses", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022XC0916(01)"},
+    {"claim": "Japan Enforcement Regulation Appended Table 17 item 1 appoint food hygiene manager with periodic course attendance for Article 54 licensed businesses; item 13 food handler education with periodic verification of effectiveness and revision", "source": "https://laws.e-gov.go.jp/law/323M40000100023"},
+    {"claim": "NSW RSA required for anyone who sells, serves or supplies alcohol; interim certificate valid 90 days", "source": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/rsa"},
+    {"claim": "NSW competency card valid five years; 28 day grace period if identity check completed before expiry", "source": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/competency-cards"},
+    {"claim": "Licensee permitting staff without RSA $1,100 (LR2018 cl 63(2))", "source": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/competency-cards/fines"},
+    {"claim": "NSW Licensee Training within 60 days for new licence or transfer", "source": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/lt-alt"},
+    {"claim": "Victoria RSA required at general, on-premises, late night and packaged liquor venues; before or within one month of first supplying; refresher every 3 years", "source": "https://www.vic.gov.au/rsa-training"},
+    {"claim": "Victorian licensees keep copy of each current certificate at the venue, immediately available; no more than 3 years old; Advanced RSA within 6 months of late night licence or demerit point", "source": "https://www.vic.gov.au/licensee-training-obligations"},
+    {"claim": "Victoria s108AD(2) failure to keep certificates maximum $1,046, infringement $105", "source": "https://www.vic.gov.au/liquor-offences-and-fines"}
+  ]
+}

@@ -1,0 +1,557 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-pharmaceutical-site",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a pharmaceutical site?",
+  "seoTitle": "Pharmaceutical site training matrix",
+  "description": "Build a GMP training matrix for a pharmaceutical site: FDA, EU, TGA and Japan personnel rules, aseptic qualification, effectiveness checks and retention.",
+  "shortAnswer": "A pharmaceutical site training matrix is built around good manufacturing practice (GMP): every person whose work can affect product quality, including cleaners and maintenance staff, gets basic GMP and duty specific training, with role rows for aseptic operators, visual inspectors and computerized system users. Each cell records its approval, its periodic effectiveness assessment and its retention period, and functions such as laboratories, clinical supply, pharmacovigilance or distribution add rows only where the site performs them.",
+  "keyTakeaways": [
+    "GMP scope is wider than production: EU and PIC/S rules name technical, maintenance and cleaning personnel, and Japan's notice names sterilization and servicing staff.",
+    "Every GMP market asks for effectiveness to be assessed or verified, so a completion flag alone does not satisfy the matrix.",
+    "Sterile sites need qualification cells, not just training cells: gowning at least annually and aseptic process simulation participation.",
+    "Laboratory, clinical, pharmacovigilance and distribution functions bring their own rules. Add them only where the site does that work.",
+    "Retention periods differ by rule and market, so store the retention rule with each requirement."
+  ],
+  "sections": [
+    {
+      "id": "why-gmp-differs",
+      "heading": "What makes a pharmaceutical training matrix different from other industries?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Three features set it apart: the regulator inspects the training record as evidence of product quality, the rules require training effectiveness to be checked, and named quality leaders must approve the program. A [training matrix](/glossary/training-matrix) on a GMP site is therefore part of the quality system, not an HR register."
+        },
+        {
+          "type": "p",
+          "text": "In the United States, failure to comply with the drug current good manufacturing practice (CGMP) regulations renders a drug adulterated, and both the drug and the responsible person are subject to regulatory action (21 CFR 210.1) ([eCFR](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-210/section-210.1)). In the European Union, Commission Directive (EU) 2017/1572 requires personnel to 'receive initial and ongoing training, the effectiveness of which shall be verified' (Article 7(4)) ([EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32017L1572)). EU GMP Chapter 2 adds that training programs are approved by the head of Production or the head of Quality Control, as appropriate (paragraph 2.11)."
+        }
+      ]
+    },
+    {
+      "id": "core-gmp-by-market",
+      "heading": "Which GMP rules set the core of the matrix in each market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each market has one personnel rule that anchors the matrix, and they converge on the same core: GMP basics, duty specific training, continuing training and records. The differences lie in who approves, who receives reports and how effectiveness is evidenced."
+        },
+        {
+          "type": "table",
+          "caption": "Core GMP personnel training rules by market (as summarized on this library's regulation pages)",
+          "head": [
+            "Market",
+            "Anchor rule",
+            "What it adds to the matrix"
+          ],
+          "rows": [
+            [
+              "United States",
+              "[21 CFR 211.25](/regulations/fda-gmp-personnel-training-requirements)",
+              "Training in particular operations and in CGMP, conducted by qualified individuals, on a continuing basis and with sufficient frequency; supervisors covered separately; consultant records under 211.34"
+            ],
+            [
+              "European Union",
+              "[EudraLex Volume 4, Chapter 2](/regulations/eu-gmp-chapter-2-personnel-training-requirements)",
+              "Scope includes technical, maintenance and cleaning personnel; program approval by head of Production or QC; practical effectiveness periodically assessed; visitor and consultant rules"
+            ],
+            [
+              "Australia",
+              "[PIC/S Guide PE009-17 as adopted by the TGA](/regulations/tga-gmp-personnel-training-requirements)",
+              "Same Part I paragraphs 2.10 to 2.14 as the EU text, made binding as a license condition through the Manufacturing Principles Determination"
+            ],
+            [
+              "Japan",
+              "[GMP ordinance Article 19](/regulations/japan-gmp-personnel-training-requirements)",
+              "Designated training lead; written reports to the quality assurance unit and manufacturing supervisor; periodic evaluation of effectiveness with records"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Active pharmaceutical ingredient sites follow ICH Q7 section 3.12 (PIC/S Part II paragraph 3.12), which requires regular training by qualified individuals, records, and periodic assessment ([FDA](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q7-good-manufacturing-practice-guidance-active-pharmaceutical-ingredients-guidance-industry))."
+        }
+      ]
+    },
+    {
+      "id": "gmp-roles",
+      "heading": "How should roles be grouped on a GMP site?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Group roles by the areas a person enters and the quality decisions they make, because that is how GMP scopes training. A useful starting set for a finished dose site is the following."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Heads of Production and Quality Control,** who must ensure initial and continuing training of their departments (EU Chapter 2 paragraphs 2.7(vi) and 2.8(vii)) and approve programs.",
+            "**Production operators,** split into non sterile and aseptic (grade A and B) where the site makes sterile products.",
+            "**Visual inspectors** of filled units, a distinct qualified role on sterile sites.",
+            "**QC analysts and microbiologists.**",
+            "**Quality assurance staff,** including those who review batch records and run self inspection.",
+            "**Engineering, maintenance and cleaning staff,** who enter production and storage areas and are named in scope by EU paragraph 2.10.",
+            "**Warehouse staff,** who handle storage and, at some sites, distribution.",
+            "**Computerized system users and administrators,** whose access level drives their training under [21 CFR Part 11](/regulations/21-cfr-part-11-training-requirements) section 11.10(i) and EU Annex 11.",
+            "**Consultants and contractors,** with records of name, address, qualifications and type of service (211.34; EU paragraph 2.23).",
+            "**Visitors and untrained personnel,** who should preferably not enter production and quality control areas and, if unavoidable, are informed in advance and supervised (EU paragraph 2.13)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Japan's 2021 notice on the GMP ordinance confirms the same breadth, naming cleaning, maintenance, sterilization and servicing staff as trainees, and describing training as knowledge plus practical skills ([PMDA](https://www.pmda.go.jp/files/000264441.pdf))."
+        }
+      ]
+    },
+    {
+      "id": "illustrative-matrix",
+      "heading": "What does a pharmaceutical site matrix look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The matrix below is illustrative, for a hypothetical sterile injectables site that supplies the United States, the EU, Australia and Japan and therefore has to satisfy all four inspectorates. It is cut down to the requirements that most often decide whether a person may work unsupervised."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative requirement matrix for a sterile injectables site supplying four markets",
+          "head": [
+            "GMP or safety requirement, with market",
+            "Who it covers",
+            "When it is due",
+            "Record that proves it"
+          ],
+          "rows": [
+            [
+              "Basic QMS and GMP training (EU, Australia via PIC/S)",
+              "All staff entering production, storage or QC areas, including cleaning and maintenance",
+              "On recruitment; continuing training thereafter",
+              "Training record; periodic assessment of practical effectiveness; program approved by head of Production or QC"
+            ],
+            [
+              "CGMP and operation specific training, 21 CFR 211.25 (United States)",
+              "Every person engaged in manufacture, processing, packing or holding; supervisors",
+              "Continuing basis, with sufficient frequency",
+              "Training record available for inspection during the retention period (211.180(c))"
+            ],
+            [
+              "Training on implemented changes, GMP ordinance Article 14(1)(iv) (Japan)",
+              "Staff affected by a change",
+              "When the change is implemented",
+              "Training record and written report to the quality assurance unit (Article 19)"
+            ],
+            [
+              "Gowning qualification, Annex 1 paragraph 7.4 (EU, Australia via PIC/S)",
+              "Grade A and B operators, plus cleaning, maintenance and monitoring staff entering those areas",
+              "Before unsupervised access; reassessed at least annually",
+              "Visual and microbial assessment at gloved fingers, forearms, chest and hood; grade A glove print no growth"
+            ],
+            [
+              "Aseptic process simulation participation, Annex 1 paragraphs 9.38 and 9.39 (EU, Australia via PIC/S)",
+              "Aseptic operators",
+              "At least one successful APS per operator annually; manual operations: three consecutive initially, then about every 6 months",
+              "APS batch record listing participating operators and results"
+            ],
+            [
+              "Visual inspection qualification, Annex 1 paragraph 8.31 (EU, Australia via PIC/S)",
+              "Manual visual inspectors",
+              "At least annually",
+              "Qualification using defect library samples under worst case conditions, with eyesight checks"
+            ],
+            [
+              "Electronic record and signature system training, 21 CFR 11.10(i) (United States)",
+              "Users, developers and administrators of GMP electronic record systems",
+              "Before access; on system change",
+              "Determination that each person has the education, training and experience for assigned tasks"
+            ],
+            [
+              "[Hazard communication](/regulations/osha-hazard-communication-training-requirements) for laboratory chemicals, 29 CFR 1910.1200(h) (United States)",
+              "QC analysts and others exposed to hazardous chemicals",
+              "At first assignment to the lab; again when a new hazardous chemical enters use",
+              "Training record by hazard category or chemical"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Under [EU GMP Annex 1](/regulations/eu-gmp-annex-1-sterile-manufacturing-training), unsupervised grade A and B access depends on two cells at once: a passed gowning assessment and successful participation in an aseptic process simulation (Annex 1 paragraph 7.4) ([European Commission](https://health.ec.europa.eu/document/download/e05af55b-38e9-42bf-8495-194bbf0b9262_en?filename=20220825_gmp-an1_en_0.pdf)). Build that as a combined clearance rule so the matrix cannot show an operator as cleared when one half has lapsed. Paragraph 7.6 also requires a disqualification route, with retraining and requalification, which should switch the clearance off automatically."
+        }
+      ]
+    },
+    {
+      "id": "site-specific-functions",
+      "heading": "Which functions add requirements only at some sites?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Laboratories doing regulatory safety studies, clinical trial support, pharmacovigilance, wholesale distribution and biological containment each bring a separate rule set. Add these rows only to the roles that perform the function, and keep them visibly separate from the GMP core so inspectors from different programs can find their own evidence."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Nonclinical laboratory studies.** [Good Laboratory Practice](/regulations/glp-personnel-training-requirements) requires a current summary of training and experience and a job description for each individual (21 CFR 58.29(b)), with a quality assurance unit independent of study personnel.",
+            "**Clinical trial activity.** [ICH E6(R3)](/regulations/ich-e6-r3-gcp-training-requirements) requires people involved in a trial to be qualified by education, training and experience, and those using computerized systems to be trained in their use (4.3.2). It sets no fixed refresher interval, so the site must define one.",
+            "**Pharmacovigilance.** Under Implementing Regulation (EU) No 520/2012 Article 10, marketing authorization holders keep trained personnel and records, and GVP Module I extends training to adjacent functions such as complaints, medical information, and sales and marketing ([pharmacovigilance training](/regulations/pharmacovigilance-training-requirements)).",
+            "**Distribution.** The EU [Good Distribution Practice guidelines](/regulations/good-distribution-practice-training-requirements) require role based GDP training, specific training for temperature sensitive and other special products, and training of staff on insulated box assembly.",
+            "**Biological work.** US laboratories handling biological agents follow the BMBL, which expects annual updates and additional training on procedural change, and select agent entities follow 42 CFR 73.15 ([biosafety training](/regulations/biosafety-training-requirements-laboratories))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proving-effectiveness",
+      "heading": "How do you prove GMP training was effective rather than just delivered?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Define an effectiveness method for each requirement in the matrix and record its result alongside completion. The EU, PIC/S and Japanese rules all require it, and FDA's 2006 Quality Systems guidance expects training programs to include evaluation of effectiveness and managers to verify that skills are applied ([FDA](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-systems-approach-pharmaceutical-current-good-manufacturing-practice-regulations))."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Observed performance** for SOP driven tasks, rather than signed read and understand records alone; the trade off is set out in [read and understand versus competency based SOP training](/compare/read-and-understand-vs-competency-based-sop-training).",
+            "**Qualification results** for aseptic work: gowning plates, APS outcomes and visual inspection qualification are effectiveness evidence in themselves.",
+            "**Deviation and CAPA linkage**: where an investigation points to training, the matrix should record the retraining and its check, following [how to use training in a CAPA](/guides/how-to-use-training-in-a-capa).",
+            "**Self inspection**: Japan's 2021 notice lists training activities among self inspection items, and PIC/S Part I paragraph 4.29 lists verification of the effectiveness of training among items that need documented procedures."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "record-retention",
+      "heading": "How long must pharmaceutical training records be kept?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "There is no single period: each rule sets its own, so store a retention rule with every requirement. The figures below come from this library's regulation pages."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Japan GMP: Article 20(1)(iii) sets five years, or shelf life plus one year if longer, for most records but excepts training records; Article 22 fixes five years for training records at API sites.",
+            "US GLP: training summaries and job descriptions follow 21 CFR 58.195, the shortest of 2 years after approval, 5 years after submission, or 2 years after study completion if not submitted.",
+            "EU GDP: documents retained for the period in national legislation and at least five years (section 4.2).",
+            "EU pharmacovigilance: pharmacovigilance system master file elements kept at least five years after the system is formally terminated (Implementing Regulation 520/2012 Article 12(2)).",
+            "US select agents: all Part 73 records, including training, kept for 3 years (42 CFR 73.17(c))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "changes-2026-2027",
+      "heading": "What is changing for pharmaceutical training in 2026 and 2027?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most changes affect computerized systems, clinical trials and pharmacovigilance rather than the GMP personnel core. Flag the rows they touch now."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**EU Annex 11 revision.** The consultation on revised Chapter 4, Annex 11 and new Annex 22 (artificial intelligence) closed on October 7, 2025. The draft Annex 11 adds system specific training tied to access privileges and recurrent security awareness training; the 2011 Annex 11 remains current as at November 2026.",
+            "**ICH E6(R3) Annex 2.** Covering decentralized and pragmatic trial elements, it comes into effect in the EU on January 15, 2027 ([EMA](https://www.ema.europa.eu/en/ich-e6-good-clinical-practice-scientific-guideline)).",
+            "**Pharmacovigilance audits.** Implementing Regulation (EU) 2025/1466 has applied since February 12, 2026 and amends audit and subcontracting rules; Article 10 on training is not among the amended provisions.",
+            "**Australia.** The TGA transition period for Annex 1 changes under PE009-17 ran from September 1, 2025 to March 1, 2026, so sterile sites should already hold Annex 1 qualification evidence.",
+            "**US biosafety.** A draft NIH Biosafety Policy published on September 14, 2026 would replace the NIH Guidelines once finalized."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each GMP requirement to the SOP, market rule and assessment point behind it, so an SOP revision or a new Annex flags the affected roles and the effectiveness check they need. For the general method see [how to build a training matrix](/guides/how-to-build-a-training-matrix); for converting procedures into assessable training, see [how to convert SOPs into training](/guides/how-to-convert-sops-into-training)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do cleaning and maintenance contractors need GMP training on a pharmaceutical site?",
+      "a": "Yes, where they enter production, storage or quality control areas. EU GMP Chapter 2 paragraph 2.10 names technical, maintenance and cleaning personnel, and Annex 1 extends gowning qualification to cleaning and maintenance staff entering cleanrooms. Record them as roles in the matrix rather than on a separate contractor list."
+    },
+    {
+      "q": "Is a signed read and understand record enough for SOP training under GMP?",
+      "a": "It records completion but not effectiveness, which EU, PIC/S and Japanese rules require to be assessed. Many sites keep read and understand for low risk procedural updates and require observed performance or a knowledge check for tasks with direct quality impact. The matrix should state which method applies to each requirement."
+    },
+    {
+      "q": "How often must aseptic operators be requalified?",
+      "a": "Under EU and PIC/S Annex 1, gowning is reassessed at least annually and each operator should take part in at least one successful aseptic process simulation each year. For manual aseptic operations, each operator needs three consecutive successful simulations initially and revalidation about every six months."
+    },
+    {
+      "q": "Should GLP, GCP and GMP training be in one matrix?",
+      "a": "One role and requirement catalog works well, but tag each requirement with its program so each inspectorate can see its own evidence. Most people on a manufacturing site need only GMP rows; GLP and GCP rows apply only to staff who perform that work."
+    }
+  ],
+  "sources": [
+    {
+      "title": "21 CFR Part 211, Subpart B: Organization and Personnel",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B"
+    },
+    {
+      "title": "21 CFR 210.1: Status of current good manufacturing practice regulations",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-210/section-210.1"
+    },
+    {
+      "title": "Quality Systems Approach to Pharmaceutical Current Good Manufacturing Practice Regulations",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-systems-approach-pharmaceutical-current-good-manufacturing-practice-regulations"
+    },
+    {
+      "title": "Q7 Good Manufacturing Practice Guidance for Active Pharmaceutical Ingredients",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q7-good-manufacturing-practice-guidance-active-pharmaceutical-ingredients-guidance-industry"
+    },
+    {
+      "title": "21 CFR 11.10 Controls for closed systems",
+      "publisher": "Legal Information Institute (eCFR text), Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/21/11.10"
+    },
+    {
+      "title": "EudraLex Volume 4, Part 1, Chapter 2: Personnel",
+      "publisher": "European Commission",
+      "url": "https://health.ec.europa.eu/document/download/11f4f8e6-a6e9-4897-afe3-f21e1dc56cb8_en?filename=2014-03_chapter_2.pdf"
+    },
+    {
+      "title": "Commission Directive (EU) 2017/1572 on good manufacturing practice for medicinal products for human use",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32017L1572"
+    },
+    {
+      "title": "EudraLex Volume 4, Annex 1: Manufacture of Sterile Medicinal Products, C(2022) 5938 final",
+      "publisher": "European Commission",
+      "url": "https://health.ec.europa.eu/document/download/e05af55b-38e9-42bf-8495-194bbf0b9262_en?filename=20220825_gmp-an1_en_0.pdf"
+    },
+    {
+      "title": "Public health consultations",
+      "publisher": "European Commission",
+      "url": "https://health.ec.europa.eu/medicinal-products/consultations_en"
+    },
+    {
+      "title": "Therapeutic Goods (Manufacturing Principles) Determination 2020",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2020L00864/latest/text"
+    },
+    {
+      "title": "Transition to new GMP requirements for medicinal products (user guide, August 2025)",
+      "publisher": "Therapeutic Goods Administration",
+      "url": "https://www.tga.gov.au/sites/default/files/2025-08/transition-new-gmp-requirements-medicinal-products.pdf"
+    },
+    {
+      "title": "PIC/S Guide to Good Manufacturing Practice for Medicinal Products, Part I",
+      "publisher": "Pharmaceutical Inspection Co-operation Scheme (PIC/S)",
+      "url": "https://picscheme.org/docview/11332"
+    },
+    {
+      "title": "Ministerial Ordinance on Standards for Manufacturing Control and Quality Control for Drugs and Quasi-drugs (MHLW Ordinance No. 179 of 2004)",
+      "publisher": "Digital Agency, e-Gov Laws",
+      "url": "https://laws.e-gov.go.jp/law/416M60000100179"
+    },
+    {
+      "title": "Notification Concerning Partial Amendment of the GMP Ministerial Ordinance (April 28, 2021)",
+      "publisher": "Ministry of Health, Labour and Welfare, hosted by PMDA",
+      "url": "https://www.pmda.go.jp/files/000264441.pdf"
+    },
+    {
+      "title": "21 CFR 58.29 Personnel",
+      "publisher": "Legal Information Institute (eCFR text), Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/21/58.29"
+    },
+    {
+      "title": "21 CFR 58.195 Retention of records",
+      "publisher": "Legal Information Institute (eCFR text), Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/21/58.195"
+    },
+    {
+      "title": "ICH E6(R3) Guideline for good clinical practice (GCP), Step 5",
+      "publisher": "European Medicines Agency",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-e6-r3-guideline-good-clinical-practice-gcp-step-5_en.pdf"
+    },
+    {
+      "title": "ICH E6 Good clinical practice: scientific guideline",
+      "publisher": "European Medicines Agency",
+      "url": "https://www.ema.europa.eu/en/ich-e6-good-clinical-practice-scientific-guideline"
+    },
+    {
+      "title": "Commission Implementing Regulation (EU) No 520/2012 on the performance of pharmacovigilance activities",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0520"
+    },
+    {
+      "title": "Commission Implementing Regulation (EU) 2025/1466",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025R1466"
+    },
+    {
+      "title": "Guideline on good pharmacovigilance practices (GVP), Module I",
+      "publisher": "European Medicines Agency",
+      "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-good-pharmacovigilance-practices-module-i-pharmacovigilance-systems-and-their-quality-systems_en.pdf"
+    },
+    {
+      "title": "Guidelines of 5 November 2013 on Good Distribution Practice of medicinal products for human use (2013/C 343/01)",
+      "publisher": "EUR-Lex, Official Journal of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52013XC1123(01)"
+    },
+    {
+      "title": "BMBL 6th edition, full text (PDF)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/labs/media/pdfs/2025/08/SF__19a_308133-A_BMBL6_00-BOOK-WEB-final-3.pdf"
+    },
+    {
+      "title": "42 CFR 73.17 Records",
+      "publisher": "Legal Information Institute (eCFR text), Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/42/73.17"
+    },
+    {
+      "title": "Draft NIH Biosafety Policy for Research Involving Biohazards",
+      "publisher": "National Institutes of Health, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/09/14/2026-18646/draft-nih-biosafety-policy-for-research-involving-biohazards"
+    },
+    {
+      "title": "29 CFR 1910.1200: Hazard communication",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/29/1910.1200"
+    }
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "eu-gmp-chapter-2-personnel-training-requirements",
+    "fda-gmp-personnel-training-requirements",
+    "eu-gmp-annex-1-sterile-manufacturing-training",
+    "read-and-understand-vs-competency-based-sop-training",
+    "how-to-convert-sops-into-training"
+  ],
+  "productLinks": [
+    {
+      "label": "Healthcare and life sciences",
+      "href": "/industries/healthcare-life-sciences"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "21 CFR 211.25(a): training in particular operations and in CGMP, conducted by qualified individuals on a continuing basis and with sufficient frequency; 211.25(b) supervisors; 211.34 consultant records of name, address, qualifications and type of service.",
+      "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B"
+    },
+    {
+      "claim": "21 CFR 210.1: failure to comply renders drug adulterated; drug and responsible person subject to regulatory action.",
+      "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-210/section-210.1"
+    },
+    {
+      "claim": "211.180(c): records readily available for authorized inspection during the retention period.",
+      "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-J"
+    },
+    {
+      "claim": "FDA Quality Systems guidance (2006) expects training programs with evaluation of effectiveness and managers verifying skills are applied.",
+      "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-systems-approach-pharmaceutical-current-good-manufacturing-practice-regulations"
+    },
+    {
+      "claim": "ICH Q7 section 3.12: training by qualified individuals, records, periodic assessment.",
+      "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q7-good-manufacturing-practice-guidance-active-pharmaceutical-ingredients-guidance-industry"
+    },
+    {
+      "claim": "21 CFR 11.10(i): determination that persons who develop, maintain, or use electronic record/electronic signature systems have the education, training, and experience to perform their assigned tasks.",
+      "source": "https://www.law.cornell.edu/cfr/text/21/11.10"
+    },
+    {
+      "claim": "EU GMP Chapter 2: 2.10 scope includes technical, maintenance and cleaning personnel; 2.11 basic QMS and GMP training, duty-specific training, continuing training with practical effectiveness periodically assessed, programs approved by head of Production or QC; 2.13 visitors; 2.7(vi) and 2.8(vii) heads ensure training; 2.23 consultant records.",
+      "source": "https://health.ec.europa.eu/document/download/11f4f8e6-a6e9-4897-afe3-f21e1dc56cb8_en?filename=2014-03_chapter_2.pdf"
+    },
+    {
+      "claim": "Directive (EU) 2017/1572 Article 7(4): initial and ongoing training, the effectiveness of which shall be verified.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32017L1572"
+    },
+    {
+      "claim": "Annex 1: 7.3 training includes cleaning, maintenance and monitoring staff; 7.4 gowning assessment at least annually, visual and microbial at gloved fingers, forearms, chest and hood, unsupervised access only after passed gowning and successful APS, grade A no growth; 7.6 disqualification and requalification; 8.31 visual inspection qualification at least annually with defect library, worst case conditions and eyesight checks; 9.38 and 9.39 APS participation frequencies.",
+      "source": "https://health.ec.europa.eu/document/download/e05af55b-38e9-42bf-8495-194bbf0b9262_en?filename=20220825_gmp-an1_en_0.pdf"
+    },
+    {
+      "claim": "Consultation on revised Chapter 4, Annex 11 and new Annex 22 closed (deadline 7 October 2025).",
+      "source": "https://health.ec.europa.eu/medicinal-products/consultations_en"
+    },
+    {
+      "claim": "Draft Annex 11 5.2 system-specific training corresponding to access privileges; 15.3 recurrent security awareness training.",
+      "source": "https://health.ec.europa.eu/document/download/40231f18-e564-4043-94de-c031f813d38b_en?filename=mp_vol4_chap4_annex11_consultation_guideline_en.pdf"
+    },
+    {
+      "claim": "EudraLex Volume 4 page (read 8 November 2026) lists Annex 11 (revision January 2011) as current.",
+      "source": "https://health.ec.europa.eu/medicinal-products/eudralex/eudralex-volume-4_en"
+    },
+    {
+      "claim": "Manufacturing Principles Determination 2020 defines PIC/S Guide as PE 009-17 excluding Annexes 4, 5 and 14; Therapeutic Goods Act s 40(4)(a)(ii) licence condition.",
+      "source": "https://www.legislation.gov.au/F2020L00864/latest/text"
+    },
+    {
+      "claim": "PIC/S Part I paragraphs 2.10 to 2.14 training requirements; 4.29 verification of the effectiveness of training.",
+      "source": "https://picscheme.org/docview/11332"
+    },
+    {
+      "claim": "TGA Annex 1 transition period 1 September 2025 to 1 March 2026.",
+      "source": "https://www.tga.gov.au/sites/default/files/2025-08/transition-new-gmp-requirements-medicinal-products.pdf"
+    },
+    {
+      "claim": "Japan GMP ordinance Article 19 training lead, reports to QA unit and manufacturing supervisor, records, periodic effectiveness evaluation; Article 14(1)(iv) staff training when implementing changes; Article 20(1)(iii) five years or shelf life plus one year except training records; Article 22 five years for training records at API sites.",
+      "source": "https://laws.e-gov.go.jp/law/416M60000100179"
+    },
+    {
+      "claim": "2021 notice section 27: trainees include cleaning, maintenance, sterilization and servicing staff; knowledge plus practical skills; section 26 lists training among self inspection items.",
+      "source": "https://www.pmda.go.jp/files/000264441.pdf"
+    },
+    {
+      "claim": "21 CFR 58.29(b) current summary of training and experience and job description; 58.35 QA unit independent of study personnel.",
+      "source": "https://www.law.cornell.edu/cfr/text/21/58.29"
+    },
+    {
+      "claim": "21 CFR 58.195(b) and (e) retention periods for training summaries and job descriptions.",
+      "source": "https://www.law.cornell.edu/cfr/text/21/58.195"
+    },
+    {
+      "claim": "ICH E6(R3) Principle 5.1 qualified by education, training and experience; 4.3.2 computerized system users appropriately trained; no fixed refresher interval.",
+      "source": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-e6-r3-guideline-good-clinical-practice-gcp-step-5_en.pdf"
+    },
+    {
+      "claim": "ICH E6(R3) Annex 2 comes into effect on 15 January 2027.",
+      "source": "https://www.ema.europa.eu/en/ich-e6-good-clinical-practice-scientific-guideline"
+    },
+    {
+      "claim": "IR 520/2012 Article 10 trained personnel and records; Article 12(2) PSMF elements kept at least five years after system formally terminated.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0520"
+    },
+    {
+      "claim": "IR 2025/1466 applies from 12 February 2026; Article 10 not among amended provisions.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025R1466"
+    },
+    {
+      "claim": "GVP Module I I.B.7 training for adjacent functions incl. complaints, medical information, sales and marketing.",
+      "source": "https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-good-pharmacovigilance-practices-module-i-pharmacovigilance-systems-and-their-quality-systems_en.pdf"
+    },
+    {
+      "claim": "GDP 2.4 role-based training and specific training for temperature-sensitive and other special products; 9.4 insulated box assembly training; 4.2 documents retained at least five years.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52013XC1123(01)"
+    },
+    {
+      "claim": "BMBL: records maintained, annual updates and additional training on procedural change.",
+      "source": "https://www.cdc.gov/labs/media/pdfs/2025/08/SF__19a_308133-A_BMBL6_00-BOOK-WEB-final-3.pdf"
+    },
+    {
+      "claim": "42 CFR 73.17(c): all Part 73 records maintained for 3 years.",
+      "source": "https://www.law.cornell.edu/cfr/text/42/73.17"
+    },
+    {
+      "claim": "Draft NIH Biosafety Policy published September 14, 2026; will replace NIH Guidelines when finalized.",
+      "source": "https://www.federalregister.gov/documents/2026/09/14/2026-18646/draft-nih-biosafety-policy-for-research-involving-biohazards"
+    },
+    {
+      "claim": "1910.1200(h)(1) training at initial assignment and when a new chemical hazard is introduced.",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.1200"
+    }
+  ]
+}

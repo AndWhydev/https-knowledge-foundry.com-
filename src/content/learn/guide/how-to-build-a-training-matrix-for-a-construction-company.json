@@ -1,0 +1,314 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-construction-company",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a construction company?",
+  "seoTitle": "Construction training matrix",
+  "description": "Build a construction training matrix: trades and supervisors against white cards, licences, SWMS, fall, scaffold, silica, crane and asbestos rules by market.",
+  "shortAnswer": "A construction training matrix lists site roles such as laborers, scaffolders, crane operators, concrete cutters and supervisors against the obligations each market imposes: Australian white cards, high risk work licences, SWMS briefings and asbestos training; US OSHA fall protection, scaffold, silica and crane rules; and general duties in the EU, Portugal, Japan and Abu Dhabi. Each cell records the trigger, the renewal or retraining rule, and the evidence an inspector will ask for.",
+  "keyTakeaways": [
+    "Construction obligations attach to tasks (working at height, cutting concrete, lifting, entering pits), so split broad trade titles into task based roles.",
+    "Only a few frequencies are fixed in law, such as the 5 year life of an Australian high risk work licence and US crane certification; most US construction retraining is triggered by change or poor performance.",
+    "Australian white cards have no printed expiry but stop counting after 2 years without construction work, so the matrix must track activity, not just the card.",
+    "Principal contractors need subcontractor rows: card and licence sighting, SWMS collection and site induction are their evidence, not the subcontractor's.",
+    "State the market on every row. A multi country builder runs different rules for the same task in Sydney, Texas, Lisbon, Osaka and Abu Dhabi."
+  ],
+  "sections": [
+    {
+      "id": "why-construction-differs",
+      "heading": "Why does a construction company need its own kind of training matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because construction obligations are triggered by the task a person does on a given day, not by their payroll title. A carpenter who spends a week on a roof edge, then cuts fiber cement, then helps strip a scaffold has picked up three separate sets of requirements. A generic [training matrix](/guides/how-to-build-a-training-matrix) built on job titles misses that."
+        },
+        {
+          "type": "p",
+          "text": "The second difference is the workforce. Most people on a construction site are employed by someone other than the principal contractor, so the matrix has to show what the builder checked, not only what its own employees completed. The third is that licenses and cards are issued by regulators and training organizations outside the company, which means expiry and validity rules sit outside the company's control and must be tracked rather than set."
+        }
+      ]
+    },
+    {
+      "id": "obligation-sources",
+      "heading": "Which regulations feed a construction training matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "In practice, the obligations come from each market's construction specific rules plus its general duty to train. The table lists the sources documented in this library, as at November 2026."
+        },
+        {
+          "type": "table",
+          "caption": "Obligation sources by market",
+          "head": ["Market", "Regulator", "What it adds to the matrix", "Library page"],
+          "rows": [
+            ["Australia (model WHS jurisdictions)", "Safe Work Australia (model laws) and state and territory WHS regulators", "General construction induction card before any construction work", "[White card](/regulations/general-construction-induction-white-card)"],
+            ["Australia (model WHS jurisdictions)", "State and territory WHS regulators", "SWMS for 18 categories of high risk construction work, and worker understanding of it", "[SWMS and high risk construction work](/regulations/construction-swms-and-high-risk-construction-work-training)"],
+            ["Australia (model WHS jurisdictions)", "State and territory WHS regulators, for example SafeWork NSW", "Licences for scaffolding, dogging, rigging, cranes, hoists and forklifts", "[High risk work licences](/regulations/high-risk-work-licence-requirements)"],
+            ["Australia (model WHS jurisdictions)", "State and territory WHS regulators", "Three tiers of asbestos training and 5 year records", "[Asbestos training](/regulations/asbestos-removal-and-awareness-training-australia)"],
+            ["Australia (all jurisdictions)", "Comcare, state and territory regulators, WorkSafe Victoria", "General duty to train, first aid coverage, psychosocial controls", "[WHS duty to train](/regulations/whs-act-duty-to-provide-training), [first aid](/regulations/first-aid-training-requirements-australia), [psychosocial hazards](/regulations/psychosocial-hazards-training-requirements)"],
+            ["United States", "Occupational Safety and Health Administration (OSHA)", "Fall protection, scaffold, silica and crane operator rules in 29 CFR 1926", "[Fall protection](/regulations/osha-fall-protection-training-requirements), [scaffolds](/regulations/osha-scaffold-training-requirements), [silica](/regulations/osha-silica-construction-training-requirements), [cranes](/regulations/osha-crane-operator-certification-requirements), [OSHA overview](/regulations/osha-training-requirements)"],
+            ["United States and Australia", "OSHA; state and territory WHS regulators", "Confined space entrants, attendants, supervisors and rescuers", "[Confined spaces](/regulations/confined-space-training-requirements)"],
+            ["European Union", "National labor inspectorates", "Job specific training at recruitment, transfer, new equipment and new technology", "[EU OSH Framework Directive](/regulations/eu-osh-framework-directive-training)"],
+            ["Portugal", "Autoridade para as Condições do Trabalho (ACT)", "Training suited to the workstation and high risk activities; annual consultation on the program", "[Portugal OHS training](/regulations/portugal-ohs-training-requirements)"],
+            ["Japan", "Ministry of Health, Labour and Welfare (MHLW)", "Hiring and change of work education, special education, foreman education in construction", "[Industrial Safety and Health Act](/regulations/japan-industrial-safety-and-health-act-training)"],
+            ["United Arab Emirates (Abu Dhabi)", "Abu Dhabi Public Health Center (ADPHC)", "Risk based training plan, annual review, heat training before summer", "[ADOSH-SF](/regulations/oshad-abu-dhabi-ohs-training)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roles-to-list",
+      "heading": "Which roles belong on the vertical axis?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "List roles by the hazardous tasks they perform, then add the supervisory and site management roles that carry distinct duties. A useful construction role list usually includes the following."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Any person doing construction work**, including engineers, surveyors and managers who enter the site, because the Australian white card applies to all of them.",
+            "**Workers at height**: roofers, framers, leading edge and facade workers.",
+            "**Scaffold users** and, separately, **scaffold erectors and inspectors**, since OSHA sets different trainers and content for each group.",
+            "**Lifting crew**: crane operators, operators in training, doggers and riggers.",
+            "**Concrete and masonry cutters**, for silica exposure.",
+            "**Trades who may disturb asbestos**, such as plumbers, electricians and demolition crew, and **licensed removal workers and supervisors** as a separate role.",
+            "**Confined space entrants, attendants, entry supervisors and rescuers.**",
+            "**Supervisors, leading hands and foremen**, who enforce SWMS and, in Japan, receive foreman education.",
+            "**Site managers for the principal contractor**, who own subcontractor checks.",
+            "**First aiders, health and safety representatives and emergency wardens.**"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Defining roles this way is a form of [job task analysis](/guides/how-to-conduct-a-job-task-analysis): the task list, not the trade name, decides the requirements."
+        }
+      ]
+    },
+    {
+      "id": "illustrative-matrix",
+      "heading": "What does a construction training matrix look like in practice?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The matrix below is illustrative. It shows a hypothetical builder with projects in Australia (a model WHS jurisdiction), the United States, Portugal, Japan and Abu Dhabi, reduced to one row per role and obligation. Frequencies marked as fixed come from the cited rules; the rest are trigger based."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative construction matrix: role by obligation, with market, frequency and evidence",
+          "head": ["Role", "Market", "Obligation", "Trigger and frequency", "Evidence held"],
+          "rows": [
+            ["All site workers", "Australia", "General construction induction (white card)", "Before first construction work; retrain if card is over 2 years old and no construction work in the past 2 years", "Card or certification issued within 60 days; record of last construction work date"],
+            ["Formwork crew on a 2.5 m deck", "Australia", "SWMS briefing for high risk construction work", "Before the task; again when the SWMS is revised", "Signed briefing against the SWMS version in use"],
+            ["Supervisor, leading hand", "Australia", "Trained and authorized to ensure work follows the SWMS", "On appointment; on SWMS change", "Authorization record and training record"],
+            ["Crane operator, dogger", "Australia", "High risk work licence for the class", "Before operating; licence expires after 5 years", "Licence sighted, copy and sighting record kept at least 1 year"],
+            ["Electrician on a refurbishment", "Australia", "Asbestos identification and safe handling (r 445)", "Before work that may disturb asbestos", "Training record kept while working and 5 years after"],
+            ["First aider", "Australia", "Provide First Aid qualification (model Code)", "CPR refresher annually; requalify every 3 years", "Statement of Attainment from an RTO"],
+            ["Roofer", "United States", "Fall protection training by a competent person", "Before exposure; retrain on workplace or equipment change or observed gaps", "Written certification: name, dates, trainer or employer signature"],
+            ["Scaffold erector", "United States", "Erector and dismantler training by a competent person", "Before the task; retrain when changes or poor performance show lost proficiency", "Training record (no certification format prescribed)"],
+            ["Concrete cutter", "United States", "Silica: demonstrate knowledge of six topics", "Before exposure; plan reviewed annually", "Knowledge check result and hazard communication record"],
+            ["Crane operator", "United States", "Certification plus employer evaluation", "Certification valid 5 years; evaluation before operating", "Certificate and signed evaluation documentation"],
+            ["Confined space attendant", "United States", "Permit space training", "Before first assignment and on duty, hazard or performance change", "Record with employee name, trainer names and dates"],
+            ["New laborer", "Portugal", "OHS training suited to workstation and high risk activities", "On admission; change of job, equipment or technology", "Training record; annual consultation on the program"],
+            ["New foreman", "Japan", "Foreman education (construction is a designated industry)", "On appointment", "Course record against statutory topics and hours"],
+            ["All site workers", "Abu Dhabi", "Heat training under CoP 11.0", "Within 10 days of starting and before the summer months", "Attendance in a language the worker understands"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fixed-versus-triggered",
+      "heading": "Which refresh intervals are fixed and which are triggered?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most construction refresher rules are triggered by change or poor performance, and only a handful set a calendar interval. Treat the two differently: fixed intervals drive due dates, triggers need an event feed."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Fixed.** Australian high risk work licences expire 5 years after grant (model WHS Regulations r 92). US crane operator certification is valid 5 years (29 CFR 1926.1427(d) and (e)). US confined space rescuers practice at least every 12 months (1926.1211(b)(4)). The written silica exposure control plan is reviewed at least annually (1926.1153(g)(2)). The model first aid Code recommends annual CPR refreshers and requalification every 3 years.",
+            "**Triggered by change.** OSHA fall protection retraining follows workplace changes, changes in systems or equipment, or gaps in knowledge or use (1926.503(c)). Scaffold retraining follows worksite or equipment changes or inadequate performance (1926.454(c)). Australian SWMS are reviewed when control measures are revised (r 302). The EU Framework Directive's Article 12 lists recruitment, transfer or change of job, new or changed equipment and new technology.",
+            "**Triggered by inactivity.** The Australian white card has no printed expiry, but a worker whose training is more than 2 years old and who has not done construction work in the preceding 2 years must be retrained (r 316)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For the reasoning behind choosing intervals where the law is silent, see [mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles)."
+        }
+      ]
+    },
+    {
+      "id": "subcontractor-rows",
+      "heading": "How should a principal contractor record subcontractor competence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "By giving subcontractor workers their own rows, with evidence rules that describe what the principal contractor saw. Under the model WHS Regulations, a construction project is work costing $250,000 or more (r 292), and the principal contractor must obtain SWMS before high risk construction work starts (r 312)."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Collect each subcontractor's SWMS and record the version against the activity.",
+            "Sight white cards; a worker who has applied but not received one may present certification issued within the preceding 60 days (r 317(2)).",
+            "Sight high risk work licences and keep the record for at least 1 year (r 85).",
+            "Deliver the site specific induction and record it separately from the white card, which covers general content only.",
+            "Recheck at each mobilization rather than once per contract, because cards lapse through inactivity and licences expire."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Australian currency note",
+          "text": "The model WHS laws apply in every Australian jurisdiction except Victoria, which has its own Occupational Health and Safety Act 2004 with an equivalent duty to train. Check local adoption before relying on a model regulation number."
+        }
+      ]
+    },
+    {
+      "id": "inspector-evidence",
+      "heading": "What evidence will a construction inspector ask to see?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Inspectors ask for the record each rule prescribes, so the matrix's evidence column should copy the rule's own fields. Completion alone rarely satisfies them."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "OSHA fall protection: a written certification with the employee's name, training dates and the trainer's or employer's signature, keeping the latest one (1926.503(b)).",
+            "OSHA silica: each employee must be able to demonstrate knowledge of the listed topics, which points to an assessed check rather than attendance (1926.1153(i)(2)).",
+            "OSHA cranes: a certificate does not by itself make an operator qualified; the employer's evaluation must also be documented (1926.1427(f)).",
+            "US confined spaces in construction: records with employee and trainer names and dates, kept for the period of employment (1926.1207(d)). Australian confined space training records: 2 years (r 76(2)).",
+            "Australian asbestos: training records for 5 years after the worker stops the work (r 445(3)), and licensed removal records accessible at the removal area (r 461).",
+            "Japan: special education records kept for 3 years under Ordinance article 38."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "OSHA's preliminary FY 2026 top ten most cited standards place 1926.501 duty to have fall protection first and the 1926.503 training requirement eighth, which is why the fall protection cell deserves the strictest evidence rule. See [preparing training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
+        }
+      ]
+    },
+    {
+      "id": "language-and-understanding",
+      "heading": "How do language rules change the matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They add an understanding requirement to cells that might otherwise accept a signature. Construction crews are often multilingual, and several markets say so directly."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Safe Work Australia's SWMS information sheet says a SWMS must be easily understood, including by workers from non English speaking backgrounds.",
+            "OSHA's 2010 Training Standards Policy Statement says training means presenting information in a manner employees can understand, including language and vocabulary.",
+            "ADOSH-SF Element 1 requires information, instruction, training and supervision in appropriate languages.",
+            "Under the model Code of Practice on managing WHS risks, a signed acknowledgment of a procedure is not enough on its own to show a worker has been trained."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Record the language of delivery in the evidence column for SWMS briefings and heat training."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models each construction obligation as a requirement linked to its source clause, the task based roles it applies to, and the evidence rule that proves it, so a SWMS revision or a regulatory change flags the affected cells. See [gap analysis](/platform/gap-analysis)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a white card ever expire?",
+      "a": "The model WHS Regulations do not put an expiry date on the card. However, a business must not allow construction work by someone whose training is more than 2 years old if they have not done construction work in the preceding 2 years. SafeWork NSW describes the card as void in that situation."
+    },
+    {
+      "q": "Is an OSHA 10 or 30 hour Outreach card enough for OSHA construction training duties?",
+      "a": "No. OSHA states that its Outreach Training Program is voluntary, does not meet the training requirements of any OSHA standard and is not a certification. Standard specific training, such as fall protection or scaffold training, still has to be provided and paid for by the employer."
+    },
+    {
+      "q": "Who should own the construction training matrix?",
+      "a": "Usually the safety or operations function owns the rules, while each project's site manager owns subcontractor checks and status for people on that site. Officers have a role too: in Australia, due diligence under section 27(5) of the WHS Act includes taking reasonable steps to verify that resources and processes are provided and used."
+    },
+    {
+      "q": "Should psychosocial hazard training be a matrix row?",
+      "a": "It can be, but it should not be the main control. Victoria's Psychological Health Regulations 2025 allow information, instruction or training to be relied on alone only where changing work design, systems or environment is not reasonably practicable. Record training as one control among several."
+    }
+  ],
+  "sources": [
+    { "title": "Model Work Health and Safety Regulations (5 December 2025)", "publisher": "Safe Work Australia", "url": "https://www.safeworkaustralia.gov.au/doc/model-work-health-and-safety-regulations" },
+    { "title": "Model Code of Practice: Construction work (November 2024)", "publisher": "Safe Work Australia", "url": "https://www.safeworkaustralia.gov.au/doc/model-code-practice-construction-work" },
+    { "title": "Safe work method statement for high risk construction work: information sheet", "publisher": "Safe Work Australia", "url": "https://www.safeworkaustralia.gov.au/doc/safe-work-method-statement-high-risk-construction-work-information-sheet" },
+    { "title": "Model WHS Regulations (5 December 2025) PDF, Part 4.5 and Schedules 3 and 4", "publisher": "Safe Work Australia", "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf" },
+    { "title": "White cards", "publisher": "SafeWork NSW", "url": "https://www.safework.nsw.gov.au/licences-and-registrations/white-cards" },
+    { "title": "Model WHS laws", "publisher": "Safe Work Australia", "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/model-whs-laws" },
+    { "title": "Work Health and Safety Act 2011 (Cth)", "publisher": "Federal Register of Legislation", "url": "https://www.legislation.gov.au/C2011A00137/latest/text" },
+    { "title": "Model Code of Practice: How to manage work health and safety risks", "publisher": "Safe Work Australia", "url": "https://www.safeworkaustralia.gov.au/doc/model-code-practice-how-manage-work-health-and-safety-risks" },
+    { "title": "Model Code of Practice: First aid in the workplace (July 2019)", "publisher": "Safe Work Australia", "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2021-10/code_of_practice_-_first_aid_in_the_workplace_July%202019.pdf" },
+    { "title": "Occupational Health and Safety (Psychological Health) Regulations 2025 (Vic), S.R. No. 103/2025", "publisher": "Victorian Legislation", "url": "https://www.legislation.vic.gov.au/as-made/statutory-rules/occupational-health-and-safety-psychological-health-regulations-2025" },
+    { "title": "29 CFR 1926.503: Training requirements", "publisher": "Legal Information Institute, Cornell Law School (eCFR text)", "url": "https://www.law.cornell.edu/cfr/text/29/1926.503" },
+    { "title": "29 CFR 1926.454: Training requirements", "publisher": "Legal Information Institute, Cornell Law School (eCFR text)", "url": "https://www.law.cornell.edu/cfr/text/29/1926.454" },
+    { "title": "29 CFR 1926.1153: Respirable crystalline silica", "publisher": "Legal Information Institute, Cornell Law School (eCFR text)", "url": "https://www.law.cornell.edu/cfr/text/29/1926.1153" },
+    { "title": "29 CFR 1926.1427: Operator training, certification, and evaluation", "publisher": "Legal Information Institute, Cornell Law School (eCFR text)", "url": "https://www.law.cornell.edu/cfr/text/29/1926.1427" },
+    { "title": "29 CFR 1926.1207: Training", "publisher": "Legal Information Institute, Cornell Law School (eCFR text)", "url": "https://www.law.cornell.edu/cfr/text/29/1926.1207" },
+    { "title": "29 CFR 1926.1211: Rescue and emergency services", "publisher": "Legal Information Institute, Cornell Law School (eCFR text)", "url": "https://www.law.cornell.edu/cfr/text/29/1926.1211" },
+    { "title": "Top 10 Most Frequently Cited Standards", "publisher": "Occupational Safety and Health Administration", "url": "https://www.osha.gov/top10citedstandards" },
+    { "title": "OSHA Training Standards Policy Statement (April 28, 2010)", "publisher": "Occupational Safety and Health Administration", "url": "https://www.osha.gov/laws-regs/standardinterpretations/2010-04-28" },
+    { "title": "Training Requirements in OSHA Standards (OSHA 2254)", "publisher": "Occupational Safety and Health Administration", "url": "https://www.osha.gov/sites/default/files/publications/osha2254.pdf" },
+    { "title": "Council Directive 89/391/EEC (OSH Framework Directive)", "publisher": "EUR-Lex, Publications Office of the European Union", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391" },
+    { "title": "Lei n.º 102/2009 (consolidated)", "publisher": "Diário da República", "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-56365341" },
+    { "title": "Ordinance on Industrial Safety and Health (Ministry of Labour Ordinance No. 32 of 1972)", "publisher": "e-Gov Law Search, Government of Japan", "url": "https://laws.e-gov.go.jp/law/347M50002000032" },
+    { "title": "Order for Enforcement of the Industrial Safety and Health Act (Cabinet Order No. 318 of 1972)", "publisher": "e-Gov Law Search, Government of Japan", "url": "https://laws.e-gov.go.jp/law/347CO0000000318" },
+    { "title": "ADOSH-SF Management System Elements, Version 4.0", "publisher": "Abu Dhabi Public Health Center (ADPHC)", "url": "https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Elements/Elements-Eng.pdf" },
+    { "title": "Code of Practice 11.0: Safety in the Heat", "publisher": "Abu Dhabi Public Health Center (ADPHC)", "url": "https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Codes-of-Practise/11---Safety-in-the-Heat-v31-English.pdf" }
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "general-construction-induction-white-card",
+    "construction-swms-and-high-risk-construction-work-training",
+    "osha-fall-protection-training-requirements",
+    "how-to-set-up-verification-of-competency",
+    "how-to-build-a-training-matrix-for-a-mining-operation"
+  ],
+  "productLinks": [
+    { "label": "Gap analysis", "href": "/platform/gap-analysis" },
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "Model WHS Regulations r 316: PCBU must provide general construction induction training to a worker who has not completed it, or completed it more than 2 years previously and has not carried out construction work in the preceding 2 years; r 317(2) card or certification issued within the preceding 60 days", "source": "https://www.safeworkaustralia.gov.au/doc/model-work-health-and-safety-regulations" },
+    { "claim": "SafeWork NSW: white card void after two consecutive years without construction work", "source": "https://www.safework.nsw.gov.au/licences-and-registrations/white-cards" },
+    { "claim": "r 291 defines high risk construction work as 18 categories; r 292 construction project is work costing $250,000 or more; r 302 SWMS review when controls revised; r 312 principal contractor must obtain SWMS", "source": "https://www.safeworkaustralia.gov.au/doc/model-work-health-and-safety-regulations" },
+    { "claim": "Code of Practice: Construction work s 6.4: supervisors should be trained and authorized to ensure work follows the SWMS", "source": "https://www.safeworkaustralia.gov.au/doc/model-code-practice-construction-work" },
+    { "claim": "SWMS must be easily understood including by workers from non English speaking backgrounds", "source": "https://www.safeworkaustralia.gov.au/doc/safe-work-method-statement-high-risk-construction-work-information-sheet" },
+    { "claim": "Model WHS Regulations r 92 licence expires 5 years after grant; r 85 PCBU sees written evidence of licence and keeps record at least 1 year", "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf" },
+    { "claim": "r 445 asbestos identification, safe handling and control training; records kept while working and 5 years after ceasing; r 461 records accessible at the removal area", "source": "https://www.safeworkaustralia.gov.au/doc/model-work-health-and-safety-regulations" },
+    { "claim": "r 76(2) confined space training records kept 2 years", "source": "https://www.safeworkaustralia.gov.au/doc/model-work-health-and-safety-regulations" },
+    { "claim": "Model first aid Code: Provide First Aid Statement of Attainment from an RTO, CPR refresher annually, requalification every three years", "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2021-10/code_of_practice_-_first_aid_in_the_workplace_July%202019.pdf" },
+    { "claim": "Model WHS laws implemented in all jurisdictions except Victoria", "source": "https://www.safeworkaustralia.gov.au/law-and-regulation/model-whs-laws" },
+    { "claim": "WHS Act s 27(5) officer due diligence includes verifying provision and use of resources and processes", "source": "https://www.legislation.gov.au/C2011A00137/latest/text" },
+    { "claim": "Model Code on managing WHS risks: insufficient to give a worker the procedure and ask them to acknowledge it", "source": "https://www.safeworkaustralia.gov.au/doc/model-code-practice-how-manage-work-health-and-safety-risks" },
+    { "claim": "Victorian regulation 15(3): information, instruction or training used exclusively only if 15(2)(a) measures not reasonably practicable", "source": "https://www.legislation.vic.gov.au/as-made/statutory-rules/occupational-health-and-safety-psychological-health-regulations-2025" },
+    { "claim": "1926.503(b) certification record contents and latest certification kept; 1926.503(c) retraining triggers", "source": "https://www.law.cornell.edu/cfr/text/29/1926.503" },
+    { "claim": "1926.454(b) erectors trained by a competent person; (c) retraining triggers; no certification record prescribed", "source": "https://www.law.cornell.edu/cfr/text/29/1926.454" },
+    { "claim": "1926.1153(i)(2) employees demonstrate knowledge of six topics; (g)(2) annual review of written exposure control plan", "source": "https://www.law.cornell.edu/cfr/text/29/1926.1153" },
+    { "claim": "1926.1427 certification valid 5 years; (f)(3) certificate cannot by itself make a person qualified; (f)(6) evaluation documentation", "source": "https://www.law.cornell.edu/cfr/text/29/1926.1427" },
+    { "claim": "1926.1207(b) training timing triggers; (d) records with employee name, trainer names, dates, kept for period of employment", "source": "https://www.law.cornell.edu/cfr/text/29/1926.1207" },
+    { "claim": "1926.1211(b)(4) rescue practice every 12 months", "source": "https://www.law.cornell.edu/cfr/text/29/1926.1211" },
+    { "claim": "OSHA preliminary FY 2026 top 10: 1926.501 first, 1926.503 eighth", "source": "https://www.osha.gov/top10citedstandards" },
+    { "claim": "OSHA 2010 policy: train means present information in a manner employees can understand, including language and vocabulary", "source": "https://www.osha.gov/laws-regs/standardinterpretations/2010-04-28" },
+    { "claim": "OSHA 2254: Outreach Training Program is voluntary, does not meet training requirements for any OSHA standard, not a certification; required training provided and paid for by employers", "source": "https://www.osha.gov/sites/default/files/publications/osha2254.pdf" },
+    { "claim": "Directive 89/391/EEC Article 12 triggers: recruitment, transfer or change of job, new or changed equipment, new technology", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391" },
+    { "claim": "Law 102/2009 Article 20 adequate OHS training considering workstation and high risk activities; Article 18(1)(d) annual consultation on training program; Article 19(2) admission, change of job, new equipment, new technology", "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-56365341" },
+    { "claim": "Japan Ordinance article 38 special education records kept 3 years; article 40 foreman topics and hours", "source": "https://laws.e-gov.go.jp/law/347M50002000032" },
+    { "claim": "Japan Cabinet Order article 19 lists construction among foreman education industries", "source": "https://laws.e-gov.go.jp/law/347CO0000000318" },
+    { "claim": "ADOSH-SF Element 1 3.2.5(b)(vii) information, instruction, training and supervision in appropriate languages", "source": "https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Elements/Elements-Eng.pdf" },
+    { "claim": "CoP 11.0 heat training before work in a language employees understand, within 10 days of starting and prior to the summer months", "source": "https://www.adphc.gov.ae/-/media/Project/ADPHC/ADPHC/PDF/OSHAD-SF/Codes-of-Practise/11---Safety-in-the-Heat-v31-English.pdf" }
+  ]
+}

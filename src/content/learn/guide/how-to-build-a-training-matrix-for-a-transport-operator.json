@@ -1,0 +1,597 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-transport-operator",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a transport operator?",
+  "seoTitle": "Training matrix for a transport operator",
+  "description": "A role by obligation training matrix for road, rail and multimodal transport operators: CoR, fatigue, ELDT, DOT, hazmat, rail competence and records.",
+  "shortAnswer": "A transport operator builds its training matrix by listing the transport functions its people perform (driving, scheduling, loading, dangerous goods handling, rail safety work, supervision, executive oversight), mapping each to the regime that governs it in each market, such as the Heavy Vehicle National Law, the Rail Safety National Law or US Department of Transportation rules, and recording the trigger, refresh interval and evidence each regime requires, including licenses and accreditation units.",
+  "keyTakeaways": [
+    "Organize the role axis by transport function, not job title. Australian Chain of Responsibility law, the 2026 Master Code and the IATA dangerous goods rules all work this way.",
+    "Many cells are licenses, endorsements or accredited units rather than internal courses. The evidence is a sighted credential with an expiry date.",
+    "Executives belong on the matrix. Under the Heavy Vehicle National Law, due diligence includes keeping up to date knowledge of safe transport activities.",
+    "Event triggers matter as much as calendars: job changes, revised security plans, incidents and the August 2026 HVNL amendments all reset requirements.",
+    "Record retention differs by regime, from one year for a sighted high risk work license record to three years and more for hazmat and aviation records."
+  ],
+  "sections": [
+    {
+      "id": "regimes-by-mode",
+      "heading": "Which regimes shape a transport operator's training matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The regimes depend on the mode and the market, so the first job is to list which ones actually apply to the operation. A road freight business in eastern Australia and a US motor carrier share almost no rule text, yet both end up with the same matrix shape: functions down one side, obligations across the top."
+        },
+        {
+          "type": "table",
+          "caption": "Regimes covered by this library's regulation pages, by mode and market (as at November 2026)",
+          "head": [
+            "Mode",
+            "Market",
+            "Regime",
+            "Regulation page"
+          ],
+          "rows": [
+            [
+              "Road (heavy vehicles)",
+              "Australia: ACT, NSW, Qld, SA, Tas, Vic",
+              "Heavy Vehicle National Law primary duty and executive due diligence",
+              "[Chain of Responsibility](/regulations/chain-of-responsibility-training-requirements)"
+            ],
+            [
+              "Road (heavy vehicles)",
+              "Australia: HVNL jurisdictions",
+              "Fatigue accreditation units for drivers and schedulers",
+              "[Heavy vehicle fatigue management](/regulations/heavy-vehicle-fatigue-management-training)"
+            ],
+            [
+              "Road (commercial drivers)",
+              "United States",
+              "Entry level driver training before a CDL skills test",
+              "[FMCSA ELDT](/regulations/fmcsa-entry-level-driver-training-requirements)"
+            ],
+            [
+              "Road, transit, rail, aviation, pipeline",
+              "United States",
+              "Drug and alcohol supervisor training and driver education",
+              "[DOT drug and alcohol](/regulations/dot-drug-and-alcohol-supervisor-training)"
+            ],
+            [
+              "All modes carrying hazmat",
+              "United States",
+              "Hazmat employee training under 49 CFR 172.704",
+              "[DOT hazmat](/regulations/dot-hazmat-employee-training)"
+            ],
+            [
+              "Rail",
+              "Australia: RSNL jurisdictions",
+              "Rail safety worker competence under section 117",
+              "[Rail safety worker competence](/regulations/rail-safety-worker-competence-australia)"
+            ],
+            [
+              "Depot and yard plant",
+              "Australia (model WHS jurisdictions)",
+              "High risk work licenses, including forklifts",
+              "[High risk work licenses](/regulations/high-risk-work-licence-requirements)"
+            ],
+            [
+              "Depot and yard plant",
+              "United States",
+              "Powered industrial truck operator training",
+              "[OSHA forklift](/regulations/osha-forklift-operator-training-requirements)"
+            ],
+            [
+              "Air cargo",
+              "International, Australia, United States",
+              "Dangerous goods training under ICAO and IATA",
+              "[Air dangerous goods](/regulations/iata-dangerous-goods-training-requirements)"
+            ],
+            [
+              "Airline operations",
+              "United States",
+              "Part 121 crewmember and dispatcher training",
+              "[FAA Part 121](/regulations/faa-part-121-crewmember-training)"
+            ],
+            [
+              "Aircraft maintenance",
+              "European Union",
+              "Part-145 competence and Part-66 licensing",
+              "[EASA Part-145](/regulations/easa-part-66-and-part-145-staff-training)"
+            ],
+            [
+              "Maritime",
+              "International, Australia, United States",
+              "STCW basic training and five yearly revalidation",
+              "[STCW](/regulations/stcw-seafarer-training-requirements)"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This guide centers on land transport: road freight, road passenger and rail. Aviation and maritime operations carry their own licensing systems and approved programs, so they appear as brief rows, with the detail on their regulation pages. The general method behind the grid is in [how to build a training matrix](/guides/how-to-build-a-training-matrix)."
+        }
+      ]
+    },
+    {
+      "id": "functions-not-titles",
+      "heading": "Should the role axis use job titles or transport functions?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use functions. Transport law assigns duties to what a person does, and one employee often does several things: a depot supervisor may load vehicles, schedule drivers and sign off a reasonable suspicion test in the same week."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "The National Heavy Vehicle Regulator (NHVR) lists ten Chain of Responsibility functions: employer, prime contractor, operator, scheduler, consignor, consignee, packer, loading manager, loader and unloader ([NHVR](https://www.nhvr.gov.au/safety-accreditation-compliance/chain-of-responsibility/the-primary-duty/parties-in-the-cor)).",
+            "The 2026 Master Code moves from a role based to an activity based structure and describes 45 activities ([NHVR](https://www.nhvr.gov.au/safety-accreditation-compliance/industry-codes-of-practice/2026-master-code)).",
+            "IATA dangerous goods guidance ties training to functions rather than job titles, and requires the employer to ensure personnel are competent before performing those functions ([IATA](https://www.iata.org/contentassets/90f8038b0eea42069554b2f4530f49ea/dgcbta-1-en.pdf)).",
+            "The Rail Safety National Law (RSNL) defines classes of rail safety work in section 8, and the competence duty attaches to the person doing that work ([RSNL](https://www.legislation.sa.gov.au/_legislation-documents/lz/c/a/rail-safety-national-law-south-australia-act-2012/current/2012.14.auth.pdf))."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "In practice, define a function list, then let each [role based training](/glossary/role-based-training) profile be a bundle of functions. When a dispatcher starts loading trailers on night shift, adding the loader function pulls in the right requirements without inventing a new job title."
+        }
+      ]
+    },
+    {
+      "id": "illustrative-matrix",
+      "heading": "What does a transport operator's matrix look like in practice?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It looks like a list of function and obligation pairs, each with a market, a frequency and an evidence rule. The table below is illustrative, for a hypothetical operator running heavy vehicles and a small rail siding in New South Wales and a trucking subsidiary in the United States. It is not a complete compliance list."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative matrix: hypothetical road and rail operator (Australia and United States)",
+          "head": [
+            "Function",
+            "Obligation",
+            "Market",
+            "Frequency or trigger",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "Director or senior manager",
+              "HVNL executive due diligence: keep up to date knowledge of safe transport activities (s 26D)",
+              "Australia (HVNL)",
+              "On appointment; after law changes such as the August 2026 amendments",
+              "Briefing record, board papers showing review of safety performance"
+            ],
+            [
+              "Heavy vehicle driver under fatigue accreditation",
+              "Fatigue unit TLIF0030 or a recognized equivalent from an NHVR approved RTO",
+              "Australia (HVNL)",
+              "Before working under the accreditation",
+              "Statement of attainment sighted and copy held"
+            ],
+            [
+              "Scheduler or driver supervisor",
+              "Fatigue unit TLIF0031 or a recognized equivalent",
+              "Australia (HVNL)",
+              "Before scheduling accredited drivers",
+              "Statement of attainment sighted and copy held"
+            ],
+            [
+              "Loader or loading manager",
+              "Load restraint and mass controls under the CoR primary duty",
+              "Australia (HVNL)",
+              "Induction; after incidents or procedure change",
+              "Observed practical check against the operator's loading procedure"
+            ],
+            [
+              "Rail safety worker (shunter, track worker)",
+              "Competence for the rail safety work, assessed against AQF units where they apply (RSNL s 117)",
+              "Australia (RSNL)",
+              "Before rail safety work; periodic reassessment set by the operator",
+              "Regulation 30 competence record including reassessment due date and assessor"
+            ],
+            [
+              "Depot forklift operator",
+              "High risk work license, forklift class",
+              "Australia (model WHS)",
+              "Before operating; license expires after 5 years",
+              "License sighted, record kept at least 1 year"
+            ],
+            [
+              "First time Class A CDL driver",
+              "Entry level driver training from a Training Provider Registry provider",
+              "United States (FMCSA)",
+              "Once, before the CDL skills test",
+              "Certification transmitted through the Training Provider Registry"
+            ],
+            [
+              "CDL driver",
+              "DOT drug and alcohol educational materials",
+              "United States (FMCSA)",
+              "On hire or transfer into a driving position",
+              "Signed certificate of receipt"
+            ],
+            [
+              "Driver supervisor",
+              "60 minutes alcohol misuse plus 60 minutes controlled substances training",
+              "United States (FMCSA)",
+              "Once; recurrent not required by Part 382",
+              "Training record with compliance certification"
+            ],
+            [
+              "Hazmat employee (driver, loader, shipping clerk)",
+              "General awareness, function specific, safety and security awareness training",
+              "United States (PHMSA)",
+              "Within 90 days of hire or job change; at least every 3 years",
+              "Record with completion date, materials, trainer and test certification"
+            ],
+            [
+              "Air freight acceptance clerk (forwarding arm)",
+              "Dangerous goods training for the function",
+              "International (ICAO and IATA)",
+              "Before performing; recurrent within 24 months",
+              "Training record kept at least 36 months"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Two columns do most of the work. The market column stops a US supervisor rule being applied in Sydney. The evidence column separates credentials that are sighted (licenses, statements of attainment) from competence that the operator itself must assess, which is where [verification of competency](/glossary/verification-of-competency) belongs."
+        }
+      ]
+    },
+    {
+      "id": "credentials-in-cells",
+      "heading": "Which cells are credentials rather than internal training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "In transport, a large share of cells are external credentials: licenses, endorsements and accredited units of competency. The operator does not deliver them, but it must check them before work starts and track their validity."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Heavy vehicle fatigue units (Australia).** Operators with fatigue accreditation need drivers to hold TLIF0030 and schedulers, supervisors and managers to hold TLIF0031, or listed earlier equivalents, from an NHVR approved RTO. Courses completed before August 1, 2026 remain recognized ([NHVR](https://www.nhvr.gov.au/safety-accreditation-compliance/fatigue-management/training-in-fatigue-risk-management)).",
+            "**High risk work licenses (Australia).** Regulation 85 of the model WHS Regulations requires the business to see written evidence of the license and keep that record for at least one year; regulation 92 sets a five year license term ([Safe Work Australia](https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf)).",
+            "**Entry level driver training (United States).** First time Class A or B CDL applicants, upgrades to Class A or B, and first time passenger, school bus or hazmat endorsement applicants must train with a provider on the Training Provider Registry ([49 CFR 380.609](https://www.ecfr.gov/current/title-49/section-380.609)). Theory training requires an overall 80 percent assessment score ([49 CFR 380.715](https://www.ecfr.gov/current/title-49/section-380.715)).",
+            "**Rail AQF units (Australia).** Section 117(3) of the RSNL treats an AQF certificate as evidence of competence, but the ONRSR Safety Management System Guideline sets minimum expectations that include periodic reassessment, and separately addresses enterprise attainment that is not recognized under the AQF ([ONRSR](https://www.onrsr.com.au/documents/Guideline/SMS-Guideline.pdf))."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For each credential cell, record three things: the credential type, its expiry or revalidation date, and who sighted it. A cell that says only 'licensed' cannot be audited."
+        }
+      ]
+    },
+    {
+      "id": "supervisors-and-executives",
+      "heading": "How should supervisors, schedulers and executives appear on the matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They appear as functions with their own obligations, because transport law places specific duties on the people who direct drivers and on those who govern the business. Leaving them off is the most common gap in transport matrices."
+        },
+        {
+          "type": "p",
+          "text": "Under section 26D(3) of the Heavy Vehicle National Law, executive due diligence includes acquiring and keeping up to date knowledge about the safe conduct of transport activities, and verifying resources and processes ([HVNL](https://www.legislation.qld.gov.au/view/html/inforce/current/act-2012-021)). The maximum penalty for the most serious category of primary duty breach is $3,000,000 for a corporation and $300,000 or five years imprisonment, or both, for an individual (section 26F). The NHVR also notes that a primary duty breach can be charged even if no incident has occurred ([NHVR](https://www.nhvr.gov.au/safety-accreditation-compliance/chain-of-responsibility/faqs))."
+        },
+        {
+          "type": "p",
+          "text": "In the United States, 49 CFR 382.603 requires each person designated to supervise drivers to receive at least 60 minutes of training on alcohol misuse and an additional 60 minutes on controlled substances, and states that recurrent training is not required ([eCFR](https://www.ecfr.gov/current/title-49/section-382.603)). The rule differs by mode: the Federal Aviation Administration expects a reasonable recurrent training program for drug supervisors in subsequent years ([14 CFR 120.115](https://www.ecfr.gov/current/title-14/section-120.115)). A multimodal operator should record the mode against each supervisor cell rather than assume one rule fits all."
+        }
+      ]
+    },
+    {
+      "id": "event-triggers",
+      "heading": "Which events should reset a transport matrix cell?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Job changes, incidents, revised plans and law changes should each reset specific cells. Calendar refreshes alone miss most of the triggers transport rules actually name."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Job change into a hazmat function.** Training is due within 90 days of employment or a change in job function, with the employee working under direct supervision until then; in-depth security training is due within 90 days of a revised security plan ([49 CFR 172.704](https://www.ecfr.gov/current/title-49/section-172.704)).",
+            "**Incident or unsafe operation on a forklift.** OSHA lists five refresher triggers, including unsafe operation, an accident or near miss, and assignment to a different type of truck ([29 CFR 1910.178](https://www.law.cornell.edu/cfr/text/29/1910.178)).",
+            "**Fatigue incident.** The Safety Management System Standard published in May 2026 includes refreshers or reactive training after incidents among its training criteria ([National Transport Commission](https://www.ntc.gov.au/sites/default/files/assets/files/Safety%20Management%20System%20Standard%20-%20May%202026.pdf)).",
+            "**Law change.** The amended HVNL commenced on August 1, 2026, with supporting instruments approved in May 2026 ([NHVR](https://www.nhvr.gov.au/law-policies/hvnl-reform-implementation)). Executive and scheduler cells should show a briefing on what changed.",
+            "**Transfer into a driving position (United States).** Drug and alcohol educational materials must be provided on hire or transfer, with a signed certificate of receipt ([49 CFR 382.601](https://www.ecfr.gov/current/title-49/section-382.601))."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Setting intervals that fit these triggers is covered in [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles)."
+        }
+      ]
+    },
+    {
+      "id": "records-by-regime",
+      "heading": "How long must a transport operator keep training records?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Retention varies by regime, so the matrix should store the retention rule alongside each obligation. The table summarizes what this library's regulation pages record."
+        },
+        {
+          "type": "table",
+          "caption": "Record retention by regime (as at November 2026)",
+          "head": [
+            "Regime",
+            "Market",
+            "What to keep",
+            "How long"
+          ],
+          "rows": [
+            [
+              "DOT drug and alcohol (49 CFR 382.401)",
+              "United States",
+              "Supervisor training and driver education records with compliance certification",
+              "While the person performs the function and two years after"
+            ],
+            [
+              "Hazmat (49 CFR 172.704(d))",
+              "United States",
+              "Record of current training covering the preceding three years",
+              "During employment and 90 days after"
+            ],
+            [
+              "ELDT providers (49 CFR 380.725)",
+              "United States",
+              "Training provider records",
+              "At least three years"
+            ],
+            [
+              "Air dangerous goods (IATA DGR 1.5.1.4)",
+              "International",
+              "Training records",
+              "At least 36 months from the most recent completion month"
+            ],
+            [
+              "RSNL regulation 30",
+              "Australia",
+              "Competence records including reassessment due dates and assessor qualifications",
+              "As required by the operator's safety management system"
+            ],
+            [
+              "High risk work license (model WHS reg 85)",
+              "Australia",
+              "Record of the sighted license",
+              "At least one year"
+            ],
+            [
+              "EASA Part-145 (145.A.55(d))",
+              "European Union",
+              "Personnel records",
+              "While employed and at least three years after leaving"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Where an operator spans several regimes, the longest applicable period usually becomes the internal rule for that person's file. The broader logic is in [how long to keep training records](/guides/how-long-to-keep-training-records) and [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each matrix cell against the function, the obligation and the market that justify it, so an amendment such as the August 2026 HVNL changes flags the executive and scheduler cells it touches. Evidence rules distinguish sighted credentials from operator assessed competence. See [gap analysis](/platform/gap-analysis) and [audit evidence](/platform/audit-evidence)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the Heavy Vehicle National Law require a specific Chain of Responsibility course?",
+      "a": "No. The HVNL does not prescribe a course. It requires each party to ensure, so far as reasonably practicable, the safety of its transport activities, and requires executives to exercise due diligence. The NHVR lists training or recruitment procedures among the control measures a party can use to meet its primary duty."
+    },
+    {
+      "q": "Do US driver supervisors need refresher drug and alcohol training?",
+      "a": "Not under FMCSA's Part 382, which requires 60 minutes on alcohol misuse and 60 minutes on controlled substances once and states recurrent training is not required. Other DOT agencies differ: the FAA expects a reasonable recurrent program for drug supervisors. Operators often add a refresher by policy, but should mark it as internal rather than regulatory."
+    },
+    {
+      "q": "Should contractors and labor hire drivers be on the operator's matrix?",
+      "a": "Yes, where they perform functions the operator is responsible for. The RSNL competence duty extends to contractors doing rail safety work on an operator's network, and Chain of Responsibility duties follow the function performed. Track their credentials and assessments in the same matrix, flagged by employer."
+    },
+    {
+      "q": "Is a fatigue course completed before August 2026 still valid?",
+      "a": "The NHVR states that courses completed before August 1, 2026 are recognized, and that earlier equivalent units are accepted alongside TLIF0030 for drivers and TLIF0031 for schedulers and managers. Record which unit code each person holds so the matrix can show equivalence clearly."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Heavy Vehicle National Law (Queensland), current version",
+      "publisher": "Queensland Government (legislation.qld.gov.au)",
+      "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2012-021"
+    },
+    {
+      "title": "Parties in the chain of responsibility",
+      "publisher": "National Heavy Vehicle Regulator",
+      "url": "https://www.nhvr.gov.au/safety-accreditation-compliance/chain-of-responsibility/the-primary-duty/parties-in-the-cor"
+    },
+    {
+      "title": "Chain of responsibility FAQs",
+      "publisher": "National Heavy Vehicle Regulator",
+      "url": "https://www.nhvr.gov.au/safety-accreditation-compliance/chain-of-responsibility/faqs"
+    },
+    {
+      "title": "2026 Master Code",
+      "publisher": "National Heavy Vehicle Regulator",
+      "url": "https://www.nhvr.gov.au/safety-accreditation-compliance/industry-codes-of-practice/2026-master-code"
+    },
+    {
+      "title": "HVNL reform implementation",
+      "publisher": "National Heavy Vehicle Regulator",
+      "url": "https://www.nhvr.gov.au/law-policies/hvnl-reform-implementation"
+    },
+    {
+      "title": "Training in fatigue risk management",
+      "publisher": "National Heavy Vehicle Regulator",
+      "url": "https://www.nhvr.gov.au/safety-accreditation-compliance/fatigue-management/training-in-fatigue-risk-management"
+    },
+    {
+      "title": "Safety Management System Standard (May 2026)",
+      "publisher": "National Transport Commission",
+      "url": "https://www.ntc.gov.au/sites/default/files/assets/files/Safety%20Management%20System%20Standard%20-%20May%202026.pdf"
+    },
+    {
+      "title": "Rail Safety National Law (South Australia) Act 2012",
+      "publisher": "South Australian Legislation",
+      "url": "https://www.legislation.sa.gov.au/_legislation-documents/lz/c/a/rail-safety-national-law-south-australia-act-2012/current/2012.14.auth.pdf"
+    },
+    {
+      "title": "Safety Management System Guideline",
+      "publisher": "Office of the National Rail Safety Regulator",
+      "url": "https://www.onrsr.com.au/documents/Guideline/SMS-Guideline.pdf"
+    },
+    {
+      "title": "Model Work Health and Safety Regulations (5 December 2025)",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
+    },
+    {
+      "title": "49 CFR 380.609 and 380.715, entry level driver training",
+      "publisher": "Federal Motor Carrier Safety Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-49/section-380.609"
+    },
+    {
+      "title": "49 CFR 382.603 Training for supervisors",
+      "publisher": "Federal Motor Carrier Safety Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-49/section-382.603"
+    },
+    {
+      "title": "14 CFR 120.115 Employee assistance program",
+      "publisher": "Federal Aviation Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-14/section-120.115"
+    },
+    {
+      "title": "49 CFR 172.704 Training requirements",
+      "publisher": "Pipeline and Hazardous Materials Safety Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-49/section-172.704"
+    },
+    {
+      "title": "29 CFR 1910.178 Powered industrial trucks",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/29/1910.178"
+    },
+    {
+      "title": "Dangerous Goods Competency-Based Training and Assessment guidance",
+      "publisher": "International Air Transport Association",
+      "url": "https://www.iata.org/contentassets/90f8038b0eea42069554b2f4530f49ea/dgcbta-1-en.pdf"
+    },
+    {
+      "title": "Regulation (EU) No 1321/2014, consolidated text",
+      "publisher": "EUR-Lex, European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02014R1321-20260807"
+    }
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "chain-of-responsibility-training-requirements",
+    "heavy-vehicle-fatigue-management-training",
+    "dot-hazmat-employee-training",
+    "rail-safety-worker-competence-australia",
+    "how-to-set-mandatory-training-refresh-cycles"
+  ],
+  "productLinks": [
+    {
+      "label": "Gap analysis",
+      "href": "/platform/gap-analysis"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "Ten CoR functions: employer, prime contractor, operator, scheduler, consignor, consignee, packer, loading manager, loader, unloader.",
+      "source": "https://www.nhvr.gov.au/safety-accreditation-compliance/chain-of-responsibility/the-primary-duty/parties-in-the-cor"
+    },
+    {
+      "claim": "2026 Master Code moves from role based to activity based structure and describes 45 activities.",
+      "source": "https://www.nhvr.gov.au/safety-accreditation-compliance/industry-codes-of-practice/2026-master-code"
+    },
+    {
+      "claim": "HVNL s 26D(3) due diligence includes acquiring and keeping up to date knowledge about safe conduct of transport activities and verifying resources and processes; s 26F maximum penalties individual $300,000 or 5 years or both, corporation $3,000,000.",
+      "source": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2012-021"
+    },
+    {
+      "claim": "A primary duty breach can be charged even if no incident has occurred.",
+      "source": "https://www.nhvr.gov.au/safety-accreditation-compliance/chain-of-responsibility/faqs"
+    },
+    {
+      "claim": "Amended HVNL commenced 1 August 2026; supporting instruments approved May 2026.",
+      "source": "https://www.nhvr.gov.au/law-policies/hvnl-reform-implementation"
+    },
+    {
+      "claim": "Drivers need TLIF0030 and schedulers/supervisors/managers TLIF0031 (or listed equivalents) from an NHVR approved RTO; pre 1 August 2026 courses recognized.",
+      "source": "https://www.nhvr.gov.au/safety-accreditation-compliance/fatigue-management/training-in-fatigue-risk-management"
+    },
+    {
+      "claim": "SMS Standard Schedule 1 clause 8 training criteria include refreshers or reactive training after incidents.",
+      "source": "https://www.ntc.gov.au/sites/default/files/assets/files/Safety%20Management%20System%20Standard%20-%20May%202026.pdf"
+    },
+    {
+      "claim": "RSNL s 8 defines rail safety work; s 117 duty to ensure competence, AQF certificate as evidence (s 117(3)).",
+      "source": "https://www.legislation.sa.gov.au/_legislation-documents/lz/c/a/rail-safety-national-law-south-australia-act-2012/current/2012.14.auth.pdf"
+    },
+    {
+      "claim": "ONRSR SMS Guideline section 6.24 expects periodic reassessment; enterprise attainment not recognized under AQF.",
+      "source": "https://www.onrsr.com.au/documents/Guideline/SMS-Guideline.pdf"
+    },
+    {
+      "claim": "Model WHS reg 85: PCBU sees written evidence of license and keeps record at least 1 year; reg 92: license expires after 5 years.",
+      "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
+    },
+    {
+      "claim": "First time Class A/B CDL, upgrades, and first time P, S, H endorsement applicants must train with a TPR provider.",
+      "source": "https://www.ecfr.gov/current/title-49/section-380.609"
+    },
+    {
+      "claim": "ELDT theory assessment overall minimum score 80 percent.",
+      "source": "https://www.ecfr.gov/current/title-49/section-380.715"
+    },
+    {
+      "claim": "ELDT training provider records retained at least three years.",
+      "source": "https://www.ecfr.gov/current/title-49/section-380.725"
+    },
+    {
+      "claim": "Supervisors: at least 60 minutes alcohol misuse plus 60 minutes controlled substances training; recurrent not required.",
+      "source": "https://www.ecfr.gov/current/title-49/section-382.603"
+    },
+    {
+      "claim": "Educational materials distributed on hire/transfer with signed certificate of receipt.",
+      "source": "https://www.ecfr.gov/current/title-49/section-382.601"
+    },
+    {
+      "claim": "Supervisor and driver education/training records kept while performing function and two years after.",
+      "source": "https://www.ecfr.gov/current/title-49/section-382.401"
+    },
+    {
+      "claim": "FAA requires reasonable recurrent training for drug supervisors in subsequent years.",
+      "source": "https://www.ecfr.gov/current/title-14/section-120.115"
+    },
+    {
+      "claim": "Hazmat training within 90 days of employment or job change under direct supervision; recurrent at least every 3 years; in-depth security training within 90 days of revised plan; records cover preceding 3 years, kept during employment and 90 days after.",
+      "source": "https://www.ecfr.gov/current/title-49/section-172.704"
+    },
+    {
+      "claim": "1910.178(l)(4)(ii) five refresher triggers including unsafe operation, accident or near miss, different truck type.",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.178"
+    },
+    {
+      "claim": "IATA DGR 1.5: competence before performing functions; functions not job titles; records kept minimum 36 months.",
+      "source": "https://www.iata.org/contentassets/90f8038b0eea42069554b2f4530f49ea/dgcbta-1-en.pdf"
+    },
+    {
+      "claim": "EASA 145.A.55(d) personnel records kept while employed and at least 3 years after leaving.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02014R1321-20260807"
+    }
+  ]
+}

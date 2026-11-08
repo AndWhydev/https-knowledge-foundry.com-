@@ -1,0 +1,262 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-mining-operation",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a mining operation?",
+  "seoTitle": "Mining training matrix",
+  "description": "Build a mining training matrix: MSHA Part 46 and 48 hours, NSW statutory function certificates, licences, first aid and confined space rows with evidence.",
+  "shortAnswer": "A mining training matrix sets out every role at a mine, from new miners to statutory officials, against the training each jurisdiction prescribes. In the United States that means MSHA's hours based new miner and 8 hour annual refresher training under Part 46 or Part 48. In New South Wales it means practising certificates and maintenance of competence hours for statutory functions, plus general WHS duties, high risk work licences, first aid and confined space training.",
+  "keyTakeaways": [
+    "Decide first which MSHA part governs each US site: Part 46 for sand, gravel and surface aggregate operations, Part 48 for underground mines and other surface mines.",
+    "MSHA obligations are measured in hours and calendar windows, so the matrix needs hour totals and deadlines, not just completion flags.",
+    "NSW statutory function holders need a current practising certificate and 60 to 120 learning hours per certificate period, tracked person by person.",
+    "General Australian WHS duties, licences, first aid and confined space rules still apply at a mine alongside mining specific rules.",
+    "MSHA records carry a false certification statement, so the evidence column must be accurate enough to sign."
+  ],
+  "sections": [
+    {
+      "id": "two-regimes",
+      "heading": "What makes a mining training matrix different from other industries?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mining is one of the few sectors where regulators prescribe training by the hour and certify individual managers. A [training matrix](/guides/how-to-build-a-training-matrix) for a mine therefore has two layers: a workforce layer for every miner, and a statutory layer for the officials whose competence the law ties to the safety of the whole site."
+        },
+        {
+          "type": "p",
+          "text": "In the United States, the Mine Safety and Health Administration (MSHA) requires mine operators to train miners under an approved plan with minimum hours. In New South Wales, the NSW Resources Regulator issues practising certificates to people exercising statutory functions under Schedule 10 of the Work Health and Safety (Mines and Petroleum Sites) Regulation 2022. The Regulator's maintenance of competence scheme was developed in 2017 following inquiries into the Moura No. 2 and Pike River disasters."
+        }
+      ]
+    },
+    {
+      "id": "regulation-pages",
+      "heading": "Which regulation pages apply to a mine?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Six pages in this library apply to mining operations, as at November 2026. Two are mining specific; four are general Australian duties that apply to every business, mines included."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**United States:** [MSHA miner training under 30 CFR Parts 46 and 48](/regulations/msha-miner-training-requirements).",
+            "**New South Wales:** [competence rules for statutory functions at NSW mines](/regulations/nsw-mining-statutory-functions-competence).",
+            "**Australia, general:** the [WHS duty to provide training](/regulations/whs-act-duty-to-provide-training), [high risk work licences](/regulations/high-risk-work-licence-requirements) for cranes, forklifts, rigging and similar plant, [first aid training](/regulations/first-aid-training-requirements-australia) and the Australian part of [confined space training](/regulations/confined-space-training-requirements)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The US confined space and respiratory pages in this library cite OSHA standards; they are not used here because US mines fall under MSHA. Offshore petroleum facilities are covered separately by NOPSEMA and are outside this guide."
+        }
+      ]
+    },
+    {
+      "id": "msha-rows",
+      "heading": "How do MSHA Part 46 and Part 48 translate into matrix rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each MSHA training type becomes a row with an hour minimum and a deadline, and the applicable part decides the numbers. Assign every US site to a part before building rows."
+        },
+        {
+          "type": "table",
+          "caption": "MSHA minimums by part (30 CFR)",
+          "head": ["Training type", "Part 46 (sand, gravel, surface aggregate)", "Part 48 Subpart A (underground)", "Part 48 Subpart B (other surface mines)"],
+          "rows": [
+            ["New miner", "At least 24 hours: 4 before work, self rescue and first aid within 60 days, balance within 90 days (46.5)", "At least 40 hours before work duties, about 8 at the minesite (48.5)", "24 hours: at least 8 before assignment, remainder within 60 days (48.25)"],
+            ["Annual refresher", "At least 8 hours, no later than 12 months after the previous refresher (46.8)", "At least 8 hours (48.8)", "At least 8 hours (48.28)"],
+            ["Returning experienced miner", "Not summarized here; check the plan", "At least 8 hours after 5 years or more away (48.6)", "Not summarized here; check the plan"],
+            ["Records", "Form 5000 23 or equivalent; refresher records 2 years; all records 60 days after termination (46.9)", "Certificates at the minesite for 2 years or 60 days after termination (48.9)", "Certificates at the minesite for 2 years or 60 days after termination (48.9)"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Part 46 also requires training to follow the written plan, be given by a competent person in a language miners understand (46.4), and take place during normal working hours at normal pay (46.10). Those conditions belong in the evidence rule, not just the course description."
+        }
+      ]
+    },
+    {
+      "id": "statutory-functions",
+      "heading": "How do NSW statutory function holders fit into the matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "As individual rows with two tracked items: a practising certificate with an expiry date, and a running total of learning hours. Certificates are issued for up to 5 years and have been mandatory for the relevant functions since October 1, 2020."
+        },
+        {
+          "type": "table",
+          "caption": "NSW maintenance of competence: learning hours per certificate period",
+          "head": ["Statutory function", "Total learning hours over 5 years"],
+          "rows": [
+            ["Mining, electrical and mechanical engineering manager", "120"],
+            ["Undermanager, tier 1 quarry manager", "90"],
+            ["Deputy, open cut examiner, underground mine supervisor, tier 2 quarry manager", "60"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Three scheme rules affect how the matrix calculates status. From October 1, 2025 up to 40% of hours may be claimed in one year, so a holder cannot finish the requirement in a single burst. First time holders must complete 7 hours of formal disaster learning. And renewal can be sought within 6 months of expiry, while practising on an expired certificate is an offense, so the due soon window should open at least 6 months out."
+        },
+        {
+          "type": "p",
+          "text": "The Regulator audits holders randomly each year through external organizations and reports outcomes to the NSW Mining and Petroleum Competence Board. Keep learning evidence attached to each logged hour, because an audit asks for proof, not totals."
+        }
+      ]
+    },
+    {
+      "id": "illustrative-mining-matrix",
+      "heading": "What does an illustrative mining matrix look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "This example is illustrative. It imagines an operator with a sand and gravel pit in the United States (Part 46), a US underground metal mine (Part 48) and an underground coal mine in New South Wales, condensed to one line per role and obligation."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mining matrix: role by obligation, with market, frequency and evidence",
+          "head": ["Role", "Market", "Obligation", "When and how often", "Evidence"],
+          "rows": [
+            ["New plant operator, sand and gravel pit", "United States (Part 46)", "New miner training, 24 hours minimum", "4 hours before work; self rescue and first aid by day 60; balance by day 90", "Form 5000 23 or equivalent with hours by subject"],
+            ["Every miner, sand and gravel pit", "United States (Part 46)", "Annual refresher, 8 hours minimum", "No later than 12 months after the last refresher", "Signed record kept 2 years"],
+            ["New underground miner", "United States (Part 48)", "New miner training, 40 hours minimum", "Before work duties, about 8 hours at the minesite", "Certificate kept at the minesite"],
+            ["Experienced miner rehired after 6 years away", "United States (Part 48)", "Experienced miner training, 8 hours minimum", "Before work duties", "Certificate kept at the minesite"],
+            ["Deputy", "Australia (NSW)", "Current practising certificate and 60 learning hours", "Certificate up to 5 years; hours spread, no more than 40% in one year", "Certificate copy; learning log with evidence per entry"],
+            ["Mining engineering manager", "Australia (NSW)", "Current practising certificate and 120 learning hours", "Renewal window opens 6 months before expiry", "Certificate copy; learning log; audit response file"],
+            ["Crane operator, surface workshop", "Australia (NSW)", "High risk work license in the crane class held", "Before first lift; renew within the 5 year term", "Copy of license on file; sighting record retained 12 months or more"],
+            ["First aider, remote site", "Australia (NSW)", "Provide First Aid qualification", "CPR refresher annually; requalify every 3 years", "RTO Statement of Attainment"],
+            ["Confined space entrant and stand by person", "Australia (NSW)", "Training on the five topics in r 76", "Before entry or support work; refresher set by task frequency", "Training record kept 2 years"],
+            ["All workers and contractors", "Australia (NSW)", "Training suitable and adequate for the work, risks and controls", "On induction and when risks or controls change", "Assessment showing understanding, not acknowledgment alone"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "australian-general-duties",
+      "heading": "What do general Australian WHS duties add at a mine?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They set the baseline that mining specific rules sit on top of. Section 19(3)(f) of the Work Health and Safety Act 2011 requires any information, training, instruction or supervision necessary to protect all persons from risks arising from work, and regulation 39 requires training to be suitable and adequate for the work, the risks and the control measures."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Licensed plant.** Cranes, hoists, forklifts, dogging and rigging are among the 29 classes of high risk work in Schedule 3 of the model WHS Regulations. Applicants must be at least 18 and licences expire after 5 years.",
+            "**First aid coverage.** The model first aid Code suggests one first aider per 10 workers at remote high risk workplaces, against 1 per 25 at other high risk sites and 1 per 50 at low risk sites. Remote mines should use the tighter ratio when sizing first aider rows.",
+            "**Confined spaces.** Regulation 76 covers workers who enter or support confined space work and their supervisors. The Code of Practice says refresher frequency should depend on how often workers carry out confined space tasks.",
+            "**Officers.** Section 27(5) of the WHS Act makes verifying that resources and processes are provided and used part of officer due diligence, which is a reason to report matrix status to the board."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Victoria has not implemented the model WHS laws, so a Victorian site would need its own source mapping. See [how to report training compliance to the board](/guides/how-to-report-training-compliance-to-the-board)."
+        }
+      ]
+    },
+    {
+      "id": "records-that-clear",
+      "heading": "What records show a miner is cleared to work?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The record each rule names, held where the rule says. Mining regulators are specific about format and location, which makes the evidence column the most important part of the matrix."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "For Part 46 sites, use MSHA Form 5000 23 or an equivalent that includes the false certification statement, keep annual refresher records 2 years, and keep all records for at least 60 days after a miner leaves.",
+            "For Part 48 sites, keep current miners' certificates at the minesite for 2 years or 60 days after termination.",
+            "For NSW statutory officials, hold the current practising certificate and a learning log that can survive a random audit.",
+            "For licensed plant, keep the sighting record of each high risk work licence for at least 1 year.",
+            "For confined space workers in Australia, keep training records for 2 years."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Where a supervisor must confirm that a miner can apply the training, consider [verification of competency](/guides/how-to-set-up-verification-of-competency) as the evidence rule rather than attendance."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry represents hour based and certificate based obligations as structured requirements tied to their source rules and roles, so status can be calculated from hours logged, deadlines and expiry dates rather than ticked by hand. See [energy and resources](/industries/energy-resources)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can MSHA annual refresher training slip past 12 months if the miner is on leave?",
+      "a": "The Part 46 rule is that refresher training must be completed no later than 12 months after the previous refresher was completed. The matrix should flag refresher due dates early enough to schedule the 8 hours around leave, rather than treating leave as an extension."
+    },
+    {
+      "q": "Do contractors at a NSW mine need to be on the matrix?",
+      "a": "Yes, where they carry out work for the business. The WHS Act training duty protects all persons from risks arising from work, and the training must suit the work and its risks. Contractors exercising a statutory function also need their own practising certificate."
+    },
+    {
+      "q": "Is formal coursework required for NSW maintenance of competence hours?",
+      "a": "Since October 1, 2025 the minimum proportion of formal learning has been removed and informal learning types expanded from 14 to 19. First time holders still need 7 hours of formal disaster learning. Hours are spread across learning groups, so the log should record the group for each entry."
+    },
+    {
+      "q": "How long should a mine keep training records?",
+      "a": "It depends on the rule. MSHA Part 46 refresher records are kept 2 years and all records at least 60 days after termination. Australian high risk work licence sighting records are kept at least 1 year and confined space training records 2 years. See the guide on training record retention for wider considerations."
+    }
+  ],
+  "sources": [
+    { "title": "30 CFR Part 46 Training and retraining of miners at sand, gravel, surface stone, surface clay, colloidal phosphate, or surface limestone mines", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-30/chapter-I/subchapter-H/part-46" },
+    { "title": "30 CFR Part 48 Training and retraining of miners", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-30/chapter-I/subchapter-H/part-48" },
+    { "title": "30 CFR 46.8 Annual refresher training", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/30/46.8" },
+    { "title": "Practising certificates overview", "publisher": "NSW Resources Regulator", "url": "https://www.resources.nsw.gov.au/resources-regulator/safety/certification/practising-certificates/practising-certificates-overview" },
+    { "title": "Maintenance of competence", "publisher": "NSW Resources Regulator", "url": "https://www.resources.nsw.gov.au/resources-regulator/safety/certification/maintenance-of-competence" },
+    { "title": "Guide: Revised maintenance of competence for practising certificates from 1 October 2025", "publisher": "NSW Resources Regulator", "url": "https://www.resources.nsw.gov.au/sites/default/files/2025-09/guide-new-moc-scheme-from-1-Oct-2025.pdf" },
+    { "title": "Fact sheet: Changes to maintenance of competence scheme", "publisher": "NSW Resources Regulator", "url": "https://www.resources.nsw.gov.au/sites/default/files/2025-09/fact-sheet-changes-to-moc-ps-from-1-Oct-25.pdf" },
+    { "title": "Renew, vary or revoke a practising certificate", "publisher": "NSW Resources Regulator", "url": "https://www.resources.nsw.gov.au/resources-regulator/safety/certification/practising-certificates/renew-vary-or-revoke" },
+    { "title": "Work Health and Safety Act 2011 (Cth)", "publisher": "Federal Register of Legislation", "url": "https://www.legislation.gov.au/C2011A00137/latest/text" },
+    { "title": "Work Health and Safety Regulations 2011 (Cth)", "publisher": "Federal Register of Legislation", "url": "https://www.legislation.gov.au/F2011L02664/latest/text" },
+    { "title": "History of the model WHS laws", "publisher": "Safe Work Australia", "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/history-model-whs-laws" },
+    { "title": "Model Code of Practice: How to manage work health and safety risks", "publisher": "Safe Work Australia", "url": "https://www.safeworkaustralia.gov.au/doc/model-code-practice-how-manage-work-health-and-safety-risks" },
+    { "title": "Model WHS Regulations (5 December 2025) PDF, Part 4.5 and Schedules 3 and 4", "publisher": "Safe Work Australia", "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf" },
+    { "title": "Model Code of Practice: First aid in the workplace (July 2019)", "publisher": "Safe Work Australia", "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2021-10/code_of_practice_-_first_aid_in_the_workplace_July%202019.pdf" },
+    { "title": "Model Work Health and Safety Regulations (5 December 2025)", "publisher": "Safe Work Australia", "url": "https://www.safeworkaustralia.gov.au/doc/model-work-health-and-safety-regulations" },
+    { "title": "Model Code of Practice: Confined spaces", "publisher": "Safe Work Australia", "url": "https://www.safeworkaustralia.gov.au/doc/model-code-practice-confined-spaces" }
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "msha-miner-training-requirements",
+    "nsw-mining-statutory-functions-competence",
+    "high-risk-work-licence-requirements",
+    "how-to-set-up-verification-of-competency",
+    "how-to-build-a-training-matrix-for-a-construction-company"
+  ],
+  "productLinks": [
+    { "label": "Energy and resources", "href": "/industries/energy-resources" },
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "Part 46 covers shell dredging, sand, gravel, surface stone, surface clay, colloidal phosphate and surface limestone mines", "source": "https://www.ecfr.gov/current/title-30/chapter-I/subchapter-H/part-46" },
+    { "claim": "46.5 at least 24 hours new miner training: no less than 4 hours before work, self rescue and first aid within 60 calendar days, balance within 90 calendar days", "source": "https://www.ecfr.gov/current/title-30/chapter-I/subchapter-H/part-46" },
+    { "claim": "46.8 no less than 8 hours annual refresher, no later than 12 months after previous refresher completed", "source": "https://www.law.cornell.edu/cfr/text/30/46.8" },
+    { "claim": "48.5 at least 40 hours before work duties, about 8 at the minesite; 48.25 24 hours, at least 8 before assignment, remainder within 60 days", "source": "https://www.ecfr.gov/current/title-30/chapter-I/subchapter-H/part-48" },
+    { "claim": "48.8 and 48.28 minimum 8 hours annual refresher; 48.6 at least 8 hours for experienced miners returning after 5 years or more; 48.9 certificates at the minesite 2 years or 60 days after termination", "source": "https://www.ecfr.gov/current/title-30/chapter-I/subchapter-H/part-48" },
+    { "claim": "46.9 Form 5000-23 or equivalent with false certification statement; refresher records 2 years; all records 60 days after termination; 46.4 written plan, competent person, language miners understand; 46.10 normal working hours at normal pay", "source": "https://www.ecfr.gov/current/title-30/chapter-I/subchapter-H/part-46" },
+    { "claim": "Practising certificate required for statutory functions under Schedule 10 of the WHS (Mines and Petroleum Sites) Regulation 2022; up to 5 years; mandatory from October 1, 2020", "source": "https://www.resources.nsw.gov.au/resources-regulator/safety/certification/practising-certificates/practising-certificates-overview" },
+    { "claim": "Learning hours over 5 years: 120, 90, 60 by function; scheme developed in 2017 following Moura No. 2 and Pike River inquiries", "source": "https://www.resources.nsw.gov.au/sites/default/files/2025-09/guide-new-moc-scheme-from-1-Oct-2025.pdf" },
+    { "claim": "From October 1, 2025: up to 40% of hours in one year, minimum formal proportions removed, informal types 14 to 19, 7 hours formal disaster learning for first time holders", "source": "https://www.resources.nsw.gov.au/sites/default/files/2025-09/fact-sheet-changes-to-moc-ps-from-1-Oct-25.pdf" },
+    { "claim": "Random annual audits by external organizations reported to the NSW Mining and Petroleum Competence Board", "source": "https://www.resources.nsw.gov.au/resources-regulator/safety/certification/maintenance-of-competence" },
+    { "claim": "Renewal within 6 months of expiry; practising with an expired certificate is an offense", "source": "https://www.resources.nsw.gov.au/resources-regulator/safety/certification/practising-certificates/renew-vary-or-revoke" },
+    { "claim": "WHS Act s 19(3)(f) training duty; s 27(5) officer due diligence", "source": "https://www.legislation.gov.au/C2011A00137/latest/text" },
+    { "claim": "Regulation 39 training suitable and adequate for nature of work, risks and control measures", "source": "https://www.legislation.gov.au/F2011L02664/latest/text" },
+    { "claim": "Victoria has not implemented the model WHS laws", "source": "https://www.safeworkaustralia.gov.au/law-and-regulation/history-model-whs-laws" },
+    { "claim": "Model code: insufficient to give a worker the procedure and ask them to acknowledge it", "source": "https://www.safeworkaustralia.gov.au/doc/model-code-practice-how-manage-work-health-and-safety-risks" },
+    { "claim": "Model WHS Regulations r 81 and Schedule 3 list 29 classes; r 89 applicant at least 18; r 92 expires after 5 years; r 85 record kept at least 1 year", "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf" },
+    { "claim": "First aid Code: ratios 1:50 low risk, 1:25 high risk, 1:10 remote high risk; CPR annually; requalify every three years; Provide First Aid Statement of Attainment", "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2021-10/code_of_practice_-_first_aid_in_the_workplace_July%202019.pdf" },
+    { "claim": "r 76(1) five topics for workers entering or supporting confined space work and supervisors; r 76(2) records kept 2 years", "source": "https://www.safeworkaustralia.gov.au/doc/model-work-health-and-safety-regulations" },
+    { "claim": "Confined spaces Code: refresher frequency should depend on how often workers carry out confined space tasks", "source": "https://www.safeworkaustralia.gov.au/doc/model-code-practice-confined-spaces" }
+  ]
+}

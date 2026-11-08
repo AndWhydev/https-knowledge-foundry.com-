@@ -1,0 +1,299 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-bank",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a bank?",
+  "seoTitle": "Training matrix for a bank",
+  "description": "Build a bank training matrix: role families, AML, sanctions, conduct, cyber and governance duties by market, with frequency, evidence and a worked grid.",
+  "shortAnswer": "A bank training matrix is built by grouping staff into role families (board, accountable executives, AML compliance, frontline, lending, markets, technology), listing the training duties each banking regulator imposes in every market where the bank operates, then setting a frequency and an evidence rule for each cell. The hardest cells are those where the regulator sets an outcome but no interval, so the bank must justify its own cycle.",
+  "keyTakeaways": [
+    "A bank answers to several regulators at once: AML, sanctions, prudential, conduct, cyber and governance duties each create their own training columns.",
+    "Organize rows by role family and columns by obligation, and record the market against every row so a group operating in several countries can filter by supervisor.",
+    "Few banking rules fix an interval. OFAC's framework (annual at a minimum) and NYDFS Part 500 (at minimum annual awareness training) are exceptions; most others leave frequency to the bank's risk assessment.",
+    "Examiners ask for more than completion: materials, dates, attendance, failures and corrective action, and in Portugal a seven year retention period for AML training records.",
+    "Several bank rules change between mid 2026 and 2027, including CPS 230 updates, the AUSTRAC reforms, new EBA internal governance guidelines and the EU AMLR."
+  ],
+  "sections": [
+    {
+      "id": "why-banks-differ",
+      "heading": "Why does a bank need a matrix of its own?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because a bank's training duties come from overlapping supervisors, each with its own scope, and a generic compliance curriculum cannot show which supervisor each course satisfies. A single relationship manager in Sydney can sit inside the scope of the Australian Transaction Reports and Analysis Centre (AUSTRAC), the Australian Prudential Regulation Authority (APRA), the Australian Securities and Investments Commission (ASIC) and the Banking Code Compliance Committee at the same time."
+        },
+        {
+          "type": "p",
+          "text": "The general method in [how to build a training matrix](/guides/how-to-build-a-training-matrix) still applies: roles down one axis, requirements across the other, rules in each cell. What changes in banking is the number of columns, the weight given to evidence of competence rather than attendance, and the need to tag every row with the market and supervisor so that a group can report to each regulator separately. Starting from an [obligations to training map](/guides/how-to-map-training-to-compliance-obligations) keeps each column traceable to its source."
+        }
+      ]
+    },
+    {
+      "id": "role-families",
+      "heading": "Which role families should form the rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use role families that match how banking rules allocate responsibility, not the organization chart. Most bank obligations name a governance tier, a control function or a customer facing activity, so the rows should mirror those."
+        },
+        {
+          "type": "table",
+          "caption": "Bank role families and why each needs its own row",
+          "head": ["Role family", "Why it is separate", "Typical obligation drivers"],
+          "rows": [
+            ["Board and management body", "Rules require directors to keep knowledge current and approve training policy", "EBA suitability guidelines, DORA Article 5(4), FSA Guidelines III-2, NYDFS 500.4(d)"],
+            ["Accountable and senior executives", "Personal accountability regimes attach to named people", "Financial Accountability Regime (Australia), CRD Article 91"],
+            ["AML and sanctions compliance", "Compliance officers design and sign off training for everyone else", "AML/CTF Rules 5-9, Law 83/2017 Article 55, Cabinet Resolution No. 134 of 2025 Article 22"],
+            ["Frontline branch and contact center", "Customer contact, vulnerability and complaints duties", "Banking Code of Practice, CBUAE Consumer Protection Standards"],
+            ["Lending, mortgage and collections", "Product knowledge, fair lending and hardship rules", "Mortgage Credit Directive Annex III, SAFE Act registration, CFPB compliance management review"],
+            ["Investment advice and markets", "Advice competence and market abuse surveillance", "MiFID II Article 25, Delegated Regulation 2016/957"],
+            ["Technology, security and payments", "Cyber, ICT risk and card data duties", "CPS 234, DORA Article 13(6), NYDFS 500.14, PCI DSS 12.6"],
+            ["Third parties and agents", "Outsourced staff can be in scope", "DORA Article 30(2)(i), EU AMLR Article 12, OFAC framework"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "obligations-by-market",
+      "heading": "Which training obligations apply in each banking market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The columns come from the regulation pages for each market the bank operates in. The summaries below draw only on those pages; each link opens the full requirement."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Australia.** AML/CTF Rules 2025 section 5-9 requires training policies dealing with initial and ongoing training appropriate to each person's function and the money laundering, terrorism financing and proliferation financing risks ([AUSTRAC AML/CTF training](/regulations/austrac-aml-ctf-training-requirements)). CPS 234 requires an information security capability across staff and contractors, and CPG 234 describes tracking training and testing understanding on commencement and periodically ([CPS 234](/regulations/apra-cps-234-security-awareness-training)). CPS 230 covers the people dimension of operational risk ([CPS 230](/regulations/apra-cps-230-operational-risk-training)). Paragraph 7 of the Banking Code of Practice requires trained and competent staff, and paragraph 49 requires cultural awareness training for staff who regularly assist Aboriginal and Torres Strait Islander customers ([Banking Code](/regulations/banking-code-of-practice-staff-training)). The [Financial Accountability Regime](/regulations/financial-accountability-regime-training) applies to ADIs from 15 March 2024. ASIC's RG 274 counts staff training as a factor in design and distribution compliance ([DDO](/regulations/design-and-distribution-obligations-staff-training)), and RG 270 expects whistleblower training for every employee and specialist training for eligible recipients ([whistleblower policy](/regulations/whistleblower-policy-training-requirements)).",
+            "**United States.** 31 CFR 1020.210 requires banks' AML programs to include training for appropriate personnel ([BSA/AML](/regulations/bsa-aml-training-requirements)); credit unions have a parallel page ([NCUA BSA](/regulations/ncua-credit-union-bsa-training)). The OFAC framework calls for sanctions training periodically and at a minimum annually ([OFAC](/regulations/ofac-sanctions-compliance-training)). CFPB compliance management review procedures examine whether training on discrimination and unfair, deceptive or abusive acts or practices is comprehensive, timely and tailored ([fair lending and UDAAP](/regulations/fair-lending-and-udaap-training)). 23 NYCRR 500.14(a)(3) requires at minimum annual cybersecurity awareness training including social engineering for New York covered entities ([NYDFS Part 500](/regulations/nydfs-part-500-cybersecurity-training-requirements)). Bank employees acting as mortgage loan originators must register with the NMLS under 12 CFR 1007.103 ([SAFE Act](/regulations/safe-act-mortgage-loan-originator-continuing-education)).",
+            "**European Union and Portugal.** CRD Article 91, as amended by CRD VI, requires induction and training of management body members to include ESG and ICT risk ([EBA internal governance](/regulations/eba-internal-governance-staff-training)). DORA Article 13(6) requires ICT security awareness programs and digital operational resilience training as compulsory modules for all employees and senior management ([DORA](/regulations/dora-ict-security-awareness-training)). MiFID II Article 25(1) requires staff giving investment advice or information to possess necessary knowledge and competence ([MiFID II](/regulations/mifid-ii-knowledge-and-competence-requirements)). Mortgage Credit Directive Article 9 and Annex III set minimum knowledge for mortgage staff ([MCD](/regulations/mortgage-credit-directive-staff-knowledge-competence)). Delegated Regulation 2016/957 Article 4(1) requires regular training for staff monitoring for market abuse, including order processing staff ([MAR](/regulations/eu-market-abuse-regulation-training)). The AMLR applies from 10 July 2027 ([EU AMLR](/regulations/eu-amlr-training-requirements)); until then Portuguese banks follow Law 83/2017 Article 55 and Banco de Portugal Notice 1/2022 Article 53 ([Portugal AML law](/regulations/portugal-aml-law-training-requirements)).",
+            "**Japan.** Article 11 of the Act on Prevention of Transfer of Criminal Proceeds lists education and training for employees as a measure specified business operators must endeavor to take, and the Financial Services Agency (FSA) Guidelines section III-5 sets required actions on human resource development ([FSA AML/CFT Guidelines](/regulations/japan-fsa-aml-cft-guidelines-training)).",
+            "**United Arab Emirates.** Cabinet Resolution No. 134 of 2025 Article 21(5) requires periodic programs and workshops for the compliance function and other relevant employees ([UAE AML/CFT](/regulations/uae-aml-cft-training-requirements)). The Central Bank of the UAE (CBUAE) Consumer Protection Standards require qualified staff, ongoing professional development and appraisal at least once a year ([CBUAE consumer protection](/regulations/uae-central-bank-consumer-protection-training)).",
+            "**Card payments, any market.** PCI DSS 12.6.3.1 requires security awareness training on threats including phishing and social engineering, and 12.6.2 requires the program to be reviewed at least once every 12 months ([PCI DSS](/regulations/pci-dss-security-awareness-training-requirements))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "illustrative-bank-matrix",
+      "heading": "What does a bank training matrix look like in practice?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It looks like a long table in which every row carries a market tag, an obligation, a frequency and an evidence rule. The extract below is illustrative only, for a hypothetical bank group with an Australian parent, a Lisbon subsidiary, a New York branch and a Dubai representative office. Frequencies marked as bank policy are choices the bank must justify; they are not set by the cited rule."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical bank group, role by obligation",
+          "head": ["Role", "Market", "Obligation", "Frequency", "Evidence held"],
+          "rows": [
+            ["Branch teller", "Australia", "AML/CTF Rules 5-9 initial and ongoing training", "On commencement; then 12 months (AUSTRAC example, adopted as bank policy)", "Assessment result plus scenario exercise, not e-learning alone"],
+            ["Branch teller", "Australia", "Banking Code paragraph 52 vulnerability indicators", "On commencement; bank policy annual", "Observed call or counter review by team leader"],
+            ["Hardship and collections officer", "Australia", "Banking Code paragraph 173 financial difficulty indicators", "Before handling cases; bank policy annual", "Case file sampling against checklist"],
+            ["Accountable person", "Australia", "FAR accountability obligations, s21", "On registration; on material change to accountability map", "Briefing record and signed accountability statement"],
+            ["Mortgage credit officer", "Portugal", "MCD Annex III knowledge areas", "Before advising; kept up to date under Article 9(1)", "Qualification record held for supervisor request"],
+            ["All staff", "Portugal", "Law 83/2017 Article 55 and BdP Notice 1/2022 Article 53", "New joiners immediately; regular thereafter", "Record with Notice 1/2022 minimum fields, kept seven years"],
+            ["Management body member", "EU (Portugal)", "EBA suitability guidelines paragraphs 93 and 94", "Key information within one month; induction within six months; all knowledge elements within one year", "Induction plan and completion log"],
+            ["All staff and senior management", "EU (Portugal)", "DORA Article 13(6) ICT awareness", "Compulsory modules; bank policy annual", "Completion plus phishing simulation results"],
+            ["All personnel", "United States (New York)", "23 NYCRR 500.14(a)(3) cybersecurity awareness", "At minimum annually", "Completion data supporting the April 15 certification"],
+            ["Trade finance staff", "United States", "OFAC sanctions compliance training", "At a minimum annually; immediately after a failure", "Assessment results and corrective training records"],
+            ["Loan officer", "United States", "Fair lending and UDAAP training", "On hire; when products or rules change", "Completion, scripts reviewed, follow up for units below standard"],
+            ["Compliance officer", "UAE", "Cabinet Resolution No. 134 of 2025 Articles 21(5) and 22", "Periodic; annual plan as bank policy", "Documented training plan and attendance"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setting-frequency",
+      "heading": "How should a bank set frequency when the regulator gives none?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Set it from the bank's risk assessment and write down the reasoning, because most banking rules require ongoing or regular training without an interval. A documented rationale is what a supervisor will test."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Fixed intervals exist only in a few rules.** OFAC's framework says at a minimum annually; NYDFS Part 500 says at minimum annual; the EBA and ESMA suitability guidelines set one month, six month and one year milestones for new board members.",
+            "**Example intervals are not minimums.** AUSTRAC gives 6 to 12 months for compliance officers and senior management and 12 months for customer facing staff as examples only, and says e-learning cannot be relied on solely.",
+            "**Event triggers matter as much as dates.** The FSA FAQ expects training to be updated when the national risk assessment or FATF material changes, and those already trained to be verified. The CFPB procedures ask whether training is updated proactively.",
+            "**Failure triggers retraining.** OFAC expects immediate corrective training when a violation or error occurs, so the matrix needs an event column, not just a due date. See [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evidence-examiners-want",
+      "heading": "What evidence will bank examiners and supervisors ask for?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Expect requests for the training materials, dates, attendance, assessment failures and what was done about them, not a completion percentage. The FFIEC BSA/AML Examination Manual describes documentation of materials, dates, attendance and failures with corrective action."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Record fields.** Banco de Portugal Notice 1/2022 Article 53 sets minimum fields for AML training records, and Law 83/2017 Article 51 sets a seven year retention period.",
+            "**Retention elsewhere.** Cabinet Resolution No. 134 of 2025 Article 25 sets five year record retention in the UAE; CBUAE Standards require consumer protection training records to be retained during employment.",
+            "**Board evidence.** CBUAE best practices on role based AML training describe board training at least annually with records, and FSA Guidelines III-2 expect board involvement in training.",
+            "**Effectiveness, not volume.** CPG 234 metrics include awareness coverage and staff responses to phishing tests; CBUAE best practices say no credit without mastery. The guide on [evidencing training effectiveness to a regulator](/guides/how-to-evidence-training-effectiveness-to-a-regulator) covers how to present this."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "changes-2026-2027",
+      "heading": "Which 2026 and 2027 changes should a bank build in now?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Build the dates below into the matrix as future dated rows so the affected cells change status on the right day. Each comes from the linked regulation page, as at November 2026."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**1 July 2026, Australia:** updated CPS 230 and CPG 230 commence, and deferred CPS 230 requirements apply to non significant financial institutions.",
+            "**21 July 2026, United States:** the Regulation B final rule amending disparate impact provisions took effect, so fair lending content written before it needs review.",
+            "**20 November 2026, EU:** Directive (EU) 2023/2225 measures apply, including a staff knowledge and competence duty for consumer credit in Article 33.",
+            "**Two months after translation, EU:** EBA/GL/2026/10 replace the 2021 internal governance guidelines and broaden paragraph 241 to operational resilience and business continuity awareness.",
+            "**31 March 2027, Australia:** the first independent evaluation deadline for many existing reporting entities under the AUSTRAC transitional rules.",
+            "**10 July 2027, EU:** the AMLR applies, with Article 12 setting a directly applicable duty to provide specific, ongoing, documented training."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Pending, not yet law",
+          "text": "FinCEN's April 2026 proposed AML/CFT program rule had not been finalized as at the date of the BSA/AML page, and the 2026 Banking Code Review runs to a final report in June 2027. Track both as watch items rather than matrix rows."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each bank obligation, the market and supervisor it belongs to, and the learning outcome and assessment point that satisfy it, so a column in the matrix traces back to its source rule. When a rule such as CPS 230 or the AMLR changes, the affected roles and evidence rules are flagged. See [financial services](/industries/financial-services)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should a bank group keep one matrix or one per country?",
+      "a": "One matrix with a market tag on every row usually works better. Shared roles such as the board or technology staff can then carry duties from several markets, and each supervisor can be given a filtered view. Separate country matrices tend to drift apart and duplicate common requirements."
+    },
+    {
+      "q": "Can one AML course satisfy several countries?",
+      "a": "A common core can, but each market adds specifics. Portugal requires compliance officer sign off on training and set record fields; the UAE requires documented training plans from the compliance officer; Australia's rules require training appropriate to the person's function and risks. Add market modules and record which module meets which rule."
+    },
+    {
+      "q": "Do bank mortgage staff in the US need SAFE Act continuing education?",
+      "a": "Employees of covered financial institutions who act as mortgage loan originators must register with the NMLS and obtain a unique identifier under 12 CFR 1007.103. The 8 hour annual continuing education rule in 12 CFR 1008.107 applies to state licensed originators, so the matrix should record registration status for bank employed staff."
+    },
+    {
+      "q": "Where do contractors and outsourced staff fit?",
+      "a": "Give them their own rows. DORA Article 13(6) extends awareness programs to ICT third party providers where appropriate, the AMLR covers agents and distributors, and CPS 234 directs its policy framework to contractors and third parties. A matrix that lists only employees misses these duties."
+    }
+  ],
+  "sources": [
+    {"title": "Anti-Money Laundering and Counter-Terrorism Financing Rules 2025", "publisher": "Federal Register of Legislation (Australia)", "url": "https://www.legislation.gov.au/F2025L01026/latest"},
+    {"title": "AML/CTF training", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"},
+    {"title": "AML/CTF Transitional Rules 2026", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/about-us/legislation/updates-legislation/amlctf-transitional-rules-2026"},
+    {"title": "Prudential Standard CPS 234 Information Security", "publisher": "Australian Prudential Regulation Authority", "url": "https://www.apra.gov.au/standards/cps-234"},
+    {"title": "Prudential Practice Guide CPG 234", "publisher": "Australian Prudential Regulation Authority", "url": "https://www.apra.gov.au/practice-guides/cpg-234"},
+    {"title": "Operational risk management", "publisher": "Australian Prudential Regulation Authority", "url": "https://www.apra.gov.au/operational-risk-management"},
+    {"title": "Prudential Standard CPS 230 (superseded version)", "publisher": "Australian Prudential Regulation Authority", "url": "https://www.apra.gov.au/standards/cps-230-superseded"},
+    {"title": "Banking Code of Practice (2025)", "publisher": "Australian Banking Association", "url": "https://www.ausbanking.org.au/2025-banking-code-of-practice-screen-reader-friendly/"},
+    {"title": "2026 Banking Code Review", "publisher": "2026 Banking Code Review", "url": "https://www.2026bankingcodereview.com.au/"},
+    {"title": "Financial Accountability Regime (FAR)", "publisher": "Australian Prudential Regulation Authority", "url": "https://www.apra.gov.au/cross-industry/financial-accountability-regime-far"},
+    {"title": "Financial Accountability Regime Act 2023", "publisher": "Federal Register of Legislation (Australia)", "url": "https://www.legislation.gov.au/C2023A00067/latest/text"},
+    {"title": "RG 274 Product design and distribution obligations", "publisher": "Australian Securities and Investments Commission", "url": "https://download.asic.gov.au/media/etgm1amc/rg274-published-10-september-2024.pdf"},
+    {"title": "RG 270 Whistleblower policies", "publisher": "Australian Securities and Investments Commission", "url": "https://download.asic.gov.au/media/5702691/rg270-published-13-november-2019-20200727.pdf"},
+    {"title": "31 CFR 1020.210 Anti-money laundering program requirements for banks", "publisher": "eCFR (US Government Publishing Office)", "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.210"},
+    {"title": "Anti-Money Laundering and Countering the Financing of Terrorism Programs (proposed rule)", "publisher": "Federal Register (FinCEN)", "url": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"},
+    {"title": "BSA/AML Examination Manual: Assessing the BSA/AML compliance program", "publisher": "Federal Financial Institutions Examination Council", "url": "https://bsaaml.ffiec.gov/manual/AssessingTheBSAAMLComplianceProgram/05"},
+    {"title": "A Framework for OFAC Compliance Commitments", "publisher": "Office of Foreign Assets Control, US Department of the Treasury", "url": "https://ofac.treasury.gov/media/16331/download?inline"},
+    {"title": "CFPB Supervision and Examination Manual: Compliance Management Review", "publisher": "Consumer Financial Protection Bureau", "url": "https://files.consumerfinance.gov/f/documents/201708_cfpb_compliance-management-review_supervision-and-examination-manual.pdf"},
+    {"title": "Equal Credit Opportunity Act (Regulation B) final rule", "publisher": "Federal Register (CFPB)", "url": "https://www.federalregister.gov/documents/2026/04/22/2026-07804/equal-credit-opportunity-act-regulation-b"},
+    {"title": "23 NYCRR 500.14 Monitoring and training", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.14"},
+    {"title": "Cybersecurity requirements", "publisher": "New York State Department of Financial Services", "url": "https://www.dfs.ny.gov/cybersecurity/requirements"},
+    {"title": "12 CFR 1007.103 Registration requirements", "publisher": "eCFR (US Government Publishing Office)", "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1007/section-1007.103"},
+    {"title": "12 CFR 1008.107 Continuing education", "publisher": "eCFR (US Government Publishing Office)", "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1008/subpart-B/section-1008.107"},
+    {"title": "Directive (EU) 2024/1619 (CRD VI)", "publisher": "EUR-Lex", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024L1619"},
+    {"title": "Final report on Guidelines on internal governance (EBA/GL/2026/10)", "publisher": "European Banking Authority", "url": "https://www.eba.europa.eu/sites/default/files/2026-11/3c8b1810-c335-499a-803f-6d795ce3d196/Final%20report%20on%20Guidelines%20on%20internal%20governance.pdf"},
+    {"title": "Joint EBA and ESMA Guidelines on the assessment of suitability (EBA/GL/2021/06)", "publisher": "European Banking Authority", "url": "https://www.eba.europa.eu/sites/default/files/document_library/Publications/Guidelines/2021/EBA-GL-2021-06%20Joint%20GLs%20on%20the%20assessment%20of%20suitability%20%28fit%26propoer%29/1022127/Final%20report%20on%20joint%20EBA%20and%20ESMA%20GL%20on%20the%20assessment%20of%20suitability.pdf"},
+    {"title": "Regulation (EU) 2022/2554 (DORA)", "publisher": "EUR-Lex", "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng"},
+    {"title": "Directive 2014/65/EU (MiFID II)", "publisher": "EUR-Lex", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014L0065"},
+    {"title": "Directive 2014/17/EU (Mortgage Credit Directive)", "publisher": "EUR-Lex", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014L0017"},
+    {"title": "Directive (EU) 2023/2225 on credit agreements for consumers", "publisher": "EUR-Lex", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023L2225"},
+    {"title": "Commission Delegated Regulation (EU) 2016/957", "publisher": "EUR-Lex", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0957"},
+    {"title": "Regulation (EU) 2024/1624 (AMLR)", "publisher": "EUR-Lex", "url": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"},
+    {"title": "Law 83/2017 (consolidated)", "publisher": "Diário da República", "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"},
+    {"title": "Banco de Portugal Notice 1/2022", "publisher": "Diário da República", "url": "https://diariodarepublica.pt/dr/detalhe/aviso-banco-portugal/1-2022-184434622"},
+    {"title": "Act on Prevention of Transfer of Criminal Proceeds", "publisher": "e-Gov Japan", "url": "https://laws.e-gov.go.jp/law/419AC0000000022"},
+    {"title": "Guidelines for Anti-Money Laundering and Combating the Financing of Terrorism (revised March 31, 2026)", "publisher": "Financial Services Agency, Japan", "url": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf"},
+    {"title": "FAQ on the AML/CFT Guidelines", "publisher": "Financial Services Agency, Japan", "url": "https://www.fsa.go.jp/en/news/2026/20260331/02.pdf"},
+    {"title": "Cabinet Resolution No. 134 of 2025", "publisher": "UAE Financial Intelligence Unit", "url": "https://www.uaefiu.gov.ae/media/3ssbp5d5/cabinet-134-2025.pdf"},
+    {"title": "Best Practices for Licensed Financial Institutions implementing role based AML/CFT/CPF training", "publisher": "Central Bank of the UAE", "url": "https://rulebook.centralbank.ae/en/rulebook/best-practices-licensed-financial-institutions-implementing-role-based-amlcftcpf-training"},
+    {"title": "Consumer Protection Standards", "publisher": "Central Bank of the UAE", "url": "https://rulebook.centralbank.ae/en/rulebook/consumer-protection-standards"},
+    {"title": "PCI DSS v3.2.1 to v4.0 Summary of Changes", "publisher": "PCI Security Standards Council", "url": "https://listings.pcisecuritystandards.org/documents/PCI-DSS-v3-2-1-to-v4-0-Summary-of-Changes-r1.pdf"},
+    {"title": "PCI DSS v4.0 SAQ A-EP", "publisher": "PCI Security Standards Council", "url": "https://listings.pcisecuritystandards.org/documents/PCI-DSS-v4-0-SAQ-A-EP.pdf"}
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "austrac-aml-ctf-training-requirements",
+    "bsa-aml-training-requirements",
+    "dora-ict-security-awareness-training",
+    "how-to-map-training-to-compliance-obligations",
+    "training-matrix"
+  ],
+  "productLinks": [
+    {"label": "Financial services", "href": "/industries/financial-services"},
+    {"label": "Audit evidence", "href": "/platform/audit-evidence"}
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {"claim": "AML/CTF Rules 2025 s5-9: policies dealing with initial and ongoing training appropriate to function and ML/TF/PF risks", "source": "https://www.legislation.gov.au/F2025L01026/latest"},
+    {"claim": "AUSTRAC example frequencies (6 to 12 months for compliance officers and senior management, 12 months customer facing) are examples only; e-learning cannot be relied on solely", "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"},
+    {"claim": "First independent evaluation for existing entities by later of four years after last review or 31 March 2027", "source": "https://www.austrac.gov.au/about-us/legislation/updates-legislation/amlctf-transitional-rules-2026"},
+    {"claim": "CPS 234 policy framework directs all parties incl. staff and contractors; CPG 234 tracking training and testing understanding on commencement and periodically; metrics include awareness coverage and phishing test responses", "source": "https://www.apra.gov.au/practice-guides/cpg-234"},
+    {"claim": "Updated CPS 230 and CPG 230 commence 1 July 2026", "source": "https://www.apra.gov.au/operational-risk-management"},
+    {"claim": "Deferred CPS 230 requirements apply to non-SFIs from 1 July 2026", "source": "https://www.apra.gov.au/standards/cps-230-superseded"},
+    {"claim": "Banking Code paragraph 7 trained and competent staff; paragraph 49 cultural awareness training; paragraph 52 vulnerability; paragraph 173 financial difficulty indicators", "source": "https://www.ausbanking.org.au/2025-banking-code-of-practice-screen-reader-friendly/"},
+    {"claim": "2026 Banking Code Review final report to ABA 30 June 2027", "source": "https://www.2026bankingcodereview.com.au/"},
+    {"claim": "FAR commenced for ADIs from 15 March 2024", "source": "https://www.apra.gov.au/cross-industry/financial-accountability-regime-far"},
+    {"claim": "FAR Act s21 accountability obligations", "source": "https://www.legislation.gov.au/C2023A00067/latest/text"},
+    {"claim": "RG 274 Table 6: ASIC considers whether distributor gave staff sufficient training", "source": "https://download.asic.gov.au/media/etgm1amc/rg274-published-10-september-2024.pdf"},
+    {"claim": "RG 270.131 to 270.137: training for every employee and specialist training for eligible recipients", "source": "https://download.asic.gov.au/media/5702691/rg270-published-13-november-2019-20200727.pdf"},
+    {"claim": "31 CFR 1020.210 requires training for appropriate personnel", "source": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.210"},
+    {"claim": "April 2026 FinCEN NPRM; no final rule published through September 2026 per the BSA/AML page", "source": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"},
+    {"claim": "FFIEC manual expects documentation of materials, dates, attendance and failures with corrective action", "source": "https://bsaaml.ffiec.gov/manual/AssessingTheBSAAMLComplianceProgram/05"},
+    {"claim": "OFAC framework: training periodically and at a minimum annually; immediate corrective training", "source": "https://ofac.treasury.gov/media/16331/download?inline"},
+    {"claim": "CFPB CMR: training on discrimination and UDAAP; comprehensive, timely, tailored; proactive update; follow up for units below completion standards", "source": "https://files.consumerfinance.gov/f/documents/201708_cfpb_compliance-management-review_supervision-and-examination-manual.pdf"},
+    {"claim": "Regulation B final rule effective July 21, 2026 amends disparate impact provisions", "source": "https://www.federalregister.gov/documents/2026/04/22/2026-07804/equal-credit-opportunity-act-regulation-b"},
+    {"claim": "500.14(a)(3) at minimum annual awareness training including social engineering for all personnel", "source": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.14"},
+    {"claim": "500.17(b) annual certification by April 15", "source": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.17"},
+    {"claim": "12 CFR 1007.103(a): employees of covered financial institutions acting as MLOs must register with the Registry and obtain a unique identifier", "source": "https://www.ecfr.gov/current/title-12/chapter-X/part-1007/section-1007.103"},
+    {"claim": "12 CFR 1008.107(a)(2): 8 hours annual CE for state licensed MLOs", "source": "https://www.ecfr.gov/current/title-12/chapter-X/part-1008/subpart-B/section-1008.107"},
+    {"claim": "CRD VI amended Article 91 so induction and training include ESG risks and ICT risk", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024L1619"},
+    {"claim": "EBA/GL/2026/10 apply two months after publication in all EU languages and repeal EBA/GL/2021/05; paragraph 241 broadened to operational resilience and business continuity awareness", "source": "https://www.eba.europa.eu/sites/default/files/2026-11/3c8b1810-c335-499a-803f-6d795ce3d196/Final%20report%20on%20Guidelines%20on%20internal%20governance.pdf"},
+    {"claim": "EBA/GL/2021/06 paragraph 93 key information within one month and induction within six months; paragraph 94 all knowledge elements within one year", "source": "https://www.eba.europa.eu/sites/default/files/document_library/Publications/Guidelines/2021/EBA-GL-2021-06%20Joint%20GLs%20on%20the%20assessment%20of%20suitability%20%28fit%26propoer%29/1022127/Final%20report%20on%20joint%20EBA%20and%20ESMA%20GL%20on%20the%20assessment%20of%20suitability.pdf"},
+    {"claim": "DORA Article 13(6) compulsory modules for all employees and senior management; ICT third party providers where appropriate; Article 5(4) management body specific training", "source": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng"},
+    {"claim": "MiFID II Article 25(1) knowledge and competence for staff giving investment advice or information", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014L0065"},
+    {"claim": "MCD Article 9(1) staff keep up to date appropriate knowledge and competence; Annex III minimum knowledge", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014L0017"},
+    {"claim": "Directive 2023/2225 Article 33 staff knowledge and competence; Article 48 measures apply from 20 November 2026", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023L2225"},
+    {"claim": "Delegated Regulation 2016/957 Article 4(1) regular training for monitoring staff including order processing staff", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0957"},
+    {"claim": "AMLR applies from 10 July 2027; Article 12 specific, ongoing training, duly documented, including agents and distributors", "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"},
+    {"claim": "Law 83/2017 Article 55 training duty incl. immediate training for new joiners and compliance officer opinion; Article 51 seven year retention", "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"},
+    {"claim": "BdP Notice 1/2022 Article 53 minimum training record fields", "source": "https://diariodarepublica.pt/dr/detalhe/aviso-banco-portugal/1-2022-184434622"},
+    {"claim": "Japan Act Article 11 item 1 education and training for employees (endeavor duty)", "source": "https://laws.e-gov.go.jp/law/419AC0000000022"},
+    {"claim": "FSA Guidelines III-5 human resource development required actions; III-2 board involvement in training", "source": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf"},
+    {"claim": "FSA FAQ: update training when NRA or FATF material changes and verify those already trained", "source": "https://www.fsa.go.jp/en/news/2026/20260331/02.pdf"},
+    {"claim": "Cabinet Resolution 134 of 2025 Article 21(5) periodic programs and workshops; Article 22 compliance officer documents training plans; Article 25 five year retention", "source": "https://www.uaefiu.gov.ae/media/3ssbp5d5/cabinet-134-2025.pdf"},
+    {"claim": "CBUAE best practices: board training at least annually with records; no credit without mastery", "source": "https://rulebook.centralbank.ae/en/rulebook/best-practices-licensed-financial-institutions-implementing-role-based-amlcftcpf-training"},
+    {"claim": "CBUAE Consumer Protection Standards: ongoing professional development, records retained during employment, appraisal at least once a year", "source": "https://rulebook.centralbank.ae/en/rulebook/consumer-protection-standards"},
+    {"claim": "PCI DSS 12.6.2 annual review of program; 12.6.3.1 phishing and social engineering", "source": "https://listings.pcisecuritystandards.org/documents/PCI-DSS-v3-2-1-to-v4-0-Summary-of-Changes-r1.pdf"}
+  ]
+}

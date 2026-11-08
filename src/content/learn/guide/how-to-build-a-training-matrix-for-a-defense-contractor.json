@@ -1,0 +1,524 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-defense-contractor",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a defense contractor?",
+  "seoTitle": "Training matrix for a defense contractor",
+  "description": "A training matrix for defense contractors: NISPOM, CMMC, CUI, ITAR, EAR, DISP and anti-bribery obligations mapped to roles, access, frequency and evidence.",
+  "shortAnswer": "A defense contractor builds its training matrix around roles plus access attributes: whether a person is cleared, handles Controlled Unclassified Information, works with export-controlled technical data, holds a security appointment or deals with foreign officials. Each attribute pulls in obligations from regimes such as the NISPOM, CMMC, DoD CUI policy, ITAR and EAR guidance, or Australia's Defence Industry Security Program, each with its own cadence and evidence.",
+  "keyTakeaways": [
+    "Job title is not enough. Assignment in defense depends on clearance, information access, system privilege and contract clauses.",
+    "Separate what is mandated by rule (NISPOM briefings), what arrives by contract (CMMC, DoD CUI training) and what is expected for enforcement credit (ITAR, EAR, OFAC, anti-bribery).",
+    "Security cadences cluster around 12 months, with notable exceptions such as derivative classifier refresher training every two years.",
+    "Several regimes weigh training when deciding penalties, so records must show who was trained on what, when and how learning was tested.",
+    "A contractor with Australian operations adds DISP officer roles, induction training and an Annual Security Report to the same matrix."
+  ],
+  "sections": [
+    {
+      "id": "why-defense-differs",
+      "heading": "What makes a defense contractor's training matrix different?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Defense obligations attach to information and contract terms as much as to jobs. Two engineers with the same title can have different requirements because one is cleared, uses a system that processes Controlled Unclassified Information (CUI), or receives ITAR technical data while the other does not."
+        },
+        {
+          "type": "p",
+          "text": "That means the standard grid in [how to build a training matrix](/guides/how-to-build-a-training-matrix) needs a third input. Requirements are assigned from the role and from a set of access attributes held against each person: clearance status, security appointments, CUI system access, privileged access, export-controlled data access, and contact with foreign officials or business partners. A change to any attribute, such as a new clearance or a new contract with a CUI clause, should recalculate that person's row."
+        }
+      ]
+    },
+    {
+      "id": "mandated-or-expected",
+      "heading": "Which defense training obligations are mandated and which are expected?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Some obligations are set directly by regulation, some arrive through contract clauses, and some are expectations regulators weigh when they assess penalties. The matrix should label each, because the evidence standard and the consequence of a gap differ."
+        },
+        {
+          "type": "table",
+          "caption": "Status of defense contractor training obligations (as at November 2026)",
+          "head": [
+            "Obligation",
+            "Market",
+            "How it binds",
+            "Regulation page"
+          ],
+          "rows": [
+            [
+              "Security briefings, annual refresher, insider threat awareness for cleared staff",
+              "United States",
+              "Regulation (32 CFR Part 117) for entities with a facility clearance",
+              "[NISPOM](/regulations/nispom-security-training-requirements)"
+            ],
+            [
+              "Awareness, role based and insider threat training (AT requirements)",
+              "United States",
+              "Contract clause where CMMC applies; Level 2 draws on NIST SP 800-171 Rev. 2",
+              "[CMMC](/regulations/cmmc-security-awareness-training)"
+            ],
+            [
+              "CUI education and training",
+              "United States",
+              "DoD Instruction 5200.48 for contractors where the contract requires it; Part 2002 applies indirectly through agreements",
+              "[CUI](/regulations/cui-training-requirements)"
+            ],
+            [
+              "Export compliance training for defense articles and services",
+              "United States",
+              "No general mandate; weighed in voluntary disclosures and in the duties of the official who signs license applications",
+              "[ITAR](/regulations/itar-export-compliance-training)"
+            ],
+            [
+              "Export compliance training for dual use items",
+              "United States",
+              "No general mandate; Element 5 of BIS guidelines, weighed in penalties",
+              "[EAR](/regulations/ear-export-compliance-training)"
+            ],
+            [
+              "Sanctions compliance training",
+              "United States",
+              "OFAC framework expectation, at least annually",
+              "[OFAC](/regulations/ofac-sanctions-compliance-training)"
+            ],
+            [
+              "Anti-corruption training",
+              "United States",
+              "DOJ and SEC hallmark of an effective program",
+              "[FCPA](/regulations/fcpa-anti-corruption-training-expectations), [DOJ](/regulations/doj-compliance-program-training-expectations)"
+            ],
+            [
+              "Security training including induction",
+              "Australia",
+              "Ongoing obligation of DISP membership (DSPF Control 16.1)",
+              "[DISP](/regulations/defence-industry-security-program-requirements)"
+            ],
+            [
+              "Communication and training as part of adequate procedures",
+              "Australia",
+              "Only offense specific defense to failure to prevent foreign bribery",
+              "[Failure to prevent foreign bribery](/regulations/failure-to-prevent-foreign-bribery-training)"
+            ],
+            [
+              "Awareness of contribution to conformity, product safety and ethical behavior",
+              "International",
+              "Certification requirement under AS9100D clause 7.3",
+              "[AS9100](/regulations/as9100-competence-and-awareness-requirements)"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Where a contractor provides services to Australian Commonwealth entities or to suppliers assessed against Australian government frameworks, the [Protective Security Policy Framework](/regulations/pspf-security-awareness-training) can bind through contract terms, and the [Information Security Manual](/regulations/ism-cyber-security-awareness-training) can serve as the assessed baseline. US federal guidance on running the program itself is in [NIST SP 800-50 Rev. 1](/regulations/nist-sp-800-50-security-awareness-training)."
+        }
+      ]
+    },
+    {
+      "id": "access-attributes",
+      "heading": "Which roles and access attributes should drive assignment?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The attributes below are the ones the regimes themselves name. Holding any of them should add requirements on top of the baseline every employee receives."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Cleared employee (United States).** Initial security briefing before access, covering threat and insider threat awareness, counterintelligence awareness, the classification system, reporting obligations and cybersecurity for system users ([32 CFR 117.12(e)](https://www.ecfr.gov/current/title-32/section-117.12)).",
+            "**Facility Security Officer or Insider Threat Program Senior Official (United States).** FSO training within six months of appointment ([32 CFR 117.12(d)](https://www.ecfr.gov/current/title-32/section-117.12)); both roles complete training pursuant to 117.12 ([32 CFR 117.7](https://www.ecfr.gov/current/title-32/section-117.7)).",
+            "**Derivative classifier (United States).** Trained before authorization and at least once every two years, with authority suspended if training lapses.",
+            "**User or privileged user of a CUI system (United States).** Security risk awareness for all users, role based training for those with security duties, and insider threat awareness under NIST SP 800-171 Rev. 2 requirements 3.2.1 to 3.2.3 ([NIST](https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final)).",
+            "**Handler of export-controlled technical data (United States).** Releasing ITAR technical data to a foreign person in the United States is a deemed export ([22 CFR 120.50](https://www.ecfr.gov/current/title-22/section-120.50)), as is releasing EAR technology or source code ([15 CFR 734.13](https://www.ecfr.gov/current/title-15/section-734.13)). Engineers, IT administrators and HR staff who onboard foreign persons all need this.",
+            "**Official who signs license applications (United States).** Under the ITAR definition of this role, the official must understand the export control statutes and regulations and the penalties for violating them ([22 CFR 120.67](https://www.ecfr.gov/current/title-22/section-120.67)).",
+            "**Chief Security Officer or Security Officer (Australia).** DISP membership requires both appointments, and Security Officer training is a step in the membership process ([Defence](https://www.defence.gov.au/sites/default/files/2025-08/DISPMembershipProgram.pdf)).",
+            "**Procurement, inspection and design staff (international).** IAQG guidance points to counterfeit parts training for these functions ([IAQG](https://iaqg.org/wp-content/uploads/2019/10/9100-2016_faq.pdf))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "illustrative-matrix",
+      "heading": "What does an illustrative defense contractor matrix contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It contains one row per role or attribute and obligation pair, with the market, cadence and evidence. The table below is illustrative, for a hypothetical aerospace subcontractor with a US facility clearance, CMMC Level 2 contracts and an Australian subsidiary in DISP. It is a starting structure, not a compliance determination."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative matrix: hypothetical aerospace subcontractor (United States and Australia)",
+          "head": [
+            "Role or attribute",
+            "Obligation",
+            "Market",
+            "Frequency",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "All cleared employees",
+              "NISPOM security education and training",
+              "United States",
+              "Every 12 months",
+              "Program content and participation records"
+            ],
+            [
+              "All cleared employees",
+              "Insider threat awareness, four minimum topics",
+              "United States",
+              "Before access when newly cleared; annually",
+              "Completion validated by the contractor"
+            ],
+            [
+              "Derivative classifier",
+              "Derivative classification training, seven listed topics",
+              "United States",
+              "Before authorization; at least every two years",
+              "Record of date and type of training"
+            ],
+            [
+              "FSO",
+              "FSO training",
+              "United States",
+              "Within six months of appointment",
+              "Course completion record"
+            ],
+            [
+              "CUI system users",
+              "Security risk awareness and insider threat awareness (AT.L2-3.2.1, 3.2.3)",
+              "United States (CMMC Level 2)",
+              "Organization defined; often annual",
+              "Completion and assessment results available to the assessor"
+            ],
+            [
+              "System administrators",
+              "Role based training for security duties (AT.L2-3.2.2)",
+              "United States (CMMC Level 2)",
+              "Organization defined",
+              "Training plan per role and completion record"
+            ],
+            [
+              "Staff on DoD contracts with CUI clauses",
+              "CUI education and training",
+              "United States (DoD)",
+              "Initial and annual refresher",
+              "Documentation maintained for audit"
+            ],
+            [
+              "Engineers and IT staff with ITAR data access",
+              "Export control training covering deemed exports and technical data",
+              "United States",
+              "On access grant; periodic by policy",
+              "Completion and assessment, retained with registrant records"
+            ],
+            [
+              "Business development and international sales",
+              "Anti-corruption and sanctions training",
+              "United States",
+              "At least annually for sanctions; risk based for anti-corruption",
+              "Completion, assessment and certification records"
+            ],
+            [
+              "Australian staff and contractors",
+              "DISP security training including induction",
+              "Australia",
+              "At induction; regular thereafter",
+              "Induction record and course completions, summarized in the Annual Security Report"
+            ],
+            [
+              "Australian directors and higher risk functions",
+              "Foreign bribery prevention training",
+              "Australia",
+              "Induction; periodic and proportionate to risk",
+              "Completion records and attendance lists"
+            ],
+            [
+              "Production, inspection and quality staff",
+              "Awareness of conformity, product safety and ethical behavior",
+              "International (AS9100D)",
+              "Induction; on change to relevant documented information",
+              "Awareness record and auditor sampling"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Rows that say 'organization defined' or 'by policy' are not gaps in the law; they are decisions the contractor must make and document. Recording the rationale for each interval is part of [setting mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles)."
+        }
+      ]
+    },
+    {
+      "id": "security-cadence",
+      "heading": "How should overlapping security cadences be combined?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Combine them into one annual security cycle with modules triggered by attribute, while keeping the few non-annual intervals as separate cells. Merging everything into a single annual course risks losing the evidence each regime expects."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "NISPOM requires security education and training for all cleared employees every 12 months, and insider threat awareness annually ([32 CFR 117.12](https://www.ecfr.gov/current/title-32/section-117.12)).",
+            "DoD Instruction 5200.48 requires initial and annual refresher CUI training, applying to contractors supporting DoD under contractual requirements ([DoDI 5200.48](https://web.archive.org/web/20251227021010/https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/520048p.PDF)). The government-wide baseline in 32 CFR 2002.30 is less frequent: at start and at least every two years for executive branch agencies ([eCFR](https://www.ecfr.gov/current/title-32/section-2002.30)).",
+            "CMMC Level 3 adds training at initial hire, after a significant cyber event and at least annually, with practical exercises; the rule caps 'periodically' at no more than one year ([32 CFR Part 170](https://www.ecfr.gov/current/title-32/part-170)).",
+            "OFAC expects sanctions training at a minimum annually ([OFAC](https://ofac.treasury.gov/media/16331/download?inline)).",
+            "DISP members submit an Annual Security Report every 12 months from membership start, tabled with the Board or Executive first ([Defence](https://www.defence.gov.au/sites/default/files/2025-08/DISPMembershipProgram.pdf))."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Status matters for CMMC planning. The DoD CIO states that on July 13, 2026 the department suspended the Phase 2 requirements, leaving the program in Phase 1 with only Level 1 (Self) or Level 2 (Self) designated in new solicitations ([DoD CIO](https://dodcio.defense.gov/CMMC/)). The Level 2 awareness and training requirements still apply wherever Level 2 is designated."
+        }
+      ]
+    },
+    {
+      "id": "evidence-for-assessors",
+      "heading": "What evidence will an assessor or investigator ask for?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They will ask who was trained, on what, when, and whether it worked. In defense, the questions come from security assessors before an incident and from enforcement agencies after one, so the same records serve both."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Participation records.** NISPOM requires records of security training programs and participation, and a record of the date and type of derivative classifier training ([32 CFR 117.12](https://www.ecfr.gov/current/title-32/section-117.12)).",
+            "**Training detail in a disclosure.** A voluntary disclosure under 22 CFR 127.12(c)(3) should describe the compliance measures, including training, that were in place to prevent the violation ([eCFR](https://www.ecfr.gov/current/title-22/section-127.12)). ITAR registrant records are kept for five years ([22 CFR 122.5](https://www.ecfr.gov/current/title-22/section-122.5)), as are EAR records ([15 CFR 762.6](https://www.ecfr.gov/current/title-15/section-762.6)).",
+            "**Accountability through assessment.** BIS Element 5 expects training to hold employees accountable through assessments ([BIS](https://www.bis.gov/media/documents/export-compliance-guidelines)), and OFAC lists accountability through assessments among its training goals.",
+            "**Proof of effectiveness.** The DOJ Evaluation of Corporate Compliance Programs asks how the company measures training effectiveness and how it trains employees on emerging technologies such as AI ([DOJ](https://www.justice.gov/media/1160391/dl?inline)).",
+            "**Completion and attendance records in Australia.** The Attorney-General's Department guidance states that asking employees to acknowledge the program is inadequate, and expects completion records and attendance lists ([AGD](https://www.ag.gov.au/sites/default/files/2024-08/guidance-adequate-procedures-prevent-the-commission-of-foreign_bribery.PDF))."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Linking each record to the attribute that triggered it is what lets a contractor answer 'why was this person trained' as well as 'when'. The wider approach is in [how to evidence training effectiveness to a regulator](/guides/how-to-evidence-training-effectiveness-to-a-regulator)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models obligations, access attributes and roles as linked entities, so a new contract clause or clearance recalculates the affected rows and each record shows the obligation behind it. See [government and defense](/industries/government-defence) and [audit evidence](/platform/audit-evidence)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does ITAR require employees to complete export compliance training?",
+      "a": "No general ITAR rule mandates employee training. In practice it is expected: a voluntary disclosure should describe the training in place, DDTC may consider whether a compliance program was instituted or improved, and the official who signs license applications must understand the regulations and penalties. Most registrants therefore treat export training as a matrix requirement for anyone with technical data access."
+    },
+    {
+      "q": "Does CMMC Level 1 include a training requirement?",
+      "a": "No. The 15 Level 1 requirements come from FAR 52.204-21(b)(1), which contains no training requirement. Training enters at Level 2 through NIST SP 800-171 Rev. 2 requirements 3.2.1 to 3.2.3, and Level 3 adds annual, threat focused training with practical exercises."
+    },
+    {
+      "q": "Can one annual course cover NISPOM, CUI and CMMC awareness?",
+      "a": "One annual event can carry several modules, but the matrix should record each obligation separately with its own evidence. Required content differs: NISPOM insider threat awareness has four minimum topics, DoD CUI training has eleven minimum standards, and derivative classifier training runs on a two year cycle that an annual course does not replace."
+    },
+    {
+      "q": "Do overseas subsidiaries of US defense contractors need the same matrix?",
+      "a": "They need a matrix built for their own market, linked to the parent's. An Australian subsidiary may need DISP membership and adequate procedures under the failure to prevent foreign bribery offense, while US controls such as ITAR deemed export rules still follow US-origin technical data. Overseas entities cannot themselves be DISP members."
+    }
+  ],
+  "sources": [
+    {
+      "title": "32 CFR 117.12 Security training and briefings",
+      "publisher": "US Department of Defense (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-32/section-117.12"
+    },
+    {
+      "title": "32 CFR 117.7 Procedures",
+      "publisher": "US Department of Defense (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-32/section-117.7"
+    },
+    {
+      "title": "32 CFR Part 170 Cybersecurity Maturity Model Certification (CMMC) Program",
+      "publisher": "US Department of Defense (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-32/part-170"
+    },
+    {
+      "title": "Cybersecurity Maturity Model Certification",
+      "publisher": "US Department of Defense Chief Information Officer",
+      "url": "https://dodcio.defense.gov/CMMC/"
+    },
+    {
+      "title": "NIST SP 800-171 Rev. 2: Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final"
+    },
+    {
+      "title": "32 CFR 2002.30 Education and training",
+      "publisher": "National Archives and Records Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-32/section-2002.30"
+    },
+    {
+      "title": "DoD Instruction 5200.48: Controlled Unclassified Information (archived copy)",
+      "publisher": "US Department of Defense",
+      "url": "https://web.archive.org/web/20251227021010/https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/520048p.PDF"
+    },
+    {
+      "title": "22 CFR 127.12 Voluntary disclosures",
+      "publisher": "US Department of State (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-22/section-127.12"
+    },
+    {
+      "title": "22 CFR 120.67 Empowered official",
+      "publisher": "US Department of State (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-22/section-120.67"
+    },
+    {
+      "title": "Export Compliance Guidelines: The Elements of an Effective Export Compliance Program",
+      "publisher": "Bureau of Industry and Security, US Department of Commerce",
+      "url": "https://www.bis.gov/media/documents/export-compliance-guidelines"
+    },
+    {
+      "title": "A Framework for OFAC Compliance Commitments",
+      "publisher": "Office of Foreign Assets Control, US Department of the Treasury",
+      "url": "https://ofac.treasury.gov/media/16331/download?inline"
+    },
+    {
+      "title": "Evaluation of Corporate Compliance Programs (September 2024)",
+      "publisher": "US Department of Justice, Criminal Division",
+      "url": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "title": "DISP Membership Program",
+      "publisher": "Australian Department of Defence",
+      "url": "https://www.defence.gov.au/sites/default/files/2025-08/DISPMembershipProgram.pdf"
+    },
+    {
+      "title": "DISP eligibility and suitability",
+      "publisher": "Australian Department of Defence",
+      "url": "https://www.defence.gov.au/business-industry/industry-governance/industry-regulators/defence-industry-security-program/eligibility-suitability"
+    },
+    {
+      "title": "Guidance on adequate procedures to prevent the commission of foreign bribery",
+      "publisher": "Attorney-General's Department (Australia)",
+      "url": "https://www.ag.gov.au/sites/default/files/2024-08/guidance-adequate-procedures-prevent-the-commission-of-foreign_bribery.PDF"
+    },
+    {
+      "title": "9100:2016 Frequently Asked Questions",
+      "publisher": "International Aerospace Quality Group",
+      "url": "https://iaqg.org/wp-content/uploads/2019/10/9100-2016_faq.pdf"
+    }
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "nispom-security-training-requirements",
+    "cmmc-security-awareness-training",
+    "cui-training-requirements",
+    "itar-export-compliance-training",
+    "defence-industry-security-program-requirements"
+  ],
+  "productLinks": [
+    {
+      "label": "Government and defense",
+      "href": "/industries/government-defence"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "117.12(d) FSO training within six months of appointment; (e) initial security briefing content; (g)(2) insider threat awareness annually and before access for newly cleared, four minimum topics, contractor validates; (h) derivative classifiers trained before authorization and at least every two years, authority suspended if not, seven topics, record of date and type; (k) security training every 12 months with records of programs and participation.",
+      "source": "https://www.ecfr.gov/current/title-32/section-117.12"
+    },
+    {
+      "claim": "117.7(b)(3),(b)(4): FSO and ITPSO complete training pursuant to 117.12.",
+      "source": "https://www.ecfr.gov/current/title-32/section-117.7"
+    },
+    {
+      "claim": "CMMC Level 1 is the 15 FAR 52.204-21(b)(1) requirements; Level 2 the 110 NIST SP 800-171 R2 requirements; Level 3 training at hire, after significant cyber event and at least annually with practical exercises; 'periodically' no more than one year.",
+      "source": "https://www.ecfr.gov/current/title-32/part-170"
+    },
+    {
+      "claim": "FAR 52.204-21(b)(1) contains no training requirement.",
+      "source": "https://www.ecfr.gov/current/title-48/section-52.204-21"
+    },
+    {
+      "claim": "July 13, 2026 DoD suspended CMMC Phase II requirements; program paused in Phase 1; only Level 1 (Self) or Level 2 (Self) may be designated.",
+      "source": "https://dodcio.defense.gov/CMMC/"
+    },
+    {
+      "claim": "NIST SP 800-171 Rev. 2 requirements 3.2.1, 3.2.2, 3.2.3: awareness, role based training, insider threat.",
+      "source": "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final"
+    },
+    {
+      "claim": "32 CFR 2002.30(c): agencies train when employees begin and at least once every two years.",
+      "source": "https://www.ecfr.gov/current/title-32/section-2002.30"
+    },
+    {
+      "claim": "DoDI 5200.48: initial and annual refresher CUI training with documentation maintained for audit; applies to contractors supporting DoD pursuant to contractual requirements; 11 minimum training standards.",
+      "source": "https://web.archive.org/web/20251227021010/https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/520048p.PDF"
+    },
+    {
+      "claim": "22 CFR 127.12(c)(3): voluntary disclosure addresses compliance measures including training; (b)(3)(iv) DDTC may consider whether an internal compliance program was instituted or improved.",
+      "source": "https://www.ecfr.gov/current/title-22/section-127.12"
+    },
+    {
+      "claim": "22 CFR 120.67(a)(3): empowered official understands export control statutes, regulations and penalties.",
+      "source": "https://www.ecfr.gov/current/title-22/section-120.67"
+    },
+    {
+      "claim": "22 CFR 120.50(a)(2): release of technical data to a foreign person in the US is a deemed export.",
+      "source": "https://www.ecfr.gov/current/title-22/section-120.50"
+    },
+    {
+      "claim": "22 CFR 122.5: registrant records maintained for five years.",
+      "source": "https://www.ecfr.gov/current/title-22/section-122.5"
+    },
+    {
+      "claim": "15 CFR 734.13: release of technology or source code to a foreign person in the US is a deemed export.",
+      "source": "https://www.ecfr.gov/current/title-15/section-734.13"
+    },
+    {
+      "claim": "15 CFR 762.6(a): EAR records retained five years.",
+      "source": "https://www.ecfr.gov/current/title-15/section-762.6"
+    },
+    {
+      "claim": "BIS Export Compliance Guidelines Element 5 Training: holds employees accountable through assessments.",
+      "source": "https://www.bis.gov/media/documents/export-compliance-guidelines"
+    },
+    {
+      "claim": "OFAC Framework: training at a minimum annually; goals include accountability through assessments.",
+      "source": "https://ofac.treasury.gov/media/16331/download?inline"
+    },
+    {
+      "claim": "DOJ ECCP asks about measuring training effectiveness and training on emerging technologies such as AI.",
+      "source": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "claim": "DISP Control 16.1 ongoing responsibilities: appoint CSO and SO, regular security training including induction, Annual Security Report every 12 months; ASR tabled with Board or Executive; Security Officer training is a step in membership.",
+      "source": "https://www.defence.gov.au/sites/default/files/2025-08/DISPMembershipProgram.pdf"
+    },
+    {
+      "claim": "Overseas entities cannot be DISP members.",
+      "source": "https://www.defence.gov.au/business-industry/industry-governance/industry-regulators/defence-industry-security-program/eligibility-suitability"
+    },
+    {
+      "claim": "AGD guidance: acknowledgement alone inadequate; keep completion records and attendance lists; training proportionate to risk, including directors and higher risk functions, induction, periodic.",
+      "source": "https://www.ag.gov.au/sites/default/files/2024-08/guidance-adequate-procedures-prevent-the-commission-of-foreign_bribery.PDF"
+    },
+    {
+      "claim": "Adequate procedures is the only offense specific defense to s 70.5A.",
+      "source": "https://www.ag.gov.au/crime/foreign-bribery/foreign-bribery-offences-and-penalties"
+    },
+    {
+      "claim": "AS9100D 7.3 awareness of contribution to conformity, product safety, ethical behavior; IAQG FAQ 2.10 counterfeit parts training for procurement, inspection and design personnel.",
+      "source": "https://iaqg.org/wp-content/uploads/2019/10/9100-2016_faq.pdf"
+    },
+    {
+      "claim": "IAQG auditor guidance: 7.3 awareness of relevant documented information including changes.",
+      "source": "https://iaqg.org/wp-content/uploads/2019/10/auditor_guidance-_9100_2016.pdf"
+    }
+  ]
+}

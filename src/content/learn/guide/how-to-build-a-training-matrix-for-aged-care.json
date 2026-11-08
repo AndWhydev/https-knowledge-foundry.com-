@@ -1,0 +1,541 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-aged-care",
+  "kind": "guide",
+  "title": "How do you build a training matrix for aged care?",
+  "seoTitle": "Aged care training matrix",
+  "description": "How to build an aged care training matrix: screening gates, core matters, aide in-service hours and evidence under Australian and US aged care rules, by role.",
+  "shortAnswer": "An aged care training matrix is built by treating screening and qualification as entry gates, then mapping each care role against the training its service type requires: in Australia, the Aged Care Act 2024 and strengthened Aged Care Quality Standards; in the United States, the CMS rules for nursing homes, home health aides and hospice aides. Each cell records the frequency, the trigger and the record a regulator or surveyor will check.",
+  "keyTakeaways": [
+    "Start with gates, not courses. Worker screening in Australia and aide competency evaluation in the United States must be satisfied before a person delivers care.",
+    "The service type decides the rows. Australian registration categories and US provider types (nursing home, home health, hospice) carry different training duties.",
+    "Volunteers and contractors are workers for these rules, so they need rows and records like employees.",
+    "Australia's Outcome 2.9 lists core matters for regular competency based training, and several systems need training at least annually.",
+    "US nurse aides, home health aides and hospice aides all need at least 12 hours of in-service training a year, but their entry routes and supervision differ."
+  ],
+  "sections": [
+    {
+      "id": "what-it-proves",
+      "heading": "What does an aged care training matrix have to prove?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It has to prove that every person delivering care was screened, holds the qualifications or skills the role needs, has been trained on the matters the regulator names, and is still current today. Aged care differs from most sectors because older people receiving care are often cognitively impaired, so the rules put unusual weight on who is allowed near them and on abuse prevention, dementia care and incident reporting."
+        },
+        {
+          "type": "p",
+          "text": "This guide applies the method in [how to build a training matrix](/guides/how-to-build-a-training-matrix) to two markets covered in this library: Australia, under the [Aged Care Act 2024](/regulations/aged-care-act-2024-worker-obligations) and the [strengthened Aged Care Quality Standards](/regulations/aged-care-quality-standards-training), and the United States, under the Centers for Medicare & Medicaid Services (CMS) rules for [nursing homes](/regulations/cms-nursing-home-training-requirements), [home health aides](/regulations/home-health-aide-training-requirements) and [hospice aides](/regulations/hospice-aide-training-requirements). The Australian Act and Standards have been in force since November 1, 2025."
+        },
+        {
+          "type": "p",
+          "text": "The Australian rule on training is stated plainly in Outcome 2.9 of the Aged Care Rules: \"The provider must provide aged care workers with training and supervision to enable them to effectively perform their roles.\""
+        }
+      ]
+    },
+    {
+      "id": "who-is-a-worker",
+      "heading": "Who counts as a worker on an aged care matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Everyone who delivers or supports care for the provider, including volunteers and contractors. Under section 11(4) of the Aged Care Act 2024, an aged care worker includes individuals employed or engaged, including volunteers, by a registered provider, and a note confirms independent contractors are included. The Aged Care Quality and Safety Commission's guidance expects training records for all workers, including contractors."
+        },
+        {
+          "type": "p",
+          "text": "US rules reach just as wide. 42 CFR 483.95 requires a nursing home training program for all new and existing staff, contractors and volunteers, consistent with their roles. Hospices must orient employees and contracted staff who have patient and family contact, and train volunteers consistent with hospice industry standards."
+        },
+        {
+          "type": "p",
+          "text": "Two further groups need their own rows in Australia. Responsible persons, such as directors and senior managers, must be screened, and section 180 of the Act sets a due diligence duty that includes acquiring and maintaining knowledge. Registered nurses are also critical to residential rows, because section 175 requires a registered nurse on site at all times."
+        }
+      ]
+    },
+    {
+      "id": "service-type-rows",
+      "heading": "How does the type of service change the rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The service type decides which frameworks apply, so record it at the top of each role group before assigning obligations. The table summarizes what the library's regulation pages record for each setting."
+        },
+        {
+          "type": "table",
+          "caption": "Service settings and the training frameworks that apply (market stated for each row)",
+          "head": [
+            "Setting (market)",
+            "Framework",
+            "What it adds to the matrix"
+          ],
+          "rows": [
+            [
+              "Residential care (Australia)",
+              "Strengthened Standards 1 to 7; Aged Care Rules",
+              "All seven Standards apply, including Standards 6 and 7 for residential care; registered nurse on site at all times"
+            ],
+            [
+              "Nursing and transition care (Australia)",
+              "Standards 1 to 5",
+              "Standard 5 applies in addition to Standards 1 to 4"
+            ],
+            [
+              "Personal and care support in the home or community (Australia)",
+              "Standards 1 to 4",
+              "Commission audits against the strengthened Standards in categories 4, 5 and 6; they do not apply to categories 1, 2 and 3"
+            ],
+            [
+              "Assistive technology and home modifications (Australia)",
+              "Act and Rules, without the incident management system training rule",
+              "Incident management applies to categories 1 and 3 to 6, so screening and the Code of Conduct still apply here but that annual training row does not"
+            ],
+            [
+              "Nursing home in Medicare or Medicaid (US)",
+              "42 CFR 483.95 and 483.71",
+              "Topic list for all staff; training amount based on the facility assessment; nurse aide in-service of 12 hours a year"
+            ],
+            [
+              "Medicare-certified home health agency (US)",
+              "42 CFR 484.80 and 484.102",
+              "Aide training of at least 75 hours, RN competency evaluation, 12 hours in-service; emergency preparedness training every 2 years"
+            ],
+            [
+              "Hospice (US)",
+              "42 CFR 418.76, 418.100 and 418.113",
+              "Aide training and evaluation, hospice philosophy orientation, written in-service description; emergency preparedness training every 2 years"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "illustrative-matrices",
+      "heading": "What does an illustrative aged care matrix look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The tables below are illustrative only. The first is for a hypothetical Australian residential care home; the second is for a hypothetical US operator running a nursing home, a home health agency and a hospice. Organizational frequencies are labeled as policy where the source leaves the interval to the provider."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative role matrix: residential care home (Australia)",
+          "head": [
+            "Role (market)",
+            "Screening gate",
+            "Core matters under Action 2.9.6",
+            "Incident, complaints and whistleblower systems",
+            "Registration or ticket"
+          ],
+          "rows": [
+            [
+              "Personal care worker (Australia)",
+              "Police certificate no more than 3 years old, or NDIS clearance, before starting",
+              "Dementia, medical emergencies, Code of Conduct, SIRS and Quality Standards; regular, frequency set by provider policy",
+              "On becoming a worker, at least annually, and when a system changes",
+              "Not applicable"
+            ],
+            [
+              "Registered nurse (Australia)",
+              "As above",
+              "As above, plus clinical competencies set by the provider",
+              "As above",
+              "Current Ahpra registration verified; CPD is the nurse's own obligation"
+            ],
+            [
+              "Volunteer lifestyle assistant (Australia)",
+              "As above; pending check allowed only with supervision and a statutory declaration",
+              "Code of Conduct and rights based care at induction; refresh per policy",
+              "As above",
+              "Not applicable"
+            ],
+            [
+              "Contracted cleaner or cook (Australia)",
+              "As above",
+              "Code of Conduct; infection prevention as relevant to role",
+              "As above",
+              "Not applicable"
+            ],
+            [
+              "Designated first aider (Australia)",
+              "As above",
+              "As above",
+              "As above",
+              "Provide First Aid statement of attainment; CPR refresher annually and requalification every three years under the model Code"
+            ],
+            [
+              "Director or senior manager (Australia)",
+              "Responsible person screening",
+              "Quality Standards and governance",
+              "As above",
+              "Due diligence knowledge under section 180"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative role matrix: US aged care operator",
+          "head": [
+            "Role (market)",
+            "Before providing care",
+            "Recurring training",
+            "Competency evidence"
+          ],
+          "rows": [
+            [
+              "Certified nurse aide, nursing home (US)",
+              "Training on the 483.95 topics, consistent with the role",
+              "At least 12 hours of in-service a year, including dementia management and abuse prevention",
+              "In-service addresses areas of weakness and care of cognitively impaired residents"
+            ],
+            [
+              "Home health aide (US)",
+              "At least 75 hours of training, with 16 classroom hours before 16 supervised practical hours, and an RN competency evaluation",
+              "At least 12 hours of in-service in each 12 month period, RN supervised",
+              "Specified skills observed with a patient or pseudo-patient; annual on-site observation"
+            ],
+            [
+              "Hospice aide (US)",
+              "At least 75 hours of training and RN competency evaluation, or another listed route",
+              "At least 12 hours of in-service in each 12 month period",
+              "RN on-site visit at least every 14 days; competency evaluation of deficient skills"
+            ],
+            [
+              "Paid feeding assistant, nursing home (US)",
+              "State-approved feeding assistant training",
+              "Per facility policy",
+              "Completion of the state-approved course"
+            ],
+            [
+              "Nursing home staff with exposure to blood (US)",
+              "Bloodborne pathogens training at initial assignment",
+              "Within one year of the previous session",
+              "Record of date, contents, trainer and attendee job titles"
+            ],
+            [
+              "Compliance officer, operator with five or more facilities (US)",
+              "Designated by the operating organization",
+              "Annual compliance and ethics training program delivered to staff",
+              "Program records meeting 483.95(f)"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The bloodborne pathogens row draws on [OSHA 1910.1030](/regulations/osha-bloodborne-pathogens-training-requirements), which applies to any US employee with occupational exposure, not only in hospitals."
+        }
+      ]
+    },
+    {
+      "id": "gates-not-refreshers",
+      "heading": "Which aged care rows are gates rather than refreshers?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Screening, qualification and aide competency evaluation are gates: until they are met, the person should not deliver care, so the matrix status must block rostering rather than simply show 'due'. Treat these rows differently from annual refreshers."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Australian worker screening.** Under Rules 152-20 and 152-25, the current routes are a police certificate no more than 3 years old without disqualifying convictions, an NDIS clearance, a pending check with supervision and a statutory declaration, or supervised school work experience. Record the certificate date so the 3 year limit can be tracked.",
+            "**Australian qualifications.** Rule 152-35 requires workers to have appropriate qualifications, skills or experience. Record which one the provider relied on for each role.",
+            "**US aide competency evaluation.** Home health and hospice aides must pass an RN competency evaluation before furnishing services, with certain skills observed on a patient or pseudo-patient.",
+            "**US break in service.** A home health or hospice aide who goes 24 consecutive months without providing compensated aide services must complete a new training and competency program, so the matrix should flag long gaps, not only expiry dates.",
+            "**Professional registration.** For nurses in Australia, registration renewal is due by 31 May each year under the [Ahpra registration standards](/regulations/ahpra-cpd-registration-standards). The matrix checks the national register; it does not track the nurse's 20 hours of CPD, which the nurse declares to the Nursing and Midwifery Board of Australia."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audit-evidence",
+      "heading": "What will an aged care auditor or surveyor ask to see?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Records that show each worker's screening, qualifications and training against their role, kept for the required period. In Australia, Rule 154-905 sets the contents of worker records and Rule 154-910 requires seven year retention, and the Commission rates providers against each outcome at audit. The Commission's own guidance refers to a training matrix by role type and gives palliative care, infection prevention and control lead, and fire warden or first aider training as examples."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Demonstrated competence.** Action 2.9.6 asks for competency based training, and the model psychosocial hazards Code says it is not sufficient to tell a worker about a procedure and ask them to acknowledge it ([psychosocial hazards](/regulations/psychosocial-hazards-training-requirements)). Use observed or tested assessment, such as [verification of competency](/guides/how-to-set-up-verification-of-competency), for care tasks.",
+            "**Repeated, not one off, training on conduct.** The Australian Human Rights Commission's positive duty guidelines say one off induction training has proven ineffective unless periodically reinforced, and list attendance records with a copy of the content as evidence ([positive duty](/regulations/positive-duty-sexual-harassment-training)).",
+            "**Privacy handling.** The Office of the Australian Information Commissioner describes staff training as an organizational security measure under APP 11, relevant to anyone handling residents' records ([Privacy Act training](/regulations/privacy-act-staff-training-requirements)).",
+            "**First aid coverage.** Regulation 42 of the model WHS Regulations requires an adequate number of trained first aiders; Victoria applies its own compliance code ([first aid](/regulations/first-aid-training-requirements-australia)).",
+            "**US facility assessment.** CMS ties the amount and type of nursing home training to the facility assessment, which must be documented and reviewed at least annually. Surveyors can compare the two.",
+            "**US hospice in-service.** Hospices must keep a written description of in-service training provided in the previous 12 months."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Keep CPR and fire safety as provider rows for registered nurses too: the Nursing and Midwifery Board of Australia excludes routine annual CPR and mandatory fire training from what counts as CPD. For record handling across rows, see [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
+        }
+      ]
+    },
+    {
+      "id": "penalties-and-ownership",
+      "heading": "Why should each aged care row have a named owner?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because liability sits with individuals as well as the provider. In Australia, workers and responsible persons who fail to comply with the Aged Care Code of Conduct face civil penalties of 250 penalty units under sections 173 and 174, and the Code requires services to be delivered \"in a safe and competent manner, with care and skill\". A named owner for each requirement keeps content current, and a named owner for each role keeps the people in it current."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each aged care matrix row to the outcome, rule or regulation that requires it and to the assessment that evidences it, so a change to the Standards or a CMS rule shows which roles and records it affects. See [compliance programs](/programs/compliance) and [healthcare and life sciences](/industries/healthcare-life-sciences)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which core matters must Australian aged care training cover?",
+      "a": "Action 2.9.6 of the strengthened Standards lists person centred, rights based care; culturally safe, trauma aware and healing informed care; dementia; medical emergencies; and the Code of Conduct, the Serious Incident Response Scheme and the Quality Standards. Providers decide how often to refresh each, so the matrix should record that policy interval."
+    },
+    {
+      "q": "Do US nursing homes need annual training for every topic?",
+      "a": "Not for every topic. 42 CFR 483.95 lists required topics for all staff and bases the amount and type of training on the facility assessment. Nurse aides need at least 12 hours of in-service a year, and operators with five or more facilities need annual compliance and ethics training."
+    },
+    {
+      "q": "Can a new aged care worker start before their police check returns?",
+      "a": "Under the Aged Care Rules, a pending check is one of the screening routes, but only with supervision and a statutory declaration. The matrix should record the supervision arrangement and the date the check was lodged, and block unsupervised rostering until the result is held."
+    },
+    {
+      "q": "How long must aged care training records be kept?",
+      "a": "In Australia, Rule 154-910 requires worker records to be kept for seven years. In the United States, record periods depend on the rule; for example, OSHA bloodborne pathogens training records must be kept for 3 years. Use the longest period that applies to each record."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aged Care Act 2024",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/C2024A00104/latest/text"
+    },
+    {
+      "title": "New Aged Care Act",
+      "publisher": "Department of Health, Disability and Ageing",
+      "url": "https://www.health.gov.au/our-work/aged-care-act"
+    },
+    {
+      "title": "Aged Care Rules 2025",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2025L01173/latest/text"
+    },
+    {
+      "title": "Outcome 2.9: Human resource management",
+      "publisher": "Aged Care Quality and Safety Commission",
+      "url": "https://www.agedcarequality.gov.au/strengthened-quality-standards/organisation/human-resource-management"
+    },
+    {
+      "title": "Strengthened Aged Care Quality Standards",
+      "publisher": "Aged Care Quality and Safety Commission",
+      "url": "https://www.agedcarequality.gov.au/providers/quality-standards/strengthened-aged-care-quality-standards"
+    },
+    {
+      "title": "42 CFR 483.95 Training requirements",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)",
+      "url": "https://www.law.cornell.edu/cfr/text/42/483.95"
+    },
+    {
+      "title": "42 CFR 483.71 Facility assessment",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)",
+      "url": "https://www.law.cornell.edu/cfr/text/42/483.71"
+    },
+    {
+      "title": "42 CFR 483.85 Compliance and ethics program",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)",
+      "url": "https://www.law.cornell.edu/cfr/text/42/483.85"
+    },
+    {
+      "title": "42 CFR 484.80 Condition of participation: Home health aide services",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-484/subpart-B/section-484.80"
+    },
+    {
+      "title": "42 CFR 484.102 Condition of participation: Emergency preparedness",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-484/subpart-C/section-484.102"
+    },
+    {
+      "title": "42 CFR 418.76 Condition of participation: Hospice aide and homemaker services",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-418/subpart-C/section-418.76"
+    },
+    {
+      "title": "42 CFR 418.100 Condition of Participation: Organization and administration of services",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-418/subpart-D/section-418.100"
+    },
+    {
+      "title": "42 CFR 418.78 Conditions of participation: Volunteers",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-418/subpart-C/section-418.78"
+    },
+    {
+      "title": "42 CFR 418.113 Condition of participation: Emergency preparedness",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-418/subpart-D/section-418.113"
+    },
+    {
+      "title": "29 CFR 1910.1030 Bloodborne pathogens",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/section-1910.1030"
+    },
+    {
+      "title": "Fact sheet: Continuing professional development",
+      "publisher": "Nursing and Midwifery Board of Australia",
+      "url": "https://www.nursingmidwiferyboard.gov.au/Codes-Guidelines-Statements/FAQ/CPD-FAQ-for-nurses-and-midwives"
+    },
+    {
+      "title": "Fact sheet: Renewal information for employers",
+      "publisher": "Nursing and Midwifery Board of Australia",
+      "url": "https://www.nursingmidwiferyboard.gov.au/Registration-and-Endorsement/Registration-Renewal/Renewal-FAQ-for-employers"
+    },
+    {
+      "title": "Model Code of Practice: First aid in the workplace (July 2019)",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2021-10/code_of_practice_-_first_aid_in_the_workplace_July%202019.pdf"
+    },
+    {
+      "title": "Compliance code: First aid in the workplace",
+      "publisher": "WorkSafe Victoria",
+      "url": "https://www.worksafe.vic.gov.au/resources/compliance-code-first-aid-workplace"
+    },
+    {
+      "title": "Model Code of Practice: Managing psychosocial hazards at work",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/doc/model-code-practice-managing-psychosocial-hazards-work"
+    },
+    {
+      "title": "Guidelines for Complying with the Positive Duty under the Sex Discrimination Act 1984 (Cth), August 2023",
+      "publisher": "Australian Human Rights Commission",
+      "url": "https://humanrights.gov.au/__data/assets/file/0030/46974/Guidelines-for-Complying-with-the-Positive-Duty-2023.pdf"
+    },
+    {
+      "title": "Chapter 11: APP 11 Security of personal information",
+      "publisher": "Office of the Australian Information Commissioner",
+      "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-11-app-11-security-of-personal-information"
+    },
+    {
+      "title": "Strengthened Quality Standards guidance",
+      "publisher": "Aged Care Quality and Safety Commission",
+      "url": "https://www.agedcarequality.gov.au/strengthened-quality-standards"
+    }
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "aged-care-quality-standards-training",
+    "aged-care-act-2024-worker-obligations",
+    "cms-nursing-home-training-requirements",
+    "how-to-build-a-training-matrix-for-a-hospital",
+    "how-to-set-up-verification-of-competency"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Healthcare and life sciences",
+      "href": "/industries/healthcare-life-sciences"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "The whole Aged Care Act 2024 commenced on 1 November 2025; s 11(4) aged care worker includes volunteers and independent contractors; s 12 responsible person; ss 173 and 174 civil penalty of 250 penalty units for Code non-compliance; s 175 registered nurse on site at all times; s 180 due diligence including acquiring and maintaining knowledge.",
+      "source": "https://www.legislation.gov.au/C2024A00104/latest/text"
+    },
+    {
+      "claim": "Department of Health, Disability and Ageing: new Act started 1 November 2025.",
+      "source": "https://www.health.gov.au/our-work/aged-care-act"
+    },
+    {
+      "claim": "Rules 152-20 and 152-25: police certificate not more than 3 years old, NDIS clearance, pending check with supervision and statutory declaration, or supervised school work experience; 152-35 appropriate qualifications, skills or experience; 154-905 worker record contents; 154-910 seven year retention; Outcome 2.9 quote; s 15-5 Standards by service type; ss 164-35, 165-20, 165-50 training at least annually, on becoming a worker or responsible person, and when system changes; s 164-1 incident management applies to categories 1 and 3 to 6; s 14-5 Code quote 'in a safe and competent manner, with care and skill'.",
+      "source": "https://www.legislation.gov.au/F2025L01173/latest/text"
+    },
+    {
+      "claim": "Action 2.9.6 core matters list: person-centred rights-based care; culturally safe, trauma aware and healing informed care; dementia; medical emergencies; Code of Conduct, SIRS, Quality Standards. Commission guidance: training records for all workers including contractors; training matrix by role type; palliative care, IPC Lead and fire warden/first aider examples.",
+      "source": "https://www.agedcarequality.gov.au/strengthened-quality-standards/organisation/human-resource-management"
+    },
+    {
+      "claim": "Strengthened Standards and audit process do not apply to providers registered in categories 1, 2 and 3.",
+      "source": "https://www.agedcarequality.gov.au/strengthened-quality-standards"
+    },
+    {
+      "claim": "Commission audits categories 4, 5 and 6 against the strengthened Standards and rates providers against each outcome.",
+      "source": "https://www.agedcarequality.gov.au/providers/quality-standards/strengthened-aged-care-quality-standards"
+    },
+    {
+      "claim": "42 CFR 483.95: training program for all new and existing staff, contractors and volunteers consistent with roles; amount based on facility assessment; (g) nurse aide in-service no less than 12 hours per year including dementia management and abuse prevention and areas of weakness; (h) state-approved feeding assistant training; (f) compliance and ethics.",
+      "source": "https://www.law.cornell.edu/cfr/text/42/483.95"
+    },
+    {
+      "claim": "42 CFR 483.71 facility assessment documented and reviewed at least annually.",
+      "source": "https://www.law.cornell.edu/cfr/text/42/483.71"
+    },
+    {
+      "claim": "42 CFR 483.85: operating organizations with five or more facilities have mandatory annual compliance and ethics training and a designated compliance officer.",
+      "source": "https://www.law.cornell.edu/cfr/text/42/483.85"
+    },
+    {
+      "claim": "42 CFR 484.80: at least 75 hours, 16 classroom before 16 supervised practical hours; RN competency evaluation before services with specified skills observed on patient or pseudo-patient; 12 hours in-service per 12 months; 24 consecutive months without compensated services requires new program; annual on-site observation.",
+      "source": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-484/subpart-B/section-484.80"
+    },
+    {
+      "claim": "42 CFR 484.102(d)(1): home health emergency preparedness training at least every 2 years.",
+      "source": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-484/subpart-C/section-484.102"
+    },
+    {
+      "claim": "42 CFR 418.76: hospice aide 75 hours and RN competency evaluation or other routes; 12 hours in-service per 12 months; RN on-site visit at least every 14 days; competency evaluation of deficient skills; 24 consecutive months rule.",
+      "source": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-418/subpart-C/section-418.76"
+    },
+    {
+      "claim": "42 CFR 418.100(g): orientation for employees and contracted staff with patient and family contact; written description of in-service training in previous 12 months.",
+      "source": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-418/subpart-D/section-418.100"
+    },
+    {
+      "claim": "42 CFR 418.78(a): hospice volunteer orientation and training consistent with hospice industry standards.",
+      "source": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-418/subpart-C/section-418.78"
+    },
+    {
+      "claim": "42 CFR 418.113(d)(1): hospice emergency preparedness training at least every 2 years.",
+      "source": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-418/subpart-D/section-418.113"
+    },
+    {
+      "claim": "29 CFR 1910.1030: training at initial assignment and within one year of previous; record contents; 3 year retention.",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/section-1910.1030"
+    },
+    {
+      "claim": "NMBA: 20 hours CPD for RN or EN; routine annual CPR and mandatory fire training cannot be counted.",
+      "source": "https://www.nursingmidwiferyboard.gov.au/Codes-Guidelines-Statements/FAQ/CPD-FAQ-for-nurses-and-midwives"
+    },
+    {
+      "claim": "Nurses and midwives renew by 31 May.",
+      "source": "https://www.nursingmidwiferyboard.gov.au/Registration-and-Endorsement/Registration-Renewal/Renewal-FAQ-for-employers"
+    },
+    {
+      "claim": "Model first aid Code: Provide First Aid statement of attainment; CPR refresher annually and qualifications renewed every three years; Regulation 42 adequate number of trained workers.",
+      "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2021-10/code_of_practice_-_first_aid_in_the_workplace_July%202019.pdf"
+    },
+    {
+      "claim": "WorkSafe Victoria first aid compliance code under OHS Act 2004.",
+      "source": "https://www.worksafe.vic.gov.au/resources/compliance-code-first-aid-workplace"
+    },
+    {
+      "claim": "Model psychosocial hazards Code: not sufficient to tell a worker about a procedure and ask them to acknowledge it.",
+      "source": "https://www.safeworkaustralia.gov.au/doc/model-code-practice-managing-psychosocial-hazards-work"
+    },
+    {
+      "claim": "Positive duty Guidelines Standard 3: one off training at induction ineffective unless periodically reinforced; records include attendance with a copy of the training content.",
+      "source": "https://humanrights.gov.au/__data/assets/file/0030/46974/Guidelines-for-Complying-with-the-Positive-Duty-2023.pdf"
+    },
+    {
+      "claim": "OAIC APP 11 guidelines describe organisational measures including staff training.",
+      "source": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-11-app-11-security-of-personal-information"
+    }
+  ]
+}
