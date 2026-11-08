@@ -1,0 +1,161 @@
+{
+  "slug": "skills-passport",
+  "kind": "glossary",
+  "title": "What is a skills passport?",
+  "seoTitle": "Skills passport: definition",
+  "description": "A skills passport is a portable, verifiable record of a person's qualifications, training and skills. Examples, and what makes one credible.",
+  "shortAnswer": "A skills passport is a portable record, usually digital, that holds verified evidence of a person's qualifications, training, licenses and skills so they can share it with employers, education providers or site operators without re-proving each item. Examples range from government initiatives, such as Australia's proposed National Skills Passport and the EU's European Digital Credentials for Learning, to industry and employer schemes that let workers carry safety training and competence records between sites.",
+  "keyTakeaways": [
+    "A skills passport collects verified credentials in one place that the holder controls and shares.",
+    "Its value depends on verification: entries should be issued or confirmed by the body that assessed them, not self declared.",
+    "Australia consulted in 2023 to 2024 on a National Skills Passport business case; the EU provides European Digital Credentials for Learning through Europass.",
+    "Portable competence records already exist in some safety rules, such as the UK rail requirement that competence records be available to other controllers of safety critical work.",
+    "A passport shows what someone holds; employers still decide whether those credentials meet their own site or role requirements."
+  ],
+  "term": "skills passport",
+  "alsoKnownAs": [
+    "competency passport",
+    "training passport",
+    "digital skills wallet",
+    "learner wallet"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What does a skills passport contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A skills passport contains credentials and the evidence behind them: qualifications, units or courses completed, licenses, tickets, safety inductions, verification of competency records and sometimes work experience. In digital form, each entry is ideally a verifiable credential issued by the organization that assessed it, so a reader can confirm its origin and that it has not been altered."
+        },
+        {
+          "type": "p",
+          "text": "There is no single international definition. The term is used for government platforms, industry schemes and employer systems, and the scope, governance and verification differ widely. The common thread is portability: the record belongs to the person and moves with them."
+        }
+      ]
+    },
+    {
+      "id": "examples",
+      "heading": "What are examples of skills passports?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Government examples focus on making qualifications portable across employers and education providers. Industry examples focus on letting workers move between sites without repeating training."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Australia.** In September 2023, alongside the Employment White Paper, the Australian Government announced it would consult on a business case for a [National Skills Passport](https://www.education.gov.au/national-skills-passport-consultation). The consultation describes a system in which participants could view and share evidence of their skills and qualifications through a trusted, integrated digital system. Submissions closed on 18 February 2024, and the Department of Education and the Department of Employment and Workplace Relations are working on the business case.",
+            "**European Union.** The European Commission provides infrastructure to create, issue, store, share and verify [European Digital Credentials for Learning](https://europass.europa.eu/en/european-digital-credentials), which can take the form of diplomas, micro-credentials, certificates of participation or other learning records. Credentials are sealed electronically, checked automatically each time they are viewed, and can be stored in a learner's Europass wallet. Their legal base is the Europass Decision.",
+            "**Rail safety (Great Britain).** [Regulation 24 of the Railways and Other Guided Transport Systems (Safety) Regulations 2006](https://www.legislation.gov.uk/uksi/2006/599/regulation/24) requires an accurate and up to date written record of each safety critical worker's competence and fitness, available on reasonable request to any other controller of safety critical work or operator who may be affected. That is a legal requirement for a portable competence record.",
+            "**Construction induction (Australia).** Under the model WHS Regulations, workers hold a general construction induction training card that is recognized across jurisdictions, so they do not repeat the induction for each employer. See [general construction induction (white card)](/regulations/general-construction-induction-white-card)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "credibility",
+      "heading": "What makes a skills passport credible to employers and regulators?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Credibility comes from who issued each entry, how it was assessed, and whether it is current. The table sets out the tests an employer can apply to any passport entry before relying on it."
+        },
+        {
+          "type": "table",
+          "caption": "Checklist for relying on a skills passport entry (original)",
+          "head": ["Test", "Question to ask", "Strong evidence", "Weak evidence"],
+          "rows": [
+            ["Issuer", "Did the assessing organization issue or confirm the entry?", "Signed or sealed digital credential from the issuer", "Self entered by the holder"],
+            ["Integrity", "Can I confirm it has not been altered?", "Cryptographic verification, as with [Open Badges](/glossary/open-badges) 3.0 or European Digital Credentials", "PDF or photo of a certificate"],
+            ["Criteria", "What exactly was assessed?", "Stated learning outcomes or competency standard", "Course title only"],
+            ["Assessment", "Was performance assessed or just attendance recorded?", "Assessment method and result recorded", "Completion or attendance only"],
+            ["Currency", "Is it still valid for current rules and equipment?", "Issue date, expiry date and revocation status", "No dates"],
+            ["Fit to role", "Does it cover our site, equipment and procedures?", "Mapped to the role's requirements, with local verification where needed", "Assumed equivalent"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nearby-terms",
+      "heading": "How is a skills passport different from a skills matrix or an LMS transcript?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A skills passport belongs to the individual and travels between organizations. A [skills matrix](/glossary/skills-matrix) belongs to the organization and shows its people against its requirements. An LMS transcript records learning completed within one system. In a well designed setup, verified passport entries feed the employer's matrix, after the employer has decided which entries meet its requirements, often through [recognition of prior learning](/glossary/recognition-of-prior-learning) or [verification of competency](/glossary/verification-of-competency)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry gives each competency a stable definition, criteria and source, which a credential can reference. When a worker presents an external credential, its stated criteria can be compared with the framework to see which requirements it covers and which still need local assessment."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Australia have a National Skills Passport yet?",
+      "a": "As at the Department of Education's consultation page, the government consulted on a business case for a National Skills Passport, with submissions closing on 18 February 2024, and two departments are working on that business case. Check the department's site for the current status before relying on a launch date."
+    },
+    {
+      "q": "Who owns the data in a skills passport?",
+      "a": "In most designs the individual controls what is shared and with whom. The EU's European Digital Credentials for Learning, for example, let learners choose how, when and for how long to share credentials. Issuers keep their own records of what they issued."
+    },
+    {
+      "q": "Can an employer require workers to have a skills passport?",
+      "a": "An employer can require evidence of specific qualifications and training, and may accept a passport as that evidence. Whether a particular passport scheme can be made mandatory depends on employment law, industry agreements and privacy rules in the jurisdiction."
+    },
+    {
+      "q": "Does a skills passport replace site induction?",
+      "a": "Usually not. A passport can show general training such as a construction induction card, but site specific hazards, procedures and emergency arrangements still need a site induction. See induction training."
+    }
+  ],
+  "sources": [
+    {
+      "title": "National Skills Passport Consultation",
+      "publisher": "Department of Education, Australian Government",
+      "url": "https://www.education.gov.au/national-skills-passport-consultation"
+    },
+    {
+      "title": "European Digital Credentials",
+      "publisher": "Europass, European Commission",
+      "url": "https://europass.europa.eu/en/european-digital-credentials"
+    },
+    {
+      "title": "The Railways and Other Guided Transport Systems (Safety) Regulations 2006, regulation 24",
+      "publisher": "legislation.gov.uk",
+      "url": "https://www.legislation.gov.uk/uksi/2006/599/regulation/24"
+    },
+    {
+      "title": "Model Work Health and Safety Regulations (5 December 2025)",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
+    }
+  ],
+  "related": [
+    "open-badges",
+    "micro-credential",
+    "skills-matrix",
+    "recognition-of-prior-learning",
+    "general-construction-induction-white-card",
+    "induction-training"
+  ],
+  "productLinks": [
+    { "label": "Verification and trust", "href": "/platform/verification-trust" },
+    { "label": "Hybrid verification programs", "href": "/programs/hybrid-verification" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "Australian Government announced in September 2023, alongside the Employment White Paper, it would consult on a National Skills Passport business case; view and share evidence through a trusted integrated digital system; submissions closed 18 February 2024; Education and DEWR working on business case (page last modified 24 March 2026)", "source": "https://www.education.gov.au/national-skills-passport-consultation" },
+    { "claim": "EDC: Commission infrastructure to create, issue, view, store, share and verify; forms include diplomas, micro-credentials, certificates of participation; electronic seal mandatory; automatic checks on viewing; Europass wallet; legal base in the Europass Decision; learners control sharing", "source": "https://europass.europa.eu/en/european-digital-credentials" },
+    { "claim": "ROGS reg 24(1)(b)-(c): accurate and up to date written record available on reasonable request to other controllers or operators", "source": "https://www.legislation.gov.uk/uksi/2006/599/regulation/24" },
+    { "claim": "Model WHS Regulations Part 6.5: general construction induction training card; reg 318 recognition of cards issued in other jurisdictions", "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf" }
+  ]
+}

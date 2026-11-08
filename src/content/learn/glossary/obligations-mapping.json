@@ -1,0 +1,175 @@
+{
+  "slug": "obligations-mapping",
+  "kind": "glossary",
+  "title": "What is obligations mapping?",
+  "seoTitle": "Obligations mapping: definition",
+  "description": "Obligations mapping links each legal or regulatory requirement to the policies, controls, owners, roles and training that meet it. What a map contains.",
+  "shortAnswer": "Obligations mapping is the practice of linking each compliance obligation, from laws, regulations, regulator guidance, contracts and standards, to the policies, procedures, controls, owners, roles and training that satisfy it. The result is a traceable map that shows how the organization meets every requirement, reveals gaps and overlaps, and shows what else must change when an obligation changes. It extends a compliance obligations register by recording the links, not just the list.",
+  "keyTakeaways": [
+    "An obligations register lists what applies; an obligations map shows how each obligation is met and who is responsible.",
+    "ISO 37301 starts compliance management with identifying compliance obligations and evaluating compliance risks, which a map makes auditable.",
+    "Mapping obligations to roles and learning outcomes is how training is shown to be risk based rather than generic.",
+    "A good map runs in both directions: from obligation to control and training, and from any course or control back to the obligations it serves.",
+    "The map is only useful if it is maintained when rules, processes or roles change."
+  ],
+  "term": "obligations mapping",
+  "alsoKnownAs": [
+    "compliance obligations mapping",
+    "regulatory mapping",
+    "obligation to control mapping",
+    "requirements traceability"
+  ],
+  "sections": [
+    {
+      "id": "what-it-contains",
+      "heading": "What does an obligations map contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An obligations map contains each obligation broken down to a testable requirement, plus the links to everything that implements and evidences it. The table shows a typical structure with one illustrative row; the columns matter more than the example."
+        },
+        {
+          "type": "table",
+          "caption": "Obligations map structure: obligation to control to role to learning outcome to evidence (illustrative example row)",
+          "head": ["Field", "What it records", "Illustrative example"],
+          "rows": [
+            ["Source", "The law, regulation, guidance, standard or contract and its exact provision", "A safety regulation requiring training adapted to new or changed risks"],
+            ["Obligation statement", "The requirement in plain language, one testable statement per row", "Workers are retrained when work equipment changes"],
+            ["Applicability", "Business units, sites, products or roles in scope", "All maintenance roles at sites using the affected equipment"],
+            ["Owner", "Person accountable for meeting the obligation", "Site operations manager"],
+            ["Policy or procedure", "Internal documents that implement it", "Equipment change procedure, section on training triggers"],
+            ["Control", "How compliance is achieved and checked", "Change request cannot close until the training owner signs off"],
+            ["Roles affected", "Who must know or do something", "Maintenance technicians, supervisors"],
+            ["Learning outcome", "What those roles must be able to do", "Apply the revised isolation steps for the new equipment"],
+            ["Assessment evidence", "How competence is shown", "Observed practical assessment, recorded in the training system"],
+            ["Review trigger", "What prompts the row to be rechecked", "Change to the source provision, the equipment or the procedure"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why-it-matters",
+      "heading": "Why do regulators and auditors care about obligations mapping?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Regulators and auditors want to see that an organization knows what applies to it and can show how each requirement is met. A map is the most direct evidence of both."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**ISO 37301.** According to ISO's [ISO 37301 FAQs](https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf), the standard requires organizations to \"identify compliance obligations related to the organization's products, services, or activities, and evaluate compliance risks,\" to establish responsibilities and authorities at each function and level, and to deliver personnel trainings and communications. Mapping ties those elements together.",
+            "**US enforcement.** The Department of Justice [Evaluation of Corporate Compliance Programs](https://www.justice.gov/media/1160391/dl?inline) asks whether a company has undertaken \"a gap analysis to determine if particular areas of risk are not sufficiently addressed in its policies, controls, or training.\" A gap analysis needs a map to run against.",
+            "**Banking supervision.** The Basel Committee's [compliance function guidance](https://www.bis.org/publications/200504-guidelines-compliance-and-compliance-function-banks.pdf) expects the compliance function to \"identify, document and assess the compliance risks associated with the bank's business activities.\""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "heading": "How does obligations mapping improve compliance training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mapping lets each role receive training on the obligations that apply to it, at the depth its tasks require, instead of everyone receiving the same generic course. It also lets the organization show an auditor why each piece of content exists."
+        },
+        {
+          "type": "p",
+          "text": "The practical chain is obligation, then role, then [learning outcome](/glossary/learning-outcomes), then assessment item. Each link should be recorded, so any course can be traced back to its obligations and any obligation forward to the people trained on it. The method is set out in [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations), and the curriculum side is covered by [curriculum mapping](/glossary/curriculum-mapping)."
+        }
+      ]
+    },
+    {
+      "id": "nearby-terms",
+      "heading": "How is obligations mapping different from an obligations register?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A [compliance obligations register](/glossary/compliance-obligations-register) is the inventory of obligations that apply. Obligations mapping adds the relationships: owners, controls, roles, training and evidence. Many organizations keep both in one system, with the register as the list and the map as the links between the list and the rest of the compliance program. When rules change, [regulatory change management](/glossary/regulatory-change-management) updates the register and uses the map to find everything affected."
+        }
+      ]
+    },
+    {
+      "id": "pitfalls",
+      "heading": "What are common obligations mapping mistakes?",
+      "blocks": [
+        {
+          "type": "ol",
+          "items": [
+            "**Mapping whole laws instead of provisions.** A row that says only the name of an act cannot be tested. Break it down to individual requirements.",
+            "**One way links.** Mapping obligation to course but not course to obligation makes it hard to retire or update content safely.",
+            "**No owner.** Rows without an accountable person are rarely maintained.",
+            "**Stopping at attendance.** Mapping to a course but not to an assessment item shows exposure, not competence.",
+            "**A static spreadsheet.** A map that is not updated when rules, procedures or roles change gives false assurance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry builds the map as part of the knowledge framework: obligations, concepts, competencies, roles and assessment points are linked before content is written. Because the links are stored rather than implied, the map can be queried in either direction and shows what is affected when a source changes."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How detailed should an obligations map be?",
+      "a": "Detailed enough that each row can be tested: one requirement, one owner, identifiable controls and evidence. Very large laws may need many rows. Low risk obligations can be grouped, but the reasoning for grouping should be recorded."
+    },
+    {
+      "q": "Who maintains the obligations map?",
+      "a": "Compliance or legal usually maintains the obligation side, while business owners maintain controls and training teams maintain the links to learning outcomes and assessments. A named coordinator should own the overall map and its review schedule."
+    },
+    {
+      "q": "Can obligations mapping cover voluntary standards and contracts?",
+      "a": "Yes. Many organizations map voluntary commitments, certification requirements and contractual terms alongside mandatory law, because each creates requirements that must be met and evidenced. Record the source type in each row so mandatory and voluntary obligations can be told apart."
+    },
+    {
+      "q": "Is a spreadsheet enough for obligations mapping?",
+      "a": "For a small organization with few obligations, often yes. As the number of obligations, roles and courses grows, many-to-many links become hard to maintain in a spreadsheet, and a structured system with change alerts becomes more reliable."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ISO 37301:2021 Compliance management systems: Frequently Asked Questions",
+      "publisher": "ISO/TC 309",
+      "url": "https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf"
+    },
+    {
+      "title": "Evaluation of Corporate Compliance Programs (Updated September 2024)",
+      "publisher": "U.S. Department of Justice, Criminal Division",
+      "url": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "title": "Compliance and the compliance function in banks",
+      "publisher": "Basel Committee on Banking Supervision",
+      "url": "https://www.bis.org/publications/200504-guidelines-compliance-and-compliance-function-banks.pdf"
+    }
+  ],
+  "related": [
+    "compliance-obligations-register",
+    "how-to-map-training-to-compliance-obligations",
+    "regulatory-change-management",
+    "curriculum-mapping",
+    "iso-37301-compliance-training-requirements",
+    "training-needs-analysis"
+  ],
+  "productLinks": [
+    { "label": "Framework intelligence", "href": "/platform/framework-intelligence" },
+    { "label": "Gap analysis", "href": "/platform/gap-analysis" },
+    { "label": "Compliance programs", "href": "/programs/compliance" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "ISO 37301 FAQ: identify compliance obligations related to products, services, or activities, and evaluate compliance risks (quoted); responsibilities and authorities at each function and level; personnel trainings and communications", "source": "https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf" },
+    { "claim": "DOJ ECCP Evolving Updates: gap analysis of policies, controls, or training (quoted)", "source": "https://www.justice.gov/media/1160391/dl?inline" },
+    { "claim": "BCBS 2005 paragraph 37: identify, document and assess compliance risks (quoted)", "source": "https://www.bis.org/publications/200504-guidelines-compliance-and-compliance-function-banks.pdf" }
+  ]
+}

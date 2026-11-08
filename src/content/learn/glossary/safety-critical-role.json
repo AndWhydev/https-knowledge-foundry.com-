@@ -1,0 +1,174 @@
+{
+  "slug": "safety-critical-role",
+  "kind": "glossary",
+  "title": "What is a safety critical role?",
+  "seoTitle": "Safety critical role: definition",
+  "description": "A safety critical role is a job where error could directly cause serious harm. How rail and transport rules define it and the competence evidence it needs.",
+  "shortAnswer": "A safety critical role is a job in which a person's actions or omissions can directly cause or prevent serious harm to themselves, colleagues, the public or the environment, so the organization must confirm and monitor the person's competence and fitness before and during the work. Some laws define the category precisely, such as safety critical work in UK rail regulations or safety-sensitive functions in US transportation rules; elsewhere organizations define it through risk assessment.",
+  "keyTakeaways": [
+    "Safety critical describes the consequence of error in a task, not the seniority of the person doing it.",
+    "Where a law defines the category, it usually lists tasks: UK rail regulations list driving, signalling, coupling and certain maintenance; US motor carrier rules list driving, inspecting, loading and similar functions.",
+    "UK rail regulations require an assessment of competence and fitness, a written record, and arrangements to monitor competence for anyone doing safety critical work.",
+    "Safety critical roles typically carry extra controls: verification of competency, fitness for duty checks, shorter refresher cycles and supervision of trainees.",
+    "Organizations without a legal definition should identify safety critical roles from their risk assessments and document the reasoning."
+  ],
+  "term": "safety critical role",
+  "alsoKnownAs": [
+    "safety-critical role",
+    "safety critical work",
+    "safety-sensitive position",
+    "safety-sensitive function"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "How do regulators define safety critical work?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Regulators that define the category do so by listing tasks whose failure could significantly affect health or safety. Two examples show the pattern."
+        },
+        {
+          "type": "p",
+          "text": "In Great Britain, the [Railways and Other Guided Transport Systems (Safety) Regulations 2006, regulation 23](https://www.legislation.gov.uk/uksi/2006/599/regulation/23), define a \"safety critical task\" to include, in relation to a vehicle on a transport system, \"driving, dispatching or any other activity which is capable of controlling or affecting the movement of that vehicle\", signalling and the operation of level crossing equipment, coupling or uncoupling, and installation and maintenance of components unless supervised and checked by a safety critical worker. \"Safety critical work\" means any safety critical task carried out by a person in the course of their work on or in relation to a transport system."
+        },
+        {
+          "type": "p",
+          "text": "In the United States, Department of Transportation drug and alcohol testing rules apply to employees who perform \"safety-sensitive functions\" ([49 CFR 40.3](https://www.ecfr.gov/current/title-49/subtitle-A/part-40/subpart-A/section-40.3)). For commercial motor vehicle drivers, [49 CFR 382.107](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-A/section-382.107) defines safety-sensitive function as all time from when a driver begins work, or must be ready to work, until relieved, and lists time at the driving controls, inspecting and servicing the vehicle, loading and unloading, and attending a disabled vehicle."
+        }
+      ]
+    },
+    {
+      "id": "competence-duties",
+      "heading": "What competence controls apply to safety critical roles?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Safety critical roles usually require documented assessment before the person works unsupervised, an up to date record, and ongoing monitoring. The UK rail regulations make this explicit, which makes them a useful model even outside rail."
+        },
+        {
+          "type": "p",
+          "text": "[Regulation 24](https://www.legislation.gov.uk/uksi/2006/599/regulation/24) requires every controller of safety critical work to ensure, so far as is reasonably practicable, that a person only carries out safety critical work where they have been assessed as competent and fit by an assessor, there is \"an accurate and up to date record in writing\" of their competence and fitness referencing the criteria used, the record is available to other controllers or operators on reasonable request, and there are suitable and sufficient arrangements for monitoring competence and fitness. The controller must review the assessment without unreasonable delay if there is reason to doubt competence or fitness, or if there has been a significant change in the matters the assessment relates to."
+        },
+        {
+          "type": "table",
+          "caption": "Typical controls for safety critical roles, mapped to the evidence an auditor expects (illustrative)",
+          "head": ["Control", "Purpose", "Evidence to retain"],
+          "rows": [
+            ["Defined criteria", "State what competence and fitness mean for each safety critical task", "Competency standard or [competency framework](/glossary/competency-framework) entries referenced by the assessment"],
+            ["Initial assessment", "Confirm competence and fitness before unsupervised work", "Assessment record naming assessor, criteria, date and outcome"],
+            ["Supervised training", "Allow learners to practice safely", "Supervision arrangements and the supervisor's own competence record"],
+            ["Monitoring", "Detect decline in competence or fitness", "Observation records, performance data, fitness checks"],
+            ["Triggered reassessment", "Respond to doubt or significant change", "Review log linking the trigger (incident, procedure change, long absence) to the reassessment"],
+            ["Portable record", "Let another controller or operator confirm competence", "Up to date record or accurate summary available on request"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "identifying",
+      "heading": "How should an organization identify its safety critical roles?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Start from the tasks, not the organization chart. A role is safety critical if it contains at least one task where an error, omission or impairment could directly lead to a serious incident, and where no independent check would reliably catch it in time."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "List high consequence hazards from the risk register, safety case or process hazard analysis.",
+            "For each hazard, identify the human actions that create, control or detect it, using [job task analysis](/glossary/job-task-analysis) where needed.",
+            "Check whether a law already designates the task, for example as safety critical work or a safety-sensitive function.",
+            "Mark roles containing those tasks as safety critical and record the reasoning.",
+            "Apply the controls above, and review the list when processes, equipment or rules change."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nearby-terms",
+      "heading": "How is a safety critical role different from a high risk role or a regulated role?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Safety critical refers to harm from physical events; other labels cover different kinds of consequence. A role that handles customer money may be high risk for fraud and regulated by a financial services authority without being safety critical. Many organizations keep separate lists, for example safety critical roles, [role based training](/glossary/role-based-training) groups, and roles subject to fitness and propriety or accountability regimes, because each list drives different controls."
+        },
+        {
+          "type": "p",
+          "text": "Safety critical roles also overlap with defined legal roles such as [competent person](/glossary/competent-person) and [qualified person](/glossary/qualified-person). Those terms set the knowledge or authority needed for a specific task; safety critical designation sets the level of assurance the organization applies to the whole role."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each safety critical task to the competencies it requires, the procedures it draws on and the assessment points that verify it. When a procedure changes, the affected safety critical roles and the people holding them are identified for review, supporting the significant change trigger that rules like regulation 24 describe."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is every role in a high hazard industry safety critical?",
+      "a": "No. A mine or refinery has many roles whose errors would not directly cause serious harm, such as most administrative work. Designating every role as safety critical dilutes the extra controls and makes them harder to sustain for the roles that matter."
+    },
+    {
+      "q": "Are safety critical roles subject to drug and alcohol testing?",
+      "a": "Often, but it depends on the law and the organization's policy. In the United States, DOT testing rules apply to employees performing safety-sensitive functions designated by DOT agency regulations. In other jurisdictions, testing may be set by sector rules, site policies or workplace agreements."
+    },
+    {
+      "q": "How often should competence in a safety critical role be reassessed?",
+      "a": "Rules like the UK rail regulations require monitoring plus reassessment on doubt or significant change rather than a single fixed interval. Many organizations add a scheduled reassessment cycle based on risk, and shorter refresher training for tasks that are rarely performed."
+    },
+    {
+      "q": "Can a trainee perform safety critical tasks?",
+      "a": "Usually only under supervision. Regulation 24 of the UK rail regulations excepts a person receiving practical training in a safety critical task, and the related definitions require that supervisors are themselves assessed as competent in the tasks they supervise."
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Railways and Other Guided Transport Systems (Safety) Regulations 2006, regulation 23",
+      "publisher": "legislation.gov.uk",
+      "url": "https://www.legislation.gov.uk/uksi/2006/599/regulation/23"
+    },
+    {
+      "title": "The Railways and Other Guided Transport Systems (Safety) Regulations 2006, regulation 24",
+      "publisher": "legislation.gov.uk",
+      "url": "https://www.legislation.gov.uk/uksi/2006/599/regulation/24"
+    },
+    {
+      "title": "49 CFR 40.3 What do the terms used in this part mean?",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-49/subtitle-A/part-40/subpart-A/section-40.3"
+    },
+    {
+      "title": "49 CFR 382.107 Definitions",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-A/section-382.107"
+    }
+  ],
+  "related": [
+    "rail-safety-worker-competence-australia",
+    "verification-of-competency",
+    "competent-person",
+    "dot-drug-and-alcohol-supervisor-training",
+    "refresher-training",
+    "how-to-set-up-verification-of-competency"
+  ],
+  "productLinks": [
+    { "label": "Hybrid verification programs", "href": "/programs/hybrid-verification" },
+    { "label": "Energy and resources", "href": "/industries/energy-resources" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "ROGS 2006 reg 23 definitions of safety critical task and safety critical work; reg 23(2) supervisors assessed as competent", "source": "https://www.legislation.gov.uk/uksi/2006/599/regulation/23" },
+    { "claim": "ROGS 2006 reg 24(1)(a) to (d) assessment, written record, availability, monitoring; reg 24(2) review on doubt or significant change; training exception", "source": "https://www.legislation.gov.uk/uksi/2006/599/regulation/24" },
+    { "claim": "49 CFR 40.3 employee definition includes individuals performing safety-sensitive functions designated in DOT agency regulations", "source": "https://www.ecfr.gov/current/title-49/subtitle-A/part-40/subpart-A/section-40.3" },
+    { "claim": "49 CFR 382.107 safety-sensitive function definition and listed functions", "source": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-A/section-382.107" }
+  ]
+}

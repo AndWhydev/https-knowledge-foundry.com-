@@ -1,0 +1,189 @@
+{
+  "slug": "competent-person",
+  "kind": "glossary",
+  "title": "What is a competent person?",
+  "seoTitle": "Competent person: definition",
+  "description": "A competent person is someone a rule recognizes as able to identify hazards or do a task safely. How OSHA, model WHS laws and ISO standards use the term.",
+  "shortAnswer": "A competent person is an individual whom a safety law, regulation or standard recognizes as having the knowledge, skills and, in some definitions, the authority needed to carry out a specified task or to identify and control hazards. The meaning depends on the rule: OSHA construction rules require both hazard recognition and authority to correct, while Australia's model WHS Regulations focus on knowledge and skills acquired through training, qualification or experience.",
+  "keyTakeaways": [
+    "Competent person is a defined legal term in many safety regimes, and each regime defines it differently.",
+    "OSHA's construction definition in 29 CFR 1926.32(f) has two parts: the ability to identify hazards and the authorization to take prompt corrective measures.",
+    "Australia's model WHS Regulations give a general definition (knowledge and skills to carry out the task) plus task specific definitions for electrical work, diving, crane inspection and asbestos clearance.",
+    "Competence is always task specific: a person can be competent to inspect a scaffold and not competent to test electrical equipment.",
+    "The evidence an auditor expects is a documented link between the person, the task, the criteria and the basis for the judgment."
+  ],
+  "term": "competent person",
+  "alsoKnownAs": [
+    "CP",
+    "appointed competent person",
+    "designated competent person"
+  ],
+  "sections": [
+    {
+      "id": "definitions",
+      "heading": "How do regulators define a competent person?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Regulators define a competent person by the task, not by job title. The definition sets the minimum knowledge, skills and sometimes authority the person must have before the rule lets them do something, such as inspect equipment, supervise high risk work or certify that a hazard has been controlled."
+        },
+        {
+          "type": "p",
+          "text": "In the United States, the Occupational Safety and Health Administration (OSHA) construction standards define the term in [29 CFR 1926.32(f)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.32): \"one who is capable of identifying existing and predictable hazards in the surroundings or working conditions which are unsanitary, hazardous, or dangerous to employees, and who has authorization to take prompt corrective measures to eliminate them.\" The second limb matters: a knowledgeable person with no authority to stop work or fix the hazard does not meet the definition."
+        },
+        {
+          "type": "p",
+          "text": "In Australia, the [model Work Health and Safety Regulations](https://www.safeworkaustralia.gov.au/doc/model-work-health-and-safety-regulations) published by Safe Work Australia define a competent person, for any case not specifically covered, as \"a person who has acquired through training, qualification or experience the knowledge and skills to carry out the task.\" The same definition then lists task specific meanings: for electrical work on energized equipment (left to each jurisdiction), general diving work, major inspections of mobile and tower cranes, inspection of amusement devices, design verification of plant, and asbestos clearance inspections. For a major crane inspection, for example, regulation 235 requires a registered professional engineer with the relevant knowledge and skills, or a person the regulator has determined to be competent."
+        }
+      ]
+    },
+    {
+      "id": "comparison",
+      "heading": "How do the main definitions compare?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The definitions share a core idea, knowledge and skill for a specific task, but differ on authority, formal qualifications and who decides. The table below summarizes the differences an organization operating in more than one market needs to plan for."
+        },
+        {
+          "type": "table",
+          "caption": "Competent person: how three common frameworks use the term",
+          "head": ["Framework", "Core test", "Authority required?", "Who makes the judgment", "Typical evidence"],
+          "rows": [
+            ["OSHA construction (29 CFR 1926.32(f))", "Can identify existing and predictable hazards", "Yes, authority to take prompt corrective measures", "The employer designates the person", "Training records, written designation, scope of authority to stop work"],
+            ["Model WHS Regulations (general limb)", "Knowledge and skills to carry out the task, from training, qualification or experience", "Not part of the definition", "The person conducting the business or undertaking, unless a task specific limb applies", "Qualifications, experience records, verification of competency"],
+            ["Model WHS Regulations (task specific limbs)", "Set by the regulation, for example engineer registration for major crane inspection", "Not part of the definition", "The rule, or the regulator by determination", "Registration, certification, regulator determination"],
+            ["ISO management system standards", "Competence: the organization determines what is needed and ensures people meet it", "Not defined", "The organization, subject to audit", "Retained documented information on competence"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iso-usage",
+      "heading": "How do ISO standards treat competent persons?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ISO management system standards generally speak of competence rather than a defined competent person. Standards such as ISO 9001, ISO 45001 and ISO 37301 require the organization to determine the competence needed for work that affects performance, ensure people are competent on the basis of education, training or experience, and keep evidence. ISO's own guidance for organizations adopting ISO 45001 includes determining \"any competence and/or resource gaps\" before implementation ([ISO 45001 brochure](https://www.iso.org/files/live/sites/isoorg/files/store/en/PUB100427.pdf))."
+        },
+        {
+          "type": "p",
+          "text": "In practice this means an ISO certified organization decides for itself who is competent for each role, then has to show an auditor how it decided. A legal competent person definition, where one applies, sets a floor that the organization's own criteria must meet. See [ISO 45001 competence and awareness](/regulations/iso-45001-competence-and-awareness) and [competence vs competency](/compare/competence-vs-competency)."
+        }
+      ]
+    },
+    {
+      "id": "nearby-terms",
+      "heading": "How is a competent person different from a qualified person?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Under OSHA, a competent person is defined by hazard recognition plus authority, while a [qualified person](/glossary/qualified-person) is defined by recognized credentials or demonstrated problem solving ability in a subject. The two are not interchangeable: some OSHA standards require one, some the other, and some require both for different parts of the same activity."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Competent person:** spots hazards on the job and can act to eliminate them. Typical in excavation, scaffolding and fall protection supervision.",
+            "**Qualified person:** holds a degree, certificate or professional standing, or has demonstrated ability through knowledge, training and experience. Typical in design and engineering tasks.",
+            "**[Authorized employee](/glossary/authorized-employee):** a lockout/tagout role defined by what the person does (locks or tags out equipment to service it), not by a general competence test."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evidence",
+      "heading": "How should an organization evidence that someone is a competent person?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Evidence should connect a named person to a named task, the criteria that apply to that task, and the basis on which the person was judged to meet them. A generic certificate or a job title rarely does this on its own."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Identify every task in your operations where a rule or procedure calls for a competent person, and record which definition applies.",
+            "Write the criteria for each task, citing the rule, for example OSHA's two part test or a task specific WHS limb.",
+            "Assess each candidate against those criteria, using [verification of competency](/glossary/verification-of-competency) for practical skills where needed.",
+            "Record the designation in writing, including the scope of authority where the definition requires it.",
+            "Set review triggers: changes to equipment, procedures or the rule itself, incidents, and long absences from the task."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Mapping these designations by role and task is usually done in a [training matrix](/glossary/training-matrix) or [skills matrix](/glossary/skills-matrix)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each competent person requirement as a defined competency linked to its source rule and the task it covers. Assessment evidence attaches to that competency, so when the rule or the procedure changes, the affected designations are flagged for review."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a competent person need a formal qualification?",
+      "a": "Not always. OSHA's construction definition and the general limb of the model WHS Regulations allow competence from training or experience without a specific qualification. Some task specific rules do require one, such as engineer registration for major crane inspections under the model WHS Regulations. Check the definition that applies to the task."
+    },
+    {
+      "q": "Can one person be the competent person for several tasks?",
+      "a": "Yes, if they meet the criteria for each task separately. Competence is task specific, so the organization should record each designation individually rather than naming someone a competent person in general terms."
+    },
+    {
+      "q": "Why does OSHA require authority as well as knowledge?",
+      "a": "OSHA's definition is built for hazard control on active construction sites. Knowing about a hazard is not enough if the person cannot stop work or order corrective action. The authorization limb ensures the person who recognizes the hazard can deal with it promptly."
+    },
+    {
+      "q": "How often should competent person designations be reviewed?",
+      "a": "No single interval applies across rules. Good practice is a scheduled review plus event triggers: new equipment or methods, a change to the governing rule, an incident or near miss, and an extended break from the task."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1926.32 Definitions",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.32"
+    },
+    {
+      "title": "Model Work Health and Safety Regulations (5 December 2025)",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
+    },
+    {
+      "title": "Model Work Health and Safety Regulations",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/doc/model-work-health-and-safety-regulations"
+    },
+    {
+      "title": "ISO 45001 Occupational health and safety (brochure)",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/files/live/sites/isoorg/files/store/en/PUB100427.pdf"
+    }
+  ],
+  "related": [
+    "qualified-person",
+    "authorized-employee",
+    "verification-of-competency",
+    "iso-45001-competence-and-awareness",
+    "whs-act-duty-to-provide-training",
+    "osha-scaffold-training-requirements"
+  ],
+  "productLinks": [
+    { "label": "Hybrid verification programs", "href": "/programs/hybrid-verification" },
+    { "label": "Energy and resources", "href": "/industries/energy-resources" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "29 CFR 1926.32(f) competent person definition quoted verbatim", "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.32" },
+    { "claim": "Model WHS Regulations reg 5 competent person definition: task specific limbs (a) to (f) and general limb (g) quoted verbatim", "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf" },
+    { "claim": "Model WHS Regulations reg 235(4): competent person for major inspection is a registered professional engineer with knowledge and skills, or determined by the regulator", "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf" },
+    { "claim": "ISO 45001 brochure step: determine any competence and/or resource gaps", "source": "https://www.iso.org/files/live/sites/isoorg/files/store/en/PUB100427.pdf" }
+  ]
+}

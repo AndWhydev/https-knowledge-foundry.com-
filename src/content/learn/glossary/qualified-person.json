@@ -1,0 +1,175 @@
+{
+  "slug": "qualified-person",
+  "kind": "glossary",
+  "title": "What is a qualified person?",
+  "seoTitle": "Qualified person: definition",
+  "description": "A qualified person holds recognized credentials or has shown ability to solve problems in a subject. How OSHA defines it for construction and electrical work.",
+  "shortAnswer": "A qualified person is an individual whom a safety rule recognizes as able to do specified technical work because they hold a recognized degree, certificate or professional standing, or have demonstrated the necessary knowledge and skills through training and experience. Under OSHA rules the term has two main meanings: a general construction definition based on problem solving ability, and an electrical definition based on training in equipment and its hazards.",
+  "keyTakeaways": [
+    "OSHA's construction definition of qualified in 29 CFR 1926.32(m) accepts either recognized credentials or demonstrated ability through extensive knowledge, training and experience.",
+    "OSHA's electrical definition in 29 CFR 1910.399 requires training in, and demonstrated skills and knowledge of, the construction and operation of electric equipment and the hazards involved.",
+    "Electrical qualification is equipment specific: OSHA notes a person can be qualified for some equipment and unqualified for other equipment in the same workplace.",
+    "A trainee under direct supervision of a qualified person can count as qualified for duties they have shown they can perform safely.",
+    "Qualified and competent are different OSHA terms with different tests; a role may need one, the other, or both."
+  ],
+  "term": "qualified person",
+  "alsoKnownAs": [
+    "qualified employee",
+    "qualified worker",
+    "electrically qualified person"
+  ],
+  "sections": [
+    {
+      "id": "definitions",
+      "heading": "How does OSHA define a qualified person?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "OSHA defines qualified in two places that matter most for training managers: the construction definitions and the general industry electrical definitions. Both require demonstrated ability, but they measure it differently."
+        },
+        {
+          "type": "p",
+          "text": "The construction definition in [29 CFR 1926.32(m)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.32) reads: \"Qualified means one who, by possession of a recognized degree, certificate, or professional standing, or who by extensive knowledge, training, and experience, has successfully demonstrated his ability to solve or resolve problems relating to the subject matter, the work, or the project.\" There are two routes, credentials or demonstrated experience, and either one is sufficient."
+        },
+        {
+          "type": "p",
+          "text": "The electrical definition in [29 CFR 1910.399](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.399) reads: \"One who has received training in and has demonstrated skills and knowledge in the construction and operation of electric equipment and installations and the hazards involved.\" OSHA adds two notes. First, a person is likely to be \"qualified\" for certain equipment and \"unqualified\" for other equipment. Second, an employee in on the job training who has demonstrated the ability to perform duties safely at their level, and who is under the direct supervision of a qualified person, is considered qualified for those duties."
+        },
+        {
+          "type": "p",
+          "text": "For electric power generation, transmission and distribution work, [29 CFR 1910.269](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-R/section-1910.269) uses a parallel term, \"qualified employee (qualified person)\": a person knowledgeable in the construction and operation of the equipment involved, along with the associated hazards."
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "heading": "What training must an electrically qualified person receive?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "OSHA's electrical safety-related work practice rules require qualified persons to receive more training than other employees, because they are the people permitted to work on or near exposed energized parts. [29 CFR 1910.332(b)(3)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.332) sets the minimum: qualified persons must be trained in and familiar with the skills and techniques to distinguish exposed live parts, determine their nominal voltage, and the clearance distances that apply to the voltages they will be exposed to."
+        },
+        {
+          "type": "p",
+          "text": "Because the definition is equipment specific, a training record that says only \"electrically qualified\" is weak evidence. The record should name the equipment classes, voltages and tasks for which the person has demonstrated competence."
+        }
+      ]
+    },
+    {
+      "id": "comparison",
+      "heading": "How is a qualified person different from a competent person or an authorized employee?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A qualified person is defined by knowledge and demonstrated ability in a subject; a [competent person](/glossary/competent-person) under OSHA's construction rules is defined by hazard recognition plus authority to correct; an [authorized employee](/glossary/authorized-employee) is defined by the lockout/tagout task they perform. The table compares them."
+        },
+        {
+          "type": "table",
+          "caption": "Three OSHA role terms compared",
+          "head": ["Term", "OSHA source", "Core test", "Authority element", "What the training record should show"],
+          "rows": [
+            ["Qualified (construction)", "29 CFR 1926.32(m)", "Recognized credential, or demonstrated ability to solve problems in the subject", "None", "Credential or evidence of experience, and the subject it covers"],
+            ["Qualified person (electrical)", "29 CFR 1910.399", "Trained and demonstrated skills in specific electric equipment and its hazards", "None", "Equipment classes and voltages covered, demonstration of skills"],
+            ["Competent person (construction)", "29 CFR 1926.32(f)", "Can identify existing and predictable hazards", "Yes, authority to take prompt corrective measures", "Hazard recognition training and written scope of authority"],
+            ["Authorized employee (lockout/tagout)", "29 CFR 1910.147(b)", "Locks or tags out equipment to service or maintain it", "Performs the isolation", "Hazardous energy training, procedures covered, certification of training"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outside-us",
+      "heading": "Is qualified person used outside the United States?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yes, but usually with a regime specific meaning. Many laws reserve certain functions for a person with stated qualifications, such as a registered engineer, a licensed electrician or a named responsible person, and the label and test vary by jurisdiction and sector. Australia's model WHS Regulations, for example, tend to use \"competent person\" with task specific limbs rather than a separate qualified person definition. Organizations working across markets should record which definition applies to each role and keep the source with the role requirement, as described in [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations)."
+        }
+      ]
+    },
+    {
+      "id": "illustrative-example",
+      "heading": "What does a qualified person record look like in practice?",
+      "blocks": [
+        {
+          "type": "callout",
+          "title": "Illustrative example",
+          "text": "A manufacturing plant designates a maintenance electrician as a qualified person for 480 volt motor control centers and low voltage control panels, but not for the site's medium voltage switchgear. The record lists the training completed, a practical demonstration of voltage testing and determination of clearance distances, the equipment classes covered, the assessor, and the date. A trainee on the same crew is recorded as qualified only for supervised tasks they have demonstrated."
+        },
+        {
+          "type": "p",
+          "text": "Records like this sit naturally in a [training matrix](/glossary/training-matrix) with equipment classes as columns, so a supervisor can see at a glance who may work on which equipment."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models a qualified person requirement as a set of competencies scoped to equipment and tasks, each linked to the OSHA paragraph or other rule it comes from. Practical demonstrations and knowledge checks attach to those competencies, which keeps equipment specific qualification visible rather than collapsed into a single yes or no."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a qualified person need a license?",
+      "a": "OSHA's definitions do not require a license. The construction definition accepts a recognized degree, certificate or professional standing, or demonstrated ability through knowledge, training and experience. State or local licensing laws for electricians and engineers may apply separately and should be checked for the work involved."
+    },
+    {
+      "q": "Can someone be qualified and unqualified at the same time?",
+      "a": "Yes. OSHA's note to the electrical definition in 29 CFR 1910.399 says it is likely for a person to be qualified for certain equipment in a workplace and unqualified for other equipment. Records should therefore list the equipment covered."
+    },
+    {
+      "q": "Who decides whether an employee is a qualified person?",
+      "a": "The employer makes the determination, based on the training and demonstrated ability the definition requires. OSHA inspectors can then test that determination against the definition and the employer's evidence, so the basis for the decision should be documented."
+    },
+    {
+      "q": "Do trainees count as qualified persons?",
+      "a": "Under the electrical definition, a trainee who has demonstrated the ability to perform duties safely at their level of training, and who works under the direct supervision of a qualified person, is treated as qualified for those duties only."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1926.32 Definitions",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.32"
+    },
+    {
+      "title": "29 CFR 1910.399 Definitions applicable to this subpart",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.399"
+    },
+    {
+      "title": "29 CFR 1910.332 Training",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.332"
+    },
+    {
+      "title": "29 CFR 1910.269 Electric power generation, transmission, and distribution",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-R/section-1910.269"
+    }
+  ],
+  "related": [
+    "competent-person",
+    "authorized-employee",
+    "osha-training-requirements",
+    "osha-lockout-tagout-training-requirements",
+    "verification-of-competency"
+  ],
+  "productLinks": [
+    { "label": "Hybrid verification programs", "href": "/programs/hybrid-verification" },
+    { "label": "Energy and resources", "href": "/industries/energy-resources" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "29 CFR 1926.32(m) definition of qualified quoted verbatim", "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.32" },
+    { "claim": "29 CFR 1910.399 qualified person definition and Notes 1 and 2 (equipment specific; supervised trainee)", "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.399" },
+    { "claim": "29 CFR 1910.332(b)(3): qualified persons (permitted to work on or near exposed energized parts) trained in distinguishing exposed live parts, determining nominal voltage, clearance distances", "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.332" },
+    { "claim": "29 CFR 1910.269(x) qualified employee (qualified person) definition", "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-R/section-1910.269" }
+  ]
+}

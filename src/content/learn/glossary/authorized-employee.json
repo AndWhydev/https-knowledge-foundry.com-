@@ -1,0 +1,163 @@
+{
+  "slug": "authorized-employee",
+  "kind": "glossary",
+  "title": "What is an authorized employee?",
+  "seoTitle": "Authorized employee (lockout/tagout)",
+  "description": "An authorized employee locks or tags out equipment to service it. How OSHA 1910.147 defines authorized, affected and other employees and their training.",
+  "shortAnswer": "An authorized employee is a person who locks out or tags out machines or equipment in order to perform servicing or maintenance on that machine or equipment. The term comes from the US Occupational Safety and Health Administration (OSHA) lockout/tagout standard, 29 CFR 1910.147, which sets different training for authorized employees, affected employees and other employees, and requires employers to certify that the training is done and kept up to date.",
+  "keyTakeaways": [
+    "The role is defined by the task: the person who applies the lock or tag and does the servicing or maintenance.",
+    "An affected employee becomes an authorized employee when their duties include servicing or maintenance covered by the standard.",
+    "Authorized employees need the deepest training: recognizing hazardous energy sources, the type and magnitude of energy, and the methods to isolate and control it.",
+    "Retraining is required when job assignments, machines, processes or energy control procedures change, or when inspections show gaps.",
+    "The employer must certify training with each employee's name and dates of training."
+  ],
+  "term": "authorized employee",
+  "alsoKnownAs": [
+    "authorized person (lockout/tagout)",
+    "LOTO authorized employee",
+    "authorised employee"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "How does OSHA define an authorized employee?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "OSHA defines an authorized employee in the definitions paragraph of the control of hazardous energy standard, [29 CFR 1910.147(b)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147): \"A person who locks out or tags out machines or equipment in order to perform servicing or maintenance on that machine or equipment. An affected employee becomes an authorized employee when that employee's duties include performing servicing or maintenance covered under this section.\""
+        },
+        {
+          "type": "p",
+          "text": "The same paragraph defines an affected employee as one whose job requires them to operate or use a machine on which servicing or maintenance is being performed under lockout or tagout, or to work in an area where it is being performed. A third group, all other employees whose work operations are or may be in an area where energy control procedures may be used, is not given a defined name but has its own training requirement."
+        }
+      ]
+    },
+    {
+      "id": "roles-compared",
+      "heading": "What must authorized, affected and other employees each be trained on?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training depth follows exposure. Paragraph (c)(7)(i) of the standard requires the employer to ensure that employees understand the purpose and function of the energy control program and have the knowledge and skills for the safe application, use and removal of energy controls, with content set by role."
+        },
+        {
+          "type": "table",
+          "caption": "Lockout/tagout roles under 29 CFR 1910.147 and the training each requires",
+          "head": ["Role", "Who it covers", "Required training content", "Example assessment evidence"],
+          "rows": [
+            ["Authorized employee", "Applies locks or tags and performs the servicing or maintenance", "Recognition of applicable hazardous energy sources, the type and magnitude of energy in the workplace, and the methods and means of energy isolation and control ((c)(7)(i)(A))", "Observed isolation and verification on the actual machine, knowledge check on energy sources"],
+            ["Affected employee", "Operates or uses the machine, or works in the area, during servicing", "Purpose and use of the energy control procedure ((c)(7)(i)(B))", "Short knowledge check, acknowledgment of notification duties"],
+            ["Other employees", "Work in an area where energy control procedures may be used", "The procedure, and the prohibition on attempting to restart or reenergize locked or tagged out equipment ((c)(7)(i)(C))", "Awareness briefing record"],
+            ["Tagout users (any of the above)", "Sites that use tags rather than locks", "Limitations of tags, including that tags are warning devices and do not provide physical restraint ((c)(7)(ii))", "Knowledge check on tag limitations"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "duties",
+      "heading": "What does an authorized employee do under the standard?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The authorized employee carries out the energy control sequence and is the only person allowed to apply the devices. Paragraph (c)(8) states that lockout or tagout \"shall be performed only by the authorized employees who are performing the servicing or maintenance.\""
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Preparation:** before shutdown, the authorized employee must know the type and magnitude of the energy, its hazards, and the method to control it ((d)(1)).",
+            "**Application:** lockout or tagout devices are affixed to each energy isolating device by authorized employees ((d)(4)).",
+            "**Verification:** before starting work, the authorized employee verifies that isolation and deenergization have been accomplished ((d)(6)).",
+            "**Release:** each device is removed by the employee who applied it, with a narrow, documented exception when that person is not available ((e)(3)).",
+            "**Periodic inspection:** the annual inspection of each energy control procedure is performed by an authorized employee other than the ones using the procedure being inspected ((c)(6))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "retraining-records",
+      "heading": "When is retraining required and what records are needed?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Retraining is event driven rather than set to a fixed interval. Paragraph (c)(7)(iii) requires retraining for authorized and affected employees whenever there is a change in job assignments, a change in machines, equipment or processes that presents a new hazard, or a change in the energy control procedures, and also when a periodic inspection or the employer has reason to believe there are deviations or inadequacies in knowledge."
+        },
+        {
+          "type": "p",
+          "text": "Paragraph (c)(7)(iv) requires the employer to \"certify that employee training has been accomplished and is being kept up to date,\" with each employee's name and dates of training. The full training rule is covered in [OSHA lockout/tagout training requirements](/regulations/osha-lockout-tagout-training-requirements). Because changes to machines and procedures trigger retraining, the procedure library and the training records need to be linked, a problem described in [knowledge drift](/glossary/knowledge-drift)."
+        }
+      ]
+    },
+    {
+      "id": "nearby-terms",
+      "heading": "How is an authorized employee different from a qualified or competent person?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An authorized employee is defined by what they do, while a [qualified person](/glossary/qualified-person) and a [competent person](/glossary/competent-person) are defined by what they know and, for a competent person, the authority they hold. In electrical work, the same individual often needs to be both an authorized employee for lockout and a qualified person for work near exposed energized parts, and the records should show both."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry treats each energy control procedure as a source document linked to the authorized employee competencies it requires. When a machine or procedure changes, the link identifies who needs retraining under paragraph (c)(7)(iii), rather than leaving that to a manual review."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is authorized employee training required annually?",
+      "a": "The standard does not set an annual training interval. It requires retraining on specified changes and when inspections reveal gaps, plus an annual periodic inspection of each energy control procedure that includes a review of each authorized employee's responsibilities where lockout is used."
+    },
+    {
+      "q": "Can a supervisor remove another worker's lock?",
+      "a": "Only under the specific exception in paragraph (e)(3), which requires a documented procedure with equivalent safety, verification that the authorized employee is not at the facility, reasonable efforts to contact them, and ensuring they know the device was removed before resuming work."
+    },
+    {
+      "q": "Do contractors count as authorized employees?",
+      "a": "The standard addresses outside servicing personnel directly. Paragraph (f)(2) requires the on site employer and outside employer to inform each other of their energy control procedures, and the on site employer must ensure its employees understand the contractor's procedures."
+    },
+    {
+      "q": "Does the term exist outside the United States?",
+      "a": "Lockout practices are common worldwide, but authorized employee as a defined term with this meaning comes from the OSHA standard. Other jurisdictions set isolation duties in their own safety laws and codes, and site procedures often adopt similar role names."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.147 The control of hazardous energy (lockout/tagout)",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147"
+    },
+    {
+      "title": "29 CFR 1910.399 Definitions applicable to this subpart",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-S/section-1910.399"
+    }
+  ],
+  "related": [
+    "osha-lockout-tagout-training-requirements",
+    "qualified-person",
+    "competent-person",
+    "osha-training-requirements",
+    "how-to-convert-sops-into-training",
+    "role-based-training"
+  ],
+  "productLinks": [
+    { "label": "Operational procedures programs", "href": "/programs/operational-procedures" },
+    { "label": "Energy and resources", "href": "/industries/energy-resources" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "1910.147(b) definitions of authorized employee and affected employee quoted", "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147" },
+    { "claim": "(c)(7)(i)(A), (B), (C) role based training content; (c)(7)(ii) tagout limitations", "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147" },
+    { "claim": "(c)(7)(iii) retraining triggers; (c)(7)(iv) certification with names and dates", "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147" },
+    { "claim": "(c)(8) lockout performed only by authorized employees performing servicing; (d)(1), (d)(4), (d)(6), (e)(3) duties; (c)(6) periodic inspection by another authorized employee", "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-J/section-1910.147" }
+  ]
+}

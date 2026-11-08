@@ -1,0 +1,173 @@
+{
+  "slug": "learning-record-store",
+  "kind": "glossary",
+  "title": "What is a learning record store (LRS)?",
+  "seoTitle": "Learning record store (LRS)",
+  "description": "A learning record store (LRS) receives, stores and returns xAPI learning records. The ADL definition, how an LRS differs from an LMS, and its value for audit.",
+  "shortAnswer": "A learning record store (LRS) is a server that receives, stores and provides access to learning records formatted to the Experience API (xAPI) specification. The Advanced Distributed Learning (ADL) Initiative's xAPI specification defines it as a server \"responsible for receiving, storing, and providing access to Learning Records.\" An LRS can collect statements from courses, simulations, apps and workplace activities, and share them with LMSs, analytics tools and other LRSs.",
+  "keyTakeaways": [
+    "The LRS is the data store at the center of xAPI: learning activities send statements to it, and reporting tools read from it.",
+    "xAPI statements are expected to be permanent; they cannot be edited, only voided, which suits audit trails.",
+    "An LRS stores records; a learning management system (LMS) administers courses and learners. Many LMSs include an LRS, and an LRS can also stand alone.",
+    "xAPI 1.0.3 was standardized by IEEE as 9274.1.1-2023, and an ISO/IEC/IEEE version, 39274-1-1:2025, is listed by IEEE.",
+    "An LRS records what happened; whether that evidences competence depends on what the statements capture and how they are assessed."
+  ],
+  "term": "learning record store",
+  "alsoKnownAs": [
+    "LRS",
+    "xAPI LRS"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "How does the xAPI specification define a learning record store?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The ADL [xAPI specification](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI-About.md) defines a learning record store as \"A server (i.e. system capable of receiving and processing web requests) that is responsible for receiving, storing, and providing access to Learning Records.\" A learning record is \"an account of a learning experience that is formatted according to the rules of xAPI,\" most commonly a statement."
+        },
+        {
+          "type": "p",
+          "text": "The specification describes the data flow in three roles. A Learning Record Provider creates learning records and sends them to one or more LRSs. The LRS stores them and makes them available to any authorized client. A Learning Record Consumer accesses the records to interpret, analyze, translate, disseminate or aggregate them. The IEEE standard based on xAPI 1.0.3, [IEEE 9274.1.1-2023](https://standards.ieee.org/ieee/9274.1.1/7321/), describes the LRS as \"a system that exposes the RESTful Web Service API for the purpose of tracking and accessing experiential data, especially in learning and human performance.\""
+        }
+      ]
+    },
+    {
+      "id": "what-it-stores",
+      "heading": "What does a learning record store hold?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An LRS mainly holds statements: records of the form actor, verb, object, such as \"Jordan completed fire warden assessment.\" The [xAPI data rules](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI-Data.md) state that a statement \"MUST use 'actor', 'verb', and 'object'\", and statements can add results, scores, context, timestamps and attachments."
+        },
+        {
+          "type": "p",
+          "text": "The specification also defines document resources that an LRS exposes: a State resource for activity state, and Agent Profile and Activity Profile resources for information about learners and activities. Statements are expected to be permanent: \"The only way to undo a Statement within this specification is to void it,\" and voiding \"does not destroy a Statement, rather indicates the evidence in the Statement is to be disregarded.\""
+        }
+      ]
+    },
+    {
+      "id": "lrs-vs-lms",
+      "heading": "How is an LRS different from an LMS?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An LRS stores and serves learning records; a [learning management system](/glossary/learning-management-system) administers learning. The two are often combined, but they do different jobs, as the table shows."
+        },
+        {
+          "type": "table",
+          "caption": "Learning record store and learning management system compared",
+          "head": ["Aspect", "Learning record store (LRS)", "Learning management system (LMS)"],
+          "rows": [
+            ["Primary job", "Receive, store and provide access to xAPI learning records", "Register learners, assign and launch courses, track completion, report"],
+            ["Data format", "xAPI statements and documents", "Varies; often SCORM data plus its own database"],
+            ["Sources of data", "Any xAPI client: courses, simulations, apps, performance support, other LRSs", "Mainly content launched from the LMS"],
+            ["Record changes", "Statements are immutable and can only be voided", "Records can usually be edited by administrators"],
+            ["User interface", "Often minimal; data is read by other tools", "Learner and administrator interfaces are central"],
+            ["Typical relationship", "Can be embedded in an LMS or run stand alone", "May include an LRS to support xAPI and [cmi5](/glossary/cmi5)"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For a fuller comparison of the formats involved, see [xAPI](/glossary/xapi) and [SCORM vs xAPI](/compare/scorm-vs-xapi)."
+        }
+      ]
+    },
+    {
+      "id": "regulated-use",
+      "heading": "Why does a learning record store matter in regulated organizations?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An LRS can hold evidence that a traditional LMS often misses, such as observed practical assessments, simulator results and on the job checklists, in a format that cannot be silently edited. That makes it useful for an [audit trail](/glossary/audit-trail) of training and competence."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Define what you record.** Agree verbs, activity identifiers and result fields in advance, ideally using an xAPI profile, so statements are consistent and reportable.",
+            "**Record assessments, not just completions.** Statements that capture which competency was assessed, by whom, against which criteria and with what result are far stronger evidence than \"completed\".",
+            "**Plan retention and privacy.** Statements identify people; retention periods and access controls should follow your records and privacy obligations.",
+            "**Test interoperability.** Confirm that the LMS, content tools and reporting tools you use can send to and read from the LRS."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines the competencies and assessment points that learning activities report against, which gives xAPI statements a stable framework to reference. Records stored in an organization's LRS or LMS can then be read against the framework to show which obligations and competencies each person has evidenced."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need a separate LRS to use xAPI?",
+      "a": "Not necessarily. Many learning platforms include an LRS. A stand alone LRS is useful when records come from many systems, when you want to keep learning data independent of one LMS vendor, or when several LRSs need to share data."
+    },
+    {
+      "q": "Can records in an LRS be deleted or changed?",
+      "a": "The xAPI specification treats statements as immutable. An incorrect statement is voided with a separate statement using the reserved voided verb, and the original remains. Deletion for privacy or retention reasons is an operational matter governed by your own policies and law."
+    },
+    {
+      "q": "Which xAPI version should an LRS support?",
+      "a": "The ADL repository notes that version 1.0.3 is an older version and that xAPI 2.0 is the current version. Check which versions your content and tools send and confirm the LRS supports them."
+    },
+    {
+      "q": "Is an LRS the same as a learning analytics platform?",
+      "a": "No. The LRS stores and serves records. Analytics tools act as Learning Record Consumers that read records from the LRS and analyze them. Some products combine both functions."
+    }
+  ],
+  "sources": [
+    {
+      "title": "xAPI Specification: Part One, About the Experience API",
+      "publisher": "Advanced Distributed Learning Initiative",
+      "url": "https://github.com/adlnet/xAPI-Spec/blob/master/xAPI-About.md"
+    },
+    {
+      "title": "xAPI Specification: Part Two, Experience API Data",
+      "publisher": "Advanced Distributed Learning Initiative",
+      "url": "https://github.com/adlnet/xAPI-Spec/blob/master/xAPI-Data.md"
+    },
+    {
+      "title": "xAPI Specification: Part Three, Data Processing, Validation, and Security",
+      "publisher": "Advanced Distributed Learning Initiative",
+      "url": "https://github.com/adlnet/xAPI-Spec/blob/master/xAPI-Communication.md"
+    },
+    {
+      "title": "IEEE 9274.1.1-2023 JSON Data Model Format and RESTful Web Service for Learner Experience Data Tracking and Access",
+      "publisher": "IEEE Standards Association",
+      "url": "https://standards.ieee.org/ieee/9274.1.1/7321/"
+    },
+    {
+      "title": "adlnet/xAPI-Spec repository",
+      "publisher": "Advanced Distributed Learning Initiative",
+      "url": "https://github.com/adlnet/xAPI-Spec"
+    }
+  ],
+  "related": [
+    "xapi",
+    "cmi5",
+    "learning-management-system",
+    "scorm-vs-xapi",
+    "audit-trail",
+    "open-badges"
+  ],
+  "productLinks": [
+    { "label": "Integrations", "href": "/platform/integrations" },
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "xAPI-About definitions of Learning Record Store and Learning Record (quoted); LRP, LRS, LRC data flow", "source": "https://github.com/adlnet/xAPI-Spec/blob/master/xAPI-About.md" },
+    { "claim": "xAPI-Data: Statement MUST use actor, verb and object; statements expected to be permanent, only undone by voiding; voiding does not destroy a statement (quoted); immutability", "source": "https://github.com/adlnet/xAPI-Spec/blob/master/xAPI-Data.md" },
+    { "claim": "xAPI-Communication defines State, Agent Profile and Activity Profile document resources", "source": "https://github.com/adlnet/xAPI-Spec/blob/master/xAPI-Communication.md" },
+    { "claim": "IEEE 9274.1.1-2023 active, published 2023-10-06, standardizes xAPI 1.0.3; LRS description quoted; ISO/IEC/IEEE 39274-1-1-2025 listed among the working group's active standards", "source": "https://standards.ieee.org/ieee/9274.1.1/7321/" },
+    { "claim": "ADL repository: 1.0.3 is an old version; current version is xAPI 2.0", "source": "https://github.com/adlnet/xAPI-Spec" }
+  ]
+}

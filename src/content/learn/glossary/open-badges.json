@@ -1,0 +1,159 @@
+{
+  "slug": "open-badges",
+  "kind": "glossary",
+  "title": "What are Open Badges?",
+  "seoTitle": "Open Badges 3.0: definition",
+  "description": "Open Badges is the 1EdTech standard for verifiable digital credentials. What changed in Open Badges 3.0, what a badge contains, and how it is verified.",
+  "shortAnswer": "Open Badges is an open technical standard, maintained by the 1EdTech Consortium, for issuing digital credentials that record an achievement, skill or experience in a portable, machine readable and verifiable form. Version 3.0 restructures each badge as a W3C Verifiable Credential: an issuer makes a cryptographically signed claim that a learner met the criteria for a named achievement, optionally with evidence, which anyone can check without contacting the issuer.",
+  "keyTakeaways": [
+    "Open Badges 3.0 aligns badges with the W3C Verifiable Credentials Data Model v2.0, so each badge is a tamper evident, cryptographically verifiable credential.",
+    "The core claim is the AchievementCredential: a subject, usually a learner, has met criteria an issuer defined for a named achievement.",
+    "A badge can carry criteria, evidence, results and alignments to external skills or competency frameworks.",
+    "Version 3.0 is not fully backward compatible with 2.x badges, which were verified through hosted JSON or JWS signatures.",
+    "A badge is only as meaningful as the criteria and assessment behind it; the standard verifies who issued it, not the quality of the assessment."
+  ],
+  "term": "Open Badges",
+  "alsoKnownAs": [
+    "Open Badges 3.0",
+    "OB 3.0",
+    "digital badges",
+    "verifiable digital badges"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "How does the Open Badges 3.0 specification define a badge?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The [Open Badges Specification 3.0](https://www.imsglobal.org/spec/ob/v3p0), published by 1EdTech as a Final Release, defines a badge as \"a single assertion of an achievement that is packaged as a verifiable credential.\" The specification's abstract says the version \"aligns with the conventions of the Verifiable Credentials Data Model v2.0\" for defined achievement claims and skill claims, and that the resulting credentials can be bundled into Comprehensive Learner Records and verifiable presentations."
+        },
+        {
+          "type": "p",
+          "text": "Its conceptual model has three parts. An issuer asserts a claim about a credential subject, usually the recipient. The claim refers to an Achievement, described by properties such as name, description and criteria. The assertion carries the issuer's identity, the issuance date, and a cryptographic proof that the issuer is genuine and the contents have not been altered. In the specification's words, the core claim is the AchievementCredential, \"a Verifiable Credential that makes the claim that a subject (usually a learner), has met criteria an issuer has defined for a named Achievement.\""
+        }
+      ]
+    },
+    {
+      "id": "what-changed",
+      "heading": "What changed between Open Badges 2.0 and 3.0?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The main change is verification. Open Badges 2.0, released in 2018 according to the 3.0 specification, was verified either through publicly hosted JSON badge data or through JWS digital signatures with a limited set of algorithms. Version 3.0 adopts Verifiable Credentials proofs, and the specification states that badges issued under it \"will not be conformant to all of the existing 2.x data model requirements.\""
+        },
+        {
+          "type": "table",
+          "caption": "Open Badges 2.0 and 3.0 compared, based on the 1EdTech specification",
+          "head": ["Aspect", "Open Badges 2.0", "Open Badges 3.0"],
+          "rows": [
+            ["Data model", "Assertion linked to a BadgeClass, Issuer and VerificationObject", "W3C Verifiable Credential with credentialSubject, issuer and an Achievement (formerly BadgeClass)"],
+            ["Verification", "Hosted JSON data or JWS signatures", "Verifiable Credentials cryptographic proofs"],
+            ["Recipient identifier", "Most commonly an email address", "URLs, other IRIs or decentralized identifiers (DIDs)"],
+            ["Tamper evidence", "Hosted data can change without a historic record", "Tamper evident by design"],
+            ["Storage", "Badge backpacks and hosts", "Digital credential wallets; credentials can be combined into verifiable presentations"],
+            ["Relationship to learner records", "Separate from Comprehensive Learner Record", "Shares an assertion and achievement model with Comprehensive Learner Record"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contents",
+      "heading": "What information can an Open Badge contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An Open Badge can contain the achievement's name, description and criteria, the issuer, the recipient, the issue date, and optional evidence, results and alignments. The specification describes alignment as \"a reference to an achievement definition,\" which lets a badge point to a skill or competency in an external framework. It also supports revocation through a credential status property, so an issuer can withdraw a badge that should no longer be relied on."
+        },
+        {
+          "type": "p",
+          "text": "For training in regulated settings, the fields that matter most are criteria and evidence. A badge that states clear criteria tied to [learning outcomes](/glossary/learning-outcomes), and links to the assessment evidence, is far more useful to an employer or auditor than one awarded for attendance."
+        }
+      ]
+    },
+    {
+      "id": "workplace-use",
+      "heading": "How are Open Badges used in workplace and compliance training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Organizations use Open Badges to issue portable, verifiable records of internal training, [micro-credentials](/glossary/micro-credential) and professional achievements. Because 3.0 badges can be held in a learner's wallet and checked independently, they suit workforces that move between employers, contractors and sites."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Issue for assessed outcomes.** Reserve badges for achievements with defined criteria and assessment, not completion alone.",
+            "**Align to your framework.** Use alignments to reference the competencies in your [competency framework](/glossary/competency-framework) or a public skills taxonomy.",
+            "**Set expiry and revocation rules.** Safety and compliance competence goes out of date; record when a badge expires and when it will be revoked.",
+            "**Accept external badges carefully.** Verifying a badge confirms its issuer and integrity, not that the criteria meet your requirements. Review incoming badges as you would any prior learning."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Badges are one way to populate a [skills passport](/glossary/skills-passport), and the activity data behind them may sit in a [learning record store](/glossary/learning-record-store)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines the competencies, criteria and assessment points that a credential should reference. Credentials issued from those definitions can carry criteria and alignments that trace back to the framework and its source obligations, which gives a badge meaning beyond the fact that it was issued."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Who maintains the Open Badges standard?",
+      "a": "The 1EdTech Consortium maintains Open Badges; its specification site at imsglobal.org still carries the earlier IMS Global Learning Consortium name. The 3.0 specification is published as a Final Release on the 1EdTech specification site, with errata tracked separately."
+    },
+    {
+      "q": "Are Open Badges 2.0 badges still valid?",
+      "a": "Existing 2.0 badges remain verifiable by the methods they were issued with, and the 3.0 specification includes data models for verifying earlier credentials. New 3.0 badges use a different structure, so issuers and platforms need to support both during any transition."
+    },
+    {
+      "q": "Is an Open Badge the same as a micro-credential?",
+      "a": "No. A micro-credential is a type of credential defined by its learning volume and assessed outcomes. Open Badges is a technical format. A micro-credential can be issued as an Open Badge, but so can a course completion or a membership."
+    },
+    {
+      "q": "Can an Open Badge prove someone is competent?",
+      "a": "It can prove that a named issuer stated the person met certain criteria, and that the statement has not been altered. Whether that means competence depends on the criteria and the assessment behind them, which the employer should review."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Open Badges Specification, Spec Version 3.0, Final Release",
+      "publisher": "1EdTech Consortium",
+      "url": "https://www.imsglobal.org/spec/ob/v3p0"
+    },
+    {
+      "title": "Open Badges",
+      "publisher": "1EdTech Consortium",
+      "url": "https://www.1edtech.org/standards/open-badges"
+    }
+  ],
+  "related": [
+    "micro-credential",
+    "skills-passport",
+    "learning-record-store",
+    "competency-framework",
+    "recognition-of-prior-learning",
+    "skills-taxonomy"
+  ],
+  "productLinks": [
+    { "label": "Verification and trust", "href": "/platform/verification-trust" },
+    { "label": "Standards and accreditation", "href": "/platform/standards-accreditation" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "OB 3.0 Final Release, document dated June 29, 2026; abstract quoted on alignment with VC Data Model v2.0 and bundling into CLR and verifiable presentations", "source": "https://www.imsglobal.org/spec/ob/v3p0" },
+    { "claim": "Badge definition: a single assertion of an achievement packaged as a verifiable credential; AchievementCredential definition quoted; conceptual model of issuer, claim, credential subject, achievement and proof", "source": "https://www.imsglobal.org/spec/ob/v3p0" },
+    { "claim": "OB 2.0 released 2018; verified by hosted JSON or JWS; 3.0 badges not conformant to all 2.x data model requirements (quoted); email identifiers common up to 2.0; DIDs supported", "source": "https://www.imsglobal.org/spec/ob/v3p0" },
+    { "claim": "Alignment definition quoted; revocation via credentialStatus; data models for verifying earlier credentials (AchievementCredentialv1p1)", "source": "https://www.imsglobal.org/spec/ob/v3p0" }
+  ]
+}

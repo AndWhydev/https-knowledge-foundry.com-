@@ -1,0 +1,162 @@
+{
+  "slug": "regulatory-change-management",
+  "kind": "glossary",
+  "title": "What is regulatory change management?",
+  "seoTitle": "Regulatory change management",
+  "description": "Regulatory change management is how an organization tracks new and amended rules and updates its policies, controls and training. Stages, owners and evidence.",
+  "shortAnswer": "Regulatory change management is the process an organization uses to identify new or amended laws, regulations, regulator guidance and standards, assess how each change affects its obligations, and update the policies, procedures, controls, systems and training that depend on them before the change takes effect. It turns horizon scanning into documented decisions and actions, so the organization can show a supervisor or prosecutor that its compliance program keeps pace with the rules.",
+  "keyTakeaways": [
+    "Regulatory change management connects four things: the source of a change, the obligation it alters, the controls that implement it, and the people who must know about it.",
+    "Supervisors and prosecutors look for it: the US Department of Justice asks whether policies reflect \"changes to the legal and regulatory landscape\", and Basel Committee guidance expects compliance functions to keep management informed of developments.",
+    "Training is one of the most commonly missed downstream updates, because course content is rarely linked to the obligations it covers.",
+    "Effective dates drive the plan: many rules publish months or years before they apply, with staged commencement.",
+    "The evidence is a change log showing each change, the impact decision, owners, actions and completion."
+  ],
+  "term": "regulatory change management",
+  "alsoKnownAs": [
+    "RCM",
+    "regulatory change process",
+    "regulatory horizon scanning",
+    "legal change management"
+  ],
+  "sections": [
+    {
+      "id": "why-it-matters",
+      "heading": "Why do regulators expect regulatory change management?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Regulators and enforcement agencies expect compliance programs to be current, and a program cannot stay current without a way to find and act on changes. Their guidance frames this as an ongoing duty rather than a one time mapping exercise."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**United States, enforcement.** The Department of Justice [Evaluation of Corporate Compliance Programs](https://www.justice.gov/media/1160391/dl?inline) (updated September 2024) asks prosecutors to consider what efforts a company has made \"to monitor and implement policies and procedures that reflect and deal with the spectrum of risks it faces, including changes to the legal and regulatory landscape and the use of new technologies,\" and whether it has undertaken a gap analysis of its policies, controls or training.",
+            "**International banking supervision.** The Basel Committee on Banking Supervision paper [Compliance and the compliance function in banks](https://www.bis.org/publications/200504-guidelines-compliance-and-compliance-function-banks.pdf) (April 2005) states that the compliance function should advise senior management on compliance laws, rules and standards, \"including keeping them informed on developments in the area,\" and that compliance staff skills in keeping up to date should be maintained through regular and systematic education and training.",
+            "**Management system standards.** ISO 37301 requires organizations to identify compliance obligations and evaluate compliance risks, and to deliver personnel training and communications, according to ISO's [ISO 37301 FAQs](https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf). Keeping that obligation inventory current is regulatory change management in practice.",
+            "**Workplace safety.** The EU OSH Framework Directive, [Article 12](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:31989L0391), requires worker training to be \"adapted to take account of new or changed risks,\" which applies when rules or methods change."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stages",
+      "heading": "What are the stages of regulatory change management?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most programs follow the same sequence: find the change, decide whether it applies, work out what it affects, act, and prove it was done. The table below lists each stage with its key question, its output and the training consequence that is often missed."
+        },
+        {
+          "type": "table",
+          "caption": "Regulatory change management stages and their training impact (illustrative)",
+          "head": ["Stage", "Key question", "Output", "Training consequence"],
+          "rows": [
+            ["1. Scan", "What has changed or is proposed?", "Log entry with source, publication date and effective dates", "None yet; note likely affected roles"],
+            ["2. Triage", "Does this apply to us, and how urgently?", "Applicability decision with reasons", "Flag if any role's required knowledge may change"],
+            ["3. Impact assessment", "Which obligations, policies, procedures, controls and systems change?", "Impact assessment linked to the [compliance obligations register](/glossary/compliance-obligations-register)", "List affected courses, assessments and roles through [obligations mapping](/glossary/obligations-mapping)"],
+            ["4. Plan", "Who does what by when?", "Action plan with owners and deadlines before the effective date", "Schedule content updates, reassessment and communications"],
+            ["5. Implement", "Are the changes made?", "Updated documents, controls and systems", "Revised training released; affected staff retrained or briefed"],
+            ["6. Verify and close", "Did the change work, and can we prove it?", "Closure evidence and post implementation check", "Completion and assessment records for affected roles"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "training-link",
+      "heading": "Why is training the step most often missed?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training is often missed because course content is stored separately from the obligations it teaches, so nobody can quickly see which courses a rule change touches. Policies and procedures usually have owners who are notified; training libraries often do not."
+        },
+        {
+          "type": "p",
+          "text": "The fix is structural: map each learning outcome and assessment item to the obligation and procedure it comes from. When the obligation changes, the map shows exactly which content and which people are affected. Without it, outdated content persists, which is the problem described in [knowledge drift](/glossary/knowledge-drift). A step by step method is in [how to update training when regulations change](/guides/how-to-update-training-when-regulations-change)."
+        }
+      ]
+    },
+    {
+      "id": "nearby-terms",
+      "heading": "How is regulatory change management different from horizon scanning or policy management?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Horizon scanning is the first stage only: watching for proposed and final rules. Policy management controls the organization's own documents. Regulatory change management spans both and adds the impact assessment, action tracking and evidence that connect an external change to every internal artifact it affects, including training, which is covered in [compliance training](/glossary/compliance-training)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry keeps the link between each source rule, the concepts and competencies derived from it, and the assessment points that test them. When a source changes, the platform identifies the affected content and roles so the training update can be planned in stage 3 instead of discovered after the effective date."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Who owns regulatory change management?",
+      "a": "Usually the compliance or legal function owns the process and the change log, while business owners are accountable for implementing changes in their areas. Training teams should be named owners for learning updates so that step is not left implied."
+    },
+    {
+      "q": "How far ahead should changes be tracked?",
+      "a": "From the earliest reliable signal, often a consultation or proposed rule, through final publication to the effective date. Many major rules publish well before they apply and commence in stages, which leaves time to update training if the change is caught early."
+    },
+    {
+      "q": "What evidence shows regulatory change management is working?",
+      "a": "A change log with source, applicability decision, impact assessment, owners and closure dates; updated documents with version history; and training records showing affected staff completed revised content before the effective date. Audit and incident findings that trace to missed changes show where it is not working."
+    },
+    {
+      "q": "Does a small organization need a formal process?",
+      "a": "It needs a reliable one, scaled to its size. A simple register of applicable rules, a named person checking regulator updates on a schedule, and a log of decisions and actions can meet the same expectations as an enterprise system."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Evaluation of Corporate Compliance Programs (Updated September 2024)",
+      "publisher": "U.S. Department of Justice, Criminal Division",
+      "url": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "title": "Compliance and the compliance function in banks",
+      "publisher": "Basel Committee on Banking Supervision",
+      "url": "https://www.bis.org/publications/200504-guidelines-compliance-and-compliance-function-banks.pdf"
+    },
+    {
+      "title": "ISO 37301:2021 Compliance management systems: Frequently Asked Questions",
+      "publisher": "ISO/TC 309",
+      "url": "https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf"
+    },
+    {
+      "title": "Council Directive 89/391/EEC (OSH Framework Directive)",
+      "publisher": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:31989L0391"
+    }
+  ],
+  "related": [
+    "how-to-update-training-when-regulations-change",
+    "obligations-mapping",
+    "compliance-obligations-register",
+    "knowledge-drift",
+    "iso-37301-compliance-training-requirements",
+    "how-to-detect-outdated-training-content"
+  ],
+  "productLinks": [
+    { "label": "Knowledge governance", "href": "/platform/knowledge-governance" },
+    { "label": "Remediation", "href": "/platform/remediation" },
+    { "label": "Financial services", "href": "/industries/financial-services" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "DOJ ECCP (updated September 2024) Comprehensiveness question quoting changes to the legal and regulatory landscape; Evolving Updates question on gap analysis of policies, controls or training", "source": "https://www.justice.gov/media/1160391/dl?inline" },
+    { "claim": "BCBS April 2005 paragraph 35: advise senior management including keeping them informed on developments; paragraph 33: compliance staff keep up to date through regular and systematic education and training", "source": "https://www.bis.org/publications/200504-guidelines-compliance-and-compliance-function-banks.pdf" },
+    { "claim": "ISO 37301 requires identifying compliance obligations and evaluating compliance risks, and personnel trainings and communications", "source": "https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf" },
+    { "claim": "Directive 89/391/EEC Article 12(1): training adapted to take account of new or changed risks", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:31989L0391" }
+  ]
+}

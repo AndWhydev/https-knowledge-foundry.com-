@@ -1,0 +1,179 @@
+{
+  "slug": "refresher-training",
+  "kind": "glossary",
+  "title": "What is refresher training?",
+  "seoTitle": "Refresher training: definition",
+  "description": "Refresher training repeats or updates earlier training so people stay competent. Fixed cycle and event triggered examples from OSHA, EU and model WHS rules.",
+  "shortAnswer": "Refresher training is training given to people who have already completed initial training, to maintain, restore or update the knowledge and skills it established. Rules require it in two ways: on a fixed cycle, such as OSHA's eight hours of annual hazardous waste refresher training or the EU's 35 hours of driver periodic training every five years, or when triggered by events such as unsafe performance, incidents, or changes to equipment, procedures or risks.",
+  "keyTakeaways": [
+    "Refresher training maintains competence that initial training built; it is not a repeat of the full initial course unless the rule says so.",
+    "Fixed interval examples include OSHA HAZWOPER (eight hours annually), OSHA bloodborne pathogens (at least annually) and EU Driver CPC (35 hours every five years).",
+    "Event triggered examples include OSHA's forklift rule (after unsafe operation, an accident or near miss, or a workplace change) and the EU OSH Framework Directive's requirement to adapt training to new or changed risks.",
+    "Some rules let people demonstrate competence instead of attending refresher training, which rewards assessment over attendance.",
+    "A defensible refresh cycle states its basis: the rule, the risk, how quickly the skill decays, and how often the content changes."
+  ],
+  "term": "refresher training",
+  "alsoKnownAs": [
+    "refresher course",
+    "periodic training",
+    "recurrent training",
+    "retraining"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What does refresher training cover?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Refresher training covers the parts of earlier training that need to be current for the person to keep working safely and correctly: core hazards and controls, procedures that have changed, lessons from recent incidents, and skills that decay without practice. Its content is usually shorter and more targeted than initial training."
+        },
+        {
+          "type": "p",
+          "text": "OSHA's hazardous waste rule shows what this looks like in a regulation. [29 CFR 1910.120(e)(8)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.120) requires workers and supervisors to receive \"eight hours of refresher training annually\" on the topics of initial training, \"any critique of incidents that have occurred in the past year that can serve as training examples of related work, and other relevant topics.\""
+        }
+      ]
+    },
+    {
+      "id": "fixed-vs-triggered",
+      "heading": "Is refresher training required on a fixed cycle or when something changes?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Both models exist, and many rules combine them. The table compares examples from several jurisdictions; check the current text of the rule that applies to your workforce before setting a cycle."
+        },
+        {
+          "type": "table",
+          "caption": "Refresher training models: examples from published rules",
+          "head": ["Rule", "Model", "What is required"],
+          "rows": [
+            ["OSHA HAZWOPER, [29 CFR 1910.120(e)(8)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.120)", "Fixed interval", "Eight hours of refresher training annually for covered workers, managers and supervisors"],
+            ["OSHA HAZWOPER emergency response, 29 CFR 1910.120(q)(8)", "Fixed interval or demonstration", "Annual refresher training of sufficient content and duration to maintain competencies, or demonstration of competency at least yearly"],
+            ["OSHA bloodborne pathogens, [29 CFR 1910.1030(g)(2)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030)", "Fixed interval", "Training at initial assignment and at least annually thereafter, within one year of the previous training"],
+            ["OSHA powered industrial trucks, [29 CFR 1910.178(l)(4)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178)", "Event triggered plus periodic evaluation", "Refresher training after unsafe operation, an accident or near miss, a failed evaluation, a different truck type or a workplace change; performance evaluation at least every three years"],
+            ["EU Driver CPC, [Directive (EU) 2022/2561](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022L2561)", "Fixed interval", "Periodic training of 35 hours every five years, in periods of at least seven hours"],
+            ["EU OSH Framework Directive, [Article 12](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:31989L0391)", "Event triggered, periodic if necessary", "Training adapted to new or changed risks and repeated periodically if necessary"],
+            ["Australian model WHS Regulations, regulation 21", "Entitlement", "Health and safety representatives are entitled to up to one day of refresher training each year after initial training"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setting-cycles",
+      "heading": "How should an organization set refresher intervals where the law is silent?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Set the interval from risk and evidence rather than habit. Annual refreshers are common because they are easy to administer, but an annual cycle can be too long for a rarely used emergency skill and too short for stable, low risk content."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Consequence:** how severe is the outcome if the knowledge or skill has faded? Higher consequence means shorter intervals and practical assessment.",
+            "**Frequency of use:** skills used daily are maintained by practice; skills used once a year decay and need rehearsal.",
+            "**Rate of change:** content tied to fast moving rules or procedures needs event triggered updates whatever the fixed cycle.",
+            "**Performance data:** incidents, audit findings and assessment results show where refreshers are needed sooner.",
+            "**Demonstration option:** where a person can show competence through assessment, consider accepting that instead of repeating content, as OSHA allows for emergency responders."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "These factors are worked through in [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles). Techniques such as [spaced repetition](/glossary/spaced-repetition) and [microlearning](/glossary/microlearning) can spread refresher content across the cycle rather than concentrating it in one session."
+        }
+      ]
+    },
+    {
+      "id": "nearby-terms",
+      "heading": "How is refresher training different from retraining or continuing professional development?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Refresher training maintains competence a person already has. Retraining usually responds to a specific gap or change, such as OSHA's lockout/tagout retraining when procedures change. [Continuing professional development](/glossary/continuing-professional-development) is broader, self directed learning required by professional bodies to keep a professional's knowledge current across their field. In practice the terms overlap, so define them in your [training policy](/guides/how-to-write-a-training-policy)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry stores refresh rules against each competency and its source obligation, so a fixed interval and its change triggers sit in one place. When a linked procedure or regulation changes, the people affected are flagged for an event triggered refresher instead of waiting for the next scheduled cycle."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does refresher training have to repeat the full initial course?",
+      "a": "Usually not. Most rules specify refresher content that is shorter than initial training, for example eight hours versus HAZWOPER's longer initial training. The content should focus on what has changed, what tends to be forgotten, and lessons from incidents."
+    },
+    {
+      "q": "Can an assessment replace refresher training?",
+      "a": "Sometimes. OSHA's emergency response provision in 29 CFR 1910.120(q)(8) allows employees to demonstrate competency at least yearly instead of attending refresher training. Where a rule specifies hours of attendance, an assessment alone will not meet it."
+    },
+    {
+      "q": "What happens if refresher training lapses?",
+      "a": "It depends on the rule. Under some regimes the person must stop the covered work until the refresher is complete; under EU Driver CPC rules, for example, a driver whose qualification has lapsed must complete periodic training before resuming. Records should show expiry dates so lapses are visible in advance."
+    },
+    {
+      "q": "Is annual refresher training always required for compliance training?",
+      "a": "No. Many compliance topics have no fixed legal interval, and the rule requires training to be adequate, ongoing or kept up to date. Annual cycles are a common organizational choice, not a universal legal requirement."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.120 Hazardous waste operations and emergency response",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.120"
+    },
+    {
+      "title": "29 CFR 1910.178 Powered industrial trucks",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178"
+    },
+    {
+      "title": "29 CFR 1910.1030 Bloodborne pathogens",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030"
+    },
+    {
+      "title": "Directive (EU) 2022/2561 on the initial qualification and periodic training of drivers",
+      "publisher": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022L2561"
+    },
+    {
+      "title": "Council Directive 89/391/EEC (OSH Framework Directive)",
+      "publisher": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:31989L0391"
+    },
+    {
+      "title": "Model Work Health and Safety Regulations (5 December 2025)",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf"
+    }
+  ],
+  "related": [
+    "how-to-set-mandatory-training-refresh-cycles",
+    "mandatory-training",
+    "spaced-repetition",
+    "osha-hazwoper-training-requirements",
+    "eu-driver-cpc-periodic-training",
+    "continuing-professional-development"
+  ],
+  "productLinks": [
+    { "label": "Compliance programs", "href": "/programs/compliance" },
+    { "label": "Knowledge governance", "href": "/platform/knowledge-governance" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "1910.120(e)(8): eight hours refresher annually including critique of incidents in past year; (q)(8)(i) annual refresher or demonstrate competency at least yearly", "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.120" },
+    { "claim": "1910.1030(g)(2)(ii)(A)-(B) and (iv): initial assignment, at least annually, within one year of previous training", "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030" },
+    { "claim": "1910.178(l)(4)(ii) refresher triggers A to E; (l)(4)(iii) evaluation at least every three years", "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178" },
+    { "claim": "Directive 2022/2561 Annex I: periodic training 35 hours every five years in periods of at least seven hours", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022L2561" },
+    { "claim": "Directive 89/391/EEC Article 12(1): training adapted to new or changed risks and repeated periodically if necessary", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:31989L0391" },
+    { "claim": "Model WHS Regulations reg 21(1)(b): HSR up to 1 day's refresher training each year, first one year after initial training", "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2025-12/model-whs-regulations-5_december_2025.pdf" }
+  ]
+}
