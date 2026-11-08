@@ -87,7 +87,7 @@ const jsonLd = {
       applicationCategory: "BusinessApplication",
       operatingSystem: "Web",
       description: site.description,
-      offers: { "@type": "Offer", price: "0", priceCurrency: "EUR", availability: "https://schema.org/InStock", url: `${site.url}/demonstration` },
+      // No `offers`: pricing is scoped per engagement, and a price of 0 reads as "free" to search and AI engines.
       publisher: { "@id": `${site.url}/#organization` },
     },
     {

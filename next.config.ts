@@ -13,7 +13,20 @@ const nextConfig: NextConfig = {
   // the site. Send it to the canonical domain (SOP rule T1). Preview URLs have
   // different hostnames and are unaffected.
   async redirects() {
+    // Old WordPress URLs still indexed by search engines, sent to their nearest new page (SOP rule T2).
+    const legacy: [string, string][] = [
+      ["/the-platform", "/platform"],
+      ["/the-programs", "/programs"],
+      ["/the-approach", "/platform/framework-intelligence"],
+      ["/the-industries", "/industries"],
+      ["/about-us", "/about"],
+      ["/contact", "/demonstration"],
+      ["/contact-us", "/demonstration"],
+      ["/privacy-policy", "/privacy"],
+      ["/blog", "/insights"],
+    ];
     return [
+      ...legacy.map(([source, destination]) => ({ source: `${source}{/}?`, destination, permanent: true })),
       {
         source: "/:path*",
         has: [{ type: "host", value: "https-knowledge-foundrycom.vercel.app" }],
