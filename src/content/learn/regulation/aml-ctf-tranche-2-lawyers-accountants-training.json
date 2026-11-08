@@ -1,0 +1,381 @@
+{
+  "slug": "aml-ctf-tranche-2-lawyers-accountants-training",
+  "kind": "regulation",
+  "title": "What AML/CTF training do lawyers, accountants and trust and company service providers need in Australia?",
+  "seoTitle": "AML/CTF training: lawyers, accountants",
+  "description": "Which legal, accounting and trust and company services AUSTRAC regulates from July 1, 2026, and how a practice should train and evidence each role.",
+  "shortAnswer": "From July 1, 2026, Australian lawyers, accountants, conveyancers and trust and company service providers that provide a professional designated service in table 6 of section 6 of the Anti-Money Laundering and Counter-Terrorism Financing Act 2006 are reporting entities. The Australian Transaction Reports and Analysis Centre (AUSTRAC) expects each practice to assess and train everyone performing AML/CTF functions, with deeper training for roles that create or restructure companies and trusts.",
+  "keyTakeaways": [
+    "Table 6 lists nine profession neutral services, from conveyancing and holding client money for a transaction to creating trusts, selling shelf companies, acting as nominee directors or shareholders, and providing registered office addresses.",
+    "A service is caught whether it is provided once, alongside other work, or free of charge, as long as it is provided in the course of carrying on a business.",
+    "AUSTRAC's good practice example is a 25 person legal practice that treats roles creating or restructuring body corporates or trusts as high risk and gives them extra targeted training.",
+    "Lawyers keep the right to withhold information protected by legal professional privilege, but staff must know when an LPP form is required instead of the withheld information.",
+    "AFS licensees whose only designated service is item 54 arranging are exempt from personnel due diligence and training obligations, so practices need to classify their services before designing training."
+  ],
+  "jurisdiction": "Australia (Commonwealth)",
+  "regulator": "Australian Transaction Reports and Analysis Centre (AUSTRAC)",
+  "appliesTo": [
+    "Law practices and in house conveyancing teams providing table 6 services",
+    "Accounting practices, including those that set up companies and trusts or receive and disburse client money",
+    "Trust and company service providers that sell shelf companies, act as or arrange nominee directors, secretaries, trustees or shareholders, or provide registered office addresses",
+    "Principals, partners, practice managers, the AML/CTF compliance officer, junior professionals and administrative staff"
+  ],
+  "sections": [
+    {
+      "id": "which-professional-services",
+      "heading": "Which professional services are regulated?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Nine services listed in table 6 of subsection 6(5B) of the Act are regulated from July 1, 2026, and they apply to any business that provides them, not only to lawyers or accountants. AUSTRAC's [professional designated services guidance](https://www.austrac.gov.au/new-austrac/designated-services-newly-regulated-entities/professional-designated-services) summarizes them as follows."
+        },
+        {
+          "type": "table",
+          "caption": "Table 6 professional designated services and the practice teams they usually touch (items from AUSTRAC guidance; team mapping is illustrative)",
+          "head": [
+            "Table 6 item",
+            "Service",
+            "Teams usually affected"
+          ],
+          "rows": [
+            [
+              "1",
+              "Assisting in the planning or execution of a transaction to sell, buy or transfer real estate",
+              "Conveyancing, property law"
+            ],
+            [
+              "2",
+              "Assisting in the planning or execution of a transaction to sell, buy or transfer a body corporate or legal arrangement",
+              "Corporate and commercial, business sales"
+            ],
+            [
+              "3",
+              "Receiving, holding, controlling or managing a person's property to help plan or execute a transaction",
+              "Trust account staff, client accounting, bookkeeping"
+            ],
+            [
+              "4",
+              "Assisting in organizing, planning or executing equity or debt financing for a body corporate or legal arrangement",
+              "Corporate finance, advisory"
+            ],
+            [
+              "5",
+              "Selling or transferring a shelf company",
+              "Company secretarial, trust and company service providers"
+            ],
+            [
+              "6",
+              "Assisting in the creation or restructuring of a body corporate or legal arrangement",
+              "Tax and structuring, private clients, insolvency"
+            ],
+            [
+              "7 and 8",
+              "Acting, or arranging for someone to act, as a director, secretary, partner, trustee of an express trust or nominee shareholder on behalf of a person",
+              "Company secretarial, trustee services"
+            ],
+            [
+              "9",
+              "Providing a registered office address or principal place of business address",
+              "Practice administration, reception"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Trust and company service providers are not a separate legal category in the Act. They are regulated because items 5, 7, 8 and 9 describe what they do, and AUSTRAC's [reform overview](https://www.austrac.gov.au/industry-and-business/about-amlctf-reforms/about-reforms) lists them among the newly regulated sectors alongside lawyers, accountants and conveyancers."
+        },
+        {
+          "type": "callout",
+          "title": "Currency",
+          "text": "This page reflects the Act, the AML/CTF Rules 2025 and AUSTRAC guidance as at November 2026. AUSTRAC's professional designated services guidance was last updated on September 25, 2026. Check the primary sources before relying on any item number or exemption."
+        }
+      ]
+    },
+    {
+      "id": "scope-tests",
+      "heading": "What tests decide whether a matter is in scope?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A matter is in scope when the service is sufficiently linked to the outcome table 6 targets and is provided in the course of carrying on a business. Staff who open matters need to apply these tests consistently, which makes them core training content rather than background reading."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Business test:** AUSTRAC says a service can be provided in the course of a business even if it is not the only service the business provides, is only provided once, or is provided free to further the business. Pro bono work is not automatically outside scope.",
+            "**Link to the outcome:** assisting or acting is regulated when it directly advances the transaction. AUSTRAC contrasts a conveyancer engaged to transfer property, which is in scope, with a solicitor advising the conveyancer on the legal effect of contract terms, which is ancillary.",
+            "**Court and tribunal orders:** items 1 and 2 do not apply to transactions under, or resulting from, a court or tribunal order, and AUSTRAC says litigation generally falls outside table 6. The exception covers services after the order, not services to obtain it.",
+            "**Item 3 carve outs:** holding money is not item 3 where it is payment for the practice's own services, is reasonably incidental to a non-designated service, is payable under a court order, or falls in the payments listed in subsection 6(5D).",
+            "**Item 7 limits:** a power of attorney for an individual, trustees or executors of testamentary trusts, trustees of trusts not created in writing, and court appointed fiduciaries are excluded."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "AUSTRAC also notes exemptions for legal aid commissions, community legal centres and barristers acting for Australian government bodies. A matter intake checklist that encodes these tests, with a short [competency assessment](/glossary/competency-assessment) on worked scenarios, is the most direct way to show that fee earners classify matters correctly."
+        }
+      ]
+    },
+    {
+      "id": "training-obligation",
+      "heading": "What must a practice's AML/CTF training cover?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A practice must give initial and ongoing training to every person who performs functions relevant to its AML/CTF obligations, tailored to their function, risks and responsibilities. The statutory basis, section 26F(4)(e) of the Act and section 5-9 of the AML/CTF Rules 2025, is the same for all reporting entities and is covered on the [AUSTRAC AML/CTF training requirements](/regulations/austrac-aml-ctf-training-requirements) page. What differs for a practice is the content."
+        },
+        {
+          "type": "p",
+          "text": "AUSTRAC's [good practice example](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/examples-personnel-due-diligence-and-training-practice) describes a 25 person firm providing legal and financial services. All personnel receive foundational training on the firm's obligations, risks and red flags; new staff complete it at onboarding; all AML/CTF relevant roles do refresher training at least annually or on a significant change in policy or risk profile. Role specific training is layered on top, and the firm tests knowledge with quizzes or scenario based discussions and logs all training in a central register."
+        },
+        {
+          "type": "p",
+          "text": "The same example identifies roles that create or restructure body corporates or trusts as high risk and applies more thorough checks and additional targeted training to them. AUSTRAC's [legal professionals risk insights](https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/risk-insights-and-indicators-suspicious-activity-legal-professionals) explain why: the national risk assessment found services provided by legal professionals pose a high money laundering risk, because their skills in creating companies and trusts and transferring real estate and businesses make them a target. AUSTRAC's [accountants risk insights](https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/risk-insights-and-indicators-suspicious-activity-accountants) reach the same high risk finding for accountants."
+        }
+      ]
+    },
+    {
+      "id": "role-matrix",
+      "heading": "How should a practice map roles to training and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Start from the table 6 items the practice actually provides, identify every role that touches them, and set content, timing and evidence for each. The matrix below is an original illustration that adapts AUSTRAC's good practice role list to a mixed legal and accounting practice. It is not an AUSTRAC template, and the intervals are policy choices the practice must justify, as described in the guide to [setting refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles)."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative role, training and evidence matrix for a professional services practice",
+          "head": [
+            "Role",
+            "Role specific content",
+            "Frequency",
+            "Evidence an independent evaluator would sample"
+          ],
+          "rows": [
+            [
+              "Junior solicitor or graduate accountant",
+              "Client onboarding, initial CDD, identity verification procedures, record keeping",
+              "At onboarding, then at least annually",
+              "Scenario assessment, supervisor sign off on first matters, sampled CDD files"
+            ],
+            [
+              "Structuring, tax or private client adviser (items 2, 4, 6)",
+              "Beneficial ownership of companies and trusts, reasons for complexity, source of funds, red flags in restructures",
+              "Before first matter, then at least annually with targeted follow up",
+              "Case review of structuring files, high risk role PDD record"
+            ],
+            [
+              "Trust account or client money staff (item 3)",
+              "When holding money is or is not item 3, cash of $10,000 or more, escalation",
+              "Before handling client money, then at least annually",
+              "Knowledge check on carve out scenarios, escalation log"
+            ],
+            [
+              "Company secretarial or trustee services staff (items 5, 7, 8, 9)",
+              "Who the nominator is, what acting on behalf means, registered office address tests",
+              "Before first appointment, then at least annually",
+              "Appointment files showing CDD on the nominator"
+            ],
+            [
+              "Administrative and records staff",
+              "Record keeping processes and tools, accurate and complete records",
+              "At onboarding and when systems change",
+              "Record completeness sampling"
+            ],
+            [
+              "Partners or principals designated as senior managers",
+              "Politically exposed persons, tailoring enhanced CDD, source of funds and wealth, LPP decisions",
+              "On designation and at least annually",
+              "Training record, enhanced CDD approvals, LPP decision notes"
+            ],
+            [
+              "Governing body (partnership board or directors)",
+              "Obligations of each governance role, the practice's risk assessment and policies, good governance",
+              "On appointment and when the risk assessment changes",
+              "Minutes showing briefing content and questions"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legal-professional-privilege",
+      "heading": "How does legal professional privilege change what lawyers need to learn?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Lawyers need specific training on when legal professional privilege (LPP) lets them withhold information from AUSTRAC and when they must lodge an LPP form instead. AUSTRAC's [LPP guidance](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/legal-professional-privilege) says section 242(1) of the Act preserves the right to refuse to give privileged information, and that the Act uses the common law concept of privilege rather than creating a new one."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "LPP is narrower than the general duty of confidentiality, and it does not extend to communications made for an illegal or improper purpose.",
+            "If all of the information forming the grounds of suspicion in a suspicious matter report is privileged, neither a report nor an LPP form is required.",
+            "If only part is privileged, the reporting obligation must be met to the extent possible and an LPP form submitted in place of the withheld information, at the same time as the report.",
+            "Describing the privileged information in the form does not, of itself, waive privilege, and failing to submit an LPP form when required may attract civil penalties.",
+            "AUSTRAC recommends that non-lawyers seek legal advice before withholding information on privilege grounds, which matters for accounting firms and service providers."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Because a privilege call is a judgment rather than a rule, assessment should use realistic file scenarios and record the reasoning, not a multiple choice quiz. The distinction between knowing a rule and applying it is set out in [completion tracking vs competency verification](/compare/completion-tracking-vs-competency-verification)."
+        }
+      ]
+    },
+    {
+      "id": "exemptions-and-starter-kits",
+      "heading": "Which practices have lighter training obligations?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A business whose only designated service is item 54 of table 1, arranging another designated service while acting under an Australian financial services license, is exempt from personnel due diligence and training. AUSTRAC's [item 54 exemption guidance](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/additional-guidance/exemptions-amlctf-obligations-businesses-providing-only-item-54-designated-services) says such businesses must still enroll, assess risk, conduct initial CDD, report suspicious matters and comply with tipping off rules, but are exempt from appointing a compliance officer, ongoing CDD, training and independent evaluations. An accounting practice that also creates trusts or holds client money for transactions loses that position because it provides table 6 services."
+        },
+        {
+          "type": "p",
+          "text": "AUSTRAC's [legal profession starter kit](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/program-starter-kits/legal-profession-program-starter-kit/legal-profession-program-starter-kit-getting-started) and [accounting starter kit](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/program-starter-kits/accountant-program-starter-kit/accounting-program-starter-kit-getting-started) are designed for practices with 15 or fewer personnel that mostly serve Australian resident individuals and do not regularly deal with high risk clients. AUSTRAC says larger practices are highly likely to face more complex risks requiring stronger controls, and that a practice outside the criteria cannot rely on the kit to meet AUSTRAC's expectations. For training, that means mid sized and large firms need their own role analysis rather than the kit's generic personnel policy."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry starts by mapping each table 6 item a practice provides to the roles, decisions and judgments involved, including scope tests and privilege calls, then builds assessment points against that structure. When AUSTRAC revises its interpretation of an item, the affected roles and assessments can be traced from the framework rather than found by rereading every module."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do barristers need AML/CTF training?",
+      "a": "Only if they provide a table 6 designated service in the course of carrying on a business and no exemption applies. AUSTRAC notes an exemption for barristers acting for Australian government bodies. Most advocacy and litigation work falls outside table 6, so many barristers will not be reporting entities, but each should check their services."
+    },
+    {
+      "q": "Is a bookkeeper who pays a client's bills providing a designated service?",
+      "a": "It depends on whether the payments are reasonably incidental to a service that is not itself a designated service and whether the business provides any other designated service. AUSTRAC's item 3 guidance works through a bookkeeper processing routine payments as an example, so practices should train staff on that carve out with similar scenarios."
+    },
+    {
+      "q": "Does pro bono work count?",
+      "a": "It can. AUSTRAC says a service is provided in the course of a business where it is provided for a fee or for free to further the business, and that a free or discounted service does not necessarily lower money laundering risk. Pro bono teams that do conveyancing or structuring work may need the same training as fee earning teams."
+    },
+    {
+      "q": "How often should practice staff be retrained?",
+      "a": "The Rules require initial and ongoing training but no fixed interval. AUSTRAC's good practice legal firm runs refresher training for all AML/CTF relevant roles at least annually or on a significant change in policy or risk profile, with additional targeted training for high risk structuring roles."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Professional designated services",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/new-austrac/designated-services-newly-regulated-entities/professional-designated-services"
+    },
+    {
+      "title": "About the reforms",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/about-amlctf-reforms/about-reforms"
+    },
+    {
+      "title": "Examples of personnel due diligence and training in practice",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/examples-personnel-due-diligence-and-training-practice"
+    },
+    {
+      "title": "Legal professional privilege",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/legal-professional-privilege"
+    },
+    {
+      "title": "Exemptions from AML/CTF obligations for businesses providing only item 54 designated services",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/additional-guidance/exemptions-amlctf-obligations-businesses-providing-only-item-54-designated-services"
+    },
+    {
+      "title": "Risk insights and indicators of suspicious activity for legal professionals",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/risk-insights-and-indicators-suspicious-activity-legal-professionals"
+    },
+    {
+      "title": "Risk insights and indicators of suspicious activity for accountants",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/risk-insights-and-indicators-suspicious-activity-accountants"
+    },
+    {
+      "title": "Legal profession program starter kit: Getting started",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/program-starter-kits/legal-profession-program-starter-kit/legal-profession-program-starter-kit-getting-started"
+    },
+    {
+      "title": "Accounting program starter kit: Getting started",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/program-starter-kits/accountant-program-starter-kit/accounting-program-starter-kit-getting-started"
+    },
+    {
+      "title": "Anti-Money Laundering and Counter-Terrorism Financing Amendment Act 2024",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/C2024A00110/asmade/text"
+    }
+  ],
+  "related": [
+    "austrac-aml-ctf-training-requirements",
+    "aml-ctf-tranche-2-real-estate-training",
+    "asic-rg-105-organisational-competence",
+    "eu-amlr-training-requirements",
+    "failure-to-prevent-foreign-bribery-training"
+  ],
+  "productLinks": [
+    {
+      "label": "Professional services",
+      "href": "/industries/professional-services"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Framework intelligence",
+      "href": "/platform/framework-intelligence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 13,
+  "factCheck": [
+    {
+      "claim": "Table 6 of subsection 6(5B) lists items 1 to 9 (real estate transactions, body corporate or legal arrangement transactions, receiving or holding property, equity or debt financing, shelf companies, creation or restructuring, acting or arranging in positions and nominee shareholders, registered office address)",
+      "source": "https://www.austrac.gov.au/new-austrac/designated-services-newly-regulated-entities/professional-designated-services"
+    },
+    {
+      "claim": "Business test: a service can be in the course of business even if not the only service, provided once, or free; court or tribunal order exception for items 1 and 2; litigation generally outside table 6; item 3 carve outs in s6(5C); item 7 exclusions; exemptions for legal aid commissions, community legal centres and barristers acting for Australian government bodies",
+      "source": "https://www.austrac.gov.au/new-austrac/designated-services-newly-regulated-entities/professional-designated-services"
+    },
+    {
+      "claim": "Trust and company service providers, lawyers, accountants and conveyancers regulated from 1 July 2026",
+      "source": "https://www.austrac.gov.au/industry-and-business/about-amlctf-reforms/about-reforms"
+    },
+    {
+      "claim": "Good practice example: 25 person legal and financial services firm; high risk roles include creating or restructuring body corporates or trusts; refresher at least annually or on significant change; role specific training for junior solicitors, administrative staff, principal solicitors as senior managers, governing body; central register; quizzes or scenario discussions",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/examples-personnel-due-diligence-and-training-practice"
+    },
+    {
+      "claim": "Act s242(1) preserves LPP; LPP narrower than confidentiality; no SMR or LPP form needed if all grounds are privileged; partial privilege requires LPP form with the SMR; description does not waive privilege; failure to submit may attract civil penalties",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/legal-professional-privilege"
+    },
+    {
+      "claim": "Item 54 only providers are exempt from personnel due diligence and training, compliance officer appointment, ongoing CDD and independent evaluation, but must enroll, assess risk, conduct initial CDD and report suspicious matters",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/additional-guidance/exemptions-amlctf-obligations-businesses-providing-only-item-54-designated-services"
+    },
+    {
+      "claim": "National risk assessment found services provided by legal professionals pose a high money laundering risk",
+      "source": "https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/risk-insights-and-indicators-suspicious-activity-legal-professionals"
+    },
+    {
+      "claim": "National risk assessment found services provided by accountants pose a high money laundering risk",
+      "source": "https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/risk-insights-and-indicators-suspicious-activity-accountants"
+    },
+    {
+      "claim": "Legal and accounting starter kits designed for practices with 15 or fewer personnel; practices outside criteria cannot rely on the kit; larger practices likely need stronger controls",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/program-starter-kits/legal-profession-program-starter-kit/legal-profession-program-starter-kit-getting-started"
+    }
+  ]
+}
