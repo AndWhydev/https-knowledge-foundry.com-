@@ -1,0 +1,247 @@
+{
+  "slug": "texas-responsible-ai-governance-act",
+  "kind": "regulation",
+  "title": "What does the Texas Responsible AI Governance Act (TRAIGA) require of businesses and employers?",
+  "seoTitle": "Texas TRAIGA (HB 149) obligations",
+  "description": "Texas HB 149 (TRAIGA) took effect January 1, 2026: its intent based prohibitions, enforcement, the NIST AI RMF defense and what staff need to understand.",
+  "shortAnswer": "The Texas Responsible Artificial Intelligence Governance Act (House Bill 149, signed June 22, 2025) took effect January 1, 2026. For private businesses it is mainly a set of intent based prohibitions, such as developing or deploying AI with intent to unlawfully discriminate against a protected class. The Texas Attorney General enforces it exclusively, with a 60 day cure period. It imposes no training duty, but substantial compliance with the NIST AI Risk Management Framework supports a defense.",
+  "keyTakeaways": [
+    "HB 149 added Chapters 551 to 554 to the Texas Business and Commerce Code and took effect January 1, 2026. The Governor signed it on June 22, 2025.",
+    "Most duties fall on government agencies. Private employers are reached by prohibitions that apply to any person: intent to discriminate (section 552.056), manipulation toward self-harm, harm or crime (552.052), and certain sexual content (552.057).",
+    "Disparate impact alone is not enough to show intent to discriminate (section 552.056(c)), and the Act gives no private right of action.",
+    "Penalties run from $10,000 to $12,000 per curable violation and $80,000 to $200,000 per uncurable violation, after a 60 day notice and cure period.",
+    "There is no training requirement for businesses. The Act's only training clause tells the Texas Artificial Intelligence Council to train state agencies and local governments (section 554.102)."
+  ],
+  "jurisdiction": "United States (Texas)",
+  "regulator": "Office of the Texas Attorney General (exclusive enforcement); state licensing agencies for follow-on sanctions; Texas Department of Information Resources for the AI regulatory sandbox",
+  "appliesTo": [
+    "Any person who promotes, advertises or conducts business in Texas, produces a product or service used by Texas residents, or develops or deploys an AI system in Texas (section 551.002)",
+    "Developers and deployers of AI systems, including employers using AI in hiring and workforce decisions",
+    "Texas governmental entities, which carry additional disclosure, social scoring and biometric identification restrictions"
+  ],
+  "sections": [
+    {
+      "id": "status-and-scope",
+      "heading": "What is TRAIGA and who does it apply to?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "TRAIGA is the short title of [House Bill 149](https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.htm) of the 89th Texas Legislature, which added Subtitle D, \"Artificial Intelligence Protection\", to Title 11 of the Business and Commerce Code. According to the [bill history](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149), the Governor signed it on June 22, 2025, and Section 10 states that the Act takes effect January 1, 2026. As at November 2026, it is in force."
+        },
+        {
+          "type": "p",
+          "text": "Section 551.002 applies the subtitle to any person who promotes, advertises or conducts business in Texas, produces a product or service used by Texas residents, or develops or deploys an AI system in Texas. An \"artificial intelligence system\" is any machine-based system that infers from its inputs how to generate outputs, such as content, decisions, predictions or recommendations, that can influence physical or virtual environments (section 551.001(1))."
+        },
+        {
+          "type": "p",
+          "text": "Two definitions shape how the Act touches employment. \"Consumer\" means a Texas resident acting in an individual or household context and \"does not include an individual acting in a commercial or employment context\" (section 551.001(2)). And the AI disclosure duty in section 552.051 applies to governmental agencies, not private employers. So TRAIGA does not require a private employer to tell candidates or workers that AI is in use. Its reach into the workplace is through the prohibitions that apply to any person."
+        }
+      ]
+    },
+    {
+      "id": "prohibitions",
+      "heading": "Which TRAIGA prohibitions matter to private employers?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Four prohibitions in Subchapter B apply to any person, including employers. Each turns on intent or purpose, not on outcomes."
+        },
+        {
+          "type": "table",
+          "caption": "TRAIGA prohibitions that apply to private businesses",
+          "head": ["Section", "What is prohibited", "Employment relevance"],
+          "rows": [
+            ["552.056 Unlawful discrimination", "Developing or deploying an AI system with the intent to unlawfully discriminate against a protected class in violation of state or federal law. A disparate impact is not sufficient by itself to demonstrate intent.", "Direct: screening, ranking or termination tools configured to exclude protected groups"],
+            ["552.052 Manipulation of human behavior", "Developing or deploying an AI system in a manner that intentionally aims to incite or encourage a person to commit self-harm, harm another person or engage in criminal activity", "Indirect: workplace chatbots and coaching tools"],
+            ["552.055 Constitutional protection", "Developing or deploying an AI system with the sole intent to infringe, restrict or impair rights guaranteed under the US Constitution", "Limited"],
+            ["552.057 Sexual content", "Developing or distributing AI with the sole intent of producing child sexual abuse material or unlawful deepfakes, or text based systems that simulate sexual conduct while impersonating a minor", "Acceptable use policies and conduct rules"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The discrimination provision has carve outs. Insurance entities subject to unfair discrimination statutes are excluded for insurance services, and a federally insured financial institution is considered compliant if it complies with all federal and state banking laws (section 552.056(d) and (e)). \"Protected class\" includes race, color, national origin, sex, age, religion and disability."
+        },
+        {
+          "type": "p",
+          "text": "Government only provisions sit alongside these: governmental agencies must disclose AI interactions to consumers, may not use AI for social scoring (552.053), and may not use AI to uniquely identify people from biometric data or scraped images without consent where that would infringe their rights (552.054). Public sector employers should read those sections in full."
+        }
+      ]
+    },
+    {
+      "id": "nist-safe-harbor",
+      "heading": "How does the NIST AI RMF safe harbor work?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "TRAIGA gives a defense to liability, not an exemption from the Act. Section 552.105(e) states that a defendant \"may not be found liable\" if another person uses its AI system in a prohibited manner, or if the defendant discovers a violation through one of four routes:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "feedback from a developer, deployer or other person who believes a violation has occurred;",
+            "testing, including adversarial testing or red-team testing;",
+            "following guidelines set by applicable state agencies; or",
+            "an internal review process, where the defendant substantially complies with the most recent version of the \"Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile\" published by the National Institute of Standards and Technology, or another nationally or internationally recognized AI risk management framework."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Section 552.105(c) also creates a rebuttable presumption that a person used reasonable care. The practical effect is that a documented AI risk program, with testing and an internal review cycle aligned to the NIST Generative AI Profile (NIST AI 600-1) or a framework such as ISO/IEC 42001, is evidence a Texas business can point to if the Attorney General investigates. The training expectations inside those frameworks are covered on the [NIST AI RMF page](/regulations/nist-ai-rmf-ai-risk-training) and the [ISO/IEC 42001 page](/regulations/iso-iec-42001-competence-and-awareness)."
+        }
+      ]
+    },
+    {
+      "id": "enforcement",
+      "heading": "How is TRAIGA enforced, and what are the penalties?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Attorney General has exclusive authority to enforce Chapter 552, and the Act provides no private right of action (section 552.101). Section 8 of HB 149 required the Attorney General to post an online complaint mechanism by September 1, 2026."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Investigation:** on a complaint, the Attorney General may issue a civil investigative demand for a description of the system's purpose and intended use, training data types, input and output categories, performance metrics, known limitations, and post-deployment monitoring and safeguards, including a deployer's oversight, use and learning process (section 552.103).",
+            "**Notice and cure:** the Attorney General must give written notice and may not sue before the 60th day, or at all if the person cures, documents the cure and changes internal policies within that period (section 552.104).",
+            "**Civil penalties:** $10,000 to $12,000 per curable violation or breach of a cure statement; $80,000 to $200,000 per uncurable violation; $2,000 to $40,000 per day for a continuing violation (section 552.105(a)).",
+            "**Licensing sanctions:** after a finding of violation and an Attorney General recommendation, a licensing agency may suspend or revoke a license and impose up to $100,000 (section 552.106).",
+            "**Not yet deployed:** no civil penalty action for a system that has not been deployed (section 552.105(f))."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Section 552.003 preempts local ordinances and rules regulating the use of AI systems, so Texas cities cannot add their own AI hiring rules on top."
+        }
+      ]
+    },
+    {
+      "id": "training-duty",
+      "heading": "Does TRAIGA require training, and what must staff understand?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No. TRAIGA contains no training or competence requirement for businesses. Section 554.102 directs the Texas Artificial Intelligence Council to conduct training programs for state agencies and local governments, and section 554.103 bars the Council from adopting binding rules or guidance."
+        },
+        {
+          "type": "p",
+          "text": "What staff need is the ability to produce the evidence a civil investigative demand asks for and to run the internal review that supports the defense. The list in section 552.103(b) is, in effect, a documentation specification."
+        },
+        {
+          "type": "table",
+          "caption": "What each group needs to understand for TRAIGA, with frequency and evidence (original mapping)",
+          "head": ["Role", "What they must understand", "Frequency", "Evidence to hold"],
+          "rows": [
+            ["HR technology and people analytics", "That configuring a tool to exclude a protected class is prohibited, and how to document the purpose, inputs, outputs and limitations of each AI tool", "At each new tool or material configuration change", "System description per tool, matching the section 552.103(b) headings"],
+            ["AI governance or risk owner", "How to run testing and an internal review aligned to the NIST Generative AI Profile or another recognized framework", "On a set review cycle, for example annually and at major releases", "Review reports, red-team or bias test results, framework mapping"],
+            ["Legal and compliance", "The 60 day cure process, including the written statement and policy changes section 552.104 requires", "When a notice is received; refresher annually", "Cure playbook, policy change log"],
+            ["Recruiters and managers using AI outputs", "How to escalate an output that looks discriminatory, which feeds the feedback route in section 552.105(e)(2)(A)", "At onboarding to the tool", "Escalation channel and log"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Because intent is the test, the most useful record is one that shows purpose and process: why a tool was chosen, what it was tested for, what was found and what changed. That is the same record that [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit) recommends for any regulator facing evidence."
+        }
+      ]
+    },
+    {
+      "id": "sandbox-and-biometrics",
+      "heading": "What else in HB 149 affects businesses?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Two further provisions are worth knowing. First, Chapter 553 creates a regulatory sandbox run by the Texas Department of Information Resources, in which an approved participant may test an AI system for up to 36 months with certain state laws waived; the Subchapter B prohibitions cannot be waived (section 553.051(e) and 553.053)."
+        },
+        {
+          "type": "p",
+          "text": "Second, HB 149 amended the Texas biometric identifier law in section 503.001. An image of a person online does not by itself amount to consent to capture their biometric identifiers unless the person made it public, and the law does not apply to training AI on biometric identifiers unless the system is used to uniquely identify a specific individual. If biometric identifiers collected for training are later used for another commercial purpose, the retention, destruction and penalty rules apply. Employers using face or voice data in workplace systems should brief privacy and security teams on that change."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry structures the section 552.103(b) headings as required documentation concepts for each AI system, linked to the people who own them and to the framework controls used for internal review. The same record then supports the TRAIGA defense and other jurisdictions' requirements without being rebuilt."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Must Texas employers tell candidates they use AI in hiring?",
+      "a": "Not under TRAIGA. The disclosure duty in section 552.051 applies to governmental agencies, and the Act's definition of consumer excludes people acting in an employment context. Other laws may still require notice, for example where the employer also hires in New York City, Colorado or California."
+    },
+    {
+      "q": "Is following the NIST AI RMF mandatory in Texas?",
+      "a": "No. The NIST framework is voluntary. TRAIGA makes substantial compliance with the most recent NIST Generative AI Profile, or another recognized framework, part of a defense where a violation is discovered through an internal review process. It is an incentive, not a requirement."
+    },
+    {
+      "q": "Can an employee sue an employer under TRAIGA?",
+      "a": "No. Section 552.101(b) states that the chapter does not provide a basis for, and is not subject to, a private right of action. Employees keep their existing rights under state and federal anti-discrimination law, which TRAIGA does not displace."
+    },
+    {
+      "q": "Does a biased outcome from a hiring algorithm violate TRAIGA?",
+      "a": "Not by itself. Section 552.056 requires intent to unlawfully discriminate, and subsection (c) states that disparate impact alone is not sufficient to demonstrate intent. A biased outcome can still breach federal or state employment law."
+    }
+  ],
+  "sources": [
+    {
+      "title": "H.B. No. 149, 89th Legislature, Regular Session: enrolled text (Texas Responsible Artificial Intelligence Governance Act)",
+      "publisher": "Texas Legislature Online",
+      "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.htm"
+    },
+    {
+      "title": "History for 89(R) HB 149",
+      "publisher": "Texas Legislature Online",
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    }
+  ],
+  "related": [
+    "nist-ai-rmf-ai-risk-training",
+    "colorado-ai-act-deployer-obligations",
+    "nyc-local-law-144-automated-employment-decision-tools",
+    "iso-iec-42001-competence-and-awareness",
+    "iso-42001-vs-nist-ai-rmf",
+    "how-to-prepare-training-records-for-an-audit"
+  ],
+  "productLinks": [
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" },
+    { "label": "Compliance programs", "href": "/programs/compliance" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "HB 149 Section 1: may be cited as the Texas Responsible Artificial Intelligence Governance Act; Section 10: takes effect January 1, 2026; Section 8: AG to post online complaint mechanism by September 1, 2026.",
+      "source": "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.htm"
+    },
+    {
+      "claim": "Bill history: Signed by the Governor 06/22/2025; Effective on 1/1/26.",
+      "source": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149"
+    },
+    {
+      "claim": "551.001 definitions (AI system; consumer excludes commercial or employment context); 551.002 applicability; 552.051 disclosure by governmental agency; 552.052, 552.053, 552.054, 552.055, 552.056 (intent to discriminate; disparate impact not sufficient; insurer and financial institution carve outs; protected class), 552.057; 552.003 local preemption.",
+      "source": "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.htm"
+    },
+    {
+      "claim": "552.101 AG exclusive authority, no private right of action; 552.103(b) CID contents; 552.104 notice and 60 day cure with written statement and policy changes; 552.105(a) penalties $10,000 to $12,000 curable, $80,000 to $200,000 uncurable, $2,000 to $40,000 per day continued; 552.105(c) rebuttable presumption of reasonable care; 552.105(e) defenses incl. substantial compliance with most recent NIST AI RMF Generative AI Profile or other recognized framework with internal review; 552.105(f) no penalty for undeployed systems; 552.106 agency sanctions up to $100,000.",
+      "source": "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.htm"
+    },
+    {
+      "claim": "553.051 sandbox (Subchapter B, Chapter 552 may not be waived); 553.053 testing up to 36 months; 554.102 Council conducts training programs for state agencies and local governments; 554.103 Council may not adopt binding rules or guidance; Section 2 amendments to 503.001 (publicly available images, AI training exemption unless used to uniquely identify, subsequent commercial use).",
+      "source": "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.htm"
+    },
+    {
+      "claim": "NIST AI 600-1, Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile, dated July 2024 (title page checked).",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    }
+  ]
+}

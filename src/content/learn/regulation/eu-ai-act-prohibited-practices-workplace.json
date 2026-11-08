@@ -1,0 +1,274 @@
+{
+  "slug": "eu-ai-act-prohibited-practices-workplace",
+  "kind": "regulation",
+  "title": "Which AI uses are banned in the workplace under the EU AI Act, and what must staff know?",
+  "seoTitle": "EU AI Act banned AI in the workplace",
+  "description": "The EU AI Act has banned emotion recognition at work and other AI practices since February 2025: what counts, the exceptions, fines and what staff must know.",
+  "shortAnswer": "Article 5(1)(f) of the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) bans placing on the market, putting into service or using AI systems to infer the emotions of a person in the workplace, unless intended for medical or safety reasons. It has applied since February 2, 2025, alongside bans on manipulative AI, social scoring and sensitive biometric categorization. Breaches can cost up to EUR 35 million or 7% of worldwide turnover.",
+  "keyTakeaways": [
+    "The Article 5 prohibitions have applied since February 2, 2025, and the penalty provisions since August 2, 2025. They bind employers as deployers, not only vendors.",
+    "The workplace ban covers AI that identifies or infers emotions or intentions from biometric data such as faces, voices, keystrokes or body movements. The European Commission reads \"workplace\" to include job candidates during recruitment.",
+    "The medical and safety exception is narrow: the Commission says it does not cover general stress monitoring or tools to detect burnout or depression.",
+    "Article 5 contains no training duty. Article 4 AI literacy, which applies on the same date, is the vehicle for making sure staff can recognize a prohibited tool before it is bought or switched on.",
+    "Fines for prohibited practices reach EUR 35,000,000 or 7% of total worldwide annual turnover, whichever is higher (Article 99(3))."
+  ],
+  "jurisdiction": "European Union",
+  "regulator": "National market surveillance authorities in each EU Member State, with the European Commission AI Office and the European Artificial Intelligence Board; data protection authorities for related GDPR issues",
+  "appliesTo": [
+    "Employers and other organizations in the EU that use AI systems in relation to their workers, contractors, trainees, volunteers or job candidates (deployers)",
+    "Providers placing such systems on the EU market",
+    "HR, IT procurement, security, facilities and line management staff who select or operate workplace technology"
+  ],
+  "sections": [
+    {
+      "id": "emotion-recognition-ban",
+      "heading": "What does Article 5(1)(f) prohibit?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Article 5(1)(f) prohibits AI that infers people's emotions in the workplace and in education institutions, and as at November 2026 it has applied for almost two years. The text of the [Artificial Intelligence Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) reads:"
+        },
+        {
+          "type": "callout",
+          "title": "Article 5(1)(f), Regulation (EU) 2024/1689",
+          "text": "\"the placing on the market, the putting into service for this specific purpose, or the use of AI systems to infer emotions of a natural person in the areas of workplace and education institutions, except where the use of the AI system is intended to be put in place or into the market for medical or safety reasons\""
+        },
+        {
+          "type": "p",
+          "text": "Recital 44 gives the reasons: serious concerns about the scientific basis of emotion inference, with limited reliability, lack of specificity and limited generalizability, combined with \"the imbalance of power in the context of work or education\". The Commission's [Guidelines on prohibited AI practices](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-prohibited-artificial-intelligence-ai-practices-defined-ai-act), first approved on February 4, 2025 and issued as Communication C(2025) 5052 dated July 29, 2025, set out four cumulative conditions: the system is placed on the market, put into service or used; it infers emotions; it does so in the workplace or an education institution; and it is not intended for medical or safety reasons."
+        },
+        {
+          "type": "p",
+          "text": "The guidelines are not binding. The Commission states that authoritative interpretation is reserved for the Court of Justice of the European Union, but national authorities are likely to start from them."
+        }
+      ]
+    },
+    {
+      "id": "what-counts",
+      "heading": "What counts as inferring emotions?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The ban covers AI that identifies or infers emotions or intentions from biometric data. The Commission ties the prohibition to the Article 3(39) definition of an emotion recognition system, so inferences from written text alone are outside it, while inferences from faces, voices, gestures, keystrokes or physiological signals are inside it."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Emotions are read widely.** The guidelines list happiness, sadness, anger, surprise, disgust, embarrassment, excitement, shame, contempt, satisfaction and amusement as non-exhaustive examples, and say the ban cannot be avoided by calling the output an \"attitude\".",
+            "**Physical states are not emotions.** Recital 18 excludes pain and fatigue, so detecting a driver's or pilot's fatigue to prevent accidents is not emotion recognition.",
+            "**Readily apparent expressions are not emotions.** Detecting that a person is smiling is not emotion recognition. Concluding from a frown or lack of a smile that an employee is unhappy or angry with customers is.",
+            "**Biometric basis is required.** Sentiment analysis of written text is not covered; inferring emotion from the way someone types is."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "\"Workplace\" is read broadly too. The guidelines describe any physical or virtual space where people carry out tasks assigned by their employer or organization, from offices and warehouses to shops, vehicles and temporary sites, regardless of whether the person is an employee, contractor, trainee or volunteer. They also apply the ban to candidates during selection and hiring, because the imbalance of power already exists at that stage."
+        }
+      ]
+    },
+    {
+      "id": "workplace-scenarios",
+      "heading": "Which common workplace tools are banned and which are not?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most tools fall clearly on one side once the four conditions are applied. The table uses the Commission's own examples where they exist and maps each to the staff who most need to recognize it (original mapping)."
+        },
+        {
+          "type": "table",
+          "caption": "Workplace AI scenarios under Article 5(1)(f), based on the Commission guidelines",
+          "head": ["Scenario", "Position under Article 5", "Why", "Who must be able to spot it"],
+          "rows": [
+            ["Call center software using webcams and voice analysis to track agents' anger", "Prohibited", "Infers employees' emotions from biometric data at work (Commission example)", "Contact center managers, workforce management, IT procurement"],
+            ["The same call center software analyzing customers' voices for anger or impatience", "Not prohibited by Article 5(1)(f)", "The people analyzed are customers, not workers; transparency duties under Article 50(3) still apply", "Contact center managers, data protection officer"],
+            ["Emotion scoring of candidates in recorded video interviews", "Prohibited", "The Commission states that using emotion recognition during recruitment is prohibited", "Talent acquisition, HR systems owners, recruitment vendors' account managers"],
+            ["Monitoring the emotional tone of hybrid team video calls", "Prohibited", "Infers emotions from voice and imagery of workers (Commission example)", "Line managers, collaboration platform administrators"],
+            ["Emotion feedback used only for an employee's own training, never shared with HR", "Allowed in narrow conditions", "Commission: allowed only if results are not shared with HR and cannot affect assessment or promotion, and the ban is not circumvented", "Learning and development, HR"],
+            ["Driver fatigue detection that alerts drivers to take breaks", "Not emotion recognition", "Fatigue is a physical state, not an emotion (Recital 18)", "Fleet and safety managers"],
+            ["Wellbeing tool that infers stress or burnout from voice or facial data", "Prohibited", "The medical and safety exception does not cover general stress monitoring or burnout detection", "HR wellbeing leads, occupational health"],
+            ["Supermarket cameras inferring employees' happiness", "Prohibited", "Commission example", "Store operations, security, facilities"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Emotion recognition that is not prohibited, for example on customers, is classed as high-risk under point 1(c) of Annex III and carries a transparency duty: Article 50(3) requires deployers of emotion recognition and biometric categorization systems to inform the people exposed to them."
+        }
+      ]
+    },
+    {
+      "id": "medical-safety-exception",
+      "heading": "How narrow is the medical and safety exception?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Very narrow. The Commission says the exception should be interpreted restrictively, that therapeutic uses should be understood as uses of CE marked medical devices, and that \"safety\" means protection of life and health only, not protection of property against theft or fraud."
+        },
+        {
+          "type": "p",
+          "text": "The guidelines state that the general monitoring of stress levels at the workplace is not permitted under health or safety reasons, and that an AI system intended to detect burnout or depression at the workplace would remain prohibited. Any use that does qualify should be limited to what is strictly necessary and proportionate, with safeguards such as a prior written expert opinion on the specific use case. This is the point at which occupational health teams and wellbeing vendors are most likely to misjudge a product."
+        }
+      ]
+    },
+    {
+      "id": "other-prohibitions",
+      "heading": "Which other Article 5 prohibitions matter at work?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Several other bans can be triggered by workplace technology, even though they are not written specifically for employment."
+        },
+        {
+          "type": "table",
+          "caption": "Article 5 prohibitions with workplace relevance",
+          "head": ["Provision", "What is banned", "Workplace example to watch for", "Applies from"],
+          "rows": [
+            ["Article 5(1)(a)", "AI deploying subliminal, purposefully manipulative or deceptive techniques that materially distort behavior and cause or are likely to cause significant harm", "Engagement or productivity nudging designed to push workers into decisions against their interests", "February 2, 2025"],
+            ["Article 5(1)(b)", "AI exploiting vulnerabilities due to age, disability or a specific social or economic situation, causing significant harm", "Systems targeting workers in precarious economic situations", "February 2, 2025"],
+            ["Article 5(1)(c)", "Social scoring based on social behavior or personal characteristics leading to detrimental treatment in unrelated contexts or disproportionate treatment", "Scoring workers on off-duty social media behavior to set shifts or pay", "February 2, 2025"],
+            ["Article 5(1)(g)", "Biometric categorization of individuals to deduce or infer race, political opinions, trade union membership, religious or philosophical beliefs, sex life or sexual orientation", "Video analytics that infer trade union sympathy or religion from images", "February 2, 2025"],
+            ["Article 5(1)(ba), added by Regulation (EU) 2026/1744", "AI generating or manipulating realistic intimate or sexually explicit images, video or audio of an identifiable person without explicit consent", "Use of such tools by staff against colleagues, relevant to harassment policies", "December 2, 2026"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The new point (ba) was inserted by the Digital Omnibus on AI, [Regulation (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj), and applies from December 2, 2026 under the amended Article 113. For deployers it bites only where the deployer uses the system for the purpose of generating such material (new Article 5(1a)(b)). Employers should still reflect it in acceptable use and anti-harassment policies; see [how to write an AI acceptable use policy](/guides/how-to-write-an-ai-acceptable-use-policy)."
+        }
+      ]
+    },
+    {
+      "id": "training-duty",
+      "heading": "Does Article 5 require staff training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No. Article 5 is a prohibition, not a process obligation, and it contains no training requirement. The training duty that applies at the same time is Article 4, which since February 2, 2025 requires providers and deployers to take measures supporting the AI literacy of staff and others using AI on their behalf; see the [EU AI Act AI literacy page](/regulations/eu-ai-act-ai-literacy)."
+        },
+        {
+          "type": "p",
+          "text": "In practice, the prohibition is only as good as the ability of the people who buy and configure technology to recognize it. Emotion inference often arrives as a feature inside a broader product (an interview platform, a contact center suite, a wellbeing app) rather than as a product labeled \"emotion recognition\". The learning outcomes that matter are therefore recognition and escalation, not legal recall."
+        },
+        {
+          "type": "table",
+          "caption": "What each group needs to understand to comply with Article 5 (illustrative learning outcomes and evidence)",
+          "head": ["Role", "What they must be able to do", "Suggested frequency", "Evidence an authority would expect"],
+          "rows": [
+            ["IT and HR procurement", "Ask vendors whether any feature infers emotions or intentions from biometric data, and stop the purchase if it does without a documented medical or safety basis", "At onboarding to the role and at each major vendor review", "Vendor questionnaire with an Article 5 question, scenario assessment result"],
+            ["HR systems owners and talent acquisition", "Identify emotion or personality scoring in interview and assessment tools and confirm it is switched off for EU candidates", "Before go live and at each product release", "Configuration record, sign off per release"],
+            ["Line managers and contact center leaders", "Recognize that team mood or agent emotion dashboards are prohibited and escalate", "Annual, as part of AI literacy", "Short scenario quiz, escalation log"],
+            ["Occupational health and wellbeing", "Apply the narrow medical and safety exception and seek expert opinion before any use", "Before any wellbeing technology pilot", "Written expert opinion, proportionality assessment"],
+            ["All staff", "Know that generating intimate deepfakes of colleagues is banned and a disciplinary matter", "At induction and policy refresh", "Policy attestation"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A [policy attestation](/glossary/policy-attestation) alone shows that people were told; a scenario assessment shows they can apply the rule. The approach in [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations) keeps each row traceable to Article 5."
+        }
+      ]
+    },
+    {
+      "id": "penalties-enforcement",
+      "heading": "Who enforces the prohibitions and what are the penalties?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "National market surveillance authorities enforce Article 5, and the fines are the highest in the Act. Non-compliance with the prohibition of the AI practices in Article 5 is subject to administrative fines of up to EUR 35,000,000 or, for an undertaking, up to 7% of total worldwide annual turnover for the preceding financial year, whichever is higher (Article 99(3)). Chapter XII on penalties has applied since August 2, 2025 under Article 113."
+        },
+        {
+          "type": "p",
+          "text": "Data protection law applies in parallel. The guidelines note that the AI Act's definition of biometric data is broader than the GDPR's, and that processing biometric data at work still needs a lawful basis and, for special category data, a condition under Article 9 GDPR. See [GDPR staff training requirements](/regulations/gdpr-staff-training-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry represents each Article 5 prohibition as a set of recognition concepts, such as biometric basis, workplace context and the medical or safety exception, linked to the roles that buy and run workplace technology. Assessment points test whether a person can classify a realistic product description, so the evidence shows judgment rather than attendance."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is analyzing employee survey comments for sentiment banned?",
+      "a": "Not under Article 5(1)(f). The Commission's guidelines say AI inferring emotions from written text is not based on biometric data and falls outside the prohibition. Other rules may still apply, such as GDPR transparency and, if the analysis feeds decisions about individuals, the high-risk rules for employment AI."
+    },
+    {
+      "q": "Does the ban apply to job applicants who are not yet employees?",
+      "a": "The Commission's guidelines say yes. They state that the notion of workplace should also be understood to apply to candidates during the selection and hiring process, and that using emotion recognition during recruitment is prohibited. The same applies during a probationary period."
+    },
+    {
+      "q": "Our vendor is outside the EU. Are we still responsible?",
+      "a": "Yes. Article 5 prohibits the use of the AI system as well as placing it on the market, so the employer using it in the EU is in breach even if the provider is established elsewhere. Contracts should require the vendor to disclose and disable any emotion inference features for EU users."
+    },
+    {
+      "q": "Can we use emotion recognition for safety in hazardous work?",
+      "a": "Only within the narrow exception. Safety means protecting life and health, and the Commission expects use to be strictly necessary, proportionate and limited in time, people and scale, with safeguards such as an expert opinion. Fatigue detection is not emotion recognition at all, so it does not need the exception."
+    },
+    {
+      "q": "Did the Digital Omnibus soften the workplace emotion recognition ban?",
+      "a": "No. Regulation (EU) 2026/1744 did not amend Article 5(1)(f). It added new prohibitions on non-consensual intimate deepfakes and AI generated child sexual abuse material, which apply from December 2, 2026."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "title": "Regulation (EU) 2026/1744 amending Regulation (EU) 2024/1689 (Digital Omnibus on AI)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    },
+    {
+      "title": "Commission publishes the Guidelines on prohibited artificial intelligence (AI) practices, as defined by the AI Act",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-prohibited-artificial-intelligence-ai-practices-defined-ai-act"
+    },
+    {
+      "title": "Commission Guidelines on prohibited artificial intelligence practices established by Regulation (EU) 2024/1689 (AI Act), C(2025) 5052 final",
+      "publisher": "European Commission",
+      "url": "https://ec.europa.eu/newsroom/dae/redirection/document/112367"
+    }
+  ],
+  "related": [
+    "eu-ai-act-ai-literacy",
+    "eu-ai-act-high-risk-ai-in-employment",
+    "gdpr-staff-training-requirements",
+    "policy-attestation",
+    "how-to-write-an-ai-acceptable-use-policy",
+    "ai-literacy-and-ai-governance-training-by-country"
+  ],
+  "productLinks": [
+    { "label": "Compliance programs", "href": "/programs/compliance" },
+    { "label": "Verification and trust", "href": "/platform/verification-trust" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "Article 5(1)(f) verbatim text as quoted; Article 5(1)(a), (b), (c) and (g) content as summarized; Article 3(39) emotion recognition system definition; Recital 44 reasons (limited reliability, lack of specificity, limited generalisability, imbalance of power in work or education).",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "claim": "Article 99(3): Article 5 breaches up to EUR 35 000 000 or up to 7% of total worldwide annual turnover, whichever is higher. Article 113(a) Chapters I and II from 2 February 2025; 113(b) Chapter XII from 2 August 2025. Article 50(3): deployers of emotion recognition or biometric categorisation systems inform persons exposed.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "claim": "Regulation (EU) 2026/1744 inserts Article 5(1)(ba) (non-consensual intimate or sexually explicit material of identifiable persons) and (bb) (material within Directive 2011/93/EU), and 5(1a)(b): use prohibited only where the deployer uses the system for the purpose of generating such material; amended Article 113(3)(a): these apply from 2 December 2026. Article 5(1)(f) not amended.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    },
+    {
+      "claim": "Commission page: guidelines published 4 February 2025; non-binding, authoritative interpretation reserved for the CJEU.",
+      "source": "https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-prohibited-artificial-intelligence-ai-practices-defined-ai-act"
+    },
+    {
+      "claim": "Guidelines C(2025) 5052 final dated 29.7.2025, section 7: four cumulative conditions; emotion list from Recital 18; attitudes covered; fatigue and pain excluded; smiling observation not emotion recognition; text sentiment outside scope, keystrokes inside; workplace interpreted broadly incl. contractors, trainees, volunteers and candidates during selection; examples: call centre tracking employees' anger prohibited, customers' anger not prohibited, hybrid team call tone prohibited, recruitment and probation use prohibited, supermarket employee happiness prohibited, personal training use allowed if not shared with HR; exception narrow, therapeutic uses means CE-marked medical devices, stress monitoring and burnout or depression detection not covered, safety means life and health only; expert opinion as safeguard; non-prohibited emotion recognition is high-risk under Annex III point 1(c).",
+      "source": "https://ec.europa.eu/newsroom/dae/redirection/document/112367"
+    }
+  ]
+}

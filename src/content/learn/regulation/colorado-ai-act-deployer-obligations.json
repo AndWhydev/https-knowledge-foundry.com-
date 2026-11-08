@@ -1,0 +1,272 @@
+{
+  "slug": "colorado-ai-act-deployer-obligations",
+  "kind": "regulation",
+  "title": "What must employers and other deployers do under Colorado's AI Act, now that it has been rewritten?",
+  "seoTitle": "Colorado AI Act deployer obligations",
+  "description": "Colorado replaced SB 24-205 before enforcement with SB 26-189, effective January 1, 2027. What deployers of AI in hiring must do, and which duties fell away.",
+  "shortAnswer": "Colorado's AI Act (SB 24-205) never became enforceable. Senate Bill 26-189, signed May 14, 2026, repealed and reenacted it as an automated decision-making technology law that takes effect January 1, 2027. Deployers using such technology to materially influence consequential decisions, including employment, must give notice, explain adverse outcomes within 30 days, offer correction and meaningful human review, and keep records for three years. The risk management program and impact assessment duties were dropped.",
+  "keyTakeaways": [
+    "SB 24-205's deployer duties were first due February 1, 2026, then delayed to June 30, 2026 by SB 25B-004. A federal court order of April 27, 2026 barred the Attorney General from enforcing it, and SB 26-189 replaced it before any enforcement.",
+    "SB 26-189 takes effect January 1, 2027 and applies to consequential decisions made on or after that date. Employees and Colorado resident job applicants are expressly covered as consumers.",
+    "Deployer duties under the new law are notice before use, a plain language explanation within 30 days of an adverse outcome, correction of inaccurate data, meaningful human review where commercially reasonable, and three years of records.",
+    "The only training language is in the definition of meaningful human review: the reviewer must be \"trained to conduct the review\", have authority to change the decision and not default to the system output.",
+    "The Attorney General enforces the law as a deceptive trade practice under the Colorado Consumer Protection Act, with a 60 day cure period until January 1, 2030. Rules are due by January 1, 2027 and were at hearing stage in October 2026."
+  ],
+  "jurisdiction": "United States (Colorado)",
+  "regulator": "Colorado Attorney General (Colorado Department of Law)",
+  "appliesTo": [
+    "Deployers: persons doing business in Colorado that use automated decision-making technology to materially influence a consequential decision, including employers and staffing firms",
+    "Developers of covered automated decision-making technology made available to deployers",
+    "Consumers, defined to include employees, Colorado resident job applicants and individuals evaluated in Colorado"
+  ],
+  "sections": [
+    {
+      "id": "status",
+      "heading": "What is the status of the Colorado AI Act as at November 2026?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "As at November 2026, the original Colorado AI Act is not in force in any enforceable form, and its replacement takes effect on January 1, 2027. The sequence, taken from the Colorado General Assembly's bill records and the Legislative Council Staff fiscal note, is below."
+        },
+        {
+          "type": "table",
+          "caption": "How Colorado's AI law changed between 2024 and 2026",
+          "head": ["Date", "Event", "Source"],
+          "rows": [
+            ["May 17, 2024", "SB 24-205 becomes law, with developer and deployer duties for high-risk AI systems from February 1, 2026", "[SB 24-205 bill page](https://leg.colorado.gov/bills/sb24-205)"],
+            ["November 25, 2025", "SB 25B-004, passed in the August 2025 special session, takes effect and moves those duties to June 30, 2026", "[SB 25B-004 bill page](https://leg.colorado.gov/bills/sb25b-004)"],
+            ["April 27, 2026", "A US District Court orders the Attorney General not to enforce SB 24-205 or amending legislation until rulemaking is complete and the court rules in X.AI LLC v. Weiser", "SB 26-189 final fiscal note"],
+            ["May 14, 2026", "Governor signs SB 26-189, which repeals and reenacts part 17 of article 1 of title 6, Colorado Revised Statutes", "[SB 26-189 bill page](https://leg.colorado.gov/bills/sb26-189)"],
+            ["August 11 to October 26, 2026", "Attorney General files proposed rules, releases an interim draft on October 6 and holds the formal rulemaking hearing on October 26", "[Attorney General rulemaking page](https://coag.gov/ai/)"],
+            ["January 1, 2027", "SB 26-189 takes effect; rules on adverse outcome disclosures and consumer rights are due by this date", "SB 26-189, sections 1 and 5"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Readers who prepared for SB 24-205 should treat their work as reusable but not required. The federal litigation named in the fiscal note concerned SB 24-205 \"or any legislation amending\" it, so the position of the reenacted law in that case is a point to watch with counsel."
+        }
+      ]
+    },
+    {
+      "id": "what-changed",
+      "heading": "What happened to the risk management program and impact assessments?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They are gone. SB 24-205 would have required deployers of high-risk AI systems to implement a risk management policy and program, complete impact assessments, review each deployment annually for algorithmic discrimination, publish a statement and report discovered discrimination to the Attorney General within 90 days. SB 26-189 contains none of those duties. It replaces the duty of reasonable care against algorithmic discrimination with a transparency and consumer rights model."
+        },
+        {
+          "type": "table",
+          "caption": "SB 24-205 deployer duties compared with SB 26-189 (original comparison)",
+          "head": ["SB 24-205 deployer duty (never enforced)", "Position under SB 26-189 (from January 1, 2027)"],
+          "rows": [
+            ["Duty of reasonable care to protect consumers from algorithmic discrimination", "Removed. Existing anti-discrimination law still applies, and section 6-1-1707 allocates fault between developers and deployers in discrimination claims"],
+            ["Risk management policy and program, with a rebuttable presumption for following a recognized framework", "Removed"],
+            ["Impact assessment of each high-risk system, and annual review", "Removed"],
+            ["Public statement of high-risk systems deployed", "Replaced by a point of interaction notice, which may be met by a prominent public notice (section 6-1-1704(1) and (2))"],
+            ["Notice to consumer when a high-risk system is a substantial factor in a consequential decision", "Kept in modified form: notice before using covered technology to materially influence a consequential decision"],
+            ["Opportunity to correct personal data and to appeal via human review if technically feasible", "Kept: correction, and meaningful human review and reconsideration to the extent commercially reasonable (section 6-1-1705)"],
+            ["Report discovered algorithmic discrimination to the Attorney General within 90 days", "Removed"],
+            ["No record retention period stated in the summary", "Records reasonably necessary to show compliance kept for at least three years after each decision (section 6-1-1703)"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Organizations that already built an AI risk program on the [NIST AI Risk Management Framework](/regulations/nist-ai-rmf-ai-risk-training) or [ISO/IEC 42001](/regulations/iso-iec-42001-competence-and-awareness) to meet SB 24-205 can keep it as governance good practice and as evidence for other jurisdictions, but Colorado no longer requires it."
+        }
+      ]
+    },
+    {
+      "id": "scope",
+      "heading": "Which employment uses does SB 26-189 cover?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The law covers automated decision-making technology (ADMT) used to materially influence a consequential decision in a covered domain, and employment is a covered domain. ADMT means technology that processes personal data and uses computation to generate output, such as predictions, recommendations, classifications, rankings or scores, used to make, guide or assist a decision about an individual."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Covered domain:** employment or an employment opportunity that creates or may create an employer-employee relationship (section 6-1-1701(6)(b)), alongside education, housing, financial services, insurance, health care and government services.",
+            "**Consumer:** includes an employee, a job applicant who is a Colorado resident, and any individual whose access, eligibility or opportunity in Colorado is evaluated by a person doing business in Colorado (section 6-1-1701(4)(b)).",
+            "**Materially influence:** the output is a non-de minimis factor used in the decision and affects its outcome, including by constraining, ranking, scoring, recommending or classifying. Incidental, trivial or clerical uses are excluded.",
+            "**Not consequential:** routine scheduling, administrative routing, workflow management, advertising and tools that only summarize or organize information for human review without producing a score, ranking or recommendation that materially influences the outcome."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "In HR terms, a resume ranking tool, an assessment that scores candidates, or a model that recommends who to promote or dismiss is likely in scope. A tool that drafts interview notes for a recruiter to read is likely out of scope, unless it also produces a recommendation that shapes the outcome. The Attorney General may adopt rules clarifying \"materially influence\" with presumptions and examples (section 6-1-1706(5)(b))."
+        }
+      ]
+    },
+    {
+      "id": "deployer-duties",
+      "heading": "What must a deployer do from January 1, 2027?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A deployer has four core duties: notice before use, an explanation after an adverse outcome, consumer rights to correction and human review, and record keeping. The table maps each to the HR role that owns it and the evidence to keep."
+        },
+        {
+          "type": "table",
+          "caption": "SB 26-189 deployer duties mapped to role, timing and evidence (original mapping)",
+          "head": ["Duty and section", "Owner in an employer", "Timing", "Evidence to retain"],
+          "rows": [
+            ["Clear and conspicuous notice that covered ADMT is or will be used in a consequential decision, with instructions for getting more information (6-1-1704(1)); may be met by a prominent public notice near the point of interaction (6-1-1704(2))", "Talent acquisition, careers site owner", "Before the technology materially influences a decision", "Dated notice text and placement on careers pages and application flows"],
+            ["Within 30 days of an adverse outcome: plain language description of the decision and the role the ADMT played; how to request details including tool name, version, developer and personal data categories; explanation of rights (6-1-1704(3))", "Recruiting operations, HR operations", "Within 30 days after each adverse decision", "Disclosure templates, send log with dates"],
+            ["On request after an adverse outcome: instructions to correct factually incorrect or materially inaccurate personal data (6-1-1705(1)(a)(i))", "HR operations, privacy team", "On request", "Request and correction log"],
+            ["On request after an adverse outcome: meaningful human review and reconsideration, to the extent commercially reasonable (6-1-1705(1)(a)(ii))", "Designated reviewers with authority to change decisions", "On request", "Reviewer designation, training record, review outcome"],
+            ["Keep records reasonably necessary to show compliance, such as ADMT version identifiers and changelogs, for at least three years after each decision (6-1-1703)", "HR technology owner", "Ongoing", "Version history, vendor documentation, notices and disclosures"],
+            ["Make notices and disclosures accessible to consumers with disabilities and limited English proficiency (6-1-1704(8))", "Careers site owner, HR operations", "At design of each notice", "Accessibility review, translated versions"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Developers must give deployers documentation of intended and known harmful uses, training data categories, known limitations, and instructions for appropriate use, monitoring and meaningful human review (section 6-1-1702). An employer should require that documentation in procurement, because the 30 day adverse outcome disclosure depends on it."
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "heading": "Does the Colorado law require training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Only indirectly, through the definition of meaningful human review. Section 6-1-1701(15) defines it as review by an individual designated by the deployer who has authority to approve, modify or override the decision and who:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "considers relevant, available primary evidence;",
+            "**is trained to conduct the review;**",
+            "does not default to the system output; and",
+            "has access to enough information to understand the output's intended use, material limitations and categories of inputs, and the principal factors used to generate it."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "If a candidate asks for human review of a rejection and the reviewer is untrained or simply confirms the score, the review is not \"meaningful\" under the statute. The training content follows from the definition: how the tool works and fails, how to weigh primary evidence such as the application itself against the score, how to record a reasoned decision, and how automation bias shows up in practice. See [human in the loop](/glossary/human-in-the-loop) for the underlying control concept."
+        },
+        {
+          "type": "p",
+          "text": "Other staff need awareness rather than formal training: recruiters must know that notice has to be in place before a scoring tool is switched on, and HR operations must know the 30 day clock starts at the adverse decision. A short [role based training](/glossary/role-based-training) module per group, with the reviewer group assessed, is proportionate."
+        }
+      ]
+    },
+    {
+      "id": "enforcement",
+      "heading": "How will the law be enforced, and what are the penalties?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Attorney General has exclusive enforcement authority, and a violation is a deceptive trade practice under the Colorado Consumer Protection Act (section 6-1-1706). The law creates no new private right of action and preserves existing rights under the Colorado Anti-Discrimination Act and other law."
+        },
+        {
+          "type": "p",
+          "text": "Before bringing an action, the Attorney General must issue a notice of violation where a cure is possible, and may sue only if the violation is not cured within 60 days; the cure period does not apply to knowing or repeated violations and is repealed on January 1, 2030. The fiscal note states that a deceptive trade practice may attract a civil penalty of up to $20,000 per violation. From January 2028 the Attorney General must report annually to the legislature on enforcement actions and cure periods."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry treats the statutory definition of meaningful human review as a competence specification: each of its four elements becomes an assessment point for designated reviewers, linked to the specific hiring or HR tool they review. Notices, disclosures and reviewer records can then be produced by tool and by decision date."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Did the Colorado AI Act take effect on June 30, 2026?",
+      "a": "Its duties were scheduled for June 30, 2026 after SB 25B-004, but a federal court had ordered on April 27, 2026 that the Attorney General not enforce it pending rulemaking and a ruling in X.AI LLC v. Weiser, and SB 26-189 had already been signed on May 14, 2026 to repeal and reenact it from January 1, 2027."
+    },
+    {
+      "q": "Do small employers have an exemption?",
+      "a": "The signed text of SB 26-189 contains no exemption based on headcount or revenue. It limits scope through the definitions instead: only technology that materially influences a consequential decision is covered, and routine, clerical and summarizing uses are excluded. The Attorney General rules due by January 1, 2027 may add clarification on scope."
+    },
+    {
+      "q": "Are out of state employers covered when hiring Colorado residents?",
+      "a": "The law applies to persons doing business in Colorado, and a consumer includes a job applicant who is a Colorado resident and any individual whose opportunity in Colorado is evaluated. A national employer recruiting for Colorado roles or Colorado residents should assume it is covered."
+    },
+    {
+      "q": "Do we need to complete an impact assessment for a hiring tool?",
+      "a": "Not under Colorado law from January 1, 2027. Impact assessments were an SB 24-205 duty that SB 26-189 removed. Other regimes may still require one, such as risk assessments under California's CCPA regulations for automated decisionmaking technology used in significant decisions."
+    }
+  ],
+  "sources": [
+    {
+      "title": "SB26-189 Automated Decision-Making Technology: bill summary, history and signed act",
+      "publisher": "Colorado General Assembly",
+      "url": "https://leg.colorado.gov/bills/sb26-189"
+    },
+    {
+      "title": "Senate Bill 26-189, signed act",
+      "publisher": "Colorado General Assembly",
+      "url": "https://leg.colorado.gov/bill_files/116489/download"
+    },
+    {
+      "title": "SB 26-189 Final Fiscal Note (September 8, 2026)",
+      "publisher": "Colorado Legislative Council Staff",
+      "url": "https://leg.colorado.gov/bill_files/117715/download"
+    },
+    {
+      "title": "SB24-205 Consumer Protections for Artificial Intelligence",
+      "publisher": "Colorado General Assembly",
+      "url": "https://leg.colorado.gov/bills/sb24-205"
+    },
+    {
+      "title": "SB25B-004 Increase Transparency for Algorithmic Systems",
+      "publisher": "Colorado General Assembly",
+      "url": "https://leg.colorado.gov/bills/sb25b-004"
+    },
+    {
+      "title": "Colorado Automated Decision-Making Technology and Chatbot Safety Rulemaking",
+      "publisher": "Colorado Attorney General",
+      "url": "https://coag.gov/ai/"
+    }
+  ],
+  "related": [
+    "nyc-local-law-144-automated-employment-decision-tools",
+    "california-admt-regulations-for-employers",
+    "texas-responsible-ai-governance-act",
+    "nist-ai-rmf-ai-risk-training",
+    "human-in-the-loop",
+    "how-to-map-training-to-compliance-obligations"
+  ],
+  "productLinks": [
+    { "label": "Compliance programs", "href": "/programs/compliance" },
+    { "label": "Knowledge governance", "href": "/platform/knowledge-governance" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "SB 24-205 bill page: effective May 17, 2024; deployer duties on and after February 1, 2026 including risk management policy and program, impact assessment, annual review, consumer notice, correction, appeal via human review if technically feasible, public statement, and 90 day disclosure of algorithmic discrimination to the attorney general.",
+      "source": "https://leg.colorado.gov/bills/sb24-205"
+    },
+    {
+      "claim": "SB 25B-004 bill page: extends the effective date of SB 24-205 requirements to June 30, 2026; effective November 25, 2025; became law.",
+      "source": "https://leg.colorado.gov/bills/sb25b-004"
+    },
+    {
+      "claim": "SB 26-189 bill page: repeals and reenacts SB 24-205 provisions; Governor signed 05/14/2026; session law chapter 131; summary of developer documentation, 3-year records, point of interaction notice, 30-day adverse outcome description, correction and human review rights, AG enforcement as deceptive trade practice, 60-day cure before January 1, 2030, no private right of action.",
+      "source": "https://leg.colorado.gov/bills/sb26-189"
+    },
+    {
+      "claim": "Signed act text: 6-1-1701(4)(b) consumer includes employee and Colorado resident job applicant; (6)(b) employment covered domain; (13) materially influence; (15) meaningful human review incl. 'is trained to conduct the review'; 6-1-1702 developer documentation; 6-1-1703 deployer records at least three years; 6-1-1704(1)-(3), (8) notices and 30-day post-adverse disclosures; 6-1-1705 correction and meaningful human review to the extent commercially reasonable, rules by January 1, 2027; 6-1-1706 AG exclusive enforcement, deceptive trade practice, 60-day cure, no cure for knowing or repeated violations, cure subsection repealed January 1, 2030, January 2028 reporting; Section 5: act takes effect January 1, 2027 and applies to consequential decisions made on or after that date. No 'risk management' or 'impact assessment' text in the act.",
+      "source": "https://leg.colorado.gov/bill_files/116489/download"
+    },
+    {
+      "claim": "Final fiscal note (September 8, 2026): implementation of SB 24-205 delayed until June 2026 in the August 2025 special session; on April 27, 2026 the Attorney General was ordered by U.S. District Court not to initiate enforcement of SB 24-205 or any legislation amending SB 24-205 until rulemaking is completed and the court rules on X. AI LLC v. Weiser; civil penalty up to $20,000 per violation under the Colorado Consumer Protection Act.",
+      "source": "https://leg.colorado.gov/bill_files/117715/download"
+    },
+    {
+      "claim": "Attorney General page: SB 26-189 signed May 2026, effective January 1, 2027; proposed ADMT and Chatbot Safety rules filed August 11, 2026; interim draft October 6, 2026; regulatory analysis October 21, 2026; formal rulemaking hearing October 26, 2026.",
+      "source": "https://coag.gov/ai/"
+    }
+  ]
+}

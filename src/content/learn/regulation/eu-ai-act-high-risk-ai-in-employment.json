@@ -1,0 +1,283 @@
+{
+  "slug": "eu-ai-act-high-risk-ai-in-employment",
+  "kind": "regulation",
+  "title": "What does the EU AI Act require of employers that use AI for recruitment or managing workers?",
+  "seoTitle": "EU AI Act high-risk AI in employment",
+  "description": "Which recruitment and worker management AI is high-risk under Annex III point 4 of the EU AI Act, what employers must do, and dates after the Digital Omnibus.",
+  "shortAnswer": "Under Annex III point 4 of the EU Artificial Intelligence Act (Regulation (EU) 2024/1689), AI used to recruit or select people, or to decide on promotion, termination, task allocation or performance monitoring, is high-risk. Employers using it are deployers with duties under Article 26, including trained human oversight and informing workers. As at November 2026 those duties are not yet applicable: the Digital Omnibus moved them to December 2, 2027.",
+  "keyTakeaways": [
+    "Annex III point 4 covers two groups of systems: recruitment and selection (job ad targeting, filtering applications, evaluating candidates) and decisions in the employment relationship (terms, promotion, termination, task allocation, monitoring and evaluation).",
+    "Regulation (EU) 2026/1744 (the Digital Omnibus on AI) moved the high-risk rules for Annex III systems from August 2, 2026 to December 2, 2027. Article 4 AI literacy and the Article 5 prohibitions already apply.",
+    "Article 26 lists the employer's duties as deployer: use per instructions, competent human oversight, representative input data, monitoring, at least six months of log retention, and informing workers' representatives and affected workers before use.",
+    "The only express training duty is Article 26(2): oversight must go to people with the necessary competence, training and authority. Everyone else involved needs AI literacy under Article 4.",
+    "Breaching Article 26 can lead to fines of up to EUR 15,000,000 or 3% of worldwide annual turnover, whichever is higher (Article 99(4)(e))."
+  ],
+  "jurisdiction": "European Union",
+  "regulator": "National market surveillance authorities in each EU Member State, supported by the European Commission AI Office and the European Artificial Intelligence Board",
+  "appliesTo": [
+    "Employers and staffing agencies that use AI systems in the EU for recruitment, selection or decisions about workers (deployers)",
+    "Human resources, talent acquisition and line managers who operate or rely on those systems",
+    "Providers that place recruitment or worker management AI on the EU market (provider duties are outside the scope of this page)"
+  ],
+  "sections": [
+    {
+      "id": "which-systems",
+      "heading": "Which employment AI systems are high-risk?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An AI system is high-risk in employment if it falls within point 4 of Annex III to the [Artificial Intelligence Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj), headed \"Employment, workers' management and access to self-employment\". Article 6(2) makes every Annex III system high-risk unless a narrow derogation applies."
+        },
+        {
+          "type": "table",
+          "caption": "Annex III point 4, in plain terms, with typical HR examples",
+          "head": ["Annex III point", "What the text covers", "Typical systems in an HR function"],
+          "rows": [
+            ["4(a) Recruitment and selection", "AI intended for the recruitment or selection of natural persons, in particular placing targeted job advertisements, filtering job applications and evaluating candidates", "CV screening and ranking, automated shortlisting, scored video or game based assessments, programmatic job ad targeting"],
+            ["4(b) Decisions in the work relationship", "AI intended to make decisions affecting terms of work-related relationships, promotion or termination of work-related contractual relationships", "Promotion recommendation tools, redundancy selection scoring, contract renewal scoring"],
+            ["4(b) Task allocation", "AI intended to allocate tasks based on individual behavior or personal traits or characteristics", "Algorithmic shift and task assignment in warehouses, delivery and call centers"],
+            ["4(b) Monitoring and evaluation", "AI intended to monitor and evaluate the performance and behavior of persons in such relationships", "Productivity scoring, automated performance ratings, conduct flagging"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Article 6(3) lets an Annex III system escape the high-risk category if it does not pose a significant risk of harm, including by not materially influencing the outcome of decision making, and it only performs a narrow procedural task, improves a previously completed human activity, detects deviations from prior decision patterns without replacing human assessment, or performs a preparatory task. The exception has a hard limit that matters in HR: an Annex III system \"shall always be considered to be high-risk where the AI system performs profiling of natural persons\". Most candidate scoring and worker performance tools profile people, so few will qualify."
+        },
+        {
+          "type": "p",
+          "text": "A provider that relies on Article 6(3) must document its assessment before placing the system on the market (Article 6(4)). Employers buying a tool marketed as \"not high-risk\" should ask for that documentation rather than accept the label."
+        }
+      ]
+    },
+    {
+      "id": "dates",
+      "heading": "When do the high-risk rules apply to employers, as at November 2026?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "As at November 2026, the deployer duties for Annex III systems are not yet applicable. They apply from **December 2, 2027**, after [Regulation (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj) replaced Article 113(3)(c) of the AI Act. The original date was August 2, 2026."
+        },
+        {
+          "type": "table",
+          "caption": "Dates that matter for AI used in recruitment and worker management",
+          "head": ["Date", "What applies", "Status as at November 2026"],
+          "rows": [
+            ["February 2, 2025", "Chapters I and II: AI literacy (Article 4) and prohibited practices (Article 5), including the ban on emotion recognition in the workplace", "In force and applicable"],
+            ["August 2, 2025", "Penalty chapter (Chapter XII) and governance provisions", "Applicable"],
+            ["August 2, 2026", "General application date of the Act, including transparency duties in Article 50", "Applicable"],
+            ["December 2, 2026", "New Article 5 prohibitions added by the Digital Omnibus (non-consensual intimate deepfakes and child sexual abuse material)", "Not yet applicable"],
+            ["December 2, 2027", "Chapter III, Sections 1 to 3 for Annex III systems, including Article 26 deployer duties for employment AI", "Not yet applicable"],
+            ["August 2, 2030", "Deadline for high-risk systems intended for use by public authorities that were already on the market (amended Article 111(2))", "Not yet applicable"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The amended Article 111(2) adds a transitional rule that affects employers directly. The Act applies to \"operators\" (a term that covers deployers as well as providers) of a high-risk system placed on the market or put into service before the Chapter III application date only if, from that date, the system is subject to significant changes in its design. Vendors of HR software release design changes often, so an employer should not assume a legacy tool is exempt: the inventory needs a record of when each system was put into service and of later significant changes, and that is a question to put to the provider in writing."
+        }
+      ]
+    },
+    {
+      "id": "deployer-duties",
+      "heading": "What must an employer do as a deployer under Article 26?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Article 26 makes the employer responsible for how the system is used, not for how it was built. The duties below apply to private employers from December 2, 2027 for Annex III systems."
+        },
+        {
+          "type": "table",
+          "caption": "Article 26 duties mapped to the HR role, frequency and evidence an authority would expect (original mapping)",
+          "head": ["Article 26 duty", "Who in the organization", "When or how often", "Evidence to retain"],
+          "rows": [
+            ["26(1) Use the system in line with the provider's instructions for use, through technical and organizational measures", "HR systems owner, talent acquisition lead", "Before go live and at each configuration change", "Instructions for use on file, configuration record, approved use cases"],
+            ["26(2) Assign human oversight to people with the necessary competence, training, authority and support", "Named recruiters, HR business partners or managers who review outputs", "Before each person is assigned, and after material system updates", "Named overseer list, competence assessment results, written grant of authority to override"],
+            ["26(4) Where the employer controls input data, ensure it is relevant and sufficiently representative for the intended purpose", "People analytics, HR data owner", "At configuration and when job families or data sources change", "Data relevance review, record of fields excluded"],
+            ["26(5) Monitor operation; inform the provider, distributor and market surveillance authority of risks; suspend use if a risk arises; report serious incidents", "HR systems owner with compliance", "Continuous, with periodic review", "Monitoring log, escalation records, suspension decisions"],
+            ["26(6) Keep automatically generated logs under the employer's control for at least six months, unless other law says otherwise", "HR systems owner, IT", "Ongoing", "Log retention setting and policy"],
+            ["26(7) Before putting into service or using the system at the workplace, inform workers' representatives and affected workers", "Employee relations, HR leadership", "Before first use of each system", "Consultation or information record, worker notice"],
+            ["26(9) Use the provider's Article 13 information for any data protection impact assessment under Article 35 GDPR", "Data protection officer, HR", "Before processing begins", "DPIA referencing the system documentation"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Article 26(7) is the duty most specific to employment. The text requires information to be given \"in accordance with the rules and procedures laid down in Union and national law and practice on information of workers and their representatives\", so works council and collective agreement procedures in each Member State still apply on top of the AI Act."
+        },
+        {
+          "type": "p",
+          "text": "The fundamental rights impact assessment in Article 27 does not apply to most private employers. Article 27(1) requires it only from deployers that are bodies governed by public law or private entities providing public services, and from deployers of the credit scoring and insurance pricing systems in points 5(b) and 5(c) of Annex III. A public sector employer using recruitment AI is caught. The Digital Omnibus amended Article 27(4) and 27(5) so the assessment can cross refer to an existing data protection impact assessment and use an AI Office questionnaire template."
+        }
+      ]
+    },
+    {
+      "id": "training-duty",
+      "heading": "Does the EU AI Act impose a training duty on HR staff?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yes, in two layers. Article 26(2) is a competence duty for the specific people assigned to oversee each high-risk system, and Article 4 is a general duty, applicable since February 2, 2025, to take measures supporting the AI literacy of everyone who operates or uses AI on the employer's behalf."
+        },
+        {
+          "type": "p",
+          "text": "The detail of both duties, including the Article 14(4) capabilities an overseer must be enabled to exercise (understanding limitations, awareness of automation bias, interpreting output, overriding or stopping the system), is covered on the [EU AI Act AI literacy page](/regulations/eu-ai-act-ai-literacy). For HR, the practical consequence is that a recruiter who clicks through a ranked shortlist without being able to explain or overrule it is not the competent overseer Article 26(2) describes."
+        },
+        {
+          "type": "p",
+          "text": "Role specific content for HR overseers should cover at least: what the system scores and what it ignores, the provider's stated limitations and the groups for which accuracy was tested, how to recognize and record anomalies, when to depart from the ranking, how to handle a candidate's request for an explanation, and how the Article 26(7) worker information was given. Building that content against a [competency framework](/glossary/competency-framework) and assessing it, rather than recording completion, gives evidence that matches the wording of Article 26(2). A [training matrix](/guides/how-to-build-a-training-matrix) that lists each high-risk system as a row makes gaps visible."
+        }
+      ]
+    },
+    {
+      "id": "workers-rights",
+      "heading": "What rights do candidates and workers have?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Affected people gain a right to an explanation under Article 86. A person subject to a decision taken by the deployer on the basis of output from an Annex III high-risk system (other than critical infrastructure systems), which produces legal effects or similarly significant effects that they consider adverse to their health, safety or fundamental rights, can obtain \"clear and meaningful explanations of the role of the AI system in the decision-making procedure and the main elements of the decision taken\"."
+        },
+        {
+          "type": "p",
+          "text": "Article 86 only applies to the extent the right is not already provided under other Union law, so it sits alongside the right not to be subject to solely automated decisions in Article 22 of the GDPR. HR teams that already handle GDPR access and objection requests should extend that procedure, and the people answering candidates need to understand the system well enough to explain its role. See [GDPR staff training requirements](/regulations/gdpr-staff-training-requirements) for the data protection side."
+        }
+      ]
+    },
+    {
+      "id": "already-prohibited",
+      "heading": "Which workplace AI uses are already banned?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Some employment AI is not high-risk but prohibited outright, and those bans have applied since February 2, 2025. The most relevant is Article 5(1)(f), which bans AI systems that infer the emotions of a natural person in the workplace, except for medical or safety reasons. A video interview tool that scores candidates' enthusiasm from facial expressions is therefore not a high-risk system to be governed under Article 26: it cannot be used at all."
+        },
+        {
+          "type": "p",
+          "text": "The full set of workplace relevant prohibitions, with the Commission's examples, is on the page on [EU AI Act prohibited practices in the workplace](/regulations/eu-ai-act-prohibited-practices-workplace). Screening every HR AI system against Article 5 first, and only then classifying it under Annex III, avoids investing in oversight for a tool that must be switched off."
+        }
+      ]
+    },
+    {
+      "id": "penalties",
+      "heading": "What are the penalties for deployers?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Non-compliance with the deployer obligations in Article 26 can lead to administrative fines of up to EUR 15,000,000 or 3% of total worldwide annual turnover for the preceding financial year, whichever is higher (Article 99(4)(e)). For small and medium-sized enterprises the lower of the two amounts applies (Article 99(6)), and the Digital Omnibus extended that treatment to small mid-cap enterprises."
+        },
+        {
+          "type": "p",
+          "text": "Using a prohibited practice, such as workplace emotion recognition, falls in the higher band of up to EUR 35,000,000 or 7% of worldwide turnover (Article 99(3)). Member States set the detailed penalty rules and designate the market surveillance authorities that enforce them."
+        }
+      ]
+    },
+    {
+      "id": "preparing-now",
+      "heading": "How should HR prepare before December 2027?",
+      "blocks": [
+        {
+          "type": "ol",
+          "items": [
+            "Inventory every AI feature in the HR stack, including features switched on inside applicant tracking, scheduling and performance tools, and record the intended purpose of each.",
+            "Screen each against Article 5 and retire anything prohibited, then classify the rest against Annex III point 4 and Article 6(3), asking providers for any \"not high-risk\" assessment.",
+            "Name an overseer for each high-risk system and define the competence the role needs from the instructions for use and Article 14(4).",
+            "Agree the worker information route for each Member State with employee relations before any new deployment.",
+            "Set log retention to at least six months and connect monitoring and incident escalation to the provider contract.",
+            "Keep the evidence in one place, mapped obligation by obligation, as described in [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models each high-risk HR system as an object linked to its Annex III point, its Article 26 duties and the named people who oversee it. Competence for the oversight role is defined as concepts and assessment points before content is written, so the record shows who is competent to override which system and on what evidence."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is a chatbot that answers candidates' questions high-risk under Annex III?",
+      "a": "Not normally. Annex III point 4 covers systems intended to recruit or select people, filter applications, evaluate candidates, or decide on terms, promotion, termination, task allocation or monitoring. A chatbot that only answers questions about the role does none of those. It must still tell people they are interacting with AI under Article 50, which has applied since August 2, 2026."
+    },
+    {
+      "q": "We are a US company hiring into our EU subsidiary. Does Annex III apply?",
+      "a": "Yes, if the system is used in the EU. The AI Act applies to deployers established or located in the EU, so the EU subsidiary using the tool is the deployer. It also applies to providers and deployers outside the EU where the output of the system is used in the EU."
+    },
+    {
+      "q": "Did the Digital Omnibus remove employment from the high-risk list?",
+      "a": "No. Regulation (EU) 2026/1744 did not amend Annex III point 4 or Article 26. It changed when the rules apply, moving the Annex III date from August 2, 2026 to December 2, 2027, and it added simplifications such as letting the fundamental rights impact assessment cross refer to a data protection impact assessment."
+    },
+    {
+      "q": "Does the employer or the vendor carry out conformity assessment?",
+      "a": "The provider, usually the vendor, carries out conformity assessment and supplies instructions for use. The employer becomes responsible as a provider only in specific cases, such as putting its own name on the system or substantially modifying it. The employer's own duties are the deployer duties in Article 26."
+    },
+    {
+      "q": "Do we need to train every recruiter, or only the named overseers?",
+      "a": "Article 26(2) applies to the people assigned to human oversight. Article 4 applies more widely, to all staff and others operating or using AI on the organization's behalf, and has applied since February 2, 2025. Most employers train all users to a literacy level and assess named overseers to a higher, system specific standard."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "title": "Regulation (EU) 2026/1744 amending Regulation (EU) 2024/1689 (Digital Omnibus on AI)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    },
+    {
+      "title": "Commission publishes the Guidelines on prohibited artificial intelligence (AI) practices, as defined by the AI Act",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-prohibited-artificial-intelligence-ai-practices-defined-ai-act"
+    }
+  ],
+  "related": [
+    "eu-ai-act-ai-literacy",
+    "eu-ai-act-prohibited-practices-workplace",
+    "gdpr-staff-training-requirements",
+    "human-in-the-loop",
+    "iso-iec-42001-competence-and-awareness",
+    "how-to-map-training-to-compliance-obligations"
+  ],
+  "productLinks": [
+    { "label": "Knowledge governance", "href": "/platform/knowledge-governance" },
+    { "label": "Compliance programs", "href": "/programs/compliance" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "Annex III point 4: (a) AI systems intended to be used for the recruitment or selection of natural persons, in particular to place targeted job advertisements, to analyse and filter job applications, and to evaluate candidates; (b) AI systems intended to make decisions affecting terms of work-related relationships, promotion or termination, to allocate tasks based on individual behaviour or personal traits or characteristics, or to monitor and evaluate performance and behaviour.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "claim": "Article 6(3) derogation conditions (a) to (d); an Annex III system shall always be considered high-risk where it performs profiling of natural persons; Article 6(4) provider must document its assessment before placing on the market.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "claim": "Article 26(1), (2), (4), (5), (6) (logs at least six months), (7) (deployers who are employers inform workers' representatives and affected workers before putting into service or using a high-risk system at the workplace, in accordance with Union and national rules), and (9) (use Article 13 information for GDPR Article 35 DPIA).",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "claim": "Article 27(1): FRIA required of deployers that are bodies governed by public law or private entities providing public services, and deployers of Annex III point 5(b) and (c) systems. Article 86(1) right to explanation for decisions based on Annex III high-risk systems except point 2; Article 86(3) applies only where not otherwise provided under Union law.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "claim": "Article 99(3): Article 5 breaches up to EUR 35 000 000 or 7%; Article 99(4)(e): Article 26 deployer obligations up to EUR 15 000 000 or 3%, whichever is higher; original Article 113: applies from 2 August 2026, Chapters I and II from 2 February 2025, Chapter XII from 2 August 2025.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "claim": "Regulation (EU) 2026/1744 point (40): Article 113(3)(a) Chapters I and II from 2 February 2025 except new Article 5(1)(ba), (bb), 5(1a), 5(1b) from 2 December 2026; Article 113(3)(c) Chapter III Sections 1 to 3 from 2 December 2027 (Annex III) and 2 August 2028 (Annex I). Point (13) amends Article 27(4) (cross reference to DPIA) and 27(5) (AI Office questionnaire template). No amendment to Article 26 or Annex III point 4 found in the amending list.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    },
+    {
+      "claim": "Regulation (EU) 2026/1744 point (39) replaces Article 111(2): the Regulation applies to operators of high-risk AI systems placed on the market or put into service before the Chapter III application date only if, from that date, those systems are subject to significant changes in their designs; providers and deployers of high-risk systems intended for public authorities comply by 2 August 2030. Article 2(1)(c): applies to providers and deployers in third countries where output is used in the Union. Lower fine cap for small mid-cap enterprises as recorded on the sibling AI literacy page.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    }
+  ]
+}

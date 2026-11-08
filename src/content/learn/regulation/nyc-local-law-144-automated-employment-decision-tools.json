@@ -1,0 +1,267 @@
+{
+  "slug": "nyc-local-law-144-automated-employment-decision-tools",
+  "kind": "regulation",
+  "title": "What does NYC Local Law 144 require of employers using AI hiring tools?",
+  "seoTitle": "NYC Local Law 144 AEDT requirements",
+  "description": "NYC Local Law 144 requires a yearly independent bias audit, a public results summary and 10 business days' notice before an AI hiring tool is used. Details.",
+  "shortAnswer": "New York City Local Law 144 of 2021 bars employers and employment agencies from using an automated employment decision tool to screen candidates or employees for hiring or promotion unless the tool had an independent bias audit within the past year, a summary of results is posted publicly, and residents get notice at least 10 business days before use. The Department of Consumer and Worker Protection has enforced it since July 5, 2023.",
+  "keyTakeaways": [
+    "The law is in New York City Administrative Code sections 20-870 to 20-874; the implementing rules are in 6 RCNY sections 5-300 to 5-304, effective July 5, 2023.",
+    "A tool is covered only if it substantially assists or replaces discretionary decision making, which the rules define through three tests (sole reliance, heaviest weighting, or overruling human conclusions).",
+    "The bias audit must calculate selection or scoring rates and impact ratios for sex, race/ethnicity and intersectional categories, and be no more than one year old at the time of use.",
+    "Local Law 144 imposes no training duty. Compliance depends on recruiters, HR operations and procurement knowing when a tool is an AEDT and when notice must go out.",
+    "Penalties are up to $500 for a first violation and $500 to $1,500 for each subsequent violation, and each day of unlawful use is a separate violation."
+  ],
+  "jurisdiction": "United States (New York City)",
+  "regulator": "New York City Department of Consumer and Worker Protection (DCWP); discrimination claims go to the New York City Commission on Human Rights",
+  "appliesTo": [
+    "Employers that use an automated employment decision tool for jobs located in New York City, at least part time, or fully remote jobs associated with a New York City office",
+    "Employment agencies located in New York City, or outside it where the job meets the location test",
+    "Candidates for employment and employees being considered for promotion who reside in New York City (notice requirements)"
+  ],
+  "sections": [
+    {
+      "id": "what-is-an-aedt",
+      "heading": "What counts as an automated employment decision tool?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An automated employment decision tool (AEDT) is a computational process derived from machine learning, statistical modeling, data analytics or artificial intelligence that issues a simplified output, such as a score, classification or recommendation, used to substantially assist or replace discretionary decision making for employment decisions. That is the definition in section 20-870 of the Administrative Code, added by [Local Law 144 of 2021](https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=4344524&GUID=B051915D-A9AC-451E-81F8-6596032FA3F9&Options=ID%7CText%7C&Search=)."
+        },
+        {
+          "type": "p",
+          "text": "The DCWP rules, adopted in 2023 and effective July 5, 2023, narrow the phrase \"substantially assist or replace discretionary decision making\" to three situations in 6 RCNY section 5-300:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "relying solely on a simplified output (score, tag, classification, ranking), with no other factors considered;",
+            "using a simplified output as one of a set of criteria where it is weighted more than any other criterion in the set; or",
+            "using a simplified output to overrule conclusions derived from other factors, including human decision making."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "\"Employment decision\" means screening candidates for employment or employees for promotion within the city. The DCWP [frequently asked questions](https://www.nyc.gov/assets/dca/downloads/pdf/about/DCWP-AEDT-FAQ.pdf) confirm that screening at any point in the process counts, not only the final decision, but that using an AEDT to scan a resume bank, conduct outreach or invite applications does not, because those people have not applied for a specific position. Tools that only translate or transcribe, such as converting a PDF resume or transcribing an interview, do not produce a simplified output under the rules."
+        }
+      ]
+    },
+    {
+      "id": "who-and-where",
+      "heading": "Who must comply, and when does a tool count as used in the city?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Employers and employment agencies are responsible, not vendors. The DCWP FAQ states that the vendor that created the AEDT is not responsible for its bias audit, although a vendor may commission an independent audit that employers then rely on."
+        },
+        {
+          "type": "p",
+          "text": "A tool is used \"in the city\" if the job location is an office in New York City at least part time, if a fully remote job is associated with a New York City office, or if the employment agency is located in the city. The notice duties are owed to candidates and employees who reside in New York City. As at November 2026, the law and the July 2023 rules remain the operative text on the [DCWP AEDT page](https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page), and no amending rule is listed there."
+        }
+      ]
+    },
+    {
+      "id": "bias-audit",
+      "heading": "What must the bias audit contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A bias audit is an impartial evaluation by an independent auditor that, at a minimum, calculates selection rates (or scoring rates) and impact ratios for each sex category, each race/ethnicity category and each intersectional category, using the EEO-1 component 1 categories. The requirements are in 6 RCNY section 5-301."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Impact ratio** is the selection rate for a category divided by the selection rate of the most selected category, or the scoring rate for a category divided by that of the highest scoring category. The scoring rate is the rate at which a category scores above the sample median.",
+            "**Timing:** an employer may not use or continue to use an AEDT if more than one year has passed since the most recent bias audit (section 5-301(a)).",
+            "**Unknown category:** the audit must state how many people assessed fall into an unknown category.",
+            "**Small categories:** the FAQ allows a category representing less than 2% of the audit data to be excluded from the calculations.",
+            "**Data:** historical data from the employer's own use is the default; data pooled across employers may be relied on only by employers that contributed their own data or are using the tool for the first time; test data is permitted where historical data is insufficient. The FAQ states that imputed or inferred demographic data cannot be used."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The auditor must be independent. Under section 5-300 an auditor is not independent if it is or was involved in using, developing or distributing the tool, or during the audit has an employment relationship with, or a direct or material indirect financial interest in, the employer or the vendor. DCWP does not approve or list auditors."
+        },
+        {
+          "type": "callout",
+          "title": "What the audit does not require",
+          "text": "The DCWP FAQ states that the law requires a bias audit but \"does not require any specific actions based on the results of a bias audit.\" Federal, state and city anti-discrimination law still applies, so an adverse impact ratio is a legal risk to be assessed, not a box ticked."
+        }
+      ]
+    },
+    {
+      "id": "publication-and-notice",
+      "heading": "What must be published and what notice must candidates get?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Before using an AEDT, the employer must post on the employment section of its website the date of the most recent bias audit, a summary of results (data source and explanation, the number in the unknown category, the number of applicants, selection or scoring rates, and impact ratios for all categories) and the tool's distribution date, meaning the date the employer began using it (section 5-303). A clearly labeled hyperlink is acceptable, and the summary must stay posted for at least six months after the latest use of the tool."
+        },
+        {
+          "type": "p",
+          "text": "Notice to New York City residents must be given at least 10 business days before use and must say that an AEDT will be used, state the job qualifications and characteristics it will assess, and include instructions for requesting an alternative selection process or a reasonable accommodation under other laws (section 20-871(b) and section 5-304). The rules state that nothing requires an employer to provide an alternative selection process."
+        },
+        {
+          "type": "table",
+          "caption": "Permitted notice channels under 6 RCNY section 5-304",
+          "head": ["Audience", "Channel options (each at least 10 business days before use)"],
+          "rows": [
+            ["Candidates for employment", "Employment section of the website; the job posting; or U.S. mail or email"],
+            ["Employees considered for promotion", "A written policy or procedure provided to employees; the job posting; or U.S. mail or email"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The employer must also post its AEDT data retention policy, the type and source of data collected, and instructions for making a written request for that information, and must answer a written request within 30 days (section 20-871(b)(3) and section 5-304(d)). The FAQ adds that once notice is on the website, the 10 business day clock runs from posting, regardless of when a specific job is advertised."
+        }
+      ]
+    },
+    {
+      "id": "training-duty",
+      "heading": "Does Local Law 144 require training, and what must staff understand?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No. Neither the law nor the DCWP rules contain a training or competence requirement. Compliance nonetheless depends on a handful of people making correct calls: whether a feature in a recruiting platform is an AEDT, whether the 10 business day clock has run, and whether the posted audit is still within its year."
+        },
+        {
+          "type": "table",
+          "caption": "Local Law 144 obligations mapped to role, frequency and audit evidence (original mapping)",
+          "head": ["Obligation", "Role that must understand it", "Frequency", "Evidence a DCWP investigator would expect"],
+          "rows": [
+            ["Decide whether a tool is an AEDT under the three tests in section 5-300", "HR technology owner, talent acquisition lead, procurement", "At purchase and whenever scoring features are switched on or reweighted", "Written classification memo per tool and configuration"],
+            ["Bias audit no more than one year old before each use (section 5-301(a))", "HR technology owner, legal", "Annually, tracked against the audit date", "Audit report, auditor independence confirmation, calendar control"],
+            ["Publish audit summary and distribution date (section 5-303)", "Careers site owner, HR operations", "Before use; keep for six months after last use", "Dated screenshots or archived page versions"],
+            ["Notice 10 business days before use, with accommodation instructions (section 5-304)", "Recruiters, recruiting coordinators, HR operations", "Every requisition or promotion round where the tool is used, unless a standing website or policy notice is in place", "Job posting templates, website notice history, promotion policy"],
+            ["Answer written data requests within 30 days (section 20-871(b)(3))", "HR operations, privacy team", "On request", "Request log with response dates"],
+            ["Route discrimination concerns to the right body", "HR business partners, employee relations", "On complaint", "Escalation log; referrals to counsel"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Short role based modules tied to these rows, with a scenario check on the AEDT definition, give better evidence than a general AI course. The broader method is in [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations), and the same structure can sit inside an organization's [AI literacy training program](/guides/how-to-build-an-ai-literacy-training-program)."
+        }
+      ]
+    },
+    {
+      "id": "penalties",
+      "heading": "What are the penalties and how is the law enforced?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Section 20-872 sets civil penalties of not more than $500 for a first violation and each additional violation on the same day, and not less than $500 nor more than $1,500 for each subsequent violation. Each day an AEDT is used in violation of section 20-871(a) is a separate violation, and each failure to give a required notice is a separate violation."
+        },
+        {
+          "type": "p",
+          "text": "DCWP takes complaints through 311 or its website and enforces the audit, publication and notice requirements. It refers claims of discrimination involving an AEDT to the New York City Commission on Human Rights, which enforces the New York City Human Rights Law. Section 20-874 preserves candidates' and employees' right to bring a civil action."
+        }
+      ]
+    },
+    {
+      "id": "other-laws",
+      "heading": "How does Local Law 144 sit alongside other AI hiring laws?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Local Law 144 is a transparency and audit law, narrower than the comprehensive regimes elsewhere. Employers hiring in several jurisdictions usually face overlapping rules: California's automated decisionmaking technology regulations, Colorado's reenacted AI law and, for roles in the EU, the high-risk rules for employment AI. See [California ADMT regulations for employers](/regulations/california-admt-regulations-for-employers), [Colorado AI Act deployer obligations](/regulations/colorado-ai-act-deployer-obligations) and [EU AI Act high-risk AI in employment](/regulations/eu-ai-act-high-risk-ai-in-employment). A single inventory of hiring tools, tagged by jurisdiction, avoids running separate programs for each."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each hiring tool to the Local Law 144 obligations it triggers and to the roles that operate it, so the audit date, notice method and responsible recruiter are traceable in one record. Assessment points focus on classifying tools under the section 5-300 tests, which is where most errors start."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Local Law 144 apply if a human makes the final hiring decision?",
+      "a": "It can. The law covers screening at any stage, and the rules treat a tool as covered where its output is relied on alone, weighted more than any other criterion, or used to overrule other factors. A human making the final call does not take an earlier automated screen outside the law."
+    },
+    {
+      "q": "Can we rely on our vendor's bias audit?",
+      "a": "Yes, if the audit used your historical data or you are using the tool for the first time. A vendor may commission an independent audit using data pooled from several employers. You remain responsible for making sure an audit no more than a year old exists and that its summary is posted before use."
+    },
+    {
+      "q": "Do we have to offer an alternative to the AI tool?",
+      "a": "No. The notice must explain how to request an alternative selection process or a reasonable accommodation under other laws, if available, but section 5-304(a) states that nothing in the rules requires an employer to provide an alternative selection process. Disability accommodation duties under other laws still apply."
+    },
+    {
+      "q": "Does the law cover remote jobs?",
+      "a": "It covers fully remote jobs where the location associated with the job is an office in New York City. A fully remote role with no New York City office association falls outside the location test, although notice duties are framed around New York City residents."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Local Law 144 of 2021: Automated employment decision tools, Administrative Code sections 20-870 to 20-874",
+      "publisher": "New York City Council (Legistar)",
+      "url": "https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=4344524&GUID=B051915D-A9AC-451E-81F8-6596032FA3F9&Options=ID%7CText%7C&Search="
+    },
+    {
+      "title": "Notice of Adoption of Final Rule: Automated Employment Decision Tools (6 RCNY sections 5-300 to 5-304)",
+      "publisher": "New York City Department of Consumer and Worker Protection",
+      "url": "https://rules.cityofnewyork.us/wp-content/uploads/2023/04/DCWP-NOA-for-Use-of-Automated-Employment-Decisionmaking-Tools-2.pdf"
+    },
+    {
+      "title": "Automated Employment Decision Tools (Updated): rule status and effective date",
+      "publisher": "NYC Rules, City of New York",
+      "url": "https://rules.cityofnewyork.us/rule/automated-employment-decision-tools-updated/"
+    },
+    {
+      "title": "Automated Employment Decision Tools (AEDT)",
+      "publisher": "New York City Department of Consumer and Worker Protection",
+      "url": "https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page"
+    },
+    {
+      "title": "Automated Employment Decision Tools: Frequently Asked Questions",
+      "publisher": "New York City Department of Consumer and Worker Protection",
+      "url": "https://www.nyc.gov/assets/dca/downloads/pdf/about/DCWP-AEDT-FAQ.pdf"
+    }
+  ],
+  "related": [
+    "california-admt-regulations-for-employers",
+    "colorado-ai-act-deployer-obligations",
+    "eu-ai-act-high-risk-ai-in-employment",
+    "nist-ai-rmf-ai-risk-training",
+    "how-to-map-training-to-compliance-obligations",
+    "how-to-build-an-ai-literacy-training-program"
+  ],
+  "productLinks": [
+    { "label": "Compliance programs", "href": "/programs/compliance" },
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "Admin Code 20-870 definitions of AEDT, bias audit, employment decision; 20-871(a) bias audit no more than one year prior and public summary with distribution date before use; 20-871(b) notice no less than ten business days before use, job qualifications and characteristics, data information within 30 days of written request; local law takes effect January 1, 2023.",
+      "source": "https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=4344524&GUID=B051915D-A9AC-451E-81F8-6596032FA3F9&Options=ID%7CText%7C&Search="
+    },
+    {
+      "claim": "20-872: not more than $500 for a first violation and each additional violation on the same day; not less than $500 nor more than $1,500 for each subsequent violation; each day of use a separate violation; each failure to notify a separate violation. 20-874 preserves civil actions and Commission on Human Rights authority.",
+      "source": "https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=4344524&GUID=B051915D-A9AC-451E-81F8-6596032FA3F9&Options=ID%7CText%7C&Search="
+    },
+    {
+      "claim": "6 RCNY 5-300: three-part meaning of substantially assist or replace; independent auditor exclusions; impact ratio and scoring rate (above median) definitions; simplified output excludes translation and transcription. 5-301(a): may not use or continue to use if more than one year since last audit; 5-301(b) sex, race/ethnicity, intersectional calculations and unknown category count. 5-303: website publication; hyperlink allowed; keep posted at least 6 months after latest use. 5-304: notice channels, accommodation instructions, no duty to provide alternative process, 30-day information response.",
+      "source": "https://rules.cityofnewyork.us/wp-content/uploads/2023/04/DCWP-NOA-for-Use-of-Automated-Employment-Decisionmaking-Tools-2.pdf"
+    },
+    {
+      "claim": "NYC Rules page: Automated Employment Decision Tools (Updated), rule status Adopted, agency DCWP, effective date July 5, 2023.",
+      "source": "https://rules.cityofnewyork.us/rule/automated-employment-decision-tools-updated/"
+    },
+    {
+      "claim": "DCWP page: law prohibits use unless bias audit within one year, information publicly available, notices provided; DCWP began enforcement July 5, 2023; complaints via DCWP; notice 10 business days prior.",
+      "source": "https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page"
+    },
+    {
+      "claim": "DCWP FAQ (06/29/2023): in-city location tests; screening at any point covered; resume bank scanning and outreach not covered; law does not require specific actions based on audit results; categories under 2% may be excluded; imputed or inferred data cannot be used; DCWP does not approve auditors; vendor not responsible for bias audit; website notice starts 10 business day clock; discrimination claims referred to the NYC Commission on Human Rights.",
+      "source": "https://www.nyc.gov/assets/dca/downloads/pdf/about/DCWP-AEDT-FAQ.pdf"
+    }
+  ]
+}

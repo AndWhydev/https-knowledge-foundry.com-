@@ -1,0 +1,365 @@
+{
+  "slug": "california-admt-regulations-for-employers",
+  "kind": "regulation",
+  "title": "What do California's automated decisionmaking technology rules require of employers?",
+  "seoTitle": "California ADMT rules for employers",
+  "description": "CPPA rules on automated decisionmaking technology cover hiring, work allocation, pay, promotion and firing from January 1, 2027: notice, opt-out and roles.",
+  "shortAnswer": "California Privacy Protection Agency regulations under the California Consumer Privacy Act, effective January 1, 2026, require businesses that use automated decisionmaking technology (ADMT) for significant decisions, including hiring, work allocation, compensation, promotion, demotion and termination, to give a pre-use notice, offer an opt-out or a human appeal, and answer access requests. Businesses already using ADMT for those decisions must comply by January 1, 2027. A risk assessment is also required.",
+  "keyTakeaways": [
+    "The ADMT rules are Article 11 of the CCPA regulations (California Code of Regulations, title 11, sections 7200 to 7222), adopted by the CPPA Board on July 24, 2025, approved by the Office of Administrative Law on September 22, 2025 and effective January 1, 2026.",
+    "Employment is a significant decision when ADMT is used for hiring, allocation or assignment of work and compensation, promotion, or demotion, suspension and termination (section 7001(ddd)(4)).",
+    "Technology is only ADMT if it replaces or substantially replaces human decisionmaking. A decision has human involvement only if the reviewer knows how to interpret the output, reviews it with other relevant information, and has authority to change the decision.",
+    "There is no stand-alone training requirement in Article 11, but the definition of human involvement and the human appeal exception both depend on reviewers who know how to interpret and use the ADMT output.",
+    "Using ADMT for a significant decision, and automated inference about applicants or employees from systematic observation, both trigger a risk assessment under section 7150, with submissions to the Agency due by April 1, 2028 for 2026 and 2027 assessments."
+  ],
+  "jurisdiction": "United States (California)",
+  "regulator": "California Privacy Protection Agency (CPPA), with civil enforcement also available to the California Attorney General",
+  "appliesTo": [
+    "Businesses subject to the California Consumer Privacy Act that use ADMT to make significant decisions about California residents, including job applicants, employees and independent contractors",
+    "HR, talent acquisition, workforce management and people analytics teams that select or operate those tools",
+    "Service providers and contractors that process personal information using ADMT on a business's behalf"
+  ],
+  "sections": [
+    {
+      "id": "status",
+      "heading": "What are the ADMT regulations and when do they apply?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The ADMT rules are part of a package the CPPA Board adopted on July 24, 2025, which also updated the existing CCPA regulations and added cybersecurity audit and risk assessment rules. According to the [CPPA rulemaking page](https://cppa.ca.gov/regulations/ccpa_updates.html), the Office of Administrative Law approved the package on September 22, 2025 and it took effect on January 1, 2026."
+        },
+        {
+          "type": "p",
+          "text": "Section 7200(b) gives existing users a grace period: a business that uses ADMT for a significant decision before January 1, 2027 must comply with Article 11 no later than January 1, 2027, and a business that starts using ADMT on or after that date must comply from the first use. As at November 2026, employers already using covered tools therefore have under two months to be ready. The general CCPA training duties for staff who handle consumer requests are covered separately on the [CCPA employee training page](/regulations/ccpa-cpra-employee-training-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "what-is-admt",
+      "heading": "When is an HR tool ADMT under the regulations?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A tool is ADMT if it processes personal information and uses computation to replace, or substantially replace, human decisionmaking. Under section 7001(e), \"substantially replace\" means the business uses the output to make a decision without human involvement, and human involvement requires a reviewer who:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "knows how to interpret and use the technology's output to make the decision;",
+            "reviews and analyzes the output and any other information relevant to make or change the decision; and",
+            "has the authority to make or change the decision based on that analysis."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This is the central compliance lever for employers. A resume screen whose rejections nobody reviews is ADMT. The same screen, where a trained recruiter reviews every recommendation alongside the application and can advance a rejected candidate, may not be. Profiling that replaces or substantially replaces human decisionmaking is included, while infrastructure such as databases, spreadsheets and firewalls is excluded unless it replaces human decisionmaking."
+        },
+        {
+          "type": "table",
+          "caption": "Employment decisions that are \"significant decisions\" under section 7001(ddd)(4)",
+          "head": [
+            "Category",
+            "What it covers",
+            "Typical tools"
+          ],
+          "rows": [
+            [
+              "Hiring",
+              "Decisions on hiring employees or engaging independent contractors",
+              "Resume screening and ranking, automated assessments, interview scoring"
+            ],
+            [
+              "Allocation or assignment of work and compensation",
+              "Allocation or assignment of work; salary, hourly or per-assignment pay; incentive compensation such as bonuses; other benefits",
+              "Algorithmic scheduling, task dispatch, automated bonus calculation"
+            ],
+            [
+              "Promotion",
+              "Promotion decisions",
+              "Promotion readiness scoring"
+            ],
+            [
+              "Demotion, suspension and termination",
+              "Adverse employment actions",
+              "Productivity monitoring that triggers discipline or dismissal"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Advertising to a consumer is not a significant decision, so targeted job ads alone fall outside Article 11, unlike under the EU AI Act."
+        }
+      ]
+    },
+    {
+      "id": "obligations",
+      "heading": "What must an employer do when it uses ADMT for a significant decision?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Article 11 has three consumer facing duties: a pre-use notice (section 7220), a right to opt out with defined exceptions (section 7221), and a right to access information about the ADMT (section 7222)."
+        },
+        {
+          "type": "table",
+          "caption": "Article 11 duties mapped to the HR owner, timing and evidence (original mapping)",
+          "head": [
+            "Duty",
+            "Owner in an employer",
+            "Timing",
+            "Evidence a CPPA investigator would expect"
+          ],
+          "rows": [
+            [
+              "Pre-use notice: specific purpose (not generic wording), opt-out or appeal rights, access right, non-retaliation, how the ADMT works and the alternative process (7220)",
+              "Talent acquisition, HR operations, privacy",
+              "At or before collecting the personal information to be processed, or before repurposing data already held",
+              "Notice text per tool, placement in application flow or employee handbook"
+            ],
+            [
+              "Opt-out: at least two methods, one matching how the business mainly interacts with the person; no account creation; confirm processing (7221(c) to (h))",
+              "HR operations, privacy team",
+              "Ongoing; cease processing within 15 business days of a request made after processing began (7221(n))",
+              "Opt-out request log, confirmation records, vendor instructions"
+            ],
+            [
+              "Or human appeal instead of opt-out: designated reviewer who can overturn the decision, easy appeal process (7221(b)(1))",
+              "Designated HR reviewers",
+              "On each appeal",
+              "Reviewer designation, appeal log with outcomes and reasons"
+            ],
+            [
+              "Access: specific purpose, logic of the ADMT, outcome and how the output was used, future use (7222)",
+              "HR operations with HR technology owner",
+              "On request, within CCPA response timelines",
+              "Response templates, completed responses"
+            ],
+            [
+              "Risk assessment before processing (7150(b)(3) and (4)); review at least every three years and within 45 days of a material change (7155)",
+              "Privacy, people analytics, HR leadership",
+              "Before first use; then on review cycle",
+              "Signed risk assessment, review history, Agency submission record"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The regulations include employment examples of a consolidated pre-use notice: one notice to an employee covering productivity monitoring software used both to allocate work and compensation and to decide demotions, and one notice to a job applicant covering both resume screening software and software that evaluates vocal intonation, facial expression and gestures. A business may also give a single notice for the methodical, regular use of one ADMT to allocate work, rather than a notice each time."
+        }
+      ]
+    },
+    {
+      "id": "opt-out-exceptions",
+      "heading": "When can an employer avoid offering an opt-out?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Section 7221(b) provides three exceptions relevant to employers. If one applies, the pre-use notice must name it or, for the appeal route, explain how to appeal."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Human appeal exception (7221(b)(1)):** the business offers an appeal to a designated human reviewer who must consider the information the consumer provides, \"must know how to interpret and use the output\" of the ADMT, and has authority to change the decision.",
+            "**Hiring ability exception (7221(b)(2)):** for hiring decisions, where the ADMT is used solely to assess the person's ability to perform at work and it works for the business's purpose and does not unlawfully discriminate based upon protected characteristics.",
+            "**Work allocation and compensation exception (7221(b)(3)):** where the ADMT is used solely for allocation or assignment of work or compensation and it works for that purpose and does not unlawfully discriminate."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The second and third exceptions rest on the business being able to show the tool works and does not discriminate, which in practice means validation and bias testing records. No exception covers promotion, demotion, suspension or termination decisions other than the human appeal route, so those uses need either an opt-out or an appeal process."
+        }
+      ]
+    },
+    {
+      "id": "risk-assessment",
+      "heading": "Which HR uses trigger a risk assessment?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Section 7150(b) lists processing activities that present significant risk and need a risk assessment before they start. Three are directly relevant to employers:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "using ADMT for a significant decision concerning a consumer (7150(b)(3));",
+            "using automated processing to infer or extrapolate intelligence, ability, aptitude, performance at work, health, reliability, behavior, location or movements based on systematic observation of a person acting as a job applicant, employee or independent contractor (7150(b)(4)), where systematic observation includes methodical and regular or continuous observation through video, audio, Wi-Fi or Bluetooth tracking and similar technology;",
+            "processing personal information the business intends to use to train ADMT for a significant decision, or to train emotion recognition or identification technology (7150(b)(6))."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The regulation's first illustrative example is an employer that plans to videotape interviews and use emotion recognition technology without human involvement to decide who to hire, which must conduct a risk assessment. Under section 7157, information about risk assessments conducted in 2026 and 2027 must be submitted to the Agency by April 1, 2028. The training safeguard example in section 7152 is discussed on the [CCPA employee training page](/regulations/ccpa-cpra-employee-training-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "training-and-roles",
+      "heading": "Do the ADMT rules require training, and what must staff understand?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Article 11 imposes no stand-alone training requirement. Two of its definitions, however, only work if specific people are competent: human involvement under section 7001(e) and the human appeal reviewer under section 7221(b)(1) both require someone who knows how to interpret and use the ADMT's output. An employer that cannot show its reviewers have that knowledge risks having its process treated as ADMT without human involvement, or losing the appeal exception."
+        },
+        {
+          "type": "table",
+          "caption": "Who needs what understanding under Article 11 (illustrative)",
+          "head": [
+            "Role",
+            "What they need to understand",
+            "Suggested frequency",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "Recruiters and managers who review ADMT outputs",
+              "What the tool's score or recommendation means, its known limitations, what other information to weigh, and that they may change the result",
+              "Before first use of each tool and at material updates",
+              "Tool specific assessment, sign off, sample of reviewed decisions"
+            ],
+            [
+              "Designated appeal reviewers",
+              "How to read the output, consider the appellant's information, and record a reasoned decision to uphold or overturn",
+              "Before designation; annual refresher",
+              "Designation record, assessment result, appeal decision notes"
+            ],
+            [
+              "HR operations and privacy staff handling requests",
+              "Opt-out methods, 15 business day cessation rule, access response content, non-retaliation",
+              "At onboarding and when procedures change",
+              "Procedure acknowledgment, request handling checks"
+            ],
+            [
+              "People analytics and HR technology owners",
+              "Which tools are ADMT, which significant decisions they support, and when a risk assessment is needed",
+              "At each new tool or use case",
+              "ADMT inventory, risk assessment records"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Designing these as [role based training](/glossary/role-based-training) with assessment, and keeping the results in the same record as the tool inventory, follows the method in [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations). The [human in the loop](/glossary/human-in-the-loop) glossary entry explains why reviewer competence, not only reviewer presence, is the control."
+        }
+      ]
+    },
+    {
+      "id": "enforcement",
+      "heading": "How are the rules enforced?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The CPPA enforces the CCPA and its regulations through administrative proceedings, and the Attorney General may bring civil actions. Administrative fines under Civil Code section 1798.155, as adjusted from January 1, 2025, are up to $2,663 per violation or $7,988 per intentional violation, according to the [CPPA's adjustment notice](https://cppa.ca.gov/regulations/cpi_adjustment.html). Because each affected applicant or employee can be a separate violation, a defective pre-use notice on a high volume careers site can add up quickly."
+        },
+        {
+          "type": "p",
+          "text": "Employers hiring in several states face overlapping regimes; see [NYC Local Law 144](/regulations/nyc-local-law-144-automated-employment-decision-tools) for bias audit and notice duties and the [Colorado AI Act page](/regulations/colorado-ai-act-deployer-obligations) for a comparable notice and human review model from January 1, 2027."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry breaks the section 7001(e) definition of human involvement into assessable concepts for each HR tool: interpreting the output, weighing other evidence and exercising authority. Reviewer competence, pre-use notice versions and risk assessments are then linked to the same tool record, so an employer can show which decisions had qualified human involvement."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the CCPA apply to employee data at all?",
+      "a": "Yes. The employment related exemption in the CCPA became inoperative on January 1, 2023, so job applicants, employees and contractors who are California residents are consumers with CCPA rights. The ADMT rules apply when a business subject to the CCPA uses ADMT for a significant decision about them."
+    },
+    {
+      "q": "If a recruiter clicks approve on every AI recommendation, is that human involvement?",
+      "a": "Probably not. Human involvement requires a reviewer who knows how to interpret and use the output, reviews and analyzes it with other relevant information, and has authority to change the decision. Rubber stamping does not meet the second element, so the tool would likely be ADMT substantially replacing human decisionmaking."
+    },
+    {
+      "q": "Can an employee who opts out be treated differently?",
+      "a": "The business must not retaliate against a consumer for exercising the opt-out right, under Civil Code section 1798.125 and section 7221(l). The pre-use notice must describe how the decision will be made for people who opt out, so an alternative process has to exist before the notice is issued."
+    },
+    {
+      "q": "Do targeted job advertisements count as a significant decision?",
+      "a": "No. Section 7001(ddd)(6) states that significant decision does not include advertising to a consumer. Ad targeting may still raise other issues, such as discrimination law or, for roles in the EU, the high-risk classification of targeted job advertising under the EU AI Act."
+    }
+  ],
+  "sources": [
+    {
+      "title": "California Consumer Privacy Act Regulations, California Code of Regulations, title 11, division 6, chapter 1 (effective January 1, 2026)",
+      "publisher": "California Privacy Protection Agency",
+      "url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf"
+    },
+    {
+      "title": "CCPA Updates, Cybersecurity Audits, Risk Assessments, Automated Decisionmaking Technology (ADMT), and Insurance Regulations",
+      "publisher": "California Privacy Protection Agency",
+      "url": "https://cppa.ca.gov/regulations/ccpa_updates.html"
+    },
+    {
+      "title": "Regulations: completed regulation packages",
+      "publisher": "California Privacy Protection Agency",
+      "url": "https://cppa.ca.gov/regulations/"
+    },
+    {
+      "title": "CCPA monetary thresholds and penalty amounts adjusted for inflation",
+      "publisher": "California Privacy Protection Agency",
+      "url": "https://cppa.ca.gov/regulations/cpi_adjustment.html"
+    },
+    {
+      "title": "California Consumer Privacy Act of 2018, Civil Code sections 1798.100 to 1798.199.100 (as amended, January 1, 2026)",
+      "publisher": "California Privacy Protection Agency",
+      "url": "https://cppa.ca.gov/pdf/20260101_ccpa_statute.pdf"
+    }
+  ],
+  "related": [
+    "ccpa-cpra-employee-training-requirements",
+    "us-state-privacy-law-employee-training",
+    "nyc-local-law-144-automated-employment-decision-tools",
+    "colorado-ai-act-deployer-obligations",
+    "human-in-the-loop",
+    "role-based-training"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "CPPA page: Board adopted regulations July 24, 2025 (CCPA updates, risk assessments, cybersecurity audits, ADMT access and opt-out, insurance); effective date January 1, 2026; approved by the Office of Administrative Law and filed with the Secretary of State on September 22, 2025.",
+      "source": "https://cppa.ca.gov/regulations/ccpa_updates.html"
+    },
+    {
+      "claim": "11 CCR 7001(e) ADMT definition: replace or substantially replace human decisionmaking; human involvement requires knowing how to interpret and use output, reviewing and analyzing output and other relevant information, and authority to make or change the decision; includes profiling; excludes listed infrastructure unless replacing human decisionmaking. 7001(ddd) significant decision incl. (4) employment: hiring, allocation/assignment of work and compensation, promotion, demotion, suspension and termination; (6) excludes advertising. 7001(eee) systematic observation.",
+      "source": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf"
+    },
+    {
+      "claim": "7200(a)-(b): business using ADMT for a significant decision before January 1, 2027 must comply by January 1, 2027. 7220 pre-use notice contents, timing and consolidated notice employment examples (productivity monitoring; resume screening plus vocal intonation, facial expression and gestures; systematic use for work allocation).",
+      "source": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf"
+    },
+    {
+      "claim": "7221(b)(1) human appeal exception with reviewer who must know how to interpret and use output and has authority to change the decision; (b)(2) hiring ability exception; (b)(3) work allocation and compensation exception; (c) two or more opt-out methods; (e) no account creation; (h) confirmation; (k) wait 12 months before asking consent again; (l) no retaliation; (n) cease within 15 business days. 7222 access response contents.",
+      "source": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf"
+    },
+    {
+      "claim": "7150(b)(3), (4) and (6) risk assessment triggers and illustrative example (c)(1) of emotion recognition in video interviews; 7155(a) conduct before processing, review at least every three years, update within 45 calendar days of material change; 7157(b)(1) risk assessments conducted in 2026 and 2027 submitted by April 1, 2028.",
+      "source": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf"
+    },
+    {
+      "claim": "1798.155(a) fines adjusted effective January 1, 2025 to $2,663 per violation or $7,988 per intentional violation; employment related exemption inoperative January 1, 2023 (both as recorded on the sibling CCPA page).",
+      "source": "https://cppa.ca.gov/regulations/cpi_adjustment.html"
+    },
+    {
+      "claim": "Civil Code 1798.199.90(a): violators subject to injunction and civil penalty of not more than $2,500 per violation or $7,500 per intentional violation, as adjusted; Civil Code 1798.145 employment related subdivisions become inoperative on January 1, 2023.",
+      "source": "https://cppa.ca.gov/pdf/20260101_ccpa_statute.pdf"
+    }
+  ]
+}
