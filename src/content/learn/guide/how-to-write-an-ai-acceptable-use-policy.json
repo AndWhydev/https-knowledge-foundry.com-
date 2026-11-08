@@ -1,0 +1,343 @@
+{
+  "slug": "how-to-write-an-ai-acceptable-use-policy",
+  "kind": "guide",
+  "title": "How do you write an AI acceptable use policy and train staff on it?",
+  "seoTitle": "Writing an AI acceptable use policy",
+  "description": "How to write an AI acceptable use policy and train staff on it, with policy sections mapped to training outcomes and evidence, drawing on OAIC, DOJ and NIST.",
+  "shortAnswer": "To write an AI acceptable use policy, inventory how AI is already used, then state which tools are approved, which uses are permitted, restricted, or prohibited, what data may be entered, when human review is required, who approves higher risk uses, and how to report problems. Train staff with scenarios matched to how they use AI, not just a read and sign acknowledgment, and keep records that link each policy rule to training and evidence.",
+  "keyTakeaways": [
+    "An AI acceptable use policy sets the rules for how staff may use AI tools at work: approved tools, permitted uses, data limits, human review, approvals, and reporting.",
+    "Regulators and frameworks expect it. The OAIC says organizations should establish policies and procedures for AI use; the DOJ asks how companies govern and train employees on AI; NIST AI 600-1 suggests acceptable use policies for generative AI.",
+    "A policy nobody understands does not change behavior. Train by exposure group using realistic scenarios, and test understanding.",
+    "Address unapproved AI use directly. Shadow AI usually signals unmet need, so pair rules with approved alternatives.",
+    "Map each policy section to a training outcome and an evidence record, so the policy, the training, and the audit trail stay aligned."
+  ],
+  "sections": [
+    {
+      "id": "what-it-is",
+      "heading": "What is an AI acceptable use policy?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An AI acceptable use policy is the organization's rulebook for using AI tools at work. It tells staff which tools they may use, for what tasks, with what data, under what review, and what to do when something goes wrong. It sits under the organization's broader [AI governance](/glossary/ai-governance) and usually alongside existing information security, privacy, and code of conduct policies."
+        },
+        {
+          "type": "p",
+          "text": "It is narrower than an AI governance framework. Governance covers accountability, risk assessment, inventory, and oversight of AI systems across their life; the acceptable use policy translates the parts that apply to everyday staff behavior into plain rules. For writing the training policy that sits around it, see [how to write a training policy](/guides/how-to-write-a-training-policy)."
+        }
+      ]
+    },
+    {
+      "id": "expectations",
+      "heading": "What do regulators and frameworks expect an AI use policy to cover?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Regulators and standards bodies expect organizations to have written rules for AI use, to make staff aware of them, and to be able to show the rules work. Four public sources, taken as examples from Australia and the United States, are specific enough to draft from."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Privacy regulators.** The Office of the Australian Information Commissioner (OAIC) says businesses \"should establish policies and procedures for the use of AI systems to facilitate transparency and ensure good privacy governance\", and recommends as best practice not entering personal information, particularly sensitive information, into publicly available generative AI tools ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products)).",
+            "**Prosecutors evaluating compliance programs.** The US Department of Justice (DOJ) [Evaluation of Corporate Compliance Programs](https://www.justice.gov/media/1160391/dl?inline), updated in September 2024, asks: \"What is the company's approach to governance regarding the use of new technologies such as AI in its commercial business and in its compliance program?\" and \"How does the company train its employees on the use of emerging technologies such as AI?\" It also asks whether controls ensure technology \"is used only for its intended purposes\".",
+            "**Risk management frameworks.** The National Institute of Standards and Technology (NIST) [Generative AI Profile (NIST AI 600-1)](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf) suggests organizations \"establish transparent acceptable use policies for GAI that address illegal use or applications of GAI\" (GV-1.4-002) and update them to cover contractors, consultants, and other third parties (GV-6.1-010). GOVERN 2.2 of the [AI RMF](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) expects personnel and partners to receive training to act consistently with policies and procedures.",
+            "**Government AI adoption guidance.** Australia's National AI Centre recommends that before publishing, an AI policy should clearly outline \"what AI can and can't be used for\", \"who approves higher-risk use cases\", \"what data staff can put into tools\", \"when staff need to oversee AI use\", \"how staff should report issues or misuse\", and \"when the policy will be reviewed\" ([National AI Centre](https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/create-ai-policy))."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Organizations subject to the EU AI Act should also treat the policy and its training as part of their AI literacy measures under Article 4. See [EU AI Act AI literacy](/regulations/eu-ai-act-ai-literacy) and [DOJ compliance program training expectations](/regulations/doj-compliance-program-training-expectations)."
+        }
+      ]
+    },
+    {
+      "id": "policy-sections",
+      "heading": "What sections should an AI acceptable use policy contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A practical policy has about ten sections, each of which should produce a specific staff behavior. The table below maps each section to a training outcome and the evidence that shows the outcome was achieved. It is this guide's original synthesis, not a template from any regulator."
+        },
+        {
+          "type": "table",
+          "caption": "AI acceptable use policy sections mapped to training outcomes and evidence",
+          "head": [
+            "Policy section",
+            "What it states",
+            "Training outcome",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "Purpose, scope, and definitions",
+              "Who the policy covers (including contractors) and what counts as an AI tool",
+              "Staff can recognize when a tool they use is in scope",
+              "Scope question in the knowledge check"
+            ],
+            [
+              "Approved tools",
+              "The list of approved tools and how to request a new one",
+              "Staff use only approved tools and know how to request others",
+              "Tool request log; access records"
+            ],
+            [
+              "Permitted, restricted, and prohibited uses",
+              "Uses allowed freely, uses needing approval, and uses not allowed",
+              "Staff classify a proposed use correctly",
+              "Scenario assessment results"
+            ],
+            [
+              "Data rules",
+              "What may and may not be entered: personal, sensitive, confidential, client, and third party data",
+              "Staff decide correctly what data can go into which tool",
+              "Scenario results; data loss prevention alerts trend"
+            ],
+            [
+              "Human review and accuracy",
+              "When outputs must be checked, by whom, and to what standard",
+              "Staff check outputs before relying on them and know when expert review is needed",
+              "Review records for high risk outputs"
+            ],
+            [
+              "Transparency and disclosure",
+              "When AI use must be disclosed to customers, colleagues, or learners",
+              "Staff disclose AI use where the policy requires",
+              "Disclosure statements; sample checks"
+            ],
+            [
+              "Intellectual property and confidentiality",
+              "Ownership of outputs and limits on using third party material",
+              "Staff avoid entering or reproducing material they have no right to use",
+              "Knowledge check; legal review log"
+            ],
+            [
+              "Approvals and accountability",
+              "Who approves higher risk uses and who owns each AI system",
+              "Staff know who to ask before a restricted use",
+              "Approval register"
+            ],
+            [
+              "Reporting issues and misuse",
+              "How to report errors, harmful outputs, data incidents, or policy breaches",
+              "Staff report incidents promptly through the right channel",
+              "Incident and near miss reports"
+            ],
+            [
+              "Training, monitoring, and review",
+              "Required training by role, monitoring of use, and the review date",
+              "Staff complete the training required for their role",
+              "Training records by exposure group; review minutes"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Keep the main policy short and plain, and put tool lists and detailed procedures in supporting documents that can change without re-approving the whole policy. Each rule should be testable: if you cannot write a scenario question for it, it is probably too vague."
+        }
+      ]
+    },
+    {
+      "id": "drafting-steps",
+      "heading": "How do you write the policy?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Write the policy from what staff actually do with AI, not from a generic template, then test it with the people who will follow it. Australia's National AI Centre makes the same point, advising organizations to \"test the draft with the people who will use, review or oversee it\"."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Find current use.** Survey teams and review IT data to find which AI tools are in use, including unapproved ones. Output: a baseline of current use.",
+            "**Classify uses by risk.** Separate low risk drafting and summarizing from uses that affect people, involve personal or confidential data, or produce content others rely on. Output: permitted, restricted, and prohibited categories.",
+            "**Set data rules with privacy and security.** Align with privacy law in each jurisdiction and with information classification. Output: data rules per tool.",
+            "**Define review and approval.** Decide when human review is required, who performs it, and who approves restricted uses. Output: review standards and an approval route.",
+            "**Draft in plain language.** Use the terms staff already use and give examples for each rule. Output: a draft policy and supporting procedures.",
+            "**Test with users.** Walk representative staff through realistic scenarios and fix rules they misread. Output: a revised draft and test notes.",
+            "**Approve, publish, and train.** Approve through normal governance, publish where staff can search it, and launch training. Output: an approved policy with a training plan."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "heading": "How do you train staff on an AI acceptable use policy?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Train staff by showing them how the rules apply to the tasks they actually do, then checking they can apply them. A [policy attestation](/glossary/policy-attestation) on its own shows that someone clicked a box, not that they understood the data rules or know when review is required."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Segment by exposure.** Everyday users need the data rules, review rules, and reporting route. Operators of AI in decisions about people need system specific training. Approvers need to understand the risk criteria. See [how to build an AI literacy training program](/guides/how-to-build-an-ai-literacy-training-program).",
+            "**Teach with scenarios.** Use cases from your own organization, such as pasting a client email into a public chatbot or using AI to summarize a complaint, and ask staff to decide what the policy requires.",
+            "**Test understanding.** Short scenario assessments give better evidence than attestation alone and show which rules are commonly misunderstood.",
+            "**Give quick references.** A one page summary and an approved tools list at the point of use reduce reliance on memory.",
+            "**Measure behavior.** Track reported incidents, approval requests, and data protection alerts before and after training."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "These methods answer the questions the DOJ asks of any compliance training: whether it is tailored to the audience, whether employees can ask questions, how the company measured effectiveness, and whether training has affected employee behavior."
+        }
+      ]
+    },
+    {
+      "id": "unapproved-use",
+      "heading": "How should the policy handle unapproved AI use?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The policy should make it safe for staff to disclose current AI use and give them approved alternatives, while still setting clear limits. Banning AI without offering usable tools tends to push use out of sight."
+        },
+        {
+          "type": "p",
+          "text": "Australia's National AI Centre describes shadow AI as \"when people use AI tools for their work outside of an official policy or approved approach\" and notes it is \"often a signal of unmet need, time pressure, or curiosity from early adopters\" ([National AI Centre](https://www.ai.gov.au/staying-safe-and-responsible/manage-unapproved-ai-use)). Its advice is to create a safe space for people to disclose their use, provide guidance on how and when to use AI and which tools are acceptable, and invest in training and policies."
+        },
+        {
+          "type": "p",
+          "text": "In practice, consider an amnesty period when the policy launches, a simple route to request new tools, and clear consequences for continued use of prohibited tools with restricted data. The DOJ's question about \"how is accountability over use of AI monitored and enforced?\" applies here."
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "heading": "How often should the policy and its training be reviewed?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Review the policy at least annually and whenever tools, uses, or laws change materially, and update the training in the same cycle. AI tools change faster than most policy subjects, so a policy that is not reviewed quickly drifts from practice."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "A new tool is approved, or an approved tool adds features such as agents, plugins, or data retention changes.",
+            "A new use case moves from prohibited or restricted to permitted, or the reverse.",
+            "An incident or audit finding reveals a gap or a misunderstood rule.",
+            "New regulator guidance or legislation in a jurisdiction where you operate."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Record what changed, notify affected staff, and retrain where a rule changed. Version history for both the policy and the training lets you show which version a person was trained on at the time of any incident. See [how to update training when regulations change](/guides/how-to-update-training-when-regulations-change)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry treats each policy rule as a defined concept with a learning outcome and an assessment point, so training and evidence are built from the policy rather than written separately. When a rule changes, the affected content, assessments, and people are identified from the framework. The [compliance programs](/programs/compliance) page describes this approach."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should an AI acceptable use policy ban public AI chatbots?",
+      "a": "Not necessarily. Many organizations allow public tools for low risk tasks with no personal or confidential data, and require approved enterprise tools for anything else. The OAIC recommends as best practice that personal information, particularly sensitive information, is not entered into publicly available generative AI tools."
+    },
+    {
+      "q": "Who should own the AI acceptable use policy?",
+      "a": "Usually a senior AI governance owner, with input from privacy, security, legal, compliance, HR, and the business. Australia's foundations guidance suggests assigning a senior leader as the overall AI governance owner. Learning and development owns the training that implements the policy."
+    },
+    {
+      "q": "Does the policy need to cover contractors?",
+      "a": "Yes, where they use AI on the organization's behalf or handle its data. NIST AI 600-1 suggests updating acceptable use policies to address contractors, consultants, and other third parties. Extend the policy through contract terms and require equivalent training or evidence."
+    },
+    {
+      "q": "Is a separate AI policy needed if we already have IT acceptable use and privacy policies?",
+      "a": "Often a short AI specific policy is clearer, because AI raises distinct issues such as output accuracy, disclosure, and data entered into third party models. It can cross refer to existing IT and privacy policies rather than repeating them, as long as staff can find the AI rules easily."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Guidance on privacy and the use of commercially available AI products",
+      "publisher": "Office of the Australian Information Commissioner",
+      "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products"
+    },
+    {
+      "title": "Evaluation of Corporate Compliance Programs (Updated September 2024)",
+      "publisher": "US Department of Justice, Criminal Division",
+      "url": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+    },
+    {
+      "title": "Create an AI policy",
+      "publisher": "National AI Centre, Department of Industry, Science and Resources",
+      "url": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/create-ai-policy"
+    },
+    {
+      "title": "Manage unapproved AI use",
+      "publisher": "National AI Centre, Department of Industry, Science and Resources",
+      "url": "https://www.ai.gov.au/staying-safe-and-responsible/manage-unapproved-ai-use"
+    },
+    {
+      "title": "Guidance for AI adoption: foundations",
+      "publisher": "National AI Centre, Department of Industry, Science and Resources",
+      "url": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-foundations"
+    }
+  ],
+  "related": [
+    "how-to-build-an-ai-literacy-training-program",
+    "policy-attestation",
+    "how-to-govern-ai-generated-learning-content",
+    "doj-compliance-program-training-expectations",
+    "ai-governance",
+    "how-to-convert-policies-into-training"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 9,
+  "factCheck": [
+    {
+      "claim": "OAIC: businesses should establish policies and procedures for the use of AI systems to facilitate transparency and ensure good privacy governance; recommends as best practice not entering personal information, particularly sensitive information, into publicly available generative AI tools.",
+      "source": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products"
+    },
+    {
+      "claim": "DOJ ECCP (Updated September 2024), risk assessment section: approach to governance regarding use of new technologies such as AI; controls ensure technology is used only for its intended purposes; how is accountability over use of AI monitored and enforced; how does the company train its employees on the use of emerging technologies such as AI.",
+      "source": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "claim": "DOJ ECCP training questions: form and language appropriate for audience; process for employees to ask questions; how the company measured effectiveness; impact on employee behavior.",
+      "source": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "claim": "NIST AI 600-1 GV-1.4-002: establish transparent acceptable use policies for GAI that address illegal use or applications of GAI; GV-6.1-010: update GAI acceptable use policies to address proprietary and open-source GAI technologies and data, and contractors, consultants, and other third-party personnel.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    {
+      "claim": "National AI Centre Create an AI policy: before finalising, check the policy outlines what AI can and can't be used for, who approves higher-risk use cases, what data staff can put into tools, when staff need to oversee AI use, how staff should report issues or misuse, when the policy will be reviewed; test the draft with the people who will use, review or oversee it; template published 22 April 2026.",
+      "source": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/create-ai-policy"
+    },
+    {
+      "claim": "National AI Centre: shadow AI is when people use AI tools for their work outside of an official policy or approved approach; often a signal of unmet need, time pressure, or curiosity from early adopters; create a safe space; provide guidance on acceptable tools; invest in training and policies.",
+      "source": "https://www.ai.gov.au/staying-safe-and-responsible/manage-unapproved-ai-use"
+    },
+    {
+      "claim": "Foundations guidance: assign a senior leader as the overall AI governance owner; create an AI policy that provides advice to staff on AI risks.",
+      "source": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-foundations"
+    }
+  ]
+}

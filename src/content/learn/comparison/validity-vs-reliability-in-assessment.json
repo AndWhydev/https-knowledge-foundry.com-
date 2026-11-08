@@ -1,0 +1,285 @@
+{
+  "slug": "validity-vs-reliability-in-assessment",
+  "kind": "comparison",
+  "title": "Validity vs reliability in assessment: what is the difference?",
+  "seoTitle": "Validity vs reliability in assessment",
+  "description": "Validity asks whether assessment results support your decision; reliability asks whether results are consistent. How they differ and how to evidence both.",
+  "shortAnswer": "Validity is the degree to which evidence and theory support the way assessment results are interpreted and used, such as a decision that someone is competent. Reliability is the consistency of results across occasions, test forms, and assessors. An assessment can be reliable without being valid, because it can measure the wrong thing consistently. A defensible competence decision needs both: consistent results that genuinely reflect the required performance.",
+  "keyTakeaways": [
+    "The Standards for Educational and Psychological Testing define validity as support for interpretations of scores for proposed uses, not a property of the test itself.",
+    "Reliability, which the Standards call reliability/precision, is consistency of scores across replications of the testing procedure.",
+    "Reliability is necessary for a valid decision but never sufficient on its own.",
+    "Competency-based training rules use the same ideas. Australia's 2025 Standards for RTOs, for example, list validity and reliability among the principles of assessment.",
+    "The need for precision rises with the stakes of the decision, so high-consequence assessments need the strongest evidence of both."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the difference between validity and reliability?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Validity is about meaning and use: whether the results justify the decision you make from them. Reliability is about consistency: whether you would get the same result if the assessment were repeated with another form, another occasion, or another assessor."
+        },
+        {
+          "type": "p",
+          "text": "The Standards for Educational and Psychological Testing, published jointly by the American Educational Research Association (AERA), the American Psychological Association (APA), and the National Council on Measurement in Education (NCME), state that validity \"refers to the degree to which evidence and theory support the interpretations of test scores for proposed uses of tests\". They add: \"It is the interpretations of test scores for proposed uses that are evaluated, not the test itself\" ([AERA, APA, and NCME, 2014](https://www.testingstandards.net/open-access-files.html))."
+        },
+        {
+          "type": "p",
+          "text": "For reliability, the Standards use the term reliability/precision \"to denote the more general notion of consistency of the scores across instances of the testing procedure\". The 2014 edition is available open access from the [AERA Standards page](https://www.aera.net/Standards) and the joint testing standards site."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do validity and reliability compare side by side?",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Validity and reliability compared",
+          "head": [
+            "Dimension",
+            "Validity",
+            "Reliability"
+          ],
+          "rows": [
+            [
+              "Core question",
+              "Do the results support the decision we make?",
+              "Would we get the same result again?"
+            ],
+            [
+              "What is evaluated",
+              "An interpretation of results for a specific use",
+              "The consistency of results across replications"
+            ],
+            [
+              "Typical failure",
+              "Testing recall when the role requires performance",
+              "Two assessors reaching different decisions on the same evidence"
+            ],
+            [
+              "Main sources of evidence",
+              "Content coverage, response processes, internal structure, relations to other measures, consequences",
+              "Repeat or parallel forms, inter-assessor agreement, decision consistency near the pass mark"
+            ],
+            [
+              "Design levers",
+              "Blueprint aligned to outcomes, realistic tasks, right method for the level",
+              "Clear benchmarks, assessor training, moderation, enough items or observations"
+            ],
+            [
+              "Relationship",
+              "Depends on reliability",
+              "Does not guarantee validity"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reliable-not-valid",
+      "heading": "Can an assessment be reliable but not valid?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yes. An assessment can produce the same results every time and still support the wrong conclusion. A forty-item quiz on the wording of a lockout procedure may give highly consistent scores, yet tell you little about whether a technician can isolate a machine safely."
+        },
+        {
+          "type": "p",
+          "text": "The reverse does not hold. If results are inconsistent, any interpretation of a single result is unstable, so validity suffers. The Standards make the stakes explicit: \"the need for precision increases as the consequences of decisions and interpretations grow in importance.\" Where a decision can be corroborated from other sources or easily corrected, more modest reliability may be enough."
+        },
+        {
+          "type": "p",
+          "text": "The Standards name two broad threats to validity: construct underrepresentation, where the assessment misses important parts of what it should measure, and construct-irrelevant variance, where scores are affected by something unrelated, such as reading speed or confusing item wording. Both are common in workplace quizzes. See [how to write multiple-choice questions](/guides/how-to-write-multiple-choice-questions) for item flaws that add irrelevant difficulty."
+        }
+      ]
+    },
+    {
+      "id": "competency-standards",
+      "heading": "How do competency and certification standards use the two terms?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Competency and certification standards adopt the same distinction in plainer language: validity means the assessment tests what the standard requires, and reliability means different assessors reach comparable decisions. Two examples show how the ideas are written into requirements."
+        },
+        {
+          "type": "p",
+          "text": "In Australia, Standard 1.4 of the 2025 Standards for Registered Training Organisations (RTOs), regulated by the Australian Skills Quality Authority (ASQA), sets four principles of assessment. Validity requires that \"assessment includes practical application components that enable the VET student to demonstrate the relevant skills and knowledge in a practical setting\". Reliability requires that \"assessment evidence is interpreted consistently by assessors and the outcomes of assessment are comparable irrespective of which assessor is conducting the assessment\" ([ASQA Assessment Practice Guide](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide)). Validity appears again among the rules of evidence, alongside sufficiency, authenticity, and currency."
+        },
+        {
+          "type": "p",
+          "text": "For certification of persons, the 2012 edition of ISO/IEC 17024 defined validity as evidence that the assessment measures what it is intended to measure, as defined by the certification scheme, and reliability as the extent to which examination scores are consistent across times, locations, forms, and examiners. A third edition, [ISO/IEC 17024:2026](https://www.iso.org/standard/86291.html), was published on 1 April 2026 ([European co-operation for Accreditation](https://european-accreditation.org/publication-of-the-new-international-standards-with-the-requirements-for-bodies-performing-inspection-and-certification-of-persons/)); certification bodies should check its current wording with their accreditation body."
+        }
+      ]
+    },
+    {
+      "id": "evidence-both",
+      "heading": "How do you evidence validity and reliability for a workplace assessment?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "You evidence validity by showing the assessment covers the required outcomes at the right level with a suitable method, and reliability by showing that decisions are consistent across assessors, forms, and occasions. The checklist below is an original planning aid; scale the effort to the consequences of the decision."
+        },
+        {
+          "type": "table",
+          "caption": "Checks that produce evidence of validity and reliability",
+          "head": [
+            "Check",
+            "Evidence it produces",
+            "Supports"
+          ],
+          "rows": [
+            [
+              "Map every item or task to an outcome in an assessment blueprint",
+              "Coverage table showing no outcome is missing or over-tested",
+              "Validity (content)"
+            ],
+            [
+              "Match method to level, for example observation for performance outcomes",
+              "Method rationale recorded against each outcome",
+              "Validity"
+            ],
+            [
+              "Expert review of items before use by people who did not write them",
+              "Review record with changes made",
+              "Validity"
+            ],
+            [
+              "Write observable benchmarks and a decision rule",
+              "Marking guide that two assessors can apply the same way",
+              "Reliability"
+            ],
+            [
+              "Double-mark or co-observe a sample",
+              "Agreement rate between assessors and resolved differences",
+              "Reliability"
+            ],
+            [
+              "Analyze item statistics after each administration",
+              "Difficulty, discrimination, and distractor reports",
+              "Both"
+            ],
+            [
+              "Review decisions near the pass mark",
+              "Evidence that borderline results were checked",
+              "Reliability of the decision"
+            ],
+            [
+              "Validate on a schedule and after changes",
+              "Validation report with sample, findings, and actions",
+              "Both"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Planning tools help. An [assessment blueprint](/glossary/assessment-blueprint) is the main validity control, and a defensible [pass mark](/guides/how-to-set-a-pass-mark-for-an-assessment) links reliability to the decision that matters. For a broader method, see [how to design competency assessments](/guides/how-to-design-competency-assessments)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each assessment point to the outcomes, concepts, and obligations it is meant to evidence, so coverage gaps and over-testing are visible before an assessment is used. Assessor benchmarks and decision rules are stored with the assessment point, which supports consistent judgments and gives reviewers a record of how validity and reliability were addressed."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is validity more important than reliability?",
+      "a": "The Standards call validity the most fundamental consideration in developing and evaluating tests, because it concerns whether results support the decision. But validity depends on adequate reliability. In practice, treat validity as the goal and reliability as a condition for reaching it."
+    },
+    {
+      "q": "Can you say a test is valid?",
+      "a": "Strictly, no. The Standards state that it is incorrect to use the unqualified phrase \"the validity of the test\". Validity belongs to a particular interpretation for a specified use. A quiz may support a decision that someone recalls a rule while not supporting a decision that they can apply it."
+    },
+    {
+      "q": "How do you improve reliability in observed assessments?",
+      "a": "Write benchmarks that describe observable behavior, train assessors together on sample performances, co-observe or double-mark a sample, discuss and resolve disagreements, and use more than one observation where the decision is high stakes. Record the results so reviewers can see that consistency was checked."
+    },
+    {
+      "q": "Does a high pass rate mean an assessment is valid?",
+      "a": "No. Pass rates describe outcomes, not whether the assessment measured the right thing. A high pass rate can reflect good training or an assessment that is too easy or tests the wrong level. Validity evidence comes from coverage, method, and review, not from the distribution of results."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Standards for Educational and Psychological Testing (2014 edition, open access)",
+      "publisher": "American Educational Research Association (AERA), American Psychological Association (APA), and National Council on Measurement in Education (NCME)",
+      "url": "https://www.aera.net/Standards"
+    },
+    {
+      "title": "Standards for Educational and Psychological Testing: open access files",
+      "publisher": "AERA, APA, and NCME",
+      "url": "https://www.testingstandards.net/open-access-files.html"
+    },
+    {
+      "title": "Assessment Practice Guide (2025 Standards for RTOs)",
+      "publisher": "Australian Skills Quality Authority (ASQA)",
+      "url": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
+    },
+    {
+      "title": "ISO/IEC 17024:2026 Conformity assessment: General requirements for bodies operating certification of persons",
+      "publisher": "International Organization for Standardization (ISO)",
+      "url": "https://www.iso.org/standard/86291.html"
+    },
+    {
+      "title": "Publication of the new international standards with the requirements for bodies performing inspection and certification of persons",
+      "publisher": "European co-operation for Accreditation (EA)",
+      "url": "https://european-accreditation.org/publication-of-the-new-international-standards-with-the-requirements-for-bodies-performing-inspection-and-certification-of-persons/"
+    }
+  ],
+  "related": [
+    "criterion-referenced-vs-norm-referenced-assessment",
+    "how-to-set-a-pass-mark-for-an-assessment",
+    "competency-assessment",
+    "assessment-blueprint",
+    "how-to-design-competency-assessments",
+    "formative-vs-summative-assessment"
+  ],
+  "productLinks": [
+    {
+      "label": "Verification and trust",
+      "href": "/platform/verification-trust"
+    },
+    {
+      "label": "Standards and accreditation",
+      "href": "/platform/standards-accreditation"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 11,
+  "factCheck": [
+    {
+      "claim": "Standards (2014) chapter 1: validity refers to the degree to which evidence and theory support the interpretations of test scores for proposed uses; interpretations are evaluated, not the test itself; incorrect to use the unqualified phrase the validity of the test; validity is the most fundamental consideration",
+      "source": "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf"
+    },
+    {
+      "claim": "Standards (2014) chapter 2: reliability/precision denotes consistency of scores across instances of the testing procedure; need for precision increases with consequences; modest reliability may suffice where decisions can be corroborated or corrected",
+      "source": "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf"
+    },
+    {
+      "claim": "Standards name construct underrepresentation and construct-irrelevant variance as threats to validity",
+      "source": "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf"
+    },
+    {
+      "claim": "ASQA Assessment Practice Guide, Standard 1.4: principles of fairness, flexibility, validity, reliability (wording quoted); rules of evidence validity, sufficiency, authenticity, currency",
+      "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
+    },
+    {
+      "claim": "ISO/IEC 17024:2012 definitions 3.17 validity and 3.18 reliability (from public preview of the standard)",
+      "source": "https://cdn.standards.iteh.ai/samples/52993/ddec6c8759214c5d958bf8f6d6d9ffaf/ISO-IEC-17024-2012.pdf"
+    },
+    {
+      "claim": "ISO/IEC 17024:2026 published 1 April 2026",
+      "source": "https://european-accreditation.org/publication-of-the-new-international-standards-with-the-requirements-for-bodies-performing-inspection-and-certification-of-persons/"
+    }
+  ]
+}

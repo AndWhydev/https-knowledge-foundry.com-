@@ -1,0 +1,247 @@
+{
+  "slug": "ai-governance",
+  "kind": "glossary",
+  "title": "What is AI governance?",
+  "seoTitle": "What is AI governance?",
+  "description": "AI governance is the policies, roles and controls that direct how an organization uses AI. How ISO/IEC 42001, the NIST AI RMF and OECD principles frame it.",
+  "shortAnswer": "AI governance is the set of policies, roles, processes and controls an organization uses to direct and oversee how it develops, buys and uses artificial intelligence (AI), so that AI use stays lawful, safe and aligned with its objectives. The main reference frameworks are ISO/IEC 42001, a certifiable AI management system standard, the voluntary NIST AI Risk Management Framework, and the OECD AI Principles.",
+  "keyTakeaways": [
+    "AI governance answers who decides how AI is used, under which rules, with what oversight, and how that is evidenced.",
+    "ISO/IEC 42001:2023 specifies requirements for an AI management system and applies to any organization that provides or uses AI based products or services.",
+    "The NIST AI Risk Management Framework is voluntary; its GOVERN function is cross cutting and includes training of personnel and partners (GOVERN 2.2).",
+    "The OECD AI Principles, adopted in 2019 and updated in May 2024, include accountability and traceability across the AI lifecycle.",
+    "Training and competence are part of governance in all three frameworks, not an add on."
+  ],
+  "term": "AI governance",
+  "alsoKnownAs": [
+    "Artificial intelligence governance",
+    "Responsible AI governance",
+    "AI management system"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What does AI governance mean?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI governance means deciding, documenting and checking how an organization uses AI: which uses are allowed, who is accountable for each system, how risks are assessed and treated, what human oversight applies, and what records prove it. It sits within corporate governance and connects to existing risk, privacy, security and compliance functions."
+        },
+        {
+          "type": "p",
+          "text": "Governance is distinct from the technical work of building or testing models. A governance framework sets the rules and responsibilities; engineering, procurement and operations teams carry them out; internal audit and management review check that they work."
+        }
+      ]
+    },
+    {
+      "id": "frameworks",
+      "heading": "Which frameworks define AI governance?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Three international reference points are used most often: ISO/IEC 42001 for a certifiable management system, the NIST AI Risk Management Framework for voluntary risk practice, and the OECD AI Principles for high level values. Laws such as the EU Artificial Intelligence Act add binding obligations for particular systems and roles."
+        },
+        {
+          "type": "p",
+          "text": "**ISO/IEC 42001.** [ISO/IEC 42001:2023](https://www.iso.org/standard/42001), published in December 2023 by the joint ISO and IEC committee on AI (JTC 1/SC 42), specifies requirements and guidance for \"establishing, implementing, maintaining and continually improving an AI (artificial intelligence) management system within the context of an organization\". It applies to any organization, regardless of size, type and nature, that provides or uses products or services that utilize AI systems."
+        },
+        {
+          "type": "p",
+          "text": "ISO/IEC 42001 follows the harmonized structure shared by other ISO management system standards, with clauses on context, leadership, planning, support (including competence and awareness), operation (including AI risk assessment and AI system impact assessment), performance evaluation and improvement, plus a normative Annex A of reference controls. Organizations can be certified against it by certification bodies, which ISO/IEC 42006:2025 sets requirements for."
+        },
+        {
+          "type": "p",
+          "text": "**NIST AI RMF.** The US National Institute of Standards and Technology [AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) (AI RMF 1.0, released January 26, 2023) is \"intended for voluntary use\". Its core has four functions, GOVERN, MAP, MEASURE and MANAGE, and the framework describes governance as \"a cross-cutting function to inform and be infused throughout the other three functions\" ([NIST AI 100-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf)). As at November 2026, NIST states that AI RMF 1.0 is being revised."
+        },
+        {
+          "type": "p",
+          "text": "**OECD AI Principles.** The [OECD AI Principles](https://oecd.ai/en/ai-principles), adopted in 2019 and updated in May 2024, set five values based principles, including accountability. [Principle 1.5](https://oecd.ai/en/dashboards/ai-principles/P9) asks AI actors to \"ensure traceability, including in relation to datasets, processes and decisions made during the AI system lifecycle\". They are a policy instrument, not a certifiable standard."
+        },
+        {
+          "type": "p",
+          "text": "The differences between the first two are covered in [ISO/IEC 42001 vs NIST AI RMF](/compare/iso-42001-vs-nist-ai-rmf)."
+        }
+      ]
+    },
+    {
+      "id": "components",
+      "heading": "What does an AI governance program include?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An AI governance program typically includes a policy, an inventory of AI systems, assigned accountability, a risk and impact assessment process, human oversight rules, competence and training, monitoring, and records. The table below maps each component to the frameworks and to the training evidence it usually needs; the mapping is illustrative and not a substitute for reading the frameworks."
+        },
+        {
+          "type": "table",
+          "caption": "AI governance components, framework references and training evidence (illustrative)",
+          "head": [
+            "Component",
+            "Framework reference",
+            "Training and competence evidence"
+          ],
+          "rows": [
+            [
+              "AI policy and acceptable use rules",
+              "ISO/IEC 42001 leadership clause; NIST GOVERN 1",
+              "Policy attestation and scenario checks for staff who use AI"
+            ],
+            [
+              "Roles and accountability",
+              "NIST GOVERN 2.1 and 2.3; OECD principle 1.5",
+              "Role descriptions and briefing records for accountable owners"
+            ],
+            [
+              "Risk and impact assessment",
+              "ISO/IEC 42001 operation clause; NIST MAP",
+              "Competence records for assessors"
+            ],
+            [
+              "Human oversight",
+              "NIST GOVERN 3.2 and MAP 3.5; EU AI Act Article 14 for high-risk systems",
+              "Reviewer training on system limits and automation bias"
+            ],
+            [
+              "Competence and awareness",
+              "ISO/IEC 42001 support clause (7.2, 7.3); NIST GOVERN 2.2; EU AI Act Article 4",
+              "Role based curriculum, assessments and records"
+            ],
+            [
+              "Monitoring, audit and review",
+              "ISO/IEC 42001 performance evaluation; NIST MEASURE and MANAGE",
+              "Internal auditor competence; records of review decisions"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Writing the rules staff follow is covered in [how to write an AI acceptable use policy](/guides/how-to-write-an-ai-acceptable-use-policy). Governing AI used to produce training itself is covered in [how to govern AI generated learning content](/guides/how-to-govern-ai-generated-learning-content)."
+        }
+      ]
+    },
+    {
+      "id": "role-of-training",
+      "heading": "Why is training part of AI governance?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training is part of AI governance because controls only work if the people operating them know what to do. Every major framework includes a competence or training requirement alongside its technical controls."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "NIST AI RMF GOVERN 2.2: \"The organization's personnel and partners receive AI risk management training to enable them to perform their duties and responsibilities consistent with related policies, procedures, and agreements.\" See [AI risk training under the NIST AI RMF](/regulations/nist-ai-rmf-ai-risk-training).",
+            "ISO/IEC 42001 includes clauses on competence (7.2) and awareness (7.3) under its support clause. See [ISO/IEC 42001 competence and awareness](/regulations/iso-iec-42001-competence-and-awareness).",
+            "The EU AI Act requires providers and deployers to take measures to support the [AI literacy](/glossary/ai-literacy) of their staff (Article 4, as amended in 2026)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Governance training should be role based: board members need to set risk appetite, system owners need to run assessments, reviewers need to exercise [human in the loop](/glossary/human-in-the-loop) oversight, and all users need to follow the policy."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps governance requirements, such as framework clauses and internal AI policies, to the concepts and assessment points each role needs, with provenance to the source clause. Organizations can then show which requirement each piece of training addresses and how competence was assessed."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is AI governance a legal requirement?",
+      "a": "Parts of it can be. The EU AI Act imposes binding obligations, such as AI literacy measures and, for high-risk systems, human oversight and risk management. ISO/IEC 42001, the NIST AI RMF and the OECD AI Principles are voluntary, though customers or regulators may expect them in practice."
+    },
+    {
+      "q": "Who should own AI governance?",
+      "a": "Senior leadership should own it, with a named executive or committee accountable. The NIST AI RMF expects executive leadership to take responsibility for decisions about AI risks (GOVERN 2.3). Day to day work is usually shared across risk, compliance, legal, security, data and the business units using AI."
+    },
+    {
+      "q": "Can an organization be certified for AI governance?",
+      "a": "Yes, against ISO/IEC 42001, through an independent certification body. ISO/IEC 42006:2025 sets requirements for bodies that audit and certify AI management systems. There is no certification against the NIST AI RMF or the OECD AI Principles."
+    },
+    {
+      "q": "How does AI governance relate to data governance?",
+      "a": "They overlap but are not the same. Data governance covers the quality, ownership, security and lawful use of data. AI governance includes those issues for AI training and input data, and adds questions about model behavior, human oversight, impacts on people and accountability for AI outputs."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ISO/IEC 42001:2023 Information technology: Artificial intelligence: Management system",
+      "publisher": "International Organization for Standardization (ISO) and International Electrotechnical Commission (IEC)",
+      "url": "https://www.iso.org/standard/42001"
+    },
+    {
+      "title": "ISO/IEC 42006:2025 Requirements for bodies providing audit and certification of artificial intelligence management systems",
+      "publisher": "International Organization for Standardization (ISO) and International Electrotechnical Commission (IEC)",
+      "url": "https://www.iso.org/standard/42006"
+    },
+    {
+      "title": "AI Risk Management Framework",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+    },
+    {
+      "title": "OECD AI Principles overview",
+      "publisher": "Organisation for Economic Co-operation and Development (OECD)",
+      "url": "https://oecd.ai/en/ai-principles"
+    },
+    {
+      "title": "OECD AI Principles: Accountability (Principle 1.5)",
+      "publisher": "Organisation for Economic Co-operation and Development (OECD)",
+      "url": "https://oecd.ai/en/dashboards/ai-principles/P9"
+    }
+  ],
+  "related": [
+    "iso-42001-vs-nist-ai-rmf",
+    "ai-literacy",
+    "how-to-write-an-ai-acceptable-use-policy",
+    "iso-iec-42001-competence-and-awareness",
+    "nist-ai-rmf-ai-risk-training",
+    "how-to-govern-ai-generated-learning-content"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    },
+    {
+      "label": "Standards and accreditation",
+      "href": "/platform/standards-accreditation"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 9,
+  "factCheck": [
+    {
+      "claim": "ISO/IEC 42001:2023 scope: specifies requirements and provides guidance for establishing, implementing, maintaining and continually improving an AI management system; applicable to any organization regardless of size, type and nature that provides or uses products or services that utilize AI systems; applies the harmonized structure; TOC includes 7.2 Competence, 7.3 Awareness, 8.2 AI risk assessment, 8.4 AI system impact assessment, Annex A (normative) reference control objectives and controls; published December 2023; JTC 1/SC 42",
+      "source": "https://www.iso.org/standard/42001"
+    },
+    {
+      "claim": "ISO/IEC 42006:2025 sets requirements for bodies providing audit and certification of AI management systems according to ISO/IEC 42001; published July 2025",
+      "source": "https://www.iso.org/standard/42006"
+    },
+    {
+      "claim": "NIST AI RMF 1.0 released January 26, 2023; intended for voluntary use; page states AI RMF 1.0 is being revised as part of the White House AI Action Plan",
+      "source": "https://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    {
+      "claim": "AI RMF Core: four functions GOVERN, MAP, MEASURE, MANAGE; governance is designed to be a cross-cutting function to inform and be infused throughout the other three; GOVERN 2.2 training text; GOVERN 2.3 executive leadership takes responsibility; GOVERN 3.2 human-AI configurations and oversight; MAP 3.5 processes for human oversight",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+    },
+    {
+      "claim": "OECD AI Principles adopted 2019, updated May 2024; five values-based principles including accountability; principle 1.5 traceability wording",
+      "source": "https://oecd.ai/en/dashboards/ai-principles/P9"
+    }
+  ]
+}

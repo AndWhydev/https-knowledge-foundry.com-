@@ -1,0 +1,233 @@
+{
+  "slug": "ai-literacy",
+  "kind": "glossary",
+  "title": "What is AI literacy?",
+  "seoTitle": "What is AI literacy?",
+  "description": "AI literacy is the knowledge and skill to use AI systems in an informed way and judge their risks. How the EU AI Act defines it and how to build it by role.",
+  "shortAnswer": "AI literacy is the combination of skills, knowledge and understanding that lets people use artificial intelligence (AI) systems in an informed way and recognize their opportunities, risks and possible harms. The EU Artificial Intelligence Act defines the term in Article 3(56) and, in Article 4, requires providers and deployers of AI systems to take measures to support the AI literacy of their staff and others using AI on their behalf.",
+  "keyTakeaways": [
+    "The EU AI Act defines AI literacy as skills, knowledge and understanding that allow an informed deployment of AI systems and awareness of their opportunities, risks and possible harm.",
+    "Article 4 has applied since February 2, 2025. As amended by the Digital Omnibus on AI in July 2026, it requires measures to support AI literacy, without guaranteeing a specific level for any individual.",
+    "AI literacy is role based: a contract reviewer using a chatbot, a developer and a board member need different knowledge.",
+    "The European Commission says no certificate is required and an internal record of training and other initiatives is enough.",
+    "Good AI literacy programs define what each group must know and do, then assess and record it, rather than assigning one generic course."
+  ],
+  "term": "AI literacy",
+  "alsoKnownAs": [
+    "Artificial intelligence literacy",
+    "AI fluency",
+    "AI awareness"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What does AI literacy mean?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI literacy means knowing enough about AI systems to use them appropriately for a given role: what they can and cannot do, how they fail, which rules apply, and when to rely on human judgment instead. It is a practical capability, not a technical qualification."
+        },
+        {
+          "type": "p",
+          "text": "The most widely cited legal definition is in Article 3(56) of the [EU Artificial Intelligence Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) (Regulation (EU) 2024/1689). It defines AI literacy as \"skills, knowledge and understanding that allow providers, deployers and affected persons, taking into account their respective rights and obligations in the context of this Regulation, to make an informed deployment of AI systems, as well as to gain awareness about the opportunities and risks of AI and possible harm it can cause\"."
+        },
+        {
+          "type": "p",
+          "text": "Three ideas in that definition matter for training design. AI literacy covers skills as well as knowledge, so it should be assessed through what people do, not only what they recall. It is relative to a person's rights and obligations, so it differs by role. And it includes awareness of harm, so it is not only about productivity."
+        }
+      ]
+    },
+    {
+      "id": "legal-requirement",
+      "heading": "Is AI literacy a legal requirement?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yes, in the European Union. Article 4 of the AI Act places an AI literacy duty on providers and deployers of AI systems, and it has applied since February 2, 2025. Outside the EU, AI literacy is generally expected by voluntary frameworks rather than required by law, though the EU rule reaches providers outside the EU that place AI systems on the EU market."
+        },
+        {
+          "type": "p",
+          "text": "The duty was amended in 2026. [Regulation (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj), the Digital Omnibus on AI, signed on July 8, 2026 and in force from July 27, 2026, replaced Article 4. The original text required measures \"to ensure, to their best extent, a sufficient level of AI literacy\". The amended Article 4(1) requires providers and deployers to \"take measures to support the development of AI literacy\" of their staff and other persons dealing with AI systems on their behalf, and adds:"
+        },
+        {
+          "type": "callout",
+          "title": "Article 4(1), as amended by Regulation (EU) 2026/1744",
+          "text": "\"This obligation does not require providers or deployers to guarantee any specific level of AI literacy of any individual.\""
+        },
+        {
+          "type": "p",
+          "text": "The European Commission's [AI literacy questions and answers](https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers) state that national market surveillance authorities supervise and enforce the duty from August 2026, that no certificate is needed, and that an internal record of trainings or other guiding initiatives is enough. The full obligation, timeline and enforcement detail are on the [EU AI Act AI literacy](/regulations/eu-ai-act-ai-literacy) page. As at November 2026, readers should check that page for any later Commission guidance."
+        },
+        {
+          "type": "p",
+          "text": "Voluntary frameworks point the same way. The US National Institute of Standards and Technology (NIST) AI Risk Management Framework, subcategory GOVERN 2.2, expects that personnel and partners \"receive AI risk management training to enable them to perform their duties and responsibilities\" ([NIST AI 100-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf)). See [AI risk training under the NIST AI RMF](/regulations/nist-ai-rmf-ai-risk-training)."
+        }
+      ]
+    },
+    {
+      "id": "what-it-covers",
+      "heading": "What should AI literacy cover for different roles?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI literacy should cover a shared baseline for everyone who uses AI at work, plus role specific depth for people who configure, oversee or govern it. Article 4 asks organizations to take into account people's technical knowledge, experience, education and training, the context in which AI is used, and the people it is used on."
+        },
+        {
+          "type": "p",
+          "text": "The Commission's questions and answers suggest a minimum approach that considers a general understanding of AI in the organization, whether the organization is a provider or deployer, the risk of the AI systems involved, and the knowledge gaps of the people concerned. The table below turns that into an illustrative role map; it is a starting point, not a legal standard."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative AI literacy map: role, learning outcome and assessment evidence",
+          "head": [
+            "Role",
+            "What they should be able to do",
+            "Assessment evidence (illustrative)"
+          ],
+          "rows": [
+            [
+              "All staff using general purpose AI tools",
+              "Follow the acceptable use policy, avoid entering restricted data, and check outputs for confident errors before relying on them",
+              "Scenario questions on permitted use; attestation to the policy"
+            ],
+            [
+              "Staff using AI in decisions about people",
+              "Explain the tool's limits, recognize automation bias, and escalate or override when the output looks wrong",
+              "Observed case review or work sample with a documented override decision"
+            ],
+            [
+              "Content and knowledge owners",
+              "Check AI drafted material against its source documents and record the review",
+              "Review records showing claims traced to sources"
+            ],
+            [
+              "Technical teams configuring AI systems",
+              "Document intended purpose, test for known failure modes, and monitor performance",
+              "Test plans, evaluation results and change records"
+            ],
+            [
+              "Executives and board members",
+              "Set risk appetite for AI, approve use cases, and question management on AI risk",
+              "Briefing records and minuted decisions"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Building outcomes this way is a [competency framework](/glossary/competency-framework) task. Writing them as [measurable learning outcomes](/guides/how-to-write-measurable-learning-outcomes) makes them testable. The step by step method is in [how to build an AI literacy training program](/guides/how-to-build-an-ai-literacy-training-program)."
+        }
+      ]
+    },
+    {
+      "id": "literacy-vs-awareness",
+      "heading": "How is AI literacy different from AI awareness training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Awareness training tells people that AI risks exist; AI literacy means they can act on that knowledge in their own work. A slide deck on \"responsible AI\" completed by everyone can support awareness, but it rarely shows that a claims handler can spot a fabricated reference or that a manager knows when to override a recommendation."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Scope:** awareness is usually generic; literacy is tied to the specific systems and tasks a role involves.",
+            "**Evidence:** awareness is usually evidenced by completion; literacy is better evidenced by scenario performance or work samples. See [completion tracking vs competency verification](/compare/completion-tracking-vs-competency-verification).",
+            "**Currency:** AI tools and rules change quickly, so literacy content needs a review cycle linked to changes in the systems and policies it describes."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "One common gap is the failure mode most users meet first: [AI hallucination](/glossary/ai-hallucination), where a system states false content confidently. Literacy programs that teach people to verify outputs against sources address it directly."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry treats AI literacy as a defined framework: the concepts each role needs, the assessment points that test them, and the policy or regulatory clause each element comes from. That gives compliance teams a record of what was required and how it was assessed, which is the kind of internal record the Commission describes."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Article 4 require every employee to complete AI training?",
+      "a": "Not in those words. Article 4 requires providers and deployers to take measures to support the AI literacy of staff and others using AI on their behalf, taking account of their knowledge and the context of use. Training is the most common measure, but guidance, coaching and supervised practice can also count. People with no contact with AI systems need little or nothing."
+    },
+    {
+      "q": "Do we need a certificate to prove AI literacy?",
+      "a": "No. The European Commission's questions and answers state that no certificate is required and that an internal record of trainings or other guiding initiatives is enough. A record that links each role's content to its risks and shows how understanding was checked is more useful than a certificate alone."
+    },
+    {
+      "q": "Does AI literacy apply to contractors?",
+      "a": "Article 4 covers staff and other persons dealing with the operation and use of AI systems on the organization's behalf. The Commission gives contractors, service providers and clients as examples, depending on context. Contracts with service providers can set out who supports their personnel's AI literacy."
+    },
+    {
+      "q": "How often should AI literacy training be refreshed?",
+      "a": "No fixed interval is set by the AI Act. A practical rule is to review content when an AI system, its use or the relevant policy changes, and to set a periodic review, for example annually, for everything else. Record each review so the currency of the content can be shown."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Articles 3(56) and 4",
+      "publisher": "European Parliament and Council of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "title": "Regulation (EU) 2026/1744 amending Regulation (EU) 2024/1689 (Digital Omnibus on AI)",
+      "publisher": "European Parliament and Council of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    },
+    {
+      "title": "AI Literacy: Questions and Answers",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+    }
+  ],
+  "related": [
+    "eu-ai-act-ai-literacy",
+    "how-to-build-an-ai-literacy-training-program",
+    "ai-hallucination",
+    "ai-governance",
+    "how-to-write-an-ai-acceptable-use-policy",
+    "competency-framework"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Framework intelligence",
+      "href": "/platform/framework-intelligence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 9,
+  "factCheck": [
+    {
+      "claim": "Article 3(56) definition of AI literacy (verbatim); original Article 4 required measures to ensure, to their best extent, a sufficient level of AI literacy",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "claim": "Regulation (EU) 2026/1744, done at Strasbourg 8 July 2026, published OJ 24 July 2026, in force third day after publication (27 July 2026), replaced Article 4: take measures to support the development of AI literacy; does not require guaranteeing any specific level of AI literacy of any individual",
+      "source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    },
+    {
+      "claim": "Commission Q&A: Article 4 applies from 2 February 2025; supervision and enforcement from August 2026; no certificate needed; internal record of trainings and/or other guiding initiatives; minimum approach considers general understanding of AI, provider or deployer role, risk, and knowledge gaps; other persons can include contractors, service providers, clients",
+      "source": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers"
+    },
+    {
+      "claim": "NIST AI RMF GOVERN 2.2: The organization's personnel and partners receive AI risk management training to enable them to perform their duties and responsibilities consistent with related policies, procedures, and agreements",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+    }
+  ]
+}

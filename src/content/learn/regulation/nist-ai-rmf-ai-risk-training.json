@@ -1,0 +1,361 @@
+{
+  "slug": "nist-ai-rmf-ai-risk-training",
+  "kind": "regulation",
+  "title": "What does the NIST AI RMF expect for AI risk training?",
+  "seoTitle": "NIST AI RMF AI risk training",
+  "description": "What NIST AI RMF GOVERN 2.2 and the Generative AI Profile (AI 600-1) expect for AI risk training, its voluntary status, and how US organizations apply it.",
+  "shortAnswer": "The NIST AI Risk Management Framework (AI RMF 1.0) expects, in subcategory GOVERN 2.2, that an organization's personnel and partners receive AI risk management training so they can perform their duties consistent with related policies, procedures, and agreements. The framework is voluntary. Its Generative AI Profile (NIST AI 600-1) adds training related actions, and US federal guidance, the Department of Justice, and Texas law refer to it.",
+  "keyTakeaways": [
+    "As at November 2026, AI RMF 1.0 (NIST AI 100-1, released January 26, 2023) is the current version; NIST says it is being revised under the White House AI Action Plan.",
+    "GOVERN 2.2 is the training subcategory: personnel and partners receive AI risk management training to perform their duties consistent with policies, procedures, and agreements.",
+    "The framework and its Playbook are voluntary. They become expected through customers, regulators, and laws that refer to them.",
+    "The Generative AI Profile (NIST AI 600-1, July 26, 2024) adds actions on skills for incident responders, training on digital content transparency, and proficiency testing.",
+    "The DOJ lists the AI RMF as a resource for evaluating compliance programs, and Texas law gives a defense linked to substantial compliance with the Generative AI Profile."
+  ],
+  "jurisdiction": "United States",
+  "regulator": "National Institute of Standards and Technology (NIST), US Department of Commerce (voluntary framework; no enforcing regulator)",
+  "appliesTo": [
+    "Organizations that design, develop, deploy, or use AI systems and choose to align with the AI RMF",
+    "Suppliers to US federal agencies and regulated companies that ask for AI RMF alignment",
+    "Companies seeking to rely on framework based defenses or credit, such as under Texas HB 149 or in DOJ compliance program evaluations"
+  ],
+  "sections": [
+    {
+      "id": "what-it-is",
+      "heading": "What is the NIST AI RMF, and is it mandatory?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The NIST AI Risk Management Framework is a voluntary framework for managing the risks of AI systems, organized into four functions: GOVERN, MAP, MEASURE, and MANAGE. It is not mandatory for private organizations. NIST describes it as \"intended for voluntary use\" ([NIST](https://www.nist.gov/itl/ai-risk-management-framework)), and the framework itself says it is intended to be \"voluntary, rights-preserving, non-sector-specific, and use-case agnostic\" ([NIST AI 100-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf))."
+        },
+        {
+          "type": "p",
+          "text": "As at November 2026, the current version is AI RMF 1.0, published as NIST AI 100-1 and released on January 26, 2023, under the National Artificial Intelligence Initiative Act of 2020. NIST's framework page states that \"the AI RMF 1.0 is being revised as part of the White House AI Action Plan\", but no revised version had been released when this page was checked. Companion resources include the [AI RMF Playbook](https://airc.nist.gov/airmf-resources/playbook/govern/), which suggests actions for each subcategory and is also voluntary, and the Generative AI Profile, NIST AI 600-1, released on July 26, 2024."
+        },
+        {
+          "type": "p",
+          "text": "Voluntary does not mean irrelevant. Customers, auditors, prosecutors, and some state laws now refer to the framework, so many US organizations treat alignment as an expectation. Organizations outside the United States often use it alongside [ISO/IEC 42001](/regulations/iso-iec-42001-competence-and-awareness); see [ISO 42001 vs NIST AI RMF](/compare/iso-42001-vs-nist-ai-rmf)."
+        }
+      ]
+    },
+    {
+      "id": "govern-2-2",
+      "heading": "What does GOVERN 2.2 say about training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "GOVERN 2.2 is the AI RMF subcategory that deals directly with training. It sits under GOVERN 2, which concerns accountability structures, and reads:"
+        },
+        {
+          "type": "callout",
+          "title": "NIST AI RMF 1.0, GOVERN 2.2",
+          "text": "\"The organization's personnel and partners receive AI risk management training to enable them to perform their duties and responsibilities consistent with related policies, procedures, and agreements.\""
+        },
+        {
+          "type": "p",
+          "text": "Three features matter for program design. First, it covers **partners** as well as personnel, so contractors and suppliers who act on AI systems are in scope. Second, the test is whether people can **perform their duties**, which is a competence standard rather than an attendance standard. Third, the training is tied to the organization's own **policies, procedures, and agreements**, so it cannot be fully generic."
+        },
+        {
+          "type": "p",
+          "text": "The [Playbook](https://airc.nist.gov/airmf-resources/playbook/govern/) suggests that organizations establish policies for ongoing education on applicable laws and regulations for AI systems, potential negative impacts, organizational AI policies, and trustworthy AI characteristics; customize training across AI actor groups such as technical staff and oversight roles; address technical and socio technical aspects of AI risk; and define paths to escalate risk concerns. For documentation, it asks how the organization determines \"the necessary skills and experience needed to design, develop, deploy, assess, and monitor the AI system\"."
+        }
+      ]
+    },
+    {
+      "id": "related-subcategories",
+      "heading": "Which other AI RMF subcategories involve training and competence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Several other subcategories depend on trained, competent people, so an AI RMF aligned program should cover them too. The wording below is quoted from NIST AI 100-1."
+        },
+        {
+          "type": "table",
+          "caption": "AI RMF subcategories that bear on training and competence",
+          "head": [
+            "Subcategory",
+            "Text (NIST AI 100-1)",
+            "Training implication"
+          ],
+          "rows": [
+            [
+              "GOVERN 2.1",
+              "Roles and responsibilities and lines of communication related to mapping, measuring, and managing AI risks are documented and are clear to individuals and teams throughout the organization",
+              "Training must explain each person's AI risk role and reporting lines"
+            ],
+            [
+              "GOVERN 3.2",
+              "Policies and procedures are in place to define and differentiate roles and responsibilities for human-AI configurations and oversight of AI systems",
+              "Overseers need role specific training on when and how to intervene"
+            ],
+            [
+              "GOVERN 4.1",
+              "Organizational policies and practices are in place to foster a critical thinking and safety-first mindset in the design, development, deployment, and uses of AI systems to minimize potential negative impacts",
+              "Training should build habits of challenge and escalation, not only knowledge"
+            ],
+            [
+              "MAP 3.4",
+              "Processes for operator and practitioner proficiency with AI system performance and trustworthiness, and relevant technical standards and certifications, are defined, assessed, and documented",
+              "Operator proficiency should be assessed and recorded per system"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The difference between people who check AI and people who supervise it is explained in [human in the loop vs human on the loop](/compare/human-in-the-loop-vs-human-on-the-loop)."
+        }
+      ]
+    },
+    {
+      "id": "ai-600-1",
+      "heading": "What does the Generative AI Profile (NIST AI 600-1) add?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Generative AI Profile applies the AI RMF to generative AI and adds suggested actions, several of which concern skills and training. It also names the risks training should cover, including confabulation, defined as \"the production of confidently stated but erroneous or false content\", and information integrity ([NIST AI 600-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf))."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**GV-2.1-003:** \"Establish processes to verify the AI Actors conducting GAI incident response tasks demonstrate and maintain the appropriate skills and training.\"",
+            "**MP-3.4-002:** \"Adapt existing training programs to include modules on digital content transparency.\"",
+            "**MP-3.4-003:** \"Develop certification programs that test proficiency in managing GAI risks and interpreting content provenance, relevant to specific industry and context.\"",
+            "**MP-3.4-004:** \"Delineate human proficiency tests from tests of GAI capabilities.\"",
+            "**GV-1.4-002:** \"Establish transparent acceptable use policies for GAI that address illegal use or applications of GAI.\" Staff need training on those policies; see [how to write an AI acceptable use policy](/guides/how-to-write-an-ai-acceptable-use-policy)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For learning teams, the profile also supports checking AI drafted content: action MS-2.5-003 suggests reviewing and verifying sources and citations in generative AI outputs. See [how to check AI generated training for accuracy](/guides/how-to-check-ai-generated-training-for-accuracy)."
+        }
+      ]
+    },
+    {
+      "id": "us-use",
+      "heading": "How do US federal agencies and regulated organizations use the AI RMF?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "US organizations use the AI RMF as a reference point that other requirements point to, rather than as a rule in its own right. Three examples show how training expectations reach organizations in practice, as at November 2026."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Federal agencies.** Office of Management and Budget (OMB) Memorandum [M-25-21](https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf), dated April 3, 2025, sets its own minimum practices for high impact AI. Section 4(b)(iv) requires agencies to \"ensure there is sufficient and periodic training, assessment, and oversight for operators of AI to interpret and act on the AI's output and manage associated risks\", specific to the system and how it is used. It does not mandate the AI RMF, but many agencies and their suppliers use the framework to organize this work.",
+            "**Corporate compliance programs.** The Department of Justice [Evaluation of Corporate Compliance Programs](https://www.justice.gov/media/1160391/dl?inline), updated September 2024, lists the NIST AI RMF among its resources and asks prosecutors \"How does the company train its employees on the use of emerging technologies such as AI?\" See [DOJ compliance program training expectations](/regulations/doj-compliance-program-training-expectations).",
+            "**State law.** The Texas Responsible Artificial Intelligence Governance Act ([HB 149](https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.htm)), which took effect on January 1, 2026, provides that a defendant may not be found liable where it discovers a violation through an internal review process and substantially complies with the most recent version of the NIST Generative AI Profile or another nationally or internationally recognized AI risk management framework."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "In regulated sectors such as banking, insurance, and healthcare, supervisors and customers also ask firms to show how AI risk is governed, and AI RMF aligned training records are a common way to answer. Check sector rules in each case, because the AI RMF does not override them."
+        }
+      ]
+    },
+    {
+      "id": "program-mapping",
+      "heading": "How do you build training that maps to the AI RMF?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Map each relevant subcategory to the people it affects, the outcome they must achieve, and the evidence you will keep. The table below is this page's illustrative mapping, not NIST text."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: AI RMF subcategory to audience to outcome to evidence",
+          "head": [
+            "Subcategory",
+            "Audience",
+            "Learning outcome",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "GOVERN 2.2",
+              "All personnel and partners in AI roles",
+              "Perform AI related duties consistent with the AI policy and procedures",
+              "Training records by role and partner; policy acknowledgment"
+            ],
+            [
+              "GOVERN 2.1",
+              "Everyone with an AI risk role",
+              "Explain own AI risk responsibilities and how to escalate",
+              "Role statements; scenario assessment results"
+            ],
+            [
+              "GOVERN 3.2 and MAP 3.4",
+              "Operators and human overseers",
+              "Interpret outputs, recognize failure, override or escalate correctly",
+              "System specific proficiency assessments"
+            ],
+            [
+              "GOVERN 4.1",
+              "Developers, product owners, approvers",
+              "Challenge assumptions and raise safety concerns early",
+              "Design review records; workshop participation"
+            ],
+            [
+              "AI 600-1 GV-2.1-003",
+              "Incident responders",
+              "Handle generative AI incidents competently",
+              "Exercise results; skills maintenance records"
+            ],
+            [
+              "AI 600-1 MP-3.4-002",
+              "Content creators and reviewers",
+              "Apply content transparency and provenance practices",
+              "Module completion; review sampling results"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A single program can also serve the EU AI Act and ISO/IEC 42001 if each outcome is linked to the requirements it supports. See [how to build an AI literacy training program](/guides/how-to-build-an-ai-literacy-training-program)."
+        }
+      ]
+    },
+    {
+      "id": "revision",
+      "heading": "What is changing in the AI RMF?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "NIST is revising the AI RMF, but as at November 2026 the January 2023 version remains the one in use. America's AI Action Plan, released by the White House in July 2025, recommended that the Department of Commerce, through NIST, \"revise the NIST AI Risk Management Framework to eliminate references to misinformation, Diversity, Equity, and Inclusion, and climate change\" ([AI Action Plan](https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf))."
+        },
+        {
+          "type": "p",
+          "text": "NIST has also released new companion material, including a concept note on April 7, 2026 for an AI RMF profile on trustworthy AI in critical infrastructure. GOVERN 2.2 sits within the accountability structure of the framework and is not among the topics the Action Plan targeted, but programs mapped to specific subcategory numbers should be re-checked when the revision is published."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry represents AI RMF subcategories as obligations linked to role based concepts, outcomes, and assessment points, so training for GOVERN 2.2 and related subcategories is built from a defined structure. Records can then be produced by subcategory, role, and AI system, and the same concepts can be mapped to ISO/IEC 42001 and the EU AI Act. The [audit evidence](/platform/audit-evidence) page describes this."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is AI risk training required by US federal law for private companies?",
+      "a": "There is no general federal law requiring private companies to provide AI risk training. The NIST AI RMF is voluntary. Training expectations reach companies through customer contracts, sector regulators, DOJ compliance program evaluations, and state laws, so check which apply to your organization."
+    },
+    {
+      "q": "Does GOVERN 2.2 require a certificate or a specific course?",
+      "a": "No. GOVERN 2.2 describes an outcome: personnel and partners receive training that enables them to perform their AI duties. NIST does not certify training or organizations. The Generative AI Profile suggests developing proficiency certification programs, but that is a voluntary action, not a requirement."
+    },
+    {
+      "q": "Who counts as a partner under GOVERN 2.2?",
+      "a": "NIST does not define a closed list. In practice it covers contractors, suppliers, and other third parties who design, operate, or oversee AI systems on the organization's behalf or under its agreements. Include them through contract terms and require evidence of training proportionate to their role."
+    },
+    {
+      "q": "Will the AI RMF revision change training expectations?",
+      "a": "The White House AI Action Plan asked NIST to remove references to misinformation, diversity, equity and inclusion, and climate change. Training on accountability, roles, and competence sits elsewhere in the framework, but organizations should review their mapping when NIST publishes the revised version."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+    },
+    {
+      "title": "AI Risk Management Framework",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    {
+      "title": "NIST AI RMF Playbook: Govern",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://airc.nist.gov/airmf-resources/playbook/govern/"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    {
+      "title": "M-25-21: Accelerating Federal Use of AI through Innovation, Governance, and Public Trust",
+      "publisher": "Office of Management and Budget, Executive Office of the President",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf"
+    },
+    {
+      "title": "Evaluation of Corporate Compliance Programs (Updated September 2024)",
+      "publisher": "US Department of Justice, Criminal Division",
+      "url": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "title": "H.B. No. 149 (Texas Responsible Artificial Intelligence Governance Act), enrolled version",
+      "publisher": "Texas Legislature",
+      "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.htm"
+    },
+    {
+      "title": "America's AI Action Plan",
+      "publisher": "The White House",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf"
+    }
+  ],
+  "related": [
+    "iso-42001-vs-nist-ai-rmf",
+    "iso-iec-42001-competence-and-awareness",
+    "doj-compliance-program-training-expectations",
+    "how-to-build-an-ai-literacy-training-program",
+    "nist-sp-800-50-security-awareness-training",
+    "eu-ai-act-ai-literacy"
+  ],
+  "productLinks": [
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    },
+    {
+      "label": "Government and defence",
+      "href": "/industries/government-defence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 9,
+  "factCheck": [
+    {
+      "claim": "GOVERN 2.2 verbatim: The organization's personnel and partners receive AI risk management training to enable them to perform their duties and responsibilities consistent with related policies, procedures, and agreements. GOVERN 2.1, 3.2, 4.1 and MAP 3.4 wording as quoted.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+    },
+    {
+      "claim": "AI RMF intended to be voluntary, rights-preserving, non-sector-specific, and use-case agnostic; directed by the National Artificial Intelligence Initiative Act of 2020 (P.L. 116-283); Playbook is voluntary.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+    },
+    {
+      "claim": "NIST AI RMF page: intended for voluntary use; AI RMF 1.0 released January 26, 2023; AI RMF 1.0 is being revised as part of the White House AI Action Plan; Generative AI Profile NIST-AI-600-1 released July 26, 2024; April 7, 2026 concept note for AI RMF Profile on Trustworthy AI in Critical Infrastructure.",
+      "source": "https://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    {
+      "claim": "Playbook GOVERN 2.2 suggested actions: ongoing education on applicable laws and regulations for AI systems, potential negative impacts, organizational AI policies, trustworthy AI characteristics; customize across AI actor groups; technical and socio-technical aspects; define paths to escalate risk concerns; documentation question on necessary skills and experience.",
+      "source": "https://airc.nist.gov/airmf-resources/playbook/govern/"
+    },
+    {
+      "claim": "NIST AI 600-1 actions GV-2.1-003, MP-3.4-002, MP-3.4-003, MP-3.4-004, GV-1.4-002 and MS-2.5-003 as quoted; confabulation definition.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    {
+      "claim": "OMB M-25-21 dated April 3, 2025; Section 4(b)(iv) Ensure Adequate Human Training and Assessment: sufficient and periodic training, assessment, and oversight for operators of AI to interpret and act on the AI's output and manage associated risks; specific to the AI system. Memo does not mention NIST or the AI RMF.",
+      "source": "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf"
+    },
+    {
+      "claim": "DOJ ECCP (Updated September 2024) lists the AI Risk Management Framework released January 26, 2023 by NIST among resources; asks how the company trains its employees on the use of emerging technologies such as AI.",
+      "source": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "claim": "Texas HB 149 enrolled: defendant may not be found liable if it discovers a violation through an internal review process and substantially complies with the most recent version of the NIST Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile or another nationally or internationally recognized AI risk management framework; Act takes effect January 1, 2026.",
+      "source": "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.htm"
+    },
+    {
+      "claim": "America's AI Action Plan (July 2025): revise the NIST AI Risk Management Framework to eliminate references to misinformation, Diversity, Equity, and Inclusion, and climate change.",
+      "source": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf"
+    }
+  ]
+}

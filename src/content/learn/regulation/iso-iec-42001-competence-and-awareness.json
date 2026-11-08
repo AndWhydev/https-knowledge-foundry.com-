@@ -1,0 +1,351 @@
+{
+  "slug": "iso-iec-42001-competence-and-awareness",
+  "kind": "regulation",
+  "title": "What does ISO/IEC 42001 require for AI competence and awareness?",
+  "seoTitle": "ISO/IEC 42001 competence and awareness",
+  "description": "What ISO/IEC 42001 clauses 7.2 and 7.3 require for AI competence and awareness, the related Annex A controls, and the evidence certification auditors expect.",
+  "shortAnswer": "ISO/IEC 42001:2023, the international standard for AI management systems, requires an organization to determine the competence needed by people whose work affects its AI management system, ensure they are competent through education, training, or experience, act on gaps and evaluate those actions, and keep evidence (clause 7.2). Clause 7.3 requires everyone working under its control to be aware of the AI policy, their contribution, and the implications of not conforming.",
+  "keyTakeaways": [
+    "As at November 2026, the current edition is ISO/IEC 42001:2023, published in December 2023 by ISO/IEC JTC 1/SC 42. It is voluntary but certifiable.",
+    "Clause 7.2 (competence) follows the harmonized structure shared with ISO 9001 and ISO/IEC 27001: determine, ensure, act and evaluate, and keep documented evidence.",
+    "Clause 7.3 (awareness) covers the AI policy, each person's contribution to the AI management system, and the implications of not conforming.",
+    "Annex A adds AI specific controls, including defined AI roles and responsibilities and documentation of the human resources and competences used across the AI system life cycle.",
+    "Auditors look for role competence requirements tied to AI systems and evidence that training worked, not only completion records."
+  ],
+  "jurisdiction": "International standard",
+  "regulator": "ISO/IEC JTC 1/SC 42",
+  "appliesTo": [
+    "Organizations certified or seeking certification to ISO/IEC 42001",
+    "Organizations that provide, develop, or use AI based products or services and use ISO/IEC 42001 as a governance reference",
+    "Suppliers asked by customers to show an AI management system aligned with ISO/IEC 42001"
+  ],
+  "sections": [
+    {
+      "id": "status",
+      "heading": "What is ISO/IEC 42001 and which version is current?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ISO/IEC 42001 is the international standard that specifies requirements for an artificial intelligence management system (AIMS). As at November 2026, the current edition is [ISO/IEC 42001:2023](https://www.iso.org/standard/42001), Information technology: Artificial intelligence: Management system, edition 1, published on December 18, 2023 according to the [IEC webstore](https://webstore.iec.ch/publication/90574). It was developed by the joint technical committee ISO/IEC JTC 1/SC 42 Artificial intelligence."
+        },
+        {
+          "type": "p",
+          "text": "The standard applies to organizations that provide or use AI based products or services. It is voluntary, and becomes binding only through certification, contracts, or procurement rules. Certification is carried out by accredited certification bodies, not by ISO; [BSI](https://www.bsigroup.com/en-GB/products-and-services/standards/iso-42001-ai-management-system/), for example, states it was the first certification body accredited by the United Kingdom Accreditation Service (UKAS) for ISO/IEC 42001. In Europe, the standard has been adopted as [EN ISO/IEC 42001:2026](https://shop.standards.ie/en-ie/standards/en-iso-iec-42001-2026-1497138_saig_cen_cen_3929071/), published on March 18, 2026, which carries the 2023 international text."
+        },
+        {
+          "type": "p",
+          "text": "ISO/IEC 42001 is built on ISO's harmonized structure for management system standards, as [DNV](https://www.dnv.com/services/iso-iec-42001-artificial-intelligence-ai--250876/) notes. That means clauses 7.2 and 7.3 share their core wording with [ISO 9001](/regulations/iso-9001-competence-requirements) and [ISO/IEC 27001](/regulations/iso-27001-awareness-training-requirements), with AI specific content in the surrounding clauses and annexes. The full text is sold by ISO and national standards bodies; this page describes the clauses at the level ISO and certification bodies publish."
+        }
+      ]
+    },
+    {
+      "id": "clause-7-2",
+      "heading": "What does clause 7.2 require for competence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Clause 7.2 requires the organization to define and demonstrate competence for the people whose work affects its AI performance. Under the harmonized structure, the organization must:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "determine the necessary competence of persons doing work under its control that affects its AI performance",
+            "ensure those persons are competent on the basis of appropriate education, training, or experience",
+            "where applicable, take actions to acquire the necessary competence and evaluate the effectiveness of the actions taken",
+            "make appropriate documented information available as evidence of competence"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Training is one route to competence, alongside mentoring, reassignment, or hiring and contracting competent people. For an AI management system the relevant competence is specific: interpreting AI outputs, assessing AI risks and impacts, managing data quality, testing and monitoring systems, and understanding the legal duties that attach to each AI system. Express these as a [competency framework](/glossary/competency-framework) for each AIMS role, so assessment and records refer to the same defined capability."
+        }
+      ]
+    },
+    {
+      "id": "clause-7-3",
+      "heading": "What does clause 7.3 require for awareness?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Clause 7.3 requires everyone doing work under the organization's control to be aware of three things: the AI policy; their contribution to the effectiveness of the AI management system, including the benefits of improved performance; and the implications of not conforming with the AI management system requirements."
+        },
+        {
+          "type": "p",
+          "text": "Awareness reaches further than competence. Clause 7.2 targets people whose work affects AI performance, while clause 7.3 covers all persons doing work under the organization's control, which in practice includes contractors. Certification bodies make the same distinction: DNV says the team implementing the management system needs a thorough understanding of the standard, and \"later on, the wider organization needs awareness training\". Emailing the AI policy to staff rarely demonstrates awareness; auditors test it by asking people what the policy means for their work."
+        }
+      ]
+    },
+    {
+      "id": "annex-a",
+      "heading": "What do the Annex A controls add for people and roles?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Annex A of ISO/IEC 42001 lists reference control objectives and controls specific to AI, which organizations select through risk treatment and record in a statement of applicability. Two control areas bear directly on competence."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Internal organization (A.3).** Includes defining and allocating AI roles and responsibilities (A.3.2), which gives clause 7.2 a list of roles to define competence for.",
+            "**Resources for AI systems (A.4).** Includes a human resources control (A.4.6) on documenting the human resources and their competences used for AI system activities across the life cycle, from development and deployment through operation, change, and decommissioning, as [ISMS.online](https://www.isms.online/iso-42001/annex-a-controls/a-4-resources-for-ai-systems/) summarizes it."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Together these mean an ISO/IEC 42001 organization should be able to show, for each AI system, who does what and what competence they hold. That link between system, role, and evidence is also what makes the [AI governance](/glossary/ai-governance) structure auditable."
+        }
+      ]
+    },
+    {
+      "id": "who-needs-what",
+      "heading": "Who needs competence and who needs awareness?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most people in an organization with an AI management system need awareness; a smaller group in defined AIMS roles needs assessed competence. The table below shows a typical split; it is an illustrative interpretation, not text from the standard."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative split of clause 7.2 and clause 7.3 duties by role",
+          "head": [
+            "Role",
+            "Clause 7.2 competence",
+            "Clause 7.3 awareness",
+            "Typical evidence"
+          ],
+          "rows": [
+            [
+              "AIMS owner and governance team",
+              "Yes: management system, AI risk and impact assessment, legal duties",
+              "Yes",
+              "Qualifications, assessment results, internal audit training"
+            ],
+            [
+              "AI system owners",
+              "Yes: system purpose, limits, monitoring, incident handling",
+              "Yes",
+              "Role competence record per AI system"
+            ],
+            [
+              "Developers, data scientists, and testers",
+              "Yes: data quality, testing, documentation, secure development",
+              "Yes",
+              "Technical assessments, peer review records"
+            ],
+            [
+              "Operators and human overseers",
+              "Yes: interpreting outputs, override and escalation",
+              "Yes",
+              "System specific competence assessment and authority"
+            ],
+            [
+              "Procurement and supplier managers",
+              "Yes, where they assess third party AI",
+              "Yes",
+              "Supplier assessment training records"
+            ],
+            [
+              "All other staff and contractors",
+              "Generally not, unless their work affects AI performance",
+              "Yes: AI policy, contribution, consequences",
+              "Induction and awareness records, acknowledgment, interview answers"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auditor-evidence",
+      "heading": "What evidence do certification auditors look for?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Auditors test whether competence is defined, achieved, evaluated, and evidenced for AIMS roles, and whether awareness is real when they interview staff. Completion certificates alone rarely satisfy clause 7.2 because they do not show the competence was defined or that the training worked."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: ISO/IEC 42001 requirement to learning outcome to evidence",
+          "head": [
+            "Requirement",
+            "Learning outcome",
+            "Evidence that satisfies an auditor"
+          ],
+          "rows": [
+            [
+              "7.2 determine competence",
+              "Not applicable: a design task",
+              "Competence requirements for each AIMS role, linked to A.3.2 role definitions"
+            ],
+            [
+              "7.2 ensure competence",
+              "Role holders perform their AI risk, testing, or oversight tasks correctly",
+              "Assessment or observation records, qualifications, verified experience"
+            ],
+            [
+              "7.2 act and evaluate",
+              "Identified gaps are closed after training or mentoring",
+              "Before and after assessment results or manager sign off against the defined competence"
+            ],
+            [
+              "7.2 documented information",
+              "Not applicable: a records task",
+              "Competence records retained and retrievable by person and role"
+            ],
+            [
+              "7.3 awareness",
+              "Any staff member can explain the AI policy, their part, and the consequences of not following it",
+              "Awareness check results and consistent answers in auditor interviews"
+            ],
+            [
+              "A.4.6 human resources",
+              "Not applicable: a documentation task",
+              "Records of people and competences assigned to each AI system across its life cycle"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For the general method, see [how to build a competency framework](/guides/how-to-build-a-competency-framework) and [how to build an AI literacy training program](/guides/how-to-build-an-ai-literacy-training-program)."
+        }
+      ]
+    },
+    {
+      "id": "other-frameworks",
+      "heading": "How does clause 7 relate to the EU AI Act and the NIST AI RMF?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Clause 7 gives a certifiable structure that can also serve other AI training expectations, but it does not replace them. An organization can use one set of competence and awareness records for several frameworks if the mapping is explicit."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**EU AI Act, Article 4.** Requires providers and deployers to take measures to support AI literacy. ISO/IEC 42001 clause 7 records can form part of that evidence. See [EU AI Act AI literacy](/regulations/eu-ai-act-ai-literacy).",
+            "**NIST AI RMF, GOVERN 2.2.** Expects personnel and partners to receive AI risk management training. See [NIST AI RMF AI risk training](/regulations/nist-ai-rmf-ai-risk-training) and the comparison [ISO 42001 vs NIST AI RMF](/compare/iso-42001-vs-nist-ai-rmf).",
+            "**Other management systems.** Because clause 7 shares the harmonized structure, organizations already certified to ISO 9001 or ISO/IEC 27001 can extend existing competence processes rather than create new ones."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines AIMS role competencies and awareness concepts as structured objects with assessment points, linked to clauses 7.2 and 7.3, Annex A role and resource controls, and the AI systems in scope. The same concepts can be mapped to the EU AI Act and the NIST AI RMF, so one body of evidence answers several frameworks. The [standards and accreditation](/platform/standards-accreditation) page describes this."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is ISO/IEC 42001 certification mandatory?",
+      "a": "No. ISO/IEC 42001 is a voluntary standard. It can become a requirement through customer contracts or procurement rules, and some organizations certify to show independently audited AI governance. Clauses 4 to 10, including 7.2 and 7.3, must all be met by an organization claiming conformity."
+    },
+    {
+      "q": "Does ISO/IEC 42001 specify the content of AI training?",
+      "a": "No. Clause 7.2 requires the organization to determine the competence its roles need and clause 7.3 sets three awareness topics. The organization decides the content, depth, and frequency of training based on its AI systems, roles, and risks."
+    },
+    {
+      "q": "Do contractors need ISO/IEC 42001 awareness training?",
+      "a": "Clause 7.3 covers all persons doing work under the organization's control, which includes contractors working within the scope of the AI management system. Organizations either train them directly or require equivalent awareness through contract terms and check the evidence."
+    },
+    {
+      "q": "How often must ISO/IEC 42001 training be repeated?",
+      "a": "The standard does not set a frequency. Organizations set their own cycle and should refresh training when AI systems, the AI policy, or legal duties change, since clause 7.2 requires competence to be maintained for the work people actually do."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ISO/IEC 42001:2023 Information technology: Artificial intelligence: Management system",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/42001"
+    },
+    {
+      "title": "ISO/IEC 42001:2023 publication record",
+      "publisher": "International Electrotechnical Commission webstore",
+      "url": "https://webstore.iec.ch/publication/90574"
+    },
+    {
+      "title": "EN ISO/IEC 42001:2026 (ISO/IEC 42001:2023)",
+      "publisher": "National Standards Authority of Ireland standards store",
+      "url": "https://shop.standards.ie/en-ie/standards/en-iso-iec-42001-2026-1497138_saig_cen_cen_3929071/"
+    },
+    {
+      "title": "ISO/IEC 42001 Artificial Intelligence (AI) certification",
+      "publisher": "DNV",
+      "url": "https://www.dnv.com/services/iso-iec-42001-artificial-intelligence-ai--250876/"
+    },
+    {
+      "title": "ISO/IEC 42001 AI Management System",
+      "publisher": "BSI",
+      "url": "https://www.bsigroup.com/en-GB/products-and-services/standards/iso-42001-ai-management-system/"
+    },
+    {
+      "title": "Understanding Support of ISO 42001 Requirement 7",
+      "publisher": "ISMS.online",
+      "url": "https://isms.online/iso-42001/requirement-7-support"
+    },
+    {
+      "title": "ISO 42001 Annex A Control A.4: Resources for AI systems",
+      "publisher": "ISMS.online",
+      "url": "https://www.isms.online/iso-42001/annex-a-controls/a-4-resources-for-ai-systems/"
+    }
+  ],
+  "related": [
+    "iso-42001-vs-nist-ai-rmf",
+    "nist-ai-rmf-ai-risk-training",
+    "eu-ai-act-ai-literacy",
+    "iso-27001-awareness-training-requirements",
+    "iso-9001-competence-requirements",
+    "how-to-build-an-ai-literacy-training-program"
+  ],
+  "productLinks": [
+    {
+      "label": "Standards and accreditation",
+      "href": "/platform/standards-accreditation"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 9,
+  "factCheck": [
+    {
+      "claim": "ISO/IEC 42001:2023, Information technology - Artificial intelligence - Management system, edition 1.0, publication date 2023-12-18, ISO/IEC JTC 1/SC 42 Artificial intelligence; specifies requirements for an AI management system for organizations providing or using AI-based products or services.",
+      "source": "https://webstore.iec.ch/publication/90574"
+    },
+    {
+      "claim": "iso.org lists ISO/IEC 42001 at this URL (page returned 403 to automated fetch; URL confirmed via search results; listed on sibling pages).",
+      "source": "https://www.iso.org/standard/42001"
+    },
+    {
+      "claim": "EN ISO/IEC 42001:2026 (ISO/IEC 42001:2023) published 18 March 2026, status current.",
+      "source": "https://shop.standards.ie/en-ie/standards/en-iso-iec-42001-2026-1497138_saig_cen_cen_3929071/"
+    },
+    {
+      "claim": "DNV: ISO/IEC 42001 is built on ISO's Harmonized Structure; the team implementing the management system needs a thorough understanding; later on, the wider organization needs awareness training.",
+      "source": "https://www.dnv.com/services/iso-iec-42001-artificial-intelligence-ai--250876/"
+    },
+    {
+      "claim": "BSI was the first certification body accredited by UKAS for ISO/IEC 42001; holds UKAS, RvA and ANAB accreditation.",
+      "source": "https://www.bsigroup.com/en-GB/products-and-services/standards/iso-42001-ai-management-system/"
+    },
+    {
+      "claim": "Clause 7.2: define competence for personnel affecting AIMS performance; ensure appropriate education, training or experience; assess gaps; document evidence. Clause 7.3: AI policy, contribution/role, benefits of effective AI management, consequences of non-compliance (secondary source; clause text not in the public ISO preview). Harmonized structure wording cross-checked against ISO/IEC 27001 and ISO 9001 sibling pages.",
+      "source": "https://isms.online/iso-42001/requirement-7-support"
+    },
+    {
+      "claim": "Annex A control A.4 subdivisions A.4.2 to A.4.6; A.4.6 Human resources covers documentation of personnel roles, competencies and qualifications used across the AI system life cycle (secondary source).",
+      "source": "https://www.isms.online/iso-42001/annex-a-controls/a-4-resources-for-ai-systems/"
+    },
+    {
+      "claim": "Annex A is normative Reference control objectives and controls; statement of applicability documents necessary controls and justification; harmonized structure stated in the introduction (checked in the public iTeh FDIS preview, table of contents lists 7.2 Competence and 7.3 Awareness).",
+      "source": "https://cdn.standards.iteh.ai/samples/81230/34edc9a192694e9db88bc80b7931fdd3/ISO-IEC-FDIS-42001.pdf"
+    }
+  ]
+}

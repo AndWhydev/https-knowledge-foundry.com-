@@ -1,0 +1,283 @@
+{
+  "slug": "how-long-to-keep-training-records",
+  "kind": "guide",
+  "title": "How long do you have to keep training records?",
+  "seoTitle": "How long to keep training records",
+  "description": "How long to keep training records: verified retention rules by regulation, from FDA, EU GMP and OSHA to AUSTRAC and GDPR, and how to set one retention schedule.",
+  "shortAnswer": "There is no single legal period for keeping training records. The period depends on the rule that requires the record: for example, three years under the US OSHA bloodborne pathogens standard, six years for HIPAA Security Rule documentation, and seven years for Australian and Portuguese anti money laundering program records. Some rules, such as OSHA process safety management, set none. Build a retention schedule that applies the longest rule that covers each record.",
+  "keyTakeaways": [
+    "Retention periods are set rule by rule, not by a general training law, and they start from different trigger events: training date, end of employment, batch expiry, or the point a record stops being relevant.",
+    "Several rules require a training record but state no retention period, so the organization must set and justify one.",
+    "Privacy law pulls the other way: the GDPR storage limitation principle says personal data must not be kept longer than necessary.",
+    "A defensible schedule names, for each record type, the governing rule, the trigger event, the period, and the disposal method.",
+    "Legal holds for audits, investigations, and litigation override routine disposal."
+  ],
+  "sections": [
+    {
+      "id": "short-rule",
+      "heading": "Is there one legal retention period for training records?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No. Retention periods for training records come from the specific regulation that requires the training, and they differ in length and in when the clock starts. A pharmaceutical manufacturer, a bank, and a mine operating in the same country can each face different periods for records that look identical in a learning management system."
+        },
+        {
+          "type": "p",
+          "text": "That means the useful question is not \"how long do we keep training records\" but \"which rule requires this record, and what does that rule say about keeping it\". Where no rule sets a period, the organization chooses one, documents the reason in its [training policy](/guides/how-to-write-a-training-policy), and applies it consistently."
+        }
+      ]
+    },
+    {
+      "id": "retention-table",
+      "heading": "What retention periods do specific regulations set?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The table below lists retention rules checked against the primary text as at November 2026. It is a set of examples across markets, not a complete list, and each row applies only to organizations within that rule's scope."
+        },
+        {
+          "type": "table",
+          "caption": "Verified retention rules that affect training records (as at November 2026)",
+          "head": ["Rule and jurisdiction", "Who it applies to", "Retention period", "What it covers"],
+          "rows": [
+            ["[21 CFR 211.180](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-J), United States", "Drug manufacturers under FDA current good manufacturing practice (CGMP)", "At least 1 year after the batch expiration date (3 years after distribution for certain OTC products without expiry dating)", "Records specifically associated with a batch. Part 211 sets no separate period for personnel training records under 211.25, but all required records must be readily available for inspection during the retention period"],
+            ["[EU GMP Guide Chapter 4](https://health.ec.europa.eu/system/files/2016-11/chapter4_01-2011_en_0.pdf), European Union", "Manufacturers of medicinal products", "Batch documentation: 1 year after batch expiry or at least 5 years after Qualified Person certification, whichever is longer. Other documentation: depends on the business activity it supports", "Training in GMP and verification of training effectiveness are listed among the personnel matters that need written procedures and records (clause 4.29)"],
+            ["[29 CFR 1910.1030(h)(2)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030), United States (OSHA)", "Employers with occupational exposure to bloodborne pathogens", "3 years from the date of training", "Dates, content summary, trainer names and qualifications, attendee names and job titles"],
+            ["[29 CFR 1910.119(g)(3)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.119), United States (OSHA)", "Employers with processes involving highly hazardous chemicals", "No period stated in the paragraph", "A record of employee identity, training date, and the means used to verify the employee understood the training"],
+            ["[49 CFR 172.704(d)](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-172/subpart-H/section-172.704), United States (DOT)", "Hazmat employers", "Record of current training covering the preceding 3 years, kept while the person is employed as a hazmat employee and for 90 days after", "Training of each hazmat employee, available to authorized officials on request"],
+            ["[30 CFR 48.9](https://www.ecfr.gov/current/title-30/chapter-I/subchapter-H/part-48/subpart-A/section-48.9), United States (MSHA)", "Mine operators", "Certificates for currently employed miners kept at the mine site for 2 years, or for 60 days after termination of employment", "MSHA training certificates (form 5000-23)"],
+            ["[45 CFR 164.316(b)(2)](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.316), United States (HIPAA)", "Covered entities and business associates", "6 years from creation or the date last in effect, whichever is later", "Documentation the Security Rule requires, including records of required actions and activities"],
+            ["[Anti-Money Laundering and Counter-Terrorism Financing Act, section 116(3)](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/develop-your-amlctf-programs/record-keeping/record-keeping-overview), Australia (AUSTRAC)", "Reporting entities", "7 years after the record is no longer relevant to demonstrating compliance with Part 1A", "Records related to the AML/CTF program, of which personnel training is a required element"],
+            ["[Law 83/2017, Articles 51 and 55](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643), Portugal", "Obliged entities under anti money laundering law", "7 years", "Training records, which must be available to sectoral authorities"],
+            ["[Ordinance on Industrial Safety and Health, Article 38](https://laws.e-gov.go.jp/law/347M50002000032), Japan", "Employers giving special education for dangerous or harmful work", "3 years", "Records of special education"],
+            ["[ASQA practice guide](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/compliance-standards-for-rtos/integrity-of-nationally-recognised-training-practice-guide), Australia", "Registered training organizations", "Student assessment submissions: 2 years after completion. AQF certification documentation: 30 years", "Records of nationally recognized training"],
+            ["[GDPR Article 5(1)(e)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504), European Union", "Controllers processing personal data", "No fixed period: no longer than necessary for the purpose", "Any training record that identifies a person"]
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "A common mix up",
+          "text": "OSHA's access to employee exposure and medical records standard, 29 CFR 1910.1020, sets long periods (duration of employment plus 30 years for medical records, 30 years for exposure records), but it covers medical and exposure records, not training records. Do not apply it to training records by default."
+        }
+      ]
+    },
+    {
+      "id": "triggers",
+      "heading": "When does the retention clock start?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The clock starts at the trigger event the rule names, and the trigger matters as much as the length. Three years from the training date and three years from the end of employment can differ by decades for a long serving employee."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Date of training:** OSHA bloodborne pathogens records run three years from the training date.",
+            "**End of the role or employment:** DOT hazmat records run for as long as the person is a hazmat employee plus 90 days; MSHA certificates run 60 days after termination.",
+            "**Product life:** FDA and EU GMP batch records run from batch expiry or certification.",
+            "**End of relevance:** AUSTRAC program records run seven years from the point the record is no longer relevant to demonstrating compliance, which requires a documented judgment about when that point is reached.",
+            "**Last effective date:** HIPAA documentation runs six years from creation or the date it was last in effect."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-period",
+      "heading": "What if the rule that requires training sets no retention period?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Set a period yourself, write down why, and make sure it covers the window in which a regulator, auditor, or court could reasonably ask for the record. Many training duties, including OSHA process safety training under 1910.119(g) and drug CGMP training under 21 CFR 211.25, require training to happen and be documented without stating how long the record must be kept."
+        },
+        {
+          "type": "p",
+          "text": "Practical anchors for choosing a period include the inspection or audit cycle for the activity, the refresher interval (a record must at least survive until the next training replaces it), product or batch retention periods where training supports released product, limitation periods for claims in the relevant jurisdiction (confirm these with legal counsel), and any customer or certification body requirement. Record the reasoning in the retention schedule so it can be explained at audit."
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "heading": "How does privacy law limit how long you keep training records?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Privacy law sets a ceiling as well as a floor. Under the EU General Data Protection Regulation (GDPR), personal data must be \"kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed\" ([Article 5(1)(e)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504))."
+        },
+        {
+          "type": "p",
+          "text": "A statutory retention duty is a clear purpose for keeping a record. Keeping every training record indefinitely \"just in case\" is not. Once the governing period ends and no legal hold applies, delete or anonymize the record. Aggregated completion statistics without names can usually be kept for trend reporting. See [GDPR staff training requirements](/regulations/gdpr-staff-training-requirements) for the training side of the regulation."
+        }
+      ]
+    },
+    {
+      "id": "build-schedule",
+      "heading": "How do you build a training records retention schedule?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Build the schedule from your obligations, not from your learning system's defaults. The steps below produce a schedule an auditor can test."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**List the training obligations in scope.** Start from your [compliance obligations register](/glossary/compliance-obligations-register) or [training matrix](/glossary/training-matrix).",
+            "**Identify the record each obligation produces.** Completion, assessment result, assessor sign off, content version, attendance sheet, competency verification.",
+            "**Find the retention rule for each record.** Read the primary text. Note the period and the trigger event. Where none exists, record the period you chose and why.",
+            "**Apply the longest applicable period.** One record can fall under several rules, for example a GMP training record that also supports a product still on the market.",
+            "**Keep the evidence behind the record for the same period.** A completion flag is weak evidence if the content version and assessment it refers to have been deleted; see [version control for training content](/guides/how-to-maintain-version-control-for-training-content).",
+            "**Define disposal and legal holds.** State who approves deletion, how it is done, and how audits, investigations, or litigation suspend it.",
+            "**Test it.** Before deleting anything, sample records due for disposal and confirm no rule or hold still applies."
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Template: training records retention schedule (example rows are illustrative)",
+          "head": ["Record type", "Governing rule", "Trigger event", "Retention period", "Disposal"],
+          "rows": [
+            ["Bloodborne pathogens training record (US site)", "29 CFR 1910.1030(h)(2)", "Date of training", "3 years", "Delete after period unless on hold"],
+            ["GMP training record supporting released batches", "21 CFR 211.180 and EU GMP Chapter 4, as applicable", "Expiry or certification of the last batch the person worked on", "Longest applicable batch period", "Quality approval before deletion"],
+            ["AML/CTF training record (Australian entity)", "AML/CTF Act section 116(3)", "Record no longer relevant to demonstrating compliance", "7 years after that point", "Compliance officer approval"],
+            ["Process safety training record (US site)", "29 CFR 1910.119(g)(3), no period stated", "Organization defined, for example end of employment", "Organization defined and justified", "Documented in policy"],
+            ["Optional professional development course", "No rule", "Completion", "Organization defined, limited by privacy law", "Delete or anonymize"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does this look like for a multinational organization?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Apply each rule to the records it governs, and avoid one global period that is too short for some records and unjustifiably long for others."
+        },
+        {
+          "type": "callout",
+          "title": "Illustrative example",
+          "text": "A medicines manufacturer has a plant in the United States, a plant in the European Union, and a distribution business in Australia that is an AUSTRAC reporting entity. Its schedule keeps CGMP training records for both plants until the retention period for the batches each person worked on has passed, keeps bloodborne pathogens training records at the US plant for at least three years from training, keeps AML/CTF training records in Australia for seven years after they stop being relevant to the program, and deletes optional course records after a period it has justified under privacy law. The scenario is illustrative."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each learning outcome and assessment point to the obligation it addresses, so the rule behind a training record, and therefore its retention basis, is visible from the record itself. The content version and assessment evidence stay attached to the completion for as long as the record is kept. The [audit evidence](/platform/audit-evidence) page describes how records are assembled for review."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can we simply keep all training records forever?",
+      "a": "It is simple but rarely defensible. Privacy laws such as the GDPR require personal data to be kept no longer than necessary, and indefinite retention increases the volume of data exposed in a breach. Keep each record for its governing period, then delete or anonymize it unless a legal hold applies."
+    },
+    {
+      "q": "Do we need to keep training records for former employees?",
+      "a": "Often yes. Many periods run from the training date or the record's relevance, not employment, so they continue after the person leaves. DOT hazmat records, for example, must be kept for 90 days after the person stops being a hazmat employee, and AUSTRAC program records run seven years from the point they stop being relevant."
+    },
+    {
+      "q": "Does a learning management system's retention setting satisfy these rules?",
+      "a": "Only if it was configured from your retention schedule. Check that the system keeps the completion, the assessment result, and the content version together, that archived records stay retrievable for inspection, and that deletion can be suspended for a legal hold. Export and test retrieval before migrating or decommissioning a system."
+    },
+    {
+      "q": "Is there a general workplace safety retention period for training records?",
+      "a": "Not as a single rule in most systems. Safety training retention is usually set by specific standards, such as the OSHA bloodborne pathogens standard in the United States or the special education rule in Japan. Check the specific regulation for each hazard or activity rather than assuming one period applies to all safety training."
+    }
+  ],
+  "sources": [
+    {
+      "title": "21 CFR 211.180 General requirements (records and reports)",
+      "publisher": "US Food and Drug Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-J"
+    },
+    {
+      "title": "EudraLex Volume 4, EU GMP Guide Chapter 4: Documentation",
+      "publisher": "European Commission",
+      "url": "https://health.ec.europa.eu/system/files/2016-11/chapter4_01-2011_en_0.pdf"
+    },
+    {
+      "title": "29 CFR 1910.1030 Bloodborne pathogens",
+      "publisher": "US Occupational Safety and Health Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030"
+    },
+    {
+      "title": "29 CFR 1910.119 Process safety management of highly hazardous chemicals",
+      "publisher": "US Occupational Safety and Health Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.119"
+    },
+    {
+      "title": "29 CFR 1910.1020 Access to employee exposure and medical records",
+      "publisher": "US Occupational Safety and Health Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1020"
+    },
+    {
+      "title": "49 CFR 172.704 Training requirements",
+      "publisher": "US Department of Transportation (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-172/subpart-H/section-172.704"
+    },
+    {
+      "title": "30 CFR 48.9 Records of training",
+      "publisher": "US Mine Safety and Health Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-30/chapter-I/subchapter-H/part-48/subpart-A/section-48.9"
+    },
+    {
+      "title": "45 CFR 164.316 Policies and procedures and documentation requirements",
+      "publisher": "US Department of Health and Human Services (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.316"
+    },
+    {
+      "title": "Record keeping overview",
+      "publisher": "Australian Transaction Reports and Analysis Centre (AUSTRAC)",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/develop-your-amlctf-programs/record-keeping/record-keeping-overview"
+    },
+    {
+      "title": "Law 83/2017 (anti money laundering and counter terrorist financing), consolidated version",
+      "publisher": "Diário da República (Portugal)",
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"
+    },
+    {
+      "title": "Ordinance on Industrial Safety and Health",
+      "publisher": "e-Gov Law Search, Digital Agency of Japan",
+      "url": "https://laws.e-gov.go.jp/law/347M50002000032"
+    },
+    {
+      "title": "Integrity of Nationally Recognised Training Practice Guide",
+      "publisher": "Australian Skills Quality Authority",
+      "url": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/compliance-standards-for-rtos/integrity-of-nationally-recognised-training-practice-guide"
+    },
+    {
+      "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    }
+  ],
+  "related": [
+    "how-to-prepare-training-records-for-an-audit",
+    "how-to-write-a-training-policy",
+    "how-to-maintain-version-control-for-training-content",
+    "audit-trail",
+    "osha-training-requirements",
+    "gdpr-staff-training-requirements"
+  ],
+  "productLinks": [
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" },
+    { "label": "Compliance programs", "href": "/programs/compliance" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 11,
+  "factCheck": [
+    { "claim": "21 CFR 211.180(a): records specifically associated with a batch retained at least 1 year after batch expiration, or 3 years after distribution for certain OTC products exempt from expiration dating; (c) all records readily available for authorized inspection during the retention period.", "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-J" },
+    { "claim": "EU GMP Chapter 4 clause 4.11: batch documentation kept one year after expiry or at least five years after QP certification, whichever is longer; 4.12: for other documentation the retention period depends on the business activity; 4.29 lists personnel matters including training in GMP and verification of the effectiveness of training.", "source": "https://health.ec.europa.eu/system/files/2016-11/chapter4_01-2011_en_0.pdf" },
+    { "claim": "29 CFR 1910.119(g)(3): record with identity of employee, date of training and means used to verify understanding; no retention period stated in (g).", "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.119" },
+    { "claim": "29 CFR 1910.1020(d): medical records duration of employment plus 30 years; exposure records 30 years; standard covers exposure and medical records.", "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1020" },
+    { "claim": "49 CFR 172.704(d): record of current training inclusive of the preceding three years, retained while employed as a hazmat employee and for 90 days thereafter.", "source": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-172/subpart-H/section-172.704" },
+    { "claim": "30 CFR 48.9(c): copies of training certificates for currently employed miners kept at the minesite for 2 years, or for 60 days after termination of employment.", "source": "https://www.ecfr.gov/current/title-30/chapter-I/subchapter-H/part-48/subpart-A/section-48.9" },
+    { "claim": "AUSTRAC: Act section 116(3), AML/CTF program records kept from the time made to 7 years after the record is no longer relevant to demonstrating compliance with Part 1A.", "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/develop-your-amlctf-programs/record-keeping/record-keeping-overview" },
+    { "claim": "GDPR Article 5(1)(e) storage limitation text.", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504" },
+    { "claim": "1910.1030(h)(2) 3 years; HIPAA 164.316(b)(2) 6 years; Portugal Law 83/2017 7 years; Japan Ordinance Art. 38 3 years; ASQA 2 years and 30 years (reused from verified entries on existing pages).", "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030" }
+  ]
+}

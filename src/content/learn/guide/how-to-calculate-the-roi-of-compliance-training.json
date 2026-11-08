@@ -1,0 +1,396 @@
+{
+  "slug": "how-to-calculate-the-roi-of-compliance-training",
+  "kind": "guide",
+  "title": "How do you calculate the ROI of compliance training?",
+  "seoTitle": "ROI of compliance training",
+  "description": "How to calculate the return on investment of compliance training with the Phillips ROI formula, cost avoidance measures, and a worked illustrative example.",
+  "shortAnswer": "To calculate the return on investment (ROI) of compliance training, total the fully loaded program costs, measure changes in outcomes such as incidents, findings, and rework, isolate the share caused by training, convert that share to money, and apply the formula used in the ROI Methodology: net program benefits divided by program costs, multiplied by 100. Because most compliance benefits are avoided costs, report the ROI with its assumptions and alongside intangible benefits and effectiveness measures.",
+  "keyTakeaways": [
+    "The ROI formula is simple: ROI percent equals net program benefits divided by program costs, multiplied by 100. The benefit cost ratio is benefits divided by costs.",
+    "Most benefits of compliance training are avoided costs: fewer incidents, findings, remediation, and rework. Count them conservatively.",
+    "Isolating the effect of training from other causes is the step most often skipped, and the one that makes the figure credible.",
+    "Learner time is usually the largest cost of compliance training and must be included.",
+    "Regulators care more about effectiveness than financial return. Report ROI alongside evidence that people learned and behavior changed."
+  ],
+  "sections": [
+    {
+      "id": "roi-formula",
+      "heading": "What is the formula for training ROI?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training ROI is net program benefits divided by program costs, expressed as a percentage. The ROI Methodology, promoted by the ROI Institute, whose leaders are Jack J. Phillips (chairman) and Patti P. Phillips (cofounder and chief executive), gives two related measures ([ROI Institute](https://roiinstitute.net/roi-methodology/)):"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Benefit cost ratio (BCR)** = program benefits divided by program costs.",
+            "**ROI (percent)** = net program benefits (benefits minus costs) divided by program costs, multiplied by 100."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A BCR of 1.5 means each unit of currency spent returned 1.5 in benefits; the same program has an ROI of 50 percent. An ROI of zero means the program paid for itself and no more."
+        },
+        {
+          "type": "p",
+          "text": "The ROI Methodology places ROI at the top of five levels of evaluation: reaction and planned action, learning, application and implementation, business impact, and ROI. It also requires a step to isolate the effects of the program, asking \"How do you know it was the program?\", and treats benefits that are not converted to money as intangibles reported separately. The [Kirkpatrick model](/glossary/kirkpatrick-model) covers the first four levels in a similar way."
+        }
+      ]
+    },
+    {
+      "id": "why-compliance-roi-is-different",
+      "heading": "Why is compliance training ROI different from other training ROI?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Compliance training ROI is different because its main benefits are losses that did not happen, not revenue or productivity gained. A sales program can be measured against sales; a conduct program is measured against breaches, findings, and remediation costs that were avoided, which are harder to observe and attribute."
+        },
+        {
+          "type": "p",
+          "text": "Regulators and prosecutors still expect organizations to measure what their compliance spending achieves. The United States Department of Justice (DOJ) Evaluation of Corporate Compliance Programs asks \"How has the company measured the effectiveness of the training?\" and, in its section on compliance resources, \"Does the company have a mechanism to measure the commercial value of investments in compliance and risk management?\" ([DOJ ECCP, September 2024](https://www.justice.gov/media/1160391/dl?inline)). The DOJ's emphasis is on effectiveness first. A financial ROI is a useful management figure, but it does not replace evidence that people learned and that behavior changed. See [how to evidence training effectiveness to a regulator](/guides/how-to-evidence-training-effectiveness-to-a-regulator)."
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "heading": "What are the steps to calculate compliance training ROI?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The method has six steps: agree the outcome measures, capture a baseline, total the costs, measure the change, isolate the training effect, and convert it to money before applying the formula. Agree each step with finance and compliance before the program runs, so the result is not challenged afterward."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Choose outcome measures** linked to the obligations the training serves: incidents, near misses, audit or monitoring findings, policy exceptions, error rates, complaints, or time to complete a controlled process.",
+            "**Capture a baseline** for each measure over a comparable earlier period.",
+            "**Total the fully loaded costs** (see the next section).",
+            "**Measure the change** after the training, over a period long enough to be meaningful.",
+            "**Isolate the training effect.** The ROI Institute lists techniques including control groups, trend analysis, forecasting, and estimates from participants and experts. Where you use estimates, discount them by the estimator's stated confidence.",
+            "**Convert to money** using standard values, historical cost records, or expert input, then calculate BCR and ROI. Report unconverted benefits as intangibles."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "heading": "Which costs should be included?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Include every cost the program causes, including the time learners spend away from their work. For mandatory training that reaches the whole workforce, learner time is often the largest single cost."
+        },
+        {
+          "type": "table",
+          "caption": "Cost categories for a compliance training ROI calculation",
+          "head": [
+            "Cost category",
+            "What it includes",
+            "Commonly missed"
+          ],
+          "rows": [
+            [
+              "Needs analysis and design",
+              "Analysis, outcome writing, assessment design",
+              "Compliance and legal time spent scoping"
+            ],
+            [
+              "Content development",
+              "Internal or vendor development, media, accessibility, localization",
+              "Subject matter expert review time"
+            ],
+            [
+              "Delivery",
+              "Platform licenses, facilitators, venues, administration",
+              "Reminder and escalation effort by managers"
+            ],
+            [
+              "Learner time",
+              "Hours spent in training multiplied by a loaded hourly rate",
+              "Time for refreshers and retakes"
+            ],
+            [
+              "Maintenance",
+              "Updates when laws, standards, or procedures change",
+              "Re-training triggered by updates"
+            ],
+            [
+              "Evaluation",
+              "Data collection and analysis for the ROI study itself",
+              "Analyst and finance time"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For guidance on estimating development effort, see [how to estimate training content development time and cost](/guides/how-to-estimate-training-content-development-time-and-cost)."
+        }
+      ]
+    },
+    {
+      "id": "cost-avoidance",
+      "heading": "How do you value avoided costs?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Value avoided costs by multiplying the reduction in an outcome that you can attribute to training by the documented cost of each occurrence. Use costs your organization has actually incurred, such as investigation hours, remediation spending, or rework, rather than headline penalty maximums."
+        },
+        {
+          "type": "table",
+          "caption": "Cost avoidance measures for compliance training (choose those linked to your obligations)",
+          "head": [
+            "Benefit category",
+            "Example measure",
+            "How to value it",
+            "Confidence"
+          ],
+          "rows": [
+            [
+              "Fewer incidents or breaches",
+              "Reportable incidents per year",
+              "Average internal cost to investigate and remediate, from past cases",
+              "Medium: needs isolation"
+            ],
+            [
+              "Fewer audit or monitoring findings",
+              "Findings related to training topics",
+              "Staff time and external cost to close a finding",
+              "Medium"
+            ],
+            [
+              "Less rework and error",
+              "Errors in a controlled process",
+              "Time and cost to correct each error",
+              "Higher: often directly observable"
+            ],
+            [
+              "Reduced learner time",
+              "Seat time saved by targeting or shortening training",
+              "Hours saved multiplied by loaded hourly rate",
+              "Higher: directly measurable"
+            ],
+            [
+              "Lower regulatory exposure",
+              "Penalties or enforcement outcomes avoided",
+              "Report as an intangible or scenario, not in the headline ROI",
+              "Low: rare events, hard to attribute"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Why penalties stay out of the headline figure",
+          "text": "Large penalties are rare and rarely caused by a single training program. Including a full avoided penalty in the benefits can produce a very large ROI that finance and audit will not accept. This guide recommends showing penalty exposure as a separate scenario, so the headline ROI rests on measured, attributable costs."
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does a worked ROI calculation look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The example below shows the calculation end to end. **Every input is illustrative:** the numbers are made up, rounded for clarity, and do not describe any real organization or benchmark."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative ROI calculation for a redesigned compliance training program (all inputs are made up for illustration)",
+          "head": [
+            "Line",
+            "Illustrative input",
+            "Calculation",
+            "Illustrative result"
+          ],
+          "rows": [
+            [
+              "Fully loaded program costs",
+              "Design, development, delivery, learner time, evaluation",
+              "Sum of cost categories",
+              "150,000"
+            ],
+            [
+              "Incident handling costs avoided",
+              "Incidents fall from 12 to 8 a year; training credited with 50% of the fall; 45,000 per incident",
+              "4 fewer incidents x 50% x 45,000",
+              "90,000"
+            ],
+            [
+              "Learner time saved",
+              "2,000 staff each spend 0.5 hours less in training; loaded rate 60 per hour",
+              "2,000 x 0.5 x 60",
+              "60,000"
+            ],
+            [
+              "Audit finding remediation avoided",
+              "Expert estimate of 30,000; estimator 50% confident",
+              "30,000 x 50%",
+              "15,000"
+            ],
+            [
+              "Total monetary benefits",
+              "",
+              "90,000 + 60,000 + 15,000",
+              "165,000"
+            ],
+            [
+              "Benefit cost ratio",
+              "",
+              "165,000 / 150,000",
+              "1.1"
+            ],
+            [
+              "ROI",
+              "",
+              "(165,000 minus 150,000) / 150,000 x 100",
+              "10%"
+            ],
+            [
+              "Intangibles reported separately",
+              "Improved speak up survey scores; reduced regulatory exposure",
+              "Not converted to money",
+              "Reported alongside"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The modest result is deliberate. A conservative, well isolated figure that survives challenge is more useful to a board than a large one that does not. The example also shows how much of the benefit can come from reducing wasted learner time, which is one reason to target training by role and risk ([how to reduce compliance training fatigue](/guides/how-to-reduce-compliance-training-fatigue))."
+        }
+      ]
+    },
+    {
+      "id": "metrics-alongside-roi",
+      "heading": "Which metrics should be reported alongside ROI?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Report ROI together with efficiency and effectiveness measures, so readers can see whether the program reached the right people and changed what they do. ISO/TS 30437:2023, the International Organization for Standardization technical specification on learning and development metrics, sets out a framework of users, reasons to measure, and types of metrics, and recommends 50 metrics covering formal and informal learning ([ISO](https://www.iso.org/standard/68714.html))."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Reach:** percentage of in scope roles trained on the current version, by risk group.",
+            "**Learning:** assessment first time pass rates and the items most often failed.",
+            "**Application:** observed or audited behavior in the workplace, such as correct escalation rates.",
+            "**Impact:** the outcome measures used in the ROI calculation, trended over time.",
+            "**Cost:** cost per learner and learner hours per year, which show whether efficiency is improving."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The measurement design itself is covered in [how to measure training effectiveness](/guides/how-to-measure-training-effectiveness), and presentation to directors in [how to report training compliance to the board](/guides/how-to-report-training-compliance-to-the-board)."
+        }
+      ]
+    },
+    {
+      "id": "pitfalls",
+      "heading": "What mistakes make compliance training ROI unreliable?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The most damaging mistakes are crediting training with every improvement, leaving out learner time, and counting avoided penalties at full value. Each inflates the figure and weakens trust in it."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "No baseline, so the change cannot be measured.",
+            "No isolation step, so changes caused by new controls, staffing, or enforcement are credited to training.",
+            "Completion rates used as a benefit. Completion is an activity measure, not an outcome; see [completion tracking vs competency verification](/compare/completion-tracking-vs-competency-verification).",
+            "Assumptions not disclosed, so readers cannot judge the result.",
+            "ROI calculated once and never repeated, so trends are invisible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each obligation to learning outcomes and assessment points, so results can be measured by obligation and role rather than by course. That makes it easier to target training at the roles that need it, which reduces wasted learner time, and to connect assessment data to the outcome measures an ROI study uses. The [audit evidence](/platform/audit-evidence) page describes how results are traced."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is a good ROI for compliance training?",
+      "a": "There is no standard target, because compliance training exists first to meet obligations and reduce risk. A positive ROI is a bonus, not a precondition. A credible figure above zero, with clear assumptions and supporting effectiveness evidence, is more persuasive to a board than a large figure built on unattributed or estimated benefits."
+    },
+    {
+      "q": "Is ROI the same as cost avoidance?",
+      "a": "No. Cost avoidance is a type of benefit: the value of losses that did not occur because of the program. ROI is the ratio that compares all monetary benefits, including cost avoidance, with the full program costs. You can report cost avoidance on its own, but ROI also accounts for what the program cost."
+    },
+    {
+      "q": "How long after training should benefits be measured?",
+      "a": "Long enough for the outcome to show a real change, which depends on how often the outcome occurs. Frequent events such as process errors may show change within months. Rare events such as reportable breaches may need a year or more, and the result should be read with caution."
+    },
+    {
+      "q": "Do we need an ROI study for every compliance course?",
+      "a": "No. Full ROI studies take effort and suit large, costly, or high risk programs. For smaller courses, track reach, learning, and application measures, and reserve ROI analysis for programs where the investment decision or the risk justifies it."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ROI Methodology",
+      "publisher": "ROI Institute",
+      "url": "https://roiinstitute.net/roi-methodology/"
+    },
+    {
+      "title": "Evaluation of Corporate Compliance Programs (Updated September 2024)",
+      "publisher": "US Department of Justice, Criminal Division",
+      "url": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "title": "ISO/TS 30437:2023 Human resource management: Learning and development metrics",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/68714.html"
+    },
+    {
+      "title": "About ROI Institute",
+      "publisher": "ROI Institute",
+      "url": "https://roiinstitute.net/about/"
+    }
+  ],
+  "related": [
+    "how-to-measure-training-effectiveness",
+    "how-to-evidence-training-effectiveness-to-a-regulator",
+    "kirkpatrick-model",
+    "how-to-report-training-compliance-to-the-board",
+    "doj-compliance-program-training-expectations",
+    "how-to-estimate-training-content-development-time-and-cost"
+  ],
+  "productLinks": [
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 10,
+  "factCheck": [
+    {
+      "claim": "ROI Institute: BCR = program benefits / program costs; ROI (%) = net program benefits / program costs (x 100); five levels: reaction and planned action, learning, application and implementation, business impact, ROI; isolation step 'How do you know it was the program?' with techniques including control groups, trend analysis, forecasting, estimations; conversion via standard values, historical records, expert input; intangibles tracked separately.",
+      "source": "https://roiinstitute.net/roi-methodology/"
+    },
+    {
+      "claim": "ECCP (September 2024) asks 'How has the company measured the effectiveness of the training?' and 'Does the company have a mechanism to measure the commercial value of investments in compliance and risk management?' (Funding and Resources).",
+      "source": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "claim": "ISO/TS 30437:2023 Human resource management: Learning and development metrics; framework of five categories of users, four reasons to measure, three types of metrics, recommending 50 metrics for formal and informal learning.",
+      "source": "https://www.iso.org/standard/68714.html"
+    },
+    {
+      "claim": "Patti P. Phillips is cofounder and CEO of ROI Institute; Jack J. Phillips is chairman.",
+      "source": "https://roiinstitute.net/about/"
+    }
+  ]
+}

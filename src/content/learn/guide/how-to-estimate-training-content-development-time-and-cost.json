@@ -1,0 +1,263 @@
+{
+  "slug": "how-to-estimate-training-content-development-time-and-cost",
+  "kind": "guide",
+  "title": "How long does it take, and what does it cost, to develop e-learning?",
+  "seoTitle": "E-learning development time and cost",
+  "description": "What published survey data says about e-learning development hours and cost per finished hour, what drives them, and how to build a defensible estimate.",
+  "shortAnswer": "The most cited published benchmark, the Chapman Alliance survey of 249 organizations in 2010, reported average development effort of 79 hours per finished hour for basic e-learning, 184 for interactive e-learning, and 490 for advanced, simulation based e-learning, against 43 hours for instructor led training. Average reported costs ranged from about 10,000 to 50,000 US dollars per finished hour of e-learning. These are dated survey ranges, useful for sense checking an estimate, not for pricing one.",
+  "keyTakeaways": [
+    "Development effort is usually expressed as hours of work per hour of finished learning. Published ratios vary by a factor of five or more depending on interactivity.",
+    "The widely quoted Chapman Alliance figures date from 2010 and were self reported. Treat them as industry survey ranges, not current prices.",
+    "Scope clarity, source material quality, subject matter expert availability, review cycles, and interactivity drive most of the variation.",
+    "Build estimates bottom up from tasks and review cycles, then sense check against published ranges.",
+    "Structured analysis before writing moves effort earlier and tends to reduce rework and maintenance cost, but no comparable published data quantifies the saving."
+  ],
+  "sections": [
+    {
+      "id": "published-time-data",
+      "heading": "What does published survey data say about development time?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Published survey data puts typical e-learning development effort at tens to hundreds of hours of work for each hour of finished learning, rising steeply with interactivity. The most widely cited source is the Chapman Alliance study \"How Long Does it Take to Create Learning?\", with data collected in September 2010 from 249 organizations representing 3,947 learning development professionals ([Chapman Alliance](https://www.slideshare.net/slideshow/how-long-does-it-take-to-create-learning/5198860))."
+        },
+        {
+          "type": "table",
+          "caption": "Development hours per finished hour of learning, Chapman Alliance survey, data collected September 2010 (dated industry survey ranges)",
+          "head": ["Format", "Low", "Average", "High"],
+          "rows": [
+            ["Instructor led training", "22:1", "43:1", "82:1"],
+            ["Level 1 e-learning (basic)", "49:1", "79:1", "125:1"],
+            ["Level 2 e-learning (interactive)", "127:1", "184:1", "267:1"],
+            ["Level 3 e-learning (advanced)", "217:1", "490:1", "716:1"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The study defined the levels by interactivity. Level 1 meant \"content pages, text, graphics, perhaps simple audio, perhaps simple video, test questions\". Level 2 added at least 25 percent interactive exercises and more multimedia. Level 3 meant highly interactive content, possibly simulation or game based ([Chapman Alliance](https://www.slideshare.net/slideshow/cost-to-develop-elearning/69322684)). The study also noted that several respondents reported times above 2,000 hours per finished hour for Level 3."
+        }
+      ]
+    },
+    {
+      "id": "published-cost-data",
+      "heading": "What did the same survey report about cost?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The same Chapman Alliance research reported average costs per finished hour, in US dollars at 2010 values. They are averages of self reported figures, not quotes, and have not been adjusted for inflation."
+        },
+        {
+          "type": "table",
+          "caption": "Average reported cost per finished hour, Chapman Alliance, 2010 (US dollars, not inflation adjusted)",
+          "head": ["Format", "Average cost per finished hour"],
+          "rows": [
+            ["Instructor led training", "5,934"],
+            ["Level 1 e-learning (basic)", "10,054"],
+            ["Level 2 e-learning (interactive)", "18,583"],
+            ["Level 3 e-learning (advanced)", "50,371"],
+            ["Blended learning", "25,900 for an average 32 hour course, as reported"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Other practitioners have published comparable work. Karl Kapp, for example, summarizes several studies of development time, including his 2009 article with Robyn Defelice for the American Society for Training and Development (ASTD), and notes that the Chapman Alliance study broke time down by phase, such as front end analysis, storyboarding, authoring, pilot testing, and quality assurance ([Karl Kapp](https://karlkapp.com/resource-for-finding-out-how-long-it-takes-to-develop-elearning/))."
+        }
+      ]
+    },
+    {
+      "id": "using-the-figures",
+      "heading": "How should you use these figures?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use published figures to sense check an estimate built from your own tasks, not as a price list. They are useful for spotting an estimate that is implausibly low or high, and for explaining to stakeholders why interactive content costs more."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**They are dated.** The data predates widespread rapid authoring tools and generative AI, both of which change where time is spent.",
+            "**They are self reported.** Respondents estimated their own effort, and organizations count hours differently.",
+            "**The ranges are wide.** The high end for basic e-learning is close to the low end for interactive e-learning, so the label alone does not fix the estimate.",
+            "**\"Finished hour\" is a seat time measure.** It says how long a learner spends, not how much knowledge is covered or how many assessment items exist.",
+            "**They exclude maintenance.** Compliance content needs updating when laws, standards, or procedures change, and that effort recurs over the content's life."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cost-drivers",
+      "heading": "What drives development time and cost?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The biggest drivers are how clearly the scope is defined, the quality of the source material, how available subject matter experts are, how many review rounds are needed, and how interactive the content is. Media production and localization add further cost on top."
+        },
+        {
+          "type": "table",
+          "caption": "Cost drivers for training content development and how to manage them",
+          "head": ["Driver", "Why it changes the estimate", "How to manage it"],
+          "rows": [
+            ["Scope clarity", "Unclear outcomes lead to rewriting after review", "Agree outcomes and the obligations covered before design starts"],
+            ["Source material quality", "Out of date or conflicting policies must be resolved before content can be written", "Confirm the current version of each source and an owner who can resolve conflicts"],
+            ["Subject matter expert availability", "Waiting for expert input stalls work and extends elapsed time", "Book expert time in advance and use structured interviews"],
+            ["Review cycles", "Each round of review and revision adds effort for writers and reviewers", "Set a fixed number of rounds, consolidated comments, and a named approver"],
+            ["Interactivity level", "Scenarios, branching, and simulations take much longer to design and build", "Reserve high interactivity for skills that need practice"],
+            ["Assessment design", "Valid scenario items take longer to write than recall questions", "Write an assessment blueprint early so items are designed once"],
+            ["Media production", "Video, narration, and custom graphics add specialist effort", "Use media where it teaches something text cannot"],
+            ["Accessibility", "Captions, alternatives for non text content, and keyboard access need design and testing", "Design to a stated target, such as WCAG 2.2 level AA, from the start"],
+            ["Localization", "Each language adds translation, review, and testing", "Finalize the source language version before translation"],
+            ["Technical packaging", "Content must launch and report correctly in the delivery platform", "Test a sample package in the target system early"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Accessibility and packaging are often left out of early estimates. The Web Content Accessibility Guidelines (WCAG) 2.2, for example, include success criteria for captions on prerecorded video and text alternatives for non text content ([W3C](https://www.w3.org/TR/WCAG22/)). Delivery formats such as SCORM, xAPI, and cmi5 each need testing in the target platform; see [SCORM vs xAPI](/compare/scorm-vs-xapi)."
+        }
+      ]
+    },
+    {
+      "id": "building-an-estimate",
+      "heading": "How do you build a defensible estimate?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Build the estimate bottom up from tasks, review rounds, and roles, then compare the total with published ratios as a sense check. An estimate built this way can be explained and adjusted; a single ratio multiplied by seat time cannot."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Define the outcomes and seat time** for each module, linked to the obligations it serves ([how to write measurable learning outcomes](/guides/how-to-write-measurable-learning-outcomes)).",
+            "**Classify interactivity** for each module using clear definitions, such as the three levels above.",
+            "**List tasks by phase:** analysis, design, writing, assessment, media, build, accessibility checks, review rounds, packaging, and pilot.",
+            "**Estimate hours per task and role,** including subject matter expert and reviewer time, which is often omitted.",
+            "**Add maintenance** as a separate annual line, based on how often the underlying rules change.",
+            "**Sense check** the total against published ranges, and investigate if it falls far outside them."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Sense check arithmetic using the published averages",
+          "text": "Applying the 2010 Chapman Alliance averages to a 30 minute module gives about 40 hours of effort at the Level 1 average (79 multiplied by 0.5) and about 92 hours at the Level 2 average (184 multiplied by 0.5). This is arithmetic on dated survey averages, shown only to illustrate a sense check. It is not an estimate for any real project."
+        }
+      ]
+    },
+    {
+      "id": "structured-frameworks",
+      "heading": "How do structured knowledge frameworks change the estimate?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A structured framework moves effort earlier: more time goes into defining concepts, relationships, outcomes, and assessment points before writing, and less time goes into rework, duplicated analysis, and later updates. The total for a single module may not fall, but the cost across a library and over its life usually behaves differently."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Less rework.** When outcomes and sources are agreed first, reviewers check content against an agreed structure rather than debating scope during review.",
+            "**Reuse across modules.** A concept defined once can be used in several role based modules without repeating the analysis.",
+            "**Cheaper maintenance.** When each learning point links to its source, a change in the source identifies exactly which content needs updating. See [how to update training when regulations change](/guides/how-to-update-training-when-regulations-change).",
+            "**Assessment designed once.** An [assessment blueprint](/glossary/assessment-blueprint) built from the framework reduces item rewriting."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This guide does not put a figure on these savings, because no comparable published survey data quantifies them. Organizations that want a figure should track their own hours per phase before and after adopting a structured approach."
+        }
+      ]
+    },
+    {
+      "id": "ai-and-estimates",
+      "heading": "How does AI change development time?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI tools can shorten drafting, but they shift effort toward verification rather than removing it. In regulated training, every AI drafted learning point still needs to be checked against its source and approved by a qualified person, so review time should be estimated explicitly."
+        },
+        {
+          "type": "p",
+          "text": "The published benchmarks above predate generative AI and give no guidance on its effect. Estimate AI assisted work with the same bottom up method, adding a verification task per module. See [how to check AI generated training for accuracy](/guides/how-to-check-ai-generated-training-for-accuracy) and [how to use AI to create training content safely](/guides/how-to-use-ai-to-create-training-content-safely)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry front loads the analysis: it defines the knowledge framework, outcomes, and assessment points, each linked to its source, before content is produced. That makes scope and review effort visible at estimate time and turns later updates into targeted changes. The [knowledge transformation](/platform/knowledge-transformation) page describes the process."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does development hours per finished hour mean?",
+      "a": "It is the number of hours of work needed to produce one hour of learning as experienced by the learner. A ratio of 79:1 means 79 hours of analysis, design, writing, building, and review for each hour of seat time. It is a planning convention and does not measure how much knowledge the content covers."
+    },
+    {
+      "q": "Are there more recent figures than the 2010 Chapman Alliance study?",
+      "a": "Practitioners and industry bodies publish development time surveys from time to time, but the 2010 Chapman Alliance data remains the most widely cited set with published ranges by interactivity level. Whatever source you use, check the date, sample size, and definitions, and label the figures as survey ranges."
+    },
+    {
+      "q": "Why do compliance modules often cost more than general training?",
+      "a": "Compliance content needs accuracy checks against legal and policy sources, subject matter expert review, assessment that can serve as evidence, and records of each version. It also needs updating whenever the underlying rules change. Those steps add effort that general awareness content may not need."
+    },
+    {
+      "q": "Should the estimate include subject matter expert time?",
+      "a": "Yes. Expert time for interviews, reviews, and approvals is a real cost even when it is not invoiced, and its availability often determines the schedule. Estimating it explicitly also helps secure the time from the business before the project starts."
+    }
+  ],
+  "sources": [
+    {
+      "title": "How Long Does it Take to Create Learning? (data collected September 2010)",
+      "publisher": "Chapman Alliance (hosted on SlideShare)",
+      "url": "https://www.slideshare.net/slideshow/how-long-does-it-take-to-create-learning/5198860"
+    },
+    {
+      "title": "Cost to develop e-learning: research data collected September 2010 by Chapman Alliance",
+      "publisher": "Chapman Alliance (hosted on SlideShare)",
+      "url": "https://www.slideshare.net/slideshow/cost-to-develop-elearning/69322684"
+    },
+    {
+      "title": "Resources for finding out how long it takes to develop eLearning",
+      "publisher": "Karl Kapp",
+      "url": "https://karlkapp.com/resource-for-finding-out-how-long-it-takes-to-develop-elearning/"
+    },
+    {
+      "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "publisher": "World Wide Web Consortium (W3C)",
+      "url": "https://www.w3.org/TR/WCAG22/"
+    }
+  ],
+  "related": [
+    "how-to-write-an-rfp-for-compliance-training",
+    "build-vs-buy-training-content",
+    "how-to-create-an-assessment-blueprint",
+    "how-to-capture-subject-matter-expert-knowledge",
+    "how-to-calculate-the-roi-of-compliance-training"
+  ],
+  "productLinks": [
+    { "label": "Knowledge transformation", "href": "/platform/knowledge-transformation" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 10,
+  "factCheck": [
+    {
+      "claim": "Chapman Alliance, data collected September 2010: 249 organizations, 3,947 learning development professionals; development hours per finished hour: ILT 22:1 / 43:1 / 82:1; Level 1 49:1 / 79:1 / 125:1; Level 2 127:1 / 184:1 / 267:1; Level 3 217:1 / 490:1 / 716:1 (low / average / high); several Level 3 respondents above 2,000 hours.",
+      "source": "https://www.slideshare.net/slideshow/how-long-does-it-take-to-create-learning/5198860"
+    },
+    {
+      "claim": "Chapman Alliance 2010 average cost per finished hour: ILT $5,934; Level 1 $10,054; Level 2 $18,583; Level 3 $50,371; blended $25,900 for an average 32 hour course; level definitions (Level 1 content pages, text, graphics, perhaps simple audio or video, test questions; Level 2 adds 25% or more interactive exercises; Level 3 highly interactive, possibly simulation or game based).",
+      "source": "https://www.slideshare.net/slideshow/cost-to-develop-elearning/69322684"
+    },
+    {
+      "claim": "Karl Kapp cites Kapp and Defelice (2009) ASTD article on time to develop one hour of training, and notes the Chapman study breaks time down by element such as front end analysis, storyboarding, authoring, pilot testing and QA.",
+      "source": "https://karlkapp.com/resource-for-finding-out-how-long-it-takes-to-develop-elearning/"
+    },
+    {
+      "claim": "WCAG 2.2 includes success criteria for text alternatives for non text content (1.1.1) and captions for prerecorded audio in synchronized media (1.2.2).",
+      "source": "https://www.w3.org/TR/WCAG22/"
+    }
+  ]
+}

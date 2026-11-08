@@ -1,0 +1,380 @@
+{
+  "slug": "how-to-build-an-ai-literacy-training-program",
+  "kind": "guide",
+  "title": "How do you build an AI literacy training program?",
+  "seoTitle": "Building an AI literacy program",
+  "description": "How to build a role based AI literacy training program by level of AI exposure, mapped to the EU AI Act, NIST AI RMF, ISO/IEC 42001 and government guidance.",
+  "shortAnswer": "To build an AI literacy training program, inventory the AI systems your organization uses, group people by how much they depend on or control AI, and set learning outcomes for each group. Deliver short general training for everyone and deeper, role specific training for operators, builders, reviewers, and accountable leaders. Record who was trained on what and when, and update content as tools change. No certificate is required under the EU AI Act.",
+  "keyTakeaways": [
+    "Segment by AI exposure, not by department: what a person does with AI decides what they need to know.",
+    "The EU AI Act (Article 4) makes AI literacy measures binding for providers and deployers; the European Commission says no certificate is needed and an internal record of training is enough.",
+    "NIST AI RMF GOVERN 2.2, ISO/IEC 42001 clauses 7.2 and 7.3, Japan's AI Guidelines for Business, and Australia's Guidance for AI Adoption all point the same way: role based training with records.",
+    "A role by topic by evidence matrix turns those expectations into a program an auditor can follow.",
+    "AI literacy content dates quickly. Tie reviews to tool, model, and policy changes as well as a fixed cycle."
+  ],
+  "sections": [
+    {
+      "id": "what-it-is",
+      "heading": "What is an AI literacy training program?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An AI literacy training program is the planned set of training, guidance, and checks that gives each person the AI knowledge their role requires, with records showing who received what. It is broader than a single course: it covers general awareness for everyone and deeper capability for people who operate, build, buy, review, or answer for AI systems."
+        },
+        {
+          "type": "p",
+          "text": "The EU Artificial Intelligence Act defines [AI literacy](/glossary/ai-literacy) in Article 3(56) as the skills, knowledge, and understanding that allow people to make an informed deployment of AI systems and to gain awareness of the opportunities, risks, and possible harm of AI. That definition works well as a program goal in any market. This guide covers how to design the program; the legal detail of the EU duty is covered in [EU AI Act AI literacy (Article 4)](/regulations/eu-ai-act-ai-literacy)."
+        }
+      ]
+    },
+    {
+      "id": "frameworks",
+      "heading": "Which frameworks set expectations for AI literacy training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Five widely used frameworks expect organizations to train people on AI according to their role. Only the EU AI Act is binding law; the others are voluntary or certifiable, but they shape what customers, auditors, and regulators ask for. The summary below is as at November 2026."
+        },
+        {
+          "type": "table",
+          "caption": "AI literacy expectations by framework, as at November 2026",
+          "head": [
+            "Framework",
+            "Status",
+            "What it expects",
+            "What it means for evidence"
+          ],
+          "rows": [
+            [
+              "EU AI Act, Article 4",
+              "Binding on providers and deployers of AI systems in the EU",
+              "Measures to support the AI literacy of staff and others using AI on the organization's behalf, considering their knowledge, experience, and context of use",
+              "An internal record of training and other initiatives; no certificate required"
+            ],
+            [
+              "NIST AI RMF, GOVERN 2.2",
+              "Voluntary (United States)",
+              "Personnel and partners receive AI risk management training to perform their duties consistent with policies, procedures, and agreements",
+              "Training tailored to AI actor groups, with documentation of skills and competency"
+            ],
+            [
+              "ISO/IEC 42001, clauses 7.2 and 7.3",
+              "Voluntary; certifiable",
+              "Determine and ensure competence for people whose work affects the AI management system; make everyone aware of the AI policy",
+              "Retained documented information as evidence of competence"
+            ],
+            [
+              "AI Guidelines for Business (Japan)",
+              "Non binding soft law",
+              "Common guiding principle 8: education and literacy for people engaged in AI",
+              "Role specific education, documented as part of AI governance"
+            ],
+            [
+              "Guidance for AI Adoption (Australia)",
+              "Voluntary",
+              "Practice 1.3: evaluate and document training needs across the organization and for accountable people",
+              "Documented training needs analysis and records that skills are kept up to date"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The European Commission's [AI literacy questions and answers](https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers) are the most practical public source on content. They say organizations should consider a general understanding of AI, their role as provider or deployer, the risks of the AI systems they use, and the differences in technical knowledge and context of use across their staff, including legal and ethical aspects. They also state: \"There is no need for a certificate. Organisations can keep an internal record of trainings and/or other guiding initiatives.\""
+        },
+        {
+          "type": "p",
+          "text": "The [NIST AI RMF Playbook](https://airc.nist.gov/airmf-resources/playbook/govern/) adds that training should be customized across AI actor groups, such as technical staff versus oversight roles, and should address technical and socio technical aspects of AI risk management. Australia's [implementation guidance](https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance) asks organizations to evaluate the training needs of accountable people, including those responsible for legal and regulatory obligations, personal information, operation and oversight of each AI system, and procurement of third party AI."
+        }
+      ]
+    },
+    {
+      "id": "exposure-groups",
+      "heading": "How should you group staff by AI exposure?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Group people by what they do with AI, because the same department can contain someone who never touches AI and someone who relies on it for decisions about customers. Six exposure groups cover most organizations; one person can belong to more than one."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**General workforce.** May meet AI in everyday software or be affected by AI decisions, but does not choose or direct AI tools.",
+            "**Everyday users.** Use general purpose AI assistants for drafting, summarizing, translation, or search under the organization's AI policy.",
+            "**Operators and overseers.** Use AI outputs in decisions that affect people, such as screening, triage, credit, claims, or fraud alerts, and are expected to interpret, challenge, or override them.",
+            "**Builders and buyers.** Develop, configure, integrate, test, or procure AI systems, including data and IT teams and procurement staff.",
+            "**Content reviewers.** Check AI assisted material before it is relied on, such as training content, customer communications, or reports.",
+            "**Accountable leaders and governance roles.** Executives, risk, compliance, legal, privacy, and audit staff who approve AI use or answer for its outcomes."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Start from the AI inventory. For each AI system or use, list who uses it, who oversees it, who bought or built it, and who is accountable. That list becomes the target population for each group and makes it easier to show that training was risk based rather than generic."
+        }
+      ]
+    },
+    {
+      "id": "role-topic-evidence",
+      "heading": "What should each group learn, and what evidence should you keep?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each group needs a different depth of knowledge and a different kind of evidence. The matrix below is this guide's original synthesis of the frameworks above; it is a starting point to adapt, not text from any of them."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative AI literacy matrix: exposure group by topic by evidence",
+          "head": [
+            "Exposure group",
+            "Core topics",
+            "Typical format",
+            "Evidence to keep"
+          ],
+          "rows": [
+            [
+              "General workforce",
+              "What AI is and is not; where the organization uses AI; how to recognize AI interactions; how to raise a concern",
+              "Short module or briefing at induction and on major change",
+              "Completion record by person and content version"
+            ],
+            [
+              "Everyday users",
+              "AI acceptable use policy; what data may be entered; [hallucination](/glossary/ai-hallucination) and checking outputs; disclosure and copyright basics",
+              "Module with scenario questions; quick reference guide",
+              "Scenario assessment results; policy acknowledgment"
+            ],
+            [
+              "Operators and overseers",
+              "Capabilities and limits of the specific system; automation bias; when and how to override or escalate; impact on affected people",
+              "System specific training with supervised practice",
+              "Competence assessment per system; authority assignment; refresher dates"
+            ],
+            [
+              "Builders and buyers",
+              "Data quality and provenance; testing and monitoring; supplier due diligence; documentation duties; legal requirements for their role",
+              "Technical workshops; role specific learning paths",
+              "Training records mapped to AI systems; qualifications; peer review of work"
+            ],
+            [
+              "Content reviewers",
+              "Confabulation patterns; claim by claim checking; source tracing; sign off duties",
+              "Practical exercise checking a seeded AI draft",
+              "Exercise results; reviewer authorization list"
+            ],
+            [
+              "Accountable leaders and governance",
+              "AI risk appetite; legal obligations by jurisdiction; incident escalation; reading AI risk reports; their own accountability",
+              "Briefings and tabletop exercises",
+              "Attendance, briefing materials, and decisions recorded in minutes"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The content reviewer row matters for learning teams that use AI to draft material. Their checking method is covered in [how to check AI generated training for accuracy](/guides/how-to-check-ai-generated-training-for-accuracy). For deeper roles, express outcomes in a [competency framework](/glossary/competency-framework) so that training, assessment, and records all refer to the same defined capability."
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "heading": "What are the steps to build the program?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Build the program in the same order as any risk based training: inventory, analyze, design, deliver, record, and review. Each step below produces an output a later audit or review relies on."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Confirm scope and ownership.** Name an owner for AI literacy and agree which frameworks apply in each country you operate in. Output: a program charter.",
+            "**Inventory AI systems and uses.** Include general purpose tools and informal use. Output: an AI inventory with the organization's role (provider or deployer) for each system.",
+            "**Assign people to exposure groups.** Use the inventory to map users, overseers, builders, reviewers, and accountable people. Output: target populations by group.",
+            "**Run a training needs analysis.** Compare what each group needs with current knowledge, using short diagnostics where useful. Output: documented needs, which Australia's practice 1.3.1 explicitly asks for. See [how to conduct a training needs analysis](/guides/how-to-conduct-a-training-needs-analysis).",
+            "**Write outcomes and design content.** Write measurable outcomes per group and topic, then select formats. Output: outcomes, content plan, and assessment points.",
+            "**Deliver and record.** Release content by group, including contractors and others acting on the organization's behalf. Output: records by person, content version, and date.",
+            "**Evaluate and improve.** Review assessment results, incidents, and questions raised. Output: an improvement log and a scheduled review date."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "measuring",
+      "heading": "How do you show the AI literacy program works?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Show it works by linking what people learned to how they behave with AI, not only by completion rates. The legal minimum and good practice differ here, so be clear about which one you are aiming for."
+        },
+        {
+          "type": "p",
+          "text": "The European Commission states that Article 4 \"does not entail an obligation to measure the knowledge of AI of employees\". ISO/IEC 42001 goes further for people whose work affects the AI management system: where actions are taken to acquire competence, their effectiveness is evaluated. The NIST Playbook suggests documenting staff competency in interpreting model outputs. A sensible approach is light measurement for the general workforce and assessed competence for operators, overseers, and reviewers."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Knowledge checks** on policy and risk scenarios for everyday users.",
+            "**Observed or assessed tasks** for operators, such as correctly overriding a flawed AI recommendation in a practice case.",
+            "**Operational signals** such as policy breaches, data entered into unapproved tools, reported AI errors, and incident root causes.",
+            "**Coverage reporting** by exposure group and AI system, so gaps are visible to governance roles."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The general methods are covered in [how to measure training effectiveness](/guides/how-to-measure-training-effectiveness)."
+        }
+      ]
+    },
+    {
+      "id": "maintenance",
+      "heading": "How often should AI literacy training be updated?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Update AI literacy training whenever the tools, the policy, or the law changes, and review it on a fixed cycle as a backstop. AI products change faster than most compliance topics, so annual review alone usually leaves content stale."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "A new AI system or a significant model or feature change in an existing one.",
+            "A change to the AI acceptable use policy or approved tool list. See [how to write an AI acceptable use policy](/guides/how-to-write-an-ai-acceptable-use-policy).",
+            "New regulator guidance or legal change in a jurisdiction where you operate.",
+            "An AI related incident or near miss with a training cause.",
+            "A scheduled review, commonly annual, with spot checks of system specific content after vendor releases."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Australia's implementation guidance asks organizations to \"regularly check skills are up-to-date as AI development and deployment evolves\", which is a reasonable standard to adopt wherever you operate."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models AI literacy as concepts and assessment points linked to exposure groups, AI systems, and the obligations each framework sets, before content is written. Records then show coverage by role, system, and date, and a change to a system or policy identifies the content and people affected. The [knowledge governance](/platform/knowledge-governance) page describes these controls."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is AI literacy training mandatory?",
+      "a": "In the European Union, Article 4 of the AI Act requires providers and deployers to take measures to support AI literacy, though it does not prescribe a course or certificate. Elsewhere, frameworks such as the NIST AI RMF, Japan's AI Guidelines for Business, and Australia's Guidance for AI Adoption are voluntary, but customers and auditors increasingly expect them."
+    },
+    {
+      "q": "Do contractors need AI literacy training?",
+      "a": "Often, yes. The European Commission says the other persons covered by Article 4 can include a contractor, a service provider, or a client acting on the organization's behalf. NIST GOVERN 2.2 also refers to partners. Train them directly or require equivalent training by contract and keep the evidence."
+    },
+    {
+      "q": "How long should general AI literacy training be?",
+      "a": "No framework sets a duration. Short, focused general modules followed by role specific training tend to work better than one long course for everyone. Size each element to the outcomes for that exposure group and test whether people can apply the policy in realistic scenarios."
+    },
+    {
+      "q": "Should AI literacy be a separate program or part of existing compliance training?",
+      "a": "It can be either, but it should have its own outcomes and records. Many organizations deliver general AI awareness inside annual compliance training and run system specific training separately, because operators and builders need content tied to particular tools and change on a different cycle."
+    },
+    {
+      "q": "Can one program satisfy several frameworks at once?",
+      "a": "Yes, if the mapping is explicit. A single matrix of exposure groups, topics, and evidence can show measures under EU AI Act Article 4, training under NIST GOVERN 2.2, and competence and awareness under ISO/IEC 42001 clauses 7.2 and 7.3, provided records identify which outcomes serve which requirement."
+    }
+  ],
+  "sources": [
+    {
+      "title": "AI Literacy: Questions and Answers",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers"
+    },
+    {
+      "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+    },
+    {
+      "title": "NIST AI RMF Playbook: Govern",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://airc.nist.gov/airmf-resources/playbook/govern/"
+    },
+    {
+      "title": "ISO/IEC 42001:2023 Information technology: Artificial intelligence: Management system",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/42001"
+    },
+    {
+      "title": "AI Guidelines for Business, version 1.2",
+      "publisher": "Ministry of Internal Affairs and Communications and Ministry of Economy, Trade and Industry, Japan",
+      "url": "https://www.soumu.go.jp/main_content/001080990.pdf"
+    },
+    {
+      "title": "Guidance for AI adoption: implementation guidance",
+      "publisher": "National Artificial Intelligence Centre, Department of Industry, Science and Resources",
+      "url": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance"
+    },
+    {
+      "title": "Voluntary AI Safety Standard and Guidance for AI Adoption",
+      "publisher": "Department of Industry, Science and Resources",
+      "url": "https://www.industry.gov.au/publications/voluntary-ai-safety-standard"
+    }
+  ],
+  "related": [
+    "ai-literacy",
+    "eu-ai-act-ai-literacy",
+    "nist-ai-rmf-ai-risk-training",
+    "iso-iec-42001-competence-and-awareness",
+    "japan-ai-guidelines-for-business-training",
+    "how-to-write-an-ai-acceptable-use-policy"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 9,
+  "factCheck": [
+    {
+      "claim": "EC Q&A: no need for a certificate; organisations can keep an internal record of trainings and/or other guiding initiatives.",
+      "source": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers"
+    },
+    {
+      "claim": "EC Q&A minimum content: general understanding of AI; role as provider or deployer; risks of the AI systems; build actions considering differences in technical knowledge, experience, education and training and context; considerations include legal and ethical aspects.",
+      "source": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers"
+    },
+    {
+      "claim": "EC Q&A: Article 4 does not entail an obligation to measure the knowledge of AI of employees; other persons can be a contractor, a service provider, a client; employees using ChatGPT should be informed about specific risks such as hallucination.",
+      "source": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers"
+    },
+    {
+      "claim": "GOVERN 2.2 text: the organization's personnel and partners receive AI risk management training to enable them to perform their duties and responsibilities consistent with related policies, procedures, and agreements.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+    },
+    {
+      "claim": "Playbook GOVERN 2.2: customize training across AI actor groups (technical vs oversight roles); address technical and socio-technical aspects; documentation of staff competency in interpreting model outputs.",
+      "source": "https://airc.nist.gov/airmf-resources/playbook/govern/"
+    },
+    {
+      "claim": "Australian implementation guidance 1.3 AI literacy and training: 1.3.1 evaluate and document training needed; regularly check skills are up-to-date as AI development and deployment evolves; 1.3.2 training needs of accountable people incl. legal and regulatory obligations, personally identifiable information, operation and oversight of each AI system, procurement of third-party AI.",
+      "source": "https://www.ai.gov.au/staying-safe-and-responsible/essential-ai-practices/guidance-ai-adoption-implementation-guidance"
+    },
+    {
+      "claim": "Guidance for AI Adoption published 21 October 2025 by DISR, six essential practices, evolves the Voluntary AI Safety Standard (recorded on sibling pages; page timed out on re-check 8 Nov 2026).",
+      "source": "https://www.industry.gov.au/publications/voluntary-ai-safety-standard"
+    },
+    {
+      "claim": "Japan AI Guidelines for Business v1.2 are non-binding soft law; common guiding principle 8 is education/literacy (as recorded on sibling page japan-ai-guidelines-for-business-training).",
+      "source": "https://www.soumu.go.jp/main_content/001080990.pdf"
+    }
+  ]
+}

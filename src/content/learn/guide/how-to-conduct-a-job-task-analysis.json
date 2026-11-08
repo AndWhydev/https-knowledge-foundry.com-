@@ -1,0 +1,374 @@
+{
+  "slug": "how-to-conduct-a-job-task-analysis",
+  "kind": "guide",
+  "title": "How do you conduct a job task analysis?",
+  "seoTitle": "How to conduct a job task analysis",
+  "description": "A nine step method for a job task analysis: scope, expert panel, task statements, validation survey, criticality and frequency ratings, and blueprint outputs.",
+  "shortAnswer": "A job task analysis is conducted by fixing its purpose and scope, gathering existing evidence about the job, running an expert panel to draft duties and tasks, linking each task to the knowledge and skills it needs, validating the task list through a survey of job holders who rate frequency and criticality, applying documented decision rules to those ratings, and turning the results into competency requirements and a weighted assessment blueprint, with the method recorded for review.",
+  "keyTakeaways": [
+    "Start from the decision the analysis must support, such as a certification scheme, a training program or a selection process; it sets the depth and the rating scales.",
+    "Use a small panel of experienced job holders to draft tasks, then a wider survey to validate and rate them, so the result reflects the job rather than a few individuals.",
+    "Rate every task for at least frequency and criticality, and document how ratings are turned into decisions; selection guidance treats criticality or importance measures as essential.",
+    "Critical but rare tasks need a rule of their own, or a simple frequency times criticality score will push them out of training and assessment.",
+    "The outputs are a validated task list, linked competency requirements and blueprint weights, plus a record of the method that an auditor or accreditor can follow."
+  ],
+  "sections": [
+    {
+      "id": "before-you-start",
+      "heading": "What should be decided before a job task analysis starts?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Before starting, decide what the analysis is for, which job or role family it covers, who owns it, and what rating scales and decision rules will be used. These choices determine the panel, the survey and how results will be defended later."
+        },
+        {
+          "type": "p",
+          "text": "Purpose matters because different uses demand different evidence. Under ISO/IEC 17024, the job or practice analysis for a certification scheme must identify the tasks for successful performance, the competence required for each task, any prerequisites, the assessment mechanisms and examination content, and the recertification requirements and interval ([Irish National Accreditation Board](https://www.inab.ie/news-resources/publications/iso-iec-17024-conformity-assessment-general-requirements-for-bodies-operating-certification-of-persons.pdf)). A [job task analysis](/glossary/job-task-analysis) for an internal training program can be lighter, but it still needs a documented method if the training supports regulated work."
+        },
+        {
+          "type": "p",
+          "text": "For selection decisions, the US Office of Personnel Management (OPM) quotes the Uniform Guidelines on Employee Selection Procedures: \"Measures of criticality and/or importance of the work behavior(s) and the method of determining these measures should be provided (essential)\" ([OPM](https://www.opm.gov/frequently-asked-questions/assessment-policy-faq/job-analysis/when-conducting-a-job-analysis-do-i-have-to-collect-ratings-eg-importance-required-at-entry-from-the-subject-matter-experts-sme-for-the-tasks-and-competencies/)). That is a useful standard for any analysis whose results will be relied on."
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "heading": "What are the steps in a job task analysis?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "There are nine steps. Steps one and two set up the work, steps three to six build and validate the task list, and steps seven to nine turn the data into decisions and keep them current."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Define purpose, scope and ownership.** Name the role or role family, the uses of the results (training, assessment, certification, selection), the sponsor and the owner. Output: a one page charter including the planned rating scales and decision rules.",
+            "**Gather existing evidence.** Collect procedures, work instructions, role descriptions, regulatory requirements, incident and quality data, and any earlier analyses. Public occupational data, such as the European Commission's ESCO classification or the US O*NET database, can supply a starting vocabulary. Output: a source register with versions.",
+            "**Run an expert panel to draft duties and tasks.** Facilitated panel methods such as DACUM use a panel of usually six to ten experienced job holders who describe their duties and tasks, typically over two days ([Ohio State University CETE](https://cete.osu.edu/wp-content/uploads/2021/07/CETE-Works_Job-Analysis-Whats-in-a-Job_Transcript.pdf)). Choose people who currently do the work well, across sites and shifts. Output: a draft chart of duties and tasks.",
+            "**Write task statements and link knowledge and skills.** Write each task as an action verb, an object and a qualifier (\"Calibrates the balance against reference weights before each session\"). For each task, list the knowledge and skills it requires. Output: a draft task and KSA list, with each link recorded.",
+            "**Design the validation survey.** Turn the draft into a survey for a wider, representative sample of job holders and supervisors. Use defined rating scales (see the next section), add a \"do not perform\" option, include a few background questions, and ask for missing tasks. Pilot it with a handful of people first. Output: a tested survey instrument.",
+            "**Collect and analyze ratings.** Calculate the share of respondents who perform each task and the mean frequency and criticality ratings. Check for subgroups that rate differently, such as sites or experience levels, and for tasks many people flag as missing. Output: a ratings table.",
+            "**Apply documented decision rules.** Decide which tasks are trained and assessed, which are trained only, and which are excluded, using rules fixed before the data arrived. Output: a validated task list with a decision for every task.",
+            "**Translate results into the framework and blueprint.** Build or update competencies from the retained tasks and weight the assessment by the ratings. Output: competency entries and an [assessment blueprint](/glossary/assessment-blueprint).",
+            "**Document and set review triggers.** Record the method, participants, response numbers, rules and decisions, and set a review cycle plus triggers such as new equipment, regulation or procedures. Output: a method report and review schedule."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Keep the panel and the survey separate",
+          "text": "The panel drafts; the survey validates. If the same few experts both write and rate the task list, the analysis reflects their view of the job rather than the job as practiced across the organization."
+        }
+      ]
+    },
+    {
+      "id": "survey-design",
+      "heading": "How should the validation survey be designed?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A validation survey should ask each respondent whether they perform each task and, if so, rate it on a small number of clearly anchored scales. Frequency and criticality are the minimum; importance and whether a task is required at entry are common additions."
+        },
+        {
+          "type": "p",
+          "text": "OPM notes that rating data supports many assessment decisions, such as selecting content areas for questionnaires and deciding which questions a structured interview should address, and that \"whether or not actual ratings are gathered, your agency should have evidence establishing the importance of the tasks and KSAs\" ([OPM](https://www.opm.gov/frequently-asked-questions/assessment-policy-faq/job-analysis/when-conducting-a-job-analysis-do-i-have-to-collect-ratings-eg-importance-required-at-entry-from-the-subject-matter-experts-sme-for-the-tasks-and-competencies/)). Anchoring every point of each scale in words makes ratings comparable between respondents."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative rating scales for a validation survey",
+          "head": [
+            "Rating",
+            "Frequency: how often do you perform this task?",
+            "Criticality: what is the consequence if it is done incorrectly?"
+          ],
+          "rows": [
+            [
+              "1",
+              "Less than once a year",
+              "Negligible; easily corrected with no harm"
+            ],
+            [
+              "2",
+              "A few times a year",
+              "Minor delay, rework or cost"
+            ],
+            [
+              "3",
+              "Monthly",
+              "Moderate harm to quality, customers or compliance"
+            ],
+            [
+              "4",
+              "Weekly",
+              "Serious harm, regulatory breach or significant loss"
+            ],
+            [
+              "5",
+              "Daily or more",
+              "Severe injury, major breach or irreversible harm"
+            ]
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Ask \"do you perform this task?\" first and only show the rating scales to those who answer yes.",
+            "Keep the survey to a length people will finish; split very long task lists by duty and randomize the order of duties.",
+            "Collect role, site and experience so differences between groups can be checked.",
+            "Include an open question for tasks that are missing or worded unclearly, and feed answers back to the panel."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "decision-rules",
+      "heading": "How do criticality and frequency ratings become decisions?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ratings become decisions through rules agreed before the survey closes, usually a criticality by frequency matrix plus an override for critical tasks. Writing the rules first stops results from being adjusted to fit expectations."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative criticality by frequency decision matrix (mean ratings on the 1 to 5 scales)",
+          "head": [
+            "Criticality",
+            "Frequency low (below 2.5)",
+            "Frequency medium (2.5 to 3.9)",
+            "Frequency high (4.0 and above)"
+          ],
+          "rows": [
+            [
+              "High (4.0 and above)",
+              "Train and assess; use scenario or simulation because it is rarely practiced",
+              "Train and assess",
+              "Train and assess; observe in the workplace"
+            ],
+            [
+              "Medium (2.5 to 3.9)",
+              "Job aid or briefing; no formal assessment",
+              "Train; assess by knowledge check or sign off",
+              "Train and assess"
+            ],
+            [
+              "Low (below 2.5)",
+              "Exclude from training scope",
+              "Job aid or on the job coaching",
+              "Train on the job; no formal assessment"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The top left cell is the one most often lost. A task such as escalating suspected fraud or shutting down equipment in an emergency may be performed rarely, so a simple frequency times criticality score ranks it low. A rule that any task with high criticality is always trained and assessed protects it."
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does a finished analysis look like for one role?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The example below is illustrative. It shows six tasks for a customer onboarding officer in a financial services business, the survey ratings, the decision under the matrix above, and the resulting assessment weight."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative results: customer onboarding officer",
+          "head": [
+            "Task",
+            "Frequency (mean)",
+            "Criticality (mean)",
+            "Decision",
+            "Blueprint weight"
+          ],
+          "rows": [
+            [
+              "Verify customer identity documents",
+              "4.7",
+              "4.6",
+              "Train and assess; workplace observation",
+              "32%"
+            ],
+            [
+              "Assign a customer risk rating",
+              "4.1",
+              "4.8",
+              "Train and assess",
+              "30%"
+            ],
+            [
+              "Identify beneficial owners of company customers",
+              "3.2",
+              "4.7",
+              "Train and assess",
+              "23%"
+            ],
+            [
+              "Escalate unusual activity to compliance",
+              "1.8",
+              "4.9",
+              "Train and assess by scenario (critical override)",
+              "15%"
+            ],
+            [
+              "Update customer records after changes",
+              "3.9",
+              "2.9",
+              "Train; knowledge check",
+              "Not in summative assessment"
+            ],
+            [
+              "Prepare monthly onboarding volume report",
+              "1.5",
+              "1.9",
+              "Exclude; job aid",
+              "Not assessed"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Here the weights for the four assessed tasks were set in proportion to frequency times criticality (about 33%, 30%, 23% and 14%), then the critical escalation task was raised to a 15% floor. The retained tasks become competencies in the [competency framework](/guides/how-to-build-a-competency-framework), and the weights go straight into the blueprint described in [how to create an assessment blueprint](/guides/how-to-create-an-assessment-blueprint)."
+        }
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "How do the outputs feed the competency framework and assessments?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The validated task list becomes the content of competencies, the KSA links become knowledge and skill requirements, and the ratings become assessment weights and methods. Keeping those links recorded is what makes later assessments defensible."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Competency framework:** cluster retained tasks into competencies and write indicators from the task statements. Each competency should name the tasks it covers.",
+            "**Assessment blueprint:** allocate items or observation points in proportion to the weights, and choose methods suited to each task, for example observation for frequent practical tasks and scenarios for rare critical ones. The International Accreditation Forum describes the sequence for certification as job or practice analysis, then a content outline and survey validation, then examination blueprints or specifications ([IAF](https://iaf.nu/wp-content/uploads/2021/05/03_Certification_Schemes.pdf)).",
+            "**Validity evidence:** the documented link from tasks to assessment content is the core of content validity. See [validity vs reliability in assessment](/compare/validity-vs-reliability-in-assessment).",
+            "**Pass standards:** the critical tasks identified here are candidates for must-pass items when a cut score is set. See [how to set a pass mark for an assessment](/guides/how-to-set-a-pass-mark-for-an-assessment).",
+            "**Training needs:** the task list is the standard against which a [training needs analysis](/guides/how-to-conduct-a-training-needs-analysis) measures current capability."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pitfalls",
+      "heading": "Why do job task analyses go wrong?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most job task analyses go wrong because the task list reflects too few voices, the ratings have no decision rules, or the results never reach the assessment. Each failure leaves training and testing without a defensible basis."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Task statements that describe attributes (\"is detail oriented\") instead of work (\"checks calculations against the source record\").",
+            "A panel drawn only from supervisors or trainers rather than people currently doing the job.",
+            "Survey samples that miss sites, shifts or newer staff, so ratings describe one group's job.",
+            "Rules invented after the data arrives, or no rule protecting critical but rare tasks.",
+            "No record of the method, so the analysis cannot be shown to an accreditor, auditor or tribunal."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry keeps the chain from task to knowledge, competency and assessment item as linked, versioned records, with the source of each task recorded. When a procedure or regulation changes, the affected tasks, and the training and assessment built on them, can be identified directly. See [framework intelligence](/platform/framework-intelligence)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does a job task analysis take?",
+      "a": "It depends on scope. A panel workshop for one role commonly takes one to two days, and a validation survey needs time to design, pilot, run and analyze. Analyses for certification schemes covering whole professions take considerably longer because they need larger, representative samples and formal review."
+    },
+    {
+      "q": "How many survey respondents are needed?",
+      "a": "Enough to represent the people who do the job across the relevant sites, shifts and experience levels. For a small population that may mean surveying everyone. For large populations, plan the sample so each important subgroup has enough responses to compare, and record the response numbers in the method report."
+    },
+    {
+      "q": "Should knowledge and skills be rated as well as tasks?",
+      "a": "Often, yes. Rating knowledge and skills for importance and whether they are needed at entry helps decide what to teach before someone starts and what can be learned on the job. Selection guidance also expects the relationship between each knowledge or skill and the tasks to be documented."
+    },
+    {
+      "q": "Can an existing occupational standard replace a job task analysis?",
+      "a": "It can be a strong starting point but rarely a full replacement. Published standards describe an occupation in general; a local analysis confirms which tasks your people actually perform, how often and with what consequence. Record which external standard and version you started from."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Job Analysis",
+      "publisher": "US Office of Personnel Management",
+      "url": "https://www.opm.gov/policy-data-oversight/assessment-and-selection/job-analysis/"
+    },
+    {
+      "title": "When conducting a job analysis, do I have to collect ratings from the subject matter experts for the tasks and competencies?",
+      "publisher": "US Office of Personnel Management",
+      "url": "https://www.opm.gov/frequently-asked-questions/assessment-policy-faq/job-analysis/when-conducting-a-job-analysis-do-i-have-to-collect-ratings-eg-importance-required-at-entry-from-the-subject-matter-experts-sme-for-the-tasks-and-competencies/"
+    },
+    {
+      "title": "ISO/IEC 17024 Conformity assessment: General requirements for bodies operating certification of persons",
+      "publisher": "Irish National Accreditation Board (INAB)",
+      "url": "https://www.inab.ie/news-resources/publications/iso-iec-17024-conformity-assessment-general-requirements-for-bodies-operating-certification-of-persons.pdf"
+    },
+    {
+      "title": "Session 4.0: Certification Scheme (December 2017)",
+      "publisher": "International Accreditation Forum (IAF)",
+      "url": "https://iaf.nu/wp-content/uploads/2021/05/03_Certification_Schemes.pdf"
+    },
+    {
+      "title": "CETE Works: Job Analysis: What's in a Job? (transcript)",
+      "publisher": "Center on Education and Training for Employment, The Ohio State University",
+      "url": "https://cete.osu.edu/wp-content/uploads/2021/07/CETE-Works_Job-Analysis-Whats-in-a-Job_Transcript.pdf"
+    }
+  ],
+  "related": [
+    "job-task-analysis",
+    "assessment-blueprint",
+    "how-to-create-an-assessment-blueprint",
+    "how-to-build-a-competency-framework",
+    "validity-vs-reliability-in-assessment",
+    "how-to-set-a-pass-mark-for-an-assessment"
+  ],
+  "productLinks": [
+    {
+      "label": "Framework intelligence",
+      "href": "/platform/framework-intelligence"
+    },
+    {
+      "label": "Standards and accreditation",
+      "href": "/platform/standards-accreditation"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 10,
+  "factCheck": [
+    {
+      "claim": "INAB: job or practice analysis for a 17024 scheme identifies tasks for successful performance, required competence for each task, prerequisites, assessment mechanisms and examination content, and recertification requirements and interval",
+      "source": "https://www.inab.ie/news-resources/publications/iso-iec-17024-conformity-assessment-general-requirements-for-bodies-operating-certification-of-persons.pdf"
+    },
+    {
+      "claim": "OPM FAQ quotes Uniform Guidelines: measures of criticality and/or importance of the work behavior(s) and the method of determining these measures should be provided (essential); ratings help select competencies for occupational questionnaires and structured interview questions; agency should have evidence establishing importance whether or not ratings gathered",
+      "source": "https://www.opm.gov/frequently-asked-questions/assessment-policy-faq/job-analysis/when-conducting-a-job-analysis-do-i-have-to-collect-ratings-eg-importance-required-at-entry-from-the-subject-matter-experts-sme-for-the-tasks-and-competencies/"
+    },
+    {
+      "claim": "OPM: job analysis is the foundation for all assessment and selection decisions; OPM provides a six step checklist and Appendix D of the Delegated Examining Operations Handbook",
+      "source": "https://www.opm.gov/policy-data-oversight/assessment-and-selection/job-analysis/"
+    },
+    {
+      "claim": "IAF slides: components of a competence based certification program: job/task analysis or practice analysis, content outline, survey validation, then examination blueprints or specifications",
+      "source": "https://iaf.nu/wp-content/uploads/2021/05/03_Certification_Schemes.pdf"
+    },
+    {
+      "claim": "DACUM panel usually six to ten members describing duties and tasks; typically two days face to face",
+      "source": "https://cete.osu.edu/wp-content/uploads/2021/07/CETE-Works_Job-Analysis-Whats-in-a-Job_Transcript.pdf"
+    }
+  ]
+}

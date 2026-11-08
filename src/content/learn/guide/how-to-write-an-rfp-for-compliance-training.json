@@ -1,0 +1,333 @@
+{
+  "slug": "how-to-write-an-rfp-for-compliance-training",
+  "kind": "guide",
+  "title": "How do you write an RFP for compliance training or a learning platform?",
+  "seoTitle": "Writing an RFP for compliance training",
+  "description": "How to write a request for proposal for compliance training content or a learning platform: sections, weighted criteria, and the questions that matter.",
+  "shortAnswer": "To write a request for proposal (RFP) for compliance training or a learning platform, do market research first, then state the obligations, roles, and evidence the purchase must support. Structure the RFP into background, scope, requirements, a question set, pricing template, and evaluation method with published weights. Ask specifically about content provenance, human review, data residency, AI governance, interoperability with SCORM, xAPI, and cmi5, and how you get your content and records back at exit.",
+  "keyTakeaways": [
+    "Research the market before writing requirements, so the RFP asks for what providers can realistically supply and exposes real trade offs.",
+    "Publish the evaluation criteria and their relative weights in the RFP itself. Respondents write better answers when they know what will be scored.",
+    "Ask for evidence, not assurances: a sample with its source trail, a review record, a data location statement, a test package.",
+    "Cover provenance, human review, AI governance, data residency, interoperability, and exit as scored sections, not as an appendix of yes or no checkboxes.",
+    "Ask for a pricing template that shows the full cost over the contract term, including maintenance and content updates when the rules change."
+  ],
+  "sections": [
+    {
+      "id": "what-the-rfp-must-achieve",
+      "heading": "What should an RFP for compliance training achieve?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An RFP for compliance training should produce comparable, evidenced proposals that can be scored against criteria you set in advance, so the decision can be explained to procurement, audit, and the board. It is a scoring instrument, not a wish list."
+        },
+        {
+          "type": "p",
+          "text": "Compliance training purchases differ from general learning purchases in one respect: the output has to stand up as evidence. A regulator or auditor may ask what people were taught, which version, from which source, who checked it, and how understanding was tested. The RFP should therefore ask how each respondent produces that evidence, whether you are buying content, a platform, or both. If you are still deciding between those options, read [build vs buy vs partner for training content](/compare/build-vs-buy-training-content) first."
+        }
+      ]
+    },
+    {
+      "id": "before-you-write",
+      "heading": "What should you do before writing the RFP?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Before writing, research the market and define your requirements from the obligations and evidence you need, not from product brochures. Public procurement rules offer a useful model. The United States Federal Acquisition Regulation (FAR) Part 10 requires agencies to conduct market research appropriate to the circumstances and to use it to \"ensure that legitimate needs are identified and trade-offs evaluated\" before soliciting offers above the simplified acquisition threshold ([FAR 10.001](https://www.acquisition.gov/far/part-10)). FAR 10.002 adds that market research should establish whether commercial products or services are available to meet the need, or could be modified to meet it."
+        },
+        {
+          "type": "p",
+          "text": "Private organizations are not bound by the FAR, but the discipline transfers well. In practice, preparation has four outputs:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Obligations and scope.** The laws, standards, and policies the training supports, and the roles in scope. The [mapping guide](/guides/how-to-map-training-to-compliance-obligations) explains how to build this list.",
+            "**Evidence requirements.** The records you must be able to produce, for whom, and how long they are kept.",
+            "**Market scan.** A short request for information (RFI) or a set of conversations to learn what categories of provider exist, typical delivery models, and pricing structures.",
+            "**Decision rules.** Must have requirements (failure means exclusion), scored requirements, and the weights for each."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A [training needs analysis](/guides/how-to-conduct-a-training-needs-analysis) completed before the RFP keeps the scope tied to real capability gaps rather than to a course catalog."
+        }
+      ]
+    },
+    {
+      "id": "rfp-sections",
+      "heading": "Which sections should the RFP contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A compliance training RFP needs eight sections: background, scope, requirements, a structured question set, a sample or demonstration task, pricing, contract terms, and the evaluation method. The table sets out what each section is for."
+        },
+        {
+          "type": "table",
+          "caption": "Structure of an RFP for compliance training content or a learning platform",
+          "head": ["Section", "Purpose", "What to include"],
+          "rows": [
+            ["Background", "Gives respondents enough context to propose sensibly", "Organization size, markets, regulated activities, current systems, and the problem the purchase solves"],
+            ["Scope", "Defines what is and is not being bought", "Topics or obligations, roles, languages, delivery modes, volumes, contract term, and anything explicitly excluded"],
+            ["Requirements", "States what the solution must do", "Must have and scored requirements, each numbered so responses can reference them"],
+            ["Question set", "Produces comparable written answers", "Questions grouped by risk area, each with the evidence you expect to see attached"],
+            ["Sample or demonstration task", "Tests capability on your material, not theirs", "One of your policies to turn into a short module outline, or a script for a platform demonstration"],
+            ["Pricing template", "Makes costs comparable over the full term", "Fixed format covering setup, licenses or development, updates, translation, support, and exit costs"],
+            ["Contract terms", "Surfaces deal breakers early", "Ownership of content, data processing terms, service levels, liability, and termination assistance"],
+            ["Evaluation method", "Explains how proposals will be scored", "Criteria, weights, scoring scale, stages, and who evaluates"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evaluation-weighting",
+      "heading": "How should you weight the evaluation criteria?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Weight the criteria in proportion to the risk each one carries, and state the weights in the RFP. Public procurement treats this as basic fairness: FAR 15.304 requires that all factors that will affect contract award, and their relative importance, \"shall be stated clearly in the solicitation\", and that price or cost be evaluated in every source selection ([FAR 15.304](https://www.acquisition.gov/far/15.304))."
+        },
+        {
+          "type": "p",
+          "text": "The example weights below differ by purchase type. Content purchases put more weight on accuracy, provenance, and review; platform purchases put more weight on records, interoperability, and data handling. The weights are illustrative; set your own before the RFP is issued and do not change them after responses arrive."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative evaluation criteria and weights (set your own before issuing the RFP)",
+          "head": ["Criterion", "Example weight: content purchase", "Example weight: platform purchase", "What a strong response shows"],
+          "rows": [
+            ["Accuracy and content provenance", "20%", "5%", "Each learning point traced to a named source document and version"],
+            ["Human review and quality process", "15%", "5%", "Named reviewer roles, a documented review step, and a sample review record"],
+            ["Fit to roles and local procedures", "15%", "5%", "A sample built from your own policy, not a generic module"],
+            ["Assessment and evidence of competence", "10%", "15%", "Assessment tied to outcomes, with results recorded by version"],
+            ["Records, reporting, and audit trail", "5%", "15%", "Versioned records, change logs, and reports by role and obligation"],
+            ["Data protection and residency", "5%", "15%", "Written data location, subprocessor list, and processing terms"],
+            ["AI governance", "10%", "10%", "A described management system for AI use, with human oversight and testing"],
+            ["Interoperability", "5%", "10%", "Test packages or launches using SCORM, xAPI, or cmi5"],
+            ["Maintenance and update model", "5%", "5%", "Defined process and timing for updates when rules change"],
+            ["Price over the full term", "10%", "15%", "Complete pricing template with no unpriced assumptions"]
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Scoring scale",
+          "text": "Use a fixed scale such as 0 (no response or unacceptable), 1 (claim without evidence), 3 (evidence that partly meets the requirement), and 5 (evidence that fully meets it). Score each criterion independently before discussing as a panel, and record the reason for each score."
+        }
+      ]
+    },
+    {
+      "id": "question-set",
+      "heading": "Which questions should the RFP ask?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The questions that separate respondents in compliance training are about where content comes from, who checks it, where data goes, how AI is governed, how content and records move between systems, and how you leave. Generic questions about features rarely do."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Provenance.** For each learning point, can you show the source document, clause, and version it came from? How is that link kept when the source changes? Ask for one sample module with its source trail. See [content provenance](/glossary/content-provenance).",
+            "**Human review.** Who reviews content for legal and technical accuracy, what qualifications do they hold, and what record is kept of each review? Can a reviewer's sign off be tied to a specific version? See [human in the loop](/glossary/human-in-the-loop).",
+            "**Data residency and processing.** In which countries is personal data stored, processed, backed up, and accessed for support? Which subprocessors are used? In the European Union, Article 28 of the General Data Protection Regulation (GDPR) sets the terms required in processor contracts, including deletion or return of personal data at the end of the service ([GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj)).",
+            "**AI governance.** Where is AI used in drafting, translation, assessment, or recommendations? Is that use governed by a management system, for example one aligned to or certified against ISO/IEC 42001, which specifies requirements for an artificial intelligence management system ([ISO](https://www.iso.org/standard/42001))? How are outputs tested and who approves them? See [AI governance](/glossary/ai-governance).",
+            "**Interoperability.** Which of SCORM, xAPI, and cmi5 can content be delivered in, or the platform accept? cmi5 is a profile for using xAPI with a learning management system, now maintained by the Advanced Distributed Learning (ADL) Initiative ([cmi5](https://aicc.github.io/CMI-5_Spec_Current/)). Ask for a test package you can launch in your own environment. See [SCORM vs xAPI](/compare/scorm-vs-xapi) and [xAPI vs cmi5](/compare/xapi-vs-cmi5).",
+            "**Exit and export.** In what formats can you return source files, packages, assessment items, records, and version history? How long does it take, and what does it cost? Ask for a sample export and the contract clause."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Content specific questions about vendor capability, such as subject matter expertise and quality assurance, are covered in more depth in [how to evaluate a training content vendor](/guides/how-to-evaluate-a-training-content-vendor). Questions about delivery platforms are covered in [how to choose a compliance training platform](/guides/how-to-choose-a-compliance-training-platform)."
+        }
+      ]
+    },
+    {
+      "id": "standards-in-the-rfp",
+      "heading": "Which standards can an RFP reference?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An RFP can reference recognized standards to make requirements precise, as long as it asks for evidence of conformance rather than accepting a logo. Useful references for training purchases include:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**ISO 29993:2017** specifies requirements for learning services outside formal education, including in company training, whether outsourced or in house, where learning goals are defined and services are evaluated ([ISO](https://www.iso.org/standard/70357.html)). It is relevant when buying content or delivery services.",
+            "**ISO/IEC 42001:2023** for the respondent's management of AI ([ISO](https://www.iso.org/standard/42001)).",
+            "**SCORM, xAPI, and cmi5** for content packaging and data exchange. The xAPI specification is now standardized through the Institute of Electrical and Electronics Engineers (IEEE), with the current version listed as xAPI 2.0 ([ADL xAPI repository](https://github.com/adlnet/xAPI-Spec)).",
+            "**WCAG 2.2** for accessibility of learner facing content and interfaces ([W3C](https://www.w3.org/TR/WCAG22/))."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Ask how conformance was established: certification by an accredited body, an independent assessment, or self declaration. Each carries a different weight."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "heading": "How should the RFP handle pricing?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Require a fixed pricing template that shows the total cost over the full contract term, so that a low setup price cannot hide high update or exit costs. Compliance content needs maintenance whenever a law, standard, or internal procedure changes, and that cost recurs."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Setup, configuration, or initial development, itemized.",
+            "Licenses by user, module, or organization, with the counting rule stated.",
+            "Updates: what triggers one, what is included, and the rate for anything outside it.",
+            "Translation and localization per language.",
+            "Support and service levels.",
+            "Exit assistance, export, and data deletion.",
+            "Every assumption behind the price, so assumptions can be compared."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For guidance on what drives development effort, see [how to estimate training content development time and cost](/guides/how-to-estimate-training-content-development-time-and-cost)."
+        }
+      ]
+    },
+    {
+      "id": "common-mistakes",
+      "heading": "What are the most common RFP mistakes?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The most common mistakes are asking yes or no questions, leaving the weights unstated, and treating data, AI, and exit questions as an appendix. Each produces proposals that look alike on paper and differ sharply after signature."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Copying a feature list from one provider's brochure, which biases the RFP toward that provider.",
+            "Asking \"Do you support xAPI?\" instead of asking for a test statement or package.",
+            "Requesting a demonstration on the respondent's own content rather than yours.",
+            "Omitting the sample task, so content quality is judged on marketing material.",
+            "Leaving content ownership and the format of returned files to the contract stage.",
+            "Changing the weights after responses arrive, which undermines the defensibility of the decision."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines the knowledge framework, obligations, outcomes, and assessment points before any content is written, so provenance and review questions in an RFP can be answered with records rather than descriptions. The [verification and trust](/platform/verification-trust) page explains how source links and review records are kept."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should we issue an RFI before the RFP?",
+      "a": "An RFI is worth issuing when you are unsure which categories of provider can meet the need, or how they price. It is short, unscored, and asks for capability descriptions. Use what you learn to set realistic requirements and weights in the RFP, rather than discovering mid evaluation that no respondent can meet a must have requirement."
+    },
+    {
+      "q": "How many providers should receive the RFP?",
+      "a": "Enough to create real competition, but few enough that evaluators can score every response properly. Many organizations shortlist from a wider RFI. Inviting a very large number usually lowers response quality, because providers judge their chances, and increases evaluation time without improving the decision."
+    },
+    {
+      "q": "Can one RFP cover both content and a platform?",
+      "a": "It can, but score them as separate lots with their own weights, because the criteria differ. A single combined score can let a strong platform hide weak content or the reverse. Separate lots also allow you to buy content and platform from different providers if that gives the best result."
+    },
+    {
+      "q": "How long should respondents have to reply?",
+      "a": "Give enough time to complete the sample task properly, which usually means several weeks rather than days. Publish a deadline for clarification questions and share all answers with every respondent, so no provider gains an information advantage."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Federal Acquisition Regulation Part 10: Market Research",
+      "publisher": "Acquisition.gov, US General Services Administration",
+      "url": "https://www.acquisition.gov/far/part-10"
+    },
+    {
+      "title": "Federal Acquisition Regulation 15.304: Evaluation factors and significant subfactors",
+      "publisher": "Acquisition.gov, US General Services Administration",
+      "url": "https://www.acquisition.gov/far/15.304"
+    },
+    {
+      "title": "ISO 29993:2017 Learning services outside formal education: Service requirements",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/70357.html"
+    },
+    {
+      "title": "ISO/IEC 42001:2023 Information technology: Artificial intelligence: Management system",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/42001"
+    },
+    {
+      "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    },
+    {
+      "title": "cmi5: Profile for xAPI with LMS",
+      "publisher": "AICC cmi5 working group, maintained by the ADL Initiative",
+      "url": "https://aicc.github.io/CMI-5_Spec_Current/"
+    },
+    {
+      "title": "xAPI Specification",
+      "publisher": "Advanced Distributed Learning (ADL) Initiative",
+      "url": "https://github.com/adlnet/xAPI-Spec"
+    },
+    {
+      "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "publisher": "World Wide Web Consortium (W3C)",
+      "url": "https://www.w3.org/TR/WCAG22/"
+    }
+  ],
+  "related": [
+    "how-to-evaluate-a-training-content-vendor",
+    "how-to-choose-a-compliance-training-platform",
+    "build-vs-buy-training-content",
+    "content-provenance",
+    "ai-governance",
+    "scorm-vs-xapi"
+  ],
+  "productLinks": [
+    { "label": "Verification and trust", "href": "/platform/verification-trust" },
+    { "label": "Integrations", "href": "/platform/integrations" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 10,
+  "factCheck": [
+    {
+      "claim": "FAR 10.001 requires agencies to conduct market research appropriate to the circumstances, to ensure legitimate needs are identified and trade-offs evaluated, before soliciting offers above the simplified acquisition threshold (FAC 2026-01, effective March 13, 2026).",
+      "source": "https://www.acquisition.gov/far/part-10"
+    },
+    {
+      "claim": "FAR 10.002: market research should determine whether commercial products or services are available to meet the Government's needs or could be modified to meet them.",
+      "source": "https://www.acquisition.gov/far/part-10"
+    },
+    {
+      "claim": "FAR 15.304: all factors and significant subfactors that will affect contract award and their relative importance shall be stated clearly in the solicitation; price or cost must be evaluated in every source selection (limited exceptions).",
+      "source": "https://www.acquisition.gov/far/15.304"
+    },
+    {
+      "claim": "ISO 29993:2017 specifies requirements for learning services outside formal education, including vocational and in company training, outsourced or in house, where learning goals are defined and services evaluated; reviewed and confirmed in 2023.",
+      "source": "https://www.iso.org/standard/70357.html"
+    },
+    {
+      "claim": "GDPR Article 28(3)(g): processor, at the choice of the controller, deletes or returns all personal data after the end of the provision of services.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    },
+    {
+      "claim": "cmi5 is a profile for using xAPI with traditional LMS; originated in AICC in 2010 and transferred to ADL in 2014.",
+      "source": "https://aicc.github.io/CMI-5_Spec_Current/"
+    },
+    {
+      "claim": "The ADL xAPI-Spec repository states the current version of the specification is xAPI 2.0, hosted by IEEE.",
+      "source": "https://github.com/adlnet/xAPI-Spec"
+    },
+    {
+      "claim": "ISO/IEC 42001:2023 specifies requirements for establishing, implementing, maintaining and continually improving an AI management system.",
+      "source": "https://www.iso.org/standard/42001"
+    }
+  ]
+}

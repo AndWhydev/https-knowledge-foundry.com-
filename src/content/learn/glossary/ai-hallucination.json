@@ -1,0 +1,213 @@
+{
+  "slug": "ai-hallucination",
+  "kind": "glossary",
+  "title": "What is AI hallucination?",
+  "seoTitle": "What is AI hallucination?",
+  "description": "AI hallucination is when generative AI states false content with confidence. Why it happens, what NIST calls it, and how to keep it out of training content.",
+  "shortAnswer": "AI hallucination is the production of confidently stated but false or erroneous content by a generative artificial intelligence (AI) system, such as an invented citation, a wrong regulatory date or a nonexistent policy clause. The US National Institute of Standards and Technology (NIST) calls it confabulation and explains that it is a natural result of how generative models work, so it must be managed through source checking and human review.",
+  "keyTakeaways": [
+    "NIST AI 600-1 uses the term confabulation: \"the production of confidently stated but erroneous or false content\", known colloquially as hallucinations or fabrications.",
+    "Confabulation comes from how generative models work: they predict likely outputs from patterns in training data, which can be accurate or plausible but wrong.",
+    "Generated explanations and citations can themselves be confabulated, which makes errors more persuasive.",
+    "For training content, a hallucinated fact teaches the wrong behavior to every learner and can undermine audit evidence.",
+    "Mitigation combines grounding in approved sources, traceability of each claim to its source, and qualified human review before release."
+  ],
+  "term": "AI hallucination",
+  "alsoKnownAs": [
+    "Confabulation",
+    "AI fabrication",
+    "LLM hallucination"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What does AI hallucination mean?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI hallucination means a generative AI system presenting false or unsupported content as if it were true. The output is usually fluent and confident, which is what makes it hard to spot."
+        },
+        {
+          "type": "p",
+          "text": "The NIST [Generative Artificial Intelligence Profile](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf) (NIST AI 600-1, July 2024) lists confabulation as one of 12 risks unique to or exacerbated by generative AI and defines it as \"The production of confidently stated but erroneous or false content (known colloquially as 'hallucinations' or 'fabrications') by which users may be misled or deceived.\" NIST adds that confabulations include outputs that diverge from the prompt or input, or contradict earlier statements in the same context."
+        },
+        {
+          "type": "p",
+          "text": "NIST prefers confabulation partly because, as a footnote in the profile records, some commenters noted that the terms hallucination and fabrication anthropomorphize generative AI, attributing human characteristics to software. Both terms describe the same problem; this page uses hallucination because it is the term most readers search for."
+        }
+      ]
+    },
+    {
+      "id": "why-it-happens",
+      "heading": "Why do AI systems hallucinate?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI systems hallucinate because generative models produce statistically likely outputs, not verified facts. NIST explains that confabulations \"are a natural result of the way generative models are designed\": large language models predict the next token or word, and that prediction can produce accurate output or output that is factually wrong or internally inconsistent."
+        },
+        {
+          "type": "p",
+          "text": "NIST identifies conditions where the problem is more likely: open ended prompts for long form responses, and domains that require highly contextual or specialist expertise. Policy interpretation, regulatory requirements and technical procedures fall squarely into that second category."
+        },
+        {
+          "type": "p",
+          "text": "Two further points from NIST matter for reviewers. First, models can generate \"confabulated logic or citations\" that appear to justify an answer, so a plausible reference is not evidence that a claim is right. Second, NIST notes that it is difficult to estimate the downstream scale and impact of confabulations, which is why this page does not quote a hallucination rate: rates vary by model, task and measurement method, and a single figure would mislead."
+        }
+      ]
+    },
+    {
+      "id": "why-it-matters-for-training",
+      "heading": "Why does hallucination matter for training content?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hallucination matters more in training than in most uses of AI because a single error is copied to every learner and then acted on. NIST observes that risks arise \"when users believe false content\" and act upon or promote it; a learner who trusts their mandatory training is exactly that user."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative hallucination types in training content and their consequences",
+          "head": [
+            "Type of error",
+            "Example (illustrative)",
+            "Consequence"
+          ],
+          "rows": [
+            [
+              "Invented obligation",
+              "A module states a reporting deadline that the regulation does not contain",
+              "Staff follow a rule that does not exist and may miss the real one"
+            ],
+            [
+              "Wrong detail",
+              "A threshold, date or clause number is slightly off",
+              "Assessment questions mark correct answers as wrong; audit evidence becomes unreliable"
+            ],
+            [
+              "Fabricated citation",
+              "A quiz rationale cites a section of a policy that was never written",
+              "Reviewers who check only that a citation exists approve false content"
+            ],
+            [
+              "Silent omission",
+              "A summary leaves out an exception or escalation step",
+              "Learners are never taught the step, and the gap is invisible without a source comparison"
+            ],
+            [
+              "Drift from local policy",
+              "Generic industry practice replaces the organization's own procedure",
+              "Training contradicts the procedure staff are held to"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Errors in training are also hard to unwind. Once an incorrect rule is in a module, an assessment and a completion record, the organization holds evidence that people were trained on the wrong thing. Over time, unreviewed errors compound into [knowledge drift](/glossary/knowledge-drift)."
+        }
+      ]
+    },
+    {
+      "id": "mitigation",
+      "heading": "How can provenance and human review reduce hallucination?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No technique removes hallucination entirely, but three controls make it detectable and correctable: grounding generation in approved sources, recording the source of every claim, and having a qualified person check claims against those sources before release."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Ground the model.** Supply the approved policy, procedure or regulation as the input, for example through [retrieval augmented generation](/glossary/retrieval-augmented-generation), rather than relying on what the model learned in training. NIST action MS-2.5-005 asks organizations to verify that fine tuning or retrieval augmented generation data is grounded.",
+            "**Trace every claim.** Keep [content provenance](/glossary/content-provenance) at the level of the claim: each learning point, question and answer rationale linked to the clause it comes from. An unsupported claim then stands out as one with no source.",
+            "**Check sources and citations.** NIST action MS-2.5-003 is to \"Review and verify sources and citations in GAI system outputs\" during pre deployment risk measurement and ongoing monitoring. In training terms, the reviewer opens the cited clause, not just the citation.",
+            "**Use qualified reviewers with authority.** A subject matter expert approves content and can reject it. This is [human in the loop](/glossary/human-in-the-loop) oversight, and it works only when the reviewer sees the output beside its sources.",
+            "**Record the review.** Log who approved what, against which source version, in an [audit trail](/glossary/audit-trail), so the organization can show what was checked.",
+            "**Re-check on change.** When a source document changes, the provenance links identify which content to re-review."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Reviewers should also be trained on automation bias, the tendency to accept a system's output without enough scrutiny, which NIST notes can exacerbate the risk of confabulation. The full review method is in [how to check AI generated training for accuracy](/guides/how-to-check-ai-generated-training-for-accuracy)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines the knowledge framework, including each concept's source clause, before content is generated, and checks generated items against that framework. Claims without a source are flagged for review, and each approval is recorded with the reviewer and the source version shown."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can AI hallucination be eliminated?",
+      "a": "Not with current generative models. NIST describes confabulation as a natural result of how they are designed. Grounding in approved sources and better prompts reduce it, but they do not guarantee accuracy, so content that people will rely on needs source checking and human review."
+    },
+    {
+      "q": "Is hallucination the same as bias?",
+      "a": "No. Hallucination is false or unsupported content. Bias is systematic skew, such as performance that differs across groups or languages. NIST AI 600-1 lists them as separate risks, confabulation and harmful bias or homogenization, though one output can show both."
+    },
+    {
+      "q": "Does citing sources prevent hallucination?",
+      "a": "Not by itself. NIST notes that generative systems can produce confabulated citations that appear to justify an answer. Citations help only when a reviewer opens the source and confirms that it says what the content claims."
+    },
+    {
+      "q": "Who is accountable if AI generated training contains an error?",
+      "a": "The organization that issues the training. Using AI does not transfer responsibility for accuracy to the tool. That is why AI governance frameworks assign named owners and reviewers to AI generated content and keep records of approval."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    {
+      "title": "AI Risk Management Framework",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    }
+  ],
+  "related": [
+    "how-to-check-ai-generated-training-for-accuracy",
+    "retrieval-augmented-generation",
+    "content-provenance",
+    "human-in-the-loop",
+    "how-to-use-ai-to-create-training-content-safely",
+    "ai-content-generator-vs-structured-framework"
+  ],
+  "productLinks": [
+    {
+      "label": "Verification and trust",
+      "href": "/platform/verification-trust"
+    },
+    {
+      "label": "Framework intelligence",
+      "href": "/platform/framework-intelligence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 9,
+  "factCheck": [
+    {
+      "claim": "NIST AI 600-1 (July 2024) defines 12 risks unique to or exacerbated by GAI; risk 2 Confabulation: The production of confidently stated but erroneous or false content (known colloquially as hallucinations or fabrications) by which users may be misled or deceived; footnote 6 on anthropomorphizing",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    {
+      "claim": "NIST AI 600-1 section 2.2: confabulations are a natural result of the way generative models are designed; LLMs predict the next token; particularly relevant for open-ended prompts for long-form responses and domains requiring contextual or domain expertise; risks arise when users believe false content and act upon or promote it; confabulated logic or citations; difficult to estimate downstream scale and impact",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    {
+      "claim": "NIST AI 600-1 actions MS-2.5-003 Review and verify sources and citations in GAI system outputs during pre-deployment risk measurement and ongoing monitoring activities; MS-2.5-005 verify that fine-tuning or retrieval-augmented generation data is grounded; automation bias can exacerbate risks of confabulation",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    {
+      "claim": "Generative AI Profile released July 26, 2024",
+      "source": "https://www.nist.gov/itl/ai-risk-management-framework"
+    }
+  ]
+}

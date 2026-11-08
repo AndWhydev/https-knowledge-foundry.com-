@@ -1,0 +1,333 @@
+{
+  "slug": "how-to-write-multiple-choice-questions",
+  "kind": "guide",
+  "title": "How do you write multiple-choice questions that test competence?",
+  "seoTitle": "Writing multiple-choice questions",
+  "description": "How to write multiple-choice questions that test applied knowledge, not recall: scenario stems, focused lead-ins, plausible options, flaw checks, and item analysis.",
+  "shortAnswer": "Multiple-choice questions test competence when each item asks the learner to apply knowledge to a realistic scenario, not to recall an isolated fact. Write a short scenario, a focused lead-in that could be answered with the options covered, one clearly best answer, and homogeneous, plausible distractors. Remove technical flaws that cue test-wise candidates or add irrelevant difficulty, then use item analysis after each administration to fix or retire weak items.",
+  "keyTakeaways": [
+    "The NBME Item-Writing Guide's second rule is that each item should assess application of knowledge, not recall of an isolated fact.",
+    "Use the cover-the-options test: a well focused lead-in can be answered before reading the options.",
+    "Technical flaws either cue test-wise candidates or add difficulty unrelated to the content. Both distort scores.",
+    "Item analysis after use, covering difficulty, discrimination, and distractor performance, shows which items to revise.",
+    "Multiple-choice questions can show knowing and knowing how. Performance itself needs observation or simulation."
+  ],
+  "sections": [
+    {
+      "id": "what-mcqs-can-test",
+      "heading": "Can multiple-choice questions test competence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Multiple-choice questions can test the knowledge and judgment that competence depends on, but not the performance itself. Well written scenario items show whether someone can apply a rule, interpret information, and choose the right action. They cannot show that the person will carry out the action correctly at work."
+        },
+        {
+          "type": "p",
+          "text": "In terms of [Miller's pyramid](/glossary/millers-pyramid), multiple-choice questions assess \"knows\" and, when built on scenarios, \"knows how\". \"Shows how\" and \"does\" need simulation, observation, or workplace evidence. A [competency assessment](/glossary/competency-assessment) therefore usually combines a written component with observed performance."
+        },
+        {
+          "type": "p",
+          "text": "The National Board of Medical Examiners (NBME) publishes a widely used free reference, the [NBME Item-Writing Guide](https://www.nbme.org/institutions/nbme-item-writing-guide/), now in its sixth edition (October 2024). Although written for the health sciences, its rules apply to any one-best-answer test, including compliance and technical assessments."
+        }
+      ]
+    },
+    {
+      "id": "anatomy",
+      "heading": "What are the parts of a good multiple-choice item?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A good item has a stem, which usually contains a short scenario and a lead-in question, followed by an option set with one keyed answer and several distractors. Each part has a specific job."
+        },
+        {
+          "type": "table",
+          "caption": "Parts of a one-best-answer item",
+          "head": [
+            "Part",
+            "Job",
+            "Common fault"
+          ],
+          "rows": [
+            [
+              "Scenario (vignette)",
+              "Presents the situation the learner must interpret, with the facts needed to answer",
+              "Missing, so the item becomes pure recall; or padded with irrelevant detail"
+            ],
+            [
+              "Lead-in",
+              "Asks one focused, closed question",
+              "Open or vague, such as \"Which of the following is true?\""
+            ],
+            [
+              "Keyed answer",
+              "The single best response according to current policy or practice",
+              "Longer or more precise than the rest, so it stands out"
+            ],
+            [
+              "Distractors",
+              "Plausible wrong answers that reflect real misconceptions",
+              "Implausible, overlapping, or not parallel in form"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The NBME guide's \"cover-the-options\" rule is the quickest quality check: \"If a lead-in is properly focused, a test-taker should usually be able to read the vignette and lead-in, cover the options, and guess the correct answer without seeing the option set.\""
+        }
+      ]
+    },
+    {
+      "id": "rules",
+      "heading": "What rules should every item follow?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Every item should follow five basic rules set out in the NBME Item-Writing Guide. They apply equally to workplace assessment."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Focus on an important concept or testing point.** Write from an outcome in the [assessment blueprint](/glossary/assessment-blueprint), not from whatever fact is easy to ask about.",
+            "**Assess application of knowledge, not recall of an isolated fact.** Put the learner in a situation and ask what to do or conclude.",
+            "**Write a focused, closed, clear lead-in.** The learner should be able to answer from the scenario and lead-in alone.",
+            "**Make all options homogeneous and plausible.** Options should be the same kind of thing, such as all actions or all classifications, so they can be ranked on one dimension.",
+            "**Review for technical flaws.** Remove anything that adds irrelevant difficulty or helps savvy test-takers."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "On the number of options, a meta-analysis by Michael Rodriguez concluded, as its title states, that \"Three options are optimal for multiple-choice items\" ([Rodriguez, 2005](https://doi.org/10.1111/j.1745-3992.2005.00006.x)). In practice, use as many plausible distractors as you can write well; a weak fourth option adds reading time without adding information."
+        }
+      ]
+    },
+    {
+      "id": "technical-flaws",
+      "heading": "Which technical flaws should you remove?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Remove two kinds of flaw: those that add irrelevant difficulty and confuse everyone, and those that cue \"testwise\" candidates toward the answer. The NBME guide explains that irrelevant difficulty \"can add construct-irrelevant variance to the final test score\", while cueing flaws let some candidates answer \"based on their test-taking skills alone, without necessarily knowing the content\"."
+        },
+        {
+          "type": "table",
+          "caption": "Technical item flaws and fixes, summarized from the NBME Item-Writing Guide",
+          "head": [
+            "Flaw",
+            "Type",
+            "Fix"
+          ],
+          "rows": [
+            [
+              "Long, complex options",
+              "Irrelevant difficulty",
+              "Move common text into the stem; shorten and parallel the options"
+            ],
+            [
+              "Vague frequency terms such as \"usually\" or \"often\"",
+              "Irrelevant difficulty",
+              "Use precise terms; people interpret frequency words differently"
+            ],
+            [
+              "\"None of the above\"",
+              "Irrelevant difficulty",
+              "Replace with a specific option, such as \"No action required\""
+            ],
+            [
+              "Negative lead-in (\"all of the following EXCEPT\")",
+              "Irrelevant difficulty",
+              "Rewrite positively; candidates can miss the negative word"
+            ],
+            [
+              "Correct answer stands out by length or detail",
+              "Cue",
+              "Make options similar in length and detail"
+            ],
+            [
+              "Absolute terms such as \"always\" or \"never\" in options",
+              "Cue",
+              "Remove absolute terms"
+            ],
+            [
+              "Grammatical mismatch between lead-in and options",
+              "Cue",
+              "Use closed lead-ins and keep all options grammatically parallel"
+            ],
+            [
+              "Word repeated from stem in the key (clang clue)",
+              "Cue",
+              "Remove the repeat or use the word in every option"
+            ],
+            [
+              "Convergence: the key shares the most elements with other options",
+              "Cue",
+              "Balance how often terms appear across options"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does a weak item look like next to a strong one?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A weak item asks for a remembered fact; a strong item asks the learner to apply the same fact to a situation. The pair below is illustrative, for a hypothetical data protection course."
+        },
+        {
+          "type": "callout",
+          "title": "Weak (recall, open lead-in)",
+          "text": "Which of the following is true about personal data breaches? A. They must always be reported. B. They only involve electronic records. C. They must be logged in the breach register according to policy. D. None of the above."
+        },
+        {
+          "type": "callout",
+          "title": "Strong (application, closed lead-in)",
+          "text": "A colleague emails a spreadsheet of 40 customer names and account numbers to the wrong external address and tells you ten minutes later. The recipient has not replied. Under the company's breach procedure, what should you do first? A. Report it to the privacy team through the breach reporting channel. B. Email the recipient asking them to delete the file and take no further action. C. Wait 24 hours to see whether the recipient responds. D. Tell the affected customers directly."
+        },
+        {
+          "type": "p",
+          "text": "The weak item fails the cover-the-options test, uses an absolute term, has a key that stands out by wording, and ends with \"None of the above\". The strong item can be answered before reading the options, every option is an action, and each distractor reflects a real mistake people make. The key depends on the organization's own procedure, which the item should reference by version."
+        }
+      ]
+    },
+    {
+      "id": "checklist",
+      "heading": "What should you check before an item goes live?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Check alignment, structure, and fairness before use. This original checklist is designed for reviewers who did not write the item."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "The item maps to one outcome in the blueprint, at the cognitive level the outcome requires.",
+            "The scenario is realistic for the role and contains every fact needed to answer.",
+            "The lead-in passes the cover-the-options test.",
+            "There is one defensible best answer, confirmed against the current version of the source policy or procedure.",
+            "Distractors are plausible, parallel, and drawn from real errors.",
+            "No option uses \"all of the above\", \"none of the above\", or absolute terms.",
+            "Reading load fits the role; language is plain and free of idioms.",
+            "The item works with a screen reader and does not rely on color or images without text alternatives.",
+            "The source reference and version are recorded so the item can be found when the source changes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item-analysis",
+      "heading": "How do you use item analysis to improve questions?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use item analysis after each administration to see which items behave as intended. The NBME guide describes four routine analyses: item difficulty, item discrimination, option analysis, and comparisons across groups of test-takers."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Difficulty (p-value).** The proportion of candidates who answered correctly. The NBME guide notes that very easy items (above .95) or very difficult items (below .30) do not provide much information about the group as a whole. In a mastery test some very easy items are expected, so compare results with what the item writer intended.",
+            "**Discrimination.** The correlation between getting the item right and the total score, such as the point-biserial. A value near zero means the item adds little; a negative value suggests a flaw, a different construct, or a miskeyed answer.",
+            "**Option analysis.** Distractors nobody chooses are implausible. A distractor chosen more often than the key may signal two right answers or a miskey.",
+            "**Group comparisons.** Comparing high and low scorers, or cohorts over time, shows whether an item is drifting as content or practice changes."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Item statistics feed the pass standard as well. See [how to set a pass mark for an assessment](/guides/how-to-set-a-pass-mark-for-an-assessment) and [validity vs reliability in assessment](/compare/validity-vs-reliability-in-assessment)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry ties each question to an assessment point, the outcome it evidences, and the source policy or procedure version behind its key. When the source changes, affected items are flagged for review, and question quality rules can be checked before items reach learners."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many multiple-choice questions should an assessment have?",
+      "a": "Enough to cover every outcome in the blueprint at the right weight and to give a reliable pass decision. Higher-stakes decisions need more items, especially near the pass mark. Count is a consequence of the blueprint, not a fixed rule."
+    },
+    {
+      "q": "Should we use true or false questions?",
+      "a": "Sparingly. True or false items give a 50% chance of guessing correctly and tend to test isolated facts. The NBME guide notes that \"None of the above\" turns an item into a true or false judgment, one reason it advises against it. Scenario-based one-best-answer items usually give better evidence."
+    },
+    {
+      "q": "Can AI tools write multiple-choice questions?",
+      "a": "They can draft items quickly, but drafts often contain cueing flaws, implausible distractors, or keys that do not match the organization's own procedure. Treat AI output as a first draft and apply the same review checklist and expert sign-off as any other item."
+    },
+    {
+      "q": "How often should items be reviewed?",
+      "a": "After each administration where item statistics are available, whenever the source policy, procedure, or regulation changes, and as part of scheduled assessment validation. Items keyed to superseded content are a common audit finding."
+    }
+  ],
+  "sources": [
+    {
+      "title": "NBME Item-Writing Guide: Constructing Written Test Questions for the Health Sciences (sixth edition, October 2024)",
+      "publisher": "National Board of Medical Examiners (NBME)",
+      "url": "https://www.nbme.org/institutions/nbme-item-writing-guide/"
+    },
+    {
+      "title": "Three Options Are Optimal for Multiple-Choice Items: A Meta-Analysis of 80 Years of Research (Rodriguez, 2005), Educational Measurement: Issues and Practice 24(2)",
+      "publisher": "Wiley, for the National Council on Measurement in Education",
+      "url": "https://doi.org/10.1111/j.1745-3992.2005.00006.x"
+    },
+    {
+      "title": "A Review of Multiple-Choice Item-Writing Guidelines for Classroom Assessment (Haladyna, Downing, and Rodriguez, 2002), Applied Measurement in Education 15(3)",
+      "publisher": "Taylor and Francis",
+      "url": "https://doi.org/10.1207/S15324818AME1503_5"
+    }
+  ],
+  "related": [
+    "millers-pyramid",
+    "how-to-set-a-pass-mark-for-an-assessment",
+    "validity-vs-reliability-in-assessment",
+    "assessment-blueprint",
+    "how-to-create-an-assessment-blueprint",
+    "blooms-taxonomy"
+  ],
+  "productLinks": [
+    {
+      "label": "Verification and trust",
+      "href": "/platform/verification-trust"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 11,
+  "factCheck": [
+    {
+      "claim": "NBME Item-Writing Guide, October 2024, sixth edition; free download from NBME",
+      "source": "https://www.nbme.org/institutions/nbme-item-writing-guide/"
+    },
+    {
+      "claim": "NBME five basic rules (important concept; application not recall; focused closed lead-in; homogeneous plausible options; remove technical flaws); cover-the-options rule quoted",
+      "source": "https://info.nbme.org/rs/552-QHC-046/images/NBME_Item-Writing-Guide.pdf"
+    },
+    {
+      "claim": "NBME chapter 3: two kinds of technical flaws, irrelevant difficulty adds construct-irrelevant variance; testwiseness flaws; summary table of flaws and fixes; None of the above turns item into true-false; negative lead-in risk of missing except",
+      "source": "https://info.nbme.org/rs/552-QHC-046/images/NBME_Item-Writing-Guide.pdf"
+    },
+    {
+      "claim": "NBME chapter 4: item difficulty p-value; items above .95 or below .30 do not provide much information; discrimination via biserial/point-biserial; negative values and miskeys; option analysis; group comparisons",
+      "source": "https://info.nbme.org/rs/552-QHC-046/images/NBME_Item-Writing-Guide.pdf"
+    },
+    {
+      "claim": "Rodriguez 2005 title and citation, Educational Measurement: Issues and Practice 24(2) 3-13 (Crossref)",
+      "source": "https://doi.org/10.1111/j.1745-3992.2005.00006.x"
+    },
+    {
+      "claim": "Haladyna, Downing, Rodriguez 2002, Applied Measurement in Education 15(3) 309-333 (Crossref)",
+      "source": "https://doi.org/10.1207/S15324818AME1503_5"
+    }
+  ]
+}

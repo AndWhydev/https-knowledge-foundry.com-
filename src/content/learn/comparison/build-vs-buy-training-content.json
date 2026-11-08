@@ -1,0 +1,235 @@
+{
+  "slug": "build-vs-buy-training-content",
+  "kind": "comparison",
+  "title": "Build vs buy vs partner for training content",
+  "seoTitle": "Build vs buy vs partner for content",
+  "description": "Building, buying, or partnering for training content compared on control, cost profile, time, regulatory specificity, maintenance, and AI governance.",
+  "shortAnswer": "Building training content means your own team designs and writes it; buying means licensing ready made content from a provider; partnering means an external specialist builds content for you, to your specification, that you usually own. Building gives the most control and regulatory specificity but needs internal capability. Buying is fastest and cheapest to start but least specific. Partnering sits between them. Many regulated organizations combine all three, choosing per topic by risk and how local the obligation is.",
+  "keyTakeaways": [
+    "The choice is about who produces and maintains the content, which is a different question from whether content is generic or tailored.",
+    "Buy for general obligations that apply the same way everywhere; build or partner where compliance depends on your own procedures, systems, and thresholds.",
+    "Cost profiles differ: buying is a recurring license, building is mostly internal labor, partnering is project fees plus your own review time.",
+    "Maintenance is the deciding factor over several years. Ask who updates the content when a rule changes, and how fast.",
+    "AI governance follows the work. If AI is used to produce content, someone must govern it, and the organization remains accountable whichever model it chooses."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the difference between building, buying, and partnering?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The difference is who does the design and writing, who owns the result, and who keeps it current. Building keeps all three inside the organization. Buying hands all three to a provider, who sells the same content to many customers. Partnering hands the design and writing to a specialist while the organization keeps ownership and, usually, approval."
+        },
+        {
+          "type": "p",
+          "text": "This is related to, but not the same as, the choice between generic and tailored content covered in [off the shelf vs custom compliance training](/compare/off-the-shelf-vs-custom-compliance-training). Bought content is usually generic. Built and partnered content is usually custom. The sourcing decision also determines governance: who checks accuracy, who records review, and who answers when an auditor asks where a statement came from."
+        }
+      ]
+    },
+    {
+      "id": "decision-table",
+      "heading": "How do build, buy, and partner compare side by side?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Building wins on control and specificity, buying wins on speed and starting cost, and partnering trades some of each. The table compares them on the criteria that matter most for regulated training."
+        },
+        {
+          "type": "table",
+          "caption": "Build, buy, and partner compared for training content",
+          "head": ["Criterion", "Build (in house)", "Buy (licensed content)", "Partner (commissioned)"],
+          "rows": [
+            ["Control over content", "Full: you decide scope, wording, examples, and assessment", "Low: you choose from what exists; editing may be limited", "High: built to your specification and approved by you"],
+            ["Cost profile", "Mostly internal staff time and tools; fixed team cost", "Recurring license fees, often per user; low setup cost", "Project or retainer fees, plus your expert and review time"],
+            ["Time to deploy", "Slowest to start if capability must be built; fast once established", "Fastest: days to weeks", "Weeks to months, depending on scope and reviews"],
+            ["Regulatory specificity", "Highest: can reflect your obligations, procedures, and thresholds", "Lowest: written for general law and many organizations", "High, if the partner works from your policies and sources"],
+            ["Maintenance", "Your team updates on your timeline; depends on retaining capacity", "Provider updates general law on its timeline; local gaps remain yours", "Depends on the contract; agree triggers, turnaround, and price"],
+            ["AI governance", "You govern any AI use directly within your own controls", "You must rely on the provider's controls and your diligence", "Shared: the partner's controls plus your review and approval"],
+            ["Ownership of content", "Owned", "Licensed; access may end when the license ends", "Usually owned or perpetually licensed, if the contract says so"],
+            ["Internal capability needed", "Instructional design, subject expertise, authoring, review", "Administration and gap analysis", "Specification, subject expert review, and vendor management"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "when-each-fits",
+      "heading": "When should you build, buy, or partner?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Buy when the obligation is general and speed matters; build when the content is core, changes often, and you have or want the capability; partner when the content must be specific but you lack the capacity or expertise to produce it well. The more an obligation depends on your own procedures, the weaker the case for buying."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative decision guide (a starting point, not a rule)",
+          "head": ["Situation", "Leaning", "Why"],
+          "rows": [
+            ["General awareness of a law that applies the same way everywhere", "Buy", "Content does not depend on local procedure"],
+            ["Procedures, systems, or thresholds unique to your organization", "Build or partner", "People need your process, not just the law"],
+            ["Large program needed quickly with no internal team", "Partner, possibly with bought content for the baseline", "Specialist capacity without hiring"],
+            ["Content that changes frequently and is central to operations", "Build", "Fast internal updates and retained knowledge"],
+            ["High regulatory scrutiny of training relevance", "Build or partner", "Training must visibly reflect the organization's own risks"],
+            ["One off specialist topic", "Partner", "Expertise not worth building internally"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Public procurement uses a similar test. In the United States, Federal Acquisition Regulation (FAR) 10.002 directs agencies to use market research to determine whether commercial products or services are available to meet a need, \"or could be modified\" to meet it, before developing something new ([FAR Part 10](https://www.acquisition.gov/far/part-10)). Checking what can be bought, and how far it can be adapted, is a sensible first step for any organization."
+        }
+      ]
+    },
+    {
+      "id": "ai-governance",
+      "heading": "How does AI governance differ across the three models?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI governance differs in who operates the controls, not in who is accountable. Whether content is built, bought, or commissioned, the organization that assigns training remains answerable for what it says."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Build.** If your team uses AI to draft, translate, or write assessment items, the AI use falls inside your own governance. ISO/IEC 42001:2023 specifies requirements for an artificial intelligence management system that organizations can apply to that use ([ISO](https://www.iso.org/standard/42001)). See [AI governance](/glossary/ai-governance).",
+            "**Buy.** You cannot see inside the provider's process, so governance relies on diligence: where AI is used, how outputs are tested, and what human review occurs before release.",
+            "**Partner.** Controls are shared. Agree in the contract where AI may be used, how your confidential material is protected, and that each module carries a source trail and review record."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Prosecutors in the United States ask related questions of a company's compliance program as a whole. The Department of Justice (DOJ) Evaluation of Corporate Compliance Programs asks \"What is the company's approach to governance regarding the use of new technologies such as AI in its commercial business and in its compliance program?\" ([DOJ ECCP, September 2024](https://www.justice.gov/media/1160391/dl?inline)). Compliance training is part of that program, so the answer should cover how training content is produced."
+        }
+      ]
+    },
+    {
+      "id": "hidden-costs",
+      "heading": "What hidden costs does each model carry?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each model hides a different cost: building hides the cost of keeping a capable team, buying hides the cost of filling local gaps, and partnering hides the cost of your own review and vendor management. Compare total cost over several years, not first year price."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Build:** recruitment and retention, authoring tools, quality assurance, and the risk that knowledge leaves with one person.",
+            "**Buy:** supplementary briefings for local procedures, learner time on content that does not apply to them, and limited editing when your procedures change.",
+            "**Partner:** subject matter expert time for interviews and reviews, contract management, and update fees if maintenance is not priced in advance."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "See [how to estimate training content development time and cost](/guides/how-to-estimate-training-content-development-time-and-cost) for the drivers of development effort."
+        }
+      ]
+    },
+    {
+      "id": "deciding",
+      "heading": "How do you make and document the decision?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Decide per topic or obligation, not once for the whole library, and record the reasoning. A mixed model is common and defensible when each choice is explained."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "List obligations and topics, and mark which depend on local procedure ([how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations)).",
+            "Check what can be bought and how far it can be adapted.",
+            "Assess internal capability and capacity honestly.",
+            "Compare total cost and maintenance over the expected life of the content.",
+            "For buy and partner options, run structured diligence ([how to evaluate a training content vendor](/guides/how-to-evaluate-a-training-content-vendor)) and, for larger purchases, a formal tender ([how to write an RFP for compliance training](/guides/how-to-write-an-rfp-for-compliance-training)).",
+            "Record the decision and review it when obligations, volumes, or capability change."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Where an external provider is used, ISO 29993:2017, which specifies requirements for learning services outside formal education, including outsourced in company training, offers a reference point for what a well run learning service looks like ([ISO](https://www.iso.org/standard/70357.html))."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines the knowledge framework, outcomes, and assessment points from the organization's own obligations before content is produced, whichever sourcing model is used. That gives built, bought, and partnered content a common structure to be checked against, and shows where bought content leaves gaps. The [gap analysis](/platform/gap-analysis) page describes how coverage is compared."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is partnering the same as outsourcing?",
+      "a": "Partnering is a form of outsourcing in which the organization keeps ownership and approval of the content and the partner builds to its specification. It differs from buying licensed content, where the provider owns the content and sells it to many customers. The contract determines ownership, so check it rather than assuming."
+    },
+    {
+      "q": "Can we start by buying and build later?",
+      "a": "Yes, and many organizations do. Bought content can establish a baseline quickly while internal or partnered modules are developed for local procedures. Plan the transition from the start: map what the bought content covers, record gaps, and make sure learner records can move if you change provider."
+    },
+    {
+      "q": "Does using AI make building in house cheaper?",
+      "a": "It can shorten drafting, but it adds verification and governance work. Every AI drafted point in regulated training still needs checking against its source and approval by a qualified person. The cost saving depends on how efficiently that review is organized, not just on drafting speed."
+    },
+    {
+      "q": "Who owns content created by a partner?",
+      "a": "Whoever the contract and applicable law say. Paying for the work does not by itself guarantee ownership, so do not assume it. Specify ownership or a perpetual license, the editable source formats to be delivered, and rights to modify content after the contract ends."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Federal Acquisition Regulation Part 10: Market Research",
+      "publisher": "Acquisition.gov, US General Services Administration",
+      "url": "https://www.acquisition.gov/far/part-10"
+    },
+    {
+      "title": "ISO/IEC 42001:2023 Information technology: Artificial intelligence: Management system",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/42001"
+    },
+    {
+      "title": "Evaluation of Corporate Compliance Programs (Updated September 2024)",
+      "publisher": "US Department of Justice, Criminal Division",
+      "url": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "title": "ISO 29993:2017 Learning services outside formal education: Service requirements",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/70357.html"
+    }
+  ],
+  "related": [
+    "off-the-shelf-vs-custom-compliance-training",
+    "how-to-evaluate-a-training-content-vendor",
+    "how-to-write-an-rfp-for-compliance-training",
+    "how-to-estimate-training-content-development-time-and-cost",
+    "ai-governance",
+    "ai-content-generator-vs-structured-framework"
+  ],
+  "productLinks": [
+    { "label": "Gap analysis", "href": "/platform/gap-analysis" },
+    { "label": "Knowledge transformation", "href": "/platform/knowledge-transformation" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 10,
+  "factCheck": [
+    {
+      "claim": "FAR 10.002: market research should determine whether commercial products or services are available to meet the Government's needs or could be modified to meet them (FAC 2026-01).",
+      "source": "https://www.acquisition.gov/far/part-10"
+    },
+    {
+      "claim": "ECCP (September 2024) asks 'What is the company's approach to governance regarding the use of new technologies such as AI in its commercial business and in its compliance program?'",
+      "source": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "claim": "ISO/IEC 42001:2023 specifies requirements for establishing, implementing, maintaining and continually improving an AI management system.",
+      "source": "https://www.iso.org/standard/42001"
+    },
+    {
+      "claim": "ISO 29993:2017 specifies requirements for learning services outside formal education, including in company training, outsourced or in house.",
+      "source": "https://www.iso.org/standard/70357.html"
+    }
+  ]
+}

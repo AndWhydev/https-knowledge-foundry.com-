@@ -1,0 +1,281 @@
+{
+  "slug": "role-based-training",
+  "kind": "glossary",
+  "title": "What is role-based training?",
+  "seoTitle": "Role-based training: definition",
+  "description": "Role-based training is training assigned by work role and the tasks that role performs, beyond general awareness. NIST's definition and a matrix example.",
+  "shortAnswer": "Role-based training is training assigned according to a person's work role and the tasks and responsibilities that role carries, rather than the same content for everyone. It sits on top of general awareness training and goes deeper for roles with significant responsibilities. NIST SP 800-50 Rev. 1 defines it as a process that starts by identifying significant work roles and the people in them, then assigns or develops learning based on the tasks each role performs.",
+  "keyTakeaways": [
+    "Role-based training starts from defined work roles and their tasks, not from a course catalog.",
+    "NIST SP 800-50 Rev. 1 (September 2024) separates all users, privileged access account holders, and people with significant cybersecurity or privacy responsibilities, and gives the last group role-based training.",
+    "US federal rules require agencies to identify employees with significant information security responsibilities and give them role-specific training, including when someone moves into a new position.",
+    "The idea applies well beyond cybersecurity: any regulated organization can map roles to required training and depth in a role-based training matrix."
+  ],
+  "term": "role-based training",
+  "alsoKnownAs": [
+    "role-specific training",
+    "job-specific training",
+    "role-based learning"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "How does NIST define role-based training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The US National Institute of Standards and Technology (NIST) defines role-based training as a multi-step process that begins with defining significant work roles and identifying the people in them, then provides learning based on the tasks each role performs. The definition appears in the glossary of SP 800-50 Rev. 1."
+        },
+        {
+          "type": "p",
+          "text": "In full, [NIST SP 800-50 Rev. 1](https://csrc.nist.gov/glossary/term/role_based_training), Building a Cybersecurity and Privacy Learning Program, defines role-based training as \"a multi-step process in the learning program that begins with defining the significant cybersecurity or privacy work roles in the organization and identifying the personnel aligned to those designated work roles. Learning materials are then assigned, acquired, or developed based on the tasks necessary to perform the work role.\""
+        },
+        {
+          "type": "p",
+          "text": "NIST also quotes control AT-3 of SP 800-53 Rev. 5: \"Comprehensive role-based training addresses management, operational, and technical roles and responsibilities covering physical, personnel, and technical controls\", and \"also applies to contractors who provide services to federal agencies\" ([NIST SP 800-50 Rev. 1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-50r1.pdf)). The emphasis is on what each role is responsible for, which is why role-based training is tied to role descriptions and performance plans."
+        }
+      ]
+    },
+    {
+      "id": "audience-segments",
+      "heading": "Who receives role-based training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "People whose roles carry significant responsibilities beyond those of ordinary users receive role-based training, in addition to the awareness training everyone completes. SP 800-50 Rev. 1 describes three overlapping audience segments."
+        },
+        {
+          "type": "table",
+          "caption": "Learning audience segments in NIST SP 800-50 Rev. 1",
+          "head": [
+            "Segment",
+            "Who is in it",
+            "What they receive"
+          ],
+          "rows": [
+            [
+              "All users",
+              "Everyone who participates in the learning program",
+              "Recurring awareness and general training"
+            ],
+            [
+              "Privileged access account holders",
+              "People with approved access to restricted systems or data that requires special care",
+              "Additional cybersecurity and privacy training"
+            ],
+            [
+              "Significant cybersecurity and/or privacy responsibilities",
+              "Employees and contractors whose work roles carry those responsibilities",
+              "An individualized program of role-based training"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "NIST gives the chief information security officer, privacy officers, cybersecurity managers, cybersecurity and privacy analysts, and incident responders as typical recipients, and points to the NICE Workforce Framework for Cybersecurity (SP 800-181 Rev. 1) for work roles and their knowledge and skills. It also notes that complexity should match the role, with materials at beginning, intermediate and advanced levels."
+        }
+      ]
+    },
+    {
+      "id": "requirements",
+      "heading": "Where is role-based training required?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Role-based training is explicitly required for US federal agencies and appears in many security control frameworks; in other sectors and countries the same principle appears as a requirement to train people for the duties of their role. The US federal rules are a clear example of how the requirement is framed."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**US federal agencies:** NIST notes that the Federal Information Security Modernization Act (FISMA) requires personnel with significant cybersecurity or privacy responsibilities to receive role-based training. [5 CFR 930.301](https://www.ecfr.gov/current/title-5/section-930.301) requires each executive agency to identify employees with significant information security responsibilities and provide role-specific training, with different content for executives, program and functional managers, security personnel and IT operations staff.",
+            "**On role change:** the same regulation requires training \"when an employee enters a new position that requires additional role-specific training\" and when the information system environment or procedures change significantly.",
+            "**Control frameworks:** SP 800-53 Rev. 5 control AT-3 (Role-Based Training) is widely used outside government as a reference control. See [NIST SP 800-50 security awareness training](/regulations/nist-sp-800-50-security-awareness-training) for the wider program."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Sector rules elsewhere often express the same idea in different words, for example personnel training requirements in manufacturing quality rules. See [FDA GMP personnel training requirements](/regulations/fda-gmp-personnel-training-requirements) for one sector example."
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does a role-based training matrix look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A role-based training matrix lists roles down one side and training requirements across the top, and states in each cell whether training is required, at what depth and how often. The example below is illustrative and not taken from NIST or any regulator."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative role-based training matrix: information security and privacy",
+          "head": [
+            "Role",
+            "Security and privacy awareness",
+            "Privileged access handling",
+            "Incident response procedures",
+            "Secure configuration",
+            "Privacy impact assessment"
+          ],
+          "rows": [
+            [
+              "All staff",
+              "Required before access, then annual",
+              "Not required",
+              "Reporting only (awareness)",
+              "Not required",
+              "Not required"
+            ],
+            [
+              "System administrator",
+              "Required, annual",
+              "Required before privileged access, annual",
+              "Intermediate",
+              "Advanced, assessed",
+              "Not required"
+            ],
+            [
+              "Incident responder",
+              "Required, annual",
+              "Required, annual",
+              "Advanced, assessed by exercise",
+              "Intermediate",
+              "Not required"
+            ],
+            [
+              "Privacy officer",
+              "Required, annual",
+              "Not required",
+              "Intermediate",
+              "Not required",
+              "Advanced, assessed"
+            ],
+            [
+              "Executive",
+              "Required, annual",
+              "Not required",
+              "Decision making in incidents (tabletop)",
+              "Not required",
+              "Basics"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Each cell should trace back to a reason: a regulation, a control, a procedure or a risk assessment. Building and maintaining this kind of matrix is covered in [how to build a training matrix](/guides/how-to-build-a-training-matrix), and the general concept in [training matrix](/glossary/training-matrix)."
+        }
+      ]
+    },
+    {
+      "id": "nearby-terms",
+      "heading": "How is role-based training different from awareness or mandatory training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Awareness training gives everyone the same baseline; role-based training adds depth for specific responsibilities. [Mandatory training](/glossary/mandatory-training) is any training an organization or regulator requires, and can include both."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Role-based training vs awareness:** awareness changes general behavior, such as reporting a suspicious email; role-based training builds the ability to perform role tasks, such as configuring a system securely.",
+            "**Role-based training vs competency assessment:** completing role-based training does not by itself show the person can do the task. Pair it with [competency assessment](/glossary/competency-assessment) for high-risk roles.",
+            "**Role-based training vs job task analysis:** a [job task analysis](/glossary/job-task-analysis) identifies the tasks of a role; role-based training is built from them."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links roles to the obligations, concepts and tasks that apply to them, and links training and assessment points to the same records. That makes it possible to see which roles are affected when a control or procedure changes, and whether each role's training still covers what the role is responsible for."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does role-based training replace annual awareness training?",
+      "a": "No. NIST treats awareness training for all users as the base layer and role-based training as additional training for people with significant responsibilities. Someone in a specialist role normally completes both."
+    },
+    {
+      "q": "When should role-based training happen?",
+      "a": "Before someone starts performing the role's sensitive tasks, and again when the role, system or procedures change significantly, with refreshers on a set cycle. US federal rules require role-specific training when an employee enters a new position that needs it."
+    },
+    {
+      "q": "Is role-based training only about cybersecurity?",
+      "a": "No. The term is most formally defined in NIST cybersecurity guidance, but the approach applies to any regulated activity: quality, health and safety, financial crime, privacy and clinical practice all assign training by role and responsibility."
+    },
+    {
+      "q": "How are roles for role-based training identified?",
+      "a": "NIST describes starting with senior leadership and the offices responsible for security and privacy, working with HR, to define significant work roles and identify the people in them. Those roles should then appear in position descriptions so the link between role and training is visible."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Glossary: role-based training",
+      "publisher": "NIST Computer Security Resource Center",
+      "url": "https://csrc.nist.gov/glossary/term/role_based_training"
+    },
+    {
+      "title": "NIST SP 800-50 Rev. 1: Building a Cybersecurity and Privacy Learning Program (September 2024)",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-50r1.pdf"
+    },
+    {
+      "title": "SP 800-50 Rev. 1: Building a Cybersecurity and Privacy Learning Program",
+      "publisher": "NIST Computer Security Resource Center",
+      "url": "https://csrc.nist.gov/pubs/sp/800/50/r1/final"
+    },
+    {
+      "title": "5 CFR 930.301 Information systems security awareness training program",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-5/section-930.301"
+    }
+  ],
+  "related": [
+    "nist-sp-800-50-security-awareness-training",
+    "training-matrix",
+    "mandatory-training",
+    "how-to-build-a-training-matrix",
+    "job-task-analysis",
+    "competency-assessment"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Gap analysis",
+      "href": "/platform/gap-analysis"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 10,
+  "factCheck": [
+    {
+      "claim": "NIST CSRC glossary (source SP 800-50r1): role-based training is a multi-step process ... learning materials assigned, acquired, or developed based on the tasks necessary to perform the work role",
+      "source": "https://csrc.nist.gov/glossary/term/role_based_training"
+    },
+    {
+      "claim": "SP 800-50r1 quotes SP 800-53r5 AT-3: comprehensive role-based training addresses management, operational, and technical roles and responsibilities covering physical, personnel, and technical controls; also applies to contractors",
+      "source": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-50r1.pdf"
+    },
+    {
+      "claim": "SP 800-50r1 section 2.5: three audience segments (all users; privileged access account holders; significant cybersecurity and/or privacy responsibilities receiving individualized role-based training); typical recipients CISO, privacy officers, cybersecurity managers, analysts, incident responders; FISMA requires role-based training for significant responsibilities; beginning, intermediate, advanced materials; roles determined with senior leadership, CIO/CISO/CPO offices and HR, included in position descriptions",
+      "source": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-50r1.pdf"
+    },
+    {
+      "claim": "SP 800-50 Rev. 1 published September 2024",
+      "source": "https://csrc.nist.gov/pubs/sp/800/50/r1/final"
+    },
+    {
+      "claim": "5 CFR 930.301(a) identify employees with significant information security responsibilities and provide role-specific training; (a)(2)-(5) role-specific content for executives, managers, security personnel, IT operations; (d) training on significant change or when an employee enters a new position requiring additional role-specific training",
+      "source": "https://www.ecfr.gov/current/title-5/section-930.301"
+    }
+  ]
+}

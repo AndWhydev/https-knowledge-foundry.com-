@@ -1,0 +1,383 @@
+{
+  "slug": "how-to-check-ai-generated-training-for-accuracy",
+  "kind": "guide",
+  "title": "How do you check AI generated training content for accuracy?",
+  "seoTitle": "Checking AI generated training accuracy",
+  "description": "A claim level method for checking AI generated training: extract claims, trace each to a source, verify, get expert review, and record sign off.",
+  "shortAnswer": "To check AI generated training content for accuracy, break the draft into individual factual claims, trace each claim to an approved source passage, and mark it confirmed, corrected, or removed. A subject matter expert then reviews what a claim check cannot catch, such as omissions, emphasis, scenarios, and assessment keys. Record who checked what, against which source versions, and who approved release, then keep sampling content after it goes live.",
+  "keyTakeaways": [
+    "Generative AI can state false content confidently. NIST calls this confabulation and lists it among the main risks of generative AI.",
+    "Check claims, not documents. A general proofread misses plausible errors in thresholds, timeframes, and procedure steps.",
+    "Every claim needs a traceable source passage. A claim with no source is removed or escalated, not assumed correct.",
+    "Subject matter expert review covers what is missing or misleading, which claim checks alone do not detect.",
+    "A sign off record listing sources, checks, reviewers, and approval makes the content defensible later."
+  ],
+  "sections": [
+    {
+      "id": "why-a-dedicated-check",
+      "heading": "Why does AI generated training need a dedicated accuracy check?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI generated training needs a dedicated check because generative models produce fluent text that can be wrong, and fluent errors are hard to spot on a normal read. In training, a wrong statement is taught to many people and then assessed as correct, so the cost of an error multiplies."
+        },
+        {
+          "type": "p",
+          "text": "The US National Institute of Standards and Technology (NIST) describes confabulation, known colloquially as [hallucination](/glossary/ai-hallucination), as \"the production of confidently stated but erroneous or false content\" in its [Generative AI Profile (NIST AI 600-1)](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf). It explains that confabulations are \"a natural result of the way generative models are designed\" and are particularly relevant for long form responses in domains that require contextual or domain expertise. That describes most regulated training content."
+        },
+        {
+          "type": "p",
+          "text": "The same profile defines high integrity information as information that distinguishes fact from opinion, acknowledges uncertainty, and \"can be linked to the original source(s) with appropriate evidence\". That is a useful test for every statement in a training module. The organizational controls around AI use are covered in [how to govern AI generated learning content](/guides/how-to-govern-ai-generated-learning-content); this guide covers the check itself."
+        }
+      ]
+    },
+    {
+      "id": "what-counts-as-a-claim",
+      "heading": "What counts as a claim that needs checking?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A claim is any statement a learner could act on or be assessed on, whether it appears in narrative text, a scenario, a quiz item, a feedback message, or an image caption. If a learner would be wrong to believe it when it is false, it is a claim."
+        },
+        {
+          "type": "table",
+          "caption": "Claim types and why they fail in AI drafts",
+          "head": [
+            "Claim type",
+            "Example",
+            "Typical AI failure"
+          ],
+          "rows": [
+            [
+              "Numeric or time limit",
+              "Report within the same business day",
+              "A plausible but wrong figure taken from a different jurisdiction or older rule"
+            ],
+            [
+              "Legal or regulatory reference",
+              "Clause, section, or article number",
+              "Wrong number, repealed provision, or invented reference"
+            ],
+            [
+              "Procedure step",
+              "Escalate to the privacy officer before notifying the customer",
+              "Steps reordered, merged, or a step added that the procedure does not contain"
+            ],
+            [
+              "Role or responsibility",
+              "The line manager approves the exception",
+              "Responsibility assigned to the wrong role"
+            ],
+            [
+              "Definition",
+              "What counts as a reportable incident",
+              "Definition broadened or narrowed compared with the policy"
+            ],
+            [
+              "Assessment key",
+              "The correct answer to a quiz item",
+              "Keyed answer wrong, or a distractor that is also correct"
+            ],
+            [
+              "Attribution or quotation",
+              "A regulator says that",
+              "Quotation paraphrased into words the source never used, or a citation that does not exist"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "NIST notes that generative AI outputs may include \"confabulated logic or citations\" that appear to justify an answer. A citation in an AI draft is therefore itself a claim to check, not evidence that the statement is correct."
+        }
+      ]
+    },
+    {
+      "id": "source-tracing",
+      "heading": "How do you trace each claim to a source?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Trace each claim to a specific passage in an approved, current source, recording the document, version, and location. If the passage cannot be found, the claim is unsupported, however reasonable it sounds."
+        },
+        {
+          "type": "p",
+          "text": "Set a source hierarchy before checking starts so reviewers know which source wins when two disagree. A common order is: the primary legal text or standard; regulator guidance; the organization's approved policies and procedures; then documented subject matter expert knowledge. Drafting tools that use [retrieval augmented generation](/glossary/retrieval-augmented-generation) can attach source references to each statement, which speeds tracing, but the references still need checking, because the tool can cite a passage that does not say what the draft claims."
+        },
+        {
+          "type": "p",
+          "text": "Keeping the link between each statement and its source is what [content provenance](/glossary/content-provenance) means at the level of a training item. NIST AI 600-1 suggests actions such as to \"deploy and document fact-checking techniques to verify the accuracy and veracity of information generated by GAI systems\" (MP-2.3-003) and to \"review and verify sources and citations in GAI system outputs\" (MS-2.5-003)."
+        }
+      ]
+    },
+    {
+      "id": "claim-check-checklist",
+      "heading": "What does a claim level check involve?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A claim level check applies the same questions to every claim and records the result. The checklist below is this guide's original tool; use it as a release gate for AI assisted content."
+        },
+        {
+          "type": "table",
+          "caption": "Claim check checklist for AI assisted training content",
+          "head": [
+            "Check",
+            "Question the reviewer answers",
+            "Fail signal and action"
+          ],
+          "rows": [
+            [
+              "1. Extracted",
+              "Has every statement a learner could act on or be assessed on been listed, including quiz items, feedback, and scenario facts?",
+              "Claims hidden in scenarios or feedback text: extract and add them"
+            ],
+            [
+              "2. Sourced",
+              "Is there a named source passage, with document version and location, for this claim?",
+              "No passage found: remove the claim or escalate to an expert"
+            ],
+            [
+              "3. Current",
+              "Is the source the current approved version, and has the rule commenced and not been repealed?",
+              "Superseded or not yet in force: update or remove"
+            ],
+            [
+              "4. Faithful",
+              "Does the claim say what the source says, with the same conditions, exceptions, and strength (must, should, may)?",
+              "Meaning shifted: rewrite to the source wording"
+            ],
+            [
+              "5. Jurisdiction",
+              "Does the claim apply to the audience's country, entity, and role?",
+              "Wrong jurisdiction or scope: correct or add a scope statement"
+            ],
+            [
+              "6. Numbers and references",
+              "Have every figure, date, and clause or section number been checked character by character against the source?",
+              "Mismatch: correct from the source, never from the tool"
+            ],
+            [
+              "7. Quotations",
+              "Is every quotation verbatim and attributed to a source that actually contains it?",
+              "Paraphrase in quotation marks or untraceable quote: remove or fix"
+            ],
+            [
+              "8. Assessment",
+              "Is the keyed answer correct, and is each distractor wrong for a clear reason?",
+              "Ambiguous or wrong key: rewrite the item"
+            ],
+            [
+              "9. Recorded",
+              "Is the result (confirmed, corrected, removed) logged with the reviewer's name and date?",
+              "Missing log entry: the claim is treated as unchecked"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Run checks 6 and 7 even when the rest of the draft looks clean. They are where plausible but wrong content most often hides, and they are quick to verify against the source. A worked example of a claim check log appears in [how to use AI to create training content safely](/guides/how-to-use-ai-to-create-training-content-safely)."
+        }
+      ]
+    },
+    {
+      "id": "expert-review",
+      "heading": "What should subject matter experts review that a claim check misses?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Subject matter experts review what is missing, misleading, or unrealistic, because a claim check only tests what is present. A module can be accurate sentence by sentence and still teach the wrong behavior."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Omissions.** Is a critical exception, condition, or escalation step missing?",
+            "**Emphasis.** Does the module spend most of its time on low risk points and pass quickly over the high risk ones?",
+            "**Scenario realism.** Would the scenario actually happen this way in your organization, and is the model answer what an experienced practitioner would do?",
+            "**Assessment validity.** Does each item test the intended outcome rather than reading skill or trick wording?",
+            "**Tone and implication.** Could a learner reasonably infer something the source does not support?"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Brief experts on what to look for and give them the claim log, so they do not repeat source checks. Capturing their judgment in a structured way is covered in [how to capture subject matter expert knowledge](/guides/how-to-capture-subject-matter-expert-knowledge). The reviewer is acting as a [human in the loop](/glossary/human-in-the-loop) for the content, and their decision should be recorded as such."
+        }
+      ]
+    },
+    {
+      "id": "sign-off-record",
+      "heading": "What should the sign off record contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The sign off record should let someone who was not involved reconstruct what was checked, against what, by whom, and who approved release. Without it, an accurate module is still hard to defend in an audit."
+        },
+        {
+          "type": "table",
+          "caption": "Minimum fields for a sign off record",
+          "head": [
+            "Field",
+            "What to record"
+          ],
+          "rows": [
+            [
+              "Content item and version",
+              "Identifier and version of the module, item bank, or asset"
+            ],
+            [
+              "AI involvement",
+              "Tool and model or version used, date, and which parts were AI drafted"
+            ],
+            [
+              "Source pack",
+              "Each source document with its version, as checked"
+            ],
+            [
+              "Claim log",
+              "Each claim, its source passage, and the result: confirmed, corrected, or removed"
+            ],
+            [
+              "Expert review",
+              "Reviewer name, role, date, and findings"
+            ],
+            [
+              "Compliance or legal review",
+              "Where the content implements an obligation: reviewer, date, and outcome"
+            ],
+            [
+              "Approval",
+              "Approver name, date, and the risk tier applied"
+            ],
+            [
+              "Review triggers",
+              "Source documents whose change should trigger re-review"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Privacy regulators take a similar view of AI outputs generally. The Office of the Australian Information Commissioner (OAIC), for example, suggests making sure records \"clearly indicate where information is the product of an AI output and therefore a probabilistic assessment rather than fact\", and that a human user is responsible for verifying the accuracy of personal information obtained through AI ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products)). Sign off records should sit within your normal [version control for training content](/guides/how-to-maintain-version-control-for-training-content)."
+        }
+      ]
+    },
+    {
+      "id": "after-release",
+      "heading": "How do you keep checking accuracy after release?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Keep checking through monitoring signals and scheduled sampling, because sources change and some errors only surface in use. NIST AI 600-1 frames source and citation review as part of both pre-deployment measurement and ongoing monitoring."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Learner challenges.** Treat questions that cite the policy against the training as error reports and route them to the content owner.",
+            "**Assessment analytics.** Items that strong performers get wrong often point to a wrong key or ambiguous wording.",
+            "**Source change triggers.** When a source document changes, re-check every claim that depends on it. See [how to detect outdated training content](/guides/how-to-detect-outdated-training-content).",
+            "**Sampling.** Re-run the claim check on a sample of released high risk items each review cycle and record the results."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Reviewers need the skills to do this well. The European Commission notes that staff using general purpose AI tools \"should be informed about the specific risks, for example hallucination\" ([European Commission](https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers)); content reviewers need more than that, including practice on drafts seeded with realistic errors."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry holds each concept, outcome, and assessment point with its source passage before content is generated, so every claim in a draft can be traced and checked against a defined structure. Verification by a named reviewer is recorded at the claim level, and source changes identify the items that need re-checking. The [verification and trust](/platform/verification-trust) page describes these controls."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can another AI tool check the first tool's output?",
+      "a": "It can help find candidate problems, such as statements with no matching source passage, but it cannot replace a qualified human check. A second model can share the same blind spots or confabulate its own confirmation. Use automated checks to prioritize human review, and record the human decision."
+    },
+    {
+      "q": "How long does a claim level check take?",
+      "a": "It depends on claim density and source quality. A module with many thresholds, references, and procedure steps takes longer than general awareness content. Teams usually find checking takes a meaningful share of the time saved by AI drafting, which is why review effort should be planned rather than squeezed."
+    },
+    {
+      "q": "Does every AI drafted item need expert review?",
+      "a": "Set review depth by risk. Content that implements a legal obligation, a safety critical procedure, or an assessment that gates authorization to work should get a full claim check plus expert review. Low risk orientation content may need only an editorial check by the content owner, recorded as such."
+    },
+    {
+      "q": "What should happen when the source itself is unclear?",
+      "a": "Escalate rather than resolve it in the training. Record the ambiguity, ask the policy owner or legal function for an interpretation, and reflect their answer in both the source and the content. Training should not settle questions the source document leaves open."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+    },
+    {
+      "title": "Guidance on privacy and the use of commercially available AI products",
+      "publisher": "Office of the Australian Information Commissioner",
+      "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products"
+    },
+    {
+      "title": "AI Literacy: Questions and Answers",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers"
+    }
+  ],
+  "related": [
+    "ai-hallucination",
+    "content-provenance",
+    "how-to-use-ai-to-create-training-content-safely",
+    "how-to-govern-ai-generated-learning-content",
+    "human-in-the-loop",
+    "retrieval-augmented-generation"
+  ],
+  "productLinks": [
+    {
+      "label": "Verification and trust",
+      "href": "/platform/verification-trust"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 9,
+  "factCheck": [
+    {
+      "claim": "NIST AI 600-1 section 2: Confabulation: the production of confidently stated but erroneous or false content (known colloquially as hallucinations or fabrications) by which users may be misled or deceived.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    {
+      "claim": "NIST AI 600-1 2.2: confabulations are a natural result of the way generative models are designed; particularly relevant for open-ended prompts for long-form responses and domains requiring highly contextual and/or domain expertise; outputs may include confabulated logic or citations.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    {
+      "claim": "NIST AI 600-1 2.8: high-integrity information distinguishes fact from fiction, opinion, and inference; acknowledges uncertainties; can be linked to the original source(s) with appropriate evidence.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    {
+      "claim": "NIST AI 600-1 action MP-2.3-003: deploy and document fact-checking techniques to verify the accuracy and veracity of information generated by GAI systems; MS-2.5-003: review and verify sources and citations in GAI system outputs during pre-deployment risk measurement and ongoing monitoring activities.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    {
+      "claim": "OAIC practical tips: ensure records clearly indicate where information is the product of an AI output and therefore a probabilistic assessment rather than fact; a human user should be responsible for verifying the accuracy of any personal information obtained through AI; training staff to understand design and limitations of an AI system.",
+      "source": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products"
+    },
+    {
+      "claim": "EC Q&A: employees using ChatGPT should be informed about the specific risks, for example hallucination.",
+      "source": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers"
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "slug": "how-to-set-a-pass-mark-for-an-assessment",
+  "kind": "guide",
+  "title": "How do you set a defensible pass mark?",
+  "seoTitle": "Setting a defensible pass mark",
+  "description": "How to set a defensible pass mark using Angoff, modified Angoff, and borderline methods, with a worked example and what certification standards expect.",
+  "shortAnswer": "A defensible pass mark is set through standard setting: a panel of qualified experts defines the minimally competent candidate, judges how that person would perform on each item or task, and combines those judgments into a cut score using a recognized method such as Angoff, modified Angoff, or borderline regression. The method, panel, data, and decision are documented, the pass mark is fixed before results are known, and it is reviewed when the assessment changes.",
+  "keyTakeaways": [
+    "A habitual percentage such as 70% or 80% is not a standard. Its meaning depends on how hard the items are.",
+    "Standard setting starts by describing the minimally competent candidate: the person who would only just pass.",
+    "Angoff-type methods judge items before the test; borderline methods use assessor ratings of real performances.",
+    "The Standards for Educational and Psychological Testing expect the rationale and procedure for cut scores to be documented.",
+    "Competence decisions should also include must-pass critical items, so a high score elsewhere cannot hide an unsafe gap."
+  ],
+  "sections": [
+    {
+      "id": "why-not-a-percentage",
+      "heading": "Why is a fixed percentage not a defensible pass mark?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A fixed percentage is not defensible on its own because the same percentage represents a different standard on an easy test than on a hard one. Without knowing the items and the job requirement, nobody can say whether 80% means competent."
+        },
+        {
+          "type": "p",
+          "text": "The Standards for Educational and Psychological Testing, published by the American Educational Research Association (AERA), the American Psychological Association (APA), and the National Council on Measurement in Education (NCME), make the point about credentialing tests. They note that legislative bodies sometimes attempt to fix a cut score \"such as answering 70% of test items correctly\", and warn that such arbitrary cut scores \"can be harmful\" because \"without detailed information about the test, job requirements, and their relationship, sound standard setting is impossible\" ([AERA, APA, and NCME, 2014](https://www.testingstandards.net/open-access-files.html))."
+        },
+        {
+          "type": "p",
+          "text": "Many compliance quizzes still use one organization-wide percentage. That is a reasonable starting assumption for low-stakes knowledge checks, but any assessment that supports a [competency assessment](/glossary/competency-assessment), authorization to work, or certification needs a pass mark set for that assessment."
+        }
+      ]
+    },
+    {
+      "id": "what-is-standard-setting",
+      "heading": "What is standard setting?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Standard setting is the structured process of deciding the score that separates adequate from inadequate performance. The University of Aberdeen's medical school describes it as \"demarcating the minimal level of knowledge required e.g. identifying the level that is 'just good enough'\" ([University of Aberdeen](https://www.abdn.ac.uk/medical/assessment-central/medicine/written-examinations/standard-setting))."
+        },
+        {
+          "type": "p",
+          "text": "Methods are either relative or absolute. Relative (norm) methods decide what proportion of candidates should pass. Absolute (criterion) methods relate performance to a set requirement. Competence decisions need absolute methods; see [criterion-referenced vs norm-referenced assessment](/compare/criterion-referenced-vs-norm-referenced-assessment) for why."
+        },
+        {
+          "type": "p",
+          "text": "The Standards require transparency. Standard 5.21 states that when score interpretations involve cut scores, \"the rationale and procedures used for establishing cut scores should be documented clearly\". Standard 5.22 adds that judgmental processes should be designed so participants \"can bring their knowledge and experience to bear in a reasonable way\"."
+        }
+      ]
+    },
+    {
+      "id": "methods",
+      "heading": "Which standard-setting method should you use?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use an Angoff-type method for written tests such as multiple-choice exams, and a borderline method for observed performance assessments where assessors give both checklist scores and an overall judgment. The table summarizes the methods most often used in workplace and professional assessment."
+        },
+        {
+          "type": "table",
+          "caption": "Common absolute standard-setting methods",
+          "head": [
+            "Method",
+            "How it works",
+            "Best suited to",
+            "Watch for"
+          ],
+          "rows": [
+            [
+              "Angoff",
+              "Each expert estimates the proportion of minimally competent candidates who would answer each item correctly. Item estimates are averaged across judges and summed to give the cut score.",
+              "Multiple-choice and short-answer tests",
+              "Judges need a shared picture of the minimally competent candidate"
+            ],
+            [
+              "Modified Angoff",
+              "Angoff with added steps, typically discussion of divergent ratings, a second rating round, and sometimes item performance data shown to judges",
+              "Higher-stakes written exams",
+              "Performance data should inform, not replace, judgment of the standard"
+            ],
+            [
+              "Borderline group",
+              "Assessors score each performance on a checklist and also give a global rating. The cut score is the mean checklist score of performances rated borderline.",
+              "Observed assessments and simulations with enough candidates",
+              "Few borderline candidates in small cohorts makes the estimate unstable"
+            ],
+            [
+              "Borderline regression",
+              "Checklist scores are regressed on global ratings across all candidates, and the cut score is the predicted checklist score at the borderline rating",
+              "Observed stations and practical assessments",
+              "Needs consistent global rating scales and assessor training"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The Royal College of Emergency Medicine (RCEM) in the UK describes its Angoff process this way: subject matter experts rate each question based on \"the conceptualisation of a group of minimally competent candidates\", judges \"discuss differences in ratings for the same item and have the opportunity to discuss and modify their ratings\", and item scores are averaged and summed into the total ([RCEM](https://rcem.ac.uk/wp-content/uploads/2026/02/Setting-the-Pass-Mark-%E2%80%93-The-Angoff-Method-Explained.pdf)). The American Board of Radiology also uses a criterion-referenced Angoff process with a volunteer panel of certified diplomates ([American Board of Radiology](https://www.theabr.org/news/standard-setting-produces-fair-results-on-initial-certification-exams))."
+        },
+        {
+          "type": "p",
+          "text": "Borderline methods are widely used for objective structured clinical examinations. A 2022 study in Cureus describes the borderline group cut score as the mean score of the borderline group at each station, and borderline regression as regressing checklist scores on examiners' global grades ([Abed and Elaraby, 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9205447/))."
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "heading": "What are the steps to set a pass mark?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "There are eight steps. The first three prepare the panel, the next three produce the number, and the last two make it defensible over time."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Confirm what the assessment measures.** Check the [assessment blueprint](/glossary/assessment-blueprint) so the panel knows which outcomes each item or task evidences. A pass mark cannot fix an assessment that tests the wrong things.",
+            "**Describe the minimally competent candidate.** Write a short profile of the person who would only just be safe and effective in the role. The American Board of Radiology's description includes phrases such as \"Practices safely\" and \"Can tell that something is wrong but may not know the precise reason why\".",
+            "**Select and train the panel.** Choose people who know the role and the learners, and who did not write the items where possible. Train them on the method and have them practice on sample items. The Standards suggest that taking a form of the test and practicing judgments with feedback can help panelists reach sound decisions.",
+            "**Collect independent ratings.** For Angoff, each judge rates every item. For borderline methods, assessors give global ratings during live or recorded performances.",
+            "**Discuss and re-rate.** Discuss items where ratings diverge widely, then allow a second round. Record the reasons for large changes.",
+            "**Calculate and review the cut score.** Combine the ratings using the method's rule. Review the likely pass rate and decide whether any adjustment, such as adding a multiple of the standard error of measurement, is justified for the stakes involved.",
+            "**Document and approve.** Record the method, panel, profile, ratings, calculation, and approval. Standard 5.21 of the Standards expects this documentation.",
+            "**Review after use and when the test changes.** Analyze item performance after each administration and remove flawed items through a controlled process. Re-set the standard when content or the role changes substantially."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does an Angoff calculation look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An Angoff calculation averages each item's ratings across judges and adds the averages. The example below is illustrative, using five items and three judges for a hypothetical anti-money laundering knowledge test. Real exercises use more judges and every item on the form."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative Angoff ratings: estimated proportion of minimally competent candidates answering correctly",
+          "head": [
+            "Item",
+            "Judge A",
+            "Judge B",
+            "Judge C",
+            "Item average"
+          ],
+          "rows": [
+            [
+              "1. Identify a structuring pattern in a deposit history",
+              "0.90",
+              "0.80",
+              "0.85",
+              "0.85"
+            ],
+            [
+              "2. Choose the correct escalation route for an unusual transfer",
+              "0.60",
+              "0.70",
+              "0.65",
+              "0.65"
+            ],
+            [
+              "3. Recognize the duty not to tip off a customer",
+              "0.95",
+              "0.90",
+              "1.00",
+              "0.95"
+            ],
+            [
+              "4. Apply the enhanced due diligence trigger to a complex ownership chart",
+              "0.50",
+              "0.40",
+              "0.45",
+              "0.45"
+            ],
+            [
+              "5. Decide whether a document set meets identification requirements",
+              "0.70",
+              "0.80",
+              "0.75",
+              "0.75"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The item averages sum to 3.65 out of 5, a raw cut score of 73%. On a different set of items the same panel might produce 64% or 81%, which is why the RCEM notes that its pass mark varies between sittings as item combinations change. In this example, item 3 concerns a legal prohibition, so a competence decision would also treat it as a must-pass item regardless of the total."
+        }
+      ]
+    },
+    {
+      "id": "critical-items",
+      "heading": "How should critical items affect the pass decision?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Critical items should be decided separately from the total score, because a compensatory total lets strong performance in one area hide failure in another. For safety, legal, or regulatory requirements, use a conjunctive rule: the candidate must reach the cut score and meet every critical criterion."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Mark critical items or criteria in the blueprint before standard setting, with the reason each is critical.",
+            "Set the cut score on the remaining items, or on all items, and state which approach was used.",
+            "Record the decision rule on the assessment and in the training record so auditors can see it.",
+            "Allow reassessment of failed critical items without forcing a full retest where the evidence plan supports that."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This pairs naturally with observed assessment. See [how to design competency assessments](/guides/how-to-design-competency-assessments) for decision rules in practical tasks."
+        }
+      ]
+    },
+    {
+      "id": "iso-17024",
+      "heading": "What do certification standards such as ISO/IEC 17024 expect?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Certification standards expect examinations to be fair, valid, and reliable measures of competence defined in a certification scheme, which in practice means a documented, criterion-referenced pass standard. ISO/IEC 17024 sets requirements for bodies that certify persons; its third edition, [ISO/IEC 17024:2026](https://www.iso.org/standard/86291.html), was published on 1 April 2026 according to the [European co-operation for Accreditation](https://european-accreditation.org/publication-of-the-new-international-standards-with-the-requirements-for-bodies-performing-inspection-and-certification-of-persons/)."
+        },
+        {
+          "type": "p",
+          "text": "Accreditation bodies describe the standard publicly. The Irish National Accreditation Board (INAB) explains that scheme development includes a job or practice analysis to identify tasks, the competence required for each, and the assessment mechanisms and examination content, and that examinations assess competence \"by written, oral, practical, observational or other reliable and objective means\" ([INAB](https://www.inab.ie/news-resources/publications/iso-iec-17024-conformity-assessment-general-requirements-for-bodies-operating-certification-of-persons.pdf)). The 2012 edition defined fairness as \"equal opportunity for success provided to each candidate\"."
+        },
+        {
+          "type": "p",
+          "text": "A documented standard-setting study is how a certification body shows that its pass mark reflects the competence in the scheme rather than a convenient number. The job analysis that feeds it is covered in [how to conduct a job task analysis](/guides/how-to-conduct-a-job-task-analysis)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each assessment point against the outcomes and obligations it evidences, including whether it is critical, so the panel and the decision rule work from the same framework. Pass standards and their rationale can be stored with the assessment version, giving auditors a traceable record of how the pass mark was set."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many judges does an Angoff panel need?",
+      "a": "Published guidance varies and no single number applies everywhere. More judges give a more stable estimate, and the panel should represent the range of people who know the role well. Record panel size and composition, and consider the spread of judgments when deciding whether the result is stable enough for the stakes."
+    },
+    {
+      "q": "Should the pass mark change between versions of a test?",
+      "a": "The raw pass mark often should change, because different items differ in difficulty. The standard it represents should not. The Standards say that when alternate forms exist, the cut score should refer to the same level of performance on every form."
+    },
+    {
+      "q": "Can we lower the pass mark if too many people fail?",
+      "a": "Not to hit a target pass rate. A high failure rate is a signal to review the items, the training, and the original standard-setting exercise. If the review shows the standard was set wrongly, re-set it through a documented process, not by adjusting it to the results."
+    },
+    {
+      "q": "What is the standard error of measurement adjustment?",
+      "a": "Some bodies add a multiple of the standard error of measurement to the panel's cut score to reduce the chance of passing someone below the standard. RCEM, for example, adds one standard error to the Angoff score for two of its exams. Whether to adjust, and in which direction, depends on the relative cost of false passes and false fails."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Standards for Educational and Psychological Testing (2014 edition, open access)",
+      "publisher": "American Educational Research Association (AERA), American Psychological Association (APA), and National Council on Measurement in Education (NCME)",
+      "url": "https://www.testingstandards.net/open-access-files.html"
+    },
+    {
+      "title": "Standard setting (written examinations, Medicine)",
+      "publisher": "University of Aberdeen",
+      "url": "https://www.abdn.ac.uk/medical/assessment-central/medicine/written-examinations/standard-setting"
+    },
+    {
+      "title": "Setting the Pass Mark: The Angoff Method Explained (February 2026)",
+      "publisher": "Royal College of Emergency Medicine (RCEM)",
+      "url": "https://rcem.ac.uk/wp-content/uploads/2026/02/Setting-the-Pass-Mark-%E2%80%93-The-Angoff-Method-Explained.pdf"
+    },
+    {
+      "title": "Standard Setting Produces Fair Results on Initial Certification Exams",
+      "publisher": "American Board of Radiology",
+      "url": "https://www.theabr.org/news/standard-setting-produces-fair-results-on-initial-certification-exams"
+    },
+    {
+      "title": "Measuring the Effect of Using a Borderline Students' Characteristics Model on Reliability of Objective Structured Clinical Examination (Abed and Elaraby, 2022), Cureus",
+      "publisher": "PubMed Central, US National Library of Medicine",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9205447/"
+    },
+    {
+      "title": "ISO/IEC 17024:2026 Conformity assessment: General requirements for bodies operating certification of persons",
+      "publisher": "International Organization for Standardization (ISO)",
+      "url": "https://www.iso.org/standard/86291.html"
+    },
+    {
+      "title": "ISO/IEC 17024 Conformity assessment: General requirements for bodies operating certification of persons (information leaflet)",
+      "publisher": "Irish National Accreditation Board (INAB)",
+      "url": "https://www.inab.ie/news-resources/publications/iso-iec-17024-conformity-assessment-general-requirements-for-bodies-operating-certification-of-persons.pdf"
+    },
+    {
+      "title": "Publication of the new international standards with the requirements for bodies performing inspection and certification of persons",
+      "publisher": "European co-operation for Accreditation (EA)",
+      "url": "https://european-accreditation.org/publication-of-the-new-international-standards-with-the-requirements-for-bodies-performing-inspection-and-certification-of-persons/"
+    }
+  ],
+  "related": [
+    "criterion-referenced-vs-norm-referenced-assessment",
+    "validity-vs-reliability-in-assessment",
+    "how-to-write-multiple-choice-questions",
+    "how-to-design-competency-assessments",
+    "assessment-blueprint",
+    "how-to-conduct-a-job-task-analysis"
+  ],
+  "productLinks": [
+    {
+      "label": "Verification and trust",
+      "href": "/platform/verification-trust"
+    },
+    {
+      "label": "Standards and accreditation",
+      "href": "/platform/standards-accreditation"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 11,
+  "factCheck": [
+    {
+      "claim": "Standards chapter 11: legislative bodies sometimes attempt to legislate a cut score such as answering 70% of items correctly; arbitrary cut scores can be harmful; without detailed information sound standard setting is impossible",
+      "source": "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf"
+    },
+    {
+      "claim": "Standards 5.21 (document rationale and procedures for cut scores), 5.22 (judgmental process lets participants bring knowledge and experience to bear; comment on practice, taking the test, feedback), 11.16 comment (cut score same level of performance for all forms)",
+      "source": "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf"
+    },
+    {
+      "claim": "Aberdeen: standard setting demarcates the minimal level, just good enough; relative vs absolute; Angoff used for written exams; borderline candidate estimates summed",
+      "source": "https://www.abdn.ac.uk/medical/assessment-central/medicine/written-examinations/standard-setting"
+    },
+    {
+      "claim": "RCEM: criterion referenced; Angoff based on minimally competent candidates; judges discuss and modify; averaged and summed; plus 1 SEM for MRCEM Intermediate and FRCEM Final; pass mark varies across diets",
+      "source": "https://rcem.ac.uk/wp-content/uploads/2026/02/Setting-the-Pass-Mark-%E2%80%93-The-Angoff-Method-Explained.pdf"
+    },
+    {
+      "claim": "ABR: criterion-referenced Angoff process with volunteer panel of certified diplomates; qualified candidate description includes Practices safely and Can tell that something is wrong but may not know the precise reason why",
+      "source": "https://www.theabr.org/news/standard-setting-produces-fair-results-on-initial-certification-exams"
+    },
+    {
+      "claim": "Cureus 2022: BGM cut score is mean of borderline group scores per station; BRM regresses checklist scores on global rating",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9205447/"
+    },
+    {
+      "claim": "INAB: job or practice analysis in scheme development; examinations by written, oral, practical, observational or other reliable and objective means",
+      "source": "https://www.inab.ie/news-resources/publications/iso-iec-17024-conformity-assessment-general-requirements-for-bodies-operating-certification-of-persons.pdf"
+    },
+    {
+      "claim": "ISO/IEC 17024:2012 definition 3.16 fairness: equal opportunity for success provided to each candidate",
+      "source": "https://cdn.standards.iteh.ai/samples/52993/ddec6c8759214c5d958bf8f6d6d9ffaf/ISO-IEC-17024-2012.pdf"
+    },
+    {
+      "claim": "ISO/IEC 17024:2026 published 1 April 2026",
+      "source": "https://european-accreditation.org/publication-of-the-new-international-standards-with-the-requirements-for-bodies-performing-inspection-and-certification-of-persons/"
+    }
+  ]
+}

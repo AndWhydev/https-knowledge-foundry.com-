@@ -1,0 +1,322 @@
+{
+  "slug": "skills-taxonomy",
+  "kind": "glossary",
+  "title": "What is a skills taxonomy?",
+  "seoTitle": "Skills taxonomy: definition",
+  "description": "A skills taxonomy is a structured, shared vocabulary that names, defines and groups skills. What it contains, public examples, and how it differs.",
+  "shortAnswer": "A skills taxonomy is a structured vocabulary that names, defines and groups skills into categories, usually as a hierarchy from broad skill families down to specific skills. It gives employers, educators and governments one shared language for describing what people can do, so job requirements, training content, assessment results and workforce data can be compared and combined. It describes skills; it does not by itself set the standard for competent performance in a role.",
+  "keyTakeaways": [
+    "A skills taxonomy organizes skills into categories or clusters based on their definitions; its structure and level of detail depend on what it will be used for.",
+    "Public taxonomies such as the European Commission's ESCO classification, the SFIA framework for digital skills, and national taxonomies in development, such as Australia's National Skills Taxonomy, are common reference points.",
+    "Useful taxonomies are dynamic, comprehensive, interoperable, accessible, customizable and granular enough for their purpose.",
+    "A taxonomy supplies names and definitions; a competency framework adds performance standards and evidence; a skills matrix records who holds which skills."
+  ],
+  "term": "skills taxonomy",
+  "alsoKnownAs": [
+    "skills classification",
+    "skills library",
+    "skills catalog"
+  ],
+  "sections": [
+    {
+      "id": "what-it-contains",
+      "heading": "What does a skills taxonomy contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A skills taxonomy contains a list of skills, a definition for each, and a grouping structure that places each skill in a family or cluster. Larger taxonomies add metadata such as alternative labels, skill type, how widely a skill applies across occupations, and links to occupations or qualifications."
+        },
+        {
+          "type": "p",
+          "text": "The World Economic Forum's [Global Skills Taxonomy Adoption Toolkit](https://www3.weforum.org/docs/WEF_Global_Skills_Taxonomy_Adoption_Toolkit_2025.pdf) (January 2025) gives a short working definition: \"A skills taxonomy organizes skills into categories or clusters based on their definitions. Both the structure and detail of a taxonomy vary depending on its intended use.\" The same glossary separates skills, \"the capabilities needed to complete a task\", from knowledge, \"the body of facts, principles and theories that are related to a field of work or study\"."
+        },
+        {
+          "type": "p",
+          "text": "The European Commission's [ESCO skills pillar](https://esco.ec.europa.eu/en/classification/skill) shows what a mature taxonomy looks like. ESCO v1.2.1 lists 13,939 skill and knowledge concepts in four sub-classifications (knowledge, language skills and knowledge, skills, and transversal skills). Each concept has a preferred term, alternative terms in 28 languages, a description, a reusability level (transversal, cross-sectoral, sector-specific or occupation-specific) and relationships to other skills and occupations. ESCO states that there is \"no distinction between skills and competences\"."
+        },
+        {
+          "type": "table",
+          "caption": "Typical elements of a skills taxonomy entry",
+          "head": [
+            "Element",
+            "What it records",
+            "Why it matters"
+          ],
+          "rows": [
+            [
+              "Preferred label",
+              "The single agreed name for the skill",
+              "Stops the same skill appearing under several names"
+            ],
+            [
+              "Definition or descriptor",
+              "One or two sentences on what the skill covers",
+              "Lets people apply the label consistently"
+            ],
+            [
+              "Alternative labels",
+              "Synonyms, older names and translations",
+              "Lets search and mapping tools match free text to the skill"
+            ],
+            [
+              "Parent category",
+              "The cluster or family the skill sits under",
+              "Supports reporting at different levels of detail"
+            ],
+            [
+              "Skill type and reuse level",
+              "Knowledge or skill; transversal or occupation-specific",
+              "Shows how portable the skill is across roles"
+            ],
+            [
+              "Proficiency levels (optional)",
+              "Graded descriptions of performance",
+              "Connects the taxonomy to a [proficiency scale](/glossary/proficiency-scale)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "public-examples",
+      "heading": "Which public skills taxonomies are used as reference points?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The most common reference points are regional and national classifications published by governments, plus sector frameworks maintained by independent bodies. Organizations rarely build a taxonomy from nothing; they adopt one of these and adapt it."
+        },
+        {
+          "type": "table",
+          "caption": "Examples of published skills taxonomies (as at November 2026)",
+          "head": [
+            "Taxonomy",
+            "Publisher",
+            "Scope and status"
+          ],
+          "rows": [
+            [
+              "ESCO (European Skills, Competences, Qualifications and Occupations)",
+              "European Commission",
+              "Multilingual skills and occupations classification for the EU; v1.2.1 last updated December 2025"
+            ],
+            [
+              "Global Skills Taxonomy",
+              "World Economic Forum",
+              "Described by the Forum as a translation tool between different taxonomies; adoption toolkit published January 2025"
+            ],
+            [
+              "SFIA (Skills Framework for the Information Age)",
+              "SFIA Foundation",
+              "Digital and technology skills described at seven levels of responsibility; SFIA 9 published October 30, 2024, SFIA 10 in consultation"
+            ],
+            [
+              "National Skills Taxonomy",
+              "Jobs and Skills Australia",
+              "In development since a June 2024 discussion paper; intended as a common language across vocational education, higher education and the labor market"
+            ],
+            [
+              "Digital Skill Standard (DSS)",
+              "Japan's Ministry of Economy, Trade and Industry (METI) and the Information-technology Promotion Agency (IPA)",
+              "Two parts: a DX literacy standard for all business people (DSS-L) and a DX promotion skill standard for specialist roles (DSS-P)"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Jobs and Skills Australia describes its [National Skills Taxonomy](https://www.jobsandskills.gov.au/data/national-skills-taxonomy) as \"a new, evidence-based framework that provides a common language for describing the skills Australians gain, develop, and use across education and employment\", designed to be interoperable with existing education and occupation frameworks. Japan's [Digital Skill Standard](https://www.ipa.go.jp/jinzai/skill-standard/dss/index.html), published by IPA with METI, is an example of a taxonomy aimed at one capability area rather than the whole labor market."
+        }
+      ]
+    },
+    {
+      "id": "properties",
+      "heading": "What makes a skills taxonomy usable?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A usable taxonomy is detailed enough to support its intended decisions and small enough to maintain. The World Economic Forum toolkit lists six properties to check, whichever taxonomy an organization adopts."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Dynamic:** reflects a changing labor market and can be updated regularly.",
+            "**Comprehensive:** describes skills for all the roles or occupations in scope.",
+            "**Interoperable:** supports rather than conflicts with existing standards.",
+            "**Accessible:** uses plain language and a design people can use.",
+            "**Customizable:** can reflect the needs of the organization and its national context.",
+            "**Granular:** lets users explore specific skills and adjacencies at the level of detail they need."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Granularity is the hardest choice. A taxonomy with thousands of fine-grained skills supports precise matching and analytics but is costly to maintain and hard for managers to use in conversations. A taxonomy with a few hundred broader skills is easier to govern but may hide the specific capability a regulated task depends on. Many organizations keep a broad internal layer and map it to a granular public taxonomy for reporting."
+        }
+      ]
+    },
+    {
+      "id": "nearby-terms",
+      "heading": "How is a skills taxonomy different from a competency framework or a skills matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A skills taxonomy is a vocabulary; a [competency framework](/glossary/competency-framework) is a standard; a [skills matrix](/glossary/skills-matrix) is a record. The taxonomy names and defines skills, the framework states what level of which skills each role needs and how that is evidenced, and the matrix shows which people currently meet it."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Taxonomy vs competency framework:** the framework adds performance criteria and assessment evidence. See [competency framework vs skills framework](/compare/competency-framework-vs-skills-framework).",
+            "**Taxonomy vs ontology:** a taxonomy mainly arranges skills in a hierarchy; an ontology adds typed relationships such as \"is essential for\" or \"requires\". See [skills taxonomy vs skills ontology](/compare/skills-taxonomy-vs-skills-ontology).",
+            "**Taxonomy vs job task analysis:** a [job task analysis](/glossary/job-task-analysis) studies one job to find its tasks and the skills behind them; the taxonomy supplies consistent names for what the analysis finds."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does a skills taxonomy excerpt look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The excerpt below is illustrative and not drawn from any published taxonomy. It shows three levels for a compliance function, with the metadata that lets the same skill be reused across roles and mapped to an external classification."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative taxonomy excerpt: compliance skills",
+          "head": [
+            "Family",
+            "Cluster",
+            "Skill and definition",
+            "Type and reuse"
+          ],
+          "rows": [
+            [
+              "Risk and compliance",
+              "Financial crime",
+              "Customer due diligence: verifies customer identity and assesses customer risk using the organization's procedures",
+              "Skill; sector-specific"
+            ],
+            [
+              "Risk and compliance",
+              "Financial crime",
+              "Transaction monitoring analysis: reviews alerts, gathers context and decides whether to escalate",
+              "Skill; occupation-specific"
+            ],
+            [
+              "Risk and compliance",
+              "Regulatory knowledge",
+              "Anti-money laundering obligations: knows the reporting and record keeping duties that apply to the business",
+              "Knowledge; sector-specific"
+            ],
+            [
+              "Communication",
+              "Written communication",
+              "Case documentation: records decisions and reasons clearly enough for a third party to review",
+              "Skill; transversal"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Each entry would also carry an owner, a version and, where relevant, the matching concept in a public classification. That mapping is what lets internal data be compared with labor market data later."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry works one layer below the skills taxonomy: it models the concepts, obligations and assessment points that a skill depends on, and links them to the skill labels an organization already uses. The taxonomy stays the shared vocabulary, while the knowledge structure underneath shows what each skill actually requires and where it is checked."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should an organization build its own skills taxonomy or adopt a public one?",
+      "a": "Most organizations adopt a public taxonomy as the base and add internal skills where the public one is too general, such as skills tied to proprietary products or internal procedures. Keeping a mapping to the public source preserves interoperability with recruitment, labor market and qualification data."
+    },
+    {
+      "q": "How many skills should a taxonomy contain?",
+      "a": "There is no correct number. Public classifications hold thousands of concepts because they cover whole economies. An internal taxonomy should hold enough skills to describe the work that matters to its decisions, at a granularity managers and assessors can actually use. If skills are never assigned to roles or assessed, the taxonomy is probably too fine."
+    },
+    {
+      "q": "Does a skills taxonomy need proficiency levels?",
+      "a": "Not always. A taxonomy can work as a pure vocabulary. Proficiency levels become necessary when the taxonomy is used to set role requirements, measure gaps or assess people, because a skill name alone does not say how well someone must perform it."
+    },
+    {
+      "q": "How often should a skills taxonomy be updated?",
+      "a": "Review it on a fixed cycle and whenever technology, regulation or role design changes the work. Public taxonomies publish versioned releases, so an internal taxonomy mapped to them should record which version each mapping refers to."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Global Skills Taxonomy Adoption Toolkit: Defining a Common Skills Language for a Future-Ready Workforce (January 2025)",
+      "publisher": "World Economic Forum",
+      "url": "https://www3.weforum.org/docs/WEF_Global_Skills_Taxonomy_Adoption_Toolkit_2025.pdf"
+    },
+    {
+      "title": "ESCO classification: Skills",
+      "publisher": "European Commission",
+      "url": "https://esco.ec.europa.eu/en/classification/skill"
+    },
+    {
+      "title": "National Skills Taxonomy",
+      "publisher": "Jobs and Skills Australia",
+      "url": "https://www.jobsandskills.gov.au/data/national-skills-taxonomy"
+    },
+    {
+      "title": "SFIA 9 release notes",
+      "publisher": "SFIA Foundation",
+      "url": "https://sfia-online.org/en/sfia-9/sfia-9-release-notes"
+    },
+    {
+      "title": "Digital Skill Standard (DSS)",
+      "publisher": "Information-technology Promotion Agency, Japan (IPA)",
+      "url": "https://www.ipa.go.jp/jinzai/skill-standard/dss/index.html"
+    }
+  ],
+  "related": [
+    "skills-taxonomy-vs-skills-ontology",
+    "competency-framework",
+    "competency-framework-vs-skills-framework",
+    "skills-matrix",
+    "proficiency-scale",
+    "job-task-analysis"
+  ],
+  "productLinks": [
+    {
+      "label": "Framework intelligence",
+      "href": "/platform/framework-intelligence"
+    },
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 10,
+  "factCheck": [
+    {
+      "claim": "WEF toolkit (January 2025) glossary: a skills taxonomy organizes skills into categories or clusters based on their definitions; structure and detail vary by intended use; skills and knowledge definitions; key properties dynamic, comprehensive, interoperable, accessible, customizable, granular; GST is an effort to provide a translation tool between taxonomies",
+      "source": "https://www3.weforum.org/docs/WEF_Global_Skills_Taxonomy_Adoption_Toolkit_2025.pdf"
+    },
+    {
+      "claim": "ESCO skills pillar: 13939 skills; four sub-classifications (knowledge, language skills and knowledge, skills, transversal skills); no distinction between skills and competences; 28 languages; reusability levels; v1.2.1 last updated 10 December 2025",
+      "source": "https://esco.ec.europa.eu/en/classification/skill"
+    },
+    {
+      "claim": "JSA describes the NST as a new, evidence-based framework that provides a common language for describing the skills Australians gain, develop and use across education and employment; discussion paper June 2024; interoperable by design; newsletters issued August and October 2026",
+      "source": "https://www.jobsandskills.gov.au/data/national-skills-taxonomy"
+    },
+    {
+      "claim": "SFIA 9 was published on 30 October 2024; SFIA 10 shown as in consultation on sfia-online.org",
+      "source": "https://sfia-online.org/en/sfia-9/sfia-9-release-notes"
+    },
+    {
+      "claim": "IPA DSS page: DSS comprises the DX Literacy Standard (DSS-L) for business people and the DX Promotion Skill Standard (DSS-P) defining roles and skills of people promoting DX",
+      "source": "https://www.ipa.go.jp/jinzai/skill-standard/dss/index.html"
+    }
+  ]
+}

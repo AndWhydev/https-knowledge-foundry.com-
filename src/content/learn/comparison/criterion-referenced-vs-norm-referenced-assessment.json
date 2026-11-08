@@ -1,0 +1,284 @@
+{
+  "slug": "criterion-referenced-vs-norm-referenced-assessment",
+  "kind": "comparison",
+  "title": "Criterion-referenced vs norm-referenced assessment: what is the difference?",
+  "seoTitle": "Criterion vs norm-referenced assessment",
+  "description": "Criterion-referenced assessment judges people against a fixed standard; norm-referenced assessment ranks them. Why competence decisions need the first.",
+  "shortAnswer": "Criterion-referenced assessment judges each person against a fixed, predefined standard, so everyone who meets it passes and the result says what they can do. Norm-referenced assessment ranks people against each other, so the result says how they compare with a group. Competence decisions must be criterion-referenced, because whether someone can perform a task safely and correctly does not depend on how well other candidates performed that day.",
+  "keyTakeaways": [
+    "Criterion-referenced results describe a level of competence in a defined domain; norm-referenced results describe rank within a group.",
+    "The Standards for Educational and Psychological Testing say credentialing pass levels should not be adjusted to control how many people pass.",
+    "Grading on a curve, passing the top percentage, or moving the pass mark to hit a target pass rate are norm-referenced practices.",
+    "Norm-referencing still has legitimate uses, such as selecting a fixed number of candidates or benchmarking groups.",
+    "A criterion-referenced pass mark should come from a documented standard-setting method, not a habitual percentage."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the difference between criterion-referenced and norm-referenced assessment?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The difference is the reference point used to interpret a result. Criterion-referenced assessment compares each person with a defined standard of performance. Norm-referenced assessment compares each person with the performance of other people, either the current cohort or a reference population."
+        },
+        {
+          "type": "p",
+          "text": "The Standards for Educational and Psychological Testing, published by the American Educational Research Association (AERA), the American Psychological Association (APA), and the National Council on Measurement in Education (NCME), describe the two interpretations directly. With norm-referenced scores, a score \"is ranked within a distribution of scores or compared with the average performance of test takers in a reference population\". With criterion-referenced interpretations, \"the test score conveys directly a level of competence in some defined criterion domain\" ([AERA, APA, and NCME, 2014](https://www.testingstandards.net/open-access-files.html))."
+        },
+        {
+          "type": "p",
+          "text": "The distinction is usually traced to Robert Glaser's 1963 article in American Psychologist, \"Instructional technology and the measurement of learning outcomes: Some questions\" ([Glaser, 1963](https://doi.org/10.1037/h0049294)). The terms have since become standard vocabulary in educational measurement."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do criterion-referenced and norm-referenced assessment compare side by side?",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Criterion-referenced and norm-referenced assessment compared",
+          "head": [
+            "Dimension",
+            "Criterion-referenced",
+            "Norm-referenced"
+          ],
+          "rows": [
+            [
+              "Question answered",
+              "Has this person met the standard?",
+              "How does this person compare with others?"
+            ],
+            [
+              "Reference point",
+              "Predefined criteria or performance standard",
+              "Scores of a cohort or reference population"
+            ],
+            [
+              "Pass mark",
+              "Fixed by standard setting before results are known",
+              "Depends on the distribution, such as the top 20%"
+            ],
+            [
+              "Can everyone pass?",
+              "Yes, if everyone meets the standard",
+              "No, by design some must fall below others"
+            ],
+            [
+              "Typical reports",
+              "Competent or not yet competent, pass or fail, proficiency level",
+              "Percentile, rank, standard score, grade on a curve"
+            ],
+            [
+              "Good uses",
+              "Licensure, certification, competency sign-off, compliance assessment",
+              "Selection for limited places, benchmarking groups, research norms"
+            ],
+            [
+              "Main risk",
+              "A poorly set standard that is too easy or too hard",
+              "Passing people who are not competent in a weak cohort, or failing competent people in a strong one"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why-criterion",
+      "heading": "Why must competence decisions be criterion-referenced?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Competence decisions must be criterion-referenced because the question is whether a person can perform to a required standard, and that answer cannot change with the ability of whoever else sat the assessment. A pharmacist, electrician, or anti-money laundering analyst is not safer because their cohort was weaker."
+        },
+        {
+          "type": "p",
+          "text": "The Standards state this for credentialing in Standard 11.16: \"The level of performance required for passing a credentialing test should depend on the knowledge and skills necessary for credential-worthy performance in the occupation or profession and should not be adjusted to control the number or proportion of persons passing the test.\" The accompanying text calls periodic adjustment to regulate numbers a \"questionable procedure\" that \"threatens the validity of the interpretation of a passing score as indicating entry-level competence\"."
+        },
+        {
+          "type": "p",
+          "text": "Examination bodies describe their own practice in the same terms. The American Board of Radiology states that its exams are scored against \"a fixed standard\" and that, because scoring is criterion-referenced, \"there's no 'curve' and no preset number of people who must fail\" ([American Board of Radiology](https://www.theabr.org/exam-information/exam-scoring-and-results/)). The University of Aberdeen's medical school explains that \"Absolute (criterion) standard setting refers to relating performance to a set requirement, and this is the method utilised for examinations at the University of Aberdeen\" ([University of Aberdeen](https://www.abdn.ac.uk/medical/assessment-central/medicine/written-examinations/standard-setting))."
+        },
+        {
+          "type": "p",
+          "text": "Competency-based training systems are criterion-referenced by construction. Judgments are made against the performance criteria of a unit or the indicators in a [competency framework](/glossary/competency-framework), and the result is recorded as competent or not yet competent. For how to plan that evidence, see [competency assessment](/glossary/competency-assessment)."
+        }
+      ]
+    },
+    {
+      "id": "norm-uses",
+      "heading": "When is norm-referenced assessment appropriate?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Norm-referenced assessment is appropriate when the decision really is comparative, such as choosing a fixed number of people for limited places, or when you need to describe how a group performs relative to a benchmark. The Standards note that a cut score can be set to select a prespecified number of candidates, in which case \"the cut score interpretation is norm referenced\"."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Selection.** Shortlisting applicants for a fixed number of training places or roles.",
+            "**Benchmarking.** Comparing sites, teams, or cohorts to find where training is weakest.",
+            "**Item and test analysis.** Using the spread of scores to see which items discriminate, while the pass decision stays criterion-referenced.",
+            "**Development feedback.** Telling people where they sit relative to peers, separate from any sign-off decision."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Many assessments report both kinds of information. The Standards observe that \"there is not always a sharp distinction\" between the two scale types in practice. The safeguard is to keep the pass or competence decision tied to the criterion, and to treat any ranking as supplementary."
+        }
+      ]
+    },
+    {
+      "id": "warning-signs",
+      "heading": "How can you tell if an assessment is norm-referenced in disguise?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An assessment is norm-referenced in disguise when the pass decision depends, in any way, on how other candidates performed. The checklist below is an original review aid for compliance and competency assessments."
+        },
+        {
+          "type": "table",
+          "caption": "Signs that a competence assessment has drifted toward norm-referencing",
+          "head": [
+            "Warning sign",
+            "Why it is a problem",
+            "Criterion-referenced fix"
+          ],
+          "rows": [
+            [
+              "Scores are scaled or curved after results are in",
+              "The standard moves with the cohort",
+              "Set the pass mark before administration using a documented method"
+            ],
+            [
+              "A target pass rate is set by management",
+              "The decision becomes a quota, not a judgment of competence",
+              "Report pass rates as information; never adjust the standard to meet them"
+            ],
+            [
+              "The pass mark is lowered after a poor result",
+              "Signals the standard was arbitrary or the training failed",
+              "Review items and training; re-set the standard only through a fresh standard-setting exercise"
+            ],
+            [
+              "Only the top performers are certified",
+              "Competent people fail because others did better",
+              "Certify everyone who meets the standard"
+            ],
+            [
+              "Results are reported only as percentiles",
+              "Readers cannot tell what the person can do",
+              "Report against outcomes or proficiency levels"
+            ],
+            [
+              "One habitual percentage is used for every test",
+              "Ignores item difficulty, so the real standard varies by test",
+              "Set each pass mark against the minimally competent performer"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For the method behind the last fix, see [how to set a pass mark for an assessment](/guides/how-to-set-a-pass-mark-for-an-assessment). Consistency of the pass decision is also a reliability question; see [validity vs reliability in assessment](/compare/validity-vs-reliability-in-assessment)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines the criterion first: each assessment point is linked to the outcome, competency, or obligation it evidences, and the decision rule is recorded with it. Results are then reported against those criteria, so a training record states what a person has demonstrated rather than how they ranked."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is a pass mark of 80% criterion-referenced?",
+      "a": "It is a fixed number, but that alone does not make it a meaningful criterion. Whether 80% represents competence depends on the difficulty of the items. A criterion-referenced pass mark is derived from what a minimally competent person would achieve on that specific assessment, using a documented standard-setting method."
+    },
+    {
+      "q": "Can an assessment be both criterion-referenced and norm-referenced?",
+      "a": "The same scores can support both interpretations, for example a pass decision against a standard and a percentile for feedback. Problems arise only when the comparative information influences the pass decision. Keep the competence decision tied to the criterion."
+    },
+    {
+      "q": "Is competency-based assessment always criterion-referenced?",
+      "a": "It should be. Competency-based assessment judges evidence against defined performance criteria and records competent or not yet competent. If people are ranked or a fixed share is passed, the assessment is no longer competency-based in any meaningful sense."
+    },
+    {
+      "q": "What is ipsative assessment?",
+      "a": "Ipsative assessment compares a person with their own earlier performance, for example to show improvement over time. It is useful for development and coaching, but like norm-referencing it does not by itself show that a person meets a required standard."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Standards for Educational and Psychological Testing (2014 edition, open access)",
+      "publisher": "American Educational Research Association (AERA), American Psychological Association (APA), and National Council on Measurement in Education (NCME)",
+      "url": "https://www.testingstandards.net/open-access-files.html"
+    },
+    {
+      "title": "Instructional technology and the measurement of learning outcomes: Some questions (Glaser, 1963), American Psychologist 18(8)",
+      "publisher": "American Psychological Association",
+      "url": "https://doi.org/10.1037/h0049294"
+    },
+    {
+      "title": "Exam Scoring and Results",
+      "publisher": "American Board of Radiology",
+      "url": "https://www.theabr.org/exam-information/exam-scoring-and-results/"
+    },
+    {
+      "title": "Standard setting (written examinations, Medicine)",
+      "publisher": "University of Aberdeen",
+      "url": "https://www.abdn.ac.uk/medical/assessment-central/medicine/written-examinations/standard-setting"
+    }
+  ],
+  "related": [
+    "how-to-set-a-pass-mark-for-an-assessment",
+    "validity-vs-reliability-in-assessment",
+    "competency-assessment",
+    "competency-based-training",
+    "formative-vs-summative-assessment",
+    "proficiency-scale"
+  ],
+  "productLinks": [
+    {
+      "label": "Verification and trust",
+      "href": "/platform/verification-trust"
+    },
+    {
+      "label": "Hybrid verification programs",
+      "href": "/programs/hybrid-verification"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 11,
+  "factCheck": [
+    {
+      "claim": "Standards (2014) chapter 4/5: norm-referenced scores ranked within a distribution or compared with average of a reference population; criterion-referenced score conveys directly a level of competence in a defined criterion domain; not always a sharp distinction",
+      "source": "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf"
+    },
+    {
+      "claim": "Standards chapter 5: cut score set to select a prespecified number of examinees makes the cut score interpretation norm referenced",
+      "source": "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf"
+    },
+    {
+      "claim": "Standard 11.16 text quoted; chapter 11 calls periodic adjustment of passing score to regulate numbers a questionable procedure threatening validity of passing score as entry-level competence",
+      "source": "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf"
+    },
+    {
+      "claim": "Glaser 1963, American Psychologist 18(8), 519-521 (Crossref metadata)",
+      "source": "https://doi.org/10.1037/h0049294"
+    },
+    {
+      "claim": "ABR: scored against a fixed standard; no curve and no preset number of people who must fail",
+      "source": "https://www.theabr.org/exam-information/exam-scoring-and-results/"
+    },
+    {
+      "claim": "University of Aberdeen: absolute (criterion) standard setting relates performance to a set requirement and is the method used for its examinations",
+      "source": "https://www.abdn.ac.uk/medical/assessment-central/medicine/written-examinations/standard-setting"
+    }
+  ]
+}

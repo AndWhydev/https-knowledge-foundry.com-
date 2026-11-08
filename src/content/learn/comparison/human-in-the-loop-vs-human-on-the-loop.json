@@ -1,0 +1,282 @@
+{
+  "slug": "human-in-the-loop-vs-human-on-the-loop",
+  "kind": "comparison",
+  "title": "Human in the loop vs human on the loop: what is the difference?",
+  "seoTitle": "Human in the loop vs human on the loop",
+  "description": "Human in the loop means a person can act on every AI decision; human on the loop means monitoring and intervening. How they differ and when to use each.",
+  "shortAnswer": "Human in the loop (HITL) means a person can intervene in every decision cycle of an AI system, typically by approving or correcting each output before it takes effect. Human on the loop (HOTL) means the system operates on its own while a person monitors it and can intervene, override or stop it. HITL gives more control per output; HOTL scales to higher volumes but depends on effective monitoring.",
+  "keyTakeaways": [
+    "The European Commission's High-Level Expert Group on AI defined HITL as intervention in every decision cycle and HOTL as intervention during design and monitoring of operation.",
+    "The EU AI Act does not mandate either model by name. Article 14 requires high-risk AI systems to be designed for effective human oversight that is commensurate with risk, autonomy and context.",
+    "Under Regulation (EU) 2026/1744, the high-risk requirements including Article 14 apply from December 2, 2027 (Annex III systems) and August 2, 2028 (Annex I systems).",
+    "The NIST AI RMF asks organizations to define and document human oversight processes and differentiate roles in human-AI configurations.",
+    "Either model fails without competent, trained reviewers who understand the system's limits and automation bias."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the core difference between human in the loop and human on the loop?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The core difference is when the person acts: in the loop, before each output takes effect; on the loop, while the system runs, by watching it and stepping in when something looks wrong. Both are forms of human oversight, and both assume the person has the authority and information to intervene."
+        },
+        {
+          "type": "p",
+          "text": "The most cited definitions come from the European Commission's High-Level Expert Group on AI, in its [Ethics Guidelines for Trustworthy AI](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai) (April 2019). It states that \"HITL refers to the capability for human intervention in every decision cycle of the system, which in many cases is neither possible nor desirable\" and that \"HOTL refers to the capability for human intervention during the design cycle of the system and monitoring the system's operation.\" A third model, human in command (HIC), covers oversight of the system's overall activity and the decision about when and how to use it at all."
+        },
+        {
+          "type": "p",
+          "text": "In common usage the terms are applied more loosely than these definitions, so it helps to state the model in operational terms: who reviews what, when, with what authority, and how it is recorded. The single model is described in more depth in [what is human in the loop](/glossary/human-in-the-loop)."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do they compare side by side?",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Human in the loop and human on the loop compared at category level",
+          "head": [
+            "Dimension",
+            "Human in the loop",
+            "Human on the loop"
+          ],
+          "rows": [
+            [
+              "When the person acts",
+              "Before each output or decision takes effect",
+              "During operation, on alerts, samples or observed anomalies"
+            ],
+            [
+              "System autonomy",
+              "Low: nothing proceeds without human action",
+              "Higher: the system acts unless stopped"
+            ],
+            [
+              "Volume it can handle",
+              "Limited by reviewer capacity",
+              "High, if monitoring is well designed"
+            ],
+            [
+              "Main failure mode",
+              "Rubber stamping when volume exceeds capacity",
+              "Missed errors that monitoring does not surface in time"
+            ],
+            [
+              "Evidence produced",
+              "An approval record for every output",
+              "Monitoring logs, sample reviews and intervention records"
+            ],
+            [
+              "Typical fit",
+              "Consequential, low volume outputs",
+              "High volume outputs where errors are detectable and reversible"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Neither model is inherently safer. A reviewer approving hundreds of items an hour without the source material is in the loop in name only, while a well instrumented on the loop process with tight sampling and clear stop rules can catch problems reliably."
+        }
+      ]
+    },
+    {
+      "id": "what-the-rules-say",
+      "heading": "What do the EU AI Act and the NIST AI RMF require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Neither the EU AI Act nor the NIST AI Risk Management Framework requires HITL or HOTL by name. Both require human oversight that is designed, appropriate to the risk and carried out by competent people."
+        },
+        {
+          "type": "p",
+          "text": "Article 14(1) of the [EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) (Regulation (EU) 2024/1689) requires high-risk AI systems to be designed and developed so \"that they can be effectively overseen by natural persons during the period in which they are in use\". Article 14(3) says oversight measures \"shall be commensurate with the risks, level of autonomy and context of use\". Article 14(4) lists what overseers must be enabled to do, which reads as a checklist for either model:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "understand the system's relevant capacities and limitations and monitor its operation, including detecting anomalies, dysfunctions and unexpected performance (14(4)(a));",
+            "remain aware of automation bias, the tendency to over-rely on the system's output (14(4)(b));",
+            "correctly interpret the output (14(4)(c));",
+            "decide not to use the system or to disregard, override or reverse its output (14(4)(d));",
+            "intervene in or interrupt the system through a \"stop\" button or similar procedure that brings it to a halt in a safe state (14(4)(e))."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Points (d) and (e) together describe the core of human on the loop: the ability to override and to stop. Article 14(5) goes further for remote biometric identification systems listed in Annex III, point 1(a), requiring that identifications be separately verified and confirmed by at least two natural persons before action is taken, with exceptions for certain law enforcement, migration, border control and asylum uses. That is a strict human in the loop rule. Article 26(2) requires deployers to assign oversight to people with \"the necessary competence, training and authority, as well as the necessary support\"."
+        },
+        {
+          "type": "callout",
+          "title": "Application dates, as at November 2026",
+          "text": "Regulation (EU) 2026/1744 (the Digital Omnibus on AI) amended Article 113 so that Chapter III, Sections 1 to 3, which contain Articles 14 and 26, apply from December 2, 2027 for high-risk systems under Article 6(2) and Annex III, and from August 2, 2028 for systems under Article 6(1) and Annex I. The general application date for most other provisions remained August 2, 2026."
+        },
+        {
+          "type": "p",
+          "text": "The US National Institute of Standards and Technology (NIST) [AI RMF](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf), which is voluntary, takes the same approach. MAP 3.5 states that \"Processes for human oversight are defined, assessed, and documented in accordance with organizational policies\", and GOVERN 3.2 calls for policies that \"define and differentiate roles and responsibilities for human-AI configurations and oversight of AI systems.\" Appendix C notes that human-AI configurations \"can span from fully autonomous to fully manual\" and that some systems may not require human oversight."
+        }
+      ]
+    },
+    {
+      "id": "when-to-choose",
+      "heading": "When should you choose each model?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Choose human in the loop when an individual error would be serious, hard to reverse or hard to detect after the fact; choose human on the loop when volume is high, errors are detectable through monitoring, and they can be corrected before harm occurs. Many processes combine the two by risk tier."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative selection of oversight model for AI in training and compliance work",
+          "head": [
+            "Use case (illustrative)",
+            "Suggested model",
+            "Reason"
+          ],
+          "rows": [
+            [
+              "AI drafted content explaining a regulatory obligation",
+              "Human in the loop",
+              "An error is copied to every learner and becomes audit evidence"
+            ],
+            [
+              "AI generated assessment items for a certification of competence",
+              "Human in the loop",
+              "Items determine whether a person is judged competent"
+            ],
+            [
+              "AI suggested tags or metadata for a content library",
+              "Human on the loop",
+              "High volume; errors are visible and easy to correct"
+            ],
+            [
+              "AI marking of short practice answers with no consequence",
+              "Human on the loop",
+              "Sampled review and learner appeals catch errors"
+            ],
+            [
+              "Whether to use AI for a new training category at all",
+              "Human in command",
+              "A governance decision about scope and limits"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For AI generated training, the method for in the loop review is in [how to check AI generated training for accuracy](/guides/how-to-check-ai-generated-training-for-accuracy), and the wider controls in [how to govern AI generated learning content](/guides/how-to-govern-ai-generated-learning-content). The risk being managed is usually [AI hallucination](/glossary/ai-hallucination)."
+        }
+      ]
+    },
+    {
+      "id": "making-oversight-work",
+      "heading": "What makes either model work in practice?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Either model works only if the people involved are competent, informed, able to act in practice, and recorded. These conditions follow directly from Article 14(4) and Article 26(2)."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Competence and training:** reviewers know the subject and the system's known failure modes, including automation bias. This is a training design task; see [AI literacy](/glossary/ai-literacy).",
+            "**Information:** in the loop reviewers see each output beside its sources; on the loop monitors see meaningful signals, not raw logs.",
+            "**Authority:** the reviewer can reject, override or stop, and that decision stands.",
+            "**Capacity:** review volume is realistic for the time available; when it is not, the process has silently become on the loop.",
+            "**Record:** approvals, samples and interventions are logged in an [audit trail](/glossary/audit-trail)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry uses human in the loop review at defined points: subject matter experts approve the knowledge framework before content is generated, and generated items are checked against it with their sources shown. Each approval is recorded with the reviewer, date and source version."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is human on the loop enough for high-risk AI under the EU AI Act?",
+      "a": "The AI Act does not prescribe a model by name. It requires oversight commensurate with the risks, level of autonomy and context of use, and lists capabilities overseers must have, including the ability to override and stop the system. Whether monitoring alone satisfies that depends on the system; for some biometric identification, two person verification is required."
+    },
+    {
+      "q": "What is human in command?",
+      "a": "Human in command is the third model in the European expert group's guidelines. It refers to overseeing the overall activity of the AI system, including its broader impact, and deciding when and how to use it, including deciding not to use it. It is a governance role rather than an operational one."
+    },
+    {
+      "q": "Can a process move from in the loop to on the loop?",
+      "a": "Yes, and it often does as confidence grows. The change should be a recorded decision based on evidence, such as error rates found in review, with defined sampling and stop rules. An unplanned drift, where reviewers stop checking properly because of volume, is a control failure."
+    },
+    {
+      "q": "Who should be trained for human oversight roles?",
+      "a": "Everyone assigned to review, monitor or override an AI system, and their managers. Article 26(2) of the AI Act requires deployers of high-risk systems to assign oversight to people with the necessary competence, training and authority. Training should cover the specific system's limits, not only general AI awareness."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ethics guidelines for trustworthy AI",
+      "publisher": "European Commission, High-Level Expert Group on Artificial Intelligence",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai"
+    },
+    {
+      "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Articles 14, 26 and 113",
+      "publisher": "European Parliament and Council of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "title": "Regulation (EU) 2026/1744 amending Regulation (EU) 2024/1689 (Digital Omnibus on AI)",
+      "publisher": "European Parliament and Council of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+    }
+  ],
+  "related": [
+    "human-in-the-loop",
+    "ai-hallucination",
+    "how-to-check-ai-generated-training-for-accuracy",
+    "how-to-govern-ai-generated-learning-content",
+    "ai-governance",
+    "ai-literacy"
+  ],
+  "productLinks": [
+    {
+      "label": "Verification and trust",
+      "href": "/platform/verification-trust"
+    },
+    {
+      "label": "Hybrid verification programs",
+      "href": "/programs/hybrid-verification"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 9,
+  "factCheck": [
+    {
+      "claim": "HLEG Ethics Guidelines (April 2019): HITL refers to the capability for human intervention in every decision cycle of the system, which in many cases is neither possible nor desirable; HOTL refers to the capability for human intervention during the design cycle of the system and monitoring the system's operation; HIC definition",
+      "source": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai"
+    },
+    {
+      "claim": "EU AI Act Article 14(1), 14(3) commensurate with risks, level of autonomy and context of use, 14(4)(a) to (e) including automation bias and stop button, 14(5) two natural persons verification for Annex III point 1(a) with law enforcement, migration, border control or asylum exception; Article 26(2) competence, training and authority",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "claim": "Regulation (EU) 2026/1744 amended Article 113 third paragraph point (c): Chapter III Sections 1, 2 and 3 (except Article 6(5)) apply from 2 December 2027 for Article 6(2) and Annex III systems and 2 August 2028 for Article 6(1) and Annex I systems; recital confirms general date of application 2 August 2026; Article 14 not amended",
+      "source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    },
+    {
+      "claim": "NIST AI RMF MAP 3.5 human oversight processes defined, assessed and documented; GOVERN 3.2 roles for human-AI configurations and oversight; Appendix C human-AI configurations can span from fully autonomous to fully manual; some AI systems may not require human oversight",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+    }
+  ]
+}

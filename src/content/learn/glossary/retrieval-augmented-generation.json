@@ -1,0 +1,210 @@
+{
+  "slug": "retrieval-augmented-generation",
+  "kind": "glossary",
+  "title": "What is retrieval augmented generation (RAG)?",
+  "seoTitle": "What is retrieval augmented generation?",
+  "description": "Retrieval augmented generation (RAG) grounds AI output in retrieved source documents. How it works, its limits, and why it matters for policy based training.",
+  "shortAnswer": "Retrieval augmented generation (RAG) is a technique in which a generative artificial intelligence (AI) model first retrieves relevant passages from a defined collection of documents and then generates its answer using those passages. It grounds output in named sources, such as an organization's own policies, instead of relying only on what the model absorbed in training. It reduces, but does not eliminate, false or unsupported output.",
+  "keyTakeaways": [
+    "RAG was introduced by Lewis and colleagues in a 2020 paper that combined a pre-trained generator (parametric memory) with a searchable document index (non-parametric memory).",
+    "The authors framed RAG as a response to two open problems: providing provenance for model outputs and updating a model's knowledge.",
+    "NIST AI 600-1 treats RAG as a design choice to document and test, and asks organizations to verify that retrieval data is grounded.",
+    "For training generated from policies, RAG makes the approved policy the source, which makes claims checkable and updates faster.",
+    "RAG can still retrieve the wrong passage or misstate the right one, so source checking and human review remain necessary."
+  ],
+  "term": "Retrieval augmented generation",
+  "alsoKnownAs": [
+    "RAG",
+    "Retrieval-augmented generation",
+    "Grounded generation"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What does retrieval augmented generation mean?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Retrieval augmented generation means adding a search step before a model writes: the system finds the passages most relevant to a request in a chosen document collection, passes them to the model with the request, and the model generates a response based on them."
+        },
+        {
+          "type": "p",
+          "text": "The term comes from [Lewis et al., \"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks\"](https://arxiv.org/abs/2005.11401), first submitted in May 2020 and presented at NeurIPS 2020. The authors combined \"parametric memory\" (knowledge stored in a pre-trained model's weights) with \"non-parametric memory\" (a dense vector index of Wikipedia searched by a neural retriever). Their abstract notes that, for large language models, \"providing provenance for their decisions and updating their world knowledge remain open research problems\", and reports that RAG models generated more specific, diverse and factual language than a parametric only baseline on the tasks tested."
+        },
+        {
+          "type": "p",
+          "text": "Today the term is used broadly for any system that retrieves documents and supplies them to a generative model, whether the documents are a public encyclopedia, a regulator's rulebook or an internal policy library."
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "heading": "How does RAG work?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "RAG works in two stages, retrieval and generation, preceded by preparing the documents so they can be searched. The steps below describe a typical implementation at a general level."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Prepare the collection.** Approved documents are split into passages and indexed, often as numerical representations (embeddings) that allow search by meaning rather than exact words.",
+            "**Retrieve.** For each request, the system finds the passages most relevant to it.",
+            "**Augment.** The retrieved passages are added to the model's input together with instructions, for example to answer only from the supplied text.",
+            "**Generate.** The model writes its response, ideally citing which passages it used.",
+            "**Check.** A person or an automated test compares the output with the retrieved passages before it is relied on."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Each stage can fail. The index can hold an outdated version, retrieval can return a near miss instead of the governing clause, and the model can still misstate or embellish what it was given."
+        }
+      ]
+    },
+    {
+      "id": "why-grounding-matters",
+      "heading": "Why does grounding matter for training generated from policies?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Grounding matters because compliance training must teach the organization's actual obligations and procedures, not a model's general impression of them. A model drawing only on training data may produce generic industry practice, an older version of a rule, or a confident invention, which the US National Institute of Standards and Technology (NIST) calls confabulation and others call [AI hallucination](/glossary/ai-hallucination)."
+        },
+        {
+          "type": "p",
+          "text": "NIST's [Generative AI Profile](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf) (NIST AI 600-1) treats retrieval as something to govern, not assume. Action MP-1.1-001 asks organizations to consider data sources such as \"grounding, retrieval-augmented generation\" when identifying a system's intended purpose. MS-2.5-002 asks them to document how human domain knowledge, including retrieval augmented generation, is used to improve performance. MS-2.5-005 asks them to \"Verify GAI system training data and TEVV data provenance, and that fine-tuning or retrieval-augmented generation data is grounded.\""
+        },
+        {
+          "type": "table",
+          "caption": "What grounding changes when training is generated from policy documents (illustrative)",
+          "head": [
+            "Question",
+            "Without retrieval",
+            "With retrieval from approved sources"
+          ],
+          "rows": [
+            [
+              "Where does the content come from?",
+              "Patterns in the model's training data",
+              "Named passages from the organization's approved documents"
+            ],
+            [
+              "Can a reviewer check a claim?",
+              "Only by finding a source independently",
+              "Yes, against the passage that was retrieved"
+            ],
+            [
+              "What happens when a policy changes?",
+              "The model does not know until retrained",
+              "Updating the indexed document changes what is retrieved"
+            ],
+            [
+              "Is local procedure reflected?",
+              "Often replaced by generic practice",
+              "Reflected if the procedure is in the collection and retrieved"
+            ],
+            [
+              "Does it remove the need for review?",
+              "No",
+              "No; it makes review faster and more specific"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "RAG supports [content provenance](/glossary/content-provenance) at the level of each claim, because the retrieved passage is a candidate source. The full review method is in [how to check AI generated training for accuracy](/guides/how-to-check-ai-generated-training-for-accuracy), and the wider workflow in [how to convert policies into training](/guides/how-to-convert-policies-into-training)."
+        }
+      ]
+    },
+    {
+      "id": "limits",
+      "heading": "What are the limits of RAG?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "RAG is only as reliable as the collection it searches and the checks applied to its output. It moves the main risks rather than removing them."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Collection quality:** superseded, draft or conflicting documents in the index will be retrieved as readily as current ones. Version control of the source library is a precondition.",
+            "**Retrieval misses:** a passage can be relevant but not decisive, for example the general rule without its exception.",
+            "**Faithfulness:** the model can still paraphrase inaccurately or add content not in the passage, so outputs need comparison with sources.",
+            "**Coverage:** RAG answers what is asked; it does not ensure that a course covers every obligation. Coverage needs a defined framework of what must be taught, such as a [curriculum map](/glossary/curriculum-mapping).",
+            "**Oversight:** a qualified reviewer, a [human in the loop](/glossary/human-in-the-loop), still approves content before release."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines the knowledge framework, with each concept linked to its source clause, before any generation happens. Generation is grounded in those linked sources, and the framework is used to check coverage and accuracy, so reviewers compare each item against both its source and the outcome it serves."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does RAG stop AI hallucination?",
+      "a": "No. RAG reduces reliance on the model's training data by supplying relevant source passages, but the model can still retrieve the wrong passage, misread the right one or add unsupported content. NIST AI 600-1 asks organizations to verify that retrieval data is grounded and to review sources and citations in outputs."
+    },
+    {
+      "q": "What is the difference between RAG and fine tuning?",
+      "a": "Fine tuning changes a model's weights by training it further on selected data. RAG leaves the model unchanged and supplies documents at the time of each request. RAG is usually easier to update when sources change, because only the document collection needs to change."
+    },
+    {
+      "q": "Is RAG safe to use with confidential policies?",
+      "a": "It depends on the deployment, not on RAG itself. Where the documents are stored, who can query them, whether the model provider retains inputs, and how access controls carry through to retrieval all need to be assessed under the organization's security and privacy requirements."
+    },
+    {
+      "q": "What should be in the document collection for training generation?",
+      "a": "Only approved, current versions of the sources the training must reflect: policies, procedures, standards and regulatory texts, each with a version and owner. Drafts and superseded versions should be excluded or clearly marked so they are not retrieved."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (Lewis et al., arXiv:2005.11401)",
+      "publisher": "arXiv (NeurIPS 2020)",
+      "url": "https://arxiv.org/abs/2005.11401"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    }
+  ],
+  "related": [
+    "ai-hallucination",
+    "content-provenance",
+    "how-to-check-ai-generated-training-for-accuracy",
+    "how-to-convert-policies-into-training",
+    "knowledge-graph",
+    "ai-content-generator-vs-structured-framework"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge transformation",
+      "href": "/platform/knowledge-transformation"
+    },
+    {
+      "label": "Verification and trust",
+      "href": "/platform/verification-trust"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 9,
+  "factCheck": [
+    {
+      "claim": "Lewis et al., Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks, submitted May 22, 2020, NeurIPS 2020; combines parametric memory (pre-trained seq2seq) and non-parametric memory (dense vector index of Wikipedia accessed with a neural retriever); providing provenance for their decisions and updating their world knowledge remain open research problems; RAG generates more specific, diverse and factual language than a parametric-only seq2seq baseline",
+      "source": "https://arxiv.org/abs/2005.11401"
+    },
+    {
+      "claim": "NIST AI 600-1 actions MP-1.1-001 (data sources e.g. grounding, retrieval-augmented generation), MS-2.5-002 (document extent to which human domain knowledge is employed via e.g. RLHF, fine-tuning, retrieval-augmented generation), MS-2.5-005 (verify that fine-tuning or retrieval-augmented generation data is grounded), MS-2.5-003 (review and verify sources and citations)",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "slug": "how-to-evaluate-a-training-content-vendor",
+  "kind": "guide",
+  "title": "What should you ask a training content vendor before you buy?",
+  "seoTitle": "Evaluating a training content vendor",
+  "description": "A question checklist for evaluating a training content vendor, grouped by risk area, with what good evidence looks like and the warning signs to watch for.",
+  "shortAnswer": "Before buying from a training content vendor, ask questions in each risk area that matters for regulated training: accuracy and source traceability, subject matter expertise, assessment design, use of AI, data protection and security, ownership of content, accessibility, maintenance when rules change, and delivery capacity. For every answer, ask to see evidence: a sample traced to its sources, a review record, a certificate with its scope, a contract clause. Claims without evidence should score low.",
+  "keyTakeaways": [
+    "Your organization stays accountable for what its training says. A vendor's error becomes your compliance gap.",
+    "Group questions by risk area so nothing material is missed and answers can be compared across vendors.",
+    "Good evidence is specific and checkable: a named source and version, a dated review record, a certificate whose scope covers the service you are buying.",
+    "Test the vendor on one of your own policies. A paid sample reveals more than any presentation.",
+    "AI use is now a standard diligence area. Ask where AI is used, how outputs are checked, and who approves them."
+  ],
+  "sections": [
+    {
+      "id": "why-vendor-diligence-matters",
+      "heading": "Why does vendor diligence matter for compliance training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Vendor diligence matters because outsourcing the writing of training does not outsource accountability for it. If a module misstates a threshold or omits a procedure, the organization that assigned it carries the consequence, whether in an audit finding, an incident, or an enforcement outcome."
+        },
+        {
+          "type": "p",
+          "text": "Regulators examine the content and effect of training, not who wrote it. The United States Department of Justice (DOJ) Evaluation of Corporate Compliance Programs, for example, asks prosecutors to consider whether training is tailored to the audience, whether it addresses lessons learned from prior incidents, and \"How has the company measured the effectiveness of the training?\" ([DOJ ECCP, September 2024](https://www.justice.gov/media/1160391/dl?inline)). A vendor that cannot support those answers creates a gap you will have to fill yourself."
+        }
+      ]
+    },
+    {
+      "id": "risk-areas",
+      "heading": "Which risk areas should the evaluation cover?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Cover nine risk areas: accuracy and provenance, subject matter expertise, instructional and assessment quality, AI use, data protection and security, ownership and licensing, accessibility, maintenance, and delivery capacity. Price matters too, but it should be compared only among vendors that pass the first eight."
+        },
+        {
+          "type": "p",
+          "text": "Weight the areas by your context. A vendor writing anti money laundering content for a bank needs a much higher bar on accuracy and maintenance than one producing a general onboarding video. If you are running a formal tender, carry these areas into the scored sections of the request for proposal ([how to write an RFP for compliance training](/guides/how-to-write-an-rfp-for-compliance-training))."
+        }
+      ]
+    },
+    {
+      "id": "question-checklist",
+      "heading": "What questions should you ask, and what does good evidence look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ask each question below and judge the answer by the evidence provided, not the confidence of the reply. The checklist is original to this guide; adapt it to your obligations and risk appetite."
+        },
+        {
+          "type": "table",
+          "caption": "Training content vendor question checklist by risk area",
+          "head": ["Risk area", "Question to ask", "What good evidence looks like", "Warning sign"],
+          "rows": [
+            ["Accuracy and provenance", "How is each learning point traced to its source document, clause, and version?", "A sample module with a source map showing document, section, version, and date for each point", "Sources listed only as a bibliography at the end, or not at all"],
+            ["Accuracy and provenance", "How do you check content against current law and our own policies?", "A documented check step, with the date of the check recorded against the content version", "Reliance on the writer's knowledge with no recorded check"],
+            ["Subject matter expertise", "Who reviews content for technical and legal accuracy, and what are their qualifications?", "Named reviewer roles with relevant qualifications or experience, and a sample signed review record", "Reviews done by instructional designers only, with no subject expert"],
+            ["Subject matter expertise", "How do you use our own subject matter experts, and how much of their time will you need?", "A stated review plan with estimated hours per module and a defined approval step", "No stated involvement, or an open ended request for expert time"],
+            ["Instructional and assessment quality", "How are learning outcomes written and how is each assessed?", "Measurable outcomes linked to assessment items, ideally in an assessment blueprint", "Assessment limited to recall questions written after the content"],
+            ["Instructional and assessment quality", "Can assessment show competence, not just completion?", "Scenario questions or workplace tasks tied to outcomes, with pass criteria", "Completion presented as proof of understanding"],
+            ["AI use", "Where in your process is AI used, and which steps are always done by people?", "A written description of AI use by stage, with human approval required before release", "AI use denied outright with no policy, or described only in marketing terms"],
+            ["AI use", "How are AI outputs tested for accuracy and how is accountability assigned?", "A documented test and review procedure; an AI management system aligned to or certified against ISO/IEC 42001", "No testing beyond a read through; no named accountable role"],
+            ["Data protection and security", "Will you receive any personal or confidential data, and where will it be stored and processed?", "A data location statement, subprocessor list, and processing terms; for EU personal data, terms meeting GDPR Article 28", "Inability to state locations or subprocessors in writing"],
+            ["Data protection and security", "What independent security assurance do you hold?", "A current certificate, for example ISO/IEC 27001, whose scope statement covers the service being bought", "A certificate that covers only an unrelated business unit or a data center provider"],
+            ["Ownership and licensing", "Who owns the source files, and in what formats will we receive them?", "A contract clause assigning ownership or a perpetual license, with editable source formats listed", "Delivery only as locked packages; ownership retained by the vendor"],
+            ["Accessibility", "What accessibility standard does the content meet and how was it tested?", "A stated conformance target, such as WCAG 2.2 level AA, and a test report for a sample", "Accessibility claimed with no test method"],
+            ["Maintenance", "What happens when a law, standard, or our procedure changes?", "A defined update process, turnaround times, and a price for updates", "Updates treated as new projects with no agreed process"],
+            ["Delivery capacity", "Who will do the work, and what happens if they leave?", "Named team roles, a delivery plan, and comparable references you can contact", "A sales lead who cannot name the delivery team"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testing-claims",
+      "heading": "How do you test a vendor's claims rather than accept them?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Test claims by giving the vendor a small, paid task on your own material and checking the result against its sources. A sample built from a vendor's existing portfolio shows what they can do on their best day with their own content; a sample built from your policy shows what you will actually get."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Choose a short, real policy or procedure** with at least one threshold, one reporting step, and one judgment call.",
+            "**Ask for an outline, outcomes, two assessment items, and a source map** rather than a finished module. These are the parts that reveal analytical quality.",
+            "**Check every learning point against the source** yourself or with your subject matter expert. Record errors, omissions, and points with no source.",
+            "**Ask how the sample was reviewed** and request the review record.",
+            "**Run structured reference calls.** Ask referees about accuracy, update speed, and how errors were handled, not just whether they were happy.",
+            "**Score the result** against the checklist and record the reasoning."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For the review step itself, see [how to check AI generated training for accuracy](/guides/how-to-check-ai-generated-training-for-accuracy); the method applies equally to content written by people."
+        }
+      ]
+    },
+    {
+      "id": "ai-diligence",
+      "heading": "What should you ask about a vendor's use of AI?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ask where AI is used, what controls apply to it, how outputs are tested, and which decisions always rest with a person. Most content vendors now use AI somewhere in drafting, translation, narration, or item writing, so the question is how it is governed, not whether it is used."
+        },
+        {
+          "type": "p",
+          "text": "The DOJ uses similar questions when evaluating a company's own compliance program, including whether controls exist to ensure AI is \"used only for its intended purposes\" and \"What baseline of human decision-making is used to assess AI?\" ([DOJ ECCP](https://www.justice.gov/media/1160391/dl?inline)). Asking a vendor the same questions keeps your own answers consistent."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Management system.** ISO/IEC 42001:2023 specifies requirements for establishing, implementing, maintaining, and continually improving an artificial intelligence management system ([ISO](https://www.iso.org/standard/42001)). Ask whether the vendor is certified, aligned, or neither, and for the certificate scope if certified.",
+            "**Risk framework.** The United States National Institute of Standards and Technology (NIST) AI Risk Management Framework is intended for voluntary use, and NIST released a Generative AI Profile (NIST AI 600-1) in July 2024 ([NIST](https://www.nist.gov/itl/ai-risk-management-framework)). A vendor that uses either should be able to show how.",
+            "**Confidentiality.** Ask whether your materials are entered into third party AI services, under what terms, and whether those services may retain or train on them.",
+            "**Provenance after AI drafting.** Ask how source links are kept when AI rewrites or summarizes. See [content provenance](/glossary/content-provenance) and [how to govern AI generated learning content](/guides/how-to-govern-ai-generated-learning-content)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "certifications",
+      "heading": "How much weight should certifications carry?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Certifications carry weight only when they come from an accredited certification body and their scope covers the service you are buying. Always read the scope statement on the certificate, not just the standard number."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**ISO 29993:2017** specifies requirements for learning services outside formal education, including in company training, outsourced or in house ([ISO](https://www.iso.org/standard/70357.html)). It is the closest standard to the service a content and training vendor provides.",
+            "**ISO/IEC 27001** sets requirements for an information security management system ([ISO](https://www.iso.org/standard/27001)). Relevant when the vendor handles your confidential documents or learner data.",
+            "**ISO/IEC 42001** for governance of AI use, as above."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Self declared conformance is still useful when backed by documents you can inspect. Treat it as evidence of intent, scored below independent certification."
+        }
+      ]
+    },
+    {
+      "id": "red-flags",
+      "heading": "What are the warning signs during vendor evaluation?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The clearest warning signs are an inability to show where content came from, reluctance to do a sample on your material, and vague answers about AI, data, or ownership. Each tends to become a cost after signature."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Portfolio samples only, with no willingness to work on your content.",
+            "No named subject matter reviewer, or reviewers outside the relevant field.",
+            "Assessment designed after the content, made up mostly of recall questions.",
+            "Price quoted per module with no definition of what a module contains.",
+            "No update process or update pricing.",
+            "Source files and editable formats excluded from the deliverables."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "If the evaluation is part of a wider decision about whether to buy at all, see [build vs buy vs partner for training content](/compare/build-vs-buy-training-content) and [off the shelf vs custom compliance training](/compare/off-the-shelf-vs-custom-compliance-training)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry builds the knowledge framework first, with each concept, outcome, and assessment point linked to its source and review record, so the evidence this checklist asks for exists as a by product of the work. The [knowledge governance](/platform/knowledge-governance) page describes how review and versioning are recorded."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should we pay for a sample?",
+      "a": "Paying for a sample is usually worthwhile. It lets you ask for real work on your own policy rather than a speculative pitch, and vendors put their actual delivery team on paid work. The cost is small compared with the cost of discovering quality problems after a full contract is signed."
+    },
+    {
+      "q": "How many reference checks are enough?",
+      "a": "Two or three structured reference calls with organizations of similar size and regulatory exposure are usually enough to spot patterns. Ask the same questions in each call, focusing on accuracy, how errors were found and fixed, and how quickly content was updated when rules changed."
+    },
+    {
+      "q": "Is it a problem if a vendor uses AI?",
+      "a": "Not in itself. The question is whether AI use is governed: documented, tested, reviewed by qualified people, and approved before release, with your confidential material protected. A vendor that uses AI with clear controls can be a lower risk than one that uses it informally and does not say so."
+    },
+    {
+      "q": "Who in our organization should evaluate a content vendor?",
+      "a": "Include learning and development for instructional quality, a subject matter expert or compliance owner for accuracy, procurement for commercial terms, and information security and privacy for data handling. Agree the scoring criteria together before any vendor presents."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Evaluation of Corporate Compliance Programs (Updated September 2024)",
+      "publisher": "US Department of Justice, Criminal Division",
+      "url": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "title": "ISO 29993:2017 Learning services outside formal education: Service requirements",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/70357.html"
+    },
+    {
+      "title": "ISO/IEC 42001:2023 Information technology: Artificial intelligence: Management system",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/42001"
+    },
+    {
+      "title": "ISO/IEC 27001 Information security management systems",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/27001"
+    },
+    {
+      "title": "AI Risk Management Framework",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    {
+      "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    },
+    {
+      "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "publisher": "World Wide Web Consortium (W3C)",
+      "url": "https://www.w3.org/TR/WCAG22/"
+    }
+  ],
+  "related": [
+    "how-to-write-an-rfp-for-compliance-training",
+    "build-vs-buy-training-content",
+    "how-to-check-ai-generated-training-for-accuracy",
+    "how-to-govern-ai-generated-learning-content",
+    "content-provenance",
+    "off-the-shelf-vs-custom-compliance-training"
+  ],
+  "productLinks": [
+    { "label": "Knowledge governance", "href": "/platform/knowledge-governance" },
+    { "label": "Verification and trust", "href": "/platform/verification-trust" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 10,
+  "factCheck": [
+    {
+      "claim": "ECCP (September 2024) Training section asks 'How has the company measured the effectiveness of the training?' and whether training addressed lessons learned from prior compliance incidents.",
+      "source": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "claim": "ECCP asks whether controls exist to ensure AI is used only for its intended purposes and 'What baseline of human decision-making is used to assess AI?'",
+      "source": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "claim": "NIST AI RMF is intended for voluntary use; AI RMF 1.0 released January 26, 2023; Generative AI Profile NIST AI 600-1 released July 26, 2024.",
+      "source": "https://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    {
+      "claim": "ISO 29993:2017 specifies requirements for learning services outside formal education, including in company training, outsourced or in house.",
+      "source": "https://www.iso.org/standard/70357.html"
+    },
+    {
+      "claim": "ISO/IEC 42001:2023 specifies requirements for establishing, implementing, maintaining and continually improving an AI management system.",
+      "source": "https://www.iso.org/standard/42001"
+    },
+    {
+      "claim": "GDPR Article 28 sets required processor contract terms, including deletion or return of personal data at the end of services (Article 28(3)(g)).",
+      "source": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    }
+  ]
+}

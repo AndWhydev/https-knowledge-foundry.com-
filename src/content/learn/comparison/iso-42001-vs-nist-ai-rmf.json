@@ -1,0 +1,293 @@
+{
+  "slug": "iso-42001-vs-nist-ai-rmf",
+  "kind": "comparison",
+  "title": "ISO/IEC 42001 vs NIST AI RMF: what is the difference?",
+  "seoTitle": "ISO/IEC 42001 vs NIST AI RMF",
+  "description": "ISO/IEC 42001 is a certifiable AI management system standard; the NIST AI RMF is a voluntary risk framework. How scope, structure and training differ.",
+  "shortAnswer": "ISO/IEC 42001 is an international standard that specifies requirements for an artificial intelligence (AI) management system, which an organization can be independently certified against. The NIST AI Risk Management Framework (AI RMF) is a free, voluntary framework from the US National Institute of Standards and Technology that describes outcomes for managing AI risk, with no certification. Many organizations use the NIST AI RMF for risk practice and ISO/IEC 42001 for a certifiable management system.",
+  "keyTakeaways": [
+    "ISO/IEC 42001:2023 uses \"shall\" requirements in the harmonized management system structure and can be certified by an accredited third party.",
+    "The NIST AI RMF 1.0 (January 2023) is intended for voluntary use and is organized into four functions: GOVERN, MAP, MEASURE and MANAGE.",
+    "Both expect training: ISO/IEC 42001 has competence (7.2) and awareness (7.3) clauses, and NIST GOVERN 2.2 expects AI risk management training for personnel and partners.",
+    "ISO/IEC 42001 is paid and audited; the NIST AI RMF is free, with a companion Playbook and a Generative AI Profile (NIST AI 600-1).",
+    "The two are complementary: NIST content can inform the risk processes that an ISO/IEC 42001 management system requires."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the core difference between ISO/IEC 42001 and the NIST AI RMF?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The core difference is that ISO/IEC 42001 is a certifiable management system standard with mandatory requirements, while the NIST AI RMF is a voluntary framework of outcomes and suggested actions with no conformity assessment. ISO/IEC 42001 tells an organization what system it must have in place to be certified; the NIST AI RMF describes what good AI risk management achieves and leaves the organization to decide how far to adopt it."
+        },
+        {
+          "type": "p",
+          "text": "[ISO/IEC 42001:2023](https://www.iso.org/standard/42001), published in December 2023, \"specifies the requirements and provides guidance for establishing, implementing, maintaining and continually improving an AI (artificial intelligence) management system within the context of an organization.\" It applies to any organization, regardless of size, type and nature, that provides or uses products or services that utilize AI systems."
+        },
+        {
+          "type": "p",
+          "text": "The [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework), released on January 26, 2023 as NIST AI 100-1, is described in its own text as \"intended to be voluntary, rights-preserving, non-sector-specific, and use-case agnostic\" ([NIST AI 100-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf)). It states that its actions \"do not constitute a checklist, nor are they necessarily an ordered set of steps.\""
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do they compare on scope, certification, structure and training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They differ most on certification and on the form of their requirements, and least on what they expect of people. The table compares them at the level each source describes publicly."
+        },
+        {
+          "type": "table",
+          "caption": "ISO/IEC 42001 and the NIST AI RMF compared, as at November 2026",
+          "head": [
+            "Dimension",
+            "ISO/IEC 42001:2023",
+            "NIST AI RMF 1.0"
+          ],
+          "rows": [
+            [
+              "Type",
+              "International management system standard with requirements",
+              "Voluntary framework of outcomes and suggested actions"
+            ],
+            [
+              "Publisher",
+              "ISO and IEC, joint committee JTC 1/SC 42",
+              "US National Institute of Standards and Technology"
+            ],
+            [
+              "Scope",
+              "Any organization that provides or uses products or services that utilize AI systems",
+              "Organizations designing, developing, deploying or using AI systems; non sector specific"
+            ],
+            [
+              "Certification",
+              "Yes, by certification bodies; ISO/IEC 42006:2025 sets requirements for bodies that audit and certify AI management systems",
+              "No certification or conformity assessment"
+            ],
+            [
+              "Structure",
+              "Harmonized structure clauses 4 to 10 (context, leadership, planning, support, operation, performance evaluation, improvement), normative Annex A controls and Annex B implementation guidance",
+              "Four functions (GOVERN, MAP, MEASURE, MANAGE) broken into categories and subcategories; GOVERN is cross cutting"
+            ],
+            [
+              "Language of requirements",
+              "Mandatory requirements for conformity",
+              "Outcomes; actions are not a checklist"
+            ],
+            [
+              "Training and competence",
+              "Clause 7.2 competence and clause 7.3 awareness",
+              "GOVERN 2.2: personnel and partners receive AI risk management training"
+            ],
+            [
+              "Cost of access",
+              "Purchased standard; certification audits are paid",
+              "Free to download, with a free Playbook"
+            ],
+            [
+              "Companion material",
+              "Other ISO/IEC AI standards, such as ISO/IEC 22989 for concepts and terminology",
+              "Playbook, crosswalks, and profiles such as the Generative AI Profile (NIST AI 600-1)"
+            ],
+            [
+              "Revision status",
+              "First edition, 2023",
+              "NIST states that AI RMF 1.0 is being revised"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The ISO/IEC 42001 clause structure above is taken from the standard's published table of contents; clause text is paywalled and is described here only at that level. ISO/IEC 22989:2022 is the standard's normative reference for AI concepts and terminology."
+        }
+      ]
+    },
+    {
+      "id": "training-expectations",
+      "heading": "What do they each expect for training and competence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Both expect organizations to make sure people involved with AI are trained for their roles, but ISO/IEC 42001 makes competence and awareness auditable requirements, while the NIST AI RMF states training as an outcome to achieve."
+        },
+        {
+          "type": "p",
+          "text": "In the NIST AI RMF, category GOVERN 2 covers accountability structures so that appropriate teams and individuals are responsible and trained for mapping, measuring and managing AI risks. Subcategory GOVERN 2.2 reads:"
+        },
+        {
+          "type": "callout",
+          "title": "NIST AI RMF 1.0, GOVERN 2.2",
+          "text": "\"The organization's personnel and partners receive AI risk management training to enable them to perform their duties and responsibilities consistent with related policies, procedures, and agreements.\""
+        },
+        {
+          "type": "p",
+          "text": "Two features matter for training design: partners are included, not only employees, and training is tied to duties and to the organization's own policies. Detail is on [AI risk training under the NIST AI RMF](/regulations/nist-ai-rmf-ai-risk-training)."
+        },
+        {
+          "type": "p",
+          "text": "ISO/IEC 42001 places competence (7.2) and awareness (7.3) under its support clause, following the harmonized structure used in other ISO management system standards. In that structure, competence covers determining the competence needed by people whose work affects performance, ensuring they are competent, acting to close gaps, and keeping documented information as evidence; awareness covers the policy, people's contribution and the implications of not conforming. Certification auditors will ask to see that evidence. Detail is on [ISO/IEC 42001 competence and awareness](/regulations/iso-iec-42001-competence-and-awareness)."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: one AI risk role, both frameworks, and the evidence that satisfies them",
+          "head": [
+            "Element",
+            "ISO/IEC 42001 lens",
+            "NIST AI RMF lens"
+          ],
+          "rows": [
+            [
+              "Role (illustrative)",
+              "Reviewer approving AI generated customer communications",
+              "Same role"
+            ],
+            [
+              "Requirement",
+              "Determine and ensure competence; maintain awareness of the AI policy",
+              "Receive AI risk management training for duties (GOVERN 2.2)"
+            ],
+            [
+              "Learning outcome",
+              "Identify unsupported claims and apply the escalation procedure",
+              "Same outcome, linked to the organization's AI policy"
+            ],
+            [
+              "Assessment",
+              "Scenario based assessment against the procedure",
+              "Scenario based assessment against the procedure"
+            ],
+            [
+              "Evidence",
+              "Documented information: competence record, assessment result, policy acknowledgment",
+              "Training records available for internal review"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The mapping shows why one well designed curriculum can serve both: define role outcomes once, assess them properly, and keep records that meet the stricter ISO/IEC 42001 evidence expectation. Building that curriculum starts with a [competency framework](/glossary/competency-framework) and an [AI literacy](/glossary/ai-literacy) baseline."
+        }
+      ]
+    },
+    {
+      "id": "when-to-choose",
+      "heading": "When should an organization use each?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use ISO/IEC 42001 when the organization needs independent assurance it can show to customers, regulators or partners; use the NIST AI RMF when it needs practical, free guidance on identifying and managing AI risks. Many organizations use both."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**ISO/IEC 42001 fits** organizations already running ISO management systems such as ISO/IEC 27001 or ISO 9001, suppliers whose customers ask for certification, and organizations that want an auditable system of continual improvement.",
+            "**The NIST AI RMF fits** organizations starting out, those wanting detailed risk practice, including for generative AI through NIST AI 600-1, and organizations in sectors where US federal guidance is a common reference.",
+            "**Both together** is common: NIST outcomes and suggested actions can inform the risk assessment, risk treatment and impact assessment processes that ISO/IEC 42001 requires."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Neither replaces binding law. In the European Union, the AI Act's obligations, such as [AI literacy under Article 4](/regulations/eu-ai-act-ai-literacy), apply regardless of which framework an organization adopts. The broader picture is on [what is AI governance](/glossary/ai-governance)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry can map the same role outcomes to clauses in both frameworks and to internal AI policies, with provenance to each source. That lets one curriculum and one set of assessment records serve an ISO/IEC 42001 audit and a NIST aligned risk program."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can an organization be certified against the NIST AI RMF?",
+      "a": "No. The NIST AI RMF is voluntary and has no certification scheme. Organizations can state that they align with it, but there is no independent conformity assessment. Certification for AI governance is available against ISO/IEC 42001."
+    },
+    {
+      "q": "Does ISO/IEC 42001 certification show compliance with the EU AI Act?",
+      "a": "Not by itself. ISO/IEC 42001 certifies a management system; the AI Act sets specific legal obligations for particular roles and systems. A certified management system can help an organization organize and evidence its compliance work, but the legal obligations must still be met individually."
+    },
+    {
+      "q": "Is the NIST AI RMF only for US organizations?",
+      "a": "No. It is published by a US agency but is non sector specific and use case agnostic, and it is used internationally as a reference. Like ISO/IEC 42001, it is not law; its value outside the US is as a structured source of practice."
+    },
+    {
+      "q": "Which should training teams start with?",
+      "a": "Start with the roles and the risks. Define what each role must be able to do with AI, then map those outcomes to GOVERN 2.2 and to ISO/IEC 42001 clauses 7.2 and 7.3. Records that satisfy an ISO/IEC 42001 auditor will usually satisfy a NIST aligned review as well."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ISO/IEC 42001:2023 Information technology: Artificial intelligence: Management system",
+      "publisher": "International Organization for Standardization (ISO) and International Electrotechnical Commission (IEC)",
+      "url": "https://www.iso.org/standard/42001"
+    },
+    {
+      "title": "ISO/IEC 42006:2025 Requirements for bodies providing audit and certification of artificial intelligence management systems",
+      "publisher": "International Organization for Standardization (ISO) and International Electrotechnical Commission (IEC)",
+      "url": "https://www.iso.org/standard/42006"
+    },
+    {
+      "title": "AI Risk Management Framework",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    }
+  ],
+  "related": [
+    "ai-governance",
+    "iso-iec-42001-competence-and-awareness",
+    "nist-ai-rmf-ai-risk-training",
+    "ai-literacy",
+    "iso-27001-awareness-training-requirements",
+    "competency-framework"
+  ],
+  "productLinks": [
+    {
+      "label": "Standards and accreditation",
+      "href": "/platform/standards-accreditation"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 9,
+  "factCheck": [
+    {
+      "claim": "ISO/IEC 42001:2023 scope text (verbatim), applicability to any organization regardless of size, type and nature; published December 2023; JTC 1/SC 42; harmonized structure; TOC: clauses 4 to 10, 7.2 Competence, 7.3 Awareness, 8.2 to 8.4, Annex A (normative) reference control objectives and controls, Annex B (normative) implementation guidance; normative reference ISO/IEC 22989:2022",
+      "source": "https://www.iso.org/standard/42001"
+    },
+    {
+      "claim": "ISO/IEC 42006:2025 sets requirements for bodies that audit and certify AI management systems against ISO/IEC 42001",
+      "source": "https://www.iso.org/standard/42006"
+    },
+    {
+      "claim": "AI RMF 1.0 released January 26, 2023; intended for voluntary use; companion Playbook, Crosswalk; Generative AI Profile released July 26, 2024; AI RMF 1.0 is being revised",
+      "source": "https://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    {
+      "claim": "NIST AI 100-1: intended to be voluntary, rights-preserving, non-sector-specific, and use-case agnostic; Core of four functions GOVERN, MAP, MEASURE, MANAGE broken into categories and subcategories; actions do not constitute a checklist; GOVERN cross-cutting; GOVERN 2 accountability structures; GOVERN 2.2 training text verbatim",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+    }
+  ]
+}

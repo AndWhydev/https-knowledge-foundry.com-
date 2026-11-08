@@ -1,0 +1,297 @@
+{
+  "slug": "skills-taxonomy-vs-skills-ontology",
+  "kind": "comparison",
+  "title": "Skills taxonomy vs skills ontology: what is the difference?",
+  "seoTitle": "Skills taxonomy vs skills ontology",
+  "description": "A skills taxonomy arranges skills in a hierarchy; a skills ontology adds typed relationships between skills, roles and tasks. How they differ and combine.",
+  "shortAnswer": "A skills taxonomy arranges skills in a hierarchy of broader and narrower categories, so each skill has a place in a tree. A skills ontology describes skills, occupations, tasks and other entities together with typed relationships between them, such as \"is essential for\", \"requires\" or \"is evidenced by\". A taxonomy answers where a skill belongs; an ontology answers how it connects to everything else, which is what software needs to reason, match and trace.",
+  "keyTakeaways": [
+    "A taxonomy has one main kind of link, broader or narrower; an ontology has many named kinds of link, each with a defined meaning.",
+    "W3C standards reflect the split: SKOS supports hierarchical and associative links for taxonomies and thesauri, while OWL 2 is an ontology language with formally defined meaning.",
+    "Large public classifications often combine both: ESCO arranges skills in a hierarchy and also states which skills are essential or optional for each occupation.",
+    "Choose a taxonomy for shared naming and reporting; add ontology relationships when you need traceability, gap analysis or automated matching."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the core difference between a skills taxonomy and a skills ontology?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The core difference is the kind of relationship each one records. A [skills taxonomy](/glossary/skills-taxonomy) records hierarchy: this skill is a narrower case of that family. A skills ontology records typed relationships between different kinds of things: this skill is essential for that occupation, this task requires that knowledge, this assessment evidences that skill."
+        },
+        {
+          "type": "p",
+          "text": "The W3C [Simple Knowledge Organization System (SKOS)](https://www.w3.org/TR/skos-reference/), the standard data model for publishing taxonomies and thesauri, states that \"the properties skos:broader and skos:narrower are used to assert a direct hierarchical link between two SKOS concepts\". SKOS also allows an associative link, which indicates two concepts are \"related\" without saying how. That is the ceiling of a taxonomy: it can say two skills are related, but not what the relationship means."
+        },
+        {
+          "type": "p",
+          "text": "An ontology goes further. The W3C [OWL 2 Web Ontology Language](https://www.w3.org/TR/owl2-overview/) is described as \"an ontology language for the Semantic Web with formally defined meaning\", whose ontologies \"provide classes, properties, individuals, and data values\". In skills terms, classes are kinds of thing (skill, occupation, task, credential), properties are named relationships between them, and the formal meaning lets software infer facts that were never entered directly. Stored as data, an ontology plus its instances is usually called a [knowledge graph](/glossary/knowledge-graph)."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do they compare side by side?",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Skills taxonomy and skills ontology compared",
+          "head": [
+            "Dimension",
+            "Skills taxonomy",
+            "Skills ontology"
+          ],
+          "rows": [
+            [
+              "Core question",
+              "Where does this skill belong?",
+              "How does this skill relate to roles, tasks, knowledge and evidence?"
+            ],
+            [
+              "Main structure",
+              "A tree or a small number of trees",
+              "A graph of entities connected by named relationships"
+            ],
+            [
+              "Kinds of entity",
+              "Mostly skills and skill groups",
+              "Skills, occupations, tasks, knowledge, credentials, assessments and more"
+            ],
+            [
+              "Kinds of relationship",
+              "Broader, narrower, sometimes a generic related link",
+              "Many typed relationships, each with a defined meaning and direction"
+            ],
+            [
+              "Typical W3C standard",
+              "SKOS",
+              "OWL 2 and RDF"
+            ],
+            [
+              "Strength",
+              "Simple to build, read and govern; good for naming and reporting",
+              "Supports traceability, inference, matching and gap analysis"
+            ],
+            [
+              "Main risk",
+              "Hides cross-links; one skill forced into one place",
+              "Costly to model and maintain; needs clear rules for each relationship"
+            ],
+            [
+              "Who maintains it",
+              "Workforce planning, HR or L&D teams",
+              "Usually a joint team of domain experts and data or knowledge engineers"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "public-example",
+      "heading": "How does a public classification combine the two?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Large public classifications usually combine a taxonomy and ontology relationships in one dataset. The European Commission's ESCO classification is a clear example: its skills sit in a hierarchy, and the same concepts carry typed links to occupations."
+        },
+        {
+          "type": "p",
+          "text": "ESCO is published as Linked Open Data in SKOS-RDF format, and each occupation, skill and knowledge concept has a persistent URI ([European Commission](https://esco.ec.europa.eu/en/use-esco)). In the [ESCO web service](https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba&language=en), an occupation record such as \"specialist nurse\" links to its broader ISCO group (hierarchy) and to its essential and optional skills (typed relationships). A skill record carries broader and narrower skill links alongside \"is essential for occupation\" and \"is optional for occupation\" links."
+        },
+        {
+          "type": "callout",
+          "title": "Why the distinction matters in practice",
+          "text": "A pure taxonomy can tell you that \"customer due diligence\" sits under \"financial crime\". Only a typed relationship can tell you that it is essential for one role, optional for another, required by a named procedure and evidenced by a particular assessment."
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does the same content look like in each form?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The example below is illustrative. It shows the same small set of skills first as taxonomy entries, then as ontology statements written as subject, relationship and object."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative taxonomy form: each skill has one place in a hierarchy",
+          "head": [
+            "Skill",
+            "Broader category",
+            "Top family"
+          ],
+          "rows": [
+            [
+              "Customer due diligence",
+              "Financial crime",
+              "Risk and compliance"
+            ],
+            [
+              "Sanctions screening",
+              "Financial crime",
+              "Risk and compliance"
+            ],
+            [
+              "Case documentation",
+              "Written communication",
+              "Communication"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative ontology form: typed relationships across entity types",
+          "head": [
+            "Subject",
+            "Relationship",
+            "Object"
+          ],
+          "rows": [
+            [
+              "Customer due diligence (skill)",
+              "is essential for",
+              "Onboarding officer (role)"
+            ],
+            [
+              "Customer due diligence (skill)",
+              "requires knowledge of",
+              "Beneficial ownership rules (knowledge)"
+            ],
+            [
+              "Customer due diligence (skill)",
+              "is required by",
+              "Customer identification procedure v4 (source)"
+            ],
+            [
+              "Scenario assessment CDD-02 (assessment)",
+              "evidences",
+              "Customer due diligence (skill)"
+            ],
+            [
+              "Case documentation (skill)",
+              "is optional for",
+              "Onboarding officer (role)"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "With the second form, a query such as \"which roles are affected if procedure v4 changes, and which assessments need review\" can be answered by following relationships. The taxonomy form cannot answer it, because procedures, roles and assessments are not in the tree."
+        }
+      ]
+    },
+    {
+      "id": "when-to-choose",
+      "heading": "When should you use a taxonomy, an ontology, or both?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use a taxonomy when the main need is a shared vocabulary for naming, tagging and reporting skills. Add ontology relationships when decisions depend on how skills connect to roles, obligations, content and evidence."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Taxonomy is enough** for consistent skill names in job descriptions, tagging learning content, and headline workforce reporting.",
+            "**Ontology relationships are needed** for traceability from obligations to training to assessment, automated matching of people to roles, impact analysis when a source changes, and [gap analysis](/compare/training-needs-analysis-vs-gap-analysis) that distinguishes essential from optional skills.",
+            "**Build in layers.** Start with a governed taxonomy, then add a small number of well-defined relationship types (essential for, requires, evidenced by, derived from) rather than modeling everything at once.",
+            "**Write rules for each relationship.** Every relationship type needs a definition, a direction and an owner, or the graph fills with links nobody can interpret."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "In regulated settings the ontology layer is what connects a skills vocabulary to a [competency framework](/glossary/competency-framework) and its evidence. The comparison of [competency framework vs skills framework](/compare/competency-framework-vs-skills-framework) covers the standard-setting side of that link."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry represents a knowledge framework as a graph: concepts, obligations, competencies and assessment points are entities, and the links between them are typed and versioned. An organization's existing skills taxonomy can be attached as the naming layer, so the vocabulary people already use is kept while the relationships underneath become traceable."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is a skills ontology the same as a knowledge graph?",
+      "a": "Not quite. An ontology defines the kinds of entity and relationship and what they mean. A knowledge graph is the data: the actual skills, roles and links stored according to that ontology. In everyday usage the terms are often blurred, but the distinction helps when deciding who owns the model and who maintains the data."
+    },
+    {
+      "q": "Can a taxonomy be converted into an ontology later?",
+      "a": "Yes. A well-governed taxonomy is the usual starting point. Its skills become entities in the ontology, its hierarchy becomes one relationship type, and new relationship types are added alongside. Converting is much easier when every skill already has a stable identifier and a clear definition."
+    },
+    {
+      "q": "Do skills ontologies require special technology?",
+      "a": "Open W3C standards such as RDF, SKOS and OWL 2 exist for this purpose, and graph databases are a common store. Simple relationship tables in a relational database can also hold typed links. The modeling discipline matters more than the storage technology."
+    },
+    {
+      "q": "Does ESCO count as a taxonomy or an ontology?",
+      "a": "It has features of both. ESCO organizes skills and occupations hierarchically and publishes them with SKOS, and it also records typed relationships, such as which skills are essential or optional for an occupation. Many practitioners describe it as a classification with ontology-style relationships."
+    }
+  ],
+  "sources": [
+    {
+      "title": "SKOS Simple Knowledge Organization System Reference",
+      "publisher": "World Wide Web Consortium (W3C)",
+      "url": "https://www.w3.org/TR/skos-reference/"
+    },
+    {
+      "title": "OWL 2 Web Ontology Language Document Overview (Second Edition)",
+      "publisher": "World Wide Web Consortium (W3C)",
+      "url": "https://www.w3.org/TR/owl2-overview/"
+    },
+    {
+      "title": "Use ESCO",
+      "publisher": "European Commission",
+      "url": "https://esco.ec.europa.eu/en/use-esco"
+    },
+    {
+      "title": "ESCO web service: occupation resource (specialist nurse)",
+      "publisher": "European Commission",
+      "url": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba&language=en"
+    }
+  ],
+  "related": [
+    "skills-taxonomy",
+    "knowledge-graph",
+    "competency-framework",
+    "competency-framework-vs-skills-framework",
+    "training-needs-analysis-vs-gap-analysis"
+  ],
+  "productLinks": [
+    {
+      "label": "Framework intelligence",
+      "href": "/platform/framework-intelligence"
+    },
+    {
+      "label": "Technical overview",
+      "href": "/platform/technical-overview"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 10,
+  "factCheck": [
+    {
+      "claim": "SKOS: skos:broader and skos:narrower are used to assert a direct hierarchical link between two SKOS concepts; the SKOS data model supports hierarchical and associative links; an associative link indicates two concepts are inherently related without one being more general",
+      "source": "https://www.w3.org/TR/skos-reference/"
+    },
+    {
+      "claim": "OWL 2 is an ontology language for the Semantic Web with formally defined meaning; OWL 2 ontologies provide classes, properties, individuals, and data values",
+      "source": "https://www.w3.org/TR/owl2-overview/"
+    },
+    {
+      "claim": "ESCO is published as Linked Open Data; available as SKOS-RDF ttl; each occupation, knowledge, skill and competence is identified by a URI",
+      "source": "https://esco.ec.europa.eu/en/use-esco"
+    },
+    {
+      "claim": "ESCO API occupation resource (specialist nurse) exposes links broaderIscoGroup, hasEssentialSkill, hasOptionalSkill; skill resource (manage personnel) exposes broaderSkill, narrowerSkill, isEssentialForOccupation, isOptionalForOccupation, hasReuseLevel, hasSkillType (checked 8 November 2026)",
+      "source": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba&language=en"
+    }
+  ]
+}

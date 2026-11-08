@@ -1,0 +1,271 @@
+{
+  "slug": "proficiency-scale",
+  "kind": "glossary",
+  "title": "What is a proficiency scale?",
+  "seoTitle": "Proficiency scale: definition",
+  "description": "A proficiency scale is a set of graded levels describing how performance in a skill or competency develops. How published scales work, with an example.",
+  "shortAnswer": "A proficiency scale is an ordered set of levels that describes how performance in a skill, competency or capability develops from novice to expert, with a short descriptor and observable indicators for each level. It lets one competency apply to junior and senior roles, lets assessors place people consistently, and lets organizations state the level each role requires. Good scales distinguish levels by autonomy, complexity and responsibility, not by adjectives such as basic and advanced.",
+  "keyTakeaways": [
+    "A proficiency scale has a fixed number of levels, a generic descriptor for each, and skill-specific behavioral indicators that show what each level looks like.",
+    "Published scales differ in length: SFIA uses seven levels of responsibility, the NSW Public Sector Capability Framework five capability levels, and the European Qualifications Framework eight levels.",
+    "The strongest scales separate levels by changes in autonomy, influence, complexity and responsibility, which assessors can observe.",
+    "A scale is only useful if raters can tell the levels apart consistently; test it with real examples before relying on it."
+  ],
+  "term": "proficiency scale",
+  "alsoKnownAs": [
+    "proficiency levels",
+    "competency levels",
+    "capability levels",
+    "rating scale"
+  ],
+  "sections": [
+    {
+      "id": "what-it-contains",
+      "heading": "What does a proficiency scale contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A proficiency scale contains a set of ordered levels, a name and generic description for each level, and behavioral indicators that show what each level looks like for a particular skill or competency. Some scales also state the dimensions used to separate levels, such as autonomy or complexity."
+        },
+        {
+          "type": "p",
+          "text": "The World Economic Forum's [Global Skills Taxonomy Adoption Toolkit](https://www3.weforum.org/docs/WEF_Global_Skills_Taxonomy_Adoption_Toolkit_2025.pdf) defines proficiency as the \"level of expertise, competence or mastery an individual has in a particular skill or area of knowledge\", and gives an example of one skill described at three levels: foundational, experienced and advanced."
+        },
+        {
+          "type": "p",
+          "text": "Behavioral indicators are what make a scale assessable. In the NSW Public Sector Capability Framework, for example, behavioral indicators \"describe the types of behaviours or actions that indicate effective performance at each capability level\"; the Office of the Public Service Commissioner adds that they are not exhaustive and not every indicator will be relevant for every role ([NSW Government](https://www.nsw.gov.au/nsw-government/public-sector-capability-framework/framework-guidance/factsheet-for-revised-framework))."
+        }
+      ]
+    },
+    {
+      "id": "published-scales",
+      "heading": "How do published proficiency scales compare?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Published scales range from three to eight levels and use different dimensions to separate them. The table compares three widely referenced examples from different contexts: a digital skills framework, a public sector capability framework and a qualifications framework."
+        },
+        {
+          "type": "table",
+          "caption": "Three published proficiency scales compared (as at November 2026)",
+          "head": [
+            "Scale",
+            "Levels",
+            "Level names",
+            "What separates levels"
+          ],
+          "rows": [
+            [
+              "SFIA 9 levels of responsibility (SFIA Foundation)",
+              "7",
+              "Follow; Assist; Apply; Enable; Ensure, advise; Initiate, influence; Set strategy, inspire, mobilise",
+              "Generic attributes: autonomy, influence, complexity, knowledge, and business skills and behavioral factors"
+            ],
+            [
+              "NSW Public Sector Capability Framework (Office of the Public Service Commissioner)",
+              "5",
+              "Foundational; Intermediate; Adept; Advanced; Highly Advanced",
+              "Progressive increase in complexity and skill, described through behavioral indicators"
+            ],
+            [
+              "European Qualifications Framework (European Union)",
+              "8",
+              "Level 1 to level 8",
+              "Learning outcomes in knowledge, skills, and responsibility and autonomy"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "SFIA states that each of its levels \"represents increasing responsibility, accountability and impact in the workplace\" ([SFIA Foundation](https://sfia-online.org/en/about-sfia/how-sfia-works)). The [European Qualifications Framework](https://europass.europa.eu/en/description-eight-eqf-levels) describes responsibility and autonomy as \"the ability of the learner to apply knowledge and skills autonomously and with responsibility\", running from work or study \"under direct supervision in a structured context\" at level 1 to managing complex activities and taking responsibility for decisions in unpredictable contexts at level 6. The EQF grades qualifications rather than job performance, but its logic is often borrowed for workplace scales."
+        }
+      ]
+    },
+    {
+      "id": "good-scale",
+      "heading": "What makes a proficiency scale work?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A proficiency scale works when two trained assessors looking at the same evidence place a person at the same level. That depends on level descriptors that change in observable ways, not on how carefully the adjectives are chosen."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Separate levels by observable dimensions:** autonomy (how much supervision), complexity (routine or novel situations), influence (own work, team or organization) and responsibility for others.",
+            "**Keep the generic scale and the skill indicators distinct:** one generic scale for the whole framework, then indicators written for each skill at each level.",
+            "**Use as few levels as raters can distinguish:** three to five is common for role-based frameworks; longer scales suit frameworks spanning entry level to executive.",
+            "**Anchor levels with examples:** short descriptions of real (anonymized) work placed at each level help assessors calibrate.",
+            "**Link levels to assessment methods:** lower levels can often be evidenced by knowledge checks; higher levels need observation, work samples or case review. [Miller's pyramid](/glossary/millers-pyramid) is a useful lens for this."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does a proficiency scale look like for one skill?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The example below is illustrative and not drawn from any published framework. It applies a four-level scale to one skill in a regulated operations team, with an indicator and a suggested way of evidencing each level."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative proficiency scale: incident reporting and investigation",
+          "head": [
+            "Level",
+            "Descriptor",
+            "Sample behavioral indicator",
+            "Typical evidence"
+          ],
+          "rows": [
+            [
+              "1 Aware",
+              "Knows what counts as a reportable incident and follows the reporting procedure with guidance",
+              "Reports a near miss through the correct channel within the required time",
+              "Knowledge check; record of reports made"
+            ],
+            [
+              "2 Practitioner",
+              "Reports and documents incidents independently and supports investigations",
+              "Writes an incident record that a reviewer can follow without further questions",
+              "Sample of records reviewed against a checklist"
+            ],
+            [
+              "3 Lead",
+              "Leads investigations of routine incidents, identifies causes and proposes corrective actions",
+              "Completes a cause analysis and corrective action plan accepted by the risk owner",
+              "Observed investigation; case file review"
+            ],
+            [
+              "4 Expert",
+              "Handles complex or novel incidents, coaches others and improves the procedure",
+              "Proposes a procedure change based on trend analysis and has it approved",
+              "Portfolio of cases; peer or panel review"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Notice that each step up adds independence, complexity or influence, and each indicator names something an assessor could see. Role profiles in the [competency framework](/glossary/competency-framework) would then state that, for example, a team member needs level 2 and a supervisor level 3, and the [skills matrix](/glossary/skills-matrix) would record each person's assessed level."
+        }
+      ]
+    },
+    {
+      "id": "nearby-terms",
+      "heading": "How is a proficiency scale different from a rubric or a pass mark?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A proficiency scale describes levels of capability that apply across many tasks and over a career. A marking rubric describes levels of quality for one assessment task, and a pass mark is the single cut point on an assessment that counts as meeting the standard."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Rubrics for individual assessments are usually derived from the proficiency level the role requires. See [competency assessment](/glossary/competency-assessment).",
+            "A pass mark decides whether evidence from one assessment meets the required level. See [how to set a pass mark for an assessment](/guides/how-to-set-a-pass-mark-for-an-assessment).",
+            "Proficiency levels are commonly attached to entries in a [skills taxonomy](/glossary/skills-taxonomy) when the taxonomy is used to set role requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry attaches proficiency levels to competencies and links each level to the assessment points that can evidence it. That makes it visible when a role requires a level that no current assessment can actually demonstrate."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many levels should a proficiency scale have?",
+      "a": "Choose the smallest number whose descriptors raters can tell apart reliably. Three to five levels is common for organizational frameworks. Longer scales, such as SFIA's seven levels, suit frameworks that span entry-level roles to senior leadership across a whole profession."
+    },
+    {
+      "q": "Should a proficiency scale include a level for no knowledge?",
+      "a": "Some scales include a zero or not applicable level for recording purposes. It is usually clearer to keep it outside the scale itself, so every defined level describes positive, observable performance."
+    },
+    {
+      "q": "Can one proficiency scale be used for every skill?",
+      "a": "Yes, as a generic scale. Most frameworks use one set of level names and generic descriptors, then write skill-specific indicators for each level. That keeps levels comparable across skills while still describing what each level looks like in practice."
+    },
+    {
+      "q": "Is a proficiency scale the same as a qualifications framework?",
+      "a": "No. A qualifications framework such as the EQF grades qualifications by the learning outcomes they certify. A proficiency scale grades a person's performance in a skill or competency at work. Workplace scales often borrow the qualifications framework logic of knowledge, skills and autonomy."
+    }
+  ],
+  "sources": [
+    {
+      "title": "How SFIA works",
+      "publisher": "SFIA Foundation",
+      "url": "https://sfia-online.org/en/about-sfia/how-sfia-works"
+    },
+    {
+      "title": "SFIA 9 levels of responsibility and generic attributes",
+      "publisher": "SFIA Foundation",
+      "url": "https://sfia-online.org/en/sfia-9/responsibilities"
+    },
+    {
+      "title": "Factsheet for the revised NSW Public Sector Capability Framework",
+      "publisher": "Office of the Public Service Commissioner, NSW Government",
+      "url": "https://www.nsw.gov.au/nsw-government/public-sector-capability-framework/framework-guidance/factsheet-for-revised-framework"
+    },
+    {
+      "title": "Description of the eight EQF levels",
+      "publisher": "European Commission (Europass)",
+      "url": "https://europass.europa.eu/en/description-eight-eqf-levels"
+    },
+    {
+      "title": "Global Skills Taxonomy Adoption Toolkit (January 2025)",
+      "publisher": "World Economic Forum",
+      "url": "https://www3.weforum.org/docs/WEF_Global_Skills_Taxonomy_Adoption_Toolkit_2025.pdf"
+    }
+  ],
+  "related": [
+    "competency-framework",
+    "skills-matrix",
+    "competency-assessment",
+    "millers-pyramid",
+    "how-to-build-a-competency-framework",
+    "skills-taxonomy"
+  ],
+  "productLinks": [
+    {
+      "label": "Framework intelligence",
+      "href": "/platform/framework-intelligence"
+    },
+    {
+      "label": "Verification and trust",
+      "href": "/platform/verification-trust"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 10,
+  "factCheck": [
+    {
+      "claim": "SFIA seven levels: Follow, Assist, Apply, Enable, Ensure advise, Initiate influence, Set strategy inspire mobilise",
+      "source": "https://sfia-online.org/en/sfia-9/responsibilities"
+    },
+    {
+      "claim": "SFIA: each level represents increasing responsibility, accountability and impact in the workplace; generic attributes autonomy, influence, complexity, knowledge, business skills/behavioural factors",
+      "source": "https://sfia-online.org/en/about-sfia/how-sfia-works"
+    },
+    {
+      "claim": "NSW framework: 5 levels Foundational, Intermediate, Adept, Advanced, Highly Advanced showing progressive increase in complexity and skill; behavioural indicators describe behaviours indicating effective performance at each level, not exhaustive, not all relevant for every role",
+      "source": "https://www.nsw.gov.au/nsw-government/public-sector-capability-framework/framework-guidance/factsheet-for-revised-framework"
+    },
+    {
+      "claim": "EQF: 8 levels defined by learning outcomes in knowledge, skills, responsibility and autonomy; R&A described as ability to apply knowledge and skills autonomously and with responsibility; level 1 under direct supervision in a structured context; level 6 manage complex activities with responsibility for decision-making in unpredictable contexts",
+      "source": "https://europass.europa.eu/en/description-eight-eqf-levels"
+    },
+    {
+      "claim": "WEF toolkit glossary defines proficiency as level of expertise, competence or mastery in a skill or area of knowledge; example proficiency levels foundational, experienced, advanced",
+      "source": "https://www3.weforum.org/docs/WEF_Global_Skills_Taxonomy_Adoption_Toolkit_2025.pdf"
+    }
+  ]
+}
