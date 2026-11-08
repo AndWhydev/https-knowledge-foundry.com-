@@ -1,0 +1,283 @@
+{
+  "slug": "nist-csf-vs-iso-27001",
+  "kind": "comparison",
+  "title": "NIST CSF vs ISO/IEC 27001: what is the difference, and how do they treat training?",
+  "seoTitle": "NIST CSF vs ISO/IEC 27001",
+  "description": "The NIST Cybersecurity Framework 2.0 is a voluntary set of outcomes; ISO/IEC 27001 is a certifiable management system standard. How they differ on training.",
+  "shortAnswer": "The NIST Cybersecurity Framework (CSF) 2.0 is a free, voluntary taxonomy of cybersecurity outcomes from the US National Institute of Standards and Technology, organized into six functions and not certifiable. ISO/IEC 27001:2022 is an international standard with mandatory requirements for an information security management system, against which organizations can be certified. Both expect awareness and role based training: the CSF through outcomes PR.AT-01 and PR.AT-02, ISO/IEC 27001 through clauses 7.2 and 7.3 and Annex A control 6.3.",
+  "keyTakeaways": [
+    "NIST CSF 2.0 (February 26, 2024) describes outcomes and \"does not prescribe how outcomes should be achieved\"; ISO/IEC 27001 states requirements that cannot be excluded when claiming conformity.",
+    "The CSF Core has six functions: GOVERN, IDENTIFY, PROTECT, DETECT, RESPOND and RECOVER; ISO/IEC 27001 follows the harmonized management system structure plus Annex A controls.",
+    "Training outcomes in the CSF are PR.AT-01 (all personnel) and PR.AT-02 (specialized roles), supported by GV.RR-04 (cybersecurity included in human resources practices).",
+    "ISO/IEC 27001 requires competence (7.2) and awareness (7.3) with retained evidence, and Annex A 6.3 adds an ongoing awareness, education and training program.",
+    "The two are complementary: many organizations use the CSF to communicate and prioritize, and ISO/IEC 27001 to run and certify the management system."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the core difference between the NIST CSF and ISO/IEC 27001?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The core difference is that the NIST CSF is a voluntary framework of outcomes, while ISO/IEC 27001 is a requirements standard that supports third party certification. The CSF helps an organization describe and prioritize its cybersecurity; ISO/IEC 27001 tells it what management system it must have to claim conformity."
+        },
+        {
+          "type": "p",
+          "text": "[NIST CSF 2.0](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf), published as NIST CSWP 29 on February 26, 2024, offers \"a taxonomy of high-level cybersecurity outcomes that can be used by any organization\" regardless of size, sector or maturity, and states that it \"does not prescribe how outcomes should be achieved.\" It describes itself as a foundational resource that may be adopted voluntarily and through governmental policies and mandates."
+        },
+        {
+          "type": "p",
+          "text": "[ISO/IEC 27001:2022](https://www.iso.org/standard/27001) specifies requirements for an information security management system. Its clause 1 states that excluding any requirement in clauses 4 to 10 is not acceptable when claiming conformity. Detail is on [ISO/IEC 27001 awareness training requirements](/regulations/iso-27001-awareness-training-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do the NIST CSF and ISO/IEC 27001 compare side by side?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They differ on legal form, structure and assurance, and overlap heavily on the security practices they point to. The table compares them as at November 2026."
+        },
+        {
+          "type": "table",
+          "caption": "NIST CSF 2.0 and ISO/IEC 27001:2022 compared, as at November 2026",
+          "head": [
+            "Dimension",
+            "NIST CSF 2.0",
+            "ISO/IEC 27001:2022"
+          ],
+          "rows": [
+            [
+              "Type",
+              "Voluntary framework of outcomes",
+              "International management system standard with requirements"
+            ],
+            [
+              "Publisher",
+              "US National Institute of Standards and Technology",
+              "ISO and IEC"
+            ],
+            [
+              "Structure",
+              "Core of six functions (GOVERN, IDENTIFY, PROTECT, DETECT, RESPOND, RECOVER) broken into categories and subcategories",
+              "Clauses 4 to 10 in the harmonized structure, plus Annex A controls"
+            ],
+            [
+              "How it is applied",
+              "Organizational Profiles (Current and Target) and optional Tiers 1 to 4 (Partial, Risk Informed, Repeatable, Adaptive)",
+              "Scope, risk assessment, risk treatment and a statement of applicable controls within the management system"
+            ],
+            [
+              "Prescriptiveness",
+              "Does not prescribe how outcomes are achieved; links to Informative References and Implementation Examples",
+              "Mandatory requirements in clauses 4 to 10"
+            ],
+            [
+              "Certification",
+              "None",
+              "Third party certification by certification bodies"
+            ],
+            [
+              "Training",
+              "PR.AT-01, PR.AT-02; GV.RR-04",
+              "Clause 7.2 competence, clause 7.3 awareness, Annex A control 6.3"
+            ],
+            [
+              "Cost of access",
+              "Free",
+              "Purchased standard; certification audits are paid"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "heading": "How does each treat security awareness and training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Both expect general awareness for everyone and deeper training for specialized roles. The CSF states these as outcomes; ISO/IEC 27001 makes them auditable requirements with retained evidence."
+        },
+        {
+          "type": "p",
+          "text": "The CSF's Awareness and Training category (PR.AT) states that personnel are provided with cybersecurity awareness and training so they can perform their cybersecurity related tasks. The two subcategories are:"
+        },
+        {
+          "type": "callout",
+          "title": "NIST CSF 2.0, PR.AT-01 and PR.AT-02",
+          "text": "\"PR.AT-01: Personnel are provided with awareness and training so that they possess the knowledge and skills to perform general tasks with cybersecurity risks in mind. PR.AT-02: Individuals in specialized roles are provided with awareness and training so that they possess the knowledge and skills to perform relevant tasks with cybersecurity risks in mind.\""
+        },
+        {
+          "type": "p",
+          "text": "In the GOVERN function, GV.RR-02 expects roles and responsibilities to be established, communicated, understood and enforced, and GV.RR-04 states that cybersecurity is included in human resources practices. For how to run the program behind those outcomes, NIST's own guidance is [SP 800-50 Rev. 1](/regulations/nist-sp-800-50-security-awareness-training)."
+        },
+        {
+          "type": "p",
+          "text": "ISO/IEC 27001 clause 7.2 requires determining the competence needed by people whose work affects information security, ensuring it, acting on gaps and retaining evidence; clause 7.3 requires awareness of the policy, people's contribution and the implications of not conforming. Annex A control 6.3 adds an ongoing awareness, education and training program."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: privileged administrator training under both",
+          "head": [
+            "Element",
+            "NIST CSF lens",
+            "ISO/IEC 27001 lens"
+          ],
+          "rows": [
+            [
+              "Requirement or outcome",
+              "PR.AT-02 specialized roles",
+              "Clause 7.2 competence; Annex A 6.3"
+            ],
+            [
+              "Learning outcome",
+              "Apply privileged access procedures and recognize targeted attacks",
+              "Same outcome"
+            ],
+            [
+              "Assessment",
+              "Scenario assessment and supervised task sign off",
+              "Same"
+            ],
+            [
+              "Evidence",
+              "Records to show the Target Profile outcome is achieved",
+              "Retained documented information for certification audit"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "which-applies",
+      "heading": "Which should your organization use?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use ISO/IEC 27001 when the organization needs certification it can show to customers or regulators; use the NIST CSF when it needs a free, outcome based way to assess, prioritize and communicate cybersecurity risk. Many organizations use both."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**ISO/IEC 27001 fits** organizations selling internationally, those already running ISO management systems, and suppliers whose contracts require certification.",
+            "**The NIST CSF fits** organizations starting a program, those reporting to boards on cybersecurity posture, and US organizations where the CSF is a common reference.",
+            "**Both together:** use CSF Profiles to set priorities and communicate posture, and ISO/IEC 27001 to operate and certify the system. NIST publishes Informative References that map CSF outcomes to other standards.",
+            "**Customer assurance reports:** if customers ask for a CPA report instead of a certificate, see [ISO/IEC 27001 vs SOC 2](/compare/iso-27001-vs-soc-2)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Neither replaces binding rules. Sector regulation may set its own training duties, such as [NIS2 management body training](/regulations/nis2-management-body-training) in the EU."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps each role's security outcomes to CSF subcategories and ISO/IEC 27001 clauses together, with provenance to both. One curriculum and one set of assessment records can then evidence a CSF Target Profile and satisfy a certification audit."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can an organization be certified against the NIST CSF?",
+      "a": "No. The CSF is a voluntary framework without a certification scheme. Organizations can describe their alignment using Profiles and Tiers, but independent certification for information security management is available against ISO/IEC 27001."
+    },
+    {
+      "q": "Where else does training appear in CSF 2.0 besides PR.AT?",
+      "a": "In the GOVERN function. Category GV.RR covers cybersecurity roles, responsibilities and authorities, including that they are established, communicated, understood and enforced (GV.RR-02) and that cybersecurity is included in human resources practices (GV.RR-04). Training is therefore tied to governance and accountability, not only to protective activity."
+    },
+    {
+      "q": "Does the NIST CSF only apply to US organizations?",
+      "a": "No. NIST describes the CSF outcomes as sector, country and technology neutral and usable by any organization. It is not law in any country; its value outside the US is as a structured reference."
+    },
+    {
+      "q": "Do the CSF Tiers measure training maturity?",
+      "a": "Tiers characterize the rigor of an organization's overall cybersecurity risk governance and management, from Partial to Adaptive. They are not a training metric, but a Target Profile can set the training outcomes an organization expects to achieve at its chosen Tier."
+    }
+  ],
+  "sources": [
+    {
+      "title": "The NIST Cybersecurity Framework (CSF) 2.0 (NIST CSWP 29)",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf"
+    },
+    {
+      "title": "ISO/IEC 27001:2022 Information security management systems",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/27001"
+    },
+    {
+      "title": "ISO/IEC 27001:2022 Online Browsing Platform preview",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/obp/ui/en/#iso:std:iso-iec:27001:ed-3:v1:en"
+    },
+    {
+      "title": "SP 800-50 Rev. 1: Building a Cybersecurity and Privacy Learning Program",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://csrc.nist.gov/pubs/sp/800/50/r1/final"
+    },
+    {
+      "title": "ISO 13485 Medical devices (certification to ISO management system standards)",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/iso-13485-medical-devices.html"
+    }
+  ],
+  "related": [
+    "iso-27001-awareness-training-requirements",
+    "nist-sp-800-50-security-awareness-training",
+    "iso-27001-vs-soc-2",
+    "iso-42001-vs-nist-ai-rmf",
+    "nis2-management-body-training",
+    "cmmc-security-awareness-training"
+  ],
+  "productLinks": [
+    {
+      "label": "Standards and accreditation",
+      "href": "/platform/standards-accreditation"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "CSF 2.0 NIST CSWP 29 dated February 26, 2024; abstract: taxonomy of high-level outcomes usable by any organization regardless of size, sector or maturity; does not prescribe how outcomes should be achieved; foundational resource that may be adopted voluntarily; outcomes sector-, country- and technology-neutral (fetched 2026-11-08)",
+      "source": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf"
+    },
+    {
+      "claim": "CSF Core functions GOVERN, IDENTIFY, PROTECT, DETECT, RESPOND, RECOVER; Functions, Categories, Subcategories; Organizational Profiles (Current, Target), Community Profiles; Tiers Partial, Risk Informed, Repeatable, Adaptive; Informative References and Implementation Examples",
+      "source": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf"
+    },
+    {
+      "claim": "PR.AT category text and PR.AT-01, PR.AT-02 verbatim; GV.RR-02 and GV.RR-04 text",
+      "source": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf"
+    },
+    {
+      "claim": "ISO/IEC 27001:2022 TOC 7.2 and 7.3; exclusion of clauses 4 to 10 not acceptable when claiming conformity",
+      "source": "https://www.iso.org/obp/ui/en/#iso:std:iso-iec:27001:ed-3:v1:en"
+    },
+    {
+      "claim": "Annex A 6.3 awareness, education and training (secondary source, as recorded on sibling page)",
+      "source": "https://www.isms.online/iso-27001/annex-a-2022/6-3-information-security-awareness-education-training-2022/"
+    },
+    {
+      "claim": "ISO management system standards: certification optional and third party; ISO does not certify",
+      "source": "https://www.iso.org/iso-13485-medical-devices.html"
+    },
+    {
+      "claim": "SP 800-50 Rev. 1 published September 2024",
+      "source": "https://csrc.nist.gov/pubs/sp/800/50/r1/final"
+    }
+  ]
+}

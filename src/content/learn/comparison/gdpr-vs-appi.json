@@ -1,0 +1,187 @@
+{
+  "slug": "gdpr-vs-appi",
+  "kind": "comparison",
+  "title": "GDPR vs APPI: how do EU and Japanese rules on staff training and accountability differ?",
+  "seoTitle": "GDPR vs APPI: training compared",
+  "description": "The GDPR implies staff training through accountability and DPO duties; Japan's APPI guidelines make employee education a mandatory safeguard. Side by side.",
+  "shortAnswer": "The EU General Data Protection Regulation (GDPR) does not require every employee to be trained; training follows from accountability, security and instruction duties, and from the data protection officer's task of monitoring awareness and training. Japan's Act on the Protection of Personal Information (APPI) requires supervision of employees, and the Personal Information Protection Commission's guidelines make employee education a mandatory human security measure. Japan is more explicit on training; the GDPR is more demanding on demonstrable accountability.",
+  "keyTakeaways": [
+    "GDPR training duties are indirect: accountability (Articles 5(2) and 24), processing only on instructions (Articles 29 and 32(4)), the DPO's monitoring task (Article 39(1)(b)) and binding corporate rules (Article 47(2)(n)).",
+    "APPI Article 24 requires necessary and adequate supervision of employees, and PPC General Rules Guidelines section 10-4 says employees must be made aware of proper handling and given appropriate education.",
+    "The GDPR requires a data protection officer in three defined cases (Article 37); the PPC guidelines instead require an organizational structure, with appointing a person responsible for personal data as an illustrated method.",
+    "Japan holds an EU adequacy decision (Implementing Decision (EU) 2019/419), but adequacy covers data transfers, not training duties, so each law's obligations still apply.",
+    "One privacy curriculum can serve both if it meets Japan's explicit education duty and records evidence to the GDPR's accountability standard."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the core difference between the GDPR and the APPI on training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The core difference is where the training obligation is written. In Japan, the regulator's guidelines state outright that employees must receive appropriate education. In the EU, no GDPR article requires all staff to be trained; training is the expected way to meet broader duties to implement appropriate measures and to demonstrate compliance."
+        },
+        {
+          "type": "p",
+          "text": "The [GDPR](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504) makes the controller responsible for, and able to demonstrate, compliance (Article 5(2)), and requires appropriate technical and organizational measures that are reviewed and updated (Article 24). People acting under the controller's or processor's authority may process personal data only on instructions (Articles 29 and 32(4)). Training appears by name in Article 39(1)(b), as a data protection officer task, and in Article 47(2)(n), for binding corporate rules. Detail is on [GDPR staff training requirements](/regulations/gdpr-staff-training-requirements)."
+        },
+        {
+          "type": "p",
+          "text": "The APPI requires necessary and appropriate security control measures (Article 23) and necessary and adequate supervision of employees who handle personal data (Article 24). The Personal Information Protection Commission (PPC) [General Rules Guidelines](https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/) list employee education as a human security control measure that businesses must take, with periodic training and confidentiality terms in work rules as illustrated methods. Detail is on [Japan APPI employee training](/regulations/japan-appi-employee-training)."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do the GDPR and APPI compare side by side?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They converge on the outcome, trained and supervised staff, but differ on how explicit the duty is, who oversees it and what an organization must be able to show. The table compares them as at November 2026."
+        },
+        {
+          "type": "table",
+          "caption": "GDPR and APPI compared on staff training and accountability, as at November 2026",
+          "head": ["Dimension", "EU: GDPR (Regulation (EU) 2016/679)", "Japan: APPI and PPC guidelines"],
+          "rows": [
+            ["Explicit staff training duty", "No general clause; implied by Articles 5(2), 24, 29 and 32(4)", "Yes: guidelines section 10-4 makes employee education a must"],
+            ["Supervision of staff", "Processing only on instructions (Articles 29 and 32(4))", "Necessary and adequate supervision of employees (Article 24)"],
+            ["Who counts as staff", "Persons acting under the authority of the controller or processor", "Employees, defined in the guidelines to include directors, executive officers, auditors and dispatched workers"],
+            ["Oversight role", "Data protection officer mandatory in three cases (Article 37), and monitors awareness raising and training (Article 39(1)(b))", "Organizational structure required (section 10-3); appointing a person responsible for personal data is an illustrated method"],
+            ["Small business treatment", "No training specific exemption", "Simplified methods for businesses with 100 or fewer employees, subject to exclusions; education still required"],
+            ["Training frequency", "Not specified; measures reviewed and updated (Article 24)", "Not fixed; desirable to scale content and frequency to risk (section 3-4-3)"],
+            ["Breach reporting clock", "72 hours to the supervisory authority where feasible (Article 33)", "Preliminary report benchmark of roughly 3 to 5 days; final report within 30 days, or 60 for some cases"],
+            ["Maximum administrative fines", "Up to EUR 20 million or 4% of worldwide annual turnover for some infringements (Article 83(5))", "Criminal penalties for breaching PPC orders; corporate fine up to 100 million yen; 2026 amendments add a surcharge, commencing in phases"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Japanese legal texts have effect only in Japanese, and English translations are unofficial. The 2026 APPI amendments, promulgated on July 17, 2026, commence in phases, so penalty figures in training should sit in a module that is easy to update."
+        }
+      ]
+    },
+    {
+      "id": "accountability",
+      "heading": "How does accountability differ between the two laws?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The GDPR builds accountability around documentation and a designated officer; the APPI builds it around an internal structure and handling rules defined by the business. Both expect someone to own training, but only the GDPR names that person in law for defined cases."
+        },
+        {
+          "type": "p",
+          "text": "GDPR Article 37 requires a data protection officer where processing is carried out by a public authority, where core activities involve regular and systematic monitoring of data subjects on a large scale, or where core activities involve large scale processing of special category or criminal offense data. Article 30 requires a record of processing activities. Together with Article 39, these make it natural for the data protection officer to own the training plan and audit its effect."
+        },
+        {
+          "type": "p",
+          "text": "PPC guidelines section 10-3 requires businesses to establish an organizational structure for security measures, operate according to their personal data handling rules, have means to check handling status, prepare to respond to leaks, and review measures. The illustrated items include appointing a person responsible for personal data handling, clarifying which employees handle which data, and setting reporting lines when a violation or leak is detected. Training content should teach those reporting lines specifically."
+        }
+      ]
+    },
+    {
+      "id": "which-applies",
+      "heading": "Which law applies to your organization?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Many multinationals are subject to both. The GDPR applies to processing in the context of an EU establishment and, under Article 3(2), to non EU organizations that offer goods or services to people in the EU or monitor their behavior there. The APPI applies to businesses handling personal information in Japan and, under its extraterritorial provisions, to some foreign businesses handling personal information of people in Japan."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**EU establishment only:** design to GDPR accountability; decide whether Article 37 requires a data protection officer; record training as an Article 24 measure.",
+            "**Japanese business only:** meet section 10-4 directly, with periodic training for all employees as defined, and align content with the business's own handling rules under section 10-3.",
+            "**Both:** use one core curriculum, add Japan specific content on leak reporting thresholds and work rules, and keep evidence to the GDPR standard. The adequacy decision (Implementing Decision (EU) 2019/419) eases transfers from the EU to Japan but does not change either law's internal requirements.",
+            "**Wider footprint:** compare other markets on [data privacy training requirements by country](/compare/data-privacy-training-requirements-by-country)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "one-program",
+      "heading": "How can one privacy training program meet both?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Write role outcomes once, then map each to the GDPR article it supports and the APPI provision or guideline section it satisfies. The illustrative table shows how one audience is handled."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: customer service staff under both laws",
+          "head": ["Element", "GDPR lens", "APPI lens", "Evidence kept"],
+          "rows": [
+            ["Obligation", "Process only on instructions; accountability (Articles 29, 5(2))", "Employee education and supervision (Article 24; guidelines 10-4)", "Module mapped to both references"],
+            ["Learning outcome", "Recognize a rights request and route it", "Handle personal data according to internal handling rules", "Outcome statement per module"],
+            ["Breach outcome", "Escalate a suspected breach immediately so the 72 hour clock can be met", "Report a suspected leak to the responsible person per the reporting line", "Scenario assessment result"],
+            ["Refresh", "Reviewed and updated as risks change (Article 24)", "Periodic training, scaled to risk", "Annual cycle plus change triggers"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Mapping is easiest from a [compliance obligations register](/glossary/compliance-obligations-register), and assessment should test application rather than recall; see [completion tracking vs competency verification](/compare/completion-tracking-vs-competency-verification)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each GDPR article and APPI provision as a source linked to roles, learning outcomes and assessment points, so one curriculum can show which obligation every module serves. When Japan's phased amendments commence, the affected concepts are flagged and only the linked content needs revision."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Japan require a data protection officer like the GDPR?",
+      "a": "The APPI does not set out a data protection officer role equivalent to GDPR Articles 37 to 39. The PPC guidelines require an organizational structure for security measures and illustrate it with appointing a person responsible for personal data handling. In practice, multinationals often extend the GDPR officer's oversight to Japan while naming a local responsible person."
+    },
+    {
+      "q": "Does the EU adequacy decision for Japan mean GDPR training also satisfies the APPI?",
+      "a": "No. The adequacy decision allows personal data to flow from the EU to Japanese businesses covered by the APPI and the supplementary rules. It does not change what either law requires internally. A Japanese business still has to meet the PPC guidelines on employee education, and an EU controller still has to meet GDPR accountability."
+    },
+    {
+      "q": "Are directors and dispatched workers included in APPI employee training?",
+      "a": "Yes. The PPC guidelines define employees for supervision purposes broadly, including directors, executive officers, auditors and dispatched workers, not only staff on employment contracts. Training audiences and records should reflect that wider definition."
+    },
+    {
+      "q": "How often should training be repeated under each law?",
+      "a": "Neither sets a fixed interval. The PPC guidelines illustrate periodic training and say it is desirable to scale content and frequency to risk; GDPR Article 24 requires measures to be reviewed and updated where necessary. An annual cycle with additional training on role change or incident is a common, defensible pattern."
+    }
+  ],
+  "sources": [
+    { "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)", "publisher": "Official Journal of the European Union (EUR-Lex)", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504" },
+    { "title": "Commission Implementing Decision (EU) 2019/419 on the adequate protection of personal data by Japan", "publisher": "Official Journal of the European Union (EUR-Lex)", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019D0419" },
+    { "title": "Act on the Protection of Personal Information (Act No. 57 of 2003), Japanese text", "publisher": "Digital Agency, e-Gov Laws", "url": "https://laws.e-gov.go.jp/law/415AC0000000057" },
+    { "title": "Guidelines for the Act on the Protection of Personal Information (General Rules), revised June 2026", "publisher": "Personal Information Protection Commission", "url": "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/" },
+    { "title": "About the Act Partially Amending the Act on the Protection of Personal Information and Related Acts (July 2026)", "publisher": "Personal Information Protection Commission Secretariat", "url": "https://www.ppc.go.jp/files/pdf/260717_kaiseihounitsuite.pdf" },
+    { "title": "Japanese Law Translation: notice to users", "publisher": "Ministry of Justice", "url": "https://www.japaneselawtranslation.go.jp/en/" }
+  ],
+  "related": [
+    "gdpr-staff-training-requirements",
+    "japan-appi-employee-training",
+    "data-privacy-training-requirements-by-country",
+    "gdpr-vs-uae-pdpl",
+    "compliance-obligations-register",
+    "how-to-map-training-to-compliance-obligations"
+  ],
+  "productLinks": [
+    { "label": "Compliance programs", "href": "/programs/compliance" },
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "GDPR Article 39(1)(b) DPO monitors awareness-raising and training; Article 47(2)(n) BCR training; Articles 5(2), 24, 29, 32(4); Article 83(5) up to EUR 20 million or 4%; Article 33 72-hour notification", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504" },
+    { "claim": "GDPR Article 37(1)(a) to (c) three cases requiring a DPO; Article 3(1) and 3(2) territorial scope; Article 30 record of processing activities (fetched 2026-11-08)", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504" },
+    { "claim": "Implementing Decision (EU) 2019/419 of 23 January 2019, Article 1: Japan ensures an adequate level of protection for personal data transferred from the EU to PIHBOs subject to the APPI as complemented by the Supplementary Rules (fetched 2026-11-08)", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019D0419" },
+    { "claim": "APPI Article 23 security control measures; Article 24 supervision of employees; Articles 178, 179, 184 penalties including corporate fine up to 100 million yen", "source": "https://laws.e-gov.go.jp/law/415AC0000000057" },
+    { "claim": "PPC guidelines 10-4: employees must be made fully aware and given appropriate education, periodic training example; 3-4-3 employees include directors, executive officers, auditors, dispatched workers, desirable to scale education to risk; SME definition 100 or fewer employees with exclusions; leak report benchmarks", "source": "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/" },
+    { "claim": "PPC guidelines 10-3 organizational security measures: must establish organizational structure, operate per handling rules, means to check handling, leak response structure, review; illustrated items include appointing a person responsible for personal data handling and reporting lines (Japanese text read 2026-11-08); section 8 covers extraterritorial application (Article 171)", "source": "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/" },
+    { "claim": "2026 amending act promulgated July 17, 2026; commencement in principle within two years; introduces surcharge; penalty amendments six months after promulgation", "source": "https://www.ppc.go.jp/files/pdf/260717_kaiseihounitsuite.pdf" },
+    { "claim": "Japanese Law Translation: translations are not official; only original Japanese texts have legal effect", "source": "https://www.japaneselawtranslation.go.jp/en/" }
+  ]
+}

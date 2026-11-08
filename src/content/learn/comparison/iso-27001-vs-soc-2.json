@@ -1,0 +1,173 @@
+{
+  "slug": "iso-27001-vs-soc-2",
+  "kind": "comparison",
+  "title": "ISO/IEC 27001 vs SOC 2: what is the difference, and what does each expect of awareness training?",
+  "seoTitle": "ISO/IEC 27001 vs SOC 2",
+  "description": "ISO/IEC 27001 is a certifiable management system standard; SOC 2 is a CPA attestation report on controls. How they differ, and what each expects of training.",
+  "shortAnswer": "ISO/IEC 27001 is an international standard for an information security management system; an organization is certified against it by a third party certification body, and clauses 7.2 and 7.3 make competence and awareness mandatory. SOC 2 is an attestation report issued by a licensed CPA firm under AICPA standards, examining a service organization's description of its system and controls against the trust services criteria. ISO/IEC 27001 prescribes training requirements; SOC 2 tests the controls the organization itself describes.",
+  "keyTakeaways": [
+    "ISO/IEC 27001 certification is a pass or fail judgment against fixed requirements; a SOC 2 report is a CPA's opinion on the organization's own system description and controls.",
+    "ISO/IEC 27001:2022 clauses 7.2 (competence) and 7.3 (awareness) cannot be excluded when claiming conformity, and Annex A control 6.3 covers awareness, education and training.",
+    "SOC 2 uses the AICPA's 2017 trust services criteria (with revised points of focus, 2022); the AICPA issued exposure drafts of proposed 2027 criteria on October 26, 2026.",
+    "In a SOC 2 examination, training appears as controls the organization describes and the auditor tests, so evidence must show the control operated, not just that a policy exists.",
+    "One awareness program can serve both if it is designed to ISO/IEC 27001's competence requirements and produces records an auditor can sample."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the core difference between ISO/IEC 27001 and SOC 2?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The core difference is certification versus attestation. ISO/IEC 27001 certification confirms that a management system conforms to a published set of requirements. A SOC 2 report is an attestation: an independent CPA examines management's description of a system and the controls within it, and reports an opinion against criteria."
+        },
+        {
+          "type": "p",
+          "text": "[ISO/IEC 27001:2022](https://www.iso.org/standard/27001) specifies requirements for an information security management system, and its clause 1 states that excluding any requirement in clauses 4 to 10 is not acceptable when an organization claims conformity. As with other ISO management system standards, ISO notes that [certification is not a requirement of the standard and ISO does not perform certification](https://www.iso.org/iso-13485-medical-devices.html); independent certification bodies do."
+        },
+        {
+          "type": "p",
+          "text": "SOC 2 is part of the System and Organization Controls (SOC) suite, which the [AICPA describes](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2) as service offerings CPAs may provide in connection with controls at a service organization. The AICPA guide covers an assertion based examination of a service organization's description of its system and its controls relevant to security, availability, processing integrity, confidentiality or privacy, evaluated against the [2017 trust services criteria](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022)."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do ISO/IEC 27001 and SOC 2 compare side by side?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They differ in who issues them, what they assess and what the reader receives. The table compares them as at November 2026."
+        },
+        {
+          "type": "table",
+          "caption": "ISO/IEC 27001 and SOC 2 compared, as at November 2026",
+          "head": ["Dimension", "ISO/IEC 27001:2022", "SOC 2"],
+          "rows": [
+            ["Nature", "International management system standard with requirements", "Attestation examination and report under AICPA professional standards"],
+            ["Owner of the criteria", "ISO and IEC", "AICPA Assurance Services Executive Committee (trust services criteria)"],
+            ["Who assesses", "Certification body", "Licensed CPA firm"],
+            ["What is assessed", "Conformity of the whole management system to clauses 4 to 10, plus applicable Annex A controls", "Management's description of the system and the design and effectiveness of its controls, for the categories in scope"],
+            ["Scope choice", "Organization sets the management system scope", "Organization chooses which of security, availability, processing integrity, confidentiality and privacy are in scope"],
+            ["Output", "Certificate stating conformity", "Report with the auditor's opinion, intended for customers and business partners"],
+            ["Training requirement", "Clause 7.2 competence, clause 7.3 awareness, Annex A control 6.3", "No fixed training clause; training is assessed as part of the controls the organization describes"],
+            ["Current revision activity", "2022 edition with Amendment 1:2024 (climate action changes)", "2017 criteria with 2022 points of focus; proposed 2027 criteria exposed for comment October 2026"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "training-expectations",
+      "heading": "What does each expect of awareness training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ISO/IEC 27001 sets the training expectation itself; SOC 2 tests whatever training controls the organization commits to in its system description. Both end with an auditor sampling evidence."
+        },
+        {
+          "type": "p",
+          "text": "Under ISO/IEC 27001:2022, clause 7.2 requires the organization to determine the competence needed by people whose work affects information security, ensure they are competent, act to close gaps, and retain evidence. Clause 7.3 requires awareness of the security policy, people's contribution and the implications of not conforming. Annex A control 6.3 adds an ongoing awareness, education and training program for personnel and relevant interested parties. Detail is on [ISO/IEC 27001 awareness training requirements](/regulations/iso-27001-awareness-training-requirements)."
+        },
+        {
+          "type": "p",
+          "text": "In a SOC 2 examination, the trust services criteria are control criteria, not a training syllabus. If the system description says that all personnel complete security awareness training at hire and annually, the auditor will test that control, typically by sampling people and checking records. A control that is described but not operated becomes an exception in the report."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: one awareness control evidenced for both",
+          "head": ["Element", "ISO/IEC 27001 lens", "SOC 2 lens"],
+          "rows": [
+            ["Requirement or control", "Clauses 7.2 and 7.3; Annex A 6.3", "Organization's described control: awareness training at hire and annually"],
+            ["Learning outcome", "Recognize and report a phishing attempt and a data handling incident", "Same outcome"],
+            ["Assessment", "Scenario questions with a pass mark; role specific modules for administrators", "Same, so the control's effectiveness can be shown"],
+            ["Evidence", "Retained documented information on competence", "Records for each sampled person within the examination period"],
+            ["Failure mode", "Nonconformity raised at audit", "Exception noted in the report"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "which-applies",
+      "heading": "Which one does your organization need?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Neither is a law; customers and contracts usually decide. SOC 2 reports are most often requested of service organizations by their customers and business partners, while ISO/IEC 27001 certification is widely recognized internationally and fits organizations that want a whole management system."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Choose ISO/IEC 27001** when customers or tenders ask for certification, when operating across many markets, or when already running other ISO management systems such as [ISO 9001](/regulations/iso-9001-competence-requirements).",
+            "**Choose SOC 2** when customers ask for a CPA report on the controls over a service they rely on.",
+            "**Choose both** when the customer base spans both expectations. Controls and training records can be shared; the assessments remain separate.",
+            "**Check regulation separately.** Sector rules may set their own training duties, for example [APRA CPS 234](/regulations/apra-cps-234-security-awareness-training) for Australian regulated entities or the [NIST guidance in SP 800-50](/regulations/nist-sp-800-50-security-awareness-training) used by US federal agencies."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps awareness and role based outcomes to ISO/IEC 27001 clauses and to the organization's own SOC 2 control descriptions, with provenance to each source. One set of assessment records can then answer a certification auditor and a CPA's sample request."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is a SOC 2 report a certification?",
+      "a": "No. A SOC 2 report is an attestation: a CPA firm examines and reports an opinion on a service organization's system description and controls under AICPA standards. There is no SOC 2 certificate. ISO/IEC 27001, by contrast, leads to a certificate issued by a certification body."
+    },
+    {
+      "q": "Does ISO/IEC 27001 certification replace a SOC 2 report?",
+      "a": "Not for customers who specifically ask for SOC 2. The two answer different questions: conformity of a management system versus an opinion on specific controls. Much of the underlying control work, including awareness training, can be shared."
+    },
+    {
+      "q": "Are the SOC 2 trust services criteria changing?",
+      "a": "The AICPA's Assurance Services Executive Committee issued exposure drafts of proposed 2027 trust services criteria and description criteria on October 26, 2026. Until final criteria are issued and effective, examinations use the 2017 criteria with the 2022 revised points of focus. Check the AICPA's page before planning a new examination period."
+    },
+    {
+      "q": "Do contractors need awareness training under ISO/IEC 27001?",
+      "a": "Clause 7.3 applies to persons doing work under the organization's control, and Annex A control 6.3 extends the awareness program to personnel and relevant interested parties. Contractors with access to information or systems should usually be included, with records kept."
+    }
+  ],
+  "sources": [
+    { "title": "ISO/IEC 27001:2022 Information security management systems", "publisher": "International Organization for Standardization", "url": "https://www.iso.org/standard/27001" },
+    { "title": "ISO/IEC 27001:2022 Online Browsing Platform preview", "publisher": "International Organization for Standardization", "url": "https://www.iso.org/obp/ui/en/#iso:std:iso-iec:27001:ed-3:v1:en" },
+    { "title": "ISO/IEC 27001:2022/Amd 1:2024 Climate action changes", "publisher": "International Organization for Standardization", "url": "https://www.iso.org/standard/88435.html" },
+    { "title": "ISO 13485 Medical devices (certification to ISO management system standards)", "publisher": "International Organization for Standardization", "url": "https://www.iso.org/iso-13485-medical-devices.html" },
+    { "title": "System and Organization Controls: SOC Suite of Services", "publisher": "AICPA and CIMA", "url": "https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2" },
+    { "title": "2017 Trust Services Criteria (With Revised Points of Focus: 2022)", "publisher": "AICPA and CIMA", "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022" },
+    { "title": "SOC 2 Reporting on an Examination of Controls at a Service Organization Relevant to Security, Availability, Processing Integrity, Confidentiality, or Privacy", "publisher": "AICPA and CIMA", "url": "https://www.aicpa-cima.com/cpe-learning/publication/soc-2-reporting-on-an-examination-of-controls-at-a-service-organization-relevant-to-security-availability-processing-integrity-confidentiality-or-privacy" },
+    { "title": "AICPA Exposure Drafts: Proposed 2027 SOC 2 Trust Services Criteria and Description Criteria", "publisher": "AICPA and CIMA", "url": "https://www.aicpa-cima.com/resources/download/aicpa-exposure-drafts-proposed-2027-soc-2-trust-services-criteria-and-description-criteria" }
+  ],
+  "related": [
+    "iso-27001-awareness-training-requirements",
+    "nist-csf-vs-iso-27001",
+    "nist-sp-800-50-security-awareness-training",
+    "apra-cps-234-security-awareness-training",
+    "certification-vs-accreditation-vs-licensing",
+    "how-to-prepare-training-records-for-an-audit"
+  ],
+  "productLinks": [
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" },
+    { "label": "Standards and accreditation", "href": "/platform/standards-accreditation" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "ISO/IEC 27001:2022 is the current edition", "source": "https://www.iso.org/standard/27001" },
+    { "claim": "ISO/IEC 27001:2022 TOC lists 7.2 Competence and 7.3 Awareness; clause 1: excluding any requirements in Clauses 4 to 10 is not acceptable when claiming conformity", "source": "https://www.iso.org/obp/ui/en/#iso:std:iso-iec:27001:ed-3:v1:en" },
+    { "claim": "Amd 1:2024 titled Climate action changes", "source": "https://www.iso.org/standard/88435.html" },
+    { "claim": "Annex A 6.3 awareness, education and training for personnel and relevant interested parties (secondary source, as recorded on sibling page)", "source": "https://www.isms.online/iso-27001/annex-a-2022/6-3-information-security-awareness-education-training-2022/" },
+    { "claim": "ISO: like other ISO management system standards, certification is not a requirement of the standard; ISO does not perform certification; third-party certification (fetched 2026-11-08)", "source": "https://www.iso.org/iso-13485-medical-devices.html" },
+    { "claim": "SOC is a suite of service offerings CPAs may provide in connection with system-level controls of a service organization; AICPA promulgates professional standards for SOC engagements; exposure drafts of proposed 2027 SOC 2 TSC dated Oct 26, 2026 (fetched 2026-11-08)", "source": "https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2" },
+    { "claim": "2017 TSC (revised points of focus 2022) are control criteria established by ASEC for use in attestation or consulting engagements on security, availability, processing integrity, confidentiality or privacy", "source": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022" },
+    { "claim": "AICPA SOC 2 guide (updated October 15, 2022, SSAE No. 20 and 21): assertion-based examination of a service organization's description of its system and controls; customers and business partners often request a SOC 2 report; evaluating control design and effectiveness", "source": "https://www.aicpa-cima.com/cpe-learning/publication/soc-2-reporting-on-an-examination-of-controls-at-a-service-organization-relevant-to-security-availability-processing-integrity-confidentiality-or-privacy" },
+    { "claim": "ASEC issued exposure drafts of proposed revisions to TSC and Description Criteria used in SOC 2 examinations", "source": "https://www.aicpa-cima.com/resources/download/aicpa-exposure-drafts-proposed-2027-soc-2-trust-services-criteria-and-description-criteria" }
+  ]
+}
