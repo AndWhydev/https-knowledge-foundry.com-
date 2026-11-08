@@ -1,0 +1,324 @@
+{
+  "slug": "how-to-deliver-compliance-training-in-multiple-languages",
+  "kind": "guide",
+  "title": "How do you deliver compliance training in multiple languages?",
+  "seoTitle": "Compliance training in many languages",
+  "description": "How to deliver compliance training in multiple languages: what regulators expect, which languages to support, translation QA, assessment and version control.",
+  "shortAnswer": "Deliver compliance training in multiple languages by first identifying the languages and literacy levels workers actually use, then translating from a locked, approved source with qualified translators, a terminology glossary, independent review and subject matter sign off. Assess learners in the language they were trained in, keep every language version in step with the source, and record which language each person completed. Regulators judge training by whether workers understood it.",
+  "keyTakeaways": [
+    "The legal test is comprehension. The US Occupational Safety and Health Administration (OSHA) says training must be presented in a language and vocabulary employees understand, and Australian work health and safety rules require training to be readily understandable.",
+    "Choose languages from workforce data, not from office locations, and include literacy level as well as language.",
+    "Translate only from an approved, version controlled source, and do not let translated versions drift from it.",
+    "Quality assurance needs a qualified translator, a second linguist, and a subject matter expert who checks meaning in context, especially for procedures and legal terms.",
+    "Translate assessments with the same care as content, and check that pass rates by language do not reveal a translation problem."
+  ],
+  "sections": [
+    {
+      "id": "what-regulators-expect",
+      "heading": "What do regulators expect for workers who speak other languages?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Regulators generally require training that workers can understand, which means in a language and at a literacy level they actually use. Few rules list languages; the obligation follows from what training is for."
+        },
+        {
+          "type": "table",
+          "caption": "Examples of comprehension requirements (verified examples, not a complete list)",
+          "head": [
+            "Jurisdiction and source",
+            "What it says"
+          ],
+          "rows": [
+            [
+              "United States: OSHA training standards policy statement (April 28, 2010)",
+              "\"Train\" and \"instruct\" mean presenting information in a manner employees can understand; an employer must instruct employees using both a language and vocabulary they understand; if employees are not literate, telling them to read materials does not satisfy the obligation"
+            ],
+            [
+              "United States: 29 CFR 1910.1030(g)(2)(vi), bloodborne pathogens",
+              "Training material must be appropriate in content and vocabulary to the educational level, literacy and language of employees"
+            ],
+            [
+              "Australia: model WHS Regulations, regulation 39",
+              "Information, training and instruction must be suitable and adequate and provided in a way that is readily understandable"
+            ],
+            [
+              "Australia: Safe Work Australia risk management code (November 2026)",
+              "Training, instruction and information must be provided in a form that can be understood by all workers"
+            ],
+            [
+              "United States: New York Labor Law section 201-g",
+              "Employers must give employees a written sexual harassment notice in English and in the employee's primary language, at hiring and at each annual training"
+            ],
+            [
+              "European Union: OSH Framework Directive 89/391/EEC, Article 12",
+              "Each worker must receive adequate safety and health training specific to their job; how language is handled is left to national law and practice in each Member State"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Sources: [OSHA policy statement](https://www.osha.gov/laws-regs/standardinterpretations/2010-04-28), [29 CFR 1910.1030](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030), [model WHS Regulations](https://www.legislation.gov.au/F2011L02664/latest/text), [Safe Work Australia](https://www.safeworkaustralia.gov.au/doc/model-code-practice-how-manage-work-health-and-safety-risks), [NY Labor Law 201-g](https://www.nysenate.gov/legislation/laws/LAB/201-G), [Directive 89/391/EEC](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391). For detail see [OSHA training requirements](/regulations/osha-training-requirements) and [the WHS duty to provide training](/regulations/whs-act-duty-to-provide-training)."
+        },
+        {
+          "type": "p",
+          "text": "Guidance outside safety points the same way. The US Equal Employment Opportunity Commission (EEOC) lists harassment training \"provided in all languages commonly used by employees\" among its promising practices ([EEOC, Promising Practices for Preventing Harassment](https://www.eeoc.gov/laws/guidance/promising-practices-preventing-harassment))."
+        }
+      ]
+    },
+    {
+      "id": "which-languages",
+      "heading": "How do you decide which languages to support?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Decide from data about the people who must be trained, weighted by the risk of the training. A language needed by a small group doing high risk work can matter more than one spoken by many people in low risk roles."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Collect language data.** Ask workers which language they are most comfortable learning in, and whether they prefer reading, listening or watching. Include contractors and agency workers.",
+            "**Look at how work instructions are given.** OSHA's policy notes that if an employer customarily communicates work instructions in a language, training should use it too.",
+            "**Rank by risk.** For each course, list the roles that must take it and the languages in those roles. Safety critical procedures and legal rights come first.",
+            "**Choose the format per language.** Full translation, subtitled video, voice over, interpreted live delivery, or a bilingual facilitator. For low literacy groups, audio and demonstration may work better than translated text in any language.",
+            "**Record the decision.** Note which languages each course is available in, why, and what alternative applies to anyone else, for example interpreted sessions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qa-workflow",
+      "heading": "What does a localization quality assurance process look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A sound process translates from a frozen source, uses two linguists, and ends with a subject matter expert confirming that the translation means the same thing in the workplace. ISO 17100:2015 provides requirements for the core processes, resources and other aspects needed to deliver a quality translation service, and ISO currently lists it as under revision ([ISO 17100](https://www.iso.org/standard/59149.html)); asking a provider to work to it is a reasonable contract baseline. The workflow below is an original template."
+        },
+        {
+          "type": "table",
+          "caption": "Localization quality assurance workflow for compliance training",
+          "head": [
+            "Step",
+            "Who",
+            "Check",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "1. Lock the source",
+              "Content owner and compliance approver",
+              "Source content and assessment approved and versioned; no changes during translation",
+              "Approved source version ID"
+            ],
+            [
+              "2. Build a glossary",
+              "Content owner with lead translator",
+              "Defined terms, legal terms, equipment names and do not translate items agreed per language",
+              "Terminology glossary per language"
+            ],
+            [
+              "3. Translate",
+              "Qualified translator with subject familiarity",
+              "Complete, accurate, glossary applied, reading level appropriate",
+              "Translator identity and date"
+            ],
+            [
+              "4. Revise",
+              "Second linguist",
+              "Bilingual comparison against the source",
+              "Revision log with changes"
+            ],
+            [
+              "5. In context review",
+              "Bilingual subject matter expert or experienced worker",
+              "Instructions match how the task is really done; examples make sense locally; nothing unsafe or ambiguous",
+              "Sign off by named reviewer"
+            ],
+            [
+              "6. Functional test",
+              "Learning technologist",
+              "Text fits screens, audio and subtitles synchronized, right to left layout correct, assessment scoring works",
+              "Test record"
+            ],
+            [
+              "7. Pilot",
+              "Small group of native speakers from the target roles",
+              "Comprehension check and feedback",
+              "Pilot results and fixes"
+            ],
+            [
+              "8. Release",
+              "Compliance approver",
+              "Language version linked to source version",
+              "Release record per language"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Machine translation can speed up step 3, but treat its output as a draft that still goes through steps 4 to 7. Legal terms and safety instructions are where small errors cause the most harm."
+        }
+      ]
+    },
+    {
+      "id": "assessment",
+      "heading": "How should assessments be handled in other languages?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Assess in the language of instruction, translate items with the same QA as content, and check results by language for signs of a translation problem. An assessment that is harder in one language measures language, not compliance knowledge, which undermines its [validity](/compare/validity-vs-reliability-in-assessment)."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Review distractors in multiple choice items carefully: a translated distractor can accidentally become correct, or obviously wrong.",
+            "Avoid idioms, double negatives and culturally specific examples in the source, so translation is cleaner.",
+            "Compare pass rates and item statistics by language after release. A single item that fails far more often in one language usually signals a translation issue, not a knowledge gap.",
+            "For practical tasks, use observation checklists with pictures or demonstrations, and allow assessors to question in the worker's language through an interpreter.",
+            "Do not make a person's literacy the hidden barrier. If a worker can do the task safely and explain it orally, an oral assessment may be the valid choice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "version-control",
+      "heading": "How do you keep language versions in step?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Link every language version to a source version, and treat a source change as a change to every language. Out of date translations are a common audit finding, because the source is updated and the other languages are not."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Store translations as children of the source item, with the source version they were translated from (see [version control for training content](/guides/how-to-maintain-version-control-for-training-content)).",
+            "Classify each source change: does it alter meaning (retranslate and re-review) or only presentation (update without full review)?",
+            "Set a deadline for language updates after a source change, and decide what learners use in the meantime.",
+            "Record in each training record the language and version the person completed, so you can identify who was trained on a superseded translation.",
+            "Include translated material in the [detection of outdated content](/guides/how-to-detect-outdated-training-content)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines concepts, terms and assessment points once, independently of language, so every language version maps to the same framework and the same source version. When the source changes, the affected concepts show which translations need updating. See [knowledge transformation](/platform/knowledge-transformation)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is English only training ever enough?",
+      "a": "Only if every learner understands it well enough to apply it. OSHA's policy is that training must be in a language and vocabulary employees understand, and Australian rules require training to be readily understandable. If some workers receive work instructions in another language, English only compliance training is hard to defend."
+    },
+    {
+      "q": "Can we use machine translation for compliance training?",
+      "a": "As a first draft, with care. Machine output should still be revised by a qualified linguist and reviewed in context by a subject matter expert before release, because errors in legal terms and safety steps are both likely and costly. Record who reviewed each language version."
+    },
+    {
+      "q": "What about workers with low literacy in any language?",
+      "a": "Use formats that do not depend on reading: demonstration, audio, video with narration, pictures, and practice with feedback. OSHA's policy notes that telling workers who cannot read to read training materials does not meet the obligation. Assess orally or by observation where appropriate."
+    },
+    {
+      "q": "Do subtitles count as translation?",
+      "a": "Subtitles are a valid format if they are accurate, timed well and readable by the audience. They still need the same translation and review steps as other text, and they may not suit workers with limited literacy, for whom voice over or live interpretation is usually better."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Training standards policy statement (April 28, 2010)",
+      "publisher": "Occupational Safety and Health Administration (OSHA)",
+      "url": "https://www.osha.gov/laws-regs/standardinterpretations/2010-04-28"
+    },
+    {
+      "title": "29 CFR 1910.1030 Bloodborne pathogens",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030"
+    },
+    {
+      "title": "Work Health and Safety Regulations 2011 (Cth)",
+      "publisher": "Federal Register of Legislation, Australian Government",
+      "url": "https://www.legislation.gov.au/F2011L02664/latest/text"
+    },
+    {
+      "title": "Model Code of Practice: How to manage work health and safety risks (November 2026)",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/doc/model-code-practice-how-manage-work-health-and-safety-risks"
+    },
+    {
+      "title": "New York Labor Law section 201-G",
+      "publisher": "New York State Senate",
+      "url": "https://www.nysenate.gov/legislation/laws/LAB/201-G"
+    },
+    {
+      "title": "Council Directive 89/391/EEC (OSH Framework Directive)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
+    },
+    {
+      "title": "Promising Practices for Preventing Harassment (2017)",
+      "publisher": "US Equal Employment Opportunity Commission (EEOC)",
+      "url": "https://www.eeoc.gov/laws/guidance/promising-practices-preventing-harassment"
+    },
+    {
+      "title": "ISO 17100:2015 Translation services: Requirements for translation services",
+      "publisher": "International Organization for Standardization (ISO)",
+      "url": "https://www.iso.org/standard/59149.html"
+    }
+  ],
+  "related": [
+    "osha-training-requirements",
+    "whs-act-duty-to-provide-training",
+    "how-to-maintain-version-control-for-training-content",
+    "how-to-make-elearning-accessible",
+    "validity-vs-reliability-in-assessment",
+    "how-to-train-frontline-and-deskless-workers"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge transformation",
+      "href": "/platform/knowledge-transformation"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "OSHA 2010 policy statement: train and instruct mean presenting information in a manner employees can understand; language and vocabulary; illiterate employees; work instructions in a language imply training in it.",
+      "source": "https://www.osha.gov/laws-regs/standardinterpretations/2010-04-28"
+    },
+    {
+      "claim": "1910.1030(g)(2)(vi): material appropriate in content and vocabulary to educational level, literacy, and language of employees.",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.1030"
+    },
+    {
+      "claim": "Model WHS Regulations regulation 39: training suitable and adequate and readily understandable (Commonwealth version).",
+      "source": "https://www.legislation.gov.au/F2011L02664/latest/text"
+    },
+    {
+      "claim": "Safe Work Australia risk management code November 2026: training, instruction and information must be provided in a form that can be understood by all workers.",
+      "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2026-11/mcop_how_to_manage_work_health_and_safety_risks.pdf"
+    },
+    {
+      "claim": "NY Labor Law 201-g(2-a): written notice in English and the employee's primary language at hiring and each annual training.",
+      "source": "https://www.nysenate.gov/legislation/laws/LAB/201-G"
+    },
+    {
+      "claim": "Directive 89/391/EEC Article 12(1): adequate safety and health training specific to workstation or job; no language specified.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
+    },
+    {
+      "claim": "EEOC Promising Practices (EEOC-NVTA-2017-2, November 21, 2017): harassment training may be most effective if provided in all languages commonly used by employees.",
+      "source": "https://www.eeoc.gov/laws/guidance/promising-practices-preventing-harassment"
+    },
+    {
+      "claim": "ISO 17100:2015 provides requirements for core processes, resources and other aspects for delivery of a quality translation service; stage 90.92 to be revised.",
+      "source": "https://www.iso.org/standard/59149.html"
+    }
+  ]
+}

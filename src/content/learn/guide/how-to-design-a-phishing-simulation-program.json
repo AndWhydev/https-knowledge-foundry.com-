@@ -1,0 +1,339 @@
+{
+  "slug": "how-to-design-a-phishing-simulation-program",
+  "kind": "guide",
+  "title": "How do you design a phishing simulation program?",
+  "seoTitle": "Design a phishing simulation program",
+  "description": "How to design a phishing simulation program: ethical ground rules, legal review, NIST Phish Scale difficulty ratings, reporting metrics and follow up.",
+  "shortAnswer": "A phishing simulation program is designed by setting ethical ground rules before the first email: tell staff simulations will happen, involve legal review, and commit to non punitive use of results. Then rate each simulated email's difficulty with the NIST Phish Scale, measure reporting as well as clicks, interpret results by difficulty and role, and follow every campaign with targeted learning rather than blame.",
+  "keyTakeaways": [
+    "NIST SP 800-50 Rev. 1 says phishing exercises should not be punitive, no employee should be called out for their response, and staff should be told that exercises happen on a random basis.",
+    "Include the legal team in designing lures. NIST warns specifically against using legitimate brands or naming government organizations in the bait.",
+    "A click rate means little without knowing how hard the email was. The NIST Phish Scale rates detection difficulty from the email's cues and how well its premise fits the audience.",
+    "Measure reporting, not only clicking. A rising report rate is the behavior the program exists to build.",
+    "Use results to target learning by role and difficulty level, and treat repeat clickers as a support need first."
+  ],
+  "sections": [
+    {
+      "id": "what-it-is",
+      "heading": "What is a phishing simulation program?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A phishing simulation program sends realistic but harmless phishing emails, texts or calls to staff, records how they respond, and uses the results to target learning. It is one part of a [security awareness program](/regulations/nist-sp-800-50-security-awareness-training), not a substitute for one."
+        },
+        {
+          "type": "p",
+          "text": "The US National Institute of Standards and Technology (NIST) calls these \"embedded phishing awareness training programs\" and describes the two standard measures: the click rate, the share of recipients who clicked a link or attachment, and the reporting rate, the share who reported the email as suspicious ([NIST TN 2276, NIST Phish Scale User Guide](https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2276.pdf)). NIST adds that these rates give only a single point of insight, because some phishing emails are much harder to detect than others."
+        },
+        {
+          "type": "p",
+          "text": "Government guidance frames simulation as part of broader training. A joint guide from the US Cybersecurity and Infrastructure Security Agency (CISA), the National Security Agency, the FBI and the Multi-State Information Sharing and Analysis Center recommends a standard anti-phishing training program with annual review of training material and a training check at the end ([CISA, Phishing Guidance: Stopping the Attack Cycle at Phase One](https://www.cisa.gov/resources-tools/resources/phishing-guidance-stopping-attack-cycle-phase-one))."
+        }
+      ]
+    },
+    {
+      "id": "ethics",
+      "heading": "What ethical and legal ground rules should be set first?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Agree the ground rules in writing before any campaign runs, because a simulation deliberately deceives employees and that only works if they trust how results will be used. NIST SP 800-50 Rev. 1 sets the baseline."
+        },
+        {
+          "type": "callout",
+          "title": "NIST SP 800-50 Rev. 1, section 2.7.2",
+          "text": "\"These activities should not be punitive, nor should any employee be called out for their response.\" The same section says to include the legal team in designing and reviewing planned exercises, to avoid using legitimate brands or naming federal organizations in the bait, and to tell employees that exercises are conducted on a random basis and that results will guide future learning ([NIST SP 800-50r1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-50r1.pdf))."
+        },
+        {
+          "type": "p",
+          "text": "Consent in this context usually means informed notice at program level rather than warning before each email: staff are told in policy and onboarding that simulations happen, what data is collected, who sees it and how long it is kept. The following rules are recommended practice, building on the NIST baseline:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Publish a short program notice.** State the purpose, the channels that may be simulated (email, SMS, voice), the data collected, who can see individual results, and the retention period.",
+            "**Check employee consultation duties.** Where employee representatives or works councils have rights over workplace monitoring, involve them before launch. Data protection law in many jurisdictions applies to individual results.",
+            "**Set lure boundaries.** Exclude lures that exploit distress or false promises staff cannot easily verify, such as fake bonuses, layoffs, medical results or disaster appeals. Real attackers use them, but simulating them damages trust more than it teaches.",
+            "**Separate learning data from performance management.** Individual results go to the program team and the person; managers see aggregates unless a documented support process applies.",
+            "**Protect third parties.** Do not impersonate real suppliers, customers or regulators, which can trigger genuine complaints or reports to those organizations."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "difficulty",
+      "heading": "How do you rate difficulty with the NIST Phish Scale?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rate every simulated email before sending it, so results can be compared fairly. The NIST Phish Scale, set out in Technical Note 2276 (November 2023), combines two scores: the number of cues in the email and how well its premise aligns with the target audience ([NIST TN 2276](https://csrc.nist.gov/pubs/tn/2276/final))."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Cues** are the properties that might give the email away. NIST groups 23 cues into five types: errors (spelling, grammar, inconsistencies), technical indicators (addresses, links, attachments), visual presentation indicators (branding, logos, formatting), language and content (generic greeting, sense of urgency), and common tactics (too good to be true offers, humanitarian appeals). Fewer cues means harder to detect.",
+            "**Premise alignment** is how plausible the email is for this audience, given current events, the organization's environment and the recipients' roles. Stronger alignment means harder to detect."
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "NIST Phish Scale detection difficulty (summarized from NIST TN 2276, Table 7)",
+          "head": [
+            "Cues category",
+            "Strong premise alignment",
+            "Medium premise alignment",
+            "Weak premise alignment"
+          ],
+          "rows": [
+            [
+              "Few cues",
+              "Very difficult",
+              "Very difficult",
+              "Moderately difficult"
+            ],
+            [
+              "Some cues",
+              "Very difficult",
+              "Moderately difficult",
+              "Moderately to least difficult"
+            ],
+            [
+              "Many cues",
+              "Moderately difficult",
+              "Moderately difficult",
+              "Least difficult"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "NIST advises customizing the method to the organization and applying it consistently, so difficulty ratings stay comparable across campaigns. In practice, start most staff on least or moderately difficult emails, raise difficulty as reporting improves, and reserve very difficult, highly targeted lures for roles that real attackers target, such as finance approvers and system administrators. SP 800-50 Rev. 1 notes that exercises can target specific roles such as leadership or administrators."
+        }
+      ]
+    },
+    {
+      "id": "design-steps",
+      "heading": "What are the steps to design the program?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "There are seven steps. The first two are governance and must be complete before any email is sent."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Set governance.** Name the program owner, legal and privacy reviewers, and the escalation route for staff who report distress or complaints. Approve the ground rules above.",
+            "**Publish the notice and reporting route.** Make reporting easy, ideally with a report button in the email client, and confirm that reports of simulations and real phishing go to the same place.",
+            "**Baseline.** Send a least difficult or moderately difficult email to establish click and report rates by group. SP 800-50 Rev. 1 suggests determining current click rates by group or work role to see where targeted training is needed.",
+            "**Build a campaign calendar.** Vary channel, premise and difficulty. Avoid predictable timing.",
+            "**Rate each lure.** Score cues and premise alignment, record the Phish Scale rating, and get legal sign off on the content.",
+            "**Respond at the moment of failure and success.** A click leads to a short explanation of the cues the person missed. A report gets an acknowledgment, which reinforces the behavior you want.",
+            "**Review quarterly.** Interpret results by difficulty and role, adjust the curriculum, and report trends to governance."
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative 12 month campaign plan",
+          "head": [
+            "Quarter",
+            "Audience",
+            "Channel and premise",
+            "Target difficulty",
+            "Learning follow up"
+          ],
+          "rows": [
+            [
+              "Q1",
+              "All staff",
+              "Email, generic delivery notice with several cues",
+              "Least to moderately difficult (baseline)",
+              "Short module on the five cue types; how to use the report button"
+            ],
+            [
+              "Q2",
+              "All staff, split by function",
+              "Email, internal IT or HR premise aligned to each function",
+              "Moderately difficult",
+              "Function specific examples drawn from real reported phishing"
+            ],
+            [
+              "Q3",
+              "Finance approvers, administrators, executives",
+              "Email or voice, payment change or credential reset with few cues",
+              "Very difficult",
+              "Role based session on verification procedures, such as call back rules"
+            ],
+            [
+              "Q4",
+              "All staff",
+              "SMS, account alert premise",
+              "Moderately difficult",
+              "Annual refresher with a training check, as CISA recommends"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metrics",
+      "heading": "What should a phishing simulation program measure?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Measure behavior change, chiefly reporting, and always read results alongside difficulty. NIST SP 800-50 Rev. 1 gives \"behavior change per participant\" as an example metric, measured as the number of participants who received a phishing test email and reported it appropriately, and says learning program measurement must go beyond simply achieving compliance."
+        },
+        {
+          "type": "table",
+          "caption": "Phishing simulation metrics and how to interpret them",
+          "head": [
+            "Metric",
+            "What it shows",
+            "Interpretation note"
+          ],
+          "rows": [
+            [
+              "Report rate",
+              "Share of recipients who reported the email",
+              "The primary positive indicator; rising reporting builds the organization's early warning capability"
+            ],
+            [
+              "Click rate",
+              "Share of recipients who clicked a link or opened an attachment",
+              "Compare only between emails with similar Phish Scale ratings"
+            ],
+            [
+              "Credential or data submission rate",
+              "Share who entered credentials or data after clicking",
+              "Usually the most consequential failure; target role based follow up here"
+            ],
+            [
+              "Time to first report",
+              "Minutes between delivery and the first report",
+              "Indicates how quickly a real campaign could be contained"
+            ],
+            [
+              "Real phishing reports",
+              "Reports of genuine suspicious messages",
+              "Shows transfer from simulation to real behavior"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Report results as trends by group and difficulty level, not as league tables of individuals. When results are poor, SP 800-50 Rev. 1 suggests repeating the message through different media rather than simply sending more tests. Link the findings to your wider [training effectiveness measurement](/guides/how-to-measure-training-effectiveness)."
+        }
+      ]
+    },
+    {
+      "id": "repeat-clickers",
+      "heading": "What should happen when someone clicks repeatedly?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Treat repeat clicking as a signal that the person needs different support, not as misconduct, consistent with the NIST position that exercises should not be punitive. Repeat failures often reflect workload, role exposure or a learning format that does not suit the person."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Offer a short one to one session or a different format, such as a walkthrough of real examples from their own inbox type.",
+            "Check whether the role receives unusually high volumes of external email, and whether technical controls could reduce exposure.",
+            "Keep any escalation to managers within a documented, proportionate process agreed at governance level.",
+            "Watch for [training fatigue](/guides/how-to-reduce-compliance-training-fatigue): too many simulations can make people ignore all email, including legitimate requests."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models the behaviors a phishing program targets, such as recognizing each cue type and following verification procedures, as defined concepts with assessment points. Simulation results can then be mapped to the specific concept a group has not mastered, rather than to a single click rate. See [framework intelligence](/platform/framework-intelligence)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do employees need to consent to phishing simulations?",
+      "a": "Individual consent before each email would defeat the purpose. The common approach is informed notice at program level: NIST SP 800-50 Rev. 1 says to tell employees that exercises are conducted on a random basis and that results will guide future learning. Check data protection law and any employee consultation rights in your jurisdiction before launch."
+    },
+    {
+      "q": "How often should phishing simulations run?",
+      "a": "No NIST or CISA document cited here sets a fixed frequency. Choose a cadence that keeps the behavior current without causing fatigue, vary the timing so campaigns are not predictable, and run more targeted campaigns for high exposure roles. Review the cadence when report rates plateau."
+    },
+    {
+      "q": "Should staff who click be disciplined?",
+      "a": "NIST SP 800-50 Rev. 1 says phishing exercises should not be punitive and that no employee should be called out for their response. Discipline discourages reporting, including reporting of real mistakes, which is the behavior an organization most needs when a genuine phishing email gets through."
+    },
+    {
+      "q": "Can we impersonate a real brand or supplier in a simulation?",
+      "a": "NIST advises including the legal team in lure design to avoid using legitimate brands or naming federal organizations, because this can lead to emails or calls to those organizations. Impersonating real suppliers or regulators carries similar risks. Use fictional but plausible senders instead."
+    },
+    {
+      "q": "Is the NIST Phish Scale free to use?",
+      "a": "Yes. It is published as NIST Technical Note 2276 (November 2023), which includes worksheets for applying the method and appendices describing each cue. NIST notes that implementers should customize it to their own environment and apply it consistently."
+    }
+  ],
+  "sources": [
+    {
+      "title": "SP 800-50 Rev. 1, Building a Cybersecurity and Privacy Learning Program",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-50r1.pdf"
+    },
+    {
+      "title": "TN 2276, NIST Phish Scale User Guide",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://csrc.nist.gov/pubs/tn/2276/final"
+    },
+    {
+      "title": "NIST TN 2276 (full text, November 2023)",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2276.pdf"
+    },
+    {
+      "title": "Phishing Guidance: Stopping the Attack Cycle at Phase One",
+      "publisher": "Cybersecurity and Infrastructure Security Agency (CISA), NSA, FBI and MS-ISAC",
+      "url": "https://www.cisa.gov/resources-tools/resources/phishing-guidance-stopping-attack-cycle-phase-one"
+    }
+  ],
+  "related": [
+    "nist-sp-800-50-security-awareness-training",
+    "how-to-measure-training-effectiveness",
+    "how-to-reduce-compliance-training-fatigue",
+    "iso-27001-awareness-training-requirements",
+    "how-to-run-a-tabletop-exercise"
+  ],
+  "productLinks": [
+    {
+      "label": "Framework intelligence",
+      "href": "/platform/framework-intelligence"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "SP 800-50r1 section 2.7.2: legal team in design and review of phishing exercises to avoid using legitimate brands or naming federal organizations; tell employees exercises are random and results guide learning; 'These activities should not be punitive, nor should any employee be called out for their response'; exercises can target roles such as leadership or administrators; determine current click rates by group or role; NIST Phish Scale referenced.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-50r1.pdf"
+    },
+    {
+      "claim": "SP 800-50r1 example metric 'Behavior Change per Participant': number who received a phishing test email and reported it appropriately; measurements must go beyond simply achieving compliance; repeat campaign through different mediums when click-through is high.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-50r1.pdf"
+    },
+    {
+      "claim": "TN 2276 (November 2023): embedded phishing awareness training programs; click rate and reporting rate definitions; rates provide a single point of insight; two components (cues and premise alignment); five cue types with 23 cues; Table 7 detection difficulty matrix; customize and apply consistently; worksheets in Appendix A.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2276.pdf"
+    },
+    {
+      "claim": "CISA/NSA/FBI/MS-ISAC phishing guidance (October 18, 2023) recommends a standard anti-phishing training program, annual review of training material and a concluding training check; regularly educate users including on reporting.",
+      "source": "https://www.cisa.gov/sites/default/files/2023-10/Phishing%20Guidance%20-%20Stopping%20the%20Attack%20Cycle%20at%20Phase%20One_508c.pdf"
+    }
+  ]
+}

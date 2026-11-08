@@ -1,0 +1,310 @@
+{
+  "slug": "how-to-run-a-tabletop-exercise",
+  "kind": "guide",
+  "title": "How do you run a tabletop exercise?",
+  "seoTitle": "How to run a tabletop exercise",
+  "description": "How to run a tabletop exercise: set objectives from the plan, write a short scenario, assign a facilitator and data collector, debrief, and close actions.",
+  "shortAnswer": "A tabletop exercise is run by choosing the plan to validate, setting objectives tied to its roles and decisions, writing a short scenario with questions tailored to the audience, and assigning a facilitator to lead discussion and a data collector to record it. After a debrief, the team writes an after action report and assigns owners to update the plan and close any training gaps it exposed.",
+  "keyTakeaways": [
+    "A tabletop exercise is a facilitated, discussion based event: no systems are touched and no equipment is deployed. NIST SP 800-84 describes it this way and gives a typical length of two to eight hours.",
+    "Objectives come from the plan being exercised: validate its content, the roles it assigns, and the dependencies it assumes.",
+    "Short scenarios work better than long ones. Detail invites participants to argue about the scenario instead of meeting the objectives.",
+    "Run senior and operational teams separately first, then together, so each level is tested on its own decisions before coordination is tested.",
+    "The output that matters is the after action report and the owned actions that follow it, including training for gaps the exercise exposed."
+  ],
+  "sections": [
+    {
+      "id": "what-it-is",
+      "heading": "What is a tabletop exercise?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A tabletop exercise is a discussion based event in which the people named in a plan talk through how they would respond to a hypothetical incident, guided by a facilitator. It tests whether the plan, and the people's understanding of it, would hold up, without disrupting operations."
+        },
+        {
+          "type": "p",
+          "text": "The US National Institute of Standards and Technology (NIST) defines it in [SP 800-84, Guide to Test, Training, and Exercise Programs for IT Plans and Capabilities](https://csrc.nist.gov/pubs/sp/800/84/final): personnel with roles in a plan meet in a classroom setting or breakout groups, a facilitator presents a scenario and asks questions, and the discussion covers roles, responsibilities, coordination and decision making. A tabletop exercise \"is discussion-based only and does not involve deploying equipment or other resources.\" SP 800-84 contrasts this with a functional exercise, in which staff carry out their roles in a simulated operational environment."
+        },
+        {
+          "type": "p",
+          "text": "Tabletop exercises sit between training and testing. NIST SP 800-50 Rev. 1 lists them among the experiential learning activities suited to people with significant cybersecurity or privacy responsibilities ([SP 800-50r1, section 2.7.2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-50r1.pdf); see [NIST SP 800-50 security awareness training](/regulations/nist-sp-800-50-security-awareness-training)). The method is not limited to IT: the US Cybersecurity and Infrastructure Security Agency (CISA) publishes more than 100 tabletop exercise packages covering cyber, physical and cyber-physical scenarios ([CISA](https://www.cisa.gov/resources-tools/services/cisa-tabletop-exercise-packages))."
+        }
+      ]
+    },
+    {
+      "id": "when",
+      "heading": "When should an organization run a tabletop exercise?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Run one periodically for each plan that matters, and again after organizational changes, plan updates, or new guidance. SP 800-84 recommends exactly these triggers and adds a sequencing point: participants should already have been trained on their roles, so schedule the exercise a reasonable time after the related training event, or combine the two."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Periodic validation.** A plan nobody has rehearsed is an untested assumption. Set a cycle per plan and record the reason for it.",
+            "**After change.** A restructure, a new outsourced provider, a new system or a revised plan changes who does what. Exercise the changed part.",
+            "**After an incident or near miss.** Use a scenario close to what happened to check that the corrective actions work.",
+            "**When a regime requires exercises or tests.** SP 800-84 notes, for example, that NIST SP 800-53 required US federal agencies to exercise or test system contingency plans at least annually. Check the specific requirement in your own regime rather than assuming one."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "heading": "What are the steps to run a tabletop exercise?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "There are eight steps, grouped into design, development, conduct and evaluation. Design usually takes the longest: SP 800-84 says planning typically starts at least one month ahead for less complex exercises and at least three months ahead for large, complex ones."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Confirm the need and get management approval.** Name the plan, the reason for exercising it now, and the approving manager. SP 800-84 treats management agreement as an essential step.",
+            "**Set the topic and scope.** The topic follows the plan (incident response, business continuity, a product recall). The scope follows the audience: senior teams and operational teams first exercise separately, then together.",
+            "**Write objectives.** Validate the plan's content, the roles and responsibilities it documents, and the dependencies it assumes. Add any specific regulatory objective. Write each as something observable, so the data collector knows what to look for (see [how to write measurable learning outcomes](/guides/how-to-write-measurable-learning-outcomes)).",
+            "**Select participants and staff.** Invite the people who hold roles in the plan. Appoint a facilitator to lead discussion and a data collector to record it; both should know the plan and the objectives well.",
+            "**Develop the materials.** A briefing (agenda and logistics), a facilitator guide (purpose, scope, objectives, scenario, questions, and a copy of the plan), a participant guide (the same without the full question list), and evaluation criteria written before the event.",
+            "**Conduct the exercise.** Introductions and roles, the briefing, the scenario, then a kickoff question. Let discussion run, inject further questions when it stalls, and steer back to objectives when people dissect the scenario.",
+            "**Debrief immediately.** In the hotwash, ask participants where they performed well, where they need more training, and which parts of the plan should change.",
+            "**Report and act.** Write the after action report, assign owners and dates to each recommendation, update the plan, and feed training gaps into the training plan."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planning-checklist",
+      "heading": "What does a tabletop exercise planning checklist look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use a timeline that works back from the exercise date. The template below is an original planning aid built on the SP 800-84 method; adjust the lead times to the size of the exercise."
+        },
+        {
+          "type": "table",
+          "caption": "Tabletop exercise planning template (illustrative lead times for a less complex exercise)",
+          "head": [
+            "When",
+            "Task",
+            "Owner",
+            "Output"
+          ],
+          "rows": [
+            [
+              "6 weeks before",
+              "Confirm plan, reason and approving manager; set topic, scope and audience level",
+              "Exercise coordinator",
+              "One page exercise charter"
+            ],
+            [
+              "5 weeks before",
+              "Write three to five observable objectives and the evaluation criteria for each",
+              "Coordinator with plan owner",
+              "Objectives and criteria sheet"
+            ],
+            [
+              "4 weeks before",
+              "Name participants, facilitator and data collector; send invitations; book room or virtual session",
+              "Logistics lead",
+              "Invitation list and calendar holds"
+            ],
+            [
+              "3 weeks before",
+              "Draft the scenario and questions, tailored to senior or operational level",
+              "Design team with a trusted agent who knows the plan",
+              "Facilitator guide draft"
+            ],
+            [
+              "1 week before",
+              "Finalize guides; facilitator and data collector review objectives and earlier reports; optionally send participant guides",
+              "Facilitator and data collector",
+              "Final facilitator and participant guides"
+            ],
+            [
+              "Exercise day",
+              "Brief, run scenario and questions, record observations, hold the hotwash",
+              "Facilitator and data collector",
+              "Observation notes and hotwash notes"
+            ],
+            [
+              "Within 2 weeks after",
+              "Write the after action report; assign actions with owners and dates",
+              "Coordinator",
+              "After action report and action log"
+            ],
+            [
+              "Next review cycle",
+              "Confirm actions closed, plan updated, training delivered; decide on the next exercise",
+              "Plan owner",
+              "Closure record"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The one week lead time for participant guides follows SP 800-84, which suggests that guides sent too early are forgotten and guides sent too late go unread. The other intervals are illustrative."
+        }
+      ]
+    },
+    {
+      "id": "scenario",
+      "heading": "How do you write the scenario and the questions?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Keep the scenario short and make the questions do the work. SP 800-84 calls the belief that scenarios must be very detailed a common misconception: with long scenarios, participants spend their time debating the scenario rather than meeting the objectives."
+        },
+        {
+          "type": "p",
+          "text": "Tailor questions to the level of the room. Senior participants get questions about decisions, escalation and oversight. Operational participants get questions about specific procedures, handoffs and tools. Each question should map to an objective, so the data collector can tell whether the objective was met."
+        },
+        {
+          "type": "callout",
+          "title": "Illustrative example: an operational level scenario",
+          "text": "Scenario (three sentences): At 07:40 on a Monday, the service desk receives several calls from staff who cannot open shared files, and one caller reports a message demanding payment. The overnight backup job shows as completed. A regional office says its systems seem normal. Questions mapped to objectives: Who declares an incident, and on what criteria? (roles) Who contacts the outsourced IT provider, and how? (dependencies) Which systems are isolated first, and who approves it? (plan content) What do you tell staff, and who signs off the message? (roles) What evidence must be preserved before restoring from backup? (plan content)"
+        },
+        {
+          "type": "p",
+          "text": "If your team has never exercised before, start from a published package and adapt it. CISA's packages include template objectives, scenarios, discussion questions, an invitation, a slide deck, a feedback form and an after action report template ([CISA](https://www.cisa.gov/resources-tools/services/cisa-tabletop-exercise-packages))."
+        }
+      ]
+    },
+    {
+      "id": "evaluation",
+      "heading": "How do you evaluate the exercise and keep the evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Evaluate against the criteria written before the exercise, and record the result in an after action report. SP 800-84 says the report should describe the purpose, objectives, participants and scenario, document the facilitator's and data collector's observations, and recommend improvements to the plan."
+        },
+        {
+          "type": "p",
+          "text": "Then close the loop. Each recommendation needs an owner, a date and a closure record. Typical outcomes fall into three groups: plan changes (a missing contact, an unrealistic recovery time), process changes (an approval step nobody owns), and capability gaps (people unsure of their role). The third group is a training need. Treat it the way you would treat any finding, by analyzing the cause and assigning a corrective action, as in [using training in a CAPA](/guides/how-to-use-training-in-a-capa)."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Keep the charter, objectives and criteria, guides, attendance list, observation notes, hotwash notes and the after action report together as one exercise record.",
+            "Record each participant's attendance against their plan role in the training record, not just a generic completion.",
+            "Link each action to the plan version it changed, so a reviewer can see the exercise led to a change.",
+            "When reporting to a regulator or auditor, show the trend across exercises: objectives met, actions closed, repeat findings. See [how to evidence training effectiveness to a regulator](/guides/how-to-evidence-training-effectiveness-to-a-regulator)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry treats a plan's roles, decisions and dependencies as defined concepts with assessment points, so exercise objectives and after action findings can be mapped to the same structure as the training. A gap found in an exercise then points to a specific concept and the people who hold that role, which makes remediation traceable. See [gap analysis](/platform/gap-analysis) and [remediation](/platform/remediation)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long should a tabletop exercise last?",
+      "a": "NIST SP 800-84 gives a typical range of two to eight hours, depending on audience, topic and objectives. Senior level exercises typically run two to four hours and operational level exercises two to eight. For exercises longer than four hours, SP 800-84 suggests running a training session alongside, so participants' knowledge of their roles is current."
+    },
+    {
+      "q": "What is the difference between a tabletop exercise and a functional exercise?",
+      "a": "A tabletop exercise is discussion only: participants describe what they would do. A functional exercise has participants carry out their roles in a simulated operational environment, for example making notifications or setting up equipment. Tabletops are cheaper and suit plan validation and early maturity; functional exercises test whether people can actually execute."
+    },
+    {
+      "q": "Who should facilitate a tabletop exercise?",
+      "a": "Someone who knows the plan and the objectives well and can steer discussion without answering for the participants. SP 800-84 pairs the facilitator with a data collector who records observations. An external facilitator can help when senior participants would not otherwise be challenged, or when the plan owner is too close to the plan to test it."
+    },
+    {
+      "q": "Should senior leaders and operational staff be in the same exercise?",
+      "a": "Not at first. SP 800-84 recommends separate exercises for senior and operational teams because their responsibilities differ, followed by a combined exercise once both have been exercised individually, to validate coordination between them."
+    },
+    {
+      "q": "Is a tabletop exercise training or testing?",
+      "a": "It is both, which is why it should be recorded as both. Participants learn their roles by rehearsing them, and the organization learns whether the plan works. Record attendance and role in the training record, and keep the after action report as evidence that the plan was exercised."
+    }
+  ],
+  "sources": [
+    {
+      "title": "SP 800-84, Guide to Test, Training, and Exercise Programs for IT Plans and Capabilities",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://csrc.nist.gov/pubs/sp/800/84/final"
+    },
+    {
+      "title": "NIST SP 800-84 (full text, September 2006)",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-84.pdf"
+    },
+    {
+      "title": "CISA Tabletop Exercise Packages",
+      "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+      "url": "https://www.cisa.gov/resources-tools/services/cisa-tabletop-exercise-packages"
+    },
+    {
+      "title": "SP 800-50 Rev. 1, Building a Cybersecurity and Privacy Learning Program",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-50r1.pdf"
+    },
+    {
+      "title": "SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://csrc.nist.gov/pubs/sp/800/61/r3/final"
+    }
+  ],
+  "related": [
+    "nist-sp-800-50-security-awareness-training",
+    "how-to-use-training-in-a-capa",
+    "how-to-evidence-training-effectiveness-to-a-regulator",
+    "how-to-write-measurable-learning-outcomes",
+    "how-to-design-a-phishing-simulation-program"
+  ],
+  "productLinks": [
+    {
+      "label": "Gap analysis",
+      "href": "/platform/gap-analysis"
+    },
+    {
+      "label": "Remediation",
+      "href": "/platform/remediation"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "SP 800-84 (September 2006): tabletop exercises are discussion-based; facilitator presents scenario and asks questions; discussion-based only and does not involve deploying equipment or other resources; functional exercises validate operational readiness in a simulated environment.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-84.pdf"
+    },
+    {
+      "claim": "SP 800-84 section 4: typical duration two to eight hours; senior-level two to four hours, operational two to eight; training session recommended alongside exercises over four hours.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-84.pdf"
+    },
+    {
+      "claim": "SP 800-84 4.1 and 4.2: conduct periodically and after organizational changes, plan updates or new TT&E guidance; schedule after training; management approval essential; planning at least one month ahead, three months for large complex exercises; senior and operational teams separately first then combined.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-84.pdf"
+    },
+    {
+      "claim": "SP 800-84 4.2.3: objectives validate plan content, roles and interdependencies; notes SP 800-53 requirement for federal agencies to exercise or test contingency plans at least annually.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-84.pdf"
+    },
+    {
+      "claim": "SP 800-84 4.2.5, 4.3 to 4.5: facilitator and data collector; briefing, facilitator guide, participant guide, after action report with pre-identified evaluation criteria; short scenarios more effective; hotwash questions; AAR contents; participant guides about one week in advance (footnote 15).",
+      "source": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-84.pdf"
+    },
+    {
+      "claim": "CISA offers over 100 CTEPs with template objectives, scenarios, discussion questions; cyber, physical and convergence scenarios; documents include invitation, slide deck, feedback form and After Action Report template.",
+      "source": "https://www.cisa.gov/resources-tools/services/cisa-tabletop-exercise-packages"
+    },
+    {
+      "claim": "SP 800-50r1 section 2.7.2 lists tabletop exercises among experiential learning suited to those with significant cybersecurity or privacy responsibilities and refers to SP 800-84.",
+      "source": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-50r1.pdf"
+    },
+    {
+      "claim": "SP 800-61 Rev. 3 published April 2025, supersedes Rev. 2.",
+      "source": "https://csrc.nist.gov/pubs/sp/800/61/r3/final"
+    }
+  ]
+}

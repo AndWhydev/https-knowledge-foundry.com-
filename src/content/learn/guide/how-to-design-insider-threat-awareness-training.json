@@ -1,0 +1,250 @@
+{
+  "slug": "how-to-design-insider-threat-awareness-training",
+  "kind": "guide",
+  "title": "How do you design insider threat awareness training?",
+  "seoTitle": "Insider threat awareness training",
+  "description": "How to design insider threat awareness training: cover unintentional and malicious threats, indicators and reporting, tier by role, and protect privacy.",
+  "shortAnswer": "Design insider threat awareness training around what employees can actually do: avoid negligent and accidental mistakes, recognize concerning behaviors, and report them through a trusted, confidential route. Cover both unintentional and malicious insider threats, give specific examples, train before access is granted and refresh annually, add deeper training for managers and program staff, and include privacy and civil liberties so the program is not experienced as surveillance.",
+  "keyTakeaways": [
+    "Insider threat is broader than espionage. The US Cybersecurity and Infrastructure Security Agency (CISA) defines it to include malicious, negligent and unintentional acts by people with authorized access.",
+    "CISA's 2026 guide says a majority of recent insider threats are unintentional and negligent, so good security habits are a core part of the curriculum, not an add on.",
+    "Reporting is the behavior to build. Training must explain how to report confidentially and address the fears that stop people reporting.",
+    "In US defense contracting, NISPOM section 117.12(g) sets minimum topics and requires training before access to classified information and annually thereafter.",
+    "Program personnel need separate training on response procedures and on the legal, privacy and civil liberties limits of their work."
+  ],
+  "sections": [
+    {
+      "id": "what-it-covers",
+      "heading": "What should insider threat awareness training cover?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It should cover what an insider threat is, the forms it takes, the behaviors that may indicate one, and how to report concerns. CISA's [Insider Threat Mitigation Guide](https://www.cisa.gov/resources-tools/resources/insider-threat-mitigation-guide) (2026 edition) defines an insider as any person who has or had authorized access to or knowledge of an organization's resources, and an insider threat as \"the potential for an insider to use their authorized access or special understanding of an organization to harm that organization,\" including malicious, negligent or unintentional acts."
+        },
+        {
+          "type": "p",
+          "text": "That definition matters for design. Contractors and former staff can be insiders, and most harm does not come from spies. CISA states that \"a majority of recent insider threats are unintentional and negligent in nature,\" and distinguishes negligent insiders, who know the rules but ignore them (letting someone tailgate through a secure door, ignoring patch prompts), from accidental insiders, who make honest mistakes (misaddressing an email, clicking a phishing link). It notes that negligent behaviors can be changed through awareness."
+        },
+        {
+          "type": "p",
+          "text": "CISA recommends that training programs include insider threat awareness (types, motivations and behaviors, with specific examples), reporting (how to report suspicious activity confidentially), physical and information security, security policy awareness including acceptable use, classification and handling of sensitive information, and the agreements staff sign, such as acceptable use and non-disclosure agreements ([CISA guide, PDF](https://www.cisa.gov/sites/default/files/2026-09/cisa-insider-threat-mitigation-guide-2026.pdf))."
+        }
+      ]
+    },
+    {
+      "id": "requirements",
+      "heading": "Which rules require insider threat training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mandatory requirements are concentrated in national security settings; elsewhere insider threat training is usually part of security, fraud or conduct obligations rather than a named requirement. The US defense industrial base is the clearest example."
+        },
+        {
+          "type": "p",
+          "text": "Under the National Industrial Security Program Operating Manual (NISPOM), 32 CFR 117.12(g)(2), cleared contractors must provide insider threat awareness training to all cleared employees annually, and to newly cleared employees before granting access to classified information. The training must address current and potential threats in the work and personal environment and include at a minimum: the importance of detecting potential insider threats and reporting suspected activity to the insider threat program designee; methodologies adversaries use to recruit trusted insiders and collect classified information, in particular within information systems; indicators of insider threat behavior and procedures to report them; and counterintelligence and security reporting requirements. Contractors must also establish procedures to validate completion ([32 CFR 117.12](https://www.law.cornell.edu/cfr/text/32/117.12); see [NISPOM security training requirements](/regulations/nispom-security-training-requirements))."
+        },
+        {
+          "type": "p",
+          "text": "Federal agency programs trace to Executive Order 13587 (October 2011), which established the National Insider Threat Task Force (NITTF), and to the National Insider Threat Policy and Minimum Standards issued in November 2012 ([NITTF](https://www.dni.gov/index.php/ncsc-how-we-work/ncsc-nittf)). CISA's guide adapts NITTF's guidelines for public and private organizations. Other markets have comparable protective security frameworks for government and defense suppliers; see, for example, [PSPF security awareness training](/regulations/pspf-security-awareness-training) and [the Defence Industry Security Program](/regulations/defence-industry-security-program-requirements) in Australia."
+        }
+      ]
+    },
+    {
+      "id": "audiences",
+      "heading": "How should training differ by audience?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Give everyone the awareness and reporting core, then add depth for managers, privileged users and program staff. NISPOM separates training for insider threat program personnel (117.12(g)(1)) from awareness training for all cleared employees (117.12(g)(2)), and CISA recommends specialized training for the governance group and threat management team."
+        },
+        {
+          "type": "table",
+          "caption": "Insider threat curriculum by audience (original template)",
+          "head": [
+            "Audience",
+            "Learning outcomes",
+            "Suggested assessment evidence"
+          ],
+          "rows": [
+            [
+              "All staff, contractors and consultants",
+              "Explain what an insider threat is, including unintentional acts; apply secure handling and access habits; recognize concerning behaviors; describe how to report confidentially",
+              "Scenario questions on indicators and reporting choices; completion before access is granted"
+            ],
+            [
+              "People managers",
+              "Recognize stressors and behavior changes in context; respond supportively; escalate through the program rather than investigating alone; protect confidentiality",
+              "Case based discussion or role play scored against a rubric"
+            ],
+            [
+              "Privileged and high access users",
+              "Apply controls specific to their access (separation of duties, logging, data transfer rules); recognize targeting and recruitment approaches aimed at them",
+              "Role specific scenarios; attestation to acceptable use and non-disclosure agreements"
+            ],
+            [
+              "Insider threat program and threat management staff",
+              "Apply response procedures; handle records lawfully; apply privacy and civil liberties requirements; refer matters for investigation correctly",
+              "Exercise performance, for example in a [tabletop exercise](/guides/how-to-run-a-tabletop-exercise); procedure knowledge checks"
+            ],
+            [
+              "Senior leaders and governance group",
+              "Oversee the program, its legal limits and its effectiveness measures; model reporting culture",
+              "Briefing records; participation in exercises and program reviews"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The program staff row reflects NISPOM's required topics for insider threat program personnel: counterintelligence and security fundamentals, procedures for insider threat response actions, laws and regulations on gathering, integrating, retaining, safeguarding and using records and data (including the consequences of misuse), and legal, civil liberties and privacy policies."
+        }
+      ]
+    },
+    {
+      "id": "reporting",
+      "heading": "How do you build a reporting culture rather than suspicion?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Teach reporting as a supportive act, explain what happens after a report, and be honest about confidentiality. CISA notes that people hesitate to report for fear of consequences, getting it wrong, harming someone unnecessarily, ridicule, not being taken seriously, or distrust of confidentiality, and that training and awareness, leadership support and clear policies can mitigate these barriers."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Explain that the program exists to help both the organization and the individual, and that many concerns are resolved with support rather than discipline.",
+            "Show the reporting routes, including anonymous options, and what the reporter will and will not be told afterward.",
+            "Use examples of behaviors (accessing areas or systems outside role, unusual hours, expressed intent to harm, attempts to remove data) rather than profiles of people.",
+            "Say plainly that reporting must not be used to target colleagues for protected characteristics or protected activity such as whistleblowing, and link to the [whistleblower policy](/regulations/whistleblower-policy-training-requirements) where one applies.",
+            "Tell staff how their own data is used by the program, consistent with privacy law."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Illustrative scenario for all staff training",
+          "text": "A colleague in your team, who recently missed out on a promotion, has started staying late, has asked you twice for access to a project folder outside their role, and mentions they are talking to a competitor about a job. Questions: Which of these behaviors are concerning, and which are ordinary? What should you avoid doing yourself? Where do you report, and what will happen next? This scenario tests recognition of indicators in context and the correct reporting route, without asking learners to judge the person."
+        }
+      ]
+    },
+    {
+      "id": "cadence",
+      "heading": "When and how often should the training happen?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Train before access is granted and refresh at least annually, with reinforcement in between. CISA recommends that training begin as soon as an individual is granted access to facilities and networks as part of onboarding, that refresher training typically take place annually, and that training be documented, recorded and tracked. NISPOM sets annual training and training before access for newly cleared employees as a legal minimum for cleared contractors."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Onboarding: core awareness and reporting before system or facility access, including for contractors.",
+            "Role change: added modules when someone gains privileged access or management responsibility.",
+            "Annual refresher: updated examples and any policy changes.",
+            "Reinforcement: posters, newsletters, alerts and all hands briefings, which CISA lists as supplements.",
+            "Event driven: after a relevant incident or exercise finding, using lessons learned."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Measure more than completion. Track reporting volume and quality, time to report, and scenario performance, and use [competency assessments](/guides/how-to-design-competency-assessments) for program staff."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps each required topic, such as the four NISPOM minimum awareness topics, to defined concepts and assessment points, so an organization can show which requirement each module and question covers, per audience. See [standards and accreditation](/platform/standards-accreditation) and [government and defense](/industries/government-defence)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is insider threat training only for organizations with classified information?",
+      "a": "No. It is mandatory for cleared US defense contractors under NISPOM, but CISA's guide is written for public and private organizations generally. Any organization whose staff, contractors or former staff have access to valuable data, systems, money or facilities faces insider risk, much of it unintentional."
+    },
+    {
+      "q": "Does insider threat training create a culture of suspicion?",
+      "a": "It can if it profiles people. It is less likely to when it focuses on behaviors, explains that reporting is supportive and confidential, includes the organization's own privacy and civil liberties commitments, and stresses that most insider incidents are mistakes that better habits prevent."
+    },
+    {
+      "q": "What are the NISPOM minimum topics for insider threat awareness training?",
+      "a": "Under 32 CFR 117.12(g)(2): the importance of detecting potential insider threats and reporting suspected activity; methodologies adversaries use to recruit trusted insiders and collect classified information, in particular within information systems; indicators of insider threat behavior and reporting procedures; and counterintelligence and security reporting requirements, as applicable."
+    },
+    {
+      "q": "Should contractors receive insider threat training?",
+      "a": "Yes. CISA's guide says all organizational personnel, including members, contractors and consultants, should receive training, and its definition of an insider includes contractors and external third parties with access. Under NISPOM, all cleared employees of a cleared contractor must be trained."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Insider Threat Mitigation Guide (2026 edition)",
+      "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+      "url": "https://www.cisa.gov/resources-tools/resources/insider-threat-mitigation-guide"
+    },
+    {
+      "title": "Insider Threat Mitigation Guide 2026 (PDF)",
+      "publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+      "url": "https://www.cisa.gov/sites/default/files/2026-09/cisa-insider-threat-mitigation-guide-2026.pdf"
+    },
+    {
+      "title": "32 CFR 117.12 Security training and briefings",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/32/117.12"
+    },
+    {
+      "title": "32 CFR 117.12 (eCFR)",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-32/section-117.12"
+    },
+    {
+      "title": "National Insider Threat Task Force (NITTF)",
+      "publisher": "Office of the Director of National Intelligence, National Counterintelligence and Security Center",
+      "url": "https://www.dni.gov/index.php/ncsc-how-we-work/ncsc-nittf"
+    }
+  ],
+  "related": [
+    "nispom-security-training-requirements",
+    "pspf-security-awareness-training",
+    "defence-industry-security-program-requirements",
+    "cmmc-security-awareness-training",
+    "how-to-run-a-tabletop-exercise",
+    "how-to-design-competency-assessments"
+  ],
+  "productLinks": [
+    {
+      "label": "Standards and accreditation",
+      "href": "/platform/standards-accreditation"
+    },
+    {
+      "label": "Government and defense",
+      "href": "/industries/government-defence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "CISA Insider Threat Mitigation Guide 2026 edition: definitions of insider and insider threat (malicious, negligent, unintentional); 'A majority of recent insider threats are unintentional and negligent in nature'; negligent vs accidental examples; negligent behaviors can be changed with awareness.",
+      "source": "https://www.cisa.gov/sites/default/files/2026-09/cisa-insider-threat-mitigation-guide-2026.pdf"
+    },
+    {
+      "claim": "CISA guide 'Implement a Formal Training and Awareness Program': all personnel including members, contractors and consultants; recommended training topics; specialized training for governance group and threat management team; training continuous, begins at access as part of onboarding, refresher typically annual, documented, recorded and tracked; supplements such as posters, newsletters, alert emails, all-hands meetings.",
+      "source": "https://www.cisa.gov/sites/default/files/2026-09/cisa-insider-threat-mitigation-guide-2026.pdf"
+    },
+    {
+      "claim": "CISA guide: reporting barriers (fear of consequences, getting it wrong, ridicule, not taken seriously, distrust of confidentiality) mitigated through training, leadership buy-in, clear policies, privacy protection; examples of concerning behaviors.",
+      "source": "https://www.cisa.gov/sites/default/files/2026-09/cisa-insider-threat-mitigation-guide-2026.pdf"
+    },
+    {
+      "claim": "32 CFR 117.12(g)(1) program personnel training topics; (g)(2) annual awareness training for all cleared employees, before access for newly cleared, four minimum topics, CSA may conduct; (g)(3) validate completion.",
+      "source": "https://www.law.cornell.edu/cfr/text/32/117.12"
+    },
+    {
+      "claim": "E.O. 13587 issued October 2011 established the NITTF; National Insider Threat Policy and Minimum Standards issued November 2012 via Presidential Memorandum.",
+      "source": "https://www.dni.gov/index.php/ncsc-how-we-work/ncsc-nittf"
+    }
+  ]
+}
