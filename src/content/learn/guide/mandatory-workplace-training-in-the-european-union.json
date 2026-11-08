@@ -1,0 +1,779 @@
+{
+  "slug": "mandatory-workplace-training-in-the-european-union",
+  "kind": "guide",
+  "title": "What training is mandatory for employers in the European Union?",
+  "seoTitle": "Mandatory workplace training: EU",
+  "description": "Mandatory employer training under EU law by theme: safety directives, GDPR, NIS2, DORA, AI Act, AML, financial competence, GMP and transport licensing.",
+  "shortAnswer": "As at November 2026, EU law requires employers to train workers on safety and health under the OSH Framework Directive and its individual directives, and sets sector training duties in financial services, pharmaceuticals, medical devices and transport. Regulations such as GDPR, DORA and the AI Act apply directly, while directives such as NIS2 reach employers through national laws. Member States can add stricter or more detailed rules, so the EU layer is a floor.",
+  "keyTakeaways": [
+    "EU training duties come in two legal forms: regulations, which apply directly in every Member State, and directives, which apply through national transposing laws that can add detail.",
+    "The OSH Framework Directive requires training on recruitment, transfer, new equipment and new technology, repeated periodically if necessary, and nine individual directives add topic training.",
+    "Fixed intervals are rare and concentrated in transport and sterile manufacturing: 35 hours every five years for professional drivers, annual gowning reassessment under GMP Annex 1, and 12 month recurrent checks for aircrew.",
+    "Financial services rely on knowledge and competence standards, with one quantified rule: at least 15 hours of CPD a year under the Insurance Distribution Directive.",
+    "Several instruments changed in 2025 and 2026: the AI Act literacy duty was rewritten, the AML Regulation applies from 10 July 2027, and new EBA governance guidelines were published in November 2026."
+  ],
+  "sections": [
+    {
+      "id": "how-training-duties-are-set",
+      "heading": "How does EU law set mandatory training duties?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "EU law sets training duties through regulations that bind employers directly and directives that bind Member States to legislate, supported by guidelines from EU agencies and supervisory authorities. As the EU explains, a regulation applies in its entirety across the EU, while a directive sets a goal and each country devises its own laws to reach it ([European Union](https://european-union.europa.eu/institutions-law-budget/law/types-legislation_en)). An employer reads a regulation's training article as written; it reads a directive's training article through the national law that transposes it."
+        },
+        {
+          "type": "p",
+          "text": "Guidelines form a third layer, especially in finance. The European Securities and Markets Authority (ESMA) guidelines on knowledge and competence require national authorities and firms to make every effort to comply, under Article 16(3) of the ESMA Regulation ([ESMA](https://www.esma.europa.eu/sites/default/files/library/esma71-1154262120-153_guidelines_for_the_assessment_of_knowledge_and_competence_corrigendum.pdf)), and the European Banking Authority (EBA) guidelines apply through national competent authorities that comply with them. Pharmaceutical good manufacturing practice (GMP) works similarly: EudraLex guidelines are inspected by national competent authorities."
+        },
+        {
+          "type": "p",
+          "text": "Because most safety and many sector rules are directives, the EU layer is usually a floor. National law can name intervals the directive leaves open, add topics, or extend scope; the Whistleblower Directive, for example, lets Member States require smaller private entities to set up channels after a risk assessment. The [Portugal hub](/guides/mandatory-workplace-training-in-portugal) shows how one Member State builds on this layer, including a general 40 hour annual training quantity that EU law does not impose. The tables below cover every EU regulation page in this library, as at November 2026."
+        }
+      ]
+    },
+    {
+      "id": "workplace-safety",
+      "heading": "What safety and health training does EU law require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Every employer in the EU must give workers adequate, job specific safety and health training under the OSH Framework Directive, on recruitment, transfer or change of job, and when new equipment or technology is introduced. Individual directives then add topic training for specific hazards, triggered by exposure levels or by the type of work."
+        },
+        {
+          "type": "table",
+          "caption": "EU occupational safety and health directives with training duties (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[OSH Framework Directive 89/391/EEC, Article 12](/regulations/eu-osh-framework-directive-training)",
+              "All public and private sector employers, with limited public service exceptions; workers include trainees and apprentices",
+              "Adequate job specific training; trained first aid, firefighting and evacuation workers; training during working hours at no cost to workers",
+              "On recruitment, transfer, new equipment or technology; repeated periodically if necessary"
+            ],
+            [
+              "[Display Screen Equipment Directive 90/270/EEC, Article 6](/regulations/eu-display-screen-equipment-directive-training)",
+              "Workers who habitually use display screen equipment as a significant part of normal work",
+              "Training in use of the workstation",
+              "Before starting the work and whenever the workstation is substantially modified"
+            ],
+            [
+              "[Manual Handling Directive 90/269/EEC, Article 6](/regulations/eu-manual-handling-directive-training)",
+              "Workers who manually handle loads",
+              "Proper training on handling loads correctly and the risks",
+              "No interval set"
+            ],
+            [
+              "[Noise at Work Directive 2003/10/EC, Article 8](/regulations/eu-noise-at-work-directive-training)",
+              "Workers exposed at or above the lower exposure action values (80 dB(A))",
+              "Information and training on eight listed topics, including hearing protectors and health surveillance",
+              "No interval set; triggered by exposure level"
+            ],
+            [
+              "[Chemical Agents Directive 98/24/EC, Article 8](/regulations/eu-chemical-agents-directive-worker-training)",
+              "Workers exposed to hazardous chemical agents",
+              "Training and information on precautions, appropriate to the risk assessment; safety drills in action plans",
+              "Updated for changing circumstances; drills at regular intervals"
+            ],
+            [
+              "[Carcinogens, Mutagens and Reprotoxic Substances Directive 2004/37/EC, Article 11](/regulations/eu-carcinogens-and-mutagens-directive-training)",
+              "Workers exposed to CMR substances, including hazardous medicinal products",
+              "Training on risks, precautions, hygiene and protective equipment, adapted to new or changed risk",
+              "Periodically in healthcare settings; repeated periodically if necessary elsewhere"
+            ],
+            [
+              "[ATEX Workplace Directive 1999/92/EC, Annex II](/regulations/eu-atex-workplace-directive-training)",
+              "Workers in places where explosive atmospheres may occur",
+              "Sufficient and appropriate training on explosion protection; only competent workers perform manual overrides",
+              "No interval set"
+            ],
+            [
+              "[Radiation Protection Basic Safety Standards Directive 2013/59/Euratom](/regulations/eu-radiation-protection-basic-safety-standards-training)",
+              "Exposed workers, outside workers and staff entering controlled areas",
+              "Radiation protection training and information, documented; specific training before controlled area work",
+              "Repeated at appropriate intervals (Article 14(1))"
+            ],
+            [
+              "[Seveso III Directive 2012/18/EU, Annex III](/regulations/eu-seveso-iii-safety-management-training)",
+              "Upper and lower tier major hazard establishments, including relevant subcontracted personnel",
+              "Identification of training needs and provision of that training; specific emergency training for all personnel",
+              "Internal emergency plans tested at intervals no longer than three years"
+            ],
+            [
+              "[F-gas Regulation (EU) 2024/573, Article 10](/regulations/eu-f-gas-personnel-certification)",
+              "Technicians working on refrigeration, air conditioning and heat pump equipment",
+              "Certification after training on six subjects and an evaluation",
+              "Refresher training or evaluation at least every 7 years (first by 12 March 2029)"
+            ],
+            [
+              "[Sustainable Use of Pesticides Directive 2009/128/EC](/regulations/eu-pesticides-sustainable-use-training-certificates)",
+              "Professional users, distributors and advisors of pesticides",
+              "Initial and additional training; certification on 13 Annex I subjects",
+              "Renewal procedures set nationally"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Two patterns run through this table. Most safety directives set triggers rather than intervals: the Framework Directive asks for training to be \"repeated periodically if necessary\" ([Directive 89/391/EEC, Article 12](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391)), leaving national law and risk assessment to set the cycle. And several directives tie training to measured exposure, so the training population depends on the employer's assessment: Noise Directive training starts at the lower exposure action value of 80 dB(A) ([Directive 2003/10/EC](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02003L0010-20190726))."
+        },
+        {
+          "type": "p",
+          "text": "The CMR directive is the clearest recent change. Directive (EU) 2022/431 brought reprotoxic substances and hazardous medicinal products into scope and requires training to be provided periodically in healthcare settings ([Directive 2004/37/EC, consolidated](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02004L0037-20240408)). Directive (EU) 2026/2450, published on 30 October 2026, adds welding fumes and other entries, with transposition due by 20 November 2028."
+        }
+      ]
+    },
+    {
+      "id": "whistleblowing-and-conduct",
+      "heading": "What whistleblowing, equality and accessibility training does EU law require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Whistleblower Directive requires internal reporting channels and clear information for staff, rather than a general training course. The Pay Transparency Directive and the European Accessibility Act refer to training in their recitals but place no direct training duty on employers. This library has no EU level page on harassment training; harassment prevention duties sit in national law, such as Portugal's Labor Code."
+        },
+        {
+          "type": "table",
+          "caption": "Whistleblowing, pay transparency and accessibility under EU law (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[Whistleblower Directive (EU) 2019/1937](/regulations/eu-whistleblower-directive-obligations)",
+              "Private entities with 50 or more workers; financial services entities in the annex regardless of size; public sector entities",
+              "Internal channels and clear information on internal and external reporting; specific training for competent authority staff (Article 12(5))",
+              "No interval set; information must be easily accessible"
+            ],
+            [
+              "[Pay Transparency Directive (EU) 2023/970](/regulations/eu-pay-transparency-directive-manager-training)",
+              "Public and private employers, through national law",
+              "No employer training article; Member States provide training support to employers under 250 workers; courts may order HR training as a remedy (recital 51)",
+              "Not applicable"
+            ],
+            [
+              "[European Accessibility Act (EU) 2019/882](/regulations/eu-accessibility-act-staff-training)",
+              "Providers of covered services (microenterprises exempt)",
+              "Recital 20: proper and continuous training of personnel on accessible products and services",
+              "Continuous (recital)"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Recital 59 suggests that information on reporting could be included in courses and training seminars on ethics and integrity, which is why many employers fold whistleblowing into conduct training rather than running it separately ([Directive (EU) 2019/1937](https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32019L1937)). A Commission report of 3 July 2024 found all Member States had transposed the main provisions but that improvements were needed, so national rules vary."
+        }
+      ]
+    },
+    {
+      "id": "privacy-security-and-ai",
+      "heading": "What privacy, cybersecurity and AI training does EU law require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "GDPR makes staff awareness and training part of the Data Protection Officer's monitoring role, NIS2 requires management body members of essential and important entities to follow training, DORA requires compulsory ICT security awareness training for all employees of financial entities, and the AI Act requires providers and deployers to support the AI literacy of staff."
+        },
+        {
+          "type": "table",
+          "caption": "Privacy, cybersecurity and AI training under EU law (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[General Data Protection Regulation (GDPR)](/regulations/gdpr-staff-training-requirements)",
+              "All controllers and processors",
+              "DPO monitors awareness raising and training of staff involved in processing (Article 39(1)(b)); binding corporate rules specify training (Article 47(2)(n))",
+              "No interval set; measures reviewed and updated (Article 24)"
+            ],
+            [
+              "[NIS2 Directive (EU) 2022/2555, Article 20(2)](/regulations/nis2-management-body-training)",
+              "Management bodies and staff of essential and important entities, through national law",
+              "Management body members required to follow training; similar regular training for employees encouraged; cyber hygiene and training among risk measures (Article 21(2)(g))",
+              "No interval in the directive; Implementing Regulation 2024/2690 requires effectiveness testing for covered digital entities"
+            ],
+            [
+              "[Digital Operational Resilience Act (DORA), Article 13(6)](/regulations/dora-ict-security-awareness-training)",
+              "Financial entities listed in Article 2, and ICT third party providers where appropriate",
+              "Compulsory ICT security awareness and digital operational resilience training for all employees and senior management",
+              "Applies from 17 January 2025; management body training on a regular basis (Article 5(4))"
+            ],
+            [
+              "[AI Act, Article 4 (AI literacy)](/regulations/eu-ai-act-ai-literacy)",
+              "Providers and deployers of AI systems; deployers assigning human oversight",
+              "Measures to support the development of AI literacy of staff; human oversight assigned to persons with the necessary competence, training and authority (Article 26(2))",
+              "No interval set; applies since 2 February 2025"
+            ],
+            [
+              "[Cyber Resilience Act, Regulation (EU) 2024/2847](/regulations/eu-cyber-resilience-act-staff-competence)",
+              "Manufacturers of products with digital elements",
+              "No operative staff training article; recital 23 expects staff to have the necessary skills",
+              "Not applicable; main obligations apply from 11 December 2027"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The AI literacy duty changed in 2026. The original Article 4 required providers and deployers to ensure, to their best extent, a sufficient level of AI literacy; Regulation (EU) 2026/1744 replaced it with a duty to take measures to support the development of AI literacy, with no requirement to guarantee a specific level for any individual ([Regulation (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj)). The Commission says no certificate is needed and an internal record suffices. The human oversight competence duty in Article 26(2) was not amended. For a program design, see [how to build an AI literacy training program](/guides/how-to-build-an-ai-literacy-training-program)."
+        },
+        {
+          "type": "p",
+          "text": "DORA and NIS2 overlap for financial entities. NIS2 recital 28 identifies DORA as the sector specific act for financial entities ([NIS2](https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng)), so a bank trains to DORA's Article 13(6), which applies directly, rather than to a national NIS2 law. Transposition of NIS2 itself has been uneven: the Commission sent reasoned opinions to 19 Member States on 7 May 2025 for failing to notify full transposition."
+        }
+      ]
+    },
+    {
+      "id": "financial-crime",
+      "heading": "What anti money laundering and market abuse training does EU law require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "From 10 July 2027, the EU Anti Money Laundering Regulation (AMLR) will require obliged entities to run specific, ongoing, documented training programs, directly applicable in every Member State. Market abuse rules already require regular training for staff who monitor and detect suspicious orders and transactions."
+        },
+        {
+          "type": "table",
+          "caption": "Financial crime training under EU law (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[Anti Money Laundering Regulation (EU) 2024/1624, Article 12](/regulations/eu-amlr-training-requirements)",
+              "Obliged entities, including agents and distributors where relevant",
+              "Specific, ongoing training programs appropriate to functions and risks, duly documented; training policy (Article 9(2)); integrity and skills assessment of employees (Article 13)",
+              "Applies from 10 July 2027; Article 13 assessments regularly repeated"
+            ],
+            [
+              "[Market Abuse Regulation, Delegated Regulation (EU) 2016/957, Article 4](/regulations/eu-market-abuse-regulation-training)",
+              "Staff of persons professionally arranging or executing transactions who monitor, detect and identify suspicious orders, including order processing staff; prevention staff at trading venues",
+              "Effective and comprehensive training",
+              "On a regular basis; arrangements subject to annual audit and internal review"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Until the AMLR applies, national laws transposing earlier directives remain the operative AML training rules, which is why the AMLR is the clearest case for mapping a program to two texts at once. Penalties under the accompanying directive reach at least EUR 10,000,000 or 10% of turnover for credit and financial institutions that commit serious, repeated or systematic breaches ([Directive (EU) 2024/1640](https://eur-lex.europa.eu/eli/dir/2024/1640/oj/eng)). The Authority for Anti-Money Laundering and Countering the Financing of Terrorism (AMLA) had not published a consultation dedicated to training as at September 2026."
+        }
+      ]
+    },
+    {
+      "id": "financial-services-competence",
+      "heading": "What knowledge and competence rules apply to financial services staff?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "EU financial services law requires staff who advise or inform customers to possess and maintain appropriate knowledge and competence, and requires banks to invest in management body induction and training. Only the Insurance Distribution Directive quantifies CPD, at 15 hours a year."
+        },
+        {
+          "type": "table",
+          "caption": "Financial services knowledge, competence and CPD under EU law (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[MiFID II, Article 25(1), and ESMA guidelines](/regulations/mifid-ii-knowledge-and-competence-requirements)",
+              "Natural persons giving investment advice or information at investment firms",
+              "Necessary knowledge and competence, demonstrable to the competent authority on request; at least 6 months appropriate experience; supervision up to 4 years",
+              "Annual review with CPD under ESMA guidelines"
+            ],
+            [
+              "[Insurance Distribution Directive (EU) 2016/97, Article 10](/regulations/insurance-distribution-directive-cpd-requirements)",
+              "Insurance and reinsurance intermediaries and relevant employees of undertakings and intermediaries",
+              "Continuing professional training or development by product, distributor type, role and activity",
+              "At least 15 hours per year"
+            ],
+            [
+              "[Mortgage Credit Directive 2014/17/EU, Article 9](/regulations/mortgage-credit-directive-staff-knowledge-competence)",
+              "Staff of creditors, credit intermediaries and appointed representatives",
+              "Possess and keep up to date knowledge in nine minimum areas (Annex III)",
+              "Ongoing; no reliance solely on experience after 21 March 2019"
+            ],
+            [
+              "[Markets in Crypto-Assets Regulation (MiCA)](/regulations/mica-staff-knowledge-and-competence)",
+              "Crypto asset service providers, their management bodies and staff giving advice or information",
+              "Necessary knowledge and competence (Article 81(7)); personnel with knowledge, skills and expertise (Article 68(5))",
+              "No interval set; applies from 30 December 2024"
+            ],
+            [
+              "[EBA internal governance and suitability guidelines](/regulations/eba-internal-governance-staff-training)",
+              "Credit institutions and their management body members and staff",
+              "Adequate resources for management body induction and training, including ESG and ICT risk under CRD VI",
+              "Key information within one month and induction within six months of appointment; all knowledge elements within one year"
+            ],
+            [
+              "[Solvency II, Article 42](/regulations/solvency-ii-fit-and-proper-requirements)",
+              "Insurance and reinsurance undertakings and key function holders",
+              "Fit (qualifications, knowledge and experience) at all times",
+              "Ongoing; Directive (EU) 2025/2 applies from 30 January 2027"
+            ],
+            [
+              "[IORP II, Article 22](/regulations/iorp-ii-pension-fund-fit-and-proper)",
+              "Occupational pension funds and key function holders",
+              "Fit and proper requirements for those running the fund",
+              "Written policies reviewed at least every three years"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bank governance guidance is in transition. The EBA published revised internal governance guidelines (EBA/GL/2026/10) on 5 November 2026, which will apply two months after publication in all EU official languages and repeal EBA/GL/2021/05; their training provisions are broadened to operational resilience and business continuity awareness ([EBA](https://www.eba.europa.eu/sites/default/files/2026-11/3c8b1810-c335-499a-803f-6d795ce3d196/Final%20report%20on%20Guidelines%20on%20internal%20governance.pdf)). CRD VI separately requires management body induction and training to cover ESG and ICT risk, applying from 11 January 2026."
+        }
+      ]
+    },
+    {
+      "id": "health-pharma-and-food",
+      "heading": "What training applies to pharmaceutical, medical device and food businesses?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Life sciences employers in the EU must train every person whose work can affect product quality or patient safety, under GMP, distribution, pharmacovigilance and clinical practice rules, and must assess whether the training works. Food businesses must instruct or train food handlers commensurate with their work."
+        },
+        {
+          "type": "table",
+          "caption": "Pharmaceutical, medical device and food training under EU law (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[EU GMP Chapter 2 and Directive (EU) 2017/1572](/regulations/eu-gmp-chapter-2-personnel-training-requirements)",
+              "Personnel in production, storage and control laboratories, including technical, maintenance and cleaning staff",
+              "Basic and duty specific training; continuing training with practical effectiveness periodically assessed; effectiveness verified",
+              "Continuing; no fixed interval"
+            ],
+            [
+              "[EU GMP Annex 1 (sterile manufacturing)](/regulations/eu-gmp-annex-1-sterile-manufacturing-training)",
+              "All personnel entering cleanrooms, including cleaning, maintenance and monitoring staff",
+              "Regular training, gowning qualification, aseptic process simulation participation",
+              "Grade A and B gowning reassessment at least annually; at least one successful APS per operator annually; visual inspection qualification at least annually"
+            ],
+            [
+              "[Good Distribution Practice guidelines 2013/C 343/01](/regulations/good-distribution-practice-training-requirements)",
+              "Wholesale distributors, their Responsible Person and all personnel",
+              "GDP training before starting tasks; initial and continuing role based training; effectiveness periodically assessed",
+              "Continuing; documents kept at least five years"
+            ],
+            [
+              "[Pharmacovigilance, Implementing Regulation (EU) No 520/2012 and GVP Module I](/regulations/pharmacovigilance-training-requirements)",
+              "Marketing authorization holders, their QPPV and pharmacovigilance staff",
+              "Appropriate instruction and training, with records; training plans based on needs assessment",
+              "No fixed interval; QPPV trained before taking up position"
+            ],
+            [
+              "[Medical Devices Regulation (EU) 2017/745, Article 15 (PRRC)](/regulations/eu-mdr-prrc-qualification-requirements)",
+              "Manufacturers and authorized representatives, which must have a person responsible for regulatory compliance",
+              "Qualification by degree plus one year of regulatory or quality experience, or four years of experience",
+              "Qualification on appointment; no recurring training"
+            ],
+            [
+              "[ICH E6(R3) Good Clinical Practice](/regulations/ich-e6-r3-gcp-training-requirements)",
+              "Sponsors, investigators and trial staff, as applied by the European Medicines Agency",
+              "Qualified by education, training and experience; trial specific training records as essential records",
+              "No fixed refresher interval; Annex 2 effective 15 January 2027"
+            ],
+            [
+              "[Good Laboratory Practice, Directive 2004/10/EC](/regulations/glp-personnel-training-requirements)",
+              "Test facilities conducting nonclinical safety studies",
+              "Records of qualifications, training, experience and job descriptions; personnel knowledgeable in applicable GLP",
+              "No fixed interval"
+            ],
+            [
+              "[Food hygiene Regulation (EC) No 852/2004](/regulations/eu-food-hygiene-training-requirements)",
+              "Food business operators and food handlers",
+              "Supervision and instruction or training commensurate with work activity; HACCP training for those responsible; food safety culture",
+              "No fixed interval; refresher frequency by needs and demonstrated skills (Commission Notice)"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "GMP is the only area in this library where EU guidance sets annual requalification for named activities. Annex 1 paragraph 7.4 requires grade A and B gowning assessment with periodic reassessment at least annually, and unsupervised cleanroom access only after a passed gowning assessment and a successful aseptic process simulation ([EU GMP Annex 1](https://health.ec.europa.eu/document/download/e05af55b-38e9-42bf-8495-194bbf0b9262_en?filename=20220825_gmp-an1_en_0.pdf)). Chapter 2 sets the general rule that continuing training must have its practical effectiveness periodically assessed ([EU GMP Chapter 2](https://health.ec.europa.eu/document/download/11f4f8e6-a6e9-4897-afe3-f21e1dc56cb8_en?filename=2014-03_chapter_2.pdf)), which is an effectiveness duty rather than an attendance duty."
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "heading": "What training do EU transport workers need?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Transport is where EU law sets the most precise training cycles. Professional truck and bus drivers need 35 hours of periodic training every five years, train drivers face periodic checks at least every three years, airline pilots repeat operator checks every 6 to 12 months, and aircraft maintenance staff need recurrent training in each two year period."
+        },
+        {
+          "type": "table",
+          "caption": "Transport licensing and recurrent training under EU law (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[Driver CPC Directive (EU) 2022/2561](/regulations/eu-driver-cpc-periodic-training)",
+              "Drivers of C1, C1+E, C, C+E, D1, D1+E, D and D+E vehicles, including third country nationals employed by EU undertakings",
+              "Initial qualification (280 hours, or 140 accelerated); periodic training with at least one road safety period, e-learning up to 12 hours",
+              "35 hours every five years, in periods of at least seven hours"
+            ],
+            [
+              "[Train Driver Directive 2007/59/EC](/regulations/eu-train-driver-licensing-and-training)",
+              "Train drivers holding a license and certificates",
+              "License valid 10 years; continuous training process; periodic checks on language, infrastructure and rolling stock",
+              "Checks every three years (language and infrastructure also after absence over one year); medicals every three years to 55, then yearly"
+            ],
+            [
+              "[Air operations, Regulation (EU) No 965/2012, Part-ORO](/regulations/eu-aircrew-recurrent-training-requirements)",
+              "Flight crew and cabin crew of commercial air operators",
+              "Recurrent ground and flight training, operator proficiency checks, line checks, emergency and safety equipment training, CRM",
+              "OPC valid 6 calendar months; line check and emergency equipment 12 calendar months; CRM modules over each 3 year period"
+            ],
+            [
+              "[Continuing airworthiness, Regulation (EU) No 1321/2014, Part-145 and Part-66](/regulations/easa-part-66-and-part-145-staff-training)",
+              "Maintenance organization staff and certifying staff",
+              "Competence established and controlled, including human factors; recurrent training program; assessment before authorization",
+              "Sufficient recurrent training in each 2 year period; Part-66 license verified every 5 years"
+            ],
+            [
+              "[Ship and port facility security, Regulation (EC) No 725/2004 (ISPS Code)](/regulations/isps-code-ship-and-port-security-training)",
+              "Ship and port facility security personnel",
+              "Security training on Part A and Part B subjects",
+              "Drills every three months; exercises each calendar year, no more than 18 months apart"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Driver CPC rules are changing again. Directive (EU) 2025/2205 allows certificate holders to drive some categories from 17 and counts road safety periodic training toward the 35 hours for drivers under 23, with transposition due by 26 November 2028 ([Directive (EU) 2025/2205](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025L2205)). Aviation operators can replace the standard checks with evidence based training of at least six modules over a three year program, with approval (ORO.FC.231)."
+        }
+      ]
+    },
+    {
+      "id": "building-a-register",
+      "heading": "How should a multinational employer build one EU training register?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Build the register in two layers: an EU layer that lists each instrument once, and a national layer per Member State that records the transposing law, the national regulator and any stricter rule. Directly applicable regulations need only the EU layer; directives always need the national one, because the national law is what an inspector enforces."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Classify each instrument by legal form.** Regulation (GDPR, DORA, AI Act, AMLR, MiCA, food hygiene), directive (OSH directives, NIS2, MiFID II, IDD, Mortgage Credit, Whistleblower, Driver CPC, Train Driver), or guideline (EBA, ESMA, GMP, GDP, GVP).",
+            "**Record the national transposition for each directive in each country.** EUR-Lex lists national transposition measures for each directive; the Portugal pages in this library show examples such as Law 102/2009 for the OSH Framework Directive and Decree-Law 125/2025 for NIS2.",
+            "**Name the competent authority per country.** Safety directives are enforced by national labor inspectorates; financial rules by national competent authorities; GMP by national inspectorates.",
+            "**Record the interval as the strictest of EU and national text.** Where the EU sets an interval (35 hours every five years, annual gowning reassessment, 15 hours of insurance CPD), it is a floor. Where it sets none, record the national interval or the risk rationale, using [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles).",
+            "**Track application dates.** The AMLR from 10 July 2027, the Cyber Resilience Act from 11 December 2027, ICH E6(R3) Annex 2 from 15 January 2027, and the new EBA guidelines two months after translation all fall inside a typical three year training cycle.",
+            "**Set retention by the longest applicable rule.** EU texts set some periods, such as at least five years for distribution documents and personnel records kept while employed and three years after leaving under Part-145; national law often adds more. See [how long to keep training records](/guides/how-long-to-keep-training-records)."
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative register entry for one directive across two Member States (example only)",
+          "head": [
+            "Layer",
+            "Instrument",
+            "Training duty recorded",
+            "Interval recorded"
+          ],
+          "rows": [
+            [
+              "EU",
+              "OSH Framework Directive 89/391/EEC, Article 12",
+              "Job specific training on recruitment, transfer, new equipment or technology",
+              "Repeated periodically if necessary"
+            ],
+            [
+              "National: Portugal",
+              "Law 102/2009, Articles 18 to 20",
+              "Adequate training per worker; annual written consultation on the training program",
+              "Consultation at least once a year"
+            ],
+            [
+              "National: second Member State",
+              "National transposing law (to be confirmed)",
+              "Record as transposed",
+              "Record national interval or risk rationale"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A register built this way answers both questions an auditor asks: which EU obligation a course serves, and which national rule makes it enforceable at that site. The [training matrix guide](/guides/how-to-build-a-training-matrix) covers layout, and [mapping training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations) covers the link from obligation to learning outcome."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each learning outcome to the EU instrument and the national text it depends on, so a change at either level, such as the AI Act amendment or a new transposing law, identifies the outcomes and sites affected. The [standards and accreditation](/platform/standards-accreditation) page describes how sources are mapped."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does EU law require annual compliance training?",
+      "a": "Not generally. Most EU training duties have no interval or say training should be repeated periodically if necessary. Fixed intervals appear in specific places: annual gowning reassessment under GMP Annex 1, 12 month line checks for aircrew, at least 15 hours of insurance CPD a year, and 35 hours every five years for professional drivers. National law may add intervals."
+    },
+    {
+      "q": "Do I follow the EU directive or the national law?",
+      "a": "For a directive, the national transposing law is what binds the employer and what inspectors enforce, although it must meet the directive's minimum. For a regulation, such as GDPR, DORA or the AI Act, the EU text applies directly. Record both layers so a change to either is caught."
+    },
+    {
+      "q": "Is AI literacy training still mandatory after the 2026 AI Act amendment?",
+      "a": "Article 4 still obliges providers and deployers, but since Regulation (EU) 2026/1744 the duty is to take measures to support the development of staff AI literacy, without guaranteeing a specific level for any individual. The Commission says no certificate is needed and an internal record suffices. Article 26(2) still requires competent, trained human oversight for high risk systems."
+    },
+    {
+      "q": "When does the EU Anti Money Laundering Regulation's training duty apply?",
+      "a": "From 10 July 2027, with a later date of 10 July 2029 for professional football clubs and agents. Article 12 will then require specific, ongoing, documented training programs directly in every Member State. Until then, national laws transposing earlier AML directives set the training rules."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Council Directive 89/391/EEC on the introduction of measures to encourage improvements in the safety and health of workers at work",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
+    },
+    {
+      "title": "Directive 2003/10/EC on the minimum health and safety requirements regarding the exposure of workers to the risks arising from physical agents (noise), consolidated text of 26 July 2019",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02003L0010-20190726"
+    },
+    {
+      "title": "Directive 2004/37/EC on the protection of workers from the risks related to exposure to carcinogens, mutagens or reprotoxic substances at work, consolidated text of 8 April 2024",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02004L0037-20240408"
+    },
+    {
+      "title": "Directive (EU) 2019/1937 on the protection of persons who report breaches of Union law",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32019L1937"
+    },
+    {
+      "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    },
+    {
+      "title": "Directive (EU) 2022/2555 (NIS 2 Directive)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+    },
+    {
+      "title": "Regulation (EU) 2022/2554 on digital operational resilience for the financial sector (DORA)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng"
+    },
+    {
+      "title": "Regulation (EU) 2026/1744 amending Regulation (EU) 2024/1689 (Digital Omnibus on AI)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    },
+    {
+      "title": "Regulation (EU) 2024/1624 on the prevention of the use of the financial system for the purposes of money laundering or terrorist financing",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "title": "Directive (EU) 2024/1640 on the mechanisms to be put in place by Member States for the prevention of the use of the financial system for money laundering or terrorist financing",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/eli/dir/2024/1640/oj/eng"
+    },
+    {
+      "title": "Commission Delegated Regulation (EU) 2016/957 on arrangements, systems and procedures for detecting and reporting suspicious orders or transactions",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0957"
+    },
+    {
+      "title": "Guidelines for the assessment of knowledge and competence (ESMA71-1154262120-153 EN (rev))",
+      "publisher": "European Securities and Markets Authority",
+      "url": "https://www.esma.europa.eu/sites/default/files/library/esma71-1154262120-153_guidelines_for_the_assessment_of_knowledge_and_competence_corrigendum.pdf"
+    },
+    {
+      "title": "Directive (EU) 2016/97, consolidated version of 9 October 2024",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016L0097-20241009"
+    },
+    {
+      "title": "Guidelines on internal governance under CRD",
+      "publisher": "European Banking Authority",
+      "url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/internal-governance/guidelines-internal-governance-under-crd"
+    },
+    {
+      "title": "EudraLex Volume 4, Annex 1: Manufacture of Sterile Medicinal Products, C(2022) 5938 final",
+      "publisher": "European Commission",
+      "url": "https://health.ec.europa.eu/document/download/e05af55b-38e9-42bf-8495-194bbf0b9262_en?filename=20220825_gmp-an1_en_0.pdf"
+    },
+    {
+      "title": "EudraLex Volume 4, Part 1, Chapter 2: Personnel (in operation since 16 February 2014)",
+      "publisher": "European Commission",
+      "url": "https://health.ec.europa.eu/document/download/11f4f8e6-a6e9-4897-afe3-f21e1dc56cb8_en?filename=2014-03_chapter_2.pdf"
+    },
+    {
+      "title": "Guidelines of 5 November 2013 on Good Distribution Practice of medicinal products for human use (2013/C 343/01)",
+      "publisher": "EUR-Lex, Official Journal of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52013XC1123(01)"
+    },
+    {
+      "title": "Directive (EU) 2022/2561 on the initial qualification and periodic training of drivers of certain road vehicles for the carriage of goods or passengers (codification)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022L2561"
+    },
+    {
+      "title": "Commission Regulation (EU) No 965/2012 laying down technical requirements and administrative procedures related to air operations: consolidated text of 25 May 2026",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02012R0965-20260525"
+    },
+    {
+      "title": "Commission Regulation (EU) No 1321/2014, consolidated text of August 7, 2026 (Annex II Part-145, Annex III Part-66)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02014R1321-20260807"
+    }
+  ],
+  "related": [
+    "eu-osh-framework-directive-training",
+    "gdpr-staff-training-requirements",
+    "nis2-management-body-training",
+    "eu-ai-act-ai-literacy",
+    "mandatory-workplace-training-in-portugal",
+    "how-to-set-mandatory-training-refresh-cycles"
+  ],
+  "productLinks": [
+    {
+      "label": "Standards and accreditation",
+      "href": "/platform/standards-accreditation"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "A regulation applies in its entirety across the EU; a directive sets a goal and each country devises its own laws to reach it (as recorded on eu-osh-framework-directive-training).",
+      "source": "https://european-union.europa.eu/institutions-law-budget/law/types-legislation_en"
+    },
+    {
+      "claim": "Directive 89/391/EEC Article 12(1) to (4): training on recruitment, transfer, new equipment, new technology; adapted and repeated periodically if necessary; no cost; working hours; Article 3(a) trainees and apprentices; Article 8(2) first aid, firefighting, evacuation workers (as recorded on eu-osh-framework-directive-training).",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31989L0391"
+    },
+    {
+      "claim": "DSE Directive Article 6(2) training before commencing and on substantial modification; Manual Handling Article 6(2); Noise Article 8 at or above lower exposure action values (80 dB(A)); Chemical Agents Article 8(1) and 7(1) drills at regular intervals; ATEX Annex II A 1.1 and 2.9 (as recorded on the respective regulation pages).",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02003L0010-20190726"
+    },
+    {
+      "claim": "CMRD Article 11(1) as substituted by Directive 2022/431: training provided periodically in healthcare settings, repeated periodically if necessary elsewhere; Directive (EU) 2026/2450 OJ 30.10.2026, transposition by 20 November 2028 (as recorded on eu-carcinogens-and-mutagens-directive-training).",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02004L0037-20240408"
+    },
+    {
+      "claim": "BSS Directive Article 14(1) training repeated at appropriate intervals and documented; Article 37(1)(e) specific training; Seveso III Annex III (b)(i) and (v); Article 12(6) emergency plans tested at intervals no longer than three years (as recorded on eu-radiation-protection-basic-safety-standards-training and eu-seveso-iii-safety-management-training).",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012L0018"
+    },
+    {
+      "claim": "Whistleblower Directive Article 8(3) 50 or more workers; 8(4) annex entities; 8(7) Member States may require smaller entities; Article 12(5) authority staff training; Article 19(d) withholding training is retaliation; recital 59 ethics courses; Commission report of 3 July 2024 (as recorded on eu-whistleblower-directive-obligations).",
+      "source": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32019L1937"
+    },
+    {
+      "claim": "GDPR Article 39(1)(b), 47(2)(n), Article 24 measures reviewed and updated (as recorded on gdpr-staff-training-requirements).",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    },
+    {
+      "claim": "NIS2 Article 20(2) management body training and encouraged employee training; Article 21(2)(g); recital 28 DORA as sector-specific act; Implementing Regulation 2024/2690 section 8 effectiveness testing; reasoned opinions to 19 Member States on 7 May 2025 (as recorded on nis2-management-body-training and dora-ict-security-awareness-training).",
+      "source": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+    },
+    {
+      "claim": "DORA Article 13(6) compulsory modules for all employees and senior management; Article 5(4) management body specific training on a regular basis; applies from 17 January 2025 (as recorded on dora-ict-security-awareness-training).",
+      "source": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng"
+    },
+    {
+      "claim": "AI Act Article 4 replaced by Regulation (EU) 2026/1744: take measures to support AI literacy, no requirement to guarantee a level; Article 26(2) competence, training and authority not amended; applies since 2 February 2025; Commission: no certificate, internal record suffices (as recorded on eu-ai-act-ai-literacy).",
+      "source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    },
+    {
+      "claim": "CRA recital 23 staff skills, no operative staff training article; Article 71(2) applies from 11 December 2027 (as recorded on eu-cyber-resilience-act-staff-competence).",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847"
+    },
+    {
+      "claim": "AMLR Article 90 applies from 10 July 2027 (10 July 2029 for football clubs and agents); Article 12 training; Article 9(2) policy; Article 13 assessments regularly repeated; AMLD6 Article 55 at least EUR 10,000,000 or 10% for credit and financial institutions; AMLA no training consultation as at September 2026 (as recorded on eu-amlr-training-requirements).",
+      "source": "https://eur-lex.europa.eu/eli/dir/2024/1640/oj/eng"
+    },
+    {
+      "claim": "Delegated Regulation 2016/957 Article 4(1) and (2) training on a regular basis; Article 2(5)(b) annual audit and internal review (as recorded on eu-market-abuse-regulation-training).",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0957"
+    },
+    {
+      "claim": "ESMA guidelines: every effort to comply under Article 16(3) ESMA Regulation; minimum 6 months appropriate experience; supervision maximum 4 years; annual review with CPD (as recorded on mifid-ii-knowledge-and-competence-requirements).",
+      "source": "https://www.esma.europa.eu/sites/default/files/library/esma71-1154262120-153_guidelines_for_the_assessment_of_knowledge_and_competence_corrigendum.pdf"
+    },
+    {
+      "claim": "IDD Article 10(2) at least 15 hours per year (as recorded on insurance-distribution-directive-cpd-requirements); MCD Article 9(1) and Annex III nine areas, no sole reliance on experience after 21 March 2019 (as recorded on mortgage-credit-directive-staff-knowledge-competence); MiCA Article 81(7), 68(5), applies from 30 December 2024 (as recorded on mica-staff-knowledge-and-competence).",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016L0097-20241009"
+    },
+    {
+      "claim": "EBA/GL/2026/10 published 5 November 2026, apply two months after translation, repeal EBA/GL/2021/05, broadened to operational resilience; suitability guidelines paragraph 93 one month and six months, paragraph 94 one year; CRD VI ESG and ICT risk from 11 January 2026 (as recorded on eba-internal-governance-staff-training).",
+      "source": "https://www.eba.europa.eu/sites/default/files/2026-11/3c8b1810-c335-499a-803f-6d795ce3d196/Final%20report%20on%20Guidelines%20on%20internal%20governance.pdf"
+    },
+    {
+      "claim": "GMP Annex 1 7.3 regular training; 7.4 gowning reassessment at least annually, unsupervised access after passed assessment and successful APS; 9.38 each operator at least one successful APS annually; 8.31 visual inspection qualification at least annually (as recorded on eu-gmp-annex-1-sterile-manufacturing-training).",
+      "source": "https://health.ec.europa.eu/document/download/e05af55b-38e9-42bf-8495-194bbf0b9262_en?filename=20220825_gmp-an1_en_0.pdf"
+    },
+    {
+      "claim": "GMP Chapter 2 paragraphs 2.10 and 2.11; Directive 2017/1572 Article 7(4) effectiveness verified (as recorded on eu-gmp-chapter-2-personnel-training-requirements); GDP section 2.4 and 4.2 at least five years (as recorded on good-distribution-practice-training-requirements).",
+      "source": "https://health.ec.europa.eu/document/download/11f4f8e6-a6e9-4897-afe3-f21e1dc56cb8_en?filename=2014-03_chapter_2.pdf"
+    },
+    {
+      "claim": "IR 520/2012 Article 10 training and records, GVP Module I I.B.7 and I.C.1.2 (as recorded on pharmacovigilance-training-requirements); MDR Article 15(1) PRRC qualification (as recorded on eu-mdr-prrc-qualification-requirements); ICH E6(R3) no fixed refresher interval, Annex 2 effective 15 January 2027 (as recorded on ich-e6-r3-gcp-training-requirements); Directive 2004/10/EC Annex I records of training (as recorded on glp-personnel-training-requirements); Regulation 852/2004 Annex II Chapter XII and Commission Notice (as recorded on eu-food-hygiene-training-requirements).",
+      "source": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-e6-r3-guideline-good-clinical-practice-gcp-step-5_en.pdf"
+    },
+    {
+      "claim": "Driver CPC: 280 hours initial (140 accelerated); 35 hours every five years in periods of at least seven hours, e-learning maximum 12 hours; Directive 2025/2205 transposition by 26 November 2028 (as recorded on eu-driver-cpc-periodic-training).",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022L2561"
+    },
+    {
+      "claim": "Train Driver Directive: license valid 10 years (Article 14); Annex VII checks every three years or after absence over one year; medicals every three years up to 55 then yearly (as recorded on eu-train-driver-licensing-and-training).",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02007L0059-20190708"
+    },
+    {
+      "claim": "ORO.FC.230 OPC 6 calendar months, line check and emergency equipment 12 calendar months, CRM over each 3 year period; ORO.FC.231 EBT at least six modules over 3 years (as recorded on eu-aircrew-recurrent-training-requirements).",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02012R0965-20260525"
+    },
+    {
+      "claim": "145.A.35(d) recurrent training in each 2-year period; 66.A.40 license verified 5 years; 145.A.55(d) records while employed and 3 years after (as recorded on easa-part-66-and-part-145-staff-training).",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02014R1321-20260807"
+    },
+    {
+      "claim": "Pay Transparency Directive recital 51 HR training remedy and Article 11 support for employers under 250; no employer training article (as recorded on eu-pay-transparency-directive-manager-training); EAA recital 20 continuous training (as recorded on eu-accessibility-act-staff-training); F-gas Article 10(9) refresher at least every 7 years, first by 12 March 2029 (as recorded on eu-f-gas-personnel-certification); Solvency II Article 42 and Directive 2025/2 from 30 January 2027 (as recorded on solvency-ii-fit-and-proper-requirements); IORP II Article 21(3) three year review (as recorded on iorp-ii-pension-fund-fit-and-proper).",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R0573"
+    },
+    {
+      "claim": "Regulation 725/2004 Part B 13.6 drills every three months, 13.7 exercises once each calendar year max 18 months apart (as recorded on isps-code-ship-and-port-security-training); Directive 2009/128/EC Article 5 training and certification with renewal procedures, Annex I 13 subjects (as recorded on eu-pesticides-sustainable-use-training-certificates).",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32004R0725"
+    }
+  ]
+}

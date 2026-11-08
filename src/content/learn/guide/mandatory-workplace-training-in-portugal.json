@@ -1,0 +1,738 @@
+{
+  "slug": "mandatory-workplace-training-in-portugal",
+  "kind": "guide",
+  "title": "What training is mandatory for employers in Portugal?",
+  "seoTitle": "Mandatory workplace training: Portugal",
+  "description": "Mandatory employer training in Portugal: the Labor Code's 40 hours a year, safety, harassment, anti corruption, AML, cybersecurity and licensed roles.",
+  "shortAnswer": "As at November 2026, every employer in Portugal must provide each worker with at least 40 hours of continuous training a year under Article 131 of the Labor Code. On top of that baseline, specific laws require occupational safety and health training, a harassment code of conduct, anti corruption and whistleblowing programs for larger employers, anti money laundering training in obliged entities, cybersecurity training under the NIS2 transposition, and certification for licensed roles.",
+  "keyTakeaways": [
+    "Portugal is unusual in setting a general training quantity: at least 40 hours of continuous training per worker per year, with at least 10% of workers trained each year.",
+    "Topic specific duties sit on top of the 40 hours, and some of them count toward it: the anti corruption regime says its training hours count as continuous training.",
+    "Employers with 50 or more workers face both the anti corruption regime (RGPC) and the whistleblowing law; employers with seven or more workers need a harassment code of good conduct.",
+    "Licensed roles carry their own cycles: 35 hours every five years for professional drivers, a refresher on each five year renewal of a private security card, and 30 credits a year for certified accountants.",
+    "Directly applicable EU regulations, such as GDPR, DORA and the AI Act, apply alongside Portuguese law, so a Portuguese register needs an EU layer."
+  ],
+  "sections": [
+    {
+      "id": "how-training-duties-are-set",
+      "heading": "How are mandatory training duties set in Portugal?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mandatory training in Portugal is set at three levels: a general quantity of training owed to every worker under the Labor Code, topic duties in specific Portuguese laws (many of which transpose EU directives), and EU regulations that apply directly without transposition. The labor inspectorate, the Autoridade para as Condições do Trabalho (ACT), enforces the Labor Code and the occupational safety and health law; sector regulators such as Banco de Portugal, the national anti corruption mechanism (MENAC) and the national cybersecurity center (CNCS) enforce the rest."
+        },
+        {
+          "type": "p",
+          "text": "The general quantity is the distinctive Portuguese feature. Article 131(2) of the Labor Code requires a minimum of 40 hours of continuous training per year for each worker, or proportional hours for fixed term contracts of three months or more ([Labor Code](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475)). The topic is not prescribed, so the employer decides how to use the hours. Most other markets set training duties topic by topic; compare the [European Union hub](/guides/mandatory-workplace-training-in-the-european-union), which shows the EU layer that Portugal transposes."
+        },
+        {
+          "type": "p",
+          "text": "Several duties depend on headcount. A harassment code of good conduct applies from seven workers; the anti corruption regime and the internal whistleblowing channel apply from 50 workers; an internal occupational safety and health service becomes mandatory at 400 workers per establishment, or 30 workers exposed to high risk activities. The tables below cover every Portuguese regulation page in this library, and the EU instruments that apply in Portugal, as at November 2026."
+        }
+      ]
+    },
+    {
+      "id": "labor-code-baseline",
+      "heading": "What does the Labor Code's 40 hour training rule require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Labor Code requires at least 40 hours of continuous training per worker per year and at least 10% of workers trained each year. Hours the employer does not provide within two years convert into a training credit the worker can use, and unprovided hours or credit are paid out when the contract ends."
+        },
+        {
+          "type": "table",
+          "caption": "The Labor Code training baseline (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[Labor Code, Articles 131 to 134](/regulations/portugal-labour-code-continuous-training)",
+              "All employers, for each worker; proportional hours for fixed term contracts of three months or more",
+              "Minimum continuous training hours, topic not prescribed; at least 10% of workers trained each year; unprovided hours become a paid credit",
+              "40 hours per year; hours may be advanced up to two years or deferred by the same period if the training plan provides"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Three mechanics shape how the hours are managed. Article 131(6) lets the training plan advance hours by up to two years or defer them by the same period. Article 132 converts hours not provided within two years into a credit that is paid, counts as service, needs 10 days' notice and lapses after three years. Article 134 requires payment for unprovided hours or credit on termination. Breaching Article 131(1), (2) or (5) is a grave offense (Article 131(10)). The 40 hour minimum dates from Law 93/2019; the original 2009 text set 35 hours."
+        },
+        {
+          "type": "callout",
+          "title": "Topic duties can count toward the 40 hours",
+          "text": "The anti corruption regime states that the hours of its internal training count as continuous training ([Decree-Law 109-E/2021, RGPC Article 9](https://menac.pt/wp-content/uploads/2023/06/Dec_Lei-109-E_2021.pdf)). That provision is explicit only for anti corruption training. For other topic duties, whether hours count toward Article 131 is a question to settle in the training plan and, where needed, with legal advice."
+        }
+      ]
+    },
+    {
+      "id": "workplace-safety",
+      "heading": "What health and safety training must Portuguese employers provide?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Law 102/2009, which transposes the EU Occupational Safety and Health Framework Directive, requires adequate safety and health training for each worker, ongoing training for designated workers, and trained first aid, firefighting and evacuation staff in sufficient numbers. Employers must also organize an occupational safety and health service staffed by certified technicians."
+        },
+        {
+          "type": "table",
+          "caption": "Occupational safety and health training in Portugal (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[Law 102/2009, Articles 18 to 22](/regulations/portugal-ohs-training-requirements)",
+              "All employers and workers; designated workers; first aid, firefighting and evacuation staff; workers' representatives",
+              "Adequate training for each worker considering the workstation and high risk activities; information on admission, change of job, new equipment or technology",
+              "On the listed triggers; written consultation on the training program at least once a year (Article 18(1)(d))"
+            ],
+            [
+              "[Law 102/2009, Articles 73 to 105, and Law 42/2012](/regulations/portugal-health-and-safety-services-organisation)",
+              "All employers (service organization); safety technicians and senior technicians",
+              "Organize an OSH service whose objectives include informing and training workers; technicians hold a professional title and update their competences",
+              "Service documentation kept five years; technician title suspended if under 30 hours CPD per five years"
+            ],
+            [
+              "[EU layer: OSH Framework Directive 89/391/EEC](/regulations/eu-osh-framework-directive-training)",
+              "All public and private sector employers, through Law 102/2009",
+              "Job specific training on recruitment, transfer, new equipment or technology, adapted to new risks",
+              "Repeated periodically if necessary"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The annual written consultation is easy to miss. Article 18(1)(d) of Law 102/2009 requires the employer to consult in writing, at least once a year, on the safety and health training program, and a breach is a very serious offense ([Law 102/2009](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-56365341)). The Labor Code also doubles the maximum very serious fines for safety and health breaches (Article 556(1)). ACT certifies the entities that deliver courses for employer representatives, employers and designated workers who run safety activities themselves ([ACT](https://portal.act.gov.pt/Pages/FormacaodesenvolvimentoatividadesST.aspx))."
+        }
+      ]
+    },
+    {
+      "id": "harassment-and-conduct",
+      "heading": "What harassment, equality and anti corruption training is required?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Employers with seven or more workers must adopt a code of good conduct for preventing harassment, and employers with 50 or more workers must run an anti corruption compliance program that includes a training program, plus an internal whistleblowing channel. Listed and public sector enterprises must also publish annual equality plans, in which training is one assessed dimension."
+        },
+        {
+          "type": "table",
+          "caption": "Harassment, equality, whistleblowing and anti corruption training in Portugal (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[Labor Code Article 127(1)(k), as amended by Law 73/2017](/regulations/portugal-workplace-harassment-prevention-obligations)",
+              "Employers with seven or more workers; public employers under the equivalent public service rule",
+              "Code of good conduct for preventing and combating harassment; CITE's model code adds a specific, regular training plan for all workers and training for complaint handlers",
+              "No interval in the law; the CITE guide calls for regular training"
+            ],
+            [
+              "[Anti corruption regime (RGPC), Decree-Law 109-E/2021](/regulations/portugal-anti-corruption-regime-training)",
+              "Legal persons in Portugal and Portuguese branches with 50 or more workers; public bodies of that size",
+              "Training program as part of the compliance program; internal training for all managers and workers, with content and frequency reflecting risk exposure",
+              "Set by risk; hours count as continuous training; MENAC guidance suggests an annual training needs survey"
+            ],
+            [
+              "[Whistleblower protection law, Law 93/2021](/regulations/portugal-whistleblower-law-training)",
+              "Legal persons with 50 or more workers and entities in the law's annex regardless of size",
+              "Internal reporting channel with information to staff; specific training for competent authority officials (Article 13(3))",
+              "No interval recorded; reports register kept five years"
+            ],
+            [
+              "[Equality plans, Law 62/2017](/regulations/portugal-equality-plans-and-training)",
+              "Public sector enterprises and listed companies",
+              "Annual equality plan following the CITE guide, whose matrices include an initial and continuous training dimension",
+              "Plan delivered by September 15 each year"
+            ],
+            [
+              "[EU layer: Whistleblower Directive (EU) 2019/1937](/regulations/eu-whistleblower-directive-obligations)",
+              "Private entities with 50 or more workers, through Law 93/2021",
+              "Internal channels and clear information on reporting; withholding training listed as retaliation",
+              "No interval set"
+            ],
+            [
+              "[ILO Violence and Harassment Convention (C190)](/regulations/ilo-violence-and-harassment-convention-c190)",
+              "Portugal ratified in 2024; applies through national law",
+              "Ratifying States must require employers to give information and training on violence and harassment risks (Article 9(d))",
+              "No interval set"
+            ],
+            [
+              "[EU layer: Pay Transparency Directive (EU) 2023/970](/regulations/eu-pay-transparency-directive-manager-training)",
+              "Employers, once transposed into Portuguese law",
+              "No employer training article; courts may order HR training as a remedy",
+              "Not applicable"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The anti corruption regime is the most training specific of these. Article 5(1) of the RGPC lists a training program as one of four mandatory compliance elements, alongside a corruption risk prevention plan, a code of conduct and a whistleblowing channel, and Article 9 requires internal training for all managers and workers, with content and frequency reflecting each person's exposure to risk ([RGPC](https://menac.pt/wp-content/uploads/2023/06/Dec_Lei-109-E_2021.pdf)). MENAC's Guide 1/2023 suggests an annual training needs survey, induction of 6 to 12 hours and a mix of about 25% behavioral, 25% normative and 50% group work ([MENAC Guide 1/2023](https://menac.pt/wp-content/uploads/2023/12/guia-n1-2023.pdf)). Training is not a separately fined offense under Article 20, but managers and the compliance officer can be personally liable under Article 21(4)."
+        },
+        {
+          "type": "p",
+          "text": "Recent amendments to the decree-law have not touched the training provisions. Decree-Law 70/2025 restructured MENAC and republished the decree-law with RGPC Articles 2, 9 and 20 unchanged, and Law 37/2026 amended MENAC's functions from September 1, 2026 without amending the RGPC annex."
+        }
+      ]
+    },
+    {
+      "id": "privacy-and-security",
+      "heading": "What data protection, cybersecurity and AI training applies in Portugal?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Data protection training rests on the GDPR, which applies directly, and on Law 58/2019, which executes it in Portugal and gives the Data Protection Officer a duty to sensitize users to security incidents. Cybersecurity training is set by Decree-Law 125/2025, which transposes NIS2 and makes management bodies responsible for regular training."
+        },
+        {
+          "type": "table",
+          "caption": "Data protection, cybersecurity and AI training in Portugal (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[Law 58/2019 (GDPR execution law)](/regulations/portugal-gdpr-implementation-law-staff-training)",
+              "Controllers and processors in Portugal; DPOs; everyone involved in processing (confidentiality)",
+              "DPO sensitizes users to timely detection and reporting of security incidents (Article 11(b)); CNPD Diretriz/2023/1 recommends user training on phishing",
+              "No interval set"
+            ],
+            [
+              "[EU layer: GDPR](/regulations/gdpr-staff-training-requirements)",
+              "All controllers and processors",
+              "DPO monitors awareness raising and training of staff (Article 39(1)(b)); BCR training (Article 47(2)(n))",
+              "No interval set"
+            ],
+            [
+              "[Cybersecurity regime, Decree-Law 125/2025](/regulations/portugal-cybersecurity-law-training)",
+              "Essential and important entities under the NIS2 transposition, their management bodies and workers",
+              "Management bodies ensure regular cybersecurity training (Article 25(1)(d)); basic cyber hygiene and training for top management and workers (Article 27(1)(f))",
+              "Regular; Article 27 measures take effect 24 months after the implementing regulations"
+            ],
+            [
+              "[EU layer: NIS2 Directive (EU) 2022/2555](/regulations/nis2-management-body-training)",
+              "Essential and important entities, through Decree-Law 125/2025",
+              "Management body members required to follow training; regular training for employees encouraged",
+              "No interval set"
+            ],
+            [
+              "[EU layer: DORA, Regulation (EU) 2022/2554](/regulations/dora-ict-security-awareness-training)",
+              "Financial entities; in Portugal supervised by Banco de Portugal, CMVM and ASF",
+              "Compulsory ICT security awareness and digital operational resilience training for all employees and senior management",
+              "Applies from 17 January 2025; management body training on a regular basis"
+            ],
+            [
+              "[EU layer: AI Act, Article 4](/regulations/eu-ai-act-ai-literacy)",
+              "Providers and deployers of AI systems",
+              "Measures to support the development of AI literacy of staff (as replaced by Regulation (EU) 2026/1744)",
+              "No interval set; applies since 2 February 2025"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Timing matters for the cybersecurity regime. Decree-Law 125/2025 entered into force 120 days after its December 4, 2025 publication, but Article 10(2) defers Article 27(1) and (2), which contain the cyber hygiene and training measure, until 24 months after the implementing regulations are published ([Decree-Law 125/2025](https://files.diariodarepublica.pt/1s/2025/12/23400/0000400068.pdf)). The management body duty in Article 25 is not deferred. One of the sanctions available is an order to adopt a training plan within six months (Article 67(c)). For financial entities, DORA rather than NIS2 is the sector specific act, and Decree-Law 125/2025 names Banco de Portugal, CMVM and ASF as the special authorities for it."
+        }
+      ]
+    },
+    {
+      "id": "financial-crime",
+      "heading": "What anti money laundering training does Portuguese law require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Law 83/2017 requires obliged entities to give employees specific, regular training appropriate to their sector, and immediate training to new joiners, with records available to the sectoral authorities. Breaching the training duty is listed as a particularly serious offense."
+        },
+        {
+          "type": "table",
+          "caption": "Anti money laundering training in Portugal (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[AML law, Law 83/2017, Article 55](/regulations/portugal-aml-law-training-requirements)",
+              "Obliged entities supervised by Banco de Portugal, CMVM, ASF and other sectoral authorities",
+              "Adequate knowledge; specific and regular training; immediate training for new joiners; competent trainers with the compliance officer's prior favorable opinion; Banco de Portugal Notice 1/2022 sets training policy content and record fields",
+              "Regular, and immediately on joining; records kept seven years (Article 51)"
+            ],
+            [
+              "[EU layer: Anti Money Laundering Regulation (EU) 2024/1624](/regulations/eu-amlr-training-requirements)",
+              "Obliged entities across the EU, directly applicable",
+              "Specific, ongoing training programs appropriate to functions and risks, duly documented (Article 12); training policy (Article 9(2))",
+              "Applies from 10 July 2027"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Penalties make the training duty a board level issue. Article 169-A(jj) of Law 83/2017 lists breach of the Article 55(1) to (4) training duty as a particularly serious offense, with fines for credit and financial institutions ranging from EUR 50,000 to EUR 5,000,000 (Article 170(1)), and Article 171 raises maximums to twice the economic benefit or 10% of annual turnover for some entities ([Law 83/2017](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643)). From 10 July 2027 the EU Anti Money Laundering Regulation will set the training duty directly in Article 12, so a Portuguese program built today needs to be mapped to both texts."
+        }
+      ]
+    },
+    {
+      "id": "sector-licensing-and-cpd",
+      "heading": "Which licensed roles carry their own training and CPD requirements?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Licensed roles in Portugal carry training tied to the license itself: initial qualification, then periodic refreshers or annual credits, with loss of the right to practice as the consequence of missing them. The financial services competence regimes come from EU directives transposed into Portuguese law."
+        },
+        {
+          "type": "table",
+          "caption": "Sector licensing, competence and CPD in Portugal (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[Certified accountants: OCC continuing training regulation](/regulations/portugal-ordem-dos-contabilistas-certificados-cpd)",
+              "Members of the Ordem dos Contabilistas Certificados",
+              "Continuing training credits in accounting, taxation, ethics and law; non compliance prevents practice",
+              "30 credits per year; proof of external credits by end of the first quarter of the following year"
+            ],
+            [
+              "[Private security: Law 34/2013 and Ordinance 148/2014](/regulations/portugal-private-security-training-requirements)",
+              "Private security staff in nine specialties, licensed by the PSP",
+              "Initial, refresher and complementary training at certified premises; refresher required for card renewal",
+              "PSP card valid five years; refresher minimum hours by specialty (for example vigilante 30, close protection 60)"
+            ],
+            [
+              "[Credit intermediaries: Decree-Law 81-C/2017](/regulations/portugal-credit-intermediaries-training-requirements)",
+              "Credit intermediaries and their staff; creditor staff under Decree-Law 74-A/2017",
+              "Knowledge in nine subjects through certification, a qualifying diploma or recognized training; competent workers for housing credit intermediation",
+              "Qualification on entry; no recurring interval recorded"
+            ],
+            [
+              "[EU layer: Mortgage Credit Directive 2014/17/EU](/regulations/mortgage-credit-directive-staff-knowledge-competence)",
+              "Creditors, credit intermediaries and appointed representatives",
+              "Staff possess and keep up to date knowledge in nine minimum areas (Annex III)",
+              "Ongoing; no reliance solely on experience after 21 March 2019"
+            ],
+            [
+              "[EU layer: MiFID II, Article 25](/regulations/mifid-ii-knowledge-and-competence-requirements)",
+              "Investment firm staff giving advice or information; transposed by Law 35/2018",
+              "Necessary knowledge and competence, demonstrable on request; ESMA guidelines call for annual review with CPD",
+              "Annual review under ESMA guidelines"
+            ],
+            [
+              "[EU layer: Insurance Distribution Directive, Article 10](/regulations/insurance-distribution-directive-cpd-requirements)",
+              "Insurance intermediaries and employees of undertakings and intermediaries; transposed by Law 7/2019, supervised by ASF",
+              "Continuing professional training or development",
+              "At least 15 hours per year"
+            ],
+            [
+              "[EU layer: MiCA](/regulations/mica-staff-knowledge-and-competence)",
+              "Crypto asset service providers; Banco de Portugal and CMVM as authorities",
+              "Staff giving advice or information possess the necessary knowledge and competence (Article 81(7))",
+              "No interval set"
+            ],
+            [
+              "[Higher education program accreditation (A3ES), Decree-Law 65/2018](/regulations/portugal-a3es-program-accreditation)",
+              "Universities and polytechnics",
+              "Program accreditation including teaching staff qualifications",
+              "Accreditation period set in each decision"
+            ],
+            [
+              "[EU layer: IORP II, as applied by ASF Norma Regulamentar 6/2024-R](/regulations/iorp-ii-pension-fund-fit-and-proper)",
+              "Pension funds and their key function holders",
+              "Fit and proper assessment against collective knowledge areas",
+              "Reassessment at least every five years (ASF)"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The private security regime is the most granular. Ordinance 148/2014 makes refresher training mandatory on card renewal or where the last training was more than five years ago, and sets minimum refresher hours for each specialty, from 10 hours for alarm operators to 60 hours for close protection ([Ordinance 148/2014](https://files.diariodarepublica.pt/1s/2014/07/13700/0390003909.pdf)). For certified accountants, non compliance with the 30 credit rule prevents practice automatically after the proof deadline ([OCC regulation](https://www.occ.pt/pt-pt/ordem/regulamentos/regulamento-de-formacao-profissional-continua))."
+        }
+      ]
+    },
+    {
+      "id": "food-and-transport",
+      "heading": "What training applies to food businesses and professional drivers?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Professional truck and bus drivers need a driver qualification certificate (CAM) renewed every five years through 35 hours of periodic training. Food businesses train food handlers under the EU hygiene regulation, which applies directly and is enforced in Portugal through official controls."
+        },
+        {
+          "type": "table",
+          "caption": "Transport and food hygiene training in Portugal (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[Driver CAM: Decree-Law 126/2009 as republished by Decree-Law 102-C/2020](/regulations/portugal-driver-cam-certificate)",
+              "Drivers of C1, C1E, C, CE, D1, D1E, D and DE vehicles, including third country nationals employed by EU companies",
+              "Initial qualification (280 hours common, 140 accelerated); periodic training on road safety, OSH and environmental impact",
+              "35 hours every five years before CAM expiry, in seven hour daily periods"
+            ],
+            [
+              "[EU layer: Driver CPC Directive (EU) 2022/2561](/regulations/eu-driver-cpc-periodic-training)",
+              "The same driver categories across the EU",
+              "Periodic training with at least one road safety period; e-learning up to 12 hours",
+              "35 hours every five years"
+            ],
+            [
+              "[EU layer: Food hygiene Regulation (EC) No 852/2004](/regulations/eu-food-hygiene-training-requirements)",
+              "Food business operators and food handlers",
+              "Food handlers supervised and instructed or trained commensurate with their work; HACCP training for those responsible for the procedures",
+              "No interval set; Commission guidance says refresher frequency follows needs and demonstrated skills"
+            ],
+            [
+              "[Maritime Labour Convention, 2006](/regulations/maritime-labour-convention-training-and-qualifications)",
+              "Shipowners of Portuguese flagged ships (Portugal ratified in 2016)",
+              "Seafarers trained or qualified for their duties (Regulation 1.3); trained ship cooks; medical training",
+              "No interval in the Convention"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The CAM regime is enforced at the roadside. The Instituto da Mobilidade e dos Transportes (IMT) oversees it, the GNR and PSP enforce it, and a driver without a valid document faces a fine of EUR 500 to EUR 1,500, reduced to EUR 50 to EUR 150 if the document is shown within five days ([Decree-Law 102-C/2020](https://files.diariodarepublica.pt/1s/2020/12/23802/0022100257.pdf)). Employers running fleets should track each driver's CAM expiry rather than relying on the five year cycle starting at a common date."
+        }
+      ]
+    },
+    {
+      "id": "building-a-register",
+      "heading": "How should a Portuguese employer build a single training register?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Build the register so that every training activity is recorded once and counted twice: against the topic duty it satisfies and against the worker's 40 hour Article 131 balance. That double count is what turns the Labor Code minimum from a separate burden into the container for most other obligations."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Set headcount thresholds first.** Record headcount per legal person and establishment: seven workers triggers the harassment code, 50 triggers the RGPC and the whistleblowing channel, and 400 per establishment (or 30 in high risk activities) triggers an internal OSH service.",
+            "**List topic duties and their source.** Use the tables above, marking which are Portuguese law, which are EU regulations applying directly, and which are guidance (CITE's model code, MENAC guides, CNPD's Diretriz).",
+            "**Track the 40 hours per worker.** Record hours by worker and year, the share of workers trained (at least 10%), any advance or deferral agreed in the training plan, and unprovided hours that are becoming a credit under Article 132.",
+            "**Record license cycles per person.** CAM expiry, PSP card expiry, OCC credits by year, and OSH technician CPD over five years all run on individual dates.",
+            "**Apply the longest retention rule.** AML training records are kept seven years under Law 83/2017; OSH service documentation and the whistleblowing register five years. See [how long to keep training records](/guides/how-long-to-keep-training-records).",
+            "**Hold the annual consultation.** Schedule the written consultation on the safety and health training program required at least once a year by Law 102/2009 and file the record."
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative allocation of one office worker's 40 hours in a company with 120 workers (example only, not a recommendation)",
+          "head": [
+            "Activity",
+            "Duty it evidences",
+            "Hours",
+            "Counts toward Article 131?"
+          ],
+          "rows": [
+            [
+              "Anti corruption training, risk based",
+              "RGPC Article 9",
+              "4",
+              "Yes, stated in RGPC Article 9"
+            ],
+            [
+              "Safety and health refresher and evacuation drill",
+              "Law 102/2009 Article 20",
+              "3",
+              "Settle in the training plan"
+            ],
+            [
+              "Harassment prevention under the code of good conduct",
+              "Labor Code Article 127(1)(k)",
+              "2",
+              "Settle in the training plan"
+            ],
+            [
+              "Data protection and phishing awareness",
+              "GDPR, Law 58/2019, CNPD Diretriz/2023/1",
+              "2",
+              "Settle in the training plan"
+            ],
+            [
+              "Role specific technical and professional training",
+              "Labor Code Article 131 (topic not prescribed)",
+              "29",
+              "Yes"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Where a topic has no interval, record the risk rationale for the one chosen, using the method in [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles). The [training matrix guide](/guides/how-to-build-a-training-matrix) covers the layout by role and topic."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps each learning outcome to the Portuguese and EU sources it satisfies, so one activity can evidence a topic duty and the Article 131 hours at the same time. When a source changes, such as the AML Regulation replacing parts of Law 83/2017 in 2027, the affected outcomes are identified directly. The [knowledge governance](/platform/knowledge-governance) page describes this."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do the 40 training hours have to cover specific topics?",
+      "a": "No. Article 131 of the Labor Code sets a minimum quantity, 40 hours per worker per year, without prescribing topics. The employer chooses the content in its training plan. Topic duties such as anti corruption or safety training sit alongside it, and the anti corruption regime states expressly that its training hours count as continuous training."
+    },
+    {
+      "q": "What happens if an employer does not provide the 40 hours?",
+      "a": "Breaching Article 131(1), (2) or (5) is a grave offense. Hours not provided within two years also convert into a training credit the worker can use with 10 days' notice, which is paid and counts as service, and unprovided hours or credit must be paid on termination of the contract."
+    },
+    {
+      "q": "Does a small company in Portugal need anti corruption or whistleblowing training?",
+      "a": "The anti corruption regime and the whistleblowing channel duty apply to legal persons with 50 or more workers, although the whistleblowing law also covers entities in its annex regardless of size. A company with seven or more workers still needs a harassment code of good conduct, and every employer owes safety training and the 40 hours."
+    },
+    {
+      "q": "Do EU regulations add training duties in Portugal?",
+      "a": "Yes. Regulations such as the GDPR, DORA and the AI Act apply directly in Portugal without transposition, and the EU Anti Money Laundering Regulation will apply from 10 July 2027. Directives such as NIS2 and the Whistleblower Directive reach employers through Portuguese laws, for example Decree-Law 125/2025 and Law 93/2021."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lei n.º 7/2009: Código do Trabalho (consolidated version)",
+      "publisher": "Diário da República",
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475"
+    },
+    {
+      "title": "Lei n.º 102/2009: regime jurídico da promoção da segurança e saúde no trabalho (consolidated version)",
+      "publisher": "Diário da República",
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-56365341"
+    },
+    {
+      "title": "Formação para o desenvolvimento de atividades de segurança no trabalho por representante do empregador, empregador ou trabalhador designado",
+      "publisher": "Autoridade para as Condições do Trabalho (ACT)",
+      "url": "https://portal.act.gov.pt/Pages/FormacaodesenvolvimentoatividadesST.aspx"
+    },
+    {
+      "title": "Lei n.º 3/2014, de 28 de janeiro: altera e republica a Lei n.º 102/2009 (regime jurídico da promoção da segurança e saúde no trabalho)",
+      "publisher": "Diário da República",
+      "url": "https://files.diariodarepublica.pt/1s/2014/01/01900/0055400591.pdf"
+    },
+    {
+      "title": "Lei n.º 73/2017, de 16 de agosto: reforça o quadro legislativo para a prevenção da prática de assédio",
+      "publisher": "Diário da República",
+      "url": "https://files.diariodarepublica.pt/1s/2017/08/15700/0471504717.pdf"
+    },
+    {
+      "title": "Decreto-Lei n.º 109-E/2021, de 9 de dezembro: cria o Mecanismo Nacional Anticorrupção e estabelece o regime geral de prevenção da corrupção (Diário da República, 1.ª série, n.º 237)",
+      "publisher": "Diário da República, via MENAC",
+      "url": "https://menac.pt/wp-content/uploads/2023/06/Dec_Lei-109-E_2021.pdf"
+    },
+    {
+      "title": "Guia n.º 1/2023: Os instrumentos do Regime Geral de Prevenção da Corrupção",
+      "publisher": "Mecanismo Nacional Anticorrupção (MENAC)",
+      "url": "https://menac.pt/wp-content/uploads/2023/12/guia-n1-2023.pdf"
+    },
+    {
+      "title": "Lei n.º 93/2021, de 20 de dezembro: regime geral de proteção de denunciantes de infrações",
+      "publisher": "Diário da República",
+      "url": "https://files.diariodarepublica.pt/1s/2021/12/24400/0000300015.pdf"
+    },
+    {
+      "title": "Lei n.º 62/2017, de 1 de agosto: regime da representação equilibrada entre mulheres e homens",
+      "publisher": "Diário da República",
+      "url": "https://files.diariodarepublica.pt/1s/2017/08/14700/0441404416.pdf"
+    },
+    {
+      "title": "Lei n.º 58/2019, de 8 de agosto: execução do Regulamento (UE) 2016/679",
+      "publisher": "Diário da República",
+      "url": "https://files.diariodarepublica.pt/1s/2019/08/15100/0000300040.pdf"
+    },
+    {
+      "title": "Diretriz/2023/1 sobre medidas organizativas e de segurança aplicáveis aos tratamentos de dados pessoais",
+      "publisher": "Comissão Nacional de Proteção de Dados (CNPD)",
+      "url": "https://www.cnpd.pt/umbraco/surface/cnpdDecision/download/122048"
+    },
+    {
+      "title": "Decreto-Lei n.º 125/2025, de 4 de dezembro: regime jurídico da cibersegurança (transpõe a Diretiva (UE) 2022/2555)",
+      "publisher": "Diário da República",
+      "url": "https://files.diariodarepublica.pt/1s/2025/12/23400/0000400068.pdf"
+    },
+    {
+      "title": "Lei n.º 83/2017, de 18 de agosto (versão consolidada)",
+      "publisher": "Diário da República, Imprensa Nacional-Casa da Moeda",
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"
+    },
+    {
+      "title": "Regulation (EU) 2024/1624 (Anti-Money Laundering Regulation)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "title": "Regulamento de Formação Profissional Contínua (Regulamento n.º 352/2024)",
+      "publisher": "Ordem dos Contabilistas Certificados",
+      "url": "https://www.occ.pt/pt-pt/ordem/regulamentos/regulamento-de-formacao-profissional-continua"
+    },
+    {
+      "title": "Portaria n.º 148/2014, de 18 de julho: conteúdo e duração dos cursos do pessoal de segurança privada",
+      "publisher": "Diário da República",
+      "url": "https://files.diariodarepublica.pt/1s/2014/07/13700/0390003909.pdf"
+    },
+    {
+      "title": "Decreto-Lei n.º 81-C/2017, de 7 de julho (Diário da República, 1.ª série, n.º 130, 2.º suplemento)",
+      "publisher": "Diário da República Eletrónico",
+      "url": "https://dre.pt/application/conteudo/107648947"
+    },
+    {
+      "title": "Decreto-Lei n.º 102-C/2020, de 9 de dezembro: transpõe a Diretiva (UE) 2018/645 e republica o Decreto-Lei n.º 126/2009",
+      "publisher": "Diário da República",
+      "url": "https://files.diariodarepublica.pt/1s/2020/12/23802/0022100257.pdf"
+    },
+    {
+      "title": "Regulation (EU) 2022/2554 on digital operational resilience for the financial sector (DORA)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng"
+    },
+    {
+      "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    }
+  ],
+  "related": [
+    "portugal-labour-code-continuous-training",
+    "portugal-ohs-training-requirements",
+    "portugal-anti-corruption-regime-training",
+    "portugal-aml-law-training-requirements",
+    "mandatory-workplace-training-in-the-european-union",
+    "how-to-set-mandatory-training-refresh-cycles"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "Labor Code Article 131(2): minimum 40 hours continuous training per year, proportional for fixed-term contracts of three months or more; last amended by Law 93/2019; 131(5) at least 10% of workers trained each year; 131(6) advance or defer up to two years; 131(10) grave offense; Article 132 credit after two years, paid, counts as service, 10 days' notice, lapses after three years; Article 134 payment on termination (as recorded on portugal-labour-code-continuous-training).",
+      "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475"
+    },
+    {
+      "claim": "Original 2009 text of Article 131(2) set a minimum of 35 hours (as recorded on portugal-labour-code-continuous-training).",
+      "source": "https://files.diariodarepublica.pt/1s/2009/02/03000/0092601029.pdf"
+    },
+    {
+      "claim": "Law 102/2009 Article 20 adequate training for each worker, designated workers, first aid, firefighting and evacuation staff; Article 18(1)(d) written consultation at least once a year on the OHS training program, very serious offense; Article 19(2) information triggers; Article 2(1) transposes Directive 89/391/EEC; Labor Code Article 556(1) doubles very serious maximums for OSH breaches (as recorded on portugal-ohs-training-requirements).",
+      "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-56365341"
+    },
+    {
+      "claim": "ACT certifies training entities for courses for employer representatives, employers and designated workers (as recorded on portugal-ohs-training-requirements).",
+      "source": "https://portal.act.gov.pt/Pages/FormacaodesenvolvimentoatividadesST.aspx"
+    },
+    {
+      "claim": "Law 102/2009 as republished by Law 3/2014: Art 73-A objectives incl. informing and training workers; 73-B(5) documentation five years; Art 78(3) internal service at 400 workers per establishment or 30 exposed to high-risk activities; Law 42/2012 Art 8(1) suspension if under 30 hours CPD per five years (as recorded on portugal-health-and-safety-services-organisation).",
+      "source": "https://files.diariodarepublica.pt/1s/2014/01/01900/0055400591.pdf"
+    },
+    {
+      "claim": "Law 73/2017 adds Labor Code Art 127(1)(k) code of good conduct where company has seven or more workers; CITE model code includes specific and regular training plan and training for complaint handlers (as recorded on portugal-workplace-harassment-prevention-obligations).",
+      "source": "https://files.diariodarepublica.pt/1s/2017/08/15700/0471504717.pdf"
+    },
+    {
+      "claim": "RGPC Article 2(1) 50 or more workers; Article 5(1) PPR, code of conduct, training program, whistleblowing channel; Article 9 training for all managers and workers, content and frequency reflect risk exposure, hours count as continuous training; Article 21(4) personal liability; training not a separate offense under Article 20 (as recorded on portugal-anti-corruption-regime-training).",
+      "source": "https://menac.pt/wp-content/uploads/2023/06/Dec_Lei-109-E_2021.pdf"
+    },
+    {
+      "claim": "MENAC Guide 1/2023: annual training needs survey; about 25% behavioral, 25% normative, 50% group work; induction 6 to 12 hours (as recorded on portugal-anti-corruption-regime-training).",
+      "source": "https://menac.pt/wp-content/uploads/2023/12/guia-n1-2023.pdf"
+    },
+    {
+      "claim": "Decree-Law 70/2025 republished the decree-law with RGPC Articles 2, 9 and 20 unchanged; Law 37/2026 amended MENAC functions from September 1, 2026 without amending the RGPC annex (as recorded on portugal-anti-corruption-regime-training).",
+      "source": "https://diariodarepublica.pt/dr/detalhe/lei/37-2026-1152696582"
+    },
+    {
+      "claim": "Law 93/2021 Article 8(1) channels for legal persons with 50 or more workers and annex entities regardless of size; Article 13(3) training for authority officials; Article 20(1) register and five year retention (as recorded on portugal-whistleblower-law-training).",
+      "source": "https://files.diariodarepublica.pt/1s/2021/12/24400/0000300015.pdf"
+    },
+    {
+      "claim": "Law 62/2017 Article 7 annual equality plans; delivery by September 15; CITE guide matrices include an initial and continuous training dimension (as recorded on portugal-equality-plans-and-training).",
+      "source": "https://files.diariodarepublica.pt/1s/2017/08/14700/0441404416.pdf"
+    },
+    {
+      "claim": "Law 58/2019 Article 11(b) DPO sensitizes users to timely detection and immediate reporting of security incidents; Article 10(2) confidentiality duty; CNPD Diretriz/2023/1 on user training on phishing (as recorded on portugal-gdpr-implementation-law-staff-training).",
+      "source": "https://files.diariodarepublica.pt/1s/2019/08/15100/0000300040.pdf"
+    },
+    {
+      "claim": "Decree-Law 125/2025: Article 11 in force 120 days after publication; Article 10(2) defers Art 27(1)(2) until 24 months after regulations; regime Article 25(1)(d) management bodies ensure regular training; Article 27(1)(f) cyber hygiene and training; Article 67(c) training plan within six months; Article 15(2)(b) BdP, CMVM, ASF for DORA (as recorded on portugal-cybersecurity-law-training and dora-ict-security-awareness-training).",
+      "source": "https://files.diariodarepublica.pt/1s/2025/12/23400/0000400068.pdf"
+    },
+    {
+      "claim": "Law 83/2017 Article 55 training duty incl. immediate training for new joiners and compliance officer's prior favorable opinion; Article 51 seven-year retention; Article 169-A(jj) particularly serious offense; Article 170(1) EUR 50,000 to 5,000,000; Article 171 twice the benefit or 10% of turnover (as recorded on portugal-aml-law-training-requirements).",
+      "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"
+    },
+    {
+      "claim": "AMLR applies from 10 July 2027; Article 12 specific, ongoing, documented training programs; Article 9(2) training policy (as recorded on eu-amlr-training-requirements).",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "claim": "OCC regulation Article 5(2) 30 credits per year; Article 8 proof by end of first quarter of following year; Article 10 non-compliance prevents practice automatically after the deadline (as recorded on portugal-ordem-dos-contabilistas-certificados-cpd).",
+      "source": "https://www.occ.pt/pt-pt/ordem/regulamentos/regulamento-de-formacao-profissional-continua"
+    },
+    {
+      "claim": "Law 34/2013 as republished: nine specialties; PSP card valid five years, renewal requires refresher; Ordinance 148/2014 Art 7(3) refresher on renewal or where last training over five years ago; Annex II refresher hours alarm operator 10, vigilante 30, close protection 60 (as recorded on portugal-private-security-training-requirements).",
+      "source": "https://files.diariodarepublica.pt/1s/2014/07/13700/0390003909.pdf"
+    },
+    {
+      "claim": "Decree-Law 81-C/2017 Article 13(1) nine subjects and qualification routes; Article 49(2)(b) and 66(1)(f) competent workers for housing credit intermediation (as recorded on portugal-credit-intermediaries-training-requirements).",
+      "source": "https://dre.pt/application/conteudo/107648947"
+    },
+    {
+      "claim": "Decree-Law 102-C/2020 republishing DL 126/2009: scope categories; Annex II 280 hours, Annex III 140 hours; Article 9(1) periodic training every five years, Annex IV 35 hours in seven hour periods; Article 26 IMT, GNR, PSP; Article 27(1) EUR 500 to 1,500 or 50 to 150 within five days (as recorded on portugal-driver-cam-certificate).",
+      "source": "https://files.diariodarepublica.pt/1s/2020/12/23802/0022100257.pdf"
+    },
+    {
+      "claim": "DORA Article 13(6) compulsory modules for all employees and senior management; Article 5(4) management body training on a regular basis; applies from 17 January 2025 (as recorded on dora-ict-security-awareness-training).",
+      "source": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng"
+    },
+    {
+      "claim": "IDD Article 10(2) at least 15 hours per year; Portugal Lei 7/2019 transposes; ASF competent (as recorded on insurance-distribution-directive-cpd-requirements). MiFID II Article 25(1), ESMA guidelines annual review with CPD, Portugal Lei 35/2018 (as recorded on mifid-ii-knowledge-and-competence-requirements). MiCA Article 81(7); BdP and CMVM (as recorded on mica-staff-knowledge-and-competence).",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016L0097-20241009"
+    },
+    {
+      "claim": "GDPR Article 39(1)(b) and 47(2)(n) (as recorded on gdpr-staff-training-requirements); AI Act Article 4 replaced by Regulation (EU) 2026/1744 to support AI literacy, applies since 2 February 2025 (as recorded on eu-ai-act-ai-literacy); Regulation 852/2004 Annex II Chapter XII and Commission Notice on refresher frequency by needs (as recorded on eu-food-hygiene-training-requirements).",
+      "source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    },
+    {
+      "claim": "ILO C190 Article 9(d) laws requiring employers to provide information and training; NORMLEX: Australia ratified 9 June 2023 and Portugal 16 February 2024, in force; Japan, United States and UAE not listed (as recorded on ilo-violence-and-harassment-convention-c190).",
+      "source": "https://normlex.ilo.org/dyn/nrmlx_en/f?p=NORMLEXPUB:11300:0::NO::P11300_INSTRUMENT_ID:3999810"
+    },
+    {
+      "claim": "MLC Regulation 1.3 training and qualifications; NORMLEX: Australia 21 Dec 2011, Japan 05 Aug 2013, Portugal 12 May 2016 in force; United States and UAE absent (as recorded on maritime-labour-convention-training-and-qualifications).",
+      "source": "https://web.archive.org/web/20260924142911/https://normlex.ilo.org/dyn/nrmlx_en/f?p=NORMLEXPUB:11300:0::NO::P11300_INSTRUMENT_ID:312331"
+    },
+    {
+      "claim": "ASF Norma Regulamentar 6/2024-R Article 16 reassessment at least every five years (as recorded on iorp-ii-pension-fund-fit-and-proper); Decree-Law 65/2018 Article 59 accreditation validity (as recorded on portugal-a3es-program-accreditation).",
+      "source": "https://www.asf.com.pt/documents/114053/114092/NormaRegulamentarn62024Rde20de.pdf/74cc32db-3c69-acab-fe35-6852ddcaf396?version=2.8&t=1756519212017&download=true"
+    }
+  ]
+}

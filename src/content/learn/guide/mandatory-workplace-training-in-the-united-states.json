@@ -1,0 +1,1446 @@
+{
+  "slug": "mandatory-workplace-training-in-the-united-states",
+  "kind": "guide",
+  "title": "What training is mandatory for employers in the United States?",
+  "seoTitle": "Mandatory training in the United States",
+  "description": "Mandatory employer training in the US by theme: OSHA, state harassment laws, HIPAA and cyber rules, BSA/AML, FINRA and licensing CE, CMS health care and DOT.",
+  "shortAnswer": "As at November 2026, the United States has no single mandatory training law. Federal OSHA standards require hazard specific training, such as hazard communication and annual bloodborne pathogens training. Sector regulators add duties for banks, broker-dealers, health care providers, federal contractors and transport employers. States add harassment, workplace violence and licensing rules, so the obligations depend on industry, workforce size and the states where employees work.",
+  "keyTakeaways": [
+    "Federal training duties are set standard by standard: OSHA has no general training rule but dozens of hazard specific ones, several with annual refreshers.",
+    "State law adds the most visible employer wide duties: harassment training every two years in California and annually in New York and Illinois, and workplace violence prevention training in California and New York retail.",
+    "Regulated industries carry fixed cycles, such as FINRA's annual Regulatory Element, 8 hours of annual CE for mortgage loan originators, annual Medicare compliance training and quarterly security awareness under NERC CIP-004.",
+    "Many federal rules require training without an interval, for example BSA/AML 'training for appropriate personnel' and HIPAA privacy training; regulators and examiners then judge adequacy.",
+    "Professional CE runs on state cycles that differ by profession and state, so a multistate employer tracks renewal periods per license, not per course."
+  ],
+  "sections": [
+    {
+      "id": "how-training-duties-are-set",
+      "heading": "How are mandatory training duties set in the United States?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "US training duties come from four sources: federal agency regulations (OSHA, DOT, FDA, CMS, banking agencies, FinCEN), self regulatory organizations such as FINRA, conditions attached to federal funding or program participation (Medicare, Title IV student aid, federal grants), and state law. There is no general federal duty to train; each obligation attaches to a hazard, an activity or a regulated status, and the employer must assemble its own list."
+        },
+        {
+          "type": "p",
+          "text": "OSHA shows the pattern. Its standards set training duties hazard by hazard, often with initial and annual requirements, as in bloodborne pathogens training at initial assignment and at least annually ([29 CFR 1910.1030](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/section-1910.1030)). About half the states run OSHA-approved State Plans that must be at least as effective and can add rules, such as California's written Injury and Illness Prevention Program ([8 CCR 3203](https://www.dir.ca.gov/title8/3203.html))."
+        },
+        {
+          "type": "p",
+          "text": "Enforcement expectations matter as much as rules. The Department of Justice evaluates whether corporate training is \"appropriately tailored\" when it decides how to resolve criminal cases ([DOJ](https://www.justice.gov/media/1160391/dl?inline)), and banking examiners assess training adequacy where the regulation sets no interval. The tables below cover every US regulation page in this library, grouped by theme, as at November 2026; closely related state pages share a row. The [Australia hub](/guides/mandatory-workplace-training-in-australia) shows a comparable federal and state structure."
+        }
+      ]
+    },
+    {
+      "id": "osha-general-industry",
+      "heading": "What OSHA training applies in general industry?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "General industry employers must train employees on each hazard an OSHA standard covers in their workplace, typically at initial assignment and again when tasks or hazards change. Some standards add annual refreshers, including bloodborne pathogens, respiratory protection, hearing conservation, lead, asbestos and fire extinguishers."
+        },
+        {
+          "type": "table",
+          "caption": "OSHA general industry training (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[OSHA training requirements overview](/regulations/osha-training-requirements); [OSHA training documentation](/regulations/osha-recordkeeping-and-training-documentation)",
+              "Private employers under OSHA or a State Plan",
+              "Training required standard by standard",
+              "Varies; bloodborne pathogens records kept 3 years"
+            ],
+            [
+              "[Hazard communication, 1910.1200(h)](/regulations/osha-hazard-communication-training-requirements)",
+              "Employees exposed to hazardous chemicals",
+              "Chemical hazards, labels and safety data sheets",
+              "Initial assignment and when a new hazard is introduced"
+            ],
+            [
+              "[Bloodborne pathogens, 1910.1030(g)(2)](/regulations/osha-bloodborne-pathogens-training-requirements)",
+              "Employees with occupational exposure",
+              "14 elements, interactive, paid time",
+              "Initial assignment, then at least annually"
+            ],
+            [
+              "[Respiratory protection, 1910.134(k)](/regulations/osha-respiratory-protection-training-requirements)",
+              "Employees required to use respirators",
+              "Respirator use, limits and maintenance",
+              "Annually, and when changes make training obsolete"
+            ],
+            [
+              "[Occupational noise, 1910.95(k)](/regulations/osha-hearing-conservation-training-requirements)",
+              "Employees at or above 85 dBA TWA",
+              "Effects of noise, protectors, audiometric testing",
+              "Annually"
+            ],
+            [
+              "[Lead, 1910.1025 and 1926.62](/regulations/osha-lead-training-requirements)",
+              "Employees at or above the action level",
+              "Seven or eight listed topics",
+              "Before assignment, then at least annually"
+            ],
+            [
+              "[Asbestos, 1910.1001(j)(7)](/regulations/osha-asbestos-general-industry-training)",
+              "Employees at or above the PEL; housekeeping in asbestos areas",
+              "Listed topics; housekeeping awareness course",
+              "Initial assignment, then at least annually"
+            ],
+            [
+              "[Lockout/tagout, 1910.147(c)(7)](/regulations/osha-lockout-tagout-training-requirements)",
+              "Authorized and affected employees",
+              "Energy control procedures",
+              "Retraining on triggers; periodic inspection at least annually"
+            ],
+            [
+              "[Mechanical power presses, 1910.217](/regulations/osha-machine-guarding-and-powered-press-training)",
+              "Press operators and maintenance personnel",
+              "Safe method of work before starting",
+              "Before work"
+            ],
+            [
+              "[Powered industrial trucks, 1910.178(l)](/regulations/osha-forklift-operator-training-requirements)",
+              "Forklift operators",
+              "Instruction, practical training and evaluation",
+              "Evaluation at least every 3 years; refresher on triggers"
+            ],
+            [
+              "[Personal protective equipment, 1910.132(f)](/regulations/osha-personal-protective-equipment-training)",
+              "Employees required to use PPE",
+              "Demonstrated understanding before work",
+              "Retraining when understanding or conditions change"
+            ],
+            [
+              "[Portable fire extinguishers, 1910.157(g)](/regulations/osha-fire-extinguisher-training-requirements)",
+              "Employees expected to use extinguishers",
+              "Extinguisher use and incipient fire hazards",
+              "Initial employment, then at least annually"
+            ],
+            [
+              "[Emergency action plans, 1910.38](/regulations/osha-emergency-action-plan-training-requirements)",
+              "Employers required to have an emergency action plan",
+              "Evacuation assistants trained; plan reviewed",
+              "At initial assignment and when the plan or duties change"
+            ],
+            [
+              "[Electric power generation, transmission and distribution, 1910.269](/regulations/osha-electric-power-generation-training-1910-269)",
+              "Electric utility and equivalent industrial employees",
+              "Safety related work practices",
+              "Supervision and inspections at least annually; retraining on triggers"
+            ],
+            [
+              "[Process safety management, 1910.119(g)](/regulations/osha-process-safety-management-training-requirements)",
+              "Employees operating covered processes",
+              "Process overview and operating procedures",
+              "Refresher at least every 3 years"
+            ],
+            [
+              "[HAZWOPER, 1910.120 and 1926.65](/regulations/osha-hazwoper-training-requirements)",
+              "Hazardous waste site workers, managers and responders",
+              "40 or 24 hour initial training",
+              "8 hours refresher annually"
+            ],
+            [
+              "[Permit-required confined spaces, 1910.146 and 1926 Subpart AA](/regulations/confined-space-training-requirements)",
+              "Entrants, attendants, supervisors and rescuers",
+              "Training on four triggers, with certification",
+              "Rescue practice at least every 12 months"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The annual standards cluster around health hazards. Respiratory protection requires retraining annually and whenever changes make prior training obsolete ([29 CFR 1910.134](https://www.law.cornell.edu/cfr/text/29/1910.134)); HAZWOPER requires eight hours of refresher training annually ([29 CFR 1910.120](https://www.law.cornell.edu/cfr/text/29/1910.120)); hazard communication, by contrast, has no refresher interval and is retriggered only by new hazards ([29 CFR 1910.1200](https://www.law.cornell.edu/cfr/text/29/1910.1200))."
+        }
+      ]
+    },
+    {
+      "id": "construction-state-plans-and-workplace-violence",
+      "heading": "What construction, state safety and workplace violence training is required?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Construction employers must train workers exposed to falls, scaffolds, silica and cranes, and crane operators must be certified. Several states add employer wide programs, including California's injury and illness prevention and workplace violence plans and New York's retail worker safety training."
+        },
+        {
+          "type": "table",
+          "caption": "Construction, state safety programs and workplace violence training (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[Fall protection, 1926.503](/regulations/osha-fall-protection-training-requirements)",
+              "Construction employees exposed to fall hazards",
+              "Training by a competent person",
+              "Retraining on workplace, equipment or knowledge changes"
+            ],
+            [
+              "[Scaffolds, 1926.454](/regulations/osha-scaffold-training-requirements)",
+              "Employees working on, erecting or dismantling scaffolds",
+              "Training by a qualified person",
+              "Retraining when proficiency is lost or conditions change"
+            ],
+            [
+              "[Respirable crystalline silica, 1926.1153](/regulations/osha-silica-construction-training-requirements)",
+              "Construction employees exposed at or above the action level",
+              "Silica hazard training; competent person",
+              "Exposure control plan reviewed annually"
+            ],
+            [
+              "[Crane operators, 1926.1427](/regulations/osha-crane-operator-certification-requirements)",
+              "Operators of Subpart CC equipment",
+              "Training, certification and evaluation",
+              "Certification valid 5 years"
+            ],
+            [
+              "[California IIPP, 8 CCR 3203](/regulations/cal-osha-iipp-training-requirements)",
+              "Every California employer",
+              "Training on general and job specific hazards",
+              "When the program starts, for new hires and new hazards; records kept at least one year"
+            ],
+            [
+              "[California heat illness, 8 CCR 3395 and 3396](/regulations/cal-osha-heat-illness-prevention-training)",
+              "Outdoor and indoor California workplaces",
+              "Nine topics for employees; supervisor topics",
+              "Before work with reasonably anticipated heat exposure"
+            ],
+            [
+              "[California workplace violence prevention, Labor Code 6401.9](/regulations/california-workplace-violence-prevention-training)",
+              "Most California employers",
+              "Plan, hazards and reporting, interactive",
+              "Initial training, then annually"
+            ],
+            [
+              "[New York Retail Worker Safety Act, Labor Law 27-e](/regulations/new-york-retail-worker-safety-act-training)",
+              "Employers with 10 or more retail employees in New York",
+              "Workplace violence prevention training on paid time",
+              "At hire, then annually (every two years under 50 employees)"
+            ],
+            [
+              "[Minnesota AWAIR and Employee Right to Know](/regulations/minnesota-awair-safety-program-training)",
+              "Employers in listed industries",
+              "Hazardous substance training before assignment",
+              "Updates at intervals no greater than one year"
+            ],
+            [
+              "[Washington accident prevention program, WAC 296-800](/regulations/washington-accident-prevention-program-training)",
+              "Employers under Washington core safety rules",
+              "Instruction before job assignment",
+              "No fixed interval"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "California's workplace violence law shows how fast state duties can arrive. Labor Code 6401.9 has been enforceable since July 1, 2024, requiring initial training and annual training thereafter, and the standards board must adopt a general industry standard by December 31, 2026 ([Cal/OSHA](https://www.dir.ca.gov/dosh/dosh_publications/WPV-General-Industry-for-employers-fs.pdf)). New York's retail law differs by size: retail employers with 50 or more employees train annually, smaller ones every two years ([NYS DOL](https://dol.ny.gov/retail-workplace-violence-prevention-training))."
+        }
+      ]
+    },
+    {
+      "id": "mining-energy-environment",
+      "heading": "What training applies in mining, nuclear, laboratory and environmental work?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mining, nuclear, laboratory and environmental rules set training or certification for people handling specific hazards. Several set fixed refreshers, such as 8 hours of annual refresher training for miners and pesticide worker training every 12 months."
+        },
+        {
+          "type": "table",
+          "caption": "Mining, nuclear, laboratory and environmental training (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[MSHA Part 46](/regulations/msha-miner-training-requirements)",
+              "Surface sand, gravel, stone, clay and similar mines",
+              "24 hours new miner training (4 before work)",
+              "8 hours refresher within 12 months of the last"
+            ],
+            [
+              "[NRC instructions to workers, 10 CFR 19.12](/regulations/nrc-instructions-to-workers-radiation)",
+              "Workers likely to exceed 100 mrem a year",
+              "Six instruction elements",
+              "No fixed interval"
+            ],
+            [
+              "[NRC nuclear power plant training, 10 CFR 50.120 and 55.59](/regulations/nrc-nuclear-power-plant-personnel-training)",
+              "Plant personnel and licensed operators",
+              "Systems approach to training; operator requalification",
+              "Requalification cycle up to 24 months; annual operating test"
+            ],
+            [
+              "[BMBL and NIH Guidelines](/regulations/biosafety-training-requirements-laboratories)",
+              "Laboratories working with infectious agents or recombinant DNA",
+              "Training on hazards and precautions",
+              "Annual updates and additional training on changes (BMBL)"
+            ],
+            [
+              "[RCRA personnel training, 40 CFR 262.17 and 265.16](/regulations/epa-rcra-hazardous-waste-personnel-training)",
+              "Large quantity generators and facility personnel",
+              "Hazardous waste management and emergency response",
+              "Within six months of assignment; annual review"
+            ],
+            [
+              "[EPA Worker Protection Standard, 40 CFR 170](/regulations/epa-worker-protection-standard-pesticide-training)",
+              "Agricultural employers and workers",
+              "Pesticide safety training before work in treated areas",
+              "Within the last 12 months; records 2 years"
+            ],
+            [
+              "[EPA pesticide applicator certification, 40 CFR 171](/regulations/epa-pesticide-applicator-certification-requirements)",
+              "Applicators of restricted use pesticides",
+              "Certification; qualifying training for noncertified applicators",
+              "Certification expires after 5 years unless recertified"
+            ],
+            [
+              "[EPA Section 608](/regulations/epa-section-608-technician-certification); [EPA Section 609](/regulations/epa-section-609-mvac-technician-certification)",
+              "Refrigeration and motor vehicle air conditioning technicians",
+              "Certification before handling refrigerant",
+              "No recertification required"
+            ],
+            [
+              "[Drinking water operator certification (SDWA 1419)](/regulations/drinking-water-operator-certification-requirements)",
+              "Community and nontransient noncommunity water systems",
+              "Certified operators under state programs",
+              "Set by state program"
+            ],
+            [
+              "[BSEE SEMS, 30 CFR 250 Subpart S](/regulations/bsee-sems-offshore-training-requirements)",
+              "Outer Continental Shelf oil and gas operators and contractors",
+              "SEMS training element: initial, periodic with drills, and before operating after changes",
+              "Periodic; SEMS audit every 3 years"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "harassment-ethics-and-conduct",
+      "heading": "What harassment, ethics and nondiscrimination training is required?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No federal law requires private employers to provide harassment training, but several states do: California every two years for employers with five or more employees, and New York and Illinois annually. Federal duties cover federal employees, education institutions and health programs receiving federal funds, and enforcement policy rewards effective anti corruption training."
+        },
+        {
+          "type": "table",
+          "caption": "Harassment, ethics, nondiscrimination and anti corruption training (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[California Gov. Code 12950.1 and New York Labor Law 201-g](/regulations/california-and-new-york-harassment-training)",
+              "California employers with 5 or more employees; all New York employers",
+              "California 2 hours supervisors, 1 hour others; New York interactive",
+              "California every two years; New York annually"
+            ],
+            [
+              "[State harassment training laws (six states)](/regulations/state-sexual-harassment-training-requirements)",
+              "Employers in California, New York, Illinois, Connecticut, Maine or Delaware",
+              "State specific content and records",
+              "Illinois annually by December 31; others vary"
+            ],
+            [
+              "[Federal ethics training, 5 CFR 2638](/regulations/us-federal-ethics-training-requirements)",
+              "Executive branch employees",
+              "Initial ethics training, interactive",
+              "Within 3 months of appointment"
+            ],
+            [
+              "[Section 1557, 45 CFR 92.9](/regulations/section-1557-nondiscrimination-training-requirements)",
+              "Health programs receiving HHS financial assistance",
+              "Training of relevant employees on nondiscrimination policies",
+              "New employees within a reasonable period; on material change"
+            ],
+            [
+              "[DOJ Evaluation of Corporate Compliance Programs](/regulations/doj-compliance-program-training-expectations)",
+              "Companies under DOJ criminal investigation or resolution",
+              "Tailored training with measured effectiveness",
+              "Periodic (no fixed interval)"
+            ],
+            [
+              "[FCPA Resource Guide hallmarks](/regulations/fcpa-anti-corruption-training-expectations)",
+              "Issuers and domestic concerns",
+              "Periodic training and certification",
+              "Periodic (no fixed interval)"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "State laws drive most multistate harassment programs. California requires two hours for supervisors and one hour for other employees every two years ([Gov. Code 12950.1](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12950.1)); New York requires interactive training annually ([Labor Law 201-g](https://www.nysenate.gov/legislation/laws/LAB/201-G)); Illinois requires every employee to be trained each calendar year by December 31 ([IDHR](https://dhr.illinois.gov/about-us/idhr-faqs/training-faqs.html))."
+        }
+      ]
+    },
+    {
+      "id": "privacy-and-security",
+      "heading": "What privacy, cybersecurity and records training is required?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Privacy and security training duties attach to sectors: HIPAA for health care, Gramm-Leach-Bliley rules for financial institutions, FCC rules for telecom carriers, and NIST based controls for federal agencies and contractors. Annual intervals are common in federal and state cybersecurity rules, and the electric sector requires quarterly security awareness."
+        },
+        {
+          "type": "table",
+          "caption": "Privacy, cybersecurity and records training (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[HIPAA Privacy and Security Rules, 45 CFR 164.530 and 164.308](/regulations/hipaa-security-and-privacy-training)",
+              "Covered entities and their workforce",
+              "Privacy training; security awareness program",
+              "New members within a reasonable period; on material change"
+            ],
+            [
+              "[FTC Safeguards Rule, 16 CFR 314](/regulations/ftc-safeguards-rule-employee-training)",
+              "Non-bank financial institutions under FTC jurisdiction",
+              "Security awareness training for personnel",
+              "FTC advises regular refreshers"
+            ],
+            [
+              "[Interagency information security guidelines](/regulations/interagency-information-security-guidelines-staff-training)",
+              "Banks, savings associations and credit unions",
+              "Train staff to implement the information security program",
+              "No fixed interval"
+            ],
+            [
+              "[SEC Regulation S-P and S-ID](/regulations/sec-regulation-s-p-2024-amendments-staff-implications)",
+              "Broker-dealers and other covered institutions",
+              "Reg S-ID staff training as necessary",
+              "No fixed interval"
+            ],
+            [
+              "[FCC CPNI rules, 47 CFR 64.2009](/regulations/fcc-cpni-employee-training-requirements)",
+              "Telecommunications carriers",
+              "Train personnel on authorized CPNI use",
+              "Annual officer certificate by March 1"
+            ],
+            [
+              "[California CCPA regulations](/regulations/ccpa-cpra-employee-training-requirements)",
+              "Businesses meeting CCPA thresholds",
+              "Cybersecurity training for personnel with access",
+              "Examples include at start and annually"
+            ],
+            [
+              "[State comprehensive privacy laws](/regulations/us-state-privacy-law-employee-training)",
+              "Controllers and processors meeting state thresholds",
+              "Mostly no training clause",
+              "No fixed interval"
+            ],
+            [
+              "[NYDFS 23 NYCRR 500.14](/regulations/nydfs-part-500-cybersecurity-training-requirements)",
+              "DFS licensed covered entities",
+              "Cybersecurity awareness training including social engineering",
+              "At least annually"
+            ],
+            [
+              "[Federal cybersecurity awareness, 5 CFR 930.301](/regulations/federal-employee-cybersecurity-awareness-training); [NIST SP 800-50](/regulations/nist-sp-800-50-security-awareness-training)",
+              "Executive agency users, including contractors",
+              "Security awareness before system access; role based training",
+              "At least annually"
+            ],
+            [
+              "[FedRAMP (NIST SP 800-53 AT family)](/regulations/fedramp-security-awareness-training)",
+              "Cloud service providers serving federal agencies",
+              "Literacy and role based training",
+              "At defined frequency; FedRAMP 20x mandatory from January 1, 2027"
+            ],
+            [
+              "[CMMC, 32 CFR 170](/regulations/cmmc-security-awareness-training)",
+              "Defense contractors handling FCI or CUI",
+              "Awareness training; Level 3 practical exercises",
+              "Level 3: initial hire, after significant events, at least annually"
+            ],
+            [
+              "[Controlled unclassified information, 32 CFR 2002.30](/regulations/cui-training-requirements)",
+              "Executive agency employees with CUI access",
+              "CUI training on six content areas",
+              "On joining, then at least every two years"
+            ],
+            [
+              "[NISPOM, 32 CFR 117.12](/regulations/nispom-security-training-requirements)",
+              "Cleared contractors",
+              "Initial security briefing before access; FSO training",
+              "FSO training within six months of appointment"
+            ],
+            [
+              "[NERC CIP-004-7](/regulations/nerc-cip-004-training-requirements)",
+              "Registered entities with BES Cyber Systems",
+              "Awareness; training before access",
+              "Awareness each calendar quarter; training every 15 calendar months"
+            ],
+            [
+              "[FDA electronic records, 21 CFR 11.10(i)](/regulations/21-cfr-part-11-training-requirements)",
+              "Organizations keeping FDA records electronically",
+              "Education, training and experience for system users",
+              "No fixed interval"
+            ],
+            [
+              "[NARA records management, 36 CFR 1220.34](/regulations/nara-records-management-training-requirements)",
+              "Federal executive agencies",
+              "Records management training for all personnel",
+              "Within 60 days of employment, then annually (NARA bulletin)"
+            ],
+            [
+              "[NIST AI Risk Management Framework and OMB M-25-21](/regulations/nist-ai-rmf-ai-risk-training)",
+              "Organizations using the voluntary AI RMF; federal agencies",
+              "AI risk education; operator training",
+              "Voluntary for private sector; periodic for agency operators"
+            ],
+            [
+              "[SOC 2 Trust Services Criteria (voluntary attestation)](/regulations/soc-2-security-awareness-training)",
+              "Service organizations issuing SOC 2 reports",
+              "Training to maintain competence (CC1.4 points of focus)",
+              "Not a legal requirement"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The electric sector has the tightest cycle in this library. NERC CIP-004-7 requires security awareness that reinforces cyber security practices at least once each calendar quarter, and cyber security training before access and at least once every 15 calendar months ([NERC](https://www.nerc.com/pa/Stand/Reliability%20Standards/CIP-004-7.pdf)). For financial services in New York, 23 NYCRR 500.14 requires awareness training at least annually for all personnel ([Cornell LII](https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.14)). HIPAA sets triggers instead ([45 CFR 164.530](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.530))."
+        }
+      ]
+    },
+    {
+      "id": "financial-crime",
+      "heading": "What AML, sanctions and export control training is required?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Bank Secrecy Act requires every covered financial institution's AML program to include an ongoing employee training program, without setting an interval. Sanctions and export control training is expected rather than mandated, and OFAC's framework says training should be provided at a minimum annually."
+        },
+        {
+          "type": "table",
+          "caption": "AML, sanctions and export control training (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[BSA/AML programs (banks)](/regulations/bsa-aml-training-requirements); [NCUA credit union BSA](/regulations/ncua-credit-union-bsa-training)",
+              "Banks, savings associations and credit unions",
+              "Training for appropriate personnel",
+              "No fixed interval"
+            ],
+            [
+              "[FinCEN MSB AML programs, 31 CFR 1022.210](/regulations/fincen-msb-aml-program-training)",
+              "Money transmitters and other money services businesses",
+              "AML program including training of personnel",
+              "No fixed interval"
+            ],
+            [
+              "[Casino AML programs, 31 CFR 1021.210](/regulations/casino-aml-training-requirements-us)",
+              "Casinos with gaming revenue over $1 million",
+              "Training of casino personnel including suspicious transactions",
+              "No fixed interval"
+            ],
+            [
+              "[FINRA Rule 3310 and 31 CFR 1023.210](/regulations/finra-rule-3310-aml-program-training)",
+              "FINRA member broker-dealers",
+              "Ongoing AML training for appropriate personnel",
+              "No fixed interval"
+            ],
+            [
+              "[OFAC Framework for Compliance Commitments](/regulations/ofac-sanctions-compliance-training)",
+              "US persons and entities subject to US jurisdiction",
+              "Sanctions training for appropriate employees",
+              "Periodically and at a minimum annually (framework)"
+            ],
+            [
+              "[Export Administration Regulations (BIS guidelines)](/regulations/ear-export-compliance-training)",
+              "Exporters of items subject to the EAR",
+              "Training as element 5 of a compliance program",
+              "No fixed interval; may be required in settlements"
+            ],
+            [
+              "[ITAR, 22 CFR 127.12](/regulations/itar-export-compliance-training)",
+              "Manufacturers and exporters of defense articles and services",
+              "Training considered in voluntary disclosures and penalties",
+              "No fixed interval"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "BSA rules are framed as a program pillar. The current regulations require \"training for appropriate personnel\", and FinCEN's April 2026 proposed rule would keep an ongoing employee training program with a proposed effective date 12 months after a final rule ([Federal Register](https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs)). OFAC goes further than the BSA on frequency, stating that training should be provided periodically \"and at a minimum, annually\" ([OFAC](https://ofac.treasury.gov/media/16331/download?inline))."
+        }
+      ]
+    },
+    {
+      "id": "financial-services",
+      "heading": "What continuing education and competence rules apply to financial services?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Broker-dealers, municipal advisors, futures firms, investment adviser representatives, mortgage loan originators and insurance producers face continuing education on fixed cycles. Bank supervisors expect compliance and board training without setting hours."
+        },
+        {
+          "type": "table",
+          "caption": "Financial services continuing education and competence (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[FINRA Rule 1240](/regulations/finra-continuing-education-requirements)",
+              "Registered persons of FINRA member firms",
+              "Regulatory and Firm Elements",
+              "Regulatory Element annually by December 31"
+            ],
+            [
+              "[FINRA Rule 3110](/regulations/finra-rule-3110-annual-compliance-meeting)",
+              "FINRA member firms and registered representatives",
+              "Annual compliance meeting; qualified supervisors",
+              "At least annually"
+            ],
+            [
+              "[MSRB Rule G-3](/regulations/msrb-municipal-advisor-continuing-education)",
+              "Municipal advisors",
+              "Needs analysis, written plan and training for covered persons",
+              "Annually"
+            ],
+            [
+              "[NFA Interpretive Notice 9051](/regulations/nfa-ethics-training-requirements)",
+              "NFA member FCMs, IBs, CPOs and CTAs",
+              "Ethics training as a supervisory obligation",
+              "Frequency set by the member"
+            ],
+            [
+              "[NASAA IAR continuing education](/regulations/investment-adviser-representative-continuing-education)",
+              "Investment adviser representatives in 25 adopting jurisdictions",
+              "6 credits regulatory and ethics, 6 products and practice",
+              "12 credits each calendar year"
+            ],
+            [
+              "[SAFE Act, 12 CFR 1008.105 and 1008.107](/regulations/safe-act-mortgage-loan-originator-continuing-education)",
+              "State licensed mortgage loan originators",
+              "20 hours pre-licensing; CE in federal law, ethics and nontraditional lending",
+              "8 hours annually"
+            ],
+            [
+              "[CFPB compliance management review](/regulations/fair-lending-and-udaap-training)",
+              "Depository institutions over $10 billion and their affiliates",
+              "Tailored compliance training incl. fair lending",
+              "No fixed interval"
+            ],
+            [
+              "[OCC heightened standards, 12 CFR 30 Appendix D](/regulations/occ-heightened-standards-talent-and-training)",
+              "Banks with $50 billion or more in assets",
+              "Formal, ongoing training program for all directors",
+              "Ongoing; annual board self-assessment"
+            ],
+            [
+              "[Federal Reserve SR 08-8](/regulations/federal-reserve-compliance-risk-management-training)",
+              "Federal Reserve supervised banking organizations",
+              "Compliance training throughout the organization",
+              "Ongoing"
+            ],
+            [
+              "[Insurance producer CE (NAIC models; Florida, New York)](/regulations/insurance-producer-continuing-education-requirements)",
+              "Resident licensed insurance producers",
+              "CE as a license condition",
+              "Per state renewal cycle"
+            ],
+            [
+              "[NAIC annuity suitability, Model 275](/regulations/naic-annuity-suitability-training-requirements)",
+              "Producers selling annuities",
+              "One-time 4 credit course; insurer verification",
+              "Once; update course within 6 months after amendment"
+            ],
+            [
+              "[Long-term care partnership training](/regulations/long-term-care-partnership-training-requirements)",
+              "Producers selling LTC partnership policies",
+              "Training and demonstrated understanding of partnership policies",
+              "Initial and ongoing per state rule"
+            ],
+            [
+              "[NFIP flood insurance producer training](/regulations/flood-insurance-producer-training-requirements)",
+              "Agents selling NFIP policies",
+              "Minimum flood training (one-time 3 hour course in the model act)",
+              "One-time (model act)"
+            ],
+            [
+              "[Federal crop insurance (SRA Appendix IV)](/regulations/crop-insurance-agent-training)",
+              "Agents and loss adjusters of approved insurance providers",
+              "12 hours for new agents; 60 hours for new loss adjusters",
+              "Experienced agents 3 hours and loss adjusters 16 hours annually"
+            ],
+            [
+              "[Florida adjuster CE](/regulations/florida-insurance-adjuster-continuing-education); [Texas adjuster CE](/regulations/texas-insurance-adjuster-continuing-education)",
+              "Resident licensed insurance adjusters",
+              "CE including update or ethics hours",
+              "Every 2 years"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "FINRA's two part structure is a useful model. The Regulatory Element is completed annually by December 31 for each registration category, and the Firm Element requires an annual needs evaluation and written training plan ([FINRA Rule 1240](https://www.finra.org/rules-guidance/rulebooks/finra-rules/1240)). Mortgage loan originators need at least 8 hours of approved CE each year, including 3 hours of federal law, with no carry forward ([12 CFR 1008.107](https://www.ecfr.gov/current/title-12/chapter-X/part-1008/subpart-B/section-1008.107))."
+        }
+      ]
+    },
+    {
+      "id": "professional-licensing",
+      "heading": "Which licensed professions carry continuing education cycles?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "State licensing boards set continuing education for accountants, lawyers, physicians, nurses, pharmacists, EMS clinicians, real estate agents and security guards, each on its own cycle and with state specific mandatory topics. Federal law adds a one-time 8 hour substance use disorder training for DEA registered practitioners."
+        },
+        {
+          "type": "table",
+          "caption": "Professional licensing continuing education (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[CPA continuing professional education](/regulations/us-cpa-cpe-requirements)",
+              "Licensed CPAs (New York, California, Texas, Florida)",
+              "CPE including ethics",
+              "California: 80 hours per two years, 20 each year"
+            ],
+            [
+              "[Attorney CLE (six states)](/regulations/us-attorney-cle-requirements-by-state)",
+              "Active licensed attorneys",
+              "CLE with state mandated credits",
+              "California 25 hours per 3 years; New York 24 hours per 2 years"
+            ],
+            [
+              "[Physician CME (six states)](/regulations/physician-cme-requirements-by-state)",
+              "Licensed physicians",
+              "CME with state mandated topics",
+              "California 50 hours per 2 years; Illinois 150 hours per 3 years"
+            ],
+            [
+              "[California](/regulations/california-nursing-continuing-education); [Florida](/regulations/florida-nursing-continuing-education); [Texas](/regulations/texas-nursing-continuing-education)",
+              "Registered and vocational nurses in each state",
+              "Nursing CE with state mandatory courses",
+              "California 30 hours per 2 years; Florida up to 30 per biennium; Texas 20 per licensing period"
+            ],
+            [
+              "[Pharmacist CE (California, Florida, Texas)](/regulations/pharmacist-continuing-education-requirements-us)",
+              "Licensed pharmacists",
+              "ACPE accredited CE with state law and topic hours",
+              "30 hours per renewal period (California, Texas)"
+            ],
+            [
+              "[NREMT recertification](/regulations/nremt-recertification-requirements)",
+              "Nationally certified EMRs, EMTs, AEMTs and paramedics",
+              "Continuing education under the national model or exam",
+              "Every 2 years (EMT 40 credits; paramedic 60)"
+            ],
+            [
+              "[DEA MATE Act, 21 U.S.C. 823(m)](/regulations/dea-mate-act-training-requirement)",
+              "DEA registered practitioners",
+              "8 hours of training on substance use disorders",
+              "One time, at the next registration"
+            ],
+            [
+              "[Human trafficking training (Texas, Florida)](/regulations/human-trafficking-training-requirements-healthcare)",
+              "Licensed health care practitioners in Texas and Florida",
+              "Approved human trafficking course",
+              "Texas: every licensing period"
+            ],
+            [
+              "[Mandated reporter training (Pennsylvania, Illinois)](/regulations/us-school-employee-mandated-reporter-training)",
+              "School employees and licensed mandated reporters",
+              "Child abuse recognition and reporting training",
+              "Pennsylvania: 2 hours per license renewal cycle for licensees"
+            ],
+            [
+              "[California](/regulations/california-real-estate-continuing-education); [Florida](/regulations/florida-real-estate-continuing-education); [Texas](/regulations/texas-real-estate-continuing-education)",
+              "Real estate salespersons and agents",
+              "CE or post-licensing with state mandatory topics",
+              "California 45 hours per 4 years; Texas 18 hours per 2 years"
+            ],
+            [
+              "[California security guard training](/regulations/california-security-guard-training-requirements)",
+              "Guards employed by licensed private patrol operators",
+              "Power to arrest before registration; 32 hours skills training",
+              "8 hours annual continuing training"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health-and-care",
+      "heading": "What training do health care and long-term care employers need?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Health care employers that participate in Medicare and Medicaid must meet training conditions set by CMS, including emergency preparedness training for hospitals, 12 hours of annual in-service for nurse aides and hospice aides, and annual compliance training for Medicare Advantage organizations. Laboratories, device and drug manufacturers, and state licensed facilities add their own rules."
+        },
+        {
+          "type": "table",
+          "caption": "Health care, long-term care and life sciences training (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[CMS hospital Conditions of Participation, 42 CFR 482](/regulations/cms-hospital-conditions-of-participation-training)",
+              "Medicare and Medicaid participating hospitals",
+              "Emergency preparedness; restraint and seclusion",
+              "Emergency training at least every 2 years"
+            ],
+            [
+              "[CMS long-term care requirements, 42 CFR 483.95](/regulations/cms-nursing-home-training-requirements)",
+              "Skilled nursing and nursing facilities",
+              "Training program based on the facility assessment",
+              "Nurse aide in-service at least 12 hours per year"
+            ],
+            [
+              "[Nurse aide training and competency evaluation, 42 CFR 483.152](/regulations/nurse-aide-training-and-competency-evaluation)",
+              "Nurse aides in nursing facilities",
+              "At least 75 hours, including 16 supervised practical hours",
+              "Before 4 months of work; new program after 24 months without paid service"
+            ],
+            [
+              "[Home health aides, 42 CFR 484.80](/regulations/home-health-aide-training-requirements)",
+              "Medicare and Medicaid home health agencies",
+              "Qualification and competency evaluation",
+              "Before services; 12 hours in-service per 12 months"
+            ],
+            [
+              "[Hospice aides, 42 CFR 418.76](/regulations/hospice-aide-training-requirements)",
+              "Medicare and Medicaid hospices",
+              "At least 75 hours of training; competency evaluation",
+              "At least 12 hours in-service per 12 months"
+            ],
+            [
+              "[Medicare Advantage and Part D compliance training, 42 CFR 422.503](/regulations/cms-medicare-compliance-program-training-requirements)",
+              "MA organizations, employees and governing body",
+              "General compliance training",
+              "Within 90 days of hire and annually"
+            ],
+            [
+              "[CLIA competency assessment, 42 CFR 493](/regulations/clia-laboratory-personnel-competency-requirements)",
+              "Laboratories performing nonwaived testing",
+              "Six competency procedures for each test",
+              "Semiannually in the first year, then annually"
+            ],
+            [
+              "[Joint Commission National Performance Goals](/regulations/joint-commission-staff-competency-requirements)",
+              "Accredited hospitals",
+              "Staff education, training and competence assessment",
+              "Waived testing competence at orientation and annually"
+            ],
+            [
+              "[California RCFE](/regulations/california-assisted-living-rcfe-staff-training); [Florida ALF](/regulations/florida-assisted-living-core-training); [Texas ALF](/regulations/texas-assisted-living-staff-training)",
+              "Licensed assisted living facility staff in each state",
+              "Orientation, dementia and core training",
+              "California 8 hours annual in-service; Texas 6 hours annually"
+            ],
+            [
+              "[New Jersey](/regulations/new-jersey-healthcare-workplace-violence-training); [Texas](/regulations/texas-healthcare-workplace-violence-requirements); [Washington](/regulations/washington-healthcare-workplace-violence-training)",
+              "Hospitals and health care workers in each state",
+              "Workplace violence prevention training under the facility plan",
+              "New Jersey and Texas annually; Washington within 90 days of hire"
+            ],
+            [
+              "[Dental office OSHA and HIPAA training](/regulations/dental-office-osha-and-hipaa-training-requirements)",
+              "Dental practices with employees",
+              "OSHA and HIPAA training",
+              "Bloodborne pathogens annually"
+            ],
+            [
+              "[FDA drug CGMP, 21 CFR 211.25](/regulations/fda-gmp-personnel-training-requirements)",
+              "Drug manufacturers, processors and packers",
+              "Training in CGMP and assigned functions",
+              "Conducted on a continuing basis with sufficient frequency"
+            ],
+            [
+              "[FDA Quality Management System Regulation (ISO 13485 clause 6.2)](/regulations/fda-qmsr-training-requirements)",
+              "Medical device manufacturers",
+              "Competence, training and effectiveness evaluation",
+              "No fixed interval"
+            ],
+            [
+              "[Good Laboratory Practice, 21 CFR 58.29](/regulations/glp-personnel-training-requirements)",
+              "Nonclinical laboratory study facilities",
+              "Education, training and experience; training summaries kept",
+              "No fixed interval"
+            ],
+            [
+              "[OSHA health care workplace violence guidelines (OSHA 3148)](/regulations/osha-healthcare-workplace-violence-guidance)",
+              "Hospitals and residential treatment settings",
+              "Training for all workers, supervisors and contract staff (advisory)",
+              "Annual, with more frequent refreshers in high risk settings (guidance)"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "CMS rules are conditions of participation. Nurse aides need at least 12 hours of in-service training a year, covering dementia management and abuse prevention ([42 CFR 483.95](https://www.law.cornell.edu/cfr/text/42/483.95)). Laboratories run a tighter cycle: CLIA competency must be evaluated at least semiannually in an employee's first year and annually after that ([42 CFR 493.1413](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-493/subpart-M/section-493.1413))."
+        }
+      ]
+    },
+    {
+      "id": "education-food-and-retail",
+      "heading": "What training applies to education, child care, food and retail employers?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Colleges receiving federal student aid must train the officials who handle sexual misconduct cases, and child care programs funded by the federal government require pre-service health and safety training. Food businesses need certified managers and trained workers under FDA rules, and tobacco retailers earn lower penalties with approved training programs."
+        },
+        {
+          "type": "table",
+          "caption": "Education, child care, food and retail training (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[Title IX, 34 CFR 106.45](/regulations/title-ix-training-requirements)",
+              "Education programs receiving Department of Education funds",
+              "Training for Title IX personnel",
+              "No fixed interval; materials posted"
+            ],
+            [
+              "[Clery Act, 34 CFR 668.46](/regulations/clery-act-training-requirements)",
+              "Title IV institutions",
+              "Prevention programs; official training",
+              "Officials trained annually"
+            ],
+            [
+              "[FERPA](/regulations/ferpa-staff-training)",
+              "Schools and colleges receiving Department of Education funds",
+              "No statutory training duty; annual notification of school official criteria",
+              "Not applicable"
+            ],
+            [
+              "[CCDBG health and safety training, 45 CFR 98.44](/regulations/ccdbg-child-care-health-and-safety-training)",
+              "Child care providers funded through CCDF",
+              "Pre-service or orientation health and safety training",
+              "Within three months; ongoing professional development"
+            ],
+            [
+              "[Head Start Program Performance Standards, 45 CFR 1302.92](/regulations/head-start-staff-training-requirements)",
+              "Head Start and Early Head Start programs",
+              "Mandatory reporting and other training; coaching",
+              "Annual mandatory reporting training"
+            ],
+            [
+              "[FDA Food Code, 2-102.12](/regulations/fda-food-code-certified-food-protection-manager)",
+              "Food service establishments in adopting jurisdictions",
+              "Person in charge is a certified food protection manager",
+              "Per certification program"
+            ],
+            [
+              "[FSMA preventive controls, 21 CFR 117.180](/regulations/fsma-preventive-controls-qualified-individual-training)",
+              "Registered food facilities",
+              "Preventive controls qualified individual by training or experience",
+              "Records kept at least 2 years"
+            ],
+            [
+              "[FSMA produce safety, 21 CFR 112.21](/regulations/fsma-produce-safety-rule-worker-training)",
+              "Covered farms",
+              "Worker training in food safety and hygiene; supervisor curriculum",
+              "Upon hiring and at least annually"
+            ],
+            [
+              "[Tobacco retailer training programs (FDA)](/regulations/age-restricted-sales-staff-training)",
+              "Retailers selling tobacco products",
+              "Optional; approved programs reduce penalties",
+              "Not applicable"
+            ],
+            [
+              "[Higher Learning Commission faculty qualifications](/regulations/hlc-faculty-qualifications-requirements)",
+              "Colleges accredited by HLC",
+              "Faculty credentialed at least one level above the level taught; professional development evidence",
+              "Accreditation cycle"
+            ],
+            [
+              "[Title IV-E and IV-B child welfare training](/regulations/us-foster-care-and-child-welfare-workforce-training)",
+              "State and tribal child welfare agencies",
+              "Staff development and training plan; federal match for training staff and foster parents",
+              "Ongoing training plan"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "heading": "What training do US transport employers need?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "DOT agencies require training for anyone handling hazardous materials, new commercial drivers, supervisors who make reasonable suspicion drug and alcohol decisions, and pipeline workers performing covered tasks. Airline crew training follows FAA approved programs with recurrent cycles of 6 to 12 months."
+        },
+        {
+          "type": "table",
+          "caption": "Transport training (as at November 2026)",
+          "head": [
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency"
+          ],
+          "rows": [
+            [
+              "[DOT hazmat training, 49 CFR 172.704](/regulations/dot-hazmat-employee-training)",
+              "Hazmat employers and employees in all modes",
+              "Awareness, function, safety and security training",
+              "Within 90 days of hire or job change; recurrent every 3 years"
+            ],
+            [
+              "[FMCSA entry-level driver training, 49 CFR 380](/regulations/fmcsa-entry-level-driver-training-requirements)",
+              "First time Class A or B CDL applicants and upgrades",
+              "Theory and behind the wheel training from a registered provider",
+              "Once, before the CDL skills test"
+            ],
+            [
+              "[FMCSA supervisors, 49 CFR 382.603](/regulations/dot-drug-and-alcohol-supervisor-training); [FTA, 49 CFR 655.14](/regulations/fta-drug-and-alcohol-training-requirements); [FAA, 14 CFR 120](/regulations/faa-drug-and-alcohol-program-training); [PHMSA, 49 CFR 199](/regulations/phmsa-pipeline-drug-and-alcohol-training)",
+              "Supervisors and covered employees in motor carrier, transit, aviation and pipeline operations",
+              "Supervisor training (60 minutes drugs, 60 alcohol)",
+              "One time; no recurrent training required (FMCSA)"
+            ],
+            [
+              "[Pipeline operator qualification, 49 CFR 192 Subpart N](/regulations/pipeline-operator-qualification-requirements)",
+              "Gas pipeline operators and individuals performing covered tasks",
+              "Evaluation for covered tasks",
+              "Requalification at operator set intervals"
+            ],
+            [
+              "[FAA Part 121 training, 14 CFR 121.433](/regulations/faa-part-121-crewmember-training)",
+              "Part 121 air carrier crewmembers and dispatchers",
+              "Initial and recurrent training under an approved program",
+              "Recurrent within 12 calendar months; PIC flight training within 6"
+            ],
+            [
+              "[Air dangerous goods (ICAO, IATA, US implementation)](/regulations/iata-dangerous-goods-training-requirements)",
+              "Shippers, forwarders, ground handlers and operators",
+              "Competency based training before performing functions",
+              "Recurrent cycle under the Technical Instructions"
+            ],
+            [
+              "[STCW and 46 CFR (US Coast Guard)](/regulations/stcw-seafarer-training-requirements)",
+              "Seafarers on seagoing ships",
+              "Basic training for credential endorsements",
+              "Evidence of maintained competence every 5 years"
+            ],
+            [
+              "[ISPS Code and 33 CFR 104](/regulations/isps-code-ship-and-port-security-training)",
+              "Vessel and port facility security personnel",
+              "Security training for officers and crew with security duties",
+              "Drills at least every 3 months; exercises annually"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Hazmat training is one of the few cross-industry DOT rules. Any employer that ships, prepares or transports hazardous materials must train hazmat employees within 90 days of employment or a job change and provide recurrent training at least every three years ([49 CFR 172.704](https://www.ecfr.gov/current/title-49/section-172.704)). Airline crew run much shorter cycles, with recurrent training within the preceding 12 calendar months ([14 CFR 121.433](https://www.ecfr.gov/current/title-14/section-121.433))."
+        }
+      ]
+    },
+    {
+      "id": "building-a-register",
+      "heading": "How should a US employer build a single training register?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Build the US register in three layers: federal obligations by regulated activity, state obligations by the states where employees work, and individual license cycles. Most errors come from applying one company wide annual cycle to rules that run on triggers, two or three year cycles, or license renewal dates."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**List regulated activities, not departments.** Chemical exposure, respirator use, forklifts, hazmat shipping, Medicare participation, broker-dealer registration and federal contracts each bring a distinct rule.",
+            "**Map employees to states.** Harassment, workplace violence, heat illness and injury prevention duties follow the employee's work location; California, New York and Illinois alone produce three different harassment cycles.",
+            "**Record each interval exactly as written.** Distinguish annual (bloodborne pathogens, NYDFS, FINRA Regulatory Element), every two or three years (California harassment, DOT hazmat, PSM refreshers), quarterly (NERC CIP-004), trigger based (hazard communication, HIPAA) and no interval (BSA/AML). Where none is set, record the risk rationale using [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles).",
+            "**Track licenses per person and state.** CPA, legal, medical, nursing, pharmacy, real estate, insurance and EMS renewals run on individual dates.",
+            "**Separate rules from enforcement expectations.** DOJ, OFAC, BIS and banking examiner expectations are not regulations but determine how training failures are judged.",
+            "**Apply record retention per rule.** Bloodborne pathogens training records 3 years, FTA training records 2 years, worker protection records 2 years, California harassment records at least 2 years. See [how long to keep training records](/guides/how-long-to-keep-training-records)."
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative register rows for a multistate hospital system (example only, not a complete obligation set)",
+          "head": [
+            "Population",
+            "Obligation",
+            "Source",
+            "Cycle recorded"
+          ],
+          "rows": [
+            [
+              "Clinical staff with exposure",
+              "Bloodborne pathogens training",
+              "29 CFR 1910.1030",
+              "Initial, then within one year of the last"
+            ],
+            [
+              "All hospital staff",
+              "Emergency preparedness training",
+              "42 CFR 482.15(d)",
+              "At least every 2 years"
+            ],
+            [
+              "California supervisors",
+              "Harassment prevention, 2 hours",
+              "Gov. Code 12950.1",
+              "Every 2 years"
+            ],
+            [
+              "New Jersey health care workers",
+              "Workplace violence prevention",
+              "N.J.A.C. 8:43E-11.10",
+              "Annually, at least 2 hours"
+            ],
+            [
+              "Workforce members",
+              "HIPAA privacy training",
+              "45 CFR 164.530(b)",
+              "New members and on material change"
+            ],
+            [
+              "Laboratory testing personnel",
+              "CLIA competency assessment",
+              "42 CFR 493.1413",
+              "Semiannually in year one, then annually"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The [training matrix guide](/guides/how-to-build-a-training-matrix) covers the role by topic layout, and [mapping training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations) covers linking each obligation to the learning outcome that satisfies it."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each obligation with its federal or state source, trigger and interval, so a multistate employer can see which rule drives each learning outcome for each population. When a source changes, such as a new state law or a final FinCEN rule, the affected outcomes and roles are identified directly. The [audit evidence](/platform/audit-evidence) page describes how this evidence is held."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is there a federal law requiring annual compliance training for all employers?",
+      "a": "No. Annual intervals appear only in specific rules, such as OSHA bloodborne pathogens and respiratory protection, FINRA's Regulatory Element, Medicare Advantage compliance training and New York's cybersecurity regulation. Many federal rules, including BSA/AML and HIPAA, require training without setting an interval."
+    },
+    {
+      "q": "Do private employers have to provide sexual harassment training?",
+      "a": "Not under federal law. Several states require it, including California every two years for employers with five or more employees, New York annually for all employers, and Illinois annually by December 31. Multistate employers usually adopt one program that meets the strictest applicable state."
+    },
+    {
+      "q": "Do OSHA State Plan states have different training rules?",
+      "a": "They can. State Plans must be at least as effective as federal OSHA and may add requirements, such as California's written Injury and Illness Prevention Program and heat illness training. Employers in those states follow the state rules, which generally include the federal topics."
+    },
+    {
+      "q": "How should employers handle training rules with no set frequency?",
+      "a": "Where a regulation requires training without an interval, as BSA/AML and HIPAA privacy rules do, set a frequency based on risk, role and change, document the rationale, and retrain on triggers such as new procedures or incidents. Examiners and enforcement agencies judge whether the program is effective, not whether a particular interval was chosen."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.1030 Bloodborne pathogens",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/section-1910.1030"
+    },
+    {
+      "title": "29 CFR 1910.1200: Hazard communication",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/29/1910.1200"
+    },
+    {
+      "title": "29 CFR 1910.134: Respiratory protection",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/29/1910.134"
+    },
+    {
+      "title": "29 CFR 1910.120: Hazardous waste operations and emergency response (annotated text)",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/29/1910.120"
+    },
+    {
+      "title": "30 CFR Part 46 Training and retraining of miners engaged in shell dredging or employed at sand, gravel, surface stone, surface clay, colloidal phosphate, or surface limestone mines",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-30/chapter-I/subchapter-H/part-46"
+    },
+    {
+      "title": "California Code of Regulations, Title 8, Section 3203. Injury and Illness Prevention Program",
+      "publisher": "California Department of Industrial Relations",
+      "url": "https://www.dir.ca.gov/title8/3203.html"
+    },
+    {
+      "title": "California Government Code section 12950.1",
+      "publisher": "California Legislative Information",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12950.1"
+    },
+    {
+      "title": "New York Labor Law section 201-g: Prevention of sexual harassment",
+      "publisher": "New York State Senate",
+      "url": "https://www.nysenate.gov/legislation/laws/LAB/201-G"
+    },
+    {
+      "title": "Training FAQs: Sexual Harassment Prevention Training",
+      "publisher": "Illinois Department of Human Rights",
+      "url": "https://dhr.illinois.gov/about-us/idhr-faqs/training-faqs.html"
+    },
+    {
+      "title": "Evaluation of Corporate Compliance Programs (Updated September 2024)",
+      "publisher": "US Department of Justice, Criminal Division",
+      "url": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "title": "45 CFR 164.530 Administrative requirements (Privacy Rule)",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.530"
+    },
+    {
+      "title": "23 NYCRR 500.14 Monitoring and training",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.14"
+    },
+    {
+      "title": "5 CFR 930.301 (current text)",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-5/section-930.301"
+    },
+    {
+      "title": "32 CFR Part 170: Cybersecurity Maturity Model Certification (CMMC) Program",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-32/part-170"
+    },
+    {
+      "title": "CIP-004-7 Cyber Security: Personnel and Training",
+      "publisher": "North American Electric Reliability Corporation",
+      "url": "https://www.nerc.com/pa/Stand/Reliability%20Standards/CIP-004-7.pdf"
+    },
+    {
+      "title": "Anti-Money Laundering and Countering the Financing of Terrorism Programs (proposed rule, 91 FR 18704, April 10, 2026)",
+      "publisher": "FinCEN, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"
+    },
+    {
+      "title": "A Framework for OFAC Compliance Commitments (May 2019)",
+      "publisher": "US Department of the Treasury, Office of Foreign Assets Control",
+      "url": "https://ofac.treasury.gov/media/16331/download?inline"
+    },
+    {
+      "title": "Rule 1240: Continuing Education",
+      "publisher": "FINRA",
+      "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/1240"
+    },
+    {
+      "title": "12 CFR 1008.107: Minimum annual license renewal requirements",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1008/subpart-B/section-1008.107"
+    },
+    {
+      "title": "42 CFR 493.1413 Standard; Technical consultant responsibilities",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-493/subpart-M/section-493.1413"
+    },
+    {
+      "title": "42 CFR 483.95 Training requirements",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)",
+      "url": "https://www.law.cornell.edu/cfr/text/42/483.95"
+    },
+    {
+      "title": "49 CFR 172.704: Training requirements",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-49/section-172.704"
+    },
+    {
+      "title": "14 CFR 121.433: Training required",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-14/section-121.433"
+    },
+    {
+      "title": "21 CFR 112.21: Requirements for personnel qualifications and training",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/21/112.21"
+    },
+    {
+      "title": "34 CFR 668.46 Institutional security policies and crime statistics",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-34/section-668.46"
+    },
+    {
+      "title": "Retail Workplace Violence Prevention Training",
+      "publisher": "New York State Department of Labor",
+      "url": "https://dol.ny.gov/retail-workplace-violence-prevention-training"
+    },
+    {
+      "title": "Workplace Violence Prevention in General Industry (Non-Health Care Settings): Information for Employers (fact sheet)",
+      "publisher": "California Department of Industrial Relations, Cal/OSHA",
+      "url": "https://www.dir.ca.gov/dosh/dosh_publications/WPV-General-Industry-for-employers-fs.pdf"
+    }
+  ],
+  "related": [
+    "osha-training-requirements",
+    "california-and-new-york-harassment-training",
+    "hipaa-security-and-privacy-training",
+    "bsa-aml-training-requirements",
+    "finra-continuing-education-requirements",
+    "how-to-set-mandatory-training-refresh-cycles"
+  ],
+  "productLinks": [
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "1910.1030(g)(2) initial assignment and at least annually within one year; 14 elements; records 3 years (as recorded on osha-bloodborne-pathogens-training-requirements and osha-training-requirements).",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/section-1910.1030"
+    },
+    {
+      "claim": "1910.1200(h)(1) initial assignment and new hazard (as recorded on osha-hazard-communication-training-requirements); 1910.134(k)(5) annual retraining (as recorded on osha-respiratory-protection-training-requirements); 1910.95(k) annual (as recorded on osha-hearing-conservation-training-requirements); 1910.1025 and 1926.62 at least annually (as recorded on osha-lead-training-requirements); 1910.1001(j)(7) at least annually (as recorded on osha-asbestos-general-industry-training); 1910.157(g) at least annually (as recorded on osha-fire-extinguisher-training-requirements).",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.1200"
+    },
+    {
+      "claim": "1910.120(e)(8) eight hours refresher annually (as recorded on osha-hazwoper-training-requirements); 1910.119(g)(2) refresher at least every three years (as recorded on osha-process-safety-management-training-requirements); 1910.178(l)(4)(iii) evaluation at least every three years (as recorded on osha-forklift-operator-training-requirements); 1910.146(k)(2)(iv) rescue practice every 12 months (as recorded on confined-space-training-requirements); 1910.147(c)(6) periodic inspection at least annually (as recorded on osha-lockout-tagout-training-requirements).",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.120"
+    },
+    {
+      "claim": "1926.503(c), 1926.454(c) retraining triggers; 1926.1153(g)(2) annual plan review; 1926.1427 certification valid 5 years (as recorded on osha-fall-protection-training-requirements, osha-scaffold-training-requirements, osha-silica-construction-training-requirements, osha-crane-operator-certification-requirements).",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1926.1427"
+    },
+    {
+      "claim": "8 CCR 3203 training records kept at least one year (as recorded on cal-osha-iipp-training-requirements); 8 CCR 3395(h) training before exposure (as recorded on cal-osha-heat-illness-prevention-training); LC 6401.9 enforceable July 1, 2024, initial and annual training, OSHSB to adopt standard by December 31, 2026 (as recorded on california-workplace-violence-prevention-training).",
+      "source": "https://www.dir.ca.gov/dosh/dosh_publications/WPV-General-Industry-for-employers-fs.pdf"
+    },
+    {
+      "claim": "New York Labor Law 27-e: training at hire and annually, every two years for fewer than fifty retail employees (as recorded on new-york-retail-worker-safety-act-training); Minnesota 182.653 updates at intervals no greater than one year (as recorded on minnesota-awair-safety-program-training).",
+      "source": "https://dol.ny.gov/retail-workplace-violence-prevention-training"
+    },
+    {
+      "claim": "MSHA Part 46: 24 hours new miner (4 before work), 8 hours annual refresher within 12 months (as recorded on msha-miner-training-requirements); 10 CFR 55.59 requalification not exceeding 24 months, annual operating test (as recorded on nrc-nuclear-power-plant-personnel-training); 40 CFR 262.17 six months and annual review (as recorded on epa-rcra-hazardous-waste-personnel-training); 40 CFR 170.401 training within last 12 months, records 2 years (as recorded on epa-worker-protection-standard-pesticide-training); 40 CFR 171.107 certifications expire after five years (as recorded on epa-pesticide-applicator-certification-requirements).",
+      "source": "https://www.ecfr.gov/current/title-30/chapter-I/subchapter-H/part-46"
+    },
+    {
+      "claim": "Gov. Code 12950.1: five or more employees, 2 hours supervisors, 1 hour others, every two years (as recorded on california-and-new-york-harassment-training); New York 201-g annual interactive training (as recorded on state-sexual-harassment-training-requirements); Illinois every employee each calendar year by December 31 (as recorded on state-sexual-harassment-training-requirements).",
+      "source": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12950.1"
+    },
+    {
+      "claim": "5 CFR 2638.304 initial ethics training within 3 months (as recorded on us-federal-ethics-training-requirements); 45 CFR 92.9 training timing (as recorded on section-1557-nondiscrimination-training-requirements); DOJ ECCP appropriately tailored training (as recorded on doj-compliance-program-training-expectations); FCPA Resource Guide periodic training and certification (as recorded on fcpa-anti-corruption-training-expectations).",
+      "source": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "claim": "45 CFR 164.530(b) privacy training timing and documentation; 164.308(a)(5) security awareness program (as recorded on hipaa-security-and-privacy-training).",
+      "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.530"
+    },
+    {
+      "claim": "23 NYCRR 500.14(a)(3) at minimum annual awareness training (as recorded on nydfs-part-500-cybersecurity-training-requirements); 11 CCR 7123(c)(13) training examples incl. annually (as recorded on ccpa-cpra-employee-training-requirements); FTC guide regular refreshers (as recorded on ftc-safeguards-rule-employee-training); 12 CFR 30 App. B III.C.2 train staff (as recorded on interagency-information-security-guidelines-staff-training); amended Reg S-P no staff training provision; 248.201(e)(3) train staff as necessary (as recorded on sec-regulation-s-p-2024-amendments-staff-implications); 47 CFR 64.2009(b) train personnel, (e) annual certificate by March 1 (as recorded on fcc-cpni-employee-training-requirements).",
+      "source": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.14"
+    },
+    {
+      "claim": "5 CFR 930.301 at least annually and before system access (as recorded on federal-employee-cybersecurity-awareness-training and nist-sp-800-50-security-awareness-training); CMMC AT.L3-3.2.1e initial hire, significant cyber event and at least annually (as recorded on cmmc-security-awareness-training); 32 CFR 2002.30(c) on joining and at least every two years (as recorded on cui-training-requirements); 117.12(d) FSO training within six months (as recorded on nispom-security-training-requirements); FedRAMP mandatory adoption January 1, 2027 (as recorded on fedramp-security-awareness-training).",
+      "source": "https://www.ecfr.gov/current/title-32/part-170"
+    },
+    {
+      "claim": "CIP-004-7 R1 Part 1.1 at least once each calendar quarter; R2 Part 2.3 at least once every 15 calendar months (as recorded on nerc-cip-004-training-requirements).",
+      "source": "https://www.nerc.com/pa/Stand/Reliability%20Standards/CIP-004-7.pdf"
+    },
+    {
+      "claim": "21 CFR 11.10(i) (as recorded on 21-cfr-part-11-training-requirements); NARA initial training within 60 days and annual refresher (as recorded on nara-records-management-training-requirements); OMB M-25-21 periodic training for AI operators (as recorded on nist-ai-rmf-ai-risk-training); SOC 2 CC1.4 points of focus (as recorded on soc-2-security-awareness-training); CA 11 CCR 7100 training policy and Colorado no employee training requirement (as recorded on us-state-privacy-law-employee-training).",
+      "source": "https://www.archives.gov/records-mgmt/bulletins/2017/2017-01-html"
+    },
+    {
+      "claim": "31 CFR 1020.210 training for appropriate personnel; April 2026 NPRM ongoing employee training program, effective 12 months after final rule (as recorded on bsa-aml-training-requirements and ncua-credit-union-bsa-training); 1022.210, 1021.210(b)(2)(iii), 1023.210(b)(4) (as recorded on fincen-msb-aml-program-training, casino-aml-training-requirements-us, finra-rule-3310-aml-program-training).",
+      "source": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"
+    },
+    {
+      "claim": "OFAC Framework: training periodically and at a minimum, annually (as recorded on ofac-sanctions-compliance-training); BIS ECG training element 5 (as recorded on ear-export-compliance-training); 22 CFR 127.12 training factor (as recorded on itar-export-compliance-training).",
+      "source": "https://ofac.treasury.gov/media/16331/download?inline"
+    },
+    {
+      "claim": "FINRA Rule 1240(a)(1) Regulatory Element annually by December 31; 1240(b) Firm Element annual needs evaluation and written plan, credit for 3110(a)(7) and 3310(e) training (as recorded on finra-continuing-education-requirements and finra-rule-3110-annual-compliance-meeting); MSRB G-3 annual (as recorded on msrb-municipal-advisor-continuing-education); NASAA IAR 12 credits (as recorded on investment-adviser-representative-continuing-education).",
+      "source": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/1240"
+    },
+    {
+      "claim": "12 CFR 1008.105(d) 20 hours pre-licensing; 1008.107(a)(2) 8 hours annual CE incl. 3 hours federal law, no carry forward (as recorded on safe-act-mortgage-loan-originator-continuing-education).",
+      "source": "https://www.ecfr.gov/current/title-12/chapter-X/part-1008/subpart-B/section-1008.107"
+    },
+    {
+      "claim": "OCC Appendix D III.E formal ongoing director training (as recorded on occ-heightened-standards-talent-and-training); SR 08-8 compliance training (as recorded on federal-reserve-compliance-risk-management-training); SRA Appendix IV agents 12 hours new and 3 hours annual, loss adjusters 60 and 16 (as recorded on crop-insurance-agent-training); Florida 4 hour update every 2 years (as recorded on florida-insurance-adjuster-continuing-education); Texas 24 hours every two years (as recorded on texas-insurance-adjuster-continuing-education); NAIC Model 275 one-time 4 credit course (as recorded on naic-annuity-suitability-training-requirements); flood one-time 3 hour course in model act (as recorded on flood-insurance-producer-training-requirements).",
+      "source": "https://www.rma.usda.gov/sites/default/files/2026-03/SRA_AppendixIV_2027.pdf"
+    },
+    {
+      "claim": "California CPA 80 hours per two years, 20 each year (as recorded on us-cpa-cpe-requirements); California attorneys 25 hours per three years, New York 24 per biennial cycle (as recorded on us-attorney-cle-requirements-by-state); California physicians 50 hours biennial, Illinois 150 per 36 months (as recorded on physician-cme-requirements-by-state).",
+      "source": "https://www.dca.ca.gov/cba/licensees/cequickref.shtml"
+    },
+    {
+      "claim": "California RN 30 hours every two years (as recorded on california-nursing-continuing-education); Florida up to 30 hours biennially (as recorded on florida-nursing-continuing-education); Texas 20 contact hours per licensing period (as recorded on texas-nursing-continuing-education); pharmacists 30 hours (as recorded on pharmacist-continuing-education-requirements-us); NREMT every two years, EMT 40, paramedic 60 (as recorded on nremt-recertification-requirements); DEA 8 hours one-time (as recorded on dea-mate-act-training-requirement); Texas human trafficking every licensing period (as recorded on human-trafficking-training-requirements-healthcare); Pennsylvania 2 hours per renewal cycle (as recorded on us-school-employee-mandated-reporter-training); California real estate 45 hours, Texas 18 hours per two years (as recorded on the respective real estate pages); California guards 8 hours annual (as recorded on california-security-guard-training-requirements).",
+      "source": "https://www.rn.ca.gov/licensees/ce-renewal.shtml"
+    },
+    {
+      "claim": "42 CFR 482.15(d) emergency training at least every 2 years; 482.13(f) restraint training (as recorded on cms-hospital-conditions-of-participation-training); 483.95(g) nurse aide in-service at least 12 hours per year (as recorded on cms-nursing-home-training-requirements); 483.152 at least 75 hours, 16 supervised practical; 483.35(d) 4 months and 24 months (as recorded on nurse-aide-training-and-competency-evaluation); 418.76 at least 75 hours and 12 hours in-service (as recorded on hospice-aide-training-requirements); 484.80 competency before services (as recorded on home-health-aide-training-requirements); 422.503 at least annually, within 90 days of hire per manual (as recorded on cms-medicare-compliance-program-training-requirements).",
+      "source": "https://www.law.cornell.edu/cfr/text/42/483.95"
+    },
+    {
+      "claim": "42 CFR 493.1413(b)(8) semiannual in first year, then annually, six procedures (as recorded on clia-laboratory-personnel-competency-requirements); Joint Commission waived testing competence at orientation and annually (as recorded on joint-commission-staff-competency-requirements); California RCFE 8 hours annual in-service, Texas 6 hours annually (as recorded on the assisted living pages); New Jersey annual at least two hours, Texas at least annual, Washington within ninety days of hire (as recorded on the health care workplace violence pages).",
+      "source": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-493/subpart-M/section-493.1413"
+    },
+    {
+      "claim": "34 CFR 668.46(k)(2)(ii) annual training for officials (as recorded on clery-act-training-requirements); 106.45(b)(1)(iii) Title IX training (as recorded on title-ix-training-requirements); FERPA no staff training reference (as recorded on ferpa-staff-training); 98.44(b) within three months (as recorded on ccdbg-child-care-health-and-safety-training); 1302.92(b)(2) annual mandatory reporting training (as recorded on head-start-staff-training-requirements); 21 CFR 112.21 upon hiring and at least annually (as recorded on fsma-produce-safety-rule-worker-training); 117.315 records 2 years (as recorded on fsma-preventive-controls-qualified-individual-training); tobacco retailer training not required, lower penalties (as recorded on age-restricted-sales-staff-training).",
+      "source": "https://www.ecfr.gov/current/title-34/section-668.46"
+    },
+    {
+      "claim": "49 CFR 172.704(c) initial within 90 days, recurrent every three years (as recorded on dot-hazmat-employee-training); 382.603 60 minutes alcohol and 60 minutes drugs, recurrent not required (as recorded on dot-drug-and-alcohol-supervisor-training); FTA, FAA and PHMSA 60 minute supervisor training (as recorded on the respective pages); 14 CFR 121.433 recurrent within 12 calendar months, PIC flight within 6 (as recorded on faa-part-121-crewmember-training); 46 CFR 11.302 five year evidence (as recorded on stcw-seafarer-training-requirements).",
+      "source": "https://www.ecfr.gov/current/title-49/section-172.704"
+    },
+    {
+      "claim": "OSHA 3148 advisory guidelines: initial orientation, annual training, refreshers monthly or quarterly in high-risk settings; not a standard (as recorded on osha-healthcare-workplace-violence-guidance); 45 CFR 1357.15(t) staff development and training plan (as recorded on us-foster-care-and-child-welfare-workforce-training); HLC credential at least one level above level taught (as recorded on hlc-faculty-qualifications-requirements).",
+      "source": "https://www.osha.gov/sites/default/files/publications/osha3148.pdf"
+    },
+    {
+      "claim": "30 CFR 250.1915 initial and periodic training with drills, training before operating after change; 250.1920 audit within 2 years then every 3 years (as recorded on bsee-sems-offshore-training-requirements); 33 CFR 104.230 vessel drills at least every 3 months, exercises annually (as recorded on isps-code-ship-and-port-security-training).",
+      "source": "https://www.ecfr.gov/current/title-30/section-250.1915"
+    }
+  ]
+}
