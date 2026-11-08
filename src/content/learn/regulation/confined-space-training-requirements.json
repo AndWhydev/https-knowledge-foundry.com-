@@ -1,0 +1,153 @@
+{
+  "slug": "confined-space-training-requirements",
+  "kind": "regulation",
+  "title": "What confined space training is required in construction in the US and Australia?",
+  "seoTitle": "Confined space training: OSHA and WHS",
+  "description": "Confined space training under OSHA 1910.146(g) and 1926.1207 and Australia's model WHS Regulations r 76: who needs it, triggers, rescue practice and records.",
+  "shortAnswer": "In the United States, the Occupational Safety and Health Administration (OSHA) requires training before employees are first assigned permit space duties and whenever duties, operations or performance change, under 29 CFR 1910.146(g) and, for construction, 1926.1207. In Australia, regulation 76 of the model Work Health and Safety Regulations requires suitable and adequate training on five listed topics for workers who enter or support confined space work and their supervisors, with records kept for 2 years.",
+  "keyTakeaways": [
+    "OSHA's construction rule, 1926.1207, requires training at no cost to the employee, in a language and vocabulary the employee understands, and records kept for as long as the employee is employed.",
+    "Both OSHA rules require training before first assignment, before a change in duties, when operations present a new hazard, and when deviations or knowledge gaps appear. Neither sets an annual refresher for entrants.",
+    "Employees designated for rescue must practice permit space rescue at least once every 12 months, with an exception in construction for a rescue properly performed in the last 12 months in the same or a similar space.",
+    "Australia's regulation 76 covers anyone who could enter a confined space or carry out functions related to the work or emergency procedures without entering, plus their supervisors.",
+    "Work in or near a confined space is also high risk construction work under regulation 291(f), so a safe work method statement (SWMS) is required as well."
+  ],
+  "jurisdiction": "United States (federal) and Australia (model WHS laws)",
+  "regulator": "Occupational Safety and Health Administration (OSHA), US Department of Labor; Safe Work Australia (model laws) and state and territory WHS regulators",
+  "appliesTo": [
+    "US construction employers whose employees work in or near permit-required confined spaces (29 CFR 1926 Subpart AA)",
+    "US general industry employers with permit spaces (29 CFR 1910.146)",
+    "Authorized entrants, attendants, entry supervisors and rescue team members",
+    "Australian PCBUs whose workers could enter, work in, or support work in a confined space, and those workers' supervisors"
+  ],
+  "sections": [
+    {
+      "id": "which-rules-apply",
+      "heading": "Which confined space training rules apply to construction?",
+      "blocks": [
+        { "type": "p", "text": "In the United States, construction work in confined spaces falls under 29 CFR 1926 Subpart AA, with training in 1926.1207. General industry falls under 1910.146, with training in paragraph (g). In Australia, Part 4.3 of the model Work Health and Safety Regulations applies, with training in regulation 76." },
+        { "type": "p", "text": "The scope rules differ. OSHA's construction rule applies to construction activities at a worksite with one or more confined spaces, and [1926.1203(a)](https://www.law.cornell.edu/cfr/text/29/1926.1203) requires a competent person to identify all confined spaces and which of them are permit spaces before work begins. A permit space is one with a hazardous atmosphere, engulfment potential, a configuration that could trap or asphyxiate, or another recognized serious hazard. Australia's model Regulations define a confined space as enclosed or partially enclosed, not primarily designed for occupancy, at normal atmospheric pressure, and posing a risk from unsafe oxygen levels, fire or explosion contaminants, harmful airborne contaminants or engulfment." },
+        { "type": "callout", "title": "Currency", "text": "This page reflects 29 CFR 1910.146 and 1926 Subpart AA, the model WHS Regulations (December 5, 2025 version) and the model Code of Practice: Confined spaces (amended November 2026 to use the term workplace exposure limits, which take effect December 1, 2026), as at November 2026. Safe Work Australia's model laws apply in every Australian jurisdiction except Victoria, and US State Plans may have their own rules." }
+      ]
+    },
+    {
+      "id": "osha-construction-training",
+      "heading": "What does OSHA 1926.1207 require for construction?",
+      "blocks": [
+        { "type": "p", "text": "It requires training that gives each employee whose work is regulated by Subpart AA the understanding, knowledge and skills to perform their duties safely, at no cost, before first assignment and whenever circumstances change. Paragraph (a) of [29 CFR 1926.1207](https://www.law.cornell.edu/cfr/text/29/1926.1207) says the training \"must result in an understanding of the hazards in the permit space and the methods used to isolate, control or in other ways protect employees from these hazards, and for those employees not authorized to perform entry rescues, in the dangers of attempting such rescues.\"" },
+        { "type": "p", "text": "Paragraph (b) requires training to be provided:" },
+        { "type": "ol", "items": [
+          "in both a language and vocabulary that the employee can understand",
+          "before the employee is first assigned duties under the standard",
+          "before there is a change in assigned duties",
+          "whenever a change in permit space entry operations presents a hazard about which the employee has not previously been trained",
+          "whenever there is any evidence of a deviation from the permit space entry procedures, or inadequacies in the employee's knowledge or use of those procedures"
+        ] },
+        { "type": "p", "text": "Paragraph (c) requires the training to \"establish employee proficiency\" in the duties and to introduce new or revised procedures. Paragraph (d) requires training records showing each employee's name, the name of the trainers and the dates of training, available for inspection by employees and their authorized representatives \"for the period of time the employee is employed by that employer.\"" }
+      ]
+    },
+    {
+      "id": "osha-general-industry-training",
+      "heading": "How does 1910.146(g) differ from the construction rule?",
+      "blocks": [
+        { "type": "p", "text": "The general industry rule has the same core triggers but fewer explicit conditions. [29 CFR 1910.146(g)](https://www.law.cornell.edu/cfr/text/29/1910.146) requires training before first assignment, before a change in duties, when a change in operations presents an untrained hazard, and when the employer has reason to believe there are deviations or inadequacies. It requires the employer to \"certify\" the training, with each employee's name, \"the signatures or initials of the trainers\", and the dates." },
+        { "type": "table", "caption": "Comparison of OSHA confined space training provisions (general industry and construction)", "head": ["Provision", "1910.146(g) general industry", "1926.1207 construction"], "rows": [
+          ["No cost to employee", "Not stated in paragraph (g)", "Expressly required in (a)"],
+          ["Language and vocabulary", "Not stated in paragraph (g)", "Expressly required in (b)(1)"],
+          ["Retraining on deviation", "When the employer has reason to believe there are deviations", "Whenever there is any evidence of a deviation"],
+          ["Record form", "Certification with trainer signatures or initials", "Training records with the names of trainers"],
+          ["Record retention", "Available for inspection; no period stated", "For the period the employee is employed by that employer"]
+        ] }
+      ]
+    },
+    {
+      "id": "rescue-training",
+      "heading": "What training and practice do rescue team members need?",
+      "blocks": [
+        { "type": "p", "text": "Employees designated to perform permit space rescue must be trained as authorized entrants, trained in their rescue duties and in the PPE they use, trained in first aid and CPR, and must practice a rescue at least once every 12 months. Under [1926.1211(b)](https://www.law.cornell.edu/cfr/text/29/1926.1211), all of this must be provided at no cost to the employees, and at least one member of the rescue team or service must hold current certification in first aid and CPR." },
+        { "type": "p", "text": "Paragraph (b)(4) of the construction rule requires practice \"before attempting an actual rescue, and at least once every 12 months\", using simulated rescues from the actual or representative permit spaces. It exempts employees who \"properly performed a rescue operation during the last 12 months in the same permit space the authorized entrant will enter, or in a similar permit space.\" The general industry rule, 1910.146(k)(2)(iv), requires the 12 month practice without that exemption. This annual practice is the only fixed frequency in either OSHA rule." }
+      ]
+    },
+    {
+      "id": "australia-regulation-76",
+      "heading": "What does Australia's regulation 76 require?",
+      "blocks": [
+        { "type": "p", "text": "It requires a person conducting a business or undertaking (PCBU) to give relevant workers suitable and adequate information, training and instruction on five topics, and to keep a record of that training for 2 years. Regulation 76(1) of the [model WHS Regulations](https://www.safeworkaustralia.gov.au/doc/model-work-health-and-safety-regulations) lists the topics:" },
+        { "type": "ul", "items": [
+          "the nature of all hazards relating to a confined space",
+          "the need for, and the appropriate use of, control measures to control those risks",
+          "the selection, fit, use, wearing, testing, storage and maintenance of any personal protective equipment",
+          "the contents of any confined space entry permit that may be issued for the worker's work",
+          "emergency procedures"
+        ] },
+        { "type": "p", "text": "Regulation 76(3) defines a relevant worker broadly: a worker who could enter or work in a confined space, or carry out any function in relation to work in a confined space or the emergency procedures without entering, and \"any person supervising\" those workers. The [model Code of Practice: Confined spaces](https://www.safeworkaustralia.gov.au/doc/model-code-practice-confined-spaces) gives examples of non-entrants who count, including people who complete entry permits, act as the stand-by person, monitor conditions, purchase confined space equipment, or design work areas that include a confined space." },
+        { "type": "p", "text": "Related duties shape the training content. Regulation 67 requires an entry permit completed in writing by a competent person before a worker enters, and regulation 69 requires continuous communication and monitoring by a stand-by person. The Code says refresher training frequency \"should depend on how often workers are required to carry out tasks associated with entry to or work in confined spaces.\"" }
+      ]
+    },
+    {
+      "id": "obligation-to-evidence",
+      "heading": "How can a contractor working in both countries map confined space training to evidence?",
+      "blocks": [
+        { "type": "p", "text": "Build one role based matrix and record which jurisdiction's rule each row satisfies. The table below is an original, illustrative mapping for a contractor with US and Australian crews. It shows where the rules overlap and where the evidence differs. See [how to build a training matrix](/guides/how-to-build-a-training-matrix) for the method." },
+        { "type": "table", "caption": "Illustrative mapping of confined space roles to training, frequency and evidence (OSHA and model WHS Regulations)", "head": ["Role", "Training required", "Frequency or trigger", "Evidence an auditor would expect"], "rows": [
+          ["Authorized entrant (US) or entrant (AU)", "Space hazards, controls, PPE, permit contents, emergency procedures", "Before first assignment; on change of duties, operations or observed deviation", "US: record with employee name, trainer name, dates. AU: training record kept 2 years"],
+          ["Attendant (US) or stand-by person (AU)", "Entrant count, communication, evacuation triggers, non-entry rescue", "Before first assignment; on change", "Role specific assessment plus permit showing named attendant"],
+          ["Entry supervisor or permit issuer", "Permit completion, atmospheric testing, isolation, cancelling permits", "Before first permit issued", "Competency assessment and authorization to sign permits"],
+          ["Rescue team member", "Entrant training, rescue duties, PPE, first aid and CPR", "Practice at least every 12 months (US); before first actual rescue", "Drill record naming the space or representative space used; current first aid and CPR certificate for at least one member"],
+          ["Supervisor of confined space workers (AU)", "Same five r 76 topics as the workers supervised", "Before supervising; refresher based on frequency of work", "Training record kept 2 years"],
+          ["Non-entry support (AU): equipment buyer, work area designer", "Hazards and controls relevant to their function", "Before performing the function", "Training record kept 2 years"]
+        ] },
+        { "type": "p", "text": "For records retention across jurisdictions, see [how long to keep training records](/guides/how-long-to-keep-training-records). Australian high risk construction work in or near a confined space also needs a SWMS, covered on the [SWMS and high risk construction work](/regulations/construction-swms-and-high-risk-construction-work-training) page." }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        { "type": "p", "text": "Knowledge Foundry maps each confined space role to the hazards, permit steps and emergency procedures it must demonstrate, with the US and Australian requirements recorded as separate obligations against the same concepts. A change to a permit procedure then identifies the affected roles in both jurisdictions." }
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Is annual confined space training required by OSHA?", "a": "Not for entrants, attendants or supervisors. OSHA requires training before first assignment and on specific triggers. The fixed frequency in OSHA's rules is the rescue practice requirement: designated rescue employees must practice a permit space rescue at least once every 12 months, with a construction exemption for a recent real rescue in the same or a similar space." },
+    { "q": "How long must Australian confined space training records be kept?", "a": "Regulation 76(2) of the model WHS Regulations requires a record of all training provided under the regulation to be kept for 2 years. Separately, regulation 77 requires risk assessments to be kept until at least 28 days after the work and permits until the work is completed, extended to at least 2 years if a notifiable incident occurs." },
+    { "q": "Do workers who never enter the space need training in Australia?", "a": "Yes, if they carry out a function related to the confined space work or its emergency procedures. Regulation 76(3) includes these workers and anyone supervising entrants. The Code of Practice gives stand-by persons, permit issuers, people monitoring conditions and people purchasing confined space equipment as examples." },
+    { "q": "Can one course satisfy both OSHA and Australian requirements?", "a": "A single course can cover the shared knowledge, such as atmospheric hazards, isolation, permits and rescue. Each jurisdiction still needs its own evidence: OSHA's record fields and retention for US crews, and the regulation 76 record kept for 2 years for Australian crews, plus site specific content on the actual spaces and permits in use." }
+  ],
+  "sources": [
+    { "title": "29 CFR 1926.1207: Training", "publisher": "Legal Information Institute, Cornell Law School (eCFR text)", "url": "https://www.law.cornell.edu/cfr/text/29/1926.1207" },
+    { "title": "29 CFR 1910.146: Permit-required confined spaces", "publisher": "Legal Information Institute, Cornell Law School (eCFR text)", "url": "https://www.law.cornell.edu/cfr/text/29/1910.146" },
+    { "title": "29 CFR 1926.1211: Rescue and emergency services", "publisher": "Legal Information Institute, Cornell Law School (eCFR text)", "url": "https://www.law.cornell.edu/cfr/text/29/1926.1211" },
+    { "title": "29 CFR 1926.1203: General requirements", "publisher": "Legal Information Institute, Cornell Law School (eCFR text)", "url": "https://www.law.cornell.edu/cfr/text/29/1926.1203" },
+    { "title": "Confined Spaces: Overview", "publisher": "Occupational Safety and Health Administration", "url": "https://www.osha.gov/confined-spaces" },
+    { "title": "Model Work Health and Safety Regulations (5 December 2025)", "publisher": "Safe Work Australia", "url": "https://www.safeworkaustralia.gov.au/doc/model-work-health-and-safety-regulations" },
+    { "title": "Model Code of Practice: Confined spaces", "publisher": "Safe Work Australia", "url": "https://www.safeworkaustralia.gov.au/doc/model-code-practice-confined-spaces" }
+  ],
+  "related": [
+    "construction-swms-and-high-risk-construction-work-training",
+    "osha-training-requirements",
+    "whs-act-duty-to-provide-training",
+    "osha-silica-construction-training-requirements",
+    "general-construction-induction-white-card",
+    "how-long-to-keep-training-records"
+  ],
+  "productLinks": [
+    { "label": "Compliance programs", "href": "/programs/compliance" },
+    { "label": "Energy and resources", "href": "/industries/energy-resources" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 14,
+  "factCheck": [
+    { "claim": "1926.1207(a) training at no cost; must result in understanding of hazards, control methods, and dangers of attempting rescue for non-rescuers", "source": "https://www.law.cornell.edu/cfr/text/29/1926.1207" },
+    { "claim": "1926.1207(b)(1) to (5) language and vocabulary plus four timing triggers; (d) records with employee name, trainer names, dates, kept for period of employment", "source": "https://www.law.cornell.edu/cfr/text/29/1926.1207" },
+    { "claim": "1910.146(g)(2) four triggers; (g)(4) certification with employee name, trainer signatures or initials, dates", "source": "https://www.law.cornell.edu/cfr/text/29/1910.146" },
+    { "claim": "1910.146(k)(2)(iv) rescue practice at least once every 12 months", "source": "https://www.law.cornell.edu/cfr/text/29/1910.146" },
+    { "claim": "1926.1211(b) training and equipment at no cost; first aid and CPR; (b)(4) practice before actual rescue and every 12 months, with exemption for a rescue properly performed in the last 12 months in the same or similar space", "source": "https://www.law.cornell.edu/cfr/text/29/1926.1211" },
+    { "claim": "1926.1203(a) competent person identifies confined spaces and permit spaces before work begins", "source": "https://www.law.cornell.edu/cfr/text/29/1926.1203" },
+    { "claim": "Model WHS Regulations r 76(1) five topics, tier E penalty; r 76(2) records kept 2 years; r 76(3) relevant worker definition including supervisors", "source": "https://www.safeworkaustralia.gov.au/doc/model-work-health-and-safety-regulations" },
+    { "claim": "Model WHS Regulations r 67 permit completed by a competent person in writing; r 69 continuous communication and stand-by person; r 77 record retention for risk assessments and permits; r 291(f) confined space work is high risk construction work", "source": "https://www.safeworkaustralia.gov.au/doc/model-work-health-and-safety-regulations" },
+    { "claim": "Code of Practice: Confined spaces gives examples of relevant non-entry workers and says refresher frequency should depend on how often workers carry out confined space tasks; amended November 2026 for workplace exposure limits", "source": "https://www.safeworkaustralia.gov.au/doc/model-code-practice-confined-spaces" },
+    { "claim": "OSHA defines permit-required confined space characteristics", "source": "https://www.osha.gov/confined-spaces" }
+  ]
+}
