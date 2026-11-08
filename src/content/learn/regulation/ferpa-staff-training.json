@@ -1,0 +1,349 @@
+{
+  "slug": "ferpa-staff-training",
+  "kind": "regulation",
+  "title": "Does FERPA require schools to train staff on student privacy?",
+  "seoTitle": "FERPA staff training requirements",
+  "description": "FERPA has no explicit staff training mandate, but 34 CFR Part 99 access controls, notices and disclosure logs depend on trained staff. What to evidence.",
+  "shortAnswer": "The Family Educational Rights and Privacy Act (FERPA), 20 U.S.C. 1232g, and its regulations at 34 CFR Part 99 contain no explicit requirement to train school staff. They do require schools to use reasonable methods so school officials see only records in which they have a legitimate educational interest, to publish annual notices, and to log most disclosures. US Department of Education guidance recommends regular staff training as a way to meet those duties.",
+  "keyTakeaways": [
+    "Neither the FERPA statute nor 34 CFR Part 99 states a training obligation for staff, as at November 2026. Training is a means of compliance, not a stand-alone legal requirement.",
+    "34 CFR 99.31(a)(1)(ii) requires reasonable methods to limit school officials to records in which they have a legitimate educational interest; a school without physical or technological controls must show its administrative policy is effective.",
+    "The annual notice under 34 CFR 99.7(a)(3)(iii) must state the school's criteria for who is a school official and what is a legitimate educational interest, which is the core content of any staff training.",
+    "The Privacy Technical Assistance Center (PTAC) Data Security Checklist recommends regular checks and trainings, policy training and binding confidentiality agreements for personnel.",
+    "Enforcement is through federal funding: the Department may withhold payments, issue a cease and desist complaint, or terminate eligibility under 34 CFR 99.67."
+  ],
+  "jurisdiction": "United States (federal)",
+  "regulator": "Student Privacy Policy Office (SPPO), US Department of Education",
+  "appliesTo": [
+    "Schools, districts and colleges that receive funds under any program administered by the US Secretary of Education (34 CFR 99.1)",
+    "Teachers, administrators, registrars, counselors and other school officials with access to education records",
+    "Contractors, consultants and volunteers treated as school officials under 34 CFR 99.31(a)(1)(i)(B)",
+    "Information technology, records and data teams that set access controls and maintain disclosure records"
+  ],
+  "sections": [
+    {
+      "id": "is-training-required",
+      "heading": "Is FERPA training legally required for school staff?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No. Neither the FERPA statute nor the regulations contain an express obligation to train staff. The statute at [20 U.S.C. 1232g](https://www.law.cornell.edu/uscode/text/20/1232g) is a funding condition: subsection (b)(1) opens \"No funds shall be made available under any applicable program to any educational agency or institution which has a policy or practice of permitting the release of education records\" without consent, outside the listed exceptions. The implementing rules at [34 CFR Part 99](https://www.ecfr.gov/current/title-34/subtitle-A/part-99) set duties for notices, access, disclosure and recordkeeping, but none of them is phrased as a training requirement."
+        },
+        {
+          "type": "p",
+          "text": "The Department's own training hub at [studentprivacy.ed.gov](https://studentprivacy.ed.gov/training) offers FERPA 101 courses for local education agencies and for colleges and universities, and a FERPA 201 course on data sharing. It presents them as resources, not as a mandated curriculum. Many states, systems and institutions do require FERPA training as internal policy, and some state student privacy laws add their own duties, so check local rules before concluding that none applies."
+        },
+        {
+          "type": "callout",
+          "title": "Currency",
+          "text": "This page reflects 20 U.S.C. 1232g, 34 CFR Part 99 and Department of Education guidance as at November 2026. It does not cover state student privacy statutes, the Protection of Pupil Rights Amendment, or institutional policies that may impose training. Check the primary sources before relying on any section number."
+        }
+      ]
+    },
+    {
+      "id": "why-schools-train-anyway",
+      "heading": "Why do schools train staff if FERPA does not require it?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because several FERPA duties can only be met if staff know and follow the school's rules. The clearest is the access control duty in [34 CFR 99.31(a)(1)(ii)](https://www.law.cornell.edu/cfr/text/34/99.31): \"An educational agency or institution must use reasonable methods to ensure that school officials obtain access to only those education records in which they have legitimate educational interests.\" The same paragraph says a school that does not use physical or technological access controls \"must ensure that its administrative policy for controlling access to education records is effective\"."
+        },
+        {
+          "type": "p",
+          "text": "An administrative policy is only effective if the people it governs understand it. That is the practical link between FERPA and training: where a records system lets a teacher open any student's file, the school is relying on policy and staff judgment, and it will need evidence that staff were told what that policy is. Where role based permissions restrict access, training still matters for disclosures made by email, phone, or conversation, which no system control can stop."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Annual notice content:** [34 CFR 99.7](https://www.law.cornell.edu/cfr/text/34/99.7) requires each school to notify parents and eligible students of their rights every year and, where it discloses to school officials, to specify \"criteria for determining who constitutes a school official and what constitutes a legitimate educational interest\". Staff should be trained on the same criteria the school publishes.",
+            "**Redisclosure limits:** under [34 CFR 99.33](https://www.law.cornell.edu/cfr/text/34/99.33), information is disclosed on condition that the recipient will not pass it on without consent and uses it only for the purpose of the disclosure. Staff who share records with outside parties need to know this condition.",
+            "**Authentication:** 34 CFR 99.31(c) requires reasonable methods to identify and authenticate parents, students, school officials and other parties before disclosing personally identifiable information. Front office and registrar staff carry most of this duty."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who-the-rules-apply-to",
+      "heading": "Which schools and which staff does FERPA cover?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "FERPA covers any educational agency or institution that receives funds under a program administered by the US Secretary of Education, and it applies to the recipient as a whole. [34 CFR 99.1](https://www.ecfr.gov/current/title-34/subtitle-A/part-99/subpart-A/section-99.1) treats funds as made available when they reach the institution by grant, contract or subcontract, or when they are paid to students who may pay them to the institution, such as Pell Grants. Paragraph (d) extends the rules to each component of the recipient, \"such as a department within a university\"."
+        },
+        {
+          "type": "p",
+          "text": "Rights belong to parents until the student becomes an \"eligible student\", which [34 CFR 99.3](https://www.ecfr.gov/current/title-34/subtitle-A/part-99/subpart-A/section-99.3) defines as a student who has reached 18 or is attending a postsecondary institution. This is a frequent training gap in higher education: faculty used to K-12 practice may assume they can discuss a college student's grades with a parent, when consent or another exception is needed. Universities can map this content into broader programs for the [higher education sector](/industries/higher-education)."
+        },
+        {
+          "type": "p",
+          "text": "Contractors, consultants and volunteers can be school officials if they perform a service the school would otherwise use employees for, are under the school's direct control for the use and maintenance of records, and follow the redisclosure rules (34 CFR 99.31(a)(1)(i)(B)). Contracts usually pass the training expectation to the provider. PTAC's February 2014 guidance on online educational services describes FERPA as \"a minimum set of requirements to follow\" and asks schools to make sure \"teachers and staff not bypass internal controls\" when adopting free online tools."
+        }
+      ]
+    },
+    {
+      "id": "what-department-guidance-says",
+      "heading": "What does Department of Education guidance say about staff training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Department guidance recommends training as good practice rather than requiring it. The [PTAC Data Security Checklist](https://studentprivacy.ed.gov/resources/data-security-checklist) lists personnel security as an essential component of a data security program and tells organizations to \"Conduct regular checks and trainings to ensure employee understanding of the terms and conditions of their employment\" and to confirm trustworthiness \"through the use of personnel security screenings, policy training, and binding confidentiality agreements\"."
+        },
+        {
+          "type": "p",
+          "text": "The same checklist asks for a data governance plan that clearly identifies staff responsibilities for data security. PTAC's guidance on [online educational services](https://studentprivacy.ed.gov/resources/protecting-student-privacy-while-using-online-educational-services-requirements-and-best) recommends that schools be clear with teachers and administrators about how new online services are approved and who may accept a provider's terms of service, since clicking \"accept\" on click-wrap terms creates a contract."
+        },
+        {
+          "type": "p",
+          "text": "Both documents are technical assistance, not regulations. A school that follows them is better placed to show that its methods are \"reasonable\" and its administrative policy is \"effective\", which is the test the regulation actually sets."
+        }
+      ]
+    },
+    {
+      "id": "obligation-map",
+      "heading": "How do FERPA duties map to roles, training and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each FERPA duty falls on a different group of staff, so training works best when it is split by role rather than delivered as one course for everyone. The table below is an original mapping built from the regulation text; frequencies are recommended practice unless the cell cites a rule."
+        },
+        {
+          "type": "table",
+          "caption": "FERPA obligations mapped to roles, suggested training frequency and audit evidence (frequencies are good practice; FERPA sets none)",
+          "head": [
+            "Obligation (34 CFR Part 99)",
+            "Role it falls on",
+            "Suggested frequency",
+            "Evidence a reviewer would expect"
+          ],
+          "rows": [
+            [
+              "Access limited to legitimate educational interest, 99.31(a)(1)(ii)",
+              "All school officials with records access",
+              "On appointment and annually",
+              "Access control matrix or written administrative policy, training completion, attestation to the policy"
+            ],
+            [
+              "Annual notice with school official criteria, 99.7(a)(3)(iii)",
+              "Records officer, communications, legal",
+              "Each year, before the notice issues",
+              "Published notice, version history, staff briefing on the stated criteria"
+            ],
+            [
+              "Record of each request and disclosure, 99.32",
+              "Registrars, records staff, counselors handling outside requests",
+              "On appointment and when procedures change",
+              "Disclosure log kept with the student record, procedure document, spot checks"
+            ],
+            [
+              "Redisclosure conditions, 99.33",
+              "Staff who share records with outside parties",
+              "Before first external disclosure",
+              "Written condition sent with disclosures, data sharing agreements"
+            ],
+            [
+              "Authentication before disclosure, 99.31(c)",
+              "Front office, registrar, help desk",
+              "On appointment and annually",
+              "Identity verification procedure, call scripts, training record"
+            ],
+            [
+              "Directory information notice and opt outs, 99.37",
+              "Registrar, athletics, communications, yearbook staff",
+              "Each year when the opt out window closes",
+              "Public notice, opt out list, briefing for staff who publish student information"
+            ],
+            [
+              "Contractor as school official under direct control, 99.31(a)(1)(i)(B)",
+              "Procurement, IT, contract owners",
+              "At contract award and renewal",
+              "Contract clauses, provider training attestation, approval record for online tools"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The same structure works as a row set in a wider [training matrix](/guides/how-to-build-a-training-matrix), and it shows where FERPA sits beside obligations that do carry a training mandate, such as the [Clery Act](/regulations/clery-act-training-requirements) and [Title IX](/regulations/title-ix-training-requirements) on campuses."
+        }
+      ]
+    },
+    {
+      "id": "disclosure-records",
+      "heading": "What records must a school keep, and for how long?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A school must keep a record of each request for access to, and each disclosure of, personally identifiable information from a student's education records, and keep it with the student's records for as long as those records are maintained. [34 CFR 99.32](https://www.law.cornell.edu/cfr/text/34/99.32) requires the record to show the parties who requested or received the information and the legitimate interests they had; for health or safety emergency disclosures it must also record the articulable and significant threat that justified the disclosure."
+        },
+        {
+          "type": "p",
+          "text": "Section 99.32(d) exempts disclosures to the parent or eligible student, to school officials with a legitimate educational interest, to parties with written consent, and of directory information. In practice that means internal access by teachers is not logged under this rule, which is why the access control duty in 99.31(a)(1)(ii) and the training that supports it carry so much weight. Training records themselves are not a FERPA record type; keep them under the school's general retention schedule, as discussed in [how long to keep training records](/guides/how-long-to-keep-training-records)."
+        }
+      ]
+    },
+    {
+      "id": "enforcement",
+      "heading": "Who enforces FERPA and what happens after a violation?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The US Department of Education enforces FERPA through its Student Privacy Policy Office, and the sanctions attach to federal funding. The regulation names the Office of the Chief Privacy Officer as the office that investigates complaints and provides technical assistance ([34 CFR 99.60](https://www.law.cornell.edu/cfr/text/34/99.60)); the Department's student privacy site describes itself as a service of the Student Privacy Policy Office."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Complaints:** a complaint is timely if submitted within 180 days of the alleged violation, or of when the complainant knew or reasonably should have known of it (34 CFR 99.64(c)). The Office may also open its own investigation.",
+            "**Policy or practice:** the Office may decide whether a failure to comply is based on a policy or practice of the institution, which matters because the statutory funding bar is framed around a \"policy or practice\".",
+            "**Sanctions:** under [34 CFR 99.67(a)](https://www.law.cornell.edu/cfr/text/34/99.67), the Secretary may withhold further payments, issue a complaint to compel compliance through a cease and desist order, or terminate eligibility to receive funding.",
+            "**Third parties:** where a third party is found responsible for a violation of 99.31(a)(6)(iii)(B), the originating school may not give that party access to personally identifiable information from education records for at least five years (99.67(c))."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Evidence of role based training and policy attestation is one of the ways an institution can show that an improper disclosure was an individual error rather than a policy or practice. That is the strongest practical reason to keep [training records ready for review](/guides/how-to-prepare-training-records-for-an-audit)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps each FERPA duty in 34 CFR Part 99 to the roles that carry it, the decisions each role must make, and the assessment point that shows the person can make them, before any course is written. Where the law sets no training mandate, the framework records that fact and the reason training is still used, so reviewers can see which content is required and which is a control choice."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can a teacher look at any student's records under FERPA?",
+      "a": "Only if the teacher has a legitimate educational interest in that record under the criteria in the school's annual notice. FERPA lets schools disclose to school officials, including teachers, with such an interest, and requires reasonable methods to limit access to those records. A school without technical access controls must show its administrative policy is effective."
+    },
+    {
+      "q": "Do student workers and volunteers count as school officials?",
+      "a": "They can. A contractor, consultant, volunteer or other outside party may be treated as a school official if it performs a service the school would otherwise use employees for, is under the school's direct control for records, and follows the redisclosure rules. The school's annual notice criteria should cover them, and they should receive the same briefing as staff."
+    },
+    {
+      "q": "Is completing the Department of Education FERPA 101 course enough?",
+      "a": "It covers the federal rules but not your school's own criteria for school officials, its directory information categories, its access controls or its disclosure procedures. Because the regulation tests whether your methods are reasonable and your policy is effective, local content on those points matters more than the generic course."
+    },
+    {
+      "q": "Does FERPA require a staff confidentiality agreement?",
+      "a": "No section of 34 CFR Part 99 requires one. The PTAC Data Security Checklist recommends binding confidentiality agreements, personnel screening and policy training as part of personnel security, so many schools use them as evidence of their reasonable methods."
+    },
+    {
+      "q": "Do disclosures to other teachers need to be logged?",
+      "a": "No. Section 99.32(d) exempts disclosures to school officials with a legitimate educational interest from the disclosure record. Requests and disclosures to most outside parties must be logged and kept with the student's education records for as long as those records are kept."
+    }
+  ],
+  "sources": [
+    {
+      "title": "20 U.S.C. 1232g: Family educational and privacy rights",
+      "publisher": "Legal Information Institute, Cornell Law School (US Code)",
+      "url": "https://www.law.cornell.edu/uscode/text/20/1232g"
+    },
+    {
+      "title": "34 CFR Part 99: Family Educational Rights and Privacy",
+      "publisher": "Electronic Code of Federal Regulations (eCFR), National Archives",
+      "url": "https://www.ecfr.gov/current/title-34/subtitle-A/part-99"
+    },
+    {
+      "title": "34 CFR 99.31: Under what conditions is prior consent not required to disclose information?",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/34/99.31"
+    },
+    {
+      "title": "34 CFR 99.7: What must an educational agency or institution include in its annual notification?",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/34/99.7"
+    },
+    {
+      "title": "34 CFR 99.32: What recordkeeping requirements exist concerning requests and disclosures?",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/34/99.32"
+    },
+    {
+      "title": "34 CFR 99.67: How does the Secretary enforce decisions?",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/34/99.67"
+    },
+    {
+      "title": "Training: Protecting Student Privacy",
+      "publisher": "Student Privacy Policy Office, US Department of Education",
+      "url": "https://studentprivacy.ed.gov/training"
+    },
+    {
+      "title": "Data Security Checklist",
+      "publisher": "Privacy Technical Assistance Center, US Department of Education",
+      "url": "https://studentprivacy.ed.gov/resources/data-security-checklist"
+    },
+    {
+      "title": "Protecting Student Privacy While Using Online Educational Services: Requirements and Best Practices (February 2014)",
+      "publisher": "Privacy Technical Assistance Center, US Department of Education",
+      "url": "https://studentprivacy.ed.gov/resources/protecting-student-privacy-while-using-online-educational-services-requirements-and-best"
+    }
+  ],
+  "related": [
+    "clery-act-training-requirements",
+    "title-ix-training-requirements",
+    "how-to-prepare-training-records-for-an-audit",
+    "role-based-training",
+    "policy-attestation",
+    "how-long-to-keep-training-records"
+  ],
+  "productLinks": [
+    {
+      "label": "Higher education",
+      "href": "/industries/higher-education"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 14,
+  "factCheck": [
+    {
+      "claim": "The FERPA statute contains no reference to staff training; 1232g(b)(1) is framed as a funding condition on institutions with a 'policy or practice of permitting the release of education records'.",
+      "source": "https://www.law.cornell.edu/uscode/text/20/1232g"
+    },
+    {
+      "claim": "34 CFR 99.31(a)(1)(ii) requires reasonable methods so school officials access only records in which they have legitimate educational interests; a school without physical or technological controls must ensure its administrative policy is effective.",
+      "source": "https://www.ecfr.gov/current/title-34/subtitle-A/part-99/subpart-D/section-99.31"
+    },
+    {
+      "claim": "34 CFR 99.7(a)(3)(iii) requires the annual notification to specify criteria for who constitutes a school official and what constitutes a legitimate educational interest.",
+      "source": "https://www.law.cornell.edu/cfr/text/34/99.7"
+    },
+    {
+      "claim": "34 CFR 99.32 requires a record of each request and disclosure kept with the student's records as long as they are maintained; 99.32(d) exempts disclosures to school officials with legitimate educational interests, the parent or eligible student, consented disclosures and directory information.",
+      "source": "https://www.law.cornell.edu/cfr/text/34/99.32"
+    },
+    {
+      "claim": "34 CFR 99.64(c): a timely complaint is submitted within 180 days of the alleged violation or of when the complainant knew or reasonably should have known of it.",
+      "source": "https://www.ecfr.gov/current/title-34/subtitle-A/part-99/subpart-E/section-99.64"
+    },
+    {
+      "claim": "34 CFR 99.67(a) lets the Secretary withhold payments, issue a cease and desist complaint, or terminate eligibility; 99.67(c) bars a responsible third party from access for at least five years.",
+      "source": "https://www.law.cornell.edu/cfr/text/34/99.67"
+    },
+    {
+      "claim": "34 CFR 99.3 defines an eligible student as one who has reached 18 or is attending a postsecondary institution; 99.1(d) applies the rules to each component of a recipient such as a university department.",
+      "source": "https://www.ecfr.gov/current/title-34/subtitle-A/part-99/subpart-A/section-99.3"
+    },
+    {
+      "claim": "PTAC Data Security Checklist: 'Conduct regular checks and trainings to ensure employee understanding' and confirm trustworthiness through 'personnel security screenings, policy training, and binding confidentiality agreements'.",
+      "source": "https://studentprivacy.ed.gov/resources/data-security-checklist"
+    },
+    {
+      "claim": "PTAC February 2014 guidance calls FERPA 'a minimum set of requirements to follow' and says teachers and staff should not bypass internal controls when adopting free online services.",
+      "source": "https://studentprivacy.ed.gov/resources/protecting-student-privacy-while-using-online-educational-services-requirements-and-best"
+    },
+    {
+      "claim": "studentprivacy.ed.gov training page offers FERPA 101 for LEAs, FERPA 101 for colleges and universities, and FERPA 201 on data sharing, with no statement of a legal training mandate.",
+      "source": "https://studentprivacy.ed.gov/training"
+    }
+  ]
+}
