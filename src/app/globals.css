@@ -209,3 +209,15 @@ html:not(.kf-hydrated) main [data-reveal] {
     display: none;
   }
 }
+
+/* Framework demo: source phrase flashes as it is traced */
+@keyframes kf-trace {
+  from { background-color: rgba(239, 103, 4, 0.45); }
+  to { background-color: rgba(239, 103, 4, 0.15); }
+}
+.kf-trace {
+  animation: kf-trace 0.6s ease-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .kf-trace { animation: none; }
+}

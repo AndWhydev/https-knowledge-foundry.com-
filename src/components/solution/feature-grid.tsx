@@ -1,6 +1,7 @@
 import { Container, Section, Eyebrow } from "@/components/ui/container";
 import { Reveal, RevealStagger, RevealItem } from "@/components/motion/reveal";
 import { SplitText } from "@/components/motion/split-text";
+import { SpotlightGroup } from "@/components/motion/spotlight-group";
 import type { ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
@@ -45,6 +46,7 @@ export function FeatureGrid({
           )}
         </div>
 
+        <SpotlightGroup>
         <RevealStagger
           className={cn(
             "grid gap-px rounded-[var(--radius-lg)] overflow-hidden",
@@ -57,6 +59,7 @@ export function FeatureGrid({
           {features.map((f) => (
             <RevealItem
               key={f.title}
+              spot
               className={cn(
                 "group relative p-8 transition-colors",
                 tone === "canvas" && "bg-white hover:bg-[color:var(--color-canvas-warm)]",
@@ -69,8 +72,8 @@ export function FeatureGrid({
                 className={cn(
                   "pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500",
                   tone === "ink"
-                    ? "bg-[radial-gradient(circle_at_top_left,rgba(239,103,4,0.10),transparent_60%)]"
-                    : "bg-[radial-gradient(circle_at_top_left,rgba(239,103,4,0.06),transparent_60%)]",
+                    ? "bg-[radial-gradient(360px_circle_at_var(--mx,0px)_var(--my,0px),rgba(239,103,4,0.16),transparent_65%)]"
+                    : "bg-[radial-gradient(360px_circle_at_var(--mx,0px)_var(--my,0px),rgba(239,103,4,0.09),transparent_65%)]",
                 )}
                 aria-hidden
               />
@@ -105,6 +108,7 @@ export function FeatureGrid({
             </RevealItem>
           ))}
         </RevealStagger>
+        </SpotlightGroup>
       </Container>
     </Section>
   );

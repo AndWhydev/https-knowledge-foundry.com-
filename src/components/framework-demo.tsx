@@ -15,7 +15,7 @@ type Scenario = {
   domain: string;
   standard: string;
   source: string;
-  concepts: { label: string; kind: "concept" | "control" | "check" }[];
+  concepts: { label: string; quote: string; kind: "concept" | "control" | "check" }[];
   edges: [number, number][];
   verifiedIndex: number[];
 };
@@ -27,15 +27,15 @@ const scenarios: Scenario[] = [
     source:
       "A regulated institution must identify money laundering and terrorist financing risks arising from its products and services, and put in place a risk-based program of controls proportionate to those risks. Customer due diligence must be completed before a business relationship is established, with enhanced due diligence for higher-risk customers.",
     concepts: [
-      { label: "Regulated institution", kind: "concept" },
-      { label: "Products and services", kind: "concept" },
-      { label: "ML/TF risk", kind: "concept" },
-      { label: "Risk-based program", kind: "control" },
-      { label: "Customer due diligence", kind: "control" },
-      { label: "Enhanced due diligence", kind: "control" },
-      { label: "Higher-risk customer", kind: "concept" },
-      { label: "Timing of due diligence", kind: "check" },
-      { label: "Proportionality test", kind: "check" },
+      { label: "Regulated institution", quote: "A regulated institution", kind: "concept" },
+      { label: "Products and services", quote: "its products and services", kind: "concept" },
+      { label: "ML/TF risk", quote: "money laundering and terrorist financing risks", kind: "concept" },
+      { label: "Risk-based program", quote: "a risk-based program of controls", kind: "control" },
+      { label: "Customer due diligence", quote: "Customer due diligence must be completed", kind: "control" },
+      { label: "Enhanced due diligence", quote: "enhanced due diligence", kind: "control" },
+      { label: "Higher-risk customer", quote: "higher-risk customers", kind: "concept" },
+      { label: "Timing of due diligence", quote: "before a business relationship is established", kind: "check" },
+      { label: "Proportionality test", quote: "proportionate to those risks", kind: "check" },
     ],
     edges: [
       [0, 1],
@@ -55,15 +55,15 @@ const scenarios: Scenario[] = [
     source:
       "Before commencing any confined space entry, a competent person must complete an atmospheric test, verify isolation of energy sources, confirm rescue provisions, and issue a written entry permit. Continuous monitoring is required for the duration of the entry. All personnel entering the space must hold current confined space training.",
     concepts: [
-      { label: "Confined space entry", kind: "concept" },
-      { label: "Competent person", kind: "concept" },
-      { label: "Atmospheric test", kind: "control" },
-      { label: "Energy isolation", kind: "control" },
-      { label: "Rescue provisions", kind: "control" },
-      { label: "Written entry permit", kind: "control" },
-      { label: "Continuous monitoring", kind: "check" },
-      { label: "Confined space training", kind: "concept" },
-      { label: "Permit currency", kind: "check" },
+      { label: "Confined space entry", quote: "confined space entry", kind: "concept" },
+      { label: "Competent person", quote: "a competent person", kind: "concept" },
+      { label: "Atmospheric test", quote: "complete an atmospheric test", kind: "control" },
+      { label: "Energy isolation", quote: "verify isolation of energy sources", kind: "control" },
+      { label: "Rescue provisions", quote: "confirm rescue provisions", kind: "control" },
+      { label: "Written entry permit", quote: "issue a written entry permit", kind: "control" },
+      { label: "Continuous monitoring", quote: "Continuous monitoring is required", kind: "check" },
+      { label: "Confined space training", quote: "hold current confined space training", kind: "concept" },
+      { label: "Permit currency", quote: "for the duration of the entry", kind: "check" },
     ],
     edges: [
       [0, 1],
@@ -83,14 +83,14 @@ const scenarios: Scenario[] = [
     source:
       "The clinician verifies the patient's identity using at least three approved identifiers, checks the medication order against the medication chart, confirms allergies and adverse reactions on the medication record, and administers the medication using the seven rights. All administration is documented immediately on completion.",
     concepts: [
-      { label: "Patient identity", kind: "concept" },
-      { label: "Three identifiers", kind: "check" },
-      { label: "Medication order", kind: "concept" },
-      { label: "Medication chart check", kind: "control" },
-      { label: "Allergy verification", kind: "control" },
-      { label: "Adverse reaction record", kind: "concept" },
-      { label: "Seven rights", kind: "control" },
-      { label: "Immediate documentation", kind: "check" },
+      { label: "Patient identity", quote: "verifies the patient's identity", kind: "concept" },
+      { label: "Three identifiers", quote: "at least three approved identifiers", kind: "check" },
+      { label: "Medication order", quote: "the medication order", kind: "concept" },
+      { label: "Medication chart check", quote: "against the medication chart", kind: "control" },
+      { label: "Allergy verification", quote: "confirms allergies", kind: "control" },
+      { label: "Adverse reaction record", quote: "adverse reactions on the medication record", kind: "concept" },
+      { label: "Seven rights", quote: "using the seven rights", kind: "control" },
+      { label: "Immediate documentation", quote: "documented immediately on completion", kind: "check" },
     ],
     edges: [
       [0, 1],
@@ -228,6 +228,13 @@ export function FrameworkDemo() {
   }, [inView, scenarioIndex, reduce, scenario.source.length, scenario.concepts.length, scenario.edges.length, scenario.verifiedIndex.length, scenario.source]);
 
   const typedText = useMemo(() => scenario.source.slice(0, charCount), [scenario.source, charCount]);
+  // While extracting, the source lights up the phrase each concept came from; afterwards, the selected one.
+  const traceQuote =
+    selected !== null
+      ? scenario.concepts[selected].quote
+      : phase === "extracting" && conceptsShown > 0
+        ? scenario.concepts[conceptsShown - 1].quote
+        : null;
 
   return (
     <div ref={rootRef}>
@@ -282,7 +289,7 @@ export function FrameworkDemo() {
                     exit={{ opacity: 0 }}
                     transition={{ duration: 0.25 }}
                   >
-                    <SourceText text={typedText} highlight={selected !== null ? scenario.concepts[selected].label : null} />
+                    <SourceText text={typedText} highlight={traceQuote} />
                     {phase === "typing" && (
                       <span className="inline-block w-[8px] h-[16px] align-middle -mt-1 bg-[color:var(--color-forge)] animate-pulse" />
                     )}
@@ -387,7 +394,7 @@ export function FrameworkDemo() {
                       scenario={scenario}
                       index={selected}
                       verified={scenario.verifiedIndex.slice(0, verifiedShown).includes(selected)}
-                      inSource={typedText.toLowerCase().includes(scenario.concepts[selected].label.toLowerCase())}
+                
                       onClose={() => setSelected(null)}
                       onSelect={setSelected}
                     />
@@ -714,7 +721,7 @@ function SourceText({ text, highlight }: { text: string; highlight: string | nul
   return (
     <>
       {text.slice(0, at)}
-      <mark className="rounded-sm bg-[color:var(--color-forge)]/15 text-[color:var(--color-forge-deep)] px-0.5 -mx-0.5">
+      <mark key={highlight} className="kf-trace rounded-sm bg-[color:var(--color-forge)]/15 text-[color:var(--color-forge-deep)] px-0.5 -mx-0.5">
         {text.slice(at, at + highlight.length)}
       </mark>
       {text.slice(at + highlight.length)}
@@ -728,14 +735,12 @@ function NodeDetail({
   scenario,
   index,
   verified,
-  inSource,
   onClose,
   onSelect,
 }: {
   scenario: Scenario;
   index: number;
   verified: boolean;
-  inSource: boolean;
   onClose: () => void;
   onSelect: (i: number) => void;
 }) {
@@ -772,7 +777,11 @@ function NodeDetail({
         <span className={cn("rounded-full px-2 py-0.5 border", verified ? "border-[color:var(--color-forge)]/50 text-[color:var(--color-forge-hot)]" : "border-white/15 text-white/55")}>
           {verified ? "Verified" : "Not yet verified"}
         </span>
-        {inSource && <span className="rounded-full px-2 py-0.5 border border-white/15 text-white/55">Traced to source</span>}
+        <span className="rounded-full px-2 py-0.5 border border-white/15 text-white/55">Traced to source</span>
+      </div>
+      <div className="mt-3 border-l-2 border-[color:var(--color-forge)] pl-3">
+        <div className="font-[family-name:var(--font-jetbrains)] text-[10px] tracking-[0.14em] uppercase text-white/45 mb-1">From the source</div>
+        <p className="font-[family-name:var(--font-jetbrains)] text-[11.5px] leading-[1.55] text-white/80">&ldquo;{c.quote}&rdquo;</p>
       </div>
       {links.length > 0 && (
         <div className="mt-3">

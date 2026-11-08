@@ -5,6 +5,7 @@ import { SplitText } from "@/components/motion/split-text";
 import { Magnetic } from "@/components/motion/magnetic";
 import { CursorSpotlight } from "@/components/motion/cursor-spotlight";
 import { FloatingCubes } from "@/components/motion/floating-cubes";
+import { HeaderDrift } from "@/components/motion/header-drift";
 import type { ReactNode } from "react";
 
 export function TopicHeader({
@@ -32,6 +33,7 @@ export function TopicHeader({
       </div>
       <CursorSpotlight size={560} color="rgba(239,103,4,0.08)" className="hidden md:block" />
       <FloatingCubes className="absolute inset-0 -z-10 pointer-events-none hidden md:block opacity-70" />
+      <HeaderDrift>
       <Container>
         {breadcrumb && (
           <Reveal>
@@ -84,6 +86,7 @@ export function TopicHeader({
           )}
         </div>
       </Container>
+      </HeaderDrift>
     </section>
   );
 }

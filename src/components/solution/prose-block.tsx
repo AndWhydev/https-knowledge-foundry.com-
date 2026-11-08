@@ -36,7 +36,8 @@ export function ProseBlock({
     <Section>
       <Container>
         <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.5fr)] gap-10 lg:gap-20">
-          <div>
+          {/* Heading pins beside long prose on desktop */}
+          <div className="lg:sticky lg:top-28 lg:self-start">
             {eyebrow && <Eyebrow>{eyebrow}</Eyebrow>}
             <SplitText as="h2" className="text-display-2 mt-5 max-w-[22ch]" stagger={0.05}>
               {title}

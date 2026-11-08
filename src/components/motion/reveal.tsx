@@ -79,17 +79,21 @@ export function RevealItem({
   className,
   y = 20,
   as: Tag = "div",
+  spot = false,
 }: {
   children: ReactNode;
   className?: string;
   y?: number;
   as?: "div" | "li" | "span" | "p" | "h3";
+  /** Marks the item as a SpotlightGroup cell (cursor glow target). */
+  spot?: boolean;
 }) {
   const reduce = useReducedMotionSafe();
   const MotionTag = motion[Tag] as typeof motion.div;
   return (
     <MotionTag
       data-reveal=""
+      data-spot={spot ? "" : undefined}
       className={className}
       variants={{ hidden: { opacity: 0, y }, visible: { opacity: 1, y: 0 } }}
       transition={reduce ? { duration: 0 } : { duration: 0.6, ease: [0.25, 1, 0.5, 1] }}
