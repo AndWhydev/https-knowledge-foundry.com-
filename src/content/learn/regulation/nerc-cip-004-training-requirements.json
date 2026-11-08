@@ -1,0 +1,227 @@
+{
+  "slug": "nerc-cip-004-training-requirements",
+  "kind": "regulation",
+  "title": "What training does NERC CIP-004 require for utility personnel?",
+  "seoTitle": "NERC CIP-004 training requirements",
+  "description": "NERC CIP-004-7 security awareness each quarter, role based training before access and every 15 calendar months, evidence to retain, and the CIP-004-8 change.",
+  "shortAnswer": "NERC Reliability Standard CIP-004-7 requires registered entities with high or medium impact BES Cyber Systems to reinforce cyber security practices at least once each calendar quarter for everyone with authorized electronic or unescorted physical access. Personnel at high impact systems and medium impact systems with External Routable Connectivity must also complete role based cyber security training before access is granted and at least once every 15 calendar months. FERC approved CIP-004-8 in 2026.",
+  "keyTakeaways": [
+    "Requirement R1 Part 1.1 requires security awareness that reinforces cyber security practices at least once each calendar quarter for personnel with authorized electronic or authorized unescorted physical access.",
+    "Requirement R2 requires a role based training program covering nine topics, completed before authorized access is granted (Part 2.2) and at least once every 15 calendar months (Part 2.3).",
+    "Training sits alongside personnel risk assessments with a seven year criminal history records check, quarterly access verification, and removal of access within 24 hours of a termination action.",
+    "Entities must retain evidence of each requirement for three calendar years unless their Compliance Enforcement Authority directs otherwise.",
+    "FERC Order No. 919 approved CIP-004-8, effective May 26, 2026. Under NERC's implementation plan it becomes enforceable on the first day of the first calendar quarter 24 months after approval, so CIP-004-7 remains the operative version as at November 2026."
+  ],
+  "jurisdiction": "United States (federal)",
+  "regulator": "North American Electric Reliability Corporation (NERC), with oversight by the Federal Energy Regulatory Commission (FERC)",
+  "appliesTo": [
+    "Balancing Authorities, Generator Operators, Generator Owners, Reliability Coordinators, Transmission Operators and Transmission Owners",
+    "Distribution Providers that own specified protection or restoration systems, such as UFLS or UVLS systems of 300 MW or more, Remedial Action Schemes and Cranking Paths",
+    "Employees, contractors and vendors with authorized electronic access or authorized unescorted physical access to high or medium impact BES Cyber Systems and their associated EACMS and PACS"
+  ],
+  "sections": [
+    {
+      "id": "what-cip-004-is",
+      "heading": "What is CIP-004 and who must comply?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CIP-004 is the personnel and training standard in NERC's Critical Infrastructure Protection family. Its stated purpose is to minimize the risk of compromise that could lead to misoperation or instability in the Bulk Electric System (BES) from individuals accessing BES Cyber Systems, by requiring personnel risk assessment, training, security awareness and access management."
+        },
+        {
+          "type": "p",
+          "text": "The [CIP-004-7 standard](https://www.nerc.com/pa/Stand/Reliability%20Standards/CIP-004-7.pdf) applies to Balancing Authorities, Generator Operators and Owners, Reliability Coordinators, Transmission Operators and Owners, and Distribution Providers that own certain protection and restoration systems. Entities that identify no high or medium impact BES Cyber Systems under CIP-002 are exempt, as are nuclear systems regulated by the Nuclear Regulatory Commission under 10 CFR 73.54 and facilities regulated by the Canadian Nuclear Safety Commission."
+        },
+        {
+          "type": "callout",
+          "title": "Currency",
+          "text": "This page reflects CIP-004-7 and the FERC approved CIP-004-8 text published by NERC, and FERC Order No. 919 published in the Federal Register on March 24, 2026, as at November 2026. Confirm enforcement dates with NERC's US effective dates listing and your Regional Entity."
+        }
+      ]
+    },
+    {
+      "id": "security-awareness",
+      "heading": "What does the quarterly security awareness requirement involve?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Requirement R1 Part 1.1 requires security awareness that, at least once each calendar quarter, reinforces cyber security practices for personnel who have authorized electronic or authorized unescorted physical access to high or medium impact BES Cyber Systems. The standard notes that this may include associated physical security practices."
+        },
+        {
+          "type": "p",
+          "text": "Awareness is not the same as training under CIP-004. The measures column accepts direct communications such as emails, memos and computer based training, indirect communications such as posters, intranet pages and brochures, and management reinforcement through presentations or meetings. What the auditor needs is dated copies of the material and evidence it was distributed to the in-scope population in that quarter."
+        },
+        {
+          "type": "p",
+          "text": "The quarter boundary is strict. The violation severity levels in CIP-004-7 grade a missed quarter by how many days late the reinforcement was delivered into the next quarter, so a program scheduled for the last week of each quarter has little margin."
+        }
+      ]
+    },
+    {
+      "id": "training-program",
+      "heading": "What must the CIP-004 cyber security training program cover?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Requirement R2 requires one or more cyber security training programs appropriate to individual roles, functions or responsibilities. It applies to high impact BES Cyber Systems and to medium impact BES Cyber Systems with External Routable Connectivity, together with their associated Electronic Access Control or Monitoring Systems (EACMS) and Physical Access Control Systems (PACS). Part 2.1 lists the required content:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Cyber security policies.",
+            "Physical access controls.",
+            "Electronic access controls.",
+            "The visitor control program.",
+            "Handling of BES Cyber System Information and its storage.",
+            "Identification of a Cyber Security Incident and initial notifications in accordance with the entity's incident response plan.",
+            "Recovery plans for BES Cyber Systems.",
+            "Response to Cyber Security Incidents.",
+            "Cyber security risks associated with a BES Cyber System's electronic interconnectivity and interoperability with other Cyber Assets, including Transient Cyber Assets, and with Removable Media."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "\"Appropriate to individual roles\" means one generic module rarely satisfies an auditor. A substation technician who carries a laptop into a control house needs depth on Transient Cyber Assets and Removable Media, while a control center operator needs depth on incident identification and recovery plans. A [role based training](/glossary/role-based-training) design maps each topic to the roles where it carries risk."
+        }
+      ]
+    },
+    {
+      "id": "timing",
+      "heading": "When must CIP-004 training be completed?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training must be completed before authorized electronic access and authorized unescorted physical access are granted, and then at least once every 15 calendar months. Part 2.2 allows one exception to the before-access rule: CIP Exceptional Circumstances, which must be documented when invoked."
+        },
+        {
+          "type": "p",
+          "text": "The 15 calendar month interval gives a three month buffer over an annual cycle, which many utilities use to run an annual campaign without breaching the requirement when individuals complete late. The interval runs per person, so entities typically track each individual's last completion date and remove or suspend access before the 15 month limit is reached. The guide on [setting refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles) compares fixed and rolling approaches."
+        }
+      ]
+    },
+    {
+      "id": "related-personnel-controls",
+      "heading": "How does training connect to the other CIP-004 personnel controls?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training is one of four gates on access, and auditors usually test them together. Requirement R3 requires a personnel risk assessment program that includes identity confirmation and a seven year criminal history records check covering current residence and other locations lived in during the previous seven years. Requirement R4 requires access to be authorized, with verification at least once each calendar quarter that individuals with active access have authorization records, and a 15 calendar month verification of user accounts and privileges."
+        },
+        {
+          "type": "p",
+          "text": "Requirement R5 Part 5.1 requires a process to initiate removal of an individual's ability for unescorted physical access and Interactive Remote Access upon a termination action, completing the removals within 24 hours. A training lapse that is not tied to access revocation leaves a gap between what the training record says and who can actually reach the systems."
+        }
+      ]
+    },
+    {
+      "id": "obligation-map",
+      "heading": "How do CIP-004 obligations map to roles, frequency and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The table below is an original mapping of CIP-004-7 training and related requirements to the population they apply to, their timing, and the evidence a Regional Entity audit team would expect. It is illustrative and does not replace the measures in the standard."
+        },
+        {
+          "type": "table",
+          "caption": "CIP-004-7 training related requirements by population, timing and evidence (illustrative)",
+          "head": ["Requirement", "Population", "Frequency", "Evidence an auditor expects"],
+          "rows": [
+            ["R1 Part 1.1 security awareness", "Everyone with authorized electronic or unescorted physical access to high or medium impact systems", "At least once each calendar quarter", "Dated copies of awareness material and proof of distribution in each quarter"],
+            ["R2 Part 2.1 training content", "Personnel with access to high impact systems and medium impact systems with ERC, plus associated EACMS and PACS", "Program level", "Training materials mapped to topics 2.1.1 to 2.1.9 and to roles"],
+            ["R2 Part 2.2 before access", "Same population as Part 2.1", "Before access is granted", "Training completion dates earlier than access grant dates; CIP Exceptional Circumstances log"],
+            ["R2 Part 2.3 recurrence", "Same population as Part 2.1", "At least once every 15 calendar months", "Dated individual training records for every person on the access list"],
+            ["R3 personnel risk assessment", "Individuals seeking or holding access", "Before access, then per the entity's program", "Identity confirmation and seven year criminal history check records"],
+            ["R5 Part 5.1 revocation", "Individuals subject to a termination action", "Within 24 hours of the termination action", "Dated workflow or sign-off and logs showing access removal"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The most common audit test reconciles the access list against the training records on a sample date. The guide on [preparing training records for an audit](/guides/how-to-prepare-training-records-for-an-audit) describes how to keep those two data sets aligned."
+        }
+      ]
+    },
+    {
+      "id": "cip-004-8",
+      "heading": "What changes under CIP-004-8, and when does it take effect?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CIP-004-8 keeps the same training cadence but widens the systems in scope. FERC approved it as one of 11 modified CIP standards in [Order No. 919 on virtualization](https://www.federalregister.gov/documents/2026/03/24/2026-05716/order-no-919-virtualization-reliability-standards), issued March 19, 2026 and effective May 26, 2026. The [CIP-004-8 text](https://www.nerc.com/pa/Stand/Reliability%20Standards/CIP-004-8.pdf) adds Shared Cyber Infrastructure supporting an applicable system to the quarterly awareness and training parts, and extends the training parts to medium impact BES Cyber Systems with Interactive Remote Access."
+        },
+        {
+          "type": "p",
+          "text": "Order No. 919 records that NERC's implementation plan makes the standards effective on the later of April 1, 2026 or the first day of the first calendar quarter that is 24 months after the governmental approval, with optional early adoption. On that formula, CIP-004-8 is not enforceable in the United States before mid 2028. Entities planning virtualization projects should map the new in-scope populations now, because their training must be complete before access once the new version applies."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps the nine CIP-004 training topics to the roles and system categories each applies to, and links each role to the assessment points that show the person can apply the entity's own cyber security procedures. When CIP-004-8 brings new systems into scope, the newly affected roles can be identified from the framework. See the context for [energy and resources organizations](/industries/energy-resources)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is annual CIP-004 training enough?",
+      "a": "An annual campaign is compliant if every individual completes within 15 calendar months of their previous completion, because Part 2.3 sets the interval at 15 calendar months, not 12. Problems arise when late completers are not tracked individually and their interval runs past 15 months while their access remains active."
+    },
+    {
+      "q": "Does CIP-004 apply to low impact BES Cyber Systems?",
+      "a": "No. CIP-004-7 applies to high impact and medium impact BES Cyber Systems, and the role based training parts apply only to high impact systems and medium impact systems with External Routable Connectivity. Section 4.2.3 of the standard exempts entities that identify no high or medium impact BES Cyber Systems through the CIP-002 categorization process. Low impact obligations are set elsewhere in the CIP family."
+    },
+    {
+      "q": "Do contractors and vendors need CIP-004 training?",
+      "a": "Yes, if they have authorized electronic access or authorized unescorted physical access to applicable systems. The requirements attach to the access, not to employment status, so contractors and vendor personnel need the same awareness, training, risk assessment and revocation controls as employees with equivalent access."
+    },
+    {
+      "q": "How long must CIP-004 training evidence be kept?",
+      "a": "The standard's compliance section requires the entity to retain evidence of each requirement for three calendar years, unless its Compliance Enforcement Authority directs a longer period as part of an investigation. If the retention period is shorter than the time since the last audit, the auditor may ask for other evidence covering the full period."
+    }
+  ],
+  "sources": [
+    {
+      "title": "CIP-004-7 Cyber Security: Personnel and Training",
+      "publisher": "North American Electric Reliability Corporation",
+      "url": "https://www.nerc.com/pa/Stand/Reliability%20Standards/CIP-004-7.pdf"
+    },
+    {
+      "title": "CIP-004-8 Cyber Security: Personnel and Training",
+      "publisher": "North American Electric Reliability Corporation",
+      "url": "https://www.nerc.com/pa/Stand/Reliability%20Standards/CIP-004-8.pdf"
+    },
+    {
+      "title": "Order No. 919; Virtualization Reliability Standards (91 FR 13957)",
+      "publisher": "Federal Energy Regulatory Commission, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/03/24/2026-05716/order-no-919-virtualization-reliability-standards"
+    }
+  ],
+  "related": [
+    "nist-sp-800-50-security-awareness-training",
+    "cmmc-security-awareness-training",
+    "osha-process-safety-management-training-requirements",
+    "role-based-training",
+    "how-to-set-mandatory-training-refresh-cycles",
+    "how-to-prepare-training-records-for-an-audit"
+  ],
+  "productLinks": [
+    { "label": "Energy and resources", "href": "/industries/energy-resources" },
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" },
+    { "label": "Compliance programs", "href": "/programs/compliance" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 13,
+  "factCheck": [
+    { "claim": "CIP-004-7 R1 Part 1.1 requires security awareness that at least once each calendar quarter reinforces cyber security practices for personnel with authorized electronic or authorized unescorted physical access", "source": "https://www.nerc.com/pa/Stand/Reliability%20Standards/CIP-004-7.pdf" },
+    { "claim": "CIP-004-7 R2 Part 2.1 lists nine training topics; Part 2.2 requires completion before granting access except during CIP Exceptional Circumstances; Part 2.3 requires completion at least once every 15 calendar months", "source": "https://www.nerc.com/pa/Stand/Reliability%20Standards/CIP-004-7.pdf" },
+    { "claim": "CIP-004-7 R3 Part 3.2 requires a seven year criminal history records check; R5 Part 5.1 requires access removal within 24 hours of a termination action", "source": "https://www.nerc.com/pa/Stand/Reliability%20Standards/CIP-004-7.pdf" },
+    { "claim": "CIP-004-7 requires evidence of each requirement to be retained for three calendar years; FERC approved CIP-004-7 on December 7, 2021 in Docket RD21-6-000", "source": "https://www.nerc.com/pa/Stand/Reliability%20Standards/CIP-004-7.pdf" },
+    { "claim": "Order No. 919 approved 11 modified CIP standards including CIP-004-8, issued March 19, 2026 and effective May 26, 2026; NERC's implementation plan sets effectiveness at the later of April 1, 2026 or the first day of the first calendar quarter 24 months after approval", "source": "https://www.federalregister.gov/documents/2026/03/24/2026-05716/order-no-919-virtualization-reliability-standards" },
+    { "claim": "CIP-004-8 adds Shared Cyber Infrastructure to Parts 1.1 and 2.1 to 2.3 and adds medium impact BCS with Interactive Remote Access to the training parts, keeping the quarterly and 15 calendar month intervals", "source": "https://www.nerc.com/pa/Stand/Reliability%20Standards/CIP-004-8.pdf" }
+  ]
+}
