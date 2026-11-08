@@ -1,0 +1,190 @@
+{
+  "slug": "how-to-prepare-training-evidence-for-a-soc-2-audit",
+  "kind": "guide",
+  "title": "How do you prepare training evidence for a SOC 2 audit?",
+  "seoTitle": "SOC 2 audit training evidence",
+  "description": "How training maps to the SOC 2 trust services criteria CC1.4 and CC2.2, what a type 2 examination tests over the period, and an evidence checklist.",
+  "shortAnswer": "To prepare training evidence for a SOC 2 audit, write training controls that map to the trust services criteria CC1.4 (competence) and CC2.2 (internal communication, including security awareness), state who is trained, on what, and how often, and keep evidence for every occurrence across the examination period. In a type 2 SOC 2 engagement the service auditor gives an opinion on operating effectiveness throughout a specified period and describes the tests performed, so gaps in any month can become exceptions.",
+  "keyTakeaways": [
+    "SOC 2 examinations use the AICPA 2017 Trust Services Criteria with revised points of focus (2022); training sits mainly under CC1.4 and CC2.2.",
+    "CC2.2 includes a point of focus on communicating security knowledge and awareness through a security awareness training program; CC1.4 includes training to maintain technical competencies of personnel, contractors, and vendor employees.",
+    "A type 2 report includes an opinion on operating effectiveness throughout a specified period and a detailed description of the service auditor's tests and results; a type 1 report contains neither.",
+    "Points of focus are not a checklist: the criteria do not require an assessment of whether each point of focus is addressed, but your control descriptions must still be testable.",
+    "The AICPA proposed updated SOC 2 criteria on October 28, 2026, with a proposed effective date of December 31, 2027, so current examinations still use the 2017 criteria."
+  ],
+  "sections": [
+    {
+      "id": "where-training-fits",
+      "heading": "Where does training fit in the SOC 2 criteria?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training fits mainly under two common criteria in the AICPA [2017 Trust Services Criteria](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022), which are aligned to the 17 principles of the COSO 2013 internal control framework. The obligations are explained on the [SOC 2 security awareness training page](/regulations/soc-2-security-awareness-training)."
+        },
+        {
+          "type": "table",
+          "caption": "Trust services criteria that training evidence supports",
+          "head": ["Criterion", "Text (COSO principle)", "Training related points of focus"],
+          "rows": [
+            ["CC1.4", "The entity demonstrates a commitment to attract, develop, and retain competent individuals in alignment with objectives (COSO Principle 4)", "Provides the mentoring and training needed; evaluates competence and addresses shortcomings; provides training programs, including continuing education, so skill sets and technical competency of personnel, contractors, and vendor employees are developed and maintained"],
+            ["CC2.2", "The entity internally communicates information, including objectives and responsibilities for internal control (COSO Principle 14)", "Communicates responsibilities to personnel who operate controls; tells personnel how to report failures and incidents; communicates information to improve security knowledge and awareness through a security awareness training program"],
+            ["CC1.5", "The entity holds individuals accountable for their internal control responsibilities (COSO Principle 5)", "Supports enforcement when training or policy requirements are not met"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The criteria document states that using the trust services criteria does not require an assessment of whether each point of focus is addressed. In practice, though, auditors test the controls you describe, so a vague control such as \"staff receive training\" is harder to evidence than a specific one."
+        }
+      ]
+    },
+    {
+      "id": "what-the-auditor-tests",
+      "heading": "What does the service auditor test for training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The service auditor tests whether your described training controls were suitably designed and, in a type 2 engagement, whether they operated effectively throughout the period. The AICPA criteria document describes a type 2 SOC 2 engagement as covering \"the suitability of design and operating effectiveness of controls\" throughout a specified period, and says the report includes \"a detailed description of tests of controls performed by the service auditor and the results of those tests.\""
+        },
+        {
+          "type": "callout",
+          "title": "Type 1 and type 2",
+          "text": "A type 1 SOC 2 engagement addresses the same subject matter as a type 2 but does not contain an opinion on the operating effectiveness of controls, nor a detailed description of tests and results. Training evidence for a type 1 shows the control exists and is designed well; for a type 2 it must also show the control ran as described for the whole period."
+        },
+        {
+          "type": "p",
+          "text": "Because tests and results are described in a type 2 report, the auditor needs population data and evidence for each occurrence they select. For training, that typically means a list of people in scope during the period, their start and end dates, and proof that each control (onboarding training, annual refresher, policy acknowledgment) happened for the people sampled."
+        }
+      ]
+    },
+    {
+      "id": "write-testable-controls",
+      "heading": "How should training controls be written?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Write each training control so that an outsider can test it: who it applies to, what training, the timing, the evidence produced, and who follows up exceptions. The examples below are illustrative wording, not AICPA text."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative SOC 2 training controls and the evidence each produces",
+          "head": ["Illustrative control", "Criterion", "Evidence for each occurrence"],
+          "rows": [
+            ["New personnel and contractors complete security awareness training within a defined number of days of their start date", "CC2.2", "Learning system completion record with date, compared with the start date from the HR system"],
+            ["All personnel complete security awareness refresher training annually", "CC2.2", "Completion report for the period, with follow-up records for overdue people"],
+            ["Personnel acknowledge the information security policy at hire and annually", "CC2.2, CC1.5", "Signed or system recorded acknowledgments with dates and policy version"],
+            ["Engineers with production access complete role specific secure development or operations training", "CC1.4", "Role roster, completion records, and content version"],
+            ["Management reviews training completion and escalates non-completion", "CC1.5", "Review evidence such as meeting notes or tickets, and actions taken"],
+            ["Phishing simulations are run and results reviewed, with targeted follow-up training", "CC2.2", "Campaign reports and follow-up assignments"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Set realistic timeframes you can meet every time; a control that promises training on the first day will produce exceptions if it actually takes a week. For simulation design, see [how to design a phishing simulation program](/guides/how-to-design-a-phishing-simulation-program)."
+        }
+      ]
+    },
+    {
+      "id": "evidence-checklist",
+      "heading": "What evidence should be ready for the auditor?",
+      "blocks": [
+        {
+          "type": "ol",
+          "items": [
+            "The training and awareness policy, and the system description text that covers training.",
+            "A complete population of employees and contractors in scope for the period, with start, end, and role change dates from a system of record.",
+            "Completion records for each training control, exportable for any sample the auditor picks, with timestamps.",
+            "Training content with version history, so you can show what was taught during the period. See [version control for training content](/guides/how-to-maintain-version-control-for-training-content).",
+            "Evidence for contractors and vendor employees where your controls include them, since CC1.4 points of focus name contractors and vendor employees.",
+            "Records of how overdue training was followed up, and any disciplinary or access consequences under CC1.5.",
+            "Role specific training records for teams that operate key controls, such as access reviews and incident response."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avoiding-exceptions",
+      "heading": "How do you avoid training exceptions in a type 2 report?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most training exceptions come from people who started, changed roles, or left during the period and were missed, so reconcile the training system with the HR system monthly rather than once before fieldwork."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Run a monthly report of new starters without completed onboarding training and chase them before the deadline in your control.",
+            "Include contractors in the same reconciliation if your control covers them.",
+            "Keep exception follow-up evidence: an exception that was detected and corrected by your own monitoring is easier to explain than one the auditor finds.",
+            "Do not change the control wording mid-period without documenting the change and its effective date."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "upcoming-criteria-changes",
+      "heading": "Are the SOC 2 criteria changing?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yes, but not yet in force. On October 28, 2026 the AICPA announced a proposed update to the SOC 2 trust services criteria, with comments due January 15, 2027 and a proposed effective date of December 31, 2027 with early adoption allowed. The proposal includes AI governance topics. Until a final version is effective, examinations use the 2017 criteria with revised points of focus (2022). Comparable expectations for security awareness appear in [ISO/IEC 27001](/regulations/iso-27001-awareness-training-requirements) and [NIST SP 800-50](/regulations/nist-sp-800-50-security-awareness-training)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links security policies and control responsibilities to role based training and assessment items, and keeps version history for each, so a SOC 2 sample can be traced to the exact content a person completed during the period. See [audit evidence](/platform/audit-evidence) and [integrations](/platform/integrations)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does SOC 2 require annual security awareness training?",
+      "a": "The trust services criteria do not set a frequency. CC2.2 includes a point of focus on a security awareness training program, and many organizations commit to annual training in their own controls. Once you describe a frequency in your control, the auditor tests against that frequency."
+    },
+    {
+      "q": "Do contractors need SOC 2 training evidence?",
+      "a": "If your controls cover them. The CC1.4 points of focus on technical competency and training refer to personnel, contractors, and vendor employees, so auditors may ask how contractors with system access are trained and how you know they completed it."
+    },
+    {
+      "q": "What is the difference between type 1 and type 2 for training evidence?",
+      "a": "A type 1 report addresses design without an opinion on operating effectiveness or a detailed description of tests. A type 2 report includes an opinion on operating effectiveness throughout a specified period, with the auditor's tests and results, so you need evidence for each occurrence across the period."
+    },
+    {
+      "q": "Can the SOC 2 auditor rely on our learning system reports?",
+      "a": "Expect the auditor to ask how a report was produced before using it to select samples. Be ready to show how a report was produced, its parameters, and how it reconciles to your HR records, so the population used for sampling is complete."
+    }
+  ],
+  "sources": [
+    { "title": "2017 Trust Services Criteria for Security, Availability, Processing Integrity, Confidentiality, and Privacy (With Revised Points of Focus 2022)", "publisher": "AICPA and CIMA", "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022" },
+    { "title": "TSP Section 100, 2017 Trust Services Criteria (March 2020 version, archived copy of the AICPA file)", "publisher": "AICPA (via Internet Archive)", "url": "https://web.archive.org/web/20230905175109id_/https://us.aicpa.org/content/dam/aicpa/interestareas/frc/assuranceadvisoryservices/downloadabledocuments/trust-services-criteria-2020.pdf" },
+    { "title": "AICPA Proposes Update of SOC 2 Trust Services Criteria to Enhance the Relevance, Usability and Value of CPAs' Reports", "publisher": "AICPA and CIMA", "url": "https://www.aicpa-cima.com/news/article/aicpa-proposes-update-of-soc-2-r-trust-services-criteria-to-enhance-the-relevance-usability-and-value-of-cpas-reports" },
+    { "title": "SOC 2 Reporting on an Examination of Controls at a Service Organization Relevant to Security, Availability, Processing Integrity, Confidentiality, or Privacy", "publisher": "AICPA and CIMA", "url": "https://www.aicpa-cima.com/cpe-learning/publication/soc-2-reporting-on-an-examination-of-controls-at-a-service-organization-relevant-to-security-availability-processing-integrity-confidentiality-or-privacy" },
+    { "title": "Achieving Effective Internal Control over Sustainability Reporting (quotes COSO ICIF 2013 principles 4 and 14)", "publisher": "Committee of Sponsoring Organizations of the Treadway Commission (COSO)", "url": "https://www.coso.org/_files/ugd/3059fc_a3a66be7a48c47e1a285cef0b1f64c92.pdf" }
+  ],
+  "related": [
+    "soc-2-security-awareness-training",
+    "iso-27001-awareness-training-requirements",
+    "nist-sp-800-50-security-awareness-training",
+    "how-to-design-a-phishing-simulation-program",
+    "how-to-build-a-training-matrix-for-a-saas-company",
+    "how-to-maintain-version-control-for-training-content"
+  ],
+  "productLinks": [
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" },
+    { "label": "Integrations", "href": "/platform/integrations" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "Current criteria title: 2017 TSC with Revised Points of Focus 2022 (reused from SOC 2 page factCheck).", "source": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022" },
+    { "claim": "Type 2 SOC 2 engagement covers suitability of design and operating effectiveness throughout a specified period and includes detailed description of tests and results; type 1 has neither opinion on operating effectiveness nor description of tests (TSP 100 text, March 2020 version).", "source": "https://web.archive.org/web/20230905175109id_/https://us.aicpa.org/content/dam/aicpa/interestareas/frc/assuranceadvisoryservices/downloadabledocuments/trust-services-criteria-2020.pdf" },
+    { "claim": "CC1.4 text and points of focus (Evaluates Competence and Addresses Shortcomings; Attracts, Develops, and Retains Individuals; Provides Training to Maintain Technical Competencies for personnel, contractors and vendor employees); CC1.5 text; CC2.2 text and points of focus (Communicates Responsibilities; Communicates Information on Reporting Failures; Communicates Information to Improve Security Knowledge and Awareness through a security awareness training program); TSC aligned to 17 COSO principles; points of focus assessment not required.", "source": "https://web.archive.org/web/20230905175109id_/https://us.aicpa.org/content/dam/aicpa/interestareas/frc/assuranceadvisoryservices/downloadabledocuments/trust-services-criteria-2020.pdf" },
+    { "claim": "AICPA proposed SOC 2 TSC update October 28, 2026; comments due January 15, 2027; proposed effective December 31, 2027 with early adoption; includes AI governance (reused from SOC 2 page factCheck).", "source": "https://www.aicpa-cima.com/news/article/aicpa-proposes-update-of-soc-2-r-trust-services-criteria-to-enhance-the-relevance-usability-and-value-of-cpas-reports" }
+  ]
+}

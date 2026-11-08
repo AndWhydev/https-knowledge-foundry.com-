@@ -1,0 +1,203 @@
+{
+  "slug": "how-to-respond-to-a-regulator-request-for-training-records",
+  "kind": "guide",
+  "title": "How do you respond to a regulator request for training records?",
+  "seoTitle": "Responding to a training records request",
+  "description": "A cross regulator method for answering a request for training records: confirm scope, extract and verify data, index the evidence, and avoid common mistakes.",
+  "shortAnswer": "To respond to a regulator request for training records, log the request and confirm its scope, legal basis, and deadline; extract the records from the system of record with a documented, tested query; check the extract against your staff list for completeness; provide only relevant documents, indexed and in a usable format; and keep a copy of exactly what was sent. Never alter or recreate historical records: regulators treat falsified records as among the most serious findings.",
+  "keyTakeaways": [
+    "Regulators expect records to be produced promptly: for example, FDA investigators may cite unexplained delays in producing drug or device records, and US OSHA injury and illness records must be provided within four business hours.",
+    "Requests can arrive before an inspection, as with FDA records requests under section 704(a)(4), or during and after one, so a tested retrieval process matters more than a one-off scramble.",
+    "Inspectors increasingly test the extraction itself: FDA investigators are told to assume a firm's custom query logic is not validated and to check no data has been omitted.",
+    "Organized, relevant evidence shortens the process; the Australian Skills Quality Authority (ASQA) asks for an index above 20 documents and warns that large packages of irrelevant material extend resolution.",
+    "Falsification of records is classed as a critical deficiency in PIC/S guidance and named as a priority risk by ASQA, so gaps must be disclosed and remediated, never backfilled."
+  ],
+  "sections": [
+    {
+      "id": "what-regulators-ask-for",
+      "heading": "What do regulators usually ask for?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Regulators usually ask for one of three things: the training history of named people linked to an observation or incident, a population level report showing who in a role has completed required training, or the program documents behind the records, such as the training procedure, matrix, and content. The request may come before, during, or after an inspection, audit, or assessment."
+        },
+        {
+          "type": "table",
+          "caption": "Examples of how regulators request and use training records",
+          "head": ["Regulator (example)", "How records are requested", "What the published procedure emphasizes"],
+          "rows": [
+            ["US Food and Drug Administration", "During inspection, or in advance under section 704(a)(4) of the Federal Food, Drug, and Cosmetic Act", "Investigators have firm staff run specific queries, ask for the parameters, and check no data was omitted ([FDA inspection guide](/guides/how-to-prepare-training-records-for-an-fda-inspection))"],
+            ["US Occupational Safety and Health Administration", "At the opening conference and during the inspection", "Program and record review alongside private employee interviews ([OSHA inspection guide](/guides/how-to-prepare-for-an-osha-inspection-of-training))"],
+            ["Australian Skills Quality Authority", "Email information requests after the opening meeting; uploads through asqanet", "Relevant, organized, accessible evidence with an index ([ASQA audit guide](/guides/how-to-prepare-for-an-asqa-audit))"],
+            ["AUSTRAC (Australia)", "During supervision and compliance assessments", "Records reasonably necessary to demonstrate compliance, kept in original format ([AUSTRAC guide](/guides/how-to-prepare-for-an-austrac-compliance-assessment))"],
+            ["Certification bodies (ISO)", "Sampling during stage 2, surveillance, and recertification audits", "Organization provides objective evidence; auditors sample and interview ([ISO audit guide](/guides/how-to-prepare-training-evidence-for-an-iso-certification-audit))"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-fast",
+      "heading": "How quickly do you have to respond?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "As fast as the regulator's rules or the request specify, and without unexplained delay. Some deadlines are fixed in rules and some are set in the request, so confirm the deadline in writing at the start."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**FDA:** the [Investigations Operations Manual](https://www.fda.gov/media/166533/download?attachment) says that if a drug or device firm delays producing records without a reasonable explanation, such as needing time to compile a large volume or translate records, the investigator may call attention to section 501(j) of the Act. Drug CGMP records must be readily available for authorized inspection under 21 CFR 211.180(c).",
+            "**OSHA:** the [Field Operations Manual](https://www.osha.gov/fom/chapter-3) notes that 29 CFR 1904.40(a) requires injury and illness records within four business hours of a request. Training records under the bloodborne pathogens standard must be made available on request to employees, their representatives, and OSHA.",
+            "**Feedback windows:** some regulators set short periods to respond after an assessment, such as ASQA's 20 day rectification period and the 10 working days NSW gives early childhood providers to comment on a draft assessment and rating report."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "If you cannot meet a deadline because of volume, translation, or system limits, say so early, explain why, and propose a date. A reasoned explanation is treated differently from silence in the FDA procedure above."
+        }
+      ]
+    },
+    {
+      "id": "step-by-step-response",
+      "heading": "What is the step by step response method?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use the same method for every regulator so the response is consistent and defensible. This is an original procedure built from the published expectations cited on this page."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Log the request.** Record who asked, when, the exact wording, the legal basis if stated, and the deadline. Route it to one accountable coordinator.",
+            "**Confirm scope.** Clarify which people, roles, sites, time period, and training topics are covered. Ask rather than guess; over-production slows review and can expose unrelated issues.",
+            "**Extract from the system of record.** Run a saved, tested query and record its parameters. FDA investigators are told to assume query logic is unvalidated, so be ready to show how the extract was produced.",
+            "**Verify completeness.** Reconcile the extract against an independent list, such as HR records of everyone in the role during the period, and explain any differences.",
+            "**Attach the substance, not just the completion.** Where relevant, include the content version, assessment result, and trainer for each record, because regulators test whether training was effective, not only delivered.",
+            "**Review before release.** Check for personal data beyond what was asked, legal privilege where it applies, and accuracy. A second person should review the pack.",
+            "**Organize and index.** Name files clearly, keep one document per file, and add an index. ASQA's evidence guide asks for an index above 20 documents and page references in long documents.",
+            "**Use an accepted channel and format.** ASQA cannot open file sharing links other than its own; AUSTRAC expects records kept in original format, such as a spreadsheet kept as a spreadsheet.",
+            "**Keep a copy of exactly what was sent.** Record the date, recipient, and contents of each submission.",
+            "**Track follow-up.** Log any further questions and the corrective actions you commit to, with owners and dates."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "handling-gaps",
+      "heading": "What if the records show a gap?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Disclose the gap, explain it, and show what you are doing about it; never fill it by creating or editing historical records. Regulators treat record falsification as far more serious than a training gap."
+        },
+        {
+          "type": "callout",
+          "title": "How regulators view falsified records",
+          "text": "The PIC/S Guidance on Classification of GMP Deficiencies states that a critical deficiency also occurs when a manufacturer \"has engaged in fraud, misrepresentation or falsification of products or data.\" ASQA's current risk priority on integrity of qualifications names \"Falsification of training, assessment and administrative records\" as a key focus."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Record the gap with dates and the people affected.",
+            "Assess impact: did anyone perform the task untrained, and with what consequence?",
+            "Remediate with training and an effectiveness check, dated when it actually happened.",
+            "Fix the cause, such as a missing matrix entry or an onboarding step that was skipped. See [how to run a training gap analysis](/guides/how-to-run-a-training-gap-analysis)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "standing-readiness",
+      "heading": "How do you make future requests easy to answer?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Build the ability to answer a request before one arrives: a current role based training matrix, records that link each completion to a content version and assessment, tested queries, and a retention schedule that keeps records for as long as each regulator requires."
+        },
+        {
+          "type": "table",
+          "caption": "Standing readiness checklist (illustrative)",
+          "head": ["Capability", "Why it matters", "Test it by"],
+          "rows": [
+            ["Role to training matrix", "Defines the population a regulator will test against", "Picking a role and listing everyone who should be trained"],
+            ["Linked records", "Answers what version a person was trained on and how competence was checked", "Tracing one person from role to content version to assessment"],
+            ["Saved, tested queries", "Speeds extraction and supports the integrity of the data produced", "Running each query and reconciling to HR data quarterly"],
+            ["Retention schedule", "Records must exist for the full period each rule requires", "Comparing it with [how long to keep training records](/guides/how-long-to-keep-training-records)"],
+            ["Named coordinator and procedure", "Avoids confused or inconsistent answers", "A mock request with a short deadline"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The general preparation method is in [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit), and the record design concepts are in [audit trail](/glossary/audit-trail)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry keeps obligations, roles, content versions, and assessment evidence linked in one framework, so a records request can be answered by tracing the relationships rather than assembling spreadsheets under deadline. See [audit evidence](/platform/audit-evidence) and [knowledge governance](/platform/knowledge-governance)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should we send everything we have to be safe?",
+      "a": "No. Send what is requested, organized and indexed. ASQA, for example, says large packages of irrelevant material extend the resolution process. If the scope is unclear, ask the regulator to clarify rather than guessing broadly."
+    },
+    {
+      "q": "Can we let the inspector query our learning system directly?",
+      "a": "Follow the regulator's procedure. FDA's Investigations Operations Manual generally tells investigators not to access a firm's systems themselves, except in defined situations, and instead to oversee firm staff running queries and to request the parameters and a secure copy of the data."
+    },
+    {
+      "q": "What if a record is missing for someone who left years ago?",
+      "a": "Check whether the record was still within its required retention period. If it was and is missing, disclose that, explain what happened, and describe how retention controls have been fixed. Do not recreate the record."
+    },
+    {
+      "q": "Who should sign off a response to a regulator?",
+      "a": "A named person accountable for compliance, usually in quality, risk, or legal, after a second person has reviewed the pack for scope, accuracy, and personal data. Keep the approval with the copy of what was sent."
+    }
+  ],
+  "sources": [
+    { "title": "Investigations Operations Manual 2026, Chapter 5: Inspections", "publisher": "US Food and Drug Administration", "url": "https://www.fda.gov/media/166533/download?attachment" },
+    { "title": "21 CFR Part 211, Subpart J: Records and Reports", "publisher": "Electronic Code of Federal Regulations (eCFR)", "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-J" },
+    { "title": "Field Operations Manual, Chapter 3: Inspection Procedures", "publisher": "Occupational Safety and Health Administration", "url": "https://www.osha.gov/fom/chapter-3" },
+    { "title": "29 CFR 1910.1030 Bloodborne pathogens", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030" },
+    { "title": "Guide to submitting evidence to ASQA", "publisher": "Australian Skills Quality Authority", "url": "https://www.asqa.gov.au/sites/default/files/2026-03/Guide%20to%20submitting%20evidence%20to%20ASQA.pdf" },
+    { "title": "Performance assessment decisions", "publisher": "Australian Skills Quality Authority", "url": "https://www.asqa.gov.au/for-providers/performance-assessment/performance-assessment-decisions" },
+    { "title": "Risk priority: Integrity of qualifications and competency outcomes", "publisher": "Australian Skills Quality Authority", "url": "https://www.asqa.gov.au/about-us/how-we-regulate/risk-priorities/risk-priority-integrity-of-qualifications-and-competency-outcomes" },
+    { "title": "Record keeping overview", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/develop-your-amlctf-programs/record-keeping/record-keeping-overview" },
+    { "title": "PIC/S Guidance on Classification of GMP Deficiencies (PI 040-1)", "publisher": "Pharmaceutical Inspection Co-operation Scheme (PIC/S)", "url": "https://picscheme.org/docview/2303" },
+    { "title": "ISO 9001 Auditing Practices Group Guidance on Evidence collection", "publisher": "ISO/TC 176 and International Accreditation Forum", "url": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-EvidenceCollection.pdf" },
+    { "title": "What happens following an assessment and rating visit", "publisher": "NSW Early Learning Commission (NSW Department of Education website)", "url": "https://education.nsw.gov.au/early-childhood-education/regulation-and-compliance/assessment-and-rating/what-happens-following-an-assessment-and-rating-visit" }
+  ],
+  "related": [
+    "how-long-to-keep-training-records",
+    "how-to-prepare-training-records-for-an-audit",
+    "how-to-prepare-training-records-for-an-fda-inspection",
+    "how-to-prepare-for-an-asqa-audit",
+    "audit-trail",
+    "how-to-run-a-training-gap-analysis"
+  ],
+  "productLinks": [
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" },
+    { "label": "Knowledge governance", "href": "/platform/knowledge-governance" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "FDA IOM: 704(a)(4) advance records request (5.10.2.1); delays producing records without reasonable explanation (compiling large volume, translation) may prompt 501(j) (5.5.2.3); query oversight, parameters, assume query logic not validated, ensure no data omitted (5.6.6.1); investigators generally do not personally access firm systems.", "source": "https://www.fda.gov/media/166533/download?attachment" },
+    { "claim": "211.180(c) records readily available for authorized inspection (reused from FDA GMP page factCheck).", "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-J" },
+    { "claim": "FOM Ch3: 1904.40(a) copies of recordkeeping records within four business hours of request.", "source": "https://www.osha.gov/fom/chapter-3" },
+    { "claim": "1910.1030(h)(3) training records availability on request (reused from bloodborne pathogens page factCheck).", "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030" },
+    { "claim": "ASQA evidence guide: relevant, organized, accessible; no external file sharing links; index above 20 documents; page numbers; one document per scan. Decisions page: large packages of irrelevant materials extend resolution; 20-day rectification. Risk priority: falsification of training, assessment and administrative records.", "source": "https://www.asqa.gov.au/sites/default/files/2026-03/Guide%20to%20submitting%20evidence%20to%20ASQA.pdf" },
+    { "claim": "AUSTRAC record keeping: records reasonably necessary to show compliance; keep records in original format (Excel as spreadsheet rather than PDF).", "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/develop-your-amlctf-programs/record-keeping/record-keeping-overview" },
+    { "claim": "PI 040-1 4.1: critical deficiency also occurs when manufacturer has engaged in fraud, misrepresentation or falsification of products or data.", "source": "https://picscheme.org/docview/2303" },
+    { "claim": "APG evidence collection: organization's responsibility to provide objective evidence; audit evidence based on samples.", "source": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-EvidenceCollection.pdf" },
+    { "claim": "NSW ECEC: approved providers have 10 working days to submit feedback on draft A&R report.", "source": "https://education.nsw.gov.au/early-childhood-education/regulation-and-compliance/assessment-and-rating/what-happens-following-an-assessment-and-rating-visit" }
+  ]
+}
