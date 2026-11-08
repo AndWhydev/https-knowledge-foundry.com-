@@ -1,0 +1,293 @@
+{
+  "slug": "pci-dss-security-awareness-training-requirements",
+  "kind": "regulation",
+  "title": "What security awareness training does PCI DSS v4.0.1 require?",
+  "seoTitle": "PCI DSS v4.0.1 awareness training",
+  "description": "PCI DSS v4.0.1 security awareness requirements 12.6.1 to 12.6.3.2: annual review, phishing and social engineering, and acceptable use, as at November 2026.",
+  "shortAnswer": "The Payment Card Industry Data Security Standard (PCI DSS) v4.0.1 requires a formal security awareness program under Requirement 12.6 that makes all personnel aware of the information security policy and their role in protecting cardholder data. The program must be reviewed at least every 12 months, and training must cover phishing, social engineering, other threats to the cardholder data environment, and acceptable use of end-user technologies. These additions have been mandatory since 31 March 2025.",
+  "keyTakeaways": [
+    "Requirement 12.6 states that \"Security awareness education is an ongoing activity.\" It has four training-related parts in v4: 12.6.1, 12.6.2, 12.6.3, and the sub-requirements 12.6.3.1 and 12.6.3.2.",
+    "Three of them were new in v4.0 and were best practice until 31 March 2025: the annual program review (12.6.2), threat awareness including phishing and social engineering (12.6.3.1), and acceptable use of end-user technologies (12.6.3.2). All three are now assessed as requirements.",
+    "Technical anti-phishing controls (Requirement 5.4.1) and phishing awareness training (12.6.3.1) are separate requirements. Meeting one does not meet the other.",
+    "PCI DSS v4.0.1, published in June 2024, added no new requirements and removed none. It has been the only active version since v4.0 was retired on 31 December 2024."
+  ],
+  "jurisdiction": "International industry standard (applies wherever payment card data is handled)",
+  "regulator": "PCI Security Standards Council (PCI SSC), which publishes the standard",
+  "appliesTo": [
+    "Merchants that accept payment cards, including e-commerce merchants that complete a Self-Assessment Questionnaire (SAQ)",
+    "Service providers that store, process, or transmit cardholder data or can affect its security",
+    "All personnel of those entities who are in scope for the security awareness program, including staff whose roles touch the cardholder data environment (CDE)"
+  ],
+  "sections": [
+    {
+      "id": "what-pci-dss-is",
+      "heading": "What is PCI DSS and which version applies as at November 2026?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PCI DSS is the payment card industry's data security standard, published by the PCI Security Standards Council (PCI SSC), and the version in force as at November 2026 is v4.0.1. It is a contractual industry standard rather than a law, so it applies across borders to any organization that handles payment card data, whether that organization is in the United States, the European Union, Japan, Australia, or the United Arab Emirates."
+        },
+        {
+          "type": "p",
+          "text": "Three transition dates matter. PCI SSC retired v3.2.1 on 31 March 2024, leaving v4.0 as the only active version, according to its [countdown announcement](https://blog.pcisecuritystandards.org/countdown-to-pci-dss-v4.0). PCI SSC then [published v4.0.1 in June 2024](https://blog.pcisecuritystandards.org/just-published-pci-dss-v4-0-1) as a limited revision that corrects errors and clarifies intent, with \"no additional or deleted requirements.\" v4.0 was retired on 31 December 2024. The same announcement confirms that v4.0.1 did not change the 31 March 2025 effective date for the requirements that were introduced as future-dated best practices in v4.0."
+        },
+        {
+          "type": "p",
+          "text": "Security awareness sits in Requirement 12, which covers organizational policies and programs. Because the training content is tied to the entity's own policies, it pairs naturally with an [obligations register](/glossary/compliance-obligations-register) and with the [mandatory training](/glossary/mandatory-training) schedule the organization already runs."
+        }
+      ]
+    },
+    {
+      "id": "what-requirement-12-6-requires",
+      "heading": "What does Requirement 12.6 require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Requirement 12.6 requires a formal, ongoing security awareness program, reviewed every 12 months, with training content that covers specific threats and acceptable use. The table below summarizes each part as described in the PCI SSC [Summary of Changes from v3.2.1 to v4.0](https://listings.pcisecuritystandards.org/documents/PCI-DSS-v3-2-1-to-v4-0-Summary-of-Changes-r1.pdf) and the [v4.0 SAQ A-EP](https://listings.pcisecuritystandards.org/documents/PCI-DSS-v4-0-SAQ-A-EP.pdf)."
+        },
+        {
+          "type": "table",
+          "caption": "PCI DSS v4 security awareness requirements (summary; consult the standard for full requirement text and testing procedures)",
+          "head": [
+            "Requirement",
+            "What it covers",
+            "Status"
+          ],
+          "rows": [
+            [
+              "12.6.1",
+              "A formal security awareness program is implemented to make all personnel aware of the entity's information security policy and procedures, and their role in protecting cardholder data.",
+              "Carried forward from v3.2.1, with the intent clarified in v4.0."
+            ],
+            [
+              "12.6.2",
+              "The security awareness program is reviewed at least once every 12 months and updated as needed.",
+              "New in v4.0. Best practice until 31 March 2025, required since."
+            ],
+            [
+              "12.6.3",
+              "The core security awareness training requirement.",
+              "Merges the security awareness training requirements that were 12.6.1 and 12.6.2 in v3.2.1 (a structure or format change)."
+            ],
+            [
+              "12.6.3.1",
+              "Training includes awareness of threats and vulnerabilities that could impact the security of the CDE, including but not limited to phishing and related attacks, and social engineering.",
+              "New in v4.0. Best practice until 31 March 2025, required since."
+            ],
+            [
+              "12.6.3.2",
+              "Training includes awareness about the acceptable use of end-user technologies in accordance with Requirement 12.2.1.",
+              "New in v4.0. Best practice until 31 March 2025, required since."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This page does not quote the full text of 12.6.3, including its timing and acknowledgment elements, because PCI SSC distributes the standard through its document library. Training owners should read 12.6.3 and its testing procedures in the v4.0.1 standard itself before designing the cycle."
+        }
+      ]
+    },
+    {
+      "id": "phishing-and-social-engineering",
+      "heading": "Does PCI DSS require phishing and social engineering training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yes. Requirement 12.6.3.1 has required security awareness training to cover phishing and related attacks, and social engineering, since 31 March 2025. The v4.0 SAQ A-EP states the requirement was \"a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.\""
+        },
+        {
+          "type": "p",
+          "text": "The list is a floor. The requirement text says training covers threats and vulnerabilities that could impact the CDE \"including but not limited to\" phishing and social engineering, so an entity's own risk picture should add other topics, such as payment page tampering for e-commerce teams or pretext calls for contact center staff."
+        },
+        {
+          "type": "callout",
+          "title": "Technical controls do not replace training",
+          "text": "The applicability notes to Requirement 5.4.1 (automated mechanisms to detect and protect personnel against phishing) state: \"Meeting this requirement does not also meet the requirement for providing personnel with security awareness training, and vice versa.\" An email filter is not evidence of 12.6.3.1, and a phishing course is not evidence of 5.4.1."
+        }
+      ]
+    },
+    {
+      "id": "acceptable-use-training",
+      "heading": "What does the acceptable use training requirement mean?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Requirement 12.6.3.2 means security awareness training must explain the entity's own acceptable use policies for end-user technologies, as defined under Requirement 12.2.1. The training is therefore only as good as the underlying policy: if 12.2.1 policies cover remote access, removable media, or personal devices, the training must reflect those rules."
+        },
+        {
+          "type": "p",
+          "text": "The practical consequence is a dependency. When the acceptable use policy changes, the training content becomes out of date, and the 12.6.2 annual review is the latest point at which the program must catch up. For a method to keep the two aligned, see [how to update training when regulations change](/guides/how-to-update-training-when-regulations-change) and [how to convert policies into training](/guides/how-to-convert-policies-into-training)."
+        }
+      ]
+    },
+    {
+      "id": "smaller-merchants-and-saqs",
+      "heading": "How do the requirements apply to smaller merchants that use an SAQ?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Smaller merchants answer only the requirements included in their Self-Assessment Questionnaire, and the awareness program can be scaled to their size. In the v4.0 SAQ A-EP, for e-commerce merchants whose website affects the security of the payment page, the 12.6 section lists 12.6.1 and 12.6.3.1."
+        },
+        {
+          "type": "p",
+          "text": "The SAQ A-EP completion guidance for 12.6.1 says the program should be \"consistent with the size and complexity of the merchant's operations\" and gives examples: \"a simple awareness program could be a flyer posted in the back office, or a periodic e-mail sent to all employees.\" Phishing and social engineering content under 12.6.3.1 is still required. Merchants should confirm which requirements appear in the v4.0.1 version of their SAQ, since PCI SSC announced updated SAQs to accompany v4.0.1."
+        }
+      ]
+    },
+    {
+      "id": "evidence-for-assessors",
+      "heading": "How can organizations map 12.6 to learning outcomes and assessment evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Map each sub-requirement to a learning outcome and to the evidence an assessor will ask to examine. The mapping below is illustrative and should be adapted to the entity's own policies, roles, and assessment type."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: PCI DSS requirement to learning outcome to assessment evidence",
+          "head": [
+            "Requirement",
+            "Example learning outcome",
+            "Evidence to retain"
+          ],
+          "rows": [
+            [
+              "12.6.1 Awareness program",
+              "Explains the information security policy and their own role in protecting cardholder data.",
+              "Program document, audience list, and communications issued with dates."
+            ],
+            [
+              "12.6.2 Annual review",
+              "Not a learner outcome: the program owner reviews content against current threats and policy changes.",
+              "Dated review record showing what was checked, what changed, and who approved it."
+            ],
+            [
+              "12.6.3.1 Phishing",
+              "Identifies a phishing message and reports it through the designated channel.",
+              "Training content showing phishing coverage, completion records, and simulation results if used."
+            ],
+            [
+              "12.6.3.1 Social engineering",
+              "Refuses an unverified request for card data or system access made by phone or in person.",
+              "Scenario questions with pass marks, mapped to current policy versions."
+            ],
+            [
+              "12.6.3.2 Acceptable use",
+              "Applies the acceptable use rules for laptops, mobile devices, and removable media in their role.",
+              "Training content cross-referenced to the 12.2.1 policy version in force."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Keeping the policy version next to each completion record shows an assessor that people were trained on the rules that applied at the time. See [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit) and the [audit trail](/glossary/audit-trail) definition. For a government framework on designing awareness programs, see [NIST SP 800-50](/regulations/nist-sp-800-50-security-awareness-training)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each PCI DSS sub-requirement to the entity's policy versions, the roles in scope, and the learning outcomes and assessment points that evidence them. When the acceptable use policy or the threat picture changes, the affected content and roles can be identified from those links, which supports the 12.6.2 annual review. See how this applies to [financial services organizations](/industries/financial-services)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is PCI DSS a law?",
+      "a": "No. PCI DSS is an industry standard published by the PCI Security Standards Council, not legislation passed by any government. Obligations to comply typically arise through an organization's payment card arrangements, and organizations should confirm with their acquirer or payment provider which validation they need. Because it is not national law, it applies the same way across countries."
+    },
+    {
+      "q": "Did PCI DSS v4.0.1 change the security awareness requirements?",
+      "a": "PCI SSC describes v4.0.1 as a limited revision with no new or deleted requirements. It corrected formatting and typographical errors and clarified some requirements and guidance. It also did not change the 31 March 2025 effective date for the requirements introduced in v4.0, including 12.6.2, 12.6.3.1 and 12.6.3.2."
+    },
+    {
+      "q": "Are phishing simulations required by PCI DSS?",
+      "a": "The requirement summarized here is that training content covers phishing and social engineering (12.6.3.1). The requirement text quoted in the SAQ A-EP does not mandate simulated phishing campaigns. Many entities use them because simulation results are useful evidence that the training is working, but the obligation is about awareness content and the program around it."
+    },
+    {
+      "q": "Who counts as personnel for the awareness program?",
+      "a": "Requirement 12.6.1 refers to making all personnel aware of the information security policy and their role in protecting cardholder data. The scope of personnel should be checked against the definitions in the standard itself. In practice, entities usually include employees, contractors and temporary staff whose work could affect cardholder data security."
+    }
+  ],
+  "sources": [
+    {
+      "title": "PCI DSS: Summary of Changes from PCI DSS Version 3.2.1 to 4.0, Revision 1 (May 2022)",
+      "publisher": "PCI Security Standards Council",
+      "url": "https://listings.pcisecuritystandards.org/documents/PCI-DSS-v3-2-1-to-v4-0-Summary-of-Changes-r1.pdf"
+    },
+    {
+      "title": "PCI DSS v4.0 Self-Assessment Questionnaire A-EP and Attestation of Compliance (April 2022)",
+      "publisher": "PCI Security Standards Council",
+      "url": "https://listings.pcisecuritystandards.org/documents/PCI-DSS-v4-0-SAQ-A-EP.pdf"
+    },
+    {
+      "title": "Just Published: PCI DSS v4.0.1 (June 11, 2024)",
+      "publisher": "PCI Security Standards Council blog",
+      "url": "https://blog.pcisecuritystandards.org/just-published-pci-dss-v4-0-1"
+    },
+    {
+      "title": "Countdown to PCI DSS v4.0",
+      "publisher": "PCI Security Standards Council blog",
+      "url": "https://blog.pcisecuritystandards.org/countdown-to-pci-dss-v4.0"
+    }
+  ],
+  "related": [
+    "nist-sp-800-50-security-awareness-training",
+    "iso-27001-awareness-training-requirements",
+    "ftc-safeguards-rule-employee-training",
+    "nydfs-part-500-cybersecurity-training-requirements",
+    "how-to-set-mandatory-training-refresh-cycles",
+    "how-to-prepare-training-records-for-an-audit"
+  ],
+  "productLinks": [
+    {
+      "label": "Financial services",
+      "href": "/industries/financial-services"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 12,
+  "factCheck": [
+    {
+      "claim": "12.6.2 new requirement: review and update the security awareness program at least once every 12 months; best practice until 31 March 2025; Evolving requirement.",
+      "source": "https://listings.pcisecuritystandards.org/documents/PCI-DSS-v3-2-1-to-v4-0-Summary-of-Changes-r1.pdf"
+    },
+    {
+      "claim": "12.6.3 merged v3.2.1 requirements 12.6.1 and 12.6.2 for security awareness training (structure or format change).",
+      "source": "https://listings.pcisecuritystandards.org/documents/PCI-DSS-v3-2-1-to-v4-0-Summary-of-Changes-r1.pdf"
+    },
+    {
+      "claim": "12.6.3.2 new: training includes acceptable use of end-user technologies in accordance with 12.2.1; best practice until 31 March 2025.",
+      "source": "https://listings.pcisecuritystandards.org/documents/PCI-DSS-v3-2-1-to-v4-0-Summary-of-Changes-r1.pdf"
+    },
+    {
+      "claim": "12.6.3.1 text: threats and vulnerabilities that could impact CDE security, including but not limited to phishing and related attacks and social engineering; best practice until 31 March 2025 then required.",
+      "source": "https://listings.pcisecuritystandards.org/documents/PCI-DSS-v4-0-SAQ-A-EP.pdf"
+    },
+    {
+      "claim": "5.4.1 applicability note: meeting the anti-phishing mechanism requirement does not meet 12.6.3.1 security awareness training, and vice versa.",
+      "source": "https://listings.pcisecuritystandards.org/documents/PCI-DSS-v4-0-SAQ-A-EP.pdf"
+    },
+    {
+      "claim": "SAQ A-EP 12.6.1 text and completion guidance (flyer in back office or periodic e-mail as simple program); 12.6 section lists 12.6.1 and 12.6.3.1.",
+      "source": "https://listings.pcisecuritystandards.org/documents/PCI-DSS-v4-0-SAQ-A-EP.pdf"
+    },
+    {
+      "claim": "v4.0.1 published June 2024 (post dated 11 Jun 2024), limited revision with no new or deleted requirements; v4.0 retired 31 December 2024; 31 March 2025 effective date unchanged.",
+      "source": "https://blog.pcisecuritystandards.org/just-published-pci-dss-v4-0-1"
+    },
+    {
+      "claim": "v3.2.1 retired 31 March 2024.",
+      "source": "https://blog.pcisecuritystandards.org/countdown-to-pci-dss-v4.0"
+    }
+  ]
+}

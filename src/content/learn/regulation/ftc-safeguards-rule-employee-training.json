@@ -1,0 +1,309 @@
+{
+  "slug": "ftc-safeguards-rule-employee-training",
+  "kind": "regulation",
+  "title": "What employee training does the FTC Safeguards Rule require?",
+  "seoTitle": "FTC Safeguards Rule training",
+  "description": "FTC Safeguards Rule training under 16 CFR 314.4(e): staff awareness, security team training, and the small firm exemption, as at November 2026.",
+  "shortAnswer": "The Federal Trade Commission (FTC) Safeguards Rule, 16 CFR Part 314, requires non-bank financial institutions under FTC jurisdiction to give all personnel security awareness training that is updated to reflect risks found in their risk assessment. It also requires security updates and training for information security staff, and checks that key security personnel keep their knowledge current. The small institution exemption in 314.6 does not remove these training duties.",
+  "keyTakeaways": [
+    "The training duties sit in 16 CFR 314.4(e), which requires policies and procedures to ensure that personnel are able to enact the information security program.",
+    "Section 314.4(e)(1) requires security awareness training for all personnel, updated as necessary to reflect risks identified by the written risk assessment.",
+    "Sections 314.4(e)(3) and (e)(4) add security updates and training for information security personnel, and verification that key security personnel maintain current knowledge of threats and countermeasures.",
+    "Institutions holding customer information on fewer than 5,000 consumers are exempt only from 314.4(b)(1), (d)(2), (h) and (i). Paragraph (e), including all training duties, still applies.",
+    "The rule names no hours or fixed frequency. Training content is tied to the institution's own risk assessment, so it must change when the risk assessment does."
+  ],
+  "jurisdiction": "United States (federal)",
+  "regulator": "Federal Trade Commission (FTC)",
+  "appliesTo": [
+    "Financial institutions within FTC jurisdiction under the Gramm-Leach-Bliley Act, such as mortgage lenders and brokers, payday lenders, finance companies, account servicers, check cashers, wire transferors, collection agencies, credit counselors and other financial advisors, tax preparation firms, and non-federally insured credit unions",
+    "Investment advisors that are not required to register with the Securities and Exchange Commission",
+    "All personnel of those institutions (security awareness training), and information security personnel, whether employed directly or through an affiliate or service provider"
+  ],
+  "sections": [
+    {
+      "id": "who-the-rule-covers",
+      "heading": "Who does the FTC Safeguards Rule apply to?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Safeguards Rule applies to financial institutions over which the FTC has jurisdiction under the Gramm-Leach-Bliley Act, which in practice means many non-bank financial businesses. Under [16 CFR 314.1(b)](https://www.law.cornell.edu/cfr/text/16/314.1), an entity is a financial institution if its business is engaging in an activity that is financial in nature or incidental to it, as described in the Bank Holding Company Act. Institutions subject to another regulator's enforcement authority under section 505 of that Act fall outside this rule."
+        },
+        {
+          "type": "p",
+          "text": "Section 314.1(b) lists examples, including mortgage lenders, payday lenders, finance companies, mortgage brokers, account servicers, check cashers, wire transferors, travel agencies operated in connection with financial services, collection agencies, credit counselors and other financial advisors, tax preparation firms, non-federally insured credit unions, investment advisors that are not required to register with the Securities and Exchange Commission, and entities acting as finders. The rule covers all customer information in the institution's possession, including information about customers of other financial institutions."
+        },
+        {
+          "type": "p",
+          "text": "For readers outside the United States: the Code of Federal Regulations (CFR) is the official compilation of federal rules. This page cites the Cornell Legal Information Institute mirror of 16 CFR Part 314 and states the position as at November 2026."
+        }
+      ]
+    },
+    {
+      "id": "what-314-4-e-requires",
+      "heading": "What training does 16 CFR 314.4(e) require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Section 314.4(e) requires four measures that together ensure personnel can carry out the information security program. Two are training duties, one is a staffing duty, and one is a verification duty. The text of [16 CFR 314.4(e)](https://www.law.cornell.edu/cfr/text/16/314.4) reads:"
+        },
+        {
+          "type": "callout",
+          "title": "16 CFR 314.4(e)",
+          "text": "\"Implement policies and procedures to ensure that personnel are able to enact your information security program by: (1) Providing your personnel with security awareness training that is updated as necessary to reflect risks identified by the risk assessment; (2) Utilizing qualified information security personnel employed by you or an affiliate or service provider sufficient to manage your information security risks and to perform or oversee the information security program; (3) Providing information security personnel with security updates and training sufficient to address relevant security risks; and (4) Verifying that key information security personnel take steps to maintain current knowledge of changing information security threats and countermeasures.\""
+        },
+        {
+          "type": "table",
+          "caption": "The four 314.4(e) measures and who they apply to",
+          "head": [
+            "Paragraph",
+            "Audience",
+            "Obligation"
+          ],
+          "rows": [
+            [
+              "314.4(e)(1)",
+              "All personnel",
+              "Security awareness training, updated as necessary to reflect risks identified by the risk assessment."
+            ],
+            [
+              "314.4(e)(2)",
+              "Information security function",
+              "Use qualified information security personnel, in house or through an affiliate or service provider, sufficient to manage the risks."
+            ],
+            [
+              "314.4(e)(3)",
+              "Information security personnel",
+              "Security updates and training sufficient to address relevant security risks."
+            ],
+            [
+              "314.4(e)(4)",
+              "Key information security personnel",
+              "Verification that they take steps to maintain current knowledge of changing threats and countermeasures."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The FTC's business guide, [FTC Safeguards Rule: What Your Business Needs to Know](https://www.ftc.gov/business-guidance/resources/ftc-safeguards-rule-what-your-business-needs-know), puts the awareness duty plainly: \"Provide your people with security awareness training and schedule regular refreshers.\" The rule itself does not set a refresher interval, so the institution has to choose one and be able to justify it. See [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles)."
+        }
+      ]
+    },
+    {
+      "id": "link-to-risk-assessment",
+      "heading": "Why does the risk assessment drive the training content?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Section 314.4(e)(1) requires awareness training to be \"updated as necessary to reflect risks identified by the risk assessment,\" so the training is only compliant while it matches the current written risk assessment. Section 314.4(b) requires the information security program to be based on a written risk assessment of reasonably foreseeable internal and external risks to customer information."
+        },
+        {
+          "type": "p",
+          "text": "Section 314.4(g) then requires the institution to evaluate and adjust its program in light of testing and monitoring results, material changes to operations or business arrangements, and the results of risk assessments. When a new risk enters the assessment, for example a new remote access arrangement or a new type of fraud aimed at staff, the awareness content should change with it. A short record linking each training topic to the risk it addresses is the simplest way to show this connection."
+        }
+      ]
+    },
+    {
+      "id": "small-institution-exemption",
+      "heading": "Does the small institution exemption remove the training requirement?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No. The exemption in [16 CFR 314.6](https://www.law.cornell.edu/cfr/text/16/314.6) is narrow and does not mention paragraph (e). It states:"
+        },
+        {
+          "type": "callout",
+          "title": "16 CFR 314.6 Exceptions",
+          "text": "\"Section 314.4(b)(1), (d)(2), (h), and (i) do not apply to financial institutions that maintain customer information concerning fewer than five thousand consumers.\""
+        },
+        {
+          "type": "p",
+          "text": "Those four provisions are, in order: the written risk assessment content requirements, the continuous monitoring or annual penetration testing and six-monthly vulnerability assessment requirement, the written incident response plan, and the Qualified Individual's annual written report to the board. A small institution therefore still has to train its personnel under 314.4(e)(1), train or update its security personnel under (e)(3), and verify the currency of key personnel under (e)(4)."
+        }
+      ]
+    },
+    {
+      "id": "governance-and-reporting",
+      "heading": "How does training connect to the Qualified Individual and board reporting?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Qualified Individual designated under 314.4(a) oversees the program, which includes the 314.4(e) training measures, and reports on it under 314.4(i). That paragraph requires the Qualified Individual to report in writing, regularly and at least annually, to the board of directors or equivalent governing body on the overall status of the program and compliance with the rule, and on material matters such as risk assessment, testing results, and security events."
+        },
+        {
+          "type": "p",
+          "text": "Training completion, overdue rates, and changes made to content after the risk assessment are natural inputs to that report. Where the Qualified Individual is provided by a service provider or affiliate, 314.4(a) requires the institution to retain responsibility for compliance and designate a senior member of its own personnel to direct and oversee that person. For reporting methods, see [how to report training compliance to the board](/guides/how-to-report-training-compliance-to-the-board)."
+        }
+      ]
+    },
+    {
+      "id": "dates-and-history",
+      "heading": "When did these requirements take effect?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The current training text in 314.4(e) comes from amendments published on December 9, 2021 (86 FR 70307), and the FTC added a breach notification duty in a further amendment on November 13, 2023. The FTC guide notes that the Safeguards Rule took effect in 2003 and was amended in 2021. According to [16 CFR 314.5](https://www.law.cornell.edu/cfr/text/16/314.5), the notification requirement in 314.4(j) took effect on May 13, 2024. It requires notice to the FTC within 30 days of discovering a notification event involving the information of at least 500 consumers."
+        },
+        {
+          "type": "p",
+          "text": "The breach notification duty is relevant to training because staff need to recognize and escalate a possible notification event. The rule treats an event as discovered on the first day it is known to any employee, officer, or other agent of the institution other than the person committing the breach, so reporting procedures belong in awareness content."
+        }
+      ]
+    },
+    {
+      "id": "mapping-obligations-to-evidence",
+      "heading": "How can institutions map the duties to learning outcomes and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Map each paragraph of 314.4(e) to an outcome and the evidence the FTC could ask for in an investigation. The mapping below is illustrative."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: Safeguards Rule duty to learning outcome to evidence",
+          "head": [
+            "Duty",
+            "Example learning outcome",
+            "Evidence to retain"
+          ],
+          "rows": [
+            [
+              "314.4(e)(1) Awareness",
+              "Recognizes a phishing attempt or pretext call and reports it through the internal channel.",
+              "Completion records for all personnel, content version, and the risk assessment items it covers."
+            ],
+            [
+              "314.4(e)(1) Update after risk change",
+              "Applies a new control introduced after the risk assessment, such as a verification step for payment changes.",
+              "Dated change log showing the risk item, the content change, and who was retrained."
+            ],
+            [
+              "314.4(e)(3) Security personnel",
+              "Configures and monitors controls for current threats relevant to the institution.",
+              "Training and briefing records for each security role."
+            ],
+            [
+              "314.4(e)(4) Key personnel currency",
+              "Maintains current knowledge of threats and countermeasures.",
+              "Records of courses, certifications, or threat briefings, reviewed by the Qualified Individual."
+            ],
+            [
+              "314.4(j) Notification events",
+              "Escalates a suspected incident involving customer information without delay.",
+              "Scenario assessment results and the escalation procedure version trained."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For the general method, see [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations). Institutions that also handle card data should read the [PCI DSS security awareness requirements](/regulations/pci-dss-security-awareness-training-requirements), which overlap but are not identical."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each training topic to the risk assessment item that justifies it, the policy version it teaches, and the roles that must complete it. When the risk assessment changes, the affected content and people can be identified from those links, which supports the update duty in 314.4(e)(1). See how this works for [financial services organizations](/industries/financial-services)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the Safeguards Rule require annual security awareness training?",
+      "a": "The rule text does not set a frequency. Section 314.4(e)(1) requires training that is updated as necessary to reflect risks identified by the risk assessment. The FTC's business guidance advises institutions to schedule regular refreshers. An annual cycle, with extra updates when the risk assessment changes, is a common way to meet both."
+    },
+    {
+      "q": "Do contractors and service provider staff need training?",
+      "a": "Section 314.4(e)(1) refers to \"your personnel.\" Separately, 314.4(f) requires institutions to oversee service providers by selecting capable providers, requiring safeguards by contract, and periodically assessing them. Institutions commonly address service provider staff training through those contracts rather than training them directly."
+    },
+    {
+      "q": "Does the Safeguards Rule apply to banks?",
+      "a": "Generally no. Section 314.1(b) applies the rule to financial institutions subject to the FTC's enforcement authority, which are those not otherwise subject to another regulator's enforcement authority under section 505 of the Gramm-Leach-Bliley Act. Institutions such as banks should check which regulator has that authority over them and apply that regulator's safeguards requirements."
+    },
+    {
+      "q": "Is the training requirement different for small firms?",
+      "a": "No. The 314.6 exemption for institutions with customer information on fewer than 5,000 consumers removes only 314.4(b)(1), (d)(2), (h) and (i). The training measures in 314.4(e) still apply, although a small firm can scale the content and delivery to its size and risks."
+    }
+  ],
+  "sources": [
+    {
+      "title": "16 CFR 314.4 Elements",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)",
+      "url": "https://www.law.cornell.edu/cfr/text/16/314.4"
+    },
+    {
+      "title": "16 CFR 314.6 Exceptions",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)",
+      "url": "https://www.law.cornell.edu/cfr/text/16/314.6"
+    },
+    {
+      "title": "16 CFR 314.1 Purpose and scope",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)",
+      "url": "https://www.law.cornell.edu/cfr/text/16/314.1"
+    },
+    {
+      "title": "16 CFR 314.5 Effective date",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)",
+      "url": "https://www.law.cornell.edu/cfr/text/16/314.5"
+    },
+    {
+      "title": "FTC Safeguards Rule: What Your Business Needs to Know",
+      "publisher": "Federal Trade Commission",
+      "url": "https://www.ftc.gov/business-guidance/resources/ftc-safeguards-rule-what-your-business-needs-know"
+    }
+  ],
+  "related": [
+    "pci-dss-security-awareness-training-requirements",
+    "nydfs-part-500-cybersecurity-training-requirements",
+    "bsa-aml-training-requirements",
+    "nist-sp-800-50-security-awareness-training",
+    "how-to-report-training-compliance-to-the-board",
+    "how-to-map-training-to-compliance-obligations"
+  ],
+  "productLinks": [
+    {
+      "label": "Financial services",
+      "href": "/industries/financial-services"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 12,
+  "factCheck": [
+    {
+      "claim": "314.4(e)(1)-(4) text: awareness training for personnel updated to reflect risk assessment; qualified security personnel; security updates and training for security personnel; verify key personnel maintain current knowledge.",
+      "source": "https://www.law.cornell.edu/cfr/text/16/314.4"
+    },
+    {
+      "claim": "314.4(a) Qualified Individual and service provider/affiliate conditions; 314.4(b) written risk assessment; 314.4(f) service provider oversight; 314.4(g) evaluate and adjust; 314.4(i) annual written report to board.",
+      "source": "https://www.law.cornell.edu/cfr/text/16/314.4"
+    },
+    {
+      "claim": "314.4(j): notify FTC within 30 days of discovery for notification events involving at least 500 consumers; discovery treated as first day known to any employee, officer or agent other than the person committing the breach. Amended 86 FR 70307 Dec 9, 2021 and 88 FR 77508 Nov 13, 2023.",
+      "source": "https://www.law.cornell.edu/cfr/text/16/314.4"
+    },
+    {
+      "claim": "314.6: 314.4(b)(1), (d)(2), (h) and (i) do not apply to institutions maintaining customer information on fewer than five thousand consumers.",
+      "source": "https://www.law.cornell.edu/cfr/text/16/314.6"
+    },
+    {
+      "claim": "314.1(b) scope: FTC-jurisdiction financial institutions, list of examples including tax preparation firms, non-federally insured credit unions, investment advisors not required to register with the SEC.",
+      "source": "https://www.law.cornell.edu/cfr/text/16/314.1"
+    },
+    {
+      "claim": "314.5: 314.4(j) effective May 13, 2024.",
+      "source": "https://www.law.cornell.edu/cfr/text/16/314.5"
+    },
+    {
+      "claim": "FTC guide: 'Provide your people with security awareness training and schedule regular refreshers'; rule took effect in 2003, amended 2021.",
+      "source": "https://www.ftc.gov/business-guidance/resources/ftc-safeguards-rule-what-your-business-needs-know"
+    }
+  ]
+}

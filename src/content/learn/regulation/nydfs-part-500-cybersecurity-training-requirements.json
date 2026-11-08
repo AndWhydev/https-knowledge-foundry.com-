@@ -1,0 +1,318 @@
+{
+  "slug": "nydfs-part-500-cybersecurity-training-requirements",
+  "kind": "regulation",
+  "title": "What cybersecurity training does NYDFS Part 500 require?",
+  "seoTitle": "NYDFS Part 500 cybersecurity training",
+  "description": "NYDFS 23 NYCRR 500.14(a)(3) annual awareness training with social engineering, board cyber understanding under 500.4, and exemptions, as at November 2026.",
+  "shortAnswer": "The New York State Department of Financial Services (NYDFS) cybersecurity regulation, 23 NYCRR Part 500, requires every covered entity to provide periodic, but at a minimum annual, cybersecurity awareness training that includes social engineering for all personnel, updated to reflect risks identified in its risk assessment. Small covered entities with a limited exemption must still provide this training. Separately, the senior governing body must have sufficient understanding of cybersecurity to oversee the program.",
+  "keyTakeaways": [
+    "Section 500.14(a)(3), added by the November 1, 2023 second amendment, sets the training floor: at least annual awareness training, including social engineering, for all personnel.",
+    "Training content must be updated to reflect risks identified in the covered entity's own risk assessment, so it cannot be a fixed generic course.",
+    "The limited exemption in 500.19(a) for small entities removes 500.14(a)(1), (a)(2) and (b), but not (a)(3). Small covered entities must still train.",
+    "Section 500.4(d)(1) requires the senior governing body to have sufficient understanding of cybersecurity-related matters to oversee risk management, which may include the use of advisors.",
+    "Each covered entity certifies material compliance, or acknowledges non-compliance, to the superintendent by April 15 each year under 500.17(b), so training records feed that filing."
+  ],
+  "jurisdiction": "United States: New York (state regulation)",
+  "regulator": "New York State Department of Financial Services (NYDFS)",
+  "appliesTo": [
+    "Covered entities: any person operating under, or required to operate under, a license, registration, charter, certificate, permit, accreditation or similar authorization under the New York Banking Law, Insurance Law or Financial Services Law",
+    "All personnel of covered entities (awareness training), including entities that qualify for the 500.19(a) limited exemption",
+    "Senior governing bodies of covered entities (cybersecurity understanding and oversight)"
+  ],
+  "sections": [
+    {
+      "id": "who-part-500-covers",
+      "heading": "Who does NYDFS Part 500 apply to?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Part 500 applies to covered entities, defined in [23 NYCRR 500.1](https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.1) as any person operating under or required to operate under a license, registration, charter, certificate, permit, accreditation or similar authorization under the Banking Law, the Insurance Law or the Financial Services Law, regardless of whether the entity is also regulated by other government agencies. That includes banks and trust companies, insurance companies, insurance agents and brokers, mortgage companies, and virtual currency businesses licensed in New York."
+        },
+        {
+          "type": "p",
+          "text": "The NYDFS [Cybersecurity Resource Center](https://www.dfs.ny.gov/industry_guidance/cybersecurity) describes Part 500, promulgated on March 1, 2017, as a \"first-in-the-nation cybersecurity regulation\" for financial services companies. NYDFS amended it on November 1, 2023, in what the regulation calls the second amendment. Because the license is the trigger, a firm headquartered in London, Tokyo or Dubai with a New York license is a covered entity. This page cites the Cornell Legal Information Institute mirror of the regulation text and states the position as at November 2026."
+        }
+      ]
+    },
+    {
+      "id": "what-500-14-requires",
+      "heading": "What does 500.14(a)(3) require for awareness training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Section 500.14(a)(3) requires annual, at a minimum, cybersecurity awareness training that includes social engineering, for all personnel, updated to reflect the entity's risk assessment. The text of [23 NYCRR 500.14(a)](https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.14) requires each covered entity, as part of its cybersecurity program, to:"
+        },
+        {
+          "type": "callout",
+          "title": "23 NYCRR 500.14(a)(3)",
+          "text": "\"provide periodic, but at a minimum annual, cybersecurity awareness training that includes social engineering for all personnel that is updated to reflect risks identified by the covered entity in its risk assessment.\""
+        },
+        {
+          "type": "p",
+          "text": "Four elements can be tested separately: frequency (periodic, with an annual minimum), content (social engineering must be included), audience (all personnel), and currency (updated to reflect the risk assessment). The rest of 500.14(a) covers monitoring of authorized users (a)(1) and controls against malicious code, including web and email filtering (a)(2). Class A companies, the largest covered entities, must also implement endpoint detection and response and centralized logging under 500.14(b), unless the CISO approves equivalent compensating controls in writing."
+        },
+        {
+          "type": "p",
+          "text": "The training requirement is tied to the risk assessment required by 500.9. NYDFS published [guidance on how to conduct and use risk assessments](https://www.dfs.ny.gov/industry_guidance/industry_letters/il20260910-cyber-risk-assessment) on September 10, 2026, which training owners should read alongside the risk assessment itself."
+        }
+      ]
+    },
+    {
+      "id": "board-understanding",
+      "heading": "What does Part 500 require of the board?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Part 500 requires the senior governing body to understand cybersecurity well enough to oversee it, but it does not prescribe a board training course. Under [23 NYCRR 500.4(d)](https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.4), the senior governing body must exercise oversight of cybersecurity risk management, including by having \"sufficient understanding of cybersecurity-related matters to exercise such oversight, which may include the use of advisors.\""
+        },
+        {
+          "type": "p",
+          "text": "The same subsection requires the board to require management to develop and maintain the program, to regularly receive and review management reports about cybersecurity, and to confirm that management has allocated sufficient resources. Under 500.4(b), the CISO must report in writing at least annually to the senior governing body on matters including the overall effectiveness of the program and material cybersecurity risks. Senior governing body is defined in 500.1 as the board of directors (or an appropriate committee), or an equivalent governing body, or, if neither exists, the senior officers responsible for the program."
+        },
+        {
+          "type": "p",
+          "text": "Directors' briefings, onboarding sessions for new board members, and records of advisor input are practical ways to show that understanding. For reporting formats, see [how to report training compliance to the board](/guides/how-to-report-training-compliance-to-the-board)."
+        }
+      ]
+    },
+    {
+      "id": "exemptions",
+      "heading": "Do exempt or small covered entities have to provide training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Small entities with the limited exemption must still provide awareness training; only entities with the fuller exemptions in 500.19(c) and (d) are relieved of 500.14 entirely. Under [23 NYCRR 500.19(a)](https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.19), a covered entity qualifies for the limited exemption if it has fewer than 20 employees and independent contractors (with affiliates), or less than $7,500,000 in gross annual revenue in each of the last three fiscal years, or less than $15,000,000 in year-end total assets."
+        },
+        {
+          "type": "table",
+          "caption": "Who must provide 500.14(a)(3) awareness training",
+          "head": [
+            "Status",
+            "Exempt from",
+            "Must provide awareness training?"
+          ],
+          "rows": [
+            [
+              "Covered entity, no exemption",
+              "Nothing in 500.14",
+              "Yes"
+            ],
+            [
+              "Class A company",
+              "Nothing in 500.14; also subject to 500.14(b)",
+              "Yes"
+            ],
+            [
+              "Limited exemption, 500.19(a)",
+              "500.4, 500.5, 500.6, 500.8, 500.10, 500.14(a)(1), (a)(2) and (b), 500.15 and 500.16",
+              "Yes"
+            ],
+            [
+              "No information systems and no nonpublic information, 500.19(c)",
+              "Includes all of 500.14",
+              "No"
+            ],
+            [
+              "Article 70 insurance entity with only parent or affiliate information, 500.19(d)",
+              "Includes all of 500.14",
+              "No"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The NYDFS page [What is Required?](https://www.dfs.ny.gov/cybersecurity/requirements) confirms that entities with the 500.19(a) exemption must \"Provide cybersecurity awareness training (500.14(a)(3)).\" Note that a limited-exempt entity is also exempt from 500.4, so the board understanding duty above does not apply to it. Exempt entities must file a Notice of Exemption within 30 days of determining they are exempt."
+        }
+      ]
+    },
+    {
+      "id": "compliance-dates",
+      "heading": "When did the training requirement take effect?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The annual training requirement in 500.14(a)(3) was added by the second amendment, effective November 1, 2023, and fell under the default 180-day transition, so it applied from April 29, 2024. [23 NYCRR 500.22(c)](https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.22) gives covered entities 180 days from the effective date of the second amendment to comply with its new requirements, except as otherwise specified. The exceptions listed in 500.22(d) do not include 500.14(a)(3)."
+        },
+        {
+          "type": "p",
+          "text": "Other training-adjacent requirements had longer transitions under 500.22(d): one year for the new 500.4 governance requirements, and 18 months for 500.14(a)(2) and 500.14(b). As at November 2026, all of these transition periods have ended. The calculated April 29, 2024 date is derived from the regulation text; readers should confirm it against NYDFS's published timeline if they rely on it for a specific compliance year."
+        }
+      ]
+    },
+    {
+      "id": "certification-and-evidence",
+      "heading": "What evidence supports the annual certification?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training records are part of the evidence base for the annual compliance filing. Under [23 NYCRR 500.17(b)](https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.17), each covered entity must submit by April 15 either a certification of material compliance for the prior calendar year, based on data and documentation sufficient to demonstrate it, or an acknowledgment of non-compliance that identifies the sections not complied with and a remediation timeline."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: Part 500 duty to learning outcome to evidence",
+          "head": [
+            "Duty",
+            "Example learning outcome",
+            "Evidence to retain"
+          ],
+          "rows": [
+            [
+              "500.14(a)(3) Annual training",
+              "Completes awareness training at least once in each 12 month period.",
+              "Completion records for all personnel, with dates, against an up-to-date personnel list."
+            ],
+            [
+              "500.14(a)(3) Social engineering",
+              "Recognizes and reports a pretext call, impersonation or phishing attempt.",
+              "Training content showing social engineering coverage; simulation or scenario results."
+            ],
+            [
+              "500.14(a)(3) Risk-based updates",
+              "Applies controls tied to newly assessed risks, such as verification of payment changes.",
+              "Change log linking risk assessment items to content changes."
+            ],
+            [
+              "500.4(d)(1) Board understanding",
+              "Explains the entity's material cyber risks and how the program addresses them.",
+              "Board briefing records, agendas, and advisor input."
+            ],
+            [
+              "500.17(b) Certification",
+              "Not a learner outcome: the compliance team assembles evidence for the filing.",
+              "Evidence pack covering the prior calendar year, retained with the certification."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "See [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit) and [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each awareness topic to the risk assessment item it addresses, the policy version it teaches, and the personnel who must complete it, so the risk-based update duty in 500.14(a)(3) can be shown rather than asserted. See how this works for [financial services organizations](/industries/financial-services)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does NYDFS require phishing simulations?",
+      "a": "Section 500.14(a)(3) requires awareness training that includes social engineering, which covers phishing, but the text does not require simulated phishing campaigns. Many covered entities run simulations because the results show whether the training changes behavior and support the risk-based update duty. Check any specific expectations in NYDFS guidance before treating them as optional."
+    },
+    {
+      "q": "Do contractors count as personnel for training?",
+      "a": "The regulation requires training for \"all personnel.\" Covered entities should apply the definition in 500.1 and their own risk assessment when deciding which contractors are in scope. Many include independent contractors with access to information systems, and address third-party service provider staff through the policy required by 500.11."
+    },
+    {
+      "q": "Is annual training enough?",
+      "a": "Annual is the minimum. The text says \"periodic, but at a minimum annual,\" and requires updates to reflect the risk assessment. If the risk assessment identifies a new threat mid-year, the training should be updated rather than waiting for the next annual cycle."
+    },
+    {
+      "q": "What if a covered entity did not train everyone last year?",
+      "a": "It cannot certify material compliance for that year without qualification. Under 500.17(b), it would instead submit an acknowledgment of non-compliance that identifies the section, describes the nature and extent of the gap, and provides a remediation timeline or confirmation that remediation is complete."
+    }
+  ],
+  "sources": [
+    {
+      "title": "23 NYCRR 500.14 Monitoring and training",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.14"
+    },
+    {
+      "title": "23 NYCRR 500.4 Cybersecurity governance",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.4"
+    },
+    {
+      "title": "23 NYCRR 500.19 Exemptions",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.19"
+    },
+    {
+      "title": "23 NYCRR 500.22 Transitional periods",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.22"
+    },
+    {
+      "title": "23 NYCRR 500.17 Notices to superintendent",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.17"
+    },
+    {
+      "title": "23 NYCRR 500.1 Definitions",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.1"
+    },
+    {
+      "title": "Cybersecurity Resource Center",
+      "publisher": "New York State Department of Financial Services",
+      "url": "https://www.dfs.ny.gov/industry_guidance/cybersecurity"
+    },
+    {
+      "title": "What is Required?",
+      "publisher": "New York State Department of Financial Services",
+      "url": "https://www.dfs.ny.gov/cybersecurity/requirements"
+    }
+  ],
+  "related": [
+    "ftc-safeguards-rule-employee-training",
+    "pci-dss-security-awareness-training-requirements",
+    "nist-sp-800-50-security-awareness-training",
+    "california-and-new-york-harassment-training",
+    "how-to-report-training-compliance-to-the-board",
+    "how-to-prepare-training-records-for-an-audit"
+  ],
+  "productLinks": [
+    {
+      "label": "Financial services",
+      "href": "/industries/financial-services"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 12,
+  "factCheck": [
+    {
+      "claim": "500.14(a)(3) text: periodic, at minimum annual, awareness training including social engineering for all personnel, updated to reflect risk assessment; 500.14(b) Class A EDR and centralized logging unless CISO approves compensating controls; amended eff. 11/1/2023.",
+      "source": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.14"
+    },
+    {
+      "claim": "500.4(d)(1) senior governing body sufficient understanding, may include advisors; 500.4(b) CISO annual written report.",
+      "source": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.4"
+    },
+    {
+      "claim": "500.19(a) limited exemption thresholds (fewer than 20; under $7.5M revenue three years; under $15M assets) and exempted sections exclude 500.14(a)(3); 500.19(c),(d) exempt from all of 500.14; 500.19(f) Notice of Exemption within 30 days.",
+      "source": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.19"
+    },
+    {
+      "claim": "500.22(c) 180 days from second amendment effective date unless otherwise specified; 500.22(d) one year for 500.4, 18 months for 500.14(a)(2) and (b). 180 days from Nov 1, 2023 calculated as April 29, 2024.",
+      "source": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.22"
+    },
+    {
+      "claim": "500.17(b) annual certification or acknowledgment by April 15, based on data and documentation.",
+      "source": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.17"
+    },
+    {
+      "claim": "500.1 definitions: covered entity, class A company, senior governing body.",
+      "source": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.1"
+    },
+    {
+      "claim": "NYDFS: Part 500 promulgated March 1, 2017 as first-in-the-nation regulation; risk assessment guidance issued September 10, 2026.",
+      "source": "https://www.dfs.ny.gov/industry_guidance/cybersecurity"
+    },
+    {
+      "claim": "NYDFS requirements page: 500.19(a) small business entities must provide cybersecurity awareness training (500.14(a)(3)).",
+      "source": "https://www.dfs.ny.gov/cybersecurity/requirements"
+    }
+  ]
+}
