@@ -1,0 +1,219 @@
+{
+  "slug": "policy-management-software-vs-compliance-training-platform",
+  "kind": "comparison",
+  "title": "Policy management software vs compliance training platform: what is the difference?",
+  "seoTitle": "Policy management vs training platform",
+  "description": "Policy management software controls policy documents and attestations; a compliance training platform builds and records competence. Where each fits.",
+  "shortAnswer": "Policy management software controls the life of policy documents: drafting, approval, version control, publication, distribution, review dates, and attestation that staff have read them. A compliance training platform assigns learning, assesses understanding, and records who has been trained on what. Policy software shows a policy was communicated and acknowledged; a training platform can show people understood it and can apply it. Regulated organizations usually need both, linked so that a policy change triggers a training update.",
+  "keyTakeaways": [
+    "Policy management software governs documents; a compliance training platform governs learning and its evidence.",
+    "An attestation records that someone received and acknowledged a policy. It does not show they understood it or can apply it.",
+    "Compliance management standards and prosecutors' guidance treat communication, awareness, training, and competence as related but distinct.",
+    "Overlap exists: some policy tools add quizzes and some training platforms add attestations. Judge each against the evidence you need, not the category label.",
+    "The most valuable integration is version linking: when a policy changes, the training that depends on it is flagged for update."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the core difference between policy management software and a compliance training platform?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The core difference is the object each system manages. Policy management software manages policy documents and their acknowledgment. A compliance training platform manages learning activities, assessments, and the records that show people were trained and how they performed."
+        },
+        {
+          "type": "p",
+          "text": "Both support the same goal, people knowing and following the rules, but they produce different evidence. A policy system can show that version 4 of the conflicts of interest policy was approved on a given date, published to all staff, and attested by named people on recorded dates. A training platform can show which roles completed a module based on that policy, how they scored on scenario questions, and who needs further support. See [policy attestation](/glossary/policy-attestation) and [compliance training](/glossary/compliance-training)."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do they compare side by side?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Policy management software is strongest at document control and acknowledgment; a compliance training platform is strongest at assignment, assessment, and learning records. The table compares the two categories, not any specific product."
+        },
+        {
+          "type": "table",
+          "caption": "Policy management software and compliance training platforms compared (category level)",
+          "head": ["Dimension", "Policy management software", "Compliance training platform"],
+          "rows": [
+            ["Primary object", "Policy documents and procedures", "Learning activities, assessments, and records"],
+            ["Core workflow", "Draft, review, approve, publish, distribute, review again", "Assign, deliver, assess, record, remind, report"],
+            ["Typical evidence", "Approved version history, distribution lists, attestations", "Completions by version, assessment results, observed assessments"],
+            ["What the evidence proves", "The policy existed, was approved, and was communicated and acknowledged", "People were trained and, if assessed well, understood and can apply the content"],
+            ["Version control", "Of the policy document itself", "Of training content and which version each person completed"],
+            ["Audience targeting", "By department, location, or role for distribution", "By role, risk, and location for assignment and refresh cycles"],
+            ["Typical owner", "Compliance, legal, or the policy office", "Learning and development, with compliance"],
+            ["Main limitation", "Acknowledgment is not understanding", "Training can drift from the current policy if not linked to it"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "attestation-vs-competence",
+      "heading": "How does attestation differ from competence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Attestation is a recorded statement that a person has received and read a policy and will comply with it; competence is the demonstrated ability to apply it in their work. The first is a communication control. The second requires training and assessment designed around what the person has to do."
+        },
+        {
+          "type": "p",
+          "text": "Guidance for compliance programs draws the same line. The United States Department of Justice (DOJ) Evaluation of Corporate Compliance Programs asks, under policies and procedures, \"How does the company confirm that employees know how to access relevant policies?\" and whether policies have been rolled out \"in a way that ensures employees' understanding of the policies\". Under training, it asks prosecutors to look for \"periodic training and certification\" and whether the company has evaluated employees' engagement with training \"and whether they have learned the covered subject matter\" ([DOJ ECCP, September 2024](https://www.justice.gov/media/1160391/dl?inline)). Certification alone is one part of that picture; learning and behavior are others."
+        },
+        {
+          "type": "table",
+          "caption": "Attestation, training completion, and competence: what each shows",
+          "head": ["Evidence type", "What it shows", "What it does not show", "Usually produced by"],
+          "rows": [
+            ["Attestation", "The person received and acknowledged a specific policy version", "That they understood it or can apply it", "Policy management software, or a training platform with attestation"],
+            ["Training completion", "The person finished an assigned learning activity", "That they learned or can apply the content", "Training platform"],
+            ["Assessment result", "The person answered questions or tasks to a standard", "Sustained behavior in the workplace", "Training platform"],
+            ["Verified competence", "The person performed the task correctly, observed or tested against criteria", "Future performance without refresh or supervision", "Training platform with workplace assessment, or a competence system"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For lower risk policies, attestation may be enough. For obligations where a mistake causes real harm, pair attestation with training and assessment. See [completion tracking vs competency verification](/compare/completion-tracking-vs-competency-verification)."
+        }
+      ]
+    },
+    {
+      "id": "iso-37301",
+      "heading": "Where does each sit in a compliance management system?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "In a compliance management system, policy management software mainly supports communication and control of documented information, while a training platform mainly supports competence, training, and awareness. ISO 37301:2021, the international standard for compliance management systems, treats these as separate clauses: 7.2 covers competence, with 7.2.3 on training; 7.3 covers awareness; 7.4 covers communication; and 7.5 covers documented information, including its control in 7.5.3 ([ISO](https://www.iso.org/standard/75080.html))."
+        },
+        {
+          "type": "p",
+          "text": "The ISO technical committee responsible for the standard lists personnel trainings and communications among what ISO 37301 requires ([ISO/TC 309 FAQ](https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf)). An organization working to the standard therefore needs evidence for both: that policies were controlled and communicated, and that people are competent. The training requirements are covered in more detail in [ISO 37301 compliance training requirements](/regulations/iso-37301-compliance-training-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "overlap",
+      "heading": "Where do the two categories overlap?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The categories overlap at the edges: many policy tools include short quizzes with attestation, and many training platforms can collect attestations. The overlap is useful for simple cases but rarely replaces the other category for high risk obligations."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "A quiz attached to a policy attestation can confirm basic recall, but it usually lacks role based scenarios, item design, and pass thresholds tied to outcomes.",
+            "An attestation inside a training platform can work well, but the platform may not manage policy drafting, approval workflows, or scheduled policy reviews.",
+            "Either category may claim the other's functions. Test the claim with your own scenario: change a policy and see what happens to its attestations and its dependent training."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "integration",
+      "heading": "How should policy management and training work together?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They should be linked by policy version, so that a policy change automatically identifies the training and assessments that depend on it. Without that link, training drifts from the current policy and the organization may be teaching rules that no longer apply."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Record dependencies.** For each training module and assessment item, record which policy, section, and version it draws on. See [content provenance](/glossary/content-provenance).",
+            "**Trigger review on change.** When a policy version is approved, flag every dependent module for review.",
+            "**Decide the response.** Minor wording changes may need only a new attestation; changes to obligations, thresholds, or procedures need updated training and possibly reassessment.",
+            "**Record which version people learned.** Training records should show the content version, which should map back to the policy version ([how to maintain version control for training content](/guides/how-to-maintain-version-control-for-training-content)).",
+            "**Report together.** Show attestation and competence status side by side for material policies."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Turning policies into training is covered step by step in [how to convert policies into training](/guides/how-to-convert-policies-into-training)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry sits between the policy library and the training platform. It breaks policies and obligations into concepts, outcomes, and assessment points, each linked to its source version, so a policy change shows exactly which training must change. It connects to existing systems for delivery and records; see [integrations](/platform/integrations)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can policy attestation replace compliance training?",
+      "a": "For low risk policies where reading is enough, attestation may be sufficient. For obligations where people must make judgments or follow procedures correctly, it is not, because attestation shows acknowledgment rather than understanding. Regulators and prosecutors increasingly ask how organizations know employees have learned and applied the content."
+    },
+    {
+      "q": "Do we need both systems if we are a small organization?",
+      "a": "Not necessarily as separate products. A small organization can control policies in a well managed document system and use a training platform that records attestations. What matters is the evidence: controlled policy versions, records of acknowledgment, and training and assessment linked to those versions for higher risk obligations."
+    },
+    {
+      "q": "Which team should own each system?",
+      "a": "Policy management is usually owned by compliance, legal, or a policy office, because it controls the organization's rules. Training platforms are usually owned by learning and development. The link between them, which training depends on which policy version, needs a named owner, often in compliance, or it will not be maintained."
+    },
+    {
+      "q": "Is an annual policy attestation enough for an auditor?",
+      "a": "It depends on the obligation and the auditor. An annual attestation shows the policy was communicated and acknowledged. Where a standard or regulator expects competence, as ISO 37301 does through its competence and training clauses, auditors will also look for training and assessment evidence."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ISO 37301:2021 Compliance management systems: Requirements with guidance for use",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/75080.html"
+    },
+    {
+      "title": "ISO 37301 FAQs, May 2022",
+      "publisher": "ISO/TC 309 Governance of organizations",
+      "url": "https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf"
+    },
+    {
+      "title": "Evaluation of Corporate Compliance Programs (Updated September 2024)",
+      "publisher": "US Department of Justice, Criminal Division",
+      "url": "https://www.justice.gov/media/1160391/dl?inline"
+    }
+  ],
+  "related": [
+    "policy-attestation",
+    "completion-tracking-vs-competency-verification",
+    "how-to-convert-policies-into-training",
+    "iso-37301-compliance-training-requirements",
+    "how-to-choose-a-compliance-training-platform",
+    "knowledge-base-vs-lms"
+  ],
+  "productLinks": [
+    { "label": "Integrations", "href": "/platform/integrations" },
+    { "label": "Knowledge governance", "href": "/platform/knowledge-governance" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 10,
+  "factCheck": [
+    {
+      "claim": "ECCP (September 2024), Policies and Procedures: 'How does the company confirm that employees know how to access relevant policies?'; policies rolled out 'in a way that ensures employees' understanding of the policies'.",
+      "source": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "claim": "ECCP Training and Communications: 'periodic training and certification for all directors, officers, relevant employees'; 'Has the company evaluated the employees' engagement with the training session and whether they have learned the covered subject matter?'",
+      "source": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "claim": "ISO 37301:2021 clause structure: 7.2 Competence with 7.2.3 Training; 7.3 Awareness; 7.4 Communication; 7.5 Documented information with 7.5.3 Control of documented information (claims previously verified for sibling pages in this library).",
+      "source": "https://www.iso.org/standard/75080.html"
+    },
+    {
+      "claim": "ISO/TC 309 FAQ lists personnel trainings and communications among what ISO 37301 requires.",
+      "source": "https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf"
+    }
+  ]
+}

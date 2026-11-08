@@ -1,0 +1,358 @@
+{
+  "slug": "iso-37301-compliance-training-requirements",
+  "kind": "regulation",
+  "title": "What does ISO 37301 require for compliance training?",
+  "seoTitle": "ISO 37301 compliance training",
+  "description": "What ISO 37301:2021 clauses 7.2 (including 7.2.3 training) and 7.3 require for compliance competence, training and awareness, with ISO 37303 and DOJ links.",
+  "shortAnswer": "ISO 37301:2021, the international standard for compliance management systems, requires an organization to determine and ensure the competence of people whose work affects compliance performance (clause 7.2), to build compliance into the employment process (7.2.2), and to train relevant personnel from the start of employment and at planned intervals (7.2.3). Clause 7.3 requires awareness of the compliance policy, obligations, how to raise concerns, and compliance culture.",
+  "keyTakeaways": [
+    "ISO 37301:2021 was published on April 13, 2021 by ISO/TC 309 and replaced ISO 19600:2014; unlike ISO 19600, it contains requirements and can be certified.",
+    "Clause 7.2 has three parts: 7.2.1 general competence, 7.2.2 employment process, and 7.2.3 training, so compliance training is a requirement in its own right.",
+    "Clause 7.3 adds compliance specific awareness topics to the common management system set: how to raise concerns, which obligations apply to each person, and supporting compliance culture.",
+    "ISO 37303:2025 gives guidance on competence management for compliance management systems.",
+    "ISO 37301 is not referenced by the US Department of Justice, but its training clauses answer many of the questions in the DOJ's Evaluation of Corporate Compliance Programs."
+  ],
+  "jurisdiction": "International standard",
+  "regulator": "ISO/TC 309 Governance of organizations, through accredited certification bodies",
+  "appliesTo": [
+    "Organizations certified or seeking certification to ISO 37301",
+    "Organizations using ISO 37301 as a benchmark for their compliance program without certification",
+    "Suppliers and business partners asked by customers or public buyers to show an ISO 37301 aligned compliance management system"
+  ],
+  "sections": [
+    {
+      "id": "status",
+      "heading": "What is ISO 37301, and which version is current?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ISO 37301 is the international standard that specifies requirements, with guidance for use, for a compliance management system. As at November 2026, the current edition is [ISO 37301:2021](https://www.iso.org/standard/75080.html), Compliance management systems: Requirements with guidance for use. ISO's Technical Committee 309 [FAQ](https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf) states it was published on April 13, 2021 and developed by ISO/TC 309 Governance of organizations."
+        },
+        {
+          "type": "p",
+          "text": "The foreword of the standard states that this first edition \"cancels and replaces ISO 19600:2014\", that it \"now contains requirements with additional guidance for use\", and that it follows ISO's harmonized structure for management system standards ([ISO 37301:2021 preview](https://cdn.standards.iteh.ai/samples/iso/iso-37301-2021/7ca291aeb1774c499f6fcb424e99d118/iso-37301-2021.pdf)). ISO 19600 was a guidance standard and could not be certified; ISO 37301 can. ISO's listing also shows an amendment, ISO 37301:2021/Amd 1:2024, which made the climate action changes applied across ISO management system standards."
+        },
+        {
+          "type": "p",
+          "text": "The standard is voluntary. The TC 309 FAQ notes that it can become a legal or contractual requirement in some contexts, such as public procurement and supply chains, and that use of ISO 37301, with or without certification, \"may, however, serve as evidence that the organization has taken adequate measures in place to prevent violations of compliance obligations\". For the training fundamentals, see [compliance training](/glossary/compliance-training)."
+        }
+      ]
+    },
+    {
+      "id": "clause-7-2",
+      "heading": "What does clause 7.2 require for competence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Clause 7.2 requires the organization to define, achieve, and evidence the competence of people whose work affects its compliance performance, and it splits that duty into three subclauses."
+        },
+        {
+          "type": "table",
+          "caption": "Structure of ISO 37301:2021 clause 7.2",
+          "head": [
+            "Subclause",
+            "Focus",
+            "What it means in practice"
+          ],
+          "rows": [
+            [
+              "7.2.1 General",
+              "Competence",
+              "Determine the necessary competence of persons doing work under the organization's control that affects compliance performance; ensure competence through education, training, or experience; act on gaps and evaluate the actions; keep documented information as evidence"
+            ],
+            [
+              "7.2.2 Employment process",
+              "Recruitment and employment",
+              "Build compliance into how people are recruited and employed, including due diligence and disciplinary action in case of noncompliance, as certification body PECB summarizes it"
+            ],
+            [
+              "7.2.3 Training",
+              "Training of personnel",
+              "Provide relevant personnel with training regularly from the start of employment and at planned intervals determined by the organization"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Clause 7.2.1 follows the harmonized structure shared with [ISO 9001](/regulations/iso-9001-competence-requirements) and [ISO/IEC 27001](/regulations/iso-27001-awareness-training-requirements). Clause 7.2.2 is specific to compliance: [PECB](https://pecb.com/en/whitepaper/whitepaper-on-iso-373012021), a certification body, describes it as a new subclause that \"specifies the requirements on how organizations must conduct the recruitment and employment process, including due diligence procedures, and disciplinary actions in case of noncompliance\". Clause 7.2.3 is what makes ISO 37301 unusual: training is a stated requirement, not only one possible route to competence."
+        },
+        {
+          "type": "p",
+          "text": "Audit checklists built on the standard test clause 7.2.3 with questions such as whether the organization \"provided relevant personnel with training regularly from the commencement of employment and at planned intervals determined by the organization\" ([GoAudits checklist](https://goaudits.com/checklist/iso-37301-checklist/920/31/)). Annex A of ISO 37301 is informative and gives guidance on applying the requirements, including training."
+        }
+      ]
+    },
+    {
+      "id": "clause-7-3",
+      "heading": "What does clause 7.3 require for awareness?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Clause 7.3 requires everyone doing work under the organization's control to be aware of the compliance policy, their contribution to the compliance management system, and the implications of not conforming, plus three compliance specific topics."
+        },
+        {
+          "type": "p",
+          "text": "PECB's whitepaper identifies three awareness requirements that ISO 37301 introduced: \"The means of and procedures for raising compliance concerns\"; \"How the compliance policy affects them and which compliance obligations they are required to meet\"; and \"The importance of supporting compliance culture\". Together with the common management system topics, that gives an awareness curriculum covering policy, personal obligations, consequences, speaking up, and culture."
+        },
+        {
+          "type": "p",
+          "text": "Raising concerns links clause 7.3 to whistleblowing arrangements. Organizations subject to whistleblower laws can align this content with [whistleblower policy training](/regulations/whistleblower-policy-training-requirements) or [EU Whistleblower Directive obligations](/regulations/eu-whistleblower-directive-obligations), so staff hear one consistent message about how to report."
+        }
+      ]
+    },
+    {
+      "id": "iso-37303",
+      "heading": "What does ISO 37303 add?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ISO 37303:2025, Compliance management systems: Guidance for competence management, gives guidance on determining and developing the competencies a compliance management system needs. It was published on July 18, 2025, according to the Czech national standards distributor's [listing](https://www.technickenormy.cz/en/iso-37303-2025-compliance-management-systems-guidance-for-competence-management/), and is listed by ISO at [iso.org](https://www.iso.org/standard/37303)."
+        },
+        {
+          "type": "p",
+          "text": "Its published scope says it \"provides guidance for the determination and development of competencies necessary to achieve an organization's compliance management system objectives\", including adequate competency levels for internal functions and third parties. As a guidance document, it does not add certifiable requirements to ISO 37301, but it is a useful reference when defining competence for clause 7.2.1, such as for compliance officers, control owners, and managers. A [competency framework](/glossary/competency-framework) is the usual way to express the result."
+        }
+      ]
+    },
+    {
+      "id": "doj-alignment",
+      "heading": "How do ISO 37301 training requirements relate to DOJ expectations?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The US Department of Justice (DOJ) does not reference ISO 37301 in its [Evaluation of Corporate Compliance Programs](https://www.justice.gov/media/1160391/dl?inline), which remains the September 2024 update as listed on the [Criminal Division compliance page](https://www.justice.gov/criminal/criminal-fraud/compliance) as at November 2026. However, the two cover much of the same ground, and one set of evidence can answer both if it is mapped explicitly."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: ISO 37301 clause to DOJ ECCP question to evidence",
+          "head": [
+            "ISO 37301 clause",
+            "Related DOJ ECCP question",
+            "Evidence that serves both"
+          ],
+          "rows": [
+            [
+              "7.2.1 Competence",
+              "What training have employees in relevant control functions received?",
+              "Competence requirements for control roles; assessment results"
+            ],
+            [
+              "7.2.2 Employment process",
+              "What communications have there been when an employee is disciplined for failure to comply?",
+              "Hiring due diligence records; disciplinary policy and anonymized communications"
+            ],
+            [
+              "7.2.3 Training",
+              "What analysis has the company undertaken to determine who should be trained and on what subjects?",
+              "Training needs analysis by role and risk; training plan with planned intervals"
+            ],
+            [
+              "7.2.3 Training",
+              "How has the company measured the effectiveness of the training?",
+              "Assessment results, behavior and incident indicators, evaluation reports"
+            ],
+            [
+              "7.3 Awareness",
+              "How has the company assessed whether its employees know when to seek advice and whether they would be willing to do so?",
+              "Awareness checks, speak up survey results, hotline usage data"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The DOJ also expects training to be \"appropriately tailored\" and to cover \"prior compliance incidents\". See [DOJ compliance program training expectations](/regulations/doj-compliance-program-training-expectations) and [how to design a compliance training program](/guides/how-to-design-a-compliance-training-program)."
+        }
+      ]
+    },
+    {
+      "id": "audit-evidence",
+      "heading": "What evidence shows conformity with the training clauses?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Auditors look for defined competence, a training plan tied to roles and compliance risks, records of delivery from the start of employment and at planned intervals, evidence of effectiveness, and awareness that holds up in interviews."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: ISO 37301 requirement to learning outcome to evidence",
+          "head": [
+            "Requirement",
+            "Learning outcome",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "7.2.1 determine and ensure competence",
+              "Role holders perform their compliance tasks correctly",
+              "Role competence requirements; assessment or observation records"
+            ],
+            [
+              "7.2.1 act and evaluate",
+              "Identified gaps are closed",
+              "Before and after assessments; manager sign off"
+            ],
+            [
+              "7.2.2 employment process",
+              "New starters receive the compliance policy and know the consequences of noncompliance",
+              "Onboarding records; policy acknowledgment; disciplinary procedure"
+            ],
+            [
+              "7.2.3 training",
+              "Personnel apply the compliance obligations relevant to their role",
+              "Training plan and intervals; completion and assessment records by role"
+            ],
+            [
+              "7.3 awareness",
+              "Staff can explain the policy, their obligations, how to raise a concern, and why culture matters",
+              "Awareness check results; consistent interview answers"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Keeping these records in one place, with version history for content, makes surveillance audits easier. See [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
+        }
+      ]
+    },
+    {
+      "id": "common-gaps",
+      "heading": "Where do organizations commonly fall short?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The most common gap is treating an annual code of conduct course as the whole answer to clauses 7.2 and 7.3. It may support awareness, but it does not define role competence, address the employment process, or evaluate effectiveness."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "No written competence requirements for compliance roles, so there is nothing to assess against.",
+            "Training not delivered at the start of employment, or no planned interval defined.",
+            "Awareness content that omits how to raise concerns or which obligations apply to each role.",
+            "Disciplinary consequences defined in HR policy but not communicated in training.",
+            "No evidence that training was effective beyond completion rates."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links compliance obligations to role based concepts, outcomes, and assessment points, then maps them to ISO 37301 clauses 7.2.1, 7.2.2, 7.2.3, and 7.3 and to DOJ evaluation questions. One body of evidence can then be produced by clause, role, or obligation. The [compliance programs](/programs/compliance) page describes this approach."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is ISO 37301 certification mandatory?",
+      "a": "Generally not. ISO's TC 309 FAQ describes ISO 37301 as a voluntary standard, though certification can be a legal or contractual requirement in some industries or in procurement. Organizations can also use it as a benchmark without certifying."
+    },
+    {
+      "q": "Does ISO 37301 say how often compliance training must happen?",
+      "a": "It requires training from the start of employment and at planned intervals that the organization determines, rather than a fixed frequency. Most organizations set intervals by role and compliance risk, and add training when obligations or policies change."
+    },
+    {
+      "q": "Does ISO 37301 certification protect a company from prosecution?",
+      "a": "No. The TC 309 FAQ says use of ISO 37301, with or without certification, does not offer absolute protection against prosecution, but may serve as evidence that the organization took adequate measures to prevent violations, which may reduce or even exclude liability depending on the jurisdiction."
+    },
+    {
+      "q": "How is ISO 37301 different from ISO 37001?",
+      "a": "ISO 37001 covers anti-bribery management systems, while ISO 37301 covers compliance management across all of an organization's compliance obligations. Both follow the harmonized structure, so their competence and awareness processes can be integrated, as the TC 309 FAQ notes for related standards."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ISO 37301:2021 Compliance management systems: Requirements with guidance for use",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/75080.html"
+    },
+    {
+      "title": "ISO 37301:2021 Compliance management systems: Frequently Asked Questions (May 2022)",
+      "publisher": "ISO/TC 309 Governance of organizations",
+      "url": "https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf"
+    },
+    {
+      "title": "ISO 37301:2021 document preview (foreword and contents)",
+      "publisher": "iTeh Standards",
+      "url": "https://cdn.standards.iteh.ai/samples/iso/iso-37301-2021/7ca291aeb1774c499f6fcb424e99d118/iso-37301-2021.pdf"
+    },
+    {
+      "title": "Whitepaper on ISO 37301:2021",
+      "publisher": "PECB",
+      "url": "https://pecb.com/en/whitepaper/whitepaper-on-iso-373012021"
+    },
+    {
+      "title": "ISO 37303:2025 Compliance management systems: Guidance for competence management",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/37303"
+    },
+    {
+      "title": "Evaluation of Corporate Compliance Programs (Updated September 2024)",
+      "publisher": "US Department of Justice, Criminal Division",
+      "url": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "title": "Compliance",
+      "publisher": "US Department of Justice, Criminal Division, Fraud Section",
+      "url": "https://www.justice.gov/criminal/criminal-fraud/compliance"
+    }
+  ],
+  "related": [
+    "compliance-training",
+    "doj-compliance-program-training-expectations",
+    "how-to-design-a-compliance-training-program",
+    "iso-9001-competence-requirements",
+    "iso-27001-awareness-training-requirements",
+    "compliance-obligations-register"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Standards and accreditation",
+      "href": "/platform/standards-accreditation"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 9,
+  "factCheck": [
+    {
+      "claim": "TC 309 FAQ: ISO 37301 published on 13 April 2021; requirement standard developed by ISO/TC 309 Governance of Organizations; voluntary but may become legal or contractual (procurement, supply chains); capable of certification; use may serve as evidence of adequate measures and does not offer absolute protection against prosecution; follows the common high-level structure.",
+      "source": "https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf"
+    },
+    {
+      "claim": "ISO 37301:2021 foreword: prepared by ISO/TC 309; first edition cancels and replaces ISO 19600:2014; now contains requirements with additional guidance for use; follows the harmonized structure. Contents list 7.2.1 General, 7.2.2 Employment process, 7.2.3 Training, 7.3 Awareness; Annex A (informative) Guidance for the use of this document.",
+      "source": "https://cdn.standards.iteh.ai/samples/iso/iso-37301-2021/7ca291aeb1774c499f6fcb424e99d118/iso-37301-2021.pdf"
+    },
+    {
+      "claim": "PECB: new subclause 7.2.2 Employment process specifies requirements on recruitment and employment process including due diligence procedures and disciplinary actions in case of noncompliance; three new 7.3 awareness requirements (raising concerns; how compliance policy affects them and which obligations; importance of supporting compliance culture); ISO 19600 was Type B guidance, ISO 37301 is Type A and certifiable.",
+      "source": "https://pecb.com/en/whitepaper/whitepaper-on-iso-373012021"
+    },
+    {
+      "claim": "Checklist item for training: has the organization provided relevant personnel with training regularly from the commencement of employment and at planned intervals determined by the organization (secondary source; clause text is not in the public preview).",
+      "source": "https://goaudits.com/checklist/iso-37301-checklist/920/31/"
+    },
+    {
+      "claim": "ISO 37301 published April 2021, edition 1, has Amendment 1:2024 (climate action changes) and was reviewed and confirmed in 2026 (as recorded on sibling page compliance-training; iso.org returned 403 to automated fetch on 8 Nov 2026).",
+      "source": "https://www.iso.org/standard/75080.html"
+    },
+    {
+      "claim": "ISO 37303:2025 Compliance management systems: Guidance for competence management, published 18 July 2025; provides guidance for the determination and development of competencies necessary to achieve an organization's compliance management system objectives, including internal functions and third parties.",
+      "source": "https://www.technickenormy.cz/en/iso-37303-2025-compliance-management-systems-guidance-for-competence-management/"
+    },
+    {
+      "claim": "DOJ Criminal Division compliance page lists the Evaluation of Corporate Compliance Programs (September 2024) as the most recent version; page last updated May 13, 2025.",
+      "source": "https://www.justice.gov/criminal/criminal-fraud/compliance"
+    },
+    {
+      "claim": "ECCP section I.C: appropriately tailored training and communications; covers prior compliance incidents; questions on analysis of who should be trained, measuring effectiveness, communications about discipline, and whether employees know when to seek advice. ECCP does not reference ISO 37301.",
+      "source": "https://www.justice.gov/media/1160391/dl?inline"
+    }
+  ]
+}
