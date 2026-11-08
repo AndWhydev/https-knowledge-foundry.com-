@@ -1,0 +1,275 @@
+{
+  "slug": "japan-skill-training-courses-for-licensed-work",
+  "kind": "regulation",
+  "title": "Which jobs in Japan need a license or skill training course, such as forklifts of 1 ton or more?",
+  "seoTitle": "Japan restricted work skill courses",
+  "description": "Japan's restricted work rules: ISH Act article 61, the 16 Cabinet Order article 20 operations, skill training course hours, certificates and penalties.",
+  "shortAnswer": "Article 61 of Japan's Industrial Safety and Health Act restricts 16 operations listed in article 20 of the Enforcement Order, including forklifts of 1 ton or more, cranes of 5 tons or more and slinging loads of 1 ton or more. Only holders of a Prefectural Labor Bureau license, or people who completed a skill training course (ginō kōshū) at a registered training body, may do them, and they must carry the certificate while working.",
+  "keyTakeaways": [
+    "Article 20 of the Order for Enforcement of the Industrial Safety and Health Act lists 16 restricted operations; article 41 and Appended Table 3 of the Ordinance set which license or course qualifies for each.",
+    "Skill training courses are run only by training bodies registered with the Director of a Prefectural Labor Bureau (article 77), and end in a completion exam.",
+    "The forklift skill training course under Ministry of Labor Notice No. 111 of 1972 sets 11 classroom hours and 24 practical hours, with practical groups of no more than 10 trainees.",
+    "Article 61(3) requires the worker to carry the license or certificate while doing the work, and an MHLW circular confirms these certificates cannot be issued digitally.",
+    "Assigning an unqualified worker is punishable under article 119 (up to six months of confinement or 500,000 yen); the worker who does the job unqualified can be fined up to 500,000 yen under article 120."
+  ],
+  "jurisdiction": "Japan (national)",
+  "regulator": "Ministry of Health, Labour and Welfare (MHLW); Prefectural Labor Bureau Directors issue licenses and register training bodies; Labor Standards Inspection Offices enforce",
+  "appliesTo": [
+    "Employers in logistics, manufacturing, construction, ports and utilities that use forklifts, cranes, construction machinery, boilers or gas welding",
+    "Host companies that receive dispatched equipment operators",
+    "Workers who operate restricted equipment, who must hold and carry the qualification",
+    "Registered training bodies (tōroku kyōshū kikan) that deliver skill training courses"
+  ],
+  "sections": [
+    {
+      "id": "what-article-61-requires",
+      "heading": "What does article 61 of the Industrial Safety and Health Act require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Article 61(1) of the Industrial Safety and Health Act (労働安全衛生法, Act No. 57 of 1972) prohibits an employer from assigning a worker to crane operation or other work specified by Cabinet Order unless the worker holds a license from the Director of the Prefectural Labor Bureau, has completed a skill training course (技能講習) run by a body registered with that Director, or holds another qualification set by ministerial ordinance ([Industrial Safety and Health Act, e-Gov](https://laws.e-gov.go.jp/law/347AC0000000057)). This regime is called restricted work (shūgyō seigen, 就業制限)."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Article 61(2):** no one other than a qualified person may perform the work. The prohibition binds the worker as well as the employer.",
+            "**Article 61(3):** a qualified person must carry the license or other document proving the qualification while doing the work.",
+            "**Article 61(4):** the Ministry may set special rules for workers in accredited vocational training, which the Ordinance does in article 42."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Restricted work sits above special education in the same hierarchy of operator competence. Smaller versions of the same equipment usually need only special education under article 59(3), described in [Japan's special education for hazardous work](/regulations/japan-special-education-for-hazardous-work). The overall structure of the Act is covered on the [Industrial Safety and Health Act page](/regulations/japan-industrial-safety-and-health-act-training). This page reflects the law as at November 2026."
+        }
+      ]
+    },
+    {
+      "id": "restricted-operations",
+      "heading": "Which operations are restricted, and which qualification does each need?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Article 20 of the Order for Enforcement of the Industrial Safety and Health Act (Cabinet Order No. 318 of 1972) lists 16 restricted operations ([Enforcement Order, e-Gov](https://laws.e-gov.go.jp/law/347CO0000000318)). Article 41 of the Ordinance on Industrial Safety and Health and its Appended Table 3 then say who may do each one ([Ordinance, e-Gov](https://laws.e-gov.go.jp/law/347M50002000032)). Driving on public roads is excluded from the mobile plant items."
+        },
+        {
+          "type": "table",
+          "caption": "Restricted operations under Enforcement Order article 20 and the qualifying route under Ordinance Appended Table 3, as at November 2026",
+          "head": ["Order art. 20 item", "Operation and threshold", "License route", "Skill training course route"],
+          "rows": [
+            ["1", "Blasting: drilling, charging, wiring, firing and handling misfires", "Blasting engineer license or listed explosives qualifications", "None"],
+            ["2", "Cargo handling gear with a load limit of 5 tons or more", "Cargo handling gear operator license", "None"],
+            ["3", "Boilers other than small boilers", "Special, first or second class boiler engineer license", "Boiler handling course, only for the smaller boilers listed in item 5(a) to (d)"],
+            ["6", "Cranes with a lifting capacity of 5 tons or more", "Crane and derrick operator license", "Floor operated crane course, only for cranes operated from the floor by an operator who moves with the load"],
+            ["7", "Mobile cranes with a lifting capacity of 1 ton or more", "Mobile crane operator license", "Small mobile crane course, only for mobile cranes under 5 tons"],
+            ["9", "Diving with surface supplied air or cylinders", "Diver license", "None"],
+            ["10", "Welding, cutting or heating metal with flammable gas and oxygen", "Gas welding operations chief license", "Gas welding course"],
+            ["11", "Forklifts with a maximum load of 1 ton or more", "None", "Forklift operation course"],
+            ["12", "Self propelled construction machinery of 3 tons or more (earthmoving, excavation, foundation work, demolition)", "None", "Vehicle type construction machinery courses by machine type"],
+            ["13", "Shovel loaders and fork loaders of 1 ton or more", "None", "Shovel loader course"],
+            ["14", "Rough terrain carriers with a maximum payload of 1 ton or more", "None", "Rough terrain carrier course"],
+            ["15", "Aerial work platforms with a platform height of 10 meters or more", "None", "Aerial work platform course"],
+            ["16", "Slinging for cranes, mobile cranes, derricks or cargo gear of 1 ton or more", "None", "Slinging course"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Items 4, 5 and 8 cover boiler and pressure vessel welding, boiler maintenance, and derricks of 5 tons or more, all of which require a license. Appended Table 3 also recognizes some vocational training graduates and \"other persons the Minister specifies\" for several items, so a training team should check the table before treating an alternative qualification as equivalent."
+        }
+      ]
+    },
+    {
+      "id": "course-content-and-hours",
+      "heading": "How long are skill training courses, and how are they assessed?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each skill training course has its own ministerial notice setting classroom and practical subjects, minimum hours, class sizes and a completion exam. Article 76 of the Act provides that courses are delivered by category as classroom or practical instruction, and that the provider must issue a completion certificate (技能講習修了証) to each person who completes the course."
+        },
+        {
+          "type": "table",
+          "caption": "Standard hours in three common skill training course notices, for trainees with no exemptions",
+          "head": ["Course and notice", "Classroom hours", "Practical hours", "Class size limits", "Completion exam"],
+          "rows": [
+            ["Forklift operation, Ministry of Labor Notice No. 111 of 1972", "11 (4 travel mechanisms, 4 load handling mechanisms, 2 mechanics, 1 law)", "24 (20 travel operation on a set course, 4 load handling)", "About 100 for classroom; 10 for practical", "Written or oral test plus a practical test"],
+            ["Slinging, Ministry of Labor Notice No. 119 of 1972", "12 (1 cranes, 3 mechanics, 7 slinging methods, 1 law)", "7 (6 slinging loads of 0.5 tons or more, 1 signaling)", "About 100 for classroom; 10 for practical", "Written or oral test plus a practical test"],
+            ["Gas welding, Ministry of Labor Notice No. 110 of 1972", "8 (4 equipment, 3 gases, 1 law)", "5 equipment handling", "About 100 for classroom; 20 for practical", "Written or oral test on classroom subjects"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Exemptions shorten some courses. Under article 3 of the forklift notice, for example, a holder of a large special motor vehicle license is exempt from the travel mechanism and travel operation subjects, and holders of an ordinary car license with three months of forklift experience can also claim exemptions ([MHLW law database: Forklift Operation Skill Training Course Rules](https://www.mhlw.go.jp/web/t_doc?dataId=74142000&dataType=0&pageNo=1)). The slinging notice was last amended by MHLW Notice No. 44 of 2026, applying from April 1, 2026 ([MHLW law database: Slinging Skill Training Course Rules](https://www.mhlw.go.jp/web/t_doc?dataId=74031000&dataType=0&pageNo=1))."
+        }
+      ]
+    },
+    {
+      "id": "registered-training-bodies-and-certificates",
+      "heading": "Who can run skill training courses, and how are certificates handled?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Only a registered training body (登録教習機関) may run a skill training course. Under article 77 of the Act, the Prefectural Labor Bureau Director registers an applicant that has the equipment in Appended Table 19, at least one qualified instructor per office meeting Appended Table 20, and a person managing the training. Registration must be renewed at intervals of five to ten years set by Cabinet Order, and the body must run courses fairly and to an annual plan."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Issue:** article 81 of the Ordinance requires the registered training body to issue the certificate without delay after completion.",
+            "**Reissue:** under article 82, a worker who loses or damages a certificate, or changes name, must apply to the issuing body for a replacement; if that body has closed, a body designated by the Minister issues proof of completion.",
+            "**Carrying:** because article 61(3) requires the certificate to be carried, MHLW's circular on e-learning delivery states that skill training course certificates cannot be issued digitally ([MHLW e-learning circular, revised September 2, 2026](https://www.mhlw.go.jp/content/11300000/001752584.pdf))."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For an employer, the practical consequence is that the certificate is the worker's property and the worker's proof, while the employer needs its own verified copy to show an inspector that the assignment was lawful. [Verification of competency](/glossary/verification-of-competency) on site equipment remains good practice, because a course completed years earlier on a different machine type is legally valid but says little about current proficiency."
+        }
+      ]
+    },
+    {
+      "id": "dispatch-and-trainees",
+      "heading": "How does article 61 apply to dispatched workers and vocational trainees?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The host company is responsible. Article 45(3) of the Worker Dispatch Act (Act No. 88 of 1985) applies article 61(1) to the host as the employer, and article 45(6) prohibits the staffing agency from dispatching a worker where performing the dispatch contract would put the host in breach of article 61(1) ([Worker Dispatch Act, e-Gov](https://laws.e-gov.go.jp/law/360AC0000000088)). Host companies should therefore check the original certificate before a dispatched operator starts work."
+        },
+        {
+          "type": "p",
+          "text": "For trainees in vocational training accredited under the Human Resources Development Promotion Act, article 42 of the Ordinance lets the employer assign most restricted operations after six months of training (three or five months for six month courses), and gas welding immediately, provided a vocational training instructor directs the trainee and safety education is given first."
+        }
+      ]
+    },
+    {
+      "id": "penalties",
+      "heading": "What are the penalties for unqualified operation?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The employer who assigns an unqualified person commits an offense under article 119 of the Act, punishable by up to six months of confinement or a fine of up to 500,000 yen. The worker who performs restricted work without the qualification breaches article 61(2), punishable under article 120 by a fine of up to 500,000 yen. Article 122 adds a fine on the company."
+        },
+        {
+          "type": "p",
+          "text": "Because both sides are exposed, workers have a direct personal interest in carrying their certificate, and supervisors have reason to check it at the start of each assignment rather than relying on an onboarding file."
+        }
+      ]
+    },
+    {
+      "id": "obligation-evidence-map",
+      "heading": "How should restricted work be mapped to roles and audit evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Map each restricted operation to the equipment that triggers it and to the roles that use that equipment, then hold the evidence against the person, not the course. The table is illustrative good practice; only the carrying requirement and the certificate itself come from the law."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping of article 61 obligations to roles, timing and evidence",
+          "head": ["Obligation", "Role it applies to", "Timing", "Evidence an auditor would expect"],
+          "rows": [
+            ["Forklift of 1 ton or more (item 11)", "Warehouse operatives, production logistics staff", "Before first use of any truck rated 1 ton or more", "Verified copy of forklift course certificate; asset register showing truck capacities; daily check that the original is carried"],
+            ["Slinging for 1 ton or more (item 16)", "Riggers, maintenance crews, construction laborers", "Before slinging any load for equipment rated 1 ton or more", "Slinging course certificate copy; lift plan naming the qualified slinger"],
+            ["Crane of 5 tons or more (item 6)", "Overhead crane operators", "Before operation", "License copy, or floor operated crane course certificate where the crane type allows it"],
+            ["Dispatched operator", "Host site supervisor", "Before the operator starts", "Sighted original certificate, copy on file, dispatch contract specifying the qualification"],
+            ["Replacement certificate", "Worker, with HR support", "When a certificate is lost, damaged or a name changes", "Reissue application and the replacement certificate"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Use [how to build a training matrix](/guides/how-to-build-a-training-matrix) to link equipment ratings to roles, and [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit) for record structure. Comparable regimes elsewhere include the US [OSHA powered industrial truck rule](/regulations/osha-forklift-operator-training-requirements) and Australia's [high risk work licenses](/regulations/high-risk-work-licence-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry represents each restricted operation, its capacity threshold and its qualifying routes as linked concepts tied to equipment and roles. That makes the boundary between special education and a skill training course explicit, so a change of equipment rating or role shows immediately which qualification evidence is now required."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a forklift skill training course certificate expire in Japan?",
+      "a": "No expiry is set in article 61, the Ordinance or the forklift course notice. Separately, article 60-2 of the Act asks employers to endeavor to give ongoing safety education to workers already doing dangerous work, following an MHLW guideline that the ministry revised in May 2026."
+    },
+    {
+      "q": "Can an employer run its own forklift skill training course?",
+      "a": "Only if it registers as a training body with the Prefectural Labor Bureau Director under article 77, meeting the equipment, instructor and management requirements. Otherwise the employer must send workers to a registered body. Special education for forklifts under 1 ton, by contrast, can be delivered in house."
+    },
+    {
+      "q": "Is a driving license enough to operate a forklift in Japan?",
+      "a": "No. A road vehicle license does not replace the forklift skill training course for trucks of 1 ton or more. It can, however, reduce the course: the forklift notice exempts holders of certain licenses from some subjects, and the shortest routes also require prior forklift experience."
+    },
+    {
+      "q": "What should an employer check when hiring an experienced crane operator?",
+      "a": "Check that the original license or certificate matches the restricted operation and capacity in Appended Table 3, for example a floor operated crane course does not cover cab operated cranes of 5 tons or more. Keep a copy, and confirm the worker carries the original while working."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Industrial Safety and Health Act (Act No. 57 of 1972), current Japanese text",
+      "publisher": "e-Gov Law Search, Digital Agency, Government of Japan",
+      "url": "https://laws.e-gov.go.jp/law/347AC0000000057"
+    },
+    {
+      "title": "Order for Enforcement of the Industrial Safety and Health Act (Cabinet Order No. 318 of 1972), current Japanese text",
+      "publisher": "e-Gov Law Search, Digital Agency, Government of Japan",
+      "url": "https://laws.e-gov.go.jp/law/347CO0000000318"
+    },
+    {
+      "title": "Ordinance on Industrial Safety and Health (Ministry of Labor Ordinance No. 32 of 1972), current Japanese text",
+      "publisher": "e-Gov Law Search, Digital Agency, Government of Japan",
+      "url": "https://laws.e-gov.go.jp/law/347M50002000032"
+    },
+    {
+      "title": "Forklift Operation Skill Training Course Rules (Ministry of Labor Notice No. 111 of 1972)",
+      "publisher": "Ministry of Health, Labour and Welfare, law database",
+      "url": "https://www.mhlw.go.jp/web/t_doc?dataId=74142000&dataType=0&pageNo=1"
+    },
+    {
+      "title": "Slinging Skill Training Course Rules (Ministry of Labor Notice No. 119 of 1972)",
+      "publisher": "Ministry of Health, Labour and Welfare, law database",
+      "url": "https://www.mhlw.go.jp/web/t_doc?dataId=74031000&dataType=0&pageNo=1"
+    },
+    {
+      "title": "Gas Welding Skill Training Course Rules (Ministry of Labor Notice No. 110 of 1972)",
+      "publisher": "Ministry of Health, Labour and Welfare, law database",
+      "url": "https://www.mhlw.go.jp/web/t_doc?dataId=74141000&dataType=0&pageNo=1"
+    },
+    {
+      "title": "Act on Securing the Proper Operation of Worker Dispatching Undertakings and Protecting Dispatched Workers (Act No. 88 of 1985), current Japanese text",
+      "publisher": "e-Gov Law Search, Digital Agency, Government of Japan",
+      "url": "https://laws.e-gov.go.jp/law/360AC0000000088"
+    },
+    {
+      "title": "Revision of the circular on safety and health education delivered by e-learning (September 2, 2026)",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "url": "https://www.mhlw.go.jp/content/11300000/001752584.pdf"
+    }
+  ],
+  "related": [
+    "japan-special-education-for-hazardous-work",
+    "japan-industrial-safety-and-health-act-training",
+    "osha-forklift-operator-training-requirements",
+    "osha-crane-operator-certification-requirements",
+    "high-risk-work-licence-requirements",
+    "verification-of-competency"
+  ],
+  "productLinks": [
+    { "label": "Compliance programs", "href": "/programs/compliance" },
+    { "label": "Energy and resources", "href": "/industries/energy-resources" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    { "claim": "Article 61(1) to (4) set restricted work: license, registered skill training course or ordinance qualification; 61(2) bars unqualified persons; 61(3) requires carrying the license or certificate; article 76 provides for classroom or practical courses and completion certificates; article 77 sets registration by the Prefectural Labor Bureau Director with equipment (App. Table 19), instructors (App. Table 20) and a manager, renewal every 5 to 10 years by Cabinet Order; article 119 punishes breach of 61(1), article 120 punishes breach of 61(2) with a fine up to 500,000 yen.", "source": "https://laws.e-gov.go.jp/law/347AC0000000057" },
+    { "claim": "Enforcement Order article 20 lists 16 restricted operations including cargo gear of 5 t or more, cranes of 5 t or more, mobile cranes of 1 t or more, gas welding, forklifts of 1 t or more, construction machinery of 3 t or more, shovel loaders and rough terrain carriers of 1 t or more, aerial work platforms of 10 m or more, and slinging for 1 t or more.", "source": "https://laws.e-gov.go.jp/law/347CO0000000318" },
+    { "claim": "Ordinance article 41 and Appended Table 3 set qualifying licenses and courses (floor operated crane course for floor operated cranes; small mobile crane course for mobile cranes under 5 t; boiler handling course for smaller boilers; forklift course for item 11; slinging course for item 16); article 42 sets the vocational trainee exception (6 months, or 5 or 3 months for 6 month courses; gas welding immediately); article 81 requires certificates without delay; article 82 covers reissue.", "source": "https://laws.e-gov.go.jp/law/347M50002000032" },
+    { "claim": "Forklift course: classroom 4+4+2+1 = 11 hours, practical 20+4 = 24 hours, classroom units of about 100 and practical units of 10, completion exam with written or oral and practical tests, exemptions for large special vehicle license holders and others.", "source": "https://www.mhlw.go.jp/web/t_doc?dataId=74142000&dataType=0&pageNo=1" },
+    { "claim": "Slinging course: classroom 1+3+7+1 = 12 hours, practical 6+1 = 7 hours on loads of 0.5 t or more; last amended by MHLW Notice No. 44 of 2026 applying from April 1, 2026.", "source": "https://www.mhlw.go.jp/web/t_doc?dataId=74031000&dataType=0&pageNo=1" },
+    { "claim": "Gas welding course: classroom 4+3+1 = 8 hours, practical 5 hours, practical units of 20, completion exam on classroom subjects.", "source": "https://www.mhlw.go.jp/web/t_doc?dataId=74141000&dataType=0&pageNo=1" },
+    { "claim": "Worker Dispatch Act article 45(3) applies ISH Act 61(1) to the host; 45(6) prohibits dispatch where the host would breach 61(1).", "source": "https://laws.e-gov.go.jp/law/360AC0000000088" }
+  ]
+}

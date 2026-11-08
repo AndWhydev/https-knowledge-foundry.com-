@@ -1,0 +1,245 @@
+{
+  "slug": "japan-special-education-for-hazardous-work",
+  "kind": "regulation",
+  "title": "What special education must Japanese employers give before workers start hazardous work?",
+  "seoTitle": "Japan hazardous work special education",
+  "description": "Japan's special education for hazardous work: ISH Act article 59(3), the Ordinance article 36 list, minimum hours by operation, 3 year records and penalties.",
+  "shortAnswer": "Under article 59(3) of Japan's Industrial Safety and Health Act, an employer must give special education (tokubetsu kyōiku) before assigning a worker to any dangerous or harmful operation listed in article 36 of the Ordinance on Industrial Safety and Health, such as arc welding, forklifts under 1 ton or full harness work at height. Ministerial notices set minimum classroom and practical hours, and article 38 requires a record kept for three years.",
+  "keyTakeaways": [
+    "The trigger is assignment: special education must be completed before the worker starts an operation listed in article 36 of the Ordinance on Industrial Safety and Health, which runs to item 41 with numerous sub-items.",
+    "Minimum hours come from ministerial notices, mainly the Safety and Health Special Education Rules (Ministry of Labor Notice No. 92 of 1972): for example 11 classroom hours plus 10 practical hours for arc welding.",
+    "Article 38 requires a record of participants, subjects and similar details, kept for three years; article 37 lets a subject be omitted only for a worker with sufficient knowledge and skill in it.",
+    "For dispatched workers the host company, not the staffing agency, carries the special education duty under article 45(3) of the Worker Dispatch Act.",
+    "Breach is a criminal offense under article 119 of the Act: up to six months of confinement or a fine of up to 500,000 yen."
+  ],
+  "jurisdiction": "Japan (national)",
+  "regulator": "Ministry of Health, Labour and Welfare (MHLW), enforced by Labor Standards Inspection Offices under each Prefectural Labor Bureau",
+  "appliesTo": [
+    "Employers in any industry that assign workers to an operation listed in article 36 of the Ordinance on Industrial Safety and Health",
+    "Host companies that receive dispatched workers for listed operations",
+    "Site supervisors, safety managers and in-house instructors who deliver or sign off special education",
+    "Training providers and industry bodies that run special education courses on behalf of employers"
+  ],
+  "sections": [
+    {
+      "id": "what-the-law-requires",
+      "heading": "What does article 59(3) of the Industrial Safety and Health Act require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Article 59(3) of the Industrial Safety and Health Act (Rōdō Anzen Eisei Hō, 労働安全衛生法, Act No. 57 of 1972) requires an employer who has a worker engage in dangerous or harmful work specified by Ministry of Health, Labour and Welfare (MHLW) ordinance to give that worker special education on safety or health for that work. The Japanese text reads, in part, \"当該業務に関する安全又は衛生のための特別の教育を行なわなければならない\" ([Industrial Safety and Health Act, e-Gov](https://laws.e-gov.go.jp/law/347AC0000000057)). The duty attaches to the assignment, so the education must be finished before the worker performs the operation."
+        },
+        {
+          "type": "p",
+          "text": "Special education is distinct from the general education every worker receives on hiring or a change of work, and from the licenses and skill training courses required for heavier equipment. The broader structure of these duties is covered in [what Japan's Industrial Safety and Health Act requires](/regulations/japan-industrial-safety-and-health-act-training). This page goes deeper on the covered operations, the minimum hours, the record and who carries the duty, as at November 2026."
+        },
+        {
+          "type": "callout",
+          "title": "Reading the Japanese texts",
+          "text": "The Ordinance and the special education notices are published only in Japanese. Descriptions of hours and subjects on this page are summaries of the Japanese text, not official translations. Check the current text on e-Gov and in the MHLW law database before relying on a specific figure."
+        }
+      ]
+    },
+    {
+      "id": "covered-operations",
+      "heading": "Which operations require special education under Ordinance article 36?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Article 36 of the Ordinance on Industrial Safety and Health (Rōdō Anzen Eisei Kisoku, 労働安全衛生規則, Ministry of Labor Ordinance No. 32 of 1972) lists the covered operations in items numbered 1 to 41, with sub-items such as 4-2, 5-4, 10-5 and 28-5 added over time ([Ordinance on Industrial Safety and Health, e-Gov](https://laws.e-gov.go.jp/law/347M50002000032)). The list groups naturally into six families."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Machine setting and maintenance:** replacing grinding wheels and test running them (item 1), and fitting or adjusting dies, blades and safety devices on power presses and shears (item 2).",
+            "**Welding and electrical work:** arc welding and cutting (item 3); laying, inspecting, repairing or operating high voltage or extra high voltage live circuits, and laying or repairing low voltage live circuits over 50 volts to earth (item 4); and servicing vehicles with built in batteries over 50 volts to earth (item 4-2).",
+            "**Mobile plant below license thresholds:** forklifts with a maximum load under 1 ton (item 5), shovel loaders and fork loaders under 1 ton (item 5-2), rough terrain carriers under 1 ton (item 5-3), truck tail gate lifters used for loading and unloading (item 5-4), construction machinery under 3 tons (item 9) and aerial work platforms with a platform height under 10 meters (item 10-5), in each case excluding driving on public roads.",
+            "**Lifting:** cranes under 5 tons (item 15), mobile cranes under 1 ton (item 16), derricks under 5 tons (item 17), construction lifts (item 18), slinging for loads under 1 ton (item 19) and gondolas (item 20).",
+            "**Health hazards:** compressed air and diving support work (items 20-2 to 24-2), oxygen deficient spaces (item 26), X-ray and gamma ray equipment (item 28), specified dust work (item 29), tunnel excavation (item 30), waste incinerator work (items 34 to 36) and asbestos work (item 37).",
+            "**Automation and height:** teaching industrial robots within their range of motion without cutting power (item 31), inspecting or adjusting running robots (item 32), assembling, dismantling or altering scaffolding (item 39), rope access work at 2 meters or more (item 40) and full harness fall arrest work at 2 meters or more where a work platform is hard to provide (item 41)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "MHLW publishes a combined spreadsheet that sets each special education item beside the license or skill training course required above the threshold ([MHLW list of restricted work and special education](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/roudoukijun/anzeneisei10/qualificaton_education.html)). The threshold matters: a forklift of exactly 1 ton or more moves out of special education and into a skill training course, covered in [Japan's skill training courses for licensed work](/regulations/japan-skill-training-courses-for-licensed-work)."
+        }
+      ]
+    },
+    {
+      "id": "minimum-hours",
+      "heading": "How many hours of special education are required?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Article 39 of the Ordinance leaves the detailed subjects and hours for items 1 to 13, 27, 30 to 36 and 39 to 41 to the Minister, who set them in the Safety and Health Special Education Rules (Anzen Eisei Tokubetsu Kyōiku Kitei, 安全衛生特別教育規程, Ministry of Labor Notice No. 92 of 1972). Each article of the Rules lists classroom subjects with a minimum time for each, then a minimum practical time ([MHLW law database: Safety and Health Special Education Rules](https://www.mhlw.go.jp/web/t_doc?dataId=74085000&dataType=0&pageNo=1)). The figures below are the totals of those minimums."
+        },
+        {
+          "type": "table",
+          "caption": "Selected minimum hours under the Safety and Health Special Education Rules, as at November 2026",
+          "head": ["Operation", "Ordinance art. 36 item", "Article of the Rules", "Minimum classroom hours", "Minimum practical hours"],
+          "rows": [
+            ["Arc welding and cutting", "Item 3", "Art. 4", "11 (1 theory, 3 equipment, 6 work methods, 1 law)", "10"],
+            ["Low voltage live circuit work", "Item 4", "Art. 6", "7", "7, or 1 for workers who only operate switches"],
+            ["Forklift, maximum load under 1 ton", "Item 5", "Art. 7", "6", "6 (4 travel operation, 2 load handling)"],
+            ["Truck tail gate lifter", "Item 5-4", "Art. 7-4", "4", "2"],
+            ["Teaching industrial robots", "Item 31", "Art. 18", "7", "3 (1 operation, 2 teaching)"],
+            ["Tunnel excavation and lining work", "Item 30", "Art. 17", "7", "None (classroom only)"],
+            ["Scaffolding assembly, dismantling or alteration", "Item 39", "Art. 22", "6", "None (classroom only)"],
+            ["Full harness fall arrest work", "Item 41", "Art. 24", "4.5", "1.5"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The tail gate lifter course in article 7-4 was added by MHLW Notice No. 104 of 2023, so trucking and logistics employers that had no special education obligation before then may have gaps in their records. Operations outside article 39 have their own notices. The MHLW law database lists, among others, the Crane Handling Special Education Rules (Ministry of Labor Notice No. 118 of 1972), the Oxygen Deficiency Hazardous Work Special Education Rules (Ministry of Labor Notice No. 132 of 1972) and the Dust Work Special Education Rules (Ministry of Labor Notice No. 68 of 1979)."
+        }
+      ]
+    },
+    {
+      "id": "omission-and-records",
+      "heading": "When can subjects be omitted, and what record must be kept?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An employer may omit a subject only for a worker recognized as having sufficient knowledge and skill in it (Ordinance article 37), and must keep a record of every special education session for three years (article 38). Article 38 reads: \"事業者は、特別教育を行なつたときは、当該特別教育の受講者、科目等の記録を作成して、これを三年間保存しておかなければならない\", meaning the record must show at least the participants and subjects."
+        },
+        {
+          "type": "p",
+          "text": "Because the Ordinance says \"participants, subjects and similar details\", a defensible record usually also captures the date, the hours delivered against each minimum in the Rules, the instructor and the course provider. An omission decision should be written down with the evidence relied on, such as a prior completion certificate from another employer. For retention planning across jurisdictions, see [how long to keep training records](/guides/how-long-to-keep-training-records)."
+        }
+      ]
+    },
+    {
+      "id": "who-carries-the-duty",
+      "heading": "Who must provide special education for dispatched workers and contractors?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "For a dispatched worker, the host company provides special education. Article 45(3) of the Worker Dispatch Act (Act No. 88 of 1985) treats the host as the employer for article 59(3), while hiring education under article 59(1) stays with the staffing agency ([Worker Dispatch Act, e-Gov](https://laws.e-gov.go.jp/law/360AC0000000088)). Article 45(6) also bars the agency from dispatching a worker if following the dispatch contract would make the host breach article 59(3)."
+        },
+        {
+          "type": "p",
+          "text": "Subcontractors on a shared site remain responsible for their own employees. From April 1, 2027, a new article 59(4) added by Act No. 33 of 2025 will also require owner operators and working company officers to receive special education when they do listed work at the same site as workers. That change and its guideline are described on the [Industrial Safety and Health Act page](/regulations/japan-industrial-safety-and-health-act-training)."
+        }
+      ]
+    },
+    {
+      "id": "penalties",
+      "heading": "What are the penalties for skipping special education?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Failing to give special education is punishable under article 119 of the Act by up to six months of confinement (kōkinkei, 拘禁刑) or a fine of up to 500,000 yen. Article 122 adds a fine on the company itself when an employee commits the breach in the course of business, so both the responsible supervisor and the corporation can be prosecuted."
+        },
+        {
+          "type": "p",
+          "text": "In practice, inspectors from the Labor Standards Inspection Office ask for the article 38 record when they investigate an accident involving a listed operation. A missing record makes it hard to show the education happened at all, which is why the record design matters as much as the course content."
+        }
+      ]
+    },
+    {
+      "id": "obligation-evidence-map",
+      "heading": "How can special education be mapped to roles, timing and audit evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Treat each covered operation as its own obligation in your [compliance obligations register](/glossary/compliance-obligations-register), linked to the roles that perform it. The mapping below is illustrative good practice, not MHLW guidance; only the three year record comes directly from the Ordinance."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping of special education obligations to roles, timing and evidence",
+          "head": ["Obligation", "Role it applies to", "Timing", "Evidence an inspector would expect"],
+          "rows": [
+            ["Arc welding special education (item 3)", "Fabricators, maintenance fitters, construction welders", "Before first assignment to welding or cutting", "Article 38 record; 11 classroom and 10 practical hours logged; practical assessment sheet"],
+            ["Forklift under 1 ton (item 5)", "Warehouse and production staff driving small forklifts", "Before first operation; skill training course instead once a 1 ton or larger truck is used", "Record with 6 plus 6 hours; truck capacity on the asset register matching the training route"],
+            ["Tail gate lifter (item 5-4)", "Delivery drivers and loaders", "Before loading or unloading with the lifter", "Record of 4 classroom and 2 practical hours; vehicle list showing lifter fitted"],
+            ["Full harness work (item 41)", "Construction, telecom and maintenance staff working at 2 meters or more", "Before working at height in a full harness", "Record of 4.5 plus 1.5 hours; harness fitting check signed by instructor"],
+            ["Dispatched worker in a listed operation", "Host site supervisor", "Before the dispatched worker starts the operation", "Host's own article 38 record, or verified prior certificate with written omission decision"],
+            ["Omission of a subject (article 37)", "Safety manager approving the omission", "At the time of the decision", "Written rationale and copy of the prior evidence relied on"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "To turn this into a working assignment model, see [how to build a training matrix](/guides/how-to-build-a-training-matrix) and [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit). Manufacturers and energy operators can find sector context on the [energy and resources industry page](/industries/energy-resources)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models each article 36 item, its minimum hours and its record fields as linked concepts tied to the roles that perform the operation, before any course content is written. When a notice adds an operation, as the 2023 tail gate lifter change did, the affected roles and missing evidence can be traced directly from that framework."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can special education be delivered by e-learning in Japan?",
+      "a": "The classroom portion can, if it meets the same subjects, minimum hours and instructor conditions and the employer properly confirms attendance, according to an MHLW circular first issued in January 2021. Where the Rules set practical minimums, such as 10 hours for arc welding, the employer still has to show those practical hours were actually delivered on the equipment."
+    },
+    {
+      "q": "Does a special education certificate from a previous employer still count?",
+      "a": "It can support an omission under article 37 if the new employer recognizes that the worker has sufficient knowledge and skill in each subject. The employer should record that decision and keep a copy of the prior evidence, because the duty to educate, and the article 38 record, sit with the employer making the assignment."
+    },
+    {
+      "q": "Is there a refresher requirement for special education?",
+      "a": "The Ordinance sets no fixed refresher interval. Article 60-2 of the Act adds a separate duty to endeavor to educate workers already doing dangerous or harmful work, following an MHLW guideline, and that guideline was revised in May 2026 to apply from April 1, 2027."
+    },
+    {
+      "q": "Do office based companies ever need special education?",
+      "a": "Yes, if any employee performs a listed operation. Common examples are facilities staff doing low voltage electrical work, staff using a small forklift in a stockroom, and employees using a full harness for maintenance at height. The obligation follows the task, not the industry classification."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Industrial Safety and Health Act (Act No. 57 of 1972), current Japanese text",
+      "publisher": "e-Gov Law Search, Digital Agency, Government of Japan",
+      "url": "https://laws.e-gov.go.jp/law/347AC0000000057"
+    },
+    {
+      "title": "Ordinance on Industrial Safety and Health (Ministry of Labor Ordinance No. 32 of 1972), current Japanese text",
+      "publisher": "e-Gov Law Search, Digital Agency, Government of Japan",
+      "url": "https://laws.e-gov.go.jp/law/347M50002000032"
+    },
+    {
+      "title": "Safety and Health Special Education Rules (Ministry of Labor Notice No. 92 of 1972)",
+      "publisher": "Ministry of Health, Labour and Welfare, law database",
+      "url": "https://www.mhlw.go.jp/web/t_doc?dataId=74085000&dataType=0&pageNo=1"
+    },
+    {
+      "title": "Act on Securing the Proper Operation of Worker Dispatching Undertakings and Protecting Dispatched Workers (Act No. 88 of 1985), current Japanese text",
+      "publisher": "e-Gov Law Search, Digital Agency, Government of Japan",
+      "url": "https://laws.e-gov.go.jp/law/360AC0000000088"
+    },
+    {
+      "title": "Licenses, qualifications, skill training courses and special education under industrial safety and health law (including the list of restricted work and special education)",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/roudoukijun/anzeneisei10/qualificaton_education.html"
+    }
+  ],
+  "related": [
+    "japan-industrial-safety-and-health-act-training",
+    "japan-skill-training-courses-for-licensed-work",
+    "japan-new-hire-safety-and-health-education",
+    "osha-forklift-operator-training-requirements",
+    "high-risk-work-licence-requirements",
+    "how-to-prepare-training-records-for-an-audit"
+  ],
+  "productLinks": [
+    { "label": "Compliance programs", "href": "/programs/compliance" },
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    { "claim": "Article 59(3) of the Act requires special education before assigning MHLW listed dangerous or harmful work; article 119 punishes breach of 59(3) with up to six months of kōkinkei or a fine up to 500,000 yen; article 122 adds corporate fines.", "source": "https://laws.e-gov.go.jp/law/347AC0000000057" },
+    { "claim": "Ordinance article 36 lists the special education operations from item 1 to item 41 with sub-items (including 4-2 batteries over 50 V, 5 forklifts under 1 t, 5-4 tail gate lifters, 10-5 aerial work platforms under 10 m, 31 and 32 robots, 39 scaffolding, 40 rope access, 41 full harness at 2 m or more); article 37 allows omission for sufficient knowledge and skill; article 38 requires a record of participants and subjects kept 3 years; article 39 delegates details for items 1 to 13, 27, 30 to 36 and 39 to 41 to the Minister.", "source": "https://laws.e-gov.go.jp/law/347M50002000032" },
+    { "claim": "Safety and Health Special Education Rules (Notice No. 92 of 1972): arc welding 1+3+6+1 classroom hours and 10 practical (art. 4); low voltage 7 classroom and 7 practical, 1 hour for switch operation only (art. 6); forklift under 1 t 6 classroom and 4+2 practical (art. 7); tail gate lifter 1.5+2+0.5 classroom and 2 practical, added by MHLW Notice No. 104 of 2023 (art. 7-4); robot teaching 2+4+1 classroom and 1+2 practical (art. 18); tunnel work classroom only totaling 7 (art. 17); scaffolding classroom only 3+0.5+1.5+1 (art. 22); full harness 1+2+1+0.5 classroom and 1.5 practical (art. 24).", "source": "https://www.mhlw.go.jp/web/t_doc?dataId=74085000&dataType=0&pageNo=1" },
+    { "claim": "Worker Dispatch Act article 45(1) applies ISH Act 59(2) to both agency and host; 45(3) applies 59(3) and 61(1) to the host as employer; 45(6) prohibits dispatch where the host would breach 59(3) or 61(1).", "source": "https://laws.e-gov.go.jp/law/360AC0000000088" },
+    { "claim": "Separate special education notices exist for cranes (Notice No. 118 of 1972), oxygen deficiency (Notice No. 132 of 1972) and dust work (Notice No. 68 of 1979), confirmed in the MHLW law database titles.", "source": "https://www.mhlw.go.jp/web/t_doc?dataId=74106000&dataType=0&pageNo=1" },
+    { "claim": "MHLW publishes a combined list of restricted work and special education items on its qualifications page.", "source": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/roudoukijun/anzeneisei10/qualificaton_education.html" }
+  ]
+}
