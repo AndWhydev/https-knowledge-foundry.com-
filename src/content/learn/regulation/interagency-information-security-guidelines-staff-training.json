@@ -1,0 +1,299 @@
+{
+  "slug": "interagency-information-security-guidelines-staff-training",
+  "kind": "regulation",
+  "title": "What staff training do the Interagency Guidelines Establishing Information Security Standards require of banks?",
+  "seoTitle": "Bank GLBA security guidelines training",
+  "description": "Bank staff training under the Interagency Guidelines Establishing Information Security Standards, 12 CFR Part 30 and 364 Appendix B, as at November 2026.",
+  "shortAnswer": "The Interagency Guidelines Establishing Information Security Standards, issued under the Gramm-Leach-Bliley Act (GLBA) and codified at 12 CFR Part 30 Appendix B (OCC), Part 364 Appendix B (FDIC) and Part 208 Appendix D-2 (Federal Reserve), require every bank to \"train staff to implement\" its written information security program. The guidelines set no hours or frequency. Training scope follows the bank's risk assessment, and the program must be reported to the board at least annually.",
+  "keyTakeaways": [
+    "Paragraph III.C.2 of each agency's version of the guidelines states the duty in five words: train staff to implement the institution's information security program.",
+    "The same text appears for national banks and federal savings associations (12 CFR Part 30 App. B), FDIC-supervised institutions (Part 364 App. B), state member banks (Part 208 App. D-2) and bank holding companies (Part 225 App. F). Credit unions have a parallel NCUA version (Part 748 App. A).",
+    "Training content is driven by the paragraph III.B risk assessment and the III.C.1 controls the bank adopts, including controls to stop employees giving customer information to people seeking it by fraudulent means.",
+    "Supplement A expects a response program and trained personnel able to respond to customer inquiries after an incident. Separately, banks must notify their primary federal regulator of a notification incident within 36 hours under the computer-security incident notification rule.",
+    "Paragraph III.F requires a report to the board, or an appropriate committee, at least annually on the overall status of the program and compliance with the guidelines."
+  ],
+  "jurisdiction": "United States (federal banking)",
+  "regulator": "Office of the Comptroller of the Currency (OCC), Federal Deposit Insurance Corporation (FDIC) and Board of Governors of the Federal Reserve System, with a parallel National Credit Union Administration (NCUA) version",
+  "appliesTo": [
+    "National banks, federal savings associations, federal branches and agencies of foreign banks, and their subsidiaries other than brokers, dealers, insurers, investment companies and investment advisers (OCC version)",
+    "FDIC-insured state nonmember banks, insured state savings associations and insured state branches of foreign banks (FDIC version)",
+    "State member banks and bank holding companies (Federal Reserve versions)",
+    "All staff who implement the information security program, with deeper training for those who access or administer customer information systems"
+  ],
+  "sections": [
+    {
+      "id": "what-the-guidelines-are",
+      "heading": "What are the Interagency Guidelines Establishing Information Security Standards?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They are the federal banking agencies' standards for protecting customer information, issued under section 39 of the Federal Deposit Insurance Act and sections 501 and 505(b) of the GLBA, and also covering proper disposal of consumer information under the Fair Credit Reporting Act. Each agency codified the same text in its own rules: [12 CFR Part 30, Appendix B](https://www.law.cornell.edu/cfr/text/12/appendix-B_to_part_30) for the OCC, [12 CFR Part 364, Appendix B](https://www.law.cornell.edu/cfr/text/12/appendix-B_to_part_364) for the FDIC, and [12 CFR Part 208, Appendix D-2](https://www.law.cornell.edu/cfr/text/12/appendix-D-2_to_part_208) and Part 225, Appendix F for the Federal Reserve."
+        },
+        {
+          "type": "p",
+          "text": "The guidelines require a comprehensive written information security program with administrative, technical and physical safeguards appropriate to the institution's size, complexity and activities. The program must be designed to ensure the security and confidentiality of customer information, protect against anticipated threats, protect against unauthorized access that could cause substantial harm or inconvenience to a customer, and ensure proper disposal. Institutions were required to implement a program by July 1, 2001, and the disposal measures by July 1, 2005. This page states the position as at November 2026."
+        },
+        {
+          "type": "p",
+          "text": "Non-bank financial institutions are covered by a different rule, the FTC Safeguards Rule, explained on the [FTC Safeguards Rule employee training](/regulations/ftc-safeguards-rule-employee-training) page. New York-regulated entities should also check the [NYDFS Part 500 training requirements](/regulations/nydfs-part-500-cybersecurity-training-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "the-training-duty",
+      "heading": "What exactly does paragraph III.C.2 require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Paragraph III.C requires each institution to manage and control risk. Its second item reads, in the OCC version:"
+        },
+        {
+          "type": "callout",
+          "title": "12 CFR Part 30, Appendix B, paragraph III.C.2",
+          "text": "\"Train staff to implement the national bank's or Federal savings association's information security program.\""
+        },
+        {
+          "type": "p",
+          "text": "The FDIC version reads \"Train staff to implement the institution's information security program,\" the Federal Reserve's Regulation H version refers to \"the bank's information security program,\" and the NCUA's [Part 748, Appendix A](https://www.law.cornell.edu/cfr/text/12/appendix-A_to_part_748) refers to \"the credit union's information security program.\" None of the versions specifies hours, frequency, format or a syllabus."
+        },
+        {
+          "type": "p",
+          "text": "The operative words are \"to implement.\" Training is measured against the bank's own program: staff need to be able to carry out the controls, procedures and response steps the program contains. A generic security awareness course that does not reflect the bank's actual controls is a weak answer to an examiner who asks how staff were prepared to implement this program."
+        }
+      ]
+    },
+    {
+      "id": "risk-assessment-drives-content",
+      "heading": "How should the risk assessment shape training content?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training content should follow the risks identified under paragraph III.B and the controls adopted under III.C.1. Paragraph III.B requires the institution to identify reasonably foreseeable internal and external threats, assess their likelihood and potential damage, and assess the sufficiency of existing policies, procedures, systems and other arrangements."
+        },
+        {
+          "type": "p",
+          "text": "Paragraph III.C.1 then lists eight measures each institution must consider and adopt if appropriate. Several translate directly into training topics. Measure (a) covers access controls, including \"controls to prevent employees from providing customer information to unauthorized individuals who may seek to obtain this information through fraudulent means,\" which is the guidelines' description of social engineering. Measure (e) covers dual control, segregation of duties and background checks for employees with access to customer information. Measure (g) covers response programs for suspected or detected unauthorized access, including reports to regulators and law enforcement."
+        },
+        {
+          "type": "p",
+          "text": "Paragraph III.E requires the program to be adjusted for relevant changes in technology, information sensitivity, threats and business arrangements such as mergers and outsourcing. A change that alters the program should trigger a review of the training. See [how to update training when regulations change](/guides/how-to-update-training-when-regulations-change)."
+        }
+      ]
+    },
+    {
+      "id": "incident-response-training",
+      "heading": "What incident response skills should staff have?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Staff who may handle an incident need to know the response program's steps and the notification deadlines that apply. Supplement A to Appendix B, the Interagency Guidance on Response Programs, says a response program should at a minimum contain procedures for assessing the nature and scope of an incident, notifying the primary federal regulator as soon as possible of incidents involving sensitive customer information, notifying law enforcement and filing suspicious activity reports where required, containing and controlling the incident while preserving records and evidence, and notifying customers when warranted."
+        },
+        {
+          "type": "p",
+          "text": "Supplement A also says customer notices should include a telephone number for further information, and that the institution should have reasonable policies and procedures in place, \"including trained personnel,\" to respond appropriately to customer inquiries and requests for assistance. Front line and contact center staff are therefore part of the incident response training population."
+        },
+        {
+          "type": "p",
+          "text": "A separate and shorter clock applies to operational incidents. Under the computer-security incident notification rule, for national banks at [12 CFR 53.3](https://www.law.cornell.edu/cfr/text/12/53.3), a banking organization must notify its OCC supervisory office of a notification incident as soon as possible and no later than 36 hours after determining that one has occurred. The FDIC and Federal Reserve have parallel rules. The people who make that determination need to know the definition and the deadline."
+        }
+      ]
+    },
+    {
+      "id": "board-and-testing",
+      "heading": "How do board reporting and testing relate to training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Under paragraph III.A, the board or an appropriate committee must approve the written program and oversee its development, implementation and maintenance, including assigning specific responsibility for implementation. Under III.F, the institution must report to the board at least annually on the overall status of the program and compliance with the guidelines, covering material matters such as risk assessment, risk management and control decisions, service provider arrangements, testing results, security breaches and recommended changes."
+        },
+        {
+          "type": "p",
+          "text": "Paragraph III.C.3 requires regular testing of key controls, systems and procedures, with frequency and nature set by the risk assessment, conducted or reviewed by independent third parties or independent staff. Training completion, phishing simulation results and incident handling exercises are reasonable inputs to both the testing program and the annual board report. See [how to report training compliance to the board](/guides/how-to-report-training-compliance-to-the-board)."
+        }
+      ]
+    },
+    {
+      "id": "recent-amendment",
+      "heading": "Have the guidelines changed recently?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Only in a narrow way. The OCC and FDIC [final rule on reputation risk](https://www.federalregister.gov/documents/2026/04/10/2026-06947/prohibition-on-the-use-of-reputation-risk-by-regulators), published April 10, 2026 (91 FR 18279) and effective June 9, 2026, amended Supplement A in both the OCC and FDIC appendices. The OCC version of the customer notice section no longer refers to managing reputation risk as a reason for timely notification. The training duty in paragraph III.C.2 is unchanged."
+        }
+      ]
+    },
+    {
+      "id": "obligation-evidence-map",
+      "heading": "How can a bank map the guidelines to training audiences and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The table below is an original planning aid that maps the training-relevant provisions of the guidelines to the audience, the frequency stated or implied, and the evidence an examiner would reasonably expect."
+        },
+        {
+          "type": "table",
+          "caption": "Interagency information security guidelines mapped to training audience, frequency and evidence",
+          "head": [
+            "Provision",
+            "Audience",
+            "Frequency",
+            "Evidence an examiner would expect"
+          ],
+          "rows": [
+            [
+              "III.C.2 train staff",
+              "All staff who implement the program, segmented by role",
+              "Not stated; set by the bank and its risk assessment",
+              "Training plan mapped to program controls, role-based curricula, completion records reconciled to headcount"
+            ],
+            [
+              "III.C.1(a) social engineering controls",
+              "Staff who handle customer contact or customer information",
+              "Not stated; risk-based",
+              "Content on verifying requesters and refusing fraudulent requests, simulation or test results"
+            ],
+            [
+              "III.C.1(e) dual control and background checks",
+              "Employees with responsibilities for or access to customer information",
+              "On hire and on role change",
+              "Background check records, segregation of duties procedures and the training that explains them"
+            ],
+            [
+              "Supplement A response program",
+              "Incident responders, contact center and customer-facing staff",
+              "Not stated; before an incident and after program changes",
+              "Response procedures, exercise records, scripts for customer inquiries"
+            ],
+            [
+              "12 CFR 53.3 and parallel rules (36 hours)",
+              "Staff who determine whether a notification incident occurred",
+              "Not stated; maintain current knowledge",
+              "Escalation procedure naming the 36-hour deadline, training or briefing records for decision makers"
+            ],
+            [
+              "III.F annual board report",
+              "Board or appropriate committee",
+              "At least annually",
+              "Report covering program status, testing results and incidents, with training metrics where relevant"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For general method, see [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations) and [NIST SP 800-50 security awareness training](/regulations/nist-sp-800-50-security-awareness-training), which many banks use as a design reference."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps each control in the bank's information security program to the roles that operate it and the knowledge those roles need, before training is written. When the risk assessment or the program changes, that map shows which audiences and modules are affected. See the [financial services](/industries/financial-services) page."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do the interagency guidelines require annual security awareness training?",
+      "a": "No frequency is stated. Paragraph III.C.2 requires staff training to implement the program, and paragraph III.E requires the program to be adjusted as threats and business arrangements change. Many banks train annually and add updates when the risk assessment changes, but the interval is the bank's decision."
+    },
+    {
+      "q": "Do the guidelines apply to a bank's broker-dealer subsidiary?",
+      "a": "No. The OCC scope excludes subsidiaries that are brokers, dealers, persons providing insurance, investment companies and investment advisers. Those entities fall under other rules, such as SEC Regulation S-P for broker-dealers and investment advisers."
+    },
+    {
+      "q": "Are service provider staff covered by the training duty?",
+      "a": "Not directly. Paragraph III.D requires due diligence in selecting service providers, contracts requiring appropriate safeguards, and risk-based monitoring. Banks commonly address provider staff training through contract terms and by reviewing providers' audits or test results."
+    },
+    {
+      "q": "What is the difference between Supplement A notice and the 36-hour rule?",
+      "a": "Supplement A covers unauthorized access to customer information and expects notice to the primary federal regulator as soon as possible and to customers when warranted. The computer-security incident notification rule covers incidents that materially disrupt operations and requires regulator notice within 36 hours of determining a notification incident occurred."
+    }
+  ],
+  "sources": [
+    {
+      "title": "12 CFR Part 30, Appendix B: Interagency Guidelines Establishing Information Security Standards (OCC)",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)",
+      "url": "https://www.law.cornell.edu/cfr/text/12/appendix-B_to_part_30"
+    },
+    {
+      "title": "12 CFR Part 364, Appendix B: Interagency Guidelines Establishing Information Security Standards (FDIC)",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)",
+      "url": "https://www.law.cornell.edu/cfr/text/12/appendix-B_to_part_364"
+    },
+    {
+      "title": "12 CFR Part 208, Appendix D-2: Interagency Guidelines Establishing Information Security Standards (Federal Reserve)",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)",
+      "url": "https://www.law.cornell.edu/cfr/text/12/appendix-D-2_to_part_208"
+    },
+    {
+      "title": "12 CFR Part 748, Appendix A: Guidelines for Safeguarding Member Information (NCUA)",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)",
+      "url": "https://www.law.cornell.edu/cfr/text/12/appendix-A_to_part_748"
+    },
+    {
+      "title": "12 CFR 53.3 Notification (computer-security incident notification)",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)",
+      "url": "https://www.law.cornell.edu/cfr/text/12/53.3"
+    },
+    {
+      "title": "Prohibition on the Use of Reputation Risk by Regulators (final rule, 91 FR 18279)",
+      "publisher": "Office of the Comptroller of the Currency and Federal Deposit Insurance Corporation, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/04/10/2026-06947/prohibition-on-the-use-of-reputation-risk-by-regulators"
+    }
+  ],
+  "related": [
+    "ftc-safeguards-rule-employee-training",
+    "nydfs-part-500-cybersecurity-training-requirements",
+    "sec-regulation-s-p-2024-amendments-staff-implications",
+    "occ-heightened-standards-talent-and-training",
+    "nist-sp-800-50-security-awareness-training",
+    "how-to-build-a-training-matrix-for-a-bank"
+  ],
+  "productLinks": [
+    {
+      "label": "Financial services",
+      "href": "/industries/financial-services"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "Paragraph III.C.2 of 12 CFR Part 30 Appendix B requires national banks and federal savings associations to train staff to implement the information security program.",
+      "source": "https://www.law.cornell.edu/cfr/text/12/appendix-B_to_part_30"
+    },
+    {
+      "claim": "The FDIC version (12 CFR Part 364 App. B, III.C.2) reads: Train staff to implement the institution's information security program.",
+      "source": "https://www.law.cornell.edu/cfr/text/12/appendix-B_to_part_364"
+    },
+    {
+      "claim": "The Federal Reserve Regulation H version (12 CFR Part 208 App. D-2) contains the same staff training item, and NCUA Part 748 App. A refers to the credit union's information security program.",
+      "source": "https://www.law.cornell.edu/cfr/text/12/appendix-D-2_to_part_208"
+    },
+    {
+      "claim": "Paragraph III.C.1(a) includes controls to prevent employees from providing customer information to unauthorized individuals who may seek to obtain it through fraudulent means; III.F requires a report to the board at least annually; III.G set implementation by July 1, 2001 and disposal measures by July 1, 2005.",
+      "source": "https://www.law.cornell.edu/cfr/text/12/appendix-B_to_part_30"
+    },
+    {
+      "claim": "Supplement A lists minimum response program procedures and says institutions should have reasonable policies and procedures, including trained personnel, to respond to customer inquiries and requests for assistance.",
+      "source": "https://www.law.cornell.edu/cfr/text/12/appendix-B_to_part_30"
+    },
+    {
+      "claim": "12 CFR 53.3 requires notice to the OCC as soon as possible and no later than 36 hours after a banking organization determines a notification incident has occurred.",
+      "source": "https://www.law.cornell.edu/cfr/text/12/53.3"
+    },
+    {
+      "claim": "The reputation risk final rule (91 FR 18279, April 10, 2026, effective June 9, 2026) amended Supplement A to Appendix B in the OCC (91 FR 18293) and FDIC (91 FR 18294) rules.",
+      "source": "https://www.federalregister.gov/documents/2026/04/10/2026-06947/prohibition-on-the-use-of-reputation-risk-by-regulators"
+    }
+  ]
+}

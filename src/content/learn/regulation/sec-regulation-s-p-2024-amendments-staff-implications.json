@@ -1,0 +1,321 @@
+{
+  "slug": "sec-regulation-s-p-2024-amendments-staff-implications",
+  "kind": "regulation",
+  "title": "Do the 2024 Regulation S-P amendments require staff training, and what should staff know?",
+  "seoTitle": "Regulation S-P 2024 amendments: staff",
+  "description": "SEC Regulation S-P 2024 amendments: incident response, 30-day and 72-hour notices, compliance dates and whether training is required, as at November 2026.",
+  "shortAnswer": "The Securities and Exchange Commission (SEC) 2024 amendments to Regulation S-P, 17 CFR 248.30, require broker-dealers, investment companies, registered investment advisers and transfer agents to maintain an incident response program, notify affected individuals within 30 days, and oversee service providers that must report breaches within 72 hours. Larger entities had to comply by December 3, 2025 and smaller entities by June 3, 2026. Rule 248.30 contains no explicit staff training requirement.",
+  "keyTakeaways": [
+    "There is no explicit training duty in amended Rule 248.30. Training is still practically necessary, because the response program, notification and service provider procedures only work if staff can carry them out.",
+    "By contrast, Regulation S-ID, in the same Part 248, does state one: 17 CFR 248.201(e)(3) requires firms with covered accounts to \"train staff, as necessary, to effectively implement the Program.\"",
+    "Rule 248.30(a)(3) requires a response program reasonably designed to detect, respond to and recover from unauthorized access to or use of customer information, including assessment, containment and customer notification procedures.",
+    "Notice to affected individuals is due as soon as practicable and no later than 30 days after becoming aware of the incident, and service providers must notify the firm within 72 hours of becoming aware of a breach.",
+    "Compliance periods ran 18 months (larger entities) and 24 months (smaller entities) from Federal Register publication on June 3, 2024, so both dates have passed as at November 2026."
+  ],
+  "jurisdiction": "United States (federal securities regulation)",
+  "regulator": "Securities and Exchange Commission (SEC)",
+  "appliesTo": [
+    "Brokers and dealers (notice-registered broker-dealers are excluded from the disposal requirements)",
+    "Investment companies",
+    "Investment advisers registered with the SEC",
+    "Transfer agents registered with the SEC or another appropriate regulatory agency",
+    "Staff who detect, escalate, investigate or communicate about incidents, manage service providers, or dispose of customer and consumer information"
+  ],
+  "sections": [
+    {
+      "id": "training-duty-answer",
+      "heading": "Is there an explicit training requirement in the amended rule?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No. As amended, [17 CFR 248.30](https://www.law.cornell.edu/cfr/text/17/248.30) requires written policies and procedures, a response program, notification, service provider oversight, disposal procedures and, for some entities, records, but none of its paragraphs uses the words train or training. Any statement that the 2024 amendments \"mandate annual training\" is not supported by the rule text."
+        },
+        {
+          "type": "p",
+          "text": "The SEC's adopting release does treat training as a relevant safeguard. In its economic analysis, the SEC describes \"measures aimed at strengthening information safeguards such as improved user access control or staff training\" as likely to protect a covered institution's customer information systems. Commenters also cited training employees as an implementation cost. Neither point creates a legal duty, but both show that examiners will reasonably expect staff to know the procedures."
+        },
+        {
+          "type": "callout",
+          "title": "Contrast with Regulation S-ID",
+          "text": "Paragraph (e)(3) of [17 CFR 248.201](https://www.law.cornell.edu/cfr/text/17/248.201), the SEC's Identity Theft Red Flags rule, requires each financial institution or creditor that must have an Identity Theft Prevention Program to \"Train staff, as necessary, to effectively implement the Program.\" Many firms subject to Regulation S-P are also subject to Regulation S-ID, so they already have an explicit training duty for identity theft red flags in the same Part of the CFR."
+        },
+        {
+          "type": "p",
+          "text": "This page states the position as at November 2026."
+        }
+      ]
+    },
+    {
+      "id": "who-is-covered",
+      "heading": "Who must comply with amended Regulation S-P?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rule 248.30(d)(3) defines a covered institution as any broker or dealer, any investment company, and any investment adviser or transfer agent registered with the SEC or another appropriate regulatory agency. Bringing transfer agents into the safeguards and disposal rules was one of the main scope changes."
+        },
+        {
+          "type": "p",
+          "text": "Customer information is broad. For covered institutions other than transfer agents, it means any record containing nonpublic personal information about a customer of a financial institution, in any form, that is in the institution's possession or handled on its behalf, whether it relates to the institution's own customers or to customers of other financial institutions that provided it. Bank-supervised institutions follow different rules, covered on the [interagency information security guidelines](/regulations/interagency-information-security-guidelines-staff-training) page."
+        }
+      ]
+    },
+    {
+      "id": "compliance-dates",
+      "heading": "When did the amendments take effect?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The [final rule](https://www.federalregister.gov/documents/2024/06/03/2024-11116/regulation-s-p-privacy-of-consumer-financial-information-and-safeguarding-customer-information) was published in the Federal Register on June 3, 2024 (89 FR 47688) and became effective August 2, 2024. The SEC set compliance periods of 18 months after publication for larger entities and 24 months for smaller entities, which fall on December 3, 2025 and June 3, 2026."
+        },
+        {
+          "type": "table",
+          "caption": "Larger entity thresholds and compliance dates (from the adopting release)",
+          "head": [
+            "Entity type",
+            "Treated as a larger entity if",
+            "Larger entity compliance date",
+            "Smaller entity compliance date"
+          ],
+          "rows": [
+            [
+              "Investment companies (with related investment companies in the same group)",
+              "Net assets of $1 billion or more at the end of the most recent fiscal year",
+              "December 3, 2025",
+              "June 3, 2026"
+            ],
+            [
+              "Registered investment advisers",
+              "$1.5 billion or more in assets under management",
+              "December 3, 2025",
+              "June 3, 2026"
+            ],
+            [
+              "Broker-dealers",
+              "Not a small entity under the Exchange Act for Regulatory Flexibility Act purposes (small means total capital under $500,000 and not affiliated with a non-small entity)",
+              "December 3, 2025",
+              "June 3, 2026"
+            ],
+            [
+              "Transfer agents",
+              "Not a small entity under the Exchange Act for Regulatory Flexibility Act purposes",
+              "December 3, 2025",
+              "June 3, 2026"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "No extension of these dates appears in the Federal Register as at November 2026, so every covered institution should now be operating under the amended rule. Training programs that were planned as implementation projects should now be running as maintained programs. See [how to update training when regulations change](/guides/how-to-update-training-when-regulations-change)."
+        }
+      ]
+    },
+    {
+      "id": "response-program",
+      "heading": "What must the incident response program do?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rule 248.30(a)(3) requires the written policies and procedures to include a program reasonably designed to detect, respond to and recover from unauthorized access to or use of customer information, including customer notification procedures. The program must include procedures to assess the nature and scope of any incident and identify the systems and types of customer information that may have been accessed or used; take appropriate steps to contain and control the incident; and notify each affected individual whose sensitive customer information was, or is reasonably likely to have been, accessed or used without authorization."
+        },
+        {
+          "type": "p",
+          "text": "Notification is not required if, after a reasonable investigation, the institution determines that sensitive customer information has not been, and is not reasonably likely to be, used in a manner that would result in substantial harm or inconvenience. That determination is a judgment call made under time pressure, and the people who make it need to understand the definition of sensitive customer information in 248.30(d)(9), which includes identifiers such as Social Security numbers, biometric records and account credentials."
+        }
+      ]
+    },
+    {
+      "id": "notification-and-vendors",
+      "heading": "What deadlines and notice contents must staff know?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Two clocks matter. Under 248.30(a)(4)(iii), notice to affected individuals is due as soon as practicable, but not later than 30 days after becoming aware that unauthorized access or use has occurred or is reasonably likely to have occurred. Delays are possible only if the US Attorney General determines that notice poses a substantial risk to national security or public safety and notifies the SEC in writing. Under 248.30(a)(5)(i)(B), the institution's policies must be reasonably designed to ensure service providers notify it as soon as possible and no later than 72 hours after becoming aware of a breach resulting in unauthorized access to a customer information system they maintain. On receiving that notice, the institution must initiate its response program."
+        },
+        {
+          "type": "p",
+          "text": "Notices must be clear and conspicuous and, under 248.30(a)(4)(iv), describe the incident and the type of sensitive customer information involved, give the incident date or range where reasonably possible, provide contact details including a telephone number, email or equivalent, postal address and named office, recommend reviewing account statements where relevant, explain fraud alerts and free credit reports, and point to FTC and usa.gov identity theft guidance. Staff drafting notices or answering customer calls should be trained on this list."
+        },
+        {
+          "type": "p",
+          "text": "The obligation to ensure notification stays with the covered institution even if a service provider sends the notices under a written agreement, per 248.30(a)(5)(iii). Vendor managers therefore need to know the 72-hour contractual standard and the escalation route when a vendor reports an incident."
+        }
+      ]
+    },
+    {
+      "id": "records",
+      "heading": "What records do the amendments require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The amendments added recordkeeping provisions for each type of covered institution. For broker-dealers, new SEC Rule 17a-4(e)(14) requires preserving the written policies and procedures until three years after they cease to be used, documentation of detected unauthorized access and the response for three years, documentation of each notification investigation and determination (including any Attorney General correspondence and a copy of any notice) for three years, and service provider agreements until three years after termination. Investment advisers have a parallel requirement in Rule 204-2(a)(25), and unregistered investment companies keep records under 248.30(c) for at least six years."
+        },
+        {
+          "type": "p",
+          "text": "None of these provisions requires training records. A firm that trains staff on its response program should still keep completion and content records, because they are the simplest evidence that the written procedures were implemented. See [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
+        }
+      ]
+    },
+    {
+      "id": "staff-training-map",
+      "heading": "What should each group of staff be trained on?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because the rule sets duties rather than training, the practical approach is to derive training from each duty and the people who perform it. The table below is an original planning aid; the training content and frequency are recommendations, while the duties and deadlines are taken from Rule 248.30."
+        },
+        {
+          "type": "table",
+          "caption": "Rule 248.30 duties mapped to staff groups, suggested training focus and evidence",
+          "head": [
+            "Rule 248.30 duty",
+            "Staff group",
+            "Suggested training focus",
+            "Evidence a firm could keep"
+          ],
+          "rows": [
+            [
+              "(a)(3)(i) to (ii) assess and contain incidents",
+              "IT, security operations, incident response team",
+              "Response program steps, system and data inventories, containment playbooks",
+              "Playbook version, exercise records, completion by named responder"
+            ],
+            [
+              "(a)(3) detect and escalate",
+              "All staff with access to customer information",
+              "Recognizing possible unauthorized access and reporting it promptly through the defined channel",
+              "Awareness module completion, escalation channel test results"
+            ],
+            [
+              "(a)(4) notification determination and 30-day deadline",
+              "Legal, compliance, privacy and incident leads",
+              "Sensitive customer information definition, reasonable investigation standard, substantial harm or inconvenience test, Attorney General delay process",
+              "Decision memo template, tabletop exercise records"
+            ],
+            [
+              "(a)(4)(iv) notice contents",
+              "Communications and client service staff",
+              "Required notice elements and approved responses to customer inquiries",
+              "Approved notice template, call scripts, briefing records"
+            ],
+            [
+              "(a)(5) service provider oversight and 72-hour notice",
+              "Vendor management and procurement",
+              "Due diligence and monitoring duties, contract terms, intake of provider breach notices",
+              "Contract clause checklist, provider notice log, training completion"
+            ],
+            [
+              "(b) disposal",
+              "Operations, facilities and IT asset staff (not required of notice-registered broker-dealers)",
+              "Approved disposal methods for paper and media containing consumer or customer information",
+              "Disposal procedure, certificates of destruction, completion records"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Related US privacy and security training duties are covered on the [FTC Safeguards Rule employee training](/regulations/ftc-safeguards-rule-employee-training) and [US state privacy law employee training](/regulations/us-state-privacy-law-employee-training) pages, and the general mapping method is in [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Where a rule sets duties but no training requirement, Knowledge Foundry starts from the duties: each Rule 248.30 obligation is linked to the role that performs it and the knowledge that role needs, and training is built only against that map. The result shows an examiner why each group was trained on what it was, even though the rule itself is silent on training. See the [financial services](/industries/financial-services) page."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Regulation S-P require annual privacy or security training?",
+      "a": "No. Amended Rule 248.30 contains no training requirement and no frequency. Firms commonly train staff on the response program and related procedures because those procedures must be implemented, and because Regulation S-ID, which many of the same firms follow, does require training staff as necessary."
+    },
+    {
+      "q": "Are smaller investment advisers now subject to the amendments?",
+      "a": "Yes. Registered investment advisers with less than $1.5 billion in assets under management were smaller entities with a compliance date of June 3, 2026, 24 months after Federal Register publication. That date has passed as at November 2026."
+    },
+    {
+      "q": "Does the 72-hour period apply to the firm or to its vendors?",
+      "a": "To service providers. Rule 248.30(a)(5)(i)(B) requires the firm's policies to be reasonably designed to ensure service providers notify the firm within 72 hours of becoming aware of a breach. The firm's own deadline to notify affected individuals is 30 days."
+    },
+    {
+      "q": "Does Regulation S-P require notice to the SEC after an incident?",
+      "a": "Rule 248.30 as amended requires notice to affected individuals, not to the SEC. The SEC is involved only where the US Attorney General determines that notice poses a substantial risk to national security or public safety and notifies the SEC in writing. Firms should check their other legal and contractual obligations for separate reporting duties."
+    }
+  ],
+  "sources": [
+    {
+      "title": "17 CFR 248.30 Procedures to safeguard customer information, including response programs",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)",
+      "url": "https://www.law.cornell.edu/cfr/text/17/248.30"
+    },
+    {
+      "title": "17 CFR 248.201 Duties regarding the detection, prevention, and mitigation of identity theft",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)",
+      "url": "https://www.law.cornell.edu/cfr/text/17/248.201"
+    },
+    {
+      "title": "Regulation S-P: Privacy of Consumer Financial Information and Safeguarding Customer Information (final rule, 89 FR 47688)",
+      "publisher": "Securities and Exchange Commission, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2024/06/03/2024-11116/regulation-s-p-privacy-of-consumer-financial-information-and-safeguarding-customer-information"
+    }
+  ],
+  "related": [
+    "interagency-information-security-guidelines-staff-training",
+    "ftc-safeguards-rule-employee-training",
+    "us-state-privacy-law-employee-training",
+    "data-privacy-training-requirements-by-country",
+    "finra-rule-3110-annual-compliance-meeting",
+    "how-to-map-training-to-compliance-obligations"
+  ],
+  "productLinks": [
+    {
+      "label": "Financial services",
+      "href": "/industries/financial-services"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "Amended 17 CFR 248.30 contains no provision requiring staff training; it requires written policies and procedures, a response program, notification, service provider oversight, disposal procedures and certain records.",
+      "source": "https://www.law.cornell.edu/cfr/text/17/248.30"
+    },
+    {
+      "claim": "17 CFR 248.201(e)(3) requires financial institutions and creditors with an Identity Theft Prevention Program to train staff, as necessary, to effectively implement the Program.",
+      "source": "https://www.law.cornell.edu/cfr/text/17/248.201"
+    },
+    {
+      "claim": "Rule 248.30(a)(4)(iii) requires notice to affected individuals as soon as practicable but not later than 30 days after becoming aware of unauthorized access or use, subject to Attorney General delay determinations.",
+      "source": "https://www.law.cornell.edu/cfr/text/17/248.30"
+    },
+    {
+      "claim": "Rule 248.30(a)(5)(i)(B) requires policies reasonably designed to ensure service providers notify the covered institution as soon as possible and no later than 72 hours after becoming aware of a breach.",
+      "source": "https://www.law.cornell.edu/cfr/text/17/248.30"
+    },
+    {
+      "claim": "Rule 248.30(d)(3) defines covered institution as any broker or dealer, any investment company, and any investment adviser or transfer agent registered with the SEC or another appropriate regulatory agency.",
+      "source": "https://www.law.cornell.edu/cfr/text/17/248.30"
+    },
+    {
+      "claim": "The final rule was published June 3, 2024 (89 FR 47688), effective August 2, 2024, with compliance periods of 18 months (larger entities) and 24 months (smaller entities) after publication; larger entity thresholds are $1 billion net assets for investment companies and $1.5 billion AUM for RIAs.",
+      "source": "https://www.federalregister.gov/documents/2024/06/03/2024-11116/regulation-s-p-privacy-of-consumer-financial-information-and-safeguarding-customer-information"
+    },
+    {
+      "claim": "The adopting release added Rule 17a-4(e)(14), with three-year preservation of response, notification and service provider records for broker-dealers, and Rule 204-2(a)(25) for investment advisers.",
+      "source": "https://www.federalregister.gov/documents/2024/06/03/2024-11116/regulation-s-p-privacy-of-consumer-financial-information-and-safeguarding-customer-information"
+    },
+    {
+      "claim": "The adopting release's economic analysis refers to measures aimed at strengthening information safeguards such as improved user access control or staff training.",
+      "source": "https://www.federalregister.gov/documents/2024/06/03/2024-11116/regulation-s-p-privacy-of-consumer-financial-information-and-safeguarding-customer-information"
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "slug": "finra-rule-3310-aml-program-training",
+  "kind": "regulation",
+  "title": "What AML training and independent testing does FINRA Rule 3310 require of broker-dealers?",
+  "seoTitle": "FINRA Rule 3310 AML training",
+  "description": "FINRA Rule 3310(e) ongoing AML training for appropriate personnel, 3310(c) annual independent testing and tester independence, as at November 2026.",
+  "shortAnswer": "FINRA Rule 3310 requires every FINRA member broker-dealer to keep a written anti-money laundering (AML) program, approved in writing by senior management, that provides ongoing training for appropriate personnel under 3310(e) and independent testing every calendar year under 3310(c). Firms with no customer accounts test every two years. Testers must know the Bank Secrecy Act and be independent of the functions tested and of the AML compliance person.",
+  "keyTakeaways": [
+    "Rule 3310(e) requires the AML program to \"provide ongoing training for appropriate personnel.\" The parallel FinCEN rule, 31 CFR 1023.210(b)(4), requires \"ongoing training for appropriate persons.\"",
+    "Rule 3310(c) requires annual independent testing on a calendar-year basis, or every two calendar years for firms that do not execute customer transactions, hold customer accounts, or act as introducing brokers.",
+    "Supplementary Material 3310.01 bars the person performing the tested functions, the AML compliance person, and anyone reporting to either of them from conducting the independent test.",
+    "FINRA's 2026 Annual Regulatory Oversight Report lists \"Inadequate Training\" as a finding: not providing ongoing AML training to appropriate personnel that is tailored to the firm's business.",
+    "FinCEN proposed a rule to reform AML/CFT program requirements on April 10, 2026 (91 FR 18704). As at November 2026 it is a proposal, not a final rule."
+  ],
+  "jurisdiction": "United States (federal securities self-regulation)",
+  "regulator": "Financial Industry Regulatory Authority (FINRA); Financial Crimes Enforcement Network (FinCEN) for the underlying Bank Secrecy Act rule",
+  "appliesTo": [
+    "FINRA member broker-dealers",
+    "Appropriate personnel, as identified by each firm's risk-based AML program (for example onboarding, operations, registered representatives, surveillance and supervisory staff)",
+    "The designated AML compliance person or persons",
+    "Member personnel or qualified outside parties who perform the independent AML test"
+  ],
+  "sections": [
+    {
+      "id": "rule-3310-elements",
+      "heading": "What must a Rule 3310 AML program contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "[FINRA Rule 3310](https://www.finra.org/rules-guidance/rulebooks/finra-rules/3310) requires each member to develop and implement a written AML program reasonably designed to achieve and monitor compliance with the Bank Secrecy Act (31 U.S.C. 5311 et seq.) and Treasury's implementing regulations, approved in writing by a member of senior management. At a minimum the program must contain six elements, set out in paragraphs (a) to (f)."
+        },
+        {
+          "type": "table",
+          "caption": "The six minimum elements of a Rule 3310 AML program",
+          "head": [
+            "Paragraph",
+            "Element"
+          ],
+          "rows": [
+            [
+              "3310(a)",
+              "Policies and procedures that can reasonably be expected to detect and cause the reporting of suspicious transactions under 31 U.S.C. 5318(g)"
+            ],
+            [
+              "3310(b)",
+              "Policies, procedures and internal controls reasonably designed to achieve compliance with the Bank Secrecy Act and its regulations"
+            ],
+            [
+              "3310(c)",
+              "Annual (calendar-year) independent testing by member personnel or a qualified outside party, or every two calendar years for firms without customer business"
+            ],
+            [
+              "3310(d)",
+              "Designation of the AML compliance person or persons, identified to FINRA by name, title, mailing address, email, telephone and facsimile number, with prompt notice of changes"
+            ],
+            [
+              "3310(e)",
+              "Ongoing training for appropriate personnel"
+            ],
+            [
+              "3310(f)",
+              "Risk-based procedures for ongoing customer due diligence, including customer risk profiles and ongoing monitoring, with beneficial ownership information for legal entity customers"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The same six elements appear in FinCEN's program rule for broker-dealers, [31 CFR 1023.210](https://www.law.cornell.edu/cfr/text/31/1023.210), which also requires compliance with the rules of the firm's self-regulatory organization. A training gap is therefore a breach of both the FINRA rule and the federal Bank Secrecy Act requirement. For the wider US AML training picture across banks and other sectors, see [BSA/AML training requirements](/regulations/bsa-aml-training-requirements). This page states the position as at November 2026."
+        }
+      ]
+    },
+    {
+      "id": "what-ongoing-training-means",
+      "heading": "What does \"ongoing training for appropriate personnel\" require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rule 3310(e) requires training that continues over time and reaches the people whose roles touch AML risk, but it leaves the firm to define both. There is no prescribed frequency, duration or syllabus in the rule text. FINRA's view of what good looks like comes from its examination findings and effective practices."
+        },
+        {
+          "type": "p",
+          "text": "In the AML topic of the [2026 FINRA Annual Regulatory Oversight Report](https://www.finra.org/rules-guidance/guidance/reports/2026-finra-annual-regulatory-oversight-report/aml), FINRA lists \"Inadequate Training\" among its findings, described as \"Not providing ongoing AML training to appropriate personnel that is tailored to the firm's business.\" Its effective practices describe an AML training program tailored to individuals' roles and responsibilities that addresses AML risks relevant to the member's business and recent regulatory developments, and that draws on trends and findings from the firm's quality assurance controls and AML independent testing."
+        },
+        {
+          "type": "p",
+          "text": "Three design consequences follow. First, a single generic annual module for everyone is unlikely to be enough on its own, because the finding is about tailoring. Second, the population of \"appropriate personnel\" should be defined in writing, role by role, and kept current as people move. Third, the training content should change when the firm's AML risk assessment, independent test results or regulatory guidance change."
+        }
+      ]
+    },
+    {
+      "id": "who-is-appropriate-personnel",
+      "heading": "Who counts as appropriate personnel?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Appropriate personnel are the people whose work can detect, escalate or prevent money laundering, as identified by the firm's own risk assessment. The rule does not list them, so the firm must decide and document its reasoning."
+        },
+        {
+          "type": "p",
+          "text": "The 2026 Oversight Report gives strong hints. Its effective practices call for clear delegation of AML-related responsibilities across individuals and business units best placed to identify red flags, including those detecting account compromise and account takeovers, those identifying insider trading or market manipulation, those responding to identity theft red flags under Regulation S-ID, and those detecting fraudulent transmittals of funds. It separately recommends training employees, especially those involved in customer onboarding, on AI capabilities and threats, such as repetitive patterns in the opening of multiple accounts that could indicate bots. Each of those groups is a candidate for role-specific AML content."
+        }
+      ]
+    },
+    {
+      "id": "independent-testing",
+      "heading": "How often must the AML program be independently tested, and by whom?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most firms must test annually on a calendar-year basis. Under Rule 3310(c), a member that does not execute transactions for customers, hold customer accounts, or act as an introducing broker for customer accounts (for example, one engaged solely in proprietary trading or doing business only with other broker-dealers) tests every two calendar years instead."
+        },
+        {
+          "type": "p",
+          "text": "Supplementary Material 3310.01 sets three further conditions. Members should test more frequently than required if circumstances warrant. The test must be conducted by a designated person with a working knowledge of applicable Bank Secrecy Act requirements. And the test may not be conducted by a person who performs the functions being tested, by the designated AML compliance person, or by anyone who reports to either of them."
+        },
+        {
+          "type": "p",
+          "text": "Training is in scope for the test. The independent tester should assess whether the training element is designed and operating as the program says: whether the defined population was trained, whether content matched roles and current risks, and whether completion was tracked. The 2026 Oversight Report also lists as a finding not ensuring that AML independent tests include a reasonably designed assessment of critical aspects of the program."
+        }
+      ]
+    },
+    {
+      "id": "aml-compliance-person",
+      "heading": "What does the AML compliance person need to know?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The person designated under Rule 3310(d) runs the day-to-day operations and internal controls of the program and must be an associated person of the member. Supplementary Material 3310.02 requires the firm to identify, review and, if necessary, update the AML compliance person's information in the manner prescribed by FINRA Rule 4517."
+        },
+        {
+          "type": "p",
+          "text": "Because this person usually designs and delivers the firm's AML training, their own development deserves explicit treatment in the training plan: regulatory developments, FinCEN advisories, the firm's independent test findings, and changes in products and customer base. The Oversight Report's effective practice of reviewing alerts, advisories and significant cases from FINRA, the SEC, FinCEN and OFAC is a reasonable baseline for this role. Sanctions training is covered separately on the [OFAC sanctions compliance training](/regulations/ofac-sanctions-compliance-training) page."
+        }
+      ]
+    },
+    {
+      "id": "pending-fincen-reform",
+      "heading": "Is the AML program requirement changing?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Possibly. On April 10, 2026, FinCEN published a [proposed rule on Anti-Money Laundering and Countering the Financing of Terrorism Programs](https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs) (91 FR 18704) that would fundamentally reform AML/CFT program requirements to implement the Anti-Money Laundering Act of 2020. FinCEN states that the proposal also aims to promote clarity and consistency across its program rules for different types of financial institutions. The comment period closed on June 9, 2026."
+        },
+        {
+          "type": "callout",
+          "title": "Status as at November 2026",
+          "text": "The FinCEN proposal has not been finalized. Rule 3310 and 31 CFR 1023.210 continue to apply as written, including the ongoing training and independent testing requirements. Firms should monitor for a final rule and for any conforming change to Rule 3310."
+        }
+      ]
+    },
+    {
+      "id": "obligation-evidence-map",
+      "heading": "What evidence should a broker-dealer keep for Rule 3310 training and testing?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An examiner will want to see that the training and testing elements exist on paper and operate in practice. The table below is an original planning aid that maps each relevant element to its audience, the frequency the rule sets, and the evidence that would support it."
+        },
+        {
+          "type": "table",
+          "caption": "Rule 3310 training and testing duties mapped to audience, frequency and evidence",
+          "head": [
+            "Element",
+            "Audience",
+            "Frequency in the rule",
+            "Evidence an examiner would expect"
+          ],
+          "rows": [
+            [
+              "3310(e) ongoing training",
+              "Appropriate personnel as defined by the firm",
+              "Ongoing; no fixed interval",
+              "Written definition of the trained population by role, role-specific curricula, completion records reconciled to headcount, content change log tied to risk assessment updates"
+            ],
+            [
+              "3310(c) independent testing",
+              "Whole AML program, including training",
+              "Each calendar year, or every two calendar years for firms without customer business",
+              "Test scope and workpapers covering the training element, findings, management responses, remediation tracking"
+            ],
+            [
+              "3310.01 tester qualification and independence",
+              "Member personnel or qualified outside party",
+              "Each test",
+              "Evidence of the tester's Bank Secrecy Act knowledge and confirmation that the tester is not in the tested function, is not the AML compliance person, and does not report to either"
+            ],
+            [
+              "3310(d) and 3310.02 AML compliance person",
+              "Designated individual or individuals",
+              "Ongoing, with prompt notice of changes",
+              "FINRA contact record, review under Rule 4517, development record for the role"
+            ],
+            [
+              "Senior management approval",
+              "Member of senior management",
+              "On adoption and material change",
+              "Written approval of the program, including the training element"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Under FINRA Rule 1240(b)(2)(D), AML training under Rule 3310(e) may also be credited toward a registered person's Firm Element continuing education. If the firm does this, its Firm Element plan should say so. See [FINRA continuing education requirements](/regulations/finra-continuing-education-requirements), the companion page on the [Rule 3110 annual compliance meeting](/regulations/finra-rule-3110-annual-compliance-meeting), and [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry starts from the firm's AML risk assessment and role map, defines which red flags and escalation steps each role must know, and only then builds training against those definitions. That structure gives the independent tester a clear line from risk to role to content to completion, and shows which modules need revision when the risk assessment or FinCEN rules change. See the [financial services](/industries/financial-services) page."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does FINRA require annual AML training?",
+      "a": "Rule 3310(e) requires ongoing training for appropriate personnel but sets no interval. Many firms train at least annually and add targeted updates when risks or rules change. Whatever cycle the firm chooses should be written into its AML program and justified by its risk assessment."
+    },
+    {
+      "q": "Can the AML compliance officer conduct the independent test?",
+      "a": "No. Supplementary Material 3310.01 states that the designated AML compliance person may not conduct the independent test, nor may anyone who performs the functions being tested or who reports to either of those people."
+    },
+    {
+      "q": "Does a proprietary trading firm need annual AML testing?",
+      "a": "Not necessarily. Rule 3310(c) allows testing every two calendar years for a member that does not execute customer transactions, hold customer accounts, or act as an introducing broker, such as a firm engaged solely in proprietary trading. FINRA still expects more frequent testing where circumstances warrant."
+    },
+    {
+      "q": "Does FINRA provide an AML program template?",
+      "a": "Yes. FINRA publishes an Anti-Money Laundering Template for Small Firms to help small firms establish the program required by the Bank Secrecy Act, its implementing regulations and Rule 3310. A template is a starting point; the training section still has to reflect the firm's own roles and risks."
+    }
+  ],
+  "sources": [
+    {
+      "title": "FINRA Rule 3310: Anti-Money Laundering Compliance Program",
+      "publisher": "Financial Industry Regulatory Authority (FINRA)",
+      "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/3310"
+    },
+    {
+      "title": "31 CFR 1023.210 Anti-money laundering program requirements for brokers or dealers in securities",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)",
+      "url": "https://www.law.cornell.edu/cfr/text/31/1023.210"
+    },
+    {
+      "title": "2026 FINRA Annual Regulatory Oversight Report: Anti-Money Laundering, Fraud and Sanctions",
+      "publisher": "Financial Industry Regulatory Authority (FINRA)",
+      "url": "https://www.finra.org/rules-guidance/guidance/reports/2026-finra-annual-regulatory-oversight-report/aml"
+    },
+    {
+      "title": "Anti-Money Laundering (AML) key topic page",
+      "publisher": "Financial Industry Regulatory Authority (FINRA)",
+      "url": "https://www.finra.org/rules-guidance/key-topics/aml"
+    },
+    {
+      "title": "Anti-Money Laundering and Countering the Financing of Terrorism Programs (proposed rule, 91 FR 18704)",
+      "publisher": "Financial Crimes Enforcement Network, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"
+    },
+    {
+      "title": "FINRA Rule 1240: Continuing Education Requirements",
+      "publisher": "Financial Industry Regulatory Authority (FINRA)",
+      "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/1240"
+    }
+  ],
+  "related": [
+    "bsa-aml-training-requirements",
+    "finra-rule-3110-annual-compliance-meeting",
+    "finra-continuing-education-requirements",
+    "ofac-sanctions-compliance-training",
+    "aml-training-requirements-by-country",
+    "how-to-prepare-training-records-for-an-audit"
+  ],
+  "productLinks": [
+    {
+      "label": "Financial services",
+      "href": "/industries/financial-services"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "Rule 3310 requires a written AML program approved in writing by a member of senior management, with six minimum elements including 3310(e) ongoing training for appropriate personnel.",
+      "source": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/3310"
+    },
+    {
+      "claim": "Rule 3310(c) requires annual calendar-year independent testing, or every two calendar years for members that do not execute customer transactions, hold customer accounts or act as introducing brokers.",
+      "source": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/3310"
+    },
+    {
+      "claim": "Supplementary Material 3310.01 requires testers with working knowledge of BSA requirements and bars the person performing tested functions, the AML compliance person, and anyone reporting to either from conducting the test.",
+      "source": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/3310"
+    },
+    {
+      "claim": "31 CFR 1023.210(b)(4) requires broker-dealer AML programs to include ongoing training for appropriate persons, and (c) requires compliance with SRO rules.",
+      "source": "https://www.law.cornell.edu/cfr/text/31/1023.210"
+    },
+    {
+      "claim": "The 2026 FINRA Annual Regulatory Oversight Report lists Inadequate Training (not providing ongoing AML training to appropriate personnel tailored to the firm's business) as a finding, and describes role-tailored training as an effective practice.",
+      "source": "https://www.finra.org/rules-guidance/guidance/reports/2026-finra-annual-regulatory-oversight-report/aml"
+    },
+    {
+      "claim": "FinCEN published a proposed AML/CFT program rule on April 10, 2026 at 91 FR 18704, with comments closing June 9, 2026.",
+      "source": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"
+    },
+    {
+      "claim": "FINRA Rule 1240(b)(2)(D) allows AML training under Rule 3310(e) to be considered toward the Firm Element requirement.",
+      "source": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/1240"
+    }
+  ]
+}
