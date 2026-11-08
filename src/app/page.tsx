@@ -24,6 +24,11 @@ import { CompactProcess } from "@/components/compact-process";
 import { BentoOutputs } from "@/components/bento-outputs";
 import { FrameworkDemo } from "@/components/framework-demo";
 import { FAQ as HomeFAQ } from "@/components/solution/faq";
+import { ForgeScroll } from "@/components/motion/forge-scroll";
+import { ScrollWords } from "@/components/motion/scroll-words";
+import { CinemaBand } from "@/components/motion/cinema-band";
+import { HorizontalRail } from "@/components/motion/horizontal-rail";
+import { StackCards } from "@/components/motion/stack-cards";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -203,17 +208,14 @@ export default function HomePage() {
               </SplitText>
             </div>
             <div className="lg:pt-3">
-              <Reveal delay={0.1}>
-                <p className="text-lede mb-6">
-                  Most training fails because content is written before structure is defined.
-                  The result is uneven coverage, silent gaps, drift from policy, and evidence
-                  that does not stand up when someone asks how you know.
-                </p>
-                <p className="text-lede">
-                  The difficulty is not writing content. It is knowing what should exist
-                  before writing begins.
-                </p>
-              </Reveal>
+              <ScrollWords
+                className="text-lede mb-6"
+                text="Most training fails because content is written before structure is defined. The result is uneven coverage, silent gaps, drift from policy, and evidence that does not stand up when someone asks how you know."
+              />
+              <ScrollWords
+                className="text-lede !text-[color:var(--color-ink)] font-medium"
+                text="The difficulty is not writing content. It is knowing what should exist before writing begins."
+              />
               <RevealStagger className="mt-10 grid sm:grid-cols-3 gap-6" as="ul">
                 {[
                   { stat: 68, suffix: "%", desc: "of compliance findings trace back to a training or knowledge gap." },
@@ -242,8 +244,14 @@ export default function HomePage() {
       <VideoTeaser />
 
       {/* THE SYSTEM — compact interactive process */}
+      {/* Phones keep the compact interactive version; tablet and up get the pinned scroll-scrubbed film. */}
       <div id="system">
-        <CompactProcess />
+        <div className="md:hidden">
+          <CompactProcess />
+        </div>
+        <div className="hidden md:block">
+          <ForgeScroll src="/media/forge-scrub.mp4" poster="/media/forge-scrub.jpg" steps={process} />
+        </div>
       </div>
 
       {/* CINEMATIC LATTICE — Higgsfield video showcase. Tablet and up only: on phones it repeats the process section above and the video is replaced by a still. */}
@@ -288,7 +296,7 @@ export default function HomePage() {
             </div>
             <Reveal delay={0.15} className="relative">
               <div className="relative rounded-[var(--radius-lg)] overflow-hidden border border-white/10 shadow-[0_40px_100px_-20px_rgba(0,0,0,0.6)]">
-                <LazyLoopVideo src="/media/lattice-loop.mp4" poster="/media/editorial-blueprint.png" liveLabel="Live · Framework assembling" />
+                <LazyLoopVideo src="/media/assembly-loop.mp4" poster="/media/assembly-loop.jpg" liveLabel="Live · Framework assembling" />
                 {/* Corner marks */}
                 {[
                   "top-3 left-3 border-t-2 border-l-2",
@@ -358,6 +366,18 @@ export default function HomePage() {
           </RevealStagger>
         </Container>
       </Section>
+
+      {/* CINEMA BAND — ambient Higgsfield grid with the core claim */}
+      <CinemaBand src="/media/grid-loop.mp4" poster="/media/grid-loop.jpg">
+        <div className="max-w-[920px]">
+          <div className="font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.2em] text-[color:var(--color-forge)] mb-6">
+            THE OBJECT OF RECORD
+          </div>
+          <p className="text-display-2 text-white [text-wrap:balance]">
+            The framework comes first. Content is downstream of it, and traceable to it.
+          </p>
+        </div>
+      </CinemaBand>
 
       {/* CAPABILITIES GRID */}
       <Section className="relative overflow-hidden">
@@ -446,84 +466,84 @@ export default function HomePage() {
                 </div>
               </Reveal>
             </div>
-            <RevealStagger className="divide-y divide-[color:var(--color-hairline-strong)] border-y border-[color:var(--color-hairline-strong)]">
-              {programs.map((p) => (
-                <RevealItem key={p.title} as="div">
-                  <Link
-                    href={p.href}
-                    className="group flex items-start gap-4 md:gap-6 py-5 md:py-7 hover:bg-white/40 transition-colors -mx-2 px-2 rounded"
-                  >
-                    <div className="mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-[var(--radius-sm)] bg-white border border-[color:var(--color-hairline)] text-[color:var(--color-forge)] group-hover:border-[color:var(--color-forge)] transition-colors">
-                      {p.icon}
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="text-[20px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] transition-colors">
-                        {p.title}
-                      </h3>
-                      <p className="mt-1.5 text-[14px] text-[color:var(--color-ink-muted)] leading-[1.55]">
-                        {p.desc}
-                      </p>
-                    </div>
-                    <ArrowUpRight className="h-5 w-5 mt-2 text-[color:var(--color-ink-faint)] group-hover:text-[color:var(--color-forge)] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" aria-hidden />
-                  </Link>
-                </RevealItem>
-              ))}
-            </RevealStagger>
-          </div>
-        </Container>
-      </Section>
-
-      {/* INDUSTRIES */}
-      <Section className="relative overflow-hidden">
-        <Container>
-          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
-            <div className="max-w-[640px]">
-              <Eyebrow>By industry</Eyebrow>
-              <SplitText as="h2" className="text-display-2 mt-5" stagger={0.05}>
-                Regulated, evidenced, ready for audit in your sector.
-              </SplitText>
-            </div>
-            <Reveal delay={0.1}>
-              <Magnetic>
+            <StackCards>
+              {programs.map((p, i) => (
                 <Link
-                  href="/industries"
-                  className="group inline-flex shrink-0 items-center gap-2 whitespace-nowrap text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)]"
+                  key={p.title}
+                  href={p.href}
+                  className="group relative flex items-start gap-4 md:gap-6 p-6 md:p-8 lg:min-h-[260px] rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white shadow-[var(--shadow-soft)] hover:border-[color:var(--color-forge)] transition-colors overflow-hidden"
                 >
-                  <span className="border-b border-current pb-0.5">All industries</span>
-                  <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
-                </Link>
-              </Magnetic>
-            </Reveal>
-          </div>
-
-          <RevealStagger className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {industries.map((ind) => (
-              <RevealItem key={ind.title}>
-                <TiltCard maxTilt={3}>
-                  <Link
-                    href={ind.href}
-                    className="group block relative overflow-hidden rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white p-6 md:p-7 h-full hover:border-[color:var(--color-ink-soft)] transition-all"
-                  >
-                    <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-[radial-gradient(circle_at_top_right,rgba(239,103,4,0.06),transparent_60%)]" aria-hidden />
-                    <div className="relative">
-                      <div className="text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)] mb-3">
-                        {ind.note}
-                      </div>
-                      <h3 className="text-[22px] font-[family-name:var(--font-display)] font-semibold tracking-tight">
-                        {ind.title}
-                      </h3>
-                      <div className="mt-6 md:mt-16 inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] transition-colors">
-                        View sector view
-                        <ArrowUpRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
-                      </div>
+                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-[radial-gradient(circle_at_top_right,rgba(239,103,4,0.07),transparent_55%)]" aria-hidden />
+                  <div className="relative mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-[var(--radius-sm)] bg-[color:var(--color-canvas-tint)] text-[color:var(--color-forge)]">
+                    {p.icon}
+                  </div>
+                  <div className="relative flex-1">
+                    <div className="font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.14em] text-[color:var(--color-ink-faint)]">
+                      {String(i + 1).padStart(2, "0")} / {String(programs.length).padStart(2, "0")}
                     </div>
-                  </Link>
-                </TiltCard>
-              </RevealItem>
-            ))}
-          </RevealStagger>
+                    <h3 className="mt-2 text-[22px] lg:text-[28px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] transition-colors">
+                      {p.title}
+                    </h3>
+                    <p className="mt-2 text-[15px] text-[color:var(--color-ink-muted)] leading-[1.6] max-w-[44ch]">
+                      {p.desc}
+                    </p>
+                  </div>
+                  <ArrowUpRight className="relative h-5 w-5 mt-2 text-[color:var(--color-ink-faint)] group-hover:text-[color:var(--color-forge)] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" aria-hidden />
+                </Link>
+              ))}
+            </StackCards>
+          </div>
         </Container>
       </Section>
+
+      {/* INDUSTRIES — pinned horizontal rail on desktop, grid elsewhere */}
+      <HorizontalRail
+        fallbackClassName="grid md:grid-cols-2 lg:grid-cols-3 gap-4"
+        header={
+          <Container>
+            <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
+              <div className="max-w-[640px]">
+                <Eyebrow>By industry</Eyebrow>
+                <SplitText as="h2" className="text-display-2 mt-5" stagger={0.05}>
+                  Regulated, evidenced, ready for audit in your sector.
+                </SplitText>
+              </div>
+              <Link
+                href="/industries"
+                className="group inline-flex shrink-0 items-center gap-2 whitespace-nowrap text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)]"
+              >
+                <span className="border-b border-current pb-0.5">All industries</span>
+                <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
+              </Link>
+            </div>
+          </Container>
+        }
+      >
+        {industries.map((ind, i) => (
+          <Link
+            key={ind.title}
+            href={ind.href}
+            className="group relative flex flex-col justify-between overflow-hidden rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white p-6 md:p-8 w-full lg:w-[400px] lg:h-[420px] shrink-0 hover:border-[color:var(--color-ink-soft)] transition-colors"
+          >
+            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-[radial-gradient(circle_at_top_right,rgba(239,103,4,0.08),transparent_60%)]" aria-hidden />
+            <span aria-hidden className="absolute -right-3 -bottom-10 font-[family-name:var(--font-display)] font-semibold tracking-tighter text-[160px] leading-none text-[color:var(--color-canvas-tint)] group-hover:text-[color:var(--color-forge)]/10 transition-colors select-none hidden lg:block">
+              {String(i + 1).padStart(2, "0")}
+            </span>
+            <div className="relative">
+              <div className="text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)] mb-3">
+                {ind.note}
+              </div>
+              <h3 className="text-[22px] lg:text-[30px] leading-[1.1] font-[family-name:var(--font-display)] font-semibold tracking-tight">
+                {ind.title}
+              </h3>
+            </div>
+            <div className="relative mt-6 inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] transition-colors">
+              View sector view
+              <ArrowUpRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
+            </div>
+          </Link>
+        ))}
+      </HorizontalRail>
 
       {/* GOVERNANCE / EVIDENCE showcase with editorial */}
       <Section className="bg-[color:var(--color-ink)] text-white relative overflow-hidden" spacing="loose">
@@ -667,6 +687,18 @@ export default function HomePage() {
       <div className="bg-[color:var(--color-canvas-warm)]">
         <HomeFAQ title="The questions we get most often." eyebrow="Common questions" items={homeFaqItems} />
       </div>
+
+      {/* CINEMA BAND — molten source hardening into structure, ahead of the close */}
+      <CinemaBand src="/media/molten-loop.mp4" poster="/media/molten-loop.jpg">
+        <div className="max-w-[920px]">
+          <div className="font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.2em] text-[color:var(--color-forge)] mb-6">
+            FROM SOURCE TO SYSTEM
+          </div>
+          <p className="text-display-2 text-white [text-wrap:balance]">
+            Raw material in. A structured, reviewable learning system out.
+          </p>
+        </div>
+      </CinemaBand>
 
       {/* CTA */}
       <Section>
