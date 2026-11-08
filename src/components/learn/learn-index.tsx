@@ -57,7 +57,7 @@ export function LearnIndex({ kind }: { kind: LearnKind }) {
         ).sort(([a], [b]) => a.localeCompare(b))
       : kind === "regulation"
         ? [...regions, "Other"]
-            .map((r) => [r, pages.filter((p) => regionOf(p) === r)] as const)
+            .map((r) => [r, pages.filter((p) => regionOf(p) === r).sort((a, b) => a.title.localeCompare(b.title))] as const)
             .filter(([, list]) => list.length > 0)
         : [["", pages] as const];
 
@@ -79,8 +79,23 @@ export function LearnIndex({ kind }: { kind: LearnKind }) {
       </section>
       <section className="py-12 md:py-16">
         <Container size="narrow">
+          {/* Jump menu: the library runs to hundreds of entries, so each group gets an anchor and a count. */}
+          {groups.length > 1 && (
+            <nav aria-label={`${k.label} sections`} className="mb-10 flex flex-wrap gap-2">
+              {groups.map(([letter, list]) => (
+                <a
+                  key={letter}
+                  href={`#${groupId(letter)}`}
+                  className="inline-flex items-center gap-1.5 rounded-full border border-[color:var(--color-hairline-strong)] px-3 py-1.5 text-[13px] text-[color:var(--color-ink-soft)] hover:border-[color:var(--color-forge)] hover:text-[color:var(--color-forge)] transition-colors"
+                >
+                  {letter}
+                  <span className="text-[color:var(--color-ink-faint)]">{list.length}</span>
+                </a>
+              ))}
+            </nav>
+          )}
           {groups.map(([letter, list]) => (
-            <div key={letter || "all"} className="mb-10">
+            <div key={letter || "all"} id={letter ? groupId(letter) : undefined} className="mb-10 scroll-mt-28">
               {letter && <h2 className={`${label} text-[color:var(--color-forge)] mb-3`}>{letter}</h2>}
               <ul className="divide-y divide-[color:var(--color-hairline)] border-y border-[color:var(--color-hairline)]">
                 {list.map((p) => (
@@ -101,4 +116,8 @@ export function LearnIndex({ kind }: { kind: LearnKind }) {
       <CtaBand />
     </>
   );
+}
+
+function groupId(name: string): string {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "") || "group";
 }
