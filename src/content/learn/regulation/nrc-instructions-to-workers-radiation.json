@@ -1,0 +1,234 @@
+{
+  "slug": "nrc-instructions-to-workers-radiation",
+  "kind": "regulation",
+  "title": "What radiation safety instruction does the NRC require for workers?",
+  "seoTitle": "NRC 10 CFR 19.12 worker instruction",
+  "description": "What 10 CFR 19.12 requires NRC licensees to teach workers likely to exceed 100 mrem a year, plus the linked dose report and posting duties in Part 19.",
+  "shortAnswer": "Under 10 CFR 19.12, the US Nuclear Regulatory Commission (NRC) requires licensees to instruct every individual likely to receive an occupational dose above 100 mrem (1 mSv) in a year. Instruction must cover the health protection problems of radiation exposure, precautions and protective devices, the applicable NRC rules and license conditions, the duty to report unsafe conditions, the response to warnings, and the exposure reports workers can request, scaled to the radiological hazards present.",
+  "keyTakeaways": [
+    "The trigger is a likely occupational dose above 100 mrem (1 mSv) in a year, assessed against both normal and abnormal situations reasonably expected over the life of the facility.",
+    "Section 19.12(a) lists six elements: keep workers informed, instruct on health protection and protective devices, instruct on and require observance of NRC rules and licenses, the duty to report, response to warnings, and the right to exposure reports.",
+    "The extent of instruction must be commensurate with the potential radiological health protection problems in the workplace, so the rule sets content, not hours or frequency.",
+    "Section 19.13 requires an annual written dose report to monitored individuals whose dose exceeds 100 mrem or who ask for one, and reports to former workers within 30 days of a request.",
+    "Section 19.11 requires posting of NRC Form 3, \"Notice to Employees\", and of notices of violation within 2 working days of receipt."
+  ],
+  "jurisdiction": "United States (federal)",
+  "regulator": "US Nuclear Regulatory Commission (NRC)",
+  "appliesTo": [
+    "Persons who receive, possess, use or transfer NRC licensed material under the parts listed in 10 CFR 19.2, including operators of production and utilization facilities under Parts 50, 52 and 53",
+    "Applicants for and holders of licenses, construction permits and early site permits under Parts 50, 52, 53 and 54",
+    "Individuals who in the course of employment are likely to receive more than 100 mrem (1 mSv) of occupational dose in a year"
+  ],
+  "sections": [
+    {
+      "id": "who-must-be-instructed",
+      "heading": "Who must receive instruction under 10 CFR 19.12?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Instruction is required for all individuals who in the course of employment are likely to receive an occupational dose in excess of 100 mrem (1 mSv) in a year. The threshold is in [10 CFR 19.12(a)](https://www.law.cornell.edu/cfr/text/10/19.12), and it is a prediction: the question is whether a dose above 100 mrem is likely, not whether it has already been received."
+        },
+        {
+          "type": "p",
+          "text": "Section 19.12(b) tells licensees how to make that prediction. They must take into consideration assigned activities during normal and abnormal situations involving exposure to radiation or radioactive material that can reasonably be expected to occur during the life of a licensed facility. A maintenance technician who rarely enters a radiation area under normal conditions but would be called in during a spill or equipment failure may still fall within the requirement."
+        },
+        {
+          "type": "p",
+          "text": "Part 19 applies to the licensees and applicants listed in [10 CFR 19.2](https://www.law.cornell.edu/cfr/text/10/19.2), which covers persons using material licensed under Parts 30 to 36, 39, 40, 60, 61, 63, 70 and 72, operators of facilities licensed under Parts 50, 52 and 53, and holders of licenses and permits under Parts 50, 52, 53 and 54. Licensees regulated by a state rather than the NRC should check that state's equivalent rule."
+        },
+        {
+          "type": "callout",
+          "title": "Currency",
+          "text": "This page reflects 10 CFR Part 19 as published in the Electronic Code of Federal Regulations as at November 2026. Section 19.12 dates from 60 FR 36043 (July 13, 1995). The scope in section 19.2 and the posting rule in section 19.11 were amended at 91 FR 15771 and 15772 (March 30, 2026) to add references to Part 53."
+        }
+      ]
+    },
+    {
+      "id": "six-elements",
+      "heading": "What must the instruction cover?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Section 19.12(a) sets six required elements. Each covered individual must be:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Kept informed of the storage, transfer, or use of radiation and radioactive material.",
+            "Instructed in the health protection problems associated with exposure to radiation and radioactive material, in precautions or procedures to minimize exposure, and in the purposes and functions of protective devices employed.",
+            "Instructed in, and required to observe, to the extent within the worker's control, the applicable provisions of Commission regulations and licenses for the protection of personnel from exposure.",
+            "Instructed of their responsibility to report promptly to the licensee any condition which may lead to or cause a violation of Commission regulations and licenses or unnecessary exposure.",
+            "Instructed in the appropriate response to warnings made in the event of any unusual occurrence or malfunction that may involve exposure.",
+            "Advised as to the radiation exposure reports which workers may request under section 19.13."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Element 3 is more than awareness. The worker must be instructed in the rules and license conditions and required to observe them, which ties the instruction to supervision and enforcement on the job. Element 1 is continuing: keeping workers informed of how material is stored, transferred and used is an ongoing duty, not a one time briefing."
+        }
+      ]
+    },
+    {
+      "id": "how-much-and-how-often",
+      "heading": "How long and how often must instruction be given?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The rule sets no hours and no refresher interval. Section 19.12(b) states that the extent of the instructions must be commensurate with potential radiological health protection problems present in the workplace, so a licensee must decide and justify the depth and frequency itself."
+        },
+        {
+          "type": "p",
+          "text": "A practical way to apply the commensurate test is to tier the workforce by predicted dose and by the abnormal events each group could face, then set content depth and refresher cycles per tier. Element 1 and element 5 imply that instruction must be updated when the storage, transfer or use of material changes or when warning systems change. The method in [setting mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles) can be applied here, and a [role-based training](/glossary/role-based-training) model keeps tiers manageable."
+        },
+        {
+          "type": "p",
+          "text": "Because the rule specifies content rather than delivery, an auditor will look for evidence that each worker covered all six elements at a depth fitting their tier, and that the licensee reassessed who falls above the 100 mrem threshold when activities changed."
+        }
+      ]
+    },
+    {
+      "id": "related-part-19-duties",
+      "heading": "Which other Part 19 duties connect to worker instruction?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Element 6 points to [10 CFR 19.13](https://www.law.cornell.edu/cfr/text/10/19.13), which governs exposure reports. Licensees must give an annual written report to each individual monitored under 10 CFR 20.1502 whose occupational dose exceeds 1 mSv (100 mrem) total effective dose equivalent, or 1 mSv to any individual organ or tissue, or who requests the report."
+        },
+        {
+          "type": "p",
+          "text": "Former workers can request a report of their exposure, which must be furnished within 30 days of the request or within 30 days after the dose is determined, whichever is later. A worker leaving employment can request a written report of the dose received during the current year, with a clearly marked estimate if the latest monitoring results are not yet available. Each report must be in writing and carry the statement: \"This report is furnished to you under the provisions of the Nuclear Regulatory Commission regulation 10 CFR part 19. You should preserve this report for further reference.\""
+        },
+        {
+          "type": "p",
+          "text": "Section 19.11 requires licensees to post current copies of Part 19 and Part 20, the license and its conditions, applicable operating procedures, and any notice of violation involving radiological working conditions. NRC Form 3, \"Notice to Employees\", must be prominently posted. Notices of violation and similar Commission documents must be posted within 2 working days of receipt and remain posted for at least 5 working days or until the violation is corrected, whichever is later."
+        }
+      ]
+    },
+    {
+      "id": "dose-context",
+      "heading": "How does the 100 mrem trigger compare with the dose limits?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The instruction threshold sits well below the occupational limits. Under 10 CFR 20.1201, the annual occupational limit for adults is the more limiting of 5 rems (0.05 Sv) total effective dose equivalent or 50 rems (0.5 Sv) to any individual organ or tissue other than the lens of the eye. A worker likely to receive 100 mrem is therefore expected to reach 2 percent of the whole body limit."
+        },
+        {
+          "type": "p",
+          "text": "Individual monitoring under 10 CFR 20.1502 is required for adults likely to receive more than 10 percent of the section 20.1201 limits from external sources, and for anyone entering a high or very high radiation area. The result is that many instructed workers will not be individually monitored, and the training record may be the main evidence that the licensee considered their exposure at all."
+        }
+      ]
+    },
+    {
+      "id": "obligation-map",
+      "heading": "How do Part 19 instruction duties map to roles, timing and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Read across each row to see a section 19.12 element or related Part 19 duty, who owns it at the licensee, when it falls due, and the proof an NRC inspector would reasonably request. This is an original working aid, not the regulation."
+        },
+        {
+          "type": "table",
+          "caption": "10 CFR Part 19 instruction and notice duties by role, timing and evidence (illustrative)",
+          "head": ["Obligation", "Applies to", "Timing", "Evidence an inspector expects"],
+          "rows": [
+            ["Identify who exceeds 100 mrem, 19.12(a) and (b)", "Radiation safety officer or equivalent", "Before assignment; when activities change", "Dose prediction by role covering normal and abnormal situations"],
+            ["Health protection, precautions and protective devices, 19.12(a)(2)", "Covered workers", "Before work; refreshed as the licensee justifies", "Lesson content and attendance or completion records"],
+            ["Rules and license conditions, 19.12(a)(3)", "Covered workers and supervisors", "Before work and when license conditions change", "Content mapped to license conditions; supervision records"],
+            ["Duty to report, 19.12(a)(4)", "Covered workers", "Before work", "Training content naming the reporting route; reports received"],
+            ["Response to warnings, 19.12(a)(5)", "Covered workers", "Before work; after alarm system changes", "Drill or exercise records"],
+            ["Dose reports, 19.13", "Licensee", "Annually when over 100 mrem or on request; 30 days for former workers", "Copies of written reports with the required statement"],
+            ["Posting, 19.11", "Licensee", "Continuous; notices of violation within 2 working days", "Posted NRC Form 3 and documents at access routes"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Records of this kind support the broader approach in [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations), and the energy sector context is on the [energy and resources](/industries/energy-resources) page."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry treats each of the six section 19.12 elements as a required concept in a radiation protection framework, with depth set per worker tier. When a license condition, storage arrangement or alarm system changes, the framework shows which elements and which tiers need updated instruction."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does 10 CFR 19.12 require annual radiation safety refresher training?",
+      "a": "No fixed frequency appears in the rule. Section 19.12 sets content and requires the extent of instruction to be commensurate with the radiological hazards. Any refresher interval is therefore a program decision the licensee should be able to justify against its hazards, not a regulatory interval in Part 19."
+    },
+    {
+      "q": "Do workers below 100 mrem a year need any instruction?",
+      "a": "Section 19.12 itself applies only to individuals likely to exceed 100 mrem (1 mSv) a year. Other parts of the regulations and specific license conditions may still require training for particular activities, and the posting requirements in section 19.11 apply regardless of individual dose."
+    },
+    {
+      "q": "What must a worker's annual dose report contain?",
+      "a": "Under section 19.13(a), each report must be in writing and include the licensee's name, the individual's name and social security number, the individual's exposure information, and a set statement that the report is furnished under 10 CFR part 19 and should be preserved for further reference."
+    },
+    {
+      "q": "Can instruction be delivered online?",
+      "a": "Section 19.12 does not prescribe a delivery method. What matters is that each covered worker receives all six elements at a depth commensurate with the hazards, and that the licensee can show it. Element 5, the response to warnings, is often best evidenced by a practical drill as well as instruction."
+    }
+  ],
+  "sources": [
+    {
+      "title": "10 CFR 19.12 Instruction to workers",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-19/section-19.12"
+    },
+    {
+      "title": "10 CFR 19.13 Notifications and reports to individuals",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-19/section-19.13"
+    },
+    {
+      "title": "10 CFR 19.11 Posting of notices to workers",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/10/19.11"
+    },
+    {
+      "title": "10 CFR 19.2 Scope",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/10/19.2"
+    },
+    {
+      "title": "10 CFR 20.1201 Occupational dose limits for adults",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/10/20.1201"
+    },
+    {
+      "title": "10 CFR 20.1502 Conditions requiring individual monitoring of external and internal occupational dose",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/10/20.1502"
+    }
+  ],
+  "related": [
+    "nrc-nuclear-power-plant-personnel-training",
+    "radiation-safety-licence-training-australia",
+    "osha-hazard-communication-training-requirements",
+    "role-based-training",
+    "how-to-set-mandatory-training-refresh-cycles",
+    "how-to-map-training-to-compliance-obligations"
+  ],
+  "productLinks": [
+    { "label": "Energy and resources", "href": "/industries/energy-resources" },
+    { "label": "Compliance programs", "href": "/programs/compliance" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    { "claim": "Section 19.12(a) applies to individuals likely to receive an occupational dose in excess of 100 mrem (1 mSv) in a year and lists six instruction elements", "source": "https://www.law.cornell.edu/cfr/text/10/19.12" },
+    { "claim": "Section 19.12(b) requires licensees to consider normal and abnormal situations reasonably expected during the life of the facility, and the extent of instruction must be commensurate with potential radiological health protection problems", "source": "https://www.law.cornell.edu/cfr/text/10/19.12" },
+    { "claim": "Section 19.13 requires an annual dose report to monitored individuals exceeding 1 mSv (100 mrem) or on request, reports to former workers within 30 days, and a set statement in each report", "source": "https://www.law.cornell.edu/cfr/text/10/19.13" },
+    { "claim": "Section 19.11 requires posting of NRC Form 3 and of notices of violation within 2 working days, remaining posted at least 5 working days or until corrected; amended at 91 FR 15772, March 30, 2026", "source": "https://www.law.cornell.edu/cfr/text/10/19.11" },
+    { "claim": "Section 19.2 scope covers licensees under Parts 30 to 36, 39, 40, 60, 61, 63, 70, 72 and facilities under Parts 50, 52 and 53; amended at 91 FR 15771, March 30, 2026", "source": "https://www.law.cornell.edu/cfr/text/10/19.2" },
+    { "claim": "Adult annual occupational limit is the more limiting of 5 rems TEDE or 50 rems to any organ or tissue other than the lens of the eye", "source": "https://www.law.cornell.edu/cfr/text/10/20.1201" },
+    { "claim": "Individual monitoring is required for adults likely to receive more than 10 percent of the section 20.1201 limits from external sources and for individuals entering high or very high radiation areas", "source": "https://www.law.cornell.edu/cfr/text/10/20.1502" }
+  ]
+}

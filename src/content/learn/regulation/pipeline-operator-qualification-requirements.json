@@ -1,0 +1,246 @@
+{
+  "slug": "pipeline-operator-qualification-requirements",
+  "kind": "regulation",
+  "title": "What does PHMSA require for pipeline operator qualification?",
+  "seoTitle": "Pipeline operator qualification rules",
+  "description": "PHMSA operator qualification under 49 CFR 192 Subpart N and 195 Subpart G: covered tasks, evaluation methods, requalification intervals and 5 year records.",
+  "shortAnswer": "The Pipeline and Hazardous Materials Safety Administration (PHMSA) requires every gas and hazardous liquid pipeline operator to have and follow a written operator qualification program under 49 CFR Part 192 Subpart N and Part 195 Subpart G. Individuals performing covered tasks must be evaluated and shown able to perform the task and to recognize and react to abnormal operating conditions, at intervals the operator sets, with records kept five years after qualification lapses.",
+  "keyTakeaways": [
+    "Gas pipelines follow 49 CFR 192.801 to 192.809 and hazardous liquid pipelines follow 49 CFR 195.501 to 195.509. The two subparts are written in nearly identical terms.",
+    "A covered task meets a four part test: performed on a pipeline facility, an operations or maintenance task, performed as a requirement of the Part, and affecting the operation or integrity of the pipeline.",
+    "Qualified means evaluated and able both to perform the assigned covered task and to recognize and react to abnormal operating conditions.",
+    "Since December 16, 2004, observation of on the job performance may not be the sole evaluation method, and since October 28, 2002, work performance history may not be the sole method.",
+    "The rule sets no fixed requalification period. The operator must identify each covered task and the interval at which evaluation is needed, and keep prior qualification records for five years."
+  ],
+  "jurisdiction": "United States (federal)",
+  "regulator": "Pipeline and Hazardous Materials Safety Administration (PHMSA), US Department of Transportation",
+  "appliesTo": [
+    "Operators of natural gas and other gas pipeline facilities subject to 49 CFR Part 192",
+    "Operators of hazardous liquid and carbon dioxide pipeline facilities subject to 49 CFR Part 195",
+    "Any individual, employee or contractor, who performs a covered task on a pipeline facility",
+    "State pipeline safety agencies participating under 49 U.S.C. Chapter 601, which review programs within their authority"
+  ],
+  "sections": [
+    {
+      "id": "scope-and-covered-tasks",
+      "heading": "What is a covered task under the operator qualification rule?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A covered task is an activity, identified by the operator, that meets all four criteria in [49 CFR 192.801(b)](https://www.law.cornell.edu/cfr/text/49/192.801) and its liquid pipeline twin, 49 CFR 195.501(b). The activity must be performed on a pipeline facility, be an operations or maintenance task, be performed as a requirement of the Part, and affect the operation or integrity of the pipeline."
+        },
+        {
+          "type": "p",
+          "text": "The operator, not PHMSA, draws up the list. That is why two gas distribution companies can publish different covered task lists for similar assets: each must show how every candidate activity was screened against the four criteria. Construction tasks fall outside the definition because they are not operations or maintenance, and a task that is good practice but not required by Part 192 or Part 195 does not meet the third criterion."
+        },
+        {
+          "type": "p",
+          "text": "A defensible list usually starts from a [job task analysis](/glossary/job-task-analysis) of every regulatory requirement in the Part that someone performs in the field or control room, followed by the four part screen. Keeping the screening record with the list makes the reasoning visible to an inspector."
+        },
+        {
+          "type": "callout",
+          "title": "Currency",
+          "text": "This page reflects 49 CFR Part 192 Subpart N and Part 195 Subpart G as published in the Electronic Code of Federal Regulations as at November 2026. Section 192.805 was last amended in 2019 (Amdt. 192-125) to route program change notifications through section 192.18."
+        }
+      ]
+    },
+    {
+      "id": "what-qualified-means",
+      "heading": "What does it mean for an individual to be qualified?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Under the definitions in [49 CFR 192.803](https://www.law.cornell.edu/cfr/text/49/192.803) and 195.503, an individual is qualified when they have been evaluated and can both perform assigned covered tasks and recognize and react to abnormal operating conditions. Qualification is therefore task specific: a person is qualified for named tasks, not qualified in general."
+        },
+        {
+          "type": "p",
+          "text": "An abnormal operating condition is a condition identified by the operator that may indicate a malfunction of a component or a deviation from normal operations that may indicate a condition exceeding design limits or result in a hazard to persons, property or the environment. Because the operator identifies these conditions, each covered task should carry its own list of the abnormal conditions an individual must be able to spot and respond to, and the evaluation should test that response."
+        },
+        {
+          "type": "p",
+          "text": "Evaluation is defined as a process established and documented by the operator to determine an individual's ability to perform a covered task. The definition lists the permitted means: written examination, oral examination, work performance history review, observation during performance on the job, on the job training or simulations, and other forms of assessment."
+        }
+      ]
+    },
+    {
+      "id": "written-program",
+      "heading": "What must a written qualification program include?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Every operator must have and follow a written qualification program containing nine provisions set out in [49 CFR 192.805](https://www.law.cornell.edu/cfr/text/49/192.805) and [49 CFR 195.505](https://www.law.cornell.edu/cfr/text/49/195.505). The program must:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Identify covered tasks.",
+            "Ensure through evaluation that individuals performing covered tasks are qualified.",
+            "Allow individuals who are not qualified to perform a covered task only if directed and observed by a qualified individual.",
+            "Evaluate an individual if the operator has reason to believe their performance of a covered task contributed to an incident as defined in Part 191 (gas) or an accident as defined in Part 195 (liquid).",
+            "Evaluate an individual if the operator has reason to believe they are no longer qualified to perform a covered task.",
+            "Communicate changes that affect covered tasks to the individuals performing them.",
+            "Identify covered tasks and the intervals at which evaluation of qualifications is needed.",
+            "Provide training, as appropriate, so individuals have the knowledge and skills to perform tasks in a manner that ensures safe operation (required after December 16, 2004).",
+            "Notify the Administrator or the participating state agency if the operator significantly modifies the program after it has been verified as compliant (required after December 16, 2004). For gas operators, notifications to PHMSA follow section 192.18."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Training is the only element qualified by \"as appropriate\". The rule measures qualification through evaluation, and training is the means of closing the gaps an evaluation finds. A program that records course completions but not evaluations does not meet the rule."
+        }
+      ]
+    },
+    {
+      "id": "evaluation-methods",
+      "heading": "Which evaluation methods are allowed, and which cannot stand alone?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Any of the listed methods may be used, but two can no longer be used on their own. Under [49 CFR 192.809](https://www.law.cornell.edu/cfr/text/49/192.809) and 195.509, work performance history may not be used as a sole evaluation method after October 28, 2002, and observation of on the job performance may not be used as the sole method after December 16, 2004."
+        },
+        {
+          "type": "p",
+          "text": "Work performance history was allowed as a sole method only for individuals performing a covered task before October 26, 1999, the period when operators were bringing existing staff into the new regime. The same section set the original deadlines: a written program by April 27, 2001, and qualification of individuals performing covered tasks completed by October 28, 2002."
+        },
+        {
+          "type": "p",
+          "text": "In practice, most programs pair a knowledge check (written or oral) covering the task and its abnormal operating conditions with a performance check (observation on the job or in a simulation). Pairing the two satisfies the restriction on observation alone and gives evidence of both halves of the qualified definition. The guide on [designing competency assessments](/guides/how-to-design-competency-assessments) covers how to build each half."
+        }
+      ]
+    },
+    {
+      "id": "requalification",
+      "heading": "How often must individuals be requalified?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Subpart N and Subpart G set no single requalification period. Section 192.805(g) requires the operator to identify covered tasks and the intervals at which evaluation of the individual's qualifications is needed, so the interval is a documented operator decision for each task."
+        },
+        {
+          "type": "p",
+          "text": "Two event based triggers sit alongside the scheduled interval. Paragraphs (d) and (e) of sections 192.805 and 195.505 require re-evaluation when the operator has reason to believe an individual's performance contributed to an incident or accident, or that the individual is no longer qualified. Paragraph (f) adds a communication duty when changes affect covered tasks, such as a revised procedure or new equipment."
+        },
+        {
+          "type": "p",
+          "text": "A sound interval reflects task difficulty, frequency of performance and the consequence of error, and the rationale should be written down so it can be defended. The approach mirrors the method in [setting mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles), applied task by task rather than course by course."
+        }
+      ]
+    },
+    {
+      "id": "obligation-map",
+      "heading": "How do operator qualification duties map to roles, timing and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "This mapping was prepared for this page: each row takes one Subpart N provision (with its Subpart G twin), names who carries it, and lists the evidence a PHMSA or state pipeline inspector would reasonably ask to see. Treat it as an illustration, not as the rule text."
+        },
+        {
+          "type": "table",
+          "caption": "Pipeline operator qualification obligations by role, timing and evidence (illustrative)",
+          "head": ["Obligation", "Applies to", "When", "Evidence an inspector expects"],
+          "rows": [
+            ["Identify covered tasks, 192.805(a) and 195.505(a)", "Operator", "Maintained continuously", "Covered task list with the four part screening record for each task"],
+            ["Evaluate and qualify, 192.805(b)", "Every individual performing a covered task", "Before performing the task unaccompanied", "Evaluation results showing task performance and abnormal operating condition recognition"],
+            ["Directed and observed work, 192.805(c)", "Non-qualified individuals and the qualified person observing them", "Each time a non-qualified person performs a covered task", "Work records naming the qualified observer"],
+            ["Post incident or loss of confidence evaluation, 192.805(d) and (e)", "Individuals whose performance is in question", "When the operator has reason to believe", "Investigation link and re-evaluation record"],
+            ["Requalification interval, 192.805(g)", "Operator, per covered task", "At the interval the program sets", "Interval table with rationale; dates of current qualification"],
+            ["Training as appropriate, 192.805(h)", "Individuals performing covered tasks", "Before evaluation and after change", "Training materials mapped to tasks and abnormal operating conditions"],
+            ["Records, 192.807 and 195.507", "Operator", "While performing the task, then 5 years", "Name, covered tasks, dates of current qualification and qualification method"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "records",
+      "heading": "What records must operators keep, and for how long?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Operators must keep records that demonstrate compliance with the subpart. Under [49 CFR 192.807](https://www.law.cornell.edu/cfr/text/49/192.807) and 195.507, qualification records must include identification of the qualified individual, the covered tasks they are qualified to perform, the dates of current qualification, and the qualification methods used."
+        },
+        {
+          "type": "p",
+          "text": "Records supporting an individual's current qualification are kept while the individual is performing the covered task. Records of prior qualification, and records of individuals no longer performing covered tasks, are retained for five years. That means a requalification does not end the retention clock for the previous record: the superseded record is kept five more years."
+        },
+        {
+          "type": "p",
+          "text": "Under section 192.809(a), the program itself must be available for review by the Administrator or by the participating state agency. For audit readiness, see [preparing training records for an audit](/guides/how-to-prepare-training-records-for-an-audit) and the wider context for [energy and resources organizations](/industries/energy-resources)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models each covered task as a framework node linked to its procedure, its abnormal operating conditions, and the knowledge and performance checks that evaluate it. When a procedure changes, the affected tasks and the individuals who need the change communicated or a re-evaluation can be traced from the framework rather than reconstructed by hand."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the operator qualification rule apply to contractors?",
+      "a": "Subpart N and Subpart G are written around individuals performing covered tasks on a pipeline facility, not around employees. Contractor personnel who perform covered tasks therefore need to be qualified under the operator's program, or directed and observed by a qualified individual, and the operator's records must show it."
+    },
+    {
+      "q": "Is classroom training enough to qualify someone?",
+      "a": "No. Qualification rests on evaluation, defined as written or oral examination, work performance history review, observation, or other assessment. Training under section 192.805(h) is required as appropriate, but a course completion record alone does not show that an individual can perform the task and react to abnormal operating conditions."
+    },
+    {
+      "q": "Can a person who is not qualified ever perform a covered task?",
+      "a": "Yes, under paragraph (c) of sections 192.805 and 195.505, if they are directed and observed by an individual who is qualified. The rule does not set a numeric ratio of observers to non-qualified individuals in the regulation text, so the program should define how direction and observation work for each task."
+    },
+    {
+      "q": "What counts as a significant program modification that must be notified?",
+      "a": "The regulation text requires notice to the Administrator or the participating state agency when an operator significantly modifies a program that has already been verified as compliant, but it does not define significant. Operators should set their own criteria in the program and route gas pipeline notifications to PHMSA through section 192.18."
+    }
+  ],
+  "sources": [
+    {
+      "title": "49 CFR Part 192 Subpart N: Qualification of Pipeline Personnel",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-D/part-192/subpart-N"
+    },
+    {
+      "title": "49 CFR Part 195 Subpart G: Qualification of Pipeline Personnel",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-D/part-195/subpart-G"
+    },
+    {
+      "title": "49 CFR 192.805 Qualification program",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/49/192.805"
+    },
+    {
+      "title": "49 CFR 192.809 General",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/49/192.809"
+    }
+  ],
+  "related": [
+    "dot-hazmat-employee-training",
+    "osha-process-safety-management-training-requirements",
+    "verification-of-competency",
+    "how-to-set-up-verification-of-competency",
+    "how-to-conduct-a-job-task-analysis",
+    "how-to-prepare-training-records-for-an-audit"
+  ],
+  "productLinks": [
+    { "label": "Energy and resources", "href": "/industries/energy-resources" },
+    { "label": "Operational procedures programs", "href": "/programs/operational-procedures" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    { "claim": "A covered task is an activity identified by the operator that is performed on a pipeline facility, is an operations or maintenance task, is performed as a requirement of the Part, and affects the operation or integrity of the pipeline", "source": "https://www.law.cornell.edu/cfr/text/49/192.801" },
+    { "claim": "Qualified means an individual has been evaluated and can perform assigned covered tasks and recognize and react to abnormal operating conditions; evaluation includes written, oral, work performance history, observation and other forms of assessment", "source": "https://www.law.cornell.edu/cfr/text/49/192.803" },
+    { "claim": "Section 192.805 lists nine program provisions including directed and observed work, post incident evaluation, evaluation intervals, training as appropriate after December 16, 2004, and notification of significant modifications under section 192.18", "source": "https://www.law.cornell.edu/cfr/text/49/192.805" },
+    { "claim": "Section 195.505 mirrors 192.805 for hazardous liquid pipelines, with evaluation after an accident as defined in Part 195", "source": "https://www.law.cornell.edu/cfr/text/49/195.505" },
+    { "claim": "Written program due by April 27, 2001; qualification completed by October 28, 2002; work performance history not a sole method after October 28, 2002; observation of on the job performance not a sole method after December 16, 2004", "source": "https://www.law.cornell.edu/cfr/text/49/192.809" },
+    { "claim": "Qualification records include the individual, covered tasks, dates of current qualification and method; prior qualification records and records of individuals no longer performing covered tasks kept five years", "source": "https://www.law.cornell.edu/cfr/text/49/192.807" },
+    { "claim": "Section 192.805 current text on eCFR matches the version last amended by Amdt. 192-125, 84 FR 52252, October 1, 2019", "source": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-D/part-192/subpart-N" }
+  ]
+}
