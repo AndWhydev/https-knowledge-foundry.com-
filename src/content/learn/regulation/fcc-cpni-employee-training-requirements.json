@@ -1,0 +1,240 @@
+{
+  "slug": "fcc-cpni-employee-training-requirements",
+  "kind": "regulation",
+  "title": "What CPNI training do the FCC rules require of telecom carriers?",
+  "seoTitle": "FCC CPNI employee training rules",
+  "description": "How 47 CFR 64.2009 requires carriers to train staff on CPNI use, keep a disciplinary process, and file an officer's compliance certificate by March 1.",
+  "shortAnswer": "The Federal Communications Commission (FCC) requires telecommunications carriers, including interconnected VoIP providers, to train their personnel on when they are and are not authorized to use customer proprietary network information (CPNI), and to have an express disciplinary process, under 47 CFR 64.2009(b). An officer must also sign and file an annual compliance certificate by March 1 explaining how the carrier's operating procedures ensure compliance.",
+  "keyTakeaways": [
+    "Section 64.2009(b) requires carriers to train personnel on when they are and are not authorized to use CPNI and to have an express disciplinary process in place.",
+    "An officer with personal knowledge of the carrier's procedures must sign an annual compliance certificate, filed with the Enforcement Bureau in EB Docket No. 06-36 by March 1 for the previous calendar year (64.2009(e)).",
+    "Sales staff need supervisory approval for outbound marketing that requests customer approval, and carriers keep campaign and compliance records for at least one year.",
+    "Front line staff must authenticate customers before disclosing CPNI by phone, online or in store under 64.2010, which makes authentication the core practical training content.",
+    "A 2023 SIM change rule includes a specific employee training duty for wireless carriers, but as at November 2026 the eCFR text says compliance is not required until a compliance date is set."
+  ],
+  "jurisdiction": "United States (federal): 47 U.S.C. 222 and 47 CFR Part 64, Subpart U",
+  "regulator": "Federal Communications Commission (FCC), Enforcement Bureau",
+  "appliesTo": [
+    "Telecommunications carriers, including local, long distance and wireless carriers",
+    "Providers of interconnected VoIP service, which the rules treat as carriers for CPNI purposes",
+    "Customer service, retail store and sales personnel who access or use CPNI",
+    "Officers who sign the annual CPNI compliance certificate",
+    "Agents and affiliates that handle CPNI on a carrier's behalf"
+  ],
+  "sections": [
+    {
+      "id": "what-rule-requires",
+      "heading": "What does 47 CFR 64.2009 require for CPNI training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Carriers must train their personnel as to when they are and are not authorized to use CPNI, and they must have an express disciplinary process in place. That is the whole of the training sentence in [47 CFR 64.2009(b)](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-B/part-64/subpart-U/section-64.2009), and it is short by design: the content of the training is defined by the rest of Subpart U."
+        },
+        {
+          "type": "callout",
+          "title": "The rule text",
+          "text": "\"Telecommunications carriers must train their personnel as to when they are and are not authorized to use CPNI, and carriers must have an express disciplinary process in place.\" 47 CFR 64.2009(b)"
+        },
+        {
+          "type": "p",
+          "text": "CPNI has the meaning given in section 222(h)(1) of the Communications Act, codified at [47 U.S.C. 222](https://www.law.cornell.edu/uscode/text/47/222). The FCC's consumer guide describes it in practical terms as information such as the numbers a customer calls, when they call, and the services they use, such as call forwarding or voicemail. Under [47 CFR 64.2003(o)](https://www.law.cornell.edu/cfr/text/47/64.2003), the term carrier for Subpart U includes providers of interconnected VoIP service, so cloud voice businesses carry the same training duty as traditional carriers."
+        },
+        {
+          "type": "p",
+          "text": "The rule does not set a frequency, a format or a minimum length. Because the officer must certify each year that operating procedures are adequate, most carriers run training at onboarding and at least annually, timed so completion data is available before the March 1 filing."
+        }
+      ]
+    },
+    {
+      "id": "safeguards",
+      "heading": "What other safeguards in 64.2009 depend on trained staff?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Section 64.2009 sets six safeguards, and four of them only work if staff know the procedure. Training content should follow each paragraph rather than treating CPNI as a general privacy topic."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Approval status (a):** carriers must implement a system that clearly establishes a customer's CPNI approval status before CPNI is used. Staff must know where to check it and what to do when it is unclear.",
+            "**Campaign records (c):** carriers keep a record of their own and affiliates' sales and marketing campaigns that use CPNI, and of every disclosure of CPNI to third parties, for at least one year. Marketing staff need to know what must be logged.",
+            "**Supervisory review (d):** sales personnel must obtain supervisory approval of any proposed outbound marketing request for customer approval, with compliance records kept for at least one year. Supervisors need to know what they are approving.",
+            "**Opt out failures (f):** carriers must give the FCC written notice within five business days of any instance where opt out mechanisms do not work properly to the point that the problem is more than an anomaly. Staff who receive complaints need an escalation path that starts the clock."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "annual-certification",
+      "heading": "What does the annual CPNI certification require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Every year an officer, acting as an agent of the carrier, must sign and file a compliance certificate stating that he or she has personal knowledge that the company has established operating procedures adequate to ensure compliance with Subpart U. The filing is made with the Enforcement Bureau in EB Docket No. 06-36 on or before March 1, covering the previous calendar year."
+        },
+        {
+          "type": "p",
+          "text": "Section 64.2009(e) requires three items with the certificate: a statement explaining how the carrier's operating procedures ensure that it is or is not in compliance, an explanation of any actions taken against data brokers, and a summary of all customer complaints received in the past year about unauthorized release of CPNI. The FCC's guide [Protecting Your Privacy: Phone and Cable Records](https://www.fcc.gov/consumers/guides/protecting-your-privacy) describes the same duty from the customer's side."
+        },
+        {
+          "type": "p",
+          "text": "Training is the evidence most often cited in the accompanying statement, because it is how the carrier shows that procedures are known and followed. An officer who signs on \"personal knowledge\" should see completion rates, assessment results and disciplinary outcomes, not only a policy document. [How to report training compliance to the board](/guides/how-to-report-training-compliance-to-the-board) covers how to package that evidence."
+        }
+      ]
+    },
+    {
+      "id": "authentication",
+      "heading": "Why is customer authentication the core of CPNI training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most CPNI incidents start at the point of contact, so the authentication rules in 64.2010 are the procedures front line staff use every day. Carriers must take reasonable measures to discover and protect against attempts to gain unauthorized access to CPNI and must properly authenticate a customer before disclosing CPNI on a customer initiated call, online, or in store."
+        },
+        {
+          "type": "table",
+          "caption": "Authentication rules front line staff must apply (source: 47 CFR 64.2010)",
+          "head": ["Channel", "Rule", "Common training scenario"],
+          "rows": [
+            ["Inbound phone call", "Call detail information may be disclosed only if the customer gives a password not prompted by readily available biographical or account information; otherwise send it to the address of record or call the number of record (64.2010(b))", "Caller knows the account holder's date of birth and last four digits but has no password"],
+            ["Online access", "Authenticate without readily available biographical or account information, then require a password (64.2010(c))", "Customer locked out of the portal asks an agent to reset access"],
+            ["Retail store", "Disclose CPNI only after the customer presents valid photo ID matching account information (64.2010(d))", "Family member presents their own ID and asks for the account holder's call records"],
+            ["Account changes", "Notify the customer immediately when a password, backup authentication response, online account or address of record is created or changed, without revealing the changed information (64.2010(f))", "Agent changes the address of record at the customer's request"],
+            ["Business accounts", "Carriers may contract for other authentication regimes with business customers that have a dedicated account representative and a contract addressing CPNI protection (64.2010(g))", "Enterprise customer asks for its contractual process to be used"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Scenario based assessment fits these rules well, because the failure mode is social engineering rather than lack of awareness. See [how to design competency assessments](/guides/how-to-design-competency-assessments)."
+        }
+      ]
+    },
+    {
+      "id": "obligation-map",
+      "heading": "How do CPNI obligations map to roles and audit evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each CPNI duty lands on a different group, so a single annual module rarely covers all of them. The mapping below is an original planning aid, not FCC text; it can be dropped into a [training matrix](/guides/how-to-build-a-training-matrix)."
+        },
+        {
+          "type": "table",
+          "caption": "Subpart U obligations mapped to role, frequency and evidence (Knowledge Foundry analysis)",
+          "head": ["Obligation", "Primary role", "Suggested frequency", "Evidence an examiner or the certifying officer would expect"],
+          "rows": [
+            ["Authorized and unauthorized CPNI use, 64.2009(b)", "All personnel with CPNI access, including agents", "Onboarding and at least annually", "Completion records, assessment scores, current course version"],
+            ["Express disciplinary process, 64.2009(b)", "HR, managers", "Policy review annually", "Written disciplinary policy referencing CPNI; log of actions taken"],
+            ["Approval status check, 64.2009(a)", "Sales, marketing, service agents", "Onboarding and when systems change", "System screenshots or procedure; training on reading approval flags"],
+            ["Supervisory review of outbound marketing, 64.2009(d)", "Sales staff and supervisors", "Onboarding for each role", "Approval records kept at least one year"],
+            ["Authentication, 64.2010", "Contact center, retail and online support staff", "Onboarding and at least annually", "Scenario assessment results; quality monitoring samples"],
+            ["Breach escalation, 64.2011", "Security, legal, contact center leads", "Annually and after incidents", "Escalation procedure; breach records kept at least two years"],
+            ["Annual certification, 64.2009(e)", "Certifying officer, compliance", "Before March 1 each year", "Signed certificate, accompanying statement, complaint summary"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "breach-and-sim",
+      "heading": "What do staff need to know about CPNI breaches and SIM change fraud?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Staff must know how to escalate a suspected CPNI breach immediately, because the carrier must electronically notify the United States Secret Service and the FBI as soon as practicable and no later than seven business days after reasonable determination of the breach. Under [47 CFR 64.2011](https://www.law.cornell.edu/cfr/text/47/64.2011), the carrier generally may not notify customers or the public until seven full business days after that notice, and it must keep breach records for at least two years."
+        },
+        {
+          "type": "p",
+          "text": "The FCC adopted amendments to 64.2011 published at 89 FR 10002 on February 12, 2024. As at November 2026, the eCFR shows those amendments as not yet incorporated into the current text, so the seven business day law enforcement process quoted above is still the operative rule. Carriers should confirm status with counsel before revising breach training."
+        },
+        {
+          "type": "p",
+          "text": "For wireless carriers, 64.2010(h)(7) requires training that addresses fraudulent SIM change attempts, complaints and remediation, including how to identify potentially fraudulent requests, how to spot a customer who may be a victim of SIM swap fraud, and how to route both to specifically trained employees. Paragraph (h)(9) states that compliance with paragraph (h) is not required until it is removed or contains a compliance date, and as at November 2026 the eCFR still carries that statement. Building the module now avoids a scramble when a date is set."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps each Subpart U paragraph to the roles it touches and to the assessment that evidences it, so the officer signing the March 1 certificate can trace every statement back to training records. When a pending rule such as the SIM change training duty takes effect, the affected roles and modules are already identified."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How often must CPNI training be repeated?",
+      "a": "The rule sets no frequency. Section 64.2009(b) only requires that personnel be trained on authorized and unauthorized use. Because an officer certifies compliance every year, carriers commonly train at onboarding and annually, and retrain after a policy change, a system change affecting approval status, or a disciplinary finding."
+    },
+    {
+      "q": "Do interconnected VoIP providers have to follow the CPNI training rule?",
+      "a": "Yes. Section 64.2003(o) states that for Subpart U the terms telecommunications carrier and carrier include an entity that provides interconnected VoIP service, as defined in 47 CFR 9.3. Those providers must train personnel, maintain a disciplinary process, and file the annual certification like any other carrier."
+    },
+    {
+      "q": "Who signs the CPNI compliance certificate?",
+      "a": "An officer of the carrier, acting as its agent, who can state that he or she has personal knowledge that the company has established operating procedures adequate to ensure compliance. The certificate and accompanying statement are filed with the Enforcement Bureau in EB Docket No. 06-36 on or before March 1 each year."
+    },
+    {
+      "q": "Does CPNI training cover contractors and agents?",
+      "a": "The rule says personnel, and carriers remain responsible for CPNI handled on their behalf. In practice, outsourced contact centers, authorized retail dealers and agents who access CPNI should receive the same authentication and use training, with completion evidence supplied to the carrier, so the certifying officer has a basis for the annual statement."
+    }
+  ],
+  "sources": [
+    {
+      "title": "47 CFR 64.2009: Safeguards required for use of customer proprietary network information",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-B/part-64/subpart-U/section-64.2009"
+    },
+    {
+      "title": "47 CFR 64.2010: Safeguards on the disclosure of customer proprietary network information",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/47/64.2010"
+    },
+    {
+      "title": "47 CFR 64.2011: Notification of customer proprietary network information security breaches",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/47/64.2011"
+    },
+    {
+      "title": "47 CFR 64.2003: Definitions",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/47/64.2003"
+    },
+    {
+      "title": "47 U.S.C. 222: Privacy of customer information",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/uscode/text/47/222"
+    },
+    {
+      "title": "Protecting Your Privacy: Phone and Cable Records",
+      "publisher": "Federal Communications Commission",
+      "url": "https://www.fcc.gov/consumers/guides/protecting-your-privacy"
+    }
+  ],
+  "related": [
+    "ftc-safeguards-rule-employee-training",
+    "privacy-act-staff-training-requirements",
+    "gdpr-staff-training-requirements",
+    "nist-sp-800-50-security-awareness-training",
+    "policy-attestation",
+    "how-to-report-training-compliance-to-the-board"
+  ],
+  "productLinks": [
+    { "label": "Compliance programs", "href": "/programs/compliance" },
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    { "claim": "64.2009(b): carriers must train personnel as to when they are and are not authorized to use CPNI and must have an express disciplinary process", "source": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-B/part-64/subpart-U/section-64.2009" },
+    { "claim": "64.2009(e): officer signs annual compliance certificate with statement, data broker actions and complaint summary, filed with Enforcement Bureau in EB Docket No. 06-36 on or before March 1 for the previous calendar year", "source": "https://www.law.cornell.edu/cfr/text/47/64.2009" },
+    { "claim": "64.2009(c) and (d): campaign and disclosure records kept at least one year; sales personnel must obtain supervisory approval of outbound marketing requests; compliance records kept at least one year", "source": "https://www.law.cornell.edu/cfr/text/47/64.2009" },
+    { "claim": "64.2009(f): written notice to the Commission within five business days when opt out mechanisms do not work properly beyond an anomaly", "source": "https://www.law.cornell.edu/cfr/text/47/64.2009" },
+    { "claim": "64.2003(o): carrier includes an entity that provides interconnected VoIP service", "source": "https://www.law.cornell.edu/cfr/text/47/64.2003" },
+    { "claim": "64.2010(a) to (g): authentication rules for phone, online and in store access, account change notification and business customer exemption", "source": "https://www.law.cornell.edu/cfr/text/47/64.2010" },
+    { "claim": "64.2010(h)(7) requires SIM change fraud training; (h)(9) says compliance with paragraph (h) is not required until it is removed or contains a compliance date (eCFR text as at 2026-11-01)", "source": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-B/part-64/subpart-U/section-64.2010" },
+    { "claim": "64.2011: notify USSS and FBI no later than seven business days after reasonable determination of breach; records kept at least two years; amendment published at 89 FR 10002, Feb. 12, 2024 shown as not yet incorporated in eCFR", "source": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-B/part-64/subpart-U/section-64.2011" },
+    { "claim": "FCC consumer guide: companies must submit an annual summary of complaints about unauthorized release and certify compliance; customer information includes numbers called and when", "source": "https://www.fcc.gov/consumers/guides/protecting-your-privacy" }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "slug": "casino-aml-training-requirements-us",
+  "kind": "regulation",
+  "title": "What AML training must US casinos and card clubs provide?",
+  "seoTitle": "US casino AML training requirements",
+  "description": "What 31 CFR 1021.210 requires of casino and card club AML training, who is covered, the SAR and CTR rules staff must know, and the 2026 FinCEN proposal.",
+  "shortAnswer": "The Financial Crimes Enforcement Network (FinCEN) requires every casino and card club with gross annual gaming revenue over $1 million to run a written anti-money laundering program that includes training of casino personnel, including training in identifying unusual or suspicious transactions, under 31 CFR 1021.210(b)(2)(iii). Staff must understand suspicious activity reporting at $5,000, currency transaction reporting above $10,000, and the casino's own controls.",
+  "keyTakeaways": [
+    "Casinos and card clubs licensed under state, territorial or tribal law, including tribal gaming under the Indian Gaming Regulatory Act, are covered once gross annual gaming revenue exceeds $1 million.",
+    "The compliance program must provide for training of casino personnel, including identifying unusual or suspicious transactions to the extent reporting is required by FinCEN rules, other law, or the casino's own policies.",
+    "Floor, cage and compliance staff must know the suspicious activity report threshold of $5,000 and the 30 calendar day filing deadline, and the currency transaction report trigger of more than $10,000.",
+    "The Internal Revenue Service examines casinos for Bank Secrecy Act compliance under delegated authority in 31 CFR 1010.810(b)(8).",
+    "FinCEN proposed on April 10, 2026 to replace the casino training wording with the statute's \"ongoing employee training program\" language; comments closed June 9, 2026 and no final rule had been published as at November 2026."
+  ],
+  "jurisdiction": "United States (federal): Bank Secrecy Act and 31 CFR Part 1021",
+  "regulator": "Financial Crimes Enforcement Network (FinCEN), U.S. Department of the Treasury; examinations by the Internal Revenue Service",
+  "appliesTo": [
+    "State licensed commercial casinos with gross annual gaming revenue over $1 million",
+    "Tribal casinos authorized under the Indian Gaming Regulatory Act or other tribal law",
+    "Card clubs, card rooms and gaming clubs with gross annual gaming revenue over $1 million",
+    "Cage, credit, table games, slot, player development, surveillance and compliance personnel",
+    "The individual or individuals responsible for day to day BSA compliance"
+  ],
+  "sections": [
+    {
+      "id": "who-is-covered",
+      "heading": "Which casinos and card clubs are covered?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A casino or card club is covered when it is licensed or authorized to do business in the United States and has gross annual gaming revenue in excess of $1 million. The definitions sit in [31 CFR 1010.100(t)(5) and (t)(6)](https://www.law.cornell.edu/cfr/text/31/1010.100)."
+        },
+        {
+          "type": "p",
+          "text": "The casino definition expressly includes casinos authorized under the Indian Gaming Regulatory Act or other federal, state or tribal law affecting Indian lands, and covers the principal headquarters and every domestic branch or place of business. Gross annual gaming revenue is measured in either the previous or the current business year. A casino that first crosses $1 million during the current year becomes covered from the point in that year when revenue exceeds the threshold, which means a fast growing operator may need a training program in place mid year."
+        },
+        {
+          "type": "p",
+          "text": "Card clubs, gaming clubs, card rooms and similar establishments are included on the same $1 million basis, with revenue measured as gross revenue from customer gaming activity, including per game or per table fees and rentals. The broader Bank Secrecy Act framework is covered on the [BSA AML training requirements](/regulations/bsa-aml-training-requirements) page; this page focuses on the casino specific rule."
+        }
+      ]
+    },
+    {
+      "id": "what-rule-requires",
+      "heading": "What does 31 CFR 1021.210 require for training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each casino must develop and implement a written program reasonably designed to assure and monitor compliance with the Bank Secrecy Act, and that program must provide at a minimum for training of casino personnel. [31 CFR 1021.210](https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1021/subpart-B/section-1021.210) treats a casino that implements and maintains this program as satisfying the statutory program requirement in 31 U.S.C. 5318(h)(1)."
+        },
+        {
+          "type": "callout",
+          "title": "The rule text",
+          "text": "Each compliance program shall provide for \"Training of casino personnel, including training in the identification of unusual or suspicious transactions, to the extent that the reporting of such transactions is required by this chapter, by other applicable law or regulation, or by the casino's own administrative and compliance policies.\" 31 CFR 1021.210(b)(2)(iii)"
+        },
+        {
+          "type": "p",
+          "text": "The training element is one of six. The others are internal controls, independent testing scaled to the casino's money laundering and terrorist financing risk, one or more individuals responsible for day to day compliance, procedures for using all available information to identify customers and detect reportable transactions, and, for casinos with automated data processing systems, automated programs to aid compliance. Training content should reflect each of those elements, because staff operate the controls and feed the systems."
+        },
+        {
+          "type": "p",
+          "text": "The phrase \"or by the casino's own administrative and compliance policies\" matters. If a casino's policy sets an internal review trigger below the federal threshold, staff must be trained to that internal standard, and an examiner can test against it."
+        }
+      ]
+    },
+    {
+      "id": "reporting-rules",
+      "heading": "Which reporting rules must casino staff be trained on?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Casino staff must be trained to recognize transactions that trigger suspicious activity reports and currency transaction reports, since the training element is defined by reference to reporting duties. The table summarizes the thresholds and deadlines most front line and compliance staff need."
+        },
+        {
+          "type": "table",
+          "caption": "Casino reporting rules that drive training content (sources: 31 CFR 1021.311 and 1021.320)",
+          "head": ["Rule", "Trigger", "Deadline or retention", "Who must recognize it"],
+          "rows": [
+            ["Suspicious activity report (SAR), 1021.320", "A transaction conducted or attempted by, at or through the casino involving or aggregating at least $5,000, where the casino knows, suspects or has reason to suspect illegal funds, structuring, no apparent lawful purpose, or use of the casino to facilitate crime", "File within 30 calendar days of initial detection; up to 30 more days to identify a suspect, never more than 60 days in total; keep the SAR and supporting documents for five years", "Cage, table games, slots, player development, surveillance, compliance"],
+            ["Currency transaction report (CTR), 1021.311", "Each transaction in currency, cash in or cash out, of more than $10,000, including chip purchases, front money and safekeeping deposits", "Per the filing rules in Part 1010", "Cage, credit, table games supervisors"],
+            ["Urgent situations, 1021.320(b)", "Violations requiring immediate attention, such as ongoing money laundering schemes", "Immediately notify an appropriate law enforcement authority by telephone, in addition to filing the SAR", "Compliance officer, shift managers"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "FinCEN guidance FIN-2008-G007, [Recognizing Suspicious Activity: Red Flags for Casinos and Card Clubs](https://www.fincen.gov/sites/default/files/guidance/fin-2008-g007.pdf), says casino employees who monitor gaming or conduct transactions are in a unique position to recognize activity that has no legitimate purpose or is unusual for a player, and that risk based programs should include employee training and written procedures on recognizing indicia of suspicious activity. Its red flags are a practical source for scenario based assessment items."
+        }
+      ]
+    },
+    {
+      "id": "risk-based-design",
+      "heading": "How should a casino tailor AML training to its risk profile?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training should follow the casino's own risk assessment, because the program must be reasonably designed for that casino. FinCEN's guidance FIN-2010-G002, [Casino or Card Club Risk-Based Compliance Indicators](https://www.fincen.gov/sites/default/files/shared/fin-2010-g002.pdf), says the BSA requires casinos and card clubs to tailor compliance programs to business activities and customer risk profiles, such as products and services offered, locations served and the nature of customers."
+        },
+        {
+          "type": "p",
+          "text": "In practice this means different depth for different roles. A cage cashier needs transaction level detail on currency reporting and structuring; a host in player development needs to understand source of funds questions for high value patrons; surveillance staff need behavioral indicators; and the compliance officer needs the full regulatory picture. [Role based training](/glossary/role-based-training) and a [training matrix](/guides/how-to-build-a-training-matrix) make the differences explicit."
+        },
+        {
+          "type": "table",
+          "caption": "Casino AML training obligations mapped to role, frequency and evidence (Knowledge Foundry analysis, not FinCEN text)",
+          "head": ["Obligation", "Role", "Suggested frequency", "Evidence an IRS examiner would expect"],
+          "rows": [
+            ["Identify unusual or suspicious transactions, 1021.210(b)(2)(iii)", "All patron facing gaming and cage staff", "Onboarding and at least annually", "Curriculum mapped to the casino's risk assessment, completion records, assessment results"],
+            ["Currency reporting and structuring awareness, 1021.311", "Cage, credit, table games supervisors", "Onboarding and when procedures change", "Procedure based training, test items on aggregation and multiple transactions"],
+            ["SAR escalation and confidentiality, 1021.320", "All staff who can observe or escalate activity", "Annually", "Escalation procedure, referral logs, training on not disclosing SARs"],
+            ["Day to day compliance responsibility, 1021.210(b)(2)(iv)", "BSA compliance officer and deputies", "Ongoing, with external training", "Role description, qualifications, continuing education records"],
+            ["Casino's own policies, 1021.210(b)(2)(iii)", "Roles named in internal policy", "When policies change", "Version history showing training updated with each policy revision"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "examination",
+      "heading": "Who examines casino AML training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Internal Revenue Service examines casinos for Bank Secrecy Act compliance. Under [31 CFR 1010.810(b)(8)](https://www.law.cornell.edu/cfr/text/31/1010.810), FinCEN delegates examination authority to the Commissioner of Internal Revenue for financial institutions not examined by federal bank supervisors or by the securities and commodities regulators, which includes casinos and card clubs."
+        },
+        {
+          "type": "p",
+          "text": "Examiners typically test whether training matched the risk assessment, whether every covered role completed it, and whether staff can apply it. Preparing that evidence is covered in [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit). State and tribal gaming regulators may impose their own AML or minimum internal control standards on top of the federal rule, so a casino's training plan should map both."
+        }
+      ]
+    },
+    {
+      "id": "proposed-changes",
+      "heading": "Is the casino AML training rule changing?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Possibly. On April 10, 2026, FinCEN published a proposed rule, [Anti-Money Laundering and Countering the Financing of Terrorism Programs](https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs) (91 FR 18704), that would amend the program rules for all financial institution types, including casinos in Part 1021. Comments were due by June 9, 2026."
+        },
+        {
+          "type": "p",
+          "text": "For training, the proposal would adopt the statute's wording, an \"ongoing employee training program\" from 31 U.S.C. 5318(h)(1)(C), uniformly in a new 10XX.210(b)(4), replacing the current casino formulation. FinCEN describes this change as clarifying, not substantive, and says it would generally expect training to cover internal policies, procedures and controls that reflect the risk assessment, with frequency and content depending on risk profile and the trainee's role. The proposal would also remove the automated data processing sentence from 1021.210(b)(2)(vi)."
+        },
+        {
+          "type": "p",
+          "text": "As at November 2026 the proposal had not been finalized, and the current text of 1021.210 remains in force. Programs built around risk based, role specific and ongoing training already align with both versions."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry ties each casino role to the reporting rules and red flags it must recognize, and links training content to the version of the casino's risk assessment and internal policies it was built from. When FinCEN finalizes the program rule, the affected roles and modules can be identified from that map rather than by reviewing the library course by course."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do tribal casinos have to follow the FinCEN AML training rule?",
+      "a": "Yes, once gross annual gaming revenue exceeds $1 million. The casino definition in 31 CFR 1010.100(t)(5) expressly includes casinos authorized under the Indian Gaming Regulatory Act or other federal, state or tribal law affecting Indian lands, including those operating on the view that no authorization is required."
+    },
+    {
+      "q": "How often must casino employees receive AML training?",
+      "a": "The current rule does not set a frequency. It requires training as part of an ongoing compliance program, and the statute refers to an ongoing employee training program. FinCEN's 2026 proposal says frequency and content would depend on the institution's risk profile and each person's role, so most casinos train at hire and at least annually."
+    },
+    {
+      "q": "What is the SAR threshold for casinos?",
+      "a": "A casino must file a suspicious activity report for a transaction conducted or attempted by, at or through the casino that involves or aggregates at least $5,000 in funds or other assets, where it knows, suspects or has reason to suspect one of the listed grounds. The SAR is due within 30 calendar days of initial detection."
+    },
+    {
+      "q": "Does a small card room need an AML program?",
+      "a": "Only if it meets the card club definition, which requires gross annual gaming revenue in excess of $1,000,000, measured as gross revenue from customer gaming activity such as per game or per table fees and rentals. Below that level the federal casino program rule does not apply, though state rules may."
+    }
+  ],
+  "sources": [
+    {
+      "title": "31 CFR 1021.210: Anti-money laundering program requirements for casinos",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1021/subpart-B/section-1021.210"
+    },
+    {
+      "title": "31 CFR 1010.100: General definitions",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/31/1010.100"
+    },
+    {
+      "title": "31 CFR 1021.320: Reports by casinos of suspicious transactions",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/31/1021.320"
+    },
+    {
+      "title": "31 CFR 1021.311: Filing obligations",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/31/1021.311"
+    },
+    {
+      "title": "31 CFR 1010.810: Enforcement",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/31/1010.810"
+    },
+    {
+      "title": "FIN-2008-G007: Recognizing Suspicious Activity, Red Flags for Casinos and Card Clubs",
+      "publisher": "Financial Crimes Enforcement Network",
+      "url": "https://www.fincen.gov/sites/default/files/guidance/fin-2008-g007.pdf"
+    },
+    {
+      "title": "FIN-2010-G002: Casino or Card Club Risk-Based Compliance Indicators",
+      "publisher": "Financial Crimes Enforcement Network",
+      "url": "https://www.fincen.gov/sites/default/files/shared/fin-2010-g002.pdf"
+    },
+    {
+      "title": "Anti-Money Laundering and Countering the Financing of Terrorism Programs (proposed rule, 91 FR 18704)",
+      "publisher": "Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"
+    }
+  ],
+  "related": [
+    "bsa-aml-training-requirements",
+    "ofac-sanctions-compliance-training",
+    "austrac-gambling-sector-aml-training",
+    "role-based-training",
+    "how-to-map-training-to-compliance-obligations",
+    "how-to-prepare-training-records-for-an-audit"
+  ],
+  "productLinks": [
+    { "label": "Financial services", "href": "/industries/financial-services" },
+    { "label": "Compliance programs", "href": "/programs/compliance" },
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    { "claim": "1021.210(b)(2)(iii): compliance program shall provide for training of casino personnel, including identification of unusual or suspicious transactions, to the extent reporting is required by the chapter, other law, or casino policies", "source": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1021/subpart-B/section-1021.210" },
+    { "claim": "1010.100(t)(5) and (t)(6): casinos and card clubs with gross annual gaming revenue in excess of $1 million, including tribal casinos under IGRA; coverage begins mid year when threshold is crossed", "source": "https://www.law.cornell.edu/cfr/text/31/1010.100" },
+    { "claim": "1021.320: SAR threshold $5,000; file within 30 calendar days, up to 60 days if no suspect identified; retain SAR and documents five years; telephone law enforcement in urgent cases", "source": "https://www.law.cornell.edu/cfr/text/31/1021.320" },
+    { "claim": "1021.311: each transaction in currency, cash in or cash out, of more than $10,000, including chip purchases, front money and safekeeping deposits", "source": "https://www.law.cornell.edu/cfr/text/31/1021.311" },
+    { "claim": "1010.810(b)(8): examination authority delegated to the Commissioner of Internal Revenue for financial institutions not examined by federal bank supervisors or securities and commodities regulators", "source": "https://www.law.cornell.edu/cfr/text/31/1010.810" },
+    { "claim": "FIN-2008-G007 (August 1, 2008): casino employees are in a unique position to recognize suspicious activity; programs should include employee training on indicia of suspicious activity", "source": "https://www.fincen.gov/sites/default/files/guidance/fin-2008-g007.pdf" },
+    { "claim": "FIN-2010-G002 (June 30, 2010): BSA requires casinos and card clubs to tailor compliance programs to business activities and customer risk profiles", "source": "https://www.fincen.gov/sites/default/files/shared/fin-2010-g002.pdf" },
+    { "claim": "Proposed rule published April 10, 2026 (91 FR 18704) amends Part 1021; comments due June 9, 2026; proposes uniform ongoing employee training program language at 10XX.210(b)(4), described as clarifying; would remove 1021.210(b)(2)(vi) automated data processing language", "source": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs" },
+    { "claim": "31 U.S.C. 5318(h)(1)(C) requires an ongoing employee training program", "source": "https://www.law.cornell.edu/uscode/text/31/5318" }
+  ]
+}

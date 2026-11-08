@@ -1,0 +1,371 @@
+{
+  "slug": "austrac-gambling-sector-aml-training",
+  "kind": "regulation",
+  "title": "What AML/CTF training do pubs, clubs and casinos need in Australia?",
+  "seoTitle": "AUSTRAC AML: pubs, clubs and casinos",
+  "description": "How the AML/CTF Act applies to gaming venues and casinos: the 15 gaming machine exemption, staff training duties, SMR timing and AUSTRAC's venue red flags.",
+  "shortAnswer": "Australian hotels and clubs with more than 15 gaming machines, and all casinos, are reporting entities under the Anti-Money Laundering and Counter-Terrorism Financing Act 2006 and must include personnel training in their AML/CTF policies. Training must suit each person's role and risks. Venues with 15 or fewer machines are exempt from the program obligations under section 233K but must still report suspicious matters to the Australian Transaction Reports and Analysis Centre (AUSTRAC).",
+  "keyTakeaways": [
+    "Allowing a person to play a gaming machine at a venue (item 5) and paying out gaming machine winnings (item 10) are designated services in table 3 of section 6 of the AML/CTF Act; table games, chip exchange and casino prizes are items 6 to 9.",
+    "Under section 233K, an entity and its related entities with a total entitlement to operate no more than 15 gaming machines are exempt from Part 1A (AML/CTF programs, including training), customer due diligence and threshold transaction reports, but not from suspicious matter reporting.",
+    "Venues above the threshold must provide initial and ongoing training suited to each person's function, risks and responsibilities under section 26F(4)(e) of the Act and section 5-9 of the AML/CTF Rules 2025.",
+    "Suspicious matter reports are due within 3 business days, or 24 hours where the suspicion relates to terrorism financing; threshold transaction reports cover physical currency of $10,000 or more.",
+    "AUSTRAC has taken the gambling sector to court repeatedly: Crown paid a $450 million penalty in 2023, SkyCity Adelaide $67 million in 2024, and proceedings against Star, Entain and Mounties were listed as ongoing as at November 2026."
+  ],
+  "jurisdiction": "Australia (Commonwealth): Anti-Money Laundering and Counter-Terrorism Financing Act 2006 and AML/CTF Rules 2025",
+  "regulator": "Australian Transaction Reports and Analysis Centre (AUSTRAC)",
+  "appliesTo": [
+    "Hotels and registered clubs operating gaming machines, where the group's total entitlement exceeds 15 machines",
+    "Casinos providing table games, gaming machines and chip or token exchange",
+    "Gaming floor, cashier, cage, duty manager and surveillance staff who perform AML/CTF functions",
+    "Club boards, hotel owners, senior managers and AML/CTF compliance officers",
+    "Venues with 15 or fewer gaming machines, for suspicious matter reporting only"
+  ],
+  "sections": [
+    {
+      "id": "designated-services",
+      "heading": "Why are pubs, clubs and casinos regulated by AUSTRAC?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Gaming venues and casinos are regulated because table 3 of section 6 of the [Anti-Money Laundering and Counter-Terrorism Financing Act 2006](https://www.legislation.gov.au/C2006A00169/latest/text) lists gambling services as designated services. A business that provides a designated service is a reporting entity and carries the Act's program, customer due diligence and reporting obligations, subject to exemptions."
+        },
+        {
+          "type": "table",
+          "caption": "Gambling designated services most relevant to venues and casinos (source: AML/CTF Act, section 6, table 3)",
+          "head": [
+            "Table 3 item",
+            "Designated service",
+            "Typical provider"
+          ],
+          "rows": [
+            [
+              "Item 5",
+              "As controller of an eligible gaming machine venue, allowing a person to play a game on a gaming machine at the venue",
+              "Hotels and clubs with gaming rooms"
+            ],
+            [
+              "Item 6",
+              "Accepting entry into a game of chance or mixed chance and skill played for money, not on a gaming machine at an eligible venue",
+              "Casinos (table games)"
+            ],
+            [
+              "Items 7 and 8",
+              "Exchanging money or virtual assets for gaming chips, tokens or betting instruments, and exchanging them back",
+              "Casinos, and venues issuing redeemable instruments"
+            ],
+            [
+              "Item 9",
+              "Paying out winnings or awarding a prize for a game not played on a gaming machine at an eligible venue",
+              "Casinos"
+            ],
+            [
+              "Item 10",
+              "As controller of an eligible gaming machine venue, paying out winnings or awarding a prize for a gaming machine game, as agent of the machine's owner or lessee",
+              "Hotels and clubs"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "AUSTRAC's [pubs and clubs industry page](https://www.austrac.gov.au/industry-and-business/your-industry/pubs-and-clubs) addresses pubs and clubs with electronic gaming machines, and its [casinos page](https://www.austrac.gov.au/industry-and-business/your-industry/casinos) collects casino resources. The general training obligation for every reporting entity is explained on the [AUSTRAC AML/CTF training requirements](/regulations/austrac-aml-ctf-training-requirements) page; this page covers what is specific to gambling venues."
+        }
+      ]
+    },
+    {
+      "id": "fifteen-machine-exemption",
+      "heading": "Do venues with 15 or fewer gaming machines need an AML/CTF program?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No. Section 233K of the Act exempts a reporting entity whose total entitlement, together with any related reporting entity, is to operate no more than 15 gaming machines under state or territory licenses, provided it only provides the listed gambling services (items 5, 6, 8, 9 and 10 of table 3, with items 6, 8 and 9 involving gaming machine games)."
+        },
+        {
+          "type": "p",
+          "text": "The exemption switches off Part 1A, which contains the AML/CTF program obligations including personnel training, plus customer due diligence in Divisions 2 to 6 of Part 2, threshold transaction reports under section 43, compliance reports under Division 5 of Part 3, and several record keeping provisions. It does not switch off section 41. A small venue must still lodge a suspicious matter report when the statutory grounds are met."
+        },
+        {
+          "type": "callout",
+          "title": "Count entitlements across the group",
+          "text": "The test uses the total entitlement of the entity and any related entity within the meaning of the Corporations Act 2001 that is a reporting entity. A hotel group with three venues of 10 machines each has an entitlement of 30 and is outside the exemption. Entitlement, not the number of machines switched on, is what counts."
+        },
+        {
+          "type": "p",
+          "text": "Even exempt venues benefit from short suspicious matter training for gaming staff, because staff observe the behavior that grounds a report, and there is no exemption from the reporting duty itself."
+        }
+      ]
+    },
+    {
+      "id": "training-obligation",
+      "heading": "What training must regulated venues give their staff?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Venues above the threshold, and all casinos, must include initial and ongoing training in their AML/CTF policies under section 26F(4)(e) of the Act and section 5-9 of the [AML/CTF Rules 2025](https://www.legislation.gov.au/F2025L01026/latest/text). Training must be appropriate to each person's function, the money laundering and terrorism financing risks of that function, and their responsibilities."
+        },
+        {
+          "type": "p",
+          "text": "AUSTRAC's guidance on [identifying roles that need personnel due diligence and training](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/identifying-personnel-roles-require-due-diligence-and-training) says entities must train people who hold governance roles, such as the governing body, senior managers and the AML/CTF compliance officer, and people who perform other AML/CTF functions. It expects high risk roles to be identified, including roles that can bypass or override AML/CTF requirements and roles that authorize reports to AUSTRAC. In a club, that typically includes the board, the secretary or CEO, gaming managers, cashiers who pay large wins, and staff who prepare threshold transaction and suspicious matter reports."
+        },
+        {
+          "type": "p",
+          "text": "For gaming venues, the most practical training content is AUSTRAC's sector indicators, because they describe behavior floor staff actually see. [Role based training](/glossary/role-based-training) lets a venue give cashiers and gaming floor staff indicator training while governance roles focus on oversight and risk."
+        }
+      ]
+    },
+    {
+      "id": "venue-red-flags",
+      "heading": "Which gaming red flags should venue staff be trained to recognize?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AUSTRAC's [indicators for the pubs and clubs sector](https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/indicators-suspicious-activity-pubs-and-clubs-sector) and its [casino sector indicators](https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/indicators-suspicious-activity-casino-sector) list behavior that may indicate money laundering. AUSTRAC notes that one indicator alone may not be suspicious and the lists are not exhaustive. Examples drawn from those pages include a customer who:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Abandons an electronic gaming machine (EGM) without requesting a payout once credits exceed the cheque or electronic funds transfer payment threshold.",
+            "Offers to buy another customer's ticket in ticket out (TITO) ticket or EGM credits, or asks to photograph another customer's TITO ticket to justify funds later.",
+            "Saves cash redemption terminal receipts after playing so they can later rely on them to justify receipt of funds.",
+            "Retains winning TITO tickets or payout vouchers without redemption for weeks, months or years.",
+            "Feeds cash into an EGM and requests a cheque or EFT payment after minimal or no play (casino indicators).",
+            "Asks venue staff whether they report to AUSTRAC, the Australian Taxation Office or law enforcement.",
+            "Says they have been banned from EGMs at another venue for reasons that do not appear related to problem gambling."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "These indicators translate directly into scenario based assessment items, which test recognition far better than recall of definitions. See [how to design competency assessments](/guides/how-to-design-competency-assessments)."
+        }
+      ]
+    },
+    {
+      "id": "reporting-deadlines",
+      "heading": "What reporting deadlines must gaming staff understand?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Staff who escalate concerns need to know that a suspicious matter report (SMR) is due 3 business days after the entity forms the suspicion, or 24 hours after the suspicion is formed where it relates to terrorism financing, under section 41 of the Act. Threshold transaction reports apply to transfers of physical currency of $10,000 or more and are due within 10 business days."
+        },
+        {
+          "type": "p",
+          "text": "The clock runs from when the entity forms the suspicion, not from when the compliance officer reads an email. Escalation training should therefore cover how quickly a floor observation must reach the person who lodges reports, how shifts hand over open concerns, and what staff must not say to a customer once a suspicion exists. Venues exempt under section 233K have no threshold transaction reporting duty but keep the SMR duty."
+        }
+      ]
+    },
+    {
+      "id": "obligation-map",
+      "heading": "How do AML/CTF duties map to venue roles and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The following mapping is an original planning aid for a club or hotel group above the 15 machine threshold; casinos will have more roles and deeper content. It can seed a venue [training matrix](/guides/how-to-build-a-training-matrix)."
+        },
+        {
+          "type": "table",
+          "caption": "Gaming venue AML/CTF roles mapped to training, frequency and evidence (Knowledge Foundry analysis)",
+          "head": [
+            "Role",
+            "Training focus",
+            "Frequency",
+            "Evidence AUSTRAC would expect"
+          ],
+          "rows": [
+            [
+              "Club board or hotel owners (governing body)",
+              "Oversight duties, risk assessment, approving policies, reading compliance reports",
+              "On appointment and at least annually",
+              "Board training records, minutes showing AML/CTF reporting"
+            ],
+            [
+              "AML/CTF compliance officer",
+              "Full obligations, SMR and TTR lodgement, policy maintenance",
+              "On appointment and ongoing",
+              "Role description, external training, policy version history"
+            ],
+            [
+              "Gaming and duty managers",
+              "Escalation, payout procedures, large win handling, high risk patron decisions",
+              "Onboarding and at least annually",
+              "Completion records, scenario assessment results"
+            ],
+            [
+              "Cashiers and cage staff",
+              "Threshold cash, cheque and EFT payouts, identification, TITO red flags",
+              "Onboarding and at least annually",
+              "Completion records, knowledge checks, transaction review samples"
+            ],
+            [
+              "Gaming floor attendants",
+              "Behavioral red flags, how to escalate, tipping off risk",
+              "Onboarding and at least annually",
+              "Completion records, short scenario checks"
+            ],
+            [
+              "Staff in exempt venues (15 or fewer machines)",
+              "Recognizing suspicious matters and escalating for an SMR",
+              "Onboarding",
+              "Escalation procedure and acknowledgment"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enforcement",
+      "heading": "What enforcement has AUSTRAC taken in the gambling sector?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AUSTRAC has brought civil penalty proceedings against several gambling businesses. Its [enforcement actions page](https://www.austrac.gov.au/about-us/record-our-actions/enforcement-actions-taken) records that the Federal Court ordered Crown Melbourne and Crown Perth to pay a $450 million penalty on July 11, 2023, and SkyCity Adelaide to pay $67 million on June 7, 2024."
+        },
+        {
+          "type": "p",
+          "text": "As at November 2026 the same page lists as current proceedings The Star Entities (filed November 30, 2022), Entain Group, trading as Ladbrokes and Neds (filed December 16, 2024), and Mount Pritchard and District Community Club, known as Mounties (filed July 30, 2025). Mounties is a registered club, so that case is directly relevant to the pubs and clubs sector. AUSTRAC has also issued infringement notices to several clubs. These matters are alleged until decided, and outcomes should be checked on AUSTRAC's page."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry starts from the venue's designated services and machine entitlement, which decides whether the full program applies or only suspicious matter reporting. Each AUSTRAC indicator is linked to the roles that can observe it and to an assessment item, so training content changes when AUSTRAC updates its indicator lists."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a club with 12 gaming machines need AML/CTF training?",
+      "a": "Not under Part 1A, if the club and its related reporting entities have a total entitlement of no more than 15 machines and only provide the listed gambling services. Section 233K exempts it from the program obligations, which include training. The club must still lodge suspicious matter reports, so brief escalation training for gaming staff remains sensible."
+    },
+    {
+      "q": "Does the 15 machine exemption count machines in operation or entitlements?",
+      "a": "Entitlements. Section 233K refers to a total entitlement under licenses issued by one or more states or territories to operate no more than 15 gaming machines, across the entity and any related entity, within the meaning of the Corporations Act 2001, that is a reporting entity. Unused entitlements still count."
+    },
+    {
+      "q": "Can a venue rely on AUSTRAC's free e-learning for staff training?",
+      "a": "AUSTRAC's general training guidance says its own e-learning cannot be relied on alone, and its poor practice example criticizes generic vendor training that ignores the industry's risks and the entity's own program. Venues should add content on their own policies, payout procedures and the gaming indicators relevant to their floor."
+    },
+    {
+      "q": "Who in a club must receive AML/CTF training?",
+      "a": "Anyone who performs AML/CTF functions or holds a governance role: the board as governing body, senior managers, the AML/CTF compliance officer, and staff such as cashiers and gaming managers who handle payouts, identify customers or escalate concerns. AUSTRAC expects high risk roles, including those who authorize reports, to receive deeper training."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Anti-Money Laundering and Counter-Terrorism Financing Act 2006 (compilation in force from October 1, 2026)",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/C2006A00169/latest/text"
+    },
+    {
+      "title": "Anti-Money Laundering and Counter-Terrorism Financing Rules 2025",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2025L01026/latest/text"
+    },
+    {
+      "title": "AML/CTF training",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    },
+    {
+      "title": "Pubs and clubs",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/your-industry/pubs-and-clubs"
+    },
+    {
+      "title": "Casinos",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/your-industry/casinos"
+    },
+    {
+      "title": "Indicators of suspicious activity for the pubs and clubs sector",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/indicators-suspicious-activity-pubs-and-clubs-sector"
+    },
+    {
+      "title": "Indicators of suspicious activity for the casino sector",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/indicators-suspicious-activity-casino-sector"
+    },
+    {
+      "title": "Identifying personnel roles that require due diligence and training",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/identifying-personnel-roles-require-due-diligence-and-training"
+    },
+    {
+      "title": "Enforcement actions taken",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/about-us/record-our-actions/enforcement-actions-taken"
+    }
+  ],
+  "related": [
+    "austrac-aml-ctf-training-requirements",
+    "casino-aml-training-requirements-us",
+    "nsw-responsible-conduct-of-gambling-training",
+    "responsible-service-of-alcohol-training-nsw",
+    "role-based-training",
+    "how-to-design-competency-assessments"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Gap analysis",
+      "href": "/platform/gap-analysis"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "AML/CTF Act section 6 table 3 items 5 to 10 describe gaming machine play at eligible venues, games of chance, chip exchange and payouts",
+      "source": "https://www.legislation.gov.au/C2006A00169/2026-10-01/2026-10-01/text/original/epub/OEBPS/document_1/document_1.html"
+    },
+    {
+      "claim": "Section 233K exempts entities with a total entitlement (with related reporting entities) to operate no more than 15 gaming machines, providing only items 5, 6, 8, 9 and 10, from Part 1A, Divisions 2 to 6 of Part 2, section 43, Division 5 of Part 3 and other listed provisions; section 41 is not listed",
+      "source": "https://www.legislation.gov.au/C2006A00169/2026-10-01/2026-10-01/text/original/epub/OEBPS/document_1/document_1.html"
+    },
+    {
+      "claim": "Part 1A of the Act is headed AML/CTF programs and contains section 26F; Part 3 Division 2 is suspicious matters (s41), Division 3 threshold transactions (s43)",
+      "source": "https://www.legislation.gov.au/C2006A00169/2026-10-01/2026-10-01/text/original/epub/OEBPS/document_1/document_1.html"
+    },
+    {
+      "claim": "Section 41: SMR due 3 business days after forming suspicion, or 24 hours where paragraphs (1)(g) or (h) (terrorism financing) apply; threshold transaction means physical currency of not less than $10,000; TTR due within 10 business days",
+      "source": "https://www.legislation.gov.au/C2006A00169/2026-10-01/2026-10-01/text/original/epub/OEBPS/document_1/document_1.html"
+    },
+    {
+      "claim": "AML/CTF Rules 2025 note: under section 233K certain provisions do not apply where the entity and related entities are entitled to operate no more than 15 gaming machines",
+      "source": "https://www.legislation.gov.au/F2025L01026/2026-03-31/2026-03-31/text/original/epub/OEBPS/document_1/document_1.html"
+    },
+    {
+      "claim": "AUSTRAC: training and PDD apply to governance roles and AML/CTF functions under Act s26F(4)(d) and (e) and Rules 5-8 and 5-9; high risk roles include those who can bypass controls or authorize reports",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/identifying-personnel-roles-require-due-diligence-and-training"
+    },
+    {
+      "claim": "AUSTRAC pubs and clubs indicators include abandoning an EGM above the cheque/EFT threshold, buying TITO tickets, saving CRT receipts, retaining TITO tickets, asking whether staff report to AUSTRAC",
+      "source": "https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/indicators-suspicious-activity-pubs-and-clubs-sector"
+    },
+    {
+      "claim": "AUSTRAC casino indicators include feeding cash into an EGM and requesting a cheque or EFT payment after minimal or no play",
+      "source": "https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/indicators-suspicious-activity-casino-sector"
+    },
+    {
+      "claim": "Federal Court ordered Crown to pay $450 million on 11 July 2023 and SkyCity Adelaide $67 million on 7 June 2024; proceedings against Star (30 Nov 2022), Entain (16 Dec 2024) and Mounties (30 July 2025) listed as current",
+      "source": "https://www.austrac.gov.au/about-us/record-our-actions/enforcement-actions-taken"
+    },
+    {
+      "claim": "AUSTRAC poor practice example criticizes third party training that does not cover industry ML/TF risks or the entity's program",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/examples-personnel-due-diligence-and-training-practice"
+    },
+    {
+      "claim": "AUSTRAC e-learning modules can be used as part of training but can't be relied on solely, because training must be tailored to the person's functions, risks and responsibilities",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    }
+  ]
+}
