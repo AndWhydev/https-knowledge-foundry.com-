@@ -1,0 +1,343 @@
+{
+  "slug": "casa-part-101-remote-pilot-licence-requirements",
+  "kind": "regulation",
+  "title": "What training does CASA require to fly drones for work in Australia?",
+  "seoTitle": "CASA Part 101 RePL and accreditation",
+  "description": "CASA Part 101 rules for drone pilots at work: when a RePL or operator accreditation is needed, training and 5 hour rules, and training records.",
+  "shortAnswer": "The Civil Aviation Safety Authority (CASA) requires anyone flying a drone for business or as part of their job in Australia to hold a remote pilot licence (RePL) or CASA operator accreditation, depending on drone weight and operation. Under Part 101 of the Civil Aviation Safety Regulations 1998, a RePL requires a RePL training course, a passed theory component and at least 5 hours of RPA experience. Accreditation needs CASA's online course and exam and lasts 3 years.",
+  "keyTakeaways": [
+    "Regulation 101.252 makes it a strict liability offense, with a penalty of 50 penalty units, to operate a non-excluded RPA without a remote pilot licence that authorizes it.",
+    "Regulation 101.295 requires RePL applicants to pass the theory component of a RePL training course (or a Part 61 aeronautical knowledge exam), complete the practical training or a CASA flight test, and log at least 5 hours under standard operating conditions.",
+    "Operators of micro (250 g or less) and excluded RPA flown for work need CASA accreditation under regulation 101.374B: at least 16 years old, CASA online course and exam (85 percent pass mark), valid 3 years.",
+    "A RePL training organization must have a CASA-approved chief RePL instructor, and CASA guidance says RePL training course records must be kept for at least 7 years.",
+    "RePL holders need extra qualifications for controlled airspace (such as an aeronautical radio operator certificate) and must fly within visual line of sight unless further exam and approval conditions are met."
+  ],
+  "jurisdiction": "Australia (federal)",
+  "regulator": "Civil Aviation Safety Authority (CASA), under Part 101 of the Civil Aviation Safety Regulations 1998 and the Part 101 Manual of Standards",
+  "appliesTo": [
+    "Remote pilots flying for an organization that holds a remotely piloted aircraft operator's certificate (ReOC)",
+    "Employees and contractors flying micro or excluded category drones as part of their job",
+    "Landholders flying drones over their own land for business without payment",
+    "ReOC holders authorized to conduct RePL training, their chief RePL instructors and instructors"
+  ],
+  "sections": [
+    {
+      "id": "which-credential",
+      "heading": "Which drone credential does a worker need?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The credential depends on the drone's weight and whether the flight is for hire or reward. CASA's [drone weight categories and requirements](https://www.casa.gov.au/drones/operator-accreditation-certificate/drone-weight-categories-and-requirements) page sets out the categories, and Part 101 of the [Civil Aviation Safety Regulations 1998](https://www.legislation.gov.au/F1998B00220/latest/text) creates the offenses."
+        },
+        {
+          "type": "table",
+          "caption": "Drone credential required for work flights, by category (CASA guidance and CASR Part 101)",
+          "head": [
+            "Category",
+            "Weight",
+            "Credential for business or job use",
+            "Organization certificate"
+          ],
+          "rows": [
+            [
+              "Micro RPA",
+              "250 g or less",
+              "Operator accreditation (or a RePL)",
+              "Not required"
+            ],
+            [
+              "Very small, excluded",
+              "More than 250 g up to 2 kg",
+              "Operator accreditation (or a RePL), within standard operating conditions",
+              "Not required"
+            ],
+            [
+              "Small, landholder excluded",
+              "More than 2 kg up to 25 kg, over own land, no payment",
+              "Operator accreditation (or a RePL)",
+              "Not required"
+            ],
+            [
+              "Medium, landholder excluded",
+              "More than 25 kg up to 150 kg, over own land, no payment",
+              "RePL for the type and model",
+              "Not required"
+            ],
+            [
+              "All other work flights",
+              "Any",
+              "RePL covering the RPA category",
+              "ReOC held by the operator (regulation 101.270)"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Currency",
+          "text": "This page reflects Compilation No. 103 of CASR (compilation date September 29, 2026) and CASA guidance as at November 2026. Check the authorised version on the Federal Register of Legislation before relying on a regulation number."
+        }
+      ]
+    },
+    {
+      "id": "repl-requirements",
+      "heading": "What training is required for a remote pilot licence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A RePL requires theory, practical training and flying experience. Under regulation 101.295(2), CASA must grant the licence if the applicant:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Has passed the theory component of a RePL training course, a Part 61 aeronautical knowledge examination for a flight crew licence, an accepted pre-September 2014 theory examination, or an equivalent foreign course theory component.",
+            "Has completed a RePL training course in the manual or automated operation of the RPA category they propose to fly, or a CASA flight test.",
+            "Has at least 5 hours of experience operating an RPA under standard RPA operating conditions."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Regulation 101.295(3) treats a person who holds or has held a flight crew licence, an air traffic control licence or an equivalent military qualification as meeting the theory requirement. CASA's [get your remote pilot licence](https://www.casa.gov.au/drones/remote-pilot-licence/get-your-remote-pilot-licence) page notes such applicants may still need to sit RPA-specific theory, and that the training provider applies to CASA for the RePL on the student's behalf."
+        },
+        {
+          "type": "p",
+          "text": "CASA also states that a RePL does not expire and that there is no minimum age to obtain one. The licence shows the RPA type and weight category: less than 7 kg, less than 25 kg, and type-specific ratings for less than 150 kg and more than 150 kg."
+        }
+      ]
+    },
+    {
+      "id": "repl-conditions",
+      "heading": "What conditions limit a RePL holder?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A RePL carries statutory conditions that define where further training is needed. Regulation 101.300(3) prohibits operating above 400 ft AGL in controlled airspace, or within 3 nautical miles of the movement area of a controlled aerodrome, unless the holder has an aeronautical radio operator certificate, a flight crew licence, an ATC licence, a flight service licence or an equivalent military qualification."
+        },
+        {
+          "type": "p",
+          "text": "Regulation 101.300(4) requires the RPA to be flown within the holder's visual line of sight unless they have passed a relevant examination (such as the Part 61 instrument rating knowledge exam or an approved examination) and meet further conditions. CASA conditions under regulation 101.300(2) may also limit the RPA kinds, areas or meteorological conditions a holder may fly in."
+        }
+      ]
+    },
+    {
+      "id": "operator-accreditation",
+      "heading": "What does CASA operator accreditation involve?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Operator accreditation is CASA's short online qualification for micro and excluded category drone flying at work. Regulation 101.374B makes it a strict liability offense, with a penalty of 50 penalty units, to operate an excluded or micro RPA without either an accreditation or a RePL."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Eligibility (regulation 101.374E):** at least 16 years old, completion of CASA's online training course to the required standard, and the required standard in CASA's examination.",
+            "**Pass mark:** CASA's [operator accreditation](https://www.casa.gov.au/drones/operator-accreditation-certificate/get-or-renew-your-operator-accreditation) page states a score of 85 percent or higher on the quiz.",
+            "**Duration (regulation 101.374G):** the accreditation ends 3 years after it takes effect, or the day after the holder is granted a RePL.",
+            "**Supervision:** a child under 16 may fly an excluded or micro RPA under the supervision of an accredited or licensed adult aged 18 or over (regulation 101.374B(4)).",
+            "**Re-eligibility:** an applicant whose accreditation was cancelled in the previous 12 months is not eligible."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Renewal can be done in myCASA up to 30 days before expiry, and accreditations lapse automatically. For organizations with many accredited staff, the 3 year expiry is a [refresh cycle](/guides/how-to-set-mandatory-training-refresh-cycles) to track like any other license expiry."
+        }
+      ]
+    },
+    {
+      "id": "repl-training-organizations",
+      "heading": "What must a RePL training organization have in place?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A ReOC holder that conducts RePL training must be authorized to do so and must nominate a chief RePL instructor (CRI) approved by CASA, in addition to its chief remote pilot. CASA's [key personnel guide for the CRI](https://www.casa.gov.au/sites/default/files/2026-08/key-personnel-guide-reoc-chief-repl-instructor.pdf) refers to sections 2.29A, 2.29B and 2.30 of the Part 101 Manual of Standards."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "The CRI must hold a RePL covering each RPA type used in training (each make and model for medium RPA), meet the RePL training instructor requirements and hold a teaching or instructor qualification: a Part 61 flight instructor rating, a Certificate IV in Training and Assessment, or a recognized tertiary teaching qualification, or an equivalent CASA accepts.",
+            "Instructors must be employed by the training organization and hold a RePL covering the RPA type they instruct.",
+            "Courses must run in a professional and systematic way using [competency-based training](/glossary/competency-based-training) principles.",
+            "The organization must not conduct RePL training without an approved CRI.",
+            "RePL training course records, including examination and flight test records, must be kept for at least 7 years."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "obligation-evidence-map",
+      "heading": "How can a drone operator map Part 101 obligations to evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The table below is an original mapping of Part 101 training obligations to the role, frequency and evidence a CASA inspector would expect. It suits a ReOC holder or any organization whose staff fly drones as part of their job."
+        },
+        {
+          "type": "table",
+          "caption": "CASA Part 101 training obligations mapped to role, frequency and evidence",
+          "head": [
+            "Obligation",
+            "Role",
+            "Frequency",
+            "Evidence an inspector would expect"
+          ],
+          "rows": [
+            [
+              "RePL covering the RPA category (101.252)",
+              "Remote pilots of non-excluded RPA",
+              "Before first flight; does not expire",
+              "RePL details on file, matched to each RPA type and weight category flown"
+            ],
+            [
+              "5 hours under standard operating conditions (101.295)",
+              "RePL applicants",
+              "Once, before the license is granted",
+              "Logbook entries"
+            ],
+            [
+              "Operator accreditation (101.374B)",
+              "Staff flying micro or excluded RPA for work",
+              "Every 3 years",
+              "Accreditation number and expiry date per person"
+            ],
+            [
+              "Controlled airspace qualification (101.300(3))",
+              "RePL holders flying near controlled aerodromes",
+              "Before such operations",
+              "AROC or flight crew licence details"
+            ],
+            [
+              "Approved chief RePL instructor",
+              "RePL training organizations",
+              "Continuously while training",
+              "CASA approval and the CRI's qualification records"
+            ],
+            [
+              "RePL training course records",
+              "CRI",
+              "Each course, kept 7 years",
+              "Course completion, examination and flight test records"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Larger aviation organizations that also maintain aircraft will hold Part 145 and Part 99 obligations in the same matrix; see [CASA Part 145 maintenance training](/regulations/casa-part-145-maintenance-personnel-training) and [CASA Part 99 DAMP training](/regulations/casa-part-99-drug-and-alcohol-management-plan-training)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps each drone credential to the operations and RPA categories it authorizes, so an organization can see which people are cleared for which tasks and when accreditations fall due. For RePL training organizations, course units can be tied to the syllabus elements and assessment points the CRI must evidence."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a RePL need to be renewed?",
+      "a": "No. CASA states that a remote pilot licence does not expire. Operator accreditation is different: under regulation 101.374G it ends 3 years after it takes effect, and CASA allows renewal in myCASA up to 30 days before expiry. An accreditation also ends the day after its holder is granted a RePL."
+    },
+    {
+      "q": "Do employees flying a sub-2 kg drone for their employer need training?",
+      "a": "Yes. CASA requires an RPA operator accreditation for drones of 2 kg or less flown for business or as part of a job, unless the person holds a RePL. Accreditation involves CASA's online course and an exam, is free, and requires the drone to be registered and flown within the standard operating conditions."
+    },
+    {
+      "q": "What is the penalty for flying without a RePL or accreditation?",
+      "a": "Under regulations 101.252 and 101.374B, operating an RPA without the required licence or accreditation is a strict liability offense with a maximum penalty of 50 penalty units. Failing to produce the licence or accreditation when an authorized person or police officer demands it carries a further 5 penalty units."
+    },
+    {
+      "q": "Can prior pilot training count toward a RePL?",
+      "a": "Partly. Regulation 101.295(3) treats holders of a flight crew licence, ATC licence or equivalent military qualification as meeting the theory requirement. CASA notes they may still need RPA-specific theory, and they must still complete the practical component for the RPA type and log 5 hours under standard operating conditions."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Civil Aviation Safety Regulations 1998, Compilation No. 103, Volume 3 (Parts 99 to 135)",
+      "publisher": "Federal Register of Legislation, Australian Government",
+      "url": "https://www.legislation.gov.au/F1998B00220/2026-09-29/2026-09-29/text/original/pdf/3"
+    },
+    {
+      "title": "Civil Aviation Safety Regulations 1998 (latest version)",
+      "publisher": "Federal Register of Legislation, Australian Government",
+      "url": "https://www.legislation.gov.au/F1998B00220/latest/text"
+    },
+    {
+      "title": "Get your remote pilot licence",
+      "publisher": "Civil Aviation Safety Authority",
+      "url": "https://www.casa.gov.au/drones/remote-pilot-licence/get-your-remote-pilot-licence"
+    },
+    {
+      "title": "Get or renew your operator accreditation",
+      "publisher": "Civil Aviation Safety Authority",
+      "url": "https://www.casa.gov.au/drones/operator-accreditation-certificate/get-or-renew-your-operator-accreditation"
+    },
+    {
+      "title": "Drone weight categories and requirements",
+      "publisher": "Civil Aviation Safety Authority",
+      "url": "https://www.casa.gov.au/drones/operator-accreditation-certificate/drone-weight-categories-and-requirements"
+    },
+    {
+      "title": "Key personnel guide: ReOC chief RePL instructor (CRI)",
+      "publisher": "Civil Aviation Safety Authority",
+      "url": "https://www.casa.gov.au/sites/default/files/2026-08/key-personnel-guide-reoc-chief-repl-instructor.pdf"
+    }
+  ],
+  "related": [
+    "casa-part-141-and-142-flight-training-organisations",
+    "casa-part-145-maintenance-personnel-training",
+    "casa-part-99-drug-and-alcohol-management-plan-training",
+    "how-to-set-mandatory-training-refresh-cycles",
+    "competency-based-training",
+    "how-to-prepare-training-records-for-an-audit"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "Reg 101.252: strict liability offense to operate a non-excluded RPA without an authorizing remote pilot licence, 50 penalty units; 5 penalty units for failing to produce on demand",
+      "source": "https://www.legislation.gov.au/F1998B00220/2026-09-29/2026-09-29/text/original/pdf/3"
+    },
+    {
+      "claim": "Reg 101.295(2): theory component of RePL training course or Part 61 exam etc; RePL training course or CASA flight test; at least 5 hours under standard RPA operating conditions; 101.295(3) flight crew, ATC or military licence holders satisfy theory",
+      "source": "https://www.legislation.gov.au/F1998B00220/2026-09-29/2026-09-29/text/original/pdf/3"
+    },
+    {
+      "claim": "Reg 101.300(3) controlled airspace above 400 ft AGL or within 3 nm of controlled aerodrome needs AROC, flight crew, ATC, flight service licence or military equivalent; 101.300(4) VLOS condition",
+      "source": "https://www.legislation.gov.au/F1998B00220/2026-09-29/2026-09-29/text/original/pdf/3"
+    },
+    {
+      "claim": "Reg 101.270 ReOC required for RPA operations (non-excluded), 50 penalty units",
+      "source": "https://www.legislation.gov.au/F1998B00220/2026-09-29/2026-09-29/text/original/pdf/3"
+    },
+    {
+      "claim": "Regs 101.374B (accreditation or RePL required for excluded and micro RPA, 50 penalty units; under 16 supervised by accredited adult 18+), 101.374E (age 16, CASA online course and exam; ineligible if cancelled within 12 months), 101.374G (ceases after 3 years or on RePL grant)",
+      "source": "https://www.legislation.gov.au/F1998B00220/2026-09-29/2026-09-29/text/original/pdf/3"
+    },
+    {
+      "claim": "CASA: accreditation free, online, valid 3 years, 85% quiz pass mark, renew up to 30 days before, expires automatically",
+      "source": "https://www.casa.gov.au/drones/operator-accreditation-certificate/get-or-renew-your-operator-accreditation"
+    },
+    {
+      "claim": "CASA: RePL does not expire, no minimum age; categories less than 7 kg, 25 kg, type-specific 150 kg and above; training provider applies on student's behalf",
+      "source": "https://www.casa.gov.au/drones/remote-pilot-licence/get-your-remote-pilot-licence"
+    },
+    {
+      "claim": "CRI must be CASA-approved; hold RePL for each RPA type; teaching qualification (Part 61 instructor rating, Cert IV TAE, tertiary teaching qualification or equivalent); competency-based training; RePL training records kept at least 7 years; MOS sections 2.29A, 2.29B, 2.30",
+      "source": "https://www.casa.gov.au/sites/default/files/2026-08/key-personnel-guide-reoc-chief-repl-instructor.pdf"
+    }
+  ]
+}
