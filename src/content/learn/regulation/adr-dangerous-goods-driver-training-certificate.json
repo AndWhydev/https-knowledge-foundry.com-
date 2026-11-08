@@ -1,0 +1,252 @@
+{
+  "slug": "adr-dangerous-goods-driver-training-certificate",
+  "kind": "regulation",
+  "title": "What training does an ADR dangerous goods driver need, and how long does the certificate last?",
+  "seoTitle": "ADR driver training certificate",
+  "description": "ADR 8.2 and 1.3: the driver training certificate, basic and specialization courses, five year validity, refresher exams and training for other staff.",
+  "shortAnswer": "Under Chapter 8.2 of ADR, the UNECE agreement on carriage of dangerous goods by road applied in the EU by Directive 2008/68/EC, drivers of vehicles carrying dangerous goods must hold a training certificate after an approved basic course of at least 18 teaching units and an examination, plus tank, Class 1 or Class 7 specialization where relevant. The certificate is valid for five years and is renewed by refresher training and an examination. Other staff are trained under Chapter 1.3.",
+  "keyTakeaways": [
+    "ADR 8.2.1.1 requires drivers of vehicles carrying dangerous goods to hold a certificate issued by the competent authority after a training course and examination.",
+    "The initial basic course is at least 18 teaching units of 45 minutes; tank specialization adds 12 units, and Class 1 and Class 7 specializations add 8 units each (8.2.2.4.1).",
+    "The certificate is valid for five years (8.2.2.8.2); a refresher course and exam passed in the 12 months before expiry extends validity from the old expiry date.",
+    "Everyone else whose duties concern the carriage of dangerous goods, from loaders to freight forwarders, must be trained under Chapter 1.3, with refresher training and employer records.",
+    "The 2025 edition of ADR applies from 1 January 2025, and Annex I to Directive 2008/68/EC applies Annexes A and B of ADR as applicable from that date to transport within and between EU Member States."
+  ],
+  "jurisdiction": "International (UNECE ADR); applied in the European Union to national and cross-border road transport by Directive 2008/68/EC",
+  "regulator": "United Nations Economic Commission for Europe (UNECE) Working Party on the Transport of Dangerous Goods (WP.15), with each Contracting Party's competent authority approving courses and issuing certificates",
+  "appliesTo": [
+    "Drivers of vehicles carrying dangerous goods above the ADR 1.1.3.6 thresholds",
+    "Drivers of tank vehicles, battery vehicles and vehicles carrying tank containers, portable tanks or MEGCs above the 8.2.1.3 capacities",
+    "Drivers carrying Class 1 explosives (other than 1.4S) or Class 7 radioactive material",
+    "Consignors, carriers, loaders, packers, fillers, unloaders and freight forwarding staff whose duties concern dangerous goods (Chapter 1.3)"
+  ],
+  "sections": [
+    {
+      "id": "what-adr-requires",
+      "heading": "Which drivers need an ADR training certificate?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Every driver of a vehicle carrying dangerous goods under the full ADR regime needs the certificate. ADR 8.2.1.1 states that such drivers \"shall hold a certificate issued by the competent authority stating that they have participated in a training course and passed an examination on the particular requirements that have to be met during carriage of dangerous goods.\""
+        },
+        {
+          "type": "p",
+          "text": "The [2025 edition of ADR](https://unece.org/sites/default/files/2025-01/2412010_E_ECE_TRANS_352_Vol.II_WEB.pdf) applies from 1 January 2025. Inside the EU, [Directive 2008/68/EC](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008L0068-20260512) on the inland transport of dangerous goods makes ADR binding for transport within and between Member States: Section I.1 of its Annex I applies \"Annexes A and B to the ADR, as applicable with effect from 1 January 2025\", with \"contracting party\" read as \"Member State\"."
+        },
+        {
+          "type": "p",
+          "text": "Training is layered. All certificated drivers complete the basic course (8.2.1.2). Additional specialization courses are required for:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Tanks (8.2.1.3):** drivers of vehicles or MEMUs with fixed or demountable tanks over 1 m³, battery vehicles over 1 m³ in total, or tank containers, portable tanks or MEGCs with an individual capacity over 3 m³ on a transport unit.",
+            "**Class 1 (8.2.1.4):** drivers carrying explosives other than substances and articles of Division 1.4, compatibility group S.",
+            "**Class 7 (8.2.1.4):** drivers carrying radioactive material."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Competent authorities may approve restricted basic and tank courses limited to specific goods or classes, but a restricted basic course does not give the right to attend the Class 1 or Class 7 specialization courses, and the certificate must show its limited scope (8.2.1.2, 8.2.2.8.1(c))."
+        }
+      ]
+    },
+    {
+      "id": "course-content-and-hours",
+      "heading": "What must the courses cover and how long are they?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Initial courses have minimum theoretical durations measured in teaching units of 45 minutes, with normally no more than eight units on a training day (8.2.2.3.6 and 8.2.2.3.7). Practical exercises are additional and must cover at least first aid, fire fighting and what to do in case of an incident or accident (8.2.2.3.8)."
+        },
+        {
+          "type": "table",
+          "caption": "Minimum theoretical duration of initial ADR driver training under 8.2.2.4.1 and examinations under 8.2.2.7",
+          "head": ["Course", "Minimum initial theory", "Initial exam", "Refresher exam"],
+          "rows": [
+            ["Basic training course", "18 teaching units, plus practical exercises", "At least 25 written questions, at least 45 minutes", "At least 15 written questions, at least 30 minutes"],
+            ["Tank specialization", "12 teaching units, plus practical exercises", "At least 15 written questions, at least 30 minutes", "At least 10 written questions, at least 20 minutes"],
+            ["Class 1 specialization", "8 teaching units", "At least 15 written questions, at least 30 minutes", "At least 10 written questions, at least 20 minutes"],
+            ["Class 7 specialization", "8 teaching units", "At least 15 written questions, at least 30 minutes", "At least 10 written questions, at least 20 minutes"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The basic course must cover at least the 15 subjects in 8.2.2.3.2, including main types of hazard, preventive and safety measures, what to do after an accident, marking, labeling and placarding, prohibitions on mixed loading, loading and unloading precautions, civil liability, multimodal transport, tunnel restrictions and behavior in tunnels, and security awareness. Tank courses add vehicle behavior with moving loads and filling and discharge systems (8.2.2.3.3)."
+        },
+        {
+          "type": "p",
+          "text": "Examination questions are drawn from a catalog prepared by the competent authority, and candidates must not know the selected questions in advance (8.2.2.7.1.3). Every examination is invigilated and documents are kept as a printout or electronic file (8.2.2.7.1.7). Electronic exams are allowed only on hardware and software accepted by the competent authority (8.2.2.7.1.8)."
+        }
+      ]
+    },
+    {
+      "id": "validity-and-refresher",
+      "heading": "How long is the ADR certificate valid and how is it renewed?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The certificate is valid for five years from the date the driver passes an initial basic or comprehensive examination (8.2.2.8.2). Renewal requires proof of refresher training under 8.2.2.5 and a pass in the refresher examination."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Renewal in the last 12 months:** if the refresher examination is passed in the twelve months before expiry, the new five year certificate starts from the expiry date of the old one, so no validity is lost.",
+            "**Earlier renewal:** if it is passed before that window, the new five year period starts from the date of the refresher examination.",
+            "**Refresher length:** at least two days for comprehensive courses, or at least half the duration of the corresponding initial course for individual courses, including practical exercises (8.2.2.5.2).",
+            "**Adding a specialization mid cycle:** the new specialization runs only until the existing certificate's expiry date (8.2.2.8.2).",
+            "**Alternative:** a driver may take the initial course and examination instead of the refresher (8.2.2.5.3)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Refresher training exists to bring knowledge up to date and \"shall cover new technical, legal and substance-related developments\" (8.2.2.5.1). A refresher built only from the initial course slides will not meet that purpose after a new ADR edition. For timing reminders, see [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles)."
+        },
+        {
+          "type": "callout",
+          "title": "Card format and recognition",
+          "text": "The certificate is an ID-1 size plastic card, white with black lettering and a security feature such as a hologram, UV printing or guilloche patterns (8.2.2.8.3). Certificates issued under 8.2.2.8 by one Contracting Party must be accepted by the others during their validity (8.2.1.6)."
+        }
+      ]
+    },
+    {
+      "id": "training-of-other-persons",
+      "heading": "What training do staff other than certificated drivers need?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Everyone else whose duties concern the carriage of dangerous goods must be trained under Chapter 1.3, appropriate to their responsibilities. ADR 8.2.3 names personnel employed by the road vehicle operator or the consignor, people who load or unload, freight forwarding and shipping agency staff, and drivers who do not need an 8.2 certificate."
+        },
+        {
+          "type": "p",
+          "text": "The [first volume of ADR 2025](https://unece.org/sites/default/files/2025-01/2412006_E_ECE_TRANS_352_Vol.I_WEB_0.pdf) sets out the content in 1.3.2:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**General awareness training (1.3.2.1):** familiarity with the general requirements for carriage of dangerous goods.",
+            "**Function specific training (1.3.2.2):** training commensurate with duties, including awareness of other modes' requirements where carriage is multimodal.",
+            "**Safety training (1.3.2.3):** hazards of dangerous goods, safe handling and emergency response, commensurate with the risk of injury or exposure.",
+            "**Security awareness (1.10.2):** the nature of security risks, recognizing them, reducing them and actions to take in a security breach, including awareness of security plans where relevant.",
+            "**Refresher training (1.3.2.4):** periodic refresher training to take account of changes in regulations."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Untrained employees may only perform functions under the direct supervision of a trained person (1.3.1). Under 1.3.3 the employer must keep training records, make them available to the employee or competent authority on request, keep them for the period set by the competent authority, and verify records when someone starts a new job."
+        },
+        {
+          "type": "p",
+          "text": "Small load exemptions under 1.1.3.6 can remove the need for an 8.2 driver certificate, but 1.1.3.6.2 keeps 8.2.3 in force, so drivers and staff on exempt loads still need Chapter 1.3 training."
+        }
+      ]
+    },
+    {
+      "id": "obligation-map",
+      "heading": "How can a carrier map ADR training obligations to evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The table below is an original mapping of ADR training duties to role, frequency and the evidence a roadside inspector, competent authority or the undertaking's [dangerous goods safety adviser](/regulations/dangerous-goods-safety-adviser-requirements) would expect. It fits within a wider [training matrix for a transport operator](/guides/how-to-build-a-training-matrix-for-a-transport-operator)."
+        },
+        {
+          "type": "table",
+          "caption": "ADR 2025 training obligations mapped to role, frequency and evidence",
+          "head": ["Obligation", "Role", "Frequency", "Evidence an auditor would expect"],
+          "rows": [
+            ["Hold a valid driver training certificate (8.2.1.1)", "Driver of a vehicle carrying dangerous goods", "Five year validity", "Certificate card carried on the vehicle; copy and expiry date in the operator's tracker"],
+            ["Correct specialization (8.2.1.3, 8.2.1.4)", "Tank, Class 1 or Class 7 driver", "Before the first such journey", "Certificate showing the specialization; job allocation checked against it"],
+            ["Refresher and exam (8.2.2.5, 8.2.2.8.2)", "Certificate holder", "Within 12 months before expiry", "Approved course record and renewed certificate"],
+            ["Chapter 1.3 training", "Loaders, packers, consignor staff, forwarders, non-certificated drivers", "Before assuming duties, then periodic refresher", "Training records retained by the employer for the nationally set period"],
+            ["Security awareness (1.10.2)", "All staff trained under Chapter 1.3", "On employment and periodically", "Security training records, linked to the security plan where one is required"],
+            ["Supervision of untrained staff (1.3.1)", "Supervisors", "Until training is complete", "Supervision log naming the trained person"],
+            ["Verify records of new hires (1.3.3)", "Employer", "On commencing employment", "Copies of previous training records checked and filed"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-and-cpc-links",
+      "heading": "How does ADR training interact with EU driver rules?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ADR training is separate from, but can partly count toward, the EU Driver Certificate of Professional Competence. Under Annex I to Directive (EU) 2022/2561, Member States may count dangerous goods training required under Directive 2008/68/EC toward periodic training, as explained on the [EU Driver CPC periodic training](/regulations/eu-driver-cpc-periodic-training) page."
+        },
+        {
+          "type": "p",
+          "text": "As at November 2026, the 2025 edition is the ADR version applied by Directive 2008/68/EC, and the earlier 2023 edition could only be used until 30 June 2025 under the transitional measure in 1.6.1.1. Course approvals, certificate issuing and record retention periods are national, so operators should check the competent authority in each country where drivers are based. ADR training also sits alongside national professional driver qualifications, such as the one described on the [Portugal driver CAM certificate](/regulations/portugal-driver-cam-certificate) page, rather than replacing them."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps each subject in 8.2.2.3.2 to 8.2.2.3.5 and each 1.3.2 training type to defined knowledge points and question banks, so a refresher can be built from what changed between ADR editions rather than repeating the initial course. The same framework then shows which Chapter 1.3 roles share content with the driver course."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can an ADR driver certificate be renewed after it has expired?",
+      "a": "ADR 8.2.2.8.2 only describes renewal by refresher training and examination before expiry. Once a certificate has lapsed, the driver cannot carry loads that require it. ADR 8.2.2.5.3 allows a driver to take the initial course and examination instead of a refresher, and competent authorities set how lapsed holders are handled."
+    },
+    {
+      "q": "Is an ADR certificate from one country valid in another?",
+      "a": "Yes. ADR 8.2.1.6 requires every Contracting Party to accept training certificates issued in accordance with 8.2.2.8 by another Contracting Party's competent authority during their period of validity. Within the EU, Directive 2008/68/EC applies the same ADR annexes to transport within and between Member States."
+    },
+    {
+      "q": "Does a van driver carrying small quantities need an ADR certificate?",
+      "a": "Not always. Where the quantity per transport unit stays within the 1.1.3.6 thresholds, most of Part 8 does not apply, including the 8.2.1 certificate. ADR 1.1.3.6.2 keeps 8.2.3 in force, so the driver must still receive Chapter 1.3 training appropriate to their duties, with employer records."
+    },
+    {
+      "q": "Can ADR driver training be delivered online?",
+      "a": "ADR requires approved courses that combine theoretical courses with individual practical exercises covering at least first aid, fire fighting and incident response (8.2.2.1 and 8.2.2.3.8). Electronic examinations are allowed under strict conditions in 8.2.2.7.1.8. Whether any theory may be delivered remotely depends on the competent authority's course approval."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ADR 2025: Agreement concerning the International Carriage of Dangerous Goods by Road, Volume I (ECE/TRANS/352, Vol.I)",
+      "publisher": "United Nations Economic Commission for Europe",
+      "url": "https://unece.org/sites/default/files/2025-01/2412006_E_ECE_TRANS_352_Vol.I_WEB_0.pdf"
+    },
+    {
+      "title": "ADR 2025: Agreement concerning the International Carriage of Dangerous Goods by Road, Volume II (ECE/TRANS/352, Vol.II)",
+      "publisher": "United Nations Economic Commission for Europe",
+      "url": "https://unece.org/sites/default/files/2025-01/2412010_E_ECE_TRANS_352_Vol.II_WEB.pdf"
+    },
+    {
+      "title": "Directive 2008/68/EC on the inland transport of dangerous goods (consolidated text of 12 May 2026)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008L0068-20260512"
+    }
+  ],
+  "related": [
+    "dangerous-goods-safety-adviser-requirements",
+    "eu-driver-cpc-periodic-training",
+    "dot-hazmat-employee-training",
+    "dangerous-goods-driver-licence-australia",
+    "iata-dangerous-goods-training-requirements",
+    "how-to-build-a-training-matrix-for-a-transport-operator"
+  ],
+  "productLinks": [
+    { "label": "Compliance programs", "href": "/programs/compliance" },
+    { "label": "Energy and resources", "href": "/industries/energy-resources" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    { "claim": "ADR 2025 applicable as from 1 January 2025; 2023 ADR could continue to be used until 30 June 2025 (1.6.1.1)", "source": "https://unece.org/sites/default/files/2025-01/2412006_E_ECE_TRANS_352_Vol.I_WEB_0.pdf" },
+    { "claim": "Directive 2008/68/EC Annex I Section I.1 applies Annexes A and B to the ADR as applicable with effect from 1 January 2025, contracting party read as Member State (consolidated 12 May 2026)", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02008L0068-20260512" },
+    { "claim": "ADR 8.2.1.1 certificate requirement; 8.2.1.2 basic course; 8.2.1.3 tank thresholds over 1 m3 and over 3 m3; 8.2.1.4 Class 1 (not 1.4S) and Class 7 specialization; 8.2.1.6 mutual acceptance", "source": "https://unece.org/sites/default/files/2025-01/2412010_E_ECE_TRANS_352_Vol.II_WEB.pdf" },
+    { "claim": "Teaching units of 45 minutes, normally no more than eight per day; minimum initial theory 18 units basic, 12 tanks, 8 Class 1, 8 Class 7; practical exercises cover first aid, fire fighting and incident response", "source": "https://unece.org/sites/default/files/2025-01/2412010_E_ECE_TRANS_352_Vol.II_WEB.pdf" },
+    { "claim": "Examinations: basic at least 25 questions and 45 minutes (refresher 15 and 30); specialization at least 15 questions and 30 minutes (refresher 10 and 20); question catalogue; invigilation", "source": "https://unece.org/sites/default/files/2025-01/2412010_E_ECE_TRANS_352_Vol.II_WEB.pdf" },
+    { "claim": "Certificate valid five years from initial exam; renewal within 12 months before expiry runs from old expiry date, earlier renewal runs from refresher exam date; refresher at least two days comprehensive or half initial duration; ID-1 plastic card white with black lettering and security feature", "source": "https://unece.org/sites/default/files/2025-01/2412010_E_ECE_TRANS_352_Vol.II_WEB.pdf" },
+    { "claim": "8.2.3 training of persons other than certificated drivers according to Chapter 1.3; 1.3.2 general awareness, function specific, safety and refresher training; 1.3.3 employer records; 1.10.2 security training; 1.1.3.6.2 keeps 8.2.3 applicable for small loads", "source": "https://unece.org/sites/default/files/2025-01/2412006_E_ECE_TRANS_352_Vol.I_WEB_0.pdf" }
+  ]
+}
