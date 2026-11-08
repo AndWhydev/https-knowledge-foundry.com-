@@ -1,0 +1,233 @@
+{
+  "slug": "how-to-use-training-in-a-capa",
+  "kind": "guide",
+  "title": "When is retraining an acceptable corrective action?",
+  "seoTitle": "Retraining as a CAPA action",
+  "description": "When retraining is an acceptable corrective action in a CAPA: how to test the root cause, when training fixes it, and how to verify the action worked.",
+  "shortAnswer": "Retraining is an acceptable corrective action only when the investigation shows the root cause was a genuine gap in knowledge or skill, such as training that was missing, wrong, or never assigned. It does not fix slips, lapses, unclear procedures, poor design, or workload, which are common causes of human error. Corrective action must remove the cause and prevent recurrence, and its effectiveness must be verified, so retraining needs a measurable check that the problem has stopped.",
+  "keyTakeaways": [
+    "Corrective action is meant to eliminate the cause of a nonconformity and prevent recurrence; FDA's quality management system rule expects corrective and preventive actions to be verified or validated as effective.",
+    "\"Human error\" describes what happened, not why. Training addresses mistakes caused by missing knowledge, not slips and lapses during familiar tasks.",
+    "Trade press reporting on FDA warning letters shows retraining and procedure revision rejected as corrective actions when firms did not explain how they would prevent recurrence.",
+    "Retraining is legitimate when the training itself was absent, wrong, outdated, or not assigned to the person.",
+    "Every training based corrective action needs a defined effectiveness check, set before the action is closed."
+  ],
+  "sections": [
+    {
+      "id": "what-capa-requires",
+      "heading": "What does a corrective action have to achieve?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A corrective action has to remove the cause of a problem so that it does not happen again, and the organization has to show that it worked. Fixing the immediate problem is a correction; preventing recurrence is the corrective action."
+        },
+        {
+          "type": "p",
+          "text": "In the United States, the Food and Drug Administration (FDA) Quality Management System Regulation (QMSR) took effect on February 2, 2026 and incorporates [ISO 13485:2016](https://www.iso.org/standard/59752.html) by reference ([FDA](https://www.fda.gov/medical-devices/postmarket-requirements-devices/quality-management-system-regulation-qmsr)). ISO 13485 addresses corrective action in clause 8.5.2 and preventive action in clause 8.5.3. In the final rule, FDA explains that \"corrective action\" relates to the elimination of the cause of nonconformity and to prevent recurrence, and that manufacturers \"must verify or validate corrective and preventive actions to ensure that such actions are effective\" ([Federal Register, 89 FR 7496](https://www.federalregister.gov/documents/full_text/text/2024/02/02/2024-01709.txt))."
+        },
+        {
+          "type": "p",
+          "text": "The same logic applies under ISO 9001 and most quality and safety management systems, even where the clause wording differs. The question for training is simple: does retraining remove the cause?"
+        }
+      ]
+    },
+    {
+      "id": "human-error",
+      "heading": "Why is \"human error\" not a root cause?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "\"Human error\" names the event, not the reason it happened. An investigation that stops there cannot choose a corrective action that will work, because different kinds of error have different causes and different fixes."
+        },
+        {
+          "type": "p",
+          "text": "The UK Health and Safety Executive (HSE), as one regulator's example, distinguishes slips and lapses, which are unintended actions during familiar tasks, from mistakes, which are errors of judgment or decision making, and from violations, which are deliberate departures from a procedure. HSE says slips and lapses \"cannot be eliminated by training, but improved design can reduce their likelihood\", that \"training based on good procedures is the key to avoiding mistakes\", and that investigations should identify why individuals failed \"rather than stopping at 'operator error'\" ([HSE, Human failure types](https://www.hse.gov.uk/humanfactors/topics/humanfail.htm))."
+        },
+        {
+          "type": "callout",
+          "title": "Industry consensus, not a regulatory text",
+          "text": "The phrase \"retraining alone is not a root cause fix\" reflects widely shared quality and human factors practice. No regulation quoted on this page says it in those words. What the regulations do require is that corrective action eliminates the cause and is verified as effective, which retraining often cannot show."
+        }
+      ]
+    },
+    {
+      "id": "regulator-findings",
+      "heading": "How do regulators react to retraining as a corrective action?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Reporting on FDA warning letters shows that retraining, and procedure revision plus retraining, are criticized when the firm cannot explain how they will stop the problem recurring. The examples below come from the ECA Foundation's published analyses (gmp-compliance.org) and are reporting, not FDA guidance."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "ECA reported in September 2025 that a US manufacturer's corrective measures, which included revising a procedure and retraining employees, were not sufficient for FDA, which stated it was not clearly explained how these measures would prevent rejected product from being sent to customers again ([ECA, Four Warning Letters concerning CAPA and root cause analysis](https://www.gmp-compliance.org/gmp-news/four-warning-letter-concerning-capa-and-root-cause-analysis-published)).",
+            "ECA reported in November 2020 that FDA criticized a manufacturer where staff were simply retrained to avoid recurrence, and expected corrective actions based on properly identified root causes ([ECA, OOS, complaints also need CAPA plans](https://www.gmp-compliance.org/gmp-news/oos-complaints-also-need-capa-plans)).",
+            "ECA's analysis of fiscal year 2011 warning letters quotes FDA criticizing responses that promised training without timeframes or without explaining how the training would reach everyone in relevant roles ([ECA, SOP management and training criticised by FDA](https://www.gmp-compliance.org/gmp-news/cgmp-sop-management-and-training-criticised-by-fda))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "when-acceptable",
+      "heading": "When is retraining a legitimate corrective action?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Retraining is legitimate when the investigation shows the cause sits in the training itself or in a person's knowledge or skill. In those cases, changing or delivering the training does remove the cause."
+        },
+        {
+          "type": "table",
+          "caption": "Root cause type and whether training is a valid corrective action (an original decision aid)",
+          "head": ["Confirmed root cause", "Is training a valid corrective action?", "What else is usually needed", "Effectiveness check"],
+          "rows": [
+            ["Person was never assigned the training", "Partly: train the person, but the cause is the assignment rule", "Fix the role to training assignment rule; check others in the same role", "No untrained people in the role at the next reconciliation"],
+            ["Training content was wrong, missing a step, or outdated", "Yes, after correcting the content", "Version control link between procedure and training", "Assessment on the corrected step passed; no recurrence over a defined period"],
+            ["Person lacked knowledge to make a decision (a mistake)", "Yes, if training targets the decision", "Decision aid or clearer criteria in the procedure", "Scenario assessment on the decision; recurrence trend"],
+            ["Procedure is ambiguous or hard to follow", "No, not on its own", "Rewrite the procedure, then train on the change", "Users can follow the revised procedure without errors in observation"],
+            ["Slip or lapse during a familiar task", "No", "Design changes: layout, forcing functions, checklists, independent checks", "Error rate after the design change"],
+            ["Workload, staffing, or time pressure", "No", "Resourcing or scheduling change", "Error rate and workload indicators"],
+            ["Deliberate shortcut (violation)", "Rarely on its own", "Understand why the shortcut made sense: design, targets, supervision", "Observed compliance over time"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "heading": "How do you use training correctly in a CAPA?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use training only after the investigation has tested other causes, design it around the specific failure, and define how you will prove it worked before you close the CAPA."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Test the training hypothesis.** Ask whether the person had been assigned the training, whether the training covered the step that failed, whether the content matched the current procedure, and whether others trained the same way perform correctly. If trained colleagues also fail, the cause is unlikely to be one person's knowledge.",
+            "**Rule out non training causes.** Check procedure clarity, equipment and layout, workload, and whether the task is a familiar one where slips are likely.",
+            "**Target the gap.** If training is justified, write a [learning outcome](/guides/how-to-write-measurable-learning-outcomes) for the exact step or decision that failed, rather than repeating the whole course.",
+            "**Choose the right method.** For procedural steps, use observed or practical assessment, not read and understand; see [read and understand vs competency based SOP training](/compare/read-and-understand-vs-competency-based-sop-training).",
+            "**Widen the scope.** Identify everyone in the same role, site, or shift who received the same training and decide whether they need the same correction.",
+            "**Set the effectiveness check in advance.** Define the indicator, the period, and the threshold that will show the problem has stopped. Assessment pass rates alone show learning, not prevention.",
+            "**Close only on evidence.** Close the CAPA when the effectiveness check is met, and link the training record, content version, and CAPA reference."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "effectiveness",
+      "heading": "How do you verify that a training based corrective action worked?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Verify it with evidence that the failure has stopped, not only that people completed the training. A useful check combines a learning measure with an operational measure over a defined period."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Learning measure:** each affected person passes an assessment of the specific step or decision, observed where the task is physical.",
+            "**Operational measure:** the deviation, defect, or complaint type does not recur, or falls below a defined threshold, over a period long enough to see it (for example, a set number of batches or months).",
+            "**Behavior measure:** supervisors or quality staff observe the step being performed correctly in normal work.",
+            "**Escalation rule:** if the issue recurs, the CAPA is reopened and the investigation revisited, rather than repeating the training."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For broader methods, see [how to measure training effectiveness](/guides/how-to-measure-training-effectiveness) and [how to evidence training effectiveness to a regulator](/guides/how-to-evidence-training-effectiveness-to-a-regulator)."
+        },
+        {
+          "type": "callout",
+          "title": "Illustrative example",
+          "text": "Two labeling deviations on one packaging line are first attributed to operator error. The investigation finds that the training module still shows the old label check sequence after a procedure revision, and that operators on other shifts trained on the same module also skip the new check. The corrective action corrects the module, links it to the procedure version, and adds an observed check of the new step for all operators on the line. Effectiveness is defined as all operators passing the observed check and no labeling deviations of that type over the next 60 production runs. The scenario and numbers are illustrative."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps each procedure step to the learning outcomes and assessment points that cover it, with the content version and provenance recorded. An investigator can check whether the failed step was trained, on which version, and how it was assessed, and a corrective action can target that step directly. The [remediation](/platform/remediation) page describes how gaps are closed."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is retraining ever enough on its own?",
+      "a": "Sometimes, when the investigation confirms the cause was a knowledge or skill gap and the training itself was sound, for example a new starter who had not yet been trained on a task. Even then, check why the gap existed, verify competence on the specific step, and define how you will confirm the problem has stopped."
+    },
+    {
+      "q": "Should the person involved be retrained after every deviation?",
+      "a": "Not automatically. Automatic retraining can imply blame and hide system causes. Decide after the investigation. If the cause is design, workload, or procedure clarity, retraining the individual does not prevent recurrence and may give false assurance that the CAPA is complete."
+    },
+    {
+      "q": "What is the difference between a correction and a corrective action?",
+      "a": "A correction deals with the immediate nonconformity, such as reworking a batch or fixing a record. A corrective action removes the cause so the problem does not recur. FDA's final rule adopts the ISO 9000 definitions of these terms for the QMSR."
+    },
+    {
+      "q": "Does ISO 9001 also expect corrective action effectiveness to be checked?",
+      "a": "Yes. The corrective action clause in ISO 9001 (clause 10.2 in the 2015 edition) includes reviewing the effectiveness of any corrective action taken. A training only action with no evidence that the problem stopped is therefore hard to defend at a certification audit, whichever standard applies."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Quality Management System Regulation (QMSR)",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/medical-devices/postmarket-requirements-devices/quality-management-system-regulation-qmsr"
+    },
+    {
+      "title": "Medical Devices; Quality System Regulation Amendments (final rule, 89 FR 7496)",
+      "publisher": "Federal Register, US Government Publishing Office",
+      "url": "https://www.federalregister.gov/documents/full_text/text/2024/02/02/2024-01709.txt"
+    },
+    {
+      "title": "ISO 13485:2016 Medical devices: Quality management systems: Requirements for regulatory purposes",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/59752.html"
+    },
+    {
+      "title": "Human factors: Human failure types",
+      "publisher": "Health and Safety Executive (UK)",
+      "url": "https://www.hse.gov.uk/humanfactors/topics/humanfail.htm"
+    },
+    {
+      "title": "Four Warning Letters concerning CAPA and Root Cause Analysis published",
+      "publisher": "ECA Foundation (gmp-compliance.org)",
+      "url": "https://www.gmp-compliance.org/gmp-news/four-warning-letter-concerning-capa-and-root-cause-analysis-published"
+    },
+    {
+      "title": "OOS, Complaints also need CAPA Plans",
+      "publisher": "ECA Foundation (gmp-compliance.org)",
+      "url": "https://www.gmp-compliance.org/gmp-news/oos-complaints-also-need-capa-plans"
+    },
+    {
+      "title": "cGMP: SOP Management and Training criticised by FDA",
+      "publisher": "ECA Foundation (gmp-compliance.org)",
+      "url": "https://www.gmp-compliance.org/gmp-news/cgmp-sop-management-and-training-criticised-by-fda"
+    }
+  ],
+  "related": [
+    "read-and-understand-vs-competency-based-sop-training",
+    "how-to-measure-training-effectiveness",
+    "how-to-evidence-training-effectiveness-to-a-regulator",
+    "fda-gmp-personnel-training-requirements",
+    "how-to-convert-sops-into-training"
+  ],
+  "productLinks": [
+    { "label": "Remediation", "href": "/platform/remediation" },
+    { "label": "Gap analysis", "href": "/platform/gap-analysis" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 11,
+  "factCheck": [
+    { "claim": "QMSR effective February 2, 2026 and incorporates ISO 13485:2016 by reference; FDA stopped using QSIT on that date.", "source": "https://www.fda.gov/medical-devices/postmarket-requirements-devices/quality-management-system-regulation-qmsr" },
+    { "claim": "Final rule: corrective action relates to elimination of the cause of nonconformity and to prevent recurrence; manufacturers must verify or validate corrective and preventive actions to ensure they are effective; ISO 13485 clause 8.5.2 corrective action and 8.5.3 preventive action; ISO 9000 definitions apply to correction, corrective action and preventive action.", "source": "https://www.federalregister.gov/documents/full_text/text/2024/02/02/2024-01709.txt" },
+    { "claim": "ISO 13485:2016 last reviewed and confirmed in 2025 (stage 90.93, 2025-10-31).", "source": "https://www.iso.org/standard/59752.html" },
+    { "claim": "HSE: slips and lapses cannot be eliminated by training but improved design can reduce their likelihood; training based on good procedures is key to avoiding mistakes; investigations should identify why individuals failed rather than stopping at operator error.", "source": "https://www.hse.gov.uk/humanfactors/topics/humanfail.htm" },
+    { "claim": "ECA (24 September 2025): Wisconsin Pharmacal's corrective measures, including revising the procedure and retraining employees, were insufficient; FDA said it was not clearly explained how they would prevent rejected product being sent to customers again.", "source": "https://www.gmp-compliance.org/gmp-news/four-warning-letter-concerning-capa-and-root-cause-analysis-published" },
+    { "claim": "ECA (4 November 2020): warning letter to Shilpa Medicare criticized staff simply being retrained to avoid recurrence.", "source": "https://www.gmp-compliance.org/gmp-news/oos-complaints-also-need-capa-plans" }
+  ]
+}

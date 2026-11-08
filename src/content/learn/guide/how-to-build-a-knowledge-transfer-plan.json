@@ -1,0 +1,234 @@
+{
+  "slug": "how-to-build-a-knowledge-transfer-plan",
+  "kind": "guide",
+  "title": "How do you build a knowledge transfer plan before experienced staff leave?",
+  "seoTitle": "Building a knowledge transfer plan",
+  "description": "How to build a knowledge transfer plan before experienced staff leave: rank critical knowledge, name successors, set timelines, and evidence readiness.",
+  "shortAnswer": "A knowledge transfer plan identifies which knowledge an organization cannot afford to lose, ranks it by criticality and departure risk, names who holds it and who will receive it, sets the transfer methods and timeline, and defines how successor readiness will be evidenced. Build it before anyone resigns, for every role where critical knowledge is concentrated in one or two people, and review it whenever departures, restructures, or retirements are expected.",
+  "keyTakeaways": [
+    "A transfer plan is a management tool owned by the line manager and sponsored by leadership, not a documentation task handed to the departing expert.",
+    "Rank knowledge by consequence of loss, number of holders, time to competence for a successor, and time until departure.",
+    "Every critical knowledge area needs a named holder, a named successor, a transfer method, and an end date.",
+    "Success is a successor shown to be competent, not a folder of documents; evidence it the way you would any other competence.",
+    "ISO 9001 clause 7.1.6 and ISO 30401 both treat knowledge retention as part of the management system; the ISO 9001 Auditing Practices Group cites mentoring and succession planning as capture methods."
+  ],
+  "sections": [
+    {
+      "id": "what-it-is",
+      "heading": "What is a knowledge transfer plan and how is it different from knowledge capture?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A knowledge transfer plan is the management layer that decides what knowledge must move, to whom, by when, and how readiness will be proven. Knowledge capture is one activity inside it: the sessions and techniques used to get knowledge out of an expert's head."
+        },
+        {
+          "type": "p",
+          "text": "Capture alone produces documents. Transfer produces a person who can do the work. This guide covers the plan; elicitation techniques are covered in [how to capture subject matter expert knowledge](/guides/how-to-capture-subject-matter-expert-knowledge), and the underlying problem is described in [tribal knowledge](/glossary/tribal-knowledge)."
+        }
+      ]
+    },
+    {
+      "id": "why-standards",
+      "heading": "Do management system standards expect knowledge transfer planning?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They expect the outcome, not a document with this name. ISO 9001 requires organizations to determine, maintain, and make available the knowledge needed for their processes, and ISO 30401 sets requirements for managing knowledge across its life cycle."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**ISO 9001 clause 7.1.6.** The ISO 9001 Auditing Practices Group, a joint group of ISO/TC 176 and the International Accreditation Forum, says auditors should evaluate whether organizations consider sources such as \"capturing knowledge (tacit and explicit) that exists within the organization, e.g. through mentoring, succession planning\", and notes \"a strong link between organizational knowledge and competence of people, the latter being the ability to apply knowledge\" ([APG guidance on organizational knowledge](https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-OrganizationalKnowledge2015.pdf)).",
+            "**ISO 30401.** [ISO 30401:2018](https://www.iso.org/standard/68683.html) sets requirements for a knowledge management system. Published analysis of the standard describes its knowledge development activities as including acquisition, application, retention, and handling of obsolete knowledge ([arXiv, 2025](https://arxiv.org/abs/2507.18201)). A second edition reached the close of its draft ballot on 18 September 2026 ([ISO/DIS 30401](https://www.iso.org/standard/89436.html)).",
+            "**Competence requirements.** Where a role's competence is regulated, the successor must meet the same requirements as the expert. See [ISO 9001 competence requirements](/regulations/iso-9001-competence-requirements)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "criticality",
+      "heading": "How do you decide which knowledge to transfer first?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Score each knowledge area on four factors and transfer the highest scores first. A simple, transparent score is easier to agree and defend than a judgment made role by role."
+        },
+        {
+          "type": "table",
+          "caption": "Template: knowledge criticality scoring (an original scheme; score each factor 1 to 3 and add)",
+          "head": ["Factor", "1 (low)", "2 (medium)", "3 (high)"],
+          "rows": [
+            ["Consequence if lost", "Inconvenience or delay", "Cost, customer impact, or rework", "Safety, product quality, regulatory compliance, or major financial loss"],
+            ["Number of competent holders", "Four or more", "Two or three", "One"],
+            ["Time for a successor to become competent", "Weeks", "Months", "A year or more, or requires certification"],
+            ["Time until expected departure", "No known departure", "Within 12 months", "Within 6 months, or notice given"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Areas scoring 10 to 12 need a transfer plan now; 7 to 9 need one this planning cycle; below 7 are monitored. Adjust the thresholds to your context, but keep them written down so the ranking can be reviewed. The register this produces sits naturally beside a [skills matrix](/glossary/skills-matrix), which shows who currently holds each competence."
+        }
+      ]
+    },
+    {
+      "id": "roles",
+      "heading": "Who should be involved in a knowledge transfer plan?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "At minimum: a sponsor who protects time and budget, the knowledge holder, one or more successors, a line manager who owns the plan, and a reviewer who signs off readiness. A facilitator and a document owner are often needed too."
+        },
+        {
+          "type": "table",
+          "caption": "Roles in a knowledge transfer plan",
+          "head": ["Role", "Responsibility", "Typical person"],
+          "rows": [
+            ["Sponsor", "Approves the plan, protects the holder's and successor's time, resolves conflicts", "Department head or site leader"],
+            ["Plan owner", "Maintains the plan, tracks progress, escalates slippage", "Line manager of the role"],
+            ["Knowledge holder", "Shares knowledge, reviews captured material, coaches successors", "The experienced employee"],
+            ["Successor", "Learns, practices under supervision, demonstrates competence", "Named employee or employees"],
+            ["Facilitator", "Runs structured capture sessions and drafts artifacts", "Learning, quality, or knowledge management specialist"],
+            ["Document owner", "Brings captured knowledge into controlled procedures and training", "Process owner"],
+            ["Readiness reviewer", "Assesses successor competence and signs off", "Qualified assessor independent of the holder where possible"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "heading": "What are the steps to build the plan?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Build the plan in seven steps, each with an output that can be reviewed. Start with the register, finish with evidence that successors are ready."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Build the knowledge risk register.** List knowledge areas by role, score them with the criticality template, and agree priorities with the sponsor. Output: a ranked register.",
+            "**Name successors.** For each priority area, name at least one successor, and two where the consequence score is high. Check they have the prerequisite competence and the time. Output: a succession list.",
+            "**Define the target competence.** Write what the successor must be able to do, as [measurable learning outcomes](/guides/how-to-write-measurable-learning-outcomes), including the decisions and exceptions the expert handles. Output: a competence statement per area.",
+            "**Choose transfer methods.** Match methods to the type of knowledge: structured capture sessions and controlled documents for explicit knowledge; shadowing, reverse shadowing, worked cases, and supervised practice for tacit judgment. Output: a method per outcome.",
+            "**Schedule backwards from the departure date.** Allow time for practice and assessment after capture, and finish before the holder leaves so they can review the successor's performance. Output: a dated schedule.",
+            "**Move knowledge into controlled systems.** Update procedures, decision aids, and training items with provenance to the holder and date. Output: controlled artifacts with owners.",
+            "**Evidence readiness.** Assess the successor against the competence statement and record the result. Output: competence records and a sign off."
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Template: knowledge transfer plan entry (example values are illustrative)",
+          "head": ["Field", "Example"],
+          "rows": [
+            ["Knowledge area", "Diagnosis of intermittent faults on the legacy packaging line controller"],
+            ["Criticality score", "11 of 12 (consequence 3, holders 3, time to competence 3, departure 2)"],
+            ["Holder", "Senior maintenance technician, retiring in nine months"],
+            ["Successors", "Two maintenance technicians"],
+            ["Target competence", "Diagnose and resolve the five most frequent fault patterns; recognize when to escalate to the vendor"],
+            ["Methods", "Fault history review, decision point interviews, shadowing on live faults, supervised resolution"],
+            ["Milestones", "Capture complete by month 3; supervised practice months 4 to 7; assessment month 8"],
+            ["Evidence", "Observed assessment of each fault pattern by a qualified assessor; updated controlled troubleshooting guide"],
+            ["Plan owner and sponsor", "Maintenance manager; plant manager"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evidence",
+      "heading": "How do you know the transfer has worked?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The transfer has worked when the successor can do the work to the required standard without the expert, and that has been assessed and recorded. Completed documents and attended sessions are inputs, not proof."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Observed or practical assessment** against the competence statement, ideally on real tasks, by someone other than the holder. See [how to set up verification of competency](/guides/how-to-set-up-verification-of-competency).",
+            "**Independent performance** for a defined period before the holder leaves, with the holder available but not intervening.",
+            "**Controlled artifacts** in place: updated procedures and training items with owners and review dates.",
+            "**Residual risk recorded:** any knowledge that could not be transferred in time, with a mitigation such as a consulting arrangement, a vendor contract, or a temporary escalation route."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Over time, managing this across many roles is what a [competency management system](/glossary/competency-management-system) is for."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry represents a role's knowledge as concepts, decision rules, and assessment points with provenance to the expert who supplied them. Successors can be assessed against the same structure, so readiness is evidenced point by point and the knowledge stays reviewable after the expert has gone. See [knowledge transformation](/platform/knowledge-transformation)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long before someone leaves should a knowledge transfer plan start?",
+      "a": "For critical knowledge, before any departure is known. Time to competence for complex roles can run to many months, which is longer than most notice periods. The criticality register lets you start transfer for single holder, high consequence knowledge as routine succession planning rather than as an emergency."
+    },
+    {
+      "q": "What if the expert has already resigned?",
+      "a": "Prioritize ruthlessly. Use the remaining time for the highest scoring areas, focus sessions on decisions, exceptions, and past cases rather than routine steps, and record what could not be transferred. Consider a short term consulting or recall arrangement for residual risk, and assess successors as soon as possible."
+    },
+    {
+      "q": "Should the departing expert be rewarded for transferring knowledge?",
+      "a": "Many organizations recognize it formally, for example by including transfer milestones in objectives or retention arrangements. Whatever the approach, protect the expert's time: transfer competes with their normal workload, and plans fail most often because sessions are cancelled for operational reasons."
+    },
+    {
+      "q": "Is a knowledge transfer plan the same as a succession plan?",
+      "a": "They overlap. A succession plan names who will fill a role. A knowledge transfer plan ensures that person actually acquires the knowledge the role depends on, with evidence. Succession planning without knowledge transfer often leaves a successor in the seat without the expertise."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ISO 9001 Auditing Practices Group Guidance on: Organizational Knowledge",
+      "publisher": "ISO/TC 176 and International Accreditation Forum",
+      "url": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-OrganizationalKnowledge2015.pdf"
+    },
+    {
+      "title": "ISO 30401:2018 Knowledge management systems: Requirements",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/68683.html"
+    },
+    {
+      "title": "ISO/DIS 30401 Knowledge management systems: Requirements",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/89436.html"
+    },
+    {
+      "title": "Integrating an ISO 30401-compliant Knowledge Management System with the processes of an Integrated Management System",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2507.18201"
+    },
+    {
+      "title": "ISO 9001:2026: What businesses need to know",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/quality-management/iso-9001-2026"
+    }
+  ],
+  "related": [
+    "how-to-capture-subject-matter-expert-knowledge",
+    "tribal-knowledge",
+    "knowledge-management",
+    "skills-matrix",
+    "how-to-set-up-verification-of-competency",
+    "competency-management-system"
+  ],
+  "productLinks": [
+    { "label": "Knowledge transformation", "href": "/platform/knowledge-transformation" },
+    { "label": "Operational procedures programs", "href": "/programs/operational-procedures" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 11,
+  "factCheck": [
+    { "claim": "APG: auditors evaluate whether organizations consider capturing knowledge (tacit and explicit) through mentoring and succession planning; strong link between organizational knowledge and competence, the latter being the ability to apply knowledge.", "source": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-OrganizationalKnowledge2015.pdf" },
+    { "claim": "ISO 30401:2018 clause 4.4.2 lists acquisition, application, retention and management of obsolete or non-conforming knowledge (reused from verified entry on knowledge-management page).", "source": "https://arxiv.org/abs/2507.18201" },
+    { "claim": "ISO/DIS 30401 close of voting 2026-09-18; will replace ISO 30401:2018.", "source": "https://www.iso.org/standard/89436.html" }
+  ]
+}

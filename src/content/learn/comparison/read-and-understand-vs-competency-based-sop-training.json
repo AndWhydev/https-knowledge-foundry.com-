@@ -1,0 +1,220 @@
+{
+  "slug": "read-and-understand-vs-competency-based-sop-training",
+  "kind": "comparison",
+  "title": "Is read and understand SOP training enough?",
+  "seoTitle": "Read and understand vs competency",
+  "description": "Is read and understand SOP training enough? How it compares with competency based training, what FDA and EU GMP expect, and when each method fits.",
+  "shortAnswer": "Read and understand training, where a person reads a standard operating procedure and signs to confirm it, records exposure, not ability. It can be enough for low risk procedures or minor changes. For critical tasks, new staff, and significant revisions, regulators such as the US FDA and the EU GMP Guide expect training that enables people to perform their functions and whose effectiveness is assessed, which points to competency based training with observed or tested performance.",
+  "keyTakeaways": [
+    "A read and understand signature shows that a person was given a procedure and says they understood it; it does not show they can perform it.",
+    "21 CFR 211.25 requires training in the particular operations a person performs; EU GMP Chapter 2 says the practical effectiveness of training should be periodically assessed.",
+    "Trade press analysis of FDA warning letters reports FDA asking firms how their training will be shown to work, not just whether it was delivered.",
+    "Most regulated organizations use both methods, choosing by risk: read and understand for low risk or administrative changes, competency based training for critical steps.",
+    "The choice should be a documented, risk based rule, not a default set by the learning system."
+  ],
+  "sections": [
+    {
+      "id": "definitions",
+      "heading": "What is the difference between read and understand and competency based SOP training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Read and understand training assigns a document and records a signature or acknowledgment. Competency based training defines what a person must be able to do and records evidence that they did it, through observation, a practical task, a scenario, or a knowledge test tied to the procedure's critical steps."
+        },
+        {
+          "type": "p",
+          "text": "The first method answers \"did this person receive the current version\". The second answers \"can this person carry out the procedure correctly\". Both questions matter, but only the second addresses performance. See [competency based training](/glossary/competency-based-training) for the broader approach and [standard operating procedure](/glossary/standard-operating-procedure) for what is being trained."
+        }
+      ]
+    },
+    {
+      "id": "comparison-table",
+      "heading": "How do the two methods compare?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The methods differ in what they evidence, what they cost, and the risk they leave. The table summarizes the trade offs."
+        },
+        {
+          "type": "table",
+          "caption": "Read and understand compared with competency based SOP training",
+          "head": ["Dimension", "Read and understand", "Competency based"],
+          "rows": [
+            ["What the record shows", "The person received the document version and attested to understanding it", "The person demonstrated the required performance against defined criteria"],
+            ["Typical evidence", "Electronic signature, acknowledgment date, document version", "Observation checklist, practical assessment, scenario result, assessor sign off"],
+            ["Effort per person", "Low", "Moderate to high, needs a qualified assessor or a well designed test"],
+            ["Speed of rollout after a change", "Fast", "Slower, unless assessment is limited to the changed steps"],
+            ["Detects misunderstanding", "Rarely", "Usually, because errors show up during assessment"],
+            ["Fit for critical or high risk steps", "Weak on its own", "Strong"],
+            ["Fit for minor or administrative changes", "Usually adequate", "Often disproportionate"],
+            ["Supports training effectiveness evidence", "Limited", "Directly"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regulator-expectations",
+      "heading": "What do regulators expect from SOP training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Regulators in medicines manufacturing expect training that equips people to do their specific job and whose effectiveness is checked. Neither the US nor the EU text bans read and understand, but neither treats delivery alone as the goal."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**United States.** Under [21 CFR 211.25(a)](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B), each person must have the education, training, and experience to perform their assigned functions, and training must cover the particular operations they perform and the written procedures the regulations require. It must be conducted by qualified individuals \"on a continuing basis and with sufficient frequency to assure that employees remain familiar with CGMP requirements applicable to them\".",
+            "**European Union.** [EU GMP Guide Chapter 2, clause 2.11](https://health.ec.europa.eu/system/files/2016-11/2014-03_chapter_2_0.pdf) requires training appropriate to assigned duties and states: \"Continuing training should also be given, and its practical effectiveness should be periodically assessed.\" Training programs should be approved and training records kept.",
+            "**Process safety, as a cross industry example.** OSHA's process safety management standard requires employers to ascertain that each operator \"has received and understood\" the training and to record \"the means used to verify that the employee understood the training\" ([29 CFR 1910.119(g)(3)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.119))."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For the full US requirement, see [FDA GMP personnel training requirements](/regulations/fda-gmp-personnel-training-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "fda-findings",
+      "heading": "What do FDA findings say about SOP training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Reporting on FDA warning letters shows recurring criticism of training that cannot be shown to work or that does not reach the right people. The examples below are taken from the ECA Foundation's published analyses (gmp-compliance.org), which quote warning letters; they are reporting, not FDA guidance."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "In an analysis of fiscal year 2011 warning letters, ECA quotes FDA findings including \"The employees of your firm, including a member of your quality control staff, admitted to our investigators that they were unaware of and were not trained to follow your SOP\" and \"Your response fails to specifically address how the proposed training will ensure that all employees will be trained in SOPs that are relevant to their job functions\" ([ECA, SOP management and training criticised by FDA](https://www.gmp-compliance.org/gmp-news/cgmp-sop-management-and-training-criticised-by-fda)).",
+            "In 2020, ECA reported that a warning letter to a South Korean manufacturer asked the firm to explain why its training controls had failed and to provide a plan for assessing the effectiveness of training ([ECA, Does the FDA expect an assessment for effectiveness after a GMP training?](https://www.gmp-compliance.org/gmp-news/does-the-fda-expect-an-assessment-for-effectiveness-after-a-gmp-training)).",
+            "In August 2026, ECA summarized several 2026 warning letters citing inadequate training and observed that inadequate training is often the root cause of other deviations described in warning letters ([ECA, When training fails](https://www.gmp-compliance.org/gmp-news/when-training-fails-fda-warning-letters-highlight-gmp-training-deficiencies-in-2026))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "when-each-fits",
+      "heading": "When is read and understand enough?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Read and understand is usually enough when the procedure is low risk, the change does not alter how a critical step is performed, and the person is already competent in the task. It is not enough on its own for new tasks, critical steps, or changes that alter what people physically do or decide."
+        },
+        {
+          "type": "table",
+          "caption": "Decision rule: choosing the training method for an SOP (an original starting point; adapt to your risk assessment)",
+          "head": ["Situation", "Recommended method", "Evidence to keep"],
+          "rows": [
+            ["Editorial or formatting change, no change to steps", "Read and understand, or notification only if your procedure allows", "Acknowledgment of new version"],
+            ["Low risk procedure, experienced staff, minor step change", "Read and understand plus a short knowledge check on the changed step", "Acknowledgment and check result"],
+            ["New starter or person new to the task", "Competency based: supervised practice, then observed assessment", "Assessment record with assessor and criteria"],
+            ["Change to a critical step affecting product quality, patient safety, or worker safety", "Competency based assessment of the changed step", "Observed or practical assessment of the changed step"],
+            ["Recurring deviation linked to the procedure", "Investigate first; if a knowledge or skill gap is confirmed, competency based retraining", "Investigation reference and assessment record"],
+            ["Rarely performed but high consequence task", "Competency based assessment before each performance or at a set interval", "Assessment record and interval"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Write this rule into the training procedure so that the method is chosen consistently at the point a document changes. For designing the assessments themselves, see [how to design competency assessments](/guides/how-to-design-competency-assessments) and [verification of competency](/glossary/verification-of-competency)."
+        }
+      ]
+    },
+    {
+      "id": "hybrid",
+      "heading": "Can the two methods be combined?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yes, and most mature programs do. A common pattern uses read and understand to confirm receipt of the current version for everyone affected, then adds a targeted assessment only for the steps that changed or that carry the most risk."
+        },
+        {
+          "type": "p",
+          "text": "The key is that the assessment items trace to specific procedure steps, so a revision triggers review of exactly the items it affects. The underlying distinction between counting completions and evidencing ability is covered in [completion tracking vs competency verification](/compare/completion-tracking-vs-competency-verification), and turning procedures into assessable training is covered in [how to turn SOPs into training](/guides/how-to-convert-sops-into-training)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry breaks each procedure into its steps, decisions, and critical controls, and links assessment points to the ones that matter most. When a procedure changes, the affected steps and their assessment points are identified, so organizations can apply read and understand to minor changes and targeted assessment to critical ones. See [operational procedures programs](/programs/operational-procedures)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does FDA prohibit read and understand training?",
+      "a": "No. 21 CFR 211.25 does not prescribe a training method. It requires training in the particular operations a person performs, by qualified individuals, often enough to keep people familiar with the requirements. Whether read and understand satisfies that depends on the task and the evidence that the person can actually perform it."
+    },
+    {
+      "q": "Is a quiz after reading an SOP a competency assessment?",
+      "a": "It is a knowledge check, which is stronger evidence than a signature alone. Whether it counts as competency assessment depends on the task. For procedural or physical tasks, a quiz cannot show the person can perform the steps; observation or a practical task is needed. Scenario questions work better for decisions and judgment."
+    },
+    {
+      "q": "How do we justify using read and understand to an inspector?",
+      "a": "Show the written, risk based rule your procedure uses to choose the method, the risk classification of the document and the change, and evidence that people trained this way are already competent in the task. A consistent documented rule is easier to defend than case by case decisions."
+    },
+    {
+      "q": "Does this apply outside pharmaceutical manufacturing?",
+      "a": "The same logic applies wherever procedures control risk, such as process safety, laboratories, aviation maintenance, and financial operations. OSHA's process safety standard, for example, requires a record of how the employer verified that operators understood their training, which a signature alone may not provide."
+    }
+  ],
+  "sources": [
+    {
+      "title": "21 CFR Part 211 Subpart B: Organization and personnel",
+      "publisher": "US Food and Drug Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B"
+    },
+    {
+      "title": "EudraLex Volume 4, EU GMP Guide Chapter 2: Personnel",
+      "publisher": "European Commission",
+      "url": "https://health.ec.europa.eu/system/files/2016-11/2014-03_chapter_2_0.pdf"
+    },
+    {
+      "title": "29 CFR 1910.119 Process safety management of highly hazardous chemicals",
+      "publisher": "US Occupational Safety and Health Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.119"
+    },
+    {
+      "title": "cGMP: SOP Management and Training criticised by FDA",
+      "publisher": "ECA Foundation (gmp-compliance.org)",
+      "url": "https://www.gmp-compliance.org/gmp-news/cgmp-sop-management-and-training-criticised-by-fda"
+    },
+    {
+      "title": "Does the FDA expect an assessment for effectiveness after a GMP Training?",
+      "publisher": "ECA Foundation (gmp-compliance.org)",
+      "url": "https://www.gmp-compliance.org/gmp-news/does-the-fda-expect-an-assessment-for-effectiveness-after-a-gmp-training"
+    },
+    {
+      "title": "When Training Fails: FDA Warning Letters Highlight GMP Training Deficiencies in 2026",
+      "publisher": "ECA Foundation (gmp-compliance.org)",
+      "url": "https://www.gmp-compliance.org/gmp-news/when-training-fails-fda-warning-letters-highlight-gmp-training-deficiencies-in-2026"
+    }
+  ],
+  "related": [
+    "competency-based-training",
+    "completion-tracking-vs-competency-verification",
+    "how-to-convert-sops-into-training",
+    "fda-gmp-personnel-training-requirements",
+    "verification-of-competency",
+    "how-to-use-training-in-a-capa"
+  ],
+  "productLinks": [
+    { "label": "Operational procedures programs", "href": "/programs/operational-procedures" },
+    { "label": "Verification and trust", "href": "/platform/verification-trust" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 11,
+  "factCheck": [
+    { "claim": "21 CFR 211.25(a): education, training and experience to perform assigned functions; training in particular operations and CGMP including written procedures; by qualified individuals on a continuing basis and with sufficient frequency.", "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B" },
+    { "claim": "EU GMP Chapter 2 clause 2.11: continuing training should also be given, and its practical effectiveness should be periodically assessed; training programmes approved by head of Production or QC; training records kept.", "source": "https://health.ec.europa.eu/system/files/2016-11/2014-03_chapter_2_0.pdf" },
+    { "claim": "29 CFR 1910.119(g)(3): employer ascertains each employee has received and understood the training; record includes means used to verify understanding.", "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-H/section-1910.119" },
+    { "claim": "ECA analysis of FY2011 warning letters quotes FDA findings on employees unaware of and not trained on SOPs and responses failing to address how training would cover job relevant SOPs.", "source": "https://www.gmp-compliance.org/gmp-news/cgmp-sop-management-and-training-criticised-by-fda" },
+    { "claim": "ECA (3 June 2020) reports a warning letter to Samchundang Pharm (South Korea) asking for explanation of failed training controls and a plan to assess training effectiveness.", "source": "https://www.gmp-compliance.org/gmp-news/does-the-fda-expect-an-assessment-for-effectiveness-after-a-gmp-training" },
+    { "claim": "ECA (12 August 2026) summarizes 2026 warning letters citing training deficiencies and states inadequate training is often the root cause of other deviations.", "source": "https://www.gmp-compliance.org/gmp-news/when-training-fails-fda-warning-letters-highlight-gmp-training-deficiencies-in-2026" }
+  ]
+}

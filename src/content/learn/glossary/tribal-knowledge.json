@@ -1,0 +1,167 @@
+{
+  "slug": "tribal-knowledge",
+  "kind": "glossary",
+  "title": "What is tribal knowledge?",
+  "seoTitle": "What is tribal knowledge?",
+  "description": "Tribal knowledge is know-how held by a few people and passed on informally. How it relates to tacit and institutional knowledge, ISO 9001 and ISO 30401.",
+  "shortAnswer": "The term tribal knowledge means the undocumented know-how that a few people hold about how work really gets done, passed on informally by word of mouth and example rather than through controlled documents or structured training. It overlaps with tacit and institutional knowledge. It becomes a risk when it is critical to quality, safety, or compliance and its holders leave, because ISO 9001 expects the knowledge needed to run processes to be determined, maintained, and made available.",
+  "keyTakeaways": [
+    "Tribal knowledge is defined by how it is held and shared (informally, by a few people), not by what it is about.",
+    "It often includes tacit knowledge, such as judgment and cues, that the holders find hard to put into words.",
+    "ISO 9001 clause 7.1.6 requires organizations to determine, maintain, and make available the knowledge needed for their processes; the ISO 9001 Auditing Practices Group notes document control alone is not enough for tacit knowledge.",
+    "ISO 30401 sets requirements for a knowledge management system; a second edition reached the close of its draft ballot in September 2026.",
+    "The usual fix is not to document everything, but to identify critical tribal knowledge and transfer it deliberately."
+  ],
+  "term": "Tribal knowledge",
+  "alsoKnownAs": [
+    "Institutional knowledge",
+    "Undocumented know-how",
+    "Unwritten knowledge"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What does tribal knowledge mean?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tribal knowledge means knowledge that lives in people and their informal networks rather than in the organization's systems. It is the workaround everyone on a shift knows, the reason a setting is never changed, or the customer history only one account manager remembers."
+        },
+        {
+          "type": "p",
+          "text": "The term is informal and not defined in any standard. It is useful because it highlights two things at once: the knowledge is valuable enough that work depends on it, and it is held by a small group, so it can be lost. The broader discipline that addresses it is [knowledge management](/glossary/knowledge-management)."
+        }
+      ]
+    },
+    {
+      "id": "related-terms",
+      "heading": "How is tribal knowledge different from tacit and institutional knowledge?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The three terms overlap but are not the same. Tacit knowledge describes knowledge that is hard to articulate; institutional knowledge describes knowledge the organization has accumulated; tribal knowledge describes knowledge that is held and shared informally by a few people."
+        },
+        {
+          "type": "table",
+          "caption": "Tribal, tacit, institutional, and documented knowledge compared",
+          "head": ["Term", "What defines it", "Example", "Can it be documented?"],
+          "rows": [
+            ["Tribal knowledge", "Held by a few people and passed on informally", "A known workaround for an intermittent equipment fault", "Often yes, once someone asks the right questions"],
+            ["Tacit knowledge", "Hard to put into words; shown through skill and judgment", "Recognizing from the sound of a pump that something is wrong", "Partly, through cues, examples, and supervised practice"],
+            ["Institutional knowledge", "Accumulated by the organization over time, in people and records", "Why a product was redesigned ten years ago", "Partly; much sits in people's memory"],
+            ["Documented knowledge", "Recorded in controlled documents, systems, or training", "A current, approved procedure", "Already documented"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "In practice, much tribal knowledge is tacit, and much institutional knowledge is tribal. The distinction matters when choosing how to transfer it: explicit facts can be written down, while tacit judgment usually needs worked cases, observation, and supervised practice."
+        }
+      ]
+    },
+    {
+      "id": "standards",
+      "heading": "What do ISO 9001 and ISO 30401 say about this kind of knowledge?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ISO 9001 requires organizations to manage the knowledge needed to run their processes, and ISO 30401 sets requirements for a full knowledge management system. Neither uses the term tribal knowledge, but both address it."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**ISO 9001 clause 7.1.6, organizational knowledge.** The organization determines the knowledge necessary for the operation of its processes and to achieve conformity of products and services, maintains it, and makes it available to the extent necessary. The ISO 9001 Auditing Practices Group notes that tacit or shared knowledge, or knowledge from experience, was not addressed explicitly before the 2015 edition, and that \"for those types of knowledge document control is not sufficient to make it available and useable\". It lists mentoring and succession planning as ways to capture tacit and explicit knowledge ([ISO and IAF, APG guidance on organizational knowledge](https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-OrganizationalKnowledge2015.pdf)).",
+            "**ISO 9001:2026.** The sixth edition was published in September 2026. ISO lists organizational knowledge among the realities the revision's refinements reflect, alongside digitalization and supply chains ([ISO](https://www.iso.org/quality-management/iso-9001-2026)).",
+            "**ISO 30401, knowledge management systems.** [ISO 30401:2018](https://www.iso.org/standard/68683.html) sets requirements and guidance for a knowledge management system in any organization. A second edition, [ISO/DIS 30401](https://www.iso.org/standard/89436.html), reached the close of its draft international standard ballot on 18 September 2026 and will replace the 2018 edition when published."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "risks",
+      "heading": "Why is tribal knowledge a risk in regulated organizations?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tribal knowledge is a risk when work that affects quality, safety, or compliance depends on it, because it cannot be reviewed, controlled, trained consistently, or evidenced to an auditor. When the holders leave, change roles, or are simply absent, the organization can lose the ability to perform the work correctly."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Warning signs:** one person is always called for a certain problem; new starters take far longer than expected to become independent; procedures say one thing and experienced staff do another; incident investigations find steps \"everyone knows\" that are written nowhere.",
+            "**Compliance impact:** training records may show people trained on a procedure that does not describe how the work is really done, which weakens both the procedure and the training evidence.",
+            "**Positive side:** tribal knowledge often contains genuine improvements. Capturing it can improve the controlled procedure rather than just preserve the workaround."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "To act on it, see [how to capture subject matter expert knowledge](/guides/how-to-capture-subject-matter-expert-knowledge) for elicitation techniques and [how to build a knowledge transfer plan](/guides/how-to-build-a-knowledge-transfer-plan) for planning succession before people leave."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records captured know-how as concepts, decision rules, and assessment points with provenance to the expert and session it came from. That turns tribal knowledge into reviewable, trainable structure while keeping a record of where it originated. See [knowledge transformation](/platform/knowledge-transformation)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is tribal knowledge always bad?",
+      "a": "No. It often reflects real expertise and practical improvements. The problem is dependence on a few people and the absence of review. The goal is to identify the tribal knowledge that matters, check it, and move it into controlled procedures and training, not to eliminate informal learning."
+    },
+    {
+      "q": "Can tribal knowledge be fully documented?",
+      "a": "Rarely. Facts, settings, and decision rules can be written down. Judgment and perceptual cues are harder and usually transfer through worked examples, observation, and supervised practice. A realistic aim is to document what can be documented and plan structured practice for the rest."
+    },
+    {
+      "q": "Is the term tribal knowledge used in ISO standards?",
+      "a": "No. ISO 9001 uses \"organizational knowledge\" and ISO 30401 addresses knowledge management systems. Tribal knowledge is an informal business term for a subset of the knowledge these standards cover: knowledge held by few people and shared informally."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ISO 9001 Auditing Practices Group Guidance on: Organizational Knowledge",
+      "publisher": "ISO/TC 176 and International Accreditation Forum",
+      "url": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-OrganizationalKnowledge2015.pdf"
+    },
+    {
+      "title": "ISO 9001:2026: What businesses need to know",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/quality-management/iso-9001-2026"
+    },
+    {
+      "title": "ISO 30401:2018 Knowledge management systems: Requirements",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/68683.html"
+    },
+    {
+      "title": "ISO/DIS 30401 Knowledge management systems: Requirements",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/89436.html"
+    }
+  ],
+  "related": [
+    "knowledge-management",
+    "how-to-capture-subject-matter-expert-knowledge",
+    "how-to-build-a-knowledge-transfer-plan",
+    "knowledge-drift",
+    "iso-9001-competence-requirements"
+  ],
+  "productLinks": [
+    { "label": "Knowledge transformation", "href": "/platform/knowledge-transformation" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 11,
+  "factCheck": [
+    { "claim": "APG guidance (13 January 2016): knowledge addressed explicitly for the first time in ISO 9001:2015; for tacit or shared knowledge document control is not sufficient; capture via mentoring and succession planning; competence is the ability to apply knowledge.", "source": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-OrganizationalKnowledge2015.pdf" },
+    { "claim": "ISO lists organizational knowledge among realities reflected in ISO 9001:2026 refinements.", "source": "https://www.iso.org/quality-management/iso-9001-2026" },
+    { "claim": "ISO/DIS 30401 edition 2: stage 40.60 close of voting 2026-09-18; will replace ISO 30401:2018.", "source": "https://www.iso.org/standard/89436.html" },
+    { "claim": "ISO 9001:2015 clause 7.1.6: knowledge necessary for operation of processes and to achieve conformity of products and services (reused from verified entry on knowledge-management page).", "source": "https://arxiv.org/abs/2507.18201" }
+  ]
+}

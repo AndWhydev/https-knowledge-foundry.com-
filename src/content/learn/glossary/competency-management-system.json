@@ -1,0 +1,158 @@
+{
+  "slug": "competency-management-system",
+  "kind": "glossary",
+  "title": "What is a competency management system?",
+  "seoTitle": "What is a competency management system?",
+  "description": "A competency management system defines, assesses, records, and maintains the competence each role needs. Components, competency assurance, and examples.",
+  "shortAnswer": "A competency management system is the set of processes, records, and responsibilities an organization uses to define the competence each role requires, assess whether people meet it, close gaps, and keep competence current over time. It is how an organization provides competency assurance: evidence that people doing critical work can do it. It can run on software, but the system is the method, not the tool. Safety regulators and standards such as ISO/IEC 17025 expect this kind of control.",
+  "keyTakeaways": [
+    "A competency management system covers the full cycle: define requirements, assess, develop, verify, record, maintain, and review.",
+    "Competency assurance is the outcome: confidence, backed by evidence, that people performing critical tasks are competent.",
+    "Regulators often set minimum competence for high risk roles, for example NOPSEMA's 2025 safety bulletin on emergency response and high risk activity roles offshore in Australia.",
+    "Maintenance of competence matters as much as initial assessment; the NSW Resources Regulator, for example, requires practising certificate holders to log learning over a five year certificate period.",
+    "A training matrix or learning management system is a component, not the whole system."
+  ],
+  "term": "Competency management system",
+  "alsoKnownAs": [
+    "CMS",
+    "Competence management system",
+    "Competency assurance system"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What does a competency management system include?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A competency management system includes the competence requirements for each role, the methods used to assess people against them, the development and verification activities that close gaps, the records that evidence the result, and the rules that keep competence current. It links what the organization needs people to do with proof that they can."
+        },
+        {
+          "type": "table",
+          "caption": "Components of a competency management system",
+          "head": ["Component", "Purpose", "Typical artifact"],
+          "rows": [
+            ["Role competence requirements", "Defines what each role must be able to do, to what standard", "[Competency framework](/glossary/competency-framework) and role profiles"],
+            ["Assessment methods", "Tests whether a person meets each requirement", "Observation checklists, practical tests, scenarios, [verification of competency](/glossary/verification-of-competency)"],
+            ["Gap analysis and development", "Plans training, coaching, or supervised practice to close gaps", "Individual development plans, [training matrix](/glossary/training-matrix)"],
+            ["Authorization", "Confirms a person may work unsupervised on a task", "Sign off by an authorized assessor"],
+            ["Records", "Evidences who is competent in what, when, and how assessed", "Competence register or [skills matrix](/glossary/skills-matrix)"],
+            ["Maintenance and reassessment", "Keeps competence current as people, tasks, and rules change", "Reassessment intervals, change triggers, continuing learning logs"],
+            ["Governance and review", "Checks the system works and improves it", "Audits, management review, incident learning"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "competency-assurance",
+      "heading": "What is competency assurance?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Competency assurance is the confidence, supported by evidence, that the people performing a task are competent to do it. A competency management system is the means; assurance is the result that management, customers, and regulators look for."
+        },
+        {
+          "type": "p",
+          "text": "The difference from training administration is the evidence. A record that someone attended a course shows exposure. Competency assurance needs evidence of assessed performance against defined criteria, kept current. See [completion tracking vs competency verification](/compare/completion-tracking-vs-competency-verification)."
+        }
+      ]
+    },
+    {
+      "id": "examples",
+      "heading": "How do regulators and standards expect competence to be managed?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Many regulators expect organizations to define and evidence competence for high risk roles, and some require competence to be maintained over time. The examples below come from Australia and from an international standard; other jurisdictions have comparable expectations."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Offshore energy (Australia).** A National Offshore Petroleum Safety and Environmental Management Authority (NOPSEMA) safety bulletin dated 6 August 2025 sets out NOPSEMA's position on minimum competency for emergency response roles and high risk activities. It says minimum competencies should align with the Australian Qualifications Framework or an equivalent course, an Australian or equivalent international standard, or the STCW convention for seafarers, and lists roles such as confined space rescue, gas tester, crane operator, and scaffolder. It links this to the Offshore Petroleum and Greenhouse Gas Storage (Safety) Regulations 2024, which require a facility safety case to describe how the operator ensures each member of the workforce has the necessary skills, training, and ability ([NOPSEMA safety bulletin](https://www.nopsema.gov.au/sites/default/files/documents/Safety%20Bulletin%20-%20Competency%20for%20emergency%20response%20and%20high%20risk%20activities%20.pdf)).",
+            "**Mining (New South Wales, Australia).** The NSW Resources Regulator's maintenance of competence scheme is a legislated condition for holders of practising certificates for statutory functions. Holders must complete specified hours of recognized learning over the five year validity of the certificate, keep a log with supporting evidence, and may be selected for random annual audits. A revised scheme applies to certificates granted from 1 October 2025 ([NSW Resources Regulator](https://www.resources.nsw.gov.au/resources-regulator/safety/certification/maintenance-of-competence)).",
+            "**Laboratories (international).** [ISO/IEC 17025:2017](https://www.iso.org/standard/66912.html), last confirmed in 2023, sets requirements for the competence, impartiality, and consistent operation of testing and calibration laboratories. Its personnel requirements (clause 6.2) expect laboratories to manage the competence of staff whose work affects results, including defining competence requirements and authorizing personnel for specific activities."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Quality and safety management standards set similar general expectations; see [ISO 9001 competence requirements](/regulations/iso-9001-competence-requirements) and [ISO 45001 competence and awareness](/regulations/iso-45001-competence-and-awareness)."
+        }
+      ]
+    },
+    {
+      "id": "vs-lms",
+      "heading": "Is a competency management system the same as a learning management system?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No. A learning management system delivers and records training. A competency management system decides what competence each role needs and evidences that people have it, using training as one input among several, such as experience, observed assessment, and authorization."
+        },
+        {
+          "type": "p",
+          "text": "Some software combines both functions, but the distinction still matters when designing the process. An organization can have a well run learning system and still lack competency assurance if no one has defined the required competence or assessed performance. See [learning management system](/glossary/learning-management-system)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines the knowledge and decisions behind each competence as a structured framework with assessment points, so competence requirements, assessments, and evidence trace to the same source. When a procedure or requirement changes, the affected competences and assessments can be identified. See [verification and trust](/platform/verification-trust)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Who owns a competency management system?",
+      "a": "Usually operations or the function that carries the risk owns competence requirements and sign off, with learning and development running assessment logistics and records, and quality or safety providing assurance. Clear ownership of role requirements by the business is the most important element; without it the system becomes a training catalog."
+    },
+    {
+      "q": "How often should competence be reassessed?",
+      "a": "It depends on risk, frequency of the task, and any regulatory interval. Common triggers are a fixed interval for high risk tasks, a change to the procedure or equipment, a long absence from the task, and an incident or deviation. Record the rule and the reason for each interval."
+    },
+    {
+      "q": "Do small organizations need a competency management system?",
+      "a": "They need the function, scaled to size. A small organization can manage it with a role requirements list, a simple competence register, and documented assessments. What matters is that requirements are defined, assessment is evidenced, and competence is kept current, not the sophistication of the tool."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Safety Bulletin: Competency for emergency response and high-risk activities",
+      "publisher": "National Offshore Petroleum Safety and Environmental Management Authority",
+      "url": "https://www.nopsema.gov.au/sites/default/files/documents/Safety%20Bulletin%20-%20Competency%20for%20emergency%20response%20and%20high%20risk%20activities%20.pdf"
+    },
+    {
+      "title": "Maintenance of competence",
+      "publisher": "NSW Resources Regulator",
+      "url": "https://www.resources.nsw.gov.au/resources-regulator/safety/certification/maintenance-of-competence"
+    },
+    {
+      "title": "ISO/IEC 17025:2017 General requirements for the competence of testing and calibration laboratories",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/66912.html"
+    }
+  ],
+  "related": [
+    "competency-framework",
+    "verification-of-competency",
+    "skills-matrix",
+    "completion-tracking-vs-competency-verification",
+    "iso-9001-competence-requirements",
+    "how-to-build-a-knowledge-transfer-plan"
+  ],
+  "productLinks": [
+    { "label": "Verification and trust", "href": "/platform/verification-trust" },
+    { "label": "Energy and resources", "href": "/industries/energy-resources" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 11,
+  "factCheck": [
+    { "claim": "NOPSEMA safety bulletin dated 6/08/2025: minimum competencies considered ALARP should align with AQF or equivalent, Australian or international standard, or STCW; example roles listed; OPGGS (Safety) Regulations 2024 reg 2.9 safety case must describe how workforce has necessary skills, training and ability.", "source": "https://www.nopsema.gov.au/sites/default/files/documents/Safety%20Bulletin%20-%20Competency%20for%20emergency%20response%20and%20high%20risk%20activities%20.pdf" },
+    { "claim": "NSW maintenance of competence scheme: legislated condition for practising certificate holders; specified hours over five year validity; log and evidence; random annual audits; regazetted from 1 October 2025.", "source": "https://www.resources.nsw.gov.au/resources-regulator/safety/certification/maintenance-of-competence" },
+    { "claim": "ISO/IEC 17025:2017 last reviewed and confirmed in 2023; requirements for competence, impartiality and consistent operation of laboratories.", "source": "https://www.iso.org/standard/66912.html" }
+  ]
+}

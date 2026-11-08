@@ -1,0 +1,187 @@
+{
+  "slug": "controlled-vs-uncontrolled-documents",
+  "kind": "comparison",
+  "title": "What is the difference between controlled and uncontrolled documents?",
+  "seoTitle": "Controlled vs uncontrolled documents",
+  "description": "Controlled vs uncontrolled documents: what ISO 9001 document control means, the risks of uncontrolled copies, and why training must cite the controlled one.",
+  "shortAnswer": "A controlled document is one whose approval, version, distribution, access, and changes are managed, so users can rely on it being the current approved version. An uncontrolled document is a copy outside that system, such as a printout or a file saved locally, with no guarantee it is current. ISO 9001 requires documented information to be controlled, and training should always reference the controlled version so people learn the method the organization has actually approved.",
+  "keyTakeaways": [
+    "Control is about the system around a document: approval, unique identification, version, distribution, access, change control, retention, and disposal.",
+    "ISO 9001 clause 7.5.3 requires documented information to be available and suitable where and when needed, and adequately protected; external documents also need control.",
+    "An uncontrolled copy is not wrong by definition, but nobody can rely on it being current, so it should not be used to perform or train critical work.",
+    "Training material that copies procedure text becomes an uncontrolled copy unless it is linked to the controlled version and reviewed when that version changes.",
+    "ISO 9001:2026, published in September 2026, keeps documented information as a core support requirement."
+  ],
+  "sections": [
+    {
+      "id": "definitions",
+      "heading": "What makes a document controlled?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A document is controlled when the organization manages its whole life: who approves it, how it is identified and versioned, who can access it, how changes are made and recorded, and how superseded versions are withdrawn. The control lives in the system, not in the document's content."
+        },
+        {
+          "type": "p",
+          "text": "[ISO 9001](https://www.iso.org/standard/9001) calls documents and records \"documented information\". Clause 7.5.3 of the 2015 edition requires documented information to be controlled so that it is available and suitable for use where and when it is needed, and adequately protected. Public summaries of the clause describe controls over distribution, access, retrieval and use, storage and preservation, control of changes such as version control, and retention and disposition, with documents of external origin identified and controlled as well ([ISMS.online summary of clause 7.5](https://www.isms.online/iso-9001/clause-7-5-documented-information/))."
+        },
+        {
+          "type": "p",
+          "text": "Regulated sectors spell out similar expectations. The [EU GMP Guide Chapter 4](https://health.ec.europa.eu/system/files/2016-11/chapter4_01-2011_en_0.pdf), for example, says documents containing instructions \"should be approved, signed and dated by appropriate and authorised persons\", be \"uniquely identifiable\" with a defined effective date, and that documents in the quality management system \"should be regularly reviewed and kept up-to-date\" (clauses 4.3 and 4.5)."
+        }
+      ]
+    },
+    {
+      "id": "comparison-table",
+      "heading": "How do controlled and uncontrolled documents compare?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The difference is reliability: a controlled document can be trusted to be current and approved, an uncontrolled copy cannot. The table sets out the practical differences."
+        },
+        {
+          "type": "table",
+          "caption": "Controlled compared with uncontrolled documents",
+          "head": ["Attribute", "Controlled document", "Uncontrolled document or copy"],
+          "rows": [
+            ["Approval", "Approved by an authorized person before release", "May be a draft, an old version, or an unapproved edit"],
+            ["Identification", "Unique number, title, version, effective date", "May lack identifiers or carry outdated ones"],
+            ["Location", "Single authoritative source, such as a document management system", "Printouts, email attachments, local drives, screenshots, slides"],
+            ["Change control", "Changes reviewed, approved, and recorded with reasons", "Changes untracked, or none, so it silently falls out of date"],
+            ["Withdrawal of old versions", "Superseded versions withdrawn or marked obsolete", "Old copies stay in circulation"],
+            ["Suitable for performing work", "Yes", "Only if verified against the controlled version at the point of use"],
+            ["Suitable as a training source", "Yes, with the version recorded", "No, unless verified and linked to the controlled version"],
+            ["Typical marking", "Version and effective date; status shown in the system", "Often marked \"uncontrolled when printed\" or \"for reference only\""]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "when-uncontrolled-ok",
+      "heading": "When is an uncontrolled copy acceptable?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An uncontrolled copy is acceptable when nobody relies on it to perform controlled work or to train someone to do so. Reference copies for background reading, copies sent to a customer for information, and archived versions kept as records are common examples."
+        },
+        {
+          "type": "p",
+          "text": "Many organizations mark printed copies \"uncontrolled when printed\" and either require the user to check the version against the system before use or limit printed validity to a single shift or day. The marking is a reminder, not a control in itself: the real control is that the authoritative version is accessible at the point of use."
+        }
+      ]
+    },
+    {
+      "id": "training-link",
+      "heading": "Why must training reference the controlled version?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training must reference the controlled version because training teaches the method people will follow. If the source is an uncontrolled copy, staff can be trained, assessed, and signed off on a method the organization no longer approves, and the training record will look complete while the knowledge is wrong."
+        },
+        {
+          "type": "p",
+          "text": "Training materials often copy procedure text into slides, e-learning screens, job aids, or quizzes. At that moment they become derived copies. Unless each item records which controlled version it was built from and is reviewed when that version changes, the materials drift out of step with the procedure. This gap is a form of [knowledge drift](/glossary/knowledge-drift)."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Record the document number and version on every training item derived from a procedure.",
+            "Make a procedure change trigger a review of every training item linked to it.",
+            "Record on each training completion the version of the content, and therefore the procedure version, that the person was trained and assessed on.",
+            "Treat training materials themselves as controlled items, with an owner, an approval step, and a version history. See [how to version control training content](/guides/how-to-maintain-version-control-for-training-content)."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Illustrative example",
+          "text": "A laboratory revises its sample receipt procedure to version 5, adding a temperature check. The e-learning module still quotes version 4, and a printed job aid at the bench dates from version 3. New analysts complete the module and pass its quiz, yet none of them perform the new check. The fix is not more training on the old module, but linking the module and job aid to the controlled procedure, withdrawing the old job aid, and assessing the new step. The scenario is illustrative."
+        }
+      ]
+    },
+    {
+      "id": "iso-9001-2026",
+      "heading": "Did ISO 9001:2026 change document control?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ISO 9001:2026, the sixth edition, was published on 16 September 2026 and replaces ISO 9001:2015 ([ISO](https://www.iso.org/standard/9001)). ISO describes the revision as targeted, with the main changes in leadership, quality culture and ethical behavior, risks and opportunities, and awareness, and says the clause structure is unchanged ([ISO, What businesses need to know](https://www.iso.org/quality-management/iso-9001-2026))."
+        },
+        {
+          "type": "p",
+          "text": "Documented information remains a support requirement in the new edition. Certified organizations should confirm the detailed wording against the standard itself and agree transition timing with their certification body. For how the standard treats competence, see [ISO 9001 competence requirements](/regulations/iso-9001-competence-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records the controlled source and version behind every concept, learning outcome, and assessment point. When a controlled procedure changes, the linked training items are flagged for review, and completions show which version each person learned. See [knowledge governance](/platform/knowledge-governance)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is a PDF on a shared drive a controlled document?",
+      "a": "Only if the shared drive is part of a managed system that controls approval, versions, access, and withdrawal of old copies. A PDF that anyone can copy or overwrite, with no record of changes, is effectively uncontrolled even if it was approved when first saved."
+    },
+    {
+      "q": "Are training records controlled documents?",
+      "a": "Training records are records rather than instructions, so the control focus is different: they must be protected from unintended change, retrievable, and kept for the required retention period. Training materials, by contrast, are instructions and should be controlled like procedures."
+    },
+    {
+      "q": "Do external documents such as regulations and standards need control?",
+      "a": "Yes, where they are needed for the management system. ISO 9001 expects documented information of external origin to be identified and controlled. In practice that means knowing which edition you rely on and reviewing procedures and training when a new edition or amendment is issued."
+    },
+    {
+      "q": "What does \"uncontrolled when printed\" actually mean?",
+      "a": "It warns that the printed copy will not be updated when the controlled version changes. The person using it must confirm it is still current before relying on it. It does not make an outdated printout acceptable for performing or training controlled work."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ISO 9001:2026 Quality management systems: Requirements",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/9001"
+    },
+    {
+      "title": "ISO 9001:2026: What businesses need to know",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/quality-management/iso-9001-2026"
+    },
+    {
+      "title": "ISO 9001:2015 Clause 7.5: Documented information",
+      "publisher": "ISMS.online",
+      "url": "https://www.isms.online/iso-9001/clause-7-5-documented-information/"
+    },
+    {
+      "title": "EudraLex Volume 4, EU GMP Guide Chapter 4: Documentation",
+      "publisher": "European Commission",
+      "url": "https://health.ec.europa.eu/system/files/2016-11/chapter4_01-2011_en_0.pdf"
+    }
+  ],
+  "related": [
+    "how-to-maintain-version-control-for-training-content",
+    "standard-operating-procedure",
+    "work-instruction",
+    "knowledge-drift",
+    "audit-trail",
+    "iso-9001-competence-requirements"
+  ],
+  "productLinks": [
+    { "label": "Knowledge governance", "href": "/platform/knowledge-governance" },
+    { "label": "Operational procedures programs", "href": "/programs/operational-procedures" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 11,
+  "factCheck": [
+    { "claim": "EU GMP Chapter 4 clause 4.3: documents containing instructions approved, signed and dated by appropriate and authorised persons, uniquely identifiable, effective date defined; 4.5: QMS documents regularly reviewed and kept up-to-date; 4.2: reproduction from master documents should not introduce error.", "source": "https://health.ec.europa.eu/system/files/2016-11/chapter4_01-2011_en_0.pdf" },
+    { "claim": "ISO 9001:2026 published 16 September 2026 (stage 60.60), edition 6, replaces ISO 9001:2015 and Amd 1:2024.", "source": "https://www.iso.org/standard/9001" },
+    { "claim": "ISO: main changes in leadership/quality culture and ethical behaviour (5.1), policy and strategy (5.2), risks and opportunities (6.1), awareness (7.3), new Annex A; clause structure unchanged (Harmonized Structure); three years for certified organizations to transition.", "source": "https://www.iso.org/quality-management/iso-9001-2026" },
+    { "claim": "Clause 7.5.3 controls documented information so it is available, suitable and protected; external origin documents identified and controlled; version control (secondary summary, clause text paywalled).", "source": "https://www.isms.online/iso-9001/clause-7-5-documented-information/" }
+  ]
+}
