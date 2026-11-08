@@ -1,0 +1,338 @@
+{
+  "slug": "fincen-msb-aml-program-training",
+  "kind": "regulation",
+  "title": "What AML training must a money services business provide under FinCEN rules?",
+  "seoTitle": "MSB AML program training (FinCEN)",
+  "description": "FinCEN rule 31 CFR 1022.210 requires money services businesses, including crypto exchangers, to train staff on AML duties and suspicious activity.",
+  "shortAnswer": "A money services business must provide \"education and/or training of appropriate personnel concerning their responsibilities under the program\", including training to detect suspicious transactions where it must file suspicious activity reports. The Financial Crimes Enforcement Network (FinCEN) sets this in 31 CFR 1022.210(d)(3). It covers money transmitters, currency dealers, check cashers, money order and prepaid access businesses, and convertible virtual currency exchangers and administrators, which FinCEN treats as money transmitters.",
+  "keyTakeaways": [
+    "31 CFR 1022.210 requires every money services business (MSB) to maintain a written, risk-based AML program with four minimum elements, one of which is education and/or training of appropriate personnel.",
+    "Suspicious transaction detection training is required to the extent the MSB must file SARs: under 31 CFR 1022.320 that covers every MSB type except check cashers, at a $2,000 threshold.",
+    "The designated compliance person must assure that the MSB \"provides appropriate training and education\" (1022.210(d)(2)(iii)), which makes training an accountable role, not just a program feature.",
+    "FinCEN guidance FIN-2019-G001 (May 9, 2019) confirms that convertible virtual currency exchangers and administrators are generally money transmitters and must meet the MSB AML program rule, including training, even if located abroad.",
+    "Principals remain solely responsible for their AML programs even when agents deliver services; FinCEN's 2016 agent guidance names inadequate training as a material weakness that independent testing must detect."
+  ],
+  "jurisdiction": "United States (federal)",
+  "regulator": "Financial Crimes Enforcement Network (FinCEN), US Department of the Treasury; examinations delegated to the Internal Revenue Service Small Business/Self-Employed Division, alongside state money transmitter regulators",
+  "appliesTo": [
+    "Money transmitters, including convertible virtual currency exchangers, administrators, kiosk operators and hosted wallet providers that accept and transmit value",
+    "Dealers in foreign exchange, check cashers, and issuers or sellers of traveler's checks or money orders above the $1,000 per person per day thresholds",
+    "Providers and sellers of prepaid access",
+    "Agents of MSBs, and foreign-located MSBs doing business wholly or in substantial part within the United States"
+  ],
+  "sections": [
+    {
+      "id": "what-the-rule-requires",
+      "heading": "What does 31 CFR 1022.210 require for training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It requires the MSB's AML program to provide education or training for appropriate personnel on their responsibilities under the program, plus suspicious transaction detection training where the MSB must report. [31 CFR 1022.210](https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1022/subpart-B/section-1022.210) is the MSB-specific program rule; the cross-sector overview of FinCEN's program rules is on the [Bank Secrecy Act AML training](/regulations/bsa-aml-training-requirements) page."
+        },
+        {
+          "type": "callout",
+          "title": "31 CFR 1022.210(d)(3)",
+          "text": "\"Provide education and/or training of appropriate personnel concerning their responsibilities under the program, including training in the detection of suspicious transactions to the extent that the money services business is required to report such transactions under this chapter.\""
+        },
+        {
+          "type": "p",
+          "text": "The other elements shape what training must cover. The program must be \"commensurate with the risks posed by the location and size of, and the nature and volume of the financial services provided by\" the business (1022.210(b)); it must be in writing and available to Treasury on request (1022.210(c)); its policies must cover customer identification, filing reports, creating and retaining records, and responding to law enforcement requests (1022.210(d)(1)); and an independent review must monitor it, with scope and frequency set by risk (1022.210(d)(4)). A new MSB must have its program in place within 90 days of being established (1022.210(e))."
+        }
+      ]
+    },
+    {
+      "id": "who-is-an-msb",
+      "heading": "Which businesses count as money services businesses?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An MSB is any person doing business wholly or in substantial part within the United States in one of seven capacities defined in [31 CFR 1010.100(ff)](https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1010/subpart-A/section-1010.100), whether or not it is licensed or operates on a regular basis. The definition expressly reaches persons \"wherever located\", so a foreign platform serving US customers can be an MSB."
+        },
+        {
+          "type": "table",
+          "caption": "MSB capacities and whether suspicious transaction training is mandatory (31 CFR 1010.100(ff) and 1022.320, as at November 2026)",
+          "head": [
+            "MSB capacity (1010.100(ff))",
+            "Threshold for MSB status",
+            "SAR filing required under 1022.320, so detection training is required"
+          ],
+          "rows": [
+            [
+              "(1) Dealer in foreign exchange",
+              "More than $1,000 for any person on any day",
+              "Yes"
+            ],
+            [
+              "(2) Check casher",
+              "More than $1,000 for any person on any day",
+              "No mandatory SAR duty; program training on other responsibilities still required"
+            ],
+            [
+              "(3) Issuer or seller of traveler's checks or money orders",
+              "More than $1,000 to any person on any day",
+              "Yes"
+            ],
+            [
+              "(4) Provider of prepaid access",
+              "Per prepaid program",
+              "Yes"
+            ],
+            [
+              "(5) Money transmitter, including virtual currency exchangers and administrators",
+              "No dollar threshold",
+              "Yes"
+            ],
+            [
+              "(6) US Postal Service",
+              "Not applicable",
+              "Yes"
+            ],
+            [
+              "(7) Seller of prepaid access",
+              "Per definition",
+              "Yes"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Under [31 CFR 1022.320](https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1022/subpart-C/section-1022.320), a reportable transaction involves or aggregates at least $2,000 and the MSB knows, suspects or has reason to suspect it involves illegal proceeds, is designed to evade BSA requirements, or has no business or apparent lawful purpose. Front-line training should teach those three tests against the MSB's own products, such as structuring just below reporting thresholds at a money transmitter counter."
+        }
+      ]
+    },
+    {
+      "id": "virtual-currency-businesses",
+      "heading": "Do crypto exchanges have to meet the MSB training requirement?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Generally yes. FinCEN's interpretive guidance [FIN-2019-G001](https://www.fincen.gov/sites/default/files/2019-05/FinCEN%20Guidance%20CVC%20FINAL%20508.pdf), issued May 9, 2019, restates that persons accepting and transmitting convertible virtual currency (CVC) are money transmitters, must register with FinCEN as MSBs, and must comply with AML program, recordkeeping, monitoring and reporting requirements."
+        },
+        {
+          "type": "p",
+          "text": "The guidance carries forward FinCEN's 2013 position that an **exchanger** (a business exchanging virtual currency for real currency, funds or other virtual currency) and an **administrator** (a business issuing and redeeming a virtual currency) generally qualify as money transmitters, while a **user** buying goods or services does not. It applies these rules to peer-to-peer exchangers, hosted wallet providers, CVC kiosks, decentralized applications that accept and transmit value, anonymity-enhanced transactions and payment processors. The requirements apply \"equally to domestic and foreign-located CVC money transmitters\" doing business in whole or substantial part in the United States, even without a physical US presence."
+        },
+        {
+          "type": "p",
+          "text": "FIN-2019-G001 summarizes the program elements in its own words, including to \"provide training for appropriate personnel, including training in the detection of suspicious transactions\", and adds that the program \"must be approved by the owner of the financial institution, or by the owner's representative\", which for a corporation is the board. For a virtual currency business, training content should follow its risk assessment: blockchain analytics alerts, kiosk scam patterns, mixing and anonymity-enhanced coins, and sanctions exposure, the last of which is covered in [OFAC sanctions compliance training](/regulations/ofac-sanctions-compliance-training)."
+        },
+        {
+          "type": "callout",
+          "title": "Status note: stablecoin issuers",
+          "text": "Separately, FinCEN and OFAC proposed on April 10, 2026 (91 FR 18582) AML and sanctions program rules for permitted payment stablecoin issuers under the GENIUS Act, and the OCC proposed parallel standards on June 24, 2026 (91 FR 37840). As at November 2026 these are proposals. They would apply to stablecoin issuers as their own category of financial institution, not through the MSB rule described on this page."
+        }
+      ]
+    },
+    {
+      "id": "agents-and-principals",
+      "heading": "Who trains an MSB's agents?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The principal remains responsible, even where responsibilities are shared by contract. Under 1022.210(d)(1)(iii), an agent and its principal may allocate responsibility for developing policies, procedures and internal controls, but \"each money services business shall remain solely responsible for implementation\" of the program requirements. Agents are not required to register separately (31 CFR 1022.380(a)(3)), but the principal must keep a list of its agents as part of registration."
+        },
+        {
+          "type": "p",
+          "text": "FinCEN's [guidance FIN-2016-G001](https://www.fincen.gov/resources/statutes-regulations/guidance/guidance-existing-aml-program-rule-compliance-obligations) (March 11, 2016) on agent monitoring says a principal \"must conduct internal and/or external independent testing to ensure there are no material weaknesses (e.g., inadequate training)\" and must take corrective action on deficiencies. It lists agent risk factors, including whether the agent has an established and adhered-to AML program, the markets it serves and its expected activity, and notes that FinCEN expects principals to have information \"readily available\" to show effective agent monitoring when examined by the IRS Small Business/Self-Employed Division."
+        }
+      ]
+    },
+    {
+      "id": "obligation-to-evidence",
+      "heading": "How can an MSB map its training obligations to evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "MSB examinations tend to focus on whether the written program matches practice, at head office and across agent locations. The table below is an illustrative mapping, not a FinCEN form."
+        },
+        {
+          "type": "table",
+          "caption": "MSB AML training obligations mapped to role, frequency and evidence (illustrative, as at November 2026)",
+          "head": [
+            "Obligation",
+            "Who it applies to",
+            "Frequency",
+            "Evidence an examiner would expect"
+          ],
+          "rows": [
+            [
+              "Training on program responsibilities (1022.210(d)(3))",
+              "Tellers, customer support, onboarding and KYC staff, operations, compliance",
+              "On hire, and periodically as set by risk",
+              "Written training policy, rosters, dated materials, test results"
+            ],
+            [
+              "Suspicious transaction detection training (1022.210(d)(3), 1022.320)",
+              "Staff who can observe or escalate activity at MSBs required to file SARs",
+              "On hire and on new typologies",
+              "Red flag content tied to products; escalation records showing use"
+            ],
+            [
+              "Compliance person assures training (1022.210(d)(2)(iii))",
+              "Designated compliance officer",
+              "Ongoing",
+              "Training plan owned and signed off by the compliance officer"
+            ],
+            [
+              "Agent training and monitoring (1022.210(d)(1)(iii); FIN-2016-G001)",
+              "Agents and agent staff",
+              "At onboarding and through ongoing monitoring",
+              "Agent agreements, agent training records or attestations, monitoring results"
+            ],
+            [
+              "Independent review covers training (1022.210(d)(4))",
+              "Independent reviewer, who cannot be the compliance officer",
+              "Scope and frequency commensurate with risk",
+              "Review report addressing training coverage and gaps"
+            ],
+            [
+              "Virtual currency specific content (FIN-2019-G001)",
+              "Exchangers, administrators, kiosk operators, hosted wallet providers",
+              "On hire and as products change",
+              "Modules on blockchain analytics alerts, kiosk fraud and anonymity-enhanced transactions"
+            ],
+            [
+              "Program in place within 90 days (1022.210(e))",
+              "Newly established MSBs",
+              "Once, at launch",
+              "Dated program document and first training records"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For building the roster across head office and agents, see [how to build a training matrix](/guides/how-to-build-a-training-matrix); for examination readiness see [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit). Banks that serve MSBs as customers have their own program rules, for example the credit union rule in [NCUA credit union BSA training](/regulations/ncua-credit-union-bsa-training)."
+        }
+      ]
+    },
+    {
+      "id": "registration-and-timing",
+      "heading": "How do registration and timing affect MSB training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Registration and the AML program run on different clocks. Under [31 CFR 1022.380](https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1022/subpart-C/section-1022.380), an MSB must register with FinCEN within 180 days of being established and renew every two calendar years, and must re-register after certain changes, including a more than 50 percent increase in its number of agents during a registration period. The AML program, including training, must be in place within 90 days."
+        },
+        {
+          "type": "p",
+          "text": "Rapid agent growth is therefore both a registration trigger and a training capacity problem. FinCEN's pending April 2026 proposal to rewrite all AML/CFT program rules, explained on the [Bank Secrecy Act AML training](/regulations/bsa-aml-training-requirements) page, would also change the MSB rule's training wording if finalized; as at November 2026 the current 1022.210 text applies. Sector context is on the [financial services industry page](/industries/financial-services)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps the MSB's products, channels and agent network to the 1022.210 program elements and the roles that carry them, so a kiosk support agent, a compliance analyst and an agent location clerk each have defined outcomes and assessments. Each record links back to the clause and risk it addresses, which is what an examiner tests when comparing the written program with practice."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does FinCEN require MSB AML training every year?",
+      "a": "The rule does not set a frequency. 31 CFR 1022.210 requires education and/or training of appropriate personnel within a program commensurate with the MSB's risks, so frequency should follow the risk assessment. Annual refresher training plus training on hire and on new products is a common baseline."
+    },
+    {
+      "q": "Do check cashers need suspicious activity training?",
+      "a": "Check cashers are not among the MSB types required to file SARs under 31 CFR 1022.320, so the mandatory detection training element in 1022.210(d)(3) does not strictly apply. They must still train appropriate personnel on their other program responsibilities, such as recordkeeping, reports and customer identification, and may file SARs voluntarily."
+    },
+    {
+      "q": "Is a foreign crypto exchange subject to the MSB training rule?",
+      "a": "It can be. The MSB definition covers persons wherever located doing business wholly or in substantial part within the United States, and FIN-2019-G001 says the requirements apply to foreign-located CVC money transmitters even with no physical US presence."
+    },
+    {
+      "q": "Can an MSB rely on its agents to train their own staff?",
+      "a": "An MSB and its agent may allocate responsibility for developing policies and procedures by agreement, but each MSB remains solely responsible for implementing its program. FinCEN's 2016 guidance expects principals to monitor agents and test for weaknesses such as inadequate training."
+    }
+  ],
+  "sources": [
+    {
+      "title": "31 CFR 1022.210: Anti-money laundering programs for money services businesses",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1022/subpart-B/section-1022.210"
+    },
+    {
+      "title": "31 CFR 1010.100: General definitions (paragraph (ff), money services business)",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1010/subpart-A/section-1010.100"
+    },
+    {
+      "title": "31 CFR 1022.320: Reports by money services businesses of suspicious transactions",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1022/subpart-C/section-1022.320"
+    },
+    {
+      "title": "31 CFR 1022.380: Registration of money services businesses",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1022/subpart-C/section-1022.380"
+    },
+    {
+      "title": "FIN-2019-G001: Application of FinCEN's Regulations to Certain Business Models Involving Convertible Virtual Currencies",
+      "publisher": "Financial Crimes Enforcement Network",
+      "url": "https://www.fincen.gov/sites/default/files/2019-05/FinCEN%20Guidance%20CVC%20FINAL%20508.pdf"
+    },
+    {
+      "title": "FIN-2016-G001: Guidance on Existing AML Program Rule Compliance Obligations for MSB Principals with Respect to Agent Monitoring",
+      "publisher": "Financial Crimes Enforcement Network",
+      "url": "https://www.fincen.gov/resources/statutes-regulations/guidance/guidance-existing-aml-program-rule-compliance-obligations"
+    },
+    {
+      "title": "Permitted Payment Stablecoin Issuer AML/CFT Program and Sanctions Compliance Program Requirements (proposed rule, 91 FR 18582)",
+      "publisher": "FinCEN and OFAC, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/04/10/2026-06963/permitted-payment-stablecoin-issuer-anti-money-launderingcountering-the-financing-of-terrorism"
+    }
+  ],
+  "related": [
+    "bsa-aml-training-requirements",
+    "ofac-sanctions-compliance-training",
+    "ncua-credit-union-bsa-training",
+    "how-to-build-a-training-matrix",
+    "how-to-prepare-training-records-for-an-audit"
+  ],
+  "productLinks": [
+    {
+      "label": "Financial services",
+      "href": "/industries/financial-services"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 13,
+  "factCheck": [
+    {
+      "claim": "31 CFR 1022.210(a) to (e): effective AML program; commensurate with risks (b); written and available to Treasury (c); policies incl. customer identification, reports, records, law enforcement requests (d)(1); agent allocation with sole responsibility (d)(1)(iii); compliance person assures training (d)(2)(iii); verbatim (d)(3); independent review not by designated person (d)(4); 90 day compliance date (e).",
+      "source": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1022/subpart-B/section-1022.210"
+    },
+    {
+      "claim": "31 CFR 1010.100(ff): MSB is a person wherever located doing business wholly or in substantial part within the US in capacities (1) to (7); dealer in foreign exchange, check casher and traveler's check or money order issuer/seller thresholds of more than $1,000 per person per day.",
+      "source": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1010/subpart-A/section-1010.100"
+    },
+    {
+      "claim": "31 CFR 1022.320(a)(1): SAR duty applies to MSBs in 1010.100(ff)(1), (3), (4), (5), (6) and (7), i.e. not check cashers (ff)(2); (a)(2) $2,000 threshold and three suspicion tests.",
+      "source": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1022/subpart-C/section-1022.320"
+    },
+    {
+      "claim": "31 CFR 1022.380: agents not required to register; principal maintains agent list; register within 180 days of establishment; two calendar year renewal periods; re-register after more than 50 percent increase in agents.",
+      "source": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1022/subpart-C/section-1022.380"
+    },
+    {
+      "claim": "FIN-2019-G001 issued May 9, 2019: CVC money transmitters must register and comply with AML program requirements; applies equally to foreign-located CVC money transmitters without physical US presence; exchangers and administrators generally money transmitters, users not; AML program summary including training in detection of suspicious transactions; program approved by owner or board; covers P2P exchangers, wallets, kiosks, DApps, anonymity-enhanced transactions, payment processors.",
+      "source": "https://www.fincen.gov/sites/default/files/2019-05/FinCEN%20Guidance%20CVC%20FINAL%20508.pdf"
+    },
+    {
+      "claim": "FIN-2016-G001 issued March 11, 2016: principals must conduct independent testing to ensure no material weaknesses (e.g., inadequate training); corrective action; agent risk factors; IRS SB/SE delegated examiner; information readily available.",
+      "source": "https://www.fincen.gov/resources/statutes-regulations/guidance/guidance-existing-aml-program-rule-compliance-obligations"
+    },
+    {
+      "claim": "FinCEN and OFAC proposed PPSI AML/CFT and sanctions program rules under the GENIUS Act on April 10, 2026 (91 FR 18582, comments to June 9, 2026); OCC proposed parallel standards June 24, 2026 (91 FR 37840).",
+      "source": "https://www.federalregister.gov/documents/2026/04/10/2026-06963/permitted-payment-stablecoin-issuer-anti-money-launderingcountering-the-financing-of-terrorism"
+    }
+  ]
+}
