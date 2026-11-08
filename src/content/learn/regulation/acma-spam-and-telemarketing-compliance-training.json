@@ -1,0 +1,268 @@
+{
+  "slug": "acma-spam-and-telemarketing-compliance-training",
+  "kind": "regulation",
+  "title": "What spam and telemarketing compliance training does ACMA expect?",
+  "seoTitle": "ACMA spam and telemarketing training",
+  "description": "What marketing and call center staff must know under the Spam Act 2003 and Do Not Call Register Act 2006, and the training terms in ACMA undertakings.",
+  "shortAnswer": "The Australian Communications and Media Authority (ACMA) enforces the Spam Act 2003, the Do Not Call Register Act 2006 and the Telemarketing Industry Standard 2017. The laws do not set a training requirement, but ACMA's court enforceable undertakings do: recent ones require businesses to train everyone who creates, sends or authorizes commercial messages, and their line managers, within 30 business days, train new starters within weeks, repeat training every 12 months and keep training records.",
+  "keyTakeaways": [
+    "Commercial electronic messages need consent (Spam Act section 16), accurate sender identification (section 17) and a functional unsubscribe facility (section 18), honored within 5 working days.",
+    "Telemarketing calls must not be made to numbers on the Do Not Call Register for at least 30 days unless an exception applies (DNCR Act section 11), and calls are limited to 9 am to 8 pm on weekdays and 9 am to 5 pm on Saturdays.",
+    "A business that took reasonable precautions and exercised due diligence has a defense under section 11(5) of the DNCR Act, and bears the evidential burden of showing it.",
+    "ACMA undertakings accepted under section 38 of the Spam Act in 2026 require initial training within 30 business days, new starter training within 6 or 12 weeks, annual repeats and written training records.",
+    "ACMA reports that businesses have paid more than $12 million in spam and telemarketing penalties over the 18 months to July 2026."
+  ],
+  "jurisdiction": "Australia (Commonwealth)",
+  "regulator": "Australian Communications and Media Authority (ACMA)",
+  "appliesTo": [
+    "Any business that sends, or causes to be sent, commercial emails, SMS or instant messages with an Australian link",
+    "Businesses that make, or cause to be made, telemarketing calls to Australian numbers, including through third party call centers",
+    "Marketing, CRM, digital and campaign teams and the managers who approve campaigns",
+    "Contact center agents, team leaders and vendors handling outbound calls"
+  ],
+  "sections": [
+    {
+      "id": "is-training-required",
+      "heading": "Do the spam and telemarketing laws require staff training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Neither the Spam Act 2003 nor the Do Not Call Register Act 2006 contains an express staff training obligation, but training becomes mandatory once ACMA accepts an enforceable undertaking, and it is central to a due diligence defense. ACMA's [telemarketing and spam compliance page](https://www.acma.gov.au/telemarketing-and-spam-compliance-and-investigations) describes its tools, including investigations, infringement notices and court enforceable undertakings."
+        },
+        {
+          "type": "p",
+          "text": "ACMA's [common issues and mistakes guidance](https://www.acma.gov.au/telemarketing-and-e-marketing-common-issues-and-mistakes) also makes clear that responsibility cannot be passed to a vendor: businesses \"cannot outsource their obligations under the spam and telemarketing laws\" when they use third party marketers or purchased lists. Training therefore has to reach whoever designs, approves and sends campaigns, including external agencies, not only in-house staff."
+        },
+        {
+          "type": "callout",
+          "title": "Currency",
+          "text": "This page reflects the Spam Act 2003, the Do Not Call Register Act 2006, the Telecommunications (Telemarketing and Research Calls) Industry Standard 2017 and ACMA enforcement outcomes published as at November 2026."
+        }
+      ]
+    },
+    {
+      "id": "spam-rules",
+      "heading": "What must marketing staff know about the Spam Act?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Every commercial electronic message must be sent with consent, identify the sender and contain a working unsubscribe facility. ACMA's undertakings frame these as paragraph 16(1), paragraph 17(1)(b) and subsection 18(1) of the Spam Act. ACMA's [guidance on avoiding spam](https://www.acma.gov.au/avoid-sending-spam) sets out what staff need to apply in practice:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Consent:** express consent is best practice; inferred consent depends on an existing relationship and messages directly related to it. \"Under the Spam Act, it's up to you to prove that you have a person's consent\", and records should show who consented, when and how.",
+            "**Asking for consent:** a business cannot send an electronic message asking for consent, because that message is itself a marketing message.",
+            "**Identification:** messages must identify the authorizing business by its legal name, or name and ABN, and the contact information must remain correct for at least 30 days after sending.",
+            "**Unsubscribe:** the facility must honor requests within 5 working days, cost no more than the usual cost of using the address, work for at least 30 days, and not require a login or extra personal information. ACMA warns that alphanumeric SMS headers generally cannot receive replies.",
+            "**Harvested lists:** using or supplying lists created with address harvesting software is prohibited, as is helping or being knowingly concerned in a breach."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The SpinTel matter shows why consent training needs worked examples. ACMA found SpinTel sent more than 32,000 marketing emails to former customers, some of whom had left up to 13 years earlier, and rejected its argument that consent could be inferred from a past relationship. SpinTel [paid a $653,400 penalty](https://www.acma.gov.au/articles/2026-11/spintel-pays-653k-penalty-spamming-former-customers)."
+        }
+      ]
+    },
+    {
+      "id": "telemarketing-rules",
+      "heading": "What must contact center staff know about the Do Not Call Register and calling rules?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Agents and campaign managers must know when a number can be called, when it can be called, and what to say first. ACMA's [TAB telemarketing investigation report](https://www.acma.gov.au/sites/default/files/2026-07/Tabcorp%20Holdings%20Limited%20-%20Telemarketing%20Investigation%20-%20Final%20report%20-%2022%20December%202025.pdf) summarizes the rules as follows."
+        },
+        {
+          "type": "table",
+          "caption": "Core telemarketing rules (source: ACMA investigation report, December 22, 2025, citing the DNCR Act and the Telemarketing Industry Standard)",
+          "head": ["Rule", "Provision", "What staff must do"],
+          "rows": [
+            ["No calls to registered numbers", "DNCR Act subsection 11(1)", "Do not call a number registered on the Do Not Call Register for at least 30 days unless the call is a designated telemarketing call or an exception applies"],
+            ["Exceptions and defenses", "DNCR Act subsections 11(2) to 11(5)", "Consent of the account holder or nominee, a register check showing the number was not registered, mistake, or reasonable precautions and due diligence"],
+            ["Evidential burden", "DNCR Act subsection 11(6)", "The business must point to evidence that an exception applies"],
+            ["Calling hours", "Industry Standard subsection 8(1)", "No calls before 9 am or after 8 pm on weekdays, before 9 am or after 5 pm on Saturdays, or on Sundays"],
+            ["Public holidays", "Industry Standard subsection 8(3)", "No calls on national public holidays such as New Year's Day, Australia Day, Good Friday, Easter Monday, Anzac Day, Christmas Day and Boxing Day"],
+            ["Identification at call start", "Industry Standard paragraphs 9(2)(a), (b), (d) and (e)", "Give the caller's given name, the employer's name, the name of the business causing the call, and the purpose of the call"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The Industry Standard is made under subsection 125A(1) of the Telecommunications Act 1997, and subsection 128(1), which requires compliance, is a civil penalty provision. In the [TAB matter](https://www.acma.gov.au/articles/2026-07/tab-pays-27m-telemarketing-and-spam-breaches), ACMA found 351 calls to registered numbers without consent, 82 calls outside permitted hours and nearly 4,000 calls without proper identification, plus more than 217,000 messages to customers who had unsubscribed. TAB paid more than $2.7 million and gave an undertaking requiring an independent review of its telemarketing systems."
+        }
+      ]
+    },
+    {
+      "id": "undertaking-training-terms",
+      "heading": "What training do ACMA enforceable undertakings require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Recent Spam Act undertakings, given under section 38 of the Spam Act, contain specific and comparable training clauses. They are the clearest public statement of what ACMA considers adequate training after a breach."
+        },
+        {
+          "type": "table",
+          "caption": "Training terms in two 2026 ACMA Spam Act undertakings",
+          "head": ["Term", "SpinTel undertaking (36 months)", "lululemon undertaking (24 months)"],
+          "rows": [
+            ["Who is trained", "All personnel or agents who are or may be responsible for creating, sending or authorizing commercial electronic messages, and their direct line manager", "All personnel responsible for creating, sending or authorizing commercial electronic messages, and their direct line manager"],
+            ["Initial deadline", "Within 30 business days of commencement", "Within 30 business days of commencement"],
+            ["New starters", "Within 6 weeks of starting in the role, including new line managers", "Within 12 weeks of starting in the role"],
+            ["Refresher", "At least every 12 months for the term", "Within 12 months, unless trained in the past 6 months and no new content has been added"],
+            ["Records", "Written records of training, produced to ACMA within 10 business days of a request", "Records of training provided, included in compliance reporting"],
+            ["Related oversight", "Independent consultant review covering whether staff are appropriately trained; quarterly audits; six-monthly reports to ACMA", "Independent review, implementation plan and periodic compliance reports"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The [SpinTel undertaking](https://www.acma.gov.au/sites/default/files/2026-11/Executed%20Enforceable%20Undertaking%20-%20SpinTel%20Pty%20Ltd%20-%2008.10.2026_Redacted.pdf) also asks the independent consultant to identify improvements so that \"SpinTel personnel and agents are appropriately trained in how to comply with the Spam Act\". The [lululemon undertaking](https://www.acma.gov.au/sites/default/files/2026-03/Enforceable%20Undertaking%20-%20Lululemon%20Athletica%20Australia%20Pty%20Ltd_Redacted.pdf) shows the refresher exemption for recently trained staff. Repeat offending is visible to ACMA: Latitude Finance's later breaches were [identified through compliance reporting](https://www.acma.gov.au/articles/2026-04/latitude-finance-pays-396m-more-spam-breaches) required by an earlier undertaking, and it paid $3.96 million."
+        }
+      ]
+    },
+    {
+      "id": "role-obligation-evidence",
+      "heading": "How should spam and telemarketing training map to roles and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A proactive program can borrow the undertaking structure before any breach. The table below is an original, illustrative matrix; the frequencies mirror the undertaking terms above, which are a reasonable benchmark rather than a statutory rule. See [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles)."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative spam and telemarketing training matrix",
+          "head": ["Role", "Obligation", "Assessment", "Frequency", "Evidence"],
+          "rows": [
+            ["Campaign builders and CRM operators", "Consent, identification, unsubscribe (Spam Act sections 16 to 18)", "Pre-send checklist exercise on sample campaigns", "Within 30 business days of starting, then every 12 months", "Training records and campaign approval logs"],
+            ["Campaign approvers and line managers", "Authorizing compliant messages", "Scenario review of inferred consent cases", "On appointment, then every 12 months", "Approval sign offs referencing consent basis"],
+            ["Outbound call agents", "DNCR checks, calling hours, call opening script", "Call observation against the identification requirements", "Before first call, then every 12 months", "Quality assurance call scores"],
+            ["Dialer and data teams", "Register washing, consent capture and suppression lists", "Walkthrough of wash and suppression process", "On appointment and after system changes", "Wash certificates and suppression list audit trail"],
+            ["Vendors and agencies", "Same obligations, applied on the business's behalf", "Contractual attestation plus sample audit", "At onboarding and contract renewal", "Vendor training evidence held by the business"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models the consent, identification, unsubscribe, register and calling hour rules as a structured framework, then links each marketing, contact center and vendor role to the concepts and assessment points it must demonstrate. When ACMA guidance changes or an undertaking sets new terms, affected roles and assessments are identified from the framework, and records show which version each person was assessed against. Related pages: [Privacy Act staff training](/regulations/privacy-act-staff-training-requirements) and [ACCC compliance program training](/regulations/accc-compliance-program-and-consumer-law-training)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a purchased marketing list give us consent to send messages?",
+      "a": "Not by itself. ACMA says the business is still responsible for having consent for every address it uses, even if someone else sends the messages. Its common mistakes guidance says obligations cannot be outsourced through third party marketing arrangements or purchased lists, so staff must check the consent basis before a list is used."
+    },
+    {
+      "q": "Can staff text a customer to ask whether they want marketing?",
+      "a": "No. ACMA's guidance says a business cannot send an electronic message to ask for consent, because the request is itself a marketing message. Consent must be obtained another way, for example at sign up, and recorded with who gave it, when and how."
+    },
+    {
+      "q": "How quickly must an unsubscribe request be actioned?",
+      "a": "Within 5 working days. ACMA's guidance also says the unsubscribe facility must work for at least 30 days after the message is sent and must not require the person to log in or provide extra personal information. SpinTel was found to have sent messages more than five business days after unsubscribe requests."
+    },
+    {
+      "q": "Does training help if we accidentally call a number on the Do Not Call Register?",
+      "a": "It can. Subsection 11(5) of the DNCR Act provides an exception where the business took reasonable precautions and exercised due diligence to avoid the contravention, and subsection 11(6) places the evidential burden on the business. Documented training, register washing and call monitoring are the kind of evidence a business would point to."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Avoid sending spam",
+      "publisher": "Australian Communications and Media Authority",
+      "url": "https://www.acma.gov.au/avoid-sending-spam"
+    },
+    {
+      "title": "Telemarketing and e-marketing: common issues and mistakes",
+      "publisher": "Australian Communications and Media Authority",
+      "url": "https://www.acma.gov.au/telemarketing-and-e-marketing-common-issues-and-mistakes"
+    },
+    {
+      "title": "Telemarketing and spam compliance and investigations",
+      "publisher": "Australian Communications and Media Authority",
+      "url": "https://www.acma.gov.au/telemarketing-and-spam-compliance-and-investigations"
+    },
+    {
+      "title": "Tabcorp Holdings Limited: Telemarketing Investigation, Final report, 22 December 2025",
+      "publisher": "Australian Communications and Media Authority",
+      "url": "https://www.acma.gov.au/sites/default/files/2026-07/Tabcorp%20Holdings%20Limited%20-%20Telemarketing%20Investigation%20-%20Final%20report%20-%2022%20December%202025.pdf"
+    },
+    {
+      "title": "TAB pays $2.7m for telemarketing and spam breaches",
+      "publisher": "Australian Communications and Media Authority",
+      "url": "https://www.acma.gov.au/articles/2026-07/tab-pays-27m-telemarketing-and-spam-breaches"
+    },
+    {
+      "title": "SpinTel pays $653K penalty for spamming former customers",
+      "publisher": "Australian Communications and Media Authority",
+      "url": "https://www.acma.gov.au/articles/2026-11/spintel-pays-653k-penalty-spamming-former-customers"
+    },
+    {
+      "title": "Enforceable undertaking given by SpinTel Pty Ltd under section 38 of the Spam Act 2003",
+      "publisher": "Australian Communications and Media Authority",
+      "url": "https://www.acma.gov.au/sites/default/files/2026-11/Executed%20Enforceable%20Undertaking%20-%20SpinTel%20Pty%20Ltd%20-%2008.10.2026_Redacted.pdf"
+    },
+    {
+      "title": "Enforceable undertaking given by Lululemon Athletica Australia Pty Ltd under section 38 of the Spam Act 2003",
+      "publisher": "Australian Communications and Media Authority",
+      "url": "https://www.acma.gov.au/sites/default/files/2026-03/Enforceable%20Undertaking%20-%20Lululemon%20Athletica%20Australia%20Pty%20Ltd_Redacted.pdf"
+    },
+    {
+      "title": "Latitude Finance pays $3.96m for more spam breaches",
+      "publisher": "Australian Communications and Media Authority",
+      "url": "https://www.acma.gov.au/articles/2026-04/latitude-finance-pays-396m-more-spam-breaches"
+    }
+  ],
+  "related": [
+    "privacy-act-staff-training-requirements",
+    "accc-compliance-program-and-consumer-law-training",
+    "australia-scams-prevention-framework-staff-obligations",
+    "fcc-cpni-employee-training-requirements",
+    "nsw-responsible-conduct-of-gambling-training"
+  ],
+  "productLinks": [
+    { "label": "Compliance programs", "href": "/programs/compliance" },
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" },
+    { "label": "Professional services", "href": "/industries/professional-services" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "Consent must be proven by the sender; cannot send an electronic message to ask for consent; contact details correct for 30 days; unsubscribe honored within 5 working days, functional 30 days, no login or extra personal information",
+      "source": "https://www.acma.gov.au/avoid-sending-spam"
+    },
+    {
+      "claim": "Businesses cannot outsource spam and telemarketing obligations through third parties or purchased lists",
+      "source": "https://www.acma.gov.au/telemarketing-and-e-marketing-common-issues-and-mistakes"
+    },
+    {
+      "claim": "DNCR Act s11(1) 30 day registration rule, exceptions s11(2) to 11(5) including reasonable precautions and due diligence, s11(6) evidential burden; Industry Standard s8(1) calling hours, s8(3) public holidays, s9(2) identification; made under Telco Act s125A(1); s128(1) civil penalty provision",
+      "source": "https://www.acma.gov.au/sites/default/files/2026-07/Tabcorp%20Holdings%20Limited%20-%20Telemarketing%20Investigation%20-%20Final%20report%20-%2022%20December%202025.pdf"
+    },
+    {
+      "claim": "TAB paid more than $2.7 million: 351 DNCR calls, 82 outside hours, nearly 4,000 without identification, more than 217,000 messages to unsubscribed customers; undertaking requiring independent review; more than $12 million penalties over 18 months",
+      "source": "https://www.acma.gov.au/articles/2026-07/tab-pays-27m-telemarketing-and-spam-breaches"
+    },
+    {
+      "claim": "SpinTel paid $653,400 for more than 32,000 emails to former customers, some who left up to 13 years earlier; 3 year undertaking",
+      "source": "https://www.acma.gov.au/articles/2026-11/spintel-pays-653k-penalty-spamming-former-customers"
+    },
+    {
+      "claim": "SpinTel undertaking under s38 Spam Act: clause 9 training within 30 business days for staff creating, sending or authorizing CEMs and line managers, new staff within 6 weeks, repeat at least every 12 months; clause 10 training records; clause 8 quarterly audits and six monthly reports; references s16(1), s17(1)(b), s18(1); 36 month term",
+      "source": "https://www.acma.gov.au/sites/default/files/2026-11/Executed%20Enforceable%20Undertaking%20-%20SpinTel%20Pty%20Ltd%20-%2008.10.2026_Redacted.pdf"
+    },
+    {
+      "claim": "lululemon undertaking: 24 month term; training within 30 business days; new staff within 12 weeks; repeat within 12 months unless trained in past 6 months with no new content",
+      "source": "https://www.acma.gov.au/sites/default/files/2026-03/Enforceable%20Undertaking%20-%20Lululemon%20Athletica%20Australia%20Pty%20Ltd_Redacted.pdf"
+    },
+    {
+      "claim": "Latitude paid $3.96 million; later breaches identified through mandatory compliance reporting under a previous undertaking",
+      "source": "https://www.acma.gov.au/articles/2026-04/latitude-finance-pays-396m-more-spam-breaches"
+    }
+  ]
+}

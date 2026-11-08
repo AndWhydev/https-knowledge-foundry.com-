@@ -1,0 +1,263 @@
+{
+  "slug": "asx-market-participant-accreditation",
+  "kind": "regulation",
+  "title": "What accreditation do ASX market participant advisers and traders need?",
+  "seoTitle": "ASX participant adviser accreditation",
+  "description": "Why ASIC's accredited derivatives adviser rules no longer apply, what designated trading representatives must show, and the 2028 change to the trading rules.",
+  "shortAnswer": "No ASIC accreditation now applies to ASX market participant advisers. The Australian Securities and Investments Commission (ASIC) repealed the accredited derivatives adviser regime in Part 2.4 of the ASIC Market Integrity Rules (Securities Markets) 2017 with effect from April 6, 2022. Trading participants must still ensure designated trading representatives are suitably qualified and have shown knowledge of the market's dealing rules (Rule 2.5.5). A 2026 amendment moves that duty into a new Rule 5.5.1 from March 2028.",
+  "keyTakeaways": [
+    "Part 2.4 (accredited derivatives advisers) was repealed by item 9 of Schedule 1 to ASIC Instrument 2022/117, commencing April 6, 2022. No replacement accreditation rule was inserted.",
+    "Under Part 2.5, a trading participant must have at least one designated trading representative (DTR), and only DTRs may submit trading messages unless automated order processing rules apply.",
+    "Rule 2.5.5 requires each DTR to be authorized under an AFS licence, suitably qualified and experienced, and to have demonstrated knowledge of the market's dealing rules before trading.",
+    "ASIC Instrument 2026/574, registered September 17, 2026, commences 18 months after registration. It repeals Part 2.5 and replaces the DTR rules with a new Rule 5.5.1(2) covering any representative who submits trading messages.",
+    "Advisers giving personal advice to retail clients fall under the Corporations Act professional standards and the licensee training duty in section 912A(1)(e) to (f)."
+  ],
+  "jurisdiction": "Australia (Commonwealth)",
+  "regulator": "Australian Securities and Investments Commission (ASIC)",
+  "appliesTo": [
+    "Market participants of ASX and other licensed securities markets subject to the ASIC Market Integrity Rules (Securities Markets) 2017",
+    "Trading participants and their designated trading representatives",
+    "Supervisory staff responsible for participants' compliance arrangements",
+    "Advisers employed by market participants, including derivatives advisers"
+  ],
+  "sections": [
+    {
+      "id": "is-accreditation-required",
+      "heading": "Is ASIC accreditation still required to advise on ASX derivatives?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No. The accredited derivatives adviser framework in Part 2.4 of the ASIC Market Integrity Rules (Securities Markets) 2017 was repealed in 2022. Item 9 of Schedule 1 to the [ASIC Market Integrity Rules (Securities Markets and other ASIC-Made Rules) Amendment Instrument 2022/117](https://www.legislation.gov.au/F2022L00295/asmade/text) reads simply \"Part 2.4 of Chapter 2: Repeal the Part\", and the legislation history in the [current compilation](https://www.legislation.gov.au/F2017L01474/latest/text) records that item as commencing on April 6, 2022."
+        },
+        {
+          "type": "p",
+          "text": "ASIC explained the old regime and its reasons in [Consultation Paper 342](https://download.asic.gov.au/media/hxugckmg/cp342-published-30-june-2021.pdf). Representatives of market participants had to be accredited by ASIC before advising retail clients on options market contracts, futures market contracts or warrants; there were three levels of accreditation; and accreditations were generally renewed every three years. ASIC had inherited the framework and its list of approved examinations from ASX in 2010 and described Part 2.4 as \"highly prescriptive and procedural\". ASIC consulted on replacing it with principles based rules or repealing it entirely; the amending instrument repealed the Part without inserting replacement adviser qualification rules."
+        },
+        {
+          "type": "p",
+          "text": "Rule numbers in older training material are therefore out of date. The compiled rules still contain definitions such as Accredited Adviser and Level One Accredited Derivatives Adviser that refer to Rules 2.4.6 to 2.4.8, but the operative rules they point to no longer exist. The [ASIC Market Integrity Rules (Futures Markets) 2017](https://www.legislation.gov.au/F2017L01475/latest/text), in its October 15, 2024 compilation, contains no accreditation Part either."
+        },
+        {
+          "type": "callout",
+          "title": "Currency",
+          "text": "This page reflects the Securities Markets Rules compilation of October 15, 2024 and ASIC Instrument 2026/574 as registered on September 17, 2026, as at November 2026. It covers ASIC's market integrity rules only; ASX Operating Rules may impose their own participant requirements, which are not covered here."
+        }
+      ]
+    },
+    {
+      "id": "what-replaced-it",
+      "heading": "What training duty applies to derivatives advisers instead?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Derivatives advisers now rely on the general Corporations Act competence framework rather than a market specific accreditation. CP 342 noted that most advisers accredited under Part 2.4 were already captured by the professional standards for financial advisers introduced by the Corporations Amendment (Professional Standards of Financial Advisers) Act 2017, and appear on the Financial Advisers Register."
+        },
+        {
+          "type": "p",
+          "text": "For advisers who do not give personal advice, CP 342 pointed to section 912A(1)(e) to (f) of the Corporations Act, which requires licensees to ensure their representatives are adequately trained and competent. The relevant pages are [financial adviser education and CPD requirements](/regulations/financial-adviser-education-and-cpd-requirements), [ASIC RG 146 training requirements](/regulations/asic-rg-146-training-requirements) and [ASIC RG 105 organizational competence](/regulations/asic-rg-105-organisational-competence)."
+        }
+      ]
+    },
+    {
+      "id": "dtr-requirements",
+      "heading": "What must designated trading representatives demonstrate?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A designated trading representative must be authorized, suitably qualified and experienced, and must have demonstrated knowledge of the market's dealing rules to the trading participant before submitting orders. The compiled rules define a DTR as a representative \"authorised by the Trading Participant to submit Trading Messages to a Trading Platform on behalf of the Trading Participant\"."
+        },
+        {
+          "type": "table",
+          "caption": "Part 2.5 of the ASIC Market Integrity Rules (Securities Markets) 2017, as compiled October 15, 2024",
+          "head": ["Rule", "Requirement", "Training implication"],
+          "rows": [
+            ["2.5.1 and 2.5.3", "All trading on a trading platform is done by DTRs or under the Automated Order Processing Requirements; only DTRs submit trading messages", "Anyone keying orders must be inside the DTR training and authorization process"],
+            ["2.5.2", "A trading participant must have at least one DTR", "At least one person must hold current, evidenced DTR competence"],
+            ["2.5.5(a)", "Each DTR is a representative authorized to deal in the relevant products under the participant's or their own AFS licence", "Authorization scope should match the products covered in training"],
+            ["2.5.5(b)", "Each DTR is suitably qualified and experienced", "The participant must define and evidence what suitable means"],
+            ["2.5.5(c)", "Before submitting trading messages, each DTR has demonstrated knowledge of the market's dealing rules and the operator's relevant practices", "A documented assessment before trading access is granted"],
+            ["2.5.5(d)", "DTRs do not trade for their own or associates' benefit without written approval, or exploit platform errors or malfunctions", "Conduct rules belong in the assessed content"],
+            ["2.5.6 and 2.5.7", "Each DTR has a unique identifier; records are kept while the person is a DTR and for seven years after", "Training records should be linked to the DTR identifier and kept for the same period"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "ASIC's [RG 265](https://download.asic.gov.au/media/vemgspga/rg265-published-2-august-2022-20251218.pdf) explains how to meet Rule 2.5.5. RG 265.122 notes that ASX no longer administers trader authorization privileges for DTRs, so participants should consider implementing such limits themselves. RG 265.123 suggests giving DTRs access to the market operator's current trading platform documentation, and \"providing or arranging training for, and testing of, the DTR\" on the participant's order entry system, the trading platform, and the relevant market integrity rules and operating rules."
+        }
+      ]
+    },
+    {
+      "id": "supervisory-staff",
+      "heading": "What competence must supervisory staff have?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Supervisory staff must have appropriate supervisory skills, knowledge and experience, and ASIC expects participants to review this at least annually. Rule 2.1.1 requires supervision by one or more persons \"with appropriate supervisory skills knowledge and experience\", Rule 2.3.2 makes supervisory staff accountable for the design, implementation, functioning and review of compliance processes, and Rule 2.1.6 makes the participant responsible for all actions and omissions of its employees. Rule 2.1.4 requires everyone involved in the business to be of good fame and character."
+        },
+        {
+          "type": "p",
+          "text": "RG 265.80 says ASIC expects a participant to \"periodically review (at least on an annual basis)\" whether each supervisor has the appropriate skills, knowledge and experience, with examinations and continuing education or training as key considerations. A note to that paragraph confirms the Securities Markets Rules did not carry over older requirements for ASIC approval of examinations for supervisory staff. RG 265.78 expects written supervisory procedures to state the qualifications the participant considers important and how it reviews them."
+        }
+      ]
+    },
+    {
+      "id": "2028-change",
+      "heading": "What changes when Instrument 2026/574 commences?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The DTR label disappears from the rules, but the competence test survives and widens. [ASIC Market Integrity Rules (Securities Markets) Amendment Instrument 2026/574](https://www.legislation.gov.au/F2026L01223/latest/text), dated September 15, 2026, commences \"on the day that is 18 months after the day it is registered\". It was [registered on September 17, 2026](https://www.legislation.gov.au/F2026L01223/latest/details), which points to a commencement date of March 17, 2028. As at November 2026 it had been tabled in Parliament on October 12, 2026 and its disallowance period had not closed."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Item 36** repeals Part 2.5, and items 18 and 19 repeal the definitions of DTR and DTR identifier.",
+            "**Item 62** substitutes a new Rule 5.5.1. Subrule 5.5.1(2) requires a trading participant to ensure that any representative who submits a trading message has written authorization, \"is suitably qualified and experienced to perform that function\", and has demonstrated knowledge of the market's dealing rules and the operator's relevant practices.",
+            "**A note** to Rule 5.5.1(2) says such a representative may include a person known as a designated trading representative.",
+            "**Subrule 5.5.1(3)** keeps the participant responsible for the accuracy of all trading messages carrying its unique identifier."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Training teams should plan to rename the role in content and records, but they do not need to discard existing DTR assessments: the three tests carried into Rule 5.5.1(2) are substantially the same as Rule 2.5.5(a) to (c). The guide on [updating training when regulations change](/guides/how-to-update-training-when-regulations-change) sets out a method."
+        }
+      ]
+    },
+    {
+      "id": "role-evidence",
+      "heading": "How should a market participant map roles to competence evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because the rules require demonstrated knowledge but leave the method to the participant, the evidence trail is the participant's own design. The table below is an original, illustrative mapping; the frequencies are suggestions, except the annual supervisory review that ASIC expects in RG 265.80."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative competence evidence for a trading participant",
+          "head": ["Role", "Rule basis", "Assessment", "Frequency", "Evidence"],
+          "rows": [
+            ["DTR (from March 2028, any representative submitting trading messages)", "Rule 2.5.5; Rule 5.5.1(2) from commencement", "Test on dealing rules, order entry system and platform practices", "Before trading access; again when platform or rules change", "Dated test result linked to the DTR identifier and written authorization"],
+            ["Supervisory staff", "Rules 2.1.1 and 2.3.2; RG 265.80", "Skills, knowledge and experience review", "At least annually", "Review record against written supervisory procedures"],
+            ["Derivatives and equities advisers", "Corporations Act s912A(1)(e) to (f); professional standards", "Qualification, CPD and product knowledge checks", "Per the adviser CPD year", "Financial Advisers Register details and CPD records"],
+            ["All staff in the participant's market business", "Rule 2.1.4", "Good fame and character checks", "On appointment and periodically", "Screening records"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models the market integrity rules, dealing rules and participant roles as a structured framework, so each trader or supervisor is linked to the concepts and assessment points they must demonstrate before access is granted. When Instrument 2026/574 commences, the framework shows which assessments map to the repealed rules and which to the new Rule 5.5.1, without rewriting the whole curriculum. See also [financial services](/industries/financial-services)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can an adviser still become an ASIC Accredited Derivatives Adviser?",
+      "a": "No. Part 2.4 of the ASIC Market Integrity Rules (Securities Markets) 2017, which set out the application, examination and renewal process, was repealed with effect from April 6, 2022. Advisers now meet the Corporations Act professional standards, and licensees must ensure representatives are adequately trained and competent."
+    },
+    {
+      "q": "Does ASIC approve DTR exams or courses?",
+      "a": "No. Rule 2.5.5 requires DTRs to be suitably qualified and to have demonstrated knowledge of the dealing rules to the trading participant, and RG 265.123 suggests training and testing on the order entry system, trading platform and relevant rules. The participant decides the method and keeps the evidence."
+    },
+    {
+      "q": "Will existing DTRs need to be reassessed in 2028?",
+      "a": "Not necessarily. The new Rule 5.5.1(2) keeps the same three tests: written authorization, suitable qualifications and experience, and demonstrated knowledge of the dealing rules. Participants should check that existing evidence covers each test and update role names and procedures to match the new rule."
+    },
+    {
+      "q": "Do the futures market integrity rules have their own accreditation?",
+      "a": "The ASIC Market Integrity Rules (Futures Markets) 2017, as compiled on October 15, 2024, contain no accreditation Part. Futures participants remain subject to their AFS licence obligations, including the duty to keep representatives adequately trained and competent."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ASIC Market Integrity Rules (Securities Markets) 2017, compilation of 15 October 2024",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2017L01474/latest/text"
+    },
+    {
+      "title": "ASIC Market Integrity Rules (Securities Markets and other ASIC-Made Rules) Amendment Instrument 2022/117",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2022L00295/asmade/text"
+    },
+    {
+      "title": "ASIC Market Integrity Rules (Securities Markets) Amendment Instrument 2026/574",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2026L01223/latest/text"
+    },
+    {
+      "title": "ASIC Market Integrity Rules (Securities Markets) Amendment Instrument 2026/574: details",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2026L01223/latest/details"
+    },
+    {
+      "title": "ASIC Market Integrity Rules (Futures Markets) 2017",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2017L01475/latest/text"
+    },
+    {
+      "title": "Consultation Paper 342 Proposed amendments to the ASIC market integrity rules and other ASIC-made rules",
+      "publisher": "Australian Securities and Investments Commission",
+      "url": "https://download.asic.gov.au/media/hxugckmg/cp342-published-30-june-2021.pdf"
+    },
+    {
+      "title": "Regulatory Guide 265 Guidance on ASIC market integrity rules for participants of securities markets",
+      "publisher": "Australian Securities and Investments Commission",
+      "url": "https://download.asic.gov.au/media/vemgspga/rg265-published-2-august-2022-20251218.pdf"
+    },
+    {
+      "title": "Market integrity rules",
+      "publisher": "Australian Securities and Investments Commission",
+      "url": "https://asic.gov.au/regulatory-resources/markets/market-integrity-rules/"
+    }
+  ],
+  "related": [
+    "asic-rg-146-training-requirements",
+    "financial-adviser-education-and-cpd-requirements",
+    "asic-rg-105-organisational-competence",
+    "finra-continuing-education-requirements",
+    "japan-securities-sales-representative-qualification",
+    "mifid-ii-knowledge-and-competence-requirements"
+  ],
+  "productLinks": [
+    { "label": "Financial services", "href": "/industries/financial-services" },
+    { "label": "Verification and trust", "href": "/platform/verification-trust" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "Instrument 2022/117 Schedule 1 item 9: Part 2.4 of Chapter 2, repeal the Part; no replacement adviser qualification rule inserted",
+      "source": "https://www.legislation.gov.au/F2022L00295/asmade/text"
+    },
+    {
+      "claim": "Compilation No. 6 of 15 October 2024; legislation history shows 2022/117 Schedule 1 items 6, 7, 9, 10, 13 commenced 6 April 2022; Part 2.5 DTR rules 2.5.1 to 2.5.7 including seven year records; Rules 2.1.1, 2.1.4, 2.1.6, 2.3.2; DTR definition; Accredited Adviser definitions remain",
+      "source": "https://www.legislation.gov.au/F2017L01474/latest/text"
+    },
+    {
+      "claim": "CP 342: Part 2.4 required ASIC accreditation before advising retail clients on options, futures or warrants; three levels; renewal generally every three years; inherited from ASX in 2010; most accredited advisers captured by FA standards; s912A(1)(e) to (f) training duty",
+      "source": "https://download.asic.gov.au/media/hxugckmg/cp342-published-30-june-2021.pdf"
+    },
+    {
+      "claim": "RG 265.80 annual review of supervisory staff skills; note that the Securities Markets Rules do not adopt exam approval for supervisory staff; RG 265.122 ASX no longer administers DTR privileges; RG 265.123 training and testing of DTRs",
+      "source": "https://download.asic.gov.au/media/vemgspga/rg265-published-2-august-2022-20251218.pdf"
+    },
+    {
+      "claim": "Instrument 2026/574 dated 15 September 2026 commences 18 months after registration; item 36 repeals Part 2.5; items 18 and 19 repeal DTR definitions; item 62 new Rule 5.5.1(2) with note on designated trading representatives",
+      "source": "https://www.legislation.gov.au/F2026L01223/latest/text"
+    },
+    {
+      "claim": "Instrument 2026/574 registered 17 September 2026; tabled 12 October 2026; disallowance period end TBC",
+      "source": "https://www.legislation.gov.au/F2026L01223/latest/details"
+    },
+    {
+      "claim": "Futures Markets Rules compilation of 15 October 2024 contains Parts 2.1 to 2.4 (Notification, Supervision and risk management, Account reconciliation, Foreign Participants) and no accreditation Part",
+      "source": "https://www.legislation.gov.au/F2017L01475/latest/text"
+    }
+  ]
+}
