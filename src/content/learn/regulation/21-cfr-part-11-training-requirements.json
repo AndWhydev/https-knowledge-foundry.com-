@@ -1,0 +1,295 @@
+{
+  "slug": "21-cfr-part-11-training-requirements",
+  "kind": "regulation",
+  "title": "What training does 21 CFR Part 11 require for people who use electronic record systems?",
+  "seoTitle": "21 CFR Part 11 training requirements",
+  "description": "What 21 CFR 11.10(i) requires for training people who develop, maintain or use FDA-regulated electronic record systems, as at November 2026.",
+  "shortAnswer": "Section 11.10(i) of the US Food and Drug Administration's electronic records rule, 21 CFR Part 11, requires organizations to determine that everyone who develops, maintains or uses an electronic record or electronic signature system has the education, training and experience to perform their assigned tasks. FDA's 2003 scope guidance confirmed it continues to enforce this control, and its October 2024 clinical investigations guidance says training should occur before system use and after changes, and be documented.",
+  "keyTakeaways": [
+    "21 CFR 11.10(i) covers three groups: people who develop, maintain, or use electronic record or electronic signature systems. It applies to closed systems directly and to open systems through 11.30.",
+    "FDA's 2003 guidance on Part 11 scope and application narrowed enforcement of validation, audit trail, record retention and record copying, but stated that FDA will continue to enforce the training determination in 11.10(i).",
+    "FDA's October 2024 final guidance on electronic systems in clinical investigations (Revision 1) says training should happen before use, during a study as needed, and when system changes affect the user, and should be documented.",
+    "11.10(j) requires written policies holding individuals accountable for actions under their electronic signatures, which is usually delivered and evidenced through training and attestation.",
+    "FDA inspections of clinical investigators may include records of staff training on electronic systems, and Part 11 systems and documentation must be available for FDA inspection (11.1(e))."
+  ],
+  "jurisdiction": "United States (federal)",
+  "regulator": "US Food and Drug Administration (FDA), Department of Health and Human Services",
+  "appliesTo": [
+    "Organizations keeping records in electronic form under any FDA records requirement (for example GMP, GLP, GCP and device quality records)",
+    "Developers, system administrators and IT support staff who build or maintain electronic record or signature systems",
+    "All users who create, modify, review, approve or sign records electronically",
+    "Sponsors, clinical investigators, contract research organizations and IRBs using electronic systems in clinical investigations"
+  ],
+  "sections": [
+    {
+      "id": "what-part-11-covers",
+      "heading": "What does Part 11 cover and when does it apply?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Part 11 applies whenever an FDA-required record is kept or submitted in electronic form, and it sets the conditions under which electronic records and signatures are treated as equivalent to paper. Under [21 CFR 11.1](https://www.law.cornell.edu/cfr/text/21/11.1), the rule applies to records in electronic form that are created, modified, maintained, archived, retrieved or transmitted under any records requirement in FDA regulations, and to electronic records submitted under the Federal Food, Drug, and Cosmetic Act and the Public Health Service Act. It does not apply to paper records that are merely transmitted electronically."
+        },
+        {
+          "type": "p",
+          "text": "Part 11 is a cross-cutting rule: it sits on top of the predicate rules that require the records in the first place, such as drug CGMP, GLP or clinical investigation regulations. This page addresses only its personnel training control. For the predicate training duties themselves, see [FDA GMP personnel training requirements](/regulations/fda-gmp-personnel-training-requirements) and [GLP personnel training requirements](/regulations/glp-personnel-training-requirements). Rule text and FDA guidance cited here are current as at November 2026."
+        },
+        {
+          "type": "p",
+          "text": "A learning management system that holds GMP or GLP training records is itself often a Part 11 system, because those training records are required by a predicate rule. That creates a loop that inspectors notice: the system that proves training must also be operated by trained people."
+        }
+      ]
+    },
+    {
+      "id": "what-11-10-i-requires",
+      "heading": "What does 11.10(i) require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Section 11.10(i) requires a determination, documented in practice, that each person working with the system is qualified for their tasks. [21 CFR 11.10](https://www.law.cornell.edu/cfr/text/21/11.10) lists the procedures and controls required for closed systems, including:"
+        },
+        {
+          "type": "callout",
+          "title": "21 CFR 11.10(i)",
+          "text": "\"Determination that persons who develop, maintain, or use electronic record/electronic signature systems have the education, training, and experience to perform their assigned tasks.\""
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Develop:** includes in-house developers, configuration specialists and, in practice, vendors whose staff build or configure the system for the regulated organization.",
+            "**Maintain:** system administrators, database administrators, infrastructure and help desk staff who can change configuration, accounts or data.",
+            "**Use:** everyone who creates, modifies, reviews, approves or signs records in the system."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Under [21 CFR 11.30](https://www.law.cornell.edu/cfr/text/21/11.30), open systems must employ the controls identified in 11.10, as appropriate, plus measures such as encryption and digital signature standards, so the training determination applies to them too. The rule sets no hours, format or frequency; the test is whether the person's education, training and experience match their assigned tasks."
+        }
+      ]
+    },
+    {
+      "id": "related-controls",
+      "heading": "Which other Part 11 controls depend on training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Several Part 11 controls only work if people understand them, so they are usually delivered through training. The most direct links are:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Accountability policy (11.10(j)):** written policies that hold individuals accountable and responsible for actions initiated under their electronic signatures, to deter record and signature falsification.",
+            "**Documentation controls (11.10(k)):** controls over distribution of, access to and use of system operation and maintenance documentation, with revision and change control.",
+            "**Unique signatures ([11.100](https://www.law.cornell.edu/cfr/text/21/11.100)):** each electronic signature must be unique to one individual and not reused or reassigned, and the organization must verify identity before issuing one. Organizations must also certify to FDA that their electronic signatures are intended as the legally binding equivalent of handwritten signatures.",
+            "**Signature components ([11.200](https://www.law.cornell.edu/cfr/text/21/11.200)):** non-biometric signatures must use at least two distinct identification components, such as an ID code and password, and be used only by their genuine owners.",
+            "**Password controls ([11.300](https://www.law.cornell.edu/cfr/text/21/11.300)):** including loss management procedures and safeguards that detect and report attempted unauthorized use."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Training content for users therefore normally covers signature meaning and non-repudiation, never sharing credentials, how to correct a record without obscuring the original, and how to report suspected misuse. A [policy attestation](/glossary/policy-attestation) is a common way to evidence that users received the 11.10(j) accountability policy."
+        }
+      ]
+    },
+    {
+      "id": "fda-enforcement-and-guidance",
+      "heading": "Does FDA still enforce the Part 11 training requirement?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yes. FDA's September 2003 final guidance, [Part 11, Electronic Records; Electronic Signatures: Scope and Application](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/part-11-electronic-records-electronic-signatures-scope-and-application), announced enforcement discretion for the validation, audit trail, record retention and record copying requirements, but listed the training determination among the controls FDA expects continued compliance with and \"will continue to enforce\"."
+        },
+        {
+          "type": "p",
+          "text": "In October 2024 FDA issued the final guidance [Electronic Systems, Electronic Records, and Electronic Signatures in Clinical Investigations: Questions and Answers](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-systems-electronic-records-and-electronic-signatures-clinical-investigations-questions) (Revision 1). Its answer to Q15, on training of individuals who use electronic systems in clinical investigations, restates the 11.10(i) requirement and recommends:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Training on the electronic systems each individual will use during the clinical investigation.",
+            "Timing: before an individual uses the system, during the study as needed, and when changes are made to the system that affect the user.",
+            "Content: processes and procedures to access the system, to complete clinical investigation documentation, and to detect and report incorrect data.",
+            "Documentation of training, and current training materials available for reference to trial personnel and participants."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The same guidance lists records related to staff training on the use of electronic systems among the items FDA may review during a clinical investigator inspection, and expects sponsors to document support mechanisms such as training and training records. Although it is written for clinical investigations, its timing logic is a reasonable model for GMP and GLP systems too."
+        }
+      ]
+    },
+    {
+      "id": "mapping-obligations-to-evidence",
+      "heading": "How can an organization map Part 11 training duties to roles and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tie each control to the roles it covers, the training trigger, and what an investigator will ask to see. The table is illustrative; triggers drawn from the 2024 guidance are recommendations, not regulatory text."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: Part 11 training-related controls to role, trigger and inspection evidence",
+          "head": [
+            "Control",
+            "Applies to",
+            "Trigger",
+            "Evidence an investigator expects"
+          ],
+          "rows": [
+            [
+              "11.10(i) users have training for assigned tasks",
+              "All system users, by role and permission level",
+              "Before access is granted; after changes that affect the user",
+              "Training records dated before account activation, role-to-permission matrix"
+            ],
+            [
+              "11.10(i) developers and maintainers qualified",
+              "Developers, administrators, IT support, configuration vendors",
+              "Before assignment; on major technology change",
+              "CVs, training records, vendor qualification and audit evidence"
+            ],
+            [
+              "11.10(j) accountability for electronic signatures",
+              "All signers",
+              "Before first signature",
+              "Signed acknowledgment of the signature accountability policy"
+            ],
+            [
+              "11.100(b) identity verified before issuing signature",
+              "New signers",
+              "Before credential issue",
+              "Identity verification record linked to user ID"
+            ],
+            [
+              "11.300 password and loss management",
+              "All users with ID and password signatures",
+              "Induction and periodic reminders",
+              "Security awareness completion, incident reports of lost credentials"
+            ],
+            [
+              "2024 guidance Q15 current materials available",
+              "Clinical site staff and participants using study systems",
+              "Throughout the study",
+              "Version-controlled training materials accessible to users"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For aligning account provisioning with training status, see [how to build a training matrix](/guides/how-to-build-a-training-matrix). For keeping training materials versioned against system releases, see [how to maintain version control for training content](/guides/how-to-maintain-version-control-for-training-content) and the [audit trail](/glossary/audit-trail) definition."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each electronic system's procedures and permission levels to the roles that hold them and to the assessment points showing those people are trained. When a system release changes a workflow, affected roles can be identified and retrained before they use the changed function. See [healthcare and life sciences](/industries/healthcare-life-sciences) for related use cases."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Part 11 require annual training for system users?",
+      "a": "No. 11.10(i) requires a determination that people have the education, training and experience for their tasks, with no frequency set. FDA's 2024 clinical investigations guidance recommends training before use, during a study as needed, and when system changes affect the user. Periodic refreshers are an organizational choice."
+    },
+    {
+      "q": "Do software vendors' staff need Part 11 training records?",
+      "a": "11.10(i) covers persons who develop or maintain the system. Where a vendor develops, configures or hosts a regulated system, the regulated organization remains responsible and typically verifies vendor staff qualifications through supplier qualification, contracts and audits rather than holding individual training records itself."
+    },
+    {
+      "q": "Is training on the accountability policy required before someone signs electronically?",
+      "a": "11.10(j) requires written policies holding individuals accountable for actions under their electronic signatures. Part 11 does not say how the policy must be communicated, but a signed acknowledgment before the first electronic signature is the common way to show each signer received and understood it."
+    },
+    {
+      "q": "Does Part 11 apply to training records themselves?",
+      "a": "It does when the training records are required by an FDA predicate rule and kept electronically, for example the summaries of training and experience that 21 CFR 58.29(b) requires GLP testing facilities to maintain. In that case the learning system holding them is subject to Part 11 controls."
+    }
+  ],
+  "sources": [
+    {
+      "title": "21 CFR 11.10 Controls for closed systems",
+      "publisher": "Legal Information Institute (eCFR text), Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/21/11.10"
+    },
+    {
+      "title": "21 CFR 11.1 Scope",
+      "publisher": "Legal Information Institute (eCFR text), Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/21/11.1"
+    },
+    {
+      "title": "21 CFR 11.30 Controls for open systems",
+      "publisher": "Legal Information Institute (eCFR text), Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/21/11.30"
+    },
+    {
+      "title": "21 CFR 11.100 General requirements (electronic signatures)",
+      "publisher": "Legal Information Institute (eCFR text), Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/21/11.100"
+    },
+    {
+      "title": "21 CFR 11.200 and 11.300 Electronic signature components and password controls",
+      "publisher": "Legal Information Institute (eCFR text), Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/21/11.300"
+    },
+    {
+      "title": "Part 11, Electronic Records; Electronic Signatures: Scope and Application (guidance, September 2003)",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/part-11-electronic-records-electronic-signatures-scope-and-application"
+    },
+    {
+      "title": "Electronic Systems, Electronic Records, and Electronic Signatures in Clinical Investigations: Questions and Answers (guidance, October 2024, Revision 1)",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-systems-electronic-records-and-electronic-signatures-clinical-investigations-questions"
+    }
+  ],
+  "related": [
+    "fda-gmp-personnel-training-requirements",
+    "glp-personnel-training-requirements",
+    "audit-trail",
+    "policy-attestation",
+    "how-to-maintain-version-control-for-training-content",
+    "how-to-build-a-training-matrix"
+  ],
+  "productLinks": [
+    {
+      "label": "Healthcare and life sciences",
+      "href": "/industries/healthcare-life-sciences"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 13,
+  "factCheck": [
+    {
+      "claim": "11.10(i) verbatim: determination that persons who develop, maintain, or use electronic record/electronic signature systems have the education, training, and experience to perform their assigned tasks. 11.10(j) accountability policies; 11.10(k) systems documentation controls.",
+      "source": "https://www.law.cornell.edu/cfr/text/21/11.10"
+    },
+    {
+      "claim": "11.1(b) scope: records in electronic form under any FDA records requirement and electronic submissions; not paper records transmitted electronically. 11.1(e) systems and documentation subject to FDA inspection.",
+      "source": "https://www.law.cornell.edu/cfr/text/21/11.1"
+    },
+    {
+      "claim": "11.30 open systems employ controls identified in 11.10, as appropriate, plus encryption and digital signature standards.",
+      "source": "https://www.law.cornell.edu/cfr/text/21/11.30"
+    },
+    {
+      "claim": "11.100(a) unique signature not reused or reassigned; (b) identity verified before issue; (c) certification to FDA of legally binding equivalence. 11.200(a) at least two distinct components; 11.300 loss management and unauthorized use safeguards.",
+      "source": "https://www.law.cornell.edu/cfr/text/21/11.100"
+    },
+    {
+      "claim": "2003 Scope and Application guidance (final, September 2003): enforcement discretion for validation, audit trail, record retention and record copying; continued enforcement of controls including determination that persons who develop, maintain, or use electronic systems have education, training and experience.",
+      "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/part-11-electronic-records-electronic-signatures-scope-and-application"
+    },
+    {
+      "claim": "October 2024 final guidance, Revision 1, Q15: training before use, during study as needed, when changes impact user; covers access, completing documentation, detecting and reporting incorrect data; documented; current materials available. FDA may review records of staff training on electronic systems during clinical investigator inspections; sponsors document support mechanisms such as training records.",
+      "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-systems-electronic-records-and-electronic-signatures-clinical-investigations-questions"
+    }
+  ]
+}

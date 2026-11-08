@@ -1,0 +1,341 @@
+{
+  "slug": "biosafety-training-requirements-laboratories",
+  "kind": "regulation",
+  "title": "What biosafety training do US laboratories need under the BMBL and the NIH Guidelines?",
+  "seoTitle": "US laboratory biosafety training",
+  "description": "US lab biosafety training under BMBL 6th edition, the NIH Guidelines, the select agent rule and the 2026 draft NIH policy, as at November 2026.",
+  "shortAnswer": "In the United States, the CDC and NIH manual Biosafety in Microbiological and Biomedical Laboratories (BMBL, 6th edition) expects laboratory supervisors to train staff on their duties, hazards and precautions, keep records, and provide annual updates. Institutions subject to the NIH Guidelines must ensure training for Institutional Biosafety Committee members, biosafety officers, principal investigators and laboratory staff. Labs registered for select agents must train before access and refresh training annually under 42 CFR 73.15.",
+  "keyTakeaways": [
+    "BMBL 6th edition (revised June 2020) is a code of practice: at BSL-1 to BSL-3 the supervisor ensures training on duties, hazards, exposure precautions and evaluation procedures, keeps records, and provides annual updates and extra training when equipment, procedures or policies change.",
+    "From BSL-2 upward the supervisor must ensure personnel demonstrate proficiency in the required practices; at BSL-4 high proficiency is required before working independently.",
+    "NIH Guidelines Section IV-B-1-h makes the institution responsible for training the IBC Chair and members, Biological Safety Officer, principal investigators and laboratory staff; IV-B-7-d-(2) requires the PI to train staff in safe practices and accident procedures.",
+    "The select agent regulation is binding: training before entry or within 12 months of access approval, annual refreshers, and records naming the method used to verify understanding.",
+    "NIH published a draft Biosafety Policy for Research Involving Biohazards on September 14, 2026 that would replace the NIH Guidelines. Comments closed October 19, 2026; it is not in force as at November 2026."
+  ],
+  "jurisdiction": "United States (federal)",
+  "regulator": "Centers for Disease Control and Prevention (CDC) and National Institutes of Health (NIH) for the BMBL; NIH Office of Science Policy for the NIH Guidelines; CDC and USDA APHIS Federal Select Agent Program for 42 CFR Part 73",
+  "appliesTo": [
+    "Microbiological, biomedical, clinical and research laboratories working with infectious agents (BMBL, advisory)",
+    "Institutions conducting recombinant or synthetic nucleic acid research that receive NIH support for such research, and NIH itself (NIH Guidelines)",
+    "Institutional Biosafety Committee members, Biological Safety Officers, principal investigators and laboratory staff",
+    "Individuals and entities registered to possess, use or transfer select agents and toxins (42 CFR 73.15)"
+  ],
+  "sections": [
+    {
+      "id": "three-layers",
+      "heading": "Which rules set biosafety training expectations for US laboratories?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Three instruments overlap: the BMBL sets the national code of practice, the NIH Guidelines bind NIH-funded institutions doing recombinant or synthetic nucleic acid research, and the select agent regulations bind registered entities by law. A lab can be subject to one, two or all three."
+        },
+        {
+          "type": "table",
+          "caption": "US biosafety training instruments compared, as at November 2026",
+          "head": [
+            "Instrument",
+            "Status",
+            "Who it applies to",
+            "Core training expectation"
+          ],
+          "rows": [
+            [
+              "BMBL 6th edition (CDC and NIH)",
+              "Code of practice and authoritative reference",
+              "Laboratories handling infectious agents and toxins",
+              "Supervisor-led training by biosafety level, records, annual updates, proficiency"
+            ],
+            [
+              "NIH Guidelines (April 2024 version)",
+              "Condition of NIH funding",
+              "Institutions receiving NIH support for recombinant or synthetic nucleic acid research",
+              "Institution trains IBC, BSO, PIs and staff; PI trains staff before research starts"
+            ],
+            [
+              "42 CFR Part 73 (select agents)",
+              "Federal regulation",
+              "Registered entities and individuals with select agents or toxins",
+              "Training before access, annual refresher, documented verification of understanding"
+            ],
+            [
+              "Draft NIH Biosafety Policy (September 2026)",
+              "Proposed, not in force",
+              "Would cover all NIH-supported research involving biohazards",
+              "Institution, IBC and PI training duties; staff training synopses posted publicly"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Biosafety training also sits alongside general workplace safety rules, such as those covered in [OSHA training requirements](/regulations/osha-training-requirements). This page focuses on the biosafety-specific instruments and states the position as at November 2026."
+        }
+      ]
+    },
+    {
+      "id": "bmbl-expectations",
+      "heading": "What does the BMBL expect for laboratory training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The BMBL expects the laboratory supervisor to train every worker for their duties and hazards, keep records, provide annual updates, and confirm proficiency as containment levels rise. [Biosafety in Microbiological and Biomedical Laboratories, 6th edition](https://www.cdc.gov/labs/bmbl/index.html), revised June 2020, is published by CDC and NIH and describes itself as \"a code of practice and an authoritative reference\"."
+        },
+        {
+          "type": "callout",
+          "title": "BMBL Section IV, standard microbiological practice 2 (BSL-2 text)",
+          "text": "\"The laboratory supervisor ensures that laboratory personnel receive appropriate training regarding their duties, potential hazards, manipulations of infectious agents, necessary precautions to minimize exposures, and hazard/exposure evaluation procedures (e.g., physical hazards, splashes, aerosolization) and that appropriate records are maintained. Personnel receive annual updates and additional training when equipment, procedures, or policies change.\""
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**BSL-1, BSL-2 and BSL-3:** the same supervisor training and records practice appears among the standard microbiological practices, with annual updates and additional training on change. All persons entering are advised of hazards and instructed on safeguards, and an institutional policy on visitor training is considered.",
+            "**BSL-2 special practices:** the supervisor is responsible for ensuring personnel \"demonstrate proficiency in standard microbiological practices and techniques for working with agents requiring BSL-2 containment.\"",
+            "**BSL-3 special practices:** the same proficiency demonstration applies for agents requiring BSL-3 containment.",
+            "**BSL-4:** personnel and support staff are trained and approved to work in the facility, and must demonstrate high proficiency in standard and special practices before working independently."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Section II on risk assessment adds that the laboratory director or principal investigator should ensure workers have acquired technical proficiency and good habits, and that an evaluation of a worker's training, experience, proficiency, use of safety equipment, use of standard operating procedures and ability to respond to emergencies indicates whether they can work safely."
+        }
+      ]
+    },
+    {
+      "id": "nih-guidelines",
+      "heading": "What do the NIH Guidelines require for biosafety training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The NIH Guidelines make the institution responsible for training everyone in its biosafety oversight chain and make the principal investigator responsible for training laboratory staff. The [NIH Guidelines for Research Involving Recombinant or Synthetic Nucleic Acid Molecules](https://osp.od.nih.gov/wp-content/uploads/NIH_Guidelines.pdf) (April 2024 version) apply under Section I-C-1 to such research conducted at or sponsored by an institution that receives any NIH support for recombinant or synthetic nucleic acid research."
+        },
+        {
+          "type": "callout",
+          "title": "NIH Guidelines, Section IV-B-1-h",
+          "text": "\"Ensure appropriate training for the Institutional Biosafety Committee Chair and members, Biological Safety Officer and other containment experts (when applicable), Principal Investigators, and laboratory staff regarding laboratory safety and implementation of the NIH Guidelines. The Institutional Biosafety Committee Chair is responsible for ensuring that Institutional Biosafety Committee members are appropriately trained. The Principal Investigator is responsible for ensuring that laboratory staff are appropriately trained.\""
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Principal investigator (IV-B-7-d):** before research starts, the PI must make protocols describing potential biohazards available to all staff, \"instruct and train laboratory staff in: (i) the practices and techniques required to ensure safety, and (ii) the procedures for dealing with accidents\", and explain any precautionary medical practices.",
+            "**Minimum content (Appendix G-I):** all personnel directly or indirectly involved in experiments \"shall receive adequate instruction\", including at a minimum training in aseptic techniques and in the biology of the organisms used.",
+            "**PI training:** the institution ensures the PI has sufficient training, and may delegate this to the IBC.",
+            "**Biological Safety Officer (IV-B-3-c):** required if the institution conducts research involving gene drive modified organisms, and must be an IBC member.",
+            "**Consequences (I-D-1):** non-compliance may lead to suspension, limitation or termination of NIH funding for the project and for other such research at the institution, or a requirement for prior NIH approval."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "select-agent-training",
+      "heading": "What training does the select agent regulation require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Registered entities must train every person with access approval, and escorted visitors, before they enter areas with select agents, and refresh access-approved staff annually. Under [42 CFR 73.15](https://www.law.cornell.edu/cfr/text/42/73.15), training must cover biocontainment, biosafety, security (including security awareness) and incident response."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Timing:** for individuals with access approval, before entry into an area where a select agent is handled or stored, or within 12 months of the access approval date, whichever is earlier. Escorted individuals must be trained before entry, based on the risk of the area.",
+            "**Tier 1 agents:** entities must hold annual insider threat awareness briefings on identifying and reporting suspicious behavior.",
+            "**Refresher:** annual for individuals with access approval, or when the entity significantly amends its security, incident response or biosafety plans.",
+            "**Records:** the Responsible Official must keep a record for each trained individual showing name, date, description of the training, and \"the means used to verify that the employee understood the training\".",
+            "**Retention:** records created under Part 73 must be kept for 3 years ([42 CFR 73.17](https://www.law.cornell.edu/cfr/text/42/73.17))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "draft-nih-biosafety-policy",
+      "heading": "Is NIH replacing the NIH Guidelines?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "NIH has proposed to, but the replacement is not yet final. On September 14, 2026 NIH published a request for information on a [Draft NIH Biosafety Policy for Research Involving Biohazards](https://www.federalregister.gov/documents/2026/09/14/2026-18646/draft-nih-biosafety-policy-for-research-involving-biohazards) that, when finalized, \"will replace the current NIH Guidelines\". Comments were due by October 19, 2026."
+        },
+        {
+          "type": "callout",
+          "title": "Proposed: not in force as at November 2026",
+          "text": "The draft would extend scope from recombinant or synthetic nucleic acids to all laboratory biomedical research involving biohazards, including wild-type human pathogens, genetically modified cells and organisms, and toxins and prions. It would apply to NIH-supported research and to non-NIH-funded research at institutions receiving any NIH funding, from 6 months after publication of the final policy. It keeps institutional responsibility for training the IBC Chair and members, the BSO, PIs and laboratory staff, requires PIs to ensure staff have adequate biosafety training before research, and would require institutions to post synopses of relevant staff trainings publicly."
+        },
+        {
+          "type": "p",
+          "text": "Institutions can prepare by documenting training at the level of each protocol and biohazard now, so that records can be summarized publicly if the final policy keeps the posting requirement. See [how to update training when regulations change](/guides/how-to-update-training-when-regulations-change)."
+        }
+      ]
+    },
+    {
+      "id": "mapping-obligations-to-evidence",
+      "heading": "How can a laboratory map biosafety training duties to roles and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Combine the three instruments into one matrix by role and containment level, noting which rows are binding and which are advisory. The table is illustrative."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping: US biosafety training duties to role, frequency and evidence",
+          "head": [
+            "Duty and source",
+            "Applies to",
+            "Frequency",
+            "Evidence an inspector or IBC expects"
+          ],
+          "rows": [
+            [
+              "BMBL standard practice 2 (advisory)",
+              "All BSL-1 to BSL-3 lab personnel",
+              "Initial; annual updates; on equipment, procedure or policy change",
+              "Training records by person and lab, change-triggered retraining"
+            ],
+            [
+              "BMBL BSL-2 and BSL-3 proficiency (advisory)",
+              "Lab personnel at those levels",
+              "Before independent work at that level",
+              "Supervisor sign-off of observed proficiency"
+            ],
+            [
+              "NIH Guidelines IV-B-1-h",
+              "IBC Chair and members, BSO, PIs, lab staff",
+              "Institution defined",
+              "Institutional training program, IBC member training records"
+            ],
+            [
+              "NIH Guidelines IV-B-7-d-(2) and Appendix G-I",
+              "Lab staff on each registered protocol",
+              "Before research starts",
+              "PI-signed training on protocol hazards, aseptic technique and accident procedures"
+            ],
+            [
+              "42 CFR 73.15(a) and (c) (binding)",
+              "Access-approved individuals and escorted persons",
+              "Before entry or within 12 months of approval; annual refresher",
+              "Record with name, date, description and verification method, kept 3 years"
+            ],
+            [
+              "42 CFR 73.15(b) (binding)",
+              "Staff at Tier 1 entities",
+              "Annual",
+              "Insider threat briefing attendance records"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Proficiency sign-offs are a form of [verification of competency](/glossary/verification-of-competency). For refresher interval design, see [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each biosafety requirement to the protocols, containment levels and roles it applies to, and to the assessment points that show understanding or proficiency. That supports protocol-level training records of the kind the draft NIH policy would ask institutions to summarize. See [higher education](/industries/higher-education) and [healthcare and life sciences](/industries/healthcare-life-sciences)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is the BMBL legally binding?",
+      "a": "Not by itself. The BMBL describes itself as a code of practice and an authoritative reference. It becomes binding where another instrument adopts it, for example through funding terms, institutional policy or contracts. The select agent regulations in 42 CFR Part 73 are binding on registered entities, and the NIH Guidelines are a condition of NIH funding."
+    },
+    {
+      "q": "How often must biosafety training be refreshed?",
+      "a": "The BMBL expects annual updates and additional training when equipment, procedures or policies change. The select agent rule requires annual refresher training for access-approved individuals. The NIH Guidelines do not set a frequency, leaving it to the institution."
+    },
+    {
+      "q": "Who trains Institutional Biosafety Committee members?",
+      "a": "Under NIH Guidelines Section IV-B-1-h, the institution is responsible for ensuring appropriate training for IBC members, and the IBC Chair is responsible for ensuring members are appropriately trained. The draft NIH Biosafety Policy published in September 2026 keeps institutional responsibility for IBC training."
+    },
+    {
+      "q": "Do visitors need biosafety training?",
+      "a": "The BMBL expects all persons entering a laboratory to be advised of potential hazards and instructed on safeguards, with an institutional policy on visitor training considered. Under 42 CFR 73.15, escorted individuals must be trained before entering areas where select agents or toxins are handled or stored."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Biosafety in Microbiological and Biomedical Laboratories (BMBL), 6th edition",
+      "publisher": "Centers for Disease Control and Prevention and National Institutes of Health",
+      "url": "https://www.cdc.gov/labs/bmbl/index.html"
+    },
+    {
+      "title": "BMBL 6th edition, full text (PDF)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/labs/media/pdfs/2025/08/SF__19a_308133-A_BMBL6_00-BOOK-WEB-final-3.pdf"
+    },
+    {
+      "title": "NIH Guidelines for Research Involving Recombinant or Synthetic Nucleic Acid Molecules (April 2024)",
+      "publisher": "National Institutes of Health, Office of Science Policy",
+      "url": "https://osp.od.nih.gov/wp-content/uploads/NIH_Guidelines.pdf"
+    },
+    {
+      "title": "Draft NIH Biosafety Policy for Research Involving Biohazards (request for information, September 14, 2026)",
+      "publisher": "National Institutes of Health, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/09/14/2026-18646/draft-nih-biosafety-policy-for-research-involving-biohazards"
+    },
+    {
+      "title": "42 CFR 73.15 Training",
+      "publisher": "Legal Information Institute (eCFR text), Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/42/73.15"
+    },
+    {
+      "title": "42 CFR 73.17 Records",
+      "publisher": "Legal Information Institute (eCFR text), Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/42/73.17"
+    },
+    {
+      "title": "Final Action Under the NIH Guidelines (April 5, 2024)",
+      "publisher": "National Institutes of Health, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2024/04/05/2024-07082/final-action-under-the-nih-guidelines-for-research-involving-recombinant-or-synthetic-nucleic-acid"
+    }
+  ],
+  "related": [
+    "osha-training-requirements",
+    "verification-of-competency",
+    "how-to-set-mandatory-training-refresh-cycles",
+    "how-to-update-training-when-regulations-change",
+    "glp-personnel-training-requirements",
+    "standard-operating-procedure"
+  ],
+  "productLinks": [
+    {
+      "label": "Higher education",
+      "href": "/industries/higher-education"
+    },
+    {
+      "label": "Healthcare and life sciences",
+      "href": "/industries/healthcare-life-sciences"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 13,
+  "factCheck": [
+    {
+      "claim": "BMBL 6th edition, revised June 2020, CDC and NIH; describes itself as a code of practice and an authoritative reference.",
+      "source": "https://www.cdc.gov/labs/media/pdfs/2025/08/SF__19a_308133-A_BMBL6_00-BOOK-WEB-final-3.pdf"
+    },
+    {
+      "claim": "BMBL Section IV standard microbiological practice 2 at BSL-1, BSL-2 and BSL-3: supervisor ensures training on duties, hazards, manipulations, precautions, hazard evaluation; records maintained; annual updates and additional training on change; visitor policy considered. BSL-2 and BSL-3 special practices: personnel demonstrate proficiency. BSL-4: high proficiency before working independently.",
+      "source": "https://www.cdc.gov/labs/media/pdfs/2025/08/SF__19a_308133-A_BMBL6_00-BOOK-WEB-final-3.pdf"
+    },
+    {
+      "claim": "NIH Guidelines April 2024: I-C-1-a-(1) applicability; IV-B-1-h verbatim institution training duty, IBC Chair trains members, PI trains staff, institution ensures PI training (may delegate to IBC); IV-B-7-d-(2) PI instructs and trains staff in safe practices and accident procedures; Appendix G-I minimum aseptic technique and organism biology; IV-B-3-c BSO for gene drive research; I-D-1 non-compliance consequences. Read via archived copy of the OSP PDF (osp.od.nih.gov blocks automated access).",
+      "source": "https://osp.od.nih.gov/wp-content/uploads/NIH_Guidelines.pdf"
+    },
+    {
+      "claim": "42 CFR 73.15: training on biocontainment, biosafety, security and incident response; before entry or within 12 months of approval, whichever earlier; escorted persons before entry; Tier 1 annual insider threat briefings; annual refresher or on significant plan amendment; records include name, date, description and means to verify understanding.",
+      "source": "https://www.law.cornell.edu/cfr/text/42/73.15"
+    },
+    {
+      "claim": "42 CFR 73.17(c): all records created under Part 73 maintained for 3 years.",
+      "source": "https://www.law.cornell.edu/cfr/text/42/73.17"
+    },
+    {
+      "claim": "Draft NIH Biosafety Policy for Research Involving Biohazards, FR Doc 2026-18646, published September 14, 2026, comments by October 19, 2026; will replace NIH Guidelines when finalized; scope all biohazards; applies to NIH-supported research and non-NIH research at NIH-funded institutions 6 months after final publication; institution training duty for IBC, BSO, PIs, lab staff; PIs ensure adequate biosafety training; synopses of relevant staff trainings publicly posted.",
+      "source": "https://www.federalregister.gov/documents/2026/09/14/2026-18646/draft-nih-biosafety-policy-for-research-involving-biohazards"
+    }
+  ]
+}
