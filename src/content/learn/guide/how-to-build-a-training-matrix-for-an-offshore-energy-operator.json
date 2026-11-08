@@ -1,0 +1,332 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-an-offshore-energy-operator",
+  "kind": "guide",
+  "title": "How do you build a training matrix for an offshore energy operator?",
+  "seoTitle": "Training matrix for offshore energy",
+  "description": "Build an offshore energy training matrix: BSEE SEMS and well control, NOPSEMA safety case competence, emergency drills and marine crew rules by facility.",
+  "shortAnswer": "An offshore energy operator's training matrix is built by listing every facility role (offshore installation manager, drillers, well control and production staff, emergency response team, contractors, marine crew) against the safety regime of the waters where each facility sits, such as BSEE rules on the US Outer Continental Shelf or a NOPSEMA accepted safety case in Australian Commonwealth waters. Most intervals are operator set, so each cell records the chosen frequency, its rationale and the evidence held.",
+  "keyTakeaways": [
+    "Offshore training obligations attach to the facility and the waters it operates in, so the matrix needs a facility dimension and a regime column for each jurisdiction.",
+    "Both main regimes are largely performance based: BSEE lets lessees set periodic training intervals and drill schedules, and NOPSEMA assesses what the operator's safety case commits to.",
+    "A few clocks are fixed: a weekly well control drill under 30 CFR 250.711, a SEMS audit every 3 years, and a revised Australian safety case every 5 years.",
+    "Contractors are inside scope in both regimes, so contractor personnel need rows, not just a supplier register.",
+    "Marine instruments still apply to vessels and mobile offshore drilling units, so ISM, STCW and ISPS columns sit alongside the petroleum safety rules."
+  ],
+  "sections": [
+    {
+      "id": "why-offshore-needs-own-matrix",
+      "heading": "Why does an offshore energy operator need its own kind of training matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because offshore rules fix very few training intervals and instead require the operator to define, justify and demonstrate competence through its own safety management system or safety case. A matrix that only tracks expiry dates misses the operator's chosen frequencies, which are what an auditor will test against."
+        },
+        {
+          "type": "p",
+          "text": "The method in [how to build a training matrix](/guides/how-to-build-a-training-matrix) holds: people down one side, obligations across the top, a rule in each cell. An offshore operator adds three dimensions: the facility a person works on, the regime that governs that facility, and the employer, because both BSEE and NOPSEMA expect contractor competence to be covered. Treat well control, control room and emergency command positions as [safety critical roles](/glossary/safety-critical-role)."
+        },
+        {
+          "type": "p",
+          "text": "Onshore major hazard rules do not transfer. The EU Seveso III Directive, for example, excludes offshore exploration from its scope under Article 2(2), so its safety management training duties should not be mapped onto offshore rows ([Seveso III training](/regulations/eu-seveso-iii-safety-management-training))."
+        }
+      ]
+    },
+    {
+      "id": "offshore-roles",
+      "heading": "Which offshore roles should become rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Create a row for each role a rule or the operator's safety case names, then split by facility where systems differ. The table lists the roles most offshore operators need and the regulation pages that drive them."
+        },
+        {
+          "type": "table",
+          "caption": "Offshore roles and the rules that make each a separate row",
+          "head": ["Role", "Why it needs its own row", "Driving rules"],
+          "rows": [
+            ["Offshore installation manager and emergency commander", "Command and emergency positions must have the necessary skills, training and ability; simulation expected for critical roles", "OPGGS (Safety) Regulations 2024 s 2.8(2)(b); NOPSEMA GN1053"],
+            ["Emergency response team members", "Competence assurance for team leaders, radio and control room operators and muster checkers", "s 2.20; NOPSEMA GN1053"],
+            ["Well control personnel", "Well control and deepwater well control duties need specific training and a weekly drill", "30 CFR 250 Subpart O; 30 CFR 250.711"],
+            ["Production safety personnel", "Production safety duties are a defined training category", "30 CFR 250.1500 and 250.1503"],
+            ["All personnel on a covered facility", "SEMS training, stop work authority orientation and drills apply to everyone, including contracted workers", "30 CFR 250.1915, 250.1918 and 250.1930"],
+            ["Permit to work users", "Workforce competence in the permit to work system must be described in the safety case", "s 2.10(2)(c)"],
+            ["Contractor personnel", "Operators must verify contractor training; domestic service providers are treated separately in the US", "30 CFR 250.1914 and 250.1915(d); NOPSEMA GN1052"],
+            ["Diving supervisors and divers", "ADAS qualifications required, with strict liability offenses", "OPGGS (Safety) Regulations 2024"],
+            ["SEMS trainers and instructors", "Instructor qualifications must be documented", "30 CFR 250.1915"],
+            ["Marine crew on vessels and mobile offshore drilling units", "Seafarer certification, safety management and security duties under maritime instruments", "STCW; ISM Code; ISPS Code"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "offshore-obligations-by-market",
+      "heading": "Which training rules apply to offshore operators in each market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Columns come from the petroleum safety regime of each facility's waters, then from the maritime instruments that apply to vessels and mobile units. Each summary below draws only on the linked regulation page."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**United States, SEMS.** Under 30 CFR 250 Subpart S, every Outer Continental Shelf operator must run a Safety and Environmental Management Systems (SEMS) program. Training is element 7 of 17, and section 250.1915 requires initial training including startup and shutdown, periodic training verified through drills, training or notice before personnel work under changed procedures, and verification that contractors are trained. Stop work authority training is part of orientation for all new OCS personnel ([BSEE SEMS](/regulations/bsee-sems-offshore-training-requirements)).",
+            "**United States, well control.** As at November 2026, 30 CFR 250 Subpart O remains in force alongside SEMS. Lessees must train employees to competently perform well control, deepwater well control and production safety duties, keep a written training plan, verify contractor training and produce 5 years of training documents on request. Section 250.711 separately requires a weekly well control drill for everyone engaged in well operations ([BSEE well control](/regulations/bsee-well-control-and-production-safety-training)).",
+            "**Australia, safety case.** Under section 2.9 of the Offshore Petroleum and Greenhouse Gas Storage (Safety) Regulations 2024, in force since 12 June 2025, each facility safety case must describe how every member of the workforce has the skills, training and ability for routine and non-routine tasks in normal, abnormal and emergency conditions and during changes. NOPSEMA expects contractors to be included and recognized units of competency to be considered ([NOPSEMA safety case competence](/regulations/nopsema-safety-case-competence-requirements)).",
+            "**Australia, emergency drills.** Section 2.20 requires the safety case to provide for escape and fire drills that train people to act in an emergency with adequate knowledge, preparedness and confidence. NOPSEMA guidance expects a competence assurance process for emergency roles and says a basic offshore safety induction, facility induction, facility assessment questionnaire and ongoing drills may be all that non emergency team workers need ([offshore installation safety training](/regulations/offshore-installation-safety-training-australia)).",
+            "**Mobile offshore drilling units and vessels.** The ISM Code applies to mobile offshore drilling units of 500 gross tonnage and upwards on international voyages, so section 6 familiarization and company training duties apply to the marine side of those units ([ISM Code](/regulations/ism-code-personnel-and-training-requirements)). Seafarers on seagoing support and production vessels need STCW basic training with competence shown every five years ([STCW](/regulations/stcw-seafarer-training-requirements)).",
+            "**Security.** Where the operator runs ships or port facilities covered by the ISPS Code, ship and company security officers need knowledge and training, and drills run at least every three months with exercises no more than 18 months apart ([ISPS Code](/regulations/isps-code-ship-and-port-security-training))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "offshore-matrix-extract",
+      "heading": "What does a filled offshore matrix look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It looks like a competence register in which most frequencies are the operator's own, each traceable to a section of its SEMS program or safety case. The extract below is illustrative only, for a hypothetical operator with a platform on the US Outer Continental Shelf and an FPSO in Australian Commonwealth waters. Frequencies marked as operator policy are choices, not requirements of the cited rule."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical offshore operator, role by obligation",
+          "head": ["Role", "Market", "Obligation", "Frequency", "Evidence held"],
+          "rows": [
+            ["Driller, platform", "United States", "30 CFR 250.711 well control drill", "Weekly; scenario not repeated consecutively with the same crew", "Drill entry in the daily report"],
+            ["Driller, platform", "United States", "Subpart O well control training", "Periodic interval set in the lessee's written plan; operator policy every 2 years", "Training plan, records for the past 5 years, retention verification"],
+            ["Production operator, platform", "United States", "Subpart O production safety training", "Periodic interval set by the lessee", "Training record identifying position, experience and employer"],
+            ["New starter, any role, platform", "United States", "30 CFR 250.1930 stop work authority orientation", "At orientation, before work", "SWA training record kept onsite 30 days and retained 2 years"],
+            ["All personnel, platform", "United States", "30 CFR 250.1918 SEMS drills", "On the schedule defined by the SEMS training program", "Drill record and critique"],
+            ["Contract crane operator, platform", "United States", "30 CFR 250.1915(d) contractor verification", "Before work and on contract renewal as operator policy", "Contractor training documentation reviewed by the operator"],
+            ["Emergency commander, FPSO", "Australia", "s 2.8(2)(b) and GN1053 competence assurance", "Simulation exercise; operator policy every 12 months", "Competence assessment record and simulator debrief"],
+            ["Muster checker, FPSO", "Australia", "s 2.20 escape and fire drills", "Drill schedule set per major accident event", "Drill report, post drill review, independent observer notes"],
+            ["Visiting technician, FPSO", "Australia", "GN1053 induction pathway", "Before first trip; basic offshore safety induction kept current", "Induction certificate, facility induction and questionnaire"],
+            ["Permit issuer, FPSO", "Australia", "s 2.10(2)(c) permit to work competence", "Before authorization; reassessed as operator policy every 3 years", "Permit to work competency sign off"],
+            ["Marine crew, FPSO", "Australia", "STCW basic training", "Competence shown every five years", "Certificate of safety training or sea service evidence"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regulator-clocks-and-operator-clocks",
+      "heading": "Which offshore intervals are fixed by regulators and which does the operator choose?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Only a handful of offshore intervals are fixed by regulation; most training and drill frequencies are set by the operator and then held to account through audit or safety case assessment. Record which is which, and document the rationale for every operator set interval."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Fixed by rule.** Weekly well control drills under 30 CFR 250.711; a SEMS audit by an accredited audit service provider within 2 years of initial implementation and then every 3 years, with a report and corrective action plan within 60 days; a revised safety case submitted within 14 days before the end of each 5 year period after acceptance; five yearly STCW basic training evidence; three monthly ISPS drills.",
+            "**Set by the operator.** Subpart O defines periodic as intervals the lessee specifies, and section 250.1506 leaves frequency to the lessee. SEMS drills run on a schedule the program defines. NOPSEMA guidance expects a drill schedule built around each major accident event, with frequency, unannounced exercises and communications testing considered.",
+            "**Event triggered.** SEMS requires training or notice before personnel operate under changed procedures, and stop work authority training at orientation. Tie these to the management of change process rather than the calendar.",
+            "**Skill fade.** NOPSEMA's emergency planning guidance says it is not sufficient to assume competency and names skill fade as a factor, which is a reason to shorten operator intervals for rarely used emergency roles. See [how to set up verification of competency](/guides/how-to-set-up-verification-of-competency)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "offshore-records",
+      "heading": "What training evidence will offshore regulators ask for?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Expect regulators to test competence directly, not just read records. BSEE can interview, test and run hands-on, simulator or live well tests, and NOPSEMA assesses whether the competence arrangements in the safety case work in practice."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**BSEE SEMS.** SEMS records are kept for 6 years with documents onshore; stop work authority training records stay onsite for 30 days and are retained for 2 years; job safety analysis and management of change records are kept for 2 years (30 CFR 250.1928).",
+            "**BSEE Subpart O.** Lessees produce training documents for the past 5 years on request. Under sections 250.1508 and 250.1509, personnel are identified by position, experience and employer, and section 250.1507 lets BSEE audit the training system, with testing at the lessee's cost. Failures can lead to incidents of noncompliance, a revised plan, civil penalties or disqualification.",
+            "**Drills.** Well control drills are recorded in the daily report, and BSEE may require a drill during an inspection. SEMS drills need a critique, and NOPSEMA guidance expects post drill reviews and independent observers, with drills treated as part of competency assessment.",
+            "**Contractors.** Both regimes expect the operator to hold evidence of contractor competence, not just a contract clause, as covered in [how to train contractors and temporary workers](/guides/how-to-train-contractors-and-temporary-workers)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "offshore-dated-changes",
+      "heading": "Which offshore training changes should be dated in the matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most recent offshore changes are already in force, so the task is to confirm the matrix reflects them. Each date comes from the linked regulation pages, as at November 2026."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**12 June 2025:** the Offshore Petroleum and Greenhouse Gas Storage (Safety) Regulations 2024 commenced. NOPSEMA says section 2.15A, which requires measures to prevent sexual harassment, bullying and harassment, applies to all safety cases from that date.",
+            "**21 and 25 November 2025:** NOPSEMA issued updated guidance notes on emergency planning (GN1053) and safety management systems (GN1052). Check emergency response and competence rows against them.",
+            "**31 March 2026:** current compilation of the 2024 Safety Regulations, following an amendment instrument (F2025L01447).",
+            "**10 August 2026:** a BSEE rule published on 10 June 2026 (91 FR 35304) took effect, updating standards incorporated by reference, including API RP 75 Third Edition in the SEMS sections.",
+            "**Each 5 year safety case anniversary:** a revised safety case is due within 14 days before the end of the period, which is a natural point to revalidate competence rows."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each offshore obligation with the facility, regime and employer it applies to, together with the operator set interval and its rationale, and links it to the learning outcomes and assessment points that demonstrate competence. When a safety case is revised or a regulator updates guidance, the affected rows and materials are flagged for review. See [energy and resources](/industries/energy-resources)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does BSEE Subpart O still apply now that SEMS exists?",
+      "a": "Yes. As at November 2026 the eCFR lists 30 CFR 250 Subpart O, Well Control and Production Safety Training, as current and separate from Subpart S. An Outer Continental Shelf operator therefore needs columns for both: the SEMS training element for all personnel, and Subpart O for staff with well control or production safety duties."
+    },
+    {
+      "q": "Is a basic offshore safety induction legally required in Australia?",
+      "a": "The 2024 Safety Regulations do not name a specific course. NOPSEMA's emergency planning guidance says a basic offshore safety induction, facility induction, facility assessment questionnaire and ongoing drills may be all that is required for workers outside the emergency response team, and notes that industry standards still need facility specific training on top."
+    },
+    {
+      "q": "Do catering and housekeeping contractors belong in a SEMS matrix?",
+      "a": "Partly. Subpart S treats domestic service providers separately in its contractor provisions, but stop work authority training is part of orientation for all new OCS personnel and drills involve all personnel. Give these workers rows for orientation and drills, and record why the contractor verification column does not apply."
+    },
+    {
+      "q": "Who sets well control training frequency on the US Outer Continental Shelf?",
+      "a": "The lessee. Section 250.1506 leaves training frequency to the lessee, who must provide periodic training and verify that employees retain what they learned. The weekly well control drill under section 250.711 is the exception, because that interval is fixed by the rule itself."
+    }
+  ],
+  "sources": [
+    {
+      "title": "30 CFR 250.1915: What training criteria must be in my SEMS program?",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-30/section-250.1915"
+    },
+    {
+      "title": "30 CFR 250.1900: Must I have a SEMS program?",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-30/section-250.1900"
+    },
+    {
+      "title": "30 CFR 250.1920: What are the auditing requirements for my SEMS program?",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-30/section-250.1920"
+    },
+    {
+      "title": "30 CFR 250.1928: What are my recordkeeping and documentation requirements?",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-30/section-250.1928"
+    },
+    {
+      "title": "30 CFR 250.1930: What must be included in my SEMS program for SWA?",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-30/section-250.1930"
+    },
+    {
+      "title": "Oil and Gas and Sulfur Operations in the Outer Continental Shelf: Documents Incorporated by Reference (91 FR 35304, June 10, 2026)",
+      "publisher": "Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/06/10/2026-11648/oil-and-gas-and-sulfur-operations-in-the-outer-continental-shelf-documents-incorporated-by-reference"
+    },
+    {
+      "title": "30 CFR 250.1500: Definitions (Subpart O, Well Control and Production Safety Training)",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-30/section-250.1500"
+    },
+    {
+      "title": "30 CFR 250.1503: What are my general responsibilities for training?",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-30/section-250.1503"
+    },
+    {
+      "title": "30 CFR 250.1506: How often must I train my employees?",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-30/section-250.1506"
+    },
+    {
+      "title": "30 CFR 250.1507: How will BSEE measure training results?",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-30/section-250.1507"
+    },
+    {
+      "title": "30 CFR 250.711: What are the requirements for well-control drills?",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-30/section-250.711"
+    },
+    {
+      "title": "Offshore Petroleum and Greenhouse Gas Storage (Safety) Regulations 2024 (F2024L01588)",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2024L01588/asmade/text"
+    },
+    {
+      "title": "Offshore Petroleum and Greenhouse Gas Storage (Safety) Regulations 2024 (compilation as at March 31, 2026)",
+      "publisher": "Federal Register of Legislation, Australian Government",
+      "url": "https://www.legislation.gov.au/F2024L01588/latest/text"
+    },
+    {
+      "title": "Safety management system guidance note, N-04300-GN1052 (November 25, 2025)",
+      "publisher": "NOPSEMA",
+      "url": "https://www.nopsema.gov.au/sites/default/files/documents/N-04300-GN1052%20-%20Safety%20Management%20Systems%20%28A336401%29%20.pdf"
+    },
+    {
+      "title": "Emergency planning guidance note, N-04300-GN1053 (November 21, 2025)",
+      "publisher": "NOPSEMA",
+      "url": "https://www.nopsema.gov.au/sites/default/files/documents/N-04300-GN1053%20-%20Emergency%20Planning%20%28A313116%29.pdf"
+    },
+    {
+      "title": "Directive 2012/18/EU on the control of major-accident hazards involving dangerous substances (Seveso III)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012L0018"
+    },
+    {
+      "title": "ISM Code",
+      "publisher": "International Maritime Organization",
+      "url": "https://www.imo.org/en/OurWork/HumanElement/Pages/ISMCode.aspx"
+    },
+    {
+      "title": "46 CFR 11.302: Basic Training",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-46/section-11.302"
+    },
+    {
+      "title": "Regulation (EC) No 725/2004 on enhancing ship and port facility security (annexes reproduce the ISPS Code)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32004R0725"
+    }
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "bsee-sems-offshore-training-requirements",
+    "nopsema-safety-case-competence-requirements",
+    "offshore-installation-safety-training-australia",
+    "how-to-build-a-training-matrix-for-an-energy-utility",
+    "how-to-set-up-verification-of-competency"
+  ],
+  "productLinks": [
+    { "label": "Energy and resources", "href": "/industries/energy-resources" },
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "250.1915 training: instructor qualifications documented, initial incl. startup and shutdown, periodic with drills, training or notice after change, contractor verification", "source": "https://www.ecfr.gov/current/title-30/section-250.1915" },
+    { "claim": "250.1902 lists 17 elements with training as element 7; 250.1903 personnel includes contracted workers", "source": "https://www.ecfr.gov/current/title-30/section-250.1900" },
+    { "claim": "SEMS audit by accredited ASP within 2 years of initial implementation then every 3 years; report and CAP within 60 days", "source": "https://www.ecfr.gov/current/title-30/section-250.1920" },
+    { "claim": "SEMS records 6 years, documents onshore; SWA training records onsite 30 days, retained 2 years; JSA and MOC records 2 years", "source": "https://www.ecfr.gov/current/title-30/section-250.1928" },
+    { "claim": "SWA training in orientation for all new OCS personnel", "source": "https://www.ecfr.gov/current/title-30/section-250.1930" },
+    { "claim": "250.1918 drills on schedule defined by SEMS training program, all personnel incl. contractors, critique; 250.1914 domestic services exclusion", "source": "https://www.ecfr.gov/current/title-30/section-250.1918" },
+    { "claim": "91 FR 35304 published 10 June 2026, effective 10 August 2026, incorporating API RP 75 Third Edition into SEMS sections", "source": "https://www.federalregister.gov/documents/2026/06/10/2026-11648/oil-and-gas-and-sulfur-operations-in-the-outer-continental-shelf-documents-incorporated-by-reference" },
+    { "claim": "eCFR lists Subpart O Well Control and Production Safety Training as current, separate from Subpart S", "source": "https://www.ecfr.gov/api/versioner/v1/structure/current/title-30.json" },
+    { "claim": "250.1500 periodic means intervals the lessee specifies; production safety and well control definitions", "source": "https://www.ecfr.gov/current/title-30/section-250.1500" },
+    { "claim": "250.1503 written training plan, deepwater well control, documents for past 5 years on request", "source": "https://www.ecfr.gov/current/title-30/section-250.1503" },
+    { "claim": "250.1506 lessee determines frequency; periodic training and retention verification", "source": "https://www.ecfr.gov/current/title-30/section-250.1506" },
+    { "claim": "250.1507 BSEE training audit with interviews, testing, hands-on, simulator or live well tests at lessee cost; 250.1508 and 1509 identify personnel by position, experience, employer; 250.1510 INC, revised plan, penalties, disqualification", "source": "https://www.ecfr.gov/current/title-30/section-250.1507" },
+    { "claim": "250.711 weekly well control drill for all personnel in well operations; no consecutive repeat with same crew; daily report records; BSEE may require drill during inspection", "source": "https://www.ecfr.gov/current/title-30/section-250.711" },
+    { "claim": "Section 2.9 workforce skills, training and ability; regulations commenced 12 June 2025; section 2.32 revised safety case within 14 days before end of each 5 year period; ADAS qualifications for divers and supervisors", "source": "https://www.legislation.gov.au/F2024L01588/asmade/text" },
+    { "claim": "Section 2.8(2)(b) command and emergency positions; 2.10(2)(c) permit to work competence; 2.15A applies to all safety cases from 12 June 2025; recognized units of competency and contractors (GN1052 dated 25/11/2025)", "source": "https://www.nopsema.gov.au/sites/default/files/documents/N-04300-GN1052%20-%20Safety%20Management%20Systems%20%28A336401%29%20.pdf" },
+    { "claim": "Compilation date 31 March 2026 after F2025L01447; section 2.20 escape and fire drills with adequate knowledge, preparedness and confidence", "source": "https://www.legislation.gov.au/F2024L01588/2026-03-31/2026-03-31/text/original/epub/OEBPS/document_1/document_1.html" },
+    { "claim": "GN1053 dated 21/11/2025: competence assurance, not sufficient to assume competency, simulation for Emergency Commander, skill fade; BOSIET, facility induction, questionnaire and ongoing drills for non-ERT workers; drill schedule per MAE, unannounced exercises, post-drill review, independent observers", "source": "https://www.nopsema.gov.au/sites/default/files/documents/N-04300-GN1053%20-%20Emergency%20Planning%20%28A313116%29.pdf" },
+    { "claim": "Seveso III Article 2(2) exclusions include offshore exploration", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012L0018" },
+    { "claim": "ISM Code mandatory for listed ship types including mobile offshore drilling units of 500 GT and upwards", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006R0336" },
+    { "claim": "STCW basic training competence evidence every 5 years", "source": "https://www.ecfr.gov/current/title-46/section-11.302" },
+    { "claim": "ISPS drills every three months, exercises once each calendar year max 18 months apart", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32004R0725" }
+  ]
+}

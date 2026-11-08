@@ -1,0 +1,367 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-shipping-company",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a shipping company?",
+  "seoTitle": "Training matrix for a shipping company",
+  "description": "Build a shipping company training matrix: STCW revalidation, ISM familiarization, MLC, ISPS drills and port State control evidence by flag, rank and ship.",
+  "shortAnswer": "A shipping company training matrix is built by listing every shipboard rank and shore role (master, officers, ratings, cooks, security officers, the designated person ashore, crewing managers) against the instruments that bind each ship: STCW, the ISM Code, the Maritime Labour Convention, the ISPS Code and the rules of each flag State. Each cell records the clock, such as five year revalidation or three monthly security drills, and the evidence a port State inspector or auditor will examine.",
+  "keyTakeaways": [
+    "Shipping obligations attach to the flag a ship flies, the capacity a seafarer serves in and the ship type, so the matrix needs flag and ship dimensions that a shore based matrix lacks.",
+    "Four IMO and ILO instruments form the baseline everywhere: STCW for competence, ISM section 6 for familiarization and company training, MLC Regulation 1.3 for qualification and personal safety, and the ISPS Code for security roles and drills.",
+    "Several clocks are fixed: STCW basic training competence shown every five years, EU medical certificates valid for at most two years, ISPS drills every three months and exercises no more than 18 months apart.",
+    "Port State control can test competence at the place of duty, so evidence must show a named seafarer could do the job, not only that a certificate exists.",
+    "Watch dates as at November 2026 include the 2025 MLC amendments, expected to enter into force on 23 December 2027, and the ongoing comprehensive review of STCW."
+  ],
+  "sections": [
+    {
+      "id": "why-shipping-needs-own-matrix",
+      "heading": "Why does a shipping company need its own kind of training matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because a seafarer's training obligations depend on which flag the ship flies, what capacity they serve in and what kind of ship it is, and those facts change with every contract. A shore matrix keyed to job titles cannot show that a second officer moving from an Australian flagged tanker to an EU flagged ro-ro vessel picks up new familiarization and certificate recognition duties."
+        },
+        {
+          "type": "p",
+          "text": "The method in [how to build a training matrix](/guides/how-to-build-a-training-matrix) still applies: people down one side, obligations across the top, a rule in each cell. A shipping company adds three dimensions: the flag State whose rules govern the certificate, the ship or ship type a person is assigned to, and the port States the ship calls at. Treat masters, watchkeeping officers and security officers as [safety critical roles](/glossary/safety-critical-role) whose currency gates crew assignment."
+        },
+        {
+          "type": "p",
+          "text": "The company also carries obligations of its own. Under the [ISM Code](/regulations/ism-code-personnel-and-training-requirements), it is the company, not the seafarer, that must man each ship with qualified, certificated and medically fit seafarers and give new and transferred personnel familiarization before they take up safety duties."
+        }
+      ]
+    },
+    {
+      "id": "shipping-roles",
+      "heading": "Which shipping roles should become rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Create a row for every capacity a rule names, then split rows by flag and ship type where the obligations differ. The table lists the roles most international operators need and the regulation pages that drive them."
+        },
+        {
+          "type": "table",
+          "caption": "Shipping roles and the rules that make each a separate row",
+          "head": ["Role", "Why it needs its own row", "Driving rules"],
+          "rows": [
+            ["Master", "Must be qualified for command and fully conversant with the company's safety management system", "ISM Code section 6; STCW; Marine Order 71 (Australia)"],
+            ["Deck and engineer officers", "Certificates of competency revalidated at intervals of not more than five years", "STCW; Directive (EU) 2022/993 Article 13; 46 CFR 11.302"],
+            ["Ratings", "Basic training competence shown every five years for rating endorsements", "STCW A-VI/1; 46 CFR 12.602; Marine Order 73"],
+            ["Ship's cook and catering staff", "Separate training and qualification standard for ships' cooks", "MLC Standard A3.2"],
+            ["Seafarers designated for medical first aid or medical care", "Medical training to STCW standard, and a doctor on larger ships on longer voyages", "MLC Standard A4.1"],
+            ["Ship security officer", "Defined knowledge and training, and in the United States an STCW endorsement", "ISPS Code Part A 13; 33 CFR 104.215"],
+            ["Company security officer and shore security staff", "Knowledge and training duties sit ashore, not on the ship", "ISPS Code Part A 13"],
+            ["Designated person ashore and shore managers", "Run the safety management system and the internal audit cycle", "ISM Code sections 4 and 12"],
+            ["Crewing and ship managers", "Delegated ISM tasks must be verified by the company", "ISM Code 12.2 (MSC.353(92))"],
+            ["Domestic vessel masters and crew (Australia)", "National certificates of competency and owner provided induction", "Marine Orders 504 and 505"],
+            ["Shore staff preparing dangerous goods shipments (United States)", "Hazmat function training applies to offerors, including office staff completing shipping papers", "49 CFR 172.704"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shipping-obligations-by-market",
+      "heading": "Which training rules apply to a shipping company in each market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Columns come from the international instruments that bind every covered ship, then from each flag State's implementing rules, then from the port States the ship calls at. Each summary below draws only on the linked regulation page."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Every flag, competence.** The STCW Convention requires basic training in four areas set out in section A-VI/1 of the STCW Code: personal survival techniques, fire prevention and firefighting, elementary first aid, and personal safety and social responsibilities. Since the Manila amendments, in force on 1 January 2012, seafarers must show every five years that they have maintained that competence ([STCW seafarer training](/regulations/stcw-seafarer-training-requirements)).",
+            "**Every flag, safety management.** ISM Code section 6, mandatory through SOLAS chapter IX, requires familiarization for new and transferred personnel before safety duties begin, training identified by the safety management system, and information in a working language the crew understands. The Document of Compliance and Safety Management Certificate each run for up to five years, with annual and intermediate verification ([ISM Code](/regulations/ism-code-personnel-and-training-requirements)).",
+            "**Ratifying flags, labor standards.** Regulation 1.3 of the Maritime Labour Convention, 2006 says seafarers shall not work on a ship unless trained or certified as competent and trained for personal safety on board, and training under STCW counts for both. Australia, Japan and Portugal have ratified; the United States and the United Arab Emirates have not ([Maritime Labour Convention](/regulations/maritime-labour-convention-training-and-qualifications)).",
+            "**Every flag, security.** The ISPS Code requires company, ship and port facility security officers to have knowledge and training, and personnel with security duties to be able to perform them. Part B sets drills at least every three months and exercises at least once each calendar year with no more than 18 months between them; Regulation (EC) No 725/2004 and 33 CFR 104.230 make those intervals binding in the EU and the United States ([ISPS Code](/regulations/isps-code-ship-and-port-security-training)).",
+            "**EU flags.** Directive (EU) 2022/993 codifies STCW for ships flying a Member State flag. Article 15 makes the company responsible for crew certificates and ship specific familiarization, Article 12 limits medical certificates to two years (one year under 18), and Article 13 sets revalidation at intervals not exceeding five years ([EU seafarer training directive](/regulations/eu-port-state-control-and-seafarer-training-directive)).",
+            "**United States flag.** The US Coast Guard applies STCW basic training through 46 CFR 11.302 and 12.602, and vessel security officers need an STCW endorsement requiring age 18, an accepted course and qualifying sea service, and must maintain a TWIC.",
+            "**Australian domestic commercial vessels.** Marine Order 505 (2022) sets 14 kinds of certificate of competency, each needing a minimum age of 16, a current HLTAID011 first aid certificate and medical fitness. Marine Order 504 (2024), in force since 1 June 2025, requires induction, familiarization and emergency training before duties begin, risk based drills, and records kept for 5 years ([AMSA domestic commercial vessels](/regulations/amsa-domestic-commercial-vessel-crew-requirements)).",
+            "**US shore operations handling hazardous materials.** Under 49 CFR 172.704, hazmat employees, including office staff who classify goods or complete shipping papers, are trained within 90 days and retrained at least every three years, with mode specific additions in Parts 174 to 177 ([DOT hazmat training](/regulations/dot-hazmat-employee-training))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shipping-matrix-extract",
+      "heading": "What does a filled shipping matrix look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It looks like a certificate and drill register keyed to individual seafarers and individual ships. The extract below is illustrative only, for a hypothetical operator with an EU flagged ro-ro ferry, a US flagged cargo ship, an Australian domestic workboat fleet and a US shore office. Frequencies marked as company policy are choices, not requirements of the cited rule."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical shipping group, role by obligation",
+          "head": ["Role", "Market", "Obligation", "Frequency", "Evidence held"],
+          "rows": [
+            ["Chief officer, ro-ro ferry", "European Union", "Directive (EU) 2022/993 Article 13 revalidation", "At intervals not exceeding five years", "Revalidated certificate and endorsement"],
+            ["Chief officer, ro-ro ferry", "European Union", "Article 15 ship specific familiarization, including ro-ro familiarization under B-I/14", "Before assignment to the ship", "Signed familiarization record for that ship"],
+            ["Any seafarer, EU flagged ship", "European Union", "Article 12 medical certificate", "Valid at most two years, one year under 18", "Current medical certificate on file"],
+            ["Able seafarer, cargo ship", "United States", "46 CFR 12.602 basic training", "Evidence of maintained competence every five years", "Sea service record or refresher course certificate"],
+            ["Vessel security officer", "United States", "33 CFR 104.215 endorsement and TWIC", "Before appointment; TWIC kept current", "STCW endorsement, course record, TWIC copy"],
+            ["All crew, cargo ship", "United States", "33 CFR 104.230 security drills", "At least every 3 months; within one week if over 25% of crew are new to drills", "Drill record with date, description, participants and lessons learned"],
+            ["Newly joined crew, any ship", "Every flag", "ISM Code section 6 familiarization", "Before taking up safety duties", "Familiarization checklist signed by the master or delegate"],
+            ["Ship's cook", "Ratifying flag", "MLC Standard A3.2", "Before serving as cook", "Cook qualification certificate"],
+            ["Deckhand, domestic workboat", "Australia", "Marine Order 504 induction and emergency training", "Before duties; drills on a risk based schedule set by the owner", "Induction and drill records kept 5 years"],
+            ["Master, domestic workboat", "Australia", "Marine Order 505 certificate reissue", "HLTAID011 kept current; sea service for reissue", "Certificate, first aid certificate, sea service evidence"],
+            ["Designated person ashore", "Every flag", "ISM internal audit competence", "Audits at intervals not exceeding 12 months; refresher as company policy every 3 years", "Audit reports and auditor training record"],
+            ["Export documentation clerk", "United States", "49 CFR 172.704 hazmat training", "Within 90 days of starting; at least every three years", "Training record covering the preceding three years"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rule-clocks-and-company-clocks",
+      "heading": "Which shipping intervals are fixed by rule and which does the company set?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Certificate, medical and security drill intervals are mostly fixed by rule, while the content and timing of training identified under the safety management system are left to the company. Record the source of each interval so a flag State auditor can tell a legal limit from an internal choice."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Fixed by rule.** Five yearly evidence of STCW basic training competence; EU revalidation at intervals not exceeding five years; EU medical certificates valid for at most two years; Australian seafarer certificates under Marine Order 70 expiring five years after issue; ISPS drills every three months and exercises no more than 18 months apart; ISM internal audits at intervals not exceeding twelve months; three yearly US hazmat retraining.",
+            "**Event triggered.** ISM familiarization before safety duties for new and transferred personnel; ISPS drills within one week when more than 25% of the crew changes; US vessel drills within one week of reactivation. Model these as triggers on crew change and assignment, not as calendar dates.",
+            "**Sea service can replace a course.** In the United States, one year of sea service in the last five years is accepted for listed basic training elements. In Australia, Marine Order 73 accepts 12 months of sea service in five years, or three months in the last six, with maintained competence. The matrix must record which route each seafarer used.",
+            "**Left to the company.** ISM section 6 requires the company to identify and provide the training its safety management system needs, without an interval, and Marine Order 504 drills follow a risk based schedule. Document the rationale as described in [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shipping-records",
+      "heading": "What evidence will flag States, auditors and port State control ask for?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Expect to show that a named seafarer on a named ship was competent and familiarized for their duties, not just that a certificate was issued. Maritime inspections combine document review with interviews and, in port State control, a demonstration at the place of duty."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**ISM audits.** IMO Resolution A.1118(30) directs auditors to gather objective evidence through interviews and document examination, with observation where necessary. Familiarization checklists, training identified by the safety management system and verification of delegated crewing tasks are typical samples.",
+            "**Port State control.** Under Articles 23 to 25 of Directive (EU) 2022/993, officers check certificates, may assess a seafarer's ability to demonstrate competence at the place of duty where there are clear grounds, and may detain a ship on six listed grounds. MLC Article V(7) means ships of non-ratifying States receive no more favorable treatment in ratifying ports.",
+            "**Security records.** US vessel and facility records are kept for at least 2 years; training records include date, duration, description and attendees, and drill records include lessons learned (33 CFR 104.235 and 105.225).",
+            "**Australian domestic vessels.** Marine Order 504 requires training and drill records kept for 5 years and a crew list showing certificates.",
+            "**Hazmat.** 49 CFR 172.704(d) requires a record of the preceding three years with name, completion date, materials, trainer name and address, and certification of training and testing.",
+            "A broader checklist is in [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shipping-dated-changes",
+      "heading": "Which shipping training changes should be dated in the matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Add these as dated rows so affected cells change on the right day. Each date comes from the linked regulation pages, as at November 2026."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**23 June 2027:** the disagreement period for the 2025 MLC amendments ends. The amendments add shipboard violence and harassment provisions to Standard A4.3 and guidance on medical training guides.",
+            "**23 December 2027:** expected entry into force of the 2025 MLC amendments for ratifying States, which affects induction and welfare content for crews on Australian, Japanese and Portuguese flagged ships.",
+            "**2029 to 2030:** target completion of the IMO comprehensive review of STCW, which identified more than 400 gaps in February 2025. HTW 12, held 23 to 27 February 2026, began phase 2 with chapters II and III."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Already in force",
+          "text": "Marine Order 504 (2024) replaced the 2018 order on 1 June 2025, introducing new safety management system requirements for all Australian domestic commercial vessels. Marine Order 70 was last amended by the Marine Orders Miscellaneous Amendment Order 2026 (No. 2) from 1 April 2026."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each maritime obligation with the flag, ship type and capacity it belongs to, and links it to the learning outcomes and assessment points that show a seafarer is competent and familiarized. When an instrument is amended, such as the 2025 MLC changes or a revised STCW chapter, the affected rows and materials are flagged for review. See [operational procedures](/programs/operational-procedures)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the Maritime Labour Convention matter for a US flagged ship?",
+      "a": "Yes, in practice. The United States has not ratified the MLC, but Article V(7) says ships of non-ratifying States receive no more favorable treatment when inspected in the ports of ratifying States. A US flagged ship calling at Australian, Japanese or Portuguese ports should be able to evidence Regulation 1.3 qualification and personal safety training."
+    },
+    {
+      "q": "Does STCW training also satisfy MLC Regulation 1.3?",
+      "a": "Largely, yes. The MLC states that training and certification under IMO instruments such as STCW counts as meeting the requirements to be competent for duties and trained for personal safety. Ships' cooks are an exception worth a separate column, because Standard A3.2 sets its own training and qualification standard for them."
+    },
+    {
+      "q": "Should ISPS drills be tracked per person or per ship?",
+      "a": "Both. The three monthly drill and annual exercise clocks belong to the ship, but the one week trigger when more than 25% of the crew changes depends on who has joined. Track drills against the ship and record each participant so crew turnover can fire the trigger automatically."
+    },
+    {
+      "q": "Do domestic vessels need the same matrix as international ships?",
+      "a": "Not in Australia. Domestic commercial vessels fall under the national law, with certificates of competency under Marine Order 505 and safety management under Marine Order 504. Class 1 to 3 vessels may instead follow ISM Code Part A with specified additions, so record which route each vessel uses."
+    }
+  ],
+  "sources": [
+    {
+      "title": "International Convention on Standards of Training, Certification and Watchkeeping for Seafarers (STCW), 1978",
+      "publisher": "International Maritime Organization",
+      "url": "https://www.imo.org/en/OurWork/HumanElement/Pages/STCW-Conv-LINK.aspx"
+    },
+    {
+      "title": "Comprehensive review of the STCW Convention and Code: FAQ",
+      "publisher": "International Maritime Organization",
+      "url": "https://www.imo.org/en/mediacentre/hottopics/pages/comprehensive-review-of-the-stcw-convention-and-code-faq.aspx"
+    },
+    {
+      "title": "Sub-Committee on Human Element, Training and Watchkeeping, 12th session (HTW 12)",
+      "publisher": "International Maritime Organization",
+      "url": "https://www.imo.org/en/MediaCentre/MeetingSummaries/Pages/HTW-12th-session.aspx"
+    },
+    {
+      "title": "46 CFR 11.302: Basic Training",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-46/section-11.302"
+    },
+    {
+      "title": "46 CFR 12.602: Basic Training",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-46/section-12.602"
+    },
+    {
+      "title": "Marine Order 70 (Seafarer certification) 2014",
+      "publisher": "Federal Register of Legislation, Australian Government",
+      "url": "https://www.legislation.gov.au/F2014L00177/latest"
+    },
+    {
+      "title": "Marine Order 73 (Ratings) 2014",
+      "publisher": "Federal Register of Legislation, Australian Government",
+      "url": "https://www.legislation.gov.au/F2014L00181/latest"
+    },
+    {
+      "title": "ISM Code",
+      "publisher": "International Maritime Organization",
+      "url": "https://www.imo.org/en/OurWork/HumanElement/Pages/ISMCode.aspx"
+    },
+    {
+      "title": "Regulation (EC) No 336/2006 on the implementation of the International Safety Management Code within the Community (Annex I: ISM Code text)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006R0336"
+    },
+    {
+      "title": "Resolution MSC.353(92): Amendments to the ISM Code",
+      "publisher": "International Maritime Organization",
+      "url": "https://wwwcdn.imo.org/localresources/en/OurWork/HumanElement/Documents/353(92).pdf"
+    },
+    {
+      "title": "Resolution MSC.273(85): Adoption of amendments to the ISM Code",
+      "publisher": "International Maritime Organization",
+      "url": "https://wwwcdn.imo.org/localresources/en/OurWork/HumanElement/Documents/273(85).pdf"
+    },
+    {
+      "title": "Resolution A.1118(30): Revised guidelines on the implementation of the ISM Code by Administrations",
+      "publisher": "International Maritime Organization",
+      "url": "https://wwwcdn.imo.org/localresources/es/OurWork/HumanElement/Documents/A%2030-Res.1118%20-%20English.pdf"
+    },
+    {
+      "title": "Maritime Labour Convention, 2006, as amended (consolidated text including 2022 amendments)",
+      "publisher": "International Labour Organization",
+      "url": "https://www.ilo.org/sites/default/files/2024-10/NORMES_MLC%20Amendments-EN_2022_Web_1.pdf"
+    },
+    {
+      "title": "Amendments to the Code of the Maritime Labour Convention, 2006, as amended (ILC 113, 2025)",
+      "publisher": "International Labour Organization",
+      "url": "https://www.ilo.org/sites/default/files/2025-06/ILC113-Instruments-%5BRELMEETINGS-250605-001%5D-Web-EN.pdf"
+    },
+    {
+      "title": "Ratifications of MLC, 2006: NORMLEX (archived September 24, 2026)",
+      "publisher": "International Labour Organization, via Internet Archive",
+      "url": "https://web.archive.org/web/20260924142911/https://normlex.ilo.org/dyn/nrmlx_en/f?p=NORMLEXPUB:11300:0::NO::P11300_INSTRUMENT_ID:312331"
+    },
+    {
+      "title": "Regulation (EC) No 725/2004 on enhancing ship and port facility security (annexes reproduce the ISPS Code)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32004R0725"
+    },
+    {
+      "title": "33 CFR 104.215: Vessel Security Officer (VSO)",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-33/section-104.215"
+    },
+    {
+      "title": "33 CFR 104.230: Drill and exercise requirements",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-33/section-104.230"
+    },
+    {
+      "title": "33 CFR 104.235: Vessel recordkeeping requirements",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-33/section-104.235"
+    },
+    {
+      "title": "Directive (EU) 2022/993 of the European Parliament and of the Council of 8 June 2022 on the minimum level of training of seafarers (codification)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022L0993"
+    },
+    {
+      "title": "Marine Order 505 (Certificates of competency, national law) 2022",
+      "publisher": "Federal Register of Legislation, Australian Government",
+      "url": "https://www.legislation.gov.au/F2022L00423/latest/text"
+    },
+    {
+      "title": "Marine Order 504 (Certificates of operation, national law) 2024",
+      "publisher": "Federal Register of Legislation, Australian Government",
+      "url": "https://www.legislation.gov.au/F2024L01458/latest/text"
+    },
+    {
+      "title": "Safety management systems (domestic commercial vessels)",
+      "publisher": "Australian Maritime Safety Authority",
+      "url": "https://www.amsa.gov.au/vessels-operators/domestic-commercial-vessels/safety-management-systems"
+    },
+    {
+      "title": "49 CFR 172.704: Training requirements",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-49/section-172.704"
+    }
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "stcw-seafarer-training-requirements",
+    "ism-code-personnel-and-training-requirements",
+    "maritime-labour-convention-training-and-qualifications",
+    "how-to-build-a-training-matrix-for-a-transport-operator",
+    "how-to-set-mandatory-training-refresh-cycles"
+  ],
+  "productLinks": [
+    { "label": "Operational procedures", "href": "/programs/operational-procedures" },
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "STCW basic training covers four areas in section A-VI/1; Manila amendments in force 1 January 2012; five yearly evidence of maintained competence", "source": "https://www.imo.org/en/OurWork/HumanElement/Pages/STCW-Conv-LINK.aspx" },
+    { "claim": "Basic training Tables A-VI/1-1 to A-VI/1-4; every 5 years evidence of maintaining competence; 1 year sea service in last 5 accepted for listed elements; refresher if no sea service", "source": "https://www.ecfr.gov/current/title-46/section-11.302" },
+    { "claim": "Five yearly basic training evidence requirement for STCW rating endorsements", "source": "https://www.ecfr.gov/current/title-46/section-12.602" },
+    { "claim": "Seafarer certificates expire 5 years after issue; compilation amended by Marine Orders Miscellaneous Amendment Order 2026 (No. 2) from 1 April 2026", "source": "https://www.legislation.gov.au/F2014L00177/latest" },
+    { "claim": "Revalidation of certificate of safety training: 12 months sea service in 5 years or 3 months in 6 with maintained competence, otherwise approved courses", "source": "https://www.legislation.gov.au/F2014L00181/latest" },
+    { "claim": "STCW comprehensive review: more than 400 gaps identified at HTW 11 February 2025; target completion 2029 to 2030", "source": "https://www.imo.org/en/mediacentre/hottopics/pages/comprehensive-review-of-the-stcw-convention-and-code-faq.aspx" },
+    { "claim": "HTW 12 held 23 to 27 February 2026 and initiated phase 2 with chapters II and III", "source": "https://www.imo.org/en/MediaCentre/MeetingSummaries/Pages/HTW-12th-session.aspx" },
+    { "claim": "ISM Code section 6 paragraphs 6.1 to 6.7; DOC up to five years with annual verification; SMC up to five years with intermediate verification", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006R0336" },
+    { "claim": "MSC.353(92) in force 1 January 2015 inserted 12.2 on verifying delegated ISM tasks", "source": "https://wwwcdn.imo.org/localresources/en/OurWork/HumanElement/Documents/353(92).pdf" },
+    { "claim": "ISM 12.1 internal audits at intervals not exceeding twelve months", "source": "https://wwwcdn.imo.org/localresources/en/OurWork/HumanElement/Documents/273(85).pdf" },
+    { "claim": "A.1118(30): objective evidence through interviews and document examination, observation where necessary", "source": "https://wwwcdn.imo.org/localresources/es/OurWork/HumanElement/Documents/A%2030-Res.1118%20-%20English.pdf" },
+    { "claim": "MLC Regulation 1.3; STCW training counts; Standard A3.2 cooks; Standard A4.1 medical; Article V(7) no more favourable treatment", "source": "https://www.ilo.org/sites/default/files/2024-10/NORMES_MLC%20Amendments-EN_2022_Web_1.pdf" },
+    { "claim": "2025 MLC amendments: Standard A4.3 shipboard violence and harassment; Guideline B4.1.1 medical training guides", "source": "https://www.ilo.org/sites/default/files/2025-06/ILC113-Instruments-%5BRELMEETINGS-250605-001%5D-Web-EN.pdf" },
+    { "claim": "Australia, Japan and Portugal ratified MLC; United States and UAE absent; 2025 amendments disagreement period ends 23 June 2027, expected entry into force 23 December 2027", "source": "https://web.archive.org/web/20260924142911/https://normlex.ilo.org/dyn/nrmlx_en/f?p=NORMLEXPUB:11300:0::NO::P11300_INSTRUMENT_ID:312331" },
+    { "claim": "ISPS Part B 13.6 drills every three months and within one week if over 25% crew change; 13.7 exercises once each calendar year max 18 months apart; Regulation 725/2004 Article 3(5) makes them mandatory", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32004R0725" },
+    { "claim": "VSO STCW endorsement requires age 18, Coast Guard accepted course, sea service; VSO must maintain TWIC", "source": "https://www.ecfr.gov/current/title-33/section-104.215" },
+    { "claim": "Vessel drills every 3 months, within one week of reactivation or if over 25% new to drills; exercises annually max 18 months", "source": "https://www.ecfr.gov/current/title-33/section-104.230" },
+    { "claim": "Vessel records kept at least 2 years; training records include date, duration, description and attendees; drill records include lessons learned", "source": "https://www.ecfr.gov/current/title-33/section-104.235" },
+    { "claim": "Directive (EU) 2022/993 Article 12 medical max 2 years (1 year under 18); Article 13 revalidation not exceeding five years; Article 15 company responsibilities and ro-ro familiarization per B-I/14; Articles 23 to 25 port State control and six detention grounds", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022L0993" },
+    { "claim": "MO 505: 14 kinds of certificate; age 16, HLTAID011, medical fitness; MO 504 commenced 1 June 2025 with induction, familiarization, emergency training before duties, risk based drills, records 5 years, crew list", "source": "https://www.legislation.gov.au/F2024L01458/asmade/2024-11-15/text/original/epub/OEBPS/document_1/document_1.html" },
+    { "claim": "Class 1 to 3 domestic commercial vessels may comply with MO 504 Schedule 1 or ISM Code Part A plus specified paragraphs; new SMS requirements 1 June 2025", "source": "https://www.amsa.gov.au/vessels-operators/domestic-commercial-vessels/safety-management-systems" },
+    { "claim": "172.704: training within 90 days, recurrent at least every three years, record of preceding three years with listed fields", "source": "https://www.ecfr.gov/current/title-49/section-172.704" }
+  ]
+}
