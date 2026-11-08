@@ -1,0 +1,208 @@
+{
+  "slug": "eu-market-abuse-regulation-training",
+  "kind": "regulation",
+  "title": "What market abuse surveillance training does EU MAR require?",
+  "seoTitle": "EU MAR surveillance staff training",
+  "description": "What MAR Article 16 and Delegated Regulation (EU) 2016/957 require of training for staff who monitor, detect and report suspicious orders and transactions.",
+  "shortAnswer": "Under the EU Market Abuse Regulation (Regulation (EU) No 596/2014) and Commission Delegated Regulation (EU) 2016/957, firms that professionally arrange or execute transactions, and operators of trading venues, must give effective and comprehensive training, on a regular basis, to staff involved in monitoring, detecting and identifying possible insider dealing and market manipulation, including staff who process orders. The training duty sits in Article 4 of the Delegated Regulation and has applied since July 3, 2016.",
+  "keyTakeaways": [
+    "Article 4(1) of Delegated Regulation (EU) 2016/957 requires effective and comprehensive training, on a regular basis, for surveillance staff and for staff involved in processing orders and transactions.",
+    "Trading venue operators must also train staff involved in preventing market abuse (Article 4(2)), reflecting their wider duty under MAR Article 16(1).",
+    "Training supports the core MAR Article 16 duty to report suspicious orders and transactions (STORs) without delay once reasonable suspicion is formed.",
+    "Surveillance arrangements must be audited and reviewed at least annually, documented, and kept for five years, together with the analysis behind each decision to submit or not submit a STOR.",
+    "Infringing Article 16 can lead to administrative fines on legal persons of at least EUR 2.5 million or 2% of annual turnover under MAR Article 30."
+  ],
+  "jurisdiction": "European Union",
+  "regulator": "European Securities and Markets Authority (ESMA) and the national competent authorities designated under Article 22 of Regulation (EU) No 596/2014",
+  "appliesTo": [
+    "Persons professionally arranging or executing transactions in financial instruments, such as investment firms and credit institutions that execute or transmit client orders",
+    "Market operators and investment firms operating a trading venue (regulated markets, MTFs and OTFs)",
+    "Surveillance, compliance and market abuse analyst staff",
+    "Front office and operations staff involved in processing orders and transactions",
+    "Group entities and third party providers performing delegated monitoring or alert generation"
+  ],
+  "sections": [
+    {
+      "id": "legal-basis",
+      "heading": "Where does the MAR training requirement come from?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The training requirement comes from Article 4 of Commission Delegated Regulation (EU) 2016/957, the regulatory technical standards made under Article 16(5) of the Market Abuse Regulation (MAR). Article 16(5) required ESMA to draft standards on appropriate arrangements, systems and procedures for detecting and reporting suspicious orders and transactions, and the Commission adopted them as a directly applicable regulation ([Delegated Regulation (EU) 2016/957 on EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0957))."
+        },
+        {
+          "type": "p",
+          "text": "Training is sometimes attributed to Article 3 of the Delegated Regulation. Article 3 covers prevention, monitoring and detection systems, including human analysis. The standalone training obligation is Article 4, headed \"Training\". Both MAR and the Delegated Regulation have applied since July 3, 2016, and as at November 2026 EUR-Lex lists no amendments to the Delegated Regulation other than language corrections."
+        },
+        {
+          "type": "callout",
+          "title": "Article 4(1), Delegated Regulation (EU) 2016/957",
+          "text": "\"Persons professionally arranging or executing transactions and market operators and investment firms operating a trading venue shall organise and provide effective and comprehensive training to the staff involved in the monitoring, detection and identification of orders and transactions that could constitute insider dealing, market manipulation or attempted insider dealing or market manipulation, including the staff involved in the processing of orders and transactions. Such training shall take place on a regular basis and shall be appropriate and proportionate in relation to the scale, size and nature of the business.\""
+        }
+      ]
+    },
+    {
+      "id": "who-must-be-trained",
+      "heading": "Which staff must receive MAR surveillance training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The obligation covers staff involved in monitoring, detecting and identifying possible market abuse, and expressly extends to staff involved in processing orders and transactions. Trading venue operators must add staff involved in preventing market abuse, under Article 4(2)."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Surveillance analysts and compliance officers** who review alerts, investigate and decide whether to submit a STOR.",
+            "**Order processing staff,** such as sales traders, execution desks and operations teams, who may be first to notice unusual orders, cancellations or modifications.",
+            "**Venue market supervision staff,** who for trading venues must also be trained in prevention, matching the wider duty in MAR Article 16(1) to prevent as well as detect.",
+            "**Everyone who touches a STOR decision.** Article 5(2) makes all persons involved in processing the same order or transaction responsible for assessing whether to submit a STOR, so training cannot stop at the surveillance team."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Delegation does not remove the duty. Under Article 3(6) and 3(7), a firm may delegate monitoring to a group entity or delegate data analysis and alert generation to a third party provider, but it remains fully responsible and must retain the expertise to evaluate and supervise the delegated service. That expertise is itself a training outcome. A [role based training](/glossary/role-based-training) design helps separate these audiences."
+        }
+      ]
+    },
+    {
+      "id": "what-training-must-cover",
+      "heading": "What should MAR surveillance training cover?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Delegated Regulation does not list training topics, so content follows from the obligations staff must apply. The detection and reporting duties in Articles 3, 5 and 6 define what a trained person must be able to do."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Elements of the offenses:** Article 5(1) requires assessment arrangements to take due account of the elements of insider dealing and market manipulation in MAR Articles 8 and 12 and the non exhaustive indicators of manipulation in Annex I to MAR, as further specified in Delegated Regulation (EU) 2016/522.",
+            "**Human analysis of alerts:** Article 3(4) requires an appropriate level of human analysis in monitoring, detection and identification, so analysts must be able to interpret alerts, not just clear them.",
+            "**Fact based reporting:** Article 5(3) requires STOR content to be based on facts and analysis, taking into account all information available.",
+            "**Timing:** Article 6(1) requires submission without delay once reasonable suspicion is formed, and Article 6(2) requires an explanation in the STOR where the suspicion relates to past orders or transactions.",
+            "**No tipping off:** Article 5(4) and 5(5) require procedures so that the person concerned, and anyone not required to know, is not informed that a STOR has been or will be submitted, including through information requests while completing it."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Because the Delegated Regulation requires training to be proportionate to the scale, size and nature of the business, a firm trading algorithmically across venues needs deeper content on cross venue and order book manipulation than a firm that only receives and transmits retail orders."
+        }
+      ]
+    },
+    {
+      "id": "obligation-to-evidence",
+      "heading": "How do MAR obligations map to roles, frequency and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Competent authorities can ask firms to demonstrate that their arrangements are appropriate and proportionate (Article 3(2)), so training evidence should connect each role to the detection and reporting steps it performs. The table below is an original, illustrative mapping. The Delegated Regulation says only \"on a regular basis\" for training, so frequencies other than those quoted from the text are firm defined."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping of MAR surveillance obligations to roles, frequency and evidence",
+          "head": ["Obligation", "Applies to", "Frequency", "Evidence an auditor would expect"],
+          "rows": [
+            ["Effective and comprehensive training (Article 4(1))", "Surveillance analysts, compliance, order processing staff", "Regular, firm defined, plus on joining", "Training plan by role, completion register, content version and assessment results"],
+            ["Prevention training for venues (Article 4(2))", "Market operator and venue supervision staff", "Regular, firm defined", "Curriculum covering prevention controls such as order entry limits and venue rules"],
+            ["Human analysis of alerts (Article 3(4) and 3(5))", "Alert reviewers and investigators", "Ongoing, with refresh after model or scenario changes", "Calibration exercises, quality assurance sampling of alert closures"],
+            ["STOR assessment and timely submission (Articles 5 and 6)", "Everyone processing the order or transaction, and STOR decision makers", "On each case", "Case files showing the analysis and the reasons for submitting or not submitting, kept for five years (Article 3(8))"],
+            ["Confidentiality and no tipping off (Article 5(4) and 5(5))", "Surveillance, front office and client service staff", "On joining and periodically", "Procedure attestation, scenario based knowledge check"],
+            ["Annual audit and internal review of arrangements (Article 2(5)(b))", "Compliance and internal audit", "At least annually", "Audit report, review findings, training changes made in response"],
+            ["Oversight of delegated monitoring (Article 3(6) and 3(7))", "Staff supervising group or third party providers", "On delegation and ongoing", "Evidence of retained expertise, provider oversight reviews"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Article 2(5)(c) requires arrangements, systems and procedures, including changes, to be documented in writing and kept for five years. Treating the training program as part of those documented arrangements gives a single evidence trail. See [preparing training records for an audit](/guides/how-to-prepare-training-records-for-an-audit) and [evidencing training effectiveness to a regulator](/guides/how-to-evidence-training-effectiveness-to-a-regulator)."
+        }
+      ]
+    },
+    {
+      "id": "penalties",
+      "heading": "What are the consequences of weak surveillance training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Inadequate training is usually found as part of a wider failure to maintain effective arrangements to detect and report suspicious orders, which infringes MAR Article 16. MAR Article 30 requires Member States to give competent authorities power to impose, for legal persons, maximum administrative fines of at least EUR 2,500,000 or 2% of total annual turnover for infringements of Article 16 ([Regulation (EU) No 596/2014 on EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014R0596)). Regulation (EU) 2024/2809, part of the Listing Act package, restructured parts of Article 30 but kept that threshold for Article 16 ([Regulation (EU) 2024/2809](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R2809))."
+        },
+        {
+          "type": "p",
+          "text": "These are minimum maximums. Member States may set higher sanctions in national law. Firms that are also banks will see surveillance training reviewed alongside the governance expectations in the [EBA internal governance guidelines](/regulations/eba-internal-governance-staff-training), and venue operators alongside their [DORA ICT awareness](/regulations/dora-ict-security-awareness-training) duties."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry structures the MAR offense elements, the Annex I manipulation indicators and the STOR workflow as a framework linked to surveillance and order processing roles. Assessment points test whether staff can apply each indicator to realistic order data, and the record shows which version of the scenarios each analyst was assessed against when a supervisor asks."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does MAR set an annual training frequency?",
+      "a": "No. Article 4 of Delegated Regulation (EU) 2016/957 requires training on a regular basis, proportionate to the scale, size and nature of the business. The annual requirement in the Delegated Regulation applies to the audit and internal review of surveillance arrangements under Article 2(5)(b), not to training."
+    },
+    {
+      "q": "Do front office traders need MAR surveillance training?",
+      "a": "Yes, where they are involved in processing orders and transactions. Article 4(1) expressly includes staff involved in processing orders and transactions, and Article 5(2) makes all persons involved in processing the same order responsible for assessing whether to submit a STOR."
+    },
+    {
+      "q": "Can a firm outsource surveillance and the related training?",
+      "a": "A firm may delegate monitoring to a group entity, or data analysis and alert generation to a third party provider, under Article 3(6) and 3(7). It remains fully responsible for its MAR obligations and must keep the expertise and resources to evaluate and supervise the provider, so training of its own oversight staff remains necessary."
+    },
+    {
+      "q": "How long must surveillance records be kept?",
+      "a": "Five years. Article 3(8) requires information documenting the analysis of examined orders and transactions, and the reasons for submitting or not submitting a STOR, to be kept for five years. Article 2(5)(c) sets the same period for documentation of the surveillance arrangements themselves."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Commission Delegated Regulation (EU) 2016/957 on arrangements, systems and procedures for detecting and reporting suspicious orders or transactions",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0957"
+    },
+    {
+      "title": "Delegated Regulation (EU) 2016/957: document information and amendment history",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32016R0957"
+    },
+    {
+      "title": "Regulation (EU) No 596/2014 on market abuse (Market Abuse Regulation)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014R0596"
+    },
+    {
+      "title": "Regulation (EU) 2024/2809 amending Regulations (EU) 2017/1129, (EU) No 596/2014 and (EU) No 600/2014",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R2809"
+    }
+  ],
+  "related": [
+    "eba-internal-governance-staff-training",
+    "dora-ict-security-awareness-training",
+    "eu-amlr-training-requirements",
+    "finra-continuing-education-requirements",
+    "role-based-training",
+    "how-to-evidence-training-effectiveness-to-a-regulator"
+  ],
+  "productLinks": [
+    { "label": "Financial services", "href": "/industries/financial-services" },
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 13,
+  "factCheck": [
+    { "claim": "Delegated Regulation 2016/957 Article 4(1) requires effective and comprehensive training on a regular basis for staff involved in monitoring, detection and identification, including order processing staff; Article 4(2) adds prevention staff for trading venues", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0957" },
+    { "claim": "Article 2(5)(b) annual audit and internal review; Article 2(5)(c) documentation kept five years; Article 3(4) and 3(5) human analysis; Article 3(6) and 3(7) delegation with full responsibility retained; Article 3(8) five year retention of analysis and STOR reasons", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0957" },
+    { "claim": "Article 5(1) to 5(5) on STOR assessment, shared responsibility, fact based content and no tipping off; Article 6(1) and 6(2) submission without delay and explanation for past transactions; Article 9 application from 3 July 2016", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0957" },
+    { "claim": "EUR-Lex lists only language corrigenda (PL, IT, SL) as modifications and no end of validity for 2016/957; legal basis MAR Article 16(5)", "source": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32016R0957" },
+    { "claim": "MAR Article 16(1) and 16(2) duties to prevent, detect and report without delay; Article 16(5) mandate for ESMA RTS; MAR applies from 3 July 2016", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014R0596" },
+    { "claim": "MAR Article 30 maximum administrative fines for legal persons of at least EUR 2,500,000 or 2% of annual turnover for Article 16 infringements", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014R0596" },
+    { "claim": "Regulation (EU) 2024/2809 replaces Article 30 provisions while keeping EUR 2,500,000 or 2% for infringements of Article 16 by legal persons", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R2809" }
+  ]
+}
