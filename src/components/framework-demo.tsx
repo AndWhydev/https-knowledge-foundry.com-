@@ -121,6 +121,19 @@ export function FrameworkDemo() {
   const [conceptsShown, setConceptsShown] = useState(0);
   const [edgesShown, setEdgesShown] = useState(0);
   const [verifiedShown, setVerifiedShown] = useState(0);
+  // Clicking a node inspects it and holds the loop on this scenario until released.
+  const [selected, setSelected] = useState<number | null>(null);
+  const pausedRef = useRef(false);
+  const advancePending = useRef(false);
+  useEffect(() => {
+    pausedRef.current = selected !== null;
+    if (selected === null && advancePending.current) {
+      advancePending.current = false;
+      const t = window.setTimeout(() => setScenarioIndex((n) => (n + 1) % scenarios.length), 1200);
+      return () => clearTimeout(t);
+    }
+  }, [selected]);
+  useEffect(() => setSelected(null), [scenarioIndex]);
 
   // Auto-advance the scripted timeline
   useEffect(() => {
@@ -192,6 +205,10 @@ export function FrameworkDemo() {
                 timers.push(
                   window.setTimeout(() => {
                     if (!mounted) return;
+                    if (pausedRef.current) {
+                      advancePending.current = true;
+                      return;
+                    }
                     setScenarioIndex((n) => (n + 1) % scenarios.length);
                   }, completeAt + 3600),
                 );
@@ -213,10 +230,10 @@ export function FrameworkDemo() {
 
   return (
     <div ref={rootRef}>
-      <Section className="relative overflow-hidden bg-[color:var(--color-canvas-warm)]" spacing="loose">
+      <Section className="relative overflow-hidden bg-[color:var(--color-canvas-warm)]">
         <div className="absolute inset-0 -z-10 grid-lattice opacity-40" aria-hidden />
         <Container>
-          <div className="mb-14 max-w-[720px]">
+          <div className="mb-10 md:mb-12 max-w-[720px]">
             <Eyebrow>Live · The Foundry, on your material</Eyebrow>
             <SplitText as="h2" className="text-display-2 mt-5 max-w-[16ch]" stagger={0.05}>
               Watch the framework build itself.
@@ -230,9 +247,9 @@ export function FrameworkDemo() {
             </Reveal>
           </div>
 
-          <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] gap-6 items-start">
+          <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] gap-6 items-stretch">
             {/* LEFT: source input pane */}
-            <div className="relative rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white overflow-hidden">
+            <div className="relative flex flex-col rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white overflow-hidden">
               <div className="flex items-center justify-between px-5 py-3 border-b border-[color:var(--color-hairline)] bg-[color:var(--color-canvas-tint)]">
                 <div className="flex items-center gap-2 text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-ink-faint)]">
                   <span className="inline-block h-1.5 w-1.5 rounded-full bg-[color:var(--color-forge)]" style={{ animation: "forge-glow 2s ease-in-out infinite" }} />
@@ -251,7 +268,7 @@ export function FrameworkDemo() {
                   </motion.div>
                 </AnimatePresence>
               </div>
-              <div className="p-5 min-h-[280px] md:min-h-[340px] font-[family-name:var(--font-jetbrains)] text-[13px] leading-[1.7] text-[color:var(--color-ink-soft)] relative">
+              <div className="p-5 min-h-[200px] md:min-h-[220px] font-[family-name:var(--font-jetbrains)] text-[13px] leading-[1.7] text-[color:var(--color-ink-soft)] relative">
                 <AnimatePresence mode="wait">
                   <motion.div
                     key={scenarioIndex}
@@ -260,12 +277,59 @@ export function FrameworkDemo() {
                     exit={{ opacity: 0 }}
                     transition={{ duration: 0.25 }}
                   >
-                    {typedText}
+                    <SourceText text={typedText} highlight={selected !== null ? scenario.concepts[selected].label : null} />
                     {phase === "typing" && (
                       <span className="inline-block w-[8px] h-[16px] align-middle -mt-1 bg-[color:var(--color-forge)] animate-pulse" />
                     )}
                   </motion.div>
                 </AnimatePresence>
+              </div>
+              <div className="mt-auto px-5 pb-5">
+                <div className="flex items-center justify-between mb-3 pt-4 border-t border-dashed border-[color:var(--color-hairline-strong)]">
+                  <span className="text-[10.5px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-ink-faint)]">
+                    Extracted requirements
+                  </span>
+                  <span className="text-[10.5px] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-ink-faint)]">
+                    {conceptsShown} / {scenario.concepts.length}
+                  </span>
+                </div>
+                <ul className="flex flex-wrap gap-1.5 min-h-[92px] content-start">
+                  <AnimatePresence>
+                    {scenario.concepts.slice(0, conceptsShown).map((c, i) => {
+                      const verified = scenario.verifiedIndex.slice(0, verifiedShown).includes(i);
+                      return (
+                        <motion.li
+                          key={`${scenario.domain}-${c.label}`}
+                          onClick={() => setSelected((cur) => (cur === i ? null : i))}
+                          initial={reduce ? false : { opacity: 0, y: 6, scale: 0.96 }}
+                          animate={{ opacity: 1, y: 0, scale: 1 }}
+                          exit={{ opacity: 0 }}
+                          transition={{ duration: 0.25 }}
+                          className={cn(
+                            "inline-flex cursor-pointer items-center gap-1.5 rounded-full border px-2.5 py-1 text-[11px] font-[family-name:var(--font-jetbrains)] transition-colors",
+                            selected === i && "ring-2 ring-[color:var(--color-forge)] ring-offset-1",
+                            verified
+                              ? "border-[color:var(--color-forge)]/40 bg-[color:var(--color-forge)]/[0.07] text-[color:var(--color-forge-deep)]"
+                              : "border-[color:var(--color-hairline)] bg-[color:var(--color-canvas-tint)] text-[color:var(--color-ink-soft)]",
+                          )}
+                        >
+                          {verified ? (
+                            <Check className="h-3 w-3" aria-hidden />
+                          ) : (
+                            <span
+                              aria-hidden
+                              className={cn(
+                                "h-1.5 w-1.5 rounded-full",
+                                c.kind === "control" ? "bg-[#8b93a3]" : c.kind === "check" ? "bg-[#5b6272]" : "bg-[color:var(--color-ink)]",
+                              )}
+                            />
+                          )}
+                          {c.label}
+                        </motion.li>
+                      );
+                    })}
+                  </AnimatePresence>
+                </ul>
               </div>
               <div className="flex items-center justify-between px-5 py-3 border-t border-[color:var(--color-hairline)] text-[11px] text-[color:var(--color-ink-faint)] font-[family-name:var(--font-jetbrains)] tracking-[0.05em]">
                 <span>{scenario.standard}</span>
@@ -274,13 +338,19 @@ export function FrameworkDemo() {
             </div>
 
             {/* RIGHT: framework canvas */}
-            <div className="relative rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-[color:var(--color-ink)] text-white overflow-hidden">
+            <div className="relative flex flex-col rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-[color:var(--color-ink)] text-white overflow-hidden">
               <div className="flex items-center justify-between px-5 py-3 border-b border-white/8 bg-white/[0.02]">
                 <div className="flex items-center gap-2 text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-white/50">
                   <PhaseIndicator phase={phase} />
                   Framework
                 </div>
-                <div className="flex items-center gap-1.5">
+                <div className="flex items-center gap-3">
+                  {phase === "complete" && selected === null && (
+                    <span className="hidden sm:inline font-[family-name:var(--font-jetbrains)] text-[10px] tracking-[0.12em] text-white/40">
+                      CLICK A NODE
+                    </span>
+                  )}
+                  <div className="flex items-center gap-1.5">
                   {scenarios.map((_, i) => (
                     <button
                       key={i}
@@ -294,17 +364,33 @@ export function FrameworkDemo() {
                       )}
                     />
                   ))}
+                  </div>
                 </div>
               </div>
 
               {/* Canvas */}
-              <div className="relative aspect-[4/3] md:aspect-[5/4] w-full">
+              <div className="relative aspect-[4/3] md:aspect-[5/4] lg:aspect-auto lg:flex-1 lg:min-h-[420px] w-full">
                 <FrameworkCanvas
                   scenario={scenario}
                   conceptsShown={conceptsShown}
                   edgesShown={edgesShown}
                   verifiedShown={verifiedShown}
+                  selected={selected}
+                  onSelect={setSelected}
                 />
+                <AnimatePresence>
+                  {selected !== null && (
+                    <NodeDetail
+                      key={`${scenario.domain}-${selected}`}
+                      scenario={scenario}
+                      index={selected}
+                      verified={scenario.verifiedIndex.slice(0, verifiedShown).includes(selected)}
+                      inSource={typedText.toLowerCase().includes(scenario.concepts[selected].label.toLowerCase())}
+                      onClose={() => setSelected(null)}
+                      onSelect={setSelected}
+                    />
+                  )}
+                </AnimatePresence>
               </div>
 
               {/* Metrics strip */}
@@ -317,7 +403,7 @@ export function FrameworkDemo() {
           </div>
 
           <Reveal delay={0.2}>
-            <div className="mt-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <div className="mt-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
               <p className="text-[13px] text-[color:var(--color-ink-muted)] max-w-[46ch] leading-relaxed">
                 An illustrative loop. In a real engagement, the Foundry runs on your material,
                 and the framework it produces is yours to keep.
@@ -400,12 +486,28 @@ function FrameworkCanvas({
   conceptsShown,
   edgesShown,
   verifiedShown,
+  selected,
+  onSelect,
 }: {
   scenario: Scenario;
   conceptsShown: number;
   edgesShown: number;
   verifiedShown: number;
+  selected: number | null;
+  onSelect: (i: number | null) => void;
 }) {
+  const [hovered, setHovered] = useState<number | null>(null);
+  const focus = selected ?? hovered;
+  const linked = useMemo(() => {
+    if (focus === null) return null;
+    const set = new Set<number>([focus]);
+    scenario.edges.forEach(([a, b]) => {
+      if (a === focus) set.add(b);
+      if (b === focus) set.add(a);
+    });
+    return set;
+  }, [focus, scenario.edges]);
+
   // Deterministic radial layout with per-node metadata for smart label placement.
   const nodes = useMemo(() => {
     const n = scenario.concepts.length;
@@ -416,7 +518,8 @@ function FrameworkCanvas({
       const ring = i <= n / 2 ? 1 : 2;
       const ringCount = ring === 1 ? Math.floor(n / 2) : Math.ceil(n / 2) - 1;
       const idxInRing = ring === 1 ? i - 1 : i - Math.floor(n / 2) - 1;
-      const angle = (idxInRing / ringCount) * Math.PI * 2 - Math.PI / 2;
+      const offset = ring === 2 ? Math.PI / ringCount : 0;
+      const angle = (idxInRing / ringCount) * Math.PI * 2 - Math.PI / 2 + offset;
       const r = ring === 1 ? 92 : 172;
       return { x: cx + Math.cos(angle) * r, y: cy + Math.sin(angle) * r, angle, ring };
     });
@@ -434,6 +537,7 @@ function FrameworkCanvas({
     const eligible = new Set<number>();
     eligible.add(0); // always label the center
     scenario.verifiedIndex.slice(0, verifiedShown).forEach((idx) => eligible.add(idx));
+    if (linked) linked.forEach((idx) => eligible.add(idx));
     return Array.from(eligible)
       .filter((i) => i < conceptsShown)
       .map((i) => {
@@ -453,10 +557,10 @@ function FrameworkCanvas({
           cos > 0.35 ? "start" : cos < -0.35 ? "end" : "middle";
         return { i, label: c.label, x, y, anchor };
       });
-  }, [conceptsShown, verifiedShown, nodes, scenario.concepts, scenario.verifiedIndex]);
+  }, [conceptsShown, verifiedShown, nodes, scenario.concepts, scenario.verifiedIndex, linked]);
 
   return (
-    <svg viewBox="0 0 600 440" className="w-full h-full">
+    <svg viewBox="0 0 600 440" className="w-full h-full" onClick={() => onSelect(null)}>
       <defs>
         <pattern id="fw-grid" width="24" height="24" patternUnits="userSpaceOnUse">
           <path d="M 24 0 L 0 0 0 24" fill="none" stroke="rgba(255,255,255,0.04)" strokeWidth="1" />
@@ -485,6 +589,8 @@ function FrameworkCanvas({
         const to = nodes[b];
         if (!from || !to) return null;
         const bothVerified = verifiedSet.has(a) && verifiedSet.has(b);
+        const touches = focus !== null && (a === focus || b === focus);
+        const dimmed = focus !== null && !touches;
         return (
           <motion.line
             key={i}
@@ -492,10 +598,10 @@ function FrameworkCanvas({
             y1={from.y}
             x2={to.x}
             y2={to.y}
-            stroke={bothVerified ? "rgba(239,103,4,0.55)" : "rgba(255,255,255,0.24)"}
-            strokeWidth={bothVerified ? 1.4 : 1.1}
+            stroke={touches ? "#ff7d1a" : bothVerified ? "rgba(239,103,4,0.55)" : "rgba(255,255,255,0.24)"}
+            strokeWidth={touches ? 2 : bothVerified ? 1.4 : 1.1}
             initial={{ pathLength: 0, opacity: 0 }}
-            animate={{ pathLength: 1, opacity: 1 }}
+            animate={{ pathLength: 1, opacity: dimmed ? 0.12 : 1 }}
             transition={{ duration: 0.55, ease: [0.25, 1, 0.5, 1] }}
           />
         );
@@ -510,9 +616,34 @@ function FrameworkCanvas({
           <motion.g
             key={`${scenario.domain}-${i}`}
             initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
+            animate={{ opacity: linked && !linked.has(i) ? 0.25 : 1, scale: 1 }}
             transition={{ duration: 0.35, ease: [0.25, 1, 0.5, 1] }}
+            role="button"
+            tabIndex={0}
+            aria-label={`Inspect ${c.label}`}
+            aria-pressed={selected === i}
+            className="cursor-pointer outline-none"
+            style={{ transformOrigin: `${p.x}px ${p.y}px` }}
+            onClick={(e) => {
+              e.stopPropagation();
+              onSelect(selected === i ? null : i);
+            }}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                onSelect(selected === i ? null : i);
+              }
+            }}
+            onMouseEnter={() => setHovered(i)}
+            onMouseLeave={() => setHovered(null)}
+            onFocus={() => setHovered(i)}
+            onBlur={() => setHovered(null)}
           >
+            {/* Generous invisible hit area for fingers */}
+            <circle cx={p.x} cy={p.y} r={22} fill="transparent" />
+            {focus === i && (
+              <circle cx={p.x} cy={p.y} r={size + 7} fill="none" stroke="#ff7d1a" strokeWidth="1.5" strokeDasharray="3 3" />
+            )}
             {isVerified && <circle cx={p.x} cy={p.y} r={size + 12} fill="url(#verified-glow)" />}
             <motion.circle
               cx={p.x}
@@ -535,6 +666,7 @@ function FrameworkCanvas({
         return (
           <motion.g
             key={`label-${scenario.domain}-${i}`}
+            pointerEvents="none"
             initial={{ opacity: 0, y: 4 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.35 }}
@@ -569,5 +701,94 @@ function FrameworkCanvas({
         );
       })}
     </svg>
+  );
+}
+
+function SourceText({ text, highlight }: { text: string; highlight: string | null }) {
+  if (!highlight) return <>{text}</>;
+  const at = text.toLowerCase().indexOf(highlight.toLowerCase());
+  if (at < 0) return <>{text}</>;
+  return (
+    <>
+      {text.slice(0, at)}
+      <mark className="rounded-sm bg-[color:var(--color-forge)]/15 text-[color:var(--color-forge-deep)] px-0.5 -mx-0.5">
+        {text.slice(at, at + highlight.length)}
+      </mark>
+      {text.slice(at + highlight.length)}
+    </>
+  );
+}
+
+const kindLabel = { concept: "Concept", control: "Control", check: "Check" } as const;
+
+function NodeDetail({
+  scenario,
+  index,
+  verified,
+  inSource,
+  onClose,
+  onSelect,
+}: {
+  scenario: Scenario;
+  index: number;
+  verified: boolean;
+  inSource: boolean;
+  onClose: () => void;
+  onSelect: (i: number) => void;
+}) {
+  const c = scenario.concepts[index];
+  const links = scenario.edges
+    .filter(([a, b]) => a === index || b === index)
+    .map(([a, b]) => (a === index ? b : a));
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 12 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: 8 }}
+      transition={{ duration: 0.25, ease: [0.25, 1, 0.5, 1] }}
+      className="absolute inset-x-3 bottom-3 sm:left-auto sm:right-3 sm:w-[300px] rounded-[var(--radius-md)] border border-white/10 bg-[#0d0f14]/90 backdrop-blur-md p-4 shadow-[0_20px_50px_-15px_rgba(0,0,0,0.7)]"
+      role="dialog"
+      aria-label={`${c.label} details`}
+    >
+      <div className="flex items-start justify-between gap-3">
+        <div>
+          <div className="font-[family-name:var(--font-jetbrains)] text-[10px] tracking-[0.14em] uppercase text-white/45">
+            {kindLabel[c.kind]}
+          </div>
+          <div className="mt-1 text-[16px] font-semibold tracking-tight text-white">{c.label}</div>
+        </div>
+        <button
+          onClick={onClose}
+          aria-label="Close"
+          className="-mr-1 -mt-1 h-7 w-7 inline-flex items-center justify-center rounded text-white/50 hover:text-white hover:bg-white/10"
+        >
+          ×
+        </button>
+      </div>
+      <div className="mt-3 flex flex-wrap gap-2 text-[11px] font-[family-name:var(--font-jetbrains)]">
+        <span className={cn("rounded-full px-2 py-0.5 border", verified ? "border-[color:var(--color-forge)]/50 text-[color:var(--color-forge-hot)]" : "border-white/15 text-white/55")}>
+          {verified ? "Verified" : "Not yet verified"}
+        </span>
+        {inSource && <span className="rounded-full px-2 py-0.5 border border-white/15 text-white/55">Traced to source</span>}
+      </div>
+      {links.length > 0 && (
+        <div className="mt-3">
+          <div className="font-[family-name:var(--font-jetbrains)] text-[10px] tracking-[0.14em] uppercase text-white/45 mb-1.5">
+            Linked to
+          </div>
+          <div className="flex flex-wrap gap-1.5">
+            {links.map((l) => (
+              <button
+                key={l}
+                onClick={() => onSelect(l)}
+                className="rounded-full bg-white/[0.06] hover:bg-white/[0.12] px-2.5 py-1 text-[11px] text-white/80 transition-colors"
+              >
+                {scenario.concepts[l].label}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+    </motion.div>
   );
 }
