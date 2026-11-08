@@ -166,8 +166,12 @@ for (const p of pages) {
   const internal = [...text.matchAll(/\]\((\/[^)\s]*)\)/g)].length;
   if (internal < 3) E(`only ${internal} internal links in body (min 3, rule P9)`);
   const lower = text.toLowerCase();
-  for (const b of BANNED) if (lower.includes(b)) E(`banned phrase "${b}"`);
-  for (const re of UK_SPELLING) { const m = text.match(re); if (m) W(`British spelling? "${m[0]}" (fine inside official names or quotes)`); }
+  // "empowered official" is a defined ITAR role (22 CFR 120.67), not filler.
+  const lowerForBanned = lower.replaceAll("empowered official", "");
+  for (const b of BANNED) if (lowerForBanned.includes(b)) E(`banned phrase "${b}"`);
+  // Link targets are URLs and site paths (e.g. /industries/government-defence), not prose.
+  const prose = text.replace(/\]\([^)]*\)/g, "]");
+  for (const re of UK_SPELLING) { const m = prose.match(re); if (m) W(`British spelling? "${m[0]}" (fine inside official names or quotes)`); }
   if (/!/.test(text.replace(/\]\([^)]*\)/g, ""))) W("contains an exclamation mark");
 
   const wc = bodyWords(d);
