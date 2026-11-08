@@ -1,0 +1,311 @@
+{
+  "slug": "soc-2-type-1-vs-type-2",
+  "kind": "comparison",
+  "title": "SOC 2 Type 1 vs Type 2: what is the difference, and what training evidence does each need?",
+  "seoTitle": "SOC 2 Type 1 vs Type 2",
+  "description": "A SOC 2 Type 1 report covers control design at a point in time; Type 2 adds operating effectiveness over a period, so training must be evidenced throughout.",
+  "shortAnswer": "A SOC 2 Type 1 report is a CPA firm's opinion on a service organization's description of its system and the suitability of the design of its controls, as of a specified date. A SOC 2 Type 2 report covers the same description and design plus the operating effectiveness of the controls throughout a specified period. For security awareness training, Type 1 checks that a program is designed; Type 2 tests that it actually ran.",
+  "keyTakeaways": [
+    "Both report types are attestation reports issued by an independent CPA firm under AICPA standards, using the Trust Services Criteria.",
+    "Type 1 covers design as of a date; Type 2 covers design and operating effectiveness over a period, which is why customers and frameworks usually ask for Type 2.",
+    "Training appears in the criteria through CC1.4 (competent individuals) and CC2.2 (internal communication), whose points of focus include training programs and a security awareness training program.",
+    "For a Type 1, training evidence is the designed control: policy, curriculum, assignment rules. For a Type 2, it is the records showing the control operated for the whole period.",
+    "The AICPA describes SOC 2 reports as restricted use; SOC 3 reports cover the same criteria in less detail and can be freely distributed."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the core difference between SOC 2 Type 1 and Type 2?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The core difference is time and testing. A Type 1 report looks at a single date and asks whether controls are suitably designed. A Type 2 report looks across a period and asks whether the controls were suitably designed and operated effectively throughout it."
+        },
+        {
+          "type": "p",
+          "text": "The American Institute of Certified Public Accountants (AICPA) [described the two types](https://web.archive.org/web/20230921123122/https://us.aicpa.org/interestareas/frc/assuranceadvisoryservices/serviceorganization-smanagement.html) as follows: for SOC 2, \"a type 2 report on management's description of a service organization's system and the suitability of the design and operating effectiveness of controls; and a type 1 report on management's description of a service organization's system and the suitability of the design of controls.\" For the parallel SOC 1 reports, the same AICPA page places Type 1 \"as of a specified date\" and Type 2 \"throughout a specified period\", and states that SOC 2 has two report types similar to SOC 1."
+        },
+        {
+          "type": "p",
+          "text": "Both are examinations by a CPA firm against the AICPA's [2017 Trust Services Criteria](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022), which cover security, availability, processing integrity, confidentiality and privacy. The AICPA's [SOC 2 guide](https://www.aicpa-cima.com/cpe-learning/publication/soc-2-reporting-on-an-examination-of-controls-at-a-service-organization-relevant-to-security-availability-processing-integrity-confidentiality-or-privacy) describes the engagement as an examination of a service organization's description of its system and its controls. See [ISO/IEC 27001 vs SOC 2](/compare/iso-27001-vs-soc-2) for how SOC 2 differs from certification."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do Type 1 and Type 2 reports compare side by side?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They share the criteria, the auditor and the system description, and differ on time frame, testing and what they can prove. The table compares them as at November 2026."
+        },
+        {
+          "type": "table",
+          "caption": "SOC 2 Type 1 and Type 2 reports compared, as at November 2026",
+          "head": [
+            "Dimension",
+            "SOC 2 Type 1",
+            "SOC 2 Type 2"
+          ],
+          "rows": [
+            [
+              "Opinion covers",
+              "Fair presentation of the system description and suitability of control design",
+              "Fair presentation of the system description, suitability of design and operating effectiveness of controls"
+            ],
+            [
+              "Time frame",
+              "As of a specified date",
+              "Throughout a specified period"
+            ],
+            [
+              "What the auditor tests",
+              "Whether controls, as designed, would meet the criteria if operated",
+              "Whether controls were designed suitably and actually operated effectively during the period"
+            ],
+            [
+              "Criteria",
+              "2017 Trust Services Criteria, with revised points of focus (2022)",
+              "Same"
+            ],
+            [
+              "Issued by",
+              "Independent CPA firm",
+              "Independent CPA firm"
+            ],
+            [
+              "Distribution",
+              "Restricted use",
+              "Restricted use"
+            ],
+            [
+              "Typical use",
+              "First report, showing that controls exist and are designed",
+              "Ongoing assurance for customers' vendor management; referenced by frameworks such as FedRAMP Class A"
+            ],
+            [
+              "Training evidence",
+              "Policy, curriculum, assignment rules and the control as designed",
+              "Records showing training was assigned, completed and followed up across the period"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "training-criteria",
+      "heading": "Where does training appear in the Trust Services Criteria?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training is not a standalone criterion; it appears in the points of focus for two common criteria. CC1.4 covers attracting, developing and retaining competent individuals, and CC2.2 covers internal communication of information needed for internal control."
+        },
+        {
+          "type": "p",
+          "text": "In the [March 2020 version of the criteria](https://web.archive.org/web/20230905175109id_/https://us.aicpa.org/content/dam/aicpa/interestareas/frc/assuranceadvisoryservices/downloadabledocuments/trust-services-criteria-2020.pdf), the points of focus for CC1.4 include providing training to maintain technical competencies, covering personnel, contractors and vendor employees, and those for CC2.2 include communicating information to improve security knowledge and awareness through a security awareness training program. Both criteria mirror principles 4 and 14 of the COSO 2013 internal control framework. The same document notes that using the criteria does not require an assessment of whether each point of focus is addressed."
+        },
+        {
+          "type": "p",
+          "text": "In practice, most service organizations describe a security awareness training control because it is the clearest way to meet CC1.4 and CC2.2. The organization writes the control; the auditor then tests the control as described. Detail is on [SOC 2 security awareness training](/regulations/soc-2-security-awareness-training)."
+        },
+        {
+          "type": "callout",
+          "title": "Practical consequence",
+          "text": "Write the training control so it can be tested over a period: who must complete what, by when after joining, how often thereafter, and what happens when someone is overdue. A vague control passes a design review more easily but is harder to evidence in a Type 2 period."
+        }
+      ]
+    },
+    {
+      "id": "which-applies",
+      "heading": "Which report does your organization need?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The report type is chosen by the service organization, usually in response to customer demand. Type 1 is often a first step; Type 2 is what most enterprise customers expect for ongoing assurance."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**First time SOC 2:** a Type 1 report can show customers that controls are designed and in place while the organization accumulates a period of operation for a Type 2.",
+            "**Established vendors selling to enterprises:** a Type 2 report, renewed regularly, is the common expectation in vendor management reviews.",
+            "**US federal market:** FedRAMP describes its Class A certification as designed for existing commercial products that already have a SOC 2 Type II and a mature security program.",
+            "**Need for a public report:** SOC 3 reports cover the same criteria for general use and can be freely distributed, but contain less detail.",
+            "**Changes ahead:** the AICPA proposed updated SOC 2 criteria on October 28, 2026, with a proposed effective date of December 31, 2027 and early adoption permitted. Training controls should be reviewed once the final criteria are issued."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evidence",
+      "heading": "What training evidence does each report need?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Type 1 evidence shows the control exists; Type 2 evidence shows it worked every time it should have during the period. The illustrative mapping below shows typical evidence for a security awareness training control."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative training evidence for a SOC 2 security awareness control",
+          "head": [
+            "Control element",
+            "Type 1 evidence",
+            "Type 2 evidence",
+            "Common gap"
+          ],
+          "rows": [
+            [
+              "Policy",
+              "Approved training policy in effect at the report date",
+              "Policy in effect for the whole period, with change history",
+              "Policy updated mid period without version record"
+            ],
+            [
+              "New joiners",
+              "Rule assigning training within a set number of days of start",
+              "Completion records for joiners across the period, with dates",
+              "Contractors not enrolled"
+            ],
+            [
+              "Periodic training",
+              "Schedule and assigned population",
+              "Completion records for each cycle in the period",
+              "Leavers and long term absences unexplained"
+            ],
+            [
+              "Follow up",
+              "Escalation procedure for overdue training",
+              "Evidence that overdue cases were escalated and closed",
+              "Escalations done by email with no record"
+            ],
+            [
+              "Content",
+              "Current curriculum",
+              "Content versions used during the period",
+              "No link between version and completion"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Records that tie each completion to a person, date, content version and result make sampling straightforward; see [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit) and the [audit trail](/glossary/audit-trail) definition."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each described training control to the Trust Services Criteria it supports, the roles in scope and the content versions in use, with records for every assignment and completion. That supports a Type 1 design review and produces the period long evidence a Type 2 examination tests."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is a SOC 2 Type 2 better than a Type 1?",
+      "a": "It gives more assurance, because the auditor tests whether controls operated effectively over a period rather than only whether they were suitably designed at a date. That is why customers often ask for Type 2. A Type 1 is still useful as a first report or when a system is new."
+    },
+    {
+      "q": "Does SOC 2 require annual security awareness training?",
+      "a": "The criteria do not set a frequency. CC1.4 and CC2.2 points of focus mention training programs and a security awareness training program, and the organization describes its own control, including frequency. The auditor then tests that control. Annual training is a common design choice, and other frameworks the organization follows may set one."
+    },
+    {
+      "q": "Can a SOC 2 report be shared publicly?",
+      "a": "No. The AICPA describes use of SOC 2 reports as restricted. Organizations that want a public document can obtain a SOC 3 report, which the AICPA describes as a general use report that can be freely distributed, intended for users who do not need the detail of a SOC 2."
+    },
+    {
+      "q": "Who can issue a SOC 2 report?",
+      "a": "An independent CPA firm performing an examination under AICPA attestation standards. The AICPA describes SOC as a suite of services CPAs may provide in connection with system level controls at a service organization. A SOC 2 is an attestation report, not a certification, so there is no SOC 2 certificate."
+    }
+  ],
+  "sources": [
+    {
+      "title": "SOC for Service Organizations: Information for Service Organizations (archived September 21, 2023)",
+      "publisher": "AICPA (via Internet Archive)",
+      "url": "https://web.archive.org/web/20230921123122/https://us.aicpa.org/interestareas/frc/assuranceadvisoryservices/serviceorganization-smanagement.html"
+    },
+    {
+      "title": "TSP Section 100, 2017 Trust Services Criteria (March 2020 version, archived copy of the AICPA file)",
+      "publisher": "AICPA (via Internet Archive)",
+      "url": "https://web.archive.org/web/20230905175109id_/https://us.aicpa.org/content/dam/aicpa/interestareas/frc/assuranceadvisoryservices/downloadabledocuments/trust-services-criteria-2020.pdf"
+    },
+    {
+      "title": "2017 Trust Services Criteria for Security, Availability, Processing Integrity, Confidentiality, and Privacy (With Revised Points of Focus 2022)",
+      "publisher": "AICPA and CIMA",
+      "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022"
+    },
+    {
+      "title": "SOC 2 Reporting on an Examination of Controls at a Service Organization Relevant to Security, Availability, Processing Integrity, Confidentiality, or Privacy",
+      "publisher": "AICPA and CIMA",
+      "url": "https://www.aicpa-cima.com/cpe-learning/publication/soc-2-reporting-on-an-examination-of-controls-at-a-service-organization-relevant-to-security-availability-processing-integrity-confidentiality-or-privacy"
+    },
+    {
+      "title": "System and Organization Controls: SOC Suite of Services",
+      "publisher": "AICPA and CIMA",
+      "url": "https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2"
+    },
+    {
+      "title": "AICPA Proposes Update of SOC 2 Trust Services Criteria to Enhance the Relevance, Usability and Value of CPAs' Reports",
+      "publisher": "AICPA and CIMA",
+      "url": "https://www.aicpa-cima.com/news/article/aicpa-proposes-update-of-soc-2-r-trust-services-criteria-to-enhance-the-relevance-usability-and-value-of-cpas-reports"
+    },
+    {
+      "title": "Choosing a Certification Class, FedRAMP Consolidated Rules for 2026",
+      "publisher": "FedRAMP, US General Services Administration",
+      "url": "https://www.fedramp.gov/2026/providers/start/class/"
+    }
+  ],
+  "related": [
+    "soc-2-security-awareness-training",
+    "iso-27001-vs-soc-2",
+    "iso-27001-awareness-training-requirements",
+    "how-to-prepare-training-records-for-an-audit",
+    "how-to-build-a-training-matrix-for-a-saas-company",
+    "audit-trail"
+  ],
+  "productLinks": [
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "AICPA SOC for Service Organizations page: SOC 2 type 2 covers description and suitability of design and operating effectiveness; type 1 covers description and suitability of design; SOC 1 Type 1 as of a specified date and Type 2 throughout a specified period; SOC 2 two types similar to SOC 1; SOC 2 use restricted; SOC 3 general use, freely distributed (archived page fetched 2026-11-08 via id_ snapshot)",
+      "source": "https://web.archive.org/web/20230921123122/https://us.aicpa.org/interestareas/frc/assuranceadvisoryservices/serviceorganization-smanagement.html"
+    },
+    {
+      "claim": "CC1.4 point of focus Provides Training to Maintain Technical Competencies, covering personnel, contractors and vendor employees; CC2.2 point of focus security awareness training program; COSO principles 4 and 14; use of TSC does not require assessment of each point of focus (reused from regulation/soc-2-security-awareness-training)",
+      "source": "https://web.archive.org/web/20230905175109id_/https://us.aicpa.org/content/dam/aicpa/interestareas/frc/assuranceadvisoryservices/downloadabledocuments/trust-services-criteria-2020.pdf"
+    },
+    {
+      "claim": "Current criteria title: 2017 Trust Services Criteria (With Revised Points of Focus 2022)",
+      "source": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022"
+    },
+    {
+      "claim": "AICPA SOC 2 guide: examination of a service organization's description of its system and controls",
+      "source": "https://www.aicpa-cima.com/cpe-learning/publication/soc-2-reporting-on-an-examination-of-controls-at-a-service-organization-relevant-to-security-availability-processing-integrity-confidentiality-or-privacy"
+    },
+    {
+      "claim": "SOC is a suite of service offerings CPAs may provide in connection with system-level controls of a service organization",
+      "source": "https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2"
+    },
+    {
+      "claim": "AICPA proposed SOC 2 TSC update on October 28, 2026; proposed effective date December 31, 2027 with early adoption",
+      "source": "https://www.aicpa-cima.com/news/article/aicpa-proposes-update-of-soc-2-r-trust-services-criteria-to-enhance-the-relevance-usability-and-value-of-cpas-reports"
+    },
+    {
+      "claim": "FedRAMP Class A designed for existing commercial products that already have a SOC 2 Type II and a mature security program",
+      "source": "https://www.fedramp.gov/2026/providers/start/class/"
+    }
+  ]
+}

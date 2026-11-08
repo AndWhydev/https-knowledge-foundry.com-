@@ -1,0 +1,327 @@
+{
+  "slug": "nis2-vs-dora",
+  "kind": "comparison",
+  "title": "NIS2 vs DORA: how do their cybersecurity training duties differ?",
+  "seoTitle": "NIS2 vs DORA training duties",
+  "description": "NIS2 makes cybersecurity training mandatory for management bodies; DORA makes ICT security training compulsory for all staff of EU financial entities.",
+  "shortAnswer": "The NIS2 Directive (Directive (EU) 2022/2555) and the Digital Operational Resilience Act (DORA, Regulation (EU) 2022/2554) both make cybersecurity training a legal duty in the EU. NIS2 covers essential and important entities across many sectors and requires management body members to follow training, with cyber hygiene and training as a required measure. DORA covers financial entities, applies directly and makes ICT security awareness and resilience training compulsory for all employees and senior management.",
+  "keyTakeaways": [
+    "DORA is lex specialis to NIS2 (DORA Article 1(2)): for financial entities, DORA's ICT risk rules take precedence over the equivalent NIS2 provisions.",
+    "NIS2 is a directive that applies through national laws, with a transposition deadline of October 17, 2024; DORA is a regulation that has applied directly since January 17, 2025.",
+    "NIS2 Article 20(2) requires management body members to follow training and asks Member States to encourage similar regular training for employees; Article 21(2)(g) requires cyber hygiene practices and cybersecurity training.",
+    "DORA Article 13(6) requires compulsory ICT security awareness and digital operational resilience training for all employees and senior management; Article 5(4) requires regular specific training for management body members.",
+    "Both make the management body accountable: NIS2 allows management to be held liable, and DORA gives the management body ultimate responsibility for ICT risk."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the core difference between NIS2 and DORA training duties?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The core difference is reach and specificity. NIS2 sets a cross sector baseline and names management body training as mandatory, leaving employee training to be encouraged and folded into risk measures. DORA is written for the financial sector and makes training compulsory for every employee and senior manager, with content tied to operational resilience."
+        },
+        {
+          "type": "p",
+          "text": "Under [NIS2](https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng), Article 20(1) requires the management bodies of essential and important entities to approve the cybersecurity risk management measures, oversee their implementation and be capable of being held liable for infringements. Article 20(2) requires Member States to ensure management body members are required to follow training, and to encourage entities to offer similar training to employees regularly. Article 21(2)(g) lists basic cyber hygiene practices and cybersecurity training among the minimum measures. See [NIS2 management body training](/regulations/nis2-management-body-training)."
+        },
+        {
+          "type": "p",
+          "text": "Under [DORA](https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng), Article 13(6) requires financial entities to develop ICT security awareness programs and digital operational resilience training as compulsory modules in staff training schemes, applicable to all employees and senior management staff, with complexity commensurate to their functions. Article 5(4) requires members of the management body to actively keep their knowledge and skills up to date, including by following specific training on a regular basis. See [DORA ICT security awareness training](/regulations/dora-ict-security-awareness-training)."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do NIS2 and DORA compare side by side?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They differ on legal form, scope, who must be trained and how incidents are reported. The table compares them as at November 2026."
+        },
+        {
+          "type": "table",
+          "caption": "NIS2 and DORA compared on scope and training, as at November 2026",
+          "head": [
+            "Dimension",
+            "NIS2 (Directive (EU) 2022/2555)",
+            "DORA (Regulation (EU) 2022/2554)"
+          ],
+          "rows": [
+            [
+              "Legal form",
+              "Directive: applies through national transposing laws",
+              "Regulation: binding in its entirety and directly applicable"
+            ],
+            [
+              "Key dates",
+              "Transposition by October 17, 2024; national measures apply from October 18, 2024",
+              "Applies from January 17, 2025"
+            ],
+            [
+              "Who is covered",
+              "Essential and important entities in listed sectors, generally medium sized or larger",
+              "Twenty types of financial entity, from banks and insurers to crypto asset service providers, plus oversight of critical ICT third party providers"
+            ],
+            [
+              "Management training",
+              "Mandatory for management body members (Article 20(2))",
+              "Regular specific training for management body members (Article 5(4))"
+            ],
+            [
+              "Staff training",
+              "Member States encourage regular training (Article 20(2)); cyber hygiene and training as a required measure (Article 21(2)(g))",
+              "Compulsory modules for all employees and senior management (Article 13(6))"
+            ],
+            [
+              "Third parties",
+              "Supply chain security is a required measure (Article 21(2)(d))",
+              "ICT third party providers take part in training where appropriate (Article 13(6), contract clause in Article 30(2)(i))"
+            ],
+            [
+              "Detailed rules",
+              "Implementing Regulation (EU) 2024/2690 for certain digital providers: awareness program, role training, effectiveness testing",
+              "Delegated Regulation (EU) 2024/1774: human resources policy, staff informed of ICT security policies and reporting channels"
+            ],
+            [
+              "Incident reporting",
+              "Early warning within 24 hours, notification within 72 hours, final report within one month (Article 23(4))",
+              "Initial notification, intermediate and final reports for major ICT related incidents (Article 19), with timelines set in technical standards"
+            ],
+            [
+              "Penalties",
+              "Member States set fines with maximums of at least EUR 10 million or 2% of turnover for essential entities and EUR 7 million or 1.4% for important entities (Article 34)",
+              "Member States lay down administrative penalties and remedial measures (Article 50)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "overlap",
+      "heading": "How do NIS2 and DORA overlap for financial entities?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "For financial entities, DORA displaces the equivalent NIS2 cybersecurity rules. DORA Article 1(2) states that it is lex specialis with regard to NIS2, and NIS2 Article 4 lets sector specific Union acts with at least equivalent requirements apply instead of its own provisions."
+        },
+        {
+          "type": "p",
+          "text": "NIS2 recital 28 names DORA as the sector specific act for financial entities. In practice, a bank or insurer builds its ICT training to DORA, and its national authorities supervise DORA compliance. In Portugal, for example, [Decree-Law 125/2025](https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401), which transposes NIS2, names Banco de Portugal, the securities regulator CMVM and the insurance supervisor ASF as the special authorities for the digital operational resilience of the financial sector."
+        },
+        {
+          "type": "p",
+          "text": "Groups that combine financial and non financial businesses face both. A financial holding company that also runs a cloud or data center subsidiary may have DORA duties for the regulated entities and NIS2 duties, through national law, for the subsidiary. Training can be shared, but evidence must be mapped to each legal entity's obligation."
+        },
+        {
+          "type": "callout",
+          "title": "Practical consequence",
+          "text": "Do not assume one regime covers the whole group. Map each legal entity to NIS2, DORA or neither, then build one cybersecurity curriculum with modules tagged to the obligation they satisfy. Management body training is required under both, so run it once with content covering both where needed."
+        }
+      ]
+    },
+    {
+      "id": "which-applies",
+      "heading": "Which applies to your organization?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Financial entities listed in DORA Article 2(1) follow DORA; other entities in NIS2 sectors that meet the size and sector tests follow their national NIS2 law. Some organizations follow neither."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Banks, investment firms, insurers, payment and e-money institutions, crypto asset service providers and other listed financial entities:** DORA, directly. ICT third party service providers to them face contractual training duties and, if designated critical, oversight.",
+            "**Energy, transport, health, digital infrastructure, ICT service management, public administration and other NIS2 sectors:** the national law transposing NIS2. Transposition has been uneven; the Commission sent reasoned opinions to 19 Member States in May 2025. Check the [Commission's transposition tracker](https://digital-strategy.ec.europa.eu/en/policies/nis-transposition) and the national law.",
+            "**Portugal:** Decree-Law 125/2025 entered into force on April 3, 2026; see [Portugal cybersecurity law training](/regulations/portugal-cybersecurity-law-training).",
+            "**Outside the EU:** other markets use sector rules; see [cybersecurity awareness training requirements by country](/compare/cybersecurity-awareness-training-requirements-by-country)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "one-curriculum",
+      "heading": "How can one cybersecurity curriculum meet both?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Design to DORA's universal coverage and NIS2's management body emphasis, and keep effectiveness evidence for both. The illustrative mapping below shows one approach."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping of one cybersecurity curriculum to NIS2 and DORA",
+          "head": [
+            "Element",
+            "NIS2 lens",
+            "DORA lens",
+            "Design choice"
+          ],
+          "rows": [
+            [
+              "Management body",
+              "Mandatory training (Article 20(2)); approve and oversee measures",
+              "Regular specific training (Article 5(4)); ultimate responsibility (Article 5(2)(a))",
+              "Annual board program with recorded attendance and questions"
+            ],
+            [
+              "All staff",
+              "Cyber hygiene and training as a measure (Article 21(2)(g))",
+              "Compulsory modules for all employees (Article 13(6))",
+              "Mandatory onboarding and annual modules for every employee"
+            ],
+            [
+              "Specialist roles",
+              "Role training under the implementing regulation where it applies",
+              "Complexity commensurate to remit (Article 13(6))",
+              "Role modules for ICT, risk and incident response staff"
+            ],
+            [
+              "Third parties",
+              "Supply chain security",
+              "Provider participation where appropriate",
+              "Contract clauses and provider training records"
+            ],
+            [
+              "Effectiveness",
+              "Awareness program effectiveness tested (Implementing Regulation 2024/2690)",
+              "Training linked to resilience testing and lessons learned",
+              "Phishing simulations and tabletop exercises with tracked results"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Simulations and exercises supply effectiveness evidence; see [how to design a phishing simulation program](/guides/how-to-design-a-phishing-simulation-program) and [how to run a tabletop exercise](/guides/how-to-run-a-tabletop-exercise)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records NIS2 national provisions and DORA articles as separate obligations per legal entity, with provenance, and links them to shared learning outcomes and assessments. One curriculum then produces evidence mapped to each regime, and changes in a national NIS2 law or a DORA technical standard identify the modules they affect."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does DORA replace NIS2 for banks?",
+      "a": "For ICT risk management, incident reporting and related obligations, yes. DORA Article 1(2) makes it lex specialis to NIS2, and NIS2 recital 28 names DORA as the sector specific act for financial entities. Banks therefore build ICT security training to DORA Article 13(6) and Article 5(4)."
+    },
+    {
+      "q": "Is employee training mandatory under NIS2?",
+      "a": "Indirectly. Article 20(2) makes management body training mandatory and asks Member States to encourage similar regular training for employees. Article 21(2)(g), however, lists cybersecurity training among the required risk management measures, and national laws often go further. Most entities therefore train all staff."
+    },
+    {
+      "q": "Does either law set a training frequency?",
+      "a": "Neither sets a fixed interval in its main text. NIS2 refers to regular training for employees and DORA to regular specific training for management body members. National NIS2 laws and supervisory guidance may add detail, so annual cycles are a common design choice rather than a stated legal minimum."
+    },
+    {
+      "q": "Do ICT service providers have to train their staff under DORA?",
+      "a": "Through contracts. DORA Article 13(6) extends training to ICT third party service providers where appropriate, and Article 30(2)(i) requires contracts to set the conditions for their participation in the financial entity's ICT security awareness programs and digital operational resilience training."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Directive (EU) 2022/2555 (NIS 2 Directive)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+    },
+    {
+      "title": "Commission Implementing Regulation (EU) 2024/2690",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj/eng"
+    },
+    {
+      "title": "Regulation (EU) 2022/2554 on digital operational resilience for the financial sector (DORA)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng"
+    },
+    {
+      "title": "Commission Delegated Regulation (EU) 2024/1774 (RTS on ICT risk management tools, methods, processes and policies)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg_del/2024/1774/oj/eng"
+    },
+    {
+      "title": "Digital Operational Resilience Act (DORA)",
+      "publisher": "European Insurance and Occupational Pensions Authority (EIOPA)",
+      "url": "https://www.eiopa.europa.eu/digital-operational-resilience-act-dora_en"
+    },
+    {
+      "title": "NIS2 Directive transposition in EU countries",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/nis-transposition"
+    },
+    {
+      "title": "Decreto-Lei n.º 125/2025",
+      "publisher": "Diário da República (Portugal)",
+      "url": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401"
+    }
+  ],
+  "related": [
+    "nis2-management-body-training",
+    "dora-ict-security-awareness-training",
+    "portugal-cybersecurity-law-training",
+    "cybersecurity-awareness-training-requirements-by-country",
+    "how-to-design-a-phishing-simulation-program",
+    "how-to-report-training-compliance-to-the-board"
+  ],
+  "productLinks": [
+    {
+      "label": "Financial services",
+      "href": "/industries/financial-services"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "NIS2 Article 20(1) approve, oversee, liability; 20(2) management body training required, employee training encouraged; 21(2)(g) cyber hygiene and training; Article 41 transposition by 17 October 2024, apply from 18 October 2024; Article 34 fines EUR 10m/2% and EUR 7m/1.4% (reused from regulation/nis2-management-body-training)",
+      "source": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+    },
+    {
+      "claim": "NIS2 Article 4 sector specific Union acts apply where at least equivalent; Article 23(4) 24 hours early warning, 72 hours notification, one month final report; size cap medium or larger (fetched 2026-11-08); recital 28 DORA is sector specific act",
+      "source": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+    },
+    {
+      "claim": "Implementing Regulation 2024/2690 annex section 8: awareness program incl. management bodies, effectiveness testing, role training",
+      "source": "https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj/eng"
+    },
+    {
+      "claim": "DORA Article 13(6) compulsory modules for all employees and senior management, ICT TPPs where appropriate per Article 30(2)(i); Article 5(4) regular specific training; Article 5(2)(a) ultimate responsibility; Article 64 applies from 17 January 2025; Article 2(1) twenty financial entity types (reused from regulation/dora-ict-security-awareness-training)",
+      "source": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng"
+    },
+    {
+      "claim": "DORA Article 1(2) lex specialis with regard to Directive (EU) 2022/2555; Article 19 initial notification, intermediate and final reports; Article 50 administrative penalties set by Member States (fetched 2026-11-08)",
+      "source": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng"
+    },
+    {
+      "claim": "NIS2 Article 21(2)(d) supply chain security; DORA Article 2(1)(f) crypto-asset service providers; DORA Article 30(2)(i) conditions for participation of ICT third-party service providers in awareness programmes and training (EUR-Lex HTML text read 2026-11-08)",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R2554"
+    },
+    {
+      "claim": "Delegated Regulation 2024/1774 Article 19 HR policy: staff informed of ICT security policies and reporting channels",
+      "source": "https://eur-lex.europa.eu/eli/reg_del/2024/1774/oj/eng"
+    },
+    {
+      "claim": "EIOPA: DORA entered into application on 17 January 2025",
+      "source": "https://www.eiopa.europa.eu/digital-operational-resilience-act-dora_en"
+    },
+    {
+      "claim": "Commission reasoned opinions to 19 Member States on 7 May 2025 for failing to notify full NIS2 transposition",
+      "source": "https://digital-strategy.ec.europa.eu/en/policies/nis-transposition"
+    },
+    {
+      "claim": "Decree-Law 125/2025 transposes NIS2; in force 120 days after publication (3 April 2026); regime Article 15 BdP, CMVM, ASF for digital operational resilience of the financial sector",
+      "source": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401"
+    }
+  ]
+}

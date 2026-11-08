@@ -1,0 +1,365 @@
+{
+  "slug": "eu-gmp-vs-fda-cgmp-training-requirements",
+  "kind": "comparison",
+  "title": "EU GMP vs FDA CGMP: how do personnel training requirements differ?",
+  "seoTitle": "EU GMP vs FDA CGMP training",
+  "description": "EU GMP Chapter 2 requires approved training programs with assessed effectiveness; FDA's 21 CFR 211.25 requires continuing CGMP training by qualified people.",
+  "shortAnswer": "EU Good Manufacturing Practice (GMP) and US Food and Drug Administration (FDA) current good manufacturing practice (CGMP) both require medicine manufacturers to train staff in their operations and in GMP, initially and on a continuing basis. The EU text is more prescriptive about the training system: programs approved by the head of Production or Quality Control, practical effectiveness periodically assessed and records kept. FDA's 21 CFR 211.25 is shorter, requiring continuing training by qualified individuals with sufficient frequency.",
+  "keyTakeaways": [
+    "EU GMP training rules sit in Commission Directive (EU) 2017/1572 Article 7(4) and EudraLex Volume 4, Part I, Chapter 2, paragraphs 2.10 to 2.14.",
+    "FDA's core rule for finished drugs is 21 CFR 211.25: education, training and experience for assigned functions, with CGMP training by qualified individuals on a continuing basis.",
+    "The EU states outright that training effectiveness must be verified; FDA's regulation does not, though its 2006 Quality Systems guidance describes evaluating training effectiveness.",
+    "Sterile manufacturing adds detailed EU requirements in Annex 1 (2022), including annual gowning requalification and aseptic process simulation participation.",
+    "For active pharmaceutical ingredients, both regions use ICH Q7, whose section 3.12 sets common training expectations."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the core difference between EU GMP and FDA CGMP training requirements?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The core difference is how much of the training system the text specifies. Both require trained staff and continuing GMP training. The EU also specifies who approves programs, that effectiveness is assessed and that records are kept; FDA's regulation sets the outcome and leaves the system design to the manufacturer."
+        },
+        {
+          "type": "p",
+          "text": "[Commission Directive (EU) 2017/1572](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32017L1572), Article 7(4), requires personnel to receive initial and ongoing training, the effectiveness of which shall be verified, covering the theory and application of quality assurance and GMP. [Chapter 2 of the EU GMP Guide](https://health.ec.europa.eu/document/download/11f4f8e6-a6e9-4897-afe3-f21e1dc56cb8_en?filename=2014-03_chapter_2.pdf) then sets the detail: paragraph 2.10 covers everyone whose duties take them into production and storage areas or control laboratories, including technical, maintenance and cleaning staff; paragraph 2.11 requires basic GMP and quality system training, duty specific training for new recruits, continuing training with practical effectiveness periodically assessed, programs approved by the head of Production or head of Quality Control, and kept records. See [EU GMP Chapter 2 personnel training requirements](/regulations/eu-gmp-chapter-2-personnel-training-requirements)."
+        },
+        {
+          "type": "p",
+          "text": "[21 CFR 211.25(a)](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B) requires each person engaged in the manufacture, processing, packing or holding of a drug product to have the education, training and experience to perform their assigned functions. Training must cover the particular operations the employee performs and CGMP as it relates to their functions, and CGMP training must be conducted by qualified individuals on a continuing basis and with sufficient frequency to keep employees familiar with the requirements. See [FDA GMP personnel training requirements](/regulations/fda-gmp-personnel-training-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do EU GMP and FDA CGMP compare side by side?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They agree on scope and continuity, and differ on program governance, effectiveness and named roles. The table compares them as at November 2026."
+        },
+        {
+          "type": "table",
+          "caption": "EU GMP and FDA CGMP personnel training requirements compared, as at November 2026",
+          "head": [
+            "Dimension",
+            "European Union: Directive (EU) 2017/1572 and EudraLex Volume 4",
+            "United States: 21 CFR Parts 210 and 211"
+          ],
+          "rows": [
+            [
+              "Who must be trained",
+              "All personnel whose duties take them into production, storage or control laboratories, and others whose activities could affect quality (2.10)",
+              "Each person engaged in manufacture, processing, packing or holding (211.25(a)); supervisors (211.25(b))"
+            ],
+            [
+              "Content",
+              "Basic GMP and the quality management system, plus duty specific training (2.11); pharmaceutical quality system discussed in training (2.14)",
+              "Particular operations performed and CGMP, including the regulations and written procedures (211.25(a))"
+            ],
+            [
+              "Frequency",
+              "At recruitment and continuing (2.11)",
+              "On a continuing basis and with sufficient frequency (211.25(a))"
+            ],
+            [
+              "Who delivers or approves",
+              "Programs approved by the head of Production or head of Quality Control (2.11); departmental heads ensure training (2.7, 2.8)",
+              "CGMP training conducted by qualified individuals (211.25(a))"
+            ],
+            [
+              "Effectiveness",
+              "Effectiveness verified (Article 7(4)); practical effectiveness periodically assessed (2.11)",
+              "Not stated in 211.25; 2006 Quality Systems guidance describes evaluating effectiveness"
+            ],
+            [
+              "Records",
+              "Training records kept (2.11)",
+              "No training record clause in 211.25; records must be available for inspection under 211.180(c), and inspectors expect training documentation"
+            ],
+            [
+              "Hygiene and access",
+              "Specific training for contamination hazard areas (2.12); visitors (2.13)",
+              "Clothing, sanitation, limited access and health reporting instruction (211.28)"
+            ],
+            [
+              "Consultants",
+              "Records of name, address, qualifications and type of service (2.23)",
+              "Same record set required (211.34)"
+            ],
+            [
+              "Consequence of failure",
+              "Non compliance with the GMP principles of the Directive",
+              "Drug deemed adulterated under section 501(a)(2)(B) of the FD&C Act (210.1)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "specialized-areas",
+      "heading": "How do sterile, API and computerized system requirements compare?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Specialized areas widen the gap. The EU has detailed sterile and computerized system annexes; FDA relies on its regulations, Part 11 and guidance. For active pharmaceutical ingredients the two converge through ICH Q7."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Sterile manufacturing:** EU [Annex 1](https://health.ec.europa.eu/document/download/e05af55b-38e9-42bf-8495-194bbf0b9262_en?filename=20220825_gmp-an1_en_0.pdf), in operation since August 25, 2023, requires regular training, gowning qualification and assessment for everyone entering cleanrooms; grade A and B gowning reassessment at least annually with visual and microbial checks; and each operator to take part in at least one successful aseptic process simulation every year. See [EU GMP Annex 1 sterile manufacturing training](/regulations/eu-gmp-annex-1-sterile-manufacturing-training).",
+            "**Active pharmaceutical ingredients:** FDA has published [ICH Q7](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q7-good-manufacturing-practice-guidance-active-pharmaceutical-ingredients-guidance-industry) as guidance; its section 3.12 requires training by qualified individuals covering the operations performed and GMP, with records and periodic assessment. Part II of the EU and PIC/S GMP Guides, for active substances, carries the same paragraph 3.12.",
+            "**Computerized systems:** FDA's [21 CFR 11.10(i)](https://www.law.cornell.edu/cfr/text/21/11.10) requires a determination that people who develop, maintain or use electronic record systems have the education, training and experience for their tasks. EU [Annex 11 (2011)](https://health.ec.europa.eu/document/download/8d305550-dd22-4dad-8463-2ddb4a1345f1_en?filename=annex11_01-2011_en.pdf) requires appropriate qualifications, access levels and defined responsibilities; a [2025 consultation draft](https://health.ec.europa.eu/document/download/40231f18-e564-4043-94de-c031f813d38b_en?filename=mp_vol4_chap4_annex11_consultation_guideline_en.pdf) would add system specific training and recurrent security awareness training."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Practical consequence",
+          "text": "A site exporting to both markets should design its training system to the EU text, which is more explicit, and test it against FDA expectations. Approved programs, assessed effectiveness and complete records satisfy both; a sign off only approach satisfies neither inspector's practical expectations."
+        }
+      ]
+    },
+    {
+      "id": "which-applies",
+      "heading": "Which applies to your site?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The rules of the market a product is supplied to apply, wherever the site is. A site manufacturing for both the EU and the US must meet both, and is inspected by both."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Sites supplying the EU:** EU GMP applies, enforced by national competent authorities. Chapter 2 and the relevant annexes set the training system.",
+            "**Sites supplying the US:** 21 CFR Parts 210 and 211 apply to finished pharmaceuticals, with FDA inspection of foreign and domestic sites.",
+            "**Australian and other PIC/S markets:** the PIC/S GMP Guide mirrors EU Chapter 2; see [TGA GMP personnel training requirements](/regulations/tga-gmp-personnel-training-requirements). Japan has its own ordinance; see [Japan GMP personnel training requirements](/regulations/japan-gmp-personnel-training-requirements).",
+            "**Medical devices:** neither text applies; see [ISO 9001 vs ISO 13485](/compare/iso-9001-vs-iso-13485) for FDA's Quality Management System Regulation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "one-system",
+      "heading": "How can one GMP training system satisfy both?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Combine the EU's governance and effectiveness rules with FDA's emphasis on qualified trainers and sufficient frequency. The illustrative mapping below shows one design."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping of one GMP training system to EU and FDA requirements",
+          "head": [
+            "Element",
+            "EU lens",
+            "FDA lens",
+            "Design choice"
+          ],
+          "rows": [
+            [
+              "Program approval",
+              "Head of Production or Quality Control approves (2.11)",
+              "Not specified",
+              "Quality head approves every curriculum and change"
+            ],
+            [
+              "Trainer qualification",
+              "Not separately specified in 2.11",
+              "Qualified individuals (211.25(a))",
+              "Documented trainer qualification for each topic"
+            ],
+            [
+              "Frequency",
+              "Continuing",
+              "Continuing and sufficient frequency",
+              "Risk based refresh cycle plus change triggered retraining"
+            ],
+            [
+              "Effectiveness",
+              "Verified and periodically assessed",
+              "Evaluated per 2006 guidance",
+              "Practical assessment and trend review of deviations linked to training"
+            ],
+            [
+              "Records",
+              "Kept",
+              "Available for inspection",
+              "Records tied to SOP version and assessment result"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Link each standard operating procedure to the roles that use it and the assessment that proves competence; see [how to build a training matrix for a pharmaceutical site](/guides/how-to-build-a-training-matrix-for-a-pharmaceutical-site) and [read and understand vs competency based SOP training](/compare/read-and-understand-vs-competency-based-sop-training)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps each SOP, role and GMP provision, in both the EU and US texts, to the knowledge and assessment points that show competence, with provenance to the source. A procedure change then identifies the affected roles, modules and assessments, which is the evidence both regions' inspectors look for."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does FDA require training effectiveness to be measured?",
+      "a": "Not in the text of 21 CFR 211.25. FDA's 2006 guidance on a quality systems approach to CGMP describes training programs that include evaluation of training needs, provision, evaluation of effectiveness and documentation, and states that it does not introduce new requirements. EU GMP, by contrast, requires effectiveness to be verified and periodically assessed."
+    },
+    {
+      "q": "Is there a fixed GMP refresher interval in either region?",
+      "a": "No general one. EU Chapter 2 requires continuing training and FDA requires training with sufficient frequency, so the interval is the manufacturer's risk based decision. Specific annexes do set intervals: EU Annex 1 requires annual gowning requalification and annual aseptic process simulation participation for operators."
+    },
+    {
+      "q": "Who approves training programs under EU GMP?",
+      "a": "Paragraph 2.11 of Chapter 2 requires training programs to be available, approved by the head of Production or the head of Quality Control as appropriate. Paragraphs 2.7 and 2.8 make those heads responsible for initial and continuing training of their department's staff, and paragraph 2.9 lists training among shared responsibilities."
+    },
+    {
+      "q": "Do consultants need training records?",
+      "a": "Both regions require records of consultants' name, address, qualifications and type of service: EU Chapter 2 paragraph 2.23 and FDA 21 CFR 211.34. Both also require consultants to have adequate education, training and experience for the matters on which they advise."
+    }
+  ],
+  "sources": [
+    {
+      "title": "EudraLex Volume 4, Part 1, Chapter 2: Personnel",
+      "publisher": "European Commission",
+      "url": "https://health.ec.europa.eu/document/download/11f4f8e6-a6e9-4897-afe3-f21e1dc56cb8_en?filename=2014-03_chapter_2.pdf"
+    },
+    {
+      "title": "Commission Directive (EU) 2017/1572 on the principles and guidelines of good manufacturing practice for medicinal products for human use",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32017L1572"
+    },
+    {
+      "title": "EudraLex Volume 4: Good Manufacturing Practice (GMP) guidelines",
+      "publisher": "European Commission",
+      "url": "https://health.ec.europa.eu/medicinal-products/eudralex/eudralex-volume-4_en"
+    },
+    {
+      "title": "EudraLex Volume 4, Annex 1: Manufacture of Sterile Medicinal Products, C(2022) 5938 final",
+      "publisher": "European Commission",
+      "url": "https://health.ec.europa.eu/document/download/e05af55b-38e9-42bf-8495-194bbf0b9262_en?filename=20220825_gmp-an1_en_0.pdf"
+    },
+    {
+      "title": "EudraLex Volume 4, Annex 11: Computerised Systems (January 2011)",
+      "publisher": "European Commission",
+      "url": "https://health.ec.europa.eu/document/download/8d305550-dd22-4dad-8463-2ddb4a1345f1_en?filename=annex11_01-2011_en.pdf"
+    },
+    {
+      "title": "Draft revised Annex 11: Computerised Systems (consultation version, July 2025)",
+      "publisher": "European Commission",
+      "url": "https://health.ec.europa.eu/document/download/40231f18-e564-4043-94de-c031f813d38b_en?filename=mp_vol4_chap4_annex11_consultation_guideline_en.pdf"
+    },
+    {
+      "title": "21 CFR Part 211, Subpart B: Organization and Personnel",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B"
+    },
+    {
+      "title": "21 CFR 210.1: Status of current good manufacturing practice regulations",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-210/section-210.1"
+    },
+    {
+      "title": "21 CFR Part 211, Subpart J: Records and Reports",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-J"
+    },
+    {
+      "title": "Quality Systems Approach to Pharmaceutical Current Good Manufacturing Practice Regulations",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-systems-approach-pharmaceutical-current-good-manufacturing-practice-regulations"
+    },
+    {
+      "title": "Q7 Good Manufacturing Practice Guidance for Active Pharmaceutical Ingredients",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q7-good-manufacturing-practice-guidance-active-pharmaceutical-ingredients-guidance-industry"
+    },
+    {
+      "title": "PIC/S Guide to Good Manufacturing Practice for Medicinal Products, Part II (PE 009-18)",
+      "publisher": "Pharmaceutical Inspection Co-operation Scheme (PIC/S)",
+      "url": "https://picscheme.org/docview/11334"
+    },
+    {
+      "title": "21 CFR 11.10 Controls for closed systems",
+      "publisher": "Legal Information Institute (eCFR text), Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/21/11.10"
+    }
+  ],
+  "related": [
+    "eu-gmp-chapter-2-personnel-training-requirements",
+    "fda-gmp-personnel-training-requirements",
+    "eu-gmp-annex-1-sterile-manufacturing-training",
+    "tga-gmp-personnel-training-requirements",
+    "how-to-build-a-training-matrix-for-a-pharmaceutical-site",
+    "read-and-understand-vs-competency-based-sop-training"
+  ],
+  "productLinks": [
+    {
+      "label": "Healthcare and life sciences",
+      "href": "/industries/healthcare-life-sciences"
+    },
+    {
+      "label": "Operational procedures programs",
+      "href": "/programs/operational-procedures"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "Directive (EU) 2017/1572 Article 7(4): initial and ongoing training, effectiveness verified, theory and application of QA and GMP (reused from regulation/eu-gmp-chapter-2-personnel-training-requirements)",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32017L1572"
+    },
+    {
+      "claim": "Chapter 2 paragraphs 2.10, 2.11, 2.12, 2.13, 2.14; 2.7(vi) and 2.8(vii) heads ensure training; 2.9(v) shared responsibility; 2.23 consultant records",
+      "source": "https://health.ec.europa.eu/document/download/11f4f8e6-a6e9-4897-afe3-f21e1dc56cb8_en?filename=2014-03_chapter_2.pdf"
+    },
+    {
+      "claim": "21 CFR 211.25(a) to (c), 211.28, 211.34 text",
+      "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B"
+    },
+    {
+      "claim": "210.1: failure to comply renders drug adulterated under section 501(a)(2)(B)",
+      "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-210/section-210.1"
+    },
+    {
+      "claim": "211.180(c): records readily available for authorized inspection during retention period",
+      "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-J"
+    },
+    {
+      "claim": "2006 Quality Systems guidance: training needs, provision, evaluation of effectiveness, documentation; does not introduce new requirements",
+      "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-systems-approach-pharmaceutical-current-good-manufacturing-practice-regulations"
+    },
+    {
+      "claim": "ICH Q7 section 3.12: training by qualified individuals, records, periodic assessment",
+      "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q7-good-manufacturing-practice-guidance-active-pharmaceutical-ingredients-guidance-industry"
+    },
+    {
+      "claim": "PIC/S GMP Guide Part II paragraph 3.12: API training by qualified individuals, records, periodic assessment (reused from regulation/tga-gmp-personnel-training-requirements)",
+      "source": "https://picscheme.org/docview/11334"
+    },
+    {
+      "claim": "Annex 1: in operation 25 August 2023; 7.3 regular training and gowning qualification; 7.4 grade A/B reassessment at least annually, visual and microbial; 9.38 each operator at least one successful APS annually",
+      "source": "https://health.ec.europa.eu/document/download/e05af55b-38e9-42bf-8495-194bbf0b9262_en?filename=20220825_gmp-an1_en_0.pdf"
+    },
+    {
+      "claim": "21 CFR 11.10(i) education, training and experience for persons who develop, maintain or use electronic systems",
+      "source": "https://www.law.cornell.edu/cfr/text/21/11.10"
+    },
+    {
+      "claim": "Annex 11 (2011) personnel clause; draft Annex 11 consultation 2025 sections 5.2 system specific training and 15.3 recurrent security awareness training",
+      "source": "https://health.ec.europa.eu/document/download/40231f18-e564-4043-94de-c031f813d38b_en?filename=mp_vol4_chap4_annex11_consultation_guideline_en.pdf"
+    },
+    {
+      "claim": "EudraLex Volume 4 page lists Annex 11 revision January 2011 as current (read 8 November 2026 in sibling page)",
+      "source": "https://health.ec.europa.eu/medicinal-products/eudralex/eudralex-volume-4_en"
+    }
+  ]
+}

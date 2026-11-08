@@ -1,0 +1,328 @@
+{
+  "slug": "aml-vs-kyc",
+  "kind": "comparison",
+  "title": "AML vs KYC: what is the difference, and what training does each need?",
+  "seoTitle": "AML vs KYC: the difference",
+  "description": "AML is the whole program to prevent money laundering; KYC is its customer identification and due diligence part. Training must cover both, by role.",
+  "shortAnswer": "Anti-money laundering (AML) is the full program a regulated business must run to detect and prevent money laundering and terrorism financing: risk assessment, internal controls, a compliance officer, independent testing, reporting and staff training. Know your customer (KYC) is one component of that program: identifying customers, verifying who they and their beneficial owners are, understanding the relationship and monitoring it. Regulations usually call KYC customer identification and customer due diligence.",
+  "keyTakeaways": [
+    "KYC is a subset of AML: every AML program includes customer due diligence, but AML also covers controls, reporting, sanctions, governance and training.",
+    "KYC is an industry term: the US regulations cited here use customer identification program (CIP) and customer due diligence (CDD), and the EU AMLR uses customer due diligence.",
+    "US banks must have five program elements, including training for appropriate personnel and risk based ongoing customer due diligence (31 CFR 1020.210(a)(2)).",
+    "Beneficial ownership is a KYC task: US rules identify individuals owning 25% or more of a legal entity customer plus one controlling individual.",
+    "Training is an AML program requirement, but much of what it must teach front line staff is KYC: collecting, verifying and escalating customer information."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the core difference between AML and KYC?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AML is the system; KYC is the part of the system that deals with knowing the customer. An organization can have flawless KYC onboarding and still fail AML obligations if it does not monitor transactions, report suspicious activity, train staff or test its controls."
+        },
+        {
+          "type": "p",
+          "text": "In the United States, 31 U.S.C. 5318(h)(1) requires financial institutions to maintain AML programs with, at minimum, internal policies and controls, a designated compliance officer, an ongoing employee training program and independent audit, as summarized in FinCEN's [April 2026 proposed rule](https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs). For banks, [31 CFR 1020.210(a)(2)](https://www.law.cornell.edu/cfr/text/31/1020.210) lists five elements: internal controls, independent testing, a designated compliance individual, training for appropriate personnel, and appropriate risk based procedures for conducting ongoing customer due diligence. The fifth element is where KYC lives."
+        },
+        {
+          "type": "p",
+          "text": "In the EU, the Anti-Money Laundering Regulation, [Regulation (EU) 2024/1624](https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng) (AMLR), which applies from July 10, 2027, follows the same pattern. Chapter III, headed Customer Due Diligence, sets the KYC measures; other chapters cover internal policies, the compliance function, reporting and record keeping, and Article 12 requires training. See [EU AMLR training requirements](/regulations/eu-amlr-training-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do AML and KYC compare side by side?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They differ in scope, ownership and evidence. The table uses US and EU rules as examples, as at November 2026."
+        },
+        {
+          "type": "table",
+          "caption": "AML program and KYC compared, using US and EU rules as examples, as at November 2026",
+          "head": [
+            "Dimension",
+            "AML program",
+            "KYC (customer identification and due diligence)"
+          ],
+          "rows": [
+            [
+              "What it is",
+              "The organization wide program to prevent, detect and report money laundering and terrorism financing",
+              "The measures to identify, verify and understand each customer and monitor the relationship"
+            ],
+            [
+              "US legal basis",
+              "31 U.S.C. 5318(h)(1); for banks, 31 CFR 1020.210",
+              "31 CFR 1020.220 (customer identification program), 1010.230 (beneficial ownership), 1020.210(a)(2)(v) (ongoing due diligence)"
+            ],
+            [
+              "EU legal basis",
+              "AMLR as a whole, including internal policies (Article 9), compliance functions (Article 11) and training (Article 12)",
+              "AMLR Chapter III, including when due diligence applies (Article 19), the measures (Article 20), ongoing monitoring (Article 26) and enhanced due diligence (Article 34)"
+            ],
+            [
+              "Core activities",
+              "Risk assessment, controls, compliance officer, independent testing, suspicious activity reporting, record keeping, training",
+              "Collect identifying information, verify identity, identify beneficial owners, understand purpose and nature, build a risk profile, monitor and update"
+            ],
+            [
+              "Typical owner",
+              "Board approved program run by the AML compliance officer",
+              "Onboarding, operations and relationship teams, with compliance oversight"
+            ],
+            [
+              "When it applies",
+              "Continuously, across the business",
+              "At onboarding and through the life of each relationship, and on triggers such as doubts about earlier information"
+            ],
+            [
+              "Evidence",
+              "Program documents, risk assessment, independent test reports, training records, reports filed",
+              "Customer files: identification records, verification steps, beneficial ownership certification, risk rating, review history"
+            ],
+            [
+              "Who needs training",
+              "All appropriate personnel, the board and, where relevant, agents",
+              "Staff who onboard, verify, review or monitor customers"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kyc-elements",
+      "heading": "What does KYC require in practice?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "KYC has four recurring elements in both US and EU rules: identify the customer, verify the identity, identify the beneficial owners, and understand and monitor the relationship. Enhanced measures apply where risk is higher."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Identify and verify the customer.** A US bank's customer identification program must include risk based procedures for verifying each customer's identity to the extent reasonable and practicable, obtaining at minimum name, date of birth for an individual, address and an identification number ([31 CFR 1020.220](https://www.law.cornell.edu/cfr/text/31/1020.220)). Identifying information must be kept for five years after the account is closed.",
+            "**Identify beneficial owners.** [31 CFR 1010.230](https://www.law.cornell.edu/cfr/text/31/1010.230) requires written procedures to identify and verify the beneficial owners of legal entity customers: each individual who owns 25 percent or more of the equity interests, and a single individual with significant responsibility to control, manage or direct the entity. AMLR Article 20(1)(b) likewise requires identifying beneficial owners and taking reasonable measures to verify them.",
+            "**Understand the relationship.** US banks must understand the nature and purpose of customer relationships to develop a customer risk profile (1020.210(a)(2)(v)(A)); AMLR Article 20 requires assessing the purpose and intended nature of the business relationship.",
+            "**Monitor and update.** US banks must conduct ongoing monitoring to identify and report suspicious transactions and keep customer information current, including beneficial ownership (1020.210(a)(2)(v)(B)); AMLR Article 26 requires regular, risk based review of customer information and scrutiny of transactions."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Practical consequence",
+          "text": "Weak KYC usually shows up as an AML failure: an unexplained transaction cannot be assessed against a risk profile that was never built. Training that teaches staff why each data point is collected, and what to escalate, produces better files than training that teaches only which boxes to fill."
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "heading": "What training does each require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training is an AML program requirement in every major regime; KYC is a large part of its content for front line roles. Regulators expect training tailored to each role, not one generic module."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**United States:** banks must provide training for appropriate personnel under 1020.210(a)(2)(iv). The [FFIEC BSA/AML Examination Manual](https://bsaaml.ffiec.gov/manual/AssessingTheBSAAMLComplianceProgram/05) expects training tailored to the person's responsibilities, covering the institution's own policies, for staff, the board and agents, and documented with materials, dates and attendance. See [BSA AML training requirements](/regulations/bsa-aml-training-requirements).",
+            "**European Union:** AMLR Article 12 requires specific, ongoing training programs for employees, agents and distributors, appropriate to their functions and risks and duly documented, and Article 13 requires assessing relevant staff's skills, knowledge and integrity.",
+            "**Australia:** section 5-9 of the [AML/CTF Rules 2025](https://www.legislation.gov.au/F2025L01026/latest) requires initial and ongoing training appropriate to each person's function, risks and responsibilities, and readily understandable. AUSTRAC states that e-learning cannot be relied on solely. See [AUSTRAC AML/CTF training requirements](/regulations/austrac-aml-ctf-training-requirements).",
+            "**Other markets:** the [AML training requirements by country](/compare/aml-training-requirements-by-country) comparison covers Portugal, Japan and the UAE."
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative role mapping of AML and KYC training content",
+          "head": [
+            "Role",
+            "KYC content",
+            "Wider AML content",
+            "Assessment evidence"
+          ],
+          "rows": [
+            [
+              "Onboarding staff",
+              "Identification, verification, beneficial ownership, risk rating",
+              "Red flags, escalation, tipping off",
+              "Scenario based file review with pass mark"
+            ],
+            [
+              "Relationship managers",
+              "Purpose and nature, periodic review, enhanced due diligence triggers",
+              "Unusual activity and internal reporting",
+              "Case study assessment"
+            ],
+            [
+              "Monitoring analysts",
+              "Using customer risk profiles in alert review",
+              "Suspicious activity reporting, sanctions",
+              "Graded alert dispositions"
+            ],
+            [
+              "Board and senior managers",
+              "Customer risk appetite and high risk segments",
+              "Program oversight, risk assessment, accountability",
+              "Recorded briefing and questions"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "which-applies",
+      "heading": "Which applies to your organization?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "If an organization is a regulated reporting entity, both apply: KYC is not optional within an AML program. What varies is which sector rules set the detail."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Banks, broker dealers, money services businesses and insurers in the US:** sector program rules in 31 CFR Chapter X, with CIP and CDD requirements for covered institutions.",
+            "**Obliged entities in the EU:** national laws now, and the AMLR from July 10, 2027, which applies directly.",
+            "**Australian reporting entities:** the reformed AML/CTF Act and 2025 Rules, applying to newly regulated professions from July 1, 2026.",
+            "**Unregulated businesses doing KYC for commercial reasons:** for example, platforms verifying users to reduce fraud. They run KYC without an AML program obligation, but should not describe it as AML compliance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models the AML program as a set of obligations and the KYC steps as procedures linked to them, with provenance to each rule. Role based learning outcomes and assessments are then defined per step, so training records show which customer due diligence tasks each person has demonstrated, not only that a module was completed."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is KYC a legal requirement?",
+      "a": "For regulated financial institutions and other obliged entities, yes, under the names customer identification and customer due diligence. US banks must run a written customer identification program and ongoing due diligence, and the EU AMLR sets customer due diligence measures in Chapter III. Businesses outside these regimes may perform KYC voluntarily."
+    },
+    {
+      "q": "What is the difference between KYC and CDD?",
+      "a": "The terms overlap. In US rules, the customer identification program covers collecting and verifying identity at account opening, and customer due diligence covers beneficial ownership, understanding the relationship and ongoing monitoring. KYC is the informal umbrella term for both. The EU AMLR uses customer due diligence for the whole set."
+    },
+    {
+      "q": "Does AML training need to cover KYC?",
+      "a": "For roles that onboard or review customers, yes. Regulators expect training tailored to each role's responsibilities, and for front line staff those responsibilities are mainly customer due diligence. Staff in other roles still need the wider AML content: red flags, internal reporting and the prohibition on tipping off."
+    },
+    {
+      "q": "What is know your employee?",
+      "a": "An informal term for screening staff. The EU AMLR Article 13 requires assessing relevant employees' skills, knowledge, expertise, good repute, honesty and integrity, and Australia's AML/CTF Rules section 5-8 requires similar personnel due diligence before and during employment. It is part of the AML program, separate from customer KYC."
+    }
+  ],
+  "sources": [
+    {
+      "title": "31 CFR 1020.210 Anti-money laundering program requirements for banks",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/31/1020.210"
+    },
+    {
+      "title": "31 CFR 1020.220 Customer identification program requirements for banks",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/31/1020.220"
+    },
+    {
+      "title": "31 CFR 1010.230 Beneficial ownership requirements for legal entity customers",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/31/1010.230"
+    },
+    {
+      "title": "Anti-Money Laundering and Countering the Financing of Terrorism Programs (proposed rule, 91 FR 18704, April 10, 2026)",
+      "publisher": "FinCEN, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"
+    },
+    {
+      "title": "BSA/AML Training",
+      "publisher": "FFIEC BSA/AML Examination Manual",
+      "url": "https://bsaaml.ffiec.gov/manual/AssessingTheBSAAMLComplianceProgram/05"
+    },
+    {
+      "title": "Regulation (EU) 2024/1624 on the prevention of the use of the financial system for money laundering or terrorist financing (AMLR)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "title": "Anti-Money Laundering and Counter-Terrorism Financing Rules 2025",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2025L01026/latest"
+    },
+    {
+      "title": "AML/CTF training",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    },
+    {
+      "title": "About the reforms",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/about-amlctf-reforms/about-reforms"
+    }
+  ],
+  "related": [
+    "bsa-aml-training-requirements",
+    "eu-amlr-training-requirements",
+    "austrac-aml-ctf-training-requirements",
+    "aml-training-requirements-by-country",
+    "fit-and-proper-vs-competence",
+    "how-to-build-a-training-matrix-for-a-bank"
+  ],
+  "productLinks": [
+    {
+      "label": "Financial services",
+      "href": "/industries/financial-services"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "31 CFR 1020.210(a)(2)(i) to (v): internal controls, independent testing, designated individual, training for appropriate personnel, risk based ongoing CDD including (A) nature and purpose for customer risk profile and (B) ongoing monitoring and updating customer information including beneficial ownership (fetched 2026-11-08)",
+      "source": "https://www.law.cornell.edu/cfr/text/31/1020.210"
+    },
+    {
+      "claim": "31 CFR 1020.220(a)(1) written CIP; (a)(2) risk based verification to extent reasonable and practicable; (a)(2)(i)(A) name, date of birth, address, identification number; (a)(3) identifying information kept five years after account closed (fetched 2026-11-08)",
+      "source": "https://www.law.cornell.edu/cfr/text/31/1020.220"
+    },
+    {
+      "claim": "31 CFR 1010.230(a) written procedures to identify and verify beneficial owners of legal entity customers; (d)(1) 25 percent ownership; (d)(2) single individual with significant responsibility to control (fetched 2026-11-08)",
+      "source": "https://www.law.cornell.edu/cfr/text/31/1010.230"
+    },
+    {
+      "claim": "31 U.S.C. 5318(h)(1) four pillars including an ongoing employee training program (reused from regulation/bsa-aml-training-requirements)",
+      "source": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"
+    },
+    {
+      "claim": "FFIEC manual training expectations: tailoring, board, agents, documentation of materials, dates, attendance",
+      "source": "https://bsaaml.ffiec.gov/manual/AssessingTheBSAAMLComplianceProgram/05"
+    },
+    {
+      "claim": "AMLR: applies from 10 July 2027; Chapter III Customer Due Diligence; Article 19 when CDD applies including doubts about previously obtained information; Article 20(1) measures including identify and verify customer, beneficial owners, purpose and intended nature; Article 26 ongoing monitoring; Article 34 enhanced due diligence; Articles 9, 11, 12, 13 (fetched 2026-11-08 and reused from regulation/eu-amlr-training-requirements)",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "claim": "AML/CTF Rules 2025 section 5-9 initial and ongoing training appropriate to function, risks and responsibilities, readily understandable; section 5-8 personnel due diligence",
+      "source": "https://www.legislation.gov.au/F2025L01026/latest"
+    },
+    {
+      "claim": "AUSTRAC: e-learning cannot be relied on solely",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    },
+    {
+      "claim": "AUSTRAC: newly regulated services regulated from 1 July 2026",
+      "source": "https://www.austrac.gov.au/industry-and-business/about-amlctf-reforms/about-reforms"
+    }
+  ]
+}

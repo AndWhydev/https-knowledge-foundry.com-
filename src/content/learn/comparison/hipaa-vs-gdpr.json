@@ -1,0 +1,329 @@
+{
+  "slug": "hipaa-vs-gdpr",
+  "kind": "comparison",
+  "title": "HIPAA vs GDPR: how do their workforce training duties differ?",
+  "seoTitle": "HIPAA vs GDPR training duties",
+  "description": "HIPAA names workforce privacy and security training as explicit duties with six year records; the GDPR requires training indirectly through accountability.",
+  "shortAnswer": "The Health Insurance Portability and Accountability Act (HIPAA) states training duties outright: covered entities must train every workforce member on privacy policies and run a security awareness and training program, keeping documentation for six years. The EU General Data Protection Regulation (GDPR) has no general training article. Training follows from its accountability, security and instruction duties, and from the data protection officer's task of monitoring staff awareness and training.",
+  "keyTakeaways": [
+    "HIPAA has two explicit training standards: the Privacy Rule at 45 CFR 164.530(b) and the Security Rule at 45 CFR 164.308(a)(5).",
+    "The GDPR reaches training indirectly, through Articles 5(2), 24, 29 and 32(4), and names it directly only for the data protection officer (Article 39) and binding corporate rules (Article 47).",
+    "Neither law currently fixes an annual training cycle; a January 2025 HIPAA proposal would add one for security awareness training.",
+    "HIPAA sets a six year documentation retention rule; the GDPR sets none for training but requires the controller to be able to demonstrate compliance.",
+    "HIPAA applies by sector (health plans, clearinghouses, certain providers and their business associates); the GDPR applies to most processing of personal data in or targeting the EU."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the core difference between HIPAA and GDPR training duties?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The core difference is explicitness. HIPAA writes training into its rules as named standards with timing and documentation requirements. The GDPR leaves training implicit: an organization trains staff because it cannot otherwise show that its measures are appropriate and that people process data only on instructions."
+        },
+        {
+          "type": "p",
+          "text": "Under the HIPAA Privacy Rule, [45 CFR 164.530(b)](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.530) requires a covered entity to train all members of its workforce on its policies and procedures for protected health information, as necessary and appropriate for their functions. New workforce members must be trained within a reasonable period after joining, staff affected by a material policy change within a reasonable period after it takes effect, and the training must be documented. The Security Rule at [45 CFR 164.308(a)(5)](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.308) separately requires a security awareness and training program for all workforce members, including management."
+        },
+        {
+          "type": "p",
+          "text": "The [GDPR](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504) contains no clause telling controllers to train every employee. Article 5(2) makes the controller responsible for, and able to demonstrate, compliance; Article 24 requires appropriate technical and organizational measures; Articles 29 and 32(4) require that people acting under the controller's or processor's authority process personal data only on instructions. Article 39(1)(b) gives the data protection officer the task of monitoring compliance, including awareness raising and training of staff. Detail is on [GDPR staff training requirements](/regulations/gdpr-staff-training-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do HIPAA and the GDPR compare side by side?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They differ on scope, on how the duty is written and on what an organization must keep as proof. The table compares them as at November 2026."
+        },
+        {
+          "type": "table",
+          "caption": "HIPAA and GDPR compared on workforce training, as at November 2026",
+          "head": [
+            "Dimension",
+            "United States: HIPAA Privacy and Security Rules",
+            "European Union: GDPR (Regulation (EU) 2016/679)"
+          ],
+          "rows": [
+            [
+              "Who is regulated",
+              "Covered entities (health plans, health care clearinghouses, health care providers conducting standard electronic transactions) and, for the Security Rule, business associates",
+              "Controllers and processors established in the EU, and those outside it that offer goods or services to, or monitor, people in the EU (Article 3)"
+            ],
+            [
+              "Data covered",
+              "Protected health information; the Security Rule covers electronic protected health information",
+              "All personal data, with extra conditions for special categories such as health data"
+            ],
+            [
+              "Explicit training duty",
+              "Yes: 164.530(b)(1) privacy training for all workforce members; 164.308(a)(5) security awareness and training program",
+              "No general clause; implied by Articles 5(2), 24, 29 and 32(4)"
+            ],
+            [
+              "Who must be trained",
+              "All workforce members, defined to include employees, volunteers, trainees and others under the entity's direct control",
+              "Persons acting under the authority of the controller or processor who have access to personal data"
+            ],
+            [
+              "Timing",
+              "Within a reasonable period of joining and after material policy changes; no fixed annual cycle in current text",
+              "Not specified; measures reviewed and updated where necessary (Article 24)"
+            ],
+            [
+              "Named content",
+              "Security reminders, protection from malicious software, log-in monitoring, password management (addressable specifications)",
+              "None in the text; the EDPB small business guide describes awareness of risks, measures and consequences"
+            ],
+            [
+              "Oversight role",
+              "Security official and privacy official designated by the entity",
+              "Data protection officer where Article 37 requires one; monitors awareness raising and training (Article 39(1)(b))"
+            ],
+            [
+              "Records",
+              "Training documented; documentation retained six years (164.530(j)(2))",
+              "No set retention period; must be able to demonstrate compliance (Article 5(2))"
+            ],
+            [
+              "Sanctions for staff",
+              "Required sanctions policy for workforce members who breach policies (164.530(e), 164.308(a)(1)(ii)(C))",
+              "Not specified; set by the organization and national employment law"
+            ],
+            [
+              "Maximum penalties",
+              "Tiered civil money penalties by culpability, adjusted annually (45 CFR 160.404)",
+              "Up to EUR 10 million or 2% of turnover for Articles 25 to 39, and up to EUR 20 million or 4% for Article 5 and others (Article 83)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security-training",
+      "heading": "How do the security training expectations compare?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "HIPAA lists security training topics; the GDPR leaves them to the controller's risk assessment. In practice both point toward role based training tied to the organization's actual controls."
+        },
+        {
+          "type": "p",
+          "text": "The four HIPAA security training specifications are addressable, not optional. Under [45 CFR 164.306(d)](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.306), an addressable specification must be implemented if reasonable and appropriate, or the entity must document why not and adopt an equivalent alternative where reasonable. A January 2025 [proposed rule](https://www.federalregister.gov/documents/2025/01/06/2024-30983/hipaa-security-rule-to-strengthen-the-cybersecurity-of-electronic-protected-health-information) would make security awareness training required at least once every 12 months, within 30 days of a new member gaining access and within 30 days of a material change. It is a proposal, so check the Federal Register for its status before building to it."
+        },
+        {
+          "type": "p",
+          "text": "Article 32 of the GDPR requires security appropriate to the risk, and Article 32(4) requires steps to ensure that anyone with access processes data only on instructions. The European Data Protection Board's [guide for small business](https://www.edpb.europa.eu/sme-data-protection-guide/secure-personal-data_en) describes making employees aware of risks, measures and consequences, with information security training and periodic reminders. Because Article 32 sits in the Article 83(4) fine band, a security failure linked to untrained staff is an enforceable gap."
+        },
+        {
+          "type": "callout",
+          "title": "Practical consequence",
+          "text": "A HIPAA auditor will usually ask to see the training documentation for a named workforce member. A GDPR supervisory authority will usually ask how the organization knows its measures, including training, are appropriate to the risk. Keep records that answer both: who was trained, on what, when, and how understanding was checked."
+        }
+      ]
+    },
+    {
+      "id": "which-applies",
+      "heading": "Which applies to your organization?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "HIPAA applies because of what an organization is: a covered entity or business associate under US law. The GDPR applies because of where processing happens or whose data is processed. Many health and life sciences groups fall under both for different activities."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**US health plans, clearinghouses and providers that conduct standard electronic transactions:** HIPAA applies to protected health information. Business associates are covered by the Security Rule and by their contracts. See [HIPAA security and privacy training](/regulations/hipaa-security-and-privacy-training).",
+            "**Organizations established in the EU:** the GDPR applies to their processing of personal data, including health data of patients, trial participants and employees.",
+            "**US organizations without an EU establishment:** the GDPR can still apply under Article 3(2) if they offer goods or services to, or monitor the behavior of, people in the EU. This needs a case by case assessment.",
+            "**Groups with both:** for example, a US provider with an EU research subsidiary. Run one privacy and security curriculum with jurisdiction modules, and map each role to the rules that reach it. The [data privacy training requirements by country](/compare/data-privacy-training-requirements-by-country) comparison covers other markets."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "one-program",
+      "heading": "How can one training program satisfy both?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Build to HIPAA's explicit timing and documentation rules, and to the GDPR's demand that training be appropriate to risk and demonstrable. The illustrative mapping below shows how one program element can serve both."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping of one privacy and security training program to HIPAA and the GDPR",
+          "head": [
+            "Element",
+            "HIPAA lens",
+            "GDPR lens",
+            "Design choice"
+          ],
+          "rows": [
+            [
+              "Onboarding",
+              "Within a reasonable period of joining (164.530(b)(2))",
+              "Before access, so processing is on instructions (Articles 29, 32(4))",
+              "Complete before system access is granted"
+            ],
+            [
+              "Policy change",
+              "Within a reasonable period after a material change",
+              "Measures reviewed and updated (Article 24)",
+              "Trigger targeted retraining from the policy change log"
+            ],
+            [
+              "Security content",
+              "Reminders, malware, log-in monitoring, passwords",
+              "Appropriate to risk (Article 32)",
+              "Cover HIPAA topics plus risks found in the risk assessment"
+            ],
+            [
+              "Proof",
+              "Documentation kept six years",
+              "Ability to demonstrate compliance (Article 5(2))",
+              "Keep completion, content version and assessment results for at least six years"
+            ],
+            [
+              "Oversight",
+              "Privacy and security officials",
+              "Data protection officer monitors training (Article 39(1)(b))",
+              "Report coverage and results to both roles"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Map each obligation once in a [compliance obligations register](/glossary/compliance-obligations-register), then link roles to modules through a [training matrix](/glossary/training-matrix). The method is set out in [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each HIPAA standard and GDPR article as a separate obligation with provenance to the source text, then links roles, learning outcomes and assessment points to them before content is written. One curriculum can carry both laws, and the evidence shows which obligation each record satisfies."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does HIPAA require annual training?",
+      "a": "Not in the current rule text. The Privacy Rule requires training within a reasonable period of joining and after material policy changes, and the Security Rule requires an ongoing awareness and training program without fixing a cycle. A January 2025 proposed rule would require security awareness training at least every 12 months, but a proposal is not binding until finalized."
+    },
+    {
+      "q": "Does the GDPR require a data protection officer to deliver training?",
+      "a": "No. Article 39(1)(b) makes monitoring compliance, including awareness raising and training of staff, one of the officer's tasks. The officer oversees training and the related audits; delivery can sit with HR, learning or security teams. Article 37 sets the three cases in which an officer must be appointed."
+    },
+    {
+      "q": "Is HIPAA training enough for GDPR compliance?",
+      "a": "Rarely on its own. HIPAA training covers protected health information and the entity's own policies. GDPR training must cover all personal data the role touches, data subject rights, lawful bases and the organization's EU specific procedures. Reuse the security content and add GDPR modules."
+    },
+    {
+      "q": "How long should training records be kept to satisfy both laws?",
+      "a": "HIPAA requires documentation to be retained for six years from creation or the date it was last in effect. The GDPR sets no training specific period, but the controller must be able to demonstrate compliance. Keeping training records for at least six years covers HIPAA; see [how long to keep training records](/guides/how-long-to-keep-training-records) for other regimes."
+    }
+  ],
+  "sources": [
+    {
+      "title": "45 CFR 164.530 Administrative requirements (Privacy Rule)",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.530"
+    },
+    {
+      "title": "45 CFR 164.308 Administrative safeguards (Security Rule)",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.308"
+    },
+    {
+      "title": "45 CFR 164.306 Security standards: General rules",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.306"
+    },
+    {
+      "title": "45 CFR 160.103 Definitions",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-160/subpart-A/section-160.103"
+    },
+    {
+      "title": "45 CFR 160.404 Amount of a civil money penalty",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-160/subpart-D/section-160.404"
+    },
+    {
+      "title": "HIPAA Security Rule To Strengthen the Cybersecurity of Electronic Protected Health Information (proposed rule, January 6, 2025)",
+      "publisher": "US Department of Health and Human Services, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2025/01/06/2024-30983/hipaa-security-rule-to-strengthen-the-cybersecurity-of-electronic-protected-health-information"
+    },
+    {
+      "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    },
+    {
+      "title": "Data protection guide for small business: Secure personal data",
+      "publisher": "European Data Protection Board",
+      "url": "https://www.edpb.europa.eu/sme-data-protection-guide/secure-personal-data_en"
+    }
+  ],
+  "related": [
+    "hipaa-security-and-privacy-training",
+    "gdpr-staff-training-requirements",
+    "data-privacy-training-requirements-by-country",
+    "ccpa-vs-gdpr",
+    "gdpr-vs-appi",
+    "how-long-to-keep-training-records"
+  ],
+  "productLinks": [
+    {
+      "label": "Healthcare and life sciences",
+      "href": "/industries/healthcare-life-sciences"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "164.530(b)(1) training of all workforce members; (b)(2) timing: new members within a reasonable period, material change within a reasonable period; documented. 164.530(e) sanctions; 164.530(j)(2) six year retention (reused from regulation/hipaa-security-and-privacy-training factCheck)",
+      "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.530"
+    },
+    {
+      "claim": "164.308(a)(5): security awareness and training program for all workforce members including management; four addressable specifications; sanction policy (a)(1)(ii)(C); security official designated under (a)(2), privacy official under 164.530(a)",
+      "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.308"
+    },
+    {
+      "claim": "164.306(d): addressable specifications implemented if reasonable and appropriate, or documented alternative",
+      "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.306"
+    },
+    {
+      "claim": "160.103 definitions of covered entity, business associate and workforce",
+      "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-160/subpart-A/section-160.103"
+    },
+    {
+      "claim": "160.404 tiered civil money penalties by culpability, adjusted annually",
+      "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-160/subpart-D/section-160.404"
+    },
+    {
+      "claim": "NPRM January 6, 2025: proposed annual security awareness training, 30 days for new members and material change; a proposal only (no final rule found in sibling checks through late 2026)",
+      "source": "https://www.federalregister.gov/documents/2025/01/06/2024-30983/hipaa-security-rule-to-strengthen-the-cybersecurity-of-electronic-protected-health-information"
+    },
+    {
+      "claim": "GDPR Articles 5(2), 24, 29, 32(4), 39(1)(b), 47(2)(n); Article 83(4) EUR 10m or 2% for Articles 25 to 39; 83(5) EUR 20m or 4% for Article 5; Article 3 territorial scope; Article 37 three DPO cases",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    },
+    {
+      "claim": "EDPB SME guide: make employees aware of risks, measures and consequences; information security training and awareness sessions with periodic reminders",
+      "source": "https://www.edpb.europa.eu/sme-data-protection-guide/secure-personal-data_en"
+    }
+  ]
+}

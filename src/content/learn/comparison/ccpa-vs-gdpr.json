@@ -1,0 +1,308 @@
+{
+  "slug": "ccpa-vs-gdpr",
+  "kind": "comparison",
+  "title": "CCPA vs GDPR: how do their staff training duties differ?",
+  "seoTitle": "CCPA vs GDPR training duties",
+  "description": "The CCPA names training for staff who handle consumer privacy requests; the GDPR requires training indirectly through accountability and security duties.",
+  "shortAnswer": "The California Consumer Privacy Act (CCPA), as amended by the CPRA, requires businesses to ensure that everyone handling consumer privacy inquiries knows the Act and how to direct consumers to exercise their rights, and its regulations require a documented training policy at 10 million consumers. The EU General Data Protection Regulation (GDPR) has no equivalent clause: training follows from its accountability, security and instruction duties and from the data protection officer's monitoring role.",
+  "keyTakeaways": [
+    "The CCPA's explicit training duty is narrow: it covers people who handle consumer inquiries about privacy rights (Civil Code sections 1798.130(a)(6) and 1798.135(c)(3)).",
+    "California regulation 11 CCR section 7100 adds a documented training policy for businesses handling personal information of 10,000,000 or more consumers a year.",
+    "The GDPR has no general training clause; Articles 5(2), 24, 29 and 32(4) make training the practical way to show appropriate measures and processing on instructions.",
+    "Both laws treat employees as data subjects: the CCPA's employment exemption became inoperative on January 1, 2023.",
+    "Newer California rules on cybersecurity audits, risk assessments and automated decisionmaking technology bring training into scope for more businesses from 2027 and 2028."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the core difference between CCPA and GDPR training duties?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The CCPA names a specific audience for training, the people who handle privacy requests, while the GDPR names no audience at all and instead requires an organization to prove its measures work. The result is that CCPA training is easy to scope but easy to under build, and GDPR training is broad but defined by risk."
+        },
+        {
+          "type": "p",
+          "text": "Under [Civil Code section 1798.130(a)(6)](https://cppa.ca.gov/pdf/20260101_ccpa_statute.pdf), a business must ensure that all individuals responsible for handling consumer inquiries about its privacy practices or compliance are informed of the Act's requirements on notice, access, deletion, correction, non discrimination and request handling, and know how to direct consumers to exercise their rights. Section 1798.135(c)(3) repeats the duty for opt out of sale or sharing and limits on sensitive personal information. The [CCPA regulations](https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf) at 11 CCR section 7100(a) extend it to all requirements in the regulations, and section 7100(b) requires a business that handles personal information of 10,000,000 or more consumers in a calendar year to establish, document and comply with a training policy."
+        },
+        {
+          "type": "p",
+          "text": "The [GDPR](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504) contains no counterpart. Article 5(2) makes the controller responsible for, and able to demonstrate, compliance; Article 24 requires appropriate measures; Articles 29 and 32(4) require that people acting under the controller's or processor's authority process personal data only on instructions; and Article 39(1)(b) tasks the data protection officer with monitoring awareness raising and training of staff. See [GDPR staff training requirements](/regulations/gdpr-staff-training-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do the CCPA and the GDPR compare side by side?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They differ on who is covered, which staff must be trained and how far documentation requirements go. The table compares them as at November 2026."
+        },
+        {
+          "type": "table",
+          "caption": "CCPA and GDPR compared on staff training and accountability, as at November 2026",
+          "head": [
+            "Dimension",
+            "California: CCPA as amended by the CPRA",
+            "European Union: GDPR (Regulation (EU) 2016/679)"
+          ],
+          "rows": [
+            [
+              "Who is regulated",
+              "For profit businesses doing business in California that meet a statutory threshold, such as annual gross revenue above $26,625,000 (adjusted from January 1, 2025)",
+              "Controllers and processors established in the EU, and those outside it that offer goods or services to, or monitor, people in the EU (Article 3)"
+            ],
+            [
+              "Regulator",
+              "California Privacy Protection Agency, plus the Attorney General",
+              "National supervisory authorities, coordinated through the European Data Protection Board"
+            ],
+            [
+              "Explicit training duty",
+              "Yes, for individuals handling consumer privacy inquiries (1798.130(a)(6), 1798.135(c)(3), 11 CCR 7100(a))",
+              "No general clause; implied by Articles 5(2), 24, 29 and 32(4)"
+            ],
+            [
+              "Documented training policy",
+              "Required at 10,000,000 or more consumers a year (11 CCR 7100(b))",
+              "Not named; part of demonstrating compliance"
+            ],
+            [
+              "Security training",
+              "Cybersecurity audits must assess education and training for personnel with system access (11 CCR 7123(c)(13)), for businesses meeting the audit thresholds",
+              "Security appropriate to the risk (Article 32); EDPB guidance describes awareness sessions and periodic reminders"
+            ],
+            [
+              "Oversight role",
+              "No mandatory privacy officer in the statute",
+              "Data protection officer in three cases (Article 37), monitoring training (Article 39(1)(b))"
+            ],
+            [
+              "Request records",
+              "Consumer request records kept at least 24 months (11 CCR 7101)",
+              "Records of processing activities (Article 30); no set period for training records"
+            ],
+            [
+              "Employees as data subjects",
+              "Yes, since the employment exemption became inoperative on January 1, 2023",
+              "Yes"
+            ],
+            [
+              "Maximum fines",
+              "$2,663 per violation or $7,988 per intentional violation (adjusted from January 1, 2025)",
+              "Up to EUR 20 million or 4% of worldwide annual turnover for some infringements (Article 83(5))"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expanding-duties",
+      "heading": "Where is California training scope expanding?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "California's newer regulations, effective January 1, 2026, bring training into three more areas: cybersecurity audits, risk assessments and automated decisionmaking technology (ADMT). Each applies only to businesses that meet its own trigger, with compliance dates running from 2027."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Cybersecurity audits:** under 11 CCR 7123(c)(13), the audit assesses cybersecurity education and training for each employee, independent contractor and other personnel with system access, with examples such as training at the start of access, annually and after a breach. Section 7120 sets the thresholds, and section 7121 sets first audit report deadlines of April 1, 2028, 2029 or 2030 by revenue band.",
+            "**Risk assessments:** section 7151(a) requires employees whose job duties include participating in the relevant processing to be included in the risk assessment process.",
+            "**ADMT:** section 7152(a)(6)(A)(iv) lists training as a safeguard, and section 7200(b) sets ADMT compliance by January 1, 2027."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The GDPR reaches the same territory through general duties. Article 32 covers security, Article 35 data protection impact assessments, and Article 22 automated decisions, and none of them names training. A multinational can usually satisfy both by designing California's named training points first and then checking them against its GDPR risk assessments."
+        },
+        {
+          "type": "callout",
+          "title": "Practical consequence",
+          "text": "A CCPA program that trains only the privacy request team now misses a growing set of roles: security staff in audit scope, people involved in risk assessed processing and teams that operate ADMT. Map those roles before 2027."
+        }
+      ]
+    },
+    {
+      "id": "which-applies",
+      "heading": "Which applies to your organization?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The CCPA applies to businesses that meet its California thresholds, whatever their location. The GDPR applies to EU establishments and to non EU organizations that target or monitor people in the EU. A global consumer business often falls under both."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**California businesses above the thresholds:** train privacy request handlers on the Act and regulations, adopt a documented policy at 10 million consumers, and check whether audit, risk assessment or ADMT rules apply. Detail is on [CCPA and CPRA employee training requirements](/regulations/ccpa-cpra-employee-training-requirements).",
+            "**Other US states:** most comprehensive state privacy laws contain no training clause; see [US state privacy law employee training](/regulations/us-state-privacy-law-employee-training).",
+            "**EU established organizations:** the GDPR applies to all their processing; build training to roles and risks and record it as evidence of appropriate measures.",
+            "**Organizations under both:** run one privacy curriculum with a California module for request handling and the newer rules, and an EU module covering lawful bases, data subject rights and transfers. The [HIPAA vs GDPR](/compare/hipaa-vs-gdpr) comparison covers health data."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "one-program",
+      "heading": "How can one privacy training program meet both?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Treat the CCPA's named roles and documentation rules as the floor, and the GDPR's risk based accountability as the design method. The illustrative mapping below shows how."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative mapping of one privacy training program to the CCPA and the GDPR",
+          "head": [
+            "Element",
+            "CCPA lens",
+            "GDPR lens",
+            "Design choice"
+          ],
+          "rows": [
+            [
+              "Request handling",
+              "Handlers informed of requirements and how to direct consumers",
+              "Data subject rights in Articles 12 to 22",
+              "One rights handling module with jurisdiction branches and scenario assessment"
+            ],
+            [
+              "Policy",
+              "Documented training policy at 10 million consumers",
+              "Demonstrate compliance (Article 5(2))",
+              "Adopt a written training policy regardless of volume"
+            ],
+            [
+              "Security",
+              "Audit assesses training for personnel with system access",
+              "Security appropriate to risk (Article 32)",
+              "Annual security awareness for all system users, plus role modules"
+            ],
+            [
+              "Records",
+              "Request logs kept 24 months",
+              "No set period",
+              "Keep training records alongside request logs, versioned by content release"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Record each provision once in a [compliance obligations register](/glossary/compliance-obligations-register) and assign roles in a [training matrix](/glossary/training-matrix). Assessment that checks applied understanding, not attendance, is set out in [how to design competency assessments](/guides/how-to-design-competency-assessments)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry captures each CCPA section, California regulation and GDPR article as a distinct obligation with provenance, then links roles, learning outcomes and assessment points to them. When California's rules or EU guidance change, the affected outcomes and modules are identified from the links rather than by rereading every course."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the CCPA require training for all employees?",
+      "a": "No. The statute and section 7100 require training for individuals responsible for handling consumer inquiries about privacy practices or compliance. Broader training becomes relevant through the cybersecurity audit, risk assessment and ADMT regulations for businesses within their scope, and through the general need to comply with the Act."
+    },
+    {
+      "q": "What does the 10 million consumer threshold change?",
+      "a": "A business that knows or reasonably should know that it buys, receives, sells or shares the personal information of 10,000,000 or more consumers in a calendar year must establish, document and comply with a training policy under 11 CCR section 7100(b). Below that level, inquiry handlers must still be informed, but a written policy is not specifically required."
+    },
+    {
+      "q": "Are employees covered by the CCPA?",
+      "a": "Yes. The subdivision exempting employment related personal information became inoperative on January 1, 2023, so employees, applicants and contractors who are California residents have CCPA rights. HR and people teams therefore need the same request handling training as customer facing privacy staff."
+    },
+    {
+      "q": "Can GDPR training be reused for California?",
+      "a": "Partly. Security, data minimization and incident reporting content transfer well. California specific content, such as opt out of sale or sharing, limits on sensitive personal information and the regulation's request deadlines, needs its own module, and the CCPA's request handler duty should be evidenced separately."
+    }
+  ],
+  "sources": [
+    {
+      "title": "California Consumer Privacy Act of 2018, effective January 1, 2026",
+      "publisher": "California Privacy Protection Agency",
+      "url": "https://cppa.ca.gov/pdf/20260101_ccpa_statute.pdf"
+    },
+    {
+      "title": "California Consumer Privacy Act Regulations, 11 CCR section 7000 and following, effective January 1, 2026",
+      "publisher": "California Privacy Protection Agency",
+      "url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf"
+    },
+    {
+      "title": "CCPA monetary thresholds: consumer price index adjustments",
+      "publisher": "California Privacy Protection Agency",
+      "url": "https://cppa.ca.gov/regulations/cpi_adjustment.html"
+    },
+    {
+      "title": "Proposition 24 text: California Privacy Rights Act of 2020",
+      "publisher": "California Privacy Protection Agency",
+      "url": "https://cppa.ca.gov/regulations/pdf/prop24_text.pdf"
+    },
+    {
+      "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    },
+    {
+      "title": "Data protection guide for small business: Secure personal data",
+      "publisher": "European Data Protection Board",
+      "url": "https://www.edpb.europa.eu/sme-data-protection-guide/secure-personal-data_en"
+    }
+  ],
+  "related": [
+    "ccpa-cpra-employee-training-requirements",
+    "gdpr-staff-training-requirements",
+    "us-state-privacy-law-employee-training",
+    "hipaa-vs-gdpr",
+    "data-privacy-training-requirements-by-country",
+    "gdpr-vs-appi"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "Civil Code 1798.130(a)(6) and 1798.135(c)(3) inquiry handler training duties; employment exemption in 1798.145 inoperative January 1, 2023 (reused from regulation/ccpa-cpra-employee-training-requirements)",
+      "source": "https://cppa.ca.gov/pdf/20260101_ccpa_statute.pdf"
+    },
+    {
+      "claim": "11 CCR 7100(a) and (b): inquiry handlers informed; documented training policy at 10,000,000 or more consumers; 7101 request records 24 months; regulations effective January 1, 2026",
+      "source": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf"
+    },
+    {
+      "claim": "11 CCR 7123(c)(13) cybersecurity education and training for personnel with system access; 7120 thresholds; 7121 first audit reports April 1, 2028, 2029, 2030; 7151(a) employees in risk assessment; 7152(a)(6)(A)(iv) training as ADMT safeguard; 7200(b) ADMT compliance by January 1, 2027",
+      "source": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf"
+    },
+    {
+      "claim": "CPI adjustments effective January 1, 2025: business revenue threshold $26,625,000; fines $2,663 per violation or $7,988 per intentional violation (fetched 2026-11-08)",
+      "source": "https://cppa.ca.gov/regulations/cpi_adjustment.html"
+    },
+    {
+      "claim": "Proposition 24 is the California Privacy Rights Act of 2020 and refers to the California Privacy Protection Agency",
+      "source": "https://cppa.ca.gov/regulations/pdf/prop24_text.pdf"
+    },
+    {
+      "claim": "GDPR Articles 3, 5(2), 24, 29, 30, 32(4), 37, 39(1)(b); Article 83(5) up to EUR 20 million or 4%",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    },
+    {
+      "claim": "EDPB SME guide: awareness sessions and periodic reminders for employees handling personal data",
+      "source": "https://www.edpb.europa.eu/sme-data-protection-guide/secure-personal-data_en"
+    }
+  ]
+}
