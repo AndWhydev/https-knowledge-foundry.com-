@@ -1,0 +1,611 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-pharmacy",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a pharmacy?",
+  "seoTitle": "Training matrix for a pharmacy",
+  "description": "Build a pharmacy training matrix: pharmacist CE and CPD cycles, mandatory topics, privacy, chemical safety and reporting duties, with a worked example.",
+  "shortAnswer": "A pharmacy training matrix is built in two layers. The first tracks each pharmacist's personal licensure cycle, such as 30 hours every two years in California, Florida and Texas or 40 CPD credits a year in Australia, including the state mandated topics. The second covers workplace duties the pharmacy itself owns, such as HIPAA privacy and security training, hazard communication and child abuse reporting, with a frequency and an evidence rule for each.",
+  "keyTakeaways": [
+    "Pharmacist continuing education belongs to the licensee, but the pharmacy still needs it in the matrix because an unrenewed license takes a pharmacist off the roster.",
+    "Hours are not the whole duty: California, Florida and Texas each require specific topics, such as law, controlled substances, medication errors, cultural competency or human trafficking, inside the 30 hours.",
+    "Australia counts credits rather than hours: at least 40 a year to 30 September, at least 20 from Group 2 or Group 3 activities, with no pro rata reduction for part-time pharmacists.",
+    "Workplace rows carry their own clocks: HIPAA privacy training at onboarding and after material policy changes, and hazard communication training at initial assignment and when new hazards appear.",
+    "As at November 2026, the hazard communication deadline of November 20, 2026 and the Ahpra review of CPD standards are the changes most likely to alter pharmacy rows."
+  ],
+  "sections": [
+    {
+      "id": "what-makes-pharmacy-different",
+      "heading": "What makes a pharmacy training matrix different?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A pharmacy's most demanding training duties sit with individual licensees, not with the business, so the matrix has to track obligations the pharmacy does not own but cannot operate without. Every pharmacist on the roster carries a renewal cycle set by a state board or national board, while the pharmacy carries privacy, chemical safety and reporting duties for its whole workforce."
+        },
+        {
+          "type": "p",
+          "text": "The approach in [how to build a training matrix](/guides/how-to-build-a-training-matrix) applies unchanged: people down one axis, obligations across the other, a rule in each cell. What a pharmacy adds is an ownership column, showing whether a cell is the pharmacist's licensure duty or the employer's workplace duty, and a unit column, because hours, contact hours and credits do not convert cleanly. Hospital pharmacy departments should also check the [hospital training matrix](/guides/how-to-build-a-training-matrix-for-a-hospital) for rows they inherit from the wider facility."
+        }
+      ]
+    },
+    {
+      "id": "pharmacy-rows",
+      "heading": "Which pharmacy roles should be separate rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Split rows wherever a rule names a different population or a different activity. The table lists the rows most pharmacies need and the regulation pages behind each."
+        },
+        {
+          "type": "table",
+          "caption": "Pharmacy roles, duty owner and driving rules",
+          "head": [
+            "Role",
+            "Who owns the duty",
+            "Regulation pages behind it"
+          ],
+          "rows": [
+            [
+              "Pharmacist, US state license",
+              "Pharmacist, with the pharmacy tracking renewal status",
+              "Pharmacist CE (US), human trafficking training"
+            ],
+            [
+              "Pharmacist, Australian general registration",
+              "Pharmacist, who declares compliance at renewal",
+              "Pharmacist CPD (Australia), Ahpra CPD standards"
+            ],
+            [
+              "Pharmacist who immunizes",
+              "Pharmacist for licensure topics; employer for exposure training",
+              "Pharmacist CE (US), OSHA bloodborne pathogens"
+            ],
+            [
+              "Pharmacist who prescribes Schedule II drugs in California",
+              "Pharmacist",
+              "Pharmacist CE (US)"
+            ],
+            [
+              "Pharmacist in South Australia",
+              "Pharmacist, as a prescribed health practitioner who must report",
+              "Mandatory reporting in Australia"
+            ],
+            [
+              "All workforce members, including counter and delivery staff",
+              "Pharmacy, as a HIPAA covered entity",
+              "HIPAA privacy and security training"
+            ],
+            [
+              "Staff exposed to hazardous chemicals",
+              "Pharmacy, as employer",
+              "OSHA hazard communication"
+            ],
+            [
+              "Pharmacy technicians",
+              "Separate state rules, not covered by the library's pharmacist page",
+              "Track locally until mapped"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacy-obligations-by-market",
+      "heading": "Which obligations apply to pharmacies in each market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Take the columns from the regulation pages for every jurisdiction where the pharmacy holds a license or employs pharmacists. Each summary uses only facts recorded on the linked page."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**California.** 16 CCR 1732.5 requires 30 hours in the prior 24 months, including 2 hours of board provided law and ethics and 1 hour of cultural competency. Pharmacists who provide specialized services need further hours, such as 1 for smoking cessation, 2 for travel medicine, 1 for emergency contraception and 1 for immunization, and Schedule II prescribers need 1 hour every four years ([pharmacist CE in the US](/regulations/pharmacist-continuing-education-requirements-us)).",
+            "**Florida.** Section 465.009 requires not less than 30 hours in two years, including a 3 hour vaccine and epinephrine course. The Board of Pharmacy splits the hours into 26 general, 2 on controlled substances and 2 on medication errors, and section 456.0341 required a 1 hour human trafficking course by January 1, 2021 ([human trafficking training](/regulations/human-trafficking-training-requirements-healthcare)).",
+            "**Texas.** 22 TAC 295.8 requires 30 contact hours per license period, including 1 hour of Texas law, 2 hours on controlled substance prescribing and monitoring by the first anniversary, and the human trafficking prevention course required by Occupations Code 116.002.",
+            "**United States, federal.** 45 CFR 164.530(b) requires HIPAA privacy training for all workforce members, new members within a reasonable period and after material policy changes, documented and kept six years; 164.308(a)(5) requires a security awareness and training program for all workforce members including management ([HIPAA training](/regulations/hipaa-security-and-privacy-training)). 29 CFR 1910.1200(h) requires hazard communication training at initial assignment and whenever a new chemical hazard is introduced ([hazard communication](/regulations/osha-hazard-communication-training-requirements)). Where a pharmacist's duties create occupational exposure to blood, 29 CFR 1910.1030 requires training at initial assignment and at least annually ([bloodborne pathogens](/regulations/osha-bloodborne-pathogens-training-requirements)).",
+            "**Australia.** The Pharmacy Board of Australia's CPD registration standard requires annual CPD planning and at least 40 credits in each 12 month period ending 30 September, at least 20 from Group 2 or Group 3 ([pharmacist CPD in Australia](/regulations/pharmacist-cpd-requirements-australia)). Section 128 of the Health Practitioner Regulation National Law makes CPD a registration duty, and breach can lead to health, conduct or performance action ([Ahpra CPD standards](/regulations/ahpra-cpd-registration-standards)). In South Australia, pharmacists are prescribed health practitioners under section 30(5) of the Children and Young People (Safety) Act 2017 and must report suspected risk to a child ([mandatory reporting](/regulations/mandatory-reporting-training-australia)). The Office of the Australian Information Commissioner names regular staff training as a reasonable step under APP 1 and APP 11 ([Privacy Act training](/regulations/privacy-act-staff-training-requirements))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "converting-units",
+      "heading": "How should hours, contact hours and credits be recorded side by side?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Record each jurisdiction in its own unit and never convert between them, because the boards define credit differently. The comparison below draws on the regulation pages and is the basis for the unit column in the matrix."
+        },
+        {
+          "type": "table",
+          "caption": "Pharmacist renewal units compared, as recorded on the library's regulation pages",
+          "head": [
+            "Jurisdiction",
+            "Unit",
+            "Amount and cycle",
+            "Topics required inside the total",
+            "Certificate retention"
+          ],
+          "rows": [
+            [
+              "California",
+              "Hours",
+              "30 in the prior 24 months",
+              "Law and ethics 2; cultural competency 1; extra hours for specialized services",
+              "Four years"
+            ],
+            [
+              "Florida",
+              "Hours",
+              "Not less than 30 in two years",
+              "Controlled substances 2; medication errors 2; vaccine and epinephrine 3",
+              "Not stated on the library page"
+            ],
+            [
+              "Texas",
+              "Contact hours (3.0 CEUs)",
+              "30 per license period",
+              "Texas law 1; controlled substance prescribing 2; human trafficking course",
+              "Three years"
+            ],
+            [
+              "Australia",
+              "Credits (Group 1 one per hour, Group 2 two, Group 3 three)",
+              "40 per year ending 30 September, at least 20 from Group 2 or 3",
+              "No mandatory topics",
+              "Records for three full CPD periods"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For US providers, the Accreditation Council for Pharmacy Education (ACPE) defines 60 minutes of live credit as 1 contact hour, or 0.1 CEU, and requires providers to upload credit to CPE Monitor within 60 days. The matrix can therefore treat the CPE Monitor e-profile as the official source rather than collecting paper certificates."
+        }
+      ]
+    },
+    {
+      "id": "illustrative-pharmacy-matrix",
+      "heading": "What does a completed pharmacy matrix look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It looks like a schedule in which every row joins a role and a jurisdiction to one duty, a cycle and the record that proves it. The extract below is illustrative only, for a hypothetical group with community pharmacies in Florida and Texas, a hospital outpatient pharmacy in California and two stores in Adelaide. Cells marked pharmacy policy are choices the business must justify."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical pharmacy group, role by obligation",
+          "head": [
+            "Role",
+            "Jurisdiction",
+            "Obligation",
+            "Cycle",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "Pharmacist",
+              "Florida",
+              "Section 465.009 and Board of Pharmacy topic split",
+              "30 hours every two years",
+              "CPE Monitor record checked before each renewal"
+            ],
+            [
+              "Pharmacist who immunizes",
+              "Florida",
+              "Vaccine and epinephrine course within the 30 hours",
+              "Each renewal",
+              "Course record in CPE Monitor"
+            ],
+            [
+              "Pharmacist",
+              "Texas",
+              "22 TAC 295.8, including Texas law and human trafficking",
+              "30 contact hours per license period",
+              "Certificates kept three years"
+            ],
+            [
+              "Pharmacist",
+              "California",
+              "16 CCR 1732.5 law and ethics and cultural competency",
+              "30 hours in prior 24 months",
+              "Certificates kept four years"
+            ],
+            [
+              "All workforce members",
+              "United States",
+              "45 CFR 164.530(b) privacy training",
+              "New members within a reasonable period; after material policy change; pharmacy policy annual",
+              "Training documentation kept six years"
+            ],
+            [
+              "Hospital pharmacy staff handling hazardous chemicals",
+              "California",
+              "29 CFR 1910.1200(h) hazard communication",
+              "Initial assignment; new hazard; updated training by November 20, 2026",
+              "Attendance record and safety data sheet index"
+            ],
+            [
+              "Pharmacist",
+              "South Australia",
+              "Mandatory reporting under section 31",
+              "On engagement; pharmacy policy every two years",
+              "Briefing record with reporting procedure"
+            ],
+            [
+              "Pharmacist",
+              "Australia",
+              "Pharmacy Board CPD standard",
+              "40 credits by 30 September each year; plan each year",
+              "Portfolio with the record fields the Board lists for audit"
+            ],
+            [
+              "Dispensary and counter staff",
+              "Australia",
+              "APP 1 and APP 11 reasonable steps",
+              "Pharmacy policy at induction and annual",
+              "Completion and policy acknowledgment"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacy-cycles",
+      "heading": "Which pharmacy cycles are fixed and which are chosen?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Licensure cycles are fixed by the boards, while most workplace cycles are left to the pharmacy. Mark the source of each interval so that a reviewer can tell a board rule from a business choice."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Fixed by the board.** Two year, 30 hour cycles in California and Florida, a 30 contact hour license period in Texas, and an annual 40 credit period in Australia that runs 1 October to 30 September, with renewal due 30 November.",
+            "**No flexibility in Australia.** The Board allows no pro rata or part-time reduction, no rollover of surplus credits and no exemption granted in advance. Absence of one to three years requires a year's CPD quota before recommencing.",
+            "**Event driven.** HIPAA privacy training follows a material change in policies, and hazard communication training follows the introduction of a new chemical hazard.",
+            "**Chosen by the pharmacy.** Neither HIPAA rule currently sets an annual frequency, and the annual privacy training duty in the Australian Government Agencies APP Code applies to agencies, not to private pharmacies. Record the reason for the chosen cycle, using [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles) as a method."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacy-evidence",
+      "heading": "What evidence do boards and regulators ask pharmacies for?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Boards audit individual pharmacists, and federal and state agencies examine the pharmacy, so the matrix needs evidence for both. Keep licensure evidence linked to the person and workplace evidence linked to the site."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Board audits.** The Texas rule provides for audit and discipline, and nonrenewal for failure to report. The Pharmacy Board of Australia runs random audits through the year, and its guidelines list nine record fields required at audit.",
+            "**Official records.** ACPE treats the CPE Monitor e-profile as the official record of ACPE credit for US pharmacists.",
+            "**Workplace records.** HIPAA documentation is kept six years from creation or last effective date. Hazard communication training content must cover the elements in 1910.1200(h)(2) and (h)(3).",
+            "**Quality of activities.** The Australian guidelines say sponsor driven product detailing is unlikely to be of sufficient quality, so in-house sessions should be designed to count. See [evidencing training effectiveness to a regulator](/guides/how-to-evidence-training-effectiveness-to-a-regulator)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacy-changes",
+      "heading": "Which pharmacy rule changes fall in 2026 and 2027?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Enter the following as dated rows so that affected cells update on the right day. As at November 2026, the regulation pages record:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**January 2026, United States:** ACPE updated its CPE Policies and Procedures Manual.",
+            "**10 April 2026, Australia:** the Pharmacy Board updated its CPD guidelines to remove outdated content on accreditation of CPD activities.",
+            "**15 May to 17 July 2026, Australia:** Ahpra and 14 National Boards, including Pharmacy, consulted on revised recency of practice and CPD standards; the draft proposes 20 hours a year including 5 interactive, with substantial notice before any change.",
+            "**20 November 2026, United States:** employers must update hazard communication programs and training for newly identified hazards in substances; the mixtures deadline is May 19, 2028."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Pending, not yet law",
+          "text": "The HIPAA Security Rule proposal of January 6, 2025 would require security awareness training at least every 12 months and within 30 days of access for new members, but no final rule had been found as at the HIPAA page's last review. South Australia's Children and Young People (Safety) Act 2017 is to be repealed by a 2025 Act. Keep both as watch items."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps each pharmacy obligation to its owner, its unit of measure and the learning outcome and assessment point it requires, so licensure topics and workplace duties sit in one structure without being confused. When a board changes a mandatory topic or a CPD standard, the affected roles are flagged. See [healthcare and life sciences](/industries/healthcare-life-sciences)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the DEA MATE Act training apply to pharmacists?",
+      "a": "The MATE Act applies to practitioners registered with the DEA to dispense controlled substances, other than those who are solely veterinarians, as a one-time total of 8 hours. The library's page frames it around prescribers, so a pharmacy should record it only for staff who hold a practitioner registration and confirm scope with the DEA."
+    },
+    {
+      "q": "Can in-house pharmacy training count toward Australian CPD?",
+      "a": "Yes, in-house workplace CPD can count according to the Pharmacy Board's FAQ, but supervising interns is not CPD. Design internal sessions with clear learning outcomes and records so they can be claimed in the relevant group."
+    },
+    {
+      "q": "Do part-time pharmacists in Australia need fewer credits?",
+      "a": "No. The Pharmacy Board allows no pro rata or part-time reduction, so a pharmacist working one day a week still needs 40 credits in the year to 30 September. The matrix should not reduce the target for fractional staff."
+    },
+    {
+      "q": "Who should track pharmacy technician training?",
+      "a": "The library's pharmacist continuing education page does not cover technicians, who are subject to separate state rules. Give technicians their own rows, keep the workplace duties such as HIPAA and hazard communication, and add licensure columns once each state's rule is mapped."
+    }
+  ],
+  "sources": [
+    {
+      "title": "CPE Policies and Procedures Manual",
+      "publisher": "Accreditation Council for Pharmacy Education",
+      "url": "https://www.acpe-accredit.org/wp-content/uploads/CPE-Policies-Procedures-Updated-January-2026_FINAL-1.pdf"
+    },
+    {
+      "title": "Cal. Code Regs. Tit. 16, 1732.5: Renewal requirements for pharmacist",
+      "publisher": "Legal Information Institute, Cornell Law School (California Code of Regulations)",
+      "url": "https://www.law.cornell.edu/regulations/california/16-CCR-1732.5"
+    },
+    {
+      "title": "Section 465.009, Florida Statutes: Continuing professional pharmaceutical education",
+      "publisher": "Florida Legislature (Online Sunshine)",
+      "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0465/Sections/0465.009.html"
+    },
+    {
+      "title": "Pharmacist Renewal",
+      "publisher": "Florida Board of Pharmacy, Florida Department of Health",
+      "url": "https://floridaspharmacy.gov/pharmacist-renewal/"
+    },
+    {
+      "title": "Section 456.0341, Florida Statutes: Requirements for instruction on human trafficking",
+      "publisher": "Florida Legislature (Online Sunshine)",
+      "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0456/Sections/0456.0341.html"
+    },
+    {
+      "title": "22 Tex. Admin. Code 295.8: Continuing Education Requirements",
+      "publisher": "Legal Information Institute, Cornell Law School (Texas Administrative Code)",
+      "url": "https://www.law.cornell.edu/regulations/texas/22-Tex-Admin-Code-SS-295-8"
+    },
+    {
+      "title": "45 CFR 164.530 Administrative requirements (Privacy Rule)",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.530"
+    },
+    {
+      "title": "45 CFR 164.308 Administrative safeguards (Security Rule)",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.308"
+    },
+    {
+      "title": "45 CFR 164.316 Policies and procedures and documentation requirements",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.316"
+    },
+    {
+      "title": "HIPAA Security Rule To Strengthen the Cybersecurity of Electronic Protected Health Information (proposed rule, January 6, 2025)",
+      "publisher": "US Department of Health and Human Services, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2025/01/06/2024-30983/hipaa-security-rule-to-strengthen-the-cybersecurity-of-electronic-protected-health-information"
+    },
+    {
+      "title": "29 CFR 1910.1200: Hazard communication",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/29/1910.1200"
+    },
+    {
+      "title": "Hazard Communication Standard: Final Rule, 91 FR 1695 (January 15, 2026)",
+      "publisher": "Occupational Safety and Health Administration",
+      "url": "https://www.osha.gov/laws-regs/federalregister/2026-01-15"
+    },
+    {
+      "title": "29 CFR 1910.1030 Bloodborne pathogens",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/section-1910.1030"
+    },
+    {
+      "title": "21 U.S. Code 823: Registration requirements (subsection (m), required training for prescribers)",
+      "publisher": "Legal Information Institute, Cornell Law School (US Code)",
+      "url": "https://www.law.cornell.edu/uscode/text/21/823"
+    },
+    {
+      "title": "Letter to DEA registered practitioners on the MATE Act training requirement (March 27, 2023)",
+      "publisher": "Drug Enforcement Administration, Diversion Control Division",
+      "url": "https://www.deadiversion.usdoj.gov/pubs/docs/MATE_Training_Letter_Final.pdf"
+    },
+    {
+      "title": "Privacy (Australian Government Agencies: Governance) APP Code 2017",
+      "publisher": "Office of the Australian Information Commissioner",
+      "url": "https://www.oaic.gov.au/__data/assets/pdf_file/0019/2872/privacy-australian-government-agencies-governance-app-code-2017.pdf"
+    },
+    {
+      "title": "Registration standard: Continuing professional development (PDF)",
+      "publisher": "Pharmacy Board of Australia",
+      "url": "https://www.pharmacyboard.gov.au/documents/default.aspx?record=WD15%2f18507&dbid=AP&chksum=D%2bMNSAe%2fNf9lUN8tv6dT%2fw%3d%3d"
+    },
+    {
+      "title": "Guidelines on continuing professional development (amended 10 April 2026)",
+      "publisher": "Pharmacy Board of Australia",
+      "url": "https://www.pharmacyboard.gov.au/documents/default.aspx?record=WD15%2f18499&dbid=AP&chksum=H3lV5PqPKFCPuVIkiJyUkA%3d%3d"
+    },
+    {
+      "title": "Codes, guidelines and policies",
+      "publisher": "Pharmacy Board of Australia",
+      "url": "https://www.pharmacyboard.gov.au/Codes-Guidelines"
+    },
+    {
+      "title": "Frequently asked questions: Continuing professional development for pharmacists and pharmacy interns",
+      "publisher": "Pharmacy Board of Australia",
+      "url": "https://www.pharmacyboard.gov.au/documents/default.aspx?record=WD15%2f19248&dbid=AP&chksum=tRllYQirkTCvNLE5H3YeAw%3d%3d"
+    },
+    {
+      "title": "Audit",
+      "publisher": "Pharmacy Board of Australia",
+      "url": "https://www.pharmacyboard.gov.au/Registration/Audit.aspx"
+    },
+    {
+      "title": "Past consultations",
+      "publisher": "Pharmacy Board of Australia",
+      "url": "https://www.pharmacyboard.gov.au/News/Past-Consultations.aspx"
+    },
+    {
+      "title": "Public consultation: Review of recency of practice and CPD registration standards (consultation paper, 2026)",
+      "publisher": "Ahpra and National Boards",
+      "url": "https://www.ahpra.gov.au/documents/default.aspx?record=WD26%2f36029&dbid=AP&chksum=cSwA9u%2bcNJjI79QEoYPEog%3d%3d"
+    },
+    {
+      "title": "Health Practitioner Regulation National Law Act 2009 (Qld), including the National Law schedule",
+      "publisher": "Queensland Government, Office of the Queensland Parliamentary Counsel",
+      "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-2009-045"
+    },
+    {
+      "title": "Children and Young People (Safety) Act 2017 (authorised current version)",
+      "publisher": "South Australian Legislation",
+      "url": "https://www.legislation.sa.gov.au/_legislation-documents/lz/c/a/children-and-young-people-safety-act-2017/current/2017.25.auth.pdf"
+    },
+    {
+      "title": "Chapter 1: APP 1 Open and transparent management of personal information",
+      "publisher": "Office of the Australian Information Commissioner",
+      "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-1-app-1-open-and-transparent-management-of-personal-information"
+    },
+    {
+      "title": "Chapter 11: APP 11 Security of personal information",
+      "publisher": "Office of the Australian Information Commissioner",
+      "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-11-app-11-security-of-personal-information"
+    }
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "pharmacist-continuing-education-requirements-us",
+    "pharmacist-cpd-requirements-australia",
+    "hipaa-security-and-privacy-training",
+    "how-to-build-a-training-matrix-for-a-hospital",
+    "how-to-set-mandatory-training-refresh-cycles"
+  ],
+  "productLinks": [
+    {
+      "label": "Healthcare and life sciences",
+      "href": "/industries/healthcare-life-sciences"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "ACPE: live CPE credit 60 minutes = 1 contact hour (0.1 CEU); upload to CPE Monitor within 60 days; official record is CPE Monitor e-profile",
+      "source": "https://www.acpe-accredit.org/wp-content/uploads/CPE-Policies-Procedures-Updated-January-2026_FINAL-1.pdf"
+    },
+    {
+      "claim": "16 CCR 1732.5: 30 hours in prior 24 months; 2 hours board provided law and ethics; 1 hour cultural competency; specialized hours for smoking cessation 1, travel 2, emergency contraception 1, immunization 1; Schedule II prescribers 1 hour every four years; retain certificates four years",
+      "source": "https://www.law.cornell.edu/regulations/california/16-CCR-1732.5"
+    },
+    {
+      "claim": "Florida 465.009: not less than 30 hours in 2 years; vaccine and epinephrine 3 hour course within the 30",
+      "source": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0465/Sections/0465.009.html"
+    },
+    {
+      "claim": "Florida Board of Pharmacy: 26 general, 2 controlled substances and 2 medication errors",
+      "source": "https://floridaspharmacy.gov/pharmacist-renewal/"
+    },
+    {
+      "claim": "Florida 456.0341 applies to chapter 465 licensees: 1 hour human trafficking course by January 1, 2021",
+      "source": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0456/Sections/0456.0341.html"
+    },
+    {
+      "claim": "22 TAC 295.8: 30 contact hours (3.0 CEUs) per license period; 1 hour Texas law; 2 hours controlled substance prescribing and monitoring by first anniversary; human trafficking course per OC 116.002; nonrenewal for failure to report; retain certificates three years; audit and discipline",
+      "source": "https://www.law.cornell.edu/regulations/texas/22-Tex-Admin-Code-SS-295-8"
+    },
+    {
+      "claim": "164.530(b)(2) timing: new members within a reasonable period, material change within a reasonable period; training must be documented; (j)(2) six-year retention",
+      "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.530"
+    },
+    {
+      "claim": "164.308(a)(5): security awareness and training program for all workforce members including management",
+      "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.308"
+    },
+    {
+      "claim": "164.316(b)(2): retain documentation 6 years from creation or last effective date",
+      "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.316"
+    },
+    {
+      "claim": "HIPAA NPRM January 6, 2025: proposed security awareness training at least once every 12 months, new members within 30 days of access; no final rule found as at September 2026",
+      "source": "https://www.federalregister.gov/documents/2025/01/06/2024-30983/hipaa-security-rule-to-strengthen-the-cybersecurity-of-electronic-protected-health-information"
+    },
+    {
+      "claim": "1910.1200(h)(1): training at initial assignment and whenever a new chemical hazard is introduced; (h)(2) and (h)(3) elements",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.1200"
+    },
+    {
+      "claim": "1910.1200(j): all employers update labeling, program and training by November 20, 2026 (substances) and May 19, 2028 (mixtures)",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.1200"
+    },
+    {
+      "claim": "1910.1030(b) definition of occupational exposure; (g)(2) training at initial assignment and at least annually",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/section-1910.1030"
+    },
+    {
+      "claim": "MATE Act applies to all DEA registered practitioners except solely veterinarians; one-time 8 hours",
+      "source": "https://www.deadiversion.usdoj.gov/pubs/docs/MATE_Training_Letter_Final.pdf"
+    },
+    {
+      "claim": "Pharmacy CPD standard: annual CPD planning and 40 or more CPD credits in each 12 month period ending 30 September, at least 20 from Group 2 and/or 3; records for previous three full CPD periods",
+      "source": "https://www.pharmacyboard.gov.au/documents/default.aspx?record=WD15%2f18507&dbid=AP&chksum=D%2bMNSAe%2fNf9lUN8tv6dT%2fw%3d%3d"
+    },
+    {
+      "claim": "Agency APP Code s16 requires privacy training in induction and reasonable steps to provide it annually to staff with access to personal information",
+      "source": "https://www.oaic.gov.au/__data/assets/pdf_file/0019/2872/privacy-australian-government-agencies-governance-app-code-2017.pdf"
+    },
+    {
+      "claim": "Group 1 one credit per hour, Group 2 two, Group 3 three",
+      "source": "https://www.pharmacyboard.gov.au/documents/default.aspx?record=WD15%2f18499&dbid=AP&chksum=H3lV5PqPKFCPuVIkiJyUkA%3d%3d"
+    },
+    {
+      "claim": "No mandatory proportion of accredited CPD; sponsor-driven product detailing unlikely to be of sufficient quality; nine record fields required at audit; absence of one to three years requires one year's CPD quota before recommencing",
+      "source": "https://www.pharmacyboard.gov.au/documents/default.aspx?record=WD15%2f18499&dbid=AP&chksum=H3lV5PqPKFCPuVIkiJyUkA%3d%3d"
+    },
+    {
+      "claim": "CPD guidelines updated 10 April 2026",
+      "source": "https://www.pharmacyboard.gov.au/Codes-Guidelines"
+    },
+    {
+      "claim": "CPD period 1 October to 30 September; renewal due 30 November; no pro rata or part-time reduction; no rollover; no advance exemption; in-house workplace CPD can count; supervising interns is not CPD",
+      "source": "https://www.pharmacyboard.gov.au/documents/default.aspx?record=WD15%2f19248&dbid=AP&chksum=tRllYQirkTCvNLE5H3YeAw%3d%3d"
+    },
+    {
+      "claim": "Recency and CPD standards consultation opened 15 May 2026 and closed 17 July 2026 with 14 National Boards including Pharmacy",
+      "source": "https://www.pharmacyboard.gov.au/News/Past-Consultations.aspx"
+    },
+    {
+      "claim": "Draft standard 20 hours incl. 5 interactive; substantial notice if approved",
+      "source": "https://www.ahpra.gov.au/documents/default.aspx?record=WD26%2f36029&dbid=AP&chksum=cSwA9u%2bcNJjI79QEoYPEog%3d%3d"
+    },
+    {
+      "claim": "Random audits of practitioners periodically through the year",
+      "source": "https://www.pharmacyboard.gov.au/Registration/Audit.aspx"
+    },
+    {
+      "claim": "National Law s 128(1) CPD duty; s 128(2) contravention may be behaviour for health, conduct or performance action",
+      "source": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-2009-045"
+    },
+    {
+      "claim": "SA Children and Young People (Safety) Act 2017 s30(5) prescribed health practitioners include pharmacists; s31 report suspicion on reasonable grounds of risk; Act to be repealed by the 2025 Act",
+      "source": "https://www.legislation.sa.gov.au/_legislation-documents/lz/c/a/children-and-young-people-safety-act-2017/current/2017.25.auth.pdf"
+    },
+    {
+      "claim": "OAIC APP 1 guidelines list regular staff training as an example of APP 1.2 practices",
+      "source": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-1-app-1-open-and-transparent-management-of-personal-information"
+    },
+    {
+      "claim": "OAIC APP 11 guidelines describe organisational measures as including staff training",
+      "source": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-11-app-11-security-of-personal-information"
+    }
+  ]
+}

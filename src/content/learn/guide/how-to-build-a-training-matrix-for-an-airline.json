@@ -1,0 +1,600 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-an-airline",
+  "kind": "guide",
+  "title": "How do you build a training matrix for an airline?",
+  "seoTitle": "Training matrix for an airline",
+  "description": "Build an airline training matrix: crew checks, dispatcher and cabin crew recurrent training, dangerous goods, drug and alcohol programs and SMS by market.",
+  "shortAnswer": "An airline training matrix is built by listing every operational function (flight crew, cabin crew, dispatchers, check pilots, cargo and ramp staff, passenger agents, safety managers) against the aviation authority rules in each country of operation, then recording for each cell the validity period, the month it expires, and the record an inspector will sample. Airline rules fix more intervals than most industries, so the matrix is largely a calendar of expiring qualifications.",
+  "keyTakeaways": [
+    "Airline obligations are driven by function: crew position and aircraft type for pilots, acceptance and loading duties for dangerous goods, and safety sensitive status for drug and alcohol programs.",
+    "Unlike most regulated sectors, aviation rules set hard clocks: 6 and 12 calendar month checks for pilots, 24 month dangerous goods recurrence and 30 month drug and alcohol education in Australia.",
+    "Validity is counted in calendar months, often from the end of a month, so the matrix should store expiry months and grace rules rather than simple anniversary dates.",
+    "Evidence is specific: instructor certifications of proficiency, dangerous goods records kept at least 36 months, and Part 99 records kept five years.",
+    "Watch dates as at November 2026 include the 68th edition of the IATA Dangerous Goods Regulations on 1 January 2027 and the end of CASA EX29/24 on 31 May 2027."
+  ],
+  "sections": [
+    {
+      "id": "why-airlines-need-own-matrix",
+      "heading": "Why can an airline not use a generic compliance matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because most airline training is a condition of being allowed to operate a flight, not a policy preference, and the rules attach to positions, aircraft types and functions that a generic matrix does not model. A captain whose 6 month recurrent flight training lapses cannot legally fly as pilot in command, whatever the rest of their record says."
+        },
+        {
+          "type": "p",
+          "text": "The general method in [how to build a training matrix](/guides/how-to-build-a-training-matrix) holds: people down one side, obligations across the top, a rule in each cell. An airline adds three dimensions: the aircraft type or group a person is qualified on, the market whose authority approved the program, and the expiry month for each check. Treat flight and cabin crew as [safety critical roles](/glossary/safety-critical-role) whose currency gates rostering."
+        }
+      ]
+    },
+    {
+      "id": "airline-functions",
+      "heading": "Which airline functions should become rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Create a row for each function a rule names, split by aircraft type where the rule requires it. The table lists the functions most scheduled carriers need and the regulation pages that drive them."
+        },
+        {
+          "type": "table",
+          "caption": "Airline functions and the rules that make each a separate row",
+          "head": [
+            "Function",
+            "Why it needs its own row",
+            "Driving rules"
+          ],
+          "rows": [
+            [
+              "Captain and first officer",
+              "Type specific initial, recurrent and check requirements, with a shorter cycle for captains",
+              "14 CFR 121.433 and 121.427; ORO.FC.230"
+            ],
+            [
+              "Cabin crew",
+              "Separate recurrent and emergency drill cycles",
+              "14 CFR 121.417; ORO.CC.140"
+            ],
+            [
+              "Aircraft dispatcher",
+              "Named in the Part 121 training program and basic indoctrination",
+              "14 CFR 121.415"
+            ],
+            [
+              "Check pilots, instructors and line evaluators",
+              "Their certifications feed the records of everyone else",
+              "14 CFR 121.401; ORO.FC.146"
+            ],
+            [
+              "Cargo acceptance, load planning and ramp",
+              "Dangerous goods functions require competence before performing them",
+              "IATA DGR 1.5; 14 CFR 121.1005; 49 CFR 172.704"
+            ],
+            [
+              "Passenger handling and screening",
+              "Identifying dangerous goods carried by passengers",
+              "ICAO Technical Instructions, IATA DGR"
+            ],
+            [
+              "Safety sensitive employees",
+              "Drug and alcohol education attaches to the function, including trainees",
+              "14 CFR 120.105; CASR 99.015"
+            ],
+            [
+              "Supervisors making testing decisions",
+              "Specific minimum training for reasonable cause and suspicion",
+              "14 CFR 120.115 and 120.223; DAMP supervisor role"
+            ],
+            [
+              "Accountable executive and safety managers",
+              "SMS training to attain and maintain competencies",
+              "14 CFR 5.91 and 5.23"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "airline-obligations-by-market",
+      "heading": "Which training rules apply to airlines in each market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Columns come from the authority that issued the air operator certificate and from every state where the airline handles cargo or employs safety sensitive staff. Each summary below draws only on the linked regulation page."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**United States.** A Part 121 carrier needs an FAA approved training program under Subpart N, with initial and final approval before use ([FAA Part 121 crewmember training](/regulations/faa-part-121-crewmember-training)). Crewmembers complete recurrent training within the preceding 12 calendar months, and pilots in command also complete recurrent flight training within the preceding 6 calendar months. Newly hired crewmembers and dispatchers receive 40 programmed hours of basic indoctrination, and emergency drills recur once each 24 calendar months. 14 CFR 5.91 requires SMS training for the accountable executive, management and employees identified in 5.23.",
+            "**United States, drug and alcohol.** Part 120 requires an Employee Assistance Program with education and initial training for safety sensitive employees, at least 60 minutes of initial training plus a recurrent program for supervisors who make reasonable cause drug testing decisions, and at least 60 minutes on alcohol misuse indicators for supervisors making reasonable suspicion decisions ([FAA drug and alcohol program](/regulations/faa-drug-and-alcohol-program-training)). Nine safety sensitive functions are covered, including flight crew, flight attendants, dispatchers, ground security coordinators and operations control specialists.",
+            "**United States, hazardous materials.** Air carrier hazmat training must have been completed within the past 24 months under 14 CFR 121.1005 ([IATA and ICAO dangerous goods](/regulations/iata-dangerous-goods-training-requirements)), and the general rule in 49 CFR 172.704 requires function specific, safety and security awareness training, with recurrent training at least every three years ([DOT hazmat](/regulations/dot-hazmat-employee-training)).",
+            "**European Union.** Under ORO.FC.230 of Regulation (EU) No 965/2012, the operator proficiency check is valid for 6 calendar months, the line check and emergency and safety equipment training and checking for 12 calendar months, ground and flight training recurs at least every 12 calendar months, and CRM is delivered in modules across each 3 year period ([EU aircrew recurrent training](/regulations/eu-aircrew-recurrent-training-requirements)). Cabin crew complete annual recurrent training under ORO.CC.140, with practical elements every three years.",
+            "**Australia.** Part 99 of the Civil Aviation Safety Regulations requires AOC holders with safety sensitive staff to keep a drug and alcohol management plan whose education program each employee and DAMP supervisor attends before starting duties and then within 30 months of the last attendance ([CASA Part 99](/regulations/casa-part-99-drug-and-alcohol-management-plan-training)). CASA EX29/24 gives effect to two yearly dangerous goods training.",
+            "**Any market carrying cargo.** IATA DGR 1.5 requires the employer to ensure staff are competent before performing dangerous goods functions, with training covering general familiarization, function specific tasks and safety, based on functions rather than job titles."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "airline-matrix-extract",
+      "heading": "What does a filled airline matrix look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It looks like a qualification register with an expiry month in almost every cell. The extract below is illustrative only, for a hypothetical carrier holding an FAA Part 121 certificate with a cargo handling station in Sydney and an EU affiliate. Frequencies marked as airline policy are choices, not requirements of the cited rule."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical airline group, function by obligation",
+          "head": [
+            "Function",
+            "Market",
+            "Obligation",
+            "Clock",
+            "Evidence held"
+          ],
+          "rows": [
+            [
+              "Captain, narrowbody type",
+              "United States",
+              "14 CFR 121.433 recurrent flight training",
+              "Within the preceding 6 calendar months",
+              "Instructor or check pilot certification of proficiency"
+            ],
+            [
+              "First officer, narrowbody type",
+              "United States",
+              "14 CFR 121.427 recurrent ground training",
+              "Within the preceding 12 calendar months",
+              "Programmed hours log against the 121.427 table"
+            ],
+            [
+              "Flight attendant",
+              "United States",
+              "14 CFR 121.417 emergency drills",
+              "Initial training, then once each 24 calendar months",
+              "Drill completion record by equipment type"
+            ],
+            [
+              "New dispatcher",
+              "United States",
+              "14 CFR 121.415 basic indoctrination",
+              "Before first duty; 40 programmed hours",
+              "Course attendance and test result"
+            ],
+            [
+              "Pilot, EU affiliate",
+              "European Union",
+              "ORO.FC.230 operator proficiency check",
+              "Valid 6 calendar months, counted from end of month",
+              "Check form signed by examiner"
+            ],
+            [
+              "Pilot, EU affiliate",
+              "European Union",
+              "ORO.FC.230 CRM modules",
+              "Spread across each 3 year period",
+              "Module record mapped to the 3 year cycle"
+            ],
+            [
+              "Cargo acceptance agent",
+              "Australia",
+              "IATA DGR 1.5 and CASA EX29/24",
+              "Before acceptance duties; recurrent within 24 months",
+              "Competency assessment and record kept at least 36 months"
+            ],
+            [
+              "Ramp agent",
+              "Australia",
+              "CASR Part 99 DAMP education",
+              "Before safety sensitive duties; within 30 months",
+              "Attendance included in six monthly Part 99 report"
+            ],
+            [
+              "Operations supervisor",
+              "United States",
+              "14 CFR 120.115 reasonable cause training",
+              "At least 60 minutes initial; recurrent annually as airline policy",
+              "Training documented in the drug testing program"
+            ],
+            [
+              "Safety manager",
+              "United States",
+              "14 CFR 5.91 SMS training",
+              "On appointment; airline policy every 24 months",
+              "Competency statement against SMS duties"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rule-clocks-and-policy-clocks",
+      "heading": "Which airline intervals are fixed by rule and which does the carrier choose?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most crew and dangerous goods intervals are fixed by rule, while drug and alcohol recurrence for US supervisors and SMS refreshers are left to the carrier. Record the source of each interval so an inspector can see which cells are legal limits and which are internal policy."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Fixed by rule.** Pilot checks under ORO.FC.230; Part 121 recurrent training and the 6 month captain requirement; 24 calendar month emergency drills; 24 month dangerous goods recurrence; 30 month Part 99 education; three year DOT hazmat recurrence.",
+            "**Counted in calendar months.** EU validity periods are counted from the end of the month under ORO.FC.145, and 14 CFR 121.1005 treats training completed in the month before or after the due month as on time. 14 CFR 121.401(b) contains a grace month rule for Part 121 programs. Store the expiry month, not a day.",
+            "**Alternative programs change the clock.** Under ORO.FC.231, an approved evidence based training program of at least six modules over 3 years may replace ORO.FC.230 checks, and an ATQP may extend some validity periods after two years. The matrix must record which program each pilot is on.",
+            "**Left to the carrier.** Part 120 requires a reasonable recurrent program for reasonable cause supervisors but sets no interval, and 14 CFR 5.91 requires SMS training to attain and maintain competencies without a cycle. See [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles) for documenting the rationale."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "airline-records",
+      "heading": "What training records will aviation inspectors ask for?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Expect requests for proof of competence for a named person on a named date, not a course list. Aviation records are tied to individual qualifications, and retention periods differ by rule."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Crew training.** The instructor or check pilot certification of proficiency becomes part of the crewmember record under 14 CFR 121.401.",
+            "**Dangerous goods.** IATA DGR 1.5.1.4 sets record contents and retention for a minimum of 36 months from the most recent completion month. US air carriers keep records for the preceding 3 years while the person performs the function and for 90 days after, including test certification (14 CFR 121.1007).",
+            "**Drug and alcohol.** FAA alcohol training records, supervisor reasonable suspicion training documentation and training certification are kept for two years under 14 CFR 120.219. CASA Part 99 records are kept for five years and destroyed within six months after, and education attendance is reported for the 6 month periods ending 1 March and 1 September.",
+            "**General hazmat.** 49 CFR 172.704(d) requires a record covering the preceding three years with name, completion date, materials, trainer name and address and certification of training and testing.",
+            "Planning for an inspection is covered in [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "airline-dated-changes",
+      "heading": "Which airline training changes fall in 2026 and 2027?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Add these as dated rows so affected cells change on the right day. Each date comes from the linked regulation pages, as at November 2026."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**1 January 2027:** the 68th edition of the IATA Dangerous Goods Regulations takes effect, incorporating the 2027 to 2028 Technical Instructions amendments, including a prohibition on power banks over 100 Wh and a limit of 2 power banks. Passenger handling and cabin crew content needs review.",
+            "**28 May 2027:** Part 135 operators and 91.147 letter of authorization holders must implement an SMS under 14 CFR 5.9, which matters for airline groups with regional or charter affiliates.",
+            "**31 May 2027:** CASA EX29/24, which gives effect to two yearly dangerous goods training in Australia, is repealed at the end of that day. Track what replaces it.",
+            "**20 December 2027:** Part 120 extends to Part 145 repair stations outside the United States that perform safety sensitive maintenance on Part 121 aircraft, unless recognized under 120.10, which affects contracted maintenance rows."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Already in force",
+          "text": "EU pilots' rules were consolidated on 25 May 2026, and the EASA Easy Access Rules for Air Operations reached Revision 24 in March 2026. A US hazmat rule effective 13 February 2026 adjusted 172.704(e)(1) exceptions for packaging manufacturers."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each aviation obligation with the function, aircraft type and authority it belongs to, and links it to the learning outcomes and assessment points that demonstrate competence. When an authority amends a validity period or a new DGR edition is issued, the affected rows and materials are flagged for review. See [audit evidence](/platform/audit-evidence)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should dangerous goods training be tracked by job title?",
+      "a": "No. IATA DGR 1.5 and its competency based guidance assign training to functions, not job titles. A customer service agent who accepts checked baggage and a cargo agent who accepts consignments perform different functions, so tag each person with the functions they perform and attach the dangerous goods columns to those functions."
+    },
+    {
+      "q": "How should a matrix handle a pilot on an evidence based training program?",
+      "a": "Record the program as an attribute of the pilot row. Under ORO.FC.231 an approved EBT program can substitute for the ORO.FC.230 checks, with at least six modules over three years, each valid for 12 months. A pilot on EBT therefore has different expiry columns from a pilot on the standard program."
+    },
+    {
+      "q": "Do contractors and ground handling agents belong in the airline's matrix?",
+      "a": "Yes, where they perform regulated functions. CASA Part 99 education covers contractors, subcontractors and volunteers who perform safety sensitive aviation activities, and FAA safety sensitive functions include assistants and trainees. Ground handlers that accept or load dangerous goods also need DGR training, and the airline will want to see the evidence."
+    },
+    {
+      "q": "Can one dangerous goods record satisfy the FAA and IATA rules together?",
+      "a": "Often, if it contains every required field. The DGR sets record contents and a 36 month minimum, while 14 CFR 121.1007 requires the preceding three years of training plus test certification, kept for 90 days after the person stops performing the function. Design one record that meets the longer and stricter of each."
+    }
+  ],
+  "sources": [
+    {
+      "title": "14 CFR 121.401: Training program: General",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-14/section-121.401"
+    },
+    {
+      "title": "14 CFR 121.433: Training required",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-14/section-121.433"
+    },
+    {
+      "title": "14 CFR 121.427: Recurrent training",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-14/section-121.427"
+    },
+    {
+      "title": "14 CFR 121.415: Crewmember and dispatcher training program requirements",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-14/section-121.415"
+    },
+    {
+      "title": "14 CFR 121.417: Crewmember emergency training",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-14/section-121.417"
+    },
+    {
+      "title": "14 CFR Part 5 Subpart E: Safety Promotion (5.91, 5.93)",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-14/section-5.91"
+    },
+    {
+      "title": "Commission Regulation (EU) No 965/2012 laying down technical requirements and administrative procedures related to air operations: consolidated text of 25 May 2026",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02012R0965-20260525"
+    },
+    {
+      "title": "Easy Access Rules for Air Operations (Regulation (EU) No 965/2012), Revision 24, March 2026",
+      "publisher": "European Union Aviation Safety Agency (EASA)",
+      "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations-regulation-eu-no-9652012"
+    },
+    {
+      "title": "Dangerous Goods",
+      "publisher": "International Civil Aviation Organization",
+      "url": "https://www.icao.int/safety/DangerousGoods/Pages/default.aspx"
+    },
+    {
+      "title": "Dangerous Goods Regulations (DGR)",
+      "publisher": "International Air Transport Association",
+      "url": "https://www.iata.org/en/programs/cargo/dgr/"
+    },
+    {
+      "title": "Dangerous Goods Training Guidance, Edition 1: Competency-based Training and Assessment Approach",
+      "publisher": "International Air Transport Association",
+      "url": "https://www.iata.org/contentassets/90f8038b0eea42069554b2f4530f49ea/dgcbta-1-en.pdf"
+    },
+    {
+      "title": "Significant Changes and Amendments in the 68th Edition (2027)",
+      "publisher": "International Air Transport Association",
+      "url": "https://www.iata.org/contentassets/9dece0d6bb3c41d2bd95456b18215908/dgr-68-en-significant-changes.pdf"
+    },
+    {
+      "title": "CASA EX29/24: Dangerous Goods (2-yearly Training Requirement) Instrument 2024",
+      "publisher": "Federal Register of Legislation, Australian Government",
+      "url": "https://www.legislation.gov.au/F2024L00681/latest"
+    },
+    {
+      "title": "14 CFR 121.1005: Hazardous materials training required",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-14/section-121.1005"
+    },
+    {
+      "title": "14 CFR 121.1007: Hazardous materials training records",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-14/section-121.1007"
+    },
+    {
+      "title": "14 CFR 120.115: Employee Assistance Program (EAP)",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-14/section-120.115"
+    },
+    {
+      "title": "14 CFR 120.223: Alcohol misuse information, training, and substance abuse professionals",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-14/section-120.223"
+    },
+    {
+      "title": "14 CFR 120.1: Applicability",
+      "publisher": "Legal Information Institute, Cornell Law School (e-CFR)",
+      "url": "https://www.law.cornell.edu/cfr/text/14/120.1"
+    },
+    {
+      "title": "14 CFR 120.105: Employees who must be tested",
+      "publisher": "Legal Information Institute, Cornell Law School (e-CFR)",
+      "url": "https://www.law.cornell.edu/cfr/text/14/120.105"
+    },
+    {
+      "title": "14 CFR 120.219: Handling of test results, record retention, and confidentiality",
+      "publisher": "Legal Information Institute, Cornell Law School (e-CFR)",
+      "url": "https://www.law.cornell.edu/cfr/text/14/120.219"
+    },
+    {
+      "title": "Civil Aviation Safety Regulations 1998, Part 99: Drug and alcohol management plans and testing (Compilation No. 103, Volume 3)",
+      "publisher": "Federal Register of Legislation, Australian Government",
+      "url": "https://www.legislation.gov.au/F1998B00220/latest/text"
+    },
+    {
+      "title": "Drug and alcohol education programs",
+      "publisher": "Civil Aviation Safety Authority",
+      "url": "https://www.casa.gov.au/operations-safety-and-travel/safety-advice/drug-and-alcohol-management/drug-and-alcohol-education-programs"
+    },
+    {
+      "title": "Drug and alcohol management plans (DAMPs)",
+      "publisher": "Civil Aviation Safety Authority",
+      "url": "https://www.casa.gov.au/operations-safety-and-travel/safety-advice/drug-and-alcohol-management/drug-and-alcohol-management-plans-damps"
+    },
+    {
+      "title": "49 CFR 172.704: Training requirements",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-49/section-172.704"
+    },
+    {
+      "title": "Hazardous Materials: Eliminating Unnecessary Regulatory Burdens on Fuel Transportation, final rule (91 FR 1433)",
+      "publisher": "PHMSA, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/01/14/2026-00578/hazardous-materials-eliminating-unnecessary-regulatory-burdens-on-fuel-transportation"
+    }
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "faa-part-121-crewmember-training",
+    "eu-aircrew-recurrent-training-requirements",
+    "iata-dangerous-goods-training-requirements",
+    "how-to-build-a-training-matrix-for-a-transport-operator",
+    "how-to-set-mandatory-training-refresh-cycles"
+  ],
+  "productLinks": [
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    },
+    {
+      "label": "Operational procedures",
+      "href": "/programs/operational-procedures"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "Each certificate holder must establish a training program satisfying Subpart N and Appendices E and F and obtain initial and final FAA approval before implementation; instructor certification of proficiency becomes part of the record; grace month rule in 121.401(b)",
+      "source": "https://www.ecfr.gov/current/title-14/section-121.401"
+    },
+    {
+      "claim": "Initial training required before serving; recurrent training within preceding 12 calendar months; PIC recurrent flight training within preceding 6 calendar months; proficiency check substitution limits",
+      "source": "https://www.ecfr.gov/current/title-14/section-121.433"
+    },
+    {
+      "claim": "Recurrent ground training content, programmed hours table (e.g. 24 hours Group II pilots, 12 hours Group II flight attendants), 36 month leadership and command and mentoring training, 30 additional minutes",
+      "source": "https://www.ecfr.gov/current/title-14/section-121.427"
+    },
+    {
+      "claim": "Basic indoctrination ground training of 40 programmed hours for newly hired crewmembers and dispatchers",
+      "source": "https://www.ecfr.gov/current/title-14/section-121.415"
+    },
+    {
+      "claim": "Additional emergency drills during initial training and once each 24 calendar months",
+      "source": "https://www.ecfr.gov/current/title-14/section-121.417"
+    },
+    {
+      "claim": "5.91 SMS training to attain and maintain competencies for individuals identified in 5.23; 5.93 safety communication",
+      "source": "https://www.ecfr.gov/current/title-14/section-5.91"
+    },
+    {
+      "claim": "5.23 identifies accountable executive, management and employees",
+      "source": "https://www.ecfr.gov/current/title-14/section-5.23"
+    },
+    {
+      "claim": "Part 135 and 91.147 LOA holders must implement SMS by May 28, 2027",
+      "source": "https://www.ecfr.gov/current/title-14/section-5.9"
+    },
+    {
+      "claim": "ORO.FC.230: OPC valid 6 calendar months, as part of normal crew complement, without external visual reference for IFR, one check sufficient for VFR day performance class B seasons up to 8 months; line check valid 12 calendar months on the aircraft; emergency and safety equipment valid 12 calendar months; modular CRM over each 3 year period; ground and flight training at least every 12 calendar months",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02012R0965-20260525"
+    },
+    {
+      "claim": "ORO.FC.145: training per operations manual syllabi, OSD elements, CAT programs approved by the competent authority, FSTDs qualified under Regulation 1178/2011, operator monitors validity, validity counted from end of month",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02012R0965-20260525"
+    },
+    {
+      "claim": "ORO.FC.231: EBT may substitute for ORO.FC.230 with approval, at least six EBT modules over a 3 year program, each valid 12 months",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02012R0965-20260525"
+    },
+    {
+      "claim": "ORO.FC.A.245: ATQP LOE valid 12 calendar months; after 2 years OPC may extend to 12 months, line check to 24, emergency and safety equipment checking to 24; 48 FSTD hours over 3 years, minimum 36",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02012R0965-20260525"
+    },
+    {
+      "claim": "ORO.FC.146: line check by nominated commander; EBT instructors hold Part-FCL certificate and complete standardization; operator informs authority of nominated persons",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02012R0965-20260525"
+    },
+    {
+      "claim": "ORO.FC.105(c): aerodrome knowledge once within 12 calendar months; route knowledge once within 36 months with refresher if not operating for 12 months; ORO.CC.140 cabin crew annual recurrent with three yearly practical elements; ORO.FC.130 annual recurrent training; ORO.FC.005 scope sections",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02012R0965-20260525"
+    },
+    {
+      "claim": "EASA Easy Access Rules for Air Operations Revision 24, March 2026, covering all Annexes including Part-ORO with AMC and GM",
+      "source": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-air-operations-regulation-eu-no-9652012"
+    },
+    {
+      "claim": "Latest EUR-Lex consolidated version of Regulation (EU) No 965/2012 is dated 25 May 2026",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32012R0965"
+    },
+    {
+      "claim": "DGR 1.5.1.2.1: employer must ensure personnel are competent before performing functions; training includes general familiarization, function specific and safety training; functions not job titles; guidance Edition 1 dated 1 January 2023 replaced Appendix H",
+      "source": "https://www.iata.org/contentassets/90f8038b0eea42069554b2f4530f49ea/dgcbta-1-en.pdf"
+    },
+    {
+      "claim": "DGR 1.5.1.4 record contents and retention for minimum 36 months from most recent completion month",
+      "source": "https://www.iata.org/contentassets/90f8038b0eea42069554b2f4530f49ea/dgcbta-1-en.pdf"
+    },
+    {
+      "claim": "CASA EX29/24 gives effect to ICAO TI Part 1;4.3 and DGR 1.5.1.3 two yearly training; recurrent within 24 months from end of month; final 3 months rule; repealed end of 31 May 2027; exempts from CASR 92.095(2)(b), 92.100(1)(b), 92.105(1)(b), 92.115(2)(b), 92.120(1)(b)",
+      "source": "https://www.legislation.gov.au/F2024L00681/latest"
+    },
+    {
+      "claim": "US air carrier hazmat training must be completed within the past 24 months; month before or after counts; 30 day supervised new hire exception",
+      "source": "https://www.ecfr.gov/current/title-14/section-121.1005"
+    },
+    {
+      "claim": "US air carrier hazmat training records for preceding 3 years kept while performing and 90 days after, including test certification",
+      "source": "https://www.ecfr.gov/current/title-14/section-121.1007"
+    },
+    {
+      "claim": "68th edition DGR effective 1 January 2027; ICAO power bank addendum 27 March 2026; DGR is a field manual version of the TI",
+      "source": "https://www.iata.org/en/programs/cargo/dgr/"
+    },
+    {
+      "claim": "68th edition incorporates 2027 to 2028 TI amendments; 1.4.2 manuals kept up to date; power banks over 100 Wh forbidden; limit of 2 power banks",
+      "source": "https://www.iata.org/contentassets/9dece0d6bb3c41d2bd95456b18215908/dgr-68-en-significant-changes.pdf"
+    },
+    {
+      "claim": "EAP must include education (informational material, hotline number, drug policy) and initial employee training on effects and consequences of drug use and behavioral cues; supervisors making reasonable cause determinations get at least 60 minutes initial training and a reasonable recurrent program; training documented and identified in the drug testing program",
+      "source": "https://www.ecfr.gov/current/title-14/section-120.115"
+    },
+    {
+      "claim": "Alcohol educational materials distributed before testing and to new hires and transfers, notice to employee organizations, 11 required topics, independent authority policies clearly described; supervisors get at least 60 minutes on alcohol misuse indicators",
+      "source": "https://www.ecfr.gov/current/title-14/section-120.223"
+    },
+    {
+      "claim": "Part 120 applies to Part 121 and 135 operators, 91.147 operators and non-FAA ATC facilities; from December 20, 2027 to Part 145 certificate holders outside the U.S. performing safety sensitive maintenance on Part 121 aircraft unless recognized under 120.10 (amendment of December 18, 2024)",
+      "source": "https://www.law.cornell.edu/cfr/text/14/120.1"
+    },
+    {
+      "claim": "Nine safety sensitive functions including flight crew, flight attendant, flight instruction, dispatcher, maintenance, ground security coordinator, aviation screening, ATC and operations control specialist; includes assistants and trainees",
+      "source": "https://www.law.cornell.edu/cfr/text/14/120.105"
+    },
+    {
+      "claim": "Alcohol training records, supervisor reasonable suspicion training documentation and training certification kept for two years",
+      "source": "https://www.law.cornell.edu/cfr/text/14/120.219"
+    },
+    {
+      "claim": "Organizations listed in 99.030(2) (AOC holders, production certificate holders, aerodrome certificate holders, ARFFS, ATS providers and training providers, telecommunication and radionavigation providers, CAR certificate of approval holders, Part 145 organizations, Part 141 operators, screening authorities) with SSAA employees or contractors must develop a DAMP; 50 penalty units, strict liability",
+      "source": "https://www.legislation.gov.au/F1998B00220/latest/text"
+    },
+    {
+      "claim": "99.010 defines the drug and alcohol education program: four awareness components for SSAA employees and education and training for DAMP supervisors; DAMP supervisor definition linked to 99.050(2)(c)",
+      "source": "https://www.legislation.gov.au/F1998B00220/latest/text"
+    },
+    {
+      "claim": "99.080(1)(a): attend before commencing duties, existing staff within 6 months of commencement, then within 30 months of last attendance",
+      "source": "https://www.legislation.gov.au/F1998B00220/latest/text"
+    },
+    {
+      "claim": "99.085 review every 5 years; 99.100 reporting periods are the 6 months before 1 March and 1 September, report within 21 days, includes first time and repeat education attendance; 99.105 records kept 5 years then destroyed within 6 months",
+      "source": "https://www.legislation.gov.au/F1998B00220/latest/text"
+    },
+    {
+      "claim": "Education program applies to staff, contractors, subcontractors, volunteers and DAMP supervisors; attendance before SSAA duties and at least every 30 months; CASA free eLearning with two modules, compulsory for micro-business exemption",
+      "source": "https://www.casa.gov.au/operations-safety-and-travel/safety-advice/drug-and-alcohol-management/drug-and-alcohol-education-programs"
+    },
+    {
+      "claim": "172.704(a)(1) to (a)(5): general awareness/familiarization, function-specific, safety, security awareness (new employees within 90 days) and in-depth security training content, as in the current eCFR (up to date as of September 24, 2026).",
+      "source": "https://www.ecfr.gov/current/title-49/section-172.704"
+    },
+    {
+      "claim": "172.704(c): initial training within 90 days of employment or job change, under direct supervision meanwhile; recurrent at least every three years; in-depth security training within 90 days of a revised plan; prior employer training counts with a current record; employer responsible regardless.",
+      "source": "https://www.ecfr.gov/current/title-49/section-172.704"
+    },
+    {
+      "claim": "172.704(d): record of current training inclusive of preceding three years, kept during employment and 90 days after, with name, completion date, materials, trainer name and address, and certification of training and testing.",
+      "source": "https://www.ecfr.gov/current/title-49/section-172.704"
+    },
+    {
+      "claim": "PHMSA final rule published January 14, 2026 (91 FR 1433), effective February 13, 2026, revised 172.704(e)(1) to add packaging manufacturers to the safety training exception and to except packaging-only employees from security awareness training.",
+      "source": "https://www.federalregister.gov/documents/2026/01/14/2026-00578/hazardous-materials-eliminating-unnecessary-regulatory-burdens-on-fuel-transportation"
+    }
+  ]
+}

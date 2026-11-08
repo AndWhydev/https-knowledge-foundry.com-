@@ -1,0 +1,563 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-an-aircraft-maintenance-organization",
+  "kind": "guide",
+  "title": "How do you build a training matrix for an aircraft maintenance organization?",
+  "seoTitle": "Training matrix for aircraft maintenance",
+  "description": "Build an aircraft maintenance training matrix: certifying staff authorizations, human factors, continuation training, drug and alcohol and quality duties.",
+  "shortAnswer": "An aircraft maintenance organization builds its training matrix around certification authorizations: each certifying engineer, mechanic, inspector and quality auditor is listed against the Part 145 competence, human factors and continuation training rules of the authority that approved the organization, plus drug and alcohol, dangerous goods and quality system duties. Each cell holds the 24 month or 2 year clock, the experience test and the record that proves the authorization was valid on the day work was certified.",
+  "keyTakeaways": [
+    "The central row type is the certification authorization: it is time limited, scoped in writing and depends on recent experience as well as training.",
+    "Both the CASA and EASA Part 145 rules use a two year rhythm: continuation or recurrent training in each 24 months, 6 months of relevant experience in 2 years, and assessment before an authorization is issued.",
+    "Human factors is a competence requirement for maintenance, management and quality audit staff, not only for licensed engineers.",
+    "Retention rules differ: CASA keeps certifying staff records at least 2 years after the authorization ends; EASA keeps personnel records at least 3 years after a person leaves.",
+    "As at November 2026, OSHA's updated hazard communication training deadline of 20 November 2026 and the December 2027 extension of FAA drug and alcohol testing to some foreign repair stations both affect rows."
+  ],
+  "sections": [
+    {
+      "id": "what-sets-maintenance-apart",
+      "heading": "What sets a maintenance organization's matrix apart from other aviation matrices?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A maintenance matrix has to prove that the person who signed a release was authorized, current and experienced for that task on that date. In airline crew matrices the question is whether a check is in date; in a maintenance organization it is whether an authorization scope, its expiry, the holder's recent experience and their continuation training all lined up at the moment of certification."
+        },
+        {
+          "type": "p",
+          "text": "The base method is the one in [how to build a training matrix](/guides/how-to-build-a-training-matrix). What a maintenance organization adds is an authorization register joined to the training rows, so that a lapsed continuation course automatically flags the authorizations that depend on it. Operators who contract the work will often ask for this evidence; the [airline training matrix](/guides/how-to-build-a-training-matrix-for-an-airline) explains the crew side of the same operation."
+        }
+      ]
+    },
+    {
+      "id": "maintenance-roles",
+      "heading": "Which maintenance roles need separate rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Separate every role whose authority or training duty is defined differently by the rules, even when people move between them. The table sets out the usual rows."
+        },
+        {
+          "type": "table",
+          "caption": "Maintenance organization roles and the rules that separate them",
+          "head": [
+            "Role",
+            "Reason for a separate row",
+            "Driving rules"
+          ],
+          "rows": [
+            [
+              "Certifying staff (licensed engineers)",
+              "Hold time limited, written scope authorizations",
+              "CASA MOS 145.A.35; EASA 145.A.35 and Part-66"
+            ],
+            [
+              "Support staff (EASA)",
+              "Licensed under Part-66 and subject to recurrent training in each 2 year period",
+              "EASA 145.A.35(d)"
+            ],
+            [
+              "Category A task certifiers",
+              "Task training with examination or workplace assessment",
+              "CASA MOS 145.A.35(n); EASA 145.A.35(m)"
+            ],
+            [
+              "Mechanics and technicians without certification",
+              "Must keep knowledge of technology, procedures and human factors current",
+              "CASA MOS 145.A.35(d); EASA 145.A.30(e)"
+            ],
+            [
+              "Quality, compliance monitoring and safety staff",
+              "Competence including human factors and safety management principles",
+              "CASA MOS 145.A.30(e); EASA 145.A.30(e)"
+            ],
+            [
+              "Trainees on permitted training authorizations",
+              "A one time, six month authorization with notice of completion",
+              "CASA MOS 145.A.37"
+            ],
+            [
+              "Procurement, inspection and design staff",
+              "Counterfeit parts awareness under the quality standard",
+              "AS9100 FAQ 2.10"
+            ],
+            [
+              "Stores and shipping staff",
+              "Dangerous goods functions when packing or shipping",
+              "IATA DGR 1.5"
+            ],
+            [
+              "Anyone performing maintenance in Australia or for US carriers",
+              "Safety sensitive function for drug and alcohol programs",
+              "CASR 99.015; 14 CFR 120.105"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maintenance-obligations-by-authority",
+      "heading": "What do the approving authorities require of maintenance staff?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The columns follow the approvals the organization holds. Each summary below uses only facts from the linked regulation page."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Australia (CASA).** Under the Part 145 Manual of Standards, competence standards in the exposition must include understanding of human factors and human performance for anyone in maintenance, management or quality audit tasks, and everyone performing maintenance must keep up to date knowledge of technology, procedures and human factors principles ([CASA Part 145](/regulations/casa-part-145-maintenance-personnel-training)). Continuation training is delivered before a person certifies and at least once every 24 months. Certification authorizations last no more than 2 years, need 6 months of experience in the preceding 2 years, follow an assessment, state their scope in writing, and require a minimum age of 21.",
+            "**European Union (EASA).** Annex II (Part-145) to Regulation (EU) No 1321/2014 requires the organization to establish and control the competency of maintenance, airworthiness review, safety management and compliance monitoring personnel, including human factors and human performance ([EASA Part-66 and Part-145](/regulations/easa-part-66-and-part-145-staff-training)). Certifying and support staff receive sufficient recurrent training in each 2 year period under a recurrent training program, need 6 months of relevant experience in any consecutive 2 years, and are assessed before an authorization is issued or reissued. A Part-66 license becomes invalid 5 years after its last issue or change unless submitted for verification.",
+            "**Drug and alcohol, Australia.** Part 145 organizations must have a drug and alcohol management plan under CASR 99.030(2)(j), and maintenance and certification are safety sensitive aviation activities. Education is attended before starting duties and then within 30 months ([CASA Part 99](/regulations/casa-part-99-drug-and-alcohol-management-plan-training)).",
+            "**Drug and alcohol, United States.** Part 145 repair stations may elect to run a 14 CFR Part 120 program, and from 20 December 2027 those outside the United States performing safety sensitive maintenance on Part 121 aircraft must, unless recognized under 120.10 ([FAA drug and alcohol program](/regulations/faa-drug-and-alcohol-program-training)). Maintenance is one of the nine safety sensitive functions.",
+            "**Quality system.** Where the organization holds 9100 series certification, clause 7.3 requires people to be aware of their contribution to product or service conformity, product safety and the importance of ethical behavior, and clause 8.4.3 flows awareness to external providers ([AS9100 competence and awareness](/regulations/as9100-competence-and-awareness-requirements)).",
+            "**Shipping parts and chemicals.** Staff who pack or ship dangerous goods by air must be competent for their function before performing it, with recurrence within 24 months ([IATA dangerous goods](/regulations/iata-dangerous-goods-training-requirements)). In the United States, 29 CFR 1910.1200(h) requires hazard communication training at initial assignment and when a new chemical hazard is introduced ([OSHA hazard communication](/regulations/osha-hazard-communication-training-requirements))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "illustrative-maintenance-matrix",
+      "heading": "What does an illustrative maintenance training matrix contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It contains one row per person and authorization, with training, experience and assessment cells that all have to be green for the authorization to stand. The extract below is illustrative only, for a hypothetical organization holding CASA and EASA Part 145 approvals with a US hangar. Clocks marked as organization policy are internal choices, not requirements of the cited rule."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical dual approved maintenance organization",
+          "head": [
+            "Role",
+            "Approval",
+            "Obligation",
+            "Clock",
+            "Evidence held"
+          ],
+          "rows": [
+            [
+              "B1 licensed engineer",
+              "CASA",
+              "Continuation training, MOS 145.A.35(e)",
+              "Before certifying; at least once every 24 months",
+              "Course record linked to the authorization"
+            ],
+            [
+              "B1 licensed engineer",
+              "CASA",
+              "Authorization renewal, MOS 145.A.35(b), (c) and (f)",
+              "Maximum 2 years; 6 months experience in preceding 2 years",
+              "Assessment record and experience log"
+            ],
+            [
+              "B2 licensed engineer",
+              "EASA",
+              "Recurrent training, 145.A.35(d)",
+              "Sufficient training in each 2 year period",
+              "Recurrent training program record"
+            ],
+            [
+              "B2 licensed engineer",
+              "EASA",
+              "Part-66 license validity, 66.A.40",
+              "Submit for verification within 5 years of last issue or change",
+              "License copy with verification date"
+            ],
+            [
+              "Category A mechanic",
+              "EASA",
+              "Task training, 145.A.35(m)",
+              "Before certifying the task",
+              "Examination or workplace assessment result"
+            ],
+            [
+              "Apprentice",
+              "CASA",
+              "Permitted training authorization, MOS 145.A.37",
+              "Once only, for up to 6 months",
+              "Notice of completion"
+            ],
+            [
+              "Quality auditor",
+              "CASA and EASA",
+              "Human factors competence, 145.A.30(e)",
+              "On appointment; organization policy every 24 months",
+              "Competence assessment against exposition standard"
+            ],
+            [
+              "Hangar technician",
+              "CASA",
+              "Part 99 DAMP education",
+              "Before safety sensitive duties; within 30 months",
+              "Attendance record kept five years"
+            ],
+            [
+              "Stores clerk",
+              "Any",
+              "IATA DGR 1.5 shipping functions",
+              "Before performing; within 24 months",
+              "Competency record kept at least 36 months"
+            ],
+            [
+              "Hangar technician",
+              "United States",
+              "1910.1200(h) hazard communication",
+              "Initial assignment; when a new hazard is introduced",
+              "Training record by chemical or hazard category"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "which-clocks-are-legal",
+      "heading": "Which maintenance intervals come from the rules and which from the exposition?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The two year continuation and authorization cycles come from the rules; the content, method and timing within each cycle come from the exposition or procedures the authority accepts. Write both into the matrix so a surveyor can see where the organization has set its own standard."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Rule clocks.** 24 month continuation training (CASA), recurrent training in each 2 year period (EASA), 2 year maximum authorization (CASA), 6 months of experience in 2 years (both), 5 year Part-66 license verification, 30 month DAMP education and 24 month dangerous goods recurrence.",
+            "**Exposition clocks.** The content of continuation and recurrent training, how human factors competence is assessed for non certifying staff, and refreshers for quality and safety staff are defined in the organization's own procedures agreed with the competent authority.",
+            "**Event triggers.** OSHA requires hazard communication training whenever a new chemical hazard is introduced. CASA requires error reporting procedures that take human factors into account under MOS 145.A.65, which makes reported errors a natural trigger for targeted retraining.",
+            "**Quality standard expectations.** IAQG evaluation guidance for 9100 lists periodic assessment of competency among things to consider, without setting a frequency. The glossary entry on [verification of competency](/glossary/verification-of-competency) covers practical methods."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maintenance-evidence",
+      "heading": "What maintenance training evidence must be produced, and how fast?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Authorizations must be producible within 24 hours under both the CASA MOS and EASA Part-145, so the matrix must be able to show a current authorization and its supporting training on request. Retention then depends on the approval."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**CASA.** Records of certifying employees, including training history, are kept at least 2 years after the authorization ends, and a copy is given to the employee on request (MOS 145.A.35(j) to (l)).",
+            "**EASA.** Personnel records are kept while the person is employed and at least 3 years after they leave or the authorization is withdrawn; management system records are kept 5 years (145.A.55).",
+            "**Drug and alcohol.** CASA DAMP records are kept 5 years then destroyed within 6 months. FAA alcohol and supervisor training documentation is kept two years.",
+            "**Dangerous goods.** DGR records are kept at least 36 months from the most recent completion month.",
+            "Retention across regimes is compared in [how long to keep training records](/guides/how-long-to-keep-training-records)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maintenance-changes-ahead",
+      "heading": "Which maintenance training changes are coming in 2026 and 2027?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Several dated changes affect maintenance rows. As at November 2026, the linked regulation pages record these:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**20 November 2026, United States:** all employers must update labeling, hazard communication programs and training as necessary for newly identified hazards in substances; the equivalent date for mixtures is 19 May 2028.",
+            "**2026, EU:** EASA planned a 2026 revision of the Easy Access Rules for Continuing Airworthiness to incorporate Regulation (EU) 2025/111, which its September 2025 revision did not include.",
+            "**1 January 2027:** the 68th edition of the IATA Dangerous Goods Regulations takes effect.",
+            "**31 May 2027, Australia:** CASA EX29/24, the instrument giving effect to two yearly dangerous goods training, is repealed at the end of the day.",
+            "**20 December 2027, United States:** Part 120 drug and alcohol testing extends to certain Part 145 repair stations outside the United States that maintain Part 121 aircraft."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Standard in transition",
+          "text": "IAQG material describes the developing IA9100 standard, which will replace AS9100 in the Americas. Keep it on a watch list rather than in the matrix until it is published."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each maintenance obligation to the authorization scope, learning outcome and assessment point that support it, so continuation training and human factors content can be traced to the exposition and the rule. When an authority amends Part 145 or a DGR edition changes, the affected authorizations and materials are flagged. See [standards and accreditation](/platform/standards-accreditation)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do mechanics who never certify need human factors training?",
+      "a": "Under both Part 145 regimes, yes in substance. The CASA MOS requires understanding of human factors for individuals in maintenance, management or quality audit tasks, and EASA 145.A.30(e) requires the organization to control the competency of maintenance personnel including human factors and human performance. Certification status changes the authorization rows, not the human factors duty."
+    },
+    {
+      "q": "Is the 24 month continuation cycle the same as the 2 year authorization limit?",
+      "a": "They are separate clocks. Under the CASA MOS, continuation training must be done at least once every 24 months, while a certification authorization lasts no more than 2 years and also needs 6 months of experience in the preceding 2 years. A matrix should track each, because a person can satisfy one and fail another."
+    },
+    {
+      "q": "How should foreign licensed engineers be handled in an Australian organization?",
+      "a": "Give them a row that captures the extra human factors element. The CASA MOS Appendix III sets human factors training equivalent to Part 66 for foreign licensed staff, so the matrix should record that equivalence assessment as a precondition for their authorization."
+    },
+    {
+      "q": "Does AS9100 apply to a maintenance organization?",
+      "a": "Only if the organization chooses 9100 series certification. The IAQG standard covers organizations that design, produce, maintain or supply aviation, space and defense products. Where it is held, the awareness duties in clause 7.3, including ethical behavior and product safety, become columns alongside the Part 145 requirements."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Part 145 Manual of Standards (as amended), compilation F2015C00263 of 18 March 2015",
+      "publisher": "Federal Register of Legislation, Australian Government",
+      "url": "https://www.legislation.gov.au/F2011L00281/latest/text"
+    },
+    {
+      "title": "Part 145 Manual of Standards: compiled text",
+      "publisher": "Federal Register of Legislation, Australian Government",
+      "url": "https://www.legislation.gov.au/F2011L00281/2015-03-18/2015-03-18/text/original/epub/OEBPS/document_1/document_1.html"
+    },
+    {
+      "title": "Civil Aviation Safety Regulations 1998 (Compilation No. 103)",
+      "publisher": "Federal Register of Legislation, Australian Government",
+      "url": "https://www.legislation.gov.au/F1998B00220/latest/text"
+    },
+    {
+      "title": "Requirements for approved maintenance organisations (Part 145)",
+      "publisher": "Civil Aviation Safety Authority",
+      "url": "https://www.casa.gov.au/aircraft/airworthiness/maintenance-organisations/requirements-approved-maintenance-organisations-part-145"
+    },
+    {
+      "title": "Commission Regulation (EU) No 1321/2014, consolidated text of August 7, 2026 (Annex II Part-145, Annex III Part-66)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02014R1321-20260807"
+    },
+    {
+      "title": "Easy Access Rules for Continuing Airworthiness (Regulation (EU) No 1321/2014)",
+      "publisher": "European Union Aviation Safety Agency",
+      "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-continuing-airworthiness"
+    },
+    {
+      "title": "9100 Quality Management Systems: Requirements for Aviation, Space and Defense Organizations",
+      "publisher": "International Aerospace Quality Group",
+      "url": "https://iaqg.org/standard/9100-qms-requirements-for-aviation-space-and-defense-organizations/"
+    },
+    {
+      "title": "9100:2016 Series Revision Overview Presentation",
+      "publisher": "International Aerospace Quality Group",
+      "url": "https://iaqg.org/wp-content/uploads/2020/01/9100-2016-Overview-5-13-2020.pdf"
+    },
+    {
+      "title": "9100:2016 Frequently Asked Questions",
+      "publisher": "International Aerospace Quality Group",
+      "url": "https://iaqg.org/wp-content/uploads/2019/10/9100-2016_faq.pdf"
+    },
+    {
+      "title": "AS/EN/JISQ 9100:2016 Evaluation Guidance Material",
+      "publisher": "International Aerospace Quality Group (9101 Writing Team)",
+      "url": "https://iaqg.org/wp-content/uploads/2019/10/auditor_guidance-_9100_2016.pdf"
+    },
+    {
+      "title": "Ethics and Integrity: Building Ethical Behavior Controls Into QMS Standards (ASQ Quality Progress, March 2024)",
+      "publisher": "International Aerospace Quality Group (reprinted with permission from ASQ)",
+      "url": "https://iaqg.org/wp-content/uploads/2019/10/qp0324standardissues.pdf"
+    },
+    {
+      "title": "14 CFR 120.115: Employee Assistance Program (EAP)",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-14/section-120.115"
+    },
+    {
+      "title": "14 CFR 120.223: Alcohol misuse information, training, and substance abuse professionals",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-14/section-120.223"
+    },
+    {
+      "title": "14 CFR 120.1: Applicability",
+      "publisher": "Legal Information Institute, Cornell Law School (e-CFR)",
+      "url": "https://www.law.cornell.edu/cfr/text/14/120.1"
+    },
+    {
+      "title": "14 CFR 120.105: Employees who must be tested",
+      "publisher": "Legal Information Institute, Cornell Law School (e-CFR)",
+      "url": "https://www.law.cornell.edu/cfr/text/14/120.105"
+    },
+    {
+      "title": "14 CFR 120.219: Handling of test results, record retention, and confidentiality",
+      "publisher": "Legal Information Institute, Cornell Law School (e-CFR)",
+      "url": "https://www.law.cornell.edu/cfr/text/14/120.219"
+    },
+    {
+      "title": "Civil Aviation Safety Regulations 1998, Part 99: Drug and alcohol management plans and testing (Compilation No. 103, Volume 3)",
+      "publisher": "Federal Register of Legislation, Australian Government",
+      "url": "https://www.legislation.gov.au/F1998B00220/latest/text"
+    },
+    {
+      "title": "Drug and alcohol management plans (DAMPs)",
+      "publisher": "Civil Aviation Safety Authority",
+      "url": "https://www.casa.gov.au/operations-safety-and-travel/safety-advice/drug-and-alcohol-management/drug-and-alcohol-management-plans-damps"
+    },
+    {
+      "title": "Dangerous Goods Regulations (DGR)",
+      "publisher": "International Air Transport Association",
+      "url": "https://www.iata.org/en/programs/cargo/dgr/"
+    },
+    {
+      "title": "Dangerous Goods Training Guidance, Edition 1: Competency-based Training and Assessment Approach",
+      "publisher": "International Air Transport Association",
+      "url": "https://www.iata.org/contentassets/90f8038b0eea42069554b2f4530f49ea/dgcbta-1-en.pdf"
+    },
+    {
+      "title": "CASA EX29/24: Dangerous Goods (2-yearly Training Requirement) Instrument 2024",
+      "publisher": "Federal Register of Legislation, Australian Government",
+      "url": "https://www.legislation.gov.au/F2024L00681/latest"
+    },
+    {
+      "title": "29 CFR 1910.1200: Hazard communication",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/29/1910.1200"
+    },
+    {
+      "title": "Hazard Communication Standard: Final Rule, 91 FR 1695 (January 15, 2026)",
+      "publisher": "Occupational Safety and Health Administration",
+      "url": "https://www.osha.gov/laws-regs/federalregister/2026-01-15"
+    }
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "casa-part-145-maintenance-personnel-training",
+    "easa-part-66-and-part-145-staff-training",
+    "how-to-build-a-training-matrix-for-an-airline",
+    "how-to-set-up-verification-of-competency",
+    "as9100-competence-and-awareness-requirements"
+  ],
+  "productLinks": [
+    {
+      "label": "Standards and accreditation",
+      "href": "/platform/standards-accreditation"
+    },
+    {
+      "label": "Hybrid verification",
+      "href": "/programs/hybrid-verification"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "145.A.30(e): competence standards in exposition and understanding of human factors and human performance issues for individuals in maintenance, management or quality audit tasks",
+      "source": "https://www.legislation.gov.au/F2011L00281/2015-03-18/2015-03-18/text/original/epub/OEBPS/document_1/document_1.html"
+    },
+    {
+      "claim": "145.A.35(d) and (e): up to date knowledge of technology, procedures and human factors principles; continuation training program before certifying and at least once every 24 months",
+      "source": "https://www.legislation.gov.au/F2011L00281/2015-03-18/2015-03-18/text/original/epub/OEBPS/document_1/document_1.html"
+    },
+    {
+      "claim": "145.A.35(b), (c), (f), (h), (m): authorization maximum 2 years; 6 months experience in preceding 2 years; assessment before issue; written scope details; minimum age 21",
+      "source": "https://www.legislation.gov.au/F2011L00281/2015-03-18/2015-03-18/text/original/epub/OEBPS/document_1/document_1.html"
+    },
+    {
+      "claim": "145.A.35(j), (k), (l): records of certifying employees with training history kept at least 2 years after authorization ends; copy to employee on request; produce authorization within 24 hours",
+      "source": "https://www.legislation.gov.au/F2011L00281/2015-03-18/2015-03-18/text/original/epub/OEBPS/document_1/document_1.html"
+    },
+    {
+      "claim": "145.A.35(n) Category A task training with examination or workplace assessment; 145.A.37 permitted training authorization once only for 6 months with notice of completion",
+      "source": "https://www.legislation.gov.au/F2011L00281/2015-03-18/2015-03-18/text/original/epub/OEBPS/document_1/document_1.html"
+    },
+    {
+      "claim": "Definition of human factors principles; 145.A.65(a) and (b) error reporting policy and procedures taking human factors into account; Appendix III human factors training equivalent to Part 66 for foreign licensed staff",
+      "source": "https://www.legislation.gov.au/F2011L00281/2015-03-18/2015-03-18/text/original/epub/OEBPS/document_1/document_1.html"
+    },
+    {
+      "claim": "Part 145 MOS shown as in force on the Federal Register of Legislation with latest version F2015C00263 dated 18 March 2015, made under regulations 145.005 and 145.015",
+      "source": "https://www.legislation.gov.au/F2011L00281/latest/text"
+    },
+    {
+      "claim": "Part 145 organizations must have a DAMP under regulation 99.030(2)(j); maintenance and certification are SSAAs under 99.015",
+      "source": "https://www.legislation.gov.au/F1998B00220/latest/text"
+    },
+    {
+      "claim": "CASA expectations for Part 145 organizations are based on the Part 145 MOS",
+      "source": "https://www.casa.gov.au/aircraft/airworthiness/maintenance-organisations/requirements-approved-maintenance-organisations-part-145"
+    },
+    {
+      "claim": "145.A.30(e) text: establish and control competency of personnel in maintenance, airworthiness reviews, safety management and compliance monitoring per procedure and standard agreed with competent authority, including safety management principles, human factors and human performance",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02014R1321-20260807"
+    },
+    {
+      "claim": "145.A.35(d) sufficient recurrent training in each 2-year period; (e) recurrent training programme; (c) 6 months experience in any consecutive 2 years; (f) assessment before issue or reissue; (g) continued validity; (k) produce within 24 hours; (l) minimum age 21; (m) category A task training",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02014R1321-20260807"
+    },
+    {
+      "claim": "66.A.40 licence invalid 5 years after last issue or change unless submitted for verification; privileges invalid when licence invalid",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02014R1321-20260807"
+    },
+    {
+      "claim": "145.A.55(d) personnel records retained while employed and at least 3 years after leaving or withdrawal; 145.A.55(c) management system records 5 years",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02014R1321-20260807"
+    },
+    {
+      "claim": "145.A.30 and 145.A.35 current wording introduced by Regulation (EU) 2021/1963 (M12); findings against its requirements could be corrected until 2 December 2024 (Article 4)",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02014R1321-20260807"
+    },
+    {
+      "claim": "September 2025 EAR revision incorporates Corrigendum II to ED Decision 2023/019/R on Part-66 review; Regulation (EU) 2025/111 not incorporated, next revision planned for 2026",
+      "source": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-continuing-airworthiness"
+    },
+    {
+      "claim": "9100:2016 requires employees to be aware of their contribution to product or service conformity, their contribution to product safety, and the importance of ethical behavior.",
+      "source": "https://iaqg.org/wp-content/uploads/2020/01/9100-2016-Overview-5-13-2020.pdf"
+    },
+    {
+      "claim": "In AS9100 Rev D, clauses 7.3h and 8.4.3m added the importance of ethical behavior as an awareness requirement after industry-wide escapes caused by individual ethical decision making; the developing IA9100 standard will replace AS9100 in the Americas; IA9100 clause 5.1.1 l note mentions periodic training and awareness.",
+      "source": "https://iaqg.org/wp-content/uploads/2019/10/qp0324standardissues.pdf"
+    },
+    {
+      "claim": "FAQ 2.5: expected awareness under 7.3 (explain role, contribution to quality, quality basics, product use and impact of failures); FAQ 2.13: 8.4.3 m flow down intent and two methods; FAQ 2.10: counterfeit parts training for procurement, inspection and design personnel.",
+      "source": "https://iaqg.org/wp-content/uploads/2019/10/9100-2016_faq.pdf"
+    },
+    {
+      "claim": "Evaluation guidance titled AS/EN/JISQ 9100 2016 (Rev D); 7.2 things to consider including periodic assessment of competency and evidence types; 7.3 awareness of relevant documented information including changes; 8.1.3 product safety training and communication examples.",
+      "source": "https://iaqg.org/wp-content/uploads/2019/10/auditor_guidance-_9100_2016.pdf"
+    },
+    {
+      "claim": "Alcohol educational materials distributed before testing and to new hires and transfers, notice to employee organizations, 11 required topics, independent authority policies clearly described; supervisors get at least 60 minutes on alcohol misuse indicators",
+      "source": "https://www.ecfr.gov/current/title-14/section-120.223"
+    },
+    {
+      "claim": "Part 120 applies to Part 121 and 135 operators, 91.147 operators and non-FAA ATC facilities; from December 20, 2027 to Part 145 certificate holders outside the U.S. performing safety sensitive maintenance on Part 121 aircraft unless recognized under 120.10 (amendment of December 18, 2024)",
+      "source": "https://www.law.cornell.edu/cfr/text/14/120.1"
+    },
+    {
+      "claim": "Nine safety sensitive functions including flight crew, flight attendant, flight instruction, dispatcher, maintenance, ground security coordinator, aviation screening, ATC and operations control specialist; includes assistants and trainees",
+      "source": "https://www.law.cornell.edu/cfr/text/14/120.105"
+    },
+    {
+      "claim": "Alcohol training records, supervisor reasonable suspicion training documentation and training certification kept for two years",
+      "source": "https://www.law.cornell.edu/cfr/text/14/120.219"
+    },
+    {
+      "claim": "99.080(1)(a): attend before commencing duties, existing staff within 6 months of commencement, then within 30 months of last attendance",
+      "source": "https://www.legislation.gov.au/F1998B00220/latest/text"
+    },
+    {
+      "claim": "99.085 review every 5 years; 99.100 reporting periods are the 6 months before 1 March and 1 September, report within 21 days, includes first time and repeat education attendance; 99.105 records kept 5 years then destroyed within 6 months",
+      "source": "https://www.legislation.gov.au/F1998B00220/latest/text"
+    },
+    {
+      "claim": "DGR 1.5.1.4 record contents and retention for minimum 36 months from most recent completion month",
+      "source": "https://www.iata.org/contentassets/90f8038b0eea42069554b2f4530f49ea/dgcbta-1-en.pdf"
+    },
+    {
+      "claim": "CASA EX29/24 gives effect to ICAO TI Part 1;4.3 and DGR 1.5.1.3 two yearly training; recurrent within 24 months from end of month; final 3 months rule; repealed end of 31 May 2027; exempts from CASR 92.095(2)(b), 92.100(1)(b), 92.105(1)(b), 92.115(2)(b), 92.120(1)(b)",
+      "source": "https://www.legislation.gov.au/F2024L00681/latest"
+    },
+    {
+      "claim": "68th edition DGR effective 1 January 2027; ICAO power bank addendum 27 March 2026; DGR is a field manual version of the TI",
+      "source": "https://www.iata.org/en/programs/cargo/dgr/"
+    },
+    {
+      "claim": "1910.1200(h)(1): training at initial assignment and whenever a new chemical hazard not previously trained on is introduced; may cover categories of hazards or specific chemicals.",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.1200"
+    },
+    {
+      "claim": "1910.1200(j): effective July 19, 2024; manufacturers, importers, distributors comply for substances by May 19, 2026 and mixtures by November 19, 2027; all employers update labeling, program and training as necessary by November 20, 2026 (substances) and May 19, 2028 (mixtures).",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.1200"
+    }
+  ]
+}

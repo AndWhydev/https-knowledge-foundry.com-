@@ -1,0 +1,589 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-real-estate-agency",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a real estate agency?",
+  "seoTitle": "Training matrix for a real estate agency",
+  "description": "Build a real estate agency training matrix: license CE and CPD cycles, AML/CTF duties, agency roles, evidence rules and an illustrative grid by market.",
+  "shortAnswer": "A real estate agency training matrix is built by listing every person who holds a license, registration or AML/CTF related role, then recording two separate clocks for each: the continuing education or CPD cycle tied to that person's license, and the anti-money laundering training tied to the job they do. Each cell names the market, the mandatory topics, the deadline, and the record a licensing regulator or AML supervisor would ask the agency to produce.",
+  "keyTakeaways": [
+    "Agency training runs on two clocks: a license renewal cycle owned by the individual and a role based AML/CTF cycle owned by the agency.",
+    "Since July 1, 2026, Australian agencies that broker real estate sales are AML/CTF reporting entities, and AUSTRAC expects role appropriate training before a person starts an AML/CTF related role.",
+    "License cycles differ widely: NSW runs CPD from 1 July to 30 June, Texas renews every two years, Florida sets 14 hours per renewal period and California counts 45 hours over four years.",
+    "Generic vendor modules are not enough. AUSTRAC describes generic online training with no completion tracking or understanding checks as poor practice.",
+    "Victorian agents' representatives must be registered from 25 November 2026, and mandatory Victorian CPD starts on 1 April 2027."
+  ],
+  "sections": [
+    {
+      "id": "two-clocks-in-an-agency",
+      "heading": "Why does a real estate agency need two kinds of columns?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because a real estate agency answers to two different kinds of regulator: a licensing authority that renews each agent's license only if continuing education is complete, and, in a growing number of markets, an anti-money laundering supervisor that judges whether the agency trained the people who deal with buyers and sellers. The first set of duties follows the person; the second follows the role."
+        },
+        {
+          "type": "p",
+          "text": "The core method in [how to build a training matrix](/guides/how-to-build-a-training-matrix) still holds: people or roles down one side, requirements across the top, and a rule in each cell. An agency adds a license number, license class and expiry date to every row, because a missed CE deadline can stop an agent trading, while a gap in AML training is a failing of the business. Recording both against the same row stops one from hiding the other. A [training matrix](/glossary/training-matrix) built this way also shows principals which renewals fall due in the next quarter."
+        }
+      ]
+    },
+    {
+      "id": "agency-rows",
+      "heading": "Which roles should a real estate agency list as rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "List roles by the license class and the customer facing activity each one carries, not by office or team. The table below shows the rows most agencies need and the rule that makes each one distinct."
+        },
+        {
+          "type": "table",
+          "caption": "Real estate agency roles and what drives each row",
+          "head": [
+            "Role",
+            "Why it is a separate row",
+            "Rules that drive it"
+          ],
+          "rows": [
+            [
+              "Principal, licensee-in-charge or sponsoring broker",
+              "Supervises other licensees and owns the agency training plan",
+              "NSW licensee-in-charge training plan, Texas Broker Responsibility Course, California management and supervision course"
+            ],
+            [
+              "AML/CTF compliance officer",
+              "Appointed at management level and responsible for the program",
+              "AUSTRAC compliance officer guidance, Cabinet Resolution No. 134 of 2025 Article 22 (UAE)"
+            ],
+            [
+              "Seller's agent and residential sales agent",
+              "Brokers sales, onboards both parties as customers",
+              "AUSTRAC real estate designated services, NSW residential sales CPD topics"
+            ],
+            [
+              "Buyer's agent",
+              "Separate NSW area of practice and a separate AML start point",
+              "NSW buyers agent CPD topics, AUSTRAC real estate designated services"
+            ],
+            [
+              "Property manager",
+              "Own compulsory CPD topics, including domestic and family violence content in NSW",
+              "NSW property management CPD"
+            ],
+            [
+              "Assistant agent or agents' representative",
+              "Registered rather than licensed, with different training rules",
+              "NSW Certificate IV units, Victorian registration from 25 November 2026"
+            ],
+            [
+              "Newly licensed agent",
+              "Post-licensing or SAE education before first renewal",
+              "Florida rule 61J2-3.020, Texas SAE requirements"
+            ],
+            [
+              "Administrative, settlement and contract staff",
+              "Handle customer identification and settlement communications",
+              "AUSTRAC personnel due diligence and training"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agency-obligations-by-market",
+      "heading": "What does each market require of agency staff?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The columns come from the regulation pages for each market where the agency is licensed. Each summary below draws only on the linked page."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Australia (AML/CTF).** Agencies that broker the sale, purchase or transfer of real estate are reporting entities, and the customer is both the seller and the buyer. Before anyone performs an AML/CTF related role, AUSTRAC expects initial personnel due diligence, confirmation of suitability and role appropriate training; while they stay in the role, ongoing due diligence, refresher training and performance monitoring. Contractors, consultants, volunteers and interns are covered too ([AML/CTF for real estate](/regulations/aml-ctf-tranche-2-real-estate-training)).",
+            "**New South Wales.** The CPD year runs 1 July to 30 June. For 2026-27, residential sales licensees complete 7 hours across 4 compulsory topics, property managers complete 7 hours including at least 4 hours on domestic and family violence, and Class 1 licensees also attend a 5 hour accredited forum and complete AUSTRAC's Smart real estate agent's guide to AML/CTF, which does not replace the compulsory AML/CTF topic. Assistant agents complete three Certificate IV units ([NSW real estate CPD](/regulations/nsw-real-estate-cpd-requirements)).",
+            "**Victoria.** From 1 April 2027, estate agents and agents' representatives must complete at least five CPD activities of at least one hour each year from 1 April to 31 March, including at least two mandatory activities set by the Business Licensing Authority with a written examination. Conferences, self-study and pre-recorded webinars do not count ([Victorian estate agent CPD](/regulations/victoria-estate-agent-cpd-requirements)).",
+            "**California.** Salespersons and brokers complete 45 clock hours of Department of Real Estate approved continuing education within the four years before renewal, including mandatory subjects such as ethics, agency, trust fund handling, fair housing with an interactive role play component and a two hour implicit bias course, plus at least 18 hours of consumer protection courses ([California real estate CE](/regulations/california-real-estate-continuing-education)).",
+            "**Florida.** After the first renewal, licensees complete at least 14 hours of 50 minutes in each renewal period: the 3 hour Core Law course, the 3 hour Business Ethics course and at least 8 hours of specialty courses. Before the first renewal, sales associates complete up to 45 hours and brokers up to 60 hours of post-licensing education, or the license is null and void ([Florida real estate CE](/regulations/florida-real-estate-continuing-education)).",
+            "**Texas.** Sales agents and brokers complete 18 hours for each two year renewal, including Legal Update I and II (4 hours each) and 3 hours on contracts. Sponsoring brokers, designated brokers and delegated supervisors take the 6 hour Broker Responsibility Course ([Texas real estate CE](/regulations/texas-real-estate-continuing-education)).",
+            "**Portugal, the EU and the UAE.** Real estate businesses appear among the obliged entities on the [Portugal AML law](/regulations/portugal-aml-law-training-requirements) page, where Article 55 of Law 83/2017 requires specific, regular training and immediate training for new joiners in AML roles. The [EU AMLR](/regulations/eu-amlr-training-requirements) lists real estate agents as obliged entities and applies from 10 July 2027. In the UAE, real estate brokers and agents are designated non-financial businesses, and Cabinet Resolution No. 134 of 2025 requires periodic programs and documented training plans ([UAE AML/CFT](/regulations/uae-aml-cft-training-requirements))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "illustrative-agency-matrix",
+      "heading": "What does a filled-in agency matrix look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It reads as a list of people, each with a license tag, an AML role tag and a due date for every duty. The extract below is illustrative only, for a hypothetical agency group with offices in Sydney and Melbourne and an affiliated brokerage in Texas. Frequencies marked as agency policy are choices the agency must justify, not intervals set by the cited rule."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical agency group, person and role by obligation",
+          "head": [
+            "Role",
+            "Market",
+            "Obligation",
+            "Frequency or deadline",
+            "Evidence held"
+          ],
+          "rows": [
+            [
+              "Residential sales agent",
+              "NSW",
+              "2026-27 compulsory CPD topics, 7 hours",
+              "By 30 June each CPD year",
+              "Provider certificate and assessment activity record, kept 3 years"
+            ],
+            [
+              "Class 1 licensee",
+              "NSW",
+              "5 hour accredited forum and AUSTRAC Smart agent's guide",
+              "Each CPD year",
+              "Attendance record and guide completion"
+            ],
+            [
+              "Property manager",
+              "NSW",
+              "Domestic and family violence topic, minimum 4 hours",
+              "Each CPD year",
+              "Certificate from a provider whose course NSW Fair Trading reviewed"
+            ],
+            [
+              "Sales agent and admin officer",
+              "Australia",
+              "AML/CTF role appropriate training",
+              "Before starting the role; refresher yearly as agency policy",
+              "Completion, understanding check and personnel due diligence file"
+            ],
+            [
+              "AML/CTF compliance officer",
+              "Australia",
+              "Program ownership and reporting duties",
+              "On appointment within 28 days; ongoing",
+              "Appointment record and training on suspicious matter and threshold reporting"
+            ],
+            [
+              "Agents' representative",
+              "Victoria",
+              "Registration, then five CPD activities including two mandatory",
+              "Registered from 25 November 2026; CPD year from 1 April 2027",
+              "Registration record and CPD certificates"
+            ],
+            [
+              "Sales agent",
+              "Texas",
+              "18 hours CE including Legal Update I and II and contracts",
+              "Each two year renewal",
+              "Provider roster reported to TREC"
+            ],
+            [
+              "Sponsoring broker",
+              "Texas",
+              "6 hour Broker Responsibility Course",
+              "Each renewal",
+              "Course completion on TREC record"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "license-versus-role-clocks",
+      "heading": "Which deadlines follow the license and which follow the role?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "License deadlines are fixed by the licensing regulator and attach to the individual; AML deadlines are mostly set by the agency's own program and attach to the job. Record the source of every date in the matrix so a reviewer can tell the two apart."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Fixed by the license regulator.** NSW CPD by 30 June; Victorian CPD by 31 March from the 2027-28 year; Texas every two years; California within the four years before renewal; Florida in each renewal period after the first.",
+            "**Fixed by an event.** AUSTRAC expects training before a person performs an AML/CTF related role, and Florida post-licensing must be finished before the first renewal. Both belong in a trigger column, not just a calendar column.",
+            "**Chosen by the agency.** AUSTRAC requires refresher training while a person remains in the role but the real estate page gives no fixed interval, so the agency should write down why it picked its cycle. Guidance on [setting mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles) covers how to justify a choice.",
+            "**Grace and deferral rules.** California allows a 90 day CE extension on request, and Texas allows sales agents (except in the first renewal period) and brokers to pay a $200 fee for 60 extra days. Track these as exceptions, not as the normal due date."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agency-records",
+      "heading": "What records should an agency be ready to produce?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Keep proof of the specific course, the provider, the hours and the assessment, because licensing regulators audit individual CPD and AML supervisors look for evidence that training fit the business. A completion list on its own will not satisfy either."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Retention periods.** NSW keeps CPD records for 3 years for licensees and 4 years for certificate holders; California licensees keep CE certificates for four years after renewal; Law 83/2017 Article 51 sets seven years in Portugal; Cabinet Resolution No. 134 of 2025 Article 25 sets five years in the UAE.",
+            "**Business specific AML content.** AUSTRAC states that its Smart agent's guide does not satisfy an agency's obligation to provide training specific to its own business and money laundering risks. Keep the agency's own risk based module and the date it was last reviewed.",
+            "**Understanding checks.** AUSTRAC's poor practice example is a 25 employee agency using generic online training with no completion tracking, refreshers or understanding checks. Keep test results, not just attendance.",
+            "**Provider evidence.** NSW compulsory topics must come from providers approved by the Strata and Property Services Commissioner, delivered face to face (maximum 40) or by webinar (maximum 25) with an assessment activity. Victoria requires activities from eligible providers. The guide on [preparing training records for an audit](/guides/how-to-prepare-training-records-for-an-audit) explains how to assemble the file."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agency-dates-ahead",
+      "heading": "Which real estate training dates fall in 2026 and 2027?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Several agency obligations started recently or start soon, so add them as dated rows now. As at November 2026, the regulation pages record these dates:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**1 July 2026, Australia:** real estate businesses that broker sales became AML/CTF reporting entities, with enrollment due within 28 days of starting a designated service.",
+            "**29 July 2026, Australia:** the latest date for newly regulated entities to notify their AML/CTF compliance officer, or 14 days after enrolling if later.",
+            "**25 November 2026, Victoria:** agents' representatives must hold a registration, and the Estate Agents (Education) Amendment Regulations 2026 come into operation.",
+            "**1 April 2027, Victoria:** the first mandatory CPD year begins for estate agents and agents' representatives, running to 31 March 2028.",
+            "**10 July 2027, EU:** the AMLR applies, with Article 12 requiring specific, ongoing, documented training for relevant employees, agents and distributors."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Small agency starter kit",
+          "text": "AUSTRAC's real estate program starter kit is designed for businesses with 15 or fewer personnel and no fully remote self service. Larger agencies should expect to build their own program and training content rather than rely on the kit."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps each licensing and AML obligation to the roles it attaches to, the learning outcome it requires and the assessment that proves it, so an agency can show which module answers which rule. When a market adds a mandatory topic or a new reporting duty, the affected roles are flagged. See [compliance programs](/programs/compliance)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does licensing CE count toward AML/CTF training in Australia?",
+      "a": "Only partly. NSW requires Class 1 licensees in relevant areas to complete AUSTRAC's Smart real estate agent's guide, but NSW Fair Trading says it does not replace the compulsory AML/CTF CPD topic, and AUSTRAC says the guide does not meet the agency's duty to train on its own business risks. Keep separate columns for each."
+    },
+    {
+      "q": "Do administrative staff need AML/CTF training if they never sell property?",
+      "a": "If they onboard customers, collect identification or handle settlement communications, they are likely in an AML/CTF related role. AUSTRAC's guidance applies personnel due diligence and training to employees and to contractors, consultants, volunteers, interns and service provider staff, so the deciding factor is the task, not the job title."
+    },
+    {
+      "q": "How should an agency track agents licensed in more than one state?",
+      "a": "Give each license its own row or sub-row with its own expiry date and CE rule. Requirements do not transfer automatically: NSW, Victoria, California, Florida and Texas each set different hours, mandatory topics and cycles, and a course approved in one jurisdiction may not be accepted in another."
+    },
+    {
+      "q": "What happens if a Florida sales associate misses post-licensing education?",
+      "a": "Section 475.17 of the Florida Statutes provides that the license of a sales associate or broker who does not complete post-licensing education before the first renewal is considered null and void. The matrix should flag first renewal dates for newly licensed staff well ahead of time."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Real estate designated services",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/new-austrac/designated-services-newly-regulated-entities/real-estate-designated-services"
+    },
+    {
+      "title": "Step 2: Use your real estate program",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/program-starter-kits/real-estate-program-starter-kit/step-2-use-your-real-estate-program"
+    },
+    {
+      "title": "Real estate program starter kit: Getting started",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/program-starter-kits/real-estate-program-starter-kit/real-estate-program-starter-kit-getting-started"
+    },
+    {
+      "title": "Smart real estate agent's guide to AML/CTF",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/education-and-resources/smart-real-estate-agents-guide-amlctf"
+    },
+    {
+      "title": "Risk insights and indicators of suspicious activity for the real estate sector",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/risk-insights-and-indicators-suspicious-activity-real-estate-sector"
+    },
+    {
+      "title": "Identifying personnel roles that require due diligence and training",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/identifying-personnel-roles-require-due-diligence-and-training"
+    },
+    {
+      "title": "Examples of personnel due diligence and training in practice",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/examples-personnel-due-diligence-and-training-practice"
+    },
+    {
+      "title": "Enrol with us overview",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/new-austrac/enrol-us/enrol-us-overview"
+    },
+    {
+      "title": "AML/CTF compliance officer",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/develop-your-amlctf-programs/step-1-establish-your-governance-framework/amlctf-compliance-officer"
+    },
+    {
+      "title": "Continuing Professional Development (CPD) requirements for property professionals",
+      "publisher": "NSW Fair Trading, NSW Government",
+      "url": "https://www.nsw.gov.au/housing-and-construction/property-professionals/working-as-an-agent/continuing-professional-development"
+    },
+    {
+      "title": "Licensee-in-charge training plan guide and template",
+      "publisher": "NSW Fair Trading, NSW Government",
+      "url": "https://www.nsw.gov.au/housing-and-construction/property-professionals/licensee-charge-training-plan-guide-and-template"
+    },
+    {
+      "title": "Continuing professional development for property professionals",
+      "publisher": "Consumer Affairs Victoria",
+      "url": "https://www.consumer.vic.gov.au/licensing-and-registration/cpd-for-property-professionals/continuing-professional-development-for-property-professionals"
+    },
+    {
+      "title": "New rules: Estate agents and agents' representatives",
+      "publisher": "Consumer Affairs Victoria",
+      "url": "https://www.consumer.vic.gov.au/licensing-and-registration/estate-agents/new-rules-estate-agents-and-agents-representatives"
+    },
+    {
+      "title": "Estate Agents (Education) Amendment Regulations 2026, S.R. No. 51/2026 (as made)",
+      "publisher": "Victorian Legislation, Chief Parliamentary Counsel",
+      "url": "https://www.legislation.vic.gov.au/as-made/statutory-rules/estate-agents-education-amendment-regulations-2026"
+    },
+    {
+      "title": "Continuing Education Requirements",
+      "publisher": "California Department of Real Estate",
+      "url": "https://www.dre.ca.gov/licensees/CERequirements.html"
+    },
+    {
+      "title": "Renew Your License",
+      "publisher": "California Department of Real Estate",
+      "url": "https://www.dre.ca.gov/licensees/renewlicense.html"
+    },
+    {
+      "title": "Continuing Education Course Verification (RE 251, Rev. 2/26)",
+      "publisher": "California Department of Real Estate",
+      "url": "https://www.dre.ca.gov/files/pdf/forms/re251.pdf"
+    },
+    {
+      "title": "Section 475.182: Renewal of license; continuing education (2026 Florida Statutes)",
+      "publisher": "The Florida Legislature",
+      "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0475/Sections/0475.182.html"
+    },
+    {
+      "title": "Section 475.17: Qualifications for practice (2026 Florida Statutes)",
+      "publisher": "The Florida Legislature",
+      "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0475/Sections/0475.17.html"
+    },
+    {
+      "title": "Rule 61J2-3.009: Continuing Education for Active and Inactive Broker and Sales Associate Licensees",
+      "publisher": "Florida Department of State, Florida Administrative Code (DBPR, Florida Real Estate Commission)",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=61J2-3.009"
+    },
+    {
+      "title": "Rule 61J2-3.020: Post-licensing Education for Active and Inactive Broker and Sales Associate Licensees",
+      "publisher": "Florida Department of State, Florida Administrative Code (DBPR, Florida Real Estate Commission)",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=61J2-3.020"
+    },
+    {
+      "title": "Renew Your Sales Agent License",
+      "publisher": "Texas Real Estate Commission",
+      "url": "https://www.trec.texas.gov/renew-license/real-estate-sales-agent"
+    },
+    {
+      "title": "Renew Your Real Estate Broker License",
+      "publisher": "Texas Real Estate Commission",
+      "url": "https://www.trec.texas.gov/renew-license/real-estate-broker"
+    },
+    {
+      "title": "Need More Time to Complete CE to Renew? Here's What to Do",
+      "publisher": "Texas Real Estate Commission",
+      "url": "https://www.trec.texas.gov/article/need-more-time-complete-ce-renew-here%E2%80%99s-what-do"
+    },
+    {
+      "title": "22 Tex. Admin. Code § 535.92: Continuing Education Requirements",
+      "publisher": "Legal Information Institute, Cornell Law School (Texas Administrative Code)",
+      "url": "https://www.law.cornell.edu/regulations/texas/22-Tex-Admin-Code-SS-535-92"
+    },
+    {
+      "title": "Lei n.º 83/2017, de 18 de agosto (versão consolidada)",
+      "publisher": "Diário da República, Imprensa Nacional-Casa da Moeda",
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"
+    },
+    {
+      "title": "Regulation (EU) 2024/1624 on the prevention of the use of the financial system for the purposes of money laundering or terrorist financing",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "title": "Cabinet Resolution No. (134) of 2025 Regarding the Executive Regulations of Federal Decree by Law No. (10) of 2025",
+      "publisher": "UAE Financial Intelligence Unit",
+      "url": "https://www.uaefiu.gov.ae/media/3ssbp5d5/cabinet-134-2025.pdf"
+    }
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "aml-ctf-tranche-2-real-estate-training",
+    "nsw-real-estate-cpd-requirements",
+    "california-real-estate-continuing-education",
+    "how-to-set-mandatory-training-refresh-cycles",
+    "training-matrix"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "Table 5 item 1 (brokering sale, purchase or transfer of real estate; customer is both seller/transferor and buyer/transferee) and item 2 (selling real estate in a business without an independent agent; customer is buyer); developers selling house and land, off the plan and subdivision lots captured, including with in house staff",
+      "source": "https://www.austrac.gov.au/new-austrac/designated-services-newly-regulated-entities/real-estate-designated-services"
+    },
+    {
+      "claim": "Before a person performs an AML/CTF related role: initial PDD, confirm suitability, role appropriate training; while in role: ongoing PDD, refresher training, performance monitoring; SMR 24 hours (TF) or 3 business days; TTR for physical currency of $10,000 or more within 10 business days; annual compliance report",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/program-starter-kits/real-estate-program-starter-kit/step-2-use-your-real-estate-program"
+    },
+    {
+      "claim": "Smart agent's guide is a train the trainer package with 3 modules; it does not fulfil the business's obligation to provide training specific to its business and ML/TF risks; last updated 31 July 2026",
+      "source": "https://www.austrac.gov.au/industry-and-business/education-and-resources/smart-real-estate-agents-guide-amlctf"
+    },
+    {
+      "claim": "National risk assessment found real estate sector poses a high money laundering risk; listed customer red flags; foreign PEPs must always be treated as high risk",
+      "source": "https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/risk-insights-and-indicators-suspicious-activity-real-estate-sector"
+    },
+    {
+      "claim": "PDD and training apply to employees and people otherwise engaged including contractors, consultants, volunteers or interns and service provider staff; refers to Act s26F(4)(d) and (e) and Rules ss5-8 and 5-9",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/identifying-personnel-roles-require-due-diligence-and-training"
+    },
+    {
+      "claim": "Poor practice example: 25 employee real estate agency with generic online vendor training not covering real estate risks, no completion tracking, refreshers or understanding checks",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/examples-personnel-due-diligence-and-training-practice"
+    },
+    {
+      "claim": "Enrolment within 28 days of starting a designated service; update details within 14 days of a change",
+      "source": "https://www.austrac.gov.au/new-austrac/enrol-us/enrol-us-overview"
+    },
+    {
+      "claim": "Compliance officer appointed within 28 days, management level, Australian resident if permanent establishment, fit and proper; newly regulated entities notify by later of 29 July 2026 or 14 days after enrolling",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/develop-your-amlctf-programs/step-1-establish-your-governance-framework/amlctf-compliance-officer"
+    },
+    {
+      "claim": "Real estate starter kit designed for businesses with 15 or fewer personnel and no fully remote self service",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/program-starter-kits/real-estate-program-starter-kit/real-estate-program-starter-kit-getting-started"
+    },
+    {
+      "claim": "CPD year runs 1 July to 30 June; requirements depend on licence category and area of practice; six real estate areas of practice; shared topics not repeated; no carry-over except assistant agents; page last updated 9 July 2026.",
+      "source": "https://www.nsw.gov.au/housing-and-construction/property-professionals/working-as-an-agent/continuing-professional-development"
+    },
+    {
+      "claim": "2026-27 compulsory topics and minimum hours: residential sales 7 hours, 4 topics; property managers 7 hours incl. DFV minimum 4 hours; buyers agents 7; commercial 7; business brokers 7; onsite 4; strata 6; stock and station 7.",
+      "source": "https://www.nsw.gov.au/housing-and-construction/property-professionals/working-as-an-agent/continuing-professional-development"
+    },
+    {
+      "claim": "Compulsory topics delivered by providers approved by the Strata and Property Services Commissioner, interactive face to face (max 40) or webinar (max 25), with an assessment activity; DFV courses only where content reviewed by NSW Fair Trading.",
+      "source": "https://www.nsw.gov.au/housing-and-construction/property-professionals/working-as-an-agent/continuing-professional-development"
+    },
+    {
+      "claim": "Class 1 licensees must attend a minimum 5 hour accredited forum (one for dual licensees) and Class 1 licensees in relevant areas must complete AUSTRAC's Smart real estate agent's guide to AML/CTF; this does not replace the compulsory AML/CTF topic.",
+      "source": "https://www.nsw.gov.au/housing-and-construction/property-professionals/working-as-an-agent/continuing-professional-development"
+    },
+    {
+      "claim": "Records kept 3 years for licensees and 4 years for certificate holders; 90 day exemption (licence commencing on or after 1 April 2027 exempt for 2026/27); assistant agents complete 3 Certificate IV units; penalty up to $11,000 plus suspension or cancellation.",
+      "source": "https://www.nsw.gov.au/housing-and-construction/property-professionals/working-as-an-agent/continuing-professional-development"
+    },
+    {
+      "claim": "First CPD year for estate agents and agents' representatives is 1 April 2027 to 31 March 2028; conveyancers same; owners corporation managers from 1 April 2028; at least 5 activities, each at least 1 hour, in person or interactive online, from provider list; at least 2 BLA mandatory activities with written assessment; conferences, self-study and pre-recorded webinars do not count; eight mandatory activities listed for 2027-28.",
+      "source": "https://www.consumer.vic.gov.au/licensing-and-registration/cpd-for-property-professionals/continuing-professional-development-for-property-professionals"
+    },
+    {
+      "claim": "S.R. No. 51/2026 made 26 May 2026, in operation 25 November 2026; prescribes CPD for section 37K(1) and records for section 37K(2) of the Estate Agents Act 1980; regulation 10 requires at least 5 activities each 1 April to 31 March period from 1 April 2027.",
+      "source": "https://www.legislation.vic.gov.au/as-made/statutory-rules/estate-agents-education-amendment-regulations-2026"
+    },
+    {
+      "claim": "Agents' representatives must hold a registration from 25 November 2026; existing representatives on the BLA register on 24 November 2026 automatically registered; CPD from 1 April 2027 for licensed agents and representatives.",
+      "source": "https://www.consumer.vic.gov.au/licensing-and-registration/estate-agents/new-rules-estate-agents-and-agents-representatives"
+    },
+    {
+      "claim": "45 clock hours of DRE-approved CE; first-time salespersons: four three-hour courses (ethics, agency, trust fund handling, risk management), three-hour fair housing with interactive role play as consumer and professional, two-hour implicit bias, minimum 18 hours consumer protection.",
+      "source": "https://www.dre.ca.gov/licensees/CERequirements.html"
+    },
+    {
+      "claim": "Courses must be completed within the four-year period immediately preceding the effective date of renewal; CE credit expires four years from completion; certificates kept four years after renewal; late renewals allowed two years after expiry.",
+      "source": "https://www.dre.ca.gov/files/pdf/forms/re251.pdf"
+    },
+    {
+      "claim": "CE extension of 90 days under BPC 10171.2 via RE 213 by mail before expiry; exemption under BPC 10170.8 for licensees 70 or older with 30 continuous years in good standing; on-time renewal permits continued operation under BPC 10156.2; renewal submitted 90 days before expiry; reminder email about 90 days before.",
+      "source": "https://www.dre.ca.gov/licensees/renewlicense.html"
+    },
+    {
+      "claim": "Section 475.182(1)(a): active broker, broker associate or sales associate renewal requires at least 14 classroom hours of 50 minutes each during each biennium of a license period; (1)(b) legal agenda session substitutes for 3 hours once per renewal cycle with 7 days notice; (2) renewal at least every 4 years; (3) unrenewed licence reverts to involuntary inactive; (4) notice 60 days before end of period. Same text in the 2026 Florida Statutes.",
+      "source": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0475/Sections/0475.182.html"
+    },
+    {
+      "claim": "Rule 61J2-3.009 (effective 12/22/2020): 14 hours of 50 minutes for active or inactive licensees each renewal period excluding first; 3 hour Core Law once per period; 3 hour Business Ethics for licences expiring September 30, 2018 or later; taking either each year earns 3 specialty hours; specialty at least 8 hours; specialty courses approved for 2 to 8 hours for 24 months.",
+      "source": "https://www.flrules.org/gateway/ruleNo.asp?id=61J2-3.009"
+    },
+    {
+      "claim": "Rule 61J2-3.020 (effective 3/25/2018): post-licensing before first renewal; sales associate not exceeding 45 hours, broker not exceeding 60 hours, of 50 minutes each inclusive of exam; courses training oriented.",
+      "source": "https://www.flrules.org/gateway/ruleNo.asp?id=61J2-3.020"
+    },
+    {
+      "claim": "Section 475.17(3) and (4): postlicensure education up to 45 hours (sales associate) and 60 hours (broker); licence of a sales associate or broker who does not complete it before first renewal shall be considered null and void; lists eligible subjects.",
+      "source": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0475/Sections/0475.17.html"
+    },
+    {
+      "claim": "Sales agents renew every two years; renewal notice about 90 days before expiry; 18 hours CE including Legal Update I and II (8 hours), 3 hours contract-related coursework and 7 elective hours; delegated supervisors take the 6 hour Broker Responsibility course; renewal up to six months after expiry, reinstatement to two years, then reapply and exam.",
+      "source": "https://www.trec.texas.gov/renew-license/real-estate-sales-agent"
+    },
+    {
+      "claim": "Broker renewal: 8 hours Legal Update, 6 hour Broker Responsibility Course, 3 hours contracts, 1 hour elective; $200 CE deferral fee gives 60 extra days.",
+      "source": "https://www.trec.texas.gov/renew-license/real-estate-broker"
+    },
+    {
+      "claim": "Sales agents (except first renewal period) and brokers may pay a nonrefundable $200 fee to remain active for 60 days beyond expiration to complete CE.",
+      "source": "https://www.trec.texas.gov/article/need-more-time-complete-ce-renew-here%E2%80%99s-what-do"
+    },
+    {
+      "claim": "22 TAC 535.92(a): 18 hours with four hour Legal Update I: Laws, Rules and Forms, four hour Legal Update II: Agency, Ethics and Hot Topics, three hours contracts, six hour broker responsibility for sponsoring brokers, designated brokers of sponsoring entities and delegated supervisors under 535.2(e); (b) credit on receipt of provider roster; (d) out-of-state courses; (f) up to four hours for a Commission meeting; (h) no repeat credit; last amended effective 8/29/2023.",
+      "source": "https://www.law.cornell.edu/regulations/texas/22-Tex-Admin-Code-SS-535-92"
+    },
+    {
+      "claim": "Article 55 (Dever de formação) paragraphs 1 to 5: adequate knowledge, specific and regular sector-appropriate training, immediate training for new joiners, competent trainers and prior favorable opinion of the compliance officer, records kept under Article 51 and available to sectoral authorities; text unchanged in the consolidated version",
+      "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"
+    },
+    {
+      "claim": "Article 51 sets a seven-year retention period; Article 16 compliance officer duties include participating in defining, monitoring and evaluating internal training policy (16(2)(c)); Article 13 management body responsibilities; Article 75 and Article 90(3)(c) training provisions",
+      "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"
+    },
+    {
+      "claim": "Article 90: the AMLR applies from 10 July 2027, and from 10 July 2029 for obliged entities in Article 3, points (3)(n) and (o) (professional football clubs and football agents); it is binding in its entirety and directly applicable",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "claim": "Article 12 (Awareness of requirements) requires specific, ongoing training programs for employees or persons in comparable positions, including agents and distributors, appropriate to functions and risks, and duly documented",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"
+    },
+    {
+      "claim": "Cabinet Resolution No. 134 of 2025 Article 21(5) requires periodic anti-crime programs and workshops for the compliance function and other relevant employees (quoted verbatim)",
+      "source": "https://www.uaefiu.gov.ae/media/3ssbp5d5/cabinet-134-2025.pdf"
+    },
+    {
+      "claim": "Article 22 requires a compliance officer at management level with appropriate competence and experience; duty 4 is developing, implementing and documenting ongoing programs and training plans for employees (quoted verbatim)",
+      "source": "https://www.uaefiu.gov.ae/media/3ssbp5d5/cabinet-134-2025.pdf"
+    },
+    {
+      "claim": "Article 70 repeals Cabinet Resolution No. 10 of 2019; Article 71 entry into force 30 days after publication; issued 29 October 2025; Article 49(18) supervisors require prior approval of compliance officer appointments; Article 25 five year record retention; Article 3 DNFBP thresholds AED 55,000 and AED 11,000",
+      "source": "https://www.uaefiu.gov.ae/media/3ssbp5d5/cabinet-134-2025.pdf"
+    }
+  ]
+}

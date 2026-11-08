@@ -1,0 +1,643 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-casino-or-gaming-venue",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a casino or gaming venue?",
+  "seoTitle": "Training matrix for a casino",
+  "description": "Build a casino or gaming venue training matrix: cage, gaming floor, surveillance, AML reporting, responsible gambling, security and alcohol roles by market.",
+  "shortAnswer": "A casino or gaming venue training matrix is built by listing the functions that touch money, players or safety, such as cage cashiers, table and machine staff, surveillance operators, responsible gambling officers, security and the AML compliance officer, against the anti-money laundering, gambling, liquor and security licensing rules in each market. Every cell then records the trigger, the renewal date or chosen interval, and the record a regulator or examiner would check.",
+  "keyTakeaways": [
+    "Gaming venues answer to an AML regulator and a gambling regulator at the same time, and the two produce different columns: suspicious matter recognition on one side, player protection and licensing on the other.",
+    "Rows should follow function, not department. The cage, surveillance and gaming floor each see different red flags, so one generic AML module rarely fits all three.",
+    "License based training carries hard renewal dates, such as five years for NSW gambling and alcohol endorsements and three years for Victorian RSA certificates, while AML rules leave the interval to the venue.",
+    "Size thresholds matter: US casino AML rules start above $1 million in gross annual gaming revenue, and Australian venues entitled to 15 or fewer gaming machines are exempt from most program duties but still report suspicious matters.",
+    "As at November 2026, a FinCEN proposed rule on AML programs remains pending and Victorian security license renewals carry a new refresher condition from 5 October 2026."
+  ],
+  "sections": [
+    {
+      "id": "why-gaming-venues-differ",
+      "heading": "Why does a gaming venue need more than a hospitality training plan?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because gaming turns a venue into a reporting entity for financial crime as well as a licensed premises. A hospitality plan covers alcohol, food and door staff; a gaming matrix adds cash handling at scale, suspicious transaction reporting, responsible gambling roles with staffing ratios, and surveillance functions that exist nowhere else in the business."
+        },
+        {
+          "type": "p",
+          "text": "The generic method in [how to build a training matrix](/guides/how-to-build-a-training-matrix) applies unchanged: functions down one axis, obligations across the other, a rule in each cell. For bar, restaurant and door roles that a gaming venue shares with a pub or hotel, the [hospitality venue training matrix](/guides/how-to-build-a-training-matrix-for-a-hospitality-venue) covers the detail. This guide concentrates on what gaming adds: the cage, the floor, surveillance, AML governance and responsible gambling."
+        }
+      ]
+    },
+    {
+      "id": "gaming-functions",
+      "heading": "Which casino functions belong on separate rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Give a row to every function that a gaming, AML or licensing rule treats differently. The table lists the usual set and the reason each stands alone."
+        },
+        {
+          "type": "table",
+          "caption": "Gaming venue functions and why each is its own row",
+          "head": [
+            "Function",
+            "What sets it apart",
+            "Main drivers"
+          ],
+          "rows": [
+            [
+              "Cage and cashier",
+              "Handles currency transactions, chip exchange and payouts that trigger threshold and suspicious matter reports",
+              "31 CFR 1021.311 and 1021.320; AML/CTF Act ss 41 and 43"
+            ],
+            [
+              "Table games and pit supervision",
+              "Observes play, chip purchases and player behavior at the table",
+              "31 CFR 1021.210; AUSTRAC casino indicators"
+            ],
+            [
+              "Gaming machine attendants",
+              "Patrol the machine area, pay out and see ticket and receipt behavior",
+              "NSW RCG; AUSTRAC pubs and clubs indicators"
+            ],
+            [
+              "Surveillance",
+              "Reviews footage that supports suspicious matter decisions",
+              "31 CFR 1021.210 personnel scope; AUSTRAC high risk roles"
+            ],
+            [
+              "Player development and hosts",
+              "Build relationships with high value players and handle front money",
+              "US casino AML page personnel scope"
+            ],
+            [
+              "AML compliance officer",
+              "Designs the program and may authorize reports",
+              "31 CFR 1021.210; AML/CTF Act s 26F(4)"
+            ],
+            [
+              "Responsible Gambling Officer or Manager",
+              "Named role with ratios set by machine numbers",
+              "Gaming Machines Regulation 2019 (NSW)"
+            ],
+            [
+              "Bar staff on the gaming floor",
+              "Serve alcohol to players",
+              "NSW and Victorian RSA rules"
+            ],
+            [
+              "Security officers and crowd controllers",
+              "Licensed activity with first aid and refresher conditions",
+              "NSW Security Industry Act 1997; Victorian Private Security Act 2004"
+            ],
+            [
+              "Board, directors, licensee and approved managers",
+              "Governance duties and mandatory advanced gambling training",
+              "AML/CTF Act s 26F(4)(d); NSW ARCG and RGBO"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gaming-obligations-by-market",
+      "heading": "What do gaming, AML and licensing rules require in each market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The columns come from the regulation pages for each jurisdiction where the venue holds a license. The summaries draw only on those pages; follow the links for the full position."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**United States, AML.** Casinos and card clubs with gross annual gaming revenue above $1 million, including tribal casinos under the Indian Gaming Regulatory Act, are covered. 31 CFR 1021.210(b)(2)(iii) requires the compliance program to provide for training of casino personnel, including identification of unusual or suspicious transactions, and 31 U.S.C. 5318(h)(1)(C) requires an ongoing employee training program. Staff must understand the $5,000 suspicious activity threshold, the 30 day filing window and the currency transaction report on cash in or cash out above $10,000, which includes chip purchases, front money and safekeeping deposits. The Internal Revenue Service examines casinos under delegated authority ([US casino AML](/regulations/casino-aml-training-requirements-us)).",
+            "**United States, retail counters.** A gift shop or sundry counter selling tobacco must verify photo ID for anyone under 30. Training programs are not required by the Tobacco Control Act, but they lower civil money penalties, and FDA guidance recommends training before selling, a yearly refresher and records kept for four years ([age restricted sales](/regulations/age-restricted-sales-staff-training)).",
+            "**Australia, AML.** Gaming machine play, games of chance, chip exchange and payouts are designated services under section 6, table 3, items 5 to 10 of the AML/CTF Act. Training and personnel due diligence apply to governance roles and AML/CTF functions under section 26F(4)(d) and (e) and Rules 5-8 and 5-9, and AUSTRAC treats roles that can bypass controls or authorize reports as high risk. Suspicious matter reports are due within 3 business days, or 24 hours for terrorism financing, and threshold transaction reports on physical currency of $10,000 or more within 10 business days ([AUSTRAC gambling sector](/regulations/austrac-gambling-sector-aml-training)).",
+            "**New South Wales, gambling.** Responsible Conduct of Gambling (RCG) training is mandatory for staff who patrol or serve in a gaming machine area, and the online assessment of 25 questions must be answered entirely correctly. Advanced RCG is mandatory for Responsible Gambling Officers and senior operational roles, and venues with more than 20 gaming machine entitlements must have Responsible Gambling Officers on a sliding scale ([NSW RCG](/regulations/nsw-responsible-conduct-of-gambling-training)).",
+            "**Australia, alcohol.** In NSW, RSA is required for anyone who sells, serves or supplies alcohol and for security staff monitoring customer behavior, with a five year competency card ([NSW RSA](/regulations/responsible-service-of-alcohol-training-nsw)). In Victoria, RSA must be completed before supplying alcohol or within one month, refreshed every 3 years, and includes a sexual harassment and assault module ([Victorian RSA](/regulations/responsible-service-of-alcohol-training-victoria)).",
+            "**Australia, security.** NSW Class 1A security officers complete SLED approved training, the CPP20218 mandatory units and a first aid certificate renewed every three years ([NSW security license](/regulations/nsw-security-licence-training-requirements)). In Victoria, from 5 October 2026, renewing crowd controllers and security guards must complete the approved refresher within 12 months before renewal and HLTAID011 first aid ([Victorian security license](/regulations/victoria-private-security-licence-training))."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For a side by side view of AML training duties outside gaming, see [AML training requirements by country](/compare/aml-training-requirements-by-country)."
+        }
+      ]
+    },
+    {
+      "id": "red-flags-by-function",
+      "heading": "Which red flags should each gaming function be trained to spot?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each function should be trained and tested on the indicators it can actually observe. Regulators publish sector indicators, and mapping them to rows turns a generic AML module into [role based training](/glossary/role-based-training) with a clear assessment target."
+        },
+        {
+          "type": "table",
+          "caption": "Mapping published indicators to functions, learning outcomes and assessment evidence",
+          "head": [
+            "Function",
+            "Indicator from regulator guidance",
+            "Learning outcome",
+            "Assessment evidence"
+          ],
+          "rows": [
+            [
+              "Gaming machine attendant",
+              "Abandoning a machine with credits above the cheque or EFT threshold; buying or retaining TITO tickets (AUSTRAC pubs and clubs)",
+              "Recognizes ticket and credit patterns and escalates without alerting the player",
+              "Scenario test using venue ticket and receipt examples"
+            ],
+            [
+              "Cashier",
+              "Saving CRT receipts; asking whether staff report to AUSTRAC (AUSTRAC pubs and clubs)",
+              "Responds to reporting questions correctly and records the interaction",
+              "Observed role play plus incident log review"
+            ],
+            [
+              "Casino floor and cage",
+              "Feeding cash into a machine and requesting a cheque or EFT payment after minimal or no play (AUSTRAC casino)",
+              "Identifies refining behavior and routes it to the compliance officer",
+              "Case exercise with pass or fail result"
+            ],
+            [
+              "US casino staff",
+              "Indicia of suspicious activity in FIN-2008-G007, which notes casino employees are in a unique position to recognize it",
+              "Applies the $5,000 SAR threshold and knows the 30 day window",
+              "Written assessment and sampled SAR referrals"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "illustrative-gaming-matrix",
+      "heading": "What does a filled in gaming venue matrix look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It reads as a function register with a market, obligation, clock and record on every line. The extract below is illustrative only, for a hypothetical operator with a tribal casino in the United States, a club in New South Wales with 150 gaming machines and a hotel venue in Victoria. Clocks marked venue policy are choices the operator must justify."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical multi-venue gaming operator",
+          "head": [
+            "Function",
+            "Market",
+            "Obligation",
+            "Clock",
+            "Record held"
+          ],
+          "rows": [
+            [
+              "Cage cashier",
+              "United States",
+              "31 CFR 1021.210(b)(2)(iii) training on unusual or suspicious transactions",
+              "Before cage duties; venue policy annual and when procedures change",
+              "Assessment result and referral log"
+            ],
+            [
+              "Surveillance operator",
+              "United States",
+              "Ongoing employee training under 31 U.S.C. 5318(h)(1)(C)",
+              "Before independent review work; venue policy annual",
+              "Scenario results tied to FIN-2008-G007 indicators"
+            ],
+            [
+              "Gift shop cashier",
+              "United States",
+              "21 CFR 1140.14 photo ID for anyone under 30",
+              "Before first sale; yearly refresher per FDA guidance",
+              "Written test and acknowledged policy, kept four years"
+            ],
+            [
+              "Gaming machine attendant",
+              "NSW",
+              "RCG competency",
+              "Interim certificate valid 90 days; endorsement renewed every five years",
+              "Competency card endorsement"
+            ],
+            [
+              "Responsible Gambling Officer",
+              "NSW",
+              "ARCG and RGO ratio for 100 to 299 machines (two RGOs)",
+              "Before appointment; renews with RCG refresher",
+              "Roster showing RGO coverage and card details"
+            ],
+            [
+              "Club director",
+              "NSW",
+              "ARCG, or RGBO for club directors",
+              "Before or on appointment",
+              "Approved training provider certificate kept by the club"
+            ],
+            [
+              "Floor supervisor",
+              "Australia",
+              "AML/CTF Rules 5-8 and 5-9 for AML/CTF functions",
+              "Before performing the function; venue policy annual",
+              "Tailored module plus assessed scenarios, not e-learning alone"
+            ],
+            [
+              "Bar attendant",
+              "Victoria",
+              "RSA certificate",
+              "Before supplying or within one month; every 3 years",
+              "Copy kept at the venue for inspectors"
+            ],
+            [
+              "Crowd controller",
+              "Victoria",
+              "Approved refresher and HLTAID011 first aid",
+              "Refresher within 12 months before renewal from 5 October 2026",
+              "License renewal evidence"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gaming-intervals",
+      "heading": "Which gaming venue intervals are set by law, and which are chosen?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Licensing rules set most of the fixed dates, while AML rules set none. Record in the matrix whether each interval comes from a regulation or from the venue's own risk assessment."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Fixed.** NSW RCG and RSA endorsements every five years, with a 90 day interim certificate; Victorian RSA every 3 years; NSW Class 1 first aid every three years; Victorian security refresher within 12 months before renewal from 5 October 2026.",
+            "**Ratio based.** NSW venues with 21 to 99 gaming machine entitlements need one RGO, 100 to 299 need two, and 300 or more need three, with nominated RGOs between midnight and 8am. That is a staffing coverage rule, so the matrix needs a roster check as well as a training check.",
+            "**Chosen by the venue.** US and Australian AML rules require ongoing training without an interval. FinCEN guidance says programs should be tailored to business activities and customer risk profiles. Write down the chosen cycle and the trigger events, such as a new product, a new indicator publication or a reporting failure. The guide on [setting refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles) explains how."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gaming-evidence",
+      "heading": "What evidence do gaming regulators and examiners ask for?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They ask for proof that the right people were trained before they worked, and that training reflects the venue's actual risks. Card numbers, certificates on site and tailored AML content all count."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Tailored content.** AUSTRAC gives a poor practice example of third party training that does not cover industry risks or the entity's own program, and says its e-learning cannot be relied on alone.",
+            "**Licensing records.** Victorian licensees must keep a copy of each staff member's current RSA certificate at the venue and produce it immediately to inspectors or police. NSW security licensees must use sign-on registers each shift.",
+            "**Reporting records.** US casinos keep SARs and supporting documents for five years.",
+            "**Penalties for gaps.** NSW penalty notices apply to staff working without an RSA endorsement and to licensees who permit it. AUSTRAC lists Federal Court orders against Crown for $450 million on 11 July 2023 and SkyCity Adelaide for $67 million on 7 June 2024.",
+            "**Effectiveness.** The guide on [evidencing training effectiveness to a regulator](/guides/how-to-evidence-training-effectiveness-to-a-regulator) shows how to present scenario results and referral quality rather than completion rates."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gaming-changes",
+      "heading": "Which gaming rule changes should be on the matrix now?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Add dated rows for changes that have commenced and watch items for proposals. As at November 2026, the regulation pages record these."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**1 October 2026, Australia:** the AML/CTF Act compilation in force from this date is the version the AUSTRAC gambling page relies on, so venue AML content should be checked against it.",
+            "**5 October 2026, Victoria:** renewing security guards, crowd controllers and bodyguards need the approved refresher within 12 months before renewal and current HLTAID011 first aid.",
+            "**Security Industry Regulation 2026, NSW:** SLED now names this regulation alongside the Security Industry Act 1997 as the governing instrument, so NSW security rows should cite it."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Pending, not yet law",
+          "text": "FinCEN's proposed rule published on April 10, 2026 would introduce uniform ongoing employee training program language for casinos and other financial institutions; comments closed June 9, 2026. Track it as a watch item until a final rule is published."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps each gaming obligation to the function it applies to, the indicators that function must recognize and the assessment point that proves it, so a new AUSTRAC indicator list or a FinCEN final rule flags the affected rows and materials. Records sit with the obligation, ready for an examiner. See [audit evidence](/platform/audit-evidence)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a small pub or club with a few gaming machines need an AML program?",
+      "a": "In Australia, section 233K of the AML/CTF Act exempts entities entitled, with related entities, to operate no more than 15 gaming machines from the program provisions in Part 1A and several other duties. Section 41 suspicious matter reporting is not listed in the exemption, so staff still need to recognize and escalate suspicious matters."
+    },
+    {
+      "q": "Can a security officer act as a Responsible Gambling Officer in NSW?",
+      "a": "Liquor & Gaming NSW does not recommend security officers as Responsible Gambling Officers. Keep the two as separate rows with separate people rostered, because the RGO role requires Advanced Responsible Conduct of Gambling training and has coverage ratios based on gaming machine numbers."
+    },
+    {
+      "q": "Do US card clubs fall under the casino AML training rule?",
+      "a": "Yes, when gross annual gaming revenue exceeds $1 million. 31 CFR 1010.100 treats card clubs, card rooms and gaming clubs above that threshold like casinos, and coverage begins mid year when the threshold is crossed, so the matrix should switch on at that point rather than at the next fiscal year."
+    },
+    {
+      "q": "Is AUSTRAC's free e-learning enough for gaming staff?",
+      "a": "AUSTRAC says its e-learning modules can be used as part of training but cannot be relied on solely, because training must be tailored to each person's functions, risks and responsibilities. Pair it with venue specific scenarios based on the published casino or pubs and clubs indicators."
+    }
+  ],
+  "sources": [
+    {
+      "title": "31 CFR 1021.210: Anti-money laundering program requirements for casinos",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1021/subpart-B/section-1021.210"
+    },
+    {
+      "title": "31 CFR 1010.100: General definitions",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/31/1010.100"
+    },
+    {
+      "title": "31 CFR 1021.320: Reports by casinos of suspicious transactions",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/31/1021.320"
+    },
+    {
+      "title": "31 CFR 1021.311: Filing obligations",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/31/1021.311"
+    },
+    {
+      "title": "31 CFR 1010.810: Enforcement",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/31/1010.810"
+    },
+    {
+      "title": "FIN-2008-G007: Recognizing Suspicious Activity, Red Flags for Casinos and Card Clubs",
+      "publisher": "Financial Crimes Enforcement Network",
+      "url": "https://www.fincen.gov/sites/default/files/guidance/fin-2008-g007.pdf"
+    },
+    {
+      "title": "FIN-2010-G002: Casino or Card Club Risk-Based Compliance Indicators",
+      "publisher": "Financial Crimes Enforcement Network",
+      "url": "https://www.fincen.gov/sites/default/files/shared/fin-2010-g002.pdf"
+    },
+    {
+      "title": "Anti-Money Laundering and Countering the Financing of Terrorism Programs (proposed rule, 91 FR 18704)",
+      "publisher": "Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"
+    },
+    {
+      "title": "Tobacco 21",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/tobacco-products/retail-sales-tobacco-products/tobacco-21"
+    },
+    {
+      "title": "Tobacco Retailer Training Programs (guidance document PDF)",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/media/79013/download"
+    },
+    {
+      "title": "21 CFR 1140.14: Additional responsibilities of retailers",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/21/1140.14"
+    },
+    {
+      "title": "Anti-Money Laundering and Counter-Terrorism Financing Act 2006 (compilation in force from October 1, 2026)",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/C2006A00169/latest/text"
+    },
+    {
+      "title": "Anti-Money Laundering and Counter-Terrorism Financing Rules 2025",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2025L01026/latest/text"
+    },
+    {
+      "title": "AML/CTF training",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    },
+    {
+      "title": "Indicators of suspicious activity for the pubs and clubs sector",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/indicators-suspicious-activity-pubs-and-clubs-sector"
+    },
+    {
+      "title": "Indicators of suspicious activity for the casino sector",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/indicators-suspicious-activity-casino-sector"
+    },
+    {
+      "title": "Identifying personnel roles that require due diligence and training",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/identifying-personnel-roles-require-due-diligence-and-training"
+    },
+    {
+      "title": "Enforcement actions taken",
+      "publisher": "AUSTRAC",
+      "url": "https://www.austrac.gov.au/about-us/record-our-actions/enforcement-actions-taken"
+    },
+    {
+      "title": "Responsible Conduct of Gambling (RCG) training",
+      "publisher": "Liquor & Gaming NSW, NSW Government",
+      "url": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/responsible-conduct-gambling"
+    },
+    {
+      "title": "Advanced Responsible Conduct of Gambling (ARCG) training",
+      "publisher": "Liquor & Gaming NSW, NSW Government",
+      "url": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/advanced-responsible-conduct-of-gambling"
+    },
+    {
+      "title": "Responsible Gambling Officer (RGOs)",
+      "publisher": "Liquor & Gaming NSW, NSW Government",
+      "url": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/gaming/responsible-gaming/responsible-gambling-officer"
+    },
+    {
+      "title": "Responsible Gambling Board Oversight (RGBO) training",
+      "publisher": "Liquor & Gaming NSW, NSW Government",
+      "url": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/rgbo"
+    },
+    {
+      "title": "Responsible Service of Alcohol (RSA)",
+      "publisher": "Liquor & Gaming NSW, NSW Government",
+      "url": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/rsa"
+    },
+    {
+      "title": "Competency cards",
+      "publisher": "Liquor & Gaming NSW, NSW Government",
+      "url": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/competency-cards"
+    },
+    {
+      "title": "Competency card fines",
+      "publisher": "Liquor & Gaming NSW, NSW Government",
+      "url": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/competency-cards/fines"
+    },
+    {
+      "title": "RSA training",
+      "publisher": "Liquor Control Victoria, Victorian Government",
+      "url": "https://www.vic.gov.au/rsa-training"
+    },
+    {
+      "title": "Licensee training and obligations",
+      "publisher": "Liquor Control Victoria, Victorian Government",
+      "url": "https://www.vic.gov.au/licensee-training-obligations"
+    },
+    {
+      "title": "Class 1 Licences",
+      "publisher": "Security Licensing and Enforcement Directorate, NSW Police Force",
+      "url": "https://www.police.nsw.gov.au/online_services/sled/security_licences/class_1_licences"
+    },
+    {
+      "title": "Security Training Requirements",
+      "publisher": "Security Licensing and Enforcement Directorate, NSW Police Force",
+      "url": "https://www.police.nsw.gov.au/online_services/sled/security_licences/security_training/security_training_requirements"
+    },
+    {
+      "title": "Renew your private security licence",
+      "publisher": "Licensing and Regulation Division, Victoria Police",
+      "url": "https://www.police.vic.gov.au/renew-your-private-security-licence"
+    }
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "casino-aml-training-requirements-us",
+    "austrac-gambling-sector-aml-training",
+    "nsw-responsible-conduct-of-gambling-training",
+    "how-to-build-a-training-matrix-for-a-hospitality-venue",
+    "aml-training-requirements-by-country"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "1021.210(b)(2)(iii): compliance program shall provide for training of casino personnel, including identification of unusual or suspicious transactions",
+      "source": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1021/subpart-B/section-1021.210"
+    },
+    {
+      "claim": "1010.100(t)(5) and (t)(6): casinos and card clubs with gross annual gaming revenue in excess of $1 million, including tribal casinos under IGRA; coverage begins mid year when threshold is crossed",
+      "source": "https://www.law.cornell.edu/cfr/text/31/1010.100"
+    },
+    {
+      "claim": "1021.320: SAR threshold $5,000; file within 30 calendar days; retain SAR and documents five years",
+      "source": "https://www.law.cornell.edu/cfr/text/31/1021.320"
+    },
+    {
+      "claim": "1021.311: each transaction in currency of more than $10,000, including chip purchases, front money and safekeeping deposits",
+      "source": "https://www.law.cornell.edu/cfr/text/31/1021.311"
+    },
+    {
+      "claim": "1010.810(b)(8): examination authority delegated to the Commissioner of Internal Revenue",
+      "source": "https://www.law.cornell.edu/cfr/text/31/1010.810"
+    },
+    {
+      "claim": "FIN-2008-G007: casino employees are in a unique position to recognize suspicious activity; programs should include training on indicia",
+      "source": "https://www.fincen.gov/sites/default/files/guidance/fin-2008-g007.pdf"
+    },
+    {
+      "claim": "FIN-2010-G002: tailor compliance programs to business activities and customer risk profiles",
+      "source": "https://www.fincen.gov/sites/default/files/shared/fin-2010-g002.pdf"
+    },
+    {
+      "claim": "Proposed rule published April 10, 2026; comments due June 9, 2026; uniform ongoing employee training program language",
+      "source": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"
+    },
+    {
+      "claim": "31 U.S.C. 5318(h)(1)(C) requires an ongoing employee training program",
+      "source": "https://www.law.cornell.edu/uscode/text/31/5318"
+    },
+    {
+      "claim": "From September 30, 2024 retailers must use photo ID to verify age of anyone under 30",
+      "source": "https://www.fda.gov/tobacco-products/retail-sales-tobacco-products/tobacco-21"
+    },
+    {
+      "claim": "Tobacco Control Act does not require retailer training programs but provides lower civil money penalties for retailers with approved programs",
+      "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/tobacco-retailer-training-programs"
+    },
+    {
+      "claim": "Guidance recommends training new employees before selling, refresher at least yearly, written test, written policy acknowledged, records kept 4 years",
+      "source": "https://www.fda.gov/media/79013/download"
+    },
+    {
+      "claim": "AML/CTF Act section 6 table 3 items 5 to 10 gaming services; section 233K 15 machine exemption, section 41 not listed; SMR 3 business days or 24 hours; TTR $10,000 within 10 business days",
+      "source": "https://www.legislation.gov.au/C2006A00169/2026-10-01/2026-10-01/text/original/epub/OEBPS/document_1/document_1.html"
+    },
+    {
+      "claim": "AUSTRAC: training and PDD apply to governance roles and AML/CTF functions under s26F(4)(d) and (e) and Rules 5-8 and 5-9; high risk roles include those who can bypass controls or authorize reports",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/identifying-personnel-roles-require-due-diligence-and-training"
+    },
+    {
+      "claim": "AUSTRAC pubs and clubs indicators: abandoning an EGM above threshold, buying or retaining TITO tickets, saving CRT receipts, asking whether staff report",
+      "source": "https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/indicators-suspicious-activity-pubs-and-clubs-sector"
+    },
+    {
+      "claim": "AUSTRAC casino indicators include feeding cash into an EGM and requesting a cheque or EFT payment after minimal or no play",
+      "source": "https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/indicators-suspicious-activity-casino-sector"
+    },
+    {
+      "claim": "Federal Court ordered Crown to pay $450 million on 11 July 2023 and SkyCity Adelaide $67 million on 7 June 2024",
+      "source": "https://www.austrac.gov.au/about-us/record-our-actions/enforcement-actions-taken"
+    },
+    {
+      "claim": "AUSTRAC poor practice example: third party training that does not cover industry risks or the entity's program",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/examples-personnel-due-diligence-and-training-practice"
+    },
+    {
+      "claim": "AUSTRAC e-learning can be used as part of training but can't be relied on solely",
+      "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"
+    },
+    {
+      "claim": "RCG mandatory for gaming area staff; 25 questions all correct; interim certificate 90 days; renewed every five years",
+      "source": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/responsible-conduct-gambling"
+    },
+    {
+      "claim": "ARCG mandatory for RGOs and senior operational roles",
+      "source": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/advanced-responsible-conduct-of-gambling"
+    },
+    {
+      "claim": "RGOs mandatory above 20 GMEs: 21 to 99 one, 100 to 299 two, 300 or more three, nominated RGOs midnight to 8am; security officers not recommended as RGOs",
+      "source": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/gaming/responsible-gaming/responsible-gambling-officer"
+    },
+    {
+      "claim": "RGBO is a condensed ARCG for club directors; keep ATP certificate",
+      "source": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/rgbo"
+    },
+    {
+      "claim": "NSW RSA required for service staff and security staff; competency card valid five years; penalty notices for staff without endorsement and licensees permitting",
+      "source": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/competency-cards"
+    },
+    {
+      "claim": "Victorian RSA before supplying or within one month; refresher every 3 years; sexual harassment module",
+      "source": "https://www.vic.gov.au/rsa-training"
+    },
+    {
+      "claim": "Victorian licensees keep a copy of each staff certificate at the venue and make it immediately available",
+      "source": "https://www.vic.gov.au/licensee-training-obligations"
+    },
+    {
+      "claim": "NSW Class 1 training: SLED approved organisation, CPP20218 units, first aid renewed every three years",
+      "source": "https://www.police.nsw.gov.au/online_services/sled/security_licences/security_training/security_training_requirements"
+    },
+    {
+      "claim": "NSW sign-on registers each shift",
+      "source": "https://www.police.nsw.gov.au/online_services/sled/security_licences/class_1_licences"
+    },
+    {
+      "claim": "SLED December 2026 privacy notice names the Security Industry Act 1997 and Security Industry Regulation 2026",
+      "source": "https://www.police.nsw.gov.au/__data/assets/pdf_file/0006/840318/SLED_Security_PCN_December_2026.pdf"
+    },
+    {
+      "claim": "From 5 October 2026 renewing operators complete HLTAID011 and the approved refresher within 12 months before renewal",
+      "source": "https://www.police.vic.gov.au/renew-your-private-security-licence"
+    }
+  ]
+}

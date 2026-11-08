@@ -1,0 +1,591 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-farm",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a farm?",
+  "seoTitle": "Training matrix for a farm",
+  "description": "Build a farm training matrix: pesticide workers and handlers, applicator certification, produce safety, machinery and transport rules, clocks and records.",
+  "shortAnswer": "A farm training matrix lists the tasks people perform on the farm, such as field work in treated areas, mixing and applying pesticides, harvesting produce, servicing machinery and loading trucks, against the rules that attach to each task in the farm's country. Each cell then records whether training must come before the task, how often it repeats, who may deliver it and which record proves it, with seasonal and contracted workers included from day one.",
+  "keyTakeaways": [
+    "Farm duties attach to tasks rather than job titles: entering a recently treated field, handling pesticides, touching covered produce or servicing an air conditioned tractor each triggers a separate row.",
+    "Several US farm rules set a hard clock: Worker Protection Standard training within the previous 12 months, produce safety training on hiring and at least once a year, and applicator certification that expires after at most five years.",
+    "Seasonal, temporary and contracted staff are inside scope, so the matrix must be ready before peak season starts, not after the crews arrive.",
+    "Australian and EU farm rules mostly set outcomes rather than intervals, so the farm has to write down why it picked each refresher cycle.",
+    "Records are short lived but specific: two years for pesticide and produce safety training in the US, with named fields such as trainer qualification and topics covered."
+  ],
+  "sections": [
+    {
+      "id": "why-farms-differ",
+      "heading": "What makes a farm training matrix different from other workplaces?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A farm matrix is driven by tasks and seasons. The same person can be a harvest worker in the morning, a pesticide handler after lunch and a truck loader at dusk, and each of those tasks carries a different training rule, trainer requirement and record. Headcount also swings sharply at harvest, which means the matrix has to cope with large groups who start on the same day."
+        },
+        {
+          "type": "p",
+          "text": "The standard approach in [how to build a training matrix](/guides/how-to-build-a-training-matrix) still holds: people or roles on one axis, obligations on the other, and a rule in each cell. A farm adds two things. First, a task tag on every worker so that duties switch on when someone is assigned to a sprayer or a packing line. Second, a gate column showing which training must be complete before the task starts, because several farm rules prohibit the task itself until training is done. The [training matrix](/glossary/training-matrix) definition explains the basic grid."
+        }
+      ]
+    },
+    {
+      "id": "farm-task-rows",
+      "heading": "Which farm tasks should become rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Create a row for each task that a farm rule names, and keep a general worker row for duties that apply to everyone. The table below sets out the rows most farms need and the rules behind them."
+        },
+        {
+          "type": "table",
+          "caption": "Farm task rows and the rules that create them",
+          "head": [
+            "Task row",
+            "Why it stands alone",
+            "Rules that drive it"
+          ],
+          "rows": [
+            [
+              "Field worker in treated areas",
+              "Training is a condition of entering an area where a pesticide was used or a restricted entry interval applied in the last 30 days",
+              "EPA Worker Protection Standard, 40 CFR 170.401"
+            ],
+            [
+              "Pesticide handler",
+              "Mixing, loading, applying or cleaning equipment needs broader handler training, a minimum age of 18 and respirator fit testing content",
+              "40 CFR 170.501"
+            ],
+            [
+              "Certified applicator",
+              "Using or supervising restricted use pesticides requires a current certification under an approved plan",
+              "40 CFR Part 171"
+            ],
+            [
+              "Noncertified applicator under supervision",
+              "Separate training, equipment instruction and age rules apply while working under a certified applicator",
+              "40 CFR 171.201"
+            ],
+            [
+              "Harvest and produce handler",
+              "Anyone handling covered produce or food contact surfaces needs hygiene and job specific training",
+              "21 CFR 112.21 and 112.22"
+            ],
+            [
+              "Produce safety supervisor or responsible party",
+              "At least one must complete training equivalent to an FDA recognized curriculum",
+              "21 CFR 112.22(c) and 112.23"
+            ],
+            [
+              "Machinery and refrigerant service",
+              "Servicing MVAC-like air conditioning on agricultural vehicles needs Section 609 certification even when unpaid",
+              "40 CFR 82.34 and 82.152"
+            ],
+            [
+              "Loader, packer and dispatcher",
+              "In Australia these are parties in the heavy vehicle chain of responsibility",
+              "Heavy Vehicle National Law s 26C"
+            ],
+            [
+              "Owners, directors and managers",
+              "Officer and executive due diligence duties include keeping knowledge current",
+              "WHS Act s 27(5), HVNL s 26D"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "farm-obligations-by-market",
+      "heading": "What do farm rules require in each market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Columns come from the regulation pages for each country where the farm grows, packs or ships. Each summary below draws only on the linked page."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**United States, pesticides.** The Agricultural Worker Protection Standard requires workers to be trained within the last 12 months before any task in a treated area where a pesticide was used or a restricted entry interval was in effect within the last 30 days, using EPA approved materials and a trainer who is present for the entire program ([Worker Protection Standard](/regulations/epa-worker-protection-standard-pesticide-training)). Handlers need training within the last 12 months before any handler activity, with added topics such as application exclusion zone suspension and respirator fit testing. Under 40 CFR Part 171, a person is a certified applicator only if holding a certification currently valid in the relevant jurisdiction, certifications expire five years after issuance unless renewed, and noncertified applicators need qualifying training and equipment instruction within 12 months ([applicator certification](/regulations/epa-pesticide-applicator-certification-requirements)).",
+            "**United States, produce safety.** Covered farms, meaning those averaging more than $25,000 in annual produce sales over the previous three years, must train personnel who handle covered produce or food contact surfaces upon hiring and at least once annually, including temporary, part time, seasonal and contracted personnel; harvest staff need three added topics ([FSMA Produce Safety Rule](/regulations/fsma-produce-safety-rule-worker-training)).",
+            "**United States, workplace safety and equipment.** The Occupational Safety and Health Administration (OSHA) says training must be presented in a manner employees can understand, including language and vocabulary, and that required training is provided and paid for by the employer ([OSHA training requirements](/regulations/osha-training-requirements)). Anyone servicing MVAC-like appliances, which include air conditioning on agricultural vehicles with a full charge of 20 pounds or less, must be certified by an EPA approved Section 609 program, paid or not ([Section 609](/regulations/epa-section-609-mvac-technician-certification)). The forklift rule in 29 CFR 1910.178 excludes farm vehicles from its scope, so the farm should decide which of its machines are powered industrial trucks before adding that row ([forklift training](/regulations/osha-forklift-operator-training-requirements)).",
+            "**Australia.** Section 19(3)(f) of the Work Health and Safety Act 2011 requires any information, training, instruction or supervision necessary to protect people from work risks, and regulation 39 requires training to be suitable and adequate for the work, risks and controls; Victoria imposes a parallel duty in section 21(2)(e) of its OHS Act ([WHS duty to train](/regulations/whs-act-duty-to-provide-training)). Farms that load, pack or consign goods onto heavy vehicles carry a primary duty under section 26C of the Heavy Vehicle National Law, and NHVR names training among the control measures ([chain of responsibility](/regulations/chain-of-responsibility-training-requirements)).",
+            "**European Union and Portugal.** Article 6(2) of Directive 90/269/EEC requires proper training on handling loads correctly and the risks of doing it wrongly ([manual handling](/regulations/eu-manual-handling-directive-training)). Article 8(1) of Directive 98/24/EC requires training and information on precautions for hazardous chemical agents, from oral communication to individual instruction depending on the risk assessment ([chemical agents](/regulations/eu-chemical-agents-directive-worker-training)). Annex I of Regulation (EC) No 852/2004 requires primary producers' staff handling foodstuffs to be trained on health risks ([EU food hygiene](/regulations/eu-food-hygiene-training-requirements))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "illustrative-farm-matrix",
+      "heading": "What does a completed farm matrix look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It reads as a task register: each row names a task, a market, the obligation, the clock and the record. The extract below is illustrative only, for a hypothetical grower with a vegetable operation in the United States, a Queensland orchard that dispatches fruit by road and a packing site in Portugal. Entries marked farm policy are choices the grower would need to justify, not intervals set by the cited rule."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical multi-country grower, task by obligation",
+          "head": [
+            "Task",
+            "Market",
+            "Obligation",
+            "Clock",
+            "Record kept"
+          ],
+          "rows": [
+            [
+              "Field worker",
+              "United States",
+              "40 CFR 170.401 worker pesticide safety training",
+              "Before entering a treated area; trained within the previous 12 months",
+              "Name, signature, date, materials, trainer name and qualification, employer, kept two years"
+            ],
+            [
+              "Pesticide handler",
+              "United States",
+              "40 CFR 170.501 handler training",
+              "Before any handler activity; within the previous 12 months",
+              "Handler record kept two years, plus respirator fit test result"
+            ],
+            [
+              "Spray supervisor",
+              "United States",
+              "40 CFR Part 171 certification",
+              "Certification current; renew before the five year expiry",
+              "Certificate number, category and expiry date"
+            ],
+            [
+              "Seasonal harvest crew",
+              "United States",
+              "21 CFR 112.21 and 112.22 hygiene and harvest topics",
+              "On hiring and at least once annually",
+              "Date, topics covered and persons trained, kept at least two years"
+            ],
+            [
+              "Machinery technician",
+              "United States",
+              "Section 609 certification for MVAC-like systems",
+              "Before any refrigerant service",
+              "Certification card number held on file"
+            ],
+            [
+              "Fruit picker",
+              "Australia",
+              "WHS Act s 19(3)(f) and regulation 39",
+              "Before first shift; farm policy each season",
+              "Task observation by supervisor, not a signed procedure alone"
+            ],
+            [
+              "Shed loader",
+              "Australia",
+              "HVNL s 26C primary duty for loaders",
+              "Before loading; farm policy annual and on procedure change",
+              "Load restraint check sign off and training log"
+            ],
+            [
+              "Packing line operative",
+              "Portugal",
+              "Directive 90/269/EEC Article 6(2) manual handling",
+              "On assignment; farm policy annual",
+              "Practical assessment against the load risk factors"
+            ],
+            [
+              "Chemical store keeper",
+              "Portugal",
+              "Directive 98/24/EC Article 8(1)",
+              "On assignment and when circumstances change",
+              "Instruction record linked to the risk assessment"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "farm-clocks",
+      "heading": "Which farm clocks are fixed by the rule and which does the farm choose?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "US pesticide and produce safety rules fix most of the clocks, while Australian and EU rules leave the interval to the farm. Mark the source of every interval in the matrix so an inspector can see which ones are legal minimums."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Fixed by rule.** WPS worker and handler training within the previous 12 months; noncertified applicator training and equipment instruction within 12 months; applicator certification period of no more than five years; produce safety training on hiring and at least once annually.",
+            "**Triggered by events.** The produce safety rule says training must be repeated as necessary, and the EU chemical agents directive expects information to be updated when circumstances change. A new chemical, a new crop or a change of packing line should restart the relevant cells.",
+            "**Chosen by the farm.** WHS regulation 39, the EU manual handling directive and the heavy vehicle primary duty set a standard of adequacy, not a date. Write the farm's reason next to each chosen cycle, for example a refresher at the start of each picking season, and review it after incidents. The guide on [setting mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles) covers how to justify the choice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasonal-and-contract-crews",
+      "heading": "How should a farm handle seasonal, temporary and contracted crews?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Treat them as full rows in the matrix, because the rules do. The produce safety rule expressly covers temporary, part time, seasonal and contracted personnel, and the Australian WHS Act defines workers to include contractors and labor hire."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Before the season, list the tasks each crew will perform and pull the matching rows, so training can be scheduled for the first day rather than the first week.",
+            "Check language needs. OSHA's policy is that training must be delivered in language and vocabulary workers understand, and the produce safety rule requires training to be easily understood.",
+            "Confirm prior training. A worker trained elsewhere within the past 12 months may still need farm specific information, such as the location of pesticide safety information and decontamination supplies under 40 CFR 170.403.",
+            "Assign a trainer who meets the rule. WPS training requires a qualified trainer present for the whole session, so an unattended video does not satisfy it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "farm-evidence",
+      "heading": "What records will a farm inspector expect to see?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Expect requests for named, dated records with content and trainer details, not a headcount. Most US farm training records must be kept for two years and must carry specific fields."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Pesticide workers and handlers.** WPS records hold the worker's printed name and signature, date, materials used, trainer name and qualification, and employer name, and are kept on the establishment for two years.",
+            "**Applicators.** Noncertified applicator training records must be accessible for two years, and certified commercial applicators must keep operational records for at least two years.",
+            "**Produce safety.** Records show the date, topics covered and persons trained, and are kept at least two years after creation.",
+            "**Australia.** Safe Work Australia's model code says it is not enough to hand a worker a procedure and ask for an acknowledgment, so the record should show the training covered the work, its risks and the controls.",
+            "**Audit readiness.** The guide on [preparing training records for an audit](/guides/how-to-prepare-training-records-for-an-audit) explains how to assemble these records by task and season."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "farm-changes",
+      "heading": "Which recent changes should a farm build into its matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Several farm rules changed recently or carry transition dates. As at November 2026, the linked regulation pages record the following."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**4 October 2024, United States:** 40 CFR 170.501, the handler training section, was last amended, so handler materials prepared before then should be checked.",
+            "**1 August 2026, Australia:** the amended Heavy Vehicle National Law commenced, and the 2026 Master Code moved from a role based to an activity based structure describing 45 activities, which affects how loader and dispatcher rows are described.",
+            "**31 December 2028, European Union:** the transitional limit for diisocyanates under the Chemical Agents Directive ends and the lower binding limits apply, so chemical handling instruction should reflect the new values."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Family farm exemptions",
+          "text": "EPA states that owners and immediate family on family owned farms are exempt from many WPS requirements. Record the exemption on the relevant rows rather than deleting them, so that hired workers added later are not missed."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry ties each farm obligation to the task that triggers it, the learning outcome it requires and the assessment point that proves it, so a new chemical, crop or packing process flags the affected rows before the season starts. The same structure supports [compliance programs](/programs/compliance) across several growing regions."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a small family farm need a training matrix?",
+      "a": "It still helps. EPA states that owners and immediate family on family owned farms are exempt from many WPS requirements, but hired workers and handlers are not, and produce safety coverage depends on average annual produce sales. A short matrix makes it clear which exemptions apply and which rows switch on when the farm hires."
+    },
+    {
+      "q": "Can pesticide safety training be delivered as an online video?",
+      "a": "Audio visual delivery is allowed under the Worker Protection Standard, but the materials must be EPA approved and the trainer must be present for the entire program to answer questions. A video watched alone, with no qualified trainer present, does not meet 40 CFR 170.401."
+    },
+    {
+      "q": "Does produce safety training replace pesticide safety training?",
+      "a": "No. They cover different hazards under different agencies. Produce safety training under 21 CFR 112.22 focuses on hygiene and contamination of covered produce, while WPS training covers pesticide exposure. A harvest worker entering treated fields usually needs both, with separate records."
+    },
+    {
+      "q": "Who needs applicator certification rather than handler training?",
+      "a": "Under 40 CFR Part 171, anyone who uses or supervises the use of a restricted use pesticide must be certified under an approved plan or work under the direct supervision of a certified applicator. Handlers working with other pesticides need WPS handler training, which is a different row."
+    }
+  ],
+  "sources": [
+    {
+      "title": "40 CFR 170.401 Training requirements for workers",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-E/part-170/subpart-E/section-170.401"
+    },
+    {
+      "title": "40 CFR 170.501 Training requirements for handlers",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-E/part-170/subpart-F/section-170.501"
+    },
+    {
+      "title": "40 CFR 170.403 Establishment-specific information for workers",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-E/part-170/subpart-E/section-170.403"
+    },
+    {
+      "title": "Agricultural Worker Protection Standard (WPS)",
+      "publisher": "US Environmental Protection Agency",
+      "url": "https://www.epa.gov/pesticide-worker-safety/agricultural-worker-protection-standard-wps"
+    },
+    {
+      "title": "40 CFR Part 171 Certification of Pesticide Applicators",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-E/part-171"
+    },
+    {
+      "title": "40 CFR 171.107 Standards for recertification of certified applicators",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-E/part-171/subpart-B/section-171.107"
+    },
+    {
+      "title": "40 CFR 171.201 Requirements for direct supervision of noncertified applicators by certified applicators",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-E/part-171/subpart-C/section-171.201"
+    },
+    {
+      "title": "21 CFR 112.21: Requirements for personnel qualifications and training",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/21/112.21"
+    },
+    {
+      "title": "21 CFR 112.22: Minimum requirements for training personnel who conduct a covered activity",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/21/112.22"
+    },
+    {
+      "title": "21 CFR 112.30: Records required for this subpart",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/21/112.30"
+    },
+    {
+      "title": "21 CFR 112.4: Which farms are subject to the requirements of this part",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/21/112.4"
+    },
+    {
+      "title": "21 CFR 112.164: Record retention",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/21/112.164"
+    },
+    {
+      "title": "OSHA Training Standards Policy Statement (April 28, 2010)",
+      "publisher": "Occupational Safety and Health Administration",
+      "url": "https://www.osha.gov/laws-regs/standardinterpretations/2010-04-28"
+    },
+    {
+      "title": "Training Requirements in OSHA Standards (OSHA 2254-09R 2015)",
+      "publisher": "Occupational Safety and Health Administration",
+      "url": "https://www.osha.gov/sites/default/files/publications/osha2254.pdf"
+    },
+    {
+      "title": "29 CFR 1910.178: Powered industrial trucks",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/29/1910.178"
+    },
+    {
+      "title": "40 CFR 82.34 Prohibitions and required practices",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-B/section-82.34"
+    },
+    {
+      "title": "Work Health and Safety Act 2011 (Cth)",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/C2011A00137/latest/text"
+    },
+    {
+      "title": "Work Health and Safety Regulations 2011 (Cth)",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2011L02664/latest/text"
+    },
+    {
+      "title": "Model Code of Practice: How to manage work health and safety risks",
+      "publisher": "Safe Work Australia",
+      "url": "https://www.safeworkaustralia.gov.au/doc/model-code-practice-how-manage-work-health-and-safety-risks"
+    },
+    {
+      "title": "Summary of the OHS Act 2004: General OHS duties",
+      "publisher": "WorkSafe Victoria",
+      "url": "https://www.worksafe.vic.gov.au/summary-ohs-act-2004-general-ohs-duties"
+    },
+    {
+      "title": "Heavy Vehicle National Law Act 2012 (Qld), Schedule: Heavy Vehicle National Law",
+      "publisher": "Queensland Legislation",
+      "url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2012-021"
+    },
+    {
+      "title": "Complying with your Primary Duty obligations",
+      "publisher": "National Heavy Vehicle Regulator",
+      "url": "https://www.nhvr.gov.au/safety-accreditation-compliance/chain-of-responsibility/the-primary-duty/complying-with-your-primary-duty-obligations"
+    },
+    {
+      "title": "HVNL reform implementation",
+      "publisher": "National Heavy Vehicle Regulator",
+      "url": "https://www.nhvr.gov.au/law-policies/hvnl-reform-implementation"
+    },
+    {
+      "title": "2026 Master Code",
+      "publisher": "National Heavy Vehicle Regulator",
+      "url": "https://www.nhvr.gov.au/safety-accreditation-compliance/industry-codes-of-practice/2026-master-code"
+    },
+    {
+      "title": "Council Directive 90/269/EEC on the minimum health and safety requirements for the manual handling of loads, consolidated text of 26 July 2019",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:01990L0269-20190726"
+    },
+    {
+      "title": "Council Directive 98/24/EC, consolidated text of 8 April 2024",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:01998L0024-20240408"
+    },
+    {
+      "title": "Regulation (EC) No 852/2004, consolidated version of 24 March 2021",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02004R0852-20210324"
+    }
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "epa-worker-protection-standard-pesticide-training",
+    "epa-pesticide-applicator-certification-requirements",
+    "fsma-produce-safety-rule-worker-training",
+    "how-to-build-a-training-matrix-for-a-food-business",
+    "how-to-set-mandatory-training-refresh-cycles"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "Worker training required within the last 12 months before any task in a treated area where a pesticide was used or an REI was in effect within the last 30 days",
+      "source": "https://www.law.cornell.edu/cfr/text/40/170.401"
+    },
+    {
+      "claim": "Training must use EPA-approved materials, be presented orally from written materials or audio-visually, and the trainer must be present for the entire program; trainer qualification criteria in 170.401(c)(4)",
+      "source": "https://www.law.cornell.edu/cfr/text/40/170.401"
+    },
+    {
+      "claim": "Worker training records kept on the establishment for two years with printed name and signature, date, materials, trainer name and qualification, and employer name; copy on request",
+      "source": "https://www.law.cornell.edu/cfr/text/40/170.401"
+    },
+    {
+      "claim": "Handler training required within the last 12 months before any handler activity; 170.501(c)(3) adds topics (ii) to (xiv) to all worker topics, including AEZ suspension, minimum age 18 and respirator fit testing; records kept two years",
+      "source": "https://www.law.cornell.edu/cfr/text/40/170.501"
+    },
+    {
+      "claim": "Section 170.501 last amended at 89 FR 80787, October 4, 2024",
+      "source": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-E/part-170/subpart-F/section-170.501"
+    },
+    {
+      "claim": "EPA states that owners and immediate family on family-owned farms are exempt from many requirements",
+      "source": "https://www.epa.gov/pesticide-worker-safety/agricultural-worker-protection-standard-wps"
+    },
+    {
+      "claim": "Section 170.403 requires informing workers of the location of pesticide safety information, application and hazard information, and decontamination supplies",
+      "source": "https://www.law.cornell.edu/cfr/text/40/170.403"
+    },
+    {
+      "claim": "A person is a certified applicator only if holding a certification under an approved plan currently valid in the pertinent jurisdiction",
+      "source": "https://www.law.cornell.edu/cfr/text/40/171.1"
+    },
+    {
+      "claim": "Certifications expire five years after issuance unless recertified",
+      "source": "https://www.law.cornell.edu/cfr/text/40/171.107"
+    },
+    {
+      "claim": "Noncertified applicators need qualifying training within 12 months, equipment instruction within 12 months, minimum age 18 (16 with conditions), and records accessible for two years",
+      "source": "https://www.law.cornell.edu/cfr/text/40/171.201"
+    },
+    {
+      "claim": "Plans must require certified commercial applicators to keep operational records for at least two years; certification period may not exceed five years",
+      "source": "https://www.law.cornell.edu/cfr/text/40/171.303"
+    },
+    {
+      "claim": "112.21(a) training upon hiring and at least once annually; (c) easily understood; (d) repeated as necessary; covers temporary, part time, seasonal and contracted personnel",
+      "source": "https://www.law.cornell.edu/cfr/text/21/112.21"
+    },
+    {
+      "claim": "112.22(a) three core topics; (b) three harvest topics; (c) at least one supervisor or responsible party completed training equivalent to FDA recognized standardized curriculum",
+      "source": "https://www.law.cornell.edu/cfr/text/21/112.22"
+    },
+    {
+      "claim": "112.30(b): training records with date, topics covered and persons trained; 112.164 records kept at least 2 years",
+      "source": "https://www.law.cornell.edu/cfr/text/21/112.30"
+    },
+    {
+      "claim": "112.4: covered farm averages more than $25,000 annual produce sales over previous 3 years",
+      "source": "https://www.law.cornell.edu/cfr/text/21/112.4"
+    },
+    {
+      "claim": "2010 Training Standards Policy Statement: present information in a manner employees are capable of understanding, including language and vocabulary",
+      "source": "https://www.osha.gov/laws-regs/standardinterpretations/2010-04-28"
+    },
+    {
+      "claim": "OSHA 2254: all required training must be provided by and paid for by employers",
+      "source": "https://www.osha.gov/sites/default/files/publications/osha2254.pdf"
+    },
+    {
+      "claim": "1910.178(a)(1) scope excludes farm vehicles",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.178"
+    },
+    {
+      "claim": "No person servicing MVAC-like appliances may perform service involving refrigerant without certification by an approved program",
+      "source": "https://www.law.cornell.edu/cfr/text/40/82.34"
+    },
+    {
+      "claim": "MVAC-like appliance: full charge of 20 pounds or less cooling off-road vehicles, including agricultural vehicles",
+      "source": "https://www.law.cornell.edu/cfr/text/40/82.152"
+    },
+    {
+      "claim": "WHS Act s 19(3)(f) training necessary to protect persons; regulation 39 suitable and adequate training",
+      "source": "https://www.legislation.gov.au/C2011A00137/latest/text"
+    },
+    {
+      "claim": "Safe Work Australia model code: insufficient to give a worker the procedure and ask them to acknowledge it",
+      "source": "https://www.safeworkaustralia.gov.au/doc/model-code-practice-how-manage-work-health-and-safety-risks"
+    },
+    {
+      "claim": "Victorian OHS Act s 21(2)(e) information, instruction, training or supervision",
+      "source": "https://www.worksafe.vic.gov.au/summary-ohs-act-2004-general-ohs-duties"
+    },
+    {
+      "claim": "HVNL s 26C primary duty; s 26D due diligence includes keeping knowledge up to date",
+      "source": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2012-021"
+    },
+    {
+      "claim": "NHVR control measures include training or recruitment procedures",
+      "source": "https://www.nhvr.gov.au/safety-accreditation-compliance/chain-of-responsibility/the-primary-duty/complying-with-your-primary-duty-obligations"
+    },
+    {
+      "claim": "Amended HVNL commenced 1 August 2026",
+      "source": "https://www.nhvr.gov.au/law-policies/hvnl-reform-implementation"
+    },
+    {
+      "claim": "2026 Master Code moves from role based to activity based structure and describes 45 activities",
+      "source": "https://www.nhvr.gov.au/safety-accreditation-compliance/industry-codes-of-practice/2026-master-code"
+    },
+    {
+      "claim": "Directive 90/269/EEC Article 6(2) proper training on handling loads correctly and the risks",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:01990L0269-20190726"
+    },
+    {
+      "claim": "Directive 98/24/EC Article 8(1) training and information, manner appropriate to the risk assessment, updated for changing circumstances; diisocyanates transitional limits until 31 December 2028",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:01998L0024-20240408"
+    },
+    {
+      "claim": "Regulation 852/2004 Annex I staff training on health risks for primary producers",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02004R0852-20210324"
+    }
+  ]
+}

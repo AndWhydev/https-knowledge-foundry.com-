@@ -1,0 +1,558 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-telecommunications-provider",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a telecommunications provider?",
+  "seoTitle": "Training matrix for a telecom provider",
+  "description": "Build a telecom training matrix: CPNI handling, NIS2 board and staff cyber training, card security, privacy duties by role and market, with a worked grid.",
+  "shortAnswer": "A telecommunications provider builds its training matrix by separating the people who touch customer records (retail, care, sales, agents) from those who run and secure the network and those who govern it, then mapping each group to the customer data, cybersecurity and payment rules of every market it serves. Each cell states the trigger or interval, who signs off, and the record that supports the provider's certifications and incident duties.",
+  "keyTakeaways": [
+    "Telecom training duties fall into three families: customer data handling (such as CPNI in the United States), network and information security (NIS2 in the EU), and payment card and privacy rules.",
+    "Few telecom rules set an interval. PCI DSS requires the awareness program to be reviewed every 12 months, and the CPNI officer certification is annual, but CPNI and NIS2 training clocks are left to the provider.",
+    "Management bodies carry personal duties: NIS2 Article 20(2) requires them to follow cybersecurity training, and Portugal makes ensuring regular training a non delegable duty of the board.",
+    "Agents, affiliates and suppliers belong in the matrix because CPNI handling and NIS2 awareness programs extend beyond employees.",
+    "As at November 2026, Portugal's Decree-Law 125/2025 is in force with some training measures deferred, and the FCC's SIM change training rule awaits a compliance date."
+  ],
+  "sections": [
+    {
+      "id": "why-telecom-matrix-differs",
+      "heading": "Why does a telecom provider's matrix look different from a typical IT matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because a telecom provider is regulated both as a holder of sensitive customer records and as an operator of infrastructure that others depend on, and each role sits differently across those two regimes. A retail store employee who can view a subscriber's call details has duties under customer data rules that a network engineer does not, while the engineer falls under cybersecurity risk management rules that barely touch the store."
+        },
+        {
+          "type": "p",
+          "text": "The method in [how to build a training matrix](/guides/how-to-build-a-training-matrix) still applies. What a telecom provider adds is a data access attribute on each role (whether it can see customer proprietary information, cardholder data or network systems) so that columns attach automatically. This is a practical form of [role based training](/glossary/role-based-training)."
+        }
+      ]
+    },
+    {
+      "id": "telecom-role-groups",
+      "heading": "Which telecom roles should form the rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Group roles by what they can access and what they sign, because that is how the rules allocate duties. The table lists typical rows and the rules behind them."
+        },
+        {
+          "type": "table",
+          "caption": "Telecom role groups and why each is separate",
+          "head": [
+            "Role group",
+            "Why it is separate",
+            "Driving rules"
+          ],
+          "rows": [
+            [
+              "Board and management body",
+              "Must approve and oversee cyber measures and follow training",
+              "NIS2 Article 20; Decree-Law 125/2025 regime Article 25"
+            ],
+            [
+              "Officer signing the CPNI certificate",
+              "Personally certifies the carrier's procedures each year",
+              "47 CFR 64.2009(e)"
+            ],
+            [
+              "Retail store and customer care staff",
+              "Access CPNI and authenticate customers by phone, online and in store",
+              "47 CFR 64.2009(b) and 64.2010"
+            ],
+            [
+              "Sales and marketing staff",
+              "Outbound campaigns using CPNI need supervisory approval",
+              "47 CFR 64.2009(d)"
+            ],
+            [
+              "Cybersecurity officer and point of contact",
+              "Proposes training and is notified to the authority",
+              "Decree-Law 125/2025 regime Article 31"
+            ],
+            [
+              "Network, security and operations staff",
+              "Cyber hygiene and role training as a risk management measure",
+              "NIS2 Article 21(2)(g); Implementing Regulation 2024/2690 section 8"
+            ],
+            [
+              "Data protection officer",
+              "Monitors awareness raising and training",
+              "GDPR Article 39(1)(b)"
+            ],
+            [
+              "Staff handling card payments",
+              "Security awareness for the cardholder data environment",
+              "PCI DSS Requirement 12.6"
+            ],
+            [
+              "Agents, affiliates and suppliers",
+              "Handle CPNI or fall within awareness programs",
+              "47 CFR 64.2009; Implementing Regulation 2024/2690 8.1.2"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "telecom-rules-by-market",
+      "heading": "Which training rules apply to telecom providers in each market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Pull columns from the regulation pages for each market where the provider holds customers or operates network assets. Each summary uses only the linked page."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**United States.** The Federal Communications Commission (FCC) requires telecommunications carriers, including interconnected VoIP providers, to train personnel on when they are and are not authorized to use customer proprietary network information (CPNI) and to have an express disciplinary process under 47 CFR 64.2009(b) ([FCC CPNI training](/regulations/fcc-cpni-employee-training-requirements)). An officer signs a compliance certificate filed on or before March 1 for the previous calendar year. Section 64.2010 sets authentication rules for phone, online and in store access, and 64.2011 requires notice to the US Secret Service and FBI no later than seven business days after a breach is reasonably determined.",
+            "**European Union.** NIS2 Article 20(2) requires members of management bodies of essential and important entities to follow training, and Member States encourage similar regular training for employees; Article 21(2)(g) lists basic cyber hygiene and cybersecurity training as a required measure ([NIS2](/regulations/nis2-management-body-training)). Digital infrastructure is among the sectors in scope. Implementing Regulation 2024/2690 describes an awareness program covering management bodies and suppliers, testing of its effectiveness, role training with effectiveness assessed, and training on transfer. GDPR adds the data protection officer's duty to monitor training and the rule that people with access to personal data act only on instructions ([GDPR staff training](/regulations/gdpr-staff-training-requirements)).",
+            "**Portugal.** Decree-Law 125/2025 transposes NIS2 ([Portugal cybersecurity law](/regulations/portugal-cybersecurity-law-training)). Regime Article 25(1)(d) requires management bodies to ensure regular cybersecurity training, with liability for intent or gross negligence, and the duty cannot be delegated except to a member. Article 27(1)(f) lists cyber hygiene and training for top management and workers, and Article 31 has the cybersecurity officer propose training. The decree also revokes the security articles 59 to 65 of the Electronic Communications Law, Law 16/2022, with delayed effect.",
+            "**United Arab Emirates.** The Information Assurance Regulation published by the Telecommunications and Digital Government Regulatory Authority (TDRA) is mandatory for government entities and entities designated critical under the CIIP Policy, whose scope includes the ICT sector ([UAE information assurance](/regulations/uae-information-assurance-awareness-training)). Its M3 family requires a documented training needs analysis, which is a P1 Always Applicable control, plus a program, effectiveness evaluation and training records.",
+            "**Any market with card sales.** PCI DSS v4.0.1 Requirement 12.6 requires a security awareness program for all personnel, reviewed at least every 12 months, with training on phishing, social engineering and acceptable use of end user technologies, mandatory since 31 March 2025 ([PCI DSS](/regulations/pci-dss-security-awareness-training-requirements))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "illustrative-telecom-matrix",
+      "heading": "What does a completed telecom matrix look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It looks like a role register where each row carries a market, an obligation, a trigger or interval, and an evidence rule. The extract below is illustrative only, for a hypothetical provider with US wireless operations, a Portuguese fixed network subsidiary and a Dubai enterprise unit. Intervals marked as provider policy are choices, not requirements of the cited rule."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical telecom group, role by obligation",
+          "head": [
+            "Role",
+            "Market",
+            "Obligation",
+            "Interval or trigger",
+            "Evidence held"
+          ],
+          "rows": [
+            [
+              "Retail store associate",
+              "United States",
+              "64.2009(b) CPNI authorized use",
+              "Before CPNI access; provider policy annual",
+              "Completion, quiz result and acknowledgment of disciplinary process"
+            ],
+            [
+              "Care agent",
+              "United States",
+              "64.2010 customer authentication",
+              "Before handling accounts; on procedure change",
+              "Call sampling against authentication script"
+            ],
+            [
+              "Outbound sales lead",
+              "United States",
+              "64.2009(d) supervisory approval",
+              "Before each campaign",
+              "Approval records kept at least one year"
+            ],
+            [
+              "Compliance officer",
+              "United States",
+              "64.2009(e) annual certificate",
+              "Annually, on or before March 1",
+              "Signed certificate and supporting training data"
+            ],
+            [
+              "Board member",
+              "Portugal",
+              "Regime Article 25(1)(d) regular training",
+              "Provider policy annual",
+              "Board minutes and attendance record"
+            ],
+            [
+              "Cybersecurity officer",
+              "Portugal",
+              "Regime Article 31 training proposals",
+              "On appointment; annual training plan as provider policy",
+              "Proposed plan and approval record"
+            ],
+            [
+              "Network engineer",
+              "EU (Portugal)",
+              "NIS2 Article 21(2)(g) cyber hygiene and role training",
+              "Provider policy annual; on transfer to a new role",
+              "Completion plus effectiveness assessment"
+            ],
+            [
+              "Enterprise security analyst",
+              "UAE",
+              "IA Regulation M3.3.1 training needs",
+              "Needs analysis reviewed on risk assessment",
+              "Documented needs analysis and delivery plan"
+            ],
+            [
+              "Store cashier",
+              "Any",
+              "PCI DSS 12.6.3.1 phishing and social engineering",
+              "Provider policy annual; program reviewed every 12 months",
+              "Completion record and program review date"
+            ],
+            [
+              "Data protection officer",
+              "EU",
+              "GDPR Article 39(1)(b) monitoring",
+              "Continuous; audit annually as provider policy",
+              "Training audit report"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intervals-set-and-unset",
+      "heading": "Where do telecom rules fix a frequency, and where must the provider decide?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Telecom rules mostly require that training exist and work, not that it recur on a schedule. The provider sets most clocks itself and must be able to explain why."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Fixed by rule.** The PCI DSS awareness program is reviewed at least once every 12 months. The CPNI compliance certificate is filed annually by March 1. Portuguese significant incidents require initial notification within 24 hours and an update within 72 hours, which training for incident handlers should reflect.",
+            "**Required but untimed.** CPNI training under 64.2009(b), NIS2 management body training, Portuguese regular training under Article 25 and UAE M3 training all leave frequency open.",
+            "**Event triggers.** Implementing Regulation 2024/2690 includes training when staff transfer roles. The FCC requires written notice within five business days when opt out mechanisms fail beyond an anomaly, a natural trigger for refresher training of the teams involved.",
+            "**Documenting the choice.** Write the reason for each chosen interval beside the cell. The approach is set out in [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "telecom-records",
+      "heading": "What records should a telecom provider keep to back its training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Keep records that support the provider's certifications and incident reports, because those are where training evidence is tested. A completion list alone will not support an officer's signed CPNI certificate."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**CPNI.** Sales campaign and disclosure records and compliance records are kept at least one year; breach records at least two years.",
+            "**NIS2.** Implementing Regulation 2024/2690 expects effectiveness of awareness programs to be tested and role training effectiveness to be assessed, so keep test results, not only attendance.",
+            "**UAE.** M3.2.1 sub controls require records of education, training, skills, experience and qualifications, and M4.3 uses the percentage of employees who took security awareness training as an indicator.",
+            "**Board reporting.** Because NIS2 and Portuguese law place training duties on the management body, report coverage and effectiveness to it directly. See [how to report training compliance to the board](/guides/how-to-report-training-compliance-to-the-board) and the country comparison of [cybersecurity awareness training requirements](/compare/cybersecurity-awareness-training-requirements-by-country)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "telecom-pending-changes",
+      "heading": "Which telecom training changes should be tracked into 2027?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Several telecom items are dated or pending. As at November 2026, the linked regulation pages record the following:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**3 April 2026, Portugal:** Decree-Law 125/2025 entered into force, 120 days after its 4 December 2025 publication.",
+            "**24 months after implementing regulations, Portugal:** Article 27(1) and (2) measures, including the cyber hygiene and training measure, take effect 24 months after publication of the regulations listed in Article 10(2). Track that trigger rather than a fixed date.",
+            "**1 March 2027, United States:** the next annual CPNI compliance certificate, covering calendar year 2026, is due.",
+            "**Pending, United States:** 47 CFR 64.2010(h)(7) requires SIM change fraud training, but (h)(9) states compliance is not required until a compliance date is added.",
+            "**Pending, EU:** the Commission's January 2026 proposal COM(2026) 13 would make targeted NIS2 amendments; it is not yet law."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Breach notice amendment",
+          "text": "The CPNI breach notification amendment published at 89 FR 10002 on 12 February 2024 was shown as not yet incorporated in the eCFR at the date of the CPNI regulation page. Confirm the current text before rewriting breach training."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps each telecom obligation to the roles and access types it attaches to, and to the learning outcomes and assessment points that evidence it, so the data behind a CPNI certificate or a NIS2 board report traces back to its rule. When a regulation such as the Portuguese cybersecurity regime adds a compliance date, the affected roles are flagged. See [knowledge governance](/platform/knowledge-governance)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do interconnected VoIP providers need CPNI training?",
+      "a": "Yes. 47 CFR 64.2003(o) treats an entity providing interconnected VoIP service as a carrier for CPNI purposes, so the training duty in 64.2009(b) and the annual officer certificate apply. The matrix should include VoIP customer care and sales roles on the same basis as traditional carrier staff."
+    },
+    {
+      "q": "Does NIS2 require every telecom employee to be trained?",
+      "a": "Article 20(2) requires management body members to follow training and asks Member States to encourage similar training for employees, while Article 21(2)(g) makes cybersecurity training a required risk management measure. National laws then set the detail: in Portugal, Article 27(1)(f) names training for top management and workers."
+    },
+    {
+      "q": "Is CPNI training the same as privacy training?",
+      "a": "No. CPNI rules focus on when personnel may use specific network information, such as numbers called and when, and how customers are authenticated. General privacy training under GDPR or other privacy laws covers wider personal data duties. Keep separate columns, though one module can cover both if the mapping is recorded."
+    },
+    {
+      "q": "Should field and network contractors appear in the matrix?",
+      "a": "Yes, where they handle customer information or fall within the security program. NIS2 awareness programs under Implementing Regulation 2024/2690 extend to suppliers, and CPNI rules cover agents and affiliates acting for the carrier. Give contractors their own rows with the obligations their access triggers."
+    }
+  ],
+  "sources": [
+    {
+      "title": "47 CFR 64.2009: Safeguards required for use of customer proprietary network information",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-B/part-64/subpart-U/section-64.2009"
+    },
+    {
+      "title": "47 CFR 64.2010: Safeguards on the disclosure of customer proprietary network information",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/47/64.2010"
+    },
+    {
+      "title": "47 CFR 64.2011: Notification of customer proprietary network information security breaches",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/47/64.2011"
+    },
+    {
+      "title": "47 CFR 64.2003: Definitions",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/47/64.2003"
+    },
+    {
+      "title": "47 U.S.C. 222: Privacy of customer information",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/uscode/text/47/222"
+    },
+    {
+      "title": "Protecting Your Privacy: Phone and Cable Records",
+      "publisher": "Federal Communications Commission",
+      "url": "https://www.fcc.gov/consumers/guides/protecting-your-privacy"
+    },
+    {
+      "title": "Directive (EU) 2022/2555 (NIS 2 Directive)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+    },
+    {
+      "title": "Commission Implementing Regulation (EU) 2024/2690",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj/eng"
+    },
+    {
+      "title": "NIS2 Directive: securing network and information systems",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/nis2-directive"
+    },
+    {
+      "title": "Proposal for a Directive as regards simplification measures and alignment with the Cybersecurity Act",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/proposal-directive-regards-simplification-measures-and-alignment-cybersecurity-act"
+    },
+    {
+      "title": "Decreto-Lei n.º 125/2025, de 4 de dezembro: regime jurídico da cibersegurança (transpõe a Diretiva (UE) 2022/2555)",
+      "publisher": "Diário da República",
+      "url": "https://files.diariodarepublica.pt/1s/2025/12/23400/0000400068.pdf"
+    },
+    {
+      "title": "Directive (EU) 2022/2555 (NIS2 Directive): national transposition measures",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32022L2555"
+    },
+    {
+      "title": "UAE Information Assurance Regulation, Version 1.1 (March 2020)",
+      "publisher": "Telecommunications and Digital Government Regulatory Authority, via the UAE Government portal",
+      "url": "https://assets.u.ae/api/public/content/0375b824125b4796b0e4928f8ab3d3df?v=e0f902e5"
+    },
+    {
+      "title": "The National Information Assurance Framework",
+      "publisher": "Supreme Council for National Security, via the UAE Government portal",
+      "url": "https://assets.u.ae/api/public/content/4fdd52f9ff974ab0bf3e412183b4249c?v=8833f113"
+    },
+    {
+      "title": "Critical Information Infrastructure Protection (CIIP) Policy",
+      "publisher": "Supreme Council for National Security, via the UAE Government portal",
+      "url": "https://assets.u.ae/api/public/content/b0c409a3e65f45859963ab11b28ef62d?v=18865572"
+    },
+    {
+      "title": "PCI DSS: Summary of Changes from PCI DSS Version 3.2.1 to 4.0, Revision 1 (May 2022)",
+      "publisher": "PCI Security Standards Council",
+      "url": "https://listings.pcisecuritystandards.org/documents/PCI-DSS-v3-2-1-to-v4-0-Summary-of-Changes-r1.pdf"
+    },
+    {
+      "title": "PCI DSS v4.0 Self-Assessment Questionnaire A-EP and Attestation of Compliance (April 2022)",
+      "publisher": "PCI Security Standards Council",
+      "url": "https://listings.pcisecuritystandards.org/documents/PCI-DSS-v4-0-SAQ-A-EP.pdf"
+    },
+    {
+      "title": "Just Published: PCI DSS v4.0.1 (June 11, 2024)",
+      "publisher": "PCI Security Standards Council blog",
+      "url": "https://blog.pcisecuritystandards.org/just-published-pci-dss-v4-0-1"
+    },
+    {
+      "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    },
+    {
+      "title": "Data protection guide for small business: Secure personal data",
+      "publisher": "European Data Protection Board",
+      "url": "https://www.edpb.europa.eu/sme-data-protection-guide/secure-personal-data_en"
+    }
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "fcc-cpni-employee-training-requirements",
+    "nis2-management-body-training",
+    "portugal-cybersecurity-law-training",
+    "cybersecurity-awareness-training-requirements-by-country",
+    "how-to-report-training-compliance-to-the-board"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "64.2009(b): carriers must train personnel as to when they are and are not authorized to use CPNI and must have an express disciplinary process",
+      "source": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-B/part-64/subpart-U/section-64.2009"
+    },
+    {
+      "claim": "64.2009(e): officer signs annual compliance certificate with statement, data broker actions and complaint summary, filed with Enforcement Bureau in EB Docket No. 06-36 on or before March 1 for the previous calendar year",
+      "source": "https://www.law.cornell.edu/cfr/text/47/64.2009"
+    },
+    {
+      "claim": "64.2009(c) and (d): campaign and disclosure records kept at least one year; sales personnel must obtain supervisory approval of outbound marketing requests; compliance records kept at least one year",
+      "source": "https://www.law.cornell.edu/cfr/text/47/64.2009"
+    },
+    {
+      "claim": "64.2009(f): written notice to the Commission within five business days when opt out mechanisms do not work properly beyond an anomaly",
+      "source": "https://www.law.cornell.edu/cfr/text/47/64.2009"
+    },
+    {
+      "claim": "64.2003(o): carrier includes an entity that provides interconnected VoIP service",
+      "source": "https://www.law.cornell.edu/cfr/text/47/64.2003"
+    },
+    {
+      "claim": "64.2010(a) to (g): authentication rules for phone, online and in store access, account change notification and business customer exemption",
+      "source": "https://www.law.cornell.edu/cfr/text/47/64.2010"
+    },
+    {
+      "claim": "64.2010(h)(7) requires SIM change fraud training; (h)(9) says compliance with paragraph (h) is not required until it is removed or contains a compliance date (eCFR text as at 2026-11-01)",
+      "source": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-B/part-64/subpart-U/section-64.2010"
+    },
+    {
+      "claim": "64.2011: notify USSS and FBI no later than seven business days after reasonable determination of breach; records kept at least two years; amendment published at 89 FR 10002, Feb. 12, 2024 shown as not yet incorporated in eCFR",
+      "source": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-B/part-64/subpart-U/section-64.2011"
+    },
+    {
+      "claim": "FCC consumer guide: companies must submit an annual summary of complaints about unauthorized release and certify compliance; customer information includes numbers called and when",
+      "source": "https://www.fcc.gov/consumers/guides/protecting-your-privacy"
+    },
+    {
+      "claim": "Article 20(2) NIS2 text: members of management bodies required to follow training; Member States encourage similar regular training for employees (verbatim)",
+      "source": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+    },
+    {
+      "claim": "Article 21(2)(g) lists basic cyber hygiene practices and cybersecurity training; Article 20(1) management bodies approve, oversee, can be held liable",
+      "source": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+    },
+    {
+      "claim": "Article 41: transpose by 17 October 2024, apply from 18 October 2024; Article 34(4) and (5) fine minimums EUR 10m/2% essential, EUR 7m/1.4% important; Article 32(5)(b) temporary prohibition of CEO or legal representative level managers",
+      "source": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+    },
+    {
+      "claim": "Implementing Regulation 2024/2690 annex section 8: awareness program incl. management bodies and suppliers (8.1.2), effectiveness testing (8.1.3), role training with effectiveness assessed (8.2.1, 8.2.3), training on transfer (8.2.4)",
+      "source": "https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj/eng"
+    },
+    {
+      "claim": "On 7 May 2025 the Commission sent reasoned opinions to 19 Member States including Portugal for failing to notify full NIS2 transposition",
+      "source": "https://digital-strategy.ec.europa.eu/en/policies/nis-transposition"
+    },
+    {
+      "claim": "Decree-Law 125/2025 published 4 December 2025 transposes NIS2; Article 11 in force 120 days after publication (3 April 2026); Article 9 revokes Law 46/2018; Article 10(2) defers Article 27(1) and (2) until 24 months after implementing regulations; regime Article 25 management bodies approve, supervise, ensure regular training, liability for intent or gross negligence; fines up to EUR 10m or 2% for essential legal persons; Annexes I and II list 17 sectors; Article 8(1) registration within 60 days of platform availability; Article 15 BdP, CMVM, ASF for DORA matters",
+      "source": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401"
+    },
+    {
+      "claim": "COM(2026) 13 proposal of 20 January 2026: targeted NIS2 amendments on jurisdiction, ransomware data, cross-border supervision, complementing Digital Omnibus single-entry incident reporting",
+      "source": "https://digital-strategy.ec.europa.eu/en/library/proposal-directive-regards-simplification-measures-and-alignment-cybersecurity-act"
+    },
+    {
+      "claim": "Decree-Law 125/2025 of December 4, 2025 approves the legal regime for cybersecurity, transposes Directive (EU) 2022/2555, under authorization in Law 59/2025 of October 22",
+      "source": "https://files.diariodarepublica.pt/1s/2025/12/23400/0000400068.pdf"
+    },
+    {
+      "claim": "Article 9 revokes Law 46/2018 regime, Decree-Law 65/2021, Art 2-A DL 3/2012, and Arts 59 to 65 Law 16/2022; Article 10(1) delayed effect for the Law 16/2022 revocation; Article 11 entry into force 120 days after publication",
+      "source": "https://files.diariodarepublica.pt/1s/2025/12/23400/0000400068.pdf"
+    },
+    {
+      "claim": "Article 10(2): Art 27(1)(2), 28 to 30, 33 and Art 61(1)(b)(c)(f) take effect 24 months after publication of regulations in Arts 8, 14, 26, 31, 32 and 83",
+      "source": "https://files.diariodarepublica.pt/1s/2025/12/23400/0000400068.pdf"
+    },
+    {
+      "claim": "Regime Article 25(1)(d) management bodies ensure regular cybersecurity training; 25(2) liability for intent or gross negligence; 25(3) non-delegable except to a member",
+      "source": "https://files.diariodarepublica.pt/1s/2025/12/23400/0000400068.pdf"
+    },
+    {
+      "claim": "Regime Article 27(1)(f) basic cyber hygiene and cybersecurity training including top management and workers; Article 14 QNRCS approved by CNCS regulation; Article 31 cybersecurity officer, 31(2)(d) proposes training, 31(3) notify within 20 working days",
+      "source": "https://files.diariodarepublica.pt/1s/2025/12/23400/0000400068.pdf"
+    },
+    {
+      "claim": "Regime: significant incident initial notification within 24 hours, update within 72 hours; Article 15 CNCS national cybersecurity authority and single point of contact",
+      "source": "https://files.diariodarepublica.pt/1s/2025/12/23400/0000400068.pdf"
+    },
+    {
+      "claim": "M3.3.1 Training Needs is priority P1 and Always Applicable; M3.2.1 program is P2 Always Applicable; M3.3.2 P3 Always Applicable; M3.3.3 P2 Always Applicable; M3.1.1, M3.3.4, M3.3.5 and M3.4.1 are P2 based on risk assessment",
+      "source": "https://assets.u.ae/api/public/content/0375b824125b4796b0e4928f8ab3d3df?v=e0f902e5"
+    },
+    {
+      "claim": "M3.2.1 sub-controls require determining competencies, providing training, evaluating effectiveness, and maintaining records of education, training, skills, experience and qualifications",
+      "source": "https://assets.u.ae/api/public/content/0375b824125b4796b0e4928f8ab3d3df?v=e0f902e5"
+    },
+    {
+      "claim": "M4.3.1 requires presenting relevant security policy/guidelines on first access for users to read and accept; M4.3 indicator is percentage of employees that participated in Security Awareness Training",
+      "source": "https://assets.u.ae/api/public/content/0375b824125b4796b0e4928f8ab3d3df?v=e0f902e5"
+    },
+    {
+      "claim": "NIAF section 1.5: compliance mandatory for all UAE government entities and entities identified as critical; voluntary for other UAE entities",
+      "source": "https://assets.u.ae/api/public/content/4fdd52f9ff974ab0bf3e412183b4249c?v=8833f113"
+    },
+    {
+      "claim": "CIIP Policy scope covers sectors including chemicals, emergency services, health, nuclear, government, electricity and water, financial, and ICT",
+      "source": "https://assets.u.ae/api/public/content/b0c409a3e65f45859963ab11b28ef62d?v=18865572"
+    },
+    {
+      "claim": "12.6.2 new requirement: review and update the security awareness program at least once every 12 months; best practice until 31 March 2025; Evolving requirement.",
+      "source": "https://listings.pcisecuritystandards.org/documents/PCI-DSS-v3-2-1-to-v4-0-Summary-of-Changes-r1.pdf"
+    },
+    {
+      "claim": "12.6.3 merged v3.2.1 requirements 12.6.1 and 12.6.2 for security awareness training (structure or format change).",
+      "source": "https://listings.pcisecuritystandards.org/documents/PCI-DSS-v3-2-1-to-v4-0-Summary-of-Changes-r1.pdf"
+    },
+    {
+      "claim": "12.6.3.2 new: training includes acceptable use of end-user technologies in accordance with 12.2.1; best practice until 31 March 2025.",
+      "source": "https://listings.pcisecuritystandards.org/documents/PCI-DSS-v3-2-1-to-v4-0-Summary-of-Changes-r1.pdf"
+    },
+    {
+      "claim": "v4.0.1 published June 2024 (post dated 11 Jun 2024), limited revision with no new or deleted requirements; v4.0 retired 31 December 2024; 31 March 2025 effective date unchanged.",
+      "source": "https://blog.pcisecuritystandards.org/just-published-pci-dss-v4-0-1"
+    },
+    {
+      "claim": "Article 39(1)(b): DPO monitors compliance including awareness-raising and training of staff involved in processing operations, and related audits; Article 39(1)(a) inform and advise employees who carry out processing",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    },
+    {
+      "claim": "Article 29 and Article 32(4): persons acting under the authority of controller or processor with access to personal data process only on instructions; Article 5(2) accountability; Article 24 measures reviewed and updated",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"
+    }
+  ]
+}
