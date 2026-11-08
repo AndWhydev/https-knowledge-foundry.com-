@@ -1,36 +1,90 @@
 {
   "slug": "iso-9001-competence-requirements",
   "kind": "regulation",
-  "title": "What does ISO 9001 clause 7.2 require for competence?",
-  "seoTitle": "ISO 9001 clause 7.2 competence",
-  "description": "What ISO 9001 clause 7.2 requires for competence, how it links to awareness in 7.3, what auditors check, and what the September 2026 edition means.",
-  "shortAnswer": "ISO 9001 clause 7.2 requires an organization to determine the competence needed by people whose work affects quality management system performance and product or service conformity, ensure they are competent through education, training or experience, take action to close gaps and evaluate whether that action worked, and retain documented evidence. ISO 9001:2026, published in September 2026, keeps competence in clause 7.2 within the harmonized structure.",
+  "title": "What does ISO 9001 require for competence under the 2015 and 2026 editions?",
+  "seoTitle": "ISO 9001 competence: 2015 and 2026",
+  "description": "What ISO 9001 clause 7.2 requires for competence under the 2015 and 2026 editions, the new 7.3 awareness duties, what auditors check, and transition dates.",
+  "shortAnswer": "ISO 9001 clause 7.2 requires an organization to determine the competence its people need, ensure they are competent through education, training or experience, close gaps and evaluate whether that worked, and retain evidence. ISO 9001:2026, published September 16, 2026, keeps the same clause structure. ISO says it adds awareness of quality culture and ethical behavior in clause 7.3. Certified organizations have three years to transition from ISO 9001:2015.",
   "keyTakeaways": [
     "Clause 7.2 has four parts: determine competence, ensure competence, act and evaluate effectiveness, and retain documented information as evidence.",
     "Training is one way to achieve competence; mentoring, reassignment and recruitment are others.",
-    "ISO 9001:2026 was published on September 16, 2026; certification bodies report a three-year transition, with ISO 9001:2015 certificates expected to remain valid until September 30, 2029.",
-    "Certification bodies report that the 2026 edition extends clause 7.3 awareness to include quality culture and ethical behavior.",
+    "ISO 9001:2026 was published on September 16, 2026. ISO gives ISO 9001:2015 certificate holders three years to transition, and DQS reports that 2015 certificates are expected to remain valid until September 30, 2029.",
+    "ISO lists new awareness requirements on quality culture and ethical behavior (clause 7.3), stronger leadership emphasis on quality culture (clause 5.1) and a new explanatory Annex A; the clause structure is unchanged.",
     "Auditors expect defined role competence and evidence of effectiveness, not only attendance records."
   ],
   "jurisdiction": "International standard (ISO)",
   "regulator": "International Organization for Standardization (ISO), through accredited certification bodies",
   "appliesTo": [
-    "Organisations certified or seeking certification to ISO 9001",
+    "Organizations certified or seeking certification to ISO 9001",
     "Suppliers whose customers or tenders require ISO 9001",
-    "Organisations using ISO 9001 as a quality governance reference"
+    "Organizations using ISO 9001 as a quality governance reference"
   ],
   "sections": [
     {
       "id": "current-edition",
-      "heading": "Which edition of ISO 9001 applies as at September 2026?",
+      "heading": "Which edition of ISO 9001 applies as at November 2026?",
       "blocks": [
         {
           "type": "p",
-          "text": "Both editions are in use during a transition. [ISO 9001:2026](https://www.iso.org/standard/9001) was published on September 16, 2026 and replaces ISO 9001:2015. Certification body [DQS reports](https://www.dqsglobal.com/en/explore/blog/iso-9001-2026-transition) a three-year transition, with ISO 9001:2015 certificates expected to remain valid until September 30, 2029, subject to rules set by Global Accreditation Cooperation Incorporated (Global ACI, formerly the International Accreditation Forum)."
+          "text": "As at November 2026, both editions are in use during a transition. [ISO 9001:2026](https://www.iso.org/standard/9001) was published on September 16, 2026 as the sixth edition and replaces ISO 9001:2015. ISO states that organizations certified to ISO 9001:2015 [will have three years](https://www.iso.org/quality-management/iso-9001-2026) to move to the new edition without restarting certification. Certification body [DQS reports](https://www.dqsglobal.com/en/explore/blog/iso-9001-2026-transition) that ISO 9001:2015 certificates are expected to remain valid until September 30, 2029, subject to rules set by Global Accreditation Cooperation Incorporated (Global ACI, formerly the International Accreditation Forum)."
         },
         {
           "type": "p",
-          "text": "For competence, the practical impact is limited. The 2026 edition follows ISO's harmonized structure for management system standards, in which clause 7.2 is competence and clause 7.3 is awareness. Published summaries from certification bodies do not describe substantive changes to clause 7.2, while [TÜV Rheinland reports](https://www.tuv.com/world/en/revision-iso-9001-2026.html) that awareness under clause 7.3 now includes quality culture and ethical behavior. Organizations should confirm clause wording against the purchased standard before updating procedures."
+          "text": "For competence, the practical impact is limited. ISO confirms that the 2026 edition keeps the Harmonized Structure used across ISO management system standards, in which clause 7.2 is competence and clause 7.3 is awareness. The change that matters most for training owners is in awareness: ISO lists new clause 7.3 requirements on quality culture and ethical behavior. Organizations should confirm the exact clause wording against the purchased standard before updating procedures."
+        }
+      ]
+    },
+    {
+      "id": "what-changed-2026",
+      "heading": "What changed in ISO 9001:2026 for competence and awareness?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The main change for people and training is a new awareness requirement on quality culture and ethical behavior in clause 7.3, supported by stronger leadership duties in clause 5.1. ISO's [summary of the 2026 edition](https://www.iso.org/quality-management/iso-9001-2026) does not list clause 7.2 competence among the main changes, and the clause numbering is unchanged."
+        },
+        {
+          "type": "table",
+          "caption": "ISO 9001:2026 changes relevant to competence and awareness, as described by ISO (clause wording not reproduced)",
+          "head": [
+            "Clause",
+            "What ISO says changed",
+            "What it means for training owners"
+          ],
+          "rows": [
+            [
+              "5.1 Leadership",
+              "Greater emphasis on quality culture, ethical behavior and an environment where everyone contributes to QMS effectiveness",
+              "Brief leaders on their role in quality culture and be ready to show how they promote it, not only approve training plans"
+            ],
+            [
+              "7.2 Competence",
+              "Not listed by ISO among the main changes; the clause stays in the same place in the Harmonized Structure",
+              "Keep the existing competence process; review role profiles where culture or ethics responsibilities now sit with specific roles"
+            ],
+            [
+              "7.3 Awareness",
+              "New awareness requirements on people's understanding of quality culture and ethical behavior",
+              "Add culture and ethics content to induction and refresher material and keep evidence that staff understand it"
+            ],
+            [
+              "Annex A (new)",
+              "Clarifies key concepts, terminology and the intent behind the requirements",
+              "Use it when writing competence statements and awareness objectives, so they reflect the intended meaning"
+            ],
+            [
+              "Clause structure",
+              "Unchanged; the Harmonized Structure is retained",
+              "Existing training matrices and procedure references to clause numbers can stay in place"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The ISO 9001:2026 foreword, as shown in ISO's online preview, says quality culture and ethical behavior are addressed in requirements on leadership, awareness and the environment for the operation of processes. ISO also lists a clearer separation of risks and opportunities (clause 6.1) and a quality policy more explicitly linked to strategic direction (clause 5.2), and it carries forward the climate change consideration added to ISO 9001:2015 by the 2024 amendment. These can change a [training needs analysis](/guides/how-to-conduct-a-training-needs-analysis), but they do not alter the four parts of clause 7.2 described below."
+        },
+        {
+          "type": "p",
+          "text": "A practical transition sequence for competence and awareness is: compare current awareness content against the new clause 7.3 topics, identify roles that carry culture or ethics responsibilities, update role competence profiles and induction material, then record an effectiveness check before the transition audit. The [gap analysis](/platform/gap-analysis) approach is the same one ISO recommends for the transition as a whole."
         }
       ]
     },
@@ -40,7 +94,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Clause 7.2 requires competence to be defined, achieved, verified and evidenced for everyone doing work under the organization's control that affects the performance and effectiveness of the quality management system (QMS). The summary below follows ISO 9001:2015, the edition most certificates are held against during the transition; certification body summaries of ISO 9001:2026 report no substantive change to it. In summary, the organization must:"
+          "text": "Clause 7.2 requires competence to be defined, achieved, verified and evidenced for everyone doing work under the organization's control that affects the performance and effectiveness of the quality management system (QMS). The summary below follows ISO 9001:2015, the edition most certificates are held against during the transition. ISO's own summary of the 2026 edition does not list clause 7.2 among the main changes, and certification body summaries report no substantive change to it. In summary, the organization must:"
         },
         {
           "type": "ol",
@@ -81,7 +135,7 @@
         },
         {
           "type": "p",
-          "text": "Certification body summaries of ISO 9001:2026 report that awareness now extends to quality culture and ethical behavior. For training owners, that points to adding culture and ethics content to induction and refresher material, and being ready to show auditors that staff understand it."
+          "text": "ISO states that the 2026 edition adds awareness requirements recognizing that quality depends on people's understanding of quality culture and ethical behavior. For training owners, that points to adding culture and ethics content to induction and refresher material, and being ready to show auditors that staff understand it, not only that they attended."
         }
       ]
     },
@@ -177,7 +231,11 @@
     },
     {
       "q": "Do we need to change our competence process for ISO 9001:2026?",
-      "a": "Probably not in structure, since competence remains in clause 7.2 of the harmonized structure. Check the published text, and review awareness content, because certification bodies report that clause 7.3 now covers quality culture and ethical behavior. Plan the change within the transition period agreed with your certification body."
+      "a": "Probably not in structure. ISO confirms the clause structure is unchanged and does not list clause 7.2 among the main changes. Review awareness content instead, because ISO lists new clause 7.3 requirements on quality culture and ethical behavior. Check the purchased text and plan the change within the transition period agreed with your certification body."
+    },
+    {
+      "q": "How long do organizations have to transition to ISO 9001:2026?",
+      "a": "ISO states that organizations certified to ISO 9001:2015 have three years to move to ISO 9001:2026 and do not need to restart certification. DQS reports that ISO 9001:2015 certificates are expected to remain valid until September 30, 2029, and that certificates issued against the 2015 edition during the transition have their validity cut off at that date."
     },
     {
       "q": "How do you evaluate training effectiveness for clause 7.2?",
@@ -193,6 +251,11 @@
       "title": "ISO 9001:2026 Quality management systems: Requirements",
       "publisher": "International Organization for Standardization",
       "url": "https://www.iso.org/standard/9001"
+    },
+    {
+      "title": "ISO 9001:2026: What businesses need to know",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/quality-management/iso-9001-2026"
     },
     {
       "title": "ISO 9001:2026: the secure transition",
@@ -229,7 +292,7 @@
     }
   ],
   "published": "2026-09-28",
-  "updated": "2026-09-28",
+  "updated": "2026-11-08",
   "release": 6,
   "factCheck": [
     {
@@ -259,6 +322,18 @@
     {
       "claim": "ISO 9001:2015 clause 7.2 requires determining competence, ensuring competence through education, training or experience, and taking actions and evaluating effectiveness (secondary source; clause text is not in the public ISO preview)",
       "source": "https://www.isms.online/iso-9001/clause-7-2-competence/"
+    },
+    {
+      "claim": "ISO 9001:2026 main changes per ISO: greater emphasis on quality culture, ethical behaviour and an environment where everyone contributes (clause 5.1); quality policy linked to context and strategic direction (clause 5.2); clearer distinction between risks and opportunities (clause 6.1); new awareness requirements on quality culture and ethical behaviour (clause 7.3); new Annex A clarifying concepts, terminology and intent; climate change consideration from the 2024 amendment carried forward; clause structure unchanged (Harmonized Structure retained); ISO 9001:2015 certified organizations have three years to move to ISO 9001:2026 without restarting certification. Clause 7.2 is not listed among the main changes.",
+      "source": "https://www.iso.org/quality-management/iso-9001-2026"
+    },
+    {
+      "claim": "iso.org standard page: ISO 9001:2026 is the sixth and current edition, published on 16 September (stage 60.60 dated 2026-09-16); emphasizes quality culture and leadership and separates risk and opportunities. Checked 2026-11-08.",
+      "source": "https://www.iso.org/standard/9001"
+    },
+    {
+      "claim": "DQS (rechecked 2026-11-08): three-year transition; ISO 9001:2015 certificates expected to remain valid until September 30, 2029, subject to final confirmation by Global Accreditation Cooperation Incorporated; certificates issued under the previous standard have a shortened validity ending with the transition period.",
+      "source": "https://www.dqsglobal.com/en/explore/blog/iso-9001-2026-transition"
     }
   ]
 }

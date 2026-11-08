@@ -3,10 +3,10 @@
   "kind": "guide",
   "title": "How often should mandatory training be refreshed?",
   "seoTitle": "Mandatory training refresh cycles",
-  "description": "How often mandatory training should be refreshed: where laws and regulators set a frequency, and how to set a risk based cycle where none do.",
+  "description": "How often mandatory training must be refreshed: a register of 28 frequencies fixed by law and regulators, and how to set a risk based cycle where none is set.",
   "shortAnswer": "Mandatory training should be refreshed at the frequency a law, standard, or regulator sets where one exists, such as annual bloodborne pathogens training under a US Occupational Safety and Health Administration standard. Where no source sets a frequency, which is common, set the cycle on risk: the consequence of error, how often the task is performed, how quickly the rules change, and what assessment and incident data show. Add event triggers so changes prompt retraining between cycles.",
   "keyTakeaways": [
-    "Only some frameworks set a refresh frequency. Many require training to be suitable, adequate, or ongoing without naming an interval.",
+    "Only some frameworks set a refresh frequency. This guide's register lists 28 fixed frequencies; annual is the most common, followed by hours per year quotas and three year cycles.",
     "Where a frequency is set, record the exact source and wording. Where it is not, record the risk rationale for the cycle you chose.",
     "Risk factors for a cycle include consequence of error, how often the skill is used, rate of change, and evidence from assessments and incidents.",
     "Event triggers (a changed rule, procedure, system, or an incident) often matter more than the calendar.",
@@ -37,59 +37,224 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Some instruments do name an interval, usually for a defined group and topic. The table lists examples confirmed against the primary source for this guide, as at September 2026. It is a sample, not a complete register; check the instruments that apply to your organization in each country where you operate."
+          "text": "Some instruments do name an interval, usually for a defined group and topic. The register below lists every fixed refresh frequency recorded on this site's regulation pages, as at November 2026: 28 provisions across the United States, Portugal, Australia and the United Arab Emirates. Each row links to the regulation page that cites the primary source. It is not a complete register of every law; check the instruments that apply to your organization in each country where you operate."
         },
         {
           "type": "table",
-          "caption": "Examples of refresh frequencies set by primary sources",
+          "caption": "Register of training refresh frequencies fixed by law, regulators and binding standards (as at November 2026)",
           "head": [
-            "Source",
+            "Instrument and provision",
+            "Jurisdiction",
             "Applies to",
-            "What it sets",
-            "Status of the wording"
+            "Fixed frequency",
+            "Type of instrument"
           ],
           "rows": [
             [
-              "Labour Code (Portugal), Article 131(2)",
+              "[OSHA Bloodborne Pathogens, 29 CFR 1910.1030(g)(2)](/regulations/osha-training-requirements)",
+              "United States",
+              "Employees with occupational exposure to blood or other potentially infectious materials",
+              "At initial assignment, then at least annually, within one year of the previous training",
+              "Federal regulation"
+            ],
+            [
+              "[OSHA Respiratory Protection, 29 CFR 1910.134(k)(5)](/regulations/osha-training-requirements)",
+              "United States",
+              "Employees required to use respirators",
+              "Retraining annually, and when changes or inadequacies arise",
+              "Federal regulation"
+            ],
+            [
+              "[OSHA HAZWOPER, 29 CFR 1910.120(e)(8)](/regulations/osha-training-requirements)",
+              "United States",
+              "Hazardous waste cleanup site workers and their managers and supervisors",
+              "Eight hours of refresher training annually",
+              "Federal regulation"
+            ],
+            [
+              "[OSHA Process Safety Management, 29 CFR 1910.119(g)(2)](/regulations/osha-training-requirements)",
+              "United States",
+              "Employees involved in operating a covered process",
+              "Refresher training at least every three years, and more often if necessary",
+              "Federal regulation"
+            ],
+            [
+              "[OSHA Powered Industrial Trucks, 29 CFR 1910.178(l)(4)(iii)](/regulations/osha-training-requirements)",
+              "United States",
+              "Powered industrial truck operators",
+              "Performance evaluation at least once every three years, plus refresher training on defined triggers",
+              "Federal regulation"
+            ],
+            [
+              "[DOT Hazardous Materials, 49 CFR 172.704(c)](/regulations/dot-hazmat-employee-training)",
+              "United States",
+              "Hazmat employees",
+              "Recurrent training at least once every three years",
+              "Federal regulation"
+            ],
+            [
+              "[FINRA Rule 1240(a)(1)](/regulations/finra-continuing-education-requirements)",
+              "United States",
+              "Registered persons of FINRA member firms",
+              "Regulatory Element continuing education annually, by December 31, for each registration category",
+              "Self regulatory organization rule"
+            ],
+            [
+              "[SAFE Act, 12 CFR 1008.107(a)(2)](/regulations/safe-act-mortgage-loan-originator-continuing-education)",
+              "United States",
+              "State licensed mortgage loan originators",
+              "At least 8 hours of approved continuing education annually, including 3 hours federal law, 2 hours ethics and 2 hours nontraditional mortgage lending",
+              "Federal regulation"
+            ],
+            [
+              "[5 CFR 930.301](/regulations/nist-sp-800-50-security-awareness-training)",
+              "United States (federal agencies)",
+              "All users of executive agency information systems",
+              "Exposure to security awareness materials at least annually",
+              "Federal regulation"
+            ],
+            [
+              "[CMMC Level 3, 32 CFR 170.14 (AT.L3-3.2.1e)](/regulations/cmmc-security-awareness-training)",
+              "United States (defense contractors)",
+              "Contractors required to meet CMMC Level 3",
+              "Awareness training at initial hire, after a significant cyber event, and at least annually",
+              "Federal regulation"
+            ],
+            [
+              "[23 NYCRR 500.14(a)(3)](/regulations/nydfs-part-500-cybersecurity-training-requirements)",
+              "United States: New York",
+              "All personnel of covered entities (some exemptions apply)",
+              "Cybersecurity awareness training, including social engineering, at minimum annually",
+              "State regulation"
+            ],
+            [
+              "[California Government Code 12950.1](/regulations/california-and-new-york-harassment-training)",
+              "United States: California",
+              "Employers with five or more employees",
+              "Two hours for supervisors and one hour for nonsupervisory employees, every two years",
+              "State statute"
+            ],
+            [
+              "[New York Labor Law 201-g](/regulations/california-and-new-york-harassment-training)",
+              "United States: New York",
+              "All employees of New York employers",
+              "Sexual harassment prevention training annually",
+              "State statute"
+            ],
+            [
+              "[New York City sexual harassment training law](/regulations/california-and-new-york-harassment-training)",
+              "United States: New York City",
+              "Employers with 15 or more employees or one or more domestic workers",
+              "Training annually, with records kept three years",
+              "City law"
+            ],
+            [
+              "[Labour Code, Article 131(2)](/regulations/portugal-labour-code-continuous-training)",
+              "Portugal",
               "Employers, for each worker",
-              "A minimum of 40 hours of continuous training per year; the topics are not prescribed",
+              "A minimum of 40 hours of continuous training per year; topics not prescribed",
               "Statute"
             ],
             [
-              "OSHA Bloodborne Pathogens standard (United States), 29 CFR 1910.1030(g)(2)",
-              "Employees with occupational exposure to blood or other potentially infectious materials",
-              "Training at initial assignment and at least annually thereafter, within one year of the previous training",
-              "Federal regulation (\"shall\")"
-            ],
-            [
-              "OSHA powered industrial trucks standard (United States), 29 CFR 1910.178(l)(4)",
-              "Powered industrial truck operators",
-              "An evaluation of each operator's performance at least once every three years, plus refresher training on defined triggers",
-              "Federal regulation (\"shall\")"
-            ],
-            [
-              "FINRA Rule 1240(a) (United States)",
-              "Registered persons of FINRA member firms",
-              "Regulatory Element continuing education annually, by December 31, for each registration category",
-              "Self regulatory rule"
-            ],
-            [
-              "Information Security Manual (Australia), ISM-0252",
+              "[Information Security Manual, ISM-0252](/regulations/ism-cyber-security-awareness-training)",
+              "Australia",
               "Organizations applying the ISM, including government entities",
               "Cyber security awareness training undertaken annually by all personnel",
               "Control"
             ],
             [
-              "Information Security Manual, ISM-1565",
+              "[Information Security Manual, ISM-1565](/regulations/ism-cyber-security-awareness-training)",
+              "Australia",
               "Personnel with privileged access to systems",
               "Tailored privileged user training undertaken annually",
               "Control"
+            ],
+            [
+              "[Protective Security Policy Framework, Requirement 0024](/regulations/pspf-security-awareness-training)",
+              "Australia (Commonwealth)",
+              "Personnel of entities applying the PSPF, including contractors",
+              "Security awareness training at engagement and annually thereafter",
+              "Policy framework requirement (mandatory for non-corporate Commonwealth entities)"
+            ],
+            [
+              "[Aged Care Rules, ss 164-35, 165-20 and 165-50](/regulations/aged-care-quality-standards-training)",
+              "Australia (Commonwealth)",
+              "Workers and responsible persons of registered aged care providers",
+              "Training on the incident management, complaints and feedback, and whistleblower systems at least annually, on joining and when the system changes",
+              "Legislative instrument"
+            ],
+            [
+              "[Australian Government Agencies Privacy Code, s 16](/regulations/privacy-act-staff-training-requirements)",
+              "Australia (Commonwealth)",
+              "Agency staff with access to personal information",
+              "Privacy training at induction, and reasonable steps to provide it annually",
+              "Legislative instrument"
+            ],
+            [
+              "[Medical Board of Australia CPD registration standard](/regulations/ahpra-cpd-registration-standards)",
+              "Australia",
+              "Registered medical practitioners",
+              "50 hours of CPD per calendar year",
+              "Registration standard under the National Law"
+            ],
+            [
+              "[Pharmacy Board of Australia CPD registration standard](/regulations/pharmacist-cpd-requirements-australia)",
+              "Australia",
+              "Registered pharmacists",
+              "40 or more CPD credits in each 12 month period ending September 30",
+              "Registration standard under the National Law"
+            ],
+            [
+              "[ASIC Regulatory Guide 206, RG 206.23](/regulations/mortgage-broker-best-interests-duty-training)",
+              "Australia",
+              "Credit licensees' third party home loan representatives",
+              "At least 20 hours of CPD per year",
+              "Regulator guidance on license obligations"
+            ],
+            [
+              "[Food Standards Code, Standard 3.2.2A](/regulations/food-safety-standard-3-2-2a-training)",
+              "Australia",
+              "Food safety supervisors of category one and two businesses",
+              "Certificate must have been issued within the preceding 5 years",
+              "Food standard (legislative instrument)"
+            ],
+            [
+              "[PIC/S GMP Annex 1, paragraph 7.4](/regulations/tga-gmp-personnel-training-requirements)",
+              "Australia (as adopted by the TGA) and other PIC/S members",
+              "Personnel working in aseptic cleanrooms",
+              "Gowning assessment, with periodic reassessment at least annually",
+              "GMP code adopted by regulators"
+            ],
+            [
+              "[RACGP Standards for general practices, 6th edition](/regulations/racgp-standards-general-practice-training)",
+              "Australia",
+              "All staff of accredited general practices",
+              "CPR training at least every three years",
+              "Accreditation standard"
+            ],
+            [
+              "[DFSA Rulebook, GEN 5.3.19A](/regulations/dfsa-training-and-competence-requirements)",
+              "United Arab Emirates: DIFC",
+              "Senior Executive Officer, Compliance Officer and Money Laundering Reporting Officer",
+              "At least 15 hours of CPD per calendar year",
+              "Regulator rule"
+            ],
+            [
+              "[DFSA Rulebook, GEN 5.5.14](/regulations/dfsa-training-and-competence-requirements)",
+              "United Arab Emirates: DIFC",
+              "All relevant employees of authorized firms",
+              "Cybersecurity training at least annually",
+              "Regulator rule"
             ]
           ]
         },
         {
           "type": "p",
-          "text": "Sources: [Labour Code, consolidated version](https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475), [29 CFR 1910.1030 on eCFR](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030), [29 CFR 1910.178 on eCFR](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-N/section-1910.178), [FINRA Rule 1240](https://www.finra.org/rules-guidance/rulebooks/finra-rules/1240), [ASD ISM personnel security guidelines](https://www.cyber.gov.au/business-government/asds-cyber-security-frameworks/ism/cyber-security-guidelines/guidelines-for-personnel-security). See also [Portugal Labour Code continuous training](/regulations/portugal-labour-code-continuous-training), [OSHA training requirements](/regulations/osha-training-requirements), [FINRA continuing education](/regulations/finra-continuing-education-requirements), and [ISM awareness training](/regulations/ism-cyber-security-awareness-training)."
+          "text": "Three patterns stand out. **Annual** is by far the most common interval, set in 16 of the 28 provisions, mostly for awareness topics such as security, privacy, harassment and exposure to health hazards. **Hours or credits per year** is the model in 6 provisions, mainly professional continuing education (Portugal's 40 hours, the Medical Board's 50 hours, the SAFE Act's 8 hours, DFSA's 15 hours), where the topic is partly left to the individual or employer. **Every three years** appears in 4 provisions where training is long or practical: forklift evaluations, hazmat, process safety and CPR. The remaining two are California's two year harassment cycle and the five year currency of a food safety supervisor certificate."
+        },
+        {
+          "type": "p",
+          "text": "Read the type of instrument before relying on a row. A statute or regulation is binding on everyone in scope; a control in the Information Security Manual, an ASIC regulatory guide or an accreditation standard binds through the framework that adopts it. For the detail, see [Portugal Labour Code continuous training](/regulations/portugal-labour-code-continuous-training), [OSHA training requirements](/regulations/osha-training-requirements), [FINRA continuing education](/regulations/finra-continuing-education-requirements) and [ISM awareness training](/regulations/ism-cyber-security-awareness-training)."
         },
         {
           "type": "callout",
@@ -305,6 +470,116 @@
       "title": "PIC/S Guide to GMP PE009-16, Part I: Basic requirements for medicinal products",
       "publisher": "Therapeutic Goods Administration",
       "url": "https://www.tga.gov.au/sites/default/files/2024-03/pe-009-16-gmp-guide-part-i-basic-requirements-medicinal-products.pdf"
+    },
+    {
+      "title": "29 CFR 1910.134 Respiratory protection",
+      "publisher": "US Occupational Safety and Health Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-I/section-1910.134"
+    },
+    {
+      "title": "29 CFR 1910.119 Process safety management of highly hazardous chemicals",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/29/1910.119"
+    },
+    {
+      "title": "29 CFR 1910.120 Hazardous waste operations and emergency response",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/29/1910.120"
+    },
+    {
+      "title": "49 CFR 172.704 Training requirements",
+      "publisher": "US Pipeline and Hazardous Materials Safety Administration (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-49/section-172.704"
+    },
+    {
+      "title": "12 CFR 1008.107 Continuing education for State-licensed loan originators",
+      "publisher": "Consumer Financial Protection Bureau (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-12/chapter-X/part-1008/subpart-B/section-1008.107"
+    },
+    {
+      "title": "5 CFR 930.301 Information systems security awareness training program",
+      "publisher": "US Office of Personnel Management (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-5/section-930.301"
+    },
+    {
+      "title": "32 CFR Part 170 Cybersecurity Maturity Model Certification (CMMC) Program",
+      "publisher": "US Department of Defense (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-32/part-170"
+    },
+    {
+      "title": "23 NYCRR 500.14 Monitoring and training",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.14"
+    },
+    {
+      "title": "California Government Code section 12950.1",
+      "publisher": "California Legislative Information",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12950.1"
+    },
+    {
+      "title": "New York Labor Law section 201-G",
+      "publisher": "New York State Senate",
+      "url": "https://www.nysenate.gov/legislation/laws/LAB/201-G"
+    },
+    {
+      "title": "Sexual Harassment Training",
+      "publisher": "NYC Commission on Human Rights",
+      "url": "https://www.nyc.gov/site/cchr/law/sexual-harassment-training.page"
+    },
+    {
+      "title": "Protective Security Policy Framework: Annual Release 2026",
+      "publisher": "Department of Home Affairs (Australia)",
+      "url": "https://www.protectivesecurity.gov.au/system/files/2026-07/pspf-release-2026_6.pdf"
+    },
+    {
+      "title": "Aged Care Rules 2025",
+      "publisher": "Federal Register of Legislation (Australia)",
+      "url": "https://www.legislation.gov.au/F2025L01173/latest/text"
+    },
+    {
+      "title": "Privacy (Australian Government Agencies: Governance) APP Code 2017",
+      "publisher": "Office of the Australian Information Commissioner",
+      "url": "https://www.oaic.gov.au/__data/assets/pdf_file/0019/2872/privacy-australian-government-agencies-governance-app-code-2017.pdf"
+    },
+    {
+      "title": "CPD: What do I need to do",
+      "publisher": "Medical Board of Australia",
+      "url": "https://www.medicalboard.gov.au/Professional-Performance-Framework/CPD/What--do-I-need-to-do"
+    },
+    {
+      "title": "Registration standard: Continuing professional development",
+      "publisher": "Pharmacy Board of Australia",
+      "url": "https://www.pharmacyboard.gov.au/documents/default.aspx?record=WD15%2f18507&dbid=AP&chksum=D%2bMNSAe%2fNf9lUN8tv6dT%2fw%3d%3d"
+    },
+    {
+      "title": "RG 206 Credit licensing: Competence and training",
+      "publisher": "Australian Securities and Investments Commission",
+      "url": "https://download.asic.gov.au/media/gmcnpijx/rg206-published-1-april-2020-20221025.pdf"
+    },
+    {
+      "title": "Standard 3.2.2A Food Safety Management Tools",
+      "publisher": "Federal Register of Legislation (Australia)",
+      "url": "https://www.legislation.gov.au/F2022L01589/latest/text"
+    },
+    {
+      "title": "PIC/S GMP Guide Annex 1: Manufacture of sterile medicinal products",
+      "publisher": "Pharmaceutical Inspection Co-operation Scheme",
+      "url": "https://picscheme.org/docview/11333"
+    },
+    {
+      "title": "Standards for general practices, 6th edition: Induction, training and supporting performance",
+      "publisher": "Royal Australian College of General Practitioners",
+      "url": "https://www.racgp.org.au/running-a-practice/practice-standards/standards-6th-edition/standards-6th-edition-hub/induction-training-and-supporting-performance"
+    },
+    {
+      "title": "DFSA Rulebook GEN 5.3.19A",
+      "publisher": "Dubai Financial Services Authority",
+      "url": "https://dfsaen.thomsonreuters.com/rulebook/gen-5319a"
+    },
+    {
+      "title": "DFSA Rulebook GEN 5.5.14",
+      "publisher": "Dubai Financial Services Authority",
+      "url": "https://dfsaen.thomsonreuters.com/rulebook/gen-5514"
     }
   ],
   "related": [
@@ -326,7 +601,7 @@
     }
   ],
   "published": "2026-09-28",
-  "updated": "2026-09-28",
+  "updated": "2026-11-08",
   "release": 1,
   "factCheck": [
     {
@@ -372,6 +647,98 @@
     {
       "claim": "FSA AML/CFT guidelines FAQ: update training when NRA or FATF material changes.",
       "source": "https://www.fsa.go.jp/en/news/2026/20260331/02.pdf"
+    },
+    {
+      "claim": "29 CFR 1910.134(k)(5): retraining annually and when changes, inadequacies or other situations arise (as recorded on osha-training-requirements; rechecked on Cornell LII 2026-11-08).",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.134"
+    },
+    {
+      "claim": "29 CFR 1910.120(e)(8): eight hours of refresher training annually for (e)(1) site workers and (e)(4) managers and supervisors (rechecked on Cornell LII 2026-11-08).",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.120"
+    },
+    {
+      "claim": "29 CFR 1910.119(g)(2): refresher training at least every three years, and more often if necessary, to each employee involved in operating a process (rechecked on Cornell LII 2026-11-08).",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.119"
+    },
+    {
+      "claim": "49 CFR 172.704(c): recurrent hazmat training at least once every three years (as recorded on dot-hazmat-employee-training).",
+      "source": "https://www.ecfr.gov/current/title-49/section-172.704"
+    },
+    {
+      "claim": "12 CFR 1008.107(a)(2): at least 8 hours annual NMLS-approved CE including 3 hours federal law, 2 hours ethics, 2 hours nontraditional mortgage lending (as recorded on safe-act-mortgage-loan-originator-continuing-education).",
+      "source": "https://www.ecfr.gov/current/title-12/chapter-X/part-1008/subpart-B/section-1008.107"
+    },
+    {
+      "claim": "5 CFR 930.301: all users exposed to security awareness materials at least annually (as recorded on nist-sp-800-50-security-awareness-training).",
+      "source": "https://www.ecfr.gov/current/title-5/section-930.301"
+    },
+    {
+      "claim": "32 CFR 170.14(c)(4) AT.L3-3.2.1e: training at initial hire, after a significant cyber event and at least annually (as recorded on cmmc-security-awareness-training).",
+      "source": "https://www.ecfr.gov/current/title-32/part-170"
+    },
+    {
+      "claim": "23 NYCRR 500.14(a)(3): periodic, at minimum annual, cybersecurity awareness training including social engineering for all personnel; limited exemptions under 500.19 (as recorded on nydfs-part-500-cybersecurity-training-requirements).",
+      "source": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.14"
+    },
+    {
+      "claim": "California Government Code 12950.1(a)(1): employers with five or more employees; 2 hours supervisors, 1 hour nonsupervisory; every two years (as recorded on california-and-new-york-harassment-training).",
+      "source": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12950.1"
+    },
+    {
+      "claim": "New York Labor Law 201-g(2): training provided to all employees annually (as recorded on california-and-new-york-harassment-training).",
+      "source": "https://www.nysenate.gov/legislation/laws/LAB/201-G"
+    },
+    {
+      "claim": "NYC: employers with 15 or more employees or one or more domestic workers must train annually and retain records for three years (as recorded on california-and-new-york-harassment-training).",
+      "source": "https://www.nyc.gov/site/cchr/law/sexual-harassment-training.page"
+    },
+    {
+      "claim": "PSPF Requirement 0024: security awareness training to personnel, including contractors, at engagement and annually thereafter; non-corporate Commonwealth entities must apply the PSPF (as recorded on pspf-security-awareness-training).",
+      "source": "https://www.protectivesecurity.gov.au/system/files/2026-07/pspf-release-2026_6.pdf"
+    },
+    {
+      "claim": "Aged Care Rules ss 164-35, 165-20 and 165-50: training on incident management, complaints and feedback, and whistleblower systems at least annually, on becoming a worker or responsible person, and when the system changes (as recorded on aged-care-quality-standards-training).",
+      "source": "https://www.legislation.gov.au/F2025L01173/latest/text"
+    },
+    {
+      "claim": "Agency APP Code s 16: privacy training in induction and reasonable steps to provide it annually to staff with access to personal information (as recorded on privacy-act-staff-training-requirements).",
+      "source": "https://www.oaic.gov.au/__data/assets/pdf_file/0019/2872/privacy-australian-government-agencies-governance-app-code-2017.pdf"
+    },
+    {
+      "claim": "Medical Board of Australia: 50 hours CPD per calendar year (as recorded on ahpra-cpd-registration-standards).",
+      "source": "https://www.medicalboard.gov.au/Professional-Performance-Framework/CPD/What--do-I-need-to-do"
+    },
+    {
+      "claim": "Pharmacy Board CPD registration standard: 40 or more CPD credits in each 12 month period ending 30 September (as recorded on pharmacist-cpd-requirements-australia).",
+      "source": "https://www.pharmacyboard.gov.au/documents/default.aspx?record=WD15%2f18507&dbid=AP&chksum=D%2bMNSAe%2fNf9lUN8tv6dT%2fw%3d%3d"
+    },
+    {
+      "claim": "RG 206.23: third party home loan representatives at least 20 hours CPD per year (as recorded on mortgage-broker-best-interests-duty-training).",
+      "source": "https://download.asic.gov.au/media/gmcnpijx/rg206-published-1-april-2020-20221025.pdf"
+    },
+    {
+      "claim": "Standard 3.2.2A: food safety supervisor holds a certificate issued within the preceding 5 years (as recorded on food-safety-standard-3-2-2a-training).",
+      "source": "https://www.legislation.gov.au/F2022L01589/latest/text"
+    },
+    {
+      "claim": "PIC/S Annex 1 paragraph 7.4: aseptic gowning assessment and periodic reassessment at least annually (as recorded on tga-gmp-personnel-training-requirements).",
+      "source": "https://picscheme.org/docview/11333"
+    },
+    {
+      "claim": "RACGP Standards 6th edition F4: CPR training for all staff at least every three years (as recorded on racgp-standards-general-practice-training).",
+      "source": "https://www.racgp.org.au/running-a-practice/practice-standards/standards-6th-edition/standards-6th-edition-hub/induction-training-and-supporting-performance"
+    },
+    {
+      "claim": "DFSA GEN 5.3.19A: at least 15 hours CPD per calendar year for SEO, Compliance Officer and MLRO (as recorded on dfsa-training-and-competence-requirements).",
+      "source": "https://dfsaen.thomsonreuters.com/rulebook/gen-5319a"
+    },
+    {
+      "claim": "DFSA GEN 5.5.14: cybersecurity training at least annually for all relevant employees (as recorded on dfsa-training-and-competence-requirements).",
+      "source": "https://dfsaen.thomsonreuters.com/rulebook/gen-5514"
+    },
+    {
+      "claim": "Register counts computed from the table on 2026-11-08: 28 rows. Annual interval: 16 (1910.1030, 1910.134, 1910.120, FINRA 1240, 5 CFR 930.301, CMMC AT.L3-3.2.1e, NYDFS 500.14, NY 201-g, NYC, ISM-0252, ISM-1565, PSPF 0024, Aged Care Rules, APP Code s 16, PIC/S Annex 1 7.4, DFSA GEN 5.5.14). Hours or credits per year: 6 (SAFE Act, Portugal Art 131, Medical Board, Pharmacy Board, RG 206, DFSA GEN 5.3.19A). Every three years: 4 (1910.119, 1910.178, 49 CFR 172.704, RACGP). Every two years: 1 (California). Five years: 1 (Standard 3.2.2A). Each underlying fact is recorded in the linked regulation page's factCheck.",
+      "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030"
     }
   ]
 }

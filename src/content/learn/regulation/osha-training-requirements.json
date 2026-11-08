@@ -7,7 +7,7 @@
   "shortAnswer": "The Occupational Safety and Health Administration (OSHA) has no single training rule. Training duties sit inside individual OSHA standards in Title 29 of the Code of Federal Regulations, such as hazard communication, lockout/tagout, bloodborne pathogens, respiratory protection and forklifts. Each standard sets its own trigger, content, refresher cycle and records. OSHA also expects all training to be delivered in a language and vocabulary workers understand, and paid for by the employer.",
   "keyTakeaways": [
     "OSHA training duties are hazard specific: they apply when a workplace has the hazard or activity a standard covers, not to every employer by default.",
-    "Refresher cycles differ by standard: bloodborne pathogens and respiratory protection require annual training, forklift operators need a performance evaluation at least every three years, and hazard communication is triggered by new chemical hazards.",
+    "Refresher cycles differ by standard: annual for bloodborne pathogens, respiratory protection and HAZWOPER (8 hours), at least every three years for process safety management refresher training and forklift operator evaluations, and event based for hazard communication and lockout/tagout.",
     "OSHA's 2010 Training Standards Policy Statement says training must be presented in a manner, language and vocabulary employees can understand.",
     "The voluntary OSHA Outreach 10-hour and 30-hour courses do not meet the training requirements of any OSHA standard, although some states and cities require them.",
     "As at September 2026, OSHA's maximum penalty is $16,550 per serious violation and $165,514 per willful or repeated violation."
@@ -117,6 +117,78 @@
         {
           "type": "p",
           "text": "The construction rule in [29 CFR 1926.21(b)(2)](https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.21) is the closest OSHA has to a general training duty: the employer \"shall instruct each employee in the recognition and avoidance of unsafe conditions and the regulations applicable to his work environment to control or eliminate any hazards or other exposure to illness or injury.\""
+        }
+      ]
+    },
+    {
+      "id": "refresher-frequency-by-standard",
+      "heading": "How often must OSHA training be repeated under each standard?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It depends on the standard: some set a fixed interval (annual, or at least every three years) and others require retraining only when something changes. The table sets out the refresher rule in seven commonly applicable general industry standards, checked against the current regulatory text as at November 2026. Where a standard sets both an interval and event triggers, the interval is a floor, not a substitute for the triggers."
+        },
+        {
+          "type": "table",
+          "caption": "Federal OSHA refresher frequency by standard (29 CFR Part 1910, as at November 2026)",
+          "head": [
+            "Standard and paragraph",
+            "Initial training",
+            "Fixed refresher interval",
+            "Event triggers for retraining"
+          ],
+          "rows": [
+            [
+              "Hazard communication, [1910.1200(h)(1)](https://www.law.cornell.edu/cfr/text/29/1910.1200)",
+              "At the time of initial assignment",
+              "None set",
+              "Whenever a new chemical hazard the employees have not previously been trained about is introduced into their work area"
+            ],
+            [
+              "Bloodborne pathogens, [1910.1030(g)(2)](https://www.law.cornell.edu/cfr/text/29/1910.1030)",
+              "At the time of initial assignment to tasks with occupational exposure",
+              "At least annually, within one year of the previous training",
+              "Additional training when changes to tasks or procedures affect the employee's occupational exposure (may cover only the new exposures)"
+            ],
+            [
+              "Lockout/tagout, [1910.147(c)(7)](https://www.law.cornell.edu/cfr/text/29/1910.147)",
+              "Training for authorized, affected and other employees under (c)(7)(i)",
+              "None set",
+              "Change in job assignment, machines, equipment or processes that present a new hazard, or energy control procedures; deviations or inadequacies found by a periodic inspection or otherwise known (c)(7)(iii)"
+            ],
+            [
+              "Powered industrial trucks, [1910.178(l)(4)](https://www.law.cornell.edu/cfr/text/29/1910.178)",
+              "Before the operator is permitted to operate the truck, except for training purposes",
+              "Performance evaluation at least once every three years (l)(4)(iii)",
+              "Refresher training after unsafe operation, an accident or near miss, a failed evaluation, assignment to a different type of truck, or a workplace change affecting safe operation (l)(4)(ii)"
+            ],
+            [
+              "Respiratory protection, [1910.134(k)(5)](https://www.law.cornell.edu/cfr/text/29/1910.134)",
+              "Before the employee is required to use a respirator (k)(3)",
+              "Annually",
+              "Workplace or respirator changes that make training obsolete, inadequate knowledge or skill, or any other situation where retraining appears necessary"
+            ],
+            [
+              "Process safety management, [1910.119(g)(2)](https://www.law.cornell.edu/cfr/text/29/1910.119)",
+              "Before an employee is involved in operating a newly assigned process (g)(1)",
+              "At least every three years, and more often if necessary; frequency set in consultation with the operating employees",
+              "Employees whose job tasks are affected by a process change must be informed of, and trained in, the change before start-up (1910.119(l)(3)); understanding of training is verified and recorded (g)(3)"
+            ],
+            [
+              "HAZWOPER cleanup sites, [1910.120(e)(8)](https://www.law.cornell.edu/cfr/text/29/1910.120)",
+              "40 hours off site plus three days supervised field experience for general site workers (e)(3)(i), before engaging in hazardous waste operations",
+              "Eight hours of refresher training annually for site workers and their managers and supervisors",
+              "Refresher content includes critiques of incidents from the past year that serve as training examples"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Two points are easy to miss. First, the annual bloodborne pathogens cycle runs from each employee's previous training date (\"within one year of their previous training\"), so a single calendar date for everyone can put late joiners out of compliance. Second, the process safety management interval is a maximum: the standard says refresher training \"shall be provided at least every three years, and more often if necessary\", and the employer must document the employee's identity, the training date and how understanding was verified. Track each requirement's own clock, as described in [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles)."
+        },
+        {
+          "type": "p",
+          "text": "HAZWOPER has further refresher rules outside paragraph (e). Workers at treatment, storage and disposal facilities receive eight hours of refresher training annually under 1910.120(p)(7), and emergency responders trained under paragraph (q) receive annual refresher training or demonstrate competency at least yearly. Check which paragraph covers each role before building the schedule."
         }
       ]
     },
@@ -262,6 +334,14 @@
     {
       "q": "Do temporary or staffing agency workers need OSHA training?",
       "a": "Yes. The standards protect employees regardless of how they are hired. In practice the staffing agency and the host employer share responsibility, and the host employer is usually best placed to deliver site-specific hazard training. Written agreements should state who trains on what and who keeps the records."
+    },
+    {
+      "q": "How often is OSHA forklift training required?",
+      "a": "OSHA does not require a fixed annual forklift course. Under 29 CFR 1910.178(l)(4)(iii), each operator's performance must be evaluated at least once every three years. Refresher training is required sooner when an operator is seen operating unsafely, is involved in an accident or near miss, fails an evaluation, is assigned a different type of truck, or when workplace conditions change in a way that affects safe operation."
+    },
+    {
+      "q": "How often is HAZWOPER and process safety refresher training required?",
+      "a": "HAZWOPER site workers and their supervisors at cleanup sites need eight hours of refresher training annually under 29 CFR 1910.120(e)(8). Employees operating a process covered by the process safety management standard need refresher training at least every three years, and more often if necessary, under 1910.119(g)(2), with the frequency set in consultation with those employees."
     }
   ],
   "sources": [
@@ -314,6 +394,21 @@
       "title": "29 CFR 1926.21 Safety training and education",
       "publisher": "Electronic Code of Federal Regulations",
       "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.21"
+    },
+    {
+      "title": "29 CFR 1910.119 Process safety management of highly hazardous chemicals",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/29/1910.119"
+    },
+    {
+      "title": "29 CFR 1910.120 Hazardous waste operations and emergency response",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/29/1910.120"
+    },
+    {
+      "title": "29 CFR 1910.134 Respiratory protection",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/29/1910.134"
     }
   ],
   "related": [
@@ -335,7 +430,7 @@
     }
   ],
   "published": "2026-09-28",
-  "updated": "2026-09-28",
+  "updated": "2026-11-08",
   "release": 2,
   "factCheck": [
     {
@@ -385,6 +480,34 @@
     {
       "claim": "1926.21(b)(2) text: instruct each employee in recognition and avoidance of unsafe conditions.",
       "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1926/subpart-C/section-1926.21"
+    },
+    {
+      "claim": "1910.1200(h)(1) (checked 2026-11-08): training at the time of initial assignment and whenever a new chemical hazard the employees have not previously been trained about is introduced; no fixed refresher interval.",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.1200"
+    },
+    {
+      "claim": "1910.1030(g)(2)(ii)(A) and (B): training at initial assignment and at least annually thereafter; (g)(2)(iv) annual training within one year of previous training; (g)(2)(v) additional training when task or procedure changes affect exposure, may be limited to new exposures (checked 2026-11-08).",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.1030"
+    },
+    {
+      "claim": "1910.147(c)(7)(iii)(A) and (B): retraining on change in job assignments, machines, equipment or processes presenting a new hazard, or change in energy control procedures; and when a periodic inspection reveals, or the employer has reason to believe, there are deviations or inadequacies; no fixed interval (checked 2026-11-08).",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.147"
+    },
+    {
+      "claim": "1910.178(l)(4)(ii)(A) to (E): refresher triggers (unsafe operation, accident or near miss, evaluation showing unsafe operation, different type of truck, workplace condition change); (l)(4)(iii): evaluation of each operator's performance at least once every three years (checked 2026-11-08).",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.178"
+    },
+    {
+      "claim": "1910.134(k)(3): training before requiring the employee to use a respirator; (k)(5): retraining annually and when changes, inadequacies or other situations arise (checked 2026-11-08).",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.134"
+    },
+    {
+      "claim": "1910.119(g)(1)(i): initial training before operating a newly assigned process; (g)(2): refresher training at least every three years, and more often if necessary, frequency determined in consultation with employees; (g)(3): record of employee identity, date of training and means used to verify understanding. (l)(3): employees whose job tasks will be affected by a process change informed of, and trained in, the change prior to start-up (checked 2026-11-08).",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.119"
+    },
+    {
+      "claim": "1910.120(e)(1)(i): training before engaging in hazardous waste operations; (e)(3)(i): general site workers minimum 40 hours off site and three days supervised field experience; (e)(8): eight hours of refresher training annually for (e)(1) employees and (e)(4) managers and supervisors, including critique of incidents in the past year; (p)(7)(i) and (ii): TSD refresher eight hours annually; (q)(8)(i): emergency responders annual refresher or demonstrate competency at least yearly.",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.120"
     }
   ]
 }

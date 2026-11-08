@@ -10,7 +10,7 @@
     "Regulation (EU) 2026/1744 (the Digital Omnibus on AI) replaced Article 4: organizations must take measures to support AI literacy, with no guaranteed level per individual.",
     "National market surveillance authorities supervise and enforce Article 4 from August 2026; penalties are set in national law.",
     "No certificate is required. The European Commission says an internal record of training and other initiatives is enough.",
-    "Deployers of high-risk AI must also assign human oversight to people with the necessary competence, training and authority (Article 26(2))."
+    "Deployers of high-risk AI must assign human oversight to people with the necessary competence, training, authority and support (Article 26(2)); after the Digital Omnibus this applies from December 2, 2027 for Annex III systems."
   ],
   "jurisdiction": "European Union",
   "regulator": "National market surveillance authorities in each EU Member State, supported by the European Commission AI Office and the European Artificial Intelligence Board",
@@ -228,6 +228,51 @@
       ]
     },
     {
+      "id": "article-26-human-oversight",
+      "heading": "What does Article 26(2) require of deployers of high-risk AI systems?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Article 26(2) requires deployers of high-risk AI systems to give human oversight only to people who are competent, trained and authorized to exercise it. Unlike Article 4, this is an outcome standard for named individuals. The text, which the Digital Omnibus did not amend, reads:"
+        },
+        {
+          "type": "callout",
+          "title": "Article 26(2), Regulation (EU) 2024/1689",
+          "text": "\"Deployers shall assign human oversight to natural persons who have the necessary competence, training and authority, as well as the necessary support.\""
+        },
+        {
+          "type": "p",
+          "text": "As at November 2026, this duty is not yet applicable. Article 26 sits in Chapter III, Section 3 of the [Artificial Intelligence Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj), which originally applied from August 2, 2026. [Regulation (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj) replaced Article 113(3)(c), so Sections 1 to 3 of Chapter III now apply from **December 2, 2027** for high-risk systems listed in Annex III (such as AI used in employment, education, credit scoring and essential services) and from **August 2, 2028** for AI systems covered by the Annex I product legislation."
+        },
+        {
+          "type": "p",
+          "text": "The amended Article 111(2) also limits the rules for high-risk systems already on the market before that date to systems that later undergo significant design changes, while systems intended for public authorities must comply by August 2, 2030."
+        },
+        {
+          "type": "p",
+          "text": "Article 14(4) indicates what that competence has to cover. Providers must deliver high-risk systems so that the people assigned to oversight are enabled, as appropriate and proportionate, to:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "properly understand the system's relevant capacities and limitations and monitor its operation, including detecting anomalies, dysfunctions and unexpected performance;",
+            "remain aware of automation bias, the tendency to rely or over-rely on the system's output;",
+            "correctly interpret the system's output, using the interpretation tools and methods available;",
+            "decide not to use the system in a particular situation, or disregard, override or reverse its output;",
+            "intervene in or interrupt the system through a stop button or similar procedure."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Infringing deployer obligations under Article 26 can lead to administrative fines of up to EUR 15,000,000 or 3% of total worldwide annual turnover, whichever is higher (Article 99(4)(e)); for small and medium-sized enterprises, and since the Omnibus also small mid-cap enterprises, the lower of the two applies."
+        },
+        {
+          "type": "p",
+          "text": "Article 26(3) leaves deployers free to organize their own resources to implement the oversight measures the provider indicates. In practice, that means a named overseer per system, a [competency framework](/glossary/competency-framework) for the oversight role built on the Article 14(4) capabilities, assessment against it rather than [completion tracking](/compare/completion-tracking-vs-competency-verification) alone, and a documented grant of authority to override or stop the system. See also [human in the loop](/glossary/human-in-the-loop)."
+        }
+      ]
+    },
+    {
       "id": "evidence",
       "heading": "What records should an organization keep?",
       "blocks": [
@@ -282,6 +327,10 @@
     {
       "q": "Who enforces Article 4?",
       "a": "National market surveillance authorities in each Member State, not the European Commission's AI Office. The AI Office and the European Artificial Intelligence Board support consistent application, and the Board adopts recommendations on AI literacy under Article 4(3)."
+    },
+    {
+      "q": "When do deployers have to meet the Article 26(2) human oversight requirement?",
+      "a": "From December 2, 2027 for high-risk AI systems listed in Annex III, and from August 2, 2028 for high-risk systems covered by Annex I product legislation. Regulation (EU) 2026/1744 moved these dates from the original August 2, 2026. Article 4 AI literacy already applies, so oversight competence can be built on the literacy program now."
     }
   ],
   "sources": [
@@ -330,7 +379,7 @@
     }
   ],
   "published": "2026-09-28",
-  "updated": "2026-09-28",
+  "updated": "2026-11-08",
   "release": 3,
   "factCheck": [
     {
@@ -360,6 +409,22 @@
     {
       "claim": "Digital Omnibus on AI proposal published November 19, 2025",
       "source": "https://digital-strategy.ec.europa.eu/en/library/digital-omnibus-ai-regulation-proposal"
+    },
+    {
+      "claim": "Article 26(2) full text (checked on EUR-Lex 2026-11-08): 'Deployers shall assign human oversight to natural persons who have the necessary competence, training and authority, as well as the necessary support.' Article 26(3): without prejudice to the deployer's freedom to organise its own resources and activities to implement provider-indicated oversight measures. Article 26 is in Chapter III, Section 3. Regulation (EU) 2026/1744 contains no amendment to Article 26.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "claim": "Article 14(4)(a) to (e): persons assigned human oversight are enabled to understand capacities and limitations and monitor operation, remain aware of automation bias, correctly interpret output, decide not to use or disregard, override or reverse output, and intervene or interrupt via a stop button or similar procedure.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "claim": "Article 99(4)(e): non-compliance with obligations of deployers pursuant to Article 26 subject to fines up to EUR 15 000 000 or 3% of total worldwide annual turnover, whichever is higher; Article 99(6): for SMEs, whichever is lower.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "claim": "Regulation (EU) 2026/1744 (checked on EUR-Lex 2026-11-08): replaces Article 113(3)(c) so Chapter III Sections 1, 2 and 3 (except Article 6(5)) apply from 2 December 2027 for Annex III systems and 2 August 2028 for Annex I systems; recital notes the original date was 2 August 2026; replaces Article 111(2) (pre-existing high-risk systems covered only if significantly changed after the Chapter III application date; public authority systems by 2 August 2030); inserts Article 99(4)(da) and 99(6a) applying the lower fine cap to SMCs.",
+      "source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     }
   ]
 }
