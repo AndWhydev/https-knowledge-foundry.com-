@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, useMotionValue, useSpring, useReducedMotion } from "motion/react";
+import { motion, useMotionValue, useSpring } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 import { useRef, type ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
@@ -18,15 +19,11 @@ export function Magnetic({
   strength?: number;
 }) {
   const ref = useRef<HTMLDivElement>(null);
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   const sx = useSpring(x, { stiffness: 240, damping: 22, mass: 0.6 });
   const sy = useSpring(y, { stiffness: 240, damping: 22, mass: 0.6 });
-
-  if (reduce) {
-    return <div className={cn("inline-flex", className)}>{children}</div>;
-  }
 
   return (
     <motion.div
@@ -34,6 +31,8 @@ export function Magnetic({
       className={cn("inline-flex", className)}
       style={{ x: sx, y: sy }}
       onMouseMove={(e) => {
+        // Same element either way so SSR and hydration match; reduced motion just never drifts.
+        if (reduce) return;
         const rect = ref.current?.getBoundingClientRect();
         if (!rect) return;
         const relX = e.clientX - (rect.left + rect.width / 2);

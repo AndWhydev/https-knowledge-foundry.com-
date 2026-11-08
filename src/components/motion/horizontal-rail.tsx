@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, useReducedMotion, useScroll, useTransform } from "motion/react";
+import { motion, useScroll, useTransform } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 import { useEffect, useRef, useState, type ReactNode } from "react";
 
 /**
@@ -17,7 +18,7 @@ export function HorizontalRail({
   children: ReactNode;
   fallbackClassName?: string;
 }) {
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   const [desktop, setDesktop] = useState(false);
 
   useEffect(() => {

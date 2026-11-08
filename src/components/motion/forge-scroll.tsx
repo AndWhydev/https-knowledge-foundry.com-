@@ -1,7 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { motion, AnimatePresence, useReducedMotion, useScroll, useMotionValueEvent, useTransform, type MotionValue } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
+import { motion, AnimatePresence, useScroll, useMotionValueEvent, useTransform, type MotionValue } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import { Container, Eyebrow } from "@/components/ui/container";
 
@@ -31,7 +32,7 @@ export function ForgeScroll({
   const ref = useRef<HTMLElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
   const target = useRef(0);
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   const [load, setLoad] = useState(false);
   const [ready, setReady] = useState(false);
   const [active, setActive] = useState(0);

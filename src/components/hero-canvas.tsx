@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { useReducedMotion } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
+
 
 /**
  * Award-tier interactive hero background.
@@ -16,7 +17,7 @@ import { useReducedMotion } from "motion/react";
  */
 export function HeroCanvas() {
   const ref = useRef<HTMLCanvasElement>(null);
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
 
   useEffect(() => {
     const canvas = ref.current;

@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, useMotionValue, useSpring, useReducedMotion } from "motion/react";
+import { motion, useMotionValue, useSpring } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 import { useEffect, useState } from "react";
 
 /**
@@ -17,7 +18,7 @@ import { useEffect, useState } from "react";
  * pointer, wrap this in `body { cursor: none }` and remove the fallback.
  */
 export function CustomCursor() {
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   const [enabled, setEnabled] = useState(false);
   const [hovering, setHovering] = useState<"default" | "interactive" | "text">("default");
 

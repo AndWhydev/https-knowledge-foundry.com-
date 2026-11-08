@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, useMotionValue, useSpring, useTransform, useReducedMotion } from "motion/react";
+import { motion, useMotionValue, useSpring, useTransform } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 import { useRef, type ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
@@ -18,7 +19,7 @@ export function TiltCard({
   maxTilt?: number;
 }) {
   const ref = useRef<HTMLDivElement>(null);
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   const px = useMotionValue(0.5);
   const py = useMotionValue(0.5);
   const sx = useSpring(px, { stiffness: 220, damping: 22 });
@@ -27,6 +28,12 @@ export function TiltCard({
   const ry = useTransform(sx, [0, 1], [-maxTilt, maxTilt]);
   const gx = useTransform(sx, [0, 1], ["0%", "100%"]);
   const gy = useTransform(sy, [0, 1], ["0%", "100%"]);
+
+  // Every hook runs before the reduced-motion branch so hook order never changes.
+  const glare = useTransform(
+    [gx, gy] as unknown as [typeof gx, typeof gy],
+    ([x, y]) => `radial-gradient(400px circle at ${x} ${y}, rgba(239,103,4,0.14), transparent 55%)`,
+  );
 
   if (reduce) {
     return <div className={className}>{children}</div>;
@@ -53,11 +60,7 @@ export function TiltCard({
         aria-hidden
         className="pointer-events-none absolute inset-0 rounded-[inherit] opacity-0 group-hover:opacity-100 transition-opacity duration-500 mix-blend-overlay"
         style={{
-          background: useTransform(
-            [gx, gy] as unknown as [typeof gx, typeof gy],
-            ([x, y]) =>
-              `radial-gradient(400px circle at ${x} ${y}, rgba(239,103,4,0.14), transparent 55%)`,
-          ),
+          background: glare,
         }}
       />
     </motion.div>

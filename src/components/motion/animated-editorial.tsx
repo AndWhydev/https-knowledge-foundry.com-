@@ -1,7 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { motion, useScroll, useTransform, useReducedMotion, useSpring } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
+import { motion, useScroll, useTransform, useSpring } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/cn";
 
@@ -52,7 +53,7 @@ export function AnimatedEditorial({
   sizes?: string;
 }) {
   const meta = captions[src];
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
 

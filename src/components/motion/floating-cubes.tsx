@@ -1,13 +1,14 @@
 "use client";
 
-import { motion, useReducedMotion } from "motion/react";
+import { motion } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 
 /**
  * Ambient decorative isometric cubes floating behind hero content.
  * Deliberately subtle — deep-parked opacity, slow drift.
  */
 export function FloatingCubes({ className }: { className?: string }) {
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   if (reduce) return null;
 
   const cubes = [

@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, useReducedMotion } from "motion/react";
+import { motion } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/cn";
 
@@ -21,7 +22,7 @@ export function HeroTerminal({
   title?: string;
   lines: { text: string; color?: "muted" | "ink" | "forge" | "ok"; delay?: number }[];
 }) {
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   const [shown, setShown] = useState(reduce ? lines.length : 0);
 
   useEffect(() => {

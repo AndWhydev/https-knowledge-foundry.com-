@@ -1,10 +1,11 @@
 "use client";
 
-import { motion, useScroll, useSpring, useReducedMotion } from "motion/react";
+import { motion, useScroll, useSpring } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 
 /** Ultra-thin scroll-progress bar pinned to the top of the viewport. */
 export function ScrollProgress() {
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   const { scrollYProgress } = useScroll();
   const width = useSpring(scrollYProgress, { stiffness: 140, damping: 30, mass: 0.2 });
   if (reduce) return null;

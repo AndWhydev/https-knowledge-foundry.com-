@@ -1,19 +1,18 @@
 "use client";
 
-import { motion, useReducedMotion, useScroll, useTransform, type MotionValue } from "motion/react";
+import { motion, useScroll, useTransform, type MotionValue } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 import { useRef } from "react";
 
 /**
  * Paragraph that lights up word by word as it crosses the viewport.
  * Words start dim and reach full ink in reading order, tied to scroll.
- * Reduced motion renders plain text.
+ * Reduced motion keeps the same markup (so hydration matches) at full ink.
  */
 export function ScrollWords({ text, className }: { text: string; className?: string }) {
   const ref = useRef<HTMLParagraphElement>(null);
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start 0.9", "end 0.45"] });
-
-  if (reduce) return <p className={className}>{text}</p>;
 
   const words = text.split(" ");
   return (
@@ -22,7 +21,7 @@ export function ScrollWords({ text, className }: { text: string; className?: str
       <span className="sr-only">{text}</span>
       <span aria-hidden>
         {words.map((w, i) => (
-          <Word key={i} progress={scrollYProgress} range={[i / words.length, (i + 1) / words.length]}>
+          <Word key={i} progress={scrollYProgress} range={[i / words.length, (i + 1) / words.length]} still={!!reduce}>
             {w}
           </Word>
         ))}
@@ -31,8 +30,8 @@ export function ScrollWords({ text, className }: { text: string; className?: str
   );
 }
 
-function Word({ children, progress, range }: { children: string; progress: MotionValue<number>; range: [number, number] }) {
-  const opacity = useTransform(progress, range, [0.18, 1]);
+function Word({ children, progress, range, still }: { children: string; progress: MotionValue<number>; range: [number, number]; still: boolean }) {
+  const opacity = useTransform(progress, range, still ? [1, 1] : [0.18, 1]);
   return (
     <>
       <motion.span style={{ opacity }}>{children}</motion.span>{" "}

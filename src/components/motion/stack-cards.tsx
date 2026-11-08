@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, useReducedMotion, useScroll, useTransform, type MotionValue } from "motion/react";
+import { motion, useScroll, useTransform, type MotionValue } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 import { Children, useEffect, useRef, useState, type ReactNode } from "react";
 
 /**
@@ -10,7 +11,7 @@ import { Children, useEffect, useRef, useState, type ReactNode } from "react";
  */
 export function StackCards({ children, top = 112, step = 18 }: { children: ReactNode; top?: number; step?: number }) {
   const ref = useRef<HTMLDivElement>(null);
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   // Stacking only happens at lg; below that the cards are a flat list and must stay full size.
   const [desktop, setDesktop] = useState(false);
   useEffect(() => {

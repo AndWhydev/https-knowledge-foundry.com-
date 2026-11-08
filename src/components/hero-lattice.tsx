@@ -1,13 +1,14 @@
 "use client";
 
-import { motion, useReducedMotion } from "motion/react";
+import { motion } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 
 /**
  * Isometric knowledge lattice — 3D cube grid rendered in SVG.
  * Cubes light up in sequence to convey "structure before content".
  */
 export function HeroLattice({ className }: { className?: string }) {
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
 
   // 4 x 4 grid of isometric cubes
   const cubes: { row: number; col: number; forge: boolean; delay: number }[] = [];

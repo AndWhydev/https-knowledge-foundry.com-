@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, useReducedMotion } from "motion/react";
+import { motion } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 import { FileJson, ShieldCheck, ClipboardCheck, GitBranch, Fingerprint, LineChart } from "lucide-react";
 import { Container, Section, Eyebrow } from "@/components/ui/container";
 import { SplitText } from "@/components/motion/split-text";
@@ -118,7 +119,7 @@ function BentoCard({
   compact?: boolean;
   wide?: boolean;
 }) {
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   return (
     <motion.div
       whileHover={reduce ? undefined : { y: -3 }}

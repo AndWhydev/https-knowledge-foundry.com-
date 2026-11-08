@@ -1,12 +1,8 @@
 "use client";
 
-import { motion, useReducedMotion, type Variants } from "motion/react";
+import { motion, type Variants } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 import type { ReactNode } from "react";
-
-const defaultVariants: Variants = {
-  hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0 },
-};
 
 export function Reveal({
   children,
@@ -27,11 +23,11 @@ export function Reveal({
   once?: boolean;
   amount?: number;
 }) {
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   const MotionTag = motion[Tag] as typeof motion.div;
-  const variants: Variants = reduce
-    ? { hidden: { opacity: 0 }, visible: { opacity: 1 } }
-    : { hidden: { opacity: 0, y }, visible: { opacity: 1, y: 0 } };
+  // Variants stay identical on server and client (useReducedMotion is null during SSR);
+  // reduced motion gets an instant transition instead of different markup.
+  const variants: Variants = { hidden: { opacity: 0, y }, visible: { opacity: 1, y: 0 } };
   return (
     <MotionTag
       data-reveal=""
@@ -40,7 +36,7 @@ export function Reveal({
       whileInView="visible"
       viewport={{ once, amount }}
       variants={variants}
-      transition={{ duration, delay, ease: [0.25, 1, 0.5, 1] }}
+      transition={reduce ? { duration: 0 } : { duration, delay, ease: [0.25, 1, 0.5, 1] }}
     >
       {children}
     </MotionTag>
@@ -58,7 +54,7 @@ export function RevealStagger({
   gap?: number;
   as?: "div" | "ul" | "ol";
 }) {
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   const MotionTag = motion[Tag] as typeof motion.div;
   return (
     <MotionTag
@@ -89,14 +85,14 @@ export function RevealItem({
   y?: number;
   as?: "div" | "li" | "span" | "p" | "h3";
 }) {
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   const MotionTag = motion[Tag] as typeof motion.div;
   return (
     <MotionTag
       data-reveal=""
       className={className}
-      variants={reduce ? defaultVariants : { hidden: { opacity: 0, y }, visible: { opacity: 1, y: 0 } }}
-      transition={{ duration: 0.6, ease: [0.25, 1, 0.5, 1] }}
+      variants={{ hidden: { opacity: 0, y }, visible: { opacity: 1, y: 0 } }}
+      transition={reduce ? { duration: 0 } : { duration: 0.6, ease: [0.25, 1, 0.5, 1] }}
     >
       {children}
     </MotionTag>

@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, AnimatePresence, useReducedMotion } from "motion/react";
+import { motion, AnimatePresence } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 import { useEffect, useState } from "react";
 import { Container, Section, Eyebrow } from "@/components/ui/container";
 import { Reveal } from "@/components/motion/reveal";
@@ -22,7 +23,7 @@ const steps: Step[] = [
 
 export function CompactProcess() {
   const [active, setActive] = useState(0);
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
 
   // Auto-cycle when idle
   useEffect(() => {
@@ -170,7 +171,7 @@ export function CompactProcess() {
 }
 
 function StageCanvas({ active }: { active: number }) {
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
 
   // Layer visibility per step
   const layerOpacity = (i: number, activeStep: number) => {
@@ -281,8 +282,9 @@ function StageCanvas({ active }: { active: number }) {
             cy={c.y}
             r={c.r}
             fill="#8b93a3"
-            animate={reduce ? undefined : { r: [c.r, c.r * 1.15, c.r] }}
-            transition={{ duration: 2.2, repeat: Infinity, ease: "easeInOut", delay: i * 0.12 }}
+            // Always animate r (to a fixed value under reduced motion) so it is never left unset.
+            animate={{ r: reduce ? c.r : [c.r, c.r * 1.15, c.r] }}
+            transition={reduce ? { duration: 0 } : { duration: 2.2, repeat: Infinity, ease: "easeInOut", delay: i * 0.12 }}
           />
         ))}
       </motion.g>

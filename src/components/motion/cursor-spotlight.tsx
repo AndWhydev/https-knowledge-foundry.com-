@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, useMotionValue, useSpring, useReducedMotion } from "motion/react";
+import { motion, useMotionValue, useSpring } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 import { useEffect, useRef } from "react";
 import { cn } from "@/lib/cn";
 
@@ -18,7 +19,7 @@ export function CursorSpotlight({
   size?: number;
 }) {
   const ref = useRef<HTMLDivElement>(null);
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   const x = useMotionValue(-9999);
   const y = useMotionValue(-9999);
   const sx = useSpring(x, { stiffness: 90, damping: 24, mass: 0.4 });

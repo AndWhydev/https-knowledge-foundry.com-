@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, useMotionValue, useSpring, useTransform, useReducedMotion } from "motion/react";
+import { motion, useMotionValue, useSpring, useTransform } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 import { useEffect, useRef } from "react";
 
 /**
@@ -15,7 +16,7 @@ import { useEffect, useRef } from "react";
  */
 export function HeroLattice3D({ className }: { className?: string }) {
   const ref = useRef<HTMLDivElement>(null);
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
 
   // Cursor position tracked across the ENTIRE hero section (not just the
   // lattice container), so moving the mouse anywhere in the hero spins it.
@@ -165,9 +166,12 @@ export function HeroLattice3D({ className }: { className?: string }) {
               return (
                 <g key={`${c.row}-${c.col}`} transform={`translate(${x} ${y})`}>
                   <g
+                    // Animation is always in the markup so SSR and hydration match;
+                    // globals.css switches it off for reduced motion.
+                    className="hl-motion"
                     style={{
                       filter: c.forge ? "url(#fglow)" : undefined,
-                      animation: reduce ? undefined : `hlDrop 0.6s ${c.delay}s cubic-bezier(0.25,1,0.5,1) both`,
+                      animation: `hlDrop 0.6s ${c.delay}s cubic-bezier(0.25,1,0.5,1) both`,
                     }}
                   >
                   {/* top */}
@@ -204,10 +208,10 @@ export function HeroLattice3D({ className }: { className?: string }) {
             })}
 
           {/* Ember particles from the top-right forge cells */}
-          {!reduce &&
-            Array.from({ length: 6 }).map((_, i) => (
+          {Array.from({ length: 6 }).map((_, i) => (
               <motion.circle
                 key={i}
+                className="hl-motion-hide"
                 cx={40 + i * 12}
                 cy={20}
                 r="1.4"

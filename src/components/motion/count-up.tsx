@@ -1,6 +1,7 @@
 "use client";
 
-import { useInView, useMotionValue, useSpring, useReducedMotion } from "motion/react";
+import { useInView, useMotionValue, useSpring } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 import { useEffect, useRef, useState } from "react";
 
 /**
@@ -25,7 +26,7 @@ export function CountUp({
 }) {
   const ref = useRef<HTMLSpanElement>(null);
   const inView = useInView(ref, { once: true, amount: 0.6 });
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   const mv = useMotionValue(0);
   const sv = useSpring(mv, {
     stiffness: 60,

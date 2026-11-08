@@ -199,3 +199,13 @@ html:not(.kf-hydrated) main [data-reveal] {
     animation-delay: 0s;
   }
 }
+
+/* Hero lattice: markup is identical for everyone; reduced motion drops the drop-in and embers. */
+@media (prefers-reduced-motion: reduce) {
+  .hl-motion {
+    animation: none !important;
+  }
+  .hl-motion-hide {
+    display: none;
+  }
+}

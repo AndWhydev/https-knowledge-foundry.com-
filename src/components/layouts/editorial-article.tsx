@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { motion, useScroll, useSpring, useReducedMotion } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
+import { motion, useScroll, useSpring } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import { ArrowLeft, ArrowUpRight, Clock, Calendar } from "lucide-react";
 import { Container } from "@/components/ui/container";
@@ -38,7 +39,7 @@ export function EditorialArticle({
   children: ReactNode;
   related?: { title: string; href: string; eyebrow: string }[];
 }) {
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, { stiffness: 140, damping: 30, mass: 0.2 });
 

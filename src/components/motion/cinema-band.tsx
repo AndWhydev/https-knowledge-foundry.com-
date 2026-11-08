@@ -1,7 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { motion, useReducedMotion, useScroll, useTransform } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
+import { motion, useScroll, useTransform } from "motion/react";
 import { useEffect, useRef, useState, type ReactNode } from "react";
 
 /**
@@ -12,7 +13,7 @@ import { useEffect, useRef, useState, type ReactNode } from "react";
  */
 export function CinemaBand({ src, poster, children }: { src: string; poster: string; children: ReactNode }) {
   const ref = useRef<HTMLElement>(null);
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   const [load, setLoad] = useState(false);
   const [playing, setPlaying] = useState(false);
 

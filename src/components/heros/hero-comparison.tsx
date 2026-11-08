@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, useReducedMotion } from "motion/react";
+import { motion } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 import { cn } from "@/lib/cn";
 import { X, Check } from "lucide-react";
 
@@ -21,7 +22,7 @@ export function HeroComparison({
   before: { title: string; items: string[] };
   after: { title: string; items: string[] };
 }) {
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
 
   return (
     <div className={cn("relative", className)}>

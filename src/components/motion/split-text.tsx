@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, useReducedMotion, type Variants } from "motion/react";
+import { motion, type Variants } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 import { Fragment, useEffect, useState, type ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
@@ -28,7 +29,7 @@ export function SplitText({
   stagger?: number;
   y?: number;
 }) {
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   const [mounted, setMounted] = useState(false);
   const [forceVisible, setForceVisible] = useState(false);
   useEffect(() => {

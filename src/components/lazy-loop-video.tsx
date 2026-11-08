@@ -1,8 +1,9 @@
 "use client";
 
 import Image from "next/image";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 import { useEffect, useRef, useState } from "react";
-import { useReducedMotion } from "motion/react";
+
 
 /**
  * Decorative looping video that costs nothing until it matters.
@@ -24,7 +25,7 @@ export function LazyLoopVideo({
   liveLabel?: string;
 }) {
   const ref = useRef<HTMLDivElement>(null);
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   const [load, setLoad] = useState(false);
   const [playing, setPlaying] = useState(false);
 

@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, AnimatePresence, useReducedMotion, useInView } from "motion/react";
+import { motion, AnimatePresence, useInView } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowRight, ArrowDown, Check, Layers3, Fingerprint, MousePointerClick, Sparkles } from "lucide-react";
 import Link from "next/link";
@@ -107,7 +108,7 @@ const scenarios: Scenario[] = [
 type Phase = "typing" | "extracting" | "structuring" | "verifying" | "complete";
 
 export function FrameworkDemo() {
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   // Only run the scripted loop while the demo is on screen; it re-renders every
   // few milliseconds while typing, which is wasted work (and hydration-time jank
   // on phones) when nobody can see it.

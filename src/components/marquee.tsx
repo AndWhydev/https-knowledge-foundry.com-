@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, useReducedMotion } from "motion/react";
+import { motion } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 import type { ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
@@ -13,7 +14,7 @@ export function Marquee({
   duration?: number;
   className?: string;
 }) {
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   const doubled = [...items, ...items];
   if (reduce) {
     return (

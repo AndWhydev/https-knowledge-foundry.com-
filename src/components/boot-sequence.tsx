@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, AnimatePresence, useReducedMotion } from "motion/react";
+import { motion, AnimatePresence } from "motion/react";
+import { useReducedMotionSafe } from "@/lib/use-reduced-motion-safe";
 import { useEffect, useState } from "react";
 import { LogoMark } from "@/components/logo";
 
@@ -14,7 +15,7 @@ import { LogoMark } from "@/components/logo";
  * SSR (mounted gate).
  */
 export function BootSequence() {
-  const reduce = useReducedMotion();
+  const reduce = useReducedMotionSafe();
   const [phase, setPhase] = useState<"init" | "line1" | "line2" | "line3" | "ready" | "gone">("init");
   const [visible, setVisible] = useState(true);
   const [mounted, setMounted] = useState(false);
