@@ -1,0 +1,157 @@
+{
+  "slug": "safety-management-system",
+  "kind": "glossary",
+  "title": "What is a safety management system (SMS)?",
+  "seoTitle": "Safety management system: definition",
+  "description": "A safety management system is a structured way to manage safety risk. How aviation, rail and major hazard rules define it and what they require of competence.",
+  "shortAnswer": "A safety management system (SMS) is a formal, organization wide framework for managing safety risk, built on a safety policy, processes to identify hazards and control risk, assurance that controls work, and promotion of safety through training and communication. Regulators in aviation, rail, offshore energy and major hazard industries require one, and each requires the organization to define and maintain the competence of people with safety roles.",
+  "keyTakeaways": [
+    "An SMS manages safety as a system with defined responsibilities, rather than relying on individual rules or inspections alone.",
+    "Aviation SMS rules, such as US 14 CFR Part 5, are organized into four components: safety policy, safety risk management, safety assurance and safety promotion.",
+    "Training and competence sit inside the SMS: FAA Part 5 makes training part of safety promotion, and EU rail rules require a competence management system.",
+    "The EU Seveso III Directive requires major hazard sites to identify training needs and provide the training so identified as part of their SMS.",
+    "Competence records are SMS evidence, reviewed in audits, safety cases and inspections."
+  ],
+  "term": "safety management system",
+  "alsoKnownAs": ["SMS", "safety management systems", "SMS framework"],
+  "sections": [
+    {
+      "id": "components",
+      "heading": "What are the components of a safety management system?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most SMS frameworks share four components: a safety policy with clear accountabilities, a process for identifying hazards and managing risk, assurance that risk controls are working, and promotion of safety through training and communication. The US Federal Aviation Administration (FAA) rule in [14 CFR Part 5](https://www.law.cornell.edu/cfr/text/14/part-5) uses these four as its subparts."
+        },
+        {
+          "type": "table",
+          "caption": "The four SMS components and their competence implications (14 CFR Part 5 structure)",
+          "head": ["Component", "Part 5 subpart", "What it covers", "Competence implication"],
+          "rows": [
+            ["Safety policy", "Subpart B (5.21 to 5.27)", "Safety objectives, accountable executive, defined safety accountabilities", "People with safety accountabilities are identified and know their role"],
+            ["Safety risk management", "Subpart C (5.51 to 5.57)", "Hazard identification, risk analysis and controls", "Staff can recognize and report hazards; analysts are competent in risk assessment"],
+            ["Safety assurance", "Subpart D (5.71 to 5.75)", "Monitoring, measuring and improving safety performance", "Auditors and investigators are trained; competence is itself monitored"],
+            ["Safety promotion", "Subpart E (5.91 to 5.93)", "Training and safety communication", "Training to attain and maintain competencies for people identified in 5.23"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sectors",
+      "heading": "Which industries require a safety management system?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aviation, rail, major hazard chemical sites and offshore energy are the clearest examples; each regime sets its own SMS elements, including competence."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Aviation.** The International Civil Aviation Organization (ICAO) sets safety management standards in [Annex 19](https://www.icao.int/safety/SafetyManagement/Pages/default.aspx), implemented through national rules. Under FAA Part 5, [14 CFR 5.91](https://www.ecfr.gov/current/title-14/section-5.91) requires training to attain and maintain competencies for individuals identified in 5.23, and Part 135 operators must implement an SMS by May 28, 2027. In Europe, [EASA Part-145](/regulations/easa-part-66-and-part-145-staff-training) requires maintenance organizations to control the competence of staff including in safety management.",
+            "**Rail.** In the EU, [Commission Delegated Regulation (EU) 2018/762](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R0762) sets common safety methods for SMS requirements. In Australia, the Rail Safety National Law requires rail transport operators to ensure rail safety workers are competent; see [rail safety worker competence](/regulations/rail-safety-worker-competence-australia).",
+            "**Major hazard sites.** The EU [Seveso III Directive](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012L0018) requires operators to implement their major accident prevention policy through an SMS meeting Annex III, although lower tier establishments may use other appropriate means (Article 8(5)); see [Seveso III safety management training](/regulations/eu-seveso-iii-safety-management-training).",
+            "**Offshore energy.** Australia's offshore regulator NOPSEMA requires a safety case describing how each member of the workforce has the necessary skills, training and ability; see [NOPSEMA safety case competence](/regulations/nopsema-safety-case-competence-requirements)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "competence-elements",
+      "heading": "What does an SMS require for competence and training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Every major SMS regime requires the organization to define the competence safety roles need, provide training to achieve it, and check it is maintained. The wording differs."
+        },
+        {
+          "type": "table",
+          "caption": "Competence elements in three SMS regimes",
+          "head": ["Regime", "Competence requirement", "What to evidence"],
+          "rows": [
+            ["EU rail: Regulation (EU) 2018/762, Annexes I and II section 4.2", "A competence management system covering identification of competencies (including knowledge, skills, non-technical behaviors and attitudes), selection, initial training and qualification, ongoing training, and periodic assessment", "Competence profiles for safety related tasks; training and assessment records; periodic reassessment"],
+            ["EU major hazard: Seveso III Annex III (b)(i)", "Identification of training needs of personnel involved in major hazard management and provision of the training so identified, including subcontracted personnel", "Training needs analysis linked to major accident hazards; training delivered; subcontractor coverage"],
+            ["US aviation: 14 CFR 5.91", "Training to attain and maintain competencies for individuals identified in 5.23, including the accountable executive, management and employees", "Role based SMS training and how competence is maintained over time"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Seveso III Annex III (b)(v) adds specific emergency training for all personnel working in the establishment, including relevant subcontracted personnel. A [training needs analysis](/glossary/training-needs-analysis) tied to the hazard register and a [competency framework](/glossary/competency-framework) for safety critical roles cover most of these expectations."
+        }
+      ]
+    },
+    {
+      "id": "illustrative-example",
+      "heading": "How does an SMS connect hazards to training in practice?",
+      "blocks": [
+        {
+          "type": "callout",
+          "title": "Illustrative example",
+          "text": "A chemical storage site identifies loss of containment during tanker unloading as a major accident scenario. Its SMS records the controls, the roles that operate them (drivers, unloading operators, shift supervisors), and the competencies each role needs. Training needs follow from that mapping: practical assessment of unloading and emergency isolation for operators, incident command for supervisors, and site induction and emergency drills for contractor drivers. When an audit or near miss shows a control failing, the safety assurance process checks whether competence was a cause before deciding on retraining."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links hazards and risk controls in an SMS to the roles that operate them, and those roles to competencies, learning outcomes and assessments. That gives safety assurance a direct view of whether the people operating each control have current, evidenced competence, and shows which training to update when a control or procedure changes."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is an SMS the same as ISO 45001?",
+      "a": "No. ISO 45001 is a management system standard for occupational health and safety, focused on worker injury and ill health. Sector SMS rules in aviation, rail and major hazard industries focus on operational safety risk and are legal requirements. Organizations often integrate them, and both require defined competence."
+    },
+    {
+      "q": "Who is accountable for an SMS?",
+      "a": "SMS rules usually name a senior individual. Under 14 CFR 5.25, the accountable executive has final authority over operations, controls financial and human resources, and retains ultimate responsibility for safety performance. Other regimes place the duty on the operator's management, with defined roles below."
+    },
+    {
+      "q": "Does an SMS require a training needs analysis?",
+      "a": "Several regimes require it in substance. Seveso III Annex III requires identification of training needs and provision of the training so identified, and EU rail rules require identification of the competencies needed for safety related tasks. A documented analysis is the most direct way to show this."
+    },
+    {
+      "q": "How often must SMS competence be reassessed?",
+      "a": "Most SMS rules require competence to be maintained and periodically assessed without fixing a single interval. Specific roles often have their own intervals set by licensing or operational rules, such as recurrent training for flight crew or certifying maintenance staff."
+    }
+  ],
+  "sources": [
+    { "title": "14 CFR Part 5 Safety Management Systems", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/14/part-5" },
+    { "title": "14 CFR 5.91 Competencies and training", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-14/section-5.91" },
+    { "title": "14 CFR 5.9 Part 135 and 91.147 SMS implementation", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-14/section-5.9" },
+    { "title": "14 CFR 5.25 Designation and responsibilities of the accountable executive", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/14/5.25" },
+    { "title": "Safety Management", "publisher": "International Civil Aviation Organization", "url": "https://www.icao.int/safety/SafetyManagement/Pages/default.aspx" },
+    { "title": "Commission Delegated Regulation (EU) 2018/762 on common safety methods on safety management system requirements", "publisher": "EUR-Lex", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R0762" },
+    { "title": "Directive 2012/18/EU (Seveso III)", "publisher": "EUR-Lex", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012L0018" },
+    { "title": "Offshore Petroleum and Greenhouse Gas Storage (Safety) Regulations 2024", "publisher": "Federal Register of Legislation", "url": "https://www.legislation.gov.au/F2024L01588/asmade/text" }
+  ],
+  "related": [
+    "eu-seveso-iii-safety-management-training",
+    "rail-safety-worker-competence-australia",
+    "faa-part-121-crewmember-training",
+    "easa-part-66-and-part-145-staff-training",
+    "nopsema-safety-case-competence-requirements",
+    "safety-critical-role"
+  ],
+  "productLinks": [
+    { "label": "Energy and resources", "href": "/industries/energy-resources" },
+    { "label": "Operational procedures programs", "href": "/programs/operational-procedures" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "14 CFR Part 5 subparts: B Safety Policy (5.21 to 5.27), C Safety Risk Management (5.51 to 5.57), D Safety Assurance (5.71 to 5.75), E Safety Promotion (5.91 to 5.93)", "source": "https://www.law.cornell.edu/cfr/text/14/part-5" },
+    { "claim": "5.91 SMS training to attain and maintain competencies for individuals identified in 5.23; 5.23 identifies accountable executive, management and employees", "source": "https://www.ecfr.gov/current/title-14/section-5.91" },
+    { "claim": "Part 135 and 91.147 LOA holders must implement SMS by May 28, 2027", "source": "https://www.ecfr.gov/current/title-14/section-5.9" },
+    { "claim": "5.25 accountable executive: final authority, controls financial and human resources, ultimate responsibility for safety performance", "source": "https://www.law.cornell.edu/cfr/text/14/5.25" },
+    { "claim": "ICAO Annex 19 safety management provisions; State safety programme; Amendment 2 adopted June 2025", "source": "https://www.icao.int/safety/SafetyManagement/Pages/default.aspx" },
+    { "claim": "Regulation (EU) 2018/762 Annexes I and II section 4.2 competence management system: identification of competencies including knowledge, skills, non-technical behaviours and attitudes; selection; initial training, experience and qualification; ongoing training; periodic assessment", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R0762" },
+    { "claim": "Seveso III Annex III (b)(i) identification of training needs and provision of training so identified, including subcontracted personnel; (b)(v) emergency training for all personnel including relevant subcontracted personnel; Article 8(5) SMS", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012L0018" },
+    { "claim": "Offshore safety case section 2.9: each member of the workforce has necessary skills, training and ability", "source": "https://www.legislation.gov.au/F2024L01588/asmade/text" }
+  ]
+}

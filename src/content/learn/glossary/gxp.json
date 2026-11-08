@@ -1,0 +1,163 @@
+{
+  "slug": "gxp",
+  "kind": "glossary",
+  "title": "What is GxP?",
+  "seoTitle": "GxP: definition and training",
+  "description": "GxP is the umbrella term for good practice rules in life sciences: GMP, GCP, GLP, GDP and GVP. What each covers and what each requires of personnel training.",
+  "shortAnswer": "The term GxP is an umbrella label for the good practice quality rules that govern regulated life sciences work, where the x stands for the activity: Good Manufacturing Practice (GMP), Good Clinical Practice (GCP), Good Laboratory Practice (GLP), Good Distribution Practice (GDP) and Good Pharmacovigilance Practice (GVP). Each set is issued by regulators or international bodies, and each requires that people doing the work are qualified, trained for their tasks, and that the training is documented.",
+  "keyTakeaways": [
+    "GxP is shorthand, not a single regulation: each practice has its own legal source, regulator and inspection program.",
+    "Every GxP set ties personnel qualification to the specific tasks a person performs, not to general awareness alone.",
+    "Training records are inspection evidence under all five practices, and several set retention periods for them.",
+    "Some GxP rules require training effectiveness to be verified or periodically assessed, not just delivered.",
+    "Organizations working across practices benefit from one competence model mapped to each practice's requirements."
+  ],
+  "term": "GxP",
+  "alsoKnownAs": ["good practice regulations", "GxP regulations", "good x practice"],
+  "sections": [
+    {
+      "id": "meaning",
+      "heading": "What does GxP stand for?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "GxP stands for \"good x practice\", where x is replaced by the regulated activity. The term groups quality rules that share a purpose: protecting patients and data integrity by making sure work is done by qualified people following controlled procedures, with records that let an inspector reconstruct what happened."
+        },
+        {
+          "type": "p",
+          "text": "The five practices most training teams meet are manufacturing (GMP), clinical trials (GCP), nonclinical laboratory studies (GLP), wholesale distribution (GDP) and pharmacovigilance (GVP). Medical device quality rules, such as the US Food and Drug Administration (FDA) [Quality Management System Regulation](/regulations/fda-qmsr-training-requirements), are often grouped with them, and electronic record rules such as [21 CFR Part 11](/regulations/21-cfr-part-11-training-requirements) apply across all of them."
+        }
+      ]
+    },
+    {
+      "id": "practices",
+      "heading": "What does each GxP practice require of personnel training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each practice requires task specific training by or for qualified people, with records; the details and the regulators differ. The table shows one example source per practice and links to the regulation pages that cover each in depth."
+        },
+        {
+          "type": "table",
+          "caption": "The five GxP practices and their training requirements (examples)",
+          "head": ["Practice", "Example source", "What it says about training", "Regulation page"],
+          "rows": [
+            ["GMP (manufacturing)", "US 21 CFR 211.25(a); EU GMP Chapter 2", "Training in the particular operations a person performs and in current GMP, conducted by qualified individuals on a continuing basis; EU paragraph 2.11 adds periodic assessment of practical effectiveness", "[FDA GMP](/regulations/fda-gmp-personnel-training-requirements), [EU GMP Chapter 2](/regulations/eu-gmp-chapter-2-personnel-training-requirements)"],
+            ["GCP (clinical trials)", "ICH E6(R3), in effect in the EU from 23 July 2025", "Individuals involved in a trial should be qualified by education, training and experience to perform their respective tasks", "[ICH E6(R3) GCP](/regulations/ich-e6-r3-gcp-training-requirements)"],
+            ["GLP (nonclinical studies)", "US 21 CFR 58.29; OECD Principles via Directive 2004/10/EC", "Education, training and experience for assigned functions, with a current summary of training and a job description for each person", "[GLP personnel training](/regulations/glp-personnel-training-requirements)"],
+            ["GDP (distribution)", "EU GDP Guidelines 2013/C 343/01, section 2.4", "All personnel trained on GDP and competent before starting tasks; initial and continuing role based training under a written program", "[Good Distribution Practice](/regulations/good-distribution-practice-training-requirements)"],
+            ["GVP (pharmacovigilance)", "Implementing Regulation (EU) 520/2012 Article 10; GVP Module I", "Sufficient trained personnel; training plans based on needs assessment, with a process to check training results", "[Pharmacovigilance training](/regulations/pharmacovigilance-training-requirements)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "common-thread",
+      "heading": "What do all GxP training requirements have in common?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "All five practices link qualification to tasks and require documented evidence. Beyond that, three common expectations recur."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Task specific training.** The FDA drug GMP rule in [21 CFR 211.25](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B) requires training \"in the particular operations that the employee performs\", and ICH E6(R3) Annex 1 expects trial related training where it goes beyond a person's usual training and experience.",
+            "**Continuing training and effectiveness.** EU GMP [Chapter 2](https://health.ec.europa.eu/document/download/11f4f8e6-a6e9-4897-afe3-f21e1dc56cb8_en?filename=2014-03_chapter_2.pdf) paragraph 2.11 requires continuing training whose practical effectiveness is periodically assessed, and [Directive (EU) 2017/1572](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32017L1572) Article 7(4) requires the effectiveness of GMP training to be verified.",
+            "**Retained records.** EU GDP section 4.2 requires documents to be kept for at least five years, and [21 CFR 58.195](https://www.law.cornell.edu/cfr/text/21/58.195) sets retention periods for GLP training summaries and job descriptions."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Because the expectations overlap, many organizations maintain one [competency framework](/glossary/competency-framework) and one [training matrix](/glossary/training-matrix) and tag each requirement with the practice and clause it satisfies, rather than running separate programs per practice."
+        }
+      ]
+    },
+    {
+      "id": "named-roles",
+      "heading": "Which GxP roles have their own qualification rules?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Several practices name a responsible role with additional qualification or training requirements. Examples include the GDP Responsible Person, who must have knowledge of and training in GDP; the Qualified Person Responsible for Pharmacovigilance (QPPV), who must be trained in the pharmacovigilance system before taking up the position under GVP Module I; and the GLP study director, who must have appropriate education, training and experience under 21 CFR 58.33. In medical devices, the EU Medical Device Regulation adds the [person responsible for regulatory compliance](/glossary/person-responsible-for-regulatory-compliance)."
+        }
+      ]
+    },
+    {
+      "id": "illustrative-example",
+      "heading": "What does GxP training mapping look like in practice?",
+      "blocks": [
+        {
+          "type": "callout",
+          "title": "Illustrative example",
+          "text": "A contract organization runs a GMP packaging line, a GDP warehouse and a small pharmacovigilance case intake team. Its competence model defines a shared core (GxP principles, documentation and data integrity, deviation reporting) plus role modules. Each module cites its clause: 21 CFR 211.25(a) for line operators, EU GDP section 2.4 for warehouse staff handling temperature sensitive products, and GVP Module I for case intake staff. One record per person shows which clauses they are trained against, the assessment used, and the procedure versions covered."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models each GxP requirement as a source linked obligation, then maps it to competencies, learning outcomes and assessment points. A competence that satisfies more than one practice is defined once and referenced by each, so a change to a GMP procedure or a GCP guideline shows which roles and assessments are affected."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is GxP a law?",
+      "a": "No. GxP is an informal umbrella term. The underlying rules are legal or regulatory instruments in each jurisdiction, such as 21 CFR Parts 210 and 211 for US drug GMP, EudraLex Volume 4 for EU GMP, and Implementing Regulation (EU) 520/2012 for EU pharmacovigilance, plus international guidelines such as ICH E6(R3)."
+    },
+    {
+      "q": "Does every employee at a GxP site need GxP training?",
+      "a": "Not every employee, but more than people expect. EU GMP paragraph 2.10 covers all personnel whose duties take them into production and storage areas or control laboratories, including technical, maintenance and cleaning staff, and others whose activities could affect product quality."
+    },
+    {
+      "q": "How often must GxP training be repeated?",
+      "a": "Most GxP rules do not set a fixed interval. They require continuing training with sufficient frequency, and some require effectiveness to be assessed. ICH E6(R3) sets no refresher interval for GCP training. Organizations set intervals by risk and retrain when procedures change."
+    },
+    {
+      "q": "Is computerized system training part of GxP?",
+      "a": "Yes. 21 CFR 11.10(i) requires a determination that people who develop, maintain or use electronic record systems have the education, training and experience for their tasks, and ICH E6(R3) section 4.3.2 expects users of computerized systems to be appropriately trained in their use."
+    }
+  ],
+  "sources": [
+    { "title": "21 CFR Part 211 Subpart B: Organization and Personnel", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B" },
+    { "title": "EudraLex Volume 4, Chapter 2: Personnel", "publisher": "European Commission", "url": "https://health.ec.europa.eu/document/download/11f4f8e6-a6e9-4897-afe3-f21e1dc56cb8_en?filename=2014-03_chapter_2.pdf" },
+    { "title": "Commission Directive (EU) 2017/1572", "publisher": "EUR-Lex", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32017L1572" },
+    { "title": "ICH E6(R3) Guideline for Good Clinical Practice: Step 5", "publisher": "European Medicines Agency", "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-e6-r3-guideline-good-clinical-practice-gcp-step-5_en.pdf" },
+    { "title": "21 CFR 58.29 Personnel", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/21/58.29" },
+    { "title": "21 CFR 58.195 Retention of records", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/21/58.195" },
+    { "title": "Guidelines of 5 November 2013 on Good Distribution Practice of medicinal products for human use (2013/C 343/01)", "publisher": "EUR-Lex", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52013XC1123(01)" },
+    { "title": "Commission Implementing Regulation (EU) No 520/2012", "publisher": "EUR-Lex", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32012R0520" },
+    { "title": "Guideline on good pharmacovigilance practices (GVP) Module I", "publisher": "European Medicines Agency", "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-good-pharmacovigilance-practices-module-i-pharmacovigilance-systems-and-their-quality-systems_en.pdf" },
+    { "title": "21 CFR 11.10 Controls for closed systems", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/21/11.10" }
+  ],
+  "related": [
+    "fda-gmp-personnel-training-requirements",
+    "eu-gmp-chapter-2-personnel-training-requirements",
+    "ich-e6-r3-gcp-training-requirements",
+    "glp-personnel-training-requirements",
+    "good-distribution-practice-training-requirements",
+    "pharmacovigilance-training-requirements"
+  ],
+  "productLinks": [
+    { "label": "Healthcare and life sciences", "href": "/industries/healthcare-life-sciences" },
+    { "label": "Standards and accreditation", "href": "/platform/standards-accreditation" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "21 CFR 211.25(a): training in the particular operations the employee performs and in CGMP, conducted by qualified individuals on a continuing basis", "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-B" },
+    { "claim": "EU GMP Chapter 2 paragraph 2.10 scope of personnel trained (including technical, maintenance and cleaning); 2.11 continuing training with practical effectiveness periodically assessed", "source": "https://health.ec.europa.eu/document/download/11f4f8e6-a6e9-4897-afe3-f21e1dc56cb8_en?filename=2014-03_chapter_2.pdf" },
+    { "claim": "Directive (EU) 2017/1572 Article 7(4): initial and ongoing training, effectiveness verified", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32017L1572" },
+    { "claim": "ICH E6(R3) in effect in EU from 23 July 2025; principle 5.1 qualified by education, training and experience; Annex 1 2.3.2 trial related training; 4.3.2 computerized systems training; no fixed refresher interval", "source": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-e6-r3-guideline-good-clinical-practice-gcp-step-5_en.pdf" },
+    { "claim": "21 CFR 58.29(a) and (b): education, training, experience; current training summary and job description; 58.33 study director; 58.195 retention", "source": "https://www.law.cornell.edu/cfr/text/21/58.29" },
+    { "claim": "EU GDP section 2.4 personnel training, 2.2 Responsible Person knowledge of and training in GDP, 4.2 documents retained at least five years", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52013XC1123(01)" },
+    { "claim": "IR 520/2012 Article 10 sufficient trained personnel; GVP Module I training plans based on needs assessment, process to check results; QPPV trained before taking up position", "source": "https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-good-pharmacovigilance-practices-module-i-pharmacovigilance-systems-and-their-quality-systems_en.pdf" },
+    { "claim": "21 CFR 11.10(i) education, training and experience for persons who develop, maintain or use electronic record systems", "source": "https://www.law.cornell.edu/cfr/text/21/11.10" }
+  ]
+}

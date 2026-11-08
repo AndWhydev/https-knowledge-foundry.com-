@@ -1,0 +1,165 @@
+{
+  "slug": "job-aid",
+  "kind": "glossary",
+  "title": "What is a job aid?",
+  "seoTitle": "Job aid: definition and examples",
+  "description": "A job aid is a checklist, flowchart or prompt used during a task instead of memory. When to use one, how it differs from training, and how to control it.",
+  "shortAnswer": "A job aid is a short reference tool, such as a checklist, decision table, flowchart, annotated photo or on screen prompt, that a person uses while performing a task so they do not have to rely on memory. It is a form of performance support: it guides the work at the moment of need rather than teaching it in advance. In regulated settings a job aid derived from a procedure is controlled documented information.",
+  "keyTakeaways": [
+    "A job aid supports performance during the task; training builds capability before it.",
+    "Job aids suit tasks that are infrequent, long, error prone or that change often; they do not replace competence for safety critical judgment.",
+    "A job aid derived from a standard operating procedure or work instruction must carry its version and be controlled like the parent document.",
+    "Uncontrolled job aids that drift from the procedure are a common audit finding and a source of error.",
+    "Good training design decides early which steps must be learned and which can be supported by a job aid."
+  ],
+  "term": "job aid",
+  "alsoKnownAs": ["performance support tool", "quick reference guide", "checklist", "desk aid", "cheat sheet"],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What counts as a job aid?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Anything a person consults while doing the task, rather than before it, can be a job aid. The defining features are that it is used at the point of work, it is short, and it tells the user what to do or check next."
+        },
+        {
+          "type": "table",
+          "caption": "Common job aid formats and where they fit",
+          "head": ["Format", "Best for", "Illustrative example"],
+          "rows": [
+            ["Step checklist", "Fixed sequences where a missed step matters", "Line clearance checklist at a packaging line"],
+            ["Decision table or flowchart", "Choosing a path based on conditions", "Which customer due diligence level applies to a new account"],
+            ["Annotated photo or diagram", "Visual standards and locations", "Correct assembly of an insulated shipping box for each season"],
+            ["Reference card", "Values, codes or contacts looked up often", "Escalation contacts and reporting deadlines for a privacy incident"],
+            ["In application prompt", "Software tasks with many fields", "Field level guidance in a batch record or case management system"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vs-training",
+      "heading": "When should you use a job aid instead of training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use a job aid when the problem is remembering steps, not understanding or skill. Use training when the person must make judgments, recognize hazards, or act faster than they could consult a reference. Most regulated tasks need both: training for the critical understanding, and a job aid for the sequence."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Job aid suits:** infrequent tasks, long sequences, tasks with many values or codes, steps that change often, and tasks where looking something up carries no safety or time penalty.",
+            "**Training suits:** tasks performed under time pressure, emergency responses, judgment calls, and skills that need practice to perform at all.",
+            "**Both suit:** most procedure based work, where the person is trained and assessed on why the steps matter and uses the job aid to execute them."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The UK Health and Safety Executive's guidance on [human failure](https://www.hse.gov.uk/humanfactors/topics/humanfail.htm) explains that slips and lapses cannot be eliminated by training, while better design can reduce their likelihood. A well designed checklist is one of those design controls. That is also why retraining alone is often a weak [CAPA](/glossary/capa) when the cause was a skipped step."
+        }
+      ]
+    },
+    {
+      "id": "control",
+      "heading": "Does a job aid need to be a controlled document?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yes, when it instructs people how to perform work covered by a quality, safety or compliance management system. A job aid copied from a [standard operating procedure](/glossary/standard-operating-procedure) or [work instruction](/glossary/work-instruction) is documented information, and must stay consistent with its parent."
+        },
+        {
+          "type": "p",
+          "text": "ISO guidance on [documented information](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/documented_information.pdf) for ISO 9001 notes that documents may be in any form or medium, including paper, electronic files and photographs, so a laminated card or a screen prompt is included. Clause 7.5.3 requires documented information to be available and suitable for use, protected, and under change and version control, as summarized by [ISMS.online](https://www.isms.online/iso-9001/clause-7-5-documented-information/). In practice that means:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Give each job aid an identifier, version and the identifier and version of its parent procedure.",
+            "Approve it through the same document control process as the procedure.",
+            "Review it whenever the parent procedure changes, and withdraw old copies from the workplace.",
+            "Assess people on the procedure, not on the job aid, so competence does not depend on one format."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The difference between controlled and uncontrolled copies is covered in [controlled vs uncontrolled documents](/compare/controlled-vs-uncontrolled-documents), and the build sequence in [how to convert SOPs into training](/guides/how-to-convert-sops-into-training)."
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "heading": "What makes a job aid effective?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An effective job aid is short, ordered the way the task is performed, and placed where the work happens. Useful design checks:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "One task per job aid, written from the user's point of view.",
+            "One action per step, with values, tolerances and hold points stated next to the step they apply to.",
+            "Visuals where words are slower, such as photos of correct and incorrect setups.",
+            "Tested with real users doing the real task before release.",
+            "Linked to the competence it supports, so changes to either are visible together."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry treats a job aid as one output of a procedure, alongside training and assessment, all linked to the same source version. When the procedure changes, the job aids, learning content and assessment points built on it are flagged together, which reduces drift between what people are taught and what they use at the bench."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is a job aid the same as a work instruction?",
+      "a": "Not quite. A work instruction is the controlled, complete description of how to perform a task. A job aid is a condensed tool used during the task, such as a checklist drawn from the work instruction. Some organizations treat short work instructions as job aids; what matters is that both are controlled and consistent."
+    },
+    {
+      "q": "Can a job aid replace training for compliance purposes?",
+      "a": "Rarely on its own. Most regulations require people to be trained and competent for their tasks. A job aid can reduce how much must be memorized, but people still need to understand the procedure, the reasons behind critical steps, and what to do when something goes wrong."
+    },
+    {
+      "q": "Is microlearning the same as a job aid?",
+      "a": "No. Microlearning delivers short learning units before or between tasks to build knowledge or skill. A job aid is used during the task to guide performance. The two can work together, for example a short module that teaches a procedure and a checklist that supports it on the job."
+    },
+    {
+      "q": "Who should own job aids?",
+      "a": "The owner of the parent procedure should own its job aids, with document control approving them. Training teams often design them, but ownership should sit where the procedure is maintained so that changes reach both at the same time."
+    }
+  ],
+  "sources": [
+    { "title": "ISO 9001:2015 Guidance on the requirements for Documented Information", "publisher": "International Organization for Standardization", "url": "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/documented_information.pdf" },
+    { "title": "ISO 9001 Clause 7.5 Documented Information", "publisher": "ISMS.online", "url": "https://www.isms.online/iso-9001/clause-7-5-documented-information/" },
+    { "title": "Human failure types", "publisher": "Health and Safety Executive", "url": "https://www.hse.gov.uk/humanfactors/topics/humanfail.htm" },
+    { "title": "Guidelines of 5 November 2013 on Good Distribution Practice of medicinal products for human use (2013/C 343/01)", "publisher": "EUR-Lex", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52013XC1123(01)" }
+  ],
+  "related": [
+    "work-instruction",
+    "standard-operating-procedure",
+    "how-to-convert-sops-into-training",
+    "controlled-vs-uncontrolled-documents",
+    "microlearning",
+    "document-control"
+  ],
+  "productLinks": [
+    { "label": "Operational procedures programs", "href": "/programs/operational-procedures" },
+    { "label": "Knowledge transformation", "href": "/platform/knowledge-transformation" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "ISO documented information guidance: documents may be in any form or medium, including paper, electronic files and photographs", "source": "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/documented_information.pdf" },
+    { "claim": "Clause 7.5.3: documented information available, suitable for use, protected; change and version control (secondary summary; clause text paywalled)", "source": "https://www.isms.online/iso-9001/clause-7-5-documented-information/" },
+    { "claim": "HSE: slips and lapses cannot be eliminated by training; improved design can reduce their likelihood", "source": "https://www.hse.gov.uk/humanfactors/topics/humanfail.htm" },
+    { "claim": "EU GDP 9.4: staff trained on insulated box assembly (seasonal configurations), used as the basis of the illustrative annotated photo example", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52013XC1123(01)" }
+  ]
+}

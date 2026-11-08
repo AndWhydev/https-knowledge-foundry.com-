@@ -1,0 +1,164 @@
+{
+  "slug": "capa",
+  "kind": "glossary",
+  "title": "What is CAPA (corrective and preventive action)?",
+  "seoTitle": "CAPA: corrective and preventive action",
+  "description": "CAPA is the quality process that removes the causes of nonconformities and potential problems. How ISO 13485, FDA's QMSR, ISO 9001 and ICH Q10 treat it.",
+  "shortAnswer": "A CAPA, short for corrective and preventive action, is a quality management process that investigates a problem, finds its root cause, and takes action to stop it recurring (corrective action) or to stop a potential problem from occurring at all (preventive action), then checks that the action worked. CAPA is required for medical devices under ISO 13485 and the FDA Quality Management System Regulation, and is a core element of pharmaceutical quality systems.",
+  "keyTakeaways": [
+    "Correction fixes the immediate problem; corrective action removes its cause; preventive action removes the cause of a potential problem.",
+    "ISO 13485:2016 treats corrective action (clause 8.5.2) and preventive action (clause 8.5.3) as separate requirements, and FDA's QMSR incorporates them by reference from February 2, 2026.",
+    "ISO 9001 handles corrective action under clause 10.2 and addresses prevention mainly through risk based thinking rather than a separate preventive action clause.",
+    "Every CAPA must be checked for effectiveness; regulators repeatedly criticize CAPAs that stop at retraining.",
+    "Training is a valid CAPA action only when the root cause is a knowledge or skill gap."
+  ],
+  "term": "CAPA",
+  "alsoKnownAs": ["corrective and preventive action", "corrective action and preventive action", "CAPA system"],
+  "sections": [
+    {
+      "id": "definitions",
+      "heading": "What is the difference between correction, corrective action and preventive action?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A correction deals with the nonconformity itself, a corrective action deals with the cause of a nonconformity that has happened, and a preventive action deals with the cause of one that has not happened yet. Confusing the three is the most common reason CAPAs fail audit."
+        },
+        {
+          "type": "table",
+          "caption": "Three actions in a CAPA, with a training example for each",
+          "head": ["Action", "Question it answers", "Illustrative example"],
+          "rows": [
+            ["Correction", "What do we do about this nonconformity now?", "Quarantine and relabel the batch printed with the wrong expiry date"],
+            ["Corrective action", "What caused it, and how do we stop it recurring?", "Root cause: the label template allowed free text dates; lock the field and verify the change"],
+            ["Preventive action", "Where else could this happen before it does?", "Apply the same control to two other lines that use the same template software"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "FDA's final rule for the [Quality Management System Regulation](https://www.federalregister.gov/documents/full_text/text/2024/02/02/2024-01709.txt) explains that corrective action relates to eliminating the cause of a nonconformity and preventing recurrence, that manufacturers must verify or validate corrective and preventive actions to ensure they are effective, and that ISO 9000 definitions apply to correction, corrective action and preventive action."
+        }
+      ]
+    },
+    {
+      "id": "where-required",
+      "heading": "Which standards and regulations require CAPA?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CAPA is required, by that or a near equivalent name, in medical device, pharmaceutical and general quality management systems. Three examples cover most regulated organizations."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Medical devices.** [ISO 13485:2016](https://www.iso.org/standard/59752.html) sets corrective action in clause 8.5.2 and preventive action in clause 8.5.3. In the United States, the [QMSR](https://www.fda.gov/medical-devices/postmarket-requirements-devices/quality-management-system-regulation-qmsr) took effect on February 2, 2026 and incorporates ISO 13485:2016 by reference; see [FDA QMSR training requirements](/regulations/fda-qmsr-training-requirements).",
+            "**Pharmaceuticals.** [ICH Q10](https://database.ich.org/sites/default/files/Q10%20Guideline.pdf), the pharmaceutical quality system guideline, lists a CAPA system as one of four system elements. Section 3.2.2 says the company \"should have a system for implementing corrective actions and preventive actions resulting from the investigation of complaints, product rejections, non-conformances, recalls, deviations, audits, regulatory inspections and findings, and trends from process performance and product quality monitoring.\"",
+            "**General quality management.** ISO 9001 clause 10.2 (Nonconformity and corrective action) requires the organization to react to a nonconformity, determine its causes, take action, and review the effectiveness of that action, as [summarized by ISMS.online](https://www.isms.online/iso-9001/clause-10-improvement/). ISO 9001 has no separately titled preventive action clause and addresses prevention through risk based thinking; [ISO 9001:2026](https://www.iso.org/quality-management/iso-9001-2026) keeps the same Harmonized Structure clause numbering."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "heading": "What are the steps in a CAPA?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A CAPA moves from identification to verified closure in a documented sequence. Names vary, but the order below reflects what ISO 13485, ISO 9001 and ICH Q10 expect."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Identify and record the problem or potential problem, with its source (complaint, deviation, audit finding, trend).",
+            "Contain it and make any correction needed.",
+            "Assess risk to decide the depth of investigation; ICH Q10 says effort, formality and documentation should be commensurate with the level of risk.",
+            "Investigate the root cause using a structured method.",
+            "Plan actions that address the cause, with owners and dates.",
+            "Implement the actions, including document and training changes.",
+            "Verify effectiveness against criteria set in advance.",
+            "Close the CAPA and feed results into management review."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "training-in-capa",
+      "heading": "When is retraining an acceptable CAPA action?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Retraining is acceptable when the investigation shows the person did not know or could not do what the procedure required. It is weak when the root cause is a design, procedure or system problem, because training cannot remove that cause."
+        },
+        {
+          "type": "p",
+          "text": "The UK Health and Safety Executive notes that [slips and lapses](https://www.hse.gov.uk/humanfactors/topics/humanfail.htm) cannot be eliminated by training, while improved design can reduce their likelihood. Regulators also challenge retraining as a default answer: industry reporting on FDA warning letters, such as [this ECA summary](https://www.gmp-compliance.org/gmp-news/four-warning-letter-concerning-capa-and-root-cause-analysis-published), describes corrective measures of revised procedures and retraining judged insufficient because the firm did not explain how they would prevent recurrence."
+        },
+        {
+          "type": "p",
+          "text": "When training is the right action, it should target the specific competence gap, be assessed by observation or a task based check rather than attendance, and be recorded against the CAPA number. The full method is in [how to use training in a CAPA](/guides/how-to-use-training-in-a-capa), and the assessment design in [competency assessment](/glossary/competency-assessment)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each CAPA action that changes a procedure to the competencies and assessment points built on that procedure, so the affected roles and outdated training are identified at the same time as the document change. Training added as a corrective action is recorded with its effectiveness check, not just its completion."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does ISO 9001 still require preventive action?",
+      "a": "ISO 9001 has no separately titled preventive action clause; it addresses prevention through risk based thinking, including planning for risks and opportunities. Corrective action remains under clause 10.2. ISO 13485:2016, used for medical devices, still has a separate preventive action clause 8.5.3."
+    },
+    {
+      "q": "Who owns a CAPA?",
+      "a": "The standards require the organization to have a CAPA process but do not name an owner. In practice each CAPA has an owner in the area where the problem arose, with the quality function approving the investigation, the action plan and the effectiveness check before closure."
+    },
+    {
+      "q": "How is CAPA effectiveness verified?",
+      "a": "Effectiveness is shown by evidence that the cause has been removed, measured against criteria set when the action was planned. Examples include no recurrence over a defined period or volume, improved process data, or audit results. Course completion alone does not show effectiveness."
+    },
+    {
+      "q": "What is the difference between a deviation and a CAPA?",
+      "a": "A deviation is a departure from an approved procedure or specification. A CAPA is the action taken when an investigation shows the cause needs to be removed. Not every deviation needs a CAPA, and a CAPA can also come from complaints, audits, trends or inspection findings."
+    }
+  ],
+  "sources": [
+    { "title": "Quality Management System Regulation (QMSR)", "publisher": "US Food and Drug Administration", "url": "https://www.fda.gov/medical-devices/postmarket-requirements-devices/quality-management-system-regulation-qmsr" },
+    { "title": "Medical Devices; Quality System Regulation Amendments (final rule, 89 FR 7496)", "publisher": "Federal Register", "url": "https://www.federalregister.gov/documents/full_text/text/2024/02/02/2024-01709.txt" },
+    { "title": "ISO 13485:2016 Medical devices: Quality management systems", "publisher": "International Organization for Standardization", "url": "https://www.iso.org/standard/59752.html" },
+    { "title": "ICH Q10 Pharmaceutical Quality System", "publisher": "International Council for Harmonisation", "url": "https://database.ich.org/sites/default/files/Q10%20Guideline.pdf" },
+    { "title": "ISO 9001:2026: what's new", "publisher": "International Organization for Standardization", "url": "https://www.iso.org/quality-management/iso-9001-2026" },
+    { "title": "ISO 9001 Clause 10: Improvement", "publisher": "ISMS.online", "url": "https://www.isms.online/iso-9001/clause-10-improvement/" },
+    { "title": "Human failure types", "publisher": "Health and Safety Executive", "url": "https://www.hse.gov.uk/humanfactors/topics/humanfail.htm" },
+    { "title": "Four Warning Letters concerning CAPA and Root Cause Analysis published", "publisher": "ECA Academy", "url": "https://www.gmp-compliance.org/gmp-news/four-warning-letter-concerning-capa-and-root-cause-analysis-published" }
+  ],
+  "related": [
+    "how-to-use-training-in-a-capa",
+    "fda-qmsr-training-requirements",
+    "iso-9001-competence-requirements",
+    "gxp",
+    "standard-operating-procedure",
+    "competency-assessment"
+  ],
+  "productLinks": [
+    { "label": "Remediation", "href": "/platform/remediation" },
+    { "label": "Healthcare and life sciences", "href": "/industries/healthcare-life-sciences" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "QMSR effective February 2, 2026, incorporating ISO 13485:2016 by reference", "source": "https://www.fda.gov/medical-devices/postmarket-requirements-devices/quality-management-system-regulation-qmsr" },
+    { "claim": "Final rule: corrective action relates to eliminating cause and preventing recurrence; verify or validate CAPA effectiveness; ISO 13485 clauses 8.5.2 and 8.5.3; ISO 9000 definitions apply to correction, corrective action, preventive action", "source": "https://www.federalregister.gov/documents/full_text/text/2024/02/02/2024-01709.txt" },
+    { "claim": "ICH Q10 section 3.2.2 CAPA system text quoted verbatim; effort, formality and documentation commensurate with risk; CAPA is one of four PQS elements (3.2.1 to 3.2.4); Step 4 dated 4 June 2008 (read from PDF)", "source": "https://database.ich.org/sites/default/files/Q10%20Guideline.pdf" },
+    { "claim": "ISO 9001 clause 10 summary: react to nonconformity, root cause, corrective action, effectiveness monitoring; prevention through risk based thinking (secondary summary; clause text paywalled)", "source": "https://www.isms.online/iso-9001/clause-10-improvement/" },
+    { "claim": "ISO 9001:2026 retains Harmonized Structure and clause numbering", "source": "https://www.iso.org/quality-management/iso-9001-2026" },
+    { "claim": "HSE: slips and lapses cannot be eliminated by training; improved design reduces likelihood", "source": "https://www.hse.gov.uk/humanfactors/topics/humanfail.htm" },
+    { "claim": "ECA: corrective measures including revising the procedure and retraining judged insufficient by FDA", "source": "https://www.gmp-compliance.org/gmp-news/four-warning-letter-concerning-capa-and-root-cause-analysis-published" }
+  ]
+}

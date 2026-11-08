@@ -1,0 +1,159 @@
+{
+  "slug": "know-your-customer",
+  "kind": "glossary",
+  "title": "What is know your customer (KYC)?",
+  "seoTitle": "Know your customer (KYC): definition",
+  "description": "Know your customer (KYC) means identifying customers and understanding their risk. What customer due diligence requires and how to train staff for it.",
+  "shortAnswer": "The term know your customer (KYC) means the set of checks a regulated business uses to identify and verify its customers, understand who owns and controls them, assess the purpose and risk of the relationship, and keep that information current. In law it is usually called customer due diligence (CDD), a core obligation of anti-money laundering and counter terrorist financing rules in every major market. Staff who perform CDD need role specific training, not just general AML awareness.",
+  "keyTakeaways": [
+    "KYC is the everyday name for customer due diligence: identification, verification, beneficial ownership, purpose of the relationship, and ongoing monitoring.",
+    "Article 20(1) of the EU Anti-Money Laundering Regulation lists the CDD measures, including sanctions screening and source of funds where relevant.",
+    "US rules require covered institutions to identify beneficial owners of legal entity customers, using a 25 percent ownership prong and a single individual control prong.",
+    "CDD is risk based: simplified, standard and enhanced levels need different knowledge and different training depth.",
+    "Regulators expect training tailored to the KYC tasks each role performs; AUSTRAC says its own e-learning cannot be relied on solely."
+  ],
+  "term": "know your customer",
+  "alsoKnownAs": ["KYC", "customer due diligence", "CDD", "customer identification", "client due diligence"],
+  "sections": [
+    {
+      "id": "kyc-vs-cdd",
+      "heading": "Is KYC the same as customer due diligence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "In practice, yes. KYC is the industry term; customer due diligence is the legal term most AML/CFT laws use. Some firms use KYC for the onboarding identity checks and CDD for the whole process including ongoing monitoring, but regulators assess the substance, not the label."
+        },
+        {
+          "type": "p",
+          "text": "The EU [Anti-Money Laundering Regulation (AMLR)](https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng), which applies from 10 July 2027, sets out the CDD measures in Article 20(1). They include identifying the customer and verifying identity \"on the basis of documents, data or information obtained from a reliable and independent source\"; identifying and verifying beneficial owners; assessing the purpose and intended nature of the business relationship; ongoing monitoring; understanding the source of funds; understanding source of wealth for higher risk customers; screening against targeted financial sanctions; and record keeping."
+        }
+      ]
+    },
+    {
+      "id": "elements",
+      "heading": "What are the main elements of KYC?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "KYC has five recurring elements across markets. The table maps each to an example legal source and to what staff performing it must be able to do."
+        },
+        {
+          "type": "table",
+          "caption": "KYC elements mapped to example sources and role competencies",
+          "head": ["Element", "Example source", "What staff must be able to do"],
+          "rows": [
+            ["Customer identification and verification", "AMLR Article 20(1)(a)", "Apply the firm's ID verification procedure, including alternatives when standard ID is unavailable"],
+            ["Beneficial ownership", "AMLR Article 20(1)(b); US 31 CFR 1010.230", "Trace ownership and control of legal entities and identify individuals meeting the thresholds"],
+            ["Purpose and nature of the relationship", "AMLR Article 20(1)(c)", "Record expected activity so later monitoring has a baseline"],
+            ["Risk rating and enhanced checks", "Risk based approach in AMLR and other national laws", "Assign a risk rating and recognize triggers for enhanced due diligence, such as politically exposed persons"],
+            ["Ongoing monitoring", "AMLR Article 20(1)(d); 31 CFR 1020.210 risk based CDD procedures", "Spot activity inconsistent with the profile, update information, and escalate suspicion internally"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "In the United States, [31 CFR 1010.230](https://www.law.cornell.edu/cfr/text/31/1010.230) requires covered financial institutions to maintain written procedures \"reasonably designed to identify and verify beneficial owners\" of legal entity customers. A beneficial owner is each individual owning 25 percent or more of the equity interests, plus a single individual with significant responsibility to control, manage or direct the entity. Bank AML programs must also include risk based CDD procedures under [31 CFR 1020.210](https://www.law.cornell.edu/cfr/text/31/1020.210)."
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "heading": "What KYC training do staff need?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Staff need training matched to the KYC tasks they perform. Onboarding staff need procedural skill in verification and ownership checks; staff doing enhanced due diligence and investigations need deeper understanding of risks; and all customer facing staff need to recognize and report suspicious activity."
+        },
+        {
+          "type": "p",
+          "text": "AUSTRAC's [AML/CTF training guidance](https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training) states the tiers directly: personnel in customer facing roles need awareness of indicators of suspicious activity and reporting procedures, while those responsible for enhanced customer due diligence and investigating suspicious matters need a deeper understanding of the risks and procedures. For onboarding roles it suggests training on ID verification procedures and beneficial ownership, sanctions and politically exposed person checks. Its example refresh interval for onboarding, transaction monitoring and enhanced CDD roles is every 12 months, presented as an example only."
+        },
+        {
+          "type": "p",
+          "text": "Other regulators make similar points. Japan's Financial Services Agency (FSA) treats human resource development as a required action in its [AML/CFT Guidelines](https://www.fsa.go.jp/en/news/2026/20260331/01.pdf), and the Central Bank of the UAE has published [best practices on role based AML/CFT training](https://rulebook.centralbank.ae/en/rulebook/best-practices-licensed-financial-institutions-implementing-role-based-amlcftcpf-training), including an annual training needs assessment. Country by country detail is in [AML training requirements by country](/compare/aml-training-requirements-by-country)."
+        }
+      ]
+    },
+    {
+      "id": "assessment",
+      "heading": "How should KYC competence be assessed?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "KYC competence is best assessed by having people perform the task on realistic cases, not by recall questions alone. Useful formats include:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "File review exercises: give a completed onboarding file and ask the learner to find the missing or inconsistent element.",
+            "Ownership tracing cases: a corporate structure diagram where the learner must identify the individuals who meet the ownership and control tests.",
+            "Escalation scenarios: account activity that may or may not be unusual, where the learner decides whether to escalate and records why.",
+            "Quality assurance sampling of live files as ongoing evidence of competence."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "These map naturally to a [competency assessment](/glossary/competency-assessment) design, with outcomes signed off by the [money laundering reporting officer](/glossary/money-laundering-reporting-officer) or AML compliance officer."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps each CDD obligation to the roles that perform it, then to role specific outcomes and case based assessment points, with each obligation linked to its legal source. When a CDD rule or the firm's risk assessment changes, the affected roles, content and assessments are identified together."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between KYC and AML?",
+      "a": "Anti-money laundering (AML) is the whole framework of laws and controls to prevent and detect money laundering. KYC, or customer due diligence, is one part of it, alongside risk assessment, transaction monitoring, suspicious activity reporting, record keeping, training and independent testing."
+    },
+    {
+      "q": "What is enhanced due diligence?",
+      "a": "Enhanced due diligence is a deeper level of CDD applied to higher risk customers or situations, such as politically exposed persons or high risk jurisdictions. It typically adds source of wealth checks, more senior approval and closer monitoring. Staff who perform it need deeper training than onboarding staff."
+    },
+    {
+      "q": "Does KYC training need to be refreshed every year?",
+      "a": "Most laws require ongoing training without fixing an interval. Annual refresh for KYC roles is a common choice and appears as an example in AUSTRAC guidance, but the interval should reflect risk, and training should also be updated when procedures, typologies or laws change."
+    },
+    {
+      "q": "Is KYC only for banks?",
+      "a": "No. CDD obligations apply to many sectors, including payment and money service businesses, crypto asset service providers, insurers, casinos, real estate agents, lawyers and accountants in many markets. The scope differs by country, so each business should confirm which obligations apply to it."
+    }
+  ],
+  "sources": [
+    { "title": "Regulation (EU) 2024/1624 (Anti-Money Laundering Regulation)", "publisher": "EUR-Lex", "url": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng" },
+    { "title": "31 CFR 1010.230 Beneficial ownership requirements for legal entity customers", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/31/1010.230" },
+    { "title": "31 CFR 1020.210 Anti-money laundering program requirements for banks", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/31/1020.210" },
+    { "title": "AML/CTF training", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training" },
+    { "title": "Guidelines for Anti-Money Laundering and Combating the Financing of Terrorism (revised March 2026)", "publisher": "Financial Services Agency, Japan", "url": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf" },
+    { "title": "Best practices for licensed financial institutions implementing role based AML/CFT/CPF training", "publisher": "Central Bank of the UAE", "url": "https://rulebook.centralbank.ae/en/rulebook/best-practices-licensed-financial-institutions-implementing-role-based-amlcftcpf-training" }
+  ],
+  "related": [
+    "aml-training-requirements-by-country",
+    "money-laundering-reporting-officer",
+    "austrac-aml-ctf-training-requirements",
+    "eu-amlr-training-requirements",
+    "bsa-aml-training-requirements",
+    "uae-aml-cft-training-requirements"
+  ],
+  "productLinks": [
+    { "label": "Financial services", "href": "/industries/financial-services" },
+    { "label": "Compliance programs", "href": "/programs/compliance" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "AMLR Article 20(1) CDD measures (a) to (h): identification and verification from reliable and independent source (quoted), beneficial owners, purpose and nature, ongoing monitoring, source of funds, source of wealth for higher risk, targeted financial sanctions screening, record keeping; applies from 10 July 2027", "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng" },
+    { "claim": "31 CFR 1010.230(a) written procedures reasonably designed to identify and verify beneficial owners; 25 percent ownership prong; single individual control prong", "source": "https://www.law.cornell.edu/cfr/text/31/1010.230" },
+    { "claim": "31 CFR 1020.210 includes risk based procedures for conducting ongoing customer due diligence", "source": "https://www.law.cornell.edu/cfr/text/31/1020.210" },
+    { "claim": "AUSTRAC (read 8 November 2026): customer facing personnel need awareness of indicators and reporting procedures; enhanced CDD and investigating staff need deeper understanding; onboarding training on ID verification, beneficial ownership, sanctions and PEP checks; example 12 month refresh for onboarding, transaction monitoring and enhanced CDD roles, examples only; AUSTRAC e-learning cannot be relied on solely", "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training" },
+    { "claim": "FSA Guidelines (revised March 31, 2026) III-5 human resource development required actions", "source": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf" },
+    { "claim": "CBUAE best practices on role based AML/CFT/CPF training include annual training needs assessment", "source": "https://rulebook.centralbank.ae/en/rulebook/best-practices-licensed-financial-institutions-implementing-role-based-amlcftcpf-training" }
+  ]
+}
