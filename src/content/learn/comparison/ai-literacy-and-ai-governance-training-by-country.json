@@ -1,0 +1,325 @@
+{
+  "slug": "ai-literacy-and-ai-governance-training-by-country",
+  "kind": "comparison",
+  "title": "AI literacy and AI governance training by country: the EU, the US, Japan, Australia and the UAE compared",
+  "seoTitle": "AI literacy training rules by country",
+  "description": "Where AI literacy training is a legal duty and where it is voluntary: the EU AI Act, NIST AI RMF, Japan's AI Guidelines, plus Australia and the UAE.",
+  "shortAnswer": "Only the European Union makes AI literacy a legal obligation for businesses: Article 4 of the EU AI Act requires providers and deployers of AI systems to take measures to support their staff's AI literacy, and it has applied since February 2, 2025. The United States relies on the voluntary NIST AI Risk Management Framework, and Japan on voluntary AI Guidelines for Business. This library documents no binding AI training rule for private employers in Australia or the UAE.",
+  "keyTakeaways": [
+    "The EU AI Act Article 4 is the only binding, economy wide AI literacy duty among the five markets; the Digital Omnibus (Regulation (EU) 2026/1744) kept it but removed any guaranteed level of literacy per individual.",
+    "The US NIST AI RMF expects AI risk management training for personnel and partners (GOVERN 2.2), but it is voluntary; federal agencies face training duties for AI operators under OMB memo M-25-21.",
+    "Japan's AI Guidelines for Business (version 1.2, March 31, 2026) expect role appropriate AI literacy education, but describe themselves as non binding soft law, and the AI Promotion Act has no penalties.",
+    "Australia and the UAE have no AI literacy training rule documented in this library; Australia's PSPF Release 2026 lists training on AI use for Commonwealth entities only.",
+    "A multinational can treat the EU Article 4 duty as its global floor, then use NIST and Japanese role guidance to shape content, with ISO/IEC 42001 as the certifiable layer."
+  ],
+  "sections": [
+    {
+      "id": "comparison-table",
+      "heading": "How does AI literacy and AI governance training compare by market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The markets range from a binding legal duty in the EU to voluntary frameworks in the United States and Japan, and no documented rule in Australia or the UAE. Because AI regulation is moving quickly, the table reflects the position as at November 2026."
+        },
+        {
+          "type": "table",
+          "caption": "AI literacy and AI governance training expectations by market, as at November 2026",
+          "head": [
+            "Market",
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency",
+            "Evidence",
+            "Regulator"
+          ],
+          "rows": [
+            [
+              "European Union (including Portugal)",
+              "Regulation (EU) 2024/1689 (AI Act) Article 4, as replaced by Regulation (EU) 2026/1744; Article 26(2) for high risk deployers",
+              "Providers and deployers of AI systems, including organizations using general purpose AI tools at work",
+              "Binding: take measures to support the AI literacy of staff and others using AI on their behalf; human oversight staff need competence, training and authority",
+              "Not set",
+              "No certificate required; the Commission says an internal record of training and other initiatives is enough",
+              "National market surveillance authorities, supported by the AI Office"
+            ],
+            [
+              "United States",
+              "NIST AI RMF 1.0 GOVERN 2.2; NIST AI 600-1; OMB M-25-21 for federal agencies",
+              "Organizations that choose to align; federal agencies operating AI",
+              "Voluntary for business; federal agencies must provide sufficient and periodic training for AI operators",
+              "Federal: periodic. Business: not set",
+              "Not prescribed; the DOJ asks how companies train employees on AI",
+              "No enforcing regulator for the RMF; OMB for agencies"
+            ],
+            [
+              "Japan",
+              "AI Guidelines for Business version 1.2 (principle 8); AI Promotion Act (Act No. 53 of 2025)",
+              "AI developers, providers and business users in Japan, including overseas operators under the Act",
+              "Voluntary: education to reach AI literacy sufficient for each person's role; no statutory training duty",
+              "Not set",
+              "Not prescribed; Guidelines suggest evaluating employee AI proficiency",
+              "MIC and METI (Guidelines); Cabinet Office (Act)"
+            ],
+            [
+              "Australia",
+              "No economy wide instrument documented; PSPF Release 2026 for Commonwealth entities",
+              "Commonwealth entities only, for the PSPF",
+              "None documented for private employers; the PSPF Release 2026 announcement lists training on AI use",
+              "Not set",
+              "Not documented",
+              "Department of Home Affairs (PSPF)"
+            ],
+            [
+              "United Arab Emirates",
+              "No instrument documented in this library",
+              "Not compared",
+              "None documented",
+              "Not applicable",
+              "Not applicable",
+              "Not applicable"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-binding",
+      "heading": "Is AI literacy training legally required anywhere?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yes, in the EU. Article 4 of the AI Act binds every provider and deployer of an AI system, not only those using high risk AI, and it applies directly in Portugal and every other Member State."
+        },
+        {
+          "type": "p",
+          "text": "The original Article 4 required measures to ensure, to the best extent, a sufficient level of AI literacy. Regulation (EU) 2026/1744, the Digital Omnibus on AI, replaced it in July 2026: organizations must take measures to support the development of AI literacy, with no requirement to guarantee a specific level for any individual. National market surveillance authorities supervise and enforce Article 4 from August 2026, with penalties set in national law ([EU AI Act AI literacy](/regulations/eu-ai-act-ai-literacy)). Separately, Article 26(2) requires deployers of high risk AI to assign human oversight to people with the necessary competence, training and authority, applying from December 2, 2027 for Annex III systems after the Omnibus."
+        }
+      ]
+    },
+    {
+      "id": "voluntary-frameworks",
+      "heading": "How do the US and Japanese frameworks differ from the EU rule?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Both are voluntary and both are more specific about content than the EU rule. They describe what good AI training covers; the EU rule makes some training mandatory but says little about content."
+        },
+        {
+          "type": "p",
+          "text": "The NIST AI RMF's GOVERN 2.2 states that \"The organization's personnel and partners receive AI risk management training to enable them to perform their duties and responsibilities consistent with related policies, procedures, and agreements.\" The framework describes itself as voluntary, but it gains weight through references: the DOJ lists it as a resource for evaluating compliance programs, and Texas HB 149 gives a defense linked to substantial compliance with the Generative AI Profile ([NIST AI RMF training](/regulations/nist-ai-rmf-ai-risk-training)). For federal agencies, OMB memo M-25-21 requires sufficient and periodic training, assessment and oversight for AI operators."
+        },
+        {
+          "type": "p",
+          "text": "Japan's AI Guidelines for Business set common guiding principle 8, Education/literacy: provide people engaged in AI with the education to reach AI literacy sufficient for their engagement. The Appendix gives role specific content, from attack methods for developers to bias, accuracy and spotting false information for business users. The Guidelines call themselves soft law without legally binding force, and the AI Promotion Act has no penalty provisions ([Japan AI Guidelines](/regulations/japan-ai-guidelines-for-business-training))."
+        }
+      ]
+    },
+    {
+      "id": "no-duty-markets",
+      "heading": "What do Australia and the UAE require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "This library documents no AI literacy or AI governance training duty for private employers in Australia or the UAE. That is a statement about current coverage, and groups should confirm the local position before assuming none exists."
+        },
+        {
+          "type": "p",
+          "text": "The one documented Australian reference is in government security: the announcement of the [PSPF Release 2026](/regulations/pspf-security-awareness-training) for Commonwealth entities lists training on AI use among its changes. It does not reach private companies."
+        }
+      ]
+    },
+    {
+      "id": "standardize-localize",
+      "heading": "What should a multinational standardize and what should it localize?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Standardize on the EU Article 4 duty as a global floor, because it is the only binding rule and it covers ordinary workplace use of general purpose AI. Localize role content, regulatory references and human oversight training for high risk systems."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative standardize and localize split for AI literacy and governance training",
+          "head": [
+            "Element",
+            "Standardize",
+            "Localize"
+          ],
+          "rows": [
+            [
+              "Baseline literacy",
+              "All staff who use AI: capabilities, limits, accuracy checks, acceptable use",
+              "EU Article 4 record of measures; Japanese delivery and examples"
+            ],
+            [
+              "Role content",
+              "Developers, providers, business users, governance leads",
+              "Japan Appendix role topics; NIST GOVERN 2.2 Playbook topics by AI actor group"
+            ],
+            [
+              "Human oversight",
+              "Training for anyone who reviews or can override AI output",
+              "EU Article 26(2) and Article 14(4) for high risk deployers from December 2, 2027"
+            ],
+            [
+              "Governance",
+              "AI management system competence (ISO/IEC 42001 clause 7.2)",
+              "OMB M-25-21 for US federal work; PSPF for Australian Commonwealth work"
+            ],
+            [
+              "Evidence",
+              "Internal record of who received which measure, with content version",
+              "No certificate needed in the EU; DOJ focus on how employees are trained on AI"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Groups that want a certifiable layer often add [ISO/IEC 42001](/regulations/iso-iec-42001-competence-and-awareness), whose competence and awareness clauses sit naturally over all five markets; the [ISO/IEC 42001 and NIST AI RMF comparison](/compare/iso-42001-vs-nist-ai-rmf) explains how the two fit together. The [AI literacy](/glossary/ai-literacy) definition and the guide to [building an AI literacy training program](/guides/how-to-build-an-ai-literacy-training-program) cover program design."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models AI literacy as a framework of concepts, roles and assessment points before content is written, so the EU floor and each voluntary framework's role guidance are explicit and traceable. That framework also governs AI assisted content itself, with provenance on every item. See [framework intelligence](/platform/framework-intelligence)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the EU AI Act require a certificate for AI literacy?",
+      "a": "No. The European Commission says no certificate is needed and that an internal record of training and other initiatives is enough. After the Digital Omnibus, organizations must take measures to support AI literacy but need not guarantee a specific level for any individual."
+    },
+    {
+      "q": "Does Article 4 apply to companies outside the EU?",
+      "a": "It applies to providers of AI systems placed on the EU market or put into service in the EU, including providers established outside the EU, and to deployers established or located in the EU. A non EU group's EU subsidiaries using AI at work are deployers."
+    },
+    {
+      "q": "Is the NIST AI RMF mandatory for US companies?",
+      "a": "No. NIST describes it as voluntary. It becomes expected through customers, regulators and laws that refer to it, such as the DOJ's compliance program guidance and Texas HB 149, which links a defense to substantial compliance with the Generative AI Profile."
+    },
+    {
+      "q": "Will Japan make AI literacy training mandatory?",
+      "a": "Nothing in current Japanese law does. The AI Promotion Act, fully in force from September 1, 2025, has no penalty provisions and does not require businesses to train staff. The Second AI Basic Plan of July 14, 2026 promotes literacy across organizations as policy, not as a legal duty."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "title": "Regulation (EU) 2026/1744 amending Regulation (EU) 2024/1689 (Digital Omnibus on AI)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    },
+    {
+      "title": "AI Literacy: Questions and Answers",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+    },
+    {
+      "title": "M-25-21: Accelerating Federal Use of AI through Innovation, Governance, and Public Trust",
+      "publisher": "Office of Management and Budget, Executive Office of the President",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf"
+    },
+    {
+      "title": "H.B. No. 149 (Texas Responsible Artificial Intelligence Governance Act), enrolled version",
+      "publisher": "Texas Legislature",
+      "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.htm"
+    },
+    {
+      "title": "AI Guidelines for Business Ver1.2 (provisional English translation)",
+      "publisher": "Ministry of Internal Affairs and Communications and Ministry of Economy, Trade and Industry",
+      "url": "https://www.soumu.go.jp/main_content/001080990.pdf"
+    },
+    {
+      "title": "Act on Promotion of Research and Development, and Utilization of AI-related Technology (Act No. 53 of 2025), Japanese text",
+      "publisher": "Digital Agency, e-Gov Laws",
+      "url": "https://laws.e-gov.go.jp/law/507AC0000000053"
+    },
+    {
+      "title": "PSPF Release 2026 now available",
+      "publisher": "Department of Home Affairs",
+      "url": "https://www.protectivesecurity.gov.au/news/pspf-release-2026-now-available"
+    }
+  ],
+  "related": [
+    "eu-ai-act-ai-literacy",
+    "nist-ai-rmf-ai-risk-training",
+    "japan-ai-guidelines-for-business-training",
+    "iso-iec-42001-competence-and-awareness",
+    "iso-42001-vs-nist-ai-rmf",
+    "ai-literacy"
+  ],
+  "productLinks": [
+    {
+      "label": "Framework intelligence",
+      "href": "/platform/framework-intelligence"
+    },
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "AI Act Chapters I and II (including Article 4) apply from 2 February 2025; directly applicable; Article 26(2) human oversight competence, training and authority",
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "claim": "Regulation (EU) 2026/1744 replaced Article 4: support AI literacy, no guaranteed individual level; Annex III high risk obligations from 2 December 2027",
+      "source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    },
+    {
+      "claim": "Commission: national market surveillance authorities enforce from August 2026; no certificate; internal record suffices",
+      "source": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers"
+    },
+    {
+      "claim": "NIST AI RMF GOVERN 2.2 verbatim; framework intended to be voluntary",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+    },
+    {
+      "claim": "OMB M-25-21 Section 4(b)(iv): sufficient and periodic training for AI operators",
+      "source": "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf"
+    },
+    {
+      "claim": "DOJ ECCP lists the NIST AI RMF as a resource and asks how employees are trained on AI",
+      "source": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "claim": "Texas HB 149 defense linked to substantial compliance with the NIST Generative AI Profile",
+      "source": "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.htm"
+    },
+    {
+      "claim": "Japan AI Guidelines version 1.2: non binding soft law; principle 8 Education/literacy",
+      "source": "https://www.soumu.go.jp/main_content/001080990.pdf"
+    },
+    {
+      "claim": "AI Promotion Act (Act No. 53 of 2025) has no penalty provisions",
+      "source": "https://laws.e-gov.go.jp/law/507AC0000000053"
+    },
+    {
+      "claim": "Second AI Basic Plan Cabinet decision July 14, 2026",
+      "source": "https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html"
+    },
+    {
+      "claim": "PSPF Release 2026 announcement lists training on AI use",
+      "source": "https://www.protectivesecurity.gov.au/news/pspf-release-2026-now-available"
+    }
+  ]
+}

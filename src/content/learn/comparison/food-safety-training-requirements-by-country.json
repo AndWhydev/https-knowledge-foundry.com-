@@ -1,0 +1,339 @@
+{
+  "slug": "food-safety-training-requirements-by-country",
+  "kind": "comparison",
+  "title": "Food safety training requirements by country: Australia, the EU and Portugal, the US and Japan compared",
+  "seoTitle": "Food safety training by country",
+  "description": "How food handler training, food safety supervisors, HACCP training and refresher cycles compare in Australia, the EU and Portugal, the US and Japan.",
+  "shortAnswer": "Australia, the EU, the United States and Japan all require food businesses to train food handlers, and most also require a named, qualified person on site. Australia requires a certified food safety supervisor renewed every five years, the US FDA Food Code model a certified food protection manager, and Japan a food hygiene manager. The EU instead requires training commensurate with each person's work and HACCP training for those running the food safety procedure. Few rules fix a refresher interval.",
+  "keyTakeaways": [
+    "A named, qualified person is the common core: Australia's food safety supervisor (certificate under five years old), the FDA Food Code's certified food protection manager, and Japan's food hygiene manager (shokuhin eisei sekininsha).",
+    "The EU's Regulation (EC) No 852/2004 sets no hours, certificate or refresher interval; training must be commensurate with each person's work, and formal courses are not mandatory.",
+    "Only the US Produce Safety Rule fixes an annual training interval (on hiring and at least once a year); FSANZ says no refresher period is set for Australian food handlers.",
+    "US federal rules for manufacturers and farms require training records kept at least two years; Australia's Standard 3.2.2A has no training record rule but category one businesses keep critical control records for three months.",
+    "This library does not yet document a UAE food safety training rule, so the UAE is not compared."
+  ],
+  "sections": [
+    {
+      "id": "comparison-table",
+      "heading": "How do food safety training rules compare by market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Four markets are compared, and all four require training for food handlers. They differ on whether a named supervisor must hold a certificate, how that certificate is obtained, and whether training must be repeated on a schedule. The table summarizes each as at November 2026."
+        },
+        {
+          "type": "table",
+          "caption": "Food safety training obligations by market, as at November 2026",
+          "head": [
+            "Market",
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency",
+            "Evidence",
+            "Regulator"
+          ],
+          "rows": [
+            [
+              "Australia",
+              "Food Standards Code Standard 3.2.2A; state food acts (for example NSW Food Act 2003, Queensland Food Act 2006)",
+              "Category one and two food service, catering and retail businesses",
+              "Food handlers complete a training course or have equivalent skills before handling; a certified food safety supervisor must be appointed",
+              "Supervisor certificate issued within the previous five years; no refresher period set for handlers",
+              "Category one businesses keep critical control records for three months; NSW requires the supervisor certificate on premises",
+              "FSANZ develops the standard; state and territory food regulators and councils enforce it"
+            ],
+            [
+              "EU and Portugal",
+              "Regulation (EC) No 852/2004, Annex II Chapter XII and Chapter XIa",
+              "Food business operators",
+              "Handlers supervised and instructed or trained commensurate with their work; HACCP training for those responsible for the HACCP based procedure; national training rules",
+              "No interval; refresher frequency according to needs and demonstrated skills",
+              "Not prescribed; records commensurate with business size",
+              "Member State competent authorities (in Portugal, ASAE inspects the food area)"
+            ],
+            [
+              "United States (retail)",
+              "FDA Food Code (model code, 2026 edition) sections 2-102.11, 2-102.12 and 2-103.11",
+              "Food establishments in jurisdictions that adopt the Food Code",
+              "Person in charge must be a certified food protection manager; employees properly trained in food safety including allergy awareness",
+              "Not set in the model",
+              "Certification through an accredited program",
+              "State, local, tribal and territorial authorities; FDA publishes the model"
+            ],
+            [
+              "United States (manufacturing and farms)",
+              "FSMA rules: 21 CFR 117 (preventive controls) and 21 CFR 112 (produce safety)",
+              "Registered food facilities; covered farms",
+              "All food workers trained in food hygiene and safety; preventive controls qualified individual (PCQI) for the food safety plan; one farm supervisor with recognized curriculum training",
+              "Produce: on hiring and at least annually. Part 117: not set",
+              "Training records (date, type or topics, persons trained) kept at least two years",
+              "US Food and Drug Administration (FDA)"
+            ],
+            [
+              "Japan",
+              "Food Sanitation Act Article 51; Enforcement Regulation Appended Table 17",
+              "Almost every food business operator since June 1, 2021",
+              "Appoint a food hygiene manager qualified by profession or prefectural course; educate food handlers",
+              "Periodic verification of training effectiveness; periodic course attendance for licensed businesses' managers",
+              "HACCP based plan, procedures and records",
+              "Ministry of Health, Labour and Welfare (MHLW) with prefectures and designated cities"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "named-person",
+      "heading": "Does every market require a certified food safety supervisor?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Australia, the US Food Code model and Japan require a named, qualified person; the EU does not at regulation level, though Member States can add national training rules."
+        },
+        {
+          "type": "p",
+          "text": "Australia's Standard 3.2.2A requires category one and two businesses to appoint a food safety supervisor holding a certificate issued within the preceding five years and reasonably available to advise and supervise handlers ([Standard 3.2.2A](/regulations/food-safety-standard-3-2-2a-training)). New South Wales requires at least one supervisor per premises, with recertification available only up to 90 days after expiry ([NSW food safety supervisors](/regulations/nsw-food-safety-supervisor-requirements)), and Queensland requires licensees to have a supervisor within 30 days of licensing ([Queensland food safety supervisors](/regulations/queensland-food-safety-supervisor-requirements))."
+        },
+        {
+          "type": "p",
+          "text": "In the United States, Food Code section 2-102.12(A) says the person in charge shall be a certified food protection manager who passed a test in an accredited program, but the Food Code binds a restaurant only where its authority has adopted it ([FDA Food Code](/regulations/fda-food-code-certified-food-protection-manager)). In Japan, Appended Table 17 item 1 requires every operator to appoint a food hygiene manager, qualified by profession such as cook or dietitian, or by completing a prefectural course ([Japan Food Sanitation Act](/regulations/japan-food-sanitation-act-haccp-and-food-hygiene-manager)). The EU's Regulation 852/2004 requires HACCP training for those responsible for the HACCP based procedure, but names no supervisor role ([EU food hygiene](/regulations/eu-food-hygiene-training-requirements))."
+        }
+      ]
+    },
+    {
+      "id": "frequency",
+      "heading": "How often must food handlers be retrained?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rarely on a fixed schedule. Only the US Produce Safety Rule requires annual training; elsewhere the rules rely on certificate renewal, needs based refreshers or verification of effectiveness."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**United States, farms:** 21 CFR 112.21(a) requires training on hiring and at least once annually for everyone who handles covered produce or food contact surfaces, and their supervisors ([Produce Safety Rule](/regulations/fsma-produce-safety-rule-worker-training)).",
+            "**Australia:** FSANZ has set no refresher period for food handler training and calls regular refreshers best practice; supervisors must renew every five years.",
+            "**EU:** the Commission's 2022 guidance says refresher training and its frequency should be considered according to the needs of the establishment and demonstrated skills.",
+            "**Japan:** operators must periodically verify the effectiveness of handler education and revise it, and managers of licensed businesses attend periodic courses."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "heading": "Do manufacturers face different training rules from restaurants?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "In the United States, yes: food manufacturers and farms follow federal FSMA rules, while restaurants follow state adoptions of the Food Code. The other markets use one framework for both, scaled by risk."
+        },
+        {
+          "type": "p",
+          "text": "Under 21 CFR 117.4, every individual who manufactures, processes, packs or holds food must be trained in food hygiene and food safety, and the food safety plan must be prepared or overseen by a [preventive controls qualified individual](/regulations/fsma-preventive-controls-qualified-individual-training) qualified through training equivalent to an FDA recognized curriculum or job experience. The EU applies Regulation 852/2004 across the chain, and Japan's HACCP rules apply to almost all operators, with a simplified approach for establishments with fewer than 50 food handling staff."
+        }
+      ]
+    },
+    {
+      "id": "standardize-localize",
+      "heading": "What should a multinational standardize and what should it localize?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Standardize the handler curriculum, HACCP competence and the record schema; localize the supervisor credential, which in every market must come from a locally recognized provider."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative standardize and localize split for food safety training",
+          "head": [
+            "Element",
+            "Standardize",
+            "Localize"
+          ],
+          "rows": [
+            [
+              "Handler curriculum",
+              "Safe handling, contamination, cleaning and sanitizing, personal hygiene, allergens",
+              "NSW key focus areas; Food Code 2026 food defense awareness; EU training commensurate with role"
+            ],
+            [
+              "Supervisor credential",
+              "Role description and authority to direct handlers",
+              "Australian certificate from a recognized provider; US accredited certification; Japanese professional or prefectural course"
+            ],
+            [
+              "HACCP competence",
+              "HACCP principles for plan owners",
+              "US PCQI curriculum; EU HACCP training; Japan simplified approach for small operators"
+            ],
+            [
+              "Refreshers",
+              "Annual refresher as a group default",
+              "US produce annual minimum; Australian five year supervisor renewal"
+            ],
+            [
+              "Records",
+              "Date, topics, persons trained, verification method",
+              "Two year retention under US FSMA rules; certificate on premises in NSW"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "An annual group refresher meets the only fixed interval in this comparison and is consistent with FSANZ's best practice advice. The EU's food safety culture rules, which since March 2021 require management to ensure appropriate training and supervision, make a documented [training needs analysis](/glossary/training-needs-analysis) a sensible common layer, and [converting SOPs into training](/guides/how-to-convert-sops-into-training) keeps site procedures and courses aligned."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry structures food safety obligations as concepts, roles and assessment points before content is written, so one handler curriculum carries local supervisor and HACCP overlays and each record links to the rule it evidences. See [operational procedures programs](/programs/operational-procedures)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is the FDA Food Code federal law?",
+      "a": "No. It is a model code that FDA publishes for adoption by state, local, tribal and federal jurisdictions. Its certified food protection manager requirement binds a restaurant only where its regulatory authority has adopted a Food Code edition that includes it."
+    },
+    {
+      "q": "Does EU law require food handlers to hold a certificate?",
+      "a": "No. Regulation 852/2004 requires supervision and instruction or training commensurate with each person's work, and the Commission says skills can come from on the job training, guides to good practice and professional advice. Member States can add national training requirements."
+    },
+    {
+      "q": "How long does an Australian food safety supervisor certificate last?",
+      "a": "Standard 3.2.2A requires the certificate to have been issued within the preceding five years. In New South Wales certificates expire five years from issue, and recertification courses are available only up to 90 days after expiry."
+    },
+    {
+      "q": "Does the UAE have food safety training rules?",
+      "a": "This library does not yet document a UAE food safety training regime, so this comparison makes no claim about it. Groups operating food businesses in the UAE should confirm the requirements of the relevant emirate's food authority."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Australia New Zealand Food Standards Code: Standard 3.2.2A Food Safety Management Tools",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/F2022L01589/latest/text"
+    },
+    {
+      "title": "Food handler training",
+      "publisher": "Food Standards Australia New Zealand",
+      "url": "https://www.foodstandards.gov.au/business/food-safety/food-handler-training"
+    },
+    {
+      "title": "Food Safety Supervisors (FSS)",
+      "publisher": "NSW Food Authority",
+      "url": "https://www.foodauthority.nsw.gov.au/retail/fss-food-safety-supervisors"
+    },
+    {
+      "title": "Regulation (EC) No 852/2004, consolidated version of 24 March 2021",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02004R0852-20210324"
+    },
+    {
+      "title": "Commission Notice on the implementation of food safety management systems covering Good Hygiene Practices and procedures based on the HACCP principles (2022/C 355/01)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022XC0916(01)"
+    },
+    {
+      "title": "FDA Food Code",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/food/retail-food-protection/fda-food-code"
+    },
+    {
+      "title": "21 CFR 117.4: Qualifications of individuals who manufacture, process, pack, or hold food",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/21/117.4"
+    },
+    {
+      "title": "21 CFR 112.21: Requirements for personnel qualifications and training",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/21/112.21"
+    },
+    {
+      "title": "食品衛生法施行規則 (Ordinance for Enforcement of the Food Sanitation Act)",
+      "publisher": "e-Gov Laws and Regulations, Digital Agency",
+      "url": "https://laws.e-gov.go.jp/law/323M40000100023"
+    },
+    {
+      "title": "HACCP (ハサップ)",
+      "publisher": "Ministry of Health, Labour and Welfare",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/haccp/index.html"
+    }
+  ],
+  "related": [
+    "food-safety-standard-3-2-2a-training",
+    "eu-food-hygiene-training-requirements",
+    "fda-food-code-certified-food-protection-manager",
+    "fsma-preventive-controls-qualified-individual-training",
+    "japan-food-sanitation-act-haccp-and-food-hygiene-manager",
+    "nsw-food-safety-supervisor-requirements"
+  ],
+  "productLinks": [
+    {
+      "label": "Operational procedures programs",
+      "href": "/programs/operational-procedures"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "Standard 3.2.2A commenced 8 December 2023; 3.2.2A-10 handler training; 3.2.2A-11 supervisor; supervisor certificate within preceding 5 years; course content",
+      "source": "https://www.legislation.gov.au/F2022L01589/latest/text"
+    },
+    {
+      "claim": "FSANZ: no specific refresher period set for food handler training; regular refreshers best practice",
+      "source": "https://www.foodstandards.gov.au/business/food-safety/food-handler-training"
+    },
+    {
+      "claim": "Category one businesses keep substantiating records for 3 months",
+      "source": "https://www.foodstandards.gov.au/business/food-safety/evidence-tool"
+    },
+    {
+      "claim": "NSW: FSS per premises; certificate renewed every 5 years; recertification up to 90 days after expiry; copy kept on premises",
+      "source": "https://www.foodauthority.nsw.gov.au/retail/fss-food-safety-supervisors"
+    },
+    {
+      "claim": "Queensland Food Act s86: food safety supervisor within 30 days after licence issued",
+      "source": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-2006-003"
+    },
+    {
+      "claim": "Regulation 852/2004 Annex II Chapter XII training duties; Chapter XIa food safety culture training and supervision",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02004R0852-20210324"
+    },
+    {
+      "claim": "Commission Notice 2022: refresher frequency according to needs and demonstrated skills; training need not be formal courses",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022XC0916(01)"
+    },
+    {
+      "claim": "ASAE lists a food area in its inspection and enforcement plan",
+      "source": "https://www.asae.gov.pt/"
+    },
+    {
+      "claim": "Food Code is a model for adoption; 2-102.12(A) certified food protection manager; 2-103.11(O) employee training including allergy awareness; 2026 edition adds food defense",
+      "source": "https://www.fda.gov/media/194741/download?attachment"
+    },
+    {
+      "claim": "21 CFR 117.4 training in food hygiene and food safety with records; 117.180 PCQI; 117.315 two year retention",
+      "source": "https://www.law.cornell.edu/cfr/text/21/117.4"
+    },
+    {
+      "claim": "21 CFR 112.21(a) training on hiring and at least once annually; 112.22(c) supervisor curriculum; 112.30(b) records; 112.164 two years",
+      "source": "https://www.law.cornell.edu/cfr/text/21/112.21"
+    },
+    {
+      "claim": "Japan HACCP based hygiene control for in principle all operators from June 1, 2021",
+      "source": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/haccp/index.html"
+    },
+    {
+      "claim": "Appended Table 17 item 1 food hygiene manager and qualifications; item 13 handler education and periodic verification; Article 66-4 fewer than 50 staff",
+      "source": "https://laws.e-gov.go.jp/law/323M40000100023"
+    }
+  ]
+}

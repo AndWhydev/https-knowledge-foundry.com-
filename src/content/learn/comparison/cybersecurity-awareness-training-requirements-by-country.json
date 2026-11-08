@@ -1,0 +1,352 @@
+{
+  "slug": "cybersecurity-awareness-training-requirements-by-country",
+  "kind": "comparison",
+  "title": "Cybersecurity awareness training requirements by country: Australia, the EU and Portugal, the US and the UAE compared",
+  "seoTitle": "Cyber awareness training by country",
+  "description": "How cybersecurity awareness training duties compare across Australia, the EU and Portugal, the US and the UAE, including board training and annual cycles.",
+  "shortAnswer": "Cybersecurity awareness training duties in Australia, the EU and Portugal, the United States and the UAE apply by sector, not to every employer. Financial entities, critical and essential service operators, government bodies and defense contractors face explicit duties, often with an annual minimum: New York's Part 500, US federal agencies and Australia's protective security framework all set one. The EU stands out for requiring management body members themselves to be trained, under NIS2 and DORA.",
+  "keyTakeaways": [
+    "Cyber training duties attach to sectors: prudential and financial regulation (APRA CPS 234, DORA, NYDFS Part 500, the FTC Safeguards Rule), essential services (NIS2, the SOCI Act), government (PSPF, ISM, FISMA, the UAE IA Regulation) and defense supply chains (CMMC).",
+    "Explicit annual minimums appear in NYDFS 23 NYCRR 500.14(a)(3), 5 CFR 930.301 for US federal systems, PSPF Requirement 0024, the DFSA and ADGM rulebooks for UAE free zone firms, and as a recommendation in Australia's ISM-0252.",
+    "Board level training is explicit in the EU: NIS2 Article 20(2) requires management body members to follow training, and DORA Article 5(4) requires regular specific training to keep ICT risk knowledge current.",
+    "This library does not yet document a Japanese cybersecurity training rule, so Japan is not compared here.",
+    "A multinational can standardize an annual, risk updated awareness program with phishing and social engineering content, then localize board training, role groups and record formats."
+  ],
+  "sections": [
+    {
+      "id": "comparison-table",
+      "heading": "How do cybersecurity awareness training duties compare by market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Every market covered here has explicit cyber training duties, but none has a single rule for all employers. The duty depends on whether the organization is a regulated financial entity, an operator of essential or critical services, a government body or a defense supplier. The table shows the main instruments as at November 2026."
+        },
+        {
+          "type": "table",
+          "caption": "Cybersecurity awareness training obligations by market, as at November 2026",
+          "head": [
+            "Market",
+            "Instrument",
+            "Who it covers",
+            "Training duty",
+            "Frequency",
+            "Evidence",
+            "Regulator"
+          ],
+          "rows": [
+            [
+              "Australia",
+              "APRA CPS 234; ASD Information Security Manual (ISM); PSPF Release 2026; SOCI Act CIRMP Rules",
+              "APRA regulated banks, insurers and super funds; Commonwealth entities; responsible entities for critical infrastructure assets",
+              "CPS 234: direction on responsibilities for all staff, with training detail in CPG 234. PSPF and ISM: explicit awareness training. SOCI: no training wording; insider risk controls",
+              "PSPF: at engagement and annually. ISM-0252: annually (recommended). CPS 234: on commencement and periodically (guidance)",
+              "ISM-2022 training register; CPG 234 tracking and testing of understanding",
+              "APRA; Australian Signals Directorate; Department of Home Affairs; Cyber and Infrastructure Security Centre"
+            ],
+            [
+              "EU and Portugal",
+              "NIS2 Directive (EU) 2022/2555, transposed in Portugal by Decree-Law 125/2025; DORA Regulation (EU) 2022/2554",
+              "NIS2: essential and important entities in listed sectors. DORA: twenty types of financial entity",
+              "NIS2: management body members must follow training; cyber hygiene and training are minimum measures. DORA: compulsory awareness and resilience training modules for all employees and senior management",
+              "NIS2: regular training encouraged for employees. DORA: regular specific training for the management body",
+              "Implementing Regulation (EU) 2024/2690 expects training effectiveness to be assessed for digital providers",
+              "National competent authorities (in Portugal, CNCS; Banco de Portugal, CMVM and ASF for DORA)"
+            ],
+            [
+              "United States",
+              "NYDFS 23 NYCRR Part 500; FTC Safeguards Rule 16 CFR 314.4(e); FISMA and 5 CFR 930.301; CMMC (32 CFR Part 170)",
+              "New York licensed financial entities; non bank financial institutions under FTC jurisdiction; federal agencies and system users; defense contractors handling CUI",
+              "Explicit awareness training in each; role based training for security staff in FTC, FISMA and CMMC rules",
+              "NYDFS: at least annually. Federal systems: at least annually and before access. CMMC Level 3: at hire, after a significant event and at least annually. FTC: no fixed interval",
+              "NYDFS annual certification by April 15; FISMA annual Inspector General evaluation",
+              "NYDFS; FTC; OMB and OPM; Department of Defense"
+            ],
+            [
+              "United Arab Emirates",
+              "UAE Information Assurance Regulation Version 1.1 (March 2020), control family M3; DFSA GEN 5.5.14; ADGM FSRA GEN 3.5.13",
+              "Government entities and entities designated critical under the CIIP Policy; financial firms in the DIFC and ADGM free zones",
+              "IA Regulation: awareness program and documented training needs analysis are Always Applicable controls. DFSA and ADGM: comprehensive cyber training program",
+              "DFSA and ADGM: at least annually for relevant employees. IA controls: not fixed",
+              "Records of education, training, skills, experience and qualifications; effectiveness evaluation",
+              "TDRA; Dubai Financial Services Authority; ADGM Financial Services Regulatory Authority"
+            ],
+            [
+              "Japan",
+              "Not documented in this library",
+              "Not compared",
+              "No cybersecurity training rule recorded here",
+              "Not applicable",
+              "Not applicable",
+              "Not applicable"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who-must-train",
+      "heading": "Which organizations have an explicit cyber training duty?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Explicit duties fall on four groups: financial entities, essential and critical service operators, government bodies, and defense contractors. An ordinary commercial employer outside those groups usually has no cyber specific training rule, although privacy and security laws may imply one."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Financial entities:** [APRA CPS 234](/regulations/apra-cps-234-security-awareness-training) in Australia, [DORA](/regulations/dora-ict-security-awareness-training) in the EU, [NYDFS Part 500](/regulations/nydfs-part-500-cybersecurity-training-requirements) in New York the [FTC Safeguards Rule](/regulations/ftc-safeguards-rule-employee-training) for US non bank institutions, and the [DFSA](/regulations/dfsa-training-and-competence-requirements) and [ADGM FSRA](/regulations/adgm-fsra-training-and-competence) rulebooks for UAE free zone firms.",
+            "**Essential and critical services:** [NIS2](/regulations/nis2-management-body-training) in the EU and, in Australia, the [SOCI Act CIRMP Rules](/regulations/soci-act-critical-infrastructure-personnel-training), which do not use the word training but require insider risk controls.",
+            "**Government:** Australia's [PSPF](/regulations/pspf-security-awareness-training) and [ISM](/regulations/ism-cyber-security-awareness-training), US [federal employee training under FISMA](/regulations/federal-employee-cybersecurity-awareness-training), and the [UAE IA Regulation](/regulations/uae-information-assurance-awareness-training) for government and critical entities.",
+            "**Defense supply chain:** [CMMC](/regulations/cmmc-security-awareness-training) Level 2 includes security awareness, role based training and insider threat awareness for contractors handling Controlled Unclassified Information; Level 1 has no training requirement."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequency",
+      "heading": "Is annual cyber awareness training required?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Annual training is explicitly required in several instruments, but it is not universal: APRA, the FTC, NIS2 and the UAE IA controls leave the interval to the organization."
+        },
+        {
+          "type": "p",
+          "text": "Section 500.14(a)(3) of the NYDFS regulation requires \"periodic, but at a minimum annual\" awareness training that includes social engineering, and the small entity exemption does not remove it. Under 5 CFR 930.301(a)(1), \"All users of Federal information systems must be exposed to security awareness materials at least annually,\" and new employees before system access. PSPF Requirement 0024 requires training at engagement and annually for Commonwealth personnel including contractors, and ISM-0252 recommends annual training for all personnel. CMMC Level 3 adds training at hire, after a significant cyber event and at least annually."
+        },
+        {
+          "type": "p",
+          "text": "In the UAE's financial free zones, DFSA rule GEN 5.5.14 and ADGM rule GEN 3.5.13 each require relevant employees to be trained at least annually under a comprehensive cyber training program."
+        }
+      ]
+    },
+    {
+      "id": "board-training",
+      "heading": "Do boards and senior managers have to be trained?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yes in the EU, where both NIS2 and DORA name management body training. Elsewhere, board knowledge is expected but framed as understanding rather than training."
+        },
+        {
+          "type": "p",
+          "text": "NIS2 Article 20(2) requires members of management bodies to follow training so they can identify risks and assess cybersecurity risk management practices, and Portugal's Decree-Law 125/2025 requires management bodies to ensure regular training. DORA Article 5(4) requires management body members to keep their ICT risk knowledge current, \"including by following specific training on a regular basis\". In New York, 500.4(d)(1) requires the senior governing body to have sufficient understanding of cybersecurity to oversee the program, which may include the use of advisors. APRA's CPS 234 does not mandate a specific training course for boards or anyone else; its training expectations sit in the CPG 234 guide."
+        }
+      ]
+    },
+    {
+      "id": "standardize-localize",
+      "heading": "What should a multinational standardize and what should it localize?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Standardize an annual, risk updated awareness program for all staff with social engineering and phishing content, plus role based modules for privileged users and security staff. Localize board training, regulator specific topics and record formats."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative standardize and localize split for cybersecurity awareness training",
+          "head": [
+            "Element",
+            "Standardize",
+            "Localize"
+          ],
+          "rows": [
+            [
+              "Interval",
+              "Annual for all staff, and before system access for new joiners",
+              "CMMC Level 3 event triggers; PSPF training at engagement"
+            ],
+            [
+              "Core content",
+              "Phishing, social engineering, incident reporting, password and access hygiene",
+              "PSPF foreign interference topics (Requirement 0219); ISM synthetic impersonation guidance (ISM-2126)"
+            ],
+            [
+              "Risk updates",
+              "Content refreshed from the group cyber risk assessment",
+              "NYDFS and FTC require updates to reflect the entity's own risk assessment"
+            ],
+            [
+              "Role groups",
+              "Privileged users, security staff, developers, executives",
+              "FISMA's five role groups; CMMC insider threat awareness"
+            ],
+            [
+              "Board",
+              "Annual board cyber briefing with an understanding check",
+              "Mandatory management body training under NIS2 and DORA in the EU"
+            ],
+            [
+              "Evidence",
+              "Register of person, role, content version, date and test result",
+              "ISM-2022 training register; NYDFS annual certification; UAE IA records of skills and qualifications"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Treating NIS2 and DORA board training as the global standard costs little and closes the largest structural gap between markets. For staff, the NYDFS rule is a good template everywhere: at least annual, includes social engineering, and updated from the risk assessment. A [role based training](/glossary/role-based-training) design keeps role overlays manageable, and [evidencing training effectiveness](/guides/how-to-evidence-training-effectiveness-to-a-regulator) answers the effectiveness expectations in CPG 234, the UAE IA Regulation and EU Implementing Regulation 2024/2690."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models each cyber instrument's training requirements as concepts, roles and assessment points before content is written, so one awareness core can carry sector and market overlays without duplicated courses. Each record links completion to the requirement it evidences. See [standards and accreditation](/platform/standards-accreditation)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does every company need cybersecurity awareness training by law?",
+      "a": "Not in the markets compared here. Explicit duties attach to financial entities, essential and critical service operators, government bodies and defense contractors. Other employers may still need training to meet general security or privacy duties, but no cyber specific rule names it for them."
+    },
+    {
+      "q": "Do small companies get an exemption from NYDFS training?",
+      "a": "No. The limited exemption in 23 NYCRR 500.19(a) removes several monitoring requirements but not 500.14(a)(3), so small covered entities must still provide at least annual awareness training that includes social engineering."
+    },
+    {
+      "q": "How do NIS2 and DORA interact for EU banks?",
+      "a": "NIS2 recognizes DORA as a sector specific act for financial entities, so EU banks and insurers follow DORA's ICT training rules: compulsory awareness and resilience modules for all employees and senior management, and regular specific training for management body members."
+    },
+    {
+      "q": "Is the UAE IA Regulation mandatory for private companies?",
+      "a": "Only for entities designated critical under the UAE Critical Information Infrastructure Protection Policy, alongside government entities. Other UAE organizations may adopt it voluntarily. For those it binds, the awareness program and training needs analysis are Always Applicable controls."
+    }
+  ],
+  "sources": [
+    {
+      "title": "CPS 234 Information Security",
+      "publisher": "APRA",
+      "url": "https://www.apra.gov.au/standards/cps-234"
+    },
+    {
+      "title": "CPG 234 Information Security",
+      "publisher": "APRA",
+      "url": "https://www.apra.gov.au/practice-guides/cpg-234"
+    },
+    {
+      "title": "Information security manual (September 2026)",
+      "publisher": "Australian Signals Directorate",
+      "url": "https://www.cyber.gov.au/sites/default/files/2026-08/Information%20security%20manual%20%28September%202026%29.pdf"
+    },
+    {
+      "title": "Australian Government Protective Security Policy Framework Release 2026",
+      "publisher": "Department of Home Affairs",
+      "url": "https://www.protectivesecurity.gov.au/system/files/2026-07/pspf-release-2026_6.pdf"
+    },
+    {
+      "title": "Directive (EU) 2022/2555 (NIS 2 Directive)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+    },
+    {
+      "title": "Decreto-Lei n.º 125/2025",
+      "publisher": "Diário da República (Portugal)",
+      "url": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401"
+    },
+    {
+      "title": "Regulation (EU) 2022/2554 on digital operational resilience for the financial sector (DORA)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng"
+    },
+    {
+      "title": "23 NYCRR 500.14 Monitoring and training",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.14"
+    },
+    {
+      "title": "5 CFR 930.301 (current text)",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-5/section-930.301"
+    },
+    {
+      "title": "UAE Information Assurance Regulation, Version 1.1 (March 2020)",
+      "publisher": "Telecommunications and Digital Government Regulatory Authority, via the UAE Government portal",
+      "url": "https://assets.u.ae/api/public/content/0375b824125b4796b0e4928f8ab3d3df?v=e0f902e5"
+    }
+  ],
+  "related": [
+    "nis2-management-body-training",
+    "dora-ict-security-awareness-training",
+    "nydfs-part-500-cybersecurity-training-requirements",
+    "apra-cps-234-security-awareness-training",
+    "uae-information-assurance-awareness-training",
+    "ism-cyber-security-awareness-training"
+  ],
+  "productLinks": [
+    {
+      "label": "Standards and accreditation",
+      "href": "/platform/standards-accreditation"
+    },
+    {
+      "label": "Government and defense",
+      "href": "/industries/government-defence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "CPS 234 para 19 directs all parties; footnote 8 includes all staff and contractors",
+      "source": "https://www.apra.gov.au/standards/cps-234"
+    },
+    {
+      "claim": "CPG 234 Attachment B: tracking training and testing understanding on commencement and periodically",
+      "source": "https://www.apra.gov.au/practice-guides/cpg-234"
+    },
+    {
+      "claim": "ISM-0252 annual awareness training; ISM-2022 training register; ISM-2126 synthetic impersonation",
+      "source": "https://www.cyber.gov.au/sites/default/files/2026-08/Information%20security%20manual%20%28September%202026%29.pdf"
+    },
+    {
+      "claim": "PSPF Requirement 0024 at engagement and annually; 0219 foreign interference topics",
+      "source": "https://www.protectivesecurity.gov.au/system/files/2026-07/pspf-release-2026_6.pdf"
+    },
+    {
+      "claim": "CIRMP Rules do not use the word training; section 9 critical worker and insider risk controls",
+      "source": "https://www.legislation.gov.au/F2023L00112/latest/text"
+    },
+    {
+      "claim": "NIS2 Article 20(2) management body training; Article 21(2)(g) cyber hygiene and training",
+      "source": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+    },
+    {
+      "claim": "Decree-Law 125/2025 transposes NIS2 in Portugal; management bodies ensure regular training",
+      "source": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401"
+    },
+    {
+      "claim": "DORA Article 13(6) compulsory modules for all employees and senior management; Article 5(4) regular specific training",
+      "source": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng"
+    },
+    {
+      "claim": "NYDFS 500.14(a)(3) at minimum annual training including social engineering; not exempted by 500.19(a)",
+      "source": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.19"
+    },
+    {
+      "claim": "5 CFR 930.301(a)(1) at least annually; (b) new employees before access",
+      "source": "https://www.ecfr.gov/current/title-5/section-930.301"
+    },
+    {
+      "claim": "CMMC Level 3 training at hire, after significant cyber event and at least annually; Level 1 no training",
+      "source": "https://www.ecfr.gov/current/title-32/part-170"
+    },
+    {
+      "claim": "UAE IA M3.2.1 and M3.3.1 Always Applicable; records and effectiveness sub-controls; mandatory for government and critical entities",
+      "source": "https://assets.u.ae/api/public/content/0375b824125b4796b0e4928f8ab3d3df?v=e0f902e5"
+    },
+    {
+      "claim": "DFSA GEN 5.5.14 comprehensive cybersecurity training programme with training at least annually for all relevant Employees",
+      "source": "https://dfsaen.thomsonreuters.com/rulebook/gen-5514"
+    },
+    {
+      "claim": "ADGM GEN 3.5.13 comprehensive cyber risk training program with relevant Employees trained at least annually",
+      "source": "https://en.adgm.thomsonreuters.com/rulebook/gen-3513"
+    }
+  ]
+}
