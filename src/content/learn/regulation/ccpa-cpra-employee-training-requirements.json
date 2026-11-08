@@ -1,0 +1,317 @@
+{
+  "slug": "ccpa-cpra-employee-training-requirements",
+  "kind": "regulation",
+  "title": "What employee training does the CCPA require?",
+  "seoTitle": "CCPA and CPRA employee training",
+  "description": "CCPA training duties under Civil Code 1798.130 and 1798.135 and 11 CCR 7100, the 10 million consumer training policy, and the 2026 cybersecurity audit rules.",
+  "shortAnswer": "The California Consumer Privacy Act, as amended by the CPRA, requires businesses to ensure that everyone who handles consumer privacy inquiries knows the Act's requirements and how to direct consumers to exercise their rights (Civil Code sections 1798.130 and 1798.135). Regulation 11 CCR section 7100 repeats that duty and requires businesses handling personal information of 10 million or more consumers a year to adopt a documented training policy.",
+  "keyTakeaways": [
+    "The statutory training duty targets people who handle consumer inquiries about privacy practices or CCPA compliance, not every employee.",
+    "11 CCR 7100(b) requires a documented training policy once a business buys, receives, sells or shares personal information of 10,000,000 or more consumers in a calendar year.",
+    "Records of consumer requests and responses must be kept for at least 24 months under 11 CCR 7101.",
+    "Cybersecurity audits under the regulations effective January 1, 2026 must assess cybersecurity education and training for employees and contractors; the first audit reports are due April 1, 2028 for the largest businesses.",
+    "Administrative fines are up to $2,663 per violation or $7,988 per intentional violation, as adjusted from January 1, 2025."
+  ],
+  "jurisdiction": "United States (California)",
+  "regulator": "California Privacy Protection Agency (CPPA) and the California Attorney General",
+  "appliesTo": [
+    "For profit businesses that meet the CCPA thresholds in Civil Code section 1798.140(d)",
+    "Staff and contractors who handle consumer privacy inquiries and requests",
+    "Security, engineering and product staff in businesses subject to cybersecurity audits, risk assessments or the ADMT rules"
+  ],
+  "sections": [
+    {
+      "id": "who-must-be-trained",
+      "heading": "Who must be trained under the CCPA?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The CCPA names one group explicitly: individuals responsible for handling consumer inquiries about the business's privacy practices or its compliance with the Act. Those people must be informed of the relevant requirements and of how to direct consumers to exercise their rights. Other staff fall within training expectations indirectly, through the security, audit and risk assessment rules described below."
+        },
+        {
+          "type": "p",
+          "text": "The duty appears twice in the [California Consumer Privacy Act as posted by the CPPA](https://cppa.ca.gov/pdf/20260101_ccpa_statute.pdf), effective January 1, 2026:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Section 1798.130(a)(6)** covers the rights to know, delete, correct and non discrimination: staff must know the requirements in sections 1798.100, 1798.105, 1798.106, 1798.110, 1798.115, 1798.125 and 1798.130.",
+            "**Section 1798.135(c)(3)** covers opt out of sale or sharing and the right to limit use of sensitive personal information: staff must know sections 1798.120, 1798.121 and 1798.135."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "In practice this group includes privacy operations staff, customer support agents who receive requests by phone, chat or email, and anyone staffing the methods the business offers for submitting requests. Outsourced support desks count if they handle the inquiries on the business's behalf."
+        }
+      ]
+    },
+    {
+      "id": "regulation-7100",
+      "heading": "What does 11 CCR section 7100 add?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Section 7100 of the [CCPA Regulations](https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf) (Title 11, Division 6, Chapter 1, effective January 1, 2026) widens the content and adds a written policy for high volume businesses. Subsection (a) requires that individuals handling consumer inquiries \"be informed of all of the requirements in the CCPA and these regulations and how to direct consumers to exercise their rights.\""
+        },
+        {
+          "type": "p",
+          "text": "Subsection (b) applies to a business that knows or reasonably should know that it, alone or in combination, buys, receives for commercial purposes, sells or shares the personal information of **10,000,000 or more consumers in a calendar year**. That business must \"establish, document, and comply with a training policy\" so that everyone handling CCPA requests or CCPA compliance is informed of all the requirements. The same threshold triggers annual request metrics under section 7102, which must be disclosed by July 1 each year."
+        },
+        {
+          "type": "p",
+          "text": "Section 7101 is the evidence anchor. Businesses must keep records of consumer requests and how they responded for at least 24 months, in a ticket or log that captures the request date, nature and method, response date, nature of the response and the basis for any denial. Training should teach staff to complete those fields correctly, because the log is what an investigator will read."
+        }
+      ]
+    },
+    {
+      "id": "cybersecurity-audits",
+      "heading": "Do the 2026 cybersecurity audit rules require staff training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yes, indirectly. Businesses whose processing presents significant risk to consumers' security must complete independent cybersecurity audits, and the audit must assess cybersecurity education and training where applicable. Section 7123(c)(13) lists \"cybersecurity education and training, including training for each employee, independent contractor, and any other personnel to whom the business provides access to its information system,\" giving as examples training when employment or a contract begins, annually thereafter, and after a personal information security breach."
+        },
+        {
+          "type": "p",
+          "text": "Section 7123(c)(12) separately lists cybersecurity awareness, including how the business keeps current knowledge of changing threats and countermeasures, and section 7123(c)(1)(A) lists phishing resistant multi factor authentication for employees and contractors. Under section 7120, the audit applies to a business that derives the revenue share from selling or sharing set by section 1798.140(d)(1)(C), or that meets the revenue threshold in 1798.140(d)(1)(A) and processed personal information of 250,000 or more consumers or households, or sensitive personal information of 50,000 or more consumers, in the preceding year."
+        },
+        {
+          "type": "table",
+          "caption": "First cybersecurity audit report deadlines under 11 CCR 7121",
+          "head": [
+            "Annual gross revenue",
+            "Audit period",
+            "Report due"
+          ],
+          "rows": [
+            [
+              "More than $100 million (2026 revenue)",
+              "January 1, 2027 to January 1, 2028",
+              "April 1, 2028"
+            ],
+            [
+              "$50 million to $100 million (2027 revenue)",
+              "January 1, 2028 to January 1, 2029",
+              "April 1, 2029"
+            ],
+            [
+              "Less than $50 million (2028 revenue)",
+              "January 1, 2029 to January 1, 2030",
+              "April 1, 2030"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Because the first audit period for the largest businesses opens on January 1, 2027, training completed during 2027 is what the first auditors will sample. Organizations that already run security awareness under the [NIST SP 800-50](/regulations/nist-sp-800-50-security-awareness-training) model or a [SOC 2](/regulations/soc-2-security-awareness-training) program can reuse it if records cover contractors and post breach refreshers."
+        }
+      ]
+    },
+    {
+      "id": "risk-assessments-admt",
+      "heading": "Where do risk assessments and ADMT rules mention training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The risk assessment rules list training as an example safeguard. Section 7152(a)(6)(A)(iv) suggests \"implementing policies, procedures, and training to ensure that the business's ADMT works for the business's purpose and does not unlawfully discriminate based upon protected characteristics.\" Section 7151 requires that employees whose job duties include participating in the processing be involved in the risk assessment."
+        },
+        {
+          "type": "p",
+          "text": "Timing matters for training plans. Risk assessments must be reviewed at least every three years and updated within 45 calendar days of a material change (section 7155), and information about assessments conducted in 2026 and 2027 must be submitted to the Agency by April 1, 2028 (section 7157). A business using automated decisionmaking technology for a significant decision before January 1, 2027 must comply with the ADMT article by that date (section 7200(b)). Product and data science teams therefore need training before the next model release, not after the first submission."
+        }
+      ]
+    },
+    {
+      "id": "obligation-map",
+      "heading": "How should a business map CCPA training to roles and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Start from the provisions, assign each to a role, and decide what record proves it. The table is an original mapping; frequencies are recommendations except where a section sets a date."
+        },
+        {
+          "type": "table",
+          "caption": "CCPA training obligations mapped to role, frequency and evidence, as at November 2026",
+          "head": [
+            "Provision",
+            "Role",
+            "Frequency",
+            "Evidence an investigator or auditor would expect"
+          ],
+          "rows": [
+            [
+              "Civil Code 1798.130(a)(6) and 1798.135(c)(3); 11 CCR 7100(a)",
+              "Privacy operations, customer support, outsourced request handlers",
+              "Before handling requests; refresh when rules or request methods change",
+              "Curriculum mapped to sections 1798.100 to 1798.135; completion records; scenario assessments on verification and opt out handling"
+            ],
+            [
+              "11 CCR 7100(b)",
+              "All request handlers in businesses at 10,000,000 consumers",
+              "Policy reviewed at least annually (recommended)",
+              "Approved written training policy, version history, proof the policy was followed"
+            ],
+            [
+              "11 CCR 7101",
+              "Request handlers and their supervisors",
+              "At onboarding to the request tool",
+              "Request log samples showing all required fields completed and retained 24 months"
+            ],
+            [
+              "11 CCR 7123(c)(12) and (c)(13)",
+              "Employees, contractors and other personnel with system access",
+              "Examples given: at start, annually, and after a breach",
+              "Training records by person, content versions, post incident refresher records"
+            ],
+            [
+              "11 CCR 7151 and 7152(a)(6)",
+              "Product, data science and engineering staff on in scope processing",
+              "Before initiating processing; at material change",
+              "Risk assessment participant list; ADMT training records referenced as safeguards"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The general method is in [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations), and the refresh logic in [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles)."
+        }
+      ]
+    },
+    {
+      "id": "penalties",
+      "heading": "What are the penalties for getting it wrong?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The CPPA can impose administrative fines and the Attorney General can seek civil penalties. The CPPA's [consumer price index adjustment notice](https://cppa.ca.gov/regulations/cpi_adjustment.html) sets the section 1798.155(a) fine, from January 1, 2025, at not more than $2,663 for each violation or $7,988 for each intentional violation or violation involving the personal information of consumers the business knows are under 16."
+        },
+        {
+          "type": "p",
+          "text": "Training failures rarely appear as a stand alone count, but they drive the counts that do: requests mishandled by untrained staff, opt out signals ignored, and records missing the fields section 7101 requires. Each mishandled request can be a separate violation."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models each CCPA right, request type and regulation section as a concept linked to the roles that handle it and to assessment points such as verification and opt out scenarios. When the CPPA amends a section, the affected concepts, roles and assessments are flagged for review instead of the whole course being rebuilt."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the CCPA require annual privacy training for all employees?",
+      "a": "No section requires annual privacy training for every employee. The statutory duty covers people who handle consumer inquiries, and section 7100(b) adds a documented policy for businesses at the 10 million consumer threshold. Cybersecurity audits assess training for all personnel with system access, with annual training given as an example, so many businesses choose an annual cycle."
+    },
+    {
+      "q": "Does the CCPA training duty apply to employee and job applicant data?",
+      "a": "Yes. The employment information exemption in Civil Code section 1798.145 became inoperative on January 1, 2023, so employees and job applicants can exercise CCPA rights. HR and people operations staff who receive requests from employees therefore fall within the section 1798.130 and section 7100 training duty."
+    },
+    {
+      "q": "What is the difference between the CCPA and the CPRA for training?",
+      "a": "The California Privacy Rights Act of 2020, approved as Proposition 24, amended the CCPA rather than creating a separate statute, and the amended Act refers to the California Privacy Protection Agency it established. Among other changes it added a right to correct, so training content must cover correction and sensitive information requests. The training provisions sit in the amended CCPA and its regulations."
+    },
+    {
+      "q": "How long should CCPA training records be kept?",
+      "a": "The regulations set a 24 month retention period for consumer request records but no specific period for training records. Keeping training records at least as long as the request records they support, and for the full cybersecurity audit period, lets the business show who was trained when a given request was handled."
+    }
+  ],
+  "sources": [
+    {
+      "title": "California Consumer Privacy Act of 2018, effective January 1, 2026",
+      "publisher": "California Privacy Protection Agency",
+      "url": "https://cppa.ca.gov/pdf/20260101_ccpa_statute.pdf"
+    },
+    {
+      "title": "California Consumer Privacy Act Regulations, 11 CCR section 7000 and following, effective January 1, 2026",
+      "publisher": "California Privacy Protection Agency",
+      "url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf"
+    },
+    {
+      "title": "CCPA monetary thresholds: consumer price index adjustments",
+      "publisher": "California Privacy Protection Agency",
+      "url": "https://cppa.ca.gov/regulations/cpi_adjustment.html"
+    },
+    {
+      "title": "Laws and regulations",
+      "publisher": "California Privacy Protection Agency",
+      "url": "https://cppa.ca.gov/regulations/"
+    },
+    {
+      "title": "Proposition 24 text: California Privacy Rights Act of 2020",
+      "publisher": "California Privacy Protection Agency",
+      "url": "https://cppa.ca.gov/regulations/pdf/prop24_text.pdf"
+    }
+  ],
+  "related": [
+    "us-state-privacy-law-employee-training",
+    "soc-2-security-awareness-training",
+    "gdpr-staff-training-requirements",
+    "ftc-safeguards-rule-employee-training",
+    "california-and-new-york-harassment-training",
+    "nist-sp-800-50-security-awareness-training"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 14,
+  "factCheck": [
+    {
+      "claim": "Civil Code 1798.130(a)(6) requires individuals handling consumer inquiries to be informed of requirements in 1798.100, 1798.105, 1798.106, 1798.110, 1798.115, 1798.125 and 1798.130 and how to direct consumers",
+      "source": "https://cppa.ca.gov/pdf/20260101_ccpa_statute.pdf"
+    },
+    {
+      "claim": "Civil Code 1798.135(c)(3) requires the same for 1798.120, 1798.121 and 1798.135",
+      "source": "https://cppa.ca.gov/pdf/20260101_ccpa_statute.pdf"
+    },
+    {
+      "claim": "11 CCR 7100(a) and (b): inquiry handlers informed of all CCPA and regulation requirements; businesses at 10,000,000 or more consumers must establish, document, and comply with a training policy; regulations effective 1/1/2026",
+      "source": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf"
+    },
+    {
+      "claim": "11 CCR 7101: request records kept at least 24 months with listed log fields; 7102 metrics disclosed by July 1",
+      "source": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf"
+    },
+    {
+      "claim": "11 CCR 7123(c)(13) cybersecurity education and training for each employee, independent contractor and other personnel with system access (examples: start, annually, after breach); 7123(c)(12) awareness; 7123(c)(1)(A) phishing resistant MFA",
+      "source": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf"
+    },
+    {
+      "claim": "11 CCR 7120 thresholds (250,000 consumers or 50,000 sensitive) and 7121 first audit report deadlines April 1, 2028, 2029, 2030 by revenue band",
+      "source": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf"
+    },
+    {
+      "claim": "11 CCR 7152(a)(6)(A)(iv) training as ADMT safeguard; 7155 three year review and 45 day update; 7157 submission by April 1, 2028; 7200(b) ADMT compliance by January 1, 2027",
+      "source": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf"
+    },
+    {
+      "claim": "1798.155(a) fines adjusted effective January 1, 2025 to $2,663 per violation or $7,988 per intentional violation",
+      "source": "https://cppa.ca.gov/regulations/cpi_adjustment.html"
+    },
+    {
+      "claim": "11 CCR 7151(a): employees whose job duties include participating in the processing must be included in the risk assessment process",
+      "source": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf"
+    },
+    {
+      "claim": "Employment related exemption subdivision in 1798.145 became inoperative on January 1, 2023",
+      "source": "https://cppa.ca.gov/pdf/20260101_ccpa_statute.pdf"
+    },
+    {
+      "claim": "Proposition 24 is the California Privacy Rights Act of 2020 and refers to the California Privacy Protection Agency and a right to correct",
+      "source": "https://cppa.ca.gov/regulations/pdf/prop24_text.pdf"
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "slug": "australia-privacy-act-2024-amendments-training",
+  "kind": "regulation",
+  "title": "What should staff be trained on after Australia's 2024 Privacy Act amendments?",
+  "seoTitle": "Privacy Act 2024 amendments training",
+  "description": "Staff training priorities from Australia's 2024 Privacy Act amendments: the privacy tort, OAIC notices, and automated decision disclosures from December 2026.",
+  "shortAnswer": "The Privacy and Other Legislation Amendment Act 2024 changed what Australian staff need to know in four areas: a statutory tort for serious invasions of privacy, in force since June 10, 2025; OAIC infringement and compliance notices since December 11, 2024; automated decision disclosures in privacy policies from December 10, 2026; and new doxxing offences. Training should target the roles each change affects rather than repeating general privacy awareness.",
+  "keyTakeaways": [
+    "Schedule 2, the statutory tort for serious invasions of privacy, commenced on June 10, 2025 and covers intrusion upon seclusion and misuse of information that is intentional or reckless.",
+    "Since December 11, 2024 the OAIC can issue infringement notices and compliance notices for specified APP breaches, including privacy policy content and direct marketing opt outs.",
+    "From December 10, 2026, new APP 1.7 to 1.9 require privacy policies to describe substantially automated decisions that significantly affect individuals, and APP 1.7 is added to the infringement notice list.",
+    "The OAIC must register a Children's Online Privacy Code by December 10, 2026; its third consultation ran from March 31 to June 5, 2026.",
+    "Doxxing offences in Criminal Code sections 474.17C and 474.17D, carrying up to 6 and 7 years' imprisonment, commenced on December 11, 2024."
+  ],
+  "jurisdiction": "Australia (Commonwealth)",
+  "regulator": "Office of the Australian Information Commissioner (OAIC); courts hear claims under the statutory tort; doxxing offences are Commonwealth criminal offences",
+  "appliesTo": [
+    "APP entities under the Privacy Act 1988, including Australian Government agencies and organizations not covered by an exemption",
+    "Any person or organization for the statutory tort, subject to listed exemptions",
+    "Product, data, marketing, customer service and online services staff in APP entities"
+  ],
+  "sections": [
+    {
+      "id": "scope-of-this-page",
+      "heading": "How does this page relate to the general Privacy Act training page?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "This page covers only what the 2024 amendments changed and what that means for targeted training. The baseline expectations under APP 1 and APP 11, the Australian Government Agencies Privacy Code and general reasonable steps training are explained on the [Privacy Act staff training page](/regulations/privacy-act-staff-training-requirements)."
+        },
+        {
+          "type": "p",
+          "text": "The [Privacy and Other Legislation Amendment Act 2024](https://www.legislation.gov.au/C2024A00128/asmade/2024-12-10/text/original/pdf) (Act No. 128 of 2024) received assent on December 10, 2024. Most of its Privacy Act changes commenced the next day; the OAIC's own [history of the Privacy Act page](https://www.oaic.gov.au/privacy/privacy-legislation/the-privacy-act/history-of-the-privacy-act) notes that the majority of amendments within the Information Commissioner's remit commenced on December 11, 2024. A further tranche, the exposure draft [Privacy Amendment (Personal Data Protection) Bill 2026](https://consultations.ag.gov.au/rights-and-protections/privacy-reform/), was open for comment from August 31 to September 18, 2026 and remains subject to further consideration by government; it is not covered here."
+        }
+      ]
+    },
+    {
+      "id": "statutory-tort",
+      "heading": "What do staff need to know about the statutory privacy tort?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Staff need to understand that individuals can now sue directly for serious invasions of privacy, without going through the OAIC. The tort is Schedule 2 of the Privacy Act; the [June 10, 2025 compilation](https://www.legislation.gov.au/C2004A03712/2025-06-10/2025-06-10/text/original/pdf) records that Schedule 2 commenced on June 10, 2025."
+        },
+        {
+          "type": "p",
+          "text": "Under clause 7, a plaintiff has a cause of action if the defendant invaded their privacy by intruding upon their seclusion or misusing information relating to them; a person in their position would have had a reasonable expectation of privacy; the invasion was intentional or reckless; it was serious; and the public interest in privacy outweighed any countervailing public interest. The invasion is actionable without proof of damage."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Remedies:** courts may award damages, including for emotional distress, but not aggravated damages. Damages for non economic loss plus any exemplary damages are capped at the greater of $478,550 and the defamation cap (clause 11).",
+            "**Time limits:** proceedings must start before the earlier of one year after the plaintiff became aware and three years after the invasion, or before age 21 for a plaintiff who was a minor (clause 14).",
+            "**Exemptions:** the Schedule's simplified outline lists exemptions for intelligence agencies, law enforcement bodies, persons under 18, and journalists in certain circumstances."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The training message is behavioral. Because the tort requires intent or recklessness, the highest risk conduct is deliberate: staff browsing customer records out of curiosity, sharing screenshots of personal information, or covert recording. Those scenarios belong in code of conduct and acceptable use training for anyone with access to personal information."
+        }
+      ]
+    },
+    {
+      "id": "oaic-enforcement",
+      "heading": "Which new OAIC powers should frontline teams understand?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Teams that own privacy policies, collection notices, direct marketing and access requests need to know that routine breaches can now attract fast administrative penalties. Section 13K, inserted from December 11, 2024, is a civil penalty provision for breaches of listed APPs, and those breaches can be dealt with by infringement notice or compliance notice."
+        },
+        {
+          "type": "table",
+          "caption": "APPs listed in section 13K(1) and the teams they affect, as at November 2026",
+          "head": [
+            "APP listed in section 13K",
+            "Requirement",
+            "Team to train",
+            "Evidence of training"
+          ],
+          "rows": [
+            [
+              "APP 1.3 and 1.4",
+              "Having an APP privacy policy and its contents",
+              "Legal, privacy, web content owners",
+              "Policy review procedure; reviewer training records"
+            ],
+            [
+              "APP 1.7 (from December 10, 2026)",
+              "Automated decision disclosures in the privacy policy",
+              "Product, data science, privacy",
+              "ADM inventory process; training on what counts as a covered decision"
+            ],
+            [
+              "APP 2.1",
+              "Option to deal anonymously or by pseudonym",
+              "Customer service, form designers",
+              "Scripts and form design guidance; completion records"
+            ],
+            [
+              "APP 6.5",
+              "Written note of certain uses or disclosures",
+              "Teams responding to enforcement body requests",
+              "Disclosure log procedure; training records"
+            ],
+            [
+              "APP 7.2(c), 7.3(c), 7.3(d), 7.7(a), 7.7(b)",
+              "Direct marketing opt outs, prominence and handling requests",
+              "Marketing, CRM administrators",
+              "Campaign approval checklist; opt out handling test results"
+            ],
+            [
+              "APP 13.5",
+              "Dealing with correction requests",
+              "Customer service, privacy operations",
+              "Request handling procedure; sampled request records"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For a listed corporation, an infringement notice for a single alleged contravention of section 13K is 200 penalty units, multiplied by the number of alleged contraventions where a notice covers several. Under new section 80UC, the Commissioner or an SES equivalent staff member may give a compliance notice specifying action the entity must take; failing to comply is itself subject to an infringement notice. New Division 3B also lets the Minister direct or approve the Commissioner to conduct a public inquiry into specified privacy matters (section 33E)."
+        }
+      ]
+    },
+    {
+      "id": "automated-decisions",
+      "heading": "What do the automated decision rules from December 10, 2026 require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "From December 10, 2026, an APP entity's privacy policy must explain its use of computer programs in decisions that could reasonably be expected to significantly affect an individual's rights or interests, where personal information is used. Schedule 1 Part 15 commences 24 months after assent under item 7 of the commencement table."
+        },
+        {
+          "type": "p",
+          "text": "New APP 1.8 requires the policy to describe the kinds of personal information used in such programs, the kinds of decisions made solely by them, and the kinds of decisions where a program does a thing substantially and directly related to making the decision. APP 1.9 clarifies that decisions include refusing or failing to decide, that effects can be adverse or beneficial, and gives examples such as decisions affecting rights under a contract or access to a significant service or support. The amendment applies to decisions made after commencement, even if the program or the personal information predates it."
+        },
+        {
+          "type": "p",
+          "text": "This is a training problem before it is a drafting problem. Privacy teams cannot describe decisions they do not know about, so product managers, data scientists and engineers need to recognize when a model, rules engine or scoring tool is substantially and directly related to a significant decision and report it into the privacy policy process. See [how to build an AI literacy training program](/guides/how-to-build-an-ai-literacy-training-program) for related role design."
+        }
+      ]
+    },
+    {
+      "id": "children-and-doxxing",
+      "heading": "What about children's privacy and doxxing?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Two further changes need targeted awareness for specific roles. The Act requires the OAIC to develop and register a Children's Online Privacy Code within 24 months of assent. The OAIC's [Children's Online Privacy Code page](https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code), updated August 5, 2026, states that the Code must be finalized and registered by December 10, 2026, and that phase 3 consultation on the draft ran from March 31 to June 5, 2026. It will apply to social media services, relevant electronic services and designated internet services likely to be accessed by children."
+        },
+        {
+          "type": "p",
+          "text": "As at November 2026 the Code is not yet registered, so its final requirements should not be taught as settled. Product, design and trust and safety teams in online services should be briefed on the draft and scheduled for training once the registered text is available."
+        },
+        {
+          "type": "p",
+          "text": "Schedule 3 inserted doxxing offences into the Criminal Code, commencing December 11, 2024. Section 474.17C makes it an offence to use a carriage service to make available personal data of individuals in a way reasonable persons would regard as menacing or harassing, with a maximum of 6 years' imprisonment; section 474.17D covers targeting members of groups and carries up to 7 years. Moderation, community and HR teams handling online harassment should know these offences exist and when to escalate."
+        }
+      ]
+    },
+    {
+      "id": "training-plan",
+      "heading": "How should an organization sequence the training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Prioritize by commencement date and by who is exposed. The plan below is an original suggestion for an APP entity, as at November 2026."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Before December 10, 2026: brief product, data and privacy teams on APP 1.7 to 1.9, run an inventory of automated decisions, and update the privacy policy.",
+            "Now: add statutory tort scenarios to code of conduct and acceptable use training for all staff with access to personal information.",
+            "Now: train marketing, customer service and privacy operations on the APPs listed in section 13K, with test based evidence.",
+            "When registered: train online product teams on the Children's Online Privacy Code.",
+            "Annually: refresh, and record completion so it can be produced quickly if the OAIC issues a compliance notice."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Refresh logic is covered in [how to update training when regulations change](/guides/how-to-update-training-when-regulations-change), and record keeping in [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each amendment as a dated obligation linked to the roles and concepts it affects, so a commencement date such as December 10, 2026 triggers review of exactly the product, data and privacy competencies involved. Draft instruments such as the Children's Online Privacy Code are held as pending until registration."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can an employer be sued under the privacy tort for what an employee does?",
+      "a": "The tort gives a cause of action against the person who invaded privacy, and Schedule 2 states it also has effect for invasions by or on behalf of a constitutional corporation. Whether an employer is liable for an employee's conduct depends on general legal principles applied by the courts. Training and access controls reduce the chance of intentional misuse arising in the first place."
+    },
+    {
+      "q": "Does the small business exemption apply to the statutory tort?",
+      "a": "The tort is not limited to APP entities: clause 7 gives an individual a cause of action against another person, subject to the exemptions listed in Schedule 2. Small businesses outside the APPs can therefore still face tort claims, even though they are not subject to OAIC infringement notices under section 13K."
+    },
+    {
+      "q": "Is the second tranche of Privacy Act reform law yet?",
+      "a": "No. The Attorney-General's Department consulted on an exposure draft Privacy Amendment (Personal Data Protection) Bill 2026 from August 31 to September 18, 2026, and states the bill remains subject to further consideration by government. Training content should teach only provisions of the 2024 Act that have commenced or have a fixed commencement date, and flag drafts as pending."
+    },
+    {
+      "q": "Does the automated decision rule require human review of decisions?",
+      "a": "No. APP 1.7 to 1.9 are transparency requirements for the privacy policy. They do not prohibit automated decisions or require human review. Other laws or sector rules may impose such requirements separately."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Privacy and Other Legislation Amendment Act 2024 (No. 128, 2024), as made",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/C2024A00128/asmade/2024-12-10/text/original/pdf"
+    },
+    {
+      "title": "Privacy Act 1988, Compilation No. 103 (compilation date June 10, 2025)",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/C2004A03712/2025-06-10/2025-06-10/text/original/pdf"
+    },
+    {
+      "title": "Children's Online Privacy Code",
+      "publisher": "Office of the Australian Information Commissioner",
+      "url": "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code"
+    },
+    {
+      "title": "History of the Privacy Act",
+      "publisher": "Office of the Australian Information Commissioner",
+      "url": "https://www.oaic.gov.au/privacy/privacy-legislation/the-privacy-act/history-of-the-privacy-act"
+    },
+    {
+      "title": "Privacy codes",
+      "publisher": "Office of the Australian Information Commissioner",
+      "url": "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes"
+    },
+    {
+      "title": "Privacy reform: Exposure Draft Privacy Amendment (Personal Data Protection) Bill 2026",
+      "publisher": "Attorney-General's Department",
+      "url": "https://consultations.ag.gov.au/rights-and-protections/privacy-reform/"
+    }
+  ],
+  "related": [
+    "privacy-act-staff-training-requirements",
+    "apra-cps-234-security-awareness-training",
+    "eu-ai-act-ai-literacy",
+    "gdpr-staff-training-requirements",
+    "japan-appi-employee-training"
+  ],
+  "productLinks": [
+    {
+      "label": "Remediation",
+      "href": "/platform/remediation"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 14,
+  "factCheck": [
+    {
+      "claim": "POLA Act assented 10 December 2024; Schedule 1 Parts 1 to 7 and 9 to 14 and items 48 to 58 commence 11 December 2024; Part 15 commences 10 December 2026; Schedule 3 commences 11 December 2024; Schedule 2 by Proclamation or 6 months",
+      "source": "https://www.legislation.gov.au/C2024A00128/asmade/2024-12-10/text/original/pdf"
+    },
+    {
+      "claim": "Endnotes of the Privacy Act compilation record Sch 2 commenced 10 June 2025; clause 7 cause of action elements; clause 11 damages cap $478,550 or defamation cap, no aggravated damages; clause 14 limitation one year and three years, before 21st birthday for minors; clause 5(3) corporations",
+      "source": "https://www.legislation.gov.au/C2004A03712/2025-06-10/2025-06-10/text/original/pdf"
+    },
+    {
+      "claim": "Section 13K(1) lists APP 1.3, 1.4, 2.1, 6.5, 7.2(c), 7.3(c), 7.3(d), 7.7(a), 7.7(b), 13.5; Part 15 adds APP 1.7 to the list; infringement notice for listed corporation 200 penalty units per contravention; section 80UC compliance notices by Commissioner or SES equivalent staff; section 33E public inquiries",
+      "source": "https://www.legislation.gov.au/C2024A00128/asmade/2024-12-10/text/original/pdf"
+    },
+    {
+      "claim": "APP 1.7, 1.8 and 1.9 text and application to decisions made after commencement (item 89)",
+      "source": "https://www.legislation.gov.au/C2024A00128/asmade/2024-12-10/text/original/pdf"
+    },
+    {
+      "claim": "Commissioner must develop and register the Children's Online Privacy Code within 24 months of assent",
+      "source": "https://www.legislation.gov.au/C2024A00128/asmade/2024-12-10/text/original/pdf"
+    },
+    {
+      "claim": "OAIC: Code must be finalised and registered by 10 December 2026; phase 3 consultation 31 March to 5 June 2026; applies to social media, relevant electronic and designated internet services; page updated 05 August 2026",
+      "source": "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code"
+    },
+    {
+      "claim": "Criminal Code 474.17C (6 years) and 474.17D (7 years) doxxing offences",
+      "source": "https://www.legislation.gov.au/C2024A00128/asmade/2024-12-10/text/original/pdf"
+    },
+    {
+      "claim": "Majority of amendments within the Commissioner's remit commenced 11 December 2024",
+      "source": "https://www.oaic.gov.au/privacy/privacy-legislation/the-privacy-act/history-of-the-privacy-act"
+    },
+    {
+      "claim": "Exposure Draft Privacy Amendment (Personal Data Protection) Bill 2026 consultation opened 31 August and closed 18 September 2026; bill remains subject to further consideration by government",
+      "source": "https://consultations.ag.gov.au/rights-and-protections/privacy-reform/"
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "slug": "fedramp-security-awareness-training",
+  "kind": "regulation",
+  "title": "What security awareness training does FedRAMP require for cloud providers?",
+  "seoTitle": "FedRAMP security awareness training",
+  "description": "How FedRAMP applies NIST SP 800-53 AT-2, AT-3 and AT-4 at Low, Moderate and High, and how the 2026 Consolidated Rules and 20x KSIs change training evidence.",
+  "shortAnswer": "FedRAMP requires cloud service providers to train their personnel under NIST SP 800-53 Revision 5 controls AT-2 (literacy training and awareness), AT-3 (role based training) and AT-4 (training records). The FedRAMP Rev5 baselines set both at least annually and require insider threat awareness at every level. Under the Consolidated Rules for 2026, FedRAMP 20x replaces control narratives with a key security indicator that asks providers to persistently review training effectiveness.",
+  "keyTakeaways": [
+    "Rev5 baselines set AT-2 and AT-3 training, and content updates, at least annually for Low, Moderate and High.",
+    "AT-2(2) insider threat awareness appears in the Low, Moderate and High baselines and the LI-SaaS baseline; AT-2(3) social engineering awareness is added at Moderate and High.",
+    "AT-4 training records must be kept at least one year at Low and Moderate, and five years at High.",
+    "FedRAMP marked the Rev5 baseline workbook as legacy on June 23, 2026; the Consolidated Rules for 2026 take mandatory effect on January 1, 2027.",
+    "The FedRAMP 20x indicator KSI-CED-RAT expects persistent review of training effectiveness for all employees, high risk roles, developers and incident response or recovery staff."
+  ],
+  "jurisdiction": "United States (federal)",
+  "regulator": "Federal Risk and Authorization Management Program (FedRAMP), US General Services Administration; control catalog by the National Institute of Standards and Technology (NIST)",
+  "appliesTo": [
+    "Cloud service providers seeking or holding FedRAMP certification for use by US federal agencies",
+    "Provider employees and contractors with access to the cloud service offering",
+    "Independent assessors evaluating provider training controls"
+  ],
+  "sections": [
+    {
+      "id": "where-training-comes-from",
+      "heading": "Where does the FedRAMP training requirement come from?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "FedRAMP's training expectations come from the Awareness and Training (AT) family of [NIST SP 800-53 Revision 5](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf), the security and privacy control catalog for federal information systems. FedRAMP selects controls into baselines and fills in the organization defined parameters, such as frequencies and retention periods, that NIST leaves open."
+        },
+        {
+          "type": "p",
+          "text": "Three controls carry the training obligation. AT-2 requires security and privacy literacy training for system users, including managers, senior executives and contractors, at initial training and at a defined frequency thereafter, and when system changes or defined events require it. AT-3 requires role based training before authorizing access or performing assigned duties, and at a defined frequency thereafter. AT-4 requires the organization to document and monitor training activities and retain individual training records. Both AT-2 and AT-3 also require incorporating lessons learned from internal or external security incidents into training."
+        },
+        {
+          "type": "p",
+          "text": "The same AT family underpins the federal model described on the [NIST SP 800-50 page](/regulations/nist-sp-800-50-security-awareness-training) and the defense contractor requirements on the [CMMC page](/regulations/cmmc-security-awareness-training), so providers serving several federal markets can align one program."
+        }
+      ]
+    },
+    {
+      "id": "baseline-parameters",
+      "heading": "What do the FedRAMP Rev5 baselines set for each impact level?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Rev5 baselines set annual training and content refresh at every level, with record retention and the number of awareness topics rising with impact. The values below come from the [FedRAMP Security Controls Baseline workbook](https://www.fedramp.gov/legacy/assets/LEGACY%20FedRAMP_Security_Controls_Baseline.xlsx), now published on FedRAMP's legacy documentation site."
+        },
+        {
+          "type": "table",
+          "caption": "Awareness and training controls in the FedRAMP Rev5 baselines (legacy workbook, notice dated June 23, 2026)",
+          "head": [
+            "Control",
+            "Low",
+            "Moderate",
+            "High"
+          ],
+          "rows": [
+            [
+              "AT-2 literacy training and awareness",
+              "At least annually; content updated at least annually",
+              "At least annually; content updated at least annually",
+              "At least annually; content updated at least annually"
+            ],
+            [
+              "AT-2(2) insider threat",
+              "Included",
+              "Included",
+              "Included"
+            ],
+            [
+              "AT-2(3) social engineering and mining",
+              "Not included",
+              "Included",
+              "Included"
+            ],
+            [
+              "AT-3 role based training",
+              "At least annually; content updated at least annually",
+              "At least annually; content updated at least annually",
+              "At least annually; content updated at least annually"
+            ],
+            [
+              "AT-4 training records retention",
+              "At least 1 year, or 1 year after completion of a specific training program",
+              "At least 1 year, or 1 year after completion of a specific training program",
+              "5 years, or 5 years after completion of a specific training program"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The tailored LI-SaaS baseline lists AT-1, AT-2, AT-2(2), AT-3 and AT-4 with the tailoring action \"Attest,\" meaning the provider attests to implementation rather than having each control fully assessed."
+        },
+        {
+          "type": "p",
+          "text": "The enhancements define content as well as frequency. NIST describes AT-2(2) as training on recognizing and reporting potential indicators of insider threat, and suggests tailoring it so managers focus on changes in team members' behavior. AT-2(3) covers recognizing and reporting social engineering and social mining, which NIST says includes phishing, pretexting, impersonation, baiting, quid pro quo, thread-jacking, social media exploitation and tailgating."
+        }
+      ]
+    },
+    {
+      "id": "consolidated-rules-2026",
+      "heading": "How do the Consolidated Rules for 2026 change things?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "FedRAMP is in transition, and providers need to know which rule set they are certifying under. FedRAMP published the Consolidated Rules for 2026 in June 2026, and its [Important Dates page](https://www.fedramp.gov/2026/timeline/) sets the milestones that matter for training evidence."
+        },
+        {
+          "type": "table",
+          "caption": "FedRAMP Consolidated Rules for 2026: milestones relevant to training, as at November 2026",
+          "head": [
+            "Date",
+            "Milestone",
+            "Implication for training programs"
+          ],
+          "rows": [
+            [
+              "July 4, 2026",
+              "Optional early adoption",
+              "Providers may begin aligning evidence to the new rules"
+            ],
+            [
+              "August 3, 2026",
+              "FedRAMP 20x Class A pipeline opens",
+              "Class A is designed for commercial products with a SOC 2 Type II report and a mature security program"
+            ],
+            [
+              "August 31, 2026",
+              "FedRAMP 20x Class B and C pipeline opens",
+              "Training is evidenced through key security indicators instead of control narratives"
+            ],
+            [
+              "January 1, 2027",
+              "Mandatory adoption",
+              "All stakeholders must follow the Consolidated Rules, subject to specific applicability and effective dates"
+            ],
+            [
+              "June 11, 2027",
+              "End of new Rev5 certifications",
+              "No new Rev5 applications; existing Rev5 providers continue under the transition rules"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The Rev5 baseline workbook now opens with a legacy notice dated June 23, 2026, stating that it is being replaced by the Consolidated Rules for 2026 and should be used with extreme caution. The AT control values above remain the reference for providers operating Rev5 certifications during the transition."
+        }
+      ]
+    },
+    {
+      "id": "fedramp-20x-ksi",
+      "heading": "What does the FedRAMP 20x cybersecurity education indicator require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "FedRAMP 20x measures outcomes instead of reading control narratives. The cybersecurity education indicator, [KSI-CED-RAT, Reviewing All Training](https://www.fedramp.gov/2026/providers/20x/key-security-indicators/cybersecurity-education/), states that \"the effectiveness of relevant cybersecurity education and training is persistently reviewed,\" including at least:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "general training for all employees",
+            "role specific training for employees in high risk roles",
+            "training for development and engineering staff on secure software delivery",
+            "training for staff involved with incident response or disaster recovery"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "FedRAMP maps the indicator to SP 800-53 controls AT-2, AT-2(2), AT-2(3), AT-3, AT-3(5), AT-4, CM-11, CP-3, CP-3(1), IR-2, IR-2(1), IR-2(2), IR-2(3), IR-9(2), IR-9(4), PL-4, PL-4(1), PS-6 and SR-11(1). Its changelog shows that the mapping was updated on October 13, 2026 to add CM-11, CP-3(1), IR-2(1), IR-2(2), IR-9(2), IR-9(4), PL-4 and PL-4(1)."
+        },
+        {
+          "type": "p",
+          "text": "The shift is from \"we trained everyone\" to \"we know whether training works.\" Completion rates alone will not satisfy an indicator about effectiveness. Providers need measures such as assessment results, phishing simulation trends, secure code review findings by trained developers, or exercise outcomes for incident responders. See [how to measure training effectiveness](/guides/how-to-measure-training-effectiveness)."
+        }
+      ]
+    },
+    {
+      "id": "evidence-map",
+      "heading": "What evidence will an assessor or FedRAMP expect?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Evidence should satisfy both rule sets during the transition: the Rev5 parameters for frequency and retention, and the 20x expectation of measured effectiveness. The mapping below is an original synthesis of the baseline values and the KSI text."
+        },
+        {
+          "type": "table",
+          "caption": "FedRAMP training obligations mapped to role, frequency and evidence",
+          "head": [
+            "Obligation",
+            "Role",
+            "Frequency",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "AT-2 literacy training",
+              "All users of the cloud service offering, including contractors and executives",
+              "At onboarding and at least annually; after system changes or defined events",
+              "Completion records by person, dated content versions, knowledge test results"
+            ],
+            [
+              "AT-2(2) insider threat",
+              "All users; tailored content for managers",
+              "With AT-2",
+              "Insider threat module records; reporting channel described in content"
+            ],
+            [
+              "AT-2(3) social engineering (Moderate and High)",
+              "All users",
+              "With AT-2",
+              "Module records; phishing simulation results and follow up"
+            ],
+            [
+              "AT-3 role based training",
+              "Administrators, developers, security engineers, incident responders, privacy staff",
+              "Before access or duties, then at least annually",
+              "Role to course matrix, access provisioning tied to completion, assessment results"
+            ],
+            [
+              "AT-4 training records",
+              "Training and compliance owners",
+              "Retain 1 year (Low, Moderate) or 5 years (High)",
+              "Record retention setting, export of individual histories"
+            ],
+            [
+              "KSI-CED-RAT effectiveness review",
+              "Security leadership, engineering and incident response leads",
+              "Persistently",
+              "Effectiveness metrics, review minutes, changes made to training as a result"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The record keeping detail is covered in [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit), and role mapping in [how to build a training matrix](/guides/how-to-build-a-training-matrix). Federal buyers' wider requirements are summarized on the [government and defense industry page](/industries/government-defence)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each AT control, baseline parameter and the KSI-CED-RAT categories to roles, concepts and assessment points, so the same structure produces Rev5 completion and retention evidence and the effectiveness measures FedRAMP 20x asks for. When FedRAMP revises a mapping, the affected roles and assessments are identified directly."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does FedRAMP require phishing simulations?",
+      "a": "Not by name. The Moderate and High baselines include AT-2(3), training on recognizing and reporting social engineering, which NIST says includes phishing. Simulations are a common way to evidence that training and, under FedRAMP 20x, to show its effectiveness, but the provider chooses the technique."
+    },
+    {
+      "q": "Do contractors of the cloud provider need FedRAMP training?",
+      "a": "Yes, if they are users of the system. NIST's AT-2 control text names contractors among the system users who must receive literacy training, and the AT-3 discussion states that role based training also applies to contractors who provide services to federal agencies."
+    },
+    {
+      "q": "Is the Rev5 baseline still valid in November 2026?",
+      "a": "It remains the reference for Rev5 certifications during the transition, but FedRAMP labels the workbook legacy and directs providers to the Consolidated Rules for 2026. Those rules become mandatory on January 1, 2027, and FedRAMP will stop accepting new Rev5 certification applications on June 11, 2027."
+    },
+    {
+      "q": "How long must FedRAMP training records be kept?",
+      "a": "The Rev5 AT-4 parameter is at least one year, or one year after completion of a specific training program, at Low and Moderate, and five years, or five years after completion, at High. Contracts or agency requirements may set longer periods."
+    }
+  ],
+  "sources": [
+    {
+      "title": "NIST SP 800-53 Revision 5, Security and Privacy Controls for Information Systems and Organizations",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf"
+    },
+    {
+      "title": "FedRAMP Security Controls Baseline (legacy workbook)",
+      "publisher": "FedRAMP, US General Services Administration",
+      "url": "https://www.fedramp.gov/legacy/assets/LEGACY%20FedRAMP_Security_Controls_Baseline.xlsx"
+    },
+    {
+      "title": "FedRAMP Legacy Documentation",
+      "publisher": "FedRAMP, US General Services Administration",
+      "url": "https://www.fedramp.gov/legacy/"
+    },
+    {
+      "title": "Important Dates for the Consolidated Rules for 2026",
+      "publisher": "FedRAMP, US General Services Administration",
+      "url": "https://www.fedramp.gov/2026/timeline/"
+    },
+    {
+      "title": "Key Security Indicators: Cybersecurity Education (KSI-CED-RAT)",
+      "publisher": "FedRAMP, US General Services Administration",
+      "url": "https://www.fedramp.gov/2026/providers/20x/key-security-indicators/cybersecurity-education/"
+    },
+    {
+      "title": "Memo to Milestone: FedRAMP Grants the First Full FedRAMP 20x Class C Certification",
+      "publisher": "FedRAMP, US General Services Administration",
+      "url": "https://www.fedramp.gov/2026-11-02-memo-to-milestone/"
+    },
+    {
+      "title": "Choosing a Certification Class",
+      "publisher": "FedRAMP, US General Services Administration",
+      "url": "https://www.fedramp.gov/2026/providers/start/class/"
+    }
+  ],
+  "related": [
+    "nist-sp-800-50-security-awareness-training",
+    "cmmc-security-awareness-training",
+    "soc-2-security-awareness-training",
+    "ism-cyber-security-awareness-training",
+    "iso-27001-awareness-training-requirements"
+  ],
+  "productLinks": [
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    },
+    {
+      "label": "Government and defense",
+      "href": "/industries/government-defence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 14,
+  "factCheck": [
+    {
+      "claim": "SP 800-53 Rev 5 AT-2: literacy training for system users including managers, senior executives, contractors, initial and at defined frequency, after system changes or events; update content; incorporate lessons learned. AT-3 role based training before access and at frequency; AT-3 discussion says it applies to contractors. AT-4 document, monitor, retain records",
+      "source": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf"
+    },
+    {
+      "claim": "AT-2(2) insider threat and AT-2(3) social engineering text; AT-2(3) discussion lists phishing, pretexting, impersonation, baiting, quid pro quo, thread-jacking, social media exploitation, tailgating",
+      "source": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf"
+    },
+    {
+      "claim": "FedRAMP baselines: AT-2(a)(1) and AT-2(c) at least annually; AT-3(a)(1) and AT-3(b) at least annually at Low, Moderate, High; AT-2(2) in all three; AT-2(3) in Moderate and High only; AT-4(b) one year at Low and Moderate, five years at High; LI-SaaS lists AT-1, AT-2, AT-2(2), AT-3, AT-4 as Attest; legacy notice dated June 23, 2026",
+      "source": "https://www.fedramp.gov/legacy/assets/LEGACY%20FedRAMP_Security_Controls_Baseline.xlsx"
+    },
+    {
+      "claim": "CR26 dates: July 4, 2026 early adoption; August 3, 2026 Class A pipeline; August 31, 2026 Class B and C pipeline; January 1, 2027 mandatory adoption; June 11, 2027 end of new Rev5 certifications",
+      "source": "https://www.fedramp.gov/2026/timeline/"
+    },
+    {
+      "claim": "KSI-CED-RAT text, four training categories, related SP 800-53 controls, and October 13, 2026 mapping update",
+      "source": "https://www.fedramp.gov/2026/providers/20x/key-security-indicators/cybersecurity-education/"
+    },
+    {
+      "claim": "Consolidated Rules for 2026 published June 2026; FedRAMP 20x pipeline opened August 2026",
+      "source": "https://www.fedramp.gov/2026-11-02-memo-to-milestone/"
+    },
+    {
+      "claim": "Class A designed for commercial products with SOC 2 Type II and a mature security program",
+      "source": "https://www.fedramp.gov/2026/providers/start/class/"
+    }
+  ]
+}

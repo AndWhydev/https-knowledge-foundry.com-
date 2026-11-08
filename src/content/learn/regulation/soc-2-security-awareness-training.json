@@ -1,0 +1,253 @@
+{
+  "slug": "soc-2-security-awareness-training",
+  "kind": "regulation",
+  "title": "Does SOC 2 require security awareness training for employees?",
+  "seoTitle": "SOC 2 security awareness training",
+  "description": "How the AICPA Trust Services Criteria CC1.4 and CC2.2 shape SOC 2 security awareness and competence training, and the evidence a service auditor tests.",
+  "shortAnswer": "SOC 2 is not a law, so no statute mandates training. It is an attestation report in which a CPA firm evaluates controls against the AICPA Trust Services Criteria. Criterion CC1.4 expects a commitment to attract, develop and retain competent people, and CC2.2 expects internal communication of control responsibilities. Their points of focus name training programs and a security awareness training program, so most service organizations evidence both.",
+  "keyTakeaways": [
+    "SOC 2 is a voluntary attestation against the AICPA Trust Services Criteria, usually demanded by customers through contracts and vendor reviews.",
+    "CC1.4 (COSO Principle 4) covers competence: its points of focus include providing training to maintain technical competencies of personnel, contractors and vendor employees.",
+    "CC2.2 (COSO Principle 14) covers internal communication: a point of focus describes a security awareness training program.",
+    "Points of focus are not a checklist; the criteria state that an assessment of each point of focus is not required.",
+    "The AICPA exposed proposed 2027 Trust Services Criteria in October 2026, with comments due January 15, 2027 and a proposed effective date of December 31, 2027."
+  ],
+  "jurisdiction": "International (AICPA attestation framework, United States origin)",
+  "regulator": "American Institute of Certified Public Accountants (AICPA), Assurance Services Executive Committee (ASEC); examinations performed by licensed CPA firms",
+  "appliesTo": [
+    "SaaS, cloud and managed service providers that issue SOC 2 reports to customers",
+    "Service organizations asked for SOC 2 reports in vendor due diligence or contracts",
+    "Contractors and vendor employees who operate controls within the system being examined"
+  ],
+  "sections": [
+    {
+      "id": "what-soc-2-is",
+      "heading": "Is SOC 2 a legal requirement?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No. SOC 2 is an examination report issued by a CPA firm, not a regulation, and no government agency enforces it. The obligation to train comes indirectly: customers require a clean SOC 2 report, and the report evaluates controls against criteria that include competence and communication."
+        },
+        {
+          "type": "p",
+          "text": "The criteria are published by the AICPA Assurance Services Executive Committee (ASEC) as the [2017 Trust Services Criteria for Security, Availability, Processing Integrity, Confidentiality, and Privacy (With Revised Points of Focus 2022)](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022). The criteria document explains that ASEC established them for attestation or consulting engagements, and that criteria promulgated by a body designated by the AICPA Council are, by definition, considered suitable under paragraph .A44 of AT-C section 105."
+        },
+        {
+          "type": "p",
+          "text": "Because it is contractual, SOC 2 sits alongside statutory duties rather than replacing them. A SaaS provider may still owe training under the [GDPR](/regulations/gdpr-staff-training-requirements), [HIPAA](/regulations/hipaa-security-and-privacy-training) or the [FTC Safeguards Rule](/regulations/ftc-safeguards-rule-employee-training), and one program can serve all of them if the mapping is explicit."
+        }
+      ]
+    },
+    {
+      "id": "cc1-4-competence",
+      "heading": "What does criterion CC1.4 expect about competence and training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CC1.4 expects the organization to define the competence it needs, check people against it, and develop them, including through training. The criterion repeats COSO Principle 4 word for word: \"The entity demonstrates a commitment to attract, develop, and retain competent individuals in alignment with objectives.\""
+        },
+        {
+          "type": "p",
+          "text": "The Trust Services Criteria are aligned to the 17 principles of the COSO Internal Control: Integrated Framework (2013), which is why CC1.4 carries COSO's own points of focus plus additional points specific to trust services engagements. Those relevant to training are:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Establishes Policies and Practices:** policies and practices reflect expectations of competence.",
+            "**Evaluates Competence and Addresses Shortcomings:** the board and management evaluate competence across the entity and in outsourced service providers, and act on shortcomings.",
+            "**Attracts, Develops, and Retains Individuals:** the entity provides the mentoring and training needed for sufficient, competent personnel and outsourced service providers.",
+            "**Considers the Technical Competency of Individuals:** technical competency of personnel, contractors and vendor employees is considered when deciding to employ and retain them.",
+            "**Provides Training to Maintain Technical Competencies:** training programs, including continuing education, keep the skill sets of personnel, contractors and vendor employees developed and maintained."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The reach to contractors and vendor employees matters for SaaS companies that rely on outsourced engineering or support. A control description that covers only payroll employees leaves a gap the auditor can test."
+        }
+      ]
+    },
+    {
+      "id": "cc2-2-communication",
+      "heading": "What does criterion CC2.2 expect about security awareness?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CC2.2 is where security awareness training sits. The criterion repeats COSO Principle 14: the entity \"internally communicates information, including objectives and responsibilities for internal control, necessary to support the functioning of internal control.\""
+        },
+        {
+          "type": "p",
+          "text": "Among the additional points of focus for trust services engagements, one reads that the entity communicates information to improve security knowledge and awareness and to model appropriate security behaviors to personnel \"through a security awareness training program.\" Others describe communicating control responsibilities (including changes to them) to people who design, operate or monitor system controls, and telling personnel how to report system failures, incidents, concerns and complaints."
+        },
+        {
+          "type": "p",
+          "text": "In practice, CC2.2 evidence is broader than a course. Auditors also look at onboarding communications, policy acknowledgements, incident reporting guidance and notices of changed responsibilities, which is why a [policy attestation](/glossary/policy-attestation) record often sits next to the training record."
+        }
+      ]
+    },
+    {
+      "id": "points-of-focus-status",
+      "heading": "Are the points of focus mandatory?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No. The criteria themselves are what the auditor evaluates against; points of focus describe characteristics that help design and evaluate controls. The criteria document states that use of the trust services criteria \"does not require an assessment of whether each point of focus is addressed,\" and that management may customize or replace a point of focus that is not relevant."
+        },
+        {
+          "type": "p",
+          "text": "That flexibility cuts both ways. An organization may meet CC2.2 without a formal course, but it then has to show another way that personnel understand their security responsibilities. Most service organizations find a recorded awareness program the simplest evidence, and many customers ask for it directly in security questionnaires."
+        }
+      ]
+    },
+    {
+      "id": "evidence-table",
+      "heading": "What evidence does a SOC 2 auditor test for training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The auditor tests the controls the organization describes, so evidence must match the control wording. The table maps the training related criteria to typical controls, roles, frequencies and evidence. It is illustrative: SOC 2 sets no frequency, so the frequencies shown are common organizational choices, not criteria requirements."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative SOC 2 training control mapping (frequencies are organizational choices)",
+          "head": ["Criterion and point of focus", "Who it applies to", "Typical frequency chosen", "Evidence a service auditor samples"],
+          "rows": [
+            ["CC1.4: Establishes Policies and Practices", "Roles operating in scope controls", "Reviewed annually", "Role descriptions with competence requirements; approved training policy"],
+            ["CC1.4: Provides Training to Maintain Technical Competencies", "Engineers, administrators, security staff, contractors and vendor staff in scope", "Per role plan, often annual", "Role based training plans, completion records, certifications, assessment results"],
+            ["CC1.4: Evaluates Competence and Addresses Shortcomings", "Managers of in scope teams and outsourced providers", "Annual review cycle", "Performance or competence reviews, remediation actions, vendor oversight records"],
+            ["CC2.2: Security awareness training program", "All personnel with system access", "At hire and annually", "Completion reports for sampled new hires and existing staff, content version, quiz results"],
+            ["CC2.2: Communicates Responsibilities", "Control owners", "On assignment and on change", "Control owner acknowledgements, change notices, updated runbooks"],
+            ["CC2.2: Reporting failures and incidents", "All personnel", "At hire, with periodic reminders", "Incident reporting guidance in onboarding and awareness content, intranet page history"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Evidence should cover the whole report period, not only the month of fieldwork. New hires who joined mid period, contractors and people who changed roles are the populations auditors most often sample. The method for assembling this is set out in [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
+        }
+      ]
+    },
+    {
+      "id": "what-is-changing",
+      "heading": "What changes are coming to the Trust Services Criteria?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "As at November 2026, the AICPA has proposed new criteria but they are not in force. On October 28, 2026 the AICPA announced that it is seeking comment on a [proposed SOC 2 Trust Services Criteria update](https://www.aicpa-cima.com/news/article/aicpa-proposes-update-of-soc-2-r-trust-services-criteria-to-enhance-the-relevance-usability-and-value-of-cpas-reports), with comments due January 15, 2027 and a proposed effective date of December 31, 2027, early adoption permitted."
+        },
+        {
+          "type": "p",
+          "text": "The announcement describes targeted restructuring, including consolidating duplicative concepts and removing criteria where appropriate, and expanded considerations for artificial intelligence, such as AI governance, model monitoring, prompt manipulation and training data management. The announcement does not describe changes to the competence or communication criteria, so programs built on CC1.4 and CC2.2 remain current until final criteria are issued. Training owners should plan a content review once the final text is published."
+        },
+        {
+          "type": "callout",
+          "title": "Related development: FedRAMP 20x",
+          "text": "FedRAMP's Consolidated Rules for 2026 created a Class A certification designed for commercial products that already hold a SOC 2 Type II report, which raises the value of SOC 2 training evidence for providers selling to US federal agencies. See [FedRAMP security awareness training](/regulations/fedramp-security-awareness-training)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each in scope role's competence requirements and the security awareness concepts as structured objects with assessment points, then links them to CC1.4 and CC2.2 and to any statutory obligations the organization also carries. The result is one evidence set that a service auditor, a customer questionnaire and a regulator can each trace."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How often does SOC 2 require security awareness training?",
+      "a": "The Trust Services Criteria do not set a frequency. Organizations define one in their own control description, most commonly at hire and annually, and the auditor then tests against that stated frequency. Choosing a cycle the organization cannot sustain creates exceptions, so the stated frequency should match what the training system can evidence."
+    },
+    {
+      "q": "Do contractors need SOC 2 training?",
+      "a": "Usually, if they operate controls or have access to the system in scope. CC1.4 points of focus refer to personnel, contractors and vendor employees, and CC2.2 refers to personnel with responsibility for system controls. Organizations either train contractors directly or require equivalent training by contract and keep evidence of it."
+    },
+    {
+      "q": "Is a SOC 2 Type I report enough to show training works?",
+      "a": "A Type I report addresses the design of controls at a point in time, while a Type II report also covers whether controls operated over a period. Customers that want assurance that training actually happened across the year generally ask for Type II, and the FedRAMP Class A path refers to SOC 2 Type II specifically."
+    },
+    {
+      "q": "Does the Privacy category add training expectations?",
+      "a": "The common criteria, including CC1.4 and CC2.2, apply to every SOC 2 category, so privacy reports carry the same competence and communication expectations. Organizations adding the Privacy category usually extend awareness content to cover personal information handling and their privacy commitments, which also supports obligations under laws such as the CCPA."
+    }
+  ],
+  "sources": [
+    {
+      "title": "2017 Trust Services Criteria for Security, Availability, Processing Integrity, Confidentiality, and Privacy (With Revised Points of Focus 2022)",
+      "publisher": "AICPA and CIMA",
+      "url": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022"
+    },
+    {
+      "title": "TSP Section 100, 2017 Trust Services Criteria (March 2020 version, archived copy of the AICPA file)",
+      "publisher": "AICPA (via Internet Archive)",
+      "url": "https://web.archive.org/web/20230905175109id_/https://us.aicpa.org/content/dam/aicpa/interestareas/frc/assuranceadvisoryservices/downloadabledocuments/trust-services-criteria-2020.pdf"
+    },
+    {
+      "title": "AICPA Proposes Update of SOC 2 Trust Services Criteria to Enhance the Relevance, Usability and Value of CPAs' Reports",
+      "publisher": "AICPA and CIMA",
+      "url": "https://www.aicpa-cima.com/news/article/aicpa-proposes-update-of-soc-2-r-trust-services-criteria-to-enhance-the-relevance-usability-and-value-of-cpas-reports"
+    },
+    {
+      "title": "System and Organization Controls: SOC Suite of Services",
+      "publisher": "AICPA and CIMA",
+      "url": "https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services"
+    },
+    {
+      "title": "Achieving Effective Internal Control over Sustainability Reporting (quotes COSO ICIF 2013 principles 4 and 14)",
+      "publisher": "Committee of Sponsoring Organizations of the Treadway Commission (COSO)",
+      "url": "https://www.coso.org/_files/ugd/3059fc_a3a66be7a48c47e1a285cef0b1f64c92.pdf"
+    },
+    {
+      "title": "Choosing a Certification Class, FedRAMP Consolidated Rules for 2026",
+      "publisher": "FedRAMP, US General Services Administration",
+      "url": "https://www.fedramp.gov/2026/providers/start/class/"
+    }
+  ],
+  "related": [
+    "iso-27001-awareness-training-requirements",
+    "nist-sp-800-50-security-awareness-training",
+    "fedramp-security-awareness-training",
+    "ccpa-cpra-employee-training-requirements",
+    "pci-dss-security-awareness-training-requirements",
+    "ftc-safeguards-rule-employee-training"
+  ],
+  "productLinks": [
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" },
+    { "label": "Standards and accreditation", "href": "/platform/standards-accreditation" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 14,
+  "factCheck": [
+    {
+      "claim": "Current criteria title is the 2017 Trust Services Criteria for Security, Availability, Processing Integrity, Confidentiality, and Privacy (With Revised Points of Focus 2022), published by the AICPA Assurance Services Executive Committee",
+      "source": "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022"
+    },
+    {
+      "claim": "CC1.4 text is COSO Principle 4 (attract, develop, and retain competent individuals); points of focus include Attracts, Develops, and Retains Individuals (mentoring and training) and Provides Training to Maintain Technical Competencies covering personnel, contractors, and vendor employees (wording read in the March 2020 version; 2022 revision gated behind a free AICPA account)",
+      "source": "https://web.archive.org/web/20230905175109id_/https://us.aicpa.org/content/dam/aicpa/interestareas/frc/assuranceadvisoryservices/downloadabledocuments/trust-services-criteria-2020.pdf"
+    },
+    {
+      "claim": "CC2.2 text is COSO Principle 14; additional point of focus: Communicates Information to Improve Security Knowledge and Awareness through a security awareness training program; other points cover communicating responsibilities and how to report failures and incidents",
+      "source": "https://web.archive.org/web/20230905175109id_/https://us.aicpa.org/content/dam/aicpa/interestareas/frc/assuranceadvisoryservices/downloadabledocuments/trust-services-criteria-2020.pdf"
+    },
+    {
+      "claim": "TSC aligned to the 17 COSO 2013 principles; use of the TSC does not require an assessment of whether each point of focus is addressed; AT-C 105 .A44 makes criteria from a Council designated body suitable",
+      "source": "https://web.archive.org/web/20230905175109id_/https://us.aicpa.org/content/dam/aicpa/interestareas/frc/assuranceadvisoryservices/downloadabledocuments/trust-services-criteria-2020.pdf"
+    },
+    {
+      "claim": "COSO Principle 4 and Principle 14 wording (ICIF-2013-4 and ICIF-2013-14)",
+      "source": "https://www.coso.org/_files/ugd/3059fc_a3a66be7a48c47e1a285cef0b1f64c92.pdf"
+    },
+    {
+      "claim": "AICPA announced proposed SOC 2 TSC update on October 28, 2026; comments due January 15, 2027; proposed effective date December 31, 2027 with early adoption; includes AI governance, model monitoring, prompt manipulation, training data management",
+      "source": "https://www.aicpa-cima.com/news/article/aicpa-proposes-update-of-soc-2-r-trust-services-criteria-to-enhance-the-relevance-usability-and-value-of-cpas-reports"
+    },
+    {
+      "claim": "FedRAMP Class A certification is designed for existing commercial products that already have a SOC 2 Type II and a mature security program",
+      "source": "https://www.fedramp.gov/2026/providers/start/class/"
+    }
+  ]
+}

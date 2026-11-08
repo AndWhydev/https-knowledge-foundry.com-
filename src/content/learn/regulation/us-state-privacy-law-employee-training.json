@@ -1,0 +1,374 @@
+{
+  "slug": "us-state-privacy-law-employee-training",
+  "kind": "regulation",
+  "title": "Which US state privacy laws require employee training?",
+  "seoTitle": "US state privacy law training",
+  "description": "A state by state check of which US comprehensive privacy laws mention employee training, read on official state sites, and duties that still need training.",
+  "shortAnswer": "Of the comprehensive state privacy laws checked on official state sites, only California's CCPA expressly requires training: staff who handle privacy inquiries must know the law and how to route requests. Virginia, Colorado, Connecticut, Utah, Delaware, Iowa, Indiana, Kentucky, Maryland and Minnesota contain no training clause, but each requires reasonable administrative safeguards and processor confidentiality duties that are hard to meet without trained staff.",
+  "keyTakeaways": [
+    "California is the only state checked whose privacy statute and regulations name training: Civil Code 1798.130(a)(6), 1798.135(c)(3) and 11 CCR 7100.",
+    "Ten other comprehensive laws read in full on official state sites contain no employee training requirement.",
+    "All ten require reasonable administrative, technical and physical data security practices, and most require processor contracts that bind each person processing data to a duty of confidentiality.",
+    "Minnesota goes furthest on governance: section 325M.18 requires documented privacy policies and procedures naming a chief privacy officer or equivalent.",
+    "Texas, Oregon, Tennessee, Montana, Nebraska, New Hampshire, New Jersey, Rhode Island and Florida were not verified for this page; check them before relying on the table for those states."
+  ],
+  "jurisdiction": "United States (state comprehensive consumer privacy laws)",
+  "regulator": "State attorneys general (Colorado Department of Law, Connecticut Attorney General, Virginia Attorney General and others); California Privacy Protection Agency and California Attorney General",
+  "appliesTo": [
+    "Controllers and processors that meet a state law's applicability thresholds",
+    "Privacy, customer support, security and engineering staff who handle personal data or consumer requests",
+    "Vendors and contractors processing personal data under processor contracts"
+  ],
+  "sections": [
+    {
+      "id": "short-version",
+      "heading": "Do state privacy laws outside California require training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Not in so many words. The laws checked for this page, modeled largely on Virginia's Consumer Data Protection Act, impose duties on controllers and processors but do not say \"train your employees.\" California is the exception: its statute and regulations require that people handling consumer inquiries be informed of the requirements, and the regulations add a documented training policy for businesses at 10 million consumers. That duty is covered in detail on the [CCPA and CPRA training page](/regulations/ccpa-cpra-employee-training-requirements)."
+        },
+        {
+          "type": "p",
+          "text": "Absence of a training clause is not absence of a training need. Every law checked requires reasonable administrative safeguards, timely handling of consumer requests and, in most cases, confidentiality commitments from everyone who processes the data. An organization asked by an attorney general how it meets those duties will usually point to staff training as part of the answer."
+        }
+      ]
+    },
+    {
+      "id": "state-table",
+      "heading": "What does each state law say, as at November 2026?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each law below was read in full on an official state legislature or government site in November 2026, and searched for training, education and confidentiality language. Where only an enrolled bill was available, later amendments may not be reflected."
+        },
+        {
+          "type": "table",
+          "caption": "Training related provisions in state comprehensive privacy laws checked on official sources, as at November 2026",
+          "head": [
+            "State and law",
+            "Express training requirement",
+            "Closest staff related duty",
+            "Evidence an attorney general would expect"
+          ],
+          "rows": [
+            [
+              "California: CCPA, Civil Code 1798.100 and following; 11 CCR 7000 and following",
+              "Yes: 1798.130(a)(6), 1798.135(c)(3), 11 CCR 7100; written training policy at 10,000,000 consumers",
+              "Request records kept 24 months (11 CCR 7101); cybersecurity audits assess training (11 CCR 7123)",
+              "Training curriculum mapped to the cited sections, completion records, training policy, request logs"
+            ],
+            [
+              "Colorado: Colorado Privacy Act Rules, 4 CCR 904-3 (effective July 1, 2023)",
+              "No",
+              "Rule 6.09 duty of care: reasonable administrative, technical, organizational and physical safeguards; Rule 7.06 lists verification by trained personnel as one parental consent method",
+              "Safeguard documentation that names awareness training as an organizational measure"
+            ],
+            [
+              "Connecticut: Data Privacy Act, Gen. Stat. 42-515 and following (P.A. 22-15 effective July 1, 2023)",
+              "No",
+              "Processor contracts require a duty of confidentiality for each person processing data (42-521); employees and contractors may access consumer health data only under a confidentiality duty (42-526)",
+              "Confidentiality agreements, access lists for health data, processor contracts"
+            ],
+            [
+              "Virginia: Consumer Data Protection Act, Code 59.1-575 and following",
+              "No",
+              "Reasonable administrative, technical and physical security practices (59.1-578); processor confidentiality duty (59.1-579)",
+              "Security program records, processor contracts, data protection assessments"
+            ],
+            [
+              "Utah: Consumer Privacy Act, Code 13-61 (S.B. 227, effective December 31, 2023)",
+              "No",
+              "Reasonable administrative, technical and physical security practices; processor confidentiality duty (13-61-301)",
+              "Security practice documentation, processor contracts"
+            ],
+            [
+              "Delaware: Personal Data Privacy Act, 6 Del. C. ch. 12D",
+              "No",
+              "Reasonable administrative, technical and physical security practices; processor confidentiality duty (12D-107); amended provisions effective January 1, 2027",
+              "Security documentation, processor contracts, readiness for the 2027 amendments"
+            ],
+            [
+              "Iowa: Iowa Code ch. 715D",
+              "No",
+              "Reasonable security practices (715D.4); processor confidentiality duty (715D.5)",
+              "Security documentation, processor contracts, request handling within 90 days"
+            ],
+            [
+              "Indiana: IC 24-15 (effective January 1, 2026)",
+              "No",
+              "Reasonable security practices; processor confidentiality duty (Chapter 5)",
+              "Security documentation, processor contracts, data protection impact assessments"
+            ],
+            [
+              "Kentucky: Consumer Data Protection Act, 2024 HB 15 (effective January 1, 2026)",
+              "No",
+              "Reasonable security practices; processor confidentiality duty (Section 5)",
+              "Security documentation, processor contracts"
+            ],
+            [
+              "Maryland: Online Data Privacy Act, 2024 SB 541 (effective October 1, 2025)",
+              "No",
+              "Employees and contractors may access consumer health data only under a contractual or statutory duty of confidentiality",
+              "Health data access controls, confidentiality terms in employment and contractor agreements"
+            ],
+            [
+              "Minnesota: Consumer Data Privacy Act, Stat. 325M.10 to 325M.21",
+              "No",
+              "Documented privacy policies and procedures naming a chief privacy officer or equivalent (325M.18); data inventory within security practices (325M.16); processor confidentiality duty (325M.13)",
+              "Written policy description, named privacy lead, data inventory, privacy and protection assessments"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "common-duties",
+      "heading": "Which common duties still depend on trained staff?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Three duties recur across the non California laws, and each is executed by people. Training is the practical control that makes them happen consistently."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Reasonable administrative safeguards.** Virginia section 59.1-578 requires controllers to \"establish, implement, and maintain reasonable administrative, technical, and physical data security practices,\" and Connecticut, Delaware, Indiana, Iowa, Kentucky, Minnesota and Utah use the same or near identical wording. Administrative safeguards are the people side of security, which is where awareness training sits.",
+            "**Confidentiality of everyone who processes data.** Processor contracts in Virginia (59.1-579), Connecticut (42-521), Utah (13-61-301), Iowa (715D.5), Delaware (12D-107) and Minnesota (325M.13) must require that each person processing personal data is subject to a duty of confidentiality. A signed confidentiality term is stronger when staff understand what it covers.",
+            "**Consumer request handling.** Each law sets response deadlines, for example 90 days under Iowa's chapter 715D with one 45 day extension. Missed or mishandled requests are the most visible failures, and they usually trace back to front line staff who did not recognize a request."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Minnesota's documented policy requirement in section 325M.18 deserves separate attention. A written description of privacy policies and procedures with a named privacy lead is easier to defend when the organization can also show that the people bound by those procedures were trained on them. The general method is in [how to convert policies into training](/guides/how-to-convert-policies-into-training)."
+        }
+      ]
+    },
+    {
+      "id": "multi-state-program",
+      "heading": "How should a multi state business design one training program?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Build to California and the strictest health data rules, then add state specific modules only where obligations genuinely differ. Most of the content, such as recognizing a privacy request, verifying identity, routing opt outs and protecting data, is the same in every state."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative multi state privacy training design",
+          "head": [
+            "Module",
+            "Audience",
+            "Frequency (recommended)",
+            "Driven by"
+          ],
+          "rows": [
+            [
+              "Recognizing and routing consumer requests",
+              "Customer support, privacy operations, HR",
+              "At onboarding and when request methods change",
+              "CCPA 1798.130 and 11 CCR 7100; request deadlines in every state law"
+            ],
+            [
+              "Data security awareness",
+              "All personnel with system access",
+              "At onboarding and annually",
+              "Reasonable administrative safeguard clauses; CCPA cybersecurity audit scope"
+            ],
+            [
+              "Confidentiality and acceptable use",
+              "Employees, contractors, vendor staff",
+              "At onboarding with annual acknowledgement",
+              "Processor confidentiality clauses in Virginia model laws"
+            ],
+            [
+              "Consumer health data handling",
+              "Staff with access to health related data",
+              "Before access is granted",
+              "Connecticut 42-526 and Maryland consumer health data provisions"
+            ],
+            [
+              "Privacy policies and procedures",
+              "Privacy lead, data owners, engineers",
+              "On policy change",
+              "Minnesota 325M.18 documented policies"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Track which states each business unit is subject to in a [compliance obligations register](/glossary/compliance-obligations-register) so a new state law triggers a review of the module map rather than a new course. The design steps are in [how to build a training matrix](/guides/how-to-build-a-training-matrix)."
+        }
+      ]
+    },
+    {
+      "id": "not-verified",
+      "heading": "Which state laws were not verified for this page?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Texas, Oregon, Tennessee, Montana, Nebraska, New Hampshire, New Jersey, Rhode Island and Florida were not verified, because their official legislature sites could not be read in full during this review. Their laws follow similar models, but this page does not state whether they contain training language. Treat those states as open items and read the statute on the official site before relying on any summary."
+        },
+        {
+          "type": "callout",
+          "title": "Federal overlay",
+          "text": "Financial institutions subject to the FTC Safeguards Rule have an express federal training duty that applies regardless of state law. See [FTC Safeguards Rule employee training](/regulations/ftc-safeguards-rule-employee-training)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry represents each state duty, such as request deadlines, confidentiality and safeguards, as an obligation linked to shared concepts and roles. A single request handling competency can then satisfy California's explicit training rule and support the safeguard duties in other states, with the state specific differences kept visible."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "If a state law has no training clause, can an attorney general still fault a business for poor training?",
+      "a": "Indirectly, yes. Attorneys general enforce the duties in the statute, such as reasonable administrative safeguards and timely responses to consumer requests. If a violation traces to staff who did not know the procedure, the absence of training weakens the argument that the safeguards were reasonable. Training is evidence of compliance, even where it is not itself the obligation."
+    },
+    {
+      "q": "Does Colorado require trained personnel?",
+      "a": "Colorado's rules mention trained personnel only as one option for verifying parental consent: a toll free number or videoconference staffed by trained personnel (Rule 7.06). Rule 6.09 requires reasonable administrative, technical, organizational and physical safeguards but does not name training. Organizations commonly list awareness training among their organizational safeguards."
+    },
+    {
+      "q": "Is a confidentiality agreement enough to meet the processor duty?",
+      "a": "The Virginia model laws require processor contracts to ensure that each person processing personal data is subject to a duty of confidentiality, so a signed agreement is the core evidence. Pairing the agreement with short training on what the duty covers makes it more likely to be followed and gives the controller assurance when it oversees the processor."
+    },
+    {
+      "q": "Do these laws cover employee data?",
+      "a": "Of the laws checked, Virginia, Connecticut, Delaware, Iowa, Indiana, Kentucky, Maryland and Minnesota define consumer to exclude an individual acting in a commercial or employment context, so their request handling duties focus on customers. California is different: its employment exemption became inoperative on January 1, 2023, so employee requests must be handled under the CCPA."
+    }
+  ],
+  "sources": [
+    {
+      "title": "California Consumer Privacy Act Regulations, effective January 1, 2026",
+      "publisher": "California Privacy Protection Agency",
+      "url": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf"
+    },
+    {
+      "title": "Colorado Privacy Act Rules, 4 CCR 904-3",
+      "publisher": "Colorado Department of Law",
+      "url": "https://coag.gov/app/uploads/2023/03/FINAL-CLEAN-2023.03.15-Official-CPA-Rules.pdf"
+    },
+    {
+      "title": "Chapter 743jj: Data Privacy and Security",
+      "publisher": "Connecticut General Assembly",
+      "url": "https://www.cga.ct.gov/current/pub/chap_743jj.htm"
+    },
+    {
+      "title": "Code of Virginia, Chapter 53: Consumer Data Protection Act",
+      "publisher": "Virginia General Assembly, Legislative Information System",
+      "url": "https://law.lis.virginia.gov/vacodefull/title59.1/chapter53/"
+    },
+    {
+      "title": "S.B. 227 Consumer Privacy Act, Enrolled Copy (2022)",
+      "publisher": "Utah State Legislature",
+      "url": "https://le.utah.gov/~2022/bills/sbillenr/SB0227.pdf"
+    },
+    {
+      "title": "Title 6, Chapter 12D: Delaware Personal Data Privacy Act",
+      "publisher": "State of Delaware, Delaware Code Online",
+      "url": "https://delcode.delaware.gov/title6/c012d/index.html"
+    },
+    {
+      "title": "Iowa Code Chapter 715D: Consumer Data Protections",
+      "publisher": "Iowa Legislature",
+      "url": "https://www.legis.iowa.gov/docs/code/715D.pdf"
+    },
+    {
+      "title": "Senate Enrolled Act 5 (2023): Consumer Data Protection",
+      "publisher": "Indiana General Assembly",
+      "url": "https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0005/SB0005.05.ENRH.pdf"
+    },
+    {
+      "title": "HB 15 (2024 Regular Session): Kentucky Consumer Data Protection Act",
+      "publisher": "Kentucky General Assembly",
+      "url": "https://apps.legislature.ky.gov/recorddocuments/bill/24RS/hb15/bill.pdf"
+    },
+    {
+      "title": "Senate Bill 541 (2024): Maryland Online Data Privacy Act, enrolled",
+      "publisher": "Maryland General Assembly",
+      "url": "https://mgaleg.maryland.gov/2024RS/bills/sb/sb0541E.pdf"
+    },
+    {
+      "title": "Minnesota Statutes Chapter 325M",
+      "publisher": "Minnesota Office of the Revisor of Statutes",
+      "url": "https://www.revisor.mn.gov/statutes/cite/325M/full"
+    }
+  ],
+  "related": [
+    "ccpa-cpra-employee-training-requirements",
+    "ftc-safeguards-rule-employee-training",
+    "gdpr-staff-training-requirements",
+    "soc-2-security-awareness-training",
+    "hipaa-security-and-privacy-training"
+  ],
+  "productLinks": [
+    {
+      "label": "Framework intelligence",
+      "href": "/platform/framework-intelligence"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 14,
+  "factCheck": [
+    {
+      "claim": "California regulations 11 CCR 7100 require inquiry handlers to be informed and a documented training policy at 10,000,000 consumers",
+      "source": "https://cppa.ca.gov/regulations/pdf/ccpa_statute_eff_20260101.pdf"
+    },
+    {
+      "claim": "Colorado CPA Rules effective July 1, 2023 (Rule 1.03); Rule 6.09 duty of care safeguards; Rule 7.06 parental verification via toll free number or videoconference staffed by trained personnel; no employee training requirement found",
+      "source": "https://coag.gov/app/uploads/2023/03/FINAL-CLEAN-2023.03.15-Official-CPA-Rules.pdf"
+    },
+    {
+      "claim": "Connecticut chapter 743jj: P.A. 22-15 effective July 1, 2023; 42-521 processor duty of confidentiality; 42-526 employees and contractors need confidentiality duty to access consumer health data; no training clause found",
+      "source": "https://www.cga.ct.gov/current/pub/chap_743jj.htm"
+    },
+    {
+      "claim": "Virginia 59.1-578 reasonable administrative, technical, and physical data security practices; 59.1-579 processor duty of confidentiality; no training clause found",
+      "source": "https://law.lis.virginia.gov/vacodefull/title59.1/chapter53/"
+    },
+    {
+      "claim": "Utah S.B. 227 takes effect December 31, 2023; reasonable administrative, technical, and physical data security practices; processor duty of confidentiality in 13-61-301; no training clause found",
+      "source": "https://le.utah.gov/~2022/bills/sbillenr/SB0227.pdf"
+    },
+    {
+      "claim": "Delaware 12D-107 processor duty of confidentiality; sections marked Effective Jan. 1, 2027 indicate amendments; no training clause found",
+      "source": "https://delcode.delaware.gov/title6/c012d/index.html"
+    },
+    {
+      "claim": "Iowa 715D.4 reasonable security practices; 715D.5 processor confidentiality; 90 day response with one 45 day extension; no training clause found",
+      "source": "https://www.legis.iowa.gov/docs/code/715D.pdf"
+    },
+    {
+      "claim": "Indiana IC 24-15 effective January 1, 2026; processor confidentiality in Chapter 5; no training clause found",
+      "source": "https://iga.in.gov/pdf-documents/123/2023/senate/bills/SB0005/SB0005.05.ENRH.pdf"
+    },
+    {
+      "claim": "Kentucky HB 15 takes effect January 1, 2026; processor confidentiality in Section 5; no training clause found",
+      "source": "https://apps.legislature.ky.gov/recorddocuments/bill/24RS/hb15/bill.pdf"
+    },
+    {
+      "claim": "Maryland SB 541 takes effect October 1, 2025; employee or contractor access to consumer health data requires a contractual or statutory duty of confidentiality; no training clause found",
+      "source": "https://mgaleg.maryland.gov/2024RS/bills/sb/sb0541E.pdf"
+    },
+    {
+      "claim": "Minnesota 325M.18 documented policies naming chief privacy officer; 325M.16 security practices including data inventory; 325M.13 processor confidentiality; no training clause found",
+      "source": "https://www.revisor.mn.gov/statutes/cite/325M/full"
+    },
+    {
+      "claim": "Virginia, Connecticut, Delaware, Iowa, Indiana, Kentucky, Maryland and Minnesota definitions of consumer exclude individuals acting in a commercial or employment context (checked in each text cited above)",
+      "source": "https://law.lis.virginia.gov/vacodefull/title59.1/chapter53/"
+    }
+  ]
+}
