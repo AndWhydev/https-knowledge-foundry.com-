@@ -1,0 +1,273 @@
+{
+  "slug": "osha-lockout-tagout-training-requirements",
+  "kind": "regulation",
+  "title": "What lockout/tagout training does OSHA require for manufacturing employees?",
+  "seoTitle": "OSHA lockout/tagout training",
+  "description": "OSHA 1910.147 lockout/tagout training: authorized, affected and other employees, retraining triggers, certification and annual inspections, November 2026.",
+  "shortAnswer": "Under 29 CFR 1910.147(c)(7), the Occupational Safety and Health Administration (OSHA) requires employers to train three groups at different depths: authorized employees who apply locks and tags, affected employees who operate the equipment, and other employees who work nearby. Retraining follows changes in jobs, equipment, hazards or procedures, or gaps found at the annual periodic inspection required by 1910.147(c)(6). Employers must certify training with each employee's name and dates.",
+  "keyTakeaways": [
+    "Training depth depends on role: authorized employees learn hazardous energy recognition and isolation methods, affected employees learn the purpose and use of the procedure, and other employees learn not to restart locked or tagged equipment.",
+    "There is no fixed annual retraining interval for lockout/tagout. Retraining is triggered by changes in job assignment, machines, processes or procedures, and by deviations found during inspections.",
+    "Each energy control procedure must be inspected at least annually by an authorized employee other than the ones using it, and the employer must certify each inspection.",
+    "Training certification must list each employee's name and the dates of training. Inspection certification must identify the machine, date, employees included and inspector.",
+    "Lockout/tagout (29 CFR 1910.147) was the third most frequently cited federal OSHA standard in the preliminary list for fiscal year 2026."
+  ],
+  "jurisdiction": "United States (federal, with state plan variations)",
+  "regulator": "Occupational Safety and Health Administration (OSHA), US Department of Labor",
+  "appliesTo": [
+    "General industry employers, including manufacturers, whose employees service or maintain machines or equipment where unexpected energization, start up or release of stored energy could cause injury",
+    "Authorized, affected and other employees working on or near equipment covered by an energy control program",
+    "On-site employers that bring in outside servicing personnel such as contractors"
+  ],
+  "sections": [
+    {
+      "id": "who-the-standard-covers",
+      "heading": "Which manufacturing work does the lockout/tagout standard cover?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The standard covers servicing and maintenance of machines and equipment where unexpected energization, start up or release of stored energy could injure employees. In a plant, that typically means die changes, clearing jams, cleaning, lubricating and repairing production equipment. The text is at [29 CFR 1910.147](https://www.law.cornell.edu/cfr/text/29/1910.147), part of OSHA's general industry standards."
+        },
+        {
+          "type": "p",
+          "text": "Normal production operations are excluded. Servicing during production is covered only when an employee must remove or bypass a guard or other safety device, or place part of the body into the point of operation or an associated danger zone. Minor tool changes and adjustments that are routine, repetitive and integral to production are outside the standard if they are performed using alternative measures that provide effective protection under the machine guarding rules in Subpart O."
+        },
+        {
+          "type": "p",
+          "text": "Paragraph (a)(1)(ii) excludes construction and agriculture, maritime employment under parts 1915, 1917 and 1918, electric utility generation, transmission and distribution installations, electrical hazards covered by Subpart S, and oil and gas well drilling and servicing. Cord and plug connected equipment is exempt when unplugging controls the hazard and the plug stays under the exclusive control of the person doing the work."
+        }
+      ]
+    },
+    {
+      "id": "three-groups-of-employees",
+      "heading": "What training does each group of employees need?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Paragraph (c)(7)(i) sets three tiers of training, defined by what each person does around the equipment. The general purpose is stated in the rule: training must ensure \"that the purpose and function of the energy control program are understood by employees and that the knowledge and skills required for the safe application, usage, and removal of the energy controls are acquired by employees.\""
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Authorized employees** lock out or tag out equipment to service or maintain it. Each must be trained in recognizing applicable hazardous energy sources, the type and magnitude of energy in the workplace, and the methods and means needed for energy isolation and control (paragraph (c)(7)(i)(A)).",
+            "**Affected employees** operate or use the equipment being serviced, or work in the area where servicing takes place. Each must be instructed in the purpose and use of the energy control procedure (paragraph (c)(7)(i)(B)). An affected employee becomes an authorized employee once their duties include servicing or maintenance under the standard.",
+            "**All other employees** whose work operations are or may be in an area where energy control procedures may be used must be instructed about the procedure and about the prohibition on attempting to restart or reenergize locked out or tagged out equipment (paragraph (c)(7)(i)(C))."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Where a site uses tagout rather than lockout, paragraph (c)(7)(ii) adds six points every trained employee must understand about the limits of tags. Among them: tags are warning devices that do not physically restrain an energy isolating device the way a lock does, a tag must never be removed without authorization of the person responsible for it, and tags \"may evoke a false sense of security.\""
+        }
+      ]
+    },
+    {
+      "id": "retraining-triggers",
+      "heading": "When must lockout/tagout retraining happen?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Retraining is event driven, not calendar driven. Paragraph (c)(7)(iii) requires retraining for all authorized and affected employees when any of the following occurs:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "A change in their job assignments.",
+            "A change in machines, equipment or processes that presents a new hazard.",
+            "A change in the energy control procedures.",
+            "A periodic inspection reveals, or the employer has reason to believe, that there are deviations from or inadequacies in the employee's knowledge or use of the procedures."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The retraining must \"reestablish employee proficiency and introduce new or revised control methods and procedures, as necessary.\" In practice, many manufacturers schedule an annual refresher anyway, because the annual periodic inspection in paragraph (c)(6) creates a natural point to confirm knowledge. The standard itself does not set that interval for training."
+        }
+      ]
+    },
+    {
+      "id": "periodic-inspection",
+      "heading": "How does the annual periodic inspection connect to training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Paragraph (c)(6) requires the employer to inspect each energy control procedure at least annually, and the inspection doubles as a knowledge check. It must be performed by an authorized employee other than the ones using the procedure being inspected, and it must correct any deviations or inadequacies found."
+        },
+        {
+          "type": "p",
+          "text": "Where lockout is used, the inspection must include a review between the inspector and each authorized employee of that employee's responsibilities under the procedure. Where tagout is used, the review extends to each authorized and affected employee and must also cover the tag limitations listed in paragraph (c)(7)(ii). A failed inspection review is one of the stated retraining triggers, so inspection findings should feed directly into the training record."
+        },
+        {
+          "type": "p",
+          "text": "The employer must certify that periodic inspections were performed. Under paragraph (c)(6)(ii) the certification identifies the machine or equipment, the date of the inspection, the employees included and the person performing it."
+        }
+      ]
+    },
+    {
+      "id": "certification-and-records",
+      "heading": "What records does OSHA expect for lockout/tagout training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The employer must certify that training \"has been accomplished and is being kept up to date,\" and the certification must contain each employee's name and dates of training (paragraph (c)(7)(iv)). The standard does not set a retention period in that paragraph, so many employers keep certifications for the duration of employment so that the current status of every authorized and affected employee can be shown."
+        },
+        {
+          "type": "p",
+          "text": "Two other provisions shape what an auditor will look for. Energy control procedures must be documented under paragraph (c)(4), with a narrow exception for single-source equipment that meets eight listed conditions. And when outside servicing personnel work on site, paragraph (f)(2) requires the on-site employer and the outside employer to inform each other of their lockout or tagout procedures, and the on-site employer must ensure its own employees understand and comply with the restrictions of the outside employer's program."
+        },
+        {
+          "type": "table",
+          "caption": "Lockout/tagout obligations mapped to role, frequency and audit evidence (29 CFR 1910.147, as at November 2026)",
+          "head": ["Obligation", "Applies to", "Frequency or trigger", "Evidence an auditor would expect"],
+          "rows": [
+            ["Hazardous energy recognition, type and magnitude, isolation methods, (c)(7)(i)(A)", "Authorized employees", "Before performing lockout or tagout", "Certification with name and date; machine-specific procedure sign-off; practical demonstration record"],
+            ["Purpose and use of the energy control procedure, (c)(7)(i)(B)", "Affected employees (operators, area workers)", "Before working on or near equipment under lockout", "Certification with name and date; briefing content"],
+            ["Procedure awareness and restart prohibition, (c)(7)(i)(C)", "All other employees in areas where procedures may be used", "On assignment to the area", "Induction record showing the restart prohibition was covered"],
+            ["Tag limitations, (c)(7)(ii)", "All trained employees where tagout is used", "With initial training", "Training content listing all six tag limitations"],
+            ["Retraining, (c)(7)(iii)", "Authorized and affected employees", "Change in job, equipment, process, hazard or procedure; inspection finding", "Change log linked to retraining records; inspection follow-up"],
+            ["Periodic inspection, (c)(6)", "Each energy control procedure; inspector is a different authorized employee", "At least annually", "Inspection certification naming machine, date, employees and inspector"],
+            ["Outside personnel exchange, (f)(2)", "On-site employer and contractors", "Before contractor servicing begins", "Record of procedures exchanged and employee briefing"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enforcement-and-penalties",
+      "heading": "How often is lockout/tagout cited, and what are the penalties?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Lockout/tagout is consistently among OSHA's most cited standards. OSHA's [preliminary top 10 list for fiscal year 2026](https://www.osha.gov/top10citedstandards) (October 1, 2025 to August 31, 2026) ranks the general industry control of hazardous energy standard third, behind fall protection in construction and hazard communication."
+        },
+        {
+          "type": "p",
+          "text": "According to [OSHA's penalties page](https://www.osha.gov/penalties), the maximum penalty assessed after January 15, 2026 is $16,550 per serious or other-than-serious violation and $165,514 per willful or repeated violation. Missing certifications and inadequate training for affected employees are separate items an inspector can cite alongside missing procedures. States with OSHA-approved state plans enforce their own standards, which must be at least as effective as the federal rule."
+        }
+      ]
+    },
+    {
+      "id": "building-the-program",
+      "heading": "How should a manufacturer structure lockout/tagout training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Start from the equipment, not the course catalog. Each machine-specific energy control procedure defines what an authorized employee must be able to do on that machine, so the training matrix should link people to procedures, not just to a generic lockout module. A [training matrix](/guides/how-to-build-a-training-matrix) that lists each procedure against each authorized employee makes retraining after an equipment change straightforward to target."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Classify every role as authorized, affected or other, and record the classification so it changes when duties change.",
+            "Assess authorized employees by observed application of locks on the actual equipment, not only by a written quiz, because the rule asks for acquired skill as well as understanding.",
+            "Route every periodic inspection finding about employee knowledge into a retraining action with a due date.",
+            "Treat each procedure revision as a retraining trigger for the authorized and affected employees on that machine, as described in our guide to [setting mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles)."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The broader picture of OSHA training duties across standards is covered in [OSHA training requirements](/regulations/osha-training-requirements). Machine guarding and mechanical power press duties that overlap with lockout during die setting are covered in [OSHA machine guarding and power press training](/regulations/osha-machine-guarding-and-powered-press-training)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models each energy control procedure as a set of concepts and assessment points tied to the role tiers in paragraph (c)(7), so authorized, affected and other employees are assessed against different outcomes. When a procedure changes, the affected assessment points are flagged for the people linked to that machine, which keeps retraining evidence aligned with the triggers in the rule."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does OSHA require annual lockout/tagout training?",
+      "a": "No. The standard requires an annual periodic inspection of each energy control procedure, which includes a review of employee responsibilities, but retraining is triggered by changes and identified deficiencies rather than a calendar interval. Many employers adopt annual refreshers as internal policy, and some state plans or customer requirements may go further."
+    },
+    {
+      "q": "Can a supervisor perform the periodic inspection of their own team's procedure?",
+      "a": "Only if the supervisor is an authorized employee and is not one of the people using the procedure being inspected. Paragraph (c)(6)(i)(A) requires the inspection to be performed by an authorized employee other than the ones utilizing that energy control procedure."
+    },
+    {
+      "q": "Do machine operators need the same training as maintenance technicians?",
+      "a": "No. Operators are usually affected employees and need instruction in the purpose and use of the energy control procedure. Maintenance technicians who apply locks are authorized employees and need training in hazardous energy recognition, energy type and magnitude, and isolation methods. An operator who starts doing servicing becomes an authorized employee and needs the deeper training."
+    },
+    {
+      "q": "Do contractors need to be trained on our lockout/tagout program?",
+      "a": "The outside employer trains its own workers, but paragraph (f)(2) requires both employers to inform each other of their procedures. The on-site employer must make sure its own employees understand and comply with the restrictions and prohibitions of the contractor's energy control program."
+    }
+  ],
+  "sources": [
+    {
+      "title": "29 CFR 1910.147: The control of hazardous energy (lockout/tagout)",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+      "url": "https://www.law.cornell.edu/cfr/text/29/1910.147"
+    },
+    {
+      "title": "Control of Hazardous Energy (Lockout/Tagout)",
+      "publisher": "Occupational Safety and Health Administration",
+      "url": "https://www.osha.gov/control-hazardous-energy"
+    },
+    {
+      "title": "Top 10 Most Frequently Cited Standards, Fiscal Year 2026",
+      "publisher": "Occupational Safety and Health Administration",
+      "url": "https://www.osha.gov/top10citedstandards"
+    },
+    {
+      "title": "OSHA Penalties",
+      "publisher": "Occupational Safety and Health Administration",
+      "url": "https://www.osha.gov/penalties"
+    }
+  ],
+  "related": [
+    "osha-training-requirements",
+    "osha-machine-guarding-and-powered-press-training",
+    "osha-forklift-operator-training-requirements",
+    "iso-45001-competence-and-awareness",
+    "how-to-convert-sops-into-training",
+    "verification-of-competency"
+  ],
+  "productLinks": [
+    { "label": "Operational procedures programs", "href": "/programs/operational-procedures" },
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 14,
+  "factCheck": [
+    {
+      "claim": "1910.147(c)(7)(i)(A) to (C): authorized employees trained in recognition of hazardous energy sources, type and magnitude of energy, and methods of isolation and control; affected employees instructed in purpose and use of the procedure; all other employees instructed about the procedure and the prohibition on restarting locked or tagged equipment.",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.147"
+    },
+    {
+      "claim": "1910.147(c)(7)(iii): retraining for authorized and affected employees on change in job assignment, machines, equipment or processes presenting a new hazard, or energy control procedures, and when a periodic inspection reveals or employer has reason to believe there are deviations or inadequacies.",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.147"
+    },
+    {
+      "claim": "1910.147(c)(7)(iv): employer certifies training accomplished and kept up to date; certification contains each employee's name and dates of training.",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.147"
+    },
+    {
+      "claim": "1910.147(c)(6): periodic inspection at least annually by an authorized employee other than those using the procedure; review of responsibilities with authorized employees (lockout) or authorized and affected employees (tagout); certification identifies machine, date, employees included and inspector.",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.147"
+    },
+    {
+      "claim": "1910.147(c)(7)(ii): six tag limitations including that tags do not provide physical restraint and may evoke a false sense of security.",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.147"
+    },
+    {
+      "claim": "1910.147(a)(1)(ii) exclusions (construction, agriculture, parts 1915/1917/1918, electric utilities, Subpart S electrical, oil and gas well drilling) and (a)(2)(ii) normal production operations exception with minor servicing note.",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.147"
+    },
+    {
+      "claim": "1910.147(f)(2): on-site and outside employers inform each other of lockout/tagout procedures; on-site employer ensures its employees comply with outside employer's restrictions.",
+      "source": "https://www.law.cornell.edu/cfr/text/29/1910.147"
+    },
+    {
+      "claim": "Preliminary FY2026 (Oct 1, 2025 to Aug 31, 2026) top 10: control of hazardous energy, general industry (1910.147) ranked third after 1926.501 and 1910.1200.",
+      "source": "https://www.osha.gov/top10citedstandards"
+    },
+    {
+      "claim": "Maximum penalties assessed after Jan 15, 2026: $16,550 serious or other-than-serious; $165,514 willful or repeated.",
+      "source": "https://www.osha.gov/penalties"
+    }
+  ]
+}

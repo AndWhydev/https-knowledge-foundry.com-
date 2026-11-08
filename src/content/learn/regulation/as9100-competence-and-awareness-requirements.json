@@ -1,0 +1,295 @@
+{
+  "slug": "as9100-competence-and-awareness-requirements",
+  "kind": "regulation",
+  "title": "What does AS9100D add to ISO 9001 for competence and awareness in aerospace manufacturing?",
+  "seoTitle": "AS9100D competence and awareness",
+  "description": "AS9100D (9100:2016) competence and awareness: 7.3 additions on conformity, product safety and ethics, supplier flow down and revision status, November 2026.",
+  "shortAnswer": "AS9100D, the Americas edition of the International Aerospace Quality Group (IAQG) 9100:2016 standard, keeps the ISO 9001 competence duty in clause 7.2 and extends awareness in clause 7.3. People doing work under the organization's control must be aware of their contribution to product or service conformity, their contribution to product safety, and the importance of ethical behavior. Clause 8.4.3 flows the same awareness down to external providers. As at November 2026, IAQG material describes a successor standard in development.",
+  "keyTakeaways": [
+    "AS9100D adds three awareness topics to ISO 9001 clause 7.3: contribution to product or service conformity, contribution to product safety, and the importance of ethical behavior.",
+    "IAQG material states the ethics requirement (clause 7.3 h and 8.4.3 m) was added after industry-wide escapes caused by individual ethical decision making.",
+    "Clause 8.4.3 m requires organizations to communicate the same awareness requirements to external providers so the whole supply chain shares them.",
+    "IAQG guidance expects individuals to be able to explain their role, how they contribute to quality, quality basics, and the potential impact of product failures.",
+    "IAQG material published in 2024 describes a developing IA9100 standard that will replace AS9100 in the Americas; the 9100:2016 series remains the published basis as at November 2026."
+  ],
+  "jurisdiction": "International standard (IAQG 9100 series: AS9100 Americas, EN 9100 Europe, JISQ 9100 Asia Pacific)",
+  "regulator": "No regulator: the International Aerospace Quality Group (IAQG) develops the 9100 series; certification is by accredited certification bodies under the IAQG scheme",
+  "appliesTo": [
+    "Organizations that design, develop, produce, maintain or supply aviation, space and defense products and services and seek or hold 9100 series certification",
+    "All persons doing work under the organization's control whose work affects product or service conformity and product safety",
+    "External providers (suppliers) through the flow down in clause 8.4.3"
+  ],
+  "sections": [
+    {
+      "id": "what-as9100d-is",
+      "heading": "What is AS9100D and how is it structured?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AS9100D is the Americas publication of the IAQG's 9100:2016 quality management system standard for aviation, space and defense organizations. It is published as AS9100 in the Americas, EN 9100 in Europe and JISQ 9100 in the Asia Pacific region, and the IAQG's own [evaluation guidance](https://iaqg.org/wp-content/uploads/2019/10/auditor_guidance-_9100_2016.pdf) is titled for AS/EN/JISQ 9100 2016 (Rev D). The text incorporates ISO 9001:2015 and adds aerospace-specific requirements."
+        },
+        {
+          "type": "p",
+          "text": "The [IAQG 9100 standard page](https://iaqg.org/standard/9100-qms-requirements-for-aviation-space-and-defense-organizations/) describes the standard as usable at all levels of the supply chain and aimed at reducing or eliminating organization-unique requirements. The base ISO 9001 competence duties are explained in [ISO 9001 competence requirements](/regulations/iso-9001-competence-requirements); this page covers what the 9100 series adds."
+        }
+      ]
+    },
+    {
+      "id": "clause-7-2-competence",
+      "heading": "What does clause 7.2 require for competence in AS9100D?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Clause 7.2 carries over the ISO 9001 requirement: determine the competence needed for work affecting quality, ensure people are competent through education, training or experience, act to close gaps and evaluate whether the action worked, and retain documented evidence. The aerospace emphasis shows in how auditors test it."
+        },
+        {
+          "type": "p",
+          "text": "The IAQG's 9100:2016 evaluation guidance lists what auditors consider under 7.2, including:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Defined competency requirements such as induction, training, assessment, qualification, role profiles, skills matrices and performance criteria.",
+            "Understanding resource needs through training needs analysis and gap analysis.",
+            "Providing competence by reassigning or developing existing people, or acquiring competent people externally.",
+            "Periodic assessment and evaluation of competency to ensure continued adequacy and effectiveness.",
+            "Evidence such as training certificates, qualification statements, individual development plans, continuing professional development, on-the-job training records, log books and workplace assessments."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Periodic re-evaluation is the point most often missed. A training record from years ago does not show continued adequacy in a role where processes or products have changed. A [competency framework](/glossary/competency-framework) per role makes the periodic check concrete."
+        }
+      ]
+    },
+    {
+      "id": "clause-7-3-awareness",
+      "heading": "What awareness does AS9100D clause 7.3 add?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Clause 7.3 adds three awareness topics to the ISO 9001 list. The [IAQG 9100:2016 overview presentation](https://iaqg.org/wp-content/uploads/2020/01/9100-2016-Overview-5-13-2020.pdf) states that the standard \"requires the employees aware of: their contribution to product or service conformity; their contribution to product safety; the importance of ethical behavior.\""
+        },
+        {
+          "type": "p",
+          "text": "These sit alongside the ISO 9001 base items: awareness of the quality policy, relevant quality objectives, the person's contribution to the effectiveness of the quality management system, and the implications of not conforming. The IAQG evaluation guidance also lists awareness of relevant documented information, including changes, and gives examples of evidence for each item, such as product end use awareness training, safety alerts, codes of conduct and confidential reporting mechanisms."
+        },
+        {
+          "type": "callout",
+          "title": "Why ethics was added",
+          "text": "An IAQG-hosted article reprinted from ASQ Quality Progress (March 2024) states that \"In AS9100 Rev D, clauses 7.3h and 8.4.3m added the importance of ethical behavior as an awareness requirement after the industry encountered several industrywide escapes caused by individual ethical decision making.\""
+        },
+        {
+          "type": "p",
+          "text": "The IAQG's [9100:2016 FAQ](https://iaqg.org/wp-content/uploads/2019/10/9100-2016_faq.pdf) describes what is expected: individuals should be able to explain their role, such as sales, engineering, procurement, operator or repair technician, and how they contribute to quality; quality basics such as following instructions, reporting events and maintaining records; and the use of the products and the potential impact of failures."
+        }
+      ]
+    },
+    {
+      "id": "supplier-flow-down",
+      "heading": "How does awareness flow down to suppliers?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Clause 8.4.3 m requires the organization to communicate awareness requirements to external providers. According to FAQ 2.13 in the IAQG's 9100:2016 FAQ, the intent is \"to ensure external provider personnel understand the role they play in conformity, product safety, and ethical behavior\" so that the whole supply chain has the same awareness."
+        },
+        {
+          "type": "p",
+          "text": "The FAQ suggests two ways to meet it: a general requirement to all or key external providers reminding them they work on aerospace products, or specific requirements in purchase orders or contracts reminding relevant providers that their products have safety impacts on the final product. Either way, the evidence is in purchasing documents, not just the training system."
+        }
+      ]
+    },
+    {
+      "id": "related-training-topics",
+      "heading": "Which other AS9100D clauses create training needs?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Several operational clauses imply targeted training. The IAQG FAQ lists, as methods for counterfeit part prevention under clause 8.1.4, training in awareness and prevention of counterfeit parts for procurement personnel (trusted source selection), inspection personnel (visual and test methods) and design personnel (obsolescence management)."
+        },
+        {
+          "type": "p",
+          "text": "Under product safety (clause 8.1.3), the IAQG evaluation guidance lists training and communication as something auditors consider, with examples including product safety policy, promoting a safety culture, product integrity training, product safety training, safety alerts and individual reporting mechanisms. Training managers should treat these as role-specific competence requirements under 7.2 and as awareness under 7.3."
+        }
+      ]
+    },
+    {
+      "id": "obligation-evidence-map",
+      "heading": "How do AS9100D competence and awareness duties map to evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The table below is an original mapping of the 9100 series competence and awareness requirements to roles, cycles and the evidence an auditor would typically sample."
+        },
+        {
+          "type": "table",
+          "caption": "AS9100D (9100:2016) competence and awareness obligations mapped to evidence, as at November 2026",
+          "head": [
+            "Obligation",
+            "Applies to",
+            "Frequency or trigger",
+            "Evidence an auditor would expect"
+          ],
+          "rows": [
+            [
+              "Determine and achieve competence, 7.2",
+              "All persons doing work affecting quality",
+              "On assignment; periodic re-evaluation",
+              "Role competency requirements; training needs analysis; qualification and workplace assessment records"
+            ],
+            [
+              "Awareness of contribution to product or service conformity, 7.3",
+              "All persons under the organization's control",
+              "Induction and ongoing",
+              "Interviews where staff explain their role; briefings on requirements and changes"
+            ],
+            [
+              "Awareness of contribution to product safety, 7.3",
+              "All persons, with emphasis on safety-related roles",
+              "Induction and ongoing",
+              "Product end use awareness content; safety alerts; reporting channel"
+            ],
+            [
+              "Awareness of the importance of ethical behavior, 7.3 h",
+              "All persons",
+              "Induction and periodic",
+              "Code of conduct communication; confidential reporting mechanism; training records"
+            ],
+            [
+              "Flow down of awareness to external providers, 8.4.3 m",
+              "Purchasing and supplier management",
+              "Each relevant order or contract",
+              "Purchase order or contract clauses; supplier communications"
+            ],
+            [
+              "Counterfeit parts prevention training, 8.1.4",
+              "Procurement, inspection and design personnel",
+              "On assignment and when methods change",
+              "Role-specific training records on trusted sources, inspection and obsolescence"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Methods for building this map are in [how to build a training matrix](/guides/how-to-build-a-training-matrix) and [how to evidence training effectiveness to a regulator](/guides/how-to-evidence-training-effectiveness-to-a-regulator). Automotive suppliers working to both sectors can compare these duties with [IATF 16949 competence and awareness](/regulations/iatf-16949-competence-and-awareness-requirements)."
+        }
+      ]
+    },
+    {
+      "id": "revision-status",
+      "heading": "Is AS9100D being replaced?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A successor is in development, but as at November 2026 the 9100:2016 series remains the published basis. The IAQG's 9100 standard page still lists 9100:2016 series resources, including a standards clarification table dated February 2024. The IAQG-hosted Quality Progress article of March 2024 refers to \"the developing IA9100 standard, which will replace AS9100 in the Americas\" and describes draft content that develops ethics throughout the standard, including a note in clause 5.1.1 on periodic training and awareness."
+        },
+        {
+          "type": "p",
+          "text": "Publication and transition dates for the successor could not be confirmed from IAQG public material for this page. Because the 9100 series is built on ISO 9001, and ISO 9001 was itself revised in 2026 (see [ISO 9001 competence requirements](/regulations/iso-9001-competence-requirements)), organizations should confirm the expected timing with their certification body and plan for awareness content on ethics and culture to expand."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models the 9100 awareness topics as explicit assessment points per role, so an organization can show not only that ethics or product safety content was delivered but that people can explain their own contribution. The same framework can be extended to external providers when awareness is flowed down under 8.4.3."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does AS9100D require ethics training?",
+      "a": "AS9100D requires people to be aware of the importance of ethical behavior under clause 7.3, and to flow that awareness to external providers under 8.4.3. It does not prescribe a course format. IAQG guidance gives examples of evidence such as codes of conduct, confidential reporting mechanisms, awareness campaigns and training programs."
+    },
+    {
+      "q": "How do auditors check AS9100D awareness?",
+      "a": "Mostly by talking to people. IAQG's FAQ says individuals should be able to explain their role and how they contribute to quality, quality basics such as following instructions and reporting events, and the use of the products and potential impact of failures. Records support this, but interviews are the main test."
+    },
+    {
+      "q": "Is AS9100D different from EN 9100 and JISQ 9100?",
+      "a": "They are regional publications of the same IAQG 9100:2016 standard: AS9100 in the Americas, EN 9100 in Europe and JISQ 9100 in Asia Pacific. IAQG materials refer to them together as AS/EN/JISQ 9100 2016 (Rev D)."
+    },
+    {
+      "q": "Does AS9100D set a training frequency?",
+      "a": "No fixed frequency is set for competence or awareness. IAQG evaluation guidance expects periodic assessment and evaluation of competency to ensure continued adequacy and effectiveness, so organizations define their own cycles based on risk, role and change."
+    }
+  ],
+  "sources": [
+    {
+      "title": "9100 Quality Management Systems: Requirements for Aviation, Space and Defense Organizations",
+      "publisher": "International Aerospace Quality Group",
+      "url": "https://iaqg.org/standard/9100-qms-requirements-for-aviation-space-and-defense-organizations/"
+    },
+    {
+      "title": "9100:2016 Series Revision Overview Presentation",
+      "publisher": "International Aerospace Quality Group",
+      "url": "https://iaqg.org/wp-content/uploads/2020/01/9100-2016-Overview-5-13-2020.pdf"
+    },
+    {
+      "title": "9100:2016 Frequently Asked Questions",
+      "publisher": "International Aerospace Quality Group",
+      "url": "https://iaqg.org/wp-content/uploads/2019/10/9100-2016_faq.pdf"
+    },
+    {
+      "title": "AS/EN/JISQ 9100:2016 Evaluation Guidance Material",
+      "publisher": "International Aerospace Quality Group (9101 Writing Team)",
+      "url": "https://iaqg.org/wp-content/uploads/2019/10/auditor_guidance-_9100_2016.pdf"
+    },
+    {
+      "title": "Ethics and Integrity: Building Ethical Behavior Controls Into QMS Standards (ASQ Quality Progress, March 2024)",
+      "publisher": "International Aerospace Quality Group (reprinted with permission from ASQ)",
+      "url": "https://iaqg.org/wp-content/uploads/2019/10/qp0324standardissues.pdf"
+    }
+  ],
+  "related": [
+    "iso-9001-competence-requirements",
+    "iatf-16949-competence-and-awareness-requirements",
+    "competency-framework",
+    "how-to-build-a-training-matrix",
+    "doj-compliance-program-training-expectations",
+    "cmmc-security-awareness-training"
+  ],
+  "productLinks": [
+    {
+      "label": "Government and defense",
+      "href": "/industries/government-defence"
+    },
+    {
+      "label": "Standards and accreditation",
+      "href": "/platform/standards-accreditation"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 14,
+  "factCheck": [
+    {
+      "claim": "9100:2016 requires employees to be aware of their contribution to product or service conformity, their contribution to product safety, and the importance of ethical behavior.",
+      "source": "https://iaqg.org/wp-content/uploads/2020/01/9100-2016-Overview-5-13-2020.pdf"
+    },
+    {
+      "claim": "In AS9100 Rev D, clauses 7.3h and 8.4.3m added the importance of ethical behavior as an awareness requirement after industry-wide escapes caused by individual ethical decision making; the developing IA9100 standard will replace AS9100 in the Americas; IA9100 clause 5.1.1 l note mentions periodic training and awareness.",
+      "source": "https://iaqg.org/wp-content/uploads/2019/10/qp0324standardissues.pdf"
+    },
+    {
+      "claim": "FAQ 2.5: expected awareness under 7.3 (explain role, contribution to quality, quality basics, product use and impact of failures); FAQ 2.13: 8.4.3 m flow down intent and two methods; FAQ 2.10: counterfeit parts training for procurement, inspection and design personnel.",
+      "source": "https://iaqg.org/wp-content/uploads/2019/10/9100-2016_faq.pdf"
+    },
+    {
+      "claim": "Evaluation guidance titled AS/EN/JISQ 9100 2016 (Rev D); 7.2 things to consider including periodic assessment of competency and evidence types; 7.3 awareness of relevant documented information including changes; 8.1.3 product safety training and communication examples.",
+      "source": "https://iaqg.org/wp-content/uploads/2019/10/auditor_guidance-_9100_2016.pdf"
+    },
+    {
+      "claim": "IAQG 9100 page describes use at all levels of the supply chain and reduction of organization-unique requirements; lists 9100:2016 series resources including clarification table February 2024.",
+      "source": "https://iaqg.org/standard/9100-qms-requirements-for-aviation-space-and-defense-organizations/"
+    },
+    {
+      "claim": "In the European sector ASD-STAN publishes the IAQG 9100 documents as EN9100, alongside publication in the American and Asian-Pacific sectors.",
+      "source": "https://iaqg.org/wp-content/uploads/2019/10/9100-2016_faq.pdf"
+    }
+  ]
+}
