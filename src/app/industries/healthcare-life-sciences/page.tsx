@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { RegLink } from "@/components/learn/reg-link";
 import {
   HeartPulse,
   Stethoscope,
@@ -191,12 +192,12 @@ export default function HealthcareLifeSciencesPage() {
         </p>
         <p>
           Plain language guides to instruments that often sit in scope:{" "}
-          <Link href="/regulations/gdpr-staff-training-requirements">GDPR staff training</Link>,{" "}
-          <Link href="/regulations/hipaa-security-and-privacy-training">HIPAA workforce training</Link>,{" "}
-          <Link href="/regulations/fda-gmp-personnel-training-requirements">FDA GMP personnel training</Link>,{" "}
-          <Link href="/regulations/japan-gmp-personnel-training-requirements">Japan GMP personnel training</Link>,{" "}
-          <Link href="/regulations/tga-gmp-personnel-training-requirements">TGA GMP personnel training</Link>, and{" "}
-          <Link href="/regulations/nsqhs-standards-workforce-training">the NSQHS Standards</Link>.
+          <RegLink slug="gdpr-staff-training-requirements">GDPR staff training</RegLink>,{" "}
+          <RegLink slug="hipaa-security-and-privacy-training">HIPAA workforce training</RegLink>,{" "}
+          <RegLink slug="fda-gmp-personnel-training-requirements">FDA GMP personnel training</RegLink>,{" "}
+          <RegLink slug="japan-gmp-personnel-training-requirements">Japan GMP personnel training</RegLink>,{" "}
+          <RegLink slug="tga-gmp-personnel-training-requirements">TGA GMP personnel training</RegLink>, and{" "}
+          <RegLink slug="nsqhs-standards-workforce-training">the NSQHS Standards</RegLink>.
         </p>
       </ProseBlock>
 

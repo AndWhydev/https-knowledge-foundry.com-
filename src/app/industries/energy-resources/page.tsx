@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { RegLink } from "@/components/learn/reg-link";
 import {
   Factory,
   HardHat,
@@ -191,12 +192,12 @@ export default function EnergyResourcesPage() {
         </p>
         <p>
           Plain language guides to instruments that often sit in scope:{" "}
-          <Link href="/regulations/iso-45001-competence-and-awareness">ISO 45001 competence and awareness</Link>,{" "}
-          <Link href="/regulations/portugal-ohs-training-requirements">Portuguese OHS training</Link>,{" "}
-          <Link href="/regulations/eu-osh-framework-directive-training">the EU OSH Framework Directive</Link>,{" "}
-          <Link href="/regulations/osha-training-requirements">OSHA training</Link>,{" "}
-          <Link href="/regulations/japan-industrial-safety-and-health-act-training">the Japan Industrial Safety and Health Act</Link>, and{" "}
-          <Link href="/regulations/whs-act-duty-to-provide-training">the WHS Act duty to train</Link>.
+          <RegLink slug="iso-45001-competence-and-awareness">ISO 45001 competence and awareness</RegLink>,{" "}
+          <RegLink slug="portugal-ohs-training-requirements">Portuguese OHS training</RegLink>,{" "}
+          <RegLink slug="eu-osh-framework-directive-training">the EU OSH Framework Directive</RegLink>,{" "}
+          <RegLink slug="osha-training-requirements">OSHA training</RegLink>,{" "}
+          <RegLink slug="japan-industrial-safety-and-health-act-training">the Japan Industrial Safety and Health Act</RegLink>, and{" "}
+          <RegLink slug="whs-act-duty-to-provide-training">the WHS Act duty to train</RegLink>.
         </p>
       </ProseBlock>
 

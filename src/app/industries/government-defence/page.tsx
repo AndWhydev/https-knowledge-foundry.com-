@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { RegLink } from "@/components/learn/reg-link";
 import {
   ShieldCheck,
   Lock,
@@ -191,12 +192,12 @@ export default function GovernmentDefencePage() {
         </p>
         <p>
           Plain language guides to instruments that often sit in scope:{" "}
-          <Link href="/regulations/nis2-management-body-training">NIS2 management body training</Link>,{" "}
-          <Link href="/regulations/nist-sp-800-50-security-awareness-training">NIST SP 800-50</Link>,{" "}
-          <Link href="/regulations/cmmc-security-awareness-training">CMMC security awareness</Link>,{" "}
-          <Link href="/regulations/pspf-security-awareness-training">the PSPF</Link>,{" "}
-          <Link href="/regulations/ism-cyber-security-awareness-training">the ISM</Link>, and{" "}
-          <Link href="/regulations/uae-information-assurance-awareness-training">the UAE Information Assurance Regulation</Link>.
+          <RegLink slug="nis2-management-body-training">NIS2 management body training</RegLink>,{" "}
+          <RegLink slug="nist-sp-800-50-security-awareness-training">NIST SP 800-50</RegLink>,{" "}
+          <RegLink slug="cmmc-security-awareness-training">CMMC security awareness</RegLink>,{" "}
+          <RegLink slug="pspf-security-awareness-training">the PSPF</RegLink>,{" "}
+          <RegLink slug="ism-cyber-security-awareness-training">the ISM</RegLink>, and{" "}
+          <RegLink slug="uae-information-assurance-awareness-training">the UAE Information Assurance Regulation</RegLink>.
         </p>
       </ProseBlock>
 

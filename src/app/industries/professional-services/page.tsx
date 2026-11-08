@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { RegLink } from "@/components/learn/reg-link";
 import {
   Briefcase,
   BookMarked,
@@ -192,11 +193,11 @@ export default function ProfessionalServicesPage() {
         </p>
         <p>
           Plain language guides to instruments that often sit in scope:{" "}
-          <Link href="/regulations/portugal-anti-corruption-regime-training">the Portuguese anti-corruption regime</Link>,{" "}
-          <Link href="/regulations/eu-whistleblower-directive-obligations">the EU Whistleblower Directive</Link>,{" "}
-          <Link href="/regulations/doj-compliance-program-training-expectations">DOJ compliance program expectations</Link>,{" "}
-          <Link href="/regulations/japan-whistleblower-protection-act-training">the Japan Whistleblower Protection Act</Link>, and{" "}
-          <Link href="/regulations/whistleblower-policy-training-requirements">Australian whistleblower laws</Link>.
+          <RegLink slug="portugal-anti-corruption-regime-training">the Portuguese anti-corruption regime</RegLink>,{" "}
+          <RegLink slug="eu-whistleblower-directive-obligations">the EU Whistleblower Directive</RegLink>,{" "}
+          <RegLink slug="doj-compliance-program-training-expectations">DOJ compliance program expectations</RegLink>,{" "}
+          <RegLink slug="japan-whistleblower-protection-act-training">the Japan Whistleblower Protection Act</RegLink>, and{" "}
+          <RegLink slug="whistleblower-policy-training-requirements">Australian whistleblower laws</RegLink>.
         </p>
       </ProseBlock>
 

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { RegLink } from "@/components/learn/reg-link";
 import {
   Banknote,
   Scale,
@@ -193,13 +194,13 @@ export default function FinancialServicesPage() {
         </p>
         <p>
           Plain language guides to instruments that often sit in scope:{" "}
-          <Link href="/regulations/dora-ict-security-awareness-training">DORA ICT security awareness</Link>,{" "}
-          <Link href="/regulations/portugal-aml-law-training-requirements">AML training under Portuguese Law 83/2017</Link>,{" "}
-          <Link href="/regulations/finra-continuing-education-requirements">FINRA continuing education</Link>,{" "}
-          <Link href="/regulations/bsa-aml-training-requirements">Bank Secrecy Act AML training</Link>,{" "}
-          <Link href="/regulations/japan-fsa-aml-cft-guidelines-training">the Japan FSA AML/CFT guidelines</Link>,{" "}
-          <Link href="/regulations/apra-cps-234-security-awareness-training">APRA CPS 234</Link>, and{" "}
-          <Link href="/regulations/asic-rg-146-training-requirements">ASIC RG 146</Link>.
+          <RegLink slug="dora-ict-security-awareness-training">DORA ICT security awareness</RegLink>,{" "}
+          <RegLink slug="portugal-aml-law-training-requirements">AML training under Portuguese Law 83/2017</RegLink>,{" "}
+          <RegLink slug="finra-continuing-education-requirements">FINRA continuing education</RegLink>,{" "}
+          <RegLink slug="bsa-aml-training-requirements">Bank Secrecy Act AML training</RegLink>,{" "}
+          <RegLink slug="japan-fsa-aml-cft-guidelines-training">the Japan FSA AML/CFT guidelines</RegLink>,{" "}
+          <RegLink slug="apra-cps-234-security-awareness-training">APRA CPS 234</RegLink>, and{" "}
+          <RegLink slug="asic-rg-146-training-requirements">ASIC RG 146</RegLink>.
         </p>
       </ProseBlock>
 

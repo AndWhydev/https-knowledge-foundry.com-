@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { RegLink } from "@/components/learn/reg-link";
 import {
   GraduationCap,
   BookOpen,
@@ -192,11 +193,11 @@ export default function HigherEducationPage() {
         </p>
         <p>
           Plain language guides to instruments that often sit in scope:{" "}
-          <Link href="/regulations/gdpr-staff-training-requirements">GDPR staff training</Link>,{" "}
-          <Link href="/regulations/eu-ai-act-ai-literacy">EU AI Act AI literacy</Link>,{" "}
-          <Link href="/regulations/japan-ai-guidelines-for-business-training">the Japan AI Guidelines for Business</Link>,{" "}
-          <Link href="/regulations/teqsa-hesf-course-design-requirements">the Higher Education Standards Framework</Link>, and{" "}
-          <Link href="/regulations/aqf-levels-and-learning-outcomes">AQF levels and learning outcomes</Link>.
+          <RegLink slug="gdpr-staff-training-requirements">GDPR staff training</RegLink>,{" "}
+          <RegLink slug="eu-ai-act-ai-literacy">EU AI Act AI literacy</RegLink>,{" "}
+          <RegLink slug="japan-ai-guidelines-for-business-training">the Japan AI Guidelines for Business</RegLink>,{" "}
+          <RegLink slug="teqsa-hesf-course-design-requirements">the Higher Education Standards Framework</RegLink>, and{" "}
+          <RegLink slug="aqf-levels-and-learning-outcomes">AQF levels and learning outcomes</RegLink>.
         </p>
       </ProseBlock>
 

@@ -359,19 +359,24 @@ export function FrameworkDemo() {
                   Framework
                 </div>
                 <div className="flex items-center gap-3">
-                  <div className="flex items-center gap-1.5">
+                  <div className="flex items-center gap-0">
                   {scenarios.map((_, i) => (
                     <button
                       key={i}
                       aria-label={`Scenario ${i + 1}`}
                       onClick={() => setScenarioIndex(i)}
-                      className={cn(
-                        "h-1 rounded-full transition-all",
-                        i === scenarioIndex
-                          ? "w-6 bg-[color:var(--color-forge)]"
-                          : "w-3 bg-white/15 hover:bg-white/30",
-                      )}
-                    />
+                      // 24px tap target around a thin visual bar
+                      className="group/dot inline-flex h-6 items-center px-1"
+                    >
+                      <span
+                        className={cn(
+                          "h-1 rounded-full transition-all",
+                          i === scenarioIndex
+                            ? "w-6 bg-[color:var(--color-forge)]"
+                            : "w-3 bg-white/15 group-hover/dot:bg-white/30",
+                        )}
+                      />
+                    </button>
                   ))}
                   </div>
                 </div>
