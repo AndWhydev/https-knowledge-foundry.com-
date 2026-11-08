@@ -1,0 +1,271 @@
+{
+  "slug": "portugal-cybersecurity-law-training",
+  "kind": "regulation",
+  "title": "What cybersecurity training does Portugal's NIS2 law require?",
+  "seoTitle": "Portugal cybersecurity law training",
+  "description": "Portugal's Decree-Law 125/2025 transposes NIS2 and replaced Law 46/2018: management body training, staff cyber hygiene, the cybersecurity officer, and fines.",
+  "shortAnswer": "Portugal transposed the NIS2 Directive through Decree-Law 125/2025 of December 4, 2025, which approves a new legal regime for cybersecurity and revokes Law 46/2018 and Decree-Law 65/2021. Article 25 requires the management bodies of essential and important entities to ensure regular cybersecurity training, and Article 27 lists cyber hygiene and training for top management and workers among the required measures. The Centro Nacional de Cibersegurança (CNCS) is the national cybersecurity authority.",
+  "keyTakeaways": [
+    "Decree-Law 125/2025 transposes Directive (EU) 2022/2555 (NIS2), entered into force 120 days after publication, and revoked Law 46/2018 and its regulation, Decree-Law 65/2021 (Article 9).",
+    "Article 25(1)(d) of the new regime makes management bodies responsible for regular cybersecurity training to build a culture of cybersecurity risk management.",
+    "Article 27(1)(f) lists basic cyber hygiene practices and cybersecurity training, including for top management and workers, among the measures entities must adopt; this measure takes effect 24 months after CNCS regulations are published.",
+    "Each essential and important entity must designate a cybersecurity officer who proposes the training actions, and notify the authority within 20 working days (Article 31).",
+    "Very serious offenses reach EUR 10,000,000 or 2% of worldwide turnover for essential entities, and an authority can order a cybersecurity training plan within six months as an ancillary sanction."
+  ],
+  "jurisdiction": "Portugal",
+  "regulator": "Centro Nacional de Cibersegurança (CNCS), the national cybersecurity authority, with sector cybersecurity authorities",
+  "appliesTo": [
+    "Essential and important entities in the sectors listed in the annexes to the regime (for example energy, transport, banking, health, digital infrastructure, ICT service management, public administration)",
+    "Relevant public entities, grouped by the CNCS under Article 7",
+    "Management, direction, and administration bodies of those entities",
+    "Cybersecurity officers and permanent points of contact",
+    "Workers of in-scope entities"
+  ],
+  "sections": [
+    {
+      "id": "legal-framework",
+      "heading": "What is Portugal's cybersecurity legal framework as at November 2026?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "As at November 2026, the framework is [Decree-Law 125/2025](https://files.diariodarepublica.pt/1s/2025/12/23400/0000400068.pdf) of December 4, 2025 (Decreto-Lei n.º 125/2025), which approves, in an annex, the legal regime for cybersecurity (regime jurídico da cibersegurança) and transposes Directive (EU) 2022/2555, known as NIS2. It was adopted under the legislative authorization in Law 59/2025 of October 22, 2025. The EU level obligations are summarized in [NIS2 management body training](/regulations/nis2-management-body-training)."
+        },
+        {
+          "type": "p",
+          "text": "Article 9 of the Decree-Law revokes the previous framework: the legal regime for cyberspace security approved by Law 46/2018 of August 13, 2018, which transposed the first NIS Directive, and its implementing regulation, Decree-Law 65/2021 of July 30, 2021. It also revokes the security provisions in Articles 59 to 65 of the Electronic Communications Law, Law 16/2022, but under Article 10(1) that revocation only takes effect once the ANACOM regulations adopted under the old rules are replaced."
+        },
+        {
+          "type": "p",
+          "text": "Under Article 11, the Decree-Law entered into force 120 days after publication, in early April 2026. Training material written for Law 46/2018 and Decree-Law 65/2021 should now be treated as out of date."
+        }
+      ]
+    },
+    {
+      "id": "phased-application",
+      "heading": "Which obligations apply now and which are phased in?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Not everything applies at once. Article 10(2) of the Decree-Law states that Article 27(1) and (2), Articles 28 to 30, Article 33, and points (b), (c), and (f) of Article 61(1) of the regime take effect 24 months after publication of the regulations referred to in Articles 8, 14, 26, 31, 32, and 83, which the CNCS and other bodies must adopt."
+        },
+        {
+          "type": "callout",
+          "title": "What this means for training",
+          "text": "The management body duty to ensure regular training in Article 25(1)(d), and the cybersecurity officer duties in Article 31, are not in the deferred list. The detailed measures in Article 27(1), including cyber hygiene and training for management and workers, are deferred until 24 months after the regulations are published. Entities should confirm with the CNCS which regulations have been published and when the clock started."
+        }
+      ]
+    },
+    {
+      "id": "management-duties",
+      "heading": "What must management bodies do about cybersecurity training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Management bodies own the training duty. Article 25(1) of the regime requires the management, direction, and administration bodies of essential and important entities to approve the cybersecurity risk management measures, supervise their implementation, ensure compliance with supervision and enforcement measures, and, under point (d), \"Asseguram a realização, com uma periodicidade regular, de ações de formação em cibersegurança, de forma a promover uma cultura de gestão interna sobre práticas de gestão dos riscos de cibersegurança\": ensure that cybersecurity training is carried out regularly to promote an internal culture of cybersecurity risk management practices."
+        },
+        {
+          "type": "p",
+          "text": "Article 25(2) states that members of those bodies may be liable for acts or omissions, with intent or gross negligence, for offenses under the Decree-Law. Article 25(3) states that the responsibility and powers to meet these obligations cannot be delegated, except to one of the members of the body. Training for board members should therefore cover their personal exposure, not just general awareness."
+        }
+      ]
+    },
+    {
+      "id": "measures-and-officer",
+      "heading": "What do the cybersecurity measures and the cybersecurity officer role require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Article 27(1) lists the areas the measures must cover, including incident handling, business continuity, supply chain security, secure acquisition and development, policies to assess effectiveness, and, in point (f), \"Práticas básicas de ciber-higiene e formação em cibersegurança, incluindo os titulares de órgãos máximos de gestão e trabalhadores\": basic cyber hygiene practices and cybersecurity training, including holders of top management bodies and workers. Under Article 14, entities must take account of the National Cybersecurity Reference Framework (QNRCS), approved by CNCS regulation, when adopting these measures."
+        },
+        {
+          "type": "p",
+          "text": "Article 31(1) requires each essential and important entity to designate a cybersecurity officer (responsável de cibersegurança) who is a member of, or reports directly to, the management body. Article 31(2)(d) gives that officer the function of contributing to a cybersecurity culture, notably by proposing the training actions required by Article 25(1)(d). Article 31(3) requires the entity to notify the competent authority of the designated person within 20 working days of the start of duties."
+        },
+        {
+          "type": "p",
+          "text": "Incident notification sets the content of incident response training: an initial notification within 24 hours of becoming aware of a significant incident, an update within 72 hours, and further reports, under the notification articles of the regime."
+        }
+      ]
+    },
+    {
+      "id": "obligation-map",
+      "heading": "Who needs what training, and what evidence will the authority expect?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The table maps the regime's provisions to roles. The frequency column reflects the regime's wording where it exists; otherwise it is a practice recommendation."
+        },
+        {
+          "type": "table",
+          "caption": "Decree-Law 125/2025: cybersecurity training by role (illustrative mapping)",
+          "head": [
+            "Role",
+            "Provision",
+            "Training content",
+            "Frequency",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "Management body members",
+              "Art. 25(1) and (2)",
+              "Approving and supervising risk measures, personal liability, incident escalation",
+              "Regular (Art. 25(1)(d))",
+              "Board training log, minutes approving measures"
+            ],
+            [
+              "Cybersecurity officer",
+              "Art. 31(2)",
+              "Risk management, annual report, regulator relations, designing the training program",
+              "On appointment and ongoing (practice)",
+              "Appointment notice to authority within 20 working days, CPD record"
+            ],
+            [
+              "Permanent point of contact and incident team",
+              "Arts. 32, notification articles",
+              "24 hour and 72 hour notification steps, information to provide",
+              "On appointment, exercised periodically (practice)",
+              "Exercise reports, notification playbook"
+            ],
+            [
+              "All workers",
+              "Art. 27(1)(f) (deferred)",
+              "Cyber hygiene, phishing, passwords, reporting incidents",
+              "Regular (practice: induction plus annual)",
+              "Completion records, phishing simulation data"
+            ],
+            [
+              "Staff in ICT acquisition and development",
+              "Art. 27(1)(c), (d) (deferred)",
+              "Supply chain and secure development requirements",
+              "On role entry (practice)",
+              "Role module records"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Linking each row to an assessment and a record is covered in [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit). Entities in banking and insurance should also check the overlap with [DORA ICT security awareness training](/regulations/dora-ict-security-awareness-training); many in-scope entities sit in [energy and resources](/industries/energy-resources) and [financial services](/industries/financial-services)."
+        }
+      ]
+    },
+    {
+      "id": "penalties",
+      "heading": "What are the penalties under Portugal's cybersecurity regime?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Article 61(1) lists very serious offenses, including failing to adopt the cybersecurity measures in Articles 27 to 29, failing the cybersecurity officer duties in Article 31, and failing to notify incidents. Under Article 61(2), essential entities that are legal persons face fines of EUR 2,000 to EUR 10,000,000 or 2% of worldwide annual turnover, whichever is higher; important entities face EUR 1,250 to EUR 7,000,000 or at least 1.4% of turnover; individuals face EUR 350 to EUR 200,000."
+        },
+        {
+          "type": "p",
+          "text": "Article 67 lets the competent authority add ancillary sanctions where gravity and fault justify it. These include point (c), the adoption and execution of a cybersecurity training plan within six months, and point (f), a temporary ban on members of the management bodies exercising their functions."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps each article of the regime to defined concepts and the roles that need them, and tags deferred provisions with their trigger, so the program shows what applies today and what applies once the CNCS regulations start the 24 month clock. Board, officer, and workforce modules share one source of truth, which keeps them consistent when the regulations arrive."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Law 46/2018 still in force in Portugal?",
+      "a": "No. Article 9 of Decree-Law 125/2025 revokes the cyberspace security regime approved by Law 46/2018 and its regulation, Decree-Law 65/2021. The new regime entered into force 120 days after publication on December 4, 2025. ANACOM regulations adopted under the old rules stay in force until replaced, under Article 8(3) of the Decree-Law."
+    },
+    {
+      "q": "Do board members in Portugal have to attend cybersecurity training personally?",
+      "a": "Article 25(1)(d) requires management bodies to ensure regular cybersecurity training, and Article 27(1)(f) expressly includes holders of top management bodies among those to be trained. Article 25(2) also exposes members to liability for offenses committed with intent or gross negligence, which gives them a direct reason to be trained."
+    },
+    {
+      "q": "Who is the cybersecurity authority in Portugal?",
+      "a": "The Centro Nacional de Cibersegurança (CNCS) is the national cybersecurity authority, single point of contact for EU cooperation, national cybersecurity certification authority, and part of the national incident response team under Article 15 of the regime. Sector authorities also have roles for specific sectors."
+    },
+    {
+      "q": "Can the authority order an entity to train its staff?",
+      "a": "Yes. Article 67(c) allows the competent authority, alongside a fine, to require the adoption and execution of a cybersecurity training plan within six months, where the gravity of the offense and the offender's fault justify it."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Decreto-Lei n.º 125/2025, de 4 de dezembro: regime jurídico da cibersegurança (transpõe a Diretiva (UE) 2022/2555)",
+      "publisher": "Diário da República",
+      "url": "https://files.diariodarepublica.pt/1s/2025/12/23400/0000400068.pdf"
+    },
+    {
+      "title": "Lei n.º 46/2018, de 13 de agosto: regime jurídico da segurança do ciberespaço (revoked)",
+      "publisher": "Diário da República",
+      "url": "https://files.diariodarepublica.pt/1s/2018/08/15500/0403104037.pdf"
+    },
+    {
+      "title": "Directive (EU) 2022/2555 (NIS2 Directive): national transposition measures",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32022L2555"
+    }
+  ],
+  "related": [
+    "nis2-management-body-training",
+    "dora-ict-security-awareness-training",
+    "portugal-gdpr-implementation-law-staff-training",
+    "how-to-prepare-training-records-for-an-audit",
+    "how-to-report-training-compliance-to-the-board",
+    "role-based-training"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "Decree-Law 125/2025 of December 4, 2025 approves the legal regime for cybersecurity, transposes Directive (EU) 2022/2555, under authorization in Law 59/2025 of October 22",
+      "source": "https://files.diariodarepublica.pt/1s/2025/12/23400/0000400068.pdf"
+    },
+    {
+      "claim": "Article 9 revokes Law 46/2018 regime, Decree-Law 65/2021, Art 2-A DL 3/2012, and Arts 59 to 65 Law 16/2022; Article 10(1) delayed effect for the Law 16/2022 revocation; Article 11 entry into force 120 days after publication",
+      "source": "https://files.diariodarepublica.pt/1s/2025/12/23400/0000400068.pdf"
+    },
+    {
+      "claim": "Article 10(2): Art 27(1)(2), 28 to 30, 33 and Art 61(1)(b)(c)(f) take effect 24 months after publication of regulations in Arts 8, 14, 26, 31, 32 and 83",
+      "source": "https://files.diariodarepublica.pt/1s/2025/12/23400/0000400068.pdf"
+    },
+    {
+      "claim": "Regime Article 25(1)(d) management bodies ensure regular cybersecurity training; 25(2) liability for intent or gross negligence; 25(3) non-delegable except to a member",
+      "source": "https://files.diariodarepublica.pt/1s/2025/12/23400/0000400068.pdf"
+    },
+    {
+      "claim": "Regime Article 27(1)(f) basic cyber hygiene and cybersecurity training including top management and workers; Article 14 QNRCS approved by CNCS regulation; Article 31 cybersecurity officer, 31(2)(d) proposes training, 31(3) notify within 20 working days",
+      "source": "https://files.diariodarepublica.pt/1s/2025/12/23400/0000400068.pdf"
+    },
+    {
+      "claim": "Regime: significant incident initial notification within 24 hours, update within 72 hours; Article 15 CNCS national cybersecurity authority and single point of contact",
+      "source": "https://files.diariodarepublica.pt/1s/2025/12/23400/0000400068.pdf"
+    },
+    {
+      "claim": "Article 61(1) very serious offenses incl. Arts 27 to 29 and 31; 61(2) essential EUR 2,000 to 10,000,000 or 2%; important EUR 1,250 to 7,000,000 or at least 1.4%; individuals EUR 350 to 200,000; Article 67(c) training plan within six months, 67(f) temporary ban of management",
+      "source": "https://files.diariodarepublica.pt/1s/2025/12/23400/0000400068.pdf"
+    },
+    {
+      "claim": "EUR-Lex NIM lists Decree-Law 125/2025 of December 4, 2025 as Portugal's transposition of Directive (EU) 2022/2555 (deadline October 17, 2024)",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32022L2555"
+    },
+    {
+      "claim": "Law 46/2018 of August 13, 2018 established the cyberspace security regime transposing Directive (EU) 2016/1148",
+      "source": "https://files.diariodarepublica.pt/1s/2018/08/15500/0403104037.pdf"
+    }
+  ]
+}
