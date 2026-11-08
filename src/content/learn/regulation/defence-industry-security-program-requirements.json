@@ -1,0 +1,333 @@
+{
+  "slug": "defence-industry-security-program-requirements",
+  "kind": "regulation",
+  "title": "What are the Defence Industry Security Program (DISP) membership requirements, including security training?",
+  "seoTitle": "DISP membership and training rules",
+  "description": "DISP eligibility, membership levels, Security Officer and staff security training, and the Annual Security Report for defence suppliers, as at November 2026.",
+  "shortAnswer": "The Defence Industry Security Program (DISP), run by Australia's Department of Defence under Defence Security Principles Framework (DSPF) Control 16.1, sets security standards for businesses in the defence supply chain. Members appoint a Chief Security Officer and Security Officer, screen staff to AS 4811:2022, meet the Essential Eight at Maturity Level 2, train staff regularly including at induction, and submit an Annual Security Report every 12 months. As at November 2026 membership is mandatory for classified work.",
+  "keyTakeaways": [
+    "DISP is underpinned by DSPF Principle 16, Defence Industry Security, Control 16.1. There is no membership fee, but members carry the cost of meeting and maintaining the security standards.",
+    "Membership is mandatory for entities working on classified information or assets (PROTECTED and above), handling weapons or explosive ordnance, providing security services for Defence bases, or where a Defence contract requires it.",
+    "Every member needs a Chief Security Officer (CSO), who is a director or senior executive, and a Security Officer (SO); one person can hold both roles. Defence's application process includes Security Officer training.",
+    "Ongoing obligations listed by Defence include regular security training of staff including induction training, ongoing employment screening, reporting changes and incidents, and an Annual Security Report every 12 months from the membership start date.",
+    "The Annual Security Report must be tabled with the entity's board or executive before it is submitted, and Defence can downgrade, suspend or terminate membership for persistent non-compliance."
+  ],
+  "jurisdiction": "Australia (Commonwealth)",
+  "regulator": "Australian Department of Defence, Defence Industry Security Branch",
+  "appliesTo": [
+    "Australian entities with an ABN or ACN working on, or bidding for, Defence tenders, contracts and projects",
+    "Entities handling classified information or assets at PROTECTED or above, weapons or explosive ordnance, or providing security services to Defence bases",
+    "Subcontractors engaged in Defence classified work through a prime contractor",
+    "Chief Security Officers, Security Officers and all staff and contractors with access to Defence information and assets"
+  ],
+  "sections": [
+    {
+      "id": "what-disp-is",
+      "heading": "What is DISP and who must join?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "DISP is a multi-level membership program that verifies Australian businesses have the right security in place to work with the Department of Defence. According to [Defence's DISP page](https://www.defence.gov.au/business-industry/industry-governance/industry-regulators/defence-industry-security-program), it is underpinned by the Defence Security Principles Framework (DSPF), Principle 16, Defence Industry Security, Control 16.1."
+        },
+        {
+          "type": "p",
+          "text": "Membership is open to any Australian entity, but it is mandatory in four situations, as listed on Defence's [eligibility and suitability page](https://www.defence.gov.au/business-industry/industry-governance/industry-regulators/defence-industry-security-program/eligibility-suitability)."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Working on classified information or assets, meaning PROTECTED and above.",
+            "Supplying, maintaining, storing or transporting weapons or explosive ordnance.",
+            "Providing security services for Defence bases or facilities.",
+            "Holding DISP membership as a condition of a Defence contract."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The only stated exception is classified work done entirely within Defence facilities or on Defence networks, recognized under an applicable Security of Information Agreement or Arrangement. An overseas entity cannot be a DISP member. Entities that only need OFFICIAL information can still join at Entry level. DISP applies to industry; Commonwealth agencies themselves follow the [Protective Security Policy Framework](/regulations/pspf-security-awareness-training)."
+        }
+      ]
+    },
+    {
+      "id": "eligibility",
+      "heading": "What are the eligibility requirements for DISP membership?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An entity must be a registered Australian business, be financially solvent and have people able to hold clearances and fill the two security roles. Defence lists the minimum criteria from DSPF Control 16.1."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Registration as a legal business entity in Australia with an Australian Business Number (ABN) or Australian Company Number (ACN).",
+            "Financial solvency.",
+            "A director or senior executive able to obtain an Australian personnel security clearance at the membership level, obtain an Australian Digital ID, set up the entity's Relationship Authorisation Manager (RAM) account as principal authority, and fill the role of CSO.",
+            "A staff member able to obtain a clearance and Digital ID and fill the role of SO. The CSO and SO can be the same individual.",
+            "Security standards established and maintained for the requested membership level.",
+            "A Foreign Ownership, Control or Influence (FOCI) declaration, lodged with the application and again when FOCI status changes."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Defence also considers links to listed terrorist organizations, regimes under Australian sanctions and persons on the Department of Foreign Affairs and Trade Consolidated List. The Defence brochure says an application generally takes 90 to 180 days."
+        }
+      ]
+    },
+    {
+      "id": "levels-and-domains",
+      "heading": "How do DISP membership levels and security domains work?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "DISP has four membership levels aligned to Australian Government security classifications, assessed separately across four security domains. An entity can hold different levels in different domains, but its security governance level always equals the highest level it holds in any other domain."
+        },
+        {
+          "type": "table",
+          "caption": "DISP membership levels by security domain (source: Defence eligibility and suitability page)",
+          "head": [
+            "Membership level",
+            "Security governance",
+            "Personnel security",
+            "Physical and ICT security"
+          ],
+          "rows": [
+            [
+              "Entry level",
+              "OFFICIAL and OFFICIAL: Sensitive",
+              "OFFICIAL and OFFICIAL: Sensitive",
+              "OFFICIAL and OFFICIAL: Sensitive"
+            ],
+            [
+              "Level 1",
+              "PROTECTED",
+              "PROTECTED (Baseline)",
+              "PROTECTED"
+            ],
+            [
+              "Level 2",
+              "SECRET",
+              "SECRET (Negative Vetting 1)",
+              "SECRET"
+            ],
+            [
+              "Level 3",
+              "TOP SECRET",
+              "TOP SECRET (Negative Vetting 2)",
+              "TOP SECRET"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Levels 1 to 3 need a business justification, such as a contract requirement or a letter of endorsement from a Defence contract manager or sponsoring prime. In the personnel domain, all members must meet the Australian Standard for Workforce Screening, AS 4811:2022, for cleared and non-cleared staff. In the ICT domain, members must meet or exceed the Australian Signals Directorate Essential Eight at Maturity Level 2 across corporate systems used to correspond with Defence; the [ISM awareness training page](/regulations/ism-cyber-security-awareness-training) covers the related government cyber guidance."
+        }
+      ]
+    },
+    {
+      "id": "training-requirements",
+      "heading": "What security training does DISP require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "DISP requires training at two levels: role training for the Security Officer and regular security training for all staff, including at induction. Defence describes the security governance domain as including \"appropriate security education, training, security incident response and reporting\"."
+        },
+        {
+          "type": "p",
+          "text": "The [DISP Membership Program brochure](https://www.defence.gov.au/sites/default/files/2025-08/DISPMembershipProgram.pdf) lists the ongoing responsibilities set out in Control 16.1, which \"include but are not limited to\" the following training-related items:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Appointing and retaining a CSO and SO.",
+            "Regular security training of staff including induction training.",
+            "Ongoing employment screening and suitability checks.",
+            "Reporting changes that may affect DISP membership.",
+            "Maintaining a classified document register if accessing information at OFFICIAL: Sensitive or higher."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Defence's application process diagram includes Security Officer training as a step before membership is confirmed. The brochure lists three courses on Defence's learning platform, accessed with an enrollment key issued during accreditation: an **Annual Security Awareness Course** (threats facing Defence, trusted insiders, reducing the chance of being targeted, and personal obligations to protect Defence people, information and assets), a **Security Officer Course** (advising management, supporting DSPF implementation and basic administrative tasks), and an **Assessing and Protecting Official Information Course**. Members may download the awareness and official information packages for use in their own training systems."
+        },
+        {
+          "type": "callout",
+          "title": "Frequency",
+          "text": "Defence's published materials require regular staff training including at induction, and name the staff course the Annual Security Awareness Course. The detailed frequency sits in DSPF Control 16.1 and its Annex A, which members should check directly."
+        }
+      ]
+    },
+    {
+      "id": "obligation-map",
+      "heading": "How do DISP obligations map to roles, frequency and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each obligation lands on a different role and produces different evidence. The table below is an illustrative mapping of the published obligations to the evidence a DISP assurance activity could examine."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative DISP obligation map",
+          "head": [
+            "Obligation",
+            "Role",
+            "Frequency",
+            "Evidence an assessor would expect"
+          ],
+          "rows": [
+            [
+              "Security Officer training",
+              "SO (and CSO where the roles are combined)",
+              "During accreditation, and on appointment of a new SO",
+              "Course completion record, SO appointment letter"
+            ],
+            [
+              "Staff security training",
+              "All staff and contractors with access to Defence information or assets",
+              "At induction and regularly thereafter (annual course offered by Defence)",
+              "Induction records, annual completion records, course version"
+            ],
+            [
+              "Employment screening",
+              "HR and the SO",
+              "Before access and on an ongoing basis, to AS 4811:2022",
+              "Screening files and suitability check records"
+            ],
+            [
+              "Incident reporting",
+              "All staff, the SO",
+              "Whenever an incident occurs",
+              "XP188 Security Report forms, notification to the contract manager"
+            ],
+            [
+              "Annual Security Report",
+              "CSO, board or executive",
+              "Every 12 months from the membership start date",
+              "Board or executive minute tabling the report, portal submission record"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For incident reporting, the brochure says staff submit an XP188 Security Report form and notify their Security Officer, and that under DSPF Control 77.1 persons engaged under a contract must also report to their contract manager. For structuring these records, see [how to build a training matrix](/guides/how-to-build-a-training-matrix) and [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
+        }
+      ]
+    },
+    {
+      "id": "assurance",
+      "heading": "How does Defence check DISP compliance?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Defence uses layered assurance: the Annual Security Report, Ongoing Suitability Assessments and Deep Dive Audits. The Annual Security Report is a self-attestation of compliance with DSPF obligations, due on the anniversary of the membership certificate, and must be tabled with the board, executive or equivalent governance forum before submission."
+        },
+        {
+          "type": "p",
+          "text": "An Ongoing Suitability Assessment is a desktop audit selected through a risk-based framework, covering security documentation, a phone interview with security staff and a cyber security questionnaire. A Deep Dive Audit is a detailed assessment, including site visits, of compliance with Control 16.1. Where a member persistently disregards requirements or fails to complete agreed corrective actions, Defence can downgrade, suspend or terminate membership, which affects its ability to work with Defence and its supply chains."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models each DISP obligation, membership level and security domain as linked nodes, connected to the roles they apply to and to the evidence each produces. The Security Officer, induction and annual training streams are tracked against the Annual Security Report date, so the board sees training status before it attests. Supplier scenarios are described on the [government and defense page](/industries/government-defence)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is there a fee to join DISP?",
+      "a": "No. Defence states there is no direct membership fee. Entities do bear the cost of meeting and maintaining the security standards, such as facility certification and accreditation, personnel security clearances, cyber security uplift and physical security measures. Defence's brochure also refers to a security grant for small and medium businesses."
+    },
+    {
+      "q": "Can the Chief Security Officer and Security Officer be the same person?",
+      "a": "Yes. Defence states the CSO and SO can be the same individual. In that case the one person handles every DISP Member Portal role: starting, editing, approving and declaring submissions. Normally the SO starts and edits submissions and the CSO reviews, declares and submits them."
+    },
+    {
+      "q": "Do subcontractors need DISP membership?",
+      "a": "If they are engaged, or plan to engage, in Defence classified work through a subcontract, yes, at the level that contract or project requires. Members are also responsible for making sure their subcontractors are aware of DISP requirements. The same eligibility criteria apply when deciding whether a subcontractor needs membership."
+    },
+    {
+      "q": "Can an overseas company become a DISP member?",
+      "a": "No. An overseas entity cannot hold DISP membership. A foreign entity can still work on Australian classified contracts if its home country has a Security of Information Agreement or Arrangement with Australia and its security practices are verified through recognition of a Facility Security Clearance at government-to-government level."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Defence Industry Security Program",
+      "publisher": "Australian Government Department of Defence",
+      "url": "https://www.defence.gov.au/business-industry/industry-governance/industry-regulators/defence-industry-security-program"
+    },
+    {
+      "title": "DISP eligibility and suitability",
+      "publisher": "Australian Government Department of Defence",
+      "url": "https://www.defence.gov.au/business-industry/industry-governance/industry-regulators/defence-industry-security-program/eligibility-suitability"
+    },
+    {
+      "title": "Defence Industry Security Program: Membership Program brochure (PDF)",
+      "publisher": "Australian Government Department of Defence",
+      "url": "https://www.defence.gov.au/sites/default/files/2025-08/DISPMembershipProgram.pdf"
+    }
+  ],
+  "related": [
+    "pspf-security-awareness-training",
+    "ism-cyber-security-awareness-training",
+    "nispom-security-training-requirements",
+    "how-to-build-a-training-matrix",
+    "how-to-prepare-training-records-for-an-audit"
+  ],
+  "productLinks": [
+    {
+      "label": "Government and defense",
+      "href": "/industries/government-defence"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 14,
+  "factCheck": [
+    {
+      "claim": "DISP is underpinned by DSPF Principle 16, Defence Industry Security, Control 16.1; there is no membership fee.",
+      "source": "https://www.defence.gov.au/business-industry/industry-governance/industry-regulators/defence-industry-security-program"
+    },
+    {
+      "claim": "Membership is mandatory for classified work (PROTECTED and above), weapons or explosive ordnance, security services for Defence bases, or as a contract condition; overseas entities cannot be members.",
+      "source": "https://www.defence.gov.au/business-industry/industry-governance/industry-regulators/defence-industry-security-program/eligibility-suitability"
+    },
+    {
+      "claim": "Eligibility: ABN or ACN, financially solvent, a director or senior executive able to be CSO, a staff member able to be SO (CSO and SO can be the same), FOCI declaration.",
+      "source": "https://www.defence.gov.au/business-industry/industry-governance/industry-regulators/defence-industry-security-program/eligibility-suitability"
+    },
+    {
+      "claim": "Four membership levels: Entry (OFFICIAL and OFFICIAL: Sensitive), Level 1 PROTECTED (Baseline), Level 2 SECRET (NV1), Level 3 TOP SECRET (NV2); governance level equals the highest of the other domains.",
+      "source": "https://www.defence.gov.au/business-industry/industry-governance/industry-regulators/defence-industry-security-program/eligibility-suitability"
+    },
+    {
+      "claim": "Personnel screening to AS 4811:2022; ICT systems must meet or exceed the Essential Eight at Maturity Level 2.",
+      "source": "https://www.defence.gov.au/business-industry/industry-governance/industry-regulators/defence-industry-security-program/eligibility-suitability"
+    },
+    {
+      "claim": "Ongoing responsibilities in Control 16.1 include appointing a CSO and SO, regular security training of staff including induction training, ongoing employment screening, and an Annual Security Report every 12 months from membership start.",
+      "source": "https://www.defence.gov.au/sites/default/files/2025-08/DISPMembershipProgram.pdf"
+    },
+    {
+      "claim": "The ASR must be tabled with the entity's Board or Executive before submission; OSAs and Deep Dive Audits are risk-selected; Defence can downgrade, suspend or terminate membership.",
+      "source": "https://www.defence.gov.au/sites/default/files/2025-08/DISPMembershipProgram.pdf"
+    },
+    {
+      "claim": "Security Officer training is a step in the DISP membership process; courses include the Annual Security Awareness Course, Security Officer Course and Assessing and Protecting Official Information Course.",
+      "source": "https://www.defence.gov.au/sites/default/files/2025-08/DISPMembershipProgram.pdf"
+    },
+    {
+      "claim": "Security incidents are reported on an XP188 Security Report form; under DSPF Control 77.1 contracted persons also report to their contract manager; applications generally take 90 to 180 days.",
+      "source": "https://www.defence.gov.au/sites/default/files/2025-08/DISPMembershipProgram.pdf"
+    }
+  ]
+}

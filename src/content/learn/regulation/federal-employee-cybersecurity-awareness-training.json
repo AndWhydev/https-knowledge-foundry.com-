@@ -1,0 +1,271 @@
+{
+  "slug": "federal-employee-cybersecurity-awareness-training",
+  "kind": "regulation",
+  "title": "Is annual cybersecurity awareness training mandatory for federal employees?",
+  "seoTitle": "Federal employee security training law",
+  "description": "How FISMA (44 U.S.C. 3554), OPM's 5 CFR 930.301 and OMB Circular A-130 make security awareness training mandatory for federal users, as at November 2026.",
+  "shortAnswer": "Yes. The Federal Information Security Modernization Act of 2014 (FISMA), at 44 U.S.C. 3554(b)(4), requires every federal agency's security program to include awareness training for personnel, contractors and other system users. The Office of Personnel Management's rule at 5 CFR 930.301 makes it concrete: all users of federal information systems must receive security awareness material at least annually, and new employees before they get system access. As at November 2026 these requirements are in force.",
+  "keyTakeaways": [
+    "44 U.S.C. 3554(b)(4) requires security awareness training that informs personnel, \"including contractors and other users of information systems,\" of the risks of their activities and their responsibilities under agency policy.",
+    "5 CFR 930.301(a)(1): \"All users of Federal information systems must be exposed to security awareness materials at least annually,\" with users defined to include employees, contractors, students, guest researchers and visitors.",
+    "5 CFR 930.301(b) requires awareness material for all new employees \"before allowing them access to the systems\".",
+    "OPM's rule sets role-specific training for five groups, from executives to system administrators, and 930.301(d) adds training on significant system changes and on entering a new role.",
+    "OMB Circular A-130 (July 2016), Appendix I, requires agencies to test users' knowledge and to provide role-based security and privacy training before authorizing access or performing assigned duties."
+  ],
+  "jurisdiction": "United States (federal executive branch)",
+  "regulator": "Office of Management and Budget (OMB) and Office of Personnel Management (OPM), with agency Chief Information Officers and Inspectors General",
+  "appliesTo": [
+    "Federal executive agencies and their employees who use federal information systems",
+    "Contractors, students, guest researchers, visitors and others who need access to federal information systems",
+    "Executives, program and functional managers, CIOs and security personnel, and IT operations staff (role-specific training)",
+    "Contractor-operated systems that support agency operations, which fall within the agency-wide program under 44 U.S.C. 3554(b)"
+  ],
+  "sections": [
+    {
+      "id": "legal-basis",
+      "heading": "What law makes federal security awareness training mandatory?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The mandate comes from FISMA, codified at 44 U.S.C. Chapter 35, Subchapter II. [Section 3554(b)](https://www.law.cornell.edu/uscode/text/44/3554) requires each agency to \"develop, document, and implement an agency-wide information security program\" covering information and systems that support the agency, including those \"provided or managed by another agency, contractor, or other source\". Paragraph (b)(4) lists awareness training as a required program element."
+        },
+        {
+          "type": "callout",
+          "title": "44 U.S.C. 3554(b)(4)",
+          "text": "\"security awareness training to inform personnel, including contractors and other users of information systems that support the operations and assets of the agency, of (A) information security risks associated with their activities; and (B) their responsibilities in complying with agency policies and procedures designed to reduce these risks\""
+        },
+        {
+          "type": "p",
+          "text": "A second statutory duty covers specialists. Section 3554(a)(3)(D) makes the agency head responsible, through the Chief Information Officer, for \"training and overseeing personnel with significant responsibilities for information security with respect to such responsibilities.\" The statute does not set a frequency; that comes from OPM regulation."
+        }
+      ]
+    },
+    {
+      "id": "opm-rule",
+      "heading": "What does 5 CFR 930.301 require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "OPM's rule requires every executive agency to have a plan for information systems security awareness and training, and sets four obligations. It sits in 5 CFR Part 930, Subpart C, Information Security Responsibilities for Employees who Manage or Use Federal Information Systems."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**(a) Role-specific training and annual awareness:** agencies identify employees with significant security responsibilities and train them according to NIST standards and guidance. All users must be exposed to awareness materials at least annually.",
+            "**(b) Before access:** awareness material goes to all new employees before they are allowed access to the systems.",
+            "**(c) Refresher training:** as often as the agency determines necessary, based on the sensitivity of the information employees use or process.",
+            "**(d) Event-driven training:** whenever there is a significant change in the agency's system environment or procedures, or when an employee enters a new position that requires additional role-specific training."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The rule refers readers to NIST guidance on its publications site. The current NIST guidance for designing such a program is SP 800-50 Revision 1, covered on the [NIST SP 800-50 page](/regulations/nist-sp-800-50-security-awareness-training); this page deals with the legal obligation rather than program design."
+        }
+      ]
+    },
+    {
+      "id": "role-specific-training",
+      "heading": "Which federal roles need training beyond basic awareness?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Paragraph (a) of 930.301 names five groups and the training each must receive. The table restates those groups and adds the evidence an agency Inspector General would typically look for; the evidence column is illustrative, not regulatory text."
+        },
+        {
+          "type": "table",
+          "caption": "Role-specific training under 5 CFR 930.301(a), with illustrative evidence",
+          "head": [
+            "Group",
+            "Training OPM requires",
+            "Frequency in the rule",
+            "Evidence an auditor would expect"
+          ],
+          "rows": [
+            [
+              "All users, including contractors, students, guest researchers and visitors",
+              "Security awareness materials",
+              "At least annually, and before system access for new employees",
+              "Completion records for every account holder, matched against the user account list"
+            ],
+            [
+              "Executives",
+              "Information security basics and policy level training in security planning and management",
+              "Agency-set refresher under 930.301(c)",
+              "Role assignment record and completion of executive content"
+            ],
+            [
+              "Program and functional managers",
+              "Basics, plus management and implementation level training in security planning, system and application security management, life cycle management, risk management and contingency planning",
+              "Agency-set refresher; on entering the role under 930.301(d)",
+              "Role-based training plan and completions"
+            ],
+            [
+              "CIOs, IT security program managers, auditors and other security personnel",
+              "Basics plus broad training across security planning, system and application security, life cycle, risk management and contingency planning",
+              "Agency-set refresher; on significant system change",
+              "Individual development records and specialist course completions"
+            ],
+            [
+              "IT function management and operations personnel",
+              "Basics, plus management and implementation level training across the same domains",
+              "Agency-set refresher; on entering the role",
+              "Completions linked to privileged account provisioning"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A [training matrix](/glossary/training-matrix) that ties each of these groups to account types is the simplest way to show that no privileged user slipped through. See [role-based training](/glossary/role-based-training) for the general concept."
+        }
+      ]
+    },
+    {
+      "id": "omb-a-130",
+      "heading": "What does OMB Circular A-130 add?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Circular A-130, Managing Information as a Strategic Resource, adds privacy, knowledge testing and rules of behavior. Appendix I, section 4(h), Awareness and Training, of the [July 2016 revision](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf) directs agencies to:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Develop, maintain and implement mandatory agency-wide information security and privacy awareness and training programs for all employees and contractors.",
+            "Keep those programs consistent with policies, standards and guidelines issued by OMB, NIST and OPM.",
+            "Provide foundational and more advanced security and privacy training to system users, including managers, senior executives and contractors, and \"ensure that measures are in place to test the knowledge level of information system users\".",
+            "Provide role-based security and privacy training to people with assigned security and privacy roles \"before authorizing access to Federal information or information systems or performing assigned duties\".",
+            "Establish rules of behavior with consequences for violations, and ensure employees and contractors have read and agreed to them before access is granted."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The knowledge testing requirement matters for course design: a slideshow with an attestation records exposure, but A-130 expects measures that test what users know. See [how to design competency assessments](/guides/how-to-design-competency-assessments)."
+        }
+      ]
+    },
+    {
+      "id": "oversight",
+      "heading": "How is compliance checked?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Through annual agency reporting and an annual independent evaluation. Under 44 U.S.C. 3554(c)(1), each agency reports annually on the adequacy and effectiveness of its information security policies, procedures and practices. Under [44 U.S.C. 3555](https://www.law.cornell.edu/uscode/text/44/3555), \"each year each agency shall have performed an independent evaluation of the information security program and practices of that agency,\" carried out by the Inspector General or an independent external auditor the Inspector General selects."
+        },
+        {
+          "type": "p",
+          "text": "Because training is a required program element under 3554(b)(4), it falls within that annual evaluation. Agencies should therefore keep completion data that reconciles to the full population of account holders, including contractor accounts, and that shows the before-access control for new users worked. See [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each statutory and regulatory obligation, from 3554(b)(4) to the five OPM role groups and the A-130 testing and rules of behavior requirements, to the roles and account types they cover, with assessment points defined for each. Coverage gaps by role and the before-access control become visible before the annual evaluation. Agency and contractor scenarios are covered on the [government and defense page](/industries/government-defence)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do contractors with federal system access have to complete the annual training?",
+      "a": "Yes. FISMA's awareness requirement expressly includes \"contractors and other users of information systems,\" and 5 CFR 930.301(a)(1) defines users to include contractors, students, guest researchers and visitors. Circular A-130 also requires contractors to agree to rules of behavior before access."
+    },
+    {
+      "q": "Does the law set how long the annual training must be?",
+      "a": "No. Neither FISMA, 5 CFR 930.301 nor Circular A-130 sets a duration. The requirements are about coverage (every user), timing (annually and before access), role-specific content for the five OPM groups, and, under A-130, measures that test users' knowledge."
+    },
+    {
+      "q": "Is privacy awareness training part of the same requirement?",
+      "a": "Privacy training comes mainly from OMB Circular A-130, which requires mandatory agency-wide security and privacy awareness and training programs for all employees and contractors. Many agencies deliver the two together, but the privacy content should be mapped and evidenced so that both obligations can be shown."
+    },
+    {
+      "q": "How does this relate to CMMC for defense contractors?",
+      "a": "They are separate regimes. FISMA and 930.301 govern users of federal information systems. CMMC and NIST SP 800-171 govern contractors' own systems that handle controlled unclassified information. A contractor employee can fall under both: the agency's annual training for a government account, and the company's own CMMC training for its internal network."
+    }
+  ],
+  "sources": [
+    {
+      "title": "44 U.S.C. 3554: Federal agency responsibilities",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/uscode/text/44/3554"
+    },
+    {
+      "title": "44 U.S.C. 3555: Annual independent evaluation",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/uscode/text/44/3555"
+    },
+    {
+      "title": "5 CFR 930.301: Information systems security awareness training program",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)",
+      "url": "https://www.law.cornell.edu/cfr/text/5/930.301"
+    },
+    {
+      "title": "5 CFR 930.301 (current text)",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-5/section-930.301"
+    },
+    {
+      "title": "OMB Circular A-130: Managing Information as a Strategic Resource (July 2016)",
+      "publisher": "Office of Management and Budget, The White House",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf"
+    }
+  ],
+  "related": [
+    "nist-sp-800-50-security-awareness-training",
+    "cmmc-security-awareness-training",
+    "cui-training-requirements",
+    "us-federal-ethics-training-requirements",
+    "role-based-training",
+    "how-to-prepare-training-records-for-an-audit"
+  ],
+  "productLinks": [
+    {
+      "label": "Government and defense",
+      "href": "/industries/government-defence"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 14,
+  "factCheck": [
+    {
+      "claim": "44 U.S.C. 3554(b)(4): security awareness training to inform personnel, including contractors and other users, of risks and responsibilities.",
+      "source": "https://www.law.cornell.edu/uscode/text/44/3554"
+    },
+    {
+      "claim": "44 U.S.C. 3554(a)(3)(D): training and overseeing personnel with significant responsibilities for information security.",
+      "source": "https://www.law.cornell.edu/uscode/text/44/3554"
+    },
+    {
+      "claim": "44 U.S.C. 3554(b): agency-wide program covers information and systems provided or managed by another agency, contractor, or other source; 3554(c)(1) annual report.",
+      "source": "https://www.law.cornell.edu/uscode/text/44/3554"
+    },
+    {
+      "claim": "44 U.S.C. 3555(a)(1) and (b): annual independent evaluation performed by the Inspector General or an independent external auditor.",
+      "source": "https://www.law.cornell.edu/uscode/text/44/3555"
+    },
+    {
+      "claim": "5 CFR 930.301(a)(1): all users exposed to security awareness materials at least annually; users include employees, contractors, students, guest researchers, visitors.",
+      "source": "https://www.ecfr.gov/current/title-5/section-930.301"
+    },
+    {
+      "claim": "5 CFR 930.301(a)(2) to (5): role-specific training for executives, program and functional managers, CIOs and security personnel, and IT function management and operations personnel.",
+      "source": "https://www.law.cornell.edu/cfr/text/5/930.301"
+    },
+    {
+      "claim": "5 CFR 930.301(b) to (d): awareness before system access for new employees; refresher as frequently as agency determines; training on significant change or new position.",
+      "source": "https://www.law.cornell.edu/cfr/text/5/930.301"
+    },
+    {
+      "claim": "OMB Circular A-130 Appendix I 4(h): mandatory agency-wide security and privacy awareness and training programs; test knowledge level of users; role-based training before authorizing access; rules of behavior agreed before access.",
+      "source": "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf"
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "slug": "itar-export-compliance-training",
+  "kind": "regulation",
+  "title": "Does ITAR require export compliance training?",
+  "seoTitle": "ITAR export compliance training",
+  "description": "What the ITAR (22 CFR Parts 120 to 130) says about training, why DDTC still expects it, and how training affects voluntary disclosures, as at November 2026.",
+  "shortAnswer": "The International Traffic in Arms Regulations (ITAR), 22 CFR Parts 120 to 130, administered by the US State Department's Directorate of Defense Trade Controls (DDTC), contain no general rule requiring employee export compliance training. Training still matters: a voluntary disclosure under 22 CFR 127.12 should address the compliance measures, including training, that were in place, and the official who signs license applications must understand the ITAR and its penalties. As at November 2026, training is expected but not mandated.",
+  "keyTakeaways": [
+    "No ITAR section imposes a general duty to train employees. Registrants under 22 CFR 122.1 must register, keep records and seek licenses, but the regulation does not set training content or frequency.",
+    "22 CFR 127.12(c)(3) lists, among the factors a voluntary disclosure should address, \"the details of compliance measures, processes and programs, including training, that were in place to prevent such violations, if any.\"",
+    "The signing official defined in 22 CFR 120.67 must understand the export control statutes and regulations and the criminal, civil and administrative penalties for violating them, which is a competence requirement in all but name.",
+    "A release of technical data to a foreign person inside the United States is a deemed export under 22 CFR 120.50(a)(2), so engineers, HR and IT staff need training, not only shipping teams.",
+    "Civil penalties under 22 CFR 127.10 reach the greater of $1,271,078 or twice the transaction value per violation of 22 U.S.C. 2778, as listed in the eCFR as at November 2026."
+  ],
+  "jurisdiction": "United States (federal)",
+  "regulator": "US Department of State, Directorate of Defense Trade Controls (DDTC)",
+  "appliesTo": [
+    "Persons in the United States who manufacture, export or temporarily import defense articles or furnish defense services, and must register with DDTC under 22 CFR 122.1",
+    "Brokers registered under 22 CFR Part 129",
+    "Employees who handle ITAR technical data, including engineers, program managers, IT administrators and HR staff who onboard foreign persons",
+    "Officials who sign license applications and other requests for approval",
+    "Foreign end users and consignees relying on the 22 CFR 126.18 exemption for dual and third country national employees"
+  ],
+  "sections": [
+    {
+      "id": "is-training-mandatory",
+      "heading": "Is export compliance training mandatory under ITAR?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No general training mandate exists in the ITAR text. Parts 120 to 130 of Title 22 of the Code of Federal Regulations define defense articles and services, require registration, licensing and recordkeeping, and set penalties, but no section says that a registrant must train its workforce, how often, or on what. This is a real difference from security regimes such as the [NISPOM](/regulations/nispom-security-training-requirements) or [CMMC](/regulations/cmmc-security-awareness-training), which do contain explicit training rules."
+        },
+        {
+          "type": "p",
+          "text": "The absence of a mandate does not make training optional in practice. DDTC enforcement treats a company's compliance program as relevant to how violations are resolved, and the regulation asks disclosing parties to describe their training. The practical position, as at November 2026, is that training is the main way a registrant shows that staff understood their obligations, and its absence counts against the company when something goes wrong."
+        },
+        {
+          "type": "callout",
+          "title": "Plain statement",
+          "text": "The ITAR does not contain an explicit, general employee training requirement. Training appears in the regulation as evidence a company should be able to describe, not as a standalone duty."
+        }
+      ]
+    },
+    {
+      "id": "where-training-appears",
+      "heading": "Where does training appear in the ITAR text?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training is named in the voluntary disclosure rule, and competence is implied in the definition of the official who signs license applications. Both provisions shape what a defensible program looks like."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Voluntary disclosures, [22 CFR 127.12](https://www.ecfr.gov/current/title-22/section-127.12).** Paragraph (c)(3) says factors to be addressed include \"the degree to which the person responsible for the violation was familiar with the laws and regulations\" and \"the details of compliance measures, processes and programs, including training, that were in place to prevent such violations, if any.\" Paragraph (c)(2)(vi) asks for corrective actions that identify \"the new compliance initiatives implemented\" and any internal disciplinary action.",
+            "**Mitigating factors, 22 CFR 127.12(b)(3).** DDTC may consider \"whether the person has instituted or improved an internal compliance program to reduce the likelihood of future violation\". A disclosure made without the full knowledge and authorization of senior management is not treated as voluntary.",
+            "**Signing official, [22 CFR 120.67](https://www.ecfr.gov/current/title-22/section-120.67).** The person who signs license applications must be a US person employed in a policy or management role who \"understands the provisions and requirements of the various export control statutes and regulations\" and the penalties for violating them, and who has independent authority to refuse to sign."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The disclosure timeline also matters for training records. Under 127.12(c)(1)(i), if an initial notification is incomplete, a full disclosure must follow within 60 calendar days, or DDTC will not treat the notification as a voluntary disclosure. Training records that are already organized by person, date and content make that deadline far easier to meet."
+        }
+      ]
+    },
+    {
+      "id": "who-needs-training",
+      "heading": "Which employees need ITAR training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Anyone who can cause an export, including a release of technical data, needs training proportionate to that risk. The ITAR definition of export is broad, so the population is wider than logistics."
+        },
+        {
+          "type": "p",
+          "text": "Under [22 CFR 120.50](https://www.ecfr.gov/current/title-22/section-120.50), export includes \"releasing or otherwise transferring technical data to a foreign person in the United States (a deemed export)\" and performing a defense service on behalf of a foreign person. Section 120.56 says technical data is released through visual inspection by foreign persons, oral or written exchanges, and the use of access information to let a foreign person view unencrypted technical data. An engineer who shares a drawing in a design review, or an administrator who grants repository access, can therefore export without anything leaving the building."
+        },
+        {
+          "type": "p",
+          "text": "Registration does not depend on volume. Section 122.1(a) states that engaging in the business requires \"only one occasion\" of manufacturing, exporting or temporarily importing a defense article or furnishing a defense service, and that a manufacturer who does not export must still register. Small manufacturers in the defense supply chain are in scope from the first contract."
+        }
+      ]
+    },
+    {
+      "id": "obligation-map",
+      "heading": "How do ITAR obligations map to roles, frequency and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because the ITAR sets no frequency, the organization must choose one and record why. The table below is illustrative: it ties each ITAR provision that creates a training need to the role it affects, a defensible refresh cycle chosen by the company, and the evidence DDTC or an auditor would expect."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative ITAR training map (frequencies are company choices, not ITAR requirements)",
+          "head": [
+            "ITAR provision",
+            "Role",
+            "Company-set frequency",
+            "Evidence an auditor would expect"
+          ],
+          "rows": [
+            [
+              "22 CFR 120.50 and 120.56 (deemed exports and release)",
+              "Engineers, program managers, visitor hosts",
+              "At onboarding to an ITAR program and annually",
+              "Completion record per person, scenario assessment on technical data release, list of programs covered"
+            ],
+            [
+              "22 CFR 120.67 (signing official)",
+              "Officials authorized to sign license applications, and alternates",
+              "Before written authorization to sign and after each regulatory amendment",
+              "Written letter of authorization, record of advanced training, evidence of independent authority"
+            ],
+            [
+              "22 CFR 122.5 (records kept five years)",
+              "Contracts, shipping and records staff",
+              "At role entry and when procedures change",
+              "Procedure version trained, sample retrieval test results"
+            ],
+            [
+              "22 CFR 126.18 (dual and third country nationals)",
+              "HR and security staff at foreign end users",
+              "At role entry and when screening procedures change",
+              "Technology security/clearance plan, screening records retained five years"
+            ],
+            [
+              "22 CFR 127.12(c)(3) (training described in disclosures)",
+              "Compliance function",
+              "Program review at least annually",
+              "Training plan, content versions, completion rates by role, remediation records"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A [training matrix](/glossary/training-matrix) built from this kind of mapping lets the compliance team show coverage by role on request. For the method, see [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations) and [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles)."
+        }
+      ]
+    },
+    {
+      "id": "records-and-screening",
+      "heading": "What recordkeeping and screening rules affect training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Two ITAR provisions impose five year retention, and training records should follow the same discipline so they can support any disclosure or audit."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**[22 CFR 122.5](https://www.ecfr.gov/current/title-22/section-122.5):** registrants must keep records on the manufacture, acquisition and disposition of defense articles, technical data and defense services, and \"all records subject to this section must be maintained for a period of five years\". Electronic records must be reproducible on paper with a high degree of legibility.",
+            "**22 CFR 126.18(c):** foreign end users and consignees relying on the dual and third country national exemption must \"maintain a technology security/clearance plan that includes procedures for screening employees\" and keep screening records for five years, available to DDTC on request. Staff who run that screening need training on the plan they apply."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Training records are not named in 122.5, but keeping them for at least five years aligns them with the transaction records they would be used to explain. See [how long to keep training records](/guides/how-long-to-keep-training-records)."
+        }
+      ]
+    },
+    {
+      "id": "penalties",
+      "heading": "What are the penalties, and how does training affect them?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ITAR violations carry high civil penalties, and the existence and quality of a compliance program, including training, is one of the factors DDTC weighs. Under [22 CFR 127.10](https://www.ecfr.gov/current/title-22/section-127.10), as listed in the eCFR as at November 2026, the civil penalty for each violation of 22 U.S.C. 2778 may not exceed the greater of $1,271,078 or twice the value of the transaction. DDTC may also make payment of a penalty a condition for issuing or restoring any export license."
+        },
+        {
+          "type": "p",
+          "text": "Section 127.12(a) states that a voluntary disclosure may be considered a mitigating factor, while failure to report \"will be an adverse factor\". A company that can show trained staff, current content and documented remediation is in a stronger position to argue that a violation was isolated rather than systemic."
+        },
+        {
+          "type": "p",
+          "text": "DDTC also publishes compliance program guidance and consent agreements on its public portal, which many registrants use as a benchmark for training content. This page does not summarize that guidance because its text could not be retrieved from the portal for verification as at November 2026; readers should consult it directly."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models each ITAR provision, such as the deemed export definition or the criteria for the signing official, as a node linked to the roles it affects, the learning outcomes it implies and the assessment that proves them. When a regulation is amended, every affected outcome and role is visible at once, and the record of what was trained and when is ready to support a disclosure. Related defense trade use cases are on the [government and defense page](/industries/government-defence)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does ITAR require annual training?",
+      "a": "No. The ITAR sets no training frequency. Many registrants choose annual refreshers for staff with access to technical data because annual cycles are easy to evidence and match how often export procedures and the US Munitions List change, but that is a company decision recorded in its own compliance program, not a regulatory deadline."
+    },
+    {
+      "q": "Is ITAR training needed if a company never ships anything abroad?",
+      "a": "Yes, in most cases. A manufacturer of defense articles must register even if it never exports, and releasing technical data to a foreign person inside the United States is a deemed export under 22 CFR 120.50(a)(2). Employees who host foreign visitors, share drawings or grant system access can create violations without any shipment."
+    },
+    {
+      "q": "Who usually delivers ITAR training inside a company?",
+      "a": "The ITAR does not say. In practice the export compliance function or the signing official owns the content, because 22 CFR 120.67 requires the signing official to understand the regulations and penalties. Specialist content for engineers is often delivered with program leads so that examples use the company's own technical data."
+    },
+    {
+      "q": "How does ITAR training differ from EAR training?",
+      "a": "ITAR training centers on defense articles, technical data and defense services on the US Munitions List, administered by the State Department. Training for the Export Administration Regulations covers dual use items under Commerce Department jurisdiction, where the Bureau of Industry and Security publishes an explicit training element in its Export Compliance Guidelines. Many companies need both."
+    }
+  ],
+  "sources": [
+    {
+      "title": "22 CFR 127.12: Voluntary disclosures",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-22/section-127.12"
+    },
+    {
+      "title": "22 CFR 127.10: Civil penalty",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-22/section-127.10"
+    },
+    {
+      "title": "22 CFR 120.67: Empowered official",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-22/section-120.67"
+    },
+    {
+      "title": "22 CFR 120.50: Export",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-22/section-120.50"
+    },
+    {
+      "title": "22 CFR 122.1: Registration requirements, exemptions, and purpose",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-22/section-122.1"
+    },
+    {
+      "title": "22 CFR 122.5: Maintenance of records by registrants",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-22/section-122.5"
+    },
+    {
+      "title": "22 CFR 126.18: Exemptions regarding intra-company, intra-organization, and intra-governmental transfers to employees who are dual nationals or third-country nationals",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)",
+      "url": "https://www.law.cornell.edu/cfr/text/22/126.18"
+    }
+  ],
+  "related": [
+    "ear-export-compliance-training",
+    "nispom-security-training-requirements",
+    "doj-compliance-program-training-expectations",
+    "how-to-map-training-to-compliance-obligations",
+    "training-matrix"
+  ],
+  "productLinks": [
+    {
+      "label": "Government and defense",
+      "href": "/industries/government-defence"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 14,
+  "factCheck": [
+    {
+      "claim": "22 CFR 127.12(c)(3): factors to address in a voluntary disclosure include the details of compliance measures, processes and programs, including training, in place to prevent the violations.",
+      "source": "https://www.ecfr.gov/current/title-22/section-127.12"
+    },
+    {
+      "claim": "22 CFR 127.12(b)(3)(iv): DDTC may consider whether the person has instituted or improved an internal compliance program; (b)(3)(v) disclosures without senior management knowledge are not deemed voluntary.",
+      "source": "https://www.ecfr.gov/current/title-22/section-127.12"
+    },
+    {
+      "claim": "22 CFR 127.12(c)(1)(i): a full disclosure must be submitted within 60 calendar days of an incomplete notification.",
+      "source": "https://www.ecfr.gov/current/title-22/section-127.12"
+    },
+    {
+      "claim": "22 CFR 120.67(a)(3): an empowered official understands the export control statutes and regulations and the penalties for violating the AECA and ITAR.",
+      "source": "https://www.ecfr.gov/current/title-22/section-120.67"
+    },
+    {
+      "claim": "22 CFR 120.50(a)(2): releasing or transferring technical data to a foreign person in the United States is a deemed export.",
+      "source": "https://www.ecfr.gov/current/title-22/section-120.50"
+    },
+    {
+      "claim": "22 CFR 122.1(a): registration requires only one occasion of manufacturing, exporting or temporarily importing; a manufacturer that does not export must still register.",
+      "source": "https://www.ecfr.gov/current/title-22/section-122.1"
+    },
+    {
+      "claim": "22 CFR 122.5: registrant records must be maintained for five years.",
+      "source": "https://www.ecfr.gov/current/title-22/section-122.5"
+    },
+    {
+      "claim": "22 CFR 127.10(a)(1)(i): civil penalty for each violation of 22 U.S.C. 2778 not to exceed the greater of $1,271,078 or twice the transaction value (eCFR text current to November 5, 2026, last amended 90 FR 1868, January 10, 2025).",
+      "source": "https://www.ecfr.gov/current/title-22/section-127.10"
+    },
+    {
+      "claim": "22 CFR 126.18(c): end users must maintain a technology security/clearance plan with employee screening procedures and keep screening records for five years.",
+      "source": "https://www.law.cornell.edu/cfr/text/22/126.18"
+    }
+  ]
+}

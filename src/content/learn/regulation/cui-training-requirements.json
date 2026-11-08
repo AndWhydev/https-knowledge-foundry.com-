@@ -1,0 +1,263 @@
+{
+  "slug": "cui-training-requirements",
+  "kind": "regulation",
+  "title": "How often is CUI training required for federal employees and defense contractors?",
+  "seoTitle": "CUI training requirements",
+  "description": "CUI training under 32 CFR 2002.30 (on entry, then every two years) and DoDI 5200.48 (initial and annual), what it covers and contractor status, November 2026.",
+  "shortAnswer": "Controlled Unclassified Information (CUI) training is required by 32 CFR 2002.30 for executive branch personnel with access to CUI when they start work and at least once every two years after. The Department of Defense sets a stricter rule: DoD Instruction 5200.48 requires initial and annual refresher CUI training for DoD military and civilian personnel and for contractors where their contracts require it. A government-wide FAR clause for contractor CUI training remained a proposed rule as at November 2026.",
+  "keyTakeaways": [
+    "32 CFR 2002.30(c) requires agencies to train employees on CUI when they first begin working for the agency and at least once every two years thereafter.",
+    "DoDI 5200.48, effective March 6, 2020, requires initial and annual refresher CUI training for DoD personnel and documentation of that training for audit purposes (paragraph 2.10.d).",
+    "Part 2002 does not apply directly to contractors. It reaches them through contracts and other agreements, so contractor training obligations come from contract clauses (32 CFR 2002.1(f)).",
+    "DoDI 5200.48 paragraph 3.6.g lists 11 minimum training standards, drawn from ISOO Notice 2016-01, from individual responsibilities to decontrol methods.",
+    "The FAR Controlled Unclassified Information proposed rule of January 15, 2025 would bar contractor employees from handling CUI until trained. It had not been finalized as at November 2026."
+  ],
+  "jurisdiction": "United States (federal)",
+  "regulator": "National Archives and Records Administration, Information Security Oversight Office (ISOO), as CUI Executive Agent; US Department of Defense for DoD personnel and contracts",
+  "appliesTo": [
+    "Employees of executive branch agencies who have access to CUI",
+    "DoD military and civilian personnel at every level",
+    "Contractors, grantees and other non-executive branch entities whose contracts or agreements incorporate CUI training provisions",
+    "Cleared defense contractors whose classified contracts include CUI training requirements"
+  ],
+  "sections": [
+    {
+      "id": "what-cui-is",
+      "heading": "What is CUI and which rules govern training on it?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CUI is government information that a law, regulation or government-wide policy requires or permits agencies to protect, but that is not classified. Training on it is governed at two levels: the government-wide CUI Program rule at [32 CFR Part 2002](https://www.ecfr.gov/current/title-32/part-2002), and agency implementing policy, of which DoD Instruction 5200.48 is the most significant for defense work."
+        },
+        {
+          "type": "p",
+          "text": "Executive Order 13556 created the CUI Program, and the [National Archives (NARA)](https://www.archives.gov/cui) acts as CUI Executive Agent through its Information Security Oversight Office (ISOO). ISOO issued Part 2002 as a final rule at 81 FR 63336 on September 14, 2016. The rule replaces the patchwork of agency labels such as For Official Use Only with a single system of categories, markings and handling controls published in the CUI Registry."
+        },
+        {
+          "type": "p",
+          "text": "CUI training is separate from classified security training. The [NISPOM security training requirements](/regulations/nispom-security-training-requirements) page explains that 32 CFR 117.12(f) treats CUI training as outside the NISPOM, so cleared contractors look to their contracts for CUI obligations."
+        }
+      ]
+    },
+    {
+      "id": "executive-branch-rule",
+      "heading": "What does 32 CFR 2002.30 require of executive branch agencies?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Section 2002.30 requires every agency to have a written CUI training policy, to train personnel with CUI access on six content areas, and to do so on entry and at least every two years. The senior agency official for CUI owns the obligation: 32 CFR 2002.8(c)(5) makes implementing \"an education and training program pursuant to § 2002.30\" one of that official's duties."
+        },
+        {
+          "type": "callout",
+          "title": "32 CFR 2002.30(c), verbatim",
+          "text": "\"Agencies must train employees on these matters when the employees first begin working for the agency and at least once every two years thereafter.\""
+        },
+        {
+          "type": "p",
+          "text": "Under 2002.30(a), the training policy must at minimum address \"the means, methods, and frequency of agency CUI training\". Under 2002.30(b), personnel with access to CUI must be trained on designating CUI, the relevant CUI categories and subcategories, the CUI Registry, associated markings, and applicable safeguarding, disseminating and decontrolling policies and procedures. Under 2002.30(d), the CUI Executive Agent reviews agency training materials for consistency with the Order, the rule and the Registry."
+        },
+        {
+          "type": "p",
+          "text": "Two years is a ceiling, not a target. An agency may set a shorter cycle in its own policy, and DoD has done exactly that."
+        }
+      ]
+    },
+    {
+      "id": "dod-rule",
+      "heading": "Does DoD require CUI training every year or every two years?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Every year. DoD Instruction 5200.48, Controlled Unclassified Information, effective March 6, 2020, requires initial and annual refresher CUI training, which is stricter than the two year minimum in 32 CFR 2002.30. Paragraph 2.10.d directs DoD Component heads to \"ensure their personnel receive initial and annual refresher CUI education and training, and maintain documentation of this training for audit purposes\"."
+        },
+        {
+          "type": "p",
+          "text": "Paragraph 3.6.b extends the rule to \"every individual at every level, including DoD civilian and military personnel as well as contractors providing support to the DoD pursuant to contractual requirements\". Paragraph 2.10.e adds a reporting duty: Components report training completion data to the Under Secretary of Defense for Intelligence and Security annually or as directed, and training statistics are a required element of each Component's annual CUI Implementation Status Report under paragraph 3.6.c."
+        },
+        {
+          "type": "p",
+          "text": "Two further delivery points matter for training design. Paragraph 2.3.d gives the Defense Counterintelligence and Security Agency (DCSA) responsibility for providing CUI education and training on the 2002.30 topics to DoD personnel and contractors through the Center for Development of Security Excellence. Paragraph 2.9.g(2) directs the DoD Chief Information Officer to integrate CUI safeguarding and handling into updates to initial and annual cybersecurity awareness training, so many DoD users meet part of the requirement inside their cyber awareness course."
+        }
+      ]
+    },
+    {
+      "id": "minimum-content",
+      "heading": "What must CUI training cover at a minimum?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "DoDI 5200.48 paragraph 3.6.g lists 11 minimum training standards \"in accordance with ISOO Notice 2016-01\". They are more detailed than the six content areas in 2002.30(b) and make a practical syllabus for any organization handling CUI."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Identify individual responsibilities for protecting CUI.",
+            "Identify the organizational index with CUI categories routinely handled by DoD personnel.",
+            "Describe the CUI Registry, including its purpose, structure and location.",
+            "Describe the differences between CUI Basic and CUI Specified.",
+            "Identify the offices or organizations with DoD CUI Program oversight responsibilities.",
+            "Address CUI marking requirements.",
+            "Address the required physical safeguards and CUI protection methods.",
+            "Address destruction requirements and methods.",
+            "Address incident reporting procedures.",
+            "Address methods for properly disseminating CUI within DoD and with external entities inside and outside the executive branch.",
+            "Address methods for properly decontrolling CUI."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "NARA publishes [CUI training modules](https://www.archives.gov/cui/training.html) covering topics such as controlled environments, decontrolling, destruction, lawful government purpose, marking and unauthorized disclosures. NARA states that the modules \"can be used to supplement any training or awareness efforts by Executive branch entities or other stakeholders (i.e., Nonfederal organizations)\". The page does not itself set a frequency."
+        }
+      ]
+    },
+    {
+      "id": "contractors",
+      "heading": "Are contractors legally required to complete CUI training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Only through their contracts, as at November 2026. Section 2002.1(f) says Part 2002 \"does not apply directly to non-executive branch entities\" but applies to them indirectly \"through incorporation into agreements\". A contractor's training duty therefore depends on the clauses in its contract, grant or information sharing agreement."
+        },
+        {
+          "type": "p",
+          "text": "For DoD work, contracts that bring contractors within DoDI 5200.48 trigger the initial and annual refresher cycle, and DCSA administers CUI requirements in classified contracts for cleared contractors under paragraph 2.3.a. Contractors handling CUI on DoD contracts also carry the security awareness requirements of NIST SP 800-171, which the [CMMC program](/regulations/cmmc-security-awareness-training) assesses. Those are system user awareness controls, not CUI marking and handling training, so they complement rather than replace it."
+        },
+        {
+          "type": "callout",
+          "title": "Pending: FAR CUI rule",
+          "text": "On January 15, 2025, DoD, GSA and NASA published the [FAR Controlled Unclassified Information proposed rule](https://www.federalregister.gov/documents/2025/01/15/2024-30437/federal-acquisition-regulation-controlled-unclassified-information) (FAR Case 2017-016), with comments due March 17, 2025. The preamble says a contractor \"shall not permit any contractor employee to collect, develop, receive, transmit, use, handle, or store CUI unless the employee has completed training on properly handling CUI\", with evidence provided to the contracting officer on request. It estimates about 2,191,400 contractor and subcontractor employees would take roughly one hour of training. No final rule had been published in the Federal Register as at November 2026."
+        }
+      ]
+    },
+    {
+      "id": "obligation-map",
+      "heading": "How do the CUI training obligations compare by population?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The applicable cycle depends on who employs the person and what their agreement says. The table maps each source to its population, frequency and the evidence an auditor or CUI program inspector would expect; the evidence column is illustrative."
+        },
+        {
+          "type": "table",
+          "caption": "CUI training obligations by source, as at November 2026",
+          "head": ["Source", "Population", "Frequency", "Evidence an auditor would expect"],
+          "rows": [
+            ["32 CFR 2002.30", "Executive branch employees with CUI access", "On entry, then at least every two years", "Written agency training policy covering means, methods and frequency; completion records by employee"],
+            ["DoDI 5200.48, 2.10.d and 3.6.b", "DoD military and civilian personnel; contractors where contracts require", "Initial, then annual refresher", "Training documentation retained for audit; Component completion data reported annually"],
+            ["DoDI 5200.48, 3.6.g", "Anyone trained under the DoD program", "Each cycle", "Course content mapped to the 11 minimum standards"],
+            ["Contract or agreement clause (32 CFR 2002.1(f))", "Contractors, grantees and partners", "As stated in the clause", "Clause text, training records for staff with CUI access, flow down to subcontractors"],
+            ["FAR CUI proposed rule (not final)", "Contractor and subcontractor employees handling CUI", "Before handling CUI, as specified in the contract form", "Would require training evidence on contracting officer request"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Organizations that serve both civilian agencies and DoD can avoid running two cycles by adopting the annual DoD frequency for everyone with CUI access. The trade offs in choosing a single interval are covered in [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles), and a [training matrix](/glossary/training-matrix) keyed to CUI access makes the population reconcilable."
+        }
+      ]
+    },
+    {
+      "id": "misuse-and-oversight",
+      "heading": "What happens when CUI is mishandled?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Agencies must have processes for reporting and investigating CUI misuse, and sanctions follow the agency's existing authority. Section 2002.54 requires the senior agency official to establish those processes, and 2002.56 says agency misuse policy should reflect the agency head's authority to take administrative action, while categories with their own statutory sanctions keep them."
+        },
+        {
+          "type": "p",
+          "text": "Self-inspection closes the loop with training. Part 2002 requires agency self-inspection programs to include procedures for integrating lessons learned \"into operational policies, procedures, and training\". Incident trends and inspection findings are therefore expected inputs to the next training cycle. For packaging the evidence, see [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit), and for the wider sector context, the [government and defense industry page](/industries/government-defence)."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry represents 2002.30, the DoDI 5200.48 standards and each contract clause as separate obligations, linked to the CUI categories a role actually handles and to the assessment points that show competence. When the FAR rule or the CUI Registry changes, the affected content and learners are identifiable from the framework. See [compliance programs](/programs/compliance)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does CUI training replace annual cyber awareness training?",
+      "a": "No, but they overlap. DoDI 5200.48 paragraph 2.9.g(2) directs the DoD CIO to integrate CUI safeguarding and handling into initial and annual cybersecurity awareness training. The CUI requirement itself still sits in paragraph 2.10.d and 32 CFR 2002.30, and its content standards, such as marking, decontrol and dissemination, go beyond general cyber awareness."
+    },
+    {
+      "q": "Is CUI training required for state, local or university partners?",
+      "a": "Only if their agreement with the agency says so. Part 2002 applies indirectly to non-executive branch entities through incorporation into agreements, and 32 CFR 2002.4(c) lists contracts, grants, licenses, memoranda of understanding and information sharing agreements. NARA makes its training modules available for nonfederal organizations to use."
+    },
+    {
+      "q": "Who reviews agency CUI training content?",
+      "a": "The CUI Executive Agent, which is NARA acting through ISOO. Under 32 CFR 2002.30(d) it reviews agency training materials to ensure consistency and compliance with Executive Order 13556, Part 2002 and the CUI Registry. Within DoD, DCSA delivers CUI training to personnel and contractors through the Center for Development of Security Excellence."
+    },
+    {
+      "q": "How long does CUI training take?",
+      "a": "Neither 32 CFR 2002.30 nor DoDI 5200.48 sets a duration. The only official estimate found is in the January 2025 FAR proposed rule, which assumed about one hour per contractor employee for cost purposes. That figure is a regulatory impact estimate, not a requirement."
+    }
+  ],
+  "sources": [
+    {
+      "title": "32 CFR 2002.30: Education and training",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-32/section-2002.30"
+    },
+    {
+      "title": "32 CFR 2002.30: Education and training",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/32/2002.30"
+    },
+    {
+      "title": "32 CFR Part 2002: Controlled Unclassified Information",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-32/part-2002"
+    },
+    {
+      "title": "DoD Instruction 5200.48, Controlled Unclassified Information (CUI), March 6, 2020 (archived copy of the Directives Division PDF)",
+      "publisher": "US Department of Defense, Office of the Under Secretary of Defense for Intelligence and Security",
+      "url": "https://web.archive.org/web/20251227021010/https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/520048p.PDF"
+    },
+    {
+      "title": "Federal Acquisition Regulation: Controlled Unclassified Information, proposed rule (FAR Case 2017-016)",
+      "publisher": "DoD, GSA and NASA, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2025/01/15/2024-30437/federal-acquisition-regulation-controlled-unclassified-information"
+    },
+    {
+      "title": "CUI training modules",
+      "publisher": "National Archives and Records Administration, CUI Program",
+      "url": "https://www.archives.gov/cui/training.html"
+    },
+    {
+      "title": "Controlled Unclassified Information (CUI) program",
+      "publisher": "National Archives and Records Administration",
+      "url": "https://www.archives.gov/cui"
+    }
+  ],
+  "related": [
+    "nispom-security-training-requirements",
+    "cmmc-security-awareness-training",
+    "nara-records-management-training-requirements",
+    "federal-employee-cybersecurity-awareness-training",
+    "how-to-set-mandatory-training-refresh-cycles",
+    "training-matrix"
+  ],
+  "productLinks": [
+    { "label": "Government and defense", "href": "/industries/government-defence" },
+    { "label": "Compliance programs", "href": "/programs/compliance" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 14,
+  "factCheck": [
+    { "claim": "32 CFR 2002.30(c): agencies train employees when they first begin working for the agency and at least once every two years thereafter; (a) policy covers means, methods and frequency; (b) six content areas; (d) CUI EA reviews materials.", "source": "https://www.ecfr.gov/current/title-32/section-2002.30" },
+    { "claim": "32 CFR 2002.1(f): Part 2002 does not apply directly to non-executive branch entities but applies indirectly through incorporation into agreements.", "source": "https://www.ecfr.gov/current/title-32/part-2002" },
+    { "claim": "32 CFR 2002.8(c)(5): CUI SAO implements an education and training program pursuant to 2002.30; Part 2002 source is 81 FR 63336, Sept. 14, 2016.", "source": "https://www.ecfr.gov/current/title-32/part-2002" },
+    { "claim": "DoDI 5200.48 effective March 6, 2020; paragraph 2.10.d requires initial and annual refresher CUI education and training with documentation maintained for audit; 2.10.e annual reporting of completion data.", "source": "https://web.archive.org/web/20251227021010/https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/520048p.PDF" },
+    { "claim": "DoDI 5200.48 paragraph 3.6.b applies initial and annual refresher training to every individual including contractors supporting DoD pursuant to contractual requirements; 3.6.g lists 11 minimum training standards per ISOO Notice 2016-01.", "source": "https://web.archive.org/web/20251227021010/https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/520048p.PDF" },
+    { "claim": "DoDI 5200.48 paragraph 2.3.d: DCSA provides CUI training to DoD personnel and contractors through CDSE; 2.9.g(2): DoD CIO integrates CUI training into initial and annual cybersecurity awareness training.", "source": "https://web.archive.org/web/20251227021010/https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/520048p.PDF" },
+    { "claim": "FAR CUI proposed rule published January 15, 2025, comments due March 17, 2025; contractor employees may not handle CUI until trained; estimate of 2,191,400 employees at one hour.", "source": "https://www.federalregister.gov/documents/2025/01/15/2024-30437/federal-acquisition-regulation-controlled-unclassified-information" },
+    { "claim": "NARA CUI training modules can supplement training by executive branch entities or nonfederal organizations.", "source": "https://www.archives.gov/cui/training.html" }
+  ]
+}

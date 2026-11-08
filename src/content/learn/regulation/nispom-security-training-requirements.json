@@ -1,0 +1,268 @@
+{
+  "slug": "nispom-security-training-requirements",
+  "kind": "regulation",
+  "title": "What security training does the NISPOM require of cleared defense contractors?",
+  "seoTitle": "NISPOM security training requirements",
+  "description": "What 32 CFR 117.12 requires of cleared contractors: initial briefings, annual refresher and insider threat training, FSO training and records, November 2026.",
+  "shortAnswer": "The National Industrial Security Program Operating Manual (NISPOM), codified at 32 CFR Part 117, requires cleared US contractors to give every cleared employee an initial security briefing before access to classified information, security refresher training every 12 months, and annual insider threat awareness training. Facility Security Officers must complete training within six months of appointment, and derivative classifiers need refresher training at least once every two years or lose that authority.",
+  "keyTakeaways": [
+    "Section 117.12 of Title 32 of the Code of Federal Regulations sets the training rules. The NISPOM rule was published on December 21, 2020, took effect on February 24, 2021, and gave contractors six months to implement it.",
+    "Before access to classified information, each employee receives an initial briefing on six required topics, including insider threat awareness, counterintelligence awareness and cybersecurity for system users (117.12(e)).",
+    "Cleared employees receive security refresher training every 12 months (117.12(k)) and insider threat awareness training annually, with newly cleared employees trained before access (117.12(g)(2)).",
+    "The Facility Security Officer (FSO) completes training within six months of appointment, and an FSO program management course within six months of approval to store classified information when the cognizant security agency requires it (117.12(d)).",
+    "Employees who make derivative classification decisions need training before they start and at least once every two years after; a lapse means mandatory suspension of that authority (117.12(h))."
+  ],
+  "jurisdiction": "United States (federal)",
+  "regulator": "US Department of Defense, with the Defense Counterintelligence and Security Agency (DCSA) as cognizant security agency for most DoD cleared contractors",
+  "appliesTo": [
+    "US contractors, licensees, certificate holders and grantees that hold an entity eligibility determination (facility clearance) under the National Industrial Security Program",
+    "All cleared employees of those entities, including employees of cleared subcontractors and cleared temporary help suppliers",
+    "Facility Security Officers, Insider Threat Program Senior Officials and others performing security duties",
+    "Employees authorized to make derivative classification decisions, and all authorized users of classified information systems"
+  ],
+  "sections": [
+    {
+      "id": "what-the-nispom-is",
+      "heading": "What is the NISPOM and who does it cover?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The NISPOM is the federal rule that tells cleared industry how to protect classified information on behalf of the US Government. Since 2021 it has been a regulation, [32 CFR Part 117](https://www.ecfr.gov/current/title-32/section-117.12), rather than a DoD manual, which makes its training requirements binding on every contractor with an entity eligibility determination (commonly called a facility clearance)."
+        },
+        {
+          "type": "p",
+          "text": "The US Department of Defense published the rule in the Federal Register on December 21, 2020 (85 FR 83300). It [took effect on February 24, 2021](https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom), and section 117.1 required contractors to implement it \"no later than 6 months from the effective date\", which placed the compliance deadline in August 2021. Day to day oversight sits with the cognizant security agency (CSA). For most DoD contractors that is the Defense Counterintelligence and Security Agency (DCSA), which issues the CSA guidance that 117.12 refers to repeatedly."
+        },
+        {
+          "type": "p",
+          "text": "Training under the NISPOM is specific to classified work. It is separate from the cybersecurity awareness requirements that the [CMMC program](/regulations/cmmc-security-awareness-training) verifies for unclassified contractor systems, and from the handling training for Controlled Unclassified Information covered on the [CUI training requirements](/regulations/cui-training-requirements) page. Many contractors carry all three obligations at once."
+        }
+      ]
+    },
+    {
+      "id": "what-117-12-requires",
+      "heading": "What training and briefings does 32 CFR 117.12 require?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Section 117.12 requires seven distinct training streams, each triggered by a different event or role. The general rule in 117.12(a) is that contractors provide all cleared employees with security training and briefings \"commensurate with their involvement with classified information\", and the paragraphs that follow set fixed triggers and intervals."
+        },
+        {
+          "type": "table",
+          "caption": "Training obligations in 32 CFR 117.12, as at November 2026",
+          "head": ["Obligation", "Paragraph", "Who", "Trigger or frequency"],
+          "rows": [
+            ["Initial security briefing", "117.12(e)", "Every employee to be granted access", "Before access to classified information"],
+            ["Insider threat awareness", "117.12(g)(2)", "All cleared employees", "Before access for newly cleared employees, then annually"],
+            ["Insider threat program personnel training", "117.12(g)(1)", "ITPSO and insider threat program staff", "On assignment, consistent with CSA guidance"],
+            ["FSO training", "117.12(d)", "FSO and others performing security duties", "Within six months of appointment as FSO"],
+            ["FSO program management course", "117.12(d)", "FSO at locations approved to store classified information, when the CSA requires it", "Within six months of CSA approval to store"],
+            ["Derivative classification training", "117.12(h)", "Employees authorized to derivatively classify", "Before first decision, then at least once every two years"],
+            ["Information system security training", "117.12(i)", "All authorized users of classified information systems", "Content set by the contractor by role and system"],
+            ["Refresher training", "117.12(k)", "All cleared employees", "Every 12 months"],
+            ["Debriefing", "117.12(l)", "Cleared employees leaving access", "When access ends, on termination, on loss of eligibility, or when entity eligibility ends"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The initial briefing has a fixed syllabus. Under 117.12(e) it must cover threat awareness including insider threat, counterintelligence awareness, an overview of the classification system, reporting obligations, cybersecurity training for information system users in line with CSA guidance, and the security procedures of the employee's position together with the criminal, civil or administrative consequences of unauthorized disclosure."
+        }
+      ]
+    },
+    {
+      "id": "insider-threat-training",
+      "heading": "What must insider threat training cover?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Insider threat awareness training for all cleared employees must cover four minimum topics, and it must be delivered before a newly cleared employee gets access and every year after. The Insider Threat Program Senior Official (ITPSO), appointed under [32 CFR 117.7(b)(4)](https://www.ecfr.gov/current/title-32/section-117.7), is responsible for making sure it happens."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "The importance of detecting potential insider threats and reporting suspected activity to the insider threat program designee.",
+            "Methodologies adversaries use to recruit trusted insiders and collect classified information, \"in particular within information systems\".",
+            "Indicators of insider threat behavior and the procedures to report it.",
+            "Counterintelligence and security reporting requirements, as applicable."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Paragraph 117.12(g)(2) allows a CSA to conduct the annual training itself instead of the contractor, depending on CSA guidance. Either way, 117.12(g)(3) puts the evidence burden on the contractor: it must establish procedures to validate that all cleared employees have completed both the initial and the annual insider threat training."
+        },
+        {
+          "type": "p",
+          "text": "Staff who run the insider threat program need deeper content. Under 117.12(g)(1) the ITPSO and program personnel are trained on counterintelligence and security fundamentals, procedures for insider threat response actions, the laws governing records and data gathered by the program (including the consequences of misuse), and the civil liberties and privacy requirements that apply to insider threat programs."
+        }
+      ]
+    },
+    {
+      "id": "fso-training",
+      "heading": "What training must the Facility Security Officer complete?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The FSO must complete training within six months of appointment, and the content is whatever the CSA considers appropriate for the contractor's level of involvement with classified information. Section 117.7(b)(3) separately requires the FSO to \"complete security training pursuant to § 117.12 and as deemed appropriate by the CSA\"."
+        },
+        {
+          "type": "callout",
+          "title": "32 CFR 117.12(d), verbatim",
+          "text": "\"Contractor FSOs will complete training within six months of appointment to the position of FSO. When determined by the applicable CSA, contractor FSOs must complete an FSO program management course within six months of the CSA approval to store classified information at the contractor.\""
+        },
+        {
+          "type": "p",
+          "text": "The rule names two course types: an FSO orientation course and, for locations with a classified safeguarding capability, an FSO program management course. It also extends the training duty beyond the FSO to \"others performing security duties\", which is easy to miss when assistant FSOs or security staff join mid cycle. The CSA, not the contractor, provides the initial security briefing to the FSO under 117.12(c)."
+        }
+      ]
+    },
+    {
+      "id": "derivative-classification",
+      "heading": "What happens if derivative classification training lapses?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "If an employee does not receive derivative classification training at least once every two years, the contractor must suspend that employee's derivative classification authority. Paragraph 117.12(h)(2) makes the suspension mandatory, so a lapsed record is not just a documentation gap but an authority the employee no longer holds."
+        },
+        {
+          "type": "p",
+          "text": "Initial training is required before any derivative decision, and refresher training must \"emphasize the avoidance of over-classification\". It addresses seven listed topics: classification levels, duration of classification, identification and markings, classification prohibitions and limitations, sanctions and classification challenges, security classification guides, and information sharing. Under 117.12(h)(3) the contractor retains a record of the date of the most recent training, initial or refresher, and its type."
+        }
+      ]
+    },
+    {
+      "id": "refresher-and-records",
+      "heading": "How often must cleared employees be retrained, and what records are needed?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "All cleared employees receive security education and training every 12 months under 117.12(k). The refresher reinforces the initial briefing, keeps employees informed of changes in security regulations, and \"should also address issues or concerns identified during contractor self-reviews\"."
+        },
+        {
+          "type": "p",
+          "text": "That link to self-reviews is a practical design input. Section 117.7(h)(2) requires a formal self-inspection at least annually, including the insider threat program, and the senior management official must certify annually to the CSA in writing that it was conducted. Findings from that self-inspection are the natural source of refresher content for the following year."
+        },
+        {
+          "type": "p",
+          "text": "Delivery format is flexible: the rule lists group briefings, interactive videos, dissemination of instructional materials, or other media. The record duty is not flexible. Contractors \"will maintain records about the programs offered and employee participation in them\". For cleared temporary help suppliers, 117.12(j) makes the supplier responsible for initial and refresher briefings, though either the supplier or the using contractor may deliver them. For retention periods and audit packaging, see [how long to keep training records](/guides/how-long-to-keep-training-records)."
+        }
+      ]
+    },
+    {
+      "id": "evidence-matrix",
+      "heading": "What evidence would a DCSA security review expect for each obligation?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A reviewer will expect to trace each 117.12 obligation to a named population and a dated record. The matrix below is an illustrative starting point for a cleared facility; it is not a DCSA template and should be adjusted to the contractor's CSA guidance and classified contracts."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative evidence map for NISPOM training obligations",
+          "head": ["Obligation", "Population to reconcile", "Evidence an auditor would expect"],
+          "rows": [
+            ["Initial briefing (117.12(e))", "Every employee granted access in the period", "Briefing record dated on or before the access date, with the six topics shown in the briefing content"],
+            ["Insider threat, initial and annual (117.12(g)(2), (g)(3))", "All cleared employees", "Completion records by employee and year, plus the written validation procedure"],
+            ["FSO training (117.12(d))", "Current FSO and anyone performing security duties", "Appointment date and course completion date no more than six months apart"],
+            ["Derivative classification (117.12(h))", "List of authorized derivative classifiers", "Most recent training date and type per person; suspension record where training is overdue"],
+            ["Annual refresher (117.12(k))", "All cleared employees", "Program content showing self-inspection findings addressed, and participation records"],
+            ["Debriefing (117.12(l))", "Departures and loss of access in the period", "Debriefing annotated in contractor records for each event"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Building this as a [training matrix](/glossary/training-matrix) keyed to clearance status, role and event triggers keeps the populations aligned with personnel security data. For the general method, see [how to map training to compliance obligations](/guides/how-to-map-training-to-compliance-obligations) and [how to prepare training records for an audit](/guides/how-to-prepare-training-records-for-an-audit)."
+        }
+      ]
+    },
+    {
+      "id": "cui-and-other-overlaps",
+      "heading": "Does the NISPOM also require CUI training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No. Paragraph 117.12(f) states that CUI training is \"outside the requirements of the NISPOM\", but when a classified contract includes CUI training provisions, the contractor must comply with those contract terms. Cleared contractors should therefore check each DD Form 254 and contract for CUI clauses rather than assuming the NISPOM refresher covers them."
+        },
+        {
+          "type": "p",
+          "text": "Contractors working across government and defense programs often run NISPOM training alongside export control, CUI and cybersecurity obligations. The [government and defense industry page](/industries/government-defence) shows how those obligations sit together, and the [export compliance training](/regulations/itar-export-compliance-training) page covers the parallel International Traffic in Arms Regulations expectations."
+        }
+      ]
+    },
+    {
+      "id": "how-knowledge-foundry-approaches-this",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models each 117.12 paragraph as an obligation linked to its trigger, the roles it applies to, its required topics and the evidence it produces. Gaps, such as a derivative classifier approaching the two year limit or an FSO near the six month deadline, show up against the framework before a security review. See [audit evidence](/platform/audit-evidence) for how the records are assembled."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is NISPOM refresher training annual?",
+      "a": "Yes. Paragraph 117.12(k) requires contractors to provide all cleared employees with security education and training every 12 months. Insider threat awareness training is separately required on an annual basis under 117.12(g)(2). The only two year cycle in 117.12 is the refresher for employees who make derivative classification decisions."
+    },
+    {
+      "q": "Can the government deliver insider threat training instead of the contractor?",
+      "a": "In some cases. Paragraph 117.12(g)(2) says that depending on CSA specific guidance, a CSA may conduct the annual insider threat awareness training instead. The contractor still has to establish procedures to validate that every cleared employee completed the initial and annual training, so completion evidence remains the contractor's responsibility."
+    },
+    {
+      "q": "Does the NISPOM set a pass mark or course length?",
+      "a": "No. Section 117.12 specifies triggers, intervals, minimum topics and records, but not hours, pass marks or delivery methods. Refresher training may use group briefings, interactive videos, instructional materials or other media. Detailed course content for FSOs is left to what the CSA considers appropriate for the contractor's involvement with classified information."
+    },
+    {
+      "q": "When must a cleared employee be debriefed?",
+      "a": "Under 117.12(l), when access to classified information is no longer needed, at termination of employment by discharge, resignation or retirement, when the employee's eligibility for access is terminated, suspended or revoked, and when the entity eligibility determination ends. Each debriefing must be annotated in the appropriate contractor records."
+    }
+  ],
+  "sources": [
+    {
+      "title": "32 CFR 117.12: Security training and briefings",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-32/section-117.12"
+    },
+    {
+      "title": "32 CFR 117.12: Security training and briefings",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/32/117.12"
+    },
+    {
+      "title": "32 CFR 117.7: Procedures (contractor security officials, insider threat program, self-inspections)",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-32/section-117.7"
+    },
+    {
+      "title": "National Industrial Security Program Operating Manual (NISPOM), final rule (85 FR 83300)",
+      "publisher": "US Department of Defense, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom"
+    }
+  ],
+  "related": [
+    "cui-training-requirements",
+    "cmmc-security-awareness-training",
+    "itar-export-compliance-training",
+    "nist-sp-800-50-security-awareness-training",
+    "how-to-prepare-training-records-for-an-audit",
+    "role-based-training"
+  ],
+  "productLinks": [
+    { "label": "Government and defense", "href": "/industries/government-defence" },
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 14,
+  "factCheck": [
+    { "claim": "The NISPOM rule (85 FR 83300) was published December 21, 2020 and is effective February 24, 2021.", "source": "https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom" },
+    { "claim": "Section 117.1 as published prescribes that contractors implement the rule no later than 6 months from the effective date.", "source": "https://www.federalregister.gov/documents/2020/12/21/2020-27698/national-industrial-security-program-operating-manual-nispom" },
+    { "claim": "117.12(d): contractor FSOs complete training within six months of appointment; when determined by the CSA, an FSO program management course within six months of CSA approval to store classified information.", "source": "https://www.ecfr.gov/current/title-32/section-117.12" },
+    { "claim": "117.12(e): initial security briefing before access covering threat and insider threat awareness, CI awareness, classification system overview, reporting obligations, cybersecurity training for system users, and position security procedures and consequences of unauthorized disclosure.", "source": "https://www.ecfr.gov/current/title-32/section-117.12" },
+    { "claim": "117.12(f): CUI training is outside the NISPOM, but contractors comply when a classified contract includes CUI training provisions.", "source": "https://www.ecfr.gov/current/title-32/section-117.12" },
+    { "claim": "117.12(g)(2): insider threat awareness training for all cleared employees annually and for newly cleared employees before access, with four minimum topics; a CSA may instead conduct it. 117.12(g)(3): contractor validates completion.", "source": "https://www.law.cornell.edu/cfr/text/32/117.12" },
+    { "claim": "117.12(h): derivative classifiers trained before authorization and at least once every two years; authority suspended if not; seven listed topics; record of date and type retained.", "source": "https://www.ecfr.gov/current/title-32/section-117.12" },
+    { "claim": "117.12(k): security education and training for all cleared employees every 12 months, addressing self-review issues, with records of programs and participation.", "source": "https://www.ecfr.gov/current/title-32/section-117.12" },
+    { "claim": "117.7(b)(3) and (b)(4): FSO and ITPSO complete training pursuant to 117.12; 117.7(h)(2): formal self-inspection at least annually with SMO annual written certification.", "source": "https://www.ecfr.gov/current/title-32/section-117.7" }
+  ]
+}
