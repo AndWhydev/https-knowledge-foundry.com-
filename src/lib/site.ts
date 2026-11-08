@@ -3,7 +3,9 @@ export const site = {
   tagline: "Structured knowledge. Deliberate instruction.",
   description:
     "Knowledge Foundry turns subjects, documents, and requirements into structured learning systems. Define first. Write second.",
-  url: "https://knowledge-foundry.com",
+  // Vercel serves www as the primary domain (apex 308s to it), so canonicals,
+  // sitemap, and structured data must use www or they point at a redirect.
+  url: "https://www.knowledge-foundry.com",
   // Registered name and NIPC pending from counsel. Set `registeredName` and
   // `companyNumber` when confirmed; until then the site shows the trading name.
   legal: {
