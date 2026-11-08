@@ -1,0 +1,310 @@
+{
+  "slug": "japan-cybersecurity-management-guidelines-training",
+  "kind": "regulation",
+  "title": "What security training do Japan's Cybersecurity Management Guidelines expect from companies?",
+  "seoTitle": "Japan METI cyber guidelines training",
+  "description": "METI and IPA Cybersecurity Management Guidelines Ver 3.0 on training and drills, and what Japan's 2025 Active Cyber Defense law requires of operators.",
+  "shortAnswer": "Japan's Cybersecurity Management Guidelines Ver. 3.0, issued by the Ministry of Economy, Trade and Industry (METI) and the Information-technology Promotion Agency (IPA) in March 2023, expect executives to fund role-based security training, make all staff security aware, and run regular incident drills. The Guidelines are guidance, not law. Japan's 2025 Active Cyber Defense law imposes asset notification and incident reporting duties on designated infrastructure operators but contains no training requirement.",
+  "keyTakeaways": [
+    "Direction 3 of the Guidelines asks management to \"secure a budget for training employees and personnel in charge of cybersecurity and consistently provide training in accordance with their roles\".",
+    "Direction 7 calls for regular emergency response drills for executives and employees based on simulated cyber incidents, and Direction 8 calls for periodic recovery drills.",
+    "Direction 6 suggests the attendance rate of cybersecurity training as a key performance indicator reported to management.",
+    "The Act on the Prevention of Damage from Unauthorized Acts against Important Electronic Computers (Act No. 42 of 2025) was enacted on May 16, 2025 and promulgated on May 23, 2025. Its operator duties are asset notification (Article 4) and incident reporting (Article 5), not training.",
+    "The Act's text contains no provision on education or training of operator staff, so any training duty for those operators comes from sector rules or contracts, not from the Act."
+  ],
+  "jurisdiction": "Japan (national)",
+  "regulator": "Ministry of Economy, Trade and Industry (METI) and Information-technology Promotion Agency, Japan (IPA) for the Guidelines; the Prime Minister and the ministers responsible for each designated infrastructure sector for Act No. 42 of 2025",
+  "appliesTo": [
+    "Executives of large companies and SMEs (excluding small businesses) that supply IT systems or services, or whose strategy depends on IT, as voluntary guidance",
+    "CISOs and the executives they report to, who receive the ten Directions",
+    "Designated core infrastructure operators (special social infrastructure operators) under Act No. 42 of 2025, for asset notification and incident reporting",
+    "Supply chain partners and outsourcing providers addressed by Direction 9"
+  ],
+  "sections": [
+    {
+      "id": "what-the-guidelines-are",
+      "heading": "What are the Cybersecurity Management Guidelines and who are they for?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Guidelines are METI and IPA guidance telling company executives what to instruct their Chief Information Security Officer (CISO) to do. METI's [Guidelines page](https://www.meti.go.jp/policy/netsecurity/mng_guide.html) says they target executives of large companies and SMEs, excluding small businesses, that supply IT systems or services or for which IT is essential to strategy. Ver. 3.0 was published in Japanese on March 24, 2023 and in English on May 31, 2023. Ver. 1.0 dates from 2015 and Ver. 2.0 from 2017."
+        },
+        {
+          "type": "p",
+          "text": "The [English text of Ver. 3.0](https://www.meti.go.jp/policy/netsecurity/downloadfiles/CSM_Guideline_v3.0_en.pdf) sets three principles management must recognize and ten important items, called Directions, for the CISO. It is not a statute. Its weight comes from elsewhere: the outline notes that cybersecurity must be considered in the internal control systems required by the Companies Act and in disclosure under the Corporate Governance Code, and that a decision-making body whose cybersecurity system is not commensurate with the business may face legal responsibility under the Companies Act and Civil Code."
+        },
+        {
+          "type": "callout",
+          "title": "Stated plainly",
+          "text": "As at November 2026, no Japanese statute requires private companies in general to deliver cybersecurity awareness training. The Guidelines expect it, auditors and boards treat them as the common reference, and Appendix A turns the expectations into a check sheet. Treat them as the benchmark a court or investor would compare a company against, not as a legal mandate."
+        }
+      ]
+    },
+    {
+      "id": "human-resources-and-training",
+      "heading": "What do the Guidelines say about human resources and training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training sits mainly in Direction 3, \"Secure resources (budget, workforce, etc.) for cybersecurity measures\", which asks management to \"make all officers and employees aware of security in the execution of their duties, and implement human resource development measures to improve skills related to cybersecurity measures\". The recommended actions include:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Secure a budget for training employees and cybersecurity personnel and \"consistently provide training in accordance with their roles\".",
+            "Encourage \"Plus-Security\" knowledge and skills for people in all operations, including digital, business and administrative departments, not only security staff.",
+            "Develop internal cybersecurity talent through hiring and a career path within the organization's IT human resources strategy.",
+            "Where in-house education is difficult, use security training services from external organizations; a footnote mentions IPA's Industrial Cyber Security Center programs.",
+            "Use professional qualifications, including IPA's registered information security specialist system, as one indicator of skills."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Direction 1 adds that management should ensure employees are \"thoroughly familiar with the policy by conducting employee education\". Directions 2 and 3 both point to Appendix F, the \"Guidebook for Establishing Cybersecurity Organization and Securing Necessary Human Resources\", whose version 2.0 METI published on June 15, 2022."
+        }
+      ]
+    },
+    {
+      "id": "drills-and-kpis",
+      "heading": "Do the Guidelines expect exercises and training metrics?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yes. Direction 7 includes \"Conduct practical exercises as appropriate on incident response\" and recommends regular emergency response drills \"for executives and employees, so that all relevant parties understand through experience what procedures should be followed in an initial response\". Exercises should cover control systems as well as IT systems, may span several companies, and can use external courses where internal knowledge is lacking."
+        },
+        {
+          "type": "p",
+          "text": "Direction 8 asks for practical exercises on recovery after business suspension and periodic recovery drills. Direction 6 lists candidate key performance indicators to report to management, including the \"attendance rate of cybersecurity training\" and the average self-evaluated skill level of security personnel. Appendix A's check sheet includes the item \"Cyber security education and exercises are conducted for employees\", mapped to NIST CSF category PR.AT-1."
+        },
+        {
+          "type": "p",
+          "text": "The guide on [how to run a tabletop exercise](/guides/how-to-run-a-tabletop-exercise) covers drill design, and [how to design a phishing simulation program](/guides/how-to-design-a-phishing-simulation-program) covers one common awareness measure."
+        }
+      ]
+    },
+    {
+      "id": "active-cyber-defense-law",
+      "heading": "Does Japan's 2025 Active Cyber Defense law require training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No. The Act on the Prevention of Damage from Unauthorized Acts against Important Electronic Computers (Act No. 42 of 2025), known in Japan as the Cyber Response Capability Enhancement Act, places reporting duties on designated operators but says nothing about staff education or training. According to the [Cabinet Secretariat's page on the Act](https://www.cas.go.jp/jp/seisaku/cyber_anzen_hosyo_torikumi/index.html), it was enacted on May 16, 2025 and promulgated on May 23, 2025, together with a companion act (Act No. 43 of 2025)."
+        },
+        {
+          "type": "p",
+          "text": "The government's explanatory materials describe two duties for designated core infrastructure operators. Under Article 4, an operator that introduces a specified important computer must notify the responsible minister of its product name and other details (asset notification). Under Article 5, an operator that becomes aware that such a computer's cybersecurity has been harmed by unauthorized access or similar acts, or of certain events that could cause that, must report to the responsible minister and the Prime Minister. Article 83 provides a fine of up to JPY 2 million where an operator fails to report and does not comply with a corrective order, and Article 84 a fine of up to JPY 300,000 for failing to provide requested materials."
+        },
+        {
+          "type": "p",
+          "text": "Most of the Act takes effect on a date set by Cabinet Order within one year and six months of promulgation. The explanatory materials dated October 2026 indicate that the public-private cooperation chapter, which contains the operator duties, took effect on October 1, 2026, and that communications information measures follow by November 2027. Operators should confirm their own designation and effective dates with their sector ministry."
+        },
+        {
+          "type": "callout",
+          "title": "What this means for training",
+          "text": "The Act creates no training obligation. In practice, an operator can only report within the Article 5 regime if staff recognize a reportable event and escalate it quickly, so incident recognition and escalation should be part of role training for IT, operations and security teams. That is a design choice that supports compliance, not a statutory requirement."
+        }
+      ]
+    },
+    {
+      "id": "obligation-map",
+      "heading": "How do the expectations map to roles, frequency and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The table lists each training-relevant item with its status, so that guidance is not presented as law. It is an original mapping."
+        },
+        {
+          "type": "table",
+          "caption": "Japan cybersecurity training expectations: role, frequency and evidence (illustrative)",
+          "head": [
+            "Source and item",
+            "Role",
+            "Frequency",
+            "Evidence an auditor would expect"
+          ],
+          "rows": [
+            [
+              "Guidelines Direction 1: employees familiar with the security policy",
+              "All officers and employees",
+              "Onboarding and on policy change",
+              "Policy acknowledgment and completion records"
+            ],
+            [
+              "Guidelines Direction 3: role-based training with a budget",
+              "Security staff, IT, and all departments for Plus-Security",
+              "Consistently, per training plan",
+              "Approved budget, training plan by role, completion and qualification records"
+            ],
+            [
+              "Guidelines Direction 6: training attendance as a KPI",
+              "CISO, management risk committee",
+              "Each reporting cycle",
+              "KPI report showing attendance rate"
+            ],
+            [
+              "Guidelines Direction 7: incident response drills",
+              "Executives, CSIRT, employees",
+              "Regularly",
+              "Drill scenarios, participant lists, lessons learned"
+            ],
+            [
+              "Guidelines Direction 8: recovery drills",
+              "Business continuity and recovery teams",
+              "Periodically",
+              "Recovery exercise reports"
+            ],
+            [
+              "Act No. 42 of 2025, Article 5: incident reporting (no training duty)",
+              "IT, operations and security staff at designated operators",
+              "Design choice: onboarding and on procedure change",
+              "Escalation procedure, records of staff briefed on reportable events"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Mapping the rows to people is the method in [how to build a training matrix](/guides/how-to-build-a-training-matrix). For energy and utility operators that may be designated under the Act, see [energy and resources](/industries/energy-resources)."
+        }
+      ]
+    },
+    {
+      "id": "building-the-program",
+      "heading": "How should a company in Japan build training against the Guidelines?",
+      "blocks": [
+        {
+          "type": "ol",
+          "items": [
+            "Use the Appendix A check sheet to record current status against all ten Directions, including the education and exercise items.",
+            "Set a training budget and plan by role under Direction 3, covering security specialists and Plus-Security skills for business and administrative staff.",
+            "Make the security policy part of onboarding and refresh it when the policy changes, as Direction 1 implies.",
+            "Schedule incident response and recovery drills that include executives, and record lessons learned for the Direction 6 improvement cycle.",
+            "Report training attendance and skills measures to the management risk committee.",
+            "If designated under Act No. 42 of 2025, add recognition and escalation of reportable incidents to the relevant roles."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Related Japanese obligations include [APPI employee training](/regulations/japan-appi-employee-training), which overlaps where incidents involve personal data. The [cross-country comparison of cybersecurity awareness training](/compare/cybersecurity-awareness-training-requirements-by-country) places Japan alongside the other markets."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each Direction and each statutory duty with its legal status and links them to roles, learning outcomes and drill evidence. Boards can then see which training rests on guidance and which supports a legal reporting duty."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are the METI Cybersecurity Management Guidelines mandatory?",
+      "a": "No. They are guidance from METI and IPA addressed to company executives. Their influence is practical: the revision notes for Ver. 3.0 say an increasing number of METI corporate governance guidelines require companies to refer to them, and they serve as a common reference for directors' oversight under the Companies Act."
+    },
+    {
+      "q": "How often should cybersecurity training be held under the Guidelines?",
+      "a": "The Guidelines set no fixed interval. Direction 3 says training should be provided consistently according to roles, and Directions 7 and 8 call for regular and periodic drills. A company should set its own cycle, report attendance as a KPI under Direction 6, and refresh content when policies or threats change."
+    },
+    {
+      "q": "What is Plus-Security?",
+      "a": "In the Guidelines, Plus-Security refers to security knowledge and skills added to people whose main job is not security, such as staff in digital, business and administrative departments. Direction 3 encourages companies to develop these skills across all operations rather than relying only on specialist security personnel."
+    },
+    {
+      "q": "Do SMEs in Japan have separate guidance?",
+      "a": "Yes. METI's Guidelines page points small and medium-sized enterprises to IPA's Information Security Guidelines for SMEs, which adapt the executive guidance into a management edition and a practical edition that can be stepped up according to the company's level."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cybersecurity Management Guidelines Ver. 3.0 (English translation)",
+      "publisher": "Ministry of Economy, Trade and Industry and Information-technology Promotion Agency, Japan",
+      "url": "https://www.meti.go.jp/policy/netsecurity/downloadfiles/CSM_Guideline_v3.0_en.pdf"
+    },
+    {
+      "title": "Cybersecurity Management Guidelines and support tools",
+      "publisher": "Ministry of Economy, Trade and Industry",
+      "url": "https://www.meti.go.jp/policy/netsecurity/mng_guide.html"
+    },
+    {
+      "title": "Initiatives on cyber security (Cyber Response Capability Enhancement Act and companion act)",
+      "publisher": "Cabinet Secretariat",
+      "url": "https://www.cas.go.jp/jp/seisaku/cyber_anzen_hosyo_torikumi/index.html"
+    },
+    {
+      "title": "Act on the Prevention of Damage from Unauthorized Acts against Important Electronic Computers (Act No. 42 of 2025), text",
+      "publisher": "Cabinet Secretariat",
+      "url": "https://www.cas.go.jp/jp/seisaku/cyber_anzen_hosyo_torikumi/pdf/houritsu.pdf"
+    },
+    {
+      "title": "Explanatory materials on the Cyber Response Capability Enhancement Act (October 2026)",
+      "publisher": "Cabinet Secretariat, National Cybersecurity Office",
+      "url": "https://www.cas.go.jp/jp/seisaku/cyber_anzen_hosyo_torikumi/pdf/setsumei_r810.pdf"
+    }
+  ],
+  "related": [
+    "cybersecurity-awareness-training-requirements-by-country",
+    "japan-appi-employee-training",
+    "how-to-run-a-tabletop-exercise",
+    "how-to-design-a-phishing-simulation-program",
+    "iso-27001-awareness-training-requirements",
+    "japan-security-clearance-system-training"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    },
+    {
+      "label": "Energy and resources",
+      "href": "/industries/energy-resources"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "Guidelines Ver3.0 published 24 March 2023 (Japanese) and English translation 31 May 2023; target is executives of large companies and SMEs (excluding small businesses) supplying IT or relying on IT; Appendix F guidebook v2.0 published 15 June 2022; IPA SME guidelines referenced",
+      "source": "https://www.meti.go.jp/policy/netsecurity/mng_guide.html"
+    },
+    {
+      "claim": "Direction 3: make all officers and employees aware of security and implement human resource development; secure a budget for training employees and personnel in charge of cybersecurity and consistently provide training in accordance with their roles; Plus-Security; external training services; IPA registered information security specialist footnote",
+      "source": "https://www.meti.go.jp/policy/netsecurity/downloadfiles/CSM_Guideline_v3.0_en.pdf"
+    },
+    {
+      "claim": "Direction 1: ensure employees are thoroughly familiar with the policy by conducting employee education; Directions 2 and 3 refer to Appendix F guidebook",
+      "source": "https://www.meti.go.jp/policy/netsecurity/downloadfiles/CSM_Guideline_v3.0_en.pdf"
+    },
+    {
+      "claim": "Direction 6 KPI examples include attendance rate of cybersecurity training; Direction 7 regularly conduct emergency response drills for executives and employees; Direction 8 periodic recovery drills; Appendix A item cyber security education and exercises conducted for employees (PR.AT-1)",
+      "source": "https://www.meti.go.jp/policy/netsecurity/downloadfiles/CSM_Guideline_v3.0_en.pdf"
+    },
+    {
+      "claim": "Outline: cybersecurity to be considered in internal control systems required by the Companies Act and the Corporate Governance Code; decision-making body may face legal responsibility under the Corporate Law, Civil Code; Ver 1.0 released 2015, Ver 2.0 in 2017",
+      "source": "https://www.meti.go.jp/policy/netsecurity/downloadfiles/CSM_Guideline_v3.0_en.pdf"
+    },
+    {
+      "claim": "Cyber Response Capability Enhancement Act (Act No. 42 of 2025) and companion act (Act No. 43 of 2025) enacted 16 May 2025 and promulgated 23 May 2025",
+      "source": "https://www.cas.go.jp/jp/seisaku/cyber_anzen_hosyo_torikumi/index.html"
+    },
+    {
+      "claim": "Act text searched for education, training and human resources terms (教育, 研修, 訓練): none found; Chapter 2 covers reports by special social infrastructure operators (Articles 4 to 10)",
+      "source": "https://www.cas.go.jp/jp/seisaku/cyber_anzen_hosyo_torikumi/pdf/houritsu.pdf"
+    },
+    {
+      "claim": "Explanatory materials: Article 4 asset notification of specified important computers; Article 5 incident reporting to the responsible minister and the Prime Minister; Article 83 fine up to JPY 2 million after corrective order; Article 84 fine up to JPY 300,000; commencement within 1 year 6 months by Cabinet Order; timeline shows public-private cooperation effective 1 October 2026 and communications information by November 2027",
+      "source": "https://www.cas.go.jp/jp/seisaku/cyber_anzen_hosyo_torikumi/pdf/setsumei_r810.pdf"
+    },
+    {
+      "claim": "Revision highlights: an increasing number of guidelines for corporate governance published by METI require companies to refer to these guidelines",
+      "source": "https://www.meti.go.jp/policy/netsecurity/downloadfiles/CSM_Guideline_v3.0_en.pdf"
+    }
+  ]
+}

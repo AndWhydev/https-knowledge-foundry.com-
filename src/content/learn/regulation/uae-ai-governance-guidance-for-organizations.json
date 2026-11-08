@@ -1,0 +1,294 @@
+{
+  "slug": "uae-ai-governance-guidance-for-organizations",
+  "kind": "regulation",
+  "title": "Is AI training mandatory for organizations in the UAE?",
+  "seoTitle": "UAE AI governance guidance",
+  "description": "UAE AI governance: the 2024 AI Charter, federal AI Ethics Guide, Dubai AI ethics guidelines, DIFC Regulation 10, and whether any AI training duty exists.",
+  "shortAnswer": "No general law in the United Arab Emirates requires private organizations to provide AI training as at November 2026. The UAE Charter for the Development and Use of Artificial Intelligence (July 2024) sets 12 principles, and the federal AI Ethics Guide (December 2022) and Dubai's AI Ethics Principles and Guidelines describe themselves as non-binding. The closest binding rule is DIFC Data Protection Regulation 10 for AI systems processing personal data in the DIFC.",
+  "keyTakeaways": [
+    "The UAE Charter for the Development and Use of AI, published in July 2024 by the UAE AI Office, sets 12 general principles. Principle 11 promotes AI awareness, but the Charter creates no training duty.",
+    "The federal AI Ethics: Principles and Guidelines (December 2022) say plainly that \"the guidelines are non-binding\" and give \"non-mandatory guidelines\" for public and private sectors. They expect personnel involved in AI to be \"educated accordingly\" on fairness.",
+    "Dubai's AI Ethics Principles and Guidelines, published by Smart Dubai (now Digital Dubai), are also expressly non-binding.",
+    "Inside the DIFC, Data Protection Regulation 10 binds deployers and operators of autonomous and semi-autonomous systems that process personal data, and can require an Autonomous Systems Officer with DPO-level competencies.",
+    "Federal government entities appoint a Chief Executive Officer for AI, whose listed tasks include raising awareness and enhancing individuals' competencies in AI."
+  ],
+  "jurisdiction": "United Arab Emirates (federal), with Dubai and the Dubai International Financial Centre (DIFC)",
+  "regulator": "Minister of State for Artificial Intelligence, Digital Economy and Remote Work Applications Office (UAE AI Office); Digital Dubai; Commissioner of Data Protection, DIFC",
+  "appliesTo": [
+    "Public and private organizations developing or operating AI systems in the UAE, as voluntary guidance",
+    "Federal ministries and federal entities, which appoint a Chief Executive Officer for AI",
+    "Deployers and operators of AI systems processing personal data in the DIFC, under binding Data Protection Regulation 10",
+    "Organizations in Dubai using AI for significant decisions, under Dubai's voluntary AI ethics guidelines"
+  ],
+  "sections": [
+    {
+      "id": "plain-answer",
+      "heading": "Does any UAE law require AI training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No federal statute or Cabinet resolution we could find requires private organizations in the UAE to train staff on AI, as at November 2026. The UAE has chosen principles, charters and guides over a horizontal AI statute, which contrasts with the EU's binding AI literacy duty described on the [EU AI Act AI literacy page](/regulations/eu-ai-act-ai-literacy)."
+        },
+        {
+          "type": "p",
+          "text": "Training obligations can still arise indirectly. In the DIFC, AI systems that process personal data fall under binding data protection rules. In regulated sectors, a regulator's general competence or risk management rules may require staff who use AI to understand it. And where an organization voluntarily adopts the federal or Dubai ethics guidelines, those documents expect people involved with AI to be educated in the principles."
+        },
+        {
+          "type": "callout",
+          "title": "Stated plainly",
+          "text": "The UAE Charter (2024), the federal AI Ethics Guide (2022) and Dubai's AI Ethics Principles and Guidelines create no enforceable training duty. The federal and Dubai guidelines both say in their own text that they are non-binding. DIFC Data Protection Regulation 10 is binding, but only within the DIFC and only for personal data processed by AI systems."
+        }
+      ]
+    },
+    {
+      "id": "uae-charter",
+      "heading": "What does the UAE Charter for the Development and Use of AI say?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The [UAE Charter for the Development and Use of Artificial Intelligence](https://ai.gov.ae/wp-content/uploads/2024/07/UAEAI-Methaq-Jul-EN.pdf), dated July 2024 and published by the Minister of State for Artificial Intelligence, Digital Economy and Remote Work Applications Office, is \"a guiding framework to protect the rights of the UAE community in the development or use of AI solutions and technologies\". It aligns with the UAE Strategy for Artificial Intelligence, which aims to position the UAE as a leading nation in AI by 2031."
+        },
+        {
+          "type": "p",
+          "text": "Its 12 general principles are: strengthening human-machine ties; safety; fairness; data privacy; transparency; human oversight; governance and accountability; technological excellence; human commitment; peaceful coexistence with AI; promoting AI awareness for an inclusive future; and commitment to treaties and applicable laws. The awareness principle speaks of ensuring \"everyone can benefit from AI advancements\" and equitable access, not of employer training. The Charter contains no enforcement mechanism, deadlines or sanctions."
+        },
+        {
+          "type": "p",
+          "text": "The human oversight principle emphasizes \"the irreplaceable value of human judgment and human oversight over AI\" to correct errors or biases. That is the principle most organizations translate into training, because oversight only works if the people overseeing understand what the system does. The glossary entry on [human in the loop](/glossary/human-in-the-loop) explains the design patterns."
+        }
+      ]
+    },
+    {
+      "id": "federal-ethics-guide",
+      "heading": "What do the federal AI Ethics Principles and Guidelines expect?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The federal [AI Ethics: Principles and Guidelines](https://assets.u.ae/api/public/content/893c940c21c4403ea8df7faad66a889e?v=b2f9c1a1), dated December 2022 and listed as the AI Ethics Guide on the UAE Government portal, set eight principles: fairness, accountability, transparency, explainability, safe and secure AI (the guide's fifth principle, which also covers technical resilience), human-centered AI, sustainable and environmentally friendly AI, and privacy preserving AI."
+        },
+        {
+          "type": "p",
+          "text": "Section 1.2 says the document \"gives non-mandatory guidelines for achieving the ethical design and deployment of AI systems in both the public and private sectors\" and applies only to AI systems that make or inform \"significant decisions\". Section 1.1 states that \"the guidelines are non-binding\". Section 1.4 adds that the AI Office is not responsible for misuse and \"the user bears all the consequences of their use\"."
+        },
+        {
+          "type": "p",
+          "text": "Two passages bear on training. Under the fairness principle: \"All personnel involved in the development, deployment and use of AI systems have a role and responsibility to operationalize AI fairness and should be educated accordingly.\" Under human-centered AI, responsible parties \"should be trained to detect the influence due to AI and ineffective mitigation techniques\". Both are expectations within voluntary guidance."
+        }
+      ]
+    },
+    {
+      "id": "dubai-and-difc",
+      "heading": "What applies in Dubai and in the DIFC?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Dubai has voluntary ethics guidelines, and the DIFC has a binding data protection rule for AI. The [Dubai AI Ethics Principles and Guidelines](https://www.digitaldubai.ae/docs/default-source/ai-principles-resources/ai-ethics.pdf), published by Smart Dubai, state that \"the guidelines are non-binding\". Under the inclusiveness principle they say \"Access to training, opportunity and tools should be made available\" and that education should evolve to reflect developments in AI. Guideline 1.2.7 says AI operator organizations \"should understand the AI systems they use\"."
+        },
+        {
+          "type": "p",
+          "text": "Inside the DIFC, Regulation 10 of the [DIFC Data Protection Regulations](https://assets.difc.com/v1/media/edge/images/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/data-protection-regulation.pdf) governs personal data processed through autonomous and semi-autonomous systems. For certain high risk processing, Regulation 10.3.3(d) contemplates an Autonomous Systems Officer \"who will have the same or substantially similar competencies, status, role and task of a DPO\" under Articles 17 and 18 of the DIFC Data Protection Law. That makes AI competence a legal requirement for that role. The [DIFC Data Protection Law training page](/regulations/difc-data-protection-law-training) covers Regulation 10 in more detail."
+        }
+      ]
+    },
+    {
+      "id": "government-roles",
+      "heading": "What do federal government entities have to do?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Federal entities have a defined AI leadership role with an awareness and competence remit. The UAE Government portal's page on [AI in government policies](https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence/artificial-intelligence-in-government-policies) states that the government created a \"Chief Executive Officer for Artificial Intelligence\" role in ministries and federal entities. Listed tasks include establishing governance frameworks, \"raising awareness about AI activities\" and \"enhancing individuals' competencies in AI fields\"."
+        },
+        {
+          "type": "p",
+          "text": "The [UAE Strategy for Artificial Intelligence](https://u.ae/en/about-the-uae/strategies-initiatives-and-awards/strategies-plans-and-visions/Ai/uae-strategy-for-artificial-intelligence), launched in October 2017, includes among its five themes to \"develop capabilities and skills of all staff operating in the field of technology and organise training courses for government officials\". Suppliers to federal entities may therefore meet AI competence expectations through procurement even without a statute. The [government and defense](/industries/government-defence) page covers public sector context."
+        }
+      ]
+    },
+    {
+      "id": "obligation-map",
+      "heading": "How can an organization map UAE AI guidance to training and evidence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The table separates the one binding rule from the voluntary expectations so that a training plan does not overstate the law. It is an original mapping."
+        },
+        {
+          "type": "table",
+          "caption": "UAE AI governance instruments: status, role, frequency and evidence (illustrative)",
+          "head": [
+            "Instrument and provision",
+            "Status and role",
+            "Frequency (design choice)",
+            "Evidence an auditor would expect"
+          ],
+          "rows": [
+            [
+              "DIFC DP Regulation 10.3.3(d): Autonomous Systems Officer",
+              "Binding in the DIFC; ASO and AI system owners",
+              "On appointment and when Regulations change",
+              "Qualification or CPD record equivalent to a DPO, system register"
+            ],
+            [
+              "Federal AI Ethics Guide, fairness principle: personnel educated",
+              "Voluntary; developers, deployers, users of AI for significant decisions",
+              "Onboarding to AI projects, then periodic",
+              "Role training records, bias testing sign-off"
+            ],
+            [
+              "Federal AI Ethics Guide, human-centered AI: detect AI influence",
+              "Voluntary; reviewers and responsible parties",
+              "Before go-live",
+              "Reviewer training, oversight procedure"
+            ],
+            [
+              "Dubai AI Ethics Guideline 1.2.7: understand AI systems used",
+              "Voluntary; AI operator organizations",
+              "On procurement and material change",
+              "System documentation reviewed by trained owners"
+            ],
+            [
+              "UAE Charter principle 6: human oversight",
+              "Voluntary; anyone overseeing AI outputs",
+              "Before access to AI tools",
+              "Acceptable use policy attestation, oversight checks"
+            ],
+            [
+              "Federal CEO for AI role: awareness and competencies",
+              "Government policy; federal entities and their suppliers",
+              "Per entity plan",
+              "Entity AI training plan, supplier requirements"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Organizations building a voluntary program can follow [how to build an AI literacy training program](/guides/how-to-build-an-ai-literacy-training-program) and [how to write an AI acceptable use policy](/guides/how-to-write-an-ai-acceptable-use-policy). The [AI literacy and AI governance training comparison](/compare/ai-literacy-and-ai-governance-training-by-country) sets the UAE alongside the EU, Japan, Australia and the US."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each UAE instrument with its legal status, so binding DIFC requirements and voluntary federal or Dubai expectations stay distinct in the obligations register. Training built on the voluntary guidance can then be presented to auditors as good practice rather than as a claimed legal duty."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is the UAE Charter for AI legally binding?",
+      "a": "The Charter is presented as a guiding framework of 12 general principles and contains no enforcement mechanism, sanctions or deadlines. Its final principle stresses compliance with international treaties and local laws, which means existing laws such as data protection still apply to AI use. It does not itself create obligations for employers."
+    },
+    {
+      "q": "Does the UAE Personal Data Protection Law require AI training?",
+      "a": "It does not mention AI training specifically. Where AI processes personal data, the general data protection duties apply, and staff who operate those systems need to understand them. The page on UAE PDPL staff training covers the federal regime; the DIFC and ADGM have their own data protection laws."
+    },
+    {
+      "q": "Does an organization in Dubai have to follow the Dubai AI ethics guidelines?",
+      "a": "No. The Dubai AI Ethics Principles and Guidelines describe themselves as non-binding and as a collaborative, multi-stakeholder effort. An organization can adopt them voluntarily, and doing so gives a recognized local reference point for its AI policy and training content."
+    },
+    {
+      "q": "Who should receive AI training first in a UAE organization?",
+      "a": "Start with roles the guidance singles out: people who make or inform significant decisions using AI, reviewers responsible for human oversight, and, in the DIFC, anyone acting as Autonomous Systems Officer or deploying AI on personal data. Broader awareness for all staff can follow under an acceptable use policy."
+    }
+  ],
+  "sources": [
+    {
+      "title": "The UAE Charter for the Development and Use of Artificial Intelligence (July 2024)",
+      "publisher": "Minister of State for Artificial Intelligence, Digital Economy and Remote Work Applications Office",
+      "url": "https://ai.gov.ae/wp-content/uploads/2024/07/UAEAI-Methaq-Jul-EN.pdf"
+    },
+    {
+      "title": "AI Ethics: Principles and Guidelines (December 2022)",
+      "publisher": "The Official Portal of the UAE Government (u.ae)",
+      "url": "https://assets.u.ae/api/public/content/893c940c21c4403ea8df7faad66a889e?v=b2f9c1a1"
+    },
+    {
+      "title": "AI resources",
+      "publisher": "The Official Portal of the UAE Government (u.ae)",
+      "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence/ai-resources"
+    },
+    {
+      "title": "Artificial intelligence in government policies",
+      "publisher": "The Official Portal of the UAE Government (u.ae)",
+      "url": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence/artificial-intelligence-in-government-policies"
+    },
+    {
+      "title": "UAE Strategy for Artificial Intelligence",
+      "publisher": "The Official Portal of the UAE Government (u.ae)",
+      "url": "https://u.ae/en/about-the-uae/strategies-initiatives-and-awards/strategies-plans-and-visions/Ai/uae-strategy-for-artificial-intelligence"
+    },
+    {
+      "title": "AI Ethics Principles and Guidelines",
+      "publisher": "Smart Dubai (Digital Dubai)",
+      "url": "https://www.digitaldubai.ae/docs/default-source/ai-principles-resources/ai-ethics.pdf"
+    },
+    {
+      "title": "Data Protection Regulations, Consolidated Version No. 2",
+      "publisher": "Dubai International Financial Centre",
+      "url": "https://assets.difc.com/v1/media/edge/images/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/data-protection-regulation.pdf"
+    }
+  ],
+  "related": [
+    "eu-ai-act-ai-literacy",
+    "ai-literacy-and-ai-governance-training-by-country",
+    "difc-data-protection-law-training",
+    "uae-pdpl-staff-training",
+    "how-to-build-an-ai-literacy-training-program",
+    "how-to-write-an-ai-acceptable-use-policy"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    },
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    },
+    {
+      "label": "Government and defense",
+      "href": "/industries/government-defence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "UAE Charter dated July 2024, published by the Minister of State for AI, Digital Economy and Remote Work Applications Office; guiding framework to protect rights of the UAE community; aligns with UAE Strategy for AI aiming for leadership by 2031; 12 general principles listed including 6 Human Oversight and 11 Promoting AI Awareness for an Inclusive Future; no training or enforcement provisions (read page by page, image PDF)",
+      "source": "https://ai.gov.ae/wp-content/uploads/2024/07/UAEAI-Methaq-Jul-EN.pdf"
+    },
+    {
+      "claim": "Federal AI Ethics Principles and Guidelines dated Dec 2022: eight principles; section 1.1 the guidelines are non-binding; section 1.2 non-mandatory guidelines for public and private sectors, applicable to AI systems making or informing significant decisions; section 1.4 user bears all consequences",
+      "source": "https://assets.u.ae/api/public/content/893c940c21c4403ea8df7faad66a889e?v=b2f9c1a1"
+    },
+    {
+      "claim": "Federal AI Ethics Guide: all personnel involved in development, deployment and use of AI systems should be educated accordingly (fairness); responsible parties should be trained to detect the influence due to AI (human centred)",
+      "source": "https://assets.u.ae/api/public/content/893c940c21c4403ea8df7faad66a889e?v=b2f9c1a1"
+    },
+    {
+      "claim": "u.ae AI resources page lists the AI Ethics Guide (PDF) among UAE AI publications",
+      "source": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence/ai-resources"
+    },
+    {
+      "claim": "CEO for Artificial Intelligence role in ministries and federal entities with tasks including governance frameworks, raising awareness about AI activities and enhancing individuals' competencies in AI fields",
+      "source": "https://u.ae/en/about-the-uae/digital-uae/digital-technology/artificial-intelligence/artificial-intelligence-in-government-policies"
+    },
+    {
+      "claim": "UAE Strategy for AI launched October 2017; five themes include developing capabilities and skills of staff in technology and organising training courses for government officials",
+      "source": "https://u.ae/en/about-the-uae/strategies-initiatives-and-awards/strategies-plans-and-visions/Ai/uae-strategy-for-artificial-intelligence"
+    },
+    {
+      "claim": "Dubai AI Ethics Principles and Guidelines (Smart Dubai): guidelines are non-binding; access to training, opportunity and tools should be made available; guideline 1.2.7 AI operator organisations should understand the AI systems they use",
+      "source": "https://www.digitaldubai.ae/docs/default-source/ai-principles-resources/ai-ethics.pdf"
+    },
+    {
+      "claim": "DIFC Data Protection Regulation 10 covers personal data processed through autonomous and semi-autonomous systems; Regulation 10.3.3(d) Autonomous Systems Officer with the same or substantially similar competencies, status, role and task of a DPO under Articles 17 and 18",
+      "source": "https://assets.difc.com/v1/media/edge/images/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/laws--regulations/data-protection-regulation.pdf"
+    }
+  ]
+}
