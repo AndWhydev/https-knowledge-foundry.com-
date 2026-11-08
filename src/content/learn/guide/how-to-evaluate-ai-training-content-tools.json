@@ -1,0 +1,233 @@
+{
+  "slug": "how-to-evaluate-ai-training-content-tools",
+  "kind": "guide",
+  "title": "How do you evaluate AI tools for creating training content?",
+  "seoTitle": "Evaluating AI training content tools",
+  "description": "Criteria for evaluating AI training content tools: source provenance, human review, accuracy testing, data handling, and ISO 42001 and NIST AI RMF fit.",
+  "shortAnswer": "AI tools for creating training content should be evaluated on whether every generated claim can be traced to an approved source, whether human review is built into the workflow and recorded, how accuracy is tested, how your data and learners' data are handled, how changes to sources and models are controlled, and whether the supplier's governance aligns with ISO/IEC 42001 and the NIST AI Risk Management Framework, tested on your own content before purchase.",
+  "keyTakeaways": [
+    "The central question is traceability: can each statement in generated content be traced to the approved source it came from?",
+    "Human review must be part of the workflow, assigned to qualified people, and recorded. A review button nobody has to press is not a control.",
+    "Test accuracy on your own regulated content during evaluation, using known traps such as recently changed rules.",
+    "Data handling needs contract terms, not assurances: what is retained, used for model training, where it is processed, and how it is deleted.",
+    "ISO/IEC 42001 and the NIST AI RMF give a shared vocabulary for supplier governance questions. Neither certifies that output is accurate."
+  ],
+  "sections": [
+    {
+      "id": "why-different",
+      "heading": "Why do AI content tools need a different evaluation from other training software?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI content tools need a different evaluation because they generate new text that can be fluent and wrong, so the risk sits in the content itself, not only in the software. The National Institute of Standards and Technology (NIST) Generative AI Profile (NIST AI 600-1) names confabulation, the production of confidently stated but erroneous or false content, among the risks unique to or exacerbated by generative AI, and notes that outputs may include confabulated logic or citations ([NIST AI 600-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf)). See [AI hallucination](/glossary/ai-hallucination)."
+        },
+        {
+          "type": "p",
+          "text": "In regulated training, a wrong statement about a threshold, a deadline or a procedure becomes the organization's instruction to its staff. Regulators already ask about AI in training. The US Department of Justice Evaluation of Corporate Compliance Programs, used here as an example, asks how a company trains employees on the use of emerging technologies such as AI, and asks what baseline of human decision-making is used to assess AI ([DOJ ECCP, September 2024](https://www.justice.gov/media/1160391/dl?inline)). Tool evaluation is the first point at which those controls can be designed in."
+        }
+      ]
+    },
+    {
+      "id": "criteria",
+      "heading": "What criteria should you use to evaluate an AI training content tool?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Evaluate against seven criteria, weighted by how regulated your content is. The table gives the question to ask and the evidence that would satisfy it."
+        },
+        {
+          "type": "table",
+          "caption": "Evaluation criteria for AI training content tools (editorial framework)",
+          "head": ["Criterion", "Question to ask", "Strong evidence", "Weak evidence"],
+          "rows": [
+            ["Source provenance", "Can each generated statement be traced to a specific approved source and version?", "Statement-level links to source passages; source version recorded with the output", "A list of documents uploaded; general claims of grounding"],
+            ["Human review", "Is review by a named, qualified reviewer required before publication, and recorded?", "Mandatory review states, reviewer identity and timestamp, diff of changes", "Optional review; no record of who approved what"],
+            ["Accuracy controls", "How does the tool detect unsupported claims and how is accuracy measured?", "Unsupported-claim flags; your own test results on known cases", "Supplier accuracy percentages without method"],
+            ["Data handling", "What happens to your content and learner data?", "Contract terms on retention, no training on your data unless agreed, processing location, deletion on exit", "Marketing statements; terms that can change without notice"],
+            ["Change control", "What happens when a source or the underlying model changes?", "Impact list of affected content; version history; model change notices", "Silent model updates; no link from source to output"],
+            ["Assessment integrity", "Does generated assessment content trace to outcomes and avoid technical flaws?", "Items tagged to outcomes and sources; review workflow for items", "Bulk question generation with no tagging"],
+            ["Supplier governance", "How does the supplier manage AI risk?", "AI management system aligned to ISO/IEC 42001 or mapped to NIST AI RMF; independent audit where available", "A responsible AI web page only"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Provenance is weighted highest because it makes the other controls possible. NIST AI 600-1 describes provenance data tracking as tracing the origin and history of content, and its suggested actions include documenting training data sources to trace the origin and provenance of AI-generated content (MG-2.2-002) and reviewing and verifying sources and citations in outputs (MS-2.5-003). See [content provenance](/glossary/content-provenance)."
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "heading": "How do you test an AI content tool before buying it?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Test the tool on your own regulated content, with cases where you already know the right answer, and have your own reviewers score the output. Demonstrations on the supplier's sample content show the interface, not the risk."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Build a test pack.** Choose three to five source documents from your library, including one with a recent change, one with numeric thresholds and deadlines, and one long procedure with exceptions.",
+            "**Write a check list of known facts.** For each source, list ten to twenty facts the output must get right, plus traps: the superseded value, an exception that is easy to drop, a term defined differently from common usage.",
+            "**Generate the same outputs in each tool.** A short module, a set of assessment items and a summary for each source.",
+            "**Score blind.** Reviewers mark each fact correct, wrong or missing, and flag any statement not supported by the source. Count unsupported statements separately from errors.",
+            "**Test the trace.** For a sample of statements, follow the tool's link back to the source passage and confirm it supports the statement.",
+            "**Test change.** Update one source and see whether the tool identifies the affected content.",
+            "**Review data terms in parallel.** Have privacy, security and legal review the contract while the test runs."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The method for checking generated content is the same one used after purchase. See [how to check AI-generated training for accuracy](/guides/how-to-check-ai-generated-training-for-accuracy)."
+        }
+      ]
+    },
+    {
+      "id": "data-handling",
+      "heading": "What data handling questions matter most?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The data handling questions that matter most are whether your content or learner data is retained, whether it is used to train or improve models, where it is processed, who can access it, and how it is returned or deleted at the end of the contract. Get answers in the contract."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Processor terms.** Where personal data is involved, the EU General Data Protection Regulation (GDPR) Article 28 sets required processor contract terms, including deletion or return of personal data at the end of services ([GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj)).",
+            "**What goes into the tool.** The Office of the Australian Information Commissioner (OAIC), as an example regulator, recommends as best practice that organizations do not enter personal information, and particularly sensitive information, into publicly available generative AI tools ([OAIC](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products)). Training content built from incident reports, case files or complaint records often contains exactly this.",
+            "**Confidential content.** Internal procedures and unreleased policies may be commercially sensitive even without personal data. Ask whether prompts and outputs are logged, for how long, and who at the supplier can see them.",
+            "**Subprocessors.** Ask which model providers sit behind the tool and whether that can change without notice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "governance-frameworks",
+      "heading": "How do ISO/IEC 42001 and the NIST AI RMF help with tool evaluation?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ISO/IEC 42001 and the NIST AI RMF help by giving structured, recognized questions about how a supplier governs AI, but neither confirms that a tool's output is accurate. ISO/IEC 42001:2023 specifies requirements for establishing, implementing, maintaining and continually improving an AI management system, for organizations that provide or use AI-based products or services ([ISO](https://www.iso.org/standard/42001)). A supplier certified to it has an audited management system; you still need to test the output."
+        },
+        {
+          "type": "p",
+          "text": "The NIST AI Risk Management Framework (AI RMF 1.0, released January 26, 2023) is intended for voluntary use and is organized into four functions: Govern, Map, Measure and Manage ([NIST](https://www.nist.gov/itl/ai-risk-management-framework); [NIST AI 100-1](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf)). NIST's page states that AI RMF 1.0 is being revised. Asking a supplier how it addresses each function, and what it has done against the Generative AI Profile's suggested actions on provenance and source verification, quickly separates mature governance from marketing. For how the two frameworks differ, see [ISO 42001 vs NIST AI RMF](/compare/iso-42001-vs-nist-ai-rmf)."
+        }
+      ]
+    },
+    {
+      "id": "red-flags",
+      "heading": "What are the warning signs during evaluation?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The clearest warning signs are claims that cannot be tested and controls that cannot be enforced."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Accuracy or time-saving figures with no method, sample or definition of an error.",
+            "No way to see which source passage supports a statement.",
+            "Review described as a recommendation rather than a required step.",
+            "Refusal to run a trial on your content, or trials only on curated samples.",
+            "Contract terms allowing use of your data for model improvement by default.",
+            "No notice of underlying model changes, or no version history of generated content."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "These criteria complement general supplier diligence in [how to evaluate a training content vendor](/guides/how-to-evaluate-a-training-content-vendor) and the operating controls in [how to govern AI-generated learning content](/guides/how-to-govern-ai-generated-learning-content)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines the knowledge framework (concepts, relationships, assessment points and provenance) before any content is generated, so generated material can be checked against a defined, versioned structure. Human verification is recorded as part of the content history."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is an ISO/IEC 42001 certificate enough to trust an AI content tool?",
+      "a": "No. Certification shows the supplier operates an audited AI management system. It does not test whether the tool's output about your regulations and procedures is correct. Treat certification as evidence about governance and run your own accuracy and provenance tests on your content."
+    },
+    {
+      "q": "Should AI tools be allowed to write assessment questions?",
+      "a": "They can draft them, with the same controls as content: each item tagged to an outcome and a source, reviewed by a subject matter expert and an assessment specialist, and monitored after use. Generated items often have technical flaws such as implausible distractors, so review matters as much as for any human-written item."
+    },
+    {
+      "q": "Who should be on the evaluation team?",
+      "a": "At least a subject matter expert for the test content, an instructional designer, someone from compliance or legal for regulatory accuracy and contract terms, and privacy and security reviewers. The people who will review generated content after purchase should score the trial, because they know what errors look like."
+    },
+    {
+      "q": "How often should an AI content tool be re-evaluated?",
+      "a": "Re-run the core accuracy and provenance tests when the supplier changes the underlying model, when you add a new content type or regulated domain, and at contract renewal. Keep the original test pack so results are comparable over time."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    },
+    {
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+    },
+    {
+      "title": "AI Risk Management Framework",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    {
+      "title": "ISO/IEC 42001:2023 Information technology: Artificial intelligence: Management system",
+      "publisher": "International Organization for Standardization (ISO)",
+      "url": "https://www.iso.org/standard/42001"
+    },
+    {
+      "title": "Evaluation of Corporate Compliance Programs (Updated September 2024)",
+      "publisher": "US Department of Justice, Criminal Division",
+      "url": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "title": "Regulation (EU) 2016/679 (General Data Protection Regulation)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    },
+    {
+      "title": "Guidance on privacy and the use of commercially available AI products",
+      "publisher": "Office of the Australian Information Commissioner (OAIC)",
+      "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products"
+    }
+  ],
+  "related": [
+    "how-to-govern-ai-generated-learning-content",
+    "how-to-check-ai-generated-training-for-accuracy",
+    "how-to-use-ai-to-create-training-content-safely",
+    "content-provenance",
+    "iso-42001-vs-nist-ai-rmf",
+    "ai-content-generator-vs-structured-framework"
+  ],
+  "productLinks": [
+    { "label": "Verification and trust", "href": "/platform/verification-trust" },
+    { "label": "Knowledge governance", "href": "/platform/knowledge-governance" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "NIST AI 600-1: confabulation is the production of confidently stated but erroneous or false content, among risks unique to or exacerbated by GAI; outputs may include confabulated logic or citations", "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" },
+    { "claim": "NIST AI 600-1: provenance data tracking traces origin and history of content; actions MG-2.2-002 (document training data sources to trace origin and provenance of AI-generated content) and MS-2.5-003 (review and verify sources and citations in GAI outputs)", "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" },
+    { "claim": "ECCP asks how the company trains employees on emerging technologies such as AI, and what baseline of human decision-making is used to assess AI", "source": "https://www.justice.gov/media/1160391/dl?inline" },
+    { "claim": "ISO/IEC 42001:2023 specifies requirements for establishing, implementing, maintaining and continually improving an AI management system, for organizations that provide or use AI-based products or services (reused from sibling pages; iso.org returns 403 to automated fetch)", "source": "https://www.iso.org/standard/42001" },
+    { "claim": "NIST AI RMF 1.0 released January 26, 2023, intended for voluntary use; page states AI RMF 1.0 is being revised", "source": "https://www.nist.gov/itl/ai-risk-management-framework" },
+    { "claim": "AI RMF Core has four functions: GOVERN, MAP, MEASURE, MANAGE", "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf" },
+    { "claim": "GDPR Article 28 sets required processor contract terms, including deletion or return of personal data at the end of services (Article 28(3)(g))", "source": "https://eur-lex.europa.eu/eli/reg/2016/679/oj" },
+    { "claim": "OAIC recommends as best practice not entering personal information, particularly sensitive information, into publicly available generative AI tools", "source": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products" }
+  ]
+}

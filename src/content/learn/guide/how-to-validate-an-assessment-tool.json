@@ -1,0 +1,230 @@
+{
+  "slug": "how-to-validate-an-assessment-tool",
+  "kind": "guide",
+  "title": "How do you validate an assessment tool?",
+  "seoTitle": "How to validate an assessment tool",
+  "description": "How to validate an assessment tool: review it before use, sample completed assessments after use, check judgments, and tell validation apart from moderation.",
+  "shortAnswer": "An assessment tool is validated in two stages: a review before use, where industry experts and other assessors check that the tool covers the standard and will produce valid, reliable evidence, and a validation after use, where an independent team samples completed assessments, re-examines the same evidence the assessor saw, confirms the judgments were justified, and feeds the findings back into the tool and the assessment system.",
+  "keyTakeaways": [
+    "Validation asks whether the tool and the judgments made with it actually show competence against the standard. Moderation asks whether assessors are applying the tool consistently.",
+    "Review every tool before first use: consult industry, moderate it with other assessors, and trial it with people similar to the intended candidates.",
+    "Post-use validation samples completed assessments, gives validators the same evidence the assessor used, and is not decided solely by the person who designed or delivered the assessment.",
+    "Sample on risk: across assessors, cohorts, locations and outcomes, and bring validation forward when complaints, changes or inconsistent decisions appear.",
+    "Validation is only finished when its findings change something and a later sample shows the change worked."
+  ],
+  "sections": [
+    {
+      "id": "what-validation-means",
+      "heading": "What does it mean to validate an assessment tool?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Validating an assessment tool means gathering evidence that the tool, and the judgments assessors make with it, support the conclusion the assessment is meant to support: that a person is or is not competent against a defined standard. It covers the instrument itself (questions, tasks, observation checklists, marking guides) and the way it was used."
+        },
+        {
+          "type": "p",
+          "text": "This matches how measurement professionals define validity. The Standards for Educational and Psychological Testing describe validity as the degree to which evidence and theory support the interpretations of test scores for proposed uses, and note that it is the interpretation that is evaluated, not the test in isolation ([Standards for Educational and Psychological Testing, 2014](https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf)). A tool can be well built and still be used to support a decision it cannot justify, which is why validation looks at completed assessments, not only at the blank tool. For the underlying concepts, see [validity vs reliability in assessment](/compare/validity-vs-reliability-in-assessment)."
+        },
+        {
+          "type": "p",
+          "text": "The most detailed public description of a validation system comes from vocational education. The Australian Skills Quality Authority (ASQA) Assessment Practice Guide, written for the 2025 Standards for Registered Training Organisations, separates a review of tools before use (Standard 1.3) from the validation of assessment practices and judgments after use (Standard 1.5) ([ASQA](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide)). The method below uses that structure as a clearly framed example. It transfers to any regulated workplace assessment."
+        }
+      ]
+    },
+    {
+      "id": "validation-vs-moderation",
+      "heading": "What is the difference between validation and moderation?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Validation checks whether an assessment produces justified conclusions about competence; moderation checks whether different assessors reach the same conclusion from the same evidence. Validation is about the right decision. Moderation is about the same decision. Both are needed, and they are often confused because they use similar activities."
+        },
+        {
+          "type": "table",
+          "caption": "Validation and moderation compared (editorial synthesis)",
+          "head": ["Question", "Validation", "Moderation"],
+          "rows": [
+            ["Core question", "Does the tool and the judgment made with it show competence against the standard?", "Are assessors interpreting the tool and evidence consistently?"],
+            ["Main quality it protects", "Validity of the decision", "Reliability and fairness between assessors"],
+            ["When it happens", "Before use (tool review) and after use (sample of completed assessments), on a scheduled cycle and when risk rises", "Before use (calibrating on the tool) and during or shortly after marking, before results are final"],
+            ["Who does it", "A team that collectively has current industry expertise and assessment expertise, and that does not consist solely of the tool's designer or the assessor", "Assessors who use the tool, often led by a lead assessor"],
+            ["Typical output", "Findings about the tool, the evidence and the judgments; changes to the assessment system", "Agreed interpretations, adjusted marks or decisions, clarified benchmarks"],
+            ["Can it change a result?", "Usually it changes the tool and process; a reviewed decision may also be reopened", "Yes, it is designed to align results before they are released"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "ASQA's guide puts moderation inside the pre-use review: one listed way to review a tool before use is moderating the tool with other trainers and assessors who have current skills and knowledge ([ASQA](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide)). In higher education, the Tertiary Education Quality and Standards Agency (TEQSA) lists moderation alongside peer review, professional accreditation and industry feedback as forms of external referencing ([TEQSA](https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-academic-monitoring-review-and-improvement)). Moderation is therefore a tool that supports validation, not a substitute for it."
+        }
+      ]
+    },
+    {
+      "id": "pre-use-review",
+      "heading": "How do you review an assessment tool before first use?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Review a tool before first use by checking it against the standard and the [assessment blueprint](/guides/how-to-create-an-assessment-blueprint), then testing it with experts, peers and a small group like the real candidates. ASQA lists four ways to do this: consulting industry to confirm content is correct and relevant to the workplace, confirming that any use of AI in assessment aligns to real workplace expectations and does not compromise skill demonstration, moderating the tool with other assessors, and trialling it with a select group similar to the student cohort ([ASQA](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide))."
+        },
+        {
+          "type": "p",
+          "text": "Check the tool against the principles and rules that most competency systems share. ASQA's Standard 1.4 lists the principles of fairness, flexibility, validity and reliability, and the [rules of evidence](/glossary/rules-of-evidence): validity, sufficiency, authenticity and currency. Its reliability principle is a useful test for any tool: assessment evidence is interpreted consistently and outcomes are comparable irrespective of which assessor conducts the assessment ([ASQA](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide))."
+        },
+        {
+          "type": "p",
+          "text": "ASQA also names generic templates or checklists for the review, and reliance on purchased tools that are not contextualized, as known risks. A review is only as good as the questions it asks of this specific tool."
+        }
+      ]
+    },
+    {
+      "id": "post-use-validation",
+      "heading": "What are the steps to validate an assessment tool after use?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Post-use validation samples real completed assessments and tests whether each judgment is justified by the evidence. Run it in seven steps."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Schedule on a cycle and on risk.** Set a maximum interval for every tool. ASQA's example: every training product validated at least once every five years, and more often where risks, changes to the training product or feedback emerge ([ASQA](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide)). In a workplace, triggers include a regulation change, an incident linked to a skill, complaints about results or a new assessor.",
+            "**Form an independent team.** The team should collectively hold current industry competence, a practical understanding of current practice and assessment expertise. ASQA requires that the outcome is not solely determined by a person who designed or delivered the training or assessment.",
+            "**Draw a risk-based sample.** Select completed assessments that reflect the range of assessors, cohorts, locations and outcomes, including fails and borderline passes. ASQA expects at least two units of competency to be sampled when a qualification or skill set is validated, and expects assessments involving AI-generated content to be in the sample.",
+            "**Give validators the same evidence.** Validators should see exactly what the assessor saw: candidate work, observation records, assessor notes and the marking guide. Without this, validation becomes a second opinion on a summary.",
+            "**Test each judgment.** For each sampled assessment, ask whether the evidence meets the rules of evidence and whether there is a direct link between the evidence and the decision. Record agree or disagree with reasons.",
+            "**Look for patterns.** If problems appear, increase the sample, check related units, and determine whether the issue lies with one assessor, several assessors or the tool itself.",
+            "**Act and confirm.** Change the tool, the benchmarks or assessor guidance, brief assessors, and re-sample later to confirm judgments became more consistent. Keep the record."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "A regulator's worked example",
+          "text": "ASQA's guide describes a provider that brought validation forward after assessors reported inconsistent decisions in two units. It sampled across assessors, cohorts, locations and outcomes, gave validators the original evidence and marking guides, revised the observation guide to include clear performance benchmarks, briefed assessors, and re-sampled three months later to confirm the decisions were more consistent."
+        }
+      ]
+    },
+    {
+      "id": "validation-record",
+      "heading": "What should a validation record contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A validation record should let an auditor see what was checked, by whom, against what, what was found and what changed. Use the template below for each tool."
+        },
+        {
+          "type": "table",
+          "caption": "Assessment tool validation record template (illustrative)",
+          "head": ["Field", "What to record", "Example entry (illustrative)"],
+          "rows": [
+            ["Tool and version", "Tool name, version, standard or unit assessed", "Confined space entry observation checklist v3.2"],
+            ["Trigger", "Scheduled cycle or risk trigger", "Scheduled; also two appeals in the last quarter"],
+            ["Validation team", "Names, roles, relevant expertise, independence statement", "Lead assessor (other site), process safety engineer, L&D quality lead"],
+            ["Sample", "Number, selection logic, assessors and outcomes covered", "12 completed assessments, 4 assessors, 3 sites, includes 3 not yet competent"],
+            ["Evidence reviewed", "Confirmation validators saw original evidence", "Checklists, photographs, assessor notes, marking guide"],
+            ["Findings on the tool", "Coverage, benchmarks, conditions, instructions", "Benchmark for gas testing sequence too vague to judge"],
+            ["Findings on judgments", "Agreement rate and any unjustified decisions", "10 of 12 agreed; 2 passes lacked evidence of atmospheric retest"],
+            ["Actions", "Change, owner, due date", "Add observable sequence to item 6; brief assessors; owner lead assessor"],
+            ["Follow-up check", "Date and result of re-sample", "Re-sample of 6 in three months; all agreed"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Keep the sampled assessments with the record. ASQA lists not retaining completed student assessments for products not yet validated as a known risk, because validation cannot happen without the evidence. For retention periods in general, see [how long to keep training records](/guides/how-long-to-keep-training-records)."
+        }
+      ]
+    },
+    {
+      "id": "ai-and-validation",
+      "heading": "How does AI change assessment validation?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI changes validation in two ways: candidates may use AI to produce evidence, and organizations may use AI to help review it. ASQA's guide addresses both. It lists not including assessments that incorporate AI tools or outputs in the validation sample as a known risk, and separately lists relying too heavily on AI assistance to make validation decisions without sufficient human oversight ([ASQA](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide))."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Check authenticity directly: ASQA's examples under the authenticity rule include requiring candidates to declare any AI use and having a process for identifying inappropriate or undisclosed AI use.",
+            "Sample AI-permitted tasks deliberately, and check that the assessor confirmed the candidate's own skill. ASQA gives oral questioning or practical demonstration as examples of additional evidence to supplement AI-assisted work.",
+            "Treat AI-generated validation summaries as drafts. The decision belongs to the validation team."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links every assessment item and observation criterion to the concept and obligation it tests, so a validation team can see coverage and trace any judgment back to the standard. When a validation finding changes a benchmark, the change is versioned and the affected assessments are identified."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How often should assessment tools be validated?",
+      "a": "Set a maximum interval for every tool and validate earlier when risk rises. ASQA's example sets every training product at least once every five years, with more frequent validation where risks, product changes or feedback emerge. In workplace programs, high-consequence assessments usually warrant a shorter cycle, and any regulation change or incident linked to the skill should trigger validation."
+    },
+    {
+      "q": "Can the person who wrote the assessment validate it?",
+      "a": "They can take part and explain the context, but should not decide the outcome alone. ASQA requires that the outcome of validation is not solely determined by a person who designed or delivered the training or assessment. Small teams can meet this by adding an external subject matter expert or an assessor from another site."
+    },
+    {
+      "q": "Is moderation enough on its own?",
+      "a": "No. Moderation can make assessors consistent with each other while all of them apply a tool that misses part of the standard. Validation checks the tool and the judgments against the standard itself. Use moderation to align assessors and validation to confirm the alignment is on the right target."
+    },
+    {
+      "q": "Does a purchased assessment tool need validating?",
+      "a": "Yes. ASQA names reliance on purchased tools that are not contextualized to the cohort, environment and requirements as a known risk. A purchased tool should be reviewed before use against your standard and work context, and its completed assessments sampled like any other."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Assessment Practice Guide (2025 Standards for RTOs)",
+      "publisher": "Australian Skills Quality Authority (ASQA)",
+      "url": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
+    },
+    {
+      "title": "Standards for RTOs 2025 (Outcome Standards), F2025L00354",
+      "publisher": "Federal Register of Legislation, Australian Government",
+      "url": "https://www.legislation.gov.au/F2025L00354/asmade/text"
+    },
+    {
+      "title": "Standards for Educational and Psychological Testing (2014 edition)",
+      "publisher": "American Educational Research Association, American Psychological Association and National Council on Measurement in Education",
+      "url": "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf"
+    },
+    {
+      "title": "Guidance note: Academic monitoring, review and improvement",
+      "publisher": "Tertiary Education Quality and Standards Agency (TEQSA)",
+      "url": "https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-academic-monitoring-review-and-improvement"
+    }
+  ],
+  "related": [
+    "validity-vs-reliability-in-assessment",
+    "rules-of-evidence",
+    "how-to-design-competency-assessments",
+    "how-to-create-an-assessment-blueprint",
+    "how-to-write-an-assessment-rubric",
+    "standards-for-rtos-2025-training-and-assessment"
+  ],
+  "productLinks": [
+    { "label": "Verification and trust", "href": "/platform/verification-trust" },
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "ASQA Assessment Practice Guide: tools reviewed before use by consulting industry, confirming AI in assessment aligns to workplace expectations, moderating the tool with other trainers and assessors, and trialling with a similar group; generic review templates and uncontextualized purchased tools listed as known risks (fetched 2026-11-08)", "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide" },
+    { "claim": "ASQA Standard 1.4 principles of fairness, flexibility, validity and reliability (reliability wording paraphrased) and rules of evidence validity, sufficiency, authenticity and currency", "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide" },
+    { "claim": "ASQA Standard 1.5: validation at least once every five years and more often on risk, change or feedback; validators collectively hold industry competencies, current practice understanding and a validation credential; outcome not solely determined by designer or deliverer; validators access the same evidence; sample at least two units when validating a qualification, accredited short course or skill set; include AI-generated content in sample", "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide" },
+    { "claim": "ASQA actions on issues: increase sample size, validate other units, look for patterns of error by one or multiple assessors; known risks include not retaining completed assessments, excluding AI-involved assessments from samples, and relying too heavily on AI to make validation decisions", "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide" },
+    { "claim": "ASQA worked example: validation brought forward after inconsistent decisions in two units; risk-based sample; observation guide revised with clear performance benchmarks; re-sample 3 months later", "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide" },
+    { "claim": "Standard 1.5(2)(b) five-year validation and 1.5(2)(f) outcome not solely determined by designer or deliverer", "source": "https://www.legislation.gov.au/F2025L00354/asmade/text" },
+    { "claim": "Standards (2014) chapter 1: validity is the degree to which evidence and theory support interpretations of test scores for proposed uses; interpretations are evaluated, not the test itself", "source": "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf" },
+    { "claim": "TEQSA: examples of external referencing include peer review, moderation, professional accreditation and industry feedback", "source": "https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-academic-monitoring-review-and-improvement" }
+  ]
+}

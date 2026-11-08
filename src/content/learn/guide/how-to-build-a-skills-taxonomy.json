@@ -1,0 +1,224 @@
+{
+  "slug": "how-to-build-a-skills-taxonomy",
+  "kind": "guide",
+  "title": "How do you build a skills taxonomy for an organization?",
+  "seoTitle": "How to build a skills taxonomy",
+  "description": "How to build a skills taxonomy: set its purpose, reuse ESCO, SFIA or national frameworks, define skills and levels, map roles, and govern change.",
+  "shortAnswer": "An organizational skills taxonomy is built by fixing what it is for, adopting a public reference framework such as ESCO, SFIA or a national skills taxonomy as the backbone, adding only the organization-specific skills the reference lacks, writing one clear definition and identifier per skill, attaching a proficiency scale, mapping skills to roles and training, and putting an owner and change process in place before launch.",
+  "keyTakeaways": [
+    "Decide the use first. A taxonomy for workforce planning, one for compliance training and one for internal mobility need different depth.",
+    "Reuse before you write. ESCO, SFIA and national frameworks give tested definitions and identifiers that keep your taxonomy interoperable.",
+    "Each skill needs a stable identifier, a definition, a type and a parent. A label alone is not a skill entry.",
+    "Proficiency levels belong on the link between a skill and a role or person, not on the skill itself.",
+    "Without an owner and a change process, a skills taxonomy decays within a year."
+  ],
+  "sections": [
+    {
+      "id": "what-it-is",
+      "heading": "What is a skills taxonomy and what is it for?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A skills taxonomy is a structured list of skills organized into categories, with a definition for each, used as a common language across hiring, learning, workforce planning and compliance. The World Economic Forum's Global Skills Taxonomy Adoption Toolkit describes a skills taxonomy as organizing skills into categories or clusters based on their definitions, and notes that structure and detail vary by intended use ([World Economic Forum](https://www3.weforum.org/docs/WEF_Global_Skills_Taxonomy_Adoption_Toolkit_2025.pdf)). For the term itself, see the [skills taxonomy glossary entry](/glossary/skills-taxonomy)."
+        },
+        {
+          "type": "p",
+          "text": "In regulated organizations the taxonomy does a specific job: it lets the training matrix, the competency framework, the assessment bank and the learning record refer to the same skill by the same identifier. Without that, a regulator's question such as which people currently hold the skill this procedure depends on cannot be answered reliably."
+        }
+      ]
+    },
+    {
+      "id": "reference-frameworks",
+      "heading": "Which public frameworks can a skills taxonomy reuse?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most organizations should anchor their taxonomy to at least one public framework rather than write every skill from scratch. The four below are widely used reference points, each suited to a different need."
+        },
+        {
+          "type": "table",
+          "caption": "Public reference frameworks for an organizational skills taxonomy",
+          "head": ["Framework", "Publisher", "What it provides", "Best used for"],
+          "rows": [
+            ["ESCO (European Skills, Competences, Qualifications and Occupations)", "European Commission", "A multilingual classification of occupations and skills; the skills pillar lists 13,939 skills in four sub-classifications, in 28 languages, with each concept identified by a URI and published as Linked Open Data", "Broad cross-sector coverage; EU workforces; machine-readable identifiers"],
+            ["National Skills Taxonomy (NST)", "Jobs and Skills Australia (JSA)", "An evidence-based framework providing a common language for skills across education and employment, described as interoperable by design; still in development and consultation", "An example of a national framework to track and align with as it matures"],
+            ["SFIA (Skills Framework for the Information Age)", "SFIA Foundation", "Professional skills for digital and technology work with seven levels of responsibility and generic attributes; SFIA 9 published 30 October 2024", "Technology, data, security and digital roles"],
+            ["Global Skills Taxonomy and adoption toolkit", "World Economic Forum", "Guidance on adopting a shared taxonomy, with key properties (dynamic, comprehensive, interoperable, accessible, customizable, granular) and phased adoption including governance", "Design principles and governance, not a list to copy"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Sources: [ESCO skills pillar](https://esco.ec.europa.eu/en/classification/skill), [Use ESCO](https://esco.ec.europa.eu/en/use-esco), [JSA National Skills Taxonomy](https://www.jobsandskills.gov.au/data/national-skills-taxonomy), [How SFIA works](https://sfia-online.org/en/about-sfia/how-sfia-works), [SFIA 9 release notes](https://sfia-online.org/en/sfia-9/sfia-9-release-notes), [WEF toolkit](https://www3.weforum.org/docs/WEF_Global_Skills_Taxonomy_Adoption_Toolkit_2025.pdf). Check the version you adopt: ESCO's skills pillar page lists version 1.2.1, and the SFIA site shows SFIA 10 in consultation."
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "heading": "What are the steps to build a skills taxonomy?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Build the taxonomy in eight steps. Steps one and eight matter most and are the ones most often skipped."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Fix the purpose and scope.** Write down the decisions the taxonomy must support (for example, training assignment for regulated roles, internal mobility, workforce planning) and the parts of the workforce in scope. Purpose sets the depth: compliance use needs task-level precision; workforce planning can work with broader clusters.",
+            "**Choose a backbone.** Adopt one public framework as the primary reference for structure and identifiers, and record which version. Use others only where the backbone has gaps, such as SFIA for technology roles alongside ESCO.",
+            "**Inventory what you already have.** Collect skills and competencies from job descriptions, the training matrix, competency frameworks, procedures and licensing requirements. Expect duplicates and synonyms.",
+            "**Map, then add.** Map each inventory item to a reference skill. Only create an organization-specific skill where nothing in the reference fits, typically for proprietary systems, internal procedures or local regulatory tasks.",
+            "**Write the entries.** Give each skill a stable identifier, a preferred label, alternative labels, a one-sentence definition, a type (knowledge, skill, transversal) and a parent category. ESCO's skills pillar uses a similar separation into knowledge, skills, transversal skills and language skills and knowledge.",
+            "**Attach a proficiency scale.** Choose one scale for the organization, or adopt a published one such as SFIA's seven levels for technology roles. Apply levels when linking skills to roles and people. See [proficiency scale](/glossary/proficiency-scale).",
+            "**Map to roles, training and assessment.** Link each role to its required skills and levels, then link each skill to the training and assessment that develop and evidence it. This is where the taxonomy connects to the [competency framework](/guides/how-to-build-a-competency-framework) and the [training matrix](/guides/how-to-build-a-training-matrix).",
+            "**Set governance before launch.** Name an owner, a change request route, a review cycle and versioning rules. The WEF toolkit includes setting up governance mechanisms for long-term sustainability as a phase of adoption."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entry-template",
+      "heading": "What does a skills taxonomy entry look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A good entry is short, unambiguous and linked. The template below shows the minimum fields, with an illustrative entry for an organization-specific skill mapped to a reference concept."
+        },
+        {
+          "type": "table",
+          "caption": "Skills taxonomy entry template (illustrative)",
+          "head": ["Field", "Guidance", "Example (illustrative)"],
+          "rows": [
+            ["Identifier", "Stable, never reused, independent of the label", "SK-ORG-0217"],
+            ["Preferred label", "Verb and object where possible", "Perform lockout and isolation on packaging line equipment"],
+            ["Alternative labels", "Synonyms people actually search for", "LOTO; energy isolation"],
+            ["Definition", "One sentence; what the skill enables, not how it is trained", "Isolate and verify zero energy on packaging line equipment before maintenance, following the site isolation procedure."],
+            ["Type", "Knowledge, skill or transversal", "Skill"],
+            ["Parent", "Category in the taxonomy hierarchy", "Equipment safety"],
+            ["Reference mapping", "Closest concept in the backbone framework, with match type", "Narrower than a general ESCO isolation or safety skill (link by URI)"],
+            ["Source requirement", "Procedure, standard or regulation that creates the need", "Site isolation procedure SP-12 v4"],
+            ["Owner", "Person accountable for the definition", "Site engineering manager"],
+            ["Version and review date", "Change history and next review", "v2; review 2027-06"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The reference mapping field records whether your skill is an exact match, broader or narrower than the reference concept. That makes it possible to report against the public framework later without rebuilding."
+        }
+      ]
+    },
+    {
+      "id": "taxonomy-vs-framework",
+      "heading": "How is a skills taxonomy different from a competency framework?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A skills taxonomy is the vocabulary; a competency framework says which skills, at which level, a given role needs and how competence is shown. The taxonomy lists and defines skills once for the whole organization. The framework selects from it, adds performance criteria and behaviors, and links to assessment. A related distinction is the [skills taxonomy vs skills ontology](/compare/skills-taxonomy-vs-skills-ontology): a taxonomy is a hierarchy of categories, while an ontology adds typed relationships such as requires, is essential for or is optional for, which ESCO exposes for occupations and skills."
+        }
+      ]
+    },
+    {
+      "id": "failure-modes",
+      "heading": "Why do skills taxonomies fail?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Skills taxonomies usually fail from lack of purpose or lack of ownership, not from poor initial content."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Too granular to maintain.** Thousands of organization-written skills nobody can keep current. Reuse the reference and add sparingly.",
+            "**Labels without definitions.** Two teams read 'risk management' differently and map different training to it.",
+            "**Levels baked into skill names.** 'Advanced Excel' and 'Basic Excel' as separate skills break reporting. Keep one skill and apply levels on the link.",
+            "**No link to evidence.** A taxonomy that is not connected to assessment can say who claims a skill, not who has demonstrated it.",
+            "**Frozen at launch.** No change process, so new regulations, systems and roles are never added. Treat it like any [controlled document](/glossary/document-control)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry models skills, concepts and obligations as connected entities with stable identifiers, so a skill can be traced to the requirement that creates it and to the assessment that evidences it. Mappings to public frameworks are recorded as relationships rather than copied labels."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should we buy a skills taxonomy or build our own?",
+      "a": "Most organizations do both: adopt a public framework as the backbone and extend it with organization-specific skills. Public frameworks such as ESCO give tested definitions and stable identifiers. Writing everything in-house costs more and makes it harder to compare or exchange data later."
+    },
+    {
+      "q": "How many skills should an organizational taxonomy contain?",
+      "a": "As many as the stated purpose needs and the owner can maintain. A compliance-focused taxonomy may need precise entries for a few hundred regulated tasks, while broader categories cover everything else. Count is a poor target; coverage of the decisions the taxonomy supports is a better one."
+    },
+    {
+      "q": "Is ESCO suitable for organizations outside the EU?",
+      "a": "It can be. ESCO is multilingual, broad and published as Linked Open Data with stable URIs, which makes it usable as a reference anywhere. Organizations in other markets often map to ESCO and to their national framework, recording both mappings on each skill entry."
+    },
+    {
+      "q": "How often should a skills taxonomy be reviewed?",
+      "a": "Set a scheduled review, commonly annual, plus event triggers: new regulations, new systems, new roles, and new versions of the reference framework you adopted. Each review should be versioned so historical training and assessment records still point to the skill definition that applied at the time."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ESCO classification: Skills",
+      "publisher": "European Commission",
+      "url": "https://esco.ec.europa.eu/en/classification/skill"
+    },
+    {
+      "title": "Use ESCO",
+      "publisher": "European Commission",
+      "url": "https://esco.ec.europa.eu/en/use-esco"
+    },
+    {
+      "title": "National Skills Taxonomy",
+      "publisher": "Jobs and Skills Australia",
+      "url": "https://www.jobsandskills.gov.au/data/national-skills-taxonomy"
+    },
+    {
+      "title": "How SFIA works",
+      "publisher": "SFIA Foundation",
+      "url": "https://sfia-online.org/en/about-sfia/how-sfia-works"
+    },
+    {
+      "title": "SFIA 9 release notes",
+      "publisher": "SFIA Foundation",
+      "url": "https://sfia-online.org/en/sfia-9/sfia-9-release-notes"
+    },
+    {
+      "title": "Global Skills Taxonomy Adoption Toolkit (January 2025)",
+      "publisher": "World Economic Forum",
+      "url": "https://www3.weforum.org/docs/WEF_Global_Skills_Taxonomy_Adoption_Toolkit_2025.pdf"
+    }
+  ],
+  "related": [
+    "skills-taxonomy",
+    "skills-taxonomy-vs-skills-ontology",
+    "how-to-build-a-competency-framework",
+    "proficiency-scale",
+    "competency-framework-vs-skills-framework",
+    "skills-based-organization"
+  ],
+  "productLinks": [
+    { "label": "Framework intelligence", "href": "/platform/framework-intelligence" },
+    { "label": "Knowledge governance", "href": "/platform/knowledge-governance" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "WEF toolkit (January 2025): a skills taxonomy organizes skills into categories or clusters based on their definitions; structure and detail vary by intended use; key properties dynamic, comprehensive, interoperable, accessible, customizable, granular; phase on governance mechanisms for long-term sustainability", "source": "https://www3.weforum.org/docs/WEF_Global_Skills_Taxonomy_Adoption_Toolkit_2025.pdf" },
+    { "claim": "ESCO skills pillar: 13,939 skills; four sub-classifications (knowledge, language skills and knowledge, skills, transversal skills); 28 languages; version 1.2.1", "source": "https://esco.ec.europa.eu/en/classification/skill" },
+    { "claim": "ESCO published as Linked Open Data; each occupation, knowledge, skill and competence identified by a URI", "source": "https://esco.ec.europa.eu/en/use-esco" },
+    { "claim": "ESCO API exposes isEssentialForOccupation and isOptionalForOccupation relations for skills", "source": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba&language=en" },
+    { "claim": "JSA: NST is a new, evidence-based framework providing a common language for skills across education and employment; interoperable by design; discussion paper June 2024; Skills First paper 30 October 2025; newsletters August and October 2026 (fetched 2026-11-08)", "source": "https://www.jobsandskills.gov.au/data/national-skills-taxonomy" },
+    { "claim": "SFIA: seven levels of responsibility with generic attributes", "source": "https://sfia-online.org/en/about-sfia/how-sfia-works" },
+    { "claim": "SFIA 9 published 30 October 2024; SFIA 10 shown in consultation", "source": "https://sfia-online.org/en/sfia-9/sfia-9-release-notes" }
+  ]
+}

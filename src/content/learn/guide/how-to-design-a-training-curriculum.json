@@ -1,0 +1,208 @@
+{
+  "slug": "how-to-design-a-training-curriculum",
+  "kind": "guide",
+  "title": "How do you design a training curriculum?",
+  "seoTitle": "How to design a training curriculum",
+  "description": "How to design a training curriculum with backward design: start from results, define evidence, sequence modules, map coverage, and set review cycles.",
+  "shortAnswer": "A training curriculum is designed backward: start from the performance results the organization needs and the obligations it must meet, define the competencies and outcomes that produce those results, decide what evidence will show each outcome has been achieved, then sequence modules and learning activities to build toward that evidence, map coverage to confirm nothing is missing or duplicated, and set owners and review triggers so the curriculum stays current.",
+  "keyTakeaways": [
+    "A curriculum is the planned set of outcomes, content, sequence, assessment and pathways for a role or program, not a list of courses.",
+    "Use backward design: results first, evidence second, learning activities last.",
+    "Separate what people must master from what they only need to be familiar with. Most overloaded curricula fail this test.",
+    "Sequence by dependency and risk: prerequisites before applications, safety-critical content before independent work.",
+    "Map the curriculum to outcomes and obligations, and version it like any controlled document."
+  ],
+  "sections": [
+    {
+      "id": "what-a-curriculum-is",
+      "heading": "What is a training curriculum?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A training curriculum is the structured plan that defines what a group of people must learn, in what order, how they will learn it, and how achievement will be shown, for a role, function or program. It sits above individual courses. A course teaches a topic; a curriculum decides which topics, at what depth, for whom, in which sequence, and with what evidence of competence at the end."
+        },
+        {
+          "type": "p",
+          "text": "In workplace and regulated settings, a curriculum is also the main link between people development and the organization's management system. ISO 10015:2019 gives guidelines for an organization to establish, implement, maintain and improve systems for competence management and people development, and states that it does not add to or change the requirements of the ISO 9000 family ([ISO](https://www.iso.org/standard/69459.html)). A curriculum is one practical output of such a system: the documented route from a competence requirement to evidence that it has been met."
+        }
+      ]
+    },
+    {
+      "id": "backward-design",
+      "heading": "Why should a curriculum be designed backward?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Design backward because a curriculum built from content tends to cover topics without producing performance. The Vanderbilt University Center for Teaching guide to Understanding by Design contrasts typical forward design, where activities and assessments come first and connections to goals are drawn afterward, with backward design, where learning goals come first, assessment second, and teaching third ([Vanderbilt University Center for Teaching](https://web.archive.org/web/20240104180643/https://cft.vanderbilt.edu/guides-sub-pages/understanding-by-design/)). The framework comes from Wiggins and McTighe's Understanding by Design ([ERIC](https://eric.ed.gov/?id=ED424227)); see [backward design](/glossary/backward-design)."
+        },
+        {
+          "type": "p",
+          "text": "Training evaluation reaches the same conclusion from the other end. Kirkpatrick Partners says it is critical to start with Level 4, results, and describes planning from Level 4 to Level 1, starting with outcomes and working backward to design for them ([Kirkpatrick Partners](https://www.kirkpatrickpartners.com/the-kirkpatrick-model/)). If the curriculum is not designed from the results, there is nothing meaningful to evaluate later."
+        },
+        {
+          "type": "p",
+          "text": "Backward design also gives a test for scope. The Vanderbilt guide describes three priority levels from Wiggins and McTighe: knowledge worth being familiar with, knowledge and skills important to know and do, and enduring understandings. In workplace terms: what people can look up, what they must be able to do unaided, and what they must never get wrong."
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "heading": "What are the steps to design a training curriculum?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Design the curriculum in eight steps. The first four happen before any content is selected."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Define the results and obligations.** State the performance results the curriculum must support and list the regulatory, contractual and internal requirements it must satisfy. A [training needs analysis](/guides/how-to-conduct-a-training-needs-analysis) and a [job task analysis](/guides/how-to-conduct-a-job-task-analysis) provide most of this input.",
+            "**Define the competencies and outcomes.** Translate results and obligations into competencies for each role, then into [measurable learning outcomes](/guides/how-to-write-measurable-learning-outcomes). Mark which outcomes are critical.",
+            "**Set priorities.** Sort outcomes into must master, must be able to do with support, and familiarity only. Familiarity items become job aids or reference material, not training time.",
+            "**Define the evidence.** For each outcome decide what evidence will show it has been achieved: a scored test, a work product, an observation, a simulation. Write the [assessment blueprint](/guides/how-to-create-an-assessment-blueprint) now, before content.",
+            "**Group into modules and pathways.** Cluster outcomes into modules that can be completed and assessed as units. Define pathways for roles that share modules, and entry points for people with prior learning.",
+            "**Sequence.** Order modules by dependency (concepts before procedures, procedures before judgment), by risk (safety-critical and legally required content before independent work) and by time (what must be in place by day one, by the end of probation, by the first audit).",
+            "**Choose methods.** Select delivery and practice methods that can produce the defined evidence: instructor-led practice, supervised on-the-job tasks, simulation, e-learning for knowledge. Method follows evidence.",
+            "**Map, approve and version.** Build a [curriculum map](/guides/how-to-build-a-curriculum-map) of outcomes against modules and assessments, check for gaps and duplication, get approval from the content owner and compliance, and issue the curriculum as a versioned document with a review date."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curriculum-template",
+      "heading": "What should a curriculum document contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A curriculum document should let anyone see what is required, why, in what order, and how it is evidenced, without opening the courses. Use the template below."
+        },
+        {
+          "type": "table",
+          "caption": "Training curriculum document template (illustrative)",
+          "head": ["Section", "Contents", "Example entry (illustrative)"],
+          "rows": [
+            ["Purpose and scope", "Roles covered, results supported, exclusions", "New claims handlers, first 90 days; excludes team leaders"],
+            ["Requirements basis", "Obligations and standards the curriculum satisfies, with versions", "Complaints handling procedure v6; privacy policy v3; code of practice clauses"],
+            ["Competencies and outcomes", "Outcome list with critical flags and priority level", "LO3 (critical): Identify a complaint and log it within one business day"],
+            ["Modules and pathways", "Modules, prerequisites, pathways by role, recognition of prior learning", "M1 Foundations; M2 Complaints; M3 Systems; M4 Supervised casework"],
+            ["Sequence and timing", "Order and deadlines tied to work milestones", "M1 and M2 before taking calls; M4 complete before independent sign-off"],
+            ["Assessment plan", "Method and decision rule per outcome", "LO3: observed live call plus case file review; must be met"],
+            ["Delivery methods", "Method per module and rationale", "M2: scenario workshop; M3: system sandbox"],
+            ["Evaluation plan", "How results and behavior change will be checked", "Complaint logging timeliness reviewed at 30 and 90 days"],
+            ["Ownership and review", "Owner, approvers, review cycle, change triggers", "Owner: claims training lead; review annually or on procedure change"],
+            ["Version history", "What changed and why", "v2: added vulnerable customer outcome after procedure update"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sequencing",
+      "heading": "How do you sequence modules in a curriculum?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Sequence modules so that every module's prerequisites come earlier and every high-risk task is trained and assessed before the person does it alone. Three rules cover most cases."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Dependency.** If outcome B cannot be performed without understanding A, A comes first. Draw the dependencies before ordering.",
+            "**Risk and legal timing.** Content that a regulation requires before work starts, or that protects people from serious harm, goes first regardless of logical elegance. See [how to structure onboarding for regulated roles](/guides/how-to-structure-onboarding-for-regulated-roles).",
+            "**Spacing and practice.** Revisit critical outcomes across modules rather than teaching them once. Later modules should require earlier skills in new contexts."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Where the curriculum is delivered by an external provider, check that the provider can show how learning goals are defined and services evaluated. ISO 29993:2017 specifies requirements for learning services outside formal education, including in-company training, outsourced or in house ([ISO](https://www.iso.org/standard/70357.html))."
+        }
+      ]
+    },
+    {
+      "id": "keeping-current",
+      "heading": "How do you keep a curriculum current?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Keep a curriculum current by linking each outcome to the source requirement it depends on and reviewing the affected parts whenever that source changes, plus a scheduled full review. A curriculum that is only reviewed on a calendar will lag regulation and procedure changes. The [regulatory change guide](/guides/how-to-update-training-when-regulations-change) covers the trigger process; the curriculum's job is to make the impact visible through its mapping."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry builds the curriculum structure first: obligations, concepts, outcomes and assessment points, with their dependencies, before any module content is written. Because each module is linked to the outcomes and sources it serves, a change to a source identifies the modules and assessments that need review."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between a curriculum and a training program?",
+      "a": "The terms overlap. A curriculum usually means the designed plan of outcomes, content, sequence and assessment. A training program usually means the operational delivery of that plan, including scheduling, enrollment, trainers and records. One curriculum can be delivered through several programs in different sites or markets."
+    },
+    {
+      "q": "What is the difference between a curriculum and a curriculum map?",
+      "a": "The curriculum is the plan itself. The curriculum map is a matrix that shows how the plan's outcomes are covered by modules and assessments, used to find gaps, duplication and misalignment. Build the map as the last step of design and update it whenever the curriculum changes."
+    },
+    {
+      "q": "Does ISO 10015 require a curriculum?",
+      "a": "No. ISO 10015:2019 is a guidelines standard for competence management and people development and does not add requirements to the ISO 9000 family. A documented curriculum is simply a practical way to show that competence needs have been determined and addressed, which management system standards such as ISO 9001 do require in their competence clauses."
+    },
+    {
+      "q": "How long does it take to design a curriculum?",
+      "a": "It depends on the number of roles, outcomes and existing materials. The analysis and outcome steps usually take longer than expected and save more time than any other step. For estimating content effort once the curriculum is set, see the guide on estimating development time and cost."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Understanding by Design (Bowen, 2017), archived copy",
+      "publisher": "Vanderbilt University Center for Teaching (via Internet Archive)",
+      "url": "https://web.archive.org/web/20240104180643/https://cft.vanderbilt.edu/guides-sub-pages/understanding-by-design/"
+    },
+    {
+      "title": "Understanding by Design (Wiggins and McTighe, ASCD, 1998)",
+      "publisher": "ERIC, Institute of Education Sciences",
+      "url": "https://eric.ed.gov/?id=ED424227"
+    },
+    {
+      "title": "ISO 10015:2019 Quality management: Guidelines for competence management and people development",
+      "publisher": "International Organization for Standardization (ISO)",
+      "url": "https://www.iso.org/standard/69459.html"
+    },
+    {
+      "title": "ISO 29993:2017 Learning services outside formal education: Service requirements",
+      "publisher": "International Organization for Standardization (ISO)",
+      "url": "https://www.iso.org/standard/70357.html"
+    },
+    {
+      "title": "The Kirkpatrick Model",
+      "publisher": "Kirkpatrick Partners",
+      "url": "https://www.kirkpatrickpartners.com/the-kirkpatrick-model/"
+    }
+  ],
+  "related": [
+    "how-to-build-a-curriculum-map",
+    "backward-design",
+    "how-to-write-measurable-learning-outcomes",
+    "how-to-conduct-a-training-needs-analysis",
+    "curriculum-mapping",
+    "how-to-design-a-compliance-training-program"
+  ],
+  "productLinks": [
+    { "label": "Framework intelligence", "href": "/platform/framework-intelligence" },
+    { "label": "Knowledge transformation", "href": "/platform/knowledge-transformation" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "ISO 10015:2019 gives guidelines to establish, implement, maintain and improve systems for competence management and people development; does not add to, change or modify ISO 9000 family requirements; last reviewed and confirmed in 2025 (fetched 2026-11-08)", "source": "https://www.iso.org/standard/69459.html" },
+    { "claim": "Vanderbilt CFT: forward design considers activities and assessments first; backward design considers learning goals first, assessment second, then how to teach; three priority levels: worth being familiar with, important to know and do, enduring understandings (fetched 2026-11-08)", "source": "https://web.archive.org/web/20240104180643/https://cft.vanderbilt.edu/guides-sub-pages/understanding-by-design/" },
+    { "claim": "Understanding by Design, Wiggins and McTighe, ASCD, 1998", "source": "https://eric.ed.gov/?id=ED424227" },
+    { "claim": "Kirkpatrick Partners: critical to start with Level 4 Results; planning from Level 4 to Level 1, starting with outcomes and working backward", "source": "https://www.kirkpatrickpartners.com/the-kirkpatrick-model/" },
+    { "claim": "ISO 29993:2017 specifies requirements for learning services outside formal education, including in-company training, outsourced or in house, where learning goals are defined and services evaluated", "source": "https://www.iso.org/standard/70357.html" }
+  ]
+}

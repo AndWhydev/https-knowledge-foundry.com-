@@ -1,0 +1,208 @@
+{
+  "slug": "how-to-choose-learning-and-development-metrics",
+  "kind": "guide",
+  "title": "How do you choose learning and development metrics?",
+  "seoTitle": "How to choose L&D metrics",
+  "description": "How to choose L&D metrics: start from the user and the reason to measure, balance efficiency, effectiveness and outcomes, and report by audience.",
+  "shortAnswer": "Learning and development metrics are chosen by first naming who will use them and why, then selecting a small, balanced set across efficiency (volume and cost), effectiveness (learning and behavior) and outcome (business or compliance results), defining each metric precisely with a data source and owner, and reporting different views to different audiences, as ISO/TS 30437:2023 recommends, instead of tracking everything that the learning system can count.",
+  "keyTakeaways": [
+    "Start from the user and the decision, not from the data available. Boards, regulators, L&D managers and line managers need different metrics.",
+    "Balance the set. Efficiency metrics alone reward volume; outcome metrics alone cannot be managed week to week.",
+    "Completion rates are evidence of attendance, not competence. Pair them with assessment and behavior measures.",
+    "Define every metric: formula, data source, owner, frequency and target. An undefined metric will be calculated three different ways.",
+    "ISO/TS 30437:2023 gives a public framework of users, reasons to measure, metric types and 50 recommended metrics."
+  ],
+  "sections": [
+    {
+      "id": "why-metrics-go-wrong",
+      "heading": "Why do learning and development metrics often fail?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "L&D metrics usually fail because they measure what the learning system records easily (enrollments, completions, hours) rather than what the organization needs to know (whether people can do the work and whether risk has fallen). A dashboard of activity can look healthy while competence gaps persist."
+        },
+        {
+          "type": "p",
+          "text": "Regulators and prosecutors increasingly ask about effectiveness, not activity. The US Department of Justice (DOJ) Evaluation of Corporate Compliance Programs, used here as an example, asks how the company has measured the effectiveness of its training, whether it has evaluated whether employees learned the covered subject matter, and the extent to which training has an impact on employee behavior or operations ([DOJ ECCP, September 2024](https://www.justice.gov/media/1160391/dl?inline)). A metric set that cannot answer those questions is incomplete for any compliance program."
+        }
+      ]
+    },
+    {
+      "id": "iso-frameworks",
+      "heading": "What do ISO/TS 30437 and ISO 30414 say about L&D metrics?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ISO/TS 30437:2023 is the ISO technical specification dedicated to L&D metrics. Its published abstract says that, because the choice of metrics depends on the reason to measure and the user, and because a balanced set avoids unintended consequences, it begins with a framework of five categories of users, four broad reasons to measure and three types of metrics. It then recommends 50 metrics organized by user, type and organization size, and gives guidance on reporting ([ISO](https://www.iso.org/standard/68714.html)). The abstract says it covers formal and informal learning and is intended for all types and sizes of organization."
+        },
+        {
+          "type": "p",
+          "text": "ISO 30414 sits one level up, covering human capital reporting. The 2018 edition provided guidelines for internal and external human capital reporting, with core areas that included compliance and ethics, costs, productivity, skills and capabilities, and succession planning ([ISO](https://www.iso.org/standard/69338.html)). The 2018 edition is now withdrawn, and iso.org lists ISO 30414:2025 as the new version; check the current edition's structure before aligning your reporting to it. In practice, ISO/TS 30437 helps choose L&D metrics, and ISO 30414 helps decide which of them belong in organization-wide human capital reporting."
+        },
+        {
+          "type": "p",
+          "text": "Both documents are guidance, not certifiable requirements, and both are paywalled. The framework below follows the logic described in the public abstracts and uses plain category names rather than the standards' own wording."
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "heading": "What are the steps to choose L&D metrics?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Choose metrics in six steps, starting from users and decisions."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**List the users.** Typical users are the board or executive, regulators and auditors, L&D leadership, program owners and line managers. Write down who will read each report.",
+            "**State the reason to measure.** For each user, decide whether the metric will inform a decision, monitor a program, evaluate whether it worked, or demonstrate compliance to someone else. Different reasons need different metrics and different precision.",
+            "**Select across three types.** Choose a few efficiency metrics (volume, speed, cost), effectiveness metrics (assessment results, behavior on the job, quality) and outcome metrics (the business, risk or compliance result the training supports). The [Kirkpatrick model](/glossary/kirkpatrick-model) levels map onto these: reaction and learning are mostly effectiveness inputs; behavior and results are effectiveness and outcome.",
+            "**Define each metric.** Write the formula, numerator and denominator, data source, owner, frequency, target and the action a red result triggers.",
+            "**Test for perverse incentives.** For each metric, ask how someone could improve the number without improving competence. Pair metrics to block it: completion rate with first-attempt pass rate, time to complete with post-training error rate.",
+            "**Design the reports.** Give each user a view sized to their decisions. Boards need few, stable metrics with trend and exceptions; program owners need detail. See [how to report training compliance to the board](/guides/how-to-report-training-compliance-to-the-board)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metric-menu",
+      "heading": "Which L&D metrics are worth tracking?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The metrics worth tracking are the ones tied to a named user and decision. The menu below is a starting point for regulated organizations, organized by type. It is an editorial selection, not the ISO/TS 30437 list."
+        },
+        {
+          "type": "table",
+          "caption": "L&D metric menu for regulated organizations (illustrative)",
+          "head": ["Metric", "Type", "Definition", "Primary user", "Pair with"],
+          "rows": [
+            ["Mandatory training currency", "Efficiency", "People in scope with all required training current, divided by people in scope", "Board, regulator", "Competence verification rate"],
+            ["Overdue critical training", "Efficiency", "Count and age of overdue items for safety-critical or licensed roles", "Line managers, compliance", "Restrictions applied to overdue staff"],
+            ["Time to competence", "Efficiency", "Days from start to sign-off as competent for a role", "Operations, L&D", "Early-tenure error or incident rate"],
+            ["Cost per competent person", "Efficiency", "Program cost divided by people verified competent", "L&D leadership", "Pass rate and quality measures"],
+            ["First-attempt pass rate", "Effectiveness", "Candidates passing the assessment first time, by outcome", "Program owner", "Item and assessment validation results"],
+            ["Competence verification rate", "Effectiveness", "Required competencies verified by observation or work product, not just completion", "Compliance, auditors", "Mandatory training currency"],
+            ["Behavior transfer", "Effectiveness", "Observed use of trained behavior at 30 to 90 days, by sample", "Program owner, line managers", "Outcome metric for the same risk"],
+            ["Risk outcome trend", "Outcome", "Incidents, breaches, complaints or audit findings in the area the training addresses", "Board, risk", "Training coverage in that area"],
+            ["Findings closed by training", "Outcome", "Audit or corrective action findings closed with verified training effectiveness", "Quality, compliance", "Recurrence of the same finding"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Most organizations need eight to fifteen metrics in active use. ISO/TS 30437 recommends 50 across all users and organization sizes; the point of its framework is to select from them, not to report them all."
+        }
+      ]
+    },
+    {
+      "id": "definition-card",
+      "heading": "How should each metric be defined?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each metric needs a written definition card so that it is calculated the same way every period. Use these fields."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Name and purpose:** what decision it supports and for whom.",
+            "**Formula:** numerator, denominator and exclusions (for example, people on extended leave).",
+            "**Data source:** the system of record and the extraction rule.",
+            "**Owner:** the person accountable for accuracy and for acting on it.",
+            "**Frequency and lag:** how often it is reported and how stale the data may be.",
+            "**Target and thresholds:** green, amber and red, with the reason for each.",
+            "**Action on red:** what happens, by whom, by when.",
+            "**Known limitations:** for example, small samples or self-reported data."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Keep the definitions with the evidence. When a regulator or auditor asks how a figure was produced, the definition card and the underlying [training records](/guides/how-to-prepare-training-records-for-an-audit) are the answer."
+        }
+      ]
+    },
+    {
+      "id": "effectiveness-measures",
+      "heading": "How do you measure effectiveness rather than activity?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Measure effectiveness by checking whether people can perform to the standard and whether the targeted result moved, using assessment evidence, on-the-job observation and outcome data rather than completions. Plan these measures when the training is designed: Kirkpatrick Partners says it is critical to start with Level 4, results, and to plan backward from it ([Kirkpatrick Partners](https://www.kirkpatrickpartners.com/the-kirkpatrick-model/)). For a step-by-step method, see [how to measure training effectiveness](/guides/how-to-measure-training-effectiveness)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each outcome and assessment point to the obligation it serves, so metrics can be reported by obligation, role and competence rather than by course. That makes it possible to show which requirements are evidenced by verified competence and which only by completion."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is completion rate a useful L&D metric?",
+      "a": "It is useful for one thing: showing that required training reached the people in scope. It says nothing about whether they learned or changed behavior. Report it, but always alongside an assessment or behavior measure, and never as the only evidence of effectiveness."
+    },
+    {
+      "q": "What is the difference between ISO/TS 30437 and ISO 30414?",
+      "a": "ISO/TS 30437:2023 is a technical specification on learning and development metrics, with a framework of users, reasons and metric types and 50 recommended metrics. ISO 30414 gives guidelines for human capital reporting across the whole workforce, including skills and capabilities. The first helps choose L&D metrics; the second helps decide what to report organization-wide."
+    },
+    {
+      "q": "How many L&D metrics should a board see?",
+      "a": "Few: typically three to six, stable over time, with trends and exceptions. A board needs to know whether mandatory training is current, whether competence in high-risk roles is verified, and whether risk outcomes in trained areas are improving. Detail belongs in management reports."
+    },
+    {
+      "q": "Can ROI be an L&D metric?",
+      "a": "Yes, for specific programs where costs and benefits can be estimated credibly, but it is a poor routine metric. Use it for investment decisions on large programs and keep a balanced set of efficiency, effectiveness and outcome metrics for ongoing management."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ISO/TS 30437:2023 Human resource management: Learning and development metrics",
+      "publisher": "International Organization for Standardization (ISO)",
+      "url": "https://www.iso.org/standard/68714.html"
+    },
+    {
+      "title": "ISO 30414:2018 Human resource management: Guidelines for internal and external human capital reporting (withdrawn; replaced by ISO 30414:2025)",
+      "publisher": "International Organization for Standardization (ISO)",
+      "url": "https://www.iso.org/standard/69338.html"
+    },
+    {
+      "title": "Evaluation of Corporate Compliance Programs (Updated September 2024)",
+      "publisher": "US Department of Justice, Criminal Division",
+      "url": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "title": "The Kirkpatrick Model",
+      "publisher": "Kirkpatrick Partners",
+      "url": "https://www.kirkpatrickpartners.com/the-kirkpatrick-model/"
+    }
+  ],
+  "related": [
+    "how-to-measure-training-effectiveness",
+    "how-to-report-training-compliance-to-the-board",
+    "kirkpatrick-model",
+    "how-to-calculate-the-roi-of-compliance-training",
+    "how-to-evidence-training-effectiveness-to-a-regulator",
+    "completion-tracking-vs-competency-verification"
+  ],
+  "productLinks": [
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" },
+    { "label": "Gap analysis", "href": "/platform/gap-analysis" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "ISO/TS 30437:2023 abstract: framework of five categories of users, four broad reasons to measure and three types of metrics; recommends 50 metrics organized by user, type and organization size; guidance on reporting; formal and informal learning; all types and sizes of organization (fetched 2026-11-08)", "source": "https://www.iso.org/standard/68714.html" },
+    { "claim": "ISO 30414:2018 guidelines for internal and external human capital reporting; core areas include compliance and ethics, costs, productivity, skills and capabilities, succession planning; status withdrawn; new version ISO 30414:2025 (fetched 2026-11-08; the 2025 page returned 403)", "source": "https://www.iso.org/standard/69338.html" },
+    { "claim": "ECCP asks how the company measured training effectiveness, whether employees learned the subject matter, and the extent training has an impact on employee behavior or operations (fetched 2026-11-08)", "source": "https://www.justice.gov/media/1160391/dl?inline" },
+    { "claim": "Kirkpatrick Partners: critical to start with Level 4 Results and plan backward", "source": "https://www.kirkpatrickpartners.com/the-kirkpatrick-model/" }
+  ]
+}

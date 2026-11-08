@@ -1,0 +1,211 @@
+{
+  "slug": "how-to-manage-the-policy-lifecycle",
+  "kind": "guide",
+  "title": "How do you manage the policy lifecycle?",
+  "seoTitle": "How to manage the policy lifecycle",
+  "description": "How to manage the policy lifecycle: draft, approve, publish, attest, train, review and retire, with evidence at each stage and ISO 37301 and DOJ links.",
+  "shortAnswer": "The policy lifecycle is managed as seven controlled stages: draft against identified obligations and risks, approve by the authorized owner, publish in a searchable, versioned location, obtain attestation from the people in scope, train those whose work the policy changes, review on a schedule and whenever obligations, risks or incidents change, and retire with a record of what replaced it, with evidence kept at every stage.",
+  "keyTakeaways": [
+    "A policy is a controlled document with a lifecycle, not a file on an intranet. Each stage needs an owner, a trigger and evidence.",
+    "Attestation shows a person received and acknowledged a policy. Training and assessment show they can apply it. Regulators ask about both.",
+    "Train only where the policy changes what people do, and target the roles affected.",
+    "Review on events as well as on a calendar: law changes, incidents, audit findings and lessons from other organizations.",
+    "Retired policies must remain retrievable with their dates, because past conduct is judged against the policy in force at the time."
+  ],
+  "sections": [
+    {
+      "id": "why-lifecycle",
+      "heading": "Why does a policy need a managed lifecycle?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A policy needs a managed lifecycle because regulators and auditors judge not only what the policy says but whether it was current, communicated, understood and applied. The US Department of Justice (DOJ) Evaluation of Corporate Compliance Programs (ECCP), used here as an example, asks about the company's process for designing, implementing and updating policies, how it communicated them to employees and relevant third parties, whether they are published in a searchable format, and who has been responsible for integrating them into operations ([DOJ ECCP, September 2024](https://www.justice.gov/media/1160391/dl?inline))."
+        },
+        {
+          "type": "p",
+          "text": "Management system standards ask similar questions. ISO 37301:2021, the international standard for compliance management systems, includes clauses on awareness (7.3), communication (7.4) and control of documented information (7.5.3) ([ISO 37301 preview](https://cdn.standards.iteh.ai/samples/iso/iso-37301-2021/7ca291aeb1774c499f6fcb424e99d118/iso-37301-2021.pdf)), and the ISO technical committee's FAQ lists communication of the compliance policy directly to both personnel and business associates among its requirements ([ISO/TC 309](https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf)). For how the two frameworks compare, see [ISO 37301 vs the DOJ evaluation](/compare/iso-37301-vs-doj-evaluation-of-corporate-compliance-programs)."
+        }
+      ]
+    },
+    {
+      "id": "stages",
+      "heading": "What are the stages of the policy lifecycle?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The lifecycle has seven stages. The table sets out the purpose, typical owner, the trigger that moves the policy to the next stage, and the evidence to keep."
+        },
+        {
+          "type": "table",
+          "caption": "Policy lifecycle stages, owners and evidence (editorial framework)",
+          "head": ["Stage", "Purpose", "Typical owner", "Exit trigger", "Evidence to keep"],
+          "rows": [
+            ["1. Draft", "Translate obligations and risks into clear requirements", "Policy owner with subject matter experts", "Consultation complete", "Obligations and risks addressed; consultation record; business units consulted"],
+            ["2. Approve", "Confirm authority, legality and fit", "Approver named in the policy framework (executive, committee or board)", "Signed approval", "Approval record, approver, date, version"],
+            ["3. Publish", "Make the current version accessible to everyone in scope", "Policy administrator", "Published with effective date", "Version, effective date, location, superseded version archived"],
+            ["4. Attest", "Confirm each person in scope received and acknowledged it", "Policy administrator with line managers", "Attestation rate reaches target", "Who attested to which version, when; exceptions followed up"],
+            ["5. Train", "Build ability to apply the policy where it changes behavior", "L&D with policy owner", "Target roles trained and assessed", "Training content version, completion, assessment results"],
+            ["6. Review", "Keep the policy accurate and effective", "Policy owner", "Review complete: no change, revise (back to draft) or retire", "Review date, inputs considered, decision, next review date"],
+            ["7. Retire", "Withdraw a policy that is no longer needed or is replaced", "Policy owner with approver", "Retirement approved and communicated", "Retirement record, replacement reference, archived copy"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "draft-approve-publish",
+      "heading": "How should policies be drafted, approved and published?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Draft from the obligations and risks the policy must address, approve through a defined authority, and publish one current version in a place people can search. Starting from an [obligations register](/glossary/compliance-obligations-register) prevents policies that restate law without saying what staff must do."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Consult the business.** The ECCP asks who has been involved in designing policies and whether business units were consulted before rollout.",
+            "**Write requirements people can act on.** State who must do what, by when, and what to do in exceptions. Move procedural detail into procedures that the policy references.",
+            "**Approve and date.** As a sector example of document control, EU Good Manufacturing Practice Chapter 4 expects documents containing instructions to be approved, signed and dated by appropriate and authorized persons, uniquely identifiable, with a defined effective date ([EU GMP Chapter 4](https://health.ec.europa.eu/system/files/2016-11/chapter4_01-2011_en_0.pdf)).",
+            "**Publish accessibly.** The ECCP asks whether policies are published in a searchable format, whether there are linguistic or other barriers for foreign employees, and whether the company tracks access to understand which policies attract attention."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "attest-and-train",
+      "heading": "What is the difference between attestation and training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Attestation records that a person received, read and agreed to follow a policy; training builds and checks their ability to apply it. Attestation is cheap and universal; training is targeted at the roles whose work the policy changes. See [policy attestation](/glossary/policy-attestation)."
+        },
+        {
+          "type": "p",
+          "text": "The ECCP expects both. It asks prosecutors to assess whether policies have been integrated into the organization through periodic training and certification for directors, officers, relevant employees and, where appropriate, agents and business partners, and whether policies were rolled out in a way that ensures employees' understanding. It also asks what guidance and training key gatekeepers, such as those with approval authority, have received and whether they know when and how to escalate concerns ([DOJ ECCP](https://www.justice.gov/media/1160391/dl?inline))."
+        },
+        {
+          "type": "p",
+          "text": "Use a simple rule: if a policy changes a decision, a task or an escalation path for a role, that role needs training with an assessment, not only an attestation. The method is in [how to convert policies into training](/guides/how-to-convert-policies-into-training)."
+        }
+      ]
+    },
+    {
+      "id": "review-triggers",
+      "heading": "When should a policy be reviewed?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Review a policy on a fixed cycle and whenever its inputs change. The ECCP asks whether there is a process for updating policies to reflect lessons learned from the company's own issues or those of other companies in the same industry or region, and to address emerging risks, including those from new technologies. ISO 37301 requires processes to identify new and changed compliance obligations and implement necessary changes (clause 4.5) ([ISO 37301 FDIS preview](https://cdn.standards.iteh.ai/samples/75080/984e9b4dc8a347a7a8376a2b43afef03/ISO-FDIS-37301.pdf))."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Scheduled review date reached (commonly every one to three years, set by risk).",
+            "New or changed law, regulation, standard or contractual obligation.",
+            "Incident, breach, complaint trend or investigation finding in the policy's area.",
+            "Internal or external audit finding.",
+            "Significant organizational change: new product, market, system or structure.",
+            "Lessons from enforcement actions against other organizations in the sector."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Each review ends in one of three decisions: confirm without change (record it), revise (return to draft, then approve, publish, re-attest and retrain the affected roles), or retire. A revision should trigger review of linked training; see [how to update training when regulations change](/guides/how-to-update-training-when-regulations-change)."
+        }
+      ]
+    },
+    {
+      "id": "retire",
+      "heading": "How should a policy be retired?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Retire a policy through the same approval authority that approved it, communicate the retirement and any replacement, remove it from active locations, and archive it with its effective and retirement dates. Past conduct is assessed against the policy that applied at the time, so an investigation or dispute may need the retired version years later. Linked training, attestations and job aids should be withdrawn or updated at the same time."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each policy requirement to the obligations behind it and to the training and assessment points built from it. When a policy is revised, the affected learning content and assessments are identified, so retraining can be targeted to the roles the change actually affects."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How often should policies be reviewed?",
+      "a": "Set a scheduled interval by risk, commonly every one to three years, and review earlier on any trigger: a legal change, an incident, an audit finding or a significant business change. Record every review, including those that result in no change, so you can show the policy was considered current."
+    },
+    {
+      "q": "Is policy attestation enough to show employees understand a policy?",
+      "a": "Usually not. Attestation shows receipt and acknowledgment. Regulators such as the DOJ ask whether policies are understood and applied in practice, which needs training and assessment for the roles whose work the policy changes. Attestation remains useful for broad awareness policies such as a code of conduct."
+    },
+    {
+      "q": "Who should own a policy?",
+      "a": "A named senior person accountable for the area the policy governs, not the compliance function by default. The owner drafts and reviews the policy with subject matter experts; a separate approver, defined in the policy framework, authorizes it. Compliance typically maintains the framework and the register of policies."
+    },
+    {
+      "q": "What is the difference between a policy and a procedure?",
+      "a": "A policy states what the organization requires and why; a procedure states how a task is carried out. ISO 37301 reproduces the ISO 9000 definition of a procedure as a specified way to carry out an activity or a process. Keeping them separate lets procedures change without reapproving the policy."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Evaluation of Corporate Compliance Programs (Updated September 2024)",
+      "publisher": "US Department of Justice, Criminal Division",
+      "url": "https://www.justice.gov/media/1160391/dl?inline"
+    },
+    {
+      "title": "Compliance (Criminal Division compliance resources page)",
+      "publisher": "US Department of Justice, Criminal Division",
+      "url": "https://www.justice.gov/criminal/criminal-fraud/compliance"
+    },
+    {
+      "title": "ISO 37301:2021 document preview (foreword and contents)",
+      "publisher": "iTeh Standards",
+      "url": "https://cdn.standards.iteh.ai/samples/iso/iso-37301-2021/7ca291aeb1774c499f6fcb424e99d118/iso-37301-2021.pdf"
+    },
+    {
+      "title": "ISO/FDIS 37301 document preview",
+      "publisher": "iTeh Standards",
+      "url": "https://cdn.standards.iteh.ai/samples/75080/984e9b4dc8a347a7a8376a2b43afef03/ISO-FDIS-37301.pdf"
+    },
+    {
+      "title": "ISO 37301:2021 Compliance management systems: Frequently Asked Questions (May 2022)",
+      "publisher": "ISO/TC 309 Governance of organizations",
+      "url": "https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf"
+    },
+    {
+      "title": "EudraLex Volume 4, Chapter 4: Documentation",
+      "publisher": "European Commission",
+      "url": "https://health.ec.europa.eu/system/files/2016-11/chapter4_01-2011_en_0.pdf"
+    }
+  ],
+  "related": [
+    "policy-attestation",
+    "how-to-convert-policies-into-training",
+    "document-control",
+    "iso-37301-vs-doj-evaluation-of-corporate-compliance-programs",
+    "policy-management-software-vs-compliance-training-platform",
+    "how-to-write-a-training-policy"
+  ],
+  "productLinks": [
+    { "label": "Knowledge governance", "href": "/platform/knowledge-governance" },
+    { "label": "Compliance programs", "href": "/programs/compliance" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "ECCP Policies and Procedures: design and update process, lessons learned from own and peer issues, emerging risks incl. new technologies, business units consulted; accessibility incl. searchable format, linguistic barriers, tracking access; responsibility for operational integration and rollout ensuring understanding; gatekeepers guidance, training and escalation (fetched 2026-11-08)", "source": "https://www.justice.gov/media/1160391/dl?inline" },
+    { "claim": "ECCP Training and Communications: periodic training and certification for directors, officers, relevant employees and, where appropriate, agents and business partners (fetched 2026-11-08)", "source": "https://www.justice.gov/media/1160391/dl?inline" },
+    { "claim": "DOJ Criminal Division compliance page lists ECCP September 2024 as the most recent version", "source": "https://www.justice.gov/criminal/criminal-fraud/compliance" },
+    { "claim": "ISO 37301:2021 contents include 7.3 Awareness; FDIS preview shows 7.4 Communication and 7.5.3 Control of documented information", "source": "https://cdn.standards.iteh.ai/samples/iso/iso-37301-2021/7ca291aeb1774c499f6fcb424e99d118/iso-37301-2021.pdf" },
+    { "claim": "ISO 37301 clause 4.5 requires processes to identify new and changed compliance obligations and implement necessary changes; 3.31 reproduces ISO 9000 definition of procedure", "source": "https://cdn.standards.iteh.ai/samples/75080/984e9b4dc8a347a7a8376a2b43afef03/ISO-FDIS-37301.pdf" },
+    { "claim": "ISO TC 309 FAQ lists communication of the policy directly to both personnel and business associates among ISO 37301 requirements", "source": "https://committee.iso.org/files/live/sites/tc309/files/FAQ%2037301/ISO%2037301%20FAQs,%20May%202022.pdf" },
+    { "claim": "EU GMP Chapter 4 clause 4.3: documents containing instructions approved, signed and dated by appropriate and authorised persons, uniquely identifiable, effective date defined", "source": "https://health.ec.europa.eu/system/files/2016-11/chapter4_01-2011_en_0.pdf" }
+  ]
+}

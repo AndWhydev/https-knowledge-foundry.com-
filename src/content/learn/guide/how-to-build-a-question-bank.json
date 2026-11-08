@@ -1,0 +1,223 @@
+{
+  "slug": "how-to-build-a-question-bank",
+  "kind": "guide",
+  "title": "How do you build a question bank for workplace assessment?",
+  "seoTitle": "How to build a question bank",
+  "description": "How to build an assessment question bank: tag items to a blueprint, run review and tryout, track item statistics, control exposure, and retire items on rules.",
+  "shortAnswer": "A question bank is built by starting from an assessment blueprint, writing more items than any one test needs, tagging every item with the outcome, level, source and version it relates to, reviewing items with experts before use, trying them out and analyzing their statistics, assembling tests from the tags, and retiring or revising items on defined rules when content changes, statistics drift or items become exposed.",
+  "keyTakeaways": [
+    "A question bank is a managed collection of items from which tests are assembled. Its value depends on metadata, not on volume.",
+    "Tag every item to the blueprint: outcome, cognitive level, source document and version, author, reviewer and status.",
+    "Items move through a lifecycle: draft, reviewed, pretest, live, under review, retired. Each move needs a recorded reason.",
+    "Item statistics are monitoring signals. Very easy or very hard items, negative discrimination and sudden shifts over time all trigger review.",
+    "Retire items when the source changes, when statistics show a problem, or when items are known to be exposed."
+  ],
+  "sections": [
+    {
+      "id": "what-a-question-bank-is",
+      "heading": "What is a question bank and why does it need structure?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A question bank, also called an item bank or item pool, is the collection of items from which tests are assembled. The Standards for Educational and Psychological Testing define an item pool or item bank as the collection of items from which a test's items are selected during test development ([Standards for Educational and Psychological Testing, 2014](https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf)). The same Standards note that a developer usually assembles a pool with more items than any form needs, so forms can be built to the test specifications."
+        },
+        {
+          "type": "p",
+          "text": "Structure matters because a bank without metadata cannot answer the questions that make it useful: which outcomes have enough items, which items test a policy that changed last month, which items every candidate has seen, and which items are performing badly. In regulated training these are audit questions as well as quality questions. A bank that can answer them in minutes supports multiple test forms, fair retakes and fast updates when a rule changes."
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "heading": "What are the steps to build a question bank?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Build the bank in seven steps, in this order. Item writing comes third, not first."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Fix the blueprint.** Decide the outcomes, their weights and the levels at which they must be tested, using an [assessment blueprint](/guides/how-to-create-an-assessment-blueprint). The NBME Item-Writing Guide says the topic of an item usually results from the examination blueprint, and that a clear blueprint should always be available so writers can write a sufficient number of items for each topic ([NBME](https://info.nbme.org/rs/552-QHC-046/images/NBME_Item-Writing-Guide.pdf)).",
+            "**Define the metadata schema.** Agree the fields every item must carry before anyone writes (see the template below). Fields added later are rarely backfilled.",
+            "**Set the target depth.** Decide how many live items each blueprint cell needs. A cell needs enough items to build every planned form, to support retakes without repeating the same questions, and to absorb retirements.",
+            "**Write to the rules.** Use one consistent item format and the rules in [how to write multiple-choice questions](/guides/how-to-write-multiple-choice-questions). The NBME notes that limiting the number of item types reinforces standardization and allows more efficient production, editing and approval.",
+            "**Review before use.** Each item is reviewed for content accuracy against the source, clarity, technical flaws and fairness by someone other than its author. The Standards expect the review process to include empirical analyses or expert judges, with judges' qualifications and instructions documented (Standard 4.8).",
+            "**Pretest and analyze.** Where numbers allow, run new items unscored alongside live items, then check difficulty, discrimination and option performance before scoring them.",
+            "**Assemble, monitor and maintain.** Build forms from tags, not by browsing. Review statistics after each administration, and apply the retirement rules."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metadata-template",
+      "heading": "What metadata should every item carry?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Every item should carry enough metadata to place it on the blueprint, trace it to its source, and show its history. The template below is a workable minimum for regulated workplace assessment."
+        },
+        {
+          "type": "table",
+          "caption": "Question bank item metadata template (illustrative)",
+          "head": ["Field", "Purpose", "Example value (illustrative)"],
+          "rows": [
+            ["Item ID and version", "Stable identity; version increments on any change to stem, options or key", "AML-0142 v3"],
+            ["Blueprint outcome", "Places the item in a blueprint cell", "LO4: Identify indicators of structuring"],
+            ["Cognitive level", "Confirms the item tests at the intended level", "Apply"],
+            ["Critical flag", "Shows whether the outcome must be passed individually", "Yes"],
+            ["Source and version", "Traces the key to the policy, procedure or rule it depends on", "AML procedure P-07 v5, section 3.2"],
+            ["Role or audience", "Supports role-based form assembly", "Branch staff; operations"],
+            ["Author and reviewers", "Separates writing from approval", "Author: SME A; Reviewer: compliance B"],
+            ["Status", "Lifecycle position", "Live"],
+            ["Statistics", "Latest difficulty, discrimination, sample size, date", "p 0.71, point-biserial 0.32, n 418, 2026-10"],
+            ["Exposure", "How often and where the item has been used", "Used in 3 forms; 1,240 administrations"],
+            ["Next review date", "Forces periodic content checks", "2027-04-30"],
+            ["Change log", "Why each version changed", "v3: key updated after procedure revision"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The source and version field is the one most banks lack and most auditors need. When a policy or procedure changes, it lets you find every affected item at once instead of discovering stale questions through learner complaints. The same logic applies to [version control for training content](/guides/how-to-maintain-version-control-for-training-content) generally."
+        }
+      ]
+    },
+    {
+      "id": "item-statistics",
+      "heading": "How do you use item statistics to manage the bank?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use item statistics as triggers for expert review, not as automatic verdicts. The NBME guide describes the p-value (the proportion of test takers answering correctly) as the most common classical index of difficulty, and says items that are very easy (above .95) or very difficult (below .30) do not provide much information about the population as a whole ([NBME](https://info.nbme.org/rs/552-QHC-046/images/NBME_Item-Writing-Guide.pdf))."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Negative discrimination.** If stronger candidates are more likely than weaker ones to get an item wrong, the item may have two defensible answers or a wrong key. The NBME says such an item should be reviewed by a content expert and not scored until reviewed.",
+            "**Option analysis.** Distractors no one chooses add nothing; a distractor chosen by strong candidates may be correct.",
+            "**Drift over time.** The NBME notes that a big change in an item's difficulty or discrimination across equivalent groups over time could indicate that the item has become exposed, that its content is no longer accurate, or that the topic is no longer being taught.",
+            "**Small samples.** Many workplace programs test small groups. Treat statistics from small samples as weak signals and lean more on expert review."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Document the method. The Standards expect the model used to evaluate items, the sample, and the screening data to be documented (Standard 4.10), and the procedures used to develop, review, try out and select items from the pool to be documented (Standard 4.7)."
+        }
+      ]
+    },
+    {
+      "id": "retirement-rules",
+      "heading": "When should an item be retired?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Retire an item when it can no longer support a fair, accurate judgment: its source has changed, its statistics show a fault that revision cannot fix, or it is known to be exposed. The Standards recognize that in some programs items are introduced into and retired from item pools on an ongoing basis (comment to Standard 5.6). Write the rules down so retirement is consistent."
+        },
+        {
+          "type": "table",
+          "caption": "Item lifecycle and retirement rules (illustrative)",
+          "head": ["Trigger", "Action", "Who decides"],
+          "rows": [
+            ["Source policy, procedure or regulation changes", "Flag all linked items as under review; revise or retire before next form", "Content owner with compliance"],
+            ["Negative discrimination or suspected miskey", "Remove from scoring; expert review; revise as new version or retire", "Assessment lead with SME"],
+            ["Very easy or very hard against expectation", "Review content and fit to blueprint level; revise or move", "Assessment lead"],
+            ["Large statistical shift over time", "Check for exposure or outdated content", "Assessment lead"],
+            ["Known exposure (shared, posted, reused excessively)", "Retire from high-stakes forms; may keep for practice", "Assessment lead"],
+            ["Review date reached", "Confirm accuracy against current source; renew or retire", "Content owner"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Retired items should stay in the bank, marked retired, with their history. Past results were scored on them, and an auditor or appeal may need to see exactly what a candidate answered. Retired items can sometimes serve as practice questions, provided they are still accurate."
+        }
+      ]
+    },
+    {
+      "id": "security-and-forms",
+      "heading": "How do you keep a question bank secure and fair?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Keep a bank secure by controlling who can see live items, spreading exposure across enough items and forms, and keeping each form equivalent in coverage and difficulty. The Standards list test security, content coverage requirements, required precision and whether retakes reuse the same pool among the issues that determine how large an item pool must be."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Restrict edit and view rights on live items; log changes.",
+            "Build parallel forms from the same blueprint so a retake does not repeat the first attempt.",
+            "Keep scored forms comparable: same outcome coverage, same critical outcomes, similar difficulty.",
+            "If AI tools help draft items, record that in the item history and require the same review as any human-written item. See [how to check AI-generated training for accuracy](/guides/how-to-check-ai-generated-training-for-accuracy)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry ties each assessment point to the concept, outcome and source obligation it tests, so the link between an item and its source is structural rather than a manually maintained tag. When a source changes, the items that depend on it are identified for review."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many questions should a question bank have?",
+      "a": "There is no fixed number. Work from the blueprint: for each outcome, multiply the items one form needs by the number of forms you plan to keep live, then add margin for retirements and pretesting. Critical outcomes and outcomes tested on retakes usually need the deepest coverage."
+    },
+    {
+      "q": "Should a question bank include items for practice as well as for scored tests?",
+      "a": "It can, but keep them clearly separated by status. Practice items can be shown freely; live scored items should not be. Moving an item from practice to scored use after it has been widely seen undermines security, so the usual direction is from scored to practice on retirement."
+    },
+    {
+      "q": "Who should review new items?",
+      "a": "At least one subject matter expert other than the author, for accuracy against the current source, and one assessment specialist, for structure and technical flaws. For regulatory content, compliance should confirm the key. The Standards expect reviewers' qualifications and instructions to be documented."
+    },
+    {
+      "q": "What is item exposure?",
+      "a": "Exposure is how widely an item has been seen by test takers, through repeated use, sharing or publication. Exposed items become easier for reasons unrelated to competence. The NBME lists exposure as one explanation for a large change in an item's statistics over time."
+    }
+  ],
+  "sources": [
+    {
+      "title": "NBME Item-Writing Guide (sixth edition, October 2024)",
+      "publisher": "National Board of Medical Examiners (NBME)",
+      "url": "https://info.nbme.org/rs/552-QHC-046/images/NBME_Item-Writing-Guide.pdf"
+    },
+    {
+      "title": "NBME Item-Writing Guide: download page",
+      "publisher": "National Board of Medical Examiners (NBME)",
+      "url": "https://www.nbme.org/institutions/nbme-item-writing-guide/"
+    },
+    {
+      "title": "Standards for Educational and Psychological Testing (2014 edition)",
+      "publisher": "American Educational Research Association, American Psychological Association and National Council on Measurement in Education",
+      "url": "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf"
+    }
+  ],
+  "related": [
+    "how-to-write-multiple-choice-questions",
+    "how-to-create-an-assessment-blueprint",
+    "assessment-blueprint",
+    "how-to-set-a-pass-mark-for-an-assessment",
+    "how-to-validate-an-assessment-tool",
+    "how-to-maintain-version-control-for-training-content"
+  ],
+  "productLinks": [
+    { "label": "Verification and trust", "href": "/platform/verification-trust" },
+    { "label": "Framework intelligence", "href": "/platform/framework-intelligence" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "Standards glossary: item pool/item bank is the collection of items from which a test's items are selected during test development; chapter 4: developer usually assembles a pool with more items than needed for the forms", "source": "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf" },
+    { "claim": "Standards 4.7 (document procedures to develop, review, try out and select items from the pool), 4.8 (empirical analyses and/or expert judges; document qualifications and instructions), 4.10 (document model, sample and screening data); comment to 5.6 (items introduced into and retired from pools on an ongoing basis); chapter 4: pool size depends on security, content coverage, precision and retesting from the same pool", "source": "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf" },
+    { "claim": "NBME: topic of item usually results from the examination blueprint; clear blueprint should always be available so writers write a sufficient number of items for each topic", "source": "https://info.nbme.org/rs/552-QHC-046/images/NBME_Item-Writing-Guide.pdf" },
+    { "claim": "NBME: p-value most common classical difficulty index; items above .95 or below .30 do not provide much information; negative discrimination item should be reviewed by content expert and not scored until reviewed; large change over time could indicate exposure, outdated content or topic no longer taught", "source": "https://info.nbme.org/rs/552-QHC-046/images/NBME_Item-Writing-Guide.pdf" },
+    { "claim": "NBME Appendix C: limiting item types reinforces standardization and allows more efficient production, editing and approval", "source": "https://info.nbme.org/rs/552-QHC-046/images/NBME_Item-Writing-Guide.pdf" },
+    { "claim": "NBME Item-Writing Guide dated October 2024, sixth edition, free download", "source": "https://www.nbme.org/institutions/nbme-item-writing-guide/" }
+  ]
+}

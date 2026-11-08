@@ -1,0 +1,215 @@
+{
+  "slug": "how-to-write-an-assessment-rubric",
+  "kind": "guide",
+  "title": "How do you write an assessment rubric?",
+  "seoTitle": "How to write an assessment rubric",
+  "description": "How to write an assessment rubric: choose the type, set criteria from outcomes, write observable level descriptors, and calibrate assessors on real samples.",
+  "shortAnswer": "An assessment rubric is written by choosing the rubric type that fits the decision, deriving criteria directly from the learning outcomes or performance standard, defining a small number of performance levels, writing observable descriptors that clearly separate each level, marking which criteria are critical, and then testing the draft with other assessors on real samples until different people reach the same judgment.",
+  "keyTakeaways": [
+    "A rubric has three parts: criteria (what is judged), performance levels (the scale) and descriptors (what each level looks like for each criterion).",
+    "Choose the type for the decision: analytic for diagnostic feedback, single-scale for fast overall judgments, checklist for binary competence decisions.",
+    "Descriptors must be observable. Words like 'good', 'interesting' or 'thorough' without indicators produce inconsistent marking.",
+    "In competency assessment, critical criteria must be met individually. Do not let a high total hide a failed safety or compliance criterion.",
+    "A rubric is not finished until other assessors have used it on real samples and reached the same decisions."
+  ],
+  "sections": [
+    {
+      "id": "what-a-rubric-is",
+      "heading": "What is an assessment rubric?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An assessment rubric is a scoring tool that sets out the performance expectations for a task, breaks the task into components, and describes what performance at each level looks like for each component. The Eberly Center for Teaching Excellence and Educational Innovation at Carnegie Mellon University describes a rubric as identifying criteria (the aspects of performance assessed), descriptors (the characteristics associated with each dimension) and performance levels (a rating scale for level of mastery within each criterion) ([Carnegie Mellon University](https://www.cmu.edu/teaching/assessment/assesslearning/rubrics.html))."
+        },
+        {
+          "type": "p",
+          "text": "Rubrics matter in regulated training because they are where reliability is won or lost. Carnegie Mellon notes that rubrics help ensure consistency across time and across graders ([Carnegie Mellon University](https://www.cmu.edu/teaching/designteach/teach/rubrics.html)). The Australian Skills Quality Authority (ASQA), used here as an example regulator, defines reliability as assessment evidence being interpreted consistently by assessors, with outcomes comparable irrespective of which assessor conducts the assessment ([ASQA](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide)). A vague rubric makes that impossible. For the concepts, see [validity vs reliability in assessment](/compare/validity-vs-reliability-in-assessment)."
+        }
+      ]
+    },
+    {
+      "id": "rubric-types",
+      "heading": "Which type of rubric should you use?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use an analytic rubric when you need feedback on each component, a holistic rubric (one overall description per level) when you need a quick overall judgment, and a checklist when the decision is binary. DePaul University's Teaching Commons describes all three and their trade-offs ([DePaul University](https://resources.depaul.edu/teaching-commons/teaching-guides/feedback-grading/rubrics/Pages/types-of-rubrics.aspx))."
+        },
+        {
+          "type": "table",
+          "caption": "Rubric types compared, based on DePaul University Teaching Commons",
+          "head": ["Type", "How it works", "Strength", "Weakness", "Good fit in workplace training"],
+          "rows": [
+            ["Analytic", "Grid of criteria against levels; each criterion scored separately", "Specific feedback; criteria can be weighted", "Takes longer to build and use; raters diverge if levels are not well defined", "Written work products, case analyses, presentations, coaching feedback"],
+            ["Single-scale (overall)", "One scale; the rater matches the whole piece of work to one description", "Fast; fewer decisions per rater", "No specific feedback; hard to place mixed performance; criteria cannot be weighted", "Screening, low-stakes formative tasks"],
+            ["Checklist", "Two levels only (yes/no, present/absent) for each criterion", "Clear binary decisions; easy to audit", "Longer; no gradation of quality", "Observed procedures, verification of competency, safety-critical steps"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Many competency assessments combine types: a checklist for critical steps that must all be performed, plus an analytic section for quality aspects such as communication or judgment. The [competency assessment design guide](/guides/how-to-design-competency-assessments) covers when observation checklists are the better instrument."
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "heading": "What are the steps to write a rubric?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Write a rubric in seven steps, starting from the outcome, not from a template. Cornell University's Center for Teaching Innovation gives a similar sequence: outline the elements to be evaluated, create a range for performance quality, add descriptors that differentiate each level, assign a numerical scale, get colleague feedback, and rework the draft ([Cornell University](https://teaching.cornell.edu/teaching-resources/assessing-student-learning/using-rubrics))."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Start from the outcome or standard.** Write down the [measurable learning outcomes](/guides/how-to-write-measurable-learning-outcomes) or performance criteria the task assesses. Every rubric criterion must trace to one of them; anything that does not is construct-irrelevant and should go.",
+            "**Choose the type.** Decide whether you need feedback per criterion, an overall judgment or a binary decision (see the table above).",
+            "**Name the criteria.** Use three to seven criteria for most tasks. Each should be distinct; overlapping criteria double-count the same behavior.",
+            "**Set the levels.** Use an even or odd number of levels deliberately. For competency decisions, two levels (meets, does not yet meet) may be correct. For development feedback, three or four levels usually discriminate well enough.",
+            "**Write descriptors.** Describe observable evidence for each criterion at each level. Cornell advises avoiding subjective criteria such as 'interesting' or 'creative' and outlining objective indicators instead, and says descriptors must clearly differentiate one level from another.",
+            "**Mark critical criteria and decision rules.** State which criteria must be met for a pass regardless of total score, how weights apply, and what happens on a borderline result.",
+            "**Calibrate and revise.** Have several assessors score the same real or realistic samples independently, compare, and rewrite any descriptor that produced disagreement."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does a well-written rubric look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A well-written rubric uses descriptors an observer can check without guessing intent. The example below assesses a written incident report in a workplace safety program. It is illustrative, not drawn from any regulator."
+        },
+        {
+          "type": "table",
+          "caption": "Analytic rubric for a written incident report (illustrative)",
+          "head": ["Criterion", "Does not yet meet", "Meets", "Exceeds"],
+          "rows": [
+            ["Facts recorded (critical)", "Missing one or more of: date, time, location, people involved, sequence of events", "All five elements present and consistent with witness statements", "All five present, plus times for each step in the sequence"],
+            ["Separation of fact and opinion", "Opinions or blame stated as fact", "Facts and opinions clearly separated and labeled", "Opinions attributed to named sources with reasons"],
+            ["Immediate controls", "No immediate control recorded, or control does not address the hazard", "At least one control recorded that addresses the identified hazard", "Controls ranked using the organization's hierarchy of controls"],
+            ["Escalation (critical)", "Reportable event not escalated within the procedure's time limit", "Escalated within the time limit to the role named in the procedure", "Escalated within the time limit with confirmation recorded"],
+            ["Clarity", "A reader cannot reconstruct what happened without asking questions", "A reader can reconstruct the event from the report alone", "As for meets, in under one page with a sequence diagram or timeline"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Decision rule for this example: both critical criteria must be at 'meets' or above for a pass. The other three criteria inform feedback and may be weighted. Note that no descriptor uses words like 'adequate', 'good' or 'thorough' without saying what makes it so."
+        }
+      ]
+    },
+    {
+      "id": "common-faults",
+      "heading": "What are the most common rubric faults?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most rubric faults make different assessors reach different decisions on the same evidence. DePaul notes that unless each point for each criterion is well defined, raters may not arrive at the same score. Check every draft against this list."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Vague quantifiers.** 'Some', 'most', 'adequate' and 'appropriate' without a definition.",
+            "**Level drift.** Descriptors that change the criterion between levels, for example accuracy at one level and presentation at the next.",
+            "**Counting instead of judging.** 'Three examples' rewards quantity when the outcome is about relevance.",
+            "**Hidden critical failures.** A total score that lets a candidate pass while missing a safety or compliance requirement.",
+            "**Criteria not in the outcome.** Spelling, formatting or length scored when the outcome is about a decision.",
+            "**Untested descriptors.** A rubric written once and never calibrated on real work. ASQA lists generic templates or checklists for reviewing assessment tools as a known risk."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calibration",
+      "heading": "How do you check that a rubric is reliable?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Check reliability by having several assessors score the same samples independently and comparing their decisions criterion by criterion. Where they disagree, the descriptor is usually the cause. ASQA lists moderating a tool with other assessors and trialling it with a group similar to the candidates as ways to review a tool before use ([ASQA](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide)), and its worked validation example ends with a revised observation guide that includes clear performance benchmarks."
+        },
+        {
+          "type": "p",
+          "text": "Keep a small set of anchor samples, one per level for each criterion, and use them to brief new assessors. Repeat calibration when assessors change, when the task changes, and as part of scheduled [assessment tool validation](/guides/how-to-validate-an-assessment-tool)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines the outcome, the concepts it depends on and the assessment points before any rubric is written, so each criterion traces to a defined requirement. Critical criteria are marked at the framework level, so decision rules stay consistent across every assessment built from it."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many performance levels should a rubric have?",
+      "a": "Enough to support the decision and no more. For a competent or not yet competent decision, two levels are honest. For development feedback, three or four levels usually work; more levels make descriptors harder to separate and reduce agreement between assessors."
+    },
+    {
+      "q": "Should learners see the rubric before the assessment?",
+      "a": "Usually yes. Carnegie Mellon and Cornell both describe rubrics as helping learners understand expectations and monitor progress. Sharing the rubric does not weaken a competency assessment, because the candidate still has to perform to the standard. Keep anchor samples for assessors, not learners, if they would reveal model answers."
+    },
+    {
+      "q": "What is the difference between a rubric and a marking guide?",
+      "a": "A marking guide usually lists expected answers or key points for questions. A rubric describes levels of quality for performance or work products where many responses can be acceptable. Many assessments need both: a marking guide for knowledge questions and a rubric or checklist for performance."
+    },
+    {
+      "q": "Can AI tools score against a rubric?",
+      "a": "They can draft a score, but the decision should stay with a qualified assessor, and the use should be sampled in validation. ASQA lists using AI tools for marking without clear oversight, affecting fairness and reliability, as a known risk to assessment quality."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Creating and Using Rubrics",
+      "publisher": "Eberly Center for Teaching Excellence and Educational Innovation, Carnegie Mellon University",
+      "url": "https://www.cmu.edu/teaching/assessment/assesslearning/rubrics.html"
+    },
+    {
+      "title": "Grading and Performance Rubrics",
+      "publisher": "Eberly Center for Teaching Excellence and Educational Innovation, Carnegie Mellon University",
+      "url": "https://www.cmu.edu/teaching/designteach/teach/rubrics.html"
+    },
+    {
+      "title": "Types of Rubrics",
+      "publisher": "Teaching Commons, DePaul University",
+      "url": "https://resources.depaul.edu/teaching-commons/teaching-guides/feedback-grading/rubrics/Pages/types-of-rubrics.aspx"
+    },
+    {
+      "title": "Using Rubrics",
+      "publisher": "Center for Teaching Innovation, Cornell University",
+      "url": "https://teaching.cornell.edu/teaching-resources/assessing-student-learning/using-rubrics"
+    },
+    {
+      "title": "Assessment Practice Guide (2025 Standards for RTOs)",
+      "publisher": "Australian Skills Quality Authority (ASQA)",
+      "url": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
+    }
+  ],
+  "related": [
+    "how-to-design-competency-assessments",
+    "how-to-validate-an-assessment-tool",
+    "how-to-write-measurable-learning-outcomes",
+    "validity-vs-reliability-in-assessment",
+    "competency-assessment",
+    "how-to-set-a-pass-mark-for-an-assessment"
+  ],
+  "productLinks": [
+    { "label": "Verification and trust", "href": "/platform/verification-trust" },
+    { "label": "Framework intelligence", "href": "/platform/framework-intelligence" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "Carnegie Mellon Eberly Center: rubric is a scoring tool describing performance expectations; identifies criteria, descriptors and performance levels; helps ensure consistency across time and graders; helps students understand expectations and monitor progress (fetched 2026-11-08)", "source": "https://www.cmu.edu/teaching/assessment/assesslearning/rubrics.html" },
+    { "claim": "Carnegie Mellon: rubrics help ensure consistency across graders and reduce systematic bias between graders (fetched 2026-11-08)", "source": "https://www.cmu.edu/teaching/designteach/teach/rubrics.html" },
+    { "claim": "DePaul: analytic rubric grid, criteria scored individually, can be weighted, takes more time, raters may not arrive at same score unless points well defined; the single-scale type uses one scale, saves time, no specific feedback, criteria cannot be weighted; checklists have only two performance levels (fetched 2026-11-08)", "source": "https://resources.depaul.edu/teaching-commons/teaching-guides/feedback-grading/rubrics/Pages/types-of-rubrics.aspx" },
+    { "claim": "Cornell CTI: outline elements, create evaluative range, add descriptors, avoid subjective criteria such as interesting or creative, criteria must clearly differentiate levels, assign numerical scale, colleague feedback, rework (fetched 2026-11-08)", "source": "https://teaching.cornell.edu/teaching-resources/assessing-student-learning/using-rubrics" },
+    { "claim": "ASQA reliability principle; pre-use review by moderating and trialling; generic review templates and AI marking without clear oversight listed as known risks; worked example revised observation guide with clear performance benchmarks", "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide" }
+  ]
+}

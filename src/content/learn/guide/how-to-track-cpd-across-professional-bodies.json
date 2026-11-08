@@ -1,0 +1,247 @@
+{
+  "slug": "how-to-track-cpd-across-professional-bodies",
+  "kind": "guide",
+  "title": "How do you track CPD across multiple professional bodies?",
+  "seoTitle": "Tracking CPD across professional bodies",
+  "description": "How to track CPD, CPE and CLE for staff registered with different professional bodies: build a rules register, record evidence once, and map it to each body.",
+  "shortAnswer": "CPD across multiple professional bodies is tracked by building a register of each body's rules (hours or units, period, mandatory categories, caps, carryover, evidence and retention), recording every learning activity once with its evidence, mapping that record to each body the person belongs to, and monitoring progress against each body's own period so gaps are found months before renewal or audit, not after.",
+  "keyTakeaways": [
+    "Every body counts differently: hours or units, annual or triennial periods, different period start dates and different mandatory categories.",
+    "Record each activity once, with evidence, then map it to every body that may accept it. Do not keep separate logs per body.",
+    "Caps, carryover rules and verification requirements decide whether an activity counts, not just its length.",
+    "Retention periods differ by body and are often longer than the CPD period itself.",
+    "The individual practitioner usually holds the obligation. The organization's job is to make compliance easy and visible."
+  ],
+  "sections": [
+    {
+      "id": "why-it-is-hard",
+      "heading": "Why is tracking CPD across professional bodies difficult?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tracking is difficult because each professional body sets its own unit of measure, period, mandatory topics, limits and evidence rules, and many organizations employ people registered with several bodies at once. The terms also differ: continuing professional development (CPD), continuing professional education (CPE) for accountants and tax practitioners in some markets, and continuing legal education (CLE) for lawyers in the United States. See [CPD vs CPE vs CLE](/compare/cpd-vs-cpe-vs-cle) and [continuing professional development](/glossary/continuing-professional-development)."
+        },
+        {
+          "type": "p",
+          "text": "The examples below, drawn from rules already documented in this library, show how far the variables differ even between bodies in the same country. They illustrate the design problem and are not a complete statement of any body's rules; check each body's current requirements."
+        }
+      ]
+    },
+    {
+      "id": "how-rules-differ",
+      "heading": "How do CPD rules differ between professional bodies?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CPD rules differ on at least six variables: amount, unit, period, mandatory content, limits and evidence. The comparison shows examples from several markets."
+        },
+        {
+          "type": "table",
+          "caption": "Examples of how CPD rules vary (check each body's current rules)",
+          "head": ["Body (market)", "Amount and period", "Mandatory content or limits", "Records"],
+          "rows": [
+            ["CPA Australia (Australia)", "120 hours per triennium, minimum 20 hours each year", "Verifiable ethics: at least 10 hours per triennium and 2 per year", "Slides, registration emails or course materials are not sufficient verification for ethics CPD"],
+            ["Tax Practitioners Board (Australia), tax agents", "120 hours of CPE over three years, minimum 20 per year", "Reading limited to 25% of the requirement", "Keep records for five years from the end of the CPE period"],
+            ["Law Society of NSW (Australia), solicitors", "10 units per year, 1 April to 31 March", "At least one unit in each of four compulsory fields; cap of 5 units for private audio or visual study", "Keep records for three years; produce within 21 days if audited"],
+            ["Nursing and Midwifery Board of Australia", "20 hours per year for a registered nurse, enrolled nurse or midwife", "Relevant to scope of practice", "Keep records for at least five years"],
+            ["State Bar of California (United States)", "25 hours of MCLE in a three-year compliance period", "Subfield requirements apply", "Report compliance by period"],
+            ["AICPA and NASBA CPE standards (United States)", "Hours set by each state board", "Fifty minutes of participation in a formal learning program equals one CPE credit", "Per state board rules"],
+            ["Insurance Distribution Directive (European Union)", "At least 15 hours of professional training or development per year", "Applies to relevant distribution employees", "Per national implementation"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Sources: [CPA Australia](https://www.cpaaustralia.com.au/professional-development/continuing-professional-development), [Tax Practitioners Board](https://www.tpb.gov.au/continuing-professional-education), [Law Society of NSW](https://www.lawsociety.com.au/practising-law-in-NSW/working-as-a-solicitor-in-NSW/your-practising-certificate/CPD), [NMBA](https://www.nursingmidwiferyboard.gov.au/Codes-Guidelines-Statements/FAQ/CPD-FAQ-for-nurses-and-midwives), [State Bar of California](https://www.calbar.ca.gov/legal-professionals/maintaining-compliance/mcle), [NASBA and AICPA Statement on Standards for CPE Programs](https://cdn.asp.events/CLIENT_NASBA_287596D2_5056_B733_49DFF69B632BDF66/sites/nasba-registry-composer-2/media/Documents/2026-Statement-on-Standards-for-CPE-Programs.pdf), [IDD Article 10(2)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016L0097-20241009). Details for each are on the library's regulation pages, such as [NSW solicitor CPD](/regulations/nsw-solicitor-cpd-requirements) and [US CPA CPE requirements](/regulations/us-cpa-cpe-requirements)."
+        },
+        {
+          "type": "p",
+          "text": "Carryover is a good example of hidden variation. The California Board of Accountancy allows no carryover of CPE ([California Board of Accountancy](https://www.dca.ca.gov/cba/licensees/cequickref.shtml)), while the Law Society of NSW allows a limited carryover of units earned between January and March. A tracking system that assumes one rule will misstate compliance."
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "heading": "What are the steps to track CPD across bodies?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Set up tracking in six steps. The rules register comes before any system configuration."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Identify who is registered where.** List every person with a registration, license or membership that carries a CPD obligation, the body, the registration number and the renewal date. Include people with more than one.",
+            "**Build a rules register.** For each body, record the fields in the template below from the body's own published rules, with the date you checked and a review date. Assign an owner to watch for rule changes.",
+            "**Record activities once.** Capture each learning activity with date, provider, duration, topic, format, learning outcome and evidence (certificate, attendance record, assessment result). Recording once avoids conflicting versions.",
+            "**Map each activity to bodies.** For each person, apply each relevant body's rules to decide whether, and how much, the activity counts: category, unit conversion, caps and verification standard.",
+            "**Monitor against each period.** Show each person and their manager progress against each body's period, with alerts well before period end. Periods often differ: a financial year, a calendar year, a triennium starting at registration.",
+            "**Prepare for audit.** Keep evidence for the longest retention period that applies, and test retrieval by sampling a few people each year as if a body had selected them for audit."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rules-register-template",
+      "heading": "What should a CPD rules register contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A rules register should capture, for each body, everything needed to decide whether a given activity counts and whether a person is on track. Use these fields."
+        },
+        {
+          "type": "table",
+          "caption": "CPD rules register template (illustrative)",
+          "head": ["Field", "What to record", "Why it matters"],
+          "rows": [
+            ["Body and credential", "Name of body and the specific registration or class", "Rules can differ by class within one body"],
+            ["Legal basis", "Statute, rule or by-law that creates the obligation", "Tells you whether non-compliance affects the right to practice"],
+            ["Unit and conversion", "Hours, units or credits; minutes per unit", "Needed to convert activity length"],
+            ["Period", "Annual, biennial or triennial; start and end dates", "Drives deadlines and alerts"],
+            ["Minimums", "Total and any annual minimum within a longer period", "Triennial rules may still require yearly minimums"],
+            ["Mandatory categories", "Topics or fields required, with minimums", "Most common source of non-compliance"],
+            ["Caps and exclusions", "Limits on self-study, reading, in-house activities", "Excess hours do not count"],
+            ["Carryover", "Whether and how much excess carries forward", "Prevents overstating next period"],
+            ["Verification standard", "What evidence the body accepts", "Some evidence types are expressly not accepted"],
+            ["Retention", "How long records must be kept", "Often longer than the period"],
+            ["Reporting and audit", "Declaration method, audit notice period", "Sets how fast evidence must be produced"],
+            ["Last checked", "Date and checker", "Rules change; the register must show currency"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who-is-responsible",
+      "heading": "Who is responsible for CPD compliance: the individual or the employer?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "For most professional registrations the individual practitioner holds the CPD obligation, but the employer often carries the consequences when a registration lapses. The Australian Health Practitioner Regulation Agency (Ahpra), as an example, states that practitioners in any form of practice must participate regularly in CPD relevant to their scope of practice ([Ahpra](https://www.ahpra.gov.au/Registration/Registration-Standards/CPD.aspx)). Some financial services regimes, such as the Insurance Distribution Directive's annual training requirement, place obligations on firms as well. The practical answer is shared: individuals own their record; the organization provides the system, the alerts and the qualifying learning, and checks that people in registered roles remain registered. See [Ahpra CPD registration standards](/regulations/ahpra-cpd-registration-standards)."
+        }
+      ]
+    },
+    {
+      "id": "common-errors",
+      "heading": "What are the most common CPD tracking errors?",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "Counting total hours while missing a mandatory category or annual minimum.",
+            "Ignoring caps on self-study or reading, so recorded hours exceed countable hours.",
+            "Using one period for everyone instead of each body's period.",
+            "Keeping attendance confirmations a body does not accept as evidence.",
+            "Deleting records after the period ends, before the retention period expires.",
+            "Not re-checking rules after a body changes them, for example when NASBA and AICPA revised the CPE standards effective August 1, 2026 ([NASBA](https://www.nasbaregistry.org/the-standards))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records learning against defined outcomes and the requirements they serve, so one activity can be mapped to several bodies' rules without duplicate records. Rule sources are versioned, so a change to a body's requirements shows which people and records are affected."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can one learning activity count for more than one professional body?",
+      "a": "Often yes, if it meets each body's rules on topic, format and evidence. A person registered as both an accountant and a tax agent may claim the same relevant activity with both, subject to each body's categories and caps. Record the activity once and map it to each body rather than logging it twice."
+    },
+    {
+      "q": "Should the employer keep CPD records or the individual?",
+      "a": "Both, where possible. The individual usually holds the legal obligation and must produce records if audited. The employer benefits from holding a copy because it shows the organization supports compliance and can confirm people in registered roles remain eligible to practice."
+    },
+    {
+      "q": "How long should CPD records be kept?",
+      "a": "As long as the longest applicable rule requires. Examples in this library range from three years for NSW solicitors to five years for nurses, midwives and Australian tax agents. Retention often runs past the end of the CPD period, so do not delete records when a period closes."
+    },
+    {
+      "q": "What is the difference between CPD hours and CPE credits?",
+      "a": "They are units set by different bodies. Some count clock hours; others define a credit by minutes of participation. The AICPA and NASBA standards, for example, equate fifty minutes of participation in a formal learning program with one CPE credit. Convert using each body's own definition."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Continuing professional development",
+      "publisher": "CPA Australia",
+      "url": "https://www.cpaaustralia.com.au/professional-development/continuing-professional-development"
+    },
+    {
+      "title": "Continuing professional education",
+      "publisher": "Tax Practitioners Board",
+      "url": "https://www.tpb.gov.au/continuing-professional-education"
+    },
+    {
+      "title": "Continuing Professional Development (CPD)",
+      "publisher": "Law Society of NSW",
+      "url": "https://www.lawsociety.com.au/practising-law-in-NSW/working-as-a-solicitor-in-NSW/your-practising-certificate/CPD"
+    },
+    {
+      "title": "CPD FAQ for nurses and midwives",
+      "publisher": "Nursing and Midwifery Board of Australia",
+      "url": "https://www.nursingmidwiferyboard.gov.au/Codes-Guidelines-Statements/FAQ/CPD-FAQ-for-nurses-and-midwives"
+    },
+    {
+      "title": "Registration standard: Continuing professional development",
+      "publisher": "Australian Health Practitioner Regulation Agency (Ahpra)",
+      "url": "https://www.ahpra.gov.au/Registration/Registration-Standards/CPD.aspx"
+    },
+    {
+      "title": "Minimum Continuing Legal Education (MCLE)",
+      "publisher": "The State Bar of California",
+      "url": "https://www.calbar.ca.gov/legal-professionals/maintaining-compliance/mcle"
+    },
+    {
+      "title": "Statement on Standards for Continuing Professional Education (CPE) Programs (August 2026)",
+      "publisher": "AICPA and NASBA",
+      "url": "https://cdn.asp.events/CLIENT_NASBA_287596D2_5056_B733_49DFF69B632BDF66/sites/nasba-registry-composer-2/media/Documents/2026-Statement-on-Standards-for-CPE-Programs.pdf"
+    },
+    {
+      "title": "The Standards",
+      "publisher": "NASBA",
+      "url": "https://www.nasbaregistry.org/the-standards"
+    },
+    {
+      "title": "CPE quick reference",
+      "publisher": "California Board of Accountancy",
+      "url": "https://www.dca.ca.gov/cba/licensees/cequickref.shtml"
+    },
+    {
+      "title": "Directive (EU) 2016/97 on insurance distribution (consolidated)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016L0097-20241009"
+    }
+  ],
+  "related": [
+    "cpd-vs-cpe-vs-cle",
+    "continuing-professional-development",
+    "ahpra-cpd-registration-standards",
+    "us-cpa-cpe-requirements",
+    "nsw-solicitor-cpd-requirements",
+    "insurance-distribution-directive-cpd-requirements"
+  ],
+  "productLinks": [
+    { "label": "Audit evidence", "href": "/platform/audit-evidence" },
+    { "label": "Professional services", "href": "/industries/professional-services" }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    { "claim": "CPA Australia: minimum 20 hours a year, 120 hours per triennium; verifiable ethics minimum 2 hours a year and 10 hours per triennium; slides, registration emails or course materials not sufficient verification for ethics CPD (reused from sibling pages)", "source": "https://www.cpaaustralia.com.au/professional-development/continuing-professional-development" },
+    { "claim": "TPB: tax agents 120 hours per 3 years, 20 per year; reading max 25%; records 5 years from end of CPE period (reused)", "source": "https://www.tpb.gov.au/continuing-professional-education" },
+    { "claim": "NSW solicitors: 10 units, 1 April to 31 March, four compulsory fields; private audio/visual cap 5 units; records 3 years; audit production 21 days; carryover max 3 units January to March (reused)", "source": "https://www.lawsociety.com.au/practising-law-in-NSW/working-as-a-solicitor-in-NSW/your-practising-certificate/CPD" },
+    { "claim": "NMBA: 20 hours RN, EN or midwife; records kept at least five years (reused)", "source": "https://www.nursingmidwiferyboard.gov.au/Codes-Guidelines-Statements/FAQ/CPD-FAQ-for-nurses-and-midwives" },
+    { "claim": "State Bar of California: active licensees complete 25 hours of MCLE in three-year compliance periods (reused)", "source": "https://www.calbar.ca.gov/legal-professionals/maintaining-compliance/mcle" },
+    { "claim": "AICPA/NASBA Statement on Standards for CPE Programs, August 2026: fifty minutes of participation in a formal learning program equals one CPE credit (reused)", "source": "https://cdn.asp.events/CLIENT_NASBA_287596D2_5056_B733_49DFF69B632BDF66/sites/nasba-registry-composer-2/media/Documents/2026-Statement-on-Standards-for-CPE-Programs.pdf" },
+    { "claim": "Revised CPE Standards effective date August 1, 2026 (reused)", "source": "https://www.nasbaregistry.org/the-standards" },
+    { "claim": "California Board of Accountancy CPE: no carryover (reused)", "source": "https://www.dca.ca.gov/cba/licensees/cequickref.shtml" },
+    { "claim": "IDD Article 10(2): at least 15 hours of professional training or development per year (reused)", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016L0097-20241009" },
+    { "claim": "Ahpra: practitioners in any form of practice must participate regularly in CPD relevant to scope of practice (reused)", "source": "https://www.ahpra.gov.au/Registration/Registration-Standards/CPD.aspx" }
+  ]
+}
