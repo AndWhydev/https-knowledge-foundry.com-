@@ -2,7 +2,7 @@
 
 import { motion, AnimatePresence, useReducedMotion, useInView } from "motion/react";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { ArrowRight, Check, Layers3, Fingerprint, Sparkles } from "lucide-react";
+import { ArrowRight, ArrowDown, Check, Layers3, Fingerprint, MousePointerClick, Sparkles } from "lucide-react";
 import Link from "next/link";
 import { Container, Section, Eyebrow } from "@/components/ui/container";
 import { SplitText } from "@/components/motion/split-text";
@@ -247,6 +247,10 @@ export function FrameworkDemo() {
             </Reveal>
           </div>
 
+          <div className="hidden lg:grid grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] gap-6 mb-3">
+            <div />
+            <ClickHint reduce={!!reduce} />
+          </div>
           <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] gap-6 items-stretch">
             {/* LEFT: source input pane */}
             <div className="relative flex flex-col rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white overflow-hidden">
@@ -338,18 +342,15 @@ export function FrameworkDemo() {
             </div>
 
             {/* RIGHT: framework canvas */}
-            <div className="relative flex flex-col rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-[color:var(--color-ink)] text-white overflow-hidden">
+            <div className="flex flex-col">
+            <ClickHint reduce={!!reduce} className="lg:hidden mb-3" />
+            <div className="relative flex flex-1 flex-col rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-[color:var(--color-ink)] text-white overflow-hidden">
               <div className="flex items-center justify-between px-5 py-3 border-b border-white/8 bg-white/[0.02]">
                 <div className="flex items-center gap-2 text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-white/50">
                   <PhaseIndicator phase={phase} />
                   Framework
                 </div>
                 <div className="flex items-center gap-3">
-                  {phase === "complete" && selected === null && (
-                    <span className="hidden sm:inline font-[family-name:var(--font-jetbrains)] text-[10px] tracking-[0.12em] text-white/40">
-                      CLICK A NODE
-                    </span>
-                  )}
                   <div className="flex items-center gap-1.5">
                   {scenarios.map((_, i) => (
                     <button
@@ -399,6 +400,7 @@ export function FrameworkDemo() {
                 <MetricPill label="Relationships" value={edgesShown} active={phase === "structuring"} />
                 <MetricPill label="Verified" value={verifiedShown} active={phase === "verifying" || phase === "complete"} />
               </div>
+            </div>
             </div>
           </div>
 
@@ -790,5 +792,24 @@ function NodeDetail({
         </div>
       )}
     </motion.div>
+  );
+}
+
+function ClickHint({ reduce, className }: { reduce: boolean; className?: string }) {
+  return (
+    <div className={cn("flex items-center justify-center gap-2 text-[color:var(--color-forge)]", className)}>
+      <MousePointerClick className="h-4 w-4" aria-hidden />
+      <span className="font-[family-name:var(--font-jetbrains)] text-[11.5px] font-medium uppercase tracking-[0.14em]">
+        Click any node to learn more
+      </span>
+      <motion.span
+        aria-hidden
+        animate={reduce ? undefined : { y: [0, 4, 0] }}
+        transition={{ duration: 1.4, repeat: Infinity, ease: "easeInOut" }}
+        className="inline-flex"
+      >
+        <ArrowDown className="h-4 w-4" />
+      </motion.span>
+    </div>
   );
 }

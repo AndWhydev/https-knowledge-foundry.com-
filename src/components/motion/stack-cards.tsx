@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useReducedMotion, useScroll, useTransform, type MotionValue } from "motion/react";
-import { Children, useRef, type ReactNode } from "react";
+import { Children, useEffect, useRef, useState, type ReactNode } from "react";
 
 /**
  * Cards that pin and stack as you scroll (lg and up). Each earlier card
@@ -11,13 +11,22 @@ import { Children, useRef, type ReactNode } from "react";
 export function StackCards({ children, top = 112, step = 18 }: { children: ReactNode; top?: number; step?: number }) {
   const ref = useRef<HTMLDivElement>(null);
   const reduce = useReducedMotion();
+  // Stacking only happens at lg; below that the cards are a flat list and must stay full size.
+  const [desktop, setDesktop] = useState(false);
+  useEffect(() => {
+    const mq = window.matchMedia("(min-width: 1024px)");
+    const on = () => setDesktop(mq.matches);
+    on();
+    mq.addEventListener("change", on);
+    return () => mq.removeEventListener("change", on);
+  }, []);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end end"] });
   const items = Children.toArray(children);
 
   return (
     <div ref={ref} className="flex flex-col gap-4 lg:gap-[14vh] lg:pb-[10vh]">
       {items.map((child, i) => (
-        <StackItem key={i} index={i} count={items.length} progress={scrollYProgress} top={top + i * step} still={!!reduce}>
+        <StackItem key={i} index={i} count={items.length} progress={scrollYProgress} top={top + i * step} still={!!reduce || !desktop}>
           {child}
         </StackItem>
       ))}

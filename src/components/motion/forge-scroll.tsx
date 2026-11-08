@@ -102,6 +102,8 @@ export function ForgeScroll({
         </div>
         {/* Legibility wash: dark on the copy side, open on the image side */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#0d0f14] from-30% via-[#0d0f14]/60 via-50% to-transparent to-75%" aria-hidden />
+        {/* Portrait tablets: the film sits behind the copy, so dim it evenly */}
+        <div className="absolute inset-0 bg-[#0d0f14]/55 lg:hidden" aria-hidden />
         <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-[#0d0f14] to-transparent" aria-hidden />
         <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#0d0f14] to-transparent" aria-hidden />
 
