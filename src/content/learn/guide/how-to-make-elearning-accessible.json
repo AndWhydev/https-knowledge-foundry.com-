@@ -1,0 +1,327 @@
+{
+  "slug": "how-to-make-elearning-accessible",
+  "kind": "guide",
+  "title": "How do you make e-learning accessible?",
+  "seoTitle": "Making e-learning accessible",
+  "description": "How to make e-learning accessible: design to WCAG 2.2 Level AA, caption and describe media, make interactions and timed quizzes operable, and test it.",
+  "shortAnswer": "Make e-learning accessible by designing and testing it against the Web Content Accessibility Guidelines (WCAG) 2.2 at Level AA, the benchmark most accessibility laws point to. In practice that means captions and transcripts for media, text alternatives for images, full keyboard operation, sufficient color contrast, adjustable time limits on quizzes, and accessible login. Apply Universal Design for Learning principles so content works for different learners, and confirm conformance with manual and assistive technology testing, not automated scans alone.",
+  "keyTakeaways": [
+    "WCAG 2.2 is the current W3C Recommendation, first published in October 2023 and updated in December 2024; Level AA is the usual target.",
+    "WCAG 2.2 added criteria that matter for e-learning, including target size, dragging alternatives, and accessible authentication.",
+    "Legal scope varies. In the United States, Section 508 binds federal agencies; in the EU, the European Accessibility Act covers listed consumer products and services and does not name e-learning as a category.",
+    "Timed quizzes, drag-and-drop interactions, and uncaptioned video are the most common barriers in compliance e-learning.",
+    "Automated checkers find only part of the problem; manual and assistive technology testing is required."
+  ],
+  "sections": [
+    {
+      "id": "which-standard",
+      "heading": "Which standard should accessible e-learning meet?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Accessible e-learning should meet WCAG 2.2 at Level AA. WCAG is published by the World Wide Web Consortium (W3C), and version 2.2 is a W3C Recommendation first published on 5 October 2023 and updated on 12 December 2024 ([W3C](https://www.w3.org/TR/WCAG22/))."
+        },
+        {
+          "type": "p",
+          "text": "WCAG is organized under four principles: content must be perceivable, operable, and understandable, and it must be interpreted reliably by a wide variety of user agents, including assistive technologies. Each success criterion has a conformance level of A, AA, or AAA. W3C states that WCAG 2.2 is backwards compatible with WCAG 2.1, so content that conforms to 2.2 is at least as accessible as content that conforms to 2.1. The obsolete criterion 4.1.1 Parsing was removed in 2.2."
+        },
+        {
+          "type": "p",
+          "text": "Version 2.2 added nine success criteria. Those most relevant to e-learning at Levels A and AA are 2.4.11 Focus Not Obscured (Minimum), 2.5.7 Dragging Movements, 2.5.8 Target Size (Minimum), 3.2.6 Consistent Help, 3.3.7 Redundant Entry, and 3.3.8 Accessible Authentication (Minimum)."
+        }
+      ]
+    },
+    {
+      "id": "legal-requirements",
+      "heading": "Which laws require e-learning to be accessible?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "No single law covers all e-learning; requirements depend on who provides the training, to whom, and where. Most laws reference WCAG directly or through a harmonized standard, so designing to WCAG 2.2 AA covers the technical core in most markets. Check national disability and employment law as well, because duties to make reasonable adjustments for employees often apply to internal training regardless of the laws below."
+        },
+        {
+          "type": "p",
+          "text": "In the United States, for example, Section 508 of the Rehabilitation Act applies to federal agencies when they develop, procure, maintain, or use information and communication technology. Section508.gov states that agencies \"must give disabled employees and members of the public access to information comparable to the access available to others\", and that the Revised 508 Standards, effective 18 January 2018, harmonized requirements with WCAG 2.0 ([Section508.gov](https://www.section508.gov/manage/laws-and-policies/)). Federal agency training is therefore in scope."
+        },
+        {
+          "type": "p",
+          "text": "In the European Union, the European Accessibility Act, [Directive (EU) 2019/882](https://eur-lex.europa.eu/eli/dir/2019/882/oj), has applied since 28 June 2025. Its services scope is a closed list: electronic communications, access to audiovisual media, passenger transport services, consumer banking, e-books, and e-commerce. It does not name education, training, or e-learning, and its definition of a consumer excludes people acting for purposes of their trade, business, craft, or profession, so internal staff training is generally outside it. A provider selling courses to consumers online may still be covered for the e-commerce element, and microenterprises providing services are exempt. National transposing laws can go further, so confirm scope locally."
+        },
+        {
+          "type": "p",
+          "text": "Public sector bodies in the EU are covered separately by the Web Accessibility Directive, [Directive (EU) 2016/2102](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102), for their websites and mobile applications. It allows member states to extend its application to intranets and extranets \"used by a limited number of persons in the workplace or in education\", which can bring public sector training portals into scope."
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "heading": "What are the steps to make an e-learning course accessible?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "There are seven steps. Accessibility is far cheaper to design in than to retrofit, so the first three happen before any content is built."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Set the target and scope.** Record WCAG 2.2 Level AA as the requirement in the course specification and in any authoring tool or platform procurement. Ask suppliers for an accessibility conformance report against WCAG 2.2.",
+            "**Design for variability.** Apply Universal Design for Learning so content offers more than one way to engage, take in information, and show learning. This reduces the number of individual adjustments needed later.",
+            "**Choose accessible interaction patterns.** Prefer interactions that work with a keyboard and screen reader, such as multiple choice and ordered lists, over drag-and-drop or hover-only content. Where dragging is used, provide a single pointer alternative.",
+            "**Build accessible media and text.** Caption and transcribe audio, describe essential visuals, write meaningful alternative text, use real headings, and meet contrast ratios.",
+            "**Make assessments fair to access.** Allow time limits to be adjusted or turned off, avoid cognitive tests at login, and make sure results do not depend on color perception or fine motor control unless that is what is being assessed.",
+            "**Test with tools, people, and assistive technology.** Combine automated checks with manual review and testing using screen readers, magnification, and keyboard only.",
+            "**Document and maintain.** Publish an accessibility statement, record known issues and alternatives, and retest when content or the platform changes."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Accessibility checks belong in the same review cycle as content accuracy. If you are converting older courses, include them in the plan for [migrating legacy e-learning content](/guides/how-to-migrate-legacy-elearning-content)."
+        }
+      ]
+    },
+    {
+      "id": "checklist",
+      "heading": "What should an e-learning accessibility checklist cover?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It should cover each type of content in a course, mapped to the WCAG 2.2 criteria that apply. The checklist below is original, organized by the elements most e-learning modules contain."
+        },
+        {
+          "type": "table",
+          "caption": "E-learning accessibility checklist mapped to WCAG 2.2",
+          "head": [
+            "Course element",
+            "What to check",
+            "WCAG 2.2 criteria (level)"
+          ],
+          "rows": [
+            [
+              "Video with sound",
+              "Accurate captions, edited rather than auto-generated only; audio description of essential visual information",
+              "1.2.2 Captions, Prerecorded (A); 1.2.5 Audio Description, Prerecorded (AA)"
+            ],
+            [
+              "Audio only, such as podcasts",
+              "Text transcript",
+              "1.2.1 Audio-only and Video-only, Prerecorded (A)"
+            ],
+            [
+              "Images, diagrams, infographics",
+              "Meaningful text alternatives; decorative images hidden from screen readers",
+              "1.1.1 Non-text Content (A)"
+            ],
+            [
+              "Text and color",
+              "Contrast of at least 4.5:1 for normal text and 3:1 for large text; color is not the only way meaning is shown",
+              "1.4.3 Contrast, Minimum (AA); 1.4.1 Use of Color (A)"
+            ],
+            [
+              "Navigation and controls",
+              "Everything works with a keyboard; focus is visible and not hidden behind sticky bars or pop-ups",
+              "2.1.1 Keyboard (A); 2.4.7 Focus Visible (AA); 2.4.11 Focus Not Obscured, Minimum (AA)"
+            ],
+            [
+              "Drag-and-drop and sliders",
+              "A single pointer alternative to dragging; targets at least 24 by 24 CSS pixels or adequately spaced",
+              "2.5.7 Dragging Movements (AA); 2.5.8 Target Size, Minimum (AA)"
+            ],
+            [
+              "Timed quizzes and auto-advancing slides",
+              "Learners can turn off, adjust, or extend time limits; moving content can be paused",
+              "2.2.1 Timing Adjustable (A); 2.2.2 Pause, Stop, Hide (A)"
+            ],
+            [
+              "Login and enrollment",
+              "No memory or puzzle test without an alternative; information already entered is not requested again",
+              "3.3.8 Accessible Authentication, Minimum (AA); 3.3.7 Redundant Entry (A)"
+            ],
+            [
+              "Help and support",
+              "Help links appear in the same place on every screen",
+              "3.2.6 Consistent Help (A)"
+            ],
+            [
+              "Course player and custom widgets",
+              "Controls expose name, role, and value to assistive technology",
+              "4.1.2 Name, Role, Value (A)"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For media specifically, Section508.gov advises against relying on automatic captions alone for prerecorded content and summarizes a simple rule: sound plus video needs captions and audio description, audio only needs a transcript, and video only needs a transcript or audio description ([Section508.gov](https://www.section508.gov/create/synchronized-media/))."
+        }
+      ]
+    },
+    {
+      "id": "assessments",
+      "heading": "How do you make assessments in e-learning accessible without weakening them?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Make the access to an assessment flexible while keeping the standard fixed. An adjustment is fair when it removes a barrier unrelated to what is being assessed, such as reading speed in a test of procedure knowledge, and unfair only when it changes the competence being judged."
+        },
+        {
+          "type": "p",
+          "text": "Time limits are the clearest example. WCAG 2.2 criterion 2.2.1 requires that for each time limit set by content, the user can turn it off, adjust it over a wide range of at least ten times the default, or extend it, unless an exception applies. Unless speed is part of the competence, timed compliance quizzes should allow this. The same thinking underpins fairness in assessment: see [validity vs reliability in assessment](/compare/validity-vs-reliability-in-assessment) and [how to write multiple-choice questions](/guides/how-to-write-multiple-choice-questions), where plain language and reduced reading load serve every candidate."
+        }
+      ]
+    },
+    {
+      "id": "udl",
+      "heading": "How does Universal Design for Learning go beyond compliance?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Universal Design for Learning (UDL) goes beyond compliance by designing learning that works for a wide range of people from the start, rather than fixing barriers for individuals afterward. WCAG makes content technically accessible; UDL makes learning itself more usable."
+        },
+        {
+          "type": "p",
+          "text": "The UDL Guidelines published by CAST are now at version 3.0, released on 30 July 2024. They are organized around three principles: design multiple means of engagement, multiple means of representation, and multiple means of action and expression ([CAST](https://udlguidelines.cast.org/)). In a compliance course, that might mean a scenario, a short video, and a printable summary for the same outcome, and a choice between answering in writing or in a recorded walkthrough during a practical assessment."
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "heading": "How do you test e-learning for accessibility?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Test with a hybrid approach: automated tools to catch obvious errors, then manual review and assistive technology testing before release. Section508.gov warns that automated scanning tools \"cannot apply human subjectivity\" and either produce excessive false positives or \"test for only a small portion of the requirements\", and recommends that \"a hybrid testing approach is usually the best solution\" for large volumes of content ([Section508.gov](https://www.section508.gov/test/testing-overview/))."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Run an automated checker on every screen and fix reported errors first.",
+            "Complete the module using only a keyboard, from login to certificate.",
+            "Complete it with a screen reader and with 200% browser zoom.",
+            "Review captions and transcripts for accuracy against the audio.",
+            "Ask learners with disabilities to test pilot versions and record their findings.",
+            "Retest after every content update, authoring tool upgrade, or platform release."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry separates the knowledge framework from the content built on it, so the same outcomes and assessment points can be delivered in more than one accessible format without changing what is assessed. Accessibility review can be recorded alongside content accuracy review for each version."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is WCAG 2.1 still acceptable?",
+      "a": "Some laws and contracts still reference WCAG 2.0 or 2.1, and conformance to those versions may satisfy them. Because WCAG 2.2 is backwards compatible and adds criteria that matter for e-learning, designing to 2.2 Level AA meets the older versions and reduces rework when requirements are updated."
+    },
+    {
+      "q": "Does SCORM or xAPI make a course accessible?",
+      "a": "No. SCORM and xAPI govern how a course communicates with a learning platform, not how its content is built. Accessibility depends on the authoring choices, the course player, and the platform interface, each of which needs to be checked."
+    },
+    {
+      "q": "Does the European Accessibility Act apply to internal compliance training?",
+      "a": "Generally not. The Act covers listed products and consumer services, and its consumer definition excludes people acting for professional purposes. Employers may still have duties under national equality and employment law to make training accessible to staff, and public sector bodies may be covered by the Web Accessibility Directive."
+    },
+    {
+      "q": "Are auto-generated captions enough?",
+      "a": "Not on their own for prerecorded training. Section508.gov advises against relying solely on automatic captions because they are often inaccurate on terminology and speaker identification and omit relevant sounds. Use them as a draft and edit them before publishing."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Web Content Accessibility Guidelines (WCAG) 2.2, W3C Recommendation",
+      "publisher": "World Wide Web Consortium (W3C)",
+      "url": "https://www.w3.org/TR/WCAG22/"
+    },
+    {
+      "title": "IT Accessibility Laws and Policies",
+      "publisher": "Section508.gov, US General Services Administration",
+      "url": "https://www.section508.gov/manage/laws-and-policies/"
+    },
+    {
+      "title": "Create Accessible Synchronized Media",
+      "publisher": "Section508.gov, US General Services Administration",
+      "url": "https://www.section508.gov/create/synchronized-media/"
+    },
+    {
+      "title": "Testing Methods Overview",
+      "publisher": "Section508.gov, US General Services Administration",
+      "url": "https://www.section508.gov/test/testing-overview/"
+    },
+    {
+      "title": "Directive (EU) 2019/882 on the accessibility requirements for products and services (European Accessibility Act)",
+      "publisher": "European Parliament and Council, via EUR-Lex",
+      "url": "https://eur-lex.europa.eu/eli/dir/2019/882/oj"
+    },
+    {
+      "title": "Directive (EU) 2016/2102 on the accessibility of the websites and mobile applications of public sector bodies",
+      "publisher": "European Parliament and Council, via EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L2102"
+    },
+    {
+      "title": "Universal Design for Learning Guidelines version 3.0",
+      "publisher": "CAST",
+      "url": "https://udlguidelines.cast.org/"
+    }
+  ],
+  "related": [
+    "how-to-migrate-legacy-elearning-content",
+    "elearning-vs-instructor-led-compliance-training",
+    "validity-vs-reliability-in-assessment",
+    "how-to-write-multiple-choice-questions",
+    "instructional-design",
+    "scorm"
+  ],
+  "productLinks": [
+    {
+      "label": "Enterprise learning modernization",
+      "href": "/platform/enterprise-learning-modernisation"
+    },
+    {
+      "label": "Knowledge transformation",
+      "href": "/platform/knowledge-transformation"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 11,
+  "factCheck": [
+    {
+      "claim": "WCAG 2.2 W3C Recommendation dated 12 December 2024; original publication 5 October 2023; backwards compatible with 2.1; 4.1.1 Parsing removed; nine new criteria with levels",
+      "source": "https://www.w3.org/TR/WCAG22/"
+    },
+    {
+      "claim": "WCAG 2.2 SC 2.5.8 Target Size (Minimum) 24 by 24 CSS pixels; SC 2.2.1 turn off, adjust (at least ten times default), or extend; SC 1.4.3 contrast 4.5:1, large text 3:1",
+      "source": "https://www.w3.org/TR/WCAG22/"
+    },
+    {
+      "claim": "Section 508 applies to federal agencies; agencies must give disabled employees and public comparable access; Revised 508 Standards updated 18 Jan 2017, effective 18 Jan 2018, harmonized with WCAG 2.0",
+      "source": "https://www.section508.gov/manage/laws-and-policies/"
+    },
+    {
+      "claim": "Section508.gov: avoid relying on auto-captioning alone for prerecorded content; sound plus video needs captions and audio description; audio only transcript; video only transcript or audio description",
+      "source": "https://www.section508.gov/create/synchronized-media/"
+    },
+    {
+      "claim": "Section508.gov: automated tools cannot apply human subjectivity, produce false positives or test only a small portion; hybrid approach usually best",
+      "source": "https://www.section508.gov/test/testing-overview/"
+    },
+    {
+      "claim": "EAA Article 2(2) services list; Article 31 apply from 28 June 2025; Article 3(22) consumer excludes trade, business, craft or profession purposes; Article 4(5) microenterprise services exemption; no mention of education or e-learning as a service category",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882"
+    },
+    {
+      "claim": "Web Accessibility Directive Article 1 covers websites and mobile apps of public sector bodies; member states may extend to intranets/extranets used by a limited number of persons in the workplace or in education",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016L2102"
+    },
+    {
+      "claim": "CAST UDL Guidelines 3.0 released 30 July 2024; principles engagement, representation, action and expression",
+      "source": "https://udlguidelines.cast.org/"
+    }
+  ]
+}

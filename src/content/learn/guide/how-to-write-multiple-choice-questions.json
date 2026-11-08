@@ -3,7 +3,7 @@
   "kind": "guide",
   "title": "How do you write multiple-choice questions that test competence?",
   "seoTitle": "Writing multiple-choice questions",
-  "description": "How to write multiple-choice questions that test applied knowledge, not recall: scenario stems, focused lead-ins, plausible options, flaw checks, and item analysis.",
+  "description": "How to write multiple-choice questions that test applied knowledge: scenario stems, focused lead-ins, plausible options, flaw checks, and item analysis.",
   "shortAnswer": "Multiple-choice questions test competence when each item asks the learner to apply knowledge to a realistic scenario, not to recall an isolated fact. Write a short scenario, a focused lead-in that could be answered with the options covered, one clearly best answer, and homogeneous, plausible distractors. Remove technical flaws that cue test-wise candidates or add irrelevant difficulty, then use item analysis after each administration to fix or retire weak items.",
   "keyTakeaways": [
     "The NBME Item-Writing Guide's second rule is that each item should assess application of knowledge, not recall of an isolated fact.",
@@ -107,6 +107,10 @@
         {
           "type": "p",
           "text": "Remove two kinds of flaw: those that add irrelevant difficulty and confuse everyone, and those that cue \"testwise\" candidates toward the answer. The NBME guide explains that irrelevant difficulty \"can add construct-irrelevant variance to the final test score\", while cueing flaws let some candidates answer \"based on their test-taking skills alone, without necessarily knowing the content\"."
+        },
+        {
+          "type": "p",
+          "text": "Construct-irrelevant variance is a term from the Standards for Educational and Psychological Testing, which treat it as one of the two main threats to validity alongside construct underrepresentation ([AERA, APA, and NCME, 2014](https://www.testingstandards.net/open-access-files.html)). In a workplace quiz it usually means people fail for reasons that have nothing to do with the job, such as convoluted wording."
         },
         {
           "type": "table",
@@ -278,9 +282,9 @@
       "url": "https://doi.org/10.1111/j.1745-3992.2005.00006.x"
     },
     {
-      "title": "A Review of Multiple-Choice Item-Writing Guidelines for Classroom Assessment (Haladyna, Downing, and Rodriguez, 2002), Applied Measurement in Education 15(3)",
-      "publisher": "Taylor and Francis",
-      "url": "https://doi.org/10.1207/S15324818AME1503_5"
+      "title": "Standards for Educational and Psychological Testing (2014 edition, open access)",
+      "publisher": "American Educational Research Association (AERA), American Psychological Association (APA), and National Council on Measurement in Education (NCME)",
+      "url": "https://www.testingstandards.net/open-access-files.html"
     }
   ],
   "related": [
@@ -326,8 +330,8 @@
       "source": "https://doi.org/10.1111/j.1745-3992.2005.00006.x"
     },
     {
-      "claim": "Haladyna, Downing, Rodriguez 2002, Applied Measurement in Education 15(3) 309-333 (Crossref)",
-      "source": "https://doi.org/10.1207/S15324818AME1503_5"
+      "claim": "Standards chapter 1 names construct-irrelevant variance and construct underrepresentation as threats to validity",
+      "source": "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf"
     }
   ]
 }

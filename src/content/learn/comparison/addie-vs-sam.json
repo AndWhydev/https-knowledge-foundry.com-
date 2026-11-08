@@ -1,0 +1,301 @@
+{
+  "slug": "addie-vs-sam",
+  "kind": "comparison",
+  "title": "ADDIE vs SAM: what is the difference?",
+  "seoTitle": "ADDIE vs SAM",
+  "description": "ADDIE runs analysis, design, development, delivery, and evaluation in phases; SAM cycles through rapid prototypes. How they differ for regulated training.",
+  "shortAnswer": "ADDIE is a five phase instructional design process (Analysis, Design, Development, Implementation, and Evaluation) in which each phase produces outputs for the next. SAM, the Successive Approximation Model introduced by Michael Allen and Richard Sites in 2012, replaces long sequential phases with short cycles of design, prototype, and review, refining the course through successive versions. ADDIE gives stronger upfront analysis and documentation; SAM gives earlier learner and stakeholder feedback.",
+  "keyTakeaways": [
+    "ADDIE descends from the 1975 Interservice Procedures for Instructional Systems Development and is a label for a family of systematic models.",
+    "SAM was set out in Leaving ADDIE for SAM (2012), published by the American Society for Training and Development, now the Association for Talent Development (ATD).",
+    "SAM's larger version has three phases: preparation, iterative design, and iterative development, with alpha, beta, and gold releases.",
+    "Regulated training benefits from ADDIE-style analysis of obligations and SAM-style early testing of drafts.",
+    "Either model needs version control and sign-off to produce an audit-ready record."
+  ],
+  "sections": [
+    {
+      "id": "core-difference",
+      "heading": "What is the difference between ADDIE and SAM?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The difference is how work is sequenced. ADDIE organizes design as five phases, each completed and reviewed before the next begins. SAM organizes design as repeated short cycles in which a rough version is built early, reviewed by stakeholders and learners, and improved until it is good enough to release."
+        },
+        {
+          "type": "p",
+          "text": "Both cover the same activities: understanding the need, designing, building, delivering, and evaluating. What changes is when feedback arrives. In a strictly sequential ADDIE project, learners may see nothing until implementation. In SAM, a prototype is in front of reviewers within the first cycle. The [ADDIE model](/glossary/addie-model) entry explains that many practitioners also run ADDIE iteratively, which narrows the gap."
+        }
+      ]
+    },
+    {
+      "id": "origins",
+      "heading": "Where did ADDIE and SAM come from?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ADDIE came out of military instructional systems development in the 1970s; SAM was published in 2012 as an explicit alternative to it. The Interservice Procedures for Instructional Systems Development, prepared in 1975 by Florida State University's Center for Educational Technology, set out five phases: analyze, design, develop, implement, and control ([ERIC record](https://eric.ed.gov/?id=ED122022)). Michael Molenda later concluded that the ADDIE term \"came into use by word of mouth as a label for the whole family of systematic instructional development models\" ([Molenda, 2003](https://eric.ed.gov/?id=EJ676523))."
+        },
+        {
+          "type": "p",
+          "text": "SAM was set out by Michael W. Allen and Richard Sites in Leaving ADDIE for SAM, published in 2012 by the American Society for Training and Development ([Open Library record](https://openlibrary.org/works/OL29418716W)), the organization now named the Association for Talent Development (ATD). A peer-reviewed design guide describes SAM as \"an instructional design method that represents an alternative to the traditional instructional design model\", adding that while ADDIE \"is more of a waterfall methodology, the SAM is thought of more as an agile model\" ([Wolverton and Hollier, 2022](https://files.eric.ed.gov/fulltext/EJ1345818.pdf))."
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "heading": "How do ADDIE and SAM compare side by side?",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "ADDIE and SAM compared",
+          "head": [
+            "Dimension",
+            "ADDIE",
+            "SAM"
+          ],
+          "rows": [
+            [
+              "Structure",
+              "Five phases with outputs handed from one to the next",
+              "Preparation followed by repeated design and development cycles"
+            ],
+            [
+              "First learner-facing artifact",
+              "Often late, after design documents are approved",
+              "Early: rough prototypes in the first design cycle"
+            ],
+            [
+              "Analysis",
+              "A distinct, often extensive first phase",
+              "Brief information gathering, then learning through prototypes"
+            ],
+            [
+              "Documentation",
+              "Design documents, storyboards, and sign-offs per phase",
+              "Lighter design records; the prototype carries much of the specification"
+            ],
+            [
+              "Change handling",
+              "Changes late in the project are costly",
+              "Changes are expected in every cycle"
+            ],
+            [
+              "Evaluation",
+              "Formative within phases, summative after implementation",
+              "Review built into every iteration, then alpha, beta, and gold releases"
+            ],
+            [
+              "Strengths",
+              "Traceability, completeness, clear approval gates",
+              "Speed to feedback, stakeholder engagement, fewer late surprises"
+            ],
+            [
+              "Risks",
+              "Long lead times; designs that look right on paper but fail with learners",
+              "Scope creep; weak records of why decisions were made"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sam-phases",
+      "heading": "What are the phases of SAM?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "SAM has two versions. The simpler SAM1 suits small projects and repeats short cycles that cover analysis, design, and development. The larger SAM2 adds structure in three phases: preparation, iterative design, and iterative development."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Preparation.** Gather background information and hold a collaborative kickoff, called a Savvy Start, where stakeholders brainstorm, review the information, and sketch initial prototype ideas.",
+            "**Iterative design.** Plan the project and develop, evaluate, and revise prototypes until the design is settled.",
+            "**Iterative development.** Build a design proof, then alpha, beta, and gold releases, evaluating each before moving to the next."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This description follows two peer-reviewed accounts that cite Allen and Sites: a 2021 comparative study of SAM and ADDIE ([Ali, Acquah, and Esia-Donkoh, 2021](https://files.eric.ed.gov/fulltext/EJ1324100.pdf)) and the 2022 online course design guide by Wolverton and Hollier. The latter notes that because SAM takes a continuous improvement approach, the final development phase \"can occur even after the first course is taught\"."
+        }
+      ]
+    },
+    {
+      "id": "when-to-choose",
+      "heading": "When should you choose ADDIE or SAM for regulated training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Choose ADDIE-style sequencing where the content is dictated by obligations that must be fully mapped before design, and SAM-style iteration where the main risk is that learners will not engage with or apply the content. Most regulated programs need both. The decision guide below is an original aid."
+        },
+        {
+          "type": "table",
+          "caption": "Choosing an approach by project characteristic",
+          "head": [
+            "Project characteristic",
+            "Lean toward",
+            "Reason"
+          ],
+          "rows": [
+            [
+              "Content is defined by a regulation or standard with many specific requirements",
+              "ADDIE analysis up front",
+              "Every obligation must be mapped to an outcome before anything is built"
+            ],
+            [
+              "The audience, workflow, or interface is new and uncertain",
+              "SAM",
+              "Prototypes reveal usability and relevance problems early"
+            ],
+            [
+              "Formal approval gates are required by governance",
+              "ADDIE gates, with SAM cycles inside design",
+              "Gives auditable sign-off points without losing early feedback"
+            ],
+            [
+              "Tight deadline with available reviewers",
+              "SAM",
+              "Parallel review and build shortens time to a usable version"
+            ],
+            [
+              "Content changes often, such as procedures under revision",
+              "SAM with strict version control",
+              "Iteration absorbs change, but every release needs a recorded basis"
+            ],
+            [
+              "High-consequence competence assessment is part of the course",
+              "ADDIE for the assessment design",
+              "Blueprints, standards, and validation need documented design decisions"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Whichever model you use, start from a [training needs analysis](/glossary/training-needs-analysis) and, for role-specific programs, a [job task analysis](/glossary/job-task-analysis), so iterations refine the right content rather than polish the wrong one."
+        }
+      ]
+    },
+    {
+      "id": "audit-readiness",
+      "heading": "How do you keep a SAM project audit ready?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Keep a SAM project audit ready by recording, for each release, which obligations and outcomes it covers, which source versions it is based on, who reviewed it, and what changed. Iteration is not the risk; undocumented iteration is."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Map obligations to outcomes before the Savvy Start, so prototypes are tested against a fixed target.",
+            "Version every prototype and release, and keep a short change log with the reason for each change.",
+            "Record subject matter expert and compliance sign-off at least at beta and gold.",
+            "Freeze assessment items and pass standards before gold, and validate them separately.",
+            "Link the gold release to the policy and procedure versions it reflects, so later changes trigger review."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For the versioning discipline itself, see [how to maintain version control for training content](/guides/how-to-maintain-version-control-for-training-content)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry holds the analysis outputs, the concepts, obligations, outcomes, and assessment points, in a governed framework that stays fixed while content iterates. Teams can prototype quickly in any design model, and every version remains traceable to the framework it was built against."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is SAM better than ADDIE?",
+      "a": "Neither is better in general. SAM shortens the time to useful feedback and suits projects with uncertain audiences or interfaces. ADDIE suits projects where completeness and documented approval matter most. Many teams use ADDIE's analysis and governance with SAM's iterative design and development."
+    },
+    {
+      "q": "Is ADDIE always linear?",
+      "a": "No. The phases can be run in sequence, but many practitioners evaluate and revise within every phase. Criticism of ADDIE often targets a strictly sequential version. The practical difference from SAM is how early and how often working versions reach reviewers."
+    },
+    {
+      "q": "What is a Savvy Start in SAM?",
+      "a": "A Savvy Start is the collaborative kickoff in SAM's preparation phase. Key stakeholders and designers brainstorm, review background information, and sketch early prototype ideas together, so assumptions are tested before significant design work begins."
+    },
+    {
+      "q": "Does SAM work for instructor-led training?",
+      "a": "Yes. SAM is most often described for e-learning, but the same cycle of early prototype, review, and refinement works for workshop plans, facilitator guides, and practical exercises. A pilot session plays the role of an alpha or beta release."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Interservice Procedures for Instructional Systems Development: Executive Summary and Model (Branson et al., 1975)",
+      "publisher": "ERIC, US Department of Education",
+      "url": "https://eric.ed.gov/?id=ED122022"
+    },
+    {
+      "title": "In Search of the Elusive ADDIE Model (Molenda, 2003), Performance Improvement 42(5)",
+      "publisher": "ERIC, US Department of Education",
+      "url": "https://eric.ed.gov/?id=EJ676523"
+    },
+    {
+      "title": "Leaving ADDIE for SAM (Allen and Sites, 2012)",
+      "publisher": "American Society for Training and Development (now ATD), catalog record via Open Library",
+      "url": "https://openlibrary.org/works/OL29418716W"
+    },
+    {
+      "title": "Guidelines for Incorporating Active Learning Into the Design of Online Management Courses Utilizing the Successive Approximation Model (SAM) (Wolverton and Hollier, 2022), IJEDICT 18(1)",
+      "publisher": "ERIC, US Department of Education",
+      "url": "https://files.eric.ed.gov/fulltext/EJ1345818.pdf"
+    },
+    {
+      "title": "A comparative study of SAM and ADDIE models in simulating STEM instruction (Ali, Acquah, and Esia-Donkoh, 2021), African Educational Research Journal 9(4)",
+      "publisher": "ERIC, US Department of Education",
+      "url": "https://files.eric.ed.gov/fulltext/EJ1324100.pdf"
+    }
+  ],
+  "related": [
+    "addie-model",
+    "instructional-design",
+    "training-needs-analysis",
+    "job-task-analysis",
+    "how-to-maintain-version-control-for-training-content",
+    "how-to-migrate-legacy-elearning-content"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge transformation",
+      "href": "/platform/knowledge-transformation"
+    },
+    {
+      "label": "Enterprise learning modernization",
+      "href": "/platform/enterprise-learning-modernisation"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 11,
+  "factCheck": [
+    {
+      "claim": "IPISD 1975, Florida State University Center for Educational Technology; phases analyze, design, develop, implement, control",
+      "source": "https://eric.ed.gov/?id=ED122022"
+    },
+    {
+      "claim": "Molenda 2003: ADDIE term came into use by word of mouth as a label for the whole family of systematic instructional development models",
+      "source": "https://eric.ed.gov/?id=EJ676523"
+    },
+    {
+      "claim": "Leaving ADDIE for SAM, Michael W. Allen and Richard Sites, 2012, American Society for Training and Development",
+      "source": "https://openlibrary.org/works/OL29418716W"
+    },
+    {
+      "claim": "Wolverton and Hollier 2022: SAM developed by Allen in 2012 as alternative to ADDIE; ADDIE more of a waterfall methodology, SAM an agile model; preparation, iterative design, iterative development; final phase can occur after first course is taught",
+      "source": "https://files.eric.ed.gov/fulltext/EJ1345818.pdf"
+    },
+    {
+      "claim": "Ali et al. 2021: SAM1 cyclical iterations; SAM2 eight steps across preparation (information gathering, Savvy Start), iterative design (project planning, additional design), iterative development (design proof, alpha, beta, gold)",
+      "source": "https://files.eric.ed.gov/fulltext/EJ1324100.pdf"
+    }
+  ]
+}

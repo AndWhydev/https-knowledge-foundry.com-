@@ -1,0 +1,200 @@
+{
+  "slug": "millers-pyramid",
+  "kind": "glossary",
+  "title": "What is Miller's pyramid?",
+  "seoTitle": "Miller's pyramid of competence",
+  "description": "Miller's pyramid is a four level model for assessing competence: knows, knows how, shows how, and does. Its origin, the levels, and matching evidence types.",
+  "shortAnswer": "Miller's pyramid is a framework for assessing professional competence, proposed by George Miller in 1990, with four levels: knows, knows how, shows how, and does. The lower two levels concern knowledge and its application, assessed by written methods; the upper two concern behavior, assessed in simulated and real settings. Its central message is that no single assessment method can capture competence, so evidence must be matched to the level being judged.",
+  "keyTakeaways": [
+    "George Miller introduced the pyramid in Academic Medicine in 1990 in an article on assessing clinical skills, competence, and performance.",
+    "The four levels are Knows, Knows How, Shows How, and Does, each needing its own assessment methods.",
+    "Written tests reach the lower levels; simulations and observation in the workplace reach the upper levels.",
+    "In workplace and compliance training, most assessment stops at Knows, which is why completion records rarely prove competence.",
+    "A fifth level, Is, has been proposed to capture professional identity."
+  ],
+  "term": "Miller's pyramid",
+  "alsoKnownAs": [
+    "Miller's pyramid of clinical competence",
+    "Miller's framework for clinical assessment"
+  ],
+  "sections": [
+    {
+      "id": "origin",
+      "heading": "Where does Miller's pyramid come from?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Miller's pyramid comes from a 1990 article by George E. Miller, \"The assessment of clinical skills/competence/performance\", published in a supplement to Academic Medicine, volume 65, issue 9 ([PubMed record](https://pubmed.ncbi.nlm.nih.gov/2400509/)). It was written for medical education but is now used wherever competence must be assessed."
+        },
+        {
+          "type": "p",
+          "text": "A 2016 article in the same journal summarizes Miller's argument: \"no single method of assessment could encompass the intricacies and complexities of medical practice\", so he proposed \"a pyramidal structure with four levels, each of which required specific methods of assessment\", namely \"Knows,\" \"Knows How,\" \"Shows How,\" and \"Does\" ([Cruess, Cruess, and Steinert, 2016](https://pubmed.ncbi.nlm.nih.gov/26332429/))."
+        }
+      ]
+    },
+    {
+      "id": "levels",
+      "heading": "What are the four levels, and what evidence fits each?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each level asks a different question about the person, and each needs different evidence. A 2019 commentary in the International Journal of Medical Education describes the lower levels as knowledge \"tested by written exams and traditional multiple-choice questions\" and application assessed by \"essays, clinical problem-solving exercises and extended MCQs\", while the upper levels are assessed \"by standardized patient exercises, simulations and clinical exams\" and \"by direct observation in real clinical settings\" ([Witheridge, Ferns, and Scott-Smith, 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC7246123/))."
+        },
+        {
+          "type": "p",
+          "text": "The table below translates those levels into workplace training. The evidence and record columns are an original mapping for regulated organizations, not part of Miller's article."
+        },
+        {
+          "type": "table",
+          "caption": "Miller's pyramid mapped to workplace evidence types",
+          "head": [
+            "Level",
+            "Question it answers",
+            "Typical evidence in workplace training",
+            "What the record can claim"
+          ],
+          "rows": [
+            [
+              "Knows",
+              "Does the person know the facts, rules, and concepts?",
+              "Recall quiz, policy attestation, knowledge check",
+              "The person could recall the content on that date"
+            ],
+            [
+              "Knows how",
+              "Can they apply knowledge to a situation?",
+              "Scenario-based multiple-choice, case analysis, short written justification",
+              "The person can choose the right action in described situations"
+            ],
+            [
+              "Shows how",
+              "Can they perform the task in a controlled setting?",
+              "Simulation, role play, practical demonstration, observed walkthrough",
+              "The person performed the task correctly under assessment conditions"
+            ],
+            [
+              "Does",
+              "Do they perform correctly in real work?",
+              "Workplace observation, work product review, supervisor verification, audit of records",
+              "The person performs to standard in the job"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "workplace-use",
+      "heading": "How is Miller's pyramid used in workplace and compliance training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Miller's pyramid is used to check that assessment reaches the level the role requires. Most mandatory e-learning ends with a recall quiz, which evidences Knows. If an obligation requires staff to act, such as escalating a suspicious transaction or isolating equipment, the record overstates competence unless evidence from higher levels is added."
+        },
+        {
+          "type": "p",
+          "text": "A practical approach is to tag each outcome with the level it requires, then confirm the [assessment blueprint](/glossary/assessment-blueprint) uses a method that reaches it. Scenario items can move written tests up to Knows How; see [how to write multiple-choice questions](/guides/how-to-write-multiple-choice-questions). Shows How and Does usually need a [verification of competency](/glossary/verification-of-competency) step."
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "heading": "What are the limitations of Miller's pyramid?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The main limitations are that it separates cognition from behavior more neatly than real work does, and that it says nothing about values or identity. Witheridge and colleagues argue that observation-based assessment at the upper levels shows the outcome of reasoning but not the reasoning process itself, so complex judgment can fall between the levels."
+        },
+        {
+          "type": "p",
+          "text": "Cruess, Cruess, and Steinert proposed adding a fifth level, \"Is\", at the apex, reflecting the presence of a professional identity, on the grounds that incorporating professional values may be a more reliable indicator of behavior than performance alone. For regulated organizations, this maps loosely to culture and conduct expectations that sit beyond task competence."
+        }
+      ]
+    },
+    {
+      "id": "related-models",
+      "heading": "How is Miller's pyramid different from Bloom's taxonomy and the Kirkpatrick model?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Miller's pyramid classifies the kind of evidence an assessment produces about a person's competence. [Bloom's taxonomy](/glossary/blooms-taxonomy) classifies the thinking a learning outcome requires, and the [Kirkpatrick model](/glossary/kirkpatrick-model) classifies how a training program is evaluated. Used together, Bloom sets the level of the outcome, Miller checks that the assessment can see it, and Kirkpatrick asks whether the program changed results."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry lets each assessment point record the type of evidence it produces, so a framework shows at a glance which outcomes are evidenced only by recall and which reach observed performance. That makes gaps between what an obligation requires and what the training record proves visible before an audit does."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between Shows How and Does?",
+      "a": "Shows How is performance in a controlled assessment setting, such as a simulation or practical test, where the person knows they are being assessed. Does is performance in real work over time. A person can pass a demonstration and still not apply the procedure under normal workplace pressures, so the two levels need different evidence."
+    },
+    {
+      "q": "Is Miller's pyramid only for medical training?",
+      "a": "No. It was written for clinical assessment, but its logic applies to any field where competence matters, including financial services, energy, aviation, and manufacturing. The levels describe evidence types, not medical content."
+    },
+    {
+      "q": "Can e-learning assess the top of Miller's pyramid?",
+      "a": "E-learning can reach Knows How through scenarios and, with well built simulations, some aspects of Shows How. Does requires evidence from the workplace itself, such as observation, work product review, or supervisor verification. E-learning alone cannot evidence it."
+    }
+  ],
+  "sources": [
+    {
+      "title": "The assessment of clinical skills/competence/performance (Miller, 1990), Academic Medicine 65(9 Suppl): S63-67",
+      "publisher": "PubMed, US National Library of Medicine",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2400509/"
+    },
+    {
+      "title": "Amending Miller's Pyramid to Include Professional Identity Formation (Cruess, Cruess, and Steinert, 2016), Academic Medicine 91(2)",
+      "publisher": "PubMed, US National Library of Medicine",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26332429/"
+    },
+    {
+      "title": "Revisiting Miller's pyramid in medical education: the gap between traditional assessment and diagnostic reasoning (Witheridge, Ferns, and Scott-Smith, 2019), International Journal of Medical Education 10",
+      "publisher": "PubMed Central, US National Library of Medicine",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7246123/"
+    }
+  ],
+  "related": [
+    "competency-assessment",
+    "blooms-taxonomy",
+    "how-to-write-multiple-choice-questions",
+    "verification-of-competency",
+    "assessment-blueprint",
+    "kirkpatrick-model"
+  ],
+  "productLinks": [
+    {
+      "label": "Verification and trust",
+      "href": "/platform/verification-trust"
+    },
+    {
+      "label": "Hybrid verification programs",
+      "href": "/programs/hybrid-verification"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 11,
+  "factCheck": [
+    {
+      "claim": "Miller GE. The assessment of clinical skills/competence/performance. Acad Med 1990 Sep;65(9 Suppl):S63-7",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/2400509/"
+    },
+    {
+      "claim": "Cruess 2016 abstract: no single method could encompass medical practice; four levels Knows, Knows How, Shows How, Does; proposed fifth level Is reflecting professional identity",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/26332429/"
+    },
+    {
+      "claim": "Witheridge 2019: lower levels written exams/MCQs and essays/problem solving/extended MCQs; upper levels standardized patients/simulations and direct observation; observation-based assessment captures outcome not process of diagnostic reasoning",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7246123/"
+    }
+  ]
+}
