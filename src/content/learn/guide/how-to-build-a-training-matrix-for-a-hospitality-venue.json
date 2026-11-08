@@ -1,0 +1,307 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-hospitality-venue",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a hospitality venue?",
+  "seoTitle": "Training matrix for a hospitality venue",
+  "description": "Build a training matrix for a licensed venue: bar, gaming, security, kitchen and duty manager roles against liquor, gambling, AML and guest safety rules.",
+  "shortAnswer": "A hospitality venue training matrix lists every guest facing and back of house role (bar, floor, gaming, cage, door security, kitchen, duty manager, licensee) against the license conditions and statutes for each venue's market, covering alcohol service, gambling, anti-money laundering, food safety, security licensing, first aid and guest harassment. Each cell records the credential, its expiry, the venue level coverage rule and the document an inspector expects on site.",
+  "keyTakeaways": [
+    "Most venue obligations attach to a personal credential with a fixed life: five years for NSW RSA and RCG endorsements, three years for a Victorian RSA certificate, five years for an NSW food safety supervisor certificate.",
+    "Some rules are about coverage, not individuals: NSW hotels and clubs with more than 20 gaming machine entitlements must have one to three Responsible Gambling Officers on duty, depending on entitlements.",
+    "Gaming turns a venue into an AML reporting entity: in Australia above 15 gaming machines, and in the United States for casinos and card clubs above $1 million in gross annual gaming revenue.",
+    "Inspectors check documents at the venue: Victorian licensees must keep each staff member's current RSA certificate on site, and NSW workers must carry their competency card when working.",
+    "Several venue rules changed in 2025 and 2026, including Victorian security license renewal training from 5 October 2026 and Japan's customer harassment duty from October 1, 2026."
+  ],
+  "sections": [
+    {
+      "id": "venue-matrix-scope",
+      "heading": "What makes a licensed venue's matrix different from other workplaces?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A licensed venue's matrix is driven by the license itself: liquor, gaming and food authorities attach conditions to the premises, and those conditions require named credentials before a person may serve, supervise a gaming room or stand on the door. Missing a credential is not a training gap discovered at audit; it is an offense on the night, often with an on the spot penalty for both the worker and the licensee."
+        },
+        {
+          "type": "p",
+          "text": "The general approach in [how to build a training matrix](/guides/how-to-build-a-training-matrix) applies, but three features are specific to hospitality. First, casual and seasonal staff turn over quickly, so a new starter's first shift is the critical date. Second, one person often works across bar, gaming and floor in the same week, so the matrix must follow the shifts a person can be rostered to, not just their job title. Third, some cells are venue level: a room needs a qualified supervisor or gambling officer present whenever it trades. The food side of a venue is covered in more depth in the [food business training matrix guide](/guides/how-to-build-a-training-matrix-for-a-food-business); this guide concentrates on the licensed floor."
+        }
+      ]
+    },
+    {
+      "id": "venue-roles",
+      "heading": "Which venue roles should have their own rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Split rows by the activities the license regulates: supplying alcohol, working in a gaming area, handling cash and payouts, monitoring patrons, preparing food and holding the license. A bartender who also patrols the gaming room carries both sets of rows."
+        },
+        {
+          "type": "table",
+          "caption": "Hospitality venue role families and their obligation drivers",
+          "head": ["Role family", "Why it needs its own row", "Typical obligation drivers"],
+          "rows": [
+            ["Bar, floor and bottle shop staff", "Anyone who sells, serves or supplies alcohol needs a current RSA credential", "NSW RSA competency card; Victorian RSA Certificate of Completion"],
+            ["Gaming room attendants", "Staff who patrol or serve in a gaming area need gambling conduct training", "NSW Responsible Conduct of Gambling (RCG)"],
+            ["Responsible Gambling Officers and gaming supervisors", "Rostering ratios and advanced training apply to named roles", "Advanced RCG; Gaming Machines Regulation 2019 RGO ratios"],
+            ["Cashiers, cage and duty managers handling payouts", "Payouts and cash handling are AML designated services", "AML/CTF Act section 26F and Rules 5-9; 31 CFR 1021.210"],
+            ["Door security and crowd controllers", "Security work is licensed and needs first aid and, in NSW, RSA", "NSW Class 1A license; Victorian crowd controller license; California BSIS registration"],
+            ["Kitchen and food handlers", "Unpackaged ready to eat food triggers handler training and a supervisor", "Standard 3.2.2A; NSW and Queensland supervisor rules; FDA Food Code; Regulation 852/2004; Japan Food Sanitation Act"],
+            ["Licensees, approved managers and club directors", "Personal liability and advanced training attach to the license holder", "NSW Licensee Training; ARCG; Victorian Advanced RSA"],
+            ["Designated first aiders", "Ratios depend on workplace risk", "Model WHS Regulation 42 and Code of Practice; WorkSafe Victoria compliance code"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "venue-obligations-by-market",
+      "heading": "Which obligations apply to venues in each market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Take the columns from the regulation pages for each market where a venue trades. The summaries below are drawn only from those pages."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Australia: alcohol.** In NSW, anyone who sells, serves or supplies alcohol, plus security staff and crowd controllers monitoring patrons, needs RSA from a Liquor & Gaming NSW approved provider; completion gives a 90 day interim certificate and then a competency card valid for five years ([NSW RSA](/regulations/responsible-service-of-alcohol-training-nsw)). In Victoria, staff at general, on-premises, late night and packaged liquor venues need a Certificate of Completion before or within one month of first supplying alcohol, current for three years ([Victorian RSA](/regulations/responsible-service-of-alcohol-training-victoria)).",
+            "**Australia: gambling.** NSW requires RCG for staff who patrol or serve in a gaming machine area, and Advanced RCG for Responsible Gambling Officers, licensees, approved managers, club secretaries and gaming supervisors ([NSW RCG](/regulations/nsw-responsible-conduct-of-gambling-training)). Hotels and clubs whose group entitlement exceeds 15 gaming machines, and all casinos, must train personnel under section 26F(4)(e) of the AML/CTF Act and section 5-9 of the AML/CTF Rules 2025 ([AUSTRAC gambling sector](/regulations/austrac-gambling-sector-aml-training)).",
+            "**Australia: food, security and first aid.** Standard 3.2.2A requires handler training before a prescribed activity and a food safety supervisor certified within the previous five years ([Standard 3.2.2A](/regulations/food-safety-standard-3-2-2a-training)); NSW requires one supervisor per premises who cannot cover another premises ([NSW FSS](/regulations/nsw-food-safety-supervisor-requirements)), and Queensland licensees must have a supervisor within 30 days of licensing ([Queensland FSS](/regulations/queensland-food-safety-supervisor-requirements)). NSW Class 1A security officers need the NSW Security Licence Course and HLTAID011 first aid issued within three years ([NSW security](/regulations/nsw-security-licence-training-requirements)); Victorian crowd controllers need CPP20218 and, from 5 October 2026, a refresher before renewal ([Victorian security](/regulations/victoria-private-security-licence-training)). The first aid Code recommends annual CPR refreshers and requalification every three years ([first aid](/regulations/first-aid-training-requirements-australia)).",
+            "**United States.** FDA Food Code section 2-102.12 says the person in charge shall be a certified food protection manager, but it binds a venue only where the state or local authority has adopted it ([Food Code CFPM](/regulations/fda-food-code-certified-food-protection-manager)). Casinos and card clubs above $1 million in gross annual gaming revenue must train personnel, including in identifying unusual or suspicious transactions, under 31 CFR 1021.210(b)(2)(iii) ([US casino AML](/regulations/casino-aml-training-requirements-us)). California security guards need 8 hours of Power to Arrest and Appropriate Use of Force training before registration and 8 hours of continuing training every year ([California guards](/regulations/california-security-guard-training-requirements)).",
+            "**European Union and Portugal.** Regulation (EC) No 852/2004, Annex II, Chapter XII requires food handlers to be supervised and instructed or trained commensurate with their work, with no fixed hours or interval; the European Commission's guidance contrasts the needs of a waiter and a cook ([EU food hygiene](/regulations/eu-food-hygiene-training-requirements)).",
+            "**Japan.** Restaurants must appoint a food hygiene manager under Appended Table 17 of the Food Sanitation Act Enforcement Regulation and periodically verify that food handler education works ([Japan food sanitation](/regulations/japan-food-sanitation-act-haccp-and-food-hygiene-manager)). From October 1, 2026, every employer must take measures against customer harassment, with training named as an accepted means ([Japan customer harassment](/regulations/japan-customer-harassment-prevention-obligations))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "illustrative-venue-matrix",
+      "heading": "What does an illustrative venue matrix look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The extract below is illustrative only, for a hypothetical hospitality group with a Sydney hotel holding 120 gaming machine entitlements, a Melbourne late night bar, a Las Vegas card room and an Osaka restaurant. Frequencies marked as group policy are the group's own choice; the others come from the cited rule."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical hospitality group, role by obligation",
+          "head": ["Role", "Market", "Obligation", "Frequency", "Evidence held"],
+          "rows": [
+            ["Bartender", "Australia (NSW)", "RSA competency card", "Before first shift (interim certificate valid 90 days); refresher before five year expiry", "Card number and expiry recorded; card carried on shift"],
+            ["Gaming attendant", "Australia (NSW)", "RCG endorsement", "Before working in the gaming area; refresher every five years", "Interim certificate after 25 of 25 assessment; card endorsement"],
+            ["Responsible Gambling Officer", "Australia (NSW)", "ARCG and RGO rostering", "Two RGOs on duty while machines operate (100 to 299 entitlements)", "Roster matched to RGO register each trading day"],
+            ["Cashier and duty manager", "Australia", "AML/CTF Rules 5-9 initial and ongoing training", "On commencement; group policy annual", "Scenario assessment on venue indicators, not e-learning alone"],
+            ["Crowd controller", "Australia (NSW)", "Class 1A license, HLTAID011, RSA", "First aid within three years; license renewal from eight weeks before expiry", "License, first aid and RSA expiry dates; sign-on register"],
+            ["Bar staff", "Australia (Victoria)", "RSA Certificate of Completion", "Within one month of first supply; refresher every three years", "Copy of current certificate kept at the venue"],
+            ["Licensee", "Australia (Victoria)", "Advanced RSA", "Within six months of late night license grant", "Completion certificate on licensee file"],
+            ["Cage cashier", "United States", "31 CFR 1021.210 training", "On hire; group policy annual and on procedure change", "Attendance, materials, test results on $5,000 SAR and over $10,000 CTR triggers"],
+            ["Door guard", "United States (California)", "BSIS guard training", "8 hours before registration; 16 hours within 30 days; 32 within six months; 8 hours yearly", "Course certificates kept by guard; employer records for employment"],
+            ["Restaurant floor staff", "Japan", "Customer harassment response procedures", "From October 1, 2026; group policy on hire and annually", "Attendance and acknowledgment of response procedures"],
+            ["Food hygiene manager", "Japan", "Appended Table 17 item 1 appointment", "Before opening; periodic course where the business is licensed", "Qualification or prefectural course certificate"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coverage-rules",
+      "heading": "How do you handle rules that require someone on duty rather than everyone trained?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Model them as venue rows checked against the roster, because the obligation is met only when a qualified person is present or reachable at the right time. A venue can have every staff member certified and still breach a coverage rule on a night when the rostered supervisor calls in sick."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Responsible Gambling Officers.** NSW hotels and clubs with 21 to 99 gaming machine entitlements need one RGO, 100 to 299 need two and 300 or more need three, with nominated RGOs from midnight to 8am. Liquor & Gaming NSW does not recommend security officers as RGOs.",
+            "**Food safety supervisors.** Standard 3.2.2A requires a supervisor who is reasonably available; FSANZ describes that as on site or easily contactable. In NSW, one supervisor cannot cover a second premises.",
+            "**Person in charge.** FDA Food Code section 2-101.11 requires a person in charge to be present during all hours of operation, and section 2-102.12 makes that person a certified food protection manager where the code is adopted.",
+            "**First aiders.** The model Code recommends one first aider per 50 workers in low risk workplaces and one per 25 in high risk workplaces; Victoria's compliance code uses its own ratios and requires at least one officer available during operating times.",
+            "**Security sign-on.** NSW requires sign-on registers each shift, so the register is the evidence that a licensed operative was on the door."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "credential-clocks",
+      "heading": "How should a venue track credential expiry and grace periods?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Record the issue date, the expiry rule and any grace period exactly as the regulator states it, because they differ across credentials and a single annual reminder will be wrong for most of them. Venue credentials also behave differently once they lapse."
+        },
+        {
+          "type": "table",
+          "caption": "Credential clocks recorded on the venue regulation pages",
+          "head": ["Credential", "Market", "Life or interval", "What happens at expiry"],
+          "rows": [
+            ["RSA competency card endorsement", "Australia (NSW)", "Five years from the earliest endorsement on the card", "28 day grace period if the identity check was completed before expiry; training over five years ago needs the full course"],
+            ["RCG endorsement", "Australia (NSW)", "Five years, renewed by online refresher", "Liquor & Gaming NSW sends a reminder 90 days before expiry"],
+            ["RSA Certificate of Completion", "Australia (Victoria)", "Three years", "Free online refresher of about 90 minutes, including a sexual harassment and assault module"],
+            ["Food safety supervisor certificate", "Australia (NSW)", "Five years", "30 days to recertify or appoint another; recertification only up to 90 days after expiry"],
+            ["Security license (Class 1)", "Australia (NSW)", "1, 3 or 5 year terms", "Renew from eight weeks before to 90 days after expiry; then a new application"],
+            ["First aid certificate", "Australia", "Requalify every three years; CPR yearly (Code recommendation)", "First aider should not act beyond current training"],
+            ["Security guard registration", "United States (California)", "8 hours continuing training each year", "Registrations not renewed within 60 days of expiration are canceled"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Where a rule sets no interval, the venue chooses one and records why. FSANZ has set no refresher period for food handler training and calls regular refreshers best practice; Regulation 852/2004 leaves frequency to the needs of the establishment. The guide on [setting mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles) covers how to justify the choice."
+        }
+      ]
+    },
+    {
+      "id": "inspection-evidence",
+      "heading": "What will liquor, gaming and food inspectors ask to see?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They ask for the credential itself, at the venue, at the time of inspection. Hospitality evidence is checked in person far more often than in most sectors, so the matrix should show where each document physically sits."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Certificates on site.** Victorian licensees must keep a copy of each staff member's current RSA certificate at the venue and produce it immediately to a liquor inspector or Victoria Police; failure to keep or produce certificates carries a maximum penalty of $1,046. NSW requires a copy of the food safety supervisor certificate on the premises.",
+            "**Cards carried.** NSW workers must have their competency card available, physically or digitally, whenever they are in a role that requires it. A worker without a current RSA endorsement faces a $220 penalty notice ($440 in a prescribed precinct), and a licensee who permits it faces $1,100.",
+            "**AML training that fits the venue.** AUSTRAC criticizes third party training that does not cover industry money laundering risks or the entity's own program, and says e-learning can't be relied on solely. Its pubs and clubs indicators, such as abandoning a machine above the cheque or EFT threshold or buying TITO tickets, make good assessment scenarios.",
+            "**Retention.** California training providers keep guard certificates and exam answer sheets for at least two years; employers keep guard training records for the length of employment. US casinos retain suspicious activity reports and supporting documents for five years.",
+            "**Food records.** Category one businesses under Standard 3.2.2A must keep records substantiating critical controls for 3 months. See [preparing training records for an audit](/guides/how-to-prepare-training-records-for-an-audit) for record design."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "venue-changes",
+      "heading": "Which venue rules changed recently or are pending?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Several venue obligations changed in 2025 and 2026, and one US casino rule is pending, as at November 2026. Add each as a dated row so affected cells switch on the right day."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**30 June 2025, NSW:** RCG became mandatory for club directors (unless they completed Responsible Gambling Board Oversight training) and operational directors of hotel owning companies.",
+            "**19 June 2025, Victoria:** every private security activity became a licensed activity under the Private Security and County Court Amendment Act 2024.",
+            "**September 17, 2026, United States:** FDA released the 2026 Food Code, adding food defense to the person in charge knowledge areas and to staff training duties; it applies only once adopted locally.",
+            "**October 1, 2026, Japan:** customer harassment measures became mandatory for all employers, with ten required measures set by MHLW Notice No. 51 of 2026.",
+            "**5 October 2026, Victoria:** renewing security operators need HLTAID011 first aid completed in the three years before expiry, and crowd controllers, guards and bodyguards need an approved refresher in the 12 months before renewal."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Pending, not yet law",
+          "text": "FinCEN proposed on April 10, 2026 to replace the casino training wording with the statute's ongoing employee training program language. Comments closed June 9, 2026 and no final rule had been published as at November 2026. Track it as a watch item."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each venue obligation against its source rule, market, credential clock and coverage rule, so a matrix row shows both who must be trained and when a qualified person must be on duty. When a rule such as the Victorian security renewal requirement changes, affected roles and evidence rules are flagged. See [compliance programs](/programs/compliance)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do security staff at an NSW venue need RSA as well as a security license?",
+      "a": "Yes. Liquor & Gaming NSW lists security staff and crowd controllers monitoring patron behavior among those who must complete RSA, and the Liquor Regulation 2018 sets a separate penalty notice for crowd controllers without the endorsement. Record both the Class 1A license and the RSA endorsement on the same row."
+    },
+    {
+      "q": "Does a small pub with a few gaming machines need an AML training program?",
+      "a": "Not in Australia if the venue and its related entities are entitled to operate no more than 15 gaming machines. Section 233K exempts them from the AML/CTF program obligations, including training, but not from suspicious matter reporting, so staff still need to know when and how to escalate a suspicion."
+    },
+    {
+      "q": "Can one RSA course cover staff in NSW and Victoria?",
+      "a": "No. Both courses include the national unit SITHFAB021, but each state adds its own content and approves its own providers. A Victorian certificate is current for three years and an NSW card for five, so a worker moving between venues needs both recorded with separate expiry dates."
+    },
+    {
+      "q": "Is a food safety course enough for a venue's kitchen in every market?",
+      "a": "It depends on the market. Australia's Standard 3.2.2A names the topics a handler course must cover, the EU sets no formal course requirement, the FDA Food Code focuses on certifying the person in charge, and Japan requires a food hygiene manager. Record the rule that applies at each venue rather than one generic course."
+    }
+  ],
+  "sources": [
+    {"title": "Responsible Service of Alcohol (RSA)", "publisher": "Liquor & Gaming NSW, NSW Government", "url": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/rsa"},
+    {"title": "Competency cards", "publisher": "Liquor & Gaming NSW, NSW Government", "url": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/competency-cards"},
+    {"title": "Competency card fines", "publisher": "Liquor & Gaming NSW, NSW Government", "url": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/competency-cards/fines"},
+    {"title": "RSA training", "publisher": "Liquor Control Victoria, Victorian Government", "url": "https://www.vic.gov.au/rsa-training"},
+    {"title": "Licensee training and obligations", "publisher": "Liquor Control Victoria, Victorian Government", "url": "https://www.vic.gov.au/licensee-training-obligations"},
+    {"title": "Liquor offences and fines", "publisher": "Liquor Control Victoria, Victorian Government", "url": "https://www.vic.gov.au/liquor-offences-and-fines"},
+    {"title": "Responsible Conduct of Gambling (RCG) training", "publisher": "Liquor & Gaming NSW, NSW Government", "url": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/responsible-conduct-gambling"},
+    {"title": "Responsible Gambling Officer (RGOs)", "publisher": "Liquor & Gaming NSW, NSW Government", "url": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/gaming/responsible-gaming/responsible-gambling-officer"},
+    {"title": "Anti-Money Laundering and Counter-Terrorism Financing Act 2006 (compilation in force from October 1, 2026)", "publisher": "Federal Register of Legislation", "url": "https://www.legislation.gov.au/C2006A00169/latest/text"},
+    {"title": "AML/CTF training", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"},
+    {"title": "Indicators of suspicious activity for the pubs and clubs sector", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/indicators-suspicious-activity-pubs-and-clubs-sector"},
+    {"title": "Australia New Zealand Food Standards Code: Standard 3.2.2A Food Safety Management Tools", "publisher": "Federal Register of Legislation", "url": "https://www.legislation.gov.au/F2022L01589/latest/text"},
+    {"title": "Food handler training", "publisher": "Food Standards Australia New Zealand", "url": "https://www.foodstandards.gov.au/business/food-safety/food-handler-training"},
+    {"title": "Food safety supervisor", "publisher": "Food Standards Australia New Zealand", "url": "https://www.foodstandards.gov.au/business/food-safety/food-safety-supervisor"},
+    {"title": "Food Safety Supervisors (FSS)", "publisher": "NSW Food Authority", "url": "https://www.foodauthority.nsw.gov.au/retail/fss-food-safety-supervisors"},
+    {"title": "Food Act 2006 (Qld), current version", "publisher": "Queensland Legislation, Office of the Queensland Parliamentary Counsel", "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-2006-003"},
+    {"title": "Class 1 Licences", "publisher": "Security Licensing and Enforcement Directorate, NSW Police Force", "url": "https://www.police.nsw.gov.au/online_services/sled/security_licences/class_1_licences"},
+    {"title": "Security Training Requirements", "publisher": "Security Licensing and Enforcement Directorate, NSW Police Force", "url": "https://www.police.nsw.gov.au/online_services/sled/security_licences/security_training/security_training_requirements"},
+    {"title": "Renew your private security licence", "publisher": "Licensing and Regulation Division, Victoria Police", "url": "https://www.police.vic.gov.au/renew-your-private-security-licence"},
+    {"title": "Changes to private security licences and registrations", "publisher": "Licensing and Regulation Division, Victoria Police", "url": "https://www.police.vic.gov.au/changes-private-security-licences-and-registrations"},
+    {"title": "Model Code of Practice: First aid in the workplace (July 2019)", "publisher": "Safe Work Australia", "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2021-10/code_of_practice_-_first_aid_in_the_workplace_July%202019.pdf"},
+    {"title": "Compliance code: First aid in the workplace (Edition 1, November 2021), PDF", "publisher": "WorkSafe Victoria", "url": "https://content-v2.api.worksafe.vic.gov.au/sites/default/files/2021-11/ISBN-Compliance-code-first-aid-in-the-workplace-2021-11.pdf"},
+    {"title": "FDA Food Code 2026 (full text, PDF)", "publisher": "US Food and Drug Administration", "url": "https://www.fda.gov/media/194741/download?attachment"},
+    {"title": "Summary of Changes in the 2026 FDA Food Code", "publisher": "US Food and Drug Administration", "url": "https://www.fda.gov/food/fda-food-code/summary-changes-2026-fda-food-code"},
+    {"title": "31 CFR 1021.210: Anti-money laundering program requirements for casinos", "publisher": "Electronic Code of Federal Regulations (eCFR)", "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1021/subpart-B/section-1021.210"},
+    {"title": "31 CFR 1021.320: Reports by casinos of suspicious transactions", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/31/1021.320"},
+    {"title": "Anti-Money Laundering and Countering the Financing of Terrorism Programs (proposed rule, 91 FR 18704)", "publisher": "Federal Register", "url": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"},
+    {"title": "Security Guard Registration Fact Sheet", "publisher": "Bureau of Security and Investigative Services, California Department of Consumer Affairs", "url": "https://www.bsis.ca.gov/forms_pubs/guard_fact.shtml"},
+    {"title": "California Code of Regulations, Title 16, Division 7 (BSIS regulations compilation)", "publisher": "Bureau of Security and Investigative Services, California Department of Consumer Affairs", "url": "https://www.bsis.ca.gov/about_us/laws/bsis_regulations.pdf"},
+    {"title": "Regulation (EC) No 852/2004 of the European Parliament and of the Council of 29 April 2004 on the hygiene of foodstuffs", "publisher": "EUR-Lex, Publications Office of the European Union", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32004R0852"},
+    {"title": "Commission Notice on the implementation of food safety management systems covering Good Hygiene Practices and procedures based on the HACCP principles (2022/C 355/01)", "publisher": "EUR-Lex, Publications Office of the European Union", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022XC0916(01)"},
+    {"title": "食品衛生法施行規則 (Ordinance for Enforcement of the Food Sanitation Act)", "publisher": "e-Gov Laws and Regulations, Digital Agency", "url": "https://laws.e-gov.go.jp/law/323M40000100023"},
+    {"title": "Guidelines on measures employers should take regarding problems arising from the conduct of customers and others in the workplace (MHLW Notice No. 51 of 2026)", "publisher": "Ministry of Health, Labour and Welfare", "url": "https://www.mhlw.go.jp/content/11900000/001662584.pdf"},
+    {"title": "Cabinet Order setting the commencement date of Act No. 63 of 2025 (Cabinet Order No. 17 of 2026)", "publisher": "Ministry of Health, Labour and Welfare", "url": "https://www.mhlw.go.jp/content/001662631.pdf"}
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "how-to-build-a-training-matrix-for-a-food-business",
+    "responsible-service-of-alcohol-training-nsw",
+    "nsw-responsible-conduct-of-gambling-training",
+    "austrac-gambling-sector-aml-training",
+    "how-to-set-mandatory-training-refresh-cycles"
+  ],
+  "productLinks": [
+    {"label": "Compliance programs", "href": "/programs/compliance"},
+    {"label": "Audit evidence", "href": "/platform/audit-evidence"}
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {"claim": "RSA is required for service staff, food and beverage attendants, retail liquor salespersons, winery and brewery staff, promotional staff, RSA marshals, security staff and crowd controllers, and volunteers; course includes SITHFAB021 plus NSW content.", "source": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/rsa"},
+    {"claim": "Interim certificate is valid for 90 days and allows work immediately; training over five years ago requires the full course.", "source": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/rsa"},
+    {"claim": "Competency card valid for five years; multiple endorsements all expire 5 years from the earliest endorsement; 28 day grace period; card must be available when working.", "source": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/competency-cards"},
+    {"claim": "Penalty notices: staff without RSA endorsement $220 or $440 in a prescribed precinct; crowd controller cl 64(1); licensee permitting staff $1,100.", "source": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/competency-cards/fines"},
+    {"claim": "Victorian RSA must be completed before starting to supply alcohol or within one month; refresher free, about 90 minutes, every 3 years, with sexual harassment and assault module.", "source": "https://www.vic.gov.au/rsa-training"},
+    {"claim": "Victorian licensees must keep a copy of each staff member's current certificate at the venue and make it immediately available; Advanced RSA within 6 months of late night licence grant or demerit point.", "source": "https://www.vic.gov.au/licensee-training-obligations"},
+    {"claim": "s108AD(2) failure to keep certificates and s108AE(2) failure to produce: maximum $1,046.", "source": "https://www.vic.gov.au/liquor-offences-and-fines"},
+    {"claim": "RCG mandatory for staff who patrol or serve in a gaming machine area, club directors (unless RGBO) and operational directors of hotel owning companies from 30 June 2025; 25 question assessment all correct; five year refresher; 90 day reminder.", "source": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/training/responsible-conduct-gambling"},
+    {"claim": "RGOs mandatory for hotels and clubs with more than 20 GMEs; 21 to 99 one RGO, 100 to 299 two, 300 or more three, nominated RGOs midnight to 8am; ARCG for licensees, approved managers, club secretaries; security officers not recommended as RGOs.", "source": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/gaming/responsible-gaming/responsible-gambling-officer"},
+    {"claim": "Section 233K exempts entities entitled to operate no more than 15 gaming machines from Part 1A (programs including training) but section 41 suspicious matter reporting is not listed.", "source": "https://www.legislation.gov.au/C2006A00169/2026-10-01/2026-10-01/text/original/epub/OEBPS/document_1/document_1.html"},
+    {"claim": "AUSTRAC e-learning modules can't be relied on solely; poor practice example criticizes third party training not covering industry risks or the entity's program.", "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"},
+    {"claim": "AUSTRAC pubs and clubs indicators include abandoning an EGM above the cheque/EFT threshold and buying TITO tickets.", "source": "https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/indicators-suspicious-activity-pubs-and-clubs-sector"},
+    {"claim": "Standard 3.2.2A-10 handler training before prescribed activity; supervisor certificate issued within preceding 5 years; 3.2.2A-12 category one records kept 3 months.", "source": "https://www.legislation.gov.au/F2022L01589/latest/text"},
+    {"claim": "FSANZ: no specific refresher period set for food handler training; regular refresher training is best practice.", "source": "https://www.foodstandards.gov.au/business/food-safety/food-handler-training"},
+    {"claim": "NSW FSS cannot be FSS for another premises; certificates renewed every 5 years; copy kept on premises; 30 days to recertify or appoint; recertification up to 90 days after expiry.", "source": "https://www.foodauthority.nsw.gov.au/retail/fss-food-safety-supervisors"},
+    {"claim": "Queensland Food Act s86(1): food safety supervisor within 30 days after licence issued.", "source": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-2006-003"},
+    {"claim": "NSW Class 1 applicants need first aid issued within three years (HLTAID011 for 1A); renewal from eight weeks before expiry to 90 days after; sign-on registers each shift.", "source": "https://www.police.nsw.gov.au/online_services/sled/security_licences/security_training/security_training_requirements"},
+    {"claim": "From 5 October 2026 renewing Victorian operators need HLTAID011 within three years before expiry and guards, crowd controllers and bodyguards an approved refresher within 12 months before renewal.", "source": "https://www.police.vic.gov.au/renew-your-private-security-licence"},
+    {"claim": "Model first aid Code: CPR refresher annually, requalification every three years, ratios 1:50 low risk and 1:25 high risk.", "source": "https://www.safeworkaustralia.gov.au/sites/default/files/2021-10/code_of_practice_-_first_aid_in_the_workplace_July%202019.pdf"},
+    {"claim": "FDA Food Code 2-101.11 person in charge present during all hours; 2-102.12(A) certified food protection manager; 2026 edition added food defense.", "source": "https://www.fda.gov/media/194741/download?attachment"},
+    {"claim": "31 CFR 1021.210(b)(2)(iii) training of casino personnel including identification of unusual or suspicious transactions.", "source": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1021/subpart-B/section-1021.210"},
+    {"claim": "Casino SAR threshold $5,000; retain SAR and documents five years.", "source": "https://www.law.cornell.edu/cfr/text/31/1021.320"},
+    {"claim": "FinCEN proposed rule published April 10, 2026; comments due June 9, 2026.", "source": "https://www.federalregister.gov/documents/2026/04/10/2026-07033/anti-money-laundering-and-countering-the-financing-of-terrorism-programs"},
+    {"claim": "California guard: power to arrest before registration; 32 hours within six months with 16 within 30 days; 8 hours annual; employers keep records for employment; not renewed within 60 days canceled.", "source": "https://www.bsis.ca.gov/forms_pubs/guard_fact.shtml"},
+    {"claim": "Regulation 852/2004 Annex II Chapter XII: handlers supervised and instructed and/or trained commensurate with work activity.", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32004R0852"},
+    {"claim": "Commission Notice 2022/C 355/01: waiter versus cook example; refresher frequency according to needs.", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022XC0916(01)"},
+    {"claim": "Japan Enforcement Regulation Appended Table 17 item 1 food hygiene manager; item 13 periodic verification of training effectiveness.", "source": "https://laws.e-gov.go.jp/law/323M40000100023"},
+    {"claim": "Japan customer harassment measures commence October 1, 2026 (Cabinet Order No. 17 of 2026); training listed as accepted example in MHLW Notice No. 51 of 2026.", "source": "https://www.mhlw.go.jp/content/11900000/001662584.pdf"}
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-clinical-laboratory",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a clinical laboratory?",
+  "seoTitle": "Clinical laboratory training matrix",
+  "description": "Build a clinical laboratory training matrix: CLIA competency for each test, biosafety, bloodborne pathogens, chemicals, specimen shipping and privacy duties.",
+  "shortAnswer": "A clinical laboratory training matrix lists each testing and support role against every test system the person performs and every safety, transport and privacy rule that applies, then records the competency procedure, assessor, clock and evidence for each cell. In the United States the core is CLIA's six competency procedures for nonwaived testing, layered with biosafety, bloodborne pathogens, hazard communication, hazardous materials shipping and HIPAA duties.",
+  "keyTakeaways": [
+    "CLIA competency is assessed per test, not per person: each nonwaived test a person performs needs all six procedures, semiannually in the first year and then at least annually.",
+    "A method or instrument change is a hard trigger: CLIA requires reevaluation before the person reports patient results on the new method.",
+    "Training is not competency: CMS states that training, performance appraisals and proficiency testing alone do not satisfy the documented competency assessment requirement.",
+    "Safety and shipping rows run on separate clocks: annual bloodborne pathogens training, recurrent hazmat training at least every three years, and air dangerous goods training within 24 months.",
+    "Retention periods differ by record: 2 years for most CLIA records, 3 years for bloodborne pathogens training records and select agent records, and 6 years for HIPAA documentation."
+  ],
+  "sections": [
+    {
+      "id": "lab-matrix-unit",
+      "heading": "Why is a laboratory matrix organized by test system?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because the central laboratory rule assigns competency to each test a person performs, a laboratory matrix needs a test system axis as well as a role axis. Under 42 CFR 493.1413(b)(8) for moderate complexity testing and 493.1451(b)(8) for high complexity testing, the six competency procedures apply to every test, so a technologist rotating across chemistry, hematology and microbiology carries a separate set of cells for each analyzer or method."
+        },
+        {
+          "type": "p",
+          "text": "The general approach in [how to build a training matrix](/guides/how-to-build-a-training-matrix) still holds, with three laboratory adjustments. Rows are people grouped by CLIA personnel role; a second dimension lists test systems; and safety, transport and privacy columns sit alongside, each with its own clock. Laboratories that also run nonclinical studies or manufacture medicines answer to different rules, which the [pharmaceutical site matrix guide](/guides/how-to-build-a-training-matrix-for-a-pharmaceutical-site) covers."
+        }
+      ]
+    },
+    {
+      "id": "lab-role-families",
+      "heading": "Which laboratory roles should form the rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use the personnel roles named in the laboratory regulations, then add the support roles that safety and transport rules reach. CLIA names who may assess competency, so the assessor roles need their own rows."
+        },
+        {
+          "type": "table",
+          "caption": "Clinical laboratory role families and their obligation drivers",
+          "head": ["Role family", "Why it is separate", "Typical obligation drivers"],
+          "rows": [
+            ["Testing personnel, nonwaived", "Six procedure competency for each test performed", "42 CFR 493.1413 and 493.1451; CMS competency brochure"],
+            ["Technical consultants, technical and general supervisors", "Assess others and are themselves assessed against their regulatory duties", "42 CFR 493.1463(b)(4); CMS competency brochure"],
+            ["Point of care and waived testing staff", "CLIA does not require competency here, but accreditation can", "Joint Commission NPG 10 waived testing"],
+            ["Microbiology and biosafety level 2 or 3 staff", "Agent hazards and containment practices", "BMBL 6th edition; NIH Guidelines; 42 CFR 73.15 for select agents"],
+            ["Phlebotomy, specimen processing and anyone exposed to blood", "Occupational exposure to blood or other potentially infectious materials", "29 CFR 1910.1030(g)(2)"],
+            ["Staff using hazardous chemicals and reagents", "Chemical hazards in the work area", "29 CFR 1910.1200(h); Directive 98/24/EC Article 8"],
+            ["Specimen packers, shippers and couriers", "Preparing hazardous materials or dangerous goods for transport", "49 CFR 172.704; IATA DGR 1.5; CASA EX29/24"],
+            ["Client services, billing and IT staff with patient data", "Protected health information and electronic systems", "45 CFR 164.530(b) and 164.308(a)(5)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lab-rules-by-market",
+      "heading": "Which laboratory obligations apply in each market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most laboratory regulation pages in this library are US federal, with international air transport rules and one EU directive. Each summary below draws only on the linked page."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**United States: test competency.** 42 CFR 493.1235 requires written policies to assess employee and, where applicable, consultant competency. The six procedures are direct observation, monitoring result recording and reporting, records review, observation of instrument maintenance, testing previously analyzed or blind samples, and problem solving ([CLIA competency](/regulations/clia-laboratory-personnel-competency-requirements)). CMS guidance revised in May 2025 says only people qualified as a technical consultant, technical supervisor or general supervisor may assess testing personnel.",
+            "**United States: accreditation.** Joint Commission's waived testing goal requires staff to be trained for each test with training documented, and competence assessed at orientation and annually using more than one method; its standards FAQ says a self-assessment checklist alone is not competency assessment ([Joint Commission competency](/regulations/joint-commission-staff-competency-requirements)).",
+            "**United States: biosafety.** The BMBL, a code of practice from CDC and NIH, expects supervisors to train staff on duties, hazards and precautions, keep records and provide annual updates; at BSL-2 and BSL-3 personnel demonstrate proficiency. Entities registered for select agents must train on biocontainment, biosafety, security and incident response under 42 CFR 73.15 ([laboratory biosafety](/regulations/biosafety-training-requirements-laboratories)).",
+            "**United States: worker safety.** 29 CFR 1910.1030(g)(2) requires training at initial assignment and at least annually for each employee with occupational exposure, during working hours and at no cost, including an interactive question and answer element ([bloodborne pathogens](/regulations/osha-bloodborne-pathogens-training-requirements)). 29 CFR 1910.1200(h) requires hazard communication training at initial assignment and whenever a new chemical hazard is introduced ([hazard communication](/regulations/osha-hazard-communication-training-requirements)).",
+            "**United States: transport and privacy.** Hazmat employees need initial training within 90 days of employment or job change and recurrent training at least every three years under 49 CFR 172.704 ([DOT hazmat](/regulations/dot-hazmat-employee-training)). Where the laboratory is a HIPAA covered entity or business associate, 45 CFR 164.530(b) requires privacy training for new workforce members within a reasonable period and 164.308(a)(5) requires a security awareness program ([HIPAA](/regulations/hipaa-security-and-privacy-training)).",
+            "**International and Australia: air transport.** IATA DGR 1.5.1.2.1 requires the employer to ensure personnel are competent before performing dangerous goods functions, defined by function rather than job title. In Australia, CASA EX29/24 gives effect to two yearly training, with recurrent training within 24 months ([dangerous goods by air](/regulations/iata-dangerous-goods-training-requirements)).",
+            "**European Union.** Directive 98/24/EC Article 8(1) requires workers to receive training and information on precautions and actions for hazardous chemical agents, in a manner appropriate to the risk assessment and updated as circumstances change ([EU chemical agents](/regulations/eu-chemical-agents-directive-worker-training))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "illustrative-lab-matrix",
+      "heading": "What does a clinical laboratory matrix look like in practice?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The extract below is illustrative only, for a hypothetical US reference laboratory performing high complexity testing, with a biosafety level 2 microbiology section and a courier service shipping specimens by road and air. Frequencies labelled lab policy are the laboratory's own choice; the others come from the cited rule."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical reference laboratory, role by obligation",
+          "head": ["Role", "Market", "Obligation", "Frequency", "Evidence held"],
+          "rows": [
+            ["Medical technologist, chemistry analyzer A", "United States", "CLIA six procedures, 493.1451(b)(8)", "Semiannually in year one; then at least annually", "Six procedure form for analyzer A, signed by technical supervisor"],
+            ["Same technologist, new immunoassay method", "United States", "CLIA reevaluation, 493.1451(b)(9)", "Before reporting patient results on the new method", "Dated reevaluation linked to the method change record"],
+            ["General supervisor", "United States", "Delegated competency assessment, 493.1463(b)(4)", "When delegated; assessed against own duties annually", "Written delegation and assessor qualification record"],
+            ["Nurse running waived glucose tests", "United States", "Joint Commission NPG 10", "At orientation and annually, more than one method", "Observation plus quality control review"],
+            ["Microbiology technologist, BSL-2", "United States", "BMBL standard practice 2 and BSL-2 proficiency", "Before work; annual updates (BMBL) adopted as lab policy", "Training record and supervisor proficiency sign off"],
+            ["Phlebotomist", "United States", "29 CFR 1910.1030(g)(2)", "At initial assignment; within one year of previous", "Record with dates, content summary, trainer and attendees"],
+            ["Reagent preparation technician", "United States", "29 CFR 1910.1200(h)", "At initial assignment; when a new chemical hazard is introduced", "Training record covering labels and safety data sheets"],
+            ["Specimen shipper", "United States", "49 CFR 172.704 and IATA DGR 1.5", "Initial within 90 days; road recurrent every three years; air within 24 months", "Certification of training and testing; DGR record kept 36 months"],
+            ["Client services representative", "United States", "45 CFR 164.530(b) and 164.308(a)(5)", "Within a reasonable period of joining; lab policy annual", "Documented completion retained six years"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lab-clocks",
+      "heading": "How should a laboratory set and track the different clocks?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Record each clock as the rule states it, because laboratory rules use semiannual, annual, rolling 12 month, 24 month and three year intervals, plus event triggers. Rounding them to a single annual cycle overtrains some cells and misses others."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**First year CLIA cadence.** Competency is assessed at least semiannually during the first year a person tests patient specimens, then at least annually. A new hire therefore has two competency events in year one for every test system.",
+            "**Rolling annual intervals.** Bloodborne pathogens annual training must fall within one year of the previous training, so the due date moves with each completion rather than resetting each calendar year.",
+            "**Transport clocks.** DOT recurrent hazmat training is at least every three years; US air carrier hazmat training must be within the past 24 months, and CASA EX29/24 counts recurrent training within 24 months from the end of the month.",
+            "**Event triggers.** CLIA reevaluation on methodology or instrumentation change, hazard communication training when a new chemical hazard arrives, select agent refreshers on significant plan amendment, and HIPAA privacy training within a reasonable period of a material change.",
+            "**Rules with no interval.** Directive 98/24/EC asks for training updated for changing circumstances without fixing a cycle, so the laboratory sets one and documents why. See [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lab-evidence-retention",
+      "heading": "What evidence and retention should each laboratory row carry?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each row should name the evidence type and the retention period, because laboratory inspectors look for competency evidence per test and the rules set different retention periods. Where one record serves several rows, keep it for the longest period that applies."
+        },
+        {
+          "type": "table",
+          "caption": "Retention periods stated on the laboratory related regulation pages",
+          "head": ["Record", "Source", "Retention"],
+          "rows": [
+            ["CLIA quality system assessment records, including competency", "42 CFR 493.1105", "Minimum 2 years for most laboratory records"],
+            ["Bloodborne pathogens training records", "29 CFR 1910.1030(h)(2)", "3 years"],
+            ["Select agent records, including training", "42 CFR 73.17(c)", "3 years"],
+            ["DOT hazmat training record", "49 CFR 172.704(d)", "Preceding three years, kept during employment and 90 days after"],
+            ["IATA dangerous goods training record", "DGR 1.5.1.4", "Minimum 36 months from the most recent completion month"],
+            ["HIPAA training documentation", "45 CFR 164.530(j)(2) and 164.316(b)(2)", "6 years"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Content matters as much as retention. Select agent training records must include a means to verify understanding; DOT records need a certification of training and testing; and CMS says proficiency testing alone does not satisfy competency assessment. The guide on [preparing training records for an audit](/guides/how-to-prepare-training-records-for-an-audit) covers assembling these into an inspection file."
+        }
+      ]
+    },
+    {
+      "id": "lab-pending-changes",
+      "heading": "Which laboratory rules are changing as at November 2026?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Several proposals and transition deadlines touch laboratory rows, as recorded on the linked regulation pages. Track final rules as dated rows and proposals as watch items."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**November 20, 2026, United States:** employers must update hazard communication labeling, programs and training as necessary for substances under the 2024 Hazard Communication Standard revisions, with mixtures following by May 19, 2028.",
+            "**1 January 2027, international:** the 68th edition of the IATA Dangerous Goods Regulations takes effect, so shipper training content should be checked against it.",
+            "**31 May 2027, Australia:** CASA EX29/24, which gives effect to the two yearly dangerous goods training requirement, is repealed at the end of that day unless replaced."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Proposed, not yet law",
+          "text": "A CMS proposed rule published October 8, 2026 would rescind the separate competency procedures for provider-performed microscopy, without changing annual competency assessment for other nonwaived testing; comments close December 7, 2026. A draft NIH Biosafety Policy published September 14, 2026 would replace the NIH Guidelines when finalized. HHS proposed annual HIPAA security awareness training in January 2025, but no final rule had been found."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each laboratory obligation against its source clause, the test systems and roles it reaches, and the assessment point that shows competence, so the six CLIA procedures, biosafety proficiency and shipping certifications sit in one traceable structure. When a rule such as the provider-performed microscopy proposal is finalized, the affected cells are flagged. See [healthcare and life sciences](/industries/healthcare-life-sciences)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does every test a technologist performs need its own competency assessment?",
+      "a": "Yes, for nonwaived testing. CMS states that the six procedures apply to every test a person performs, and all six must be documented each year. Laboratories often group tests on the same analyzer, but the record must still show the procedures for each test system the person runs."
+    },
+    {
+      "q": "Can a trainer who is not a supervisor sign off competency?",
+      "a": "A trainer can sign off training, but CMS guidance says only people qualified as a technical consultant, technical supervisor or general supervisor may perform competency assessments of testing personnel. The director or technical supervisor may delegate evaluating and documenting competency to a general supervisor under 42 CFR 493.1463(b)(4)."
+    },
+    {
+      "q": "Do waived testing staff need competency assessment?",
+      "a": "CLIA does not require competency assessment for testing personnel in waived-only laboratories. Joint Commission's waived testing goal does, at orientation and annually, using more than one method, so accredited organizations should add those rows for staff running tests such as blood glucose or rapid strep."
+    },
+    {
+      "q": "Is proficiency testing enough to show competency?",
+      "a": "No. Proficiency testing results can feed procedure five (testing previously analyzed or external samples) and records review, but CMS states that proficiency testing alone does not satisfy the competency assessment requirement. The other procedures, including direct observation and problem solving, still need their own evidence."
+    }
+  ],
+  "sources": [
+    {"title": "42 CFR 493.1235 Standard: Personnel competency assessment policies", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-493/subpart-K/section-493.1235"},
+    {"title": "42 CFR 493.1413 Standard; Technical consultant responsibilities", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-493/subpart-M/section-493.1413"},
+    {"title": "42 CFR 493.1451 Standard: Technical supervisor responsibilities", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-493/subpart-M/section-493.1451"},
+    {"title": "42 CFR 493.1463 Standard: General supervisor responsibilities", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-493/subpart-M/section-493.1463"},
+    {"title": "42 CFR 493.1105 Standard: Retention requirements", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-493/subpart-J/section-493.1105"},
+    {"title": "Clinical Laboratory Improvement Amendments (CLIA): Assessing Personnel Competency (revised May 2025)", "publisher": "Centers for Medicare & Medicaid Services", "url": "https://www.cms.gov/regulations-and-guidance/legislation/clia/downloads/clia_compbrochure_508.pdf"},
+    {"title": "CLIA: Virtual Access, Gynecologic Cytology Proficiency Testing, Personnel Qualifications, and Other Changes (proposed rule, October 8, 2026)", "publisher": "Centers for Medicare & Medicaid Services, Federal Register", "url": "https://www.federalregister.gov/documents/2026/10/08/2026-20613/clinical-laboratory-improvement-amendments-of-1988-clia-virtual-access-gynecologic-cytology"},
+    {"title": "National Performance Goal 10: Waived Testing", "publisher": "Joint Commission", "url": "https://www.jointcommission.org/standards/national-performance-goals/waived-testing"},
+    {"title": "Standards FAQ: Competency Assessment, Requirements (Health Care Staffing Services)", "publisher": "Joint Commission", "url": "https://www.jointcommission.org/en-us/knowledge-library/support-center/standards-interpretation/standards-faqs/000001012"},
+    {"title": "BMBL 6th edition, full text (PDF)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/labs/media/pdfs/2025/08/SF__19a_308133-A_BMBL6_00-BOOK-WEB-final-3.pdf"},
+    {"title": "42 CFR 73.15 Training", "publisher": "Legal Information Institute (eCFR text), Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/42/73.15"},
+    {"title": "42 CFR 73.17 Records", "publisher": "Legal Information Institute (eCFR text), Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/42/73.17"},
+    {"title": "Draft NIH Biosafety Policy for Research Involving Biohazards (request for information, September 14, 2026)", "publisher": "National Institutes of Health, Federal Register", "url": "https://www.federalregister.gov/documents/2026/09/14/2026-18646/draft-nih-biosafety-policy-for-research-involving-biohazards"},
+    {"title": "29 CFR 1910.1030 Bloodborne pathogens", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/section-1910.1030"},
+    {"title": "29 CFR 1910.1200: Hazard communication", "publisher": "Legal Information Institute, Cornell Law School (eCFR text)", "url": "https://www.law.cornell.edu/cfr/text/29/1910.1200"},
+    {"title": "49 CFR 172.704: Training requirements", "publisher": "Electronic Code of Federal Regulations (eCFR)", "url": "https://www.ecfr.gov/current/title-49/section-172.704"},
+    {"title": "Dangerous Goods Training Guidance, Edition 1: Competency-based Training and Assessment Approach", "publisher": "International Air Transport Association", "url": "https://www.iata.org/contentassets/90f8038b0eea42069554b2f4530f49ea/dgcbta-1-en.pdf"},
+    {"title": "Dangerous Goods Regulations (DGR)", "publisher": "International Air Transport Association", "url": "https://www.iata.org/en/programs/cargo/dgr/"},
+    {"title": "CASA EX29/24: Dangerous Goods (2-yearly Training Requirement) Instrument 2024", "publisher": "Federal Register of Legislation, Australian Government", "url": "https://www.legislation.gov.au/F2024L00681/latest"},
+    {"title": "14 CFR 121.1005: Hazardous materials training required", "publisher": "Electronic Code of Federal Regulations (eCFR)", "url": "https://www.ecfr.gov/current/title-14/section-121.1005"},
+    {"title": "45 CFR 164.530 Administrative requirements (Privacy Rule)", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.530"},
+    {"title": "45 CFR 164.308 Administrative safeguards (Security Rule)", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.308"},
+    {"title": "45 CFR 164.316 Policies and procedures and documentation requirements", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.316"},
+    {"title": "HIPAA Security Rule To Strengthen the Cybersecurity of Electronic Protected Health Information (proposed rule, January 6, 2025)", "publisher": "US Department of Health and Human Services, Federal Register", "url": "https://www.federalregister.gov/documents/2025/01/06/2024-30983/hipaa-security-rule-to-strengthen-the-cybersecurity-of-electronic-protected-health-information"},
+    {"title": "Council Directive 98/24/EC, consolidated text of 8 April 2024", "publisher": "EUR-Lex, Publications Office of the European Union", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:01998L0024-20240408"}
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "clia-laboratory-personnel-competency-requirements",
+    "biosafety-training-requirements-laboratories",
+    "osha-bloodborne-pathogens-training-requirements",
+    "how-to-build-a-training-matrix-for-a-hospital",
+    "how-to-set-mandatory-training-refresh-cycles"
+  ],
+  "productLinks": [
+    {"label": "Healthcare and life sciences", "href": "/industries/healthcare-life-sciences"},
+    {"label": "Audit evidence", "href": "/platform/audit-evidence"}
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {"claim": "493.1235: laboratory must establish and follow written policies and procedures to assess employee and, if applicable, consultant competency.", "source": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-493/subpart-K/section-493.1235"},
+    {"claim": "493.1413(b)(8)-(9): six competency procedures; evaluation at least semiannually in first year, then at least annually, and reevaluation before reporting after methodology or instrumentation change.", "source": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-493/subpart-M/section-493.1413"},
+    {"claim": "493.1451(b)(7)-(9): identical six procedures and frequency for high complexity testing.", "source": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-493/subpart-M/section-493.1451"},
+    {"claim": "493.1463(b)(4): director or technical supervisor may delegate to the general supervisor evaluating and documenting competency of testing personnel.", "source": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-493/subpart-M/section-493.1463"},
+    {"claim": "493.1105: records retention minimum 2 years for most laboratory records.", "source": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-493/subpart-J/section-493.1105"},
+    {"claim": "CMS brochure: waived-only labs not required to assess competency; training and evaluations do not satisfy requirement; six procedures for every test; all six documented each year; PT alone insufficient; only TC/TS/GS-qualified personnel may assess.", "source": "https://www.cms.gov/regulations-and-guidance/legislation/clia/downloads/clia_compbrochure_508.pdf"},
+    {"claim": "Proposed rule 91 FR 64480 (October 8, 2026) would rescind PPM competency procedures without changing annual competency assessment; comments due December 7, 2026.", "source": "https://www.federalregister.gov/documents/2026/10/08/2026-20613/clinical-laboratory-improvement-amendments-of-1988-clia-virtual-access-gynecologic-cytology"},
+    {"claim": "NPG 10 waived testing: training documented; competence assessed at orientation and annually using more than one method; examples blood glucose, fecal occult blood, rapid strep.", "source": "https://www.jointcommission.org/standards/national-performance-goals/waived-testing"},
+    {"claim": "Self-assessment such as a skills checklist as sole method does not constitute competency assessment.", "source": "https://www.jointcommission.org/en-us/knowledge-library/support-center/standards-interpretation/standards-faqs/000001012"},
+    {"claim": "BMBL: code of practice; supervisor ensures training, records maintained, annual updates; BSL-2 and BSL-3 personnel demonstrate proficiency.", "source": "https://www.cdc.gov/labs/media/pdfs/2025/08/SF__19a_308133-A_BMBL6_00-BOOK-WEB-final-3.pdf"},
+    {"claim": "42 CFR 73.15: training on biocontainment, biosafety, security and incident response; annual refresher or on significant plan amendment; records include means to verify understanding.", "source": "https://www.law.cornell.edu/cfr/text/42/73.15"},
+    {"claim": "42 CFR 73.17(c): records maintained for 3 years.", "source": "https://www.law.cornell.edu/cfr/text/42/73.17"},
+    {"claim": "Draft NIH Biosafety Policy published September 14, 2026; will replace NIH Guidelines when finalized.", "source": "https://www.federalregister.gov/documents/2026/09/14/2026-18646/draft-nih-biosafety-policy-for-research-involving-biohazards"},
+    {"claim": "1910.1030(g)(2): no cost, working hours; initial assignment and at least annually within one year of previous; interactive Q and A element; (h)(2) records kept 3 years.", "source": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/section-1910.1030"},
+    {"claim": "1910.1200(h)(1): training at initial assignment and whenever a new chemical hazard is introduced; (j) employers update training as necessary by November 20, 2026 (substances) and May 19, 2028 (mixtures).", "source": "https://www.law.cornell.edu/cfr/text/29/1910.1200"},
+    {"claim": "172.704(c): initial training within 90 days; recurrent at least every three years; (d) record of preceding three years kept during employment and 90 days after with certification of training and testing.", "source": "https://www.ecfr.gov/current/title-49/section-172.704"},
+    {"claim": "DGR 1.5.1.2.1 competence before performing functions, functions not job titles; 1.5.1.4 records retained minimum 36 months.", "source": "https://www.iata.org/contentassets/90f8038b0eea42069554b2f4530f49ea/dgcbta-1-en.pdf"},
+    {"claim": "68th edition DGR effective 1 January 2027.", "source": "https://www.iata.org/en/programs/cargo/dgr/"},
+    {"claim": "CASA EX29/24 two yearly training; recurrent within 24 months from end of month; repealed end of 31 May 2027.", "source": "https://www.legislation.gov.au/F2024L00681/latest"},
+    {"claim": "US air carrier hazmat training within the past 24 months.", "source": "https://www.ecfr.gov/current/title-14/section-121.1005"},
+    {"claim": "164.530(b)(2): new members within a reasonable period, material change within a reasonable period, documented; (j)(2) six-year retention.", "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.530"},
+    {"claim": "164.308(a)(5): security awareness and training program for all workforce members.", "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.308"},
+    {"claim": "NPRM January 6, 2025 proposed annual security awareness training; no final rule found.", "source": "https://www.federalregister.gov/documents/2025/01/06/2024-30983/hipaa-security-rule-to-strengthen-the-cybersecurity-of-electronic-protected-health-information"},
+    {"claim": "Directive 98/24/EC Article 8(1): training and information on precautions and actions, appropriate to the risk assessment, updated for changing circumstances.", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:01998L0024-20240408"}
+  ]
+}

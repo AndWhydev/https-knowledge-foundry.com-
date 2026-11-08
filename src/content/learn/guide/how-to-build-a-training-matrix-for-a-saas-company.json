@@ -1,0 +1,268 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-saas-company",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a SaaS company?",
+  "seoTitle": "Training matrix for a SaaS company",
+  "description": "Build a SaaS training matrix: GDPR, ISO 27001, AI Act, NIS2, PCI DSS, HIPAA and privacy duties by role and market, with frequency and evidence rules.",
+  "shortAnswer": "A SaaS company training matrix maps engineering, support, sales, security and leadership roles against three kinds of obligation: data protection and AI laws in each market it sells into, certifications it holds such as ISO/IEC 27001 or PCI DSS, and duties passed down by customers, such as HIPAA business associate terms. Each cell records the source, the market, the refresh clock and the evidence an auditor or customer will request.",
+  "keyTakeaways": [
+    "A SaaS firm's training columns come from three places: laws where its customers and data subjects are, certifications it chooses to hold, and obligations it inherits as a processor or business associate.",
+    "Most data protection laws imply training rather than mandate a course: GDPR, the UAE PDPL and the Australian Privacy Act all work through security and accountability duties.",
+    "Few sources fix a clock. PCI DSS requires the awareness program to be reviewed at least every 12 months; HIPAA privacy training is due at onboarding and after material policy changes.",
+    "AI features add rows: EU AI Act Article 4 requires measures to support the AI literacy of staff who build or use AI systems, and ISO/IEC 42001 adds competence and awareness clauses.",
+    "Enterprise customers and certification auditors ask for competence evidence and retained records, so the matrix should store the evidence rule alongside each duty."
+  ],
+  "sections": [
+    {
+      "id": "where-saas-duties-come-from",
+      "heading": "Where do a SaaS company's training obligations come from?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They come from the markets the company sells into, the certifications it holds, and the roles it plays in its customers' compliance, not from a single industry regulator. A SaaS vendor rarely has one supervisor; instead it faces data protection authorities, certification auditors, card brands and customer security reviews at once."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Law in each market.** Data protection laws apply because of where data subjects or customers are, so a company headquartered in one country can carry GDPR, APPI and Privacy Act rows at the same time.",
+            "**Certification.** ISO/IEC 27001 and ISO/IEC 42001 are voluntary, but once certified, their competence and awareness clauses are audited like rules.",
+            "**Inherited duties.** A SaaS platform that holds electronic protected health information for a US covered entity is a business associate under HIPAA; one that stores or transmits cardholder data is a PCI DSS service provider."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Tag each column with its type, because the type decides who checks it. The general method is in [how to build a training matrix](/guides/how-to-build-a-training-matrix), and an [obligations to training map](/guides/how-to-map-training-to-compliance-obligations) keeps each column traceable to its clause."
+        }
+      ]
+    },
+    {
+      "id": "saas-role-families",
+      "heading": "Which SaaS roles should be separate rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Separate roles by the data and systems they can reach, because access is what most of the source rules turn on. A support engineer with production access to customer data carries different rows from a marketing manager with none."
+        },
+        {
+          "type": "table",
+          "caption": "SaaS role families and the obligations that single them out",
+          "head": ["Role family", "Why it is separate", "Source clauses that drive it"],
+          "rows": [
+            ["Executive team and board", "Approve security measures and can be held liable in NIS2 sectors", "NIS2 Article 20, ISO/IEC 27001 clause 7.3"],
+            ["Data protection officer and privacy team", "Must hold expert knowledge and monitor training of others", "GDPR Articles 38(2) and 39(1)(b), UAE PDPL Article 10"],
+            ["Engineering with production access", "Process personal data only on instructions; run the security controls", "GDPR Articles 29 and 32(4), ISO/IEC 27001 clause 7.2"],
+            ["Machine learning and AI product teams", "Build or deploy AI systems", "EU AI Act Article 4, ISO/IEC 42001 clauses 7.2 and 7.3"],
+            ["Customer support and success", "See customer data in tickets and admin consoles", "APPI Article 24, APP 11, HIPAA 164.308(a)(5)"],
+            ["Payments and billing operations", "Touch the cardholder data environment", "PCI DSS 12.6.3 and 12.6.3.1"],
+            ["Sales and marketing", "Use AI tools and handle prospect personal data", "EU AI Act Article 4, GDPR Article 24"],
+            ["Contractors and offshore teams", "Act on the company's behalf with system access", "AI Act Article 4 (other persons), APPI employee definition"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Japan's Personal Information Protection Commission defines employees broadly, including directors, auditors and dispatched workers, which is a useful reminder that contractors belong on the matrix. See [role based training](/glossary/role-based-training) for how to assign rows by role rather than by person."
+        }
+      ]
+    },
+    {
+      "id": "saas-obligations-by-market",
+      "heading": "Which training duties apply to SaaS companies in each market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The summaries below come from the library's regulation pages; each link opens the full requirement. Whether a row applies depends on where customers and data subjects are and on what the platform does."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**European Union.** GDPR names training only in Articles 39 and 47, but Articles 5(2) and 24 require controllers to demonstrate compliance and Articles 29 and 32(4) limit processing to instructions ([GDPR](/regulations/gdpr-staff-training-requirements)). EU AI Act Article 4, as replaced by the Digital Omnibus on AI, requires providers and deployers to take measures to support the AI literacy of staff and others using AI on their behalf ([AI Act Article 4](/regulations/eu-ai-act-ai-literacy)). Where a SaaS company is an essential or important entity, for example in digital infrastructure or ICT service management, NIS2 Article 20(2) requires management body members to follow cybersecurity training and Article 21(2)(g) requires cyber hygiene and training ([NIS2](/regulations/nis2-management-body-training)).",
+            "**United States.** Business associates must run a security awareness and training program for all workforce members, including management, under 45 CFR 164.308(a)(5) ([HIPAA](/regulations/hipaa-security-and-privacy-training)).",
+            "**Japan.** APPI Article 24 requires supervision of employees handling personal data, and the PPC General Rules Guidelines make employee education a required human security control measure, with periodic training as the illustrated method. The Act reaches foreign businesses handling personal information of individuals in Japan in connection with supplying goods or services to them ([APPI](/regulations/japan-appi-employee-training)).",
+            "**United Arab Emirates.** Federal Decree-Law No. 45 of 2021 has no express training article, but Article 7 requires appropriate technical and organizational measures and a record of who may access personal data, and Article 10 requires a Data Protection Officer with sufficient skills and knowledge in defined high risk cases ([UAE PDPL](/regulations/uae-pdpl-staff-training)).",
+            "**Australia.** The OAIC names regular staff training as an example of APP 1.2 practices and counts training as an organizational measure under APP 11.3 for organizations with annual turnover above $3 million and other covered entities ([Privacy Act](/regulations/privacy-act-staff-training-requirements)).",
+            "**Certifications, any market.** ISO/IEC 27001:2022 clause 7.2 requires determined competence with retained evidence, clause 7.3 requires awareness, and Annex A control 6.3 adds an awareness, education and training program ([ISO/IEC 27001](/regulations/iso-27001-awareness-training-requirements)). ISO/IEC 42001:2023 applies the same structure to AI management systems ([ISO/IEC 42001](/regulations/iso-iec-42001-competence-and-awareness)). PCI DSS 12.6 requires a formal security awareness program covering phishing, social engineering and acceptable use of end-user technologies ([PCI DSS](/regulations/pci-dss-security-awareness-training-requirements))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "illustrative-saas-matrix",
+      "heading": "What does a filled in SaaS training matrix look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It looks like a grid in which every row names a source type as well as a market. The extract below is illustrative only, for a hypothetical B2B platform with EU and Japanese customers, a US healthcare customer base, an Australian sales office, ISO/IEC 27001 certification and in scope card payments. Frequencies marked company policy are choices the company must justify."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical SaaS platform, role by obligation",
+          "head": ["Role", "Market or source", "Obligation", "Frequency", "Evidence held"],
+          "rows": [
+            ["All personnel", "ISO/IEC 27001", "Clauses 7.2 and 7.3, Annex A 6.3", "On joining; company policy annual", "Competence records and awareness quiz results retained for audit"],
+            ["Billing operations", "PCI DSS", "12.6.3.1 phishing and social engineering", "Company policy annual; program reviewed at least every 12 months (12.6.2)", "Training record and dated program review"],
+            ["Support engineer", "United States (business associate)", "45 CFR 164.308(a)(5) security awareness", "On access; company policy annual (no rule interval)", "Completion log kept six years under 164.316(b)(2)"],
+            ["Backend engineer", "EU", "GDPR Articles 29 and 32(4) processing on instructions", "Before production access; on policy change", "Signed access acknowledgment plus scenario check"],
+            ["ML engineer", "EU", "AI Act Article 4 AI literacy measures", "Before working on AI features; company policy annual", "Internal record of training and initiatives"],
+            ["Sales team", "EU", "AI Act Article 4 for staff using AI tools", "On tool rollout", "Internal record of training"],
+            ["Support agent", "Japan", "APPI Article 24 supervision and PPC education measure", "Periodic; company policy annual", "Training record and confidentiality clause in work rules"],
+            ["Data Protection Officer", "UAE", "PDPL Article 10 sufficient skills and knowledge", "On appointment; company policy annual update", "Qualification and update record"],
+            ["Account manager", "Australia", "APP 1.2 and APP 11 reasonable steps", "On induction; company policy annual", "Completion and privacy incident drill results"],
+            ["Executive team", "EU (NIS2 entity)", "NIS2 Article 20(2) management body training", "As set by national law; company policy annual", "Attendance and briefing materials"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saas-fixed-clocks",
+      "heading": "Which SaaS cells carry a fixed refresh clock?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Very few. Most sources in a SaaS matrix require training to be appropriate, periodic or reasonable, so the company sets the interval and records the reasoning."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Fixed by the source.** PCI DSS 12.6.2: review and update the awareness program at least once every 12 months. HIPAA Privacy Rule: new workforce members within a reasonable period and anyone affected by a material policy change within a reasonable period, which applies to covered entities rather than business associates.",
+            "**Risk scaled by guidance.** The PPC Guidelines say it is desirable to scale the content and frequency of education to the size of the business and the nature and volume of personal data handled.",
+            "**Not yet a clock.** A January 2025 HIPAA proposed rule would require security training at least every 12 months and within 30 days of access, but it had not been finalized as at the HIPAA page's last review. Keep it as a watch item.",
+            "**Event triggers.** New AI features, new subprocessors, new markets and policy changes should all trigger rows. The guide on [setting mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles) covers how to write those triggers down."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saas-evidence",
+      "heading": "What evidence do auditors and enterprise customers expect from a SaaS firm?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They expect evidence that people are competent for their access, not a single completion figure. ISO/IEC 27001 auditors look for evidence of competence and effectiveness, and the HIPAA Security Rule requires documentation to be retained for six years."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Competence, not attendance.** ISO/IEC 27001 and ISO/IEC 42001 clause 7.2 require documented evidence of competence and evaluation of actions taken to close gaps.",
+            "**Record of who has access.** UAE PDPL Article 7(4) requires a record that includes the persons authorized to access personal data, which pairs naturally with the training record for those people.",
+            "**Accountability.** GDPR Article 5(2) means the controller must be able to demonstrate compliance, and training records are a standard part of that evidence.",
+            "**No certificate needed for AI literacy.** The European Commission says an internal record of AI literacy training and other initiatives is enough.",
+            "**Separate controls stay separate.** PCI DSS says meeting the anti-phishing mechanism requirement (5.4.1) does not meet the phishing awareness training requirement (12.6.3.1), and vice versa. The guide on [preparing training records for an audit](/guides/how-to-prepare-training-records-for-an-audit) covers packaging this for a customer review."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saas-upcoming-changes",
+      "heading": "Which upcoming changes should a SaaS matrix already show?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Several dates recorded in the library's regulation pages, as at November 2026, will change SaaS rows within the next two years. Add them as future dated rows."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**August 2026 onward, EU:** national market surveillance authorities supervise and enforce AI Act Article 4, with penalties set in national law.",
+            "**December 10, 2026, Australia:** automated decision making transparency obligations under the Privacy and Other Legislation Amendment Act 2024 commence.",
+            "**Six months after July 17, 2026, Japan:** the penalty changes in the APPI amending Act take effect, with the rest of the amendments in principle within two years of promulgation.",
+            "**December 2, 2027, EU:** AI Act Chapter III obligations for Annex III high-risk systems apply, including Article 26(2) human oversight by people with the necessary competence, training and authority, for any SaaS customer deploying such a system."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each SaaS obligation with its source type, market and clause, and links it to the learning outcome and assessment point that meet it, so a certification audit or customer questionnaire can be answered from the same structure. When a source such as the AI Act changes, affected roles are flagged. See [standards and accreditation](/platform/standards-accreditation)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a SaaS company outside the EU need GDPR training rows?",
+      "a": "If it offers services to people in the EU or monitors their behavior, the GDPR applies to it, and the accountability and security duties that imply training come with it. A processor acting for EU customers also needs staff who process personal data only on instructions, as Articles 29 and 32(4) require."
+    },
+    {
+      "q": "Do all SaaS employees need AI literacy training?",
+      "a": "EU AI Act Article 4 applies to staff and others operating or using AI systems on the provider's or deployer's behalf, so anyone using general purpose AI tools at work is in scope, not only engineers. After the Digital Omnibus, the duty is to take measures that support AI literacy, without guaranteeing a set level for each individual."
+    },
+    {
+      "q": "Is a SaaS vendor covered by HIPAA training rules?",
+      "a": "Only if it is a business associate, meaning it creates, receives, maintains or transmits electronic protected health information for a covered entity. Business associates must meet the Security Rule's security awareness and training standard for all workforce members. The Privacy Rule's training standard in 164.530(b) is written for covered entities."
+    },
+    {
+      "q": "Is ISO/IEC 27001 training a legal requirement?",
+      "a": "No. ISO/IEC 27001 is a voluntary standard, but clause 1 says excluding any requirement in clauses 4 to 10 is not acceptable when claiming conformity, so clauses 7.2 and 7.3 are mandatory for certification. Many SaaS firms treat it as binding because customers require the certificate."
+    }
+  ],
+  "sources": [
+    {"title": "Regulation (EU) 2016/679 (General Data Protection Regulation)", "publisher": "Official Journal of the European Union (EUR-Lex)", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"},
+    {"title": "Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)", "publisher": "Official Journal of the European Union (EUR-Lex)", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"},
+    {"title": "Regulation (EU) 2026/1744 amending Regulation (EU) 2024/1689 (Digital Omnibus on AI)", "publisher": "Official Journal of the European Union (EUR-Lex)", "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"},
+    {"title": "AI Literacy: Questions and Answers", "publisher": "European Commission", "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers"},
+    {"title": "Directive (EU) 2022/2555 (NIS 2 Directive)", "publisher": "Official Journal of the European Union (EUR-Lex)", "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"},
+    {"title": "Commission Implementing Regulation (EU) 2024/2690", "publisher": "Official Journal of the European Union (EUR-Lex)", "url": "https://eur-lex.europa.eu/eli/reg_impl/2024/2690/oj/eng"},
+    {"title": "45 CFR 164.308 Administrative safeguards (Security Rule)", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.308"},
+    {"title": "45 CFR 164.316 Policies and procedures and documentation requirements", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.316"},
+    {"title": "45 CFR 164.530 Administrative requirements (Privacy Rule)", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.530"},
+    {"title": "HIPAA Security Rule To Strengthen the Cybersecurity of Electronic Protected Health Information (proposed rule, January 6, 2025)", "publisher": "US Department of Health and Human Services, Federal Register", "url": "https://www.federalregister.gov/documents/2025/01/06/2024-30983/hipaa-security-rule-to-strengthen-the-cybersecurity-of-electronic-protected-health-information"},
+    {"title": "Act on the Protection of Personal Information (Act No. 57 of 2003), Japanese text", "publisher": "Digital Agency, e-Gov Laws", "url": "https://laws.e-gov.go.jp/law/415AC0000000057"},
+    {"title": "Guidelines for the Act on the Protection of Personal Information (General Rules), revised June 2026", "publisher": "Personal Information Protection Commission", "url": "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/"},
+    {"title": "About the Act Partially Amending the Act on the Protection of Personal Information and Related Acts (July 2026)", "publisher": "Personal Information Protection Commission Secretariat", "url": "https://www.ppc.go.jp/files/pdf/260717_kaiseihounitsuite.pdf"},
+    {"title": "Act Partially Amending the Act on the Protection of Personal Information and Related Acts (2026), Japanese text", "publisher": "Personal Information Protection Commission", "url": "https://www.ppc.go.jp/files/pdf/260717_houritsu.pdf"},
+    {"title": "Federal Decree by Law No. (45) of 2021 Concerning the Protection of Personal Data", "publisher": "UAE Legislation portal, Ministry of Cabinet Affairs", "url": "https://uaelegislation.gov.ae/en/legislations/1972"},
+    {"title": "Chapter 1: APP 1 Open and transparent management of personal information", "publisher": "Office of the Australian Information Commissioner", "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-1-app-1-open-and-transparent-management-of-personal-information"},
+    {"title": "Chapter 11: APP 11 Security of personal information", "publisher": "Office of the Australian Information Commissioner", "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-11-app-11-security-of-personal-information"},
+    {"title": "Privacy and Other Legislation Amendment Act 2024", "publisher": "Federal Register of Legislation", "url": "https://www.legislation.gov.au/C2024A00128/asmade"},
+    {"title": "Small business", "publisher": "Office of the Australian Information Commissioner", "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/small-business"},
+    {"title": "ISO/IEC 27001:2022 Information security management systems", "publisher": "International Organization for Standardization", "url": "https://www.iso.org/standard/27001"},
+    {"title": "ISO/IEC 42001:2023 Information technology: Artificial intelligence: Management system", "publisher": "International Organization for Standardization", "url": "https://www.iso.org/standard/42001"},
+    {"title": "ISO/IEC 42001:2023 publication record", "publisher": "International Electrotechnical Commission webstore", "url": "https://webstore.iec.ch/publication/90574"},
+    {"title": "PCI DSS: Summary of Changes from PCI DSS Version 3.2.1 to 4.0, Revision 1 (May 2022)", "publisher": "PCI Security Standards Council", "url": "https://listings.pcisecuritystandards.org/documents/PCI-DSS-v3-2-1-to-v4-0-Summary-of-Changes-r1.pdf"},
+    {"title": "PCI DSS v4.0 Self-Assessment Questionnaire A-EP and Attestation of Compliance (April 2022)", "publisher": "PCI Security Standards Council", "url": "https://listings.pcisecuritystandards.org/documents/PCI-DSS-v4-0-SAQ-A-EP.pdf"}
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "gdpr-staff-training-requirements",
+    "iso-27001-awareness-training-requirements",
+    "eu-ai-act-ai-literacy",
+    "data-privacy-training-requirements-by-country",
+    "how-to-build-an-ai-literacy-training-program"
+  ],
+  "productLinks": [
+    {"label": "Standards and accreditation", "href": "/platform/standards-accreditation"},
+    {"label": "Audit evidence", "href": "/platform/audit-evidence"}
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {"claim": "GDPR Article 39(1)(b) DPO monitors awareness-raising and training; Article 47(2)(n) BCR training; Articles 29 and 32(4) processing only on instructions; Article 5(2) accountability; Article 24; Article 38(2) DPO expert knowledge", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"},
+    {"claim": "Regulation (EU) 2026/1744 replaced Article 4: take measures to support AI literacy; no requirement to guarantee any specific level for any individual", "source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"},
+    {"claim": "Regulation (EU) 2026/1744 amended Article 113 so Chapter III Sections 1 to 3 apply from 2 December 2027 for Annex III systems", "source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"},
+    {"claim": "Article 26(2): deployers assign human oversight to natural persons with necessary competence, training and authority", "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"},
+    {"claim": "Commission: national market surveillance authorities supervise and enforce from August 2026; no certificate needed; internal record suffices; other persons include contractor, service provider, client", "source": "https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers"},
+    {"claim": "NIS2 Article 20(2) management bodies required to follow training; Article 21(2)(g) cyber hygiene and cybersecurity training", "source": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"},
+    {"claim": "45 CFR 164.308(a)(5) security awareness and training program for all workforce members including management, applies to covered entities and business associates", "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.308"},
+    {"claim": "45 CFR 164.316(b)(2): retain documentation 6 years", "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.316"},
+    {"claim": "164.530(b)(2) timing: new members within a reasonable period, material change within a reasonable period", "source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.530"},
+    {"claim": "HIPAA NPRM January 6, 2025 proposed training at least every 12 months and within 30 days; not finalized", "source": "https://www.federalregister.gov/documents/2025/01/06/2024-30983/hipaa-security-rule-to-strengthen-the-cybersecurity-of-electronic-protected-health-information"},
+    {"claim": "APPI Article 24 supervision of employees handling personal data", "source": "https://laws.e-gov.go.jp/law/415AC0000000057"},
+    {"claim": "PPC General Rules Guidelines 10-4 employee education with periodic training example; 3-4-3 broad employee definition and risk scaled education", "source": "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/"},
+    {"claim": "APPI amending Act promulgated July 17, 2026; commencement in principle within two years", "source": "https://www.ppc.go.jp/files/pdf/260717_kaiseihounitsuite.pdf"},
+    {"claim": "APPI amending Act penalty amendments take effect six months after promulgation", "source": "https://www.ppc.go.jp/files/pdf/260717_houritsu.pdf"},
+    {"claim": "UAE PDPL Article 7(1) technical and organizational measures; 7(4) record incl. persons authorized to access; Article 10 DPO with sufficient skills and knowledge", "source": "https://uaelegislation.gov.ae/en/legislations/1972"},
+    {"claim": "OAIC APP 1 guidelines list regular staff training as an example of APP 1.2 practices", "source": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-1-app-1-open-and-transparent-management-of-personal-information"},
+    {"claim": "OAIC APP 11 guidelines: organizational measures include staff training; APP 11.3", "source": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-11-app-11-security-of-personal-information"},
+    {"claim": "POLA Act 2024 Sch 1 Part 15 ADM commences 10 December 2026", "source": "https://www.legislation.gov.au/C2024A00128/asmade"},
+    {"claim": "Small business exemption threshold $3 million annual turnover", "source": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/small-business"},
+    {"claim": "ISO/IEC 27001:2022 clauses 7.2 and 7.3; clause 1: excluding requirements in clauses 4 to 10 not acceptable when claiming conformity", "source": "https://www.iso.org/obp/ui/en/#iso:std:iso-iec:27001:ed-3:v1:en"},
+    {"claim": "ISO/IEC 42001:2023 published 2023-12-18 by ISO/IEC JTC 1/SC 42", "source": "https://webstore.iec.ch/publication/90574"},
+    {"claim": "PCI DSS 12.6.2 review at least once every 12 months; 12.6.3.2 acceptable use of end-user technologies", "source": "https://listings.pcisecuritystandards.org/documents/PCI-DSS-v3-2-1-to-v4-0-Summary-of-Changes-r1.pdf"},
+    {"claim": "PCI DSS 12.6.3.1 phishing and social engineering; 5.4.1 note that anti-phishing mechanism does not meet 12.6.3.1 and vice versa", "source": "https://listings.pcisecuritystandards.org/documents/PCI-DSS-v4-0-SAQ-A-EP.pdf"}
+  ]
+}

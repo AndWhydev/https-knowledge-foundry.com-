@@ -1,0 +1,265 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-crypto-business",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a crypto business?",
+  "seoTitle": "Training matrix for a crypto business",
+  "description": "Build a crypto business training matrix: MiCA, VARA, FinCEN, AUSTRAC and AML duties by role and market, with frequency, evidence and an illustrative grid.",
+  "shortAnswer": "A crypto business training matrix lists every role that touches customers, wallets, transactions or compliance against the training duties of each virtual asset regime the firm is licensed or registered under, such as MiCA and DORA in the EU, VARA in Dubai, FinCEN in the United States and AUSTRAC in Australia. Each cell then records a frequency, a trigger and the evidence that would satisfy that regime's supervisor.",
+  "keyTakeaways": [
+    "Crypto firms are pulled into AML regimes as money transmitters, virtual asset service providers or crypto-asset service providers, so anti-money laundering columns dominate the matrix in every market.",
+    "Licensing regimes add role specific competence duties: MiCA Article 81(7) for staff who give advice or information, and VARA Rule I.J for every staff member of a Dubai licensee.",
+    "Only a few sources fix a clock. VARA requires operational policies to reach new hires within 30 calendar days and OFAC expects sanctions training at a minimum annually; most other intervals are the firm's own choice.",
+    "Agents, distributors, kiosk operators and outsourced compliance providers need rows of their own, because several regimes hold the principal responsible for their training.",
+    "MiCA's transitional period ended by July 1, 2026 at the latest, and the EU AMLR applies from July 10, 2027, so EU rows are moving now."
+  ],
+  "sections": [
+    {
+      "id": "why-crypto-is-different",
+      "heading": "Why does a crypto business need its own training matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because a crypto firm is regulated through several doors at once: as a money transmitter in one country, a licensed virtual asset service provider in another, and an authorized crypto-asset service provider under EU law, each with its own training rule. A generic [compliance training](/glossary/compliance-training) catalog cannot show which of those regimes a given course satisfies."
+        },
+        {
+          "type": "p",
+          "text": "The risks are also specific to the sector. The library's FinCEN page notes that training content for a virtual currency business should follow its risk assessment, such as blockchain analytics alerts, kiosk scam patterns, and mixing and anonymity enhancing techniques. OFAC's page places a virtual currency exchanger's sanctions risk in screening counterparties and wallet activity. Those risks belong in the rows, not buried in a general AML module."
+        },
+        {
+          "type": "p",
+          "text": "The underlying method is the one in [how to build a training matrix](/guides/how-to-build-a-training-matrix): roles on one axis, obligations on the other, and a rule in each cell. For a crypto firm the extra discipline is a market and license tag on every row, so the firm can produce a filtered view for each supervisor."
+        }
+      ]
+    },
+    {
+      "id": "crypto-role-families",
+      "heading": "Which roles should a crypto firm list as rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "List roles by the activity regulators attach duties to, not by team name. Virtual asset rules single out the governing body, the named compliance and money laundering reporting officers, people who advise or inform customers, and people who monitor transactions, so those become separate rows."
+        },
+        {
+          "type": "table",
+          "caption": "Crypto business role families and the rules that drive them",
+          "head": ["Role family", "Why it needs its own row", "Rules that name it"],
+          "rows": [
+            ["Board and management body", "Must hold knowledge of crypto and ICT risk and approve training policy", "MiCA Article 68(1), DORA Article 5(4), AMLR Article 9(2)(a)(x), VARA Rule VI.D"],
+            ["Compliance Officer and MLRO", "Personally accountable for training others", "VARA Rules I.C.2(a) and III.A.2(a), 31 CFR 1022.210(d)(2)(iii), Cabinet Resolution No. 134 of 2025 Article 22(4)"],
+            ["Customer support and advice staff", "Give information about crypto-assets and services to clients", "MiCA Article 81(7), ESMA Guideline 11"],
+            ["Transaction monitoring and investigations", "Detect and report suspicious activity", "31 CFR 1022.320, AML/CTF Rules 2025 section 5-9, FSA Guidelines III-5"],
+            ["Onboarding and KYC operations", "Perform customer due diligence on account opening", "FSA Guidelines III-5, AMLR Article 12"],
+            ["Engineering, security and wallet operations", "Run custody infrastructure and ICT systems", "DORA Article 13(6), MiCA Article 68(5)"],
+            ["Agents, kiosk operators and distributors", "Deliver services on the firm's behalf", "FIN-2016-G001, AMLR Article 12, DORA Article 30(2)(i)"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Treat these as [role based training](/glossary/role-based-training) groups: an engineer who moves into the monitoring team inherits the monitoring rows on the day of transfer."
+        }
+      ]
+    },
+    {
+      "id": "regimes-by-market",
+      "heading": "Which training duties apply to crypto firms in each market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The columns come from the regulation pages for each market where the firm is licensed or registered. Every summary below is drawn from a page that names crypto or virtual asset businesses in its scope."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**European Union.** MiCA Article 81(7) requires crypto-asset service providers that give advice to ensure the people giving advice or information on their behalf have the necessary knowledge and competence, and Article 68(5) requires all personnel to have the knowledge, skills and expertise their responsibilities need ([MiCA](/regulations/mica-staff-knowledge-and-competence)). DORA lists crypto-asset service providers among its financial entities, and Article 13(6) makes ICT security awareness and digital operational resilience training compulsory modules for all employees and senior management ([DORA](/regulations/dora-ict-security-awareness-training)). From July 10, 2027, AMLR Article 12 requires specific, ongoing, duly documented training, and its awareness requirement names Regulation (EU) 2023/1113 on transfers of funds and crypto-assets ([EU AMLR](/regulations/eu-amlr-training-requirements)).",
+            "**United Arab Emirates.** In Dubai, VARA's Compliance and Risk Management Rulebook Rule I.J.4 requires training suitable for each role at the beginning of employment and on an ongoing basis, Rule I.J.5 requires AML/CFT training for all staff on a regular basis, and Part VI requires anti-bribery and corruption training for the board and all staff ([VARA](/regulations/vara-staff-training-requirements)). Federally, Cabinet Resolution No. 134 of 2025 Article 21(5) requires periodic programs and workshops for the compliance function and other relevant employees of virtual asset service providers ([UAE AML/CFT](/regulations/uae-aml-cft-training-requirements)).",
+            "**United States.** FinCEN treats convertible virtual currency exchangers and administrators as money transmitters, so 31 CFR 1022.210(d)(3) requires training of appropriate personnel, including detection of suspicious transactions ([FinCEN MSB AML](/regulations/fincen-msb-aml-program-training)). OFAC's Framework expects sanctions training for all appropriate employees at a minimum annually ([OFAC](/regulations/ofac-sanctions-compliance-training)).",
+            "**Australia.** Digital currency businesses are reporting entities, and section 5-9 of the AML/CTF Rules 2025 requires initial and ongoing training appropriate to each person's function, risks and responsibilities ([AUSTRAC AML/CTF](/regulations/austrac-aml-ctf-training-requirements)).",
+            "**Japan.** The Financial Services Agency (FSA) AML/CFT Guidelines apply to crypto asset exchange service providers, and section III-5 sets five required actions on hiring, training, content review, effectiveness and feedback ([FSA AML/CFT Guidelines](/regulations/japan-fsa-aml-cft-guidelines-training))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "illustrative-crypto-matrix",
+      "heading": "What does a crypto training matrix look like when filled in?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It looks like a long list of role, market and obligation combinations, each with its own clock and evidence rule. The extract below is illustrative only, for a hypothetical exchange with a MiCA authorization in Portugal, a VARA license in Dubai, US money transmitter registration and an Australian registration. Where the frequency says firm policy, the firm chose it and must be able to justify it."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical crypto exchange, role by obligation",
+          "head": ["Role", "Market", "Obligation", "Frequency", "Evidence held"],
+          "rows": [
+            ["Client support agent", "EU (Portugal)", "MiCA Article 81(7) knowledge and competence", "Before giving information to clients; firm policy annual refresh", "Competence assessment result mapped to national criteria"],
+            ["All employees and senior management", "EU (Portugal)", "DORA Article 13(6) compulsory ICT modules", "Compulsory; firm policy annual", "Completion log and phishing simulation results"],
+            ["Management body member", "EU (Portugal)", "DORA Article 5(4) specific ICT risk training", "On a regular basis; firm policy annual", "Board training record and attendance"],
+            ["New hire, any role", "UAE (Dubai)", "VARA Rule I.J.6 operational policies", "Within first 30 calendar days", "Dated acknowledgment of each policy communicated"],
+            ["All staff", "UAE (Dubai)", "VARA Rule I.J.5 AML/CFT training", "Regular basis; firm policy annual", "Completion plus monitoring of compliance with procedures"],
+            ["Board and all staff", "UAE (Dubai)", "VARA Rule VI.D anti-bribery and corruption", "At induction; regular thereafter", "Induction checklist and attendance"],
+            ["Transaction monitoring analyst", "United States", "31 CFR 1022.210(d)(3) suspicious transaction detection", "On hire; firm policy annual and when typologies change", "Case exercise results using blockchain analytics alerts"],
+            ["Wallet screening and payments staff", "United States", "OFAC Framework sanctions training", "At a minimum annually; immediately after a testing deficiency", "Assessment results and corrective training records"],
+            ["Kiosk agent", "United States", "Principal's AML program (FIN-2016-G001)", "Before operating; firm policy annual", "Agent training attestation reviewed in independent testing"],
+            ["Customer facing staff", "Australia", "AML/CTF Rules 2025 section 5-9", "On engagement; 12 months (AUSTRAC example, adopted as firm policy)", "Knowledge check, not e-learning alone"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "choosing-intervals",
+      "heading": "How should a crypto firm decide training frequency?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Start from the handful of fixed clocks, then set every other interval from the firm's risk assessment and record why. Most crypto rules say initial, ongoing, regular or periodic and stop there."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Fixed clocks.** VARA Rule I.J.6: operational policies to new hires within their first 30 calendar days. OFAC Framework: at a minimum annually. Those two can be written into the matrix as stated.",
+            "**Examples, not minimums.** AUSTRAC gives 6 to 12 months for compliance officers and senior management and 12 months for customer facing staff as examples only, and says its own e-learning cannot be relied on solely.",
+            "**Change triggers.** VARA requires updated policies to be promptly communicated; the FSA FAQ expects training to be updated when the national risk assessment or FATF material changes and those already trained to be verified. New token listings, new chains or new typologies are natural internal triggers.",
+            "**Failure triggers.** OFAC expects immediate training or corrective action when testing or audit finds a deficiency. See [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles) for ways to document the rationale."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crypto-evidence",
+      "heading": "What evidence will crypto supervisors expect to see?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Supervisors expect proof that each person understood the content relevant to their role, and records kept for the retention period each regime sets. Completion percentages alone will not answer the questions in the sources."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Proving compliance.** VARA Rule I.F.1(c) requires a licensee to maintain sufficient records to prove compliance with all applicable laws and regulatory requirements, which includes training.",
+            "**Retention.** Cabinet Resolution No. 134 of 2025 Article 25 sets five year record retention in the UAE. OFAC's recordkeeping period in 31 CFR 501.601 rose to 10 years effective March 12, 2025.",
+            "**Testing that training works.** FinCEN's 2016 agent guidance names inadequate training as a material weakness that independent testing must detect, and the FSA has checked effectiveness verification through inspections since the 2025 program year.",
+            "**Assessment before the role.** AMLR Article 13 requires an assessment of skills, knowledge, expertise and integrity before people take up AML/CFT roles, repeated regularly, and AUSTRAC's section 5-8 sets a similar personnel due diligence duty. The guide on [evidencing training effectiveness to a regulator](/guides/how-to-evidence-training-effectiveness-to-a-regulator) covers presentation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crypto-dates-ahead",
+      "heading": "Which crypto rule changes should already be in the matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Several dates from the library's regulation pages, as at November 2026, change who is in scope or what the training must cover. Add them as dated rows so the status changes on the right day."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**July 1, 2026 at the latest, EU:** the MiCA Article 143(3) grandfathering period ended; Portugal notified 18 months. Firms still serving EU clients do so as authorized crypto-asset service providers.",
+            "**March 31, 2027, Australia:** first independent evaluation deadline for many existing reporting entities under the AUSTRAC transitional rules, which will test the training program.",
+            "**July 10, 2027, EU:** the AMLR applies directly, with Article 9 requiring a written training policy and Article 12 requiring documented, ongoing training.",
+            "**June 2028, Japan:** the FSA reports that Japan's FATF fifth round on-site assessment is scheduled, which raises the bar on evidence of effectiveness."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Still pending",
+          "text": "ESMA's guidelines on criteria for assessing knowledge and competence under MiCA Article 81(7) were still marked final TBC in its July 2025 table, and FinCEN and OFAC proposed stablecoin issuer program rules under the GENIUS Act in April 2026. Track both as watch items, not matrix rows."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each crypto obligation to its market, license and source clause, and to the learning outcome and assessment point that satisfy it. When a rule such as MiCA or the AMLR moves, the affected roles and evidence rules are flagged for review. See [financial services](/industries/financial-services)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does an offshore exchange with US customers need FinCEN training rows?",
+      "a": "Likely yes. FinCEN guidance FIN-2019-G001 says the money transmitter rules, including the AML program and its training element, apply equally to foreign located convertible virtual currency money transmitters without a physical US presence when they do business wholly or in substantial part within the United States."
+    },
+    {
+      "q": "Do engineers at a crypto firm need AML training?",
+      "a": "They need whatever their role requires. DORA makes ICT security awareness compulsory for all employees of a crypto-asset service provider, and MiCA Article 68(5) requires all personnel to hold the expertise their responsibilities need. Engineers who build monitoring rules or screening tools often also warrant AML content tied to those systems."
+    },
+    {
+      "q": "Can one AML course cover the EU, Dubai and the United States?",
+      "a": "A shared core can, but each regime adds its own record. VARA requires AML/CFT training for all staff on a regular basis and new hire policy communication within 30 days, FinCEN requires suspicious transaction detection training, and the AMLR adds awareness of the transfer of funds and crypto-assets regulation. Map each module to the rule it meets."
+    },
+    {
+      "q": "Who signs off the crypto training plan?",
+      "a": "Usually the named compliance roles, with board approval of the policy. VARA makes the Compliance Officer and MLRO responsible for staff training, the UAE Cabinet Resolution makes the compliance officer responsible for documented training plans, and AMLR Article 9 requires internal policies, including the training policy, to be approved by the management body."
+    }
+  ],
+  "sources": [
+    {"title": "Regulation (EU) 2023/1114 on markets in crypto-assets (MiCA)", "publisher": "EUR-Lex, Publications Office of the European Union", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1114"},
+    {"title": "Final Report: Guidelines specifying certain requirements of MiCA on investor protection, third package (ESMA35-1872330276-1936)", "publisher": "European Securities and Markets Authority", "url": "https://www.esma.europa.eu/sites/default/files/2024-12/ESMA35-1872330276-1936_MiCA_Final_Report_to_CP3_-_investor_protection_mandates.pdf"},
+    {"title": "Overview of Level 2 and Level 3 measures related to MiCA", "publisher": "European Securities and Markets Authority", "url": "https://www.esma.europa.eu/sites/default/files/2025-07/ESMA75-113276571-1510_MiCA_Level_2_and_3_table.pdf"},
+    {"title": "List of grandfathering periods decided by Member States under Article 143 of MiCA", "publisher": "European Securities and Markets Authority", "url": "https://www.esma.europa.eu/sites/default/files/2024-12/List_of_MiCA_grandfathering_periods_art._143_3.pdf"},
+    {"title": "Regulation (EU) 2022/2554 on digital operational resilience for the financial sector (DORA)", "publisher": "Official Journal of the European Union (EUR-Lex)", "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng"},
+    {"title": "Regulation (EU) 2024/1624 on the prevention of the use of the financial system for the purposes of money laundering or terrorist financing", "publisher": "EUR-Lex, Publications Office of the European Union", "url": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"},
+    {"title": "Compliance and Risk Management Rulebook (entire section)", "publisher": "Dubai Virtual Assets Regulatory Authority (VARA)", "url": "https://rulebooks.vara.ae/entiresection/123"},
+    {"title": "Cabinet Resolution No. (134) of 2025 Regarding the Executive Regulations of Federal Decree by Law No. (10) of 2025", "publisher": "UAE Financial Intelligence Unit", "url": "https://www.uaefiu.gov.ae/media/3ssbp5d5/cabinet-134-2025.pdf"},
+    {"title": "31 CFR 1022.210: Anti-money laundering programs for money services businesses", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1022/subpart-B/section-1022.210"},
+    {"title": "31 CFR 1022.320: Reports by money services businesses of suspicious transactions", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1022/subpart-C/section-1022.320"},
+    {"title": "FIN-2019-G001: Application of FinCEN's Regulations to Certain Business Models Involving Convertible Virtual Currencies", "publisher": "Financial Crimes Enforcement Network", "url": "https://www.fincen.gov/sites/default/files/2019-05/FinCEN%20Guidance%20CVC%20FINAL%20508.pdf"},
+    {"title": "FIN-2016-G001: Guidance on Existing AML Program Rule Compliance Obligations for MSB Principals with Respect to Agent Monitoring", "publisher": "Financial Crimes Enforcement Network", "url": "https://www.fincen.gov/resources/statutes-regulations/guidance/guidance-existing-aml-program-rule-compliance-obligations"},
+    {"title": "Permitted Payment Stablecoin Issuer AML/CFT Program and Sanctions Compliance Program Requirements (proposed rule, 91 FR 18582)", "publisher": "FinCEN and OFAC, Federal Register", "url": "https://www.federalregister.gov/documents/2026/04/10/2026-06963/permitted-payment-stablecoin-issuer-anti-money-launderingcountering-the-financing-of-terrorism"},
+    {"title": "A Framework for OFAC Compliance Commitments (May 2019)", "publisher": "US Department of the Treasury, Office of Foreign Assets Control", "url": "https://ofac.treasury.gov/media/16331/download?inline"},
+    {"title": "Reporting, Procedures and Penalties Regulations (interim final rule, 89 FR 74832, September 13, 2024)", "publisher": "Office of Foreign Assets Control, Federal Register", "url": "https://www.federalregister.gov/documents/2024/09/13/2024-20674/reporting-procedures-and-penalties"},
+    {"title": "Anti-Money Laundering and Counter-Terrorism Financing Rules 2025", "publisher": "Federal Register of Legislation", "url": "https://www.legislation.gov.au/F2025L01026/latest"},
+    {"title": "AML/CTF training", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"},
+    {"title": "AML/CTF Transitional Rules 2026", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/about-us/legislation/updates-legislation/amlctf-transitional-rules-2026"},
+    {"title": "Guidelines for Anti-Money Laundering and Combating the Financing of Terrorism (March 31, 2026), provisional English translation", "publisher": "Financial Services Agency", "url": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf"},
+    {"title": "Frequently Asked Questions Regarding the AML/CFT Guidelines (March 31, 2026), provisional English translation", "publisher": "Financial Services Agency", "url": "https://www.fsa.go.jp/en/news/2026/20260331/02.pdf"},
+    {"title": "Initiatives and Challenges in Anti-Money Laundering and Countering Financial Crime (July 2026), Executive Summary", "publisher": "Financial Services Agency", "url": "https://www.fsa.go.jp/en/news/2026/20260703/05.pdf"},
+    {"title": "Initiatives and Challenges in Anti-Money Laundering and Countering Financial Crime (July 2026), full report in Japanese", "publisher": "Financial Services Agency", "url": "https://www.fsa.go.jp/policy/amlcftcpt/02.pdf"}
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "mica-staff-knowledge-and-competence",
+    "vara-staff-training-requirements",
+    "fincen-msb-aml-program-training",
+    "aml-training-requirements-by-country",
+    "how-to-build-a-training-matrix-for-a-bank"
+  ],
+  "productLinks": [
+    {"label": "Financial services", "href": "/industries/financial-services"},
+    {"label": "Audit evidence", "href": "/platform/audit-evidence"}
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {"claim": "Article 81(7) text: CASPs providing advice ensure natural persons giving advice or information possess necessary knowledge and competence; Member States publish criteria", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1114"},
+    {"claim": "Article 68(1) and (5): management body knowledge, skills and experience; personnel with knowledge, skills and expertise", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1114"},
+    {"claim": "Article 143(3): CASPs under applicable law before 30 December 2024 may continue until 1 July 2026 or authorisation/refusal, whichever sooner", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1114"},
+    {"claim": "ESMA Guideline 11 Qualifications of staff (Articles 68(5) and 81(7)): adequate skills, knowledge and expertise; appropriate training", "source": "https://www.esma.europa.eu/sites/default/files/2024-12/ESMA35-1872330276-1936_MiCA_Final_Report_to_CP3_-_investor_protection_mandates.pdf"},
+    {"claim": "ESMA Level 2 and 3 table: guidelines on criteria for assessment of knowledge and competence, final TBC", "source": "https://www.esma.europa.eu/sites/default/files/2025-07/ESMA75-113276571-1510_MiCA_Level_2_and_3_table.pdf"},
+    {"claim": "ESMA grandfathering list: Portugal 18 months", "source": "https://www.esma.europa.eu/sites/default/files/2024-12/List_of_MiCA_grandfathering_periods_art._143_3.pdf"},
+    {"claim": "DORA Article 2(1) includes crypto-asset service providers; Article 13(6) compulsory modules for all employees and senior management; Article 5(4) regular specific training for management body; Article 30(2)(i)", "source": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng"},
+    {"claim": "AMLR applies from 10 July 2027; Article 12 specific, ongoing, documented training incl. awareness of Regulation (EU) 2023/1113; Article 9(2)(a)(x) training policy approved by management body; Article 13 assessment before taking up activities", "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"},
+    {"claim": "VARA Rules I.J.4 to I.J.7: training at beginning of employment and ongoing; AML/CFT training for all staff regularly; policies to new hires within first 30 calendar days; updates promptly communicated", "source": "https://rulebooks.vara.ae/entiresection/123"},
+    {"claim": "VARA Rule I.C.2(a) CO training duty; III.A.2(a) MLRO training duty; VI.D anti-bribery training for Board and all Staff incl. induction; I.F.1(c) records to prove compliance", "source": "https://rulebooks.vara.ae/entiresection/123"},
+    {"claim": "Cabinet Resolution No. 134 of 2025 Article 21(5) periodic programs and workshops; Article 22(4) compliance officer training plans; Article 25 five year retention", "source": "https://www.uaefiu.gov.ae/media/3ssbp5d5/cabinet-134-2025.pdf"},
+    {"claim": "31 CFR 1022.210(d)(3) training of appropriate personnel incl. suspicious transaction detection; (d)(2)(iii) compliance person assures training", "source": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1022/subpart-B/section-1022.210"},
+    {"claim": "FIN-2019-G001: CVC exchangers and administrators generally money transmitters; applies equally to foreign-located CVC money transmitters", "source": "https://www.fincen.gov/sites/default/files/2019-05/FinCEN%20Guidance%20CVC%20FINAL%20508.pdf"},
+    {"claim": "FIN-2016-G001: independent testing to ensure no material weaknesses such as inadequate training", "source": "https://www.fincen.gov/resources/statutes-regulations/guidance/guidance-existing-aml-program-rule-compliance-obligations"},
+    {"claim": "FinCEN and OFAC proposed PPSI AML/CFT and sanctions program rules under the GENIUS Act on April 10, 2026", "source": "https://www.federalregister.gov/documents/2026/04/10/2026-06963/permitted-payment-stablecoin-issuer-anti-money-launderingcountering-the-financing-of-terrorism"},
+    {"claim": "OFAC Framework: training at a minimum annually; immediate corrective training after deficiency", "source": "https://ofac.treasury.gov/media/16331/download?inline"},
+    {"claim": "OFAC recordkeeping extended from five to 10 years effective March 12, 2025", "source": "https://www.federalregister.gov/documents/2024/09/13/2024-20674/reporting-procedures-and-penalties"},
+    {"claim": "AML/CTF Rules 2025 s5-9 initial and ongoing training; s5-8 personnel assessment", "source": "https://www.legislation.gov.au/F2025L01026/latest"},
+    {"claim": "AUSTRAC example frequencies are examples only; e-learning cannot be relied on solely", "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"},
+    {"claim": "First independent evaluation for existing entities by later of four years after last review or 31 March 2027", "source": "https://www.austrac.gov.au/about-us/legislation/updates-legislation/amlctf-transitional-rules-2026"},
+    {"claim": "FSA Guidelines apply to FSA supervised specified business operators incl. crypto asset exchange service providers; III-5 five required actions", "source": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf"},
+    {"claim": "FSA FAQ: update training when NRA or FATF material changes and verify those already trained", "source": "https://www.fsa.go.jp/en/news/2026/20260331/02.pdf"},
+    {"claim": "FSA has checked effectiveness verification through inspections since the 2025 program year", "source": "https://www.fsa.go.jp/en/news/2026/20260703/05.pdf"},
+    {"claim": "FATF fifth round on-site assessment of Japan scheduled for June 2028", "source": "https://www.fsa.go.jp/policy/amlcftcpt/02.pdf"}
+  ]
+}

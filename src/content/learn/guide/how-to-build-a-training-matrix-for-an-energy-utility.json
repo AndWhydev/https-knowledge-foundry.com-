@@ -1,0 +1,262 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-an-energy-utility",
+  "kind": "guide",
+  "title": "How do you build a training matrix for an energy utility?",
+  "seoTitle": "Training matrix for an energy utility",
+  "description": "Build an energy utility training matrix: NERC CIP, SOCI, NIS2, pipeline, water and nuclear operator duties by role, with access gates, clocks and evidence.",
+  "shortAnswer": "An energy utility training matrix lists control room, field, operational technology, security and governance roles against the duties of each regime the utility falls under, such as NERC CIP-004 for bulk electric system access, PHMSA operator qualification for pipelines, state water operator certification, the SOCI Act in Australia and NIS2 in the EU. Each cell records whether training gates access, the clock the rule sets, and the record the auditor will request.",
+  "keyTakeaways": [
+    "Utility rules often make training a condition of access or of performing a task: NERC CIP-004-7 requires role based training before authorized access, and PHMSA requires covered task qualification before the work.",
+    "Utilities carry some of the most precise clocks in any matrix: quarterly security awareness and 15 calendar month training under CIP-004-7, a 24 month requalification cycle with an annual operating test for licensed reactor operators.",
+    "Other utility regimes set outcomes, not intervals. PHMSA leaves evaluation intervals to the operator, and the SOCI CIRMP Rules never use the word training.",
+    "Contractors and vendors with access to critical systems need their own rows, because CIP-004, PHMSA and the SOCI Rules all reach beyond employees.",
+    "CIP-004-8, the enhanced SOCI risk management rules and national NIS2 laws are all moving through implementation, so several cells need future dated versions."
+  ],
+  "sections": [
+    {
+      "id": "what-makes-utilities-different",
+      "heading": "What makes an energy utility training matrix different?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Many of its cells are gates rather than reminders: a person may not receive access to a cyber system, perform a pipeline task or run a treatment plant shift until the training or qualification is complete. A matrix that only tracks due dates misses the point, because the control is the access decision."
+        },
+        {
+          "type": "p",
+          "text": "Utility duties also fall into three distinct kinds. Some are personal credentials held by the individual, such as a water operator certificate or a reactor operator license. Some are program duties on the utility, such as a pipeline operator qualification program. Some are governance duties on the board or management body, such as NIS2 Article 20. The general method in [how to build a training matrix](/guides/how-to-build-a-training-matrix) still applies, but each column should record which of the three kinds it is, because that decides who holds the evidence."
+        }
+      ]
+    },
+    {
+      "id": "utility-role-families",
+      "heading": "Which utility roles should become rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Build rows around access and task, because utility rules attach duties to who can reach a system or perform a defined task. Job titles vary between electricity, gas and water businesses, but the access patterns repeat."
+        },
+        {
+          "type": "table",
+          "caption": "Energy utility role families and the rules that select them",
+          "head": ["Role family", "Why it is a separate row", "Rules that select it"],
+          "rows": [
+            ["Control room and system operators", "Authorized electronic access to high or medium impact BES Cyber Systems", "CIP-004-7 R1 and R2"],
+            ["OT, SCADA and protection engineers", "Electronic access to BES Cyber Systems and their EACMS and PACS", "CIP-004-7 R2, SOCI CIRMP Rules section 9"],
+            ["Pipeline field technicians", "Perform covered tasks on gas or hazardous liquid facilities", "49 CFR 192.801 to 192.809, 195.501 to 195.509"],
+            ["Water treatment and distribution operators", "Make process control decisions affecting public health", "EPA operator certification guidelines, state programs such as 30 TAC Chapter 30"],
+            ["Licensed reactor operators and support staff", "NRC licensed functions and nine named support categories", "10 CFR 50.120, 10 CFR 55.59"],
+            ["Contractors and vendors", "Hold access or perform covered tasks on the utility's assets", "CIP-004-7 applicability, 49 CFR 192.801, SOCI section 9(1)"],
+            ["HR and security teams", "Run suitability checks, onboarding and access removal", "CIP-004-7 R3 and R5, SOCI sections 9 and 9A"],
+            ["Board and management body", "Approve and oversee cybersecurity risk measures", "NIS2 Article 20, Decree-Law 125/2025 regime Article 25"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "utility-duties-by-market",
+      "heading": "Which training duties apply to utilities in each market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The columns below come from the library's regulation pages, as at November 2026. Each link opens the full requirement."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**United States, electricity.** NERC Reliability Standard CIP-004-7, overseen by the Federal Energy Regulatory Commission (FERC), applies to balancing authorities, generator owners and operators, reliability coordinators, transmission owners and operators, and some distribution providers. Requirement R1 Part 1.1 requires security awareness at least once each calendar quarter for personnel with authorized electronic or unescorted physical access, and R2 requires role based training on nine topics before access and at least once every 15 calendar months ([NERC CIP-004](/regulations/nerc-cip-004-training-requirements)).",
+            "**United States, gas and liquids pipelines.** The Pipeline and Hazardous Materials Safety Administration (PHMSA) requires a written operator qualification program. A qualified individual has been evaluated and can perform the covered task and recognize and react to abnormal operating conditions ([PHMSA operator qualification](/regulations/pipeline-operator-qualification-requirements)).",
+            "**United States, water.** Community and nontransient noncommunity water systems need certified operators under state programs that meet EPA's 1999 guidelines, including a designated certified operator available for each operating shift and renewal on a cycle of no more than three years with state approved training ([drinking water operator certification](/regulations/drinking-water-operator-certification-requirements)).",
+            "**United States, nuclear generation.** 10 CFR 50.120 requires a training program derived from a systems approach to training for nine categories of non-licensed and support personnel, and 10 CFR 55.59 sets requalification for licensed operators ([NRC plant personnel training](/regulations/nrc-nuclear-power-plant-personnel-training)).",
+            "**Australia.** The Security of Critical Infrastructure Act 2018 requires responsible entities for critical electricity, gas, liquid fuel and energy market operator assets to keep a risk management program. Section 9 of the CIRMP Rules requires them to identify critical workers, permit access to critical components only after a suitability assessment, and minimize risks from malicious or negligent employees and contractors ([SOCI Act](/regulations/soci-act-critical-infrastructure-personnel-training)).",
+            "**European Union and Portugal.** Energy is a NIS2 sector. Article 20(2) requires management body members of essential and important entities to follow cybersecurity training, and Article 21(2)(g) lists basic cyber hygiene and cybersecurity training as a minimum risk management measure. Portugal transposed NIS2 through Decree-Law 125/2025, in force from April 3, 2026 ([NIS2](/regulations/nis2-management-body-training))."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Check before adding a lockout row",
+          "text": "OSHA's general industry lockout/tagout standard, 29 CFR 1910.147, excludes electric utility generation, transmission and distribution installations in paragraph (a)(1)(ii). Do not map network field crews to it by default; see the [lockout/tagout page](/regulations/osha-lockout-tagout-training-requirements) for its scope."
+        }
+      ]
+    },
+    {
+      "id": "illustrative-utility-matrix",
+      "heading": "What does a utility training matrix look like with real rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It looks like a register where each row states the gate, the clock and the record. The extract below is illustrative only, for a hypothetical multi-utility with a US transmission business, a gas distribution pipeline, a Texas water system, an Australian electricity asset and a Portuguese subsidiary. Frequencies labelled utility policy are choices the utility made and must justify; the rest are stated in the cited rule."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical multi-utility, role by obligation",
+          "head": ["Role", "Market", "Obligation", "Frequency or gate", "Evidence held"],
+          "rows": [
+            ["Transmission system operator", "United States", "CIP-004-7 R2 role based training", "Before authorized access; at least once every 15 calendar months", "Training completion tied to access grant date, kept three calendar years"],
+            ["All personnel with BES access", "United States", "CIP-004-7 R1 security awareness", "At least once each calendar quarter", "Dated awareness material and distribution record"],
+            ["Substation vendor technician", "United States", "CIP-004-7 R2 and R3", "Before unescorted physical access", "Training record plus personnel risk assessment"],
+            ["Gas pipeline technician", "United States", "49 CFR 192.805 covered task qualification", "Before the task; interval set by the utility for each covered task", "Qualification record with method and date, kept five years after lapse"],
+            ["Water plant operator", "United States (Texas)", "30 TAC 30.392 license renewal", "Three year license; ten hours of approved training per year of validity", "License copy and continuing education log"],
+            ["Licensed reactor operator", "United States", "10 CFR 55.59 requalification", "Cycle of no more than 24 months; annual operating test", "Exam and operating test results kept until license renewal"],
+            ["OT engineer, critical component access", "Australia", "SOCI CIRMP Rules sections 9 and 9A", "Suitability assessment before access; utility policy annual insider risk training", "Background check outcome and training record"],
+            ["Management body member", "EU (Portugal)", "NIS2 Article 20(2), Decree-Law 125/2025", "Regular training under national law; utility policy annual", "Board training log and materials"],
+            ["All staff", "EU (Portugal)", "NIS2 Article 21(2)(g) cyber hygiene", "Utility policy annual and on onboarding", "Completion and phishing exercise results"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "utility-clocks",
+      "heading": "Which utility training intervals are fixed by rule?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Electricity cyber security and nuclear operator licensing fix their clocks precisely; pipeline qualification and critical infrastructure risk programs leave them to the utility. Write each fixed clock in the matrix exactly as the rule states it."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Calendar quarter and 15 calendar months.** CIP-004-7 counts in calendar quarters and calendar months, not rolling years, so a 12 month default would be stricter than needed in one place and wrong in format everywhere.",
+            "**24 months and every year.** 10 CFR 55.59 runs requalification as a continuous cycle of no more than two years, with a comprehensive written examination and an annual operating test. Active status also requires seven 8 hour or five 12 hour shifts per calendar quarter under 55.53(e).",
+            "**Three years or less.** EPA's guidelines require water operator renewal on a fixed cycle not exceeding three years, and reexamination if a certificate has been expired for more than two years.",
+            "**Operator set.** PHMSA requires the operator to identify each covered task and the interval at which evaluation is needed, and its program must provide for evaluation after an incident. Record the reasoning for each interval. The guide on [setting mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles) covers how."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "utility-records",
+      "heading": "What records will utility auditors and inspectors ask for?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They ask for records that prove the gate held: training completed before access, qualification current on the date of the task, and evaluation methods that meet the rule. Retention differs by regime, so store it per row."
+        },
+        {
+          "type": "table",
+          "caption": "Retention and record rules stated in the utility regulation pages",
+          "head": ["Regime", "What must be kept", "How long"],
+          "rows": [
+            ["NERC CIP-004-7", "Evidence of each requirement", "Three calendar years unless the Compliance Enforcement Authority directs otherwise"],
+            ["PHMSA operator qualification", "Individual, covered tasks, dates of current qualification, method", "Prior qualification records five years"],
+            ["NRC 10 CFR 55.59", "Requalification records", "Until license renewal"],
+            ["NRC 10 CFR 50.120", "Records sufficient for NRC inspection", "Available for inspection"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Method matters as much as retention. Since December 16, 2004, PHMSA has not allowed observation of on the job performance as the sole evaluation method, and 10 CFR 55.4 defines a systems approach to training that includes evaluating trainee mastery. See [verification of competency](/glossary/verification-of-competency) for how practical assessment fits alongside written tests."
+        }
+      ]
+    },
+    {
+      "id": "utility-rules-in-motion",
+      "heading": "Which utility rules are changing in 2026 and beyond?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Three regimes in the matrix were mid transition as at November 2026, so give each affected row a dated successor."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**CIP-004-8, United States.** FERC Order No. 919 approved CIP-004-8, effective May 26, 2026. NERC's implementation plan makes it enforceable on the first day of the first calendar quarter 24 months after approval, so CIP-004-7 remains operative for now. CIP-004-8 adds Shared Cyber Infrastructure and medium impact systems with Interactive Remote Access to the training parts, keeping the quarterly and 15 calendar month intervals.",
+            "**Enhanced SOCI rules, Australia.** The Enhanced Critical Infrastructure Risk Management Program Rules 2026 commenced on June 10, 2026, with background checks or Negative Vetting 1 clearances rechecked at least every 5 years for energy assets. Section 4A(6) gives 12 month and 24 month grace periods for different enhanced provisions.",
+            "**NIS2, EU.** National transposition is uneven: the Commission sent reasoned opinions to 19 Member States, including Portugal, in May 2025, and Portugal's Decree-Law 125/2025 took effect on April 3, 2026. A January 2026 Commission proposal would make targeted NIS2 amendments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each utility obligation with its source clause, whether it gates access or a task, and the learning outcome and assessment point that satisfy it. When a standard such as CIP-004-8 becomes enforceable, the affected roles and evidence rules are flagged. See [energy and resources](/industries/energy-resources)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does CIP-004 training apply to contractors at a utility?",
+      "a": "Yes. CIP-004-7 applies to employees, contractors and vendors with authorized electronic access or authorized unescorted physical access to high or medium impact BES Cyber Systems and their associated EACMS and PACS. The training must be complete before access is granted, so contractor onboarding should check the matrix before issuing badges or credentials."
+    },
+    {
+      "q": "Is a pipeline operator qualification the same as training?",
+      "a": "No. PHMSA defines qualified as evaluated and able to perform the covered task and to recognize and react to abnormal operating conditions. Training is required as appropriate, but the evidence is the evaluation. The utility sets the evaluation interval for each covered task and keeps prior qualification records for five years."
+    },
+    {
+      "q": "Who holds the water operator certificate, the utility or the person?",
+      "a": "The individual holds the certificate under a state program, while the system owner must ensure a designated certified operator is available for each operating shift. In the matrix, treat certification as a verification row on the person and shift coverage as a separate row on the utility."
+    },
+    {
+      "q": "Does the SOCI Act require a specific training course?",
+      "a": "No. The CIRMP Rules prescribe no training course and do not use the word training. Training reaches critical workers through the program's duty to minimize risks from negligent employees and contractors and through the cyber framework the entity chooses, such as the AESCSF or the Essential Eight. The utility must justify its training as a control."
+    }
+  ],
+  "sources": [
+    {"title": "CIP-004-7 Cyber Security: Personnel and Training", "publisher": "North American Electric Reliability Corporation", "url": "https://www.nerc.com/pa/Stand/Reliability%20Standards/CIP-004-7.pdf"},
+    {"title": "CIP-004-8 Cyber Security: Personnel and Training", "publisher": "North American Electric Reliability Corporation", "url": "https://www.nerc.com/pa/Stand/Reliability%20Standards/CIP-004-8.pdf"},
+    {"title": "Order No. 919; Virtualization Reliability Standards (91 FR 13957)", "publisher": "Federal Energy Regulatory Commission, Federal Register", "url": "https://www.federalregister.gov/documents/2026/03/24/2026-05716/order-no-919-virtualization-reliability-standards"},
+    {"title": "49 CFR Part 192 Subpart N: Qualification of Pipeline Personnel", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-D/part-192/subpart-N"},
+    {"title": "49 CFR Part 195 Subpart G: Qualification of Pipeline Personnel", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-D/part-195/subpart-G"},
+    {"title": "49 CFR 192.805 Qualification program", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/49/192.805"},
+    {"title": "49 CFR 192.809 General", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/49/192.809"},
+    {"title": "Final Guidelines for the Certification and Recertification of the Operators of Community and Nontransient Noncommunity Public Water Systems, 64 FR 5916", "publisher": "US Government Publishing Office (Federal Register)", "url": "https://www.govinfo.gov/link/fr/64/5916"},
+    {"title": "About Operator Certification", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/dwcapacity/about-operator-certification"},
+    {"title": "30 TAC 30.392 Qualifications for License Renewal", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/regulations/texas/30-Tex-Admin-Code-SS-30-392"},
+    {"title": "30 TAC 30.30 Terms and Fees for Licenses and Registrations", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/regulations/texas/30-Tex-Admin-Code-SS-30-30"},
+    {"title": "10 CFR 50.120 Training and qualification of nuclear power plant personnel", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-50/subject-group-ECFR448a4b6d297d970/section-50.120"},
+    {"title": "10 CFR 55.59 Requalification", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-55/subpart-F/section-55.59"},
+    {"title": "10 CFR 55.53 Conditions of licenses", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-55/subpart-F/section-55.53"},
+    {"title": "10 CFR 55.4 Definitions", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-10/chapter-I/part-55/subpart-A/section-55.4"},
+    {"title": "Security of Critical Infrastructure (Critical infrastructure risk management program) Rules (LIN 23/006) 2023, Compilation No. 2", "publisher": "Federal Register of Legislation", "url": "https://www.legislation.gov.au/F2023L00112/latest/text"},
+    {"title": "Security of Critical Infrastructure Legislation Amendment (Enhanced Critical Infrastructure Risk Management Program) Rules 2026", "publisher": "Federal Register of Legislation", "url": "https://www.legislation.gov.au/F2026L00701/asmade/text"},
+    {"title": "Directive (EU) 2022/2555 (NIS 2 Directive)", "publisher": "Official Journal of the European Union (EUR-Lex)", "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"},
+    {"title": "NIS2 Directive transposition in EU countries", "publisher": "European Commission", "url": "https://digital-strategy.ec.europa.eu/en/policies/nis-transposition"},
+    {"title": "Proposal for a Directive as regards simplification measures and alignment with the Cybersecurity Act", "publisher": "European Commission", "url": "https://digital-strategy.ec.europa.eu/en/library/proposal-directive-regards-simplification-measures-and-alignment-cybersecurity-act"},
+    {"title": "Decreto-Lei n.º 125/2025", "publisher": "Diário da República (Portugal)", "url": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401"},
+    {"title": "29 CFR 1910.147: The control of hazardous energy (lockout/tagout)", "publisher": "Legal Information Institute, Cornell Law School (eCFR text)", "url": "https://www.law.cornell.edu/cfr/text/29/1910.147"}
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "nerc-cip-004-training-requirements",
+    "soci-act-critical-infrastructure-personnel-training",
+    "pipeline-operator-qualification-requirements",
+    "nis2-management-body-training",
+    "how-to-build-a-training-matrix-for-a-mining-operation"
+  ],
+  "productLinks": [
+    {"label": "Energy and resources", "href": "/industries/energy-resources"},
+    {"label": "Audit evidence", "href": "/platform/audit-evidence"}
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {"claim": "CIP-004-7 R1 Part 1.1 security awareness at least once each calendar quarter for personnel with authorized electronic or unescorted physical access", "source": "https://www.nerc.com/pa/Stand/Reliability%20Standards/CIP-004-7.pdf"},
+    {"claim": "CIP-004-7 R2 Part 2.1 nine topics; Part 2.2 before granting access; Part 2.3 at least once every 15 calendar months; R3 and R5 personnel risk and access removal", "source": "https://www.nerc.com/pa/Stand/Reliability%20Standards/CIP-004-7.pdf"},
+    {"claim": "CIP-004-7 evidence retained for three calendar years", "source": "https://www.nerc.com/pa/Stand/Reliability%20Standards/CIP-004-7.pdf"},
+    {"claim": "Order No. 919 approved CIP-004-8, effective May 26, 2026; enforceable first day of first calendar quarter 24 months after approval", "source": "https://www.federalregister.gov/documents/2026/03/24/2026-05716/order-no-919-virtualization-reliability-standards"},
+    {"claim": "CIP-004-8 adds Shared Cyber Infrastructure and medium impact BCS with Interactive Remote Access, keeping quarterly and 15 calendar month intervals", "source": "https://www.nerc.com/pa/Stand/Reliability%20Standards/CIP-004-8.pdf"},
+    {"claim": "Qualified means evaluated and able to perform covered tasks and recognize and react to abnormal operating conditions", "source": "https://www.law.cornell.edu/cfr/text/49/192.803"},
+    {"claim": "192.805 program provisions incl. post incident evaluation, evaluation intervals, training as appropriate", "source": "https://www.law.cornell.edu/cfr/text/49/192.805"},
+    {"claim": "Observation of on the job performance not a sole method after December 16, 2004", "source": "https://www.law.cornell.edu/cfr/text/49/192.809"},
+    {"claim": "Qualification records and five year retention of prior qualification records", "source": "https://www.law.cornell.edu/cfr/text/49/192.807"},
+    {"claim": "EPA guidelines: designated certified operator for each operating shift; renewal cycle not exceeding three years; reexamination if expired more than two years", "source": "https://www.govinfo.gov/link/fr/64/5916"},
+    {"claim": "Texas renewal: ten hours approved CE per year of license validity", "source": "https://www.law.cornell.edu/regulations/texas/30-Tex-Admin-Code-SS-30-392"},
+    {"claim": "Texas licenses valid three years", "source": "https://www.law.cornell.edu/regulations/texas/30-Tex-Admin-Code-SS-30-30"},
+    {"claim": "10 CFR 50.120 systems approach to training; nine personnel categories; records available for NRC inspection", "source": "https://www.law.cornell.edu/cfr/text/10/50.120"},
+    {"claim": "10 CFR 55.59 requalification not exceeding 24 months, comprehensive written exam, annual operating test; records kept until license renewal", "source": "https://www.law.cornell.edu/cfr/text/10/55.59"},
+    {"claim": "10 CFR 55.53(e) seven 8 hour or five 12 hour shifts per calendar quarter", "source": "https://www.law.cornell.edu/cfr/text/10/55.53"},
+    {"claim": "10 CFR 55.4 systems approach to training five elements incl. evaluation of trainee mastery", "source": "https://www.ecfr.gov/current/title-10/chapter-I/part-55/subpart-A/section-55.4"},
+    {"claim": "CIRMP Rules section 4(1) covers critical electricity, energy market operator, gas and liquid fuel assets; section 9(1) critical workers, suitability assessment, negligent insider risk", "source": "https://www.legislation.gov.au/F2023L00112/latest/text"},
+    {"claim": "Section 9A rechecks at least every 5 years; section 4A(6) 12 and 24 month grace periods; Compilation No. 2 includes F2026L00701 commenced June 10, 2026", "source": "https://www.legislation.gov.au/F2023L00112/latest/text"},
+    {"claim": "NIS2 Article 20(2) management body training; Article 21(2)(g) cyber hygiene and training", "source": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"},
+    {"claim": "Reasoned opinions to 19 Member States including Portugal on 7 May 2025", "source": "https://digital-strategy.ec.europa.eu/en/policies/nis-transposition"},
+    {"claim": "COM(2026) 13 proposal of 20 January 2026: targeted NIS2 amendments", "source": "https://digital-strategy.ec.europa.eu/en/library/proposal-directive-regards-simplification-measures-and-alignment-cybersecurity-act"},
+    {"claim": "Decree-Law 125/2025 in force 3 April 2026; regime Article 25 management bodies ensure regular training", "source": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401"},
+    {"claim": "1910.147(a)(1)(ii) excludes electric utility generation, transmission and distribution installations", "source": "https://www.law.cornell.edu/cfr/text/29/1910.147"}
+  ]
+}

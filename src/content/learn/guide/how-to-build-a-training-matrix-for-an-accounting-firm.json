@@ -1,0 +1,306 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-an-accounting-firm",
+  "kind": "guide",
+  "title": "How do you build a training matrix for an accounting firm?",
+  "seoTitle": "Training matrix for an accounting firm",
+  "description": "Build an accounting firm training matrix: service lines against AML, client data security and privacy duties by market, with refresh rules and evidence.",
+  "shortAnswer": "An accounting firm training matrix is built around service lines rather than job grades: tax and structuring, bookkeeping and client money, company secretarial, advisory and audit each carry different anti-money laundering exposure, and tax and bookkeeping teams also hold large volumes of client financial data. For each service line and market, the matrix records the obligation, the frequency, any event trigger and the evidence that shows staff can apply the rule, not just that they attended.",
+  "keyTakeaways": [
+    "Map service lines, not grades: in Australia, creating trusts, holding client money and providing registered office addresses are regulated AML/CTF services, while routine compliance work may not be.",
+    "A practice that only arranges services under an AFS license may be exempt from AML training, but it loses that position as soon as it creates trusts or holds client money for transactions.",
+    "US tax preparation firms fall under the FTC Safeguards Rule, which requires security awareness training for all personnel even where the small institution exemption applies.",
+    "Client data duties differ by market: GDPR, Japan's APPI and the UAE data protection law imply training through security and supervision duties rather than naming a course.",
+    "Auditors, accountants and tax advisors are obliged entities under the EU Anti-Money Laundering Regulation, which applies from July 10, 2027."
+  ],
+  "sections": [
+    {
+      "id": "service-line-view",
+      "heading": "Why should an accounting firm organize its matrix by service line?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because the same accountant can be inside or outside a regulated activity depending on the engagement, and the training duty follows the activity. Australia's tranche 2 reforms illustrate this: the Australian Transaction Reports and Analysis Centre (AUSTRAC) regulates services listed in table 6 of the AML/CTF Act, and those services are profession neutral, so a tax partner who sets up a family trust is in scope for that engagement and a colleague preparing individual returns may not be."
+        },
+        {
+          "type": "p",
+          "text": "The method in [how to build a training matrix](/guides/how-to-build-a-training-matrix) applies with one adjustment: before choosing rows, list the services the firm actually provides in each office, then attach roles to those services. A [skills matrix](/glossary/skills-matrix) built on job titles alone cannot show a supervisor which engagements create which duties."
+        }
+      ]
+    },
+    {
+      "id": "service-line-rows",
+      "heading": "Which accounting service lines carry which obligations?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Start with the AML exposure of each service line, then add the data security and privacy layer that applies to all of them. The table links each line to the Australian table 6 items AUSTRAC lists, as one market example; other markets define scope differently."
+        },
+        {
+          "type": "table",
+          "caption": "Accounting service lines and their main obligation drivers",
+          "head": ["Service line", "AML exposure (Australian example)", "Other drivers"],
+          "rows": [
+            ["Tax structuring and private clients", "Creating or restructuring companies and trusts is table 6 item 6; AUSTRAC's good practice example treats such roles as high risk", "EU AMLR (tax advisors), FTC Safeguards Rule for US tax preparation firms"],
+            ["Bookkeeping and client money", "Receiving or holding property for a transaction is item 3, but payments reasonably incidental to a non designated service may fall outside it", "Privacy Act APP 11, GDPR Article 32(4)"],
+            ["Company secretarial and nominee services", "Shelf companies, acting as director, secretary, trustee or nominee, and registered office addresses (items 5, 7, 8 and 9)", "UAE Cabinet Resolution No. 134 of 2025 (company service providers)"],
+            ["Corporate finance and business sales", "Equity or debt financing and buying or selling a business (items 2 and 4)", "EU AMLR Article 13 integrity assessment"],
+            ["Audit and assurance", "Audit is not among the nine table 6 services; auditors are obliged entities under the EU AMLR and Portugal's Law 83/2017", "GDPR, APPI"],
+            ["Practice administration and reception", "Registered office or principal place of business address services (item 9)", "Record keeping and data handling rules"],
+            ["Partners and AML/CTF compliance officer", "Approve enhanced due diligence and own the training program", "Law 83/2017 Article 55, Cabinet Resolution No. 134 of 2025 Article 22(4)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "accounting-obligations-by-market",
+      "heading": "Which obligations apply to accounting firms in each market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The obligation columns come from the library's regulation pages for each market. The summaries below use only those pages, and every link opens the full requirement."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Australia.** Accounting practices providing table 6 services are reporting entities from July 1, 2026, and AUSTRAC's national risk assessment found services provided by accountants pose a high money laundering risk ([AML/CTF tranche 2 for lawyers and accountants](/regulations/aml-ctf-tranche-2-lawyers-accountants-training)). Section 5-9 of the AML/CTF Rules 2025 requires initial and ongoing training appropriate to each person's function and risks, and section 5-8 requires an assessment of skills, knowledge and integrity ([AUSTRAC AML/CTF training](/regulations/austrac-aml-ctf-training-requirements)). The Office of the Australian Information Commissioner (OAIC) counts staff training as an organizational measure under APP 11 ([Privacy Act staff training](/regulations/privacy-act-staff-training-requirements)).",
+            "**United States.** The Federal Trade Commission (FTC) Safeguards Rule names tax preparation firms among the financial institutions it covers. Section 314.4(e) requires security awareness training for all personnel, updated to reflect the firm's risk assessment, plus security updates and training for information security staff ([FTC Safeguards Rule](/regulations/ftc-safeguards-rule-employee-training)).",
+            "**European Union and Portugal.** The EU Anti-Money Laundering Regulation (AMLR) lists auditors, accountants and tax advisors among obliged entities. From July 10, 2027, Article 12 requires specific, ongoing, documented training, Article 9 a written training policy approved by the management body, and Article 13 an assessment of skills, knowledge and integrity ([EU AMLR](/regulations/eu-amlr-training-requirements)). Until then, Portuguese auditors and accountants in covered activities follow Article 55 of Law 83/2017 ([Portugal AML law](/regulations/portugal-aml-law-training-requirements)). The GDPR's data protection officer monitors awareness raising and training under Article 39 ([GDPR staff training](/regulations/gdpr-staff-training-requirements)).",
+            "**Japan.** Articles 23 and 24 of the Act on the Protection of Personal Information (APPI) require security control measures and supervision of employees who handle personal data, and the Personal Information Protection Commission's guidelines make employee education mandatory ([APPI employee training](/regulations/japan-appi-employee-training)). The Financial Services Agency's AML/CFT Guidelines expressly exclude certified public accountants and audit firms (Article 2(2) item 48), so a Japanese practice should not use them as its benchmark ([FSA AML/CFT Guidelines](/regulations/japan-fsa-aml-cft-guidelines-training)).",
+            "**United Arab Emirates.** Independent accountants and company and trust service providers are designated non-financial businesses and professions when carrying out the listed activities. Article 21(5) of Cabinet Resolution No. 134 of 2025 requires periodic programs and workshops ([UAE AML/CFT](/regulations/uae-aml-cft-training-requirements)). Federal Decree-Law No. 45 of 2021 has no express training article, but Article 7 requires appropriate technical and organizational measures and a record of who may access personal data ([UAE PDPL](/regulations/uae-pdpl-staff-training))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scope-judgment-training",
+      "heading": "What scope decisions must accounting staff be trained to make?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Staff who open engagements must be able to decide whether a service is regulated, because a misclassified engagement skips customer due diligence entirely. These decisions are judgment calls, so the training should be assessed on realistic engagement scenarios rather than recall questions."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**The bookkeeper test.** AUSTRAC works through a bookkeeper processing routine payments as an item 3 example. Whether payments are reasonably incidental to a non designated service decides whether the engagement is in scope.",
+            "**The business test.** A service counts even if provided once, alongside other work, or free to further the business, so occasional favors for long standing clients are not automatically outside scope.",
+            "**The item 54 position.** A business whose only designated service is arranging another designated service under an Australian financial services license is exempt from personnel due diligence and training, but must still enroll, assess risk, conduct initial due diligence and report suspicious matters. An accounting practice that also creates trusts or holds client money for transactions loses that position.",
+            "**Privilege is not available.** AUSTRAC recommends that non lawyers seek legal advice before withholding information on privilege grounds, which means accountants need an escalation route, not a privilege module."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Recording these decisions as assessment evidence connects to the distinction in [completion tracking vs competency verification](/compare/completion-tracking-vs-competency-verification)."
+        }
+      ]
+    },
+    {
+      "id": "illustrative-accounting-matrix",
+      "heading": "What does a filled in accounting firm matrix look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each row ties a role in a market to one obligation, a clock and the evidence the firm files. The extract below is illustrative only, for a hypothetical mid sized firm with offices in Brisbane, Porto, Chicago, Osaka and Abu Dhabi. Frequencies labelled firm policy are choices the firm must justify; the cited rule sets no interval."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical accounting firm, service line role by obligation",
+          "head": ["Role", "Market", "Obligation", "Frequency", "Evidence held"],
+          "rows": [
+            ["Trust and structuring manager", "Australia", "AML/CTF Rules s5-9; high risk role under AUSTRAC good practice example", "Before first item 6 engagement; then at least annually (AUSTRAC example, adopted as firm policy)", "Scenario assessment on beneficial ownership, structuring file review"],
+            ["Bookkeeper", "Australia", "Item 3 carve out decisions", "Before handling client payments; firm policy annual", "Scenario check on incidental payments, engagement classification log"],
+            ["Company secretarial officer", "Australia", "Items 5, 7, 8 and 9 customer due diligence on the nominator", "Before first appointment; firm policy annual", "Appointment files showing due diligence"],
+            ["All staff with client data access", "Australia", "APP 11 security measures", "Induction; firm policy annual", "Completion and phishing or data handling exercise results"],
+            ["Audit senior", "Portugal", "Law 83/2017 Article 55", "Immediately on joining; regular thereafter", "Record kept seven years under Article 51; compliance officer's prior opinion"],
+            ["Tax adviser", "Portugal (EU)", "AMLR Articles 12 and 13", "Integrity assessment before taking up the role from July 10, 2027; regularly repeated", "Assessment content approved by the compliance officer"],
+            ["Seasonal tax preparer", "United States", "16 CFR 314.4(e)(1) security awareness", "Before access to customer data; refreshed when the risk assessment changes", "Completion record and acknowledgment of current procedures"],
+            ["IT and security staff", "United States", "16 CFR 314.4(e)(3) and (e)(4)", "Ongoing security updates; firm policy annual verification", "Qualified Individual's verification note"],
+            ["Payroll services staff", "Japan", "APPI Article 24; PPC Guidelines section 10-4", "Periodic training (firm policy annual)", "Training log and confidentiality clause in work rules"],
+            ["Company formation adviser", "UAE", "Cabinet Resolution No. 134 of 2025 Article 21(5)", "Periodic; annual plan as firm policy", "Compliance officer's documented plan, kept five years"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "client-data-security",
+      "heading": "How should client data security training be scoped in an accounting firm?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Scope it to everyone with access to client financial records, including seasonal, contract and outsourced staff, and tie its content to the firm's own risk assessment. Several of the linked rules define the trained population broadly and none of them lets a firm skip training because it is small."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**United States.** The FTC Safeguards Rule exempts institutions holding data on fewer than 5,000 consumers from 314.4(b)(1), (d)(2), (h) and (i) only, so paragraph (e) training duties still apply. Notification events involving at least 500 consumers must be reported to the FTC within 30 days of discovery, and discovery counts from the first day any employee knew, which makes recognizing and escalating an incident part of every employee's training.",
+            "**Japan.** The APPI definition of employee covers regular, contract, part time and dispatched workers and also directors and auditors, so seasonal staff belong on the matrix.",
+            "**European Union.** GDPR Articles 29 and 32(4) mean anyone acting under the firm's authority processes personal data only on instructions; infringing Articles 25 to 39 can attract fines of up to EUR 10 million or 2% of worldwide annual turnover.",
+            "**United Arab Emirates.** The PDPL does not apply to free zone companies with their own data protection legislation, such as those in DIFC and ADGM, so an Abu Dhabi office needs to confirm which regime its entity sits under before choosing content.",
+            "**Australia.** The small business exemption threshold is $3 million annual turnover with listed exceptions, and the privacy page lists AML/CTF reporting entities among covered entities, so a small practice that becomes a reporting entity should recheck its position."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "accounting-cadence",
+      "heading": "How often should accounting firm training be repeated?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mostly on a cycle the firm sets and documents, because almost none of the accounting rules fixes an interval. The firm should state its chosen cycle per row, the reasoning behind it and the events that force an earlier refresh."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Stated or exemplified intervals.** AUSTRAC's good practice example runs refreshers at least annually or on significant change; its general guidance gives 12 months for customer facing staff and 6 to 12 months for compliance officers and senior management, as examples only, and says e-learning cannot be relied on solely.",
+            "**Risk assessment triggers.** The FTC Safeguards Rule and the AMLR both tie content to the firm's risk assessment, so a revised risk assessment is a refresh trigger.",
+            "**Role entry triggers.** Portugal requires training immediately after hiring into an AML relevant role, and the AMLR requires the integrity assessment before people take up AML/CFT activities.",
+            "**Busy season.** Seasonal tax staff join in a short window; scheduling their security and data handling rows before system access is granted is easier than chasing completions mid season. The guide on [setting mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles) covers how to justify the chosen intervals."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "accounting-evidence",
+      "heading": "What records will an evaluator or supervisor expect from an accounting firm?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Expect requests for who was trained, on which content, when, and how understanding was checked, held for the longest retention period that applies. AUSTRAC's good practice example keeps a central training register and tests knowledge through quizzes or scenario discussions."
+        },
+        {
+          "type": "table",
+          "caption": "Retention and record points from the linked regulation pages",
+          "head": ["Source", "Record point", "Market"],
+          "rows": [
+            ["Law 83/2017 Article 51", "AML training records retained seven years and available to sectoral authorities", "Portugal"],
+            ["Cabinet Resolution No. 134 of 2025 Article 25", "Five year record retention", "UAE"],
+            ["AMLR Article 12", "Training programs must be duly documented", "EU from July 10, 2027"],
+            ["16 CFR 314.4(i)", "Annual written report to the board on the information security program", "United States"],
+            ["UAE PDPL Article 7(4)", "Record including persons authorized to access personal data", "UAE"],
+            ["GDPR Article 5(2)", "Ability to demonstrate compliance, for which training records are standard evidence", "EU"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Presenting results rather than attendance is covered in [how to evidence training effectiveness to a regulator](/guides/how-to-evidence-training-effectiveness-to-a-regulator)."
+        }
+      ]
+    },
+    {
+      "id": "accounting-timeline",
+      "heading": "Which upcoming dates affect an accounting firm's matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "These dates come from the linked regulation pages, as at November 2026, and belong in the matrix as future dated rows."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**July 1, 2026, Australia:** accountants providing table 6 services became AUSTRAC reporting entities.",
+            "**December 10, 2026, Australia:** automated decision making transparency obligations under the Privacy Act commence.",
+            "**Within two years of July 17, 2026, Japan:** most of the APPI amending Act takes effect, adding administrative surcharges; the penalty changes apply six months after promulgation.",
+            "**July 10, 2027, EU:** the AMLR applies directly to auditors, accountants and tax advisors."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each service line, the obligations it triggers in each market and the scope decisions staff must make, then attaches assessment points to those decisions. When a source such as AUSTRAC's item 3 guidance or the AMLR changes, the affected service lines and roles can be traced from the framework. See [professional services](/industries/professional-services)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do audit staff need AML training?",
+      "a": "It depends on the market. Auditors are obliged entities under the EU AMLR and under Portugal's Law 83/2017, so audit staff in relevant roles need training there. In Australia, the trigger is whether the practice provides a table 6 service; audit alone is not listed, but a firm that also structures or holds client money is a reporting entity for that work."
+    },
+    {
+      "q": "Does a US tax practice with few clients still need Safeguards Rule training?",
+      "a": "Yes. The 314.6 exemption for institutions holding data on fewer than 5,000 consumers switches off only paragraphs 314.4(b)(1), (d)(2), (h) and (i). Paragraph (e), including security awareness training for all personnel, still applies."
+    },
+    {
+      "q": "Is AUSTRAC's accounting starter kit enough for a growing practice?",
+      "a": "Only for practices that meet its criteria: 15 or fewer personnel, mostly Australian resident individual clients and no regular high risk clients. AUSTRAC says larger practices are highly likely to face more complex risks requiring stronger controls, so they need their own role analysis rather than the kit's generic personnel policy."
+    },
+    {
+      "q": "Should seasonal and contract staff appear on the matrix?",
+      "a": "Yes. The FTC Safeguards Rule applies training to all personnel, Japan's APPI counts contract, part time and dispatched workers as employees, and the AMLR extends training to persons in comparable positions. Seasonal staff often have the broadest access to client records during the busiest weeks."
+    }
+  ],
+  "sources": [
+    {"title": "Professional designated services", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/new-austrac/designated-services-newly-regulated-entities/professional-designated-services"},
+    {"title": "About the reforms", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/industry-and-business/about-amlctf-reforms/about-reforms"},
+    {"title": "Examples of personnel due diligence and training in practice", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/examples-personnel-due-diligence-and-training-practice"},
+    {"title": "Exemptions from AML/CTF obligations for businesses providing only item 54 designated services", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/additional-guidance/exemptions-amlctf-obligations-businesses-providing-only-item-54-designated-services"},
+    {"title": "Risk insights and indicators of suspicious activity for accountants", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/risk-insights-and-indicators-suspicious-activity-accountants"},
+    {"title": "Accounting program starter kit: Getting started", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/program-starter-kits/accountant-program-starter-kit/accounting-program-starter-kit-getting-started"},
+    {"title": "Legal professional privilege", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/legal-professional-privilege"},
+    {"title": "AML/CTF training", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"},
+    {"title": "Anti-Money Laundering and Counter-Terrorism Financing Rules 2025", "publisher": "Federal Register of Legislation", "url": "https://www.legislation.gov.au/F2025L01026/latest"},
+    {"title": "Chapter 11: APP 11 Security of personal information", "publisher": "Office of the Australian Information Commissioner", "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-11-app-11-security-of-personal-information"},
+    {"title": "Small business", "publisher": "Office of the Australian Information Commissioner", "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/small-business"},
+    {"title": "Privacy and Other Legislation Amendment Act 2024", "publisher": "Federal Register of Legislation", "url": "https://www.legislation.gov.au/C2024A00128/asmade"},
+    {"title": "16 CFR 314.4 Elements", "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)", "url": "https://www.law.cornell.edu/cfr/text/16/314.4"},
+    {"title": "16 CFR 314.6 Exceptions", "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)", "url": "https://www.law.cornell.edu/cfr/text/16/314.6"},
+    {"title": "16 CFR 314.1 Purpose and scope", "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)", "url": "https://www.law.cornell.edu/cfr/text/16/314.1"},
+    {"title": "FTC Safeguards Rule: What Your Business Needs to Know", "publisher": "Federal Trade Commission", "url": "https://www.ftc.gov/business-guidance/resources/ftc-safeguards-rule-what-your-business-needs-know"},
+    {"title": "Regulation (EU) 2024/1624 on the prevention of the use of the financial system for the purposes of money laundering or terrorist financing", "publisher": "EUR-Lex, Publications Office of the European Union", "url": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"},
+    {"title": "Lei n.º 83/2017, de 18 de agosto (versão consolidada)", "publisher": "Diário da República, Imprensa Nacional-Casa da Moeda", "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"},
+    {"title": "Regulation (EU) 2016/679 (General Data Protection Regulation)", "publisher": "Official Journal of the European Union (EUR-Lex)", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"},
+    {"title": "Act on the Protection of Personal Information (Act No. 57 of 2003), Japanese text", "publisher": "Digital Agency, e-Gov Laws", "url": "https://laws.e-gov.go.jp/law/415AC0000000057"},
+    {"title": "Guidelines for the Act on the Protection of Personal Information (General Rules), revised June 2026", "publisher": "Personal Information Protection Commission", "url": "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/"},
+    {"title": "About the Act Partially Amending the Act on the Protection of Personal Information and Related Acts (July 2026)", "publisher": "Personal Information Protection Commission Secretariat", "url": "https://www.ppc.go.jp/files/pdf/260717_kaiseihounitsuite.pdf"},
+    {"title": "Guidelines for Anti-Money Laundering and Combating the Financing of Terrorism (March 31, 2026), provisional English translation", "publisher": "Financial Services Agency", "url": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf"},
+    {"title": "Cabinet Resolution No. (134) of 2025 Regarding the Executive Regulations of Federal Decree by Law No. (10) of 2025", "publisher": "UAE Financial Intelligence Unit", "url": "https://www.uaefiu.gov.ae/media/3ssbp5d5/cabinet-134-2025.pdf"},
+    {"title": "Federal Decree by Law No. (45) of 2021 Concerning the Protection of Personal Data", "publisher": "UAE Legislation portal, Ministry of Cabinet Affairs", "url": "https://uaelegislation.gov.ae/en/legislations/1972"}
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "aml-ctf-tranche-2-lawyers-accountants-training",
+    "ftc-safeguards-rule-employee-training",
+    "eu-amlr-training-requirements",
+    "how-to-build-a-training-matrix-for-a-law-firm",
+    "skills-matrix"
+  ],
+  "productLinks": [
+    {"label": "Professional services", "href": "/industries/professional-services"},
+    {"label": "Gap analysis", "href": "/platform/gap-analysis"}
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {"claim": "Table 6 items 1 to 9 including receiving or holding property, financing, shelf companies, creation or restructuring, acting or arranging in positions, registered office address; business test (once, alongside other work, free)", "source": "https://www.austrac.gov.au/new-austrac/designated-services-newly-regulated-entities/professional-designated-services"},
+    {"claim": "Accountants regulated from 1 July 2026", "source": "https://www.austrac.gov.au/industry-and-business/about-amlctf-reforms/about-reforms"},
+    {"claim": "Good practice example: high risk roles creating or restructuring body corporates or trusts; refresher at least annually or on significant change; central register; quizzes or scenario discussions", "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/examples-personnel-due-diligence-and-training-practice"},
+    {"claim": "Item 54 only providers exempt from personnel due diligence and training but must enroll, assess risk, conduct initial CDD and report suspicious matters", "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/additional-guidance/exemptions-amlctf-obligations-businesses-providing-only-item-54-designated-services"},
+    {"claim": "National risk assessment found services provided by accountants pose a high money laundering risk", "source": "https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/risk-insights-and-indicators-suspicious-activity-accountants"},
+    {"claim": "Accounting starter kit designed for practices with 15 or fewer personnel; larger practices likely need stronger controls", "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/program-starter-kits/accountant-program-starter-kit/accounting-program-starter-kit-getting-started"},
+    {"claim": "AUSTRAC recommends non-lawyers seek legal advice before withholding information on privilege grounds (per the tranche 2 regulation page)", "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/legal-professional-privilege"},
+    {"claim": "AUSTRAC example frequencies are examples only; e-learning cannot be relied on solely", "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/amlctf-training"},
+    {"claim": "AML/CTF Rules 2025 s5-9 training and s5-8 skills, knowledge and integrity assessment", "source": "https://www.legislation.gov.au/F2025L01026/latest"},
+    {"claim": "OAIC APP 11 guidelines describe organisational measures as including staff training", "source": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-11-app-11-security-of-personal-information"},
+    {"claim": "Small business exemption threshold $3 million annual turnover with listed exceptions", "source": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/small-business"},
+    {"claim": "ADM transparency obligations commence 10 December 2026", "source": "https://www.legislation.gov.au/C2024A00128/asmade"},
+    {"claim": "314.4(e)(1) to (4) awareness training for all personnel updated to risk assessment; security updates and training for security personnel; verify key personnel; 314.4(i) annual report to board; 314.4(j) 30 days for 500 or more consumers", "source": "https://www.law.cornell.edu/cfr/text/16/314.4"},
+    {"claim": "314.6 exempts fewer than five thousand consumers from 314.4(b)(1), (d)(2), (h) and (i) only", "source": "https://www.law.cornell.edu/cfr/text/16/314.6"},
+    {"claim": "314.1(b) scope includes tax preparation firms", "source": "https://www.law.cornell.edu/cfr/text/16/314.1"},
+    {"claim": "AMLR applies 10 July 2027; obliged entities include auditors, accountants, tax advisors; Article 12 training; Article 9(2)(a)(x) training policy approved by management body; Article 13 assessment before taking up activities, regularly repeated", "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"},
+    {"claim": "Law 83/2017 Article 55 immediate training for new joiners and compliance officer prior favorable opinion; Article 51 seven years", "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"},
+    {"claim": "GDPR Article 39 DPO monitors awareness raising and training; Articles 29 and 32(4); Article 83(4) EUR 10 million or 2%", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"},
+    {"claim": "APPI Articles 23 and 24", "source": "https://laws.e-gov.go.jp/law/415AC0000000057"},
+    {"claim": "PPC Guidelines 10-4 employee education; 3-4-3 employees include directors, auditors, dispatched workers", "source": "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/"},
+    {"claim": "APPI amending Act promulgated 17 July 2026; commencement within two years; surcharges", "source": "https://www.ppc.go.jp/files/pdf/260717_kaiseihounitsuite.pdf"},
+    {"claim": "FSA AML/CFT Guidelines apply to FSA supervised specified business operators except Article 2(2) item 48 (CPAs and audit firms)", "source": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf"},
+    {"claim": "Cabinet Resolution 134 of 2025 Article 21(5), Article 22(4), Article 25 five year retention", "source": "https://www.uaefiu.gov.ae/media/3ssbp5d5/cabinet-134-2025.pdf"},
+    {"claim": "UAE PDPL Article 2(2) free zone exclusion; Article 7(1) measures; Article 7(4) record of authorized persons", "source": "https://uaelegislation.gov.ae/en/legislations/1972"}
+  ]
+}

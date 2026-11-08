@@ -1,0 +1,271 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-university",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a university?",
+  "seoTitle": "Training matrix for a university",
+  "description": "Build a university training matrix: campus safety, Title IX, student privacy, research security, biosafety and course quality duties by role and market.",
+  "shortAnswer": "A university training matrix is built by listing the roles that carry distinct legal duties, such as Title IX decision-makers, student conduct officials, campus security authorities, records staff, principal investigators and course coordinators, against the obligations in each country where the university teaches or researches. Each cell then records the frequency the rule sets or the university chooses, the trigger that restarts it, and the evidence an auditor or regulator would ask to see.",
+  "keyTakeaways": [
+    "University duties split into four families: campus conduct and safety, student records and data, research compliance, and academic quality. Each needs its own columns.",
+    "Only some rules fix a clock. The Clery Act requires annual training for disciplinary officials and the select agent rule requires annual refreshers; Title IX and FERPA set no interval.",
+    "Several university rows are about specialist roles, not all staff: Title IX names four trained roles, and NIH Guidelines assign training duties to the IBC, biosafety officer, PIs and lab staff.",
+    "Evidence rules differ sharply: Title IX training materials must be kept seven years and posted online, select agent training records need a method of verifying understanding, and Illinois acknowledgments are kept permanently.",
+    "As at November 2026, the Title IX recodification, Australian Threshold Standards amendments and a draft NIH biosafety policy all affect rows within the next year."
+  ],
+  "sections": [
+    {
+      "id": "what-makes-universities-different",
+      "heading": "What makes a university training matrix different from a corporate one?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A university matrix has to cover students as well as staff, research as well as teaching, and several regulators that attach duties to funding rather than to employment. A corporate matrix usually starts from job titles; a university matrix starts from the function a person performs, because the same professor may chair a student hearing, supervise a biosafety level 2 lab and release controlled technology to a visiting researcher in one semester."
+        },
+        {
+          "type": "p",
+          "text": "The underlying method is the one in [how to build a training matrix](/guides/how-to-build-a-training-matrix): roles on one axis, obligations on the other, a rule in every cell. What a university adds is a function tag on each person, so that duties attach when someone is appointed to a committee or a hearing panel and drop away when the appointment ends. Treating these as [role based training](/glossary/role-based-training) assignments keeps the matrix accurate through constant changes in academic service roles."
+        }
+      ]
+    },
+    {
+      "id": "university-functions",
+      "heading": "Which university functions should become rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Make a row for every function that a rule names, and keep general employees as a single baseline row. The table groups the functions most universities need, with the rules that drive them."
+        },
+        {
+          "type": "table",
+          "caption": "University functions and the rules that make them separate rows",
+          "head": ["Function", "Why it needs its own row", "Rules that drive it"],
+          "rows": [
+            ["Title IX Coordinator, investigators, decision-makers, informal resolution facilitators", "Named roles with specified training content and public materials", "34 CFR 106.45(b)(1)(iii) and (b)(10)"],
+            ["Student conduct and disciplinary officials", "Annual training on dating violence, domestic violence, sexual assault and stalking proceedings", "34 CFR 668.46(k)(2)(ii)"],
+            ["Campus security authorities", "Crimes reported to them must be counted in Clery statistics", "34 CFR 668.46(a); 20 U.S.C. 1092(f)(1)(F)"],
+            ["All incoming students and new employees", "Primary prevention and awareness programs with six content elements", "34 CFR 668.46(j)(1)(i)"],
+            ["Registrar, records, advising and IT access staff", "Access limited to legitimate educational interest; disclosure logs", "34 CFR 99.31(a)(1)(ii), 99.32"],
+            ["Researchers and engineers with foreign national colleagues", "Release of controlled technology can be a deemed export", "15 CFR 734.13; BIS Export Compliance Guidelines Element 5"],
+            ["IBC members, biosafety officer, PIs, laboratory staff", "Institutional and PI training duties; select agent access conditions", "NIH Guidelines IV-B-1-h and IV-B-7-d-(2); 42 CFR 73.15; BMBL"],
+            ["Course coordinators and academic governance", "Course design, learning outcomes and seven year review", "HESF Standards 1.4, 1.5.3, 3.1, 5.3"],
+            ["Staff processing personal data or using AI tools in the EU", "Accountability for data handling and AI literacy measures", "GDPR Articles 29, 32(4), 39; AI Act Article 4"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "university-obligations-by-market",
+      "heading": "Which obligations apply to universities in each market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The columns come from the regulation pages for each country where the university operates a campus, enrolls students or runs funded research. Each summary below draws only on the linked page."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**United States, campus conduct.** For institutions in federal student aid programs, 34 CFR 668.46(j)(1)(i) requires primary prevention and awareness programs for all incoming students and new employees, and 668.46(j)(1)(ii) requires ongoing campaigns sustained over time. Officials conducting disciplinary proceedings must, at a minimum, receive annual training under 668.46(k)(2)(ii) ([Clery Act](/regulations/clery-act-training-requirements)). Under the 2020 Title IX Rule, in force as at November 2026, 34 CFR 106.45(b)(1)(iii) requires training for Title IX Coordinators, investigators, decision-makers and informal resolution facilitators on the definition of sexual harassment, the scope of the program, the grievance process and serving impartially ([Title IX](/regulations/title-ix-training-requirements)).",
+            "**United States, student records.** The Family Educational Rights and Privacy Act (FERPA) and 34 CFR Part 99 contain no explicit staff training requirement, but 99.31(a)(1)(ii) requires reasonable methods to keep school officials to records in which they have a legitimate educational interest, and Department of Education guidance recommends regular training as a way to meet that duty ([FERPA](/regulations/ferpa-staff-training)).",
+            "**United States, research.** The Export Administration Regulations set no general training mandate, but the Bureau of Industry and Security (BIS) names training as Element 5 of its Export Compliance Guidelines, and 15 CFR 734.13(a)(2) treats release of controlled technology or source code to a foreign person in the US as a deemed export ([EAR export compliance](/regulations/ear-export-compliance-training)). Institutions subject to the NIH Guidelines must ensure training for Institutional Biosafety Committee members, the biological safety officer, principal investigators and laboratory staff, and 42 CFR 73.15 requires select agent training before entry and annually ([laboratory biosafety](/regulations/biosafety-training-requirements-laboratories)).",
+            "**United States, state child protection.** Illinois lists personnel of institutions of higher education as mandated reporters, with training within three months of engagement and at least every three years after ([US school mandated reporter training](/regulations/us-school-employee-mandated-reporter-training)). Universities in other states need the equivalent state rule.",
+            "**Australia.** The Higher Education Standards Framework (Threshold Standards) 2021, regulated by the Tertiary Education Quality and Standards Agency (TEQSA), requires specified learning outcomes with assessment capable of confirming all of them (Standard 1.4) and a comprehensive review of every accredited course at least every seven years (Standard 5.3) ([HESF course design](/regulations/teqsa-hesf-course-design-requirements)). Standard 1.5.3 ties outcomes to the Australian Qualifications Framework (AQF) level ([AQF levels](/regulations/aqf-levels-and-learning-outcomes)). Section 47C of the Sex Discrimination Act 1984 imposes a positive duty, and Australian Human Rights Commission guidance expects ongoing, role tailored education for leaders, managers and those who receive reports ([positive duty](/regulations/positive-duty-sexual-harassment-training)).",
+            "**European Union and Portugal.** The GDPR requires that people with access to personal data process it only on instructions (Articles 29 and 32(4)) and gives the data protection officer the task of monitoring awareness raising and training (Article 39(1)(b)) ([GDPR](/regulations/gdpr-staff-training-requirements)). Article 4 of the AI Act, as replaced by the Digital Omnibus on AI, requires providers and deployers of AI systems to take measures to support AI literacy of staff and others using AI on their behalf ([AI Act AI literacy](/regulations/eu-ai-act-ai-literacy))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "illustrative-university-matrix",
+      "heading": "What does a university matrix look like when filled in?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It looks like a register in which each function carries a market, an obligation, a clock and an evidence rule. The extract below is illustrative only, for a hypothetical research university with a main campus in Illinois, an Australian campus and a research center in Lisbon. Frequencies labelled university policy are choices the institution must justify; the cited rule does not set them."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical multi-campus research university",
+          "head": ["Function", "Market", "Obligation", "Frequency", "Evidence held"],
+          "rows": [
+            ["Student conduct hearing panel member", "United States", "Clery 668.46(k)(2)(ii) annual training", "Before first hearing; at a minimum annually", "Dated completion plus content outline matching the four crimes and hearing process"],
+            ["Title IX decision-maker", "United States", "106.45(b)(1)(iii) role training, including live hearing technology and relevance", "Before appointment; university policy annual and on rule change", "Materials retained seven years and posted on the website"],
+            ["New employee", "United States", "Clery primary prevention program, six content elements", "On hire", "Program described in the annual security report"],
+            ["Campus security authority", "United States", "Reporting crimes for Clery statistics", "On designation; university policy annual", "Designation list and acknowledgment of reporting route"],
+            ["Registrar and advising staff", "United States", "FERPA legitimate educational interest and disclosure logging", "On access grant; university policy annual", "Access approval, acknowledgment of annual notice criteria"],
+            ["Faculty member in a mandated reporter role", "United States (Illinois)", "Mandated reporter training under 325 ILCS 5/4", "Within three months of engagement; at least every three years", "Completion record kept by the reporter and reported to the employer; signed acknowledgment kept permanently"],
+            ["PI on recombinant DNA project", "United States", "NIH Guidelines IV-B-7-d-(2) staff instruction", "Before work starts; on protocol change", "IBC registration and lab training log"],
+            ["Select agent laboratory worker", "United States", "42 CFR 73.15 training", "Before entry or within 12 months of approval; annual refresher", "Record with name, date, description and means to verify understanding, kept three years"],
+            ["Engineering researcher hosting a visiting scholar", "United States", "EAR deemed export awareness", "Before access to controlled technology; on change to the EAR or the project", "Assessment result and technology control plan sign off"],
+            ["Course coordinator", "Australia", "HESF Standards 1.4 and 5.3", "On appointment; aligned to the seven year review cycle", "Course specification, outcome map and review report"],
+            ["Head of school", "Australia", "Positive duty, Standard 3 education", "On appointment; periodic reinforcement as university policy", "Attendance with copy of content and survey data on understanding"],
+            ["Research administrator", "EU (Portugal)", "GDPR Articles 29 and 32(4) instructions", "On access grant; university policy annual", "Training record supporting Article 5(2) accountability"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fixed-versus-chosen-clocks",
+      "heading": "Which university clocks are set by law and which must the institution choose?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A handful of university rules fix a clock and most do not, so record the source of every interval in the matrix. Where the rule is silent, write the university's reason for its chosen cycle next to the cell."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Set by the rule.** Clery disciplinary officials: annual at a minimum. Select agent personnel: before entry or within 12 months of access approval, then annually. Illinois mandated reporters: within three months, then at least every three years. HESF course review: at least every seven years.",
+            "**Advisory clocks.** The BMBL, a code of practice, describes annual updates and additional training when equipment, procedures or policies change. Treat it as the expected standard for non select agent labs, and label it advisory.",
+            "**No clock at all.** The Title IX Rule in force sets no training frequency and no all employee mandate; the vacated 2024 Rule had required annual training for all employees, so older university policies may still cite it. FERPA sets no training duty, and BIS expects periodic reviews when products, end users or the EAR change.",
+            "**Event triggers.** Appointment to a hearing panel, a new IBC protocol, a visiting scholar from a new country, or a significant amendment to a select agent plan should each start a row on the day it happens. The guide on [setting mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles) covers how to document the choice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "university-evidence",
+      "heading": "What records will auditors and regulators expect from a university?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Expect requests for content and method as well as completion, because several university rules regulate what the training says. A completion percentage alone will not answer a Title IX or select agent inquiry."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Public training materials.** 34 CFR 106.45(b)(10)(i)(D) requires all materials used to train the four Title IX roles to be kept for seven years and published on the institution's website. Materials must not rely on sex stereotypes.",
+            "**Annual security report.** The Clery prevention programs must be described in the report distributed to enrolled students and current employees by October 1 each year. The adjusted maximum civil penalty under 20 U.S.C. 1094(c)(3)(B) is $71,545.",
+            "**Verification of understanding.** Select agent training records must include the name, date, description and the means used to verify understanding, and Part 73 records are kept for three years.",
+            "**Records for export controls.** Records required by the EAR are kept for five years, and BIS Element 5 expects assessments that hold employees accountable.",
+            "**Records of education under the positive duty.** The AHRC suggests attendance with a copy of the training content, educational materials and survey data on understanding.",
+            "**Data protection evidence.** Under GDPR Article 5(2) the university must be able to demonstrate compliance, and training records are a standard part of that. See [how to evidence training effectiveness to a regulator](/guides/how-to-evidence-training-effectiveness-to-a-regulator)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "university-rules-in-motion",
+      "heading": "Which university rules change in 2026 and 2027?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Several rows will change status within a year, so add them now with a start date. As at November 2026, the regulation pages record the following:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**29 September 2026, United States:** the Recodification of Title IX Rules took effect, repealing the 2024 Rule and restoring the pre-2024 text. Title IX training materials written for the 2024 Rule need review.",
+            "**1 January 2027, Australia:** Schedule 1 of the Threshold Standards amendment on racism applies to all providers, and Schedule 2 on governance applies to Table A Australian universities. Other providers follow on 1 July 2027. Standards 1.4, 3.1 and 5.3 are not amended.",
+            "**2 December 2027, EU:** after the Digital Omnibus, AI Act Article 26(2) human oversight duties for Annex III high-risk systems apply, requiring overseers with the necessary competence, training and authority.",
+            "**Pending, United States:** NIH published a draft Biosafety Policy for Research Involving Biohazards on 14 September 2026 that would replace the NIH Guidelines; it is not in force. Illinois has announced a redesigned mandated reporter training."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Watch item, not a matrix row yet",
+          "text": "The draft NIH policy would apply six months after final publication and would require synopses of relevant staff trainings to be publicly posted. Keep it on a watch list until it is finalized."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each university obligation to the function it attaches to, the learning outcome it requires and the assessment point that proves it, so a Title IX change or a new NIH policy flags the affected roles and materials. The same structure supports course level outcome mapping for academic quality reviews. See [higher education](/industries/higher-education)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should students appear in a university training matrix?",
+      "a": "Yes, as a population row rather than individuals. The Clery Act requires primary prevention and awareness programs for all incoming students, and ongoing campaigns for students and employees. Students who work in labs or as student employees may also pick up the rows of the role they perform."
+    },
+    {
+      "q": "Do all university employees need Title IX training?",
+      "a": "Not under the rule in force as at November 2026. The 2020 Title IX Rule requires training for Title IX Coordinators, investigators, decision-makers and informal resolution facilitators. The vacated 2024 Rule required annual training for all employees, so universities should check that their policies do not still cite it as the legal basis."
+    },
+    {
+      "q": "How should a matrix handle staff who sit on committees part time?",
+      "a": "Attach duties to the appointment, not the job title. An academic appointed to an Institutional Biosafety Committee or a conduct hearing panel picks up those rows from the appointment date and drops them when the term ends, while keeping the records the rules require for the retention period."
+    },
+    {
+      "q": "Are Australian course design standards a staff training duty?",
+      "a": "Not directly. The Threshold Standards set obligations for courses, such as outcomes consistent with the AQF level and review at least every seven years. The matrix row is the competence that course coordinators and academic governance members need to apply those standards, evidenced by course specifications and review reports."
+    }
+  ],
+  "sources": [
+    {"title": "34 CFR 668.46 Institutional security policies and crime statistics", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-34/section-668.46"},
+    {"title": "34 CFR 668.41 Reporting and disclosure of information", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-34/section-668.41"},
+    {"title": "34 CFR 36.2 Penalty adjustment", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-34/section-36.2"},
+    {"title": "34 CFR 106.45 Grievance process for formal complaints of sexual harassment", "publisher": "Electronic Code of Federal Regulations", "url": "https://www.ecfr.gov/current/title-34/section-106.45"},
+    {"title": "Recodification of Title IX Rules (final rule, 91 FR 61308, September 29, 2026)", "publisher": "US Department of Education, Federal Register", "url": "https://www.federalregister.gov/documents/2026/09/29/2026-19929/recodification-of-title-ix-rules"},
+    {"title": "34 CFR Part 99: Family Educational Rights and Privacy", "publisher": "Electronic Code of Federal Regulations (eCFR), National Archives", "url": "https://www.ecfr.gov/current/title-34/subtitle-A/part-99"},
+    {"title": "Data Security Checklist", "publisher": "Privacy Technical Assistance Center, US Department of Education", "url": "https://studentprivacy.ed.gov/resources/data-security-checklist"},
+    {"title": "Export Compliance Guidelines: The Elements of an Effective Export Compliance Program (January 2017)", "publisher": "US Department of Commerce, Bureau of Industry and Security", "url": "https://www.bis.gov/media/documents/export-compliance-guidelines"},
+    {"title": "15 CFR 734.13: Export", "publisher": "Electronic Code of Federal Regulations (eCFR)", "url": "https://www.ecfr.gov/current/title-15/section-734.13"},
+    {"title": "15 CFR 762.6: Period of retention", "publisher": "Electronic Code of Federal Regulations (eCFR)", "url": "https://www.ecfr.gov/current/title-15/section-762.6"},
+    {"title": "BMBL 6th edition, full text (PDF)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/labs/media/pdfs/2025/08/SF__19a_308133-A_BMBL6_00-BOOK-WEB-final-3.pdf"},
+    {"title": "NIH Guidelines for Research Involving Recombinant or Synthetic Nucleic Acid Molecules (April 2024)", "publisher": "National Institutes of Health, Office of Science Policy", "url": "https://osp.od.nih.gov/wp-content/uploads/NIH_Guidelines.pdf"},
+    {"title": "Draft NIH Biosafety Policy for Research Involving Biohazards (request for information, September 14, 2026)", "publisher": "National Institutes of Health, Federal Register", "url": "https://www.federalregister.gov/documents/2026/09/14/2026-18646/draft-nih-biosafety-policy-for-research-involving-biohazards"},
+    {"title": "42 CFR 73.15 Training", "publisher": "Legal Information Institute (eCFR text), Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/42/73.15"},
+    {"title": "42 CFR 73.17 Records", "publisher": "Legal Information Institute (eCFR text), Cornell Law School", "url": "https://www.law.cornell.edu/cfr/text/42/73.17"},
+    {"title": "Manual for Mandated Reporters (September 2020 revised edition)", "publisher": "Illinois Department of Children and Family Services", "url": "https://dcfs.illinois.gov/content/dam/soi/en/web/dcfs/documents/safe-kids/reporting-child-abuse-and-neglect/documents/cfs-1050-21-mandated-reporter-manual.pdf"},
+    {"title": "Joint DCFS and ISBE letter to Illinois educators on mandated reporting", "publisher": "Illinois Department of Children and Family Services and Illinois State Board of Education", "url": "https://dcfs.illinois.gov/content/dam/soi/en/web/dcfs/documents/safe-kids/reporting-child-abuse-and-neglect/documents/joint-dcfs-isbe-letter-to-school-personnel-081326.pdf"},
+    {"title": "Higher Education Standards Framework (Threshold Standards) 2021, Compilation No. 2 (F2026C00804)", "publisher": "Federal Register of Legislation, Australian Government", "url": "https://www.legislation.gov.au/F2021L00488/2026-07-14/2026-07-14/text/original/pdf"},
+    {"title": "Higher Education Standards Framework Amendment (Threshold Standards) Instrument 2026 (F2026L00954)", "publisher": "Federal Register of Legislation, Australian Government", "url": "https://www.legislation.gov.au/F2026L00954/asmade/2026-07-13/text/original/pdf"},
+    {"title": "AQF levels", "publisher": "Australian Qualifications Framework (Department of Education)", "url": "https://www.aqf.edu.au/framework/aqf-levels"},
+    {"title": "Sex Discrimination Act 1984 (Cth), Part IIA, section 47C", "publisher": "Federal Register of Legislation", "url": "https://www.legislation.gov.au/C2004A02868/latest/text"},
+    {"title": "Guidelines for Complying with the Positive Duty under the Sex Discrimination Act 1984 (Cth), August 2023", "publisher": "Australian Human Rights Commission", "url": "https://humanrights.gov.au/__data/assets/file/0030/46974/Guidelines-for-Complying-with-the-Positive-Duty-2023.pdf"},
+    {"title": "Regulation (EU) 2016/679 (General Data Protection Regulation)", "publisher": "Official Journal of the European Union (EUR-Lex)", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"},
+    {"title": "Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)", "publisher": "Official Journal of the European Union (EUR-Lex)", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"},
+    {"title": "Regulation (EU) 2026/1744 amending Regulation (EU) 2024/1689 (Digital Omnibus on AI)", "publisher": "Official Journal of the European Union (EUR-Lex)", "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"}
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "clery-act-training-requirements",
+    "title-ix-training-requirements",
+    "teqsa-hesf-course-design-requirements",
+    "biosafety-training-requirements-laboratories",
+    "how-to-set-mandatory-training-refresh-cycles"
+  ],
+  "productLinks": [
+    {"label": "Higher education", "href": "/industries/higher-education"},
+    {"label": "Standards and accreditation", "href": "/platform/standards-accreditation"}
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {"claim": "668.46(j)(1)(i): primary prevention and awareness programs for all incoming students and new employees with six content elements (A) to (F)", "source": "https://www.ecfr.gov/current/title-34/section-668.46"},
+    {"claim": "668.46(j)(1)(ii) ongoing prevention and awareness campaigns; (j)(2)(iii) sustained over time", "source": "https://www.ecfr.gov/current/title-34/section-668.46"},
+    {"claim": "668.46(k)(2)(ii): proceedings conducted by officials who, at a minimum, receive annual training on the four crimes and investigation and hearing process", "source": "https://www.ecfr.gov/current/title-34/section-668.46"},
+    {"claim": "668.46(a) campus security authority definition", "source": "https://www.ecfr.gov/current/title-34/section-668.46"},
+    {"claim": "668.41(e)(1): by October 1 of each year, distribute ASR to all enrolled students and current employees", "source": "https://www.ecfr.gov/current/title-34/section-668.41"},
+    {"claim": "34 CFR 36.2: 20 U.S.C. 1094(c)(3)(B) civil penalty adjusted maximum $71,545", "source": "https://www.ecfr.gov/current/title-34/section-36.2"},
+    {"claim": "106.45(b)(1)(iii): Coordinators, investigators, decision-makers and informal resolution facilitators trained on definition, scope, grievance process and impartiality; decision-makers on live hearing technology and relevance; no sex stereotypes", "source": "https://www.ecfr.gov/current/title-34/section-106.45"},
+    {"claim": "106.45(b)(10)(i)(D): training materials kept seven years and posted on the website", "source": "https://www.ecfr.gov/current/title-34/section-106.45"},
+    {"claim": "Recodification of Title IX Rules effective September 29, 2026 repeals the 2024 Rule and restores pre-2024 text", "source": "https://www.federalregister.gov/documents/2026/09/29/2026-19929/recodification-of-title-ix-rules"},
+    {"claim": "Vacated 2024 Rule 106.8(d) required training for all employees on hire and annually", "source": "https://www.ecfr.gov/on/2025-06-01/title-34/section-106.8"},
+    {"claim": "34 CFR 99.31(a)(1)(ii) reasonable methods to limit school officials to records with legitimate educational interest", "source": "https://www.ecfr.gov/current/title-34/subtitle-A/part-99/subpart-D/section-99.31"},
+    {"claim": "PTAC Data Security Checklist recommends regular checks and trainings", "source": "https://studentprivacy.ed.gov/resources/data-security-checklist"},
+    {"claim": "BIS Export Compliance Guidelines Element 5 training: job-specific knowledge, accountability through assessments, periodic reviews on change", "source": "https://www.bis.gov/media/documents/export-compliance-guidelines"},
+    {"claim": "15 CFR 734.13(a)(2): release of technology or source code to a foreign person in the US is a deemed export", "source": "https://www.ecfr.gov/current/title-15/section-734.13"},
+    {"claim": "15 CFR 762.6(a): records required by the EAR retained five years", "source": "https://www.ecfr.gov/current/title-15/section-762.6"},
+    {"claim": "BMBL: supervisor ensures training, records, annual updates and additional training on change; code of practice", "source": "https://www.cdc.gov/labs/media/pdfs/2025/08/SF__19a_308133-A_BMBL6_00-BOOK-WEB-final-3.pdf"},
+    {"claim": "NIH Guidelines IV-B-1-h institution training duty for IBC, BSO, PIs and lab staff; IV-B-7-d-(2) PI trains staff", "source": "https://osp.od.nih.gov/wp-content/uploads/NIH_Guidelines.pdf"},
+    {"claim": "42 CFR 73.15: training before entry or within 12 months of approval; annual refresher; records include means to verify understanding", "source": "https://www.law.cornell.edu/cfr/text/42/73.15"},
+    {"claim": "42 CFR 73.17(c): Part 73 records maintained 3 years", "source": "https://www.law.cornell.edu/cfr/text/42/73.17"},
+    {"claim": "Draft NIH Biosafety Policy published September 14, 2026; would replace NIH Guidelines; applies 6 months after final publication; synopses of staff trainings posted", "source": "https://www.federalregister.gov/documents/2026/09/14/2026-18646/draft-nih-biosafety-policy-for-research-involving-biohazards"},
+    {"claim": "Illinois: mandated reporters include personnel of institutions of higher education; training within three months and every three years; acknowledgment retained permanently", "source": "https://dcfs.illinois.gov/content/dam/soi/en/web/dcfs/documents/safe-kids/reporting-child-abuse-and-neglect/documents/cfs-1050-21-mandated-reporter-manual.pdf"},
+    {"claim": "HESF Standard 1.4 learning outcomes and assessment; 1.5.3 AQF consistency; 5.3.1 review at least every seven years", "source": "https://www.legislation.gov.au/F2021L00488/2026-07-14/2026-07-14/text/original/pdf"},
+    {"claim": "Amendment Instrument 2026: Schedule 1 applies to all providers from 1 January 2027; Schedule 2 to Table A universities from 1 January 2027 and others from 1 July 2027; Standards 1.4, 3.1, 5.3 not amended", "source": "https://www.legislation.gov.au/F2026L00954/asmade/2026-07-13/text/original/pdf"},
+    {"claim": "Section 47C positive duty", "source": "https://www.legislation.gov.au/C2004A02868/latest/text"},
+    {"claim": "AHRC Standard 3: one off induction training ineffective unless reinforced; records include attendance with content copy and survey data", "source": "https://humanrights.gov.au/__data/assets/file/0030/46974/Guidelines-for-Complying-with-the-Positive-Duty-2023.pdf"},
+    {"claim": "GDPR Articles 29, 32(4), 5(2), 39(1)(b)", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"},
+    {"claim": "Regulation (EU) 2026/1744 replaced Article 4: take measures to support AI literacy", "source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"},
+    {"claim": "Article 26(2) applies from 2 December 2027 for Annex III systems after the Digital Omnibus", "source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"}
+  ]
+}

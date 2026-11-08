@@ -1,0 +1,607 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-government-agency",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a government agency?",
+  "seoTitle": "Training matrix for a government agency",
+  "description": "Build a government agency training matrix: security, ethics, records, privacy, CUI and integrity duties by position, with clocks and audit evidence.",
+  "shortAnswer": "A government agency training matrix is built by listing the positions that public sector rules single out, such as ethics filers, privileged system users, records custodians, CUI handlers, security staff and report handlers, against the security, ethics, records, privacy and integrity obligations of the agency's own government. Each cell records the clock the rule sets, which is often fixed in public sector rules, the trigger, and the evidence that inspectors general, auditors or central agencies will test.",
+  "keyTakeaways": [
+    "Public sector rules fix intervals more often than private sector ones: annual security awareness, annual ethics training for filers, annual records refreshers and biennial CUI training are all written into rule text.",
+    "Contractors, students, guest researchers and visitors are often in scope alongside employees, so the matrix must include non-employee rows.",
+    "Several rules require training before system access or within a set number of days of appointment, so onboarding triggers matter as much as anniversaries.",
+    "Central reporting drives evidence: FISMA independent evaluations, PSPF annual reports to ministers and OGE confirmations to the agency ethics official all draw on matrix data.",
+    "As at November 2026, new PSPF foreign interference content, an ISM control on synthetic impersonation and Japan's amended Whistleblower Protection Act all change agency rows."
+  ],
+  "sections": [
+    {
+      "id": "public-sector-matrix",
+      "heading": "What is different about a training matrix in the public sector?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Government training rules are usually issued by central agencies for the whole public service, so they tend to name fixed intervals, set content lists and require reporting upward. A private company often has to justify its own refresh cycle; an agency more often has to prove that it met a cycle someone else set, for every person, including contractors."
+        },
+        {
+          "type": "p",
+          "text": "That shifts the work from choosing frequencies to managing triggers and populations. The structure from [how to build a training matrix](/guides/how-to-build-a-training-matrix) still holds, but the agency version needs columns for the access event that starts each clock, for clearance or filer status, and for the central report each row feeds. Starting from an [obligations to training map](/guides/how-to-map-training-to-compliance-obligations) keeps each of those columns tied to the rule that created it."
+        }
+      ]
+    },
+    {
+      "id": "agency-positions",
+      "heading": "Which agency positions need their own rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Give a row to every position a central rule names, then keep one baseline row for all personnel. Most agencies end up with the positions below."
+        },
+        {
+          "type": "table",
+          "caption": "Agency positions and why each needs its own row",
+          "head": [
+            "Position",
+            "Why it is separate",
+            "Rules that name it"
+          ],
+          "rows": [
+            [
+              "All personnel, contractors and other system users",
+              "Baseline awareness before access and annually",
+              "44 U.S.C. 3554(b)(4); 5 CFR 930.301; PSPF Requirement 0024; ISM-0252"
+            ],
+            [
+              "Executives, CIOs, security staff and IT operations",
+              "Role-specific security training",
+              "5 CFR 930.301(a)(2) to (5); ISM-0735"
+            ],
+            [
+              "Privileged users and system administrators",
+              "Tailored annual training",
+              "ISM-1565"
+            ],
+            [
+              "Personnel in specialist or high-risk positions",
+              "Targeted security training",
+              "PSPF Requirement 0025"
+            ],
+            [
+              "Financial disclosure filers, contracting officers, presidential appointees",
+              "Annual ethics training, live for the most senior",
+              "5 CFR 2638.307, 2638.308"
+            ],
+            [
+              "New employees and new supervisors",
+              "Initial ethics training within 3 months; supervisor notice within 1 year",
+              "5 CFR 2638.304, 2638.306"
+            ],
+            [
+              "Records creators, political appointees and senior officials",
+              "Records training within 60 days; targeted arrival and departure training",
+              "36 CFR 1220.34(f); NARA Bulletin 2017-01"
+            ],
+            [
+              "Personnel with access to Controlled Unclassified Information",
+              "Training on starting and at least every two years",
+              "32 CFR 2002.30; DoDI 5200.48"
+            ],
+            [
+              "Staff handling personal information",
+              "Privacy training at induction and annually",
+              "Australian Government Agencies Privacy Code s16"
+            ],
+            [
+              "Designated whistleblowing report handlers",
+              "Thorough education on protecting reporter identity",
+              "Japan Whistleblower Protection Act Guidelines; EU Directive Article 9"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agency-obligations-by-government",
+      "heading": "Which training obligations apply to agencies in each government?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Each government sets its own public sector rules, so the columns come from the regulation pages for the agency's jurisdiction. The summaries below draw only on those pages."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**United States, security.** The Federal Information Security Modernization Act (FISMA), at 44 U.S.C. 3554(b)(4), requires security awareness training for personnel, including contractors and other system users. The Office of Personnel Management's rule at 5 CFR 930.301(a)(1) says all users must be exposed to security awareness materials at least annually, and 930.301(b) requires awareness material for new employees before system access ([federal cybersecurity awareness](/regulations/federal-employee-cybersecurity-awareness-training)). NIST SP 800-50 Rev. 1 (September 2024) gives federal guidance for running security and privacy awareness and training as one program, with measurements that must go beyond simply achieving compliance ([NIST SP 800-50](/regulations/nist-sp-800-50-security-awareness-training)).",
+            "**United States, ethics.** Under 5 CFR Part 2638, Subpart C, from the Office of Government Ethics (OGE), new employees complete interactive initial ethics training within 3 months of appointment, and filers, contracting officers and some other employees complete at least 1 hour of annual training before the end of each calendar year ([federal ethics training](/regulations/us-federal-ethics-training-requirements)).",
+            "**United States, records and CUI.** 36 CFR 1220.34(f) requires training for all agency personnel on records management responsibilities, and NARA Bulletin 2017-01 sets initial training within 60 days and an annual refresher ([NARA records management](/regulations/nara-records-management-training-requirements)). 32 CFR 2002.30(c) requires Controlled Unclassified Information (CUI) training when employees start and at least once every two years; DoD Instruction 5200.48 requires initial and annual refresher training for DoD personnel ([CUI training](/regulations/cui-training-requirements)).",
+            "**Australia (Commonwealth).** The Protective Security Policy Framework (PSPF) Release 2026 requires non-corporate Commonwealth entities to provide security awareness training at engagement and annually (Requirement 0024) and targeted training for specialist or high-risk positions (Requirement 0025) ([PSPF](/regulations/pspf-security-awareness-training)). The Australian Signals Directorate's Information Security Manual (ISM) sets annual awareness training (ISM-0252), tailored annual training for privileged users (ISM-1565) and a training register (ISM-2022) ([ISM](/regulations/ism-cyber-security-awareness-training)). The agencies' privacy code requires privacy training at induction and annually for staff with access to personal information ([Privacy Act](/regulations/privacy-act-staff-training-requirements)).",
+            "**European Union and Portugal.** NIS2 covers public administration among its sectors; Article 20(2) requires management body members to follow cybersecurity training and Article 21(2)(g) lists cybersecurity training among the minimum measures ([NIS2](/regulations/nis2-management-body-training)). The Whistleblower Directive covers public sector entities, subject to national exemptions for small municipalities ([EU Whistleblower Directive](/regulations/eu-whistleblower-directive-obligations)). In Portugal, the General Regime for the Prevention of Corruption (RGPC) reaches state, regional, local and public enterprise bodies with 50 or more workers, and Article 9 requires training for all managers and workers calibrated to risk exposure ([Portugal anti-corruption regime](/regulations/portugal-anti-corruption-regime-training)).",
+            "**Japan.** Consumer Affairs Agency Guidelines treat national and local government bodies as business operators under the Whistleblower Protection Act, and the national government guideline, last revised 29 May 2026, asks each administrative body to make the Act and its reporting system fully known to all staff through periodic training or briefings ([Japan Whistleblower Protection Act](/regulations/japan-whistleblower-protection-act-training)).",
+            "**United Arab Emirates.** The Information Assurance Regulation from the Telecommunications and Digital Government Regulatory Authority (TDRA) is mandatory for government entities; controls M3.2.1 and M3.3.1 on the awareness program and training needs are Always Applicable and cannot be excluded through risk assessment ([UAE Information Assurance](/regulations/uae-information-assurance-awareness-training))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "illustrative-agency-matrix",
+      "heading": "What does a filled-in agency matrix look like?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It looks like a table in which every row names a start event as well as a refresh interval. The extract below is illustrative only, for a hypothetical US federal agency with an Australian liaison office staffed under a Commonwealth arrangement. Frequencies marked as agency policy are internal choices, not set by the cited rule."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical agency, position by obligation",
+          "head": [
+            "Position",
+            "Market",
+            "Obligation",
+            "Frequency",
+            "Evidence held"
+          ],
+          "rows": [
+            [
+              "New employee",
+              "United States",
+              "5 CFR 930.301(b) security awareness",
+              "Before system access; at least annually",
+              "Completion linked to account provisioning ticket and signed rules of behavior"
+            ],
+            [
+              "New employee",
+              "United States",
+              "5 CFR 2638.304 initial ethics training",
+              "Within 3 months of appointment",
+              "Interactive completion record"
+            ],
+            [
+              "Contracting officer",
+              "United States",
+              "5 CFR 2638.307 annual ethics training",
+              "Before end of each calendar year, 1 hour of duty time",
+              "Attendance record held by the ethics office"
+            ],
+            [
+              "Level II Executive Schedule official",
+              "United States",
+              "5 CFR 2638.308(e) live ethics training",
+              "1 hour live every year",
+              "Live session record and presenter details"
+            ],
+            [
+              "All records creators, including contractors",
+              "United States",
+              "NARA Bulletin 2017-01",
+              "Within 60 days of employment; annual refresher",
+              "Completion covering the 14 minimum topics"
+            ],
+            [
+              "Departing senior official",
+              "United States",
+              "NARA targeted departure training",
+              "On departure; three to six months before an administration change",
+              "Briefing record and records transfer sign off"
+            ],
+            [
+              "Analyst with CUI access",
+              "United States",
+              "32 CFR 2002.30(c) CUI training",
+              "On starting; at least every two years (agency policy annual, combined with security awareness)",
+              "Completion with content mapped to the six areas in 2002.30(b)"
+            ],
+            [
+              "System administrator",
+              "United States",
+              "5 CFR 930.301(a)(5) IT operations training; 930.301(d) on significant change",
+              "On role entry; on significant system change; agency policy annual",
+              "Role training record and change log reference"
+            ],
+            [
+              "Liaison officer",
+              "Australia",
+              "PSPF Requirements 0024 and 0219",
+              "At engagement and annually; foreign interference content from 1 July 2026",
+              "Training record supporting the annual PSPF report"
+            ],
+            [
+              "Liaison officer with privileged access",
+              "Australia",
+              "ISM-1565 privileged user training",
+              "Annually",
+              "Entry in the ISM-2022 training register"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agency-start-events",
+      "heading": "Which start events and intervals should an agency matrix track?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Track the start event first, because many public sector rules attach a deadline to an access grant, an appointment or a departure. Then layer the refresh interval on top."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Before access.** 5 CFR 930.301(b) requires awareness material before new employees get system access, and OMB Circular A-130 calls for role-based training before authorizing access or performing assigned duties. Wire these rows to account provisioning, not to the HR start date.",
+            "**Within a number of days.** OGE initial ethics training is due within 3 months of appointment; NARA records training within 60 days of employment; written notice to new supervisors within 1 year of a first supervisory appointment; a live briefing for Senate-confirmed appointees within 15 days.",
+            "**Fixed refresh intervals.** Security awareness at least annually (OPM, PSPF, ISM); ethics for filers each calendar year; records annually; CUI at least every two years under Part 2002, or annually for DoD under DoDI 5200.48; privacy annually for Australian agency staff with access to personal information.",
+            "**Risk-based intervals.** Portugal's RGPC requires frequency to reflect each person's exposure to identified corruption risks, and MENAC guidance suggests an annual training needs survey. 5 CFR 930.301(c) leaves refresher frequency for role training to the agency. Document these choices; see [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles).",
+            "**Event triggers.** Significant system changes and entry into a new position (930.301(d)), departures of senior officials, and changes of administration all restart rows."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agency-oversight-evidence",
+      "heading": "What evidence do inspectors general and central agencies expect?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They expect evidence that feeds a formal report, so the matrix should be able to produce completion by position, by population and by deadline. Central reporting is built into most of these rules."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Independent evaluation.** 44 U.S.C. 3555 requires an annual independent evaluation of agency security programs by the Inspector General or an independent external auditor.",
+            "**Knowledge testing.** OMB Circular A-130 Appendix I requires agencies to test users' knowledge, and OGE defines interactive training so that the action required may not be limited to advancing between sections.",
+            "**Upward confirmations.** In agencies with 1,000 or more employees, delegated offices submit ethics training procedures and confirmation to the Designated Agency Ethics Official by January 15 each year. PSPF Accountable Authorities report compliance annually to their minister and to Home Affairs. DoDI 5200.48 requires CUI training documentation maintained for audit and annual reporting of completion data.",
+            "**Registers and records.** ISM-2022 requires a training register. The UAE IA Regulation control M3.2.1 requires records of education, training, skills, experience and qualifications, and evaluation of training effectiveness.",
+            "**Program evaluation.** 36 CFR 1220.34(j) requires formal evaluations of records management programs, which will include training coverage. The guide on [evidencing training effectiveness to a regulator](/guides/how-to-evidence-training-effectiveness-to-a-regulator) covers presenting this.",
+            "**No excuse for non-delivery.** 5 CFR 2638.301 says an agency's failure to deliver ethics training does not exempt any employee from ethics requirements, which is a reason to track overdue rows by person."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agency-changes",
+      "heading": "Which public sector training rules are changing in 2026 and 2027?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Several agency rows have changed during 2026 or will change shortly. As at November 2026, the regulation pages record these dates:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**1 July 2026, Australia:** PSPF Release 2026 took effect, with Requirement 0219 adding foreign interference, espionage, cultivation and exploitation by foreign powers to awareness training.",
+            "**September 2026, Australia:** the ISM September 2026 release added ISM-2126 on verifying requests that could be synthetic voice or video, and amended ISM-1565 without changing its intent.",
+            "**1 December 2026, Japan:** the amended Whistleblower Protection Act takes effect, adding an express duty to inform workers, freelancer coverage and offenses for dismissing or disciplining national public servants because of a report. Amended Guidelines apply from the same date.",
+            "**10 December 2026, Australia:** automated decision making transparency obligations under the Privacy Act commence, which affects privacy training for staff involved in those decisions.",
+            "**Already in force, Portugal:** Decree-Law 125/2025 transposing NIS2 entered into force on 3 April 2026, with management bodies required to ensure regular training."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Proposed, not yet law",
+          "text": "The FAR Controlled Unclassified Information proposed rule of 15 January 2025, which would bar contractor employees from handling CUI until trained, had not been finalized as at November 2026. Australia's exposure draft Privacy Amendment (Personal Data Protection) Bill 2026 and the European Commission's January 2026 proposal for targeted NIS2 amendments are also pending."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each public sector obligation with its source, the position and start event it attaches to, and the learning outcome and assessment that satisfy it, so a new PSPF requirement or a revised OGE rule flags the affected positions and content. See [government and defense](/industries/government-defence)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can one annual course satisfy security awareness and CUI training?",
+      "a": "Often, if the content covers both and the record shows it. DoDI 5200.48 has the DoD CIO integrate CUI training into initial and annual cybersecurity awareness training. Map the combined course to each rule's content list, such as the six areas in 32 CFR 2002.30(b), so each obligation can be evidenced separately."
+    },
+    {
+      "q": "Do contractors belong in an agency training matrix?",
+      "a": "Yes. 5 CFR 930.301 defines users to include contractors, students, guest researchers and visitors, PSPF Requirement 0024 covers contractors, and NARA Bulletin 2017-01 covers contractors and volunteers who handle federal records. CUI training reaches contractors through contract clauses rather than Part 2002 directly."
+    },
+    {
+      "q": "Should a state or local agency use federal or Commonwealth rules?",
+      "a": "Only where they apply. The ISM, for example, is mandatory for Commonwealth entities through the PSPF and adopted voluntarily by many state, territory and local bodies. Record whether each row is mandatory or adopted so auditors know which standard is being tested."
+    },
+    {
+      "q": "What happens if an employee misses initial ethics training?",
+      "a": "The employee is still bound by the ethics rules. 5 CFR 2638.301 states that an agency's failure to deliver training does not exempt any employee. The matrix should flag the overdue row to the ethics office and the supervisor well before the 3 month deadline."
+    }
+  ],
+  "sources": [
+    {
+      "title": "44 U.S.C. 3554: Federal agency responsibilities",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/uscode/text/44/3554"
+    },
+    {
+      "title": "44 U.S.C. 3555: Annual independent evaluation",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/uscode/text/44/3555"
+    },
+    {
+      "title": "5 CFR 930.301: Information systems security awareness training program",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)",
+      "url": "https://www.law.cornell.edu/cfr/text/5/930.301"
+    },
+    {
+      "title": "OMB Circular A-130: Managing Information as a Strategic Resource (July 2016)",
+      "publisher": "Office of Management and Budget, The White House",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf"
+    },
+    {
+      "title": "NIST SP 800-50r1 (full text PDF)",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-50r1.pdf"
+    },
+    {
+      "title": "5 CFR Part 2638, Subpart C: Government Ethics Training",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-5/part-2638/subpart-C"
+    },
+    {
+      "title": "5 CFR 2638.308: Annual ethics training for public filers",
+      "publisher": "Legal Information Institute, Cornell Law School (eCFR mirror)",
+      "url": "https://www.law.cornell.edu/cfr/text/5/2638.308"
+    },
+    {
+      "title": "NARA Bulletin 2017-01: Agency Records Management Training Requirements",
+      "publisher": "National Archives and Records Administration",
+      "url": "https://www.archives.gov/records-mgmt/bulletins/2017/2017-01-html"
+    },
+    {
+      "title": "36 CFR 1220.34 (current text)",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-36/section-1220.34"
+    },
+    {
+      "title": "32 CFR 2002.30: Education and training",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-32/section-2002.30"
+    },
+    {
+      "title": "DoD Instruction 5200.48, Controlled Unclassified Information (CUI), March 6, 2020 (archived copy of the Directives Division PDF)",
+      "publisher": "US Department of Defense, Office of the Under Secretary of Defense for Intelligence and Security",
+      "url": "https://web.archive.org/web/20251227021010/https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/520048p.PDF"
+    },
+    {
+      "title": "Federal Acquisition Regulation: Controlled Unclassified Information, proposed rule (FAR Case 2017-016)",
+      "publisher": "DoD, GSA and NASA, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2025/01/15/2024-30437/federal-acquisition-regulation-controlled-unclassified-information"
+    },
+    {
+      "title": "Australian Government Protective Security Policy Framework Release 2026",
+      "publisher": "Department of Home Affairs",
+      "url": "https://www.protectivesecurity.gov.au/system/files/2026-07/pspf-release-2026_6.pdf"
+    },
+    {
+      "title": "Information security manual (September 2026)",
+      "publisher": "Australian Signals Directorate",
+      "url": "https://www.cyber.gov.au/sites/default/files/2026-08/Information%20security%20manual%20%28September%202026%29.pdf"
+    },
+    {
+      "title": "ISM September 2026 changes",
+      "publisher": "Australian Signals Directorate",
+      "url": "https://www.cyber.gov.au/sites/default/files/2026-08/ISM%20September%202026%20changes%20%28September%202026%29.pdf"
+    },
+    {
+      "title": "Privacy (Australian Government Agencies: Governance) APP Code 2017",
+      "publisher": "Office of the Australian Information Commissioner",
+      "url": "https://www.oaic.gov.au/__data/assets/pdf_file/0019/2872/privacy-australian-government-agencies-governance-app-code-2017.pdf"
+    },
+    {
+      "title": "Privacy and Other Legislation Amendment Act 2024",
+      "publisher": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/C2024A00128/asmade"
+    },
+    {
+      "title": "Privacy Reform: Consultation on Exposure Draft legislation",
+      "publisher": "Attorney-General's Department",
+      "url": "https://consultations.ag.gov.au/rights-and-protections/privacy-reform/"
+    },
+    {
+      "title": "Directive (EU) 2022/2555 (NIS 2 Directive)",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+    },
+    {
+      "title": "Decreto-Lei n.º 125/2025",
+      "publisher": "Diário da República (Portugal)",
+      "url": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401"
+    },
+    {
+      "title": "Proposal for a Directive as regards simplification measures and alignment with the Cybersecurity Act",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/proposal-directive-regards-simplification-measures-and-alignment-cybersecurity-act"
+    },
+    {
+      "title": "Directive (EU) 2019/1937 on the protection of persons who report breaches of Union law",
+      "publisher": "Official Journal of the European Union (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32019L1937"
+    },
+    {
+      "title": "Decreto-Lei n.º 109-E/2021, de 9 de dezembro: cria o Mecanismo Nacional Anticorrupção e estabelece o regime geral de prevenção da corrupção (Diário da República, 1.ª série, n.º 237)",
+      "publisher": "Diário da República, via MENAC",
+      "url": "https://menac.pt/wp-content/uploads/2023/06/Dec_Lei-109-E_2021.pdf"
+    },
+    {
+      "title": "Guia n.º 1/2023: Os instrumentos do Regime Geral de Prevenção da Corrupção",
+      "publisher": "Mecanismo Nacional Anticorrupção (MENAC)",
+      "url": "https://menac.pt/wp-content/uploads/2023/12/guia-n1-2023.pdf"
+    },
+    {
+      "title": "Summary of the Whistleblower Protection Act, the 2025 amendment and the statutory Guidelines (in force December 1, 2026)",
+      "publisher": "Consumer Affairs Agency",
+      "url": "https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/consumer_partnerships_cms205_260501_01.pdf"
+    },
+    {
+      "title": "Guideline on handling of reports by national administrative bodies (reports from internal staff), last revised May 29, 2026",
+      "publisher": "Consumer Affairs Agency",
+      "url": "https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/consumer_partnerships_cms205_260529_02.pdf"
+    },
+    {
+      "title": "UAE Information Assurance Regulation, Version 1.1 (March 2020)",
+      "publisher": "Telecommunications and Digital Government Regulatory Authority, via the UAE Government portal",
+      "url": "https://assets.u.ae/api/public/content/0375b824125b4796b0e4928f8ab3d3df?v=e0f902e5"
+    }
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "federal-employee-cybersecurity-awareness-training",
+    "pspf-security-awareness-training",
+    "us-federal-ethics-training-requirements",
+    "nara-records-management-training-requirements",
+    "how-to-build-a-training-matrix-for-a-defense-contractor"
+  ],
+  "productLinks": [
+    {
+      "label": "Government and defense",
+      "href": "/industries/government-defence"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "44 U.S.C. 3554(b)(4): security awareness training for personnel, including contractors and other users",
+      "source": "https://www.law.cornell.edu/uscode/text/44/3554"
+    },
+    {
+      "claim": "44 U.S.C. 3555(a)(1) and (b): annual independent evaluation by the Inspector General or an independent external auditor",
+      "source": "https://www.law.cornell.edu/uscode/text/44/3555"
+    },
+    {
+      "claim": "5 CFR 930.301(a)(1): all users exposed to awareness materials at least annually; users include employees, contractors, students, guest researchers, visitors",
+      "source": "https://www.ecfr.gov/current/title-5/section-930.301"
+    },
+    {
+      "claim": "5 CFR 930.301(a)(2) to (5) role training; (b) before system access; (c) refresher as agency determines; (d) significant change or new position",
+      "source": "https://www.law.cornell.edu/cfr/text/5/930.301"
+    },
+    {
+      "claim": "OMB Circular A-130 Appendix I: test knowledge level of users; role-based training before authorizing access",
+      "source": "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf"
+    },
+    {
+      "claim": "SP 800-50r1 published September 2024; section 2.4.1 measurements must go beyond simply achieving compliance",
+      "source": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-50r1.pdf"
+    },
+    {
+      "claim": "5 CFR 2638.301 agency failure does not exempt employee; 2638.302 interactive not limited to advancing between sections; 2638.306 supervisor notice within 1 year; 2638.310 January 15 confirmation",
+      "source": "https://www.ecfr.gov/current/title-5/part-2638/subpart-C"
+    },
+    {
+      "claim": "5 CFR 2638.304 initial ethics training within 3 months, interactive",
+      "source": "https://www.law.cornell.edu/cfr/text/5/2638.304"
+    },
+    {
+      "claim": "5 CFR 2638.305 live briefing within 15 days for Senate-confirmed appointees",
+      "source": "https://www.law.cornell.edu/cfr/text/5/2638.305"
+    },
+    {
+      "claim": "5 CFR 2638.307 annual training before end of calendar year, 1 hour duty time",
+      "source": "https://www.law.cornell.edu/cfr/text/5/2638.307"
+    },
+    {
+      "claim": "5 CFR 2638.308(e) Level I and II officials 1 hour live training each year",
+      "source": "https://www.law.cornell.edu/cfr/text/5/2638.308"
+    },
+    {
+      "claim": "36 CFR 1220.34(f) training for all agency personnel on records responsibilities",
+      "source": "https://www.law.cornell.edu/cfr/text/36/1220.34"
+    },
+    {
+      "claim": "36 CFR 1220.34(j) formal evaluations of records management programs",
+      "source": "https://www.ecfr.gov/current/title-36/section-1220.34"
+    },
+    {
+      "claim": "NARA Bulletin 2017-01: within 60 days and annual refresher; contractors and volunteers; targeted senior training on arrival, departure, three to six months before administration change; 14 minimum topics",
+      "source": "https://www.archives.gov/records-mgmt/bulletins/2017/2017-01-html"
+    },
+    {
+      "claim": "32 CFR 2002.30(c) CUI training on starting and at least every two years; (b) six content areas",
+      "source": "https://www.ecfr.gov/current/title-32/section-2002.30"
+    },
+    {
+      "claim": "32 CFR 2002.1(f) Part 2002 applies to non-executive branch entities only through agreements",
+      "source": "https://www.ecfr.gov/current/title-32/part-2002"
+    },
+    {
+      "claim": "DoDI 5200.48 initial and annual refresher, documentation for audit, annual reporting; DoD CIO integrates CUI into cyber awareness training",
+      "source": "https://web.archive.org/web/20251227021010/https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/520048p.PDF"
+    },
+    {
+      "claim": "FAR CUI proposed rule January 15, 2025; contractor employees may not handle CUI until trained",
+      "source": "https://www.federalregister.gov/documents/2025/01/15/2024-30437/federal-acquisition-regulation-controlled-unclassified-information"
+    },
+    {
+      "claim": "PSPF Requirement 0024 at engagement and annually incl. contractors; 0025 targeted training; 0219 foreign interference from 1 July 2026; annual reporting to minister and Home Affairs",
+      "source": "https://www.protectivesecurity.gov.au/system/files/2026-07/pspf-release-2026_6.pdf"
+    },
+    {
+      "claim": "ISM-0252 annual awareness; ISM-1565 privileged users annually; ISM-2022 training register; ISM-0735 CISO",
+      "source": "https://www.cyber.gov.au/sites/default/files/2026-08/Information%20security%20manual%20%28September%202026%29.pdf"
+    },
+    {
+      "claim": "ISM-2126 new in September 2026; ISM-1565 amended without changing intent",
+      "source": "https://www.cyber.gov.au/sites/default/files/2026-08/ISM%20September%202026%20changes%20%28September%202026%29.pdf"
+    },
+    {
+      "claim": "Agency APP Code s16 privacy training at induction and annually",
+      "source": "https://www.oaic.gov.au/__data/assets/pdf_file/0019/2872/privacy-australian-government-agencies-governance-app-code-2017.pdf"
+    },
+    {
+      "claim": "POLA Act Sch 1 Part 15 ADM commences 10 December 2026",
+      "source": "https://www.legislation.gov.au/C2024A00128/asmade"
+    },
+    {
+      "claim": "Exposure Draft Privacy Amendment (Personal Data Protection) Bill 2026 consultation",
+      "source": "https://consultations.ag.gov.au/rights-and-protections/privacy-reform/"
+    },
+    {
+      "claim": "NIS2 Article 20(2) management body training; Article 21(2)(g) cybersecurity training",
+      "source": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+    },
+    {
+      "claim": "Decree-Law 125/2025 in force 3 April 2026; management bodies ensure regular training",
+      "source": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/125-2025-962603401"
+    },
+    {
+      "claim": "COM(2026) 13 proposal of 20 January 2026 targeted NIS2 amendments",
+      "source": "https://digital-strategy.ec.europa.eu/en/library/proposal-directive-regards-simplification-measures-and-alignment-cybersecurity-act"
+    },
+    {
+      "claim": "Whistleblower Directive Article 8(9) public sector entities covered with optional municipal exemptions; Article 9 channels",
+      "source": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32019L1937"
+    },
+    {
+      "claim": "RGPC Article 2(2) public bodies with 50 or more workers; Article 9 training calibrated to risk exposure",
+      "source": "https://menac.pt/wp-content/uploads/2023/06/Dec_Lei-109-E_2021.pdf"
+    },
+    {
+      "claim": "MENAC Guide 1/2023 annual training needs survey",
+      "source": "https://menac.pt/wp-content/uploads/2023/12/guia-n1-2023.pdf"
+    },
+    {
+      "claim": "Japan amendment effective December 1, 2026: express duty to inform workers, freelancers, national public servants offenses",
+      "source": "https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/consumer_partnerships_cms205_260501_01.pdf"
+    },
+    {
+      "claim": "National government guideline last revised May 29, 2026: make Act and system known to all staff through periodic training or briefings",
+      "source": "https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/consumer_partnerships_cms205_260529_02.pdf"
+    },
+    {
+      "claim": "UAE IA Regulation M3.2.1 and M3.3.1 Always Applicable; M3.2.1 records and effectiveness evaluation",
+      "source": "https://assets.u.ae/api/public/content/0375b824125b4796b0e4928f8ab3d3df?v=e0f902e5"
+    },
+    {
+      "claim": "NIAF: compliance mandatory for UAE government entities and critical entities",
+      "source": "https://assets.u.ae/api/public/content/4fdd52f9ff974ab0bf3e412183b4249c?v=8833f113"
+    }
+  ]
+}

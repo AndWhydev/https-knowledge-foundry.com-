@@ -1,0 +1,319 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-an-insurance-company",
+  "kind": "guide",
+  "title": "How do you build a training matrix for an insurance company?",
+  "seoTitle": "Training matrix for an insurer",
+  "description": "Build an insurer training matrix: claims, distribution, product, security and board roles against licensing, CPD, conduct and resilience duties by market.",
+  "shortAnswer": "An insurance company training matrix follows the policy lifecycle: product design, distribution, underwriting, claims and the governance around them. Each stage has its own regulators and rules, from distribution CPD hours and producer licensing to claims handling competence, product governance, information security and executive accountability. The matrix lists those roles against every obligation in each market, with the clock, the trigger and the evidence that proves competence.",
+  "keyTakeaways": [
+    "Organize rows around the policy lifecycle (product, distribution, claims, governance) because insurance regulators assign duties to those activities, not to job titles.",
+    "Distribution carries the only hard hour counts: at least 15 hours a year under the EU Insurance Distribution Directive, 24 hours every two years in Florida and 15 credit hours per licensing period in New York.",
+    "In Australia, claims handling has been a licensed financial service since January 1, 2022, and ASIC expects annual reviews of claims staff competency.",
+    "Security and resilience rows apply to everyone: CPS 234 and CPS 230 in Australia, DORA in the EU and NYDFS Part 500 in New York, which sets at minimum annual awareness training.",
+    "Records periods differ: at least 7 years under the General Insurance Code of Practice, seven years for AML records in Portugal and five years in the UAE."
+  ],
+  "sections": [
+    {
+      "id": "lifecycle-structure",
+      "heading": "Why should an insurer build its matrix around the policy lifecycle?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because insurance rules attach to what a person does to a policy: designing it, selling it, settling a claim on it, or overseeing the people who do. A claims assessor and a product manager may sit in the same division, yet one is covered by claims handling competence rules and the other by product governance rules, so a matrix built on the organization chart puts both in the wrong cells."
+        },
+        {
+          "type": "p",
+          "text": "The general method in [how to build a training matrix](/guides/how-to-build-a-training-matrix) still applies. For an insurer, add a lifecycle stage tag to each role, a market tag to each obligation, and a column for agents and outsourced providers, since several insurance rules reach people the insurer does not employ. Starting from an [obligations to training map](/guides/how-to-map-training-to-compliance-obligations) keeps each column linked to its source."
+        }
+      ]
+    },
+    {
+      "id": "insurer-role-rows",
+      "heading": "Which insurer roles need their own rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Create a row for each role that a distinct rule names or that performs a distinct lifecycle activity. The table groups them by stage."
+        },
+        {
+          "type": "table",
+          "caption": "Insurer role families by lifecycle stage",
+          "head": ["Role family", "Lifecycle stage", "Main obligation drivers"],
+          "rows": [
+            ["Directors and accountable persons", "Governance", "Financial Accountability Regime (Australia), DORA Article 5(4), NYDFS 500.4(d)"],
+            ["Product and pricing teams", "Design", "Design and distribution obligations, RG 274"],
+            ["Sales staff, agents and brokers", "Distribution", "IDD Article 10, US producer CE, Japan's Insurance Business Act, RG 146"],
+            ["Contact center and frontline service", "Distribution and service", "RG 274 target market training, CBUAE Consumer Protection Standards"],
+            ["Claims handlers and decision makers", "Claims", "INFO 253, General Insurance Code of Practice"],
+            ["Claims responsible managers", "Claims", "INFO 253 experience and qualification expectations"],
+            ["Loss adjusters, assessors and service suppliers", "Claims (outsourced)", "INFO 253, Code paragraph 38"],
+            ["Information security and IT", "Operations", "CPS 234, DORA Article 13(6), NYDFS 500.14"],
+            ["Operational risk and business continuity owners", "Operations", "CPS 230"],
+            ["AML compliance (life and investment business)", "Governance", "Law 83/2017 (ASF supervised), FSA Guidelines III-5, Cabinet Resolution No. 134 of 2025"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "insurer-obligations-by-market",
+      "heading": "Which obligations apply to insurers in each market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The obligation columns come from the library's regulation pages, grouped by market below. Each summary uses only those pages, and each link opens the full requirement."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Australia, claims and distribution.** Handling and settling claims has required an Australian financial services license since January 1, 2022, and section 912A(1)(f) of the Corporations Act requires claims staff to be adequately trained and competent; the Australian Securities and Investments Commission (ASIC) lists eight training topics in INFO 253 ([claims handling training](/regulations/general-insurance-claims-handling-training)). RG 146 still covers representatives giving general advice and personal advice on general insurance ([RG 146](/regulations/asic-rg-146-training-requirements)). RG 274 says ASIC will consider whether distributors trained staff and assessed their skills on product attributes and target markets ([design and distribution obligations](/regulations/design-and-distribution-obligations-staff-training)).",
+            "**Australia, prudential and accountability.** CPS 234 applies to general insurers, life companies and private health insurers and requires an information security capability that includes skills ([CPS 234](/regulations/apra-cps-234-security-awareness-training)). CPS 230 names people as a source of operational risk and requires an annual business continuity exercise ([CPS 230](/regulations/apra-cps-230-operational-risk-training)). The Financial Accountability Regime has applied to insurers since March 15, 2025, and its Minister rules make actuarial and claims handling prescribed responsibilities for insurers ([FAR](/regulations/financial-accountability-regime-training)).",
+            "**European Union and Portugal.** Article 10(2) of the Insurance Distribution Directive (IDD) requires national CPD mechanisms based on at least 15 hours of professional training or development per year, and Article 10(8) requires insurers to keep up to date records; Portugal transposed it through Lei n.º 7/2019, supervised by the Autoridade de Supervisão de Seguros e Fundos de Pensões (ASF) ([IDD CPD](/regulations/insurance-distribution-directive-cpd-requirements)). DORA Article 13(6) makes ICT security awareness and digital operational resilience training compulsory for all employees and senior management of insurers and insurance intermediaries ([DORA](/regulations/dora-ict-security-awareness-training)). Article 55 of Law 83/2017 sets the AML training duty for ASF supervised entities ([Portugal AML law](/regulations/portugal-aml-law-training-requirements)).",
+            "**United States.** Producer continuing education is set state by state: Florida requires a 4 hour update course plus 20 elective hours every two years, New York 15 credit hours per licensing period, and the NAIC annuity model regulation a one time 4 credit annuity course that the insurer must verify ([insurance producer CE](/regulations/insurance-producer-continuing-education-requirements)). Entities licensed under New York Insurance Law are covered by 23 NYCRR Part 500, which requires at minimum annual cybersecurity awareness training including social engineering ([NYDFS Part 500](/regulations/nydfs-part-500-cybersecurity-training-requirements)).",
+            "**Japan.** Articles 275 and 276 of the Insurance Business Act bar solicitation by anyone not registered or notified, Article 53(1)(iii) of the Enforcement Regulations requires insurers to improve solicitors' ability to solicit fairly, and life insurance solicitors complete annual continuing education under the Life Insurance Association of Japan's system ([Japan insurance solicitor education](/regulations/japan-insurance-solicitor-education-requirements)). Insurers are among the specified business operators covered by the Financial Services Agency (FSA) AML/CFT Guidelines, whose section III-5 lists five required actions on human resource development ([FSA AML/CFT Guidelines](/regulations/japan-fsa-aml-cft-guidelines-training)).",
+            "**United Arab Emirates.** Insurers are financial institutions under Federal Decree-Law No. 10 of 2025, and the Central Bank of the UAE (CBUAE) expects its licensees to run role based AML training with an annual training needs assessment and board approved plan ([UAE AML/CFT](/regulations/uae-aml-cft-training-requirements)). Where an insurer is a CBUAE licensed financial institution serving consumers, the Consumer Protection Standards require staff to be qualified at all times, with records retained during employment and appraisal at least once a year ([CBUAE consumer protection](/regulations/uae-central-bank-consumer-protection-training))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "claims-rows",
+      "heading": "What should the claims rows of an insurer's matrix contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Claims rows should cover competence on entry, tailoring for decision makers, an annual competency review and the Code commitments that frontline handlers apply daily. ASIC does not prescribe specific arrangements, but INFO 253 sets out what it expects a training and competency framework to include."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Tailoring.** INFO 253 expects training tailored to new starters and to decision makers, with annual reviews of staff competency.",
+            "**Responsible managers.** Generally expected to have at least three years of relevant claims experience in the past five years plus a relevant degree or diploma level qualification, so this row is a qualification check rather than a course.",
+            "**Code commitments.** The General Insurance Code of Practice requires education and training about the Code (paragraph 28), training on vulnerability (paragraph 96), interpreters (paragraph 102) and financial hardship (paragraph 109), and qualification standards for service suppliers (paragraph 38).",
+            "**Clocks staff must know.** The Code sets progress updates every 20 business days and a decision within 4 months, and a significant breach must be reported within 10 business days.",
+            "**Why it matters.** In 2026 the Federal Court ordered Hollard to pay a $2 million penalty for breaching the duty of utmost good faith over a claim that took more than three years to finalize, and said delays could not be explained simply as staff busyness."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "illustrative-insurer-matrix",
+      "heading": "What does an insurer's training matrix look like in practice?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It is a long register in which every row pairs a role and a market with one obligation, a clock and an evidence rule. The extract below is illustrative only, for a hypothetical insurance group with operations in Australia, Portugal, New York, Florida, Tokyo and Dubai. Frequencies marked insurer policy are choices the insurer must justify; the cited rule sets no interval."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical insurance group, role by obligation",
+          "head": ["Role", "Market", "Obligation", "Frequency", "Evidence held"],
+          "rows": [
+            ["Claims decision maker", "Australia", "s912A(1)(f) and INFO 253 Table 7 topics", "Before deciding claims; competency reviewed annually", "Competency review record and file quality sampling"],
+            ["Claims consultant", "Australia", "General Insurance Code paragraphs 96 and 109", "On commencement; insurer policy annual", "Call or file review against vulnerability and hardship checklist, kept at least 7 years"],
+            ["Contact center consultant", "Australia", "RG 146 standards for personal advice on general insurance", "Before advising; continuing training under an annual plan", "Qualification record and annual training plan"],
+            ["Product manager", "Australia", "RG 274 product governance", "On appointment and when a target market determination changes", "Training record and sign off of product governance arrangements"],
+            ["Accountable person (claims handling)", "Australia", "FAR s21 obligations; prescribed claims handling responsibility", "On registration; on material change to accountability map", "Briefing record and accountability statement"],
+            ["All staff and contractors", "Australia", "CPS 234 paragraph 19 and CPG 234 Attachment B", "On commencement and periodically (insurer policy annual)", "Completion, understanding test, phishing test results"],
+            ["Tied agent", "Portugal (EU)", "IDD Article 10(2) and Lei n.º 7/2019", "At least 15 hours per year", "CPD hours log held under Article 10(8)"],
+            ["All employees and senior management", "Portugal (EU)", "DORA Article 13(6)", "Compulsory modules; insurer policy annual", "Completion plus simulation results"],
+            ["Life and annuity producer", "United States (Florida)", "Section 626.2815 and NAIC Model #275", "24 hours every two years; one time 4 credit annuity course before selling annuities", "CE certificates and insurer verification of annuity training"],
+            ["All personnel", "United States (New York)", "23 NYCRR 500.14(a)(3)", "At minimum annually", "Completion data supporting the April 15 certification"],
+            ["Life insurance solicitor", "Japan", "LIAJ general course exam and annual continuing education", "Exam before registration; continuing education every year", "Exam pass, registration and annual training record"],
+            ["Compliance officer", "UAE", "Cabinet Resolution No. 134 of 2025 Article 22(4)", "Periodic; annual plan as CBUAE best practice", "Documented training plan and attendance, kept five years"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "insurer-clocks",
+      "heading": "How should an insurer set training frequency for each row?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Copy the clock exactly where the rule states one, and record a reasoned policy where it does not. Distribution rules are the main source of fixed hours; most security, conduct and governance rules require ongoing or periodic training without an interval."
+        },
+        {
+          "type": "table",
+          "caption": "Clocks stated in the linked insurance regulation pages",
+          "head": ["Rule", "Clock as stated", "Insurer decision"],
+          "rows": [
+            ["IDD Article 10(2)", "At least 15 hours per year, adjusted to products, distributor type and role", "How hours vary by role"],
+            ["Florida section 626.2815", "24 hours every two years; 16 elective hours after six years of licensure", "Tracking each producer's cycle"],
+            ["New York Insurance Law section 2132", "15 credit hours per biennial licensing period", "Tracking each producer's period"],
+            ["NAIC Model #275", "One time 4 credit annuity course before selling annuities", "None, apart from verification"],
+            ["INFO 253", "Annual review of claims staff competency", "Review method"],
+            ["NYDFS 500.14(a)(3)", "At minimum annual", "Whether to train more often"],
+            ["LIAJ continuing education", "Every year for, in principle, all life solicitors", "None"],
+            ["GIAJ non life solicitor exam", "Renewed every five years", "Tracking renewals"],
+            ["CPS 234, DORA, RG 146, FAR", "No interval stated", "A risk based cycle with documented reasons"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Event triggers belong beside the dates: a new product or target market determination, a natural disaster that brings surge claims staff (INFO 253 addresses surge resourcing), or a material incident. The guide on [setting mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles) explains how to justify an interval."
+        }
+      ]
+    },
+    {
+      "id": "insurer-evidence",
+      "heading": "What evidence do insurance supervisors and code bodies look for?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "They look for records that show competence by role, kept for the period the strictest applicable rule sets. Several insurance sources go further than attendance: INFO 253 expects competency reviews, CPG 234 describes testing understanding, and the CBUAE's AML best practices give no credit without mastery."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Code records.** The General Insurance Code requires records kept for at least 7 years and available to the Code Governance Committee.",
+            "**Distribution records.** IDD Article 10(8) requires insurers to keep up to date records of knowledge, CPD and good repute; RG 146 treats record keeping as a license condition, with evidence such as enrollment records and attendance lists.",
+            "**AML records.** Seven years in Portugal under Article 51 of Law 83/2017; five years in the UAE under Article 25 of Cabinet Resolution No. 134 of 2025.",
+            "**Security metrics.** CPG 234 metrics include awareness coverage and staff responses to phishing tests, and NYDFS certifications are due by April 15 each year.",
+            "**Accountability evidence.** FAR sets no training hours; section 22 defines reasonable steps through governance, controls and remediation, so onboarding and briefing records for accountable persons are central. The guide on [evidencing training effectiveness to a regulator](/guides/how-to-evidence-training-effectiveness-to-a-regulator) covers presentation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "insurer-watch-list",
+      "heading": "Which insurance rules are changing that the matrix should track?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Several insurer rows will change within the next year. As at November 2026, the library's regulation pages record the following."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**July 1, 2026, Australia:** the updated CPS 230 and CPG 230 commence, and deferred business continuity requirements apply to non significant financial institutions.",
+            "**October 16, 2026, Australia:** ASIC asks AFS licensees for less evidence of competence when a responsible manager is also a FAR accountable person; an updated RG 105 is expected in the first quarter of 2027 ([RG 105 organizational competence](/regulations/asic-rg-105-organisational-competence)).",
+            "**October 22, 2026, Australia:** the Insurance Council submitted a strengthened General Insurance Code of Practice to ASIC; it had not replaced the current Code as at November 2026.",
+            "**July 10, 2027, EU:** the Anti-Money Laundering Regulation applies directly, with Article 12 setting specific, ongoing, documented training ([EU AMLR](/regulations/eu-amlr-training-requirements))."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Watch item, not yet a matrix row",
+          "text": "Until the strengthened General Insurance Code is approved and takes effect, keep the current Code paragraphs in the matrix and log the new Code as a pending change with an owner."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry records each insurer obligation against its lifecycle stage, market, clock and evidence rule, and links it to the learning outcomes and assessment points that satisfy it. When a source such as the General Insurance Code or CPS 230 changes, the affected roles and records are flagged. See [financial services](/industries/financial-services)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do outsourced loss adjusters and claims managers belong on the insurer's matrix?",
+      "a": "Yes, as their own rows. Claims managers, loss adjusters and assessors acting for an insurer are within the claims handling licensing regime, and the General Insurance Code sets qualification standards for service suppliers. Record whether training is delivered by the insurer or verified from the provider, and what evidence the contract requires."
+    },
+    {
+      "q": "Does RG 146 still apply to general insurance staff?",
+      "a": "Yes. RG 146 no longer applies to relevant providers giving personal advice on relevant financial products, but it still covers general advice and personal advice on general insurance and consumer credit insurance. Licensees need continuing training policies with an annual training plan, although ASIC sets no minimum hours."
+    },
+    {
+      "q": "How does an insurer handle producers licensed in many US states?",
+      "a": "Track each producer against their resident state's CE cycle and record nonresident licenses separately. The NAIC Producer Licensing Model Act lets a nonresident satisfy CE through the home state on a reciprocal basis, and Florida's statute includes nonresident reciprocity, so the home state row usually drives the requirement."
+    },
+    {
+      "q": "Do board members need their own training rows?",
+      "a": "Yes. DORA Article 5(4) requires management body members to keep ICT risk knowledge current through regular specific training, NYDFS 500.4(d)(1) requires the senior governing body to understand cybersecurity enough to oversee it, and FAR makes accountable persons responsible for reasonable steps that onboarding and briefing records help evidence."
+    }
+  ],
+  "sources": [
+    {"title": "INFO 253 (PDF, updated June 2025)", "publisher": "Australian Securities and Investments Commission", "url": "https://download.asic.gov.au/media/q2ybygwo/info253-published-16-june-2025.pdf"},
+    {"title": "General Insurance Code of Practice (October 2023 update)", "publisher": "Insurance Council of Australia", "url": "https://insurancecouncil.com.au/wp-content/uploads/2023/11/2023-COP_UPDATE_October_FINAL.pdf"},
+    {"title": "General Insurance Code of Practice", "publisher": "Insurance Council of Australia", "url": "https://insurancecouncil.com.au/cop/"},
+    {"title": "26-236MR Hollard fined $2 million for serious insurance claim delay", "publisher": "Australian Securities and Investments Commission", "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-236mr-hollard-fined-2-million-for-serious-insurance-claim-delay"},
+    {"title": "RG 146 Licensing: Training of financial product advisers", "publisher": "ASIC", "url": "https://www.asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-146-licensing-training-of-financial-product-advisers"},
+    {"title": "Regulatory Guide 146 Licensing: Training of financial product advisers (PDF, July 2012)", "publisher": "ASIC", "url": "https://download.asic.gov.au/media/1240766/rg146-published-26-september-2012.pdf"},
+    {"title": "Regulatory Guide 274 Product design and distribution obligations (PDF, September 2024)", "publisher": "ASIC", "url": "https://download.asic.gov.au/media/etgm1amc/rg274-published-10-september-2024.pdf"},
+    {"title": "CPS 234 Information Security", "publisher": "APRA", "url": "https://www.apra.gov.au/standards/cps-234"},
+    {"title": "CPG 234 Information Security", "publisher": "APRA", "url": "https://www.apra.gov.au/practice-guides/cpg-234"},
+    {"title": "CPS 230 Operational Risk Management", "publisher": "APRA", "url": "https://www.apra.gov.au/standards/cps-230"},
+    {"title": "Operational risk management", "publisher": "APRA", "url": "https://www.apra.gov.au/operational-risk-management"},
+    {"title": "Financial Accountability Regime Act 2023", "publisher": "Federal Register of Legislation", "url": "https://www.legislation.gov.au/C2023A00067/latest/text"},
+    {"title": "Financial Accountability Regime (Minister) Rules 2024", "publisher": "Federal Register of Legislation", "url": "https://www.legislation.gov.au/F2024L00283/latest/text"},
+    {"title": "Financial Accountability Regime (FAR)", "publisher": "Australian Prudential Regulation Authority", "url": "https://www.apra.gov.au/cross-industry/financial-accountability-regime-far"},
+    {"title": "RG 105 Licensing: Organisational competence", "publisher": "Australian Securities and Investments Commission", "url": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-105-licensing-organisational-competence/"},
+    {"title": "Directive (EU) 2016/97, consolidated version of 9 October 2024", "publisher": "EUR-Lex, Publications Office of the European Union", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016L0097-20241009"},
+    {"title": "National transposition measures communicated by the Member States concerning Directive (EU) 2016/97", "publisher": "EUR-Lex, Publications Office of the European Union", "url": "https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32016L0097"},
+    {"title": "Regulation (EU) 2022/2554 on digital operational resilience for the financial sector (DORA)", "publisher": "Official Journal of the European Union (EUR-Lex)", "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng"},
+    {"title": "Lei n.º 83/2017, de 18 de agosto (versão consolidada)", "publisher": "Diário da República, Imprensa Nacional-Casa da Moeda", "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"},
+    {"title": "Regulation (EU) 2024/1624 on the prevention of the use of the financial system for the purposes of money laundering or terrorist financing", "publisher": "EUR-Lex, Publications Office of the European Union", "url": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"},
+    {"title": "Producer Licensing Model Act (#218)", "publisher": "National Association of Insurance Commissioners", "url": "https://content.naic.org/sites/default/files/model-law-218.pdf"},
+    {"title": "Suitability in Annuity Transactions Model Regulation (#275)", "publisher": "National Association of Insurance Commissioners", "url": "https://content.naic.org/sites/default/files/model-law-275.pdf"},
+    {"title": "Florida Statutes section 626.2815: Continuing education requirements", "publisher": "The Florida Legislature", "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0600-0699/0626/Sections/0626.2815.html"},
+    {"title": "New York Insurance Law section 2132: Continuing education", "publisher": "New York State Senate", "url": "https://www.nysenate.gov/legislation/laws/ISC/2132"},
+    {"title": "23 NYCRR 500.14 Monitoring and training", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.14"},
+    {"title": "23 NYCRR 500.4 Cybersecurity governance", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.4"},
+    {"title": "23 NYCRR 500.17 Notices to superintendent", "publisher": "Legal Information Institute, Cornell Law School", "url": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.17"},
+    {"title": "保険業法 (Insurance Business Act, Act No. 105 of 1995)", "publisher": "e-Gov Law Search, Digital Agency, Government of Japan", "url": "https://laws.e-gov.go.jp/law/407AC0000000105"},
+    {"title": "保険業法施行規則 (Enforcement Regulations of the Insurance Business Act)", "publisher": "e-Gov Law Search, Digital Agency, Government of Japan", "url": "https://laws.e-gov.go.jp/law/408M50000040005"},
+    {"title": "継続教育制度について (Continuing education system)", "publisher": "Life Insurance Association of Japan", "url": "https://www.seiho.or.jp/exam/continue/"},
+    {"title": "損害保険代理店になるには (Becoming a non-life insurance agent)", "publisher": "General Insurance Association of Japan", "url": "https://www.sonpo.or.jp/exam/dairiten/tobe/index.html"},
+    {"title": "Guidelines for Anti-Money Laundering and Combating the Financing of Terrorism (March 31, 2026), provisional English translation", "publisher": "Financial Services Agency", "url": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf"},
+    {"title": "Cabinet Resolution No. (134) of 2025 Regarding the Executive Regulations of Federal Decree by Law No. (10) of 2025", "publisher": "UAE Financial Intelligence Unit", "url": "https://www.uaefiu.gov.ae/media/3ssbp5d5/cabinet-134-2025.pdf"},
+    {"title": "Best Practices for Licensed Financial Institutions on Implementing Role-Based AML/CFT/CPF Training", "publisher": "Central Bank of the UAE (CBUAE Rulebook)", "url": "https://rulebook.centralbank.ae/en/rulebook/best-practices-licensed-financial-institutions-implementing-role-based-amlcftcpf-training"},
+    {"title": "Consumer Protection Standards (N 1158/2021)", "publisher": "Central Bank of the UAE Rulebook", "url": "https://rulebook.centralbank.ae/en/rulebook/consumer-protection-standards"}
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "general-insurance-claims-handling-training",
+    "insurance-distribution-directive-cpd-requirements",
+    "insurance-producer-continuing-education-requirements",
+    "how-to-build-a-training-matrix-for-a-bank",
+    "training-matrix"
+  ],
+  "productLinks": [
+    {"label": "Financial services", "href": "/industries/financial-services"},
+    {"label": "Audit evidence", "href": "/platform/audit-evidence"}
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {"claim": "From 1 January 2022 claims handling and settling requires an AFS licence; INFO 253 Table 7 eight training topics, tailoring to new starters and decision makers, annual competency reviews; s912A(1)(f); ASIC does not prescribe specific arrangements", "source": "https://download.asic.gov.au/media/q2ybygwo/info253-published-16-june-2025.pdf"},
+    {"claim": "Responsible managers generally three years' relevant experience over past five years plus degree or diploma; surge resourcing for natural disasters", "source": "https://download.asic.gov.au/media/q2ybygwo/info253-published-16-june-2025.pdf"},
+    {"claim": "General Insurance Code paragraphs 28, 29 (records at least 7 years), 38, 70 (20 business days), 77 (4 months), 96, 102, 109, 181 (10 business days)", "source": "https://insurancecouncil.com.au/wp-content/uploads/2023/11/2023-COP_UPDATE_October_FINAL.pdf"},
+    {"claim": "On 22 October 2026 the Insurance Council submitted its strengthened Code to ASIC", "source": "https://insurancecouncil.com.au/cop/"},
+    {"claim": "Federal Court ordered Hollard to pay $2 million for breach of utmost good faith over a claim taking more than three years; delays not explained by staff busyness", "source": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-236mr-hollard-fined-2-million-for-serious-insurance-claim-delay"},
+    {"claim": "RG 146 continues to apply to general advice and personal advice on general insurance; continuing training policies, annual plan, no minimum hours; record keeping evidence", "source": "https://download.asic.gov.au/media/1240766/rg146-published-26-september-2012.pdf"},
+    {"claim": "RG 274 Table 6 training factor: staff training and skills assessment on product attributes and target market", "source": "https://download.asic.gov.au/media/etgm1amc/rg274-published-10-september-2024.pdf"},
+    {"claim": "CPS 234 applies to general insurers, life companies, private health insurers; capability includes skills; para 19 and footnote 8", "source": "https://www.apra.gov.au/standards/cps-234"},
+    {"claim": "CPG 234 tracking training and testing understanding; metrics include awareness coverage and phishing responses", "source": "https://www.apra.gov.au/practice-guides/cpg-234"},
+    {"claim": "CPS 230 para 12 people; para 42 annual BCP exercise", "source": "https://www.apra.gov.au/standards/cps-230"},
+    {"claim": "Updated CPS 230 and CPG 230 commence 1 July 2026", "source": "https://www.apra.gov.au/operational-risk-management"},
+    {"claim": "FAR applies to insurers from 15 March 2025", "source": "https://www.apra.gov.au/cross-industry/financial-accountability-regime-far"},
+    {"claim": "FAR Act s21 accountability obligations; s22 reasonable steps", "source": "https://www.legislation.gov.au/C2023A00067/latest/text"},
+    {"claim": "Minister Rules s7 actuarial and claims handling prescribed responsibilities for insurers", "source": "https://www.legislation.gov.au/F2024L00283/latest/text"},
+    {"claim": "ASIC changes for responsible managers who are FAR accountable persons from 16 October 2026; updated RG 105 expected Q1 2027", "source": "https://asic.gov.au/regulatory-resources/find-a-document/regulatory-guides/rg-105-licensing-organisational-competence/"},
+    {"claim": "IDD Article 10(2) at least 15 hours per year; Article 10(8) internal policies and up to date records", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016L0097-20241009"},
+    {"claim": "Portugal transposed the IDD through Lei n.º 7/2019", "source": "https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32016L0097"},
+    {"claim": "DORA Article 13(6) compulsory modules for all employees and senior management; Article 5(4) management body specific training; Article 2(1) includes insurers and insurance intermediaries", "source": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng"},
+    {"claim": "Law 83/2017 Article 55 training duty; Article 51 seven year retention", "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"},
+    {"claim": "AMLR applies from 10 July 2027; Article 12 training", "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"},
+    {"claim": "NAIC Model #218 Section 16B nonresident CE reciprocity", "source": "https://content.naic.org/sites/default/files/model-law-218.pdf"},
+    {"claim": "NAIC Model #275 one time 4 credit annuity course; insurer verification 7B(11)", "source": "https://content.naic.org/sites/default/files/model-law-275.pdf"},
+    {"claim": "Florida 626.2815: 4 hour update plus 20 elective hours every 2 years; 16 hours after 6 years; nonresident reciprocity", "source": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0600-0699/0626/Sections/0626.2815.html"},
+    {"claim": "New York Insurance Law 2132(c)(1) fifteen credit hours biennially", "source": "https://www.nysenate.gov/legislation/laws/ISC/2132"},
+    {"claim": "500.14(a)(3) at minimum annual awareness training including social engineering", "source": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.14"},
+    {"claim": "500.4(d)(1) senior governing body sufficient understanding", "source": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.4"},
+    {"claim": "500.17(b) annual certification by April 15", "source": "https://www.law.cornell.edu/regulations/new-york/23-NYCRR-500.17"},
+    {"claim": "Insurance Business Act Articles 275 and 276", "source": "https://laws.e-gov.go.jp/law/407AC0000000105"},
+    {"claim": "Enforcement Regulations Article 53(1)(iii) insurers improve solicitors' ability", "source": "https://laws.e-gov.go.jp/law/408M50000040005"},
+    {"claim": "LIAJ annual continuing education for in principle all life solicitors", "source": "https://www.seiho.or.jp/exam/continue/"},
+    {"claim": "GIAJ non life solicitor exam renewed every five years", "source": "https://www.sonpo.or.jp/exam/dairiten/tobe/index.html"},
+    {"claim": "FSA Guidelines III-5 five required actions; apply to FSA supervised specified business operators including insurers", "source": "https://www.fsa.go.jp/en/news/2026/20260331/01.pdf"},
+    {"claim": "Cabinet Resolution 134 of 2025 Article 22(4) compliance officer training plans; Article 25 five year retention", "source": "https://www.uaefiu.gov.ae/media/3ssbp5d5/cabinet-134-2025.pdf"},
+    {"claim": "CBUAE best practices: annual training needs assessment, board approved annual plan, no credit without mastery", "source": "https://rulebook.centralbank.ae/en/rulebook/best-practices-licensed-financial-institutions-implementing-role-based-amlcftcpf-training"},
+    {"claim": "CBUAE Consumer Protection Standards 3.1.2.1(g) staff qualified at all times; records retained during employment; appraisal at least once a year", "source": "https://rulebook.centralbank.ae/en/rulebook/consumer-protection-standards"}
+  ]
+}

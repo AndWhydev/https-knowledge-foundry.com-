@@ -1,0 +1,543 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-medical-device-company",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a medical device company?",
+  "seoTitle": "Training matrix for medical devices",
+  "description": "Build a medical device training matrix: QMSR and ISO 13485 competence, the EU MDR PRRC, Part 11, GLP and export roles, with frequency and evidence by market.",
+  "shortAnswer": "A medical device company builds its training matrix from the quality management system outward: list every role whose work affects device quality, map each to the competence duty in the FDA Quality Management System Regulation (which incorporates ISO 13485), the EU MDR person responsible for regulatory compliance, electronic records rules, nonclinical study rules and export controls, then record the qualification, trigger, frequency and evidence that shows competence for each cell.",
+  "keyTakeaways": [
+    "Since February 2, 2026, the FDA QMSR governs device personnel competence through ISO 13485 Clause 6.2 rather than the former stand-alone training section, 21 CFR 820.25.",
+    "Most device rules set competence outcomes, not intervals: Part 820 fixes no training frequency or hours, so the manufacturer must justify its own cycle inside the quality system.",
+    "The EU MDR and IVDR add a named role with fixed entry qualifications, the person responsible for regulatory compliance (PRRC), whose details sit in EUDAMED.",
+    "Contractors and consultants belong on the matrix: FDA's final rule says Clause 6.2 covers internal and external personnel whose work affects product quality.",
+    "Records outlast employment: GLP training summaries follow study retention periods, and records required by the Export Administration Regulations are kept for five years."
+  ],
+  "sections": [
+    {
+      "id": "device-matrix-basis",
+      "heading": "What should a device company's training matrix be built around?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It should be built around the quality management system, because device regulators treat training as one part of demonstrating that the people doing quality affecting work are competent. Under 21 CFR 820.10(a), a manufacturer must keep a documented quality management system that complies with the applicable requirements of ISO 13485, and FDA's final rule explains that Clause 6.2 requires individuals doing work that impacts quality to be competent on the basis of appropriate education, training, skills and expertise."
+        },
+        {
+          "type": "p",
+          "text": "That framing changes the matrix in two ways compared with the general method in [how to build a training matrix](/guides/how-to-build-a-training-matrix). First, columns are competence requirements tied to processes (design controls, production, complaint handling, vigilance), not a list of courses. Second, every cell needs an effectiveness check, because a QMSR adherent system is expected to identify and correct improper personnel training. Pharmaceutical manufacturing sites follow different GMP rules; those are covered in the [pharmaceutical site matrix guide](/guides/how-to-build-a-training-matrix-for-a-pharmaceutical-site)."
+        }
+      ]
+    },
+    {
+      "id": "device-role-families",
+      "heading": "Which device roles need separate rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Separate any role that a device rule names or that owns a regulated process. The rows below follow how device regulations allocate responsibility rather than the organization chart."
+        },
+        {
+          "type": "table",
+          "caption": "Medical device role families and their obligation drivers",
+          "head": [
+            "Role family",
+            "Why it is separate",
+            "Typical obligation drivers"
+          ],
+          "rows": [
+            [
+              "Person responsible for regulatory compliance (PRRC)",
+              "Named role with fixed entry qualifications and five statutory responsibilities",
+              "MDR Article 15; IVDR Article 15; MDCG 2019-7 Rev.1"
+            ],
+            [
+              "Design, R&D and verification and validation engineers",
+              "Design work affects quality and safety directly",
+              "QMSR via ISO 13485 Clause 6.2"
+            ],
+            [
+              "Production, assembly and inspection staff",
+              "Process steps and acceptance activities affect conformity",
+              "QMSR via ISO 13485 Clause 6.2"
+            ],
+            [
+              "Complaint handling, post-market surveillance and vigilance",
+              "Reporting duties sit with the PRRC and the quality system",
+              "MDR Article 15(3); QMSR"
+            ],
+            [
+              "Quality system administrators and electronic record users",
+              "Electronic records and signatures need a training determination",
+              "21 CFR 11.10(i) and 11.10(j)"
+            ],
+            [
+              "Nonclinical study staff and quality assurance",
+              "Studies supporting device applications follow GLP",
+              "21 CFR 58.29; Directive 2004/10/EC Annex I"
+            ],
+            [
+              "Trade compliance, engineering with foreign national staff",
+              "Shipments and technology releases can be exports",
+              "BIS Export Compliance Guidelines Element 5; 15 CFR 734.13"
+            ],
+            [
+              "Contractors, consultants and contract manufacturers",
+              "External personnel affecting quality are in scope",
+              "QMSR final rule response on Clause 6.2"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "device-rules-by-market",
+      "heading": "Which training and competence rules apply in each device market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The columns come from the regulation pages for each market the company sells into. Each summary below draws only on those pages; the link opens the full requirement."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**United States: quality system.** The [FDA QMSR](/regulations/fda-qmsr-training-requirements) took effect on February 2, 2026, incorporates ISO 13485:2016 by reference and replaced the former training section 820.25, which required documented training and awareness of device defects. FDA's final rule says Clause 6.2 covers full and part-time staff, contractors and consultants, and that all education, training, skills and experience need to be carefully recorded. FDA stopped using its QSIT inspection technique on February 2, 2026 and began using Compliance Program 7382.850.",
+            "**United States: electronic records.** 21 CFR 11.10(i) requires a determination that persons who develop, maintain or use electronic record or signature systems have the education, training and experience for their tasks, and FDA's 2003 guidance says it will continue to enforce that control ([21 CFR Part 11](/regulations/21-cfr-part-11-training-requirements)). For device clinical investigations, FDA's October 2024 guidance says training should happen before use, during a study as needed and when system changes affect the user.",
+            "**United States and EU: nonclinical studies.** 21 CFR Part 58 covers nonclinical studies supporting applications for FDA regulated products, including medical devices. Section 58.29 requires each person to have education, training and experience for assigned functions and a current summary of training and job description; the EU applies the OECD Principles through Directive 2004/10/EC ([GLP personnel training](/regulations/glp-personnel-training-requirements)).",
+            "**European Union.** MDR Article 15 requires a PRRC with either a relevant degree plus at least one year of experience in medical device regulatory affairs or quality management systems, or four years of that experience; IVDR Article 15 mirrors it for in vitro diagnostics ([EU MDR PRRC](/regulations/eu-mdr-prrc-qualification-requirements)). MDCG 2019-7 Rev.1 says the experience should relate to EU requirements and be substantive and recent, and that document handling or shadowing alone is not sufficient.",
+            "**Export controls, United States.** The Bureau of Industry and Security (BIS) lists training as Element 5 of an export compliance program, with job specific knowledge and periodic reviews when products, end uses or the rules change. Releasing controlled technology or source code to a foreign person in the United States is a deemed export under 15 CFR 734.13 ([EAR export compliance](/regulations/ear-export-compliance-training)).",
+            "**Quality management systems generally.** Sites or business units certified to [ISO 9001](/regulations/iso-9001-competence-requirements) alongside their device system should note that ISO 9001:2026 was published on 16 September 2026 and adds quality culture and ethical behavior to the clause 7.3 awareness requirements."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Gaps in the library",
+          "text": "This library does not yet hold regulation pages for device specific rules in Australia, Japan or the UAE. A company selling there should add those columns from the national regulator's own requirements rather than assume the US or EU rows carry over."
+        }
+      ]
+    },
+    {
+      "id": "illustrative-device-matrix",
+      "heading": "What does a device training matrix look like in practice?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The extract below is illustrative only, for a hypothetical manufacturer of software driven diagnostic devices with a design center in the United States and a legal manufacturer entity in the EU. Frequencies labelled company policy are the company's own choice under its quality system; they are not set by the cited rule."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical device manufacturer, role by obligation",
+          "head": [
+            "Role",
+            "Market",
+            "Obligation",
+            "Frequency",
+            "Evidence held"
+          ],
+          "rows": [
+            [
+              "Design engineer",
+              "United States",
+              "QMSR, ISO 13485 Clause 6.2 competence for design controls",
+              "Before signing design outputs; on procedure revision (company policy)",
+              "Competence assessment against role profile, effectiveness review"
+            ],
+            [
+              "Production technician",
+              "United States",
+              "QMSR competence for assigned process steps",
+              "Before independent work; requalify after process change (company policy)",
+              "Observed performance sign off by qualified trainer"
+            ],
+            [
+              "Contract test laboratory analyst",
+              "United States",
+              "Clause 6.2 coverage of external personnel",
+              "Before work starts; on contract renewal (company policy)",
+              "Supplier qualification file with competence evidence"
+            ],
+            [
+              "eQMS user approving records",
+              "United States",
+              "21 CFR 11.10(i) and 11.10(j)",
+              "Before access is granted; when system changes affect the user",
+              "Training record linked to account creation; signed accountability attestation"
+            ],
+            [
+              "Nonclinical study director",
+              "United States",
+              "21 CFR 58.29 and 58.33",
+              "Before the study; summary kept current",
+              "Current training summary and job description"
+            ],
+            [
+              "PRRC",
+              "EU",
+              "MDR Article 15(1) qualifications",
+              "On appointment; EUDAMED updated within one week of change",
+              "Diploma, CV and proof of substantive, recent EU regulatory experience"
+            ],
+            [
+              "Vigilance specialist",
+              "EU",
+              "PRRC delegated reporting tasks under Article 15(3)",
+              "Before handling reports; on procedure change (company policy)",
+              "Written allocation of responsibilities and case review"
+            ],
+            [
+              "Engineer with foreign national team members",
+              "United States",
+              "EAR deemed export awareness, Element 5",
+              "On assignment; periodic review when products or rules change",
+              "Assessment results; technology control plan acknowledgment"
+            ],
+            [
+              "All quality system staff",
+              "International",
+              "ISO 9001:2026 clause 7.3 awareness, where certified",
+              "During transition; company policy annual",
+              "Awareness briefing record and audit sampling"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "competence-cycles",
+      "heading": "How should a device company set training frequency?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Set it inside the quality system and record the rationale, because the main device rules define competence outcomes and leave intervals to the manufacturer. Part 820 sets no fixed interval or minimum hours, so an auditor will test whether the chosen cycle is justified and whether it works."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Use change triggers as the primary clock.** Procedure revisions, design changes, new product lines and corrective actions should open retraining cells. Part 11 guidance for clinical investigations already frames training around first use and system change.",
+            "**Treat the PRRC as a qualification row, not a course.** MDR Article 15 sets entry qualifications rather than recurring training, so the matrix checks the evidence once and then tracks role changes and EUDAMED updates.",
+            "**Keep export reviews periodic.** BIS expects periodic reviews when products, end uses, end users or the EAR change, and recommends program level internal audits at least annually.",
+            "**Close the loop with effectiveness.** FDA's final rule says a QMSR adherent system will identify and correct improper personnel training, so link nonconformances and CAPA findings back to the training cell. See [how to set mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "device-records",
+      "heading": "What training records will a device inspector or notified body expect?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Expect requests for evidence that each person was competent for the work they actually did on the date they did it. Device records are sampled against design history, device history and complaint files, so the matrix should link each training record to the processes and documents the person signed."
+        },
+        {
+          "type": "table",
+          "caption": "Record expectations stated on the device related regulation pages",
+          "head": [
+            "Record",
+            "Source",
+            "What it must show or how long it is kept"
+          ],
+          "rows": [
+            [
+              "Education, training, skills and experience",
+              "QMSR final rule, Clause 6.2",
+              "Carefully recorded for internal and external personnel"
+            ],
+            [
+              "Training summary and job description",
+              "21 CFR 58.29(b) and 58.195",
+              "Current for each individual; kept for the study retention period, the shortest of 2 years after approval, 5 years after submission or 2 years after completion if not submitted"
+            ],
+            [
+              "PRRC qualification evidence",
+              "MDCG 2019-7 Rev.1",
+              "CV, certificates and proof of experience, which competent authorities may request"
+            ],
+            [
+              "Electronic system training",
+              "21 CFR Part 11 and FDA 2024 guidance",
+              "Documented, with current training materials available; may be reviewed during clinical investigator inspections"
+            ],
+            [
+              "Export compliance records",
+              "15 CFR 762.6(a)",
+              "Records required by the EAR kept for five years"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "An ISO 13485 certificate does not exempt a site from FDA inspection, and FDA can now inspect management review and internal audit reports, so a training effectiveness finding in an internal audit is visible to the agency. The guide on [preparing training records for an audit](/guides/how-to-prepare-training-records-for-an-audit) covers how to assemble the file."
+        }
+      ]
+    },
+    {
+      "id": "device-transitions",
+      "heading": "Which device rules have changed or are in transition?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The biggest recent change is the QMSR, and several related transitions follow it, as at November 2026. Record each as a dated row so the affected cells update."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**February 2, 2026, United States:** the QMSR took effect, former 820.25 ceased to apply and FDA replaced QSIT with Compliance Program 7382.850. Training procedures that cite 820.25 need to be rewritten against ISO 13485 Clause 6.2.",
+            "**16 September 2026, international:** ISO 9001:2026 was published, with a three year transition; ISO 9001:2015 certificates are expected to remain valid until 30 September 2029.",
+            "**9 November 2026, EU:** the latest consolidated MDR text leaves Article 15 unchanged, so PRRC qualifications stay as they are."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Pending, not yet law",
+          "text": "FDA proposed in August 2016 to add GLP training and animal training to 21 CFR 58.29, but the GLP page records no final rule as at November 2026. Track it as a watch item, not a matrix row."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps each device role to the competence requirement, process and source clause behind it, and attaches the assessment point that shows competence rather than attendance. When a source such as the QMSR or ISO 9001 changes, the affected roles and evidence rules are flagged for review. See [healthcare and life sciences](/industries/healthcare-life-sciences)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the QMSR require annual training for device staff?",
+      "a": "No. Part 820 sets no fixed interval or minimum hours. The manufacturer decides frequency within its quality management system, and must be able to show that the chosen frequency keeps people competent. Change triggers and effectiveness checks usually matter more to an inspector than a calendar date."
+    },
+    {
+      "q": "Can the PRRC be an external consultant?",
+      "a": "Only for micro and small enterprises, which may have the PRRC permanently and continuously at their disposal under a contract. MDCG 2019-7 Rev.1 says other manufacturers' PRRCs should be employees, and an authorized representative's PRRC cannot be the same person as the non-EU manufacturer's PRRC."
+    },
+    {
+      "q": "Do device design engineers need export control training?",
+      "a": "Often, yes. Releasing controlled technology or source code to a foreign person in the United States is a deemed export under 15 CFR 734.13. Engineers who share technical data with foreign national colleagues or overseas suppliers should have an export awareness row tied to the BIS Element 5 training expectations."
+    },
+    {
+      "q": "Are 820.25 training procedures still valid?",
+      "a": "Former 820.25 was effective until February 2, 2026. Procedures can keep useful content such as defect awareness training, but they should now cite ISO 13485 Clause 6.2 as incorporated by the QMSR, and cover contractors and consultants whose work affects quality."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Quality Management System Regulation (QMSR)",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/medical-devices/postmarket-requirements-devices/quality-management-system-regulation-qmsr"
+    },
+    {
+      "title": "Quality Management System Regulation: Frequently Asked Questions",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/medical-devices/quality-management-system-regulation-qmsr/quality-management-system-regulation-frequently-asked-questions"
+    },
+    {
+      "title": "Medical Devices; Quality System Regulation Amendments (final rule, 89 FR 7496)",
+      "publisher": "Federal Register",
+      "url": "https://www.federalregister.gov/documents/full_text/text/2024/02/02/2024-01709.txt"
+    },
+    {
+      "title": "21 CFR 820.10: Requirements for a quality management system",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/21/820.10"
+    },
+    {
+      "title": "21 CFR 820.25: Personnel (Code of Federal Regulations, April 1, 2025 edition)",
+      "publisher": "US Government Publishing Office (govinfo)",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol8/xml/CFR-2025-title21-vol8-sec820-25.xml"
+    },
+    {
+      "title": "Regulation (EU) 2017/745 on medical devices, consolidated text of 9 November 2026",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02017R0745-20261109"
+    },
+    {
+      "title": "MDCG 2019-7 Rev.1: Guidance on Article 15 MDR and IVDR on a person responsible for regulatory compliance (PRRC), December 2023",
+      "publisher": "Medical Device Coordination Group, European Commission",
+      "url": "https://health.ec.europa.eu/document/download/463b4f08-44a2-4018-9957-488bf386fc3a_en?filename=md_mdcg_2019_7_guidance_art15_mdr_ivdr_en.pdf"
+    },
+    {
+      "title": "Regulation (EU) 2017/746 on in vitro diagnostic medical devices",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32017R0746"
+    },
+    {
+      "title": "21 CFR 11.10 Controls for closed systems",
+      "publisher": "Legal Information Institute (eCFR text), Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/21/11.10"
+    },
+    {
+      "title": "Part 11, Electronic Records; Electronic Signatures: Scope and Application (guidance, September 2003)",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/part-11-electronic-records-electronic-signatures-scope-and-application"
+    },
+    {
+      "title": "Electronic Systems, Electronic Records, and Electronic Signatures in Clinical Investigations: Questions and Answers (guidance, October 2024, Revision 1)",
+      "publisher": "US Food and Drug Administration",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-systems-electronic-records-and-electronic-signatures-clinical-investigations-questions"
+    },
+    {
+      "title": "21 CFR 58.29 Personnel",
+      "publisher": "Legal Information Institute (eCFR text), Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/21/58.29"
+    },
+    {
+      "title": "21 CFR 58.195 Retention of records",
+      "publisher": "Legal Information Institute (eCFR text), Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/21/58.195"
+    },
+    {
+      "title": "21 CFR 58.1 Scope",
+      "publisher": "Legal Information Institute (eCFR text), Cornell Law School",
+      "url": "https://www.law.cornell.edu/cfr/text/21/58.1"
+    },
+    {
+      "title": "Directive 2004/10/EC on the application of the principles of good laboratory practice (Annex I: OECD Principles of GLP)",
+      "publisher": "EUR-Lex, Publications Office of the European Union",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32004L0010"
+    },
+    {
+      "title": "Good Laboratory Practice for Nonclinical Laboratory Studies (proposed rule, August 24, 2016)",
+      "publisher": "US Food and Drug Administration, Federal Register",
+      "url": "https://www.federalregister.gov/documents/2016/08/24/2016-19875/good-laboratory-practice-for-nonclinical-laboratory-studies"
+    },
+    {
+      "title": "Export Compliance Guidelines: The Elements of an Effective Export Compliance Program (January 2017)",
+      "publisher": "US Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.bis.gov/media/documents/export-compliance-guidelines"
+    },
+    {
+      "title": "15 CFR 734.13: Export",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-15/section-734.13"
+    },
+    {
+      "title": "15 CFR 762.6: Period of retention",
+      "publisher": "Electronic Code of Federal Regulations (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-15/section-762.6"
+    },
+    {
+      "title": "ISO 9001:2026 Quality management systems: Requirements",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/9001"
+    },
+    {
+      "title": "ISO 9001:2026: the secure transition",
+      "publisher": "DQS",
+      "url": "https://www.dqsglobal.com/en/explore/blog/iso-9001-2026-transition"
+    },
+    {
+      "title": "ISO 9001:2026: What businesses need to know",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/quality-management/iso-9001-2026"
+    }
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "fda-qmsr-training-requirements",
+    "eu-mdr-prrc-qualification-requirements",
+    "21-cfr-part-11-training-requirements",
+    "how-to-build-a-training-matrix-for-a-pharmaceutical-site",
+    "how-to-set-mandatory-training-refresh-cycles"
+  ],
+  "productLinks": [
+    {
+      "label": "Healthcare and life sciences",
+      "href": "/industries/healthcare-life-sciences"
+    },
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {
+      "claim": "QMSR effective February 2, 2026; incorporates by reference ISO 13485:2016; FDA stopped using QSIT on February 2, 2026 and began using Compliance Program 7382.850.",
+      "source": "https://www.fda.gov/medical-devices/postmarket-requirements-devices/quality-management-system-regulation-qmsr"
+    },
+    {
+      "claim": "FDA will not require ISO 13485 certificates and a certificate does not exempt a manufacturer from inspection; FDA can inspect management review, quality audits and supplier audit reports.",
+      "source": "https://www.fda.gov/medical-devices/quality-management-system-regulation-qmsr/quality-management-system-regulation-frequently-asked-questions"
+    },
+    {
+      "claim": "Final rule: Clause 6.2 requires individuals doing work that impacts quality to be competent on the basis of education, training, skills and expertise; covers internal and external personnel, full and part-time, contractors and consultants; all education, training, skills and experience carefully recorded; QMSR adherent QMS will identify and correct improper personnel training.",
+      "source": "https://www.federalregister.gov/documents/full_text/text/2024/02/02/2024-01709.txt"
+    },
+    {
+      "claim": "820.10(a) documented QMS complying with applicable ISO 13485 requirements.",
+      "source": "https://www.law.cornell.edu/cfr/text/21/820.10"
+    },
+    {
+      "claim": "Former 820.25: documented training, awareness of device defects; 2024 edition effective until 2-2-26.",
+      "source": "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol8/xml/CFR-2025-title21-vol8-sec820-25.xml"
+    },
+    {
+      "claim": "MDR Article 15(1) degree plus one year RA/QMS experience or four years; 15(2) micro and small enterprises; 15(3) responsibilities; 15(4) written allocation; 15(6) authorized representatives; Article 15 text identical in consolidated version 02017R0745-20261109.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02017R0745-20261109"
+    },
+    {
+      "claim": "IVDR Article 15 mirrors MDR.",
+      "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32017R0746"
+    },
+    {
+      "claim": "MDCG 2019-7 Rev.1: experience related to EU requirements, substantive and recent; document handling and shadowing not sufficient; evidence CV, certificates, proof of experience; PRRC must be employee; AR PRRC cannot be same as non-EU manufacturer PRRC; EUDAMED update within one week.",
+      "source": "https://health.ec.europa.eu/document/download/463b4f08-44a2-4018-9957-488bf386fc3a_en?filename=md_mdcg_2019_7_guidance_art15_mdr_ivdr_en.pdf"
+    },
+    {
+      "claim": "11.10(i) determination that persons who develop, maintain, or use electronic record/electronic signature systems have the education, training, and experience; 11.10(j) accountability policies.",
+      "source": "https://www.law.cornell.edu/cfr/text/21/11.10"
+    },
+    {
+      "claim": "2003 Scope and Application guidance: continued enforcement of the training determination.",
+      "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/part-11-electronic-records-electronic-signatures-scope-and-application"
+    },
+    {
+      "claim": "October 2024 guidance: training before use, during study as needed, when changes impact user; documented; FDA may review training records during clinical investigator inspections.",
+      "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-systems-electronic-records-and-electronic-signatures-clinical-investigations-questions"
+    },
+    {
+      "claim": "58.1 scope covers nonclinical studies supporting applications for FDA-regulated products including medical devices.",
+      "source": "https://www.law.cornell.edu/cfr/text/21/58.1"
+    },
+    {
+      "claim": "58.29(a) education, training, experience; (b) current summary of training and experience and job description.",
+      "source": "https://www.law.cornell.edu/cfr/text/21/58.29"
+    },
+    {
+      "claim": "58.195(b) retention periods; (e) training summaries and job descriptions retained for those periods.",
+      "source": "https://www.law.cornell.edu/cfr/text/21/58.195"
+    },
+    {
+      "claim": "Proposed rule 81 FR 58342, August 24, 2016 adds GLP training and animal training; no final rule found as at November 2026.",
+      "source": "https://www.federalregister.gov/documents/2016/08/24/2016-19875/good-laboratory-practice-for-nonclinical-laboratory-studies"
+    },
+    {
+      "claim": "BIS Export Compliance Guidelines Element 5 training: job specific knowledge, periodic reviews for changes in products, end uses or end users, and the EAR; internal audits at least annually.",
+      "source": "https://www.bis.gov/media/documents/export-compliance-guidelines"
+    },
+    {
+      "claim": "15 CFR 734.13: release of technology or source code to a foreign person in the US is a deemed export.",
+      "source": "https://www.ecfr.gov/current/title-15/section-734.13"
+    },
+    {
+      "claim": "15 CFR 762.6(a): records required by the EAR retained for five years.",
+      "source": "https://www.ecfr.gov/current/title-15/section-762.6"
+    },
+    {
+      "claim": "ISO 9001:2026 published 16 September 2026.",
+      "source": "https://www.iso.org/standard/9001"
+    },
+    {
+      "claim": "Three-year transition; ISO 9001:2015 certificates expected valid until 30 September 2029.",
+      "source": "https://www.dqsglobal.com/en/explore/blog/iso-9001-2026-transition"
+    },
+    {
+      "claim": "ISO 9001:2026 new awareness requirements on quality culture and ethical behaviour (clause 7.3)",
+      "source": "https://www.iso.org/quality-management/iso-9001-2026"
+    }
+  ]
+}

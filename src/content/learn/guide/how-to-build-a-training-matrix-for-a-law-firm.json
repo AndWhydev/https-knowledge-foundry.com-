@@ -1,0 +1,318 @@
+{
+  "slug": "how-to-build-a-training-matrix-for-a-law-firm",
+  "kind": "guide",
+  "title": "How do you build a training matrix for a law firm?",
+  "seoTitle": "Training matrix for a law firm",
+  "description": "Build a law firm training matrix: practice groups against AML, privilege, CPD, privacy and harassment duties by market, with refresh rules and evidence.",
+  "shortAnswer": "A law firm training matrix lists practice groups and support roles against two kinds of duty: obligations the firm owes as a business, such as anti-money laundering, privacy and harassment prevention, and obligations each lawyer owes to keep a practising certificate, such as annual CPD. Rows should follow the type of matter a person works on, because conveyancing, structuring and trust account work attract duties that litigation usually does not.",
+  "keyTakeaways": [
+    "Split firm delivered rows (AML, privacy, harassment prevention) from practitioner held rows (practising certificate CPD), because the evidence and the accountable person differ.",
+    "Matter type decides AML exposure: Australia's table 6 services such as conveyancing, company and trust creation and holding client money are in scope, while litigation generally is not.",
+    "Lawyers need a dedicated legal professional privilege module, since a partly privileged suspicion still requires an LPP form lodged with the report.",
+    "NSW and Victorian solicitors need 10 CPD units a year across four compulsory fields, with records kept for at least three years and produced within 21 days of an audit.",
+    "Key dates include Australia's tranche 2 start on July 1, 2026 and the EU Anti-Money Laundering Regulation applying from July 10, 2027."
+  ],
+  "sections": [
+    {
+      "id": "law-firm-difference",
+      "heading": "What makes a law firm training matrix different from other professional services?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A law firm carries duties at two levels at once: the firm is a reporting entity, employer and data controller, and each lawyer holds a personal practising certificate with its own education condition. A matrix that tracks only firm courses misses the second level, and one that tracks only CPD misses the first."
+        },
+        {
+          "type": "p",
+          "text": "The general method in [how to build a training matrix](/guides/how-to-build-a-training-matrix) still holds: roles on one axis, obligations on the other, a frequency and evidence rule in every cell. What changes for a law firm is that the rows follow matter types rather than seniority, that one column (privilege) exists nowhere else, and that many cells are verification rows where the firm checks a lawyer's own compliance instead of delivering training. Building the columns from an [obligations to training map](/guides/how-to-map-training-to-compliance-obligations) keeps each one traceable to its rule."
+        }
+      ]
+    },
+    {
+      "id": "practice-group-rows",
+      "heading": "Which law firm roles need their own rows?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Give a separate row to every group whose matters trigger a distinct duty. In Australia, the Australian Transaction Reports and Analysis Centre (AUSTRAC) regulates nine professional services listed in table 6 of the AML/CTF Act, so the practice groups that perform those services are the natural rows."
+        },
+        {
+          "type": "table",
+          "caption": "Law firm role families and what puts each in scope",
+          "head": ["Role family", "Why it needs its own row", "Main obligation drivers"],
+          "rows": [
+            ["Conveyancing and property", "Assisting with real estate transfers is table 6 item 1", "AUSTRAC tranche 2, EU AMLR, Law 83/2017"],
+            ["Corporate, commercial and private client structuring", "Business sales, financing and creating or restructuring companies and trusts (items 2, 4 and 6); AUSTRAC treats structuring roles as high risk", "AUSTRAC tranche 2, EU AMLR Article 13 assessment"],
+            ["Trust account and client money staff", "Receiving or holding property for a transaction is item 3, with specific carve outs", "AUSTRAC tranche 2, Portugal Article 55"],
+            ["Company secretarial and nominee services", "Shelf companies, acting as director, secretary, trustee or nominee, registered office addresses (items 5, 7, 8 and 9)", "AUSTRAC tranche 2, UAE Cabinet Resolution No. 134 of 2025"],
+            ["Litigation and advocacy", "Litigation generally falls outside table 6, but CPD, privacy and conduct rows still apply", "Uniform CPD Rules, Privacy Act, GDPR"],
+            ["Partners designated as senior managers", "Approve enhanced due diligence and make privilege decisions", "AUSTRAC good practice example, LPP guidance"],
+            ["AML/CTF compliance officer", "Designs, approves and documents training for everyone else", "Cabinet Resolution No. 134 of 2025 Article 22(4), Law 83/2017 Article 55"],
+            ["Graduates, paralegals and practice support", "Client onboarding, identity checks, records and reception (registered office addresses)", "AUSTRAC good practice example, APPI Article 24"],
+            ["Supervisors and people leaders", "Longer harassment training in California and specific roles under Australia's positive duty", "Gov Code 12950.1, Sex Discrimination Act s47C"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Grouping by [role based training](/glossary/role-based-training) means a solicitor who moves from litigation into a private client team picks up the structuring rows on the day of transfer, which is when AUSTRAC's high risk role training should start."
+        }
+      ]
+    },
+    {
+      "id": "obligations-by-jurisdiction",
+      "heading": "Which obligations apply to law firms in each market?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The columns come from the library's regulation pages for each market the firm practices in. Each summary below draws only on those pages, and each link opens the full requirement."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Australia, AML/CTF.** Law practices providing table 6 services became reporting entities from July 1, 2026. AUSTRAC says a service is caught even if provided once, alongside other work, or free, so pro bono teams are not automatically outside scope ([AML/CTF tranche 2 for lawyers and accountants](/regulations/aml-ctf-tranche-2-lawyers-accountants-training)). Section 5-9 of the AML/CTF Rules 2025 requires initial and ongoing training appropriate to each person's function and risks ([AUSTRAC AML/CTF training](/regulations/austrac-aml-ctf-training-requirements)).",
+            "**Australia, practising certificates.** CPD is a statutory condition on every practising certificate under section 52 of the Legal Profession Uniform Law. NSW solicitors need 10 units per CPD year (April 1 to March 31) with at least one in each compulsory field ([NSW solicitor CPD](/regulations/nsw-solicitor-cpd-requirements)); Victorian lawyers have the same 10 point structure, audited by the Law Institute of Victoria and the Victorian Bar ([Victorian lawyer CPD](/regulations/victoria-lawyer-cpd-requirements)).",
+            "**Australia, privacy and conduct.** The Office of the Australian Information Commissioner (OAIC) names regular staff training as a step under APP 1 and APP 11 ([Privacy Act staff training](/regulations/privacy-act-staff-training-requirements)). Section 47C of the Sex Discrimination Act requires reasonable and proportionate measures to eliminate workplace sexual harassment, and the Australian Human Rights Commission expects ongoing, role tailored education ([positive duty](/regulations/positive-duty-sexual-harassment-training)).",
+            "**European Union and Portugal.** The EU Anti-Money Laundering Regulation (AMLR) applies from July 10, 2027 and covers lawyers in certain transactions; Article 12 requires specific, ongoing, documented training and Article 13 an assessment of skills and integrity before people take up AML/CFT roles ([EU AMLR](/regulations/eu-amlr-training-requirements)). Until then, Portuguese lawyers, solicitors and notaries in covered activities follow Article 55 of Law 83/2017 ([Portugal AML law](/regulations/portugal-aml-law-training-requirements)). The GDPR requires people with access to personal data to process it only on instructions (Articles 29 and 32(4)) ([GDPR staff training](/regulations/gdpr-staff-training-requirements)).",
+            "**United States.** California requires employers with five or more employees to give California staff harassment prevention training every two years, two hours for supervisors and one hour for others; New York requires annual interactive training for every employer ([California and New York harassment training](/regulations/california-and-new-york-harassment-training)).",
+            "**Japan.** The Act on the Protection of Personal Information (APPI) Article 24 requires supervision of employees who handle personal data, and the Personal Information Protection Commission's guidelines make employee education a mandatory human security measure ([APPI employee training](/regulations/japan-appi-employee-training)).",
+            "**United Arab Emirates.** Lawyers and notaries are designated non-financial businesses and professions when carrying out the listed activities. Article 21(5) of Cabinet Resolution No. 134 of 2025 requires periodic programs and workshops, and Article 22(4) makes the compliance officer responsible for documented training plans ([UAE AML/CFT](/regulations/uae-aml-cft-training-requirements))."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privilege-column",
+      "heading": "Why does legal professional privilege need its own column?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Because a privilege decision changes what a lawyer must lodge with AUSTRAC, and getting it wrong in either direction is a compliance failure. Section 242(1) of the AML/CTF Act preserves the right to withhold privileged information, but AUSTRAC's guidance attaches conditions that fee earners and partners must apply under time pressure."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Privilege is narrower than confidentiality.** Staff who treat every confidential file as privileged will under report.",
+            "**All or part.** If every ground of suspicion is privileged, no suspicious matter report or LPP form is needed. If only part is privileged, the report goes in with an LPP form in place of the withheld information.",
+            "**No waiver by description.** Describing the privileged information in the form does not of itself waive privilege, and failing to submit a required form may attract civil penalties.",
+            "**Assessment by scenario.** A privilege call is judgment, so the evidence for this column should be worked file scenarios with recorded reasoning, as discussed in [completion tracking vs competency verification](/compare/completion-tracking-vs-competency-verification)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "illustrative-law-firm-matrix",
+      "heading": "What does a law firm training matrix look like when filled in?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It reads as a list of role and market pairs, each with an obligation, a clock and the evidence the firm keeps. The extract below is illustrative only, for a hypothetical firm with offices in Sydney, Melbourne, Lisbon, New York and Dubai. Where a frequency says firm policy, the cited rule sets no interval and the firm must justify its choice."
+        },
+        {
+          "type": "table",
+          "caption": "Illustrative extract: hypothetical multi office law firm, role by obligation",
+          "head": ["Role", "Market", "Obligation", "Frequency", "Evidence held"],
+          "rows": [
+            ["Private client lawyer (trusts and restructures)", "Australia", "AML/CTF Rules s5-9, high risk role under AUSTRAC good practice example", "Before first table 6 matter; then at least annually (AUSTRAC example, adopted as firm policy)", "Scenario assessment on beneficial ownership and source of funds; structuring file review"],
+            ["Conveyancing clerk", "Australia", "Table 6 item 1 scope tests and initial customer due diligence", "At onboarding; firm policy annual", "Matter intake checklist sampling"],
+            ["Trust account officer", "Australia", "Item 3 carve outs and escalation", "Before handling client money; firm policy annual", "Knowledge check on carve out scenarios, escalation log"],
+            ["Partner designated as senior manager", "Australia", "LPP decisions and enhanced due diligence approvals", "On designation; firm policy annual", "LPP decision notes and approval records"],
+            ["Solicitor", "Australia (NSW)", "Uniform CPD Rules, Rule 6", "10 units each CPD year ending March 31", "Solicitor's CPD record held at least 3 years (Rule 12); firm verification at renewal"],
+            ["Barrister door tenant", "Australia (Victoria)", "Barristers Rules mandatory categories, including Equality and Wellbeing from April 1, 2026", "10 points each CPD year", "Victorian Bar audit response within 21 days"],
+            ["All staff", "Australia", "Sex Discrimination Act s47C, AHRC Standard 3", "Induction plus periodic reinforcement (firm policy sets the interval)", "Attendance with a copy of content, survey data on understanding"],
+            ["Corporate associate", "Portugal", "Law 83/2017 Article 55", "Immediately on joining an AML relevant role; regular thereafter", "Record kept seven years under Article 51; compliance officer's prior opinion on content"],
+            ["All staff handling client personal data", "Portugal (EU)", "GDPR Articles 29 and 32(4)", "Firm policy annual and on procedure change", "Completion, signed confidentiality, DPO awareness log"],
+            ["Supervising attorney", "United States (California)", "Gov Code 12950.1", "2 hours within six months of promotion; every two years", "Training record kept at least two years"],
+            ["All employees", "United States (New York)", "Labor Law 201-g", "Annually", "Interactive session record and notice in primary language"],
+            ["Company formation team", "UAE", "Cabinet Resolution No. 134 of 2025 Articles 21(5) and 22(4)", "Periodic; annual plan as firm policy", "Compliance officer's documented plan and attendance, kept five years"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cpd-verification-rows",
+      "heading": "How should practising certificate CPD appear on a firm matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "As verification rows owned by each lawyer, with the firm checking status rather than issuing completions. The solicitor declares compliance at renewal and answers any audit personally, so the firm's role is to see gaps early and to keep its own in house sessions mapped to the compulsory fields."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Field coverage, not just totals.** Ten units with no ethics unit fails Rule 6 in NSW, so the matrix should show each of the four fields separately.",
+            "**Caps.** In NSW, passive audio or video study, writing and presenting are each capped at 5 units and committee work at 3 units, so a lawyer whose units come mostly from recorded webinars may be short.",
+            "**Carry over and pro rata.** NSW allows up to 3 units completed between January and March to carry forward; new admissions follow a pro rata table, from 10 units for an April start down to none for February or March, with compulsory fields still covered.",
+            "**Rectification.** In Victoria a non compliant lawyer receives a written notice and 90 days to complete a rectification plan, and continued refusal can lead to conditions on the certificate. In NSW, a solicitor who declares non compliance at renewal and has no exemption must lodge a rectification plan under Rule 15."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "law-firm-refresh",
+      "heading": "How often should a law firm refresh each row?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use the interval the rule states where one exists, and a documented firm policy where it does not. Only a few law firm rules fix a clock; most require ongoing or regular training and leave the cycle to the firm's risk assessment."
+        },
+        {
+          "type": "table",
+          "caption": "Refresh clocks stated in the linked regulation pages",
+          "head": ["Rule", "Clock as stated", "What the firm decides"],
+          "rows": [
+            ["AUSTRAC good practice example", "Refresher at least annually or on significant change in policy or risk profile", "Whether to adopt it; AUSTRAC presents it as an example"],
+            ["Uniform CPD Rules (NSW and Victoria)", "10 units or points each CPD year", "How to monitor progress before March 31"],
+            ["New York Labor Law 201-g", "Annual", "None"],
+            ["California Gov Code 12950.1", "Every two years; within six months of hire or promotion", "Tracking each employee's own cycle"],
+            ["Law 83/2017 Article 55", "Immediately after hiring into an AML role; regular thereafter", "The regular interval"],
+            ["AHRC positive duty guidelines", "One off induction training is ineffective unless periodically reinforced", "The reinforcement interval"],
+            ["GDPR, APPI, Privacy Act", "No interval stated", "A risk based cycle, recorded with reasons"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Add event triggers next to the dates: a move into a structuring or trust account role, a change to the firm's AML/CTF risk assessment, or a privilege error found in file review. The guide on [setting mandatory training refresh cycles](/guides/how-to-set-mandatory-training-refresh-cycles) covers how to justify a chosen interval."
+        }
+      ]
+    },
+    {
+      "id": "law-firm-records",
+      "heading": "What evidence should a law firm keep for each row?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Keep proof of understanding where the source asks for it, and the retention period the strictest applicable rule sets. AUSTRAC's good practice firm tests knowledge with quizzes or scenario discussions and logs all training in a central register, which is a sound default for every AML row."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**AML records.** Seven years in Portugal under Article 51 of Law 83/2017; five years in the UAE under Article 25 of Cabinet Resolution No. 134 of 2025.",
+            "**CPD records.** At least three years under NSW Rule 12, produced within 21 days of an audit; Victorian audits can reach any of the three previous years.",
+            "**Harassment prevention records.** At least two years in California; three years for New York City employers with 15 or more employees; attendance with a copy of the content under the AHRC guidelines.",
+            "**Privacy evidence.** Training records are a standard part of demonstrating accountability under GDPR Article 5(2), and failure to implement privacy practices and systems is a seriousness factor under Australia's amended Privacy Act."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "When one session serves several rows, file it under the longest period. The guide on [evidencing training effectiveness to a regulator](/guides/how-to-evidence-training-effectiveness-to-a-regulator) covers how to present results rather than attendance."
+        }
+      ]
+    },
+    {
+      "id": "law-firm-dates",
+      "heading": "Which dates should a law firm build into its matrix?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Enter these as future dated rows so the affected cells change status on the right day. Each date comes from the linked regulation page, as at November 2026."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**April 1, 2026, Australia:** Equality and Wellbeing becomes a mandatory CPD category for barristers.",
+            "**July 1, 2026, Australia:** lawyers, conveyancers and trust and company service providers providing table 6 services are regulated by AUSTRAC.",
+            "**December 10, 2026, Australia:** automated decision making transparency obligations under the Privacy Act commence.",
+            "**January 1, 2027, United States:** the California Civil Rights Department's October 2025 FAQ gives this as the next training deadline.",
+            "**July 10, 2027, EU:** the AMLR applies directly in every Member State, so training policy, training and integrity assessment rows move to Articles 9, 12 and 13."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry-approach",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry maps each table 6 service a firm provides to the roles, decisions and assessment points involved, including scope tests and privilege calls, and records practitioner held duties such as CPD as verification points rather than courses. When a source such as the AMLR or AUSTRAC guidance changes, the affected practice groups can be traced from the framework. See [professional services](/industries/professional-services)."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do litigation teams need AML/CTF training?",
+      "a": "AUSTRAC says litigation generally falls outside table 6, and items 1 and 2 do not apply to transactions under or resulting from a court or tribunal order. Litigators still need foundational awareness so they recognize when a matter drifts into a regulated service, such as a settlement that becomes a property transfer, and they keep their CPD, privacy and conduct rows."
+    },
+    {
+      "q": "Can firm AML training count toward a solicitor's CPD?",
+      "a": "The matrix should treat them as separate obligations even when one session serves both. AML training is the firm's duty under the AML/CTF Rules; CPD is the solicitor's duty under the Uniform Rules, claimed in the solicitor's own record. Record which compulsory field a session was designed for, and leave the claim and declaration to the practitioner."
+    },
+    {
+      "q": "Does a small practice need a full matrix?",
+      "a": "AUSTRAC's legal profession starter kit is designed for practices with 15 or fewer personnel that mostly serve Australian resident individuals and do not regularly deal with high risk clients. A practice outside those criteria cannot rely on the kit, and even a small practice still needs to show who was trained on what and when."
+    },
+    {
+      "q": "Can one AML module serve both an Australian and a Portuguese office?",
+      "a": "A shared core on red flags and escalation can, but each market adds requirements. Portugal requires competent trainers, the compliance officer's prior favorable opinion and records kept seven years; Australia requires content appropriate to each person's function and the table 6 services they provide. Add market modules and record which module satisfies which rule."
+    }
+  ],
+  "sources": [
+    {"title": "Professional designated services", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/new-austrac/designated-services-newly-regulated-entities/professional-designated-services"},
+    {"title": "About the reforms", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/industry-and-business/about-amlctf-reforms/about-reforms"},
+    {"title": "Examples of personnel due diligence and training in practice", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/examples-personnel-due-diligence-and-training-practice"},
+    {"title": "Legal professional privilege", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/legal-professional-privilege"},
+    {"title": "Legal profession program starter kit: Getting started", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/program-starter-kits/legal-profession-program-starter-kit/legal-profession-program-starter-kit-getting-started"},
+    {"title": "Risk insights and indicators of suspicious activity for legal professionals", "publisher": "AUSTRAC", "url": "https://www.austrac.gov.au/industry-and-business/education-and-resources/publications-and-resources/risk-insights-and-indicators-suspicious-activity-legal-professionals"},
+    {"title": "Anti-Money Laundering and Counter-Terrorism Financing Rules 2025", "publisher": "Federal Register of Legislation", "url": "https://www.legislation.gov.au/F2025L01026/latest"},
+    {"title": "Continuing Professional Development (CPD)", "publisher": "Law Society of New South Wales", "url": "https://www.lawsociety.com.au/practising-law-in-NSW/working-as-a-solicitor-in-NSW/your-practising-certificate/CPD"},
+    {"title": "Legal Profession Uniform Continuing Professional Development (Solicitors) Rules 2015", "publisher": "NSW Legislation", "url": "https://legislation.nsw.gov.au/view/html/inforce/current/sl-2015-0242"},
+    {"title": "Your CPD obligations", "publisher": "Victorian Legal Services Board + Commissioner", "url": "https://lsbc.vic.gov.au/lawyers/practising-law/continuing-professional-development-cpd/your-cpd-obligations"},
+    {"title": "CPD audits", "publisher": "Victorian Legal Services Board + Commissioner", "url": "https://lsbc.vic.gov.au/lawyers/practising-law/continuing-professional-development-cpd/cpd-audits"},
+    {"title": "New mandatory CPD category for barristers", "publisher": "Legal Services Council", "url": "https://legalservicescouncil.org.au/highlights/new-mandatory-cpd-category-for-barristers.html"},
+    {"title": "Chapter 1: APP 1 Open and transparent management of personal information", "publisher": "Office of the Australian Information Commissioner", "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-1-app-1-open-and-transparent-management-of-personal-information"},
+    {"title": "Privacy and Other Legislation Amendment Act 2024", "publisher": "Federal Register of Legislation", "url": "https://www.legislation.gov.au/C2024A00128/asmade"},
+    {"title": "Sex Discrimination Act 1984 (Cth), Part IIA, section 47C", "publisher": "Federal Register of Legislation", "url": "https://www.legislation.gov.au/C2004A02868/latest/text"},
+    {"title": "Guidelines for Complying with the Positive Duty under the Sex Discrimination Act 1984 (Cth), August 2023", "publisher": "Australian Human Rights Commission", "url": "https://humanrights.gov.au/__data/assets/file/0030/46974/Guidelines-for-Complying-with-the-Positive-Duty-2023.pdf"},
+    {"title": "Regulation (EU) 2024/1624 on the prevention of the use of the financial system for the purposes of money laundering or terrorist financing", "publisher": "EUR-Lex, Publications Office of the European Union", "url": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"},
+    {"title": "Lei n.º 83/2017, de 18 de agosto (versão consolidada)", "publisher": "Diário da República, Imprensa Nacional-Casa da Moeda", "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"},
+    {"title": "Regulation (EU) 2016/679 (General Data Protection Regulation)", "publisher": "Official Journal of the European Union (EUR-Lex)", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"},
+    {"title": "California Government Code section 12950.1", "publisher": "California Legislative Information", "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12950.1"},
+    {"title": "Sexual Harassment Prevention Training: Information for Employers (October 2025)", "publisher": "California Civil Rights Department", "url": "https://calcivilrights.ca.gov/wp-content/uploads/sites/32/2022/11/Sexual-Harassment-Prevention-Training-For-Employers-FAQ_ENG.pdf"},
+    {"title": "New York Labor Law section 201-g: Prevention of sexual harassment", "publisher": "New York State Senate", "url": "https://www.nysenate.gov/legislation/laws/LAB/201-G"},
+    {"title": "Sexual Harassment Training", "publisher": "New York City Commission on Human Rights", "url": "https://www.nyc.gov/site/cchr/law/sexual-harassment-training.page"},
+    {"title": "Act on the Protection of Personal Information (Act No. 57 of 2003), Japanese text", "publisher": "Digital Agency, e-Gov Laws", "url": "https://laws.e-gov.go.jp/law/415AC0000000057"},
+    {"title": "Guidelines for the Act on the Protection of Personal Information (General Rules), revised June 2026", "publisher": "Personal Information Protection Commission", "url": "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/"},
+    {"title": "Cabinet Resolution No. (134) of 2025 Regarding the Executive Regulations of Federal Decree by Law No. (10) of 2025", "publisher": "UAE Financial Intelligence Unit", "url": "https://www.uaefiu.gov.ae/media/3ssbp5d5/cabinet-134-2025.pdf"}
+  ],
+  "related": [
+    "how-to-build-a-training-matrix",
+    "aml-ctf-tranche-2-lawyers-accountants-training",
+    "nsw-solicitor-cpd-requirements",
+    "eu-amlr-training-requirements",
+    "how-to-build-a-training-matrix-for-an-accounting-firm",
+    "training-matrix"
+  ],
+  "productLinks": [
+    {"label": "Professional services", "href": "/industries/professional-services"},
+    {"label": "Compliance programs", "href": "/programs/compliance"}
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 16,
+  "factCheck": [
+    {"claim": "Table 6 of subsection 6(5B) lists items 1 to 9 (real estate, body corporate transactions, receiving or holding property, financing, shelf companies, creation or restructuring, acting or arranging in positions and nominee shareholders, registered office address)", "source": "https://www.austrac.gov.au/new-austrac/designated-services-newly-regulated-entities/professional-designated-services"},
+    {"claim": "Business test: service can be in the course of business if not the only service, provided once, or free; court or tribunal order exception for items 1 and 2; litigation generally outside table 6", "source": "https://www.austrac.gov.au/new-austrac/designated-services-newly-regulated-entities/professional-designated-services"},
+    {"claim": "Lawyers, accountants, conveyancers and trust and company service providers regulated from 1 July 2026", "source": "https://www.austrac.gov.au/industry-and-business/about-amlctf-reforms/about-reforms"},
+    {"claim": "Good practice example: high risk roles include creating or restructuring body corporates or trusts; refresher at least annually or on significant change; central register; quizzes or scenario discussions", "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/personnel-due-diligence-and-training/examples-personnel-due-diligence-and-training-practice"},
+    {"claim": "Act s242(1) preserves LPP; LPP narrower than confidentiality; no SMR or LPP form if all grounds privileged; partial privilege requires LPP form; description does not waive privilege; failure to submit may attract civil penalties", "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/your-amlctf-program/reporting-us/legal-professional-privilege"},
+    {"claim": "Legal starter kit designed for practices with 15 or fewer personnel; practices outside criteria cannot rely on the kit", "source": "https://www.austrac.gov.au/industry-and-business/obligations-and-guidance/program-starter-kits/legal-profession-program-starter-kit/legal-profession-program-starter-kit-getting-started"},
+    {"claim": "AML/CTF Rules 2025 s5-9 initial and ongoing training appropriate to function and risks", "source": "https://www.legislation.gov.au/F2025L01026/latest"},
+    {"claim": "CPD is a statutory condition under s52 Legal Profession Uniform Law; 10 units with one in each compulsory field (Rule 6); CPD year 1 April to 31 March; carry over up to 3 units; Rule 9 caps; records 3 years (Rule 12); produce within 21 days (Rule 14); pro rata table", "source": "https://www.lawsociety.com.au/practising-law-in-NSW/working-as-a-solicitor-in-NSW/your-practising-certificate/CPD"},
+    {"claim": "Victoria: 10 units with one in each compulsory field; audits by LIV and Victorian Bar can relate to any of three previous years; 21 days; rectification plan with 90 days; conditions or fit and proper referral", "source": "https://lsbc.vic.gov.au/lawyers/practising-law/continuing-professional-development-cpd/cpd-audits"},
+    {"claim": "Equality and Wellbeing mandatory CPD category for barristers commencing 1 April 2026", "source": "https://legalservicescouncil.org.au/highlights/new-mandatory-cpd-category-for-barristers.html"},
+    {"claim": "OAIC APP 1 guidelines list regular staff training as an example of APP 1.2 practices", "source": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-1-app-1-open-and-transparent-management-of-personal-information"},
+    {"claim": "POLA Act: ADM transparency commences 10 December 2026; s13G(1B)(g) seriousness factor failure to implement practices, procedures and systems", "source": "https://www.legislation.gov.au/C2024A00128/asmade"},
+    {"claim": "Section 47C reasonable and proportionate measures to eliminate covered conduct", "source": "https://www.legislation.gov.au/C2004A02868/latest/text"},
+    {"claim": "AHRC Standard 3: one off induction ineffective unless periodically reinforced; records include attendance with copy of content and survey data", "source": "https://humanrights.gov.au/__data/assets/file/0030/46974/Guidelines-for-Complying-with-the-Positive-Duty-2023.pdf"},
+    {"claim": "AMLR applies from 10 July 2027; Article 12 specific, ongoing, documented training; Article 13 assessment before taking up activities; Article 9(2)(a)(x) training policy", "source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng"},
+    {"claim": "Law 83/2017 Article 55 immediate training for new joiners, competent trainers, compliance officer prior favorable opinion; Article 51 seven year retention", "source": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2017-108024643"},
+    {"claim": "GDPR Articles 29 and 32(4) processing only on instructions; Article 5(2) accountability", "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02016R0679-20160504"},
+    {"claim": "California: five or more employees; 2 hours supervisors, 1 hour others; every two years; within six months of hire or promotion", "source": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12950.1"},
+    {"claim": "CRD FAQ: next deadline January 1, 2027; records kept at least two years", "source": "https://calcivilrights.ca.gov/wp-content/uploads/sites/32/2022/11/Sexual-Harassment-Prevention-Training-For-Employers-FAQ_ENG.pdf"},
+    {"claim": "NY Labor Law 201-g annual interactive training for all employees; notice in English and primary language", "source": "https://www.nysenate.gov/legislation/laws/LAB/201-G"},
+    {"claim": "NYC employers with 15 or more employees retain training records three years", "source": "https://www.nyc.gov/site/cchr/law/sexual-harassment-training.page"},
+    {"claim": "APPI Article 24 supervision of employees handling personal data", "source": "https://laws.e-gov.go.jp/law/415AC0000000057"},
+    {"claim": "PPC General Rules Guidelines section 10-4: employee education as a human security control measure", "source": "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/"},
+    {"claim": "Cabinet Resolution 134 of 2025 Article 21(5) periodic programs and workshops; Article 22(4) compliance officer documents training plans; Article 25 five year retention", "source": "https://www.uaefiu.gov.ae/media/3ssbp5d5/cabinet-134-2025.pdf"}
+  ]
+}
