@@ -1,0 +1,275 @@
+{
+  "slug": "document-control",
+  "kind": "glossary",
+  "title": "What is document control?",
+  "seoTitle": "Document control: definition",
+  "description": "Document control keeps procedures and records approved, current, available and protected. ISO 9001 and GMP examples, and how it links to training.",
+  "shortAnswer": "A document control process is the set of rules an organization uses to make sure its procedures, instructions, forms and records are approved before use, uniquely identified, available where needed, protected from unintended change, kept current, and retired when obsolete. It is a core requirement of quality management standards such as ISO 9001 and of good manufacturing practice (GMP) rules, and it determines which version of a procedure people must be trained on.",
+  "keyTakeaways": [
+    "Document control covers the whole life of a document: drafting, review, approval, distribution, use, change, retention and withdrawal.",
+    "ISO 9001:2015 addresses it in clause 7.5 on documented information, with control requirements in clause 7.5.3; the 2026 edition keeps the same Harmonized Structure.",
+    "GMP rules are more prescriptive: US 21 CFR 211.100 requires production procedures and their changes to be reviewed and approved by the quality control unit.",
+    "Every approved change to a controlled procedure is a potential training trigger, so document control and training records must be linked."
+  ],
+  "term": "document control",
+  "alsoKnownAs": [
+    "control of documented information",
+    "document management (quality)",
+    "controlled documents"
+  ],
+  "sections": [
+    {
+      "id": "what-it-covers",
+      "heading": "What does document control cover?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Document control covers any document that people rely on to do regulated or quality-critical work: policies, [standard operating procedures](/glossary/standard-operating-procedure), [work instructions](/glossary/work-instruction), specifications, forms, and the records those forms produce. The International Organization for Standardization (ISO) [guidance on documented information](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/documented_information.pdf) for ISO 9001:2015 stresses that documents may be in any form or medium, including paper, electronic files, photographs and master samples."
+        },
+        {
+          "type": "p",
+          "text": "The same guidance distinguishes documented information that is maintained (procedures and other documents that tell people what to do) from documented information that is retained (records that show what was done). Both are subject to control. The difference between documents inside and outside the system is covered in [controlled vs uncontrolled documents](/compare/controlled-vs-uncontrolled-documents)."
+        }
+      ]
+    },
+    {
+      "id": "iso-9001",
+      "heading": "What does ISO 9001 require for document control?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ISO 9001 requires organizations to control the documented information the standard requires and the documented information they decide is necessary for an effective quality management system. In the 2015 edition this sits in clause 7.5, with control requirements in clause 7.5.3; secondary summaries such as [ISMS.online's clause 7.5 overview](https://www.isms.online/iso-9001/clause-7-5-documented-information/) describe 7.5.3 as keeping documented information available, suitable for use and protected, controlling changes, and identifying and controlling documents of external origin."
+        },
+        {
+          "type": "p",
+          "text": "ISO's guidance adds two points that shape a proportionate system. The extent of documented information can differ with an organization's size, the complexity of its processes, and the competence of its people. And ISO 9001 requires \"a 'Documented quality management system', and not a 'system of documents'.\" [ISO 9001:2026](https://www.iso.org/standard/9001), the sixth edition, was published on 16 September 2026; ISO states on its [summary of the 2026 edition](https://www.iso.org/quality-management/iso-9001-2026) that the clause structure has not changed and that certified organizations have three years to transition. The clause text is paywalled, so check exact wording in the edition you are certified to."
+        }
+      ]
+    },
+    {
+      "id": "gmp",
+      "heading": "How do GMP rules treat document control?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Good manufacturing practice rules make document control explicit and specific. Two US Food and Drug Administration (FDA) drug GMP sections illustrate the level of detail."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "[21 CFR 211.100(a)](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-F/section-211.100) requires written procedures for production and process control, and states that these procedures, \"including any changes, shall be drafted, reviewed, and approved by the appropriate organizational units and reviewed and approved by the quality control unit.\" Section 211.100(b) requires the procedures to be followed, and any deviation to be recorded and justified.",
+            "[21 CFR 211.186(a)](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-J/section-211.186) requires master production and control records to be prepared, dated and signed by one person and independently checked, dated and signed by a second person."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "In the European Union, [EudraLex Volume 4](https://health.ec.europa.eu/medicinal-products/eudralex/eudralex-volume-4_en) lists Chapter 4 Documentation (January 2011). [Chapter 4](https://health.ec.europa.eu/system/files/2016-11/chapter4_01-2011_en_0.pdf) expects documents with instructions to be approved, signed and dated by authorized persons, uniquely identifiable, and to have a defined effective date (4.3), and quality system documents to be regularly reviewed and kept up to date (4.5)."
+        }
+      ]
+    },
+    {
+      "id": "control-elements",
+      "heading": "What are the elements of a document control system?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A working system answers the same questions whatever the standard. The table is an original synthesis, showing where each element appears in the sources above."
+        },
+        {
+          "type": "table",
+          "caption": "Document control elements and where they appear (summarized; check source text)",
+          "head": [
+            "Element",
+            "What it means",
+            "ISO 9001 (2015 numbering)",
+            "GMP example"
+          ],
+          "rows": [
+            [
+              "Approval before use",
+              "A named, authorized person approves each document and each change",
+              "Review and approval for suitability (7.5.2)",
+              "21 CFR 211.100(a); EU GMP 4.3"
+            ],
+            [
+              "Unique identification",
+              "Title, number, version and effective date on every controlled document",
+              "Identification and description (7.5.2)",
+              "EU GMP 4.3"
+            ],
+            [
+              "Availability",
+              "The current version is accessible at the point of use",
+              "Available and suitable for use (7.5.3)",
+              "EU GMP 4.2 on accurate reproduction"
+            ],
+            [
+              "Change control",
+              "Changes are reviewed, approved and traceable to the previous version",
+              "Control of changes (7.5.3)",
+              "21 CFR 211.100(a); EU GMP 4.9 for record alterations"
+            ],
+            [
+              "Protection",
+              "Prevent loss, unauthorized change and misuse",
+              "Adequately protected (7.5.3)",
+              "EU GMP 4.1 on record integrity"
+            ],
+            [
+              "Periodic review",
+              "Documents are reviewed on a schedule and kept current",
+              "Not specified as a fixed interval",
+              "EU GMP 4.5"
+            ],
+            [
+              "External documents",
+              "Regulations, standards and supplier documents are identified and tracked",
+              "Documents of external origin (7.5.3)",
+              "Varies by rule"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "training-link",
+      "heading": "Why does document control matter for training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Training is only valid against the version of the procedure in force, so every approved change raises the question of who must be retrained and how. Without a link between the document control system and training records, organizations cannot show that people working today were trained on today's procedure."
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Record which training items and assessment questions depend on each controlled document.",
+            "When a change is approved, classify it (editorial, minor, significant) and decide the training response for each class.",
+            "Assign retraining or a briefing to affected roles before or at the effective date.",
+            "Retire superseded training content when the old document version is withdrawn.",
+            "Keep the training record linked to the document version, so an auditor can match them."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Whether a signature on a revised procedure is enough is discussed in [read and understand vs competency-based SOP training](/compare/read-and-understand-vs-competency-based-sop-training). Managing versions of the training content itself is covered in [how to maintain version control for training content](/guides/how-to-maintain-version-control-for-training-content)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry links each learning outcome, content item and assessment point to the controlled source document and version it derives from. When a document version changes, the dependent training is flagged for review instead of being found later in an audit."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is document control the same as a document management system?",
+      "a": "No. Document control is the set of rules and responsibilities: approval, identification, change control, distribution and retention. A document management system is software that can enforce some of those rules. A system without defined rules does not deliver control, and a well-run paper process can meet the requirements."
+    },
+    {
+      "q": "Does ISO 9001 still require a documented procedure for document control?",
+      "a": "ISO 9001:2015 frames the requirement as documented information rather than a set list of procedures, and ISO's guidance says it allows an organization flexibility in how it documents its quality management system. The extent can vary with size, process complexity and competence. Whatever form it takes, control must work and be demonstrable to an auditor."
+    },
+    {
+      "q": "How often should controlled documents be reviewed?",
+      "a": "ISO 9001 does not set a fixed interval. EU GMP Chapter 4 expects quality system documents to be regularly reviewed and kept up to date. Many organizations set a risk-based review cycle, shorter for high-risk procedures, plus event-driven review whenever a regulation, process or piece of equipment changes."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Guidance on the requirements for Documented Information of ISO 9001:2015 (ISO/TC 176/SC2/N1286)",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/documented_information.pdf"
+    },
+    {
+      "title": "ISO 9001:2026 Quality management systems: Requirements",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/9001"
+    },
+    {
+      "title": "ISO 9001:2026: what has changed",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/quality-management/iso-9001-2026"
+    },
+    {
+      "title": "ISO 9001 Clause 7.5 Documented Information (secondary summary)",
+      "publisher": "ISMS.online",
+      "url": "https://www.isms.online/iso-9001/clause-7-5-documented-information/"
+    },
+    {
+      "title": "21 CFR 211.100 Written procedures; deviations",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-F/section-211.100"
+    },
+    {
+      "title": "21 CFR 211.186 Master production and control records",
+      "publisher": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-J/section-211.186"
+    },
+    {
+      "title": "EudraLex Volume 4, Chapter 4: Documentation (January 2011)",
+      "publisher": "European Commission",
+      "url": "https://health.ec.europa.eu/system/files/2016-11/chapter4_01-2011_en_0.pdf"
+    }
+  ],
+  "related": [
+    "controlled-vs-uncontrolled-documents",
+    "standard-operating-procedure",
+    "work-instruction",
+    "audit-trail",
+    "read-and-understand-vs-competency-based-sop-training",
+    "how-to-maintain-version-control-for-training-content"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    },
+    {
+      "label": "Operational procedures programs",
+      "href": "/programs/operational-procedures"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "ISO N1286 guidance: documented quality management system not a system of documents; documents any medium (paper, magnetic, electronic, photograph, master sample) per 7.5.3 and ISO 9000 3.8.5; 7.5.1 a) and b); extent varies with size, complexity, competence; maintained vs retained documented information",
+      "source": "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/documented_information.pdf"
+    },
+    {
+      "claim": "ISO 9001:2026 sixth edition published on 16 September (stage 60.60)",
+      "source": "https://www.iso.org/standard/9001"
+    },
+    {
+      "claim": "ISO: 2026 edition retains the Harmonized Structure (clause structure not changed); certified organizations have three years to transition",
+      "source": "https://www.iso.org/quality-management/iso-9001-2026"
+    },
+    {
+      "claim": "Clause 7.5.3: available, suitable, protected; version control; external origin documents identified and controlled (secondary summary; clause text paywalled). 7.5.2 identification, review and approval also from this summary.",
+      "source": "https://www.isms.online/iso-9001/clause-7-5-documented-information/"
+    },
+    {
+      "claim": "21 CFR 211.100(a) wording on drafting, review and approval including changes by quality control unit; 211.100(b) deviations recorded and justified",
+      "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-F/section-211.100"
+    },
+    {
+      "claim": "21 CFR 211.186(a) master production and control records prepared, dated, signed by one person and independently checked, dated, signed by a second",
+      "source": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211/subpart-J/section-211.186"
+    },
+    {
+      "claim": "EudraLex Vol 4 lists Chapter 4 Documentation (January 2011) as current",
+      "source": "https://health.ec.europa.eu/medicinal-products/eudralex/eudralex-volume-4_en"
+    },
+    {
+      "claim": "EU GMP Chapter 4 clauses 4.1 (record integrity), 4.2 (reproduction), 4.3 (approved, signed, dated, uniquely identifiable, effective date), 4.5 (regularly reviewed), 4.9 (alterations signed and dated)",
+      "source": "https://health.ec.europa.eu/system/files/2016-11/chapter4_01-2011_en_0.pdf"
+    }
+  ]
+}

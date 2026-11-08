@@ -1,0 +1,252 @@
+{
+  "slug": "evidence-centered-design",
+  "kind": "glossary",
+  "title": "What is evidence-centered assessment design?",
+  "seoTitle": "Evidence-centered design (ECD)",
+  "description": "Evidence-centered design (ECD) builds assessments as evidence arguments: claims, evidence, then tasks. Mislevy's models explained, with a workplace example.",
+  "shortAnswer": "An evidence-centered assessment design (ECD) approach builds assessments as evidentiary arguments. Designers first state the claims they want to make about a person's knowledge or skill, then define what evidence would support those claims, and only then design tasks that will produce that evidence. Developed by Robert Mislevy and colleagues at Educational Testing Service (ETS), it organizes design into linked models for the learner, the evidence and the tasks.",
+  "keyTakeaways": [
+    "ECD treats an assessment as an argument from what people say, do or make to claims about what they know or can do.",
+    "The design order is claims, then evidence, then tasks; scoring is designed at the same time as the task, not afterwards.",
+    "The Conceptual Assessment Framework has six model types: student, evidence, task, assembly, presentation and delivery.",
+    "A task model describes a family of possible tasks, which makes item writing and review repeatable.",
+    "The logic applies directly to workplace competency assessment, where claims are competency statements and evidence must be defensible."
+  ],
+  "term": "evidence-centered design",
+  "alsoKnownAs": [
+    "ECD",
+    "evidence-centered assessment design",
+    "principled assessment design"
+  ],
+  "sections": [
+    {
+      "id": "origin",
+      "heading": "Where does evidence-centered design come from?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ECD was developed by Robert Mislevy, with Russell Almond, Janice Lukas and others, through work at ETS. The standard short introduction is \"A Brief Introduction to Evidence-Centered Design\" by Mislevy, Almond and Lukas, published in the [ETS Research Report Series in 2003](https://api.crossref.org/works/10.1002/j.2333-8504.2003.tb01908.x) and reissued by the National Center for Research on Evaluation, Standards, and Student Testing (CRESST) as [CSE Report 632](https://eric.ed.gov/?id=ED483399) in May 2004."
+        },
+        {
+          "type": "p",
+          "text": "Its abstract defines the approach directly: ECD \"is an approach to constructing educational assessments in terms of evidentiary arguments.\" The paper builds on Samuel Messick's construct-centered view of validity, quoting his advice to begin by asking what knowledge and skills should be assessed, then \"what behaviors or performances should reveal those constructs, and what tasks or situations should elicit those behaviors?\""
+        }
+      ]
+    },
+    {
+      "id": "core-idea",
+      "heading": "What problem does evidence-centered design solve?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ECD prevents assessments in which tasks are written first and the meaning of the scores is worked out later. The [CSE Report 632 full text](https://files.eric.ed.gov/fulltext/ED483399.pdf) puts it bluntly: \"One cannot simply construct 'good tasks' in isolation, however, and hope that someone down the line will figure out 'how to score it.'\""
+        },
+        {
+          "type": "p",
+          "text": "Instead, every task feature is chosen to produce evidence about the targeted knowledge or skill, every scoring rule captures the features of the work that count as evidence, and the results are summarized at a grain size that suits the purpose. This is the same discipline that [constructive alignment](/glossary/constructive-alignment) and [backward design](/glossary/backward-design) apply to course design, made explicit for assessment."
+        }
+      ]
+    },
+    {
+      "id": "models",
+      "heading": "What are the models in the Conceptual Assessment Framework?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Conceptual Assessment Framework (CAF) is the ECD layer closest to the finished assessment. It is made up of six model types, answering what is measured, how, where, how much, how it looks, and how it all fits together."
+        },
+        {
+          "type": "table",
+          "caption": "CAF models (from Mislevy, Almond and Lukas) with a workplace reading of each",
+          "head": [
+            "Model",
+            "Question it answers",
+            "Workplace competency equivalent"
+          ],
+          "rows": [
+            [
+              "Student model",
+              "What are we measuring?",
+              "The competency statements and proficiency levels being certified"
+            ],
+            [
+              "Evidence model",
+              "How do we measure it?",
+              "Evidence rules (what counts in the work produced) and the decision rule that combines results"
+            ],
+            [
+              "Task model",
+              "Where do we measure it?",
+              "A template for observation tasks, scenarios or questions, with the features that can vary"
+            ],
+            [
+              "Assembly model",
+              "How much do we need to measure?",
+              "The blueprint: how many tasks of each type are needed for a decision"
+            ],
+            [
+              "Presentation model",
+              "How does it look?",
+              "Delivery format: workplace observation, simulation, online questions"
+            ],
+            [
+              "Delivery model",
+              "How does it all work together?",
+              "The operating rules tying the other models into one assessment"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The evidence model has two parts. Evidence rules turn a work product into observable variables, such as whether a step was done correctly. The measurement model then accumulates those observations across tasks to update the claim about the person. The assembly model corresponds closely to an [assessment blueprint](/glossary/assessment-blueprint)."
+        }
+      ]
+    },
+    {
+      "id": "four-processes",
+      "heading": "How does an assessment built with ECD run?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Delivery follows a Four-Process Architecture: activity selection, presentation, response processing, and summary scoring. Activity selection chooses the next task, presentation delivers it and captures the work product, response processing applies the evidence rules, and summary scoring updates the overall judgment, with all four writing to a results database."
+        },
+        {
+          "type": "p",
+          "text": "Later work described ECD as a set of layers. Mislevy and Geneva Haertel's 2006 article in Educational Measurement: Issues and Practice ([ERIC record](https://eric.ed.gov/?id=EJ750654)) sets out layers for analyzing domains, laying out arguments, creating schemas for operational elements such as tasks and measurement models, implementing the assessment, and carrying out the operational processes."
+        }
+      ]
+    },
+    {
+      "id": "worked-example",
+      "heading": "What does an ECD design look like for a workplace competency?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Illustrative example: a laboratory wants to certify that analysts can perform an instrument calibration check."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Design element",
+            "Content"
+          ],
+          "rows": [
+            [
+              "Claim",
+              "The analyst can perform the daily calibration check and correctly decide whether the instrument may be used"
+            ],
+            [
+              "Evidence",
+              "Correct sequence of steps; correct pass or fail decision; correct record entry"
+            ],
+            [
+              "Task model",
+              "Observed calibration with a standard that passes or fails; the variable feature is which failure mode is present"
+            ],
+            [
+              "Evidence rules",
+              "Each step scored done or not done; decision scored correct or incorrect"
+            ],
+            [
+              "Decision rule",
+              "All critical steps and both decisions correct across one passing and one failing scenario"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Because the task model specifies the failure modes, a second assessor can generate an equivalent scenario without weakening the evidence, which supports consistent decisions under the [rules of evidence](/glossary/rules-of-evidence)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry follows the same order: competency claims and their evidence requirements are defined in the framework before any assessment items or content are generated. Each assessment point records the claim it supports, so tasks without a claim and claims without evidence are visible gaps."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is evidence-centered design only for large-scale standardized tests?",
+      "a": "No. The introductory paper uses the GRE as a simple example and a dental hygiene simulation as a complex one, and stresses that the approach organizes thinking for assessments of all kinds of purposes, data, task types and scoring methods. Workplace and classroom assessments can use the same claim, evidence and task logic."
+    },
+    {
+      "q": "Does ECD require statistical models such as item response theory?",
+      "a": "No. The measurement model can be a psychometric model, but in a workplace competency assessment it is often a written decision rule, such as all critical steps correct across two observations. What ECD requires is that the rule is designed explicitly and linked to the claim."
+    },
+    {
+      "q": "What is a task model in plain terms?",
+      "a": "A task model is a template for a family of tasks. The paper states that a task model \"does not represent a single task, but rather a family of potential tasks waiting to be written.\" It defines what is presented, what the person produces, and which features can vary between versions."
+    },
+    {
+      "q": "How is ECD related to an assessment blueprint?",
+      "a": "An assessment blueprint is the practical document that specifies which outcomes each item or task covers and how many are needed. In ECD terms it combines parts of the student, task and assembly models. ECD adds the explicit evidence rules that connect each task back to the claim."
+    }
+  ],
+  "sources": [
+    {
+      "title": "A Brief Introduction to Evidence-Centered Design (Mislevy, Almond and Lukas, ETS Research Report Series, 2003): Crossref record",
+      "publisher": "Educational Testing Service, via Crossref",
+      "url": "https://api.crossref.org/works/10.1002/j.2333-8504.2003.tb01908.x"
+    },
+    {
+      "title": "A Brief Introduction to Evidence-Centered Design. CSE Report 632",
+      "publisher": "ERIC, Institute of Education Sciences",
+      "url": "https://eric.ed.gov/?id=ED483399"
+    },
+    {
+      "title": "A Brief Introduction to Evidence-Centered Design, CSE Report 632 (full text)",
+      "publisher": "CRESST, University of California, Los Angeles (via ERIC)",
+      "url": "https://files.eric.ed.gov/fulltext/ED483399.pdf"
+    },
+    {
+      "title": "Implications of Evidence-Centered Design for Educational Testing (Mislevy and Haertel, 2006)",
+      "publisher": "ERIC, Institute of Education Sciences",
+      "url": "https://eric.ed.gov/?id=EJ750654"
+    }
+  ],
+  "related": [
+    "assessment-blueprint",
+    "competency-assessment",
+    "backward-design",
+    "rules-of-evidence",
+    "validity-vs-reliability-in-assessment",
+    "how-to-create-an-assessment-blueprint"
+  ],
+  "productLinks": [
+    {
+      "label": "Verification and trust",
+      "href": "/platform/verification-trust"
+    },
+    {
+      "label": "Framework intelligence",
+      "href": "/platform/framework-intelligence"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "Mislevy, Almond, Lukas, A Brief Introduction to Evidence-Centered Design, ETS Research Report Series, issued June 2003, DOI 10.1002/j.2333-8504.2003.tb01908.x",
+      "source": "https://api.crossref.org/works/10.1002/j.2333-8504.2003.tb01908.x"
+    },
+    {
+      "claim": "CSE Report 632, May 2004, 33 pages; abstract: ECD is an approach to constructing educational assessments in terms of evidentiary arguments; presents CAF and Four-Process Architecture",
+      "source": "https://eric.ed.gov/?id=ED483399"
+    },
+    {
+      "claim": "Full text: Messick 1994 construct-centered quotation; 'One cannot simply construct good tasks in isolation' quotation; CAF models student, evidence, task, assembly, presentation, delivery (six types); evidence model = evidence rules + measurement model; task model is a family of potential tasks waiting to be written; four processes activity selection, presentation, response processing, summary scoring with results database; GRE and DISC examples",
+      "source": "https://files.eric.ed.gov/fulltext/ED483399.pdf"
+    },
+    {
+      "claim": "Mislevy and Haertel 2006, Educational Measurement: Issues and Practice v25 n4: ECD described in layers for analyzing domains, laying out arguments, creating schemas, implementing, carrying out operational processes",
+      "source": "https://eric.ed.gov/?id=EJ750654"
+    }
+  ]
+}

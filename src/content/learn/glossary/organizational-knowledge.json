@@ -1,0 +1,241 @@
+{
+  "slug": "organizational-knowledge",
+  "kind": "glossary",
+  "title": "What is organizational knowledge (ISO 9001 clause 7.1.6)?",
+  "seoTitle": "Organizational knowledge (ISO 9001)",
+  "description": "Organizational knowledge in ISO 9001 is the knowledge needed to run processes and deliver conforming output. What clause 7.1.6 expects and how to evidence it.",
+  "shortAnswer": "The organizational knowledge requirement in ISO 9001 asks an organization to determine the knowledge necessary to operate its processes and achieve conformity of its products and services, then maintain it, make it available, and acquire new knowledge when needs change. Introduced in the 2015 edition as clause 7.1.6, it covers both documented knowledge and the tacit knowledge held by experienced people, which document control alone cannot capture.",
+  "keyTakeaways": [
+    "ISO 9001:2015 addressed organizational knowledge explicitly for the first time, in clause 7.1.6.",
+    "The core requirement is to determine the knowledge needed for processes and conformity, maintain it, make it available, and plan how to acquire new knowledge.",
+    "The ISO 9001 Auditing Practices Group notes that for tacit knowledge, document control is not sufficient to make it available and usable.",
+    "Organizational knowledge is the input; competence is the ability to apply it. The two requirements should be managed together.",
+    "ISO 30401 sets requirements for a full knowledge management system; ISO lists it as expected to be replaced by a second edition."
+  ],
+  "term": "organizational knowledge",
+  "alsoKnownAs": [
+    "ISO 9001 clause 7.1.6",
+    "organisational knowledge",
+    "knowledge as a resource"
+  ],
+  "sections": [
+    {
+      "id": "requirement",
+      "heading": "What does ISO 9001 require for organizational knowledge?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ISO 9001 requires the organization to determine the knowledge it needs to operate its processes and achieve conforming products and services, keep that knowledge available, and acquire or access new knowledge as needs change. The ISO 9001 Auditing Practices Group (APG) quotes the opening sentence: \"The organization shall determine the knowledge necessary for the operation of its processes and to achieve conformity of products and services\" ([APG guidance on auditing competence](https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf))."
+        },
+        {
+          "type": "p",
+          "text": "In ISO 9001:2015 this is clause 7.1.6, part of the resources clause; Prieur and Belloni's [2025 paper on ISO 30401](https://arxiv.org/html/2507.18201v1) notes that many organizations unsure how to meet it faced nonconformities at recertification. [ISO 9001:2026](https://www.iso.org/standard/9001) was published on 16 September 2026, and ISO's [summary of the new edition](https://www.iso.org/quality-management/iso-9001-2026) lists organizational knowledge among the realities its refinements reflect, while keeping the same Harmonized Structure. Clause text is paywalled; check the wording in the edition you are certified to."
+        }
+      ]
+    },
+    {
+      "id": "what-counts",
+      "heading": "What counts as organizational knowledge?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Organizational knowledge is the specific knowledge an organization uses to get conforming results, whether it is written down or held in people's experience. The APG [guidance on organizational knowledge](https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-OrganizationalKnowledge2015.pdf) (13 January 2016) describes it as knowledge \"coming either from its collective experience or from the individual experience of its persons.\""
+        },
+        {
+          "type": "p",
+          "text": "The APG lists examples including documented information on processes, product or service specifications, [work instructions](/glossary/work-instruction), the experience of people related to processes and operations, and knowledge of relevant technologies and infrastructure. It also warns auditors that \"having documented information may not necessarily mean that the organization's knowledge is appropriately determined.\" Undocumented expertise is often called [tribal knowledge](/glossary/tribal-knowledge)."
+        }
+      ]
+    },
+    {
+      "id": "lifecycle",
+      "heading": "How can an organization show it manages organizational knowledge?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The APG summarizes the requirement as a cycle: determine the knowledge, make it available, preserve it, protect it, and acquire and access new knowledge. The table maps each step to practices and to the evidence an auditor could reasonably ask to see. The practices are illustrative, not required by the standard."
+        },
+        {
+          "type": "table",
+          "caption": "APG knowledge cycle mapped to practices and audit evidence (original analysis)",
+          "head": [
+            "Step",
+            "Example practices",
+            "Evidence an auditor might see"
+          ],
+          "rows": [
+            [
+              "Determine",
+              "Identify critical knowledge per process, including tacit know-how and single points of failure",
+              "A knowledge register or process maps listing required knowledge and holders"
+            ],
+            [
+              "Make available",
+              "Controlled procedures at the point of use, searchable lessons learned, onboarding curricula",
+              "Access to current documents; training linked to processes"
+            ],
+            [
+              "Preserve",
+              "Mentoring, succession planning, recorded walkthroughs before retirements",
+              "Knowledge transfer plans and completion records for critical roles"
+            ],
+            [
+              "Protect",
+              "Access controls and confidentiality for proprietary know-how",
+              "Classification and access rules for sensitive knowledge"
+            ],
+            [
+              "Acquire and access new knowledge",
+              "Learning from failures and near misses, customer and supplier feedback, standards updates",
+              "Corrective action records feeding procedure and training updates"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The APG lists internal and external sources auditors should look for, including learning from failures, near misses and successes, gathering knowledge from customers, suppliers and partners, and capturing tacit and explicit knowledge through mentoring and succession planning. Practical methods are covered in [how to capture subject matter expert knowledge](/guides/how-to-capture-subject-matter-expert-knowledge) and [how to build a knowledge transfer plan](/guides/how-to-build-a-knowledge-transfer-plan)."
+        }
+      ]
+    },
+    {
+      "id": "competence-link",
+      "heading": "How is organizational knowledge related to competence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge is the input and competence is the ability to apply it. The APG puts it directly: there is \"a strong link between organizational knowledge and competence of people, the latter being the ability to apply knowledge.\" Its competence guidance adds that auditors may ask what knowledge is relevant to an activity, how people access it, and how they are kept updated."
+        },
+        {
+          "type": "p",
+          "text": "In practice, this means the knowledge determined under 7.1.6 should feed the competence requirements under clause 7.2 and the training that builds them. See [ISO 9001 competence requirements](/regulations/iso-9001-competence-requirements) and [evidence of competence](/glossary/evidence-of-competence)."
+        }
+      ]
+    },
+    {
+      "id": "iso-30401",
+      "heading": "How does ISO 9001 organizational knowledge relate to ISO 30401?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ISO 9001 asks for knowledge to be managed as one resource of a quality system; [ISO 30401:2018](https://www.iso.org/standard/68683.html) sets requirements for an entire knowledge management system. Its abstract states that it \"sets requirements and provides guidelines for establishing, implementing, maintaining, reviewing and improving an effective management system for knowledge management in organizations.\""
+        },
+        {
+          "type": "p",
+          "text": "As at November 2026, iso.org lists ISO 30401:2018 as published (stage 90.92, to be revised) and \"expected to be replaced by ISO/DIS 30401 within the coming months\"; the [second edition's page](https://www.iso.org/standard/89436.html) shows close of voting (stage 40.60). Organizations certified to ISO 9001 do not need ISO 30401, but it offers more structure for those whose knowledge risk is high. For the wider discipline, see [knowledge management](/glossary/knowledge-management)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry captures the knowledge a process depends on as a structured framework of concepts, relationships and sources, then links it to competencies and assessment points. That gives an auditable answer to what knowledge is needed, where it comes from, and who has demonstrated it."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does clause 7.1.6 require a knowledge management system?",
+      "a": "No. ISO 9001 requires the organization to determine, maintain and make available the knowledge it needs, in a way proportionate to its context. The APG notes that needs vary considerably by sector and competitive position. A full knowledge management system, as defined in ISO 30401, is optional."
+    },
+    {
+      "q": "Is documenting procedures enough to meet the organizational knowledge requirement?",
+      "a": "Usually not on its own. The APG states that tacit or shared knowledge, or knowledge from experience, was not addressed explicitly before 2015, and that for those types document control is not sufficient to make knowledge available and usable. Mentoring, succession planning and structured knowledge capture are common additions."
+    },
+    {
+      "q": "What is a common audit finding under clause 7.1.6?",
+      "a": "A common weakness is critical know-how held by one or two experienced people with no plan to preserve or transfer it. Another is lessons learned from nonconformities that never reach procedures or training. Both show the organization has not determined or maintained the knowledge its processes depend on."
+    },
+    {
+      "q": "How is organizational knowledge different from knowledge management?",
+      "a": "Organizational knowledge is the content: what the organization needs to know. Knowledge management is the discipline and set of practices for creating, sharing, preserving and using that content. ISO 9001 requires the outcome for quality purposes; ISO 30401 describes a management system for the discipline as a whole."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Guidance on: Organizational Knowledge (Edition 1, 13 January 2016)",
+      "publisher": "ISO 9001 Auditing Practices Group (ISO and IAF)",
+      "url": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-OrganizationalKnowledge2015.pdf"
+    },
+    {
+      "title": "Guidance on auditing Competence (Edition 2, 2022)",
+      "publisher": "ISO 9001 Auditing Practices Group (ISO and IAF)",
+      "url": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf"
+    },
+    {
+      "title": "ISO 9001:2026 Quality management systems: Requirements",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/9001"
+    },
+    {
+      "title": "ISO 9001:2026: what has changed",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/quality-management/iso-9001-2026"
+    },
+    {
+      "title": "ISO 30401:2018 Knowledge management systems: Requirements",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/68683.html"
+    },
+    {
+      "title": "ISO/DIS 30401 Knowledge management systems: Requirements (edition 2)",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/89436.html"
+    },
+    {
+      "title": "Integrating an ISO 30401-compliant Knowledge Management System with the processes of an Integrated Management System (Prieur and Belloni, 2025)",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/html/2507.18201v1"
+    }
+  ],
+  "related": [
+    "knowledge-management",
+    "tribal-knowledge",
+    "knowledge-drift",
+    "iso-9001-competence-requirements",
+    "evidence-of-competence",
+    "how-to-build-a-knowledge-transfer-plan"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge transformation",
+      "href": "/platform/knowledge-transformation"
+    },
+    {
+      "label": "Knowledge governance",
+      "href": "/platform/knowledge-governance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "APG Organizational Knowledge (13 Jan 2016): addressed explicitly for first time in 2015 edition; tacit knowledge document control not sufficient; definition from collective or individual experience; examples; documented information may not mean knowledge appropriately determined; cycle determine, make available, preserve, protect, acquire and access new knowledge; sources incl. failures, near misses, customers, suppliers, mentoring, succession planning; strong link to competence; needs vary by context",
+      "source": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-OrganizationalKnowledge2015.pdf"
+    },
+    {
+      "claim": "APG competence paper quotes: The organization shall determine the knowledge necessary for the operation of its processes and to achieve conformity of products and services (the paper labels it 7.1.1; clause is 7.1.6 per Prieur and Belloni); auditors may ask how people access knowledge and are kept updated",
+      "source": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf"
+    },
+    {
+      "claim": "ISO 9001:2015 paragraph 7.1.6 organizational knowledge; many organizations faced non-conformities during recertification audits",
+      "source": "https://arxiv.org/html/2507.18201v1"
+    },
+    {
+      "claim": "ISO 9001:2026 published 16 September; ISO lists organizational knowledge among realities reflected in refinements; clause structure retained (Harmonized Structure)",
+      "source": "https://www.iso.org/quality-management/iso-9001-2026"
+    },
+    {
+      "claim": "ISO 30401:2018 published 2018-11, stage 90.92, expected to be replaced by ISO/DIS 30401 within the coming months; abstract quoted",
+      "source": "https://www.iso.org/standard/68683.html"
+    },
+    {
+      "claim": "ISO/DIS 30401 edition 2 at stage 40.60 close of voting; will replace ISO 30401:2018",
+      "source": "https://www.iso.org/standard/89436.html"
+    }
+  ]
+}

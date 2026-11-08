@@ -1,0 +1,240 @@
+{
+  "slug": "retrieval-practice",
+  "kind": "glossary",
+  "title": "What is retrieval practice?",
+  "seoTitle": "Retrieval practice: definition",
+  "description": "Retrieval practice is learning by recalling information from memory instead of rereading it. The testing effect research and how to use it in training.",
+  "shortAnswer": "The learning technique called retrieval practice means deliberately recalling information from memory, for example by answering questions or explaining a procedure without notes, instead of rereading or reviewing it. Recalling material strengthens long-term retention more than restudying it, a finding known as the testing effect. In a widely cited 2006 study, Roediger and Karpicke found that students who were tested remembered substantially more after a delay than students who restudied.",
+  "keyTakeaways": [
+    "Retrieval practice uses low-stakes recall as a learning tool, not only as a measure of learning.",
+    "Roediger and Karpicke (2006) found repeated studying helped on a test after 5 minutes, but prior testing produced substantially greater retention after 2 days and 1 week.",
+    "Learners often misjudge it: in the 2006 study, restudying increased students' confidence even though it produced worse delayed recall.",
+    "A 2007 US Institute of Education Sciences practice guide rated the evidence for using quizzes to re-expose students to key content as strong.",
+    "Recall formats tend to produce larger benefits than recognition formats such as multiple choice, according to a 2014 meta-analysis."
+  ],
+  "term": "retrieval practice",
+  "alsoKnownAs": [
+    "testing effect",
+    "test-enhanced learning",
+    "practice testing"
+  ],
+  "sections": [
+    {
+      "id": "evidence",
+      "heading": "What is the evidence for retrieval practice?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The best-known experiment is Henry Roediger and Jeffrey Karpicke's \"Test-enhanced learning: taking memory tests improves long-term retention\", published in Psychological Science in 2006 ([PubMed record](https://pubmed.ncbi.nlm.nih.gov/16507066/)). Students studied prose passages, then either took recall tests without feedback or restudied the material the same number of times."
+        },
+        {
+          "type": "p",
+          "text": "On a final test after 5 minutes, repeated studying produced better recall. After 2 days or 1 week, \"prior testing produced substantially greater retention than studying, even though repeated studying increased students' confidence in their ability to remember the material.\" The authors conclude: \"Testing is a powerful means of improving learning, not just assessing it.\""
+        },
+        {
+          "type": "p",
+          "text": "A 2008 follow-up in Science by Karpicke and Roediger ([PubMed record](https://pubmed.ncbi.nlm.nih.gov/18276894/)) found that once vocabulary items were learned, repeated studying had no effect on delayed recall, while repeated testing produced a large positive effect. Students' predictions of their own performance were uncorrelated with actual performance."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "heading": "How strong is the wider evidence base?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Reviews of many studies rate retrieval practice among the most effective learning techniques. Dunlosky and colleagues' 2013 monograph in Psychological Science in the Public Interest ([PubMed record](https://pubmed.ncbi.nlm.nih.gov/26173288/)) evaluated ten techniques and gave practice testing and distributed practice high utility assessments, while rating rereading and highlighting as low utility."
+        },
+        {
+          "type": "p",
+          "text": "The US Institute of Education Sciences (IES) practice guide [Organizing Instruction and Study to Improve Student Learning](https://ies.ed.gov/ncee/wwc/Docs/PracticeGuide/20072004.pdf) (Pashler and colleagues, 2007) recommends quizzing \"with active retrieval of information at all phases of the learning process\" and rates the evidence for using quizzes to re-expose students to key content as strong. A 2014 meta-analysis by Rowland in Psychological Bulletin ([PubMed record](https://pubmed.ncbi.nlm.nih.gov/25150680/)) found initial recall tests yielded larger testing benefits than recognition tests."
+        }
+      ]
+    },
+    {
+      "id": "formats",
+      "heading": "Which retrieval formats work best in workplace training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Formats that require producing an answer generally give more benefit than those that only require recognizing one, but the right choice also depends on what the job requires. The table is an original guide for workplace programs."
+        },
+        {
+          "type": "table",
+          "caption": "Retrieval formats for workplace training (original guide; effort ranking informed by Rowland 2014)",
+          "head": [
+            "Format",
+            "Retrieval effort",
+            "Good workplace use",
+            "Watch out for"
+          ],
+          "rows": [
+            [
+              "Free recall (list the steps from memory)",
+              "High",
+              "Critical procedures such as isolation or emergency steps",
+              "Needs a model answer for feedback"
+            ],
+            [
+              "Short answer",
+              "High",
+              "Thresholds, definitions, escalation contacts",
+              "Marking effort if done at scale"
+            ],
+            [
+              "Scenario question with open response",
+              "High",
+              "Judgment calls such as complaint handling or suspicious activity",
+              "Scenarios must reflect current procedure"
+            ],
+            [
+              "Multiple choice",
+              "Lower",
+              "Frequent low-stakes checks and large populations",
+              "Recognition only; see [how to write multiple choice questions](/guides/how-to-write-multiple-choice-questions)"
+            ],
+            [
+              "Teach-back (explain to a colleague or supervisor)",
+              "High",
+              "Onboarding and shift handover briefings",
+              "Harder to record consistently"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "heading": "How do you build retrieval practice into a training program?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Build short, low-stakes recall into the program at the start, during, and after training, with feedback and spacing. A practical sequence:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Open a topic with one or two pre-questions so learners attempt recall before instruction.",
+            "After each short section, ask learners to recall the key points or steps without looking.",
+            "Give feedback with the correct answer immediately or soon after.",
+            "Schedule follow-up recall days and weeks later, combining retrieval with [spaced repetition](/glossary/spaced-repetition).",
+            "Keep practice quizzes low stakes and separate from the summative competency decision.",
+            "Use results to target refreshers at the items people forget, instead of repeating the whole course."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Practice quizzes are formative; they support learning and should not be confused with the summative assessment that decides competence. See [formative vs summative assessment](/compare/formative-vs-summative-assessment). Retrieval also works best when material is first presented clearly, which is where [cognitive load theory](/glossary/cognitive-load-theory) applies."
+        }
+      ]
+    },
+    {
+      "id": "compliance",
+      "heading": "Why does retrieval practice matter for compliance training?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Compliance programs typically present content once a year and check it with a quiz at the end, which tests short-term memory. The research suggests that recall spaced through the year would leave people remembering more of what they need when a real situation arises, and that learners' own confidence after rereading is a poor guide to what they will remember."
+        },
+        {
+          "type": "p",
+          "text": "Shorter, more frequent retrieval checks can also reduce the burden of long annual courses; see [how to reduce compliance training fatigue](/guides/how-to-reduce-compliance-training-fatigue) and [microlearning](/glossary/microlearning)."
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines the concepts and decisions each role must recall as framework entries, so practice questions and spaced follow-ups can be generated against them and kept separate from summative assessment points. When a source procedure changes, linked questions are flagged for update."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is retrieval practice the same as spaced repetition?",
+      "a": "No, but they work well together. Retrieval practice is about how you review: by recalling instead of rereading. Spaced repetition is about when you review: at increasing intervals over time. The IES practice guide recommends both, spacing learning over time and using quizzing to promote learning."
+    },
+    {
+      "q": "Does retrieval practice need feedback to work?",
+      "a": "The 2006 Roediger and Karpicke experiments used tests without feedback and still found better delayed retention than restudying. In practice, feedback is still advisable, especially in workplace training, because it corrects errors that would otherwise be strengthened by recall and confirms the correct current procedure."
+    },
+    {
+      "q": "Will frequent quizzes make staff anxious?",
+      "a": "Retrieval practice is meant to be low stakes. Results should be used for feedback and for targeting refreshers, not for discipline or the formal competency decision. Explaining why recall checks are used, keeping them short, and separating them clearly from summative assessment all help learners treat them as practice rather than as a test."
+    },
+    {
+      "q": "Can multiple choice questions be used for retrieval practice?",
+      "a": "Yes, but they produce less benefit than formats that require recalling an answer, according to Rowland's 2014 meta-analysis. Multiple choice is convenient at scale, so a common approach is to mix it with short answer or scenario questions for the most important content."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Test-enhanced learning: taking memory tests improves long-term retention (Roediger and Karpicke, Psychological Science, 2006)",
+      "publisher": "PubMed, National Library of Medicine",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16507066/"
+    },
+    {
+      "title": "The critical importance of retrieval for learning (Karpicke and Roediger, Science, 2008)",
+      "publisher": "PubMed, National Library of Medicine",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18276894/"
+    },
+    {
+      "title": "Improving Students' Learning With Effective Learning Techniques (Dunlosky and colleagues, 2013)",
+      "publisher": "PubMed, National Library of Medicine",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26173288/"
+    },
+    {
+      "title": "The effect of testing versus restudy on retention: a meta-analytic review of the testing effect (Rowland, 2014)",
+      "publisher": "PubMed, National Library of Medicine",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25150680/"
+    },
+    {
+      "title": "Organizing Instruction and Study to Improve Student Learning (NCER 2007-2004)",
+      "publisher": "Institute of Education Sciences, US Department of Education",
+      "url": "https://ies.ed.gov/ncee/wwc/Docs/PracticeGuide/20072004.pdf"
+    }
+  ],
+  "related": [
+    "spaced-repetition",
+    "microlearning",
+    "cognitive-load-theory",
+    "formative-vs-summative-assessment",
+    "how-to-write-multiple-choice-questions",
+    "how-to-reduce-compliance-training-fatigue"
+  ],
+  "productLinks": [
+    {
+      "label": "Compliance programs",
+      "href": "/programs/compliance"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "Roediger and Karpicke 2006, Psychol Sci 17(3):249-55: prose passages, one or three immediate free-recall tests without feedback vs restudy; final test 5 min, 2 days or 1 week; 5 min favored restudy; delayed favored testing; restudy increased confidence; quoted conclusion (abstract confirmed via NCBI E-utilities, PMID 16507066)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/16507066/"
+    },
+    {
+      "claim": "Karpicke and Roediger 2008, Science 319:966-8: repeated studying after learning had no effect on delayed recall, repeated testing a large positive effect; predictions uncorrelated with performance (via NCBI E-utilities, PMID 18276894)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/18276894/"
+    },
+    {
+      "claim": "Dunlosky et al. 2013, Psychol Sci Public Interest 14(1):4-58: ten techniques; practice testing and distributed practice high utility; rereading and highlighting low utility (via NCBI E-utilities, PMID 26173288)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/26173288/"
+    },
+    {
+      "claim": "Rowland 2014, Psychol Bull 140(6):1432-63: initial recall tests yielded larger testing benefits than recognition tests (via NCBI E-utilities, PMID 25150680)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/25150680/"
+    },
+    {
+      "claim": "IES practice guide (Pashler et al., September 2007): Recommendation 5 use quizzing with active retrieval at all phases; 5b quizzes to re-expose students to key content rated Strong; Recommendation 1 space learning over time",
+      "source": "https://ies.ed.gov/ncee/wwc/Docs/PracticeGuide/20072004.pdf"
+    }
+  ]
+}

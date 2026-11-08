@@ -1,0 +1,245 @@
+{
+  "slug": "cognitive-load-theory",
+  "kind": "glossary",
+  "title": "What is cognitive load theory?",
+  "seoTitle": "Cognitive load theory: definition",
+  "description": "Cognitive load theory explains why limited working memory should shape instruction. Load types, the main design effects, and a review checklist for training.",
+  "shortAnswer": "The cognitive load theory developed by John Sweller from the 1980s holds that working memory can process only a small amount of new information at once, while long-term memory stores large amounts as organized schemas. Instruction works best when it avoids overloading working memory with material irrelevant to learning. The theory has produced tested design techniques, such as worked examples for novices and removing redundant or split sources of information.",
+  "keyTakeaways": [
+    "Cognitive load theory rests on two ideas: working memory is limited for new information, and long-term memory has no known limit for stored information.",
+    "Load is usually described as intrinsic (complexity of the material) and extraneous (caused by poor design); germane load has been redefined as resources devoted to intrinsic load.",
+    "Well-replicated effects include the worked example, expertise reversal, redundancy, split attention and modality effects.",
+    "Critics question how load is defined and measured and how far laboratory findings generalize, so effects should be applied with judgment.",
+    "For workplace training, the main lessons are to cut what is not needed, integrate what belongs together, and fade support as expertise grows."
+  ],
+  "term": "cognitive load theory",
+  "alsoKnownAs": [
+    "CLT",
+    "cognitive load",
+    "Sweller's cognitive load theory"
+  ],
+  "sections": [
+    {
+      "id": "origin",
+      "heading": "Where does cognitive load theory come from?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Cognitive load theory emerged from the work of educational psychologist John Sweller and colleagues in the 1980s and 1990s. An early landmark is Sweller's 1988 paper \"Cognitive Load During Problem Solving: Effects on Learning\" in Cognitive Science, volume 12, pages 257 to 285 ([Crossref record](https://api.crossref.org/works/10.1207/s15516709cog1202_4))."
+        },
+        {
+          "type": "p",
+          "text": "A widely used summary for practitioners is the New South Wales Centre for Education Statistics and Evaluation (CESE) literature review [Cognitive load theory: Research that teachers really need to understand](https://education.nsw.gov.au/about-us/education-data-and-research/cese/publications/literature-reviews/cognitive-load-theory), originally published on 5 September 2017. It quotes Sweller, van Merrienboer and Paas: \"any instructional design that flouts or merely ignores working memory limitations inevitably is deficient.\""
+        }
+      ]
+    },
+    {
+      "id": "how-memory-works",
+      "heading": "What does cognitive load theory say about how people learn?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It says new information is processed in a small, short-lived working memory and learned when it is organized into schemas in long-term memory. The CESE review summarizes the main points:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Working memory holds small amounts of new information for a very short time; the review states the average person can hold about four chunks at once.",
+            "Long-term memory stores large amounts of information semi-permanently, organized as schemas.",
+            "If working memory is overloaded, learners may not understand the content, and learning is slow or ineffective.",
+            "With extensive practice, knowledge can be recalled automatically, which frees working memory for new learning."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This is why experienced staff and new starters need different training. Material that is simple for an expert, because it is held as a schema, can overload a novice."
+        }
+      ]
+    },
+    {
+      "id": "load-types",
+      "heading": "What are the types of cognitive load?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The classic model describes three types: intrinsic, extraneous and germane. Intrinsic load is the inherent complexity of the material for a given learner; extraneous load comes from how the material is presented and does not help learning; germane load was described as the effort devoted to building schemas."
+        },
+        {
+          "type": "p",
+          "text": "The theory has since been revised. In a 2010 article in Educational Psychology Review ([ERIC record](https://eric.ed.gov/?id=EJ883815)), Sweller proposed that element interactivity underlies both intrinsic and extraneous load, and that germane load be defined in terms of intrinsic load. The [full CESE review](https://education.nsw.gov.au/content/dam/main-education/about-us/educational-data/cese/2017-cognitive-load-theory.pdf) notes this reformulation returns to a dual framework of intrinsic and extraneous load. For design purposes, the practical goal is the same: manage intrinsic load by sequencing, and remove extraneous load."
+        }
+      ]
+    },
+    {
+      "id": "effects",
+      "heading": "Which cognitive load effects matter most for training design?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Five effects described in the CESE review translate directly into design rules for workplace and compliance training. The workplace column is an original application."
+        },
+        {
+          "type": "table",
+          "caption": "Cognitive load effects (as summarized by CESE) and workplace design rules",
+          "head": [
+            "Effect",
+            "Finding",
+            "Design rule for workplace training"
+          ],
+          "rows": [
+            [
+              "Worked example",
+              "Novices who study worked examples perform better on later tests than those who solve equivalent problems unaided",
+              "Show a fully worked case before asking new staff to apply a procedure themselves"
+            ],
+            [
+              "Expertise reversal",
+              "Worked examples become less effective, even counterproductive, as expertise grows",
+              "Let experienced staff test out or skip guided steps; fade support"
+            ],
+            [
+              "Redundancy",
+              "Repeating the same information in several forms, or adding irrelevant material, inhibits learning",
+              "Do not narrate on-screen text word for word; cut background that no outcome needs"
+            ],
+            [
+              "Split attention",
+              "Having to integrate separate sources mentally overloads working memory",
+              "Put labels on the diagram, and instructions next to the screen they describe"
+            ],
+            [
+              "Modality",
+              "Presenting some information as speech and some visually can reduce extraneous load",
+              "Explain a complex diagram with narration instead of a separate block of text"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "These effects fit naturally with [microlearning](/glossary/microlearning) and with good [instructional design](/glossary/instructional-design) practice. Accessible design, covered in [how to make e-learning accessible](/guides/how-to-make-elearning-accessible), is compatible as long as alternatives are offered rather than stacked on screen at once."
+        }
+      ]
+    },
+    {
+      "id": "limits",
+      "heading": "What are the criticisms of cognitive load theory?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The broad claim that working memory is limited is generally accepted, but some specific assumptions are debated. The CESE review groups the questions into three categories: how the types of load are defined, whether studies measure load rigorously, and whether findings generalize to real teaching settings."
+        },
+        {
+          "type": "p",
+          "text": "In particular, most studies measure load indirectly through test performance rather than directly, and many use short study times under conditions designed to show a particular effect. The practical response is to treat the effects as strong defaults and check them against learner results, for example through [formative assessment](/compare/formative-vs-summative-assessment)."
+        }
+      ]
+    },
+    {
+      "id": "review-checklist",
+      "heading": "How can a team review a module for cognitive load?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Original review checklist, based on the effects above:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "Can every screen or section be traced to a learning outcome? Remove anything that cannot.",
+            "Is new material introduced from simple to complex, with prerequisites first?",
+            "Do novices see a worked example before practicing, and can experienced staff skip it?",
+            "Are labels, instructions and explanations placed next to what they describe?",
+            "Is any information repeated in two forms at the same time without reason?",
+            "Is narration used for complex visuals instead of a competing block of text?",
+            "Does practice and assessment come in small enough steps to give feedback early?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry structures knowledge into concepts and prerequisites before content is written, which supports simple-to-complex sequencing. Because each content item must trace to an outcome, material that adds load without serving an outcome is visible and can be cut."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does cognitive load theory mean training should be as short as possible?",
+      "a": "No. It means instruction should avoid load that does not contribute to learning. Complex tasks may need long programs with careful sequencing, worked examples and plenty of practice. Shortening a module by removing the explanations novices need can increase load rather than reduce it."
+    },
+    {
+      "q": "Is cognitive load theory only about schoolchildren?",
+      "a": "No. The CESE review was written for teachers, but the theory rests on general assumptions about human memory, such as the split between working memory and long-term memory. The expertise reversal effect is especially relevant to workplace training, where the same course often serves both new starters and experienced staff."
+    },
+    {
+      "q": "How does cognitive load theory relate to retrieval practice?",
+      "a": "They address different stages. Cognitive load theory focuses on how new information is presented so it can be understood and stored. Retrieval practice focuses on strengthening what has been learned by recalling it later. A well-designed program uses both: low extraneous load when teaching, then spaced retrieval to consolidate."
+    },
+    {
+      "q": "How much evidence supports the worked example effect?",
+      "a": "The CESE review describes it as widely replicated in randomized controlled trials since early studies by Sweller and Cooper in the 1980s, and cites a meta-analysis by Crissman (2006) that found an effect size of 0.52. The benefit applies mainly to novices, given the expertise reversal effect."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cognitive load theory: Research that teachers really need to understand (2017)",
+      "publisher": "NSW Department of Education, Centre for Education Statistics and Evaluation",
+      "url": "https://education.nsw.gov.au/about-us/education-data-and-research/cese/publications/literature-reviews/cognitive-load-theory"
+    },
+    {
+      "title": "Cognitive load theory: Research that teachers really need to understand (full report, PDF)",
+      "publisher": "NSW Department of Education, Centre for Education Statistics and Evaluation",
+      "url": "https://education.nsw.gov.au/content/dam/main-education/about-us/educational-data/cese/2017-cognitive-load-theory.pdf"
+    },
+    {
+      "title": "Cognitive Load During Problem Solving: Effects on Learning (Sweller, Cognitive Science, 1988): Crossref record",
+      "publisher": "Crossref",
+      "url": "https://api.crossref.org/works/10.1207/s15516709cog1202_4"
+    },
+    {
+      "title": "Element Interactivity and Intrinsic, Extraneous, and Germane Cognitive Load (Sweller, 2010)",
+      "publisher": "ERIC, Institute of Education Sciences",
+      "url": "https://eric.ed.gov/?id=EJ883815"
+    }
+  ],
+  "related": [
+    "instructional-design",
+    "microlearning",
+    "retrieval-practice",
+    "spaced-repetition",
+    "universal-design-for-learning",
+    "how-to-make-elearning-accessible"
+  ],
+  "productLinks": [
+    {
+      "label": "Knowledge transformation",
+      "href": "/platform/knowledge-transformation"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "CESE report originally published 5 September 2017; main findings: limited new information, about four chunks in working memory, schemas in long-term memory, overload risk, automation",
+      "source": "https://education.nsw.gov.au/about-us/education-data-and-research/cese/publications/literature-reviews/cognitive-load-theory"
+    },
+    {
+      "claim": "CESE full report: CLT emerged from Sweller and colleagues in 1980s and 1990s; Sweller, van Merrienboer and Paas 1998 quotation; three load types table; footnote on reformulation to dual framework (Sweller 2010); five effects; criticisms in three categories; Crissman 2006 effect size 0.52; indirect measurement of load",
+      "source": "https://education.nsw.gov.au/content/dam/main-education/about-us/educational-data/cese/2017-cognitive-load-theory.pdf"
+    },
+    {
+      "claim": "Sweller 1988, Cognitive Load During Problem Solving: Effects on Learning, Cognitive Science 12(2), 257-285",
+      "source": "https://api.crossref.org/works/10.1207/s15516709cog1202_4"
+    },
+    {
+      "claim": "Sweller 2010, Educational Psychology Review v22 n2: element interactivity underlies extraneous load as well; germane load defined in terms of intrinsic load",
+      "source": "https://eric.ed.gov/?id=EJ883815"
+    }
+  ]
+}

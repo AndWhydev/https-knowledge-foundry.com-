@@ -1,0 +1,267 @@
+{
+  "slug": "evidence-of-competence",
+  "kind": "glossary",
+  "title": "What counts as evidence of competence?",
+  "seoTitle": "Evidence of competence: what counts",
+  "description": "Evidence of competence shows a person can apply knowledge and skills to a standard. ISO 9001, ASQA and Miller's pyramid, with an evidence strength table.",
+  "shortAnswer": "The evidence of competence an organization keeps is the set of records showing that a person can apply the required knowledge and skills to achieve intended results in their role. Strong evidence comes from observing or testing actual performance; weaker evidence, such as course attendance or self-assessment, shows exposure or belief rather than ability. ISO 9001 requires organizations to retain appropriate documented information as evidence of competence, and vocational regulators set rules for judging it.",
+  "keyTakeaways": [
+    "Competence means the ability to apply knowledge and skills to achieve intended results, so evidence must show application, not only learning.",
+    "ISO 9001:2015 clause 7.2(d) requires organizations to retain appropriate documented information as evidence of competence, and leaves the choice of evidence to them.",
+    "The ISO 9001 Auditing Practices Group warns that course participation alone does not necessarily show a person is competent.",
+    "Miller's pyramid gives a simple strength scale: knows, knows how, shows how, does. Evidence higher up the pyramid is closer to real performance.",
+    "Good evidence is valid, sufficient, authentic and current, the four rules of evidence used in vocational assessment."
+  ],
+  "term": "evidence of competence",
+  "alsoKnownAs": [
+    "competence evidence",
+    "competency evidence",
+    "documented information as evidence of competence"
+  ],
+  "sections": [
+    {
+      "id": "definition",
+      "heading": "What does evidence of competence need to show?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Evidence of competence needs to show that a person can apply what they know to get the intended result, in conditions like the real job. The ISO 9001 Auditing Practices Group (APG) [guidance on auditing competence](https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf) quotes the ISO 9000:2015 definition of competence as the \"ability to apply knowledge and skills to achieve intended results\" (clause 3.10.4)."
+        },
+        {
+          "type": "p",
+          "text": "That definition rules out a lot of what organizations file as competence evidence. The APG paper notes that training records can confirm a course was completed, but \"participation at the course alone does not necessarily provide evidence that the trainee is competent, as it may only demonstrate that knowledge was gained, not necessarily that it is being effectively applied.\" For more on the distinction, see [competence vs competency](/compare/competence-vs-competency)."
+        }
+      ]
+    },
+    {
+      "id": "iso-9001",
+      "heading": "What does ISO 9001 require as evidence of competence?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "ISO 9001 requires the organization to retain appropriate documented information as evidence of competence, and lets it decide what is appropriate. The APG paper quotes clause 7.2.d of ISO 9001:2015, \"retain appropriate documented information as evidence of competence,\" and explains that the word appropriate \"provides the necessary leeway for the organization to decide what documented information related to competence has value.\""
+        },
+        {
+          "type": "p",
+          "text": "ISO's own [guidance on documented information](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/documented_information.pdf) lists evidence of competence (clause 7.2) among the records an organization must retain. The APG paper gives examples such as diplomas, licenses, resumes, completion of training and performance reviews, and lists evaluation techniques including role-play, peer review, observation, reviews of training and employment records, and interviews. ISO 9001:2026 was published in September 2026 with the same Harmonized Structure; see [ISO 9001 competence requirements](/regulations/iso-9001-competence-requirements) for what changed."
+        }
+      ]
+    },
+    {
+      "id": "evidence-types",
+      "heading": "Which types of evidence are strongest?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Evidence is strongest when it comes from observed or measured performance of the real task, and weakest when it relies on attendance or self-report. [Miller's pyramid](/glossary/millers-pyramid), proposed by George Miller in 1990, gives a useful scale; a 2016 [Academic Medicine article](https://pubmed.ncbi.nlm.nih.gov/26332429/) summarizes its four levels as \"Knows,\" \"Knows How,\" \"Shows How,\" and \"Does.\""
+        },
+        {
+          "type": "table",
+          "caption": "Evidence types mapped to Miller's pyramid (original analysis; strength is relative)",
+          "head": [
+            "Evidence type",
+            "Typical record",
+            "Miller level",
+            "Relative strength"
+          ],
+          "rows": [
+            [
+              "Attendance or completion",
+              "Course completion record, sign-in sheet",
+              "None (exposure only)",
+              "Weak on its own"
+            ],
+            [
+              "Self-assessment",
+              "Self-rated skills survey",
+              "None (belief only)",
+              "Weak on its own"
+            ],
+            [
+              "Knowledge test",
+              "Scored quiz or exam",
+              "Knows",
+              "Shows recall and understanding"
+            ],
+            [
+              "Scenario or case questions",
+              "Scored scenario responses, oral questioning notes",
+              "Knows how",
+              "Shows applied judgment"
+            ],
+            [
+              "Simulation or practical demonstration",
+              "Observation checklist from a simulated task",
+              "Shows how",
+              "Shows ability under controlled conditions"
+            ],
+            [
+              "Workplace observation and work products",
+              "Signed observation record, audited work samples",
+              "Does",
+              "Closest to actual performance"
+            ],
+            [
+              "Credential or license",
+              "Certificate from an accredited body",
+              "Depends on how it was assessed",
+              "Strong if current and relevant"
+            ],
+            [
+              "Third party report",
+              "Supervisor statement",
+              "Does (indirect)",
+              "Moderate; best combined with other evidence"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Most defensible competency decisions combine several types: a knowledge test for the reasons behind the task, plus observation or work products for performance. Planning that combination is covered in [how to design competency assessments](/guides/how-to-design-competency-assessments)."
+        }
+      ]
+    },
+    {
+      "id": "judging-evidence",
+      "heading": "How should evidence of competence be judged?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Evidence should be judged against four tests: is it valid, sufficient, authentic and current? These are the [rules of evidence](/glossary/rules-of-evidence) in the Australian Skills Quality Authority (ASQA) [Assessment Practice Guide](https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide), used here as one regulator's example. Under them, evidence must be adequate to show the described skills, enough in quality and quantity for an informed judgment, the learner's own work, and evidence of current ability."
+        },
+        {
+          "type": "p",
+          "text": "Currency is where many records fail. The APG paper notes that competency verification \"may need to be monitored or repeated\" to maintain competence, for example through continuing professional development, appraisals, or inspection of the work people are responsible for. A record from before a procedure changed is evidence of competence in the old procedure."
+        }
+      ]
+    },
+    {
+      "id": "record-checklist",
+      "heading": "What should a competence record contain?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Original checklist for a single competence record that an auditor can follow:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "The person, role and the competency or requirement assessed, with its version.",
+            "The evidence relied on, with its type (test, observation, work product, credential) and date.",
+            "The assessor, and their basis for assessing (competence in the task and in assessment).",
+            "The decision rule applied and the outcome: competent or not yet competent.",
+            "Any reasonable adjustment, reassessment or appeal.",
+            "The date by which the competence must be reverified, or the event that would trigger it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge-foundry",
+      "heading": "How does Knowledge Foundry approach this?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Knowledge Foundry defines the evidence each competency requires, by type and currency, at the framework stage. Assessment results attach to those definitions, so a competence record shows what evidence was expected, what was collected, and whether it is still current."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is a training certificate evidence of competence?",
+      "a": "It is evidence that training took place, and sometimes evidence that a knowledge test was passed. On its own it rarely shows the person can apply the skill in the workplace. Treat it as one input, and add evidence of performance such as observation, work samples or a practical assessment for roles where errors matter."
+    },
+    {
+      "q": "Does ISO 9001 require formal competency assessments?",
+      "a": "ISO 9001 does not prescribe a method. It requires organizations to determine necessary competence, ensure people are competent on the basis of education, training or experience, evaluate the effectiveness of actions taken, and retain appropriate documented information as evidence. The APG paper notes that the right evaluation method depends on many factors."
+    },
+    {
+      "q": "How long should evidence of competence be kept?",
+      "a": "ISO 9001 does not set a single retention period; it depends on the organization's needs and applicable law. Sector rules often specify periods for training records, and records should at least cover the period a person performs the role plus any regulatory retention requirement. See the guide on how long to keep training records."
+    },
+    {
+      "q": "Can experience count as evidence of competence?",
+      "a": "Yes, ISO 9001 recognizes competence gained through education, training or experience. Experience still needs evidence, such as references, work samples or a direct assessment. A formal way to assess existing experience against a standard is recognition of prior learning."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Guidance on auditing Competence (Edition 2, 2022)",
+      "publisher": "ISO 9001 Auditing Practices Group (ISO and IAF)",
+      "url": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf"
+    },
+    {
+      "title": "Guidance on the requirements for Documented Information of ISO 9001:2015",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/documented_information.pdf"
+    },
+    {
+      "title": "Assessment Practice Guide",
+      "publisher": "Australian Skills Quality Authority",
+      "url": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
+    },
+    {
+      "title": "The assessment of clinical skills/competence/performance (Miller, Academic Medicine, 1990)",
+      "publisher": "PubMed, National Library of Medicine",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2400509/"
+    },
+    {
+      "title": "Amending Miller's Pyramid to Include Professional Identity Formation (Cruess, Cruess and Steinert, 2016)",
+      "publisher": "PubMed, National Library of Medicine",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26332429/"
+    },
+    {
+      "title": "ISO 9001:2026 Quality management systems: Requirements",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/9001"
+    }
+  ],
+  "related": [
+    "rules-of-evidence",
+    "competency-assessment",
+    "millers-pyramid",
+    "iso-9001-competence-requirements",
+    "how-to-prepare-training-records-for-an-audit",
+    "how-long-to-keep-training-records"
+  ],
+  "productLinks": [
+    {
+      "label": "Audit evidence",
+      "href": "/platform/audit-evidence"
+    },
+    {
+      "label": "Verification and trust",
+      "href": "/platform/verification-trust"
+    }
+  ],
+  "published": "2026-11-08",
+  "updated": "2026-11-08",
+  "release": 15,
+  "factCheck": [
+    {
+      "claim": "APG: competence defined as ability to apply knowledge and skills to achieve intended results (ISO 9000:2015 3.10.4); 7.2.d quote and 'appropriate' leeway; examples diplomas, licenses, resumes, completion of training, performance reviews; evaluation techniques role-play, peer review, observation, record reviews, interviews; course participation alone not evidence; verification may need to be monitored or repeated (CPD, appraisals, inspection)",
+      "source": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-Competence.pdf"
+    },
+    {
+      "claim": "ISO documented information guidance lists evidence of competence (clause 7.2) among retained documented information",
+      "source": "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/documented_information.pdf"
+    },
+    {
+      "claim": "ASQA rules of evidence: validity, sufficiency, authenticity, currency with descriptions",
+      "source": "https://www.asqa.gov.au/for-providers/standards-for-RTOs/practice-guides/quality-area-1-training-and-assessment/assessment-practice-guide"
+    },
+    {
+      "claim": "Miller GE, The assessment of clinical skills/competence/performance, Acad Med 1990;65(9 Suppl):S63-7 (confirmed via NCBI E-utilities record for PMID 2400509)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/2400509/"
+    },
+    {
+      "claim": "Cruess 2016: Miller 1990 proposed four levels Knows, Knows How, Shows How, Does (confirmed via NCBI E-utilities record for PMID 26332429)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/26332429/"
+    },
+    {
+      "claim": "ISO 9001:2026 sixth edition published 16 September 2026",
+      "source": "https://www.iso.org/standard/9001"
+    }
+  ]
+}
