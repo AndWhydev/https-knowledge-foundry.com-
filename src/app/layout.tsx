@@ -9,6 +9,7 @@ import { CustomCursor } from "@/components/motion/custom-cursor";
 import { Grain } from "@/components/motion/grain";
 import { BootSequence } from "@/components/boot-sequence";
 import { HydrationFlag } from "@/components/hydration-flag";
+import Script from "next/script";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { site } from "@/lib/site";
@@ -124,6 +125,16 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <HydrationFlag />
         <Analytics />
         <SpeedInsights />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-7242TX8ZTT"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-7242TX8ZTT');`}
+        </Script>
       </body>
     </html>
   );
