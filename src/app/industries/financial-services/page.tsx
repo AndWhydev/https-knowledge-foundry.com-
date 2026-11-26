@@ -141,7 +141,7 @@ export default function FinancialServicesPage() {
         }
         lede="Prudential obligations, licensing requirements, and product knowledge structured at clause level. Each module ties to the standard it exists to serve, and the evidence exports as a file when regulators ask."
         secondaryCta={{ label: "See the compliance model", href: "/programs/compliance" }}
-        visual={<AnimatedEditorial src="editorial-blueprint.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
+        visual={<AnimatedEditorial src="usecase-financial-services.jpg" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock

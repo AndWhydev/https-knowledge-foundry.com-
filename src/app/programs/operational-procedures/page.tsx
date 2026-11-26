@@ -139,7 +139,7 @@ export default function OperationalProceduresPage() {
         }
         lede="The Foundry transforms tasks, workflows, and procedures into structured instruction aligned to clarity, repeatability, and measurable execution. Structure governs execution."
         secondaryCta={{ label: "See the platform", href: "/platform" }}
-        visual={<AnimatedEditorial src="editorial-infrastructure.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
+        visual={<AnimatedEditorial src="usecase-operational-procedures.jpg" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock eyebrow="Why this matters" title="Instructions alone do not guarantee correct performance.">

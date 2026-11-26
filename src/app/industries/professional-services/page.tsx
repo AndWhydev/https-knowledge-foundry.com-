@@ -141,7 +141,7 @@ export default function ProfessionalServicesPage() {
         }
         lede="Structured CPD, technical uplift across the firm, and alignment to sector standards for accounting, legal, engineering, and consulting practices. One framework. Multiple bodies. Evidence per practitioner."
         secondaryCta={{ label: "See educational programs", href: "/programs/educational" }}
-        visual={<AnimatedEditorial src="editorial-evidence.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
+        visual={<AnimatedEditorial src="usecase-professional-services.jpg" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock

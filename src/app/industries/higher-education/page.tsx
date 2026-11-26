@@ -141,7 +141,7 @@ export default function HigherEducationPage() {
         }
         lede="Course architecture aligned to institutional quality standards. Outcomes, activities, and assessment linked at the framework level. Evidence for institutional and professional accreditation produced by design."
         secondaryCta={{ label: "See educational programs", href: "/programs/educational" }}
-        visual={<AnimatedEditorial src="editorial-education.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
+        visual={<AnimatedEditorial src="usecase-higher-education.jpg" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock

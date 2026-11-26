@@ -2,6 +2,8 @@ import { Container, Section, Eyebrow } from "@/components/ui/container";
 import { Reveal, RevealStagger, RevealItem } from "@/components/motion/reveal";
 import { SplitText } from "@/components/motion/split-text";
 import { SpotlightGroup } from "@/components/motion/spotlight-group";
+import Image from "next/image";
+import Link from "next/link";
 import type { ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
@@ -9,6 +11,10 @@ export type Feature = {
   icon?: ReactNode;
   title: string;
   desc: string;
+  /** File in /public/media, shown as a full-bleed visual at the top of the card. */
+  image?: string;
+  /** Makes the whole card a link. */
+  href?: string;
 };
 
 export function FeatureGrid({
@@ -77,8 +83,20 @@ export function FeatureGrid({
                 )}
                 aria-hidden
               />
-              <div className="relative">
-                {f.icon && (
+              {f.image && (
+                <div className="relative -mx-8 -mt-8 mb-7 aspect-[16/9] overflow-hidden bg-[color:var(--color-canvas-warm)]">
+                  <Image
+                    src={`/media/${f.image}`}
+                    alt=""
+                    fill
+                    sizes="(min-width: 768px) 33vw, 100vw"
+                    className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+                  />
+                </div>
+              )}
+              {/* Unpositioned when linked so the title link can stretch over the whole card. */}
+              <div className={cn(!f.href && "relative")}>
+                {f.icon && !f.image && (
                   <div
                     className={cn(
                       "inline-flex h-11 w-11 items-center justify-center rounded-[var(--radius-sm)] mb-5 text-[color:var(--color-forge)] transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-3",
@@ -94,7 +112,13 @@ export function FeatureGrid({
                     tone === "ink" ? "text-white group-hover:text-[color:var(--color-forge)]" : "text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)]",
                   )}
                 >
-                  {f.title}
+                  {f.href ? (
+                    <Link href={f.href} className="after:absolute after:inset-0 after:content-['']">
+                      {f.title}
+                    </Link>
+                  ) : (
+                    f.title
+                  )}
                 </h3>
                 <p
                   className={cn(

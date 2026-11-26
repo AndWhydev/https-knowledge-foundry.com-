@@ -29,31 +29,43 @@ const industries = [
   {
     icon: <Banknote className="h-5 w-5" />,
     title: "Financial services",
+    image: "usecase-financial-services.jpg",
+    href: "/industries/financial-services",
     desc: "Prudential, conduct, and licensing obligations (DORA, the SEC and FINRA, the Japan FSA, APRA, the CBUAE and DFSA) and product knowledge for regulated roles. Program evidence structured against the standard, not adjacent to it.",
   },
   {
     icon: <HeartPulse className="h-5 w-5" />,
     title: "Healthcare & life sciences",
+    image: "usecase-healthcare-life-sciences.jpg",
+    href: "/industries/healthcare-life-sciences",
     desc: "Hospital accreditation standards, credentialing, CPD for licensed practitioners, and promotional rules for medicines and devices. Mapped to instruction and verified in one architecture.",
   },
   {
     icon: <Factory className="h-5 w-5" />,
     title: "Energy & resources",
+    image: "usecase-energy-resources.jpg",
+    href: "/industries/energy-resources",
     desc: "Safety critical operations, alignment to ISO 45001, and verification based on competency for high consequence roles. Structure governs execution.",
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
     title: "Government & defense",
+    image: "usecase-government-defence.jpg",
+    href: "/industries/government-defence",
     desc: "Cleared workforce enablement, alignment to NIS2, NIST, ISMAP, the ISM, and other national security frameworks, and auditable evidence for training that must survive external scrutiny.",
   },
   {
     icon: <Briefcase className="h-5 w-5" />,
     title: "Professional services",
+    image: "usecase-professional-services.jpg",
+    href: "/industries/professional-services",
     desc: "CPD architecture, technical uplift across the firm, and alignment to sector standards for accounting, legal, engineering, and consulting practices.",
   },
   {
     icon: <GraduationCap className="h-5 w-5" />,
     title: "Higher education",
+    image: "usecase-higher-education.jpg",
+    href: "/industries/higher-education",
     desc: "Course architecture aligned to institutional quality standards, outcome mapping, and defensible accreditation evidence, with the framework as the reviewable artifact.",
   },
 ];

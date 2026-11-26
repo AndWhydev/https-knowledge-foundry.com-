@@ -28,26 +28,36 @@ const programs = [
   {
     icon: <GraduationCap className="h-5 w-5" />,
     title: "Educational programs",
+    image: "usecase-educational.jpg",
+    href: "/programs/educational",
     desc: "Structured subject learning designed to build understanding over time. Progression is deliberate, assessment is integrated, coverage is systematic, not assumed.",
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
     title: "Compliance programs",
+    image: "usecase-compliance.jpg",
+    href: "/programs/compliance",
     desc: "Regulatory and policy requirements translated into structured behavioral instruction. Not awareness. Adherence. Measurable, mapped, and defensible under audit.",
   },
   {
     icon: <Boxes className="h-5 w-5" />,
     title: "Product enablement",
+    image: "usecase-product-enablement.jpg",
+    href: "/programs/product-enablement",
     desc: "Product documentation transformed into structured mastery. Each capability, dependency, and failure mode is taught in the order the product actually requires.",
   },
   {
     icon: <ClipboardList className="h-5 w-5" />,
     title: "Operational procedures",
+    image: "usecase-operational-procedures.jpg",
+    href: "/programs/operational-procedures",
     desc: "Tasks and workflows turned into repeatable execution. Structure governs sequence. Consistency is a property of the system, not a virtue of the operator.",
   },
   {
     icon: <BadgeCheck className="h-5 w-5" />,
     title: "Hybrid verification",
+    image: "usecase-hybrid-verification.jpg",
+    href: "/programs/hybrid-verification",
     desc: "Learning combined with capability confirmation. Each objective is paired with a validation mechanism and a defined competency threshold. Confirmed readiness, not exposure.",
   },
 ];

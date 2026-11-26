@@ -139,7 +139,7 @@ export default function HybridVerificationPage() {
         }
         lede="The Foundry combines structured learning with integrated validation to produce demonstrable, defensible competence. Every lesson is anchored to a verification checkpoint. Confirmed readiness, not attended sessions."
         secondaryCta={{ label: "See the platform", href: "/platform" }}
-        visual={<AnimatedEditorial src="editorial-blueprint.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
+        visual={<AnimatedEditorial src="usecase-hybrid-verification.jpg" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock eyebrow="Why this matters" title="Learning without validation creates risk.">

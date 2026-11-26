@@ -139,7 +139,7 @@ export default function EducationalProgramsPage() {
         }
         lede="The Foundry transforms subjects into structured learning systems aligned to progression, comprehension, and measurable competency. Educators focus on judgment. The system holds the architecture."
         secondaryCta={{ label: "See the platform", href: "/platform" }}
-        visual={<AnimatedEditorial src="editorial-education.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
+        visual={<AnimatedEditorial src="usecase-educational.jpg" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock eyebrow="Why this matters" title="The focus is cognitive progression, not content volume.">

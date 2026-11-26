@@ -141,7 +141,7 @@ export default function EnergyResourcesPage() {
         }
         lede="Safety critical operations turned into structured, verifiable competency. Procedures anchored to frameworks. Verification anchored to procedures. Evidence anchored to verification."
         secondaryCta={{ label: "See operational procedures", href: "/programs/operational-procedures" }}
-        visual={<AnimatedEditorial src="editorial-infrastructure.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
+        visual={<AnimatedEditorial src="usecase-energy-resources.jpg" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock

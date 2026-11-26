@@ -141,7 +141,7 @@ export default function HealthcareLifeSciencesPage() {
         }
         lede="Clinical governance frameworks, credentialing pathways, CPD for licensed practitioners, and product training within promotional rules. All structured against the criterion, verified against the role, and evidenced for the accreditor."
         secondaryCta={{ label: "See hybrid verification", href: "/programs/hybrid-verification" }}
-        visual={<AnimatedEditorial src="editorial-hero.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
+        visual={<AnimatedEditorial src="usecase-healthcare-life-sciences.jpg" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock

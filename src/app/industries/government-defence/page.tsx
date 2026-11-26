@@ -141,7 +141,7 @@ export default function GovernmentDefencePage() {
         }
         lede="Security control frameworks and agency specific policy translated into structured instruction. Cleared workforce training with coverage tagged to role and evidence that survives external review."
         secondaryCta={{ label: "See the platform", href: "/platform" }}
-        visual={<AnimatedEditorial src="editorial-governance.png" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
+        visual={<AnimatedEditorial src="usecase-government-defence.jpg" parallax={20} float={false} sizes="(min-width: 1024px) 520px, 90vw" />}
       />
 
       <ProseBlock
