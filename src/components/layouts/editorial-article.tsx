@@ -78,7 +78,7 @@ export function EditorialArticle({
           <nav aria-label="Breadcrumb" className="mb-10">
             <Link
               href="/insights"
-              className="group inline-flex items-center gap-2 text-[12px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-ink-muted)] hover:text-[color:var(--color-forge)] transition-colors"
+              className="group inline-flex items-center gap-2 text-[12px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-ink-muted)] hover:text-[color:var(--color-forge-text)] transition-colors"
             >
               <ArrowLeft className="h-3.5 w-3.5 transition-transform group-hover:-translate-x-1" aria-hidden />
               Back to Insights
@@ -86,7 +86,7 @@ export function EditorialArticle({
           </nav>
 
           <Reveal>
-            <div className="text-[11px] font-medium uppercase tracking-[0.18em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)] mb-5">
+            <div className="text-[11px] font-medium uppercase tracking-[0.18em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge-text)] mb-5">
               {eyebrow}
             </div>
           </Reveal>
@@ -140,7 +140,7 @@ export function EditorialArticle({
                               : "border-transparent text-[color:var(--color-ink-muted)] hover:text-[color:var(--color-ink)] hover:border-[color:var(--color-ink-soft)]",
                           )}
                         >
-                          <span className="font-[family-name:var(--font-jetbrains)] text-[10px] tracking-[0.14em] text-[color:var(--color-forge)] mr-2">
+                          <span className="font-[family-name:var(--font-jetbrains)] text-[10px] tracking-[0.14em] text-[color:var(--color-forge-text)] mr-2">
                             {String(i + 1).padStart(2, "0")}
                           </span>
                           <span className="text-[13.5px]">{item.label}</span>
@@ -176,13 +176,13 @@ export function EditorialArticle({
                     href={r.href}
                     className="group block border-t border-[color:var(--color-hairline-strong)] pt-5 hover:border-[color:var(--color-forge)] transition-colors"
                   >
-                    <div className="text-[10.5px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)] mb-3">
+                    <div className="text-[10.5px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge-text)] mb-3">
                       {r.eyebrow}
                     </div>
-                    <h3 className="text-[19px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] transition-colors leading-[1.25]">
+                    <h3 className="text-[19px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge-text)] transition-colors leading-[1.25]">
                       {r.title}
                     </h3>
-                    <div className="mt-6 inline-flex items-center gap-1.5 text-[12.5px] font-medium text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)]">
+                    <div className="mt-6 inline-flex items-center gap-1.5 text-[12.5px] font-medium text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge-text)]">
                       Continue
                       <ArrowUpRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
                     </div>
@@ -265,7 +265,7 @@ export function EditorialList({ items }: { items: ReactNode[] }) {
 export function EditorialAside({ title, children }: { title: string; children: ReactNode }) {
   return (
     <aside className="my-12 bg-white border border-[color:var(--color-hairline)] rounded-[var(--radius-md)] p-6 md:p-8">
-      <div className="text-[10.5px] font-medium uppercase tracking-[0.16em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)] mb-3">
+      <div className="text-[10.5px] font-medium uppercase tracking-[0.16em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge-text)] mb-3">
         {title}
       </div>
       <div className="text-[15px] leading-[1.6] text-[color:var(--color-ink-soft)] [&_p]:mb-3 [&_p:last-child]:mb-0">

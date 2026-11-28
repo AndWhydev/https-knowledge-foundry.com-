@@ -14,7 +14,7 @@ const button = cva(
         secondary:
           "bg-white text-[color:var(--color-ink)] border border-[color:var(--color-hairline-strong)] hover:border-[color:var(--color-ink)] hover:-translate-y-px",
         ghost:
-          "text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)]",
+          "text-[color:var(--color-ink)] hover:text-[color:var(--color-forge-text)]",
         forge:
           "bg-[color:var(--color-forge)] text-white hover:bg-[color:var(--color-forge-hot)] shadow-[0_8px_24px_-8px_rgba(239,103,4,0.5)]",
       },

@@ -40,19 +40,19 @@ export function LearnArticle({ page }: { page: LearnPage }) {
             <nav aria-label="Breadcrumb" className={`${label} text-[color:var(--color-ink-muted)] mb-8`}>
               <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
                 <li>
-                  <Link href="/learn" className="hover:text-[color:var(--color-forge)]">
+                  <Link href="/learn" className="hover:text-[color:var(--color-forge-text)]">
                     Learn
                   </Link>
                 </li>
                 <li aria-hidden>/</li>
                 <li>
-                  <Link href={kind.path} className="hover:text-[color:var(--color-forge)]">
+                  <Link href={kind.path} className="hover:text-[color:var(--color-forge-text)]">
                     {kind.label}
                   </Link>
                 </li>
               </ol>
             </nav>
-            <div className={`${label} text-[color:var(--color-forge)] mb-4`}>{kind.eyebrow}</div>
+            <div className={`${label} text-[color:var(--color-forge-text)] mb-4`}>{kind.eyebrow}</div>
             <h1 className="text-[34px] md:text-[48px] leading-[1.05] font-[family-name:var(--font-display)] font-semibold tracking-[-0.03em] text-[color:var(--color-ink)] max-w-[24ch]">
               {page.title}
             </h1>
@@ -71,7 +71,7 @@ export function LearnArticle({ page }: { page: LearnPage }) {
                 <>
                   {". Reviewed by "}
                   {page.reviewedBy.url ? (
-                    <a href={page.reviewedBy.url} className="underline underline-offset-2 hover:text-[color:var(--color-forge)]">
+                    <a href={page.reviewedBy.url} className="underline underline-offset-2 hover:text-[color:var(--color-forge-text)]">
                       {page.reviewedBy.name}
                     </a>
                   ) : (
@@ -81,7 +81,7 @@ export function LearnArticle({ page }: { page: LearnPage }) {
                 </>
               )}
               {". "}
-              <Link href="/editorial-standards" className="underline underline-offset-2 hover:text-[color:var(--color-forge)]">
+              <Link href="/editorial-standards" className="underline underline-offset-2 hover:text-[color:var(--color-forge-text)]">
                 How we write and check these pages
               </Link>
             </p>
@@ -142,8 +142,8 @@ export function LearnArticle({ page }: { page: LearnPage }) {
                 <ol className="grid sm:grid-cols-2 gap-x-8 gap-y-2">
                   {page.sections.map((s, i) => (
                     <li key={s.id}>
-                      <a href={`#${s.id}`} className="text-[14.5px] text-[color:var(--color-ink-muted)] hover:text-[color:var(--color-forge)]">
-                        <span className={`${mono} text-[11px] text-[color:var(--color-forge)] mr-2`}>
+                      <a href={`#${s.id}`} className="text-[14.5px] text-[color:var(--color-ink-muted)] hover:text-[color:var(--color-forge-text)]">
+                        <span className={`${mono} text-[11px] text-[color:var(--color-forge-text)] mr-2`}>
                           {String(i + 1).padStart(2, "0")}
                         </span>
                         {s.heading}
@@ -169,11 +169,11 @@ export function LearnArticle({ page }: { page: LearnPage }) {
 
             {page.productLinks && page.productLinks.length > 0 && (
               <aside className="mb-12 rounded-[var(--radius-lg)] border border-[color:var(--color-hairline-strong)] bg-white p-6">
-                <div className={`${label} text-[color:var(--color-forge)] mb-3`}>How Knowledge Foundry approaches this</div>
+                <div className={`${label} text-[color:var(--color-forge-text)] mb-3`}>How Knowledge Foundry approaches this</div>
                 <ul className="space-y-2">
                   {page.productLinks.map((l) => (
                     <li key={l.href}>
-                      <Link href={l.href} className="group inline-flex items-center gap-1.5 text-[15px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)]">
+                      <Link href={l.href} className="group inline-flex items-center gap-1.5 text-[15px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge-text)]">
                         {l.label}
                         <ArrowUpRight className="h-4 w-4" aria-hidden />
                       </Link>
@@ -209,7 +209,7 @@ export function LearnArticle({ page }: { page: LearnPage }) {
                 <ol className="space-y-2.5 list-decimal pl-5 marker:text-[color:var(--color-ink-faint)]">
                   {page.sources.map((src) => (
                     <li key={src.url} className="text-[14px] leading-[1.55] text-[color:var(--color-ink-muted)]">
-                      <a href={src.url} rel="noopener" target="_blank" className="inline-flex items-baseline gap-1 text-[color:var(--color-ink-soft)] hover:text-[color:var(--color-forge)]">
+                      <a href={src.url} rel="noopener" target="_blank" className="inline-flex items-baseline gap-1 text-[color:var(--color-ink-soft)] hover:text-[color:var(--color-forge-text)]">
                         {src.title}
                         <ExternalLink className="h-3 w-3 shrink-0 translate-y-[1px]" aria-hidden />
                       </a>
@@ -220,7 +220,7 @@ export function LearnArticle({ page }: { page: LearnPage }) {
                 <p className="mt-5 text-[13px] leading-[1.6] text-[color:var(--color-ink-faint)]">
                   This page is general information, not legal or compliance advice. Check the primary sources above
                   and obtain advice for your circumstances. See our{" "}
-                  <Link href="/editorial-standards" className="underline underline-offset-2 hover:text-[color:var(--color-forge)]">
+                  <Link href="/editorial-standards" className="underline underline-offset-2 hover:text-[color:var(--color-forge-text)]">
                     editorial standards
                   </Link>
                   .
@@ -237,8 +237,8 @@ export function LearnArticle({ page }: { page: LearnPage }) {
               <div className="grid sm:grid-cols-2 gap-x-8 gap-y-6">
                 {related.map((r) => (
                   <Link key={r.slug} href={learnHref(r)} className="group block border-t border-[color:var(--color-hairline-strong)] pt-4 hover:border-[color:var(--color-forge)]">
-                    <div className={`${label} text-[color:var(--color-forge)] mb-2`}>{kinds[r.kind].singular}</div>
-                    <div className="text-[17px] font-semibold tracking-tight font-[family-name:var(--font-display)] text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] leading-[1.3]">
+                    <div className={`${label} text-[color:var(--color-forge-text)] mb-2`}>{kinds[r.kind].singular}</div>
+                    <div className="text-[17px] font-semibold tracking-tight font-[family-name:var(--font-display)] text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge-text)] leading-[1.3]">
                       {r.title}
                     </div>
                   </Link>
@@ -267,7 +267,7 @@ function BlockView({ block }: { block: Block }) {
     case "ol": {
       const Tag = block.type;
       return (
-        <Tag className={`${body} space-y-2 pl-6 ${block.type === "ul" ? "list-disc" : "list-decimal"} marker:text-[color:var(--color-forge)]`}>
+        <Tag className={`${body} space-y-2 pl-6 ${block.type === "ul" ? "list-disc" : "list-decimal"} marker:text-[color:var(--color-forge-text)]`}>
           {block.items.map((item, i) => (
             <li key={i} className="pl-1">
               <Inline text={item} />

@@ -50,7 +50,7 @@ export function Eyebrow({ children, className }: { children: ReactNode; classNam
   return (
     <span
       className={cn(
-        "inline-flex items-center gap-2 font-[family-name:var(--font-jetbrains)] text-[11px] uppercase tracking-[0.14em] font-medium text-[color:var(--color-forge)]",
+        "inline-flex items-center gap-2 font-[family-name:var(--font-jetbrains)] text-[11px] uppercase tracking-[0.14em] font-medium text-[color:var(--color-forge-text)]",
         className,
       )}
     >

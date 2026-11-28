@@ -99,7 +99,7 @@ export function FeatureGrid({
                 {f.icon && !f.image && (
                   <div
                     className={cn(
-                      "inline-flex h-11 w-11 items-center justify-center rounded-[var(--radius-sm)] mb-5 text-[color:var(--color-forge)] transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-3",
+                      "inline-flex h-11 w-11 items-center justify-center rounded-[var(--radius-sm)] mb-5 text-[color:var(--color-forge-text)] transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-3",
                       tone === "ink" ? "bg-white/6" : "bg-[color:var(--color-canvas-tint)]",
                     )}
                   >
@@ -109,7 +109,7 @@ export function FeatureGrid({
                 <h3
                   className={cn(
                     "text-[18px] leading-[1.28] font-semibold tracking-tight font-[family-name:var(--font-display)] mb-3 transition-colors",
-                    tone === "ink" ? "text-white group-hover:text-[color:var(--color-forge)]" : "text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)]",
+                    tone === "ink" ? "text-white group-hover:text-[color:var(--color-forge-text)]" : "text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge-text)]",
                   )}
                 >
                   {f.href ? (

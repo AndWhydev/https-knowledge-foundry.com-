@@ -55,14 +55,14 @@ export function HeroComparison({
           transition={{ duration: 0.5, delay: 0.15, ease: [0.25, 1, 0.5, 1] }}
           className="rounded-[var(--radius-md)] border border-[color:var(--color-forge)]/40 bg-[color:var(--color-forge)]/[0.06] p-6 shadow-[0_30px_60px_-20px_rgba(239,103,4,0.35)]"
         >
-          <div className="font-[family-name:var(--font-jetbrains)] text-[10px] uppercase tracking-[0.16em] text-[color:var(--color-forge)] mb-4">
+          <div className="font-[family-name:var(--font-jetbrains)] text-[10px] uppercase tracking-[0.16em] text-[color:var(--color-forge-text)] mb-4">
             Foundry
           </div>
           <div className="text-[15px] font-medium text-white mb-4">{after.title}</div>
           <ul className="space-y-2.5">
             {after.items.map((it, i) => (
               <li key={i} className="flex gap-2.5 items-start text-[13px] leading-[1.5] text-white">
-                <Check className="h-3.5 w-3.5 mt-0.5 shrink-0 text-[color:var(--color-forge)]" aria-hidden />
+                <Check className="h-3.5 w-3.5 mt-0.5 shrink-0 text-[color:var(--color-forge-text)]" aria-hidden />
                 <span>{it}</span>
               </li>
             ))}

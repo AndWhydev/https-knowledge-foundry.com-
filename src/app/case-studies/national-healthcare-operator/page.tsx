@@ -9,9 +9,9 @@ import {
 
 export const metadata: Metadata = {
   alternates: { canonical: "/case-studies/national-healthcare-operator" },
-  title: "Case study: national hospital operator",
+  title: "Illustrative example: national hospital operator",
   description:
-    "A private hospital operator in the United States consolidated 400+ SOPs across 30+ sites into one governed framework, with per site variance modeled explicitly.",
+    "An illustrative example: a private hospital operator in the United States consolidates 400+ SOPs across 30+ sites into one governed framework, with per site variance modeled explicitly.",
 };
 
 const chapters: CaseChapter[] = [
@@ -104,7 +104,7 @@ export default function Page() {
             { value: 400, suffix: "+", label: "SOPs regenerated against a single canonical framework" },
             { value: 4, suffix: " hrs", label: "to produce a credentialing audit pack (previously about three weeks)" },
           ]}
-          footnote="Illustrative outcomes drawn from typical engagement patterns. Specific program figures shared under NDA on request."
+          footnote="Indicative figures for an illustrative scenario, not results from a named client."
         />
       </Chapter>
 

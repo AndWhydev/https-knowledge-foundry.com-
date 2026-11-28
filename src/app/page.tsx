@@ -126,7 +126,7 @@ export default function HomePage() {
                 delay={0.1}
               >
                 Define what should exist,{" "}
-                <Highlight className="text-[color:var(--color-forge)]">
+                <Highlight className="text-[color:var(--color-forge-text)]">
                   before writing what does.
                 </Highlight>
               </SplitText>
@@ -359,7 +359,7 @@ export default function HomePage() {
               { k: "Provenance", v: "Each node, each version" },
             ].map((r) => (
               <RevealItem as="li" key={r.k} className="border-t border-[color:var(--color-hairline-strong)] pt-3">
-                <div className="text-[11px] font-medium uppercase tracking-[0.1em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)]">{r.k}</div>
+                <div className="text-[11px] font-medium uppercase tracking-[0.1em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge-text)]">{r.k}</div>
                 <div className="text-[13.5px] text-[color:var(--color-ink-soft)] mt-1">{r.v}</div>
               </RevealItem>
             ))}
@@ -370,7 +370,7 @@ export default function HomePage() {
       {/* CINEMA BAND — ambient Higgsfield grid with the core claim */}
       <CinemaBand src="/media/grid-loop.mp4" poster="/media/grid-loop.jpg">
         <div className="max-w-[920px]">
-          <div className="font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.2em] text-[color:var(--color-forge)] mb-6">
+          <div className="font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.2em] text-[color:var(--color-forge-text)] mb-6">
             THE OBJECT OF RECORD
           </div>
           <p className="text-display-2 text-white [text-wrap:balance]">
@@ -394,7 +394,7 @@ export default function HomePage() {
               <Magnetic>
                 <Link
                   href="/platform"
-                  className="group inline-flex shrink-0 items-center gap-2 whitespace-nowrap text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)]"
+                  className="group inline-flex shrink-0 items-center gap-2 whitespace-nowrap text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge-text)]"
                 >
                   <span className="border-b border-current pb-0.5">Explore the platform</span>
                   <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
@@ -411,7 +411,7 @@ export default function HomePage() {
                     href={c.href}
                     className="group relative flex h-full flex-col p-5 md:p-7 rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white hover:border-[color:var(--color-ink-soft)] transition-all"
                   >
-                    <div className="inline-flex h-11 w-11 items-center justify-center rounded-[var(--radius-sm)] bg-[color:var(--color-canvas-tint)] text-[color:var(--color-forge)] mb-4 md:mb-6">
+                    <div className="inline-flex h-11 w-11 items-center justify-center rounded-[var(--radius-sm)] bg-[color:var(--color-canvas-tint)] text-[color:var(--color-forge-text)] mb-4 md:mb-6">
                       {c.icon}
                     </div>
                     <h3 className="text-[19px] leading-[1.25] font-semibold tracking-tight font-[family-name:var(--font-display)] mb-3">
@@ -420,7 +420,7 @@ export default function HomePage() {
                     <p className="text-[14px] leading-[1.6] text-[color:var(--color-ink-muted)] flex-1">
                       {c.desc}
                     </p>
-                    <div className="mt-6 hidden md:inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] transition-colors">
+                    <div className="mt-6 hidden md:inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge-text)] transition-colors">
                       Explore
                       <ArrowUpRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
                     </div>
@@ -474,21 +474,21 @@ export default function HomePage() {
                   className="group relative flex items-start gap-4 md:gap-6 p-6 md:p-8 lg:min-h-[260px] rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white shadow-[var(--shadow-soft)] hover:border-[color:var(--color-forge)] transition-colors overflow-hidden"
                 >
                   <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-[radial-gradient(circle_at_top_right,rgba(239,103,4,0.07),transparent_55%)]" aria-hidden />
-                  <div className="relative mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-[var(--radius-sm)] bg-[color:var(--color-canvas-tint)] text-[color:var(--color-forge)]">
+                  <div className="relative mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-[var(--radius-sm)] bg-[color:var(--color-canvas-tint)] text-[color:var(--color-forge-text)]">
                     {p.icon}
                   </div>
                   <div className="relative flex-1">
                     <div className="font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.14em] text-[color:var(--color-ink-faint)]">
                       {String(i + 1).padStart(2, "0")} / {String(programs.length).padStart(2, "0")}
                     </div>
-                    <h3 className="mt-2 text-[22px] lg:text-[28px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] transition-colors">
+                    <h3 className="mt-2 text-[22px] lg:text-[28px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge-text)] transition-colors">
                       {p.title}
                     </h3>
                     <p className="mt-2 text-[15px] text-[color:var(--color-ink-muted)] leading-[1.6] max-w-[44ch]">
                       {p.desc}
                     </p>
                   </div>
-                  <ArrowUpRight className="relative h-5 w-5 mt-2 text-[color:var(--color-ink-faint)] group-hover:text-[color:var(--color-forge)] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" aria-hidden />
+                  <ArrowUpRight className="relative h-5 w-5 mt-2 text-[color:var(--color-ink-faint)] group-hover:text-[color:var(--color-forge-text)] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" aria-hidden />
                 </Link>
               ))}
             </StackCards>
@@ -510,7 +510,7 @@ export default function HomePage() {
               </div>
               <Link
                 href="/industries"
-                className="group inline-flex shrink-0 items-center gap-2 whitespace-nowrap text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)]"
+                className="group inline-flex shrink-0 items-center gap-2 whitespace-nowrap text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge-text)]"
               >
                 <span className="border-b border-current pb-0.5">All industries</span>
                 <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
@@ -526,18 +526,18 @@ export default function HomePage() {
             className="group relative flex flex-col justify-between overflow-hidden rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white p-6 md:p-8 w-full lg:w-[400px] lg:h-[420px] shrink-0 hover:border-[color:var(--color-ink-soft)] transition-colors"
           >
             <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-[radial-gradient(circle_at_top_right,rgba(239,103,4,0.08),transparent_60%)]" aria-hidden />
-            <span aria-hidden className="absolute -right-3 -bottom-10 font-[family-name:var(--font-display)] font-semibold tracking-tighter text-[160px] leading-none text-[color:var(--color-canvas-tint)] group-hover:text-[color:var(--color-forge)]/10 transition-colors select-none hidden lg:block">
+            <span aria-hidden className="absolute -right-3 -bottom-10 font-[family-name:var(--font-display)] font-semibold tracking-tighter text-[160px] leading-none text-[color:var(--color-canvas-tint)] group-hover:text-[color:var(--color-forge-text)]/10 transition-colors select-none hidden lg:block">
               {String(i + 1).padStart(2, "0")}
             </span>
             <div className="relative">
-              <div className="text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)] mb-3">
+              <div className="text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge-text)] mb-3">
                 {ind.note}
               </div>
               <h3 className="text-[22px] lg:text-[30px] leading-[1.1] font-[family-name:var(--font-display)] font-semibold tracking-tight">
                 {ind.title}
               </h3>
             </div>
-            <div className="relative mt-6 inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] transition-colors">
+            <div className="relative mt-6 inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge-text)] transition-colors">
               View sector view
               <ArrowUpRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
             </div>
@@ -614,7 +614,7 @@ export default function HomePage() {
                   className="group relative rounded-[var(--radius-md)] border border-[color:var(--color-hairline)] bg-white p-6 hover:border-[color:var(--color-ink-soft)] transition-colors"
                 >
                   <div className="flex items-baseline gap-3 mb-3">
-                    <span className="font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.18em] text-[color:var(--color-forge)]">
+                    <span className="font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.18em] text-[color:var(--color-forge-text)]">
                       STAGE {s.n}
                     </span>
                     <span className="h-px flex-1 bg-[color:var(--color-hairline-strong)]" />
@@ -646,7 +646,7 @@ export default function HomePage() {
               <Magnetic>
                 <Link
                   href="/insights"
-                  className="group inline-flex shrink-0 items-center gap-2 whitespace-nowrap text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)]"
+                  className="group inline-flex shrink-0 items-center gap-2 whitespace-nowrap text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge-text)]"
                 >
                   <span className="border-b border-current pb-0.5">All insights</span>
                   <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
@@ -666,13 +666,13 @@ export default function HomePage() {
                   href={item.href}
                   className="group block h-full rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white p-7 hover:border-[color:var(--color-ink-soft)] transition-all hover:-translate-y-1 duration-300"
                 >
-                  <div className="text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)] mb-3">
+                  <div className="text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge-text)] mb-3">
                     {item.eyebrow}
                   </div>
-                  <h3 className="text-[19px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] transition-colors leading-[1.25]">
+                  <h3 className="text-[19px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge-text)] transition-colors leading-[1.25]">
                     {item.title}
                   </h3>
-                  <div className="mt-8 inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] transition-colors">
+                  <div className="mt-8 inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge-text)] transition-colors">
                     Read
                     <ArrowUpRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
                   </div>
@@ -691,7 +691,7 @@ export default function HomePage() {
       {/* CINEMA BAND — molten source hardening into structure, ahead of the close */}
       <CinemaBand src="/media/molten-loop.mp4" poster="/media/molten-loop.jpg">
         <div className="max-w-[920px]">
-          <div className="font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.2em] text-[color:var(--color-forge)] mb-6">
+          <div className="font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.2em] text-[color:var(--color-forge-text)] mb-6">
             FROM SOURCE TO SYSTEM
           </div>
           <p className="text-display-2 text-white [text-wrap:balance]">

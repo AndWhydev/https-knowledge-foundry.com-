@@ -43,7 +43,7 @@ const posture = [
   {
     icon: <FileCheck2 className="h-5 w-5" />,
     title: "GDPR, by design",
-    desc: "As a company registered in Portugal, our privacy program is built on the GDPR. Data processing terms, subprocessor register, deletion workflows, and export mechanisms also support the APPI, the Australian Privacy Act, and US state privacy laws.",
+    desc: "As a company based in Portugal, our privacy program is built on the GDPR. Data processing terms, subprocessor register, deletion workflows, and export mechanisms also support the APPI, the Australian Privacy Act, and US state privacy laws.",
   },
   {
     icon: <ShieldCheck className="h-5 w-5" />,
@@ -135,7 +135,7 @@ export default function TrustCentrePage() {
         title={
           <>
             The controls behind{" "}
-            <span className="text-[color:var(--color-forge)]">a system regulated buyers can adopt.</span>
+            <span className="text-[color:var(--color-forge-text)]">a system regulated buyers can adopt.</span>
           </>
         }
         lede="Knowledge Foundry is built for organizations that must defend how their knowledge is produced, stored, and delivered. This page summarizes the security posture, the compliance posture, and the data handling that make the platform adoptable inside a regulated environment. Sub pages provide the detail."

@@ -143,7 +143,7 @@ export default function GapAnalysisPage() {
         ]}
         title={
           <>
-            Validate <span className="text-[color:var(--color-forge)]">first</span>.
+            Validate <span className="text-[color:var(--color-forge-text)]">first</span>.
             Improve second.
           </>
         }

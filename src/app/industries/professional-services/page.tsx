@@ -136,7 +136,7 @@ export default function ProfessionalServicesPage() {
         ]}
         title={
           <>
-            CPD is <span className="text-[color:var(--color-forge)]">evidence</span>. Not attendance.
+            CPD is <span className="text-[color:var(--color-forge-text)]">evidence</span>. Not attendance.
           </>
         }
         lede="Structured CPD, technical uplift across the firm, and alignment to sector standards for accounting, legal, engineering, and consulting practices. One framework. Multiple bodies. Evidence per practitioner."

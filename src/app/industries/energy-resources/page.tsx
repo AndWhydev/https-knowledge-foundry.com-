@@ -136,7 +136,7 @@ export default function EnergyResourcesPage() {
         ]}
         title={
           <>
-            Consistency is a property of the <span className="text-[color:var(--color-forge)]">system</span>.
+            Consistency is a property of the <span className="text-[color:var(--color-forge-text)]">system</span>.
           </>
         }
         lede="Safety critical operations turned into structured, verifiable competency. Procedures anchored to frameworks. Verification anchored to procedures. Evidence anchored to verification."

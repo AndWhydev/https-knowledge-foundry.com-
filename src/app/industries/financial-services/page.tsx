@@ -136,7 +136,7 @@ export default function FinancialServicesPage() {
         ]}
         title={
           <>
-            Training that survives a <span className="text-[color:var(--color-forge)]">supervisory</span> review.
+            Training that survives a <span className="text-[color:var(--color-forge-text)]">supervisory</span> review.
           </>
         }
         lede="Prudential obligations, licensing requirements, and product knowledge structured at clause level. Each module ties to the standard it exists to serve, and the evidence exports as a file when regulators ask."

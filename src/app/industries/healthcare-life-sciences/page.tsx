@@ -136,7 +136,7 @@ export default function HealthcareLifeSciencesPage() {
         ]}
         title={
           <>
-            Clinical governance is <span className="text-[color:var(--color-forge)]">structural</span>, not narrative.
+            Clinical governance is <span className="text-[color:var(--color-forge-text)]">structural</span>, not narrative.
           </>
         }
         lede="Clinical governance frameworks, credentialing pathways, CPD for licensed practitioners, and product training within promotional rules. All structured against the criterion, verified against the role, and evidenced for the accreditor."

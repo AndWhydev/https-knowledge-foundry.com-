@@ -75,8 +75,8 @@ export function CaseStudy({
           <div className="grid lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] gap-12 items-end">
             <div>
               <Reveal>
-                <div className="text-[11px] font-medium uppercase tracking-[0.18em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)] mb-5">
-                  Case study · {sector}
+                <div className="text-[11px] font-medium uppercase tracking-[0.18em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge-text)] mb-5">
+                  Illustrative example · {sector}
                 </div>
               </Reveal>
               <Reveal delay={0.08}>
@@ -87,6 +87,13 @@ export function CaseStudy({
               <Reveal delay={0.16}>
                 <p className="mt-7 text-[17.5px] md:text-[19px] leading-[1.55] text-white/70 max-w-[54ch]">
                   {dek}
+                </p>
+              </Reveal>
+              <Reveal delay={0.2}>
+                <p className="mt-6 max-w-[54ch] border-l-2 border-[color:var(--color-forge)] pl-4 text-[13.5px] leading-[1.6] text-white/60">
+                  This is an illustrative example: a composite scenario built from patterns
+                  common in this sector, not an account of a named client. Figures are
+                  indicative.
                 </p>
               </Reveal>
             </div>
@@ -102,9 +109,9 @@ export function CaseStudy({
                     <li key={c.id}>
                       <a
                         href={`#${c.id}`}
-                        className="group flex items-baseline gap-4 text-[13.5px] text-white/80 hover:text-[color:var(--color-forge)] transition-colors"
+                        className="group flex items-baseline gap-4 text-[13.5px] text-white/80 hover:text-[color:var(--color-forge-text)] transition-colors"
                       >
-                        <span className="font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.14em] text-[color:var(--color-forge)]">
+                        <span className="font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.14em] text-[color:var(--color-forge-text)]">
                           {c.n}
                         </span>
                         <span>{c.label}</span>
@@ -125,7 +132,7 @@ export function CaseStudy({
       <section className="py-16 md:py-24 bg-[color:var(--color-canvas-warm)] border-t border-[color:var(--color-hairline-strong)]">
         <Container>
           <div className="max-w-[900px] mx-auto text-center">
-            <div className="text-[11px] font-medium uppercase tracking-[0.18em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)] mb-5">
+            <div className="text-[11px] font-medium uppercase tracking-[0.18em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge-text)] mb-5">
               For your organization
             </div>
             <h2 className="text-[32px] md:text-[42px] leading-[1.1] font-[family-name:var(--font-display)] font-semibold tracking-[-0.028em] text-[color:var(--color-ink)] max-w-[24ch] mx-auto">
@@ -179,7 +186,7 @@ export function Chapter({
             <Reveal>
               <div className={cn(
                 "font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.18em] uppercase",
-                tone === "ink" ? "text-[color:var(--color-forge)]" : "text-[color:var(--color-forge)]",
+                tone === "ink" ? "text-[color:var(--color-forge-text)]" : "text-[color:var(--color-forge-text)]",
               )}>
                 Chapter {n}
               </div>

@@ -24,7 +24,7 @@ export function ProseBlock({
             {title}
           </SplitText>
           <Reveal delay={0.35}>
-            <div className="mt-8 space-y-5 text-[16px] leading-[1.7] text-[color:var(--color-ink-soft)] [&_a]:text-[color:var(--color-forge)] [&_a]:underline-offset-4 [&_strong]:text-[color:var(--color-ink)] [&_strong]:font-semibold">
+            <div className="mt-8 space-y-5 text-[16px] leading-[1.7] text-[color:var(--color-ink-soft)] [&_a]:text-[color:var(--color-forge-text)] [&_a]:underline-offset-4 [&_strong]:text-[color:var(--color-ink)] [&_strong]:font-semibold">
               {children}
             </div>
           </Reveal>
@@ -45,7 +45,7 @@ export function ProseBlock({
           </div>
           <div className="lg:pt-2">
             <Reveal delay={0.35}>
-              <div className="space-y-5 text-[16px] leading-[1.7] text-[color:var(--color-ink-soft)] [&_a]:text-[color:var(--color-forge)] [&_a]:underline-offset-4 [&_strong]:text-[color:var(--color-ink)] [&_strong]:font-semibold">
+              <div className="space-y-5 text-[16px] leading-[1.7] text-[color:var(--color-ink-soft)] [&_a]:text-[color:var(--color-forge-text)] [&_a]:underline-offset-4 [&_strong]:text-[color:var(--color-ink)] [&_strong]:font-semibold">
                 {children}
               </div>
             </Reveal>

@@ -128,10 +128,10 @@ function BentoCard({
     >
       <div className={`relative p-6 ${compact ? "pb-3" : "pb-4"}`}>
         <div className="flex items-center gap-3">
-          <span className="inline-flex h-9 w-9 items-center justify-center rounded-[var(--radius-sm)] bg-[color:var(--color-canvas-tint)] text-[color:var(--color-forge)]">
+          <span className="inline-flex h-9 w-9 items-center justify-center rounded-[var(--radius-sm)] bg-[color:var(--color-canvas-tint)] text-[color:var(--color-forge-text)]">
             {icon}
           </span>
-          <span className="text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)]">
+          <span className="text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge-text)]">
             {eyebrow}
           </span>
         </div>
@@ -167,23 +167,23 @@ function FrameworkVisual() {
       <div className="rounded-md border border-[color:var(--color-hairline)] bg-white shadow-[var(--shadow-quiet)] p-4 font-[family-name:var(--font-jetbrains)] text-[11px] leading-[1.55] text-[color:var(--color-ink-soft)] overflow-hidden h-full">
         <span className="text-[color:var(--color-ink-faint)]">{`{`}</span>
         <div className="pl-3">
-          <span className="text-[color:var(--color-forge)]">&quot;framework&quot;</span>: <span className="text-[color:var(--color-ink)]">&quot;anti-money-laundering-v3&quot;</span>,
+          <span className="text-[color:var(--color-forge-text)]">&quot;framework&quot;</span>: <span className="text-[color:var(--color-ink)]">&quot;anti-money-laundering-v3&quot;</span>,
           <br />
-          <span className="text-[color:var(--color-forge)]">&quot;version&quot;</span>: <span className="text-[color:var(--color-ink)]">&quot;3.2.0&quot;</span>,
+          <span className="text-[color:var(--color-forge-text)]">&quot;version&quot;</span>: <span className="text-[color:var(--color-ink)]">&quot;3.2.0&quot;</span>,
           <br />
-          <span className="text-[color:var(--color-forge)]">&quot;concepts&quot;</span>: <span className="text-[color:var(--color-ink)]">142</span>,
+          <span className="text-[color:var(--color-forge-text)]">&quot;concepts&quot;</span>: <span className="text-[color:var(--color-ink)]">142</span>,
           <br />
-          <span className="text-[color:var(--color-forge)]">&quot;relationships&quot;</span>: <span className="text-[color:var(--color-ink)]">318</span>,
+          <span className="text-[color:var(--color-forge-text)]">&quot;relationships&quot;</span>: <span className="text-[color:var(--color-ink)]">318</span>,
           <br />
-          <span className="text-[color:var(--color-forge)]">&quot;assessments&quot;</span>: <span className="text-[color:var(--color-ink)]">64</span>,
+          <span className="text-[color:var(--color-forge-text)]">&quot;assessments&quot;</span>: <span className="text-[color:var(--color-ink)]">64</span>,
           <br />
-          <span className="text-[color:var(--color-forge)]">&quot;standards&quot;</span>: <span className="text-[color:var(--color-ink)]">[&quot;FATF-R10&quot;, ...]</span>,
+          <span className="text-[color:var(--color-forge-text)]">&quot;standards&quot;</span>: <span className="text-[color:var(--color-ink)]">[&quot;FATF-R10&quot;, ...]</span>,
           <br />
-          <span className="text-[color:var(--color-forge)]">&quot;hash&quot;</span>: <span className="text-[color:var(--color-ink)]">&quot;fh:a7b1&hellip;c02e&quot;</span>,
+          <span className="text-[color:var(--color-forge-text)]">&quot;hash&quot;</span>: <span className="text-[color:var(--color-ink)]">&quot;fh:a7b1&hellip;c02e&quot;</span>,
           <br />
-          <span className="text-[color:var(--color-forge)]">&quot;approved_by&quot;</span>: <span className="text-[color:var(--color-ink)]">&quot;J. Chen&quot;</span>,
+          <span className="text-[color:var(--color-forge-text)]">&quot;approved_by&quot;</span>: <span className="text-[color:var(--color-ink)]">&quot;J. Chen&quot;</span>,
           <br />
-          <span className="text-[color:var(--color-forge)]">&quot;approved_at&quot;</span>: <span className="text-[color:var(--color-ink)]">&quot;2026-09-18T04:12Z&quot;</span>
+          <span className="text-[color:var(--color-forge-text)]">&quot;approved_at&quot;</span>: <span className="text-[color:var(--color-ink)]">&quot;2026-09-18T04:12Z&quot;</span>
           <br />
         </div>
         <span className="text-[color:var(--color-ink-faint)]">{`}`}</span>

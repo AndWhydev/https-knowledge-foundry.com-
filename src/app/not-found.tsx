@@ -32,7 +32,7 @@ export default function NotFound() {
                 href={l.href}
                 className="p-5 rounded-[var(--radius-md)] border border-[color:var(--color-hairline)] hover:border-[color:var(--color-ink-soft)] transition-colors"
               >
-                <div className="text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)] mb-2">Try</div>
+                <div className="text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge-text)] mb-2">Try</div>
                 <div className="text-[15px] font-semibold">{l.title}</div>
               </Link>
             ))}

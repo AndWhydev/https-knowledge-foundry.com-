@@ -129,7 +129,7 @@ export function BootSequence() {
               transition={{ duration: 0.4, delay: 0.2 }}
             >
               <span className="text-white font-semibold">Knowledge</span>
-              <span className="text-[color:var(--color-forge)] font-semibold ml-1.5">Foundry</span>
+              <span className="text-[color:var(--color-forge-text)] font-semibold ml-1.5">Foundry</span>
             </motion.div>
 
             {/* Terminal readout */}
@@ -141,7 +141,7 @@ export function BootSequence() {
                     activeStep > i + 1
                       ? "text-white/45"
                       : activeStep === i + 1
-                      ? "text-[color:var(--color-forge)]"
+                      ? "text-[color:var(--color-forge-text)]"
                       : "text-white/0"
                   } transition-colors duration-300`}
                 >
@@ -188,7 +188,7 @@ export function BootSequence() {
                   className="mt-1 inline-flex items-center gap-2 rounded-full bg-[color:var(--color-forge)]/10 border border-[color:var(--color-forge)]/40 px-3 py-1"
                 >
                   <span className="h-1.5 w-1.5 rounded-full bg-[color:var(--color-forge)]" style={{ animation: "forge-glow 2s ease-in-out infinite" }} />
-                  <span className="font-[family-name:var(--font-jetbrains)] text-[10px] tracking-[0.16em] uppercase text-[color:var(--color-forge)]">
+                  <span className="font-[family-name:var(--font-jetbrains)] text-[10px] tracking-[0.16em] uppercase text-[color:var(--color-forge-text)]">
                     System ready
                   </span>
                 </motion.div>

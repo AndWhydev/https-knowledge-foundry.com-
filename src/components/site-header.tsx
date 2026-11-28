@@ -130,7 +130,7 @@ export function SiteHeader() {
                   </p>
                   <Link
                     href={nav[openMega].href}
-                    className="mt-4 inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-forge)] hover:text-[color:var(--color-forge-hot)]"
+                    className="mt-4 inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-forge-text)] hover:text-[color:var(--color-forge-hot)]"
                   >
                     Overview
                     <span aria-hidden>→</span>
@@ -155,7 +155,7 @@ export function SiteHeader() {
                               className="group block -mx-2 px-2 py-1.5 rounded hover:bg-[color:var(--color-canvas-tint)] transition-colors"
                               onClick={() => setOpenMega(null)}
                             >
-                              <div className="text-[13.5px] font-medium text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] transition-colors">
+                              <div className="text-[13.5px] font-medium text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge-text)] transition-colors">
                                 {item.label}
                               </div>
                               <div className="text-[12px] text-[color:var(--color-ink-muted)] leading-snug mt-0.5">

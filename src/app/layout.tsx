@@ -56,6 +56,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   robots: { index: true, follow: true },
+  verification: { google: "DbgcjQHQn_2C7UqxKHdlbQ3C0fyobD329WhxGK3Xmk8" },
 };
 
 const jsonLd = {

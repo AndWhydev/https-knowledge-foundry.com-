@@ -148,7 +148,7 @@ export default function TechnicalOverviewPage() {
         title={
           <>
             For{" "}
-            <span className="text-[color:var(--color-forge)]">serious</span>{" "}
+            <span className="text-[color:var(--color-forge-text)]">serious</span>{" "}
             evaluators.
           </>
         }

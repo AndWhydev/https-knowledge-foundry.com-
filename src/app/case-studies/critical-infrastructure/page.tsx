@@ -9,9 +9,9 @@ import {
 
 export const metadata: Metadata = {
   alternates: { canonical: "/case-studies/critical-infrastructure" },
-  title: "Case study: critical infrastructure",
+  title: "Illustrative example: critical infrastructure",
   description:
-    "After a post incident review named the training, an Australian critical infrastructure operator rebuilt verification on the framework its safety case implied.",
+    "An illustrative example: after a post incident review names the training, an Australian critical infrastructure operator rebuilds verification on the framework its safety case implies.",
 };
 
 const chapters: CaseChapter[] = [
@@ -106,7 +106,7 @@ export default function Page() {
             { value: 2, label: "precursor behaviors from the post incident review closed under hybrid verification" },
             { value: 6, suffix: " mo", label: "post implementation review confirming precursor rate decline" },
           ]}
-          footnote="Illustrative outcomes drawn from typical engagement patterns. Specific program figures shared under NDA on request."
+          footnote="Indicative figures for an illustrative scenario, not results from a named client."
         />
       </Chapter>
 

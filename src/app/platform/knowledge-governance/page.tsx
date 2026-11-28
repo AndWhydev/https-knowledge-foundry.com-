@@ -139,7 +139,7 @@ export default function KnowledgeGovernancePage() {
         title={
           <>
             Human oversight.{" "}
-            <span className="text-[color:var(--color-forge)]">Machine</span>{" "}
+            <span className="text-[color:var(--color-forge-text)]">Machine</span>{" "}
             assistance.
           </>
         }

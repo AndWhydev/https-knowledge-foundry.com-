@@ -41,7 +41,7 @@ export function TopicHeader({
               <ol className="flex items-center gap-2 text-[12px] font-medium text-[color:var(--color-ink-faint)] font-[family-name:var(--font-jetbrains)]">
                 {breadcrumb.map((b, i) => (
                   <li key={b.href} className="flex items-center gap-2">
-                    <a href={b.href} className="hover:text-[color:var(--color-forge)] transition-colors uppercase tracking-[0.1em]">
+                    <a href={b.href} className="hover:text-[color:var(--color-forge-text)] transition-colors uppercase tracking-[0.1em]">
                       {b.label}
                     </a>
                     {i < breadcrumb.length - 1 && <span aria-hidden>/</span>}

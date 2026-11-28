@@ -66,7 +66,7 @@ export function SiteFooter() {
               </p>
               <Link
                 href="/demonstration"
-                className="group inline-flex items-center gap-2 text-[15px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)] transition-colors"
+                className="group inline-flex items-center gap-2 text-[15px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge-text)] transition-colors"
               >
                 <span className="border-b border-current pb-0.5">Request a demonstration</span>
                 <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
@@ -96,7 +96,7 @@ export function SiteFooter() {
                     <li key={link.href}>
                       <Link
                         href={link.href}
-                        className="block py-2.5 text-[15px] text-[color:var(--color-ink-soft)] hover:text-[color:var(--color-forge)] transition-colors"
+                        className="block py-2.5 text-[15px] text-[color:var(--color-ink-soft)] hover:text-[color:var(--color-forge-text)] transition-colors"
                       >
                         {link.label}
                       </Link>
@@ -116,7 +116,7 @@ export function SiteFooter() {
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="text-[13px] text-[color:var(--color-ink-soft)] hover:text-[color:var(--color-forge)] transition-colors"
+                      className="text-[13px] text-[color:var(--color-ink-soft)] hover:text-[color:var(--color-forge-text)] transition-colors"
                     >
                       {link.label}
                     </Link>

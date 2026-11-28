@@ -21,7 +21,7 @@ export default function AccessibilityStatementPage() {
           <nav aria-label="Breadcrumb" className="mb-8">
             <ol className="flex items-center gap-2 text-[12px] font-medium text-[color:var(--color-ink-faint)] font-[family-name:var(--font-jetbrains)] uppercase tracking-[0.1em]">
               <li>
-                <Link href="/" className="hover:text-[color:var(--color-forge)]">Home</Link>
+                <Link href="/" className="hover:text-[color:var(--color-forge-text)]">Home</Link>
               </li>
               <li aria-hidden>/</li>
               <li>Accessibility statement</li>
@@ -47,7 +47,7 @@ export default function AccessibilityStatementPage() {
 
       <Section spacing="compact">
         <Container size="narrow">
-          <article className="space-y-14 text-[15.5px] leading-[1.75] text-[color:var(--color-ink-soft)] [&_h2]:text-[color:var(--color-ink)] [&_h2]:text-[24px] [&_h2]:leading-[1.25] [&_h2]:font-semibold [&_h2]:font-[family-name:var(--font-display)] [&_h2]:tracking-tight [&_h2]:mb-4 [&_h3]:text-[color:var(--color-ink)] [&_h3]:text-[17px] [&_h3]:font-semibold [&_h3]:mb-2 [&_h3]:mt-6 [&_strong]:text-[color:var(--color-ink)] [&_strong]:font-semibold [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-2 [&_a]:text-[color:var(--color-forge)] [&_a]:underline [&_a]:underline-offset-2">
+          <article className="space-y-14 text-[15.5px] leading-[1.75] text-[color:var(--color-ink-soft)] [&_h2]:text-[color:var(--color-ink)] [&_h2]:text-[24px] [&_h2]:leading-[1.25] [&_h2]:font-semibold [&_h2]:font-[family-name:var(--font-display)] [&_h2]:tracking-tight [&_h2]:mb-4 [&_h3]:text-[color:var(--color-ink)] [&_h3]:text-[17px] [&_h3]:font-semibold [&_h3]:mb-2 [&_h3]:mt-6 [&_strong]:text-[color:var(--color-ink)] [&_strong]:font-semibold [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-2 [&_a]:text-[color:var(--color-forge-text)] [&_a]:underline [&_a]:underline-offset-2">
             <section>
               <h2>1. Committed conformance level</h2>
               <p>

@@ -144,7 +144,7 @@ export default function AuditEvidencePage() {
         title={
           <>
             When they ask how you know, the answer is a{" "}
-            <span className="text-[color:var(--color-forge)]">file</span>.
+            <span className="text-[color:var(--color-forge-text)]">file</span>.
           </>
         }
         lede="In regulated and accredited environments, creating content is the easy part. Demonstrating how it was created, how it evolved, who reviewed it, and how it was approved. That is where confidence is won or lost. Evidence should be visible, traceable, and defensible."

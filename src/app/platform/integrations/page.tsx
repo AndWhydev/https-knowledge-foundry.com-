@@ -134,7 +134,7 @@ export default function IntegrationsPage() {
         title={
           <>
             Fit your environment,{" "}
-            <span className="text-[color:var(--color-forge)]">or become</span> it.
+            <span className="text-[color:var(--color-forge-text)]">or become</span> it.
           </>
         }
         lede="Knowledge Foundry is built to integrate into the systems you already run, or to become the delivery environment itself. Structural integrity is preserved either way. The choice is deployment shape. It is not a trade off in integrity."

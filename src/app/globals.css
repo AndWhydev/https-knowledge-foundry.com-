@@ -10,6 +10,10 @@
   --color-forge: #ef6704;
   --color-forge-hot: #ff7d1a;
   --color-forge-deep: #b64c00;
+  /* Orange for text on light backgrounds. Still the brand orange (3.2:1 on white)
+     until the owner picks a darker shade; #bd4d00 passes 4.5:1 on every light canvas.
+     Dark sections always use the brand orange (see below). */
+  --color-forge-text: #ef6704;
 
   --color-canvas: #ffffff;
   --color-canvas-warm: #fbf9f6;
@@ -102,7 +106,7 @@
   font-size: 0.6875rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--color-forge);
+  color: var(--color-forge-text);
   font-weight: 500;
 }
 
@@ -220,4 +224,12 @@ html:not(.kf-hydrated) main [data-reveal] {
 }
 @media (prefers-reduced-motion: reduce) {
   .kf-trace { animation: none; }
+}
+
+/* Brand orange reads at 5.8:1 on ink, so dark sections keep it for text. */
+[class*="bg-[color:var(--color-ink)]"],
+[class*="bg-[color:var(--color-ink-soft)]"],
+[class*="bg-black"],
+.text-white {
+  --color-forge-text: var(--color-forge);
 }

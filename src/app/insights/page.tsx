@@ -97,7 +97,7 @@ export default function InsightsIndexPage() {
       <TopicHeader
         eyebrow="Insights"
         breadcrumb={[{ label: "Insights", href: "/insights" }]}
-        title={<>Long form arguments for the <span className="text-[color:var(--color-forge)]">discipline of structured knowledge.</span></>}
+        title={<>Long form arguments for the <span className="text-[color:var(--color-forge-text)]">discipline of structured knowledge.</span></>}
         lede="Working papers, methodology notes, and explanations written for auditors, from the team building Knowledge Foundry. Written for senior compliance, L&D, and risk owners in regulated organizations."
         primaryCta={{ label: "Request a demonstration", href: "/demonstration" }}
         secondaryCta={{ label: "See case studies", href: "/case-studies" }}
@@ -129,13 +129,13 @@ export default function InsightsIndexPage() {
                   className="group flex h-full flex-col rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white p-8 hover:border-[color:var(--color-ink-soft)] transition-all hover:-translate-y-1 duration-300"
                 >
                   <div className="flex items-center gap-3 mb-4 text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)]">
-                    <span className="text-[color:var(--color-forge)]">{a.topic}</span>
+                    <span className="text-[color:var(--color-forge-text)]">{a.topic}</span>
                     <span aria-hidden className="text-[color:var(--color-ink-faint)]">·</span>
                     <span className="text-[color:var(--color-ink-faint)]">{a.date}</span>
                     <span aria-hidden className="text-[color:var(--color-ink-faint)]">·</span>
                     <span className="text-[color:var(--color-ink-faint)]">{a.read}</span>
                   </div>
-                  <h3 className="text-[22px] font-[family-name:var(--font-display)] font-semibold tracking-tight mb-3 group-hover:text-[color:var(--color-forge)] transition-colors">
+                  <h3 className="text-[22px] font-[family-name:var(--font-display)] font-semibold tracking-tight mb-3 group-hover:text-[color:var(--color-forge-text)] transition-colors">
                     {a.title}
                   </h3>
                   <p className="text-[14.5px] text-[color:var(--color-ink-soft)] leading-[1.6] flex-1">
@@ -165,7 +165,7 @@ export default function InsightsIndexPage() {
             </div>
             <Link
               href="/demonstration"
-              className="inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-forge)] hover:text-[color:var(--color-forge-hot)]"
+              className="inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-forge-text)] hover:text-[color:var(--color-forge-hot)]"
             >
               Request access
               <ArrowUpRight className="h-3.5 w-3.5" aria-hidden />

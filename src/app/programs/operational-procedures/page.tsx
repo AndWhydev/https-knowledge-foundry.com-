@@ -134,7 +134,7 @@ export default function OperationalProceduresPage() {
         ]}
         title={
           <>
-            Knowing is <span className="text-[color:var(--color-forge)]">not</span> the same as doing.
+            Knowing is <span className="text-[color:var(--color-forge-text)]">not</span> the same as doing.
           </>
         }
         lede="The Foundry transforms tasks, workflows, and procedures into structured instruction aligned to clarity, repeatability, and measurable execution. Structure governs execution."

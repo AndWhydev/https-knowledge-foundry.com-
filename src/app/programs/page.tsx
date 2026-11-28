@@ -134,7 +134,7 @@ export default function ProgramsIndexPage() {
         breadcrumb={[{ label: "Programs", href: "/programs" }]}
         title={
           <>
-            Different outcomes. One <span className="text-[color:var(--color-forge)]">structural</span> discipline.
+            Different outcomes. One <span className="text-[color:var(--color-forge-text)]">structural</span> discipline.
           </>
         }
         lede="Five program types, each purpose built for the outcomes an enterprise is accountable for. Each governed by an approved framework, each traceable to source, each reviewable at block level before delivery."

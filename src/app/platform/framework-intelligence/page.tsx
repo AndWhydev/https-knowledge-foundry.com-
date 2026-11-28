@@ -70,7 +70,7 @@ export default function FrameworkIntelligencePage() {
           { label: "Platform", href: "/platform" },
           { label: "Framework Intelligence", href: "/platform/framework-intelligence" },
         ]}
-        title={<>Structure the subject <span className="text-[color:var(--color-forge)]">before</span> writing anything about it.</>}
+        title={<>Structure the subject <span className="text-[color:var(--color-forge-text)]">before</span> writing anything about it.</>}
         lede="Framework Intelligence maps concepts, relationships, progression, and assessment logic. Instruction is written after that, not before. The framework is the object of record. Content is downstream of it."
         secondaryCta={{ label: "See a live framework", href: "/platform/see-it-work" }}
         visual={<HeroTerminal

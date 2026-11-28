@@ -106,7 +106,7 @@ export default function SeeItWorkPage() {
         title={
           <>
             Knowledge Foundry,{" "}
-            <span className="text-[color:var(--color-forge)]">on camera</span>.
+            <span className="text-[color:var(--color-forge-text)]">on camera</span>.
           </>
         }
         lede="Ten short narrated explainers on what the platform does, focused on business outcomes rather than the technology under the hood. Start with the overview, or jump to the question you care about."

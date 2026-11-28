@@ -77,7 +77,7 @@ export function CompactProcess() {
                 className="h-1.5 w-1.5 rounded-full bg-[color:var(--color-forge)]"
                 style={{ animation: "forge-glow 2s ease-in-out infinite" }}
               />
-              <span className="font-[family-name:var(--font-jetbrains)] text-[10px] tracking-[0.16em] text-[color:var(--color-forge)]">
+              <span className="font-[family-name:var(--font-jetbrains)] text-[10px] tracking-[0.16em] text-[color:var(--color-forge-text)]">
                 LIVE
               </span>
               <AnimatePresence mode="wait">
@@ -135,7 +135,7 @@ export function CompactProcess() {
                   <div className="flex items-baseline gap-4 mb-2">
                     <span className={cn(
                       "font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.18em] transition-colors",
-                      isActive ? "text-[color:var(--color-forge)]" : "text-white/40",
+                      isActive ? "text-[color:var(--color-forge-text)]" : "text-white/40",
                     )}>
                       STEP {step.n}
                     </span>

@@ -170,7 +170,7 @@ export default function SecurityPage() {
         title={
           <>
             Defended by design.{" "}
-            <span className="text-[color:var(--color-forge)]">Documented so it can be audited.</span>
+            <span className="text-[color:var(--color-forge-text)]">Documented so it can be audited.</span>
           </>
         }
         lede="Security is a discipline, not a claim. This page states the threats we design against, the controls that mitigate them, how we respond when something goes wrong, and how to report a suspected issue."

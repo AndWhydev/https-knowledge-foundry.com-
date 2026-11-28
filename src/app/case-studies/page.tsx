@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/case-studies" },
   title: "Case studies in regulated enterprise",
   description:
-    "Anonymized case studies from Europe, the United States, and Australia showing how Knowledge Foundry rebuilds training frameworks for financial services, healthcare, and critical infrastructure operators.",
+    "Illustrative examples from Europe, the United States, and Australia showing how Knowledge Foundry rebuilds training frameworks for financial services, healthcare, and critical infrastructure operators.",
 };
 
 const cases = [
@@ -46,8 +46,8 @@ export default function CaseStudiesIndexPage() {
       <TopicHeader
         eyebrow="Case studies"
         breadcrumb={[{ label: "Case studies", href: "/case-studies" }]}
-        title={<>How the Foundry <span className="text-[color:var(--color-forge)]">operates</span> inside regulated enterprise.</>}
-        lede="Three anonymized programs across financial services, healthcare, and critical infrastructure, in Portugal, the United States, and Australia. Different sectors and markets, one pattern. Framework first, content second, evidence throughout."
+        title={<>How the Foundry <span className="text-[color:var(--color-forge-text)]">operates</span> inside regulated enterprise.</>}
+        lede="Three illustrative programs across financial services, healthcare, and critical infrastructure, in Portugal, the United States, and Australia. Different sectors and markets, one pattern. Framework first, content second, evidence throughout."
         primaryCta={{ label: "Request a demonstration", href: "/demonstration" }}
         secondaryCta={{ label: "See the platform", href: "/platform/framework-intelligence" }}
       />
@@ -56,21 +56,21 @@ export default function CaseStudiesIndexPage() {
         <Container>
           <div className="mb-12 flex items-start justify-between gap-6 flex-wrap">
             <div className="max-w-[640px]">
-              <Eyebrow>Selected engagements</Eyebrow>
+              <Eyebrow>Examples</Eyebrow>
               <Reveal>
-                <h2 className="text-display-2 mt-5">Anonymized by default. Named on request.</h2>
+                <h2 className="text-display-2 mt-5">Illustrative by design.</h2>
               </Reveal>
               <Reveal delay={0.1}>
                 <p className="text-lede mt-5">
-                  The cases below are written without client identifiers. Named references, board level
-                  metrics, and full outcome dossiers are shared under NDA on request during the
-                  demonstration process.
+                  The examples below are composite scenarios built from patterns common in each
+                  sector. They show how a program runs on the Foundry; they are not accounts of
+                  named clients, and their figures are indicative.
                 </p>
               </Reveal>
             </div>
             <div className="inline-flex items-center gap-2 rounded-[var(--radius-sm)] border border-[color:var(--color-hairline-strong)] bg-white px-4 py-2.5 text-[12px] font-medium font-[family-name:var(--font-jetbrains)] uppercase tracking-[0.12em] text-[color:var(--color-ink-muted)]">
-              <Lock className="h-3.5 w-3.5 text-[color:var(--color-forge)]" aria-hidden />
-              Named references under NDA
+              <Lock className="h-3.5 w-3.5 text-[color:var(--color-forge-text)]" aria-hidden />
+              Illustrative examples
             </div>
           </div>
 
@@ -81,13 +81,13 @@ export default function CaseStudiesIndexPage() {
                   href={c.href}
                   className="group flex h-full flex-col rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white p-8 hover:border-[color:var(--color-ink-soft)] transition-all hover:-translate-y-1 duration-300"
                 >
-                  <div className="inline-flex h-11 w-11 items-center justify-center rounded-[var(--radius-sm)] bg-[color:var(--color-canvas-tint)] text-[color:var(--color-forge)] mb-6">
+                  <div className="inline-flex h-11 w-11 items-center justify-center rounded-[var(--radius-sm)] bg-[color:var(--color-canvas-tint)] text-[color:var(--color-forge-text)] mb-6">
                     {c.icon}
                   </div>
-                  <div className="text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)] mb-3">
+                  <div className="text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge-text)] mb-3">
                     {c.sector}
                   </div>
-                  <h3 className="text-[22px] font-[family-name:var(--font-display)] font-semibold tracking-tight mb-2 group-hover:text-[color:var(--color-forge)] transition-colors">
+                  <h3 className="text-[22px] font-[family-name:var(--font-display)] font-semibold tracking-tight mb-2 group-hover:text-[color:var(--color-forge-text)] transition-colors">
                     {c.title}
                   </h3>
                   <div className="text-[13px] text-[color:var(--color-ink-muted)] mb-4 font-[family-name:var(--font-jetbrains)]">
@@ -113,7 +113,7 @@ export default function CaseStudiesIndexPage() {
                   Available
                 </div>
                 <h3 className="text-[22px] font-[family-name:var(--font-display)] font-semibold tracking-tight mb-3 text-[color:var(--color-ink)]">
-                  Your case study could sit here.
+                  Your program could sit here.
                 </h3>
                 <p className="text-[14.5px] text-[color:var(--color-ink-soft)] leading-[1.6] flex-1">
                   Programs taken on this year are selected for their difficulty, not their scale. If
@@ -122,7 +122,7 @@ export default function CaseStudiesIndexPage() {
                 </p>
                 <Link
                   href="/demonstration"
-                  className="mt-7 inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-forge)] hover:text-[color:var(--color-forge-hot)]"
+                  className="mt-7 inline-flex items-center gap-1.5 text-[13px] font-medium text-[color:var(--color-forge-text)] hover:text-[color:var(--color-forge-hot)]"
                 >
                   Start a conversation
                   <ArrowUpRight className="h-3.5 w-3.5" aria-hidden />

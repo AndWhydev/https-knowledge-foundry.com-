@@ -6,14 +6,15 @@ export const site = {
   // Vercel serves www as the primary domain (apex 308s to it), so canonicals,
   // sitemap, and structured data must use www or they point at a redirect.
   url: "https://www.knowledge-foundry.com",
-  // Registered name and NIPC pending from counsel. Set `registeredName` and
-  // `companyNumber` when confirmed; until then the site shows the trading name.
+  // Knowledge Foundry LDA is not incorporated yet (owner, 28 Nov 2026). Once it is,
+  // set `registeredName: "Knowledge Foundry LDA"`, the NIPC in `companyNumber`, and
+  // reword `registrationLine`; until then the site shows the trading name.
   legal: {
     entity: "Knowledge Foundry",
     registeredName: "",
     companyNumber: "",
     jurisdiction: "Portugal",
-    registrationLine: "A company registered in Portugal. Registration details available on request.",
+    registrationLine: "Being incorporated in Portugal. Registration details will be published here once issued.",
   },
   contact: {
     email: "contact@knowledge-foundry.com",

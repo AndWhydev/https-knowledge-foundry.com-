@@ -140,7 +140,7 @@ export default function EnterpriseLearningModernisationPage() {
         title={
           <>
             Modernize what matters.{" "}
-            <span className="text-[color:var(--color-forge)]">Preserve</span>{" "}
+            <span className="text-[color:var(--color-forge-text)]">Preserve</span>{" "}
             what works.
           </>
         }

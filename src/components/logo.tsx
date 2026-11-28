@@ -6,7 +6,7 @@ export function Logo({ className, monochrome = false }: { className?: string; mo
       <LogoMark className="h-7 w-7" monochrome={monochrome} />
       <span className="font-[family-name:var(--font-display)] text-[15px] tracking-tight leading-none">
         <span className="font-semibold text-[color:var(--color-ink)]">Knowledge</span>
-        <span className="ml-1 font-semibold text-[color:var(--color-forge)]">Foundry</span>
+        <span className="ml-1 font-semibold text-[color:var(--color-forge-text)]">Foundry</span>
       </span>
     </span>
   );

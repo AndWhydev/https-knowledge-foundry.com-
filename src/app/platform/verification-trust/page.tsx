@@ -139,7 +139,7 @@ export default function VerificationTrustPage() {
         title={
           <>
             Why you can{" "}
-            <span className="text-[color:var(--color-forge)]">rely</span> on it.
+            <span className="text-[color:var(--color-forge-text)]">rely</span> on it.
           </>
         }
         lede="Frameworks are defined, reviewed, controlled, and approved by a human before content reaches delivery. Each block is cryptographically identifiable. Each program carries a Master Integrity Root. Trust is a technical property, not a claim."

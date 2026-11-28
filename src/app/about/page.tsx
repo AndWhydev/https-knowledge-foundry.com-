@@ -52,7 +52,7 @@ export default function AboutPage() {
         title={
           <>
             Structure governs{" "}
-            <span className="text-[color:var(--color-forge)]">everything downstream.</span>
+            <span className="text-[color:var(--color-forge-text)]">everything downstream.</span>
           </>
         }
         lede="Knowledge Foundry is a governed knowledge architecture for organizations whose programs must be defensible: to a regulator, to an accreditor, or to their own board. We were built for the environments where a lesson is not enough. The framework is the asset."
@@ -141,7 +141,7 @@ export default function AboutPage() {
                   General
                 </div>
                 <p className="text-[color:var(--color-ink)] font-semibold">
-                  <a href={`mailto:${site.contact.email}`} className="hover:text-[color:var(--color-forge)]">
+                  <a href={`mailto:${site.contact.email}`} className="hover:text-[color:var(--color-forge-text)]">
                     {site.contact.email}
                   </a>
                 </p>
@@ -154,7 +154,7 @@ export default function AboutPage() {
                   Security
                 </div>
                 <p className="text-[color:var(--color-ink)] font-semibold">
-                  <a href="mailto:security@knowledge-foundry.com" className="hover:text-[color:var(--color-forge)]">
+                  <a href="mailto:security@knowledge-foundry.com" className="hover:text-[color:var(--color-forge-text)]">
                     security@knowledge-foundry.com
                   </a>
                 </p>

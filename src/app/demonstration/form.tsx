@@ -176,7 +176,7 @@ export function DemonstrationForm() {
         aria-live="polite"
         className="rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white p-10 md:p-14 text-center"
       >
-        <span className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-[color:var(--color-forge)]/12 text-[color:var(--color-forge)] mb-6">
+        <span className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-[color:var(--color-forge)]/12 text-[color:var(--color-forge-text)] mb-6">
           <Check className="h-6 w-6" strokeWidth={2.4} />
         </span>
         <h2 className="text-[28px] md:text-[32px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-[color:var(--color-ink)]">
@@ -189,7 +189,7 @@ export function DemonstrationForm() {
         </p>
         <p className="mt-6 text-[12.5px] text-[color:var(--color-ink-faint)]">
           Wrong details? Email{" "}
-          <a href="mailto:contact@knowledge-foundry.com" className="text-[color:var(--color-forge)]">
+          <a href="mailto:contact@knowledge-foundry.com" className="text-[color:var(--color-forge-text)]">
             contact@knowledge-foundry.com
           </a>
           .
@@ -249,7 +249,7 @@ export function DemonstrationForm() {
           aria-live="assertive"
           className="mt-6 flex items-start gap-3 rounded-[var(--radius-sm)] border border-[color:var(--color-forge)]/30 bg-[color:var(--color-forge)]/6 p-4 text-[13.5px] leading-[1.55] text-[color:var(--color-ink-soft)]"
         >
-          <AlertCircle className="mt-0.5 h-4 w-4 text-[color:var(--color-forge)] shrink-0" aria-hidden />
+          <AlertCircle className="mt-0.5 h-4 w-4 text-[color:var(--color-forge-text)] shrink-0" aria-hidden />
           <span>{errorMessage}</span>
         </div>
       )}
@@ -303,7 +303,7 @@ function Field({
         className="block text-[12px] font-medium uppercase tracking-[0.12em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-ink-soft)] mb-2"
       >
         {label}
-        {required && <span className="text-[color:var(--color-forge)] ml-1">*</span>}
+        {required && <span className="text-[color:var(--color-forge-text)] ml-1">*</span>}
       </label>
       <input
         id={id}
@@ -322,7 +322,7 @@ function Field({
         }`}
       />
       {error && (
-        <p id={`${id}-error`} className="mt-2 text-[12.5px] text-[color:var(--color-forge)]">
+        <p id={`${id}-error`} className="mt-2 text-[12.5px] text-[color:var(--color-forge-text)]">
           {error}
         </p>
       )}
@@ -361,7 +361,7 @@ function TextareaField({
         className="block text-[12px] font-medium uppercase tracking-[0.12em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-ink-soft)] mb-2"
       >
         {label}
-        {required && <span className="text-[color:var(--color-forge)] ml-1">*</span>}
+        {required && <span className="text-[color:var(--color-forge-text)] ml-1">*</span>}
       </label>
       <textarea
         id={id}
@@ -380,7 +380,7 @@ function TextareaField({
         }`}
       />
       {error && (
-        <p id={`${id}-error`} className="mt-2 text-[12.5px] text-[color:var(--color-forge)]">
+        <p id={`${id}-error`} className="mt-2 text-[12.5px] text-[color:var(--color-forge-text)]">
           {error}
         </p>
       )}

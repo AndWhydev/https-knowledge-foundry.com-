@@ -136,7 +136,7 @@ export default function GovernmentDefencePage() {
         ]}
         title={
           <>
-            Cleared. Evidenced. <span className="text-[color:var(--color-forge)]">Defensible</span>.
+            Cleared. Evidenced. <span className="text-[color:var(--color-forge-text)]">Defensible</span>.
           </>
         }
         lede="Security control frameworks and agency specific policy translated into structured instruction. Cleared workforce training with coverage tagged to role and evidence that survives external review."

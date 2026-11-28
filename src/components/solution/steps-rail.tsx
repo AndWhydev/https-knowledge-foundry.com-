@@ -76,7 +76,7 @@ export function StepsRail({ steps, tone }: { steps: Step[]; tone: "ink" | "canva
                 <div
                   className={cn(
                     "inline-flex items-center gap-2 font-[family-name:var(--font-jetbrains)] text-[11px] tracking-[0.18em] transition-colors duration-500",
-                    isLit(i) ? "text-[color:var(--color-forge)]" : tone === "ink" ? "text-white/35" : "text-[color:var(--color-ink-faint)]",
+                    isLit(i) ? "text-[color:var(--color-forge-text)]" : tone === "ink" ? "text-white/35" : "text-[color:var(--color-ink-faint)]",
                   )}
                 >
                   <span
@@ -92,7 +92,7 @@ export function StepsRail({ steps, tone }: { steps: Step[]; tone: "ink" | "canva
                   <ArrowRight
                     className={cn(
                       "h-3.5 w-3.5 hidden lg:block transition-transform duration-300 group-hover:translate-x-1",
-                      tone === "ink" ? "text-white/25 group-hover:text-[color:var(--color-forge)]" : "text-[color:var(--color-ink-faint)] group-hover:text-[color:var(--color-forge)]",
+                      tone === "ink" ? "text-white/25 group-hover:text-[color:var(--color-forge-text)]" : "text-[color:var(--color-ink-faint)] group-hover:text-[color:var(--color-forge-text)]",
                     )}
                     aria-hidden
                   />

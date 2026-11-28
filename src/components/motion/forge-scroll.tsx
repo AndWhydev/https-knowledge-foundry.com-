@@ -131,7 +131,7 @@ export function ForgeScroll({
                   exit={reduce ? { opacity: 0 } : { opacity: 0, y: -16, filter: "blur(6px)" }}
                   transition={{ duration: 0.45, ease: [0.25, 1, 0.5, 1] }}
                 >
-                  <div className="font-[family-name:var(--font-jetbrains)] text-[12px] tracking-[0.16em] text-[color:var(--color-forge)]">
+                  <div className="font-[family-name:var(--font-jetbrains)] text-[12px] tracking-[0.16em] text-[color:var(--color-forge-text)]">
                     STEP {steps[active].n} / {String(steps.length).padStart(2, "0")}
                   </div>
                   <h3 className="mt-3 text-white text-[44px] lg:text-[56px] leading-[1.02] font-semibold tracking-tight font-[family-name:var(--font-display)]">

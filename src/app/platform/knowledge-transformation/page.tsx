@@ -135,7 +135,7 @@ export default function KnowledgeTransformationPage() {
         title={
           <>
             Turn knowledge into{" "}
-            <span className="text-[color:var(--color-forge)]">capability</span>.
+            <span className="text-[color:var(--color-forge-text)]">capability</span>.
           </>
         }
         lede="Knowledge exists in many forms. Documented policies, tacit expertise, emerging research, and abstract competency models. Regardless of origin, it must be structured before it can be consistently taught, assessed, verified, and applied."

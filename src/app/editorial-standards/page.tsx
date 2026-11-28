@@ -45,7 +45,7 @@ export default function EditorialStandards() {
   return (
     <section className="bg-[color:var(--color-canvas-warm)] py-12 md:py-16">
       <Container size="narrow">
-        <div className={`${label} text-[color:var(--color-forge)] mb-4`}>Editorial standards</div>
+        <div className={`${label} text-[color:var(--color-forge-text)] mb-4`}>Editorial standards</div>
         <h1 className="text-[36px] md:text-[52px] leading-[1.04] font-[family-name:var(--font-display)] font-semibold tracking-[-0.03em] text-[color:var(--color-ink)] max-w-[20ch]">
           How our reference pages are made.
         </h1>

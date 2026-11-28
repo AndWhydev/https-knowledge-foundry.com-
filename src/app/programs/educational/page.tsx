@@ -134,7 +134,7 @@ export default function EducationalProgramsPage() {
         ]}
         title={
           <>
-            Educational programs built on structure <span className="text-[color:var(--color-forge)]">rather</span> than slides.
+            Educational programs built on structure <span className="text-[color:var(--color-forge-text)]">rather</span> than slides.
           </>
         }
         lede="The Foundry transforms subjects into structured learning systems aligned to progression, comprehension, and measurable competency. Educators focus on judgment. The system holds the architecture."

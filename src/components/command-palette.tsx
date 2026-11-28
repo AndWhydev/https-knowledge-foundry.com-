@@ -158,9 +158,9 @@ function PaletteItem({
     <Command.Item
       value={`${label} ${keywords ?? ""}`}
       onSelect={onSelect}
-      className="group flex items-center gap-3 px-3 py-2.5 rounded-[var(--radius-sm)] cursor-pointer text-[color:var(--color-ink)] aria-selected:bg-[color:var(--color-canvas-warm)] aria-selected:text-[color:var(--color-forge)] transition-colors"
+      className="group flex items-center gap-3 px-3 py-2.5 rounded-[var(--radius-sm)] cursor-pointer text-[color:var(--color-ink)] aria-selected:bg-[color:var(--color-canvas-warm)] aria-selected:text-[color:var(--color-forge-text)] transition-colors"
     >
-      <span className={`inline-flex h-7 w-7 items-center justify-center rounded-[var(--radius-xs)] ${highlight ? "bg-[color:var(--color-forge)] text-white" : "bg-[color:var(--color-canvas-tint)] text-[color:var(--color-forge)]"}`}>
+      <span className={`inline-flex h-7 w-7 items-center justify-center rounded-[var(--radius-xs)] ${highlight ? "bg-[color:var(--color-forge)] text-white" : "bg-[color:var(--color-canvas-tint)] text-[color:var(--color-forge-text)]"}`}>
         {icon ?? <ArrowRight className="h-3.5 w-3.5" />}
       </span>
       <div className="flex-1 min-w-0">
@@ -171,7 +171,7 @@ function PaletteItem({
           </div>
         )}
       </div>
-      <ArrowRight className="h-3.5 w-3.5 text-[color:var(--color-ink-faint)] group-aria-selected:text-[color:var(--color-forge)] transition-all group-aria-selected:translate-x-0.5" aria-hidden />
+      <ArrowRight className="h-3.5 w-3.5 text-[color:var(--color-ink-faint)] group-aria-selected:text-[color:var(--color-forge-text)] transition-all group-aria-selected:translate-x-0.5" aria-hidden />
     </Command.Item>
   );
 }

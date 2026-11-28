@@ -115,7 +115,7 @@ export default function CompliancePosturePage() {
         title={
           <>
             The paperwork behind{" "}
-            <span className="text-[color:var(--color-forge)]">the platform.</span>
+            <span className="text-[color:var(--color-forge-text)]">the platform.</span>
           </>
         }
         lede="Data handling, subprocessors, privacy program, DPA, retention, residency, and cross border transfers, described in one place, in the terms your procurement, privacy, and legal teams already use."
@@ -171,7 +171,7 @@ export default function CompliancePosturePage() {
         title="How the privacy program is run in practice."
       >
         <p>
-          Knowledge Foundry is registered in Portugal, so our privacy program
+          Knowledge Foundry is based in Portugal, so our privacy program
           is operated under the GDPR and Portuguese Law 58/2019, with the
           CNPD as our lead supervisory authority. A named privacy contact
           receives requests from customers and, where relevant, from data

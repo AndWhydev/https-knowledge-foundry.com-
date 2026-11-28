@@ -136,7 +136,7 @@ export default function HigherEducationPage() {
         ]}
         title={
           <>
-            Constructive alignment as a <span className="text-[color:var(--color-forge)]">structural</span> property.
+            Constructive alignment as a <span className="text-[color:var(--color-forge-text)]">structural</span> property.
           </>
         }
         lede="Course architecture aligned to institutional quality standards. Outcomes, activities, and assessment linked at the framework level. Evidence for institutional and professional accreditation produced by design."

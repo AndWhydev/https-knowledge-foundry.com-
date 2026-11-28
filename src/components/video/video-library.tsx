@@ -14,7 +14,7 @@ export function VideoLibrary({ exclude }: { exclude?: string }) {
         if (list.length === 0) return null;
         return (
           <section key={chapter} aria-labelledby={`chapter-${chapter}`}>
-            <h3 id={`chapter-${chapter}`} className={`${label} text-[color:var(--color-forge)] mb-4`}>
+            <h3 id={`chapter-${chapter}`} className={`${label} text-[color:var(--color-forge-text)] mb-4`}>
               {chapter}
             </h3>
             <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -38,7 +38,7 @@ export function VideoLibrary({ exclude }: { exclude?: string }) {
                         {clock(v.seconds)}
                       </span>
                     </div>
-                    <div className="mt-3 text-[17px] font-semibold tracking-tight font-[family-name:var(--font-display)] text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)]">
+                    <div className="mt-3 text-[17px] font-semibold tracking-tight font-[family-name:var(--font-display)] text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge-text)]">
                       {v.title}
                     </div>
                     <p className="mt-1 text-[14.5px] leading-[1.55] text-[color:var(--color-ink-muted)]">{v.tagline}</p>

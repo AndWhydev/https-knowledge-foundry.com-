@@ -67,7 +67,7 @@ export function LearnIndex({ kind }: { kind: LearnKind }) {
       <section className="bg-[color:var(--color-canvas-warm)] pt-10 md:pt-14 pb-12 border-b border-[color:var(--color-hairline-strong)]">
         <Container size="narrow">
           <nav aria-label="Breadcrumb" className={`${label} text-[color:var(--color-ink-muted)] mb-8`}>
-            <Link href="/learn" className="hover:text-[color:var(--color-forge)]">
+            <Link href="/learn" className="hover:text-[color:var(--color-forge-text)]">
               Learn
             </Link>
           </nav>
@@ -86,7 +86,7 @@ export function LearnIndex({ kind }: { kind: LearnKind }) {
                 <a
                   key={letter}
                   href={`#${groupId(letter)}`}
-                  className="inline-flex items-center gap-1.5 rounded-full border border-[color:var(--color-hairline-strong)] px-3 py-1.5 text-[13px] text-[color:var(--color-ink-soft)] hover:border-[color:var(--color-forge)] hover:text-[color:var(--color-forge)] transition-colors"
+                  className="inline-flex items-center gap-1.5 rounded-full border border-[color:var(--color-hairline-strong)] px-3 py-1.5 text-[13px] text-[color:var(--color-ink-soft)] hover:border-[color:var(--color-forge)] hover:text-[color:var(--color-forge-text)] transition-colors"
                 >
                   {letter}
                   <span className="text-[color:var(--color-ink-faint)]">{list.length}</span>
@@ -96,12 +96,12 @@ export function LearnIndex({ kind }: { kind: LearnKind }) {
           )}
           {groups.map(([letter, list]) => (
             <div key={letter || "all"} id={letter ? groupId(letter) : undefined} className="mb-10 scroll-mt-28">
-              {letter && <h2 className={`${label} text-[color:var(--color-forge)] mb-3`}>{letter}</h2>}
+              {letter && <h2 className={`${label} text-[color:var(--color-forge-text)] mb-3`}>{letter}</h2>}
               <ul className="divide-y divide-[color:var(--color-hairline)] border-y border-[color:var(--color-hairline)]">
                 {list.map((p) => (
                   <li key={p.slug}>
                     <Link href={learnHref(p)} className="group block py-4">
-                      <div className="text-[17px] font-semibold tracking-tight font-[family-name:var(--font-display)] text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)]">
+                      <div className="text-[17px] font-semibold tracking-tight font-[family-name:var(--font-display)] text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge-text)]">
                         {p.title}
                       </div>
                       <p className="mt-1 text-[14.5px] leading-[1.55] text-[color:var(--color-ink-muted)]">{p.description}</p>

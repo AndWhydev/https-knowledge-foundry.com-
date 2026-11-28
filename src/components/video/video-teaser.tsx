@@ -25,7 +25,7 @@ export function VideoTeaser() {
           </div>
           <Link
             href="/platform/see-it-work"
-            className="group inline-flex shrink-0 items-center gap-2 whitespace-nowrap py-2 text-[15px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)]"
+            className="group inline-flex shrink-0 items-center gap-2 whitespace-nowrap py-2 text-[15px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge-text)]"
           >
             <span className="border-b border-current pb-0.5">Watch all {videos.length} explainers</span>
             <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden />
@@ -57,10 +57,10 @@ export function VideoTeaser() {
                     {clock(v.seconds)}
                   </span>
                 </div>
-                <div className="mt-4 text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)]">
+                <div className="mt-4 text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge-text)]">
                   {i === 0 ? "Start here" : v.chapter}
                 </div>
-                <div className="mt-1 text-[19px] font-semibold tracking-tight font-[family-name:var(--font-display)] text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)]">
+                <div className="mt-1 text-[19px] font-semibold tracking-tight font-[family-name:var(--font-display)] text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge-text)]">
                   {v.title}
                 </div>
                 <p className="mt-1 text-[14.5px] leading-[1.55] text-[color:var(--color-ink-muted)]">{v.tagline}</p>

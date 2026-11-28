@@ -51,7 +51,7 @@ export function FAQ({
                   aria-expanded={isOpen}
                   aria-controls={`faq-${i}`}
                 >
-                  <span className="text-[17px] md:text-[19px] font-semibold tracking-tight font-[family-name:var(--font-display)] text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge)] transition-colors">
+                  <span className="text-[17px] md:text-[19px] font-semibold tracking-tight font-[family-name:var(--font-display)] text-[color:var(--color-ink)] group-hover:text-[color:var(--color-forge-text)] transition-colors">
                     {item.q}
                   </span>
                   <span

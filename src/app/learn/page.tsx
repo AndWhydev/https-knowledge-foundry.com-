@@ -35,7 +35,7 @@ export default function LearnHub() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <section className="bg-[color:var(--color-canvas-warm)] pt-10 md:pt-14 pb-12 border-b border-[color:var(--color-hairline-strong)]">
         <Container size="narrow">
-          <div className={`${label} text-[color:var(--color-forge)] mb-4`}>Learn</div>
+          <div className={`${label} text-[color:var(--color-forge-text)] mb-4`}>Learn</div>
           <h1 className="text-[36px] md:text-[52px] leading-[1.04] font-[family-name:var(--font-display)] font-semibold tracking-[-0.03em] text-[color:var(--color-ink)] max-w-[20ch]">
             Reference for building training that holds up under audit.
           </h1>
@@ -57,7 +57,7 @@ export default function LearnHub() {
                   <h2 className="text-[26px] md:text-[30px] font-[family-name:var(--font-display)] font-semibold tracking-tight text-[color:var(--color-ink)]">
                     {kinds[k].label}
                   </h2>
-                  <Link href={kinds[k].path} className="shrink-0 inline-flex items-center gap-1.5 py-2 text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)]">
+                  <Link href={kinds[k].path} className="shrink-0 inline-flex items-center gap-1.5 py-2 text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge-text)]">
                     All {pages.length}
                     <ArrowUpRight className="h-4 w-4" aria-hidden />
                   </Link>
@@ -66,7 +66,7 @@ export default function LearnHub() {
                 <ul className="grid sm:grid-cols-2 gap-x-8 border-t border-[color:var(--color-hairline)]">
                   {pages.slice(0, 8).map((p) => (
                     <li key={p.slug} className="border-b border-[color:var(--color-hairline)]">
-                      <Link href={learnHref(p)} className="block py-3 text-[15px] text-[color:var(--color-ink-soft)] hover:text-[color:var(--color-forge)]">
+                      <Link href={learnHref(p)} className="block py-3 text-[15px] text-[color:var(--color-ink-soft)] hover:text-[color:var(--color-forge-text)]">
                         {p.title}
                       </Link>
                     </li>

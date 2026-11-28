@@ -124,7 +124,7 @@ export default function WhoCanUseThisPage() {
         title={
           <>
             Built for the people who{" "}
-            <span className="text-[color:var(--color-forge)]">answer the audit.</span>
+            <span className="text-[color:var(--color-forge-text)]">answer the audit.</span>
           </>
         }
         lede="Knowledge Foundry is built for senior owners of programs that must be defensible. If the phrase 'how do you know?' arrives at your desk, this is for you. If it does not, there are simpler tools that will serve you better."
@@ -153,7 +153,7 @@ export default function WhoCanUseThisPage() {
               <RevealItem key={p.title}>
                 <article className="h-full rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white p-8">
                   <div className="flex items-center gap-4 mb-5">
-                    <span className="inline-flex h-11 w-11 items-center justify-center rounded-[var(--radius-sm)] bg-[color:var(--color-canvas-tint)] text-[color:var(--color-forge)]">
+                    <span className="inline-flex h-11 w-11 items-center justify-center rounded-[var(--radius-sm)] bg-[color:var(--color-canvas-tint)] text-[color:var(--color-forge-text)]">
                       {p.icon}
                     </span>
                     <h3 className="text-[20px] font-semibold tracking-tight font-[family-name:var(--font-display)]">
@@ -166,7 +166,7 @@ export default function WhoCanUseThisPage() {
                   <ul className="space-y-2.5">
                     {p.outcomes.map((o) => (
                       <li key={o} className="flex items-start gap-2.5 text-[13.5px] leading-[1.6] text-[color:var(--color-ink-muted)]">
-                        <CheckCircle2 className="h-4 w-4 mt-0.5 shrink-0 text-[color:var(--color-forge)]" aria-hidden />
+                        <CheckCircle2 className="h-4 w-4 mt-0.5 shrink-0 text-[color:var(--color-forge-text)]" aria-hidden />
                         <span>{o}</span>
                       </li>
                     ))}

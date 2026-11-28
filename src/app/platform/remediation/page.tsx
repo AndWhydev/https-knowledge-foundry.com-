@@ -144,7 +144,7 @@ export default function RemediationPage() {
         title={
           <>
             Preserve what works.{" "}
-            <span className="text-[color:var(--color-forge)]">Improve</span> what does not.
+            <span className="text-[color:var(--color-forge-text)]">Improve</span> what does not.
           </>
         }
         lede="When a gap is identified, the reflex is to rebuild. Rebuilds lose institutional knowledge, disrupt learners, and introduce their own omissions. Remediation strengthens existing content in place. Each change is scoped, cited, approved, and reversible."

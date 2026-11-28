@@ -134,7 +134,7 @@ export default function HybridVerificationPage() {
         ]}
         title={
           <>
-            Exposure is <span className="text-[color:var(--color-forge)]">not</span> proof.
+            Exposure is <span className="text-[color:var(--color-forge-text)]">not</span> proof.
           </>
         }
         lede="The Foundry combines structured learning with integrated validation to produce demonstrable, defensible competence. Every lesson is anchored to a verification checkpoint. Confirmed readiness, not attended sessions."

@@ -38,10 +38,10 @@ export function Related({
                   href={item.href}
                   className="group block h-full rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white p-7 hover:border-[color:var(--color-ink-soft)] transition-all duration-300"
                 >
-                  <div className="text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge)] mb-3">
+                  <div className="text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-forge-text)] mb-3">
                     {item.eyebrow}
                   </div>
-                  <h3 className="text-[19px] font-[family-name:var(--font-display)] font-semibold tracking-tight mb-3 group-hover:text-[color:var(--color-forge)] transition-colors">
+                  <h3 className="text-[19px] font-[family-name:var(--font-display)] font-semibold tracking-tight mb-3 group-hover:text-[color:var(--color-forge-text)] transition-colors">
                     {item.title}
                   </h3>
                   <p className="text-[13.5px] text-[color:var(--color-ink-muted)] leading-[1.6]">

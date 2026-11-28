@@ -142,7 +142,7 @@ export default function IndustriesIndexPage() {
         breadcrumb={[{ label: "Industries", href: "/industries" }]}
         title={
           <>
-            Regulated, evidenced, <span className="text-[color:var(--color-forge)]">ready for audit</span> in your sector.
+            Regulated, evidenced, <span className="text-[color:var(--color-forge-text)]">ready for audit</span> in your sector.
           </>
         }
         lede="Six industry contexts. One architecture. Each program carries provenance to the regulatory clause, standard, or accreditation criterion it exists to serve, and the evidence exports as a file, not a promise."

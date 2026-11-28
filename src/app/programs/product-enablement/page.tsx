@@ -134,7 +134,7 @@ export default function ProductEnablementPage() {
         ]}
         title={
           <>
-            Structure governs product <span className="text-[color:var(--color-forge)]">mastery</span>.
+            Structure governs product <span className="text-[color:var(--color-forge-text)]">mastery</span>.
           </>
         }
         lede="The Foundry transforms product documentation into structured learning systems aligned to correct use, safe operation, and measurable proficiency. Documentation informs. Structure enables."

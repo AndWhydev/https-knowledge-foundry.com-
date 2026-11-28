@@ -43,7 +43,7 @@ export default function PlatformPage() {
       <TopicHeader
         eyebrow="The Platform"
         breadcrumb={[{ label: "Platform", href: "/platform" }]}
-        title={<>The system behind <span className="text-[color:var(--color-forge)]">structured</span> knowledge.</>}
+        title={<>The system behind <span className="text-[color:var(--color-forge-text)]">structured</span> knowledge.</>}
         lede="Knowledge Foundry turns subjects, documents, and requirements into structured learning systems. Ten capabilities, one coherent architecture, designed to produce programs that are correct by construction and provably so."
         secondaryCta={{ label: "See it work", href: "/platform/see-it-work" }}
         visual={<HeroLattice className="w-full aspect-square max-w-[520px] mx-auto" />}

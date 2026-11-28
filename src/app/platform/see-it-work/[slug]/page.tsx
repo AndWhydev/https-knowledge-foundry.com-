@@ -76,11 +76,11 @@ export default async function WatchPage({ params }: { params: Promise<{ slug: st
           <nav aria-label="Breadcrumb" className={`${label} text-[color:var(--color-ink-muted)] mb-6`}>
             <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
               <li>
-                <Link href="/platform" className="hover:text-[color:var(--color-forge)]">Platform</Link>
+                <Link href="/platform" className="hover:text-[color:var(--color-forge-text)]">Platform</Link>
               </li>
               <li aria-hidden>/</li>
               <li>
-                <Link href="/platform/see-it-work" className="hover:text-[color:var(--color-forge)]">See it work</Link>
+                <Link href="/platform/see-it-work" className="hover:text-[color:var(--color-forge-text)]">See it work</Link>
               </li>
             </ol>
           </nav>
@@ -94,7 +94,7 @@ export default async function WatchPage({ params }: { params: Promise<{ slug: st
               />
             </div>
             <div>
-              <div className={`${label} text-[color:var(--color-forge)] mb-3`}>
+              <div className={`${label} text-[color:var(--color-forge-text)] mb-3`}>
                 {v.chapter} · {clock(v.seconds)}
               </div>
               <h1 className="text-[32px] md:text-[42px] leading-[1.05] font-[family-name:var(--font-display)] font-semibold tracking-[-0.03em] text-[color:var(--color-ink)]">
@@ -103,7 +103,7 @@ export default async function WatchPage({ params }: { params: Promise<{ slug: st
               <p className="mt-3 text-[17px] leading-[1.55] text-[color:var(--color-ink-soft)]">{v.tagline}</p>
               <p className="mt-5 text-[15.5px] leading-[1.7] text-[color:var(--color-ink-muted)]">{v.summary}</p>
               {next && (
-                <Link href={videoHref(next)} className="mt-6 inline-flex items-center gap-2 py-2 text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)]">
+                <Link href={videoHref(next)} className="mt-6 inline-flex items-center gap-2 py-2 text-[14px] font-medium text-[color:var(--color-ink)] hover:text-[color:var(--color-forge-text)]">
                   <span className="border-b border-current pb-0.5">Next: {next.title}</span>
                 </Link>
               )}

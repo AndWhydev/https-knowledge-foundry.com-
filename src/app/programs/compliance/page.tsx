@@ -134,7 +134,7 @@ export default function ComplianceProgramsPage() {
         ]}
         title={
           <>
-            Awareness is <span className="text-[color:var(--color-forge)]">not</span> adherence.
+            Awareness is <span className="text-[color:var(--color-forge-text)]">not</span> adherence.
           </>
         }
         lede="The Foundry translates regulatory and policy requirements into structured behavioral instruction at the resolution of a clause. Compliance becomes a technical outcome, not a generic awareness exercise."

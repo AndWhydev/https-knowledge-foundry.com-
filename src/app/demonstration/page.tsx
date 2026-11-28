@@ -54,7 +54,7 @@ export default function DemonstrationPage() {
         title={
           <>
             Bring a subject.{" "}
-            <span className="text-[color:var(--color-forge)]">Leave with a framework.</span>
+            <span className="text-[color:var(--color-forge-text)]">Leave with a framework.</span>
           </>
         }
         lede="A 45 minute working session with our team on a real subject or program you own. You see the platform operate on your material, and you keep the framework it produces. Reply within one business day, always."
@@ -79,7 +79,7 @@ export default function DemonstrationPage() {
               <ul className="mt-8 space-y-5">
                 {bring.map((b) => (
                   <li key={b.title} className="flex gap-4">
-                    <CheckCircle2 className="h-5 w-5 mt-1 shrink-0 text-[color:var(--color-forge)]" aria-hidden />
+                    <CheckCircle2 className="h-5 w-5 mt-1 shrink-0 text-[color:var(--color-forge-text)]" aria-hidden />
                     <div>
                       <div className="text-[15.5px] font-semibold text-[color:var(--color-ink)]">
                         {b.title}
@@ -105,7 +105,7 @@ export default function DemonstrationPage() {
               <ul className="mt-8 space-y-5">
                 {leaveWith.map((b) => (
                   <li key={b.title} className="flex gap-4">
-                    <CheckCircle2 className="h-5 w-5 mt-1 shrink-0 text-[color:var(--color-forge)]" aria-hidden />
+                    <CheckCircle2 className="h-5 w-5 mt-1 shrink-0 text-[color:var(--color-forge-text)]" aria-hidden />
                     <div>
                       <div className="text-[15.5px] font-semibold text-[color:var(--color-ink)]">
                         {b.title}
@@ -156,7 +156,7 @@ export default function DemonstrationPage() {
                   Full detail on how we handle personal information (including
                   storage, retention, access, correction, and complaint
                   handling) is set out in our{" "}
-                  <Link href="/privacy" className="text-[color:var(--color-forge)] underline underline-offset-2">
+                  <Link href="/privacy" className="text-[color:var(--color-forge-text)] underline underline-offset-2">
                     privacy policy
                   </Link>
                   .
@@ -171,13 +171,13 @@ export default function DemonstrationPage() {
         <Container size="narrow">
           <div className="grid md:grid-cols-2 gap-6">
             <div className="rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white p-8">
-              <Mail className="h-5 w-5 text-[color:var(--color-forge)] mb-4" aria-hidden />
+              <Mail className="h-5 w-5 text-[color:var(--color-forge-text)] mb-4" aria-hidden />
               <div className="text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-ink-faint)] mb-2">
                 Prefer email?
               </div>
               <a
                 href={`mailto:${site.contact.email}`}
-                className="text-[18px] font-semibold text-[color:var(--color-ink)] hover:text-[color:var(--color-forge)] transition-colors"
+                className="text-[18px] font-semibold text-[color:var(--color-ink)] hover:text-[color:var(--color-forge-text)] transition-colors"
               >
                 {site.contact.email}
               </a>
@@ -187,7 +187,7 @@ export default function DemonstrationPage() {
               </p>
             </div>
             <div className="rounded-[var(--radius-lg)] border border-[color:var(--color-hairline)] bg-white p-8">
-              <Clock3 className="h-5 w-5 text-[color:var(--color-forge)] mb-4" aria-hidden />
+              <Clock3 className="h-5 w-5 text-[color:var(--color-forge-text)] mb-4" aria-hidden />
               <div className="text-[11px] font-medium uppercase tracking-[0.14em] font-[family-name:var(--font-jetbrains)] text-[color:var(--color-ink-faint)] mb-2">
                 Response time
               </div>

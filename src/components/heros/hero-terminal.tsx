@@ -38,7 +38,7 @@ export function HeroTerminal({
 
   const colorClass = (c?: string) => {
     switch (c) {
-      case "forge": return "text-[color:var(--color-forge)]";
+      case "forge": return "text-[color:var(--color-forge-text)]";
       case "ok":    return "text-emerald-300";
       case "muted": return "text-white/45";
       default:      return "text-white/80";

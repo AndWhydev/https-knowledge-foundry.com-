@@ -9,9 +9,9 @@ import {
 
 export const metadata: Metadata = {
   alternates: { canonical: "/case-studies/regulated-financial-services" },
-  title: "Case study: tier 1 bank MiFID II competence refresh",
+  title: "Illustrative example: tier 1 bank MiFID II competence refresh",
   description:
-    "How a tier 1 European bank rebuilt its MiFID II knowledge and competence training on a governed framework after a supervisory thematic review flagged evidence gaps.",
+    "An illustrative example of how a tier 1 European bank rebuilds its MiFID II knowledge and competence training on a governed framework after a supervisory thematic review flags evidence gaps.",
 };
 
 const chapters: CaseChapter[] = [
@@ -111,7 +111,7 @@ export default function Page() {
             { value: 100, suffix: "%", label: "framework coverage of the approved MiFID II competence requirement set" },
             { value: 4, suffix: " hrs", label: "to generate an evidence pack ready for the regulator (previously weeks)" },
           ]}
-          footnote="Illustrative outcomes drawn from typical engagement patterns. Specific program figures shared under NDA on request."
+          footnote="Indicative figures for an illustrative scenario, not results from a named client."
         />
       </Chapter>
 

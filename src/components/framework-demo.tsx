@@ -449,11 +449,11 @@ function PhaseIndicator({ phase }: { phase: Phase }) {
     complete: "Complete",
   };
   const icon: Record<Phase, React.ReactNode> = {
-    typing: <Sparkles className="h-3 w-3 text-[color:var(--color-forge)]" />,
-    extracting: <Layers3 className="h-3 w-3 text-[color:var(--color-forge)]" />,
-    structuring: <Layers3 className="h-3 w-3 text-[color:var(--color-forge)]" />,
-    verifying: <Fingerprint className="h-3 w-3 text-[color:var(--color-forge)]" />,
-    complete: <Check className="h-3 w-3 text-[color:var(--color-forge)]" />,
+    typing: <Sparkles className="h-3 w-3 text-[color:var(--color-forge-text)]" />,
+    extracting: <Layers3 className="h-3 w-3 text-[color:var(--color-forge-text)]" />,
+    structuring: <Layers3 className="h-3 w-3 text-[color:var(--color-forge-text)]" />,
+    verifying: <Fingerprint className="h-3 w-3 text-[color:var(--color-forge-text)]" />,
+    complete: <Check className="h-3 w-3 text-[color:var(--color-forge-text)]" />,
   };
   return (
     <span className="inline-flex items-center gap-1.5 text-white/60">
@@ -487,7 +487,7 @@ function MetricPill({ label, value, active }: { label: string; value: number; ac
         transition={{ duration: 0.3, type: "spring" }}
         className={cn(
           "mt-1 text-[20px] font-[family-name:var(--font-display)] font-semibold tracking-tight leading-none transition-colors",
-          active ? "text-[color:var(--color-forge)]" : "text-white",
+          active ? "text-[color:var(--color-forge-text)]" : "text-white",
         )}
       >
         {value}
@@ -812,7 +812,7 @@ function NodeDetail({
 
 function ClickHint({ reduce, className }: { reduce: boolean; className?: string }) {
   return (
-    <div className={cn("flex items-center justify-center gap-2 text-[color:var(--color-forge)]", className)}>
+    <div className={cn("flex items-center justify-center gap-2 text-[color:var(--color-forge-text)]", className)}>
       <MousePointerClick className="h-4 w-4" aria-hidden />
       <span className="font-[family-name:var(--font-jetbrains)] text-[11.5px] font-medium uppercase tracking-[0.14em]">
         Click any node to learn more

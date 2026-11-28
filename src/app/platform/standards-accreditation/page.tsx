@@ -140,7 +140,7 @@ export default function StandardsAccreditationPage() {
         title={
           <>
             Alignment is{" "}
-            <span className="text-[color:var(--color-forge)]">explicit</span>.
+            <span className="text-[color:var(--color-forge-text)]">explicit</span>.
             Gaps are visible.
           </>
         }
